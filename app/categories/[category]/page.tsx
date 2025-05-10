@@ -75,14 +75,16 @@ interface CategoryPageProps {
 }
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
-  const categoryName = decodeURIComponent(params.category)
+  const categoryName = await decodeURIComponent(params.category)
     .split("-")
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ")
 
   // Filter tools by category
   const categoryTools = mockTools.filter(tool =>
-    tool.categories.includes(params.category)
+    tool.categories.some(category =>
+      category.toLowerCase() === categoryName.toLowerCase()
+    )
   )
 
   if (categoryTools.length === 0) {
@@ -90,7 +92,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   }
 
   // Get icon, description, and color for the category
-  const info = categoryInfo[params.category] || { icon: FileText, description: "AI tools for various purposes.", color: "bg-gray-100 text-gray-500" }
+  const info = categoryInfo[categoryName] || { icon: FileText, description: "AI tools for various purposes.", color: "bg-gray-100 text-gray-500" }
   const Icon = info.icon
 
   return (
