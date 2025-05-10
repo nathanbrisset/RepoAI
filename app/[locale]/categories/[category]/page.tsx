@@ -1,78 +1,138 @@
-import { ArrowLeft } from "lucide-react"
-import Link from "next/link"
 import ToolCard from "@/components/tool-card"
-import { aiTools } from "@/data/ai-tools"
+import { mockTools } from "@/lib/data"
+import { notFound } from "next/navigation"
+import Link from "next/link"
+import { ArrowLeft, MessageSquare, Image as ImageIcon, Mic, Palette, Clock, Code, FileText, Video, BarChart, Database } from "lucide-react"
+
+// Category info with icons and descriptions
+const categoryInfo: Record<string, { icon: any, description: string, color: string }> = {
+  "Text Generation": {
+    icon: MessageSquare,
+    description: "AI tools for writing, content creation, and text processing",
+    color: "bg-purple-50 text-purple-600"
+  },
+  "Image Generation": {
+    icon: ImageIcon,
+    description: "Create and edit images, graphics, and visual content",
+    color: "bg-pink-50 text-pink-600"
+  },
+  "Coding": {
+    icon: Code,
+    description: "AI assistants for programming and development",
+    color: "bg-blue-50 text-blue-600"
+  },
+  "Audio & Speech": {
+    icon: Mic,
+    description: "Generate and process audio, voice, and speech",
+    color: "bg-yellow-50 text-yellow-600"
+  },
+  "Design": {
+    icon: Palette,
+    description: "AI tools for UI/UX, graphic design, and visual creation",
+    color: "bg-green-50 text-green-600"
+  },
+  "Productivity": {
+    icon: Clock,
+    description: "Tools to enhance workflow and task management",
+    color: "bg-orange-50 text-orange-600"
+  },
+  "Research": {
+    icon: Database,
+    description: "AI tools for data analysis, research, and scientific discovery",
+    color: "bg-indigo-50 text-indigo-600"
+  },
+  "Video": {
+    icon: Video,
+    description: "Create, edit, and enhance videos with AI",
+    color: "bg-red-50 text-red-600"
+  },
+  "Analytics": {
+    icon: BarChart,
+    description: "Data analysis, insights, and business intelligence",
+    color: "bg-violet-50 text-violet-600"
+  },
+  "Data Processing": {
+    icon: Database,
+    description: "Process, clean, and transform data with AI",
+    color: "bg-teal-50 text-teal-600"
+  }
+}
 
 interface CategoryPageProps {
   params: {
     category: string
+    locale: string
   }
 }
 
-export default function CategoryPage({ params }: CategoryPageProps) {
-  // Convert URL parameter to match our category format
+export default async function CategoryPage({ params }: CategoryPageProps) {
   const categoryName = decodeURIComponent(params.category)
     .split("-")
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ")
-  
+
   // Filter tools by category
-  const categoryTools = aiTools.filter(tool => 
-    tool.categories.some(category => 
+  const categoryTools = mockTools.filter(tool =>
+    tool.categories.some(category =>
       category.toLowerCase() === categoryName.toLowerCase()
     )
   )
 
+  if (categoryTools.length === 0) {
+    notFound()
+  }
+
+  // Get icon, description, and color for the category
+  const info = categoryInfo[categoryName] || { icon: FileText, description: "AI tools for various purposes.", color: "bg-gray-100 text-gray-500" }
+  const Icon = info.icon
+
   return (
-    <div className="container mx-auto max-w-6xl px-4 py-12">
-      {/* Breadcrumb */}
-      <div className="mb-6">
-        <Link href="/categories" className="flex items-center text-sm text-gray-600 hover:text-gray-900">
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          All Categories
-        </Link>
-      </div>
-
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">{categoryName}</h1>
-        <p className="text-gray-600 max-w-3xl">
-          Browse our collection of {categoryName.toLowerCase()} AI tools. Find the perfect solution for your needs.
-        </p>
-      </div>
-
-      {/* Tools Grid */}
-      {categoryTools.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {categoryTools.map((tool) => (
-            <ToolCard key={tool.id} tool={tool} />
-          ))}
-        </div>
-      ) : (
-        <div className="text-center py-12 bg-gray-50 rounded-lg mb-12">
-          <h3 className="text-xl font-medium mb-2">No tools found</h3>
-          <p className="text-gray-600 mb-6">We couldn't find any tools in this category yet.</p>
-          <Link href="/submit" className="text-purple-600 hover:text-purple-800 font-medium">
-            Submit a Tool
+    <div className="container mx-auto max-w-6xl py-8 px-4">
+      {/* Sticky header for title, description, and filter */}
+      <div className="sticky top-16 z-20 bg-white pt-4 pb-4 mb-8 shadow-sm border-b">
+        {/* Back link */}
+        <div className="mb-2">
+          <Link href={`/${params.locale}/categories`} className="inline-flex items-center text-gray-500 hover:text-gray-700 text-sm font-medium">
+            <ArrowLeft className="w-4 h-4 mr-1" />
+            All Categories
           </Link>
         </div>
-      )}
-
-      {/* Category Info */}
-      <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-6 border border-purple-100 mt-8">
-        <h2 className="text-xl font-bold mb-4">About {categoryName} AI Tools</h2>
-        <p className="mb-4">
-          {categoryName} AI tools leverage artificial intelligence to enhance and automate various tasks in this domain.
-          These innovative solutions are transforming how professionals and individuals approach their work.
-        </p>
-        <p className="mb-4">
-          When choosing a {categoryName.toLowerCase()} AI tool, consider factors like ease of use, output quality,
-          customization options, and pricing. Many tools offer free trials or freemium models, allowing you to test
-          their capabilities before committing to a paid plan.
-        </p>
-        <p>
-          Browse our curated selection of the best {categoryName.toLowerCase()} AI tools to find the perfect solution
-          for your specific needs and budget.
-        </p>
+        {/* Title and icon */}
+        <div className="flex items-center mb-2">
+          <div className={`w-10 h-10 rounded-lg flex items-center justify-center mr-3 ${info.color}`}>
+            <Icon className="w-6 h-6" />
+          </div>
+          <h1 className="text-3xl font-extrabold text-gray-900">{categoryName}</h1>
+        </div>
+        {/* Description */}
+        <p className="text-lg text-gray-600 mb-4">{info.description}</p>
+        {/* Filter bar */}
+        <div className="bg-gray-50 border rounded-xl px-6 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+          <div>
+            <span className="font-semibold">{categoryTools.length} tools found</span>
+            <span className="ml-2 text-gray-500">Browse all {categoryName.toLowerCase()} tools</span>
+          </div>
+          <div className="flex gap-2 mt-2 md:mt-0">
+            <select className="border rounded-md px-3 py-2 bg-white text-gray-700 text-sm focus:outline-none focus:ring-2 focus:ring-purple-200">
+              <option>Newest First</option>
+              <option>Oldest First</option>
+              <option>Top Rated</option>
+              <option>Most Visited</option>
+            </select>
+            <select className="border rounded-md px-3 py-2 bg-white text-gray-700 text-sm focus:outline-none focus:ring-2 focus:ring-purple-200">
+              <option>All Prices</option>
+              <option>Free</option>
+              <option>Paid</option>
+              <option>Freemium</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      {/* Tools grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {categoryTools.map((tool) => (
+          <ToolCard key={tool.id} tool={tool} />
+        ))}
       </div>
     </div>
   )

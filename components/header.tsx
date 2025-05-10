@@ -40,7 +40,7 @@ export default function Header() {
               <DropdownMenuTrigger asChild>
                 <Button variant="outline" size="sm">
                   {language === "en" ? "EN" : "FR"}
-                </Button>
+            </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
                 <DropdownMenuItem onClick={() => setLanguage("en")}>English</DropdownMenuItem>

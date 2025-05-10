@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
-import { aiTools } from "@/data/ai-tools"
+import { mockTools } from "@/lib/data"
 
 interface ToolPageProps {
   params: {
@@ -14,7 +14,7 @@ interface ToolPageProps {
 }
 
 export default function ToolPage({ params }: ToolPageProps) {
-  const tool = aiTools.find((t) => t.id === params.id)
+  const tool = mockTools.find((t) => t.id === params.id)
 
   if (!tool) {
     notFound()

@@ -1,19 +1,19 @@
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { aiTools } from "@/data/ai-tools"
+import { mockTools } from "@/lib/data"
 import ToolCard from "@/components/tool-card"
 import CategoryFilter from "@/components/category-filter"
 import FeaturedTool from "@/components/featured-tool"
 
 export default function Home() {
   // Get the newest tools (last 5 added)
-  const newTools = [...aiTools]
+  const newTools = [...mockTools]
     .sort((a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime())
     .slice(0, 5)
 
   // Get the most visited tool
-  const featuredTool = [...aiTools].sort((a, b) => b.visits - a.visits)[0]
+  const featuredTool = [...mockTools].sort((a, b) => b.visits - a.visits)[0]
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -76,7 +76,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[...aiTools]
+            {[...mockTools]
               .sort((a, b) => b.visits - a.visits)
               .slice(0, 6)
               .map((tool) => (

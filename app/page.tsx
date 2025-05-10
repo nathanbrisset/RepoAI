@@ -20,7 +20,7 @@ export default function Home() {
   const featuredTool = [...mockTools].sort((a, b) => b.rating * b.visits - a.rating * a.visits)[0]
 
   return (
-    <>
+    <div className="min-h-screen bg-gray-50">
       <section className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-16 px-4">
         <div className="container mx-auto max-w-6xl flex flex-col items-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">AITools.ninja</h1>
@@ -84,6 +84,6 @@ export default function Home() {
           </div>
         </section>
       </div>
-    </>
+    </div>
   )
 }

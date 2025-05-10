@@ -8,7 +8,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import { aiTools } from "@/data/ai-tools"
+import { mockTools } from "@/lib/data"
 import ToolCard from "@/components/tool-card"
 
 export default function ToolsPage() {
@@ -22,7 +22,7 @@ export default function ToolsPage() {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {aiTools.map((tool) => (
+        {mockTools.map((tool) => (
           <ToolCard key={tool.id} tool={tool} />
         ))}
       </div>

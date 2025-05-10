@@ -1,12 +1,21 @@
 import ToolCard from "@/components/tool-card"
-import { aiTools } from "@/data/ai-tools"
+import { mockTools } from "@/lib/data"
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import { ArrowLeft, MessageSquare, Image as ImageIcon, Mic, Palette, Clock, Code, FileText, Video, BarChart, Database } from "lucide-react"
-import { useState } from "react"
 
 // Category info with icons and descriptions
 const categoryInfo: Record<string, { icon: any, description: string, color: string }> = {
+  "text": {
+    icon: MessageSquare,
+    description: "AI tools for writing, content creation, and text processing",
+    color: "bg-purple-50 text-purple-600"
+  },
+  "image": {
+    icon: ImageIcon,
+    description: "Create and edit images, graphics, and visual content",
+    color: "bg-pink-50 text-pink-600"
+  },
   "Text Generation": {
     icon: MessageSquare,
     description: "AI tools for writing, content creation, and text processing",
@@ -66,18 +75,14 @@ interface CategoryPageProps {
 }
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
-  // Next.js 15+ requires awaiting params
-  const categoryParam = params.category
-  const categoryName = decodeURIComponent(categoryParam)
+  const categoryName = decodeURIComponent(params.category)
     .split("-")
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ")
 
   // Filter tools by category
-  const categoryTools = aiTools.filter(tool =>
-    tool.categories.some(category =>
-      category.toLowerCase() === categoryName.toLowerCase()
-    )
+  const categoryTools = mockTools.filter(tool =>
+    tool.categories.includes(params.category)
   )
 
   if (categoryTools.length === 0) {
@@ -85,13 +90,8 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   }
 
   // Get icon, description, and color for the category
-  const info = categoryInfo[categoryName] || { icon: FileText, description: "AI tools for various purposes.", color: "bg-gray-100 text-gray-500" }
+  const info = categoryInfo[params.category] || { icon: FileText, description: "AI tools for various purposes.", color: "bg-gray-100 text-gray-500" }
   const Icon = info.icon
-
-  // Filter bar state (for demonstration, not functional)
-  // In a real app, you would use useState and handlers for these
-  const toolCount = categoryTools.length
-  const subtitle = `Browse all ${categoryName.toLowerCase()} tools`
 
   return (
     <div className="container mx-auto max-w-6xl py-8 px-4">
@@ -109,15 +109,15 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           <div className={`w-10 h-10 rounded-lg flex items-center justify-center mr-3 ${info.color}`}>
             <Icon className="w-6 h-6" />
           </div>
-          <h1 className="text-3xl font-extrabold text-gray-900">{categoryName}</h1>
+          <h1 className="text-3xl font-extrabold text-gray-900 uppercase">{categoryName}</h1>
         </div>
         {/* Description */}
         <p className="text-lg text-gray-600 mb-4">{info.description}</p>
         {/* Filter bar */}
         <div className="bg-gray-50 border rounded-xl px-6 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
           <div>
-            <span className="font-semibold">{toolCount} tools found</span>
-            <span className="ml-2 text-gray-500">{subtitle}</span>
+            <span className="font-semibold">{categoryTools.length} tools found</span>
+            <span className="ml-2 text-gray-500">Browse all {categoryName.toLowerCase()} tools</span>
           </div>
           <div className="flex gap-2 mt-2 md:mt-0">
             <select className="border rounded-md px-3 py-2 bg-white text-gray-700 text-sm focus:outline-none focus:ring-2 focus:ring-purple-200">

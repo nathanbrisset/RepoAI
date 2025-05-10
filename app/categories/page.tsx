@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { aiTools } from "@/data/ai-tools"
+import { mockTools } from "@/lib/data"
 import { 
   MessageSquare, 
   Image, 
@@ -61,7 +61,7 @@ const categoryInfo: Record<string, { icon: any, description: string }> = {
 export default function CategoriesPage() {
   // Get unique categories from all tools
   const categories = Array.from(
-    new Set(aiTools.flatMap(tool => tool.categories))
+    new Set(mockTools.flatMap(tool => tool.categories))
   ).sort()
 
   return (
@@ -80,7 +80,7 @@ export default function CategoriesPage() {
       <hr className="my-8" />
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {categories.map((category) => {
-          const categoryTools = aiTools.filter(tool =>
+          const categoryTools = mockTools.filter(tool =>
             tool.categories.includes(category)
           )
           const { icon: Icon, description } = categoryInfo[category] || { icon: FileText, description: "AI tools for various purposes" }

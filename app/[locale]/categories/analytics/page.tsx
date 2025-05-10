@@ -1,12 +1,12 @@
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import ToolCard from "@/components/tool-card"
-import { aiTools } from "@/data/ai-tools"
+import { mockTools } from "@/lib/data"
 
 export default function AnalyticsCategoryPage() {
   const categoryName = "Analytics"
-  const categoryTools = aiTools.filter(tool =>
-    tool.categories.some(category => category.toLowerCase() === categoryName.toLowerCase())
+  const categoryTools = mockTools.filter(tool =>
+    tool.categories.includes("Analytics")
   )
 
   return (
