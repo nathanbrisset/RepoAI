@@ -8,11 +8,12 @@ export interface Tool {
   image: string
   logo?: string
   categories: string[]
+  subcategory?: string
   tags?: string[]
   rating: number
   visits: number
   dateAdded: string
-  isPremium?: boolean
+  isPremium?: 'Free' | 'Freemium' | 'Premium'
 }
 
 export interface Category {

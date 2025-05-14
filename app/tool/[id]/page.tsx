@@ -30,9 +30,9 @@ export default function ToolPage({ params }: ToolPageProps) {
     <div className="container mx-auto max-w-6xl px-4 py-8">
       {/* Breadcrumb */}
       <div className="mb-6">
-        <Link href="/" className="flex items-center text-sm text-gray-600 hover:text-gray-900">
+        <Link href={`/categories/${tool.categories[0]}`} className="flex items-center text-sm text-gray-600 hover:text-gray-900">
           <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
+          Back to {tool.categories[0]}
         </Link>
       </div>
 
@@ -59,7 +59,7 @@ export default function ToolPage({ params }: ToolPageProps) {
 
             <div className="flex flex-wrap gap-2 mb-4">
               {tool.categories.map((category) => (
-                <Link href={`/category/${category}`} key={category}>
+                <Link href={`/categories/${category}`} key={category}>
                   <Badge variant="secondary">{category}</Badge>
                 </Link>
               ))}
@@ -83,10 +83,9 @@ export default function ToolPage({ params }: ToolPageProps) {
 
           {/* Tabs */}
           <Tabs defaultValue="overview" className="mb-8">
-            <TabsList className="grid w-full grid-cols-4">
+            <TabsList className="grid w-full grid-cols-3">
               <TabsTrigger value="overview">Overview</TabsTrigger>
               <TabsTrigger value="features">Features</TabsTrigger>
-              <TabsTrigger value="pricing">Pricing</TabsTrigger>
               <TabsTrigger value="reviews">Reviews</TabsTrigger>
             </TabsList>
             <TabsContent value="overview" className="pt-4">
@@ -115,46 +114,6 @@ export default function ToolPage({ params }: ToolPageProps) {
                   </li>
                 ))}
               </ul>
-            </TabsContent>
-            <TabsContent value="pricing" className="pt-4">
-              <h2 className="text-xl font-bold mb-4">Pricing Plans</h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {getToolPricing(tool.isPremium).map((plan, index) => (
-                  <Card key={index} className={index === 1 ? "border-purple-500 border-2" : ""}>
-                    <CardContent className="pt-6">
-                      {index === 1 && (
-                        <Badge className="mb-2 bg-gradient-to-r from-purple-600 to-pink-500">Most Popular</Badge>
-                      )}
-                      <h3 className="text-lg font-bold mb-1">{plan.name}</h3>
-                      <div className="mb-4">
-                        <span className="text-3xl font-bold">${plan.price}</span>
-                        {plan.period && <span className="text-gray-600">/{plan.period}</span>}
-                      </div>
-                      <p className="text-gray-600 mb-4">{plan.description}</p>
-                      <ul className="space-y-2 mb-6">
-                        {plan.features.map((feature, i) => (
-                          <li key={i} className="flex items-start text-sm">
-                            <div className="rounded-full bg-green-100 p-1 mr-2 mt-0.5">
-                              <svg
-                                className="h-3 w-3 text-green-600"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                              >
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                              </svg>
-                            </div>
-                            {feature}
-                          </li>
-                        ))}
-                      </ul>
-                      <Button className="w-full" variant={index === 1 ? "default" : "outline"}>
-                        Choose Plan
-                      </Button>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
             </TabsContent>
             <TabsContent value="reviews" className="pt-4">
               <div className="flex items-center justify-between mb-6">

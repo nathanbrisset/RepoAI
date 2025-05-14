@@ -19,7 +19,17 @@ export default function FeaturedTool({ tool }: FeaturedToolProps) {
             className="object-cover w-full h-full"
           />
           {tool.isPremium && (
-            <Badge className="absolute top-2 right-2 bg-gradient-to-r from-amber-500 to-yellow-500">Premium</Badge>
+            <Badge
+              className={`absolute top-2 right-2 ${
+                tool.isPremium === 'Premium'
+                  ? 'bg-gradient-to-r from-amber-500 to-yellow-500'
+                  : tool.isPremium === 'Freemium'
+                  ? 'bg-gradient-to-r from-blue-500 to-green-400'
+                  : 'bg-gradient-to-r from-gray-400 to-gray-200'
+              }`}
+            >
+              {tool.isPremium}
+            </Badge>
           )}
         </div>
         <CardContent className="p-6 flex flex-col justify-center">

@@ -18,7 +18,7 @@ export default function ToolsPage() {
       <div className="mb-12">
         <h1 className="text-4xl font-bold mb-4">All AI Tools</h1>
         <p className="text-xl text-gray-600 max-w-3xl">
-          Browse the complete collection of AI tools across all categories.
+          Browse the complete collection of our {mockTools.length} AI tools across all categories.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

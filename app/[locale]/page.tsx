@@ -6,14 +6,32 @@ import ToolCard from "@/components/tool-card"
 import CategoryFilter from "@/components/category-filter"
 import FeaturedTool from "@/components/featured-tool"
 
-export default function Home() {
-  // Get the newest tools (last 5 added)
-  const newTools = [...mockTools]
-    .sort((a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime())
-    .slice(0, 5)
+// Move sorting to server-side function
+function getNewTools() {
+  return [...mockTools]
+    .sort((a, b) => {
+      const dateA = new Date(a.dateAdded).getTime();
+      const dateB = new Date(b.dateAdded).getTime();
+      return dateB - dateA;
+    })
+    .slice(0, 5);
+}
 
-  // Get the most visited tool
-  const featuredTool = [...mockTools].sort((a, b) => b.visits - a.visits)[0]
+function getMostVisitedTools() {
+  return [...mockTools]
+    .sort((a, b) => b.visits - a.visits)
+    .slice(0, 6);
+}
+
+function getFeaturedTool() {
+  return [...mockTools].sort((a, b) => b.visits - a.visits)[0];
+}
+
+export default function Home() {
+  // Pre-compute sorted tools
+  const newTools = getNewTools();
+  const mostVisitedTools = getMostVisitedTools();
+  const featuredTool = getFeaturedTool();
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -76,12 +94,9 @@ export default function Home() {
             </Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[...mockTools]
-              .sort((a, b) => b.visits - a.visits)
-              .slice(0, 6)
-              .map((tool) => (
-                <ToolCard key={tool.id} tool={tool} />
-              ))}
+            {mostVisitedTools.map((tool) => (
+              <ToolCard key={tool.id} tool={tool} />
+            ))}
           </div>
         </section>
 

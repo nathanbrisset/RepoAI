@@ -9,8 +9,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "AITools.ninja",
-  description: "Discover and compare the best AI tools for every use case",
+  title: "AI Tools Directory",
+  description: "Discover and explore the best AI tools for your needs",
   generator: 'v0.dev',
   icons: {
     icon: '/icon.png',

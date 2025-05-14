@@ -22,7 +22,17 @@ export default function ToolCard({ tool }: ToolCardProps) {
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
           {tool.isPremium && (
-            <Badge className="absolute top-2 right-2 bg-gradient-to-r from-amber-500 to-yellow-500">Premium</Badge>
+            <Badge
+              className={`absolute top-2 right-2 ${
+                tool.isPremium === 'Premium'
+                  ? 'bg-gradient-to-r from-amber-500 to-yellow-500'
+                  : tool.isPremium === 'Freemium'
+                  ? 'bg-gradient-to-r from-blue-500 to-green-400'
+                  : 'bg-gradient-to-r from-gray-400 to-gray-200'
+              }`}
+            >
+              {tool.isPremium}
+            </Badge>
           )}
         </div>
         <CardContent className="p-4">
@@ -37,7 +47,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
           <div className="flex flex-wrap gap-1 mb-1">
             {tool.categories.slice(0, 3).map((category) => (
               <Badge key={category} variant="secondary" className="text-xs">
-                {category}
+                {category.toUpperCase()}
               </Badge>
             ))}
             {tool.categories.length > 3 && (

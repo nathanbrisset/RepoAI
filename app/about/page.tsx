@@ -5,10 +5,7 @@ import { CheckCircle, ArrowRight, ExternalLink } from "lucide-react"
 import { useEffect, useState } from "react"
 
 function Copyright() {
-  const [year, setYear] = useState("")
-  useEffect(() => {
-    setYear(new Date().getFullYear().toString())
-  }, [])
+  const year = new Date().getFullYear()
   return <p className="text-gray-500 text-sm text-center mt-8">&copy; {year} AITools.ninja. All rights reserved.</p>
 }
 
