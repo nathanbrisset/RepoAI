@@ -1,8 +1,9 @@
 import Link from "next/link"
 import ToolCard from "@/components/tool-card"
 import CategoryFilter from "@/components/category-filter"
-import FeaturedTool from "@/components/featured-tool"
 import { mockTools } from "@/lib/data"
+import { Button } from "@/components/ui/button"
+import { Textarea } from "@/components/ui/textarea"
 
 export default function Home() {
   // Get the newest tools (last 5 added)
@@ -16,9 +17,6 @@ export default function Home() {
   // Get the top rated tools (top 5)
   const topRated = [...mockTools].sort((a, b) => b.rating - a.rating).slice(0, 5)
 
-  // Get a featured tool (highest combination of rating and visits)
-  const featuredTool = [...mockTools].sort((a, b) => b.rating * b.visits - a.rating * a.visits)[0]
-
   return (
     <div className="min-h-screen bg-gray-50">
       <section className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-16 px-4">
@@ -31,11 +29,35 @@ export default function Home() {
         </div>
       </section>
       <div className="container mx-auto max-w-6xl px-4 py-12">
-        {/* Featured Tool */}
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 text-gray-800">Featured Tool</h2>
-          <FeaturedTool tool={featuredTool} />
+        {/* AI Match Recommendation Section */}
+        <section className="mb-16 bg-white rounded-xl shadow-lg overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8">
+            {/* Left side - Image */}
+            <div className="relative h-[400px] rounded-lg overflow-hidden">
+              <img
+                src="/ai-match-hero.jpg"
+                alt="AI Match"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            {/* Right side - Text and Input */}
+            <div className="flex flex-col justify-center">
+              <h2 className="text-3xl font-bold mb-2">Find your AI MATCH!</h2>
+              <p className="text-lg text-gray-600 mb-6">Whatever you need, there's an AI for it!</p>
+              <form action="/recommendations" method="GET" className="space-y-4">
+                <Textarea
+                  placeholder="Describe what you're trying to accomplish..."
+                  className="min-h-[150px] resize-none"
+                  name="query"
+                />
+                <Button type="submit" className="w-full">
+                  Find my A-Match
+                </Button>
+              </form>
+            </div>
+          </div>
         </section>
+
         {/* Category Filter */}
         <section className="mb-16">
           <h2 className="text-2xl font-bold mb-6 text-gray-800">Browse by Category</h2>

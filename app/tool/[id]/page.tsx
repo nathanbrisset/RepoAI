@@ -14,7 +14,7 @@ interface ToolPageProps {
   }
 }
 
-export default function ToolPage({ params }: ToolPageProps) {
+export default async function ToolPage({ params }: ToolPageProps) {
   const tool = mockTools.find((t) => t.id === params.id)
 
   if (!tool) {
