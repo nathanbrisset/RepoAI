@@ -1,7 +1,6 @@
 {
-  "/page": "app/page.js",
-  "/categories/[category]/page": "app/categories/[category]/page.js",
+  "/categories/page": "app/categories/page.js",
   "/tool/[id]/page": "app/tool/[id]/page.js",
-  "/recommendations/page": "app/recommendations/page.js",
-  "/categories/page": "app/categories/page.js"
+  "/tools/page": "app/tools/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }

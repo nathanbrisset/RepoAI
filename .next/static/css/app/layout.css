@@ -931,6 +931,9 @@ video {
 .h-\[1\.2rem\] {
   height: 1.2rem;
 }
+.h-\[180px\] {
+  height: 180px;
+}
 .h-\[1px\] {
   height: 1px;
 }
@@ -975,6 +978,9 @@ video {
 }
 .min-h-\[150px\] {
   min-height: 150px;
+}
+.min-h-\[400px\] {
+  min-height: 400px;
 }
 .min-h-\[80px\] {
   min-height: 80px;

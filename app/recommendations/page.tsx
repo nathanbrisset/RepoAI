@@ -35,10 +35,10 @@ export default function RecommendationsPage({ searchParams }: RecommendationsPag
 
         {/* Top Match */}
         <section className="mb-16">
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8">
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden h-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8 items-stretch min-h-[400px]">
               {/* Left side - Tool Image */}
-              <div className="relative h-[400px] rounded-lg overflow-hidden">
+              <div className="relative h-full min-h-[400px] rounded-lg overflow-hidden flex items-stretch">
                 <img
                   src={topMatch.image || "/placeholder.svg"}
                   alt={topMatch.name}
@@ -46,7 +46,7 @@ export default function RecommendationsPage({ searchParams }: RecommendationsPag
                 />
               </div>
               {/* Right side - Tool Info */}
-              <div className="flex flex-col justify-center">
+              <div className="flex flex-col justify-center h-full min-h-[400px]">
                 <h2 className="text-3xl font-bold mb-4">{topMatch.name}</h2>
                 <p className="text-lg text-gray-600 mb-6">{topMatch.description}</p>
                 <div className="bg-purple-50 rounded-lg p-6 mb-6">
@@ -55,20 +55,20 @@ export default function RecommendationsPage({ searchParams }: RecommendationsPag
                     {generateLongDescription(topMatch)}
                   </p>
                   <ul className="list-disc pl-5 text-gray-700">
-                    <li><b>Categories:</b> {topMatch.categories.join(", ")}</li>
+                    <li><b>Categories:</b> {(topMatch.categories || []).join(", ")}</li>
                     <li><b>Tags:</b> {(topMatch.tags || []).join(", ")}</li>
-                    <li><b>Popularity:</b> {topMatch.visits.toLocaleString()} visits</li>
-                    <li><b>Rating:</b> {topMatch.rating.toFixed(1)} / 5</li>
+                    <li><b>Popularity:</b> {topMatch.visits?.toLocaleString()} visits</li>
+                    <li><b>Rating:</b> {topMatch.rating?.toFixed(1)} / 5</li>
                   </ul>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
                     <span className="font-medium">Rating:</span>
-                    <span>{topMatch.rating.toFixed(1)}/5</span>
+                    <span>{topMatch.rating?.toFixed(1)}/5</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="font-medium">Category:</span>
-                    <span>{topMatch.categories.join(", ")}</span>
+                    <span>{(topMatch.categories || []).join(", ")}</span>
                   </div>
                   <Button asChild className="w-full">
                     <a href={topMatch.url} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
