@@ -7,9 +7,10 @@ import type { Tool } from "@/lib/types"
 
 interface ToolCardProps {
   tool: Tool
+  matchReasons?: string[]
 }
 
-export default function ToolCard({ tool }: ToolCardProps) {
+export default function ToolCard({ tool, matchReasons }: ToolCardProps) {
   return (
     <Card className="overflow-hidden transition-all hover:shadow-md">
       <Link href={`/tool/${tool.id}`}>
@@ -68,6 +69,11 @@ export default function ToolCard({ tool }: ToolCardProps) {
                   +{tool.tags.length - 3}
                 </Badge>
               )}
+            </div>
+          )}
+          {matchReasons && matchReasons.length > 0 && (
+            <div className="mt-2 text-xs text-gray-500">
+              <b>Matched on:</b> {matchReasons.join(", ")}
             </div>
           )}
         </CardContent>

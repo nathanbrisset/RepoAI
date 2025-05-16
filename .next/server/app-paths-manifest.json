@@ -1,6 +1,9 @@
 {
+  "/submit/page": "app/submit/page.js",
   "/categories/page": "app/categories/page.js",
-  "/tool/[id]/page": "app/tool/[id]/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/tools/page": "app/tools/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/categories/[category]/page": "app/categories/[category]/page.js",
+  "/tool/[id]/page": "app/tool/[id]/page.js",
+  "/recommendations/page": "app/recommendations/page.js"
 }

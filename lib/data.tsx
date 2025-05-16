@@ -1737,6 +1737,21 @@ export const tools: Tool[] = [
     isPremium: "Freemium"
   },
   {
+    name: "V0 by Vercel",
+    description: "AI-powered UI generator that transforms prompts into production-ready React and Tailwind components.",
+    url: "https://v0.dev",
+    id: "v0-vercel",
+    image: "/tool-screenshots/v0-vercel.png",
+    logo: "/logo/v0-vercel.png",
+    categories: ["design"],
+    subcategory: "Generative UI Design",
+    tags: ["tailwind", "react", "shadcn", "ui_generator", "no_code", "vercel"],
+    rating: 4.6,
+    visits: 500000,
+    dateAdded: "2023-10-10",
+    isPremium: "Freemium"
+  },
+  {
     name: "Let's Enhance",
     description: "AI-powered image upscaler and enhancer for improving image quality.",
     url: "https://letsenhance.io/",
@@ -1780,6 +1795,21 @@ export const tools: Tool[] = [
     visits: 500000,
     dateAdded: "2020-11-05",
     isPremium: "Free"
+  },
+  {
+    name: "Cursor",
+    description: "AI-powered code editor that enhances developer productivity with context-aware suggestions and natural language prompts.",
+    url: "https://www.cursor.com",
+    id: "cursor",
+    image: "/tool-screenshots/cursor.png",
+    logo: "/logo/cursor.png",
+    categories: ["coding"],
+    subcategory: "AI Code Editor",
+    tags: ["ai_coding", "code_editor", "vs_code_fork", "natural_language", "productivity"],
+    rating: 4.8,
+    visits: 1000000,
+    dateAdded: "2023-01-01",
+    isPremium: "Freemium"
   }
 ];
 

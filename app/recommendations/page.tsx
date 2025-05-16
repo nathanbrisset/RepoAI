@@ -17,12 +17,16 @@ export default function RecommendationsPage({ searchParams }: RecommendationsPag
     notFound()
   }
 
-  // Simple recommendation logic - can be enhanced with more sophisticated matching
+  // Enhanced recommendation logic
   const matchedTools = mockTools
-    .map(tool => ({
-      ...tool,
-      matchScore: calculateMatchScore(tool, query)
-    }))
+    .map(tool => {
+      const { matchScore, matchReasons } = calculateMatchScore(tool, query)
+      return {
+        ...tool,
+        matchScore,
+        matchReasons
+      }
+    })
     .sort((a, b) => b.matchScore - a.matchScore)
 
   const topMatch = matchedTools[0]
@@ -31,46 +35,50 @@ export default function RecommendationsPage({ searchParams }: RecommendationsPag
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto max-w-6xl px-4 py-12">
-        <h1 className="text-3xl font-bold mb-8">AI TOOLS NINJA Recommendation</h1>
+        <h1 className="text-5xl font-extrabold mb-12 text-center text-black">Your AI Tools Ninja Recommendation</h1>
 
-        {/* Top Match */}
-        <section className="mb-16">
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden h-full">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8 items-stretch min-h-[400px]">
+        {/* Hero Top Match */}
+        <section className="mb-20">
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col justify-center items-center border border-gray-200 min-h-[420px] md:min-h-[480px]">
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-8 items-stretch">
               {/* Left side - Tool Image */}
-              <div className="relative h-full min-h-[400px] rounded-lg overflow-hidden flex items-stretch">
+              <div className="flex items-center justify-center h-full bg-white min-h-[260px] md:min-h-[420px] ml-6 md:ml-10 md:mr-10">
                 <img
                   src={topMatch.image || "/placeholder.svg"}
                   alt={topMatch.name}
-                  className="w-full h-full object-cover"
+                  className="object-contain max-h-[180px] md:max-h-[320px] rounded-xl border border-gray-100"
+                  style={{margin: 'auto'}}
                 />
               </div>
-              {/* Right side - Tool Info */}
-              <div className="flex flex-col justify-center h-full min-h-[400px]">
-                <h2 className="text-3xl font-bold mb-4">{topMatch.name}</h2>
-                <p className="text-lg text-gray-600 mb-6">{topMatch.description}</p>
-                <div className="bg-purple-50 rounded-lg p-6 mb-6">
-                  <h3 className="font-semibold text-purple-800 mb-3">Why we recommend this tool</h3>
-                  <p className="text-gray-700 mb-2">
+              {/* Right side - Tool Info (compact card) */}
+              <div className="flex flex-col justify-center items-start h-full p-6 md:p-10 max-w-xl mx-auto">
+                <h2 className="text-3xl md:text-4xl font-bold mb-2 text-gray-900">{topMatch.name}</h2>
+                <p className="text-base md:text-lg text-gray-700 mb-4 line-clamp-3">{topMatch.description}</p>
+                <div className="bg-gray-50 rounded-lg p-4 mb-4 w-full">
+                  <h3 className="font-semibold text-gray-800 mb-2 text-base">Why we recommend this tool</h3>
+                  <p className="text-gray-700 text-sm mb-2">
                     {generateLongDescription(topMatch)}
                   </p>
-                  <ul className="list-disc pl-5 text-gray-700">
+                  <ul className="list-disc pl-5 text-gray-700 text-xs">
                     <li><b>Categories:</b> {(topMatch.categories || []).join(", ")}</li>
                     <li><b>Tags:</b> {(topMatch.tags || []).join(", ")}</li>
                     <li><b>Popularity:</b> {topMatch.visits?.toLocaleString()} visits</li>
                     <li><b>Rating:</b> {topMatch.rating?.toFixed(1)} / 5</li>
+                    {topMatch.matchReasons && (
+                      <li className="mt-2"><b>Matched on:</b> {topMatch.matchReasons.join(", ")}</li>
+                    )}
                   </ul>
                 </div>
-                <div className="space-y-4">
-                  <div className="flex items-center gap-2">
+                <div className="flex flex-wrap gap-4 w-full items-center">
+                  <div className="flex items-center gap-2 text-sm">
                     <span className="font-medium">Rating:</span>
                     <span>{topMatch.rating?.toFixed(1)}/5</span>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 text-sm">
                     <span className="font-medium">Category:</span>
                     <span>{(topMatch.categories || []).join(", ")}</span>
                   </div>
-                  <Button asChild className="w-full">
+                  <Button asChild className="ml-auto px-6 py-2 text-base font-semibold">
                     <a href={topMatch.url} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
                       Visit Website
                       <ExternalLink className="ml-2 h-4 w-4" />
@@ -87,7 +95,7 @@ export default function RecommendationsPage({ searchParams }: RecommendationsPag
           <h2 className="text-2xl font-bold mb-6">Alternative AI Tools</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {alternativeMatches.map((tool) => (
-              <ToolCard key={tool.id} tool={tool} />
+              <ToolCard key={tool.id} tool={tool} matchReasons={tool.matchReasons} />
             ))}
           </div>
         </section>
@@ -96,26 +104,67 @@ export default function RecommendationsPage({ searchParams }: RecommendationsPag
   )
 }
 
-// Simple matching algorithm - can be enhanced with more sophisticated NLP
-function calculateMatchScore(tool: any, query: string): number {
+// Enhanced matching algorithm with partial and weighted matches
+function calculateMatchScore(tool: any, query: string): { matchScore: number, matchReasons: string[] } {
   const queryLower = query.toLowerCase()
-  const toolText = `${tool.name} ${tool.description} ${tool.categories.join(" ")} ${tool.tags.join(" ")}`.toLowerCase()
-  
-  // Calculate basic text similarity
-  const words = queryLower.split(" ")
+  const words = queryLower.split(/\s+/)
   let score = 0
-  
-  words.forEach(word => {
+  let matchReasons: string[] = []
+
+  // Helper for partial match
+  const partialMatch = (text: string, word: string) => text.includes(word) || word.includes(text)
+
+  // Check tags
+  if (tool.tags) {
+    for (const tag of tool.tags) {
+      for (const word of words) {
+        if (partialMatch(tag.toLowerCase(), word)) {
+          score += 5
+          matchReasons.push(`tag (${tag})`)
+        }
+      }
+    }
+  }
+
+  // Check subcategory
+  if (tool.subcategory) {
+    for (const word of words) {
+      if (partialMatch(tool.subcategory.toLowerCase(), word)) {
+        score += 4
+        matchReasons.push(`subcategory (${tool.subcategory})`)
+      }
+    }
+  }
+
+  // Check categories
+  if (tool.categories) {
+    for (const cat of tool.categories) {
+      for (const word of words) {
+        if (partialMatch(cat.toLowerCase(), word)) {
+          score += 3
+          matchReasons.push(`category (${cat})`)
+        }
+      }
+    }
+  }
+
+  // Check name and description
+  const toolText = `${tool.name} ${tool.description}`.toLowerCase()
+  for (const word of words) {
     if (toolText.includes(word)) {
       score += 1
+      matchReasons.push(`description/name`)
     }
-  })
+  }
 
   // Boost score based on rating and visits
   score += tool.rating * 0.5
   score += Math.log(tool.visits) * 0.1
 
-  return score
+  // Remove duplicate reasons
+  matchReasons = [...new Set(matchReasons)]
+
+  return { matchScore: score, matchReasons }
 }
 
 function generateLongDescription(tool: any): string {
