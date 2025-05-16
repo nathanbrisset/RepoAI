@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { useState } from "react"
+import { useState, useRef } from "react"
 import { ArrowRight, Check, Info } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -12,14 +12,51 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Textarea } from "@/components/ui/textarea"
 import { categories } from "@/lib/data"
+// import ReCAPTCHA from "react-google-recaptcha"
 
 export default function SubmitToolPage() {
   const [step, setStep] = useState(1)
   const [submitted, setSubmitted] = useState(false)
+  const formRef = useRef<HTMLFormElement>(null)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  // const [captchaToken, setCaptchaToken] = useState<string | null>(null)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setSubmitted(true)
+    // if (!captchaToken) {
+    //   alert("Please complete the CAPTCHA.")
+    //   return
+    // }
+    setIsSubmitting(true)
+    if (!formRef.current) {
+      alert("Form reference is missing")
+      return
+    }
+    const formData = new FormData(formRef.current)
+    const data = {
+      toolName: formData.get("tool_name"),
+      description: formData.get("description"),
+      website: formData.get("website"),
+      category: formData.get("category"),
+      tags: formData.get("tags"),
+      logo: formData.get("logo"),
+      // captchaToken,
+    }
+    try {
+      const response = await fetch("/api/submit-tool", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      })
+      if (!response.ok) throw new Error("Failed to submit tool")
+      alert("Tool submitted successfully!")
+      formRef.current.reset()
+      // setCaptchaToken(null)
+    } catch (error) {
+      alert("Failed to submit tool. Please try again.")
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -92,7 +129,7 @@ export default function SubmitToolPage() {
               </div>
             </div>
 
-            <form onSubmit={handleSubmit}>
+            <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
               {step === 1 && (
                 <Card>
                   <CardHeader>
@@ -101,12 +138,12 @@ export default function SubmitToolPage() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <div className="space-y-2">
-                      <Label htmlFor="name">Tool Name *</Label>
-                      <Input id="name" placeholder="e.g., ChatGPT, Midjourney, etc." required />
+                      <Label htmlFor="tool_name">Tool Name *</Label>
+                      <Input id="tool_name" name="tool_name" placeholder="e.g., ChatGPT, Midjourney, etc." required />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="url">Website URL *</Label>
-                      <Input id="url" type="url" placeholder="https://example.com" required />
+                      <Label htmlFor="website">Website URL *</Label>
+                      <Input id="website" name="website" type="url" placeholder="https://example.com" required />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="category">Primary Category *</Label>
@@ -161,6 +198,7 @@ export default function SubmitToolPage() {
                       <Label htmlFor="description">Description *</Label>
                       <Textarea
                         id="description"
+                        name="description"
                         placeholder="Describe what the tool does and its key features..."
                         className="min-h-[120px]"
                         required
@@ -176,8 +214,12 @@ export default function SubmitToolPage() {
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="image">Tool Screenshot or Logo URL</Label>
-                      <Input id="image" type="url" placeholder="https://example.com/image.jpg" />
+                      <Input id="logo" name="logo" type="url" placeholder="https://example.com/image.jpg" />
                       <p className="text-sm text-gray-500">Provide a URL to an image that represents the tool</p>
+                    </div>
+                    <div className="space-y-2">
+                      <Label htmlFor="tags">Tags <span className="text-gray-500">(comma separated)</span></Label>
+                      <Input id="tags" name="tags" placeholder="e.g. writing, productivity, GPT" />
                     </div>
                     <div className="pt-4 flex justify-between">
                       <Button type="button" variant="outline" onClick={() => setStep(1)}>
@@ -240,11 +282,19 @@ export default function SubmitToolPage() {
                         </SelectContent>
                       </Select>
                     </div>
+                    {/* <div className="flex justify-center mb-2">
+                      <ReCAPTCHA
+                        sitekey="6LdxOD0rAAAAAPhEsAGkQ54yQhLijLgMWg73TGv2"
+                        onChange={setCaptchaToken}
+                      />
+                    </div> */}
                     <div className="pt-4 flex justify-between">
                       <Button type="button" variant="outline" onClick={() => setStep(2)}>
                         Back
                       </Button>
-                      <Button type="submit">Submit Tool</Button>
+                      <Button type="submit" className="w-full h-12 text-base font-bold" disabled={isSubmitting}>
+                        {isSubmitting ? "Submitting..." : "Submit Tool"}
+                      </Button>
                     </div>
                   </CardContent>
                 </Card>

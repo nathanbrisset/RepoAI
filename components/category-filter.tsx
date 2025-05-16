@@ -12,15 +12,14 @@ export default function CategoryFilter() {
     <div className="space-y-4">
       <div className="flex flex-wrap gap-2">
         {categories.map((category) => (
-          <Button
+          <Link
             key={category.id}
-            variant={activeCategory === category.id ? "default" : "outline"}
-            className="rounded-full"
-            onClick={() => setActiveCategory(category.id === activeCategory ? null : category.id)}
+            href={`/categories/${category.id}`}
+            className="rounded-full px-4 py-1.5 text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-gray-200 flex items-center"
           >
             {category.icon}
             <span className="ml-2">{category.name}</span>
-          </Button>
+          </Link>
         ))}
       </div>
 
