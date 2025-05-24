@@ -1,25 +1,4 @@
 {
-  "/api/review/route": "app/api/review/route.js",
-  "/api/send-email/route": "app/api/send-email/route.js",
-  "/api/submit-tool/route": "app/api/submit-tool/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/about/about/page": "app/about/about/page.js",
-  "/about/page": "app/about/page.js",
-  "/categories/[category]/page": "app/categories/[category]/page.js",
-  "/categories/page": "app/categories/page.js",
   "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/recommendations/page": "app/recommendations/page.js",
-  "/submit/page": "app/submit/page.js",
-  "/submit/submit/page": "app/submit/submit/page.js",
-  "/tool/[id]/page": "app/tool/[id]/page.js",
-  "/tool/tool/[id]/page": "app/tool/tool/[id]/page.js",
-  "/tools/tools/page": "app/tools/tools/page.js",
-  "/category/new/page": "app/category/new/page.js",
-  "/category/top-rated/page": "app/category/top-rated/page.js",
-  "/category/popular/page": "app/category/popular/page.js",
-  "/privacy/page": "app/privacy/page.js",
-  "/terms/page": "app/terms/page.js",
-  "/tools/page": "app/tools/page.js",
-  "/recommendation/page": "app/recommendation/page.js"
+  "/tool/[id]/page": "app/tool/[id]/page.js"
 }
