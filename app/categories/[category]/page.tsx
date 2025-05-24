@@ -81,7 +81,7 @@ export default function Page({ params }: any) {
             {currentCategory?.description || `Explore the best AI tools in the ${category} category.`}
           </p>
         </div>
-      </div>
+          </div>
 
       {/* Info Box (description) */}
       {description && (
