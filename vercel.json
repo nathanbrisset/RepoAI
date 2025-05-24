@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["cdg1"],
+  "env": {
+    "NEXTAUTH_URL": "https://aitools.ninja",
+    "NEXTAUTH_SECRET": "@nextauth_secret"
+  }
+} 
