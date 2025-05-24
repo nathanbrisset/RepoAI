@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { PrismaClient } from '@prisma/client';
 import nodemailer from 'nodemailer';
 
+// Create a single PrismaClient instance
 const prisma = new PrismaClient();
 
 export async function POST(req: NextRequest) {
@@ -16,21 +17,23 @@ export async function POST(req: NextRequest) {
       data: { name, email, rating, comment, toolId },
     });
 
-    // Send email notification
-    const transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
-      },
-    });
+    // Send email notification if SMTP credentials are configured
+    if (process.env.SMTP_USER && process.env.SMTP_PASS) {
+      const transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+          user: process.env.SMTP_USER,
+          pass: process.env.SMTP_PASS,
+        },
+      });
 
-    await transporter.sendMail({
-      from: process.env.SMTP_USER,
-      to: 'aitoolsrequest@gmail.com',
-      subject: `New Review for Tool: ${toolId}`,
-      text: `Name: ${name}\nEmail: ${email}\nRating: ${rating}\nComment: ${comment}`,
-    });
+      await transporter.sendMail({
+        from: process.env.SMTP_USER,
+        to: 'aitoolsrequest@gmail.com',
+        subject: `New Review for Tool: ${toolId}`,
+        text: `Name: ${name}\nEmail: ${email}\nRating: ${rating}\nComment: ${comment}`,
+      });
+    }
 
     return NextResponse.json({ success: true, review });
   } catch (error) {
