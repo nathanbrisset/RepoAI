@@ -14,6 +14,11 @@ export interface Tool {
   visits: number
   dateAdded: string
   isPremium?: 'Free' | 'Freemium' | 'Premium'
+  features?: string[]
+  pricing?: {
+    type: 'free' | 'paid' | 'freemium'
+    details?: string
+  }
 }
 
 export interface Category {

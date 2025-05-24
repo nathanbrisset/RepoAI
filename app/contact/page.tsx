@@ -5,132 +5,162 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
+import { Mail, MessageSquare, Phone } from "lucide-react"
 
 export default function ContactPage() {
   const formRef = useRef<HTMLFormElement>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!captchaToken) {
-      alert("Please complete the CAPTCHA.");
-      return;
-    }
+    if (!formRef.current) return;
+
     setIsSubmitting(true);
-
-    if (!formRef.current) {
-      alert("Form reference is missing");
-      return;
-    }
-
     const formData = new FormData(formRef.current);
-    const data = {
-      firstName: formData.get('first_name'),
-      lastName: formData.get('last_name'),
-      email: formData.get('email'),
-      message: formData.get('message'),
-      captchaToken,
-    };
+    const data = Object.fromEntries(formData.entries());
 
     try {
-      const response = await fetch('/api/send-email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
-      });
-
-      if (!response.ok) {
-        throw new Error('Failed to send email');
-      }
-
-      alert('Message sent successfully!');
+      // Here you would typically send the data to your backend
+      console.log("Form data:", data);
+      // Reset form
       formRef.current.reset();
-      setCaptchaToken(null);
     } catch (error) {
-      console.error('Error sending email:', error);
-      alert('Failed to send message. Please try again.');
+      console.error("Error submitting form:", error);
     } finally {
       setIsSubmitting(false);
     }
   };
 
   return (
-    <div className="min-h-[70vh] flex items-center justify-center bg-muted/50 py-8">
-      <div className="w-full max-w-4xl bg-card rounded-2xl shadow-xl border flex flex-col md:flex-row overflow-hidden">
-        {/* Left: Image and welcome */}
-        <div className="md:w-1/2 flex flex-col items-center justify-center bg-muted p-8 md:p-10">
-          <Image
-            src="/my-photo.jpg"
-            alt="Contact us"
-            width={180}
-            height={180}
-            className="rounded-full object-cover border-4 border-white shadow mb-6"
-            priority
-          />
-          <h2 className="text-xl font-semibold text-foreground mb-2 text-center">We're here to help!</h2>
-          <p className="text-muted-foreground text-center text-base">Fill out the form and our team will get back to you as soon as possible.</p>
+    <div className="min-h-screen bg-gray-50">
+      <div className="container mx-auto max-w-4xl px-4 py-16">
+        <div className="text-center mb-16">
+          <h1 className="text-5xl font-extrabold mb-6 text-black">Contact Us</h1>
+          <p className="text-xl text-gray-600">
+            Have questions? We're here to help!
+          </p>
         </div>
-        {/* Right: Form */}
-        <div className="md:w-1/2 flex items-center justify-center p-6 md:p-10 bg-card">
-          <form ref={formRef} onSubmit={handleSubmit} className="w-full max-w-md mx-auto">
-            <h1 className="text-2xl md:text-3xl font-bold mb-6 text-foreground text-center">Contact Us</h1>
-            <div className="flex gap-2 mb-3">
-              <div className="flex-1">
-                <label className="block text-foreground font-medium mb-1">First Name <span className="text-red-500">*</span></label>
-                <Input type="text" required placeholder="First" name="first_name" />
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          {/* Contact Form */}
+          <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100">
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Send us a message</h2>
+            <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
+              <div>
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+                  Name
+                </label>
+                <Input
+                  id="name"
+                  name="name"
+                  type="text"
+                  required
+                  className="w-full"
+                  placeholder="Your name"
+                />
               </div>
-              <div className="flex-1">
-                <label className="block text-foreground font-medium mb-1">Last Name <span className="text-red-500">*</span></label>
-                <Input type="text" required placeholder="Last" name="last_name" />
+              <div>
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                  Email
+                </label>
+                <Input
+                  id="email"
+                  name="email"
+                  type="email"
+                  required
+                  className="w-full"
+                  placeholder="your@email.com"
+                />
+              </div>
+              <div>
+                <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">
+                  Subject
+                </label>
+                <Input
+                  id="subject"
+                  name="subject"
+                  type="text"
+                  required
+                  className="w-full"
+                  placeholder="What's this about?"
+                />
+              </div>
+              <div>
+                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+                  Message
+                </label>
+                <Textarea
+                  id="message"
+                  name="message"
+                  required
+                  className="w-full min-h-[150px]"
+                  placeholder="Your message..."
+                />
+              </div>
+              <div className="mb-4 flex justify-center">
+                <ReCAPTCHA
+                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
+                  onChange={(value) => console.log("Captcha value:", value)}
+                />
+              </div>
+              <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700" disabled={isSubmitting}>
+                {isSubmitting ? "Sending..." : "Send Message"}
+              </Button>
+            </form>
+          </div>
+
+          {/* Contact Information */}
+          <div className="space-y-8">
+            <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100">
+              <h2 className="text-2xl font-bold mb-6 text-gray-900">Contact Information</h2>
+              <div className="space-y-6">
+                <div className="flex items-start">
+                  <Mail className="h-6 w-6 text-blue-600 mt-1 mr-4" />
+                  <div>
+                    <h3 className="font-semibold text-gray-900">Email</h3>
+                    <p className="text-gray-600">contact@aitoolsninja.com</p>
+                    <p className="text-sm text-gray-500 mt-1">We'll respond within 24 hours</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <Phone className="h-6 w-6 text-blue-600 mt-1 mr-4" />
+                  <div>
+                    <h3 className="font-semibold text-gray-900">Phone</h3>
+                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-sm text-gray-500 mt-1">Mon-Fri, 9am-5pm EST</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <MessageSquare className="h-6 w-6 text-blue-600 mt-1 mr-4" />
+                  <div>
+                    <h3 className="font-semibold text-gray-900">Live Chat</h3>
+                    <p className="text-gray-600">Available on our website</p>
+                    <p className="text-sm text-gray-500 mt-1">24/7 automated support</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="mb-3">
-              <label className="block text-foreground font-medium mb-1">Email <span className="text-red-500">*</span></label>
-              <Input type="email" required placeholder="you@email.com" name="email" />
+
+            <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100">
+              <h2 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions</h2>
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-gray-900">How can I submit a tool?</h3>
+                  <p className="text-gray-600">Use our tool submission form or email us with the details.</p>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900">How do you review tools?</h3>
+                  <p className="text-gray-600">We thoroughly test each tool and evaluate based on features, usability, and value.</p>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900">Can I advertise on your platform?</h3>
+                  <p className="text-gray-600">Yes, we offer various advertising options. Contact us for details.</p>
+                </div>
+              </div>
             </div>
-            <div className="mb-4">
-              <label className="block text-foreground font-medium mb-1">Leave us a few words <span className="text-red-500">*</span></label>
-              <Textarea required placeholder="Your message..." className="min-h-[60px] md:min-h-[80px]" name="message" />
-            </div>
-            <div className="mb-4 flex justify-center">
-              <ReCAPTCHA
-                sitekey="6LdxOD0rAAAAAPhEsAGkQ54yQhLijLgMWg73TGv2"
-                onChange={setCaptchaToken}
-              />
-            </div>
-            <Button type="submit" className="w-full h-10 md:h-12 text-base font-bold mt-2" disabled={isSubmitting}>SUBMIT</Button>
-          </form>
+          </div>
         </div>
       </div>
-    </div>
-  );
-}
-
-export function TestContactForm() {
-  const formRef = useRef(null);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const handleSubmit = async (e) => {
-    console.log("Contact form submitted!", formRef.current);
-    e.preventDefault();
-    setIsSubmitting(true);
-    alert("Handler ran!");
-    setIsSubmitting(false);
-  };
-
-  return (
-    <div style={{ maxWidth: 400, margin: "2rem auto", padding: 24, border: "1px solid #eee", borderRadius: 8 }}>
-      <h2>Minimal Contact Form Test</h2>
-      <form ref={formRef} onSubmit={handleSubmit}>
-        <input name="first_name" placeholder="First Name" required style={{ display: 'block', marginBottom: 8, width: '100%' }} />
-        <input name="last_name" placeholder="Last Name" required style={{ display: 'block', marginBottom: 8, width: '100%' }} />
-        <input name="email" type="email" placeholder="Email" required style={{ display: 'block', marginBottom: 8, width: '100%' }} />
-        <textarea name="message" placeholder="Message" required style={{ display: 'block', marginBottom: 8, width: '100%' }} />
-        <button type="submit" disabled={isSubmitting} style={{ width: '100%' }}>Send</button>
-      </form>
     </div>
   );
 } 

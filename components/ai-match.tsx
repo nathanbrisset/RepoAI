@@ -2,139 +2,133 @@
 
 import { useState, useEffect } from 'react';
 import { Tool } from '@/lib/types';
-import { mockTools } from '@/lib/data';
 import { advancedSearch } from '@/lib/recommendation-engine';
-import type { FuseResultMatch } from 'fuse.js';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
-import { Loader2, Search } from 'lucide-react';
-import Link from 'next/link';
-import { useParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
+import { Sparkles, Search, ArrowRight, Star, TrendingUp, Clock } from 'lucide-react';
 
-// Helper function to explain why a tool was recommended using Fuse.js match data
-function getMatchExplanation(match: FuseResultMatch[] | undefined, tool: Tool, query: string): string {
-  if (!match || match.length === 0) {
-    return 'Recommended based on overall relevance.';
-  }
-  const details: string[] = [];
-  for (const m of match) {
-    if (m.key && typeof m.value === 'string') {
-      // Highlight the matched substring(s)
-      const matchedFragments = m.indices.map(([start, end]) =>
-        m.value?.substring(start, end + 1)
-      );
-      details.push(
-        `${m.key}: ${matchedFragments.map(f => `"${f}"`).join(', ')}`
-      );
-    }
-  }
-  if (details.length) {
-    return `Matched your search in ${details.join('; ')}.`;
-  }
-  return 'Recommended based on overall relevance.';
+interface AIMatchProps {
+  tools: Tool[];
 }
 
-export default function AIMatch() {
+export function AIMatch({ tools }: AIMatchProps) {
   const [query, setQuery] = useState('');
   const [recommendations, setRecommendations] = useState<{
     tool: Tool;
-    match: FuseResultMatch[] | undefined;
+    match: any;
     score: number;
+    reasons: string[];
   }[]>([]);
   const [isLoading, setIsLoading] = useState(false);
-  const params = useParams();
-  const currentToolId = params?.id as string;
+  const router = useRouter();
 
   useEffect(() => {
-    if (query.trim()) {
-      setIsLoading(true);
-      // Simulate API delay for better UX
-      const timer = setTimeout(() => {
-        const currentTool = currentToolId ? mockTools.find(t => t.id === currentToolId) : undefined;
-        
-        const results = advancedSearch(mockTools, query, {
-          currentTool,
-          excludedTools: currentToolId ? [currentToolId] : undefined,
+    const delayDebounceFn = setTimeout(() => {
+      if (query.trim()) {
+        setIsLoading(true);
+        const results = advancedSearch(tools, query, {
+          useCase: query.toLowerCase().includes('create') ? 'content_creation' : undefined
         });
-        
         setRecommendations(results);
         setIsLoading(false);
-      }, 300);
+      } else {
+        setRecommendations([]);
+      }
+    }, 300);
 
-      return () => clearTimeout(timer);
-    } else {
-      setRecommendations([]);
-    }
-  }, [query, currentToolId]);
+    return () => clearTimeout(delayDebounceFn);
+  }, [query, tools]);
+
+  const handleToolSelect = (toolId: string) => {
+    router.push(`/tool/${toolId}`);
+  };
 
   return (
-    <Card className="w-full">
-      <CardHeader>
-        <CardTitle>AI Match</CardTitle>
-        <CardDescription>
-          Find the perfect AI tools for your needs
-        </CardDescription>
-      </CardHeader>
-      <CardContent>
-        <div className="flex gap-2">
-          <Input
-            placeholder="Describe what you want to do..."
+    <div className="w-full max-w-4xl mx-auto p-6">
+      <div className="text-center mb-8">
+        <h2 className="text-3xl font-bold mb-2 flex items-center justify-center gap-2">
+          <Sparkles className="w-8 h-8 text-yellow-400" />
+          Find your AI MATCH!
+        </h2>
+        <p className="text-gray-600 dark:text-gray-400">
+          Describe what you need, and we'll find the perfect AI tool for you
+        </p>
+      </div>
+
+      <div className="relative">
+        <div className="relative">
+          <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+          <input
+            type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            className="flex-1"
+            placeholder="e.g., I need to create engaging blog posts..."
+            className="w-full pl-12 pr-4 py-3 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
           />
-          <Button disabled={isLoading}>
-            {isLoading ? (
-              <Loader2 className="h-4 w-4 animate-spin" />
-            ) : (
-              <Search className="h-4 w-4" />
-            )}
-          </Button>
         </div>
+
+        {isLoading && (
+          <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
+            <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-blue-500"></div>
+          </div>
+        )}
 
         {recommendations.length > 0 && (
           <div className="mt-4 space-y-4">
-            {recommendations.map(({ tool, match, score }) => (
-              <Link
+            {recommendations.map(({ tool, reasons }) => (
+              <div
                 key={tool.id}
-                href={`/tool/${tool.id}`}
-                className="block p-4 rounded-lg border hover:bg-accent transition-colors"
+                onClick={() => handleToolSelect(tool.id)}
+                className="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-lg transition-all cursor-pointer"
               >
-                <div className="flex items-start gap-4">
-                  {tool.logo && (
-                    <img
-                      src={tool.logo}
-                      alt={tool.name}
-                      className="w-12 h-12 rounded-lg object-cover"
-                    />
-                  )}
-                  <div>
-                    <h3 className="font-semibold">{tool.name}</h3>
-                    <p className="text-sm text-muted-foreground">
+                <div className="flex items-start justify-between">
+                  <div className="flex-1">
+                    <h3 className="text-lg font-semibold mb-1">{tool.name}</h3>
+                    <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
                       {tool.description}
                     </p>
-                    <div className="mt-2 flex gap-2">
-                      {tool.categories.map((category) => (
-                        <span
-                          key={category}
-                          className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary"
-                        >
-                          {category}
-                        </span>
-                      ))}
-                    </div>
-                    {/* Why this tool explanation */}
-                    <div className="mt-2 text-xs text-foreground/70 italic">
-                      {getMatchExplanation(match, tool, query)}
+                    <div className="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                      <div className="flex items-center gap-1">
+                        <Star className="w-4 h-4" />
+                        <span>{tool.rating.toFixed(1)}</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <TrendingUp className="w-4 h-4" />
+                        <span>{tool.visits.toLocaleString()} visits</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <Clock className="w-4 h-4" />
+                        <span>{new Date(tool.dateAdded).toLocaleDateString()}</span>
+                      </div>
                     </div>
                   </div>
+                  <ArrowRight className="w-5 h-5 text-gray-400" />
                 </div>
-              </Link>
+                
+                {reasons.length > 0 && (
+                  <div className="mt-3 pt-3 border-t border-gray-100 dark:border-gray-700">
+                    <h4 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                      Why this matches:
+                    </h4>
+                    <ul className="space-y-1">
+                      {reasons.slice(0, 2).map((reason, index) => (
+                        <li key={index} className="text-sm text-gray-600 dark:text-gray-400">
+                          • {reason}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
             ))}
           </div>
         )}
-      </CardContent>
-    </Card>
+
+        {query && !isLoading && recommendations.length === 0 && (
+          <div className="mt-4 text-center text-gray-500 dark:text-gray-400">
+            No tools found matching your criteria. Try different keywords or be more specific.
+          </div>
+        )}
+      </div>
+    </div>
   );
 } 

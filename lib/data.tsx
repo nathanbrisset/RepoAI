@@ -11,76 +11,66 @@ import {
   LineChart,
   Database,
   BarChart,
+  CheckCircle,
+  Palette,
 } from "lucide-react"
 import type { Tool, Category } from "./types"
 
 // Categories with icons
 export const categories: Category[] = [
   {
-    name: "Text",
+    id: "text",
+    name: "Text Generation",
     description: "AI tools for generating text content, including copywriting, content creation, and text completion.",
     icon: <MessageSquare className="h-4 w-4" />,
-    id: "text"
   },
   {
-    name: "Image",
-    description: "Create images, art, and designs using AI-powered tools.",
+    id: "image",
+    name: "Image Generation",
+    description: "AI tools for creating and editing images, including art generation and photo enhancement.",
     icon: <ImageIcon className="h-4 w-4" />,
-    id: "image"
   },
   {
-    name: "Coding",
-    description: "AI assistants and tools to help with programming, code generation, and debugging.",
-    icon: <Code className="h-4 w-4" />,
-    id: "coding"
-  },
-  {
-    name: "Audio",
-    description: "Tools for voice synthesis, transcription, and audio processing.",
+    id: "audio",
+    name: "Audio & Speech",
+    description: "AI tools for audio processing, speech synthesis, and voice cloning.",
     icon: <Mic className="h-4 w-4" />,
-    id: "audio"
   },
   {
-    name: "Design",
-    description: "AI-powered design tools for UI/UX, graphic design, and creative work.",
-    icon: <PenTool className="h-4 w-4" />,
-    id: "design"
-  },
-  {
-    name: "Productivity",
-    description: "Tools to enhance workflow, automate tasks, and improve efficiency.",
-    icon: <Briefcase className="h-4 w-4" />,
-    id: "productivity"
-  },
-  {
-    name: "Research",
-    description: "AI tools for data analysis, research assistance, and knowledge discovery.",
-    icon: <Brain className="h-4 w-4" />,
-    id: "research"
-  },
-  {
-    name: "Video",
-    description: "Tools for video generation, editing, and enhancement using AI.",
+    id: "video",
+    name: "Video Creation",
+    description: "AI tools for video generation, editing, and enhancement.",
     icon: <Video className="h-4 w-4" />,
-    id: "video"
   },
   {
-    name: "Analytics",
-    description: "AI-powered analytics tools for data insights and business intelligence.",
-    icon: <LineChart className="h-4 w-4" />,
-    id: "analytics"
+    id: "coding",
+    name: "Coding",
+    description: "AI tools for code generation, debugging, and optimization.",
+    icon: <Code className="h-4 w-4" />,
   },
   {
-    name: "Data Processing",
-    description: "Tools for data extraction, transformation, and processing with AI.",
-    icon: <Database className="h-4 w-4" />,
-    id: "data-processing"
-  },
-  {
+    id: "marketing",
     name: "Marketing",
-    description: "AI-powered tools for content creation, marketing automation, and campaign optimization.",
+    description: "AI tools for marketing automation, content creation, and analytics.",
     icon: <BarChart className="h-4 w-4" />,
-    id: "marketing"
+  },
+  {
+    id: "productivity",
+    name: "Productivity",
+    description: "AI tools for task automation, project management, and workflow optimization.",
+    icon: <CheckCircle className="h-4 w-4" />,
+  },
+  {
+    id: "data-processing",
+    name: "Data Processing",
+    description: "AI tools for data cleaning, transformation, and analysis.",
+    icon: <Database className="h-4 w-4" />,
+  },
+  {
+    id: "design",
+    name: "Design",
+    description: "AI tools for graphic design, UI/UX, and creative asset generation.",
+    icon: <Palette className="h-4 w-4" />,
   }
 ]
 
@@ -1810,7 +1800,266 @@ export const tools: Tool[] = [
     visits: 1000000,
     dateAdded: "2023-01-01",
     isPremium: "Freemium"
+  },
+  {
+    name: "Jasper AI",
+    description: "AI-driven content generation tool for creating high-quality marketing copy, blog posts, and social media content.",
+    url: "https://www.jasper.ai",
+    id: "jasper-ai",
+    image: "/tool-screenshots/jasper-ai.png",
+    logo: "/logo/jasper-ai.png",
+    categories: ["marketing"],
+    subcategory: "Content Creation",
+    tags: ["copywriting", "blogging", "social_media", "seo", "email_marketing"],
+    rating: 4.7,
+    visits: 3000000,
+    dateAdded: "2021-01-15",
+    isPremium: "Premium"
+  },
+  {
+    name: "Surfer SEO",
+    description: "On-page SEO optimization tool that uses AI to analyze and improve content for better search engine rankings.",
+    url: "https://surferseo.com",
+    id: "surfer-seo",
+    image: "/tool-screenshots/surfer-seo.png",
+    logo: "/logo/surfer-seo.png",
+    categories: ["marketing"],
+    subcategory: "SEO Optimization",
+    tags: ["seo", "content_optimization", "keyword_research", "on_page_seo"],
+    rating: 4.6,
+    visits: 1500000,
+    dateAdded: "2019-06-20",
+    isPremium: "Premium"
+  },
+  {
+    name: "Copy.ai",
+    description: "AI-powered writing assistant that helps marketers create engaging content for various platforms.",
+    url: "https://www.copy.ai",
+    id: "copy-ai",
+    image: "/tool-screenshots/copy-ai.png",
+    logo: "/logo/copy-ai.png",
+    categories: ["marketing"],
+    subcategory: "Content Creation",
+    tags: ["copywriting", "email_marketing", "social_media", "blogging", "ads"],
+    rating: 4.5,
+    visits: 2500000,
+    dateAdded: "2020-10-10",
+    isPremium: "Freemium"
+  },
+  {
+    name: "Synthesia",
+    description: "AI video generation platform that creates professional videos from text in minutes.",
+    url: "https://www.synthesia.io",
+    id: "synthesia",
+    image: "/tool-screenshots/synthesia.png",
+    logo: "/logo/synthesia.png",
+    categories: ["marketing"],
+    subcategory: "Video Marketing",
+    tags: ["video_creation", "ai_video", "personalized_video", "training_videos"],
+    rating: 4.7,
+    visits: 2000000,
+    dateAdded: "2020-05-05",
+    isPremium: "Premium"
+  },
+  {
+    name: "Mailchimp",
+    description: "Marketing automation platform offering email marketing, landing pages, and audience management tools.",
+    url: "https://mailchimp.com",
+    id: "mailchimp",
+    image: "/tool-screenshots/mailchimp.png",
+    logo: "/logo/mailchimp.png",
+    categories: ["marketing"],
+    subcategory: "Email Marketing",
+    tags: ["email_campaigns", "automation", "audience_management", "analytics"],
+    rating: 4.6,
+    visits: 25000000,
+    dateAdded: "2001-10-01",
+    isPremium: "Freemium"
+  },
+  {
+    name: "ActiveCampaign",
+    description: "Customer experience automation platform combining email marketing, automation, and CRM tools.",
+    url: "https://www.activecampaign.com",
+    id: "activecampaign",
+    image: "/tool-screenshots/activecampaign.png",
+    logo: "/logo/activecampaign.png",
+    categories: ["marketing"],
+    subcategory: "Marketing Automation",
+    tags: ["email_marketing", "crm", "automation", "sales_automation"],
+    rating: 4.5,
+    visits: 5000000,
+    dateAdded: "2003-09-01",
+    isPremium: "Premium"
+  },
+  {
+    name: "Adobe Marketo Engage",
+    description: "Marketing automation software for lead management, email marketing, and campaign management.",
+    url: "https://business.adobe.com/products/marketo/adobe-marketo.html",
+    id: "adobe-marketo-engage",
+    image: "/tool-screenshots/adobe-marketo-engage.png",
+    logo: "/logo/adobe-marketo-engage.png",
+    categories: ["marketing"],
+    subcategory: "Marketing Automation",
+    tags: ["lead_management", "email_marketing", "campaign_management", "analytics"],
+    rating: 4.4,
+    visits: 3000000,
+    dateAdded: "2006-01-01",
+    isPremium: "Premium"
+  },
+  {
+    name: "Notion AI",
+    description: "AI-enhanced workspace for note-taking, project management, and content creation.",
+    url: "https://www.notion.so/product/ai",
+    id: "notion-ai",
+    image: "/tool-screenshots/notion-ai.png",
+    logo: "/logo/notion-ai.png",
+    categories: ["marketing"],
+    subcategory: "Productivity",
+    tags: ["note_taking", "project_management", "content_creation", "collaboration"],
+    rating: 4.8,
+    visits: 20000000,
+    dateAdded: "2023-02-01",
+    isPremium: "Freemium"
+  },
+  {
+    name: "Microsoft Copilot",
+    description: "AI assistant integrated into Microsoft 365 apps to enhance productivity and creativity.",
+    url: "https://www.microsoft.com/en-us/microsoft-365/copilot",
+    id: "microsoft-copilot",
+    image: "/tool-screenshots/microsoft-copilot.png",
+    logo: "/logo/microsoft-copilot.png",
+    categories: ["productivity"],
+    subcategory: "Office Suite",
+    tags: ["document_editing", "data_analysis", "email_management", "presentation_creation"],
+    rating: 4.7,
+    visits: 150000000,
+    dateAdded: "2023-03-16",
+    isPremium: "Premium"
+  },
+  {
+    name: "ClickUp AI",
+    description: "AI-powered project management tool that automates tasks and enhances team productivity.",
+    url: "https://clickup.com/ai",
+    id: "clickup-ai",
+    image: "/tool-screenshots/clickup-ai.png",
+    logo: "/logo/clickup-ai.png",
+    categories: ["productivity"],
+    subcategory: "Project Management",
+    tags: ["task_management", "automation", "team_collaboration", "productivity"],
+    rating: 4.6,
+    visits: 4000000,
+    dateAdded: "2023-05-10",
+    isPremium: "Freemium"
+  },
+  {
+    name: "Zapier",
+    description: "Automation platform that connects apps and automates workflows using AI.",
+    url: "https://zapier.com",
+    id: "zapier",
+    image: "/tool-screenshots/zapier.png",
+    logo: "/logo/zapier.png",
+    categories: ["productivity"],
+    subcategory: "Automation",
+    tags: ["workflow_automation", "integration", "task_automation", "productivity"],
+    rating: 4.5,
+    visits: 10000000,
+    dateAdded: "2012-08-01",
+    isPremium: "Freemium"
+  },
+  {
+    name: "Motion",
+    description: "AI-powered calendar and task manager that optimizes your schedule automatically.",
+    url: "https://www.usemotion.com",
+    id: "motion",
+    image: "/tool-screenshots/motion.png",
+    logo: "/logo/motion.png",
+    categories: ["productivity"],
+    subcategory: "Time Management",
+    tags: ["calendar", "task_management", "scheduling", "productivity"],
+    rating: 4.4,
+    visits: 500000,
+    dateAdded: "2022-11-15",
+    isPremium: "Premium"
+  },
+  {
+    name: "Fireflies.ai",
+    description: "AI meeting assistant that records, transcribes, and summarizes meetings.",
+    url: "https://fireflies.ai",
+    id: "fireflies-ai",
+    image: "/tool-screenshots/fireflies-ai.png",
+    logo: "/logo/fireflies-ai.png",
+    categories: ["productivity"],
+    subcategory: "Meeting Assistant",
+    tags: ["meeting_transcription", "note_taking", "collaboration", "productivity"],
+    rating: 4.3,
+    visits: 1000000,
+    dateAdded: "2020-06-01",
+    isPremium: "Freemium"
+  },
+  {
+    name: "Perplexity AI",
+    description: "AI-powered answer engine that delivers real-time, cited responses to user queries.",
+    url: "https://www.perplexity.ai",
+    id: "perplexity-ai",
+    image: "/tool-screenshots/perplexity-ai.png",
+    logo: "/logo/perplexity-ai.png",
+    categories: ["text"],
+    subcategory: "AI Search Engine",
+    tags: ["ai_search", "natural_language_processing", "real_time_answers", "citations", "research_assistant"],
+    rating: 4.7,
+    visits: 160000000,
+    dateAdded: "2022-12-07",
+    isPremium: "Freemium"
+  },
+  {
+    name: "Otter.ai",
+    description: "AI-powered transcription service that converts voice conversations into written text.",
+    url: "https://otter.ai",
+    id: "otter-ai",
+    image: "/tool-screenshots/otter-ai.png",
+    logo: "/logo/otter-ai.png",
+    categories: ["productivity"],
+    subcategory: "Transcription",
+    tags: ["transcription", "note_taking", "meetings", "productivity"],
+    rating: 4.5,
+    visits: 3000000,
+    dateAdded: "2017-09-01",
+    isPremium: "Freemium"
+  },
+  {
+    name: "Reclaim.ai",
+    description: "Smart calendar assistant that helps you automatically schedule tasks, habits, and meetings.",
+    url: "https://reclaim.ai",
+    id: "reclaim-ai",
+    image: "/tool-screenshots/reclaim-ai.png",
+    logo: "/logo/reclaim-ai.png",
+    categories: ["productivity"],
+    subcategory: "Scheduling",
+    tags: ["calendar", "task_management", "automation", "productivity"],
+    rating: 4.2,
+    visits: 200000,
+    dateAdded: "2021-03-15",
+    isPremium: "Freemium"
+  },
+  {
+    name: "SaneBox",
+    description: "Email management tool that uses AI to organize your inbox and prioritize important messages.",
+    url: "https://www.sanebox.com",
+    id: "sanebox",
+    image: "/tool-screenshots/sanebox.png",
+    logo: "/logo/sanebox.png",
+    categories: ["productivity"],
+    subcategory: "Email Management",
+    tags: ["email_organization", "inbox_management", "productivity", "automation"],
+    rating: 4.1,
+    visits: 150000,
+    dateAdded: "2010-05-01",
+    isPremium: "Premium"
   }
-];
+] ;
 
 export const mockTools = tools; 
+
+export async function getToolById(id: string) {
+  return mockTools.find((tool) => tool.id === id) || null;
+}

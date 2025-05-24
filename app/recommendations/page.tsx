@@ -3,15 +3,15 @@ import { mockTools } from "@/lib/data"
 import ToolCard from "@/components/tool-card"
 import { Button } from "@/components/ui/button"
 import { ExternalLink } from "lucide-react"
+import Link from "next/link"
 
-interface RecommendationsPageProps {
-  searchParams: {
-    query?: string
-  }
+type Props = {
+  params: {}
+  searchParams: { query?: string }
 }
 
-export default function RecommendationsPage({ searchParams }: RecommendationsPageProps) {
-  const query = searchParams.query
+export default function RecommendationsPage({ searchParams }: any) {
+  const query = searchParams?.query
 
   if (!query) {
     notFound()
@@ -95,7 +95,7 @@ export default function RecommendationsPage({ searchParams }: RecommendationsPag
           <h2 className="text-2xl font-bold mb-6">Alternative AI Tools</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {alternativeMatches.map((tool) => (
-              <ToolCard key={tool.id} tool={tool} matchReasons={tool.matchReasons} />
+              <ToolCard key={tool.id} tool={tool} />
             ))}
           </div>
         </section>

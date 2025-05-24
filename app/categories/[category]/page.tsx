@@ -1,148 +1,112 @@
+"use client"
+
 import ToolCard from "@/components/tool-card"
-import { mockTools } from "@/lib/data"
-import { notFound } from "next/navigation"
+import { mockTools, categories } from "@/lib/data"
 import Link from "next/link"
-import { ArrowLeft, MessageSquare, Image as ImageIcon, Mic, Palette, Clock, Code, FileText, Video, BarChart, Database } from "lucide-react"
 
-// Category info with icons and descriptions
-const categoryInfo: Record<string, { icon: any, description: string, color: string }> = {
-  "text": {
-    icon: MessageSquare,
-    description: "AI tools for writing, content creation, and text processing",
-    color: "bg-purple-50 text-purple-600"
+const categoryDescriptions: Record<string, { title: string; text: string }> = {
+  audio: {
+    title: "About Audio & Speech AI Tools",
+    text: `Audio & Speech AI tools leverage artificial intelligence to process, generate, and transform audio content, including speech synthesis and voice cloning. These innovative solutions are transforming how professionals and individuals approach their work in this domain.\n\nWhen choosing a audio & speech AI tool, consider factors like ease of use, output quality, customization options, and pricing. Many tools offer free trials or freemium models, allowing you to test their capabilities before committing to a paid plan.\n\nBrowse our curated selection of the best audio & speech AI tools to find the perfect solution for your specific needs and budget.`
   },
-  "image": {
-    icon: ImageIcon,
-    description: "Create and edit images, graphics, and visual content",
-    color: "bg-pink-50 text-pink-600"
+  coding: {
+    title: "About Coding AI Tools",
+    text: `Coding AI tools leverage artificial intelligence to assist with programming tasks, generate code snippets, debug issues, and optimize existing code. These innovative solutions are transforming how professionals and individuals approach their work in this domain.\n\nWhen choosing a coding AI tool, consider factors like ease of use, output quality, customization options, and pricing. Many tools offer free trials or freemium models, allowing you to test their capabilities before committing to a paid plan.\n\nBrowse our curated selection of the best coding AI tools to find the perfect solution for your specific needs and budget.`
   },
-  "Text Generation": {
-    icon: MessageSquare,
-    description: "AI tools for writing, content creation, and text processing",
-    color: "bg-purple-50 text-purple-600"
+  "data-processing": {
+    title: "About Data Processing AI Tools",
+    text: `Data Processing AI tools leverage artificial intelligence to clean, transform, and structure data for various applications and analyses. These innovative solutions are transforming how professionals and individuals approach their work in this domain.\n\nWhen choosing a data processing AI tool, consider factors like ease of use, output quality, customization options, and pricing. Many tools offer free trials or freemium models, allowing you to test their capabilities before committing to a paid plan.\n\nBrowse our curated selection of the best data processing AI tools to find the perfect solution for your specific needs and budget.`
   },
-  "Image Generation": {
-    icon: ImageIcon,
-    description: "Create and edit images, graphics, and visual content",
-    color: "bg-pink-50 text-pink-600"
+  design: {
+    title: "About Design AI Tools",
+    text: `Design AI tools leverage artificial intelligence to streamline the design process, generate creative assets, and enhance visual projects. These innovative solutions are transforming how professionals and individuals approach their work in this domain.\n\nWhen choosing a design AI tool, consider factors like ease of use, output quality, customization options, and pricing. Many tools offer free trials or freemium models, allowing you to test their capabilities before committing to a paid plan.\n\nBrowse our curated selection of the best design AI tools to find the perfect solution for your specific needs and budget.`
   },
-  "Coding": {
-    icon: Code,
-    description: "AI assistants for programming and development",
-    color: "bg-blue-50 text-blue-600"
+  image: {
+    title: "About Image Generation AI Tools",
+    text: `Image Generation AI tools leverage artificial intelligence to create stunning visuals, artwork, and designs from textual descriptions or other inputs. These innovative solutions are transforming how professionals and individuals approach their work in this domain.\n\nWhen choosing a image generation AI tool, consider factors like ease of use, output quality, customization options, and pricing. Many tools offer free trials or freemium models, allowing you to test their capabilities before committing to a paid plan.\n\nBrowse our curated selection of the best image generation AI tools to find the perfect solution for your specific needs and budget.`
   },
-  "Audio & Speech": {
-    icon: Mic,
-    description: "Generate and process audio, voice, and speech",
-    color: "bg-yellow-50 text-yellow-600"
+  marketing: {
+    title: "About Marketing AI Tools",
+    text: `Marketing AI tools leverage artificial intelligence to automate, optimize, and personalize marketing campaigns across channels. These innovative solutions are transforming how professionals and businesses reach and engage their audiences.\n\nWhen choosing a marketing AI tool, consider factors like ease of use, integration options, output quality, and pricing. Many tools offer free trials or freemium models, allowing you to test their capabilities before committing to a paid plan.\n\nBrowse our curated selection of the best marketing AI tools to find the perfect solution for your specific needs and goals.`
   },
-  "Design": {
-    icon: Palette,
-    description: "AI tools for UI/UX, graphic design, and visual creation",
-    color: "bg-green-50 text-green-600"
+  productivity: {
+    title: "About Productivity AI Tools",
+    text: `Productivity AI tools leverage artificial intelligence to automate repetitive tasks, organize information, and boost efficiency in various workflows. These innovative solutions are transforming how professionals and individuals approach their work in this domain.\n\nWhen choosing a productivity AI tool, consider factors like ease of use, output quality, customization options, and pricing. Many tools offer free trials or freemium models, allowing you to test their capabilities before committing to a paid plan.\n\nBrowse our curated selection of the best productivity AI tools to find the perfect solution for your specific needs and budget.`
   },
-  "Productivity": {
-    icon: Clock,
-    description: "Tools to enhance workflow and task management",
-    color: "bg-orange-50 text-orange-600"
+  text: {
+    title: "About Text Generation AI Tools",
+    text: `Text Generation AI tools leverage artificial intelligence to create high-quality written content for various purposes, from marketing copy to creative writing. These innovative solutions are transforming how professionals and individuals approach their work in this domain.\n\nWhen choosing a text generation AI tool, consider factors like ease of use, output quality, customization options, and pricing. Many tools offer free trials or freemium models, allowing you to test their capabilities before committing to a paid plan.\n\nBrowse our curated selection of the best text generation AI tools to find the perfect solution for your specific needs and budget.`
   },
-  "Research": {
-    icon: Database,
-    description: "AI tools for data analysis, research, and scientific discovery",
-    color: "bg-indigo-50 text-indigo-600"
-  },
-  "Video": {
-    icon: Video,
-    description: "Create, edit, and enhance videos with AI",
-    color: "bg-red-50 text-red-600"
-  },
-  "Analytics": {
-    icon: BarChart,
-    description: "Data analysis, insights, and business intelligence",
-    color: "bg-violet-50 text-violet-600"
-  },
-  "Data Processing": {
-    icon: Database,
-    description: "Process, clean, and transform data with AI",
-    color: "bg-teal-50 text-teal-600"
+  video: {
+    title: "About Video AI Tools",
+    text: `Video AI tools leverage artificial intelligence to create, edit, and enhance video content with minimal manual intervention. These innovative solutions are transforming how professionals and individuals approach their work in this domain.\n\nWhen choosing a video AI tool, consider factors like ease of use, output quality, customization options, and pricing. Many tools offer free trials or freemium models, allowing you to test their capabilities before committing to a paid plan.\n\nBrowse our curated selection of the best video AI tools to find the perfect solution for your specific needs and budget.`
   }
-}
+};
 
-interface CategoryPageProps {
-  params: {
-    category: string
-  }
-}
+export default function Page({ params }: any) {
+  const { category } = params;
+  // Support 'data' as an alias for 'data-processing'
+  const normalizedCategory = category.toLowerCase() === 'data' ? 'data-processing' : category.toLowerCase();
 
-export default async function CategoryPage({ params }: CategoryPageProps) {
-  const categoryName = await decodeURIComponent(params.category)
-    .split("-")
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ")
-
-  // Filter tools by category
+  // Only show tools in this category (match both 'data' and 'data-processing' for 'data')
   const categoryTools = mockTools.filter(tool =>
-    tool.categories.some(category =>
-      category.toLowerCase() === categoryName.toLowerCase()
-    )
-  )
+    category.toLowerCase() === 'data'
+      ? tool.categories.some(cat => ['data', 'data-processing'].includes(cat.toLowerCase()))
+      : tool.categories.some(cat => cat.toLowerCase() === normalizedCategory)
+  );
 
-  if (categoryTools.length === 0) {
-    notFound()
-  }
-
-  // Get icon, description, and color for the category
-  const info = categoryInfo[categoryName] || { icon: FileText, description: "AI tools for various purposes.", color: "bg-gray-100 text-gray-500" }
-  const Icon = info.icon
+  // Find the current category details
+  const currentCategory = categories.find(cat => cat.id.toLowerCase() === normalizedCategory);
+  const description = categoryDescriptions[normalizedCategory];
 
   return (
-    <div className="container mx-auto max-w-6xl py-8 px-4">
-      {/* Sticky header for title, description, and filter */}
-      <div className="sticky top-16 z-20 bg-white pt-4 pb-4 mb-8 shadow-sm border-b">
-        {/* Back link */}
-        <div className="mb-2">
+    <div className="max-w-6xl mx-auto px-4 py-8">
+      {/* All Categories Link */}
+      <div className="mb-4">
           <Link href="/categories" className="inline-flex items-center text-gray-500 hover:text-gray-700 text-sm font-medium">
-            <ArrowLeft className="w-4 h-4 mr-1" />
-            All Categories
+          <span className="mr-2">←</span> All Categories
           </Link>
+      </div>
+
+      {/* Banner Section */}
+      <div className="flex items-center gap-4 mb-2">
+        <div className="flex items-center justify-center h-12 w-12 rounded-xl bg-purple-50">
+          {currentCategory?.icon}
         </div>
-        {/* Title and icon */}
-        <div className="flex items-center mb-2">
-          <div className={`w-10 h-10 rounded-lg flex items-center justify-center mr-3 ${info.color}`}>
-            <Icon className="w-6 h-6" />
-          </div>
-          <h1 className="text-3xl font-extrabold text-gray-900 uppercase">{categoryName}</h1>
-        </div>
-        {/* Description */}
-        <p className="text-lg text-gray-600 mb-4">{info.description}</p>
-        {/* Filter bar */}
-        <div className="bg-gray-50 border rounded-xl px-6 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-          <div>
-            <span className="font-semibold">{categoryTools.length} tools found</span>
-            <span className="ml-2 text-gray-500">Browse all {categoryName.toLowerCase()} tools</span>
-          </div>
-          <div className="flex gap-2 mt-2 md:mt-0">
-            <select className="border rounded-md px-3 py-2 bg-white text-gray-700 text-sm focus:outline-none focus:ring-2 focus:ring-purple-200">
-              <option>Newest First</option>
-              <option>Oldest First</option>
-              <option>Top Rated</option>
-              <option>Most Visited</option>
-            </select>
-            <select className="border rounded-md px-3 py-2 bg-white text-gray-700 text-sm focus:outline-none focus:ring-2 focus:ring-purple-200">
-              <option>All Prices</option>
-              <option>Free</option>
-              <option>Paid</option>
-              <option>Freemium</option>
-            </select>
-          </div>
+        <div>
+          <h1 className="text-3xl font-extrabold text-gray-900 mb-1">
+            {currentCategory?.name || category.charAt(0).toUpperCase() + category.slice(1)}
+          </h1>
+          <p className="text-gray-600 text-base">
+            {currentCategory?.description || `Explore the best AI tools in the ${category} category.`}
+          </p>
         </div>
       </div>
-      {/* Tools grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {categoryTools.map((tool) => (
+
+      {/* Info Box (description) */}
+      {description && (
+        <div className="bg-purple-50 border border-purple-100 rounded-xl px-6 py-5 mb-8">
+          <h2 className="font-bold text-lg text-gray-900 mb-2">{description.title}</h2>
+          {description.text.split("\n\n").map((para, idx) => (
+            <p key={idx} className="text-gray-700 text-base mb-2 last:mb-0">{para}</p>
+          ))}
+        </div>
+      )}
+
+      {/* Info Box */}
+      <div className="bg-gray-50 border border-gray-100 rounded-xl px-6 py-4 mb-8 flex flex-col sm:flex-row sm:items-center sm:justify-between">
+          <div>
+          <span className="font-semibold text-gray-900">{categoryTools.length} tools found</span>
+          <div className="text-gray-500 text-sm">Browse all {currentCategory?.name?.toLowerCase() || category.toLowerCase()} tools</div>
+        </div>
+      </div>
+
+      {/* Tools Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {categoryTools.map(tool => (
           <ToolCard key={tool.id} tool={tool} />
         ))}
       </div>
     </div>
-  )
+  );
 } 

@@ -16,7 +16,7 @@ export function FeaturedTool({ tool }: FeaturedToolProps) {
             {tool.logo && (
               <Image
                 src={tool.logo}
-                alt={tool.name}
+            alt={tool.name}
                 width={32}
                 height={32}
                 className="rounded-sm"
@@ -27,7 +27,7 @@ export function FeaturedTool({ tool }: FeaturedToolProps) {
           <p className="text-sm text-muted-foreground">
             {tool.description}
           </p>
-        </div>
+          </div>
         <div className="flex items-center gap-2">
           <Link
             href={tool.url}
@@ -40,8 +40,8 @@ export function FeaturedTool({ tool }: FeaturedToolProps) {
           <span className="text-sm text-muted-foreground">
             {tool.rating} ★
           </span>
-        </div>
+            </div>
       </div>
     </div>
   );
-} 
+}

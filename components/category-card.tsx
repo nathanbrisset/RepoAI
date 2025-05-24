@@ -7,6 +7,10 @@ interface CategoryCardProps {
   category: Category
 }
 
+function capitalizeWords(str: string) {
+  return str.replace(/\b\w/g, c => c.toUpperCase());
+}
+
 export default function CategoryCard({ category }: CategoryCardProps) {
   const categoryTools = tools.filter(tool =>
     tool.categories.includes(category.id)
@@ -19,7 +23,7 @@ export default function CategoryCard({ category }: CategoryCardProps) {
           <div className="w-12 h-12 rounded-lg bg-purple-100 flex items-center justify-center mb-4">
             {category.icon}
           </div>
-          <CardTitle>{category.name}</CardTitle>
+          <CardTitle>{capitalizeWords(category.name)}</CardTitle>
           <p className="text-sm text-muted-foreground mt-1">
             {category.description}
           </p>

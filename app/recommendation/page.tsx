@@ -135,12 +135,8 @@ function SearchForm() {
   )
 }
 
-export default function RecommendationPage({
-  searchParams,
-}: {
-  searchParams: { q: string }
-}) {
-  const query = searchParams.q
+export default function RecommendationPage({ searchParams }: any) {
+  const query = searchParams?.q
 
   // If no query is provided, show the search form
   if (!query) {
