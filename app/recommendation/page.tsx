@@ -1,4 +1,7 @@
-import { mockTools } from '@/lib/data'
+"use client";
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { Metadata } from 'next'
 import ToolCard from '@/components/tool-card'
 import { Badge } from '@/components/ui/badge'
@@ -135,64 +138,56 @@ function SearchForm() {
   )
 }
 
-export default function RecommendationPage({ searchParams }: any) {
-  const query = searchParams?.q
+export default function RecommendationPage() {
+  const [prompt, setPrompt] = useState("");
+  const [recommendation, setRecommendation] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  // If no query is provided, show the search form
-  if (!query) {
-    return (
-      <div className="container py-12">
-        <SearchForm />
-      </div>
-    )
-  }
-
-  const { bestMatch, otherMatches } = findBestMatch(query)
-  const reasons = getRecommendationReason(bestMatch, query)
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+    setError("");
+    setRecommendation("");
+    try {
+      const res = await fetch("/api/recommend", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt }),
+      });
+      const data = await res.json();
+      if (data.error) throw new Error(data.error);
+      setRecommendation(data.recommendation);
+    } catch (err: any) {
+      setError(err.message || "Something went wrong");
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
-    <div className="container py-8">
-      <h1 className="text-4xl font-bold mb-8 text-center">Your Perfect AI Tool Match</h1>
-      
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-        {/* Best Match Card */}
-        <div className="col-span-1">
-          <ToolCard tool={bestMatch} />
+    <div className="container mx-auto max-w-2xl px-4 py-16">
+      <h1 className="text-4xl font-bold mb-6 text-center">AI Tool Recommendation Assistant</h1>
+      <p className="text-lg text-gray-600 mb-8 text-center">Describe what you want to do, and our AI assistant will recommend the best tool for you.</p>
+      <form onSubmit={handleSubmit} className="flex flex-col gap-4 mb-8">
+        <Input
+          value={prompt}
+          onChange={e => setPrompt(e.target.value)}
+          placeholder="e.g. I want to generate images from text for my marketing team"
+          required
+          className="text-lg px-4 py-3"
+        />
+        <Button type="submit" className="w-full text-lg" disabled={loading || !prompt}>
+          {loading ? "Thinking..." : "Get Recommendation"}
+        </Button>
+      </form>
+      {error && <div className="text-red-600 text-center mb-4">{error}</div>}
+      {recommendation && (
+        <div className="bg-white rounded-xl shadow p-6 border border-gray-100 text-lg">
+          <h2 className="font-bold mb-2 text-purple-700">AI Assistant Recommendation:</h2>
+          <div>{recommendation}</div>
         </div>
-        
-        {/* Recommendation Explanation */}
-        <div className="col-span-1 space-y-6">
-          <Card className="p-6 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-950 dark:to-purple-950">
-            <h2 className="text-2xl font-semibold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Based on your request:
-            </h2>
-            <p className="text-lg text-muted-foreground mb-6 italic">
-              "{query}"
-            </p>
-            <div className="space-y-4">
-              <h3 className="text-xl font-medium">Why we recommend {bestMatch.name}:</h3>
-              <p className="text-muted-foreground">{bestMatch.description}</p>
-              <div className="flex flex-wrap gap-2 mt-4">
-                {bestMatch.tags?.map((tag) => (
-                  <Badge key={tag} variant="secondary" className="text-sm">
-                    {tag}
-                  </Badge>
-                ))}
-              </div>
-            </div>
-          </Card>
-        </div>
-      </div>
-
-      {/* Other Recommendations */}
-      <section>
-        <h2 className="text-3xl font-semibold mb-6">Other options you might like:</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {otherMatches.map((tool) => (
-            <ToolCard key={tool.id} tool={tool} />
-          ))}
-        </div>
-      </section>
+      )}
     </div>
-  )
+  );
 } 
