@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { useState } from "react"
+import { useState, useRef } from "react"
 import { ArrowRight, Check, Info } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -16,10 +16,34 @@ import { categories } from "@/lib/data"
 export default function SubmitToolPage() {
   const [step, setStep] = useState(1)
   const [submitted, setSubmitted] = useState(false)
+  const formRef = useRef<HTMLFormElement>(null)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [error, setError] = useState("")
+  const [success, setSuccess] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setSubmitted(true)
+    setIsSubmitting(true)
+    setError("")
+    setSuccess(false)
+    if (!formRef.current) return
+    const formData = new FormData(formRef.current)
+    const data = Object.fromEntries(formData.entries())
+    try {
+      const response = await fetch("/api/submit-tool", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      })
+      if (!response.ok) throw new Error("Failed to submit tool")
+      setSuccess(true)
+      setSubmitted(true)
+      formRef.current.reset()
+    } catch (err) {
+      setError("Failed to submit tool. Please try again.")
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -92,7 +116,7 @@ export default function SubmitToolPage() {
               </div>
             </div>
 
-            <form onSubmit={handleSubmit}>
+            <form ref={formRef} onSubmit={handleSubmit}>
               {step === 1 && (
                 <Card>
                   <CardHeader>
@@ -250,6 +274,8 @@ export default function SubmitToolPage() {
                 </Card>
               )}
             </form>
+            {success && <div className="text-green-600 text-center">Tool submitted successfully!</div>}
+            {error && <div className="text-red-600 text-center">{error}</div>}
           </>
         )}
       </div>

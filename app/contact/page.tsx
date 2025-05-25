@@ -10,22 +10,28 @@ import { Mail, MessageSquare, Phone } from "lucide-react"
 export default function ContactPage() {
   const formRef = useRef<HTMLFormElement>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formRef.current) return;
-
     setIsSubmitting(true);
+    setSuccess(false);
+    setError("");
     const formData = new FormData(formRef.current);
     const data = Object.fromEntries(formData.entries());
-
     try {
-      // Here you would typically send the data to your backend
-      console.log("Form data:", data);
-      // Reset form
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (!response.ok) throw new Error("Failed to send message");
+      setSuccess(true);
       formRef.current.reset();
-    } catch (error) {
-      console.error("Error submitting form:", error);
+    } catch (err) {
+      setError("Failed to send message. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
@@ -103,6 +109,8 @@ export default function ContactPage() {
                   onChange={(value) => console.log("Captcha value:", value)}
                 />
               </div>
+              {success && <div className="text-green-600 text-center">Message sent successfully!</div>}
+              {error && <div className="text-red-600 text-center">{error}</div>}
               <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700" disabled={isSubmitting}>
                 {isSubmitting ? "Sending..." : "Send Message"}
               </Button>
