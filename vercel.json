@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "cp prisma/schema.production.prisma prisma/schema.prisma && npx prisma generate && npx prisma migrate deploy && npm run build",
+  "buildCommand": "DATABASE_URL=postgresql://postgres:postgres@localhost:5432/mydb npx prisma generate && npx prisma migrate deploy && npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
