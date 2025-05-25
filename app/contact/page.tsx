@@ -37,6 +37,8 @@ export default function ContactPage() {
     }
   };
 
+  const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "";
+
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto max-w-4xl px-4 py-16">
@@ -104,10 +106,14 @@ export default function ContactPage() {
                 />
               </div>
               <div className="mb-4 flex justify-center">
-                <ReCAPTCHA
-                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
-                  onChange={(value) => console.log("Captcha value:", value)}
-                />
+                {recaptchaSiteKey ? (
+                  <ReCAPTCHA
+                    sitekey={recaptchaSiteKey}
+                    onChange={(value) => console.log("Captcha value:", value)}
+                  />
+                ) : (
+                  <div className="text-red-600 text-center">reCAPTCHA site key is not configured.</div>
+                )}
               </div>
               {success && <div className="text-green-600 text-center">Message sent successfully!</div>}
               {error && <div className="text-red-600 text-center">{error}</div>}
