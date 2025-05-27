@@ -21,10 +21,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/tool/[id]/page": [
+    "/match-results/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/tool/[id]/page.js"
+      "static/chunks/app/match-results/page.js"
+    ],
+    "/api/recommend/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/recommend/route.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

@@ -10,13 +10,37 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
     domains: ['images.unsplash.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
+    unoptimized: true, // For static exports
   },
   output: 'standalone',
   poweredByHeader: false,
   compress: true,
   reactStrictMode: true,
+  trailingSlash: true, // Add trailing slashes to all routes
+  assetPrefix: process.env.NODE_ENV === 'production' ? '.' : '', // For static exports
+  // Add basePath if deploying to a subdirectory
+  basePath: process.env.NODE_ENV === 'production' ? '' : '',
+  // Ensure static files are properly served
+  async headers() {
+    return [
+      {
+        source: '/tool-screenshots/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+    ]
+  },
 }
 
 export default nextConfig 

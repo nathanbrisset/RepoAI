@@ -1,4 +1,4 @@
-import { mockTools } from '../lib/data';
+import { mockTools } from '../lib/data.tsx';
 import fs from 'fs';
 import path from 'path';
 

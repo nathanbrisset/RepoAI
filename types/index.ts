@@ -39,7 +39,7 @@ export interface Tool {
 }
 
 // Next.js App Router types
-export interface PageProps {
+export interface MyPageProps {
   params: {
     [key: string]: string | string[]
   }

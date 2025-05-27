@@ -89,7 +89,13 @@ export const tools: Tool[] = [
     rating: 4.7,
     visits: 2500000,
     dateAdded: "2021-01-15",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Marketing Editor: AI document editor trained exclusively in marketing best practices.",
+      "Brand Voice: Configures outputs to adhere to your brand's unique tone and style.",
+      "Team Acceleration: AI-native project management for efficient team coordination.",
+      "AI-Powered Workflows: Builds AI apps and workflows tied to real business outcomes."
+    ]
   },
   {
     name: "Conversion.ai (Jasper AI)",
@@ -104,7 +110,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 600000,
     dateAdded: "2021-10-15",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "AI Enrichment: Enhances lead data with AI for better personalization.",
+      "Magic Segmentation: Automatically segments leads based on behavior.",
+      "Real-Time Triggers: Initiates actions based on real-time user behavior.",
+      "Content Generation: Generates brand-consistent and personalized content efficiently."
+    ]
   },
   {
     name: "CopySmith",
@@ -119,7 +131,13 @@ export const tools: Tool[] = [
     rating: 4.3,
     visits: 400000,
     dateAdded: "2021-12-15",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Bulk Content Generation: Produces product descriptions and other content at scale.",
+      "Centralized Content Management: Manages product content from a single platform.",
+      "Collaborative Editing: Enables real-time team collaboration on content.",
+      "SEO Optimization: Ensures content is optimized for search engines."
+    ]
   },
   {
     name: "Copyscape",
@@ -134,7 +152,13 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 350000,
     dateAdded: "2022-01-15",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Plagiarism Detection: Scans the web to detect duplicate content.",
+      "Premium Services: Offers advanced features like batch search and private index.",
+      "API Integration: Allows integration with other platforms for automated checks.",
+      "User-Friendly Interface: Simple process to check content originality."
+    ]
   },
   {
     name: "Grammarly",
@@ -149,7 +173,13 @@ export const tools: Tool[] = [
     rating: 4.7,
     visits: 12000000,
     dateAdded: "2020-09-15",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Real-Time Grammar and Spelling Checks: Instantly identifies and corrects grammatical errors and typos as you type.",
+      "Writing Style Improvements: Offers suggestions to improve clarity, conciseness, and tone.",
+      "Plagiarism Detection: Checks content against billions of web pages to ensure originality.",
+      "Tone Detection: Analyzes the tone of your writing to ensure it matches your intended message."
+    ]
   },
   {
     name: "QuillBot",
@@ -1157,21 +1187,6 @@ export const tools: Tool[] = [
     isPremium: "Freemium"
   },
   {
-    name: "QuillBot",
-    description: "Academic writing assistant with paraphrasing and summarization.",
-    url: "https://quillbot.com",
-    id: "quillbot",
-    image: "/tool-screenshots/quillbot.png",
-    logo: "/logo/quillbot.png",
-    categories: ["text"],
-    subcategory: "Academic Writing & Paraphrasing",
-    tags: ["paraphrasing", "summarizing", "citation", "academic", "plagiarism_check"],
-    rating: 4.4,
-    visits: 2400000,
-    dateAdded: "2018-10-01",
-    isPremium: "Freemium"
-  },
-  {
     name: "Sudowrite",
     description: "Creative writing tool for fiction authors and storytellers.",
     url: "https://www.sudowrite.com",
@@ -2055,6 +2070,216 @@ export const tools: Tool[] = [
     visits: 150000,
     dateAdded: "2010-05-01",
     isPremium: "Premium"
+  },
+  {
+    name: "DeepAI Text Generator",
+    description: "Simple AI tool for generating text based on prompts.",
+    url: "https://deepai.org/chat/text-generator",
+    id: "deepai-text",
+    image: "/tool-screenshots/deepai.png",
+    logo: "/logo/deepai.png",
+    categories: ["text"],
+    subcategory: "text-generation",
+    tags: ["AI", "text", "prompt"],
+    rating: 4.0,
+    visits: 60000,
+    dateAdded: "2021-09-05",
+    isPremium: 'Free',
+    features: [
+      "Prompt-Based Generation: Generates text based on user-provided prompts.",
+      "Simple Interface: Easy-to-use design for quick text generation.",
+      "No Account Required: Use the tool without signing up.",
+      "Free Access: Generate text at no cost for basic needs."
+    ]
+  },
+  {
+    name: "Typli.ai",
+    description: "AI writing tool with grammar check and SEO optimization.",
+    url: "https://typli.ai",
+    id: "typli",
+    image: "/tool-screenshots/typli.png",
+    logo: "/logo/typli.png",
+    categories: ["text"],
+    subcategory: "text-generation",
+    tags: ["AI", "grammar", "SEO"],
+    rating: 4.1,
+    visits: 50000,
+    dateAdded: "2022-04-01",
+    isPremium: 'Freemium',
+    features: [
+      "Grammar Checker: Instantly corrects grammar and spelling mistakes.",
+      "SEO Optimization: Provides SEO suggestions for better ranking.",
+      "Content Templates: Offers templates for various writing needs.",
+      "AI-Powered Writing: Generates content based on your input and keywords."
+    ]
+  },
+  {
+    name: "Picsart AI Writer",
+    description: "Generates text for social media, marketing, and more.",
+    url: "https://tools.picsart.com/text/ai-writer/",
+    id: "picsart-writer",
+    image: "/tool-screenshots/picsart.png",
+    logo: "/logo/picsart.png",
+    categories: ["text"],
+    subcategory: "text-generation",
+    tags: ["AI", "social media", "marketing"],
+    rating: 4.0,
+    visits: 70000,
+    dateAdded: "2022-07-11",
+    isPremium: 'Freemium',
+    features: [
+      "Social Media Content: Generates posts and captions for various platforms.",
+      "Marketing Copy: Creates engaging marketing and ad copy.",
+      "Multi-Language Support: Write in multiple languages.",
+      "Quick Generation: Produces content in seconds for fast workflows."
+    ]
+  },
+  {
+    name: "ToolBaz AI Text Generator",
+    description: "Free tool for generating text, articles, and scripts.",
+    url: "https://toolbaz.com/writer/ai-text-generator",
+    id: "toolbaz",
+    image: "/tool-screenshots/toolbaz.png",
+    logo: "/logo/toolbaz.png",
+    categories: ["text"],
+    subcategory: "text-generation",
+    tags: ["AI", "article", "text"],
+    rating: 3.9,
+    visits: 30000,
+    dateAdded: "2021-08-23",
+    isPremium: 'Free',
+    features: [
+      "Article Generation: Creates articles and blog posts from prompts.",
+      "Script Writing: Generates scripts for videos or presentations.",
+      "Free to Use: No payment required for basic features.",
+      "Simple Workflow: Minimal steps to generate and copy text."
+    ]
+  },
+  {
+    name: "Ahrefs Paragraph Generator",
+    description: "Generates human-like paragraphs based on prompts.",
+    url: "https://ahrefs.com/writing-tools/paragraph-generator",
+    id: "ahrefs-paragraph",
+    image: "/tool-screenshots/ahrefs.png",
+    logo: "/logo/ahrefs.png",
+    categories: ["text"],
+    subcategory: "text-generation",
+    tags: ["AI", "paragraph", "writing"],
+    rating: 4.2,
+    visits: 85000,
+    dateAdded: "2022-06-15",
+    isPremium: 'Free',
+    features: [
+      "Paragraph Generation: Produces human-like paragraphs from prompts.",
+      "SEO-Friendly Content: Generates content optimized for search engines.",
+      "No Signup Needed: Use the tool without creating an account.",
+      "Fast Output: Get results instantly for quick content needs."
+    ]
+  },
+  {
+    name: "Canva Magic Write",
+    description: "AI writing assistant in Canva for content creation.",
+    url: "https://www.canva.com/magic-write/",
+    id: "canva-magic-write",
+    image: "/tool-screenshots/canva.png",
+    logo: "/logo/canva.png",
+    categories: ["text"],
+    subcategory: "text-generation",
+    tags: ["AI", "Canva", "creative"],
+    rating: 4.4,
+    visits: 120000,
+    dateAdded: "2023-01-10",
+    isPremium: 'Freemium',
+    features: [
+      "Integrated with Canva: Write content directly in your Canva projects.",
+      "Creative Content: Generates ideas, outlines, and full text.",
+      "Multiple Use Cases: Supports blogs, social posts, and more.",
+      "AI-Powered Suggestions: Offers smart suggestions to enhance your writing."
+    ]
+  },
+  {
+    name: "Article Forge",
+    description: "Automatically generates full-length articles on various topics.",
+    url: "https://www.articleforge.com",
+    id: "articleforge",
+    image: "/tool-screenshots/articleforge.png",
+    logo: "/logo/articleforge.png",
+    categories: ["text"],
+    subcategory: "text-generation",
+    tags: ["AI", "article", "automation"],
+    rating: 4.3,
+    visits: 95000,
+    dateAdded: "2021-10-30",
+    isPremium: 'Premium',
+    features: [
+      "Full-Length Articles: Automatically generates comprehensive articles.",
+      "Topic Research: Gathers information from multiple sources.",
+      "SEO Optimization: Produces content optimized for search engines.",
+      "Bulk Generation: Create multiple articles at once for scale."
+    ]
+  },
+  {
+    name: "Byword AI",
+    description: "Generates SEO-optimized articles at scale.",
+    url: "https://www.byword.ai",
+    id: "byword",
+    image: "/tool-screenshots/byword.png",
+    logo: "/logo/byword.png",
+    categories: ["text"],
+    subcategory: "text-generation",
+    tags: ["AI", "SEO", "automation"],
+    rating: 4.2,
+    visits: 90000,
+    dateAdded: "2022-02-18",
+    isPremium: 'Premium',
+    features: [
+      "SEO-Optimized Content: Generates articles designed to rank well.",
+      "Bulk Article Creation: Produce many articles at once.",
+      "Automated Research: Gathers facts and data for your topics.",
+      "Easy Export: Download or copy articles for your website or blog."
+    ]
+  },
+  {
+    name: "Rytr",
+    description: "AI writing assistant for generating high-quality content quickly.",
+    url: "https://rytr.me",
+    id: "rytr",
+    image: "/tool-screenshots/rytr.png",
+    logo: "/logo/rytr.png",
+    categories: ["text"],
+    subcategory: "text-generation",
+    tags: ["AI", "writing", "content"],
+    rating: 4.3,
+    visits: 220000,
+    dateAdded: "2021-11-10",
+    isPremium: 'Freemium',
+    features: [
+      "Multiple Tones & Languages: Write in various styles and languages.",
+      "Content Templates: Choose from templates for blogs, ads, emails, and more.",
+      "Plagiarism Check: Ensures your content is original.",
+      "AI-Powered Suggestions: Get smart suggestions to improve your writing."
+    ]
+  },
+  {
+    name: "Frase",
+    description: "AI-powered tool for content creation and SEO optimization.",
+    url: "https://www.frase.io",
+    id: "frase",
+    image: "/tool-screenshots/frase.png",
+    logo: "/logo/frase.png",
+    categories: ["text"],
+    subcategory: "text-generation",
+    tags: ["AI", "SEO", "content"],
+    rating: 4.5,
+    visits: 150000,
+    dateAdded: "2021-12-20",
+    isPremium: 'Premium',
+    features: [
+      "Content Briefs: Automatically generates SEO-focused content briefs.",
+      "Topic Research: Analyzes top results to guide your writing.",
+      "AI Writing: Produces content based on your outline and keywords.",
+      "Optimization Tools: Helps improve your content for better rankings."
+    ]
   }
 ] ;
 

@@ -4,6 +4,7 @@ import CategoryFilter from "@/components/category-filter"
 import { mockTools } from "@/lib/data"
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
+import { Sparkles } from "lucide-react"
 
 export default function Home() {
   // Get the newest tools (last 5 added)
@@ -42,15 +43,19 @@ export default function Home() {
             </div>
             {/* Right side - Text and Input */}
             <div className="flex flex-col justify-center">
-              <h2 className="text-3xl font-bold mb-2">Find your AI MATCH!</h2>
+              <h2 className="text-3xl font-bold mb-2 flex items-center gap-2">
+                <Sparkles className="w-8 h-8 text-yellow-400" />
+                Find your AI MATCH!
+              </h2>
               <p className="text-lg text-gray-600 mb-6">Whatever you need, there's an AI for it!</p>
-              <form action="/recommendations" method="GET" className="space-y-4">
+              <form action="/match-results" method="GET" className="space-y-4">
                 <Textarea
                   placeholder="Describe what you're trying to accomplish..."
                   className="min-h-[150px] resize-none"
                   name="query"
+                  required
                 />
-                <Button type="submit" className="w-full">
+                <Button type="submit" className="w-full bg-purple-600 hover:bg-purple-700">
                   Find my A-Match
                 </Button>
               </form>
@@ -63,42 +68,30 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-6 text-gray-800">Browse by Category</h2>
           <CategoryFilter />
         </section>
+
         {/* New Tools */}
         <section className="mb-16">
-          <div className="flex justify-between items-center mb-6">
-            <h2 className="text-2xl font-bold text-gray-800">New AI Tools</h2>
-            <Link href="/category/new" className="text-purple-600 hover:text-purple-800 font-medium">
-              View all →
-            </Link>
-          </div>
+          <h2 className="text-2xl font-bold mb-6 text-gray-800">Newest Tools</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {newTools.map((tool) => (
               <ToolCard key={tool.id} tool={tool} />
             ))}
           </div>
         </section>
+
         {/* Most Visited */}
         <section className="mb-16">
-          <div className="flex justify-between items-center mb-6">
-            <h2 className="text-2xl font-bold text-gray-800">Most Visited</h2>
-            <Link href="/category/popular" className="text-purple-600 hover:text-purple-800 font-medium">
-              View all →
-            </Link>
-          </div>
+          <h2 className="text-2xl font-bold mb-6 text-gray-800">Most Popular</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {mostVisited.map((tool) => (
               <ToolCard key={tool.id} tool={tool} />
             ))}
           </div>
         </section>
+
         {/* Top Rated */}
-        <section className="mb-16">
-          <div className="flex justify-between items-center mb-6">
-            <h2 className="text-2xl font-bold text-gray-800">Top Rated</h2>
-            <Link href="/category/top-rated" className="text-purple-600 hover:text-purple-800 font-medium">
-              View all →
-            </Link>
-          </div>
+        <section>
+          <h2 className="text-2xl font-bold mb-6 text-gray-800">Top Rated</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {topRated.map((tool) => (
               <ToolCard key={tool.id} tool={tool} />

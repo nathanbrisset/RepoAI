@@ -1,5 +1,3 @@
-"use client"
-
 import ToolCard from "@/components/tool-card"
 import { mockTools, categories } from "@/lib/data"
 import Link from "next/link"
@@ -43,10 +41,15 @@ const categoryDescriptions: Record<string, { title: string; text: string }> = {
   }
 };
 
-export default function Page({ params }: any) {
-  const { category } = params;
-  // Support 'data' as an alias for 'data-processing'
-  const normalizedCategory = category.toLowerCase() === 'data' ? 'data-processing' : category.toLowerCase();
+export default function Page({ params }: { params: { category: string } }) {
+  const category = params.category;
+  
+  // Normalize category handling
+  const normalizedCategory = category.toLowerCase() === 'data' 
+    ? 'data-processing' 
+    : category.toLowerCase() === 'text' 
+      ? 'text'  // Keep 'text' as is to avoid case sensitivity issues
+      : category.toLowerCase();
 
   // Only show tools in this category (match both 'data' and 'data-processing' for 'data')
   const categoryTools = mockTools.filter(tool =>
