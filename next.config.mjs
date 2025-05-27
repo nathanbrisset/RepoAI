@@ -24,7 +24,7 @@ const nextConfig = {
   compress: true,
   reactStrictMode: true,
   trailingSlash: true, // Add trailing slashes to all routes
-  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://v0-ai-tool-directory-template-hwsx8yto4-nathanbrissets-projects.vercel.app' : '', // For static exports
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://aitools.ninja' : '', // For static exports
   // Add basePath if deploying to a subdirectory
   basePath: '',
   // Ensure static files are properly served
