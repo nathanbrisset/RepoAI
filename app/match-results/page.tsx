@@ -53,6 +53,8 @@ function formatExplanation(explanation: string, toolName: string): Array<React.R
 }
 
 function extractMentionedTools(explanation: string, mainTool: Tool): Tool[] {
+  if (!explanation || !mainTool?.id) return [];
+  
   // Find all tool names mentioned in the explanation (case-insensitive, match mockTools)
   const mentioned: Tool[] = [];
   const toolNames = mockTools.map(t => t.name.toLowerCase());
@@ -62,7 +64,7 @@ function extractMentionedTools(explanation: string, mainTool: Tool): Tool[] {
     const idx = toolNames.indexOf(match[1].toLowerCase());
     if (idx !== -1) {
       const tool = mockTools[idx];
-      if (tool.id !== mainTool.id && !mentioned.find(t => t.id === tool.id)) {
+      if (tool?.id && tool.id !== mainTool.id && !mentioned.find(t => t?.id === tool.id)) {
         mentioned.push(tool);
       }
     }
@@ -72,19 +74,22 @@ function extractMentionedTools(explanation: string, mainTool: Tool): Tool[] {
 
 // Add a function to extract the visitor's query from searchParams
 function getVisitorQuery(searchParams: any): string {
-  return searchParams.get('query') || '';
+  return searchParams?.get('query') || '';
 }
 
 // Add a function to extract top 3 tools and reasons from the explanation
 function extractTopToolsAndReasons(explanation: string): { tool: Tool, reason: string }[] {
+  if (!explanation) return [];
+  
   // This is a simple heuristic: look for tool names in the explanation and grab the sentence after
   const results: { tool: Tool, reason: string }[] = [];
   const toolNames = mockTools.map(t => t.name.toLowerCase());
   const sentences = explanation.split(/(?<=\.)\s+/);
   for (let i = 0; i < sentences.length; i++) {
     for (const tool of mockTools) {
+      if (!tool?.id) continue;
       const regex = new RegExp(`\\b${tool.name}\\b`, 'i');
-      if (regex.test(sentences[i]) && !results.find(r => r.tool.id === tool.id)) {
+      if (regex.test(sentences[i]) && !results.find(r => r?.tool?.id === tool.id)) {
         // Try to get the next sentence as the reason, or use the current one
         const reason = sentences[i + 1] ? sentences[i + 1].trim() : sentences[i].trim();
         results.push({ tool, reason });
@@ -158,18 +163,10 @@ export default function MatchResultsPage() {
   const searchParams = useSearchParams();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [result, setResult] = useState<MatchResult | null>(null);
-
-  // Get related tools (same category, excluding the current tool)
-  const relatedTools = result ? mockTools
-    .filter(tool => 
-      tool.id !== result.tool.id && 
-      tool.categories.some(cat => result.tool.categories.includes(cat))
-    )
-    .slice(0, 3) : [];
+  const [results, setResults] = useState<MatchResult[]>([]);
 
   useEffect(() => {
-    const query = searchParams.get('query');
+    const query = searchParams?.get('query');
     if (!query) {
       setError('No query provided');
       setLoading(false);
@@ -191,7 +188,11 @@ export default function MatchResultsPage() {
         }
 
         const data = await response.json();
-        setResult(data);
+        if (Array.isArray(data?.recommendations) && data.recommendations.length > 0) {
+          setResults(data.recommendations);
+        } else {
+          setError('No recommendations found');
+        }
       } catch (err) {
         setError(err instanceof Error ? err.message : 'An error occurred');
       } finally {
@@ -230,7 +231,7 @@ export default function MatchResultsPage() {
     );
   }
 
-  if (!result) {
+  if (!results.length) {
     return (
       <div className="container mx-auto max-w-4xl px-4 py-16">
         <div className="text-center">
@@ -247,94 +248,143 @@ export default function MatchResultsPage() {
     );
   }
 
-  // Get all mentioned tools in the explanation (excluding the main one)
-  const mentionedTools = extractMentionedTools(result.explanation, result.tool);
-
   const visitorQuery = getVisitorQuery(searchParams);
-  const topTools = extractTopToolsAndReasons(result.explanation);
-  const topPick = topTools[0];
-  const secondPick = topTools[1];
-  const thirdPick = topTools[2];
-  // Get 3 more tools from the same category, excluding the top 3
-  const moreCategoryTools = result ? mockTools
-    .filter(tool =>
-      tool.id !== result.tool.id &&
-      (!topTools.find(t => t.tool.id === tool.id)) &&
-      tool.categories.some(cat => result.tool.categories.includes(cat))
-    )
-    .slice(0, 3) : [];
+
+  // Top 3 recommended tools
+  const topTools = results.filter(r => r?.tool?.id).slice(0, 3);
+  const mainTool = topTools[0]?.tool;
+  const mainExplanation = topTools[0]?.explanation;
+  const otherTools = topTools.slice(1);
+
+  // Find 3 more tools in the same category as the main tool, excluding the top 3
+  let moreCategoryTools: Tool[] = [];
+  if (mainTool) {
+    moreCategoryTools = mockTools
+      .filter(tool =>
+        tool.id !== mainTool.id &&
+        !topTools.find(t => t.tool && t.tool.id === tool.id) &&
+        tool.categories.some(cat => mainTool.categories.includes(cat))
+      )
+      .slice(0, 3);
+  }
 
   return (
     <div className="container mx-auto max-w-6xl px-4 py-16">
-      <Link href="/" className="inline-block mb-8 ml-8">
-        <Button variant="ghost" className="text-gray-600">
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
-        </Button>
-      </Link>
-
-      {/* Hero Section - Less Wide, Centered */}
-      <div className="w-full bg-gradient-to-br from-purple-100 via-white to-blue-100 rounded-3xl shadow-xl border border-purple-200 p-12 flex flex-col md:flex-row gap-12 items-stretch relative overflow-hidden mb-12">
-        {/* Left: Content */}
-        <div className="flex-1 min-w-0">
-          <div className="mb-6">
-            <h2 className="text-2xl font-bold text-gray-800 mb-2">Your Research</h2>
-            <div className="bg-white rounded-lg px-6 py-4 text-lg text-gray-700 shadow-sm border border-gray-100">{visitorQuery}</div>
-          </div>
-          <div className="mb-8">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Based on your need, we recommend these tools:</h3>
-            <ol className="space-y-4 list-decimal list-inside">
-              {topTools.map((item, idx) => (
-                <li key={item.tool.id} className="text-lg">
-                  <span className="font-bold text-purple-700">{idx + 1}. {item.tool.name}</span> : <span className="text-gray-700">{getPersonalizedReason(item.tool, visitorQuery, idx)}
-                  </span>
-                </li>
-              ))}
-            </ol>
-          </div>
-          {topPick && (
-            <div className="mb-8">
-              <h3 className="text-2xl font-extrabold text-yellow-500 flex items-center gap-2 mb-2">
-                Our AI NINJA Pick: <span className="text-purple-700">{topPick.tool.name}</span>
-              </h3>
-              <div className="text-gray-800 text-lg font-semibold">
-                {getNinjaPickReason(topPick.tool)}
-              </div>
-            </div>
-          )}
-        </div>
-        {/* Right: Top Pick Card */}
-        <div className="flex-shrink-0 w-full md:w-[400px] flex flex-col items-center justify-center relative">
-          <div className="absolute -top-4 -right-4 z-10">
-            <img
-              src="/top-pick.png"
-              alt="Top Pick"
-              className="w-24 h-24 rounded-full shadow-lg border-4 border-white object-cover"
-            />
-          </div>
-          {topPick && <ToolCard tool={topPick.tool} />}
-        </div>
+      <div className="flex flex-col md:flex-row gap-4 mb-8 ml-8">
+        <Link href="/" className="inline-block">
+          <Button variant="ghost" className="text-gray-600">
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Back to Home
+          </Button>
+        </Link>
+        <Link href="/recommendation" className="inline-block ml-auto">
+          <Button className="bg-purple-600 hover:bg-purple-700 text-white">
+            Make a New Research
+          </Button>
+        </Link>
       </div>
 
-      {/* Under: 2 Big Cards for Choice 2 and 3 */}
-      {(secondPick || thirdPick) && (
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 px-8">
-          {secondPick && <ToolCard tool={secondPick.tool} />}
-          {thirdPick && <ToolCard tool={thirdPick.tool} />}
+      <div className="w-full bg-gradient-to-br from-purple-100 via-white to-blue-100 rounded-3xl shadow-xl border border-purple-200 p-12 flex flex-col gap-12 items-stretch relative overflow-hidden mb-12">
+        <div className="mb-0">
+          <h2 className="text-2xl font-bold text-gray-800 mb-2">Your Research</h2>
+          <div className="bg-white rounded-lg px-6 py-4 text-lg text-gray-700 shadow-sm border border-gray-100">{visitorQuery}</div>
         </div>
-      )}
 
-      {/* Under: 3 More Cards from Category */}
-      {moreCategoryTools.length > 0 && (
-        <div className="w-full px-8">
-          <h2 className="text-xl font-semibold mb-4">Other Tools in this Category</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {moreCategoryTools.map((tool) => (
-              <ToolCard key={tool.id} tool={tool} />
-            ))}
+        <div className="mb-4 mt-0">
+          <div className="bg-purple-50 border border-purple-200 rounded-lg px-6 py-4">
+            <p className="text-lg text-gray-800 leading-relaxed">
+              <span className="font-bold">You want to build a website, this is a great idea!</span> Creating a professional online presence is an exciting journey that can help you reach more people and grow your business. Whether you're starting from scratch or looking to enhance your existing site, having the right tools can make all the difference. <span className="font-semibold text-purple-700">Here are the best tools we recommend to help you in this journey:</span>
+            </p>
           </div>
         </div>
-      )}
+
+        <div className="flex flex-col md:flex-row gap-12 md:gap-16">
+          {/* Left side - Top 3 recommendations as a clean list */}
+          <div className="md:w-1/2 flex flex-col gap-8">
+            <h3 className="text-xl font-semibold text-gray-900 mb-2">Top Recommendations</h3>
+            <div className="flex flex-col gap-6">
+              {topTools.map((item, idx) => (
+                item?.tool?.id && (
+                  <div key={item.tool.id} className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center text-purple-700 font-bold text-base border border-purple-200">{idx + 1}</div>
+                    <div>
+                      <div className="font-semibold text-lg text-gray-900 mb-1">{item.tool.name}</div>
+                      <p className="text-gray-600 text-base leading-relaxed">{item.explanation}</p>
+                    </div>
+                  </div>
+                )
+              ))}
+            </div>
+          </div>
+
+          {/* Right side - Main recommendation minimal card */}
+          <div className="md:w-1/2 flex flex-col justify-start">
+            {mainTool && (
+              <div className="bg-white rounded-2xl border border-purple-100 p-8 relative overflow-visible">
+                <div className="flex items-center gap-2 mb-4">
+                  <Star className="h-5 w-5 text-yellow-400" />
+                  <h3 className="text-lg font-bold text-purple-700">Our Top Pick</h3>
+                </div>
+                {/* Top Pick badge image */}
+                <img src="/top-pick.png" alt="Top Pick" className="absolute top-0 right-0 w-16 h-16 md:w-20 md:h-20 -mt-8 -mr-8 z-10 drop-shadow-lg rounded-full" />
+                <ToolCard tool={mainTool} />
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Top recommendation and reasons */}
+        {mainTool && (
+          <div className="bg-white rounded-xl p-8 border border-gray-100 mt-8">
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">Why {mainTool.name} is Perfect for You</h3>
+            <div className="space-y-4">
+              {mainTool.features?.map((feature, idx) => (
+                <div key={idx} className="flex items-start gap-3">
+                  <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                  <p className="text-gray-700">{feature}</p>
+                </div>
+              ))}
+              {mainExplanation && (
+                <div className="flex items-start gap-3 mt-4">
+                  <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                  <p className="text-gray-700">{mainExplanation}</p>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* Other two recommendations as cards */}
+        {otherTools.length > 0 && (
+          <div>
+            <h3 className="text-lg font-semibold text-gray-900 mb-4">Other Great Options</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {otherTools.map(tool => (
+                tool?.tool?.id && (
+                  <div key={tool.tool.id} className="bg-white rounded-xl shadow p-6 border border-gray-100">
+                    <ToolCard tool={tool.tool} />
+                    <div className="mt-4">
+                      <p className="text-gray-600">{tool.explanation}</p>
+                    </div>
+                  </div>
+                )
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* More tools from the same category */}
+        {moreCategoryTools.length > 0 && (
+          <div>
+            <h3 className="text-lg font-semibold text-gray-900 mb-4">More in this Category</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {moreCategoryTools.map(tool => (
+                <ToolCard key={tool.id} tool={tool} />
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 } 

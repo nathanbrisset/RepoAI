@@ -4,18 +4,31 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useRef, useState } from "react";
-import ReCAPTCHA from "react-google-recaptcha";
-import { Mail, MessageSquare, Phone } from "lucide-react"
+import { Mail, MessageSquare } from "lucide-react"
 
 export default function ContactPage() {
   const formRef = useRef<HTMLFormElement>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
+  const [isNotRobot, setIsNotRobot] = useState(false);
+  const [consent, setConsent] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formRef.current) return;
+    if (!formRef.current) {
+      setError("Form reference is missing");
+      return;
+    }
+    if (!isNotRobot) {
+      setError("Please confirm you are not a robot.");
+      return;
+    }
+    if (!consent) {
+      setError("Please provide your consent to send the email.");
+      return;
+    }
     setIsSubmitting(true);
     setSuccess(false);
     setError("");
@@ -30,6 +43,8 @@ export default function ContactPage() {
       if (!response.ok) throw new Error("Failed to send message");
       setSuccess(true);
       formRef.current.reset();
+      setIsNotRobot(false);
+      setConsent(false);
     } catch (err) {
       setError("Failed to send message. Please try again.");
     } finally {
@@ -105,15 +120,27 @@ export default function ContactPage() {
                   placeholder="Your message..."
                 />
               </div>
-              <div className="mb-4 flex justify-center">
-                {recaptchaSiteKey ? (
-                  <ReCAPTCHA
-                    sitekey={recaptchaSiteKey}
-                    onChange={(value) => console.log("Captcha value:", value)}
+              <div>
+                <label className="flex items-center space-x-2">
+                  <input
+                    type="checkbox"
+                    checked={isNotRobot}
+                    onChange={e => setIsNotRobot(e.target.checked)}
+                    className="form-checkbox h-4 w-4 text-blue-600"
                   />
-                ) : (
-                  <div className="text-red-600 text-center">reCAPTCHA site key is not configured.</div>
-                )}
+                  <span>I am not a robot</span>
+                </label>
+              </div>
+              <div>
+                <label className="flex items-center space-x-2">
+                  <input
+                    type="checkbox"
+                    checked={consent}
+                    onChange={e => setConsent(e.target.checked)}
+                    className="form-checkbox h-4 w-4 text-blue-600"
+                  />
+                  <span>I consent to my information being used to contact me.</span>
+                </label>
               </div>
               {success && <div className="text-green-600 text-center">Message sent successfully!</div>}
               {error && <div className="text-red-600 text-center">{error}</div>}
@@ -126,6 +153,15 @@ export default function ContactPage() {
           {/* Contact Information */}
           <div className="space-y-8">
             <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100">
+              <div className="flex justify-center mb-6">
+                <Image
+                  src="/ccare.png"
+                  alt="Customer Care"
+                  width={200}
+                  height={200}
+                  className="rounded-lg"
+                />
+              </div>
               <h2 className="text-2xl font-bold mb-6 text-gray-900">Contact Information</h2>
               <div className="space-y-6">
                 <div className="flex items-start">
@@ -134,14 +170,6 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-gray-900">Email</h3>
                     <p className="text-gray-600">contact@aitoolsninja.com</p>
                     <p className="text-sm text-gray-500 mt-1">We'll respond within 24 hours</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <Phone className="h-6 w-6 text-blue-600 mt-1 mr-4" />
-                  <div>
-                    <h3 className="font-semibold text-gray-900">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
-                    <p className="text-sm text-gray-500 mt-1">Mon-Fri, 9am-5pm EST</p>
                   </div>
                 </div>
                 <div className="flex items-start">

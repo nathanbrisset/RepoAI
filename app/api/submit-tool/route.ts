@@ -5,22 +5,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: Request) {
   try {
-    const { toolName, description, website, category, tags, logo, captchaToken } = await request.json();
-
-    // Verify reCAPTCHA
-    const secret = process.env.RECAPTCHA_SECRET_KEY;
-    const verifyRes = await fetch(
-      `https://www.google.com/recaptcha/api/siteverify`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: `secret=${secret}&response=${captchaToken}`,
-      }
-    );
-    const verifyData = await verifyRes.json();
-    if (!verifyData.success) {
-      return NextResponse.json({ error: 'CAPTCHA failed' }, { status: 400 });
-    }
+    const { toolName, description, website, category, tags, logo } = await request.json();
 
     // Compose email content
     const text = `New AI Tool Submission:\n\n` +

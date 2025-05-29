@@ -41,7 +41,12 @@ const categoryDescriptions: Record<string, { title: string; text: string }> = {
   }
 };
 
-export default function Page({ params }: { params: { category: string } }) {
+type PageProps = {
+  params: { category: string }
+  searchParams?: { [key: string]: string | string[] | undefined }
+}
+
+export default function Page({ params }: PageProps) {
   const category = params.category;
   
   // Normalize category handling

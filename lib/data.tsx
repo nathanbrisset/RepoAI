@@ -77,24 +77,25 @@ export const categories: Category[] = [
 // Combined tools data
 export const tools: Tool[] = [
   {
-    name: "Jasper (formerly Jarvis)",
-    description: "AI content creation & copywriting platform.",
+    name: "Jasper",
+    description: "AI content generation platform for marketing and business writing.",
     url: "https://www.jasper.ai",
     id: "jasper",
     image: "/tool-screenshots/jasper.png",
     logo: "/logo/jasper.png",
-    categories: ["marketing"],
-    subcategory: "content-creation",
-    tags: ["AI", "content", "copywriting"],
-    rating: 4.7,
-    visits: 2500000,
-    dateAdded: "2021-01-15",
+    categories: ["marketing", "text"],
+    subcategory: "content-generation",
+    tags: ["AI", "content", "marketing", "writing"],
+    rating: 4.5,
+    visits: 5000000,
+    dateAdded: "2021-06-15",
     isPremium: 'Free',
     features: [
-      "Marketing Editor: AI document editor trained exclusively in marketing best practices.",
-      "Brand Voice: Configures outputs to adhere to your brand's unique tone and style.",
-      "Team Acceleration: AI-native project management for efficient team coordination.",
-      "AI-Powered Workflows: Builds AI apps and workflows tied to real business outcomes."
+      "Content Generation: Creates high-quality marketing copy and blog posts.",
+      "Tone Customization: Adjusts writing style to match brand voice.",
+      "SEO Optimization: Ensures content is optimized for search engines.",
+      "Team Collaboration: Enables multiple users to work on content together.",
+      "Art Generation: Creates custom images to complement written content."
     ]
   },
   {
@@ -194,7 +195,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 4000000,
     dateAdded: "2021-03-20",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Paraphraser: Rewrites sentences while preserving the original meaning.",
+      "Grammar Checker: Detects and corrects grammatical errors in your text.",
+      "Summarizer: Condenses articles, papers, or documents into key points.",
+      "Citation Generator: Automatically generates citations in various styles."
+    ]
   },
   {
     name: "ProWritingAid",
@@ -209,97 +216,139 @@ export const tools: Tool[] = [
     rating: 4.3,
     visits: 1800000,
     dateAdded: "2021-06-15",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Grammar Checker: Identifies and corrects grammatical errors in your writing.",
+      "Style Editor: Provides suggestions to improve writing style and clarity.",
+      "Readability Reports: Analyzes text to ensure it is easy to read and understand.",
+      "Integrations: Works with various platforms like MS Word, Google Docs, and more."
+    ]
   },
   {
     name: "Hemingway App",
-    description: "AI-powered writing tool that helps you write clear, concise, and readable content.",
+    description: "Writing tool that helps you write clear, concise, and engaging content.",
     url: "https://hemingwayapp.com",
     id: "hemingway-app",
     image: "/tool-screenshots/hemingway-app.png",
     logo: "/logo/hemingway-app.png",
     categories: ["text", "productivity"],
-    subcategory: "readability",
-    tags: ["AI", "readability", "writing", "style"],
-    rating: 4.2,
+    subcategory: "style-editing",
+    tags: ["AI", "writing", "editing", "readability"],
+    rating: 4.4,
     visits: 1500000,
-    dateAdded: "2021-05-20",
-    isPremium: 'Free'
+    dateAdded: "2021-08-15",
+    isPremium: 'Free',
+    features: [
+      "Readability Analysis: Highlights complex sentences and suggests simplifications.",
+      "Sentence Structure: Identifies long or hard-to-read sentences.",
+      "Passive Voice Detection: Points out passive constructions for revision.",
+      "Adverb Highlighting: Flags excessive use of adverbs to tighten prose."
+    ]
   },
   {
     name: "Synthesia",
-    description: "AI video creators for marketing platform.",
+    description: "AI video generation platform that creates professional videos from text.",
     url: "https://www.synthesia.io",
     id: "synthesia",
     image: "/tool-screenshots/synthesia.png",
     logo: "/logo/synthesia.png",
-    categories: ["marketing"],
-    subcategory: "video-creation",
-    tags: ["AI", "video", "marketing"],
+    categories: ["video"],
+    subcategory: "video-generation",
+    tags: ["AI", "video", "avatar", "presentation"],
     rating: 4.6,
-    visits: 250000,
-    dateAdded: "2022-03-15",
-    isPremium: 'Free'
+    visits: 2000000,
+    dateAdded: "2021-09-15",
+    isPremium: 'Free',
+    features: [
+      "AI Video Generation: Automatically creates videos from text inputs using AI avatars.",
+      "Multilingual Support: Generates videos in over 140 languages and accents.",
+      "Customizable AI Avatars: Access to a diverse range of digital avatars representing different genders, ages, and ethnicities.",
+      "Template Library: Utilizes pre-designed templates for various video types."
+    ]
   },
   {
     name: "Lumen5",
-    description: "AI social media video content creation platform.",
+    description: "AI-powered video creation platform that turns content into engaging videos.",
     url: "https://lumen5.com",
     id: "lumen5",
     image: "/tool-screenshots/lumen5.png",
     logo: "/logo/lumen5.png",
-    categories: ["marketing"],
-    subcategory: "video-content",
-    tags: ["AI", "video", "social media"],
+    categories: ["video"],
+    subcategory: "video-creation",
+    tags: ["AI", "video", "marketing", "social-media"],
     rating: 4.5,
-    visits: 300000,
-    dateAdded: "2022-02-15",
-    isPremium: 'Free'
+    visits: 1800000,
+    dateAdded: "2021-10-15",
+    isPremium: 'Free',
+    features: [
+      "AI-Powered Video Creation: Transforms blog posts, articles, and other written content into engaging videos.",
+      "Drag-and-Drop Interface: Simplifies video editing with an intuitive interface.",
+      "Branded Templates: Offers custom templates to maintain brand consistency.",
+      "Stock Media Library: Provides access to a vast library of stock footage and music."
+    ]
   },
   {
     name: "Mem",
-    description: "AI-powered note organization and intelligent retrieval platform.",
+    description: "AI-powered note-taking and knowledge management platform.",
     url: "https://mem.ai",
     id: "mem",
     image: "/tool-screenshots/mem.png",
     logo: "/logo/mem.png",
     categories: ["productivity"],
-    subcategory: "note-organization",
-    tags: ["AI", "notes", "organization"],
-    rating: 4.1,
-    visits: 3000,
-    dateAdded: "2026-11-15",
-    isPremium: 'Free'
+    subcategory: "note-taking",
+    tags: ["AI", "notes", "knowledge", "organization"],
+    rating: 4.4,
+    visits: 1200000,
+    dateAdded: "2021-11-15",
+    isPremium: 'Free',
+    features: [
+      "AI Note-Taking: Automatically captures and organizes notes.",
+      "Smart Search: Enables quick retrieval of information using natural language.",
+      "Integration: Connects with calendars and other tools for seamless workflow.",
+      "Collaboration: Allows sharing and collaboration on notes with team members."
+    ]
   },
   {
     name: "Hugo AI",
-    description: "Knowledge management and AI writing assistant.",
+    description: "AI-powered meeting assistant for note-taking and task management.",
     url: "https://hugo.ai",
     id: "hugo-ai",
     image: "/tool-screenshots/hugo-ai.png",
     logo: "/logo/hugo-ai.png",
     categories: ["productivity"],
-    subcategory: "knowledge-management",
-    tags: ["AI", "knowledge", "writing"],
+    subcategory: "meeting-assistant",
+    tags: ["AI", "meetings", "notes", "tasks"],
     rating: 4.3,
-    visits: 6000,
-    dateAdded: "2026-07-15",
-    isPremium: 'Free'
+    visits: 900000,
+    dateAdded: "2021-12-15",
+    isPremium: 'Free',
+    features: [
+      "Meeting Notes: Facilitates real-time note-taking during meetings.",
+      "Agenda Templates: Provides templates to structure meeting agendas.",
+      "Task Management: Assigns and tracks action items from meetings.",
+      "Integration: Syncs with calendar and project management tools."
+    ]
   },
   {
     name: "AI Dungeon",
-    description: "Storytelling and creative writing AI for entertainment and inspiration.",
+    description: "AI-powered text adventure game and storytelling platform.",
     url: "https://aidungeon.io",
     id: "ai-dungeon",
     image: "/tool-screenshots/ai-dungeon.png",
     logo: "/logo/ai-dungeon.png",
-    categories: ["productivity"],
-    subcategory: "creative-writing",
-    tags: ["AI", "storytelling", "creativity"],
-    rating: 4.0,
-    visits: 10000,
-    dateAdded: "2026-03-15",
-    isPremium: 'Free'
+    categories: ["text", "entertainment"],
+    subcategory: "storytelling",
+    tags: ["AI", "gaming", "storytelling", "creative"],
+    rating: 4.2,
+    visits: 1500000,
+    dateAdded: "2022-01-15",
+    isPremium: 'Free',
+    features: [
+      "Interactive Storytelling: Generates dynamic narratives based on user input.",
+      "Custom Adventures: Allows creation of personalized story scenarios.",
+      "Multiplayer Mode: Enables collaborative storytelling with others.",
+      "AI-Driven Characters: Features characters that respond intelligently to interactions."
+    ]
   },
   {
     name: "Stable Diffusion",
@@ -314,22 +363,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 6000000,
     dateAdded: "2022-08-22",
-    isPremium: 'Free'
-  },
-  {
-    name: "Adobe Firefly",
-    description: "Adobe's AI-powered tool for creating creative assets and image design.",
-    url: "https://firefly.adobe.com",
-    id: "adobe-firefly",
-    image: "/tool-screenshots/adobe-firefly.png",
-    logo: "/logo/adobe-firefly.png",
-    categories: ["image", "design"],
-    subcategory: "creative-assets",
-    tags: ["AI", "Adobe", "graphic design"],
-    rating: 4.7,
-    visits: 5000000,
-    dateAdded: "2023-03-21",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Text-to-Image Generation: Transforms descriptive text prompts into high-quality images.",
+      "Image-to-Image Translation: Modifies existing images based on new prompts or styles.",
+      "Custom Model Training: Allows fine-tuning for specific artistic styles or subjects.",
+      "Open-Source Accessibility: Provides flexibility for developers and artists to customize and integrate."
+    ]
   },
   {
     name: "Canva AI",
@@ -344,7 +384,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 8000000,
     dateAdded: "2023-01-15",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "AI-Powered Design Suggestions: Provides design recommendations based on user input.",
+      "Magic Write: Generates text content for various design needs.",
+      "Text-to-Image Tool: Creates images from text prompts.",
+      "Background Remover: Automatically removes backgrounds from images."
+    ]
   },
   {
     name: "Artbreeder",
@@ -359,7 +405,13 @@ export const tools: Tool[] = [
     rating: 4.3,
     visits: 1800000,
     dateAdded: "2021-08-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Image Blending: Combines multiple images to create new artworks.",
+      "Gene Editing: Adjusts specific attributes like age, gender, and mood.",
+      "High-Resolution Downloads: Provides high-quality image outputs.",
+      "Collaborative Creation: Allows users to work together on image projects."
+    ]
   },
   {
     name: "Lensa AI",
@@ -374,7 +426,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 4000000,
     dateAdded: "2022-11-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Magic Avatars: Transforms selfies into stylized portraits.",
+      "Skin Retouching: Enhances facial features and removes blemishes.",
+      "Background Editing: Changes or blurs image backgrounds.",
+      "Artistic Filters: Applies various filters for creative effects."
+    ]
   },
   {
     name: "StarryAI",
@@ -389,12 +447,18 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 2000000,
     dateAdded: "2022-06-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Text-to-Art Generation: Creates artworks from textual prompts.",
+      "Style Customization: Offers various art styles to choose from.",
+      "Upscaling: Enhances image resolution.",
+      "Prompt Builder: Assists in crafting effective prompts for desired outputs."
+    ]
   },
   {
     name: "Jasper Art",
     description: "AI tool for generating content marketing images.",
-    url: "https://jasper.ai/art",
+    url: "https://www.jasper.ai/art",
     id: "jasper-art",
     image: "/tool-screenshots/jasper-art.png",
     logo: "/logo/jasper-art.png",
@@ -404,7 +468,13 @@ export const tools: Tool[] = [
     rating: 4.3,
     visits: 1500000,
     dateAdded: "2022-04-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "AI Image Generation: Produces images based on text descriptions.",
+      "Style Variations: Offers different artistic styles for outputs.",
+      "High-Quality Outputs: Generates professional-grade images.",
+      "Integration with Jasper Suite: Works seamlessly with other Jasper AI tools."
+    ]
   },
   {
     name: "Craiyon (formerly DALL·E Mini)",
@@ -419,7 +489,13 @@ export const tools: Tool[] = [
     rating: 4.1,
     visits: 3000000,
     dateAdded: "2022-03-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Text-to-Image Generation: Creates images from textual prompts.",
+      "Style Options: Provides various artistic styles for outputs.",
+      "Background Remover: Eliminates backgrounds from images.",
+      "Prompt Suggestions: Offers ideas to enhance image generation."
+    ]
   },
   {
     name: "Deep Nostalgia",
@@ -434,7 +510,13 @@ export const tools: Tool[] = [
     rating: 4.3,
     visits: 2500000,
     dateAdded: "2022-01-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Photo Animation: Brings old photos to life with realistic movements.",
+      "Facial Expression Enhancement: Adds subtle expressions to static images.",
+      "AI Restoration: Improves the quality of aged photographs.",
+      "Sharing Options: Easily shares animated photos on social platforms."
+    ]
   },
   {
     name: "FaceApp",
@@ -449,37 +531,55 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 3500000,
     dateAdded: "2021-12-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Age Transformation: Shows aging or rejuvenated versions of faces.",
+      "Gender Swap: Alters facial features to appear as a different gender.",
+      "Smile Enhancement: Adds smiles to photos.",
+      "Hairstyle and Color Changes: Modifies hair appearance."
+    ]
   },
   {
     name: "Amazon CodeWhisperer",
-    description: "AI-powered code generation tool integrated with AWS services.",
-    url: "https://aws.amazon.com/codewhisperer",
+    description: "AI coding companion that provides code recommendations based on natural language comments.",
+    url: "https://aws.amazon.com/codewhisperer/",
     id: "amazon-codewhisperer",
     image: "/tool-screenshots/amazon-codewhisperer.png",
     logo: "/logo/amazon-codewhisperer.png",
     categories: ["coding"],
-    subcategory: "code-generation",
-    tags: ["AI", "code", "automation", "AWS"],
-    rating: 4.5,
-    visits: 3000000,
-    dateAdded: "2022-06-23",
-    isPremium: 'Free'
+    subcategory: "Code Generation",
+    tags: ["AI", "code_generation", "AWS", "natural_language"],
+    rating: 4.4,
+    visits: 800000,
+    dateAdded: "2022-06-22",
+    isPremium: "Freemium",
+    features: [
+      "Real-Time Code Suggestions: Context-aware completions while coding.",
+      "AWS Service Integration: Tailored snippets for AWS services.",
+      "Security Scanning: Detects potential vulnerabilities.",
+      "Open Source Attribution: References similar open-source code."
+    ]
   },
   {
     name: "Replit Ghostwriter",
-    description: "AI coding assistant integrated directly into the Replit IDE for seamless development.",
-    url: "https://replit.com/ghostwriter",
+    description: "AI-powered code completion and generation tool integrated into Replit's online IDE.",
+    url: "https://replit.com/site/ghostwriter",
     id: "replit-ghostwriter",
     image: "/tool-screenshots/replit-ghostwriter.png",
     logo: "/logo/replit-ghostwriter.png",
     categories: ["coding"],
-    subcategory: "ide-integration",
-    tags: ["AI", "IDE", "code generation", "collaboration"],
-    rating: 4.3,
-    visits: 1500000,
-    dateAdded: "2023-01-10",
-    isPremium: 'Free'
+    subcategory: "Online IDE",
+    tags: ["AI", "code_completion", "online_IDE", "collaboration"],
+    rating: 4.6,
+    visits: 2500000,
+    dateAdded: "2023-03-10",
+    isPremium: "Premium",
+    features: [
+      "Inline Code Suggestions: Smart completions in the Replit IDE.",
+      "Code Explanation: Describes code in plain English.",
+      "Code Generation: Creates code from prompts.",
+      "Refactor & Transform: Edits or converts code based on requests."
+    ]
   },
   {
     name: "DeepCode (Snyk Code)",
@@ -494,7 +594,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 1800000,
     dateAdded: "2021-08-20",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "AI-Powered Code Analysis: Analyzes code to detect security vulnerabilities and coding issues.",
+      "Automatic Fix Suggestions: Provides recommendations to fix identified problems.",
+      "Integration with Snyk: Works alongside Snyk's other security tools for comprehensive protection.",
+      "Support for Multiple Languages: Analyzes code written in various programming languages."
+    ]
   },
   {
     name: "CodeT5",
@@ -509,7 +615,13 @@ export const tools: Tool[] = [
     rating: 4.2,
     visits: 500000,
     dateAdded: "2022-08-15",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Code Understanding and Generation: Excels at tasks like code summarization and translation.",
+      "Identifier-Aware Pretraining: Understands the role of identifiers in code for better context.",
+      "Support for Multiple Programming Languages: Trained on diverse codebases to handle various languages.",
+      "Transformer-Based Architecture: Utilizes advanced machine learning models for code tasks."
+    ]
   },
   {
     name: "ChatCode",
@@ -524,7 +636,13 @@ export const tools: Tool[] = [
     rating: 4.3,
     visits: 800000,
     dateAdded: "2022-11-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Collaborative Coding Environment: Allows multiple users to code together in real-time.",
+      "Audio and Video Communication: Facilitates discussions among collaborators.",
+      "Support for Multiple Languages: Enables coding in over 10 different programming languages.",
+      "Shared Code Execution: Users can execute code within the shared environment."
+    ]
   },
   {
     name: "PyCaret",
@@ -539,7 +657,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 1200000,
     dateAdded: "2022-12-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Automated Machine Learning: Simplifies the process of training and deploying models.",
+      "Feature Engineering: Provides tools for preprocessing and transforming data.",
+      "Model Comparison: Allows easy comparison of different machine learning models.",
+      "Low-Code Interface: Designed for users with minimal coding experience."
+    ]
   },
   {
     name: "DataRobot Code",
@@ -554,7 +678,13 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 900000,
     dateAdded: "2023-01-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Automated Feature Engineering: Discovers and creates new features from datasets.",
+      "Model Deployment: Simplifies the process of deploying machine learning models.",
+      "Time Series Analysis: Provides tools for forecasting and analyzing time-based data.",
+      "Integration with Python: Offers a Python client for advanced users."
+    ]
   },
   {
     name: "CodeGen",
@@ -569,22 +699,34 @@ export const tools: Tool[] = [
     rating: 4.2,
     visits: 600000,
     dateAdded: "2023-02-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "AI-Powered Code Generation: Generates code snippets based on natural language prompts.",
+      "Support for Multiple Languages: Handles code generation in various programming languages.",
+      "Transformer-Based Model: Utilizes advanced machine learning architectures for code synthesis.",
+      "Open-Source Availability: Accessible for customization and integration into workflows."
+    ]
   },
   {
     name: "Sourcery",
-    description: "AI-powered Python refactoring and code improvement tool.",
+    description: "AI tool that refactors Python code to improve readability and performance.",
     url: "https://sourcery.ai",
     id: "sourcery",
     image: "/tool-screenshots/sourcery.png",
     logo: "/logo/sourcery.png",
     categories: ["coding"],
-    subcategory: "refactoring",
-    tags: ["AI", "Python", "refactoring"],
-    rating: 4.3,
-    visits: 700000,
-    dateAdded: "2023-03-01",
-    isPremium: 'Free'
+    subcategory: "Code Refactoring",
+    tags: ["AI", "code_refactoring", "Python", "performance"],
+    rating: 4.1,
+    visits: 150000,
+    dateAdded: "2020-07-10",
+    isPremium: "Freemium",
+    features: [
+      "Code Refactoring: Simplifies and optimizes code.",
+      "Code Quality Suggestions: Flags bad practices and bugs.",
+      "Pull Request Reviews: AI feedback in GitHub PRs.",
+      "Team Collaboration: Shares refactoring tips team-wide."
+    ]
   },
   {
     name: "Kogito",
@@ -599,97 +741,139 @@ export const tools: Tool[] = [
     rating: 4.1,
     visits: 300000,
     dateAdded: "2023-04-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Business Process Automation: Helps in modeling and automating business workflows.",
+      "Cloud-Native Architecture: Designed for deployment in cloud environments.",
+      "Integration with Java: Works seamlessly with Java applications.",
+      "Support for BPMN and DMN: Handles Business Process Model and Notation (BPMN) and Decision Model and Notation (DMN)."
+    ]
   },
   {
     name: "Jina AI",
-    description: "Neural search and multimedia pipelines platform.",
+    description: "Neural search framework for building AI-powered search systems.",
     url: "https://jina.ai",
     id: "jina-ai",
     image: "/tool-screenshots/jina-ai.png",
     logo: "/logo/jina-ai.png",
-    categories: ["coding", "data"],
-    subcategory: "neural-search",
-    tags: ["AI", "search", "neural network"],
+    categories: ["coding"],
+    subcategory: "search",
+    tags: ["AI", "search", "neural networks"],
     rating: 4.4,
-    visits: 500000,
+    visits: 400000,
     dateAdded: "2023-05-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Neural Search Framework: Enables building search systems powered by neural networks.",
+      "Modular Architecture: Allows customization and extension of components.",
+      "Support for Multimodal Data: Handles text, images, and other data types.",
+      "Scalability: Designed to scale with large datasets and high traffic."
+    ]
   },
   {
     name: "Yellowbrick",
-    description: "ML model visualization tool for code debugging.",
+    description: "Visual analysis and diagnostic tools for machine learning models.",
     url: "https://www.scikit-yb.org",
     id: "yellowbrick",
     image: "/tool-screenshots/yellowbrick.png",
     logo: "/logo/yellowbrick.png",
     categories: ["coding", "data"],
     subcategory: "visualization",
-    tags: ["AI", "visualization", "ML"],
-    rating: 4.0,
-    visits: 200000,
-    dateAdded: "2023-07-01",
-    isPremium: 'Free'
+    tags: ["AI", "visualization", "machine learning"],
+    rating: 4.2,
+    visits: 250000,
+    dateAdded: "2023-06-01",
+    isPremium: 'Free',
+    features: [
+      "Visual Analysis of Machine Learning Models: Provides visualizations to understand model performance.",
+      "Integration with Scikit-Learn: Works alongside popular Python machine learning libraries.",
+      "Diagnostic Tools: Offers tools to diagnose issues like overfitting.",
+      "Feature Visualization: Helps in understanding the importance and impact of features."
+    ]
   },
   {
-    name: "Semantic Kernel (Microsoft)",
-    description: "AI SDK for automation and code integration.",
+    name: "Semantic Kernel",
+    description: "Microsoft's framework for integrating AI models into applications.",
     url: "https://github.com/microsoft/semantic-kernel",
     id: "semantic-kernel",
     image: "/tool-screenshots/semantic-kernel.png",
     logo: "/logo/semantic-kernel.png",
     categories: ["coding"],
-    subcategory: "sdk",
-    tags: ["AI", "SDK", "automation"],
+    subcategory: "ai-integration",
+    tags: ["AI", "Microsoft", "integration"],
     rating: 4.3,
-    visits: 800000,
-    dateAdded: "2023-09-01",
-    isPremium: 'Free'
+    visits: 350000,
+    dateAdded: "2023-07-01",
+    isPremium: 'Free',
+    features: [
+      "Integration of AI Models: Combines various AI models into applications.",
+      "Support for Plugins: Allows extension with custom functionalities.",
+      "Contextual Memory: Maintains context across interactions.",
+      "Flexible Deployment: Can be integrated into different environments and platforms."
+    ]
   },
   {
     name: "ML.NET",
-    description: "Machine learning framework for C# and .NET developers.",
+    description: "Machine learning framework for .NET developers.",
     url: "https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet",
     id: "ml-net",
     image: "/tool-screenshots/ml-net.png",
     logo: "/logo/ml-net.png",
-    categories: ["coding", "data"],
-    subcategory: "ml-framework",
-    tags: ["AI", ".NET", "ML"],
+    categories: ["coding"],
+    subcategory: "machine-learning",
+    tags: ["AI", "machine learning", ".NET"],
     rating: 4.4,
-    visits: 1000000,
-    dateAdded: "2023-10-01",
-    isPremium: 'Free'
+    visits: 450000,
+    dateAdded: "2023-08-01",
+    isPremium: 'Free',
+    features: [
+      "Machine Learning for .NET: Brings machine learning capabilities to .NET applications.",
+      "Model Training and Deployment: Facilitates the entire machine learning lifecycle.",
+      "Support for Various Algorithms: Includes classification, regression, clustering, and more.",
+      "Integration with Visual Studio: Provides tools within the Visual Studio environment."
+    ]
   },
   {
     name: "Hugging Face Transformers",
-    description: "Library of pre-trained models for code and NLP tasks.",
+    description: "Library for state-of-the-art Natural Language Processing.",
     url: "https://huggingface.co/docs/transformers",
-    id: "huggingface-transformers",
-    image: "/tool-screenshots/huggingface-transformers.png",
-    logo: "/logo/huggingface-transformers.png",
-    categories: ["coding", "data"],
-    subcategory: "models",
-    tags: ["AI", "transformers", "models"],
+    id: "hugging-face-transformers",
+    image: "/tool-screenshots/hugging-face-transformers.png",
+    logo: "/logo/hugging-face-transformers.png",
+    categories: ["coding"],
+    subcategory: "nlp",
+    tags: ["AI", "NLP", "transformers"],
     rating: 4.7,
-    visits: 3000000,
-    dateAdded: "2023-11-01",
-    isPremium: 'Free'
+    visits: 2000000,
+    dateAdded: "2023-09-01",
+    isPremium: 'Free',
+    features: [
+      "Pretrained Models: Access to a wide range of pretrained models for NLP tasks.",
+      "Easy Integration: Simple APIs for incorporating models into applications.",
+      "Support for Multiple Frameworks: Compatible with TensorFlow and PyTorch.",
+      "Community Contributions: Active community providing models and support."
+    ]
   },
   {
     name: "Keras Tuner",
-    description: "Hyperparameter optimization tool with AI capabilities.",
+    description: "Hyperparameter tuning library for Keras models.",
     url: "https://keras.io/keras_tuner",
     id: "keras-tuner",
     image: "/tool-screenshots/keras-tuner.png",
     logo: "/logo/keras-tuner.png",
-    categories: ["coding", "data"],
-    subcategory: "optimization",
-    tags: ["AI", "hyperparameters", "ML"],
-    rating: 4.1,
-    visits: 400000,
-    dateAdded: "2024-01-01",
-    isPremium: 'Free'
+    categories: ["coding"],
+    subcategory: "machine-learning",
+    tags: ["AI", "machine learning", "hyperparameter tuning"],
+    rating: 4.3,
+    visits: 300000,
+    dateAdded: "2023-10-01",
+    isPremium: 'Free',
+    features: [
+      "Hyperparameter Optimization: Automates the search for optimal model parameters.",
+      "Integration with Keras: Works seamlessly with Keras models.",
+      "Support for Various Search Algorithms: Includes random search, Bayesian optimization, and more.",
+      "Scalability: Can be used for tuning models on large datasets."
+    ]
   },
   {
     name: "ElevenLabs",
@@ -704,7 +888,13 @@ export const tools: Tool[] = [
     rating: 4.8,
     visits: 2500000,
     dateAdded: "2023-01-15",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Ultra-Realistic Text-to-Speech: Generates lifelike speech in over 30 languages with natural intonation.",
+      "Voice Cloning: Allows users to create high-fidelity replicas of voices using minimal audio samples.",
+      "Custom Voice Design: Offers tools to fine-tune voice attributes like stability and clarity.",
+      "Developer-Friendly API: Provides integration capabilities for various applications."
+    ]
   },
   {
     name: "Murf.ai",
@@ -719,7 +909,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 1800000,
     dateAdded: "2023-02-20",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Diverse Voice Library: Access to over 200 realistic voices across 20+ languages.",
+      "Voice Cloning: Enables creation of custom voices for personalized content.",
+      "AI Voice Changer: Transforms recorded voices into professional-sounding narrations.",
+      "Seamless Integrations: Compatible with platforms like Canva and Google Slides."
+    ]
   },
   {
     name: "Lovo",
@@ -734,7 +930,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 1500000,
     dateAdded: "2023-03-10",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Extensive Voice Options: Offers 500+ AI voices in over 100 languages.",
+      "Voice Cloning: Allows users to create unique, branded voices.",
+      "Genny AI: An intuitive tool for generating voiceovers from text.",
+      "Auto Subtitle Generator: Automatically creates subtitles for videos."
+    ]
   },
   {
     name: "Voice.ai",
@@ -749,7 +951,13 @@ export const tools: Tool[] = [
     rating: 4.3,
     visits: 1200000,
     dateAdded: "2023-04-05",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Real-Time Voice Changer: Modifies voice in real-time across various applications.",
+      "Wide App Compatibility: Works with platforms like Zoom, Discord, and Skype.",
+      "Voice Universe: A collection of diverse voice options for users.",
+      "Audio Editing Tools: Includes features like vocal remover and echo reducer."
+    ]
   },
   {
     name: "Uberduck",
@@ -764,7 +972,13 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 1000000,
     dateAdded: "2023-05-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Text-to-Speech & Singing: Converts text into speech, singing, or rapping.",
+      "Voice Cloning: Creates custom voices for various applications.",
+      "API Access: Provides developers with tools for integration.",
+      "Music Studio: A platform for creating complete songs using AI vocals."
+    ]
   },
   {
     name: "Descript",
@@ -773,13 +987,20 @@ export const tools: Tool[] = [
     id: "descript",
     image: "/tool-screenshots/descript.png",
     logo: "/logo/descript.png",
-    categories: ["audio"],
-    subcategory: "audio-editing",
-    tags: ["AI", "podcasting", "transcription", "editing"],
+    categories: ["audio", "video"],
+    subcategory: "audio-video-editing",
+    tags: ["AI", "podcasting", "transcription", "editing", "video-editing"],
     rating: 4.7,
     visits: 2000000,
     dateAdded: "2023-01-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Overdub: AI-powered voice cloning for seamless edits.",
+      "Studio Sound: Enhances audio quality by removing noise and echo.",
+      "Text-Based Editing: Edit audio and video by editing the transcribed text.",
+      "Multi-Track Editing: Supports editing multiple audio and video tracks simultaneously.",
+      "Screen Recording: Record and edit screen content easily."
+    ]
   },
   {
     name: "Adobe Podcast Enhance",
@@ -794,7 +1015,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 1500000,
     dateAdded: "2023-02-15",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Enhance Speech: Improves audio quality to sound studio-recorded.",
+      "Mic Check: Analyzes microphone setup for optimal recording.",
+      "Web-Based Editing: Record, edit, and enhance audio directly in the browser.",
+      "Bulk Upload: Process multiple files simultaneously."
+    ]
   },
   {
     name: "Krisp",
@@ -809,7 +1036,13 @@ export const tools: Tool[] = [
     rating: 4.8,
     visits: 3000000,
     dateAdded: "2022-12-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Noise Cancellation: Removes background noise during calls.",
+      "Voice Cancellation: Eliminates other voices in the background.",
+      "Meeting Transcription: Provides real-time transcription of meetings.",
+      "Accent Conversion: Adjusts accents in real-time for clearer communication."
+    ]
   },
   {
     name: "Auphonic",
@@ -824,7 +1057,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 800000,
     dateAdded: "2023-03-20",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Audio Leveling: Automatically balances audio levels.",
+      "Noise & Hum Reduction: Cleans up background noise and hums.",
+      "Loudness Normalization: Ensures consistent loudness across files.",
+      "Multi-Track Processing: Processes multiple audio tracks simultaneously."
+    ]
   },
   {
     name: "Izotope Cascadia",
@@ -839,7 +1078,13 @@ export const tools: Tool[] = [
     rating: 4.7,
     visits: 1000000,
     dateAdded: "2023-04-10",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Advanced Audio Restoration: Removes clicks, pops, and other imperfections.",
+      "Spectral Editing: Visual editing of audio frequencies.",
+      "Dialogue Isolation: Separates dialogue from background noise.",
+      "Mastering Tools: Provides tools for finalizing audio projects."
+    ]
   },
   {
     name: "AIVA",
@@ -854,7 +1099,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 1200000,
     dateAdded: "2023-01-20",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "AI Music Composition: Generates original music compositions.",
+      "Customizable Styles: Allows users to set the mood and style of compositions.",
+      "Sheet Music Generation: Provides sheet music for compositions.",
+      "Integration with DAWs: Compatible with digital audio workstations."
+    ]
   },
   {
     name: "WavTool",
@@ -869,7 +1120,13 @@ export const tools: Tool[] = [
     rating: 4.3,
     visits: 700000,
     dateAdded: "2023-04-20",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Online DAW: A browser-based digital audio workstation.",
+      "Real-Time Collaboration: Allows multiple users to work on projects simultaneously.",
+      "Plugin Support: Supports various audio plugins for enhanced functionality.",
+      "Multi-Track Editing: Edit multiple audio tracks within the platform."
+    ]
   },
   {
     name: "Suno",
@@ -884,7 +1141,13 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 800000,
     dateAdded: "2023-05-10",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "AI Music Generation: Creates songs based on user inputs.",
+      "Genre Versatility: Supports various musical genres.",
+      "Lyric Integration: Generates lyrics to accompany compositions.",
+      "Rapid Composition: Produces complete songs in seconds."
+    ]
   },
   {
     name: "Whisper",
@@ -899,7 +1162,13 @@ export const tools: Tool[] = [
     rating: 4.8,
     visits: 2500000,
     dateAdded: "2022-09-20",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "Multilingual Transcription: Transcribes speech in over 90 languages.",
+      "Open-Source: Available for public use and modification.",
+      "High Accuracy: Delivers precise transcriptions even in challenging conditions.",
+      "Real-Time Processing: Transcribes audio in real-time."
+    ]
   },
   {
     name: "Podcastle",
@@ -914,7 +1183,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 1000000,
     dateAdded: "2023-03-01",
-    isPremium: 'Free'
+    isPremium: 'Free',
+    features: [
+      "AI-Powered Audio Editing: Automatically removes background noise and enhances audio quality.",
+      "Text-to-Speech Conversion: Transforms written content into natural-sounding speech.",
+      "Multitrack Recording: Supports recording of separate audio and video tracks for each participant.",
+      "Dynamic Speaker Feature: Intelligently switches focus between speakers in video recordings."
+    ]
   },
   {
     name: "Midjourney",
@@ -947,21 +1222,6 @@ export const tools: Tool[] = [
     isPremium: "Freemium"
   },
   {
-    name: "Adobe Firefly",
-    description: "Adobe's AI tool for generating images and text effects, part of Creative Cloud.",
-    url: "https://firefly.adobe.com",
-    id: "adobe-firefly",
-    image: "/tool-screenshots/adobe-firefly.png",
-    logo: "/logo/adobe-firefly.png",
-    categories: ["image"],
-    subcategory: "Commercial Image Design",
-    tags: ["adobe", "generative_fill", "branding"],
-    rating: 4.6,
-    visits: 318400000,
-    dateAdded: "2023-03-21",
-    isPremium: "Freemium"
-  },
-  {
     name: "Canva Magic Design",
     description: "AI-powered design assistant integrated with Canva for creating visual assets.",
     url: "https://www.canva.com/magic-design",
@@ -974,7 +1234,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 5000000,
     dateAdded: "2023-10-01",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Design Generation: Creates designs based on user input and preferences.",
+      "Template Suggestions: Offers tailored templates for various needs.",
+      "Content Integration: Incorporates user content into designs seamlessly.",
+      "Real-Time Collaboration: Allows multiple users to work on designs simultaneously."
+    ]
   },
   {
     name: "Leonardo.Ai",
@@ -989,7 +1255,13 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 16800000,
     dateAdded: "2023-05-15",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "AI-Powered Image Generation: Creates images from textual prompts.",
+      "Style Customization: Offers various artistic styles.",
+      "High-Resolution Outputs: Generates detailed images.",
+      "User-Friendly Interface: Simplifies the image creation process."
+    ]
   },
   {
     name: "Recraft",
@@ -1004,7 +1276,13 @@ export const tools: Tool[] = [
     rating: 4.3,
     visits: 3800000,
     dateAdded: "2023-06-20",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Vector Art Generation: Produces scalable vector images from prompts.",
+      "Style Transfer: Applies different artistic styles to images.",
+      "Batch Processing: Handles multiple images simultaneously.",
+      "Customizable Outputs: Allows adjustments to generated images."
+    ]
   },
   {
     name: "NightCafe",
@@ -1019,7 +1297,13 @@ export const tools: Tool[] = [
     rating: 4.2,
     visits: 3900000,
     dateAdded: "2022-11-10",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Text-to-Image Creation: Generates images from textual descriptions.",
+      "Style Transfer: Applies artistic styles to existing images.",
+      "Community Features: Engages users through challenges and sharing.",
+      "Print Options: Offers printing of created artworks."
+    ]
   },
   {
     name: "Fotor AI",
@@ -1034,7 +1318,13 @@ export const tools: Tool[] = [
     rating: 4.1,
     visits: 17800000,
     dateAdded: "2023-02-28",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Photo Enhancement: Improves image quality automatically.",
+      "Background Removal: Eliminates backgrounds from photos.",
+      "AI Retouching: Enhances portraits with AI tools.",
+      "Artistic Effects: Applies creative filters to images."
+    ]
   },
   {
     name: "Lexica Art",
@@ -1049,7 +1339,13 @@ export const tools: Tool[] = [
     rating: 4.0,
     visits: 755900,
     dateAdded: "2022-12-05",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "AI Image Search: Finds AI-generated images based on prompts.",
+      "Prompt Inspiration: Provides ideas for image generation.",
+      "High-Quality Outputs: Offers detailed and artistic images.",
+      "User Gallery: Displays creations from the community."
+    ]
   },
   {
     name: "Playground AI",
@@ -1064,22 +1360,34 @@ export const tools: Tool[] = [
     rating: 4.0,
     visits: 171800,
     dateAdded: "2023-01-10",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Text-to-Image Generation: Creates images from textual prompts.",
+      "Style Customization: Offers various artistic styles.",
+      "Interactive Editing: Allows real-time adjustments to images.",
+      "Community Sharing: Enables users to share and explore artworks."
+    ]
   },
   {
-    name: "ChatGPT (GPT-4o)",
+    name: "ChatGPT",
     description: "General-purpose AI assistant for writing, editing, and brainstorming.",
     url: "https://chat.openai.com",
-    id: "chatgpt-gpt4o",
+    id: "chatgpt",
     image: "/tool-screenshots/chatgpt.png",
     logo: "/logo/chatgpt.png",
-    categories: ["text"],
+    categories: ["text", "productivity"],
     subcategory: "General Writing Assistant",
     tags: ["chatbot", "content_creation", "summarization", "productivity", "brainstorming"],
     rating: 4.9,
     visits: 180000000,
     dateAdded: "2023-11-06",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Multimodal Input: Understands text, images, and voice commands.",
+      "Code Interpreter: Performs data analysis, calculations, and file transformations.",
+      "Memory: Remembers user preferences and past interactions (selectively).",
+      "Advanced Reasoning: Excels at logic, problem-solving, and creative writing tasks."
+    ]
   },
   {
     name: "Claude 3",
@@ -1094,7 +1402,13 @@ export const tools: Tool[] = [
     rating: 4.7,
     visits: 35000000,
     dateAdded: "2024-03-05",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Long Context Handling: Processes documents up to 200K tokens.",
+      "Safety & Alignment: Optimized for reliable, safe responses.",
+      "Creative Writing: Generates detailed, imaginative content.",
+      "Helpful for Research: Answers questions based on long-form material."
+    ]
   },
   {
     name: "Gemini 1.5 Pro",
@@ -1109,7 +1423,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 15000000,
     dateAdded: "2024-02-20",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Multilingual Support: Translates and understands content across languages.",
+      "Accurate Summarization: Extracts key ideas from long documents.",
+      "Factual Consistency: Prioritizes fact-checking and evidence-backed output.",
+      "Academic Writing: Generates citations, structured arguments, and reports."
+    ]
   },
   {
     name: "Jasper AI",
@@ -1124,7 +1444,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 1200000,
     dateAdded: "2021-05-10",
-    isPremium: "Premium"
+    isPremium: "Premium",
+    features: [
+      "AI Templates: 90+ tools for blog posts, ads, emails, and more.",
+      "Brand Voice: Trains AI to write in your brand's tone.",
+      "Performance Insights: Tracks content effectiveness.",
+      "Team Collaboration: Manage multi-user workflows in one place."
+    ]
   },
   {
     name: "Copy.ai",
@@ -1139,7 +1465,13 @@ export const tools: Tool[] = [
     rating: 4.3,
     visits: 1700000,
     dateAdded: "2021-06-15",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Marketing Copy Generator: Ads, landing pages, emails, etc.",
+      "Workflow Automation: Create sequences of content with prompts.",
+      "Tone Adjustment: Match tone to audience or brand.",
+      "Multilingual Support: Write content in multiple languages."
+    ]
   },
   {
     name: "Writer.com",
@@ -1154,7 +1486,13 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 950000,
     dateAdded: "2022-03-10",
-    isPremium: "Premium"
+    isPremium: "Premium",
+    features: [
+      "Style Guide Enforcement: Enforces brand writing rules and tone.",
+      "Enterprise Privacy: Designed for regulated industries (SOC2, HIPAA).",
+      "AI Writing Assistant: Edits, rephrases, and drafts high-quality content.",
+      "Team Management: Permissions, analytics, and document control."
+    ]
   },
   {
     name: "INK for All",
@@ -1169,7 +1507,13 @@ export const tools: Tool[] = [
     rating: 4.2,
     visits: 620000,
     dateAdded: "2023-09-12",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "SEO Score: Real-time ranking predictions and optimization tips.",
+      "AI Writer: Assists with blog writing, content generation, and outlines.",
+      "Plagiarism Checker: Built-in content originality checker.",
+      "Accessibility Checker: Ensures content meets inclusive standards."
+    ]
   },
   {
     name: "Wordtune",
@@ -1184,7 +1528,13 @@ export const tools: Tool[] = [
     rating: 4.2,
     visits: 830000,
     dateAdded: "2020-09-25",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Rewrite Suggestions: Offers multiple tone-based rewrites (casual, formal).",
+      "Summarizer: Condenses long documents or webpages instantly.",
+      "AI Writing Tool: Helps generate intros, conclusions, and full drafts.",
+      "Grammar & Clarity: Enhances sentence structure and readability."
+    ]
   },
   {
     name: "Sudowrite",
@@ -1199,7 +1549,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 450000,
     dateAdded: "2021-12-05",
-    isPremium: "Premium"
+    isPremium: "Premium",
+    features: [
+      "Story Engine: Generates plot, character arcs, and scene ideas.",
+      "Describe Tool: Adds vivid sensory detail to any sentence.",
+      "Brainstorming: Provides creative prompts and idea expansions.",
+      "Rewrite & Expand: Adjust pacing, tone, and dialogue."
+    ]
   },
   {
     name: "Writesonic",
@@ -1214,7 +1570,13 @@ export const tools: Tool[] = [
     rating: 4.3,
     visits: 1700000,
     dateAdded: "2021-07-22",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "AI Article Writer: Generates blog posts and web content in minutes.",
+      "Chatsonic Assistant: Chatbot with real-time web access.",
+      "Landing Page Generator: Tailors content for product launches.",
+      "Bulk Content Creation: Produce multiple pieces at scale."
+    ]
   },
   {
     name: "Anyword",
@@ -1229,7 +1591,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 980000,
     dateAdded: "2022-08-18",
-    isPremium: "Premium"
+    isPremium: "Premium",
+    features: [
+      "Predictive Performance Score: Forecasts content effectiveness.",
+      "Ad Generator: Creates headlines, CTAs, and variations for testing.",
+      "Persona Targeting: Tailors copy based on audience segments.",
+      "SEO Mode: Optimizes content for rankings and readability."
+    ]
   },
   {
     name: "Notion AI",
@@ -1244,7 +1612,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 30000000,
     dateAdded: "2023-02-01",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Writing Assistant: Generates, rewrites, and summarizes content.",
+      "Task Automation: Completes repetitive content workflows.",
+      "Brainstorming: Helps ideate content from prompts.",
+      "Inline Suggestions: Enhances writing directly in Notion docs."
+    ]
   },
   {
     name: "Runway",
@@ -1259,7 +1633,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 8100000,
     dateAdded: "2022-11-01",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "AI Video Editing: Provides tools for background removal, color grading, and face blurring.",
+      "Text-to-Video Generation: Generates videos from static images or text prompts using the Gen-3 Alpha model.",
+      "Real-Time Collaboration: Allows multiple users to work simultaneously on a single project.",
+      "Comprehensive Media Tools: Offers a suite of tools for generating and manipulating images, audio, and 3D assets."
+    ]
   },
   {
     name: "Pictory",
@@ -1274,7 +1654,13 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 2400000,
     dateAdded: "2022-06-10",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Script to Video: Convert scripts into professional-quality videos with AI voices.",
+      "Blog to Video: Transform blog posts into engaging videos.",
+      "Auto Captioning: Automatically generate captions for videos.",
+      "Video Summarization: Summarize long videos into short highlights."
+    ]
   },
   {
     name: "Descript",
@@ -1289,7 +1675,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 3100000,
     dateAdded: "2021-05-01",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Text-Based Editing: Edit videos by editing the transcribed text.",
+      "Overdub: Create ultra-realistic voiceovers with AI.",
+      "Screen Recording: Record and edit screen content easily.",
+      "Multitrack Editing: Edit audio and video tracks simultaneously."
+    ]
   },
   {
     name: "Fliki",
@@ -1304,7 +1696,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 1900000,
     dateAdded: "2023-01-05",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Text to Video: Transform text into videos with lifelike AI voices.",
+      "Multilingual Support: Supports over 75 languages and 900 voices.",
+      "AI Voiceovers: Generate realistic voiceovers for videos.",
+      "Script Generation: Automatically generate scripts for videos."
+    ]
   },
   {
     name: "CapCut",
@@ -1319,7 +1717,13 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 45000000,
     dateAdded: "2021-03-15",
-    isPremium: "Free"
+    isPremium: "Free",
+    features: [
+      "Advanced Editing Tools: Features like keyframe animation, chroma key, and more.",
+      "AI Video Editing: Automated editing features like auto-captions and filler word removal.",
+      "Social Media Integration: Direct exports to platforms like TikTok.",
+      "Text-to-Speech: Convert text into speech for videos."
+    ]
   },
   {
     name: "Lumen5",
@@ -1334,7 +1738,13 @@ export const tools: Tool[] = [
     rating: 4.2,
     visits: 616700,
     dateAdded: "2020-12-01",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "AI-Powered Video Creation: Turn blog posts into engaging videos.",
+      "Drag-and-Drop Interface: User-friendly interface for easy video creation.",
+      "Extensive Media Library: Access to millions of stock photos and videos.",
+      "Customizable Templates: Various templates tailored for different platforms."
+    ]
   },
   {
     name: "Veed.io",
@@ -1349,7 +1759,13 @@ export const tools: Tool[] = [
     rating: 4.3,
     visits: 10900000,
     dateAdded: "2021-02-15",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Online Video Editing: Edit videos directly in the browser.",
+      "Auto Subtitles: Automatically generate subtitles for videos.",
+      "AI Tools: Features like text-to-video, AI avatars, and more.",
+      "Collaboration Features: Collaborate with team members on video projects."
+    ]
   },
   {
     name: "Wisecut",
@@ -1364,7 +1780,13 @@ export const tools: Tool[] = [
     rating: 4.2,
     visits: 32700,
     dateAdded: "2021-08-20",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Automatic Video Editing: Automatically edit videos by removing silences and adding music.",
+      "Auto Captioning: Generate captions for videos automatically.",
+      "Voice Recognition: Edit videos based on voice commands.",
+      "Background Music: Add background music that adapts to the video's tone."
+    ]
   },
   {
     name: "Animoto",
@@ -1379,7 +1801,13 @@ export const tools: Tool[] = [
     rating: 4.1,
     visits: 533100,
     dateAdded: "2019-11-12",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Drag-and-Drop Interface: Easily create videos with a user-friendly interface.",
+      "Customizable Templates: Various templates for different video types.",
+      "Music Library: Access to a vast library of licensed music tracks.",
+      "Text and Voiceover Integration: Add text overlays and voiceovers to videos."
+    ]
   },
   {
     name: "Colossyan",
@@ -1394,7 +1822,13 @@ export const tools: Tool[] = [
     rating: 4.2,
     visits: 172000,
     dateAdded: "2023-05-10",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "AI Video Generation: Create videos with AI-generated avatars.",
+      "Multilingual Support: Generate videos in multiple languages.",
+      "Custom Avatars: Create personalized AI avatars for videos.",
+      "Script to Video: Convert scripts into videos with AI avatars."
+    ]
   },
   {
     name: "Magisto",
@@ -1409,7 +1843,13 @@ export const tools: Tool[] = [
     rating: 4.0,
     visits: 150200,
     dateAdded: "2020-04-17",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Automated Video Editing: AI-powered editing to create videos quickly.",
+      "Smart Storyboard: Automatically selects the best parts of your footage.",
+      "Music Integration: Add music tracks that fit the video's mood.",
+      "Social Sharing: Easily share videos on various social media platforms."
+    ]
   },
   {
     name: "HeyGen",
@@ -1424,7 +1864,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 4800000,
     dateAdded: "2023-06-01",
-    isPremium: "Premium"
+    isPremium: "Premium",
+    features: [
+      "AI Avatars: Create videos with AI-generated avatars.",
+      "Text-to-Video: Convert text scripts into videos with avatars.",
+      "Multilingual Voiceovers: Generate voiceovers in multiple languages.",
+      "Customizable Avatars: Personalize avatars to match branding needs."
+    ]
   },
   {
     name: "Databricks",
@@ -1439,7 +1885,13 @@ export const tools: Tool[] = [
     rating: 4.8,
     visits: 3850000,
     dateAdded: "2023-05-15",
-    isPremium: "Premium"
+    isPremium: "Premium",
+    features: [
+      "Unified Data Platform: Combines data engineering, data science, machine learning, and analytics into a single collaborative platform.",
+      "Delta Lake: Provides reliable data lakes with ACID transaction support, scalable metadata handling, and unification of streaming and batch data.",
+      "Collaborative Notebooks: Enables teams to write and run code together in real time using languages like Python, SQL, Scala, and R.",
+      "MLflow Integration: Built-in support for experiment tracking, model versioning, and reproducible machine learning workflows."
+    ]
   },
   {
     name: "Tableau",
@@ -1454,7 +1906,13 @@ export const tools: Tool[] = [
     rating: 4.7,
     visits: 2500000,
     dateAdded: "2022-11-20",
-    isPremium: "Premium"
+    isPremium: "Premium",
+    features: [
+      "Interactive Dashboards: Create real-time, interactive visualizations with drag-and-drop functionality.",
+      "Data Blending: Combine data from multiple sources for comprehensive analysis.",
+      "Forecasting Tools: Utilize built-in forecasting to predict trends and patterns.",
+      "Explain Data: Automatically generate explanations for data points to uncover insights."
+    ]
   },
   {
     name: "Microsoft Power BI",
@@ -1469,7 +1927,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 3200000,
     dateAdded: "2022-09-10",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Data Connectivity: Connect to a wide range of data sources, including Excel, SQL Server, and cloud-based services.",
+      "Custom Visualizations: Create and import custom visuals to tailor reports to specific needs.",
+      "Natural Language Queries: Ask questions in natural language to get instant answers from your data.",
+      "Real-Time Dashboards: Monitor data in real-time with live dashboards and alerts."
+    ]
   },
   {
     name: "Julius AI",
@@ -1484,22 +1948,34 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 80000,
     dateAdded: "2023-06-12",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Data Analysis: Perform complex data analyses using AI-driven tools.",
+      "Graph & Chart Creation: Automatically generate visual representations of data.",
+      "Research Assistance: Conduct research with AI support for data gathering and summarization.",
+      "Mathematical Problem Solving: Solve equations and mathematical problems using AI capabilities."
+    ]
   },
   {
     name: "Simple Analytics",
-    description: "Privacy-friendly analytics tool without cookies or tracking.",
+    description: "Privacy-focused analytics platform that tracks website usage without cookies.",
     url: "https://simpleanalytics.com",
     id: "simple-analytics",
     image: "/tool-screenshots/simple-analytics.png",
     logo: "/logo/simple-analytics.png",
-    categories: ["data"],
-    subcategory: "Web Analytics",
-    tags: ["privacy", "analytics", "web_traffic", "gdpr_compliance"],
-    rating: 4.3,
-    visits: 60000,
-    dateAdded: "2022-08-18",
-    isPremium: "Premium"
+    categories: ["data-processing"],
+    subcategory: "analytics",
+    tags: ["AI", "analytics", "privacy"],
+    rating: 4.6,
+    visits: 800000,
+    dateAdded: "2022-03-15",
+    isPremium: 'Free',
+    features: [
+      "Privacy-First Tracking: Collects website analytics without using cookies, ensuring user privacy.",
+      "Event and Goal Tracking: Allows setting up goals and tracking specific events on your website.",
+      "Clean Dashboard: Provides an intuitive, one-page dashboard for quick insights.",
+      "Data Export: Offers easy data export options for further analysis."
+    ]
   },
   {
     name: "Akkio",
@@ -1514,7 +1990,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 120000,
     dateAdded: "2023-01-22",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "No-Code AI Modeling: Build predictive models without coding, ideal for marketing and sales analytics.",
+      "Chat Explore™: Interact with data using natural language queries.",
+      "Data Preparation Tools: Clean and transform data efficiently.",
+      "Generative Reports: Automatically generate insights and reports from data."
+    ]
   },
   {
     name: "MonkeyLearn",
@@ -1529,7 +2011,13 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 90000,
     dateAdded: "2022-10-30",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Text Classification: Categorize text data using machine learning.",
+      "Sentiment Analysis: Determine the sentiment of text data.",
+      "Custom Model Training: Train models tailored to specific needs.",
+      "Data Visualization: Visualize text analysis results for easier interpretation."
+    ]
   },
   {
     name: "Sisense",
@@ -1544,7 +2032,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 1100000,
     dateAdded: "2022-07-14",
-    isPremium: "Premium"
+    isPremium: "Premium",
+    features: [
+      "Data Integration: Connect to various data sources, including databases and cloud services.",
+      "Custom Dashboards: Create personalized dashboards to monitor key metrics.",
+      "Embedded Analytics: Integrate analytics into your own applications.",
+      "Scalability: Handle large datasets and scale as your data grows."
+    ]
   },
   {
     name: "Kanaries",
@@ -1559,7 +2053,13 @@ export const tools: Tool[] = [
     rating: 4.3,
     visits: 50000,
     dateAdded: "2023-04-08",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "AutoVis: Automatically generate visualizations based on selected data.",
+      "Data Wrangler: Automate data summarization and transformation.",
+      "Data Painter: Interactively explore data through visual means.",
+      "Graphic Walker: Embed visual analytics into web and mobile applications."
+    ]
   },
   {
     name: "GitHub Copilot",
@@ -1574,7 +2074,13 @@ export const tools: Tool[] = [
     rating: 4.8,
     visits: 5000000,
     dateAdded: "2021-06-29",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "AI Code Completions: Suggest code snippets based on context.",
+      "Natural Language Chat: Interact with codebase using conversational queries.",
+      "Smart Actions: Enhance productivity with AI-driven suggestions.",
+      "Pull Request Summaries: Generate summaries for code changes."
+    ]
   },
   {
     name: "Tabnine",
@@ -1589,7 +2095,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 1200000,
     dateAdded: "2019-02-15",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Context-Aware Suggestions: Provide real-time code completions.",
+      "AI Chat in IDE: Assist with coding tasks through natural language.",
+      "Security and Compliance: Ensure code privacy and compliance.",
+      "Integration with Tools: Work seamlessly with tools like Jira."
+    ]
   },
   {
     name: "Amazon CodeWhisperer",
@@ -1634,7 +2146,13 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 300000,
     dateAdded: "2022-09-15",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "AI Autocomplete: Real-time suggestions in 70+ languages.",
+      "In-Editor AI Chat: Technical help inside your IDE.",
+      "Broad IDE Support: Works with VS Code, JetBrains, and more.",
+      "Free for Individuals: Unlimited access with no cost."
+    ]
   },
   {
     name: "Sourcery",
@@ -1649,7 +2167,13 @@ export const tools: Tool[] = [
     rating: 4.1,
     visits: 150000,
     dateAdded: "2020-07-10",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Code Refactoring: Simplifies and optimizes code.",
+      "Code Quality Suggestions: Flags bad practices and bugs.",
+      "Pull Request Reviews: AI feedback in GitHub PRs.",
+      "Team Collaboration: Shares refactoring tips team-wide."
+    ]
   },
   {
     name: "DeepCode",
@@ -1694,7 +2218,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 40000000,
     dateAdded: "2022-06-15",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "AI Content Generation: Creates text and images automatically.",
+      "Text Assistance: Improves or rewrites design copy.",
+      "Design Automation: Helps with layout and spacing.",
+      "Image Suggestions: Recommends visuals for designs."
+    ]
   },
   {
     name: "Uizard",
@@ -1709,7 +2239,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 1500000,
     dateAdded: "2022-09-10",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Autodesigner: Creates UIs from text prompts.",
+      "Screenshot Scanner: Turns sketches into editable UIs.",
+      "Drag-and-Drop Editor: No-code visual design.",
+      "Focus Predictor: Predicts attention hotspots."
+    ]
   },
   {
     name: "Looka",
@@ -1724,7 +2260,13 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 800000,
     dateAdded: "2021-05-20",
-    isPremium: "Premium"
+    isPremium: "Premium",
+    features: [
+      "Logo Generator: Designs logos from your preferences.",
+      "Brand Kit Builder: Creates full brand identity packages.",
+      "Design Customization: Edit fonts, colors, and layout.",
+      "High-Res Downloads: Exports in multiple formats."
+    ]
   },
   {
     name: "Designify",
@@ -1739,7 +2281,13 @@ export const tools: Tool[] = [
     rating: 4.2,
     visits: 600000,
     dateAdded: "2021-08-30",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Background Removal: Clears backgrounds automatically.",
+      "Image Retouching: Enhances photos with one click.",
+      "Templates: Adds styles and frames to images.",
+      "Batch Editing: Process many images at once."
+    ]
   },
   {
     name: "V0 by Vercel",
@@ -1754,7 +2302,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 500000,
     dateAdded: "2023-10-10",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Component Generation: Create UI components from text prompts.",
+      "Code Export: Export components as usable code.",
+      "Design Customization: Adjust component styles and layouts.",
+      "Integration with Frameworks: Use components with popular frameworks."
+    ]
   },
   {
     name: "Let's Enhance",
@@ -1769,97 +2323,13 @@ export const tools: Tool[] = [
     rating: 4.3,
     visits: 700000,
     dateAdded: "2019-12-10",
-    isPremium: "Freemium"
-  },
-  {
-    name: "Runway ML",
-    description: "Creative toolkit offering AI-powered video editing and content creation features.",
-    url: "https://runwayml.com/",
-    id: "runway-ml",
-    image: "/tool-screenshots/runway-ml.png",
-    logo: "/logo/runway-ml.png",
-    categories: ["design"],
-    subcategory: "Video Editing",
-    tags: ["video_editing", "green_screen", "style_transfer", "inpainting", "text_to_video"],
-    rating: 4.6,
-    visits: 8100000,
-    dateAdded: "2022-11-01",
-    isPremium: "Freemium"
-  },
-  {
-    name: "Khroma",
-    description: "AI-based color tool that learns your preferences to generate personalized color palettes.",
-    url: "https://www.khroma.co/",
-    id: "khroma",
-    image: "/tool-screenshots/khroma.png",
-    logo: "/logo/khroma.png",
-    categories: ["design"],
-    subcategory: "Color Tool",
-    tags: ["color_palettes", "branding", "ui_design", "personalization", "inspiration"],
-    rating: 4.3,
-    visits: 500000,
-    dateAdded: "2020-11-05",
-    isPremium: "Free"
-  },
-  {
-    name: "Cursor",
-    description: "AI-powered code editor that enhances developer productivity with context-aware suggestions and natural language prompts.",
-    url: "https://www.cursor.com",
-    id: "cursor",
-    image: "/tool-screenshots/cursor.png",
-    logo: "/logo/cursor.png",
-    categories: ["coding"],
-    subcategory: "AI Code Editor",
-    tags: ["ai_coding", "code_editor", "vs_code_fork", "natural_language", "productivity"],
-    rating: 4.8,
-    visits: 1000000,
-    dateAdded: "2023-01-01",
-    isPremium: "Freemium"
-  },
-  {
-    name: "Jasper AI",
-    description: "AI-driven content generation tool for creating high-quality marketing copy, blog posts, and social media content.",
-    url: "https://www.jasper.ai",
-    id: "jasper-ai",
-    image: "/tool-screenshots/jasper-ai.png",
-    logo: "/logo/jasper-ai.png",
-    categories: ["marketing"],
-    subcategory: "Content Creation",
-    tags: ["copywriting", "blogging", "social_media", "seo", "email_marketing"],
-    rating: 4.7,
-    visits: 3000000,
-    dateAdded: "2021-01-15",
-    isPremium: "Premium"
-  },
-  {
-    name: "Surfer SEO",
-    description: "On-page SEO optimization tool that uses AI to analyze and improve content for better search engine rankings.",
-    url: "https://surferseo.com",
-    id: "surfer-seo",
-    image: "/tool-screenshots/surfer-seo.png",
-    logo: "/logo/surfer-seo.png",
-    categories: ["marketing"],
-    subcategory: "SEO Optimization",
-    tags: ["seo", "content_optimization", "keyword_research", "on_page_seo"],
-    rating: 4.6,
-    visits: 1500000,
-    dateAdded: "2019-06-20",
-    isPremium: "Premium"
-  },
-  {
-    name: "Copy.ai",
-    description: "AI-powered writing assistant that helps marketers create engaging content for various platforms.",
-    url: "https://www.copy.ai",
-    id: "copy-ai",
-    image: "/tool-screenshots/copy-ai.png",
-    logo: "/logo/copy-ai.png",
-    categories: ["marketing"],
-    subcategory: "Content Creation",
-    tags: ["copywriting", "email_marketing", "social_media", "blogging", "ads"],
-    rating: 4.5,
-    visits: 2500000,
-    dateAdded: "2020-10-10",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "AI Upscaling: Boosts image resolution.",
+      "Color Correction: Fixes tones and lighting.",
+      "Noise Reduction: Removes blur and grain.",
+      "Preset Modes: Optimizes for print, e-com, and real estate."
+    ]
   },
   {
     name: "Synthesia",
@@ -1874,7 +2344,13 @@ export const tools: Tool[] = [
     rating: 4.7,
     visits: 2000000,
     dateAdded: "2020-05-05",
-    isPremium: "Premium"
+    isPremium: "Premium",
+    features: [
+      "Text-to-Video: Turn scripts into videos with AI avatars.",
+      "Multilingual Voiceovers: Supports 140+ languages and accents.",
+      "Custom Avatars: Personalize avatars with your own likeness.",
+      "Built-in Templates: Prebuilt formats for training, promo, etc."
+    ]
   },
   {
     name: "Mailchimp",
@@ -1889,7 +2365,13 @@ export const tools: Tool[] = [
     rating: 4.6,
     visits: 25000000,
     dateAdded: "2001-10-01",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Email Automation: Create and schedule campaigns.",
+      "Customer Journeys: Design multi-step email sequences.",
+      "A/B Testing: Test email subject lines and content.",
+      "CRM Features: Manage contacts, segments, and preferences."
+    ]
   },
   {
     name: "ActiveCampaign",
@@ -1904,7 +2386,13 @@ export const tools: Tool[] = [
     rating: 4.5,
     visits: 5000000,
     dateAdded: "2003-09-01",
-    isPremium: "Premium"
+    isPremium: "Premium",
+    features: [
+      "Marketing Automation: Trigger emails based on user actions.",
+      "Built-in CRM: Sync sales and marketing tasks.",
+      "Site Tracking: Monitor user behavior to personalize content.",
+      "Email Segmentation: Target messages to audience segments."
+    ]
   },
   {
     name: "Adobe Marketo Engage",
@@ -1919,7 +2407,13 @@ export const tools: Tool[] = [
     rating: 4.4,
     visits: 3000000,
     dateAdded: "2006-01-01",
-    isPremium: "Premium"
+    isPremium: "Premium",
+    features: [
+      "Lead Management: Capture and score leads with automation.",
+      "Cross-Channel Campaigns: Email, social, ads, and more.",
+      "Personalization: Tailor experiences to user behavior.",
+      "Analytics: Real-time reporting on campaign performance."
+    ]
   },
   {
     name: "Notion AI",
@@ -1953,332 +2447,422 @@ export const tools: Tool[] = [
   },
   {
     name: "ClickUp AI",
-    description: "AI-powered project management tool that automates tasks and enhances team productivity.",
+    description: "AI-powered project management and productivity platform.",
     url: "https://clickup.com/ai",
     id: "clickup-ai",
     image: "/tool-screenshots/clickup-ai.png",
     logo: "/logo/clickup-ai.png",
     categories: ["productivity"],
-    subcategory: "Project Management",
-    tags: ["task_management", "automation", "team_collaboration", "productivity"],
+    subcategory: "project-management",
+    tags: ["AI", "automation", "project management"],
     rating: 4.6,
-    visits: 4000000,
-    dateAdded: "2023-05-10",
-    isPremium: "Freemium"
+    visits: 2500000,
+    dateAdded: "2023-11-15",
+    isPremium: 'Free',
+    features: [
+      "Task Automation: Automatically generates and updates tasks based on prompts.",
+      "AI Writer: Drafts meeting notes, project briefs, and content.",
+      "Summarization: Summarizes long threads and comments.",
+      "Brainstorming Assistant: Helps ideate and break down projects."
+    ]
   },
   {
     name: "Zapier",
-    description: "Automation platform that connects apps and automates workflows using AI.",
+    description: "Automation platform that connects apps and services.",
     url: "https://zapier.com",
     id: "zapier",
     image: "/tool-screenshots/zapier.png",
     logo: "/logo/zapier.png",
     categories: ["productivity"],
-    subcategory: "Automation",
-    tags: ["workflow_automation", "integration", "task_automation", "productivity"],
-    rating: 4.5,
-    visits: 10000000,
-    dateAdded: "2012-08-01",
-    isPremium: "Freemium"
+    subcategory: "automation",
+    tags: ["AI", "automation", "integration"],
+    rating: 4.7,
+    visits: 5000000,
+    dateAdded: "2023-10-01",
+    isPremium: 'Free',
+    features: [
+      "App Integration: Connects 6,000+ apps to automate workflows.",
+      "AI Actions: Automates tasks using natural language prompts.",
+      "Multi-Step Zaps: Chains multiple tasks together in one automation.",
+      "Data Formatting: Cleans and reformats data between apps."
+    ]
   },
   {
     name: "Motion",
-    description: "AI-powered calendar and task manager that optimizes your schedule automatically.",
+    description: "AI-powered calendar and task management platform.",
     url: "https://www.usemotion.com",
     id: "motion",
     image: "/tool-screenshots/motion.png",
     logo: "/logo/motion.png",
     categories: ["productivity"],
-    subcategory: "Time Management",
-    tags: ["calendar", "task_management", "scheduling", "productivity"],
-    rating: 4.4,
-    visits: 500000,
-    dateAdded: "2022-11-15",
-    isPremium: "Premium"
+    subcategory: "calendar",
+    tags: ["AI", "scheduling", "automation"],
+    rating: 4.5,
+    visits: 1800000,
+    dateAdded: "2023-09-15",
+    isPremium: 'Free',
+    features: [
+      "AI Scheduler: Automatically prioritizes and schedules tasks on your calendar.",
+      "Meeting Booking: Handles meeting coordination with smart availability.",
+      "Task Rescheduling: Dynamically shifts tasks based on deadlines.",
+      "Focus Time: Protects time for deep work using calendar blocking."
+    ]
   },
   {
     name: "Fireflies.ai",
-    description: "AI meeting assistant that records, transcribes, and summarizes meetings.",
+    description: "AI meeting assistant for transcription and analysis.",
     url: "https://fireflies.ai",
     id: "fireflies-ai",
     image: "/tool-screenshots/fireflies-ai.png",
     logo: "/logo/fireflies-ai.png",
     categories: ["productivity"],
-    subcategory: "Meeting Assistant",
-    tags: ["meeting_transcription", "note_taking", "collaboration", "productivity"],
-    rating: 4.3,
-    visits: 1000000,
-    dateAdded: "2020-06-01",
-    isPremium: "Freemium"
+    subcategory: "meetings",
+    tags: ["AI", "transcription", "meetings"],
+    rating: 4.6,
+    visits: 2200000,
+    dateAdded: "2023-08-01",
+    isPremium: 'Free',
+    features: [
+      "Meeting Recording: Captures audio and video from meetings.",
+      "Transcription: Converts speech to accurate, searchable text.",
+      "AI Summaries: Provides concise highlights of meetings.",
+      "Collaboration Tools: Share, comment on, and assign notes within teams."
+    ]
   },
   {
     name: "Perplexity AI",
-    description: "AI-powered answer engine that delivers real-time, cited responses to user queries.",
+    description: "AI-powered search and answer engine with citations.",
     url: "https://www.perplexity.ai",
     id: "perplexity-ai",
     image: "/tool-screenshots/perplexity-ai.png",
     logo: "/logo/perplexity-ai.png",
-    categories: ["text"],
-    subcategory: "AI Search Engine",
-    tags: ["ai_search", "natural_language_processing", "real_time_answers", "citations", "research_assistant"],
-    rating: 4.7,
-    visits: 160000000,
-    dateAdded: "2022-12-07",
-    isPremium: "Freemium"
+    categories: ["productivity"],
+    subcategory: "search",
+    tags: ["AI", "search", "research"],
+    rating: 4.8,
+    visits: 3500000,
+    dateAdded: "2023-07-15",
+    isPremium: 'Free',
+    features: [
+      "Cited Answers: Provides real-time responses with source citations.",
+      "Web Search Integration: Combines AI and live web data.",
+      "Follow-Up Queries: Enables contextual back-and-forth questioning.",
+      "Multimodal Inputs: Accepts both text and voice prompts."
+    ]
   },
   {
     name: "Otter.ai",
-    description: "AI-powered transcription service that converts voice conversations into written text.",
+    description: "AI-powered meeting transcription and note-taking platform.",
     url: "https://otter.ai",
     id: "otter-ai",
     image: "/tool-screenshots/otter-ai.png",
     logo: "/logo/otter-ai.png",
     categories: ["productivity"],
-    subcategory: "Transcription",
-    tags: ["transcription", "note_taking", "meetings", "productivity"],
+    subcategory: "meetings",
+    tags: ["AI", "transcription", "meetings"],
     rating: 4.5,
-    visits: 3000000,
-    dateAdded: "2017-09-01",
-    isPremium: "Freemium"
+    visits: 2800000,
+    dateAdded: "2023-06-01",
+    isPremium: 'Free',
+    features: [
+      "Real-Time Transcription: Transcribes meetings and lectures as they happen.",
+      "Speaker Identification: Labels who said what in group conversations.",
+      "Automatic Summaries: Creates outlines of spoken content.",
+      "Search & Highlight: Lets users find keywords and key moments."
+    ]
   },
   {
     name: "Reclaim.ai",
-    description: "Smart calendar assistant that helps you automatically schedule tasks, habits, and meetings.",
+    description: "Smart calendar assistant for task and habit management.",
     url: "https://reclaim.ai",
     id: "reclaim-ai",
     image: "/tool-screenshots/reclaim-ai.png",
     logo: "/logo/reclaim-ai.png",
     categories: ["productivity"],
-    subcategory: "Scheduling",
-    tags: ["calendar", "task_management", "automation", "productivity"],
-    rating: 4.2,
-    visits: 200000,
-    dateAdded: "2021-03-15",
-    isPremium: "Freemium"
+    subcategory: "calendar",
+    tags: ["AI", "scheduling", "automation"],
+    rating: 4.6,
+    visits: 1500000,
+    dateAdded: "2023-05-15",
+    isPremium: 'Free',
+    features: [
+      "Smart Calendar: Automatically finds the best time for tasks.",
+      "Habit Scheduling: Maintains routines and habits within your workweek.",
+      "Meeting Syncing: Avoids overlap by syncing multiple calendars.",
+      "Task Prioritization: Reschedules tasks based on urgency and deadline."
+    ]
   },
   {
     name: "SaneBox",
-    description: "Email management tool that uses AI to organize your inbox and prioritize important messages.",
+    description: "AI-powered email management and organization tool.",
     url: "https://www.sanebox.com",
     id: "sanebox",
     image: "/tool-screenshots/sanebox.png",
     logo: "/logo/sanebox.png",
     categories: ["productivity"],
-    subcategory: "Email Management",
-    tags: ["email_organization", "inbox_management", "productivity", "automation"],
-    rating: 4.1,
-    visits: 150000,
-    dateAdded: "2010-05-01",
-    isPremium: "Premium"
-  },
-  {
-    name: "DeepAI Text Generator",
-    description: "Simple AI tool for generating text based on prompts.",
-    url: "https://deepai.org/chat/text-generator",
-    id: "deepai-text",
-    image: "/tool-screenshots/deepai.png",
-    logo: "/logo/deepai.png",
-    categories: ["text"],
-    subcategory: "text-generation",
-    tags: ["AI", "text", "prompt"],
-    rating: 4.0,
-    visits: 60000,
-    dateAdded: "2021-09-05",
+    subcategory: "email",
+    tags: ["AI", "email", "automation"],
+    rating: 4.4,
+    visits: 1200000,
+    dateAdded: "2023-04-01",
     isPremium: 'Free',
     features: [
-      "Prompt-Based Generation: Generates text based on user-provided prompts.",
-      "Simple Interface: Easy-to-use design for quick text generation.",
-      "No Account Required: Use the tool without signing up.",
-      "Free Access: Generate text at no cost for basic needs."
+      "Email Filtering: Automatically sorts unimportant emails into folders like SaneLater for better organization.",
+      "SaneBlackHole: Allows users to unsubscribe from unwanted emails effortlessly.",
+      "SaneReminders: Sets reminders to follow up on emails or send them at a later time.",
+      "Attachment Management: Easily saves email attachments to linked cloud storage services."
     ]
   },
   {
-    name: "Typli.ai",
-    description: "AI writing tool with grammar check and SEO optimization.",
-    url: "https://typli.ai",
-    id: "typli",
-    image: "/tool-screenshots/typli.png",
-    logo: "/logo/typli.png",
-    categories: ["text"],
-    subcategory: "text-generation",
-    tags: ["AI", "grammar", "SEO"],
-    rating: 4.1,
-    visits: 50000,
-    dateAdded: "2022-04-01",
-    isPremium: 'Freemium',
-    features: [
-      "Grammar Checker: Instantly corrects grammar and spelling mistakes.",
-      "SEO Optimization: Provides SEO suggestions for better ranking.",
-      "Content Templates: Offers templates for various writing needs.",
-      "AI-Powered Writing: Generates content based on your input and keywords."
-    ]
-  },
-  {
-    name: "Picsart AI Writer",
-    description: "Generates text for social media, marketing, and more.",
-    url: "https://tools.picsart.com/text/ai-writer/",
-    id: "picsart-writer",
-    image: "/tool-screenshots/picsart.png",
-    logo: "/logo/picsart.png",
-    categories: ["text"],
-    subcategory: "text-generation",
-    tags: ["AI", "social media", "marketing"],
-    rating: 4.0,
-    visits: 70000,
-    dateAdded: "2022-07-11",
-    isPremium: 'Freemium',
-    features: [
-      "Social Media Content: Generates posts and captions for various platforms.",
-      "Marketing Copy: Creates engaging marketing and ad copy.",
-      "Multi-Language Support: Write in multiple languages.",
-      "Quick Generation: Produces content in seconds for fast workflows."
-    ]
-  },
-  {
-    name: "ToolBaz AI Text Generator",
-    description: "Free tool for generating text, articles, and scripts.",
-    url: "https://toolbaz.com/writer/ai-text-generator",
-    id: "toolbaz",
-    image: "/tool-screenshots/toolbaz.png",
-    logo: "/logo/toolbaz.png",
-    categories: ["text"],
-    subcategory: "text-generation",
-    tags: ["AI", "article", "text"],
-    rating: 3.9,
-    visits: 30000,
-    dateAdded: "2021-08-23",
+    name: "Adobe Firefly",
+    description: "AI-powered image and video generation tool.",
+    url: "https://www.adobe.com/products/firefly.html",
+    id: "adobe-firefly",
+    image: "/tool-screenshots/adobe-firefly.png",
+    logo: "/logo/adobe-firefly.png",
+    categories: ["image", "video"],
+    subcategory: "AI Image and Video Generation",
+    tags: ["AI", "image_generation", "video_generation", "creative_tools"],
+    rating: 4.7,
+    visits: 1000000,
+    dateAdded: "2023-05-01",
     isPremium: 'Free',
     features: [
-      "Article Generation: Creates articles and blog posts from prompts.",
-      "Script Writing: Generates scripts for videos or presentations.",
-      "Free to Use: No payment required for basic features.",
-      "Simple Workflow: Minimal steps to generate and copy text."
+      "Generative AI Tools: Offers tools for image, video, audio, and vector generation.",
+      "Enhanced Creative Control: Provides users with unprecedented control over their creative projects.",
+      "Integration with Adobe Suite: Seamlessly integrates with tools like Photoshop and Adobe Express.",
+      "Collaborative Features: Introduces Firefly Boards for real-time team collaboration and AI-assisted image remixing."
     ]
   },
   {
-    name: "Ahrefs Paragraph Generator",
-    description: "Generates human-like paragraphs based on prompts.",
-    url: "https://ahrefs.com/writing-tools/paragraph-generator",
-    id: "ahrefs-paragraph",
-    image: "/tool-screenshots/ahrefs.png",
-    logo: "/logo/ahrefs.png",
-    categories: ["text"],
-    subcategory: "text-generation",
-    tags: ["AI", "paragraph", "writing"],
-    rating: 4.2,
-    visits: 85000,
+    name: "Jasper",
+    description: "AI-powered marketing and business writing tool.",
+    url: "https://www.jasper.ai",
+    id: "jasper",
+    image: "/tool-screenshots/jasper.png",
+    logo: "/logo/jasper.png",
+    categories: ["marketing", "text"],
+    subcategory: "Content Generation",
+    tags: ["AI", "content", "marketing", "writing"],
+    rating: 4.5,
+    visits: 5000000,
+    dateAdded: "2021-06-15",
+    isPremium: "Premium",
+    features: [
+      "AI Marketing Apps: Offers over 90 AI-powered apps tailored for various marketing functions.",
+      "Brand Voice Customization: Ensures content aligns with a brand's unique voice and style.",
+      "Performance Analytics: Provides insights into content performance and ROI.",
+      "Campaign Acceleration: Streamlines the content creation process to speed up marketing campaigns."
+    ]
+  },
+  {
+    name: "Podcastle",
+    description: "All-in-one podcasting platform with AI voice cloning and editing features.",
+    url: "https://podcastle.ai",
+    id: "podcastle",
+    image: "/tool-screenshots/podcastle.png",
+    logo: "/logo/podcastle.png",
+    categories: ["audio"],
+    subcategory: "transcription",
+    tags: ["AI", "podcasting", "voice cloning", "editing"],
+    rating: 4.6,
+    visits: 1000000,
+    dateAdded: "2023-03-01",
+    isPremium: 'Free',
+    features: [
+      "AI-Powered Audio Editing: Automatically removes background noise and enhances audio quality.",
+      "Text-to-Speech Conversion: Transforms written content into natural-sounding speech.",
+      "Multitrack Recording: Supports recording of separate audio and video tracks for each participant.",
+      "Dynamic Speaker Feature: Intelligently switches focus between speakers in video recordings."
+    ]
+  },
+  {
+    name: "Codiga",
+    description: "AI-powered code analysis and security platform.",
+    url: "https://www.codiga.io",
+    id: "codiga",
+    image: "/tool-screenshots/codiga.png",
+    logo: "/logo/codiga.png",
+    categories: ["coding"],
+    subcategory: "code-analysis",
+    tags: ["AI", "coding", "security", "analysis"],
+    rating: 4.4,
+    visits: 300000,
+    dateAdded: "2022-03-15",
+    isPremium: 'Free',
+    features: [
+      "Real-Time Code Analysis: Detects issues while coding.",
+      "Smart Code Snippets: Reusable code blocks with best practices.",
+      "Security & Performance Checks: Flags unsafe or slow code.",
+      "IDE/CI Integration: Works with VS Code, JetBrains, GitHub Actions, and more."
+    ]
+  },
+  {
+    name: "Amazon CodeWhisperer",
+    description: "AI coding companion that provides real-time code suggestions and security scanning.",
+    url: "https://aws.amazon.com/codewhisperer",
+    id: "amazon-codewhisperer",
+    image: "/tool-screenshots/amazon-codewhisperer.png",
+    logo: "/logo/amazon-codewhisperer.png",
+    categories: ["coding"],
+    subcategory: "code-completion",
+    tags: ["AI", "coding", "AWS", "security"],
+    rating: 4.6,
+    visits: 800000,
     dateAdded: "2022-06-15",
     isPremium: 'Free',
     features: [
-      "Paragraph Generation: Produces human-like paragraphs from prompts.",
-      "SEO-Friendly Content: Generates content optimized for search engines.",
-      "No Signup Needed: Use the tool without creating an account.",
-      "Fast Output: Get results instantly for quick content needs."
+      "Real-Time Code Suggestions: Context-aware completions as you type.",
+      "AWS Service Integration: Generates AWS-specific code (e.g. S3, DynamoDB).",
+      "Security Scanning: Alerts you to insecure code patterns.",
+      "Open Source Reference Tracking: Shows links when code mimics public examples."
     ]
   },
   {
-    name: "Canva Magic Write",
-    description: "AI writing assistant in Canva for content creation.",
-    url: "https://www.canva.com/magic-write/",
-    id: "canva-magic-write",
-    image: "/tool-screenshots/canva.png",
-    logo: "/logo/canva.png",
-    categories: ["text"],
-    subcategory: "text-generation",
-    tags: ["AI", "Canva", "creative"],
-    rating: 4.4,
-    visits: 120000,
-    dateAdded: "2023-01-10",
-    isPremium: 'Freemium',
-    features: [
-      "Integrated with Canva: Write content directly in your Canva projects.",
-      "Creative Content: Generates ideas, outlines, and full text.",
-      "Multiple Use Cases: Supports blogs, social posts, and more.",
-      "AI-Powered Suggestions: Offers smart suggestions to enhance your writing."
-    ]
-  },
-  {
-    name: "Article Forge",
-    description: "Automatically generates full-length articles on various topics.",
-    url: "https://www.articleforge.com",
-    id: "articleforge",
-    image: "/tool-screenshots/articleforge.png",
-    logo: "/logo/articleforge.png",
-    categories: ["text"],
-    subcategory: "text-generation",
-    tags: ["AI", "article", "automation"],
-    rating: 4.3,
-    visits: 95000,
-    dateAdded: "2021-10-30",
-    isPremium: 'Premium',
-    features: [
-      "Full-Length Articles: Automatically generates comprehensive articles.",
-      "Topic Research: Gathers information from multiple sources.",
-      "SEO Optimization: Produces content optimized for search engines.",
-      "Bulk Generation: Create multiple articles at once for scale."
-    ]
-  },
-  {
-    name: "Byword AI",
-    description: "Generates SEO-optimized articles at scale.",
-    url: "https://www.byword.ai",
-    id: "byword",
-    image: "/tool-screenshots/byword.png",
-    logo: "/logo/byword.png",
-    categories: ["text"],
-    subcategory: "text-generation",
-    tags: ["AI", "SEO", "automation"],
-    rating: 4.2,
-    visits: 90000,
-    dateAdded: "2022-02-18",
-    isPremium: 'Premium',
-    features: [
-      "SEO-Optimized Content: Generates articles designed to rank well.",
-      "Bulk Article Creation: Produce many articles at once.",
-      "Automated Research: Gathers facts and data for your topics.",
-      "Easy Export: Download or copy articles for your website or blog."
-    ]
-  },
-  {
-    name: "Rytr",
-    description: "AI writing assistant for generating high-quality content quickly.",
-    url: "https://rytr.me",
-    id: "rytr",
-    image: "/tool-screenshots/rytr.png",
-    logo: "/logo/rytr.png",
-    categories: ["text"],
-    subcategory: "text-generation",
-    tags: ["AI", "writing", "content"],
-    rating: 4.3,
-    visits: 220000,
-    dateAdded: "2021-11-10",
-    isPremium: 'Freemium',
-    features: [
-      "Multiple Tones & Languages: Write in various styles and languages.",
-      "Content Templates: Choose from templates for blogs, ads, emails, and more.",
-      "Plagiarism Check: Ensures your content is original.",
-      "AI-Powered Suggestions: Get smart suggestions to improve your writing."
-    ]
-  },
-  {
-    name: "Frase",
-    description: "AI-powered tool for content creation and SEO optimization.",
-    url: "https://www.frase.io",
-    id: "frase",
-    image: "/tool-screenshots/frase.png",
-    logo: "/logo/frase.png",
-    categories: ["text"],
-    subcategory: "text-generation",
-    tags: ["AI", "SEO", "content"],
+    name: "Replit Ghostwriter",
+    description: "AI coding assistant integrated into the Replit development environment.",
+    url: "https://replit.com/ghostwriter",
+    id: "replit-ghostwriter",
+    image: "/tool-screenshots/replit-ghostwriter.png",
+    logo: "/logo/replit-ghostwriter.png",
+    categories: ["coding"],
+    subcategory: "code-completion",
+    tags: ["AI", "coding", "replit", "assistant"],
     rating: 4.5,
-    visits: 150000,
-    dateAdded: "2021-12-20",
-    isPremium: 'Premium',
+    visits: 600000,
+    dateAdded: "2022-09-15",
+    isPremium: 'Free',
     features: [
-      "Content Briefs: Automatically generates SEO-focused content briefs.",
-      "Topic Research: Analyzes top results to guide your writing.",
-      "AI Writing: Produces content based on your outline and keywords.",
-      "Optimization Tools: Helps improve your content for better rankings."
+      "Inline Code Completions: Fast suggestions within Replit.",
+      "Code Explanation: Converts code to plain language.",
+      "Prompt-Based Coding: Generates code from natural language.",
+      "Refactoring Support: Helps restructure and improve code logic."
+    ]
+  },
+  {
+    name: "Khroma",
+    description: "AI color palette generator that learns from your preferences.",
+    url: "https://www.khroma.co",
+    id: "khroma",
+    image: "/tool-screenshots/khroma.png",
+    logo: "/logo/khroma.png",
+    categories: ["design"],
+    subcategory: "color-palettes",
+    tags: ["AI", "design", "colors", "palettes"],
+    rating: 4.7,
+    visits: 450000,
+    dateAdded: "2022-01-15",
+    isPremium: 'Free',
+    features: [
+      "AI Color Palette Generation: Learns your preferences and creates color schemes.",
+      "Custom Training: Personalize palettes by training on colors you like.",
+      "Infinite Combos: Generates endless color pairings with hex/RGB codes.",
+      "Visual Previews: See palettes in UI mockups, images, and gradients."
+    ]
+  },
+  {
+    name: "Cursor",
+    description: "AI-powered code editor with advanced features for developers.",
+    url: "https://cursor.sh",
+    id: "cursor",
+    image: "/tool-screenshots/cursor.png",
+    logo: "/logo/cursor.png",
+    categories: ["coding", "design"],
+    subcategory: "code-editor",
+    tags: ["AI", "coding", "editor", "development"],
+    rating: 4.8,
+    visits: 900000,
+    dateAdded: "2023-01-15",
+    isPremium: 'Free',
+    features: [
+      "AI Code Review: Highlights logic flaws and inefficiencies.",
+      "Copilot Integration: Chat with code using natural language.",
+      "Refactoring Suggestions: Restructures code for readability and efficiency.",
+      "IDE-Like Environment: Works in a web-based AI IDE with debugging tools."
+    ]
+  },
+  {
+    name: "Jasper AI",
+    description: "AI marketing platform for content creation and campaign management.",
+    url: "https://www.jasper.ai",
+    id: "jasper-ai",
+    image: "/tool-screenshots/jasper-ai.png",
+    logo: "/logo/jasper-ai.png",
+    categories: ["marketing"],
+    subcategory: "content-generation",
+    tags: ["AI", "marketing", "content", "automation"],
+    rating: 4.7,
+    visits: 1200000,
+    dateAdded: "2021-06-15",
+    isPremium: 'Free',
+    features: [
+      "AI Templates: Tools for blog posts, emails, ads, and more.",
+      "Brand Voice Learning: Trains AI to mimic your tone/style.",
+      "Campaign Planning: Maps content across marketing channels.",
+      "Collaboration Tools: Multi-user access with roles and permissions."
+    ]
+  },
+  {
+    name: "Surfer SEO",
+    description: "AI-powered SEO tool for content optimization and keyword research.",
+    url: "https://surferseo.com",
+    id: "surfer-seo",
+    image: "/tool-screenshots/surfer-seo.png",
+    logo: "/logo/surfer-seo.png",
+    categories: ["marketing"],
+    subcategory: "seo",
+    tags: ["AI", "SEO", "content", "marketing"],
+    rating: 4.6,
+    visits: 750000,
+    dateAdded: "2021-09-15",
+    isPremium: 'Free',
+    features: [
+      "Content Editor: Real-time optimization suggestions based on SERP data.",
+      "Keyword Research: Identifies high-impact keywords with volume data.",
+      "SEO Audits: Analyzes existing pages for ranking improvements.",
+      "SERP Analyzer: Visual breakdown of ranking factors for competitors."
+    ]
+  },
+  {
+    name: "Copy.ai",
+    description: "AI copywriting platform for marketing and sales content.",
+    url: "https://www.copy.ai",
+    id: "copy-ai",
+    image: "/tool-screenshots/copy-ai.png",
+    logo: "/logo/copy-ai.png",
+    categories: ["marketing"],
+    subcategory: "copywriting",
+    tags: ["AI", "copywriting", "marketing", "content"],
+    rating: 4.5,
+    visits: 1000000,
+    dateAdded: "2021-03-15",
+    isPremium: 'Free',
+    features: [
+      "Sales Copy Generation: Writes value props, CTAs, and product descriptions.",
+      "Campaign Workflows: Automates writing across multiple touchpoints.",
+      "Tone Customization: Adjusts for brand voice, style, and tone.",
+      "Long-Form Assistant: Helps draft blog posts, reports, and scripts."
+    ]
+  },
+  {
+    name: "Microsoft Copilot",
+    description: "AI assistant integrated into Microsoft 365 applications.",
+    url: "https://www.microsoft.com/copilot",
+    id: "microsoft-copilot",
+    image: "/tool-screenshots/microsoft-copilot.png",
+    logo: "/logo/microsoft-copilot.png",
+    categories: ["productivity"],
+    subcategory: "office-assistant",
+    tags: ["AI", "productivity", "microsoft", "office"],
+    rating: 4.6,
+    visits: 1500000,
+    dateAdded: "2023-03-15",
+    isPremium: 'Free',
+    features: [
+      "Document Summarization: Condenses long documents in Word and Outlook.",
+      "Data Insights: Generates charts and formulas in Excel from natural language.",
+      "Meeting Recaps: Summarizes Teams meetings and assigns tasks.",
+      "Contextual Assistance: Suggests next steps in Office tools based on activity."
     ]
   }
 ] ;

@@ -12,82 +12,88 @@ export async function POST(req: NextRequest) {
     const tools = mockTools;
     const toolList = tools.map((tool, i) => `${i + 1}. ${tool.name}: ${tool.description} (id: ${tool.id})`).join('\n');
 
-    const systemPrompt = `You are an AI tool recommendation assistant. Here is a list of available tools:\n${toolList}\n\nGiven a user's request, recommend the single best tool from the list above and explain your reasoning. Your response MUST end with the tool's ID in exactly this format: "id: <tool-id>". For example: "id: tool-name". Reply in natural language, but ensure the ID is at the very end of your response. If you're unsure which tool to recommend, choose the most relevant one from the list.`;
+    const systemPrompt = `You are an AI tool recommendation assistant. Here is a list of available tools:\n${toolList}\n\nGiven a user's request, recommend the 3 best tools from the list above and explain your reasoning for each. Your response MUST follow this exact format:\n\n1. Write a brief explanation for the first tool, then on a new line write \"id: \" followed by the exact tool ID from the list.\n2. Write a brief explanation for the second tool, then on a new line write \"id: \" followed by the exact tool ID from the list.\n3. Write a brief explanation for the third tool, then on a new line write \"id: \" followed by the exact tool ID from the list.\n\nFor example:\nThis tool is perfect for your needs because it specializes in exactly what you're looking for.\nid: tool-1\n\nThis tool is also a good fit because it offers additional features.\nid: tool-2\n\nThis tool is worth considering for its ease of use.\nid: tool-3\n\nRemember: The tool IDs must be from the list above.`;
 
-    const togetherApiKey = process.env.TOGETHER_API_KEY;
-    if (!togetherApiKey) {
-      return NextResponse.json({ error: 'Together API key not set' }, { status: 500 });
-    }
-
-    const response = await fetch('https://api.together.xyz/v1/chat/completions', {
-      method: 'POST',
+    // --- OPENAI GPT-4o FETCH BLOCK START ---
+    const openaiUrl = "https://api.openai.com/v1/chat/completions";
+    const response = await fetch(openaiUrl, {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${togetherApiKey}`,
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
-        model: 'deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free',
+        model: "gpt-4.1-nano",
         messages: [
-          { role: 'system', content: systemPrompt },
-          { role: 'user', content: prompt }
+          { role: "system", content: systemPrompt },
+          { role: "user", content: prompt }
         ],
-        max_tokens: 256,
-        temperature: 0.7,
         stream: false
       }),
     });
+    // --- OPENAI GPT-4o FETCH BLOCK END ---
 
     if (!response.ok) {
       const errorText = await response.text();
-      console.error("Together API error:", errorText);
-      return NextResponse.json({ error: 'Together API error', details: errorText }, { status: 500 });
+      console.error("OpenAI API error:", errorText);
+      return NextResponse.json({ error: 'OpenAI API error', details: errorText }, { status: 500 });
     }
 
     const data = await response.json();
-    const content = data.choices?.[0]?.message?.content;
+    console.log('Full response from /api/recommend route:', data);
+    const content = data.choices[0].message.content;
+    console.log('Extracted content from /api/recommend route:', content);
 
-    // Try multiple patterns to extract the tool ID
-    let toolId = null;
-    const patterns = [
-      /id:\s*([a-zA-Z0-9-]+)(?:\s*$|\s*\.)/i,  // id: tool-name
-      /tool\s*id:\s*([a-zA-Z0-9-]+)/i,         // tool id: tool-name
-      /recommended\s*tool:\s*([a-zA-Z0-9-]+)/i, // recommended tool: tool-name
-      /tool:\s*([a-zA-Z0-9-]+)/i               // tool: tool-name
-    ];
+    // Extract up to 3 tool IDs and their explanations
+    const toolBlocks = content.split(/\n\s*id:/i).map((block, idx) => {
+      if (idx === 0) return null; // skip the first split part (before first id:)
+      const lines = block.trim().split(/\n/);
+      const idLine = lines[0].trim();
+      const explanation = content.split(/\n\s*id:/i)[idx - 1]?.trim();
+      return { id: idLine, explanation };
+    }).filter(Boolean);
 
-    for (const pattern of patterns) {
-      const match = content?.match(pattern);
-      if (match) {
-        toolId = match[1];
-        break;
-      }
-    }
-    
-    if (!toolId) {
-      console.error("Could not find tool ID in response:", content);
-      // If no tool ID found, try to find a tool that matches the content
-      const toolMatch = tools.find(tool => 
-        content?.toLowerCase().includes(tool.id.toLowerCase()) ||
-        content?.toLowerCase().includes(tool.name.toLowerCase())
-      );
-      if (toolMatch) {
-        toolId = toolMatch.id;
-      } else {
-        // If still no match, return the first tool as a fallback
-        toolId = tools[0].id;
-      }
-    }
+    // Map tool IDs to tool objects and filter out any null tools
+    const recommendedTools = toolBlocks
+      .map(block => {
+        // Try to find the tool by exact ID match first
+        let tool = tools.find(t => t.id.toLowerCase() === block.id.toLowerCase());
+        
+        // If no exact match, try to find by name
+        if (!tool) {
+          tool = tools.find(t => t.name.toLowerCase().includes(block.id.toLowerCase()) || 
+                                block.id.toLowerCase().includes(t.name.toLowerCase()));
+        }
+        
+        if (!tool) {
+          console.warn(`Tool not found for ID: ${block.id}`);
+          return null;
+        }
+        
+        return {
+          tool,
+          explanation: block.explanation || ''
+        };
+      })
+      .filter(Boolean); // Remove any null entries
 
-    const tool = tools.find(t => t.id === toolId);
-    if (!tool) {
-      return NextResponse.json({ error: 'Recommended tool not found' }, { status: 500 });
+    // If we have no valid tools, use fallback tools
+    if (recommendedTools.length === 0) {
+      console.log('No valid tools found, using fallback tools');
+      const fallbackTools = tools.slice(0, 3).map(tool => ({
+        tool,
+        explanation: `Fallback recommendation: ${tool.name} - ${tool.description}`
+      }));
+      return NextResponse.json({
+        recommendations: fallbackTools
+      });
     }
 
     return NextResponse.json({
-      tool,
-      explanation: content
+      recommendations: recommendedTools
     });
   } catch (err) {
+    console.error('Error in /api/recommend route:', err);
     return NextResponse.json({ error: 'Internal server error', details: String(err) }, { status: 500 });
   }
 } 

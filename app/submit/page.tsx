@@ -19,19 +19,27 @@ export default function SubmitToolPage() {
   const [submitted, setSubmitted] = useState(false)
   const formRef = useRef<HTMLFormElement>(null)
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isNotRobot, setIsNotRobot] = useState(false)
+  const [consent, setConsent] = useState(false)
+  const [error, setError] = useState("")
   // const [captchaToken, setCaptchaToken] = useState<string | null>(null)
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // if (!captchaToken) {
-    //   alert("Please complete the CAPTCHA.")
-    //   return
-    // }
-    setIsSubmitting(true)
     if (!formRef.current) {
-      alert("Form reference is missing")
+      setError("Form reference is missing")
       return
     }
+    if (!isNotRobot) {
+      setError("Please confirm you are not a robot.")
+      return
+    }
+    if (!consent) {
+      setError("Please provide your consent to submit the tool.")
+      return
+    }
+    setIsSubmitting(true)
+    setError("")
     const formData = new FormData(formRef.current)
     const data = {
       toolName: formData.get("tool_name"),
@@ -40,7 +48,6 @@ export default function SubmitToolPage() {
       category: formData.get("category"),
       tags: formData.get("tags"),
       logo: formData.get("logo"),
-      // captchaToken,
     }
     try {
       const response = await fetch("/api/submit-tool", {
@@ -49,11 +56,13 @@ export default function SubmitToolPage() {
         body: JSON.stringify(data),
       })
       if (!response.ok) throw new Error("Failed to submit tool")
-      alert("Tool submitted successfully!")
+      setSubmitted(true)
       formRef.current.reset()
-      // setCaptchaToken(null)
+      setIsNotRobot(false)
+      setConsent(false)
+      setError("")
     } catch (error) {
-      alert("Failed to submit tool. Please try again.")
+      setError("Failed to submit tool. Please try again.")
     } finally {
       setIsSubmitting(false)
     }
@@ -282,12 +291,29 @@ export default function SubmitToolPage() {
                         </SelectContent>
                       </Select>
                     </div>
-                    {/* <div className="flex justify-center mb-2">
-                      <ReCAPTCHA
-                        sitekey="6LdxOD0rAAAAAPhEsAGkQ54yQhLijLgMWg73TGv2"
-                        onChange={setCaptchaToken}
-                      />
-                    </div> */}
+                    <div className="space-y-2">
+                      <label className="flex items-center space-x-2">
+                        <input
+                          type="checkbox"
+                          checked={isNotRobot}
+                          onChange={e => { setIsNotRobot(e.target.checked); setError(""); }}
+                          className="form-checkbox h-4 w-4 text-blue-600"
+                        />
+                        <span>I am not a robot</span>
+                      </label>
+                    </div>
+                    <div className="space-y-2">
+                      <label className="flex items-center space-x-2">
+                        <input
+                          type="checkbox"
+                          checked={consent}
+                          onChange={e => { setConsent(e.target.checked); setError(""); }}
+                          className="form-checkbox h-4 w-4 text-blue-600"
+                        />
+                        <span>I consent to my information being used to contact me.</span>
+                      </label>
+                    </div>
+                    {error && <div className="text-red-600 text-center mb-2">{error}</div>}
                     <div className="pt-4 flex justify-between">
                       <Button type="button" variant="outline" onClick={() => setStep(2)}>
                         Back

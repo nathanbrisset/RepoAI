@@ -16,27 +16,27 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Categories</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/category/text-generation" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <Link href="/categories/text" className="text-gray-600 hover:text-gray-900 transition-colors">
                   Text Generation
                 </Link>
               </li>
               <li>
-                <Link href="/category/image-generation" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <Link href="/categories/image" className="text-gray-600 hover:text-gray-900 transition-colors">
                   Image Generation
                 </Link>
               </li>
               <li>
-                <Link href="/category/audio" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <Link href="/categories/audio" className="text-gray-600 hover:text-gray-900 transition-colors">
                   Audio & Speech
                 </Link>
               </li>
               <li>
-                <Link href="/category/productivity" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <Link href="/categories/productivity" className="text-gray-600 hover:text-gray-900 transition-colors">
                   Productivity
                 </Link>
               </li>
               <li>
-                <Link href="/category/coding" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <Link href="/categories/coding" className="text-gray-600 hover:text-gray-900 transition-colors">
                   Coding
                 </Link>
               </li>
