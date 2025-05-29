@@ -1,8 +1,7 @@
 {
   "/api/recommend/route": "app/api/recommend/route.js",
   "/page": "app/page.js",
+  "/categories/[category]/page": "app/categories/[category]/page.js",
   "/about/page": "app/about/page.js",
-  "/recommendation/page": "app/recommendation/page.js",
-  "/match-results/page": "app/match-results/page.js",
-  "/categories/[category]/page": "app/categories/[category]/page.js"
+  "/recommendation/page": "app/recommendation/page.js"
 }
