@@ -42,13 +42,13 @@ const categoryDescriptions: Record<string, { title: string; text: string }> = {
 };
 
 interface PageProps {
-  params: Promise<{
+  params: {
     category: string;
-  }>;
+  };
 }
 
-export default async function Page({ params }: PageProps) {
-  const { category } = await params;
+export default function Page({ params }: PageProps) {
+  const { category } = params;
   
   // Normalize category handling
   const normalizedCategory = category.toLowerCase() === 'data' 
