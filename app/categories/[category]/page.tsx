@@ -41,13 +41,14 @@ const categoryDescriptions: Record<string, { title: string; text: string }> = {
   }
 };
 
-type PageProps = {
-  params: { category: string }
-  searchParams?: { [key: string]: string | string[] | undefined }
+interface PageProps {
+  params: Promise<{
+    category: string;
+  }>;
 }
 
-export default function Page({ params }: PageProps) {
-  const category = params.category;
+export default async function Page({ params }: PageProps) {
+  const { category } = await params;
   
   // Normalize category handling
   const normalizedCategory = category.toLowerCase() === 'data' 

@@ -8,6 +8,9 @@ const nextConfig = {
       },
     ],
   },
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://aitools.ninja' : '',
+  basePath: '',
+  output: 'standalone',
 }
 
 module.exports = nextConfig 
