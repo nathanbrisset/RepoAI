@@ -47,8 +47,9 @@ interface PageProps {
   };
 }
 
-export default function Page({ params }: PageProps) {
-  const { category } = params;
+export default async function Page({ params }: any) {
+  const resolvedParams = typeof params.then === "function" ? await params : params;
+  const { category } = resolvedParams;
   
   // Normalize category handling
   const normalizedCategory = category.toLowerCase() === 'data' 
