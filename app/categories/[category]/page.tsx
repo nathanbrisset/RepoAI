@@ -46,8 +46,8 @@ type PageProps = {
   searchParams?: { [key: string]: string | string[] | undefined }
 }
 
-export default function Page({ params }: PageProps) {
-  const category = params.category;
+export default async function Page({ params }: PageProps) {
+  const category = await Promise.resolve(params.category);
   
   // Normalize category handling
   const normalizedCategory = category.toLowerCase() === 'data' 
