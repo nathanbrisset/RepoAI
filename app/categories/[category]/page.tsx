@@ -43,12 +43,11 @@ const categoryDescriptions: Record<string, { title: string; text: string }> = {
   }
 };
 
-type Props = {
+interface PageProps {
   params: { category: string }
-  searchParams?: { [key: string]: string | string[] | undefined }
 }
 
-export default function Page({ params }: Props) {
+export default function Page({ params }: PageProps) {
   const { category } = params;
   // Support 'data' as an alias for 'data-processing'
   const normalizedCategory = category.toLowerCase() === 'data' ? 'data-processing' : category.toLowerCase();

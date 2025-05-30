@@ -15,4 +15,4 @@ model Review {
   comment   String
   toolId    String
   createdAt DateTime @default(now())
-} 
+}
