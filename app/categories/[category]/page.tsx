@@ -1,3 +1,9 @@
-export default function Page() {
-  return <div>Hello</div>;
+type Props = {
+  params: {
+    category: string;
+  };
+};
+
+export default function Page({ params }: Props) {
+  return <div>Category: {params.category}</div>;
 }
