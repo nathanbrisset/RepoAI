@@ -1,90 +1,79 @@
-import { tools, categories } from "@/lib/data"
-import ToolCard from "@/components/tool-card"
+import { categories, mockTools } from "@/lib/data"
+import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
+import Image from "next/image"
+import { Star, ExternalLink } from "lucide-react"
+import ToolCard from "@/components/tool-card"
+import BackButton from "./BackButton"
 
-// Utility to get category metadata by id
-function getCategoryById(id: string) {
-  return categories.find(cat => cat.id === id)
+// Generate static paths for all categories
+export async function generateStaticParams() {
+  return categories.map((category) => ({
+    category: category.id,
+  }))
 }
 
-type Props = {
+function capitalizeWords(str: string) {
+  return str.replace(/\b\w/g, c => c.toUpperCase());
+}
+
+interface PageProps {
   params: {
     category: string;
   };
-};
+  searchParams?: { [key: string]: string | string[] | undefined };
+}
 
-export default async function Page({ params }: Props) {
-  const categoryId = params.category
-  const category = getCategoryById(categoryId)
+export default async function Page({ params }: PageProps) {
+  const { category: categoryId } = await params;
+  const category = categories.find((c) => c.id === categoryId);
 
   if (!category) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold mb-4">Category not found</h1>
-          <Link href="/categories">
-            <Button variant="outline">Back to Categories</Button>
-          </Link>
-        </div>
+      <div className="max-w-2xl mx-auto py-16 text-center">
+        <h1 className="text-2xl font-bold mb-4">Category Not Found</h1>
+        <p className="text-gray-600 mb-6">Sorry, we couldn't find the category you're looking for.</p>
+        <Link href="/categories" className="text-purple-600 hover:text-purple-800 font-medium">← Back to All Categories</Link>
       </div>
-    )
+    );
   }
 
-  // Filter tools for this category
-  const categoryTools = tools.filter(tool =>
-    tool.categories.includes(categoryId)
-  )
+  // Get tools in this category
+  const tools = mockTools.filter(tool => tool.categories.includes(category.id));
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="container mx-auto max-w-6xl px-4 py-12">
-        {/* Back link */}
-        <div className="mb-6">
-          <Link href="/categories" className="text-gray-500 hover:text-gray-800 text-sm flex items-center mb-2">
-            <span className="mr-2">←</span> All Categories
-          </Link>
-        </div>
-
-        {/* Category header */}
-        <div className="flex items-center gap-4 mb-4">
-          <div className="w-12 h-12 rounded-lg bg-purple-100 flex items-center justify-center">
+    <div className="max-w-7xl mx-auto px-4 py-10">
+      <BackButton />
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4 gap-4">
+        <div className="flex items-center gap-3">
+          <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center">
             {category.icon}
           </div>
           <div>
-            <h1 className="text-4xl font-extrabold text-black mb-1">{category.name}</h1>
-            <p className="text-lg text-gray-600">{category.description}</p>
+            <h1 className="text-3xl font-bold">{category.name}</h1>
+            <p className="text-gray-500">{category.description}</p>
           </div>
         </div>
-
-        {/* Purple info box */}
-        <div className="bg-purple-50 border border-purple-100 rounded-xl p-6 mb-8">
-          <h2 className="text-lg font-semibold mb-2 text-purple-900">About {category.name} AI Tools</h2>
-          <p className="text-gray-700 mb-0">{category.about}</p>
+        <div className="flex items-center gap-2">
+          <Badge variant="secondary" className="text-sm">{tools.length} tools</Badge>
         </div>
+      </div>
 
-        {/* Tool count and subheading */}
-        <div className="bg-white rounded-xl p-4 mb-8 flex items-center justify-between">
-          <span className="font-semibold text-gray-900 text-lg">{categoryTools.length} tools found</span>
-          <span className="text-gray-600 text-sm">Browse all {category.name.toLowerCase()} tools</span>
-        </div>
+      <div className="bg-purple-50 border border-purple-100 rounded-xl p-6 mb-8">
+        <p className="text-purple-900">
+          <span className="font-semibold">About {category.name}:</span> {category.about}
+        </p>
+      </div>
 
-        {/* Tools Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {categoryTools.map((tool) => (
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {tools.length === 0 ? (
+          <div className="col-span-full text-center py-12 text-gray-500">
+            No tools found in this category.
+          </div>
+        ) : (
+          tools.map((tool) => (
             <ToolCard key={tool.id} tool={tool} />
-          ))}
-        </div>
-
-        {/* No Results Message */}
-        {categoryTools.length === 0 && (
-          <div className="text-center py-12">
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">No tools found</h3>
-            <p className="text-gray-600 mb-4">Try browsing all tools</p>
-            <Link href="/tools">
-              <Button variant="outline">View All Tools</Button>
-            </Link>
-          </div>
+          ))
         )}
       </div>
     </div>

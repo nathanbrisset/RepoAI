@@ -570,27 +570,6 @@ export const tools: Tool[] = [
     ]
   },
   {
-    name: "Replit Ghostwriter",
-    description: "AI-powered code completion and generation tool integrated into Replit's online IDE.",
-    url: "https://replit.com/site/ghostwriter",
-    id: "replit-ghostwriter",
-    image: "/tool-screenshots/replit-ghostwriter.png",
-    logo: "/logo/replit-ghostwriter.png",
-    categories: ["coding"],
-    subcategory: "Online IDE",
-    tags: ["AI", "code_completion", "online_IDE", "collaboration"],
-    rating: 4.6,
-    visits: 2500000,
-    dateAdded: "2023-03-10",
-    isPremium: "Premium",
-    features: [
-      "Inline Code Suggestions: Smart completions in the Replit IDE.",
-      "Code Explanation: Describes code in plain English.",
-      "Code Generation: Creates code from prompts.",
-      "Refactor & Transform: Edits or converts code based on requests."
-    ]
-  },
-  {
     name: "DeepCode (Snyk Code)",
     description: "AI-driven code review and bug detection platform for improved code quality.",
     url: "https://snyk.io/product/snyk-code",
@@ -714,27 +693,6 @@ export const tools: Tool[] = [
       "Support for Multiple Languages: Handles code generation in various programming languages.",
       "Transformer-Based Model: Utilizes advanced machine learning architectures for code synthesis.",
       "Open-Source Availability: Accessible for customization and integration into workflows."
-    ]
-  },
-  {
-    name: "Sourcery",
-    description: "AI tool that refactors Python code to improve readability and performance.",
-    url: "https://sourcery.ai",
-    id: "sourcery",
-    image: "/tool-screenshots/sourcery.png",
-    logo: "/logo/sourcery.png",
-    categories: ["coding"],
-    subcategory: "Code Refactoring",
-    tags: ["AI", "code_refactoring", "Python", "performance"],
-    rating: 4.1,
-    visits: 150000,
-    dateAdded: "2020-07-10",
-    isPremium: "Freemium",
-    features: [
-      "Code Refactoring: Simplifies and optimizes code.",
-      "Code Quality Suggestions: Flags bad practices and bugs.",
-      "Pull Request Reviews: AI feedback in GitHub PRs.",
-      "Team Collaboration: Shares refactoring tips team-wide."
     ]
   },
   {
@@ -2113,36 +2071,6 @@ export const tools: Tool[] = [
     ]
   },
   {
-    name: "Amazon CodeWhisperer",
-    description: "AI coding companion that provides code recommendations based on natural language comments.",
-    url: "https://aws.amazon.com/codewhisperer/",
-    id: "amazon-codewhisperer",
-    image: "/tool-screenshots/amazon-codewhisperer.png",
-    logo: "/logo/amazon-codewhisperer.png",
-    categories: ["coding"],
-    subcategory: "Code Generation",
-    tags: ["AI", "code_generation", "AWS", "natural_language"],
-    rating: 4.4,
-    visits: 800000,
-    dateAdded: "2022-06-22",
-    isPremium: "Freemium"
-  },
-  {
-    name: "Replit Ghostwriter",
-    description: "AI-powered code completion and generation tool integrated into Replit's online IDE.",
-    url: "https://replit.com/site/ghostwriter",
-    id: "replit-ghostwriter",
-    image: "/tool-screenshots/replit-ghostwriter.png",
-    logo: "/logo/replit-ghostwriter.png",
-    categories: ["coding"],
-    subcategory: "Online IDE",
-    tags: ["AI", "code_completion", "online_IDE", "collaboration"],
-    rating: 4.6,
-    visits: 2500000,
-    dateAdded: "2023-03-10",
-    isPremium: "Premium"
-  },
-  {
     name: "Codeium",
     description: "AI-powered code generation tool that supports multiple programming languages.",
     url: "https://codeium.com",
@@ -2183,36 +2111,6 @@ export const tools: Tool[] = [
       "Pull Request Reviews: AI feedback in GitHub PRs.",
       "Team Collaboration: Shares refactoring tips team-wide."
     ]
-  },
-  {
-    name: "DeepCode",
-    description: "AI-powered code review tool that detects bugs and security vulnerabilities.",
-    url: "https://www.deepcode.ai",
-    id: "deepcode",
-    image: "/tool-screenshots/deepcode.png",
-    logo: "/logo/deepcode.png",
-    categories: ["coding"],
-    subcategory: "Code Review",
-    tags: ["AI", "code_review", "bug_detection", "security"],
-    rating: 4.5,
-    visits: 200000,
-    dateAdded: "2019-11-05",
-    isPremium: "Freemium"
-  },
-  {
-    name: "Codiga",
-    description: "AI tool that provides code analysis and automated code reviews.",
-    url: "https://www.codiga.io",
-    id: "codiga",
-    image: "/tool-screenshots/codiga.png",
-    logo: "/logo/codiga.png",
-    categories: ["coding"],
-    subcategory: "Code Analysis",
-    tags: ["AI", "code_analysis", "code_review", "automation"],
-    rating: 4.3,
-    visits: 100000,
-    dateAdded: "2021-01-18",
-    isPremium: "Freemium"
   },
   {
     name: "Figma AI",
@@ -2704,27 +2602,6 @@ export const tools: Tool[] = [
       "Smart Code Snippets: Reusable code blocks with best practices.",
       "Security & Performance Checks: Flags unsafe or slow code.",
       "IDE/CI Integration: Works with VS Code, JetBrains, GitHub Actions, and more."
-    ]
-  },
-  {
-    name: "Amazon CodeWhisperer",
-    description: "AI coding companion that provides real-time code suggestions and security scanning.",
-    url: "https://aws.amazon.com/codewhisperer",
-    id: "amazon-codewhisperer",
-    image: "/tool-screenshots/amazon-codewhisperer.png",
-    logo: "/logo/amazon-codewhisperer.png",
-    categories: ["coding"],
-    subcategory: "code-completion",
-    tags: ["AI", "coding", "AWS", "security"],
-    rating: 4.6,
-    visits: 800000,
-    dateAdded: "2022-06-15",
-    isPremium: 'Free',
-    features: [
-      "Real-Time Code Suggestions: Context-aware completions as you type.",
-      "AWS Service Integration: Generates AWS-specific code (e.g. S3, DynamoDB).",
-      "Security Scanning: Alerts you to insecure code patterns.",
-      "Open Source Reference Tracking: Shows links when code mimics public examples."
     ]
   },
   {
