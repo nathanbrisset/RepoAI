@@ -164,6 +164,7 @@ export default function MatchResultsPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [results, setResults] = useState<MatchResult[]>([]);
+  const [intro, setIntro] = useState<string>("");
 
   useEffect(() => {
     const query = searchParams?.get('query');
@@ -190,6 +191,7 @@ export default function MatchResultsPage() {
         const data = await response.json();
         if (Array.isArray(data?.recommendations) && data.recommendations.length > 0) {
           setResults(data.recommendations);
+          setIntro(data.intro || "");
         } else {
           setError('No recommendations found');
         }
@@ -291,11 +293,22 @@ export default function MatchResultsPage() {
         </div>
 
         <div className="mb-4 mt-0">
-          <div className="bg-purple-50 border border-purple-200 rounded-lg px-6 py-4">
-            <p className="text-lg text-gray-800 leading-relaxed">
-              <span className="font-bold">You want to build a website, this is a great idea!</span> Creating a professional online presence is an exciting journey that can help you reach more people and grow your business. Whether you're starting from scratch or looking to enhance your existing site, having the right tools can make all the difference. <span className="font-semibold text-purple-700">Here are the best tools we recommend to help you in this journey:</span>
-            </p>
-          </div>
+          {intro && (
+            <div className="bg-purple-50 border border-purple-200 rounded-lg px-6 py-4">
+              <p className="text-lg text-gray-800 leading-relaxed">
+                {/* Bold the first sentence, highlight keywords */}
+                {(() => {
+                  const firstPeriod = intro.indexOf('.') !== -1 ? intro.indexOf('.') + 1 : intro.length;
+                  const firstSentence = intro.slice(0, firstPeriod);
+                  const rest = intro.slice(firstPeriod);
+                  // Highlight keywords in the rest
+                  const highlight = (text: string) =>
+                    text.replace(/\b(newsletter|AI|tools?|writing|content|design|engaging|fun|easy|professional)\b/gi, match => `<span class='font-semibold text-purple-700'>${match}</span>`);
+                  return <span><b>{firstSentence}</b>{' '}<span dangerouslySetInnerHTML={{ __html: highlight(rest) }} /></span>;
+                })()}
+              </p>
+            </div>
+          )}
         </div>
 
         <div className="flex flex-col md:flex-row gap-12 md:gap-16">

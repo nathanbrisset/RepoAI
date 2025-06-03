@@ -26,4 +26,5 @@ export interface Category {
   name: string
   description: string
   icon: React.ReactNode
+  about?: string
 }

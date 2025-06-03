@@ -11,6 +11,7 @@ import { mockTools } from "@/lib/data";
 export default function RecommendationPage() {
   const [prompt, setPrompt] = useState("");
   const [results, setResults] = useState<any[]>([]);
+  const [intro, setIntro] = useState<string>("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [submitted, setSubmitted] = useState(false);
@@ -20,6 +21,7 @@ export default function RecommendationPage() {
     setLoading(true);
     setError("");
     setResults([]);
+    setIntro("");
     setSubmitted(true);
     try {
       const res = await fetch("/api/recommend", {
@@ -31,6 +33,7 @@ export default function RecommendationPage() {
       if (data.error) throw new Error(data.error);
       if (Array.isArray(data?.recommendations) && data.recommendations.length > 0) {
         setResults(data.recommendations);
+        setIntro(data.intro || "");
       } else {
         setError("No recommendations found");
       }
@@ -112,6 +115,23 @@ export default function RecommendationPage() {
                   <h2 className="text-2xl font-bold text-gray-800 mb-2">Your Research</h2>
                   <div className="bg-white rounded-lg px-6 py-4 text-lg text-gray-700 shadow-sm border border-gray-100">{prompt}</div>
                 </div>
+                {/* Purple info box for intro */}
+                {intro && (
+                  <div className="mb-8">
+                    <div className="bg-purple-50 border border-purple-200 rounded-lg px-6 py-4">
+                      <p className="text-lg text-gray-800 leading-relaxed">
+                        {(() => {
+                          const firstPeriod = intro.indexOf('.') !== -1 ? intro.indexOf('.') + 1 : intro.length;
+                          const firstSentence = intro.slice(0, firstPeriod);
+                          const rest = intro.slice(firstPeriod);
+                          const highlight = (text: string) =>
+                            text.replace(/\b(newsletter|AI|tools?|writing|content|design|engaging|fun|easy|professional)\b/gi, match => `<span class='font-semibold text-purple-700'>${match}</span>`);
+                          return <span><b>{firstSentence}</b>{' '}<span dangerouslySetInnerHTML={{ __html: highlight(rest) }} /></span>;
+                        })()}
+                      </p>
+                    </div>
+                  </div>
+                )}
                 <div className="flex flex-col md:flex-row gap-12 md:gap-16">
                   {/* Left side - Top 3 recommendations as a clean list */}
                   <div className="md:w-1/2 flex flex-col gap-8">
@@ -150,10 +170,12 @@ export default function RecommendationPage() {
                     <h3 className="text-xl font-semibold text-gray-900 mb-4">Why {mainTool.name} is Perfect for You</h3>
                     <div className="space-y-4">
                       {/* You can add more personalized reasons here if needed */}
-                      <div className="flex items-start gap-3">
-                        <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
-                        <p className="text-gray-700">This tool is highly recommended based on your query.</p>
-                      </div>
+                      {mainTool.features?.map((feature, idx) => (
+                        <div key={idx} className="flex items-start gap-3">
+                          <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                          <p className="text-gray-700">{feature}</p>
+                        </div>
+                      ))}
                     </div>
                   </div>
                 )}

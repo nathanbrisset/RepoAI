@@ -1,10 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { mockTools } from '@/lib/data';
 
-const FALLBACK_TOOLS = mockTools.slice(0, 3).map(tool => ({
-  tool,
-  explanation: `Fallback recommendation: ${tool.name} - ${tool.description}`
-}));
+// Find top 3 copywriting tools by rating
+const copywritingTools = mockTools
+  .filter(tool => tool.tags?.includes('copywriting') || tool.subcategory?.toLowerCase().includes('copywriting'))
+  .sort((a, b) => b.rating - a.rating)
+  .slice(0, 3)
+  .map(tool => ({
+    tool,
+    explanation: tool.description
+  }));
 
 export async function POST(req: NextRequest) {
   try {
@@ -13,17 +18,25 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Missing prompt' }, { status: 400 });
     }
 
+    // If prompt is gibberish or too short, return copywriting tools
+    const isGibberish = !/\w{3,}/.test(prompt) || /[a-z]{3,}/i.test(prompt) === false;
+    if (isGibberish) {
+      return NextResponse.json({
+        recommendations: copywritingTools
+      });
+    }
+
     // Use all tools
     const tools = mockTools;
     const toolList = tools.map((tool, i) => `${i + 1}. ${tool.name}: ${tool.description} (id: ${tool.id})`).join('\n');
 
-    const systemPrompt = `You are an AI tool recommendation assistant. Here is a list of available tools:\n${toolList}\n\nGiven a user's request, recommend the 3 best tools from the list above and explain your reasoning for each. Your response MUST follow this exact format:\n\n1. Write a brief explanation for the first tool, then on a new line write \"id: \" followed by the exact tool ID from the list.\n2. Write a brief explanation for the second tool, then on a new line write \"id: \" followed by the exact tool ID from the list.\n3. Write a brief explanation for the third tool, then on a new line write \"id: \" followed by the exact tool ID from the list.\n\nFor example:\nThis tool is perfect for your needs because it specializes in exactly what you're looking for.\nid: tool-1\n\nThis tool is also a good fit because it offers additional features.\nid: tool-2\n\nThis tool is worth considering for its ease of use.\nid: tool-3\n\nRemember: The tool IDs must be from the list above.`;
+    const systemPrompt = `You are an AI tool recommendation assistant. Here is a list of available tools:\n${toolList}\n\nGiven a user's request, first write a short, friendly intro paragraph tailored to their query. Label it as 'Intro:'.\n\nThen, recommend the 3 best tools from the list above and explain your reasoning for each.\nFor both the intro and each tool explanation, write in a fun, friendly, conversational tone—like a helpful, upbeat friend.\nFor each tool, your explanation should be at least 3 sentences, engaging, and include specific examples or scenarios of how the tool could help the user.\nFor each tool, write a SEPARATE explanation, then on a new line write \"id: <tool-id>\".\nSeparate each tool's explanation/id pair with TWO newlines.\n\nFormat:\nIntro: <your intro paragraph here>\n\n<tool 1 explanation>\nid: tool-1\n\n<tool 2 explanation>\nid: tool-2\n\n<tool 3 explanation>\nid: tool-3`;
 
     // Check if OpenAI API key is configured
     if (!process.env.OPENAI_API_KEY) {
       console.warn('OpenAI API key not configured, using fallback tools');
       return NextResponse.json({
-        recommendations: FALLBACK_TOOLS,
+        recommendations: copywritingTools,
         warning: 'Using fallback recommendations due to missing API configuration'
       });
     }
@@ -57,7 +70,7 @@ export async function POST(req: NextRequest) {
         const errorText = await response.text();
         console.error("OpenAI API error:", errorText);
         return NextResponse.json({ 
-          recommendations: FALLBACK_TOOLS,
+          recommendations: copywritingTools,
           warning: 'Using fallback recommendations due to API error',
           error: errorText 
         });
@@ -68,49 +81,51 @@ export async function POST(req: NextRequest) {
       const content = data.choices[0].message.content;
       console.log('Extracted content from /api/recommend route:', content);
 
-      // Extract up to 3 tool IDs and their explanations
-      const toolBlocks = content.split(/\n\s*id:/i).map((block, idx) => {
-        if (idx === 0) return null; // skip the first split part (before first id:)
-        const lines = block.trim().split(/\n/);
-        const idLine = lines[0].trim();
-        const explanation = content.split(/\n\s*id:/i)[idx - 1]?.trim();
-        return { id: idLine, explanation };
-      }).filter(Boolean);
+      // Extract intro paragraph and tool recommendations
+      const introMatch = content.match(/Intro:\s*([\s\S]*?)(?=\n{2,}|$)/i);
+      const intro = introMatch ? introMatch[1].trim() : '';
+      // Remove the intro from content for tool parsing
+      const contentWithoutIntro = content.replace(/Intro:[\s\S]*?(\n{2,}|$)/i, '');
+      // Extract up to 3 tool IDs and their explanations using regex
+      const regex = /([\s\S]*?)\s*id:\s*([\w-]+)/gi;
+      const toolBlocks = [];
+      let match;
+      while ((match = regex.exec(contentWithoutIntro)) !== null) {
+        const explanation = match[1].trim().replace(/^[\d]+\.|^First,|^Second,|^Third,|^Next,|^Finally,|^Then,|^Also,|^Additionally,|^\s+/gi, '').replace(/\n+$/, '');
+        const id = match[2].trim();
+        toolBlocks.push({ id, explanation });
+      }
 
       // Map tool IDs to tool objects and filter out any null tools
       const recommendedTools = toolBlocks
         .map(block => {
-          // Try to find the tool by exact ID match first
           let tool = tools.find(t => t.id.toLowerCase() === block.id.toLowerCase());
-          
-          // If no exact match, try to find by name
           if (!tool) {
-            tool = tools.find(t => t.name.toLowerCase().includes(block.id.toLowerCase()) || 
-                                  block.id.toLowerCase().includes(t.name.toLowerCase()));
+            tool = tools.find(t => t.name.toLowerCase().includes(block.id.toLowerCase()) || block.id.toLowerCase().includes(t.name.toLowerCase()));
           }
-          
           if (!tool) {
             console.warn(`Tool not found for ID: ${block.id}`);
             return null;
           }
-          
           return {
             tool,
-            explanation: block.explanation || ''
+            explanation: block.explanation || tool.description || ''
           };
         })
-        .filter(Boolean); // Remove any null entries
+        .filter(Boolean);
 
       // If we have no valid tools, use fallback tools
       if (recommendedTools.length === 0) {
         console.log('No valid tools found, using fallback tools');
         return NextResponse.json({
-          recommendations: FALLBACK_TOOLS,
+          intro,
+          recommendations: copywritingTools,
           warning: 'Using fallback recommendations due to no valid tools found'
         });
       }
 
       return NextResponse.json({
+        intro,
         recommendations: recommendedTools
       });
     } catch (error) {
@@ -118,7 +133,7 @@ export async function POST(req: NextRequest) {
       if (error.name === 'AbortError') {
         console.error('Request timeout');
         return NextResponse.json({
-          recommendations: FALLBACK_TOOLS,
+          recommendations: copywritingTools,
           warning: 'Using fallback recommendations due to request timeout'
         });
       }
@@ -127,7 +142,7 @@ export async function POST(req: NextRequest) {
   } catch (err) {
     console.error('Error in /api/recommend route:', err);
     return NextResponse.json({ 
-      recommendations: FALLBACK_TOOLS,
+      recommendations: copywritingTools,
       warning: 'Using fallback recommendations due to internal error',
       error: String(err) 
     });
