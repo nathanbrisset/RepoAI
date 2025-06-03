@@ -17,14 +17,7 @@ function capitalizeWords(str: string) {
   return str.replace(/\b\w/g, c => c.toUpperCase());
 }
 
-interface PageProps {
-  params: {
-    category: string;
-  };
-  searchParams?: { [key: string]: string | string[] | undefined };
-}
-
-export default async function Page({ params }: PageProps) {
+export default async function Page({ params }: { params: Promise<{ category: string }> }) {
   const { category: categoryId } = await params;
   const category = categories.find((c) => c.id === categoryId);
 
