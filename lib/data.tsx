@@ -1171,7 +1171,13 @@ export const tools: Tool[] = [
     rating: 4.8,
     visits: 3500000,
     dateAdded: "2022-07-12",
-    isPremium: "Premium"
+    isPremium: "Premium",
+    features: [
+      "Text-to-Image Generation: Creates detailed and artistic images from natural language prompts.",
+      "Style Customization: Supports a wide range of artistic styles and visual effects.",
+      "Community Gallery: Users can explore and remix public creations.",
+      "Iterative Prompting: Refine and upscale images through multiple prompt variations."
+    ]
   },
   {
     name: "DALL·E",
@@ -1186,7 +1192,13 @@ export const tools: Tool[] = [
     rating: 4.7,
     visits: 28700,
     dateAdded: "2021-01-05",
-    isPremium: "Freemium"
+    isPremium: "Freemium",
+    features: [
+      "Text-to-Image Synthesis: Generates original images from descriptive text prompts.",
+      "Inpainting: Edits and extends existing images using AI.",
+      "Variations: Creates multiple versions of an image based on a single prompt.",
+      "Integration with ChatGPT: Accessible directly within ChatGPT for seamless creative workflows."
+    ]
   },
   {
     name: "Canva Magic Design",
@@ -3984,8 +3996,514 @@ export const tools: Tool[] = [
       "Quick editing: Instantly refine and download generated images.",
       "Ecosystem integration: Use in Freepik's design environment."
     ]
+  },
+  {
+    name: "KNIME",
+    description:
+      "KNIME is a comprehensive open-source platform designed for data analytics, reporting, and integration. It allows users to visually create data workflows, selectively execute steps, and inspect results, models, and visualizations. KNIME's modular pipelining concept makes it easy for both beginners and experts to build advanced data science solutions with minimal coding. It supports integration with machine learning and deep learning libraries, data manipulation, ETL processes, and offers a vast ecosystem of extensions for specialized analyses. KNIME is widely used in academia and industry for tasks ranging from simple data preprocessing to complex predictive modeling.",
+    url: "https://www.knime.com",
+    id: "knime",
+    image: "/tool-screenshots/knime.png",
+    logo: "/logo/knime.png",
+    categories: ["data-processing"],
+    subcategory: "Data Analytics Platform",
+    tags: ["data_mining", "workflow", "open_source"],
+    rating: 4.6,
+    visits: 1200000,
+    dateAdded: "2015-06-15",
+    isPremium: "Free",
+    features: [
+      "Drag-and-Drop Workflow: User-friendly interface for building analytics pipelines without code.",
+      "Extensive Integration: Connects with databases, cloud storage, and big data tools.",
+      "Advanced Analytics: Supports machine learning, deep learning, statistics, and text mining.",
+      "Extensible Platform: Large ecosystem of plugins and community extensions.",
+      "Strong Community: Active forums, documentation, and training resources."
+    ]
+  },
+  {
+    name: "RapidMiner",
+    description:
+      "RapidMiner is a powerful data science platform offering advanced analytics, machine learning, and predictive modeling tools. Its intuitive visual workflow designer allows users to build, train, and deploy machine learning models with little to no coding. RapidMiner supports a wide variety of data sources and provides hundreds of pre-built machine learning algorithms. Its automation and collaboration features help teams accelerate the end-to-end data science lifecycle, from data preparation through deployment. RapidMiner is suitable for both business analysts and data scientists, enabling rapid prototyping and productionization of models.",
+    url: "https://rapidminer.com",
+    id: "rapidminer",
+    image: "/tool-screenshots/rapidminer.png",
+    logo: "/logo/rapidminer.png",
+    categories: ["data-processing"],
+    subcategory: "Data Science Platform",
+    tags: ["machine_learning", "data_prep", "predictive_analytics"],
+    rating: 4.5,
+    visits: 700000,
+    dateAdded: "2006-07-01",
+    isPremium: "Freemium",
+    features: [
+      "Visual Workflow Designer: Drag-and-drop interface for building end-to-end data processes.",
+      "Automated Machine Learning: AutoML to automatically select and tune models.",
+      "Extensive Model Library: Hundreds of built-in algorithms for classification, regression, and clustering.",
+      "Integrated Data Prep: Tools for cleaning, transforming, and enriching data.",
+      "Collaboration and Sharing: Team features for project management and sharing results."
+    ]
+  },
+  {
+    name: "Apache Spark",
+    description:
+      "Apache Spark is a unified analytics engine for large-scale data processing, known for its speed and scalability. Spark provides a fast in-memory data processing framework that supports batch and real-time analytics, machine learning, graph processing, and SQL queries. With APIs in Python, Java, Scala, and R, Spark is used for ETL, interactive queries, streaming, and advanced analytics on both structured and unstructured data. Its robust architecture and integration with Hadoop and cloud platforms make it a go-to choice for big data applications in enterprise and research settings.",
+    url: "https://spark.apache.org",
+    id: "apache_spark",
+    image: "/tool-screenshots/apache_spark.png",
+    logo: "/logo/apache_spark.png",
+    categories: ["data-processing"],
+    subcategory: "Big Data Analytics",
+    tags: ["big_data", "distributed", "analytics"],
+    rating: 4.7,
+    visits: 2500000,
+    dateAdded: "2014-05-30",
+    isPremium: "Free",
+    features: [
+      "Distributed Computing: Processes massive datasets across clusters for scalability.",
+      "Multi-Language Support: APIs for Python, Java, Scala, and R.",
+      "In-Memory Processing: High-performance computations by keeping data in memory.",
+      "Stream and Batch Processing: Unified engine for real-time and historical data.",
+      "Integrated Machine Learning: Built-in MLlib for scalable machine learning algorithms."
+    ]
+  },
+  {
+    name: "Weka",
+    description:
+      "Weka is a popular open-source collection of machine learning algorithms for data mining tasks, developed at the University of Waikato. Weka features a graphical user interface for easy access to powerful data preprocessing, modeling, and visualization tools. It includes a comprehensive suite of algorithms for classification, regression, clustering, and feature selection. Weka is widely used in education and research for teaching, prototyping, and experimenting with machine learning techniques on structured datasets.",
+    url: "https://www.cs.waikato.ac.nz/ml/weka/",
+    id: "weka",
+    image: "/tool-screenshots/weka.png",
+    logo: "/logo/weka.png",
+    categories: ["data-processing"],
+    subcategory: "Machine Learning Suite",
+    tags: ["machine_learning", "data_mining", "open_source"],
+    rating: 4.3,
+    visits: 350000,
+    dateAdded: "2000-07-01",
+    isPremium: "Free",
+    features: [
+      "Comprehensive Algorithms: Wide range of classification, regression, and clustering methods.",
+      "Interactive Visualization: Tools for exploring and understanding datasets.",
+      "Preprocessing Utilities: Support for data cleaning, filtering, and transformation.",
+      "Extensible Framework: Plugin support for adding new methods and integrations.",
+      "User-Friendly Interface: Intuitive GUI for non-programmers and rapid prototyping."
+    ]
+  },
+  {
+    name: "Kaggle Kernels",
+    description:
+      "Kaggle Kernels is a cloud-based code environment that enables data scientists and analysts to write, run, and share code in Python and R directly in the browser. It provides free access to GPUs and TPUs, seamless integration with Kaggle datasets and competitions, and version control for collaborative projects. With an active community and built-in sharing features, Kaggle Kernels accelerates the prototyping, experimentation, and sharing of data science and machine learning projects.",
+    url: "https://www.kaggle.com/code",
+    id: "kaggle_kernels",
+    image: "/tool-screenshots/kaggle_kernels.png",
+    logo: "/logo/kaggle_kernels.png",
+    categories: ["data-processing"],
+    subcategory: "Cloud Notebooks",
+    tags: ["notebook", "data_science", "collaboration"],
+    rating: 4.6,
+    visits: 8000000,
+    dateAdded: "2016-09-01",
+    isPremium: "Free",
+    features: [
+      "Free GPU/TPU Access: Run computationally intensive code at no cost.",
+      "Seamless Dataset Access: Direct integration with Kaggle datasets and competitions.",
+      "Version Control: Automatically save and track changes in notebooks.",
+      "Real-Time Collaboration: Share and work on code together with others.",
+      "Multiple Language Support: Native support for Python and R scripts."
+    ]
+  },
+  {
+    name: "Amazon SageMaker Neo",
+    description:
+      "Amazon SageMaker Neo is a model optimization and deployment platform that enables developers to train machine learning models once and deploy them anywhere. Neo automatically optimizes models for multiple hardware platforms, including cloud instances and edge devices, to maximize performance and minimize latency. It integrates seamlessly with the AWS SageMaker ecosystem and supports popular frameworks such as TensorFlow, MXNet, and PyTorch. SageMaker Neo empowers organizations to quickly roll out efficient ML solutions across diverse environments.",
+    url: "https://aws.amazon.com/sagemaker/neo/",
+    id: "sagemaker_neo",
+    image: "/tool-screenshots/sagemaker_neo.png",
+    logo: "/logo/sagemaker_neo.png",
+    categories: ["data-processing"],
+    subcategory: "Model Optimization",
+    tags: ["aws", "model_optimization", "deployment"],
+    rating: 4.2,
+    visits: 120000,
+    dateAdded: "2018-11-28",
+    isPremium: "Premium",
+    features: [
+      "Multi-Framework Compatibility: Supports TensorFlow, PyTorch, MXNet, and more.",
+      "Cross-Platform Deployment: Optimizes models for cloud and edge hardware.",
+      "Accelerated Inference: Reduces latency and improves throughput on optimized hardware.",
+      "Seamless AWS Integration: Directly connects with the SageMaker ecosystem.",
+      "Automatic Model Compilation: Converts models automatically for target devices."
+    ]
+  },
+  {
+    name: "IBM Watson Studio",
+    description:
+      "IBM Watson Studio is a robust cloud-based environment that enables data scientists, analysts, and developers to collaboratively work on data science and AI projects. The platform provides tools for data preparation, visualization, automated machine learning (AutoAI), and model deployment. With strong integration to IBM Cloud services and support for open-source technologies, Watson Studio helps teams accelerate the entire data science lifecycle, from exploration to production, while ensuring enterprise-grade security and scalability.",
+    url: "https://www.ibm.com/cloud/watson-studio",
+    id: "watson_studio",
+    image: "/tool-screenshots/watson_studio.png",
+    logo: "/logo/watson_studio.png",
+    categories: ["data-processing"],
+    subcategory: "Data Science Platform",
+    tags: ["cloud", "data_science", "collaboration"],
+    rating: 4.4,
+    visits: 450000,
+    dateAdded: "2017-02-01",
+    isPremium: "Freemium",
+    features: [
+      "Collaborative Workspace: Enables team-based data science projects.",
+      "AutoAI: Automated model building, selection, and optimization.",
+      "Interactive Visualization: Dashboards and visual tools for data exploration.",
+      "Open Source Integration: Supports Jupyter, RStudio, and other tools.",
+      "Easy Model Deployment: Streamlined deployment and monitoring of models."
+    ]
+  },
+  {
+    name: "Orange3",
+    description:
+      "Orange3 is an open-source data visualization and analysis toolbox for both novice and expert users. Its visual programming interface lets users build workflows for data preprocessing, machine learning, and visualization by connecting widgets. Orange3 is extensible with add-ons for text mining, bioinformatics, and more, making it a versatile choice for education, rapid prototyping, and exploratory data analysis. The platform is supported by a vibrant community and extensive documentation.",
+    url: "https://orange.biolab.si",
+    id: "orange3",
+    image: "/tool-screenshots/orange3.png",
+    logo: "/logo/orange3.png",
+    categories: ["data-processing"],
+    subcategory: "Data Visualization & Analysis",
+    tags: ["visualization", "data_analysis", "open_source"],
+    rating: 4.3,
+    visits: 260000,
+    dateAdded: "2013-06-01",
+    isPremium: "Free",
+    features: [
+      "Visual Programming: Build analysis workflows with drag-and-drop widgets.",
+      "Interactive Data Exploration: Real-time visualizations and interactive reports.",
+      "Add-On Ecosystem: Extensions for text mining, bioinformatics, and more.",
+      "Educational Focus: Designed for teaching and rapid prototyping.",
+      "Integrated Machine Learning: Wide range of built-in ML algorithms."
+    ]
+  },
+  {
+    name: "DataRobot",
+    description:
+      "DataRobot is an enterprise-grade AI platform that automates and streamlines the process of building, deploying, and maintaining machine learning models. It empowers data scientists and business analysts to quickly create accurate predictive models with automated feature engineering, model selection, and hyperparameter tuning. DataRobot offers explainable AI, model monitoring, and integration with major cloud platforms. Its collaborative features and enterprise security make it a trusted choice for mission-critical applications.",
+    url: "https://www.datarobot.com",
+    id: "datarobot",
+    image: "/tool-screenshots/datarobot.png",
+    logo: "/logo/datarobot.png",
+    categories: ["data-processing"],
+    subcategory: "Automated Machine Learning",
+    tags: ["automl", "enterprise", "machine_learning"],
+    rating: 4.5,
+    visits: 190000,
+    dateAdded: "2012-12-01",
+    isPremium: "Premium",
+    features: [
+      "Automated Machine Learning: End-to-end automation of model development.",
+      "Model Deployment: One-click deployment and model management.",
+      "Explainable AI: Built-in tools for model interpretability.",
+      "Collaboration: Team-based projects and sharing capabilities.",
+      "Data Source Integration: Connects to databases, cloud, and on-premises sources."
+    ]
+  },
+  {
+    name: "Alteryx",
+    description:
+      "Alteryx is a powerful platform designed for data blending, advanced analytics, and data science. With its intuitive drag-and-drop interface, users can easily prepare, blend, and analyze data from multiple sources. Alteryx offers a wide range of predictive, statistical, and spatial analytics capabilities. Its automation features reduce manual work and accelerate time-to-insight, making Alteryx a favorite among business analysts and data professionals for building repeatable workflows at scale.",
+    url: "https://www.alteryx.com",
+    id: "alteryx",
+    image: "/tool-screenshots/alteryx.png",
+    logo: "/logo/alteryx.png",
+    categories: ["data-processing"],
+    subcategory: "Data Analytics & ETL",
+    tags: ["analytics", "etl", "data_prep"],
+    rating: 4.4,
+    visits: 420000,
+    dateAdded: "2010-01-01",
+    isPremium: "Premium",
+    features: [
+      "Visual Workflow Builder: Drag-and-drop interface for building analytic pipelines.",
+      "Data Preparation: Cleans, transforms, and blends data from multiple sources.",
+      "Predictive Analytics: Built-in tools for forecasting and classification.",
+      "Scalability: Efficiently handles large-scale data workflows.",
+      "Collaboration: Enables sharing and reuse of workflows across teams."
+    ]
+  },
+  {
+    name: "Qlik",
+    description:
+      "Qlik is a leading business intelligence and data analytics platform that empowers organizations to explore and analyze data interactively. Qlik's associative engine enables users to discover insights through dynamic dashboards, reports, and visualizations. Qlik supports data integration from diverse sources, embedded AI for advanced analytics, and collaborative features for sharing findings. It is trusted by enterprises worldwide for self-service analytics, guided analytics, and embedded BI solutions.",
+    url: "https://www.qlik.com",
+    id: "qlik",
+    image: "/tool-screenshots/qlik.png",
+    logo: "/logo/qlik.png",
+    categories: ["data-processing"],
+    subcategory: "Business Intelligence",
+    tags: ["business_intelligence", "dashboards", "analytics"],
+    rating: 4.3,
+    visits: 900000,
+    dateAdded: "2012-03-01",
+    isPremium: "Premium",
+    features: [
+      "Associative Analytics Engine: Enables dynamic data exploration and discovery.",
+      "Interactive Dashboards: Real-time insights and customizable reports.",
+      "Data Integration: Connects to a wide variety of data sources.",
+      "Built-In AI: Features for predictive analytics and insights.",
+      "Collaboration: Tools for sharing and storytelling with analytics."
+    ]
+  },
+  {
+    name: "Zoho Analytics",
+    description:
+      "Zoho Analytics is a cloud-based business intelligence and analytics platform that makes it easy to visualize data, build insightful reports, and share dashboards. It offers a no-code interface, AI-powered insights via Zia, and the ability to blend data from hundreds of sources. Zoho Analytics supports team collaboration, scheduled reporting, and data security, making it suitable for businesses of all sizes seeking actionable data insights.",
+    url: "https://www.zoho.com/analytics/",
+    id: "zoho_analytics",
+    image: "/tool-screenshots/zoho_analytics.png",
+    logo: "/logo/zoho_analytics.png",
+    categories: ["data-processing"],
+    subcategory: "Business Intelligence",
+    tags: ["bi", "analytics", "cloud"],
+    rating: 4.2,
+    visits: 650000,
+    dateAdded: "2015-10-01",
+    isPremium: "Freemium",
+    features: [
+      "Self-Service Analytics: Create reports and dashboards without coding.",
+      "Data Blending: Merge and analyze data from multiple sources.",
+      "AI Insights: Zia provides automated insights and anomaly detection.",
+      "Collaboration: Share reports and dashboards with your team.",
+      "Broad Integrations: Connects to over 500 data sources and apps."
+    ]
+  },
+  {
+    name: "ThoughtSpot",
+    description:
+      "ThoughtSpot is an AI-powered analytics platform that enables users to search and analyze business data using natural language queries. It offers real-time, search-driven analytics on cloud or on-prem data, empowering business users to uncover actionable insights without relying on technical experts. With built-in AI for automated insights and recommendations, ThoughtSpot transforms the way organizations approach business intelligence and decision-making.",
+    url: "https://www.thoughtspot.com",
+    id: "thoughtspot",
+    image: "/tool-screenshots/thoughtspot.png",
+    logo: "/logo/thoughtspot.png",
+    categories: ["data-processing"],
+    subcategory: "Search-Driven Analytics",
+    tags: ["search_analytics", "bi", "cloud"],
+    rating: 4.2,
+    visits: 320000,
+    dateAdded: "2012-11-01",
+    isPremium: "Premium",
+    features: [
+      "Search-Driven Analytics: Query data using simple, natural language.",
+      "AI Insights: Automatically surfaces trends, anomalies, and recommendations.",
+      "Real-Time Analysis: Live queries on cloud and on-premises data.",
+      "Integration Flexibility: Connects to cloud, warehouse, and local data.",
+      "Collaboration: Share insights and dashboards with colleagues."
+    ]
+  },
+  {
+    name: "Google Cloud AutoML",
+    description:
+      "Google Cloud AutoML is a suite of products that enables developers with limited machine learning expertise to train high-quality models tailored to their needs. With a simple graphical interface, users can label data, train models, and deploy them on Google Cloud. AutoML supports a variety of data types, including images, text, and tabular data, and leverages Google's state-of-the-art transfer learning and neural architecture search technologies for optimal results.",
+    url: "https://cloud.google.com/automl",
+    id: "google_cloud_automl",
+    image: "/tool-screenshots/google_cloud_automl.png",
+    logo: "/logo/google_cloud_automl.png",
+    categories: ["data-processing"],
+    subcategory: "Automated Machine Learning",
+    tags: ["automl", "cloud", "google"],
+    rating: 4.3,
+    visits: 380000,
+    dateAdded: "2018-01-17",
+    isPremium: "Premium",
+    features: [
+      "Automated Model Training: Build and tune machine learning models with minimal effort.",
+      "Support for Multiple Data Types: Image, text, and tabular data.",
+      "Easy Deployment: Deploy models to Google Cloud with a few clicks.",
+      "Integrated Data Labeling: Built-in tools for annotating datasets.",
+      "Scalable Infrastructure: Handles enterprise workloads and large datasets."
+    ]
+  },
+  {
+    name: "H2O.ai",
+    description:
+      "H2O.ai is an open-source AI platform that delivers advanced machine learning and deep learning capabilities for data scientists and business analysts. It features a scalable architecture, AutoML, and support for distributed computing. H2O.ai offers integration with popular programming languages and supports model interpretability, making it a trusted solution for organizations seeking to accelerate AI adoption.",
+    url: "https://www.h2o.ai",
+    id: "h2o_ai",
+    image: "/tool-screenshots/h2o_ai.png",
+    logo: "/logo/h2o_ai.png",
+    categories: ["data-processing"],
+    subcategory: "Machine Learning Platform",
+    tags: ["machine_learning", "open_source", "automl"],
+    rating: 4.5,
+    visits: 510000,
+    dateAdded: "2014-09-01",
+    isPremium: "Freemium",
+    features: [
+      "Open-Source Machine Learning: Free, extensible, and community-driven platform.",
+      "AutoML: Automated pipelines for model selection and tuning.",
+      "Distributed Processing: Scalable solutions for big data environments.",
+      "Multi-Language Support: Integrates with Python, R, and Java.",
+      "Model Interpretability: Built-in tools for explaining model predictions."
+    ]
+  },
+  {
+    name: "MindsDB",
+    description:
+      "MindsDB is an open-source platform that brings advanced machine learning capabilities directly inside databases. It enables users to create, train, and deploy predictive models using simple SQL queries, without moving data out of the database. MindsDB supports a range of data types and integrates with popular databases and BI tools, simplifying the machine learning workflow for data engineers and analysts.",
+    url: "https://mindsdb.com",
+    id: "mindsdb",
+    image: "/tool-screenshots/mindsdb.png",
+    logo: "/logo/mindsdb.png",
+    categories: ["data-processing"],
+    subcategory: "In-Database Machine Learning",
+    tags: ["automl", "database", "open_source"],
+    rating: 4.1,
+    visits: 110000,
+    dateAdded: "2017-09-01",
+    isPremium: "Freemium",
+    features: [
+      "In-Database ML: Train and deploy models within your existing database.",
+      "Open Source: Free to use with commercial support options.",
+      "Automated Machine Learning: Simplifies ML workflows for SQL users.",
+      "Supports Multiple Data Types: Structured and unstructured data.",
+      "Extensible: Custom algorithms and integrations available."
+    ]
+  },
+  {
+    name: "Apache NiFi",
+    description:
+      "Apache NiFi is an open-source tool for automating the flow of data between software systems. With a web-based interface, users can build complex data pipelines for ingestion, transformation, and delivery across a wide range of systems. NiFi is designed for scalability, security, and extensibility, making it ideal for real-time analytics, ETL, and IoT data flows in both enterprise and research environments.",
+    url: "https://nifi.apache.org",
+    id: "apache_nifi",
+    image: "/tool-screenshots/apache_nifi.png",
+    logo: "/logo/apache_nifi.png",
+    categories: ["data-processing"],
+    subcategory: "Data Integration & ETL",
+    tags: ["data_integration", "etl", "open_source"],
+    rating: 4.2,
+    visits: 130000,
+    dateAdded: "2015-07-01",
+    isPremium: "Free",
+    features: [
+      "Visual Flow-Based Programming: Drag-and-drop interface for building data flows.",
+      "Real-Time Processing: Handles streaming and batch data.",
+      "Extensible Processor Library: Wide range of built-in and custom processors.",
+      "Security Features: Data encryption, access control, and audit logs.",
+      "Scalable Architecture: Designed for both small and enterprise-scale deployments."
+    ]
+  },
+  {
+    name: "Deepnote",
+    description:
+      "Deepnote is a collaborative notebook platform built for data science and analytics teams. It combines the flexibility of Jupyter notebooks with real-time collaboration, cloud execution, and integrations with popular data sources. Deepnote enables teams to explore data, build models, and create interactive reports together, making it ideal for both rapid prototyping and production analytics workflows.",
+    url: "https://deepnote.com",
+    id: "deepnote",
+    image: "/tool-screenshots/deepnote.png",
+    logo: "/logo/deepnote.png",
+    categories: ["data-processing"],
+    subcategory: "Collaborative Notebooks",
+    tags: ["notebook", "collaboration", "cloud"],
+    rating: 4.4,
+    visits: 100000,
+    dateAdded: "2019-06-01",
+    isPremium: "Freemium",
+    features: [
+      "Real-Time Collaboration: Multiple users can edit and run code simultaneously.",
+      "Cloud-Based Execution: No local setup or infrastructure required.",
+      "Integrations: Connect to databases, cloud storage, and other tools.",
+      "Version Control: Track changes and experiment with branching.",
+      "Interactive Visualizations: Built-in support for data plots and dashboards."
+    ]
+  },
+  {
+    name: "Nanonets",
+    description:
+      "Nanonets is an AI platform focused on automating document workflows and extracting data from unstructured files such as invoices, receipts, and IDs. Using deep learning, Nanonets can be trained on custom documents and integrated into business processes via API. The platform continuously learns from user feedback, offers multi-language support, and enables organizations to build intelligent document processing solutions at scale.",
+    url: "https://nanonets.com",
+    id: "nanonets",
+    image: "/tool-screenshots/nanonets.png",
+    logo: "/logo/nanonets.png",
+    categories: ["data-processing"],
+    subcategory: "Document AI",
+    tags: ["document_ai", "automation", "data_extraction"],
+    rating: 4.3,
+    visits: 80000,
+    dateAdded: "2017-04-01",
+    isPremium: "Freemium",
+    features: [
+      "Automated Data Extraction: Extracts fields from documents and images.",
+      "Custom Workflows: Train models on your own documents.",
+      "API Integration: Easily integrate with existing business systems.",
+      "Multi-Language Support: Processes documents in various languages.",
+      "Continuous Learning: Improves accuracy through feedback."
+    ]
+  },
+  {
+    name: "Pulse",
+    description:
+      "Pulse is a data analytics platform designed for monitoring business performance, tracking key metrics, and visualizing KPIs. With customizable dashboards, real-time alerts, and integration capabilities, Pulse helps organizations stay on top of their data and make data-driven decisions. It is particularly useful for executives and managers who need at-a-glance insights into business operations.",
+    url: "https://www.pulsedata.io",
+    id: "pulse",
+    image: "/tool-screenshots/pulse.png",
+    logo: "/logo/pulse.png",
+    categories: ["data-processing"],
+    subcategory: "Business Analytics",
+    tags: ["analytics", "kpi", "data_monitoring"],
+    rating: 4.0,
+    visits: 50000,
+    dateAdded: "2019-02-01",
+    isPremium: "Premium",
+    features: [
+      "KPI Tracking: Monitors business metrics in real time.",
+      "Custom Dashboards: Build visualizations for specific teams or goals.",
+      "Alerting: Notifies users of anomalies or performance thresholds.",
+      "Integrates with Data Sources: Connects to databases and business tools.",
+      "Data Visualization: Offers a variety of charts and graphs for deep insights."
+    ]
+  },
+  {
+    name: "Perplexity Labs",
+    description:
+      "Perplexity Labs is a platform that enables users to build, deploy, and manage AI-powered applications without extensive coding. It offers a no-code builder, model hosting, and analytics tools to track app performance. With easy API integrations and user management features, Perplexity Labs empowers organizations to quickly prototype and launch AI solutions tailored to their business needs.",
+    url: "https://labs.perplexity.ai",
+    id: "perplexity_labs",
+    image: "/tool-screenshots/perplexity_labs.png",
+    logo: "/logo/perplexity_labs.png",
+    categories: ["data-processing"],
+    subcategory: "AI Application Builder",
+    tags: ["ai_app", "no_code", "deployment"],
+    rating: 4.1,
+    visits: 70000,
+    dateAdded: "2023-01-01",
+    isPremium: "Freemium",
+    features: [
+      "No-Code Builder: Create AI applications with a simple drag-and-drop editor.",
+      "Model Hosting: Deploy and manage custom AI models.",
+      "API Integrations: Connect with external data and services.",
+      "User Management: Built-in authentication and access control.",
+      "Analytics Dashboard: Monitor the usage and performance of your AI apps."
+    ]
+  },
+  {
+    name: "Numerous.ai",
+    description:
+      "Numerous.ai is an AI-powered automation tool designed to enhance spreadsheet productivity. It enables users to automate repetitive tasks, enrich data with external sources, and leverage AI formulas directly in Google Sheets or Excel. Numerous.ai offers real-time collaboration and supports bulk data processing, making it a valuable asset for analysts and teams working with large datasets.",
+    url: "https://numerous.ai",
+    id: "numerous_ai",
+    image: "/tool-screenshots/numerous_ai.png",
+    logo: "/logo/numerous_ai.png",
+    categories: ["data-processing"],
+    subcategory: "Spreadsheet Automation",
+    tags: ["spreadsheet", "automation", "data_enrichment"],
+    rating: 4.0,
+    visits: 60000,
+    dateAdded: "2022-03-01",
+    isPremium: "Freemium",
+    features: [
+      "AI Formulas: Automate complex calculations and tasks.",
+      "Data Enrichment: Import and update data from external sources.",
+      "Seamless Integration: Works natively with Google Sheets and Excel.",
+      "Bulk Processing: Handles large-scale spreadsheet operations.",
+      "Real-Time Collaboration: Share and edit spreadsheets with your team."
+    ]
   }
-]
+];
 
 export const mockTools = tools; 
 
