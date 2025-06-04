@@ -108,7 +108,7 @@ export const tools: Tool[] = [
     ]
   },
   {
-    name: "Conversion.ai (Jasper AI)",
+    name: "Conversion.ai",
     description: "AI marketing & sales copy generation platform.",
     url: "https://www.conversion.ai",
     id: "conversion-ai",
@@ -844,7 +844,7 @@ export const tools: Tool[] = [
   },
   {
     name: "ElevenLabs",
-    description: "Advanced AI voice cloning and synthesis platform supporting multiple languages and dubbing capabilities.",
+    description: "An AI voice synthesis platform known for its high-quality, lifelike voice generation, supporting multiple languages and accents.",
     url: "https://elevenlabs.io",
     id: "elevenlabs",
     image: "/tool-screenshots/elevenlabs.png",
@@ -865,7 +865,7 @@ export const tools: Tool[] = [
   },
   {
     name: "Murf.ai",
-    description: "Professional AI voiceover platform for creating lifelike voices and presentations.",
+    description: "Provides AI-generated voiceovers with realistic voices and features like grammar assistance and voice editors, suitable for various applications.",
     url: "https://murf.ai",
     id: "murf-ai",
     image: "/tool-screenshots/murf-ai.png",
@@ -886,7 +886,7 @@ export const tools: Tool[] = [
   },
   {
     name: "Lovo",
-    description: "AI-powered voice editing and narration platform for content creation.",
+    description: "An AI voiceover platform offering a wide range of voices and languages, designed for content creators and businesses.",
     url: "https://lovo.ai",
     id: "lovo",
     image: "/tool-screenshots/lovo.png",
@@ -907,7 +907,7 @@ export const tools: Tool[] = [
   },
   {
     name: "Voice.ai",
-    description: "Real-time AI voice changer for streaming and content creation.",
+    description: "A voice cloning tool that allows users to transform their voice into various characters or styles in real-time.",
     url: "https://voice.ai",
     id: "voice-ai",
     image: "/tool-screenshots/voice-ai.png",
@@ -928,7 +928,7 @@ export const tools: Tool[] = [
   },
   {
     name: "Uberduck",
-    description: "AI platform for creating custom voiceovers and music synthesis.",
+    description: "An AI voice platform that enables users to create custom voiceovers and songs using a variety of AI-generated voices.",
     url: "https://uberduck.ai",
     id: "uberduck",
     image: "/tool-screenshots/uberduck.png",
@@ -949,7 +949,7 @@ export const tools: Tool[] = [
   },
   {
     name: "Descript",
-    description: "All-in-one audio and video editing platform with AI-powered transcription and editing capabilities.",
+    description: "An all-in-one audio and video editing tool that includes features like transcription, screen recording, and multitrack editing.",
     url: "https://descript.com",
     id: "descript",
     image: "/tool-screenshots/descript.png",
@@ -971,7 +971,7 @@ export const tools: Tool[] = [
   },
   {
     name: "Adobe Podcast Enhance",
-    description: "AI-powered audio enhancement tool for removing noise and improving speech clarity.",
+    description: "An AI-powered tool by Adobe that enhances podcast audio by removing background noise and improving sound quality.",
     url: "https://podcast.adobe.com",
     id: "adobe-podcast-enhance",
     image: "/tool-screenshots/adobe-podcast-enhance.png",
@@ -992,7 +992,7 @@ export const tools: Tool[] = [
   },
   {
     name: "Krisp",
-    description: "Real-time AI noise cancellation for meetings and live calls.",
+    description: "An AI noise cancellation app that removes background noise and echo during calls, enhancing communication clarity.",
     url: "https://krisp.ai",
     id: "krisp",
     image: "/tool-screenshots/krisp.png",
@@ -1013,7 +1013,7 @@ export const tools: Tool[] = [
   },
   {
     name: "Auphonic",
-    description: "Automated audio post-production and leveling tool.",
+    description: "An audio post-production web service that uses AI to balance levels, equalize speech, and reduce noise for podcasts and videos.",
     url: "https://auphonic.com",
     id: "auphonic",
     image: "/tool-screenshots/auphonic.png",
@@ -1034,7 +1034,7 @@ export const tools: Tool[] = [
   },
   {
     name: "Izotope Cascadia",
-    description: "Professional AI-powered sound design and audio effects tool.",
+    description: "A suite of AI-powered audio tools designed for music production, mixing, and mastering, offering advanced sound processing capabilities.",
     url: "https://izotope.com/cascadia",
     id: "izotope-cascadia",
     image: "/tool-screenshots/izotope-cascadia.png",
@@ -1399,27 +1399,6 @@ export const tools: Tool[] = [
     ]
   },
   {
-    name: "Jasper AI",
-    description: "AI copywriter optimized for marketing, branding, and team collaboration.",
-    url: "https://www.jasper.ai",
-    id: "jasper-ai",
-    image: "/tool-screenshots/jasper.png",
-    logo: "/logo/jasper.png",
-    categories: ["text"],
-    subcategory: "Marketing Copy & Brand Voice",
-    tags: ["copywriting", "marketing", "branding", "ads", "content_team"],
-    rating: 4.5,
-    visits: 1200000,
-    dateAdded: "2021-05-10",
-    isPremium: "Premium",
-    features: [
-      "AI Templates: 90+ tools for blog posts, ads, emails, and more.",
-      "Brand Voice: Trains AI to write in your brand's tone.",
-      "Performance Insights: Tracks content effectiveness.",
-      "Team Collaboration: Manage multi-user workflows in one place."
-    ]
-  },
-  {
     name: "Copy.ai",
     description: "Fast content generation for sales emails, ads, and product descriptions.",
     url: "https://www.copy.ai",
@@ -1631,7 +1610,7 @@ export const tools: Tool[] = [
   },
   {
     name: "Descript",
-    description: "All-in-one video & audio editor with AI transcription and overdubbing.",
+    description: "An all-in-one video & audio editor with AI transcription and overdubbing.",
     url: "https://www.descript.com",
     id: "descript",
     image: "/tool-screenshots/descript.png",
@@ -2459,11 +2438,11 @@ export const tools: Tool[] = [
   },
   {
     name: "Otter.ai",
-    description: "AI-powered meeting transcription and note-taking platform.",
+    description: "Provides real-time transcription services with collaborative features, suitable for meetings and lectures.",
     url: "https://otter.ai",
-    id: "otter-ai",
-    image: "/tool-screenshots/otter-ai.png",
-    logo: "/logo/otter-ai.png",
+    id: "otter",
+    image: "/tool-screenshots/otter.png",
+    logo: "/logo/otter.png",
     categories: ["productivity"],
     subcategory: "meetings",
     tags: ["AI", "transcription", "meetings"],
@@ -2539,48 +2518,6 @@ export const tools: Tool[] = [
       "Enhanced Creative Control: Provides users with unprecedented control over their creative projects.",
       "Integration with Adobe Suite: Seamlessly integrates with tools like Photoshop and Adobe Express.",
       "Collaborative Features: Introduces Firefly Boards for real-time team collaboration and AI-assisted image remixing."
-    ]
-  },
-  {
-    name: "Jasper",
-    description: "AI-powered marketing and business writing tool.",
-    url: "https://www.jasper.ai",
-    id: "jasper",
-    image: "/tool-screenshots/jasper.png",
-    logo: "/logo/jasper.png",
-    categories: ["marketing", "text"],
-    subcategory: "Content Generation",
-    tags: ["AI", "content", "marketing", "writing"],
-    rating: 4.5,
-    visits: 5000000,
-    dateAdded: "2021-06-15",
-    isPremium: "Premium",
-    features: [
-      "AI Marketing Apps: Offers over 90 AI-powered apps tailored for various marketing functions.",
-      "Brand Voice Customization: Ensures content aligns with a brand's unique voice and style.",
-      "Performance Analytics: Provides insights into content performance and ROI.",
-      "Campaign Acceleration: Streamlines the content creation process to speed up marketing campaigns."
-    ]
-  },
-  {
-    name: "Podcastle",
-    description: "All-in-one podcasting platform with AI voice cloning and editing features.",
-    url: "https://podcastle.ai",
-    id: "podcastle",
-    image: "/tool-screenshots/podcastle.png",
-    logo: "/logo/podcastle.png",
-    categories: ["audio"],
-    subcategory: "transcription",
-    tags: ["AI", "podcasting", "voice cloning", "editing"],
-    rating: 4.6,
-    visits: 1000000,
-    dateAdded: "2023-03-01",
-    isPremium: 'Free',
-    features: [
-      "AI-Powered Audio Editing: Automatically removes background noise and enhances audio quality.",
-      "Text-to-Speech Conversion: Transforms written content into natural-sounding speech.",
-      "Multitrack Recording: Supports recording of separate audio and video tracks for each participant.",
-      "Dynamic Speaker Feature: Intelligently switches focus between speakers in video recordings."
     ]
   },
   {
@@ -2668,27 +2605,6 @@ export const tools: Tool[] = [
     ]
   },
   {
-    name: "Jasper AI",
-    description: "AI marketing platform for content creation and campaign management.",
-    url: "https://www.jasper.ai",
-    id: "jasper-ai",
-    image: "/tool-screenshots/jasper-ai.png",
-    logo: "/logo/jasper-ai.png",
-    categories: ["marketing"],
-    subcategory: "content-generation",
-    tags: ["AI", "marketing", "content", "automation"],
-    rating: 4.7,
-    visits: 1200000,
-    dateAdded: "2021-06-15",
-    isPremium: 'Free',
-    features: [
-      "AI Templates: Tools for blog posts, emails, ads, and more.",
-      "Brand Voice Learning: Trains AI to mimic your tone/style.",
-      "Campaign Planning: Maps content across marketing channels.",
-      "Collaboration Tools: Multi-user access with roles and permissions."
-    ]
-  },
-  {
     name: "Surfer SEO",
     description: "AI-powered SEO tool for content optimization and keyword research.",
     url: "https://surferseo.com",
@@ -2749,6 +2665,600 @@ export const tools: Tool[] = [
       "Data Insights: Generates charts and formulas in Excel from natural language.",
       "Meeting Recaps: Summarizes Teams meetings and assigns tasks.",
       "Contextual Assistance: Suggests next steps in Office tools based on activity."
+    ]
+  },
+  {
+    name: "Resemble AI",
+    description: "A voice cloning platform that enables users to create realistic synthetic voices with minimal data, supporting both text-to-speech and speech-to-speech transformations.",
+    url: "https://www.resemble.ai",
+    id: "resemble",
+    image: "/tool-screenshots/resemble.png",
+    logo: "/logo/resemble.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Resemble AI supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Speechify",
+    description: "A versatile text-to-speech application that converts written content into natural-sounding audio, featuring over 200 voices across 60+ languages.",
+    url: "https://www.speechify.com",
+    id: "speechify",
+    image: "/tool-screenshots/speechify.png",
+    logo: "/logo/speechify.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Speechify supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "WellSaid Labs",
+    description: "An AI voice generation platform that transforms text into lifelike, natural-sounding voiceovers, offering a diverse selection of voices in multiple languages.",
+    url: "https://www.wellsaid.io",
+    id: "wellsaid",
+    image: "/tool-screenshots/wellsaid.png",
+    logo: "/logo/wellsaid.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: WellSaid Labs supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Altered Studio",
+    description: "A comprehensive voice content creation platform integrating multiple Voice AI technologies, including speech-to-speech voice morphing, into a user-friendly application.",
+    url: "https://www.altered.ai",
+    id: "altered",
+    image: "/tool-screenshots/altered.png",
+    logo: "/logo/altered.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Altered Studio supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "FineShare Singify",
+    description: "An AI-powered music creation platform that allows users to generate song covers using a library of over 1,000 distinct AI voice models.",
+    url: "https://www.fineshare.com",
+    id: "fineshare",
+    image: "/tool-screenshots/fineshare.png",
+    logo: "/logo/fineshare.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: FineShare Singify supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Play.ht",
+    description: "An AI-powered text-to-speech platform offering over 800 realistic voices in multiple languages, suitable for various applications like audiobooks and podcasts.",
+    url: "https://www.play.ht",
+    id: "playht",
+    image: "/tool-screenshots/playht.png",
+    logo: "/logo/playht.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Play.ht supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Zonos AI",
+    description: "An open-source text-to-speech model that generates expressive voices, capable of cloning voices in seconds and producing high-quality audio content in multiple languages.",
+    url: "https://zonosai.com/",
+    id: "zonos",
+    image: "/tool-screenshots/zonos.png",
+    logo: "/logo/zonos.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Zonos AI supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Tavus",
+    description: "An AI video generation platform that personalizes videos by creating realistic digital twins, enabling scalable and engaging video content creation.",
+    url: "https://www.tavus.io/",
+    id: "tavus",
+    image: "/tool-screenshots/tavus.png",
+    logo: "/logo/tavus.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Tavus supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Vadoo AI",
+    description: "A video generation tool that allows users to add voice-overs to videos, offering various voice options for diverse applications.",
+    url: "https://www.vadoo.tv",
+    id: "vadoo",
+    image: "/tool-screenshots/vadoo.png",
+    logo: "/logo/vadoo.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Vadoo AI supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "SOUNDRAW",
+    description: "An AI music generation platform focused on creating custom music tracks and beats for creators and artists without copyright concerns.",
+    url: "https://www.soundraw.com",
+    id: "soundraw",
+    image: "/tool-screenshots/soundraw.png",
+    logo: "/logo/soundraw.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: SOUNDRAW supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Beatoven.ai",
+    description: "An AI-powered tool that creates royalty-free background music tailored for videos, podcasts, and games, based on user-selected moods and genres.",
+    url: "https://www.beatoven.ai/",
+    id: "beatovenai",
+    image: "/tool-screenshots/beatovenai.png",
+    logo: "/logo/beatovenai.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Beatoven.ai supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Lalals",
+    description: "A platform that enables users to create AI-generated instrumental songs and vocals with prompts, facilitating easy music production.",
+    url: "https://www.lalals.com",
+    id: "lalals",
+    image: "/tool-screenshots/lalals.png",
+    logo: "/logo/lalals.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Lalals supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Magenta Studio",
+    description: "An open-source project by Google exploring machine learning in music creation, offering tools for melody generation and more.",
+    url: "https://magenta.tensorflow.org/studio/",
+    id: "magenta",
+    image: "/tool-screenshots/magenta.png",
+    logo: "/logo/magenta.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Magenta Studio supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Otter.ai",
+    description: "Otter.ai is an AI tool for audio and speech-related tasks.",
+    url: "https://otter.ai/",
+    id: "otterai",
+    image: "/tool-screenshots/otterai.png",
+    logo: "/logo/otterai.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Otter.ai supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Rev",
+    description: "Offers both AI-powered and human transcription services, ensuring high accuracy for various audio formats.",
+    url: "https://www.rev.com",
+    id: "rev",
+    image: "/tool-screenshots/rev.png",
+    logo: "/logo/rev.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Rev supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Trint",
+    description: "Combines automated transcription with editing tools, facilitating efficient content creation workflows.",
+    url: "https://trint.com",
+    id: "trint",
+    image: "/tool-screenshots/trint.png",
+    logo: "/logo/trint.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Trint supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Sonix",
+    description: "Delivers fast and accurate transcriptions with multilingual support and integration options for diverse needs.",
+    url: "https://sonix.ai",
+    id: "sonix",
+    image: "/tool-screenshots/sonix.png",
+    logo: "/logo/sonix.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Sonix supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Speechmatics",
+    description: "Provides advanced speech recognition technology, supporting various languages and dialects for accurate transcriptions.",
+    url: "https://www.speechmatics.com",
+    id: "speechmatics",
+    image: "/tool-screenshots/speechmatics.png",
+    logo: "/logo/speechmatics.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Speechmatics supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Jamie AI",
+    description: "Offers highly accurate transcription services, suitable for various applications requiring precise speech-to-text conversion.",
+    url: "https://meetjamie.ai",
+    id: "jamie",
+    image: "/tool-screenshots/jamie.png",
+    logo: "/logo/jamie.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Jamie AI supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Happy Scribe",
+    description: "Provides transcription services with support for multiple languages and automatic subtitle generation.",
+    url: "https://www.happyscribe.com",
+    id: "happy",
+    image: "/tool-screenshots/happy.png",
+    logo: "/logo/happy.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Happy Scribe supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Restream",
+    description: "A streaming platform that enables multi-platform broadcasting with integrated audio processing capabilities.",
+    url: "https://restream.io",
+    id: "restream",
+    image: "/tool-screenshots/restream.png",
+    logo: "/logo/restream.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Restream supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Riverside.fm",
+    description: "A professional podcast and video recording platform with high-quality audio processing and remote recording capabilities.",
+    url: "https://riverside.fm",
+    id: "riversidefm",
+    image: "/tool-screenshots/riversidefm.png",
+    logo: "/logo/riversidefm.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Riverside.fm supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Cleanvoice AI",
+    description: "An AI-powered audio cleaning tool that removes filler words, stutters, and background noise from recordings.",
+    url: "https://cleanvoice.ai",
+    id: "cleanvoice",
+    image: "/tool-screenshots/cleanvoice.png",
+    logo: "/logo/cleanvoice.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Cleanvoice AI supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "MyEdit",
+    description: "An AI-powered audio editing platform that helps create professional-quality audio content with automated editing features.",
+    url: "https://myedit.io",
+    id: "myedit",
+    image: "/tool-screenshots/myedit.png",
+    logo: "/logo/myedit.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: MyEdit supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Voicemy.ai",
+    description: "A voice cloning platform that allows users to create and customize AI voices for various applications.",
+    url: "https://voicemy.ai",
+    id: "voicemyai",
+    image: "/tool-screenshots/voicemyai.png",
+    logo: "/logo/voicemyai.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Voicemy.ai supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "Jammable",
+    description: "A platform for creating AI-generated music and voice covers with a library of celebrity voice models.",
+    url: "https://jammable.com",
+    id: "jammable",
+    image: "/tool-screenshots/jammable.png",
+    logo: "/logo/jammable.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: Jammable supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
+    ]
+  },
+  {
+    name: "CloneDub",
+    description: "An AI voice cloning and dubbing platform that enables multilingual voice conversion and localization.",
+    url: "https://clonedub.com",
+    id: "clonedub",
+    image: "/tool-screenshots/clonedub.png",
+    logo: "/logo/clonedub.png",
+    categories: ['audio'],
+    subcategory: "misc",
+    tags: ['AI', 'audio', 'speech'],
+    rating: 4.3,
+    visits: 50000,
+    dateAdded: "2025-06-04",
+    isPremium: "Freemium",
+    features: [
+      "AI audio processing: CloneDub supports automated audio analysis and enhancements.",
+      "Transcription support: Provides tools for converting speech to text.",
+      "Noise reduction: Reduces unwanted sounds from audio input.",
+      "Voice synthesis: Can generate or clone voices using AI models.",
+      "User-friendly interface: Simple design for creators and professionals."
     ]
   }
 ] ;
