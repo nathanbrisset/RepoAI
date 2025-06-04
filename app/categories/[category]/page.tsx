@@ -5,6 +5,7 @@ import Image from "next/image"
 import { Star, ExternalLink } from "lucide-react"
 import ToolCard from "@/components/tool-card"
 import BackButton from "./BackButton"
+import { notFound } from "next/navigation"
 
 // Generate static paths for all categories
 export async function generateStaticParams() {
@@ -17,18 +18,11 @@ function capitalizeWords(str: string) {
   return str.replace(/\b\w/g, c => c.toUpperCase());
 }
 
-export default async function Page({ params }: { params: Promise<{ category: string }> }) {
-  const { category: categoryId } = await params;
-  const category = categories.find((c) => c.id === categoryId);
-
+export default async function Page({ params }: { params: { category: string } }) {
+  const category = categories.find((c) => c.id === params.category);
+  
   if (!category) {
-    return (
-      <div className="max-w-2xl mx-auto py-16 text-center">
-        <h1 className="text-2xl font-bold mb-4">Category Not Found</h1>
-        <p className="text-gray-600 mb-6">Sorry, we couldn't find the category you're looking for.</p>
-        <Link href="/categories" className="text-purple-600 hover:text-purple-800 font-medium">← Back to All Categories</Link>
-      </div>
-    );
+    notFound();
   }
 
   // Get tools in this category

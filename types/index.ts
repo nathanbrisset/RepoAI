@@ -36,14 +36,4 @@ export interface Tool {
   visits: number
   dateAdded: string
   isPremium: string
-}
-
-// Next.js App Router types
-export interface MyPageProps {
-  params: {
-    [key: string]: string | string[]
-  }
-  searchParams?: {
-    [key: string]: string | string[] | undefined
-  }
 } 

@@ -14,18 +14,13 @@ import ToolCard from "@/components/tool-card"
 import { Search } from "lucide-react"
 import Link from "next/link"
 
-type Props = {
-  params: {}
-  searchParams: { query?: string }
-}
-
 export const metadata: Metadata = {
   title: "AI Tools Directory - Find the Best AI Tools for Your Needs",
   description: "Browse our comprehensive directory of AI tools. Filter by category, search by name or description, and find the perfect AI solution for your needs.",
 }
 
-export default function ToolsPage({ searchParams }: any) {
-  const query = searchParams?.query?.toLowerCase() || ""
+export default function Page() {
+  const query = ""
   const filteredTools = mockTools.filter(tool => 
     tool.name.toLowerCase().includes(query) ||
     tool.description.toLowerCase().includes(query) ||

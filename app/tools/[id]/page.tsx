@@ -6,13 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Star, ExternalLink } from "lucide-react"
 
-type Props = {
-  params: {
-    id: string;
-  };
-};
-
-export default async function Page({ params }: Props) {
+export default async function Page({ params }: { params: { id: string } }) {
   const tool = tools.find(t => t.id === params.id);
 
   if (!tool) {
