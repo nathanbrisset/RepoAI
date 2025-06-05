@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { tools } from "@/lib/data"
+import { mockTools } from "@/lib/data"
 import type { Category } from "@/lib/types"
 
 interface CategoryCardProps {
@@ -12,7 +12,7 @@ function capitalizeWords(str: string) {
 }
 
 export default function CategoryCard({ category }: CategoryCardProps) {
-  const categoryTools = tools.filter(tool =>
+  const categoryTools = mockTools.filter(tool =>
     tool.categories.includes(category.id)
   )
 

@@ -1,5 +1,5 @@
 import { Metadata } from "next"
-import { tools } from "@/lib/data"
+import { mockTools } from "@/lib/data"
 import ToolCard from "@/components/tool-card"
 
 export const metadata: Metadata = {
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default async function NewToolsPage() {
   // Sort tools by dateAdded (newest first)
-  const sortedTools = [...tools].sort((a, b) => {
+  const sortedTools = [...mockTools].sort((a, b) => {
     const dateA = new Date(a.dateAdded || "1970-01-01")
     const dateB = new Date(b.dateAdded || "1970-01-01")
     return dateB.getTime() - dateA.getTime()

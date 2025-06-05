@@ -1,4 +1,4 @@
-import { tools } from "@/lib/data"
+import { mockTools } from "@/lib/data"
 import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { Star, ExternalLink } from "lucide-react"
 
 export default async function Page({ params }: { params: { id: string } }) {
-  const tool = tools.find(t => t.id === params.id);
+  const tool = mockTools.find(t => t.id === params.id);
 
   if (!tool) {
     notFound();

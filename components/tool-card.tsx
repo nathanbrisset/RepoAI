@@ -15,13 +15,13 @@ export default function ToolCard({ tool }: ToolCardProps) {
       <Link href={`/tool/${tool.id}`} className="block">
         <div className="relative bg-gray-100 flex items-center justify-center" style={{height: 160}}>
           {tool.image ? (
-          <Image
-            src={tool.image}
-            alt={tool.name}
-            fill
+            <Image
+              src={tool.image}
+              alt={tool.name}
+              fill
               className="object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
           ) : (
             <ImageIcon className="w-12 h-12 text-gray-300" />
           )}
@@ -61,7 +61,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
                   : 'bg-gray-200 text-gray-800'
               }>
                 {tool.isPremium}
-                </Badge>
+              </Badge>
             </div>
           )}
         </CardContent>

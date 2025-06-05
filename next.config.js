@@ -1,28 +1,29 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['localhost'],
+    domains: ['localhost', 'images.unsplash.com', 'placehold.co'],
     remotePatterns: [
       {
         protocol: 'https',
         hostname: '**',
       },
     ],
-    unoptimized: true, // This helps with static image loading
+    dangerouslyAllowSVG: true,
+    contentDispositionType: 'attachment',
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   // Production optimizations
   poweredByHeader: false,
   compress: true,
-  reactStrictMode: false,
+  reactStrictMode: true,
   // Build output configuration
   output: 'standalone',
   // Environment variables that should be exposed to the browser
   env: {
     NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL,
   },
-  // Disable chunk optimization to fix module loading issues
+  // Optimize package imports
   experimental: {
-    optimizeCss: true,
     optimizePackageImports: ['@radix-ui/react-icons'],
   },
 }

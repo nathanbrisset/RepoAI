@@ -1,5 +1,5 @@
 import { Metadata } from "next"
-import { tools } from "@/lib/data"
+import { mockTools } from "@/lib/data"
 import ToolCard from "@/components/tool-card"
 
 export const metadata: Metadata = {
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default async function TopRatedToolsPage() {
   // Sort tools by rating (highest first)
-  const sortedTools = [...tools].sort((a, b) => {
+  const sortedTools = [...mockTools].sort((a, b) => {
     return (b.rating || 0) - (a.rating || 0)
   })
 

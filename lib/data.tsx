@@ -84,7 +84,7 @@ export const categories: Category[] = [
 ]
 
 // Combined tools data
-export const tools: Tool[] = [
+export const mockTools: Tool[] = [
   {
     name: "Jasper",
     description: "AI content generation platform for marketing and business writing.",
@@ -483,27 +483,6 @@ export const tools: Tool[] = [
       "Style Variations: Offers different artistic styles for outputs.",
       "High-Quality Outputs: Generates professional-grade images.",
       "Integration with Jasper Suite: Works seamlessly with other Jasper AI tools."
-    ]
-  },
-  {
-    name: "Craiyon (formerly DALL·E Mini)",
-    description: "Quick and accessible text-to-image generation tool.",
-    url: "https://craiyon.com",
-    id: "craiyon",
-    image: "/tool-screenshots/craiyon.png",
-    logo: "/logo/craiyon.png",
-    categories: ["image"],
-    subcategory: "quick-generation",
-    tags: ["AI", "art", "quick generation"],
-    rating: 4.1,
-    visits: 3000000,
-    dateAdded: "2022-03-01",
-    isPremium: 'Free',
-    features: [
-      "Text-to-Image Generation: Creates images from textual prompts.",
-      "Style Options: Provides various artistic styles for outputs.",
-      "Background Remover: Eliminates backgrounds from images.",
-      "Prompt Suggestions: Offers ideas to enhance image generation."
     ]
   },
   {
@@ -1223,23 +1202,24 @@ export const tools: Tool[] = [
   },
   {
     name: "Leonardo.Ai",
-    description: "AI platform for generating game assets, concept art, and illustrations.",
+    description: "Leonardo.Ai is an AI-powered creative platform for generating high-quality art, illustrations, and concept images. It offers a variety of generative models and customization tools, making it ideal for game assets, concept artists, and designers seeking unique visuals. Its intuitive interface and prompt-based generation help users create professional artwork with minimal effort.",
     url: "https://leonardo.ai",
-    id: "leonardo-ai",
-    image: "/tool-screenshots/leonardo-ai.png",
-    logo: "/logo/leonardo-ai.png",
-    categories: ["image"],
-    subcategory: "Concept Art Generation",
-    tags: ["game_assets", "concept_art", "illustration"],
-    rating: 4.4,
-    visits: 16800000,
-    dateAdded: "2023-05-15",
+    id: "leonardo_ai",
+    image: "/tool-screenshots/leonardo_ai.png",
+    logo: "/logo/leonardo_ai.png",
+    categories: ["design", "image"],
+    subcategory: "AI Art Generator",
+    tags: ["ai_art", "concept_art", "visuals", "prompt"],
+    rating: 4.6,
+    visits: 1200000,
+    dateAdded: "2023-03-01",
     isPremium: "Freemium",
     features: [
-      "AI-Powered Image Generation: Creates images from textual prompts.",
-      "Style Customization: Offers various artistic styles.",
-      "High-Resolution Outputs: Generates detailed images.",
-      "User-Friendly Interface: Simplifies the image creation process."
+      "Prompt-Based Generation: Create images from text prompts.",
+      "Style Customization: Choose from various artistic styles and modifiers.",
+      "Batch Generation: Produce multiple variations simultaneously.",
+      "Asset Library: Save and manage your generated artwork.",
+      "Community Gallery: Share and explore creations from other users."
     ]
   },
   {
@@ -2509,27 +2489,6 @@ export const tools: Tool[] = [
       "SaneBlackHole: Allows users to unsubscribe from unwanted emails effortlessly.",
       "SaneReminders: Sets reminders to follow up on emails or send them at a later time.",
       "Attachment Management: Easily saves email attachments to linked cloud storage services."
-    ]
-  },
-  {
-    name: "Adobe Firefly",
-    description: "AI-powered image and video generation tool.",
-    url: "https://www.adobe.com/products/firefly.html",
-    id: "adobe-firefly",
-    image: "/tool-screenshots/adobe-firefly.png",
-    logo: "/logo/adobe-firefly.png",
-    categories: ["image", "video", "design"],
-    subcategory: "AI Image and Video Generation",
-    tags: ["AI", "image_generation", "video_generation", "creative_tools"],
-    rating: 4.7,
-    visits: 1000000,
-    dateAdded: "2023-05-01",
-    isPremium: 'Free',
-    features: [
-      "Generative AI Tools: Offers tools for image, video, audio, and vector generation.",
-      "Enhanced Creative Control: Provides users with unprecedented control over their creative projects.",
-      "Integration with Adobe Suite: Seamlessly integrates with tools like Photoshop and Adobe Express.",
-      "Collaborative Features: Introduces Firefly Boards for real-time team collaboration and AI-assisted image remixing."
     ]
   },
   {
@@ -4486,7 +4445,7 @@ export const tools: Tool[] = [
       "Numerous.ai is an AI-powered automation tool designed to enhance spreadsheet productivity. It enables users to automate repetitive tasks, enrich data with external sources, and leverage AI formulas directly in Google Sheets or Excel. Numerous.ai offers real-time collaboration and supports bulk data processing, making it a valuable asset for analysts and teams working with large datasets.",
     url: "https://numerous.ai",
     id: "numerous_ai",
-    image: "/tool-screenshots/numerous_ai.png",
+    image: "/tool-screenshots/numerous.png",
     logo: "/logo/numerous_ai.png",
     categories: ["data-processing"],
     subcategory: "Spreadsheet Automation",
@@ -4502,10 +4461,734 @@ export const tools: Tool[] = [
       "Bulk Processing: Handles large-scale spreadsheet operations.",
       "Real-Time Collaboration: Share and edit spreadsheets with your team."
     ]
+  },
+  {
+    name: "Leonardo.Ai",
+    description: "Leonardo.Ai is an AI-powered creative platform for generating high-quality art, illustrations, and concept images. It offers a variety of generative models and customization tools, making it ideal for game assets, concept artists, and designers seeking unique visuals. Its intuitive interface and prompt-based generation help users create professional artwork with minimal effort.",
+    url: "https://leonardo.ai",
+    id: "leonardo_ai",
+    image: "/tool-screenshots/leonardo_ai.png",
+    logo: "/logo/leonardo_ai.png",
+    categories: ["design", "image"],
+    subcategory: "AI Art Generator",
+    tags: ["ai_art", "concept_art", "visuals", "prompt"],
+    rating: 4.6,
+    visits: 1200000,
+    dateAdded: "2023-03-01",
+    isPremium: "Freemium",
+    features: [
+      "Prompt-Based Generation: Create images from text prompts.",
+      "Style Customization: Choose from various artistic styles and modifiers.",
+      "Batch Generation: Produce multiple variations simultaneously.",
+      "Asset Library: Save and manage your generated artwork.",
+      "Community Gallery: Share and explore creations from other users."
+    ]
+  },
+  {
+    name: "Ideogram",
+    description: "Ideogram is an AI art tool focused on generating images with text and typography. It enables users to create visually engaging posters, social media content, and graphics by combining AI-powered art generation with customizable fonts and layouts. Ideogram excels at producing images that integrate readable and stylized text.",
+    url: "https://ideogram.ai",
+    id: "ideogram",
+    image: "/tool-screenshots/ideogram.png",
+    logo: "/logo/ideogram.png",
+    categories: ["design", "image"],
+    subcategory: "Text-to-Image",
+    tags: ["ai_art", "typography", "text_to_image", "graphics"],
+    rating: 4.5,
+    visits: 900000,
+    dateAdded: "2023-08-01",
+    isPremium: "Freemium",
+    features: [
+      "Text Integration: Generate images with embedded, stylized text.",
+      "Typography Controls: Customize fonts, size, and placement.",
+      "Prompt-Based Art: Create unique visuals from descriptions.",
+      "Templates: Pre-made layouts for posters and graphics.",
+      "Export Options: Download images in high resolution."
+    ]
+  },
+  {
+    name: "DALL·E 3",
+    description: "DALL·E 3, developed by OpenAI, is a state-of-the-art AI image generator that creates highly detailed and coherent images from natural language prompts. It excels at understanding complex instructions, producing art, illustrations, and photorealistic images. DALL·E 3 is widely used for creative projects, concept art, and visual content generation.",
+    url: "https://openai.com/dall-e-3",
+    id: "dalle_3",
+    image: "/tool-screenshots/dalle_3.png",
+    logo: "/logo/dalle_3.png",
+    categories: ["design", "image"],
+    subcategory: "AI Image Generation",
+    tags: ["ai_art", "image_generation", "openai", "creative"],
+    rating: 4.7,
+    visits: 2500000,
+    dateAdded: "2023-10-01",
+    isPremium: "Freemium",
+    features: [
+      "Natural Language Understanding: Converts detailed prompts into images.",
+      "High Resolution Output: Generates images suitable for print and digital use.",
+      "Style Versatility: Supports photorealistic and artistic outputs.",
+      "Inpainting: Edit and refine parts of generated images.",
+      "Seamless Integration: Used in ChatGPT Plus and other platforms."
+    ]
+  },
+  {
+    name: "Adobe Firefly",
+    description: "Adobe Firefly is Adobe's generative AI model for creative professionals. It enables image generation, text effects, and vector creation using natural language prompts. Deeply integrated with Adobe Creative Cloud, Firefly empowers designers to rapidly prototype and enhance projects with AI-powered visuals tailored for commercial use.",
+    url: "https://adobe.com/sensei/generative-ai/firefly",
+    id: "adobe_firefly",
+    image: "/tool-screenshots/adobe_firefly.png",
+    logo: "/logo/adobe_firefly.png",
+    categories: ["design", "image"],
+    subcategory: "Generative AI",
+    tags: ["adobe", "ai_art", "creative_cloud", "text_effects"],
+    rating: 4.5,
+    visits: 1800000,
+    dateAdded: "2023-05-01",
+    isPremium: "Freemium",
+    features: [
+      "Text-to-Image: Create images from descriptions.",
+      "Text Effects: Apply unique styles to text for branding.",
+      "Vector Generation: Produce vector art with AI assistance.",
+      "Seamless Integration: Works within Adobe Photoshop and Illustrator.",
+      "Commercial Use: Outputs designed to be safe for business projects."
+    ]
+  },
+  {
+    name: "Photoroom",
+    description: "Photoroom is an AI-powered photo editing tool specializing in background removal, object isolation, and product photography enhancement. Used by e-commerce sellers and marketers, it provides instant cutouts, batch processing, and creative effects to turn ordinary photos into professional assets.",
+    url: "https://photoroom.com",
+    id: "photoroom",
+    image: "/tool-screenshots/photoroom.png",
+    logo: "/logo/photoroom.png",
+    categories: ["design", "image"],
+    subcategory: "Photo Editing",
+    tags: ["background_removal", "photo_editing", "ecommerce", "creative"],
+    rating: 4.6,
+    visits: 6000000,
+    dateAdded: "2020-07-01",
+    isPremium: "Freemium",
+    features: [
+      "Background Removal: Instantly isolate subjects from backgrounds.",
+      "Batch Editing: Process multiple images at once.",
+      "Templates: Ready-to-use layouts for social media and e-commerce.",
+      "AI Effects: Add shadows, blur, and color enhancements.",
+      "Mobile and Web: Available as an app and online."
+    ]
+  },
+  {
+    name: "Picsart AI",
+    description: "Picsart AI is a robust creative platform featuring a suite of AI-powered tools for photo editing, video creation, and visual design. Known for its art filters, background changes, and generative effects, Picsart AI enables users to produce engaging content for personal and commercial use with ease.",
+    url: "https://picsart.com/ai-tools",
+    id: "picsart_ai",
+    image: "/tool-screenshots/picsart_ai.png",
+    logo: "/logo/picsart_ai.png",
+    categories: ["design", "image", "video"],
+    subcategory: "Creative Suite",
+    tags: ["photo_editing", "ai_art", "video", "filters"],
+    rating: 4.5,
+    visits: 30000000,
+    dateAdded: "2012-11-01",
+    isPremium: "Freemium",
+    features: [
+      "AI Art Filters: Transform photos into artistic masterpieces.",
+      "Background Replacement: Change and edit image backgrounds easily.",
+      "Video Creation: Produce and edit videos with AI effects.",
+      "Stickers and Assets: Huge library of creative elements.",
+      "Collage and Templates: Design posts, stories, and ads quickly."
+    ]
+  },
+  {
+    name: "Deep Dream Generator",
+    description: "Deep Dream Generator is an online tool that leverages neural networks to generate unique, dreamlike images from photos. It allows users to apply different AI models and styles to create surreal, artistic visuals, making it a favorite among digital artists and enthusiasts.",
+    url: "https://deepdreamgenerator.com",
+    id: "deep_dream_generator",
+    image: "/tool-screenshots/deep_dream_generator.png",
+    logo: "/logo/deep_dream_generator.png",
+    categories: ["design", "image"],
+    subcategory: "Artistic Filters",
+    tags: ["ai_art", "filters", "neural_network", "surreal"],
+    rating: 4.2,
+    visits: 250000,
+    dateAdded: "2015-09-01",
+    isPremium: "Freemium",
+    features: [
+      "Dreamlike Filters: Apply surreal AI-generated styles to photos.",
+      "Style Transfer: Mix multiple styles on a single image.",
+      "Multiple Models: Choose from deep dream, thin style, and more.",
+      "Community Gallery: Explore and share creations.",
+      "High-Resolution Export: Download images in print quality."
+    ]
+  },
+  {
+    name: "Artbreeder",
+    description: "Artbreeder is a collaborative, AI-powered image mixing platform where users can blend and evolve images to create new artworks. It supports genetic blending of portraits, landscapes, and other genres, allowing creative exploration with fine-tuned controls for genes and styles.",
+    url: "https://artbreeder.com",
+    id: "artbreeder",
+    image: "/tool-screenshots/artbreeder.png",
+    logo: "/logo/artbreeder.png",
+    categories: ["design", "image"],
+    subcategory: "Image Mixing",
+    tags: ["ai_art", "image_blending", "creative", "community"],
+    rating: 4.3,
+    visits: 400000,
+    dateAdded: "2018-12-01",
+    isPremium: "Freemium",
+    features: [
+      "Image Mixing: Blend multiple images to create unique results.",
+      "Gene Editing: Adjust attributes like age, color, and style.",
+      "Community Collaboration: Remix and evolve public images.",
+      "High-Res Downloads: Export creations in high quality.",
+      "Category Diversity: Portraits, landscapes, anime, and more."
+    ]
+  },
+  {
+    name: "PaintsChainer",
+    description: "PaintsChainer is an AI-powered automatic coloring tool for sketches and line art. It generates beautiful, anime-style artwork from black-and-white drawings, offering several AI models and manual adjustment options for colors, shading, and styles.",
+    url: "https://paintschainer.preferred.tech",
+    id: "paintschainer",
+    image: "/tool-screenshots/paintschainer.png",
+    logo: "/logo/paintschainer.png",
+    categories: ["design", "image"],
+    subcategory: "AI Coloring",
+    tags: ["ai_art", "coloring", "anime", "illustration"],
+    rating: 4.2,
+    visits: 210000,
+    dateAdded: "2017-03-01",
+    isPremium: "Freemium",
+    features: [
+      "Automatic Coloring: AI fills sketches with colors and shading.",
+      "Style Selection: Choose from different coloring models.",
+      "Manual Touch-Up: Customize colors and effects after generation.",
+      "Line Art Detection: Works with various drawing styles.",
+      "High-Quality Output: Downloads for print and digital use."
+    ]
+  },
+  {
+    name: "Framer AI",
+    description: "Framer AI extends Framer's website and UI design platform with AI-powered prototyping and content generation. Designers can generate layouts, copy, and interactive components from natural language prompts, streamlining the web design process for both beginners and professionals.",
+    url: "https://framer.com/ai",
+    id: "framer_ai",
+    image: "/tool-screenshots/framer_ai.png",
+    logo: "/logo/framer_ai.png",
+    categories: ["design", "coding", "productivity"],
+    subcategory: "AI Web Design",
+    tags: ["ui", "web_design", "ai_content", "prototyping"],
+    rating: 4.4,
+    visits: 750000,
+    dateAdded: "2023-02-01",
+    isPremium: "Freemium",
+    features: [
+      "AI Layouts: Generate page structures with text prompts.",
+      "Copywriting: Instantly create and edit website copy.",
+      "Component Library: Access interactive UI building blocks.",
+      "Live Preview: See and test designs in real time.",
+      "One-Click Publish: Deploy finished sites easily."
+    ]
+  },
+  {
+    name: "TeleportHQ",
+    description: "TeleportHQ is a low-code platform for creating, prototyping, and publishing websites using AI. It offers visual drag-and-drop editors, AI-powered code generation, and seamless export to frameworks like React and Vue. TeleportHQ is ideal for designers who want to bridge the gap between design and development.",
+    url: "https://teleporthq.io",
+    id: "teleporthq",
+    image: "/tool-screenshots/teleporthq.png",
+    logo: "/logo/teleporthq.png",
+    categories: ["design", "coding", "productivity"],
+    subcategory: "Low-Code Web Design",
+    tags: ["web_design", "low_code", "ai_code", "prototyping"],
+    rating: 4.1,
+    visits: 120000,
+    dateAdded: "2019-06-01",
+    isPremium: "Freemium",
+    features: [
+      "Drag-and-Drop Editor: Visually assemble web layouts.",
+      "AI Code Generation: Turn wireframes into production-ready code.",
+      "Export to Frameworks: Supports React, Vue, and HTML/CSS.",
+      "Collaboration: Team-based project management.",
+      "Component Marketplace: Use and share UI components."
+    ]
+  },
+  {
+    name: "Anima",
+    description: "Anima bridges the gap between design and development by converting Figma, Adobe XD, and Sketch designs into developer-friendly React, HTML, and CSS code. It streamlines handoff, supports prototyping with real data, and enhances workflow for product teams.",
+    url: "https://animaapp.com",
+    id: "anima",
+    image: "/tool-screenshots/anima.png",
+    logo: "/logo/anima.png",
+    categories: ["design", "coding", "productivity"],
+    subcategory: "Design to Code",
+    tags: ["figma", "sketch", "code_generation", "handoff"],
+    rating: 4.3,
+    visits: 300000,
+    dateAdded: "2017-06-01",
+    isPremium: "Freemium",
+    features: [
+      "Design-to-Code: Convert designs to React, HTML, and CSS.",
+      "Prototyping with Real Data: Use real APIs in prototypes.",
+      "Automatic Code Updates: Sync design changes instantly.",
+      "Collaboration: Comment and iterate with teams.",
+      "Plugin Support: Integrates with leading design tools."
+    ]
+  },
+  {
+    name: "Builder.io",
+    description: "Builder.io is a visual CMS and page builder that empowers teams to create, test, and optimize digital experiences without writing code. With AI-powered content generation and modular components, Builder.io speeds up development and enables dynamic, data-driven web pages.",
+    url: "https://builder.io",
+    id: "builder_io",
+    image: "/tool-screenshots/builder_io.png",
+    logo: "/logo/builder_io.png",
+    categories: ["design", "coding", "productivity"],
+    subcategory: "Visual Web Builder",
+    tags: ["cms", "page_builder", "ai_content", "optimization"],
+    rating: 4.2,
+    visits: 170000,
+    dateAdded: "2018-05-01",
+    isPremium: "Freemium",
+    features: [
+      "Visual Editing: Drag-and-drop page creation.",
+      "AI Content Generation: Quickly produce text and images.",
+      "A/B Testing: Experiment with versions and track conversions.",
+      "Integration: Connects with React, Vue, Angular, and more.",
+      "Dynamic Data: Display content from APIs and databases."
+    ]
+  },
+  {
+    name: "Relume",
+    description: "Relume is an AI-powered site builder that generates website wireframes, copy, and design with simple prompts. Focused on rapid prototyping and agency workflows, it enables quick iteration and seamless export to Figma or Webflow.",
+    url: "https://relume.io",
+    id: "relume",
+    image: "/tool-screenshots/relume.png",
+    logo: "/logo/relume.png",
+    categories: ["design", "coding"],
+    subcategory: "AI Site Builder",
+    tags: ["wireframe", "ai_copy", "webflow", "agency"],
+    rating: 4.1,
+    visits: 90000,
+    dateAdded: "2023-06-01",
+    isPremium: "Freemium",
+    features: [
+      "Prompt-Based Generation: Build site wireframes from descriptions.",
+      "AI Copywriting: Instantly generate and edit website content.",
+      "Export Options: Send designs to Figma or Webflow.",
+      "Library of Blocks: Mix-and-match prebuilt components.",
+      "Collaboration: Share and iterate with team members."
+    ]
+  },
+  {
+    name: "Penpot",
+    description: "Penpot is an open-source design and prototyping platform for cross-functional teams. It offers collaborative vector editing, interactive prototyping, and supports open web standards. Penpot is web-based and suitable for both designers and developers who value transparency and extensibility.",
+    url: "https://penpot.app",
+    id: "penpot",
+    image: "/tool-screenshots/penpot.png",
+    logo: "/logo/penpot.png",
+    categories: ["design", "coding", "productivity"],
+    subcategory: "Open Source Design",
+    tags: ["open_source", "vector", "prototyping", "collaboration"],
+    rating: 4.2,
+    visits: 130000,
+    dateAdded: "2021-01-01",
+    isPremium: "Free",
+    features: [
+      "Collaborative Editing: Work on designs with teams in real time.",
+      "Vector Tools: Create detailed illustrations and interfaces.",
+      "Interactive Prototyping: Build and share clickable prototypes.",
+      "Open Standards: Export to SVG and other formats.",
+      "Plugin Architecture: Extend and customize functionality."
+    ]
+  },
+  {
+    name: "Fontjoy",
+    description: "Fontjoy uses AI to help designers generate harmonious font pairings for their projects. By leveraging deep learning, it suggests visually compatible font combinations, making typography selection easier for web, print, and branding work.",
+    url: "https://fontjoy.com",
+    id: "fontjoy",
+    image: "/tool-screenshots/fontjoy.png",
+    logo: "/logo/fontjoy.png",
+    categories: ["design", "productivity"],
+    subcategory: "Typography",
+    tags: ["ai", "fonts", "typography", "branding"],
+    rating: 4.0,
+    visits: 70000,
+    dateAdded: "2017-04-01",
+    isPremium: "Free",
+    features: [
+      "Automated Pairing: Instantly get compatible font combinations.",
+      "Manual Adjustment: Fine-tune font matches and weights.",
+      "Preview Tool: See pairings in sample content.",
+      "Export: Copy CSS and font details for web use.",
+      "Open Library: Access a variety of Google Fonts."
+    ]
+  },
+  {
+    name: "FontPair",
+    description: "FontPair is a curated gallery and tool for discovering font pairings, especially for Google Fonts. It helps designers find and preview harmonious combinations for web, print, and branding, streamlining the typography process.",
+    url: "https://fontpair.co",
+    id: "fontpair",
+    image: "/tool-screenshots/fontpair.png",
+    logo: "/logo/fontpair.png",
+    categories: ["design", "productivity"],
+    subcategory: "Typography",
+    tags: ["typography", "fonts", "pairing", "web_design"],
+    rating: 3.9,
+    visits: 60000,
+    dateAdded: "2015-09-01",
+    isPremium: "Free",
+    features: [
+      "Curated Pairings: Browse high-quality font combinations.",
+      "Live Preview: Test pairings with your own text.",
+      "Filter by Category: Serif, sans-serif, display, and more.",
+      "Google Fonts Integration: Easy to use on web projects.",
+      "Copy Styles: Export font CSS and style info."
+    ]
+  },
+  {
+    name: "Brandmark",
+    description: "Brandmark is an AI-powered logo design tool that generates unique brand identities from simple keywords. It helps startups and small businesses create logos, color palettes, and brand guidelines quickly and affordably.",
+    url: "https://brandmark.io",
+    id: "brandmark",
+    image: "/tool-screenshots/brandmark.png",
+    logo: "/logo/brandmark.png",
+    categories: ["design", "marketing"],
+    subcategory: "Logo Design",
+    tags: ["logo", "branding", "ai", "identity"],
+    rating: 4.2,
+    visits: 150000,
+    dateAdded: "2017-08-01",
+    isPremium: "Premium",
+    features: [
+      "AI Logo Generation: Create logos from keywords and styles.",
+      "Brand Kit: Download color palettes, fonts, and templates.",
+      "High-Res Export: Get print-ready files.",
+      "Instant Preview: See logos on business cards and products.",
+      "Unlimited Edits: Refine logos until satisfied."
+    ]
+  },
+  {
+    name: "LogoMakr",
+    description: "LogoMakr is an easy-to-use online logo maker that enables users to design and customize logos quickly with a simple drag-and-drop interface and a vast icon library. It's ideal for small businesses and individuals seeking affordable branding solutions.",
+    url: "https://logomakr.com",
+    id: "logomakr",
+    image: "/tool-screenshots/logomakr.png",
+    logo: "/logo/logomakr.png",
+    categories: ["design", "marketing"],
+    subcategory: "Logo Design",
+    tags: ["logo", "branding", "drag_and_drop", "icons"],
+    rating: 4.0,
+    visits: 120000,
+    dateAdded: "2013-03-01",
+    isPremium: "Freemium",
+    features: [
+      "Drag-and-Drop Editor: Quickly assemble and customize logos.",
+      "Icon Library: Access thousands of shapes and graphics.",
+      "Font Selection: Choose from a range of typefaces.",
+      "Unlimited Downloads: Export in web and print formats.",
+      "Branding Tools: Create business cards and social assets."
+    ]
+  },
+  {
+    name: "Spline",
+    description: "Spline is a 3D design tool that enables designers to create, animate, and publish interactive 3D web experiences. With a real-time collaborative editor and intuitive interface, Spline makes 3D creation accessible for web, UI, and motion designers.",
+    url: "https://spline.design",
+    id: "spline",
+    image: "/tool-screenshots/spline.png",
+    logo: "/logo/spline.png",
+    categories: ["design", "image"],
+    subcategory: "3D Design",
+    tags: ["3d", "animation", "web", "collaboration"],
+    rating: 4.4,
+    visits: 400000,
+    dateAdded: "2020-09-01",
+    isPremium: "Freemium",
+    features: [
+      "3D Modeling: Build shapes and scenes easily.",
+      "Animation: Animate objects and scenes with keyframes.",
+      "Interactivity: Add triggers and user actions.",
+      "Collaboration: Edit projects in real time with others.",
+      "Web Export: Publish interactive 3D content online."
+    ]
+  },
+  {
+    name: "Kaedim",
+    description: "Kaedim is an AI-powered tool that converts 2D images into 3D models automatically. Geared toward game developers, 3D artists, and designers, it accelerates asset creation for games, AR/VR, and digital content.",
+    url: "https://kaedim3d.com",
+    id: "kaedim",
+    image: "/tool-screenshots/kaedim.png",
+    logo: "/logo/kaedim.png",
+    categories: ["design", "image"],
+    subcategory: "3D Asset Generation",
+    tags: ["3d", "ai", "asset_generation", "games"],
+    rating: 4.2,
+    visits: 80000,
+    dateAdded: "2021-07-01",
+    isPremium: "Premium",
+    features: [
+      "2D to 3D Conversion: Turn sketches or images into 3D models.",
+      "Rapid Prototyping: Generate assets in minutes.",
+      "Format Support: Download models in standard 3D formats.",
+      "Cloud Processing: Handle large or complex scenes via cloud.",
+      "Integration: Use in game engines and 3D editors."
+    ]
+  },
+  {
+    name: "Luma AI",
+    description: "Luma AI leverages neural radiance fields (NeRF) to capture and generate photorealistic 3D models from smartphone photos or videos. It's popular for AR/VR, e-commerce, and digital creators seeking ultra-realistic 3D scans.",
+    url: "https://lumalabs.ai",
+    id: "luma_ai",
+    image: "/tool-screenshots/luma_ai.png",
+    logo: "/logo/luma_ai.png",
+    categories: ["design", "image"],
+    subcategory: "3D Scanning",
+    tags: ["3d", "photo2model", "nerf", "ar_vr"],
+    rating: 4.3,
+    visits: 100000,
+    dateAdded: "2022-05-01",
+    isPremium: "Freemium",
+    features: [
+      "NeRF Technology: Create 3D models from photos/videos.",
+      "Photorealistic Output: High-fidelity, detailed results.",
+      "Mobile Friendly: Capture with a standard smartphone.",
+      "Export Options: Download in 3D and AR formats.",
+      "Web Viewer: Share scans easily online."
+    ]
+  },
+  {
+    name: "Interior AI",
+    description: "Interior AI is a generative design tool for interior spaces. It allows users to upload photos of rooms and instantly visualize them in different styles, layouts, or with virtual renovations. It's widely used by homeowners, realtors, and designers for inspiration and planning.",
+    url: "https://interiorai.com",
+    id: "interior_ai",
+    image: "/tool-screenshots/interior_ai.png",
+    logo: "/logo/interior_ai.png",
+    categories: ["design", "image"],
+    subcategory: "Interior Design",
+    tags: ["interior_design", "virtual_staging", "ai", "room_styles"],
+    rating: 4.3,
+    visits: 85000,
+    dateAdded: "2022-08-01",
+    isPremium: "Freemium",
+    features: [
+      "Style Selection: Preview rooms in dozens of design styles.",
+      "Virtual Staging: Add or remove furniture and decor.",
+      "Room Redesign: Experiment with layouts and color palettes.",
+      "Photo Upload: Use any room photo for instant results.",
+      "Download & Share: Save or share staged images."
+    ]
+  },
+  {
+    name: "Planner 5D",
+    description: "Planner 5D is a user-friendly interior design tool that allows users to create 2D and 3D floor plans, furnish rooms, and visualize home designs. Its AI-powered features speed up layout planning and style recommendations, making it ideal for homeowners and professionals.",
+    url: "https://planner5d.com",
+    id: "planner_5d",
+    image: "/tool-screenshots/planner_5d.png",
+    logo: "/logo/planner_5d.png",
+    categories: ["design", "productivity"],
+    subcategory: "Floor Planning",
+    tags: ["interior_design", "floor_plans", "3d", "ai"],
+    rating: 4.2,
+    visits: 700000,
+    dateAdded: "2012-04-01",
+    isPremium: "Freemium",
+    features: [
+      "2D & 3D Planning: Switch between floor plan and 3D visualization.",
+      "Furniture Library: Choose from thousands of objects.",
+      "AI Recommendations: Suggests layouts and styles.",
+      "Mobile & Web: Design on any device.",
+      "Export & Share: Download images or share projects online."
+    ]
+  },
+  {
+    name: "RoomGPT",
+    description: "RoomGPT is an AI-powered tool that generates interior design ideas from a single room photo. By uploading an image and choosing a style, users receive realistic renderings of their space with new decor and layouts, perfect for inspiration and remote staging.",
+    url: "https://roomgpt.io",
+    id: "roomgpt",
+    image: "/tool-screenshots/roomgpt.png",
+    logo: "/logo/roomgpt.png",
+    categories: ["design", "image"],
+    subcategory: "AI Room Design",
+    tags: ["interior_design", "ai", "rendering", "virtual_staging"],
+    rating: 4.1,
+    visits: 60000,
+    dateAdded: "2023-03-01",
+    isPremium: "Freemium",
+    features: [
+      "Photo-to-Design: Transform photos into styled rooms.",
+      "Multiple Styles: Choose from modern, classic, rustic, and more.",
+      "Fast Rendering: Get new designs in seconds.",
+      "Mobile Friendly: Works on smartphones and tablets.",
+      "Download Images: Save new room concepts for later."
+    ]
+  },
+  {
+    name: "Visily",
+    description: "Visily is an AI-powered wireframing tool that helps non-designers create beautiful app wireframes from simple sketches, screenshots, or text prompts. It speeds up the ideation process and allows teams to collaborate effortlessly on low-fidelity and high-fidelity prototypes.",
+    url: "https://www.visily.ai",
+    id: "visily",
+    image: "/tool-screenshots/visily.png",
+    logo: "/logo/visily.png",
+    categories: ["design", "productivity"],
+    subcategory: "Wireframing",
+    tags: ["wireframe", "prototyping", "ai", "collaboration"],
+    rating: 4.3,
+    visits: 250000,
+    dateAdded: "2022-07-01",
+    isPremium: "Freemium",
+    features: [
+      "AI Wireframe Generation: Turn sketches or text into wireframes.",
+      "Component Library: Access a wide variety of UI components.",
+      "Collaboration: Real-time team editing and commenting.",
+      "Template Gallery: Start quickly with prebuilt layouts.",
+      "Export Options: Share designs or export to popular formats."
+    ]
+  },
+  {
+    name: "Stockimg.AI",
+    description: "Stockimg.AI is an AI-powered platform for generating stock images, book covers, posters, and more from text prompts. It is used by marketers, designers, and content creators looking for unique, copyright-safe visuals.",
+    url: "https://stockimg.ai",
+    id: "stockimg_ai",
+    image: "/tool-screenshots/stockimg_ai.png",
+    logo: "/logo/stockimg_ai.png",
+    categories: ["design", "image", "marketing"],
+    subcategory: "AI Stock Images",
+    tags: ["stock_images", "ai_art", "marketing", "posters"],
+    rating: 4.2,
+    visits: 600000,
+    dateAdded: "2023-03-01",
+    isPremium: "Freemium",
+    features: [
+      "Text-to-Image: Generate stock images from prompts.",
+      "Variety of Outputs: Create posters, book covers, wallpapers, and more.",
+      "Commercial Use: Royalty-free outputs for business.",
+      "Prompt Library: Inspiration for creative projects.",
+      "High-Resolution Export: Download large, print-ready images."
+    ]
+  },
+  {
+    name: "Illustroke",
+    description: "Illustroke uses AI to generate vector illustrations (SVG format) from simple text prompts. It's ideal for web designers, content creators, and marketers who need scalable, unique vector art quickly.",
+    url: "https://illustroke.com",
+    id: "illustroke",
+    image: "/tool-screenshots/illustroke.png",
+    logo: "/logo/illustroke.png",
+    categories: ["design", "image"],
+    subcategory: "Vector Illustration",
+    tags: ["vector", "svg", "ai_art", "illustration"],
+    rating: 4.1,
+    visits: 90000,
+    dateAdded: "2023-05-10",
+    isPremium: "Freemium",
+    features: [
+      "SVG Output: Generate vector illustrations from text.",
+      "Prompt-Based: Use natural language to specify your needs.",
+      "Customizable: Edit colors and details after generation.",
+      "Commercial License: Use outputs for business and products.",
+      "Large Illustration Library: Browse and reuse community images."
+    ]
+  },
+  {
+    name: "Mage.Space",
+    description: "Mage.Space is an AI art studio for creating images, videos, and animations from text prompts using cutting-edge generative models. It is popular for both personal and professional creative work, with privacy-focused and NSFW-friendly options.",
+    url: "https://mage.space",
+    id: "mage_space",
+    image: "/tool-screenshots/mage_space.png",
+    logo: "/logo/mage_space.png",
+    categories: ["design", "image", "video"],
+    subcategory: "Generative Art",
+    tags: ["ai_art", "image_generation", "animation", "video"],
+    rating: 4.4,
+    visits: 2500000,
+    dateAdded: "2022-10-01",
+    isPremium: "Freemium",
+    features: [
+      "Text-to-Image: Generate visuals from text prompts.",
+      "Text-to-Video: Create short AI-powered videos.",
+      "Animation: Turn static images into animated content.",
+      "Private Generation: No content moderation for privacy-focused users.",
+      "Gallery: Explore and remix public works."
+    ]
+  },
+  {
+    name: "Dream by WOMBO",
+    description: "Dream by WOMBO is a popular AI art generator app for web and mobile. It transforms text prompts into digital artworks in various styles for personal, social, and commercial use.",
+    url: "https://www.wombo.art",
+    id: "wombo_dream",
+    image: "/tool-screenshots/wombo_dream.png",
+    logo: "/logo/wombo_dream.png",
+    categories: ["design", "image"],
+    subcategory: "AI Art Generator",
+    tags: ["ai_art", "mobile", "prompt", "community"],
+    rating: 4.6,
+    visits: 6000000,
+    dateAdded: "2021-10-01",
+    isPremium: "Freemium",
+    features: [
+      "Text-to-Art: Turn prompts into digital paintings.",
+      "Style Selection: Choose from dozens of art styles.",
+      "Mobile App: Create and share on the go.",
+      "Print Shop: Order posters and framed prints.",
+      "Community: Share artworks and participate in challenges."
+    ]
+  },
+  {
+    name: "Gencraft",
+    description: "Gencraft is an AI image generator that creates unique visuals for art, marketing, and storytelling. It offers high-res downloads, a prompt marketplace, and commercial licensing.",
+    url: "https://gencraft.com",
+    id: "gencraft",
+    image: "/tool-screenshots/gencraft.png",
+    logo: "/logo/gencraft.png",
+    categories: ["design", "image", "video"],
+    subcategory: "AI Image Generation",
+    tags: ["ai_art", "image_generation", "marketing", "prompt"],
+    rating: 4.3,
+    visits: 820000,
+    dateAdded: "2023-04-01",
+    isPremium: "Freemium",
+    features: [
+      "Prompt Marketplace: Share and discover creative prompts.",
+      "High-Resolution Output: Download images up to 4K.",
+      "Style Filters: Apply different art styles.",
+      "Commercial Use: License for business and marketing.",
+      "Batch Generation: Create multiple images at once."
+    ]
+  },
+  {
+    name: "Designs.ai",
+    description: "Designs.ai is an all-in-one creative platform offering AI-powered tools for logo design, video creation, mockups, and social media content. It is tailored for businesses and agencies needing to scale design output quickly.",
+    url: "https://designs.ai",
+    id: "designs_ai",
+    image: "/tool-screenshots/designs_ai.png",
+    logo: "/logo/designs_ai.png",
+    categories: ["design", "marketing", "video"],
+    subcategory: "Creative Suite",
+    tags: ["logo", "video", "mockup", "ai"],
+    rating: 4.2,
+    visits: 700000,
+    dateAdded: "2019-11-01",
+    isPremium: "Freemium",
+    features: [
+      "Logo Maker: AI-powered branding tools.",
+      "Video Maker: Convert text scripts into videos.",
+      "Speechmaker: Generate professional voiceovers.",
+      "Design Maker: Create banners, posts, and ads.",
+      "Mockup Generator: Preview designs on products."
+    ]
+  },
+  {
+    name: "Craiyon",
+    description: "Craiyon (formerly DALL·E mini) is a free AI image generator that creates fun, surreal images from any text prompt. It is popular for social sharing and creative experimentation.",
+    url: "https://www.craiyon.com",
+    id: "craiyon",
+    image: "/tool-screenshots/craiyon.png",
+    logo: "/logo/craiyon.png",
+    categories: ["design", "image"],
+    subcategory: "AI Art Generator",
+    tags: ["ai_art", "prompt", "free", "social"],
+    rating: 4.0,
+    visits: 1500000,
+    dateAdded: "2022-05-01",
+    isPremium: "Free",
+    features: [
+      "Free Text-to-Image: No signup or payment required.",
+      "Unlimited Generation: Create as many images as you want.",
+      "Fun Styles: Surreal, cartoonish outputs.",
+      "Community Gallery: Share and browse creations.",
+      "Mobile Friendly: Works on all devices."
+    ]
   }
 ];
-
-export const mockTools = tools; 
 
 export async function getToolById(id: string) {
   return mockTools.find((tool) => tool.id === id) || null;
