@@ -13,12 +13,18 @@ interface MatchResult {
   explanation: string;
 }
 
-type PageProps = {
-  searchParams: { query?: string }
-}
-
-export default async function MatchResultsPage({ searchParams }: PageProps) {
-  const query = searchParams?.query;
+export default async function MatchResultsPage(props: any) {
+  let query;
+  if (props?.searchParams) {
+    if (typeof props.searchParams.then === "function") {
+      // It's a Promise
+      const resolved = await props.searchParams;
+      query = resolved.query;
+    } else {
+      // It's a plain object
+      query = props.searchParams.query;
+    }
+  }
   
   if (!query) {
     notFound();
