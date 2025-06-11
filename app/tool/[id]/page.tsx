@@ -14,11 +14,14 @@ export async function generateStaticParams() {
 
 type PageProps = {
   params: Promise<{ id: string }>
-  searchParams: { [key: string]: string | string[] | undefined }
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }
 
 export default async function ToolPage(props: PageProps) {
-  const { id } = await props.params;
+  const [{ id }, searchParams] = await Promise.all([
+    props.params,
+    props.searchParams
+  ]);
   
   const tool = mockTools.find((t) => t.id === id);
   

@@ -22,11 +22,14 @@ function capitalizeWords(str: string) {
 
 type PageProps = {
   params: Promise<{ category: string }>
-  searchParams: { [key: string]: string | string[] | undefined }
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }
 
 export default async function CategoryPage(props: PageProps) {
-  const { category } = await props.params;
+  const [{ category }, searchParams] = await Promise.all([
+    props.params,
+    props.searchParams
+  ]);
   
   const categoryObj = categories.find((c) => c.id === category);
   
