@@ -12,12 +12,11 @@ export async function generateStaticParams() {
   }))
 }
 
-type Props = {
+export default async function ToolPage({
+  params,
+}: {
   params: { id: string }
-  searchParams: { [key: string]: string | string[] | undefined }
-}
-
-export default function ToolPage({ params }: Props) {
+}) {
   const { id } = params;
   
   const tool = mockTools.find((t) => t.id === id);
