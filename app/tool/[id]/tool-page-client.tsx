@@ -7,7 +7,7 @@ import Image from "next/image"
 import { Star, ExternalLink, ThumbsUp } from "lucide-react"
 import ToolCard from "@/components/tool-card"
 import Head from "next/head"
-import { Tool } from '@/types/tool'
+import { Tool } from '@/lib/types'
 
 function capitalizeWords(str: string) {
   return str.replace(/\b\w/g, c => c.toUpperCase());
