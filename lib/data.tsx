@@ -5119,27 +5119,6 @@ export const mockTools: Tool[] = [
     ]
   },
   {
-    name: "Pictory",
-    description: "Pictory uses AI to convert long-form content like blogs and webinars into short, branded videos. It's designed for marketers seeking to amplify their content strategy with video.",
-    url: "https://www.pictory.ai",
-    id: "pictory",
-    image: "/tool-screenshots/pictory.png",
-    logo: "/logo/pictory.png",
-    categories: ['marketing', 'video', 'productivity'],
-    subcategory: "video",
-    tags: ['AI', 'video', 'content repurposing'],
-    rating: 4.4,
-    visits: 420000,
-    dateAdded: "2025-06-11",
-    isPremium: "Freemium",
-    features: [
-      "Automated video creation: Converts text to engaging videos.",
-      "Branding tools: Add logos, colors, and templates easily.",
-      "Caption generation: Creates accurate video captions with AI.",
-      "Bulk processing: Turn multiple blog posts into videos at once."
-    ]
-  },
-  {
     name: "Persado",
     description: "Persado uses AI and machine learning to generate and optimize marketing language for email, SMS, and digital ads, improving engagement and conversion rates.",
     url: "https://www.persado.com",
@@ -5179,48 +5158,6 @@ export const mockTools: Tool[] = [
       "A/B testing: Test different variations for user segments.",
       "Segmentation: Advanced targeting based on user behavior.",
       "Real-time analytics: Measure campaign impact instantly."
-    ]
-  },
-  {
-    name: "Adext AI",
-    description: "Adext AI automates and optimizes digital advertising campaigns across major platforms, leveraging machine learning to maximize ROI by adjusting budgets and targeting.",
-    url: "https://www.adext.com",
-    id: "adextai",
-    image: "/tool-screenshots/adextai.png",
-    logo: "/logo/adextai.png",
-    categories: ['marketing', 'data-processing'],
-    subcategory: "ads",
-    tags: ['AI', 'ads', 'automation'],
-    rating: 4.2,
-    visits: 21000,
-    dateAdded: "2025-06-11",
-    isPremium: "Premium",
-    features: [
-      "Cross-platform ad management: Supports Google, Facebook, and more.",
-      "Automated budget allocation: AI optimizes spend in real time.",
-      "Audience targeting: Finds the best audiences for each ad.",
-      "Performance reporting: Detailed analytics for campaign outcomes."
-    ]
-  },
-  {
-    name: "Play.ht",
-    description: "Play.ht uses advanced AI to convert text into natural-sounding audio for podcasts, articles, and marketing content. It supports multiple languages and voice styles.",
-    url: "https://www.play.ht",
-    id: "playht",
-    image: "/tool-screenshots/playht.png",
-    logo: "/logo/playht.png",
-    categories: ['marketing', 'audio'],
-    subcategory: "audio",
-    tags: ['AI', 'audio', 'text-to-speech'],
-    rating: 4.5,
-    visits: 480000,
-    dateAdded: "2025-06-11",
-    isPremium: "Freemium",
-    features: [
-      "Text-to-speech: Converts text into realistic AI voices.",
-      "Multilingual support: Over 100 languages and accents.",
-      "Downloadable audio: Export files for podcasts or ads.",
-      "Custom voice creation: Build unique brand voices."
     ]
   },
   {
@@ -5348,7 +5285,406 @@ export const mockTools: Tool[] = [
       "Analytics: Track engagement and follower growth.",
       "Content ideas: AI suggests trending topics and captions."
     ]
-  }
+  },
+  {
+    name: "BrightEdge",
+    description: "BrightEdge is an AI-powered SEO and content performance platform that enables marketers to discover opportunities, optimize content, and track rankings. Its analytics suite turns search data into actionable insights.",
+    url: "https://www.brightedge.com",
+    id: "brightedge",
+    image: "/tool-screenshots/brightedge.png",
+    logo: "/logo/brightedge.png",
+    categories: ['marketing', 'data-processing'],
+    subcategory: "SEO",
+    tags: ['AI', 'SEO', 'analytics'],
+    rating: 4.5,
+    visits: 59000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "AI-driven content recommendations for SEO.",
+      "Rank tracking for keywords and competitors.",
+      "Site and page-level analytics dashboards.",
+      "Opportunity discovery for organic growth."
+    ]
+  },
+  {
+    name: "SEMrush Writing Assistant",
+    description: "SEMrush Writing Assistant provides real-time optimization for SEO, readability, and originality. It offers actionable feedback to help writers create content that ranks and engages.",
+    url: "https://www.semrush.com/features/seowritingassistant/",
+    id: "semrushwritingassistant",
+    image: "/tool-screenshots/semrushwritingassistant.png",
+    logo: "/logo/semrushwritingassistant.png",
+    categories: ['marketing', 'text'],
+    subcategory: "SEO",
+    tags: ['AI', 'SEO', 'writing'],
+    rating: 4.7,
+    visits: 11000000,
+    dateAdded: "2025-06-11",
+    isPremium: "Freemium",
+    features: [
+      "SEO scoring with instant feedback.",
+      "Readability, tone, and originality analysis.",
+      "Integration with SEMrush ecosystem.",
+      "Actionable suggestions for better rankings."
+    ]
+  },
+  {
+    name: "CanIRank",
+    description: "CanIRank is an AI SEO tool that analyzes keywords, suggests ranking opportunities, and recommends actionable steps to improve your site's search performance.",
+    url: "https://www.canirank.com",
+    id: "canirank",
+    image: "/tool-screenshots/canirank.png",
+    logo: "/logo/canirank.png",
+    categories: ['marketing', 'data-processing'],
+    subcategory: "SEO",
+    tags: ['AI', 'SEO', 'analytics'],
+    rating: 4.2,
+    visits: 44000,
+    dateAdded: "2025-06-11",
+    isPremium: "Freemium",
+    features: [
+      "Keyword analysis for ranking opportunities.",
+      "Step-by-step SEO action recommendations.",
+      "Competitor benchmarking and insights.",
+      "Progress tracking for SEO improvements."
+    ]
+  },
+  {
+    name: "DashThis",
+    description: "DashThis is an automated marketing reporting tool that uses AI to collect, visualize, and deliver insights from analytics, SEO, PPC, and social data. It simplifies cross-channel reporting for marketers.",
+    url: "https://dashthis.com",
+    id: "dashthis",
+    image: "/tool-screenshots/dashthis.png",
+    logo: "/logo/dashthis.png",
+    categories: ['marketing', 'data-processing'],
+    subcategory: "analytics",
+    tags: ['AI', 'analytics', 'reporting'],
+    rating: 4.6,
+    visits: 69000,
+    dateAdded: "2025-06-11",
+    isPremium: "Freemium",
+    features: [
+      "Automated dashboards from all your data sources.",
+      "Custom and prebuilt templates for fast setup.",
+      "Collaboration tools for sharing and commenting.",
+      "AI-powered insights highlight key changes."
+    ]
+  },
+  {
+    name: "Seventh Sense",
+    description: "Seventh Sense optimizes email send times for each recipient using AI, boosting open and engagement rates. It integrates with popular email platforms for smarter campaigns.",
+    url: "https://theseventhsense.com",
+    id: "seventhsense",
+    image: "/tool-screenshots/seventhsense.png",
+    logo: "/logo/seventhsense.png",
+    categories: ['marketing', 'productivity'],
+    subcategory: "email",
+    tags: ['AI', 'email', 'automation'],
+    rating: 4.3,
+    visits: 8000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "Personalizes delivery time for every recipient.",
+      "Integrates with HubSpot and Marketo.",
+      "Engagement analytics and reporting.",
+      "AI-based audience segmentation."
+    ]
+  },
+  {
+    name: "Mailchimp Content Optimizer",
+    description: "Mailchimp Content Optimizer uses AI to analyze marketing emails, providing personalized recommendations for subject lines, copy, and design. It helps marketers improve open and click rates.",
+    url: "https://mailchimp.com/features/content-optimizer/",
+    id: "mailchimpoptimizer",
+    image: "/tool-screenshots/mailchimpoptimizer.png",
+    logo: "/logo/mailchimpoptimizer.png",
+    categories: ['marketing', 'productivity'],
+    subcategory: "email",
+    tags: ['AI', 'email', 'optimization'],
+    rating: 4.4,
+    visits: 17000000,
+    dateAdded: "2025-06-11",
+    isPremium: "Freemium",
+    features: [
+      "AI analysis of subject lines and body copy.",
+      "Actionable suggestions for engagement.",
+      "Design optimization tools.",
+      "Personalized recommendations for content."
+    ]
+  },
+  {
+    name: "Phrasee",
+    description: "Phrasee uses AI to generate and optimize email subject lines, push notifications, and marketing copy, driving higher engagement and conversions for campaigns.",
+    url: "https://phrasee.co",
+    id: "phrasee",
+    image: "/tool-screenshots/phrasee.png",
+    logo: "/logo/phrasee.png",
+    categories: ['marketing', 'text'],
+    subcategory: "email",
+    tags: ['AI', 'email', 'copywriting'],
+    rating: 4.2,
+    visits: 15000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "Generates high-performing subject lines.",
+      "Push notification and SMS copy optimization.",
+      "Brand voice adaptation with AI.",
+      "A/B testing for copy variants."
+    ]
+  },
+  {
+    name: "InVideo",
+    description: "InVideo is an AI-powered video creation platform for marketers. It offers thousands of templates, stock assets, and automated tools to produce branded videos quickly.",
+    url: "https://invideo.io",
+    id: "invideo",
+    image: "/tool-screenshots/invideo.png",
+    logo: "/logo/invideo.png",
+    categories: ['marketing', 'video'],
+    subcategory: "video",
+    tags: ['AI', 'video', 'content creation'],
+    rating: 4.6,
+    visits: 2100000,
+    dateAdded: "2025-06-11",
+    isPremium: "Freemium",
+    features: [
+      "5000+ customizable video templates.",
+      "AI script generation from prompts.",
+      "Premium stock video and music.",
+      "Auto text-to-video from articles."
+    ]
+  },
+  {
+    name: "Synthesys",
+    description: "Synthesys generates AI voiceovers and avatar videos for marketing, e-learning, and presentations. It offers realistic voices, facial animation, and multi-language support.",
+    url: "https://synthesys.io",
+    id: "synthesys",
+    image: "/tool-screenshots/synthesys.png",
+    logo: "/logo/synthesys.png",
+    categories: ['marketing', 'audio', 'video'],
+    subcategory: "audio",
+    tags: ['AI', 'audio', 'video'],
+    rating: 4.4,
+    visits: 39000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "Wide variety of synthetic voices.",
+      "Text-to-video with talking avatars.",
+      "Supports 50+ languages for global reach.",
+      "Branded video templates and customization."
+    ]
+  },
+  {
+    name: "ManyChat",
+    description: "ManyChat automates Messenger, Instagram, and WhatsApp marketing with AI-powered chatbots. It helps marketers engage users, qualify leads, and automate follow-ups.",
+    url: "https://manychat.com",
+    id: "manychat",
+    image: "/tool-screenshots/manychat.png",
+    logo: "/logo/manychat.png",
+    categories: ['marketing', 'productivity'],
+    subcategory: "chatbot",
+    tags: ['AI', 'chatbot', 'automation'],
+    rating: 4.7,
+    visits: 1800000,
+    dateAdded: "2025-06-11",
+    isPremium: "Freemium",
+    features: [
+      "Chatbots for Messenger, Instagram, WhatsApp.",
+      "Visual flow builder for bot creation.",
+      "Integrates with major marketing tools.",
+      "Analytics for conversion and engagement."
+    ]
+  },
+  {
+    name: "Tidio",
+    description: "Tidio combines live chat and AI-powered chatbots to automate support and lead generation. Marketers can boost conversions and provide instant answers to visitors.",
+    url: "https://www.tidio.com",
+    id: "tidio",
+    image: "/tool-screenshots/tidio.png",
+    logo: "/logo/tidio.png",
+    categories: ['marketing', 'productivity'],
+    subcategory: "chatbot",
+    tags: ['AI', 'chatbot', 'automation'],
+    rating: 4.6,
+    visits: 3300000,
+    dateAdded: "2025-06-11",
+    isPremium: "Freemium",
+    features: [
+      "AI chatbots for FAQ and sales automation.",
+      "Live chat for real-time support.",
+      "Unified inbox for all conversations.",
+      "Analytics for chat and conversion rates."
+    ]
+  },
+  {
+    name: "MobileMonkey",
+    description: "MobileMonkey is an AI chatbot platform for omni-channel messaging, supporting Facebook, Instagram, SMS, and web chat. It enables marketers to automate conversations and lead gen.",
+    url: "https://mobilemonkey.com",
+    id: "mobilemonkey",
+    image: "/tool-screenshots/mobilemonkey.png",
+    logo: "/logo/mobilemonkey.png",
+    categories: ['marketing', 'productivity'],
+    subcategory: "chatbot",
+    tags: ['AI', 'chatbot', 'messaging'],
+    rating: 4.3,
+    visits: 250000,
+    dateAdded: "2025-06-11",
+    isPremium: "Freemium",
+    features: [
+      "Bots for Messenger, Instagram, SMS, and web.",
+      "Lead capture via chat forms and quizzes.",
+      "Automated drip campaigns and auto-responses.",
+      "Integrates with major marketing/CRM tools."
+    ]
+  },
+  {
+    name: "Optimizely",
+    description: "Optimizely offers AI-powered experimentation and personalization for websites and apps. Marketers can run A/B tests, manage features, and deliver personalized content.",
+    url: "https://www.optimizely.com",
+    id: "optimizely",
+    image: "/tool-screenshots/optimizely.png",
+    logo: "/logo/optimizely.png",
+    categories: ['marketing', 'data-processing', 'productivity'],
+    subcategory: "personalization",
+    tags: ['AI', 'personalization', 'AB testing'],
+    rating: 4.6,
+    visits: 1200000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "A/B and multivariate testing for web/app changes.",
+      "AI-driven content personalization.",
+      "Feature flag management for safe rollouts.",
+      "Real-time analytics for experiment tracking."
+    ]
+  },
+  {
+    name: "Yusp",
+    description: "Yusp provides AI-powered personalization engines for e-commerce and content sites. It increases sales and engagement with real-time, user-specific recommendations.",
+    url: "https://www.yusp.com",
+    id: "yusp",
+    image: "/tool-screenshots/yusp.png",
+    logo: "/logo/yusp.png",
+    categories: ['marketing', 'data-processing'],
+    subcategory: "personalization",
+    tags: ['AI', 'recommendation', 'personalization'],
+    rating: 4.1,
+    visits: 14000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "Personalized recommendations for each user.",
+      "Cross-selling and upselling with AI.",
+      "Behavioral targeting from user data.",
+      "Instant updates as user behavior changes."
+    ]
+  },
+  {
+    name: "Albert.ai",
+    description: "Albert.ai autonomously manages and optimizes digital ad campaigns, using AI to analyze data and drive performance across platforms. Marketers can maximize ROI with minimal manual effort.",
+    url: "https://albert.ai",
+    id: "albertai",
+    image: "/tool-screenshots/albertai.png",
+    logo: "/logo/albertai.png",
+    categories: ['marketing', 'data-processing'],
+    subcategory: "ads",
+    tags: ['AI', 'ads', 'automation'],
+    rating: 4.3,
+    visits: 10000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "Cross-channel campaign automation.",
+      "AI-based audience targeting and segmentation.",
+      "Creative and budget optimization in real time.",
+      "Performance analytics and reporting."
+    ]
+  },
+  {
+    name: "Upfluence",
+    description: "Upfluence is an influencer marketing platform that uses AI to discover, engage, and manage influencer campaigns. It streamlines outreach for e-commerce and B2B brands.",
+    url: "https://www.upfluence.com",
+    id: "upfluence",
+    image: "/tool-screenshots/upfluence.png",
+    logo: "/logo/upfluence.png",
+    categories: ['marketing', 'data-processing'],
+    subcategory: "influencer",
+    tags: ['AI', 'influencer', 'analytics'],
+    rating: 4.2,
+    visits: 27000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "AI influencer discovery by audience and niche.",
+      "Campaign management and workflow tools.",
+      "Shopify, WooCommerce, and e-commerce integration.",
+      "Performance metrics and ROI analytics."
+    ]
+  },
+  {
+    name: "Autopilot",
+    description: "Autopilot is a visual marketing automation platform that uses AI for journey mapping, segmentation, and personalized messaging across email, SMS, and in-app notifications.",
+    url: "https://www.autopilothq.com",
+    id: "autopilot",
+    image: "/tool-screenshots/autopilot.png",
+    logo: "/logo/autopilot.png",
+    categories: ['marketing', 'productivity'],
+    subcategory: "automation",
+    tags: ['AI', 'automation', 'email'],
+    rating: 4.4,
+    visits: 13000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "Visual journey mapping and automation.",
+      "AI-powered audience segmentation.",
+      "Personalized messaging across channels.",
+      "Multi-channel campaign delivery."
+    ]
+  },
+  {
+    name: "Salesforce Einstein",
+    description: "Salesforce Einstein brings AI-driven analytics, insights, and automation to the Salesforce CRM, empowering marketers with predictive, personalized, and automated capabilities.",
+    url: "https://www.salesforce.com/products/einstein/overview/",
+    id: "salesforceeinstein",
+    image: "/tool-screenshots/salesforceeinstein.png",
+    logo: "/logo/salesforceeinstein.png",
+    categories: ['marketing', 'data-processing'],
+    subcategory: "automation",
+    tags: ['AI', 'CRM', 'automation'],
+    rating: 4.6,
+    visits: 11000000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "Predictive analytics and opportunity scoring.",
+      "Automated insights for sales and marketing.",
+      "Personalization for emails and offers.",
+      "AI-powered workflow automation."
+    ]
+  },
+  {
+    name: "Sendinblue",
+    description: "Sendinblue is an all-in-one marketing platform with AI-powered email, SMS, and chat automation. Marketers can launch, manage, and optimize campaigns at scale.",
+    url: "https://www.sendinblue.com",
+    id: "sendinblue",
+    image: "/tool-screenshots/sendinblue.png",
+    logo: "/logo/sendinblue.png",
+    categories: ['marketing', 'productivity'],
+    subcategory: "email",
+    tags: ['AI', 'email', 'automation'],
+    rating: 4.5,
+    visits: 3800000,
+    dateAdded: "2025-06-11",
+    isPremium: "Freemium",
+    features: [
+      "AI-driven email automation and send times.",
+      "SMS and chat marketing tools.",
+      "Advanced segmentation and personalization.",
+      "Comprehensive analytics for campaign tracking."
+    ]
+  },
 ];
 
 export async function getToolById(id: string) {
