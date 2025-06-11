@@ -22,7 +22,7 @@ export function ToolCard({ tool }: ToolCardProps) {
           <div>
             <h3 className="font-semibold text-gray-900">{tool.name}</h3>
             {tool.subcategory && (
-              <p className="text-sm text-gray-500">{tool.subcategory}</p>
+            <p className="text-sm text-gray-500">{tool.subcategory}</p>
             )}
           </div>
         </div>
@@ -30,16 +30,16 @@ export function ToolCard({ tool }: ToolCardProps) {
         <p className="line-clamp-2 text-sm text-gray-600">{tool.description}</p>
         
         {tool.tags && tool.tags.length > 0 && (
-          <div className="flex flex-wrap gap-2">
-            {tool.tags.map((tag) => (
-              <span
-                key={tag}
-                className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs text-gray-600"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
+        <div className="flex flex-wrap gap-2">
+          {tool.tags.map((tag) => (
+            <span
+              key={tag}
+              className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs text-gray-600"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
         )}
         
         <div className="mt-auto flex items-center justify-between">
@@ -56,7 +56,7 @@ export function ToolCard({ tool }: ToolCardProps) {
             <span className="text-sm text-gray-500">visits</span>
           </div>
           {tool.isPremium && (
-            <span className="text-sm text-gray-500">{tool.isPremium}</span>
+          <span className="text-sm text-gray-500">{tool.isPremium}</span>
           )}
         </div>
       </div>

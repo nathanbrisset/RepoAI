@@ -47,39 +47,39 @@ export async function POST(req: NextRequest) {
     const timeoutId = setTimeout(() => controller.abort(), 30000); // 30 second timeout
 
     try {
-      const response = await fetch(openaiUrl, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`,
-        },
-        body: JSON.stringify({
-          model: "gpt-4.1-nano",
-          messages: [
-            { role: "system", content: systemPrompt },
-            { role: "user", content: prompt }
-          ],
-          stream: false
-        }),
+    const response = await fetch(openaiUrl, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: "gpt-4.1-nano",
+        messages: [
+          { role: "system", content: systemPrompt },
+          { role: "user", content: prompt }
+        ],
+        stream: false
+      }),
         signal: controller.signal
-      });
+    });
 
       clearTimeout(timeoutId);
 
-      if (!response.ok) {
-        const errorText = await response.text();
-        console.error("OpenAI API error:", errorText);
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error("OpenAI API error:", errorText);
         return NextResponse.json({ 
           recommendations: copywritingTools,
           warning: 'Using fallback recommendations due to API error',
           error: errorText 
         });
-      }
+    }
 
-      const data = await response.json();
-      console.log('Full response from /api/recommend route:', data);
-      const content = data.choices[0].message.content;
-      console.log('Extracted content from /api/recommend route:', content);
+    const data = await response.json();
+    console.log('Full response from /api/recommend route:', data);
+    const content = data.choices[0].message.content;
+    console.log('Extracted content from /api/recommend route:', content);
 
       // Extract intro paragraph and tool recommendations
       const introMatch = content.match(/Intro:\s*([\s\S]*?)(?=\n{2,}|$)/i);
@@ -96,38 +96,38 @@ export async function POST(req: NextRequest) {
         toolBlocks.push({ id, explanation });
       }
 
-      // Map tool IDs to tool objects and filter out any null tools
-      const recommendedTools = toolBlocks
-        .map(block => {
-          let tool = tools.find(t => t.id.toLowerCase() === block.id.toLowerCase());
-          if (!tool) {
+    // Map tool IDs to tool objects and filter out any null tools
+    const recommendedTools = toolBlocks
+      .map(block => {
+        let tool = tools.find(t => t.id.toLowerCase() === block.id.toLowerCase());
+        if (!tool) {
             tool = tools.find(t => t.name.toLowerCase().includes(block.id.toLowerCase()) || block.id.toLowerCase().includes(t.name.toLowerCase()));
-          }
-          if (!tool) {
-            console.warn(`Tool not found for ID: ${block.id}`);
-            return null;
-          }
-          return {
-            tool,
+        }
+        if (!tool) {
+          console.warn(`Tool not found for ID: ${block.id}`);
+          return null;
+        }
+        return {
+          tool,
             explanation: block.explanation || tool.description || ''
-          };
-        })
+        };
+      })
         .filter(Boolean);
 
-      // If we have no valid tools, use fallback tools
-      if (recommendedTools.length === 0) {
-        console.log('No valid tools found, using fallback tools');
-        return NextResponse.json({
+    // If we have no valid tools, use fallback tools
+    if (recommendedTools.length === 0) {
+      console.log('No valid tools found, using fallback tools');
+      return NextResponse.json({
           intro,
           recommendations: copywritingTools,
           warning: 'Using fallback recommendations due to no valid tools found'
-        });
-      }
-
-      return NextResponse.json({
-        intro,
-        recommendations: recommendedTools
       });
+    }
+
+    return NextResponse.json({
+        intro,
+      recommendations: recommendedTools
+    });
     } catch (error) {
       clearTimeout(timeoutId);
       if (error.name === 'AbortError') {

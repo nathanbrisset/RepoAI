@@ -22,10 +22,6 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL,
   },
-  // Optimize package imports
-  experimental: {
-    optimizePackageImports: ['@radix-ui/react-icons'],
-  },
 }
 
 module.exports = nextConfig 

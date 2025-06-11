@@ -294,8 +294,8 @@ export default function MatchResultsPage() {
 
         <div className="mb-4 mt-0">
           {intro && (
-            <div className="bg-purple-50 border border-purple-200 rounded-lg px-6 py-4">
-              <p className="text-lg text-gray-800 leading-relaxed">
+          <div className="bg-purple-50 border border-purple-200 rounded-lg px-6 py-4">
+            <p className="text-lg text-gray-800 leading-relaxed">
                 {/* Bold the first sentence, highlight keywords */}
                 {(() => {
                   const firstPeriod = intro.indexOf('.') !== -1 ? intro.indexOf('.') + 1 : intro.length;
@@ -306,8 +306,8 @@ export default function MatchResultsPage() {
                     text.replace(/\b(newsletter|AI|tools?|writing|content|design|engaging|fun|easy|professional)\b/gi, match => `<span class='font-semibold text-purple-700'>${match}</span>`);
                   return <span><b>{firstSentence}</b>{' '}<span dangerouslySetInnerHTML={{ __html: highlight(rest) }} /></span>;
                 })()}
-              </p>
-            </div>
+            </p>
+          </div>
           )}
         </div>
 

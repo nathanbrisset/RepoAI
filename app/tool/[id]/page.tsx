@@ -19,7 +19,8 @@ function capitalizeWords(str: string) {
 }
 
 export default async function ToolPage({ params }: { params: { id: string } }) {
-  const tool = await Promise.resolve(mockTools.find((t) => t.id === params.id));
+  const { id } = await params;
+  const tool = mockTools.find((t) => t.id === id);
 
   if (!tool) {
     notFound();

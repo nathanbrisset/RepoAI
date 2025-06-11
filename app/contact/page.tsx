@@ -32,21 +32,36 @@ export default function ContactPage() {
     setIsSubmitting(true);
     setSuccess(false);
     setError("");
+    
     const formData = new FormData(formRef.current);
-    const data = Object.fromEntries(formData.entries());
+    const data = {
+      firstName: formData.get('firstName'),
+      lastName: formData.get('lastName'),
+      email: formData.get('email'),
+      subject: formData.get('subject'),
+      message: formData.get('message')
+    };
+
     try {
       const response = await fetch("/api/send-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
-      if (!response.ok) throw new Error("Failed to send message");
+
+      const result = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(result.error || 'Failed to send message');
+      }
+
       setSuccess(true);
       formRef.current.reset();
       setIsNotRobot(false);
       setConsent(false);
     } catch (err) {
-      setError("Failed to send message. Please try again.");
+      console.error('Error sending message:', err);
+      setError(err instanceof Error ? err.message : "Failed to send message. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
@@ -70,16 +85,29 @@ export default function ContactPage() {
             <h2 className="text-2xl font-bold mb-6 text-gray-900">Send us a message</h2>
             <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                  Name
+                <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-1">
+                  First Name
                 </label>
                 <Input
-                  id="name"
-                  name="name"
+                  id="firstName"
+                  name="firstName"
                   type="text"
                   required
                   className="w-full"
-                  placeholder="Your name"
+                  placeholder="Your first name"
+                />
+              </div>
+              <div>
+                <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-1">
+                  Last Name
+                </label>
+                <Input
+                  id="lastName"
+                  name="lastName"
+                  type="text"
+                  required
+                  className="w-full"
+                  placeholder="Your last name"
                 />
               </div>
               <div>

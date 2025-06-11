@@ -255,48 +255,6 @@ export const mockTools: Tool[] = [
     ]
   },
   {
-    name: "Synthesia",
-    description: "AI video generation platform that creates professional videos from text.",
-    url: "https://www.synthesia.io",
-    id: "synthesia",
-    image: "/tool-screenshots/synthesia.png",
-    logo: "/logo/synthesia.png",
-    categories: ["video"],
-    subcategory: "video-generation",
-    tags: ["AI", "video", "avatar", "presentation"],
-    rating: 4.6,
-    visits: 2000000,
-    dateAdded: "2021-09-15",
-    isPremium: 'Free',
-    features: [
-      "AI Video Generation: Automatically creates videos from text inputs using AI avatars.",
-      "Multilingual Support: Generates videos in over 140 languages and accents.",
-      "Customizable AI Avatars: Access to a diverse range of digital avatars representing different genders, ages, and ethnicities.",
-      "Template Library: Utilizes pre-designed templates for various video types."
-    ]
-  },
-  {
-    name: "Lumen5",
-    description: "AI-powered video creation platform that turns content into engaging videos.",
-    url: "https://lumen5.com",
-    id: "lumen5",
-    image: "/tool-screenshots/lumen5.png",
-    logo: "/logo/lumen5.png",
-    categories: ["video"],
-    subcategory: "video-creation",
-    tags: ["AI", "video", "marketing", "social-media"],
-    rating: 4.5,
-    visits: 1800000,
-    dateAdded: "2021-10-15",
-    isPremium: 'Free',
-    features: [
-      "AI-Powered Video Creation: Transforms blog posts, articles, and other written content into engaging videos.",
-      "Drag-and-Drop Interface: Simplifies video editing with an intuitive interface.",
-      "Branded Templates: Offers custom templates to maintain brand consistency.",
-      "Stock Media Library: Provides access to a vast library of stock footage and music."
-    ]
-  },
-  {
     name: "Mem",
     description: "AI-powered note-taking and knowledge management platform.",
     url: "https://mem.ai",
@@ -1201,28 +1159,6 @@ export const mockTools: Tool[] = [
     ]
   },
   {
-    name: "Leonardo.Ai",
-    description: "Leonardo.Ai is an AI-powered creative platform for generating high-quality art, illustrations, and concept images. It offers a variety of generative models and customization tools, making it ideal for game assets, concept artists, and designers seeking unique visuals. Its intuitive interface and prompt-based generation help users create professional artwork with minimal effort.",
-    url: "https://leonardo.ai",
-    id: "leonardo_ai",
-    image: "/tool-screenshots/leonardo_ai.png",
-    logo: "/logo/leonardo_ai.png",
-    categories: ["design", "image"],
-    subcategory: "AI Art Generator",
-    tags: ["ai_art", "concept_art", "visuals", "prompt"],
-    rating: 4.6,
-    visits: 1200000,
-    dateAdded: "2023-03-01",
-    isPremium: "Freemium",
-    features: [
-      "Prompt-Based Generation: Create images from text prompts.",
-      "Style Customization: Choose from various artistic styles and modifiers.",
-      "Batch Generation: Produce multiple variations simultaneously.",
-      "Asset Library: Save and manage your generated artwork.",
-      "Community Gallery: Share and explore creations from other users."
-    ]
-  },
-  {
     name: "Recraft",
     description: "AI design tool for generating vector illustrations and UI assets.",
     url: "https://www.recraft.ai",
@@ -1388,27 +1324,6 @@ export const mockTools: Tool[] = [
       "Accurate Summarization: Extracts key ideas from long documents.",
       "Factual Consistency: Prioritizes fact-checking and evidence-backed output.",
       "Academic Writing: Generates citations, structured arguments, and reports."
-    ]
-  },
-  {
-    name: "Copy.ai",
-    description: "Fast content generation for sales emails, ads, and product descriptions.",
-    url: "https://www.copy.ai",
-    id: "copy-ai",
-    image: "/tool-screenshots/copy-ai.png",
-    logo: "/logo/copyai.png",
-    categories: ["text", "design"],
-    subcategory: "Short-form & Email Copywriting",
-    tags: ["social_media", "email_marketing", "ads", "sales_copy", "automation"],
-    rating: 4.3,
-    visits: 1700000,
-    dateAdded: "2021-06-15",
-    isPremium: "Freemium",
-    features: [
-      "Marketing Copy Generator: Ads, landing pages, emails, etc.",
-      "Workflow Automation: Create sequences of content with prompts.",
-      "Tone Adjustment: Match tone to audience or brand.",
-      "Multilingual Support: Write content in multiple languages."
     ]
   },
   {
@@ -1598,27 +1513,6 @@ export const mockTools: Tool[] = [
       "Blog to Video: Transform blog posts into engaging videos.",
       "Auto Captioning: Automatically generate captions for videos.",
       "Video Summarization: Summarize long videos into short highlights."
-    ]
-  },
-  {
-    name: "Descript",
-    description: "An all-in-one video & audio editor with AI transcription and overdubbing.",
-    url: "https://www.descript.com",
-    id: "descript",
-    image: "/tool-screenshots/descript.png",
-    logo: "/logo/descript.png",
-    categories: ["video"],
-    subcategory: "Audio & Video Editing with Transcription",
-    tags: ["podcast_video", "transcription", "overdub", "screen_recording", "multi_tool"],
-    rating: 4.6,
-    visits: 3100000,
-    dateAdded: "2021-05-01",
-    isPremium: "Freemium",
-    features: [
-      "Text-Based Editing: Edit videos by editing the transcribed text.",
-      "Overdub: Create ultra-realistic voiceovers with AI.",
-      "Screen Recording: Record and edit screen content easily.",
-      "Multitrack Editing: Edit audio and video tracks simultaneously."
     ]
   },
   {
@@ -2294,36 +2188,6 @@ export const mockTools: Tool[] = [
     ]
   },
   {
-    name: "Notion AI",
-    description: "AI-enhanced workspace for note-taking, project management, and content creation.",
-    url: "https://www.notion.so/product/ai",
-    id: "notion-ai",
-    image: "/tool-screenshots/notion-ai.png",
-    logo: "/logo/notion-ai.png",
-    categories: ["marketing"],
-    subcategory: "Productivity",
-    tags: ["note_taking", "project_management", "content_creation", "collaboration"],
-    rating: 4.8,
-    visits: 20000000,
-    dateAdded: "2023-02-01",
-    isPremium: "Freemium"
-  },
-  {
-    name: "Microsoft Copilot",
-    description: "AI assistant integrated into Microsoft 365 apps to enhance productivity and creativity.",
-    url: "https://www.microsoft.com/en-us/microsoft-365/copilot",
-    id: "microsoft-copilot",
-    image: "/tool-screenshots/microsoft-copilot.png",
-    logo: "/logo/microsoft-copilot.png",
-    categories: ["productivity"],
-    subcategory: "Office Suite",
-    tags: ["document_editing", "data_analysis", "email_management", "presentation_creation"],
-    rating: 4.7,
-    visits: 150000000,
-    dateAdded: "2023-03-16",
-    isPremium: "Premium"
-  },
-  {
     name: "ClickUp AI",
     description: "AI-powered project management and productivity platform.",
     url: "https://clickup.com/ai",
@@ -2603,7 +2467,7 @@ export const mockTools: Tool[] = [
     id: "copy-ai",
     image: "/tool-screenshots/copy-ai.png",
     logo: "/logo/copy-ai.png",
-    categories: ["marketing"],
+    categories: ["marketing","text","design"],
     subcategory: "copywriting",
     tags: ["AI", "copywriting", "marketing", "content"],
     rating: 4.5,
@@ -2614,7 +2478,11 @@ export const mockTools: Tool[] = [
       "Sales Copy Generation: Writes value props, CTAs, and product descriptions.",
       "Campaign Workflows: Automates writing across multiple touchpoints.",
       "Tone Customization: Adjusts for brand voice, style, and tone.",
-      "Long-Form Assistant: Helps draft blog posts, reports, and scripts."
+      "Long-Form Assistant: Helps draft blog posts, reports, and scripts.",
+      "Marketing Copy Generator: Ads, landing pages, emails, etc.",
+      "Workflow Automation: Create sequences of content with prompts.",
+      "Tone Adjustment: Match tone to audience or brand.",
+      "Multilingual Support: Write content in multiple languages."
     ]
   },
   {
@@ -4614,28 +4482,6 @@ export const mockTools: Tool[] = [
       "Multiple Models: Choose from deep dream, thin style, and more.",
       "Community Gallery: Explore and share creations.",
       "High-Resolution Export: Download images in print quality."
-    ]
-  },
-  {
-    name: "Artbreeder",
-    description: "Artbreeder is a collaborative, AI-powered image mixing platform where users can blend and evolve images to create new artworks. It supports genetic blending of portraits, landscapes, and other genres, allowing creative exploration with fine-tuned controls for genes and styles.",
-    url: "https://artbreeder.com",
-    id: "artbreeder",
-    image: "/tool-screenshots/artbreeder.png",
-    logo: "/logo/artbreeder.png",
-    categories: ["design", "image"],
-    subcategory: "Image Mixing",
-    tags: ["ai_art", "image_blending", "creative", "community"],
-    rating: 4.3,
-    visits: 400000,
-    dateAdded: "2018-12-01",
-    isPremium: "Freemium",
-    features: [
-      "Image Mixing: Blend multiple images to create unique results.",
-      "Gene Editing: Adjust attributes like age, color, and style.",
-      "Community Collaboration: Remix and evolve public images.",
-      "High-Res Downloads: Export creations in high quality.",
-      "Category Diversity: Portraits, landscapes, anime, and more."
     ]
   },
   {

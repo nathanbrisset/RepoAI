@@ -172,9 +172,9 @@ export default function RecommendationPage() {
                       {/* You can add more personalized reasons here if needed */}
                       {mainTool.features?.map((feature, idx) => (
                         <div key={idx} className="flex items-start gap-3">
-                          <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                        <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
                           <p className="text-gray-700">{feature}</p>
-                        </div>
+                      </div>
                       ))}
                     </div>
                   </div>
