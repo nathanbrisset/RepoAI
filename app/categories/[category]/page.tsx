@@ -21,14 +21,14 @@ function capitalizeWords(str: string) {
 }
 
 interface PageProps {
-  params: {
+  params: Promise<{
     category: string;
-  };
+  }>;
   searchParams: { [key: string]: string | string[] | undefined };
 }
 
-export default function CategoryPage(props: PageProps) {
-  const { category } = props.params;
+export default async function CategoryPage(props: PageProps) {
+  const { category } = await props.params;
   
   const categoryObj = categories.find((c) => c.id === category);
   
