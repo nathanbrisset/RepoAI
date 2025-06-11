@@ -18,12 +18,12 @@ function capitalizeWords(str: string) {
   return str.replace(/\b\w/g, c => c.toUpperCase());
 }
 
-export default async function ToolPage({
+export default function ToolPage({
   params,
 }: {
-  params: Promise<{ id: string }>;
+  params: { id: string };
 }) {
-  const { id } = await params;
+  const { id } = params;
   const tool = mockTools.find((t) => t.id === id);
 
   if (!tool) {

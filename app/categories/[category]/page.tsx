@@ -20,12 +20,12 @@ function capitalizeWords(str: string) {
   return str.replace(/\b\w/g, c => c.toUpperCase());
 }
 
-export default async function CategoryPage({
+export default function CategoryPage({
   params,
 }: {
-  params: Promise<{ category: string }>;
+  params: { category: string };
 }) {
-  const { category } = await params;
+  const { category } = params;
   
   const categoryObj = categories.find((c) => c.id === category);
   
