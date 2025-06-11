@@ -6,8 +6,20 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Star, ExternalLink } from "lucide-react"
 
-export default async function Page({ params }: { params: { id: string } }) {
-  const tool = mockTools.find(t => t.id === params.id);
+export default async function Page(props: any) {
+  let id;
+  if (props?.params) {
+    if (typeof props.params.then === "function") {
+      // It's a Promise
+      const resolved = await props.params;
+      id = resolved.id;
+    } else {
+      // It's a plain object
+      id = props.params.id;
+    }
+  }
+
+  const tool = mockTools.find(t => t.id === id);
 
   if (!tool) {
     notFound();
