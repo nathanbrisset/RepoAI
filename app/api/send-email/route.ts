@@ -29,7 +29,7 @@ export async function POST(request: Request) {
     const data = await resend.emails.send({
       from: 'AI Tools Directory <contact@aitoolsninja.com>',
       to: ['aitoolsrequest@gmail.com'],
-      replyTo: email,
+      reply_to: email,
       subject: subject,
       text: `Name: ${firstName} ${lastName}\nEmail: ${email}\nMessage: ${message}\n`,
     });
