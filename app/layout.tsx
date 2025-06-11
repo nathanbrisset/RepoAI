@@ -11,11 +11,30 @@ import GoogleAnalytics from "@/components/GoogleAnalytics"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "AI Tools Directory",
+  title: "RepoAI - AI Tools Directory",
   description: "Discover and explore the best AI tools for your needs",
-  generator: 'v0.dev',
-  icons: {
-    icon: '/icon.png',
+  metadataBase: new URL('https://repoai.vercel.app'),
+  openGraph: {
+    title: "RepoAI - AI Tools Directory",
+    description: "Discover and explore the best AI tools for your needs",
+    url: "https://repoai.vercel.app",
+    siteName: "RepoAI",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "RepoAI - AI Tools Directory"
+      }
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "RepoAI - AI Tools Directory",
+    description: "Discover and explore the best AI tools for your needs",
+    images: ["/og-image.png"],
   },
 }
 
@@ -25,9 +44,9 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <div className="flex flex-col min-h-screen">
             <Header />
             <main className="flex-grow">
