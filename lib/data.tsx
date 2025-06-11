@@ -5033,6 +5033,321 @@ export const mockTools: Tool[] = [
       "Community Gallery: Share and browse creations.",
       "Mobile Friendly: Works on all devices."
     ]
+  },
+  {
+    name: "GrowthBar",
+    description: "GrowthBar is an AI-powered SEO tool that enables users to generate optimized blog posts and perform keyword research quickly. It offers content outlines, competitive analysis, and on-page SEO suggestions.",
+    url: "https://www.growthbarseo.com",
+    id: "growthbar",
+    image: "/tool-screenshots/growthbar.png",
+    logo: "/logo/growthbar.png",
+    categories: ['marketing', 'text', 'productivity'],
+    subcategory: "SEO",
+    tags: ['AI', 'SEO', 'content', 'blog'],
+    rating: 4.5,
+    visits: 110000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "AI blog post generation: Quickly create long-form SEO-optimized articles.",
+      "Keyword research: Discover high-value keywords and their difficulty.",
+      "Content outlines: Generate content structure and suggestions for writers.",
+      "Competitive analysis: Analyze top-ranking websites for your keywords."
+    ]
+  },
+  {
+    name: "Ocoya",
+    description: "Ocoya is an AI-driven platform for social media management, helping users create, schedule, and analyze posts across multiple channels. It includes automation and content generation features to boost online presence.",
+    url: "https://www.ocoya.com",
+    id: "ocoya",
+    image: "/tool-screenshots/ocoya.png",
+    logo: "/logo/ocoya.png",
+    categories: ['marketing', 'productivity', 'text'],
+    subcategory: "social-media",
+    tags: ['AI', 'social media', 'automation'],
+    rating: 4.4,
+    visits: 180000,
+    dateAdded: "2025-06-11",
+    isPremium: "Freemium",
+    features: [
+      "AI post generation: Create social media content with AI suggestions.",
+      "Scheduling: Plan and schedule posts across multiple platforms.",
+      "Analytics dashboard: Track performance and engagement metrics.",
+      "Content automation: Automate repetitive posting tasks."
+    ]
+  },
+  {
+    name: "Clearscope",
+    description: "Clearscope leverages AI to help content marketers and SEO professionals optimize their content for higher search rankings. It provides in-depth keyword research and content grading tools.",
+    url: "https://www.clearscope.io",
+    id: "clearscope",
+    image: "/tool-screenshots/clearscope.png",
+    logo: "/logo/clearscope.png",
+    categories: ['marketing', 'text', 'data-processing'],
+    subcategory: "SEO",
+    tags: ['AI', 'SEO', 'content optimization'],
+    rating: 4.7,
+    visits: 88000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "Content grading: Scores content for keyword coverage and readability.",
+      "Keyword research: Recommends keywords based on live search data.",
+      "Competitor analysis: Analyzes top-ranking pages for target terms.",
+      "Detailed reporting: Provides actionable insights for improvements."
+    ]
+  },
+  {
+    name: "Lately AI",
+    description: "Lately AI transforms long-form content into dozens of social media posts, using AI to maximize engagement. It helps marketers repurpose blogs, videos, and podcasts for broader reach.",
+    url: "https://www.lately.ai",
+    id: "latelyai",
+    image: "/tool-screenshots/latelyai.png",
+    logo: "/logo/latelyai.png",
+    categories: ['marketing', 'text', 'productivity'],
+    subcategory: "social-media",
+    tags: ['AI', 'social media', 'automation'],
+    rating: 4.3,
+    visits: 35000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "AI content repurposing: Turns long-form content into social posts.",
+      "Brand voice learning: Adapts to your brand's tone and style.",
+      "Multi-channel publishing: Supports posting to various social networks.",
+      "Performance analytics: Measures engagement and content effectiveness."
+    ]
+  },
+  {
+    name: "Pictory",
+    description: "Pictory uses AI to convert long-form content like blogs and webinars into short, branded videos. It's designed for marketers seeking to amplify their content strategy with video.",
+    url: "https://www.pictory.ai",
+    id: "pictory",
+    image: "/tool-screenshots/pictory.png",
+    logo: "/logo/pictory.png",
+    categories: ['marketing', 'video', 'productivity'],
+    subcategory: "video",
+    tags: ['AI', 'video', 'content repurposing'],
+    rating: 4.4,
+    visits: 420000,
+    dateAdded: "2025-06-11",
+    isPremium: "Freemium",
+    features: [
+      "Automated video creation: Converts text to engaging videos.",
+      "Branding tools: Add logos, colors, and templates easily.",
+      "Caption generation: Creates accurate video captions with AI.",
+      "Bulk processing: Turn multiple blog posts into videos at once."
+    ]
+  },
+  {
+    name: "Persado",
+    description: "Persado uses AI and machine learning to generate and optimize marketing language for email, SMS, and digital ads, improving engagement and conversion rates.",
+    url: "https://www.persado.com",
+    id: "persado",
+    image: "/tool-screenshots/persado.png",
+    logo: "/logo/persado.png",
+    categories: ['marketing', 'text'],
+    subcategory: "email",
+    tags: ['AI', 'copywriting', 'personalization'],
+    rating: 4.6,
+    visits: 23000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "AI-powered language generation: Creates high-converting marketing copy.",
+      "A/B testing: Tests variations to optimize engagement.",
+      "Personalization: Tailors messaging for each audience segment.",
+      "Performance analytics: Tracks effectiveness of messaging."
+    ]
+  },
+  {
+    name: "Dynamic Yield",
+    description: "Dynamic Yield offers AI-powered personalization and recommendation solutions for websites and apps, enabling marketers to deliver tailored experiences and increase conversions.",
+    url: "https://www.dynamicyield.com",
+    id: "dynamicyield",
+    image: "/tool-screenshots/dynamicyield.png",
+    logo: "/logo/dynamicyield.png",
+    categories: ['marketing', 'data-processing', 'productivity'],
+    subcategory: "personalization",
+    tags: ['AI', 'personalization', 'recommendation'],
+    rating: 4.5,
+    visits: 87000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "Personalized recommendations: AI suggests products and content.",
+      "A/B testing: Test different variations for user segments.",
+      "Segmentation: Advanced targeting based on user behavior.",
+      "Real-time analytics: Measure campaign impact instantly."
+    ]
+  },
+  {
+    name: "Adext AI",
+    description: "Adext AI automates and optimizes digital advertising campaigns across major platforms, leveraging machine learning to maximize ROI by adjusting budgets and targeting.",
+    url: "https://www.adext.com",
+    id: "adextai",
+    image: "/tool-screenshots/adextai.png",
+    logo: "/logo/adextai.png",
+    categories: ['marketing', 'data-processing'],
+    subcategory: "ads",
+    tags: ['AI', 'ads', 'automation'],
+    rating: 4.2,
+    visits: 21000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "Cross-platform ad management: Supports Google, Facebook, and more.",
+      "Automated budget allocation: AI optimizes spend in real time.",
+      "Audience targeting: Finds the best audiences for each ad.",
+      "Performance reporting: Detailed analytics for campaign outcomes."
+    ]
+  },
+  {
+    name: "Play.ht",
+    description: "Play.ht uses advanced AI to convert text into natural-sounding audio for podcasts, articles, and marketing content. It supports multiple languages and voice styles.",
+    url: "https://www.play.ht",
+    id: "playht",
+    image: "/tool-screenshots/playht.png",
+    logo: "/logo/playht.png",
+    categories: ['marketing', 'audio'],
+    subcategory: "audio",
+    tags: ['AI', 'audio', 'text-to-speech'],
+    rating: 4.5,
+    visits: 480000,
+    dateAdded: "2025-06-11",
+    isPremium: "Freemium",
+    features: [
+      "Text-to-speech: Converts text into realistic AI voices.",
+      "Multilingual support: Over 100 languages and accents.",
+      "Downloadable audio: Export files for podcasts or ads.",
+      "Custom voice creation: Build unique brand voices."
+    ]
+  },
+  {
+    name: "Mutiny",
+    description: "Mutiny is an AI-driven personalization platform for B2B marketers, making it easy to tailor website content and campaigns to individual visitors for better conversion.",
+    url: "https://www.mutinyhq.com",
+    id: "mutiny",
+    image: "/tool-screenshots/mutiny.png",
+    logo: "/logo/mutiny.png",
+    categories: ['marketing', 'data-processing', 'productivity'],
+    subcategory: "personalization",
+    tags: ['AI', 'B2B', 'personalization'],
+    rating: 4.4,
+    visits: 15000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "Real-time website personalization: Tailors content for each visitor.",
+      "Segmented campaigns: Target specific business audiences.",
+      "A/B testing: Experiment with different website messages.",
+      "Analytics dashboard: Monitor conversion and engagement rates."
+    ]
+  },
+  {
+    name: "Influencity",
+    description: "Influencity is an AI-powered influencer marketing platform that helps brands discover, analyze, and manage collaborations with influencers to maximize campaign results.",
+    url: "https://www.influencity.com",
+    id: "influencity",
+    image: "/tool-screenshots/influencity.png",
+    logo: "/logo/influencity.png",
+    categories: ['marketing', 'data-processing'],
+    subcategory: "influencer",
+    tags: ['AI', 'influencer', 'analytics'],
+    rating: 4.1,
+    visits: 49000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "Influencer discovery: Find relevant creators for your brand.",
+      "Campaign management: Organize and track influencer campaigns.",
+      "Audience analysis: Deep insights into influencer followers.",
+      "Performance metrics: Measure ROI and campaign success."
+    ]
+  },
+  {
+    name: "INK",
+    description: "INK is an AI-powered platform for writing and optimizing content for SEO, helping marketers improve rankings, increase engagement, and drive organic traffic.",
+    url: "https://inkforall.com",
+    id: "ink",
+    image: "/tool-screenshots/ink.png",
+    logo: "/logo/ink.png",
+    categories: ['marketing', 'text'],
+    subcategory: "SEO",
+    tags: ['AI', 'SEO', 'writing'],
+    rating: 4.4,
+    visits: 56000,
+    dateAdded: "2025-06-11",
+    isPremium: "Freemium",
+    features: [
+      "SEO optimization: Real-time scoring for content improvement.",
+      "AI writing assistant: Generates and edits text efficiently.",
+      "Built-in plagiarism checker: Ensures content originality.",
+      "Topic research: Recommends keywords and related topics."
+    ]
+  },
+  {
+    name: "Drift",
+    description: "Drift is an AI-powered chatbot and conversational marketing platform that helps businesses engage website visitors, qualify leads, and accelerate sales pipelines.",
+    url: "https://www.drift.com",
+    id: "drift",
+    image: "/tool-screenshots/drift.png",
+    logo: "/logo/drift.png",
+    categories: ['marketing', 'productivity'],
+    subcategory: "chatbot",
+    tags: ['AI', 'chatbot', 'conversational'],
+    rating: 4.3,
+    visits: 150000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "Conversational marketing: Engage visitors with real-time chat.",
+      "Lead qualification: AI filters and prioritizes sales leads.",
+      "Automated meeting booking: Schedule calls directly from chat.",
+      "Integrations: Connects with major CRM and marketing tools."
+    ]
+  },
+  {
+    name: "Scalenut",
+    description: "Scalenut is an AI-powered content research and writing platform that helps marketers plan, create, and optimize SEO content to drive organic growth.",
+    url: "https://www.scalenut.com",
+    id: "scalenut",
+    image: "/tool-screenshots/scalenut.png",
+    logo: "/logo/scalenut.png",
+    categories: ['marketing', 'text'],
+    subcategory: "SEO",
+    tags: ['AI', 'SEO', 'content'],
+    rating: 4.3,
+    visits: 59000,
+    dateAdded: "2025-06-11",
+    isPremium: "Freemium",
+    features: [
+      "AI content research: Provides keyword and topic suggestions.",
+      "SEO writing assistant: Optimizes content for higher rankings.",
+      "Content briefs: Generates detailed outlines for articles.",
+      "Competitor analysis: Benchmarks against top competitors."
+    ]
+  },
+  {
+    name: "Flick",
+    description: "Flick is an AI-powered tool for Instagram marketers, providing hashtag research, scheduling, and analytics to improve the reach and performance of social posts.",
+    url: "https://www.flick.social",
+    id: "flick",
+    image: "/tool-screenshots/flick.png",
+    logo: "/logo/flick.png",
+    categories: ['marketing', 'productivity'],
+    subcategory: "social-media",
+    tags: ['AI', 'Instagram', 'analytics'],
+    rating: 4.2,
+    visits: 31000,
+    dateAdded: "2025-06-11",
+    isPremium: "Premium",
+    features: [
+      "Hashtag research: Find the best hashtags for your posts.",
+      "Post scheduling: Plan Instagram content in advance.",
+      "Analytics: Track engagement and follower growth.",
+      "Content ideas: AI suggests trending topics and captions."
+    ]
   }
 ];
 
