@@ -1,53 +1,75 @@
+"use client";
+import { useState } from "react";
 import Link from "next/link"
 import ToolCard from "@/components/tool-card"
 import CategoryFilter from "@/components/category-filter"
 import { mockTools } from "@/lib/data"
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
-import { Sparkles } from "lucide-react"
-
-export const metadata = {
-  title: "AITools.ninja - Find the Best AI Tools for Every Use Case",
-  description: "Your comprehensive directory of AI tools for every use case. Find, compare, and choose the perfect AI solution for your needs.",
-  openGraph: {
-    title: "AITools.ninja - Find the Best AI Tools for Every Use Case",
-    description: "Your comprehensive directory of AI tools for every use case. Find, compare, and choose the perfect AI solution for your needs.",
-    url: "https://aitools.ninja/",
-    siteName: "AITools.ninja",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "AITools.ninja - Find the Best AI Tools for Every Use Case",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "AITools.ninja - Find the Best AI Tools for Every Use Case",
-    description: "Your comprehensive directory of AI tools for every use case. Find, compare, and choose the perfect AI solution for your needs.",
-    images: ["/og-image.png"],
-    site: "@aitoolsninja",
-  },
-  alternates: {
-    canonical: "https://aitools.ninja/",
-  },
-};
+import { Sparkles, Star, CheckCircle } from "lucide-react"
 
 export default function Home() {
+  const [prompt, setPrompt] = useState("");
+  const [results, setResults] = useState<any[]>([]);
+  const [intro, setIntro] = useState<string>("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+    setError("");
+    setResults([]);
+    setIntro("");
+    setSubmitted(true);
+    try {
+      const res = await fetch("/api/recommend", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt }),
+      });
+      const data = await res.json();
+      if (data.error) throw new Error(data.error);
+      if (Array.isArray(data?.recommendations) && data.recommendations.length > 0) {
+        setResults(data.recommendations);
+        setIntro(data.intro || "");
+      } else {
+        setError("No recommendations found");
+      }
+    } catch (err: any) {
+      setError(err.message || "Something went wrong");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Top 3 recommended tools
+  const topTools = results.filter(r => r?.tool?.id).slice(0, 3);
+  const mainTool = topTools[0]?.tool;
+  const otherTools = topTools.slice(1);
+  // Find 3 more tools in the same category as the main tool, excluding the top 3
+  let moreCategoryTools: any[] = [];
+  if (mainTool) {
+    moreCategoryTools = mockTools
+      .filter(tool =>
+        tool.id !== mainTool.id &&
+        !topTools.find(t => t.tool && t.tool.id === tool.id) &&
+        tool.categories.some((cat: string) => mainTool.categories.includes(cat))
+      )
+      .slice(0, 3);
+  }
+
   // Get the newest tools (last 5 added)
   const newTools = [...mockTools]
     .sort((a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime())
-    .slice(0, 5)
+    .slice(0, 5);
 
   // Get the most visited tools (top 5)
-  const mostVisited = [...mockTools].sort((a, b) => b.visits - a.visits).slice(0, 5)
+  const mostVisited = [...mockTools].sort((a, b) => b.visits - a.visits).slice(0, 5);
 
   // Get the top rated tools (top 5)
-  const topRated = [...mockTools].sort((a, b) => b.rating - a.rating).slice(0, 5)
+  const topRated = [...mockTools].sort((a, b) => b.rating - a.rating).slice(0, 5);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -79,7 +101,7 @@ export default function Home() {
                 Find your AI MATCH!
               </h2>
               <p className="text-lg text-gray-600 mb-6">Whatever you need, there's an AI for it!</p>
-              <form action="/match-results" method="GET" className="space-y-4">
+              <form action="/recommendation" method="GET" className="space-y-4">
                 <Textarea
                   placeholder="Describe what you're trying to accomplish..."
                   className="min-h-[150px] resize-none"
@@ -93,6 +115,122 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Results Section */}
+        {submitted && (
+          <section className="w-full bg-gradient-to-br from-purple-100 via-white to-blue-100 rounded-3xl shadow-xl border border-purple-200 p-12 flex flex-col gap-12 items-stretch relative overflow-hidden mb-12">
+            {loading && (
+              <div className="text-center">
+                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600 mx-auto mb-4"></div>
+                <p className="text-lg text-gray-600">Finding your perfect AI match...</p>
+              </div>
+            )}
+            {!loading && !error && results.length > 0 && (
+              <>
+                <div className="mb-6">
+                  <h2 className="text-2xl font-bold text-gray-800 mb-2">Your Research</h2>
+                  <div className="bg-white rounded-lg px-6 py-4 text-lg text-gray-700 shadow-sm border border-gray-100">{prompt}</div>
+                </div>
+                {/* Purple info box for intro */}
+                {intro && (
+                  <div className="mb-8">
+                    <div className="bg-purple-50 border border-purple-200 rounded-lg px-6 py-4">
+                      <p className="text-lg text-gray-800 leading-relaxed">
+                        {(() => {
+                          const firstPeriod = intro.indexOf('.') !== -1 ? intro.indexOf('.') + 1 : intro.length;
+                          const firstSentence = intro.slice(0, firstPeriod);
+                          const rest = intro.slice(firstPeriod);
+                          const highlight = (text: string) =>
+                            text.replace(/\b(newsletter|AI|tools?|writing|content|design|engaging|fun|easy|professional)\b/gi, match => `<span class='font-semibold text-purple-700'>${match}</span>`);
+                          return <span><b>{firstSentence}</b>{' '}<span dangerouslySetInnerHTML={{ __html: highlight(rest) }} /></span>;
+                        })()}
+                      </p>
+                    </div>
+                  </div>
+                )}
+                <div className="flex flex-col md:flex-row gap-12 md:gap-16">
+                  {/* Left side - Top 3 recommendations as a clean list */}
+                  <div className="md:w-1/2 flex flex-col gap-8">
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Top Recommendations</h3>
+                    <div className="flex flex-col gap-6">
+                      {topTools.map((item, idx) => (
+                        item?.tool?.id && (
+                          <div key={item.tool.id} className="flex items-start gap-4">
+                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center text-purple-700 font-bold text-base border border-purple-200">{idx + 1}</div>
+                            <div>
+                              <div className="font-semibold text-lg text-gray-900 mb-1">{item.tool.name}</div>
+                              <p className="text-gray-600 text-base leading-relaxed">{item.explanation}</p>
+                            </div>
+                          </div>
+                        )
+                      ))}
+                    </div>
+                  </div>
+                  {/* Right side - Main recommendation minimal card */}
+                  <div className="md:w-1/2 flex flex-col justify-start">
+                    {mainTool && (
+                      <div className="bg-white rounded-2xl border border-purple-100 p-8 relative overflow-visible">
+                        <div className="flex items-center gap-2 mb-4">
+                          <Star className="h-5 w-5 text-yellow-400" />
+                          <h3 className="text-lg font-bold text-purple-700">Our Top Pick</h3>
+                        </div>
+                        <img src="/top-pick.png" alt="Top Pick" className="absolute top-0 right-0 w-16 h-16 md:w-20 md:h-20 -mt-8 -mr-8 z-10 drop-shadow-lg rounded-full" />
+                        <ToolCard tool={mainTool} />
+                      </div>
+                    )}
+                  </div>
+                </div>
+                {/* Top recommendation and reasons */}
+                {mainTool && (
+                  <div className="bg-white rounded-xl p-8 border border-gray-100 mt-8">
+                    <h3 className="text-xl font-semibold text-gray-900 mb-4">Why {mainTool.name} is Perfect for You</h3>
+                    <div className="space-y-4">
+                      {/* You can add more personalized reasons here if needed */}
+                      {mainTool.features?.map((feature, idx) => (
+                        <div key={idx} className="flex items-start gap-3">
+                        <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                          <p className="text-gray-700">{feature}</p>
+                      </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {/* Other two recommendations as cards */}
+                {otherTools.length > 0 && (
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-4">Other Great Options</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                      {otherTools.map(tool => (
+                        tool?.tool?.id && (
+                          <div key={tool.tool.id} className="bg-white rounded-xl shadow p-6 border border-gray-100">
+                            <ToolCard tool={tool.tool} />
+                            <div className="mt-4">
+                              <p className="text-gray-600">{tool.explanation}</p>
+                            </div>
+                          </div>
+                        )
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {/* More tools from the same category */}
+                {moreCategoryTools.length > 0 && (
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-4">More in this Category</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                      {moreCategoryTools.map(tool => (
+                        <ToolCard key={tool.id} tool={tool} />
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </>
+            )}
+            {!loading && !error && results.length === 0 && (
+              <div className="text-center text-gray-600">No recommendations yet. Submit your query above!</div>
+            )}
+          </section>
+        )}
 
         {/* Category Filter */}
         <section className="mb-16">

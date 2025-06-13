@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import ToolCard from "@/components/tool-card";
@@ -7,14 +7,24 @@ import { Textarea } from "@/components/ui/textarea";
 import { Sparkles, ArrowLeft, Star, CheckCircle } from "lucide-react";
 import Link from "next/link";
 import { mockTools } from "@/lib/data";
+import { useSearchParams } from "next/navigation";
 
 export default function RecommendationPage() {
-  const [prompt, setPrompt] = useState("");
+  const searchParams = useSearchParams();
+  const query = searchParams.get("query") || "";
+  const [prompt, setPrompt] = useState(query);
   const [results, setResults] = useState<any[]>([]);
   const [intro, setIntro] = useState<string>("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [submitted, setSubmitted] = useState(false);
+
+  useEffect(() => {
+    if (query) {
+      setPrompt(query);
+      handleSubmit(new Event("submit") as any);
+    }
+  }, [query]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
