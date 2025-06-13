@@ -1684,27 +1684,6 @@ export const mockTools: Tool[] = [
     ]
   },
   {
-    name: "HeyGen",
-    description: "Create realistic talking avatar videos with voice sync and translation.",
-    url: "https://www.heygen.com",
-    id: "heygen",
-    image: "/tool-screenshots/heygen.png",
-    logo: "/logo/heygen.png",
-    categories: ["video"],
-    subcategory: "Avatar Videos with Lip Sync",
-    tags: ["talking_avatar", "video_translation", "voice_sync", "corporate_videos", "influencer_tools"],
-    rating: 4.5,
-    visits: 4800000,
-    dateAdded: "2023-06-01",
-    isPremium: "Premium",
-    features: [
-      "AI Avatars: Create videos with AI-generated avatars.",
-      "Text-to-Video: Convert text scripts into videos with avatars.",
-      "Multilingual Voiceovers: Generate voiceovers in multiple languages.",
-      "Customizable Avatars: Personalize avatars to match branding needs."
-    ]
-  },
-  {
     name: "Databricks",
     description: "Unified data analytics platform for big data and AI workloads.",
     url: "https://www.databricks.com",
@@ -2654,28 +2633,6 @@ export const mockTools: Tool[] = [
     isPremium: "Freemium",
     features: [
       "AI audio processing: Zonos AI supports automated audio analysis and enhancements.",
-      "Transcription support: Provides tools for converting speech to text.",
-      "Noise reduction: Reduces unwanted sounds from audio input.",
-      "Voice synthesis: Can generate or clone voices using AI models.",
-      "User-friendly interface: Simple design for creators and professionals."
-    ]
-  },
-  {
-    name: "Tavus",
-    description: "An AI video generation platform that personalizes videos by creating realistic digital twins, enabling scalable and engaging video content creation.",
-    url: "https://www.tavus.io/",
-    id: "tavus",
-    image: "/tool-screenshots/tavus.png",
-    logo: "/logo/tavus.png",
-    categories: ['audio'],
-    subcategory: "misc",
-    tags: ['AI', 'audio', 'speech'],
-    rating: 4.3,
-    visits: 50000,
-    dateAdded: "2025-06-04",
-    isPremium: "Freemium",
-    features: [
-      "AI audio processing: Tavus supports automated audio analysis and enhancements.",
       "Transcription support: Provides tools for converting speech to text.",
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
@@ -5685,7 +5642,595 @@ export const mockTools: Tool[] = [
       "Comprehensive analytics for campaign tracking."
     ]
   },
-];
+  {
+      name: "DeepBrain AI",
+      description: "DeepBrain AI lets you generate realistic human avatar videos from scripts in multiple languages. Used for news, training, and explainer content with lifelike AI presenters.",
+      url: "https://www.deepbrain.io",
+      id: "deepbrainai",
+      image: "/tool-screenshots/deepbrainai.png",
+      logo: "/logo/deepbrainai.png",
+      categories: ["video", "marketing"],
+      subcategory: "avatar video",
+      tags: ["AI", "avatar", "news", "training"],
+      rating: 4.3,
+      visits: 26000,
+      dateAdded: "2025-06-13",
+      isPremium: "Premium",
+      features: [
+        "AI news anchor avatars: Instantly generate professional news-style videos with digital presenters, cutting down production time and costs.",
+        "Multilingual support: Create videos in over 80 languages, allowing for global reach and consistent branding across different markets.",
+        "Custom avatars: Upload your own face or select from a diverse array of digital personas to match your company's image or audience.",
+        "Easy script-to-video: Simply paste your script and receive a polished, presenter-led video ready for publishing or internal use."
+      ]
+    },
+    {
+      name: "HeyGen (formerly Movio)",
+      description: "HeyGen is a text-to-video platform that uses AI avatars and lip-sync to create videos from scripts, PowerPoints, or URLs. Features real-time video translation and voice cloning.",
+      url: "https://www.heygen.com",
+      id: "heygen",
+      image: "/tool-screenshots/heygen.png",
+      logo: "/logo/heygen.png",
+      categories: ["video", "marketing"],
+      subcategory: "avatar video",
+      tags: ["AI", "avatar", "translation", "voice"],
+      rating: 4.6,
+      visits: 1620000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "AI avatar generation: Choose from a diverse range of digital humans to present your content, offering a professional and engaging delivery.",
+        "Real-time translation: Instantly translate and dub your videos into multiple languages, breaking down language barriers for a global audience.",
+        "Voice cloning: Use your own voice or select from a library of synthesized voices, enabling consistent branding and personal connection.",
+        "Script-to-video: Convert text, slides, or even URLs directly into compelling video content, streamlining the content creation process."
+      ]
+    },
+    {
+      name: "Elai.io",
+      description: "Elai.io enables users to produce professional AI videos from text with customizable digital avatars. Supports multiple languages and templates for e-learning, marketing, and training.",
+      url: "https://elai.io",
+      id: "elaiio",
+      image: "/tool-screenshots/elaiio.png",
+      logo: "/logo/elaiio.png",
+      categories: ["video", "marketing"],
+      subcategory: "avatar video",
+      tags: ["AI", "avatar", "marketing"],
+      rating: 4.4,
+      visits: 89000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "AI avatar video creation: Turn any text into engaging videos with lifelike digital presenters, saving time and production costs.",
+        "Multi-language support: Produce videos in over 65 languages, reaching diverse global audiences without additional translation work.",
+        "Template library: Access a range of ready-made video templates for marketing, education, and business use cases.",
+        "Bulk video generation: Generate hundreds of personalized videos simultaneously for campaigns, training, or customer outreach."
+      ]
+    },
+    {
+      name: "D-ID",
+      description: "D-ID brings photos to life with AI-powered talking avatars, animating faces from text or audio. Also enables video translation and dubbing for global audiences.",
+      url: "https://www.d-id.com",
+      id: "did",
+      image: "/tool-screenshots/did.png",
+      logo: "/logo/did.png",
+      categories: ["video", "marketing"],
+      subcategory: "talking avatar",
+      tags: ["AI", "avatar", "translation", "dubbing"],
+      rating: 4.5,
+      visits: 540000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "Photo animation: Animate any portrait into a speaking avatar, adding a human touch to otherwise static images for a memorable experience.",
+        "Text-to-video: Generate talking head videos from scripts or audio, making it easy to produce narrated content without cameras or actors.",
+        "AI video dubbing: Effortlessly translate and dub existing videos into different languages, preserving emotion and lip-sync for authenticity.",
+        "API and integrations: Automate avatar creation and video translation for scalable workflows in marketing, education, or customer service."
+      ]
+    },
+    {
+      name: "Hour One",
+      description: "Hour One creates presenter-led videos using AI-generated humans and your script. Ideal for training, onboarding, and product explainers at scale.",
+      url: "https://www.hourone.ai",
+      id: "hourone",
+      image: "/tool-screenshots/hourone.png",
+      logo: "/logo/hourone.png",
+      categories: ["video", "marketing"],
+      subcategory: "avatar video",
+      tags: ["AI", "avatar", "training"],
+      rating: 4.1,
+      visits: 31000,
+      dateAdded: "2025-06-13",
+      isPremium: "Premium",
+      features: [
+        "Script-to-presenter video: Easily transform a written script into a professional video with a realistic AI presenter, reducing production time.",
+        "AI character library: Select from a wide range of digital humans to match your brand or audience demographics.",
+        "Integrations: Use via API or connect with learning management systems to automate large-scale video creation.",
+        "Multi-language support: Expand your training and onboarding reach with videos in multiple languages and accents."
+      ]
+    },
+    {
+      name: "Tavus",
+      description: "Tavus automates personalized video generation for sales and marketing, using AI face and voice cloning for hyper-personalized outreach at scale.",
+      url: "https://www.tavus.io",
+      id: "tavus",
+      image: "/tool-screenshots/tavus.png",
+      logo: "/logo/tavus.png",
+      categories: ["video", "marketing","audio"],
+      subcategory: "personalized video",
+      tags: ["AI", "personalization", "voice"],
+      rating: 4.3,
+      visits: 12000,
+      dateAdded: "2025-06-13",
+      isPremium: "Premium",
+      features: [
+        "Personalized video at scale: Generate thousands of unique, hyper-personalized video messages for every prospect or customer automatically.",
+        "AI face and voice cloning: Use your likeness and voice to deliver truly authentic and individualized outreach videos.",
+        "CRM integration: Connect directly with popular CRM tools to personalize videos using live customer data for each message.",
+        "Analytics dashboard: Measure success with detailed open, view, and engagement tracking for every video sent."
+      ]
+    },
+    {
+      name: "Vidyo.ai",
+      description: "Vidyo.ai repurposes long-form videos into short, social-ready clips using AI, with auto-captioning, highlights, and vertical format conversion.",
+      url: "https://vidyo.ai",
+      id: "vidyoai",
+      image: "/tool-screenshots/vidyoai.png",
+      logo: "/logo/vidyoai.png",
+      categories: ["video", "marketing", "productivity"],
+      subcategory: "repurposing",
+      tags: ["AI", "clips", "social media"],
+      rating: 4.7,
+      visits: 170000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "AI highlight detection: Automatically analyzes videos to find the most engaging moments, perfect for sharing on social media.",
+        "Auto-captioning: Generates accurate, on-brand subtitles for every clip, improving accessibility and engagement.",
+        "Format conversion: Instantly adapt content for TikTok, Instagram, or YouTube by converting to vertical, square, or horizontal formats.",
+        "Batch processing: Process and export dozens of clips from long-form content in a fraction of the time."
+      ]
+    },
+    {
+      name: "Opus Clip",
+      description: "Opus Clip harnesses AI to repurpose long videos into viral short clips, auto-selecting the most engaging segments for TikTok, Reels, and Shorts.",
+      url: "https://www.opus.pro",
+      id: "opusclip",
+      image: "/tool-screenshots/opusclip.png",
+      logo: "/logo/opusclip.png",
+      categories: ["video", "marketing", "productivity"],
+      subcategory: "repurposing",
+      tags: ["AI", "clips", "social media"],
+      rating: 4.6,
+      visits: 210000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "Viral moment detection: AI analyzes videos to identify and extract the most engaging, shareable moments.",
+        "Auto captions: Automatically adds animated, visually appealing captions to increase watch time and accessibility.",
+        "Highlight reels: Generates multiple short clips from a single long video, maximizing content value.",
+        "Platform optimization: Exports clips in formats tailored for TikTok, YouTube Shorts, and Instagram Reels."
+      ]
+    },
+    {
+      name: "Gling",
+      description: "Gling is an AI video editor for YouTubers that automatically removes silences, bad takes, and stutters, speeding up the editing process for vlogs and interviews.",
+      url: "https://www.gling.ai",
+      id: "gling",
+      image: "/tool-screenshots/gling.png",
+      logo: "/logo/gling.png",
+      categories: ["video", "productivity"],
+      subcategory: "editing",
+      tags: ["AI", "editing", "YouTube"],
+      rating: 4.3,
+      visits: 13000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "Silence removal: Uses AI to detect and cut out pauses and dead air, making videos more engaging and concise.",
+        "Bad take detection: Identifies and removes mistakes, retakes, or repeated lines for a polished final product.",
+        "Timeline export: Provides clean project files for further editing in your favorite NLE.",
+        "Batch processing: Edit multiple videos in one go, saving countless hours for creators."
+      ]
+    },
+    {
+      name: "Papercup",
+      description: "Papercup uses AI for video dubbing and translation, producing high-quality synthetic voices in dozens of languages for global video localization.",
+      url: "https://www.papercup.com",
+      id: "papercup",
+      image: "/tool-screenshots/papercup.png",
+      logo: "/logo/papercup.png",
+      categories: ["video", "marketing", "audio"],
+      subcategory: "dubbing",
+      tags: ["AI", "dubbing", "translation"],
+      rating: 4.4,
+      visits: 21000,
+      dateAdded: "2025-06-13",
+      isPremium: "Premium",
+      features: [
+        "Automatic dubbing: Translate and voiceover your videos with high-quality AI voices, reducing the need for manual dubbing.",
+        "Emotion-preserving voices: Synthetic voices retain emotional nuance and delivery style for authenticity.",
+        "Global reach: Instantly make your videos accessible in dozens of languages and markets.",
+        "Custom voice library: Choose or commission voices to match your brand, character, or style."
+      ]
+    },
+    {
+      name: "Dubverse",
+      description: "Dubverse is an AI-powered video translation and dubbing platform that enables fast, accurate localization using a global voice library.",
+      url: "https://www.dubverse.ai",
+      id: "dubverse",
+      image: "/tool-screenshots/dubverse.png",
+      logo: "/logo/dubverse.png",
+      categories: ["video", "marketing", "audio"],
+      subcategory: "dubbing",
+      tags: ["AI", "dubbing", "translation"],
+      rating: 4.2,
+      visits: 12000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "AI translation: Converts video speech to subtitles and voice in over 30 languages, opening content to new audiences.",
+        "Voice cloning: Maintain the original speaker’s style and tone for a more authentic dub.",
+        "Fast turnaround: Get dubbed videos in minutes, making localization efficient even for large projects.",
+        "Subtitle and transcript generation: Automated, editable subtitles and full transcripts to complement any video."
+      ]
+    },
+    {
+      name: "Video AI by Wondershare (Virbo)",
+      description: "Virbo by Wondershare offers AI avatar videos, voiceovers, and automated video presentations from scripts. Great for marketing, courses, and content automation.",
+      url: "https://virbo.wondershare.com",
+      id: "virbo",
+      image: "/tool-screenshots/virbo.png",
+      logo: "/logo/virbo.png",
+      categories: ["video", "marketing"],
+      subcategory: "avatar video",
+      tags: ["AI", "avatar", "voiceover"],
+      rating: 4.2,
+      visits: 9000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "AI avatar presenter: Choose from a variety of digital humans to star in your videos, enhancing professionalism and engagement.",
+        "Script-to-video: Simply enter your text and receive a fully narrated and animated video.",
+        "Custom voiceover: Upload your script and select a voice to match your brand persona or audience.",
+        "Template library: Prebuilt templates for marketing, education, business, and more, making video creation fast and easy."
+      ]
+    },
+    {
+      name: "DeepDub",
+      description: "DeepDub is an AI dubbing platform for video translation with emotion-preserving synthetic voices, enabling global video content localization.",
+      url: "https://deepdub.ai",
+      id: "deepdub",
+      image: "/tool-screenshots/deepdub.png",
+      logo: "/logo/deepdub.png",
+      categories: ["video", "audio"],
+      subcategory: "dubbing",
+      tags: ["AI", "dubbing", "translation"],
+      rating: 4.1,
+      visits: 6000,
+      dateAdded: "2025-06-13",
+      isPremium: "Premium",
+      features: [
+        "Emotion-preserving dubbing: AI voices keep the original speaker’s tone, emotion, and intent for a natural translation.",
+        "Multi-language support: Translate and dub content into any major language for global audience expansion.",
+        "Voice cloning: Retain the identity of the original speaker for authenticity and continuity.",
+        "API access: Automate large-scale localization and dubbing workflows for enterprise-level needs."
+      ]
+    },
+    {
+      name: "VideoKen",
+      description: "VideoKen uses AI to summarize, chapter, and index webinars, lectures, and conferences, making long-form video content easily navigable and searchable.",
+      url: "https://www.videoken.com",
+      id: "videoken",
+      image: "/tool-screenshots/videoken.png",
+      logo: "/logo/videoken.png",
+      categories: ["video", "productivity"],
+      subcategory: "summarization",
+      tags: ["AI", "summarization", "education"],
+      rating: 4.2,
+      visits: 8000,
+      dateAdded: "2025-06-13",
+      isPremium: "Premium",
+      features: [
+        "AI video summarization: Condenses long videos into highlight reels or concise summaries, saving viewers time.",
+        "Automatic chaptering: Detects topic changes and creates clickable chapters for easy navigation.",
+        "Searchable transcripts: Generates accurate transcripts and indexes key content for efficient search.",
+        "Embeddable widgets: Add smart indexes and navigation tools to your video platform or website."
+      ]
+    },
+    {
+      name: "Vidby",
+      description: "Vidby is an AI-powered video translation and voiceover tool, supporting 70+ languages for fast and accurate video localization.",
+      url: "https://www.vidby.com",
+      id: "vidby",
+      image: "/tool-screenshots/vidby.png",
+      logo: "/logo/vidby.png",
+      categories: ["video", "marketing", "audio"],
+      subcategory: "translation",
+      tags: ["AI", "translation", "dubbing"],
+      rating: 4.3,
+      visits: 18000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "AI voiceover: Quickly add multi-language narration to your videos, making them accessible worldwide.",
+        "Fast translation: Localize videos in over 70 languages with just a few clicks, no manual work needed.",
+        "Subtitle generation: Automatic, editable subtitles for every video, enhancing SEO and accessibility.",
+        "Speaker detection: Accurately identifies and translates multiple speakers in one video."
+      ]
+    },
+    {
+      name: "Aimages",
+      description: "Aimages is an AI-powered video enhancement platform for upscaling, denoising, and restoring old or low-quality videos, making them look new again.",
+      url: "https://aimages.ai",
+      id: "aimages",
+      image: "/tool-screenshots/aimages.png",
+      logo: "/logo/aimages.png",
+      categories: ["video", "productivity"],
+      subcategory: "enhancement",
+      tags: ["AI", "upscaling", "restoration"],
+      rating: 4.2,
+      visits: 12000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "AI upscaling: Sharpen and enhance low-resolution videos for HD or 4K output.",
+        "Noise reduction: Remove grain, compression artifacts, and visual noise for a clean look.",
+        "Frame interpolation: Smooth choppy or low-FPS footage for more natural motion.",
+        "Restoration: Revive damaged, faded, or old videos using deep learning models."
+      ]
+    },
+    {
+      name: "Neural.love Video Enhancer",
+      description: "Neural.love offers AI-powered upscaling, colorization, and restoration for old or damaged video footage, making your archives shine.",
+      url: "https://neural.love/video-enhancer",
+      id: "neurallove",
+      image: "/tool-screenshots/neurallove.png",
+      logo: "/logo/neurallove.png",
+      categories: ["video", "productivity"],
+      subcategory: "enhancement",
+      tags: ["AI", "upscaling", "restoration"],
+      rating: 4.4,
+      visits: 15000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "AI upscaling: Transform SD or low-quality footage into crisp HD or 4K with advanced deep learning.",
+        "Colorization: Automatically colorize black-and-white videos for a modern, vibrant look.",
+        "Scratch and noise removal: Remove physical and digital imperfections from aged footage.",
+        "Frame interpolation: Generate additional frames for smoother slow-motion or restored framerate."
+      ]
+    },
+    {
+      name: "Peech",
+      description: "Peech is an AI video editor for marketers, offering automated subtitling, branding, and highlight detection to repurpose long-form content for social media.",
+      url: "https://www.peech-ai.com",
+      id: "peech",
+      image: "/tool-screenshots/peech.png",
+      logo: "/logo/peech.png",
+      categories: ["video", "marketing", "productivity"],
+      subcategory: "editing",
+      tags: ["AI", "editing", "subtitles"],
+      rating: 4.2,
+      visits: 8000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "Automatic highlight detection: AI scans and extracts the best moments from your content for social media sharing.",
+        "AI branding: Applies logos, colors, and fonts consistently across all your video content.",
+        "Auto-subtitling: Generates accurate, stylized captions to boost accessibility and engagement.",
+        "Batch video repurposing: Turn webinars or podcasts into dozens of clips for different platforms in one workflow."
+      ]
+    },
+    {
+      name: "LALAL.AI Video Stem Splitter",
+      description: "LALAL.AI uses AI to extract vocals and music from video files, making it easy to remix or edit soundtracks for new projects.",
+      url: "https://www.lalal.ai",
+      id: "lalalai",
+      image: "/tool-screenshots/lalalai.png",
+      logo: "/logo/lalalai.png",
+      categories: ["video", "audio", "productivity"],
+      subcategory: "audio splitting",
+      tags: ["AI", "audio", "stem splitter"],
+      rating: 4.6,
+      visits: 720000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "Audio stem extraction: Precisely separate vocals, instrumentation, drums, and other elements from video or audio files.",
+        "Batch processing: Upload and process multiple video files at once for efficient workflows.",
+        "High-accuracy AI: Maintains excellent sound quality and clarity during the extraction process.",
+        "Multi-format support: Works with a wide range of video and audio file types for maximum flexibility."
+      ]
+    },
+    {
+      name: "Unscreen",
+      description: "Unscreen allows you to remove video backgrounds automatically without a green screen. Ideal for social content, memes, and remote presentations.",
+      url: "https://www.unscreen.com",
+      id: "unscreen",
+      image: "/tool-screenshots/unscreen.png",
+      logo: "/logo/unscreen.png",
+      categories: ["video", "productivity"],
+      subcategory: "background removal",
+      tags: ["AI", "background removal", "editing"],
+      rating: 4.5,
+      visits: 800000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "Automatic background removal: Instantly removes video backgrounds without needing a green screen or manual masking.",
+        "Supports GIF, MOV, MP4: Works with multiple video and animation formats for broad compatibility.",
+        "Batch upload: Process many videos at once for efficient content creation.",
+        "Custom backgrounds: Replace backgrounds with images, colors, or other videos to suit your project."
+      ]
+    },
+    {
+      name: "Munch",
+      description: "Munch uses AI to repurpose video content into multiple short-form clips for social media, with auto captions, highlights, and SEO insights.",
+      url: "https://www.getmunch.com",
+      id: "munch",
+      image: "/tool-screenshots/munch.png",
+      logo: "/logo/munch.png",
+      categories: ["video", "marketing", "productivity"],
+      subcategory: "repurposing",
+      tags: ["AI", "clips", "social media"],
+      rating: 4.4,
+      visits: 18000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "AI highlight selection: Analyzes videos and finds the most engaging moments to create viral-ready clips for social media.",
+        "Auto-captioning: Adds accurate, on-brand subtitles in a variety of styles to increase accessibility and reach.",
+        "SEO scoring: AI evaluates clip content for shareability and discoverability, helping maximize engagement.",
+        "Multi-platform export: Easily export content for TikTok, Reels, YouTube Shorts, and more."
+      ]
+    },
+    {
+      name: "Steve.AI",
+      description: "Steve.AI creates videos from blog posts or scripts using AI-generated scenes, stock footage, and voiceovers, ideal for marketing and content teams.",
+      url: "https://www.steve.ai",
+      id: "steveai",
+      image: "/tool-screenshots/steveai.png",
+      logo: "/logo/steveai.png",
+      categories: ["video", "marketing"],
+      subcategory: "creation",
+      tags: ["AI", "creation", "voiceover"],
+      rating: 4.3,
+      visits: 20000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "Blog-to-video: AI transforms written articles or scripts into animated explainer or promo videos in minutes.",
+        "AI scene generation: Automatically generates relevant, visually engaging scenes to match your script.",
+        "Stock library: Access thousands of royalty-free images, video clips, and music tracks for your projects.",
+        "Voiceover generation: Add realistic AI voice narration in multiple languages and accents."
+      ]
+    },
+    {
+      name: "DeepSwap",
+      description: "DeepSwap is an AI-powered face swapping tool for videos and images, enabling realistic and quick face replacement for memes, parody, and creative edits.",
+      url: "https://www.deepswap.ai",
+      id: "deepswap",
+      image: "/tool-screenshots/deepswap.png",
+      logo: "/logo/deepswap.png",
+      categories: ["video", "productivity"],
+      subcategory: "face swap",
+      tags: ["AI", "face swap", "editing"],
+      rating: 4.2,
+      visits: 85000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "Automatic face swapping: Replace faces in videos or images with high accuracy and realism using advanced neural networks.",
+        "Realistic results: Seamless blending and natural expressions for both fun and professional use cases.",
+        "Multiple file formats: Works with MP4, GIF, JPEG, and many other common media file types.",
+        "Fast processing: Upload and process large files quickly, with support for batch jobs."
+      ]
+    },
+    {
+      name: "Reface",
+      description: "Reface is an AI-powered app for face-swapping in short videos, GIFs, and memes. Popular for social media and entertainment.",
+      url: "https://www.reface.ai",
+      id: "reface",
+      image: "/tool-screenshots/reface.png",
+      logo: "/logo/reface.png",
+      categories: ["video"],
+      subcategory: "face swap",
+      tags: ["AI", "face swap", "memes"],
+      rating: 4.5,
+      visits: 1700000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "Face swap for video, GIF, and images: Instantly overlay your face onto trending clips or memes for viral social content.",
+        "Viral meme generator: Pick from thousands of templates to create and share popular memes in seconds.",
+        "Template library: Access a huge collection of prebuilt video and GIF templates for face swap fun.",
+        "Mobile app: Edit and share on the go with iOS and Android support, perfect for creators and influencers."
+      ]
+    },
+    {
+      name: "ClipDrop Relight",
+      description: "ClipDrop Relight uses AI to relight and edit video scenes, enhancing visuals without reshooting. Perfect for post-production and creative projects.",
+      url: "https://clipdrop.co/relight",
+      id: "clipdroprelight",
+      image: "/tool-screenshots/clipdroprelight.png",
+      logo: "/logo/clipdroprelight.png",
+      categories: ["video", "productivity", "design"],
+      subcategory: "enhancement",
+      tags: ["AI", "relighting", "editing"],
+      rating: 4.3,
+      visits: 30000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "AI relighting: Change the lighting conditions in your video after filming, adding drama or correcting bad lighting.",
+        "Color grading: Instantly adjust the mood, tone, and color palette for a polished professional look.",
+        "Object removal: Effortlessly erase unwanted elements from your shots without complex editing skills.",
+        "Web-based editor: Edit videos in the cloud, with no need for high-powered local hardware."
+      ]
+    },
+    {
+      name: "Ssemble",
+      description: "Ssemble is a collaborative online video editor with AI tools for summarizing, transcribing, and enhancing videos, ideal for teams and educators.",
+      url: "https://www.ssemble.com",
+      id: "ssemble",
+      image: "/tool-screenshots/ssemble.png",
+      logo: "/logo/ssemble.png",
+      categories: ["video", "productivity"],
+      subcategory: "editing",
+      tags: ["AI", "editing", "collaboration"],
+      rating: 4.3,
+      visits: 7000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "Collaborative editing: Multiple users can work on the same video project in real time, streamlining team workflows.",
+        "Transcription and subtitles: AI generates editable transcripts and subtitles for improved accessibility and SEO.",
+        "Video summarization: Automatically condense long-form content into short, shareable highlights.",
+        "Plugin marketplace: Extend Ssemble with add-ons for effects, integrations, and custom tools."
+      ]
+    },
+    {
+      name: "Genny by LOVO",
+      description: "Genny by LOVO offers AI voiceovers and text-to-video creation for marketing, e-learning, and creative projects, with dozens of voices and languages.",
+      url: "https://www.lovo.ai/genny",
+      id: "gennybylovo",
+      image: "/tool-screenshots/gennybylovo.png",
+      logo: "/logo/gennybylovo.png",
+      categories: ["video", "audio", "marketing"],
+      subcategory: "voiceover",
+      tags: ["AI", "voiceover", "text-to-video"],
+      rating: 4.4,
+      visits: 62000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "AI voice generator: Access over 500 realistic voices in more than 100 languages and accents for any project.",
+        "Text-to-video: Transform scripts into video presentations with synchronized visuals and narration.",
+        "Voice cloning: Replicate your own or an actor’s voice for highly customized voiceovers.",
+        "Audio editing suite: Edit, mix, and enhance voice tracks to achieve perfect results in every video."
+      ]
+    },
+    {
+      name: "VideoLeap by Lightricks",
+      description: "VideoLeap is a mobile video editing app with AI-powered effects, auto-cutting, and enhancement tools for quick, high-quality video creation.",
+      url: "https://www.videoleapapp.com",
+      id: "videoleap",
+      image: "/tool-screenshots/videoleap.png",
+      logo: "/logo/videoleap.png",
+      categories: ["video", "productivity"],
+      subcategory: "editing",
+      tags: ["AI", "mobile", "editing"],
+      rating: 4.6,
+      visits: 2400000,
+      dateAdded: "2025-06-13",
+      isPremium: "Freemium",
+      features: [
+        "AI-powered effects: Instantly enhance footage and apply creative filters and transitions with a tap.",
+        "Auto-cut and montage: Automatically find and assemble the best clips for polished, professional videos.",
+        "Layered editing: Combine video clips, images, and soundtracks with advanced compositing tools.",
+        "Mobile-first: Edit and publish on the go with full-featured apps for iOS and Android devices."
+      ]
+    }
+  ];
 
 export async function getToolById(id: string) {
   return mockTools.find((tool) => tool.id === id) || null;

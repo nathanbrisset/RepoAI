@@ -11,8 +11,11 @@ import GoogleAnalytics from "@/components/GoogleAnalytics"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "RepoAI - AI Tools Directory",
-  description: "Discover and explore the best AI tools for your needs",
+  title: "Your AI Ninja",
+  description: "Your comprehensive directory of AI tools for every use case.",
+  icons: {
+    icon: "/favicon.ico",
+  },
   metadataBase: new URL('https://repoai.vercel.app'),
   openGraph: {
     title: "RepoAI - AI Tools Directory",
@@ -45,6 +48,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <div className="flex flex-col min-h-screen">
