@@ -105,6 +105,25 @@ export const mockTools: Tool[] = [
       "SEO Optimization: Ensures content is optimized for search engines.",
       "Team Collaboration: Enables multiple users to work on content together.",
       "Art Generation: Creates custom images to complement written content."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Log In",
+        description: "Register on Jasper and access the content dashboard.",
+        links: [{ label: "Jasper", url: "https://www.jasper.ai" }]
+      },
+      {
+        title: "Select Content Type",
+        description: "Choose blog, ad copy, image, or business writing."
+      },
+      {
+        title: "Provide Details & Prompts",
+        description: "Input your topic, brand voice, and any special requirements."
+      },
+      {
+        title: "Generate, Edit & Export",
+        description: "Review content, refine as needed, and export for marketing or business use."
+      }
     ]
   },
   {
@@ -126,6 +145,25 @@ export const mockTools: Tool[] = [
       "Magic Segmentation: Automatically segments leads based on behavior.",
       "Real-Time Triggers: Initiates actions based on real-time user behavior.",
       "Content Generation: Generates brand-consistent and personalized content efficiently."
+    ],
+    howToUse: [
+      {
+        title: "Log In & Access Dashboard",
+        description: "Create an account and open the Conversion.ai dashboard.",
+        links: [{ label: "Conversion.ai", url: "https://www.conversion.ai" }]
+      },
+      {
+        title: "Choose Campaign or Copy Type",
+        description: "Select what type of marketing or sales copy you need."
+      },
+      {
+        title: "Input Brand & Audience Info",
+        description: "Enter relevant details about your product and target audience."
+      },
+      {
+        title: "Generate & Refine Copy",
+        description: "Use AI to produce, review, and personalize your marketing messages."
+      }
     ]
   },
   {
@@ -147,6 +185,25 @@ export const mockTools: Tool[] = [
       "Centralized Content Management: Manages product content from a single platform.",
       "Collaborative Editing: Enables real-time team collaboration on content.",
       "SEO Optimization: Ensures content is optimized for search engines."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Copysmith",
+        description: "Register and log in to Copysmith.",
+        links: [{ label: "CopySmith", url: "https://copysmith.ai" }]
+      },
+      {
+        title: "Choose Content Type",
+        description: "Select product descriptions, ads, or other content formats."
+      },
+      {
+        title: "Provide Product Info",
+        description: "Enter details about your products and any SEO keywords."
+      },
+      {
+        title: "Generate & Collaborate",
+        description: "Review generated content and collaborate with your team."
+      }
     ]
   },
   {
@@ -168,6 +225,25 @@ export const mockTools: Tool[] = [
       "Premium Services: Offers advanced features like batch search and private index.",
       "API Integration: Allows integration with other platforms for automated checks.",
       "User-Friendly Interface: Simple process to check content originality."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Copyscape",
+        description: "Register and log in to Copyscape.",
+        links: [{ label: "Copyscape", url: "https://www.copyscape.com" }]
+      },
+      {
+        title: "Submit Content for Check",
+        description: "Paste or upload your content to scan for originality."
+      },
+      {
+        title: "Review Results",
+        description: "View flagged matches and plagiarism reports."
+      },
+      {
+        title: "Use API for Automation",
+        description: "Integrate Copyscape with your content platform via API (optional)."
+      }
     ]
   },
   {
@@ -189,6 +265,25 @@ export const mockTools: Tool[] = [
       "Writing Style Improvements: Offers suggestions to improve clarity, conciseness, and tone.",
       "Plagiarism Detection: Checks content against billions of web pages to ensure originality.",
       "Tone Detection: Analyzes the tone of your writing to ensure it matches your intended message."
+    ],
+    howToUse: [
+      {
+        title: "Install & Log In",
+        description: "Add Grammarly as a browser extension or use the web editor.",
+        links: [{ label: "Grammarly", url: "https://www.grammarly.com" }]
+      },
+      {
+        title: "Write or Paste Text",
+        description: "Type or paste your content for real-time suggestions."
+      },
+      {
+        title: "Review & Accept Suggestions",
+        description: "Check grammar, clarity, and tone feedback, then accept or ignore changes."
+      },
+      {
+        title: "Export or Share",
+        description: "Copy, download, or share your improved writing."
+      }
     ]
   },
   {
@@ -210,6 +305,25 @@ export const mockTools: Tool[] = [
       "Grammar Checker: Detects and corrects grammatical errors in your text.",
       "Summarizer: Condenses articles, papers, or documents into key points.",
       "Citation Generator: Automatically generates citations in various styles."
+    ],
+    howToUse: [
+      {
+        title: "Go to QuillBot",
+        description: "Open QuillBot in your browser.",
+        links: [{ label: "QuillBot", url: "https://quillbot.com" }]
+      },
+      {
+        title: "Paste or Write Text",
+        description: "Add the text you want to paraphrase, summarize, or check."
+      },
+      {
+        title: "Select Tool & Mode",
+        description: "Choose paraphrasing, summarizing, or citation generation."
+      },
+      {
+        title: "Review & Copy Output",
+        description: "Copy or export the improved content."
+      }
     ]
   },
   {
@@ -231,6 +345,25 @@ export const mockTools: Tool[] = [
       "Style Editor: Provides suggestions to improve writing style and clarity.",
       "Readability Reports: Analyzes text to ensure it is easy to read and understand.",
       "Integrations: Works with various platforms like MS Word, Google Docs, and more."
+    ],
+    howToUse: [
+      {
+        title: "Install or Access Online",
+        description: "Use the ProWritingAid web editor or install as an extension.",
+        links: [{ label: "ProWritingAid", url: "https://prowritingaid.com" }]
+      },
+      {
+        title: "Paste or Upload Text",
+        description: "Add your writing to get feedback and analysis."
+      },
+      {
+        title: "Review Suggestions & Reports",
+        description: "Check style, grammar, and readability insights."
+      },
+      {
+        title: "Edit & Export",
+        description: "Apply changes and export improved documents."
+      }
     ]
   },
   {
@@ -252,6 +385,25 @@ export const mockTools: Tool[] = [
       "Sentence Structure: Identifies long or hard-to-read sentences.",
       "Passive Voice Detection: Points out passive constructions for revision.",
       "Adverb Highlighting: Flags excessive use of adverbs to tighten prose."
+    ],
+    howToUse: [
+      {
+        title: "Open Hemingway App",
+        description: "Visit the web app or use the desktop version.",
+        links: [{ label: "Hemingway App", url: "https://hemingwayapp.com" }]
+      },
+      {
+        title: "Paste or Write Content",
+        description: "Add your writing to the editor."
+      },
+      {
+        title: "Review Highlights & Suggestions",
+        description: "Check color-coded feedback for readability and style."
+      },
+      {
+        title: "Edit & Export",
+        description: "Make improvements and download or copy the text."
+      }
     ]
   },
   {
@@ -273,6 +425,25 @@ export const mockTools: Tool[] = [
       "Smart Search: Enables quick retrieval of information using natural language.",
       "Integration: Connects with calendars and other tools for seamless workflow.",
       "Collaboration: Allows sharing and collaboration on notes with team members."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Log In",
+        description: "Register and access Mem’s note dashboard.",
+        links: [{ label: "Mem", url: "https://mem.ai" }]
+      },
+      {
+        title: "Create or Import Notes",
+        description: "Take new notes or import from other sources."
+      },
+      {
+        title: "Search & Organize",
+        description: "Use smart search and tagging to organize your knowledge."
+      },
+      {
+        title: "Collaborate & Integrate",
+        description: "Share notes or connect with calendars and tools."
+      }
     ]
   },
   {
@@ -294,6 +465,21 @@ export const mockTools: Tool[] = [
       "Agenda Templates: Provides templates to structure meeting agendas.",
       "Task Management: Assigns and tracks action items from meetings.",
       "Integration: Syncs with calendar and project management tools."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Connect Calendar",
+        description: "Register and integrate Hugo AI with your calendar.",
+        links: [{ label: "Hugo AI", url: "https://hugo.ai" }]
+      },
+      {
+        title: "Schedule & Join Meetings",
+        description: "Use Hugo to take notes and track tasks live."
+      },
+      {
+        title: "Review & Assign Tasks",
+        description: "Check notes and assign or track meeting follow-ups."
+      }
     ]
   },
   {
@@ -315,6 +501,25 @@ export const mockTools: Tool[] = [
       "Custom Adventures: Allows creation of personalized story scenarios.",
       "Multiplayer Mode: Enables collaborative storytelling with others.",
       "AI-Driven Characters: Features characters that respond intelligently to interactions."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up or Log In",
+        description: "Create an account at AI Dungeon.",
+        links: [{ label: "AI Dungeon", url: "https://aidungeon.io" }]
+      },
+      {
+        title: "Start or Join Adventure",
+        description: "Pick or create a scenario and begin your interactive story."
+      },
+      {
+        title: "Interact and Guide Story",
+        description: "Type actions or dialogue to shape the narrative."
+      },
+      {
+        title: "Share and Replay",
+        description: "Share your stories or replay to explore different outcomes."
+      }
     ]
   },
   {
@@ -336,6 +541,25 @@ export const mockTools: Tool[] = [
       "Image-to-Image Translation: Modifies existing images based on new prompts or styles.",
       "Custom Model Training: Allows fine-tuning for specific artistic styles or subjects.",
       "Open-Source Accessibility: Provides flexibility for developers and artists to customize and integrate."
+    ],
+    howToUse: [
+      {
+        title: "Access Stable Diffusion",
+        description: "Visit Stability AI or use a local/hosted instance for image generation.",
+        links: [{ label: "Stable Diffusion", url: "https://stability.ai" }]
+      },
+      {
+        title: "Input Prompt or Image",
+        description: "Provide a text prompt for generation, or upload an image for translation."
+      },
+      {
+        title: "Configure Settings",
+        description: "Adjust parameters such as style, resolution, or seed (if available)."
+      },
+      {
+        title: "Generate & Download",
+        description: "Generate the image and download or use in creative projects."
+      }
     ]
   },
   {
@@ -357,6 +581,25 @@ export const mockTools: Tool[] = [
       "Magic Write: Generates text content for various design needs.",
       "Text-to-Image Tool: Creates images from text prompts.",
       "Background Remover: Automatically removes backgrounds from images."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Open Canva AI",
+        description: "Create an account and access Canva's AI tools via the dashboard.",
+        links: [{ label: "Canva AI", url: "https://canva.com" }]
+      },
+      {
+        title: "Start or Upload Design",
+        description: "Choose a template, start a new design, or upload your own image."
+      },
+      {
+        title: "Use AI Features",
+        description: "Apply Magic Write, text-to-image, or background removal tools."
+      },
+      {
+        title: "Export or Share",
+        description: "Download, print, or share your finished design."
+      }
     ]
   },
   {
@@ -378,6 +621,21 @@ export const mockTools: Tool[] = [
       "Gene Editing: Adjusts specific attributes like age, gender, and mood.",
       "High-Resolution Downloads: Provides high-quality image outputs.",
       "Collaborative Creation: Allows users to work together on image projects."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Start Breeding",
+        description: "Register on Artbreeder and start creating by blending images.",
+        links: [{ label: "Artbreeder", url: "https://artbreeder.com" }]
+      },
+      {
+        title: "Blend or Edit Genes",
+        description: "Mix images or adjust gene sliders for attributes like age, gender, or style."
+      },
+      {
+        title: "Download or Collaborate",
+        description: "Export your creation or collaborate with others in the community."
+      }
     ]
   },
   {
@@ -399,6 +657,25 @@ export const mockTools: Tool[] = [
       "Skin Retouching: Enhances facial features and removes blemishes.",
       "Background Editing: Changes or blurs image backgrounds.",
       "Artistic Filters: Applies various filters for creative effects."
+    ],
+    howToUse: [
+      {
+        title: "Download Lensa AI",
+        description: "Get the Lensa AI app from App Store or Google Play.",
+        links: [{ label: "Lensa AI", url: "https://lensa-ai.com" }]
+      },
+      {
+        title: "Upload or Take a Photo",
+        description: "Select a selfie or portrait to edit."
+      },
+      {
+        title: "Apply AI Edits",
+        description: "Use Magic Avatars, retouching, or background tools as desired."
+      },
+      {
+        title: "Save & Share",
+        description: "Save the edited image or share directly to social media."
+      }
     ]
   },
   {
@@ -420,6 +697,25 @@ export const mockTools: Tool[] = [
       "Style Customization: Offers various art styles to choose from.",
       "Upscaling: Enhances image resolution.",
       "Prompt Builder: Assists in crafting effective prompts for desired outputs."
+    ],
+    howToUse: [
+      {
+        title: "Access StarryAI",
+        description: "Visit StarryAI to begin generating art or NFTs.",
+        links: [{ label: "StarryAI", url: "https://starryai.com" }]
+      },
+      {
+        title: "Enter Prompt & Select Style",
+        description: "Input a textual prompt and choose an art style."
+      },
+      {
+        title: "Generate & Upscale",
+        description: "Create the artwork, upscale for higher resolution if needed."
+      },
+      {
+        title: "Download or Mint NFT",
+        description: "Export the image or mint as an NFT."
+      }
     ]
   },
   {
@@ -441,6 +737,25 @@ export const mockTools: Tool[] = [
       "Style Variations: Offers different artistic styles for outputs.",
       "High-Quality Outputs: Generates professional-grade images.",
       "Integration with Jasper Suite: Works seamlessly with other Jasper AI tools."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Use Jasper Art",
+        description: "Create an account and start generating images with Jasper Art.",
+        links: [{ label: "Jasper Art", url: "https://www.jasper.ai/art" }]
+      },
+      {
+        title: "Describe the Image",
+        description: "Enter a descriptive text prompt and select the desired style."
+      },
+      {
+        title: "Generate & Refine",
+        description: "Review generated images and refine your prompt or style."
+      },
+      {
+        title: "Download or Use in Jasper",
+        description: "Export the image or use in Jasper's content marketing suite."
+      }
     ]
   },
   {
@@ -462,6 +777,25 @@ export const mockTools: Tool[] = [
       "Facial Expression Enhancement: Adds subtle expressions to static images.",
       "AI Restoration: Improves the quality of aged photographs.",
       "Sharing Options: Easily shares animated photos on social platforms."
+    ],
+    howToUse: [
+      {
+        title: "Access Deep Nostalgia",
+        description: "Go to the Deep Nostalgia tool on MyHeritage.",
+        links: [{ label: "Deep Nostalgia", url: "https://myheritage.com/deep-nostalgia" }]
+      },
+      {
+        title: "Upload a Photo",
+        description: "Select a still image to animate."
+      },
+      {
+        title: "Animate & Enhance",
+        description: "Let AI animate and optionally enhance facial features."
+      },
+      {
+        title: "Save or Share",
+        description: "Download the animated result or share it online."
+      }
     ]
   },
   {
@@ -483,6 +817,25 @@ export const mockTools: Tool[] = [
       "Gender Swap: Alters facial features to appear as a different gender.",
       "Smile Enhancement: Adds smiles to photos.",
       "Hairstyle and Color Changes: Modifies hair appearance."
+    ],
+    howToUse: [
+      {
+        title: "Download FaceApp",
+        description: "Get FaceApp from App Store or Google Play.",
+        links: [{ label: "FaceApp", url: "https://faceapp.com" }]
+      },
+      {
+        title: "Upload or Take a Photo",
+        description: "Select a face photo to edit."
+      },
+      {
+        title: "Apply AI Effects",
+        description: "Choose from aging, gender swap, smile, or hair edit features."
+      },
+      {
+        title: "Save & Share",
+        description: "Download or post the edited image."
+      }
     ]
   },
   {
@@ -504,6 +857,25 @@ export const mockTools: Tool[] = [
       "AWS Service Integration: Tailored snippets for AWS services.",
       "Security Scanning: Detects potential vulnerabilities.",
       "Open Source Attribution: References similar open-source code."
+    ],
+    howToUse: [
+      {
+        title: "Install CodeWhisperer",
+        description: "Add CodeWhisperer extension to your IDE (VS Code, JetBrains, etc).",
+        links: [{ label: "Amazon CodeWhisperer", url: "https://aws.amazon.com/codewhisperer/" }]
+      },
+      {
+        title: "Start Coding",
+        description: "Write code and receive context-aware suggestions."
+      },
+      {
+        title: "Leverage AWS Snippets",
+        description: "Use suggested code for AWS integrations."
+      },
+      {
+        title: "Review Security Feedback",
+        description: "Check for any flagged vulnerabilities or suggestions."
+      }
     ]
   },
   {
@@ -525,6 +897,21 @@ export const mockTools: Tool[] = [
       "Automatic Fix Suggestions: Provides recommendations to fix identified problems.",
       "Integration with Snyk: Works alongside Snyk's other security tools for comprehensive protection.",
       "Support for Multiple Languages: Analyzes code written in various programming languages."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Connect Repo",
+        description: "Register on Snyk, connect your code repository.",
+        links: [{ label: "DeepCode (Snyk Code)", url: "https://snyk.io/product/snyk-code" }]
+      },
+      {
+        title: "Run Code Analysis",
+        description: "Let DeepCode scan your codebase for issues."
+      },
+      {
+        title: "Review & Fix",
+        description: "Examine AI-generated feedback and apply suggested fixes."
+      }
     ]
   },
   {
@@ -546,6 +933,21 @@ export const mockTools: Tool[] = [
       "Identifier-Aware Pretraining: Understands the role of identifiers in code for better context.",
       "Support for Multiple Programming Languages: Trained on diverse codebases to handle various languages.",
       "Transformer-Based Architecture: Utilizes advanced machine learning models for code tasks."
+    ],
+    howToUse: [
+      {
+        title: "Explore CodeT5 on GitHub",
+        description: "Access documentation and code samples for model usage.",
+        links: [{ label: "CodeT5", url: "https://github.com/salesforce/CodeT5" }]
+      },
+      {
+        title: "Install & Load Model",
+        description: "Clone the repo, install requirements, and load the model as instructed."
+      },
+      {
+        title: "Generate or Summarize Code",
+        description: "Use APIs or command-line tools for code generation or summarization tasks."
+      }
     ]
   },
   {
@@ -567,6 +969,21 @@ export const mockTools: Tool[] = [
       "Audio and Video Communication: Facilitates discussions among collaborators.",
       "Support for Multiple Languages: Enables coding in over 10 different programming languages.",
       "Shared Code Execution: Users can execute code within the shared environment."
+    ],
+    howToUse: [
+      {
+        title: "Visit ChatCode",
+        description: "Access the ChatCode platform in your browser.",
+        links: [{ label: "ChatCode", url: "https://chatcodeai.vercel.app/" }]
+      },
+      {
+        title: "Create or Join Session",
+        description: "Start a new coding session or join an existing one."
+      },
+      {
+        title: "Collaborate & Code",
+        description: "Write code, chat, and even make calls within the platform."
+      }
     ]
   },
   {
@@ -588,6 +1005,21 @@ export const mockTools: Tool[] = [
       "Feature Engineering: Provides tools for preprocessing and transforming data.",
       "Model Comparison: Allows easy comparison of different machine learning models.",
       "Low-Code Interface: Designed for users with minimal coding experience."
+    ],
+    howToUse: [
+      {
+        title: "Visit PyCaret",
+        description: "Go to the PyCaret website for docs and installation guides.",
+        links: [{ label: "PyCaret", url: "https://pycaret.org" }]
+      },
+      {
+        title: "Install & Import",
+        description: "Install PyCaret via pip and import in your Python scripts."
+      },
+      {
+        title: "Run AutoML Pipeline",
+        description: "Use PyCaret modules to load data, preprocess, compare, and deploy models."
+      }
     ]
   },
   {
@@ -609,6 +1041,21 @@ export const mockTools: Tool[] = [
       "Model Deployment: Simplifies the process of deploying machine learning models.",
       "Time Series Analysis: Provides tools for forecasting and analyzing time-based data.",
       "Integration with Python: Offers a Python client for advanced users."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Use DataRobot",
+        description: "Create an account to access DataRobot Code tools.",
+        links: [{ label: "DataRobot Code", url: "https://www.datarobot.com" }]
+      },
+      {
+        title: "Upload Data & Optimize",
+        description: "Import your data and let the AI optimize code and models."
+      },
+      {
+        title: "Deploy & Integrate",
+        description: "Deploy optimized solutions or integrate with your projects."
+      }
     ]
   },
   {
@@ -630,6 +1077,21 @@ export const mockTools: Tool[] = [
       "Support for Multiple Languages: Handles code generation in various programming languages.",
       "Transformer-Based Model: Utilizes advanced machine learning architectures for code synthesis.",
       "Open-Source Availability: Accessible for customization and integration into workflows."
+    ],
+    howToUse: [
+      {
+        title: "Explore CodeGen on GitHub",
+        description: "Visit the CodeGen repository for documentation, models, and usage.",
+        links: [{ label: "CodeGen", url: "https://github.com/salesforce/CodeGen" }]
+      },
+      {
+        title: "Clone & Install",
+        description: "Clone the repo and install required dependencies."
+      },
+      {
+        title: "Generate Code",
+        description: "Use the provided scripts or API to generate code from prompts."
+      }
     ]
   },
   {
@@ -651,6 +1113,25 @@ export const mockTools: Tool[] = [
       "Cloud-Native Architecture: Designed for deployment in cloud environments.",
       "Integration with Java: Works seamlessly with Java applications.",
       "Support for BPMN and DMN: Handles Business Process Model and Notation (BPMN) and Decision Model and Notation (DMN)."
+    ],
+    howToUse: [
+      {
+        title: "Access Kogito Documentation",
+        description: "Review the official Kogito docs for setup and deployment guidance.",
+        links: [{ label: "Kogito", url: "https://kogito.kie.org" }]
+      },
+      {
+        title: "Model Business Processes",
+        description: "Use BPMN/DMN editors to design your workflows and decisions."
+      },
+      {
+        title: "Integrate with Java Apps",
+        description: "Embed Kogito services into your Java or cloud-native applications."
+      },
+      {
+        title: "Deploy and Monitor",
+        description: "Deploy to cloud platforms and monitor automation processes."
+      }
     ]
   },
   {
@@ -672,6 +1153,21 @@ export const mockTools: Tool[] = [
       "Modular Architecture: Allows customization and extension of components.",
       "Support for Multimodal Data: Handles text, images, and other data types.",
       "Scalability: Designed to scale with large datasets and high traffic."
+    ],
+    howToUse: [
+      {
+        title: "Explore Jina Documentation",
+        description: "Visit the official docs for installation and starter guides.",
+        links: [{ label: "Jina AI", url: "https://jina.ai" }]
+      },
+      {
+        title: "Build Neural Search Flows",
+        description: "Define flows and executors for text, image, or audio search.",
+      },
+      {
+        title: "Deploy & Scale",
+        description: "Run your search solution on local servers or cloud infrastructure."
+      }
     ]
   },
   {
@@ -693,6 +1189,21 @@ export const mockTools: Tool[] = [
       "Integration with Scikit-Learn: Works alongside popular Python machine learning libraries.",
       "Diagnostic Tools: Offers tools to diagnose issues like overfitting.",
       "Feature Visualization: Helps in understanding the importance and impact of features."
+    ],
+    howToUse: [
+      {
+        title: "Install Yellowbrick",
+        description: "Add Yellowbrick to your Python environment using pip.",
+        links: [{ label: "Yellowbrick", url: "https://www.scikit-yb.org" }]
+      },
+      {
+        title: "Import & Visualize",
+        description: "Import Yellowbrick in your code and call visualizers on scikit-learn models."
+      },
+      {
+        title: "Analyze & Interpret Results",
+        description: "Review plots for diagnostics, feature importance, and model evaluation."
+      }
     ]
   },
   {
@@ -714,6 +1225,21 @@ export const mockTools: Tool[] = [
       "Support for Plugins: Allows extension with custom functionalities.",
       "Contextual Memory: Maintains context across interactions.",
       "Flexible Deployment: Can be integrated into different environments and platforms."
+    ],
+    howToUse: [
+      {
+        title: "Explore Semantic Kernel GitHub",
+        description: "Visit the GitHub repo for code samples and documentation.",
+        links: [{ label: "Semantic Kernel", url: "https://github.com/microsoft/semantic-kernel" }]
+      },
+      {
+        title: "Integrate AI Models",
+        description: "Follow the guides to add AI models and plugins to your application."
+      },
+      {
+        title: "Deploy & Extend",
+        description: "Deploy in your environment and extend with contextual memory and plugins."
+      }
     ]
   },
   {
@@ -735,6 +1261,21 @@ export const mockTools: Tool[] = [
       "Model Training and Deployment: Facilitates the entire machine learning lifecycle.",
       "Support for Various Algorithms: Includes classification, regression, clustering, and more.",
       "Integration with Visual Studio: Provides tools within the Visual Studio environment."
+    ],
+    howToUse: [
+      {
+        title: "Install ML.NET",
+        description: "Install ML.NET via NuGet in your .NET project.",
+        links: [{ label: "ML.NET", url: "https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet" }]
+      },
+      {
+        title: "Train Models",
+        description: "Use ML.NET APIs to train, evaluate, and deploy machine learning models."
+      },
+      {
+        title: "Integrate & Deploy",
+        description: "Add predictions and ML features to your .NET applications."
+      }
     ]
   },
   {
@@ -756,6 +1297,21 @@ export const mockTools: Tool[] = [
       "Easy Integration: Simple APIs for incorporating models into applications.",
       "Support for Multiple Frameworks: Compatible with TensorFlow and PyTorch.",
       "Community Contributions: Active community providing models and support."
+    ],
+    howToUse: [
+      {
+        title: "Install Transformers",
+        description: "Install via pip and explore documentation and model hub.",
+        links: [{ label: "Hugging Face Transformers", url: "https://huggingface.co/docs/transformers" }]
+      },
+      {
+        title: "Load Pretrained Models",
+        description: "Use simple APIs to load models for tasks like text classification, translation, and more."
+      },
+      {
+        title: "Fine-Tune or Deploy",
+        description: "Fine-tune models on your data or deploy to production environments."
+      }
     ]
   },
   {
@@ -777,6 +1333,21 @@ export const mockTools: Tool[] = [
       "Integration with Keras: Works seamlessly with Keras models.",
       "Support for Various Search Algorithms: Includes random search, Bayesian optimization, and more.",
       "Scalability: Can be used for tuning models on large datasets."
+    ],
+    howToUse: [
+      {
+        title: "Install Keras Tuner",
+        description: "Add keras-tuner to your Python environment.",
+        links: [{ label: "Keras Tuner", url: "https://keras.io/keras_tuner" }]
+      },
+      {
+        title: "Define Search Space",
+        description: "Specify hyperparameters and search algorithms in your model pipeline."
+      },
+      {
+        title: "Run Tuning",
+        description: "Execute the search and select the best model configuration."
+      }
     ]
   },
   {
@@ -798,6 +1369,25 @@ export const mockTools: Tool[] = [
       "Voice Cloning: Allows users to create high-fidelity replicas of voices using minimal audio samples.",
       "Custom Voice Design: Offers tools to fine-tune voice attributes like stability and clarity.",
       "Developer-Friendly API: Provides integration capabilities for various applications."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Log In",
+        description: "Register at ElevenLabs and access the web studio or API.",
+        links: [{ label: "ElevenLabs", url: "https://elevenlabs.io" }]
+      },
+      {
+        title: "Select Voice or Clone New",
+        description: "Choose from the library or create a custom cloned voice."
+      },
+      {
+        title: "Generate Speech",
+        description: "Input text, adjust settings, and generate lifelike voice output."
+      },
+      {
+        title: "Download or Integrate",
+        description: "Export audio files or use the API for application integration."
+      }
     ]
   },
   {
@@ -819,6 +1409,25 @@ export const mockTools: Tool[] = [
       "Voice Cloning: Enables creation of custom voices for personalized content.",
       "AI Voice Changer: Transforms recorded voices into professional-sounding narrations.",
       "Seamless Integrations: Compatible with platforms like Canva and Google Slides."
+    ],
+    howToUse: [
+      {
+        title: "Create Account & Access Studio",
+        description: "Register and log in to Murf Studio.",
+        links: [{ label: "Murf.ai", url: "https://murf.ai" }]
+      },
+      {
+        title: "Upload or Input Script",
+        description: "Paste text or upload scripts for voiceover generation."
+      },
+      {
+        title: "Select Voice & Customize",
+        description: "Choose a voice, adjust pitch, speed, and add emphasis."
+      },
+      {
+        title: "Generate & Download",
+        description: "Produce the voiceover and export audio files for use."
+      }
     ]
   },
   {
@@ -840,6 +1449,25 @@ export const mockTools: Tool[] = [
       "Voice Cloning: Allows users to create unique, branded voices.",
       "Genny AI: An intuitive tool for generating voiceovers from text.",
       "Auto Subtitle Generator: Automatically creates subtitles for videos."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Use Genny Studio",
+        description: "Register and log in to Lovo's Genny Studio.",
+        links: [{ label: "Lovo", url: "https://lovo.ai" }]
+      },
+      {
+        title: "Input Script",
+        description: "Type or paste your script for voice generation."
+      },
+      {
+        title: "Select Voice & Language",
+        description: "Pick from hundreds of voices and languages, and preview."
+      },
+      {
+        title: "Generate & Download",
+        description: "Produce, edit, and export the final audio or subtitles."
+      }
     ]
   },
   {
@@ -861,6 +1489,21 @@ export const mockTools: Tool[] = [
       "Wide App Compatibility: Works with platforms like Zoom, Discord, and Skype.",
       "Voice Universe: A collection of diverse voice options for users.",
       "Audio Editing Tools: Includes features like vocal remover and echo reducer."
+    ],
+    howToUse: [
+      {
+        title: "Download & Install Voice.ai",
+        description: "Get the desktop app from the Voice.ai website.",
+        links: [{ label: "Voice.ai", url: "https://voice.ai" }]
+      },
+      {
+        title: "Configure App & Audio Devices",
+        description: "Set up microphone and select target voices or effects."
+      },
+      {
+        title: "Enable Real-Time Voice Changing",
+        description: "Activate the voice changer in your preferred apps."
+      }
     ]
   },
   {
@@ -882,6 +1525,25 @@ export const mockTools: Tool[] = [
       "Voice Cloning: Creates custom voices for various applications.",
       "API Access: Provides developers with tools for integration.",
       "Music Studio: A platform for creating complete songs using AI vocals."
+    ],
+    howToUse: [
+      {
+        title: "Register & Log In",
+        description: "Create an account at Uberduck and access the platform.",
+        links: [{ label: "Uberduck", url: "https://uberduck.ai" }]
+      },
+      {
+        title: "Select Voice/Mode",
+        description: "Choose from TTS, singing, or custom voice creation.",
+      },
+      {
+        title: "Input Script or Lyrics",
+        description: "Type or paste your text or lyrics for generation."
+      },
+      {
+        title: "Generate & Export",
+        description: "Produce audio and download or share your voice creation."
+      }
     ]
   },
   {
@@ -904,6 +1566,25 @@ export const mockTools: Tool[] = [
       "Text-Based Editing: Edit audio and video by editing the transcribed text.",
       "Multi-Track Editing: Supports editing multiple audio and video tracks simultaneously.",
       "Screen Recording: Record and edit screen content easily."
+    ],
+    howToUse: [
+      {
+        title: "Download & Install Descript",
+        description: "Get Descript for your OS or use the web app.",
+        links: [{ label: "Descript", url: "https://descript.com" }]
+      },
+      {
+        title: "Import Media",
+        description: "Add audio, video, or screen recordings for editing."
+      },
+      {
+        title: "Edit by Text",
+        description: "Transcribe, cut, or overdub by editing the transcript."
+      },
+      {
+        title: "Export & Publish",
+        description: "Download the finished project or publish online."
+      }
     ]
   },
   {
@@ -925,6 +1606,25 @@ export const mockTools: Tool[] = [
       "Mic Check: Analyzes microphone setup for optimal recording.",
       "Web-Based Editing: Record, edit, and enhance audio directly in the browser.",
       "Bulk Upload: Process multiple files simultaneously."
+    ],
+    howToUse: [
+      {
+        title: "Access Adobe Podcast Enhance",
+        description: "Go to the website and log in with your Adobe account.",
+        links: [{ label: "Adobe Podcast Enhance", url: "https://podcast.adobe.com" }]
+      },
+      {
+        title: "Upload Audio Files",
+        description: "Add podcast or voice recordings for enhancement."
+      },
+      {
+        title: "Apply Enhancement",
+        description: "Let AI process the audio to remove noise and improve clarity."
+      },
+      {
+        title: "Download Improved Audio",
+        description: "Export the enhanced audio for publishing or further editing."
+      }
     ]
   },
   {
@@ -946,6 +1646,25 @@ export const mockTools: Tool[] = [
       "Voice Cancellation: Eliminates other voices in the background.",
       "Meeting Transcription: Provides real-time transcription of meetings.",
       "Accent Conversion: Adjusts accents in real-time for clearer communication."
+    ],
+    howToUse: [
+      {
+        title: "Download & Install Krisp",
+        description: "Go to the Krisp website and download the app for your OS.",
+        links: [{ label: "Krisp", url: "https://krisp.ai" }]
+      },
+      {
+        title: "Set Up Audio Devices",
+        description: "Select Krisp as your microphone and/or speaker in your conferencing app."
+      },
+      {
+        title: "Enable Noise Cancellation",
+        description: "Toggle on noise or voice cancellation features during calls."
+      },
+      {
+        title: "Use Transcription & Accent Tools",
+        description: "Enable real-time transcription and accent conversion as needed."
+      }
     ]
   },
   {
@@ -967,6 +1686,25 @@ export const mockTools: Tool[] = [
       "Noise & Hum Reduction: Cleans up background noise and hums.",
       "Loudness Normalization: Ensures consistent loudness across files.",
       "Multi-Track Processing: Processes multiple audio tracks simultaneously."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Auphonic",
+        description: "Register on the Auphonic website to access the web app.",
+        links: [{ label: "Auphonic", url: "https://auphonic.com" }]
+      },
+      {
+        title: "Upload Audio Files",
+        description: "Add your recorded audio for post-production processing."
+      },
+      {
+        title: "Configure Processing",
+        description: "Select noise reduction, leveling, and other options."
+      },
+      {
+        title: "Download Processed Audio",
+        description: "Export the finished, balanced audio for publishing."
+      }
     ]
   },
   {
@@ -988,6 +1726,25 @@ export const mockTools: Tool[] = [
       "Spectral Editing: Visual editing of audio frequencies.",
       "Dialogue Isolation: Separates dialogue from background noise.",
       "Mastering Tools: Provides tools for finalizing audio projects."
+    ],
+    howToUse: [
+      {
+        title: "Access Izotope Cascadia Suite",
+        description: "Go to the Izotope Cascadia site and download the tools or plugins.",
+        links: [{ label: "Izotope Cascadia", url: "https://izotope.com/cascadia" }]
+      },
+      {
+        title: "Install in DAW or Standalone",
+        description: "Run the software standalone or install as plugins in your DAW."
+      },
+      {
+        title: "Edit & Master Audio",
+        description: "Apply restoration, spectral editing, and mastering to your tracks."
+      },
+      {
+        title: "Export Final Audio",
+        description: "Render the mastered or restored audio for distribution."
+      }
     ]
   },
   {
@@ -1009,6 +1766,21 @@ export const mockTools: Tool[] = [
       "Customizable Styles: Allows users to set the mood and style of compositions.",
       "Sheet Music Generation: Provides sheet music for compositions.",
       "Integration with DAWs: Compatible with digital audio workstations."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Log In",
+        description: "Create an account at AIVA and access the dashboard.",
+        links: [{ label: "AIVA", url: "https://aiva.ai" }]
+      },
+      {
+        title: "Create a New Composition",
+        description: "Select style, mood, and parameters to generate music."
+      },
+      {
+        title: "Download Audio or Sheet Music",
+        description: "Export your composition as audio or sheet music for DAW use."
+      }
     ]
   },
   {
@@ -1030,6 +1802,25 @@ export const mockTools: Tool[] = [
       "Real-Time Collaboration: Allows multiple users to work on projects simultaneously.",
       "Plugin Support: Supports various audio plugins for enhanced functionality.",
       "Multi-Track Editing: Edit multiple audio tracks within the platform."
+    ],
+    howToUse: [
+      {
+        title: "Access WavTool Online",
+        description: "Go to the WavTool website and launch the browser-based DAW.",
+        links: [{ label: "WavTool", url: "https://wavtool.com" }]
+      },
+      {
+        title: "Start a New Project",
+        description: "Create a new music project or open an existing one."
+      },
+      {
+        title: "Compose and Edit",
+        description: "Use tracks, plugins, and real-time collaboration to compose, record, and edit music."
+      },
+      {
+        title: "Export or Share",
+        description: "Export your finished audio or share the project with collaborators."
+      }
     ]
   },
   {
@@ -1051,6 +1842,25 @@ export const mockTools: Tool[] = [
       "Genre Versatility: Supports various musical genres.",
       "Lyric Integration: Generates lyrics to accompany compositions.",
       "Rapid Composition: Produces complete songs in seconds."
+    ],
+    howToUse: [
+      {
+        title: "Visit Suno Website",
+        description: "Access Suno via their platform to start generating music.",
+        links: [{ label: "Suno", url: "https://suno.ai" }]
+      },
+      {
+        title: "Describe or Select Style",
+        description: "Enter a text prompt or select genre and style for your composition."
+      },
+      {
+        title: "Generate Song",
+        description: "Let the AI create music and lyrics based on your input."
+      },
+      {
+        title: "Download or Share",
+        description: "Export the composition or share it directly."
+      }
     ]
   },
   {
@@ -1072,6 +1882,25 @@ export const mockTools: Tool[] = [
       "Open-Source: Available for public use and modification.",
       "High Accuracy: Delivers precise transcriptions even in challenging conditions.",
       "Real-Time Processing: Transcribes audio in real-time."
+    ],
+    howToUse: [
+      {
+        title: "Install Whisper",
+        description: "Install Whisper from GitHub and set up the environment.",
+        links: [{ label: "Whisper on GitHub", url: "https://github.com/openai/whisper" }]
+      },
+      {
+        title: "Prepare Audio Files",
+        description: "Provide audio files in supported formats."
+      },
+      {
+        title: "Run Transcription",
+        description: "Use CLI or Python interface to transcribe audio."
+      },
+      {
+        title: "Review and Use Output",
+        description: "Retrieve transcriptions in text format for further use."
+      }
     ]
   },
   {
@@ -1093,6 +1922,25 @@ export const mockTools: Tool[] = [
       "Text-to-Speech Conversion: Transforms written content into natural-sounding speech.",
       "Multitrack Recording: Supports recording of separate audio and video tracks for each participant.",
       "Dynamic Speaker Feature: Intelligently switches focus between speakers in video recordings."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up and Access Studio",
+        description: "Register at Podcastle and launch the studio dashboard.",
+        links: [{ label: "Podcastle", url: "https://podcastle.ai" }]
+      },
+      {
+        title: "Record or Upload Content",
+        description: "Create new podcast episodes or upload audio/video for editing."
+      },
+      {
+        title: "Edit and Enhance",
+        description: "Use AI tools for noise reduction, voice cloning, and multitrack editing."
+      },
+      {
+        title: "Export or Publish",
+        description: "Download finished files or publish to podcast platforms."
+      }
     ]
   },
   {
@@ -1114,6 +1962,25 @@ export const mockTools: Tool[] = [
       "Style Customization: Supports a wide range of artistic styles and visual effects.",
       "Community Gallery: Users can explore and remix public creations.",
       "Iterative Prompting: Refine and upscale images through multiple prompt variations."
+    ],
+    howToUse: [
+      {
+        title: "Join Midjourney on Discord",
+        description: "Access Midjourney by joining the Discord server.",
+        links: [{ label: "Midjourney", url: "https://www.midjourney.com" }]
+      },
+      {
+        title: "Enter Text Prompts",
+        description: "Use the /imagine command to create images from text."
+      },
+      {
+        title: "Refine & Upscale",
+        description: "Iteratively adjust prompts and upscale images as needed."
+      },
+      {
+        title: "Download or Remix",
+        description: "Download final images or remix public artworks."
+      }
     ]
   },
   {
@@ -1135,6 +2002,28 @@ export const mockTools: Tool[] = [
       "Inpainting: Edits and extends existing images using AI.",
       "Variations: Creates multiple versions of an image based on a single prompt.",
       "Integration with ChatGPT: Accessible directly within ChatGPT for seamless creative workflows."
+    ],
+    howToUse: [
+      {
+        title: "Access DALL·E",
+        description: "Go to the DALL·E website or use via ChatGPT integration.",
+        links: [
+          { label: "DALL·E", url: "https://openai.com/dall-e" },
+          { label: "ChatGPT", url: "https://chat.openai.com" }
+        ]
+      },
+      {
+        title: "Enter or Edit Prompts",
+        description: "Write descriptive prompts or upload images for inpainting."
+      },
+      {
+        title: "Generate Images & Variations",
+        description: "Review generated images and create variations or edits."
+      },
+      {
+        title: "Download or Integrate",
+        description: "Export images or use them in creative workflows."
+      }
     ]
   },
   {
@@ -1156,6 +2045,25 @@ export const mockTools: Tool[] = [
       "Template Suggestions: Offers tailored templates for various needs.",
       "Content Integration: Incorporates user content into designs seamlessly.",
       "Real-Time Collaboration: Allows multiple users to work on designs simultaneously."
+    ],
+    howToUse: [
+      {
+        title: "Access Canva Magic Design",
+        description: "Sign into Canva and access Magic Design from the dashboard.",
+        links: [{ label: "Canva Magic Design", url: "https://www.canva.com/magic-design" }]
+      },
+      {
+        title: "Start a New Project",
+        description: "Describe your needs and get AI-generated designs and templates."
+      },
+      {
+        title: "Customize & Collaborate",
+        description: "Edit generated designs and collaborate in real-time."
+      },
+      {
+        title: "Download or Publish",
+        description: "Export designs or publish them directly from Canva."
+      }
     ]
   },
   {
@@ -1177,6 +2085,21 @@ export const mockTools: Tool[] = [
       "Style Transfer: Applies different artistic styles to images.",
       "Batch Processing: Handles multiple images simultaneously.",
       "Customizable Outputs: Allows adjustments to generated images."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Recraft",
+        description: "Register for a free account and open the Recraft editor.",
+        links: [{ label: "Recraft", url: "https://www.recraft.ai" }]
+      },
+      {
+        title: "Create or Edit Vector Art",
+        description: "Generate illustrations from prompts or upload and modify images."
+      },
+      {
+        title: "Apply Styles & Export",
+        description: "Customize styles and download assets for use in design projects."
+      }
     ]
   },
   {
@@ -1198,6 +2121,25 @@ export const mockTools: Tool[] = [
       "Style Transfer: Applies artistic styles to existing images.",
       "Community Features: Engages users through challenges and sharing.",
       "Print Options: Offers printing of created artworks."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access NightCafe",
+        description: "Register for a free account at NightCafe Studio.",
+        links: [{ label: "NightCafe", url: "https://creator.nightcafe.studio" }]
+      },
+      {
+        title: "Choose Creation Mode",
+        description: "Select between text-to-image generation or style transfer."
+      },
+      {
+        title: "Enter Prompt or Upload Image",
+        description: "Write a prompt for creation, or upload an image for style transfer."
+      },
+      {
+        title: "Generate, Edit & Share",
+        description: "Let AI create the image, then edit, download, print, or share in the community."
+      }
     ]
   },
   {
@@ -1219,6 +2161,25 @@ export const mockTools: Tool[] = [
       "Background Removal: Eliminates backgrounds from photos.",
       "AI Retouching: Enhances portraits with AI tools.",
       "Artistic Effects: Applies creative filters to images."
+    ],
+    howToUse: [
+      {
+        title: "Go to Fotor AI Image Generator",
+        description: "Access the Fotor AI web platform.",
+        links: [{ label: "Fotor AI", url: "https://www.fotor.com/features/ai-image-generator" }]
+      },
+      {
+        title: "Upload or Create Image",
+        description: "Upload your photo or start from a text prompt to generate one."
+      },
+      {
+        title: "Apply Enhancements",
+        description: "Use AI tools for enhancement, retouching, or background removal."
+      },
+      {
+        title: "Download & Share",
+        description: "Export edited images or share them directly."
+      }
     ]
   },
   {
@@ -1240,6 +2201,21 @@ export const mockTools: Tool[] = [
       "Prompt Inspiration: Provides ideas for image generation.",
       "High-Quality Outputs: Offers detailed and artistic images.",
       "User Gallery: Displays creations from the community."
+    ],
+    howToUse: [
+      {
+        title: "Visit Lexica Art",
+        description: "Go to the Lexica Art website.",
+        links: [{ label: "Lexica Art", url: "https://lexica.art" }]
+      },
+      {
+        title: "Search or Browse Gallery",
+        description: "Type a prompt to search the image database, or explore trending prompts and images."
+      },
+      {
+        title: "Download or Use Prompts",
+        description: "Download images or use prompts for inspiration in other AI tools."
+      }
     ]
   },
   {
@@ -1261,6 +2237,25 @@ export const mockTools: Tool[] = [
       "Style Customization: Offers various artistic styles.",
       "Interactive Editing: Allows real-time adjustments to images.",
       "Community Sharing: Enables users to share and explore artworks."
+    ],
+    howToUse: [
+      {
+        title: "Access Playground AI",
+        description: "Sign up for a free account at Playground AI.",
+        links: [{ label: "Playground AI", url: "https://playgroundai.com" }]
+      },
+      {
+        title: "Create or Edit Image",
+        description: "Start a new image from text or edit/upload an image and apply effects."
+      },
+      {
+        title: "Customize Styles",
+        description: "Choose from a variety of filters, inpainting, and style options."
+      },
+      {
+        title: "Export or Share",
+        description: "Download, publish, or share your creation in the Playground AI community."
+      }
     ]
   },
   {
@@ -1282,6 +2277,25 @@ export const mockTools: Tool[] = [
       "Code Interpreter: Performs data analysis, calculations, and file transformations.",
       "Memory: Remembers user preferences and past interactions (selectively).",
       "Advanced Reasoning: Excels at logic, problem-solving, and creative writing tasks."
+    ],
+    howToUse: [
+      {
+        title: "Go to ChatGPT",
+        description: "Sign in or sign up on ChatGPT's website.",
+        links: [{ label: "ChatGPT", url: "https://chat.openai.com" }]
+      },
+      {
+        title: "Start a New Chat",
+        description: "Type your question, prompt, or task for writing, editing, or brainstorming."
+      },
+      {
+        title: "Use Advanced Tools",
+        description: "Leverage code interpreter, data analysis, and image input features."
+      },
+      {
+        title: "Save or Share Output",
+        description: "Copy, export, or continue chats for future use."
+      }
     ]
   },
   {
@@ -1303,6 +2317,25 @@ export const mockTools: Tool[] = [
       "Safety & Alignment: Optimized for reliable, safe responses.",
       "Creative Writing: Generates detailed, imaginative content.",
       "Helpful for Research: Answers questions based on long-form material."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up or Log In",
+        description: "Access Claude 3 by registering on the website.",
+        links: [{ label: "Claude 3", url: "https://claude.ai" }]
+      },
+      {
+        title: "Upload or Paste Content",
+        description: "Paste large documents, ask research questions, or start creative tasks."
+      },
+      {
+        title: "Leverage Long Context",
+        description: "Use Claude for summarization, analysis, or detailed creative writing."
+      },
+      {
+        title: "Export or Continue",
+        description: "Copy results or continue long-form conversations."
+      }
     ]
   },
   {
@@ -1324,6 +2357,25 @@ export const mockTools: Tool[] = [
       "Accurate Summarization: Extracts key ideas from long documents.",
       "Factual Consistency: Prioritizes fact-checking and evidence-backed output.",
       "Academic Writing: Generates citations, structured arguments, and reports."
+    ],
+    howToUse: [
+      {
+        title: "Access Gemini 1.5 Pro",
+        description: "Visit Gemini's website and sign in with a Google account.",
+        links: [{ label: "Gemini 1.5 Pro", url: "https://gemini.google.com" }]
+      },
+      {
+        title: "Input Documents or Prompts",
+        description: "Paste text, documents, or ask multilingual questions."
+      },
+      {
+        title: "Request Summaries or Translations",
+        description: "Ask for summaries, translations, or academic writing tasks."
+      },
+      {
+        title: "Export or Use Output",
+        description: "Copy, download, or use content in your workflow."
+      }
     ]
   },
   {
@@ -1345,6 +2397,25 @@ export const mockTools: Tool[] = [
       "Enterprise Privacy: Designed for regulated industries (SOC2, HIPAA).",
       "AI Writing Assistant: Edits, rephrases, and drafts high-quality content.",
       "Team Management: Permissions, analytics, and document control."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Set Up Workspace",
+        description: "Register a team or enterprise account and set up a workspace.",
+        links: [{ label: "Writer.com", url: "https://writer.com" }]
+      },
+      {
+        title: "Upload Style Guide & Content",
+        description: "Add brand guidelines and documents for enforcement."
+      },
+      {
+        title: "Edit & Collaborate",
+        description: "Leverage AI for editing, compliance, and workflow management."
+      },
+      {
+        title: "Export or Integrate",
+        description: "Download content or integrate with enterprise tools."
+      }
     ]
   },
   {
@@ -1366,6 +2437,25 @@ export const mockTools: Tool[] = [
       "AI Writer: Assists with blog writing, content generation, and outlines.",
       "Plagiarism Checker: Built-in content originality checker.",
       "Accessibility Checker: Ensures content meets inclusive standards."
+    ],
+    howToUse: [
+      {
+        title: "Register & Access INK",
+        description: "Create an account and start a new content project.",
+        links: [{ label: "INK for All", url: "https://inkforall.com" }]
+      },
+      {
+        title: "Input or Generate Content",
+        description: "Paste or generate blog posts, articles, or marketing copy."
+      },
+      {
+        title: "Optimize for SEO",
+        description: "Use INK's optimization and plagiarism tools."
+      },
+      {
+        title: "Export & Publish",
+        description: "Download or publish the optimized content."
+      }
     ]
   },
   {
@@ -1387,6 +2477,25 @@ export const mockTools: Tool[] = [
       "Summarizer: Condenses long documents or webpages instantly.",
       "AI Writing Tool: Helps generate intros, conclusions, and full drafts.",
       "Grammar & Clarity: Enhances sentence structure and readability."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Add Extension",
+        description: "Create an account and add the Wordtune browser extension or use the web editor.",
+        links: [{ label: "Wordtune", url: "https://www.wordtune.com" }]
+      },
+      {
+        title: "Paste or Write Text",
+        description: "Input the content you want to rewrite or summarize."
+      },
+      {
+        title: "Choose Rewrite or Summarize",
+        description: "Select tone, style, or summarization options."
+      },
+      {
+        title: "Export or Copy Output",
+        description: "Copy results or export to use in your workflow."
+      }
     ]
   },
   {
@@ -1408,6 +2517,25 @@ export const mockTools: Tool[] = [
       "Describe Tool: Adds vivid sensory detail to any sentence.",
       "Brainstorming: Provides creative prompts and idea expansions.",
       "Rewrite & Expand: Adjust pacing, tone, and dialogue."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Sudowrite",
+        description: "Register and log in to Sudowrite's web platform.",
+        links: [{ label: "Sudowrite", url: "https://www.sudowrite.com" }]
+      },
+      {
+        title: "Start a New Project",
+        description: "Begin a story, novel, or creative writing project."
+      },
+      {
+        title: "Use AI Tools",
+        description: "Generate plots, expand ideas, rewrite text, or add vivid descriptions using the Story Engine and Describe Tool."
+      },
+      {
+        title: "Edit, Save & Export",
+        description: "Refine your work and export or share your writing as needed."
+      }
     ]
   },
   {
@@ -1429,6 +2557,25 @@ export const mockTools: Tool[] = [
       "Chatsonic Assistant: Chatbot with real-time web access.",
       "Landing Page Generator: Tailors content for product launches.",
       "Bulk Content Creation: Produce multiple pieces at scale."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Log In",
+        description: "Register on Writesonic and access the dashboard.",
+        links: [{ label: "Writesonic", url: "https://writesonic.com" }]
+      },
+      {
+        title: "Select Content Type",
+        description: "Choose from blog, ad copy, landing page, or chatbot."
+      },
+      {
+        title: "Provide Prompts & Info",
+        description: "Input your product, business, or campaign details."
+      },
+      {
+        title: "Generate & Edit",
+        description: "Review, edit, and export generated content or images."
+      }
     ]
   },
   {
@@ -1450,6 +2597,25 @@ export const mockTools: Tool[] = [
       "Ad Generator: Creates headlines, CTAs, and variations for testing.",
       "Persona Targeting: Tailors copy based on audience segments.",
       "SEO Mode: Optimizes content for rankings and readability."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Log In",
+        description: "Create an account and access the Anyword platform.",
+        links: [{ label: "Anyword", url: "https://anyword.com" }]
+      },
+      {
+        title: "Input Target & Goals",
+        description: "Set your audience, goals, and marketing context."
+      },
+      {
+        title: "Generate Ad Copy",
+        description: "Use AI to create, test, and optimize content with predictive scores."
+      },
+      {
+        title: "Export & Implement",
+        description: "Download or use the generated copy in your campaigns."
+      }
     ]
   },
   {
@@ -1471,6 +2637,21 @@ export const mockTools: Tool[] = [
       "Task Automation: Completes repetitive content workflows.",
       "Brainstorming: Helps ideate content from prompts.",
       "Inline Suggestions: Enhances writing directly in Notion docs."
+    ],
+    howToUse: [
+      {
+        title: "Enable Notion AI",
+        description: "Sign in to Notion and enable AI for your workspace.",
+        links: [{ label: "Notion AI", url: "https://www.notion.so/product/ai" }]
+      },
+      {
+        title: "Use AI Block",
+        description: "Add an AI block or use slash commands to generate, summarize, or rewrite content."
+      },
+      {
+        title: "Edit & Organize",
+        description: "Edit AI outputs and organize your notes, tasks, or projects."
+      }
     ]
   },
   {
@@ -1492,6 +2673,25 @@ export const mockTools: Tool[] = [
       "Text-to-Video Generation: Generates videos from static images or text prompts using the Gen-3 Alpha model.",
       "Real-Time Collaboration: Allows multiple users to work simultaneously on a single project.",
       "Comprehensive Media Tools: Offers a suite of tools for generating and manipulating images, audio, and 3D assets."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Runway",
+        description: "Create an account and open the Runway web platform.",
+        links: [{ label: "Runway", url: "https://runwayml.com" }]
+      },
+      {
+        title: "Import or Create Video",
+        description: "Upload media or use AI for video creation and editing."
+      },
+      {
+        title: "Edit, Generate & Collaborate",
+        description: "Use tools for editing, text-to-video, and real-time collaboration."
+      },
+      {
+        title: "Export Results",
+        description: "Download or share finished videos."
+      }
     ]
   },
   {
@@ -1513,6 +2713,25 @@ export const mockTools: Tool[] = [
       "Blog to Video: Transform blog posts into engaging videos.",
       "Auto Captioning: Automatically generate captions for videos.",
       "Video Summarization: Summarize long videos into short highlights."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Pictory",
+        description: "Register at Pictory and use the dashboard to start a project.",
+        links: [{ label: "Pictory", url: "https://pictory.ai" }]
+      },
+      {
+        title: "Upload Script or Article",
+        description: "Input your article, blog, or script for conversion."
+      },
+      {
+        title: "Edit & Customize Video",
+        description: "Choose scenes, captions, and AI voices."
+      },
+      {
+        title: "Export & Share",
+        description: "Download or publish your finished video."
+      }
     ]
   },
   {
@@ -1534,6 +2753,25 @@ export const mockTools: Tool[] = [
       "Multilingual Support: Supports over 75 languages and 900 voices.",
       "AI Voiceovers: Generate realistic voiceovers for videos.",
       "Script Generation: Automatically generate scripts for videos."
+    ],
+    howToUse: [
+      {
+        title: "Create Account & Access Fliki",
+        description: "Sign up on Fliki and open the creative studio.",
+        links: [{ label: "Fliki", url: "https://fliki.ai" }]
+      },
+      {
+        title: "Input Script or Text",
+        description: "Paste your script, blog, or tweet to begin."
+      },
+      {
+        title: "Choose Voices & Edit",
+        description: "Select voices, languages, and edit scenes or timing."
+      },
+      {
+        title: "Generate & Export",
+        description: "Create the video and export or share as needed."
+      }
     ]
   },
   {
@@ -1555,6 +2793,25 @@ export const mockTools: Tool[] = [
       "AI Video Editing: Automated editing features like auto-captions and filler word removal.",
       "Social Media Integration: Direct exports to platforms like TikTok.",
       "Text-to-Speech: Convert text into speech for videos."
+    ],
+    howToUse: [
+      {
+        title: "Open CapCut",
+        description: "Go to CapCut via browser or mobile app.",
+        links: [{ label: "CapCut", url: "https://www.capcut.com" }]
+      },
+      {
+        title: "Import or Record Video",
+        description: "Upload video files or record directly."
+      },
+      {
+        title: "Edit with AI Tools",
+        description: "Apply filters, templates, auto-captions, and more."
+      },
+      {
+        title: "Export & Share",
+        description: "Download or share directly to social platforms."
+      }
     ]
   },
   {
@@ -1576,6 +2833,25 @@ export const mockTools: Tool[] = [
       "Drag-and-Drop Interface: User-friendly interface for easy video creation.",
       "Extensive Media Library: Access to millions of stock photos and videos.",
       "Customizable Templates: Various templates tailored for different platforms."
+    ],
+    howToUse: [
+      {
+        title: "Create Account & Log In",
+        description: "Sign up on Lumen5 and access the video builder.",
+        links: [{ label: "Lumen5", url: "https://www.lumen5.com" }]
+      },
+      {
+        title: "Input Blog or Script",
+        description: "Paste a blog post or script for video generation."
+      },
+      {
+        title: "Customize & Edit",
+        description: "Adjust visuals, layout, and add branding or music."
+      },
+      {
+        title: "Export & Share",
+        description: "Download or publish your marketing video."
+      }
     ]
   },
   {
@@ -1597,6 +2873,25 @@ export const mockTools: Tool[] = [
       "Auto Subtitles: Automatically generate subtitles for videos.",
       "AI Tools: Features like text-to-video, AI avatars, and more.",
       "Collaboration Features: Collaborate with team members on video projects."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Studio",
+        description: "Create an account on Veed.io and open the editor.",
+        links: [{ label: "Veed.io", url: "https://www.veed.io" }]
+      },
+      {
+        title: "Upload or Record Video",
+        description: "Add video files or record directly in the browser."
+      },
+      {
+        title: "Edit & Enhance",
+        description: "Use AI tools for subtitles, avatars, effects, and more."
+      },
+      {
+        title: "Export & Share",
+        description: "Download or share finished videos online."
+      }
     ]
   },
   {
@@ -1618,6 +2913,25 @@ export const mockTools: Tool[] = [
       "Auto Captioning: Generate captions for videos automatically.",
       "Voice Recognition: Edit videos based on voice commands.",
       "Background Music: Add background music that adapts to the video's tone."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Upload Video",
+        description: "Register at Wisecut and upload a talking-head video.",
+        links: [{ label: "Wisecut", url: "https://www.wisecut.video" }]
+      },
+      {
+        title: "Auto-Edit with AI",
+        description: "Let Wisecut remove silences, add jump cuts, music, and subtitles automatically."
+      },
+      {
+        title: "Edit & Customize",
+        description: "Fine-tune the edit, captions, and effects as needed."
+      },
+      {
+        title: "Export & Share",
+        description: "Download your video or share it on YouTube/social media."
+      }
     ]
   },
   {
@@ -1639,6 +2953,25 @@ export const mockTools: Tool[] = [
       "Customizable Templates: Various templates for different video types.",
       "Music Library: Access to a vast library of licensed music tracks.",
       "Text and Voiceover Integration: Add text overlays and voiceovers to videos."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Start Project",
+        description: "Create an Animoto account and start a new video project.",
+        links: [{ label: "Animoto", url: "https://animoto.com" }]
+      },
+      {
+        title: "Upload Media & Choose Template",
+        description: "Add images, clips, or select a template for your video."
+      },
+      {
+        title: "Customize Video",
+        description: "Edit scenes, add music, text overlays, and voiceovers."
+      },
+      {
+        title: "Export & Share",
+        description: "Download or share your completed video."
+      }
     ]
   },
   {
@@ -1660,6 +2993,25 @@ export const mockTools: Tool[] = [
       "Multilingual Support: Generate videos in multiple languages.",
       "Custom Avatars: Create personalized AI avatars for videos.",
       "Script to Video: Convert scripts into videos with AI avatars."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Start New Project",
+        description: "Register on Colossyan and start a new video project.",
+        links: [{ label: "Colossyan", url: "https://www.colossyan.com" }]
+      },
+      {
+        title: "Upload Script or Slides",
+        description: "Input your training script or upload presentation slides."
+      },
+      {
+        title: "Choose Avatar and Language",
+        description: "Select an AI-generated avatar and set the video language."
+      },
+      {
+        title: "Edit, Generate & Export",
+        description: "Customize scenes, preview the video, and export the finished file for training or HR use."
+      }
     ]
   },
   {
@@ -1681,6 +3033,25 @@ export const mockTools: Tool[] = [
       "Smart Storyboard: Automatically selects the best parts of your footage.",
       "Music Integration: Add music tracks that fit the video's mood.",
       "Social Sharing: Easily share videos on various social media platforms."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Upload Media",
+        description: "Register at Magisto, then upload your video clips or photos.",
+        links: [{ label: "Magisto", url: "https://www.magisto.com" }]
+      },
+      {
+        title: "Choose Style & Music",
+        description: "Select a video style and music track to match your content's mood."
+      },
+      {
+        title: "Let AI Edit",
+        description: "Magisto's AI will automatically create a video by selecting highlights and syncing with music."
+      },
+      {
+        title: "Edit, Download & Share",
+        description: "Make final tweaks, then download or share your video on social platforms."
+      }
     ]
   },
   {
@@ -1702,6 +3073,25 @@ export const mockTools: Tool[] = [
       "Delta Lake: Provides reliable data lakes with ACID transaction support, scalable metadata handling, and unification of streaming and batch data.",
       "Collaborative Notebooks: Enables teams to write and run code together in real time using languages like Python, SQL, Scala, and R.",
       "MLflow Integration: Built-in support for experiment tracking, model versioning, and reproducible machine learning workflows."
+    ],
+    howToUse: [
+      {
+        title: "Start Free Trial or Request Demo",
+        description: "Sign up for a Databricks account or request a demo to access the platform.",
+        links: [{ label: "Databricks", url: "https://www.databricks.com" }]
+      },
+      {
+        title: "Create Workspace & Import Data",
+        description: "Set up a workspace and upload datasets or connect to cloud storage."
+      },
+      {
+        title: "Use Collaborative Notebooks",
+        description: "Write and execute code for data engineering, analysis, or machine learning in Python, SQL, Scala, or R."
+      },
+      {
+        title: "Deploy Models & Monitor",
+        description: "Deploy ML models with MLflow and monitor data pipelines and analytics."
+      }
     ]
   },
   {
@@ -1723,6 +3113,25 @@ export const mockTools: Tool[] = [
       "Data Blending: Combine data from multiple sources for comprehensive analysis.",
       "Forecasting Tools: Utilize built-in forecasting to predict trends and patterns.",
       "Explain Data: Automatically generate explanations for data points to uncover insights."
+    ],
+    howToUse: [
+      {
+        title: "Download Tableau & Start Trial",
+        description: "Get Tableau Desktop or use Tableau Cloud for a free trial.",
+        links: [{ label: "Tableau", url: "https://www.tableau.com" }]
+      },
+      {
+        title: "Connect Data Sources",
+        description: "Import or connect to databases, spreadsheets, or cloud data."
+      },
+      {
+        title: "Create Visualizations",
+        description: "Drag and drop fields to build interactive dashboards and charts."
+      },
+      {
+        title: "Analyze & Share",
+        description: "Use forecasting and data explanations, then publish dashboards online or embed in reports."
+      }
     ]
   },
   {
@@ -1744,6 +3153,25 @@ export const mockTools: Tool[] = [
       "Custom Visualizations: Create and import custom visuals to tailor reports to specific needs.",
       "Natural Language Queries: Ask questions in natural language to get instant answers from your data.",
       "Real-Time Dashboards: Monitor data in real-time with live dashboards and alerts."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Download Power BI",
+        description: "Create a Microsoft account and download Power BI Desktop or use Power BI Service online.",
+        links: [{ label: "Microsoft Power BI", url: "https://powerbi.microsoft.com" }]
+      },
+      {
+        title: "Connect Data Sources",
+        description: "Import data from Excel, SQL databases, cloud sources, etc."
+      },
+      {
+        title: "Build Visualizations",
+        description: "Drag and drop fields onto the canvas to create interactive reports and dashboards."
+      },
+      {
+        title: "Ask Questions & Share",
+        description: "Use natural language queries to explore data and publish dashboards for team access."
+      }
     ]
   },
   {
@@ -1765,6 +3193,25 @@ export const mockTools: Tool[] = [
       "Graph & Chart Creation: Automatically generate visual representations of data.",
       "Research Assistance: Conduct research with AI support for data gathering and summarization.",
       "Mathematical Problem Solving: Solve equations and mathematical problems using AI capabilities."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Julius AI",
+        description: "Register for an account and log in to the Julius AI platform.",
+        links: [{ label: "Julius AI", url: "https://www.julius.ai" }]
+      },
+      {
+        title: "Upload or Link Data",
+        description: "Import your data or connect to data sources for analysis."
+      },
+      {
+        title: "Ask Questions & Analyze",
+        description: "Use natural language or select tools to explore data, generate charts, or get AI-driven insights."
+      },
+      {
+        title: "Download & Share Results",
+        description: "Export analyses or charts for reporting and collaboration."
+      }
     ]
   },
   {
@@ -1786,6 +3233,25 @@ export const mockTools: Tool[] = [
       "Event and Goal Tracking: Allows setting up goals and tracking specific events on your website.",
       "Clean Dashboard: Provides an intuitive, one-page dashboard for quick insights.",
       "Data Export: Offers easy data export options for further analysis."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Add Website",
+        description: "Create a Simple Analytics account and add your website.",
+        links: [{ label: "Simple Analytics", url: "https://simpleanalytics.com" }]
+      },
+      {
+        title: "Integrate Tracking Code",
+        description: "Install the provided JavaScript snippet on your website."
+      },
+      {
+        title: "Monitor Dashboard",
+        description: "View traffic, events, and goals in the clean, privacy-focused dashboard."
+      },
+      {
+        title: "Export Data",
+        description: "Download analytics data for further analysis or compliance."
+      }
     ]
   },
   {
@@ -1807,6 +3273,25 @@ export const mockTools: Tool[] = [
       "Chat Explore™: Interact with data using natural language queries.",
       "Data Preparation Tools: Clean and transform data efficiently.",
       "Generative Reports: Automatically generate insights and reports from data."
+    ],
+    howToUse: [
+      {
+        title: "Register & Log In",
+        description: "Sign up for Akkio and access the platform dashboard.",
+        links: [{ label: "Akkio", url: "https://www.akkio.com" }]
+      },
+      {
+        title: "Upload Data",
+        description: "Import your datasets for analysis and modeling."
+      },
+      {
+        title: "Build Predictive Models",
+        description: "Use no-code tools or Chat Explore™ to create and train AI models."
+      },
+      {
+        title: "Deploy & Share Insights",
+        description: "Deploy models in production or export reports for your team."
+      }
     ]
   },
   {
@@ -1828,6 +3313,25 @@ export const mockTools: Tool[] = [
       "Sentiment Analysis: Determine the sentiment of text data.",
       "Custom Model Training: Train models tailored to specific needs.",
       "Data Visualization: Visualize text analysis results for easier interpretation."
+    ],
+    howToUse: [
+      {
+        title: "Create Account & Log In",
+        description: "Sign up on MonkeyLearn and access the dashboard.",
+        links: [{ label: "MonkeyLearn", url: "https://monkeylearn.com" }]
+      },
+      {
+        title: "Import Text Data",
+        description: "Upload documents, reviews, or other text for analysis."
+      },
+      {
+        title: "Select or Train Models",
+        description: "Use prebuilt models or train custom ones for classification or sentiment analysis."
+      },
+      {
+        title: "Analyze & Visualize",
+        description: "View analytics and visualizations, then export results as needed."
+      }
     ]
   },
   {
@@ -1849,6 +3353,25 @@ export const mockTools: Tool[] = [
       "Custom Dashboards: Create personalized dashboards to monitor key metrics.",
       "Embedded Analytics: Integrate analytics into your own applications.",
       "Scalability: Handle large datasets and scale as your data grows."
+    ],
+    howToUse: [
+      {
+        title: "Contact Sisense & Start Trial",
+        description: "Request a demo or start a free trial on the Sisense website.",
+        links: [{ label: "Sisense", url: "https://www.sisense.com" }]
+      },
+      {
+        title: "Connect Data Sources",
+        description: "Integrate databases, cloud services, and other sources."
+      },
+      {
+        title: "Build Custom Dashboards",
+        description: "Design dashboards and reports tailored to your business needs."
+      },
+      {
+        title: "Deploy & Scale",
+        description: "Embed analytics into apps or scale for big data workflows."
+      }
     ]
   },
   {
@@ -1870,6 +3393,25 @@ export const mockTools: Tool[] = [
       "Data Wrangler: Automate data summarization and transformation.",
       "Data Painter: Interactively explore data through visual means.",
       "Graphic Walker: Embed visual analytics into web and mobile applications."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Kanaries",
+        description: "Register and log in to the Kanaries platform.",
+        links: [{ label: "Kanaries", url: "https://kanaries.net" }]
+      },
+      {
+        title: "Import or Connect Data",
+        description: "Add data files or connect to databases for exploration."
+      },
+      {
+        title: "Auto-Visualize & Analyze",
+        description: "Use AutoVis and Data Wrangler to create charts and summarize data."
+      },
+      {
+        title: "Export & Share",
+        description: "Download visualizations or embed them into applications."
+      }
     ]
   },
   {
@@ -1891,6 +3433,25 @@ export const mockTools: Tool[] = [
       "Natural Language Chat: Interact with codebase using conversational queries.",
       "Smart Actions: Enhance productivity with AI-driven suggestions.",
       "Pull Request Summaries: Generate summaries for code changes."
+    ],
+    howToUse: [
+      {
+        title: "Enable Copilot in IDE",
+        description: "Install GitHub Copilot extension in VS Code, JetBrains, or compatible editors.",
+        links: [{ label: "GitHub Copilot", url: "https://github.com/features/copilot" }]
+      },
+      {
+        title: "Write Code",
+        description: "Start coding as usual—Copilot will suggest completions and snippets."
+      },
+      {
+        title: "Accept or Refine Suggestions",
+        description: "Review and accept, reject, or edit Copilot suggestions in real time."
+      },
+      {
+        title: "Chat & Summarize",
+        description: "Use chat or summary features for deeper code understanding."
+      }
     ]
   },
   {
@@ -1912,6 +3473,21 @@ export const mockTools: Tool[] = [
       "AI Chat in IDE: Assist with coding tasks through natural language.",
       "Security and Compliance: Ensure code privacy and compliance.",
       "Integration with Tools: Work seamlessly with tools like Jira."
+    ],
+    howToUse: [
+      {
+        title: "Install Tabnine Extension",
+        description: "Add Tabnine to your preferred IDE (VS Code, JetBrains, etc.).",
+        links: [{ label: "Tabnine", url: "https://www.tabnine.com" }]
+      },
+      {
+        title: "Write Code",
+        description: "Start coding and accept Tabnine’s real-time suggestions."
+      },
+      {
+        title: "Use AI Chat",
+        description: "Ask questions or request code help directly in your editor."
+      }
     ]
   },
   {
@@ -1933,6 +3509,21 @@ export const mockTools: Tool[] = [
       "In-Editor AI Chat: Technical help inside your IDE.",
       "Broad IDE Support: Works with VS Code, JetBrains, and more.",
       "Free for Individuals: Unlimited access with no cost."
+    ],
+    howToUse: [
+      {
+        title: "Install Codeium Plugin",
+        description: "Add Codeium to your IDE (VS Code, JetBrains, etc.).",
+        links: [{ label: "Codeium", url: "https://codeium.com" }]
+      },
+      {
+        title: "Start Coding",
+        description: "Receive real-time code completions and suggestions."
+      },
+      {
+        title: "Use AI Chat",
+        description: "Ask technical questions or get coding help in-editor."
+      }
     ]
   },
   {
@@ -1954,6 +3545,21 @@ export const mockTools: Tool[] = [
       "Code Quality Suggestions: Flags bad practices and bugs.",
       "Pull Request Reviews: AI feedback in GitHub PRs.",
       "Team Collaboration: Shares refactoring tips team-wide."
+    ],
+    howToUse: [
+      {
+        title: "Install Sourcery Extension",
+        description: "Add Sourcery to your IDE or set up in your CI pipeline.",
+        links: [{ label: "Sourcery", url: "https://sourcery.ai" }]
+      },
+      {
+        title: "Write or Review Python Code",
+        description: "Get real-time refactoring suggestions and code improvements."
+      },
+      {
+        title: "Review Pull Requests",
+        description: "Receive AI-powered feedback on GitHub or GitLab PRs."
+      }
     ]
   },
   {
@@ -1975,6 +3581,21 @@ export const mockTools: Tool[] = [
       "Text Assistance: Improves or rewrites design copy.",
       "Design Automation: Helps with layout and spacing.",
       "Image Suggestions: Recommends visuals for designs."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up and Open Figma",
+        description: "Create a Figma account and start a new design file.",
+        links: [{ label: "Figma", url: "https://www.figma.com/" }]
+      },
+      {
+        title: "Design Interfaces",
+        description: "Use drag-and-drop tools, AI suggestions, and collaborate with your team."
+      },
+      {
+        title: "Leverage AI Features",
+        description: "Use AI to automate layouts, generate text, and suggest images."
+      }
     ]
   },
   {
@@ -1996,6 +3617,21 @@ export const mockTools: Tool[] = [
       "Screenshot Scanner: Turns sketches into editable UIs.",
       "Drag-and-Drop Editor: No-code visual design.",
       "Focus Predictor: Predicts attention hotspots."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Launch Uizard",
+        description: "Create an account and open the Uizard editor.",
+        links: [{ label: "Uizard", url: "https://uizard.io/" }]
+      },
+      {
+        title: "Import Sketch or Wireframe",
+        description: "Upload a sketch or start from scratch with drag-and-drop elements."
+      },
+      {
+        title: "Auto-Design & Edit",
+        description: "Use AI to transform sketches into digital designs and customize layouts."
+      }
     ]
   },
   {
@@ -2017,6 +3653,25 @@ export const mockTools: Tool[] = [
       "Brand Kit Builder: Creates full brand identity packages.",
       "Design Customization: Edit fonts, colors, and layout.",
       "High-Res Downloads: Exports in multiple formats."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up and Start a Logo",
+        description: "Create a Looka account and start a new logo project.",
+        links: [{ label: "Looka", url: "https://looka.com/" }]
+      },
+      {
+        title: "Enter Brand Preferences",
+        description: "Input your business name, industry, and style preferences."
+      },
+      {
+        title: "Customize Logo",
+        description: "Use the editor to adjust colors, fonts, and layouts."
+      },
+      {
+        title: "Download or Purchase Brand Kit",
+        description: "Export logo files or purchase a complete brand kit for business use."
+      }
     ]
   },
   {
@@ -2038,6 +3693,25 @@ export const mockTools: Tool[] = [
       "Image Retouching: Enhances photos with one click.",
       "Templates: Adds styles and frames to images.",
       "Batch Editing: Process many images at once."
+    ],
+    howToUse: [
+      {
+        title: "Go to Designify",
+        description: "Access the Designify website to get started.",
+        links: [{ label: "Designify", url: "https://www.designify.com/" }]
+      },
+      {
+        title: "Upload Images",
+        description: "Drag and drop or select photos for enhancement."
+      },
+      {
+        title: "Apply Enhancements",
+        description: "Let AI remove backgrounds, retouch, or style images automatically."
+      },
+      {
+        title: "Download Enhanced Images",
+        description: "Save processed photos for ecommerce or marketing."
+      }
     ]
   },
   {
@@ -2059,6 +3733,21 @@ export const mockTools: Tool[] = [
       "Code Export: Export components as usable code.",
       "Design Customization: Adjust component styles and layouts.",
       "Integration with Frameworks: Use components with popular frameworks."
+    ],
+    howToUse: [
+      {
+        title: "Access V0 by Vercel",
+        description: "Go to v0.dev and start generating UI components.",
+        links: [{ label: "V0 by Vercel", url: "https://v0.dev" }]
+      },
+      {
+        title: "Enter Prompt",
+        description: "Describe the UI you want to generate using natural language."
+      },
+      {
+        title: "Edit & Export Code",
+        description: "Customize generated React + Tailwind components and export code for your project."
+      }
     ]
   },
   {
@@ -2080,6 +3769,25 @@ export const mockTools: Tool[] = [
       "Color Correction: Fixes tones and lighting.",
       "Noise Reduction: Removes blur and grain.",
       "Preset Modes: Optimizes for print, e-com, and real estate."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Dashboard",
+        description: "Register and log in to Let's Enhance.",
+        links: [{ label: "Let's Enhance", url: "https://letsenhance.io/" }]
+      },
+      {
+        title: "Upload Images",
+        description: "Add the images you want to upscale or enhance."
+      },
+      {
+        title: "Select Enhancement Options",
+        description: "Choose upscaling, color correction, or preset modes."
+      },
+      {
+        title: "Download Enhanced Files",
+        description: "Export high-resolution, improved photos for print or web."
+      }
     ]
   },
   {
@@ -2101,6 +3809,25 @@ export const mockTools: Tool[] = [
       "Multilingual Voiceovers: Supports 140+ languages and accents.",
       "Custom Avatars: Personalize avatars with your own likeness.",
       "Built-in Templates: Prebuilt formats for training, promo, etc."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Create Video",
+        description: "Create a Synthesia account and start a new video project.",
+        links: [{ label: "Synthesia", url: "https://www.synthesia.io" }]
+      },
+      {
+        title: "Enter Script & Select Template",
+        description: "Input your video script and pick a template or avatar."
+      },
+      {
+        title: "Customize Video",
+        description: "Adjust language, voice, backgrounds, and avatars."
+      },
+      {
+        title: "Generate & Download",
+        description: "Let Synthesia process the video, then export the final file."
+      }
     ]
   },
   {
@@ -2122,6 +3849,25 @@ export const mockTools: Tool[] = [
       "Customer Journeys: Design multi-step email sequences.",
       "A/B Testing: Test email subject lines and content.",
       "CRM Features: Manage contacts, segments, and preferences."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Build Campaign",
+        description: "Create a Mailchimp account and start a new email or landing page campaign.",
+        links: [{ label: "Mailchimp", url: "https://mailchimp.com" }]
+      },
+      {
+        title: "Add Content & Design",
+        description: "Write your message, add images, and select templates."
+      },
+      {
+        title: "Set Audience & Schedule",
+        description: "Choose segments and schedule send times."
+      },
+      {
+        title: "Analyze Results",
+        description: "Track opens, clicks, and conversions in analytics."
+      }
     ]
   },
   {
@@ -2143,6 +3889,25 @@ export const mockTools: Tool[] = [
       "Built-in CRM: Sync sales and marketing tasks.",
       "Site Tracking: Monitor user behavior to personalize content.",
       "Email Segmentation: Target messages to audience segments."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Set Up Account",
+        description: "Register on ActiveCampaign and connect your contacts and site.",
+        links: [{ label: "ActiveCampaign", url: "https://www.activecampaign.com" }]
+      },
+      {
+        title: "Create Automations or Campaigns",
+        description: "Design email automations or single campaigns using the builder."
+      },
+      {
+        title: "Segment Audience & Personalize",
+        description: "Set up audience segments and tailor content for each."
+      },
+      {
+        title: "Monitor & Optimize",
+        description: "Track analytics and refine automations for better results."
+      }
     ]
   },
   {
@@ -2164,6 +3929,25 @@ export const mockTools: Tool[] = [
       "Cross-Channel Campaigns: Email, social, ads, and more.",
       "Personalization: Tailor experiences to user behavior.",
       "Analytics: Real-time reporting on campaign performance."
+    ],
+    howToUse: [
+      {
+        title: "Request Demo or Start Trial",
+        description: "Contact Adobe Marketo Engage for a demo or set up a free trial.",
+        links: [{ label: "Adobe Marketo Engage", url: "https://business.adobe.com/products/marketo/adobe-marketo.html" }]
+      },
+      {
+        title: "Import Leads & Set Up Campaigns",
+        description: "Add leads and create campaigns using built-in templates."
+      },
+      {
+        title: "Personalize & Automate",
+        description: "Use automation features to tailor experiences and trigger actions."
+      },
+      {
+        title: "Analyze & Optimize",
+        description: "Review analytics and continually optimize for results."
+      }
     ]
   },
   {
@@ -2185,6 +3969,25 @@ export const mockTools: Tool[] = [
       "AI Writer: Drafts meeting notes, project briefs, and content.",
       "Summarization: Summarizes long threads and comments.",
       "Brainstorming Assistant: Helps ideate and break down projects."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Create Workspace",
+        description: "Register for ClickUp and create a workspace for your team.",
+        links: [{ label: "ClickUp AI", url: "https://clickup.com/ai" }]
+      },
+      {
+        title: "Add Tasks & Projects",
+        description: "Use AI to generate, assign, and schedule tasks."
+      },
+      {
+        title: "Leverage AI Features",
+        description: "Summarize discussions, auto-write briefs, or brainstorm new ideas."
+      },
+      {
+        title: "Track Progress",
+        description: "Monitor project status and team productivity in real time."
+      }
     ]
   },
   {
@@ -2206,6 +4009,25 @@ export const mockTools: Tool[] = [
       "AI Actions: Automates tasks using natural language prompts.",
       "Multi-Step Zaps: Chains multiple tasks together in one automation.",
       "Data Formatting: Cleans and reformats data between apps."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Start a Zap",
+        description: "Register for Zapier and create your first automation (Zap).",
+        links: [{ label: "Zapier", url: "https://zapier.com" }]
+      },
+      {
+        title: "Choose Apps & Triggers",
+        description: "Select the apps, events, and triggers to automate."
+      },
+      {
+        title: "Configure Actions",
+        description: "Set up what happens when triggers fire, using AI as needed."
+      },
+      {
+        title: "Test & Activate",
+        description: "Run tests and activate your Zap for live automation."
+      }
     ]
   },
   {
@@ -2227,6 +4049,25 @@ export const mockTools: Tool[] = [
       "Meeting Booking: Handles meeting coordination with smart availability.",
       "Task Rescheduling: Dynamically shifts tasks based on deadlines.",
       "Focus Time: Protects time for deep work using calendar blocking."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Connect Calendar",
+        description: "Register on Motion and integrate your existing calendars.",
+        links: [{ label: "Motion", url: "https://www.usemotion.com" }]
+      },
+      {
+        title: "Add Tasks & Preferences",
+        description: "Input tasks and set preferences for focus, deadlines, and meetings."
+      },
+      {
+        title: "Let AI Schedule",
+        description: "Allow Motion to automatically organize your calendar."
+      },
+      {
+        title: "Adjust & Track",
+        description: "Review, reschedule, and track productivity as needed."
+      }
     ]
   },
   {
@@ -2248,6 +4089,21 @@ export const mockTools: Tool[] = [
       "Transcription: Converts speech to accurate, searchable text.",
       "AI Summaries: Provides concise highlights of meetings.",
       "Collaboration Tools: Share, comment on, and assign notes within teams."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Connect Calendar",
+        description: "Register, connect your calendar, and invite Fireflies to meetings.",
+        links: [{ label: "Fireflies.ai", url: "https://fireflies.ai" }]
+      },
+      {
+        title: "Record & Transcribe",
+        description: "Let Fireflies join and record meetings, generating transcripts and summaries."
+      },
+      {
+        title: "Review, Share & Collaborate",
+        description: "Use the dashboard to highlight, comment, and distribute notes."
+      }
     ]
   },
   {
@@ -2269,6 +4125,25 @@ export const mockTools: Tool[] = [
       "Web Search Integration: Combines AI and live web data.",
       "Follow-Up Queries: Enables contextual back-and-forth questioning.",
       "Multimodal Inputs: Accepts both text and voice prompts."
+    ],
+    howToUse: [
+      {
+        title: "Go to Perplexity AI",
+        description: "Visit the Perplexity AI website.",
+        links: [{ label: "Perplexity AI", url: "https://www.perplexity.ai" }]
+      },
+      {
+        title: "Ask a Question",
+        description: "Type or speak your query for instant, cited answers."
+      },
+      {
+        title: "Follow Up",
+        description: "Ask follow-up questions for deeper research."
+      },
+      {
+        title: "Review Sources",
+        description: "Check citations for more context."
+      }
     ]
   },
   {
@@ -2290,6 +4165,25 @@ export const mockTools: Tool[] = [
       "Speaker Identification: Labels who said what in group conversations.",
       "Automatic Summaries: Creates outlines of spoken content.",
       "Search & Highlight: Lets users find keywords and key moments."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Invite Otter",
+        description: "Create an Otter.ai account and invite Otter to meetings.",
+        links: [{ label: "Otter.ai", url: "https://otter.ai" }]
+      },
+      {
+        title: "Start Transcription",
+        description: "Begin a live transcription for meetings or lectures."
+      },
+      {
+        title: "Review & Edit",
+        description: "Edit transcripts, add highlights, and assign speakers."
+      },
+      {
+        title: "Export Results",
+        description: "Download or share notes and summaries."
+      }
     ]
   },
   {
@@ -2311,6 +4205,25 @@ export const mockTools: Tool[] = [
       "Habit Scheduling: Maintains routines and habits within your workweek.",
       "Meeting Syncing: Avoids overlap by syncing multiple calendars.",
       "Task Prioritization: Reschedules tasks based on urgency and deadline."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Connect Calendars",
+        description: "Register for Reclaim.ai and link your calendars.",
+        links: [{ label: "Reclaim.ai", url: "https://reclaim.ai" }]
+      },
+      {
+        title: "Add Tasks & Habits",
+        description: "Enter recurring habits and one-off tasks."
+      },
+      {
+        title: "Let AI Schedule",
+        description: "Allow Reclaim to prioritize and fit everything into your calendar."
+      },
+      {
+        title: "Adjust & Track",
+        description: "Review and update your schedule as needed."
+      }
     ]
   },
   {
@@ -2332,6 +4245,25 @@ export const mockTools: Tool[] = [
       "SaneBlackHole: Allows users to unsubscribe from unwanted emails effortlessly.",
       "SaneReminders: Sets reminders to follow up on emails or send them at a later time.",
       "Attachment Management: Easily saves email attachments to linked cloud storage services."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Connect Email",
+        description: "Register on SaneBox and link your email account.",
+        links: [{ label: "SaneBox", url: "https://www.sanebox.com" }]
+      },
+      {
+        title: "Let SaneBox Organize",
+        description: "Allow the AI to sort, filter, and organize your inbox."
+      },
+      {
+        title: "Set Up Rules & Reminders",
+        description: "Configure custom folders, unsubscribe, and add reminders for follow-up."
+      },
+      {
+        title: "Review & Adjust",
+        description: "Move emails between folders to further train your filtering."
+      }
     ]
   },
   {
@@ -2353,6 +4285,25 @@ export const mockTools: Tool[] = [
       "Smart Code Snippets: Reusable code blocks with best practices.",
       "Security & Performance Checks: Flags unsafe or slow code.",
       "IDE/CI Integration: Works with VS Code, JetBrains, GitHub Actions, and more."
+    ],
+    howToUse: [
+      {
+        title: "Install Codiga Extension",
+        description: "Add Codiga to your IDE or CI/CD pipeline.",
+        links: [{ label: "Codiga", url: "https://www.codiga.io" }]
+      },
+      {
+        title: "Scan Code in Real Time",
+        description: "Write or review code to receive instant security and quality feedback."
+      },
+      {
+        title: "Use Smart Snippets",
+        description: "Integrate best-practice code blocks as you work."
+      },
+      {
+        title: "Review Reports",
+        description: "Check analytics and reports for ongoing code improvements."
+      }
     ]
   },
   {
@@ -2374,6 +4325,25 @@ export const mockTools: Tool[] = [
       "Code Explanation: Converts code to plain language.",
       "Prompt-Based Coding: Generates code from natural language.",
       "Refactoring Support: Helps restructure and improve code logic."
+    ],
+    howToUse: [
+      {
+        title: "Start Coding on Replit",
+        description: "Use the Replit IDE and enable Ghostwriter.",
+        links: [{ label: "Replit Ghostwriter", url: "https://replit.com/ghostwriter" }]
+      },
+      {
+        title: "Leverage Inline Suggestions",
+        description: "Type code and accept Ghostwriter completions or explanations."
+      },
+      {
+        title: "Prompt for Code",
+        description: "Describe coding tasks in natural language for instant code generation."
+      },
+      {
+        title: "Refactor and Improve",
+        description: "Use suggestions to clean up and optimize your code."
+      }
     ]
   },
   {
@@ -2395,6 +4365,21 @@ export const mockTools: Tool[] = [
       "Custom Training: Personalize palettes by training on colors you like.",
       "Infinite Combos: Generates endless color pairings with hex/RGB codes.",
       "Visual Previews: See palettes in UI mockups, images, and gradients."
+    ],
+    howToUse: [
+      {
+        title: "Train Khroma",
+        description: "Pick colors you like to train the AI.",
+        links: [{ label: "Khroma", url: "https://www.khroma.co" }]
+      },
+      {
+        title: "Browse and Save Palettes",
+        description: "View AI-generated palettes and save your favorites."
+      },
+      {
+        title: "Preview in Context",
+        description: "See palettes applied in UI, images, and designs."
+      }
     ]
   },
   {
@@ -2416,6 +4401,25 @@ export const mockTools: Tool[] = [
       "Copilot Integration: Chat with code using natural language.",
       "Refactoring Suggestions: Restructures code for readability and efficiency.",
       "IDE-Like Environment: Works in a web-based AI IDE with debugging tools."
+    ],
+    howToUse: [
+      {
+        title: "Download or Access Cursor",
+        description: "Install the Cursor app or use the web version.",
+        links: [{ label: "Cursor", url: "https://cursor.sh" }]
+      },
+      {
+        title: "Start Coding",
+        description: "Open or create a project and write code with AI suggestions."
+      },
+      {
+        title: "Use AI Features",
+        description: "Leverage code review, refactoring, and Copilot chat for productivity."
+      },
+      {
+        title: "Debug and Ship",
+        description: "Use built-in debugging and deployment tools."
+      }
     ]
   },
   {
@@ -2437,6 +4441,25 @@ export const mockTools: Tool[] = [
       "Keyword Research: Identifies high-impact keywords with volume data.",
       "SEO Audits: Analyzes existing pages for ranking improvements.",
       "SERP Analyzer: Visual breakdown of ranking factors for competitors."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Start Auditing",
+        description: "Register on Surfer SEO and begin a site audit or content optimization project.",
+        links: [{ label: "Surfer SEO", url: "https://surferseo.com" }]
+      },
+      {
+        title: "Input Keywords or URLs",
+        description: "Analyze your site or research keywords for new content."
+      },
+      {
+        title: "Review Recommendations",
+        description: "Implement on-page suggestions and keyword optimizations."
+      },
+      {
+        title: "Monitor Rankings",
+        description: "Track progress in the dashboard."
+      }
     ]
   },
   {
@@ -2462,6 +4485,25 @@ export const mockTools: Tool[] = [
       "Workflow Automation: Create sequences of content with prompts.",
       "Tone Adjustment: Match tone to audience or brand.",
       "Multilingual Support: Write content in multiple languages."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Dashboard",
+        description: "Register at Copy.ai and create a new project.",
+        links: [{ label: "Copy.ai", url: "https://www.copy.ai" }]
+      },
+      {
+        title: "Select Copy Type",
+        description: "Choose from ads, emails, landing pages, or other content types."
+      },
+      {
+        title: "Describe Your Need",
+        description: "Input product info, keywords, and desired tone."
+      },
+      {
+        title: "Generate, Edit, and Export",
+        description: "Review generated copy, refine as needed, and export for marketing use."
+      }
     ]
   },
   {
@@ -2483,6 +4525,25 @@ export const mockTools: Tool[] = [
       "Data Insights: Generates charts and formulas in Excel from natural language.",
       "Meeting Recaps: Summarizes Teams meetings and assigns tasks.",
       "Contextual Assistance: Suggests next steps in Office tools based on activity."
+    ],
+    howToUse: [
+      {
+        title: "Access Microsoft Copilot",
+        description: "Use Copilot via Microsoft 365 apps like Word, Excel, and Teams.",
+        links: [{ label: "Microsoft Copilot", url: "https://www.microsoft.com/copilot" }]
+      },
+      {
+        title: "Prompt for Help",
+        description: "Ask Copilot to summarize, generate, or analyze documents and data."
+      },
+      {
+        title: "Accept and Edit Output",
+        description: "Review Copilot’s suggestions and adjust as needed."
+      },
+      {
+        title: "Use Across Office Apps",
+        description: "Leverage Copilot in Word, Excel, Outlook, and Teams for productivity."
+      }
     ]
   },
   {
@@ -2505,6 +4566,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Log In",
+        description: "Create a Resemble AI account and log in to access the platform.",
+        links: [{ label: "Resemble AI", url: "https://www.resemble.ai" }]
+      },
+      {
+        title: "Create or Clone a Voice",
+        description: "Use the platform to record or upload audio samples for voice cloning or generation."
+      },
+      {
+        title: "Generate Audio",
+        description: "Convert text to speech or use speech-to-speech transformation with your custom or cloned voice."
+      },
+      {
+        title: "Download or Integrate",
+        description: "Export generated audio or use API integrations for advanced workflows."
+      }
     ]
   },
   {
@@ -2527,6 +4607,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Download or Access Speechify",
+        description: "Use the web app or download Speechify for your device.",
+        links: [{ label: "Speechify", url: "https://www.speechify.com" }]
+      },
+      {
+        title: "Import or Paste Text",
+        description: "Add the content you want to convert to audio (documents, web pages, etc.)."
+      },
+      {
+        title: "Select Voice and Language",
+        description: "Choose from hundreds of voices and 60+ languages."
+      },
+      {
+        title: "Listen, Download, or Share",
+        description: "Listen to generated audio or export/share it as needed."
+      }
     ]
   },
   {
@@ -2549,6 +4648,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Studio",
+        description: "Create an account and access the WellSaid Labs Studio.",
+        links: [{ label: "WellSaid Labs", url: "https://www.wellsaid.io" }]
+      },
+      {
+        title: "Enter or Upload Script",
+        description: "Add the text you want to turn into a voiceover."
+      },
+      {
+        title: "Choose Voice",
+        description: "Select from a variety of natural-sounding AI voices."
+      },
+      {
+        title: "Generate & Download Audio",
+        description: "Produce the voiceover and download or integrate it with your project."
+      }
     ]
   },
   {
@@ -2571,6 +4689,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Register & Log In",
+        description: "Create an account on Altered Studio’s website.",
+        links: [{ label: "Altered Studio", url: "https://www.altered.ai" }]
+      },
+      {
+        title: "Upload or Record Audio",
+        description: "Provide your audio for voice transformation or content creation."
+      },
+      {
+        title: "Select AI Voice Options",
+        description: "Choose desired voice morphing or synthesis features."
+      },
+      {
+        title: "Process & Export",
+        description: "Generate new voice content and download files for use."
+      }
     ]
   },
   {
@@ -2593,6 +4730,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Log In",
+        description: "Register on the FineShare platform.",
+        links: [{ label: "FineShare Singify", url: "https://www.fineshare.com" }]
+      },
+      {
+        title: "Select or Upload Song",
+        description: "Choose a song or upload your own track."
+      },
+      {
+        title: "Pick AI Voice Model",
+        description: "Select from over 1,000 AI voice options for covers."
+      },
+      {
+        title: "Generate & Download",
+        description: "Produce your AI cover and download the final audio."
+      }
     ]
   },
   {
@@ -2615,6 +4771,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Create Account & Log In",
+        description: "Sign up on Play.ht and access the dashboard.",
+        links: [{ label: "Play.ht", url: "https://www.play.ht" }]
+      },
+      {
+        title: "Input Text",
+        description: "Paste or type the text you want converted to speech."
+      },
+      {
+        title: "Select Voice & Language",
+        description: "Choose from 800+ AI voices in different languages."
+      },
+      {
+        title: "Generate & Download Audio",
+        description: "Listen to, edit, and download your generated audio."
+      }
     ]
   },
   {
@@ -2637,6 +4812,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Access Zonos AI",
+        description: "Go to the Zonos AI website and access its open-source TTS features.",
+        links: [{ label: "Zonos AI", url: "https://zonosai.com/" }]
+      },
+      {
+        title: "Clone or Select Voice",
+        description: "Clone a voice with a short sample or choose from available voices."
+      },
+      {
+        title: "Generate Speech",
+        description: "Type or upload text to generate audio in your chosen voice."
+      },
+      {
+        title: "Download Output",
+        description: "Export your audio files for use in projects or content."
+      }
     ]
   },
   {
@@ -2659,6 +4853,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Log In",
+        description: "Register and log into Vadoo AI.",
+        links: [{ label: "Vadoo AI", url: "https://www.vadoo.tv" }]
+      },
+      {
+        title: "Upload or Create Video",
+        description: "Add a video for voice-over or AI voice generation."
+      },
+      {
+        title: "Select Voice & Language",
+        description: "Choose from various voice options for the voice-over."
+      },
+      {
+        title: "Apply & Export",
+        description: "Generate the voice-over and download your processed video."
+      }
     ]
   },
   {
@@ -2681,6 +4894,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Access SOUNDRAW",
+        description: "Go to SOUNDRAW's website and log in or start creating music.",
+        links: [{ label: "SOUNDRAW", url: "https://www.soundraw.com" }]
+      },
+      {
+        title: "Set Mood & Preferences",
+        description: "Select the mood, genre, and track length for your music."
+      },
+      {
+        title: "Generate Tracks",
+        description: "Let AI compose music based on your settings."
+      },
+      {
+        title: "Edit & Download",
+        description: "Customize tracks and download royalty-free music for your projects."
+      }
     ]
   },
   {
@@ -2703,6 +4935,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Access Beatoven.ai",
+        description: "Go to the Beatoven.ai website.",
+        links: [{ label: "Beatoven.ai", url: "https://www.beatoven.ai/" }]
+      },
+      {
+        title: "Set Mood & Genre",
+        description: "Choose the mood and genre that fits your project."
+      },
+      {
+        title: "Generate Music",
+        description: "Let AI compose background music to your specifications."
+      },
+      {
+        title: "Download & Use",
+        description: "Download royalty-free tracks for your content."
+      }
     ]
   },
   {
@@ -2725,6 +4976,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Start Project",
+        description: "Register on Lalals and start a new music project.",
+        links: [{ label: "Lalals", url: "https://www.lalals.com" }]
+      },
+      {
+        title: "Describe Song or Upload Prompt",
+        description: "Use prompts or upload files to generate instrumentals or vocals."
+      },
+      {
+        title: "Customize & Generate",
+        description: "Tweak settings and let AI create music or vocals."
+      },
+      {
+        title: "Download & Publish",
+        description: "Export finished tracks for use or distribution."
+      }
     ]
   },
   {
@@ -2747,6 +5017,21 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Access Magenta Studio",
+        description: "Visit Magenta Studio and download open-source tools for music creation.",
+        links: [{ label: "Magenta Studio", url: "https://magenta.tensorflow.org/studio/" }]
+      },
+      {
+        title: "Create or Import Melody",
+        description: "Use AI tools to generate or edit melodies and tracks."
+      },
+      {
+        title: "Experiment & Export",
+        description: "Experiment with settings and export your musical creations."
+      }
     ]
   },
   {
@@ -2769,6 +5054,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Otter.ai",
+        description: "Register and log in to the Otter.ai dashboard.",
+        links: [{ label: "Otter.ai", url: "https://otter.ai/" }]
+      },
+      {
+        title: "Upload or Record Audio",
+        description: "Use Otter.ai to record new audio or upload files for analysis."
+      },
+      {
+        title: "Transcribe & Edit",
+        description: "Let the AI transcribe speech and edit transcripts as needed."
+      },
+      {
+        title: "Export Results",
+        description: "Download transcripts and audio or share with collaborators."
+      }
     ]
   },
   {
@@ -2791,6 +5095,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Access Rev Platform",
+        description: "Go to Rev.com and choose AI or human transcription services.",
+        links: [{ label: "Rev", url: "https://www.rev.com" }]
+      },
+      {
+        title: "Upload Files",
+        description: "Add audio or video files for transcription."
+      },
+      {
+        title: "Select Service & Language",
+        description: "Choose turnaround time, language, and service type."
+      },
+      {
+        title: "Receive & Download",
+        description: "Review completed transcripts, make edits, and download results."
+      }
     ]
   },
   {
@@ -2813,6 +5136,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Trint",
+        description: "Register and log in to the Trint dashboard.",
+        links: [{ label: "Trint", url: "https://trint.com" }]
+      },
+      {
+        title: "Upload or Record Media",
+        description: "Add audio or video files or record directly in the platform."
+      },
+      {
+        title: "Transcribe & Edit",
+        description: "Use AI to generate transcripts and edit them with built-in tools."
+      },
+      {
+        title: "Export & Share",
+        description: "Download transcripts and audio or share with collaborators."
+      }
     ]
   },
   {
@@ -2835,6 +5177,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Register & Log In",
+        description: "Create an account on Sonix.ai.",
+        links: [{ label: "Sonix", url: "https://sonix.ai" }]
+      },
+      {
+        title: "Upload Media",
+        description: "Add audio or video files for transcription."
+      },
+      {
+        title: "Transcribe & Edit",
+        description: "Use AI to generate, edit, and translate transcripts."
+      },
+      {
+        title: "Download & Integrate",
+        description: "Export results or use integrations with other tools."
+      }
     ]
   },
   {
@@ -2857,6 +5218,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Log In",
+        description: "Create an account on the Speechmatics platform.",
+        links: [{ label: "Speechmatics", url: "https://www.speechmatics.com" }]
+      },
+      {
+        title: "Upload Audio or Video",
+        description: "Choose audio or video files to transcribe or process."
+      },
+      {
+        title: "Select Language & Options",
+        description: "Pick the language/dialect and enable features like noise reduction or voice synthesis."
+      },
+      {
+        title: "Process & Download Results",
+        description: "Receive transcriptions or processed audio. Download results in your preferred format."
+      }
     ]
   },
   {
@@ -2879,6 +5259,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Log In",
+        description: "Register for a Jamie AI account and log in.",
+        links: [{ label: "Jamie AI", url: "https://meetjamie.ai" }]
+      },
+      {
+        title: "Upload or Record Audio",
+        description: "Provide files or record audio for transcription or enhancement."
+      },
+      {
+        title: "Configure Options",
+        description: "Select language, enable noise reduction or voice synthesis if needed."
+      },
+      {
+        title: "Process & Review Output",
+        description: "Receive and review the transcription or edited audio. Download as needed."
+      }
     ]
   },
   {
@@ -2901,6 +5300,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Register & Access Dashboard",
+        description: "Sign up on Happy Scribe and access the transcription dashboard.",
+        links: [{ label: "Happy Scribe", url: "https://www.happyscribe.com" }]
+      },
+      {
+        title: "Upload Audio/Video",
+        description: "Drag and drop your media files for transcription or subtitle generation."
+      },
+      {
+        title: "Select Language & Service",
+        description: "Set the language and choose between transcription or subtitles."
+      },
+      {
+        title: "Edit & Download",
+        description: "Edit results within the dashboard and export in preferred formats."
+      }
     ]
   },
   {
@@ -2923,6 +5341,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Connect Platforms",
+        description: "Create an account and link your streaming destinations (YouTube, Twitch, etc.).",
+        links: [{ label: "Restream", url: "https://restream.io" }]
+      },
+      {
+        title: "Configure Audio Enhancements",
+        description: "Enable AI-powered features such as noise reduction and audio processing."
+      },
+      {
+        title: "Go Live",
+        description: "Start your live stream and broadcast to multiple platforms with enhanced audio."
+      },
+      {
+        title: "Review & Download Streams",
+        description: "Access recorded streams and download processed audio/video as needed."
+      }
     ]
   },
   {
@@ -2945,6 +5382,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Create Studio",
+        description: "Register and set up a recording studio for podcasts or video.",
+        links: [{ label: "Riverside.fm", url: "https://riverside.fm" }]
+      },
+      {
+        title: "Invite Guests & Record",
+        description: "Invite remote guests and use AI features to enhance audio during recording."
+      },
+      {
+        title: "Utilize Transcription & Editing",
+        description: "Generate transcripts and use editing tools to polish your recordings."
+      },
+      {
+        title: "Export & Share",
+        description: "Export high-quality audio/video files for publishing."
+      }
     ]
   },
   {
@@ -2967,6 +5423,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Access Cleanvoice Platform",
+        description: "Sign up and log in to Cleanvoice’s web interface.",
+        links: [{ label: "Cleanvoice AI", url: "https://cleanvoice.ai" }]
+      },
+      {
+        title: "Upload Recordings",
+        description: "Add audio files for analysis and cleaning."
+      },
+      {
+        title: "Select Cleaning Features",
+        description: "Choose to remove background noise, filler words, and stutters."
+      },
+      {
+        title: "Download Cleaned Audio",
+        description: "Review and export cleaned audio files for further use."
+      }
     ]
   },
   {
@@ -2989,6 +5464,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Register & Access MyEdit",
+        description: "Create an account and log in to MyEdit’s interface.",
+        links: [{ label: "MyEdit", url: "https://myedit.io" }]
+      },
+      {
+        title: "Upload Audio Files",
+        description: "Add recordings or music for editing."
+      },
+      {
+        title: "Apply AI Editing Tools",
+        description: "Use noise reduction, transcription, and other enhancement features."
+      },
+      {
+        title: "Review & Export",
+        description: "Preview changes and export the final audio for use."
+      }
     ]
   },
   {
@@ -3011,6 +5505,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Log In",
+        description: "Register and access Voicemy.ai’s dashboard.",
+        links: [{ label: "Voicemy.ai", url: "https://voicemy.ai" }]
+      },
+      {
+        title: "Create or Clone Voices",
+        description: "Use the platform to generate or clone custom voices for your projects."
+      },
+      {
+        title: "Apply to Audio",
+        description: "Synthesize or modify recordings with AI-generated voices."
+      },
+      {
+        title: "Export or Integrate",
+        description: "Download files or use APIs for integration in other apps."
+      }
     ]
   },
   {
@@ -3033,6 +5546,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Register & Log In",
+        description: "Sign up and access the Jammable platform.",
+        links: [{ label: "Jammable", url: "https://jammable.com" }]
+      },
+      {
+        title: "Choose Models & Create",
+        description: "Select voice models or music templates and generate AI audio content."
+      },
+      {
+        title: "Edit & Customize",
+        description: "Use built-in tools to further edit and personalize songs or covers."
+      },
+      {
+        title: "Download & Share",
+        description: "Export your creations or share them on social platforms."
+      }
     ]
   },
   {
@@ -3055,6 +5587,25 @@ export const mockTools: Tool[] = [
       "Noise reduction: Reduces unwanted sounds from audio input.",
       "Voice synthesis: Can generate or clone voices using AI models.",
       "User-friendly interface: Simple design for creators and professionals."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Platform",
+        description: "Register for CloneDub and log in.",
+        links: [{ label: "CloneDub", url: "https://clonedub.com" }]
+      },
+      {
+        title: "Upload Audio or Select Voices",
+        description: "Add audio files and select desired target voices/languages for dubbing."
+      },
+      {
+        title: "Configure & Convert",
+        description: "Set language and voice preferences, then generate dubbed audio."
+      },
+      {
+        title: "Download & Use",
+        description: "Export multilingual or localized audio for your projects."
+      }
     ]
   },
   {
@@ -3076,6 +5627,21 @@ export const mockTools: Tool[] = [
       "Competitive programming: Excels in coding competitions.",
       "DeepMind technology: Built by Google's AI research lab.",
       "Multilingual support: Handles multiple programming languages."
+    ],
+    howToUse: [
+      {
+        title: "Access AlphaCode",
+        description: "Visit the AlphaCode research page for demos and documentation.",
+        links: [{ label: "AlphaCode", url: "https://alphacode.deepmind.com/" }]
+      },
+      {
+        title: "Explore Use Cases",
+        description: "Review competitive programming problems and solutions."
+      },
+      {
+        title: "Integrate with Platforms",
+        description: "Look for integrations or future releases to use AlphaCode in coding contests."
+      }
     ]
   },
   {
@@ -3097,6 +5663,24 @@ export const mockTools: Tool[] = [
       "Integration with IDEs: Works with popular code editors.",
       "Supports multiple languages: Handles various programming languages.",
       "Powers GitHub Copilot: Underlying engine for Copilot."
+    ],
+    howToUse: [
+      {
+        title: "Access via GitHub Copilot or API",
+        description: "Use Codex through GitHub Copilot or OpenAI API.",
+        links: [
+          { label: "OpenAI Codex", url: "https://openai.com/codex/" },
+          { label: "GitHub Copilot", url: "https://github.com/features/copilot" }
+        ]
+      },
+      {
+        title: "Prompt with Natural Language",
+        description: "Describe desired code in plain English in your editor or API request."
+      },
+      {
+        title: "Review and Edit Output",
+        description: "Accept, modify, or refine the generated code for your project."
+      }
     ]
   },
   {
@@ -3118,6 +5702,25 @@ export const mockTools: Tool[] = [
       "Large-scale model: Trained on extensive code datasets.",
       "Code translation: Translates code between languages.",
       "IDE integration: Compatible with popular development environments."
+    ],
+    howToUse: [
+      {
+        title: "Access CodeGeeX Platform",
+        description: "Visit the CodeGeeX website for demos and documentation.",
+        links: [{ label: "CodeGeeX", url: "https://codegeex.cn/" }]
+      },
+      {
+        title: "Use Online Demos or Plugins",
+        description: "Generate or translate code using web demos or install IDE integrations."
+      },
+      {
+        title: "Prompt and Review",
+        description: "Describe your coding need or input code for translation/completion."
+      },
+      {
+        title: "Export & Integrate",
+        description: "Copy results into your IDE or integrate via provided APIs."
+      }
     ]
   },
   {
@@ -3139,6 +5742,25 @@ export const mockTools: Tool[] = [
       "Code completion: Suggests code snippets as you type.",
       "Supports multiple languages: Handles various programming languages.",
       "Community-driven: Developed and maintained by the community."
+    ],
+    howToUse: [
+      {
+        title: "Access StarCoder Model",
+        description: "Find and use StarCoder via the HuggingFace Model Hub or integrate with open-source LLM platforms.",
+        links: [{ label: "StarCoder on HuggingFace", url: "https://huggingface.co/blog/starcoder" }]
+      },
+      {
+        title: "Integrate with Coding Tools",
+        description: "Use provided APIs, CLI tools, or plugins to connect StarCoder to your IDE or workflow."
+      },
+      {
+        title: "Prompt for Code",
+        description: "Type code or prompts to receive code completions or suggestions in supported programming languages."
+      },
+      {
+        title: "Customize & Extend",
+        description: "Modify the open-source model or contribute to the community for new features and language support."
+      }
     ]
   },
   {
@@ -3160,6 +5782,25 @@ export const mockTools: Tool[] = [
       "Integration with notebooks: Works with Jupyter and Colab.",
       "Natural language prompts: Converts plain English to code.",
       "Supports SQL and Python: Focused on data-centric languages."
+    ],
+    howToUse: [
+      {
+        title: "Install CodeSquire Extension",
+        description: "Add CodeSquire to your Jupyter, Colab, or compatible notebook environment.",
+        links: [{ label: "CodeSquire", url: "https://codesquire.ai/" }]
+      },
+      {
+        title: "Write Prompts or Code",
+        description: "Type natural language or code to receive tailored code completions."
+      },
+      {
+        title: "Accept or Edit Suggestions",
+        description: "Insert, edit, or refine the AI-suggested code for your workflow."
+      },
+      {
+        title: "Focus on Data Tasks",
+        description: "Leverage SQL and Python support for data analysis and automation."
+      }
     ]
   },
   {
@@ -3181,6 +5822,21 @@ export const mockTools: Tool[] = [
       "Code generation: Writes code based on prompts.",
       "IDE integration: Compatible with JetBrains and VS Code.",
       "Supports multiple languages: Handles various programming languages."
+    ],
+    howToUse: [
+      {
+        title: "Install CodeAssist Plugin",
+        description: "Add CodeAssist to your JetBrains IDE or VS Code via the marketplace.",
+        links: [{ label: "CodeAssist", url: "https://www.codeassist.tech/" }]
+      },
+      {
+        title: "Chat & Prompt",
+        description: "Use the chatbot interface to ask coding questions or request code generation."
+      },
+      {
+        title: "Insert or Edit Code",
+        description: "Directly insert AI-generated code into your editor or modify as needed."
+      }
     ]
   },
   {
@@ -3202,6 +5858,25 @@ export const mockTools: Tool[] = [
       "Bug detection: Identifies potential issues in code.",
       "Code simplification: Refactors complex code.",
       "Supports various languages: Handles multiple programming languages."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access CodePal",
+        description: "Register on CodePal’s website to access the web app or browser extension.",
+        links: [{ label: "CodePal", url: "https://codepal.ai/" }]
+      },
+      {
+        title: "Describe or Paste Code",
+        description: "Enter a task description or paste code to generate, debug, or simplify."
+      },
+      {
+        title: "Review AI Suggestions",
+        description: "Accept, edit, or refine code snippets and solutions."
+      },
+      {
+        title: "Export or Use Code",
+        description: "Copy snippets into your IDE or export for sharing."
+      }
     ]
   },
   {
@@ -3223,6 +5898,25 @@ export const mockTools: Tool[] = [
       "Python code generation: Translates descriptions into Python code.",
       "Data analysis assistance: Helps with data-related coding tasks.",
       "Integration with notebooks: Works with Jupyter and other platforms."
+    ],
+    howToUse: [
+      {
+        title: "Access Cogram Platform",
+        description: "Sign up on Cogram’s website and access the online platform or notebook integration.",
+        links: [{ label: "Cogram", url: "https://www.cogram.com/" }]
+      },
+      {
+        title: "Describe Your Task",
+        description: "Type natural language instructions or prompts for SQL or Python code."
+      },
+      {
+        title: "Generate & Edit Code",
+        description: "Receive code suggestions, review, and edit as needed."
+      },
+      {
+        title: "Integrate with Data Tools",
+        description: "Use Cogram’s integrations for data workflows in Jupyter and beyond."
+      }
     ]
   },
   {
@@ -3244,6 +5938,25 @@ export const mockTools: Tool[] = [
       "Question answering: Answers coding-related queries.",
       "Supports multiple languages: Handles various programming languages.",
       "IDE integration: Compatible with popular code editors."
+    ],
+    howToUse: [
+      {
+        title: "Install AskCodi Extension",
+        description: "Add AskCodi to your IDE or browser from the extension store.",
+        links: [{ label: "AskCodi", url: "https://www.askcodi.com/" }]
+      },
+      {
+        title: "Input Query or Task",
+        description: "Type your coding question or task description."
+      },
+      {
+        title: "Receive Code Suggestions",
+        description: "Review and insert suggested code or answers."
+      },
+      {
+        title: "Edit and Use",
+        description: "Modify AI-suggested code as needed for your project."
+      }
     ]
   },
   {
@@ -3265,6 +5978,21 @@ export const mockTools: Tool[] = [
       "Autocomplete: AI-based code completions.",
       "Multiple language support: Supports Python, JavaScript, and more.",
       "Search engine: Find any code snippet instantly."
+    ],
+    howToUse: [
+      {
+        title: "Install Blackbox AI",
+        description: "Add the Blackbox extension to your browser or IDE, or use the web app.",
+        links: [{ label: "Blackbox AI", url: "https://www.useblackbox.io/" }]
+      },
+      {
+        title: "Use Video Extraction",
+        description: "Pause a video, highlight code, and copy it instantly with Blackbox."
+      },
+      {
+        title: "Autocomplete & Search",
+        description: "Use autocomplete for code suggestions or search to find relevant snippets."
+      }
     ]
   },
   {
@@ -3286,6 +6014,21 @@ export const mockTools: Tool[] = [
       "AI code review: Offers improvement suggestions.",
       "Team collaboration: Designed for team environments.",
       "IDE integrations: Works with GitHub workflows."
+    ],
+    howToUse: [
+      {
+        title: "Connect Sweep AI to GitHub",
+        description: "Sign up on Sweep’s website and link your GitHub account.",
+        links: [{ label: "Sweep AI", url: "https://sweep.dev/" }]
+      },
+      {
+        title: "Automate PRs",
+        description: "Let Sweep AI generate and review pull requests for your team."
+      },
+      {
+        title: "Collaborate on Reviews",
+        description: "Use the team dashboard to review, accept, or refine suggestions."
+      }
     ]
   },
   {
@@ -3307,6 +6050,21 @@ export const mockTools: Tool[] = [
       "Supports major IDEs: Integration with JetBrains and VS Code.",
       "Secure development: Runs locally for sensitive projects.",
       "Custom prompts: Generate specific code with natural input."
+    ],
+    howToUse: [
+      {
+        title: "Install Refact.ai Plugin",
+        description: "Add Refact.ai to your JetBrains IDE or VS Code.",
+        links: [{ label: "Refact.ai", url: "https://refact.ai/" }]
+      },
+      {
+        title: "Use Inline Suggestions",
+        description: "Get real-time code suggestions and refactoring help as you type."
+      },
+      {
+        title: "Customize Prompts",
+        description: "Write custom prompts to generate or refactor code for specific needs."
+      }
     ]
   },
   {
@@ -3328,6 +6086,25 @@ export const mockTools: Tool[] = [
       "Open-source tool: Modify and extend functionality.",
       "Contextual coding: Generates code based on nearby files.",
       "Prompting panel: Ask and receive inline answers."
+    ],
+    howToUse: [
+      {
+        title: "Install Continue.dev Extension",
+        description: "Add Continue.dev to your VS Code from the marketplace or via the official website.",
+        links: [{ label: "Continue.dev", url: "https://continue.dev/" }]
+      },
+      {
+        title: "Open the Prompt Panel",
+        description: "Use the built-in panel to ask questions, request code, or get explanations."
+      },
+      {
+        title: "Leverage Contextual Coding",
+        description: "Generate code or refactor directly within your project, with AI referencing your codebase."
+      },
+      {
+        title: "Modify or Extend",
+        description: "As an open-source project, you can extend functionality or contribute to the tool."
+      }
     ]
   },
   {
@@ -3349,6 +6126,25 @@ export const mockTools: Tool[] = [
       "Real-time web data: Combines search with LLM responses.",
       "IDE extensions: Use directly inside coding environments.",
       "Error explanation: Understand and fix bugs faster."
+    ],
+    howToUse: [
+      {
+        title: "Go to Phind Website",
+        description: "Access Phind via the web for instant search and troubleshooting.",
+        links: [{ label: "Phind", url: "https://www.phind.com/" }]
+      },
+      {
+        title: "Install IDE Extension (Optional)",
+        description: "Add the Phind extension to VS Code for in-editor search and error explanations."
+      },
+      {
+        title: "Ask Developer Questions",
+        description: "Search for code snippets, explanations, or troubleshooting help in natural language."
+      },
+      {
+        title: "Review Contextual Answers",
+        description: "Get LLM-powered answers and resources tailored to your query."
+      }
     ]
   },
   {
@@ -3370,6 +6166,25 @@ export const mockTools: Tool[] = [
       "Real-time insights: Suggests fixes as you code.",
       "IDE integration: Works with VS Code and JetBrains.",
       "Code integrity: Identifies logical gaps and edge cases."
+    ],
+    howToUse: [
+      {
+        title: "Add CodiumAI Extension",
+        description: "Install the CodiumAI plugin for VS Code or JetBrains IDEs.",
+        links: [{ label: "CodiumAI", url: "https://www.codium.ai/" }]
+      },
+      {
+        title: "Generate Tests",
+        description: "Use the tool to automatically suggest and create tests for your code."
+      },
+      {
+        title: "Review Code Insights",
+        description: "Receive instant feedback on code integrity and get suggestions for improvements."
+      },
+      {
+        title: "Iterate and Validate",
+        description: "Fix logical issues and cover edge cases with AI-guided input."
+      }
     ]
   },
   {
@@ -3391,6 +6206,25 @@ export const mockTools: Tool[] = [
       "Code generation: Writes code from prompts.",
       "Commenting: Adds helpful code comments.",
       "Test support: Helps with writing unit tests."
+    ],
+    howToUse: [
+      {
+        title: "Install Bito AI",
+        description: "Add Bito AI as a browser extension, IDE plugin, or use the web app.",
+        links: [{ label: "Bito AI", url: "https://bito.ai/" }]
+      },
+      {
+        title: "Input Code or Prompt",
+        description: "Paste code or describe what you need to generate or explain."
+      },
+      {
+        title: "Review AI Output",
+        description: "Read code explanations, generated code, or suggested comments/tests."
+      },
+      {
+        title: "Export or Use in Project",
+        description: "Copy and paste results into your development workflow."
+      }
     ]
   },
   {
@@ -3412,6 +6246,25 @@ export const mockTools: Tool[] = [
       "Multi-user support: Teams can use together in shared sessions.",
       "AI-driven suggestions: Proactively recommends changes.",
       "Secure access: Built with team security in mind."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up and Create Team",
+        description: "Register on the Clara Copilot website and invite team members.",
+        links: [{ label: "Clara Copilot", url: "https://claracopilot.ai/" }]
+      },
+      {
+        title: "Start a Coding Session",
+        description: "Launch real-time pair programming or team session."
+      },
+      {
+        title: "Use AI Suggestions",
+        description: "Accept, modify, or discuss AI-driven recommendations live."
+      },
+      {
+        title: "Collaborate Securely",
+        description: "Work together with secure access and version tracking."
+      }
     ]
   },
   {
@@ -3433,6 +6286,25 @@ export const mockTools: Tool[] = [
       "Supports popular languages: JavaScript, Python, and more.",
       "Custom templates: Build with reusable code blocks.",
       "Collaborative sharing: Share snippets with teams."
+    ],
+    howToUse: [
+      {
+        title: "Go to Codify",
+        description: "Access Codify via the website and log in or sign up.",
+        links: [{ label: "Codify", url: "https://www.codify.dev/" }]
+      },
+      {
+        title: "Describe Your Code Needs",
+        description: "Write a natural language prompt describing the snippet or module you want."
+      },
+      {
+        title: "Receive and Edit Code",
+        description: "Review generated code, edit, or refine as needed."
+      },
+      {
+        title: "Copy or Share",
+        description: "Export the code or share with your team via the platform."
+      }
     ]
   },
   {
@@ -3454,6 +6326,25 @@ export const mockTools: Tool[] = [
       "Query optimization: Suggests better query structures.",
       "Supports multiple DBs: MySQL, PostgreSQL, etc.",
       "Real-time feedback: Validate queries instantly."
+    ],
+    howToUse: [
+      {
+        title: "Access AI2sql",
+        description: "Go to the AI2sql website and log in.",
+        links: [{ label: "AI2sql", url: "https://www.ai2sql.io/" }]
+      },
+      {
+        title: "Describe Query in Plain English",
+        description: "Type your desired SQL query in natural language."
+      },
+      {
+        title: "Get and Optimize SQL",
+        description: "Receive and review the generated SQL. Let the tool suggest optimizations."
+      },
+      {
+        title: "Validate and Use",
+        description: "Test or copy the query for your database."
+      }
     ]
   },
   {
@@ -3475,6 +6366,25 @@ export const mockTools: Tool[] = [
       "Formula builder: Write complex logic in simple language.",
       "No-code integration: Set up without coding.",
       "Text processing: Clean and format content."
+    ],
+    howToUse: [
+      {
+        title: "Install PromptLoop Add-on",
+        description: "Add the PromptLoop extension to Google Sheets or Excel.",
+        links: [{ label: "PromptLoop", url: "https://www.promptloop.com/" }]
+      },
+      {
+        title: "Use AI Formulas",
+        description: "Enter natural language instructions in your spreadsheet cells."
+      },
+      {
+        title: "Analyze or Transform Data",
+        description: "Let AI help with data cleaning, summarization, or logic in your sheet."
+      },
+      {
+        title: "No-Code Setup",
+        description: "Set up automations and workflows without writing code."
+      }
     ]
   },
   {
@@ -3496,6 +6406,25 @@ export const mockTools: Tool[] = [
       "Clause generator: Drafts based on legal intent.",
       "Collaboration: Co-author with team members.",
       "Version tracking: Keep changes and history."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up and Access Genie AI",
+        description: "Register on the Genie AI website and log in.",
+        links: [{ label: "Genie AI", url: "https://www.genieai.co/" }]
+      },
+      {
+        title: "Select or Create Contract",
+        description: "Choose a pre-built template or describe the contract you need."
+      },
+      {
+        title: "Edit and Collaborate",
+        description: "Customize clauses, invite collaborators, and iterate."
+      },
+      {
+        title: "Export or Track Versions",
+        description: "Download documents or use version history to manage changes."
+      }
     ]
   },
   {
@@ -3517,6 +6446,25 @@ export const mockTools: Tool[] = [
       "Smart search: Find saved content quickly.",
       "Offline support: Works without internet connection.",
       "IDE integration: Use in VS Code and IntelliJ."
+    ],
+    howToUse: [
+      {
+        title: "Install Pieces App or Extension",
+        description: "Download the Pieces desktop app or install the extension for your IDE.",
+        links: [{ label: "Pieces for Developers", url: "https://www.pieces.app/" }]
+      },
+      {
+        title: "Save Snippets",
+        description: "Save code snippets from anywhere—browser, IDE, or desktop."
+      },
+      {
+        title: "Enrich and Search",
+        description: "Let AI add metadata and search for snippets with context-aware suggestions."
+      },
+      {
+        title: "Reuse and Share",
+        description: "Insert snippets into your projects, or share with your team."
+      }
     ]
   },
   {
@@ -3538,6 +6486,25 @@ export const mockTools: Tool[] = [
       "Regex output: Instant conversion to valid regular expressions.",
       "Syntax highlighting: Understand and edit regex easily.",
       "Learning tool: Helps beginners master regex concepts."
+    ],
+    howToUse: [
+      {
+        title: "Describe Your Pattern",
+        description: "Go to the AutoRegex website and enter a plain language description of the pattern you want to convert to regex.",
+        links: [{ label: "AutoRegex", url: "https://www.autoregex.xyz/" }]
+      },
+      {
+        title: "Get Regex Output",
+        description: "The tool instantly generates a regular expression based on your input."
+      },
+      {
+        title: "Copy or Edit Regex",
+        description: "Copy the generated regex or use syntax highlighting and tools to further refine it."
+      },
+      {
+        title: "Learn Regex Concepts",
+        description: "Review explanations and visualizations to understand how the regex works."
+      }
     ]
   },
   {
@@ -3559,6 +6526,25 @@ export const mockTools: Tool[] = [
       "Task auto-generation: Assigns developer-friendly actions.",
       "Milestone mapping: Visualize project progress.",
       "Custom workflows: Tailor planning to your style."
+    ],
+    howToUse: [
+      {
+        title: "Start a New Project",
+        description: "Sign up and start a new project by describing your coding goal.",
+        links: [{ label: "Codetree", url: "https://codetree.ai/" }]
+      },
+      {
+        title: "Generate Actions",
+        description: "Let Codetree break down your goal into actionable developer tasks automatically."
+      },
+      {
+        title: "Visualize Milestones",
+        description: "Track progress and milestones on the project dashboard."
+      },
+      {
+        title: "Customize Workflow",
+        description: "Adjust, add, or remove tasks and milestones to suit your team's workflow."
+      }
     ]
   },
   {
@@ -3581,6 +6567,25 @@ export const mockTools: Tool[] = [
       "Image generation: Create visuals from text prompts.",
       "Auto color correction: Instantly enhance colors and exposure.",
       "Batch editing: Apply edits to multiple images at once."
+    ],
+    howToUse: [
+      {
+        title: "Open Pixlr Editor",
+        description: "Visit the Pixlr website and choose Pixlr X (easy) or Pixlr E (advanced) editor.",
+        links: [{ label: "Pixlr", url: "https://www.pixlr.com/" }]
+      },
+      {
+        title: "Upload or Start a Project",
+        description: "Upload an image or start with a blank canvas or template."
+      },
+      {
+        title: "Use AI Tools",
+        description: "Apply background removal, resizing, or generate images from text prompts."
+      },
+      {
+        title: "Edit and Export",
+        description: "Make further adjustments and download your finished image."
+      }
     ]
   },
   {
@@ -3603,6 +6608,25 @@ export const mockTools: Tool[] = [
       "Structure AI: Enhance image details while preserving people and objects.",
       "Relight AI: Intelligently relight your scene for balanced exposure.",
       "Automatic object removal: Clean up distractions with a single click."
+    ],
+    howToUse: [
+      {
+        title: "Install Luminar Neo",
+        description: "Download and install the software from Skylum’s website.",
+        links: [{ label: "Luminar Neo", url: "https://skylum.com/luminar-neo" }]
+      },
+      {
+        title: "Import Photos",
+        description: "Open Luminar Neo and import the photos you want to edit."
+      },
+      {
+        title: "Apply AI Tools",
+        description: "Use Sky Replacement, Portrait Enhancer, and other AI-powered features to enhance your images."
+      },
+      {
+        title: "Export Your Work",
+        description: "Save or share your edited photos in high quality."
+      }
     ]
   },
   {
@@ -3625,6 +6649,21 @@ export const mockTools: Tool[] = [
       "High-resolution output: Download images in high quality with transparent backgrounds.",
       "API integration: Automate background removal in your workflows.",
       "Smart hair detection: Retain fine hair and edges for realistic results."
+    ],
+    howToUse: [
+      {
+        title: "Go to Remove.bg",
+        description: "Visit the Remove.bg website.",
+        links: [{ label: "Remove.bg", url: "https://www.remove.bg/" }]
+      },
+      {
+        title: "Upload Your Image",
+        description: "Drag and drop your image onto the site or use the upload button."
+      },
+      {
+        title: "Download Result",
+        description: "Download the processed image with background removed. Use batch or API features for automation."
+      }
     ]
   },
   {
@@ -3647,6 +6686,25 @@ export const mockTools: Tool[] = [
       "Accessibility checks: Get AI-powered accessibility suggestions.",
       "Design-to-code: Convert designs to code-ready components.",
       "Component libraries: Maintain and reuse design system elements."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up and Start Project",
+        description: "Create an account on UXPin and start a new design or prototype.",
+        links: [{ label: "UXPin", url: "https://www.uxpin.com/" }]
+      },
+      {
+        title: "Design with AI",
+        description: "Use AI features to generate prototypes and receive accessibility suggestions."
+      },
+      {
+        title: "Collaborate and Share",
+        description: "Invite team members for live collaboration and share interactive prototypes."
+      },
+      {
+        title: "Export Components",
+        description: "Convert your design to code or export assets for development."
+      }
     ]
   },
   {
@@ -3669,6 +6727,25 @@ export const mockTools: Tool[] = [
       "Creative prompts: Get unique inspiration to start new projects.",
       "Moodboard automation: Build moodboards and style guides with AI.",
       "Live feedback: Improve your designs with instant suggestions."
+    ],
+    howToUse: [
+      {
+        title: "Access Lummi AI",
+        description: "Go to Lummi AI and start a new design session.",
+        links: [{ label: "Lummi AI", url: "https://lummi.ai/" }]
+      },
+      {
+        title: "Describe Your Needs",
+        description: "Enter a prompt or select creative options to generate design concepts."
+      },
+      {
+        title: "Review Suggestions",
+        description: "Browse layout, color, and concept suggestions provided by the AI."
+      },
+      {
+        title: "Iterate and Export",
+        description: "Refine the chosen design and download assets or moodboards."
+      }
     ]
   },
   {
@@ -3691,6 +6768,25 @@ export const mockTools: Tool[] = [
       "Responsive layout: Create layouts optimized for any device.",
       "Live preview: Instantly see generated website results.",
       "One-click export: Download complete source code easily."
+    ],
+    howToUse: [
+      {
+        title: "Upload a Mockup",
+        description: "Visit Fronty and upload your image mockup.",
+        links: [{ label: "Fronty", url: "https://fronty.com/" }]
+      },
+      {
+        title: "Review Generated Code",
+        description: "Preview the automatically generated HTML/CSS layout."
+      },
+      {
+        title: "Edit and Customize",
+        description: "Make any required adjustments to the code or layout."
+      },
+      {
+        title: "Export Source Code",
+        description: "Download the finished website code in one click."
+      }
     ]
   },
   {
@@ -3713,6 +6809,25 @@ export const mockTools: Tool[] = [
       "Cross-platform: Use on desktop and mobile browsers.",
       "Sketch library: Access a wide range of free-to-use images.",
       "No registration: Start drawing with no sign-up required."
+    ],
+    howToUse: [
+      {
+        title: "Start Drawing",
+        description: "Go to Autodraw and begin doodling with your mouse or touchscreen.",
+        links: [{ label: "Autodraw", url: "https://www.autodraw.com/" }]
+      },
+      {
+        title: "View Icon Suggestions",
+        description: "As you draw, suggested icons will appear above the canvas."
+      },
+      {
+        title: "Select and Refine",
+        description: "Click on a suggested icon to replace your doodle with a professional-looking drawing."
+      },
+      {
+        title: "Download or Share",
+        description: "Download your finished artwork or share it online."
+      }
     ]
   },
   {
@@ -3735,6 +6850,25 @@ export const mockTools: Tool[] = [
       "Custom writing styles: Adjust tone and writing style automatically.",
       "Team collaboration: Work together on content creation.",
       "Multilingual support: Write in multiple languages."
+    ],
+    howToUse: [
+      {
+        title: "Describe Your Needs",
+        description: "Go to Headlime and enter your design or content requirements.",
+        links: [{ label: "Headlime", url: "https://headlime.com/" }]
+      },
+      {
+        title: "Generate Copy",
+        description: "Let the AI suggest headlines, descriptions, and microcopy."
+      },
+      {
+        title: "Customize and Edit",
+        description: "Adjust style, tone, and content as needed for your design context."
+      },
+      {
+        title: "Export and Use Content",
+        description: "Copy the generated text into your landing pages, ads, or prototypes."
+      }
     ]
   },
   {
@@ -3757,6 +6891,29 @@ export const mockTools: Tool[] = [
       "Real-time preview: Instantly see prompt results.",
       "Workflow export: Share and reuse generation setups.",
       "Open source: Community-driven and extensible."
+    ],
+    howToUse: [
+      {
+        title: "Install ComfyUI",
+        description: "Clone the repository from GitHub and follow the installation instructions for your OS.",
+        links: [{ label: "ComfyUI", url: "https://github.com/comfyanonymous/ComfyUI" }]
+      },
+      {
+        title: "Launch the Interface",
+        description: "Start the UI by running the provided script (e.g., python main.py)."
+      },
+      {
+        title: "Build Your Workflow",
+        description: "Drag and connect nodes to set up your image generation pipeline."
+      },
+      {
+        title: "Generate Images",
+        description: "Enter text prompts, select models, and tweak settings. Preview results in real time."
+      },
+      {
+        title: "Export or Share Workflow",
+        description: "Export workflows or results for reuse or sharing with the community."
+      }
     ]
   },
   {
@@ -3779,6 +6936,29 @@ export const mockTools: Tool[] = [
       "Batch creation: Generate multiple images quickly.",
       "Quick editing: Instantly refine and download generated images.",
       "Ecosystem integration: Use in Freepik's design environment."
+    ],
+    howToUse: [
+      {
+        title: "Access the Generator",
+        description: "Go to Freepik's AI Image Generator page.",
+        links: [{ label: "Freepik AI Image Generator", url: "https://www.freepik.com/ai/image-generator" }]
+      },
+      {
+        title: "Enter a Prompt",
+        description: "Type a text description of the image you wish to generate."
+      },
+      {
+        title: "Select Art Style and Settings",
+        description: "Choose from available styles and adjust settings as desired."
+      },
+      {
+        title: "Generate and Edit",
+        description: "Click to create images, edit or refine as needed."
+      },
+      {
+        title: "Download or Use in Designs",
+        description: "Download finished images or use them within Freepik's design tools."
+      }
     ]
   },
   {
@@ -3802,6 +6982,29 @@ export const mockTools: Tool[] = [
       "Advanced Analytics: Supports machine learning, deep learning, statistics, and text mining.",
       "Extensible Platform: Large ecosystem of plugins and community extensions.",
       "Strong Community: Active forums, documentation, and training resources."
+    ],
+    howToUse: [
+      {
+        title: "Download and Install KNIME",
+        description: "Get the latest version from the KNIME website and install it on your system.",
+        links: [{ label: "KNIME", url: "https://www.knime.com" }]
+      },
+      {
+        title: "Create a Workflow",
+        description: "Open KNIME and use the drag-and-drop editor to build your data workflow."
+      },
+      {
+        title: "Add Nodes for Data Processing",
+        description: "Choose nodes for reading, transforming, analyzing, and visualizing data."
+      },
+      {
+        title: "Execute and Inspect Results",
+        description: "Run the workflow, inspect intermediate results, and visualize outputs."
+      },
+      {
+        title: "Extend with Plugins",
+        description: "Install community extensions for additional analytics capabilities."
+      }
     ]
   },
   {
@@ -3825,6 +7028,25 @@ export const mockTools: Tool[] = [
       "Extensive Model Library: Hundreds of built-in algorithms for classification, regression, and clustering.",
       "Integrated Data Prep: Tools for cleaning, transforming, and enriching data.",
       "Collaboration and Sharing: Team features for project management and sharing results."
+    ],
+    howToUse: [
+      {
+        title: "Download and Install RapidMiner",
+        description: "Get the platform from the RapidMiner website and install on your system.",
+        links: [{ label: "RapidMiner", url: "https://rapidminer.com" }]
+      },
+      {
+        title: "Open the Visual Designer",
+        description: "Launch RapidMiner Studio and open a new project."
+      },
+      {
+        title: "Build Your Workflow",
+        description: "Drag and drop operators to prepare data, train models, and evaluate results."
+      },
+      {
+        title: "Automate and Share Projects",
+        description: "Use built-in automation and collaboration tools for deployment and sharing."
+      }
     ]
   },
   {
@@ -3848,6 +7070,25 @@ export const mockTools: Tool[] = [
       "In-Memory Processing: High-performance computations by keeping data in memory.",
       "Stream and Batch Processing: Unified engine for real-time and historical data.",
       "Integrated Machine Learning: Built-in MLlib for scalable machine learning algorithms."
+    ],
+    howToUse: [
+      {
+        title: "Download and Set Up Spark",
+        description: "Get Apache Spark from the official website. Set up on your local machine or cluster.",
+        links: [{ label: "Apache Spark", url: "https://spark.apache.org" }]
+      },
+      {
+        title: "Start Spark Session",
+        description: "Use your preferred language (Python, Scala, Java, R) to start a Spark session."
+      },
+      {
+        title: "Load and Process Data",
+        description: "Read data from files, databases, or distributed storage. Use Spark APIs to process and analyze."
+      },
+      {
+        title: "Run Analytics and Machine Learning",
+        description: "Use Spark SQL, MLlib, and GraphX for analytics, ML, and graph processing."
+      }
     ]
   },
   {
@@ -3871,6 +7112,25 @@ export const mockTools: Tool[] = [
       "Preprocessing Utilities: Support for data cleaning, filtering, and transformation.",
       "Extensible Framework: Plugin support for adding new methods and integrations.",
       "User-Friendly Interface: Intuitive GUI for non-programmers and rapid prototyping."
+    ],
+    howToUse: [
+      {
+        title: "Download and Install Weka",
+        description: "Get Weka from the official website and install it on your computer.",
+        links: [{ label: "Weka", url: "https://www.cs.waikato.ac.nz/ml/weka/" }]
+      },
+      {
+        title: "Open the GUI",
+        description: "Launch the Weka GUI and select the desired application (Explorer, Experimenter, etc.)."
+      },
+      {
+        title: "Load Your Data",
+        description: "Import datasets in ARFF, CSV, or other supported formats."
+      },
+      {
+        title: "Apply Algorithms and Visualize",
+        description: "Select and run machine learning algorithms, visualize results, and export models."
+      }
     ]
   },
   {
@@ -3894,6 +7154,25 @@ export const mockTools: Tool[] = [
       "Version Control: Automatically save and track changes in notebooks.",
       "Real-Time Collaboration: Share and work on code together with others.",
       "Multiple Language Support: Native support for Python and R scripts."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up and Access Kernels",
+        description: "Create a Kaggle account and navigate to the Kernels section.",
+        links: [{ label: "Kaggle Kernels", url: "https://www.kaggle.com/code" }]
+      },
+      {
+        title: "Create or Fork a Kernel",
+        description: "Start a new notebook or fork an existing one from the community."
+      },
+      {
+        title: "Write and Run Code",
+        description: "Develop in Python or R, use GPUs/TPUs, and access datasets directly."
+      },
+      {
+        title: "Share and Collaborate",
+        description: "Share kernels publicly or with teams, and collaborate in real time."
+      }
     ]
   },
   {
@@ -3917,6 +7196,25 @@ export const mockTools: Tool[] = [
       "Accelerated Inference: Reduces latency and improves throughput on optimized hardware.",
       "Seamless AWS Integration: Directly connects with the SageMaker ecosystem.",
       "Automatic Model Compilation: Converts models automatically for target devices."
+    ],
+    howToUse: [
+      {
+        title: "Access SageMaker Studio",
+        description: "Sign in to AWS and open SageMaker Studio or the Neo console.",
+        links: [{ label: "SageMaker Neo", url: "https://aws.amazon.com/sagemaker/neo/" }]
+      },
+      {
+        title: "Train or Import Model",
+        description: "Train a new model in SageMaker or import an existing model."
+      },
+      {
+        title: "Optimize with Neo",
+        description: "Select the model and use Neo's optimization options for your target hardware."
+      },
+      {
+        title: "Deploy Anywhere",
+        description: "Deploy optimized models to cloud endpoints or edge devices."
+      }
     ]
   },
   {
@@ -3940,6 +7238,25 @@ export const mockTools: Tool[] = [
       "Interactive Visualization: Dashboards and visual tools for data exploration.",
       "Open Source Integration: Supports Jupyter, RStudio, and other tools.",
       "Easy Model Deployment: Streamlined deployment and monitoring of models."
+    ],
+    howToUse: [
+      {
+        title: "Register and Access Watson Studio",
+        description: "Sign up on IBM Cloud and access Watson Studio from your dashboard.",
+        links: [{ label: "Watson Studio", url: "https://www.ibm.com/cloud/watson-studio" }]
+      },
+      {
+        title: "Start a New Project",
+        description: "Create a new project for data analysis, modeling, or visualization."
+      },
+      {
+        title: "Import Data and Build Models",
+        description: "Upload datasets, use AutoAI, or develop custom models in Jupyter or RStudio."
+      },
+      {
+        title: "Visualize and Deploy",
+        description: "Use dashboards for analysis and deploy models to production as needed."
+      }
     ]
   },
   {
@@ -3963,6 +7280,25 @@ export const mockTools: Tool[] = [
       "Add-On Ecosystem: Extensions for text mining, bioinformatics, and more.",
       "Educational Focus: Designed for teaching and rapid prototyping.",
       "Integrated Machine Learning: Wide range of built-in ML algorithms."
+    ],
+    howToUse: [
+      {
+        title: "Download and Install Orange3",
+        description: "Download Orange3 from the official site and install on your system.",
+        links: [{ label: "Orange3", url: "https://orange.biolab.si" }]
+      },
+      {
+        title: "Create a Workflow",
+        description: "Start a new project and use widgets to build your data analysis pipeline."
+      },
+      {
+        title: "Analyze and Visualize Data",
+        description: "Connect widgets to preprocess, analyze, and visualize datasets."
+      },
+      {
+        title: "Extend with Add-ons",
+        description: "Install add-ons for specialized analyses such as text mining or bioinformatics."
+      }
     ]
   },
   {
@@ -3986,6 +7322,25 @@ export const mockTools: Tool[] = [
       "Explainable AI: Built-in tools for model interpretability.",
       "Collaboration: Team-based projects and sharing capabilities.",
       "Data Source Integration: Connects to databases, cloud, and on-premises sources."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up and Access DataRobot",
+        description: "Request a demo or sign up for an account to access the DataRobot platform.",
+        links: [{ label: "DataRobot", url: "https://www.datarobot.com" }]
+      },
+      {
+        title: "Upload Data and Build Models",
+        description: "Upload your datasets and let DataRobot automate feature engineering and model training."
+      },
+      {
+        title: "Evaluate and Interpret Models",
+        description: "Use built-in explainability tools and dashboards to assess model performance."
+      },
+      {
+        title: "Deploy and Monitor",
+        description: "Deploy models to production and monitor them for accuracy and drift."
+      }
     ]
   },
   {
@@ -4009,6 +7364,25 @@ export const mockTools: Tool[] = [
       "Predictive Analytics: Built-in tools for forecasting and classification.",
       "Scalability: Efficiently handles large-scale data workflows.",
       "Collaboration: Enables sharing and reuse of workflows across teams."
+    ],
+    howToUse: [
+      {
+        title: "Install & Launch Alteryx Designer",
+        description: "Download and install Alteryx Designer. Open the application to start building workflows.",
+        links: [{ label: "Alteryx", url: "https://www.alteryx.com" }]
+      },
+      {
+        title: "Connect Data Sources",
+        description: "Use the drag-and-drop interface to connect to databases, files, APIs, and more."
+      },
+      {
+        title: "Build & Automate Workflows",
+        description: "Drag analytic tools to the canvas, configure them, and chain steps to prepare, blend, and analyze data."
+      },
+      {
+        title: "Run & Share Results",
+        description: "Execute workflows to generate outputs. Share or schedule workflows for team collaboration."
+      }
     ]
   },
   {
@@ -4032,6 +7406,25 @@ export const mockTools: Tool[] = [
       "Data Integration: Connects to a wide variety of data sources.",
       "Built-In AI: Features for predictive analytics and insights.",
       "Collaboration: Tools for sharing and storytelling with analytics."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Qlik Cloud",
+        description: "Create a Qlik account and log in to the Qlik Cloud platform.",
+        links: [{ label: "Qlik", url: "https://www.qlik.com" }]
+      },
+      {
+        title: "Connect to Data Sources",
+        description: "Import data from databases, cloud storage, or files."
+      },
+      {
+        title: "Build Visualizations",
+        description: "Use the associative engine and drag-and-drop dashboard editor to create interactive reports."
+      },
+      {
+        title: "Share & Collaborate",
+        description: "Share dashboards and insights with your team or organization."
+      }
     ]
   },
   {
@@ -4055,6 +7448,25 @@ export const mockTools: Tool[] = [
       "AI Insights: Zia provides automated insights and anomaly detection.",
       "Collaboration: Share reports and dashboards with your team.",
       "Broad Integrations: Connects to over 500 data sources and apps."
+    ],
+    howToUse: [
+      {
+        title: "Register & Log In",
+        description: "Sign up for Zoho Analytics and access the dashboard.",
+        links: [{ label: "Zoho Analytics", url: "https://www.zoho.com/analytics/" }]
+      },
+      {
+        title: "Import & Blend Data",
+        description: "Connect to cloud apps, databases, or upload files to blend and analyze data."
+      },
+      {
+        title: "Create Reports & Dashboards",
+        description: "Use the visual builder and Zia insights to create interactive reports and dashboards."
+      },
+      {
+        title: "Collaborate & Schedule",
+        description: "Share dashboards with your team and schedule automated report delivery."
+      }
     ]
   },
   {
@@ -4078,6 +7490,25 @@ export const mockTools: Tool[] = [
       "Real-Time Analysis: Live queries on cloud and on-premises data.",
       "Integration Flexibility: Connects to cloud, warehouse, and local data.",
       "Collaboration: Share insights and dashboards with colleagues."
+    ],
+    howToUse: [
+      {
+        title: "Request a Demo or Trial",
+        description: "Contact ThoughtSpot for a demo or sign up for a trial to access the platform.",
+        links: [{ label: "ThoughtSpot", url: "https://www.thoughtspot.com" }]
+      },
+      {
+        title: "Connect Data Sources",
+        description: "Integrate your cloud, warehouse, or local data for analysis."
+      },
+      {
+        title: "Search & Analyze",
+        description: "Use natural language search to analyze data and discover insights."
+      },
+      {
+        title: "Share & Collaborate",
+        description: "Share findings, dashboards, and automated insights with colleagues."
+      }
     ]
   },
   {
@@ -4101,6 +7532,25 @@ export const mockTools: Tool[] = [
       "Easy Deployment: Deploy models to Google Cloud with a few clicks.",
       "Integrated Data Labeling: Built-in tools for annotating datasets.",
       "Scalable Infrastructure: Handles enterprise workloads and large datasets."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Console",
+        description: "Create a Google Cloud account and access the AutoML console.",
+        links: [{ label: "Google Cloud AutoML", url: "https://cloud.google.com/automl" }]
+      },
+      {
+        title: "Prepare & Label Data",
+        description: "Upload your dataset and use built-in tools to label data for training."
+      },
+      {
+        title: "Train & Validate Model",
+        description: "Use the graphical interface to train and evaluate machine learning models."
+      },
+      {
+        title: "Deploy & Monitor",
+        description: "Deploy models to Google Cloud and monitor their performance in production."
+      }
     ]
   },
   {
@@ -4124,6 +7574,21 @@ export const mockTools: Tool[] = [
       "Distributed Processing: Scalable solutions for big data environments.",
       "Multi-Language Support: Integrates with Python, R, and Java.",
       "Model Interpretability: Built-in tools for explaining model predictions."
+    ],
+    howToUse: [
+      {
+        title: "Download & Install H2O.ai",
+        description: "Download the H2O.ai platform or use the cloud version. Install and configure on your local or cloud environment.",
+        links: [{ label: "H2O.ai", url: "https://www.h2o.ai" }]
+      },
+      {
+        title: "Load Data & Build Models",
+        description: "Import data and use AutoML or custom pipelines to build models in Python, R, or Java."
+      },
+      {
+        title: "Interpret & Deploy Models",
+        description: "Use interpretability tools to explain model results and deploy models to production."
+      }
     ]
   },
   {
@@ -4147,6 +7612,25 @@ export const mockTools: Tool[] = [
       "Automated Machine Learning: Simplifies ML workflows for SQL users.",
       "Supports Multiple Data Types: Structured and unstructured data.",
       "Extensible: Custom algorithms and integrations available."
+    ],
+    howToUse: [
+      {
+        title: "Install MindsDB",
+        description: "Install MindsDB on your database server or use the cloud version.",
+        links: [{ label: "MindsDB", url: "https://mindsdb.com" }]
+      },
+      {
+        title: "Connect to Database",
+        description: "Link MindsDB to your data source for training and inference."
+      },
+      {
+        title: "Create & Train Models",
+        description: "Use SQL queries to create and train predictive models directly in your database."
+      },
+      {
+        title: "Query Predictions",
+        description: "Run SQL queries to get predictions from your deployed models."
+      }
     ]
   },
   {
@@ -4170,6 +7654,21 @@ export const mockTools: Tool[] = [
       "Extensible Processor Library: Wide range of built-in and custom processors.",
       "Security Features: Data encryption, access control, and audit logs.",
       "Scalable Architecture: Designed for both small and enterprise-scale deployments."
+    ],
+    howToUse: [
+      {
+        title: "Download & Launch NiFi",
+        description: "Download Apache NiFi and start the web UI on your server.",
+        links: [{ label: "Apache NiFi", url: "https://nifi.apache.org" }]
+      },
+      {
+        title: "Design Data Flows",
+        description: "Use drag-and-drop to create data ingestion, transformation, and delivery pipelines."
+      },
+      {
+        title: "Configure & Monitor",
+        description: "Set up processors, security, and monitor pipeline health and performance."
+      }
     ]
   },
   {
@@ -4193,6 +7692,25 @@ export const mockTools: Tool[] = [
       "Integrations: Connect to databases, cloud storage, and other tools.",
       "Version Control: Track changes and experiment with branching.",
       "Interactive Visualizations: Built-in support for data plots and dashboards."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Workspace",
+        description: "Register for Deepnote and log in to your workspace.",
+        links: [{ label: "Deepnote", url: "https://deepnote.com" }]
+      },
+      {
+        title: "Create Notebooks & Collaborate",
+        description: "Start new notebooks, invite collaborators, and use real-time editing."
+      },
+      {
+        title: "Connect Data & Integrate Tools",
+        description: "Integrate with databases, cloud storage, and visualization libraries."
+      },
+      {
+        title: "Analyze & Share Results",
+        description: "Build models, visualize data, and share interactive reports."
+      }
     ]
   },
   {
@@ -4216,6 +7734,25 @@ export const mockTools: Tool[] = [
       "API Integration: Easily integrate with existing business systems.",
       "Multi-Language Support: Processes documents in various languages.",
       "Continuous Learning: Improves accuracy through feedback."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Log In",
+        description: "Create an account on Nanonets and log in to the dashboard.",
+        links: [{ label: "Nanonets", url: "https://nanonets.com" }]
+      },
+      {
+        title: "Train or Use a Model",
+        description: "Upload sample documents to train a custom model or use a prebuilt workflow."
+      },
+      {
+        title: "Integrate with Your Systems",
+        description: "Use APIs or integrations to automate document processing in your business."
+      },
+      {
+        title: "Review & Improve",
+        description: "Review extracted data and provide feedback to improve model accuracy."
+      }
     ]
   },
   {
@@ -4239,6 +7776,25 @@ export const mockTools: Tool[] = [
       "Alerting: Notifies users of anomalies or performance thresholds.",
       "Integrates with Data Sources: Connects to databases and business tools.",
       "Data Visualization: Offers a variety of charts and graphs for deep insights."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Connect Data Sources",
+        description: "Register for Pulse and log in. Connect your business data sources (databases, SaaS tools) to the platform.",
+        links: [{ label: "Pulse", url: "https://www.pulsedata.io" }]
+      },
+      {
+        title: "Build Custom Dashboards",
+        description: "Use the dashboard builder to create visualizations for specific teams, departments, or KPIs."
+      },
+      {
+        title: "Set Up Alerts",
+        description: "Configure real-time alerts for threshold breaches, anomalies, or significant changes in your metrics."
+      },
+      {
+        title: "Monitor & Analyze",
+        description: "Track key metrics and interact with dashboards to gain actionable business insights."
+      }
     ]
   },
   {
@@ -4262,6 +7818,25 @@ export const mockTools: Tool[] = [
       "API Integrations: Connect with external data and services.",
       "User Management: Built-in authentication and access control.",
       "Analytics Dashboard: Monitor the usage and performance of your AI apps."
+    ],
+    howToUse: [
+      {
+        title: "Register & Start a Project",
+        description: "Sign up for Perplexity Labs and start a new AI app project.",
+        links: [{ label: "Perplexity Labs", url: "https://labs.perplexity.ai" }]
+      },
+      {
+        title: "Build with No-Code Editor",
+        description: "Drag and drop components to create your AI application's interface and logic."
+      },
+      {
+        title: "Deploy & Integrate Models",
+        description: "Host your own AI models or use built-in ones. Integrate APIs and data sources as needed."
+      },
+      {
+        title: "Manage Users & Monitor Usage",
+        description: "Set up authentication, manage access, and track app usage with built-in analytics."
+      }
     ]
   },
   {
@@ -4285,6 +7860,25 @@ export const mockTools: Tool[] = [
       "Seamless Integration: Works natively with Google Sheets and Excel.",
       "Bulk Processing: Handles large-scale spreadsheet operations.",
       "Real-Time Collaboration: Share and edit spreadsheets with your team."
+    ],
+    howToUse: [
+      {
+        title: "Install Numerous.ai Add-on",
+        description: "Add Numerous.ai to your Google Sheets or Excel from the respective app marketplace.",
+        links: [{ label: "Numerous.ai", url: "https://numerous.ai" }]
+      },
+      {
+        title: "Connect Data Sources",
+        description: "Link external data sources or APIs for enrichment and automation."
+      },
+      {
+        title: "Use AI Formulas",
+        description: "Apply AI-driven formulas and automations directly in your spreadsheets."
+      },
+      {
+        title: "Collaborate & Process in Bulk",
+        description: "Invite team members for real-time collaboration and execute bulk operations as needed."
+      }
     ]
   },
   {
@@ -4307,6 +7901,25 @@ export const mockTools: Tool[] = [
       "Batch Generation: Produce multiple variations simultaneously.",
       "Asset Library: Save and manage your generated artwork.",
       "Community Gallery: Share and explore creations from other users."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Leonardo.Ai",
+        description: "Create an account and log in to the Leonardo.Ai dashboard.",
+        links: [{ label: "Leonardo.Ai", url: "https://leonardo.ai" }]
+      },
+      {
+        title: "Enter Prompt & Customize",
+        description: "Input a text prompt, select styles, and adjust modifiers for your image."
+      },
+      {
+        title: "Generate & Save Artwork",
+        description: "Generate images in batches, then save, manage, or share them in your asset library."
+      },
+      {
+        title: "Explore Community Gallery",
+        description: "Browse and interact with other users' creations for inspiration."
+      }
     ]
   },
   {
@@ -4329,6 +7942,25 @@ export const mockTools: Tool[] = [
       "Prompt-Based Art: Create unique visuals from descriptions.",
       "Templates: Pre-made layouts for posters and graphics.",
       "Export Options: Download images in high resolution."
+    ],
+    howToUse: [
+      {
+        title: "Register & Log In",
+        description: "Sign up for Ideogram, then access the prompt-based art generator.",
+        links: [{ label: "Ideogram", url: "https://ideogram.ai" }]
+      },
+      {
+        title: "Describe & Style",
+        description: "Enter a prompt, choose font, layout, and styling options."
+      },
+      {
+        title: "Generate & Edit",
+        description: "Create images with integrated text, and adjust as needed."
+      },
+      {
+        title: "Download & Share",
+        description: "Export your graphics for use in marketing, social, or print projects."
+      }
     ]
   },
   {
@@ -4351,6 +7983,25 @@ export const mockTools: Tool[] = [
       "Style Versatility: Supports photorealistic and artistic outputs.",
       "Inpainting: Edit and refine parts of generated images.",
       "Seamless Integration: Used in ChatGPT Plus and other platforms."
+    ],
+    howToUse: [
+      {
+        title: "Access DALL·E 3 via Platform",
+        description: "Use DALL·E 3 through OpenAI’s platform or integrated services (e.g., ChatGPT Plus).",
+        links: [{ label: "DALL·E 3", url: "https://openai.com/dall-e-3" }]
+      },
+      {
+        title: "Describe Your Image",
+        description: "Enter a detailed prompt specifying what you want to generate."
+      },
+      {
+        title: "Review & Refine",
+        description: "Edit the prompt or use inpainting to refine specific areas."
+      },
+      {
+        title: "Download & Use",
+        description: "Save generated images for creative or commercial projects."
+      }
     ]
   },
   {
@@ -4373,6 +8024,25 @@ export const mockTools: Tool[] = [
       "Vector Generation: Produce vector art with AI assistance.",
       "Seamless Integration: Works within Adobe Photoshop and Illustrator.",
       "Commercial Use: Outputs designed to be safe for business projects."
+    ],
+    howToUse: [
+      {
+        title: "Sign In with Adobe Account",
+        description: "Access Firefly through Creative Cloud or web app with your Adobe account.",
+        links: [{ label: "Adobe Firefly", url: "https://adobe.com/sensei/generative-ai/firefly" }]
+      },
+      {
+        title: "Choose Generation Tool",
+        description: "Select from text-to-image, text effects, or vector generation."
+      },
+      {
+        title: "Enter Prompt & Customize",
+        description: "Describe the image or effect, and fine-tune settings (styles, colors, etc.)."
+      },
+      {
+        title: "Export or Integrate",
+        description: "Download outputs or use them in Photoshop, Illustrator, or other Adobe apps."
+      }
     ]
   },
   {
@@ -4395,6 +8065,25 @@ export const mockTools: Tool[] = [
       "Templates: Ready-to-use layouts for social media and e-commerce.",
       "AI Effects: Add shadows, blur, and color enhancements.",
       "Mobile and Web: Available as an app and online."
+    ],
+    howToUse: [
+      {
+        title: "Download App or Use Online",
+        description: "Access Photoroom via web or mobile app.",
+        links: [{ label: "Photoroom", url: "https://photoroom.com" }]
+      },
+      {
+        title: "Upload or Capture Image",
+        description: "Add a photo for background removal or editing."
+      },
+      {
+        title: "Apply Edits & Effects",
+        description: "Use templates, remove backgrounds, or add effects as needed."
+      },
+      {
+        title: "Download or Share",
+        description: "Export edited images for e-commerce, marketing, or personal use."
+      }
     ]
   },
   {
@@ -4417,6 +8106,25 @@ export const mockTools: Tool[] = [
       "Video Creation: Produce and edit videos with AI effects.",
       "Stickers and Assets: Huge library of creative elements.",
       "Collage and Templates: Design posts, stories, and ads quickly."
+    ],
+    howToUse: [
+      {
+        title: "Install or Access Online",
+        description: "Use Picsart via mobile app or web platform.",
+        links: [{ label: "Picsart AI", url: "https://picsart.com/ai-tools" }]
+      },
+      {
+        title: "Start a Project",
+        description: "Open a new photo or video project for editing or creation."
+      },
+      {
+        title: "Apply AI Tools",
+        description: "Use art filters, background removal, or generative effects for your project."
+      },
+      {
+        title: "Export & Publish",
+        description: "Download, share, or publish your finished content."
+      }
     ]
   },
   {
@@ -4439,6 +8147,25 @@ export const mockTools: Tool[] = [
       "Multiple Models: Choose from deep dream, thin style, and more.",
       "Community Gallery: Explore and share creations.",
       "High-Resolution Export: Download images in print quality."
+    ],
+    howToUse: [
+      {
+        title: "Go to Deep Dream Generator",
+        description: "Access the tool online and create an account for full features.",
+        links: [{ label: "Deep Dream Generator", url: "https://deepdreamgenerator.com" }]
+      },
+      {
+        title: "Upload a Photo",
+        description: "Choose a photo and select a dream filter or style."
+      },
+      {
+        title: "Generate & Adjust",
+        description: "Apply neural network models and tweak settings for desired results."
+      },
+      {
+        title: "Download or Share",
+        description: "Download your dreamlike image or share in the community gallery."
+      }
     ]
   },
   {
@@ -4461,6 +8188,25 @@ export const mockTools: Tool[] = [
       "Manual Touch-Up: Customize colors and effects after generation.",
       "Line Art Detection: Works with various drawing styles.",
       "High-Quality Output: Downloads for print and digital use."
+    ],
+    howToUse: [
+      {
+        title: "Access PaintsChainer",
+        description: "Go to the PaintsChainer website and upload your sketch or line art.",
+        links: [{ label: "PaintsChainer", url: "https://paintschainer.preferred.tech" }]
+      },
+      {
+        title: "Choose a Coloring Style",
+        description: "Pick from several AI coloring models and adjust style parameters."
+      },
+      {
+        title: "Edit & Refine",
+        description: "Manually adjust colors, shading, or add finishing touches."
+      },
+      {
+        title: "Download Artwork",
+        description: "Export your colored illustration for print or digital use."
+      }
     ]
   },
   {
@@ -4483,6 +8229,31 @@ export const mockTools: Tool[] = [
       "Component Library: Access interactive UI building blocks.",
       "Live Preview: See and test designs in real time.",
       "One-Click Publish: Deploy finished sites easily."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Framer AI",
+        description: "Create a Framer account and access the Framer AI feature via the web dashboard.",
+        links: [
+          { label: "Framer AI", url: "https://framer.com/ai" }
+        ]
+      },
+      {
+        title: "Start a New Project",
+        description: "Begin a new site or UI design project within the Framer editor."
+      },
+      {
+        title: "Generate Layouts & Copy",
+        description: "Use natural language prompts to generate layouts, website copy, or interactive elements instantly."
+      },
+      {
+        title: "Edit & Customize",
+        description: "Refine the generated content, drag-and-drop components, and preview your work in real time."
+      },
+      {
+        title: "Publish or Export",
+        description: "Publish your finished site with one click, or export code/assets for further development."
+      }
     ]
   },
   {
@@ -4505,6 +8276,31 @@ export const mockTools: Tool[] = [
       "Export to Frameworks: Supports React, Vue, and HTML/CSS.",
       "Collaboration: Team-based project management.",
       "Component Marketplace: Use and share UI components."
+    ],
+    howToUse: [
+      {
+        title: "Register & Access Editor",
+        description: "Sign up for TeleportHQ and open the web-based editor.",
+        links: [
+          { label: "TeleportHQ", url: "https://teleporthq.io" }
+        ]
+      },
+      {
+        title: "Create or Import a Project",
+        description: "Start a project from scratch or import an existing design."
+      },
+      {
+        title: "Design Visually",
+        description: "Use the drag-and-drop interface to assemble your website layout."
+      },
+      {
+        title: "Generate & Export Code",
+        description: "Let AI convert your design to code. Export to React, Vue, or as static HTML/CSS."
+      },
+      {
+        title: "Collaborate & Publish",
+        description: "Invite team members, manage permissions, and publish your site online."
+      }
     ]
   },
   {
@@ -4527,6 +8323,31 @@ export const mockTools: Tool[] = [
       "Automatic Code Updates: Sync design changes instantly.",
       "Collaboration: Comment and iterate with teams.",
       "Plugin Support: Integrates with leading design tools."
+    ],
+    howToUse: [
+      {
+        title: "Create Account & Install Plugin",
+        description: "Sign up on Anima and install the plugin for Figma, Sketch, or XD.",
+        links: [
+          { label: "Anima", url: "https://animaapp.com" }
+        ]
+      },
+      {
+        title: "Sync Your Design",
+        description: "Connect your design tool and sync your project to Anima."
+      },
+      {
+        title: "Convert to Code",
+        description: "Let Anima generate React, HTML, or CSS code from your design."
+      },
+      {
+        title: "Prototype with Real Data",
+        description: "Integrate live data or APIs to test interactive prototypes."
+      },
+      {
+        title: "Collaborate and Export",
+        description: "Share projects with your team and export code for development."
+      }
     ]
   },
   {
@@ -4549,6 +8370,31 @@ export const mockTools: Tool[] = [
       "A/B Testing: Experiment with versions and track conversions.",
       "Integration: Connects with React, Vue, Angular, and more.",
       "Dynamic Data: Display content from APIs and databases."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Builder.io",
+        description: "Create your account and access the visual editor.",
+        links: [
+          { label: "Builder.io", url: "https://builder.io" }
+        ]
+      },
+      {
+        title: "Start a New Page or Project",
+        description: "Create a new page or import an existing site for editing."
+      },
+      {
+        title: "Design Visually",
+        description: "Drag and drop components, and use AI to generate or optimize content."
+      },
+      {
+        title: "Integrate & Test",
+        description: "Connect to frameworks, APIs, or dynamic data sources. Use A/B testing to optimize."
+      },
+      {
+        title: "Publish & Export",
+        description: "Publish directly or export code and assets for deployment."
+      }
     ]
   },
   {
@@ -4571,6 +8417,27 @@ export const mockTools: Tool[] = [
       "Export Options: Send designs to Figma or Webflow.",
       "Library of Blocks: Mix-and-match prebuilt components.",
       "Collaboration: Share and iterate with team members."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Start a Project",
+        description: "Register on Relume, then start a new site project.",
+        links: [
+          { label: "Relume", url: "https://relume.io" }
+        ]
+      },
+      {
+        title: "Describe Your Site",
+        description: "Enter a prompt describing the purpose and features of your site."
+      },
+      {
+        title: "Generate & Edit Wireframe",
+        description: "Let AI build your site’s structure and content. Modify and refine as needed."
+      },
+      {
+        title: "Export or Share",
+        description: "Export your site wireframe to Figma/Webflow, or share with your team."
+      }
     ]
   },
   {
@@ -4593,6 +8460,27 @@ export const mockTools: Tool[] = [
       "Interactive Prototyping: Build and share clickable prototypes.",
       "Open Standards: Export to SVG and other formats.",
       "Plugin Architecture: Extend and customize functionality."
+    ],
+    howToUse: [
+      {
+        title: "Register & Log In",
+        description: "Create a free account on Penpot and access the web app.",
+        links: [
+          { label: "Penpot", url: "https://penpot.app" }
+        ]
+      },
+      {
+        title: "Start New Design or Import Assets",
+        description: "Begin a new design or import SVGs and other assets."
+      },
+      {
+        title: "Design & Prototype",
+        description: "Use vector editing and prototyping features. Collaborate with others in real time."
+      },
+      {
+        title: "Export & Extend",
+        description: "Export your work to SVG/other formats or add plugins for new features."
+      }
     ]
   },
   {
@@ -4615,6 +8503,27 @@ export const mockTools: Tool[] = [
       "Preview Tool: See pairings in sample content.",
       "Export: Copy CSS and font details for web use.",
       "Open Library: Access a variety of Google Fonts."
+    ],
+    howToUse: [
+      {
+        title: "Go to Fontjoy",
+        description: "Access the website and start generating font pairings instantly.",
+        links: [
+          { label: "Fontjoy", url: "https://fontjoy.com" }
+        ]
+      },
+      {
+        title: "Generate Font Pairings",
+        description: "Click 'Generate' to see new font combinations."
+      },
+      {
+        title: "Adjust & Preview",
+        description: "Manually tweak font weights or try different pairings. Preview them in live sample text."
+      },
+      {
+        title: "Export & Use",
+        description: "Copy the CSS/font info and use in your web or branding project."
+      }
     ]
   },
   {
@@ -4637,6 +8546,27 @@ export const mockTools: Tool[] = [
       "Filter by Category: Serif, sans-serif, display, and more.",
       "Google Fonts Integration: Easy to use on web projects.",
       "Copy Styles: Export font CSS and style info."
+    ],
+    howToUse: [
+      {
+        title: "Visit FontPair",
+        description: "Go to the FontPair website to browse curated font pairings.",
+        links: [
+          { label: "FontPair", url: "https://fontpair.co" }
+        ]
+      },
+      {
+        title: "Browse or Filter Pairings",
+        description: "Explore pairings by category or search for specific font combinations."
+      },
+      {
+        title: "Preview with Your Text",
+        description: "Enter your own sample text to see how pairings look in real use cases."
+      },
+      {
+        title: "Copy & Export",
+        description: "Copy the font info or CSS for use in your web or branding project."
+      }
     ]
   },
   {
@@ -4659,6 +8589,27 @@ export const mockTools: Tool[] = [
       "High-Res Export: Get print-ready files.",
       "Instant Preview: See logos on business cards and products.",
       "Unlimited Edits: Refine logos until satisfied."
+    ],
+    howToUse: [
+      {
+        title: "Get Started on Brandmark",
+        description: "Go to Brandmark and enter your business name and keywords.",
+        links: [
+          { label: "Brandmark", url: "https://brandmark.io" }
+        ]
+      },
+      {
+        title: "Choose Style Preferences",
+        description: "Select color and style preferences for your brand."
+      },
+      {
+        title: "Generate & Edit Logos",
+        description: "View AI-generated logos, then edit or refine until satisfied."
+      },
+      {
+        title: "Download Brand Kit",
+        description: "Purchase and download your logo plus full brand assets."
+      }
     ]
   },
   {
@@ -4681,6 +8632,27 @@ export const mockTools: Tool[] = [
       "Font Selection: Choose from a range of typefaces.",
       "Unlimited Downloads: Export in web and print formats.",
       "Branding Tools: Create business cards and social assets."
+    ],
+    howToUse: [
+      {
+        title: "Open LogoMakr",
+        description: "Go to LogoMakr and start creating without any registration.",
+        links: [
+          { label: "LogoMakr", url: "https://logomakr.com" }
+        ]
+      },
+      {
+        title: "Design Your Logo",
+        description: "Use the drag-and-drop interface and icon library to design your logo."
+      },
+      {
+        title: "Customize & Preview",
+        description: "Change fonts, colors, and layout. Preview your logo on different backgrounds."
+      },
+      {
+        title: "Export & Download",
+        description: "Download your finished logo for free (low-res) or purchase high-res files and brand assets."
+      }
     ]
   },
   {
@@ -4703,6 +8675,31 @@ export const mockTools: Tool[] = [
       "Interactivity: Add triggers and user actions.",
       "Collaboration: Edit projects in real time with others.",
       "Web Export: Publish interactive 3D content online."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Editor",
+        description: "Create a free account on Spline to access the online 3D editor.",
+        links: [
+          { label: "Spline", url: "https://spline.design" }
+        ]
+      },
+      {
+        title: "Create or Import a 3D Scene",
+        description: "Start a new project or import 3D assets. Use the intuitive interface to add, modify, or arrange objects."
+      },
+      {
+        title: "Animate & Add Interactivity",
+        description: "Use keyframes to animate objects and add triggers for user interactions (clicks, hovers, etc.)."
+      },
+      {
+        title: "Collaborate in Real Time",
+        description: "Invite others to edit your project simultaneously for team-based workflows."
+      },
+      {
+        title: "Export or Publish",
+        description: "Export your project as web-embeddable content or share a public link for interactive viewing."
+      }
     ]
   },
   {
@@ -4725,6 +8722,27 @@ export const mockTools: Tool[] = [
       "Format Support: Download models in standard 3D formats.",
       "Cloud Processing: Handle large or complex scenes via cloud.",
       "Integration: Use in game engines and 3D editors."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Upload Image",
+        description: "Register for Kaedim and upload a 2D image or sketch you want to convert.",
+        links: [
+          { label: "Kaedim", url: "https://kaedim3d.com" }
+        ]
+      },
+      {
+        title: "Configure Output",
+        description: "Specify your desired output format and any model requirements."
+      },
+      {
+        title: "Generate 3D Asset",
+        description: "Let Kaedim’s AI process your image and create a 3D model."
+      },
+      {
+        title: "Download & Integrate",
+        description: "Download your model for use in game engines or 3D editors."
+      }
     ]
   },
   {
@@ -4747,6 +8765,27 @@ export const mockTools: Tool[] = [
       "Mobile Friendly: Capture with a standard smartphone.",
       "Export Options: Download in 3D and AR formats.",
       "Web Viewer: Share scans easily online."
+    ],
+    howToUse: [
+      {
+        title: "Create Account & Download App",
+        description: "Sign up for Luma AI and download the mobile app or use the web platform.",
+        links: [
+          { label: "Luma AI", url: "https://lumalabs.ai" }
+        ]
+      },
+      {
+        title: "Capture Photos or Video",
+        description: "Use your smartphone to capture an object or scene from multiple angles."
+      },
+      {
+        title: "Process & Generate 3D Model",
+        description: "Upload your captures to let Luma AI generate a photorealistic 3D model."
+      },
+      {
+        title: "Download or Share Model",
+        description: "Export in your preferred 3D/AR format or share a web viewer link."
+      }
     ]
   },
   {
@@ -4769,6 +8808,27 @@ export const mockTools: Tool[] = [
       "Room Redesign: Experiment with layouts and color palettes.",
       "Photo Upload: Use any room photo for instant results.",
       "Download & Share: Save or share staged images."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Upload Room Photo",
+        description: "Create an account on Interior AI and upload a photo of your room.",
+        links: [
+          { label: "Interior AI", url: "https://interiorai.com" }
+        ]
+      },
+      {
+        title: "Choose a Style",
+        description: "Select from a variety of design styles and staging options."
+      },
+      {
+        title: "Preview & Edit",
+        description: "View the AI-generated redesign; make adjustments to furniture and layout as needed."
+      },
+      {
+        title: "Download & Share",
+        description: "Save your new room designs or share them with others."
+      }
     ]
   },
   {
@@ -4791,6 +8851,27 @@ export const mockTools: Tool[] = [
       "AI Recommendations: Suggests layouts and styles.",
       "Mobile & Web: Design on any device.",
       "Export & Share: Download images or share projects online."
+    ],
+    howToUse: [
+      {
+        title: "Create Account & Start Project",
+        description: "Sign up for Planner 5D and start a new design project.",
+        links: [
+          { label: "Planner 5D", url: "https://planner5d.com" }
+        ]
+      },
+      {
+        title: "Draw Floor Plan",
+        description: "Use the editor to create 2D or 3D plans. Add, resize, and arrange rooms."
+      },
+      {
+        title: "Furnish & Decorate",
+        description: "Drag and drop furniture and decor from the library. Use AI recommendations for optimal layouts."
+      },
+      {
+        title: "Visualize & Export",
+        description: "Switch between 2D and 3D views, then export or share your designs."
+      }
     ]
   },
   {
@@ -4813,6 +8894,27 @@ export const mockTools: Tool[] = [
       "Fast Rendering: Get new designs in seconds.",
       "Mobile Friendly: Works on smartphones and tablets.",
       "Download Images: Save new room concepts for later."
+    ],
+    howToUse: [
+      {
+        title: "Access RoomGPT & Upload Photo",
+        description: "Go to RoomGPT, sign in, and upload a photo of your room.",
+        links: [
+          { label: "RoomGPT", url: "https://roomgpt.io" }
+        ]
+      },
+      {
+        title: "Select a Style",
+        description: "Choose from available interior design styles."
+      },
+      {
+        title: "Generate New Designs",
+        description: "Let AI render realistic new room concepts."
+      },
+      {
+        title: "Download & Save",
+        description: "Download your favorite designs for reference or sharing."
+      }
     ]
   },
   {
@@ -4835,6 +8937,27 @@ export const mockTools: Tool[] = [
       "Collaboration: Real-time team editing and commenting.",
       "Template Gallery: Start quickly with prebuilt layouts.",
       "Export Options: Share designs or export to popular formats."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up and Start Project",
+        description: "Register on Visily and start a new wireframe project.",
+        links: [
+          { label: "Visily", url: "https://www.visily.ai" }
+        ]
+      },
+      {
+        title: "Generate or Import Wireframes",
+        description: "Create wireframes from sketches, screenshots, or use text prompts."
+      },
+      {
+        title: "Edit & Collaborate",
+        description: "Use the component library and real-time collaboration for editing and feedback."
+      },
+      {
+        title: "Export or Share",
+        description: "Export designs in popular formats or share with your team."
+      }
     ]
   },
   {
@@ -4857,6 +8980,27 @@ export const mockTools: Tool[] = [
       "Commercial Use: Royalty-free outputs for business.",
       "Prompt Library: Inspiration for creative projects.",
       "High-Resolution Export: Download large, print-ready images."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up and Access Platform",
+        description: "Register at Stockimg.AI to unlock all generation features.",
+        links: [
+          { label: "Stockimg.AI", url: "https://stockimg.ai" }
+        ]
+      },
+      {
+        title: "Input Text Prompt",
+        description: "Describe the image you want to generate."
+      },
+      {
+        title: "Choose Type & Settings",
+        description: "Select image type (poster, cover, etc.) and resolution."
+      },
+      {
+        title: "Generate & Download",
+        description: "Generate your image and download high-res outputs."
+      }
     ]
   },
   {
@@ -4879,6 +9023,27 @@ export const mockTools: Tool[] = [
       "Customizable: Edit colors and details after generation.",
       "Commercial License: Use outputs for business and products.",
       "Large Illustration Library: Browse and reuse community images."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Enter Prompt",
+        description: "Create an account at Illustroke and input your text prompt.",
+        links: [
+          { label: "Illustroke", url: "https://illustroke.com" }
+        ]
+      },
+      {
+        title: "Generate SVG Illustration",
+        description: "Let the AI create a unique vector illustration."
+      },
+      {
+        title: "Customize Colors & Details",
+        description: "Modify the SVG output to match your preferences."
+      },
+      {
+        title: "Download & Use",
+        description: "Download your illustration for web, print, or commercial use."
+      }
     ]
   },
   {
@@ -4901,6 +9066,31 @@ export const mockTools: Tool[] = [
       "Animation: Turn static images into animated content.",
       "Private Generation: No content moderation for privacy-focused users.",
       "Gallery: Explore and remix public works."
+    ],
+    howToUse: [
+      {
+        title: "Access Mage.Space",
+        description: "Go to Mage.Space and start creating with or without an account.",
+        links: [
+          { label: "Mage.Space", url: "https://mage.space" }
+        ]
+      },
+      {
+        title: "Enter Prompt",
+        description: "Type your idea for an image, animation, or video."
+      },
+      {
+        title: "Select Style & Options",
+        description: "Choose generation settings and privacy options."
+      },
+      {
+        title: "Generate & Review",
+        description: "Create your content and review outputs. Iterate as needed."
+      },
+      {
+        title: "Download or Share",
+        description: "Save your work or publish to the public gallery."
+      }
     ]
   },
   {
@@ -4923,6 +9113,29 @@ export const mockTools: Tool[] = [
       "Mobile App: Create and share on the go.",
       "Print Shop: Order posters and framed prints.",
       "Community: Share artworks and participate in challenges."
+    ],
+    howToUse: [
+      {
+        title: "Access Dream by WOMBO",
+        description: "Use the web app or download the mobile app to get started.",
+        links: [{ label: "WOMBO Dream", url: "https://www.wombo.art" }]
+      },
+      {
+        title: "Enter a Text Prompt",
+        description: "Type any idea, concept, or phrase as your prompt."
+      },
+      {
+        title: "Choose an Art Style",
+        description: "Select from a variety of art styles before generating your artwork."
+      },
+      {
+        title: "Generate and Edit",
+        description: "Click 'Create' to generate your artwork. Optionally, refine or re-generate for different results."
+      },
+      {
+        title: "Download or Share",
+        description: "Download your art, share with the WOMBO community, or order a print."
+      }
     ]
   },
   {
@@ -4945,6 +9158,29 @@ export const mockTools: Tool[] = [
       "Style Filters: Apply different art styles.",
       "Commercial Use: License for business and marketing.",
       "Batch Generation: Create multiple images at once."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up or Log In",
+        description: "Visit Gencraft and create an account for high-res downloads and marketplace access.",
+        links: [{ label: "Gencraft", url: "https://gencraft.com" }]
+      },
+      {
+        title: "Enter a Prompt",
+        description: "Type your creative prompt. Use the marketplace for inspiration."
+      },
+      {
+        title: "Choose Styles and Settings",
+        description: "Select art styles or filters, and set your desired resolution."
+      },
+      {
+        title: "Generate and Download",
+        description: "Generate images, preview results, and download the ones you like."
+      },
+      {
+        title: "Use Commercially or Share",
+        description: "License images for business, or share your creations on the platform."
+      }
     ]
   },
   {
@@ -4967,6 +9203,29 @@ export const mockTools: Tool[] = [
       "Speechmaker: Generate professional voiceovers.",
       "Design Maker: Create banners, posts, and ads.",
       "Mockup Generator: Preview designs on products."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up and Access Tools",
+        description: "Create an account at Designs.ai to access all creative tools.",
+        links: [{ label: "Designs.ai", url: "https://designs.ai" }]
+      },
+      {
+        title: "Select a Tool",
+        description: "Pick Logo Maker, Video Maker, Speechmaker, or Design Maker based on your project."
+      },
+      {
+        title: "Input Your Content",
+        description: "Provide text, upload assets, or select templates for your design."
+      },
+      {
+        title: "Customize & Preview",
+        description: "Edit layouts, styles, and elements. Preview and iterate as needed."
+      },
+      {
+        title: "Download or Order",
+        description: "Export your designs or order prints and branded products."
+      }
     ]
   },
   {
@@ -4989,6 +9248,25 @@ export const mockTools: Tool[] = [
       "Fun Styles: Surreal, cartoonish outputs.",
       "Community Gallery: Share and browse creations.",
       "Mobile Friendly: Works on all devices."
+    ],
+    howToUse: [
+      {
+        title: "Go to Craiyon",
+        description: "Access Craiyon from any browser or device. No sign-up required.",
+        links: [{ label: "Craiyon", url: "https://www.craiyon.com" }]
+      },
+      {
+        title: "Enter a Prompt",
+        description: "Type your desired prompt in the input box."
+      },
+      {
+        title: "Generate Images",
+        description: "Click 'Draw' to create images. Wait for the AI to finish generating."
+      },
+      {
+        title: "Download or Share",
+        description: "Download images or share them to the community gallery."
+      }
     ]
   },
   {
@@ -5010,6 +9288,29 @@ export const mockTools: Tool[] = [
       "Keyword research: Discover high-value keywords and their difficulty.",
       "Content outlines: Generate content structure and suggestions for writers.",
       "Competitive analysis: Analyze top-ranking websites for your keywords."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Log In",
+        description: "Register for GrowthBar and log in to access the dashboard.",
+        links: [{ label: "GrowthBar", url: "https://www.growthbarseo.com" }]
+      },
+      {
+        title: "Start a Blog Post or Keyword Research",
+        description: "Choose to generate a blog post or begin keyword research."
+      },
+      {
+        title: "Enter Topic or Keywords",
+        description: "Input your blog topic or keywords for SEO analysis and suggestions."
+      },
+      {
+        title: "Review Outlines & Suggestions",
+        description: "View content outlines, keyword suggestions, and competitive data."
+      },
+      {
+        title: "Generate and Optimize Content",
+        description: "Generate the article and optimize with on-page SEO tips. Export or publish as needed."
+      }
     ]
   },
   {
@@ -5031,6 +9332,25 @@ export const mockTools: Tool[] = [
       "Scheduling: Plan and schedule posts across multiple platforms.",
       "Analytics dashboard: Track performance and engagement metrics.",
       "Content automation: Automate repetitive posting tasks."
+    ],
+    howToUse: [
+      {
+        title: "Register & Connect Accounts",
+        description: "Sign up for Ocoya and connect your social media profiles.",
+        links: [{ label: "Ocoya", url: "https://www.ocoya.com" }]
+      },
+      {
+        title: "Generate or Schedule Posts",
+        description: "Use AI to create content or set up scheduled posts for your channels."
+      },
+      {
+        title: "Analyze Performance",
+        description: "Monitor results and engagement using the analytics dashboard.",
+      },
+      {
+        title: "Automate Content",
+        description: "Set up automation rules for regular posting and content variation."
+      }
     ]
   },
   {
@@ -5052,6 +9372,25 @@ export const mockTools: Tool[] = [
       "Keyword research: Recommends keywords based on live search data.",
       "Competitor analysis: Analyzes top-ranking pages for target terms.",
       "Detailed reporting: Provides actionable insights for improvements."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up for Clearscope",
+        description: "Create a Clearscope account to access keyword and content optimization tools.",
+        links: [{ label: "Clearscope", url: "https://www.clearscope.io" }]
+      },
+      {
+        title: "Start a Report",
+        description: "Input your target keyword to generate a content optimization report."
+      },
+      {
+        title: "Optimize Content",
+        description: "Use the grading and keyword suggestions to improve your content’s SEO and readability."
+      },
+      {
+        title: "Monitor & Iterate",
+        description: "Track content performance and update as needed for ongoing optimization."
+      }
     ]
   },
   {
@@ -5073,6 +9412,29 @@ export const mockTools: Tool[] = [
       "Brand voice learning: Adapts to your brand's tone and style.",
       "Multi-channel publishing: Supports posting to various social networks.",
       "Performance analytics: Measures engagement and content effectiveness."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up for Lately AI",
+        description: "Create an account and access your dashboard.",
+        links: [{ label: "Lately AI", url: "https://www.lately.ai" }]
+      },
+      {
+        title: "Upload Long-form Content",
+        description: "Upload a blog, video, or podcast you want to repurpose."
+      },
+      {
+        title: "Generate Social Posts",
+        description: "Let the AI create multiple posts in your brand voice."
+      },
+      {
+        title: "Review & Edit",
+        description: "Edit suggested posts, then approve for scheduling or publishing."
+      },
+      {
+        title: "Analyze Engagement",
+        description: "Track post performance and engagement analytics."
+      }
     ]
   },
   {
@@ -5094,6 +9456,29 @@ export const mockTools: Tool[] = [
       "A/B testing: Tests variations to optimize engagement.",
       "Personalization: Tailors messaging for each audience segment.",
       "Performance analytics: Tracks effectiveness of messaging."
+    ],
+    howToUse: [
+      {
+        title: "Request a Demo",
+        description: "Contact Persado for a personalized demo and onboarding.",
+        links: [{ label: "Persado", url: "https://www.persado.com" }]
+      },
+      {
+        title: "Integrate with Marketing Platforms",
+        description: "Connect Persado to your email or ad platforms for seamless campaign execution."
+      },
+      {
+        title: "Input Campaign Goals & Data",
+        description: "Define campaign objectives and provide audience data for personalized messaging."
+      },
+      {
+        title: "Generate & Test Language",
+        description: "Let Persado generate, A/B test, and optimize campaign copy.",
+      },
+      {
+        title: "Analyze Results",
+        description: "Use analytics to refine messaging and improve future performance."
+      }
     ]
   },
   {
@@ -5115,6 +9500,31 @@ export const mockTools: Tool[] = [
       "A/B testing: Test different variations for user segments.",
       "Segmentation: Advanced targeting based on user behavior.",
       "Real-time analytics: Measure campaign impact instantly."
+    ],
+    howToUse: [
+      {
+        title: "Request a Demo or Start Trial",
+        description: "Visit Dynamic Yield and request a demo or start a trial. A solutions expert will help with onboarding and integration.",
+        links: [
+          { label: "Dynamic Yield", url: "https://www.dynamicyield.com" }
+        ]
+      },
+      {
+        title: "Integrate with Your Site or App",
+        description: "Install Dynamic Yield’s script or SDK on your website or app to begin collecting user data and serving personalized experiences."
+      },
+      {
+        title: "Set up Campaigns and Segmentation",
+        description: "Create campaigns and define audience segments based on user behavior, demographics, or custom criteria."
+      },
+      {
+        title: "Deploy A/B Tests and Recommendations",
+        description: "Use the platform to run A/B or multivariate tests and enable AI-powered content/product recommendations."
+      },
+      {
+        title: "Analyze and Optimize",
+        description: "Monitor real-time analytics dashboards, review performance by segment, and optimize campaigns for higher conversions."
+      }
     ]
   },
   {
@@ -5136,6 +9546,31 @@ export const mockTools: Tool[] = [
       "Segmented campaigns: Target specific business audiences.",
       "A/B testing: Experiment with different website messages.",
       "Analytics dashboard: Monitor conversion and engagement rates."
+    ],
+    howToUse: [
+      {
+        title: "Request a Demo & Onboarding",
+        description: "Sign up for a demo or contact Mutiny for onboarding. Their team will guide you through integration and best practices.",
+        links: [
+          { label: "Mutiny", url: "https://www.mutinyhq.com" }
+        ]
+      },
+      {
+        title: "Add Mutiny to Your Website",
+        description: "Install the Mutiny code snippet to enable real-time personalization and data collection."
+      },
+      {
+        title: "Set Up Audiences and Segments",
+        description: "Define business audiences and create segments based on firmographics, behavior, or CRM data."
+      },
+      {
+        title: "Personalize Content and Launch Campaigns",
+        description: "Build personalized website experiences, run A/B tests, and launch segmented campaigns."
+      },
+      {
+        title: "Analyze Impact",
+        description: "Use Mutiny’s analytics dashboard to track engagement, conversions, and campaign effectiveness."
+      }
     ]
   },
   {
@@ -5157,6 +9592,27 @@ export const mockTools: Tool[] = [
       "Campaign management: Organize and track influencer campaigns.",
       "Audience analysis: Deep insights into influencer followers.",
       "Performance metrics: Measure ROI and campaign success."
+    ],
+    howToUse: [
+      {
+        title: "Create an Account",
+        description: "Register on Influencity to access the influencer marketing dashboard.",
+        links: [
+          { label: "Influencity", url: "https://www.influencity.com" }
+        ]
+      },
+      {
+        title: "Find and Analyze Influencers",
+        description: "Use AI-powered discovery tools to search for influencers by niche, platform, and audience. Analyze profiles and audience data."
+      },
+      {
+        title: "Set Up and Manage Campaigns",
+        description: "Organize influencer collaborations, workflows, and deliverables within the campaign manager."
+      },
+      {
+        title: "Track Performance",
+        description: "Monitor campaign metrics, influencer impact, and ROI with Influencity’s analytics tools."
+      }
     ]
   },
   {
@@ -5178,6 +9634,31 @@ export const mockTools: Tool[] = [
       "AI writing assistant: Generates and edits text efficiently.",
       "Built-in plagiarism checker: Ensures content originality.",
       "Topic research: Recommends keywords and related topics."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Dashboard",
+        description: "Create a free or paid account on INK and log in to the writing dashboard.",
+        links: [
+          { label: "INK", url: "https://inkforall.com" }
+        ]
+      },
+      {
+        title: "Start a New Project",
+        description: "Create or import a document and select the SEO optimization tool."
+      },
+      {
+        title: "Write or Optimize Content",
+        description: "Use the AI writing assistant for drafting, editing, or optimizing existing content."
+      },
+      {
+        title: "Check SEO Score and Plagiarism",
+        description: "Review real-time SEO scoring and run the plagiarism checker for originality."
+      },
+      {
+        title: "Export or Publish",
+        description: "Export your optimized content for your CMS or publish it directly from INK if supported."
+      }
     ]
   },
   {
@@ -5199,6 +9680,31 @@ export const mockTools: Tool[] = [
       "Lead qualification: AI filters and prioritizes sales leads.",
       "Automated meeting booking: Schedule calls directly from chat.",
       "Integrations: Connects with major CRM and marketing tools."
+    ],
+    howToUse: [
+      {
+        title: "Request a Demo or Start Free",
+        description: "Go to Drift and request a demo or start a free trial. Onboarding guidance is provided for integration.",
+        links: [
+          { label: "Drift", url: "https://www.drift.com" }
+        ]
+      },
+      {
+        title: "Install Drift Widget",
+        description: "Add the Drift chat widget to your website to enable real-time conversations."
+      },
+      {
+        title: "Configure Playbooks",
+        description: "Set up conversation playbooks to qualify leads, answer FAQs, or book meetings automatically."
+      },
+      {
+        title: "Integrate with CRM/Marketing Tools",
+        description: "Sync Drift with your CRM or marketing automation platform for full lead management."
+      },
+      {
+        title: "Review Conversations and Analytics",
+        description: "Track conversations, analyze chat impact, and optimize bot flows to improve results."
+      }
     ]
   },
   {
@@ -5220,6 +9726,31 @@ export const mockTools: Tool[] = [
       "SEO writing assistant: Optimizes content for higher rankings.",
       "Content briefs: Generates detailed outlines for articles.",
       "Competitor analysis: Benchmarks against top competitors."
+    ],
+    howToUse: [
+      {
+        title: "Register and Log In",
+        description: "Sign up for a free or paid Scalenut account and access your dashboard.",
+        links: [
+          { label: "Scalenut", url: "https://www.scalenut.com" }
+        ]
+      },
+      {
+        title: "Start a New SEO Project",
+        description: "Initiate a content research or writing project. Enter your topic or keyword."
+      },
+      {
+        title: "Use AI Research Tools",
+        description: "Get keyword, topic, and competitor insights using Scalenut’s AI research suite."
+      },
+      {
+        title: "Write & Optimize Content",
+        description: "Use the SEO writing assistant to draft or optimize your article, following suggestions for higher rankings."
+      },
+      {
+        title: "Export or Publish Content",
+        description: "Export finished articles or copy optimized content for your website or CMS."
+      }
     ]
   },
   {
@@ -5241,6 +9772,31 @@ export const mockTools: Tool[] = [
       "Post scheduling: Plan Instagram content in advance.",
       "Analytics: Track engagement and follower growth.",
       "Content ideas: AI suggests trending topics and captions."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up for Flick",
+        description: "Register for Flick and connect your Instagram account to access all features.",
+        links: [
+          { label: "Flick", url: "https://www.flick.social" }
+        ]
+      },
+      {
+        title: "Research Hashtags",
+        description: "Use Flick’s AI to find the best hashtags for your posts based on your audience and content."
+      },
+      {
+        title: "Schedule Instagram Posts",
+        description: "Plan and schedule content in advance, optimizing for best posting times."
+      },
+      {
+        title: "Analyze Performance",
+        description: "Monitor engagement, follower growth, and hashtag performance in the analytics dashboard."
+      },
+      {
+        title: "Discover Content Ideas",
+        description: "Get AI-generated suggestions for captions and trending topics tailored to your niche."
+      }
     ]
   },
   {
@@ -5262,6 +9818,31 @@ export const mockTools: Tool[] = [
       "Rank tracking for keywords and competitors.",
       "Site and page-level analytics dashboards.",
       "Opportunity discovery for organic growth."
+    ],
+    howToUse: [
+      {
+        title: "Request a Demo & Onboarding",
+        description: "Visit BrightEdge and request a demo or contact sales. Upon onboarding, you'll get access to the platform and a guided setup.",
+        links: [
+          { label: "BrightEdge", url: "https://www.brightedge.com" }
+        ]
+      },
+      {
+        title: "Set Up Your Website and Keywords",
+        description: "Add your website and target keywords to the dashboard for monitoring and optimization."
+      },
+      {
+        title: "Analyze Opportunities",
+        description: "Use the AI-powered analytics suite to discover ranking opportunities, content gaps, and competitor benchmarks."
+      },
+      {
+        title: "Optimize Content",
+        description: "Follow BrightEdge’s AI-driven recommendations to improve on-page SEO, content relevance, and technical performance."
+      },
+      {
+        title: "Track and Report",
+        description: "Monitor keyword rankings, site performance, and campaign impact using customizable dashboards and exportable reports."
+      }
     ]
   },
   {
@@ -5283,6 +9864,31 @@ export const mockTools: Tool[] = [
       "Readability, tone, and originality analysis.",
       "Integration with SEMrush ecosystem.",
       "Actionable suggestions for better rankings."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up or Log In",
+        description: "Create a SEMrush account or log in to your existing account. Access the Writing Assistant from your SEMrush dashboard.",
+        links: [
+          { label: "SEMrush Writing Assistant", url: "https://www.semrush.com/features/seowritingassistant/" }
+        ]
+      },
+      {
+        title: "Start a New Document",
+        description: "Open Writing Assistant, start a new document, and paste or write your content."
+      },
+      {
+        title: "Set SEO Targets",
+        description: "Enter your target keywords and select your region or language for tailored SEO recommendations."
+      },
+      {
+        title: "Optimize with Real-Time Feedback",
+        description: "Follow actionable feedback on SEO, readability, tone of voice, and originality. Adjust your content to improve scores."
+      },
+      {
+        title: "Integrate with CMS",
+        description: "Install the SEMrush Writing Assistant plugin for Google Docs or WordPress to optimize content directly in your workflow."
+      }
     ]
   },
   {
@@ -5304,6 +9910,27 @@ export const mockTools: Tool[] = [
       "Step-by-step SEO action recommendations.",
       "Competitor benchmarking and insights.",
       "Progress tracking for SEO improvements."
+    ],
+    howToUse: [
+      {
+        title: "Create Account & Add Your Website",
+        description: "Sign up on CanIRank and add your website to start analyzing SEO performance.",
+        links: [
+          { label: "CanIRank", url: "https://www.canirank.com" }
+        ]
+      },
+      {
+        title: "Run Keyword and Competitor Analysis",
+        description: "Input target keywords and analyze your site against competitors for ranking opportunities."
+      },
+      {
+        title: "Follow Action Recommendations",
+        description: "Get step-by-step AI-driven recommendations for improving rankings and site authority."
+      },
+      {
+        title: "Track SEO Progress",
+        description: "Monitor keyword rankings and site improvements using built-in progress tracking dashboards."
+      }
     ]
   },
   {
@@ -5325,6 +9952,31 @@ export const mockTools: Tool[] = [
       "Custom and prebuilt templates for fast setup.",
       "Collaboration tools for sharing and commenting.",
       "AI-powered insights highlight key changes."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Connect Data Sources",
+        description: "Register on DashThis and log in. Connect your analytics, SEO, PPC, and social accounts for unified reporting.",
+        links: [
+          { label: "DashThis", url: "https://dashthis.com" }
+        ]
+      },
+      {
+        title: "Create or Select a Dashboard Template",
+        description: "Pick from prebuilt templates or customize your own dashboard to suit your reporting needs."
+      },
+      {
+        title: "Automate Data Collection",
+        description: "Let DashThis automatically fetch and update your data across all connected platforms."
+      },
+      {
+        title: "Collaborate and Share",
+        description: "Invite team members to comment and collaborate on reports, or share dashboards with stakeholders."
+      },
+      {
+        title: "Leverage AI Insights",
+        description: "Use AI-powered suggestions and visualizations to spot key trends, anomalies, and growth opportunities."
+      }
     ]
   },
   {
@@ -5346,6 +9998,31 @@ export const mockTools: Tool[] = [
       "Integrates with HubSpot and Marketo.",
       "Engagement analytics and reporting.",
       "AI-based audience segmentation."
+    ],
+    howToUse: [
+      {
+        title: "Request a Demo or Get Started",
+        description: "Visit Seventh Sense to request a demo or sign up. Connect your email platform (HubSpot or Marketo) for integration.",
+        links: [
+          { label: "Seventh Sense", url: "https://theseventhsense.com" }
+        ]
+      },
+      {
+        title: "Sync Audience Data",
+        description: "Import or sync your email lists to allow AI to analyze engagement patterns."
+      },
+      {
+        title: "Configure Send Time Optimization",
+        description: "Enable AI-powered delivery timing and audience segmentation for your campaigns."
+      },
+      {
+        title: "Launch Campaigns",
+        description: "Send campaigns and let Seventh Sense optimize delivery timing for each recipient."
+      },
+      {
+        title: "Monitor Engagement",
+        description: "Track results with engagement analytics and adjust future campaigns based on AI insights."
+      }
     ]
   },
   {
@@ -5367,6 +10044,31 @@ export const mockTools: Tool[] = [
       "Actionable suggestions for engagement.",
       "Design optimization tools.",
       "Personalized recommendations for content."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up or Log In",
+        description: "Create or log in to your Mailchimp account. Access the Content Optimizer tool from your dashboard.",
+        links: [
+          { label: "Mailchimp Content Optimizer", url: "https://mailchimp.com/features/content-optimizer/" }
+        ]
+      },
+      {
+        title: "Analyze an Email Campaign",
+        description: "Select or create a marketing email, then run the Content Optimizer to analyze subject lines, copy, and design."
+      },
+      {
+        title: "Review AI Recommendations",
+        description: "Follow actionable AI suggestions for subject lines, email body, and visual layout to improve performance."
+      },
+      {
+        title: "Implement Changes",
+        description: "Edit your email campaign according to the recommendations for maximum engagement and click rates."
+      },
+      {
+        title: "Track Performance",
+        description: "Monitor open and click rates post-send, and use ongoing optimization for future campaigns."
+      }
     ]
   },
   {
@@ -5388,6 +10090,31 @@ export const mockTools: Tool[] = [
       "Push notification and SMS copy optimization.",
       "Brand voice adaptation with AI.",
       "A/B testing for copy variants."
+    ],
+    howToUse: [
+      {
+        title: "Request a Demo & Onboarding",
+        description: "Visit Phrasee’s website and request a demo to get started. An onboarding specialist will help set up brand preferences and integrations.",
+        links: [
+          { label: "Phrasee", url: "https://phrasee.co" }
+        ]
+      },
+      {
+        title: "Set Up Brand Voice",
+        description: "Configure your brand’s voice and messaging guidelines in the Phrasee platform to ensure on-brand AI-generated content."
+      },
+      {
+        title: "Generate Copy",
+        description: "Use the dashboard to generate subject lines, push notifications, or SMS copy for your campaigns. Adjust parameters for creativity, length, and tone."
+      },
+      {
+        title: "A/B Test Variants",
+        description: "Deploy multiple AI-generated copy variants with your campaigns. Use Phrasee’s built-in tools to track engagement and optimize results."
+      },
+      {
+        title: "Integrate with Marketing Tools",
+        description: "Connect Phrasee to your ESP, CRM, or marketing automation platform for seamless campaign execution and analytics."
+      }
     ]
   },
   {
@@ -5409,6 +10136,31 @@ export const mockTools: Tool[] = [
       "AI script generation from prompts.",
       "Premium stock video and music.",
       "Auto text-to-video from articles."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up and Log In",
+        description: "Register for a free or paid InVideo account. Log in to access the video creation dashboard.",
+        links: [
+          { label: "InVideo", url: "https://invideo.io" }
+        ]
+      },
+      {
+        title: "Choose a Template or Start from Scratch",
+        description: "Browse thousands of templates by category, or start with a blank canvas for full creative control."
+      },
+      {
+        title: "Generate Script or Upload Content",
+        description: "Use the AI script generator, input your own text, or convert articles into videos directly from a URL."
+      },
+      {
+        title: "Customize Video",
+        description: "Edit scenes, add stock footage, music, text, transitions, and branding elements. Use drag-and-drop tools for quick adjustments."
+      },
+      {
+        title: "Preview and Export",
+        description: "Preview your video for quality and accuracy. Export it in your desired format and resolution, or publish directly to social platforms."
+      }
     ]
   },
   {
@@ -5430,6 +10182,31 @@ export const mockTools: Tool[] = [
       "Text-to-video with talking avatars.",
       "Supports 50+ languages for global reach.",
       "Branded video templates and customization."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up and Access Dashboard",
+        description: "Create a Synthesys account and log in to the platform to access voiceover and avatar video tools.",
+        links: [
+          { label: "Synthesys", url: "https://synthesys.io" }
+        ]
+      },
+      {
+        title: "Input or Paste Script",
+        description: "Enter your script for voiceover or avatar video generation. Select the language and style you prefer."
+      },
+      {
+        title: "Choose Voice and Avatar",
+        description: "Pick from a library of AI voices and talking avatars. Adjust parameters for tone, speed, and accent as needed."
+      },
+      {
+        title: "Generate and Preview Media",
+        description: "Click to generate your audio or video. Preview the result and make further edits if required."
+      },
+      {
+        title: "Download or Integrate",
+        description: "Download your voiceover/video file or use integrations to publish directly to your marketing platforms."
+      }
     ]
   },
   {
@@ -5451,6 +10228,27 @@ export const mockTools: Tool[] = [
       "Visual flow builder for bot creation.",
       "Integrates with major marketing tools.",
       "Analytics for conversion and engagement."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up and Connect Channels",
+        description: "Register for a ManyChat account and connect your Messenger, Instagram, or WhatsApp accounts.",
+        links: [
+          { label: "ManyChat", url: "https://manychat.com" }
+        ]
+      },
+      {
+        title: "Create a Chatbot Flow",
+        description: "Use the drag-and-drop flow builder to design conversations, capture leads, and automate responses."
+      },
+      {
+        title: "Integrate with Marketing Tools",
+        description: "Connect ManyChat to your CRM, email, or marketing platforms for seamless lead management."
+      },
+      {
+        title: "Deploy and Monitor",
+        description: "Publish your chatbot and monitor engagement and conversion analytics within the ManyChat dashboard."
+      }
     ]
   },
   {
@@ -5472,6 +10270,27 @@ export const mockTools: Tool[] = [
       "Live chat for real-time support.",
       "Unified inbox for all conversations.",
       "Analytics for chat and conversion rates."
+    ],
+    howToUse: [
+      {
+        title: "Register and Install Widget",
+        description: "Sign up on Tidio and install the chat widget on your website or e-commerce platform.",
+        links: [
+          { label: "Tidio", url: "https://www.tidio.com" }
+        ]
+      },
+      {
+        title: "Set Up Chatbots and Live Chat",
+        description: "Configure AI-powered chatbots to answer FAQs, automate lead capture, and handle sales inquiries. Enable live chat for real-time support."
+      },
+      {
+        title: "Customize and Integrate",
+        description: "Personalize conversation flows, connect with CRM/marketing tools, and use the unified inbox to manage all conversations."
+      },
+      {
+        title: "Analyze and Optimize",
+        description: "Monitor chat analytics and conversion rates to optimize bot flows and improve customer engagement."
+      }
     ]
   },
   {
@@ -5493,6 +10312,35 @@ export const mockTools: Tool[] = [
       "Lead capture via chat forms and quizzes.",
       "Automated drip campaigns and auto-responses.",
       "Integrates with major marketing/CRM tools."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Connect Channels",
+        description: "Visit MobileMonkey and create an account. Connect your Facebook, Instagram, SMS, and web channels as needed.",
+        links: [
+          { label: "MobileMonkey", url: "https://mobilemonkey.com" }
+        ]
+      },
+      {
+        title: "Create or Customize a Chatbot",
+        description: "Use the drag-and-drop builder to create a chatbot for your selected channels. Start from a template or build your own conversation flow."
+      },
+      {
+        title: "Set Up Lead Capture",
+        description: "Add chat forms, quizzes, or surveys to collect leads and qualify prospects automatically within conversations."
+      },
+      {
+        title: "Automate Drip Campaigns",
+        description: "Configure automated follow-up sequences, drip campaigns, and auto-responses to nurture leads and engage users."
+      },
+      {
+        title: "Integrate with Marketing Tools",
+        description: "Connect MobileMonkey to your CRM, email platform, or other marketing tools for seamless lead syncing and campaign tracking."
+      },
+      {
+        title: "Monitor and Optimize",
+        description: "Use built-in analytics to track engagement, response rates, and lead quality. Refine chatbot flows and campaigns for better results."
+      }
     ]
   },
   {
@@ -5514,6 +10362,31 @@ export const mockTools: Tool[] = [
       "AI-driven content personalization.",
       "Feature flag management for safe rollouts.",
       "Real-time analytics for experiment tracking."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Set Up Account",
+        description: "Create an Optimizely account and log in to your dashboard. Install the Optimizely snippet or SDK on your website or app.",
+        links: [
+          { label: "Optimizely", url: "https://www.optimizely.com" }
+        ]
+      },
+      {
+        title: "Launch Experiments",
+        description: "Create A/B or multivariate tests using the visual editor. Set goals, define variations, and target specific audience segments."
+      },
+      {
+        title: "Enable Personalization",
+        description: "Use AI-powered personalization features to deliver tailored content and experiences based on user behavior and attributes."
+      },
+      {
+        title: "Manage Feature Flags",
+        description: "Implement feature flags to roll out new features gradually and safely. Control access for specific user groups."
+      },
+      {
+        title: "Analyze Results",
+        description: "Monitor real-time analytics to evaluate experiment performance and make data-driven decisions. Apply winning variations to your site or app."
+      }
     ]
   },
   {
@@ -5535,6 +10408,31 @@ export const mockTools: Tool[] = [
       "Cross-selling and upselling with AI.",
       "Behavioral targeting from user data.",
       "Instant updates as user behavior changes."
+    ],
+    howToUse: [
+      {
+        title: "Request Demo or Sign Up",
+        description: "Go to Yusp and request a demo or sign up for an account. Consult with the Yusp team to set up your personalization engine.",
+        links: [
+          { label: "Yusp", url: "https://www.yusp.com" }
+        ]
+      },
+      {
+        title: "Integrate Yusp with Your Platform",
+        description: "Install Yusp’s API, SDK, or plugin on your e-commerce or content site. Follow documentation to connect user and product data sources."
+      },
+      {
+        title: "Configure Recommendation Settings",
+        description: "Set up recommendation logic, cross-sell/upsell strategies, and define behavioral targeting rules for your use case."
+      },
+      {
+        title: "Deploy and Test",
+        description: "Launch your personalization engine on your website. Test recommendations and targeting for different user segments."
+      },
+      {
+        title: "Monitor & Optimize",
+        description: "Track engagement, sales, and conversion metrics with Yusp’s analytics dashboard. Refine recommendation strategies for optimal performance."
+      }
     ]
   },
   {
@@ -5556,6 +10454,31 @@ export const mockTools: Tool[] = [
       "AI-based audience targeting and segmentation.",
       "Creative and budget optimization in real time.",
       "Performance analytics and reporting."
+    ],
+    howToUse: [
+      {
+        title: "Request Access or Demo",
+        description: "Visit Albert.ai and request access or schedule a demo with their team to get started.",
+        links: [
+          { label: "Albert.ai", url: "https://albert.ai" }
+        ]
+      },
+      {
+        title: "Onboard & Integrate Ad Accounts",
+        description: "Connect your digital ad accounts (Google, Facebook, etc.) to the Albert.ai platform. Complete onboarding to sync data sources."
+      },
+      {
+        title: "Configure Campaign Goals",
+        description: "Set objectives, budget, and targeting preferences for your digital advertising campaigns."
+      },
+      {
+        title: "Launch & Automate Campaigns",
+        description: "Let Albert.ai autonomously manage, optimize, and allocate budget across channels for maximum ROI."
+      },
+      {
+        title: "Monitor & Analyze Results",
+        description: "Track performance with Albert's analytics dashboard. Review reports and insights to refine future campaigns."
+      }
     ]
   },
   {
@@ -5577,6 +10500,31 @@ export const mockTools: Tool[] = [
       "Campaign management and workflow tools.",
       "Shopify, WooCommerce, and e-commerce integration.",
       "Performance metrics and ROI analytics."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Access Dashboard",
+        description: "Go to Upfluence and create an account or request a demo. Log in to the dashboard to begin influencer discovery and campaign management.",
+        links: [
+          { label: "Upfluence", url: "https://www.upfluence.com" }
+        ]
+      },
+      {
+        title: "Discover Influencers",
+        description: "Use AI-powered search and filters to find influencers by audience, niche, location, engagement, and platform. Review analytics and audience demographics."
+      },
+      {
+        title: "Create and Manage Campaigns",
+        description: "Launch new campaigns, define objectives, and select influencers. Use workflow tools to manage outreach, contracts, and collaborations."
+      },
+      {
+        title: "Integrate E-commerce Platforms",
+        description: "Connect Shopify, WooCommerce, or other e-commerce platforms to track sales, generate affiliate links, and automate influencer rewards."
+      },
+      {
+        title: "Monitor Performance & Analyze ROI",
+        description: "Track campaign metrics, influencer performance, and ROI in real time. Use analytics to optimize future campaigns for better results."
+      }
     ]
   },
   {
@@ -5598,6 +10546,31 @@ export const mockTools: Tool[] = [
       "AI-powered audience segmentation.",
       "Personalized messaging across channels.",
       "Multi-channel campaign delivery."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Set Up Workspace",
+        description: "Register for Autopilot and log in. Set up your workspace and connect your website, CRM, or database.",
+        links: [
+          { label: "Autopilot", url: "https://www.autopilothq.com" }
+        ]
+      },
+      {
+        title: "Map Customer Journeys",
+        description: "Use the drag-and-drop builder to visually design journeys—automate actions, triggers, and audience flows for every stage."
+      },
+      {
+        title: "Segment Audiences with AI",
+        description: "Leverage AI tools to segment lists by behavior, demographics, or engagement for targeted messaging."
+      },
+      {
+        title: "Create and Send Campaigns",
+        description: "Build multi-channel campaigns across email, SMS, and in-app notifications. Personalize content for each segment."
+      },
+      {
+        title: "Track and Optimize",
+        description: "Monitor campaign performance in real time. Use analytics and reporting to optimize journeys and boost results."
+      }
     ]
   },
   {
@@ -5619,6 +10592,35 @@ export const mockTools: Tool[] = [
       "Automated insights for sales and marketing.",
       "Personalization for emails and offers.",
       "AI-powered workflow automation."
+    ],
+    howToUse: [
+      {
+        title: "Access Salesforce Einstein",
+        description: "Log in to your Salesforce account. Make sure Einstein is enabled in your CRM environment.",
+        links: [
+          { label: "Salesforce Einstein", url: "https://www.salesforce.com/products/einstein/overview/" }
+        ]
+      },
+      {
+        title: "Configure Data Sources",
+        description: "Connect CRM data, marketing platforms, and external data sources to feed Einstein’s analytics and prediction engine."
+      },
+      {
+        title: "Leverage Predictive Analytics",
+        description: "Use Einstein’s predictive scoring to identify high-value leads and opportunities, and to automate smart follow-ups."
+      },
+      {
+        title: "Automate Campaigns & Workflows",
+        description: "Set up automated campaigns and workflow rules using Einstein’s AI recommendations, triggers, and segmentation."
+      },
+      {
+        title: "Personalize at Scale",
+        description: "Let Einstein personalize emails, offers, and content for each contact based on data-driven insights."
+      },
+      {
+        title: "Monitor and Refine",
+        description: "Track performance with built-in analytics. Adjust automation and personalization strategies for continuous improvement."
+      }
     ]
   },
   {
@@ -5640,6 +10642,31 @@ export const mockTools: Tool[] = [
       "SMS and chat marketing tools.",
       "Advanced segmentation and personalization.",
       "Comprehensive analytics for campaign tracking."
+    ],
+    howToUse: [
+      {
+        title: "Sign Up & Set Up Account",
+        description: "Register for a Sendinblue account and complete the onboarding steps. Set up your sender profiles and connect domains.",
+        links: [
+          { label: "Sendinblue", url: "https://www.sendinblue.com" }
+        ]
+      },
+      {
+        title: "Import Contacts & Segment Lists",
+        description: "Upload your contact list via CSV or API. Use segmentation tools to organize audiences by behavior, demographics, or engagement."
+      },
+      {
+        title: "Create Automated Campaigns",
+        description: "Use the visual workflow builder to create email, SMS, or chat automation sequences. Set triggers, conditions, and actions."
+      },
+      {
+        title: "Personalize Content with AI",
+        description: "Add dynamic content, product recommendations, and personalized send times powered by AI to boost engagement."
+      },
+      {
+        title: "Launch & Monitor Campaigns",
+        description: "Send your campaigns and monitor open, click, and conversion rates in real time. Use analytics to optimize for future sends."
+      }
     ]
   },
   {
@@ -5661,575 +10688,1705 @@ export const mockTools: Tool[] = [
         "Multilingual support: Create videos in over 80 languages, allowing for global reach and consistent branding across different markets.",
         "Custom avatars: Upload your own face or select from a diverse array of digital personas to match your company's image or audience.",
         "Easy script-to-video: Simply paste your script and receive a polished, presenter-led video ready for publishing or internal use."
-      ]
+      ], // <--- Make sure this comma is here!
+      howToUse: [
+        {
+          title: "Sign Up & Log In",
+          description: "Visit the DeepBrain AI (AI Studios) website and create a free account—no credit card needed. Verify your email and log into the AI Studios dashboard.",
+          links: [
+            { label: "aistudios.com", url: "https://www.aistudios.com" },
+            { label: "YouTube Guide", url: "https://www.youtube.com/results?search_query=deepbrain+ai+studios+signup" }
+          ]
+        },
+        {
+          title: "Create a New Video Project",
+          description: "Click 'New Project' or select a template (for business, explainer, training, etc.). Templates give you a structured starting point; otherwise, begin with a blank slate.",
+          links: [
+            { label: "aistudios.com", url: "https://www.aistudios.com" },
+            { label: "cococlip.ai", url: "https://www.cococlip.ai" },
+            { label: "yeschat.ai", url: "https://www.yeschat.ai" }
+          ]
+        },
+        {
+          title: "Choose Your AI Avatar",
+          description: "Browse the Avatars library—over 80 multilingual lifelike avatars. Select one that aligns with your project's tone, language, and audience.",
+          links: [
+            { label: "aistudios.com", url: "https://www.aistudios.com" },
+            { label: "YouTube Guide", url: "https://www.youtube.com/results?search_query=deepbrain+ai+avatar+selection" }
+          ]
+        },
+        {
+          title: "Customize Background & Scene",
+          description: "Upload your own background image or choose from built-in stock options. Adjust avatars' position, scale, and style settings to suit your design."
+        },
+        {
+          title: "Write or Import Your Script",
+          description: "Use the onboard Script Assistant or paste script directly into each scene. You can edit text per slide and even auto-generate subtitles.",
+          links: [
+            { label: "fahimai.com", url: "https://www.fahimai.com" }
+          ]
+        },
+        {
+          title: "Select Voice & Language",
+          description: "Choose from AI voices in 80+ languages with adjustable tone and speed. That allows localization or multilingual content targeting.",
+          links: [
+            { label: "aistudios.com", url: "https://www.aistudios.com" }
+          ]
+        },
+        {
+          title: "Enhance with Media & Effects",
+          description: "Add images, shapes, animations, and background music or custom audio. Layer media assets and animate them across scenes for visual appeal.",
+          links: [
+            { label: "yeschat.ai", url: "https://www.yeschat.ai" }
+          ]
+        },
+        {
+          title: "Preview & Tweak",
+          description: "Playback your video to check avatar lip-sync, timing, and scene transitions. Make any needed edits—swap avatars, adjust pacing, refine visuals."
+        },
+        {
+          title: "Export & Publish",
+          description: "Choose export options (MP4, resolution, chroma key if supported). Export your project and download. Higher resolutions and watermark-free exports depend on your subscription level.",
+          links: [
+            { label: "yeschat.ai", url: "https://www.yeschat.ai" }
+          ]
+        },
+        {
+          title: "Advanced Usage & API",
+          description: "Avatar & Voice Customization: Choose outfits and styles, tweak lip-sync precision. API Integration: Automate video production using the AI Studios API—generate API keys, script uploads, job polling, and webhook callbacks.",
+          links: [
+            { label: "aistudios.com", url: "https://www.aistudios.com" },
+            { label: "docs.deepbrain.io", url: "https://docs.deepbrain.io" }
+          ]
+        }
+      ],
     },
-    {
-      name: "HeyGen (formerly Movio)",
-      description: "HeyGen is a text-to-video platform that uses AI avatars and lip-sync to create videos from scripts, PowerPoints, or URLs. Features real-time video translation and voice cloning.",
-      url: "https://www.heygen.com",
-      id: "heygen",
-      image: "/tool-screenshots/heygen.png",
-      logo: "/logo/heygen.png",
-      categories: ["video", "marketing"],
-      subcategory: "avatar video",
-      tags: ["AI", "avatar", "translation", "voice"],
-      rating: 4.6,
-      visits: 1620000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "AI avatar generation: Choose from a diverse range of digital humans to present your content, offering a professional and engaging delivery.",
-        "Real-time translation: Instantly translate and dub your videos into multiple languages, breaking down language barriers for a global audience.",
-        "Voice cloning: Use your own voice or select from a library of synthesized voices, enabling consistent branding and personal connection.",
-        "Script-to-video: Convert text, slides, or even URLs directly into compelling video content, streamlining the content creation process."
-      ]
-    },
-    {
-      name: "Elai.io",
-      description: "Elai.io enables users to produce professional AI videos from text with customizable digital avatars. Supports multiple languages and templates for e-learning, marketing, and training.",
-      url: "https://elai.io",
-      id: "elaiio",
-      image: "/tool-screenshots/elaiio.png",
-      logo: "/logo/elaiio.png",
-      categories: ["video", "marketing"],
-      subcategory: "avatar video",
-      tags: ["AI", "avatar", "marketing"],
-      rating: 4.4,
-      visits: 89000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "AI avatar video creation: Turn any text into engaging videos with lifelike digital presenters, saving time and production costs.",
-        "Multi-language support: Produce videos in over 65 languages, reaching diverse global audiences without additional translation work.",
-        "Template library: Access a range of ready-made video templates for marketing, education, and business use cases.",
-        "Bulk video generation: Generate hundreds of personalized videos simultaneously for campaigns, training, or customer outreach."
-      ]
-    },
-    {
-      name: "D-ID",
-      description: "D-ID brings photos to life with AI-powered talking avatars, animating faces from text or audio. Also enables video translation and dubbing for global audiences.",
-      url: "https://www.d-id.com",
-      id: "did",
-      image: "/tool-screenshots/did.png",
-      logo: "/logo/did.png",
-      categories: ["video", "marketing"],
-      subcategory: "talking avatar",
-      tags: ["AI", "avatar", "translation", "dubbing"],
-      rating: 4.5,
-      visits: 540000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "Photo animation: Animate any portrait into a speaking avatar, adding a human touch to otherwise static images for a memorable experience.",
-        "Text-to-video: Generate talking head videos from scripts or audio, making it easy to produce narrated content without cameras or actors.",
-        "AI video dubbing: Effortlessly translate and dub existing videos into different languages, preserving emotion and lip-sync for authenticity.",
-        "API and integrations: Automate avatar creation and video translation for scalable workflows in marketing, education, or customer service."
-      ]
-    },
-    {
-      name: "Hour One",
-      description: "Hour One creates presenter-led videos using AI-generated humans and your script. Ideal for training, onboarding, and product explainers at scale.",
-      url: "https://www.hourone.ai",
-      id: "hourone",
-      image: "/tool-screenshots/hourone.png",
-      logo: "/logo/hourone.png",
-      categories: ["video", "marketing"],
-      subcategory: "avatar video",
-      tags: ["AI", "avatar", "training"],
-      rating: 4.1,
-      visits: 31000,
-      dateAdded: "2025-06-13",
-      isPremium: "Premium",
-      features: [
-        "Script-to-presenter video: Easily transform a written script into a professional video with a realistic AI presenter, reducing production time.",
-        "AI character library: Select from a wide range of digital humans to match your brand or audience demographics.",
-        "Integrations: Use via API or connect with learning management systems to automate large-scale video creation.",
-        "Multi-language support: Expand your training and onboarding reach with videos in multiple languages and accents."
-      ]
-    },
-    {
-      name: "Tavus",
-      description: "Tavus automates personalized video generation for sales and marketing, using AI face and voice cloning for hyper-personalized outreach at scale.",
-      url: "https://www.tavus.io",
-      id: "tavus",
-      image: "/tool-screenshots/tavus.png",
-      logo: "/logo/tavus.png",
-      categories: ["video", "marketing","audio"],
-      subcategory: "personalized video",
-      tags: ["AI", "personalization", "voice"],
-      rating: 4.3,
-      visits: 12000,
-      dateAdded: "2025-06-13",
-      isPremium: "Premium",
-      features: [
-        "Personalized video at scale: Generate thousands of unique, hyper-personalized video messages for every prospect or customer automatically.",
-        "AI face and voice cloning: Use your likeness and voice to deliver truly authentic and individualized outreach videos.",
-        "CRM integration: Connect directly with popular CRM tools to personalize videos using live customer data for each message.",
-        "Analytics dashboard: Measure success with detailed open, view, and engagement tracking for every video sent."
-      ]
-    },
-    {
-      name: "Vidyo.ai",
-      description: "Vidyo.ai repurposes long-form videos into short, social-ready clips using AI, with auto-captioning, highlights, and vertical format conversion.",
-      url: "https://vidyo.ai",
-      id: "vidyoai",
-      image: "/tool-screenshots/vidyoai.png",
-      logo: "/logo/vidyoai.png",
-      categories: ["video", "marketing", "productivity"],
-      subcategory: "repurposing",
-      tags: ["AI", "clips", "social media"],
-      rating: 4.7,
-      visits: 170000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "AI highlight detection: Automatically analyzes videos to find the most engaging moments, perfect for sharing on social media.",
-        "Auto-captioning: Generates accurate, on-brand subtitles for every clip, improving accessibility and engagement.",
-        "Format conversion: Instantly adapt content for TikTok, Instagram, or YouTube by converting to vertical, square, or horizontal formats.",
-        "Batch processing: Process and export dozens of clips from long-form content in a fraction of the time."
-      ]
-    },
-    {
-      name: "Opus Clip",
-      description: "Opus Clip harnesses AI to repurpose long videos into viral short clips, auto-selecting the most engaging segments for TikTok, Reels, and Shorts.",
-      url: "https://www.opus.pro",
-      id: "opusclip",
-      image: "/tool-screenshots/opusclip.png",
-      logo: "/logo/opusclip.png",
-      categories: ["video", "marketing", "productivity"],
-      subcategory: "repurposing",
-      tags: ["AI", "clips", "social media"],
-      rating: 4.6,
-      visits: 210000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "Viral moment detection: AI analyzes videos to identify and extract the most engaging, shareable moments.",
-        "Auto captions: Automatically adds animated, visually appealing captions to increase watch time and accessibility.",
-        "Highlight reels: Generates multiple short clips from a single long video, maximizing content value.",
-        "Platform optimization: Exports clips in formats tailored for TikTok, YouTube Shorts, and Instagram Reels."
-      ]
-    },
-    {
-      name: "Gling",
-      description: "Gling is an AI video editor for YouTubers that automatically removes silences, bad takes, and stutters, speeding up the editing process for vlogs and interviews.",
-      url: "https://www.gling.ai",
-      id: "gling",
-      image: "/tool-screenshots/gling.png",
-      logo: "/logo/gling.png",
-      categories: ["video", "productivity"],
-      subcategory: "editing",
-      tags: ["AI", "editing", "YouTube"],
-      rating: 4.3,
-      visits: 13000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "Silence removal: Uses AI to detect and cut out pauses and dead air, making videos more engaging and concise.",
-        "Bad take detection: Identifies and removes mistakes, retakes, or repeated lines for a polished final product.",
-        "Timeline export: Provides clean project files for further editing in your favorite NLE.",
-        "Batch processing: Edit multiple videos in one go, saving countless hours for creators."
-      ]
-    },
-    {
-      name: "Papercup",
-      description: "Papercup uses AI for video dubbing and translation, producing high-quality synthetic voices in dozens of languages for global video localization.",
-      url: "https://www.papercup.com",
-      id: "papercup",
-      image: "/tool-screenshots/papercup.png",
-      logo: "/logo/papercup.png",
-      categories: ["video", "marketing", "audio"],
-      subcategory: "dubbing",
-      tags: ["AI", "dubbing", "translation"],
-      rating: 4.4,
-      visits: 21000,
-      dateAdded: "2025-06-13",
-      isPremium: "Premium",
-      features: [
-        "Automatic dubbing: Translate and voiceover your videos with high-quality AI voices, reducing the need for manual dubbing.",
-        "Emotion-preserving voices: Synthetic voices retain emotional nuance and delivery style for authenticity.",
-        "Global reach: Instantly make your videos accessible in dozens of languages and markets.",
-        "Custom voice library: Choose or commission voices to match your brand, character, or style."
-      ]
-    },
-    {
-      name: "Dubverse",
-      description: "Dubverse is an AI-powered video translation and dubbing platform that enables fast, accurate localization using a global voice library.",
-      url: "https://www.dubverse.ai",
-      id: "dubverse",
-      image: "/tool-screenshots/dubverse.png",
-      logo: "/logo/dubverse.png",
-      categories: ["video", "marketing", "audio"],
-      subcategory: "dubbing",
-      tags: ["AI", "dubbing", "translation"],
-      rating: 4.2,
-      visits: 12000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "AI translation: Converts video speech to subtitles and voice in over 30 languages, opening content to new audiences.",
-        "Voice cloning: Maintain the original speaker’s style and tone for a more authentic dub.",
-        "Fast turnaround: Get dubbed videos in minutes, making localization efficient even for large projects.",
-        "Subtitle and transcript generation: Automated, editable subtitles and full transcripts to complement any video."
-      ]
-    },
-    {
-      name: "Video AI by Wondershare (Virbo)",
-      description: "Virbo by Wondershare offers AI avatar videos, voiceovers, and automated video presentations from scripts. Great for marketing, courses, and content automation.",
-      url: "https://virbo.wondershare.com",
-      id: "virbo",
-      image: "/tool-screenshots/virbo.png",
-      logo: "/logo/virbo.png",
-      categories: ["video", "marketing"],
-      subcategory: "avatar video",
-      tags: ["AI", "avatar", "voiceover"],
-      rating: 4.2,
-      visits: 9000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "AI avatar presenter: Choose from a variety of digital humans to star in your videos, enhancing professionalism and engagement.",
-        "Script-to-video: Simply enter your text and receive a fully narrated and animated video.",
-        "Custom voiceover: Upload your script and select a voice to match your brand persona or audience.",
-        "Template library: Prebuilt templates for marketing, education, business, and more, making video creation fast and easy."
-      ]
-    },
-    {
-      name: "DeepDub",
-      description: "DeepDub is an AI dubbing platform for video translation with emotion-preserving synthetic voices, enabling global video content localization.",
-      url: "https://deepdub.ai",
-      id: "deepdub",
-      image: "/tool-screenshots/deepdub.png",
-      logo: "/logo/deepdub.png",
-      categories: ["video", "audio"],
-      subcategory: "dubbing",
-      tags: ["AI", "dubbing", "translation"],
-      rating: 4.1,
-      visits: 6000,
-      dateAdded: "2025-06-13",
-      isPremium: "Premium",
-      features: [
-        "Emotion-preserving dubbing: AI voices keep the original speaker’s tone, emotion, and intent for a natural translation.",
-        "Multi-language support: Translate and dub content into any major language for global audience expansion.",
-        "Voice cloning: Retain the identity of the original speaker for authenticity and continuity.",
-        "API access: Automate large-scale localization and dubbing workflows for enterprise-level needs."
-      ]
-    },
-    {
-      name: "VideoKen",
-      description: "VideoKen uses AI to summarize, chapter, and index webinars, lectures, and conferences, making long-form video content easily navigable and searchable.",
-      url: "https://www.videoken.com",
-      id: "videoken",
-      image: "/tool-screenshots/videoken.png",
-      logo: "/logo/videoken.png",
-      categories: ["video", "productivity"],
-      subcategory: "summarization",
-      tags: ["AI", "summarization", "education"],
-      rating: 4.2,
-      visits: 8000,
-      dateAdded: "2025-06-13",
-      isPremium: "Premium",
-      features: [
-        "AI video summarization: Condenses long videos into highlight reels or concise summaries, saving viewers time.",
-        "Automatic chaptering: Detects topic changes and creates clickable chapters for easy navigation.",
-        "Searchable transcripts: Generates accurate transcripts and indexes key content for efficient search.",
-        "Embeddable widgets: Add smart indexes and navigation tools to your video platform or website."
-      ]
-    },
-    {
-      name: "Vidby",
-      description: "Vidby is an AI-powered video translation and voiceover tool, supporting 70+ languages for fast and accurate video localization.",
-      url: "https://www.vidby.com",
-      id: "vidby",
-      image: "/tool-screenshots/vidby.png",
-      logo: "/logo/vidby.png",
-      categories: ["video", "marketing", "audio"],
-      subcategory: "translation",
-      tags: ["AI", "translation", "dubbing"],
-      rating: 4.3,
-      visits: 18000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "AI voiceover: Quickly add multi-language narration to your videos, making them accessible worldwide.",
-        "Fast translation: Localize videos in over 70 languages with just a few clicks, no manual work needed.",
-        "Subtitle generation: Automatic, editable subtitles for every video, enhancing SEO and accessibility.",
-        "Speaker detection: Accurately identifies and translates multiple speakers in one video."
-      ]
-    },
-    {
-      name: "Aimages",
-      description: "Aimages is an AI-powered video enhancement platform for upscaling, denoising, and restoring old or low-quality videos, making them look new again.",
-      url: "https://aimages.ai",
-      id: "aimages",
-      image: "/tool-screenshots/aimages.png",
-      logo: "/logo/aimages.png",
-      categories: ["video", "productivity"],
-      subcategory: "enhancement",
-      tags: ["AI", "upscaling", "restoration"],
-      rating: 4.2,
-      visits: 12000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "AI upscaling: Sharpen and enhance low-resolution videos for HD or 4K output.",
-        "Noise reduction: Remove grain, compression artifacts, and visual noise for a clean look.",
-        "Frame interpolation: Smooth choppy or low-FPS footage for more natural motion.",
-        "Restoration: Revive damaged, faded, or old videos using deep learning models."
-      ]
-    },
-    {
-      name: "Neural.love Video Enhancer",
-      description: "Neural.love offers AI-powered upscaling, colorization, and restoration for old or damaged video footage, making your archives shine.",
-      url: "https://neural.love/video-enhancer",
-      id: "neurallove",
-      image: "/tool-screenshots/neurallove.png",
-      logo: "/logo/neurallove.png",
-      categories: ["video", "productivity"],
-      subcategory: "enhancement",
-      tags: ["AI", "upscaling", "restoration"],
-      rating: 4.4,
-      visits: 15000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "AI upscaling: Transform SD or low-quality footage into crisp HD or 4K with advanced deep learning.",
-        "Colorization: Automatically colorize black-and-white videos for a modern, vibrant look.",
-        "Scratch and noise removal: Remove physical and digital imperfections from aged footage.",
-        "Frame interpolation: Generate additional frames for smoother slow-motion or restored framerate."
-      ]
-    },
-    {
-      name: "Peech",
-      description: "Peech is an AI video editor for marketers, offering automated subtitling, branding, and highlight detection to repurpose long-form content for social media.",
-      url: "https://www.peech-ai.com",
-      id: "peech",
-      image: "/tool-screenshots/peech.png",
-      logo: "/logo/peech.png",
-      categories: ["video", "marketing", "productivity"],
-      subcategory: "editing",
-      tags: ["AI", "editing", "subtitles"],
-      rating: 4.2,
-      visits: 8000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "Automatic highlight detection: AI scans and extracts the best moments from your content for social media sharing.",
-        "AI branding: Applies logos, colors, and fonts consistently across all your video content.",
-        "Auto-subtitling: Generates accurate, stylized captions to boost accessibility and engagement.",
-        "Batch video repurposing: Turn webinars or podcasts into dozens of clips for different platforms in one workflow."
-      ]
-    },
-    {
-      name: "LALAL.AI Video Stem Splitter",
-      description: "LALAL.AI uses AI to extract vocals and music from video files, making it easy to remix or edit soundtracks for new projects.",
-      url: "https://www.lalal.ai",
-      id: "lalalai",
-      image: "/tool-screenshots/lalalai.png",
-      logo: "/logo/lalalai.png",
-      categories: ["video", "audio", "productivity"],
-      subcategory: "audio splitting",
-      tags: ["AI", "audio", "stem splitter"],
-      rating: 4.6,
-      visits: 720000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "Audio stem extraction: Precisely separate vocals, instrumentation, drums, and other elements from video or audio files.",
-        "Batch processing: Upload and process multiple video files at once for efficient workflows.",
-        "High-accuracy AI: Maintains excellent sound quality and clarity during the extraction process.",
-        "Multi-format support: Works with a wide range of video and audio file types for maximum flexibility."
-      ]
-    },
-    {
-      name: "Unscreen",
-      description: "Unscreen allows you to remove video backgrounds automatically without a green screen. Ideal for social content, memes, and remote presentations.",
-      url: "https://www.unscreen.com",
-      id: "unscreen",
-      image: "/tool-screenshots/unscreen.png",
-      logo: "/logo/unscreen.png",
-      categories: ["video", "productivity"],
-      subcategory: "background removal",
-      tags: ["AI", "background removal", "editing"],
-      rating: 4.5,
-      visits: 800000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "Automatic background removal: Instantly removes video backgrounds without needing a green screen or manual masking.",
-        "Supports GIF, MOV, MP4: Works with multiple video and animation formats for broad compatibility.",
-        "Batch upload: Process many videos at once for efficient content creation.",
-        "Custom backgrounds: Replace backgrounds with images, colors, or other videos to suit your project."
-      ]
-    },
-    {
-      name: "Munch",
-      description: "Munch uses AI to repurpose video content into multiple short-form clips for social media, with auto captions, highlights, and SEO insights.",
-      url: "https://www.getmunch.com",
-      id: "munch",
-      image: "/tool-screenshots/munch.png",
-      logo: "/logo/munch.png",
-      categories: ["video", "marketing", "productivity"],
-      subcategory: "repurposing",
-      tags: ["AI", "clips", "social media"],
-      rating: 4.4,
-      visits: 18000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "AI highlight selection: Analyzes videos and finds the most engaging moments to create viral-ready clips for social media.",
-        "Auto-captioning: Adds accurate, on-brand subtitles in a variety of styles to increase accessibility and reach.",
-        "SEO scoring: AI evaluates clip content for shareability and discoverability, helping maximize engagement.",
-        "Multi-platform export: Easily export content for TikTok, Reels, YouTube Shorts, and more."
-      ]
-    },
-    {
-      name: "Steve.AI",
-      description: "Steve.AI creates videos from blog posts or scripts using AI-generated scenes, stock footage, and voiceovers, ideal for marketing and content teams.",
-      url: "https://www.steve.ai",
-      id: "steveai",
-      image: "/tool-screenshots/steveai.png",
-      logo: "/logo/steveai.png",
-      categories: ["video", "marketing"],
-      subcategory: "creation",
-      tags: ["AI", "creation", "voiceover"],
-      rating: 4.3,
-      visits: 20000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "Blog-to-video: AI transforms written articles or scripts into animated explainer or promo videos in minutes.",
-        "AI scene generation: Automatically generates relevant, visually engaging scenes to match your script.",
-        "Stock library: Access thousands of royalty-free images, video clips, and music tracks for your projects.",
-        "Voiceover generation: Add realistic AI voice narration in multiple languages and accents."
-      ]
-    },
-    {
-      name: "DeepSwap",
-      description: "DeepSwap is an AI-powered face swapping tool for videos and images, enabling realistic and quick face replacement for memes, parody, and creative edits.",
-      url: "https://www.deepswap.ai",
-      id: "deepswap",
-      image: "/tool-screenshots/deepswap.png",
-      logo: "/logo/deepswap.png",
-      categories: ["video", "productivity"],
-      subcategory: "face swap",
-      tags: ["AI", "face swap", "editing"],
-      rating: 4.2,
-      visits: 85000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "Automatic face swapping: Replace faces in videos or images with high accuracy and realism using advanced neural networks.",
-        "Realistic results: Seamless blending and natural expressions for both fun and professional use cases.",
-        "Multiple file formats: Works with MP4, GIF, JPEG, and many other common media file types.",
-        "Fast processing: Upload and process large files quickly, with support for batch jobs."
-      ]
-    },
-    {
-      name: "Reface",
-      description: "Reface is an AI-powered app for face-swapping in short videos, GIFs, and memes. Popular for social media and entertainment.",
-      url: "https://www.reface.ai",
-      id: "reface",
-      image: "/tool-screenshots/reface.png",
-      logo: "/logo/reface.png",
-      categories: ["video"],
-      subcategory: "face swap",
-      tags: ["AI", "face swap", "memes"],
-      rating: 4.5,
-      visits: 1700000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "Face swap for video, GIF, and images: Instantly overlay your face onto trending clips or memes for viral social content.",
-        "Viral meme generator: Pick from thousands of templates to create and share popular memes in seconds.",
-        "Template library: Access a huge collection of prebuilt video and GIF templates for face swap fun.",
-        "Mobile app: Edit and share on the go with iOS and Android support, perfect for creators and influencers."
-      ]
-    },
-    {
-      name: "ClipDrop Relight",
-      description: "ClipDrop Relight uses AI to relight and edit video scenes, enhancing visuals without reshooting. Perfect for post-production and creative projects.",
-      url: "https://clipdrop.co/relight",
-      id: "clipdroprelight",
-      image: "/tool-screenshots/clipdroprelight.png",
-      logo: "/logo/clipdroprelight.png",
-      categories: ["video", "productivity", "design"],
-      subcategory: "enhancement",
-      tags: ["AI", "relighting", "editing"],
-      rating: 4.3,
-      visits: 30000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "AI relighting: Change the lighting conditions in your video after filming, adding drama or correcting bad lighting.",
-        "Color grading: Instantly adjust the mood, tone, and color palette for a polished professional look.",
-        "Object removal: Effortlessly erase unwanted elements from your shots without complex editing skills.",
-        "Web-based editor: Edit videos in the cloud, with no need for high-powered local hardware."
-      ]
-    },
-    {
-      name: "Ssemble",
-      description: "Ssemble is a collaborative online video editor with AI tools for summarizing, transcribing, and enhancing videos, ideal for teams and educators.",
-      url: "https://www.ssemble.com",
-      id: "ssemble",
-      image: "/tool-screenshots/ssemble.png",
-      logo: "/logo/ssemble.png",
-      categories: ["video", "productivity"],
-      subcategory: "editing",
-      tags: ["AI", "editing", "collaboration"],
-      rating: 4.3,
-      visits: 7000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "Collaborative editing: Multiple users can work on the same video project in real time, streamlining team workflows.",
-        "Transcription and subtitles: AI generates editable transcripts and subtitles for improved accessibility and SEO.",
-        "Video summarization: Automatically condense long-form content into short, shareable highlights.",
-        "Plugin marketplace: Extend Ssemble with add-ons for effects, integrations, and custom tools."
-      ]
-    },
-    {
-      name: "Genny by LOVO",
-      description: "Genny by LOVO offers AI voiceovers and text-to-video creation for marketing, e-learning, and creative projects, with dozens of voices and languages.",
-      url: "https://www.lovo.ai/genny",
-      id: "gennybylovo",
-      image: "/tool-screenshots/gennybylovo.png",
-      logo: "/logo/gennybylovo.png",
-      categories: ["video", "audio", "marketing"],
-      subcategory: "voiceover",
-      tags: ["AI", "voiceover", "text-to-video"],
-      rating: 4.4,
-      visits: 62000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "AI voice generator: Access over 500 realistic voices in more than 100 languages and accents for any project.",
-        "Text-to-video: Transform scripts into video presentations with synchronized visuals and narration.",
-        "Voice cloning: Replicate your own or an actor’s voice for highly customized voiceovers.",
-        "Audio editing suite: Edit, mix, and enhance voice tracks to achieve perfect results in every video."
-      ]
-    },
-    {
-      name: "VideoLeap by Lightricks",
-      description: "VideoLeap is a mobile video editing app with AI-powered effects, auto-cutting, and enhancement tools for quick, high-quality video creation.",
-      url: "https://www.videoleapapp.com",
-      id: "videoleap",
-      image: "/tool-screenshots/videoleap.png",
-      logo: "/logo/videoleap.png",
-      categories: ["video", "productivity"],
-      subcategory: "editing",
-      tags: ["AI", "mobile", "editing"],
-      rating: 4.6,
-      visits: 2400000,
-      dateAdded: "2025-06-13",
-      isPremium: "Freemium",
-      features: [
-        "AI-powered effects: Instantly enhance footage and apply creative filters and transitions with a tap.",
-        "Auto-cut and montage: Automatically find and assemble the best clips for polished, professional videos.",
-        "Layered editing: Combine video clips, images, and soundtracks with advanced compositing tools.",
-        "Mobile-first: Edit and publish on the go with full-featured apps for iOS and Android devices."
-      ]
-    }
+      {
+        name: "HeyGen (formerly Movio)",
+        description: "HeyGen is a text-to-video platform that uses AI avatars and lip-sync to create videos from scripts, PowerPoints, or URLs. Features real-time video translation and voice cloning.",
+        url: "https://www.heygen.com",
+        id: "heygen",
+        image: "/tool-screenshots/heygen.png",
+        logo: "/logo/heygen.png",
+        categories: ["video", "marketing"],
+        subcategory: "avatar video",
+        tags: ["AI", "avatar", "translation", "voice"],
+        rating: 4.6,
+        visits: 1620000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "AI avatar generation: Choose from a diverse range of digital humans to present your content, offering a professional and engaging delivery.",
+          "Real-time translation: Instantly translate and dub your videos into multiple languages, breaking down language barriers for a global audience.",
+          "Voice cloning: Use your own voice or select from a library of synthesized voices, enabling consistent branding and personal connection.",
+          "Script-to-video: Convert text, slides, or even URLs directly into compelling video content, streamlining the content creation process."
+        ],
+        howToUse: [
+          {
+            title: "Sign Up & Access Dashboard",
+            description: "Go to HeyGen's website and sign up for a free or premium account. After verifying your email, log in to access the dashboard.",
+            links: [
+              { label: "HeyGen", url: "https://www.heygen.com/" },
+              { label: "YouTube Tutorial", url: "https://www.youtube.com/results?search_query=heygen+signup" }
+            ]
+          },
+          {
+            title: "Start a New Project",
+            description: "Click 'Create Video' or 'New Project'. Choose from blank, script, PowerPoint, or URL input to start. You can also select a template suited for your use case.",
+            links: [
+              { label: "HeyGen Getting Started", url: "https://www.heygen.com/tutorials" }
+            ]
+          },
+          {
+            title: "Select Your AI Avatar",
+            description: "Browse the avatar library and pick a digital presenter that matches your target audience and tone. Premium users unlock more avatar options.",
+            links: [
+              { label: "Avatar Library", url: "https://www.heygen.com/avatars" }
+            ]
+          },
+          {
+            title: "Input Script or Content",
+            description: "Paste your script, upload a PowerPoint, or enter a URL. HeyGen will extract text and generate scenes based on your input. Edit each scene’s text as needed.",
+            links: [
+              { label: "Script Editor Guide", url: "https://www.heygen.com/guides/script-editor" }
+            ]
+          },
+          {
+            title: "Choose Voice and Language",
+            description: "Select the AI voice and adjust language, accent, speed, and tone. Use the voice cloning feature if you want to use your own or a custom voice.",
+            links: [
+              { label: "Voice Settings", url: "https://www.heygen.com/voices" }
+            ]
+          },
+          {
+            title: "Customize Video Scenes",
+            description: "Add or customize backgrounds, upload images, use HeyGen's stock assets, and arrange avatars and text. Adjust timing and transitions for each scene.",
+            links: [
+              { label: "Scene Editing", url: "https://www.heygen.com/features" }
+            ]
+          },
+          {
+            title: "Translate or Dub Video (Optional)",
+            description: "Enable the translation feature to automatically translate and dub your video into other languages. Review the translated script and voices before generating.",
+            links: [
+              { label: "Translation Feature", url: "https://www.heygen.com/features/translation" }
+            ]
+          },
+          {
+            title: "Preview and Revise",
+            description: "Preview the full video, check lip-sync, transitions, voice, and adjust any elements as needed. Make sure all scenes and text are accurate.",
+            links: [
+              { label: "HeyGen Help Center", url: "https://help.heygen.com/" }
+            ]
+          },
+          {
+            title: "Export & Download",
+            description: "Choose your export format and resolution (some options may require a premium plan). Download the MP4 or share directly to social or business platforms.",
+            links: [
+              { label: "Exporting Videos", url: "https://www.heygen.com/help/export" }
+            ]
+          },
+          {
+            title: "Explore Advanced Features & API",
+            description: "Try batch video creation, API integrations, or advanced branding and voice options for automation or large-scale production.",
+            links: [
+              { label: "API Docs", url: "https://docs.heygen.com/" }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Elai.io",
+        description: "Elai.io enables users to produce professional AI videos from text with customizable digital avatars. Supports multiple languages and templates for e-learning, marketing, and training.",
+        url: "https://elai.io",
+        id: "elaiio",
+        image: "/tool-screenshots/elaiio.png",
+        logo: "/logo/elaiio.png",
+        categories: ["video", "marketing"],
+        subcategory: "avatar video",
+        tags: ["AI", "avatar", "marketing"],
+        rating: 4.4,
+        visits: 89000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "AI avatar video creation: Turn any text into engaging videos with lifelike digital presenters, saving time and production costs.",
+          "Multi-language support: Produce videos in over 65 languages, reaching diverse global audiences without additional translation work.",
+          "Template library: Access a range of ready-made video templates for marketing, education, and business use cases.",
+          "Bulk video generation: Generate hundreds of personalized videos simultaneously for campaigns, training, or customer outreach."
+        ],
+        howToUse: [
+          {
+            title: "Register and Log In",
+            description: "Visit Elai.io and sign up for a free or premium account. Confirm your email and log into the dashboard.",
+            links: [
+              { label: "Elai.io", url: "https://elai.io" }
+            ]
+          },
+          {
+            title: "Create a New Video",
+            description: "Click 'Create Video' and select a template or start with a blank project. Templates speed up the process for common use cases like marketing or training.",
+            links: [
+              { label: "Templates", url: "https://elai.io/templates" }
+            ]
+          },
+          {
+            title: "Select an AI Avatar",
+            description: "Choose from Elai's avatar library. Avatars can be filtered by language, appearance, and use case to match your audience.",
+            links: [
+              { label: "Avatars", url: "https://elai.io/avatars" }
+            ]
+          },
+          {
+            title: "Enter or Upload Script",
+            description: "Paste your script into each scene or upload a document. You can also use the AI script generator for content ideas or translation.",
+            links: [
+              { label: "Script Tool", url: "https://elai.io/script-generator" }
+            ]
+          },
+          {
+            title: "Set Voice and Language",
+            description: "Pick from dozens of AI voices and over 65 languages. Fine-tune speech speed, pitch, and accent for localization.",
+            links: [
+              { label: "Voice Settings", url: "https://elai.io/features" }
+            ]
+          },
+          {
+            title: "Customize Scenes",
+            description: "Edit backgrounds, change layouts, add images, logos, transitions, and arrange visual elements for each slide.",
+            links: [
+              { label: "Scene Customization", url: "https://elai.io/customization" }
+            ]
+          },
+          {
+            title: "Add Media and Effects",
+            description: "Enhance scenes with video clips, stock images, animations, and audio. Adjust timing and animate elements for dynamic presentations."
+          },
+          {
+            title: "Preview & Edit",
+            description: "Preview the video to check avatar performance, pronunciation, and scene flow. Make necessary edits before finalizing.",
+            links: [
+              { label: "Help Center", url: "https://elai.io/help" }
+            ]
+          },
+          {
+            title: "Export or Share",
+            description: "Export the video in your desired resolution (dependent on plan). Download or share via link or embed code.",
+            links: [
+              { label: "Export Guide", url: "https://elai.io/export" }
+            ]
+          },
+          {
+            title: "API & Automation (Advanced)",
+            description: "For bulk or automated video generation, connect with Elai’s API. Use for CRM integration, mass personalization, or e-learning at scale.",
+            links: [
+              { label: "API Docs", url: "https://elai.io/api" }
+            ]
+          }
+        ]
+      },
+      {
+        name: "D-ID",
+        description: "D-ID brings photos to life with AI-powered talking avatars, animating faces from text or audio. Also enables video translation and dubbing for global audiences.",
+        url: "https://www.d-id.com",
+        id: "did",
+        image: "/tool-screenshots/did.png",
+        logo: "/logo/did.png",
+        categories: ["video", "marketing"],
+        subcategory: "talking avatar",
+        tags: ["AI", "avatar", "translation", "dubbing"],
+        rating: 4.5,
+        visits: 540000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "Photo animation: Animate any portrait into a speaking avatar, adding a human touch to otherwise static images for a memorable experience.",
+          "Text-to-video: Generate talking head videos from scripts or audio, making it easy to produce narrated content without cameras or actors.",
+          "AI video dubbing: Effortlessly translate and dub existing videos into different languages, preserving emotion and lip-sync for authenticity.",
+          "API and integrations: Automate avatar creation and video translation for scalable workflows in marketing, education, or customer service."
+        ],
+        howToUse: [
+          {
+            title: "Sign Up or Log In",
+            description: "Go to D-ID's website and register for an account. Confirm your email and access the main dashboard.",
+            links: [
+              { label: "D-ID", url: "https://www.d-id.com" }
+            ]
+          },
+          {
+            title: "Upload a Photo or Choose Stock Avatar",
+            description: "Upload a portrait photo (JPG/PNG) or select from D-ID’s stock avatars to animate. Follow guidelines for best results.",
+            links: [
+              { label: "Avatar Guidelines", url: "https://www.d-id.com/faqs" }
+            ]
+          },
+          {
+            title: "Enter or Record Script",
+            description: "Input the text you want spoken, or upload/record an audio file. D-ID will sync the avatar’s lips and facial expressions to your script.",
+            links: [
+              { label: "Script Help", url: "https://www.d-id.com/docs" }
+            ]
+          },
+          {
+            title: "Select Language and Voice",
+            description: "Choose from dozens of AI voices and languages. Customize pitch, speed, and accent to suit your audience.",
+            links: [
+              { label: "Voice Options", url: "https://www.d-id.com/features" }
+            ]
+          },
+          {
+            title: "Customize Animation",
+            description: "Adjust avatar style, background, and add visual effects. Use built-in tools to fine-tune facial expressions and gestures."
+          },
+          {
+            title: "Translate & Dub (Optional)",
+            description: "Use the translation/dubbing tool to automatically generate versions in other languages, preserving expressive lip sync."
+          },
+          {
+            title: "Preview and Edit",
+            description: "Preview the animated video, check synchronization and naturalness, and revise as needed.",
+            links: [
+              { label: "Support", url: "https://www.d-id.com/support" }
+            ]
+          },
+          {
+            title: "Export or Share",
+            description: "Export your finished talking avatar video. Download as MP4 or share a link directly (watermarking depends on plan).",
+            links: [
+              { label: "Export FAQ", url: "https://www.d-id.com/faqs#export" }
+            ]
+          },
+          {
+            title: "API & Integration (Advanced)",
+            description: "Integrate with D-ID's API for automated avatar video creation at scale, or connect to third-party platforms for marketing or e-learning.",
+            links: [
+              { label: "API Docs", url: "https://docs.d-id.com" }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Hour One",
+        description: "Hour One creates presenter-led videos using AI-generated humans and your script. Ideal for training, onboarding, and product explainers at scale.",
+        url: "https://www.hourone.ai",
+        id: "hourone",
+        image: "/tool-screenshots/hourone.png",
+        logo: "/logo/hourone.png",
+        categories: ["video", "marketing"],
+        subcategory: "avatar video",
+        tags: ["AI", "avatar", "training"],
+        rating: 4.1,
+        visits: 31000,
+        dateAdded: "2025-06-13",
+        isPremium: "Premium",
+        features: [
+          "Script-to-presenter video: Easily transform a written script into a professional video with a realistic AI presenter, reducing production time.",
+          "AI character library: Select from a wide range of digital humans to match your brand or audience demographics.",
+          "Integrations: Use via API or connect with learning management systems to automate large-scale video creation.",
+          "Multi-language support: Expand your training and onboarding reach with videos in multiple languages and accents."
+        ],
+        howToUse: [
+          {
+            title: "Create an Hour One Account",
+            description: "Visit the Hour One website and register for an account. Verify your email to activate and access your dashboard.",
+            links: [
+              { label: "Hour One", url: "https://www.hourone.ai" }
+            ]
+          },
+          {
+            title: "Start a New Project",
+            description: "Click 'New Project' and select your template (business, explainer, onboarding, etc.), or begin from scratch for custom presentations.",
+            links: [
+              { label: "Templates", url: "https://www.hourone.ai/templates" }
+            ]
+          },
+          {
+            title: "Pick Your AI Presenter",
+            description: "Browse the Hour One character library and choose an avatar that fits your project's tone, language, and audience.",
+            links: [
+              { label: "Character Library", url: "https://www.hourone.ai/characters" }
+            ]
+          },
+          {
+            title: "Write or Paste Script",
+            description: "Write your script in the editor, or paste/import content from a document. Each slide/scene can have its own text.",
+            links: [
+              { label: "Script Tips", url: "https://www.hourone.ai/help/script" }
+            ]
+          },
+          {
+            title: "Voice & Language Selection",
+            description: "Select from a variety of AI voices and languages for narration. You can localize content for different regions.",
+            links: [
+              { label: "Voice Options", url: "https://www.hourone.ai/features" }
+            ]
+          },
+          {
+            title: "Customize Scenes",
+            description: "Change background images, add your own logos or graphics, and arrange elements for each video segment.",
+            links: [
+              { label: "Scene Customization", url: "https://www.hourone.ai/help/customization" }
+            ]
+          },
+          {
+            title: "Enhance with Media & Transitions",
+            description: "Include images, video clips, animations, and smooth transitions to make your video more dynamic and engaging."
+          },
+          {
+            title: "Preview & Edit",
+            description: "Preview the complete video, review presenter performance, and make changes to timing, visuals, or narration as needed.",
+            links: [
+              { label: "Help Center", url: "https://www.hourone.ai/support" }
+            ]
+          },
+          {
+            title: "Export & Download",
+            description: "Export your video in different resolutions (HD/4K with premium). Download as MP4 or get a shareable link.",
+            links: [
+              { label: "Export Guide", url: "https://www.hourone.ai/help/export" }
+            ]
+          },
+          {
+            title: "API & Bulk Automation (Advanced)",
+            description: "Access Hour One's API and automation tools to generate videos at scale for e-learning, onboarding, or marketing campaigns.",
+            links: [
+              { label: "API Docs", url: "https://www.hourone.ai/api" }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tavus",
+        description: "Tavus automates personalized video generation for sales and marketing, using AI face and voice cloning for hyper-personalized outreach at scale.",
+        url: "https://www.tavus.io",
+        id: "tavus",
+        image: "/tool-screenshots/tavus.png",
+        logo: "/logo/tavus.png",
+        categories: ["video", "marketing", "audio"],
+        subcategory: "personalized video",
+        tags: ["AI", "personalization", "voice"],
+        rating: 4.3,
+        visits: 12000,
+        dateAdded: "2025-06-13",
+        isPremium: "Premium",
+        features: [
+          "Personalized video at scale: Generate thousands of unique, hyper-personalized video messages for every prospect or customer automatically.",
+          "AI face and voice cloning: Use your likeness and voice to deliver truly authentic and individualized outreach videos.",
+          "CRM integration: Connect directly with popular CRM tools to personalize videos using live customer data for each message.",
+          "Analytics dashboard: Measure success with detailed open, view, and engagement tracking for every video sent."
+        ],
+        howToUse: [
+          {
+            title: "Sign Up & Log In",
+            description: "Go to Tavus.io and create an account using your work email. Choose a plan that matches your needs and log in to your dashboard.",
+            links: [
+              { label: "Tavus", url: "https://www.tavus.io" }
+            ]
+          },
+          {
+            title: "Record Your Base Video",
+            description: "Follow Tavus's guided instructions to record a video template. This base video will be used for AI-driven face and voice cloning, so read the script clearly and use good lighting.",
+            links: [
+              { label: "Recording Guide", url: "https://help.tavus.io/en/articles/recording-your-base-video" }
+            ]
+          },
+          {
+            title: "Set Up Personalization Fields",
+            description: "Decide which fields (like first name, company, product, etc.) you want to personalize. Map these variables to your contact data or CRM integration.",
+            links: [
+              { label: "Personalization Docs", url: "https://help.tavus.io/en/articles/personalization" }
+            ]
+          },
+          {
+            title: "Upload Your Audience List or Connect CRM",
+            description: "Import a CSV of your recipients or connect directly to your CRM (such as HubSpot or Salesforce) for seamless data mapping and automation."
+          },
+          {
+            title: "Generate Personalized Videos",
+            description: "Tavus's AI engine will process your base video and data fields to create a unique, personalized video for each contact. You can preview a few before generating the full batch."
+          },
+          {
+            title: "Review & Edit",
+            description: "Check a sample of generated videos for quality, pronunciation, and accuracy. Make adjustments to your template or data and reprocess if needed."
+          },
+          {
+            title: "Send or Share Videos",
+            description: "Distribute your videos via email, SMS, direct link, or by embedding in landing pages. Tavus supports integrations for automated outreach and campaign tracking.",
+            links: [
+              { label: "Integrations", url: "https://help.tavus.io/en/articles/integrations" }
+            ]
+          },
+          {
+            title: "Analyze Results",
+            description: "Monitor open rates, video views, clicks, and conversions in the Tavus analytics dashboard. Use insights to refine future campaigns for better engagement."
+          },
+          {
+            title: "Advanced: API Automation",
+            description: "For developers or enterprises, use the Tavus API to automate large-scale personalization, trigger video generation from workflows, and retrieve video URLs programmatically.",
+            links: [
+              { label: "Tavus API Docs", url: "https://docs.tavus.io/" }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Vidyo.ai",
+        description: "Vidyo.ai repurposes long-form videos into short, social-ready clips using AI, with auto-captioning, highlights, and vertical format conversion.",
+        url: "https://vidyo.ai",
+        id: "vidyoai",
+        image: "/tool-screenshots/vidyoai.png",
+        logo: "/logo/vidyoai.png",
+        categories: ["video", "marketing", "productivity"],
+        subcategory: "repurposing",
+        tags: ["AI", "clips", "social media"],
+        rating: 4.7,
+        visits: 170000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "AI highlight detection: Automatically analyzes videos to find the most engaging moments, perfect for sharing on social media.",
+          "Auto-captioning: Generates accurate, on-brand subtitles for every clip, improving accessibility and engagement.",
+          "Format conversion: Instantly adapt content for TikTok, Instagram, or YouTube by converting to vertical, square, or horizontal formats.",
+          "Batch processing: Process and export dozens of clips from long-form content in a fraction of the time."
+        ],
+        howToUse: [
+          {
+            title: "Register and Access Dashboard",
+            description: "Go to Vidyo.ai and sign up for a free or premium account. After email confirmation, log into the dashboard.",
+            links: [
+              { label: "Vidyo.ai", url: "https://vidyo.ai" }
+            ]
+          },
+          {
+            title: "Upload a Long-Form Video",
+            description: "Click the 'Upload Video' button and select your source video file (supported formats: MP4, MOV, etc.). Vidyo.ai will process most standard video types."
+          },
+          {
+            title: "Choose Output Platform & Format",
+            description: "Select the target platform (TikTok, Reels, Shorts, etc.). Vidyo.ai will recommend the best aspect ratio, clip length, and settings for that platform."
+          },
+          {
+            title: "Let AI Generate Clips",
+            description: "Vidyo.ai's AI will automatically detect key highlights and create multiple short, engaging clips from your long-form video."
+          },
+          {
+            title: "Edit and Fine-Tune",
+            description: "Review all generated clips. Use the built-in editor to trim, rearrange, add logos, overlays, music, and filters as needed."
+          },
+          {
+            title: "Add Captions",
+            description: "Enable auto-captioning for all clips, then review and edit the captions for accuracy, branding, and style."
+          },
+          {
+            title: "Preview and Export",
+            description: "Preview your clips and export in the optimal format for your chosen platform, ready for upload to social media."
+          },
+          {
+            title: "Batch Process (Optional)",
+            description: "For bulk work, upload and process multiple long videos at once—Vidyo.ai will handle batch highlight generation and export."
+          }
+        ]
+      },
+      {
+        name: "Opus Clip",
+        description: "Opus Clip harnesses AI to repurpose long videos into viral short clips, auto-selecting the most engaging segments for TikTok, Reels, and Shorts.",
+        url: "https://www.opus.pro",
+        id: "opusclip",
+        image: "/tool-screenshots/opusclip.png",
+        logo: "/logo/opusclip.png",
+        categories: ["video", "marketing", "productivity"],
+        subcategory: "repurposing",
+        tags: ["AI", "clips", "social media"],
+        rating: 4.6,
+        visits: 210000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "Viral moment detection: AI analyzes videos to identify and extract the most engaging, shareable moments.",
+          "Auto captions: Automatically adds animated, visually appealing captions to increase watch time and accessibility.",
+          "Highlight reels: Generates multiple short clips from a single long video, maximizing content value.",
+          "Platform optimization: Exports clips in formats tailored for TikTok, YouTube Shorts, and Instagram Reels."
+        ],
+        howToUse: [
+          {
+            title: "Sign Up and Log In",
+            description: "Go to Opus Clip's website and create an account. Log into your dashboard to start a new project.",
+            links: [
+              { label: "Opus Clip", url: "https://www.opus.pro" }
+            ]
+          },
+          {
+            title: "Upload Your Source Video",
+            description: "Click 'Upload' and select the long-form video you want to repurpose. Opus Clip supports a variety of file types."
+          },
+          {
+            title: "Select Output Platform",
+            description: "Choose the social platform you want to optimize for (e.g., TikTok, YouTube Shorts, Instagram Reels). The tool will recommend the best format."
+          },
+          {
+            title: "Run AI Viral Clip Detection",
+            description: "Let Opus Clip automatically scan your video for the most engaging and shareable moments, generating a handful of short clips."
+          },
+          {
+            title: "Edit Clips and Add Captions",
+            description: "Use the built-in editor to tweak each clip, add animated captions, branding, overlays, or adjust timing and transitions."
+          },
+          {
+            title: "Review and Export",
+            description: "Preview all generated clips, make final adjustments, then export as MP4 or share directly to your social platforms."
+          },
+          {
+            title: "Analyze and Batch Process",
+            description: "Use analytics tools to see which clips perform best. If needed, use Opus Clip’s batch mode for processing multiple videos at once."
+          }
+        ]
+      },
+      {
+        name: "Gling",
+        description: "Gling is an AI video editor for YouTubers that automatically removes silences, bad takes, and stutters, speeding up the editing process for vlogs and interviews.",
+        url: "https://www.gling.ai",
+        id: "gling",
+        image: "/tool-screenshots/gling.png",
+        logo: "/logo/gling.png",
+        categories: ["video", "productivity"],
+        subcategory: "editing",
+        tags: ["AI", "editing", "YouTube"],
+        rating: 4.3,
+        visits: 13000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "Silence removal: Uses AI to detect and cut out pauses and dead air, making videos more engaging and concise.",
+          "Bad take detection: Identifies and removes mistakes, retakes, or repeated lines for a polished final product.",
+          "Timeline export: Provides clean project files for further editing in your favorite NLE.",
+          "Batch processing: Edit multiple videos in one go, saving countless hours for creators."
+        ],
+        howToUse: [
+          {
+            title: "Download and Install Gling",
+            description: "Visit Gling.ai, sign up, and download the desktop app for Windows or Mac. Install and launch the application.",
+            links: [
+              { label: "Gling", url: "https://www.gling.ai" }
+            ]
+          },
+          {
+            title: "Start a New Project",
+            description: "Open Gling and create a new project. Import your raw video footage (supported formats: MP4, MOV, etc.)."
+          },
+          {
+            title: "Run AI Editing",
+            description: "Click the 'Process' button to have Gling automatically remove silences, bad takes, filler words, and stutters."
+          },
+          {
+            title: "Review and Adjust",
+            description: "Preview the AI-edited result. Restore or remove segments as needed for pacing and flow."
+          },
+          {
+            title: "Export Timeline",
+            description: "Export your cleaned timeline for further editing in your preferred video editor (Premiere, Final Cut, DaVinci Resolve, etc.)."
+          },
+          {
+            title: "Batch Editing (Optional)",
+            description: "Use batch mode to process several videos at once, perfect for bulk YouTube content or podcast cleanups."
+          }
+        ]
+      },
+      {
+        name: "Papercup",
+        description: "Papercup uses AI for video dubbing and translation, producing high-quality synthetic voices in dozens of languages for global video localization.",
+        url: "https://www.papercup.com",
+        id: "papercup",
+        image: "/tool-screenshots/papercup.png",
+        logo: "/logo/papercup.png",
+        categories: ["video", "marketing", "audio"],
+        subcategory: "dubbing",
+        tags: ["AI", "dubbing", "translation"],
+        rating: 4.4,
+        visits: 21000,
+        dateAdded: "2025-06-13",
+        isPremium: "Premium",
+        features: [
+          "Automatic dubbing: Translate and voiceover your videos with high-quality AI voices, reducing the need for manual dubbing.",
+          "Emotion-preserving voices: Synthetic voices retain emotional nuance and delivery style for authenticity.",
+          "Global reach: Instantly make your videos accessible in dozens of languages and markets.",
+          "Custom voice library: Choose or commission voices to match your brand, character, or style."
+        ],
+        howToUse: [
+          {
+            title: "Sign Up & Access Papercup Dashboard",
+            description: "Visit Papercup and create an account for your business or project. Log in to access the dashboard where you can start new dubbing projects.",
+            links: [
+              { label: "Papercup", url: "https://www.papercup.com" }
+            ]
+          },
+          {
+            title: "Start a New Dubbing Project",
+            description: "Click 'New Project' and upload your source video file. Papercup supports most major video formats (MP4, MOV, etc.).",
+            links: [
+              { label: "Papercup Help", url: "https://support.papercup.com/" }
+            ]
+          },
+          {
+            title: "Choose Target Languages",
+            description: "Select one or more target languages from Papercup’s supported list. You can dub into dozens of languages for global reach."
+          },
+          {
+            title: "Customize Voice & Style",
+            description: "Choose from Papercup’s voice library. Pick voices that best match your content’s tone, or commission a custom voice for your brand."
+          },
+          {
+            title: "Configure Additional Preferences",
+            description: "Set preferences for gender, accent, and emotion if needed. You can specify requirements for each project or video segment."
+          },
+          {
+            title: "Initiate AI Dubbing Process",
+            description: "Papercup’s AI will transcribe your video, translate the script, generate synthetic voices, and sync the dubbed audio to the video with emotion preservation."
+          },
+          {
+            title: "Review & Edit Transcript and Audio",
+            description: "Check the AI-generated transcript and dubbed audio. Manually edit translations or timing if needed for accuracy and flow."
+          },
+          {
+            title: "Preview and Approve",
+            description: "Preview the dubbed video for quality and correctness. Approve when satisfied or send back for further adjustments."
+          },
+          {
+            title: "Download & Distribute",
+            description: "Export your dubbed video in the desired format. Use the download link to distribute, embed, or upload to your platforms.",
+            links: [
+              { label: "Papercup Export Guide", url: "https://support.papercup.com/hc/en-us/articles/4420437838097-Exporting-Your-Video" }
+            ]
+          },
+          {
+            title: "API & Integrations (Advanced)",
+            description: "For large-scale automation, use Papercup’s API to submit videos, retrieve results, and integrate dubbing directly into your workflow.",
+            links: [
+              { label: "Papercup API", url: "https://docs.papercup.com/" }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Dubverse",
+        description: "Dubverse is an AI-powered video translation and dubbing platform that enables fast, accurate localization using a global voice library.",
+        url: "https://www.dubverse.ai",
+        id: "dubverse",
+        image: "/tool-screenshots/dubverse.png",
+        logo: "/logo/dubverse.png",
+        categories: ["video", "marketing", "audio"],
+        subcategory: "dubbing",
+        tags: ["AI", "dubbing", "translation"],
+        rating: 4.2,
+        visits: 12000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "AI translation: Converts video speech to subtitles and voice in over 30 languages, opening content to new audiences.",
+          "Voice cloning: Maintain the original speaker’s style and tone for a more authentic dub.",
+          "Fast turnaround: Get dubbed videos in minutes, making localization efficient even for large projects.",
+          "Subtitle and transcript generation: Automated, editable subtitles and full transcripts to complement any video."
+        ],
+        howToUse: [
+          {
+            title: "Register and Sign In",
+            description: "Go to Dubverse and create an account. Log in to access your dashboard and start dubbing projects.",
+            links: [
+              { label: "Dubverse", url: "https://www.dubverse.ai" }
+            ]
+          },
+          {
+            title: "Upload Your Video",
+            description: "Start a new project and upload your video file. Supported formats include MP4, MOV, and others."
+          },
+          {
+            title: "Select Target Language(s)",
+            description: "Choose one or more target languages you want your video to be dubbed into. Dubverse supports over 30 languages."
+          },
+          {
+            title: "Pick Voice and Cloning Options",
+            description: "Select from a variety of AI voices or use voice cloning for original style retention. Adjust gender, accent, and tone as desired."
+          },
+          {
+            title: "AI Translation and Dubbing",
+            description: "Dubverse will automatically transcribe, translate, and generate the dubbed audio with accurate lip-sync using AI."
+          },
+          {
+            title: "Review Transcript and Dubbing",
+            description: "Edit the generated transcript, subtitles, or audio if needed to ensure high-quality output."
+          },
+          {
+            title: "Export Video with Subtitles",
+            description: "Export your dubbed video and download it, or share via Dubverse’s provided link. You can also download the subtitle and transcript files."
+          },
+          {
+            title: "API Automation (For Developers)",
+            description: "Use the Dubverse API for batch processing and workflow integration in large-scale localization projects.",
+            links: [
+              { label: "Dubverse API Docs", url: "https://docs.dubverse.ai" }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Video AI by Wondershare (Virbo)",
+        description: "Virbo by Wondershare offers AI avatar videos, voiceovers, and automated video presentations from scripts. Great for marketing, courses, and content automation.",
+        url: "https://virbo.wondershare.com",
+        id: "virbo",
+        image: "/tool-screenshots/virbo.png",
+        logo: "/logo/virbo.png",
+        categories: ["video", "marketing"],
+        subcategory: "avatar video",
+        tags: ["AI", "avatar", "voiceover"],
+        rating: 4.2,
+        visits: 9000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "AI avatar presenter: Choose from a variety of digital humans to star in your videos, enhancing professionalism and engagement.",
+          "Script-to-video: Simply enter your text and receive a fully narrated and animated video.",
+          "Custom voiceover: Upload your script and select a voice to match your brand persona or audience.",
+          "Template library: Prebuilt templates for marketing, education, business, and more, making video creation fast and easy."
+        ],
+        howToUse: [
+          {
+            title: "Sign Up and Access Virbo",
+            description: "Go to the Virbo by Wondershare website and create an account. Log in to access the dashboard.",
+            links: [
+              { label: "Virbo", url: "https://virbo.wondershare.com" }
+            ]
+          },
+          {
+            title: "Start New Project",
+            description: "Click 'Create Video' or use a template. Choose your desired video type (presentation, marketing, explainer, etc.)."
+          },
+          {
+            title: "Select an AI Avatar",
+            description: "Browse and select a digital human avatar that matches your brand or message."
+          },
+          {
+            title: "Write or Paste Script",
+            description: "Enter your script for the avatar to present. Virbo supports multi-language scripts and dynamic content."
+          },
+          {
+            title: "Choose Voice and Language",
+            description: "Pick a voice from the library or upload your own. Set the language, accent, and tone for your audience."
+          },
+          {
+            title: "Customize Video Scenes",
+            description: "Add images, logos, backgrounds, and animations. Adjust timing and transitions for each segment."
+          },
+          {
+            title: "Preview and Edit",
+            description: "Preview your video, review avatar performance, and make edits to text, voice, or visuals as needed."
+          },
+          {
+            title: "Export and Share",
+            description: "Export your completed video in your chosen resolution and format. Download or share directly via link."
+          }
+        ]
+      },
+      {
+        name: "DeepDub",
+        description: "DeepDub is an AI dubbing platform for video translation with emotion-preserving synthetic voices, enabling global video content localization.",
+        url: "https://deepdub.ai",
+        id: "deepdub",
+        image: "/tool-screenshots/deepdub.png",
+        logo: "/logo/deepdub.png",
+        categories: ["video", "audio"],
+        subcategory: "dubbing",
+        tags: ["AI", "dubbing", "translation"],
+        rating: 4.1,
+        visits: 6000,
+        dateAdded: "2025-06-13",
+        isPremium: "Premium",
+        features: [
+          "Emotion-preserving dubbing: AI voices keep the original speaker’s tone, emotion, and intent for a natural translation.",
+          "Multi-language support: Translate and dub content into any major language for global audience expansion.",
+          "Voice cloning: Retain the identity of the original speaker for authenticity and continuity.",
+          "API access: Automate large-scale localization and dubbing workflows for enterprise-level needs."
+        ],
+        howToUse: [
+          {
+            title: "Contact DeepDub Sales",
+            description: "Visit DeepDub and reach out via the contact form to discuss your project and get access to the platform.",
+            links: [
+              { label: "DeepDub", url: "https://deepdub.ai" }
+            ]
+          },
+          {
+            title: "Onboard and Upload Video",
+            description: "Work with the DeepDub team to onboard your project, set up access, and securely upload your source video files."
+          },
+          {
+            title: "Define Languages and Preferences",
+            description: "Specify the target languages, desired tone, and any emotional requirements for dubbing. DeepDub will help configure the right AI voices."
+          },
+          {
+            title: "Voice Cloning & Dubbing Setup",
+            description: "If needed, provide sample audio for voice cloning. DeepDub will set up voices to match your requirements and brand consistency."
+          },
+          {
+            title: "AI Dubbing and Review",
+            description: "DeepDub’s AI transcribes, translates, and dubs the video while preserving the original speaker’s intent and emotion. Review initial outputs for feedback."
+          },
+          {
+            title: "Approve and Receive Deliverables",
+            description: "Approve the final dubbed videos after your review. Receive your localized content in the required video format for global distribution."
+          },
+          {
+            title: "API Integration (Enterprise)",
+            description: "For large-scale, recurring, or programmatic localization, use DeepDub’s API to automate video submission and retrieval.",
+            links: [
+              { label: "DeepDub API", url: "https://deepdub.ai/technology" }
+            ]
+          }
+        ]
+      },
+      {
+        name: "VideoKen",
+        description: "VideoKen uses AI to summarize, chapter, and index webinars, lectures, and conferences, making long-form video content easily navigable and searchable.",
+        url: "https://www.videoken.com",
+        id: "videoken",
+        image: "/tool-screenshots/videoken.png",
+        logo: "/logo/videoken.png",
+        categories: ["video", "productivity"],
+        subcategory: "summarization",
+        tags: ["AI", "summarization", "education"],
+        rating: 4.2,
+        visits: 8000,
+        dateAdded: "2025-06-13",
+        isPremium: "Premium",
+        features: [
+          "AI video summarization: Condenses long videos into highlight reels or concise summaries, saving viewers time.",
+          "Automatic chaptering: Detects topic changes and creates clickable chapters for easy navigation.",
+          "Searchable transcripts: Generates accurate transcripts and indexes key content for efficient search.",
+          "Embeddable widgets: Add smart indexes and navigation tools to your video platform or website."
+        ],
+        howToUse: [
+          {
+            title: "Sign Up & Access Dashboard",
+            description: "Visit VideoKen and sign up for an account. After verifying your email, log in to access the project dashboard.",
+            links: [
+              { label: "VideoKen", url: "https://www.videoken.com" }
+            ]
+          },
+          {
+            title: "Start a New Project",
+            description: "Click 'New Project' and upload your long-form video (webinar, lecture, or conference). Supported formats include MP4, MOV, and more."
+          },
+          {
+            title: "Configure Analysis Preferences",
+            description: "Set options for summarization depth, chapter length, and indexing detail. You can tailor these to your audience or use case."
+          },
+          {
+            title: "Run AI Summarization & Chaptering",
+            description: "Initiate the analysis. VideoKen's AI will process your video, identify key segments, summarize content, and create interactive chapters."
+          },
+          {
+            title: "Review Summaries & Chapters",
+            description: "Preview the generated summaries and chapters. Manually edit titles, keywords, or timestamps for accuracy and clarity."
+          },
+          {
+            title: "Generate and Edit Transcript",
+            description: "VideoKen will auto-generate a searchable transcript. Review and edit the transcript to fix names, terms, or add custom notes."
+          },
+          {
+            title: "Embed or Export Indexes",
+            description: "Embed interactive chapter widgets or indexes on your website, LMS, or shareable pages. Export summaries or transcripts as needed.",
+            links: [
+              { label: "Embed Guide", url: "https://www.videoken.com/embed" }
+            ]
+          },
+          {
+            title: "Monitor Engagement",
+            description: "Use VideoKen's analytics to track how viewers interact with your chapters, indexes, and summaries."
+          }
+        ]
+      },
+      {
+        name: "Vidby",
+        description: "Vidby is an AI-powered video translation and voiceover tool, supporting 70+ languages for fast and accurate video localization.",
+        url: "https://www.vidby.com",
+        id: "vidby",
+        image: "/tool-screenshots/vidby.png",
+        logo: "/logo/vidby.png",
+        categories: ["video", "marketing", "audio"],
+        subcategory: "translation",
+        tags: ["AI", "translation", "dubbing"],
+        rating: 4.3,
+        visits: 18000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "AI voiceover: Quickly add multi-language narration to your videos, making them accessible worldwide.",
+          "Fast translation: Localize videos in over 70 languages with just a few clicks, no manual work needed.",
+          "Subtitle generation: Automatic, editable subtitles for every video, enhancing SEO and accessibility.",
+          "Speaker detection: Accurately identifies and translates multiple speakers in one video."
+        ],
+        howToUse: [
+          {
+            title: "Register and Log In",
+            description: "Go to Vidby, sign up for a free or premium account, and log into your dashboard.",
+            links: [
+              { label: "Vidby", url: "https://www.vidby.com" }
+            ]
+          },
+          {
+            title: "Upload Your Video",
+            description: "Click on 'Upload Video' and select your file. Supported formats include MP4, MOV, AVI, and more."
+          },
+          {
+            title: "Select Languages and Voices",
+            description: "Pick the target language(s) for translation. Choose from a variety of voices for narration or dubbing."
+          },
+          {
+            title: "Configure Subtitles and Speaker Detection",
+            description: "Enable automatic subtitle generation and confirm speaker identification for multi-speaker videos."
+          },
+          {
+            title: "Initiate AI Translation and Voiceover",
+            description: "Start the process. Vidby’s AI will translate, dub, and subtitle your video. Wait for processing (time depends on video length)."
+          },
+          {
+            title: "Review and Edit Output",
+            description: "Check the translated video, subtitles, and voiceover for accuracy. Edit any section if needed."
+          },
+          {
+            title: "Export or Share",
+            description: "Export your localized video, subtitles, and transcripts. Share directly via Vidby links or download for distribution."
+          }
+        ]
+      },
+      {
+        name: "Aimages",
+        description: "Aimages is an AI-powered video enhancement platform for upscaling, denoising, and restoring old or low-quality videos, making them look new again.",
+        url: "https://aimages.ai",
+        id: "aimages",
+        image: "/tool-screenshots/aimages.png",
+        logo: "/logo/aimages.png",
+        categories: ["video", "productivity"],
+        subcategory: "enhancement",
+        tags: ["AI", "upscaling", "restoration"],
+        rating: 4.2,
+        visits: 12000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "AI upscaling: Sharpen and enhance low-resolution videos for HD or 4K output.",
+          "Noise reduction: Remove grain, compression artifacts, and visual noise for a clean look.",
+          "Frame interpolation: Smooth choppy or low-FPS footage for more natural motion.",
+          "Restoration: Revive damaged, faded, or old videos using deep learning models."
+        ],
+        howToUse: [
+          {
+            title: "Create an Account and Log In",
+            description: "Sign up at Aimages and log into your dashboard to start processing videos.",
+            links: [
+              { label: "Aimages", url: "https://aimages.ai" }
+            ]
+          },
+          {
+            title: "Upload Video for Enhancement",
+            description: "Click 'Upload' and select the video you want to enhance. Supported formats: MP4, AVI, MOV, etc."
+          },
+          {
+            title: "Select Enhancement Features",
+            description: "Choose from upscaling (HD/4K), noise reduction, frame interpolation, and restoration. You can enable one or several features based on your needs."
+          },
+          {
+            title: "Configure Output Settings",
+            description: "Set your desired output resolution, frame rate, and format. Review advanced options for best results."
+          },
+          {
+            title: "Run AI Enhancement",
+            description: "Start processing. Aimages’ AI will enhance your video and display a progress bar. Processing time depends on video length and selected features."
+          },
+          {
+            title: "Preview and Download",
+            description: "Preview the enhanced video for quality. Download the final result or reprocess with different settings if needed."
+          }
+        ]
+      },
+      {
+        name: "Neural.love Video Enhancer",
+        description: "Neural.love offers AI-powered upscaling, colorization, and restoration for old or damaged video footage, making your archives shine.",
+        url: "https://neural.love/video-enhancer",
+        id: "neurallove",
+        image: "/tool-screenshots/neurallove.png",
+        logo: "/logo/neurallove.png",
+        categories: ["video", "productivity"],
+        subcategory: "enhancement",
+        tags: ["AI", "upscaling", "restoration"],
+        rating: 4.4,
+        visits: 15000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "AI upscaling: Transform SD or low-quality footage into crisp HD or 4K with advanced deep learning.",
+          "Colorization: Automatically colorize black-and-white videos for a modern, vibrant look.",
+          "Scratch and noise removal: Remove physical and digital imperfections from aged footage.",
+          "Frame interpolation: Generate additional frames for smoother slow-motion or restored framerate."
+        ],
+        howToUse: [
+          {
+            title: "Sign Up and Log In",
+            description: "Go to Neural.love, create an account, and log in to the video enhancer dashboard.",
+            links: [
+              { label: "Neural.love Video Enhancer", url: "https://neural.love/video-enhancer" }
+            ]
+          },
+          {
+            title: "Upload Your Video",
+            description: "Click 'Upload Video' and select your source file (supported formats: MP4, MOV, etc.)."
+          },
+          {
+            title: "Choose Enhancement Options",
+            description: "Select upscaling, colorization, scratch removal, noise reduction, or frame interpolation. Combine features as needed."
+          },
+          {
+            title: "Set Output Preferences",
+            description: "Choose output resolution (HD, 4K), format, and other preferences before starting."
+          },
+          {
+            title: "Process Video with AI",
+            description: "Start the enhancement process. Neural.love’s AI will apply selected features and show progress."
+          },
+          {
+            title: "Preview and Download",
+            description: "Preview the enhanced video to review quality. Download your high-quality, restored video or tweak settings and reprocess if needed."
+          }
+        ]
+      },
+      {
+        name: "Peech",
+        description: "Peech is an AI video editor for marketers, offering automated subtitling, branding, and highlight detection to repurpose long-form content for social media.",
+        url: "https://www.peech-ai.com",
+        id: "peech",
+        image: "/tool-screenshots/peech.png",
+        logo: "/logo/peech.png",
+        categories: ["video", "marketing", "productivity"],
+        subcategory: "editing",
+        tags: ["AI", "editing", "subtitles"],
+        rating: 4.2,
+        visits: 8000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "Automatic highlight detection: AI scans and extracts the best moments from your content for social media sharing.",
+          "AI branding: Applies logos, colors, and fonts consistently across all your video content.",
+          "Auto-subtitling: Generates accurate, stylized captions to boost accessibility and engagement.",
+          "Batch video repurposing: Turn webinars or podcasts into dozens of clips for different platforms in one workflow."
+        ],
+        howToUse: [
+          {
+            title: "Sign Up & Log In",
+            description: "Visit Peech AI and create an account. Log in to your personalized dashboard to start editing.",
+            links: [
+              { label: "Peech AI", url: "https://www.peech-ai.com" }
+            ]
+          },
+          {
+            title: "Upload Your Video Content",
+            description: "Click on 'Upload' and select your webinar, podcast, or long-form video. Peech supports popular video formats such as MP4 and MOV."
+          },
+          {
+            title: "Automatic Highlight Detection",
+            description: "Let Peech’s AI analyze your video and automatically detect the most engaging highlights suitable for social sharing."
+          },
+          {
+            title: "Apply Branding",
+            description: "Customize your video with your brand’s logos, colors, and fonts. Peech applies brand consistency across all output clips."
+          },
+          {
+            title: "Generate and Edit Subtitles",
+            description: "Peech automatically creates subtitles for your video. Edit the captions for accuracy or style them to match your branding."
+          },
+          {
+            title: "Batch Repurposing",
+            description: "Use batch features to turn one long-form video into multiple short, platform-ready clips for TikTok, YouTube Shorts, Reels, and more."
+          },
+          {
+            title: "Preview & Export",
+            description: "Preview all generated clips, make any final adjustments, and export them in the desired format for your preferred platforms."
+          }
+        ]
+      },
+      {
+        name: "LALAL.AI Video Stem Splitter",
+        description: "LALAL.AI uses AI to extract vocals and music from video files, making it easy to remix or edit soundtracks for new projects.",
+        url: "https://www.lalal.ai",
+        id: "lalalai",
+        image: "/tool-screenshots/lalalai.png",
+        logo: "/logo/lalalai.png",
+        categories: ["video", "audio", "productivity"],
+        subcategory: "audio splitting",
+        tags: ["AI", "audio", "stem splitter"],
+        rating: 4.6,
+        visits: 720000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "Audio stem extraction: Precisely separate vocals, instrumentation, drums, and other elements from video or audio files.",
+          "Batch processing: Upload and process multiple video files at once for efficient workflows.",
+          "High-accuracy AI: Maintains excellent sound quality and clarity during the extraction process.",
+          "Multi-format support: Works with a wide range of video and audio file types for maximum flexibility."
+        ],
+        howToUse: [
+          {
+            title: "Sign Up or Start for Free",
+            description: "Go to LALAL.AI and either sign up or start the free trial to access the stem splitter tool.",
+            links: [
+              { label: "LALAL.AI", url: "https://www.lalal.ai" }
+            ]
+          },
+          {
+            title: "Upload Your Video or Audio File",
+            description: "Drag and drop or select the file you want to split. LALAL.AI supports MP4, MP3, WAV, and many other formats."
+          },
+          {
+            title: "Choose Stems to Extract",
+            description: "Select which stems you want—vocals, instrumental, drums, bass, etc. LALAL.AI will process accordingly."
+          },
+          {
+            title: "Processing & Preview",
+            description: "Wait for the AI to analyze and separate the tracks. You can preview the extracted stems before downloading."
+          },
+          {
+            title: "Download Stems",
+            description: "Download your separated audio files and use them for remixing, editing, or any new creative project."
+          },
+          {
+            title: "Batch Mode (Optional)",
+            description: "For large jobs, use batch processing to split stems from multiple files in one session (requires paid plan)."
+          }
+        ]
+      },
+      {
+        name: "Unscreen",
+        description: "Unscreen allows you to remove video backgrounds automatically without a green screen. Ideal for social content, memes, and remote presentations.",
+        url: "https://www.unscreen.com",
+        id: "unscreen",
+        image: "/tool-screenshots/unscreen.png",
+        logo: "/logo/unscreen.png",
+        categories: ["video", "productivity"],
+        subcategory: "background removal",
+        tags: ["AI", "background removal", "editing"],
+        rating: 4.5,
+        visits: 800000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "Automatic background removal: Instantly removes video backgrounds without needing a green screen or manual masking.",
+          "Supports GIF, MOV, MP4: Works with multiple video and animation formats for broad compatibility.",
+          "Batch upload: Process many videos at once for efficient content creation.",
+          "Custom backgrounds: Replace backgrounds with images, colors, or other videos to suit your project."
+        ],
+        howToUse: [
+          {
+            title: "Go to Unscreen",
+            description: "Visit the Unscreen website. You can use it online without registration for smaller files, or sign up for batch and advanced features.",
+            links: [
+              { label: "Unscreen", url: "https://www.unscreen.com" }
+            ]
+          },
+          {
+            title: "Upload Your Video or GIF",
+            description: "Click 'Upload Clip' and select your video or GIF. Supported formats include MP4, MOV, and GIF."
+          },
+          {
+            title: "Automatic Background Removal",
+            description: "Let Unscreen process the video. The background will be removed automatically, no green screen required."
+          },
+          {
+            title: "Customize Background (Optional)",
+            description: "Add a new background: choose a solid color, upload an image, or select a video background for your subject."
+          },
+          {
+            title: "Preview & Download",
+            description: "Preview the output and download your video or GIF with the new background. Free version may include a watermark."
+          },
+          {
+            title: "Batch Processing (Pro)",
+            description: "If you need to process many videos, sign up for a paid plan and use Unscreen Pro for batch uploads and higher resolution output."
+          }
+        ]
+      },
+      {
+        name: "Munch",
+        description: "Munch uses AI to repurpose video content into multiple short-form clips for social media, with auto captions, highlights, and SEO insights.",
+        url: "https://www.getmunch.com",
+        id: "munch",
+        image: "/tool-screenshots/munch.png",
+        logo: "/logo/munch.png",
+        categories: ["video", "marketing", "productivity"],
+        subcategory: "repurposing",
+        tags: ["AI", "clips", "social media"],
+        rating: 4.4,
+        visits: 18000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "AI highlight selection: Analyzes videos and finds the most engaging moments to create viral-ready clips for social media.",
+          "Auto-captioning: Adds accurate, on-brand subtitles in a variety of styles to increase accessibility and reach.",
+          "SEO scoring: AI evaluates clip content for shareability and discoverability, helping maximize engagement.",
+          "Multi-platform export: Easily export content for TikTok, Reels, YouTube Shorts, and more."
+        ],
+        howToUse: [
+          {
+            title: "Register for Munch",
+            description: "Sign up for Munch and log in to your dashboard to start repurposing content.",
+            links: [
+              { label: "Munch", url: "https://www.getmunch.com" }
+            ]
+          },
+          {
+            title: "Upload Your Source Video",
+            description: "Click 'Upload' and select the video you want to repurpose. Munch will process most major video formats."
+          },
+          {
+            title: "AI Highlight Detection",
+            description: "Let Munch's AI automatically analyze your video and select the best moments for short-form, viral-ready clips."
+          },
+          {
+            title: "Edit and Add Captions",
+            description: "Review the suggested clips, trim as needed, and add or edit captions styled for your brand."
+          },
+          {
+            title: "SEO & Platform Optimization",
+            description: "Use Munch's SEO tools to optimize each clip for shareability and discoverability on social platforms."
+          },
+          {
+            title: "Export for Multi-Platform Use",
+            description: "Export your clips in the correct format for TikTok, YouTube Shorts, Instagram Reels, and more. Download or share via direct link."
+          }
+        ]
+      },
+      {
+        name: "Steve.AI",
+        description: "Steve.AI creates videos from blog posts or scripts using AI-generated scenes, stock footage, and voiceovers, ideal for marketing and content teams.",
+        url: "https://www.steve.ai",
+        id: "steveai",
+        image: "/tool-screenshots/steveai.png",
+        logo: "/logo/steveai.png",
+        categories: ["video", "marketing"],
+        subcategory: "creation",
+        tags: ["AI", "creation", "voiceover"],
+        rating: 4.3,
+        visits: 20000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "Blog-to-video: AI transforms written articles or scripts into animated explainer or promo videos in minutes.",
+          "AI scene generation: Automatically generates relevant, visually engaging scenes to match your script.",
+          "Stock library: Access thousands of royalty-free images, video clips, and music tracks for your projects.",
+          "Voiceover generation: Add realistic AI voice narration in multiple languages and accents."
+        ],
+        howToUse: [
+          {
+            title: "Sign Up & Log In",
+            description: "Go to Steve.AI and create an account. Log in to access your video creation dashboard.",
+            links: [
+              { label: "Steve.AI", url: "https://www.steve.ai" }
+            ]
+          },
+          {
+            title: "Start a New Video Project",
+            description: "Click 'Create Video' and choose your workflow: script-to-video, blog-to-video, or from a template. Select a template if you want a head start."
+          },
+          {
+            title: "Input Script or Blog Link",
+            description: "Paste your script, enter your blog URL, or write content directly in the platform. Steve.AI will use this text to generate scenes."
+          },
+          {
+            title: "Select Video Type & Style",
+            description: "Choose between animation, live-action, or mixed style. Set your branding, color palette, and aspect ratio for your target platform."
+          },
+          {
+            title: "Customize Scenes & Stock Media",
+            description: "Edit each generated scene: swap backgrounds, add or change stock images, video clips, and icons. Add or edit on-screen text and transitions."
+          },
+          {
+            title: "Add Voiceover",
+            description: "Select an AI-generated voice in your preferred language and accent, or upload a custom voiceover file."
+          },
+          {
+            title: "Preview & Edit",
+            description: "Preview the video, check timing, voiceover sync, and scene transitions. Edit any scene or narration for clarity and flow."
+          },
+          {
+            title: "Export & Share",
+            description: "Export your finished video in your chosen resolution. Download the file or share directly to social media or via link."
+          }
+        ]
+      },
+      {
+        name: "DeepSwap",
+        description: "DeepSwap is an AI-powered face swapping tool for videos and images, enabling realistic and quick face replacement for memes, parody, and creative edits.",
+        url: "https://www.deepswap.ai",
+        id: "deepswap",
+        image: "/tool-screenshots/deepswap.png",
+        logo: "/logo/deepswap.png",
+        categories: ["video", "productivity"],
+        subcategory: "face swap",
+        tags: ["AI", "face swap", "editing"],
+        rating: 4.2,
+        visits: 85000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "Automatic face swapping: Replace faces in videos or images with high accuracy and realism using advanced neural networks.",
+          "Realistic results: Seamless blending and natural expressions for both fun and professional use cases.",
+          "Multiple file formats: Works with MP4, GIF, JPEG, and many other common media file types.",
+          "Fast processing: Upload and process large files quickly, with support for batch jobs."
+        ],
+        howToUse: [
+          {
+            title: "Register or Log In",
+            description: "Go to DeepSwap's website, sign up for an account, and log in to your dashboard.",
+            links: [
+              { label: "DeepSwap", url: "https://www.deepswap.ai" }
+            ]
+          },
+          {
+            title: "Upload Source Video or Image",
+            description: "Click 'Upload' and choose the video, GIF, or image you want to use as the base for face swapping."
+          },
+          {
+            title: "Upload Face(s) for Swap",
+            description: "Upload the face image(s) you want to insert into the base video or image. DeepSwap will analyze and prepare them for swapping."
+          },
+          {
+            title: "Run AI Face Swap",
+            description: "Start the swap process. DeepSwap’s AI will automatically replace faces, adjust blending, and generate the output."
+          },
+          {
+            title: "Preview & Edit",
+            description: "Preview your swapped result. For best results, check the alignment and naturalness. Re-upload or adjust faces if needed."
+          },
+          {
+            title: "Download or Share",
+            description: "Download your face-swapped video or image. Paid users can export in higher resolution and without watermark."
+          }
+        ]
+      },
+      {
+        name: "Reface",
+        description: "Reface is an AI-powered app for face-swapping in short videos, GIFs, and memes. Popular for social media and entertainment.",
+        url: "https://www.reface.ai",
+        id: "reface",
+        image: "/tool-screenshots/reface.png",
+        logo: "/logo/reface.png",
+        categories: ["video"],
+        subcategory: "face swap",
+        tags: ["AI", "face swap", "memes"],
+        rating: 4.5,
+        visits: 1700000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "Face swap for video, GIF, and images: Instantly overlay your face onto trending clips or memes for viral social content.",
+          "Viral meme generator: Pick from thousands of templates to create and share popular memes in seconds.",
+          "Template library: Access a huge collection of prebuilt video and GIF templates for face swap fun.",
+          "Mobile app: Edit and share on the go with iOS and Android support, perfect for creators and influencers."
+        ],
+        howToUse: [
+          {
+            title: "Download and Open App",
+            description: "Download the Reface app from the App Store or Google Play and open the app on your device.",
+            links: [
+              { label: "Reface App", url: "https://www.reface.ai" }
+            ]
+          },
+          {
+            title: "Upload or Take a Selfie",
+            description: "Use your device camera to take a selfie or upload a photo. Make sure the face is clear and well-lit for best results."
+          },
+          {
+            title: "Choose a Template",
+            description: "Select from thousands of trending videos, GIFs, and meme templates in the app’s library."
+          },
+          {
+            title: "Apply Face Swap",
+            description: "Let Reface’s AI automatically swap your face onto the selected template. Preview the animated result instantly."
+          },
+          {
+            title: "Edit & Download",
+            description: "Trim, crop, or add effects as desired. Download the final GIF, video, or meme to your device."
+          },
+          {
+            title: "Share to Social Media",
+            description: "Share your creation directly to Instagram, TikTok, Messenger, or other social platforms straight from the app."
+          }
+        ]
+      },
+      {
+        name: "ClipDrop Relight",
+        description: "ClipDrop Relight uses AI to relight and edit video scenes, enhancing visuals without reshooting. Perfect for post-production and creative projects.",
+        url: "https://clipdrop.co/relight",
+        id: "clipdroprelight",
+        image: "/tool-screenshots/clipdroprelight.png",
+        logo: "/logo/clipdroprelight.png",
+        categories: ["video", "productivity", "design"],
+        subcategory: "enhancement",
+        tags: ["AI", "relighting", "editing"],
+        rating: 4.3,
+        visits: 30000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "AI relighting: Change the lighting conditions in your video after filming, adding drama or correcting bad lighting.",
+          "Color grading: Instantly adjust the mood, tone, and color palette for a polished professional look.",
+          "Object removal: Effortlessly erase unwanted elements from your shots without complex editing skills.",
+          "Web-based editor: Edit videos in the cloud, with no need for high-powered local hardware."
+        ],
+        howToUse: [
+          {
+            title: "Go to ClipDrop Relight",
+            description: "Visit ClipDrop’s Relight tool online. No installation is needed; all editing is done in the browser.",
+            links: [
+              { label: "ClipDrop Relight", url: "https://clipdrop.co/relight" }
+            ]
+          },
+          {
+            title: "Upload Your Video or Image",
+            description: "Click 'Upload' and select the video or image file you want to relight or enhance."
+          },
+          {
+            title: "Adjust Lighting",
+            description: "Use the relight controls to add, move, or adjust virtual light sources. Instantly see the effect on your scene."
+          },
+          {
+            title: "Apply Color Grading and Effects",
+            description: "Experiment with color grading sliders and filters to achieve the desired mood and style."
+          },
+          {
+            title: "Remove Objects (Optional)",
+            description: "If needed, use the object removal tool to erase unwanted elements from your video or image."
+          },
+          {
+            title: "Preview & Download",
+            description: "Preview your enhanced video or image. Download the result in your chosen format directly from the web editor."
+          }
+        ]
+      },
+      {
+        name: "Ssemble",
+        description: "Ssemble is a collaborative online video editor with AI tools for summarizing, transcribing, and enhancing videos, ideal for teams and educators.",
+        url: "https://www.ssemble.com",
+        id: "ssemble",
+        image: "/tool-screenshots/ssemble.png",
+        logo: "/logo/ssemble.png",
+        categories: ["video", "productivity"],
+        subcategory: "editing",
+        tags: ["AI", "editing", "collaboration"],
+        rating: 4.3,
+        visits: 7000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "Collaborative editing: Multiple users can work on the same video project in real time, streamlining team workflows.",
+          "Transcription and subtitles: AI generates editable transcripts and subtitles for improved accessibility and SEO.",
+          "Video summarization: Automatically condense long-form content into short, shareable highlights.",
+          "Plugin marketplace: Extend Ssemble with add-ons for effects, integrations, and custom tools."
+        ],
+        howToUse: [
+          {
+            title: "Sign Up & Log In",
+            description: "Visit Ssemble and create a free account. Log in to your dashboard to start new projects or join team workspaces.",
+            links: [
+              { label: "Ssemble", url: "https://www.ssemble.com" }
+            ]
+          },
+          {
+            title: "Create or Join a Project",
+            description: "Start a new video editing project or join an existing team project. Invite collaborators if you’re working as a team."
+          },
+          {
+            title: "Upload Video Files",
+            description: "Upload your source media files (video, audio, images) to the project workspace. Ssemble supports all major video formats."
+          },
+          {
+            title: "Edit Collaboratively in Real Time",
+            description: "Edit the timeline, cut or merge clips, add transitions, overlays, and effects. Multiple users can work together live on the same timeline."
+          },
+          {
+            title: "Use AI Tools for Transcription & Summarization",
+            description: "Generate automatic transcripts and subtitles for your videos. Use the AI summarization feature to create highlight reels from long-form content."
+          },
+          {
+            title: "Explore Plugin Marketplace",
+            description: "Install plugins for advanced effects, integrations (like YouTube or Google Drive), or custom workflow enhancements."
+          },
+          {
+            title: "Preview, Export, and Share",
+            description: "Preview your final video, export in the desired resolution and format, and share via link or direct download."
+          }
+        ]
+      },
+      {
+        name: "Genny by LOVO",
+        description: "Genny by LOVO offers AI voiceovers and text-to-video creation for marketing, e-learning, and creative projects, with dozens of voices and languages.",
+        url: "https://www.lovo.ai/genny",
+        id: "gennybylovo",
+        image: "/tool-screenshots/gennybylovo.png",
+        logo: "/logo/gennybylovo.png",
+        categories: ["video", "audio", "marketing"],
+        subcategory: "voiceover",
+        tags: ["AI", "voiceover", "text-to-video"],
+        rating: 4.4,
+        visits: 62000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "AI voice generator: Access over 500 realistic voices in more than 100 languages and accents for any project.",
+          "Text-to-video: Transform scripts into video presentations with synchronized visuals and narration.",
+          "Voice cloning: Replicate your own or an actor’s voice for highly customized voiceovers.",
+          "Audio editing suite: Edit, mix, and enhance voice tracks to achieve perfect results in every video."
+        ],
+        howToUse: [
+          {
+            title: "Create a Genny Account",
+            description: "Go to the Genny by LOVO site and sign up for a free or paid account. Log in to access your dashboard.",
+            links: [
+              { label: "Genny by LOVO", url: "https://www.lovo.ai/genny" }
+            ]
+          },
+          {
+            title: "Start a New Project",
+            description: "Create a new project: choose between text-to-video or voiceover-only workflow based on your needs."
+          },
+          {
+            title: "Input or Upload Script",
+            description: "Type your script or upload a document. For video creation, Genny will sync text with visuals and narration."
+          },
+          {
+            title: "Select a Voice and Language",
+            description: "Choose from 500+ AI voices in 100+ languages and accents. Use voice cloning if you want to replicate a specific voice."
+          },
+          {
+            title: "Customize Visuals (Text-to-Video)",
+            description: "For video projects, add images, slides, or backgrounds. Arrange audio and visuals on the timeline."
+          },
+          {
+            title: "Edit and Mix Audio",
+            description: "Fine-tune timing, pitch, and effects for narration. Edit background music or sound effects in the audio suite."
+          },
+          {
+            title: "Preview and Export",
+            description: "Preview your voiceover or video, make final adjustments, and export the finished file in your desired format."
+          }
+        ]
+      },
+      {
+        name: "VideoLeap by Lightricks",
+        description: "VideoLeap is a mobile video editing app with AI-powered effects, auto-cutting, and enhancement tools for quick, high-quality video creation.",
+        url: "https://www.videoleapapp.com",
+        id: "videoleap",
+        image: "/tool-screenshots/videoleap.png",
+        logo: "/logo/videoleap.png",
+        categories: ["video", "productivity"],
+        subcategory: "editing",
+        tags: ["AI", "mobile", "editing"],
+        rating: 4.6,
+        visits: 2400000,
+        dateAdded: "2025-06-13",
+        isPremium: "Freemium",
+        features: [
+          "AI-powered effects: Instantly enhance footage and apply creative filters and transitions with a tap.",
+          "Auto-cut and montage: Automatically find and assemble the best clips for polished, professional videos.",
+          "Layered editing: Combine video clips, images, and soundtracks with advanced compositing tools.",
+          "Mobile-first: Edit and publish on the go with full-featured apps for iOS and Android devices."
+        ],
+        howToUse: [
+          {
+            title: "Download VideoLeap App",
+            description: "Download and install VideoLeap from the App Store (iOS) or Google Play (Android). Launch the app on your mobile device.",
+            links: [
+              { label: "VideoLeap App", url: "https://www.videoleapapp.com" }
+            ]
+          },
+          {
+            title: "Start a New Project",
+            description: "Tap the '+' button to create a new project. Import your video clips, photos, or audio from your device."
+          },
+          {
+            title: "Edit with AI Tools",
+            description: "Use AI-powered effects, auto-cut, and montage tools to enhance and assemble your video. Apply filters, transitions, and creative overlays."
+          },
+          {
+            title: "Arrange Clips and Layers",
+            description: "Drag and drop video clips, images, and soundtracks onto the timeline. Use advanced layering and compositing options as needed."
+          },
+          {
+            title: "Preview and Adjust",
+            description: "Preview your edit in real time. Trim, split, or reorder clips, and adjust colors, speed, or effects."
+          },
+          {
+            title: "Export and Share",
+            description: "Export your finished video in high resolution. Share directly to social media or save to your device."
+          }
+        ]
+      }
   ];
 
 export async function getToolById(id: string) {

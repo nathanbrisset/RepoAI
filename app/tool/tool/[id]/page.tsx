@@ -18,6 +18,11 @@ export default function ToolPage({ params }: any) {
     notFound();
   }
 
+  // Find 3 recommended tools from the same category, excluding the current tool
+  const recommendations = mockTools.filter(
+    (t) => t.id !== tool.id && t.categories.some((cat) => tool.categories.includes(cat))
+  ).slice(0, 3);
+
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto max-w-6xl px-4 py-12">
@@ -106,18 +111,46 @@ export default function ToolPage({ params }: any) {
               </ul>
             </div>
 
-            {/* Description */}
-            <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100">
+            {/* Description - more airy */}
+            <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100 mb-8">
               <h2 className="text-2xl font-bold mb-6 text-gray-900">About {tool.name}</h2>
-              <div className="prose prose-lg max-w-none text-gray-700">
-                <p>{tool.description}</p>
+              <div className="prose prose-lg max-w-none text-gray-700" style={{lineHeight: 1.8, paddingBottom: 16}}>
+                <p style={{marginBottom: 24}}>{tool.description}</p>
                 {(tool as any).longDescription && <p className="mt-4">{(tool as any).longDescription}</p>}
               </div>
             </div>
+
+            {/* How To Use Section */}
+            {tool.howToUse && tool.howToUse.length > 0 && (
+              <div className="bg-white rounded-xl shadow-sm p-8 border border-blue-100">
+                <h2 className="text-2xl font-bold mb-6 text-blue-700">How To Use {tool.name}</h2>
+                <ol className="list-decimal list-inside space-y-3 text-gray-800 text-lg">
+                  {tool.howToUse.map((step, idx) => (
+                    <li key={idx}>{step}</li>
+                  ))}
+                </ol>
+              </div>
+            )}
           </div>
 
-          {/* Sidebar */}
+          {/* Sidebar - Recommendations and other info */}
           <div className="space-y-8">
+            {/* Recommendations */}
+            <div className="bg-white rounded-xl shadow-sm p-6 border border-purple-100">
+              <h3 className="font-semibold text-purple-800 mb-4">Recommended Tools</h3>
+              <div className="flex flex-col gap-4">
+                {recommendations.map((rec) => (
+                  <Link key={rec.id} href={`/tool/${rec.id}`} className="flex items-center gap-3 hover:bg-purple-50 p-2 rounded-lg transition">
+                    <img src={rec.logo || rec.image} alt={rec.name} className="w-10 h-10 rounded object-cover border" />
+                    <div>
+                      <div className="font-bold text-gray-900">{rec.name}</div>
+                      <div className="text-xs text-gray-500 line-clamp-2">{rec.description}</div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
             {/* Categories */}
             <div className="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
               <h3 className="font-semibold text-gray-900 mb-4">Categories</h3>

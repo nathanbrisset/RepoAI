@@ -15,6 +15,11 @@ export interface Tool {
   dateAdded: string
   isPremium?: 'Free' | 'Freemium' | 'Premium'
   features?: string[]
+  howToUse?: {
+    title: string;
+    description: string;
+    links?: { label: string; url: string }[];
+  }[]
   pricing?: {
     type: 'free' | 'paid' | 'freemium'
     details?: string

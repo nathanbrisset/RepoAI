@@ -31,18 +31,18 @@ export default async function MatchResultsPage(props: any) {
   }
 
   const response = await fetch(`${process.env.NEXT_PUBLIC_APP_URL}/api/recommend`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ prompt: query }),
-  });
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ prompt: query }),
+        });
 
-  if (!response.ok) {
-    throw new Error('Failed to get recommendation');
-  }
+        if (!response.ok) {
+          throw new Error('Failed to get recommendation');
+        }
 
-  const data = await response.json();
+        const data = await response.json();
   const results = data?.recommendations || [];
   const intro = data?.intro || "";
 
@@ -114,7 +114,7 @@ export default async function MatchResultsPage(props: any) {
                     {category}
                   </Badge>
                 ))}
-              </div>
+          </div>
               <div className="flex items-center gap-4 mb-4">
                 <div className="flex items-center">
                   <Star className="w-5 h-5 text-yellow-400 fill-current" />
@@ -146,28 +146,28 @@ export default async function MatchResultsPage(props: any) {
       )}
 
       {/* Other Recommended Tools */}
-      {otherTools.length > 0 && (
+        {otherTools.length > 0 && (
         <div className="mb-8">
           <h2 className="text-2xl font-bold mb-4">Other Great Matches</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {otherTools.map((result) => (
               <ToolCard key={result.tool.id} tool={result.tool} />
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
 
       {/* More Tools in Same Category */}
-      {moreCategoryTools.length > 0 && (
-        <div>
+        {moreCategoryTools.length > 0 && (
+          <div>
           <h2 className="text-2xl font-bold mb-4">More Tools in This Category</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {moreCategoryTools.map((tool) => (
-              <ToolCard key={tool.id} tool={tool} />
-            ))}
+                <ToolCard key={tool.id} tool={tool} />
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
     </div>
   );
 } 
