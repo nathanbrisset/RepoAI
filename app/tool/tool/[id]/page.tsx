@@ -126,7 +126,25 @@ export default function ToolPage({ params }: any) {
                 <h2 className="text-2xl font-bold mb-6 text-blue-700">How To Use {tool.name}</h2>
                 <ol className="list-decimal list-inside space-y-3 text-gray-800 text-lg">
                   {tool.howToUse.map((step, idx) => (
-                    <li key={idx}>{step}</li>
+                    <li key={idx}>
+                      <div className="font-medium">{step.title}</div>
+                      <div className="text-gray-600">{step.description}</div>
+                      {step.links && step.links.length > 0 && (
+                        <div className="mt-2">
+                          {step.links.map((link, linkIdx) => (
+                            <a
+                              key={linkIdx}
+                              href={link.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-purple-600 hover:text-purple-800 mr-4"
+                            >
+                              {link.label}
+                            </a>
+                          ))}
+                        </div>
+                      )}
+                    </li>
                   ))}
                 </ol>
               </div>
