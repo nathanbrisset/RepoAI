@@ -27,14 +27,14 @@ Les PNG historiques dans `public/tool-screenshots` sont des captures plein cadre
 
 | Issue | Nombre |
 | --- | ---: |
-| Captures réussies | 300 |
-| Captures ratées | 5 |
-| Image actuelle conservée | 5 |
+| Captures réussies | 303 |
+| Captures ratées | 2 |
+| Image actuelle conservée | 2 |
 | Visuel de repli (logo) | 0 |
 | Poids de public/screenshots | 12.6 Mio |
-| Poids restant de public/tool-screenshots | 37.8 Mio |
+| Poids restant de public/tool-screenshots | 38.0 Mio |
 
-Ratées par type : captcha 5.
+Ratées par type : captcha 2.
 
 ## Images publiées avec une note
 
@@ -51,7 +51,10 @@ Ratées par type : captcha 5.
 | gamma | Capture de help.gamma.app. gamma.app, /pricing et /templates restent derrière un captcha. |
 | ideogram | Image officielle about.ideogram.ai, pas une capture du navigateur. ideogram.ai reste derrière un captcha. |
 | neurallove | Capture de https://neural.love/video. |
+| perplexity-ai | PNG 1024×594 capturé dans un navigateur réel, fourni dans l'agent store (shots/). |
+| perplexity-comet | PNG 1024×594 capturé dans un navigateur réel, fourni dans l'agent store (shots/). |
 | pictory | Image officielle og:image de pictory.ai. La page elle-même est un captcha. |
+| quillbot | PNG 1024×594 capturé dans un navigateur réel, fourni dans l'agent store (shots/). |
 | semrushwritingassistant | Capture de https://www.semrush.com/swa/. |
 | wellsaid | Capture de wellsaid.io/ai-voice-pricing. La homepage est un captcha. |
 | zonos | Capture du HTML de zonosai.com sans JavaScript. Avec JavaScript la page est un captcha. |
@@ -60,8 +63,5 @@ Ratées par type : captcha 5.
 
 | id | nom | type | détail | décision |
 | --- | --- | --- | --- | --- |
-| codeassist | CodeAssist | captcha | Captcha ou interstitiel anti-bot | image actuelle |
+| codeassist | CodeAssist | captcha | Cloudflare : blocage dur (Sorry, you have been blocked) | image actuelle |
 | growthbar | GrowthBar | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| perplexity-ai | Perplexity | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| perplexity-comet | Perplexity Comet | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| quillbot | QuillBot | captcha | Captcha ou interstitiel anti-bot | image actuelle |

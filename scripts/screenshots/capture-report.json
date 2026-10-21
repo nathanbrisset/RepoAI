@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T19:35:27.602Z",
+  "generatedAt": "2026-10-21T19:48:26.513Z",
   "audit": {
     "capturedAt": "2026-10-21T16:31:59.994Z",
     "totalFiles": 332,
@@ -63,16 +63,16 @@
   },
   "counts": {
     "processed": 305,
-    "success": 300,
-    "failed": 5,
-    "kept": 5,
+    "success": 303,
+    "failed": 2,
+    "kept": 2,
     "fallback": 0,
     "byCategory": {
-      "captcha": 5
+      "captcha": 2
     }
   },
-  "screenshotsBytes": 13204592,
-  "legacyBytes": 39629755,
+  "screenshotsBytes": 13236962,
+  "legacyBytes": 39883589,
   "results": [
     {
       "id": "activecampaign",
@@ -657,9 +657,9 @@
       "finalUrl": "https://www.codeassist.tech/",
       "outcome": "kept",
       "category": "captcha",
-      "reason": "Captcha ou interstitiel anti-bot",
+      "reason": "Cloudflare : blocage dur (Sorry, you have been blocked)",
       "image": "/tool-screenshots/codeassist.png",
-      "note": "image actuelle conservée"
+      "note": "Image actuelle conservée. Le site reste bloqué par Cloudflare."
     },
     {
       "id": "codegeex",
@@ -2513,22 +2513,24 @@
       "name": "Perplexity",
       "url": "https://www.perplexity.ai",
       "finalUrl": "https://www.perplexity.ai/",
-      "outcome": "kept",
-      "category": "captcha",
-      "reason": "Captcha ou interstitiel anti-bot",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
       "image": "/tool-screenshots/perplexity-ai.png",
-      "note": "image actuelle conservée"
+      "note": "PNG 1024×594 capturé dans un navigateur réel, fourni dans l'agent store (shots/).",
+      "bytes": 39364
     },
     {
       "id": "perplexity-comet",
       "name": "Perplexity Comet",
       "url": "https://www.perplexity.ai/comet",
       "finalUrl": "https://www.perplexity.ai/comet",
-      "outcome": "kept",
-      "category": "captcha",
-      "reason": "Captcha ou interstitiel anti-bot",
-      "image": "/screenshots/perplexity-comet.webp",
-      "note": "image actuelle conservée"
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/tool-screenshots/perplexity-comet.png",
+      "note": "PNG 1024×594 capturé dans un navigateur réel, fourni dans l'agent store (shots/).",
+      "bytes": 371005
     },
     {
       "id": "persado",
@@ -2739,11 +2741,12 @@
       "name": "QuillBot",
       "url": "https://quillbot.com",
       "finalUrl": "https://quillbot.com/",
-      "outcome": "kept",
-      "category": "captcha",
-      "reason": "Captcha ou interstitiel anti-bot",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
       "image": "/tool-screenshots/quillbot.png",
-      "note": "image actuelle conservée"
+      "note": "PNG 1024×594 capturé dans un navigateur réel, fourni dans l'agent store (shots/).",
+      "bytes": 121863
     },
     {
       "id": "rapidminer",
