@@ -3,7 +3,9 @@
   "name": "Microsoft Copilot",
   "url": "https://www.microsoft.com/en-us/copilot/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "duplicate-of",
+  "successorId": "microsoft-365-copilot",
+  "statusNote": "Same official page as Microsoft 365 Copilot: https://www.microsoft.com/en-us/copilot",
   "summary": "Microsoft Copilot knows your work, lives in the apps you already use, and brings you the leading AI models. Explore Copilot for individuals, business, and enterprise.",
   "description": "Microsoft Copilot knows your work, lives in the apps you already use, and brings you the leading AI models. Explore Copilot for individuals, business, and enterprise.\n\nDocument Summarization: Condenses long documents in Word and Outlook. Data Insights: Generates charts and formulas in Excel from natural language. Meeting Recaps: Summarizes Teams meetings and assigns tasks. Contextual Assistance: Suggests next steps in Office tools based on activity.",
   "categories": [

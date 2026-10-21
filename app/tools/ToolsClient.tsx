@@ -1,6 +1,7 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import { useRouter } from "next/navigation"
 import ToolCard from "@/components/tool-card"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
@@ -12,6 +13,7 @@ import { categories } from "@/lib/data"
 
 interface ToolsClientProps {
   tools: Tool[]
+  initialCategory?: string | null
 }
 
 const PRICING_OPTIONS = [
@@ -24,10 +26,25 @@ const PRICING_OPTIONS = [
   { label: "Open source", className: "bg-gray-800 text-white" },
 ]
 
-export default function ToolsClient({ tools }: ToolsClientProps) {
+export default function ToolsClient({ tools, initialCategory = null }: ToolsClientProps) {
+  const router = useRouter()
+  const initial = categories.some((category) => category.id === initialCategory) ? initialCategory : null
   const [selectedPricing, setSelectedPricing] = useState<string | null>(null)
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(initial)
   const [query, setQuery] = useState("")
+
+  useEffect(() => {
+    setSelectedCategory(initial)
+  }, [initial])
+
+  function selectCategory(id: string | null) {
+    setSelectedCategory(id)
+    const params = new URLSearchParams(window.location.search)
+    if (id) params.set("category", id)
+    else params.delete("category")
+    const next = params.toString()
+    router.replace(next ? `/tools?${next}` : "/tools", { scroll: false })
+  }
 
   const filteredTools = tools.filter(tool => {
     const matchesQuery =
@@ -74,7 +91,7 @@ export default function ToolsClient({ tools }: ToolsClientProps) {
         <div className="flex flex-wrap gap-2 mb-8">
           <button
             type="button"
-            onClick={() => setSelectedCategory(null)}
+            onClick={() => selectCategory(null)}
             className={`rounded-full px-3 py-1 text-sm ${selectedCategory === null ? "bg-gray-900 text-white" : "bg-white text-gray-700 border"}`}
           >
             All categories
@@ -83,7 +100,7 @@ export default function ToolsClient({ tools }: ToolsClientProps) {
             <button
               key={category.id}
               type="button"
-              onClick={() => setSelectedCategory(selectedCategory === category.id ? null : category.id)}
+              onClick={() => selectCategory(selectedCategory === category.id ? null : category.id)}
               className={`rounded-full px-3 py-1 text-sm ${selectedCategory === category.id ? "bg-gray-900 text-white" : "bg-white text-gray-700 border"}`}
             >
               {category.name}

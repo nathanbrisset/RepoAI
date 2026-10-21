@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "OpenAI’s coding agent for the editor, terminal, and cloud, included with ChatGPT plans.",
-  "description": "Codex is OpenAI’s coding agent. The product page describes it working in ChatGPT, the editor, and the terminal, with cloud tasks and pull-request review. It is not described there as the engine behind GitHub Copilot. The previous catalog showed 1,700,000,000 visits. That figure had no source and has been removed. Official pricing pages on 21 October 2026 say Codex is included in ChatGPT plans. One page lists Plus at $20/month, Pro from $100/month, and a limited free trial. A second developer page listed Pro at $200/month and Business at $30/user/month. Use the live pricing page for the number you will pay.",
+  "description": "Codex is OpenAI’s coding agent. The product page describes it working in ChatGPT, the editor, and the terminal, with cloud tasks and pull-request review. It is not described there as the engine behind GitHub Copilot. Official pricing pages on 21 October 2026 say Codex is included in ChatGPT plans. One page lists Plus at $20/month, Pro from $100/month, and a limited free trial. A second developer page listed Pro at $200/month and Business at $30/user/month. Use the live pricing page for the number you will pay.",
   "categories": [
     "coding"
   ],
@@ -17,7 +17,7 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "Included with ChatGPT. Plus is listed at $20/month on openai.com/codex. Developer docs differed on Pro and Business. No visit count is published here.",
+    "note": "Included with ChatGPT. Plus is listed at $20/month on openai.com/codex. Developer docs differed on Pro and Business.",
     "sourceUrl": "https://openai.com/codex/"
   },
   "logo": "/logos/openai-codex.png",
