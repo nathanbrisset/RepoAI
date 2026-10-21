@@ -33,6 +33,10 @@ node scripts/screenshots/capture.mjs --ids udio,mp3tomidi --retries 2 --timeout 
 
 Le rapport des captures ratées est réécrit dans `scripts/screenshots/REPORT.md`. L'audit des images d'origine (manquantes, 404, partagées, hors sujet) est dans `scripts/screenshots/AUDIT.md`.
 
+`node scripts/catalog-qa.mjs` (ou `npm run catalog:qa`) échoue si une fiche hors sunset a une capture locale sous 15 Ko, sauf les pages peu denses déjà revues dans le script, ou si un How To Use pointe vers YouTube ou un guide tiers (`yeschat.ai`, `cococlip.ai`, `fahimai.com`). Il échoue aussi si une URL du catalogue ou de `app/` utilise encore `aidungeon.io`, `useblackbox.io`, `cursor.sh`, `chat.openai.com` ou `lensa-ai.com`.
+
+`xvfb-run -a node scripts/screenshots/recover.mjs` est une passe manuelle (Chrome fenêtré, page officielle alternative, puis image `og:image` assez grande). Le workflow mensuel ne l'appelle pas. Une page captcha, connexion, 404 ou erreur n'est pas publiée.
+
 ## Workflow mensuel
 
 `.github/workflows/screenshots.yml` tourne le 1er de chaque mois à 06:00 UTC, et à la demande avec `workflow_dispatch`. Il installe les dépendances et Chromium (`npx playwright install --with-deps chromium`), relance la capture sur les fiches hors sunset, puis ne conserve que les captures **réussies** dont l'image diffère vraiment de celle déjà versionnée (écart absolu moyen d'au moins 8 sur une réduction 64×40, voir `keep-changed.mjs`).

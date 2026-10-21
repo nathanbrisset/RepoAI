@@ -26,15 +26,13 @@
   "dateAdded": "2025-06-04",
   "lastVerified": "2026-10-21",
   "features": [
-    "Video code extraction: Copy code directly from videos.",
-    "Autocomplete: AI-based code completions.",
-    "Multiple language support: Supports Python, JavaScript, and more.",
-    "Search engine: Find any code snippet instantly."
+    "Run an open-weight model you choose.",
+    "Route many models through one endpoint."
   ],
   "howToUse": [
     {
-      "title": "Install Blackbox AI",
-      "description": "Add the Blackbox extension to your browser or IDE, or use the web app.",
+      "title": "Open Blackbox",
+      "description": "blackbox.ai describes a platform for frontier inference. useblackbox.io returned 404 on 21 October 2026.",
       "links": [
         {
           "label": "Blackbox AI",
@@ -43,12 +41,12 @@
       ]
     },
     {
-      "title": "Use Video Extraction",
-      "description": "Pause a video, highlight code, and copy it instantly with Blackbox."
+      "title": "Choose a model",
+      "description": "The homepage says you can run an open-weight model you choose."
     },
     {
-      "title": "Autocomplete & Search",
-      "description": "Use autocomplete for code suggestions or search to find relevant snippets."
+      "title": "Or use one endpoint",
+      "description": "The same page says many models can be routed through one endpoint. No price was on that homepage."
     }
   ],
   "sources": [

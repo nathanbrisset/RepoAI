@@ -29,8 +29,7 @@
   },
   "sources": [
     "https://notebook.google/",
-    "https://one.google.com/about/google-ai-plans/",
-    "https://support.google.com/gemininotebook/answer/16213268"
+    "https://one.google.com/about/google-ai-plans/"
   ],
   "howToUse": [
     {
@@ -53,13 +52,7 @@
     },
     {
       "title": "Play an Audio Overview",
-      "description": "Audio Overviews read a summary of your sources aloud.",
-      "links": [
-        {
-          "label": "Support",
-          "url": "https://support.google.com/gemininotebook/"
-        }
-      ]
+      "description": "Audio Overviews read a summary of your sources aloud. support.google.com/gemininotebook returned 404 on 21 October 2026, including the former NotebookLM help URL which redirects there."
     }
   ]
 }

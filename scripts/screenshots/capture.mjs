@@ -207,22 +207,25 @@ function setImageField(file, image) {
   fs.writeFileSync(file, next)
 }
 
-async function launchBrowser() {
+async function launchBrowser(headless = true) {
   const args = ["--no-sandbox", "--disable-dev-shm-usage", "--disable-blink-features=AutomationControlled"]
+  const options = { headless, args }
+  if (headless === false) options.ignoreDefaultArgs = ["--enable-automation"]
   if (process.env.SCREENSHOTS_BROWSER === "chromium") {
-    return chromium.launch({ headless: true, args })
+    return chromium.launch(options)
   }
   try {
-    return await chromium.launch({ headless: true, channel: "chrome", args })
+    return await chromium.launch({ ...options, channel: "chrome" })
   } catch {
     console.warn("Chrome système indisponible, repli sur le Chromium de Playwright.")
-    return chromium.launch({ headless: true, args })
+    return chromium.launch(options)
   }
 }
 
-function contextOptions() {
+function contextOptions(overrides = {}) {
   return {
-    viewport: VIEWPORT,
+    viewport: overrides.viewport || VIEWPORT,
+    javaScriptEnabled: overrides.javaScriptEnabled !== false,
     deviceScaleFactor: 1,
     userAgent: USER_AGENT,
     locale: "en-US",
@@ -736,6 +739,7 @@ Les PNG historiques dans \`public/tool-screenshots\` sont des captures plein cad
 
 Ratées par type : ${Object.entries(byCategory).map(([key, value]) => `${key} ${value}`).join(", ") || "aucune"}.
 
+${success.some((item) => item.note) ? `## Images publiées avec une note\n\n| id | note |\n| --- | --- |\n${success.filter((item) => item.note).map((item) => `| ${item.id} | ${item.note.replace(/\|/g, "/")} |`).join("\n")}\n` : ""}
 ## Captures ratées
 
 | id | nom | type | détail | décision |
@@ -840,7 +844,30 @@ async function main() {
   console.log(JSON.stringify(counts))
 }
 
-main().catch((error) => {
-  console.error(error)
-  process.exit(1)
-})
+const isDirectRun = process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)
+
+export {
+  classify,
+  readSignals,
+  dismissCookies,
+  hideCookieChrome,
+  optimizeWebp,
+  visualStdev,
+  setImageField,
+  loadTools,
+  loadReport,
+  writeReports,
+  launchBrowser,
+  contextOptions,
+  OUT_DIR,
+  ROOT,
+  VIEWPORT,
+  USER_AGENT,
+}
+
+if (isDirectRun) {
+  main().catch((error) => {
+    console.error(error)
+    process.exit(1)
+  })
+}

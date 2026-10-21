@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "catalog:check": "node scripts/catalog-index.mjs",
+    "catalog:qa": "node scripts/catalog-qa.mjs",
     "capture-screenshots": "ts-node scripts/capture-screenshots.ts",
     "screenshots": "node scripts/screenshots/capture.mjs",
     "electron-dev": "concurrently \"npm run dev\" \"wait-on http://localhost:3000 && electron .\"",

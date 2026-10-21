@@ -1,9 +1,9 @@
 {
   "id": "alphacode",
   "name": "AlphaCode",
-  "url": "https://alphacode.deepmind.com/",
+  "url": "https://deepmind.google/blog/competitive-programming-with-alphacode/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "An AI system by DeepMind designed to solve competitive programming problems.",
   "description": "An AI system by DeepMind designed to solve competitive programming problems.\n\nProblem-solving AI: Designed to tackle complex programming challenges. Competitive programming: Excels in coding competitions. DeepMind technology: Built by Google's AI research lab. Multilingual support: Handles multiple programming languages.",
   "categories": [
@@ -23,7 +23,8 @@
   "logo": "",
   "image": "/tool-screenshots/alphacode.png",
   "dateAdded": "2025-06-04",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
+  "statusNote": "alphacode.deepmind.com does not complete TLS on 21 October 2026 (OpenSSL SSL_ERROR_SYSCALL, connection closed). No replacement product URL was found. The DeepMind article still returns 200 and is the visit link.",
   "features": [
     "Problem-solving AI: Designed to tackle complex programming challenges.",
     "Competitive programming: Excels in coding competitions.",
@@ -33,11 +34,11 @@
   "howToUse": [
     {
       "title": "Access AlphaCode",
-      "description": "Visit the AlphaCode research page for demos and documentation.",
+      "description": "The demo host no longer completes a TLS handshake. Read the DeepMind article on competitive programming with AlphaCode.",
       "links": [
         {
-          "label": "AlphaCode",
-          "url": "https://alphacode.deepmind.com/"
+          "label": "Competitive programming with AlphaCode",
+          "url": "https://deepmind.google/blog/competitive-programming-with-alphacode/"
         }
       ]
     },
