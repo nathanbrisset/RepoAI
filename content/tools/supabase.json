@@ -1,0 +1,58 @@
+{
+  "id": "supabase",
+  "name": "Supabase",
+  "url": "https://supabase.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source Postgres development platform with auth, APIs, realtime, storage and vectors.",
+  "description": "Supabase provides each project with a full Postgres database plus authentication, instant data APIs, edge functions, realtime subscriptions, file storage and vector embeddings. The platform is open source and can be self-hosted. The Free plan suits small projects but pauses projects after a week of inactivity; Pro starts at $25 per month, with extra projects from $10 per month. Each project is a full Postgres database rather than a proprietary data store.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "postgres",
+    "backend",
+    "auth",
+    "vector",
+    "open-source"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$25/mo (Pro)",
+    "sourceUrl": "https://supabase.com/pricing"
+  },
+  "logo": "https://supabase.com/favicon/apple-icon-180x180.png",
+  "image": "/screenshots/supabase.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://supabase.com/",
+    "https://supabase.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Supabase",
+      "description": "Open the official Supabase website.",
+      "links": [
+        {
+          "label": "Supabase",
+          "url": "https://supabase.com/"
+        }
+      ]
+    },
+    {
+      "title": "A Postgres backend with auth and storage",
+      "description": "Supabase provides each project with a full Postgres database plus authentication, instant data APIs, edge functions, realtime subscriptions, file storage and vector embeddings."
+    },
+    {
+      "title": "The platform is open source and can be self-hosted.",
+      "description": "The platform is open source and can be self-hosted."
+    },
+    {
+      "title": "The Free plan suits small projects but pauses projects after a week of inactivity; Pro...",
+      "description": "The Free plan suits small projects but pauses projects after a week of inactivity; Pro starts at $25 per month, with extra projects from $10 per month."
+    }
+  ]
+}

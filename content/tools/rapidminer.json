@@ -7,12 +7,12 @@
   "summary": "RapidMiner is a powerful data science platform offering advanced analytics, machine learning, and predictive modeling tools. Its intuitive visual workflow designer allows users to build, train, and deploy machine learning models with little to no coding. RapidMiner supports a wide variety of data sources and provides hundreds of pre-built machine learning algorithms. Its automation and collaboration features help teams accelerate the end-to-end data science lifecycle, from data preparation through deployment. RapidMiner is suitable for both business analysts and data scientists, enabling rapid prototyping and productionization of models.",
   "description": "RapidMiner is a powerful data science platform offering advanced analytics, machine learning, and predictive modeling tools. Its intuitive visual workflow designer allows users to build, train, and deploy machine learning models with little to no coding. RapidMiner supports a wide variety of data sources and provides hundreds of pre-built machine learning algorithms. Its automation and collaboration features help teams accelerate the end-to-end data science lifecycle, from data preparation through deployment. RapidMiner is suitable for both business analysts and data scientists, enabling rapid prototyping and productionization of models.\n\nVisual Workflow Designer: Drag-and-drop interface for building end-to-end data processes. Automated Machine Learning: AutoML to automatically select and tune models. Extensive Model Library: Hundreds of built-in algorithms for classification, regression, and clustering. Integrated Data Prep: Tools for cleaning, transforming, and enriching data.",
   "categories": [
-    "data-processing"
+    "data"
   ],
   "tags": [
-    "Machine Learning",
-    "Data Prep",
-    "Predictive Analytics"
+    "machine-learning",
+    "data-prep",
+    "predictive-analytics"
   ],
   "pricing": {
     "model": "freemium",
@@ -21,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/rapidminer.png",
-  "image": "/tool-screenshots/rapidminer.png",
+  "image": "/screenshots/rapidminer.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-21",
   "dateAddedNote": "The previous Added date was 2006-07-01. It was removed because it is not a credible date for this directory.",

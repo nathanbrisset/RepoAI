@@ -1,0 +1,58 @@
+{
+  "id": "rows",
+  "name": "Rows",
+  "url": "https://rows.com/product",
+  "affiliateUrl": "",
+  "status": "active",
+  "statusNote": "The site states that Rows has joined Superhuman.",
+  "summary": "AI spreadsheet that extracts data from PDFs and 50+ sources and analyses it in plain language; now part of Superhuman.",
+  "description": "Rows is a spreadsheet with an AI analyst that imports data from more than 50 sources, including PDFs, databases, analytics tools and bank accounts, and analyses it in plain language without formulas or SQL. The site states that Rows has joined Superhuman. A Free plan is available; Plus costs $8 per user per month and Pro $79 per month plus $8 per user.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "spreadsheet",
+    "pdf-extraction",
+    "integrations",
+    "ai-analyst"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$8/user/mo (Plus)",
+    "sourceUrl": "https://rows.com/pricing"
+  },
+  "logo": "https://rows.com/favicons/apple-touch-icon.png?v=1",
+  "image": "/screenshots/rows.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://rows.com/",
+    "https://rows.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Rows",
+      "description": "Open the official Rows website.",
+      "links": [
+        {
+          "label": "Rows",
+          "url": "https://rows.com/product"
+        }
+      ]
+    },
+    {
+      "title": "Pull data from PDFs and tools into a spreadsheet and analyse it",
+      "description": "Rows is a spreadsheet with an AI analyst that imports data from more than 50 sources, including PDFs, databases, analytics tools and bank accounts, and analyses it in plain language without formulas or SQL."
+    },
+    {
+      "title": "The site states that Rows has joined Superhuman.",
+      "description": "The site states that Rows has joined Superhuman."
+    },
+    {
+      "title": "A Free plan is available; Plus costs $8 per user per month and Pro $79 per month plus $...",
+      "description": "A Free plan is available; Plus costs $8 per user per month and Pro $79 per month plus $8 per user."
+    }
+  ]
+}

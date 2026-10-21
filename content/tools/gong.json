@@ -1,0 +1,56 @@
+{
+  "id": "gong",
+  "name": "Gong",
+  "url": "https://www.gong.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Revenue AI platform that analyses customer interactions to forecast pipeline and coach sales teams.",
+  "description": "Gong records and analyses calls, emails and other customer interactions and uses them to forecast pipeline, flag deal risk, automate handoffs, coach reps and predict churn, with specialised AI agents. The company states it is named a Leader in the 2026 Gartner Magic Quadrant for Revenue Action Orchestration. Pricing is customised through sales. It is aimed at revenue teams across sales, customer success and enablement.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "revenue-intelligence",
+    "call-recording",
+    "forecasting",
+    "agents"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": true,
+    "sourceUrl": "https://www.gong.io/pricing"
+  },
+  "logo": "https://www.gong.io/marketing-assets/favicon.svg",
+  "image": "/screenshots/gong.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.gong.io/",
+    "https://www.gong.io/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Gong",
+      "description": "Open the official Gong website.",
+      "links": [
+        {
+          "label": "Gong",
+          "url": "https://www.gong.io/"
+        }
+      ]
+    },
+    {
+      "title": "Insights from sales calls and pipeline data",
+      "description": "Gong records and analyses calls, emails and other customer interactions and uses them to forecast pipeline, flag deal risk, automate handoffs, coach reps and predict churn, with specialised AI agents."
+    },
+    {
+      "title": "The company states it is named a Leader in the 2026 Gartner Magic Quadrant for Revenue...",
+      "description": "The company states it is named a Leader in the 2026 Gartner Magic Quadrant for Revenue Action Orchestration."
+    },
+    {
+      "title": "Pricing is customised through sales.",
+      "description": "Pricing is customised through sales."
+    }
+  ]
+}

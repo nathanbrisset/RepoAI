@@ -22,11 +22,35 @@
     "sourceUrl": "https://www.napkin.ai/pricing"
   },
   "logo": "",
-  "image": "",
+  "image": "/screenshots/napkin-ai.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.napkin.ai",
     "https://www.napkin.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Napkin AI",
+      "description": "Open the official Napkin AI website.",
+      "links": [
+        {
+          "label": "Napkin AI",
+          "url": "https://www.napkin.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Napkin AI converts plain text into editable visuals such as diagrams",
+      "description": "Napkin AI converts plain text into editable visuals such as diagrams, flowcharts and infographics, which can be exported for slides, documents and social posts."
+    },
+    {
+      "title": "It differentiates itself by generating visuals directly from the meaning of your text r...",
+      "description": "It differentiates itself by generating visuals directly from the meaning of your text rather than from image prompts."
+    },
+    {
+      "title": "A free plan is available",
+      "description": "A free plan is available, with paid plans adding more credits and export options."
+    }
   ]
 }

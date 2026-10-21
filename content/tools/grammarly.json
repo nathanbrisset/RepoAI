@@ -7,14 +7,12 @@
   "summary": "Writing assistant with a free plan and paid plans.",
   "description": "Grammarly checks and rewrites text in the browser and other apps. The homepage title on 21 October 2026 was “Grammarly: Free AI Writing Assistance”. The plans page is titled “Grammarly Prices and Plans”, so a paid tier exists, but the dollar amounts were not in the HTML that was fetched.",
   "categories": [
-    "text",
-    "productivity"
+    "writing"
   ],
   "tags": [
-    "AI",
-    "Grammar",
-    "Proofreading",
-    "Editing"
+    "grammar",
+    "proofreading",
+    "editing"
   ],
   "pricing": {
     "model": "freemium",

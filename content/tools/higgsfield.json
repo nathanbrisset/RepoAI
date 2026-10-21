@@ -21,10 +21,34 @@
     "sourceUrl": "https://higgsfield.ai"
   },
   "logo": "/logos/higgsfield.png",
-  "image": "",
+  "image": "/screenshots/higgsfield.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://higgsfield.ai"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Higgsfield",
+      "description": "Open the official Higgsfield website.",
+      "links": [
+        {
+          "label": "Higgsfield",
+          "url": "https://higgsfield.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Higgsfield lets creators generate images",
+      "description": "Higgsfield lets creators generate images, videos and voice from prompts or references, then edit, upscale and automate workflows with an AI agent on web and mobile."
+    },
+    {
+      "title": "It aggregates many third-party models (e.g.",
+      "description": "It aggregates many third-party models (e.g."
+    },
+    {
+      "title": "Kling",
+      "description": "Kling, Nano Banana) with cinematic presets."
+    }
   ]
 }

@@ -7,13 +7,12 @@
   "summary": "An AI noise cancellation app that removes background noise and echo during calls, enhancing communication clarity.",
   "description": "An AI noise cancellation app that removes background noise and echo during calls, enhancing communication clarity.\n\nClear calls, smarter meetings—powered by #1 noise cancellation. Krisp brings Voice AI with an AI Note Taker, Accent AI, and Call Center AI.\n\nNoise Cancellation: Removes background noise during calls. Voice Cancellation: Eliminates other voices in the background. Meeting Transcription: Provides real-time transcription of meetings. Accent Conversion: Adjusts accents in real-time for clearer communication.",
   "categories": [
-    "audio"
+    "voice"
   ],
   "tags": [
-    "AI",
-    "Noise Cancellation",
-    "Meetings",
-    "Live Calls"
+    "noise-cancellation",
+    "meetings",
+    "live-calls"
   ],
   "pricing": {
     "model": "paid",
@@ -23,7 +22,7 @@
     "sourceUrl": "https://krisp.ai/pricing"
   },
   "logo": "/logos/krisp.png",
-  "image": "/tool-screenshots/krisp.png",
+  "image": "/screenshots/krisp.webp",
   "dateAdded": "2022-12-01",
   "lastVerified": "2026-10-21",
   "features": [

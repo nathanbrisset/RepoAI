@@ -1,0 +1,57 @@
+{
+  "id": "rytr",
+  "name": "Rytr",
+  "url": "https://rytr.me/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI relationship manager that briefs you on clients, prepares meetings and drafts follow-ups; also writes content.",
+  "description": "Rytr now presents itself as an AI relationship manager for professionals. It gathers client context from Gmail, Slack, calendars and meeting notes into a daily brief, prepares meetings, tracks commitments and drafts follow-ups. Its original writing assistant remains, with more than 40 use cases in over 30 languages. The Free plan includes 10,000 characters per month; Lite costs $9 per month.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "relationship-manager",
+    "meeting-prep",
+    "follow-ups",
+    "writing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$9/mo (Lite)",
+    "sourceUrl": "https://rytr.me/pricing"
+  },
+  "logo": "https://rytr.me/favicon.ico?favicon.1rqy3u3pdrfn3.ico",
+  "image": "/screenshots/rytr.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://rytr.me/",
+    "https://rytr.me/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Rytr",
+      "description": "Open the official Rytr website.",
+      "links": [
+        {
+          "label": "Rytr",
+          "url": "https://rytr.me/"
+        }
+      ]
+    },
+    {
+      "title": "Help keeping track of clients and follow-ups",
+      "description": "It gathers client context from Gmail, Slack, calendars and meeting notes into a daily brief, prepares meetings, tracks commitments and drafts follow-ups."
+    },
+    {
+      "title": "Rytr now presents itself as an AI relationship manager for professionals.",
+      "description": "Rytr now presents itself as an AI relationship manager for professionals."
+    },
+    {
+      "title": "Its original writing assistant remains",
+      "description": "Its original writing assistant remains, with more than 40 use cases in over 30 languages."
+    }
+  ]
+}

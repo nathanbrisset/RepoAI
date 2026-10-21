@@ -1,0 +1,57 @@
+{
+  "id": "bland-ai",
+  "name": "Bland AI",
+  "url": "https://www.bland.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Voice agent platform with self-hosted models, aimed at enterprise phone automation.",
+  "description": "Bland AI builds, deploys and monitors AI voice agents for phone calls, using self-hosted models and offering enterprise compliance features. The Start plan has no platform fee, includes credits and an inbound number, and charges $0.14 per minute plus $0.05 per transfer minute. A higher plan charges $0.12 per minute with a $299 monthly platform fee. Both plans include concurrent call limits that rise with the tier.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "voice-agents",
+    "phone-calls",
+    "self-hosted",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": true,
+    "note": "$0.14/min",
+    "sourceUrl": "https://www.bland.ai/pricing"
+  },
+  "logo": "https://www.bland.ai/favicon.ico?favicon.2dzfz_bo2_ssd.ico",
+  "image": "/screenshots/bland-ai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.bland.ai/",
+    "https://www.bland.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Bland AI",
+      "description": "Open the official Bland AI website.",
+      "links": [
+        {
+          "label": "Bland AI",
+          "url": "https://www.bland.ai/"
+        }
+      ]
+    },
+    {
+      "title": "AI agents to handle high-stakes phone calls",
+      "description": "Bland AI builds, deploys and monitors AI voice agents for phone calls, using self-hosted models and offering enterprise compliance features."
+    },
+    {
+      "title": "The Start plan has no platform fee",
+      "description": "The Start plan has no platform fee, includes credits and an inbound number, and charges $0.14 per minute plus $0.05 per transfer minute."
+    },
+    {
+      "title": "A higher plan charges $0.12 per minute with a $299 monthly platform fee.",
+      "description": "A higher plan charges $0.12 per minute with a $299 monthly platform fee."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "bubble",
+  "name": "Bubble",
+  "url": "https://bubble.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code platform for web and mobile apps that combines AI generation with a visual editor.",
+  "description": "Bubble is a no-code platform for building web, iOS and Android apps. Users can generate an app with AI and then edit the design, database, logic and privacy rules visually. Hosting is included. The Free plan is for projects under construction and includes 500 AI credits per month; the Starter plan for launched projects costs $32 per month billed annually.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "no-code",
+    "web-apps",
+    "mobile-apps",
+    "visual-editor"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$32/mo (Starter, annual)",
+    "sourceUrl": "https://bubble.io/pricing"
+  },
+  "logo": "https://meta-q.cdn.bubble.io/cdn-cgi/image/w=192,h=,f=auto,dpr=1,fit=contain/f1534423790492x745180500205606300/icon_512x512%402x.png",
+  "image": "/screenshots/bubble.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://bubble.io/",
+    "https://bubble.io/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Bubble",
+      "description": "Open the official Bubble website.",
+      "links": [
+        {
+          "label": "Bubble",
+          "url": "https://bubble.io/"
+        }
+      ]
+    },
+    {
+      "title": "Build a production web or mobile app without code",
+      "description": "Bubble is a no-code platform for building web, iOS and Android apps."
+    },
+    {
+      "title": "Users can generate an app with AI and then edit the design",
+      "description": "Users can generate an app with AI and then edit the design, database, logic and privacy rules visually."
+    },
+    {
+      "title": "Hosting is included.",
+      "description": "Hosting is included."
+    }
+  ]
+}

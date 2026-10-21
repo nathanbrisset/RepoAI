@@ -1,0 +1,57 @@
+{
+  "id": "soundful",
+  "name": "Soundful",
+  "url": "https://soundful.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI music generator producing royalty-free tracks, with licences for creators and brands.",
+  "description": "Soundful generates original music from preset styles using models trained with producers, and sells licences for creators and brands, including custom brand music. The Free plan allows unlimited track generations, 25 free styles and one MP3 download per month under a personal licence. The Plus plan costs $4.99 per user per month billed annually, with higher tiers adding downloads and licences.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "royalty-free",
+    "music-generation",
+    "brands",
+    "licensing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$4.99/mo (Plus, annual)",
+    "sourceUrl": "https://soundful.com/pricing"
+  },
+  "logo": "https://soundful.com/wp-content/uploads/2025/09/favicon.png",
+  "image": "/screenshots/soundful.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://soundful.com/",
+    "https://soundful.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Soundful",
+      "description": "Open the official Soundful website.",
+      "links": [
+        {
+          "label": "Soundful",
+          "url": "https://soundful.com/"
+        }
+      ]
+    },
+    {
+      "title": "Royalty-free AI music for content or brands",
+      "description": "Soundful generates original music from preset styles using models trained with producers, and sells licences for creators and brands, including custom brand music."
+    },
+    {
+      "title": "The Free plan allows unlimited track generations",
+      "description": "The Free plan allows unlimited track generations, 25 free styles and one MP3 download per month under a personal licence."
+    },
+    {
+      "title": "The Plus plan costs $4.99 per user per month billed annually",
+      "description": "The Plus plan costs $4.99 per user per month billed annually, with higher tiers adding downloads and licences."
+    }
+  ]
+}

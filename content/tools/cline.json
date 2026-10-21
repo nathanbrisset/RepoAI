@@ -23,10 +23,34 @@
     "sourceUrl": "https://cline.bot/pricing"
   },
   "logo": "/logos/cline.png",
-  "image": "",
+  "image": "/screenshots/cline.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://cline.bot/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Cline",
+      "description": "Open the official Cline website.",
+      "links": [
+        {
+          "label": "Cline",
+          "url": "https://cline.bot/"
+        }
+      ]
+    },
+    {
+      "title": "Cline is an open-source AI coding agent for VS Code and the terminal",
+      "description": "Cline is an open-source AI coding agent for VS Code and the terminal, with Plan and Act modes and MCP integration for external tools."
+    },
+    {
+      "title": "Its differentiator is transparency and model choice",
+      "description": "Its differentiator is transparency and model choice: developers bring their own API keys or providers and can self-host."
+    },
+    {
+      "title": "The extension is completely free for individual developers",
+      "description": "The extension is completely free for individual developers, who only pay their model provider; team and enterprise offerings are available."
+    }
   ]
 }

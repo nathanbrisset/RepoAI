@@ -1,0 +1,56 @@
+{
+  "id": "trae",
+  "name": "Trae",
+  "url": "https://www.trae.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "ByteDance's AI coding environment (TraeCode) and work assistant (TraeWork).",
+  "description": "Trae is a set of AI tools from ByteDance. TraeCode is a coding environment with an AI agent that writes and edits code, and TraeWork is a general work assistant available on desktop and the web. The plans page lists Lite at $3 per month, Pro at $10 per month with $20 of basic usage and unlimited autocomplete, and Pro+ at $30 per month. A free version can be downloaded.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ide",
+    "coding-agent",
+    "bytedance"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$3/mo (Lite)",
+    "sourceUrl": "https://www.trae.ai/plans"
+  },
+  "logo": "https://lf-static.traecdn.us/obj/trae-ai-tx/trae_website/favicon.png",
+  "image": "/screenshots/trae.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.trae.ai/",
+    "https://www.trae.ai/plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Trae",
+      "description": "Open the official Trae website.",
+      "links": [
+        {
+          "label": "Trae",
+          "url": "https://www.trae.ai/"
+        }
+      ]
+    },
+    {
+      "title": "An AI code editor at low cost",
+      "description": "Trae is a set of AI tools from ByteDance."
+    },
+    {
+      "title": "TraeCode is a coding environment with an AI agent that writes and edits code",
+      "description": "TraeCode is a coding environment with an AI agent that writes and edits code, and TraeWork is a general work assistant available on desktop and the web."
+    },
+    {
+      "title": "The plans page lists Lite at $3 per month",
+      "description": "The plans page lists Lite at $3 per month, Pro at $10 per month with $20 of basic usage and unlimited autocomplete, and Pro+ at $30 per month."
+    }
+  ]
+}

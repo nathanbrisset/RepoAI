@@ -1,0 +1,56 @@
+{
+  "id": "rork",
+  "name": "Rork",
+  "url": "https://rork.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI builder for native iOS, Android and web apps, with publishing to the app stores.",
+  "description": "Rork builds cross-platform apps for iOS, Android and the web from prompts, and helps publish them to the App Store and Google Play. Its products include a backend with realtime data, auth and storage, an AI cloud, native Swift and Kotlin builders, a games builder and an App Store review checker. The pricing page lists Free, Pro and Max tiers; Rork Max for Apple platforms costs $200 per month.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "mobile",
+    "ios",
+    "android",
+    "app-store"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://rork.com/pricing"
+  },
+  "logo": "https://rork.com/favicon.ico?favicon.3wwbwwqrp_8tq.ico",
+  "image": "/screenshots/rork.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://rork.com/",
+    "https://rork.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Rork",
+      "description": "Open the official Rork website.",
+      "links": [
+        {
+          "label": "Rork",
+          "url": "https://rork.com/"
+        }
+      ]
+    },
+    {
+      "title": "Build and publish a native mobile app without coding",
+      "description": "Rork builds cross-platform apps for iOS, Android and the web from prompts, and helps publish them to the App Store and Google Play."
+    },
+    {
+      "title": "Its products include a backend with realtime data",
+      "description": "Its products include a backend with realtime data, auth and storage, an AI cloud, native Swift and Kotlin builders, a games builder and an App Store review checker."
+    },
+    {
+      "title": "The pricing page lists Free",
+      "description": "The pricing page lists Free, Pro and Max tiers; Rork Max for Apple platforms costs $200 per month."
+    }
+  ]
+}

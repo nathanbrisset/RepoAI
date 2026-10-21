@@ -7,15 +7,15 @@
   "summary": "AI-powered UI generator that transforms prompts into production-ready React and Tailwind components.",
   "description": "AI-powered UI generator that transforms prompts into production-ready React and Tailwind components.\n\nYour collaborative AI assistant to design, iterate, and scale full-stack applications for the web.\n\nComponent Generation: Create UI components from text prompts. Code Export: Export components as usable code. Design Customization: Adjust component styles and layouts. Integration with Frameworks: Use components with popular frameworks.",
   "categories": [
-    "design"
+    "no-code"
   ],
   "tags": [
-    "Tailwind",
-    "React",
-    "Shadcn",
-    "UI Generator",
-    "No Code",
-    "Vercel"
+    "tailwind",
+    "react",
+    "shadcn",
+    "ui-generator",
+    "no-code",
+    "vercel"
   ],
   "pricing": {
     "model": "freemium",
@@ -24,7 +24,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/v0-vercel.png",
-  "image": "/tool-screenshots/v0-vercel.png",
+  "image": "/screenshots/v0-vercel.webp",
   "dateAdded": "2023-10-10",
   "lastVerified": "2026-10-21",
   "features": [

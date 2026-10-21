@@ -1,0 +1,56 @@
+{
+  "id": "hebbia",
+  "name": "Hebbia",
+  "url": "https://www.hebbia.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI platform for finance that analyses large document sets for investing, banking and legal work.",
+  "description": "Hebbia sells AI for financial institutions, investment banks, law firms and corporates. Its products, Max and Matrix, run agents across large collections of documents and data. Access is through a demo request; no public prices are listed. Its users include asset managers, investment banks, law firms and Fortune 500 companies, according to the site. The platform is designed for institutional work rather than individual consumers. Integrations connect it to existing data sources.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "finance",
+    "document-analysis",
+    "matrix",
+    "agents"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": true,
+    "sourceUrl": "https://www.hebbia.com/pricing"
+  },
+  "logo": "https://www.hebbia.com/favicon.svg",
+  "image": "/screenshots/hebbia.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.hebbia.com/",
+    "https://www.hebbia.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Hebbia",
+      "description": "Open the official Hebbia website.",
+      "links": [
+        {
+          "label": "Hebbia",
+          "url": "https://www.hebbia.com/"
+        }
+      ]
+    },
+    {
+      "title": "AI to analyse large sets of financial documents",
+      "description": "Hebbia sells AI for financial institutions, investment banks, law firms and corporates."
+    },
+    {
+      "title": "Its products",
+      "description": "Its products, Max and Matrix, run agents across large collections of documents and data."
+    },
+    {
+      "title": "Access is through a demo request; no public prices are listed.",
+      "description": "Access is through a demo request; no public prices are listed."
+    }
+  ]
+}

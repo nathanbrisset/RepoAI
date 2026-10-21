@@ -1,7 +1,7 @@
 {
   "affiliateUrl": "",
   "logo": "/logos/mistral.png",
-  "image": "",
+  "image": "/screenshots/mistral.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -11,7 +11,7 @@
   "summary": "European open-weight models and the Le Chat assistant.",
   "description": "Mistral AI is a French company building frontier open-weight language models and the Le Chat assistant. Its differentiator is control: models can be customized and deployed on-premise, in a private VPC or in Mistral's cloud, which appeals to European and regulated organizations. Le Chat has a free plan, with paid tiers for individuals and teams and pay-as-you-go API access.",
   "categories": [
-    "text"
+    "llm-chatbots"
   ],
   "tags": [
     "llm",
@@ -30,5 +30,29 @@
   "sources": [
     "https://mistral.ai",
     "https://mistral.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Le Chat (Mistral AI)",
+      "description": "Open the official Le Chat (Mistral AI) website.",
+      "links": [
+        {
+          "label": "Le Chat (Mistral AI)",
+          "url": "https://mistral.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Mistral AI is a French company building frontier open-weight language models and the Le...",
+      "description": "Mistral AI is a French company building frontier open-weight language models and the Le Chat assistant."
+    },
+    {
+      "title": "Its differentiator is control",
+      "description": "Its differentiator is control: models can be customized and deployed on-premise, in a private VPC or in Mistral's cloud, which appeals to European and regulated organizations."
+    },
+    {
+      "title": "Le Chat has a free plan",
+      "description": "Le Chat has a free plan, with paid tiers for individuals and teams and pay-as-you-go API access."
+    }
   ]
 }

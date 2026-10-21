@@ -1,0 +1,54 @@
+{
+  "id": "fish-audio",
+  "name": "Fish Audio",
+  "url": "https://fish.audio/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Text-to-speech and voice cloning platform with emotion control and a large voice library.",
+  "description": "Fish Audio provides text-to-speech and voice cloning with emotion control, a library of more than two million community voices and a developer API. Its Drama model targets expressive real-time speech. The Free tier includes 8,000 credits per month without a card; paid tiers include Plus, Pro at $75 per month billed annually and Max for teams, with commercial use on paid plans.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "tts",
+    "voice-cloning",
+    "api",
+    "expressive-speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true
+  },
+  "logo": "https://fish.audio/apple-touch-icon.png",
+  "image": "/screenshots/fish-audio.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://fish.audio/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Fish Audio",
+      "description": "Open the official Fish Audio website.",
+      "links": [
+        {
+          "label": "Fish Audio",
+          "url": "https://fish.audio/"
+        }
+      ]
+    },
+    {
+      "title": "Expressive text-to-speech or a cloned voice",
+      "description": "Fish Audio provides text-to-speech and voice cloning with emotion control, a library of more than two million community voices and a developer API."
+    },
+    {
+      "title": "Its Drama model targets expressive real-time speech.",
+      "description": "Its Drama model targets expressive real-time speech."
+    },
+    {
+      "title": "The Free tier includes 8",
+      "description": "The Free tier includes 8,000 credits per month without a card; paid tiers include Plus, Pro at $75 per month billed annually and Max for teams, with commercial use on paid plans."
+    }
+  ]
+}

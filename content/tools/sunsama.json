@@ -1,0 +1,57 @@
+{
+  "id": "sunsama",
+  "name": "Sunsama",
+  "url": "https://www.sunsama.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Daily planner combining tasks, calendar and guided planning rituals.",
+  "description": "Sunsama is a digital daily planner that combines a task manager and calendar with guided daily and weekly planning. It connects to other tools through integrations, AI features, MCP and Zapier. A 14-day trial requires no card. The Pro plan costs $17 per month billed yearly or $22 billed monthly; there is no permanent free plan. All features are available during the trial.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "daily-planner",
+    "tasks",
+    "calendar",
+    "focus"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$17/mo (Pro, annual)",
+    "sourceUrl": "https://www.sunsama.com/pricing"
+  },
+  "logo": "https://pub-f7ae218077e542729e28e6f8f45a9a40.r2.dev/images/62d20083a317715004301f12_logo-icon-256.png",
+  "image": "/screenshots/sunsama.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.sunsama.com/",
+    "https://www.sunsama.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Sunsama",
+      "description": "Open the official Sunsama website.",
+      "links": [
+        {
+          "label": "Sunsama",
+          "url": "https://www.sunsama.com/"
+        }
+      ]
+    },
+    {
+      "title": "A calm daily planning routine for tasks and calendar",
+      "description": "Sunsama is a digital daily planner that combines a task manager and calendar with guided daily and weekly planning."
+    },
+    {
+      "title": "It connects to other tools through integrations",
+      "description": "It connects to other tools through integrations, AI features, MCP and Zapier."
+    },
+    {
+      "title": "A 14-day trial requires no card.",
+      "description": "A 14-day trial requires no card."
+    }
+  ]
+}

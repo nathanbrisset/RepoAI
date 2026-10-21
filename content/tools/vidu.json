@@ -1,0 +1,57 @@
+{
+  "id": "vidu",
+  "name": "Vidu",
+  "url": "https://www.vidu.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI video generator for text, image and reference-to-video, with its own Vidu models and API.",
+  "description": "Vidu generates videos from text prompts, images and reference images, keeping characters consistent across shots, and also creates images. It runs on its own Vidu Q-series models and offers templates, an agent, an API platform and a creator programme. A Free plan is available; paid plans start at $10 per month ($8.25 per month billed yearly) with 800 monthly credits.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "text-to-video",
+    "image-to-video",
+    "reference-to-video",
+    "api"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$10/mo (monthly)",
+    "sourceUrl": "https://www.vidu.com/pricing"
+  },
+  "logo": "https://www.vidu.com/logo.svg",
+  "image": "/screenshots/vidu.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.vidu.com/",
+    "https://www.vidu.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Vidu",
+      "description": "Open the official Vidu website.",
+      "links": [
+        {
+          "label": "Vidu",
+          "url": "https://www.vidu.com/"
+        }
+      ]
+    },
+    {
+      "title": "Generate consistent video clips from references",
+      "description": "Vidu generates videos from text prompts, images and reference images, keeping characters consistent across shots, and also creates images."
+    },
+    {
+      "title": "It runs on its own Vidu Q-series models and offers templates",
+      "description": "It runs on its own Vidu Q-series models and offers templates, an agent, an API platform and a creator programme."
+    },
+    {
+      "title": "A Free plan is available; paid plans start at $10 per month ($8.25 per month billed yea...",
+      "description": "A Free plan is available; paid plans start at $10 per month ($8.25 per month billed yearly) with 800 monthly credits."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "kagi",
+  "name": "Kagi",
+  "url": "https://kagi.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Paid, ad-free search engine with privacy protections and the Kagi Assistant for AI chat.",
+  "description": "Kagi is a subscription search engine without ads or tracking. The Kagi Assistant gives access to several AI models, alongside a browser and other tools in the Kagi ecosystem. A trial includes 100 searches. Starter costs $5 per month for 300 searches, Professional $10 per month for unlimited searches, and Ultimate $25 per month with premium AI. Prices exclude sales tax.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "search-engine",
+    "ad-free",
+    "privacy",
+    "assistant"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$5/mo (Starter)",
+    "sourceUrl": "https://kagi.com/pricing"
+  },
+  "logo": "https://kagi.com/favicon-32x32.png",
+  "image": "/screenshots/kagi.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://kagi.com/",
+    "https://kagi.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kagi",
+      "description": "Open the official Kagi website.",
+      "links": [
+        {
+          "label": "Kagi",
+          "url": "https://kagi.com/"
+        }
+      ]
+    },
+    {
+      "title": "Ad-free private web search with AI tools",
+      "description": "Kagi is a subscription search engine without ads or tracking."
+    },
+    {
+      "title": "The Kagi Assistant gives access to several AI models",
+      "description": "The Kagi Assistant gives access to several AI models, alongside a browser and other tools in the Kagi ecosystem."
+    },
+    {
+      "title": "A trial includes 100 searches.",
+      "description": "A trial includes 100 searches."
+    }
+  ]
+}

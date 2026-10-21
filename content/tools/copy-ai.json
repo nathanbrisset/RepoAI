@@ -7,15 +7,12 @@
   "summary": "Introducing the first-ever GTM AI platform. Automate hundreds of tedious, repetitive tasks and empower your team to scale success like never before.",
   "description": "Introducing the first-ever GTM AI platform. Automate hundreds of tedious, repetitive tasks and empower your team to scale success like never before.\n\nSales Copy Generation: Writes value props, CTAs, and product descriptions. Campaign Workflows: Automates writing across multiple touchpoints. Tone Customization: Adjusts for brand voice, style, and tone. Long-Form Assistant: Helps draft blog posts, reports, and scripts.",
   "categories": [
-    "marketing",
-    "text",
-    "design"
+    "marketing"
   ],
   "tags": [
-    "AI",
-    "Copywriting",
-    "Marketing",
-    "Content"
+    "copywriting",
+    "marketing",
+    "content"
   ],
   "pricing": {
     "model": "free",
@@ -24,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/copy-ai.png",
-  "image": "/tool-screenshots/copy-ai.png",
+  "image": "/screenshots/copy-ai.webp",
   "dateAdded": "2021-03-15",
   "lastVerified": null,
   "features": [
@@ -39,8 +36,8 @@
   ],
   "howToUse": [
     {
-      "title": "Sign Up & Access Dashboard",
-      "description": "Register at Copy.ai and create a new project.",
+      "title": "Open Copy.ai",
+      "description": "Open the official Copy.ai website.",
       "links": [
         {
           "label": "Copy.ai",
@@ -49,16 +46,16 @@
       ]
     },
     {
-      "title": "Select Copy Type",
-      "description": "Choose from ads, emails, landing pages, or other content types."
+      "title": "Introducing the first-ever GTM AI platform.",
+      "description": "Introducing the first-ever GTM AI platform."
     },
     {
-      "title": "Describe Your Need",
-      "description": "Input product info, keywords, and desired tone."
+      "title": "Automate hundreds of tedious",
+      "description": "Automate hundreds of tedious, repetitive tasks and empower your team to scale success like never before."
     },
     {
-      "title": "Generate, Edit, and Export",
-      "description": "Review generated copy, refine as needed, and export for marketing use."
+      "title": "Sales Copy Generation",
+      "description": "Sales Copy Generation: Writes value props, CTAs, and product descriptions."
     }
   ]
 }

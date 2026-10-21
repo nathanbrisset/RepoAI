@@ -7,7 +7,7 @@
   "summary": "Online MP3 to MIDI converter with AI note detection in the browser.",
   "description": "MP3 to MIDI converts an uploaded MP3 into a MIDI file in the browser. A machine-learning model detects notes on the device, so the audio is processed locally and no account is required. A piano roll previews the detected notes and lets you adjust them before downloading the MIDI file.",
   "categories": [
-    "audio"
+    "music"
   ],
   "tags": [
     "Music Production",
@@ -22,10 +22,34 @@
     "sourceUrl": "https://mp3tomidi.io/"
   },
   "logo": "/logos/mp3tomidi.png",
-  "image": "",
+  "image": "/screenshots/mp3tomidi.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://mp3tomidi.io/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open MP3 to MIDI (mp3tomidi.io)",
+      "description": "Open the official MP3 to MIDI (mp3tomidi.io) website.",
+      "links": [
+        {
+          "label": "MP3 to MIDI (mp3tomidi.io)",
+          "url": "https://mp3tomidi.io/"
+        }
+      ]
+    },
+    {
+      "title": "MP3 to MIDI converts an uploaded MP3 into a MIDI file in the browser.",
+      "description": "MP3 to MIDI converts an uploaded MP3 into a MIDI file in the browser."
+    },
+    {
+      "title": "A machine-learning model detects notes on the device",
+      "description": "A machine-learning model detects notes on the device, so the audio is processed locally and no account is required."
+    },
+    {
+      "title": "A piano roll previews the detected notes and lets you adjust them before downloading th...",
+      "description": "A piano roll previews the detected notes and lets you adjust them before downloading the MIDI file."
+    }
   ]
 }

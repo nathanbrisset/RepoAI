@@ -1,7 +1,7 @@
 {
   "affiliateUrl": "",
   "logo": "/logos/deepseek.png",
-  "image": "",
+  "image": "/screenshots/deepseek.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -11,7 +11,7 @@
   "summary": "Chinese lab offering open-weight LLMs, a free chat app and a low-cost API.",
   "description": "DeepSeek develops large language models and publishes open-weight models such as DeepSeek-R1 and DeepSeek-V4, usable for chat, reasoning and coding. Its differentiator is open weights combined with very low API prices, with off-peak discounts. Chatting in the web and mobile app is free; the API is pay-as-you-go, e.g. from $0.15 per million input tokens (cache miss, off-peak) on the current pricing table.",
   "categories": [
-    "text"
+    "llm-chatbots"
   ],
   "tags": [
     "llm",
@@ -30,5 +30,29 @@
   "sources": [
     "https://www.deepseek.com",
     "https://api-docs.deepseek.com/quick_start/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open DeepSeek",
+      "description": "Open the official DeepSeek website.",
+      "links": [
+        {
+          "label": "DeepSeek",
+          "url": "https://www.deepseek.com/"
+        }
+      ]
+    },
+    {
+      "title": "DeepSeek develops large language models and publishes open-weight models such as DeepSe...",
+      "description": "DeepSeek develops large language models and publishes open-weight models such as DeepSeek-R1 and DeepSeek-V4, usable for chat, reasoning and coding."
+    },
+    {
+      "title": "Its differentiator is open weights combined with very low API prices",
+      "description": "Its differentiator is open weights combined with very low API prices, with off-peak discounts."
+    },
+    {
+      "title": "Chatting in the web and mobile app is free; the API is pay-as-you-go",
+      "description": "Chatting in the web and mobile app is free; the API is pay-as-you-go, e.g. from $0.15 per million input tokens (cache miss, off-peak) on the current pricing table."
+    }
   ]
 }

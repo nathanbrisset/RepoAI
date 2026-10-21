@@ -1,7 +1,7 @@
 {
   "affiliateUrl": "",
   "logo": "/logos/kling.png",
-  "image": "",
+  "image": "/screenshots/kling.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -28,5 +28,29 @@
   "sources": [
     "https://kling.ai",
     "https://kling.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kling AI",
+      "description": "Open the official Kling AI website.",
+      "links": [
+        {
+          "label": "Kling AI",
+          "url": "https://kling.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Kling AI is a creative studio from Kuaishou that turns text",
+      "description": "Kling AI is a creative studio from Kuaishou that turns text, images and reference material into videos and images."
+    },
+    {
+      "title": "It is known for realistic motion and multimodal inputs combined in a single workspace a...",
+      "description": "It is known for realistic motion and multimodal inputs combined in a single workspace aimed at creators and marketers."
+    },
+    {
+      "title": "A free tier ($0) gives credits to try the models",
+      "description": "A free tier ($0) gives credits to try the models, while paid subscriptions add more credits, higher resolution and faster generation."
+    }
   ]
 }

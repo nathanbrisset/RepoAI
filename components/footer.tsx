@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { categories } from "@/lib/data"
 
 export default function Footer() {
   return (
@@ -14,32 +15,14 @@ export default function Footer() {
           {/* Categories */}
           <div className="flex-1 mb-8 md:mb-0 md:mr-8">
             <h3 className="font-bold text-lg mb-4">Categories</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/categories/text" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  Text Generation
-                </Link>
-              </li>
-              <li>
-                <Link href="/categories/image" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  Image Generation
-                </Link>
-              </li>
-              <li>
-                <Link href="/categories/audio" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  Audio & Speech
-                </Link>
-              </li>
-              <li>
-                <Link href="/categories/productivity" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  Productivity
-                </Link>
-              </li>
-              <li>
-                <Link href="/categories/coding" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  Coding
-                </Link>
-              </li>
+            <ul className="grid grid-cols-2 gap-x-4 gap-y-2">
+              {categories.map((category) => (
+                <li key={category.id}>
+                  <Link href={`/categories/${category.id}`} className="text-gray-600 hover:text-gray-900 transition-colors">
+                    {category.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 

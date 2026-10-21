@@ -7,14 +7,14 @@
   "summary": "Databricks offers a unified platform for data, analytics and AI. Build better AI with a data-centric approach. Simplify ETL, data warehousing, governance and AI on the Data + AI Platform.",
   "description": "Databricks offers a unified platform for data, analytics and AI. Build better AI with a data-centric approach. Simplify ETL, data warehousing, governance and AI on the Data + AI Platform.\n\nUnified Data Platform: Combines data engineering, data science, machine learning, and analytics into a single collaborative platform. Delta Lake: Provides reliable data lakes with ACID transaction support, scalable metadata handling, and unification of streaming and batch data. Collaborative Notebooks: Enables teams to write and run code together in real time using languages like Python, SQL, Scala, and R. MLflow Integration: Built-in support for experiment tracking, model versioning, and reproducible machine learning workflows.",
   "categories": [
-    "data-processing"
+    "data"
   ],
   "tags": [
-    "Big Data",
-    "Data Engineering",
-    "Machine Learning",
-    "Spark",
-    "Lakehouse"
+    "big-data",
+    "data-engineering",
+    "machine-learning",
+    "spark",
+    "lakehouse"
   ],
   "pricing": {
     "model": "paid",
@@ -23,7 +23,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/databricks.png",
-  "image": "/tool-screenshots/databricks.png",
+  "image": "/screenshots/databricks.webp",
   "dateAdded": "2023-05-15",
   "lastVerified": null,
   "features": [

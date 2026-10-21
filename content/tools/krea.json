@@ -23,11 +23,35 @@
     "sourceUrl": "https://www.krea.ai/pricing"
   },
   "logo": "/logos/krea.png",
-  "image": "",
+  "image": "/screenshots/krea.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.krea.ai",
     "https://www.krea.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Krea",
+      "description": "Open the official Krea website.",
+      "links": [
+        {
+          "label": "Krea",
+          "url": "https://www.krea.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Krea is a creative AI suite that generates",
+      "description": "Krea is a creative AI suite that generates, edits and upscales images and videos using many leading models, including real-time generation as you draw."
+    },
+    {
+      "title": "It is aimed at designers who want several models in one interface.",
+      "description": "It is aimed at designers who want several models in one interface."
+    },
+    {
+      "title": "A free plan is available",
+      "description": "A free plan is available, with paid plans adding compute units, faster generation and commercial use."
+    }
   ]
 }

@@ -23,11 +23,35 @@
     "sourceUrl": "https://captions.ai/pricing"
   },
   "logo": "/logos/captions.png",
-  "image": "",
+  "image": "/screenshots/captions.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://captions.ai",
     "https://captions.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Captions",
+      "description": "Open the official Captions website.",
+      "links": [
+        {
+          "label": "Captions",
+          "url": "https://captions.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Captions is an AI video generator and editor that takes content from idea to ready-to-s...",
+      "description": "Captions is an AI video generator and editor that takes content from idea to ready-to-share video, with automatic captions, AI edits, AI avatars and dubbing."
+    },
+    {
+      "title": "It is built for creators and marketers publishing talking-head and social videos.",
+      "description": "It is built for creators and marketers publishing talking-head and social videos."
+    },
+    {
+      "title": "A free plan is available",
+      "description": "A free plan is available, and paid plans unlock more exports, credits and premium features."
+    }
   ]
 }

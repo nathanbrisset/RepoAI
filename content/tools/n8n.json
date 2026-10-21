@@ -1,6 +1,6 @@
 {
   "logo": "/logos/n8n.png",
-  "image": "",
+  "image": "/screenshots/n8n.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -10,7 +10,7 @@
   "summary": "Workflow automation platform combining AI agents and integrations.",
   "description": "n8n is a workflow automation platform that combines AI agents with hundreds of app integrations and custom code, giving technical teams the flexibility of code with the speed of no-code. Its differentiator is that it can be self-hosted (free Community Edition) as well as used in the cloud. Cloud plans come with a free trial.",
   "categories": [
-    "productivity"
+    "automation"
   ],
   "tags": [
     "automation",
@@ -28,5 +28,29 @@
   "sources": [
     "https://n8n.io",
     "https://n8n.io/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open n8n",
+      "description": "Open the official n8n website.",
+      "links": [
+        {
+          "label": "n8n",
+          "url": "https://n8n.io/"
+        }
+      ]
+    },
+    {
+      "title": "n8n is a workflow automation platform that combines AI agents with hundreds of app inte...",
+      "description": "n8n is a workflow automation platform that combines AI agents with hundreds of app integrations and custom code, giving technical teams the flexibility of code with the speed of no-code."
+    },
+    {
+      "title": "Its differentiator is that it can be self-hosted (free Community Edition) as well as us...",
+      "description": "Its differentiator is that it can be self-hosted (free Community Edition) as well as used in the cloud."
+    },
+    {
+      "title": "Cloud plans come with a free trial.",
+      "description": "Cloud plans come with a free trial."
+    }
   ]
 }

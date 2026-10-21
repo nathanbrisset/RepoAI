@@ -7,13 +7,11 @@
   "summary": "Gling is an AI video editor for YouTubers that automatically removes silences, bad takes, and stutters, speeding up the editing process for vlogs and interviews.",
   "description": "Gling is an AI video editor for YouTubers that automatically removes silences, bad takes, and stutters, speeding up the editing process for vlogs and interviews.\n\nGling’s AI video editing software is designed for YouTube creators. Optimize your workflow by automatically cutting out bad takes, silent moments, filler words, and background noise, ensuring your content is polished and engaging.\n\nSilence removal: Uses AI to detect and cut out pauses and dead air, making videos more engaging and concise. Bad take detection: Identifies and removes mistakes, retakes, or repeated lines for a polished final product. Timeline export: Provides clean project files for further editing in your favorite NLE. Batch processing: Edit multiple videos in one go, saving countless hours for creators.",
   "categories": [
-    "video",
-    "productivity"
+    "video"
   ],
   "tags": [
-    "AI",
-    "Editing",
-    "YouTube"
+    "editing",
+    "youtube"
   ],
   "pricing": {
     "model": "freemium",
@@ -22,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/gling.png",
-  "image": "/tool-screenshots/gling.png",
+  "image": "/screenshots/gling.webp",
   "dateAdded": "2025-06-13",
   "lastVerified": null,
   "features": [

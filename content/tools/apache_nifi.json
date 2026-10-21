@@ -7,12 +7,12 @@
   "summary": "Apache NiFi is an open-source tool for automating the flow of data between software systems. With a web-based interface, users can build complex data pipelines for ingestion, transformation, and delivery across a wide range of systems. NiFi is designed for scalability, security, and extensibility, making it ideal for real-time analytics, ETL, and IoT data flows in both enterprise and research environments.",
   "description": "Apache NiFi is an open-source tool for automating the flow of data between software systems. With a web-based interface, users can build complex data pipelines for ingestion, transformation, and delivery across a wide range of systems. NiFi is designed for scalability, security, and extensibility, making it ideal for real-time analytics, ETL, and IoT data flows in both enterprise and research environments.\n\nApache NiFi is an easy to use, powerful, and reliable system to process and distribute data\n\nVisual Flow-Based Programming: Drag-and-drop interface for building data flows. Real-Time Processing: Handles streaming and batch data. Extensible Processor Library: Wide range of built-in and custom processors. Security Features: Data encryption, access control, and audit logs.",
   "categories": [
-    "data-processing"
+    "data"
   ],
   "tags": [
-    "Data Integration",
-    "Etl",
-    "Open Source"
+    "data-integration",
+    "etl",
+    "open-source"
   ],
   "pricing": {
     "model": "free",
@@ -21,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/apache_nifi.png",
-  "image": "/tool-screenshots/apache_nifi.png",
+  "image": "/screenshots/apache_nifi.webp",
   "dateAdded": null,
   "lastVerified": null,
   "dateAddedNote": "The previous Added date was 2015-07-01. It was removed because it is not a credible date for this directory.",

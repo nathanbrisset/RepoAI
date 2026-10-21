@@ -7,12 +7,11 @@
   "summary": "An AI agency that runs itself. Give AskCodi a goal: the scope comes back in writing, the work arrives for your sign off, and the account stays open after launch.",
   "description": "An AI agency that runs itself. Give AskCodi a goal: the scope comes back in writing, the work arrives for your sign off, and the account stays open after launch.\n\nCode suggestions: Provides code snippets based on input. Question answering: Answers coding-related queries. Supports multiple languages: Handles various programming languages. IDE integration: Compatible with popular code editors.",
   "categories": [
-    "coding"
+    "ai-agents"
   ],
   "tags": [
-    "AI",
-    "Code Suggestions",
-    "Coding Questions"
+    "code-suggestions",
+    "coding-questions"
   ],
   "pricing": {
     "model": "freemium",
@@ -21,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/askcodi.png",
-  "image": "/tool-screenshots/askcodi.png",
+  "image": "/screenshots/askcodi.webp",
   "dateAdded": "2025-06-04",
   "lastVerified": null,
   "features": [

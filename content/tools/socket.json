@@ -1,0 +1,57 @@
+{
+  "id": "socket",
+  "name": "Socket",
+  "url": "https://socket.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Supply-chain security that detects malicious and vulnerable open-source dependencies.",
+  "description": "Socket analyses open-source packages for JavaScript, Python, Go and other ecosystems to detect malware, risky behaviour and vulnerabilities before they enter a codebase. It integrates with GitHub, a CLI, a firewall and a browser extension, and adds reachability analysis. The Free plan suits individuals and small teams; Team costs $25 and Business $50 per developer seat per month. The company lists SOC 2 Type 2 compliance and has raised $125M.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "supply-chain",
+    "npm",
+    "pypi",
+    "dependencies"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$25/dev seat/mo (Team)",
+    "sourceUrl": "https://socket.dev/pricing"
+  },
+  "logo": "https://socket.dev/next-public-assets/icon.svg",
+  "image": "/screenshots/socket.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://socket.dev/",
+    "https://socket.dev/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Socket",
+      "description": "Open the official Socket website.",
+      "links": [
+        {
+          "label": "Socket",
+          "url": "https://socket.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Block malicious or vulnerable open-source packages",
+      "description": "Socket analyses open-source packages for JavaScript, Python, Go and other ecosystems to detect malware, risky behaviour and vulnerabilities before they enter a codebase."
+    },
+    {
+      "title": "It integrates with GitHub",
+      "description": "It integrates with GitHub, a CLI, a firewall and a browser extension, and adds reachability analysis."
+    },
+    {
+      "title": "The Free plan suits individuals and small teams; Team costs $25 and Business $50 per de...",
+      "description": "The Free plan suits individuals and small teams; Team costs $25 and Business $50 per developer seat per month."
+    }
+  ]
+}

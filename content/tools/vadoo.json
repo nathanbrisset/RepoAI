@@ -7,12 +7,11 @@
   "summary": "A video generation tool that allows users to add voice-overs to videos, offering various voice options for diverse applications.",
   "description": "A video generation tool that allows users to add voice-overs to videos, offering various voice options for diverse applications.\n\nVadoo AI is the all-in-one AI video generator built for short-form content. Create TikToks, Reels, Shorts, and podcasts with AI scriptwriting, text-to-video, captions, voiceovers, B-roll, SEO tools, and auto-posting — all in one platform.\n\nAI audio processing: Vadoo AI supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
   "categories": [
-    "audio"
+    "video"
   ],
   "tags": [
-    "AI",
-    "Audio",
-    "Speech"
+    "audio",
+    "speech"
   ],
   "pricing": {
     "model": "freemium",
@@ -21,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/vadoo.png",
-  "image": "/tool-screenshots/vadoo.png",
+  "image": "/screenshots/vadoo.webp",
   "dateAdded": "2025-06-04",
   "lastVerified": null,
   "features": [

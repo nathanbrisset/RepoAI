@@ -1,7 +1,7 @@
 {
   "affiliateUrl": "",
   "logo": "/logos/devin.png",
-  "image": "",
+  "image": "/screenshots/devin.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -30,5 +30,29 @@
     "https://devin.ai/pricing",
     "https://devin.ai/",
     "https://devin.ai/desktop"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Devin (incl. Windsurf)",
+      "description": "Open the official Devin (incl. Windsurf) website.",
+      "links": [
+        {
+          "label": "Devin (incl. Windsurf)",
+          "url": "https://devin.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Devin",
+      "description": "Devin, from Cognition, is an autonomous AI software engineer that runs parallel cloud agents to plan, write and ship code."
+    },
+    {
+      "title": "Cognition also owns the Windsurf AI code editor",
+      "description": "Cognition also owns the Windsurf AI code editor: windsurf.com now redirects to devin.ai/desktop, which manages local and cloud agents from the editor."
+    },
+    {
+      "title": "The Free plan ($0) gives a light quota",
+      "description": "The Free plan ($0) gives a light quota, Pro costs $20/month, Max $200/month and Teams $80/month plus $40 per developer seat."
+    }
   ]
 }

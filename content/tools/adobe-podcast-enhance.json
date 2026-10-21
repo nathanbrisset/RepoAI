@@ -7,13 +7,12 @@
   "summary": "An AI-powered tool by Adobe that enhances podcast audio by removing background noise and improving sound quality.",
   "description": "An AI-powered tool by Adobe that enhances podcast audio by removing background noise and improving sound quality.\n\nNext generation audio from Adobe is here. Record, transcribe, edit, share. Crisp and clear, every time.\n\nEnhance Speech: Improves audio quality to sound studio-recorded. Mic Check: Analyzes microphone setup for optimal recording. Web-Based Editing: Record, edit, and enhance audio directly in the browser. Bulk Upload: Process multiple files simultaneously.",
   "categories": [
-    "audio"
+    "music"
   ],
   "tags": [
-    "AI",
-    "Noise Removal",
-    "Speech Clarity",
-    "Enhancement"
+    "noise-removal",
+    "speech-clarity",
+    "enhancement"
   ],
   "pricing": {
     "model": "free",
@@ -22,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/adobe-podcast-enhance.png",
-  "image": "/tool-screenshots/adobe-podcast-enhance.png",
+  "image": "/screenshots/adobe-podcast-enhance.webp",
   "dateAdded": "2023-02-15",
   "lastVerified": null,
   "features": [

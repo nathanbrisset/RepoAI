@@ -1,0 +1,57 @@
+{
+  "id": "knowt",
+  "name": "Knowt",
+  "url": "https://knowt.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI study platform with flashcards, lecture summaries, practice tests and AP exam prep.",
+  "description": "Knowt offers AI study tools: flashcards with learn mode, lecture recording and summarisation into notes and tests, voice tutoring, and AP exam preparation. It positions itself as a free alternative to Quizlet. The Basic plan is free with unlimited file creation; Ultra costs $12.99 per month billed annually ($149.99 upfront) with a three-day trial. Separate plans are offered for students and teachers.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "flashcards",
+    "ap-exams",
+    "quizlet-alternative",
+    "lecture-notes"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$12.99/mo (Ultra, annual)",
+    "sourceUrl": "https://knowt.com/plans"
+  },
+  "logo": "https://knowt.com/favicon.ico",
+  "image": "/screenshots/knowt.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://knowt.com/",
+    "https://knowt.com/plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Knowt",
+      "description": "Open the official Knowt website.",
+      "links": [
+        {
+          "label": "Knowt",
+          "url": "https://knowt.com/"
+        }
+      ]
+    },
+    {
+      "title": "Free flashcards and AI study tools",
+      "description": "Knowt offers AI study tools: flashcards with learn mode, lecture recording and summarisation into notes and tests, voice tutoring, and AP exam preparation."
+    },
+    {
+      "title": "It positions itself as a free alternative to Quizlet.",
+      "description": "It positions itself as a free alternative to Quizlet."
+    },
+    {
+      "title": "The Basic plan is free with unlimited file creation; Ultra costs $12.99 per month bille...",
+      "description": "The Basic plan is free with unlimited file creation; Ultra costs $12.99 per month billed annually ($149.99 upfront) with a three-day trial."
+    }
+  ]
+}

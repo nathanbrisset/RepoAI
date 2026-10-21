@@ -5,7 +5,14 @@ import type { Tool } from "./types"
 export type { CatalogTool }
 
 /** Runtime shape the pages already expect, plus the fields stored in JSON. */
+function pricingType(model: CatalogTool["pricing"]["model"]) {
+  if (model === "freemium") return "freemium" as const
+  if (model === "free" || model === "open-source" || !model) return "free" as const
+  return "paid" as const
+}
+
 export function toRuntimeTool(entry: CatalogTool): Tool {
+  const uncertain = entry.pricing.uncertain === true
   return {
     id: entry.id,
     name: entry.name,
@@ -18,14 +25,15 @@ export function toRuntimeTool(entry: CatalogTool): Tool {
     tags: entry.tags,
     dateAdded: entry.dateAdded ?? "",
     dateAddedNote: entry.dateAddedNote,
-    isPremium: entry.pricing.label,
+    isPremium: uncertain ? undefined : entry.pricing.label,
     pricing: {
-      type: entry.pricing.model === "paid" ? "paid" : entry.pricing.model === "freemium" ? "freemium" : "free",
+      type: pricingType(entry.pricing.model),
       model: entry.pricing.model,
-      label: entry.pricing.label,
-      details: entry.pricing.note,
+      label: uncertain ? undefined : entry.pricing.label,
+      details: uncertain ? undefined : entry.pricing.note,
       verified: entry.pricing.verified,
       sourceUrl: entry.pricing.sourceUrl,
+      uncertain,
     },
     features: entry.features,
     howToUse: entry.howToUse,
@@ -39,9 +47,9 @@ export function toRuntimeTool(entry: CatalogTool): Tool {
 
 export const allTools: Tool[] = catalogTools.map(toRuntimeTool)
 
-/** Cards, related fiches, search, and categories omit closed, renamed, and duplicate pages. /tool/{id} still resolves for sunset pages. Renamed ids 308 from next.config. */
+/** Cards, related fiches, search, and categories omit closed, renamed, inactive, and duplicate pages. /tool/{id} still resolves. Renamed ids 308 from next.config. */
 export const listedTools: Tool[] = allTools.filter(
-  (tool) => tool.status !== "duplicate-of" && tool.status !== "sunset" && tool.status !== "renamed",
+  (tool) => tool.status !== "duplicate-of" && tool.status !== "sunset" && tool.status !== "renamed" && tool.status !== "inactive",
 )
 
 export function getToolById(id: string) {

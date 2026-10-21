@@ -1,0 +1,54 @@
+{
+  "id": "aider",
+  "name": "Aider",
+  "url": "https://aider.chat/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source terminal tool for pair programming with LLMs on local git repositories.",
+  "description": "Aider is an open-source command-line tool for editing code with large language models. It works inside a local git repository, maps the codebase for context, applies edits across files and commits changes automatically. It supports cloud models and local models. The project is free to install; users pay their model provider for API usage. The site reports more than 44,000 GitHub stars and 6.8 million installs.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "cli",
+    "pair-programming",
+    "open-source",
+    "git"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": true
+  },
+  "logo": "https://aider.chat/assets/icons/apple-touch-icon.png",
+  "image": "/screenshots/aider.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://aider.chat/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Aider",
+      "description": "Open the official Aider website.",
+      "links": [
+        {
+          "label": "Aider",
+          "url": "https://aider.chat/"
+        }
+      ]
+    },
+    {
+      "title": "An AI pair programmer in my terminal",
+      "description": "Aider is an open-source command-line tool for editing code with large language models."
+    },
+    {
+      "title": "It works inside a local git repository",
+      "description": "It works inside a local git repository, maps the codebase for context, applies edits across files and commits changes automatically."
+    },
+    {
+      "title": "It supports cloud models and local models.",
+      "description": "It supports cloud models and local models."
+    }
+  ]
+}

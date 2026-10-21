@@ -1,7 +1,7 @@
 {
   "affiliateUrl": "",
   "logo": "/logos/manus.png",
-  "image": "",
+  "image": "/screenshots/manus.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -11,7 +11,7 @@
   "summary": "General-purpose AI agent that executes tasks end to end.",
   "description": "Manus is an autonomous AI agent that goes beyond answering questions to carry out tasks such as in-depth research, building websites and producing slides. It stands out for parallel 'Wide Research' and scheduled tasks running in the cloud. A free plan gives 300 daily refresh credits (Lite agent mode, capped monthly) plus signup credits, and paid plans add monthly credit pools from 4,000 credits.",
   "categories": [
-    "productivity"
+    "ai-agents"
   ],
   "tags": [
     "ai-agent",
@@ -29,5 +29,29 @@
   "sources": [
     "https://manus.im/pricing",
     "https://help.manus.im/en/articles/11711111-what-is-the-current-membership-pricing-for-manus"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Manus",
+      "description": "Open the official Manus website.",
+      "links": [
+        {
+          "label": "Manus",
+          "url": "https://manus.im/"
+        }
+      ]
+    },
+    {
+      "title": "Manus is an autonomous AI agent that goes beyond answering questions to carry out tasks...",
+      "description": "Manus is an autonomous AI agent that goes beyond answering questions to carry out tasks such as in-depth research, building websites and producing slides."
+    },
+    {
+      "title": "It stands out for parallel 'Wide Research' and scheduled tasks running in the cloud.",
+      "description": "It stands out for parallel 'Wide Research' and scheduled tasks running in the cloud."
+    },
+    {
+      "title": "A free plan gives 300 daily refresh credits (Lite agent mode",
+      "description": "A free plan gives 300 daily refresh credits (Lite agent mode, capped monthly) plus signup credits, and paid plans add monthly credit pools from 4,000 credits."
+    }
   ]
 }

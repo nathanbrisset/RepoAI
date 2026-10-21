@@ -7,7 +7,7 @@
   "summary": "Chat and role-play with millions of AI characters.",
   "description": "Character.ai lets users chat, role-play and create custom AI characters, with more than 10 million user-made characters available on web and mobile. It focuses on entertainment and companionship rather than productivity. The free plan offers unlimited messaging with ads; c.ai+ costs $9.99/month in the US for no ads, better memory and priority access, and a cheaper c.ai lite tier is also offered.",
   "categories": [
-    "text"
+    "llm-chatbots"
   ],
   "tags": [
     "chatbot",
@@ -23,11 +23,35 @@
     "sourceUrl": "https://character.ai"
   },
   "logo": "",
-  "image": "",
+  "image": "/screenshots/character-ai.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://character.ai",
     "https://support.character.ai/hc/en-us/articles/55845963766555"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Character.ai",
+      "description": "Open the official Character.ai website.",
+      "links": [
+        {
+          "label": "Character.ai",
+          "url": "https://character.ai"
+        }
+      ]
+    },
+    {
+      "title": "Character.ai lets users chat",
+      "description": "Character.ai lets users chat, role-play and create custom AI characters, with more than 10 million user-made characters available on web and mobile."
+    },
+    {
+      "title": "It focuses on entertainment and companionship rather than productivity.",
+      "description": "It focuses on entertainment and companionship rather than productivity."
+    },
+    {
+      "title": "The free plan offers unlimited messaging with ads; c.ai+ costs $9.99/month in the US fo...",
+      "description": "The free plan offers unlimited messaging with ads; c.ai+ costs $9.99/month in the US for no ads, better memory and priority access, and a cheaper c.ai lite tier is also offered."
+    }
   ]
 }

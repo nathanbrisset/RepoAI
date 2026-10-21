@@ -8,6 +8,7 @@ import { ExternalLink, ThumbsUp, LogIn, FilePlus, User, ImageIcon, Upload, Globe
 import ToolCard from "@/components/tool-card"
 import Head from "next/head"
 import { Tool } from '@/lib/types'
+import { categoryName } from '@/lib/category-meta'
 
 function capitalizeWords(str: string) {
   return str.replace(/\b\w/g, c => c.toUpperCase());
@@ -20,6 +21,7 @@ interface ToolPageClientProps {
 }
 
 const STATUS_LABEL: Record<string, string> = {
+  inactive: "Inactive",
   sunset: "Closed",
   renamed: "Renamed",
   "duplicate-of": "Duplicate",
@@ -119,7 +121,9 @@ export default function ToolPageClient({ tool, relatedTools, successorName }: To
           </div>
           <div className="flex flex-wrap gap-2 mb-2">
             {tool.categories.map((cat: string) => (
-              <Badge key={cat} variant="secondary" className="capitalize text-xs">{cat}</Badge>
+              <Link key={cat} href={`/categories/${cat}`}>
+                <Badge variant="secondary" className="text-xs">{categoryName(cat)}</Badge>
+              </Link>
             ))}
           </div>
           {((tool.status && tool.status !== "active") || tool.statusNote) && (
@@ -135,7 +139,9 @@ export default function ToolPageClient({ tool, relatedTools, successorName }: To
           )}
           <div className="flex items-center gap-2 text-sm mb-6 flex-wrap">
             <span className="text-gray-400">Added {tool.dateAdded ? new Date(tool.dateAdded).toLocaleDateString() : "date not recorded"}</span>
-            <span className="text-gray-400">Pricing: <span className="font-semibold text-gray-700">{tool.isPremium || "Unknown"}</span>{tool.pricing?.verified ? "" : " (not rechecked)"}</span>
+            {tool.pricing?.uncertain || !tool.isPremium ? null : (
+              <span className="text-gray-400">Pricing: <span className="font-semibold text-gray-700">{tool.isPremium}</span>{tool.pricing?.verified ? "" : " (not rechecked)"}</span>
+            )}
             <span className="text-gray-400">Last checked: {tool.lastVerified || "not checked"}</span>
           </div>
           {(tool.image || tool.logo) && (
@@ -153,14 +159,14 @@ export default function ToolPageClient({ tool, relatedTools, successorName }: To
             <div className="mb-8 space-y-4">
               <h2 className="text-xl font-bold mb-4">About {tool.name}</h2>
               <p className="text-gray-700 mb-4 whitespace-pre-line">{tool.longDescription || tool.description}</p>
-              {tool.pricing?.details && (
+              {tool.pricing?.details && !tool.pricing?.uncertain && (
                 <p className="text-gray-700 mb-4"><b>Price note:</b> {tool.pricing.details}</p>
               )}
               {tool.dateAddedNote && (
                 <p className="text-gray-600 mb-4 text-sm">{tool.dateAddedNote}</p>
               )}
               <p className="text-gray-700 mb-4">
-                <b>Categories:</b> {tool.categories.map(capitalizeWords).join(", ")}
+                <b>Categories:</b> {tool.categories.map(categoryName).join(", ")}
               </p>
               {tool.tags && tool.tags.length > 0 && (
                 <p className="text-gray-700 mb-4">
@@ -303,12 +309,14 @@ export default function ToolPageClient({ tool, relatedTools, successorName }: To
             <div className="flex flex-col gap-3 text-sm mb-4">
               <div className="flex justify-between items-center">
                 <span className="text-gray-500">Category:</span>
-                <span className="font-medium">{tool.categories.map(capitalizeWords).join(", ")}</span>
+                <span className="font-medium">{tool.categories.map(categoryName).join(", ")}</span>
               </div>
+              {tool.pricing?.uncertain || !tool.isPremium ? null : (
               <div className="flex justify-between items-center">
                 <span className="text-gray-500">Pricing:</span>
-                <span className="font-medium">{tool.isPremium || "Unknown"}{tool.pricing?.verified ? "" : " · not rechecked"}</span>
+                <span className="font-medium">{tool.isPremium}{tool.pricing?.verified ? "" : " · not rechecked"}</span>
               </div>
+              )}
               <div className="flex justify-between items-center">
                 <span className="text-gray-500">Added:</span>
                 <span>{tool.dateAdded ? new Date(tool.dateAdded).toLocaleDateString() : "Not recorded"}</span>

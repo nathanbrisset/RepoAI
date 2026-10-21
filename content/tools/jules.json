@@ -23,10 +23,34 @@
     "sourceUrl": "https://jules.google/docs/usage-limits/"
   },
   "logo": "/logos/jules.png",
-  "image": "",
+  "image": "/screenshots/jules.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://jules.google/docs/usage-limits/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Jules",
+      "description": "Open the official Jules website.",
+      "links": [
+        {
+          "label": "Jules",
+          "url": "https://jules.google/"
+        }
+      ]
+    },
+    {
+      "title": "Jules is Google's autonomous coding agent",
+      "description": "Jules is Google's autonomous coding agent: it connects to GitHub repositories, works on tasks in the background in a cloud VM, and returns changes as pull requests to review."
+    },
+    {
+      "title": "It differs from in-editor assistants by being fully asynchronous.",
+      "description": "It differs from in-editor assistants by being fully asynchronous."
+    },
+    {
+      "title": "The free plan includes 15 tasks per day and 3 concurrent tasks; higher limits come with...",
+      "description": "The free plan includes 15 tasks per day and 3 concurrent tasks; higher limits come with Google AI Pro ($19.99/month) and Ultra."
+    }
   ]
 }

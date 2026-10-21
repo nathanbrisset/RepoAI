@@ -7,13 +7,12 @@
   "summary": "AIVA, your AI music generation assistant",
   "description": "AIVA, your AI music generation assistant\n\nAI Music Composition: Generates original music compositions. Customizable Styles: Allows users to set the mood and style of compositions. Sheet Music Generation: Provides sheet music for compositions. Integration with DAWs: Compatible with digital audio workstations.",
   "categories": [
-    "audio"
+    "music"
   ],
   "tags": [
-    "AI",
-    "Soundtrack",
-    "Emotional Music",
-    "Film Scores"
+    "soundtrack",
+    "emotional-music",
+    "film-scores"
   ],
   "pricing": {
     "model": "freemium",
@@ -23,7 +22,7 @@
     "sourceUrl": "https://aiva.ai/pricing"
   },
   "logo": "/logos/aiva.png",
-  "image": "/tool-screenshots/aiva.png",
+  "image": "/screenshots/aiva.webp",
   "dateAdded": "2023-01-20",
   "lastVerified": "2026-10-21",
   "features": [

@@ -1,0 +1,57 @@
+{
+  "id": "ltx-studio",
+  "name": "LTX Studio",
+  "url": "https://ltx.io/studio",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI video production studio built on the LTX video models, which are also released with open weights.",
+  "description": "LTX Studio is a production environment for AI video aimed at creative teams, marketers and filmmakers, covering scripts, storyboards, shots and editing. It is built on the LTX video models, which are also available with open weights, through an API and as a desktop app. The Free plan gives 800 one-time credits; Lite costs $15 per month ($12 billed yearly).",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ai-video",
+    "storyboarding",
+    "open-weight",
+    "filmmaking"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$15/mo (Lite, monthly)",
+    "sourceUrl": "https://ltx.io/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/68fa1561b2f334cd012acbb6_ltx-favicon-256x256.png",
+  "image": "/screenshots/ltx-studio.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://ltx.studio/",
+    "https://ltx.io/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open LTX Studio",
+      "description": "Open the official LTX Studio website.",
+      "links": [
+        {
+          "label": "LTX Studio",
+          "url": "https://ltx.io/studio"
+        }
+      ]
+    },
+    {
+      "title": "Produce a video from script to storyboard to shots",
+      "description": "LTX Studio is a production environment for AI video aimed at creative teams, marketers and filmmakers, covering scripts, storyboards, shots and editing."
+    },
+    {
+      "title": "It is built on the LTX video models",
+      "description": "It is built on the LTX video models, which are also available with open weights, through an API and as a desktop app."
+    },
+    {
+      "title": "The Free plan gives 800 one-time credits; Lite costs $15 per month ($12 billed yearly).",
+      "description": "The Free plan gives 800 one-time credits; Lite costs $15 per month ($12 billed yearly)."
+    }
+  ]
+}

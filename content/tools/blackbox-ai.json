@@ -7,12 +7,11 @@
   "summary": "Inference platform for dedicated open-weight models and a multi-model endpoint.",
   "description": "The old URL useblackbox.io returned 404 on 21 October 2026. blackbox.ai answered 200. Its homepage describes a platform that runs an open-weight model you choose, or routes many models through one endpoint. It no longer matches the old “copy code from videos” blurb. No price was on that homepage.",
   "categories": [
-    "coding"
+    "llm-chatbots"
   ],
   "tags": [
-    "AI",
-    "Code Assistant",
-    "Developer Productivity"
+    "code-assistant",
+    "developer-productivity"
   ],
   "pricing": {
     "model": "freemium",
@@ -22,7 +21,7 @@
     "sourceUrl": "https://www.blackbox.ai/"
   },
   "logo": "/logos/blackbox-ai.png",
-  "image": "/tool-screenshots/blackbox-ai.png",
+  "image": "/screenshots/blackbox-ai.webp",
   "dateAdded": "2025-06-04",
   "lastVerified": "2026-10-21",
   "features": [
@@ -33,8 +32,8 @@
   ],
   "howToUse": [
     {
-      "title": "Install Blackbox AI",
-      "description": "Add the Blackbox extension to your browser or IDE, or use the web app.",
+      "title": "Open Blackbox AI",
+      "description": "Open the official Blackbox AI website.",
       "links": [
         {
           "label": "Blackbox AI",
@@ -43,12 +42,16 @@
       ]
     },
     {
-      "title": "Use Video Extraction",
-      "description": "Pause a video, highlight code, and copy it instantly with Blackbox."
+      "title": "The old URL useblackbox.io returned 404 on 21 October 2026. blackbox.ai answered 200.",
+      "description": "The old URL useblackbox.io returned 404 on 21 October 2026. blackbox.ai answered 200."
     },
     {
-      "title": "Autocomplete & Search",
-      "description": "Use autocomplete for code suggestions or search to find relevant snippets."
+      "title": "Its homepage describes a platform that runs an open-weight model you choose",
+      "description": "Its homepage describes a platform that runs an open-weight model you choose, or routes many models through one endpoint."
+    },
+    {
+      "title": "It no longer matches the old “copy code from videos” blurb.",
+      "description": "It no longer matches the old “copy code from videos” blurb."
     }
   ],
   "sources": [

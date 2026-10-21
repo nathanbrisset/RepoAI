@@ -1,0 +1,56 @@
+{
+  "id": "microsoft-365-copilot",
+  "name": "Microsoft 365 Copilot",
+  "url": "https://www.microsoft.com/en-us/microsoft-365/copilot",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Microsoft's AI assistant integrated into Microsoft 365 apps such as Word, Excel, PowerPoint, Outlook and Teams.",
+  "description": "Microsoft 365 Copilot adds AI to Microsoft 365 apps such as Word, Excel, PowerPoint, Outlook and Teams. It also provides chat, agents and research features. The Microsoft business page lists bundles that include Copilot at several price points per user per month, paid yearly, with a free trial; because the bundles differ, no single starting price was recorded. It is sold to businesses alongside Microsoft 365 subscriptions.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "microsoft-365",
+    "office",
+    "copilot",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "sourceUrl": "https://www.microsoft.com/pricing"
+  },
+  "logo": "https://www.microsoft.com/favicon.ico?v2",
+  "image": "/screenshots/microsoft-365-copilot.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.microsoft.com/en-us/microsoft-365/copilot",
+    "https://www.microsoft.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Microsoft 365 Copilot",
+      "description": "Open the official Microsoft 365 Copilot website.",
+      "links": [
+        {
+          "label": "Microsoft 365 Copilot",
+          "url": "https://www.microsoft.com/en-us/microsoft-365/copilot"
+        }
+      ]
+    },
+    {
+      "title": "AI inside Word, Excel, Outlook and Teams",
+      "description": "Microsoft 365 Copilot adds AI to Microsoft 365 apps such as Word, Excel, PowerPoint, Outlook and Teams."
+    },
+    {
+      "title": "It also provides chat",
+      "description": "It also provides chat, agents and research features."
+    },
+    {
+      "title": "The Microsoft business page lists bundles that include Copilot at several price points...",
+      "description": "The Microsoft business page lists bundles that include Copilot at several price points per user per month, paid yearly, with a free trial; because the bundles differ, no single starting price was recorded."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "fiscal-ai",
+  "name": "Fiscal.ai",
+  "url": "https://fiscal.ai",
+  "affiliateUrl": "",
+  "status": "inactive",
+  "summary": "Investment research platform combining financial data, analytics and conversational AI.",
+  "description": "Fiscal.ai offers an investment research terminal with institutional financial data, analytics and AI chat, plus a data feed, API and MCP server to bring its data into other AI tools. Plans include a seven-day free trial at signup. Plans are offered for individuals and through sales.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "investment-research",
+    "financial-data",
+    "terminal",
+    "mcp"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "sourceUrl": "https://fiscal.ai/pricing"
+  },
+  "logo": "https://fiscal.ai/favicons/apple-touch-icon.png",
+  "image": "/screenshots/fiscal-ai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://fiscal.ai/",
+    "https://fiscal.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Fiscal.ai",
+      "description": "Open the official Fiscal.ai website.",
+      "links": [
+        {
+          "label": "Fiscal.ai",
+          "url": "https://fiscal.ai"
+        }
+      ]
+    },
+    {
+      "title": "Financial data and AI analysis for investing",
+      "description": "Fiscal.ai offers an investment research terminal with institutional financial data, analytics and AI chat, plus a data feed, API and MCP server to bring its data into other AI tools."
+    },
+    {
+      "title": "Plans are offered for individuals and through sales.",
+      "description": "Plans are offered for individuals and through sales."
+    }
+  ]
+}

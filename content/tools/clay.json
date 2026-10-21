@@ -7,7 +7,7 @@
   "summary": "Data enrichment and AI research platform for go-to-market teams.",
   "description": "Clay combines over a hundred data providers with AI research agents to find and enrich leads and automate personalized outbound workflows in a spreadsheet-like interface. It is widely used by growth and sales teams to build targeted lists. A free plan is available, and paid plans add credits, integrations and CRM sync; Clay also runs a creators partner programme.",
   "categories": [
-    "marketing"
+    "sales"
   ],
   "tags": [
     "lead-generation",
@@ -23,12 +23,36 @@
     "sourceUrl": "https://www.clay.com/pricing"
   },
   "logo": "/logos/clay.png",
-  "image": "",
+  "image": "/screenshots/clay.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.clay.com",
     "https://www.clay.com/pricing",
     "https://www.clay.com/partners/creators"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Clay",
+      "description": "Open the official Clay website.",
+      "links": [
+        {
+          "label": "Clay",
+          "url": "https://www.clay.com/"
+        }
+      ]
+    },
+    {
+      "title": "Clay combines over a hundred data providers with AI research agents to find and enrich...",
+      "description": "Clay combines over a hundred data providers with AI research agents to find and enrich leads and automate personalized outbound workflows in a spreadsheet-like interface."
+    },
+    {
+      "title": "It is widely used by growth and sales teams to build targeted lists.",
+      "description": "It is widely used by growth and sales teams to build targeted lists."
+    },
+    {
+      "title": "A free plan is available",
+      "description": "A free plan is available, and paid plans add credits, integrations and CRM sync; Clay also runs a creators partner programme."
+    }
   ]
 }

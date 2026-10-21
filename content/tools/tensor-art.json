@@ -1,0 +1,52 @@
+{
+  "id": "tensor-art",
+  "name": "Tensor.Art",
+  "url": "https://tensor.art",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Community platform for sharing and running image and video models online, including LoRA training.",
+  "description": "Tensor.Art is a model-sharing platform where users upload, download and run community image models, including Stable Diffusion checkpoints and LoRAs, and generate images and videos online. It also supports model training and remixing of shared works.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "model-hub",
+    "stable-diffusion",
+    "lora",
+    "community"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://tensor.art/pricing"
+  },
+  "logo": "https://images.tensorart.me/system/tensorart_logo_square_version.png",
+  "image": "/screenshots/tensor-art.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://tensor.art/",
+    "https://tensor.art/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Tensor.Art",
+      "description": "Open the official Tensor.Art website.",
+      "links": [
+        {
+          "label": "Tensor.Art",
+          "url": "https://tensor.art"
+        }
+      ]
+    },
+    {
+      "title": "Run and share community image models online",
+      "description": "Tensor.Art is a model-sharing platform where users upload, download and run community image models, including Stable Diffusion checkpoints and LoRAs, and generate images and videos online."
+    },
+    {
+      "title": "It also supports model training and remixing of shared works.",
+      "description": "It also supports model training and remixing of shared works."
+    }
+  ]
+}

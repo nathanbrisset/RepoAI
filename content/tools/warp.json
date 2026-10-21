@@ -22,11 +22,35 @@
     "sourceUrl": "https://www.warp.dev/pricing"
   },
   "logo": "/logos/warp.png",
-  "image": "",
+  "image": "/screenshots/warp.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.warp.dev",
     "https://www.warp.dev/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Warp",
+      "description": "Open the official Warp website.",
+      "links": [
+        {
+          "label": "Warp",
+          "url": "https://www.warp.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Warp is a modern terminal and agentic development environment where developers run AI c...",
+      "description": "Warp is a modern terminal and agentic development environment where developers run AI coding agents with the model of their choice, alongside classic command-line work."
+    },
+    {
+      "title": "It positions itself as a 'software factory' with agent evals and automation.",
+      "description": "It positions itself as a 'software factory' with agent evals and automation."
+    },
+    {
+      "title": "A free plan is available",
+      "description": "A free plan is available, and paid plans add more AI requests and team features."
+    }
   ]
 }

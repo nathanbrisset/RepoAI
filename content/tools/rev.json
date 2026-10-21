@@ -7,12 +7,11 @@
   "summary": "Offers both AI-powered and human transcription services, ensuring high accuracy for various audio formats.",
   "description": "Offers both AI-powered and human transcription services, ensuring high accuracy for various audio formats.\n\nBuilt for investigations that hold up under court. Rev’s legal AI platform turns digital evidence into verified, citable findings to help you manage your case.\n\nAI audio processing: Rev supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
   "categories": [
-    "audio"
+    "voice"
   ],
   "tags": [
-    "AI",
-    "Audio",
-    "Speech"
+    "audio",
+    "speech"
   ],
   "pricing": {
     "model": "freemium",
@@ -21,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/rev.png",
-  "image": "/tool-screenshots/rev.png",
+  "image": "/screenshots/rev.webp",
   "dateAdded": "2025-06-04",
   "lastVerified": null,
   "features": [

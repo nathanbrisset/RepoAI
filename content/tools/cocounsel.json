@@ -1,0 +1,56 @@
+{
+  "id": "cocounsel",
+  "name": "CoCounsel",
+  "url": "https://www.thomsonreuters.com/en/cocounsel",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Thomson Reuters' AI assistant for legal, tax and accounting professionals, backed by its content.",
+  "description": "CoCounsel is Thomson Reuters' AI assistant for law firms, corporate legal departments, government and tax, audit and accounting firms. It draws on Thomson Reuters' authoritative content for research and guidance, document review and drafting. Plans such as CoCounsel Essentials are sold through Thomson Reuters' sales team; no public price was shown. It is also offered to businesses and government customers through Thomson Reuters.",
+  "categories": [
+    "legal"
+  ],
+  "tags": [
+    "legal-research",
+    "thomson-reuters",
+    "westlaw",
+    "tax"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": true,
+    "sourceUrl": "https://www.thomsonreuters.com/pricing"
+  },
+  "logo": "https://www.thomsonreuters.com/favicon.ico",
+  "image": "/screenshots/cocounsel.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.thomsonreuters.com/en/cocounsel",
+    "https://www.thomsonreuters.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open CoCounsel",
+      "description": "Open the official CoCounsel website.",
+      "links": [
+        {
+          "label": "CoCounsel",
+          "url": "https://www.thomsonreuters.com/en/cocounsel"
+        }
+      ]
+    },
+    {
+      "title": "An AI assistant grounded in authoritative legal content",
+      "description": "CoCounsel is Thomson Reuters' AI assistant for law firms, corporate legal departments, government and tax, audit and accounting firms."
+    },
+    {
+      "title": "It draws on Thomson Reuters' authoritative content for research and guidance",
+      "description": "It draws on Thomson Reuters' authoritative content for research and guidance, document review and drafting."
+    },
+    {
+      "title": "Plans such as CoCounsel Essentials are sold through Thomson Reuters' sales team; no pub...",
+      "description": "Plans such as CoCounsel Essentials are sold through Thomson Reuters' sales team; no public price was shown."
+    }
+  ]
+}

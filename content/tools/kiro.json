@@ -1,0 +1,57 @@
+{
+  "id": "kiro",
+  "name": "Kiro",
+  "url": "https://kiro.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AWS-backed agentic IDE that turns prompts into specifications, then plans and writes code.",
+  "description": "Kiro is an agentic development environment from AWS. It converts prompts into executable specifications, checks code correctness to find bugs that unit tests miss and runs parallel agents across large codebases. Users sign in with social login or an AWS Builder ID. Kiro Free includes 50 credits per month; Pro costs $20 per user per month with 1,000 credits, Pro+ $40, and extra credits cost $0.04 each.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ide",
+    "spec-driven",
+    "agents",
+    "aws"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$20/user/mo (Pro)",
+    "sourceUrl": "https://kiro.dev/pricing"
+  },
+  "logo": "https://kiro.dev/icon.svg?fe599162bb293ea0",
+  "image": "/screenshots/kiro.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://kiro.dev/",
+    "https://kiro.dev/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kiro",
+      "description": "Open the official Kiro website.",
+      "links": [
+        {
+          "label": "Kiro",
+          "url": "https://kiro.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Turn prompts into specs and working code",
+      "description": "It converts prompts into executable specifications, checks code correctness to find bugs that unit tests miss and runs parallel agents across large codebases."
+    },
+    {
+      "title": "Kiro is an agentic development environment from AWS.",
+      "description": "Kiro is an agentic development environment from AWS."
+    },
+    {
+      "title": "Users sign in with social login or an AWS Builder ID.",
+      "description": "Users sign in with social login or an AWS Builder ID."
+    }
+  ]
+}

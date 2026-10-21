@@ -1,0 +1,57 @@
+{
+  "id": "typecast",
+  "name": "Typecast",
+  "url": "https://typecast.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Text-to-speech service with expressive AI voices, voice cloning and an API.",
+  "description": "Typecast generates voiceovers from text using a library of expressive AI voices, including character, ad and audiobook voices, and supports voice cloning. It runs on the web, in a mobile app and through an API. Voice generation and playback are free on every plan, and credits are used for downloads; the Free plan requires attribution, and the Basic plan costs $5 per month or $54 per year.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "tts",
+    "voiceover",
+    "voice-cloning",
+    "characters"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$5/mo (Basic)",
+    "sourceUrl": "https://typecast.ai/pricing"
+  },
+  "logo": "https://typecast.ai/favicon.svg",
+  "image": "/screenshots/typecast.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://typecast.ai/",
+    "https://typecast.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Typecast",
+      "description": "Open the official Typecast website.",
+      "links": [
+        {
+          "label": "Typecast",
+          "url": "https://typecast.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Expressive voiceovers for videos or audiobooks",
+      "description": "Typecast generates voiceovers from text using a library of expressive AI voices, including character, ad and audiobook voices, and supports voice cloning."
+    },
+    {
+      "title": "It runs on the web",
+      "description": "It runs on the web, in a mobile app and through an API."
+    },
+    {
+      "title": "Voice generation and playback are free on every plan",
+      "description": "Voice generation and playback are free on every plan, and credits are used for downloads; the Free plan requires attribution, and the Basic plan costs $5 per month or $54 per year."
+    }
+  ]
+}

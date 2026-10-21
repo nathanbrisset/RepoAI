@@ -7,7 +7,7 @@
   "summary": "Build AI agents that automate work across your tools.",
   "description": "Lindy lets individuals and teams create AI agents ('AI employees') that connect to their apps and company knowledge to handle email, scheduling, sales follow-ups and other tasks. It differentiates itself with no-code agent building and many integrations. New users get $50 in free credits valid for 7 days with no card required; after that paid plans start at $29.99/month for 3,000 credits.",
   "categories": [
-    "productivity"
+    "ai-agents"
   ],
   "tags": [
     "ai-agents",
@@ -22,10 +22,34 @@
     "sourceUrl": "https://www.lindy.ai/pricing"
   },
   "logo": "/logos/lindy.png",
-  "image": "",
+  "image": "/screenshots/lindy.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.lindy.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Lindy",
+      "description": "Open the official Lindy website.",
+      "links": [
+        {
+          "label": "Lindy",
+          "url": "https://www.lindy.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Lindy lets individuals and teams create AI agents ('AI employees') that connect to thei...",
+      "description": "Lindy lets individuals and teams create AI agents ('AI employees') that connect to their apps and company knowledge to handle email, scheduling, sales follow-ups and other tasks."
+    },
+    {
+      "title": "It differentiates itself with no-code agent building and many integrations.",
+      "description": "It differentiates itself with no-code agent building and many integrations."
+    },
+    {
+      "title": "New users get $50 in free credits valid for 7 days with no card required; after that pa...",
+      "description": "New users get $50 in free credits valid for 7 days with no card required; after that paid plans start at $29.99/month for 3,000 credits."
+    }
   ]
 }

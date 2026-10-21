@@ -1,0 +1,56 @@
+{
+  "id": "kittl",
+  "name": "Kittl",
+  "url": "https://www.kittl.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Design platform combining image and vector generation, editing tools, mockups and curated assets.",
+  "description": "Kittl is a browser-based design platform. It combines image, vector and video generation with professional editing tools, mockups, background removal and a library of assets and templates, and provides workflows for merch and marketing. A creative agent and an MCP integration let AI agents work inside Kittl. It is free to start; paid plan prices did not load during this check.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "graphic-design",
+    "vector",
+    "mockups",
+    "merch"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.kittl.com/pricing"
+  },
+  "logo": "https://www.kittl.com/apple-icon.png?apple-icon.3l5nqt4zrix42.png",
+  "image": "/screenshots/kittl.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.kittl.com/",
+    "https://www.kittl.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kittl",
+      "description": "Open the official Kittl website.",
+      "links": [
+        {
+          "label": "Kittl",
+          "url": "https://www.kittl.com/"
+        }
+      ]
+    },
+    {
+      "title": "Design merch, logos or marketing graphics with AI",
+      "description": "Kittl is a browser-based design platform."
+    },
+    {
+      "title": "It combines image",
+      "description": "It combines image, vector and video generation with professional editing tools, mockups, background removal and a library of assets and templates, and provides workflows for merch and marketing."
+    },
+    {
+      "title": "A creative agent and an MCP integration let AI agents work inside Kittl.",
+      "description": "A creative agent and an MCP integration let AI agents work inside Kittl."
+    }
+  ]
+}

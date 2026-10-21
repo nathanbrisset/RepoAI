@@ -1,0 +1,57 @@
+{
+  "id": "gumloop",
+  "name": "Gumloop",
+  "url": "https://www.gumloop.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code builder for AI agents and workflows that connect to company tools and models.",
+  "description": "Gumloop is a builder for AI agents and automations that non-engineers can use. Users combine AI models with integrations to apps such as Slack, Gmail and CRMs, then share the agents across the company while IT controls access. Templates cover sales research, outbound writing and customer success tasks. The pricing page lists Pro from $37 per month with a 14-day free trial, and Enterprise at custom pricing; no free plan was listed.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "ai-agents",
+    "no-code",
+    "integrations",
+    "automation"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$37/mo (Pro)",
+    "sourceUrl": "https://www.gumloop.com/pricing"
+  },
+  "logo": "https://www.gumloop.com/favicon.ico",
+  "image": "/screenshots/gumloop.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.gumloop.com/",
+    "https://www.gumloop.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Gumloop",
+      "description": "Open the official Gumloop website.",
+      "links": [
+        {
+          "label": "Gumloop",
+          "url": "https://www.gumloop.com/"
+        }
+      ]
+    },
+    {
+      "title": "Build AI workflows without code",
+      "description": "Gumloop is a builder for AI agents and automations that non-engineers can use."
+    },
+    {
+      "title": "Users combine AI models with integrations to apps such as Slack",
+      "description": "Users combine AI models with integrations to apps such as Slack, Gmail and CRMs, then share the agents across the company while IT controls access."
+    },
+    {
+      "title": "Templates cover sales research",
+      "description": "Templates cover sales research, outbound writing and customer success tasks."
+    }
+  ]
+}

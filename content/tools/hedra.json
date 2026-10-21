@@ -22,11 +22,35 @@
     "sourceUrl": "https://www.hedra.com/pricing"
   },
   "logo": "/logos/hedra.png",
-  "image": "",
+  "image": "/screenshots/hedra.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.hedra.com",
     "https://www.hedra.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Hedra",
+      "description": "Open the official Hedra website.",
+      "links": [
+        {
+          "label": "Hedra",
+          "url": "https://www.hedra.com/"
+        }
+      ]
+    },
+    {
+      "title": "Hedra builds generative video models and a platform to create expressive",
+      "description": "Hedra builds generative video models and a platform to create expressive, character-driven videos such as talking avatars with lip-sync from an image and audio."
+    },
+    {
+      "title": "It focuses on characters and performance rather than general scenes.",
+      "description": "It focuses on characters and performance rather than general scenes."
+    },
+    {
+      "title": "A free tier ($0) is listed on its pricing page",
+      "description": "A free tier ($0) is listed on its pricing page, with paid plans adding credits, higher resolution and commercial use."
+    }
   ]
 }

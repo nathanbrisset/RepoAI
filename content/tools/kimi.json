@@ -7,7 +7,7 @@
   "summary": "Moonshot AI's assistant with agents, slides and deep research.",
   "description": "Kimi is the AI assistant from Moonshot AI, powered by its Kimi K3 model. Beyond chat, it offers agent features for documents, spreadsheets and slides, deep research, website deployment and 'Swarm' multi-agent execution with a Goal mode. Paid memberships start with Plus at $15/month billed annually ($19 monthly), up to Ultra; the pricing page did not show a free tier, so pricing is left unverified.",
   "categories": [
-    "text"
+    "llm-chatbots"
   ],
   "tags": [
     "llm",
@@ -23,10 +23,34 @@
     "sourceUrl": "https://www.kimi.com/membership/pricing"
   },
   "logo": "/logos/kimi.png",
-  "image": "",
+  "image": "/screenshots/kimi.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.kimi.com/membership/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kimi",
+      "description": "Open the official Kimi website.",
+      "links": [
+        {
+          "label": "Kimi",
+          "url": "https://www.kimi.com/"
+        }
+      ]
+    },
+    {
+      "title": "Kimi is the AI assistant from Moonshot AI",
+      "description": "Kimi is the AI assistant from Moonshot AI, powered by its Kimi K3 model."
+    },
+    {
+      "title": "Beyond chat",
+      "description": "Beyond chat, it offers agent features for documents, spreadsheets and slides, deep research, website deployment and 'Swarm' multi-agent execution with a Goal mode."
+    },
+    {
+      "title": "Paid memberships start with Plus at $15/month billed annually ($19 monthly)",
+      "description": "Paid memberships start with Plus at $15/month billed annually ($19 monthly), up to Ultra; the pricing page did not show a free tier, so pricing is left unverified."
+    }
   ]
 }

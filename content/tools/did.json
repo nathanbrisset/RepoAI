@@ -7,14 +7,12 @@
   "summary": "D-ID brings photos to life with AI-powered talking avatars, animating faces from text or audio. Also enables video translation and dubbing for global audiences.",
   "description": "D-ID brings photos to life with AI-powered talking avatars, animating faces from text or audio. Also enables video translation and dubbing for global audiences.\n\nPhoto animation: Animate any portrait into a speaking avatar, adding a human touch to otherwise static images for a memorable experience. Text-to-video: Generate talking head videos from scripts or audio, making it easy to produce narrated content without cameras or actors. AI video dubbing: Effortlessly translate and dub existing videos into different languages, preserving emotion and lip-sync for authenticity. API and integrations: Automate avatar creation and video translation for scalable workflows in marketing, education, or customer service.",
   "categories": [
-    "video",
-    "marketing"
+    "video"
   ],
   "tags": [
-    "AI",
-    "Avatar",
-    "Translation",
-    "Dubbing"
+    "avatar",
+    "translation",
+    "dubbing"
   ],
   "pricing": {
     "model": "freemium",
@@ -23,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/did.png",
-  "image": "/tool-screenshots/did.png",
+  "image": "/screenshots/did.webp",
   "dateAdded": "2025-06-13",
   "lastVerified": null,
   "features": [

@@ -1,0 +1,57 @@
+{
+  "id": "tempo",
+  "name": "Tempo",
+  "url": "https://www.tempo.new/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Agent platform that turns customer feedback, issues and requirements into reviewed pull requests.",
+  "description": "Tempo uses AI agents to turn customer feedback, issues and product requirements into pull requests, while the team approves key decisions. It also tracks issues and documentation and runs tests locally. The Free plan includes 250 issues, 100 docs and 500 local tests per month; Pro costs $50 per month for one user plus $40 per extra user, with additional tests at $4.50 per thousand.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "coding-agent",
+    "pull-requests",
+    "product",
+    "feedback"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$50/mo (Pro)",
+    "sourceUrl": "https://www.tempo.new/pricing"
+  },
+  "logo": "https://www.tempo.new/favicon.svg",
+  "image": "/screenshots/tempo.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.tempo.new/",
+    "https://www.tempo.new/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Tempo",
+      "description": "Open the official Tempo website.",
+      "links": [
+        {
+          "label": "Tempo",
+          "url": "https://www.tempo.new/"
+        }
+      ]
+    },
+    {
+      "title": "Customer feedback turned into reviewed pull requests",
+      "description": "Tempo uses AI agents to turn customer feedback, issues and product requirements into pull requests, while the team approves key decisions."
+    },
+    {
+      "title": "It also tracks issues and documentation and runs tests locally.",
+      "description": "It also tracks issues and documentation and runs tests locally."
+    },
+    {
+      "title": "The Free plan includes 250 issues",
+      "description": "The Free plan includes 250 issues, 100 docs and 500 local tests per month; Pro costs $50 per month for one user plus $40 per extra user, with additional tests at $4.50 per thousand."
+    }
+  ]
+}

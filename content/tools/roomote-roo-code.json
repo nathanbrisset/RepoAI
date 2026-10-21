@@ -1,0 +1,53 @@
+{
+  "id": "roomote-roo-code",
+  "name": "Roomote (Roo Code)",
+  "url": "https://roomote.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Cloud coding agent from the creators of Roo Code that ships pull requests, hosted or self-hosted.",
+  "description": "Roomote is a cloud coding agent built by the team behind the open-source Roo Code extension; roocode.com now redirects to it. It runs in the project's real development environment, verifies its own work, reviews code with a different model and opens pull requests for human review. It can be hosted by the company or self-hosted.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "coding-agent",
+    "pull-requests",
+    "self-hosted",
+    "open-source"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "https://roomote.dev/android-chrome-512x512.png",
+  "image": "/screenshots/roomote-roo-code.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://roocode.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Roomote (Roo Code)",
+      "description": "Open the official Roomote (Roo Code) website.",
+      "links": [
+        {
+          "label": "Roomote (Roo Code)",
+          "url": "https://roomote.dev/"
+        }
+      ]
+    },
+    {
+      "title": "An agent that opens reviewable pull requests",
+      "description": "Roomote is a cloud coding agent built by the team behind the open-source Roo Code extension; roocode.com now redirects to it."
+    },
+    {
+      "title": "It runs in the project's real development environment",
+      "description": "It runs in the project's real development environment, verifies its own work, reviews code with a different model and opens pull requests for human review."
+    },
+    {
+      "title": "It can be hosted by the company or self-hosted.",
+      "description": "It can be hosted by the company or self-hosted."
+    }
+  ]
+}

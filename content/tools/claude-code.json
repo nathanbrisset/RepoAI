@@ -22,11 +22,35 @@
     "sourceUrl": "https://claude.com/pricing"
   },
   "logo": "",
-  "image": "",
+  "image": "/screenshots/claude-code.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.claude.com/product/claude-code",
     "https://claude.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Claude Code",
+      "description": "Open the official Claude Code website.",
+      "links": [
+        {
+          "label": "Claude Code",
+          "url": "https://claude.com/product/claude-code"
+        }
+      ]
+    },
+    {
+      "title": "Claude Code is Anthropic's agentic coding tool that reads your codebase",
+      "description": "Claude Code is Anthropic's agentic coding tool that reads your codebase, edits files, runs commands and helps ship features from the terminal, IDE or web."
+    },
+    {
+      "title": "It is valued for strong reasoning on large codebases.",
+      "description": "It is valued for strong reasoning on large codebases."
+    },
+    {
+      "title": "It is not part of the free Claude plan",
+      "description": "It is not part of the free Claude plan: access starts with Claude Pro at $17/month billed annually ($20 monthly), with Max plans from $100/month, or via pay-as-you-go API usage."
+    }
   ]
 }

@@ -19,24 +19,15 @@ if (!files.length) {
 const require = createRequire(import.meta.url)
 const { z } = require("zod")
 
-const CATEGORY_IDS = [
-  "text",
-  "image",
-  "audio",
-  "video",
-  "coding",
-  "marketing",
-  "productivity",
-  "data-processing",
-  "design",
-]
+const taxonomy = JSON.parse(fs.readFileSync(path.join(root, "content/taxonomy.json"), "utf8"))
+const CATEGORY_IDS = [...taxonomy.categories.map((category) => category.id), ...taxonomy.legacyIds]
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/)
 const toolSchema = z.object({
   id: z.string().regex(/^[a-z0-9]+(?:[-_][a-z0-9]+)*$/),
   name: z.string().min(1),
   url: z.string().url(),
   affiliateUrl: z.union([z.literal(""), z.string().url()]).optional(),
-  status: z.enum(["active", "renamed", "sunset", "duplicate-of"]),
+  status: z.enum(["active", "inactive", "renamed", "sunset", "duplicate-of"]),
   successorId: z.string().optional(),
   statusNote: z.string().optional(),
   summary: z.string().min(1),
@@ -44,11 +35,16 @@ const toolSchema = z.object({
   categories: z.array(z.enum(CATEGORY_IDS)).min(1),
   tags: z.array(z.string().min(1)).min(1),
   pricing: z.object({
-    model: z.enum(["free", "freemium", "paid", "open-source"]),
-    label: z.enum(["Free", "Freemium", "Premium", "Open source"]),
+    model: z.enum(["free", "freemium", "paid", "open-source", "enterprise", "usage-based", "one-time"]).optional(),
+    label: z.enum(["Free", "Freemium", "Premium", "Open source", "Enterprise", "Usage-based", "One-time"]).optional(),
     note: z.string().optional(),
     verified: z.boolean(),
     sourceUrl: z.string().url().optional(),
+    uncertain: z.boolean().optional(),
+  }).superRefine((value, ctx) => {
+    if (value.uncertain) return
+    if (!value.model) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["model"], message: "required unless the price is uncertain" })
+    if (!value.label) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["label"], message: "required unless the price is uncertain" })
   }),
   logo: z.string(),
   image: z.string(),

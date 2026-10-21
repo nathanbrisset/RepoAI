@@ -1,0 +1,57 @@
+{
+  "id": "apollo-io",
+  "name": "Apollo.io",
+  "url": "https://www.apollo.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Sales platform with a database of B2B contacts, outreach sequences and AI agents for go-to-market teams.",
+  "description": "Apollo.io combines a database of about 240 million contacts and 30 million companies with prospecting, email sequences, deal management and AI agents that run in the background. It connects to other tools and offers a builder for custom go-to-market systems. The Free plan includes 900 credits per seat per year; paid plans start at $49 per seat per month billed annually, with $79 and $119 tiers.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "b2b-data",
+    "prospecting",
+    "sequences",
+    "gtm"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$49/seat/mo (Basic, annual)",
+    "sourceUrl": "https://www.apollo.io/pricing"
+  },
+  "logo": "https://www.apollo.io/icon.svg?icon.11df6mby0rn6l.svg",
+  "image": "/screenshots/apollo-io.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.apollo.io/",
+    "https://www.apollo.io/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Apollo.io",
+      "description": "Open the official Apollo.io website.",
+      "links": [
+        {
+          "label": "Apollo.io",
+          "url": "https://www.apollo.io/"
+        }
+      ]
+    },
+    {
+      "title": "Find B2B contacts and run outreach",
+      "description": "Apollo.io combines a database of about 240 million contacts and 30 million companies with prospecting, email sequences, deal management and AI agents that run in the background."
+    },
+    {
+      "title": "It connects to other tools and offers a builder for custom go-to-market systems.",
+      "description": "It connects to other tools and offers a builder for custom go-to-market systems."
+    },
+    {
+      "title": "The Free plan includes 900 credits per seat per year; paid plans start at $49 per seat...",
+      "description": "The Free plan includes 900 credits per seat per year; paid plans start at $49 per seat per month billed annually, with $79 and $119 tiers."
+    }
+  ]
+}

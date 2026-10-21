@@ -1,0 +1,57 @@
+{
+  "id": "kapwing",
+  "name": "Kapwing",
+  "url": "https://www.kapwing.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Browser-based video editor with AI subtitles, text-to-speech, repurposing and prompt-to-video.",
+  "description": "Kapwing is an online video editor for creating, editing and repurposing content. It includes subtitles, speaker focus, audio cleanup, text-to-speech, a repurposing studio and generation of full video projects from a prompt. Teams can collaborate with brand kits. The Free plan includes 10 credits; Pro costs $16 per month billed annually with 1,000 credits, and Business $50 per month. The company states more than 30 million creators use it.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "video-editor",
+    "subtitles",
+    "repurposing",
+    "collaboration"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$16/mo (Pro, annual)",
+    "sourceUrl": "https://www.kapwing.com/pricing"
+  },
+  "logo": "https://cdn-useast1.kapwing.com/static/G2D-apple-touch-icon.webp",
+  "image": "/screenshots/kapwing.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.kapwing.com/",
+    "https://www.kapwing.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kapwing",
+      "description": "Open the official Kapwing website.",
+      "links": [
+        {
+          "label": "Kapwing",
+          "url": "https://www.kapwing.com/"
+        }
+      ]
+    },
+    {
+      "title": "Edit, subtitle and repurpose videos in the browser",
+      "description": "It includes subtitles, speaker focus, audio cleanup, text-to-speech, a repurposing studio and generation of full video projects from a prompt."
+    },
+    {
+      "title": "Kapwing is an online video editor for creating",
+      "description": "Kapwing is an online video editor for creating, editing and repurposing content."
+    },
+    {
+      "title": "Teams can collaborate with brand kits.",
+      "description": "Teams can collaborate with brand kits."
+    }
+  ]
+}

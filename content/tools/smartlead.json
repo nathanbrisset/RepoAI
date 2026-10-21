@@ -1,0 +1,56 @@
+{
+  "id": "smartlead",
+  "name": "Smartlead",
+  "url": "https://www.smartlead.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Cold email platform with unlimited mailboxes, AI warm-up, lead finding and deliverability infrastructure.",
+  "description": "Smartlead sends cold email at scale across unlimited mailboxes with AI warm-up, and adds SmartProspect for verified leads, AI agents, dedicated sending servers and an AI dialer. It is used by agencies and outbound teams. A free trial is offered; plan prices were partly readable on the pricing page. The company publishes case studies and free tools for email authentication and deliverability. Its site offered 50% off the first month during this check.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "cold-email",
+    "mailboxes",
+    "warmup",
+    "agency"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "sourceUrl": "https://www.smartlead.ai/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/6204a703ff61516512c04f55/6a6af43a310b5f2fbb4b5083_512.png",
+  "image": "/screenshots/smartlead.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.smartlead.ai/",
+    "https://www.smartlead.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Smartlead",
+      "description": "Open the official Smartlead website.",
+      "links": [
+        {
+          "label": "Smartlead",
+          "url": "https://www.smartlead.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Unlimited mailboxes and warm-up for cold email",
+      "description": "Smartlead sends cold email at scale across unlimited mailboxes with AI warm-up, and adds SmartProspect for verified leads, AI agents, dedicated sending servers and an AI dialer."
+    },
+    {
+      "title": "It is used by agencies and outbound teams.",
+      "description": "It is used by agencies and outbound teams."
+    },
+    {
+      "title": "A free trial is offered; plan prices were partly readable on the pricing page.",
+      "description": "A free trial is offered; plan prices were partly readable on the pricing page."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "retool",
+  "name": "Retool",
+  "url": "https://retool.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Platform for building internal tools and AI agents connected to databases, APIs and LLMs.",
+  "description": "Retool is used to build, deploy and manage internal software. Developers connect it to databases, APIs and LLMs, then assemble interfaces and workflows with components and code, and the company now also offers a harness for running and governing AI agents. The Free plan has no cost; paid plans bill per builder, starting at $10 per builder per month annually, with separate pricing per internal user.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "internal-tools",
+    "low-code",
+    "databases",
+    "ai-agents"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$10/builder/mo (annual)",
+    "sourceUrl": "https://retool.com/pricing"
+  },
+  "logo": "https://dqpcjghenxt8u.cloudfront.net/images/sanity/retool-favicon-light-128x128.svg",
+  "image": "/screenshots/retool.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://retool.com/",
+    "https://retool.com/pricing",
+    "https://retool.com/plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Retool",
+      "description": "Open the official Retool website.",
+      "links": [
+        {
+          "label": "Retool",
+          "url": "https://retool.com/"
+        }
+      ]
+    },
+    {
+      "title": "Build internal tools on my databases and APIs",
+      "description": "Retool is used to build, deploy and manage internal software."
+    },
+    {
+      "title": "Developers connect it to databases",
+      "description": "Developers connect it to databases, APIs and LLMs, then assemble interfaces and workflows with components and code, and the company now also offers a harness for running and governing AI agents."
+    },
+    {
+      "title": "The Free plan has no cost; paid plans bill per builder",
+      "description": "The Free plan has no cost; paid plans bill per builder, starting at $10 per builder per month annually, with separate pricing per internal user."
+    }
+  ]
+}

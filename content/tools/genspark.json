@@ -7,7 +7,7 @@
   "summary": "All-in-one AI agent workspace for slides, docs, images, video and code.",
   "description": "Genspark is an AI workspace whose agents produce slides, spreadsheets, documents, images, video and code in one place, with deep research and meeting notes. It differentiates itself by bundling many models and agent types under one credit system. The Free plan gives 100 credits per day up to a lifetime allowance; Plus costs $24.99/month ($19.99/month billed annually) with 10,000 monthly credits.",
   "categories": [
-    "productivity"
+    "ai-agents"
   ],
   "tags": [
     "ai-agent",
@@ -23,10 +23,34 @@
     "sourceUrl": "https://www.genspark.ai/helpcenter/membership-plans"
   },
   "logo": "/logos/genspark.png",
-  "image": "",
+  "image": "/screenshots/genspark.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.genspark.ai/helpcenter/membership-plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Genspark",
+      "description": "Open the official Genspark website.",
+      "links": [
+        {
+          "label": "Genspark",
+          "url": "https://www.genspark.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Genspark is an AI workspace whose agents produce slides",
+      "description": "Genspark is an AI workspace whose agents produce slides, spreadsheets, documents, images, video and code in one place, with deep research and meeting notes."
+    },
+    {
+      "title": "It differentiates itself by bundling many models and agent types under one credit system.",
+      "description": "It differentiates itself by bundling many models and agent types under one credit system."
+    },
+    {
+      "title": "The Free plan gives 100 credits per day up to a lifetime allowance; Plus costs $24.99/m...",
+      "description": "The Free plan gives 100 credits per day up to a lifetime allowance; Plus costs $24.99/month ($19.99/month billed annually) with 10,000 monthly credits."
+    }
   ]
 }

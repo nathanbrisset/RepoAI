@@ -7,12 +7,12 @@
   "summary": "Orange3 is an open-source data visualization and analysis toolbox for both novice and expert users. Its visual programming interface lets users build workflows for data preprocessing, machine learning, and visualization by connecting widgets. Orange3 is extensible with add-ons for text mining, bioinformatics, and more, making it a versatile choice for education, rapid prototyping, and exploratory data analysis. The platform is supported by a vibrant community and extensive documentation.",
   "description": "Orange3 is an open-source data visualization and analysis toolbox for both novice and expert users. Its visual programming interface lets users build workflows for data preprocessing, machine learning, and visualization by connecting widgets. Orange3 is extensible with add-ons for text mining, bioinformatics, and more, making it a versatile choice for education, rapid prototyping, and exploratory data analysis. The platform is supported by a vibrant community and extensive documentation.\n\nVisual Programming: Build analysis workflows with drag-and-drop widgets. Interactive Data Exploration: Real-time visualizations and interactive reports. Add-On Ecosystem: Extensions for text mining, bioinformatics, and more. Educational Focus: Designed for teaching and rapid prototyping.",
   "categories": [
-    "data-processing"
+    "data"
   ],
   "tags": [
-    "Visualization",
-    "Data Analysis",
-    "Open Source"
+    "visualization",
+    "data-analysis",
+    "open-source"
   ],
   "pricing": {
     "model": "free",
@@ -21,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/orange3.png",
-  "image": "/tool-screenshots/orange3.png",
+  "image": "/screenshots/orange3.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-21",
   "dateAddedNote": "The previous Added date was 2013-06-01. It was removed because it is not a credible date for this directory.",

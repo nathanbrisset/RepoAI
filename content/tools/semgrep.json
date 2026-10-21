@@ -1,0 +1,56 @@
+{
+  "id": "semgrep",
+  "name": "Semgrep",
+  "url": "https://semgrep.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Application security platform for code scanning (SAST), dependencies (SCA) and secrets, with AI triage.",
+  "description": "Semgrep scans source code for security issues with its SAST engine, checks open-source dependencies for vulnerabilities and malware, and detects hardcoded secrets. AI features help triage and fix findings. The scanning engine is open source. A free edition with cross-file analysis is available for small teams, and paid plans are priced per contributor per month. The company runs a programme for teams moving from Checkmarx or Snyk.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "sast",
+    "sca",
+    "secrets",
+    "open-source"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://semgrep.dev/pricing"
+  },
+  "logo": "https://semgrep.dev/build/assets/favicon-CIx-xpG_.svg",
+  "image": "/screenshots/semgrep.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://semgrep.dev/",
+    "https://semgrep.dev/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Semgrep",
+      "description": "Open the official Semgrep website.",
+      "links": [
+        {
+          "label": "Semgrep",
+          "url": "https://semgrep.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Find vulnerabilities and secrets in my code",
+      "description": "Semgrep scans source code for security issues with its SAST engine, checks open-source dependencies for vulnerabilities and malware, and detects hardcoded secrets."
+    },
+    {
+      "title": "AI features help triage and fix findings.",
+      "description": "AI features help triage and fix findings."
+    },
+    {
+      "title": "The scanning engine is open source.",
+      "description": "The scanning engine is open source."
+    }
+  ]
+}

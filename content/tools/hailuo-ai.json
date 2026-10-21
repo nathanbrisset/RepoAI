@@ -21,11 +21,35 @@
     "sourceUrl": "https://hailuoai.video"
   },
   "logo": "/logos/hailuo-ai.png",
-  "image": "",
+  "image": "/screenshots/hailuo-ai.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://hailuoai.video",
     "https://hailuoai.video/subscribe"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Hailuo AI",
+      "description": "Open the official Hailuo AI website.",
+      "links": [
+        {
+          "label": "Hailuo AI",
+          "url": "https://hailuoai.video/"
+        }
+      ]
+    },
+    {
+      "title": "Hailuo AI",
+      "description": "Hailuo AI, from MiniMax, generates videos and images from text prompts or photos and includes meme and effect tools aimed at social content."
+    },
+    {
+      "title": "It is known for expressive motion at competitive prices.",
+      "description": "It is known for expressive motion at competitive prices."
+    },
+    {
+      "title": "A free plan lets users generate with limited credits",
+      "description": "A free plan lets users generate with limited credits, and paid subscriptions add more credits, faster queues and higher quality outputs."
+    }
   ]
 }

@@ -7,12 +7,11 @@
   "summary": "Otter AI Meeting Agent supports real-time transcription, live chat, automated summaries, insights, and action items.",
   "description": "Otter AI Meeting Agent supports real-time transcription, live chat, automated summaries, insights, and action items.\n\nAI audio processing: Otter.ai supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
   "categories": [
-    "audio"
+    "meetings"
   ],
   "tags": [
-    "AI",
-    "Audio",
-    "Speech"
+    "audio",
+    "speech"
   ],
   "pricing": {
     "model": "freemium",
@@ -22,7 +21,7 @@
     "sourceUrl": "https://otter.ai/pricing"
   },
   "logo": "/logos/otterai.png",
-  "image": "/tool-screenshots/otterai.png",
+  "image": "/screenshots/otterai.webp",
   "dateAdded": "2025-06-04",
   "lastVerified": "2026-10-21",
   "features": [

@@ -7,12 +7,12 @@
   "summary": "Create custom designs and graphics with Playground",
   "description": "Create custom designs and graphics with Playground\n\nText-to-Image Generation: Creates images from textual prompts. Style Customization: Offers various artistic styles. Interactive Editing: Allows real-time adjustments to images. Community Sharing: Enables users to share and explore artworks.",
   "categories": [
-    "image"
+    "design"
   ],
   "tags": [
-    "Text To Image",
-    "Inpainting",
-    "Style Filters"
+    "text-to-image",
+    "inpainting",
+    "style-filters"
   ],
   "pricing": {
     "model": "freemium",
@@ -21,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/playground-ai.png",
-  "image": "/tool-screenshots/playground-ai.png",
+  "image": "/screenshots/playground-ai.webp",
   "dateAdded": "2023-01-10",
   "lastVerified": null,
   "features": [

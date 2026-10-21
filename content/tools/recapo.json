@@ -23,11 +23,35 @@
     "sourceUrl": "https://recapo.ai/pricing/"
   },
   "logo": "/logos/recapo.png",
-  "image": "",
+  "image": "/screenshots/recapo.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://recapo.ai/",
     "https://recapo.ai/pricing/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Recapo",
+      "description": "Open the official Recapo website.",
+      "links": [
+        {
+          "label": "Recapo",
+          "url": "https://recapo.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Recapo is an AI video editing platform.",
+      "description": "Recapo is an AI video editing platform."
+    },
+    {
+      "title": "It analyzes long videos",
+      "description": "It analyzes long videos, drafts a commentary script, adds a voiceover and subtitles, and produces short clips ready to publish."
+    },
+    {
+      "title": "The site presents it for film recaps",
+      "description": "The site presents it for film recaps, highlight extraction, and edits described in natural language."
+    }
   ]
 }

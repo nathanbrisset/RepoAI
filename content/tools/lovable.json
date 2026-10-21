@@ -1,6 +1,6 @@
 {
   "logo": "/logos/lovable.png",
-  "image": "",
+  "image": "/screenshots/lovable.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -10,7 +10,7 @@
   "summary": "Build full-stack web apps by chatting with AI.",
   "description": "Lovable is an AI app builder that creates and edits full-stack web applications from natural-language prompts. Users iterate in a chat interface, connect a backend, and deploy without writing code by hand, which makes it popular with founders and non-developers prototyping products. It offers a free plan to get started and paid plans with more messages and collaboration features.",
   "categories": [
-    "coding"
+    "no-code"
   ],
   "tags": [
     "app-builder",
@@ -27,5 +27,29 @@
   },
   "sources": [
     "https://lovable.dev"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Lovable",
+      "description": "Open the official Lovable website.",
+      "links": [
+        {
+          "label": "Lovable",
+          "url": "https://lovable.dev"
+        }
+      ]
+    },
+    {
+      "title": "Lovable is an AI app builder that creates and edits full-stack web applications from na...",
+      "description": "Lovable is an AI app builder that creates and edits full-stack web applications from natural-language prompts."
+    },
+    {
+      "title": "Users iterate in a chat interface",
+      "description": "Users iterate in a chat interface, connect a backend, and deploy without writing code by hand, which makes it popular with founders and non-developers prototyping products."
+    },
+    {
+      "title": "It offers a free plan to get started and paid plans with more messages and collaboratio...",
+      "description": "It offers a free plan to get started and paid plans with more messages and collaboration features."
+    }
   ]
 }

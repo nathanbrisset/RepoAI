@@ -7,12 +7,12 @@
   "summary": "Numerous.ai is an AI-powered automation tool designed to enhance spreadsheet productivity. It enables users to automate repetitive tasks, enrich data with external sources, and leverage AI formulas directly in Google Sheets or Excel. Numerous.ai offers real-time collaboration and supports bulk data processing, making it a valuable asset for analysts and teams working with large datasets.",
   "description": "Numerous.ai is an AI-powered automation tool designed to enhance spreadsheet productivity. It enables users to automate repetitive tasks, enrich data with external sources, and leverage AI formulas directly in Google Sheets or Excel. Numerous.ai offers real-time collaboration and supports bulk data processing, making it a valuable asset for analysts and teams working with large datasets.\n\nAn AI-powered spreadsheet plugin that brings ChatGPT to Google Sheets and Excel.\n\nAI Formulas: Automate complex calculations and tasks. Data Enrichment: Import and update data from external sources. Seamless Integration: Works natively with Google Sheets and Excel. Bulk Processing: Handles large-scale spreadsheet operations.",
   "categories": [
-    "data-processing"
+    "data"
   ],
   "tags": [
-    "Spreadsheet",
-    "Automation",
-    "Data Enrichment"
+    "spreadsheet",
+    "automation",
+    "data-enrichment"
   ],
   "pricing": {
     "model": "freemium",
@@ -21,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/numerous_ai.png",
-  "image": "/tool-screenshots/numerous.png",
+  "image": "/screenshots/numerous_ai.webp",
   "dateAdded": "2022-03-01",
   "lastVerified": null,
   "features": [

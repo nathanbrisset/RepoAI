@@ -22,11 +22,35 @@
     "sourceUrl": "https://bfl.ai/pricing"
   },
   "logo": "/logos/flux.png",
-  "image": "",
+  "image": "/screenshots/flux.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://bfl.ai",
     "https://bfl.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open FLUX (Black Forest Labs)",
+      "description": "Open the official FLUX (Black Forest Labs) website.",
+      "links": [
+        {
+          "label": "FLUX (Black Forest Labs)",
+          "url": "https://bfl.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Black Forest Labs develops the FLUX family of models for image generation and editing",
+      "description": "Black Forest Labs develops the FLUX family of models for image generation and editing, known for high prompt fidelity and photorealism."
+    },
+    {
+      "title": "The models are offered via the BFL API and playground",
+      "description": "The models are offered via the BFL API and playground, and some versions are released as open weights for developers."
+    },
+    {
+      "title": "API usage is paid per image",
+      "description": "API usage is paid per image, for example $0.048 per image on the pricing calculator, with custom enterprise pricing at scale."
+    }
   ]
 }

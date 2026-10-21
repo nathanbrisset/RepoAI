@@ -1,0 +1,56 @@
+{
+  "id": "typefully",
+  "name": "Typefully",
+  "url": "https://typefully.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Collaborative writing and scheduling tool for X, LinkedIn, Threads and Bluesky, with AI features.",
+  "description": "Typefully is a social media editor and scheduler for X, LinkedIn, Bluesky and Threads. It supports team collaboration with comments, analytics, automations and AI writing features. The company reports more than 10,000 customers.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "social-scheduler",
+    "x",
+    "linkedin",
+    "threads"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://typefully.com/pricing"
+  },
+  "logo": "https://typefully.com/icon/safari-pinned-tab.svg",
+  "image": "/screenshots/typefully.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://typefully.com/",
+    "https://typefully.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Typefully",
+      "description": "Open the official Typefully website.",
+      "links": [
+        {
+          "label": "Typefully",
+          "url": "https://typefully.com/"
+        }
+      ]
+    },
+    {
+      "title": "Write and schedule posts for X, LinkedIn and Threads",
+      "description": "Typefully is a social media editor and scheduler for X, LinkedIn, Bluesky and Threads."
+    },
+    {
+      "title": "It supports team collaboration with comments",
+      "description": "It supports team collaboration with comments, analytics, automations and AI writing features."
+    },
+    {
+      "title": "The company reports more than 10",
+      "description": "The company reports more than 10,000 customers."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "base44",
+  "name": "Base44",
+  "url": "https://base44.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code AI builder that turns text descriptions into apps, websites and agents.",
+  "description": "Base44 lets users build apps, websites, games, internal tools and AI agents by describing them in plain language. The platform includes hosting, a database, authentication and integrations, so no separate setup is required. Users can start for free; paid plans are based on message and integration credits and start at $40 per month billed annually, with higher tiers at $80 and $160 per month.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "vibe-coding",
+    "app-builder",
+    "no-code",
+    "hosting"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$40/mo (annual)",
+    "sourceUrl": "https://base44.com/pricing"
+  },
+  "logo": "https://media.base44.com/images/public/marketing-site-assets/branded/favicon-branded-v2.png",
+  "image": "/screenshots/base44.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://base44.com/",
+    "https://base44.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Base44",
+      "description": "Open the official Base44 website.",
+      "links": [
+        {
+          "label": "Base44",
+          "url": "https://base44.com/"
+        }
+      ]
+    },
+    {
+      "title": "Build an app or website by describing it",
+      "description": "Base44 lets users build apps, websites, games, internal tools and AI agents by describing them in plain language."
+    },
+    {
+      "title": "The platform includes hosting",
+      "description": "The platform includes hosting, a database, authentication and integrations, so no separate setup is required."
+    },
+    {
+      "title": "Users can start for free; paid plans are based on message and integration credits and s...",
+      "description": "Users can start for free; paid plans are based on message and integration credits and start at $40 per month billed annually, with higher tiers at $80 and $160 per month."
+    }
+  ]
+}
