@@ -87,7 +87,7 @@ export const categories: Category[] = [
 ]
 
 // The directory is loaded from content/tools/*.json.
-// mockTools hides sunset and duplicate-of cards. allTools still includes them.
+// mockTools hides sunset, renamed, and duplicate-of cards. allTools still includes them.
 export const mockTools = listedTools
 export const tools = listedTools
 

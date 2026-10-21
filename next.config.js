@@ -22,6 +22,37 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL,
   },
+  async redirects() {
+    const renamedToTools = [
+      "autopilot",
+      "codiumai",
+      "freepik-ai-image-generator",
+      "google_cloud_automl",
+      "growthbar",
+      "hugo-ai",
+      "mindsdb",
+      "mobilemonkey",
+      "munch",
+      "paintschainer",
+      "phrasee",
+      "podcastle",
+      "replit-ghostwriter",
+      "sendinblue",
+      "vidyoai",
+    ]
+    return [
+      ...renamedToTools.map((id) => ({
+        source: `/tool/${id}`,
+        destination: "/tools",
+        permanent: true,
+      })),
+      {
+        source: "/tool/windsurf",
+        destination: "/tool/devin",
+        permanent: true,
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig 

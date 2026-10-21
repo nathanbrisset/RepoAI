@@ -39,8 +39,10 @@ export function toRuntimeTool(entry: CatalogTool): Tool {
 
 export const allTools: Tool[] = catalogTools.map(toRuntimeTool)
 
-/** Cards, related fiches, search, and categories omit closed and duplicate pages. /tool/{id} still resolves. */
-export const listedTools: Tool[] = allTools.filter((tool) => tool.status !== "duplicate-of" && tool.status !== "sunset")
+/** Cards, related fiches, search, and categories omit closed, renamed, and duplicate pages. /tool/{id} still resolves for sunset pages. Renamed ids 308 from next.config. */
+export const listedTools: Tool[] = allTools.filter(
+  (tool) => tool.status !== "duplicate-of" && tool.status !== "sunset" && tool.status !== "renamed",
+)
 
 export function getToolById(id: string) {
   return allTools.find((tool) => tool.id === id) || null

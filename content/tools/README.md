@@ -59,7 +59,7 @@ Choices made while migrating:
 - Same official URL twice used to hide the extra card with `duplicate-of`. A later validated pass changed that for the rows it listed: those pages stay online with `status: "sunset"` and `successorId` when another fiche is the successor. Otter.ai keeps `otterai` and sunsets `otter`. DataRobot Code sunsets toward DataRobot. Both INK fiches sunset, and neither points at the other.
 - `dateAdded` before 2019-01-01 was cleared. Those values were company dates, not dates this directory added the tool.
 - A price label copied from the old file has `pricing.verified: false` and `lastVerified: null` unless a note says otherwise.
-- `sunset` means the product is closed or the URL no longer opens the product. The page stays. `renamed` means the old name now redirects somewhere else.
+- `sunset` means the product is closed or the URL no longer opens the product. The page stays, and it is left out of listings and `public/sitemap.xml`. `renamed` means the old name now points somewhere else. Those fiches stay in this folder, are left out of listings and the sitemap, and `/tool/{id}` answers 308: Windsurf goes to `/tool/devin`, and the other renamed ids go to `/tools` because no other fiche is the successor.
 
 ## Validated import (2026-10-21)
 
