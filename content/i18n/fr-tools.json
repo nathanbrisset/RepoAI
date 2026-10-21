@@ -656,6 +656,100 @@
   "deepbrainai": {
     "summary_fr": "DeepBrain AI permet de générer des vidéos d'avatars humains réalistes à partir de scripts, dans plusieurs langues. Utilisé pour l'actualité, la formation et les contenus explicatifs, avec des présentateurs IA réalistes.",
     "description_fr": "DeepBrain AI permet de générer des vidéos d'avatars humains réalistes à partir de scripts, dans plusieurs langues. Utilisé pour l'actualité, la formation et les contenus explicatifs, avec des présentateurs IA réalistes.\n\nGénérateur de vidéos par IA, texte vers vidéo, vidéos génératives, avatar personnalisé, 2 000+ avatars, doublage par IA avec traduction, TTS avec 150+ langues, et 7 000+ modèles de vidéo — pour la formation RH et les créateurs YouTube.\n\nAvatars de présentateurs d'actualité par IA : générez instantanément des vidéos professionnelles de style actualités avec des présentateurs numériques, en réduisant le temps et les coûts de production. Prise en charge multilingue : créez des vidéos dans plus de 80 langues, pour une portée mondiale et une image de marque cohérente sur différents marchés. Avatars personnalisés : importez votre propre visage ou choisissez parmi un ensemble varié de personas numériques pour correspondre à l'image de votre entreprise ou à votre public. Script vers vidéo simple : collez simplement votre script et recevez une vidéo soignée, menée par un présentateur, prête pour la publication ou un usage interne.",
+    "howToUse_fr": [
+      {
+        "title": "Inscription et connexion",
+        "description": "Visitez le site DeepBrain AI (AI Studios) et créez un compte gratuit, sans carte bancaire. Vérifiez votre e-mail et connectez-vous au tableau de bord AI Studios.",
+        "links": [
+          {
+            "label": "aistudios.com",
+            "url": "https://www.aistudios.com"
+          }
+        ]
+      },
+      {
+        "title": "Créer un nouveau projet vidéo",
+        "description": "Cliquez sur « New Project » ou choisissez un modèle (entreprise, explicatif, formation, etc.). Les modèles donnent un point de départ structuré ; sinon, partez d'une page vierge.",
+        "links": [
+          {
+            "label": "aistudios.com",
+            "url": "https://www.aistudios.com"
+          }
+        ]
+      },
+      {
+        "title": "Choisir votre avatar IA",
+        "description": "Parcourez la bibliothèque d'avatars : plus de 80 avatars réalistes multilingues. Choisissez-en un qui correspond au ton, à la langue et au public du projet.",
+        "links": [
+          {
+            "label": "aistudios.com",
+            "url": "https://www.aistudios.com"
+          }
+        ]
+      },
+      {
+        "title": "Personnaliser l'arrière-plan et la scène",
+        "description": "Importez votre propre image d'arrière-plan ou choisissez parmi les options de la banque intégrée. Ajustez la position, l'échelle et le style des avatars selon votre design."
+      },
+      {
+        "title": "Écrire ou importer le script",
+        "description": "Utilisez le Script Assistant intégré ou collez le script directement dans chaque scène. Vous pouvez modifier le texte de chaque diapositive et générer automatiquement les sous-titres.",
+        "links": [
+          {
+            "label": "AI Studios",
+            "url": "https://www.aistudios.com/"
+          }
+        ]
+      },
+      {
+        "title": "Choisir la voix et la langue",
+        "description": "Choisissez parmi des voix IA dans plus de 80 langues, avec un ton et une vitesse réglables. Cela permet la localisation ou des contenus multilingues.",
+        "links": [
+          {
+            "label": "aistudios.com",
+            "url": "https://www.aistudios.com"
+          }
+        ]
+      },
+      {
+        "title": "Enrichir avec des médias et des effets",
+        "description": "Ajoutez des images, des formes, des animations, une musique de fond ou un audio personnalisé. Superposez les médias et animez-les d'une scène à l'autre.",
+        "links": [
+          {
+            "label": "AI Studios",
+            "url": "https://www.aistudios.com/"
+          }
+        ]
+      },
+      {
+        "title": "Prévisualiser et ajuster",
+        "description": "Lisez la vidéo pour vérifier le lip-sync de l'avatar, le rythme et les transitions. Modifiez si besoin : changez d'avatar, ajustez le rythme, affinez les visuels."
+      },
+      {
+        "title": "Exporter et publier",
+        "description": "Choisissez les options d'export (MP4, résolution, incrustation chroma si elle est prise en charge). Exportez le projet et téléchargez-le. Les résolutions plus élevées et les exports sans filigrane dépendent du niveau d'abonnement.",
+        "links": [
+          {
+            "label": "AI Studios",
+            "url": "https://www.aistudios.com/"
+          }
+        ]
+      },
+      {
+        "title": "Usage avancé et API",
+        "description": "Personnalisation de l'avatar et de la voix : choisissez des tenues et des styles, ajustez la précision du lip-sync. Intégration API : automatisez la production vidéo avec l'API AI Studios, générez des clés API, envoyez des scripts, interrogez les tâches et recevez des webhooks.",
+        "links": [
+          {
+            "label": "aistudios.com",
+            "url": "https://www.aistudios.com"
+          },
+          {
+            "label": "docs.deepbrain.io",
+            "url": "https://docs.deepbrain.io"
+          }
+        ]
+      }
+    ],
     "tags_fr": [
       "IA",
       "Avatar",
@@ -1127,6 +1221,108 @@
   "heygen": {
     "summary_fr": "HeyGen est une plateforme text-to-video qui utilise des avatars IA et le lip-sync pour créer des vidéos à partir de scripts, de présentations PowerPoint ou d'URL. Elle propose la traduction vidéo en temps réel et le clonage de voix.",
     "description_fr": "HeyGen est une plateforme text-to-video qui utilise des avatars IA et le lip-sync pour créer des vidéos à partir de scripts, de présentations PowerPoint ou d'URL. Elle propose la traduction vidéo en temps réel et le clonage de voix.\n\nSoyez au mieux de vous-même, à chaque fois. Créez des vidéos IA claires et assurées avec votre Personal Avatar, votre visage et votre voix, sans filmer chaque vidéo. Essayez gratuitement.\n\nGénération d'avatars IA : choisissez parmi une gamme variée d'humains numériques pour présenter votre contenu, avec une prestation professionnelle et engageante. Traduction en temps réel : traduisez et doublez instantanément vos vidéos dans plusieurs langues, en levant les barrières linguistiques pour un public mondial. Clonage de voix : utilisez votre propre voix ou choisissez dans une bibliothèque de voix synthétiques, pour une image de marque cohérente et un lien personnel. Script vers vidéo : convertissez directement du texte, des diapositives ou même des URL en contenus vidéo convaincants, ce qui simplifie la création de contenus.",
+    "howToUse_fr": [
+      {
+        "title": "Inscription et accès au tableau de bord",
+        "description": "Allez sur le site de HeyGen et créez un compte gratuit ou premium. Après vérification de l'e-mail, connectez-vous pour accéder au tableau de bord.",
+        "links": [
+          {
+            "label": "HeyGen",
+            "url": "https://www.heygen.com/"
+          }
+        ]
+      },
+      {
+        "title": "Démarrer un nouveau projet",
+        "description": "Cliquez sur « Create Video » ou « New Project ». Choisissez un départ vierge, un script, un PowerPoint ou une URL. Vous pouvez aussi choisir un modèle adapté à votre usage.",
+        "links": [
+          {
+            "label": "Parcours de création vidéo",
+            "url": "https://www.heygen.com/academy/video-creation-pathways"
+          }
+        ]
+      },
+      {
+        "title": "Choisir votre avatar IA",
+        "description": "Parcourez la bibliothèque d'avatars et choisissez un présentateur numérique qui correspond à votre public et au ton. Les comptes premium débloquent plus d'avatars.",
+        "links": [
+          {
+            "label": "Bibliothèque d'avatars",
+            "url": "https://www.heygen.com/avatars"
+          }
+        ]
+      },
+      {
+        "title": "Saisir le script ou le contenu",
+        "description": "Collez votre script, importez un PowerPoint ou entrez une URL. HeyGen extrait le texte et génère des scènes à partir de votre saisie. Modifiez le texte de chaque scène si besoin.",
+        "links": [
+          {
+            "label": "Guide de script",
+            "url": "https://www.heygen.com/academy/scripting"
+          }
+        ]
+      },
+      {
+        "title": "Choisir la voix et la langue",
+        "description": "Sélectionnez la voix IA et réglez la langue, l'accent, la vitesse et le ton. Utilisez le clonage de voix si vous voulez la vôtre ou une voix personnalisée.",
+        "links": [
+          {
+            "label": "Réglages de voix",
+            "url": "https://www.heygen.com/voices"
+          }
+        ]
+      },
+      {
+        "title": "Personnaliser les scènes",
+        "description": "Ajoutez ou personnalisez les arrière-plans, importez des images, utilisez les assets de HeyGen et disposez les avatars et le texte. Ajustez le rythme et les transitions de chaque scène.",
+        "links": [
+          {
+            "label": "Montage des scènes",
+            "url": "https://www.heygen.com/features"
+          }
+        ]
+      },
+      {
+        "title": "Traduire ou doubler la vidéo (facultatif)",
+        "description": "Activez la traduction pour traduire et doubler automatiquement la vidéo dans d'autres langues. Relisez le script traduit et les voix avant de générer.",
+        "links": [
+          {
+            "label": "Traduction vidéo",
+            "url": "https://www.heygen.com/translate"
+          }
+        ]
+      },
+      {
+        "title": "Prévisualiser et réviser",
+        "description": "Prévisualisez toute la vidéo, vérifiez le lip-sync, les transitions et la voix, puis ajustez les éléments si besoin. Vérifiez que toutes les scènes et tous les textes sont exacts.",
+        "links": [
+          {
+            "label": "Centre d'aide HeyGen",
+            "url": "https://help.heygen.com/"
+          }
+        ]
+      },
+      {
+        "title": "Exporter et télécharger",
+        "description": "Choisissez le format et la résolution d'export (certaines options peuvent exiger un plan premium). Téléchargez le MP4 ou partagez-le directement sur les plateformes sociales ou professionnelles.",
+        "links": [
+          {
+            "label": "Télécharger ou exporter",
+            "url": "https://help.heygen.com/en/articles/9834825-how-to-download-or-export-a-video"
+          }
+        ]
+      },
+      {
+        "title": "Explorer les fonctions avancées et l'API",
+        "description": "Essayez la création de vidéos par lots, les intégrations API, ou les options avancées de marque et de voix pour l'automatisation ou la production à grande échelle.",
+        "links": [
+          {
+            "label": "Documentation API",
+            "url": "https://docs.heygen.com/"
+          }
+        ]
+      }
+    ],
     "tags_fr": [
       "IA",
       "Avatar",
@@ -1820,6 +2016,77 @@
       "Audio",
       "Parole"
     ]
+  },
+  "papercup": {
+    "summary_fr": "Service de doublage vidéo par IA qui a fermé. Le domaine redirige vers RWS.",
+    "description_fr": "Papercup doublait des vidéos dans d'autres langues. RWS a annoncé le 26 juin 2025 avoir acquis la propriété intellectuelle de Papercup, et le service autonome est fermé. Le 21 octobre 2026, papercup.com redirigait vers une page RWS de localisation pour le doublage et la voix off par IA, avec un paramètre de campagne nommant une migration Papercup. Cette page répond HTTP 202 à un client non navigateur. support.papercup.com et docs.papercup.com ne se résolvent pas.",
+    "howToUse_fr": [
+      {
+        "title": "Inscription et accès au tableau de bord Papercup",
+        "description": "Visitez Papercup et créez un compte pour votre entreprise ou votre projet. Connectez-vous pour accéder au tableau de bord où vous pouvez lancer de nouveaux projets de doublage.",
+        "links": [
+          {
+            "label": "Avis d'acquisition RWS",
+            "url": "https://www.investegate.co.uk/announcement/rns/rws-holdings--rws/acquisition-of-ip-of-papercup-/8949808"
+          }
+        ]
+      },
+      {
+        "title": "Démarrer un nouveau projet de doublage",
+        "description": "Cliquez sur « New Project » et importez votre fichier vidéo source. Papercup prend en charge la plupart des formats vidéo courants (MP4, MOV, etc.).",
+        "links": [
+          {
+            "label": "Avis d'acquisition RWS",
+            "url": "https://www.investegate.co.uk/announcement/rns/rws-holdings--rws/acquisition-of-ip-of-papercup-/8949808"
+          }
+        ]
+      },
+      {
+        "title": "Choisir les langues cibles",
+        "description": "Sélectionnez une ou plusieurs langues cibles dans la liste prise en charge par Papercup. Vous pouvez doubler dans des dizaines de langues pour une portée mondiale."
+      },
+      {
+        "title": "Personnaliser la voix et le style",
+        "description": "Choisissez dans la bibliothèque de voix de Papercup. Prenez les voix qui correspondent le mieux au ton de votre contenu, ou commandez une voix sur mesure pour votre marque."
+      },
+      {
+        "title": "Régler les préférences supplémentaires",
+        "description": "Définissez si besoin le genre, l'accent et l'émotion. Vous pouvez préciser des exigences pour chaque projet ou segment de vidéo."
+      },
+      {
+        "title": "Lancer le doublage par IA",
+        "description": "L'IA de Papercup transcrit la vidéo, traduit le script, génère des voix synthétiques et synchronise l'audio doublé avec la vidéo en conservant l'émotion."
+      },
+      {
+        "title": "Relire et modifier la transcription et l'audio",
+        "description": "Vérifiez la transcription et l'audio doublé générés par l'IA. Modifiez à la main les traductions ou le calage si besoin, pour la précision et le rythme."
+      },
+      {
+        "title": "Prévisualiser et approuver",
+        "description": "Prévisualisez la vidéo doublée pour la qualité et l'exactitude. Approuvez quand le résultat convient, ou renvoyez-la pour d'autres ajustements."
+      },
+      {
+        "title": "Télécharger et diffuser",
+        "description": "Exportez la vidéo doublée dans le format voulu. Utilisez le lien de téléchargement pour la diffuser, l'intégrer ou la publier sur vos plateformes.",
+        "links": [
+          {
+            "label": "Avis d'acquisition RWS",
+            "url": "https://www.investegate.co.uk/announcement/rns/rws-holdings--rws/acquisition-of-ip-of-papercup-/8949808"
+          }
+        ]
+      },
+      {
+        "title": "API et intégrations (avancé)",
+        "description": "Pour l'automatisation à grande échelle, utilisez l'API de Papercup pour envoyer des vidéos, récupérer les résultats et intégrer le doublage directement dans votre flux de travail.",
+        "links": [
+          {
+            "label": "Avis d'acquisition RWS",
+            "url": "https://www.investegate.co.uk/announcement/rns/rws-holdings--rws/acquisition-of-ip-of-papercup-/8949808"
+          }
+        ]
+      }
+    ],
+    "statusNote_fr": "Arrêté : RWS a acquis la propriété intellectuelle de Papercup le 26 juin 2025 et l'outil autonome a fermé. Aucune fiche successeur. papercup.com redirige vers une page RWS qui répond 202 aux clients non navigateurs."
   },
   "penpot": {
     "summary_fr": "Penpot est une plateforme open source de design et de prototypage pour les équipes transverses. Elle propose l'édition vectorielle collaborative et le prototypage interactif, et prend en charge les standards ouverts du web. Penpot fonctionne dans le navigateur et convient aux designers comme aux développeurs qui tiennent à la transparence et à l'extensibilité.",

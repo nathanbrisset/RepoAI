@@ -23,6 +23,12 @@ for (const name of batches) {
       summary_fr: value.summary_fr.trim(),
       description_fr: value.description_fr.trim(),
     }
+    if (Array.isArray(value.howToUse_fr) && value.howToUse_fr.length) {
+      french[id].howToUse_fr = value.howToUse_fr
+    }
+    if (typeof value.statusNote_fr === "string" && value.statusNote_fr.trim()) {
+      french[id].statusNote_fr = value.statusNote_fr.trim()
+    }
   }
 }
 

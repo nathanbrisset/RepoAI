@@ -194,5 +194,76 @@
   "perplexity-comet": {
     "summary_fr": "Le navigateur web de Perplexity, fondé sur l'IA.",
     "description_fr": "Comet est un navigateur web de Perplexity, doté d'un assistant IA intégré qui répond aux questions sur les pages, résume le contenu et peut accomplir des tâches comme l'envoi d'e-mails, les achats ou la recherche pendant que vous naviguez. Il est disponible pour Mac, Windows, iOS et Android. Comet est gratuit à télécharger et à utiliser depuis octobre 2025 ; un abonnement optionnel Comet Plus coûte 5 $/mois et est inclus avec Perplexity Pro et Max."
+  },
+  "papercup": {
+    "summary_fr": "Service de doublage vidéo par IA qui a fermé. Le domaine redirige vers RWS.",
+    "description_fr": "Papercup doublait des vidéos dans d'autres langues. RWS a annoncé le 26 juin 2025 avoir acquis la propriété intellectuelle de Papercup, et le service autonome est fermé. Le 21 octobre 2026, papercup.com redirigait vers une page RWS de localisation pour le doublage et la voix off par IA, avec un paramètre de campagne nommant une migration Papercup. Cette page répond HTTP 202 à un client non navigateur. support.papercup.com et docs.papercup.com ne se résolvent pas.",
+    "statusNote_fr": "Arrêté : RWS a acquis la propriété intellectuelle de Papercup le 26 juin 2025 et l'outil autonome a fermé. Aucune fiche successeur. papercup.com redirige vers une page RWS qui répond 202 aux clients non navigateurs.",
+    "howToUse_fr": [
+      {
+        "title": "Inscription et accès au tableau de bord Papercup",
+        "description": "Visitez Papercup et créez un compte pour votre entreprise ou votre projet. Connectez-vous pour accéder au tableau de bord où vous pouvez lancer de nouveaux projets de doublage.",
+        "links": [
+          {
+            "label": "Avis d'acquisition RWS",
+            "url": "https://www.investegate.co.uk/announcement/rns/rws-holdings--rws/acquisition-of-ip-of-papercup-/8949808"
+          }
+        ]
+      },
+      {
+        "title": "Démarrer un nouveau projet de doublage",
+        "description": "Cliquez sur « New Project » et importez votre fichier vidéo source. Papercup prend en charge la plupart des formats vidéo courants (MP4, MOV, etc.).",
+        "links": [
+          {
+            "label": "Avis d'acquisition RWS",
+            "url": "https://www.investegate.co.uk/announcement/rns/rws-holdings--rws/acquisition-of-ip-of-papercup-/8949808"
+          }
+        ]
+      },
+      {
+        "title": "Choisir les langues cibles",
+        "description": "Sélectionnez une ou plusieurs langues cibles dans la liste prise en charge par Papercup. Vous pouvez doubler dans des dizaines de langues pour une portée mondiale."
+      },
+      {
+        "title": "Personnaliser la voix et le style",
+        "description": "Choisissez dans la bibliothèque de voix de Papercup. Prenez les voix qui correspondent le mieux au ton de votre contenu, ou commandez une voix sur mesure pour votre marque."
+      },
+      {
+        "title": "Régler les préférences supplémentaires",
+        "description": "Définissez si besoin le genre, l'accent et l'émotion. Vous pouvez préciser des exigences pour chaque projet ou segment de vidéo."
+      },
+      {
+        "title": "Lancer le doublage par IA",
+        "description": "L'IA de Papercup transcrit la vidéo, traduit le script, génère des voix synthétiques et synchronise l'audio doublé avec la vidéo en conservant l'émotion."
+      },
+      {
+        "title": "Relire et modifier la transcription et l'audio",
+        "description": "Vérifiez la transcription et l'audio doublé générés par l'IA. Modifiez à la main les traductions ou le calage si besoin, pour la précision et le rythme."
+      },
+      {
+        "title": "Prévisualiser et approuver",
+        "description": "Prévisualisez la vidéo doublée pour la qualité et l'exactitude. Approuvez quand le résultat convient, ou renvoyez-la pour d'autres ajustements."
+      },
+      {
+        "title": "Télécharger et diffuser",
+        "description": "Exportez la vidéo doublée dans le format voulu. Utilisez le lien de téléchargement pour la diffuser, l'intégrer ou la publier sur vos plateformes.",
+        "links": [
+          {
+            "label": "Avis d'acquisition RWS",
+            "url": "https://www.investegate.co.uk/announcement/rns/rws-holdings--rws/acquisition-of-ip-of-papercup-/8949808"
+          }
+        ]
+      },
+      {
+        "title": "API et intégrations (avancé)",
+        "description": "Pour l'automatisation à grande échelle, utilisez l'API de Papercup pour envoyer des vidéos, récupérer les résultats et intégrer le doublage directement dans votre flux de travail.",
+        "links": [
+          {
+            "label": "Avis d'acquisition RWS",
+            "url": "https://www.investegate.co.uk/announcement/rns/rws-holdings--rws/acquisition-of-ip-of-papercup-/8949808"
+          }
+        ]
+      }
+    ]
   }
 }

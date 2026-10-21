@@ -85,7 +85,101 @@
   },
   "deepbrainai": {
     "summary_fr": "DeepBrain AI permet de générer des vidéos d'avatars humains réalistes à partir de scripts, dans plusieurs langues. Utilisé pour l'actualité, la formation et les contenus explicatifs, avec des présentateurs IA réalistes.",
-    "description_fr": "DeepBrain AI permet de générer des vidéos d'avatars humains réalistes à partir de scripts, dans plusieurs langues. Utilisé pour l'actualité, la formation et les contenus explicatifs, avec des présentateurs IA réalistes.\n\nGénérateur de vidéos par IA, texte vers vidéo, vidéos génératives, avatar personnalisé, 2 000+ avatars, doublage par IA avec traduction, TTS avec 150+ langues, et 7 000+ modèles de vidéo — pour la formation RH et les créateurs YouTube.\n\nAvatars de présentateurs d'actualité par IA : générez instantanément des vidéos professionnelles de style actualités avec des présentateurs numériques, en réduisant le temps et les coûts de production. Prise en charge multilingue : créez des vidéos dans plus de 80 langues, pour une portée mondiale et une image de marque cohérente sur différents marchés. Avatars personnalisés : importez votre propre visage ou choisissez parmi un ensemble varié de personas numériques pour correspondre à l'image de votre entreprise ou à votre public. Script vers vidéo simple : collez simplement votre script et recevez une vidéo soignée, menée par un présentateur, prête pour la publication ou un usage interne."
+    "description_fr": "DeepBrain AI permet de générer des vidéos d'avatars humains réalistes à partir de scripts, dans plusieurs langues. Utilisé pour l'actualité, la formation et les contenus explicatifs, avec des présentateurs IA réalistes.\n\nGénérateur de vidéos par IA, texte vers vidéo, vidéos génératives, avatar personnalisé, 2 000+ avatars, doublage par IA avec traduction, TTS avec 150+ langues, et 7 000+ modèles de vidéo — pour la formation RH et les créateurs YouTube.\n\nAvatars de présentateurs d'actualité par IA : générez instantanément des vidéos professionnelles de style actualités avec des présentateurs numériques, en réduisant le temps et les coûts de production. Prise en charge multilingue : créez des vidéos dans plus de 80 langues, pour une portée mondiale et une image de marque cohérente sur différents marchés. Avatars personnalisés : importez votre propre visage ou choisissez parmi un ensemble varié de personas numériques pour correspondre à l'image de votre entreprise ou à votre public. Script vers vidéo simple : collez simplement votre script et recevez une vidéo soignée, menée par un présentateur, prête pour la publication ou un usage interne.",
+    "howToUse_fr": [
+      {
+        "title": "Inscription et connexion",
+        "description": "Visitez le site DeepBrain AI (AI Studios) et créez un compte gratuit, sans carte bancaire. Vérifiez votre e-mail et connectez-vous au tableau de bord AI Studios.",
+        "links": [
+          {
+            "label": "aistudios.com",
+            "url": "https://www.aistudios.com"
+          }
+        ]
+      },
+      {
+        "title": "Créer un nouveau projet vidéo",
+        "description": "Cliquez sur « New Project » ou choisissez un modèle (entreprise, explicatif, formation, etc.). Les modèles donnent un point de départ structuré ; sinon, partez d'une page vierge.",
+        "links": [
+          {
+            "label": "aistudios.com",
+            "url": "https://www.aistudios.com"
+          }
+        ]
+      },
+      {
+        "title": "Choisir votre avatar IA",
+        "description": "Parcourez la bibliothèque d'avatars : plus de 80 avatars réalistes multilingues. Choisissez-en un qui correspond au ton, à la langue et au public du projet.",
+        "links": [
+          {
+            "label": "aistudios.com",
+            "url": "https://www.aistudios.com"
+          }
+        ]
+      },
+      {
+        "title": "Personnaliser l'arrière-plan et la scène",
+        "description": "Importez votre propre image d'arrière-plan ou choisissez parmi les options de la banque intégrée. Ajustez la position, l'échelle et le style des avatars selon votre design."
+      },
+      {
+        "title": "Écrire ou importer le script",
+        "description": "Utilisez le Script Assistant intégré ou collez le script directement dans chaque scène. Vous pouvez modifier le texte de chaque diapositive et générer automatiquement les sous-titres.",
+        "links": [
+          {
+            "label": "AI Studios",
+            "url": "https://www.aistudios.com/"
+          }
+        ]
+      },
+      {
+        "title": "Choisir la voix et la langue",
+        "description": "Choisissez parmi des voix IA dans plus de 80 langues, avec un ton et une vitesse réglables. Cela permet la localisation ou des contenus multilingues.",
+        "links": [
+          {
+            "label": "aistudios.com",
+            "url": "https://www.aistudios.com"
+          }
+        ]
+      },
+      {
+        "title": "Enrichir avec des médias et des effets",
+        "description": "Ajoutez des images, des formes, des animations, une musique de fond ou un audio personnalisé. Superposez les médias et animez-les d'une scène à l'autre.",
+        "links": [
+          {
+            "label": "AI Studios",
+            "url": "https://www.aistudios.com/"
+          }
+        ]
+      },
+      {
+        "title": "Prévisualiser et ajuster",
+        "description": "Lisez la vidéo pour vérifier le lip-sync de l'avatar, le rythme et les transitions. Modifiez si besoin : changez d'avatar, ajustez le rythme, affinez les visuels."
+      },
+      {
+        "title": "Exporter et publier",
+        "description": "Choisissez les options d'export (MP4, résolution, incrustation chroma si elle est prise en charge). Exportez le projet et téléchargez-le. Les résolutions plus élevées et les exports sans filigrane dépendent du niveau d'abonnement.",
+        "links": [
+          {
+            "label": "AI Studios",
+            "url": "https://www.aistudios.com/"
+          }
+        ]
+      },
+      {
+        "title": "Usage avancé et API",
+        "description": "Personnalisation de l'avatar et de la voix : choisissez des tenues et des styles, ajustez la précision du lip-sync. Intégration API : automatisez la production vidéo avec l'API AI Studios, générez des clés API, envoyez des scripts, interrogez les tâches et recevez des webhooks.",
+        "links": [
+          {
+            "label": "aistudios.com",
+            "url": "https://www.aistudios.com"
+          },
+          {
+            "label": "docs.deepbrain.io",
+            "url": "https://docs.deepbrain.io"
+          }
+        ]
+      }
+    ]
   },
   "deepcode": {
     "summary_fr": "Snyk Code est l'outil d'analyse SAST des vulnérabilités de code et de correction automatique le plus rapide et le plus complet. Essayez gratuitement les solutions de scanner de code de Snyk, ou réservez une démo en direct.",
