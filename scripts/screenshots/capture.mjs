@@ -193,6 +193,9 @@ function setImageField(file, image) {
 
 async function launchBrowser() {
   const args = ["--no-sandbox", "--disable-dev-shm-usage", "--disable-blink-features=AutomationControlled"]
+  if (process.env.SCREENSHOTS_BROWSER === "chromium") {
+    return chromium.launch({ headless: true, args })
+  }
   try {
     return await chromium.launch({ headless: true, channel: "chrome", args })
   } catch {

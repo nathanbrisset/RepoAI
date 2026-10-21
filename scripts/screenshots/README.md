@@ -29,3 +29,18 @@ node scripts/screenshots/capture.mjs --concurrency 4
 `--prune-orphans` supprime, après la passe, les PNG de `public/tool-screenshots` qu'aucune fiche ne référence plus.
 
 Le rapport des captures ratées est réécrit dans `scripts/screenshots/REPORT.md`. L'audit des images d'origine (manquantes, 404, partagées, hors sujet) est dans `scripts/screenshots/AUDIT.md`.
+
+## Workflow mensuel
+
+`.github/workflows/screenshots.yml` tourne le 1er de chaque mois à 06:00 UTC, et à la demande avec `workflow_dispatch`. Il installe les dépendances et Chromium (`npx playwright install --with-deps chromium`), relance la capture sur les fiches hors sunset, puis ne conserve que les captures **réussies** dont l'image diffère vraiment de celle déjà versionnée (écart absolu moyen d'au moins 8 sur une réduction 64×40, voir `keep-changed.mjs`).
+
+Le job ouvre, ou met à jour, une pull request de la branche `screenshots/monthly` vers `restore3-new`, avec ces images et `scripts/screenshots/REPORT.md`. Il ne pousse ni sur `restore3-new` ni sur `main`, et il ne merge rien.
+
+Le `GITHUB_TOKEN` du workflow n'a que `contents: write` (pousser la branche du bot) et `pull-requests: write` (ouvrir ou éditer la PR).
+
+À activer dans le dépôt (Settings → Actions → General) :
+
+- **Workflow permissions** : « Read and write permissions ». Le réglage « Read repository contents » bloque le push de `screenshots/monthly` même si le workflow demande `contents: write`.
+- **Allow GitHub Actions to create and approve pull requests**. Sans cette case, le `GITHUB_TOKEN` ne peut pas ouvrir la PR.
+
+Le cron GitHub part uniquement de la branche par défaut du dépôt (`main`). Le fichier de workflow doit donc y être présent pour que le mois se déclenche. `workflow_dispatch` apparaît dans l'onglet Actions une fois ce fichier sur cette branche. La branche `restore3-new` doit exister : c'est la base de la PR automatique.
