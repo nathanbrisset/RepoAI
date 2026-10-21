@@ -1,0 +1,54 @@
+{
+  "id": "hugo-ai",
+  "name": "Hugo AI",
+  "url": "https://hugo.ai/en/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Hugo is an AI-powered support agent that resolves tickets faster, automates repetitive tasks, and serves your customers 24/7.",
+  "description": "Hugo is an AI-powered support agent that resolves tickets faster, automates repetitive tasks, and serves your customers 24/7.\n\nMeeting Notes: Facilitates real-time note-taking during meetings. Agenda Templates: Provides templates to structure meeting agendas. Task Management: Assigns and tracks action items from meetings. Integration: Syncs with calendar and project management tools.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Meetings",
+    "Notes",
+    "Tasks"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/hugo-ai.png",
+  "image": "/tool-screenshots/hugo-ai.png",
+  "dateAdded": "2021-12-15",
+  "lastVerified": null,
+  "features": [
+    "Meeting Notes: Facilitates real-time note-taking during meetings.",
+    "Agenda Templates: Provides templates to structure meeting agendas.",
+    "Task Management: Assigns and tracks action items from meetings.",
+    "Integration: Syncs with calendar and project management tools."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Connect Calendar",
+      "description": "Register and integrate Hugo AI with your calendar.",
+      "links": [
+        {
+          "label": "Hugo AI",
+          "url": "https://hugo.ai"
+        }
+      ]
+    },
+    {
+      "title": "Schedule & Join Meetings",
+      "description": "Use Hugo to take notes and track tasks live."
+    },
+    {
+      "title": "Review & Assign Tasks",
+      "description": "Check notes and assign or track meeting follow-ups."
+    }
+  ]
+}

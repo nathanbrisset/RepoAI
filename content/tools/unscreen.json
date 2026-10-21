@@ -1,0 +1,66 @@
+{
+  "id": "unscreen",
+  "name": "Unscreen",
+  "url": "https://www.unscreen.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Unscreen allows you to remove video backgrounds automatically without a green screen. Ideal for social content, memes, and remote presentations.",
+  "description": "Unscreen allows you to remove video backgrounds automatically without a green screen. Ideal for social content, memes, and remote presentations.\n\nAutomatic background removal: Instantly removes video backgrounds without needing a green screen or manual masking. Supports GIF, MOV, MP4: Works with multiple video and animation formats for broad compatibility. Batch upload: Process many videos at once for efficient content creation. Custom backgrounds: Replace backgrounds with images, colors, or other videos to suit your project.",
+  "categories": [
+    "video",
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Background Removal",
+    "Editing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/unscreen.png",
+  "image": "/tool-screenshots/unscreen.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "Automatic background removal: Instantly removes video backgrounds without needing a green screen or manual masking.",
+    "Supports GIF, MOV, MP4: Works with multiple video and animation formats for broad compatibility.",
+    "Batch upload: Process many videos at once for efficient content creation.",
+    "Custom backgrounds: Replace backgrounds with images, colors, or other videos to suit your project."
+  ],
+  "howToUse": [
+    {
+      "title": "Go to Unscreen",
+      "description": "Visit the Unscreen website. You can use it online without registration for smaller files, or sign up for batch and advanced features.",
+      "links": [
+        {
+          "label": "Unscreen",
+          "url": "https://www.unscreen.com"
+        }
+      ]
+    },
+    {
+      "title": "Upload Your Video or GIF",
+      "description": "Click 'Upload Clip' and select your video or GIF. Supported formats include MP4, MOV, and GIF."
+    },
+    {
+      "title": "Automatic Background Removal",
+      "description": "Let Unscreen process the video. The background will be removed automatically, no green screen required."
+    },
+    {
+      "title": "Customize Background (Optional)",
+      "description": "Add a new background: choose a solid color, upload an image, or select a video background for your subject."
+    },
+    {
+      "title": "Preview & Download",
+      "description": "Preview the output and download your video or GIF with the new background. Free version may include a watermark."
+    },
+    {
+      "title": "Batch Processing (Pro)",
+      "description": "If you need to process many videos, sign up for a paid plan and use Unscreen Pro for batch uploads and higher resolution output."
+    }
+  ]
+}

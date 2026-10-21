@@ -1,25 +1,36 @@
-import { Star, Image as ImageIcon } from "lucide-react"
+import { Image as ImageIcon } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import type { Tool } from "@/lib/types"
 
+function categoryLabel(id: string) {
+  return id.replace(/-/g, " ")
+}
+
+const STATUS_LABEL: Record<string, string> = {
+  sunset: "Closed",
+  renamed: "Renamed",
+  "duplicate-of": "Duplicate",
+}
+
 interface ToolCardProps {
   tool: Tool
 }
 
 export default function ToolCard({ tool }: ToolCardProps) {
+  const visual = tool.image || tool.logo
   return (
     <Card className="border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all">
       <Link href={`/tool/${tool.id}`} className="block">
         <div className="relative bg-gray-100 flex items-center justify-center" style={{height: 160}}>
-          {tool.image ? (
+          {visual ? (
           <Image
-            src={tool.image}
+            src={visual}
             alt={tool.name}
             fill
-              className="object-cover"
+              className={tool.image ? "object-cover" : "object-contain p-8"}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
           ) : (
@@ -27,18 +38,17 @@ export default function ToolCard({ tool }: ToolCardProps) {
           )}
         </div>
         <CardContent className="p-5 pb-2">
-          <div className="flex justify-between items-center mb-1">
+          <div className="flex justify-between items-center mb-1 gap-2">
             <h3 className="font-extrabold text-lg text-gray-900 truncate">{tool.name}</h3>
-            <div className="flex items-center ml-2">
-              <Star className="h-4 w-4 fill-yellow-400 text-yellow-400 mr-1" />
-              <span className="text-sm font-semibold text-gray-700">{tool.rating.toFixed(1)}</span>
-            </div>
+            {tool.status && tool.status !== "active" && (
+              <Badge variant="outline" className="text-xs shrink-0">{STATUS_LABEL[tool.status] || tool.status}</Badge>
+            )}
           </div>
           <p className="text-gray-700 text-sm mb-3 line-clamp-2">{tool.description}</p>
           <div className="flex flex-wrap gap-2 mb-2">
             {tool.categories.map((category) => (
               <Badge key={category} variant="secondary" className="text-xs capitalize">
-                {category}
+                {categoryLabel(category)}
               </Badge>
             ))}
           </div>
@@ -67,8 +77,8 @@ export default function ToolCard({ tool }: ToolCardProps) {
         </CardContent>
       </Link>
       <CardFooter className="px-5 pb-4 pt-0 flex justify-between text-xs text-gray-500">
-        <span>{new Date(tool.dateAdded).toLocaleDateString()}</span>
-        <span>{tool.visits.toLocaleString()} visits</span>
+        <span>{tool.dateAdded ? new Date(tool.dateAdded).toLocaleDateString() : "Date not recorded"}</span>
+        {tool.pricing?.verified === false && <span>Price not rechecked</span>}
       </CardFooter>
     </Card>
   )

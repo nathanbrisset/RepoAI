@@ -1,0 +1,58 @@
+{
+  "id": "github-copilot",
+  "name": "GitHub Copilot",
+  "url": "https://github.com/features/copilot",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "GitHub Copilot works every step of the way, from an open issue to reviewing and merging a pull request. Use it in your editor, the terminal, on your desktop, and on GitHub.",
+  "description": "GitHub Copilot works every step of the way, from an open issue to reviewing and merging a pull request. Use it in your editor, the terminal, on your desktop, and on GitHub.\n\nAI Code Completions: Suggest code snippets based on context. Natural Language Chat: Interact with codebase using conversational queries. Smart Actions: Enhance productivity with AI-driven suggestions. Pull Request Summaries: Generate summaries for code changes.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Code Completion",
+    "Pair Programming",
+    "IDE Integration"
+  ],
+  "pricing": {
+    "model": "open-source",
+    "label": "Open source",
+    "verified": false,
+    "note": "The official link is a GitHub repository. The license and any paid hosting were not rechecked."
+  },
+  "logo": "/logos/github-copilot.png",
+  "image": "/tool-screenshots/github-copilot.png",
+  "dateAdded": "2021-06-29",
+  "lastVerified": null,
+  "features": [
+    "AI Code Completions: Suggest code snippets based on context.",
+    "Natural Language Chat: Interact with codebase using conversational queries.",
+    "Smart Actions: Enhance productivity with AI-driven suggestions.",
+    "Pull Request Summaries: Generate summaries for code changes."
+  ],
+  "howToUse": [
+    {
+      "title": "Enable Copilot in IDE",
+      "description": "Install GitHub Copilot extension in VS Code, JetBrains, or compatible editors.",
+      "links": [
+        {
+          "label": "GitHub Copilot",
+          "url": "https://github.com/features/copilot"
+        }
+      ]
+    },
+    {
+      "title": "Write Code",
+      "description": "Start coding as usual—Copilot will suggest completions and snippets."
+    },
+    {
+      "title": "Accept or Refine Suggestions",
+      "description": "Review and accept, reject, or edit Copilot suggestions in real time."
+    },
+    {
+      "title": "Chat & Summarize",
+      "description": "Use chat or summary features for deeper code understanding."
+    }
+  ]
+}

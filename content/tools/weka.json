@@ -1,0 +1,59 @@
+{
+  "id": "weka",
+  "name": "Weka",
+  "url": "https://ml.cms.waikato.ac.nz/weka/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Weka is a popular open-source collection of machine learning algorithms for data mining tasks, developed at the University of Waikato. Weka features a graphical user interface for easy access to powerful data preprocessing, modeling, and visualization tools. It includes a comprehensive suite of algorithms for classification, regression, clustering, and feature selection. Weka is widely used in education and research for teaching, prototyping, and experimenting with machine learning techniques on structured datasets.",
+  "description": "Weka is a popular open-source collection of machine learning algorithms for data mining tasks, developed at the University of Waikato. Weka features a graphical user interface for easy access to powerful data preprocessing, modeling, and visualization tools. It includes a comprehensive suite of algorithms for classification, regression, clustering, and feature selection. Weka is widely used in education and research for teaching, prototyping, and experimenting with machine learning techniques on structured datasets.\n\nComprehensive Algorithms: Wide range of classification, regression, and clustering methods. Interactive Visualization: Tools for exploring and understanding datasets. Preprocessing Utilities: Support for data cleaning, filtering, and transformation. Extensible Framework: Plugin support for adding new methods and integrations.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "Machine Learning",
+    "Data Mining",
+    "Open Source"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/weka.png",
+  "image": "/tool-screenshots/weka.png",
+  "dateAdded": null,
+  "lastVerified": null,
+  "dateAddedNote": "The previous Added date was 2000-07-01. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Comprehensive Algorithms: Wide range of classification, regression, and clustering methods.",
+    "Interactive Visualization: Tools for exploring and understanding datasets.",
+    "Preprocessing Utilities: Support for data cleaning, filtering, and transformation.",
+    "Extensible Framework: Plugin support for adding new methods and integrations.",
+    "User-Friendly Interface: Intuitive GUI for non-programmers and rapid prototyping."
+  ],
+  "howToUse": [
+    {
+      "title": "Download and Install Weka",
+      "description": "Get Weka from the official website and install it on your computer.",
+      "links": [
+        {
+          "label": "Weka",
+          "url": "https://www.cs.waikato.ac.nz/ml/weka/"
+        }
+      ]
+    },
+    {
+      "title": "Open the GUI",
+      "description": "Launch the Weka GUI and select the desired application (Explorer, Experimenter, etc.)."
+    },
+    {
+      "title": "Load Your Data",
+      "description": "Import datasets in ARFF, CSV, or other supported formats."
+    },
+    {
+      "title": "Apply Algorithms and Visualize",
+      "description": "Select and run machine learning algorithms, visualize results, and export models."
+    }
+  ]
+}

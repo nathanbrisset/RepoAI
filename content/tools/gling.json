@@ -1,0 +1,66 @@
+{
+  "id": "gling",
+  "name": "Gling",
+  "url": "https://www.gling.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Gling is an AI video editor for YouTubers that automatically removes silences, bad takes, and stutters, speeding up the editing process for vlogs and interviews.",
+  "description": "Gling is an AI video editor for YouTubers that automatically removes silences, bad takes, and stutters, speeding up the editing process for vlogs and interviews.\n\nGling’s AI video editing software is designed for YouTube creators. Optimize your workflow by automatically cutting out bad takes, silent moments, filler words, and background noise, ensuring your content is polished and engaging.\n\nSilence removal: Uses AI to detect and cut out pauses and dead air, making videos more engaging and concise. Bad take detection: Identifies and removes mistakes, retakes, or repeated lines for a polished final product. Timeline export: Provides clean project files for further editing in your favorite NLE. Batch processing: Edit multiple videos in one go, saving countless hours for creators.",
+  "categories": [
+    "video",
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Editing",
+    "YouTube"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/gling.png",
+  "image": "/tool-screenshots/gling.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "Silence removal: Uses AI to detect and cut out pauses and dead air, making videos more engaging and concise.",
+    "Bad take detection: Identifies and removes mistakes, retakes, or repeated lines for a polished final product.",
+    "Timeline export: Provides clean project files for further editing in your favorite NLE.",
+    "Batch processing: Edit multiple videos in one go, saving countless hours for creators."
+  ],
+  "howToUse": [
+    {
+      "title": "Download and Install Gling",
+      "description": "Visit Gling.ai, sign up, and download the desktop app for Windows or Mac. Install and launch the application.",
+      "links": [
+        {
+          "label": "Gling",
+          "url": "https://www.gling.ai"
+        }
+      ]
+    },
+    {
+      "title": "Start a New Project",
+      "description": "Open Gling and create a new project. Import your raw video footage (supported formats: MP4, MOV, etc.)."
+    },
+    {
+      "title": "Run AI Editing",
+      "description": "Click the 'Process' button to have Gling automatically remove silences, bad takes, filler words, and stutters."
+    },
+    {
+      "title": "Review and Adjust",
+      "description": "Preview the AI-edited result. Restore or remove segments as needed for pacing and flow."
+    },
+    {
+      "title": "Export Timeline",
+      "description": "Export your cleaned timeline for further editing in your preferred video editor (Premiere, Final Cut, DaVinci Resolve, etc.)."
+    },
+    {
+      "title": "Batch Editing (Optional)",
+      "description": "Use batch mode to process several videos at once, perfect for bulk YouTube content or podcast cleanups."
+    }
+  ]
+}

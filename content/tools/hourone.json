@@ -1,0 +1,131 @@
+{
+  "id": "hourone",
+  "name": "Hour One",
+  "url": "https://www.hourone.ai",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "Avatar video platform. The site no longer completes a TLS handshake.",
+  "description": "Hour One turned scripts into presenter videos. On 21 October 2026, hourone.ai failed during the TLS handshake, so the Visit link does not open. Independent write-ups say Wix acquired the company in 2025 and the standalone app was discontinued. This pass did not read a vendor shutdown notice.",
+  "categories": [
+    "video",
+    "marketing"
+  ],
+  "tags": [
+    "AI",
+    "Avatar",
+    "Training"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "No live pricing page. The previous Premium label was not rechecked."
+  },
+  "logo": "/logos/hourone.png",
+  "image": "/tool-screenshots/hourone.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Script-to-presenter video: Easily transform a written script into a professional video with a realistic AI presenter, reducing production time.",
+    "AI character library: Select from a wide range of digital humans to match your brand or audience demographics.",
+    "Integrations: Use via API or connect with learning management systems to automate large-scale video creation.",
+    "Multi-language support: Expand your training and onboarding reach with videos in multiple languages and accents."
+  ],
+  "howToUse": [
+    {
+      "title": "Create an Hour One Account",
+      "description": "Visit the Hour One website and register for an account. Verify your email to activate and access your dashboard.",
+      "links": [
+        {
+          "label": "Hour One",
+          "url": "https://www.hourone.ai"
+        }
+      ]
+    },
+    {
+      "title": "Start a New Project",
+      "description": "Click 'New Project' and select your template (business, explainer, onboarding, etc.), or begin from scratch for custom presentations.",
+      "links": [
+        {
+          "label": "Templates",
+          "url": "https://www.hourone.ai/templates"
+        }
+      ]
+    },
+    {
+      "title": "Pick Your AI Presenter",
+      "description": "Browse the Hour One character library and choose an avatar that fits your project's tone, language, and audience.",
+      "links": [
+        {
+          "label": "Character Library",
+          "url": "https://www.hourone.ai/characters"
+        }
+      ]
+    },
+    {
+      "title": "Write or Paste Script",
+      "description": "Write your script in the editor, or paste/import content from a document. Each slide/scene can have its own text.",
+      "links": [
+        {
+          "label": "Script Tips",
+          "url": "https://www.hourone.ai/help/script"
+        }
+      ]
+    },
+    {
+      "title": "Voice & Language Selection",
+      "description": "Select from a variety of AI voices and languages for narration. You can localize content for different regions.",
+      "links": [
+        {
+          "label": "Voice Options",
+          "url": "https://www.hourone.ai/features"
+        }
+      ]
+    },
+    {
+      "title": "Customize Scenes",
+      "description": "Change background images, add your own logos or graphics, and arrange elements for each video segment.",
+      "links": [
+        {
+          "label": "Scene Customization",
+          "url": "https://www.hourone.ai/help/customization"
+        }
+      ]
+    },
+    {
+      "title": "Enhance with Media & Transitions",
+      "description": "Include images, video clips, animations, and smooth transitions to make your video more dynamic and engaging."
+    },
+    {
+      "title": "Preview & Edit",
+      "description": "Preview the complete video, review presenter performance, and make changes to timing, visuals, or narration as needed.",
+      "links": [
+        {
+          "label": "Help Center",
+          "url": "https://www.hourone.ai/support"
+        }
+      ]
+    },
+    {
+      "title": "Export & Download",
+      "description": "Export your video in different resolutions (HD/4K with premium). Download as MP4 or get a shareable link.",
+      "links": [
+        {
+          "label": "Export Guide",
+          "url": "https://www.hourone.ai/help/export"
+        }
+      ]
+    },
+    {
+      "title": "API & Bulk Automation (Advanced)",
+      "description": "Access Hour One's API and automation tools to generate videos at scale for e-learning, onboarding, or marketing campaigns.",
+      "links": [
+        {
+          "label": "API Docs",
+          "url": "https://www.hourone.ai/api"
+        }
+      ]
+    }
+  ],
+  "statusNote": "TLS handshake failed on 21 October 2026."
+}

@@ -1,0 +1,53 @@
+{
+  "id": "recraft",
+  "name": "Recraft",
+  "url": "https://www.recraft.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Recraft is a top-ranked text-to-image model and design platform for photorealism, vector generation, custom styles, mockups, and more",
+  "description": "Recraft is a top-ranked text-to-image model and design platform for photorealism, vector generation, custom styles, mockups, and more\n\nVector Art Generation: Produces scalable vector images from prompts. Style Transfer: Applies different artistic styles to images. Batch Processing: Handles multiple images simultaneously. Customizable Outputs: Allows adjustments to generated images.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "Vector",
+    "Illustration",
+    "Branding Assets"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/recraft.png",
+  "image": "/tool-screenshots/recraft.png",
+  "dateAdded": "2023-06-20",
+  "lastVerified": null,
+  "features": [
+    "Vector Art Generation: Produces scalable vector images from prompts.",
+    "Style Transfer: Applies different artistic styles to images.",
+    "Batch Processing: Handles multiple images simultaneously.",
+    "Customizable Outputs: Allows adjustments to generated images."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Recraft",
+      "description": "Register for a free account and open the Recraft editor.",
+      "links": [
+        {
+          "label": "Recraft",
+          "url": "https://www.recraft.ai"
+        }
+      ]
+    },
+    {
+      "title": "Create or Edit Vector Art",
+      "description": "Generate illustrations from prompts or upload and modify images."
+    },
+    {
+      "title": "Apply Styles & Export",
+      "description": "Customize styles and download assets for use in design projects."
+    }
+  ]
+}

@@ -55,7 +55,7 @@ export default async function Page(props: any) {
                 <h1 className="text-4xl font-bold text-gray-900">{tool.name}</h1>
                 <div className="flex items-center">
                   <Star className="h-5 w-5 fill-yellow-400 text-yellow-400 mr-1" />
-                  <span className="text-lg font-semibold text-gray-700">{tool.rating.toFixed(1)}</span>
+                  <span className="text-lg font-semibold text-gray-700">{typeof tool.rating === "number" ? tool.rating.toFixed(1) : "—"}</span>
                 </div>
               </div>
 

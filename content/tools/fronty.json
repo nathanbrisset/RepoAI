@@ -1,0 +1,59 @@
+{
+  "id": "fronty",
+  "name": "Fronty",
+  "url": "https://fronty.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Converts mockups into HTML/CSS code using AI, aiding in rapid front-end development.",
+  "description": "Converts mockups into HTML/CSS code using AI, aiding in rapid front-end development.\n\nMockup to code: Turn image designs into HTML/CSS automatically. Color and font extraction: Detect and apply styles from images. Responsive layout: Create layouts optimized for any device. Live preview: Instantly see generated website results.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "AI",
+    "HTML",
+    "CSS",
+    "Mockup Conversion"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/fronty.png",
+  "image": "/tool-screenshots/fronty.png",
+  "dateAdded": "2023-05-18",
+  "lastVerified": null,
+  "features": [
+    "Mockup to code: Turn image designs into HTML/CSS automatically.",
+    "Color and font extraction: Detect and apply styles from images.",
+    "Responsive layout: Create layouts optimized for any device.",
+    "Live preview: Instantly see generated website results.",
+    "One-click export: Download complete source code easily."
+  ],
+  "howToUse": [
+    {
+      "title": "Upload a Mockup",
+      "description": "Visit Fronty and upload your image mockup.",
+      "links": [
+        {
+          "label": "Fronty",
+          "url": "https://fronty.com/"
+        }
+      ]
+    },
+    {
+      "title": "Review Generated Code",
+      "description": "Preview the automatically generated HTML/CSS layout."
+    },
+    {
+      "title": "Edit and Customize",
+      "description": "Make any required adjustments to the code or layout."
+    },
+    {
+      "title": "Export Source Code",
+      "description": "Download the finished website code in one click."
+    }
+  ]
+}

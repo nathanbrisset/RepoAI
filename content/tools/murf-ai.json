@@ -1,0 +1,58 @@
+{
+  "id": "murf-ai",
+  "name": "Murf.ai",
+  "url": "https://murf.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Provides AI-generated voiceovers with realistic voices and features like grammar assistance and voice editors, suitable for various applications.",
+  "description": "Provides AI-generated voiceovers with realistic voices and features like grammar assistance and voice editors, suitable for various applications.\n\nGenerate human-like speech and deploy Conversational agents with Murf AI. The complete AI Voice platform trusted by 10 million+ developers, businesses, and creators.\n\nDiverse Voice Library: Access to over 200 realistic voices across 20+ languages. Voice Cloning: Enables creation of custom voices for personalized content. AI Voice Changer: Transforms recorded voices into professional-sounding narrations. Seamless Integrations: Compatible with platforms like Canva and Google Slides.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Voiceover",
+    "Presentations",
+    "Text To Speech"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/murf-ai.png",
+  "image": "/tool-screenshots/murf-ai.png",
+  "dateAdded": "2023-02-20",
+  "lastVerified": null,
+  "features": [
+    "Diverse Voice Library: Access to over 200 realistic voices across 20+ languages.",
+    "Voice Cloning: Enables creation of custom voices for personalized content.",
+    "AI Voice Changer: Transforms recorded voices into professional-sounding narrations.",
+    "Seamless Integrations: Compatible with platforms like Canva and Google Slides."
+  ],
+  "howToUse": [
+    {
+      "title": "Create Account & Access Studio",
+      "description": "Register and log in to Murf Studio.",
+      "links": [
+        {
+          "label": "Murf.ai",
+          "url": "https://murf.ai"
+        }
+      ]
+    },
+    {
+      "title": "Upload or Input Script",
+      "description": "Paste text or upload scripts for voiceover generation."
+    },
+    {
+      "title": "Select Voice & Customize",
+      "description": "Choose a voice, adjust pitch, speed, and add emphasis."
+    },
+    {
+      "title": "Generate & Download",
+      "description": "Produce the voiceover and export audio files for use."
+    }
+  ]
+}

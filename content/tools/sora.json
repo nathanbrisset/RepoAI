@@ -1,0 +1,32 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/sora.png",
+  "image": "",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "sunset",
+  "id": "sora",
+  "name": "Sora",
+  "url": "https://openai.com/index/sora/",
+  "summary": "OpenAI’s text-to-video product. The app was discontinued on 26 April 2026.",
+  "description": "OpenAI’s help center says the Sora web and app experiences were discontinued on 26 April 2026, and the Sora API on 24 September 2026. Both dates are before this catalog update. The announcement page says the product is no longer available and points people to image creation in ChatGPT. Do not list Sora as a tool you can open.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "Video",
+    "Discontinued"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "sourceUrl": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+    "note": "No current plan. The product is discontinued."
+  },
+  "statusNote": "Discontinued. Help center checked 21 October 2026.",
+  "sources": [
+    "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+    "https://openai.com/index/sora/"
+  ]
+}

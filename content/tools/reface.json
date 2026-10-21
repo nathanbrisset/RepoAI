@@ -1,0 +1,65 @@
+{
+  "id": "reface",
+  "name": "Reface",
+  "url": "https://reface.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Reface is an AI-powered app for face-swapping in short videos, GIFs, and memes. Popular for social media and entertainment.",
+  "description": "Reface is an AI-powered app for face-swapping in short videos, GIFs, and memes. Popular for social media and entertainment.\n\nFace swap for video, GIF, and images: Instantly overlay your face onto trending clips or memes for viral social content. Viral meme generator: Pick from thousands of templates to create and share popular memes in seconds. Template library: Access a huge collection of prebuilt video and GIF templates for face swap fun. Mobile app: Edit and share on the go with iOS and Android support, perfect for creators and influencers.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "AI",
+    "Face Swap",
+    "Memes"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/reface.png",
+  "image": "/tool-screenshots/reface.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "Face swap for video, GIF, and images: Instantly overlay your face onto trending clips or memes for viral social content.",
+    "Viral meme generator: Pick from thousands of templates to create and share popular memes in seconds.",
+    "Template library: Access a huge collection of prebuilt video and GIF templates for face swap fun.",
+    "Mobile app: Edit and share on the go with iOS and Android support, perfect for creators and influencers."
+  ],
+  "howToUse": [
+    {
+      "title": "Download and Open App",
+      "description": "Download the Reface app from the App Store or Google Play and open the app on your device.",
+      "links": [
+        {
+          "label": "Reface App",
+          "url": "https://www.reface.ai"
+        }
+      ]
+    },
+    {
+      "title": "Upload or Take a Selfie",
+      "description": "Use your device camera to take a selfie or upload a photo. Make sure the face is clear and well-lit for best results."
+    },
+    {
+      "title": "Choose a Template",
+      "description": "Select from thousands of trending videos, GIFs, and meme templates in the app’s library."
+    },
+    {
+      "title": "Apply Face Swap",
+      "description": "Let Reface’s AI automatically swap your face onto the selected template. Preview the animated result instantly."
+    },
+    {
+      "title": "Edit & Download",
+      "description": "Trim, crop, or add effects as desired. Download the final GIF, video, or meme to your device."
+    },
+    {
+      "title": "Share to Social Media",
+      "description": "Share your creation directly to Instagram, TikTok, Messenger, or other social platforms straight from the app."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "relume",
+  "name": "Relume",
+  "url": "https://www.relume.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Relume is an AI-powered site builder that generates website wireframes, copy, and design with simple prompts. Focused on rapid prototyping and agency workflows, it enables quick iteration and seamless export to Figma or Webflow.",
+  "description": "Relume is an AI-powered site builder that generates website wireframes, copy, and design with simple prompts. Focused on rapid prototyping and agency workflows, it enables quick iteration and seamless export to Figma or Webflow.\n\nBuild from the human-made component system behind 2M+ websites. Publish and grow your site in Relume, or export to Webflow, Figma & React. Free to start.\n\nPrompt-Based Generation: Build site wireframes from descriptions. AI Copywriting: Instantly generate and edit website content. Export Options: Send designs to Figma or Webflow. Library of Blocks: Mix-and-match prebuilt components.",
+  "categories": [
+    "design",
+    "coding"
+  ],
+  "tags": [
+    "Wireframe",
+    "AI Copy",
+    "Webflow",
+    "Agency"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/relume.png",
+  "image": "/tool-screenshots/relume.png",
+  "dateAdded": "2023-06-01",
+  "lastVerified": null,
+  "features": [
+    "Prompt-Based Generation: Build site wireframes from descriptions.",
+    "AI Copywriting: Instantly generate and edit website content.",
+    "Export Options: Send designs to Figma or Webflow.",
+    "Library of Blocks: Mix-and-match prebuilt components.",
+    "Collaboration: Share and iterate with team members."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Start a Project",
+      "description": "Register on Relume, then start a new site project.",
+      "links": [
+        {
+          "label": "Relume",
+          "url": "https://relume.io"
+        }
+      ]
+    },
+    {
+      "title": "Describe Your Site",
+      "description": "Enter a prompt describing the purpose and features of your site."
+    },
+    {
+      "title": "Generate & Edit Wireframe",
+      "description": "Let AI build your site’s structure and content. Modify and refine as needed."
+    },
+    {
+      "title": "Export or Share",
+      "description": "Export your site wireframe to Figma/Webflow, or share with your team."
+    }
+  ]
+}

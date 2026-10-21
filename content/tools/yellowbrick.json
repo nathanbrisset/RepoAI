@@ -1,0 +1,54 @@
+{
+  "id": "yellowbrick",
+  "name": "Yellowbrick",
+  "url": "https://www.scikit-yb.org/en/latest/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Visual analysis and diagnostic tools for machine learning models.",
+  "description": "Visual analysis and diagnostic tools for machine learning models.\n\nVisual Analysis of Machine Learning Models: Provides visualizations to understand model performance. Integration with Scikit-Learn: Works alongside popular Python machine learning libraries. Diagnostic Tools: Offers tools to diagnose issues like overfitting. Feature Visualization: Helps in understanding the importance and impact of features.",
+  "categories": [
+    "coding",
+    "data-processing"
+  ],
+  "tags": [
+    "AI",
+    "Visualization",
+    "Machine Learning"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/yellowbrick.png",
+  "image": "/tool-screenshots/yellowbrick.png",
+  "dateAdded": "2023-06-01",
+  "lastVerified": null,
+  "features": [
+    "Visual Analysis of Machine Learning Models: Provides visualizations to understand model performance.",
+    "Integration with Scikit-Learn: Works alongside popular Python machine learning libraries.",
+    "Diagnostic Tools: Offers tools to diagnose issues like overfitting.",
+    "Feature Visualization: Helps in understanding the importance and impact of features."
+  ],
+  "howToUse": [
+    {
+      "title": "Install Yellowbrick",
+      "description": "Add Yellowbrick to your Python environment using pip.",
+      "links": [
+        {
+          "label": "Yellowbrick",
+          "url": "https://www.scikit-yb.org"
+        }
+      ]
+    },
+    {
+      "title": "Import & Visualize",
+      "description": "Import Yellowbrick in your code and call visualizers on scikit-learn models."
+    },
+    {
+      "title": "Analyze & Interpret Results",
+      "description": "Review plots for diagnostics, feature importance, and model evaluation."
+    }
+  ]
+}

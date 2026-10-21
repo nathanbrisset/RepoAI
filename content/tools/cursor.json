@@ -1,0 +1,64 @@
+{
+  "id": "cursor",
+  "name": "Cursor",
+  "url": "https://cursor.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI coding editor and agent. cursor.sh redirects here.",
+  "description": "Cursor is an AI coding product. Its homepage says agents turn ideas into code. cursor.sh redirected to cursor.com on 21 October 2026. The pricing page the same day listed Free at $0 with limited AI usage, Plus at $8/month, Premium at $30/month, Super at $100/month, Ultra at $200/month, and Teams from $30 per user each month. The page also mentions Grok models and says third-party model usage is billed separately. The old Free-only label is wrong.",
+  "categories": [
+    "coding",
+    "design"
+  ],
+  "tags": [
+    "AI",
+    "Coding",
+    "Editor",
+    "Development"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Free $0, Plus $8, Premium $30, Super $100, Ultra $200 per month. Teams from $30/user/month. Third-party models billed separately.",
+    "sourceUrl": "https://cursor.com/pricing"
+  },
+  "logo": "/logos/cursor.png",
+  "image": "/tool-screenshots/cursor.png",
+  "dateAdded": "2023-01-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI Code Review: Highlights logic flaws and inefficiencies.",
+    "Copilot Integration: Chat with code using natural language.",
+    "Refactoring Suggestions: Restructures code for readability and efficiency.",
+    "IDE-Like Environment: Works in a web-based AI IDE with debugging tools."
+  ],
+  "howToUse": [
+    {
+      "title": "Download or Access Cursor",
+      "description": "Install the Cursor app or use the web version.",
+      "links": [
+        {
+          "label": "Cursor",
+          "url": "https://cursor.sh"
+        }
+      ]
+    },
+    {
+      "title": "Start Coding",
+      "description": "Open or create a project and write code with AI suggestions."
+    },
+    {
+      "title": "Use AI Features",
+      "description": "Leverage code review, refactoring, and Copilot chat for productivity."
+    },
+    {
+      "title": "Debug and Ship",
+      "description": "Use built-in debugging and deployment tools."
+    }
+  ],
+  "sources": [
+    "https://cursor.com/",
+    "https://cursor.com/pricing"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "codesquire",
+  "name": "CodeSquire",
+  "url": "https://codesquire.ai/",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "An AI code writing assistant tailored for data scientists and analysts.",
+  "description": "An AI code writing assistant tailored for data scientists and analysts.\n\nThe previous website did not resolve on 21 October 2026, so the card is marked closed until someone confirms a new URL.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Data Science",
+    "Code Assistant"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "",
+  "image": "/tool-screenshots/codesquire.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Tailored suggestions: Provides code suggestions for data tasks.",
+    "Integration with notebooks: Works with Jupyter and Colab.",
+    "Natural language prompts: Converts plain English to code.",
+    "Supports SQL and Python: Focused on data-centric languages."
+  ],
+  "howToUse": [
+    {
+      "title": "Install CodeSquire Extension",
+      "description": "Add CodeSquire to your Jupyter, Colab, or compatible notebook environment.",
+      "links": [
+        {
+          "label": "CodeSquire",
+          "url": "https://codesquire.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Write Prompts or Code",
+      "description": "Type natural language or code to receive tailored code completions."
+    },
+    {
+      "title": "Accept or Edit Suggestions",
+      "description": "Insert, edit, or refine the AI-suggested code for your workflow."
+    },
+    {
+      "title": "Focus on Data Tasks",
+      "description": "Leverage SQL and Python support for data analysis and automation."
+    }
+  ],
+  "statusNote": "The official URL did not resolve on 21 October 2026. A vendor shutdown notice was not found in this pass."
+}

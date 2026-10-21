@@ -1,0 +1,58 @@
+{
+  "id": "numerous_ai",
+  "name": "Numerous.ai",
+  "url": "https://numerous.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Numerous.ai is an AI-powered automation tool designed to enhance spreadsheet productivity. It enables users to automate repetitive tasks, enrich data with external sources, and leverage AI formulas directly in Google Sheets or Excel. Numerous.ai offers real-time collaboration and supports bulk data processing, making it a valuable asset for analysts and teams working with large datasets.",
+  "description": "Numerous.ai is an AI-powered automation tool designed to enhance spreadsheet productivity. It enables users to automate repetitive tasks, enrich data with external sources, and leverage AI formulas directly in Google Sheets or Excel. Numerous.ai offers real-time collaboration and supports bulk data processing, making it a valuable asset for analysts and teams working with large datasets.\n\nAn AI-powered spreadsheet plugin that brings ChatGPT to Google Sheets and Excel.\n\nAI Formulas: Automate complex calculations and tasks. Data Enrichment: Import and update data from external sources. Seamless Integration: Works natively with Google Sheets and Excel. Bulk Processing: Handles large-scale spreadsheet operations.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "Spreadsheet",
+    "Automation",
+    "Data Enrichment"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/numerous_ai.png",
+  "image": "/tool-screenshots/numerous.png",
+  "dateAdded": "2022-03-01",
+  "lastVerified": null,
+  "features": [
+    "AI Formulas: Automate complex calculations and tasks.",
+    "Data Enrichment: Import and update data from external sources.",
+    "Seamless Integration: Works natively with Google Sheets and Excel.",
+    "Bulk Processing: Handles large-scale spreadsheet operations.",
+    "Real-Time Collaboration: Share and edit spreadsheets with your team."
+  ],
+  "howToUse": [
+    {
+      "title": "Install Numerous.ai Add-on",
+      "description": "Add Numerous.ai to your Google Sheets or Excel from the respective app marketplace.",
+      "links": [
+        {
+          "label": "Numerous.ai",
+          "url": "https://numerous.ai"
+        }
+      ]
+    },
+    {
+      "title": "Connect Data Sources",
+      "description": "Link external data sources or APIs for enrichment and automation."
+    },
+    {
+      "title": "Use AI Formulas",
+      "description": "Apply AI-driven formulas and automations directly in your spreadsheets."
+    },
+    {
+      "title": "Collaborate & Process in Bulk",
+      "description": "Invite team members for real-time collaboration and execute bulk operations as needed."
+    }
+  ]
+}

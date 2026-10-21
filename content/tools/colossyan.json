@@ -1,0 +1,59 @@
+{
+  "id": "colossyan",
+  "name": "Colossyan",
+  "url": "https://www.colossyan.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Colossyan Creator makes video creation simple and stress-free. Discover our AI video generator with real actors. Create AI videos in less than 5 minutes.",
+  "description": "Colossyan Creator makes video creation simple and stress-free. Discover our AI video generator with real actors. Create AI videos in less than 5 minutes.\n\nAI Video Generation: Create videos with AI-generated avatars. Multilingual Support: Generate videos in multiple languages. Custom Avatars: Create personalized AI avatars for videos. Script to Video: Convert scripts into videos with AI avatars.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "AI Presenters",
+    "Learning Videos",
+    "HR Training",
+    "Compliance",
+    "Slides To Video"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/colossyan.png",
+  "image": "/tool-screenshots/colossyan.png",
+  "dateAdded": "2023-05-10",
+  "lastVerified": null,
+  "features": [
+    "AI Video Generation: Create videos with AI-generated avatars.",
+    "Multilingual Support: Generate videos in multiple languages.",
+    "Custom Avatars: Create personalized AI avatars for videos.",
+    "Script to Video: Convert scripts into videos with AI avatars."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Start New Project",
+      "description": "Register on Colossyan and start a new video project.",
+      "links": [
+        {
+          "label": "Colossyan",
+          "url": "https://www.colossyan.com"
+        }
+      ]
+    },
+    {
+      "title": "Upload Script or Slides",
+      "description": "Input your training script or upload presentation slides."
+    },
+    {
+      "title": "Choose Avatar and Language",
+      "description": "Select an AI-generated avatar and set the video language."
+    },
+    {
+      "title": "Edit, Generate & Export",
+      "description": "Customize scenes, preview the video, and export the finished file for training or HR use."
+    }
+  ]
+}

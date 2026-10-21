@@ -1,0 +1,59 @@
+{
+  "id": "wordtune",
+  "name": "Wordtune",
+  "url": "https://www.wordtune.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Perfect your English with a free AI writer that can paraphrase, rewrite, correct your grammar and more.",
+  "description": "Perfect your English with a free AI writer that can paraphrase, rewrite, correct your grammar and more.\n\nRewrite Suggestions: Offers multiple tone-based rewrites (casual, formal). Summarizer: Condenses long documents or webpages instantly. AI Writing Tool: Helps generate intros, conclusions, and full drafts. Grammar & Clarity: Enhances sentence structure and readability.",
+  "categories": [
+    "text"
+  ],
+  "tags": [
+    "Rephrasing",
+    "Tone Adjustment",
+    "Clarity",
+    "Grammar",
+    "Style Editing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/wordtune.png",
+  "image": "/tool-screenshots/wordtune.png",
+  "dateAdded": "2020-09-25",
+  "lastVerified": null,
+  "features": [
+    "Rewrite Suggestions: Offers multiple tone-based rewrites (casual, formal).",
+    "Summarizer: Condenses long documents or webpages instantly.",
+    "AI Writing Tool: Helps generate intros, conclusions, and full drafts.",
+    "Grammar & Clarity: Enhances sentence structure and readability."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Add Extension",
+      "description": "Create an account and add the Wordtune browser extension or use the web editor.",
+      "links": [
+        {
+          "label": "Wordtune",
+          "url": "https://www.wordtune.com"
+        }
+      ]
+    },
+    {
+      "title": "Paste or Write Text",
+      "description": "Input the content you want to rewrite or summarize."
+    },
+    {
+      "title": "Choose Rewrite or Summarize",
+      "description": "Select tone, style, or summarization options."
+    },
+    {
+      "title": "Export or Copy Output",
+      "description": "Copy results or export to use in your workflow."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "did",
+  "name": "D-ID",
+  "url": "https://www.d-id.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "D-ID brings photos to life with AI-powered talking avatars, animating faces from text or audio. Also enables video translation and dubbing for global audiences.",
+  "description": "D-ID brings photos to life with AI-powered talking avatars, animating faces from text or audio. Also enables video translation and dubbing for global audiences.\n\nPhoto animation: Animate any portrait into a speaking avatar, adding a human touch to otherwise static images for a memorable experience. Text-to-video: Generate talking head videos from scripts or audio, making it easy to produce narrated content without cameras or actors. AI video dubbing: Effortlessly translate and dub existing videos into different languages, preserving emotion and lip-sync for authenticity. API and integrations: Automate avatar creation and video translation for scalable workflows in marketing, education, or customer service.",
+  "categories": [
+    "video",
+    "marketing"
+  ],
+  "tags": [
+    "AI",
+    "Avatar",
+    "Translation",
+    "Dubbing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/did.png",
+  "image": "/tool-screenshots/did.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "Photo animation: Animate any portrait into a speaking avatar, adding a human touch to otherwise static images for a memorable experience.",
+    "Text-to-video: Generate talking head videos from scripts or audio, making it easy to produce narrated content without cameras or actors.",
+    "AI video dubbing: Effortlessly translate and dub existing videos into different languages, preserving emotion and lip-sync for authenticity.",
+    "API and integrations: Automate avatar creation and video translation for scalable workflows in marketing, education, or customer service."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up or Log In",
+      "description": "Go to D-ID's website and register for an account. Confirm your email and access the main dashboard.",
+      "links": [
+        {
+          "label": "D-ID",
+          "url": "https://www.d-id.com"
+        }
+      ]
+    },
+    {
+      "title": "Upload a Photo or Choose Stock Avatar",
+      "description": "Upload a portrait photo (JPG/PNG) or select from D-ID’s stock avatars to animate. Follow guidelines for best results.",
+      "links": [
+        {
+          "label": "Avatar Guidelines",
+          "url": "https://www.d-id.com/faqs"
+        }
+      ]
+    },
+    {
+      "title": "Enter or Record Script",
+      "description": "Input the text you want spoken, or upload/record an audio file. D-ID will sync the avatar’s lips and facial expressions to your script.",
+      "links": [
+        {
+          "label": "Script Help",
+          "url": "https://www.d-id.com/docs"
+        }
+      ]
+    },
+    {
+      "title": "Select Language and Voice",
+      "description": "Choose from dozens of AI voices and languages. Customize pitch, speed, and accent to suit your audience.",
+      "links": [
+        {
+          "label": "Voice Options",
+          "url": "https://www.d-id.com/features"
+        }
+      ]
+    },
+    {
+      "title": "Customize Animation",
+      "description": "Adjust avatar style, background, and add visual effects. Use built-in tools to fine-tune facial expressions and gestures."
+    },
+    {
+      "title": "Translate & Dub (Optional)",
+      "description": "Use the translation/dubbing tool to automatically generate versions in other languages, preserving expressive lip sync."
+    },
+    {
+      "title": "Preview and Edit",
+      "description": "Preview the animated video, check synchronization and naturalness, and revise as needed.",
+      "links": [
+        {
+          "label": "Support",
+          "url": "https://www.d-id.com/support"
+        }
+      ]
+    },
+    {
+      "title": "Export or Share",
+      "description": "Export your finished talking avatar video. Download as MP4 or share a link directly (watermarking depends on plan).",
+      "links": [
+        {
+          "label": "Export FAQ",
+          "url": "https://www.d-id.com/faqs#export"
+        }
+      ]
+    },
+    {
+      "title": "API & Integration (Advanced)",
+      "description": "Integrate with D-ID's API for automated avatar video creation at scale, or connect to third-party platforms for marketing or e-learning.",
+      "links": [
+        {
+          "label": "API Docs",
+          "url": "https://docs.d-id.com"
+        }
+      ]
+    }
+  ]
+}

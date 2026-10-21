@@ -1,0 +1,62 @@
+{
+  "id": "elevenlabs",
+  "name": "ElevenLabs",
+  "url": "https://elevenlabs.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Voice AI for speech, dubbing, and sound, with a free tier and paid plans.",
+  "description": "ElevenLabs sells text to speech, voice cloning, and related audio tools. The pricing page on 21 October 2026 listed Free at $0, Starter at $6/month, Creator at $22/month (first month shown at $11), Pro at $99/month, Scale at $299/month, and Business at $990/month. The old Free-only label was wrong.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Voice Cloning",
+    "Multilingual",
+    "Dubbing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Free $0, Starter $6, Creator $22, Pro $99, Scale $299, Business $990 per month.",
+    "sourceUrl": "https://elevenlabs.io/pricing"
+  },
+  "logo": "/logos/elevenlabs.png",
+  "image": "/tool-screenshots/elevenlabs.png",
+  "dateAdded": "2023-01-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Ultra-Realistic Text-to-Speech: Generates lifelike speech in over 30 languages with natural intonation.",
+    "Voice Cloning: Allows users to create high-fidelity replicas of voices using minimal audio samples.",
+    "Custom Voice Design: Offers tools to fine-tune voice attributes like stability and clarity.",
+    "Developer-Friendly API: Provides integration capabilities for various applications."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Log In",
+      "description": "Register at ElevenLabs and access the web studio or API.",
+      "links": [
+        {
+          "label": "ElevenLabs",
+          "url": "https://elevenlabs.io"
+        }
+      ]
+    },
+    {
+      "title": "Select Voice or Clone New",
+      "description": "Choose from the library or create a custom cloned voice."
+    },
+    {
+      "title": "Generate Speech",
+      "description": "Input text, adjust settings, and generate lifelike voice output."
+    },
+    {
+      "title": "Download or Integrate",
+      "description": "Export audio files or use the API for application integration."
+    }
+  ],
+  "sources": [
+    "https://elevenlabs.io/pricing"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "izotope-cascadia",
+  "name": "Izotope Cascadia",
+  "url": "https://izotope.com/cascadia",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A suite of AI-powered audio tools designed for music production, mixing, and mastering, offering advanced sound processing capabilities.",
+  "description": "A suite of AI-powered audio tools designed for music production, mixing, and mastering, offering advanced sound processing capabilities.\n\nAdvanced Audio Restoration: Removes clicks, pops, and other imperfections. Spectral Editing: Visual editing of audio frequencies. Dialogue Isolation: Separates dialogue from background noise. Mastering Tools: Provides tools for finalizing audio projects.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Sound Design",
+    "Audio Effects",
+    "Professional"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/izotope-cascadia.png",
+  "image": "/tool-screenshots/izotope-cascadia.png",
+  "dateAdded": "2023-04-10",
+  "lastVerified": null,
+  "features": [
+    "Advanced Audio Restoration: Removes clicks, pops, and other imperfections.",
+    "Spectral Editing: Visual editing of audio frequencies.",
+    "Dialogue Isolation: Separates dialogue from background noise.",
+    "Mastering Tools: Provides tools for finalizing audio projects."
+  ],
+  "howToUse": [
+    {
+      "title": "Access Izotope Cascadia Suite",
+      "description": "Go to the Izotope Cascadia site and download the tools or plugins.",
+      "links": [
+        {
+          "label": "Izotope Cascadia",
+          "url": "https://izotope.com/cascadia"
+        }
+      ]
+    },
+    {
+      "title": "Install in DAW or Standalone",
+      "description": "Run the software standalone or install as plugins in your DAW."
+    },
+    {
+      "title": "Edit & Master Audio",
+      "description": "Apply restoration, spectral editing, and mastering to your tracks."
+    },
+    {
+      "title": "Export Final Audio",
+      "description": "Render the mastered or restored audio for distribution."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "replit-ghostwriter",
+  "name": "Replit Agent",
+  "url": "https://replit.com/products/agent",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Replit’s chat agent for building apps. Ghostwriter’s URL redirects here.",
+  "description": "replit.com/ghostwriter redirected to Replit Agent on 21 October 2026. The page says you describe an app and the agent writes it. The old Ghostwriter completion blurb is the previous product name.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Coding",
+    "Replit",
+    "Assistant"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price was not on the product page text that was fetched.",
+    "sourceUrl": "https://replit.com/products/agent"
+  },
+  "logo": "/logos/replit-ghostwriter.png",
+  "image": "/tool-screenshots/replit-ghostwriter.png",
+  "dateAdded": "2022-09-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Inline Code Completions: Fast suggestions within Replit.",
+    "Code Explanation: Converts code to plain language.",
+    "Prompt-Based Coding: Generates code from natural language.",
+    "Refactoring Support: Helps restructure and improve code logic."
+  ],
+  "howToUse": [
+    {
+      "title": "Start Coding on Replit",
+      "description": "Use the Replit IDE and enable Ghostwriter.",
+      "links": [
+        {
+          "label": "Replit Ghostwriter",
+          "url": "https://replit.com/ghostwriter"
+        }
+      ]
+    },
+    {
+      "title": "Leverage Inline Suggestions",
+      "description": "Type code and accept Ghostwriter completions or explanations."
+    },
+    {
+      "title": "Prompt for Code",
+      "description": "Describe coding tasks in natural language for instant code generation."
+    },
+    {
+      "title": "Refactor and Improve",
+      "description": "Use suggestions to clean up and optimize your code."
+    }
+  ],
+  "sources": [
+    "https://replit.com/products/agent"
+  ],
+  "statusNote": "Formerly Replit Ghostwriter."
+}

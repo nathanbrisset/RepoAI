@@ -1,0 +1,58 @@
+{
+  "id": "speechmatics",
+  "name": "Speechmatics",
+  "url": "https://www.speechmatics.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Provides advanced speech recognition technology, supporting various languages and dialects for accurate transcriptions.",
+  "description": "Provides advanced speech recognition technology, supporting various languages and dialects for accurate transcriptions.\n\nSpeechmatics builds speech-to-text APIs for real conversations, not clean demos. Build Voice AI that understands accents, multiple speakers, and multilingual speech.\n\nAI audio processing: Speechmatics supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Audio",
+    "Speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/speechmatics.png",
+  "image": "/tool-screenshots/speechmatics.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "AI audio processing: Speechmatics supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Log In",
+      "description": "Create an account on the Speechmatics platform.",
+      "links": [
+        {
+          "label": "Speechmatics",
+          "url": "https://www.speechmatics.com"
+        }
+      ]
+    },
+    {
+      "title": "Upload Audio or Video",
+      "description": "Choose audio or video files to transcribe or process."
+    },
+    {
+      "title": "Select Language & Options",
+      "description": "Pick the language/dialect and enable features like noise reduction or voice synthesis."
+    },
+    {
+      "title": "Process & Download Results",
+      "description": "Receive transcriptions or processed audio. Download results in your preferred format."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "claude-3",
+  "name": "Claude",
+  "url": "https://claude.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Anthropic’s assistant for chat, writing, files, and coding.",
+  "description": "Claude is Anthropic’s assistant, not a frozen “Claude 3” release. On the pricing page checked via search on 21 October 2026, Free is $0 and includes chat on the web, desktop, and mobile. Pro is $20 a month, or $17 a month when billed annually, and adds more usage plus Claude Code. Max starts at $100 a month.",
+  "categories": [
+    "text"
+  ],
+  "tags": [
+    "Long Context",
+    "Safe AI",
+    "Research",
+    "Creative Writing",
+    "Q&A"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Free $0. Pro $20/month or $17/month billed annually. Max from $100/month.",
+    "sourceUrl": "https://claude.com/pricing"
+  },
+  "logo": "/logos/claude-3.png",
+  "image": "/tool-screenshots/claude.png",
+  "dateAdded": "2024-03-05",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Long Context Handling: Processes documents up to 200K tokens.",
+    "Safety & Alignment: Optimized for reliable, safe responses.",
+    "Creative Writing: Generates detailed, imaginative content.",
+    "Helpful for Research: Answers questions based on long-form material."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up or Log In",
+      "description": "Access Claude 3 by registering on the website.",
+      "links": [
+        {
+          "label": "Claude 3",
+          "url": "https://claude.ai"
+        }
+      ]
+    },
+    {
+      "title": "Upload or Paste Content",
+      "description": "Paste large documents, ask research questions, or start creative tasks."
+    },
+    {
+      "title": "Leverage Long Context",
+      "description": "Use Claude for summarization, analysis, or detailed creative writing."
+    },
+    {
+      "title": "Export or Continue",
+      "description": "Copy results or continue long-form conversations."
+    }
+  ],
+  "sources": [
+    "https://claude.com/pricing",
+    "https://claude.ai"
+  ]
+}

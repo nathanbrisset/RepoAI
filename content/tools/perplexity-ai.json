@@ -1,0 +1,57 @@
+{
+  "id": "perplexity-ai",
+  "name": "Perplexity AI",
+  "url": "https://www.perplexity.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-powered search and answer engine with citations.",
+  "description": "AI-powered search and answer engine with citations.\n\nCited Answers: Provides real-time responses with source citations. Web Search Integration: Combines AI and live web data. Follow-Up Queries: Enables contextual back-and-forth questioning. Multimodal Inputs: Accepts both text and voice prompts.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Search",
+    "Research"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/perplexity-ai.png",
+  "image": "/tool-screenshots/perplexity-ai.png",
+  "dateAdded": "2023-07-15",
+  "lastVerified": null,
+  "features": [
+    "Cited Answers: Provides real-time responses with source citations.",
+    "Web Search Integration: Combines AI and live web data.",
+    "Follow-Up Queries: Enables contextual back-and-forth questioning.",
+    "Multimodal Inputs: Accepts both text and voice prompts."
+  ],
+  "howToUse": [
+    {
+      "title": "Go to Perplexity AI",
+      "description": "Visit the Perplexity AI website.",
+      "links": [
+        {
+          "label": "Perplexity AI",
+          "url": "https://www.perplexity.ai"
+        }
+      ]
+    },
+    {
+      "title": "Ask a Question",
+      "description": "Type or speak your query for instant, cited answers."
+    },
+    {
+      "title": "Follow Up",
+      "description": "Ask follow-up questions for deeper research."
+    },
+    {
+      "title": "Review Sources",
+      "description": "Check citations for more context."
+    }
+  ]
+}

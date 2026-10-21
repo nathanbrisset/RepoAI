@@ -1,0 +1,55 @@
+{
+  "id": "h2o_ai",
+  "name": "H2O.ai",
+  "url": "https://www.h2o.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "H2O.ai is an open-source AI platform that delivers advanced machine learning and deep learning capabilities for data scientists and business analysts. It features a scalable architecture, AutoML, and support for distributed computing. H2O.ai offers integration with popular programming languages and supports model interpretability, making it a trusted solution for organizations seeking to accelerate AI adoption.",
+  "description": "H2O.ai is an open-source AI platform that delivers advanced machine learning and deep learning capabilities for data scientists and business analysts. It features a scalable architecture, AutoML, and support for distributed computing. H2O.ai offers integration with popular programming languages and supports model interpretability, making it a trusted solution for organizations seeking to accelerate AI adoption.\n\nThe trusted Sovereign AI Platform. Run predictive, generative, and agentic AI on your own infrastructure, from the cloud to fully air-gapped. You own it.\n\nOpen-Source Machine Learning: Free, extensible, and community-driven platform. AutoML: Automated pipelines for model selection and tuning. Distributed Processing: Scalable solutions for big data environments. Multi-Language Support: Integrates with Python, R, and Java.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "Machine Learning",
+    "Open Source",
+    "Automl"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/h2o_ai.png",
+  "image": "/tool-screenshots/h2o_ai.png",
+  "dateAdded": null,
+  "lastVerified": null,
+  "dateAddedNote": "The previous Added date was 2014-09-01. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Open-Source Machine Learning: Free, extensible, and community-driven platform.",
+    "AutoML: Automated pipelines for model selection and tuning.",
+    "Distributed Processing: Scalable solutions for big data environments.",
+    "Multi-Language Support: Integrates with Python, R, and Java.",
+    "Model Interpretability: Built-in tools for explaining model predictions."
+  ],
+  "howToUse": [
+    {
+      "title": "Download & Install H2O.ai",
+      "description": "Download the H2O.ai platform or use the cloud version. Install and configure on your local or cloud environment.",
+      "links": [
+        {
+          "label": "H2O.ai",
+          "url": "https://www.h2o.ai"
+        }
+      ]
+    },
+    {
+      "title": "Load Data & Build Models",
+      "description": "Import data and use AutoML or custom pipelines to build models in Python, R, or Java."
+    },
+    {
+      "title": "Interpret & Deploy Models",
+      "description": "Use interpretability tools to explain model results and deploy models to production."
+    }
+  ]
+}

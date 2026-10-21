@@ -1,0 +1,66 @@
+{
+  "id": "ink",
+  "name": "INK",
+  "url": "https://github.com/smythos/sre",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "INK’s old site now redirects to an unrelated GitHub repository.",
+  "description": "On 21 October 2026, inkforall.com redirected to https://github.com/smythos/sre, the SmythOS Runtime Environment. That is not the INK writing product. The duplicate INK card points here and is also closed.",
+  "categories": [
+    "marketing",
+    "text"
+  ],
+  "tags": [
+    "AI",
+    "SEO",
+    "Writing"
+  ],
+  "pricing": {
+    "model": "open-source",
+    "label": "Open source",
+    "verified": false,
+    "note": "The official link is a GitHub repository. The license and any paid hosting were not rechecked."
+  },
+  "logo": "/logos/ink.png",
+  "image": "/tool-screenshots/ink.png",
+  "dateAdded": "2025-06-11",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "SEO optimization: Real-time scoring for content improvement.",
+    "AI writing assistant: Generates and edits text efficiently.",
+    "Built-in plagiarism checker: Ensures content originality.",
+    "Topic research: Recommends keywords and related topics."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Dashboard",
+      "description": "Create a free or paid account on INK and log in to the writing dashboard.",
+      "links": [
+        {
+          "label": "INK",
+          "url": "https://inkforall.com"
+        }
+      ]
+    },
+    {
+      "title": "Start a New Project",
+      "description": "Create or import a document and select the SEO optimization tool."
+    },
+    {
+      "title": "Write or Optimize Content",
+      "description": "Use the AI writing assistant for drafting, editing, or optimizing existing content."
+    },
+    {
+      "title": "Check SEO Score and Plagiarism",
+      "description": "Review real-time SEO scoring and run the plagiarism checker for originality."
+    },
+    {
+      "title": "Export or Publish",
+      "description": "Export your optimized content for your CMS or publish it directly from INK if supported."
+    }
+  ],
+  "statusNote": "Redirect observed 21 October 2026.",
+  "sources": [
+    "https://inkforall.com"
+  ]
+}

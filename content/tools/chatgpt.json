@@ -1,0 +1,63 @@
+{
+  "id": "chatgpt",
+  "name": "ChatGPT",
+  "url": "https://chatgpt.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "OpenAI’s general assistant for writing, coding, image, and research tasks.",
+  "description": "ChatGPT is OpenAI’s consumer assistant. chat.openai.com redirected to chatgpt.com on 21 October 2026 (the final request was blocked with HTTP 403, which is consistent with a bot wall, not a missing site). The previous catalog called the price Freemium. That label was not re-read on a pricing page in this pass.",
+  "categories": [
+    "text",
+    "productivity"
+  ],
+  "tags": [
+    "Chatbot",
+    "Content Creation",
+    "Summarization",
+    "Productivity",
+    "Brainstorming"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Previous Freemium label kept. chatgpt.com blocked the automated fetch, so the current dollar price was not copied."
+  },
+  "logo": "/logos/chatgpt.png",
+  "image": "/tool-screenshots/chatgpt.png",
+  "dateAdded": "2023-11-06",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Multimodal Input: Understands text, images, and voice commands.",
+    "Code Interpreter: Performs data analysis, calculations, and file transformations.",
+    "Memory: Remembers user preferences and past interactions (selectively).",
+    "Advanced Reasoning: Excels at logic, problem-solving, and creative writing tasks."
+  ],
+  "howToUse": [
+    {
+      "title": "Go to ChatGPT",
+      "description": "Sign in or sign up on ChatGPT's website.",
+      "links": [
+        {
+          "label": "ChatGPT",
+          "url": "https://chat.openai.com"
+        }
+      ]
+    },
+    {
+      "title": "Start a New Chat",
+      "description": "Type your question, prompt, or task for writing, editing, or brainstorming."
+    },
+    {
+      "title": "Use Advanced Tools",
+      "description": "Leverage code interpreter, data analysis, and image input features."
+    },
+    {
+      "title": "Save or Share Output",
+      "description": "Copy, export, or continue chats for future use."
+    }
+  ],
+  "sources": [
+    "https://chatgpt.com/"
+  ]
+}

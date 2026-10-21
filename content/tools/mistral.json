@@ -1,0 +1,31 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/mistral.png",
+  "image": "",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "mistral",
+  "name": "Mistral",
+  "url": "https://mistral.ai/",
+  "summary": "Open-weight frontier models with customization and deployment options.",
+  "description": "Mistral’s homepage on 21 October 2026 said it offers frontier open-weight models you own and control, customized with Forge, deployed with Studio, on-prem, in your VPC, or on Mistral’s cloud. No dollar price was in that sentence.",
+  "categories": [
+    "text",
+    "coding"
+  ],
+  "tags": [
+    "Open weights",
+    "API"
+  ],
+  "pricing": {
+    "model": "open-source",
+    "label": "Open source",
+    "verified": true,
+    "sourceUrl": "https://mistral.ai/",
+    "note": "Homepage says the models are open-weight. Cloud and Studio may be paid; those prices were not copied."
+  },
+  "sources": [
+    "https://mistral.ai/"
+  ]
+}

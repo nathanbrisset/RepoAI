@@ -1,0 +1,63 @@
+{
+  "id": "magisto",
+  "name": "Magisto",
+  "url": "https://vimeo.com/features/video-editor",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "Magisto’s domain now redirects to Vimeo’s video editor.",
+  "description": "On 21 October 2026, magisto.com redirected to https://vimeo.com/features/video-editor with migration tracking parameters. Magisto is not a separate product at that URL.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "Mobile Editing",
+    "AI Editing",
+    "Auto Clips",
+    "Highlight Reels",
+    "Social Sharing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "No Magisto price. The redirect target is Vimeo."
+  },
+  "logo": "/logos/magisto.png",
+  "image": "/tool-screenshots/magisto.png",
+  "dateAdded": "2020-04-17",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Automated Video Editing: AI-powered editing to create videos quickly.",
+    "Smart Storyboard: Automatically selects the best parts of your footage.",
+    "Music Integration: Add music tracks that fit the video's mood.",
+    "Social Sharing: Easily share videos on various social media platforms."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Upload Media",
+      "description": "Register at Magisto, then upload your video clips or photos.",
+      "links": [
+        {
+          "label": "Magisto",
+          "url": "https://www.magisto.com"
+        }
+      ]
+    },
+    {
+      "title": "Choose Style & Music",
+      "description": "Select a video style and music track to match your content's mood."
+    },
+    {
+      "title": "Let AI Edit",
+      "description": "Magisto's AI will automatically create a video by selecting highlights and syncing with music."
+    },
+    {
+      "title": "Edit, Download & Share",
+      "description": "Make final tweaks, then download or share your video on social platforms."
+    }
+  ],
+  "sources": [
+    "https://www.magisto.com"
+  ],
+  "statusNote": "Redirect observed 21 October 2026."
+}

@@ -1,0 +1,58 @@
+{
+  "id": "resemble",
+  "name": "Resemble AI",
+  "url": "https://www.resemble.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A voice cloning platform that enables users to create realistic synthetic voices with minimal data, supporting both text-to-speech and speech-to-speech transformations.",
+  "description": "A voice cloning platform that enables users to create realistic synthetic voices with minimal data, supporting both text-to-speech and speech-to-speech transformations.\n\nResemble AI powers real-time deepfake detection for enterprise. Verify media and satisfy AI content compliance standards. On-prem or cloud, built to scale.\n\nAI audio processing: Resemble AI supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Audio",
+    "Speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/resemble.png",
+  "image": "/tool-screenshots/resemble.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "AI audio processing: Resemble AI supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Log In",
+      "description": "Create a Resemble AI account and log in to access the platform.",
+      "links": [
+        {
+          "label": "Resemble AI",
+          "url": "https://www.resemble.ai"
+        }
+      ]
+    },
+    {
+      "title": "Create or Clone a Voice",
+      "description": "Use the platform to record or upload audio samples for voice cloning or generation."
+    },
+    {
+      "title": "Generate Audio",
+      "description": "Convert text to speech or use speech-to-speech transformation with your custom or cloned voice."
+    },
+    {
+      "title": "Download or Integrate",
+      "description": "Export generated audio or use API integrations for advanced workflows."
+    }
+  ]
+}

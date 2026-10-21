@@ -1,0 +1,33 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/google-ai-studio.png",
+  "image": "",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "google-ai-studio",
+  "name": "Google AI Studio",
+  "url": "https://aistudio.google.com/",
+  "summary": "Google’s prompt-to-production workspace for Gemini.",
+  "description": "aistudio.google.com on 21 October 2026 was titled “Google AI Studio” and described as the fastest path from prompt to production with Gemini. Separate Gemini API docs list a free token tier and paid rates. Those API rates are not a consumer subscription price.",
+  "categories": [
+    "coding",
+    "text"
+  ],
+  "tags": [
+    "Gemini",
+    "API",
+    "Playground"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
+    "note": "API docs list a free tier and paid token prices. Studio itself did not show a subscription price."
+  },
+  "sources": [
+    "https://aistudio.google.com/",
+    "https://ai.google.dev/gemini-api/docs/pricing"
+  ]
+}

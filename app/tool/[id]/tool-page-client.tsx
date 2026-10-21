@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
 import Image from "next/image"
-import { Star, ExternalLink, ThumbsUp, LogIn, FilePlus, User, ImageIcon, Upload, Globe, Zap, Eye, Download, HelpCircle } from "lucide-react"
+import { ExternalLink, ThumbsUp, LogIn, FilePlus, User, ImageIcon, Upload, Globe, Zap, Eye, Download, HelpCircle } from "lucide-react"
 import ToolCard from "@/components/tool-card"
 import Head from "next/head"
 import { Tool } from '@/lib/types'
@@ -60,16 +60,24 @@ export default function ToolPageClient({ tool, relatedTools }: ToolPageClientPro
     "applicationCategory": tool.categories.join(", "),
     "url": tool.url,
     "image": tool.image,
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": tool.rating,
-      "reviewCount": tool.visits
-    },
-    "offers": {
-      "@type": "Offer",
-      "price": tool.isPremium === 'Free' ? 0 : undefined,
-      "priceCurrency": "USD"
-    }
+    ...(typeof tool.rating === "number" && typeof tool.visits === "number"
+      ? {
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: tool.rating,
+            reviewCount: tool.visits,
+          },
+        }
+      : {}),
+    ...(tool.pricing?.verified && tool.pricing.model === "free"
+      ? {
+          offers: {
+            "@type": "Offer",
+            price: 0,
+            priceCurrency: "USD",
+          },
+        }
+      : {}),
   };
 
   return (
@@ -99,7 +107,7 @@ export default function ToolPageClient({ tool, relatedTools }: ToolPageClientPro
           <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4 gap-4">
             <h1 className="text-3xl font-bold">{tool.name}</h1>
             <div className="flex gap-2">
-              <Link href={tool.url} target="_blank" className="px-4 py-1 rounded bg-purple-500 text-white font-semibold hover:bg-purple-600 flex items-center gap-1 text-sm">
+              <Link href={tool.affiliateUrl || tool.url} target="_blank" rel="noopener noreferrer" className="px-4 py-1 rounded bg-purple-500 text-white font-semibold hover:bg-purple-600 flex items-center gap-1 text-sm">
                 Visit Website <ExternalLink className="w-4 h-4 ml-1" />
               </Link>
             </div>
@@ -109,16 +117,25 @@ export default function ToolPageClient({ tool, relatedTools }: ToolPageClientPro
               <Badge key={cat} variant="secondary" className="capitalize text-xs">{cat}</Badge>
             ))}
           </div>
-          <div className="flex items-center gap-2 text-sm mb-6">
-            <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-            <span className="font-semibold text-gray-700">{tool.rating.toFixed(1)}</span>
-            <span className="text-gray-400">({tool.visits.toLocaleString()} visits)</span>
-            <span className="text-gray-400">Added {new Date(tool.dateAdded).toLocaleDateString()}</span>
-            <span className="text-gray-400">Pricing: <span className="font-semibold text-gray-700">{tool.isPremium || 'Unknown'}</span></span>
+          {tool.status && tool.status !== "active" && (
+            <div className="mb-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950">
+              <span className="font-semibold capitalize">{tool.status.replace("-", " ")}. </span>
+              {tool.statusNote}
+              {tool.successorId && (
+                <> See <Link href={`/tool/${tool.successorId}`} className="underline">{tool.successorId}</Link>.</>
+              )}
+            </div>
+          )}
+          <div className="flex items-center gap-2 text-sm mb-6 flex-wrap">
+            <span className="text-gray-400">Added {tool.dateAdded ? new Date(tool.dateAdded).toLocaleDateString() : "date not recorded"}</span>
+            <span className="text-gray-400">Pricing: <span className="font-semibold text-gray-700">{tool.isPremium || "Unknown"}</span>{tool.pricing?.verified ? "" : " (not rechecked)"}</span>
+            <span className="text-gray-400">Last checked: {tool.lastVerified || "not checked"}</span>
           </div>
+          {(tool.image || tool.logo) && (
           <div className="w-full aspect-[4/3] bg-gray-100 rounded-xl flex items-center justify-center mb-6 relative overflow-hidden" style={{ minHeight: 340 }}>
-            <Image src={tool.image} alt={tool.name} fill className="object-contain" />
+            <Image src={tool.image || tool.logo || ""} alt={tool.name} fill className="object-contain" />
           </div>
+          )}
           {/* Tabs */}
           <div className="border-b border-gray-200 mb-6 flex gap-2">
             <button onClick={() => setTab('overview')} className={`px-4 py-2 font-semibold ${tab === 'overview' ? 'border-b-2 border-purple-600 text-purple-700 bg-white' : 'text-gray-500'}`}>Overview</button>
@@ -129,18 +146,21 @@ export default function ToolPageClient({ tool, relatedTools }: ToolPageClientPro
           {tab === 'overview' && (
             <div className="mb-8 space-y-4">
               <h2 className="text-xl font-bold mb-4">About {tool.name}</h2>
-              <p className="text-gray-700 mb-4">{tool.description}</p>
+              <p className="text-gray-700 mb-4 whitespace-pre-line">{tool.longDescription || tool.description}</p>
+              {tool.pricing?.details && (
+                <p className="text-gray-700 mb-4"><b>Price note:</b> {tool.pricing.details}</p>
+              )}
+              {tool.dateAddedNote && (
+                <p className="text-gray-600 mb-4 text-sm">{tool.dateAddedNote}</p>
+              )}
               <p className="text-gray-700 mb-4">
                 <b>Categories:</b> {tool.categories.map(capitalizeWords).join(", ")}
               </p>
               {tool.tags && tool.tags.length > 0 && (
                 <p className="text-gray-700 mb-4">
-                  <b>Key Capabilities:</b> {tool.tags.map(capitalizeWords).join(", ")}
+                  <b>Tags:</b> {tool.tags.map(capitalizeWords).join(", ")}
                 </p>
               )}
-              <p className="text-gray-700 mb-4">
-                {tool.name} is designed to help users in the {tool.categories.map(capitalizeWords).join(", ")} space. Whether you're a professional or a beginner, this tool offers features like {tool.tags && tool.tags.length > 0 ? tool.tags.map(capitalizeWords).slice(0, 3).join(", ") : "advanced AI capabilities"} to streamline your workflow and boost productivity. Explore its unique features and see how it can fit your needs!
-              </p>
             </div>
           )}
           {tab === 'features' && (
@@ -288,23 +308,16 @@ export default function ToolPageClient({ tool, relatedTools }: ToolPageClientPro
                 <span className="font-medium">{tool.categories.map(capitalizeWords).join(", ")}</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-gray-500">Rating:</span>
-                <span className="flex items-center gap-1 font-medium">
-                  <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-                  {tool.rating.toFixed(1)}/5
-                </span>
-              </div>
-              <div className="flex justify-between items-center">
                 <span className="text-gray-500">Pricing:</span>
-                <span className="font-medium">{tool.pricing?.type || tool.isPremium || 'Unknown'}</span>
+                <span className="font-medium">{tool.isPremium || "Unknown"}{tool.pricing?.verified ? "" : " · not rechecked"}</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-gray-500">Added:</span>
-                <span>{new Date(tool.dateAdded).toLocaleDateString()}</span>
+                <span>{tool.dateAdded ? new Date(tool.dateAdded).toLocaleDateString() : "Not recorded"}</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-gray-500">Visits:</span>
-                <span>{tool.visits.toLocaleString()}</span>
+                <span className="text-gray-500">Last checked:</span>
+                <span>{tool.lastVerified || "Not checked"}</span>
               </div>
               {tool.tags && tool.tags.length > 0 && (
                 <div className="flex flex-col gap-2">

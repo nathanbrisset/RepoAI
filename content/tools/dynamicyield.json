@@ -1,0 +1,63 @@
+{
+  "id": "dynamicyield",
+  "name": "Dynamic Yield",
+  "url": "https://www.dynamicyield.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Dynamic Yield offers AI-powered personalization and recommendation solutions for websites and apps, enabling marketers to deliver tailored experiences and increase conversions.",
+  "description": "Dynamic Yield offers AI-powered personalization and recommendation solutions for websites and apps, enabling marketers to deliver tailored experiences and increase conversions.\n\nPersonalized recommendations: AI suggests products and content. A/B testing: Test different variations for user segments. Segmentation: Advanced targeting based on user behavior. Real-time analytics: Measure campaign impact instantly.",
+  "categories": [
+    "marketing",
+    "data-processing",
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Personalization",
+    "Recommendation"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/dynamicyield.png",
+  "image": "/tool-screenshots/dynamicyield.png",
+  "dateAdded": "2025-06-11",
+  "lastVerified": null,
+  "features": [
+    "Personalized recommendations: AI suggests products and content.",
+    "A/B testing: Test different variations for user segments.",
+    "Segmentation: Advanced targeting based on user behavior.",
+    "Real-time analytics: Measure campaign impact instantly."
+  ],
+  "howToUse": [
+    {
+      "title": "Request a Demo or Start Trial",
+      "description": "Visit Dynamic Yield and request a demo or start a trial. A solutions expert will help with onboarding and integration.",
+      "links": [
+        {
+          "label": "Dynamic Yield",
+          "url": "https://www.dynamicyield.com"
+        }
+      ]
+    },
+    {
+      "title": "Integrate with Your Site or App",
+      "description": "Install Dynamic Yield’s script or SDK on your website or app to begin collecting user data and serving personalized experiences."
+    },
+    {
+      "title": "Set up Campaigns and Segmentation",
+      "description": "Create campaigns and define audience segments based on user behavior, demographics, or custom criteria."
+    },
+    {
+      "title": "Deploy A/B Tests and Recommendations",
+      "description": "Use the platform to run A/B or multivariate tests and enable AI-powered content/product recommendations."
+    },
+    {
+      "title": "Analyze and Optimize",
+      "description": "Monitor real-time analytics dashboards, review performance by segment, and optimize campaigns for higher conversions."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "v0-vercel",
+  "name": "V0 by Vercel",
+  "url": "https://v0.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-powered UI generator that transforms prompts into production-ready React and Tailwind components.",
+  "description": "AI-powered UI generator that transforms prompts into production-ready React and Tailwind components.\n\nYour collaborative AI assistant to design, iterate, and scale full-stack applications for the web.\n\nComponent Generation: Create UI components from text prompts. Code Export: Export components as usable code. Design Customization: Adjust component styles and layouts. Integration with Frameworks: Use components with popular frameworks.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "Tailwind",
+    "React",
+    "Shadcn",
+    "UI Generator",
+    "No Code",
+    "Vercel"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/v0-vercel.png",
+  "image": "/tool-screenshots/v0-vercel.png",
+  "dateAdded": "2023-10-10",
+  "lastVerified": null,
+  "features": [
+    "Component Generation: Create UI components from text prompts.",
+    "Code Export: Export components as usable code.",
+    "Design Customization: Adjust component styles and layouts.",
+    "Integration with Frameworks: Use components with popular frameworks."
+  ],
+  "howToUse": [
+    {
+      "title": "Access V0 by Vercel",
+      "description": "Go to v0.dev and start generating UI components.",
+      "links": [
+        {
+          "label": "V0 by Vercel",
+          "url": "https://v0.dev"
+        }
+      ]
+    },
+    {
+      "title": "Enter Prompt",
+      "description": "Describe the UI you want to generate using natural language."
+    },
+    {
+      "title": "Edit & Export Code",
+      "description": "Customize generated React + Tailwind components and export code for your project."
+    }
+  ]
+}

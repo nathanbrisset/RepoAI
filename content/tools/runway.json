@@ -1,0 +1,59 @@
+{
+  "id": "runway",
+  "name": "Runway",
+  "url": "https://runway.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-powered video editor and generator with Gen-2 and text-to-video capabilities.",
+  "description": "AI-powered video editor and generator with Gen-2 and text-to-video capabilities.\n\nAI Video Editing: Provides tools for background removal, color grading, and face blurring. Text-to-Video Generation: Generates videos from static images or text prompts using the Gen-3 Alpha model. Real-Time Collaboration: Allows multiple users to work simultaneously on a single project. Comprehensive Media Tools: Offers a suite of tools for generating and manipulating images, audio, and 3D assets.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "Video Editing",
+    "GenAI",
+    "Green Screen",
+    "Style Transfer",
+    "Inpainting"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/runway.png",
+  "image": "/tool-screenshots/runway.png",
+  "dateAdded": "2022-11-01",
+  "lastVerified": null,
+  "features": [
+    "AI Video Editing: Provides tools for background removal, color grading, and face blurring.",
+    "Text-to-Video Generation: Generates videos from static images or text prompts using the Gen-3 Alpha model.",
+    "Real-Time Collaboration: Allows multiple users to work simultaneously on a single project.",
+    "Comprehensive Media Tools: Offers a suite of tools for generating and manipulating images, audio, and 3D assets."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Runway",
+      "description": "Create an account and open the Runway web platform.",
+      "links": [
+        {
+          "label": "Runway",
+          "url": "https://runwayml.com"
+        }
+      ]
+    },
+    {
+      "title": "Import or Create Video",
+      "description": "Upload media or use AI for video creation and editing."
+    },
+    {
+      "title": "Edit, Generate & Collaborate",
+      "description": "Use tools for editing, text-to-video, and real-time collaboration."
+    },
+    {
+      "title": "Export Results",
+      "description": "Download or share finished videos."
+    }
+  ]
+}

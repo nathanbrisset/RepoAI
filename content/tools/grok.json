@@ -1,0 +1,32 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/grok.png",
+  "image": "",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "grok",
+  "name": "Grok",
+  "url": "https://grok.com/",
+  "summary": "Assistant from SpaceXSI for chat, images, code, and live answers from the web and X.",
+  "description": "Grok’s homepage on 21 October 2026 said: “Grok is an AI assistant built by SpaceXSI. Chat, create images, write code, and get real-time answers from the web and X.” grok.com/pricing returned 404 and x.ai/pricing returned 403, so no plan price is copied here.",
+  "categories": [
+    "text",
+    "coding"
+  ],
+  "tags": [
+    "Assistant",
+    "Chat",
+    "Images",
+    "Code"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "No readable pricing page on 21 October 2026. Do not treat a missing price as free."
+  },
+  "sources": [
+    "https://grok.com/"
+  ]
+}

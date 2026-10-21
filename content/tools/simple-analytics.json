@@ -1,0 +1,57 @@
+{
+  "id": "simple-analytics",
+  "name": "Simple Analytics",
+  "url": "https://www.simpleanalytics.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Privacy-focused analytics platform that tracks website usage without cookies.",
+  "description": "Privacy-focused analytics platform that tracks website usage without cookies.\n\nPrivacy-First Tracking: Collects website analytics without using cookies, ensuring user privacy. Event and Goal Tracking: Allows setting up goals and tracking specific events on your website. Clean Dashboard: Provides an intuitive, one-page dashboard for quick insights. Data Export: Offers easy data export options for further analysis.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "AI",
+    "Analytics",
+    "Privacy"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/simple-analytics.png",
+  "image": "/tool-screenshots/simple-analytics.png",
+  "dateAdded": "2022-03-15",
+  "lastVerified": null,
+  "features": [
+    "Privacy-First Tracking: Collects website analytics without using cookies, ensuring user privacy.",
+    "Event and Goal Tracking: Allows setting up goals and tracking specific events on your website.",
+    "Clean Dashboard: Provides an intuitive, one-page dashboard for quick insights.",
+    "Data Export: Offers easy data export options for further analysis."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Add Website",
+      "description": "Create a Simple Analytics account and add your website.",
+      "links": [
+        {
+          "label": "Simple Analytics",
+          "url": "https://simpleanalytics.com"
+        }
+      ]
+    },
+    {
+      "title": "Integrate Tracking Code",
+      "description": "Install the provided JavaScript snippet on your website."
+    },
+    {
+      "title": "Monitor Dashboard",
+      "description": "View traffic, events, and goals in the clean, privacy-focused dashboard."
+    },
+    {
+      "title": "Export Data",
+      "description": "Download analytics data for further analysis or compliance."
+    }
+  ]
+}

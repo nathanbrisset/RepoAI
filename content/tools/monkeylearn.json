@@ -1,0 +1,58 @@
+{
+  "id": "monkeylearn",
+  "name": "MonkeyLearn",
+  "url": "https://monkeylearn.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Text analysis tool for extracting insights from text data.",
+  "description": "Text analysis tool for extracting insights from text data.\n\nText Classification: Categorize text data using machine learning. Sentiment Analysis: Determine the sentiment of text data. Custom Model Training: Train models tailored to specific needs. Data Visualization: Visualize text analysis results for easier interpretation.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "Nlp",
+    "Text Analysis",
+    "Machine Learning",
+    "Data Extraction"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/monkeylearn.png",
+  "image": "/tool-screenshots/monkeylearn.png",
+  "dateAdded": "2022-10-30",
+  "lastVerified": null,
+  "features": [
+    "Text Classification: Categorize text data using machine learning.",
+    "Sentiment Analysis: Determine the sentiment of text data.",
+    "Custom Model Training: Train models tailored to specific needs.",
+    "Data Visualization: Visualize text analysis results for easier interpretation."
+  ],
+  "howToUse": [
+    {
+      "title": "Create Account & Log In",
+      "description": "Sign up on MonkeyLearn and access the dashboard.",
+      "links": [
+        {
+          "label": "MonkeyLearn",
+          "url": "https://monkeylearn.com"
+        }
+      ]
+    },
+    {
+      "title": "Import Text Data",
+      "description": "Upload documents, reviews, or other text for analysis."
+    },
+    {
+      "title": "Select or Train Models",
+      "description": "Use prebuilt models or train custom ones for classification or sentiment analysis."
+    },
+    {
+      "title": "Analyze & Visualize",
+      "description": "View analytics and visualizations, then export results as needed."
+    }
+  ]
+}

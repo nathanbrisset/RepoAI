@@ -1,0 +1,31 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/lovable.png",
+  "image": "",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "lovable",
+  "name": "Lovable",
+  "url": "https://lovable.dev/",
+  "summary": "App builder at lovable.dev. The homepage blocked this fetch.",
+  "description": "Lovable is included because lovable.dev is the public product address. On 21 October 2026 an automated fetch received HTTP 403, so no slogan or price was copied from the page. Treat the description as unverified until someone reads the site in a browser.",
+  "categories": [
+    "coding",
+    "design"
+  ],
+  "tags": [
+    "App builder",
+    "Unverified copy"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price not verified. Homepage returned 403."
+  },
+  "sources": [
+    "https://lovable.dev/"
+  ],
+  "statusNote": "URL responds, but the HTML was blocked."
+}

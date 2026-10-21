@@ -1,10 +1,10 @@
 import { notFound } from "next/navigation";
-import { mockTools } from "@/lib/data";
+import { allTools, mockTools } from "@/lib/data";
 import ToolPageClient from "./tool-page-client";
 
 // Generate static paths for all tools
 export async function generateStaticParams() {
-  return mockTools.map((tool) => ({
+  return allTools.map((tool) => ({
     id: tool.id,
   }))
 }
@@ -16,7 +16,7 @@ type PageProps = {
 
 export default async function ToolPage({ params }: PageProps) {
   const { id } = await params;
-  const tool = mockTools.find((tool) => tool.id === id);
+  const tool = allTools.find((tool) => tool.id === id);
 
   if (!tool) {
     notFound();

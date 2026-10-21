@@ -1,0 +1,54 @@
+{
+  "id": "sourcery",
+  "name": "Sourcery",
+  "url": "https://www.sourcery.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI code review that finds more issues than any other AI reviewer. Demand perfection from your coding agents. Try Sourcery free!",
+  "description": "AI code review that finds more issues than any other AI reviewer. Demand perfection from your coding agents. Try Sourcery free!\n\nCode Refactoring: Simplifies and optimizes code. Code Quality Suggestions: Flags bad practices and bugs. Pull Request Reviews: AI feedback in GitHub PRs. Team Collaboration: Shares refactoring tips team-wide.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Code Refactoring",
+    "Python",
+    "Performance"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/sourcery.png",
+  "image": "/tool-screenshots/sourcery.png",
+  "dateAdded": "2020-07-10",
+  "lastVerified": null,
+  "features": [
+    "Code Refactoring: Simplifies and optimizes code.",
+    "Code Quality Suggestions: Flags bad practices and bugs.",
+    "Pull Request Reviews: AI feedback in GitHub PRs.",
+    "Team Collaboration: Shares refactoring tips team-wide."
+  ],
+  "howToUse": [
+    {
+      "title": "Install Sourcery Extension",
+      "description": "Add Sourcery to your IDE or set up in your CI pipeline.",
+      "links": [
+        {
+          "label": "Sourcery",
+          "url": "https://sourcery.ai"
+        }
+      ]
+    },
+    {
+      "title": "Write or Review Python Code",
+      "description": "Get real-time refactoring suggestions and code improvements."
+    },
+    {
+      "title": "Review Pull Requests",
+      "description": "Receive AI-powered feedback on GitHub or GitLab PRs."
+    }
+  ]
+}

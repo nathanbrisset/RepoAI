@@ -1,0 +1,59 @@
+{
+  "id": "quillbot",
+  "name": "QuillBot",
+  "url": "https://quillbot.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-powered paraphrasing tool that helps you rewrite and improve your text while maintaining its meaning.",
+  "description": "AI-powered paraphrasing tool that helps you rewrite and improve your text while maintaining its meaning.\n\nParaphraser: Rewrites sentences while preserving the original meaning. Grammar Checker: Detects and corrects grammatical errors in your text. Summarizer: Condenses articles, papers, or documents into key points. Citation Generator: Automatically generates citations in various styles.",
+  "categories": [
+    "text",
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Paraphrasing",
+    "Rewriting",
+    "Editing"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/quillbot.png",
+  "image": "/tool-screenshots/quillbot.png",
+  "dateAdded": "2021-03-20",
+  "lastVerified": null,
+  "features": [
+    "Paraphraser: Rewrites sentences while preserving the original meaning.",
+    "Grammar Checker: Detects and corrects grammatical errors in your text.",
+    "Summarizer: Condenses articles, papers, or documents into key points.",
+    "Citation Generator: Automatically generates citations in various styles."
+  ],
+  "howToUse": [
+    {
+      "title": "Go to QuillBot",
+      "description": "Open QuillBot in your browser.",
+      "links": [
+        {
+          "label": "QuillBot",
+          "url": "https://quillbot.com"
+        }
+      ]
+    },
+    {
+      "title": "Paste or Write Text",
+      "description": "Add the text you want to paraphrase, summarize, or check."
+    },
+    {
+      "title": "Select Tool & Mode",
+      "description": "Choose paraphrasing, summarizing, or citation generation."
+    },
+    {
+      "title": "Review & Copy Output",
+      "description": "Copy or export the improved content."
+    }
+  ]
+}

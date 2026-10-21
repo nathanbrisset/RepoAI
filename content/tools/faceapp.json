@@ -1,0 +1,57 @@
+{
+  "id": "faceapp",
+  "name": "FaceApp",
+  "url": "https://www.faceapp.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-powered app for facial transformations and edits.",
+  "description": "AI-powered app for facial transformations and edits.\n\nAge Transformation: Shows aging or rejuvenated versions of faces. Gender Swap: Alters facial features to appear as a different gender. Smile Enhancement: Adds smiles to photos. Hairstyle and Color Changes: Modifies hair appearance.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "AI",
+    "Faces",
+    "Editing"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/faceapp.png",
+  "image": "/tool-screenshots/faceapp.png",
+  "dateAdded": "2021-12-01",
+  "lastVerified": null,
+  "features": [
+    "Age Transformation: Shows aging or rejuvenated versions of faces.",
+    "Gender Swap: Alters facial features to appear as a different gender.",
+    "Smile Enhancement: Adds smiles to photos.",
+    "Hairstyle and Color Changes: Modifies hair appearance."
+  ],
+  "howToUse": [
+    {
+      "title": "Download FaceApp",
+      "description": "Get FaceApp from App Store or Google Play.",
+      "links": [
+        {
+          "label": "FaceApp",
+          "url": "https://faceapp.com"
+        }
+      ]
+    },
+    {
+      "title": "Upload or Take a Photo",
+      "description": "Select a face photo to edit."
+    },
+    {
+      "title": "Apply AI Effects",
+      "description": "Choose from aging, gender swap, smile, or hair edit features."
+    },
+    {
+      "title": "Save & Share",
+      "description": "Download or post the edited image."
+    }
+  ]
+}

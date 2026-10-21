@@ -1,0 +1,58 @@
+{
+  "id": "lovo",
+  "name": "Lovo",
+  "url": "https://lovo.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An AI voiceover platform offering a wide range of voices and languages, designed for content creators and businesses.",
+  "description": "An AI voiceover platform offering a wide range of voices and languages, designed for content creators and businesses.\n\nExtensive Voice Options: Offers 500+ AI voices in over 100 languages. Voice Cloning: Allows users to create unique, branded voices. Genny AI: An intuitive tool for generating voiceovers from text. Auto Subtitle Generator: Automatically creates subtitles for videos.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Voice Editing",
+    "Narration",
+    "Content Creation"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/lovo.png",
+  "image": "/tool-screenshots/lovo.png",
+  "dateAdded": "2023-03-10",
+  "lastVerified": null,
+  "features": [
+    "Extensive Voice Options: Offers 500+ AI voices in over 100 languages.",
+    "Voice Cloning: Allows users to create unique, branded voices.",
+    "Genny AI: An intuitive tool for generating voiceovers from text.",
+    "Auto Subtitle Generator: Automatically creates subtitles for videos."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Use Genny Studio",
+      "description": "Register and log in to Lovo's Genny Studio.",
+      "links": [
+        {
+          "label": "Lovo",
+          "url": "https://lovo.ai"
+        }
+      ]
+    },
+    {
+      "title": "Input Script",
+      "description": "Type or paste your script for voice generation."
+    },
+    {
+      "title": "Select Voice & Language",
+      "description": "Pick from hundreds of voices and languages, and preview."
+    },
+    {
+      "title": "Generate & Download",
+      "description": "Produce, edit, and export the final audio or subtitles."
+    }
+  ]
+}

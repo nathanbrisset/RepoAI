@@ -1,0 +1,57 @@
+{
+  "id": "codepal",
+  "name": "CodePal",
+  "url": "https://codepal.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Plan, build, edit, deploy, and run full-stack web apps with CodePal, the AI app builder for founders who want a product they can ship.",
+  "description": "Plan, build, edit, deploy, and run full-stack web apps with CodePal, the AI app builder for founders who want a product they can ship.\n\nCode snippet generation: Creates code based on input. Bug detection: Identifies potential issues in code. Code simplification: Refactors complex code. Supports various languages: Handles multiple programming languages.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Code Generation",
+    "Coding Assistant"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/codepal.png",
+  "image": "/tool-screenshots/codepal.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Code snippet generation: Creates code based on input.",
+    "Bug detection: Identifies potential issues in code.",
+    "Code simplification: Refactors complex code.",
+    "Supports various languages: Handles multiple programming languages."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access CodePal",
+      "description": "Register on CodePal’s website to access the web app or browser extension.",
+      "links": [
+        {
+          "label": "CodePal",
+          "url": "https://codepal.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Describe or Paste Code",
+      "description": "Enter a task description or paste code to generate, debug, or simplify."
+    },
+    {
+      "title": "Review AI Suggestions",
+      "description": "Accept, edit, or refine code snippets and solutions."
+    },
+    {
+      "title": "Export or Use Code",
+      "description": "Copy snippets into your IDE or export for sharing."
+    }
+  ]
+}

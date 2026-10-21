@@ -1,0 +1,58 @@
+{
+  "id": "riversidefm",
+  "name": "Riverside.fm",
+  "url": "https://riverside.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A professional podcast and video recording platform with high-quality audio processing and remote recording capabilities.",
+  "description": "A professional podcast and video recording platform with high-quality audio processing and remote recording capabilities.\n\nRiverside is your online studio for high-quality podcast and video recording and editing. Powered by AI, built for human conversations. Get started for free.\n\nAI audio processing: Riverside.fm supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Audio",
+    "Speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/riversidefm.png",
+  "image": "/tool-screenshots/riversidefm.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "AI audio processing: Riverside.fm supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Create Studio",
+      "description": "Register and set up a recording studio for podcasts or video.",
+      "links": [
+        {
+          "label": "Riverside.fm",
+          "url": "https://riverside.fm"
+        }
+      ]
+    },
+    {
+      "title": "Invite Guests & Record",
+      "description": "Invite remote guests and use AI features to enhance audio during recording."
+    },
+    {
+      "title": "Utilize Transcription & Editing",
+      "description": "Generate transcripts and use editing tools to polish your recordings."
+    },
+    {
+      "title": "Export & Share",
+      "description": "Export high-quality audio/video files for publishing."
+    }
+  ]
+}

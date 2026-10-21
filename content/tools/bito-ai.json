@@ -1,0 +1,57 @@
+{
+  "id": "bito-ai",
+  "name": "Bito AI",
+  "url": "https://bito.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Governor understands your code and routes each request to the best model, two levers that cut coding agent costs in half without touching quality.",
+  "description": "Governor understands your code and routes each request to the best model, two levers that cut coding agent costs in half without touching quality.\n\nCode explanation: Breaks down complex logic. Code generation: Writes code from prompts. Commenting: Adds helpful code comments. Test support: Helps with writing unit tests.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Documentation",
+    "Developer Productivity"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/bito-ai.png",
+  "image": "/tool-screenshots/bito-ai.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Code explanation: Breaks down complex logic.",
+    "Code generation: Writes code from prompts.",
+    "Commenting: Adds helpful code comments.",
+    "Test support: Helps with writing unit tests."
+  ],
+  "howToUse": [
+    {
+      "title": "Install Bito AI",
+      "description": "Add Bito AI as a browser extension, IDE plugin, or use the web app.",
+      "links": [
+        {
+          "label": "Bito AI",
+          "url": "https://bito.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Input Code or Prompt",
+      "description": "Paste code or describe what you need to generate or explain."
+    },
+    {
+      "title": "Review AI Output",
+      "description": "Read code explanations, generated code, or suggested comments/tests."
+    },
+    {
+      "title": "Export or Use in Project",
+      "description": "Copy and paste results into your development workflow."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "sendinblue",
+  "name": "Sendinblue",
+  "url": "https://www.brevo.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Sendinblue is an all-in-one marketing platform with AI-powered email, SMS, and chat automation. Marketers can launch, manage, and optimize campaigns at scale.",
+  "description": "Sendinblue is an all-in-one marketing platform with AI-powered email, SMS, and chat automation. Marketers can launch, manage, and optimize campaigns at scale.\n\nBrevo is the most intuitive all-in-one customer engagement platform: email and SMS marketing, automation, CRM, live chat, and transactional email. Try it free.\n\nAI-driven email automation and send times. SMS and chat marketing tools. Advanced segmentation and personalization. Comprehensive analytics for campaign tracking.",
+  "categories": [
+    "marketing",
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Email",
+    "Automation"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/sendinblue.png",
+  "image": "/tool-screenshots/sendinblue.png",
+  "dateAdded": "2025-06-11",
+  "lastVerified": null,
+  "features": [
+    "AI-driven email automation and send times.",
+    "SMS and chat marketing tools.",
+    "Advanced segmentation and personalization.",
+    "Comprehensive analytics for campaign tracking."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Set Up Account",
+      "description": "Register for a Sendinblue account and complete the onboarding steps. Set up your sender profiles and connect domains.",
+      "links": [
+        {
+          "label": "Sendinblue",
+          "url": "https://www.sendinblue.com"
+        }
+      ]
+    },
+    {
+      "title": "Import Contacts & Segment Lists",
+      "description": "Upload your contact list via CSV or API. Use segmentation tools to organize audiences by behavior, demographics, or engagement."
+    },
+    {
+      "title": "Create Automated Campaigns",
+      "description": "Use the visual workflow builder to create email, SMS, or chat automation sequences. Set triggers, conditions, and actions."
+    },
+    {
+      "title": "Personalize Content with AI",
+      "description": "Add dynamic content, product recommendations, and personalized send times powered by AI to boost engagement."
+    },
+    {
+      "title": "Launch & Monitor Campaigns",
+      "description": "Send your campaigns and monitor open, click, and conversion rates in real time. Use analytics to optimize for future sends."
+    }
+  ]
+}

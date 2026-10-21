@@ -1,0 +1,58 @@
+{
+  "id": "starryai",
+  "name": "StarryAI",
+  "url": "https://starryai.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Simply upload an image and our AI transforms it into what you imagine.",
+  "description": "Simply upload an image and our AI transforms it into what you imagine.\n\nText-to-Art Generation: Creates artworks from textual prompts. Style Customization: Offers various art styles to choose from. Upscaling: Enhances image resolution. Prompt Builder: Assists in crafting effective prompts for desired outputs.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "AI",
+    "Art",
+    "NFTs",
+    "Creativity"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/starryai.png",
+  "image": "/tool-screenshots/starryai.png",
+  "dateAdded": "2022-06-01",
+  "lastVerified": null,
+  "features": [
+    "Text-to-Art Generation: Creates artworks from textual prompts.",
+    "Style Customization: Offers various art styles to choose from.",
+    "Upscaling: Enhances image resolution.",
+    "Prompt Builder: Assists in crafting effective prompts for desired outputs."
+  ],
+  "howToUse": [
+    {
+      "title": "Access StarryAI",
+      "description": "Visit StarryAI to begin generating art or NFTs.",
+      "links": [
+        {
+          "label": "StarryAI",
+          "url": "https://starryai.com"
+        }
+      ]
+    },
+    {
+      "title": "Enter Prompt & Select Style",
+      "description": "Input a textual prompt and choose an art style."
+    },
+    {
+      "title": "Generate & Upscale",
+      "description": "Create the artwork, upscale for higher resolution if needed."
+    },
+    {
+      "title": "Download or Mint NFT",
+      "description": "Export the image or mint as an NFT."
+    }
+  ]
+}

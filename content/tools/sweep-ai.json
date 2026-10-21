@@ -1,0 +1,54 @@
+{
+  "id": "sweep-ai",
+  "name": "Sweep AI",
+  "url": "https://sweep.dev/",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "AI code review and pull request automation tool for teams.",
+  "description": "AI code review and pull request automation tool for teams.\n\nThe previous website did not resolve on 21 October 2026, so the card is marked closed until someone confirms a new URL.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Code Review",
+    "Automation"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/sweep-ai.png",
+  "image": "/tool-screenshots/sweep-ai.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "PR generation: Automates pull request writing.",
+    "AI code review: Offers improvement suggestions.",
+    "Team collaboration: Designed for team environments.",
+    "IDE integrations: Works with GitHub workflows."
+  ],
+  "howToUse": [
+    {
+      "title": "Connect Sweep AI to GitHub",
+      "description": "Sign up on Sweep’s website and link your GitHub account.",
+      "links": [
+        {
+          "label": "Sweep AI",
+          "url": "https://sweep.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Automate PRs",
+      "description": "Let Sweep AI generate and review pull requests for your team."
+    },
+    {
+      "title": "Collaborate on Reviews",
+      "description": "Use the team dashboard to review, accept, or refine suggestions."
+    }
+  ],
+  "statusNote": "The official URL did not resolve on 21 October 2026. A vendor shutdown notice was not found in this pass."
+}

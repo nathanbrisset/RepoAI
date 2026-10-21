@@ -1,0 +1,58 @@
+{
+  "id": "whisper",
+  "name": "Whisper",
+  "url": "https://github.com/openai/whisper",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Robust Speech Recognition via Large-Scale Weak Supervision - openai/whisper",
+  "description": "Robust Speech Recognition via Large-Scale Weak Supervision - openai/whisper\n\nMultilingual Transcription: Transcribes speech in over 90 languages. Open-Source: Available for public use and modification. High Accuracy: Delivers precise transcriptions even in challenging conditions. Real-Time Processing: Transcribes audio in real-time.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Speech To Text",
+    "Open Source",
+    "Transcription"
+  ],
+  "pricing": {
+    "model": "open-source",
+    "label": "Open source",
+    "verified": false,
+    "note": "The official link is a GitHub repository. The license and any paid hosting were not rechecked."
+  },
+  "logo": "/logos/whisper.png",
+  "image": "/tool-screenshots/whisper.png",
+  "dateAdded": "2022-09-20",
+  "lastVerified": null,
+  "features": [
+    "Multilingual Transcription: Transcribes speech in over 90 languages.",
+    "Open-Source: Available for public use and modification.",
+    "High Accuracy: Delivers precise transcriptions even in challenging conditions.",
+    "Real-Time Processing: Transcribes audio in real-time."
+  ],
+  "howToUse": [
+    {
+      "title": "Install Whisper",
+      "description": "Install Whisper from GitHub and set up the environment.",
+      "links": [
+        {
+          "label": "Whisper on GitHub",
+          "url": "https://github.com/openai/whisper"
+        }
+      ]
+    },
+    {
+      "title": "Prepare Audio Files",
+      "description": "Provide audio files in supported formats."
+    },
+    {
+      "title": "Run Transcription",
+      "description": "Use CLI or Python interface to transcribe audio."
+    },
+    {
+      "title": "Review and Use Output",
+      "description": "Retrieve transcriptions in text format for further use."
+    }
+  ]
+}

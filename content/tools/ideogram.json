@@ -1,0 +1,60 @@
+{
+  "id": "ideogram",
+  "name": "Ideogram",
+  "url": "https://ideogram.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Ideogram is an AI art tool focused on generating images with text and typography. It enables users to create visually engaging posters, social media content, and graphics by combining AI-powered art generation with customizable fonts and layouts. Ideogram excels at producing images that integrate readable and stylized text.",
+  "description": "Ideogram is an AI art tool focused on generating images with text and typography. It enables users to create visually engaging posters, social media content, and graphics by combining AI-powered art generation with customizable fonts and layouts. Ideogram excels at producing images that integrate readable and stylized text.\n\nText Integration: Generate images with embedded, stylized text. Typography Controls: Customize fonts, size, and placement. Prompt-Based Art: Create unique visuals from descriptions. Templates: Pre-made layouts for posters and graphics.",
+  "categories": [
+    "design",
+    "image"
+  ],
+  "tags": [
+    "AI Art",
+    "Typography",
+    "Text To Image",
+    "Graphics"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/ideogram.png",
+  "image": "/tool-screenshots/ideogram.png",
+  "dateAdded": "2023-08-01",
+  "lastVerified": null,
+  "features": [
+    "Text Integration: Generate images with embedded, stylized text.",
+    "Typography Controls: Customize fonts, size, and placement.",
+    "Prompt-Based Art: Create unique visuals from descriptions.",
+    "Templates: Pre-made layouts for posters and graphics.",
+    "Export Options: Download images in high resolution."
+  ],
+  "howToUse": [
+    {
+      "title": "Register & Log In",
+      "description": "Sign up for Ideogram, then access the prompt-based art generator.",
+      "links": [
+        {
+          "label": "Ideogram",
+          "url": "https://ideogram.ai"
+        }
+      ]
+    },
+    {
+      "title": "Describe & Style",
+      "description": "Enter a prompt, choose font, layout, and styling options."
+    },
+    {
+      "title": "Generate & Edit",
+      "description": "Create images with integrated text, and adjust as needed."
+    },
+    {
+      "title": "Download & Share",
+      "description": "Export your graphics for use in marketing, social, or print projects."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "codeassist",
+  "name": "CodeAssist",
+  "url": "https://www.codeassist.tech/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A human-like chatbot that writes code in the editor and answers questions.",
+  "description": "A human-like chatbot that writes code in the editor and answers questions.\n\nInteractive chatbot: Communicates in natural language. Code generation: Writes code based on prompts. IDE integration: Compatible with JetBrains and VS Code. Supports multiple languages: Handles various programming languages.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Chatbot",
+    "Code Writing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/codeassist.png",
+  "image": "/tool-screenshots/codeassist.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Interactive chatbot: Communicates in natural language.",
+    "Code generation: Writes code based on prompts.",
+    "IDE integration: Compatible with JetBrains and VS Code.",
+    "Supports multiple languages: Handles various programming languages."
+  ],
+  "howToUse": [
+    {
+      "title": "Install CodeAssist Plugin",
+      "description": "Add CodeAssist to your JetBrains IDE or VS Code via the marketplace.",
+      "links": [
+        {
+          "label": "CodeAssist",
+          "url": "https://www.codeassist.tech/"
+        }
+      ]
+    },
+    {
+      "title": "Chat & Prompt",
+      "description": "Use the chatbot interface to ask coding questions or request code generation."
+    },
+    {
+      "title": "Insert or Edit Code",
+      "description": "Directly insert AI-generated code into your editor or modify as needed."
+    }
+  ]
+}

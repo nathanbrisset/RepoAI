@@ -1,0 +1,60 @@
+{
+  "id": "dalle_3",
+  "name": "DALL·E 3",
+  "url": "https://openai.com/dall-e-3",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "DALL·E 3, developed by OpenAI, is a state-of-the-art AI image generator that creates highly detailed and coherent images from natural language prompts. It excels at understanding complex instructions, producing art, illustrations, and photorealistic images. DALL·E 3 is widely used for creative projects, concept art, and visual content generation.",
+  "description": "DALL·E 3, developed by OpenAI, is a state-of-the-art AI image generator that creates highly detailed and coherent images from natural language prompts. It excels at understanding complex instructions, producing art, illustrations, and photorealistic images. DALL·E 3 is widely used for creative projects, concept art, and visual content generation.\n\nNatural Language Understanding: Converts detailed prompts into images. High Resolution Output: Generates images suitable for print and digital use. Style Versatility: Supports photorealistic and artistic outputs. Inpainting: Edit and refine parts of generated images.",
+  "categories": [
+    "design",
+    "image"
+  ],
+  "tags": [
+    "AI Art",
+    "Image Generation",
+    "Openai",
+    "Creative"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/dalle_3.png",
+  "image": "/tool-screenshots/dalle_3.png",
+  "dateAdded": "2023-10-01",
+  "lastVerified": null,
+  "features": [
+    "Natural Language Understanding: Converts detailed prompts into images.",
+    "High Resolution Output: Generates images suitable for print and digital use.",
+    "Style Versatility: Supports photorealistic and artistic outputs.",
+    "Inpainting: Edit and refine parts of generated images.",
+    "Seamless Integration: Used in ChatGPT Plus and other platforms."
+  ],
+  "howToUse": [
+    {
+      "title": "Access DALL·E 3 via Platform",
+      "description": "Use DALL·E 3 through OpenAI’s platform or integrated services (e.g., ChatGPT Plus).",
+      "links": [
+        {
+          "label": "DALL·E 3",
+          "url": "https://openai.com/dall-e-3"
+        }
+      ]
+    },
+    {
+      "title": "Describe Your Image",
+      "description": "Enter a detailed prompt specifying what you want to generate."
+    },
+    {
+      "title": "Review & Refine",
+      "description": "Edit the prompt or use inpainting to refine specific areas."
+    },
+    {
+      "title": "Download & Use",
+      "description": "Save generated images for creative or commercial projects."
+    }
+  ]
+}

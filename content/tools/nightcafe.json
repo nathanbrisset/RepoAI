@@ -1,0 +1,57 @@
+{
+  "id": "nightcafe",
+  "name": "NightCafe",
+  "url": "https://creator.nightcafe.studio",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A community-driven platform for generating artistic AI images.",
+  "description": "A community-driven platform for generating artistic AI images.\n\nText-to-Image Creation: Generates images from textual descriptions. Style Transfer: Applies artistic styles to existing images. Community Features: Engages users through challenges and sharing. Print Options: Offers printing of created artworks.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "Style Transfer",
+    "AI Art",
+    "Community"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/nightcafe.png",
+  "image": "/tool-screenshots/nightcafe.png",
+  "dateAdded": "2022-11-10",
+  "lastVerified": null,
+  "features": [
+    "Text-to-Image Creation: Generates images from textual descriptions.",
+    "Style Transfer: Applies artistic styles to existing images.",
+    "Community Features: Engages users through challenges and sharing.",
+    "Print Options: Offers printing of created artworks."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access NightCafe",
+      "description": "Register for a free account at NightCafe Studio.",
+      "links": [
+        {
+          "label": "NightCafe",
+          "url": "https://creator.nightcafe.studio"
+        }
+      ]
+    },
+    {
+      "title": "Choose Creation Mode",
+      "description": "Select between text-to-image generation or style transfer."
+    },
+    {
+      "title": "Enter Prompt or Upload Image",
+      "description": "Write a prompt for creation, or upload an image for style transfer."
+    },
+    {
+      "title": "Generate, Edit & Share",
+      "description": "Let AI create the image, then edit, download, print, or share in the community."
+    }
+  ]
+}

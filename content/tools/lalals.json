@@ -1,0 +1,58 @@
+{
+  "id": "lalals",
+  "name": "Lalals",
+  "url": "https://www.lalals.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A platform that enables users to create AI-generated instrumental songs and vocals with prompts, facilitating easy music production.",
+  "description": "A platform that enables users to create AI-generated instrumental songs and vocals with prompts, facilitating easy music production.\n\nAI audio processing: Lalals supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Audio",
+    "Speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/lalals.png",
+  "image": "/tool-screenshots/lalals.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "AI audio processing: Lalals supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Start Project",
+      "description": "Register on Lalals and start a new music project.",
+      "links": [
+        {
+          "label": "Lalals",
+          "url": "https://www.lalals.com"
+        }
+      ]
+    },
+    {
+      "title": "Describe Song or Upload Prompt",
+      "description": "Use prompts or upload files to generate instrumentals or vocals."
+    },
+    {
+      "title": "Customize & Generate",
+      "description": "Tweak settings and let AI create music or vocals."
+    },
+    {
+      "title": "Download & Publish",
+      "description": "Export finished tracks for use or distribution."
+    }
+  ]
+}

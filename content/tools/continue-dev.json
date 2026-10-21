@@ -1,0 +1,57 @@
+{
+  "id": "continue-dev",
+  "name": "Continue.dev",
+  "url": "https://continue.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An open-source autopilot for coding directly within VS Code.",
+  "description": "An open-source autopilot for coding directly within VS Code.\n\nVS Code integration: Seamlessly extends your IDE. Open-source tool: Modify and extend functionality. Contextual coding: Generates code based on nearby files. Prompting panel: Ask and receive inline answers.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Open Source",
+    "IDE Extension"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/continue-dev.png",
+  "image": "/tool-screenshots/continue-dev.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "VS Code integration: Seamlessly extends your IDE.",
+    "Open-source tool: Modify and extend functionality.",
+    "Contextual coding: Generates code based on nearby files.",
+    "Prompting panel: Ask and receive inline answers."
+  ],
+  "howToUse": [
+    {
+      "title": "Install Continue.dev Extension",
+      "description": "Add Continue.dev to your VS Code from the marketplace or via the official website.",
+      "links": [
+        {
+          "label": "Continue.dev",
+          "url": "https://continue.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Open the Prompt Panel",
+      "description": "Use the built-in panel to ask questions, request code, or get explanations."
+    },
+    {
+      "title": "Leverage Contextual Coding",
+      "description": "Generate code or refactor directly within your project, with AI referencing your codebase."
+    },
+    {
+      "title": "Modify or Extend",
+      "description": "As an open-source project, you can extend functionality or contribute to the tool."
+    }
+  ]
+}

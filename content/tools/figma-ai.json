@@ -1,0 +1,55 @@
+{
+  "id": "figma-ai",
+  "name": "Figma AI",
+  "url": "https://www.figma.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Collaborative interface design tool with AI-powered features for design suggestions and automation.",
+  "description": "Collaborative interface design tool with AI-powered features for design suggestions and automation.\n\nFigma is the canvas where design, code, and AI come together. From first idea to shipped product — go from concept to production with your whole team, in one place.\n\nAI Content Generation: Creates text and images automatically. Text Assistance: Improves or rewrites design copy. Design Automation: Helps with layout and spacing. Image Suggestions: Recommends visuals for designs.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Prototyping",
+    "Collaboration",
+    "Design Systems"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/figma-ai.png",
+  "image": "/tool-screenshots/figma-ai.png",
+  "dateAdded": "2022-06-15",
+  "lastVerified": null,
+  "features": [
+    "AI Content Generation: Creates text and images automatically.",
+    "Text Assistance: Improves or rewrites design copy.",
+    "Design Automation: Helps with layout and spacing.",
+    "Image Suggestions: Recommends visuals for designs."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up and Open Figma",
+      "description": "Create a Figma account and start a new design file.",
+      "links": [
+        {
+          "label": "Figma",
+          "url": "https://www.figma.com/"
+        }
+      ]
+    },
+    {
+      "title": "Design Interfaces",
+      "description": "Use drag-and-drop tools, AI suggestions, and collaborate with your team."
+    },
+    {
+      "title": "Leverage AI Features",
+      "description": "Use AI to automate layouts, generate text, and suggest images."
+    }
+  ]
+}

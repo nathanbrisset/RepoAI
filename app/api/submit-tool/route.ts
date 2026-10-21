@@ -1,7 +1,9 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Resend throws on import when the key is missing, which fails `next build`.
+// Production still uses RESEND_API_KEY. The placeholder is not a live credential.
+const resend = new Resend(process.env.RESEND_API_KEY || "re_build_placeholder");
 
 export async function POST(request: Request) {
   try {

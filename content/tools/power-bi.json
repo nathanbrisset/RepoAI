@@ -1,0 +1,58 @@
+{
+  "id": "power-bi",
+  "name": "Microsoft Power BI",
+  "url": "https://powerbi.microsoft.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Business analytics service providing interactive visualizations.",
+  "description": "Business analytics service providing interactive visualizations.\n\nData Connectivity: Connect to a wide range of data sources, including Excel, SQL Server, and cloud-based services. Custom Visualizations: Create and import custom visuals to tailor reports to specific needs. Natural Language Queries: Ask questions in natural language to get instant answers from your data. Real-Time Dashboards: Monitor data in real-time with live dashboards and alerts.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "Data Analysis",
+    "Reporting",
+    "Dashboards",
+    "Microsoft"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/power-bi.png",
+  "image": "/tool-screenshots/power-bi.png",
+  "dateAdded": "2022-09-10",
+  "lastVerified": null,
+  "features": [
+    "Data Connectivity: Connect to a wide range of data sources, including Excel, SQL Server, and cloud-based services.",
+    "Custom Visualizations: Create and import custom visuals to tailor reports to specific needs.",
+    "Natural Language Queries: Ask questions in natural language to get instant answers from your data.",
+    "Real-Time Dashboards: Monitor data in real-time with live dashboards and alerts."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Download Power BI",
+      "description": "Create a Microsoft account and download Power BI Desktop or use Power BI Service online.",
+      "links": [
+        {
+          "label": "Microsoft Power BI",
+          "url": "https://powerbi.microsoft.com"
+        }
+      ]
+    },
+    {
+      "title": "Connect Data Sources",
+      "description": "Import data from Excel, SQL databases, cloud sources, etc."
+    },
+    {
+      "title": "Build Visualizations",
+      "description": "Drag and drop fields onto the canvas to create interactive reports and dashboards."
+    },
+    {
+      "title": "Ask Questions & Share",
+      "description": "Use natural language queries to explore data and publish dashboards for team access."
+    }
+  ]
+}

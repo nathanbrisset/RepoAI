@@ -1,0 +1,57 @@
+{
+  "id": "codegeex",
+  "name": "CodeGeeX",
+  "url": "https://codegeex.cn/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A multilingual code generation model supporting over 20 programming languages.",
+  "description": "A multilingual code generation model supporting over 20 programming languages.\n\nMultilingual support: Generates code in over 20 languages. Large-scale model: Trained on extensive code datasets. Code translation: Translates code between languages. IDE integration: Compatible with popular development environments.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Multilingual",
+    "Code Generation"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/codegeex.png",
+  "image": "/tool-screenshots/codegeex.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Multilingual support: Generates code in over 20 languages.",
+    "Large-scale model: Trained on extensive code datasets.",
+    "Code translation: Translates code between languages.",
+    "IDE integration: Compatible with popular development environments."
+  ],
+  "howToUse": [
+    {
+      "title": "Access CodeGeeX Platform",
+      "description": "Visit the CodeGeeX website for demos and documentation.",
+      "links": [
+        {
+          "label": "CodeGeeX",
+          "url": "https://codegeex.cn/"
+        }
+      ]
+    },
+    {
+      "title": "Use Online Demos or Plugins",
+      "description": "Generate or translate code using web demos or install IDE integrations."
+    },
+    {
+      "title": "Prompt and Review",
+      "description": "Describe your coding need or input code for translation/completion."
+    },
+    {
+      "title": "Export & Integrate",
+      "description": "Copy results into your IDE or integrate via provided APIs."
+    }
+  ]
+}

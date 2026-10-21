@@ -1,0 +1,57 @@
+{
+  "id": "clickup-ai",
+  "name": "ClickUp AI",
+  "url": "https://clickup.com/brain",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "The world's first neural network connecting projects, docs, people, and all of your company's knowledge with AI through ClickUp Brain.",
+  "description": "The world's first neural network connecting projects, docs, people, and all of your company's knowledge with AI through ClickUp Brain.\n\nTask Automation: Automatically generates and updates tasks based on prompts. AI Writer: Drafts meeting notes, project briefs, and content. Summarization: Summarizes long threads and comments. Brainstorming Assistant: Helps ideate and break down projects.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Automation",
+    "Project Management"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/clickup-ai.png",
+  "image": "/tool-screenshots/clickup-ai.png",
+  "dateAdded": "2023-11-15",
+  "lastVerified": null,
+  "features": [
+    "Task Automation: Automatically generates and updates tasks based on prompts.",
+    "AI Writer: Drafts meeting notes, project briefs, and content.",
+    "Summarization: Summarizes long threads and comments.",
+    "Brainstorming Assistant: Helps ideate and break down projects."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Create Workspace",
+      "description": "Register for ClickUp and create a workspace for your team.",
+      "links": [
+        {
+          "label": "ClickUp AI",
+          "url": "https://clickup.com/ai"
+        }
+      ]
+    },
+    {
+      "title": "Add Tasks & Projects",
+      "description": "Use AI to generate, assign, and schedule tasks."
+    },
+    {
+      "title": "Leverage AI Features",
+      "description": "Summarize discussions, auto-write briefs, or brainstorm new ideas."
+    },
+    {
+      "title": "Track Progress",
+      "description": "Monitor project status and team productivity in real time."
+    }
+  ]
+}

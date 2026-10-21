@@ -1,0 +1,63 @@
+{
+  "id": "optimizely",
+  "name": "Optimizely",
+  "url": "https://www.optimizely.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Optimizely offers AI-powered experimentation and personalization for websites and apps. Marketers can run A/B tests, manage features, and deliver personalized content.",
+  "description": "Optimizely offers AI-powered experimentation and personalization for websites and apps. Marketers can run A/B tests, manage features, and deliver personalized content.\n\nEverything marketing and digital teams need to create content fast, test and personalize, and prove business impact.\n\nA/B and multivariate testing for web/app changes. AI-driven content personalization. Feature flag management for safe rollouts. Real-time analytics for experiment tracking.",
+  "categories": [
+    "marketing",
+    "data-processing",
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Personalization",
+    "AB Testing"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/optimizely.png",
+  "image": "/tool-screenshots/optimizely.png",
+  "dateAdded": "2025-06-11",
+  "lastVerified": null,
+  "features": [
+    "A/B and multivariate testing for web/app changes.",
+    "AI-driven content personalization.",
+    "Feature flag management for safe rollouts.",
+    "Real-time analytics for experiment tracking."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Set Up Account",
+      "description": "Create an Optimizely account and log in to your dashboard. Install the Optimizely snippet or SDK on your website or app.",
+      "links": [
+        {
+          "label": "Optimizely",
+          "url": "https://www.optimizely.com"
+        }
+      ]
+    },
+    {
+      "title": "Launch Experiments",
+      "description": "Create A/B or multivariate tests using the visual editor. Set goals, define variations, and target specific audience segments."
+    },
+    {
+      "title": "Enable Personalization",
+      "description": "Use AI-powered personalization features to deliver tailored content and experiences based on user behavior and attributes."
+    },
+    {
+      "title": "Manage Feature Flags",
+      "description": "Implement feature flags to roll out new features gradually and safely. Control access for specific user groups."
+    },
+    {
+      "title": "Analyze Results",
+      "description": "Monitor real-time analytics to evaluate experiment performance and make data-driven decisions. Apply winning variations to your site or app."
+    }
+  ]
+}

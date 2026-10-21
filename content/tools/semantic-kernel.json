@@ -1,0 +1,53 @@
+{
+  "id": "semantic-kernel",
+  "name": "Semantic Kernel",
+  "url": "https://github.com/microsoft/semantic-kernel",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Integrate cutting-edge LLM technology quickly and easily into your apps - microsoft/semantic-kernel",
+  "description": "Integrate cutting-edge LLM technology quickly and easily into your apps - microsoft/semantic-kernel\n\nIntegration of AI Models: Combines various AI models into applications. Support for Plugins: Allows extension with custom functionalities. Contextual Memory: Maintains context across interactions. Flexible Deployment: Can be integrated into different environments and platforms.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Microsoft",
+    "Integration"
+  ],
+  "pricing": {
+    "model": "open-source",
+    "label": "Open source",
+    "verified": false,
+    "note": "The official link is a GitHub repository. The license and any paid hosting were not rechecked."
+  },
+  "logo": "/logos/semantic-kernel.png",
+  "image": "/tool-screenshots/semantic-kernel.png",
+  "dateAdded": "2023-07-01",
+  "lastVerified": null,
+  "features": [
+    "Integration of AI Models: Combines various AI models into applications.",
+    "Support for Plugins: Allows extension with custom functionalities.",
+    "Contextual Memory: Maintains context across interactions.",
+    "Flexible Deployment: Can be integrated into different environments and platforms."
+  ],
+  "howToUse": [
+    {
+      "title": "Explore Semantic Kernel GitHub",
+      "description": "Visit the GitHub repo for code samples and documentation.",
+      "links": [
+        {
+          "label": "Semantic Kernel",
+          "url": "https://github.com/microsoft/semantic-kernel"
+        }
+      ]
+    },
+    {
+      "title": "Integrate AI Models",
+      "description": "Follow the guides to add AI models and plugins to your application."
+    },
+    {
+      "title": "Deploy & Extend",
+      "description": "Deploy in your environment and extend with contextual memory and plugins."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "gemini-1-5-pro",
+  "name": "Gemini",
+  "url": "https://gemini.google.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Google’s Gemini assistant for chat and multimodal tasks.",
+  "description": "The old card named Gemini 1.5 Pro. The public product at gemini.google.com is the current Gemini app. The page returned HTTP 200 on 21 October 2026 but no title or price in the HTML, so a dollar price is not stated here. The Gemini API docs, which are a separate developer product, list a free tier and paid token rates.",
+  "categories": [
+    "text"
+  ],
+  "tags": [
+    "Translation",
+    "Academic",
+    "Factual",
+    "Multilingual",
+    "Summarization"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "App price not read from gemini.google.com. The API docs show a free tier and paid rates; that is the developer API, not proof of the consumer plan price.",
+    "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing"
+  },
+  "logo": "/logos/gemini-1-5-pro.png",
+  "image": "/tool-screenshots/gemini-1-5-pro.png",
+  "dateAdded": "2024-02-20",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Multilingual Support: Translates and understands content across languages.",
+    "Accurate Summarization: Extracts key ideas from long documents.",
+    "Factual Consistency: Prioritizes fact-checking and evidence-backed output.",
+    "Academic Writing: Generates citations, structured arguments, and reports."
+  ],
+  "howToUse": [
+    {
+      "title": "Access Gemini 1.5 Pro",
+      "description": "Visit Gemini's website and sign in with a Google account.",
+      "links": [
+        {
+          "label": "Gemini 1.5 Pro",
+          "url": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "title": "Input Documents or Prompts",
+      "description": "Paste text, documents, or ask multilingual questions."
+    },
+    {
+      "title": "Request Summaries or Translations",
+      "description": "Ask for summaries, translations, or academic writing tasks."
+    },
+    {
+      "title": "Export or Use Output",
+      "description": "Copy, download, or use content in your workflow."
+    }
+  ],
+  "sources": [
+    "https://gemini.google.com/",
+    "https://ai.google.dev/gemini-api/docs/pricing"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/llama.png",
+  "image": "",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "llama",
+  "name": "Llama",
+  "url": "https://dev.meta.ai/",
+  "summary": "Meta model family. llama.com now opens Meta’s developer site.",
+  "description": "On 21 October 2026, www.llama.com and ai.meta.com/llama both redirected to https://dev.meta.ai/. That page is titled “Products & Solutions for AI Developers | Meta” and mentions Muse Spark, Muse Code, and the Meta Model API. It does not use the name Llama in the title or meta description. The open-weight history of Llama is not restated on that page, so this card does not claim a current license or price.",
+  "categories": [
+    "text",
+    "coding"
+  ],
+  "tags": [
+    "Models",
+    "Meta"
+  ],
+  "pricing": {
+    "model": "open-source",
+    "label": "Open source",
+    "verified": false,
+    "sourceUrl": "https://dev.meta.ai/",
+    "note": "Current license and price were not stated on the redirect target."
+  },
+  "sources": [
+    "https://dev.meta.ai/"
+  ],
+  "statusNote": "llama.com redirected to dev.meta.ai on 21 October 2026. The page title does not say Llama."
+}

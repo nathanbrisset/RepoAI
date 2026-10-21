@@ -1,0 +1,59 @@
+{
+  "id": "activecampaign",
+  "name": "ActiveCampaign",
+  "url": "https://www.activecampaign.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Customer experience automation platform combining email marketing, automation, and CRM tools.",
+  "description": "Customer experience automation platform combining email marketing, automation, and CRM tools.\n\nMarketing Automation: Trigger emails based on user actions. Built-in CRM: Sync sales and marketing tasks. Site Tracking: Monitor user behavior to personalize content. Email Segmentation: Target messages to audience segments.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "Email Marketing",
+    "CRM",
+    "Automation",
+    "Sales Automation"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/activecampaign.png",
+  "image": "/tool-screenshots/activecampaign.png",
+  "dateAdded": null,
+  "lastVerified": null,
+  "dateAddedNote": "The previous Added date was 2003-09-01. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Marketing Automation: Trigger emails based on user actions.",
+    "Built-in CRM: Sync sales and marketing tasks.",
+    "Site Tracking: Monitor user behavior to personalize content.",
+    "Email Segmentation: Target messages to audience segments."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Set Up Account",
+      "description": "Register on ActiveCampaign and connect your contacts and site.",
+      "links": [
+        {
+          "label": "ActiveCampaign",
+          "url": "https://www.activecampaign.com"
+        }
+      ]
+    },
+    {
+      "title": "Create Automations or Campaigns",
+      "description": "Design email automations or single campaigns using the builder."
+    },
+    {
+      "title": "Segment Audience & Personalize",
+      "description": "Set up audience segments and tailor content for each."
+    },
+    {
+      "title": "Monitor & Optimize",
+      "description": "Track analytics and refine automations for better results."
+    }
+  ]
+}

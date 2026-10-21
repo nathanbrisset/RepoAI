@@ -1,0 +1,59 @@
+{
+  "id": "myedit",
+  "name": "MyEdit",
+  "url": "https://myedit.io",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "An AI-powered audio editing platform that helps create professional-quality audio content with automated editing features.",
+  "description": "An AI-powered audio editing platform that helps create professional-quality audio content with automated editing features.\n\nThe previous website did not resolve on 21 October 2026, so the card is marked closed until someone confirms a new URL.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Audio",
+    "Speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/myedit.png",
+  "image": "/tool-screenshots/myedit.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI audio processing: MyEdit supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Register & Access MyEdit",
+      "description": "Create an account and log in to MyEdit’s interface.",
+      "links": [
+        {
+          "label": "MyEdit",
+          "url": "https://myedit.io"
+        }
+      ]
+    },
+    {
+      "title": "Upload Audio Files",
+      "description": "Add recordings or music for editing."
+    },
+    {
+      "title": "Apply AI Editing Tools",
+      "description": "Use noise reduction, transcription, and other enhancement features."
+    },
+    {
+      "title": "Review & Export",
+      "description": "Preview changes and export the final audio for use."
+    }
+  ],
+  "statusNote": "The official URL did not resolve on 21 October 2026. A vendor shutdown notice was not found in this pass."
+}

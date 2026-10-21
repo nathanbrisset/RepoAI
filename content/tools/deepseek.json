@@ -1,0 +1,32 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/deepseek.png",
+  "image": "",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "deepseek",
+  "name": "DeepSeek",
+  "url": "https://www.deepseek.com/",
+  "summary": "Lab publishing open models such as DeepSeek-V4 and DeepSeek-R1, plus a chat app and an API.",
+  "description": "DeepSeek’s homepage meta description (Chinese, fetched 21 October 2026) says the lab researches general AI models, open-sources models including DeepSeek-V4 and DeepSeek-R1, offers a chat, and offers an API. No dollar price was in that sentence.",
+  "categories": [
+    "text",
+    "coding"
+  ],
+  "tags": [
+    "Open weights",
+    "Chat",
+    "API"
+  ],
+  "pricing": {
+    "model": "open-source",
+    "label": "Open source",
+    "verified": true,
+    "sourceUrl": "https://www.deepseek.com/",
+    "note": "Homepage says the named models are open source and that an API exists. API rates were not copied."
+  },
+  "sources": [
+    "https://www.deepseek.com/"
+  ]
+}

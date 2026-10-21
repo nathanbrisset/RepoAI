@@ -1,0 +1,58 @@
+{
+  "id": "kanaries",
+  "name": "Kanaries",
+  "url": "https://kanaries.net",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Make exploratory data analysis (EDA) easier with AI powered visual analytics. Discover, Analyze and Share data insights with ease.",
+  "description": "Make exploratory data analysis (EDA) easier with AI powered visual analytics. Discover, Analyze and Share data insights with ease.\n\nAutoVis: Automatically generate visualizations based on selected data. Data Wrangler: Automate data summarization and transformation. Data Painter: Interactively explore data through visual means. Graphic Walker: Embed visual analytics into web and mobile applications.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "Data Visualization",
+    "AI Assistant",
+    "Exploratory Analysis",
+    "Charts"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/kanaries.png",
+  "image": "/tool-screenshots/kanaries.png",
+  "dateAdded": "2023-04-08",
+  "lastVerified": null,
+  "features": [
+    "AutoVis: Automatically generate visualizations based on selected data.",
+    "Data Wrangler: Automate data summarization and transformation.",
+    "Data Painter: Interactively explore data through visual means.",
+    "Graphic Walker: Embed visual analytics into web and mobile applications."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Kanaries",
+      "description": "Register and log in to the Kanaries platform.",
+      "links": [
+        {
+          "label": "Kanaries",
+          "url": "https://kanaries.net"
+        }
+      ]
+    },
+    {
+      "title": "Import or Connect Data",
+      "description": "Add data files or connect to databases for exploration."
+    },
+    {
+      "title": "Auto-Visualize & Analyze",
+      "description": "Use AutoVis and Data Wrangler to create charts and summarize data."
+    },
+    {
+      "title": "Export & Share",
+      "description": "Download visualizations or embed them into applications."
+    }
+  ]
+}

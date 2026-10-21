@@ -1,0 +1,58 @@
+{
+  "id": "midjourney",
+  "name": "Midjourney",
+  "url": "https://www.midjourney.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Generates high-quality images from text prompts, popular among artists.",
+  "description": "Generates high-quality images from text prompts, popular among artists.\n\nText-to-Image Generation: Creates detailed and artistic images from natural language prompts. Style Customization: Supports a wide range of artistic styles and visual effects. Community Gallery: Users can explore and remix public creations. Iterative Prompting: Refine and upscale images through multiple prompt variations.",
+  "categories": [
+    "image",
+    "design"
+  ],
+  "tags": [
+    "Art",
+    "Concept Design",
+    "High Quality"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/midjourney.png",
+  "image": "/tool-screenshots/midjourney.png",
+  "dateAdded": "2022-07-12",
+  "lastVerified": null,
+  "features": [
+    "Text-to-Image Generation: Creates detailed and artistic images from natural language prompts.",
+    "Style Customization: Supports a wide range of artistic styles and visual effects.",
+    "Community Gallery: Users can explore and remix public creations.",
+    "Iterative Prompting: Refine and upscale images through multiple prompt variations."
+  ],
+  "howToUse": [
+    {
+      "title": "Join Midjourney on Discord",
+      "description": "Access Midjourney by joining the Discord server.",
+      "links": [
+        {
+          "label": "Midjourney",
+          "url": "https://www.midjourney.com"
+        }
+      ]
+    },
+    {
+      "title": "Enter Text Prompts",
+      "description": "Use the /imagine command to create images from text."
+    },
+    {
+      "title": "Refine & Upscale",
+      "description": "Iteratively adjust prompts and upscale images as needed."
+    },
+    {
+      "title": "Download or Remix",
+      "description": "Download final images or remix public artworks."
+    }
+  ]
+}

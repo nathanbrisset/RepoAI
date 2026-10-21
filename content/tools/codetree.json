@@ -1,0 +1,57 @@
+{
+  "id": "codetree",
+  "name": "Codetree",
+  "url": "https://www.codetree.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Coding Learning Curriculum covering Beginner-Level needs up to high level coding knowledge required for working at top-tier tech companies.",
+  "description": "Coding Learning Curriculum covering Beginner-Level needs up to high level coding knowledge required for working at top-tier tech companies.\n\nGoal breakdown: Turn visions into structured plans. Task auto-generation: Assigns developer-friendly actions. Milestone mapping: Visualize project progress. Custom workflows: Tailor planning to your style.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Project Planning",
+    "Developer Tools"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/codetree.png",
+  "image": "/tool-screenshots/codetree.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Goal breakdown: Turn visions into structured plans.",
+    "Task auto-generation: Assigns developer-friendly actions.",
+    "Milestone mapping: Visualize project progress.",
+    "Custom workflows: Tailor planning to your style."
+  ],
+  "howToUse": [
+    {
+      "title": "Start a New Project",
+      "description": "Sign up and start a new project by describing your coding goal.",
+      "links": [
+        {
+          "label": "Codetree",
+          "url": "https://codetree.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Generate Actions",
+      "description": "Let Codetree break down your goal into actionable developer tasks automatically."
+    },
+    {
+      "title": "Visualize Milestones",
+      "description": "Track progress and milestones on the project dashboard."
+    },
+    {
+      "title": "Customize Workflow",
+      "description": "Adjust, add, or remove tasks and milestones to suit your team's workflow."
+    }
+  ]
+}

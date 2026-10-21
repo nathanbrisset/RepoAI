@@ -1,0 +1,58 @@
+{
+  "id": "wavtool",
+  "name": "WavTool",
+  "url": "https://wavtool.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Browser-based AI digital audio workstation for music composition.",
+  "description": "Browser-based AI digital audio workstation for music composition.\n\nOnline DAW: A browser-based digital audio workstation. Real-Time Collaboration: Allows multiple users to work on projects simultaneously. Plugin Support: Supports various audio plugins for enhanced functionality. Multi-Track Editing: Edit multiple audio tracks within the platform.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Browser DAW",
+    "Composition",
+    "Music Creation"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/wavtool.png",
+  "image": "/tool-screenshots/wavtool.png",
+  "dateAdded": "2023-04-20",
+  "lastVerified": null,
+  "features": [
+    "Online DAW: A browser-based digital audio workstation.",
+    "Real-Time Collaboration: Allows multiple users to work on projects simultaneously.",
+    "Plugin Support: Supports various audio plugins for enhanced functionality.",
+    "Multi-Track Editing: Edit multiple audio tracks within the platform."
+  ],
+  "howToUse": [
+    {
+      "title": "Access WavTool Online",
+      "description": "Go to the WavTool website and launch the browser-based DAW.",
+      "links": [
+        {
+          "label": "WavTool",
+          "url": "https://wavtool.com"
+        }
+      ]
+    },
+    {
+      "title": "Start a New Project",
+      "description": "Create a new music project or open an existing one."
+    },
+    {
+      "title": "Compose and Edit",
+      "description": "Use tracks, plugins, and real-time collaboration to compose, record, and edit music."
+    },
+    {
+      "title": "Export or Share",
+      "description": "Export your finished audio or share the project with collaborators."
+    }
+  ]
+}

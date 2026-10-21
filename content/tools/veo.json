@@ -1,0 +1,29 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/veo.png",
+  "image": "",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "veo",
+  "name": "Veo",
+  "url": "https://deepmind.google/models/veo/",
+  "summary": "Google DeepMind video model. The model page responded, without a readable blurb.",
+  "description": "https://deepmind.google/models/veo/ returned HTTP 200 on 21 October 2026. The HTML contained no title and no meta description, so this card does not invent capabilities or a price. Check the page before citing a version number.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "Video",
+    "Google"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "No price in the fetched page."
+  },
+  "sources": [
+    "https://deepmind.google/models/veo/"
+  ]
+}

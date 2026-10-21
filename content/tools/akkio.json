@@ -1,0 +1,58 @@
+{
+  "id": "akkio",
+  "name": "Akkio",
+  "url": "https://www.akkio.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Experience the power of application-specific AI. Akkio makes it easy for media agencies to easily and instantly understand their data across campaign workflows and act on it for better, faster client results.",
+  "description": "Experience the power of application-specific AI. Akkio makes it easy for media agencies to easily and instantly understand their data across campaign workflows and act on it for better, faster client results.\n\nNo-Code AI Modeling: Build predictive models without coding, ideal for marketing and sales analytics. Chat Explore™: Interact with data using natural language queries. Data Preparation Tools: Clean and transform data efficiently. Generative Reports: Automatically generate insights and reports from data.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "Machine Learning",
+    "Predictive Models",
+    "No Code",
+    "Data Analysis"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/akkio.png",
+  "image": "/tool-screenshots/akkio.png",
+  "dateAdded": "2023-01-22",
+  "lastVerified": null,
+  "features": [
+    "No-Code AI Modeling: Build predictive models without coding, ideal for marketing and sales analytics.",
+    "Chat Explore™: Interact with data using natural language queries.",
+    "Data Preparation Tools: Clean and transform data efficiently.",
+    "Generative Reports: Automatically generate insights and reports from data."
+  ],
+  "howToUse": [
+    {
+      "title": "Register & Log In",
+      "description": "Sign up for Akkio and access the platform dashboard.",
+      "links": [
+        {
+          "label": "Akkio",
+          "url": "https://www.akkio.com"
+        }
+      ]
+    },
+    {
+      "title": "Upload Data",
+      "description": "Import your datasets for analysis and modeling."
+    },
+    {
+      "title": "Build Predictive Models",
+      "description": "Use no-code tools or Chat Explore™ to create and train AI models."
+    },
+    {
+      "title": "Deploy & Share Insights",
+      "description": "Deploy models in production or export reports for your team."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "synthesia",
+  "name": "Synthesia",
+  "url": "https://www.synthesia.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Official Synthesia site. The AI video platform trusted by 90%+ of the Fortune 100 to communicate, train, and upskill teams in 140+ languages.",
+  "description": "Official Synthesia site. The AI video platform trusted by 90%+ of the Fortune 100 to communicate, train, and upskill teams in 140+ languages.\n\nText-to-Video: Turn scripts into videos with AI avatars. Multilingual Voiceovers: Supports 140+ languages and accents. Custom Avatars: Personalize avatars with your own likeness. Built-in Templates: Prebuilt formats for training, promo, etc.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "Video Creation",
+    "AI Video",
+    "Personalized Video",
+    "Training Videos"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/synthesia.png",
+  "image": "/tool-screenshots/synthesia.png",
+  "dateAdded": "2020-05-05",
+  "lastVerified": null,
+  "features": [
+    "Text-to-Video: Turn scripts into videos with AI avatars.",
+    "Multilingual Voiceovers: Supports 140+ languages and accents.",
+    "Custom Avatars: Personalize avatars with your own likeness.",
+    "Built-in Templates: Prebuilt formats for training, promo, etc."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Create Video",
+      "description": "Create a Synthesia account and start a new video project.",
+      "links": [
+        {
+          "label": "Synthesia",
+          "url": "https://www.synthesia.io"
+        }
+      ]
+    },
+    {
+      "title": "Enter Script & Select Template",
+      "description": "Input your video script and pick a template or avatar."
+    },
+    {
+      "title": "Customize Video",
+      "description": "Adjust language, voice, backgrounds, and avatars."
+    },
+    {
+      "title": "Generate & Download",
+      "description": "Let Synthesia process the video, then export the final file."
+    }
+  ]
+}

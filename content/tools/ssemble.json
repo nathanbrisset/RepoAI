@@ -1,0 +1,70 @@
+{
+  "id": "ssemble",
+  "name": "Ssemble",
+  "url": "https://www.ssemble.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Ssemble is a collaborative online video editor with AI tools for summarizing, transcribing, and enhancing videos, ideal for teams and educators.",
+  "description": "Ssemble is a collaborative online video editor with AI tools for summarizing, transcribing, and enhancing videos, ideal for teams and educators.\n\nTurn YouTube videos into viral TikTok & Instagram Shorts with AI. Auto-clip, caption, and post. Trusted by 2.4M+ creators. Plans from $6/mo.\n\nCollaborative editing: Multiple users can work on the same video project in real time, streamlining team workflows. Transcription and subtitles: AI generates editable transcripts and subtitles for improved accessibility and SEO. Video summarization: Automatically condense long-form content into short, shareable highlights. Plugin marketplace: Extend Ssemble with add-ons for effects, integrations, and custom tools.",
+  "categories": [
+    "video",
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Editing",
+    "Collaboration"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/ssemble.png",
+  "image": "/tool-screenshots/ssemble.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "Collaborative editing: Multiple users can work on the same video project in real time, streamlining team workflows.",
+    "Transcription and subtitles: AI generates editable transcripts and subtitles for improved accessibility and SEO.",
+    "Video summarization: Automatically condense long-form content into short, shareable highlights.",
+    "Plugin marketplace: Extend Ssemble with add-ons for effects, integrations, and custom tools."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Log In",
+      "description": "Visit Ssemble and create a free account. Log in to your dashboard to start new projects or join team workspaces.",
+      "links": [
+        {
+          "label": "Ssemble",
+          "url": "https://www.ssemble.com"
+        }
+      ]
+    },
+    {
+      "title": "Create or Join a Project",
+      "description": "Start a new video editing project or join an existing team project. Invite collaborators if you’re working as a team."
+    },
+    {
+      "title": "Upload Video Files",
+      "description": "Upload your source media files (video, audio, images) to the project workspace. Ssemble supports all major video formats."
+    },
+    {
+      "title": "Edit Collaboratively in Real Time",
+      "description": "Edit the timeline, cut or merge clips, add transitions, overlays, and effects. Multiple users can work together live on the same timeline."
+    },
+    {
+      "title": "Use AI Tools for Transcription & Summarization",
+      "description": "Generate automatic transcripts and subtitles for your videos. Use the AI summarization feature to create highlight reels from long-form content."
+    },
+    {
+      "title": "Explore Plugin Marketplace",
+      "description": "Install plugins for advanced effects, integrations (like YouTube or Google Drive), or custom workflow enhancements."
+    },
+    {
+      "title": "Preview, Export, and Share",
+      "description": "Preview your final video, export in the desired resolution and format, and share via link or direct download."
+    }
+  ]
+}

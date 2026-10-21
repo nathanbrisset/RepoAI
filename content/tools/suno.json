@@ -1,0 +1,63 @@
+{
+  "id": "suno",
+  "name": "Suno",
+  "url": "https://suno.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI music generator with a free daily credit plan and paid tiers.",
+  "description": "Suno generates original music from text. suno.ai redirected to suno.com. The pricing page on 21 October 2026 listed Free at $0 with 50 credits a day, Pro at $8/month when billed yearly, and Premier at $24/month when billed yearly. The previous Free-only label missed the paid plans.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Text To Music",
+    "Genre Blending",
+    "Composition"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Free $0 (50 credits/day). Pro $8/month and Premier $24/month on the yearly prices shown.",
+    "sourceUrl": "https://suno.com/pricing"
+  },
+  "logo": "/logos/suno.png",
+  "image": "/tool-screenshots/suno.png",
+  "dateAdded": "2023-05-10",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI Music Generation: Creates songs based on user inputs.",
+    "Genre Versatility: Supports various musical genres.",
+    "Lyric Integration: Generates lyrics to accompany compositions.",
+    "Rapid Composition: Produces complete songs in seconds."
+  ],
+  "howToUse": [
+    {
+      "title": "Visit Suno Website",
+      "description": "Access Suno via their platform to start generating music.",
+      "links": [
+        {
+          "label": "Suno",
+          "url": "https://suno.ai"
+        }
+      ]
+    },
+    {
+      "title": "Describe or Select Style",
+      "description": "Enter a text prompt or select genre and style for your composition."
+    },
+    {
+      "title": "Generate Song",
+      "description": "Let the AI create music and lyrics based on your input."
+    },
+    {
+      "title": "Download or Share",
+      "description": "Export the composition or share it directly."
+    }
+  ],
+  "sources": [
+    "https://suno.com/",
+    "https://suno.com/pricing"
+  ]
+}

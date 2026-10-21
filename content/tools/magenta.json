@@ -1,0 +1,54 @@
+{
+  "id": "magenta",
+  "name": "Magenta Studio",
+  "url": "https://magenta.tensorflow.org/studio/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An open-source project by Google exploring machine learning in music creation, offering tools for melody generation and more.",
+  "description": "An open-source project by Google exploring machine learning in music creation, offering tools for melody generation and more.\n\nMagenta Studio is a collection of music plugins built on Magenta\n\nAI audio processing: Magenta Studio supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Audio",
+    "Speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/magenta.png",
+  "image": "/tool-screenshots/magenta.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "AI audio processing: Magenta Studio supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Access Magenta Studio",
+      "description": "Visit Magenta Studio and download open-source tools for music creation.",
+      "links": [
+        {
+          "label": "Magenta Studio",
+          "url": "https://magenta.tensorflow.org/studio/"
+        }
+      ]
+    },
+    {
+      "title": "Create or Import Melody",
+      "description": "Use AI tools to generate or edit melodies and tracks."
+    },
+    {
+      "title": "Experiment & Export",
+      "description": "Experiment with settings and export your musical creations."
+    }
+  ]
+}

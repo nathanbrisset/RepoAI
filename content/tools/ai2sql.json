@@ -1,0 +1,57 @@
+{
+  "id": "ai2sql",
+  "name": "AI2sql",
+  "url": "https://ai2sql.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI SQL assistant that works on your real schema. Generate, explain, fix and optimize SQL, and let Claude, Cursor or ChatGPT query your database over MCP.",
+  "description": "AI SQL assistant that works on your real schema. Generate, explain, fix and optimize SQL, and let Claude, Cursor or ChatGPT query your database over MCP.\n\nNatural language to SQL: Translate plain text into queries. Query optimization: Suggests better query structures. Supports multiple DBs: MySQL, PostgreSQL, etc. Real-time feedback: Validate queries instantly.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "SQL",
+    "Natural Language"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/ai2sql.png",
+  "image": "/tool-screenshots/ai2sql.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Natural language to SQL: Translate plain text into queries.",
+    "Query optimization: Suggests better query structures.",
+    "Supports multiple DBs: MySQL, PostgreSQL, etc.",
+    "Real-time feedback: Validate queries instantly."
+  ],
+  "howToUse": [
+    {
+      "title": "Access AI2sql",
+      "description": "Go to the AI2sql website and log in.",
+      "links": [
+        {
+          "label": "AI2sql",
+          "url": "https://www.ai2sql.io/"
+        }
+      ]
+    },
+    {
+      "title": "Describe Query in Plain English",
+      "description": "Type your desired SQL query in natural language."
+    },
+    {
+      "title": "Get and Optimize SQL",
+      "description": "Receive and review the generated SQL. Let the tool suggest optimizations."
+    },
+    {
+      "title": "Validate and Use",
+      "description": "Test or copy the query for your database."
+    }
+  ]
+}

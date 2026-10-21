@@ -1,0 +1,103 @@
+{
+  "id": "tavus",
+  "name": "Tavus",
+  "url": "https://www.tavus.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Tavus automates personalized video generation for sales and marketing, using AI face and voice cloning for hyper-personalized outreach at scale.",
+  "description": "Tavus automates personalized video generation for sales and marketing, using AI face and voice cloning for hyper-personalized outreach at scale.\n\nPersonified Application Layers that see, hear, and respond face-to-face in real time. Build and deploy with our API, no-code PAL Maker, or enterprise Solutions. Interactive AI avatars and conversational video reimagined\n\nPersonalized video at scale: Generate thousands of unique, hyper-personalized video messages for every prospect or customer automatically. AI face and voice cloning: Use your likeness and voice to deliver truly authentic and individualized outreach videos. CRM integration: Connect directly with popular CRM tools to personalize videos using live customer data for each message. Analytics dashboard: Measure success with detailed open, view, and engagement tracking for every video sent.",
+  "categories": [
+    "video",
+    "marketing",
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Personalization",
+    "Voice"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/tavus.png",
+  "image": "/tool-screenshots/tavus.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "Personalized video at scale: Generate thousands of unique, hyper-personalized video messages for every prospect or customer automatically.",
+    "AI face and voice cloning: Use your likeness and voice to deliver truly authentic and individualized outreach videos.",
+    "CRM integration: Connect directly with popular CRM tools to personalize videos using live customer data for each message.",
+    "Analytics dashboard: Measure success with detailed open, view, and engagement tracking for every video sent."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Log In",
+      "description": "Go to Tavus.io and create an account using your work email. Choose a plan that matches your needs and log in to your dashboard.",
+      "links": [
+        {
+          "label": "Tavus",
+          "url": "https://www.tavus.io"
+        }
+      ]
+    },
+    {
+      "title": "Record Your Base Video",
+      "description": "Follow Tavus's guided instructions to record a video template. This base video will be used for AI-driven face and voice cloning, so read the script clearly and use good lighting.",
+      "links": [
+        {
+          "label": "Recording Guide",
+          "url": "https://help.tavus.io/en/articles/recording-your-base-video"
+        }
+      ]
+    },
+    {
+      "title": "Set Up Personalization Fields",
+      "description": "Decide which fields (like first name, company, product, etc.) you want to personalize. Map these variables to your contact data or CRM integration.",
+      "links": [
+        {
+          "label": "Personalization Docs",
+          "url": "https://help.tavus.io/en/articles/personalization"
+        }
+      ]
+    },
+    {
+      "title": "Upload Your Audience List or Connect CRM",
+      "description": "Import a CSV of your recipients or connect directly to your CRM (such as HubSpot or Salesforce) for seamless data mapping and automation."
+    },
+    {
+      "title": "Generate Personalized Videos",
+      "description": "Tavus's AI engine will process your base video and data fields to create a unique, personalized video for each contact. You can preview a few before generating the full batch."
+    },
+    {
+      "title": "Review & Edit",
+      "description": "Check a sample of generated videos for quality, pronunciation, and accuracy. Make adjustments to your template or data and reprocess if needed."
+    },
+    {
+      "title": "Send or Share Videos",
+      "description": "Distribute your videos via email, SMS, direct link, or by embedding in landing pages. Tavus supports integrations for automated outreach and campaign tracking.",
+      "links": [
+        {
+          "label": "Integrations",
+          "url": "https://help.tavus.io/en/articles/integrations"
+        }
+      ]
+    },
+    {
+      "title": "Analyze Results",
+      "description": "Monitor open rates, video views, clicks, and conversions in the Tavus analytics dashboard. Use insights to refine future campaigns for better engagement."
+    },
+    {
+      "title": "Advanced: API Automation",
+      "description": "For developers or enterprises, use the Tavus API to automate large-scale personalization, trigger video generation from workflows, and retrieve video URLs programmatically.",
+      "links": [
+        {
+          "label": "Tavus API Docs",
+          "url": "https://docs.tavus.io/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/fal.png",
+  "image": "",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "fal",
+  "name": "fal",
+  "url": "https://fal.ai/",
+  "summary": "API platform for generative media models and serverless GPUs.",
+  "description": "fal.ai on 21 October 2026 described a generative media inference platform: call many models through one API, deploy your own on serverless GPUs, or train on GPU clusters. No dollar rate was in that text.",
+  "categories": [
+    "image",
+    "video"
+  ],
+  "tags": [
+    "API",
+    "Media",
+    "GPU"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "sourceUrl": "https://fal.ai/",
+    "note": "Usage-based pricing is implied by the API product. Rates were not copied."
+  },
+  "sources": [
+    "https://fal.ai/"
+  ]
+}

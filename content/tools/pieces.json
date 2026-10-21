@@ -1,0 +1,57 @@
+{
+  "id": "pieces",
+  "name": "Pieces for Developers",
+  "url": "https://pieces.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Pieces builds artificial memory from your work so you can recover decisions, resume where you left off, and bring real context into every AI tool.",
+  "description": "Pieces builds artificial memory from your work so you can recover decisions, resume where you left off, and bring real context into every AI tool.\n\nSnippet enrichment: Add context and metadata with AI. Smart search: Find saved content quickly. Offline support: Works without internet connection. IDE integration: Use in VS Code and IntelliJ.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Snippets",
+    "Developer Productivity"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/pieces.png",
+  "image": "/tool-screenshots/pieces.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Snippet enrichment: Add context and metadata with AI.",
+    "Smart search: Find saved content quickly.",
+    "Offline support: Works without internet connection.",
+    "IDE integration: Use in VS Code and IntelliJ."
+  ],
+  "howToUse": [
+    {
+      "title": "Install Pieces App or Extension",
+      "description": "Download the Pieces desktop app or install the extension for your IDE.",
+      "links": [
+        {
+          "label": "Pieces for Developers",
+          "url": "https://www.pieces.app/"
+        }
+      ]
+    },
+    {
+      "title": "Save Snippets",
+      "description": "Save code snippets from anywhere—browser, IDE, or desktop."
+    },
+    {
+      "title": "Enrich and Search",
+      "description": "Let AI add metadata and search for snippets with context-aware suggestions."
+    },
+    {
+      "title": "Reuse and Share",
+      "description": "Insert snippets into your projects, or share with your team."
+    }
+  ]
+}
