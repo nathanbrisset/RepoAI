@@ -22,11 +22,41 @@
     "sourceUrl": "https://claude.com/pricing"
   },
   "logo": "",
-  "image": "",
+  "image": "/screenshots/claude-code.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.claude.com/product/claude-code",
     "https://claude.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Download Claude Code",
+      "description": "The product page offers a Windows download and says it is available for macOS, Linux, and Windows.",
+      "links": [
+        {
+          "label": "Claude Code",
+          "url": "https://claude.com/product/claude-code"
+        }
+      ]
+    },
+    {
+      "title": "Hand it a task",
+      "description": "The page says to hand Claude a bug fix, a test, or a longer migration, then steer and review the work."
+    },
+    {
+      "title": "Use it where you work",
+      "description": "The page lists the terminal, IDE, Slack, and web, plus iOS, Android, GitHub, VS Code, and JetBrains."
+    },
+    {
+      "title": "Read the docs",
+      "description": "Documentation is linked from the product page.",
+      "links": [
+        {
+          "label": "Claude Code docs",
+          "url": "https://code.claude.com/docs/en/overview"
+        }
+      ]
+    }
   ]
 }

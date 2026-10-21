@@ -22,11 +22,41 @@
     "sourceUrl": "https://wisprflow.ai/pricing"
   },
   "logo": "/logos/wispr-flow.png",
-  "image": "",
+  "image": "/screenshots/wispr-flow.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://wisprflow.ai",
     "https://wisprflow.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Install Flow",
+      "description": "The homepage says Flow is available on Mac, Windows, iPhone, and Android.",
+      "links": [
+        {
+          "label": "Wispr Flow",
+          "url": "https://wisprflow.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Speak instead of typing",
+      "description": "The page says Flow turns speech into polished writing in every app."
+    },
+    {
+      "title": "Let Flow edit as you speak",
+      "description": "A section on the homepage is titled Flow edits as you speak."
+    },
+    {
+      "title": "Use Notetaker where it is offered",
+      "description": "The page says Wispr Flow Notetaker is available on Windows and Mac.",
+      "links": [
+        {
+          "label": "Flow docs",
+          "url": "https://docs.wisprflow.ai/"
+        }
+      ]
+    }
   ]
 }

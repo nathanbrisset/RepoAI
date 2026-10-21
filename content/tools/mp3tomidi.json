@@ -22,10 +22,36 @@
     "sourceUrl": "https://mp3tomidi.io/"
   },
   "logo": "/logos/mp3tomidi.png",
-  "image": "",
+  "image": "/screenshots/mp3tomidi.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://mp3tomidi.io/"
+  ],
+  "howToUse": [
+    {
+      "title": "Upload an MP3",
+      "description": "Drop an MP3 in the browser. The page says there is no signup, the audio stays on your device, and the free conversion accepts files up to 5 minutes.",
+      "links": [
+        {
+          "label": "MP3 to MIDI",
+          "url": "https://mp3tomidi.io/"
+        }
+      ]
+    },
+    {
+      "title": "Choose the closest audio type",
+      "description": "Select voice, piano, guitar, bass, another solo instrument, a full song, or Not Sure. The page says the preset adjusts detection and does not create separate instrument tracks."
+    },
+    {
+      "title": "Preview and download the MIDI",
+      "description": "Compare the audio with the MIDI preview, edit notes in the piano roll, and download the MIDI file.",
+      "links": [
+        {
+          "label": "How it works",
+          "url": "https://mp3tomidi.io/#how-it-works"
+        }
+      ]
+    }
   ]
 }

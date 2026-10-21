@@ -21,10 +21,40 @@
     "sourceUrl": "https://higgsfield.ai"
   },
   "logo": "/logos/higgsfield.png",
-  "image": "",
+  "image": "/screenshots/higgsfield.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://higgsfield.ai"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up",
+      "description": "The homepage has Sign up and links straight into Kling 4.0 and Genjutsu.",
+      "links": [
+        {
+          "label": "Higgsfield",
+          "url": "https://higgsfield.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Create or edit a video",
+      "description": "The Kling 4.0 card says to create and edit videos with text, images, and references."
+    },
+    {
+      "title": "Or start from one upload",
+      "description": "Genjutsu on the page is described as one upload in and new versions out, including motion transfer."
+    },
+    {
+      "title": "Learn the flow in the Academy",
+      "description": "Higgsfield Academy says it teaches AI images and videos step by step.",
+      "links": [
+        {
+          "label": "Help center",
+          "url": "https://higgsfield.ai/creator-hub/help-center"
+        }
+      ]
+    }
   ]
 }

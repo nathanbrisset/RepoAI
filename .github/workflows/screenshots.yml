@@ -1,0 +1,47 @@
+# Monthly catalog screenshots.
+# Pushes only the bot branch screenshots/monthly and opens or updates a PR
+# toward restore3-new. It never pushes to restore3-new or main, and never merges.
+name: Screenshots
+
+on:
+  schedule:
+    # 06:00 UTC on the 1st of each month. GitHub runs scheduled workflows from the default branch.
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: screenshots-monthly
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Capture and open or update the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SCREENSHOTS_BROWSER: chromium
+        run: bash scripts/screenshots/update-pr.sh

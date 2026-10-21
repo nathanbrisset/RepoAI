@@ -23,10 +23,36 @@
     "sourceUrl": "https://www.kimi.com/membership/pricing"
   },
   "logo": "/logos/kimi.png",
-  "image": "",
+  "image": "/screenshots/kimi.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.kimi.com/membership/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kimi",
+      "description": "The homepage is a chat. Its prompt says to ask anything, or task an agent.",
+      "links": [
+        {
+          "label": "Kimi",
+          "url": "https://www.kimi.com/"
+        }
+      ]
+    },
+    {
+      "title": "Use the tools on the page",
+      "description": "The same screen lists Plugins, Slides, and Deep Research alongside the prompt."
+    },
+    {
+      "title": "Read the docs",
+      "description": "Docs are linked from the homepage.",
+      "links": [
+        {
+          "label": "Kimi docs",
+          "url": "https://www.kimi.com/docs"
+        }
+      ]
+    }
   ]
 }
