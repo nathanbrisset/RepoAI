@@ -1,45 +1,17 @@
 {
-  "generatedAt": "2026-10-21T19:12:30.716Z",
-  "activeChecked": 469,
-  "passed": 434,
-  "failed": 35,
+  "generatedAt": "2026-10-21T19:54:43.903Z",
+  "activeChecked": 468,
+  "passed": 460,
+  "failed": 8,
   "fixes": [],
   "byReason": {
-    "capture absente": 19,
-    "lien officiel HTTP": 17,
-    "lien officiel injoignable (fetch failed)": 1,
-    "capture suspecte (7160 octets, sous 15 Ko)": 1,
+    "capture absente": 4,
     "capture suspecte (13624 octets, sous 15 Ko)": 1,
-    "capture suspecte (9534 octets, sous 15 Ko)": 1,
+    "capture suspecte (10500 octets, sous 15 Ko)": 1,
     "capture suspecte (11904 octets, sous 15 Ko)": 1,
-    "le texte de la page officielle ne recoupe ni le nom ni la description": 1,
     "capture suspecte (8490 octets, sous 15 Ko)": 1
   },
   "failures": [
-    {
-      "id": "alphacode",
-      "name": "AlphaCode",
-      "url": "https://alphacode.deepmind.com/",
-      "failures": [
-        "lien officiel injoignable (fetch failed)"
-      ]
-    },
-    {
-      "id": "anything",
-      "name": "Anything",
-      "url": "https://www.anything.com/",
-      "failures": [
-        "capture suspecte (7160 octets, sous 15 Ko)"
-      ]
-    },
-    {
-      "id": "attio",
-      "name": "Attio",
-      "url": "https://attio.com/",
-      "failures": [
-        "capture absente"
-      ]
-    },
     {
       "id": "autoregex",
       "name": "AutoRegex",
@@ -53,16 +25,6 @@
       "name": "Brainly",
       "url": "https://brainly.com",
       "failures": [
-        "lien officiel HTTP 403",
-        "capture absente"
-      ]
-    },
-    {
-      "id": "character-ai",
-      "name": "Character.ai",
-      "url": "https://character.ai",
-      "failures": [
-        "lien officiel HTTP 403",
         "capture absente"
       ]
     },
@@ -71,55 +33,7 @@
       "name": "ChatCode",
       "url": "https://chatcodeai.vercel.app/",
       "failures": [
-        "capture absente"
-      ]
-    },
-    {
-      "id": "clipdroprelight",
-      "name": "ClipDrop Relight",
-      "url": "https://clipdrop.co/relight",
-      "failures": [
-        "capture suspecte (9534 octets, sous 15 Ko)"
-      ]
-    },
-    {
-      "id": "cocounsel",
-      "name": "CoCounsel",
-      "url": "https://www.thomsonreuters.com/en/cocounsel",
-      "failures": [
-        "capture absente"
-      ]
-    },
-    {
-      "id": "codeassist",
-      "name": "CodeAssist",
-      "url": "https://www.codeassist.tech/",
-      "failures": [
-        "lien officiel HTTP 403"
-      ]
-    },
-    {
-      "id": "codepal",
-      "name": "CodePal",
-      "url": "https://codepal.ai/",
-      "failures": [
-        "capture absente"
-      ]
-    },
-    {
-      "id": "craiyon",
-      "name": "Craiyon",
-      "url": "https://www.craiyon.com",
-      "failures": [
-        "lien officiel HTTP 403"
-      ]
-    },
-    {
-      "id": "crewai",
-      "name": "CrewAI",
-      "url": "https://crewai.com/",
-      "failures": [
-        "capture absente"
+        "capture suspecte (10500 octets, sous 15 Ko)"
       ]
     },
     {
@@ -131,92 +45,10 @@
       ]
     },
     {
-      "id": "duolingo",
-      "name": "Duolingo",
-      "url": "https://www.duolingo.com/",
-      "failures": [
-        "capture absente"
-      ]
-    },
-    {
-      "id": "gamma",
-      "name": "Gamma",
-      "url": "https://gamma.app",
-      "failures": [
-        "lien officiel HTTP 403",
-        "capture absente"
-      ]
-    },
-    {
-      "id": "google-stitch",
-      "name": "Google Stitch",
-      "url": "https://stitch.withgoogle.com/",
-      "failures": [
-        "capture absente"
-      ]
-    },
-    {
-      "id": "ideogram",
-      "name": "Ideogram",
-      "url": "https://ideogram.ai",
-      "failures": [
-        "lien officiel HTTP 403"
-      ]
-    },
-    {
-      "id": "leonardo_ai",
-      "name": "Leonardo.Ai",
-      "url": "https://leonardo.ai",
-      "failures": [
-        "lien officiel HTTP 403"
-      ]
-    },
-    {
-      "id": "manychat",
-      "name": "ManyChat",
-      "url": "https://manychat.com",
-      "failures": [
-        "lien officiel HTTP 403"
-      ]
-    },
-    {
-      "id": "mem",
-      "name": "Mem",
-      "url": "https://mem.ai/",
-      "failures": [
-        "le texte de la page officielle ne recoupe ni le nom ni la description"
-      ]
-    },
-    {
-      "id": "meta-ai",
-      "name": "Meta AI",
-      "url": "https://www.meta.ai",
-      "failures": [
-        "lien officiel HTTP 403"
-      ]
-    },
-    {
-      "id": "midjourney",
-      "name": "Midjourney",
-      "url": "https://www.midjourney.com",
-      "failures": [
-        "lien officiel HTTP 403"
-      ]
-    },
-    {
-      "id": "novelai",
-      "name": "NovelAI",
-      "url": "https://novelai.net/",
-      "failures": [
-        "capture absente"
-      ]
-    },
-    {
       "id": "perplexity-ai",
       "name": "Perplexity",
       "url": "https://www.perplexity.ai",
       "failures": [
-        "lien officiel HTTP 403",
         "capture suspecte (8490 octets, sous 15 Ko)"
       ]
     },
@@ -225,64 +57,13 @@
       "name": "Perplexity Comet",
       "url": "https://www.perplexity.ai/comet",
       "failures": [
-        "lien officiel HTTP 403",
         "capture absente"
-      ]
-    },
-    {
-      "id": "poe",
-      "name": "Poe",
-      "url": "https://poe.com",
-      "failures": [
-        "lien officiel HTTP 403",
-        "capture absente"
-      ]
-    },
-    {
-      "id": "power-bi",
-      "name": "Microsoft Power BI",
-      "url": "https://powerbi.microsoft.com",
-      "failures": [
-        "lien officiel HTTP 403"
-      ]
-    },
-    {
-      "id": "quillbot",
-      "name": "QuillBot",
-      "url": "https://quillbot.com",
-      "failures": [
-        "lien officiel HTTP 403"
       ]
     },
     {
       "id": "quizlet",
       "name": "Quizlet",
       "url": "https://quizlet.com",
-      "failures": [
-        "lien officiel HTTP 403",
-        "capture absente"
-      ]
-    },
-    {
-      "id": "readwise-reader",
-      "name": "Readwise Reader",
-      "url": "https://readwise.io/read",
-      "failures": [
-        "capture absente"
-      ]
-    },
-    {
-      "id": "retell-ai",
-      "name": "Retell AI",
-      "url": "https://www.retellai.com/",
-      "failures": [
-        "capture absente"
-      ]
-    },
-    {
-      "id": "spellbook",
-      "name": "Spellbook",
-      "url": "https://spellbook.com/",
       "failures": [
         "capture absente"
       ]
@@ -291,15 +72,6 @@
       "id": "tensor-art",
       "name": "Tensor.Art",
       "url": "https://tensor.art",
-      "failures": [
-        "lien officiel HTTP 403",
-        "capture absente"
-      ]
-    },
-    {
-      "id": "webflow",
-      "name": "Webflow",
-      "url": "https://webflow.com/",
       "failures": [
         "capture absente"
       ]

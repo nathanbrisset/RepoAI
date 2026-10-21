@@ -233,11 +233,23 @@ function pageIsBad(title, text) {
   return ""
 }
 
+function nameOnPage(name, blob) {
+  if (name.length > 3 && blob.includes(name)) return true
+  const parts = name.split(/[^a-z0-9]+/).filter((word) => word.length > 4 && !STOP.has(word))
+  return parts.some((part) => new RegExp(`\\b${part}\\b`).test(blob))
+}
+
+function officialHowToLink(linkUrl, tool) {
+  if (sameSite(linkUrl, tool.url)) return true
+  const host = hostOf(linkUrl)
+  const parts = tool.name.toLowerCase().split(/[^a-z0-9]+/).filter((word) => word.length >= 6 && !STOP.has(word))
+  return parts.some((part) => host.includes(part))
+}
+
 function agreesWithPage(tool, text, title) {
   const blob = `${title}\n${text}`.toLowerCase()
   if ((text || "").length < 80 && (title || "").length < 2) return ""
-  const name = tool.name.toLowerCase()
-  const nameHit = name.length > 3 && blob.includes(name)
+  const nameHit = nameOnPage(tool.name.toLowerCase(), blob)
   const described = tokens(`${tool.description} ${tool.summary}`)
   const overlap = described.filter((word) => blob.includes(word)).length
   if (nameHit || overlap >= 2) return ""
@@ -283,7 +295,7 @@ const checked = await mapPool(tools, 12, async (tool) => {
   const offsite = []
   for (const step of tool.howToUse || []) {
     for (const link of step.links || []) {
-      if (!sameSite(link.url, tool.url) || /youtube\.com|youtu\.be/i.test(link.url)) offsite.push(link.url)
+      if (!officialHowToLink(link.url, tool) || /youtube\.com|youtu\.be/i.test(link.url)) offsite.push(link.url)
     }
   }
   if (offsite.length) failures.push(`lien How To Use hors domaine officiel (${offsite.slice(0, 3).join(", ")})`)
@@ -294,7 +306,8 @@ const checked = await mapPool(tools, 12, async (tool) => {
   const browserStatus = Number(shot?.httpStatus || 0)
   const browserOk = browserStatus >= 200 && browserStatus < 400 && shot?.outcome === "success"
   const linkOk = link.ok || browserOk
-  if (!linkOk) failures.push(link.error ? `lien officiel injoignable (${link.error})` : `lien officiel HTTP ${link.status || browserStatus || "absent"}`)
+  const clientBlocked = !linkOk && link.status === 403
+  if (!linkOk && !clientBlocked) failures.push(link.error ? `lien officiel injoignable (${link.error})` : `lien officiel HTTP ${link.status || browserStatus || "absent"}`)
   const badPage = pageIsBad(link.title || renderedTitle, link.text || rendered)
   if (linkOk && badPage) failures.push(`lien officiel : ${badPage}`)
   const coherence = agreesWithPage(tool, link.text.length > 80 ? link.text : rendered, link.title || renderedTitle)

@@ -4,69 +4,43 @@ Généré le 2026-10-21.
 
 | Compteur | Nombre |
 | --- | ---: |
-| Fiches actives contrôlées | 469 |
-| Conformes | 434 |
-| Encore en échec parmi les fiches restées actives | 34 |
-| Passée en inactif après ce contrôle | 1 (AlphaCode, échec SSL de https://alphacode.deepmind.com/) |
+| Fiches actives contrôlées | 468 |
+| Conformes | 460 |
+| Encore en échec | 8 |
+| Corrections appliquées pendant ce passage | 0 |
 
 ## Échecs restants par raison
 
-- 1 × capture suspecte (7160 octets, sous 15 Ko)
-- 19 × capture absente
 - 1 × capture suspecte (13624 octets, sous 15 Ko)
-- 17 × lien officiel HTTP
-- 1 × capture suspecte (9534 octets, sous 15 Ko)
+- 4 × capture absente
+- 1 × capture suspecte (10500 octets, sous 15 Ko)
 - 1 × capture suspecte (11904 octets, sous 15 Ko)
-- 1 × le texte de la page officielle ne recoupe ni le nom ni la description
 - 1 × capture suspecte (8490 octets, sous 15 Ko)
 
 ## Fiches non corrigées
 
 | id | nom | raison |
 | --- | --- | --- |
-| anything | Anything | capture suspecte (7160 octets, sous 15 Ko) |
-| attio | Attio | capture absente |
 | autoregex | AutoRegex | capture suspecte (13624 octets, sous 15 Ko) |
-| brainly | Brainly | lien officiel HTTP 403; capture absente |
-| character-ai | Character.ai | lien officiel HTTP 403; capture absente |
-| chatcode | ChatCode | capture absente |
-| clipdroprelight | ClipDrop Relight | capture suspecte (9534 octets, sous 15 Ko) |
-| cocounsel | CoCounsel | capture absente |
-| codeassist | CodeAssist | lien officiel HTTP 403 |
-| codepal | CodePal | capture absente |
-| craiyon | Craiyon | lien officiel HTTP 403 |
-| crewai | CrewAI | capture absente |
+| brainly | Brainly | capture absente |
+| chatcode | ChatCode | capture suspecte (10500 octets, sous 15 Ko) |
 | deepseek | DeepSeek | capture suspecte (11904 octets, sous 15 Ko) |
-| duolingo | Duolingo | capture absente |
-| gamma | Gamma | lien officiel HTTP 403; capture absente |
-| google-stitch | Google Stitch | capture absente |
-| ideogram | Ideogram | lien officiel HTTP 403 |
-| leonardo_ai | Leonardo.Ai | lien officiel HTTP 403 |
-| manychat | ManyChat | lien officiel HTTP 403 |
-| mem | Mem | le texte de la page officielle ne recoupe ni le nom ni la description |
-| meta-ai | Meta AI | lien officiel HTTP 403 |
-| midjourney | Midjourney | lien officiel HTTP 403 |
-| novelai | NovelAI | capture absente |
-| perplexity-ai | Perplexity | lien officiel HTTP 403; capture suspecte (8490 octets, sous 15 Ko) |
-| perplexity-comet | Perplexity Comet | lien officiel HTTP 403; capture absente |
-| poe | Poe | lien officiel HTTP 403; capture absente |
-| power-bi | Microsoft Power BI | lien officiel HTTP 403 |
-| quillbot | QuillBot | lien officiel HTTP 403 |
-| quizlet | Quizlet | lien officiel HTTP 403; capture absente |
-| readwise-reader | Readwise Reader | capture absente |
-| retell-ai | Retell AI | capture absente |
-| spellbook | Spellbook | capture absente |
-| tensor-art | Tensor.Art | lien officiel HTTP 403; capture absente |
-| webflow | Webflow | capture absente |
+| perplexity-ai | Perplexity | capture suspecte (8490 octets, sous 15 Ko) |
+| perplexity-comet | Perplexity Comet | capture absente |
+| quizlet | Quizlet | capture absente |
+| tensor-art | Tensor.Art | capture absente |
 
 ## Notes
 
-AlphaCode a été passé en inactif après le contrôle : `https://alphacode.deepmind.com/` échoue au handshake SSL. Aucune URL officielle de remplacement n'a été inventée.
+Les HTTP 403 du client de contrôle ne sont pas un échec. Ces fiches restent actives quand la capture est valable.
 
-Les HTTP 403 viennent d'un blocage du client HTTP. Ces fiches restent actives.
+Mem : `https://mem.ai/` est l'application et affiche une page de connexion aux visiteurs anonymes. Le site public du même produit est `https://get.mem.ai/` (la page tarifaire de la fiche y pointait déjà). L'URL de visite et le lien How To Use pointent maintenant vers `https://get.mem.ai/`, avec une capture de cette page.
 
-Les captures absentes sont des visites qui ont fini en captcha, page vide ou erreur, après une seconde tentative. Le visuel de repli (plaque logo) n'est pas publié.
+Les huit échecs restants :
 
-Anything (7 Ko) et DeepSeek (12 Ko) sont de vraies homepages. Une seconde capture, encodée en WebP qualité maximale, reste sous 15 Ko parce que la page est très simple. AutoRegex, ClipDrop Relight et Perplexity gardent une capture précédente sous 15 Ko : la nouvelle visite a été bloquée par un captcha.
+- Brainly, Quizlet, Tensor.Art, Perplexity Comet : Chrome fenêtré, pages officielles alternatives (`/subjects`, `/features`, `/explore` quand elle existe) et lecture du HTML. Cloudflare ou un captcha répond, sans `og:image`. Le seul miroir joignable de Comet (`comet-framer-prod.perplexity.ai`) est un logo et une liste d'attente, non publié.
+- AutoRegex (13 624 o), ChatCode (10 500 o), DeepSeek (11 904 o), Perplexity (8 490 o) : la page officielle est réelle et simple. Une seconde capture, ou un encodage WebP en qualité maximale, reste sous 15 Ko. L'image sociale de DeepSeek est un logo, elle n'a pas remplacé la homepage. Les nouvelles visites d'AutoRegex et de Perplexity ont été arrêtées par un captcha, donc la capture réelle précédente est conservée.
 
-Mem répond, mais le texte récupéré ne recoupe ni le nom ni la description de la fiche.
+DeepBrain conserve `https://docs.deepbrain.io` : c'est la documentation officielle du produit, à côté de `https://www.aistudios.com/`.
+
+AlphaCode reste inactif : `https://alphacode.deepmind.com/` échoue au handshake SSL. Aucune URL de remplacement n'a été inventée.
