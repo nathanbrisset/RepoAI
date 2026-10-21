@@ -1,150 +1,148 @@
-import { NextRequest, NextResponse } from 'next/server';
-import { mockTools } from '@/lib/data';
+import { NextResponse } from "next/server"
+import { allTools, listedTools } from "@/lib/catalog"
+import { captchaSecret, verifyChallenge } from "@/lib/match-captcha"
+import { clientIp, consumeNonce, rateLimit, searchLimit } from "@/lib/match-guard"
+import {
+  catalogMatch,
+  detectLanguage,
+  parseModelJson,
+  promptProblem,
+  relatedCards,
+  shortlist,
+  toMatchTool,
+  validateModelPayload,
+  type MatchPayload,
+  type MatchTool,
+} from "@/lib/match-copy"
 
-// Find top 3 copywriting tools by rating
-const copywritingTools = mockTools
-  .filter(tool => tool.tags?.includes('copywriting') || tool.subcategory?.toLowerCase().includes('copywriting'))
-  .sort((a, b) => b.rating - a.rating)
-  .slice(0, 3)
-  .map(tool => ({
-    tool,
-    explanation: tool.description
-  }));
+export const dynamic = "force-dynamic"
+export const runtime = "nodejs"
 
-export async function POST(req: NextRequest) {
+const OPENAI_MODEL = "gpt-4.1-nano"
+
+const activeTools: MatchTool[] = listedTools
+  .map((tool) => toMatchTool(tool))
+  .filter((tool): tool is MatchTool => tool !== null)
+
+const allNames = allTools.map((tool) => tool.name)
+
+function errorResponse(code: string, status: number, retryAfter?: number) {
+  const headers: Record<string, string> = { "Cache-Control": "no-store" }
+  if (retryAfter) headers["Retry-After"] = String(retryAfter)
+  return NextResponse.json({ code }, { status, headers })
+}
+
+function catalogLines(tools: MatchTool[]) {
+  return tools
+    .map((tool) => {
+      const summary = tool.summary.replace(/\s+/g, " ").slice(0, 180)
+      return `- id: ${tool.id} | name: ${tool.name} | categories: ${tool.categories.join(", ")} | summary: ${summary}`
+    })
+    .join("\n")
+}
+
+async function askOpenAI(prompt: string, candidates: MatchTool[]): Promise<Omit<MatchPayload, "related"> | null> {
+  const apiKey = process.env.OPENAI_API_KEY
+  if (!apiKey || candidates.length === 0) return null
+  const lang = detectLanguage(prompt)
+  const system = [
+    "You recommend AI tools from a public directory.",
+    'Reply with JSON only: {"intro": string, "picks": [{"id": string, "name": string, "reason": string}]}.',
+    "Use only the tools in the user message. Copy each id and name exactly.",
+    "Choose at most 3 tools that fit. If none fit, return an empty picks array.",
+    "Write the intro and every reason in the same language as the user request.",
+    "Each reason is at most 25 words and names only that one tool.",
+    "The intro is at most 40 words and does not name tools outside the picks.",
+    "Do not include links, domain names, prices, ratings, or visit counts.",
+  ].join(" ")
   try {
-    const { prompt } = await req.json();
-    if (!prompt) {
-      return NextResponse.json({ error: 'Missing prompt' }, { status: 400 });
-    }
-
-    // If prompt is gibberish or too short, return copywriting tools
-    const isGibberish = !/\w{3,}/.test(prompt) || /[a-z]{3,}/i.test(prompt) === false;
-    if (isGibberish) {
-      return NextResponse.json({
-        recommendations: copywritingTools
-      });
-    }
-
-    // Use all tools
-    const tools = mockTools;
-    const toolList = tools.map((tool, i) => `${i + 1}. ${tool.name}: ${tool.description} (id: ${tool.id})`).join('\n');
-
-    const systemPrompt = `You are an AI tool recommendation assistant. Here is a list of available tools:\n${toolList}\n\nGiven a user's request, first write a short, friendly intro paragraph tailored to their query. Label it as 'Intro:'.\n\nThen, recommend the 3 best tools from the list above and explain your reasoning for each.\nFor both the intro and each tool explanation, write in a fun, friendly, conversational tone—like a helpful, upbeat friend.\nFor each tool, your explanation should be at least 3 sentences, engaging, and include specific examples or scenarios of how the tool could help the user.\nFor each tool, write a SEPARATE explanation, then on a new line write \"id: <tool-id>\".\nSeparate each tool's explanation/id pair with TWO newlines.\n\nFormat:\nIntro: <your intro paragraph here>\n\n<tool 1 explanation>\nid: tool-1\n\n<tool 2 explanation>\nid: tool-2\n\n<tool 3 explanation>\nid: tool-3`;
-
-    // Check if OpenAI API key is configured
-    if (!process.env.OPENAI_API_KEY) {
-      console.warn('OpenAI API key not configured, using fallback tools');
-      return NextResponse.json({
-        recommendations: copywritingTools,
-        warning: 'Using fallback recommendations due to missing API configuration'
-      });
-    }
-
-    // --- OPENAI GPT-4o FETCH BLOCK START ---
-    const openaiUrl = "https://api.openai.com/v1/chat/completions";
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 30000); // 30 second timeout
-
-    try {
-    const response = await fetch(openaiUrl, {
+    const response = await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`,
+        Authorization: `Bearer ${apiKey}`,
       },
+      signal: AbortSignal.timeout(20000),
       body: JSON.stringify({
-        model: "gpt-4.1-nano",
+        model: OPENAI_MODEL,
+        temperature: 0.2,
+        seed: 42,
+        response_format: { type: "json_object" },
         messages: [
-          { role: "system", content: systemPrompt },
-          { role: "user", content: prompt }
+          { role: "system", content: system },
+          {
+            role: "user",
+            content: `User request:\n"""${prompt}"""\n\nActive tools, best matches first:\n${catalogLines(candidates)}`,
+          },
         ],
-        stream: false
       }),
-        signal: controller.signal
-    });
-
-      clearTimeout(timeoutId);
-
+    })
     if (!response.ok) {
-      const errorText = await response.text();
-      console.error("OpenAI API error:", errorText);
-        return NextResponse.json({ 
-          recommendations: copywritingTools,
-          warning: 'Using fallback recommendations due to API error',
-          error: errorText 
-        });
-    }
-
-    const data = await response.json();
-    console.log('Full response from /api/recommend route:', data);
-    const content = data.choices[0].message.content;
-    console.log('Extracted content from /api/recommend route:', content);
-
-      // Extract intro paragraph and tool recommendations
-      const introMatch = content.match(/Intro:\s*([\s\S]*?)(?=\n{2,}|$)/i);
-      const intro = introMatch ? introMatch[1].trim() : '';
-      // Remove the intro from content for tool parsing
-      const contentWithoutIntro = content.replace(/Intro:[\s\S]*?(\n{2,}|$)/i, '');
-      // Extract up to 3 tool IDs and their explanations using regex
-      const regex = /([\s\S]*?)\s*id:\s*([\w-]+)/gi;
-      const toolBlocks = [];
-      let match;
-      while ((match = regex.exec(contentWithoutIntro)) !== null) {
-        const explanation = match[1].trim().replace(/^[\d]+\.|^First,|^Second,|^Third,|^Next,|^Finally,|^Then,|^Also,|^Additionally,|^\s+/gi, '').replace(/\n+$/, '');
-        const id = match[2].trim();
-        toolBlocks.push({ id, explanation });
+      let code = String(response.status)
+      try {
+        const body = await response.json()
+        if (typeof body?.error?.code === "string") code = body.error.code
+      } catch {
+        code = String(response.status)
       }
-
-    // Map tool IDs to tool objects and filter out any null tools
-    const recommendedTools = toolBlocks
-      .map(block => {
-        let tool = tools.find(t => t.id.toLowerCase() === block.id.toLowerCase());
-        if (!tool) {
-            tool = tools.find(t => t.name.toLowerCase().includes(block.id.toLowerCase()) || block.id.toLowerCase().includes(t.name.toLowerCase()));
-        }
-        if (!tool) {
-          console.warn(`Tool not found for ID: ${block.id}`);
-          return null;
-        }
-        return {
-          tool,
-            explanation: block.explanation || tool.description || ''
-        };
-      })
-        .filter(Boolean);
-
-    // If we have no valid tools, use fallback tools
-    if (recommendedTools.length === 0) {
-      console.log('No valid tools found, using fallback tools');
-      return NextResponse.json({
-          intro,
-          recommendations: copywritingTools,
-          warning: 'Using fallback recommendations due to no valid tools found'
-      });
+      console.error("OpenAI match request failed", code)
+      return null
     }
-
-    return NextResponse.json({
-        intro,
-      recommendations: recommendedTools
-    });
-    } catch (error) {
-      clearTimeout(timeoutId);
-      if (error.name === 'AbortError') {
-        console.error('Request timeout');
-        return NextResponse.json({
-          recommendations: copywritingTools,
-          warning: 'Using fallback recommendations due to request timeout'
-        });
-      }
-      throw error;
-    }
-  } catch (err) {
-    console.error('Error in /api/recommend route:', err);
-    return NextResponse.json({ 
-      recommendations: copywritingTools,
-      warning: 'Using fallback recommendations due to internal error',
-      error: String(err) 
-    });
+    const data = await response.json()
+    const content = data?.choices?.[0]?.message?.content
+    if (typeof content !== "string") return null
+    return validateModelPayload(parseModelJson(content), candidates, allNames, lang)
+  } catch (error) {
+    console.error("OpenAI match request failed", error instanceof Error ? error.name : "error")
+    return null
   }
-} 
+}
+
+function withRelated(match: Omit<MatchPayload, "related">, query: string): MatchPayload {
+  return { ...match, related: relatedCards(activeTools, match.recommendations, query, allNames) }
+}
+
+export async function POST(req: Request) {
+  let body: {
+    prompt?: unknown
+    captchaToken?: unknown
+    captchaAnswer?: unknown
+    company?: unknown
+  }
+  try {
+    body = await req.json()
+  } catch {
+    return errorResponse("invalid", 400)
+  }
+
+  const sample = typeof body.prompt === "string" ? body.prompt : ""
+  const problem = promptProblem(body.prompt)
+  if (problem) return errorResponse(problem, 400)
+
+  const ip = clientIp(req.headers)
+  const search = searchLimit()
+  const limited = await rateLimit(ip, "search", search.limit, search.windowSec)
+  if (!limited.ok) return errorResponse("rate_limited", 429, limited.retryAfter)
+
+  const prompt = sample.trim()
+  if (typeof body.company === "string" && body.company.trim()) return errorResponse("captcha", 403)
+
+  const secret = captchaSecret()
+  if (!secret) return errorResponse("unavailable", 503)
+  const captcha = verifyChallenge(
+    secret,
+    typeof body.captchaToken === "string" ? body.captchaToken : "",
+    typeof body.captchaAnswer === "string" ? body.captchaAnswer : ""
+  )
+  if (!captcha.ok) return errorResponse("captcha", 403)
+  const fresh = await consumeNonce(captcha.nonce, captcha.ttlSec)
+  if (!fresh) return errorResponse("captcha", 403)
+
+  const candidates = shortlist(activeTools, prompt)
+  const fromModel = await askOpenAI(prompt, candidates)
+  const match = fromModel || catalogMatch(activeTools, prompt, allNames)
+  if (!match || match.recommendations.length === 0) {
+    return errorResponse("no_match", 422)
+  }
+  return NextResponse.json(withRelated(match, prompt), { headers: { "Cache-Control": "no-store" } })
+}

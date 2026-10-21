@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "catalog:check": "node scripts/catalog-index.mjs",
+    "match:check": "node --experimental-strip-types scripts/check-match.ts",
     "capture-screenshots": "ts-node scripts/capture-screenshots.ts",
     "electron-dev": "concurrently \"npm run dev\" \"wait-on http://localhost:3000 && electron .\"",
     "electron-build": "next build && next export && electron-builder",
