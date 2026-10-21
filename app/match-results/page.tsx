@@ -2,6 +2,11 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, TrendingUp, Clock, CheckCircle } from 'lucide-react';
 import Link from 'next/link';
+import { getLocale } from "@/lib/i18n/get-locale";
+import { metadataFor } from "@/lib/i18n/metadata";
+import { categoryCopy, translate } from "@/lib/i18n/messages";
+import { localizeHref } from "@/lib/i18n/paths";
+import { localizeTool } from "@/lib/i18n/localize-tool";
 import ToolCard from "@/components/tool-card";
 import { mockTools } from "@/lib/data";
 import type { Tool } from "@/lib/types";
@@ -11,6 +16,10 @@ import { notFound } from "next/navigation";
 interface MatchResult {
   tool: Tool;
   explanation: string;
+}
+
+export function generateMetadata() {
+  return metadataFor("/match-results")
 }
 
 export default async function MatchResultsPage(props: any) {
@@ -30,12 +39,15 @@ export default async function MatchResultsPage(props: any) {
     notFound();
   }
 
+  const locale = await getLocale()
+  const t = (key: string, vars?: Record<string, string | number>) => translate(locale, key, vars)
+
   const response = await fetch(`${process.env.NEXT_PUBLIC_APP_URL}/api/recommend`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({ prompt: query }),
+          body: JSON.stringify({ prompt: query, locale }),
         });
 
         if (!response.ok) {
@@ -50,12 +62,12 @@ export default async function MatchResultsPage(props: any) {
     return (
       <div className="container mx-auto max-w-4xl px-4 py-16">
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-gray-800 mb-4">No Match Found</h1>
-          <p className="text-gray-600 mb-8">We couldn't find a perfect match for your needs. Try being more specific or try a different query.</p>
-          <Link href="/">
+          <h1 className="text-2xl font-bold text-gray-800 mb-4">{t("recommendation.noMatch")}</h1>
+          <p className="text-gray-600 mb-8">{t("recommendation.noMatchBody")}</p>
+          <Link href={localizeHref(locale, "/")}>
             <Button>
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Home
+              {t("recommendation.backHome")}
             </Button>
           </Link>
         </div>
@@ -84,13 +96,13 @@ export default async function MatchResultsPage(props: any) {
   return (
     <div className="container mx-auto max-w-4xl px-4 py-16">
       <div className="mb-8">
-        <Link href="/">
+        <Link href={localizeHref(locale, "/")}>
           <Button variant="ghost" className="mb-4">
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Back to Home
+            {t("recommendation.backHome")}
           </Button>
         </Link>
-        <h1 className="text-3xl font-bold mb-4">Your AI Match Results</h1>
+        <h1 className="text-3xl font-bold mb-4">{t("recommendation.resultsTitle")}</h1>
         <p className="text-gray-600">{intro}</p>
       </div>
 
@@ -107,34 +119,34 @@ export default async function MatchResultsPage(props: any) {
             </div>
             <div className="md:w-2/3">
               <h2 className="text-2xl font-bold mb-2">{mainTool.name}</h2>
-              <p className="text-gray-600 mb-4">{mainTool.description}</p>
+              <p className="text-gray-600 mb-4">{localizeTool(mainTool, locale).description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {mainTool.categories.map((category) => (
                   <Badge key={category} variant="secondary">
-                    {category}
+                    {categoryCopy(locale, category)?.name || category}
                   </Badge>
                 ))}
           </div>
               <div className="flex items-center gap-4 mb-4">
                 <div className="flex items-center">
                   <TrendingUp className="w-5 h-5 text-green-500" />
-                  <span className="ml-1">Popular</span>
+                  <span className="ml-1">{t("recommendation.popular")}</span>
                 </div>
                 <div className="flex items-center">
                   <Clock className="w-5 h-5 text-blue-500" />
-                  <span className="ml-1">Updated recently</span>
+                  <span className="ml-1">{t("recommendation.updated")}</span>
                 </div>
               </div>
               <Link href={mainTool.url} target="_blank" rel="noopener noreferrer">
                 <Button className="w-full md:w-auto">
-                  Visit Website
+                  {t("recommendation.visit")}
                 </Button>
               </Link>
             </div>
           </div>
           {mainExplanation && (
             <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-              <h3 className="font-semibold mb-2">Why this tool matches your needs:</h3>
+              <h3 className="font-semibold mb-2">{t("recommendation.why")}</h3>
               <p className="text-gray-600">{mainExplanation}</p>
             </div>
           )}
@@ -144,7 +156,7 @@ export default async function MatchResultsPage(props: any) {
       {/* Other Recommended Tools */}
         {otherTools.length > 0 && (
         <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Other Great Matches</h2>
+          <h2 className="text-2xl font-bold mb-4">{t("recommendation.other")}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {otherTools.map((result) => (
               <ToolCard key={result.tool.id} tool={result.tool} />
@@ -156,7 +168,7 @@ export default async function MatchResultsPage(props: any) {
       {/* More Tools in Same Category */}
         {moreCategoryTools.length > 0 && (
           <div>
-          <h2 className="text-2xl font-bold mb-4">More Tools in This Category</h2>
+          <h2 className="text-2xl font-bold mb-4">{t("recommendation.more")}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {moreCategoryTools.map((tool) => (
                 <ToolCard key={tool.id} tool={tool} />

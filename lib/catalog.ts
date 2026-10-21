@@ -1,11 +1,17 @@
 import { catalogTools } from "@/content/tools/index"
+import { frenchToolsById } from "@/lib/i18n/french-catalog"
 import type { CatalogTool } from "./tool-schema"
 import type { Tool } from "./types"
 
 export type { CatalogTool }
 
+function frenchText(inline: string | undefined, overlay: string | undefined) {
+  return inline || overlay
+}
+
 /** Runtime shape the pages already expect, plus the fields stored in JSON. */
 export function toRuntimeTool(entry: CatalogTool): Tool {
+  const overlay = frenchToolsById[entry.id]
   return {
     id: entry.id,
     name: entry.name,
@@ -16,6 +22,15 @@ export function toRuntimeTool(entry: CatalogTool): Tool {
     logo: entry.logo,
     categories: entry.categories,
     tags: entry.tags,
+    summary_fr: frenchText(entry.summary_fr || entry.shortDescription_fr, overlay?.summary_fr || overlay?.shortDescription_fr),
+    shortDescription_fr: frenchText(entry.shortDescription_fr, overlay?.shortDescription_fr),
+    description_fr: frenchText(entry.description_fr, overlay?.description_fr),
+    tags_fr: entry.tags_fr || overlay?.tags_fr,
+    features_fr: entry.features_fr || overlay?.features_fr,
+    howToUse_fr: entry.howToUse_fr || overlay?.howToUse_fr,
+    statusNote_fr: frenchText(entry.statusNote_fr, overlay?.statusNote_fr),
+    dateAddedNote_fr: frenchText(entry.dateAddedNote_fr, overlay?.dateAddedNote_fr),
+    pricingNote_fr: frenchText(entry.pricing.note_fr, overlay?.pricingNote_fr),
     dateAdded: entry.dateAdded ?? "",
     dateAddedNote: entry.dateAddedNote,
     isPremium: entry.pricing.label,

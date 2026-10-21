@@ -1,13 +1,9 @@
-import { Metadata } from "next"
 import { mockTools } from "@/lib/data"
+import { metadataFor } from "@/lib/i18n/metadata"
 import ToolsClient from "./ToolsClient"
 
-export const metadata: Metadata = {
-  title: "AI Tools Directory - Find the Best AI Tools for Your Needs",
-  description: "Browse our comprehensive directory of AI tools. Filter by category, search by name or description, and find the perfect AI solution for your needs.",
-  alternates: {
-    canonical: "https://aitools.ninja/tools",
-  },
+export function generateMetadata() {
+  return metadataFor("/tools")
 }
 
 export default function Page() {

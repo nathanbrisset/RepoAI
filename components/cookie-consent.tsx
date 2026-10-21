@@ -1,26 +1,25 @@
-'use client'
+"use client"
 
-import { useState, useEffect } from 'react'
-import { writeConsent } from '@/lib/consent'
+import { useState, useEffect } from "react"
+import LocaleLink from "./locale-link"
+import { useT } from "./locale-provider"
+import { readConsent, writeConsent } from "@/lib/consent"
 
 export default function CookieConsent() {
+  const t = useT()
   const [showBanner, setShowBanner] = useState(false)
 
   useEffect(() => {
-    // Check if user has already made a choice
-    const consent = localStorage.getItem('cookieConsent')
-    if (!consent) {
-      setShowBanner(true)
-    }
+    if (!readConsent()) setShowBanner(true)
   }, [])
 
   const handleAccept = () => {
-    writeConsent('accepted')
+    writeConsent("accepted")
     setShowBanner(false)
   }
 
   const handleDecline = () => {
-    writeConsent('declined')
+    writeConsent("declined")
     setShowBanner(false)
   }
 
@@ -31,9 +30,11 @@ export default function CookieConsent() {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex-1">
           <p className="text-sm text-gray-600">
-            We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. 
-            By clicking "Accept", you consent to our use of cookies. Read our{' '}
-            <a href="/privacy" className="text-blue-600 hover:underline">Privacy Policy</a> for more information.
+            {t("cookie.body")}{" "}
+            <LocaleLink href="/privacy" className="text-blue-600 hover:underline">
+              {t("cookie.privacy")}
+            </LocaleLink>{" "}
+            {t("cookie.more")}
           </p>
         </div>
         <div className="flex gap-4">
@@ -41,16 +42,16 @@ export default function CookieConsent() {
             onClick={handleDecline}
             className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-md transition-colors"
           >
-            Decline
+            {t("cookie.decline")}
           </button>
           <button
             onClick={handleAccept}
             className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors"
           >
-            Accept
+            {t("cookie.accept")}
           </button>
         </div>
       </div>
     </div>
   )
-} 
+}
