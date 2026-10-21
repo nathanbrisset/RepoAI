@@ -28,5 +28,31 @@
   "sources": [
     "https://pika.art",
     "https://pika.art/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Try Pika",
+      "description": "The homepage says to try Pika and points at self-contained creative apps.",
+      "links": [
+        {
+          "label": "Pika",
+          "url": "https://pika.art/"
+        }
+      ]
+    },
+    {
+      "title": "Generate in Video Studio",
+      "description": "Video Studio is described as generating anything from a short clip to a 30-second multi-shot video."
+    },
+    {
+      "title": "Use the other apps",
+      "description": "The page also lists Image Studio, Edit Image, Color Grade, Extend Video, Pika Soundtrack, Character Studio, and Product Shot.",
+      "links": [
+        {
+          "label": "Help Center",
+          "url": "https://pika.art/faq"
+        }
+      ]
+    }
   ]
 }

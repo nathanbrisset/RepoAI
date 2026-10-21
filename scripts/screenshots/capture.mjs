@@ -81,7 +81,7 @@ const COOKIE_LABELS = new Set([
 ])
 
 function parseArgs(argv) {
-  const opts = { ids: null, missing: false, concurrency: 4, pruneOrphans: false, debugDir: "" }
+  const opts = { ids: null, missing: false, concurrency: 4, pruneOrphans: false, debugDir: "", retries: 1, timeout: 40000 }
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i]
     if (arg === "--missing") opts.missing = true
@@ -90,9 +90,13 @@ function parseArgs(argv) {
     else if (arg.startsWith("--ids=")) opts.ids = arg.slice(6).split(",").map((s) => s.trim()).filter(Boolean)
     else if (arg === "--concurrency") opts.concurrency = Math.max(1, Number(argv[++i]) || 4)
     else if (arg.startsWith("--concurrency=")) opts.concurrency = Math.max(1, Number(arg.slice(14)) || 4)
+    else if (arg === "--retries") opts.retries = Math.max(0, Number(argv[++i]) || 0)
+    else if (arg.startsWith("--retries=")) opts.retries = Math.max(0, Number(arg.slice(10)) || 0)
+    else if (arg === "--timeout") opts.timeout = Math.max(5000, Number(argv[++i]) || 40000)
+    else if (arg.startsWith("--timeout=")) opts.timeout = Math.max(5000, Number(arg.slice(10)) || 40000)
     else if (arg === "--debug-dir") opts.debugDir = argv[++i] || ""
     else if (arg === "--help" || arg === "-h") {
-      console.log(`Usage: node scripts/screenshots/capture.mjs [--ids a,b] [--missing] [--concurrency 4] [--prune-orphans]`)
+      console.log(`Usage: node scripts/screenshots/capture.mjs [--ids a,b] [--missing] [--concurrency 4] [--retries 1] [--timeout 40000] [--prune-orphans]`)
       process.exit(0)
     } else {
       console.error(`Argument inconnu : ${arg}`)
@@ -100,6 +104,18 @@ function parseArgs(argv) {
     }
   }
   return opts
+}
+
+function captureLimits(opts) {
+  const navigationTimeout = opts.timeout
+  return {
+    navigationTimeout,
+    idleTimeout: 8000,
+    contentWait: 8000,
+    cookieWait: 4000,
+    overallTimeout: navigationTimeout + 45000,
+    retries: opts.retries,
+  }
 }
 
 function loadTools() {
@@ -212,9 +228,15 @@ function contextOptions() {
     locale: "en-US",
     timezoneId: "America/New_York",
     colorScheme: "light",
+    isMobile: false,
+    hasTouch: false,
     ignoreHTTPSErrors: true,
     serviceWorkers: "block",
     reducedMotion: "reduce",
+    extraHTTPHeaders: {
+      "Accept-Language": "en-US,en;q=0.9",
+      "Upgrade-Insecure-Requests": "1",
+    },
   }
 }
 
@@ -476,30 +498,47 @@ async function existingImageProblem(tool) {
   return existingTextIsBroken(text)
 }
 
-async function capturePage(page, tool) {
-  const response = await page.goto(tool.url, { waitUntil: "domcontentloaded", timeout: 22000 })
+async function capturePage(page, tool, limits) {
+  const response = await page.goto(tool.url, { waitUntil: "domcontentloaded", timeout: limits.navigationTimeout })
   const status = response ? response.status() : 0
-  await page.waitForLoadState("networkidle", { timeout: 2500 }).catch(() => {})
+  await page.waitForLoadState("load", { timeout: 20000 }).catch(() => {})
+  await page.waitForLoadState("networkidle", { timeout: limits.idleTimeout }).catch(() => {})
+  await page.evaluate(async (budget) => {
+    const deadline = new Promise((resolve) => setTimeout(resolve, budget))
+    const fonts = document.fonts?.ready ?? Promise.resolve()
+    const images = Promise.all(
+      [...document.images].slice(0, 20).map(
+        (img) =>
+          img.complete
+            ? null
+            : new Promise((resolve) => {
+                img.addEventListener("load", resolve, { once: true })
+                img.addEventListener("error", resolve, { once: true })
+              })
+      )
+    )
+    await Promise.race([Promise.all([fonts, images]), deadline])
+  }, 6000).catch(() => {})
   const started = Date.now()
   let length = 0
-  while (Date.now() - started < 4000) {
+  while (Date.now() - started < limits.contentWait) {
     length = await page.evaluate(() => (document.body?.innerText || "").trim().length).catch(() => 0)
-    if (length > 80) break
-    await page.waitForTimeout(400)
+    if (length > 120) break
+    await page.waitForTimeout(500)
   }
-  const cookieDeadline = Date.now() + 2200
+  const cookieDeadline = Date.now() + limits.cookieWait
   let dismissed = false
   while (Date.now() < cookieDeadline) {
     if (await dismissCookies(page).catch(() => false)) {
       dismissed = true
       break
     }
-    await page.waitForTimeout(350)
+    await page.waitForTimeout(400)
   }
-  if (dismissed) await page.waitForTimeout(350)
+  if (dismissed) await page.waitForTimeout(600)
   await hideCookieChrome(page)
   await page.evaluate(() => window.scrollTo(0, 0)).catch(() => {})
-  await page.waitForTimeout(250)
+  await page.waitForTimeout(400)
   let signals = await readSignals(page, status)
   let problem = classify(signals)
   if (!problem && signals.textLength < 40) {
@@ -507,7 +546,7 @@ async function capturePage(page, tool) {
     signals = await readSignals(page, status)
     problem = classify(signals)
   }
-  const png = await page.screenshot({ type: "png", animations: "disabled", caret: "hide", timeout: 10000 })
+  const png = await page.screenshot({ type: "png", animations: "disabled", caret: "hide", timeout: 15000 })
   if (!problem) {
     const stdev = await visualStdev(png)
     if (signals.textLength < 40 && stdev < 10) problem = { category: "empty", reason: "Page vide" }
@@ -546,22 +585,27 @@ async function settleFailure(tool, problem, png, debugDir) {
   }
 }
 
-async function captureTool(browser, tool, debugDir) {
+async function captureOnce(browser, tool, limits) {
   const context = await browser.newContext(contextOptions())
   await context.addInitScript(() => {
     Object.defineProperty(navigator, "webdriver", { get: () => undefined })
   })
   const page = await context.newPage()
-  page.setDefaultTimeout(15000)
+  page.setDefaultTimeout(limits.navigationTimeout)
   let timer
   const timeout = new Promise((_, reject) => {
-    timer = setTimeout(() => reject(new Error("délai dépassé")), 45000)
+    timer = setTimeout(() => reject(new Error("délai dépassé")), limits.overallTimeout)
   })
   try {
-    const result = await Promise.race([capturePage(page, tool), timeout])
+    return await Promise.race([capturePage(page, tool, limits), timeout])
+  } finally {
     clearTimeout(timer)
-    if (result.problem) return { id: tool.id, name: tool.name, url: tool.url, finalUrl: result.signals.href, ...(await settleFailure(tool, result.problem, result.png, debugDir)) }
-    const webp = await optimizeWebp(result.png)
+    await context.close().catch(() => {})
+  }
+}
+
+function publishSuccess(tool, result) {
+  return optimizeWebp(result.png).then((webp) => {
     fs.writeFileSync(path.join(OUT_DIR, `${tool.id}.webp`), webp)
     const image = `/screenshots/${tool.id}.webp`
     setImageField(tool.__file, image)
@@ -577,14 +621,28 @@ async function captureTool(browser, tool, debugDir) {
       bytes: webp.length,
       note: "",
     }
-  } catch (error) {
-    clearTimeout(timer)
-    const message = error instanceof Error ? error.message.split("\n")[0] : String(error)
-    const problem = { category: "error", reason: message }
-    return { id: tool.id, name: tool.name, url: tool.url, finalUrl: "", ...(await settleFailure(tool, problem, null, debugDir)) }
-  } finally {
-    await context.close().catch(() => {})
+  })
+}
+
+async function captureTool(browser, tool, debugDir, limits) {
+  let last = { signals: { href: "" }, problem: { category: "error", reason: "échec inconnu" }, png: null }
+  const attempts = limits.retries + 1
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    try {
+      const result = await captureOnce(browser, tool, limits)
+      if (!result.problem) return publishSuccess(tool, result)
+      last = result
+      if (/404|Page 404/.test(result.problem.reason || "")) break
+    } catch (error) {
+      const message = error instanceof Error ? error.message.split("\n")[0] : String(error)
+      last = { signals: { href: "" }, problem: { category: "error", reason: message }, png: null }
+    }
+    if (attempt < attempts) {
+      console.log(`  nouvel essai ${attempt}/${limits.retries} pour ${tool.id} (${last.problem.category})`)
+      await new Promise((resolve) => setTimeout(resolve, 2000 * attempt))
+    }
   }
+  return { id: tool.id, name: tool.name, url: tool.url, finalUrl: last.signals?.href || "", ...(await settleFailure(tool, last.problem, last.png, debugDir)) }
 }
 
 function loadReport() {
@@ -722,6 +780,8 @@ async function main() {
     return
   }
 
+  const limits = captureLimits(opts)
+  console.log(`Timeout navigation ${limits.navigationTimeout} ms, essais ${limits.retries + 1}, plafond ${limits.overallTimeout} ms`)
   const previous = new Map((loadReport().results || []).map((item) => [item.id, item]))
   let browser = await launchBrowser()
   let relaunch = null
@@ -747,13 +807,13 @@ async function main() {
       let result
       try {
         await ensureBrowser()
-        result = await captureTool(browser, tool, opts.debugDir)
+        result = await captureTool(browser, tool, opts.debugDir, limits)
       } catch (error) {
         console.warn(`relance après ${tool.id}: ${error instanceof Error ? error.message.split("\n")[0] : error}`)
         await browser.close().catch(() => {})
         browser = await launchBrowser()
         try {
-          result = await captureTool(browser, tool, opts.debugDir)
+          result = await captureTool(browser, tool, opts.debugDir, limits)
         } catch (error2) {
           const reason = error2 instanceof Error ? error2.message.split("\n")[0] : String(error2)
           result = { id: tool.id, name: tool.name, url: tool.url, finalUrl: "", ...(await settleFailure(tool, { category: "error", reason }, null, opts.debugDir)) }

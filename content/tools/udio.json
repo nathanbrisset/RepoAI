@@ -27,5 +27,31 @@
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.udio.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Describe a song",
+      "description": "Choose Start Creating. The page says that if you can describe the song in text, you can make it.",
+      "links": [
+        {
+          "label": "Udio",
+          "url": "https://www.udio.com/"
+        }
+      ]
+    },
+    {
+      "title": "Edit the track",
+      "description": "The homepage shows Extend, Inpaint, Remix, and Upload Song on a creation."
+    },
+    {
+      "title": "Listen or share",
+      "description": "The page says you can discover music and share your own creations. Help and a free trial are linked from the page.",
+      "links": [
+        {
+          "label": "Udio Help",
+          "url": "https://help.udio.com/"
+        }
+      ]
+    }
   ]
 }

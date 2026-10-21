@@ -30,5 +30,35 @@
     "https://www.clay.com",
     "https://www.clay.com/pricing",
     "https://www.clay.com/partners/creators"
+  ],
+  "howToUse": [
+    {
+      "title": "Start a free trial",
+      "description": "The homepage button is Start free trial. The page describes infrastructure for data, agentic workflows, and GTM plays.",
+      "links": [
+        {
+          "label": "Clay",
+          "url": "https://www.clay.com/"
+        }
+      ]
+    },
+    {
+      "title": "Get the data",
+      "description": "The page says to get data from its data marketplace."
+    },
+    {
+      "title": "Put agents to work",
+      "description": "The page says to use agents that know your business."
+    },
+    {
+      "title": "Build the play on the canvas",
+      "description": "The page says GTM plays are built on a visual canvas.",
+      "links": [
+        {
+          "label": "Pricing",
+          "url": "https://www.clay.com/pricing"
+        }
+      ]
+    }
   ]
 }

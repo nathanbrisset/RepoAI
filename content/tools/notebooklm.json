@@ -31,5 +31,35 @@
     "https://notebook.google/",
     "https://one.google.com/about/google-ai-plans/",
     "https://support.google.com/gemininotebook/answer/16213268"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Gemini Notebook",
+      "description": "The site at notebook.google presents Gemini Notebook as the research partner, and asks whether it is the same product as NotebookLM.",
+      "links": [
+        {
+          "label": "Gemini Notebook",
+          "url": "https://notebook.google/"
+        }
+      ]
+    },
+    {
+      "title": "Provide sources you trust",
+      "description": "The page says responses stay grounded in the information you provide."
+    },
+    {
+      "title": "Ask a question",
+      "description": "Ask about the notes or sources you added. The page says that is how the notebook is meant to be used."
+    },
+    {
+      "title": "Play an Audio Overview",
+      "description": "Audio Overviews read a summary of your sources aloud.",
+      "links": [
+        {
+          "label": "Support",
+          "url": "https://support.google.com/gemininotebook/"
+        }
+      ]
+    }
   ]
 }

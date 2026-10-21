@@ -28,5 +28,35 @@
   "sources": [
     "https://www.perplexity.ai/comet",
     "https://www.perplexity.ai/hub/blog/comet-is-now-available-to-everyone-worldwide"
+  ],
+  "howToUse": [
+    {
+      "title": "Download Comet",
+      "description": "The Comet help center says to open the official download page and download the installer. The page suggests the Mac or Windows build.",
+      "links": [
+        {
+          "label": "Comet",
+          "url": "https://www.perplexity.ai/comet"
+        }
+      ]
+    },
+    {
+      "title": "Install and sign in",
+      "description": "Run the installer, launch Comet, and sign in to your Perplexity account."
+    },
+    {
+      "title": "Import your browser data",
+      "description": "The help article says to open Settings, choose Import bookmarks and settings, pick the previous browser, and select what to import."
+    },
+    {
+      "title": "Ask or summarize the page",
+      "description": "The same help center says Comet uses Perplexity search and includes an Ask button for the open page and a Summarize button.",
+      "links": [
+        {
+          "label": "Comet setup",
+          "url": "https://www.perplexity.ai/help-center/comet/en/articles/11583745-getting-started-with-comet-set-up"
+        }
+      ]
+    }
   ]
 }

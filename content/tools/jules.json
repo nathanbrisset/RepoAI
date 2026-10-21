@@ -28,5 +28,35 @@
   "lastVerified": "2026-10-21",
   "sources": [
     "https://jules.google/docs/usage-limits/"
+  ],
+  "howToUse": [
+    {
+      "title": "Give Jules a repository and a prompt",
+      "description": "The homepage says to select a GitHub repository and branch and write a prompt, or add the jules label to an issue.",
+      "links": [
+        {
+          "label": "Jules",
+          "url": "https://jules.google/"
+        }
+      ]
+    },
+    {
+      "title": "Review the plan",
+      "description": "Jules fetches the repository, clones it to a cloud VM, and writes a plan."
+    },
+    {
+      "title": "Approve the diff",
+      "description": "The page says Jules then shows a diff for you to review and approve."
+    },
+    {
+      "title": "Merge the pull request",
+      "description": "Jules opens a pull request. The page says you approve it, merge it, and publish the branch.",
+      "links": [
+        {
+          "label": "Jules docs",
+          "url": "https://jules.google/docs"
+        }
+      ]
+    }
   ]
 }

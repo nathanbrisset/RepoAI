@@ -30,5 +30,37 @@
     "https://devin.ai/pricing",
     "https://devin.ai/",
     "https://devin.ai/desktop"
+  ],
+  "howToUse": [
+    {
+      "title": "Get started",
+      "description": "The homepage says to get started. Devin runs in the cloud or on your machine.",
+      "links": [
+        {
+          "label": "Devin",
+          "url": "https://devin.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Give it the engineering task",
+      "description": "The page says Devin tests in its own browser and continues until the pull request is ready to merge.",
+      "links": [
+        {
+          "label": "Sign up",
+          "url": "https://app.devin.ai/auth/signup"
+        }
+      ]
+    },
+    {
+      "title": "Review the pull request",
+      "description": "The homepage frames the work as going from the problem to a merged pull request.",
+      "links": [
+        {
+          "label": "Devin docs",
+          "url": "https://docs.devin.ai/"
+        }
+      ]
+    }
   ]
 }

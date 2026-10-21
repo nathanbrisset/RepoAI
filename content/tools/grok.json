@@ -29,5 +29,21 @@
   },
   "sources": [
     "https://grok.com/plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign in",
+      "description": "The grok.com page offers Sign in and Sign up above the message box.",
+      "links": [
+        {
+          "label": "Grok",
+          "url": "https://grok.com/"
+        }
+      ]
+    },
+    {
+      "title": "Send a message",
+      "description": "Type a message and send it. The page says typing / opens slash commands."
+    }
   ]
 }

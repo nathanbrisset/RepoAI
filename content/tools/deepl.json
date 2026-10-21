@@ -28,5 +28,31 @@
   },
   "sources": [
     "https://www.deepl.com/en/pro"
+  ],
+  "howToUse": [
+    {
+      "title": "Translate text, a file, or speech",
+      "description": "The homepage lists Translate text, Translate files, and Translate speech, and offers a free trial.",
+      "links": [
+        {
+          "label": "DeepL",
+          "url": "https://www.deepl.com/en"
+        }
+      ]
+    },
+    {
+      "title": "Drop a file on the translator",
+      "description": "The page describes drag-and-drop translation for a file."
+    },
+    {
+      "title": "Use the API or an AI app",
+      "description": "The page lists Use API and Use in AI apps, and says DeepL is available in Microsoft Copilot, ChatGPT, and Claude via MCP.",
+      "links": [
+        {
+          "label": "DeepL API docs",
+          "url": "https://developers.deepl.com/"
+        }
+      ]
+    }
   ]
 }

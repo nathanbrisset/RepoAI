@@ -29,5 +29,35 @@
   "sources": [
     "https://character.ai",
     "https://support.character.ai/hc/en-us/articles/55845963766555"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up or log in",
+      "description": "The create-a-character page says to continue with Google, Apple, or email.",
+      "links": [
+        {
+          "label": "Character.ai",
+          "url": "https://character.ai"
+        }
+      ]
+    },
+    {
+      "title": "Start a new Character",
+      "description": "The help center says to use + Create on the web, or the + button on mobile, and then choose Character."
+    },
+    {
+      "title": "Fill in the basics",
+      "description": "Add a name, an avatar (upload or generate), a greeting, tags, and visibility: Public, Unlisted, or Private. A voice can be suggested, chosen, or recorded."
+    },
+    {
+      "title": "Create and chat",
+      "description": "The quickstart says to hit Create and start chatting.",
+      "links": [
+        {
+          "label": "Character quickstart",
+          "url": "https://support.character.ai/hc/en-us/articles/50608869548699-2-Creating-a-Character-Quickstart-Guide-%CF%89"
+        }
+      ]
+    }
   ]
 }

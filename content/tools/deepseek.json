@@ -30,5 +30,31 @@
   "sources": [
     "https://www.deepseek.com",
     "https://api-docs.deepseek.com/quick_start/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Chat on the web or in the app",
+      "description": "The homepage links the DeepSeek web version, an app download, and a chat entry labeled in Chinese as talking with DeepSeek.",
+      "links": [
+        {
+          "label": "DeepSeek",
+          "url": "https://www.deepseek.com/"
+        }
+      ]
+    },
+    {
+      "title": "Or open the API platform",
+      "description": "The same page links the API platform. The API docs say to apply for an API key and call https://api.deepseek.com, using the model name deepseek-flash.",
+      "links": [
+        {
+          "label": "API docs",
+          "url": "https://api-docs.deepseek.com/"
+        }
+      ]
+    },
+    {
+      "title": "Use it from an agent tool",
+      "description": "Those docs say Claude Code, GitHub Copilot, and OpenCode can use DeepSeek as the backend model."
+    }
   ]
 }

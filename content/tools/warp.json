@@ -28,5 +28,31 @@
   "sources": [
     "https://www.warp.dev",
     "https://www.warp.dev/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Request access or download the terminal",
+      "description": "The homepage leads with Request early access for cloud software factories and a separate Download Warp Terminal button.",
+      "links": [
+        {
+          "label": "Warp",
+          "url": "https://www.warp.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Define the factory in code",
+      "description": "The page says the factory is defined in code and shows factory.yaml together with agents, automations, runners, skills, webhooks, scorers, and benchmarks."
+    },
+    {
+      "title": "Read the docs",
+      "description": "API docs and guides are linked from the homepage.",
+      "links": [
+        {
+          "label": "Warp docs",
+          "url": "https://docs.warp.dev/"
+        }
+      ]
+    }
   ]
 }

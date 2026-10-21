@@ -28,5 +28,31 @@
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.genspark.ai/helpcenter/membership-plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Open the workspace",
+      "description": "The homepage presents Genspark AI Workspace as an all-in-one workspace.",
+      "links": [
+        {
+          "label": "Genspark",
+          "url": "https://www.genspark.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Start from a question",
+      "description": "The page heading says you go from a question to a live dashboard."
+    },
+    {
+      "title": "Or open a listed tool",
+      "description": "The homepage lists tools such as the AI writer, AI document generator, AI image generator, and AI music generator.",
+      "links": [
+        {
+          "label": "Help Center",
+          "url": "https://www.genspark.ai/helpcenter"
+        }
+      ]
+    }
   ]
 }

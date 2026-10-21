@@ -28,5 +28,31 @@
   "sources": [
     "https://www.hedra.com",
     "https://www.hedra.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Create an account",
+      "description": "The homepage starts with Create an account and Get the API.",
+      "links": [
+        {
+          "label": "Hedra",
+          "url": "https://www.hedra.com/auth/start?flow=signup"
+        }
+      ]
+    },
+    {
+      "title": "Get an API key",
+      "description": "Managed inference hosts the models. The page says there are 100+ models and that Hedra handles hosting.",
+      "links": [
+        {
+          "label": "Quickstart",
+          "url": "https://www.hedra.com/docs/pages/developer/v3/quickstart"
+        }
+      ]
+    },
+    {
+      "title": "Fine-tune, or use a sandbox",
+      "description": "The page says you can fine-tune a supported model with your data and Hedra's training recipes, then deploy on the same stack, or create an isolated GPU sandbox with the Hedra SDK."
+    }
   ]
 }

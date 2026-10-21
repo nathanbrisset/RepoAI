@@ -22,7 +22,10 @@ node scripts/screenshots/capture.mjs
 node scripts/screenshots/capture.mjs --ids zapier,notion-ai
 node scripts/screenshots/capture.mjs --missing
 node scripts/screenshots/capture.mjs --concurrency 4
+node scripts/screenshots/capture.mjs --ids udio,mp3tomidi --retries 2 --timeout 50000
 ```
+
+`--retries` relance une fiche après un échec (timeout, page vide, captcha, erreur). `--timeout` est le délai de navigation en millisecondes. Le script attend aussi le chargement de la page et des images, ferme les bannières cookies, et utilise un user-agent desktop.
 
 `--ids` ne traite que ces fiches. `--missing` ne traite que les fiches qui n'ont pas encore de fichier `public/screenshots/<id>.webp` (les nouvelles fiches, ou un passage interrompu). Les deux options se combinent.
 
