@@ -54,7 +54,7 @@ const COPY: Record<MatchLang, Record<MatchErrorCode, string>> = {
     captcha: "The check did not pass. Solve it, then try again.",
     rate_limited: "Too many searches from this network. Wait a moment, then try again.",
     no_match: "No active tool matches that request. Describe the task with a bit more detail.",
-    unavailable: "The search did not go through. Try again in a moment.",
+    unavailable: "AI Match is unavailable right now. Try again in a moment.",
   },
   fr: {
     empty: "Décrivez ce que vous voulez faire.",
@@ -63,7 +63,7 @@ const COPY: Record<MatchLang, Record<MatchErrorCode, string>> = {
     captcha: "La vérification n'a pas abouti. Refaites-la, puis réessayez.",
     rate_limited: "Trop de recherches depuis ce réseau. Patientez un peu, puis réessayez.",
     no_match: "Aucun outil actif ne correspond. Décrivez la tâche avec un peu plus de détails.",
-    unavailable: "La recherche n'a pas abouti. Réessayez dans un instant.",
+    unavailable: "AI Match est indisponible pour le moment. Réessayez dans un instant.",
   },
   es: {
     empty: "Describe lo que quieres hacer.",
@@ -72,7 +72,7 @@ const COPY: Record<MatchLang, Record<MatchErrorCode, string>> = {
     captcha: "La verificación no salió bien. Resuélvela y vuelve a intentarlo.",
     rate_limited: "Demasiadas búsquedas desde esta red. Espera un momento y vuelve a intentarlo.",
     no_match: "Ninguna herramienta activa encaja. Describe la tarea con un poco más de detalle.",
-    unavailable: "La búsqueda no se completó. Inténtalo de nuevo en un momento.",
+    unavailable: "AI Match no está disponible ahora mismo. Inténtalo de nuevo en un momento.",
   },
   de: {
     empty: "Beschreibe, was du machen willst.",
@@ -81,7 +81,7 @@ const COPY: Record<MatchLang, Record<MatchErrorCode, string>> = {
     captcha: "Die Prüfung hat nicht geklappt. Löse sie und versuche es erneut.",
     rate_limited: "Zu viele Suchen aus diesem Netz. Warte kurz und versuche es erneut.",
     no_match: "Kein aktives Tool passt dazu. Beschreibe die Aufgabe etwas genauer.",
-    unavailable: "Die Suche hat nicht geklappt. Versuche es gleich noch einmal.",
+    unavailable: "AI Match ist gerade nicht verfügbar. Versuche es gleich noch einmal.",
   },
   pt: {
     empty: "Descreva o que você quer fazer.",
@@ -90,7 +90,7 @@ const COPY: Record<MatchLang, Record<MatchErrorCode, string>> = {
     captcha: "A verificação não passou. Resolva e tente de novo.",
     rate_limited: "Muitas buscas nesta rede. Espere um pouco e tente de novo.",
     no_match: "Nenhuma ferramenta ativa corresponde. Descreva a tarefa com um pouco mais de detalhe.",
-    unavailable: "A busca não foi concluída. Tente de novo em instantes.",
+    unavailable: "O AI Match está indisponível neste momento. Tente de novo em instantes.",
   },
   it: {
     empty: "Descrivi che cosa vuoi fare.",
@@ -99,7 +99,7 @@ const COPY: Record<MatchLang, Record<MatchErrorCode, string>> = {
     captcha: "Il controllo non è riuscito. Risolvilo e riprova.",
     rate_limited: "Troppe ricerche da questa rete. Attendi un momento e riprova.",
     no_match: "Nessuno strumento attivo corrisponde. Descrivi il compito con qualche dettaglio in più.",
-    unavailable: "La ricerca non è andata a buon fine. Riprova tra un momento.",
+    unavailable: "AI Match non è disponibile in questo momento. Riprova tra un momento.",
   },
 }
 

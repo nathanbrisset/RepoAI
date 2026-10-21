@@ -86,6 +86,8 @@ const quota = messageForCode('{"error":{"code":"insufficient_quota","message":"h
 assert.equal(quota.toLowerCase().includes("quota"), false)
 assert.equal(quota.includes("http"), false)
 assert.equal(quota, messageForCode("nope", "bonjour je veux une vidéo"))
+assert.equal(quota, "AI Match est indisponible pour le moment. Réessayez dans un instant.")
+assert.equal(messageForCode("unavailable", "write a newsletter"), "AI Match is unavailable right now. Try again in a moment.")
 
 const frenchReason = fallbackReason("fr", synthesys)
 assert.ok(frenchReason.includes("Synthesys"))

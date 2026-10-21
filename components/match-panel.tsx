@@ -87,6 +87,7 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
   const [company, setCompany] = useState("")
   const [fieldError, setFieldError] = useState("")
   const [captchaError, setCaptchaError] = useState("")
+  const [setupError, setSetupError] = useState("")
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(false)
   const [intro, setIntro] = useState("")
@@ -104,14 +105,17 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
       const data = await response.json().catch(() => null)
       if (!response.ok || typeof data?.token !== "string" || typeof data?.question !== "string") {
         setChallenge(null)
-        setCaptchaError(messageForCode(data?.code || "unavailable", promptRef.current?.value || ""))
+        setCaptchaError("")
+        setSetupError(messageForCode(data?.code || "unavailable", promptRef.current?.value || ""))
         return
       }
       setChallenge({ token: data.token, question: data.question })
       setCaptchaError("")
+      setSetupError("")
     } catch {
       setChallenge(null)
-      setCaptchaError(messageForCode("unavailable", promptRef.current?.value || ""))
+      setCaptchaError("")
+      setSetupError(messageForCode("unavailable", promptRef.current?.value || ""))
     }
   }
 
@@ -139,7 +143,7 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
 
   async function runSearch(query: string) {
     if (!challenge) {
-      setCaptchaError(messageForCode("unavailable", query))
+      setSetupError(messageForCode("unavailable", query))
       return
     }
     setLoading(true)
@@ -212,6 +216,10 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
     if (query.length > MAX_QUERY_LENGTH) {
       setFieldError(messageForCode("too_long", query))
       promptRef.current?.focus()
+      return
+    }
+    if (!challenge) {
+      setSetupError(messageForCode("unavailable", query))
       return
     }
     if (!captchaAnswer.trim()) {
@@ -302,31 +310,40 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
                   onChange={(event) => setCompany(event.target.value)}
                 />
               </div>
-              <div>
-                <label htmlFor="ai-match-check" className="mb-1 block text-sm font-medium text-purple-900">
-                  {challenge ? `Quick check: what is ${challenge.question}?` : "Quick check"}
-                </label>
-                <Input
-                  ref={captchaRef}
-                  id="ai-match-check"
-                  name="check"
-                  inputMode="numeric"
-                  autoComplete="off"
-                  value={captchaAnswer}
-                  onChange={(event) => {
-                    setCaptchaAnswer(event.target.value)
-                    if (captchaError) setCaptchaError("")
-                  }}
-                  disabled={loading || !challenge}
-                  aria-invalid={Boolean(captchaError)}
-                  className={captchaError ? "border-pink-500 bg-pink-50 focus-visible:ring-purple-500" : ""}
-                />
-                {captchaError && (
-                  <p role="alert" className="mt-2 text-sm font-medium text-purple-800">
-                    {captchaError}
-                  </p>
-                )}
-              </div>
+              {setupError ? (
+                <div role="alert" className="rounded-lg border border-pink-300 bg-pink-50 px-4 py-3 text-purple-900">
+                  <p>{setupError}</p>
+                  <Button type="button" className="mt-3 bg-purple-600 hover:bg-purple-700" onClick={() => void loadChallenge()}>
+                    Réessayer
+                  </Button>
+                </div>
+              ) : (
+                <div>
+                  <label htmlFor="ai-match-check" className="mb-1 block text-sm font-medium text-purple-900">
+                    {challenge ? `Quick check: what is ${challenge.question}?` : "Quick check"}
+                  </label>
+                  <Input
+                    ref={captchaRef}
+                    id="ai-match-check"
+                    name="check"
+                    inputMode="numeric"
+                    autoComplete="off"
+                    value={captchaAnswer}
+                    onChange={(event) => {
+                      setCaptchaAnswer(event.target.value)
+                      if (captchaError) setCaptchaError("")
+                    }}
+                    disabled={loading || !challenge}
+                    aria-invalid={Boolean(captchaError)}
+                    className={captchaError ? "border-pink-500 bg-pink-50 focus-visible:ring-purple-500" : ""}
+                  />
+                  {captchaError && (
+                    <p role="alert" className="mt-2 text-sm font-medium text-purple-800">
+                      {captchaError}
+                    </p>
+                  )}
+                </div>
+              )}
               <Button type="submit" className="w-full bg-purple-600 hover:bg-purple-700" disabled={loading}>
                 {loading ? "Finding your match..." : "Find my A-Match"}
               </Button>
@@ -338,6 +355,10 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
                   type="button"
                   className="mt-3 bg-purple-600 hover:bg-purple-700"
                   onClick={() => {
+                    if (!challenge) {
+                      void loadChallenge()
+                      return
+                    }
                     if (!captchaAnswer.trim()) {
                       setCaptchaError(messageForCode("captcha", submittedQuery || prompt))
                       captchaRef.current?.focus()

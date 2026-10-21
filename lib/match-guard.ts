@@ -131,10 +131,5 @@ export async function consumeNonce(nonce: string, ttlSec: number): Promise<boole
 }
 
 export function searchLimit(): { limit: number; windowSec: number } {
-  const limit = Number(process.env.MATCH_RATE_LIMIT_MAX || 10)
-  const windowSec = Number(process.env.MATCH_RATE_LIMIT_WINDOW_SEC || 1800)
-  return {
-    limit: Number.isFinite(limit) && limit > 0 ? limit : 10,
-    windowSec: Number.isFinite(windowSec) && windowSec > 0 ? windowSec : 1800,
-  }
+  return { limit: 10, windowSec: 1800 }
 }
