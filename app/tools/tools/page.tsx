@@ -18,7 +18,7 @@ const categories = [
       {
         name: "ChatGPT",
         description: "ChatGPT is a free-to-use AI system. It allows users to engage in conversations, gain insights, automate tasks, and witness the future of AI all in one place.",
-        url: "https://chat.openai.com",
+        url: "https://chatgpt.com/",
         isPremium: false
       },
       {
@@ -66,7 +66,7 @@ const categories = [
       {
         name: "Runway",
         description: "AI video generation",
-        url: "https://runwayml.com",
+        url: "https://runway.com/",
         isPremium: true
       }
     ]
