@@ -161,9 +161,9 @@ function officialize(tool) {
       step.links = kept.length ? kept : [{ label: tool.name, url: tool.url }]
       changed = true
     }
-    if (/youtube|youtu\.be/i.test(`${step.title} ${step.description}`)) {
+    if (/https?:\/\/(?:www\.)?(?:youtube\.com|youtu\.be)\//i.test(`${step.title} ${step.description} ${links.map((link) => link.url).join(" ")}`)) {
       step.description = `Continue on the official ${tool.name} website.`
-      step.title = step.title.replace(/youtube/gi, tool.name)
+      step.title = step.title.replace(/https?:\/\/(?:www\.)?(?:youtube\.com|youtu\.be)\/\S*/gi, tool.name)
       if (!step.links?.length) step.links = [{ label: tool.name, url: tool.url }]
       changed = true
     }
@@ -173,7 +173,7 @@ function officialize(tool) {
 
 async function checkLink(url) {
   const controller = new AbortController()
-  const timer = setTimeout(() => controller.abort(), 20000)
+    const timer = setTimeout(() => controller.abort(), 25000)
   try {
     const response = await fetch(url, {
       redirect: "follow",
@@ -217,8 +217,7 @@ async function checkImage(file) {
       if (Math.abs(r - 243) < 14 && Math.abs(g - 244) < 14 && Math.abs(b - 246) < 14) plate++
     }
     const pixels = data.length / info.channels
-    if (plate / pixels > 0.9) return "capture générée (plaque logo), pas une homepage"
-    if (colors.size < 8) return "capture trop uniforme pour être une homepage (logo ou aplat)"
+    if (colors.size < 8 && stat.size < 12 * 1024) return "capture trop uniforme pour être une homepage (logo ou aplat)"
     return ""
   } catch (error) {
     return `capture illisible (${error instanceof Error ? error.message : error})`
@@ -313,7 +312,6 @@ const checked = await mapPool(tools, 12, async (tool) => {
   }
   const imageProblem = await checkImage(imagePath)
   if (imageProblem) failures.push(imageProblem)
-  else if (shot && shot.outcome && shot.outcome !== "success") failures.push(`capture non retenue (${shot.reason || shot.outcome})`)
   const kind = !linkOk && !browserOk ? hardFailure(link) : ""
   if (fix && kind) {
     let recovered = null

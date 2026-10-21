@@ -27,14 +27,14 @@ Les PNG historiques dans `public/tool-screenshots` sont des captures plein cadre
 
 | Issue | Nombre |
 | --- | ---: |
-| Captures réussies | 360 |
-| Captures ratées | 127 |
-| Image actuelle conservée | 72 |
-| Visuel de repli (logo) | 55 |
-| Poids de public/screenshots | 14.7 Mio |
+| Captures réussies | 435 |
+| Captures ratées | 52 |
+| Image actuelle conservée | 31 |
+| Visuel de repli (logo) | 21 |
+| Poids de public/screenshots | 19.4 Mio |
 | Poids restant de public/tool-screenshots | 246.8 Mio |
 
-Ratées par type : error 92, captcha 33, empty 1, cookie 1.
+Ratées par type : error 10, captcha 40, empty 2.
 
 ## Captures ratées
 
@@ -47,123 +47,48 @@ Ratées par type : error 92, captcha 33, empty 1, cookie 1.
 | character-ai | Character.ai | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | chatcode | ChatCode | empty | Page vide | image actuelle |
 | claude-3 | Claude | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| cleanvoice | Cleanvoice AI | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| clearscope | Clearscope | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| cleo | Cleo | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| clickup-ai | ClickUp AI | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| cline | Cline | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| clipchamp | Clipchamp | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| clipdroprelight | ClipDrop Relight | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| clonedub | CloneDub | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| cocounsel | CoCounsel | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| coda | Coda | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| codeassist | CodeAssist | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| codegeex | CodeGeeX | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| codegen | CodeGen | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| codepal | CodePal | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| coderabbit | CodeRabbit | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| codet5 | CodeT5 | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| codetree | Codetree | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| codify | Codify | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| codiga | Codiga | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
+| clearscope | Clearscope | captcha | Captcha ou interstitiel anti-bot | image actuelle |
+| clipdroprelight | ClipDrop Relight | captcha | Captcha ou interstitiel anti-bot | image actuelle |
+| cocounsel | CoCounsel | captcha | Captcha ou interstitiel anti-bot | repli logo |
+| codeassist | CodeAssist | captcha | Captcha ou interstitiel anti-bot | image actuelle |
+| codepal | CodePal | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | codiumai | CodiumAI | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| cogram | Cogram | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| cohere | Cohere | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| colossyan | Colossyan | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| comfyui | ComfyUI | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
 | craiyon | Craiyon | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | crewai | CrewAI | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | deep-nostalgia | Deep Nostalgia | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | duolingo | Duolingo | captcha | Captcha ou interstitiel anti-bot | repli logo |
-| dynamicyield | Dynamic Yield | cookie | Mur de cookies | image actuelle |
 | gamma | Gamma | captcha | Captcha ou interstitiel anti-bot | repli logo |
-| gong | Gong | error | page.goto: Timeout 22000ms exceeded. | repli logo |
 | google_cloud_automl | Google Cloud AutoML | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| google-ai-studio | Google AI Studio | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| google-antigravity | Google Antigravity | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| google-flow-music | Google Flow Music | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| google-stitch | Google Stitch | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| grammarly | Grammarly | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| granola | Granola | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| graphite | Graphite | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| greptile | Greptile | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| grok | Grok | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| groq | Groq | error | page.goto: Timeout 22000ms exceeded. | repli logo |
+| google-stitch | Google Stitch | empty | Page vide | repli logo |
 | growthbar | GrowthBar | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | ideogram | Ideogram | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| illustroke | Illustroke | error | page.screenshot: Timeout 10000ms exceeded. | image actuelle |
-| influencity | Influencity | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| instantly | Instantly | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| intercom-fin | Intercom Fin | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| interior_ai | Interior AI | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| invideo | InVideo | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| izotope-cascadia | Izotope Cascadia | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| jamie | Jamie AI | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| jasper-art | Jasper Art | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| juicebox | Juicebox | error | page.screenshot: Timeout 10000ms exceeded. | repli logo |
 | kaggle_kernels | Kaggle Kernels | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | leonardo_ai | Leonardo.Ai | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| looka | Looka | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| lovable | Lovable | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | manychat | ManyChat | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | midjourney | Midjourney | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| ml-net | ML.NET | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
 | mobilemonkey | MobileMonkey | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| moises | Moises | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| motion | Motion | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| mp3tomidi | MP3 to MIDI (mp3tomidi.io) | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| msty | Msty | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| mubert | Mubert | error | page.goto: Timeout 22000ms exceeded. | repli logo |
 | munch | Munch | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| murf-ai | Murf.ai | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| mutiny | Mutiny | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| myedit | MyEdit | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| n8n | n8n | error | page.goto: Timeout 22000ms exceeded. | repli logo |
 | neurallove | Neural.love Video Enhancer | error | Page 404 | image actuelle |
-| nightcafe | NightCafe | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | novelai | NovelAI | captcha | Captcha ou interstitiel anti-bot | repli logo |
-| perplexity-ai | Perplexity | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| perplexity-comet | Perplexity Comet | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| persado | Persado | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| photomath | Photomath | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| photoroom | Photoroom | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
+| perplexity-ai | Perplexity | captcha | Captcha ou interstitiel anti-bot | image actuelle |
+| perplexity-comet | Perplexity Comet | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | phrasee | Phrasee | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| picsart_ai | Picsart AI | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| pictory | Pictory | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
+| pictory | Pictory | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | poe | Poe | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | power-bi | Microsoft Power BI | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | quillbot | QuillBot | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | quizlet | Quizlet | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | raycast | Raycast | error | page.screenshot: Timeout 10000ms exceeded. | repli logo |
 | readwise-reader | Readwise Reader | captcha | Captcha ou interstitiel anti-bot | repli logo |
-| retell-ai | Retell AI | error | page.screenshot: Timeout 10000ms exceeded. | repli logo |
+| retell-ai | Retell AI | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | skyvern | Skyvern | error | page.goto: Timeout 22000ms exceeded. | repli logo |
 | smartlead | Smartlead | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| socket | Socket | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| softr | Softr | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| sonix | Sonix | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| soundful | Soundful | error | page.goto: Timeout 22000ms exceeded. | repli logo |
 | spellbook | Spellbook | captcha | Captcha ou interstitiel anti-bot | repli logo |
-| stockimg_ai | Stockimg.AI | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| submagic | Submagic | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| suno | Suno | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| sunsama | Sunsama | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| supabase | Supabase | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| superhuman | Superhuman | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| surfer-seo | Surfer SEO | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| synthesia | Synthesia | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| synthesys | Synthesys | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| tableau | Tableau | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
+| suno | Suno | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | tavus | Tavus | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | teleporthq | TeleportHQ | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | tensor-art | Tensor.Art | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | uxpin | UXPin | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| vizcom | Vizcom | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| voice-ai | Voice.ai | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| voiceflow | Voiceflow | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| warp | Warp | error | page.goto: Timeout 22000ms exceeded. | repli logo |
-| watson_studio | IBM Watson Studio | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
-| wavtool | WavTool | error | page.goto: Timeout 22000ms exceeded. | image actuelle |
 | webflow | Webflow | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | wellsaid | WellSaid Labs | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | zonos | Zonos AI | captcha | Captcha ou interstitiel anti-bot | image actuelle |

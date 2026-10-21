@@ -349,8 +349,12 @@ function classify(signals) {
 }
 
 async function optimizeWebp(pngBuffer) {
-  let quality = 74
+  let quality = 82
   let out = await sharp(pngBuffer).webp({ quality, effort: 5, smartSubsample: true }).toBuffer()
+  if (out.length < 15 * 1024) {
+    const richer = await sharp(pngBuffer).webp({ quality: 100, effort: 6, smartSubsample: false }).toBuffer()
+    if (richer.length > out.length) out = richer
+  }
   while (out.length > MAX_WEBP_BYTES && quality > 46) {
     quality -= 8
     out = await sharp(pngBuffer).webp({ quality, effort: 5, smartSubsample: true }).toBuffer()
@@ -461,11 +465,38 @@ async function ocrFile(absPath) {
   return text
 }
 
+async function looksLikeLogoPlate(abs) {
+  try {
+    const { data, info } = await sharp(abs).resize(48, 30, { fit: "fill" }).removeAlpha().raw().toBuffer({ resolveWithObject: true })
+    let plate = 0
+    const pixels = data.length / info.channels
+    for (let i = 0; i < data.length; i += info.channels) {
+      const r = data[i]
+      const g = data[i + 1]
+      const b = data[i + 2]
+      if (Math.abs(r - 243) < 14 && Math.abs(g - 244) < 14 && Math.abs(b - 246) < 14) plate++
+    }
+    return plate / pixels > 0.9
+  } catch {
+    return false
+  }
+}
+
 async function existingImageProblem(tool) {
   const abs = publicFile((tool.image || "").trim())
   if (!abs || !fs.existsSync(abs)) return "image absente"
   const stat = fs.statSync(abs)
-  if (stat.size < 8000) return "fichier image trop petit"
+  if (stat.size < 12000 && (await looksLikeLogoPlate(abs))) return "plaque logo"
+  if (stat.size < 8000) {
+    try {
+      const stats = await sharp(abs).stats()
+      const stdev = stats.channels.reduce((sum, channel) => sum + channel.stdev, 0) / stats.channels.length
+      if (stdev >= 6) return null
+    } catch {
+      return "fichier image trop petit"
+    }
+    return "fichier image trop petit"
+  }
   try {
     const meta = await sharp(abs).metadata()
     if (!meta.width || meta.width < 320 || !meta.height || meta.height < 180) return "image illisible"
@@ -481,7 +512,7 @@ async function existingImageProblem(tool) {
 }
 
 async function capturePage(page, tool) {
-  const response = await page.goto(tool.url, { waitUntil: "domcontentloaded", timeout: 22000 })
+  const response = await page.goto(tool.url, { waitUntil: "domcontentloaded", timeout: 35000 })
   const status = response ? response.status() : 0
   await page.waitForLoadState("networkidle", { timeout: 2500 }).catch(() => {})
   const started = Date.now()
@@ -511,7 +542,7 @@ async function capturePage(page, tool) {
     signals = await readSignals(page, status)
     problem = classify(signals)
   }
-  const png = await page.screenshot({ type: "png", animations: "disabled", caret: "hide", timeout: 10000 })
+  const png = await page.screenshot({ type: "png", animations: "disabled", caret: "hide", timeout: 20000 })
   if (!problem) {
     const stdev = await visualStdev(png)
     if (signals.textLength < 40 && stdev < 10) problem = { category: "empty", reason: "Page vide" }
@@ -559,7 +590,7 @@ async function captureTool(browser, tool, debugDir) {
   page.setDefaultTimeout(15000)
   let timer
   const timeout = new Promise((_, reject) => {
-    timer = setTimeout(() => reject(new Error("délai dépassé")), 45000)
+    timer = setTimeout(() => reject(new Error("délai dépassé")), 70000)
   })
   try {
     const result = await Promise.race([capturePage(page, tool), timeout])
