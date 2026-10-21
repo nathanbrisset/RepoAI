@@ -41,14 +41,26 @@ const nextConfig = {
       "vidyoai",
     ]
     return [
-      ...renamedToTools.map((id) => ({
-        source: `/tool/${id}`,
-        destination: "/tools",
-        permanent: true,
-      })),
+      ...renamedToTools.flatMap((id) => [
+        {
+          source: `/tool/${id}`,
+          destination: "/tools",
+          permanent: true,
+        },
+        {
+          source: `/fr/tool/${id}`,
+          destination: "/fr/tools",
+          permanent: true,
+        },
+      ]),
       {
         source: "/tool/windsurf",
         destination: "/tool/devin",
+        permanent: true,
+      },
+      {
+        source: "/fr/tool/windsurf",
+        destination: "/fr/tool/devin",
         permanent: true,
       },
     ]
