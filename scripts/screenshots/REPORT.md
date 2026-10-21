@@ -27,33 +27,41 @@ Les PNG historiques dans `public/tool-screenshots` sont des captures plein cadre
 
 | Issue | Nombre |
 | --- | ---: |
-| Captures réussies | 289 |
-| Captures ratées | 17 |
-| Image actuelle conservée | 14 |
-| Visuel de repli (logo) | 3 |
-| Poids de public/screenshots | 12.0 Mio |
+| Captures réussies | 300 |
+| Captures ratées | 5 |
+| Image actuelle conservée | 5 |
+| Visuel de repli (logo) | 0 |
+| Poids de public/screenshots | 12.6 Mio |
 | Poids restant de public/tool-screenshots | 37.8 Mio |
 
-Ratées par type : error 5, captcha 12.
+Ratées par type : captcha 5.
+
+## Images publiées avec une note
+
+| id | note |
+| --- | --- |
+| adobe-marketo-engage | Capture de https://business.adobe.com/products/marketo.html. |
+| autoregex | Page produit visible. Un iframe captcha est dans le DOM mais ne couvre pas la page. |
+| character-ai | Capture de character.ai. |
+| chatcode | Interface réelle, page sombre peu dense. |
+| claude-3 | Capture de claude.com, le site marketing officiel. claude.ai répond 403. |
+| clipdroprelight | Image officielle og:image de clipdrop.co/relight. La page elle-même est un interstitiel. |
+| codepal | Image officielle og:image de codepal.ai. La page elle-même est un captcha. |
+| deepseek | Capture de la page marketing avant le plantage JavaScript (client-side exception). |
+| gamma | Capture de help.gamma.app. gamma.app, /pricing et /templates restent derrière un captcha. |
+| ideogram | Image officielle about.ideogram.ai, pas une capture du navigateur. ideogram.ai reste derrière un captcha. |
+| neurallove | Capture de https://neural.love/video. |
+| pictory | Image officielle og:image de pictory.ai. La page elle-même est un captcha. |
+| semrushwritingassistant | Capture de https://www.semrush.com/swa/demo. |
+| wellsaid | Capture de wellsaid.io/ai-voice-pricing. La homepage est un captcha. |
+| zonos | Capture du HTML de zonosai.com sans JavaScript. Avec JavaScript la page est un captcha. |
 
 ## Captures ratées
 
 | id | nom | type | détail | décision |
 | --- | --- | --- | --- | --- |
-| alphacode | AlphaCode | error | page.goto: net::ERR_CONNECTION_CLOSED at https://alphacode.deepmind.com/ | image actuelle |
-| autoregex | AutoRegex | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| character-ai | Character.ai | error | page.evaluate: Execution context was destroyed, most likely because of a navigation | repli logo |
-| claude-3 | Claude | error | HTTP 403 | image actuelle |
-| clipdroprelight | ClipDrop Relight | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | codeassist | CodeAssist | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| codepal | CodePal | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| gamma | Gamma | error | HTTP 403 | repli logo |
 | growthbar | GrowthBar | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| ideogram | Ideogram | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| neurallove | Neural.love Video Enhancer | error | Page 404 | image actuelle |
 | perplexity-ai | Perplexity | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| perplexity-comet | Perplexity Comet | captcha | Captcha ou interstitiel anti-bot | repli logo |
-| pictory | Pictory | captcha | Captcha ou interstitiel anti-bot | image actuelle |
+| perplexity-comet | Perplexity Comet | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | quillbot | QuillBot | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| wellsaid | WellSaid Labs | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| zonos | Zonos AI | captcha | Captcha ou interstitiel anti-bot | image actuelle |

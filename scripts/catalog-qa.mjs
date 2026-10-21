@@ -25,6 +25,7 @@ const RETIRED = ["aidungeon.io", "useblackbox.io", "cursor.sh", "chat.openai.com
  * Ne pas y ajouter une capture sans l'avoir relue.
  */
 const SMALL_OK = {
+  chatcode: "Interface sombre réelle (Hello I am ChatCode AI, champ Ask Code). La page est plate, le WebP reste sous 15 Ko.",
   albertai: "Page Albert revue : capture légère acceptée.",
   autodraw: "Page d'accueil « AutoDraw / Fast drawing for everyone ».",
   grok: "Interface Grok « What should we explore? ».",

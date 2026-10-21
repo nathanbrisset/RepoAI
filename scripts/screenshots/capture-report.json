@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T18:19:21.590Z",
+  "generatedAt": "2026-10-21T19:04:52.906Z",
   "audit": {
     "capturedAt": "2026-10-21T16:31:59.994Z",
     "totalFiles": 332,
@@ -62,17 +62,16 @@
     "referencedBytes": 157716471
   },
   "counts": {
-    "processed": 306,
-    "success": 289,
-    "failed": 17,
-    "kept": 14,
-    "fallback": 3,
+    "processed": 305,
+    "success": 300,
+    "failed": 5,
+    "kept": 5,
+    "fallback": 0,
     "byCategory": {
-      "error": 5,
-      "captcha": 12
+      "captcha": 5
     }
   },
-  "screenshotsBytes": 12623040,
+  "screenshotsBytes": 13196898,
   "legacyBytes": 39629755,
   "results": [
     {
@@ -102,14 +101,14 @@
     {
       "id": "adobe-marketo-engage",
       "name": "Adobe Marketo Engage",
-      "url": "https://business.adobe.com/products/marketo/adobe-marketo.html",
+      "url": "https://business.adobe.com/products/marketo.html",
       "finalUrl": "https://business.adobe.com/products/marketo.html",
       "outcome": "success",
       "category": "ok",
       "reason": "",
       "image": "/screenshots/adobe-marketo-engage.webp",
-      "bytes": 50754,
-      "note": ""
+      "bytes": 56998,
+      "note": "Capture de https://business.adobe.com/products/marketo.html."
     },
     {
       "id": "adobe-podcast-enhance",
@@ -194,17 +193,6 @@
       "image": "/screenshots/albertai.webp",
       "bytes": 10716,
       "note": ""
-    },
-    {
-      "id": "alphacode",
-      "name": "AlphaCode",
-      "url": "https://alphacode.deepmind.com/",
-      "finalUrl": "",
-      "outcome": "kept",
-      "category": "error",
-      "reason": "page.goto: net::ERR_CONNECTION_CLOSED at https://alphacode.deepmind.com/",
-      "image": "/tool-screenshots/alphacode.png",
-      "note": "image actuelle conservée"
     },
     {
       "id": "altered",
@@ -367,11 +355,12 @@
       "name": "AutoRegex",
       "url": "https://www.autoregex.xyz/",
       "finalUrl": "https://www.autoregex.xyz/",
-      "outcome": "kept",
-      "category": "captcha",
-      "reason": "Captcha ou interstitiel anti-bot",
-      "image": "/tool-screenshots/autoregex.png",
-      "note": "image actuelle conservée"
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/autoregex.webp",
+      "note": "Page produit visible. Un iframe captcha est dans le DOM mais ne couvre pas la page.",
+      "bytes": 22334
     },
     {
       "id": "beatovenai",
@@ -521,13 +510,13 @@
       "id": "character-ai",
       "name": "Character.ai",
       "url": "https://character.ai",
-      "finalUrl": "",
-      "outcome": "fallback",
-      "category": "error",
-      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation",
+      "finalUrl": "https://character.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
       "image": "/screenshots/character-ai.webp",
-      "note": "repli logo (fichier image trop petit)",
-      "bytes": 5284
+      "bytes": 67516,
+      "note": "Capture de character.ai."
     },
     {
       "id": "chatcode",
@@ -539,7 +528,7 @@
       "reason": "",
       "image": "/screenshots/chatcode.webp",
       "bytes": 6032,
-      "note": ""
+      "note": "Interface réelle, page sombre peu dense."
     },
     {
       "id": "chatgpt",
@@ -557,12 +546,13 @@
       "id": "claude-3",
       "name": "Claude",
       "url": "https://claude.ai",
-      "finalUrl": "https://claude.ai/login",
-      "outcome": "kept",
-      "category": "error",
-      "reason": "HTTP 403",
-      "image": "/tool-screenshots/claude.png",
-      "note": "image actuelle conservée"
+      "finalUrl": "https://claude.ai/images/claude_ogimage.png",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/claude-3.webp",
+      "bytes": 44764,
+      "note": "Capture de claude.com, le site marketing officiel. claude.ai répond 403."
     },
     {
       "id": "claude-code",
@@ -640,12 +630,13 @@
       "id": "clipdroprelight",
       "name": "ClipDrop Relight",
       "url": "https://clipdrop.co/relight",
-      "finalUrl": "https://clipdrop.co/relight",
-      "outcome": "kept",
-      "category": "captcha",
-      "reason": "Captcha ou interstitiel anti-bot",
-      "image": "/tool-screenshots/clipdroprelight.png",
-      "note": "image actuelle conservée"
+      "finalUrl": "https://static.clipdrop.co/web/relight/og-twitter-image.webp",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/clipdroprelight.webp",
+      "bytes": 54556,
+      "note": "Image officielle og:image de clipdrop.co/relight. La page elle-même est un interstitiel."
     },
     {
       "id": "clonedub",
@@ -698,12 +689,13 @@
       "id": "codepal",
       "name": "CodePal",
       "url": "https://codepal.ai/",
-      "finalUrl": "https://codepal.ai/",
-      "outcome": "kept",
-      "category": "captcha",
-      "reason": "Captcha ou interstitiel anti-bot",
-      "image": "/tool-screenshots/codepal.png",
-      "note": "image actuelle conservée"
+      "finalUrl": "https://codepal.ai/og-image.png",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/codepal.webp",
+      "bytes": 21448,
+      "note": "Image officielle og:image de codepal.ai. La page elle-même est un captcha."
     },
     {
       "id": "codet5",
@@ -997,13 +989,13 @@
       "id": "deepseek",
       "name": "DeepSeek",
       "url": "https://www.deepseek.com/",
-      "finalUrl": "https://www.deepseek.com/en/",
+      "finalUrl": "https://www.deepseek.com/",
       "outcome": "success",
       "category": "ok",
       "reason": "",
       "image": "/screenshots/deepseek.webp",
-      "bytes": 6580,
-      "note": ""
+      "bytes": 16926,
+      "note": "Capture de la page marketing avant le plantage JavaScript (client-side exception)."
     },
     {
       "id": "deepswap",
@@ -1345,13 +1337,13 @@
       "id": "gamma",
       "name": "Gamma",
       "url": "https://gamma.app",
-      "finalUrl": "https://gamma.app/",
-      "outcome": "fallback",
-      "category": "error",
-      "reason": "HTTP 403",
+      "finalUrl": "https://help.gamma.app/en/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
       "image": "/screenshots/gamma.webp",
-      "note": "repli logo (fichier image trop petit)",
-      "bytes": 5142
+      "bytes": 42800,
+      "note": "Capture de help.gamma.app. gamma.app, /pricing et /templates restent derrière un captcha."
     },
     {
       "id": "gemini-1-5-pro",
@@ -1620,12 +1612,13 @@
       "id": "ideogram",
       "name": "Ideogram",
       "url": "https://ideogram.ai",
-      "finalUrl": "https://ideogram.ai/",
-      "outcome": "kept",
-      "category": "captcha",
-      "reason": "Captcha ou interstitiel anti-bot",
-      "image": "/tool-screenshots/ideogram.png",
-      "note": "image actuelle conservée"
+      "finalUrl": "https://storage.googleapis.com/ideogram-static/website/images/ba16d402d8d0b906.jpeg",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/ideogram.webp",
+      "bytes": 91418,
+      "note": "Image officielle about.ideogram.ai, pas une capture du navigateur. ideogram.ai reste derrière un captcha."
     },
     {
       "id": "illustroke",
@@ -2362,13 +2355,14 @@
     {
       "id": "neurallove",
       "name": "Neural.love Video Enhancer",
-      "url": "https://neural.love/video-enhancer",
-      "finalUrl": "https://neural.love/video-enhancer",
-      "outcome": "kept",
-      "category": "error",
-      "reason": "Page 404",
-      "image": "/tool-screenshots/neurallove.png",
-      "note": "image actuelle conservée"
+      "url": "https://neural.love/video",
+      "finalUrl": "https://neural.love/video",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/neurallove.webp",
+      "bytes": 51340,
+      "note": "Capture de https://neural.love/video."
     },
     {
       "id": "nightcafe",
@@ -2530,12 +2524,11 @@
       "name": "Perplexity Comet",
       "url": "https://www.perplexity.ai/comet",
       "finalUrl": "https://www.perplexity.ai/comet",
-      "outcome": "fallback",
+      "outcome": "kept",
       "category": "captcha",
       "reason": "Captcha ou interstitiel anti-bot",
       "image": "/screenshots/perplexity-comet.webp",
-      "note": "repli logo (fichier image trop petit)",
-      "bytes": 5992
+      "note": "image actuelle conservée"
     },
     {
       "id": "persado",
@@ -2589,12 +2582,13 @@
       "id": "pictory",
       "name": "Pictory",
       "url": "https://pictory.ai",
-      "finalUrl": "https://pictory.ai/?el=2000b&htrafficsource=pictoryblog",
-      "outcome": "kept",
-      "category": "captcha",
-      "reason": "Captcha ou interstitiel anti-bot",
-      "image": "/tool-screenshots/pictory.png",
-      "note": "image actuelle conservée"
+      "finalUrl": "https://pictory.ai/wp-content/uploads/2022/04/thumb-home.jpg",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/pictory.webp",
+      "bytes": 38944,
+      "note": "Image officielle og:image de pictory.ai. La page elle-même est un captcha."
     },
     {
       "id": "pieces",
@@ -2994,14 +2988,14 @@
     {
       "id": "semrushwritingassistant",
       "name": "SEMrush Writing Assistant",
-      "url": "https://www.semrush.com/features/seowritingassistant/",
-      "finalUrl": "https://www.semrush.com/features/seowritingassistant/",
+      "url": "https://www.semrush.com/swa/demo",
+      "finalUrl": "https://www.semrush.com/swa/checker/smr-b47cb403-e429-4c59-9c41-e970c1cddcad",
       "outcome": "success",
       "category": "ok",
       "reason": "",
       "image": "/screenshots/semrushwritingassistant.webp",
-      "bytes": 33204,
-      "note": ""
+      "bytes": 48142,
+      "note": "Capture de https://www.semrush.com/swa/demo."
     },
     {
       "id": "sendinblue",
@@ -3583,12 +3577,13 @@
       "id": "wellsaid",
       "name": "WellSaid Labs",
       "url": "https://www.wellsaid.io",
-      "finalUrl": "https://www.wellsaid.io/",
-      "outcome": "kept",
-      "category": "captcha",
-      "reason": "Captcha ou interstitiel anti-bot",
-      "image": "/tool-screenshots/wellsaid.png",
-      "note": "image actuelle conservée"
+      "finalUrl": "https://www.wellsaid.io/ai-voice-pricing",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/wellsaid.webp",
+      "bytes": 78832,
+      "note": "Capture de wellsaid.io/ai-voice-pricing. La homepage est un captcha."
     },
     {
       "id": "whisper",
@@ -3727,11 +3722,12 @@
       "name": "Zonos AI",
       "url": "https://zonosai.com/",
       "finalUrl": "https://zonosai.com/",
-      "outcome": "kept",
-      "category": "captcha",
-      "reason": "Captcha ou interstitiel anti-bot",
-      "image": "/tool-screenshots/zonos.png",
-      "note": "image actuelle conservée"
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/zonos.webp",
+      "note": "Capture du HTML de zonosai.com sans JavaScript. Avec JavaScript la page est un captcha.",
+      "bytes": 38804
     }
   ]
 }
