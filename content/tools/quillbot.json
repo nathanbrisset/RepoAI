@@ -17,15 +17,15 @@
     "Editing"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; QuillBot help center/blog via web search: free plan $0 + Premium $19.95/month or $99.95/year (quillbot.com/premium blocked by Cloudflare)"
   },
   "logo": "/logos/quillbot.png",
   "image": "/tool-screenshots/quillbot.png",
   "dateAdded": "2021-03-20",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Paraphraser: Rewrites sentences while preserving the original meaning.",
     "Grammar Checker: Detects and corrects grammatical errors in your text.",

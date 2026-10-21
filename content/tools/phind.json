@@ -3,7 +3,7 @@
   "name": "Phind",
   "url": "https://www.phind.com/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "AI-powered search engine and assistant designed for developers.",
   "description": "AI-powered search engine and assistant designed for developers.\n\nDeveloper-focused search: AI-tuned for code queries. Real-time web data: Combines search with LLM responses. IDE extensions: Use directly inside coding environments. Error explanation: Understand and fix bugs faster.",
   "categories": [
@@ -23,7 +23,8 @@
   "logo": "",
   "image": "/tool-screenshots/phind.png",
   "dateAdded": "2025-06-04",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
+  "statusNote": "Web search: shutdown email quoted on Hacker News (item 46595637, Jan 12 2026) - last day of search Jan 16 2026; headless Chrome: phind.com returns Vercel 404 DEPLOYMENT_NOT_FOUND",
   "features": [
     "Developer-focused search: AI-tuned for code queries.",
     "Real-time web data: Combines search with LLM responses.",

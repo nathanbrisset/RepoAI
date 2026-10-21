@@ -3,7 +3,7 @@
   "name": "Lovo",
   "url": "https://lovo.ai",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "An AI voiceover platform offering a wide range of voices and languages, designed for content creators and businesses.",
   "description": "An AI voiceover platform offering a wide range of voices and languages, designed for content creators and businesses.\n\nExtensive Voice Options: Offers 500+ AI voices in over 100 languages. Voice Cloning: Allows users to create unique, branded voices. Genny AI: An intuitive tool for generating voiceovers from text. Auto Subtitle Generator: Automatically creates subtitles for videos.",
   "categories": [
@@ -24,7 +24,8 @@
   "logo": "/logos/lovo.png",
   "image": "/tool-screenshots/lovo.png",
   "dateAdded": "2023-03-10",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
+  "statusNote": "Headless Chrome: lovo.ai shows Vercel 'Deployment Paused' (HTTP 402); web search: Lovo Inc. filed Chapter 7 on May 27 2026 (Bloomberg Law / MLex via ToolColumn, NanoPhoto)",
   "features": [
     "Extensive Voice Options: Offers 500+ AI voices in over 100 languages.",
     "Voice Cloning: Allows users to create unique, branded voices.",

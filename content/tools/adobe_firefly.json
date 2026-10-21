@@ -1,7 +1,7 @@
 {
   "id": "adobe_firefly",
   "name": "Adobe Firefly",
-  "url": "https://adobe.com/sensei/generative-ai/firefly",
+  "url": "https://firefly.adobe.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Adobe Firefly is Adobe's generative AI model for creative professionals. It enables image generation, text effects, and vector creation using natural language prompts. Deeply integrated with Adobe Creative Cloud, Firefly empowers designers to rapidly prototype and enhance projects with AI-powered visuals tailored for commercial use.",
@@ -25,7 +25,8 @@
   "logo": "/logos/adobe_firefly.png",
   "image": "/tool-screenshots/adobe_firefly.png",
   "dateAdded": "2023-05-01",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
+  "statusNote": "Headless Chrome: adobe.com/sensei/generative-ai/firefly returns a 404 page; firefly.adobe.com loads ('Adobe Firefly: Your all-in-one AI creative studio')",
   "features": [
     "Text-to-Image: Create images from descriptions.",
     "Text Effects: Apply unique styles to text for branding.",

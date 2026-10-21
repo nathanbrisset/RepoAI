@@ -1,9 +1,10 @@
 {
   "id": "pycaret",
   "name": "PyCaret",
-  "url": "https://pycaret.org",
+  "url": "https://github.com/pycaret/pycaret",
   "affiliateUrl": "",
   "status": "active",
+  "statusNote": "Box cannot connect to pycaret.org; GitHub repo loads ('Open-source, low-code AutoML platform for Python') - suggest repo as verified URL",
   "summary": "AutoML platform for machine learning and coding pipelines.",
   "description": "AutoML platform for machine learning and coding pipelines.\n\nAutomated Machine Learning: Simplifies the process of training and deploying models. Feature Engineering: Provides tools for preprocessing and transforming data. Model Comparison: Allows easy comparison of different machine learning models. Low-Code Interface: Designed for users with minimal coding experience.",
   "categories": [
@@ -18,13 +19,14 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": true,
+    "note": "Box cannot connect to pycaret.org; GitHub repo loads ('Open-source, low-code AutoML platform for Python') - suggest repo as verified URL",
+    "sourceUrl": "https://github.com/pycaret/pycaret"
   },
   "logo": "/logos/pycaret.png",
   "image": "/tool-screenshots/pycaret.png",
   "dateAdded": "2022-12-01",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Automated Machine Learning: Simplifies the process of training and deploying models.",
     "Feature Engineering: Provides tools for preprocessing and transforming data.",

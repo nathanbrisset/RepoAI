@@ -39,8 +39,8 @@ export function toRuntimeTool(entry: CatalogTool): Tool {
 
 export const allTools: Tool[] = catalogTools.map(toRuntimeTool)
 
-/** Cards and lists hide exact duplicate URLs. The duplicate page still resolves. */
-export const listedTools: Tool[] = allTools.filter((tool) => tool.status !== "duplicate-of")
+/** Cards, related fiches, search, and categories omit closed and duplicate pages. /tool/{id} still resolves. */
+export const listedTools: Tool[] = allTools.filter((tool) => tool.status !== "duplicate-of" && tool.status !== "sunset")
 
 export function getToolById(id: string) {
   return allTools.find((tool) => tool.id === id) || null

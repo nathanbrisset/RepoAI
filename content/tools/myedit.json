@@ -1,11 +1,11 @@
 {
   "id": "myedit",
   "name": "MyEdit",
-  "url": "https://myedit.io",
+  "url": "https://myedit.online/en",
   "affiliateUrl": "",
-  "status": "sunset",
+  "status": "active",
   "summary": "An AI-powered audio editing platform that helps create professional-quality audio content with automated editing features.",
-  "description": "An AI-powered audio editing platform that helps create professional-quality audio content with automated editing features.\n\nThe previous website did not resolve on 21 October 2026, so the card is marked closed until someone confirms a new URL.",
+  "description": "An AI-powered audio editing platform that helps create professional-quality audio content with automated editing features.",
   "categories": [
     "audio"
   ],
@@ -17,8 +17,8 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": true,
+    "note": "Box cannot reach myedit.io; web search + curl: official site is myedit.online (title 'MyEdit: Online AI Editor for Image, Video & Audio'); pricing page myedit.online/en/pricing via search: free tier with daily credits, paid from $5/month annually"
   },
   "logo": "/logos/myedit.png",
   "image": "/tool-screenshots/myedit.png",
@@ -55,5 +55,5 @@
       "description": "Preview changes and export the final audio for use."
     }
   ],
-  "statusNote": "The official URL did not resolve on 21 October 2026. A vendor shutdown notice was not found in this pass."
+  "statusNote": "Box cannot reach myedit.io; web search + curl: official site is myedit.online (title 'MyEdit: Online AI Editor for Image, Video & Audio'); pricing page myedit.online/en/pricing via search: free tier with daily credits, paid from $5/month annually"
 }
