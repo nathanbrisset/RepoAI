@@ -32,10 +32,6 @@ export default function AboutPage() {
             </li>
             <li className="flex items-start">
               <CheckCircle className="h-6 w-6 text-purple-600 mr-2 flex-shrink-0" />
-              <span>User reviews and ratings to help you make informed decisions</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="h-6 w-6 text-purple-600 mr-2 flex-shrink-0" />
               <span>Regular updates with the latest AI tools and technologies</span>
             </li>
           </ul>

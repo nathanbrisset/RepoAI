@@ -40,7 +40,7 @@ export default function AboutPage() {
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                 <h3 className="text-xl font-semibold mb-3 text-gray-900">Detailed Reviews</h3>
                 <p className="text-gray-700">
-                  Each tool in our directory comes with comprehensive information, including features, pricing, and user ratings.
+                  Each tool in our directory comes with comprehensive information, including features and pricing.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
