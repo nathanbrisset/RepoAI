@@ -1,14 +1,13 @@
 {
-  "generatedAt": "2026-10-21T20:06:09.283Z",
+  "generatedAt": "2026-10-21T20:15:33.059Z",
   "activeChecked": 465,
-  "passed": 457,
-  "failed": 8,
+  "passed": 458,
+  "failed": 7,
   "fixes": [],
   "byReason": {
     "capture absente": 4,
     "capture suspecte (13624 octets, sous 15 Ko)": 1,
     "capture suspecte (10500 octets, sous 15 Ko)": 1,
-    "capture suspecte (11904 octets, sous 15 Ko)": 1,
     "capture suspecte (8490 octets, sous 15 Ko)": 1
   },
   "failures": [
@@ -34,14 +33,6 @@
       "url": "https://chatcodeai.vercel.app/",
       "failures": [
         "capture suspecte (10500 octets, sous 15 Ko)"
-      ]
-    },
-    {
-      "id": "deepseek",
-      "name": "DeepSeek",
-      "url": "https://www.deepseek.com/",
-      "failures": [
-        "capture suspecte (11904 octets, sous 15 Ko)"
       ]
     },
     {
