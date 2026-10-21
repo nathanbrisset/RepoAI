@@ -1,5 +1,10 @@
 import { getLocale } from "@/lib/i18n/get-locale"
+import { metadataFor } from "@/lib/i18n/metadata"
 import { termsDocument } from "@/lib/i18n/legal"
+
+export function generateMetadata() {
+  return metadataFor("/terms")
+}
 
 export default async function TermsOfServicePage() {
   const locale = await getLocale()

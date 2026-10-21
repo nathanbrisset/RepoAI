@@ -2,6 +2,11 @@ import { mockTools } from "@/lib/data"
 import ToolCard from "@/components/tool-card"
 import { getLocale } from "@/lib/i18n/get-locale"
 import { translate } from "@/lib/i18n/messages"
+import { metadataFor } from "@/lib/i18n/metadata"
+
+export function generateMetadata() {
+  return metadataFor("/category/top-rated")
+}
 
 export default async function TopRatedToolsPage() {
   const locale = await getLocale()

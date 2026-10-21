@@ -1,6 +1,11 @@
 import { ArrowRight, CheckCircle } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { metadataFor } from "@/lib/i18n/metadata"
+
+export function generateMetadata() {
+  return metadataFor("/about/about")
+}
 
 export default function AboutPage() {
   return (

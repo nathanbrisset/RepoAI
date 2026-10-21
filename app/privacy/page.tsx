@@ -1,5 +1,10 @@
 import { getLocale } from "@/lib/i18n/get-locale"
+import { metadataFor } from "@/lib/i18n/metadata"
 import { privacyDocument } from "@/lib/i18n/legal"
+
+export function generateMetadata() {
+  return metadataFor("/privacy")
+}
 
 export default async function PrivacyPolicyPage() {
   const locale = await getLocale()

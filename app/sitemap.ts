@@ -27,10 +27,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const pages: { path: string; lastModified?: Date }[] = [
     ...STATIC_PATHS.map((path) => ({ path })),
     ...categories.map((category) => ({ path: `/categories/${category.id}` })),
-    ...allTools.map((tool) => ({
-      path: `/tool/${tool.id}`,
-      lastModified: catalogDate(tool.lastVerified) || catalogDate(tool.dateAdded),
-    })),
+    ...allTools
+      .filter((tool) => tool.status !== "renamed")
+      .map((tool) => ({
+        path: `/tool/${tool.id}`,
+        lastModified: catalogDate(tool.lastVerified) || catalogDate(tool.dateAdded),
+      })),
   ]
 
   return pages.flatMap(({ path, lastModified }) => {

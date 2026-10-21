@@ -4,6 +4,7 @@ import { notFound } from "next/navigation"
 import PricingToolsGrid from "./PricingToolsGrid"
 import { getLocale } from "@/lib/i18n/get-locale"
 import { categoryCopy } from "@/lib/i18n/messages"
+import { metadataFor } from "@/lib/i18n/metadata"
 
 // Generate static paths for all categories
 export async function generateStaticParams() {
@@ -15,6 +16,11 @@ export async function generateStaticParams() {
 type PageProps = {
   params: Promise<{ category: string }>
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+}
+
+export async function generateMetadata(props: PageProps) {
+  const { category } = await props.params
+  return metadataFor(`/categories/${category}`)
 }
 
 export default async function CategoryPage(props: PageProps) {

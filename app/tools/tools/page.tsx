@@ -8,6 +8,11 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
+import { metadataFor } from "@/lib/i18n/metadata"
+
+export function generateMetadata() {
+  return metadataFor("/tools/tools")
+}
 
 // Categories from the GitHub repository
 const categories = [

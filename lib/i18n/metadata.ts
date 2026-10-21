@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { categories } from "@/lib/data"
 import { getToolById } from "@/lib/catalog"
 import { SITE_URL, type Locale } from "./config"
+import { getLocale } from "./get-locale"
 import { absoluteUrl, languageAlternates, stripLocale } from "./paths"
 import { categoryCopy, translate } from "./messages"
 import { localizeTool } from "./localize-tool"
@@ -51,6 +52,12 @@ function pageCopy(locale: Locale, pathname: string): { title: string; descriptio
   }
 
   return { title: t("meta.notFoundTitle"), description: t("meta.notFoundDescription") }
+}
+
+/** Per-page metadata: canonical plus hreflang en, fr and x-default. */
+export async function metadataFor(pathname: string): Promise<Metadata> {
+  const locale = await getLocale()
+  return buildPageMetadata(locale, pathname)
 }
 
 export function buildPageMetadata(locale: Locale, pathname: string): Metadata {

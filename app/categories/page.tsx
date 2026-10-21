@@ -3,6 +3,11 @@ import LocaleLink from "@/components/locale-link"
 import { categories, mockTools } from "@/lib/data"
 import { getLocale } from "@/lib/i18n/get-locale"
 import { categoryCopy, translate } from "@/lib/i18n/messages"
+import { metadataFor } from "@/lib/i18n/metadata"
+
+export function generateMetadata() {
+  return metadataFor("/categories")
+}
 
 export default async function CategoriesPage() {
   const locale = await getLocale()

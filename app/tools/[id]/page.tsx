@@ -1,10 +1,18 @@
 import { mockTools } from "@/lib/data"
+import { metadataFor } from "@/lib/i18n/metadata"
 import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ExternalLink } from "lucide-react"
+
+export async function generateMetadata(props: { params?: Promise<{ id: string }> | { id: string } }) {
+  const params = props?.params
+  const resolved = params && typeof (params as Promise<{ id: string }>).then === "function" ? await params : params
+  const id = resolved && "id" in resolved ? resolved.id : ""
+  return metadataFor(`/tools/${id}`)
+}
 
 export default async function Page(props: any) {
   let id;

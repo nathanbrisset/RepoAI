@@ -3,6 +3,7 @@ import { allTools, mockTools } from "@/lib/data";
 import ToolPageClient from "./tool-page-client";
 import { getLocale } from "@/lib/i18n/get-locale";
 import { localizeTool } from "@/lib/i18n/localize-tool";
+import { metadataFor } from "@/lib/i18n/metadata";
 
 // Generate static paths for all tools
 export async function generateStaticParams() {
@@ -14,6 +15,11 @@ export async function generateStaticParams() {
 type PageProps = {
   params: Promise<{ id: string }>;
   searchParams: Promise<Record<string, string>>;
+}
+
+export async function generateMetadata({ params }: PageProps) {
+  const { id } = await params
+  return metadataFor(`/tool/${id}`)
 }
 
 export default async function ToolPage({ params }: PageProps) {

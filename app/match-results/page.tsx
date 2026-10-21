@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft, TrendingUp, Clock, CheckCircle } from 'lucide-react';
 import Link from 'next/link';
 import { getLocale } from "@/lib/i18n/get-locale";
+import { metadataFor } from "@/lib/i18n/metadata";
 import { categoryCopy, translate } from "@/lib/i18n/messages";
 import { localizeHref } from "@/lib/i18n/paths";
 import { localizeTool } from "@/lib/i18n/localize-tool";
@@ -15,6 +16,10 @@ import { notFound } from "next/navigation";
 interface MatchResult {
   tool: Tool;
   explanation: string;
+}
+
+export function generateMetadata() {
+  return metadataFor("/match-results")
 }
 
 export default async function MatchResultsPage(props: any) {
