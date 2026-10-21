@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { writeConsent } from '@/lib/consent'
 
 export default function CookieConsent() {
   const [showBanner, setShowBanner] = useState(false)
@@ -14,12 +15,12 @@ export default function CookieConsent() {
   }, [])
 
   const handleAccept = () => {
-    localStorage.setItem('cookieConsent', 'accepted')
+    writeConsent('accepted')
     setShowBanner(false)
   }
 
   const handleDecline = () => {
-    localStorage.setItem('cookieConsent', 'declined')
+    writeConsent('declined')
     setShowBanner(false)
   }
 
