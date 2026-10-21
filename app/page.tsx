@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
-import Link from "next/link"
 import ToolCard from "@/components/tool-card"
+import { useLocale, useT } from "@/components/locale-provider"
+import { localizeHref } from "@/lib/i18n/paths"
 import CategoryFilter from "@/components/category-filter"
 import { mockTools } from "@/lib/data"
 import { Button } from "@/components/ui/button"
@@ -9,6 +10,8 @@ import { Textarea } from "@/components/ui/textarea"
 import { Sparkles, Star, CheckCircle } from "lucide-react"
 
 export default function Home() {
+  const t = useT()
+  const locale = useLocale()
   const [prompt, setPrompt] = useState("");
   const [results, setResults] = useState<any[]>([]);
   const [intro, setIntro] = useState<string>("");
@@ -27,7 +30,7 @@ export default function Home() {
       const res = await fetch("/api/recommend", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prompt }),
+        body: JSON.stringify({ prompt, locale }),
       });
       const data = await res.json();
       if (data.error) throw new Error(data.error);
@@ -35,10 +38,10 @@ export default function Home() {
         setResults(data.recommendations);
         setIntro(data.intro || "");
       } else {
-        setError("No recommendations found");
+        setError(t("home.noResults"));
       }
     } catch (err: any) {
-      setError(err.message || "Something went wrong");
+      setError(err.message || t("home.genericError"));
     } finally {
       setLoading(false);
     }
@@ -72,8 +75,7 @@ export default function Home() {
         <div className="container mx-auto max-w-6xl flex flex-col items-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">AITools.ninja</h1>
           <p className="text-xl mb-8 max-w-2xl text-center">
-            Your comprehensive directory of AI tools for every use case. Find, compare, and choose the perfect AI
-            solution for your needs.
+            {t("home.subtitle")}
           </p>
         </div>
       </section>
@@ -85,7 +87,7 @@ export default function Home() {
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <img
                 src="/ai-match-hero.jpg"
-                alt="AI Match"
+                alt={t("home.matchAlt")}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -93,18 +95,18 @@ export default function Home() {
             <div className="flex flex-col justify-center">
               <h2 className="text-3xl font-bold mb-2 flex items-center gap-2">
                 <Sparkles className="w-8 h-8 text-yellow-400" />
-                Find your AI MATCH!
+                {t("home.matchTitle")}
               </h2>
-              <p className="text-lg text-gray-600 mb-6">Whatever you need, there's an AI for it!</p>
-              <form action="/recommendation" method="GET" className="space-y-4">
+              <p className="text-lg text-gray-600 mb-6">{t("home.matchSubtitle")}</p>
+              <form action={localizeHref(locale, "/recommendation")} method="GET" className="space-y-4">
                 <Textarea
-                  placeholder="Describe what you're trying to accomplish..."
+                  placeholder={t("home.placeholder")}
                   className="min-h-[150px] resize-none"
                   name="query"
                   required
                 />
                 <Button type="submit" className="w-full bg-purple-600 hover:bg-purple-700">
-                  Find my A-Match
+                  {t("home.submit")}
                 </Button>
               </form>
             </div>
@@ -117,13 +119,13 @@ export default function Home() {
             {loading && (
               <div className="text-center">
                 <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600 mx-auto mb-4"></div>
-                <p className="text-lg text-gray-600">Finding your perfect AI match...</p>
+                <p className="text-lg text-gray-600">{t("home.finding")}</p>
               </div>
             )}
             {!loading && !error && results.length > 0 && (
               <>
                 <div className="mb-6">
-                  <h2 className="text-2xl font-bold text-gray-800 mb-2">Your Research</h2>
+                  <h2 className="text-2xl font-bold text-gray-800 mb-2">{t("home.yourResearch")}</h2>
                   <div className="bg-white rounded-lg px-6 py-4 text-lg text-gray-700 shadow-sm border border-gray-100">{prompt}</div>
                 </div>
                 {/* Purple info box for intro */}
@@ -146,7 +148,7 @@ export default function Home() {
                 <div className="flex flex-col md:flex-row gap-12 md:gap-16">
                   {/* Left side - Top 3 recommendations as a clean list */}
                   <div className="md:w-1/2 flex flex-col gap-8">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Top Recommendations</h3>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">{t("home.topRecommendations")}</h3>
                     <div className="flex flex-col gap-6">
                       {topTools.map((item, idx) => (
                         item?.tool?.id && (
@@ -167,9 +169,9 @@ export default function Home() {
                       <div className="bg-white rounded-2xl border border-purple-100 p-8 relative overflow-visible">
                         <div className="flex items-center gap-2 mb-4">
                           <Star className="h-5 w-5 text-yellow-400" />
-                          <h3 className="text-lg font-bold text-purple-700">Our Top Pick</h3>
+                          <h3 className="text-lg font-bold text-purple-700">{t("home.topPick")}</h3>
                         </div>
-                        <img src="/top-pick.png" alt="Top Pick" className="absolute top-0 right-0 w-16 h-16 md:w-20 md:h-20 -mt-8 -mr-8 z-10 drop-shadow-lg rounded-full" />
+                        <img src="/top-pick.png" alt={t("home.topPickAlt")} className="absolute top-0 right-0 w-16 h-16 md:w-20 md:h-20 -mt-8 -mr-8 z-10 drop-shadow-lg rounded-full" />
                         <ToolCard tool={mainTool} />
                       </div>
                     )}
@@ -178,7 +180,7 @@ export default function Home() {
                 {/* Top recommendation and reasons */}
                 {mainTool && (
                   <div className="bg-white rounded-xl p-8 border border-gray-100 mt-8">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-4">Why {mainTool.name} is Perfect for You</h3>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-4">{t("home.whyPerfect", { name: mainTool.name })}</h3>
                     <div className="space-y-4">
                       {/* You can add more personalized reasons here if needed */}
                       {mainTool.features?.map((feature, idx) => (
@@ -193,7 +195,7 @@ export default function Home() {
                 {/* Other two recommendations as cards */}
                 {otherTools.length > 0 && (
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-4">Other Great Options</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-4">{t("home.otherOptions")}</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       {otherTools.map(tool => (
                         tool?.tool?.id && (
@@ -211,7 +213,7 @@ export default function Home() {
                 {/* More tools from the same category */}
                 {moreCategoryTools.length > 0 && (
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-4">More in this Category</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-4">{t("home.moreCategory")}</h3>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                       {moreCategoryTools.map(tool => (
                         <ToolCard key={tool.id} tool={tool} />
@@ -222,20 +224,20 @@ export default function Home() {
               </>
             )}
             {!loading && !error && results.length === 0 && (
-              <div className="text-center text-gray-600">No recommendations yet. Submit your query above!</div>
+              <div className="text-center text-gray-600">{t("home.empty")}</div>
             )}
           </section>
         )}
 
         {/* Category Filter */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 text-gray-800">Browse by Category</h2>
+          <h2 className="text-2xl font-bold mb-6 text-gray-800">{t("home.browse")}</h2>
           <CategoryFilter />
         </section>
 
         {/* New Tools */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 text-gray-800">Newest Tools</h2>
+          <h2 className="text-2xl font-bold mb-6 text-gray-800">{t("home.newest")}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {newTools.map((tool) => (
               <ToolCard key={tool.id} tool={tool} />

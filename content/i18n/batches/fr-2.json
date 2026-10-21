@@ -1,0 +1,198 @@
+{
+  "codegeex": {
+    "summary_fr": "Modèle multilingue de génération de code prenant en charge plus de 20 langages de programmation.",
+    "description_fr": "Modèle multilingue de génération de code prenant en charge plus de 20 langages de programmation.\n\nPrise en charge multilingue : génère du code dans plus de 20 langages. Modèle à grande échelle : entraîné sur de vastes jeux de données de code. Traduction de code : traduit le code d'un langage à l'autre. Intégration IDE : compatible avec les environnements de développement courants."
+  },
+  "codegen": {
+    "summary_fr": "CodeGen est une famille de modèles open source pour la synthèse de programmes. Entraînée sur TPU-v4. Compétitive par rapport à OpenAI Codex. - salesforce/CodeGen",
+    "description_fr": "CodeGen est une famille de modèles open source pour la synthèse de programmes. Entraînée sur TPU-v4. Compétitive par rapport à OpenAI Codex. - salesforce/CodeGen\n\nGénération de code par IA : génère des extraits de code à partir de prompts en langage naturel. Prise en charge de plusieurs langages : gère la génération de code dans divers langages de programmation. Modèle à base de transformers : utilise des architectures avancées d'apprentissage automatique pour la synthèse de code. Disponibilité open source : accessible pour la personnalisation et l'intégration dans des flux de travail."
+  },
+  "codepal": {
+    "summary_fr": "Outil de création d'applications par IA qui transforme des idées en logiciels de production.",
+    "description_fr": "CodePal se présente désormais comme un outil de création d'applications par IA (« De l'idée à la production. Votre équipe de développement par IA qui livre de vrais logiciels, pas des démos »), avec un CodePal Agent, des modifications de code dans l'application et l'hébergement de projets CodePal Cloud. L'usage repose sur des crédits. Le plan Starter gratuit (0 $) comprend 2 crédits par jour (jusqu'à 30 par mois), jusqu'à 50 projets et un usage limité de l'Agent ; Standard est à 25 $ par mois et Pro à 50 $ par mois (facturation annuelle), avec 100 et 250 crédits mensuels, le report des crédits et des projets privés ; Enterprise est sur mesure."
+  },
+  "codet5": {
+    "summary_fr": "Accueil de CodeT5 : LLM de code ouverts pour la compréhension et la génération de code - salesforce/CodeT5",
+    "description_fr": "Accueil de CodeT5 : LLM de code ouverts pour la compréhension et la génération de code - salesforce/CodeT5\n\nCompréhension et génération de code : excelle dans des tâches comme le résumé et la traduction de code. Préentraînement tenant compte des identifiants : comprend le rôle des identifiants dans le code pour un meilleur contexte. Prise en charge de plusieurs langages de programmation : entraîné sur des bases de code variées pour traiter différents langages. Architecture à base de transformers : utilise des modèles avancés d'apprentissage automatique pour les tâches de code."
+  },
+  "codetree": {
+    "summary_fr": "Programme d'apprentissage du code couvrant les besoins de niveau débutant jusqu'aux connaissances de haut niveau en code exigées pour travailler dans les entreprises technologiques de premier plan.",
+    "description_fr": "Programme d'apprentissage du code couvrant les besoins de niveau débutant jusqu'aux connaissances de haut niveau en code exigées pour travailler dans les entreprises technologiques de premier plan.\n\nDécoupage des objectifs : transformez des visions en plans structurés. Génération automatique de tâches : attribue des actions adaptées aux développeurs. Cartographie des jalons : visualisez l'avancement du projet. Flux de travail personnalisés : adaptez la planification à votre style."
+  },
+  "codify": {
+    "summary_fr": "Générez des extraits de code et des modules complets à partir de prompts en langage naturel.",
+    "description_fr": "Générez des extraits de code et des modules complets à partir de prompts en langage naturel.\n\nGénération à partir de prompts : transformez des descriptions en code. Prise en charge des langages courants : JavaScript, Python et plus encore. Modèles personnalisés : construisez avec des blocs de code réutilisables. Partage collaboratif : partagez des extraits avec les équipes."
+  },
+  "codiga": {
+    "summary_fr": "Analyse statique de code dans VS Code, JetBrains, VisualStudio, GitHub, GitLab et Bitbucket.",
+    "description_fr": "Analyse statique de code dans VS Code, JetBrains, VisualStudio, GitHub, GitLab et Bitbucket.\n\nAnalyse de code en temps réel : détecte les problèmes pendant le codage. Extraits de code intelligents : blocs de code réutilisables intégrant les bonnes pratiques. Contrôles de sécurité et de performance : signale le code non sécurisé ou lent. Intégration IDE/CI : fonctionne avec VS Code, JetBrains, GitHub Actions et plus encore."
+  },
+  "cogram": {
+    "summary_fr": "Outils d'IA pour la documentation, la collaboration et la conception — conçus pour les architectes et les ingénieurs.",
+    "description_fr": "Outils d'IA pour la documentation, la collaboration et la conception — conçus pour les architectes et les ingénieurs.\n\nLangage naturel vers SQL : convertit l'anglais courant en requêtes SQL. Génération de code Python : traduit des descriptions en code Python. Aide à l'analyse de données : assiste les tâches de code liées aux données. Intégration aux notebooks : fonctionne avec Jupyter et d'autres plateformes."
+  },
+  "colossyan": {
+    "summary_fr": "Colossyan Creator rend la création de vidéos simple et sans stress. Découvrez notre générateur de vidéos par IA avec de vrais acteurs. Créez des vidéos par IA en moins de 5 minutes.",
+    "description_fr": "Colossyan Creator rend la création de vidéos simple et sans stress. Découvrez notre générateur de vidéos par IA avec de vrais acteurs. Créez des vidéos par IA en moins de 5 minutes.\n\nGénération de vidéos par IA : créez des vidéos avec des avatars générés par IA. Prise en charge multilingue : générez des vidéos dans plusieurs langues. Avatars personnalisés : créez des avatars IA personnalisés pour les vidéos. Du script à la vidéo : convertissez des scripts en vidéos avec des avatars IA."
+  },
+  "comfyui": {
+    "summary_fr": "Programme open source, à base de nœuds, qui permet aux utilisateurs de générer des images à partir de prompts textuels à l'aide de modèles de diffusion.",
+    "description_fr": "Programme open source, à base de nœuds, qui permet aux utilisateurs de générer des images à partir de prompts textuels à l'aide de modèles de diffusion.\n\nLa GUI, l'API et le backend les plus puissants et les plus modulaires pour les modèles de diffusion, avec une interface en graphe/nœuds. Le moteur d'inférence locale le plus rapide au monde. - Comfy-Org/ComfyUI\n\nFlux de travail à base de nœuds : construisez des pipelines personnalisés de génération d'images. Prise en charge de modèles personnalisés : utilisez vos propres modèles ou ceux de la communauté. Aperçu en temps réel : voyez immédiatement le résultat du prompt. Export du flux de travail : partagez et réutilisez des configurations de génération."
+  },
+  "continue-dev": {
+    "summary_fr": "Autopilote open source pour coder directement dans VS Code.",
+    "description_fr": "Autopilote open source pour coder directement dans VS Code.\n\nIntégration à VS Code : étend votre IDE de façon fluide. Outil open source : modifiez et étendez les fonctionnalités. Codage contextuel : génère du code à partir des fichiers proches. Panneau de prompts : posez des questions et recevez des réponses directement dans l'éditeur."
+  },
+  "copy-ai": {
+    "summary_fr": "Voici la toute première plateforme d'IA GTM. Automatisez des centaines de tâches fastidieuses et répétitives, et donnez à votre équipe les moyens d'accroître le succès comme jamais auparavant.",
+    "description_fr": "Voici la toute première plateforme d'IA GTM. Automatisez des centaines de tâches fastidieuses et répétitives, et donnez à votre équipe les moyens d'accroître le succès comme jamais auparavant.\n\nGénération de textes commerciaux : rédige des propositions de valeur, des CTA et des descriptions de produits. Flux de campagne : automatise la rédaction sur plusieurs points de contact. Personnalisation du ton : s'ajuste à la voix de la marque, au style et au ton. Assistant pour les formats longs : aide à rédiger des articles de blog, des rapports et des scripts."
+  },
+  "copyscape": {
+    "summary_fr": "Copyscape est un vérificateur de plagiat gratuit. Le logiciel permet de détecter le contenu dupliqué et de vérifier si votre texte est original.",
+    "description_fr": "Copyscape est un vérificateur de plagiat gratuit. Le logiciel permet de détecter le contenu dupliqué et de vérifier si votre texte est original.\n\nDétection de plagiat : parcourt le web pour détecter le contenu dupliqué. Services Premium : propose des fonctions avancées comme la recherche par lots et l'index privé. Intégration API : permet l'intégration à d'autres plateformes pour des vérifications automatiques. Interface facile à utiliser : processus simple pour vérifier l'originalité d'un contenu."
+  },
+  "copysmith": {
+    "summary_fr": "Site de l'entreprise derrière Frase, Describely et Rytr. Aucun prix autonome n'a été publié.",
+    "description_fr": "copysmith.ai se décrit désormais comme l'entreprise derrière Frase, Describely et Rytr. Aucune tarification autonome n'a été trouvée."
+  },
+  "craiyon": {
+    "summary_fr": "Craiyon (anciennement DALL·E mini) est un générateur d'images par IA gratuit qui crée des images amusantes et surréalistes à partir de n'importe quel prompt textuel. Il est populaire pour le partage sur les réseaux sociaux et l'expérimentation créative.",
+    "description_fr": "Craiyon (anciennement DALL·E mini) est un générateur d'images par IA gratuit qui crée des images amusantes et surréalistes à partir de n'importe quel prompt textuel. Il est populaire pour le partage sur les réseaux sociaux et l'expérimentation créative.\n\nTexte vers image gratuit : aucune inscription ni aucun paiement requis. Génération illimitée : créez autant d'images que vous le souhaitez. Styles ludiques : rendus surréalistes, de type dessin animé. Galerie communautaire : partagez et parcourez les créations."
+  },
+  "cursor": {
+    "summary_fr": "Éditeur de code par IA avec agents, désormais regroupé avec les plans Grok de xAI.",
+    "description_fr": "Cursor est un éditeur de code conçu en priorité pour l'IA, avec des agents, la complétion au tab, des agents cloud et la revue de code. Sa page de tarifs présente désormais un abonnement partagé avec Grok et X : le plan Free (0 $) a un usage limité de l'IA, Plus est à 8 $ par mois avec uniquement les modèles Grok, Premium à 30 $ par mois ajoute les derniers modèles et les agents cloud, et Super (100 $) et Ultra (200 $) augmentent l'usage. Les modèles tiers sont facturés séparément à l'usage ; il ne devrait plus être indiqué comme Free."
+  },
+  "dashthis": {
+    "summary_fr": "DashThis est un outil de reporting marketing automatisé qui utilise l'IA pour collecter, visualiser et fournir des enseignements à partir de données d'analytics, de SEO, de PPC et des réseaux sociaux. Il simplifie le reporting multicanal pour les marketeurs.",
+    "description_fr": "DashThis est un outil de reporting marketing automatisé qui utilise l'IA pour collecter, visualiser et fournir des enseignements à partir de données d'analytics, de SEO, de PPC et des réseaux sociaux. Il simplifie le reporting multicanal pour les marketeurs.\n\nDashThis automatise les rapports marketing pour les agences et les équipes. Connectez 30+ outils dans des tableaux de bord prêts pour le client, en quelques minutes. Essayez gratuitement pendant 14 jours.\n\nTableaux de bord automatisés à partir de toutes vos sources de données. Modèles personnalisés et prédéfinis pour une mise en place rapide. Outils de collaboration pour le partage et les commentaires. Des enseignements par IA mettent en évidence les changements importants."
+  },
+  "databricks": {
+    "summary_fr": "Databricks propose une plateforme unifiée pour les données, l'analytics et l'IA. Construisez une meilleure IA avec une approche centrée sur les données. Simplifiez l'ETL, l'entreposage de données, la gouvernance et l'IA sur la Data + AI Platform.",
+    "description_fr": "Databricks propose une plateforme unifiée pour les données, l'analytics et l'IA. Construisez une meilleure IA avec une approche centrée sur les données. Simplifiez l'ETL, l'entreposage de données, la gouvernance et l'IA sur la Data + AI Platform.\n\nPlateforme de données unifiée : réunit l'ingénierie des données, la science des données, l'apprentissage automatique et l'analytics dans une seule plateforme collaborative. Delta Lake : fournit des lacs de données fiables, avec la prise en charge des transactions ACID, une gestion évolutive des métadonnées et l'unification des données en flux et par lots. Notebooks collaboratifs : permet aux équipes d'écrire et d'exécuter du code ensemble en temps réel, dans des langages comme Python, SQL, Scala et R. Intégration MLflow : prise en charge intégrée du suivi des expériences, du versionnage des modèles et des flux d'apprentissage automatique reproductibles."
+  },
+  "datarobot": {
+    "summary_fr": "Plateforme d'entreprise pour les applications et les agents d'IA.",
+    "description_fr": "La page d'accueil de DataRobot, le 21 octobre 2026, décrivait une plateforme unifiée de main-d'œuvre d'agents pour l'entreprise. Une seconde carte, DataRobot Code, utilisait la même URL et est marquée comme doublon."
+  },
+  "deep_dream_generator": {
+    "summary_fr": "Deep Dream Generator est un outil en ligne qui utilise des réseaux de neurones pour générer des images uniques et oniriques à partir de photos. Il permet aux utilisateurs d'appliquer différents modèles et styles d'IA pour créer des visuels surréalistes et artistiques, ce qui en fait un favori parmi les artistes numériques et les passionnés.",
+    "description_fr": "Deep Dream Generator est un outil en ligne qui utilise des réseaux de neurones pour générer des images uniques et oniriques à partir de photos. Il permet aux utilisateurs d'appliquer différents modèles et styles d'IA pour créer des visuels surréalistes et artistiques, ce qui en fait un favori parmi les artistes numériques et les passionnés.\n\nCréez de l'art par IA remarquable avec le meilleur générateur d'images par IA gratuit. 30+ modèles d'IA, génération de vidéo par IA et édition d'images par IA. Aucune inscription requise - commencez à créer maintenant !\n\nFiltres oniriques : appliquez aux photos des styles surréalistes générés par IA. Transfert de style : mélangez plusieurs styles sur une seule image. Plusieurs modèles : choisissez parmi deep dream, thin style et plus encore. Galerie communautaire : explorez et partagez les créations."
+  },
+  "deep-nostalgia": {
+    "summary_fr": "MyHeritage Deep Nostalgia™, technologie de reconstitution vidéo pour animer les visages sur des photos fixes et créer des séquences vidéo réalistes et de haute qualité.",
+    "description_fr": "MyHeritage Deep Nostalgia™, technologie de reconstitution vidéo pour animer les visages sur des photos fixes et créer des séquences vidéo réalistes et de haute qualité.\n\nAnimation de photos : donne vie aux anciennes photos avec des mouvements réalistes. Amélioration des expressions du visage : ajoute des expressions subtiles aux images statiques. Restauration par IA : améliore la qualité des photographies anciennes. Options de partage : partage facilement les photos animées sur les plateformes sociales."
+  },
+  "deepbrainai": {
+    "summary_fr": "DeepBrain AI permet de générer des vidéos d'avatars humains réalistes à partir de scripts, dans plusieurs langues. Utilisé pour l'actualité, la formation et les contenus explicatifs, avec des présentateurs IA réalistes.",
+    "description_fr": "DeepBrain AI permet de générer des vidéos d'avatars humains réalistes à partir de scripts, dans plusieurs langues. Utilisé pour l'actualité, la formation et les contenus explicatifs, avec des présentateurs IA réalistes.\n\nGénérateur de vidéos par IA, texte vers vidéo, vidéos génératives, avatar personnalisé, 2 000+ avatars, doublage par IA avec traduction, TTS avec 150+ langues, et 7 000+ modèles de vidéo — pour la formation RH et les créateurs YouTube.\n\nAvatars de présentateurs d'actualité par IA : générez instantanément des vidéos professionnelles de style actualités avec des présentateurs numériques, en réduisant le temps et les coûts de production. Prise en charge multilingue : créez des vidéos dans plus de 80 langues, pour une portée mondiale et une image de marque cohérente sur différents marchés. Avatars personnalisés : importez votre propre visage ou choisissez parmi un ensemble varié de personas numériques pour correspondre à l'image de votre entreprise ou à votre public. Script vers vidéo simple : collez simplement votre script et recevez une vidéo soignée, menée par un présentateur, prête pour la publication ou un usage interne."
+  },
+  "deepcode": {
+    "summary_fr": "Snyk Code est l'outil d'analyse SAST des vulnérabilités de code et de correction automatique le plus rapide et le plus complet. Essayez gratuitement les solutions de scanner de code de Snyk, ou réservez une démo en direct.",
+    "description_fr": "Snyk Code est l'outil d'analyse SAST des vulnérabilités de code et de correction automatique le plus rapide et le plus complet. Essayez gratuitement les solutions de scanner de code de Snyk, ou réservez une démo en direct.\n\nAnalyse de code par IA : analyse le code pour détecter les vulnérabilités de sécurité et les problèmes de code. Suggestions de correction automatiques : fournit des recommandations pour corriger les problèmes identifiés. Intégration avec Snyk : fonctionne aux côtés des autres outils de sécurité de Snyk pour une protection complète. Prise en charge de plusieurs langages : analyse le code écrit dans divers langages de programmation."
+  },
+  "deepdub": {
+    "summary_fr": "DeepDub est une plateforme de doublage par IA pour la traduction vidéo, avec des voix synthétiques qui préservent l'émotion, et permet la localisation mondiale de contenus vidéo.",
+    "description_fr": "DeepDub est une plateforme de doublage par IA pour la traduction vidéo, avec des voix synthétiques qui préservent l'émotion, et permet la localisation mondiale de contenus vidéo.\n\nPassez le doublage de vos productions à plus grande échelle, plus vite et à moindre coût que jamais, avec la plateforme de localisation de bout en bout conçue pour la production vocale.\n\nDoublage qui préserve l'émotion : les voix IA conservent le ton, l'émotion et l'intention du locuteur d'origine, pour une traduction naturelle. Prise en charge multilingue : traduisez et doublez des contenus dans toute langue majeure, pour élargir l'audience à l'échelle mondiale. Clonage de voix : conservez l'identité du locuteur d'origine, pour l'authenticité et la continuité. Accès API : automatisez les flux de localisation et de doublage à grande échelle, pour des besoins de niveau entreprise."
+  },
+  "deepl": {
+    "summary_fr": "Assistant de traduction et d'écriture par IA, connu pour sa précision.",
+    "description_fr": "DeepL fournit une traduction par IA des textes et des documents dans des dizaines de langues, ainsi que DeepL Write pour la révision et une API pour les développeurs. Il est largement reconnu pour des traductions naturelles et précises, et pour la sécurité des données des entreprises. Une version gratuite permet jusqu'à 50 000 caractères par mois ; DeepL Pro Individual coûte 7,49 EUR par mois en facturation annuelle, avec un essai gratuit de 30 jours, et les plans Team et Business sont disponibles."
+  },
+  "deepnote": {
+    "summary_fr": "Deepnote est une plateforme de notebooks collaboratifs conçue pour les équipes de data science et d'analytics. Elle associe la flexibilité des notebooks Jupyter à la collaboration en temps réel, à l'exécution dans le cloud et à des intégrations avec des sources de données courantes. Deepnote permet aux équipes d'explorer des données, de construire des modèles et de créer ensemble des rapports interactifs, ce qui la rend idéale à la fois pour le prototypage rapide et pour les flux d'analytics de production.",
+    "description_fr": "Deepnote est une plateforme de notebooks collaboratifs conçue pour les équipes de data science et d'analytics. Elle associe la flexibilité des notebooks Jupyter à la collaboration en temps réel, à l'exécution dans le cloud et à des intégrations avec des sources de données courantes. Deepnote permet aux équipes d'explorer des données, de construire des modèles et de créer ensemble des rapports interactifs, ce qui la rend idéale à la fois pour le prototypage rapide et pour les flux d'analytics de production.\n\nExplorez des données avec Python et SQL, travaillez avec votre équipe et partagez des enseignements qui mènent à l'action — le tout au même endroit avec Deepnote.\n\nCollaboration en temps réel : plusieurs utilisateurs peuvent modifier et exécuter du code en même temps. Exécution dans le cloud : aucune installation locale ni infrastructure requise. Intégrations : connexion aux bases de données, au stockage cloud et à d'autres outils. Contrôle de version : suivez les modifications et expérimentez avec des branches."
+  },
+  "deepseek": {
+    "summary_fr": "Laboratoire chinois proposant des LLM à poids ouverts, une application de chat gratuite et une API à faible coût.",
+    "description_fr": "DeepSeek développe de grands modèles de langage et publie des modèles à poids ouverts tels que DeepSeek-R1 et DeepSeek-V4, utilisables pour le chat, le raisonnement et le code. Ce qui le distingue, ce sont des poids ouverts associés à des prix d'API très bas, avec des remises en heures creuses. Le chat dans l'application web et l'application mobile est gratuit ; l'API est en paiement à l'usage, par exemple à partir de 0,15 $ par million de tokens d'entrée (cache miss, heures creuses) sur la grille tarifaire actuelle."
+  },
+  "deepswap": {
+    "summary_fr": "DeepSwap est un outil d'échange de visages par IA pour les vidéos et les images, qui permet un remplacement de visage réaliste et rapide pour les mèmes, la parodie et les retouches créatives.",
+    "description_fr": "DeepSwap est un outil d'échange de visages par IA pour les vidéos et les images, qui permet un remplacement de visage réaliste et rapide pour les mèmes, la parodie et les retouches créatives.\n\nSite professionnel en ligne d'échange de visages par IA. Échangez n'importe quels visages dans une vidéo, un GIF et une photo en quelques clics. Libérez votre créativité avec Deepswap maintenant !\n\nÉchange de visages automatique : remplacez des visages dans des vidéos ou des images avec une précision et un réalisme élevés, grâce à des réseaux de neurones avancés. Résultats réalistes : fusion fluide et expressions naturelles, pour des usages ludiques comme professionnels. Plusieurs formats de fichiers : fonctionne avec MP4, GIF, JPEG et de nombreux autres types de fichiers média courants. Traitement rapide : importez et traitez rapidement des fichiers volumineux, avec prise en charge des traitements par lots."
+  },
+  "descript": {
+    "summary_fr": "Outil tout-en-un de montage audio et vidéo, qui comprend des fonctions comme la transcription, l'enregistrement d'écran et le montage multipiste.",
+    "description_fr": "Outil tout-en-un de montage audio et vidéo, qui comprend des fonctions comme la transcription, l'enregistrement d'écran et le montage multipiste.\n\nDescript est l'éditeur vidéo et audio par IA qui rend le montage aussi simple que modifier un texte. Enregistrez, transcrivez, montez et publiez dans un seul outil. Essayez-le gratuitement.\n\nOverdub : clonage de voix par IA pour des montages fluides. Studio Sound : améliore la qualité audio en supprimant le bruit et l'écho. Montage basé sur le texte : montez l'audio et la vidéo en modifiant le texte transcrit. Montage multipiste : permet de monter plusieurs pistes audio et vidéo en même temps."
+  },
+  "designs_ai": {
+    "summary_fr": "Designs.ai est une plateforme créative tout-en-un qui propose des outils par IA pour la conception de logos, la création de vidéos, les maquettes et les contenus pour les réseaux sociaux. Elle s'adresse aux entreprises et aux agences qui doivent augmenter rapidement leur production de design.",
+    "description_fr": "Designs.ai est une plateforme créative tout-en-un qui propose des outils par IA pour la conception de logos, la création de vidéos, les maquettes et les contenus pour les réseaux sociaux. Elle s'adresse aux entreprises et aux agences qui doivent augmenter rapidement leur production de design.\n\nBriefez Designs.ai une seule fois. Des agents spécialisés s'occupent de la planification, choisissent les bons modèles et livrent des images, de la vidéo, des textes, du design, de l'audio et des diapositives conformes à la marque, prêts à livrer.\n\nLogo Maker : outils d'image de marque par IA. Video Maker : convertit des scripts textuels en vidéos. Speechmaker : génère des voix off professionnelles. Design Maker : crée des bannières, des publications et des publicités."
+  },
+  "devin": {
+    "summary_fr": "Ingénieur logiciel IA de Cognition et éditeur de code IA Windsurf.",
+    "description_fr": "Devin, de Cognition, est un ingénieur logiciel IA autonome qui exécute des agents cloud en parallèle pour planifier, écrire et livrer du code. Cognition possède aussi l'éditeur de code IA Windsurf : windsurf.com redirige désormais vers devin.ai/desktop, qui gère les agents locaux et cloud depuis l'éditeur. Le plan Free (0 $) donne un quota léger, Pro coûte 20 $ par mois, Max 200 $ par mois et Teams 80 $ par mois plus 40 $ par siège développeur."
+  },
+  "did": {
+    "summary_fr": "D-ID donne vie aux photos avec des avatars parlants par IA, en animant les visages à partir de texte ou d'audio. Permet aussi la traduction et le doublage vidéo pour des publics mondiaux.",
+    "description_fr": "D-ID donne vie aux photos avec des avatars parlants par IA, en animant les visages à partir de texte ou d'audio. Permet aussi la traduction et le doublage vidéo pour des publics mondiaux.\n\nAnimation de photos : animez n'importe quel portrait en avatar parlant, en ajoutant une touche humaine à des images autrement statiques, pour une expérience mémorable. Texte vers vidéo : générez des vidéos de visage parlant à partir de scripts ou d'audio, ce qui facilite la production de contenus narrés sans caméras ni acteurs. Doublage vidéo par IA : traduisez et doublez sans effort des vidéos existantes dans différentes langues, en préservant l'émotion et le lip-sync pour l'authenticité. API et intégrations : automatisez la création d'avatars et la traduction vidéo pour des flux de travail évolutifs en marketing, en éducation ou en service client."
+  },
+  "dify": {
+    "summary_fr": "Plateforme open source pour construire des flux de travail agentiques et des applications LLM.",
+    "description_fr": "Dify est une plateforme pour construire des agents IA, des pipelines de connaissances RAG et des flux de travail LLM sur un canevas visuel, puis les déployer comme applications ou API. Elle est open source et peut fonctionner sur Dify Cloud, dans un VPC privé ou en auto-hébergement, ce qui la rend populaire auprès des équipes techniques. Un plan gratuit est disponible dans le cloud, avec des plans payants pour davantage de crédits de messages et de membres d'équipe."
+  },
+  "drift": {
+    "summary_fr": "Drift est un chatbot par IA et une plateforme de marketing conversationnel qui aide les entreprises à entrer en contact avec les visiteurs du site, à qualifier les leads et à accélérer les pipelines de vente.",
+    "description_fr": "Drift est un chatbot par IA et une plateforme de marketing conversationnel qui aide les entreprises à entrer en contact avec les visiteurs du site, à qualifier les leads et à accélérer les pipelines de vente.\n\nMarketing conversationnel : entrez en contact avec les visiteurs grâce à un chat en temps réel. Qualification des leads : l'IA filtre et priorise les leads commerciaux. Prise de rendez-vous automatisée : planifiez des appels directement depuis le chat. Intégrations : se connecte aux principaux outils de CRM et de marketing."
+  },
+  "dubverse": {
+    "summary_fr": "Dubverse est une plateforme de traduction et de doublage vidéo par IA qui permet une localisation rapide et précise grâce à une bibliothèque mondiale de voix.",
+    "description_fr": "Dubverse est une plateforme de traduction et de doublage vidéo par IA qui permet une localisation rapide et précise grâce à une bibliothèque mondiale de voix.\n\nDubverse est une plateforme d'IA générative avec un doublage vidéo par IA parmi les meilleurs de sa catégorie, du texte vers parole par IA, des sous-titres automatiques et une API. Dubverse utilise l'intelligence artificielle pour un doublage vidéo parmi les meilleurs de sa catégorie.\n\nTraduction par IA : convertit la parole d'une vidéo en sous-titres et en voix dans plus de 30 langues, ce qui ouvre le contenu à de nouveaux publics. Clonage de voix : conservez le style et le ton du locuteur d'origine pour un doublage plus authentique. Délai court : obtenez des vidéos doublées en quelques minutes, ce qui rend la localisation efficace même pour les grands projets. Génération de sous-titres et de transcription : sous-titres automatiques et modifiables, et transcriptions complètes, pour compléter n'importe quelle vidéo."
+  },
+  "dynamicyield": {
+    "summary_fr": "Dynamic Yield propose des solutions de personnalisation et de recommandation par IA pour les sites web et les applications, qui permettent aux marketeurs de proposer des expériences adaptées et d'augmenter les conversions.",
+    "description_fr": "Dynamic Yield propose des solutions de personnalisation et de recommandation par IA pour les sites web et les applications, qui permettent aux marketeurs de proposer des expériences adaptées et d'augmenter les conversions.\n\nRecommandations personnalisées : l'IA suggère des produits et des contenus. Tests A/B : testez différentes variantes pour des segments d'utilisateurs. Segmentation : ciblage avancé fondé sur le comportement des utilisateurs. Analytique en temps réel : mesurez instantanément l'impact des campagnes."
+  },
+  "elaiio": {
+    "summary_fr": "Elai.io permet de produire des vidéos professionnelles par IA à partir de texte, avec des avatars numériques personnalisables. Prend en charge plusieurs langues et des modèles pour l'e-learning, le marketing et la formation.",
+    "description_fr": "Elai.io permet de produire des vidéos professionnelles par IA à partir de texte, avec des avatars numériques personnalisables. Prend en charge plusieurs langues et des modèles pour l'e-learning, le marketing et la formation.\n\nCréation de vidéos d'avatars par IA : transformez n'importe quel texte en vidéos engageantes avec des présentateurs numériques réalistes, en économisant du temps et des coûts de production. Prise en charge multilingue : produisez des vidéos dans plus de 65 langues, pour atteindre des publics mondiaux variés sans travail de traduction supplémentaire. Bibliothèque de modèles : accédez à une gamme de modèles vidéo prêts à l'emploi pour des cas d'usage en marketing, en éducation et en entreprise. Génération de vidéos en masse : générez simultanément des centaines de vidéos personnalisées pour des campagnes, de la formation ou la prospection client."
+  },
+  "elevenlabs": {
+    "summary_fr": "Génération de voix par IA, clonage, doublage et agents vocaux.",
+    "description_fr": "ElevenLabs fournit une synthèse vocale par IA réaliste, du clonage de voix, de la parole vers texte, du doublage, des effets sonores, de la musique et des agents vocaux conversationnels, via des applications et une API. C'est une référence de premier plan pour des voix au son naturel dans de nombreuses langues. Le plan Free (0 $) comprend 10 000 crédits par mois ; Starter est à 6 $ par mois, Creator à 22 $ par mois, Pro à 99 $ par mois, avec les paliers Scale et Business pour les équipes."
+  },
+  "elicit": {
+    "summary_fr": "Assistant de recherche par IA pour synthétiser des preuves scientifiques.",
+    "description_fr": "Elicit aide les chercheurs à rechercher des articles académiques, à extraire des données dans des tableaux et à synthétiser des preuves pour des revues systématiques et des rapports de recherche. Il est conçu pour la rigueur, avec des citations au niveau de la phrase, et il est utilisé par plus de 7 millions de chercheurs. Un plan gratuit est disponible pour la recherche de base et les résumés, et les plans payants ajoutent des limites plus élevées, l'extraction de données et les rapports."
+  },
+  "faceapp": {
+    "summary_fr": "Application par IA pour les transformations et les retouches du visage.",
+    "description_fr": "Application par IA pour les transformations et les retouches du visage.\n\nTransformation de l'âge : montre des versions vieillies ou rajeunies des visages. Changement de genre : modifie les traits du visage pour donner l'apparence d'un autre genre. Amélioration du sourire : ajoute des sourires aux photos. Changements de coiffure et de couleur : modifie l'apparence des cheveux."
+  },
+  "fal": {
+    "summary_fr": "Plateforme d'API pour les modèles de médias génératifs et les GPU serverless.",
+    "description_fr": "Le 21 octobre 2026, fal.ai décrivait une plateforme d'inférence pour médias génératifs : appeler de nombreux modèles via une seule API, déployer les vôtres sur des GPU serverless, ou entraîner sur des clusters de GPU. Aucun tarif en dollars ne figurait dans ce texte."
+  },
+  "fathom": {
+    "summary_fr": "Enregistreur, transcripteur et preneur de notes de réunions par IA.",
+    "description_fr": "Fathom enregistre, transcrit et résume les réunions Zoom, Google Meet et Teams, et synchronise les notes et les points d'action vers des CRM. Il est connu pour un plan généreux, gratuit pour toujours, destiné aux particuliers. Les plans payants ajoutent des résumés IA avancés, le partage en équipe, le coaching et des intégrations CRM."
+  },
+  "figma-ai": {
+    "summary_fr": "Outil collaboratif de conception d'interfaces, avec des fonctions par IA pour les suggestions de design et l'automatisation.",
+    "description_fr": "Outil collaboratif de conception d'interfaces, avec des fonctions par IA pour les suggestions de design et l'automatisation.\n\nFigma est le canevas où le design, le code et l'IA se rejoignent. De la première idée au produit livré — passez du concept à la production avec toute votre équipe, au même endroit.\n\nGénération de contenu par IA : crée automatiquement des textes et des images. Assistance textuelle : améliore ou réécrit les textes de design. Automatisation du design : aide pour la mise en page et les espacements. Suggestions d'images : recommande des visuels pour les designs."
+  },
+  "fineshare": {
+    "summary_fr": "Plateforme de création musicale par IA qui permet de générer des reprises de chansons à l'aide d'une bibliothèque de plus de 1 000 modèles de voix IA distincts.",
+    "description_fr": "Plateforme de création musicale par IA qui permet de générer des reprises de chansons à l'aide d'une bibliothèque de plus de 1 000 modèles de voix IA distincts.\n\nLe hub IA tout-en-un pour les créateurs. Générez de façon fluide un audio IA réaliste et une vidéo IA remarquable, le tout sur une seule plateforme. Rehaussez la qualité de votre contenu avec Fineshare.\n\nTraitement audio par IA : FineShare Singify prend en charge l'analyse et l'amélioration automatiques de l'audio. Prise en charge de la transcription : fournit des outils pour convertir la parole en texte. Réduction du bruit : réduit les sons indésirables de l'audio en entrée. Synthèse vocale : peut générer ou cloner des voix à l'aide de modèles d'IA."
+  },
+  "firebase-studio": {
+    "summary_fr": "Espace de travail web pour le développement d'applications full-stack, avec Gemini.",
+    "description_fr": "Firebase Studio est l'espace de travail de Google, entièrement basé sur le web, pour créer des applications full-stack et mobiles avec l'assistance de Gemini, des extensions Open VSX, des aperçus web et des émulateurs Android. Il s'intègre directement à Firebase App Hosting pour le déploiement et le suivi. Il est actuellement disponible sans frais pendant la preview, avec 3 espaces de travail, et les membres du Google Developer Program obtiennent jusqu'à 30 espaces de travail."
+  },
+  "fireflies-ai": {
+    "summary_fr": "Assistant de réunion par IA pour la transcription et l'analyse.",
+    "description_fr": "Assistant de réunion par IA pour la transcription et l'analyse.\n\nEnregistrement des réunions : capture l'audio et la vidéo des réunions. Transcription : convertit la parole en texte précis et recherchable. Résumés par IA : fournit des points saillants concis des réunions. Outils de collaboration : partagez, commentez et attribuez des notes au sein des équipes."
+  },
+  "flick": {
+    "summary_fr": "Flick est un outil par IA pour les marketeurs Instagram, qui fournit la recherche de hashtags, la planification et l'analytique afin d'améliorer la portée et la performance des publications sociales.",
+    "description_fr": "Flick est un outil par IA pour les marketeurs Instagram, qui fournit la recherche de hashtags, la planification et l'analytique afin d'améliorer la portée et la performance des publications sociales.\n\nLes outils dont vous avez besoin pour développer et gérer vos réseaux sociaux : planification, hashtags, rédaction de contenu par IA et analytique. Conçu pour les chefs d'entreprise et les marketeurs. Essai gratuit de 7 jours.\n\nRecherche de hashtags : trouvez les meilleurs hashtags pour vos publications. Planification des publications : préparez le contenu Instagram à l'avance. Analytique : suivez l'engagement et la croissance du nombre d'abonnés. Idées de contenu : l'IA suggère des sujets tendance et des légendes."
+  },
+  "fliki": {
+    "summary_fr": "Transformez des textes, des scripts et des articles de blog en vidéos avec 2 000+ voix IA dans 80+ langues. Aucune caméra, aucune compétence de montage requise. Plan gratuit pour toujours.",
+    "description_fr": "Transformez des textes, des scripts et des articles de blog en vidéos avec 2 000+ voix IA dans 80+ langues. Aucune caméra, aucune compétence de montage requise. Plan gratuit pour toujours.\n\nTexte vers vidéo : transformez du texte en vidéos avec des voix IA réalistes. Prise en charge multilingue : prend en charge plus de 75 langues et 900 voix. Voix off par IA : générez des voix off réalistes pour les vidéos. Génération de scripts : générez automatiquement des scripts pour les vidéos."
+  },
+  "flux": {
+    "summary_fr": "Modèles FLUX de Black Forest Labs pour la génération et l'édition d'images.",
+    "description_fr": "Black Forest Labs développe la famille de modèles FLUX pour la génération et l'édition d'images, connue pour une haute fidélité au prompt et pour le photoréalisme. Les modèles sont proposés via la BFL API et le playground, et certaines versions sont publiées en poids ouverts pour les développeurs. L'usage de l'API est payant à l'image, par exemple 0,048 $ par image sur le calculateur de prix, avec une tarification entreprise sur mesure à grande échelle."
+  }
+}

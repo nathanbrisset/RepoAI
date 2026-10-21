@@ -4,6 +4,8 @@ import { useState } from "react"
 import ToolCard from "@/components/tool-card"
 import { Badge } from "@/components/ui/badge"
 import type { Tool } from "@/lib/types"
+import { pricingLabel } from "@/lib/i18n/messages"
+import { useLocale } from "@/components/locale-provider"
 
 interface PricingToolsGridProps {
   tools: Tool[]
@@ -18,6 +20,7 @@ const PRICING_OPTIONS = [
 
 export default function PricingToolsGrid({ tools }: PricingToolsGridProps) {
   const [selectedPricing, setSelectedPricing] = useState<string | null>(null)
+  const locale = useLocale()
 
   const filteredTools = selectedPricing
     ? tools.filter(tool => tool.isPremium === selectedPricing)
@@ -41,7 +44,7 @@ export default function PricingToolsGrid({ tools }: PricingToolsGridProps) {
                   selectedPricing === label ? 'border-black scale-105 shadow' : 'border-transparent opacity-80 hover:opacity-100'
                 }`
               }>
-                {label}
+                {pricingLabel(locale, label)}
               </Badge>
             </button>
           ))}

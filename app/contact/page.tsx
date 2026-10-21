@@ -5,8 +5,10 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useRef, useState } from "react";
 import { Mail, MessageSquare } from "lucide-react"
+import { useT } from "@/components/locale-provider"
 
 export default function ContactPage() {
+  const t = useT()
   const formRef = useRef<HTMLFormElement>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
@@ -18,15 +20,15 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formRef.current) {
-      setError("Form reference is missing");
+      setError(t("contact.missingForm"));
       return;
     }
     if (!isNotRobot) {
-      setError("Please confirm you are not a robot.");
+      setError(t("contact.confirmRobot"));
       return;
     }
     if (!consent) {
-      setError("Please provide your consent to send the email.");
+      setError(t("contact.confirmConsent"));
       return;
     }
     setIsSubmitting(true);
@@ -52,7 +54,7 @@ export default function ContactPage() {
       const result = await response.json();
       
       if (!response.ok) {
-        throw new Error(result.error || 'Failed to send message');
+        throw new Error(result.error || t("contact.sendFailed"));
       }
 
       setSuccess(true);
@@ -61,7 +63,7 @@ export default function ContactPage() {
       setConsent(false);
     } catch (err) {
       console.error('Error sending message:', err);
-      setError(err instanceof Error ? err.message : "Failed to send message. Please try again.");
+      setError(err instanceof Error ? err.message : t("contact.sendFailed"));
     } finally {
       setIsSubmitting(false);
     }
@@ -73,20 +75,20 @@ export default function ContactPage() {
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto max-w-4xl px-4 py-16">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-extrabold mb-6 text-black">Contact Us</h1>
+          <h1 className="text-5xl font-extrabold mb-6 text-black">{t("contact.title")}</h1>
           <p className="text-xl text-gray-600">
-            Have questions? We're here to help!
+            {t("contact.subtitle")}
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Contact Form */}
           <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100">
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Send us a message</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">{t("contact.sendTitle")}</h2>
             <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-1">
-                  First Name
+                  {t("contact.firstName")}
                 </label>
                 <Input
                   id="firstName"
@@ -94,12 +96,12 @@ export default function ContactPage() {
                   type="text"
                   required
                   className="w-full"
-                  placeholder="Your first name"
+                  placeholder={t("contact.firstNamePlaceholder")}
                 />
               </div>
               <div>
                 <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-1">
-                  Last Name
+                  {t("contact.lastName")}
                 </label>
                 <Input
                   id="lastName"
@@ -107,12 +109,12 @@ export default function ContactPage() {
                   type="text"
                   required
                   className="w-full"
-                  placeholder="Your last name"
+                  placeholder={t("contact.lastNamePlaceholder")}
                 />
               </div>
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                  Email
+                  {t("contact.email")}
                 </label>
                 <Input
                   id="email"
@@ -125,7 +127,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">
-                  Subject
+                  {t("contact.subject")}
                 </label>
                 <Input
                   id="subject"
@@ -133,19 +135,19 @@ export default function ContactPage() {
                   type="text"
                   required
                   className="w-full"
-                  placeholder="What's this about?"
+                  placeholder={t("contact.subjectPlaceholder")}
                 />
               </div>
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                  Message
+                  {t("contact.message")}
                 </label>
                 <Textarea
                   id="message"
                   name="message"
                   required
                   className="w-full min-h-[150px]"
-                  placeholder="Your message..."
+                  placeholder={t("contact.messagePlaceholder")}
                 />
               </div>
               <div>
@@ -156,7 +158,7 @@ export default function ContactPage() {
                     onChange={e => setIsNotRobot(e.target.checked)}
                     className="form-checkbox h-4 w-4 text-blue-600"
                   />
-                  <span>I am not a robot</span>
+                  <span>{t("contact.notRobot")}</span>
                 </label>
               </div>
               <div>
@@ -167,13 +169,13 @@ export default function ContactPage() {
                     onChange={e => setConsent(e.target.checked)}
                     className="form-checkbox h-4 w-4 text-blue-600"
                   />
-                  <span>I consent to my information being used to contact me.</span>
+                  <span>{t("contact.consent")}</span>
                 </label>
               </div>
-              {success && <div className="text-green-600 text-center">Message sent successfully!</div>}
+              {success && <div className="text-green-600 text-center">{t("contact.success")}</div>}
               {error && <div className="text-red-600 text-center">{error}</div>}
               <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700" disabled={isSubmitting}>
-                {isSubmitting ? "Sending..." : "Send Message"}
+                {isSubmitting ? t("contact.sending") : t("contact.send")}
               </Button>
             </form>
           </div>
@@ -184,47 +186,47 @@ export default function ContactPage() {
               <div className="flex justify-center mb-6">
                 <Image
                   src="/ccare.png"
-                  alt="Customer Care"
+                  alt={t("contact.careAlt")}
                   width={200}
                   height={200}
                   className="rounded-lg"
                 />
               </div>
-              <h2 className="text-2xl font-bold mb-6 text-gray-900">Contact Information</h2>
+              <h2 className="text-2xl font-bold mb-6 text-gray-900">{t("contact.infoTitle")}</h2>
               <div className="space-y-6">
                 <div className="flex items-start">
                   <Mail className="h-6 w-6 text-blue-600 mt-1 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Email</h3>
+                    <h3 className="font-semibold text-gray-900">{t("contact.emailLabel")}</h3>
                     <p className="text-gray-600">contact@aitoolsninja.com</p>
-                    <p className="text-sm text-gray-500 mt-1">We'll respond within 24 hours</p>
+                    <p className="text-sm text-gray-500 mt-1">{t("contact.replyTime")}</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <MessageSquare className="h-6 w-6 text-blue-600 mt-1 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Live Chat</h3>
-                    <p className="text-gray-600">Available on our website</p>
-                    <p className="text-sm text-gray-500 mt-1">24/7 automated support</p>
+                    <h3 className="font-semibold text-gray-900">{t("contact.chatTitle")}</h3>
+                    <p className="text-gray-600">{t("contact.chatBody")}</p>
+                    <p className="text-sm text-gray-500 mt-1">{t("contact.chatNote")}</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100">
-              <h2 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions</h2>
+              <h2 className="text-2xl font-bold mb-6 text-gray-900">{t("contact.faqTitle")}</h2>
               <div className="space-y-4">
                 <div>
-                  <h3 className="font-semibold text-gray-900">How can I submit a tool?</h3>
-                  <p className="text-gray-600">Use our tool submission form or email us with the details.</p>
+                  <h3 className="font-semibold text-gray-900">{t("contact.faqSubmitQ")}</h3>
+                  <p className="text-gray-600">{t("contact.faqSubmitA")}</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900">How do you review tools?</h3>
-                  <p className="text-gray-600">We thoroughly test each tool and evaluate based on features, usability, and value.</p>
+                  <h3 className="font-semibold text-gray-900">{t("contact.faqReviewQ")}</h3>
+                  <p className="text-gray-600">{t("contact.faqReviewA")}</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900">Can I advertise on your platform?</h3>
-                  <p className="text-gray-600">Yes, we offer various advertising options. Contact us for details.</p>
+                  <h3 className="font-semibold text-gray-900">{t("contact.faqAdsQ")}</h3>
+                  <p className="text-gray-600">{t("contact.faqAdsA")}</p>
                 </div>
               </div>
             </div>
