@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { ArrowLeft, ExternalLink, Star, Share2, ThumbsUp, MessageSquare, Bookmark, Eye } from "lucide-react";
+import { ArrowLeft, ExternalLink, Share2, ThumbsUp, MessageSquare, Bookmark, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -42,14 +42,6 @@ export default function ToolPageClient({ tool }: ToolPageClientProps) {
               </Badge>
             )}
           </div>
-          <div className="flex items-center gap-2 mb-4">
-            <div className="flex items-center">
-              <Star className="h-5 w-5 text-yellow-400 fill-yellow-400" />
-              <span className="ml-1 font-medium">{tool.rating}</span>
-            </div>
-            <span className="text-gray-500">•</span>
-            <span className="text-gray-600">{tool.visits.toLocaleString()} visits</span>
-          </div>
           <p className="text-gray-600 mb-6">{tool.description}</p>
           <div className="flex flex-wrap gap-2 mb-6">
             {tool.categories.map((category) => (
@@ -79,7 +71,6 @@ export default function ToolPageClient({ tool }: ToolPageClientProps) {
         <TabsList>
           <TabsTrigger value="overview">Overview</TabsTrigger>
           <TabsTrigger value="features">Features</TabsTrigger>
-          <TabsTrigger value="reviews">Reviews</TabsTrigger>
         </TabsList>
 
         <TabsContent value="overview" className="mt-6">
@@ -117,15 +108,6 @@ export default function ToolPageClient({ tool }: ToolPageClientProps) {
           </Card>
         </TabsContent>
 
-        <TabsContent value="reviews" className="mt-6">
-          <Card>
-            <CardContent className="pt-6">
-              <h3 className="text-xl font-medium mb-4">Reviews</h3>
-              <ReviewForm toolId={tool.id} onReviewSubmitted={() => {}} />
-              <ReviewsList toolId={tool.id} />
-            </CardContent>
-          </Card>
-        </TabsContent>
       </Tabs>
     </div>
   );

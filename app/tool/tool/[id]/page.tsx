@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { mockTools } from "@/lib/data";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Star, ThumbsUp, Users } from "lucide-react";
+import { ExternalLink, ThumbsUp } from "lucide-react";
 import Link from "next/link";
 import { Tool } from "@/lib/types";
 
@@ -52,20 +52,6 @@ export default function ToolPage({ params }: any) {
 
               {/* Stats */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-                <div className="bg-gray-50 rounded-lg p-4">
-                  <div className="flex items-center gap-2 text-gray-600 mb-1">
-                    <Star className="h-5 w-5 text-yellow-400" />
-                    <span className="font-medium">Rating</span>
-                  </div>
-                  <div className="text-2xl font-bold text-gray-900">{tool.rating?.toFixed(1)}/5</div>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-4">
-                  <div className="flex items-center gap-2 text-gray-600 mb-1">
-                    <Users className="h-5 w-5 text-blue-500" />
-                    <span className="font-medium">Visits</span>
-                  </div>
-                  <div className="text-2xl font-bold text-gray-900">{tool.visits?.toLocaleString()}</div>
-                </div>
                 <div className="bg-gray-50 rounded-lg p-4">
                   <div className="flex items-center gap-2 text-gray-600 mb-1">
                     <ThumbsUp className="h-5 w-5 text-green-500" />

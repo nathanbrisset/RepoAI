@@ -61,7 +61,7 @@ const gradients = [
 ];
 
 export default function ToolPageClient({ tool, relatedTools, successorName }: ToolPageClientProps) {
-  const [tab, setTab] = useState<'overview' | 'features' | 'reviews'>('overview');
+  const [tab, setTab] = useState<'overview' | 'features'>('overview');
   const [activeStep, setActiveStep] = useState(0);
   const [howToOpen, setHowToOpen] = useState(false);
 
@@ -74,15 +74,6 @@ export default function ToolPageClient({ tool, relatedTools, successorName }: To
     "applicationCategory": tool.categories.join(", "),
     "url": tool.url,
     "image": tool.image,
-    ...(typeof tool.rating === "number" && typeof tool.visits === "number"
-      ? {
-          aggregateRating: {
-            "@type": "AggregateRating",
-            ratingValue: tool.rating,
-            reviewCount: tool.visits,
-          },
-        }
-      : {}),
     ...(tool.pricing?.verified && tool.pricing.model === "free"
       ? {
           offers: {
@@ -156,7 +147,6 @@ export default function ToolPageClient({ tool, relatedTools, successorName }: To
           <div className="border-b border-gray-200 mb-6 flex gap-2">
             <button onClick={() => setTab('overview')} className={`px-4 py-2 font-semibold ${tab === 'overview' ? 'border-b-2 border-purple-600 text-purple-700 bg-white' : 'text-gray-500'}`}>Overview</button>
             <button onClick={() => setTab('features')} className={`px-4 py-2 font-semibold ${tab === 'features' ? 'border-b-2 border-purple-600 text-purple-700 bg-white' : 'text-gray-500'}`}>Features</button>
-            <button onClick={() => setTab('reviews')} className={`px-4 py-2 font-semibold ${tab === 'reviews' ? 'border-b-2 border-purple-600 text-purple-700 bg-white' : 'text-gray-500'}`}>Reviews</button>
           </div>
           {/* Tab Content */}
           {tab === 'overview' && (
@@ -201,14 +191,6 @@ export default function ToolPageClient({ tool, relatedTools, successorName }: To
               ) : (
                 <p className="text-gray-500">No features listed for this tool.</p>
               )}
-            </div>
-          )}
-          {tab === 'reviews' && (
-            <div className="mb-8">
-              <h2 className="text-xl font-bold mb-2">Reviews</h2>
-              <div className="bg-gray-50 border border-gray-100 rounded-xl p-6 text-center text-gray-500">
-                No reviews yet. <br /> <span className="text-purple-600 font-medium cursor-pointer">Be the first to add a review!</span>
-              </div>
             </div>
           )}
           {/* How To Use Section (aligned with main content, collapsible) */}

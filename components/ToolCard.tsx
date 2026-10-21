@@ -42,23 +42,11 @@ export function ToolCard({ tool }: ToolCardProps) {
         </div>
         )}
         
-        <div className="mt-auto flex items-center justify-between">
-          <div className="flex items-center space-x-1">
-            <span className="text-sm font-medium text-gray-900">
-              {tool.rating}
-            </span>
-            <span className="text-sm text-gray-500">rating</span>
-          </div>
-          <div className="flex items-center space-x-1">
-            <span className="text-sm font-medium text-gray-900">
-              {new Intl.NumberFormat().format(tool.visits)}
-            </span>
-            <span className="text-sm text-gray-500">visits</span>
-          </div>
-          {tool.isPremium && (
+        {tool.isPremium && (
+        <div className="mt-auto flex items-center justify-end">
           <span className="text-sm text-gray-500">{tool.isPremium}</span>
-          )}
         </div>
+        )}
       </div>
     </Link>
   )
