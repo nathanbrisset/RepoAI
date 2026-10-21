@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: "This AI tool listing is not in the AI Tools Ninja directory.",
       path: `/tool/${id}`,
       noIndex: true,
+      canonical: false,
     });
   }
 

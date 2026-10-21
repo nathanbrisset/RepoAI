@@ -7,6 +7,20 @@ export const OG_IMAGE_WIDTH = 1200
 export const OG_IMAGE_HEIGHT = 630
 export const OG_IMAGE_ALT = "AI Tools Ninja — directory of AI tools"
 
+const HOME_TITLE = "AI Tools Ninja — Find the Right AI Tool"
+const HOME_DESCRIPTION =
+  "Browse a directory of AI tools for writing, coding, images, video, audio, and everyday work. Open a listing and go to the official site."
+
+/** Absolute production URL. A relative path is rewritten to the Vercel preview host for file-based OG images. */
+const OG_IMAGE_URL = `${SITE_URL}${OG_IMAGE_PATH}`
+
+const ogImage = {
+  url: OG_IMAGE_URL,
+  width: OG_IMAGE_WIDTH,
+  height: OG_IMAGE_HEIGHT,
+  alt: OG_IMAGE_ALT,
+}
+
 const TITLE_TEMPLATE = "%s | AI Tools Ninja"
 
 export function absoluteUrl(path: string): string {
@@ -45,13 +59,6 @@ export function pageMetadata({
 }: PageSeo): Metadata {
   const url = absoluteUrl(path)
   const socialTitle = absoluteTitle ? title : TITLE_TEMPLATE.replace("%s", title)
-  const image = {
-    url: OG_IMAGE_PATH,
-    width: OG_IMAGE_WIDTH,
-    height: OG_IMAGE_HEIGHT,
-    alt: OG_IMAGE_ALT,
-  }
-
   return {
     title: absoluteTitle ? { absolute: title } : title,
     description,
@@ -64,55 +71,52 @@ export function pageMetadata({
       siteName: SITE_NAME,
       locale: "en_US",
       type: "website",
-      images: [image],
+      images: [ogImage],
     },
     twitter: {
       card: "summary_large_image",
       title: socialTitle,
       description,
-      images: [OG_IMAGE_PATH],
+      images: [OG_IMAGE_URL],
     },
   }
 }
 
 export const rootMetadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
+  metadataBase: new URL("https://www.aitools.ninja"),
   title: {
-    default: "AI Tools Ninja — Find the Right AI Tool",
+    default: HOME_TITLE,
     template: TITLE_TEMPLATE,
   },
-  description:
-    "Browse a directory of AI tools for writing, coding, images, video, audio, and everyday work. Open a listing and go to the official site.",
+  description: HOME_DESCRIPTION,
   applicationName: SITE_NAME,
   alternates: {
     canonical: absoluteUrl("/"),
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "AI Tools Ninja — Find the Right AI Tool",
-    description:
-      "Browse a directory of AI tools for writing, coding, images, video, audio, and everyday work. Open a listing and go to the official site.",
+    title: HOME_TITLE,
+    description: HOME_DESCRIPTION,
     url: absoluteUrl("/"),
     siteName: SITE_NAME,
     locale: "en_US",
     type: "website",
-    images: [
-      {
-        url: OG_IMAGE_PATH,
-        width: OG_IMAGE_WIDTH,
-        height: OG_IMAGE_HEIGHT,
-        alt: OG_IMAGE_ALT,
-      },
-    ],
+    images: [ogImage],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Tools Ninja — Find the Right AI Tool",
-    description:
-      "Browse a directory of AI tools for writing, coding, images, video, audio, and everyday work. Open a listing and go to the official site.",
-    images: [OG_IMAGE_PATH],
+    title: HOME_TITLE,
+    description: HOME_DESCRIPTION,
+    images: [OG_IMAGE_URL],
   },
   icons: {
     icon: "/favicon.ico",
   },
 }
+
+export const homeMetadata: Metadata = pageMetadata({
+  title: HOME_TITLE,
+  description: HOME_DESCRIPTION,
+  path: "/",
+  absoluteTitle: true,
+})
