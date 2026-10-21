@@ -4,9 +4,8 @@
   "url": "https://codepal.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "statusNote": "Headless Chrome: codepal.ai now titled 'CodePal | AI App Builder for Real Products' - positioning changed, description needs review",
-  "summary": "Plan, build, edit, deploy, and run full-stack web apps with CodePal, the AI app builder for founders who want a product they can ship.",
-  "description": "Plan, build, edit, deploy, and run full-stack web apps with CodePal, the AI app builder for founders who want a product they can ship.\n\nCode snippet generation: Creates code based on input. Bug detection: Identifies potential issues in code. Code simplification: Refactors complex code. Supports various languages: Handles multiple programming languages.",
+  "summary": "AI app builder that turns ideas into production software.",
+  "description": "CodePal now presents itself as an AI app builder ('From idea to production. Your AI-powered dev team that ships real software, not demos'), with a CodePal Agent, in-app code edits and CodePal Cloud project hosting. Usage runs on credits. The free Starter plan ($0) includes 2 daily credits (up to 30 per month), up to 50 projects and limited Agent use; Standard is $25/month and Pro $50/month (annual billing) with 100 and 250 monthly credits, credit rollover and private projects; Enterprise is custom.",
   "categories": [
     "coding"
   ],
@@ -18,8 +17,9 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": true,
+    "note": "Usage runs on credits. The free Starter plan ($0) includes 2 daily credits (up to 30 per month), up to 50 projects and limited Agent use; Standard is $25/month and Pro $50/month (annual billing) with 100 and 250 monthly credits, credit rollover and private projects; Enterprise is custom.",
+    "sourceUrl": "https://codepal.ai/pricing"
   },
   "logo": "/logos/codepal.png",
   "image": "/tool-screenshots/codepal.png",
