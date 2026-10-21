@@ -4,6 +4,9 @@ import { mockTools } from "@/lib/data";
 import { metaDescription, pageMetadata } from "@/lib/seo";
 import ToolPageClient from "./tool-page-client";
 
+// Unknown ids are not rendered as empty shells. Next responds with the not-found page.
+export const dynamicParams = false
+
 // Generate static paths for all tools
 export async function generateStaticParams() {
   return mockTools.map((tool) => ({
@@ -21,13 +24,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const tool = mockTools.find((entry) => entry.id === id);
 
   if (!tool) {
-    return pageMetadata({
-      title: "Tool not found",
-      description: "This AI tool listing is not in the AI Tools Ninja directory.",
-      path: `/tool/${id}`,
-      noIndex: true,
-      canonical: false,
-    });
+    notFound();
   }
 
   return pageMetadata({
