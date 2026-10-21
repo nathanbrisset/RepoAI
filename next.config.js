@@ -51,6 +51,11 @@ const nextConfig = {
         destination: "/tool/devin",
         permanent: true,
       },
+      {
+        source: "/match-results",
+        destination: "/recommendation",
+        permanent: true,
+      },
     ]
   },
 }

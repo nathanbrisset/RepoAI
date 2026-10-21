@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"
 import { allTools, listedTools } from "@/lib/catalog"
 import { captchaSecret, verifyChallenge } from "@/lib/match-captcha"
-import { clientIp, consumeNonce, rateLimit, searchLimit } from "@/lib/match-guard"
+import { clientIp, consumeNonce, rateHeaders, rateLimit, searchLimit } from "@/lib/match-guard"
 import {
   catalogMatch,
   detectLanguage,
@@ -26,10 +26,8 @@ const activeTools: MatchTool[] = listedTools
 
 const allNames = allTools.map((tool) => tool.name)
 
-function errorResponse(code: string, status: number, retryAfter?: number) {
-  const headers: Record<string, string> = { "Cache-Control": "no-store" }
-  if (retryAfter) headers["Retry-After"] = String(retryAfter)
-  return NextResponse.json({ code }, { status, headers })
+function errorResponse(code: string, status: number, extra?: Record<string, string>) {
+  return NextResponse.json({ code }, { status, headers: { "Cache-Control": "no-store", ...extra } })
 }
 
 function catalogLines(tools: MatchTool[]) {
@@ -122,27 +120,29 @@ export async function POST(req: Request) {
   const ip = clientIp(req.headers)
   const search = searchLimit()
   const limited = await rateLimit(ip, "search", search.limit, search.windowSec)
-  if (!limited.ok) return errorResponse("rate_limited", 429, limited.retryAfter)
+  const headers = rateHeaders(limited)
+  if (!limited.ok) return errorResponse(limited.status === 503 ? "unavailable" : "rate_limited", limited.status, headers)
 
   const prompt = sample.trim()
-  if (typeof body.company === "string" && body.company.trim()) return errorResponse("captcha", 403)
+  if (typeof body.company === "string" && body.company.trim()) return errorResponse("captcha", 403, headers)
 
   const secret = captchaSecret()
-  if (!secret) return errorResponse("unavailable", 503)
+  if (!secret) return errorResponse("unavailable", 503, headers)
   const captcha = verifyChallenge(
     secret,
     typeof body.captchaToken === "string" ? body.captchaToken : "",
     typeof body.captchaAnswer === "string" ? body.captchaAnswer : ""
   )
-  if (!captcha.ok) return errorResponse("captcha", 403)
+  if (!captcha.ok) return errorResponse("captcha", 403, headers)
   const fresh = await consumeNonce(captcha.nonce, captcha.ttlSec)
-  if (!fresh) return errorResponse("captcha", 403)
+  if (fresh === "unavailable") return errorResponse("unavailable", 503, headers)
+  if (fresh !== "fresh") return errorResponse("captcha", 403, headers)
 
   const candidates = shortlist(activeTools, prompt)
   const fromModel = await askOpenAI(prompt, candidates)
   const match = fromModel || catalogMatch(activeTools, prompt, allNames)
   if (!match || match.recommendations.length === 0) {
-    return errorResponse("no_match", 422)
+    return errorResponse("no_match", 422, headers)
   }
-  return NextResponse.json(withRelated(match, prompt), { headers: { "Cache-Control": "no-store" } })
+  return NextResponse.json(withRelated(match, prompt), { headers })
 }

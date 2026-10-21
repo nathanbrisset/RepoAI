@@ -17,7 +17,7 @@ import {
   type MatchTool,
 } from "../lib/match-copy.ts"
 import { issueChallenge, verifyChallenge } from "../lib/match-captcha.ts"
-import { consumeNonceMemory, takeToken } from "../lib/match-guard.ts"
+import { clientIp, consumeNonceMemory, rateHeaders, rateLimit, takeToken } from "../lib/match-guard.ts"
 
 const names = ["Synthesia", "Synthesys", "ChatGPT"]
 
@@ -226,5 +226,90 @@ const blocked = takeToken("203.0.113.5", "search", 2, 60, 1_000, buckets)
 assert.equal(blocked.ok, false)
 if (!blocked.ok) assert.ok(blocked.retryAfter > 0)
 assert.equal(takeToken("203.0.113.6", "search", 2, 60, 1_000, buckets).ok, true)
+
+assert.equal(clientIp(new Headers({ "x-real-ip": "203.0.113.9", "x-forwarded-for": "198.51.100.4, 10.0.0.1" })), "203.0.113.9")
+assert.equal(clientIp(new Headers({ "x-forwarded-for": "198.51.100.4, 10.0.0.1" })), "198.51.100.4")
+assert.equal(clientIp(new Headers({ "x-vercel-forwarded-for": "2001:db8::2" })), "2001:db8::2")
+assert.equal(clientIp(new Headers({ "x-forwarded-for": "not-an-ip, 198.51.100.8" })), "198.51.100.8")
+assert.equal(clientIp(new Headers()), "unknown")
+
+const savedUrl = process.env.KV_REST_API_URL
+const savedToken = process.env.KV_REST_API_TOKEN
+const savedUpstashUrl = process.env.UPSTASH_REDIS_REST_URL
+const savedUpstashToken = process.env.UPSTASH_REDIS_REST_TOKEN
+delete process.env.KV_REST_API_URL
+delete process.env.KV_REST_API_TOKEN
+delete process.env.UPSTASH_REDIS_REST_URL
+delete process.env.UPSTASH_REDIS_REST_TOKEN
+const missing = await rateLimit("203.0.113.20", "search", 10, 1800, { requireRedis: true })
+assert.equal(missing.ok, false)
+if (!missing.ok) {
+  assert.equal(missing.status, 503)
+  assert.equal(missing.backend, "none")
+  assert.equal(rateHeaders(missing)["X-RateLimit-Backend"], "none")
+}
+
+process.env.KV_REST_API_URL = "https://kv.example.test"
+process.env.KV_REST_API_TOKEN = "kv-token-value"
+const counts = new Map<string, number>()
+const fetchImpl: typeof fetch = async (input, init) => {
+  const url = String(input)
+  assert.equal(url, "https://kv.example.test/pipeline")
+  const header = new Headers(init?.headers).get("authorization") || ""
+  assert.equal(header.startsWith("Bearer "), true)
+  const body = JSON.parse(String(init?.body))
+  const key = body[0][1]
+  const next = (counts.get(key) || 0) + 1
+  counts.set(key, next)
+  return Response.json([
+    { result: next === 1 ? "OK" : null },
+    { result: String(next) },
+    { result: 1700 },
+  ])
+}
+let last = null
+for (let i = 0; i < 10; i += 1) {
+  const allowed = await rateLimit("203.0.113.21", "search", 10, 1800, { requireRedis: true, fetchImpl })
+  assert.equal(allowed.ok, true)
+  if (allowed.ok) assert.equal(allowed.backend, "redis")
+  last = allowed
+}
+assert.equal(last && last.ok && last.remaining, 0)
+const eleventh = await rateLimit("203.0.113.21", "search", 10, 1800, { requireRedis: true, fetchImpl })
+assert.equal(eleventh.ok, false)
+if (!eleventh.ok) {
+  assert.equal(eleventh.status, 429)
+  assert.equal(eleventh.backend, "redis")
+  assert.equal(rateHeaders(eleventh)["X-RateLimit-Remaining"], "0")
+  assert.equal(rateHeaders(eleventh)["Retry-After"], "1700")
+}
+const otherIp = await rateLimit("203.0.113.22", "search", 10, 1800, { requireRedis: true, fetchImpl })
+assert.equal(otherIp.ok, true)
+
+process.env.UPSTASH_REDIS_REST_URL = "https://upstash.example.test"
+process.env.UPSTASH_REDIS_REST_TOKEN = "upstash-token-value"
+const upstashFetch: typeof fetch = async (input) => {
+  assert.equal(String(input), "https://upstash.example.test/pipeline")
+  return Response.json([{ result: "OK" }, { result: 1 }, { result: 1800 }])
+}
+const preferred = await rateLimit("203.0.113.23", "search", 10, 1800, { requireRedis: true, fetchImpl: upstashFetch })
+assert.equal(preferred.ok, true)
+if (preferred.ok) assert.equal(preferred.remaining, 9)
+
+const failingFetch: typeof fetch = async () => {
+  throw new Error("http 401")
+}
+const failed = await rateLimit("203.0.113.24", "search", 10, 1800, { requireRedis: true, fetchImpl: failingFetch })
+assert.equal(failed.ok, false)
+if (!failed.ok) assert.equal(failed.status, 503)
+
+if (savedUrl === undefined) delete process.env.KV_REST_API_URL
+else process.env.KV_REST_API_URL = savedUrl
+if (savedToken === undefined) delete process.env.KV_REST_API_TOKEN
+else process.env.KV_REST_API_TOKEN = savedToken
+if (savedUpstashUrl === undefined) delete process.env.UPSTASH_REDIS_REST_URL
+else process.env.UPSTASH_REDIS_REST_URL = savedUpstashUrl
+if (savedUpstashToken === undefined) delete process.env.UPSTASH_REDIS_REST_TOKEN
+else process.env.UPSTASH_REDIS_REST_TOKEN = savedUpstashToken
 
 console.log("match checks passed")

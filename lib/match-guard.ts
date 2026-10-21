@@ -1,29 +1,90 @@
 /**
  * Per-IP rate limit and one-time captcha nonces.
- * On Vercel, set UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN
- * (KV_REST_API_URL and KV_REST_API_TOKEN are accepted) so the counters
- * are shared across instances. Without them, each instance keeps its own.
+ * Reads UPSTASH_REDIS_REST_URL / UPSTASH_REDIS_REST_TOKEN, or the Vercel KV
+ * pair KV_REST_API_URL / KV_REST_API_TOKEN. REDIS_URL and the read-only token
+ * are not used: the function talks to the REST API.
+ * In production and on Vercel preview (NODE_ENV=production), a missing or
+ * failing store refuses the request. Development keeps an in-memory counter.
  */
 
 type Bucket = { count: number; reset: number }
-type LimitResult = { ok: true; retryAfter: 0 } | { ok: false; retryAfter: number }
+
+export type RateBackend = "redis" | "none"
+
+export type LimitResult = {
+  ok: boolean
+  status: 200 | 429 | 503
+  retryAfter: number
+  remaining: number
+  backend: RateBackend
+}
+
+type RedisCall = { url: string; token: string }
+
+type FetchLike = (input: string, init: RequestInit) => Promise<Response>
 
 const buckets = new Map<string, Bucket>()
 const nonces = new Map<string, number>()
 
-function redisConfig() {
-  const url = (process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL || "").replace(/\/$/, "")
-  const token = process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN || ""
-  if (!url || !token) return null
+function cleanEnv(name: string): string {
+  return (process.env[name] || "").trim().replace(/^["']|["']$/g, "")
+}
+
+export function redisConfig(): RedisCall | null {
+  const url = (cleanEnv("UPSTASH_REDIS_REST_URL") || cleanEnv("KV_REST_API_URL")).replace(/\/$/, "")
+  const token = cleanEnv("UPSTASH_REDIS_REST_TOKEN") || cleanEnv("KV_REST_API_TOKEN")
+  if (!url.startsWith("https://") || token.length < 8) return null
   return { url, token }
 }
 
+function requireSharedStore(override?: boolean): boolean {
+  if (typeof override === "boolean") return override
+  return process.env.NODE_ENV === "production"
+}
+
+function firstIp(value: string | null): string | null {
+  if (!value) return null
+  for (const part of value.split(",")) {
+    const ip = normalizeIp(part)
+    if (ip) return ip
+  }
+  return null
+}
+
+function normalizeIp(value: string): string | null {
+  let ip = value.trim().replace(/^\[|\]$/g, "")
+  if (/^\d{1,3}(\.\d{1,3}){3}:\d+$/.test(ip)) ip = ip.slice(0, ip.lastIndexOf(":"))
+  if (/^(\d{1,3}\.){3}\d{1,3}$/.test(ip)) {
+    const parts = ip.split(".").map((part) => Number(part))
+    if (parts.every((part) => part >= 0 && part <= 255)) return ip
+    return null
+  }
+  if (ip.includes(":") && /^[0-9a-fA-F:]{3,64}$/.test(ip)) return ip.toLowerCase()
+  return null
+}
+
 export function clientIp(headers: { get(name: string): string | null }): string {
-  const real = headers.get("x-real-ip")
-  const forwarded = headers.get("x-forwarded-for")
-  const raw = (real || forwarded || "unknown").split(",")[0].trim()
-  if (/^[a-fA-F0-9:.]{3,64}$/.test(raw)) return raw
-  return "unknown"
+  return firstIp(headers.get("x-real-ip")) || firstIp(headers.get("x-forwarded-for")) || firstIp(headers.get("x-vercel-forwarded-for")) || "unknown"
+}
+
+export function rateHeaders(result: LimitResult): Record<string, string> {
+  const headers: Record<string, string> = {
+    "Cache-Control": "no-store",
+    "X-RateLimit-Backend": result.backend,
+    "X-RateLimit-Remaining": String(result.remaining),
+  }
+  if (!result.ok && result.status === 429) headers["Retry-After"] = String(result.retryAfter)
+  return headers
+}
+
+function logDecision(result: LimitResult) {
+  console.info(`match-rate backend=${result.backend} remaining=${result.remaining} status=${result.status}`)
+}
+
+function unavailable(): LimitResult {
+  const result: LimitResult = { ok: false, status: 503, retryAfter: 0, remaining: 0, backend: "none" }
+  logDecision(result)
+  return result
 }
 
 export function takeToken(
@@ -44,64 +105,105 @@ export function takeToken(
   const current = store.get(key)
   if (!current || current.reset <= now) {
     store.set(key, { count: 1, reset: now + windowMs })
-    return { ok: true, retryAfter: 0 }
+    return { ok: true, status: 200, retryAfter: 0, remaining: Math.max(0, limit - 1), backend: "none" }
   }
   if (current.count >= limit) {
-    return { ok: false, retryAfter: Math.max(1, Math.ceil((current.reset - now) / 1000)) }
+    return { ok: false, status: 429, retryAfter: Math.max(1, Math.ceil((current.reset - now) / 1000)), remaining: 0, backend: "none" }
   }
   current.count += 1
-  return { ok: true, retryAfter: 0 }
+  return { ok: true, status: 200, retryAfter: 0, remaining: Math.max(0, limit - current.count), backend: "none" }
 }
 
-async function redisCommand(command: unknown, pipeline = false): Promise<unknown> {
-  const config = redisConfig()
-  if (!config) return null
-  const response = await fetch(pipeline ? `${config.url}/pipeline` : config.url, {
+async function redisCommand(config: RedisCall, command: unknown, pipeline: boolean, fetchImpl: FetchLike): Promise<unknown> {
+  const response = await fetchImpl(pipeline ? `${config.url}/pipeline` : config.url, {
     method: "POST",
     headers: {
       Authorization: `Bearer ${config.token}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify(command),
-    signal: AbortSignal.timeout(2000),
+    signal: AbortSignal.timeout(4000),
   })
-  if (!response.ok) throw new Error("redis")
+  if (!response.ok) throw new Error(`http ${response.status}`)
   return response.json()
 }
 
-function pipelineValues(payload: unknown): unknown[] {
-  if (payload && typeof payload === "object" && "result" in payload && Array.isArray((payload as { result: unknown }).result)) {
-    return pipelineValues((payload as { result: unknown[] }).result)
-  }
-  if (!Array.isArray(payload)) return []
-  return payload.map((item) => (item && typeof item === "object" && "result" in item ? (item as { result: unknown }).result : item))
+function asInt(value: unknown): number | null {
+  if (typeof value === "number" && Number.isFinite(value)) return Math.trunc(value)
+  if (typeof value === "string" && /^-?\d+$/.test(value)) return Number(value)
+  return null
 }
 
-export async function rateLimit(ip: string, bucketName: string, limit: number, windowSec: number): Promise<LimitResult> {
-  const key = `match:${bucketName}:${ip}`
-  if (redisConfig()) {
-    try {
-      const payload = await redisCommand(
-        [
-          ["INCR", key],
-          ["EXPIRE", key, windowSec, "NX"],
-          ["TTL", key],
-        ],
-        true
-      )
-      const [count, , ttl] = pipelineValues(payload)
-      if (typeof count === "number") {
-        if (count > limit) {
-          const retryAfter = typeof ttl === "number" && ttl > 0 ? ttl : windowSec
-          return { ok: false, retryAfter }
-        }
-        return { ok: true, retryAfter: 0 }
-      }
-    } catch (error) {
-      console.error("Match rate limit store failed", error instanceof Error ? error.name : "error")
-    }
+type RedisRow = { result?: unknown; error?: string }
+
+function rowsFrom(payload: unknown): RedisRow[] | null {
+  let value = payload
+  if (value && typeof value === "object" && "result" in value && Array.isArray((value as { result: unknown }).result)) {
+    value = (value as { result: unknown[] }).result
   }
-  return takeToken(ip, bucketName, limit, windowSec)
+  if (!Array.isArray(value)) return null
+  return value.map((item) => {
+    if (item && typeof item === "object") {
+      const row = item as { result?: unknown; error?: unknown }
+      return { result: row.result, error: typeof row.error === "string" ? row.error : undefined }
+    }
+    return { result: item }
+  })
+}
+
+export async function rateLimit(
+  ip: string,
+  bucketName: string,
+  limit: number,
+  windowSec: number,
+  options?: { requireRedis?: boolean; fetchImpl?: FetchLike }
+): Promise<LimitResult> {
+  const key = `match:${bucketName}:${ip}`
+  const shared = requireSharedStore(options?.requireRedis)
+  const config = redisConfig()
+  if (!config) {
+    if (shared) {
+      console.error("Match rate limit store failed", "missing")
+      return unavailable()
+    }
+    const local = takeToken(ip, bucketName, limit, windowSec)
+    logDecision(local)
+    return local
+  }
+  try {
+    const payload = await redisCommand(
+      config,
+      [
+        ["SET", key, "0", "EX", windowSec, "NX"],
+        ["INCR", key],
+        ["TTL", key],
+      ],
+      true,
+      options?.fetchImpl || fetch
+    )
+    const rows = rowsFrom(payload)
+    const count = rows && rows.length >= 2 ? asInt(rows[1].result) : null
+    if (!rows || rows[0]?.error || rows[1]?.error || count === null || count < 1) {
+      throw new Error("bad-payload")
+    }
+    const ttl = rows.length >= 3 ? asInt(rows[2].result) : null
+    if (count > limit) {
+      const retryAfter = ttl !== null && ttl > 0 ? ttl : windowSec
+      const blocked: LimitResult = { ok: false, status: 429, retryAfter, remaining: 0, backend: "redis" }
+      logDecision(blocked)
+      return blocked
+    }
+    const allowed: LimitResult = { ok: true, status: 200, retryAfter: 0, remaining: Math.max(0, limit - count), backend: "redis" }
+    logDecision(allowed)
+    return allowed
+  } catch (error) {
+    const reason = error instanceof Error ? error.message || error.name : "error"
+    console.error("Match rate limit store failed", reason.slice(0, 80))
+    if (shared) return unavailable()
+    const local = takeToken(ip, bucketName, limit, windowSec)
+    logDecision(local)
+    return local
+  }
 }
 
 export function consumeNonceMemory(nonce: string, exp: number, now = Date.now(), store: Map<string, number> = nonces): boolean {
@@ -115,19 +217,29 @@ export function consumeNonceMemory(nonce: string, exp: number, now = Date.now(),
   return true
 }
 
-export async function consumeNonce(nonce: string, ttlSec: number): Promise<boolean> {
+export async function consumeNonce(
+  nonce: string,
+  ttlSec: number,
+  options?: { requireRedis?: boolean; fetchImpl?: FetchLike }
+): Promise<"fresh" | "replay" | "unavailable"> {
   const key = `match-nonce:${nonce}`
-  if (redisConfig()) {
-    try {
-      const payload = await redisCommand(["SET", key, "1", "EX", ttlSec, "NX"])
-      const result = payload && typeof payload === "object" && "result" in payload ? (payload as { result: unknown }).result : payload
-      if (result === "OK") return true
-      if (result === null) return false
-    } catch (error) {
-      console.error("Match captcha store failed", error instanceof Error ? error.name : "error")
-    }
+  const shared = requireSharedStore(options?.requireRedis)
+  const config = redisConfig()
+  if (!config) {
+    if (shared) return "unavailable"
+    return consumeNonceMemory(nonce, Date.now() + ttlSec * 1000) ? "fresh" : "replay"
   }
-  return consumeNonceMemory(nonce, Date.now() + ttlSec * 1000)
+  try {
+    const payload = await redisCommand(config, ["SET", key, "1", "EX", ttlSec, "NX"], false, options?.fetchImpl || fetch)
+    const result = payload && typeof payload === "object" && "result" in payload ? (payload as { result: unknown }).result : payload
+    if (result === "OK") return "fresh"
+    if (result === null) return "replay"
+    throw new Error("bad-payload")
+  } catch (error) {
+    console.error("Match captcha store failed", error instanceof Error ? (error.message || error.name).slice(0, 80) : "error")
+    if (shared) return "unavailable"
+    return consumeNonceMemory(nonce, Date.now() + ttlSec * 1000) ? "fresh" : "replay"
+  }
 }
 
 export function searchLimit(): { limit: number; windowSec: number } {
