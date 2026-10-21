@@ -10,7 +10,7 @@ node scripts/catalog-index.mjs
 
 That checks every file with the same rules as `lib/tool-schema.ts` and rewrites `content/tools/index.ts`. The index is generated. Do not edit it by hand.
 
-`affiliateUrl` can hold an `https` affiliate URL. The site does not read it. Every Visit button and outgoing product link uses `url`, the official address.
+`affiliateUrl` is optional and unused. Every Visit button and outgoing product link uses `url`, the official address.
 
 ## Fields
 
@@ -19,7 +19,7 @@ That checks every file with the same rules as `lib/tool-schema.ts` and rewrites 
 | `id` | yes | File name without `.json`. Lowercase letters, digits, `-` or `_`. This is the URL `/tool/{id}`. Do not rename an id that is already online. |
 | `name` | yes | Product name as on the official site. |
 | `url` | yes | Official `https` URL after redirects. |
-| `affiliateUrl` | yes | `""` or an `https` affiliate URL. Stored only. Pages never link to it. |
+| `affiliateUrl` | no | Unused. Leave it out. Pages never link to it. |
 | `status` | yes | `active`, `renamed`, `sunset`, or `duplicate-of`. |
 | `successorId` | no | Another fiche id. Required in practice for `duplicate-of`. |
 | `statusNote` | no | Why the status is not `active`. Shown on the fiche. |
@@ -73,7 +73,6 @@ Two files were applied onto this folder. Empty cells did not blank existing text
 1. Copy a recent file, for example `content/tools/grok.json`.
 2. Set a new `id`, and save it as `content/tools/{id}.json`.
 3. Fill `url`, `summary`, `description`, `categories`, `tags`, and `pricing`.
-4. Set `affiliateUrl` to `""`.
-5. Set `dateAdded` to the day you add it, and `lastVerified` to the day you checked the official page.
-6. Set `pricing.verified` to `true` only with `pricing.sourceUrl`.
-7. Run `node scripts/catalog-index.mjs`.
+4. Set `dateAdded` to the day you add it, and `lastVerified` to the day you checked the official page.
+5. Set `pricing.verified` to `true` only with `pricing.sourceUrl`.
+6. Run `node scripts/catalog-index.mjs`.

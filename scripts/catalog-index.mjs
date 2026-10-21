@@ -35,7 +35,7 @@ const toolSchema = z.object({
   id: z.string().regex(/^[a-z0-9]+(?:[-_][a-z0-9]+)*$/),
   name: z.string().min(1),
   url: z.string().url(),
-  affiliateUrl: z.union([z.literal(""), z.string().url()]),
+  affiliateUrl: z.union([z.literal(""), z.string().url()]).optional(),
   status: z.enum(["active", "renamed", "sunset", "duplicate-of"]),
   successorId: z.string().optional(),
   statusNote: z.string().optional(),

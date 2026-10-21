@@ -36,14 +36,14 @@ export const howToStepSchema = z.object({
 
 /**
  * One file in content/tools/{id}.json.
- * affiliateUrl is stored on the fiche and is not read by the site. Visit links use url.
+ * affiliateUrl is optional and unused. Visit links use url.
  * lastVerified is the day the fiche was checked, or null when it was only migrated.
  */
 export const toolSchema = z.object({
   id: z.string().regex(/^[a-z0-9]+(?:[-_][a-z0-9]+)*$/),
   name: z.string().min(1),
   url: z.string().url(),
-  affiliateUrl: z.union([z.literal(""), z.string().url()]),
+  affiliateUrl: z.union([z.literal(""), z.string().url()]).optional(),
   status: toolStatusSchema,
   successorId: z.string().optional(),
   statusNote: z.string().optional(),
