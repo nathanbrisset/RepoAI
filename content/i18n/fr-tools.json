@@ -492,8 +492,8 @@
     ]
   },
   "codetree": {
-    "summary_fr": "Programme d'apprentissage du code couvrant les besoins de niveau débutant jusqu'aux connaissances avancées exigées pour travailler dans les entreprises technologiques de premier plan.",
-    "description_fr": "Programme d'apprentissage du code couvrant les besoins de niveau débutant jusqu'aux connaissances avancées exigées pour travailler dans les entreprises technologiques de premier plan.\n\nDécoupage des objectifs : transformez des visions en plans structurés. Génération automatique de tâches : attribue des actions adaptées aux développeurs. Cartographie des jalons : visualisez l'avancement du projet. Flux de travail personnalisés : adaptez la planification à votre style.",
+    "summary_fr": "Programme d'apprentissage du code couvrant les besoins de niveau débutant jusqu'aux connaissances de haut niveau en code exigées pour travailler dans les entreprises technologiques de premier plan.",
+    "description_fr": "Programme d'apprentissage du code couvrant les besoins de niveau débutant jusqu'aux connaissances de haut niveau en code exigées pour travailler dans les entreprises technologiques de premier plan.\n\nDécoupage des objectifs : transformez des visions en plans structurés. Génération automatique de tâches : attribue des actions adaptées aux développeurs. Cartographie des jalons : visualisez l'avancement du projet. Flux de travail personnalisés : adaptez la planification à votre style.",
     "tags_fr": [
       "IA",
       "Planification de projet",
@@ -598,7 +598,7 @@
   },
   "cursor": {
     "summary_fr": "Éditeur de code par IA avec agents, désormais regroupé avec les plans Grok de xAI.",
-    "description_fr": "Cursor est un éditeur de code conçu en priorité pour l'IA, avec des agents, la complétion au tab, des agents cloud et la revue de code. Sa page de tarifs présente désormais un abonnement partagé avec Grok et X : le plan Free (0 $) a un usage limité de l'IA, Plus est à 8 $ par mois avec les modèles Grok uniquement, Premium à 30 $ par mois ajoute les derniers modèles et les agents cloud, et Super (100 $) et Ultra (200 $) augmentent l'usage. Les modèles tiers sont facturés séparément à l'usage ; il ne devrait plus être indiqué comme Free.",
+    "description_fr": "Cursor est un éditeur de code conçu en priorité pour l'IA, avec des agents, la complétion au tab, des agents cloud et la revue de code. Sa page de tarifs présente désormais un abonnement partagé avec Grok et X : le plan Free (0 $) a un usage limité de l'IA, Plus est à 8 $ par mois avec uniquement les modèles Grok, Premium à 30 $ par mois ajoute les derniers modèles et les agents cloud, et Super (100 $) et Ultra (200 $) augmentent l'usage. Les modèles tiers sont facturés séparément à l'usage ; il ne devrait plus être indiqué comme Free.",
     "tags_fr": [
       "éditeur de code",
       "ide",
@@ -616,7 +616,7 @@
   },
   "databricks": {
     "summary_fr": "Databricks propose une plateforme unifiée pour les données, l'analytics et l'IA. Construisez une meilleure IA avec une approche centrée sur les données. Simplifiez l'ETL, l'entreposage de données, la gouvernance et l'IA sur la Data + AI Platform.",
-    "description_fr": "Databricks propose une plateforme unifiée pour les données, l'analytics et l'IA. Construisez une meilleure IA avec une approche centrée sur les données. Simplifiez l'ETL, l'entreposage de données, la gouvernance et l'IA sur la Data + AI Platform.\n\nPlateforme de données unifiée : réunit l'ingénierie des données, la science des données, l'apprentissage automatique et l'analytics dans une seule plateforme collaborative. Delta Lake : fournit des lacs de données fiables, avec la prise en charge des transactions ACID, une gestion évolutive des métadonnées et l'unification des données en flux et par lots. Notebooks collaboratifs : permet aux équipes d'écrire et d'exécuter du code ensemble en temps réel, dans des langages comme Python, SQL, Scala et R. Intégration MLflow : prise en charge intégrée du suivi des expériences, du versionnage des modèles et de flux d'apprentissage automatique reproductibles.",
+    "description_fr": "Databricks propose une plateforme unifiée pour les données, l'analytics et l'IA. Construisez une meilleure IA avec une approche centrée sur les données. Simplifiez l'ETL, l'entreposage de données, la gouvernance et l'IA sur la Data + AI Platform.\n\nPlateforme de données unifiée : réunit l'ingénierie des données, la science des données, l'apprentissage automatique et l'analytics dans une seule plateforme collaborative. Delta Lake : fournit des lacs de données fiables, avec la prise en charge des transactions ACID, une gestion évolutive des métadonnées et l'unification des données en flux et par lots. Notebooks collaboratifs : permet aux équipes d'écrire et d'exécuter du code ensemble en temps réel, dans des langages comme Python, SQL, Scala et R. Intégration MLflow : prise en charge intégrée du suivi des expériences, du versionnage des modèles et des flux d'apprentissage automatique reproductibles.",
     "tags_fr": [
       "Big data",
       "Ingénierie des données",
@@ -655,7 +655,7 @@
   },
   "deepbrainai": {
     "summary_fr": "DeepBrain AI permet de générer des vidéos d'avatars humains réalistes à partir de scripts, dans plusieurs langues. Utilisé pour l'actualité, la formation et les contenus explicatifs, avec des présentateurs IA réalistes.",
-    "description_fr": "DeepBrain AI permet de générer des vidéos d'avatars humains réalistes à partir de scripts, dans plusieurs langues. Utilisé pour l'actualité, la formation et les contenus explicatifs, avec des présentateurs IA réalistes.\n\nGénérateur de vidéos par IA, texte vers vidéo, vidéos génératives, avatar personnalisé, 2 000+ avatars, doublage par IA avec traduction, TTS avec 150+ langues, et 7 000+ modèles de vidéo — pour la formation RH et les créateurs YouTube.\n\nAvatars de présentateurs d'actualité par IA : générez instantanément des vidéos professionnelles de style journal avec des présentateurs numériques, en réduisant le temps et les coûts de production. Prise en charge multilingue : créez des vidéos dans plus de 80 langues, pour une portée mondiale et une image de marque cohérente sur différents marchés. Avatars personnalisés : importez votre propre visage ou choisissez parmi un ensemble varié de personas numériques pour correspondre à l'image de votre entreprise ou à votre public. Script vers vidéo simple : collez simplement votre script et recevez une vidéo soignée, menée par un présentateur, prête pour la publication ou un usage interne.",
+    "description_fr": "DeepBrain AI permet de générer des vidéos d'avatars humains réalistes à partir de scripts, dans plusieurs langues. Utilisé pour l'actualité, la formation et les contenus explicatifs, avec des présentateurs IA réalistes.\n\nGénérateur de vidéos par IA, texte vers vidéo, vidéos génératives, avatar personnalisé, 2 000+ avatars, doublage par IA avec traduction, TTS avec 150+ langues, et 7 000+ modèles de vidéo — pour la formation RH et les créateurs YouTube.\n\nAvatars de présentateurs d'actualité par IA : générez instantanément des vidéos professionnelles de style actualités avec des présentateurs numériques, en réduisant le temps et les coûts de production. Prise en charge multilingue : créez des vidéos dans plus de 80 langues, pour une portée mondiale et une image de marque cohérente sur différents marchés. Avatars personnalisés : importez votre propre visage ou choisissez parmi un ensemble varié de personas numériques pour correspondre à l'image de votre entreprise ou à votre public. Script vers vidéo simple : collez simplement votre script et recevez une vidéo soignée, menée par un présentateur, prête pour la publication ou un usage interne.",
     "tags_fr": [
       "IA",
       "Avatar",
@@ -683,7 +683,7 @@
   },
   "deepl": {
     "summary_fr": "Assistant de traduction et d'écriture par IA, connu pour sa précision.",
-    "description_fr": "DeepL fournit une traduction par IA des textes et des documents dans des dizaines de langues, plus DeepL Write pour la révision et une API pour les développeurs. Il est largement reconnu pour des traductions naturelles et précises, et pour la sécurité des données des entreprises. Une version gratuite permet jusqu'à 50 000 caractères par mois ; DeepL Pro Individual coûte 7,49 EUR par mois en facturation annuelle, avec un essai gratuit de 30 jours, et les plans Team et Business sont disponibles.",
+    "description_fr": "DeepL fournit une traduction par IA des textes et des documents dans des dizaines de langues, ainsi que DeepL Write pour la révision et une API pour les développeurs. Il est largement reconnu pour des traductions naturelles et précises, et pour la sécurité des données des entreprises. Une version gratuite permet jusqu'à 50 000 caractères par mois ; DeepL Pro Individual coûte 7,49 EUR par mois en facturation annuelle, avec un essai gratuit de 30 jours, et les plans Team et Business sont disponibles.",
     "tags_fr": [
       "traduction",
       "écriture",
@@ -814,7 +814,7 @@
   },
   "elicit": {
     "summary_fr": "Assistant de recherche par IA pour synthétiser des preuves scientifiques.",
-    "description_fr": "Elicit aide les chercheurs à chercher des articles académiques, à extraire des données dans des tableaux et à synthétiser des preuves pour des revues systématiques et des rapports de recherche. Il est conçu pour la rigueur, avec des citations au niveau de la phrase, et il est utilisé par plus de 7 millions de chercheurs. Un plan gratuit est disponible pour la recherche de base et les résumés, et les plans payants ajoutent des limites plus élevées, l'extraction de données et les rapports.",
+    "description_fr": "Elicit aide les chercheurs à rechercher des articles académiques, à extraire des données dans des tableaux et à synthétiser des preuves pour des revues systématiques et des rapports de recherche. Il est conçu pour la rigueur, avec des citations au niveau de la phrase, et il est utilisé par plus de 7 millions de chercheurs. Un plan gratuit est disponible pour la recherche de base et les résumés, et les plans payants ajoutent des limites plus élevées, l'extraction de données et les rapports.",
     "tags_fr": [
       "recherche",
       "articles",
@@ -1420,7 +1420,7 @@
   },
   "leonardo_ai": {
     "summary_fr": "Leonardo.Ai est une plateforme créative fondée sur l'IA, destinée à générer de l'art, des illustrations et des images de concept de haute qualité. Elle propose divers modèles génératifs et outils de personnalisation, ce qui la rend adaptée aux assets de jeu, aux concept artists et aux designers en quête de visuels uniques. Son interface intuitive et la génération à partir de prompts aident les utilisateurs à créer des œuvres professionnelles avec un effort minimal.",
-    "description_fr": "Leonardo.Ai est une plateforme créative fondée sur l'IA, destinée à générer de l'art, des illustrations et des images de concept de haute qualité. Elle propose divers modèles génératifs et outils de personnalisation, ce qui la rend adaptée aux assets de jeu, aux concept artists et aux designers en quête de visuels uniques. Son interface intuitive et la génération à partir de prompts aident les utilisateurs à créer des œuvres professionnelles avec un effort minimal.\n\nGénération à partir de prompts : crée des images à partir de prompts textuels. Personnalisation du style : permet de choisir parmi divers styles artistiques et modificateurs. Génération par lots : produit plusieurs variations en même temps. Bibliothèque d'assets : enregistre et gère vos créations générées.",
+    "description_fr": "Leonardo.Ai est une plateforme créative fondée sur l'IA, destinée à générer de l'art, des illustrations et des images de concept de haute qualité. Elle propose divers modèles génératifs et outils de personnalisation, ce qui la rend adaptée aux assets de jeu, aux concept artists et aux designers en quête de visuels uniques. Son interface intuitive et la génération à partir de prompts aident les utilisateurs à créer des œuvres professionnelles avec un effort minimal.\n\nGénération à partir de prompts : crée des images à partir de prompts textuels. Personnalisation du style : permet de choisir parmi divers styles artistiques et modificateurs. Génération par lots : produit plusieurs variations en même temps. Bibliothèque d'assets : enregistre et gère vos œuvres générées.",
     "tags_fr": [
       "Art IA",
       "Art conceptuel",
@@ -1530,7 +1530,7 @@
   },
   "lummi-ai": {
     "summary_fr": "Un assistant de design qui génère des concepts, propose des suggestions de mise en page et offre des prompts créatifs pour lancer le processus de conception.",
-    "description_fr": "Un assistant de design qui génère des concepts, propose des suggestions de mise en page et offre des prompts créatifs pour lancer le processus de conception.\n\nParcourez notre collection de photos de stock, d'illustrations et de visuels 3D uniques, générés par IA et libres de droits. Elle est parfaite pour tous vos projets créatifs, et chaque image est réalisée par des artistes numériques du monde entier.\n\nGénération de design par IA : crée instantanément des concepts à partir de prompts. Suggestions de mise en page : fournit automatiquement des idées de mise en page et de couleurs. Prompts créatifs : offre une inspiration unique pour démarrer de nouveaux projets. Automatisation des moodboards : constitue des moodboards et des guides de style avec l'IA.",
+    "description_fr": "Un assistant de design qui génère des concepts, propose des suggestions de mise en page et offre des prompts créatifs pour lancer le processus de conception.\n\nParcourez notre collection de photos de stock, d'illustrations et de visuels 3D, tous uniques, générés par IA et libres de droits. Elle est parfaite pour tous vos projets créatifs, et chaque image est réalisée par des artistes numériques du monde entier.\n\nGénération de design par IA : crée instantanément des concepts à partir de prompts. Suggestions de mise en page : fournit automatiquement des idées de mise en page et de couleurs. Prompts créatifs : offre une inspiration unique pour démarrer de nouveaux projets. Automatisation des moodboards : constitue des moodboards et des guides de style avec l'IA.",
     "tags_fr": [
       "IA",
       "Assistant design",
