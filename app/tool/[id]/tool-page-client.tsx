@@ -121,7 +121,7 @@ export default function ToolPageClient({ tool, relatedTools, successorName }: To
           <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4 gap-4">
             <h1 className="text-3xl font-bold">{tool.name}</h1>
             <div className="flex gap-2">
-              <Link href={tool.affiliateUrl || tool.url} target="_blank" rel="noopener noreferrer" className="px-4 py-1 rounded bg-purple-500 text-white font-semibold hover:bg-purple-600 flex items-center gap-1 text-sm">
+              <Link href={tool.url} target="_blank" rel="noopener noreferrer" className="px-4 py-1 rounded bg-purple-500 text-white font-semibold hover:bg-purple-600 flex items-center gap-1 text-sm">
                 Visit Website <ExternalLink className="w-4 h-4 ml-1" />
               </Link>
             </div>

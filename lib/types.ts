@@ -22,7 +22,6 @@ export interface Tool {
     links?: { label: string; url: string }[];
   }[]
   longDescription?: string
-  affiliateUrl?: string
   status?: 'active' | 'renamed' | 'sunset' | 'duplicate-of'
   successorId?: string
   statusNote?: string

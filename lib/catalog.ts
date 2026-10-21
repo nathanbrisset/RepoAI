@@ -12,7 +12,6 @@ export function toRuntimeTool(entry: CatalogTool): Tool {
     description: entry.summary,
     longDescription: entry.description,
     url: entry.url,
-    affiliateUrl: entry.affiliateUrl,
     image: entry.image,
     logo: entry.logo,
     categories: entry.categories,
@@ -34,7 +33,7 @@ export function toRuntimeTool(entry: CatalogTool): Tool {
     successorId: entry.successorId,
     statusNote: entry.statusNote,
     lastVerified: entry.lastVerified,
-    sources: entry.sources,
+    sources: entry.sources?.filter((source) => source !== entry.affiliateUrl),
   } as Tool
 }
 

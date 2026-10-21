@@ -36,7 +36,7 @@ export const howToStepSchema = z.object({
 
 /**
  * One file in content/tools/{id}.json.
- * affiliateUrl stays "" until a real affiliate program is added.
+ * affiliateUrl is stored on the fiche and is not read by the site. Visit links use url.
  * lastVerified is the day the fiche was checked, or null when it was only migrated.
  */
 export const toolSchema = z.object({

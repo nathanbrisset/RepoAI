@@ -10,7 +10,7 @@ node scripts/catalog-index.mjs
 
 That checks every file with the same rules as `lib/tool-schema.ts` and rewrites `content/tools/index.ts`. The index is generated. Do not edit it by hand.
 
-`affiliateUrl` stays `""` until a real affiliate URL is recorded. The Visit button uses it only when it is non-empty, and otherwise uses `url`.
+`affiliateUrl` can hold an `https` affiliate URL. The site does not read it. Every Visit button and outgoing product link uses `url`, the official address.
 
 ## Fields
 
@@ -19,7 +19,7 @@ That checks every file with the same rules as `lib/tool-schema.ts` and rewrites 
 | `id` | yes | File name without `.json`. Lowercase letters, digits, `-` or `_`. This is the URL `/tool/{id}`. Do not rename an id that is already online. |
 | `name` | yes | Product name as on the official site. |
 | `url` | yes | Official `https` URL after redirects. |
-| `affiliateUrl` | yes | `""` or an `https` affiliate URL. |
+| `affiliateUrl` | yes | `""` or an `https` affiliate URL. Stored only. Pages never link to it. |
 | `status` | yes | `active`, `renamed`, `sunset`, or `duplicate-of`. |
 | `successorId` | no | Another fiche id. Required in practice for `duplicate-of`. |
 | `statusNote` | no | Why the status is not `active`. Shown on the fiche. |
