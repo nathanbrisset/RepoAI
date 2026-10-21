@@ -1,11 +1,13 @@
 import { Metadata } from "next"
 import { mockTools } from "@/lib/data"
+import { pageMetadata } from "@/lib/seo"
 import ToolCard from "@/components/tool-card"
 
-export const metadata: Metadata = {
-  title: "New AI Tools | AI Tools Directory",
-  description: "Discover the latest AI tools added to our directory",
-}
+export const metadata: Metadata = pageMetadata({
+  title: "Newest AI Tools",
+  description: "AI tools most recently added to the AI Tools Ninja directory, sorted by the date they were listed.",
+  path: "/category/new",
+})
 
 export default async function NewToolsPage() {
   // Sort tools by dateAdded (newest first)

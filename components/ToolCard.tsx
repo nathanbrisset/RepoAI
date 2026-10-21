@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Tool } from '@/lib/types'
+import { formatLabel } from '@/lib/format-label'
 import Link from 'next/link'
 
 interface ToolCardProps {
@@ -36,7 +37,7 @@ export function ToolCard({ tool }: ToolCardProps) {
               key={tag}
               className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs text-gray-600"
             >
-              {tag}
+              {formatLabel(tag)}
             </span>
           ))}
         </div>

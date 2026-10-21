@@ -1,11 +1,13 @@
 import { Metadata } from "next"
 import { mockTools } from "@/lib/data"
+import { pageMetadata } from "@/lib/seo"
 import ToolCard from "@/components/tool-card"
 
-export const metadata: Metadata = {
-  title: "Top Rated AI Tools | AI Tools Directory",
-  description: "Discover the highest rated AI tools in our directory",
-}
+export const metadata: Metadata = pageMetadata({
+  title: "Top Rated AI Tools",
+  description: "AI tools in the AI Tools Ninja directory ordered by the rating stored on each listing.",
+  path: "/category/top-rated",
+})
 
 export default async function TopRatedToolsPage() {
   // Sort tools by rating (highest first)

@@ -1,50 +1,53 @@
-'use client'
+"use client"
 
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from "react"
+import { readConsent, writeConsent } from "@/lib/consent"
+
+const choiceButton =
+  "flex-1 md:flex-none min-w-[9.5rem] px-4 py-2 text-sm font-semibold rounded-md border transition-colors"
 
 export default function CookieConsent() {
   const [showBanner, setShowBanner] = useState(false)
 
   useEffect(() => {
-    // Check if user has already made a choice
-    const consent = localStorage.getItem('cookieConsent')
-    if (!consent) {
-      setShowBanner(true)
-    }
+    setShowBanner(readConsent() === null)
   }, [])
-
-  const handleAccept = () => {
-    localStorage.setItem('cookieConsent', 'accepted')
-    setShowBanner(false)
-  }
-
-  const handleDecline = () => {
-    localStorage.setItem('cookieConsent', 'declined')
-    setShowBanner(false)
-  }
 
   if (!showBanner) return null
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-lg p-4 z-50">
+    <div
+      className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-lg p-4 z-50"
+      role="dialog"
+      aria-label="Cookie consent"
+    >
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-        <div className="flex-1">
-          <p className="text-sm text-gray-600">
-            We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. 
-            By clicking "Accept", you consent to our use of cookies. Read our{' '}
-            <a href="/privacy" className="text-blue-600 hover:underline">Privacy Policy</a> for more information.
-          </p>
-        </div>
-        <div className="flex gap-4">
+        <p className="flex-1 text-sm text-gray-700">
+          We use Google Analytics only if you accept. Rejecting is one click and keeps analytics off.
+          Read the{" "}
+          <a href="/privacy" className="text-purple-700 underline">
+            privacy policy
+          </a>
+          .
+        </p>
+        <div className="flex w-full md:w-auto gap-3">
           <button
-            onClick={handleDecline}
-            className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-md transition-colors"
+            type="button"
+            onClick={() => {
+              writeConsent("declined")
+              setShowBanner(false)
+            }}
+            className={`${choiceButton} bg-white text-gray-900 border-gray-900 hover:bg-gray-100`}
           >
             Decline
           </button>
           <button
-            onClick={handleAccept}
-            className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors"
+            type="button"
+            onClick={() => {
+              writeConsent("accepted")
+              setShowBanner(false)
+            }}
+            className={`${choiceButton} bg-gray-900 text-white border-gray-900 hover:bg-gray-800`}
           >
             Accept
           </button>
@@ -52,4 +55,4 @@ export default function CookieConsent() {
       </div>
     </div>
   )
-} 
+}

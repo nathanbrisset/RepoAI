@@ -37,7 +37,7 @@ export default function ToolsClient({ tools }: ToolsClientProps) {
       <div className="container mx-auto max-w-6xl px-4 py-12">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12 gap-4">
           <div className="text-center md:text-left">
-            <h1 className="text-5xl font-extrabold mb-4 text-black">AI Tools Directory</h1>
+            <h1 className="text-5xl font-extrabold mb-4 text-black">All AI Tools</h1>
             <p className="text-xl text-gray-600 max-w-2xl">
               Browse our comprehensive collection of {tools.length} AI tools. Find the perfect solution for your needs.
             </p>

@@ -1,11 +1,13 @@
 import { Metadata } from "next"
 import { mockTools } from "@/lib/data"
+import { pageMetadata } from "@/lib/seo"
 import ToolCard from "@/components/tool-card"
 
-export const metadata: Metadata = {
-  title: "Most Popular AI Tools | AI Tools Directory",
-  description: "Discover the most visited AI tools in our directory",
-}
+export const metadata: Metadata = pageMetadata({
+  title: "Most Popular AI Tools",
+  description: "AI tools in the AI Tools Ninja directory ordered by the visit figures stored on each listing.",
+  path: "/category/popular",
+})
 
 export default async function PopularToolsPage() {
   // Sort tools by visits (highest first)

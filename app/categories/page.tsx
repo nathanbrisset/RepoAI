@@ -1,4 +1,6 @@
+import type { Metadata } from "next"
 import Link from "next/link"
+import { pageMetadata } from "@/lib/seo"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { mockTools } from "@/lib/data"
 import { 
@@ -13,6 +15,12 @@ import {
   BarChart,
   Database
 } from "lucide-react"
+
+export const metadata: Metadata = pageMetadata({
+  title: "AI Tool Categories",
+  description: "Browse AI tools by category: text, image, audio, video, coding, marketing, productivity, data processing, and design.",
+  path: "/categories",
+})
 
 // Map categories to their icons and descriptions
 const categoryInfo: Record<string, { icon: any, description: string }> = {

@@ -13,7 +13,7 @@ export default function Header() {
       <div className="container mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <img src="/placeholder-logo.png" alt="AITools.ninja Logo" className="w-8 h-8 rounded-md" />
-          <span className="font-bold text-xl">Your AI Ninja</span>
+          <span className="font-bold text-xl">AI Tools Ninja</span>
         </Link>
 
         {/* Desktop Navigation */}

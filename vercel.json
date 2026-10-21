@@ -4,5 +4,24 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "regions": ["cdg1"]
+  "regions": ["cdg1"],
+  "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "aitools.ninja" }],
+      "destination": "https://www.aitools.ninja/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "aitools.ninja" }],
+      "destination": "https://www.aitools.ninja/:path*",
+      "permanent": true
+    },
+    { "source": "/about/about", "destination": "/about", "permanent": true },
+    { "source": "/submit/submit", "destination": "/submit", "permanent": true },
+    { "source": "/tools/tools", "destination": "/tools", "permanent": true },
+    { "source": "/tool/tool/:id", "destination": "/tool/:id", "permanent": true },
+    { "source": "/tools/:id", "destination": "/tool/:id", "permanent": true }
+  ]
 } 

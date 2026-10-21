@@ -1,12 +1,8 @@
+import type { Metadata } from "next"
 import { categories, mockTools } from "@/lib/data"
-import { Badge } from "@/components/ui/badge"
-import Link from "next/link"
-import Image from "next/image"
-import { Star, ExternalLink } from "lucide-react"
-import ToolCard from "@/components/tool-card"
+import { metaDescription, pageMetadata } from "@/lib/seo"
 import BackButton from "./BackButton"
 import { notFound } from "next/navigation"
-import { useState } from "react"
 import PricingToolsGrid from "./PricingToolsGrid"
 
 // Generate static paths for all categories
@@ -16,20 +12,36 @@ export async function generateStaticParams() {
   }))
 }
 
-function capitalizeWords(str: string) {
-  return str.replace(/\b\w/g, c => c.toUpperCase());
-}
-
 type PageProps = {
   params: Promise<{ category: string }>
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }
 
-export default async function CategoryPage(props: PageProps) {
-  const [{ category }, searchParams] = await Promise.all([
-    props.params,
-    props.searchParams
-  ]);
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { category } = await params
+  const categoryObj = categories.find((entry) => entry.id === category)
+
+  if (!categoryObj) {
+    return pageMetadata({
+      title: "Category not found",
+      description: "This category is not part of the AI Tools Ninja directory.",
+      path: `/categories/${category}`,
+      noIndex: true,
+    })
+  }
+
+  return pageMetadata({
+    title: `${categoryObj.name} AI Tools`,
+    description: metaDescription(
+      categoryObj.description,
+      `Browse ${categoryObj.name} tools in the AI Tools Ninja directory.`
+    ),
+    path: `/categories/${categoryObj.id}`,
+  })
+}
+
+export default async function CategoryPage({ params }: PageProps) {
+  const { category } = await params
   
   const categoryObj = categories.find((c) => c.id === category);
   

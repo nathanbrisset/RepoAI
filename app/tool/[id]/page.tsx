@@ -1,5 +1,7 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { mockTools } from "@/lib/data";
+import { metaDescription, pageMetadata } from "@/lib/seo";
 import ToolPageClient from "./tool-page-client";
 
 // Generate static paths for all tools
@@ -12,6 +14,29 @@ export async function generateStaticParams() {
 type PageProps = {
   params: Promise<{ id: string }>;
   searchParams: Promise<Record<string, string>>;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { id } = await params;
+  const tool = mockTools.find((entry) => entry.id === id);
+
+  if (!tool) {
+    return pageMetadata({
+      title: "Tool not found",
+      description: "This AI tool listing is not in the AI Tools Ninja directory.",
+      path: `/tool/${id}`,
+      noIndex: true,
+    });
+  }
+
+  return pageMetadata({
+    title: tool.name,
+    description: metaDescription(
+      tool.description,
+      `${tool.name} is listed in the AI Tools Ninja directory. Read the summary and open the official website.`
+    ),
+    path: `/tool/${tool.id}`,
+  });
 }
 
 export default async function ToolPage({ params }: PageProps) {

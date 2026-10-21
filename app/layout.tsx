@@ -7,39 +7,11 @@ import Footer from "@/components/footer"
 import { ThemeProvider } from "@/components/theme-provider"
 import CookieConsent from "@/components/cookie-consent"
 import GoogleAnalytics from "@/components/GoogleAnalytics"
+import { rootMetadata } from "@/lib/seo"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata: Metadata = {
-  title: "Your AI Ninja",
-  description: "Your comprehensive directory of AI tools for every use case.",
-  icons: {
-    icon: "/favicon.ico",
-  },
-  metadataBase: new URL('https://repoai.vercel.app'),
-  openGraph: {
-    title: "RepoAI - AI Tools Directory",
-    description: "Discover and explore the best AI tools for your needs",
-    url: "https://repoai.vercel.app",
-    siteName: "RepoAI",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "RepoAI - AI Tools Directory"
-      }
-    ],
-    locale: "en_US",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "RepoAI - AI Tools Directory",
-    description: "Discover and explore the best AI tools for your needs",
-    images: ["/og-image.png"],
-  },
-}
+export const metadata: Metadata = rootMetadata
 
 export default function RootLayout({
   children,

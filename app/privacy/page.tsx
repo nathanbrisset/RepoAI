@@ -1,9 +1,11 @@
 import { Metadata } from "next"
+import { pageMetadata } from "@/lib/seo"
 
-export const metadata: Metadata = {
-  title: "Privacy Policy | AI Tools Directory",
-  description: "Privacy policy for AI Tools Directory",
-}
+export const metadata: Metadata = pageMetadata({
+  title: "Privacy Policy",
+  description: "How AI Tools Ninja handles contact messages, analytics cookies, and the choices in the cookie banner.",
+  path: "/privacy",
+})
 
 export default function PrivacyPolicyPage() {
   return (
@@ -12,12 +14,12 @@ export default function PrivacyPolicyPage() {
       <div className="h-1 w-24 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full mb-8"></div>
       
       <div className="prose prose-lg max-w-none">
-        <p className="text-gray-600 mb-8">Last updated: {new Date().toLocaleDateString()}</p>
+        <p className="text-gray-600 mb-8">Last updated: 21 October 2026</p>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
           <p className="mb-4">
-            Welcome to AI Tools Directory. We respect your privacy and are committed to protecting your personal data. 
+            Welcome to AI Tools Ninja. We respect your privacy and are committed to protecting your personal data. 
             This privacy policy will inform you about how we look after your personal data when you visit our website 
             and tell you about your privacy rights.
           </p>
@@ -70,7 +72,25 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">6. Contact Us</h2>
+          <h2 className="text-2xl font-semibold mb-4">6. Cookies and analytics</h2>
+          <p className="mb-4">
+            AI Tools Ninja does not load Google Analytics until you choose Accept on the cookie banner.
+            Refuse is on the same screen and takes one click, the same as Accept. If you refuse, the analytics script is not added.
+          </p>
+          <p className="mb-4">
+            If you accept, the site loads Google Analytics 4 (measurement ID G-R4T2NYFMFC). Google may set cookies such as
+            <span className="font-mono"> _ga </span>
+            and receive your IP address, browser, and pages viewed. The purpose is to measure aggregate traffic.
+            You can withdraw consent by clearing this site&apos;s data in your browser; the banner will show again and analytics will stay off until you accept.
+          </p>
+          <p className="mb-4">
+            The choice is stored in local storage on your device under the key cookieConsent. That storage is not an analytics cookie.
+            The site does not use the banner to personalize the directory.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">7. Contact Us</h2>
           <p className="mb-4">
             If you have any questions about this privacy policy or our privacy practices, please contact us at:
           </p>

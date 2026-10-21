@@ -4,6 +4,7 @@ import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import type { Tool } from "@/lib/types"
+import { formatLabel } from "@/lib/format-label"
 
 interface ToolCardProps {
   tool: Tool
@@ -37,8 +38,8 @@ export default function ToolCard({ tool }: ToolCardProps) {
           <p className="text-gray-700 text-sm mb-3 line-clamp-2">{tool.description}</p>
           <div className="flex flex-wrap gap-2 mb-2">
             {tool.categories.map((category) => (
-              <Badge key={category} variant="secondary" className="text-xs capitalize">
-                {category}
+              <Badge key={category} variant="secondary" className="text-xs">
+                {formatLabel(category)}
               </Badge>
             ))}
           </div>
@@ -46,7 +47,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
             <div className="flex flex-wrap gap-2 mb-2">
               {tool.tags.map((tag) => (
                 <Badge key={tag} variant="outline" className="text-xs text-purple-700 border-purple-300">
-                  {tag}
+                  {formatLabel(tag)}
                 </Badge>
               ))}
             </div>

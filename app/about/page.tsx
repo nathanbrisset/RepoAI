@@ -27,9 +27,9 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                 <h3 className="text-xl font-semibold mb-3 text-gray-900">Tool Discovery</h3>
-                <p className="text-gray-700">
-                  We continuously research and add new AI tools to our directory, ensuring you have access to the latest and most relevant solutions.
-                </p>
+                  <p className="text-gray-700">
+                    The directory groups AI tools by category so you can scan what is listed and open the official website.
+                  </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                 <h3 className="text-xl font-semibold mb-3 text-gray-900">Smart Recommendations</h3>
@@ -38,9 +38,9 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900">Detailed Reviews</h3>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900">Tool profiles</h3>
                 <p className="text-gray-700">
-                  Each tool in our directory comes with comprehensive information, including features, pricing, and user ratings.
+                  Each listing shows a short description, categories, a pricing label, and a link to the official website.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
@@ -73,7 +73,7 @@ export default function AboutPage() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-gray-900">Evaluation</h3>
                   <p className="text-gray-700">
-                    Each tool is thoroughly evaluated based on features, usability, pricing, and user feedback.
+                    We file publicly available details — category, pricing label, and a short description. We do not test each tool.
                   </p>
                 </div>
               </div>

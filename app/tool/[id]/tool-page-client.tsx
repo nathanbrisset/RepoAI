@@ -6,12 +6,8 @@ import Link from "next/link"
 import Image from "next/image"
 import { Star, ExternalLink, ThumbsUp, LogIn, FilePlus, User, ImageIcon, Upload, Globe, Zap, Eye, Download, HelpCircle } from "lucide-react"
 import ToolCard from "@/components/tool-card"
-import Head from "next/head"
 import { Tool } from '@/lib/types'
-
-function capitalizeWords(str: string) {
-  return str.replace(/\b\w/g, c => c.toUpperCase());
-}
+import { formatLabel } from "@/lib/format-label"
 
 interface ToolPageClientProps {
   tool: Tool;
@@ -51,47 +47,8 @@ export default function ToolPageClient({ tool, relatedTools }: ToolPageClientPro
   const [activeStep, setActiveStep] = useState(0);
   const [howToOpen, setHowToOpen] = useState(false);
 
-  const canonicalUrl = `https://aitools.ninja/tool/${tool.id}`;
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": tool.name,
-    "description": tool.description,
-    "applicationCategory": tool.categories.join(", "),
-    "url": tool.url,
-    "image": tool.image,
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": tool.rating,
-      "reviewCount": tool.visits
-    },
-    "offers": {
-      "@type": "Offer",
-      "price": tool.isPremium === 'Free' ? 0 : undefined,
-      "priceCurrency": "USD"
-    }
-  };
-
   return (
     <>
-      <Head>
-        <title>{tool.name} | AITools.ninja</title>
-        <meta name="description" content={tool.description} />
-        <link rel="canonical" href={canonicalUrl} />
-        {/* Open Graph */}
-        <meta property="og:title" content={tool.name} />
-        <meta property="og:description" content={tool.description} />
-        <meta property="og:image" content={tool.image} />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:type" content="website" />
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={tool.name} />
-        <meta name="twitter:description" content={tool.description} />
-        <meta name="twitter:image" content={tool.image} />
-        {/* JSON-LD Structured Data */}
-        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
-      </Head>
       <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Main Content */}
         <div className="lg:col-span-2">
@@ -106,7 +63,7 @@ export default function ToolPageClient({ tool, relatedTools }: ToolPageClientPro
           </div>
           <div className="flex flex-wrap gap-2 mb-2">
             {tool.categories.map((cat: string) => (
-              <Badge key={cat} variant="secondary" className="capitalize text-xs">{cat}</Badge>
+              <Badge key={cat} variant="secondary" className="text-xs">{formatLabel(cat)}</Badge>
             ))}
           </div>
           <div className="flex items-center gap-2 text-sm mb-6">
@@ -131,15 +88,15 @@ export default function ToolPageClient({ tool, relatedTools }: ToolPageClientPro
               <h2 className="text-xl font-bold mb-4">About {tool.name}</h2>
               <p className="text-gray-700 mb-4">{tool.description}</p>
               <p className="text-gray-700 mb-4">
-                <b>Categories:</b> {tool.categories.map(capitalizeWords).join(", ")}
+                <b>Categories:</b> {tool.categories.map(formatLabel).join(", ")}
               </p>
               {tool.tags && tool.tags.length > 0 && (
                 <p className="text-gray-700 mb-4">
-                  <b>Key Capabilities:</b> {tool.tags.map(capitalizeWords).join(", ")}
+                  <b>Key Capabilities:</b> {tool.tags.map(formatLabel).join(", ")}
                 </p>
               )}
               <p className="text-gray-700 mb-4">
-                {tool.name} is designed to help users in the {tool.categories.map(capitalizeWords).join(", ")} space. Whether you're a professional or a beginner, this tool offers features like {tool.tags && tool.tags.length > 0 ? tool.tags.map(capitalizeWords).slice(0, 3).join(", ") : "advanced AI capabilities"} to streamline your workflow and boost productivity. Explore its unique features and see how it can fit your needs!
+                {tool.name} is designed to help users in the {tool.categories.map(formatLabel).join(", ")} space. Whether you're a professional or a beginner, this tool offers features like {tool.tags && tool.tags.length > 0 ? tool.tags.map(formatLabel).slice(0, 3).join(", ") : "advanced AI capabilities"} to streamline your workflow and boost productivity. Explore its unique features and see how it can fit your needs!
               </p>
             </div>
           )}
@@ -182,7 +139,7 @@ export default function ToolPageClient({ tool, relatedTools }: ToolPageClientPro
                 <h2 className="text-3xl font-extrabold text-gray-900">How To Use {tool.name}</h2>
                 <div className="w-16 h-1 bg-gradient-to-r from-purple-500 to-blue-400 rounded-full" />
                 <div className="flex items-center gap-2 mt-2">
-                  <p className="text-gray-500 text-lg m-0">Follow these simple steps to create amazing AI-powered videos in minutes!</p>
+                  <p className="text-gray-500 text-lg m-0">Follow these steps to get started with {tool.name}.</p>
                   <button
                     className={`ml-2 flex items-center gap-1 px-2 py-1 rounded-lg border border-gray-200 bg-white shadow-sm transition-all duration-200 focus:outline-none cursor-pointer hover:bg-purple-50 ${howToOpen ? 'rotate-180' : ''}`}
                     aria-label={howToOpen ? 'Collapse steps' : 'Expand steps'}
@@ -285,7 +242,7 @@ export default function ToolPageClient({ tool, relatedTools }: ToolPageClientPro
             <div className="flex flex-col gap-3 text-sm mb-4">
               <div className="flex justify-between items-center">
                 <span className="text-gray-500">Category:</span>
-                <span className="font-medium">{tool.categories.map(capitalizeWords).join(", ")}</span>
+                <span className="font-medium">{tool.categories.map(formatLabel).join(", ")}</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-gray-500">Rating:</span>
@@ -312,7 +269,7 @@ export default function ToolPageClient({ tool, relatedTools }: ToolPageClientPro
                   <div className="flex flex-wrap gap-1">
                     {tool.tags.slice(0, 3).map((tag: string) => (
                       <span key={tag} className="px-2 py-1 bg-gray-100 rounded-full text-xs">
-                        {capitalizeWords(tag)}
+                        {formatLabel(tag)}
                       </span>
                     ))}
                   </div>

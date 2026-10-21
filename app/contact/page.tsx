@@ -4,25 +4,19 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useRef, useState } from "react";
-import { Mail, MessageSquare } from "lucide-react"
+import { Mail } from "lucide-react"
 
 export default function ContactPage() {
   const formRef = useRef<HTMLFormElement>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
-  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
-  const [isNotRobot, setIsNotRobot] = useState(false);
   const [consent, setConsent] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formRef.current) {
       setError("Form reference is missing");
-      return;
-    }
-    if (!isNotRobot) {
-      setError("Please confirm you are not a robot.");
       return;
     }
     if (!consent) {
@@ -57,7 +51,6 @@ export default function ContactPage() {
 
       setSuccess(true);
       formRef.current.reset();
-      setIsNotRobot(false);
       setConsent(false);
     } catch (err) {
       console.error('Error sending message:', err);
@@ -66,8 +59,6 @@ export default function ContactPage() {
       setIsSubmitting(false);
     }
   };
-
-  const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "";
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -152,17 +143,6 @@ export default function ContactPage() {
                 <label className="flex items-center space-x-2">
                   <input
                     type="checkbox"
-                    checked={isNotRobot}
-                    onChange={e => setIsNotRobot(e.target.checked)}
-                    className="form-checkbox h-4 w-4 text-blue-600"
-                  />
-                  <span>I am not a robot</span>
-                </label>
-              </div>
-              <div>
-                <label className="flex items-center space-x-2">
-                  <input
-                    type="checkbox"
                     checked={consent}
                     onChange={e => setConsent(e.target.checked)}
                     className="form-checkbox h-4 w-4 text-blue-600"
@@ -196,16 +176,9 @@ export default function ContactPage() {
                   <Mail className="h-6 w-6 text-blue-600 mt-1 mr-4" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Email</h3>
-                    <p className="text-gray-600">contact@aitoolsninja.com</p>
-                    <p className="text-sm text-gray-500 mt-1">We'll respond within 24 hours</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <MessageSquare className="h-6 w-6 text-blue-600 mt-1 mr-4" />
-                  <div>
-                    <h3 className="font-semibold text-gray-900">Live Chat</h3>
-                    <p className="text-gray-600">Available on our website</p>
-                    <p className="text-sm text-gray-500 mt-1">24/7 automated support</p>
+                    <p className="text-amber-900 bg-amber-50 border border-amber-200 rounded-md px-3 py-2 text-sm">
+                      Placeholder — a public email address is not configured yet. Use the form on this page.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -220,7 +193,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">How do you review tools?</h3>
-                  <p className="text-gray-600">We thoroughly test each tool and evaluate based on features, usability, and value.</p>
+                  <p className="text-gray-600">Listings summarize publicly available information such as the category, a pricing label, and a short description. We do not test each tool.</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Can I advertise on your platform?</h3>
