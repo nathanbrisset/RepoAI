@@ -15,15 +15,16 @@
     "Privacy"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; pricing: free for hobby sites, paid from $20/month",
+    "sourceUrl": "https://simpleanalytics.com"
   },
   "logo": "/logos/simple-analytics.png",
   "image": "/tool-screenshots/simple-analytics.png",
   "dateAdded": "2022-03-15",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Privacy-First Tracking: Collects website analytics without using cookies, ensuring user privacy.",
     "Event and Goal Tracking: Allows setting up goals and tracking specific events on your website.",

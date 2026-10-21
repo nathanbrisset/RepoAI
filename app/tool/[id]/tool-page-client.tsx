@@ -16,6 +16,20 @@ function capitalizeWords(str: string) {
 interface ToolPageClientProps {
   tool: Tool;
   relatedTools: any[]; // Replace with your Tool[] type
+  successorName?: string;
+}
+
+const STATUS_LABEL: Record<string, string> = {
+  sunset: "Closed",
+  renamed: "Renamed",
+  "duplicate-of": "Duplicate",
+}
+
+function successorLabel(toolName: string, successorId?: string, successorName?: string) {
+  if (!successorId) return ""
+  if (successorName && successorName !== toolName) return successorName
+  if (successorName) return `${successorName} (${successorId})`
+  return successorId
 }
 
 // Icon mapping for steps
@@ -46,7 +60,7 @@ const gradients = [
   "from-gray-50 to-gray-100"
 ];
 
-export default function ToolPageClient({ tool, relatedTools }: ToolPageClientProps) {
+export default function ToolPageClient({ tool, relatedTools, successorName }: ToolPageClientProps) {
   const [tab, setTab] = useState<'overview' | 'features' | 'reviews'>('overview');
   const [activeStep, setActiveStep] = useState(0);
   const [howToOpen, setHowToOpen] = useState(false);
@@ -117,12 +131,14 @@ export default function ToolPageClient({ tool, relatedTools }: ToolPageClientPro
               <Badge key={cat} variant="secondary" className="capitalize text-xs">{cat}</Badge>
             ))}
           </div>
-          {tool.status && tool.status !== "active" && (
+          {((tool.status && tool.status !== "active") || tool.statusNote) && (
             <div className="mb-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950">
-              <span className="font-semibold capitalize">{tool.status.replace("-", " ")}. </span>
+              {tool.status && tool.status !== "active" && (
+                <span className="font-semibold">{STATUS_LABEL[tool.status] || tool.status}. </span>
+              )}
               {tool.statusNote}
               {tool.successorId && (
-                <> See <Link href={`/tool/${tool.successorId}`} className="underline">{tool.successorId}</Link>.</>
+                <> See <Link href={`/tool/${tool.successorId}`} className="underline">{successorLabel(tool.name, tool.successorId, successorName)}</Link>.</>
               )}
             </div>
           )}
@@ -133,7 +149,7 @@ export default function ToolPageClient({ tool, relatedTools }: ToolPageClientPro
           </div>
           {(tool.image || tool.logo) && (
           <div className="w-full aspect-[4/3] bg-gray-100 rounded-xl flex items-center justify-center mb-6 relative overflow-hidden" style={{ minHeight: 340 }}>
-            <Image src={tool.image || tool.logo || ""} alt={tool.name} fill className="object-contain" />
+            <Image src={tool.image || tool.logo || ""} alt={tool.name} fill className="object-contain" unoptimized={(tool.image || tool.logo || "").endsWith(".svg")} />
           </div>
           )}
           {/* Tabs */}

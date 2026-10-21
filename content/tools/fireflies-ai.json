@@ -15,15 +15,16 @@
     "Meetings"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; fireflies.ai/pricing: Free $0, Pro $10-18/seat/month",
+    "sourceUrl": "https://fireflies.ai/pricing"
   },
   "logo": "/logos/fireflies-ai.png",
   "image": "/tool-screenshots/fireflies-ai.png",
   "dateAdded": "2023-08-01",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Meeting Recording: Captures audio and video from meetings.",
     "Transcription: Converts speech to accurate, searchable text.",

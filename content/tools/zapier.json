@@ -15,15 +15,16 @@
     "Integration"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; zapier.com/pricing: Free $0, Professional from $19.99/month",
+    "sourceUrl": "https://zapier.com/pricing"
   },
   "logo": "/logos/zapier.png",
   "image": "/tool-screenshots/zapier.png",
   "dateAdded": "2023-10-01",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "App Integration: Connects 6,000+ apps to automate workflows.",
     "AI Actions: Automates tasks using natural language prompts.",

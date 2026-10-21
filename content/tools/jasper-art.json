@@ -17,15 +17,16 @@
     "Art"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "Listed Free; URL redirects to jasper.ai/image/pipelines; Jasper is paid (Pro $69/month)",
+    "sourceUrl": "https://jasper.ai/image/pipelines"
   },
   "logo": "/logos/jasper-art.png",
   "image": "/tool-screenshots/jasper-art.png",
   "dateAdded": "2022-04-01",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "AI Image Generation: Produces images based on text descriptions.",
     "Style Variations: Offers different artistic styles for outputs.",

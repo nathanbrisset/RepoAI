@@ -3,7 +3,7 @@
   "name": "MindsDB",
   "url": "https://mindshub.ai/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "renamed",
   "summary": "MindsDB is an open-source platform that brings advanced machine learning capabilities directly inside databases. It enables users to create, train, and deploy predictive models using simple SQL queries, without moving data out of the database. MindsDB supports a range of data types and integrates with popular databases and BI tools, simplifying the machine learning workflow for data engineers and analysts.",
   "description": "MindsDB is an open-source platform that brings advanced machine learning capabilities directly inside databases. It enables users to create, train, and deploy predictive models using simple SQL queries, without moving data out of the database. MindsDB supports a range of data types and integrates with popular databases and BI tools, simplifying the machine learning workflow for data engineers and analysts.\n\nManage AI access, usage, and budgets in one console. Use MindsHub models in your own apps and agents, or get work done with Cowork and Code. Start free.\n\nIn-Database ML: Train and deploy models within your existing database. Open Source: Free to use with commercial support options. Automated Machine Learning: Simplifies ML workflows for SQL users. Supports Multiple Data Types: Structured and unstructured data.",
   "categories": [
@@ -23,7 +23,7 @@
   "logo": "/logos/mindsdb.png",
   "image": "/tool-screenshots/mindsdb.png",
   "dateAdded": null,
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "dateAddedNote": "The previous Added date was 2017-09-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "In-Database ML: Train and deploy models within your existing database.",
@@ -55,5 +55,6 @@
       "title": "Query Predictions",
       "description": "Run SQL queries to get predictions from your deployed models."
     }
-  ]
+  ],
+  "statusNote": "mindsdb.com redirects to mindshub.ai (MindsHub - AI access/spend console); product changed"
 }

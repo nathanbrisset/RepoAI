@@ -3,7 +3,7 @@
   "name": "Phrasee",
   "url": "https://www.jacquard.com/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "renamed",
   "summary": "Phrasee uses AI to generate and optimize email subject lines, push notifications, and marketing copy, driving higher engagement and conversions for campaigns.",
   "description": "Phrasee uses AI to generate and optimize email subject lines, push notifications, and marketing copy, driving higher engagement and conversions for campaigns.\n\nThe agentic creative intelligence layer. Agents that plan, write, check and optimise your marketing content across email, SMS, push and web, in your brand voice. 30M+ messages sent weekly.\n\nGenerates high-performing subject lines. Push notification and SMS copy optimization. Brand voice adaptation with AI. A/B testing for copy variants.",
   "categories": [
@@ -24,7 +24,7 @@
   "logo": "/logos/phrasee.png",
   "image": "/tool-screenshots/phrasee.png",
   "dateAdded": "2025-06-11",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Generates high-performing subject lines.",
     "Push notification and SMS copy optimization.",
@@ -58,5 +58,6 @@
       "title": "Integrate with Marketing Tools",
       "description": "Connect Phrasee to your ESP, CRM, or marketing automation platform for seamless campaign execution and analytics."
     }
-  ]
+  ],
+  "statusNote": "phrasee.co redirects to jacquard.com (rebrand)"
 }

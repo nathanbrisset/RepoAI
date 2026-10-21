@@ -15,15 +15,16 @@
     "Automation"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; reclaim.ai/pricing: Lite Free forever + paid tiers",
+    "sourceUrl": "https://reclaim.ai/pricing"
   },
   "logo": "/logos/reclaim-ai.png",
   "image": "/tool-screenshots/reclaim-ai.png",
   "dateAdded": "2023-05-15",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Smart Calendar: Automatically finds the best time for tasks.",
     "Habit Scheduling: Maintains routines and habits within your workweek.",

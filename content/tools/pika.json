@@ -8,23 +8,25 @@
   "id": "pika",
   "name": "Pika",
   "url": "https://pika.art/",
-  "summary": "Creative AI tools. The homepage blurb is only one line.",
-  "description": "pika.art on 21 October 2026 was titled “Pika”. The meta description was “AI creative tools. Built for Creatives.” No feature list or price was in that text.",
+  "summary": "Creative AI tools for generating and editing short videos.",
+  "description": "Pika provides AI tools to generate and transform short videos from text and images, including playful effects for social media. It positions itself on creative, effect-driven video rather than long cinematic shots. A free plan is available to try the tools, and paid plans unlock more credits, higher quality and commercial features.",
   "categories": [
     "video"
   ],
   "tags": [
-    "Video",
-    "Creative"
+    "video-generation",
+    "text-to-video",
+    "effects"
   ],
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "sourceUrl": "https://pika.art/",
-    "note": "Price not in the meta description."
+    "verified": true,
+    "note": "A free plan is available to try the tools, and paid plans unlock more credits, higher quality and commercial features.",
+    "sourceUrl": "https://pika.art/pricing"
   },
   "sources": [
-    "https://pika.art/"
+    "https://pika.art",
+    "https://pika.art/pricing"
   ]
 }

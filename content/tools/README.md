@@ -10,7 +10,7 @@ node scripts/catalog-index.mjs
 
 That checks every file with the same rules as `lib/tool-schema.ts` and rewrites `content/tools/index.ts`. The index is generated. Do not edit it by hand.
 
-`affiliateUrl` stays `""` until there is a real affiliate program. The Visit button uses it only when it is non-empty, and otherwise uses `url`.
+`affiliateUrl` stays `""` until a real affiliate URL is recorded. The Visit button uses it only when it is non-empty, and otherwise uses `url`.
 
 ## Fields
 
@@ -56,10 +56,17 @@ These were not merged in, because they contradict that file:
 
 Choices made while migrating:
 
-- Same official URL twice: the extra card is `duplicate-of` and stays reachable, but it is hidden from lists. Otter.ai keeps `otter` and hides `otterai`. DataRobot Code points at DataRobot. INK for All points at INK.
+- Same official URL twice used to hide the extra card with `duplicate-of`. A later validated pass changed that for the rows it listed: those pages stay online with `status: "sunset"` and `successorId` when another fiche is the successor. Otter.ai keeps `otterai` and sunsets `otter`. DataRobot Code sunsets toward DataRobot. Both INK fiches sunset, and neither points at the other.
 - `dateAdded` before 2019-01-01 was cleared. Those values were company dates, not dates this directory added the tool.
 - A price label copied from the old file has `pricing.verified: false` and `lastVerified: null` unless a note says otherwise.
-- `sunset` means the product is closed or the URL no longer opens the product. `renamed` means the old name now redirects somewhere else.
+- `sunset` means the product is closed or the URL no longer opens the product. The page stays. `renamed` means the old name now redirects somewhere else.
+
+## Validated import (2026-10-21)
+
+Two files were applied onto this folder. Empty cells did not blank existing text. `id`, `image`, `features`, and `howToUse` were kept on updates. New fiches have no `visits` and no `rating`.
+
+- Lot v3: new products, plus updates of flagship fiches. Where a lot row is the same product as a file already here, that file was updated. Midjourney’s `url` and `logo` were left as stored, because that row had neither a final URL nor a logo.
+- Audit of the older 135-fiche list: each row was matched to this catalog by name or URL. Removes set `sunset` and do not delete the JSON. `successorId` is set only when the successor is another fiche in this folder.
 
 ## Adding a fiche
 

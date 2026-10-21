@@ -1,9 +1,9 @@
 {
   "id": "designify",
   "name": "Designify",
-  "url": "https://www.designify.com/",
+  "url": "https://www.canva.com/features/ai-photo-editing/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "AI tool for automatically enhancing product photos and removing backgrounds.",
   "description": "AI tool for automatically enhancing product photos and removing backgrounds.\n\nBackground Removal: Clears backgrounds automatically. Image Retouching: Enhances photos with one click. Templates: Adds styles and frames to images. Batch Editing: Process many images at once.",
   "categories": [
@@ -25,7 +25,7 @@
   "logo": "/logos/designify.png",
   "image": "/tool-screenshots/designify.png",
   "dateAdded": "2021-08-30",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Background Removal: Clears backgrounds automatically.",
     "Image Retouching: Enhances photos with one click.",
@@ -55,5 +55,7 @@
       "title": "Download Enhanced Images",
       "description": "Save processed photos for ecommerce or marketing."
     }
-  ]
+  ],
+  "statusNote": "designify.com redirects to Canva AI photo editing",
+  "successorId": "canva-ai"
 }

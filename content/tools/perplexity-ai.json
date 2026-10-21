@@ -1,29 +1,31 @@
 {
   "id": "perplexity-ai",
-  "name": "Perplexity AI",
+  "name": "Perplexity",
   "url": "https://www.perplexity.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "AI-powered search and answer engine with citations.",
-  "description": "AI-powered search and answer engine with citations.\n\nCited Answers: Provides real-time responses with source citations. Web Search Integration: Combines AI and live web data. Follow-Up Queries: Enables contextual back-and-forth questioning. Multimodal Inputs: Accepts both text and voice prompts.",
+  "summary": "AI answer engine with cited sources and research agents.",
+  "description": "Perplexity is an AI answer engine that searches the web and answers with cited sources, and now includes 'Computer' for building documents and apps, deep research and a choice of top models from OpenAI, Anthropic, Google, xAI and others. A free plan is available; Pro costs $17/month billed annually and Max $167/month billed annually, and it also makes the free Comet browser.",
   "categories": [
-    "productivity"
+    "text"
   ],
   "tags": [
-    "AI",
-    "Search",
-    "Research"
+    "search",
+    "answer-engine",
+    "research",
+    "citations"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "A free plan is available; Pro costs $17/month billed annually and Max $167/month billed annually, and it also makes the free Comet browser.",
+    "sourceUrl": "https://www.perplexity.ai/pro"
   },
   "logo": "/logos/perplexity-ai.png",
   "image": "/tool-screenshots/perplexity-ai.png",
   "dateAdded": "2023-07-15",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Cited Answers: Provides real-time responses with source citations.",
     "Web Search Integration: Combines AI and live web data.",
@@ -53,5 +55,8 @@
       "title": "Review Sources",
       "description": "Check citations for more context."
     }
+  ],
+  "sources": [
+    "https://www.perplexity.ai/pro"
   ]
 }

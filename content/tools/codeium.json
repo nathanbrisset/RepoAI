@@ -1,9 +1,9 @@
 {
   "id": "codeium",
   "name": "Codeium",
-  "url": "https://codeium.com",
+  "url": "https://devin.ai/desktop",
   "affiliateUrl": "",
-  "status": "renamed",
+  "status": "sunset",
   "summary": "Codeium’s site now redirects to Devin Desktop.",
   "description": "On 21 October 2026, codeium.com redirected to https://devin.ai/desktop. That page is titled “Devin Desktop” and describes managing local and cloud coding agents. The old Codeium autocomplete description is out of date. See the Devin card.",
   "categories": [
@@ -56,5 +56,5 @@
     "https://codeium.com",
     "https://devin.ai/desktop"
   ],
-  "statusNote": "Redirect observed 21 October 2026."
+  "statusNote": "codeium.com redirects to devin.ai/desktop (Windsurf); covered by 'Devin (incl. Windsurf)' in lot v3"
 }

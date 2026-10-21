@@ -3,7 +3,7 @@
   "name": "CodiumAI",
   "url": "https://www.qodo.ai/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "renamed",
   "summary": "Qodo is an AI code review tool giving teams deep codebase context to move faster and improve code quality, with 15+ agentic workflows for IDEs, PRs and security.",
   "description": "Qodo is an AI code review tool giving teams deep codebase context to move faster and improve code quality, with 15+ agentic workflows for IDEs, PRs and security.\n\nTest generation: Automatically creates meaningful tests. Real-time insights: Suggests fixes as you code. IDE integration: Works with VS Code and JetBrains. Code integrity: Identifies logical gaps and edge cases.",
   "categories": [
@@ -23,7 +23,7 @@
   "logo": "/logos/codiumai.png",
   "image": "/tool-screenshots/codiumai.png",
   "dateAdded": "2025-06-04",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Test generation: Automatically creates meaningful tests.",
     "Real-time insights: Suggests fixes as you code.",
@@ -53,5 +53,6 @@
       "title": "Iterate and Validate",
       "description": "Fix logical issues and cover edge cases with AI-guided input."
     }
-  ]
+  ],
+  "statusNote": "codium.ai redirects to qodo.ai (CodiumAI rebranded as Qodo)"
 }

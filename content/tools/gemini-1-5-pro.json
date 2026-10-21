@@ -4,24 +4,23 @@
   "url": "https://gemini.google.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Google’s Gemini assistant for chat and multimodal tasks.",
-  "description": "The old card named Gemini 1.5 Pro. The public product at gemini.google.com is the current Gemini app. The page returned HTTP 200 on 21 October 2026 but no title or price in the HTML, so a dollar price is not stated here. The Gemini API docs, which are a separate developer product, list a free tier and paid token rates.",
+  "summary": "Google's AI assistant app powered by Gemini models.",
+  "description": "Update replacing 'Gemini 1.5 Pro': Gemini is now Google's AI assistant and model family (latest Gemini 4 Argon) for chat, Deep Research, image and video creation and Gemini Live, integrated across Google apps. The app is free with a Google account; Google AI Plus costs $4.99/month, Pro $19.99/month and Ultra from $99.99/month, while developers access the models through Google AI Studio and the Gemini API.",
   "categories": [
     "text"
   ],
   "tags": [
-    "Translation",
-    "Academic",
-    "Factual",
-    "Multilingual",
-    "Summarization"
+    "chatbot",
+    "llm",
+    "assistant",
+    "google"
   ],
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "App price not read from gemini.google.com. The API docs show a free tier and paid rates; that is the developer API, not proof of the consumer plan price.",
-    "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing"
+    "verified": true,
+    "note": "The app is free with a Google account; Google AI Plus costs $4.99/month, Pro $19.99/month and Ultra from $99.99/month, while developers access the models through Google AI Studio and the Gemini API.",
+    "sourceUrl": "https://gemini.google/subscriptions/"
   },
   "logo": "/logos/gemini-1-5-pro.png",
   "image": "/tool-screenshots/gemini-1-5-pro.png",
@@ -58,7 +57,7 @@
     }
   ],
   "sources": [
-    "https://gemini.google.com/",
+    "https://gemini.google/subscriptions/",
     "https://ai.google.dev/gemini-api/docs/pricing"
   ]
 }

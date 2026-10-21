@@ -15,15 +15,16 @@
     "Automation"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "Listed Free; usemotion.com/pricing: $19 and $29/seat/month with free trial",
+    "sourceUrl": "https://usemotion.com/pricing"
   },
   "logo": "/logos/motion.png",
   "image": "/tool-screenshots/motion.png",
   "dateAdded": "2023-09-15",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "AI Scheduler: Automatically prioritizes and schedules tasks on your calendar.",
     "Meeting Booking: Handles meeting coordination with smart availability.",

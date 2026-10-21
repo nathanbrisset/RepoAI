@@ -16,15 +16,16 @@
     "Automation"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; pricing: Free 2h/month + paid credits",
+    "sourceUrl": "https://auphonic.com"
   },
   "logo": "/logos/auphonic.png",
   "image": "/tool-screenshots/auphonic.png",
   "dateAdded": "2023-03-20",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Audio Leveling: Automatically balances audio levels.",
     "Noise & Hum Reduction: Cleans up background noise and hums.",

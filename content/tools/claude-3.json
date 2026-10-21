@@ -4,23 +4,22 @@
   "url": "https://claude.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Anthropic’s assistant for chat, writing, files, and coding.",
-  "description": "Claude is Anthropic’s assistant, not a frozen “Claude 3” release. On the pricing page checked via search on 21 October 2026, Free is $0 and includes chat on the web, desktop, and mobile. Pro is $20 a month, or $17 a month when billed annually, and adds more usage plus Claude Code. Max starts at $100 a month.",
+  "summary": "Anthropic's AI assistant for writing, analysis and coding.",
+  "description": "Claude is Anthropic's AI assistant (replacing the outdated 'Claude 3' entry) for writing, analysis, research and coding, with Artifacts, projects, connectors and Claude in Chrome. It is known for careful reasoning and long documents. A free plan is available on web, desktop and mobile; Pro costs $17/month billed annually ($20 monthly) and includes Claude Code, while Max starts at $100/month.",
   "categories": [
     "text"
   ],
   "tags": [
-    "Long Context",
-    "Safe AI",
-    "Research",
-    "Creative Writing",
-    "Q&A"
+    "chatbot",
+    "llm",
+    "assistant",
+    "anthropic"
   ],
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "Free $0. Pro $20/month or $17/month billed annually. Max from $100/month.",
+    "note": "A free plan is available on web, desktop and mobile; Pro costs $17/month billed annually ($20 monthly) and includes Claude Code, while Max starts at $100/month.",
     "sourceUrl": "https://claude.com/pricing"
   },
   "logo": "/logos/claude-3.png",
@@ -58,7 +57,6 @@
     }
   ],
   "sources": [
-    "https://claude.com/pricing",
-    "https://claude.ai"
+    "https://claude.com/pricing"
   ]
 }

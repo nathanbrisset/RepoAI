@@ -3,7 +3,7 @@
   "name": "DataRobot Code",
   "url": "https://www.datarobot.com",
   "affiliateUrl": "",
-  "status": "duplicate-of",
+  "status": "sunset",
   "summary": "DataRobot delivers the industry-leading AI applications and platform that maximize impact and minimize risk for your business",
   "description": "DataRobot delivers the industry-leading AI applications and platform that maximize impact and minimize risk for your business\n\nAutomated Feature Engineering: Discovers and creates new features from datasets. Model Deployment: Simplifies the process of deploying machine learning models. Time Series Analysis: Provides tools for forecasting and analyzing time-based data. Integration with Python: Offers a Python client for advanced users.",
   "categories": [
@@ -52,5 +52,5 @@
     }
   ],
   "successorId": "datarobot",
-  "statusNote": "Same official URL as DataRobot. Kept so /tool/datarobot-code does not disappear."
+  "statusNote": "Same URL as DataRobot (datarobot.com), marked Free"
 }

@@ -27,5 +27,13 @@ export default async function ToolPage({ params }: PageProps) {
     (t) => t.id !== tool.id && t.categories.some((cat) => tool.categories.includes(cat))
   ).slice(0, 2);
 
-  return <ToolPageClient tool={tool} relatedTools={relatedTools} />;
+  const successor = tool.successorId ? allTools.find((item) => item.id === tool.successorId) : null
+
+  return (
+    <ToolPageClient
+      tool={tool}
+      relatedTools={relatedTools}
+      successorName={successor?.name}
+    />
+  );
 }

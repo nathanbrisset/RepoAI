@@ -4,27 +4,27 @@
   "url": "https://www.midjourney.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Generates high-quality images from text prompts, popular among artists.",
-  "description": "Generates high-quality images from text prompts, popular among artists.\n\nText-to-Image Generation: Creates detailed and artistic images from natural language prompts. Style Customization: Supports a wide range of artistic styles and visual effects. Community Gallery: Users can explore and remix public creations. Iterative Prompting: Refine and upscale images through multiple prompt variations.",
+  "summary": "AI image and video generation known for artistic quality.",
+  "description": "Midjourney generates highly aesthetic images, and now short videos, from text prompts via its web app and Discord. It is known for its distinctive artistic style and strong community. There is no free trial on midjourney.com; plans are Basic $10/month, Standard $30/month (with unlimited Relax mode), Pro $60/month and Mega $120/month, with discounts for annual billing.",
   "categories": [
-    "image",
-    "design"
+    "image"
   ],
   "tags": [
-    "Art",
-    "Concept Design",
-    "High Quality"
+    "text-to-image",
+    "image-generation",
+    "art"
   ],
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": true,
+    "note": "There is no free trial on midjourney.com; plans are Basic $10/month, Standard $30/month (with unlimited Relax mode), Pro $60/month and Mega $120/month, with discounts for annual billing.",
+    "sourceUrl": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans"
   },
   "logo": "/logos/midjourney.png",
   "image": "/tool-screenshots/midjourney.png",
   "dateAdded": "2022-07-12",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Text-to-Image Generation: Creates detailed and artistic images from natural language prompts.",
     "Style Customization: Supports a wide range of artistic styles and visual effects.",
@@ -54,5 +54,8 @@
       "title": "Download or Remix",
       "description": "Download final images or remix public artworks."
     }
+  ],
+  "sources": [
+    "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans"
   ]
 }

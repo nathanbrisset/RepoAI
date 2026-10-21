@@ -3,7 +3,7 @@
   "name": "Otter.ai",
   "url": "https://otter.ai/",
   "affiliateUrl": "",
-  "status": "duplicate-of",
+  "status": "active",
   "summary": "Otter AI Meeting Agent supports real-time transcription, live chat, automated summaries, insights, and action items.",
   "description": "Otter AI Meeting Agent supports real-time transcription, live chat, automated summaries, insights, and action items.\n\nAI audio processing: Otter.ai supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
   "categories": [
@@ -17,8 +17,9 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": true,
+    "note": "otter.ai/pricing: Basic Free, Pro $8.49-16.99/user/month",
+    "sourceUrl": "https://otter.ai/pricing"
   },
   "logo": "/logos/otterai.png",
   "image": "/tool-screenshots/otterai.png",
@@ -54,7 +55,5 @@
       "title": "Export Results",
       "description": "Download transcripts and audio or share with collaborators."
     }
-  ],
-  "successorId": "otter",
-  "statusNote": "Same official URL as Otter.ai. Kept so /tool/otterai does not disappear."
+  ]
 }

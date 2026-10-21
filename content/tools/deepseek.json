@@ -8,25 +8,27 @@
   "id": "deepseek",
   "name": "DeepSeek",
   "url": "https://www.deepseek.com/",
-  "summary": "Lab publishing open models such as DeepSeek-V4 and DeepSeek-R1, plus a chat app and an API.",
-  "description": "DeepSeek’s homepage meta description (Chinese, fetched 21 October 2026) says the lab researches general AI models, open-sources models including DeepSeek-V4 and DeepSeek-R1, offers a chat, and offers an API. No dollar price was in that sentence.",
+  "summary": "Chinese lab offering open-weight LLMs, a free chat app and a low-cost API.",
+  "description": "DeepSeek develops large language models and publishes open-weight models such as DeepSeek-R1 and DeepSeek-V4, usable for chat, reasoning and coding. Its differentiator is open weights combined with very low API prices, with off-peak discounts. Chatting in the web and mobile app is free; the API is pay-as-you-go, e.g. from $0.15 per million input tokens (cache miss, off-peak) on the current pricing table.",
   "categories": [
-    "text",
-    "coding"
+    "text"
   ],
   "tags": [
-    "Open weights",
-    "Chat",
-    "API"
+    "llm",
+    "open-source",
+    "chatbot",
+    "api",
+    "reasoning"
   ],
   "pricing": {
-    "model": "open-source",
-    "label": "Open source",
+    "model": "freemium",
+    "label": "Freemium",
     "verified": true,
-    "sourceUrl": "https://www.deepseek.com/",
-    "note": "Homepage says the named models are open source and that an API exists. API rates were not copied."
+    "note": "from $0.15 per million input tokens (cache miss, off-peak) on the current pricing table.",
+    "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing"
   },
   "sources": [
-    "https://www.deepseek.com/"
+    "https://www.deepseek.com",
+    "https://api-docs.deepseek.com/quick_start/pricing"
   ]
 }

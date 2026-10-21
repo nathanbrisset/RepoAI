@@ -1,7 +1,7 @@
 {
   "id": "ai-dungeon",
   "name": "AI Dungeon",
-  "url": "https://aidungeon.io",
+  "url": "https://aidungeon.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI-powered text adventure game and storytelling platform.",
@@ -24,7 +24,7 @@
   "logo": "/logos/ai-dungeon.png",
   "image": "/tool-screenshots/ai-dungeon.png",
   "dateAdded": "2022-01-15",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Interactive Storytelling: Generates dynamic narratives based on user input.",
     "Custom Adventures: Allows creation of personalized story scenarios.",
@@ -54,5 +54,6 @@
       "title": "Share and Replay",
       "description": "Share your stories or replay to explore different outcomes."
     }
-  ]
+  ],
+  "statusNote": "aidungeon.io redirects to aidungeon.com"
 }

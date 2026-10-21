@@ -18,15 +18,16 @@
     "Video Editing"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; descript.com/pricing: 'Free to Start', Hobbyist $16-24/person/month",
+    "sourceUrl": "https://descript.com/pricing"
   },
   "logo": "/logos/descript.png",
   "image": "/tool-screenshots/descript.png",
   "dateAdded": "2023-01-01",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Overdub: AI-powered voice cloning for seamless edits.",
     "Studio Sound: Enhances audio quality by removing noise and echo.",

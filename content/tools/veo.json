@@ -8,22 +8,26 @@
   "id": "veo",
   "name": "Veo",
   "url": "https://deepmind.google/models/veo/",
-  "summary": "Google DeepMind video model. The model page responded, without a readable blurb.",
-  "description": "https://deepmind.google/models/veo/ returned HTTP 200 on 21 October 2026. The HTML contained no title and no meta description, so this card does not invent capabilities or a price. Check the page before citing a version number.",
+  "summary": "Google DeepMind's video generation model with native audio.",
+  "description": "Veo is Google DeepMind's video model (currently Veo 3.1) that generates cinematic clips with synchronized audio from text and image prompts. It is available inside Google products such as Gemini and Flow and to developers via the Gemini API. On the Gemini API it is paid-tier only (not available on the free tier), from $0.05 per second for Veo 3.1 Lite at 720p; Google notes the Veo 3.1 preview endpoints shut down on Oct 22, 2026 in favour of Gemini Omni Flash.",
   "categories": [
     "video"
   ],
   "tags": [
-    "Video",
-    "Google"
+    "text-to-video",
+    "video-generation",
+    "google",
+    "audio"
   ],
   "pricing": {
-    "model": "freemium",
-    "label": "Freemium",
-    "verified": false,
-    "note": "No price in the fetched page."
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "On the Gemini API it is paid-tier only (not available on the free tier), from $0.05 per second for Veo 3.1 Lite at 720p; Google notes the Veo 3.1 preview endpoints shut down on Oct 22, 2026 in favour of Gemini Omni Flash.",
+    "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   "sources": [
-    "https://deepmind.google/models/veo/"
+    "https://deepmind.google/models/veo/",
+    "https://ai.google.dev/gemini-api/docs/pricing"
   ]
 }

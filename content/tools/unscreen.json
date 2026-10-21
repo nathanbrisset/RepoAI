@@ -1,9 +1,9 @@
 {
   "id": "unscreen",
   "name": "Unscreen",
-  "url": "https://www.unscreen.com",
+  "url": "https://www.canva.com/features/video-background-remover/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "Unscreen allows you to remove video backgrounds automatically without a green screen. Ideal for social content, memes, and remote presentations.",
   "description": "Unscreen allows you to remove video backgrounds automatically without a green screen. Ideal for social content, memes, and remote presentations.\n\nAutomatic background removal: Instantly removes video backgrounds without needing a green screen or manual masking. Supports GIF, MOV, MP4: Works with multiple video and animation formats for broad compatibility. Batch upload: Process many videos at once for efficient content creation. Custom backgrounds: Replace backgrounds with images, colors, or other videos to suit your project.",
   "categories": [
@@ -24,7 +24,7 @@
   "logo": "/logos/unscreen.png",
   "image": "/tool-screenshots/unscreen.png",
   "dateAdded": "2025-06-13",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Automatic background removal: Instantly removes video backgrounds without needing a green screen or manual masking.",
     "Supports GIF, MOV, MP4: Works with multiple video and animation formats for broad compatibility.",
@@ -62,5 +62,6 @@
       "title": "Batch Processing (Pro)",
       "description": "If you need to process many videos, sign up for a paid plan and use Unscreen Pro for batch uploads and higher resolution output."
     }
-  ]
+  ],
+  "statusNote": "unscreen.com redirects to Canva video background remover"
 }

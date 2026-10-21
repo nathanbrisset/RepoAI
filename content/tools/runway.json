@@ -4,28 +4,27 @@
   "url": "https://runway.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "AI-powered video editor and generator with Gen-2 and text-to-video capabilities.",
-  "description": "AI-powered video editor and generator with Gen-2 and text-to-video capabilities.\n\nAI Video Editing: Provides tools for background removal, color grading, and face blurring. Text-to-Video Generation: Generates videos from static images or text prompts using the Gen-3 Alpha model. Real-Time Collaboration: Allows multiple users to work simultaneously on a single project. Comprehensive Media Tools: Offers a suite of tools for generating and manipulating images, audio, and 3D assets.",
+  "summary": "AI video generation and editing platform for creators and studios.",
+  "description": "Runway is an AI platform for generating and editing video and images with its own Gen models and third-party models, used by creators, agencies and film studios. Its website has moved from runwayml.com to runway.com. The Free plan ($0) gives 125 one-time credits; Standard is $12/month billed annually ($15 monthly) with 625 credits and Pro $28/month billed annually, with Team and Enterprise plans.",
   "categories": [
     "video"
   ],
   "tags": [
-    "Video Editing",
-    "GenAI",
-    "Green Screen",
-    "Style Transfer",
-    "Inpainting"
+    "video-generation",
+    "video-editing",
+    "image-generation"
   ],
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": true,
+    "note": "The Free plan ($0) gives 125 one-time credits; Standard is $12/month billed annually ($15 monthly) with 625 credits and Pro $28/month billed annually, with Team and Enterprise plans.",
+    "sourceUrl": "https://runway.com/pricing"
   },
   "logo": "/logos/runway.png",
   "image": "/tool-screenshots/runway.png",
   "dateAdded": "2022-11-01",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "AI Video Editing: Provides tools for background removal, color grading, and face blurring.",
     "Text-to-Video Generation: Generates videos from static images or text prompts using the Gen-3 Alpha model.",
@@ -55,5 +54,8 @@
       "title": "Export Results",
       "description": "Download or share finished videos."
     }
+  ],
+  "sources": [
+    "https://runway.com/pricing"
   ]
 }

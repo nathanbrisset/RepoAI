@@ -8,24 +8,25 @@
   "id": "kling",
   "name": "Kling AI",
   "url": "https://kling.ai/",
-  "summary": "Text, image, and reference-to-video studio.",
-  "description": "Kling’s homepage on 21 October 2026 was titled “Kling AI: Next-Gen AI Video & Image Generator” and said it turns text, images, and references into video and images. No plan price was in that text.",
+  "summary": "Kuaishou's AI studio for video and image generation.",
+  "description": "Kling AI is a creative studio from Kuaishou that turns text, images and reference material into videos and images. It is known for realistic motion and multimodal inputs combined in a single workspace aimed at creators and marketers. A free tier ($0) gives credits to try the models, while paid subscriptions add more credits, higher resolution and faster generation.",
   "categories": [
-    "video",
-    "image"
+    "video"
   ],
   "tags": [
-    "Video",
-    "Image"
+    "text-to-video",
+    "image-to-video",
+    "video-generation"
   ],
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "sourceUrl": "https://kling.ai/",
-    "note": "Homepage fetched. Price not in the meta description."
+    "verified": true,
+    "note": "A free tier ($0) gives credits to try the models, while paid subscriptions add more credits, higher resolution and faster generation.",
+    "sourceUrl": "https://kling.ai/pricing"
   },
   "sources": [
-    "https://kling.ai/"
+    "https://kling.ai",
+    "https://kling.ai/pricing"
   ]
 }

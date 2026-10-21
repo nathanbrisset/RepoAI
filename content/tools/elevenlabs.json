@@ -1,25 +1,25 @@
 {
   "id": "elevenlabs",
   "name": "ElevenLabs",
-  "url": "https://elevenlabs.io",
+  "url": "https://elevenlabs.io/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Voice AI for speech, dubbing, and sound, with a free tier and paid plans.",
-  "description": "ElevenLabs sells text to speech, voice cloning, and related audio tools. The pricing page on 21 October 2026 listed Free at $0, Starter at $6/month, Creator at $22/month (first month shown at $11), Pro at $99/month, Scale at $299/month, and Business at $990/month. The old Free-only label was wrong.",
+  "summary": "AI voice generation, cloning, dubbing and voice agents.",
+  "description": "ElevenLabs provides realistic AI text-to-speech, voice cloning, speech-to-text, dubbing, sound effects, music and conversational voice agents via apps and API. It is a leading reference for natural-sounding voices in many languages. The Free plan ($0) includes 10k credits per month; Starter is $6/month, Creator $22/month, Pro $99/month, with Scale and Business tiers for teams.",
   "categories": [
     "audio"
   ],
   "tags": [
-    "AI",
-    "Voice Cloning",
-    "Multilingual",
-    "Dubbing"
+    "text-to-speech",
+    "voice-cloning",
+    "dubbing",
+    "api"
   ],
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "Free $0, Starter $6, Creator $22, Pro $99, Scale $299, Business $990 per month.",
+    "note": "The Free plan ($0) includes 10k credits per month; Starter is $6/month, Creator $22/month, Pro $99/month, with Scale and Business tiers for teams.",
     "sourceUrl": "https://elevenlabs.io/pricing"
   },
   "logo": "/logos/elevenlabs.png",

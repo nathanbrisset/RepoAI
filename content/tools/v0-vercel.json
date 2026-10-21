@@ -26,7 +26,7 @@
   "logo": "/logos/v0-vercel.png",
   "image": "/tool-screenshots/v0-vercel.png",
   "dateAdded": "2023-10-10",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Component Generation: Create UI components from text prompts.",
     "Code Export: Export components as usable code.",
@@ -52,5 +52,6 @@
       "title": "Edit & Export Code",
       "description": "Customize generated React + Tailwind components and export code for your project."
     }
-  ]
+  ],
+  "statusNote": "v0.dev redirects to v0.app"
 }

@@ -17,15 +17,16 @@
     "Readability"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; pricing page: Free plan + Premium $30/month monthly",
+    "sourceUrl": "https://prowritingaid.com"
   },
   "logo": "",
   "image": "/tool-screenshots/prowritingaid.png",
   "dateAdded": "2021-06-15",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Grammar Checker: Identifies and corrects grammatical errors in your writing.",
     "Style Editor: Provides suggestions to improve writing style and clarity.",

@@ -8,25 +8,26 @@
   "id": "grok",
   "name": "Grok",
   "url": "https://grok.com/",
-  "summary": "Assistant from SpaceXSI for chat, images, code, and live answers from the web and X.",
-  "description": "Grok’s homepage on 21 October 2026 said: “Grok is an AI assistant built by SpaceXSI. Chat, create images, write code, and get real-time answers from the web and X.” grok.com/pricing returned 404 and x.ai/pricing returned 403, so no plan price is copied here.",
+  "summary": "xAI's AI assistant with real-time web and X search.",
+  "description": "Grok is xAI's AI assistant for chat, voice, image and video creation, coding and real-time answers drawn from the web and X. It differentiates itself through live X integration and a single subscription that bundles Grok Chat, Imagine, Build, the Grok API, Cursor access and X benefits. Plans start with Plus at $8/month ($7/month billed annually); Premium is $30/month and higher Super and Ultra tiers add more usage. The plans page lists no $0 tier.",
   "categories": [
-    "text",
-    "coding"
+    "text"
   ],
   "tags": [
-    "Assistant",
-    "Chat",
-    "Images",
-    "Code"
+    "chatbot",
+    "llm",
+    "assistant",
+    "image-generation",
+    "video-generation"
   ],
   "pricing": {
-    "model": "freemium",
-    "label": "Freemium",
-    "verified": false,
-    "note": "No readable pricing page on 21 October 2026. Do not treat a missing price as free."
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "It differentiates itself through live X integration and a single subscription that bundles Grok Chat, Imagine, Build, the Grok API, Cursor access and X benefits. Plans start with Plus at $8/month ($7/month billed annually); Premium is $30/month and higher Super and Ultra tiers add more usage. The plans page lists no $0 tier.",
+    "sourceUrl": "https://grok.com/plans"
   },
   "sources": [
-    "https://grok.com/"
+    "https://grok.com/plans"
   ]
 }

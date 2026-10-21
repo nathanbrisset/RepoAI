@@ -16,15 +16,16 @@
     "Organization"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; get.mem.ai/pricing: Mem Free + Plus $9/month, Pro $29/month",
+    "sourceUrl": "https://get.mem.ai/pricing"
   },
   "logo": "/logos/mem.png",
   "image": "/tool-screenshots/mem.png",
   "dateAdded": "2021-11-15",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "AI Note-Taking: Automatically captures and organizes notes.",
     "Smart Search: Enables quick retrieval of information using natural language.",

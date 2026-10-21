@@ -32,6 +32,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
             fill
               className={tool.image ? "object-cover" : "object-contain p-8"}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            unoptimized={visual.endsWith(".svg")}
           />
           ) : (
             <ImageIcon className="w-12 h-12 text-gray-300" />

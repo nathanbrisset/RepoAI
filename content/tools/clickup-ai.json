@@ -15,15 +15,16 @@
     "Project Management"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; clickup.com/pricing: Free Forever + $7/user/month yearly",
+    "sourceUrl": "https://clickup.com/pricing"
   },
   "logo": "/logos/clickup-ai.png",
   "image": "/tool-screenshots/clickup-ai.png",
   "dateAdded": "2023-11-15",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Task Automation: Automatically generates and updates tasks based on prompts.",
     "AI Writer: Drafts meeting notes, project briefs, and content.",

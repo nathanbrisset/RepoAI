@@ -4,24 +4,23 @@
   "url": "https://chatgpt.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "OpenAI’s general assistant for writing, coding, image, and research tasks.",
-  "description": "ChatGPT is OpenAI’s consumer assistant. chat.openai.com redirected to chatgpt.com on 21 October 2026 (the final request was blocked with HTTP 403, which is consistent with a bot wall, not a missing site). The previous catalog called the price Freemium. That label was not re-read on a pricing page in this pass.",
+  "summary": "OpenAI's AI assistant for chat, images, research and coding.",
+  "description": "ChatGPT is OpenAI's AI assistant for writing, questions, image creation, deep research, file analysis and coding (via Codex), on web, desktop and mobile; the official URL is now chatgpt.com. It is the most widely used general AI assistant. The Free plan includes unlimited everyday chats with GPT-6; paid tiers are Go, Plus and Pro, plus Business and Enterprise plans for organisations.",
   "categories": [
-    "text",
-    "productivity"
+    "text"
   ],
   "tags": [
-    "Chatbot",
-    "Content Creation",
-    "Summarization",
-    "Productivity",
-    "Brainstorming"
+    "chatbot",
+    "llm",
+    "assistant",
+    "openai"
   ],
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Previous Freemium label kept. chatgpt.com blocked the automated fetch, so the current dollar price was not copied."
+    "verified": true,
+    "note": "The Free plan includes unlimited everyday chats with GPT-6; paid tiers are Go, Plus and Pro, plus Business and Enterprise plans for organisations.",
+    "sourceUrl": "https://chatgpt.com/pricing"
   },
   "logo": "/logos/chatgpt.png",
   "image": "/tool-screenshots/chatgpt.png",
@@ -58,6 +57,6 @@
     }
   ],
   "sources": [
-    "https://chatgpt.com/"
+    "https://chatgpt.com/pricing"
   ]
 }

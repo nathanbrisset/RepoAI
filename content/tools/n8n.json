@@ -1,5 +1,5 @@
 {
-  "affiliateUrl": "",
+  "affiliateUrl": "https://n8n.io/affiliates/",
   "logo": "/logos/n8n.png",
   "image": "",
   "dateAdded": "2026-10-21",
@@ -8,23 +8,27 @@
   "id": "n8n",
   "name": "n8n",
   "url": "https://n8n.io/",
-  "summary": "Workflow automation that combines AI steps with business process flows.",
-  "description": "n8n’s homepage on 21 October 2026 called it a workflow automation platform that combines AI capabilities with business process automation, with code for technical teams and no-code speed. No price was in that text.",
+  "summary": "Workflow automation platform combining AI agents and integrations.",
+  "description": "n8n is a workflow automation platform that combines AI agents with hundreds of app integrations and custom code, giving technical teams the flexibility of code with the speed of no-code. Its differentiator is that it can be self-hosted (free Community Edition) as well as used in the cloud. Cloud plans come with a free trial, and n8n runs an affiliate programme.",
   "categories": [
     "productivity"
   ],
   "tags": [
-    "Automation",
-    "Workflows"
+    "automation",
+    "workflows",
+    "ai-agents",
+    "open-source"
   ],
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "sourceUrl": "https://n8n.io/",
-    "note": "Homepage fetched. Price not in the meta description."
+    "verified": true,
+    "note": "Cloud plans come with a free trial, and n8n runs an affiliate programme.",
+    "sourceUrl": "https://n8n.io/pricing"
   },
   "sources": [
-    "https://n8n.io/"
+    "https://n8n.io",
+    "https://n8n.io/pricing",
+    "https://n8n.io/affiliates/"
   ]
 }

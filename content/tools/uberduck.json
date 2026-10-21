@@ -16,15 +16,16 @@
     "Custom Voices"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; uberduck.ai/pricing mentions a free tier and paid plans from $2/month yearly",
+    "sourceUrl": "https://uberduck.ai/pricing"
   },
   "logo": "/logos/uberduck.png",
   "image": "/tool-screenshots/uberduck.png",
   "dateAdded": "2023-05-01",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Text-to-Speech & Singing: Converts text into speech, singing, or rapping.",
     "Voice Cloning: Creates custom voices for various applications.",

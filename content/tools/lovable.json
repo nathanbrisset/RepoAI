@@ -1,5 +1,5 @@
 {
-  "affiliateUrl": "",
+  "affiliateUrl": "https://lovable.dev/partners/affiliates",
   "logo": "/logos/lovable.png",
   "image": "",
   "dateAdded": "2026-10-21",
@@ -7,25 +7,27 @@
   "status": "active",
   "id": "lovable",
   "name": "Lovable",
-  "url": "https://lovable.dev/",
-  "summary": "App builder at lovable.dev. The homepage blocked this fetch.",
-  "description": "Lovable is included because lovable.dev is the public product address. On 21 October 2026 an automated fetch received HTTP 403, so no slogan or price was copied from the page. Treat the description as unverified until someone reads the site in a browser.",
+  "url": "https://lovable.dev",
+  "summary": "Build full-stack web apps by chatting with AI.",
+  "description": "Lovable is an AI app builder that creates and edits full-stack web applications from natural-language prompts. Users iterate in a chat interface, connect a backend, and deploy without writing code by hand, which makes it popular with founders and non-developers prototyping products. It offers a free plan to get started and paid plans with more messages and collaboration features.",
   "categories": [
-    "coding",
-    "design"
+    "coding"
   ],
   "tags": [
-    "App builder",
-    "Unverified copy"
+    "app-builder",
+    "no-code",
+    "vibe-coding",
+    "web-apps"
   ],
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price not verified. Homepage returned 403."
+    "verified": true,
+    "note": "It offers a free plan to get started and paid plans with more messages and collaboration features.",
+    "sourceUrl": "https://lovable.dev"
   },
   "sources": [
-    "https://lovable.dev/"
-  ],
-  "statusNote": "URL responds, but the HTML was blocked."
+    "https://lovable.dev",
+    "https://lovable.dev/partners/affiliates"
+  ]
 }

@@ -3,9 +3,9 @@
   "name": "Otter.ai",
   "url": "https://otter.ai",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "Meeting agent for live transcription, summaries, and notes.",
-  "description": "Otter’s homepage title on 21 October 2026 was “Otter Meeting Agent - AI Notetaker, Transcription, Insights”. The meta description says it supports real-time transcription, live chat, automated summaries, and insights. The price was not on that text. The second card (otterai) is a duplicate of this URL.",
+  "description": "Otter’s homepage title on 21 October 2026 was “Otter Meeting Agent - AI Notetaker, Transcription, Insights”. The meta description says it supports real-time transcription, live chat, automated summaries, and insights. The price was not on that text. This fiche is the duplicate. The kept fiche is otterai.",
   "categories": [
     "productivity"
   ],
@@ -15,10 +15,11 @@
     "Meetings"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Homepage fetched. No price in the meta description. Previous label kept and marked unverified."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Duplicate fiche. otter.ai/pricing: Basic Free, Pro $8.49-16.99/user/month",
+    "sourceUrl": "https://otter.ai/pricing"
   },
   "logo": "/logos/otter.png",
   "image": "",
@@ -56,5 +57,7 @@
   ],
   "sources": [
     "https://otter.ai"
-  ]
+  ],
+  "statusNote": "Duplicate Otter.ai entry (id otter, marked Free); keep id otterai",
+  "successorId": "otterai"
 }

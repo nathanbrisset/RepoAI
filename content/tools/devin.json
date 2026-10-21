@@ -6,26 +6,29 @@
   "lastVerified": "2026-10-21",
   "status": "active",
   "id": "devin",
-  "name": "Devin",
+  "name": "Devin (incl. Windsurf)",
   "url": "https://devin.ai/",
-  "summary": "Coding agent that runs parallel cloud agents and a desktop app.",
-  "description": "devin.ai on 21 October 2026 was titled “Devin: the autonomous software engineer” and described an AI coding agent with parallel cloud agents. devin.ai/desktop, which is where Codeium and Windsurf now redirect, describes a desktop surface for local and cloud agents. No price was in those meta descriptions.",
+  "summary": "Cognition's AI software engineer and Windsurf AI code editor.",
+  "description": "Devin, from Cognition, is an autonomous AI software engineer that runs parallel cloud agents to plan, write and ship code. Cognition also owns the Windsurf AI code editor: windsurf.com now redirects to devin.ai/desktop, which manages local and cloud agents from the editor. The Free plan ($0) gives a light quota, Pro costs $20/month, Max $200/month and Teams $80/month plus $40 per developer seat.",
   "categories": [
     "coding"
   ],
   "tags": [
-    "Coding agent",
-    "IDE"
+    "coding-agent",
+    "ai-code-editor",
+    "ide",
+    "windsurf"
   ],
   "pricing": {
-    "model": "paid",
-    "label": "Premium",
-    "verified": false,
-    "sourceUrl": "https://devin.ai/",
-    "note": "Price not in the homepage text."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Devin, from Cognition, is an autonomous AI software engineer that runs parallel cloud agents to plan, write and ship code. The Free plan ($0) gives a light quota, Pro costs $20/month, Max $200/month and Teams $80/month plus $40 per developer seat.",
+    "sourceUrl": "https://devin.ai/pricing"
   },
   "sources": [
-    "https://devin.ai/",
+    "https://devin.ai/pricing",
+    "https://windsurf.com",
     "https://devin.ai/desktop"
   ]
 }

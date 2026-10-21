@@ -17,15 +17,16 @@
     "Mobile Editing"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; capcut.com/pricing: Free USD 0 + paid plans",
+    "sourceUrl": "https://capcut.com/pricing"
   },
   "logo": "/logos/capcut.png",
   "image": "/tool-screenshots/capcut.png",
   "dateAdded": "2021-03-15",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Advanced Editing Tools: Features like keyframe animation, chroma key, and more.",
     "AI Video Editing: Automated editing features like auto-captions and filler word removal.",

@@ -1,9 +1,9 @@
 {
   "id": "paintschainer",
   "name": "PaintsChainer",
-  "url": "https://petalica.com:443/",
+  "url": "https://petalica.com/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "renamed",
   "summary": "PaintsChainer is an AI-powered automatic coloring tool for sketches and line art. It generates beautiful, anime-style artwork from black-and-white drawings, offering several AI models and manual adjustment options for colors, shading, and styles.",
   "description": "PaintsChainer is an AI-powered automatic coloring tool for sketches and line art. It generates beautiful, anime-style artwork from black-and-white drawings, offering several AI models and manual adjustment options for colors, shading, and styles.\n\nAutomatic Coloring: AI fills sketches with colors and shading. Style Selection: Choose from different coloring models. Manual Touch-Up: Customize colors and effects after generation. Line Art Detection: Works with various drawing styles.",
   "categories": [
@@ -25,7 +25,7 @@
   "logo": "/logos/paintschainer.png",
   "image": "/tool-screenshots/paintschainer.png",
   "dateAdded": null,
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "dateAddedNote": "The previous Added date was 2017-03-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Automatic Coloring: AI fills sketches with colors and shading.",
@@ -57,5 +57,6 @@
       "title": "Download Artwork",
       "description": "Export your colored illustration for print or digital use."
     }
-  ]
+  ],
+  "statusNote": "Redirects to Petalica Paint (rename)"
 }

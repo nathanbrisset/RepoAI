@@ -1,9 +1,9 @@
 {
   "id": "monkeylearn",
   "name": "MonkeyLearn",
-  "url": "https://monkeylearn.com",
+  "url": "https://www.medallia.com/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "Text analysis tool for extracting insights from text data.",
   "description": "Text analysis tool for extracting insights from text data.\n\nText Classification: Categorize text data using machine learning. Sentiment Analysis: Determine the sentiment of text data. Custom Model Training: Train models tailored to specific needs. Data Visualization: Visualize text analysis results for easier interpretation.",
   "categories": [
@@ -24,7 +24,7 @@
   "logo": "/logos/monkeylearn.png",
   "image": "/tool-screenshots/monkeylearn.png",
   "dateAdded": "2022-10-30",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Text Classification: Categorize text data using machine learning.",
     "Sentiment Analysis: Determine the sentiment of text data.",
@@ -54,5 +54,6 @@
       "title": "Analyze & Visualize",
       "description": "View analytics and visualizations, then export results as needed."
     }
-  ]
+  ],
+  "statusNote": "monkeylearn.com redirects to medallia.com"
 }

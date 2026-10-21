@@ -4,23 +4,21 @@
   "url": "https://cursor.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "AI coding editor and agent. cursor.sh redirects here.",
-  "description": "Cursor is an AI coding product. Its homepage says agents turn ideas into code. cursor.sh redirected to cursor.com on 21 October 2026. The pricing page the same day listed Free at $0 with limited AI usage, Plus at $8/month, Premium at $30/month, Super at $100/month, Ultra at $200/month, and Teams from $30 per user each month. The page also mentions Grok models and says third-party model usage is billed separately. The old Free-only label is wrong.",
+  "summary": "AI code editor with agents, now bundled with xAI's Grok plans.",
+  "description": "Cursor is an AI-first code editor with agents, tab completion, cloud agents and code review. Its pricing page now presents a shared subscription with Grok and X: the Free plan ($0) has limited AI usage, Plus is $8/month with Grok models only, Premium $30/month adds the latest models and cloud agents, and Super ($100) and Ultra ($200) raise usage. Third-party models are billed separately by usage; it should no longer be listed as Free.",
   "categories": [
-    "coding",
-    "design"
+    "coding"
   ],
   "tags": [
-    "AI",
-    "Coding",
-    "Editor",
-    "Development"
+    "code-editor",
+    "ide",
+    "coding-agent"
   ],
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "Free $0, Plus $8, Premium $30, Super $100, Ultra $200 per month. Teams from $30/user/month. Third-party models billed separately.",
+    "note": "Its pricing page now presents a shared subscription with Grok and X: the Free plan ($0) has limited AI usage, Plus is $8/month with Grok models only, Premium $30/month adds the latest models and cloud agents, and Super ($100) and Ultra ($200) raise usage.",
     "sourceUrl": "https://cursor.com/pricing"
   },
   "logo": "/logos/cursor.png",
@@ -58,7 +56,7 @@
     }
   ],
   "sources": [
-    "https://cursor.com/",
-    "https://cursor.com/pricing"
+    "https://cursor.com/pricing",
+    "https://grok.com/plans"
   ]
 }

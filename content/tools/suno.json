@@ -4,22 +4,21 @@
   "url": "https://suno.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "AI music generator with a free daily credit plan and paid tiers.",
-  "description": "Suno generates original music from text. suno.ai redirected to suno.com. The pricing page on 21 October 2026 listed Free at $0 with 50 credits a day, Pro at $8/month when billed yearly, and Premier at $24/month when billed yearly. The previous Free-only label missed the paid plans.",
+  "summary": "Create full songs with vocals from a text prompt.",
+  "description": "Suno generates complete songs with vocals, lyrics and instrumentation from a text prompt, with editing tools to extend and rework tracks. It is one of the most popular AI music generators. The Free plan ($0) gives 50 credits per day on the free model (v6-mini); Pro costs $8/month and Premier $24/month billed yearly, adding the best models and commercial use.",
   "categories": [
     "audio"
   ],
   "tags": [
-    "AI",
-    "Text To Music",
-    "Genre Blending",
-    "Composition"
+    "music-generation",
+    "text-to-music",
+    "vocals"
   ],
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "Free $0 (50 credits/day). Pro $8/month and Premier $24/month on the yearly prices shown.",
+    "note": "The Free plan ($0) gives 50 credits per day on the free model (v6-mini); Pro costs $8/month and Premier $24/month billed yearly, adding the best models and commercial use.",
     "sourceUrl": "https://suno.com/pricing"
   },
   "logo": "/logos/suno.png",
@@ -57,7 +56,6 @@
     }
   ],
   "sources": [
-    "https://suno.com/",
     "https://suno.com/pricing"
   ]
 }

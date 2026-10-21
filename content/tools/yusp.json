@@ -3,7 +3,7 @@
   "name": "Yusp",
   "url": "https://www.taboola.com/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "Yusp provides AI-powered personalization engines for e-commerce and content sites. It increases sales and engagement with real-time, user-specific recommendations.",
   "description": "Yusp provides AI-powered personalization engines for e-commerce and content sites. It increases sales and engagement with real-time, user-specific recommendations.\n\nReach 600M daily active users and achieve conversions at scale with the world's leading performance platform.\n\nPersonalized recommendations for each user. Cross-selling and upselling with AI. Behavioral targeting from user data. Instant updates as user behavior changes.",
   "categories": [
@@ -24,7 +24,7 @@
   "logo": "/logos/yusp.png",
   "image": "/tool-screenshots/yusp.png",
   "dateAdded": "2025-06-11",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
     "Personalized recommendations for each user.",
     "Cross-selling and upselling with AI.",
@@ -58,5 +58,6 @@
       "title": "Monitor & Optimize",
       "description": "Track engagement, sales, and conversion metrics with Yusp’s analytics dashboard. Refine recommendation strategies for optimal performance."
     }
-  ]
+  ],
+  "statusNote": "yusp.com redirects to taboola.com"
 }
