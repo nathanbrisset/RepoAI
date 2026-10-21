@@ -40,19 +40,19 @@ Ratées par type : captcha 5.
 
 | id | note |
 | --- | --- |
-| adobe-marketo-engage | Capture de https://business.adobe.com/products/marketo.html. |
+| adobe-marketo-engage | Capture de https://business.adobe.com/products/marketo.html, URL finale du navigateur. |
 | autoregex | Page produit visible. Un iframe captcha est dans le DOM mais ne couvre pas la page. |
 | character-ai | Capture de character.ai. |
-| chatcode | Interface réelle, page sombre peu dense. |
+| chatcode | Rendu attendu (fond #343541, titre, champ Ask Code). La page ne contient rien d'autre. |
 | claude-3 | Capture de claude.com, le site marketing officiel. claude.ai répond 403. |
 | clipdroprelight | Image officielle og:image de clipdrop.co/relight. La page elle-même est un interstitiel. |
 | codepal | Image officielle og:image de codepal.ai. La page elle-même est un captcha. |
-| deepseek | Capture de la page marketing avant le plantage JavaScript (client-side exception). |
+| deepseek | Capture de la homepage après chargement des visuels, avant le plantage JavaScript. |
 | gamma | Capture de help.gamma.app. gamma.app, /pricing et /templates restent derrière un captcha. |
 | ideogram | Image officielle about.ideogram.ai, pas une capture du navigateur. ideogram.ai reste derrière un captcha. |
 | neurallove | Capture de https://neural.love/video. |
 | pictory | Image officielle og:image de pictory.ai. La page elle-même est un captcha. |
-| semrushwritingassistant | Capture de https://www.semrush.com/swa/demo. |
+| semrushwritingassistant | Capture de https://www.semrush.com/swa/. |
 | wellsaid | Capture de wellsaid.io/ai-voice-pricing. La homepage est un captcha. |
 | zonos | Capture du HTML de zonosai.com sans JavaScript. Avec JavaScript la page est un captcha. |
 

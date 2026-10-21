@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T19:04:52.906Z",
+  "generatedAt": "2026-10-21T19:35:27.602Z",
   "audit": {
     "capturedAt": "2026-10-21T16:31:59.994Z",
     "totalFiles": 332,
@@ -71,7 +71,7 @@
       "captcha": 5
     }
   },
-  "screenshotsBytes": 13196898,
+  "screenshotsBytes": 13204592,
   "legacyBytes": 39629755,
   "results": [
     {
@@ -107,8 +107,8 @@
       "category": "ok",
       "reason": "",
       "image": "/screenshots/adobe-marketo-engage.webp",
-      "bytes": 56998,
-      "note": "Capture de https://business.adobe.com/products/marketo.html."
+      "bytes": 50544,
+      "note": "Capture de https://business.adobe.com/products/marketo.html, URL finale du navigateur."
     },
     {
       "id": "adobe-podcast-enhance",
@@ -528,7 +528,7 @@
       "reason": "",
       "image": "/screenshots/chatcode.webp",
       "bytes": 6032,
-      "note": "Interface réelle, page sombre peu dense."
+      "note": "Rendu attendu (fond #343541, titre, champ Ask Code). La page ne contient rien d'autre."
     },
     {
       "id": "chatgpt",
@@ -994,8 +994,8 @@
       "category": "ok",
       "reason": "",
       "image": "/screenshots/deepseek.webp",
-      "bytes": 16926,
-      "note": "Capture de la page marketing avant le plantage JavaScript (client-side exception)."
+      "bytes": 21682,
+      "note": "Capture de la homepage après chargement des visuels, avant le plantage JavaScript."
     },
     {
       "id": "deepswap",
@@ -2994,8 +2994,8 @@
       "category": "ok",
       "reason": "",
       "image": "/screenshots/semrushwritingassistant.webp",
-      "bytes": 48142,
-      "note": "Capture de https://www.semrush.com/swa/demo."
+      "bytes": 57534,
+      "note": "Capture de https://www.semrush.com/swa/."
     },
     {
       "id": "sendinblue",
