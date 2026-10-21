@@ -227,7 +227,7 @@ assert.equal(blocked.ok, false)
 if (!blocked.ok) assert.ok(blocked.retryAfter > 0)
 assert.equal(takeToken("203.0.113.6", "search", 2, 60, 1_000, buckets).ok, true)
 
-assert.equal(clientIp(new Headers({ "x-real-ip": "203.0.113.9", "x-forwarded-for": "198.51.100.4, 10.0.0.1" })), "203.0.113.9")
+assert.equal(clientIp(new Headers({ "x-real-ip": "10.1.2.3", "x-forwarded-for": "198.51.100.4, 10.0.0.1" })), "198.51.100.4")
 assert.equal(clientIp(new Headers({ "x-forwarded-for": "198.51.100.4, 10.0.0.1" })), "198.51.100.4")
 assert.equal(clientIp(new Headers({ "x-vercel-forwarded-for": "2001:db8::2" })), "2001:db8::2")
 assert.equal(clientIp(new Headers({ "x-forwarded-for": "not-an-ip, 198.51.100.8" })), "198.51.100.8")
@@ -254,17 +254,22 @@ process.env.KV_REST_API_TOKEN = "kv-token-value"
 const counts = new Map<string, number>()
 const fetchImpl: typeof fetch = async (input, init) => {
   const url = String(input)
-  assert.equal(url, "https://kv.example.test/pipeline")
   const header = new Headers(init?.headers).get("authorization") || ""
   assert.equal(header.startsWith("Bearer "), true)
   const body = JSON.parse(String(init?.body))
+  if (!Array.isArray(body[0])) {
+    assert.equal(url, "https://kv.example.test")
+    assert.equal(body[0], "EXPIRE")
+    return Response.json({ result: 1 })
+  }
+  assert.equal(url, "https://kv.example.test/pipeline")
+  assert.equal(body[0][0], "INCR")
   const key = body[0][1]
   const next = (counts.get(key) || 0) + 1
   counts.set(key, next)
   return Response.json([
-    { result: next === 1 ? "OK" : null },
     { result: String(next) },
-    { result: 1700 },
+    { result: next === 1 ? -1 : 1700 },
   ])
 }
 let last = null
@@ -290,7 +295,7 @@ process.env.UPSTASH_REDIS_REST_URL = "https://upstash.example.test"
 process.env.UPSTASH_REDIS_REST_TOKEN = "upstash-token-value"
 const upstashFetch: typeof fetch = async (input) => {
   assert.equal(String(input), "https://upstash.example.test/pipeline")
-  return Response.json([{ result: "OK" }, { result: 1 }, { result: 1800 }])
+  return Response.json([{ result: 1 }, { result: 1800 }])
 }
 const preferred = await rateLimit("203.0.113.23", "search", 10, 1800, { requireRedis: true, fetchImpl: upstashFetch })
 assert.equal(preferred.ok, true)

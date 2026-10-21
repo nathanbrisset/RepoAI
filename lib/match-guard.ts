@@ -1,3 +1,5 @@
+import { createHash } from "crypto"
+
 /**
  * Per-IP rate limit and one-time captcha nonces.
  * Reads UPSTASH_REDIS_REST_URL / UPSTASH_REDIS_REST_TOKEN, or the Vercel KV
@@ -42,13 +44,29 @@ function requireSharedStore(override?: boolean): boolean {
   return process.env.NODE_ENV === "production"
 }
 
-function firstIp(value: string | null): string | null {
-  if (!value) return null
+function isPublicIp(ip: string): boolean {
+  if (ip.includes(":")) {
+    const value = ip.toLowerCase()
+    if (value === "::1" || value.startsWith("fe80:") || value.startsWith("fc") || value.startsWith("fd")) return false
+    return true
+  }
+  const [a, b] = ip.split(".").map((part) => Number(part))
+  if (a === 0 || a === 10 || a === 127) return false
+  if (a === 172 && b >= 16 && b <= 31) return false
+  if (a === 192 && b === 168) return false
+  if (a === 169 && b === 254) return false
+  if (a === 100 && b >= 64 && b <= 127) return false
+  return true
+}
+
+function publicIps(value: string | null): string[] {
+  if (!value) return []
+  const ips: string[] = []
   for (const part of value.split(",")) {
     const ip = normalizeIp(part)
-    if (ip) return ip
+    if (ip && isPublicIp(ip)) ips.push(ip)
   }
-  return null
+  return ips
 }
 
 function normalizeIp(value: string): string | null {
@@ -64,7 +82,14 @@ function normalizeIp(value: string): string | null {
 }
 
 export function clientIp(headers: { get(name: string): string | null }): string {
-  return firstIp(headers.get("x-real-ip")) || firstIp(headers.get("x-forwarded-for")) || firstIp(headers.get("x-vercel-forwarded-for")) || "unknown"
+  const forwarded = publicIps(headers.get("x-forwarded-for"))
+  const vercel = publicIps(headers.get("x-vercel-forwarded-for"))
+  const real = publicIps(headers.get("x-real-ip"))
+  return forwarded[0] || vercel[0] || real[0] || "unknown"
+}
+
+export function rateSubject(ip: string): string {
+  return createHash("sha256").update(ip).digest("hex").slice(0, 12)
 }
 
 export function rateHeaders(result: LimitResult): Record<string, string> {
@@ -171,22 +196,18 @@ export async function rateLimit(
     return local
   }
   try {
-    const payload = await redisCommand(
-      config,
-      [
-        ["SET", key, "0", "EX", windowSec, "NX"],
-        ["INCR", key],
-        ["TTL", key],
-      ],
-      true,
-      options?.fetchImpl || fetch
-    )
+    const fetchImpl = options?.fetchImpl || fetch
+    const payload = await redisCommand(config, [["INCR", key], ["TTL", key]], true, fetchImpl)
     const rows = rowsFrom(payload)
-    const count = rows && rows.length >= 2 ? asInt(rows[1].result) : null
-    if (!rows || rows[0]?.error || rows[1]?.error || count === null || count < 1) {
+    const count = rows && rows.length >= 1 ? asInt(rows[0].result) : null
+    if (!rows || rows[0]?.error || count === null || count < 1) {
       throw new Error("bad-payload")
     }
-    const ttl = rows.length >= 3 ? asInt(rows[2].result) : null
+    let ttl = rows.length >= 2 ? asInt(rows[1].result) : null
+    if (ttl === null || ttl < 0) {
+      await redisCommand(config, ["EXPIRE", key, windowSec], false, fetchImpl)
+      ttl = windowSec
+    }
     if (count > limit) {
       const retryAfter = ttl !== null && ttl > 0 ? ttl : windowSec
       const blocked: LimitResult = { ok: false, status: 429, retryAfter, remaining: 0, backend: "redis" }

@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"
 import { allTools, listedTools } from "@/lib/catalog"
 import { captchaSecret, verifyChallenge } from "@/lib/match-captcha"
-import { clientIp, consumeNonce, rateHeaders, rateLimit, searchLimit } from "@/lib/match-guard"
+import { clientIp, consumeNonce, rateHeaders, rateLimit, rateSubject, searchLimit } from "@/lib/match-guard"
 import {
   catalogMatch,
   detectLanguage,
@@ -121,6 +121,7 @@ export async function POST(req: Request) {
   const search = searchLimit()
   const limited = await rateLimit(ip, "search", search.limit, search.windowSec)
   const headers = rateHeaders(limited)
+  headers["X-RateLimit-Subject"] = rateSubject(ip)
   if (!limited.ok) return errorResponse(limited.status === 503 ? "unavailable" : "rate_limited", limited.status, headers)
 
   const prompt = sample.trim()
