@@ -93,18 +93,18 @@ export default function ToolsClient({ tools, initialCategory = null, initialPric
             </p>
           </div>
           {/* Pricing Filter - right aligned */}
-          <div className="flex gap-3 justify-center md:justify-end items-center">
+          <div className="flex max-w-full flex-wrap gap-3 justify-center md:shrink-0 md:justify-end items-center">
             {PRICE_FILTER_OPTIONS.map(({ label, className }) => (
               <button
                 key={label}
                 type="button"
                 onClick={() => selectPricing(label)}
-                className="focus:outline-none"
+                className="shrink-0 focus:outline-none"
                 aria-pressed={selectedPricing === label}
                 data-pricing={priceFilterParam(label)}
               >
                 <Badge className={
-                  `${className} px-4 py-2 text-base rounded-lg transition-colors border-2 ${
+                  `${className} whitespace-nowrap px-4 py-2 text-base rounded-lg transition-colors border-2 ${
                     selectedPricing === label ? 'border-black scale-105 shadow' : 'border-transparent opacity-80 hover:opacity-100'
                   }`
                 }>

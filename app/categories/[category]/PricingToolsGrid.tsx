@@ -23,18 +23,18 @@ export default function PricingToolsGrid({ tools }: PricingToolsGridProps) {
       {/* Pricing Filter - right aligned at the top */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-8">
         <div /> {/* Empty div for left alignment, can be replaced with category info if needed */}
-        <div className="flex gap-2 justify-center md:justify-end items-center">
+        <div className="flex flex-wrap gap-2 justify-center md:justify-end items-center">
           {PRICE_FILTER_OPTIONS.map(({ label, className }) => (
             <button
               key={label}
               type="button"
               onClick={() => setSelectedPricing(selectedPricing === label ? null : label)}
-              className="focus:outline-none"
+              className="shrink-0 focus:outline-none"
               aria-pressed={selectedPricing === label}
               data-pricing={label}
             >
               <Badge className={
-                `${className} px-2 py-1 text-xs rounded-md transition-colors border-2 ${
+                `${className} whitespace-nowrap px-2 py-1 text-xs rounded-md transition-colors border-2 ${
                   selectedPricing === label ? 'border-black scale-105 shadow' : 'border-transparent opacity-80 hover:opacity-100'
                 }`
               }>
