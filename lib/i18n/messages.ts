@@ -336,9 +336,8 @@ const en = {
     },
     image: {
       name: "Image Generation",
-      description: "AI tools for creating, editing, and enhancing images.",
-      about:
-        "Image Generation AI tools enable users to create, manipulate, and enhance images using artificial intelligence. These platforms can generate art from text prompts, upscale photos, remove backgrounds, and apply creative effects, making visual content creation accessible to everyone, regardless of design experience.",
+      description: "Create a new image from a short description, or tidy up a photo you already have. Compare generators and editors, and leave with visuals you can publish.",
+      about: "",
     },
     audio: {
       name: "Audio & Speech",
@@ -348,27 +347,23 @@ const en = {
     },
     video: {
       name: "Video Creation",
-      description: "AI tools for generating, editing, and enhancing video content.",
-      about:
-        "Video Creation AI tools automate and enhance the video production process. They can generate videos from scripts, add effects, create subtitles, and enable creative storytelling. These tools make video creation faster, more accessible, and more engaging for content creators, marketers, and educators.",
+      description: "Turn a script, a still, or a rough cut into a video you can share. Compare generators, editors, and avatar tools, and pick the one that matches the kind of video you make.",
+      about: "",
     },
     coding: {
       name: "Coding",
-      description: "AI-powered coding assistants and developer tools.",
-      about:
-        "AI-powered coding assistants and developer tools help with code generation, debugging, code review, and learning new programming languages. These tools boost productivity, reduce errors, and support developers of all skill levels in building, testing, and maintaining software more efficiently.",
+      description: "Write, review, and ship code with help in your editor, your terminal, or the cloud. Compare the assistants and spend less time on the routine so the important decisions get your attention.",
+      about: "",
     },
     marketing: {
       name: "Marketing",
-      description: "AI tools for marketing automation, content creation, and analytics.",
-      about:
-        "Marketing AI tools empower marketers to automate campaigns, personalize messaging, analyze data, and optimize content. These platforms help businesses reach their audience more effectively, improve ROI, and stay ahead in a competitive digital landscape.",
+      description: "Get found in search and in AI answers, and create the ads and posts that carry your message. Compare the tools for your channels and choose the ones that fit how you market.",
+      about: "",
     },
     productivity: {
       name: "Productivity",
-      description: "AI tools for task automation, project management, and workflow optimization.",
-      about:
-        "Productivity AI tools streamline workflows, automate repetitive tasks, and enhance personal and team organization. From smart scheduling to automated note-taking, these solutions help users save time, stay organized, and focus on what matters most.",
+      description: "Keep email, notes, your calendar, and your slides moving in the same rhythm. Compare workspace tools and spend less time searching for what you need.",
+      about: "",
     },
     "data-processing": {
       name: "Data Processing",
@@ -378,99 +373,98 @@ const en = {
     },
     design: {
       name: "Design",
-      description: "AI-powered design tools for graphic design, UI/UX, and branding.",
-      about:
-        "Design AI tools assist designers in creating stunning visuals, layouts, and prototypes quickly and efficiently. They offer features like automated layout suggestions, asset generation, and branding support, making high-quality design accessible to everyone.",
+      description: "Design a graphic, an interface, a logo, or a product look without starting from an empty canvas. Compare the tools and move from a first idea to something your team can react to.",
+      about: "",
     },
     "llm-chatbots": {
       name: "LLM & Chatbots",
-      description: "I want to ask questions and get answers;I want to run models locally;I want one interface for many models",
-      about: "Subcategories: General assistants;Multi-model chat;Local LLM apps;Model APIs & routers;Character & companion chat. Audiences: everyone, students, Developers & engineering, Solopreneurs & freelancers.",
+      description: "Ask questions, write and think faster with an AI assistant, in the cloud or running locally on your machine. Compare the leading chatbots and find the one that fits how you work.",
+      about: "",
     },
     "ai-agents": {
       name: "AI Agents",
-      description: "I want an AI to complete a multi-step task for me;I want to build my own agent",
-      about: "Subcategories: General-purpose agents;Agent builders & frameworks;Browser agents. Audiences: Operations & admin, Developers & engineering, Solopreneurs & freelancers.",
+      description: "Hand a multi-step task to an AI and let it carry the work through. Or compare the builders and shape an agent that works the way your team does.",
+      about: "",
     },
     automation: {
       name: "Automation & Workflows",
-      description: "I want to connect my apps and automate repetitive work",
-      about: "Subcategories: Workflow automation;Integrations platforms. Audiences: Operations & admin, Marketing & growth, Solopreneurs & freelancers.",
+      description: "Connect the apps you already use and let repetitive work run on its own. Compare workflow tools and build the paths that move information and give you the hours back.",
+      about: "",
     },
     "no-code": {
       name: "No-code & App Builders",
-      description: "I want to build an app or website without coding",
-      about: "Subcategories: AI app & website builders;Internal tools;Mobile app builders. Audiences: Founders & startups, Solopreneurs & freelancers, product, Marketing & growth.",
+      description: "Turn an idea into an app or a website by describing what you want, without setting up a codebase. Compare the builders and go from a first version to something you can share.",
+      about: "",
     },
     writing: {
       name: "Writing & Content",
-      description: "I want to write faster and better;I want to translate text",
-      about: "Subcategories: Writing assistants;Grammar & paraphrasing;Fiction & storytelling;Translation. Audiences: writers, Marketing & growth, students.",
+      description: "Draft, rewrite, and translate with a writing partner that keeps your voice. Compare assistants for posts, stories, and messages, and find the one that sounds like you.",
+      about: "",
     },
     voice: {
       name: "Voice & Speech",
-      description: "I want to generate voiceovers;I want to transcribe audio;I want a phone/voice agent",
-      about: "Subcategories: Text-to-speech & voice cloning;Speech-to-text & transcription;Voice agents;Dictation. Audiences: Content creators, Developers & engineering, Customer support.",
+      description: "Give your project a natural voice, or turn a recording into text you can search and edit. Compare voiceovers, transcription, dictation, and phone agents, and pick what you need today.",
+      about: "",
     },
     music: {
       name: "Music & Audio",
-      description: "I want to create music;I want to clean up audio",
-      about: "Subcategories: Music generation;Stem separation;Mastering;Audio enhancement & podcasting. Audiences: musicians, Content creators, podcasters.",
+      description: "Sketch a track, separate the parts, or clean a podcast so it sounds finished. Compare music and audio tools, and make something you are happy to publish.",
+      about: "",
     },
     meetings: {
       name: "Meetings & Notes",
-      description: "I want automatic meeting notes and action items",
-      about: "Subcategories: AI notetakers;Meeting intelligence. Audiences: Sales & business development, managers, everyone.",
+      description: "Leave the meeting with the notes and the next steps already written down. Compare notetakers and stay in the conversation while the summary is captured for you.",
+      about: "",
     },
     search: {
       name: "Search & Research",
-      description: "I want answers with sources;I want to do a literature review",
-      about: "Subcategories: AI search engines;Academic research;Search APIs for agents. Audiences: researchers, students, analysts.",
+      description: "Ask a question and get an answer you can trace back to its sources. Compare search and research tools for a quick lookup or a literature review, with the citations kept close.",
+      about: "",
     },
     data: {
       name: "Data & Analytics",
-      description: "I want to analyze data and build dashboards",
-      about: "Subcategories: AI data analysis;BI & dashboards;Spreadsheets AI;ML platforms. Audiences: analysts, Operations & admin, Founders & startups, data scientists.",
+      description: "Ask questions of your numbers and turn the answers into a dashboard people can read. Compare analysis and reporting tools, and go from a spreadsheet to a clear picture.",
+      about: "",
     },
     sales: {
       name: "Sales & CRM",
-      description: "I want to find leads and close deals",
-      about: "Subcategories: Prospecting & lead data;Cold outreach;Revenue intelligence;CRM. Audiences: Sales & business development, Founders & startups.",
+      description: "Find the right people to talk to and keep each deal moving once the conversation starts. Compare prospecting, outreach, and CRM tools, and choose what fits how you sell.",
+      about: "",
     },
     support: {
       name: "Customer Support",
-      description: "I want to automate customer support",
-      about: "Subcategories: AI support agents;Chatbot builders;Help desk AI. Audiences: Customer support, Operations & admin, e-commerce.",
+      description: "Answer customers faster, including the questions that arrive at any hour. Compare support agents, chatbot builders, and help desk tools, and pick what fits your team.",
+      about: "",
     },
     hr: {
       name: "HR & Recruiting",
-      description: "I want to source, screen and hire candidates",
-      about: "Subcategories: Sourcing;Interviewing & screening;Job descriptions & performance. Audiences: HR & recruiting, recruiters, managers.",
+      description: "Find candidates, screen them with care, and write the role so the right people apply. Compare hiring tools and spend more of your week with people than with paperwork.",
+      about: "",
     },
     education: {
       name: "Education & Learning",
-      description: "I want to learn or teach more effectively",
-      about: "Subcategories: Teacher tools;Study & homework help;Language learning. Audiences: students, teachers, parents.",
+      description: "Learn a topic, practice it, or prepare a lesson your students can follow. Compare study aids, teacher tools, and language apps, and find what fits how you learn or teach.",
+      about: "",
     },
     health: {
       name: "Health & Medical",
-      description: "I want to reduce clinical documentation;I want to check symptoms",
-      about: "Subcategories: Clinical documentation;Clinical evidence;Symptom checkers. Audiences: clinicians, patients.",
+      description: "Spend less time on clinical notes and more time with the person in front of you. Compare documentation, evidence, and symptom tools made for care, and choose what fits your setting.",
+      about: "",
     },
     legal: {
       name: "Legal",
-      description: "I want to review contracts and speed up legal work",
-      about: "Subcategories: Contract review & drafting;Legal research. Audiences: lawyers, legal-ops, Founders & startups.",
+      description: "Review a contract or look up the point you need without losing the afternoon. Compare drafting and research tools, and keep the legal work moving.",
+      about: "",
     },
     finance: {
       name: "Finance & Accounting",
-      description: "I want to research markets;I want to automate bookkeeping",
-      about: "Subcategories: Investment research;Accounting automation;Personal finance. Audiences: Finance, Founders & startups, consumers.",
+      description: "Research a market or close the books with less manual entry. Compare investment, accounting, and personal finance tools, and choose what fits the decisions you make.",
+      about: "",
     },
     security: {
       name: "Security",
-      description: "I want to secure my code and AI apps",
-      about: "Subcategories: Application security;Supply-chain security;AI/LLM security. Audiences: Developers & engineering, security teams.",
+      description: "Catch risky code and protect the AI features you ship before they reach users. Compare application, supply-chain, and model security tools, and pick the checks that fit your stack.",
+      about: "",
     },
   },
 }
@@ -821,147 +815,123 @@ const fr: typeof en = {
     },
     "llm-chatbots": {
       name: "LLM et chatbots",
-      description: "Je veux poser des questions et obtenir des réponses;Je veux faire tourner des modèles en local;Je veux une seule interface pour plusieurs modèles",
-      about:
-        "Sous-catégories : assistants généraux;chat multi-modèles;applications de LLM locales;API et routeurs de modèles;chat de personnages et de compagnons. Publics : tout le monde, étudiants, développement et ingénierie, indépendants et freelances.",
+      description: "Posez des questions, écrivez et réfléchissez plus vite avec un assistant d'IA, dans le cloud ou en local sur votre machine. Comparez les principaux chatbots et trouvez celui qui correspond à votre façon de travailler.",
+      about: "",
     },
     "ai-agents": {
       name: "Agents IA",
-      description: "Je veux qu'une IA mène une tâche en plusieurs étapes pour moi;Je veux construire mon propre agent",
-      about:
-        "Sous-catégories : agents généralistes;constructeurs et frameworks d'agents;agents de navigation. Publics : opérations et administration, développement et ingénierie, indépendants et freelances.",
+      description: "Confiez une tâche en plusieurs étapes à une IA et laissez-la la mener jusqu'au bout. Ou comparez les constructeurs et façonnez un agent qui travaille comme votre équipe.",
+      about: "",
     },
     automation: {
       name: "Automatisation et workflows",
-      description: "Je veux connecter mes applications et automatiser le travail répétitif",
-      about:
-        "Sous-catégories : automatisation de workflows;plateformes d'intégrations. Publics : opérations et administration, marketing et croissance, indépendants et freelances.",
+      description: "Reliez les applications que vous utilisez déjà et laissez le travail répétitif se faire tout seul. Comparez les outils de workflow et construisez les parcours qui font circuler l'information et vous rendent des heures.",
+      about: "",
     },
     coding: {
       name: "Code et outils de développement",
-      description: "Je veux écrire, relire ou livrer du code plus vite",
-      about:
-        "Sous-catégories : éditeurs de code IA;agents de code en ligne de commande;agents de code dans le cloud;relecture de code par IA;backend et base de données;API pour développeurs. Publics : développement et ingénierie, responsables engineering.",
+      description: "Écrivez, relisez et livrez du code avec de l'aide dans l'éditeur, le terminal ou le cloud. Comparez les assistants et passez moins de temps sur la routine pour garder votre attention sur les décisions importantes.",
+      about: "",
     },
     "no-code": {
       name: "No-code et créateurs d'applications",
-      description: "Je veux créer une application ou un site sans coder",
-      about:
-        "Sous-catégories : créateurs d'applications et de sites par IA;outils internes;créateurs d'applications mobiles. Publics : fondateurs et start-up, indépendants et freelances, produit, marketing et croissance.",
+      description: "Transformez une idée en application ou en site en décrivant ce que vous voulez, sans monter une base de code. Comparez les constructeurs et passez d'une première version à quelque chose que vous pouvez partager.",
+      about: "",
     },
     writing: {
       name: "Rédaction et contenu",
-      description: "Je veux écrire plus vite et mieux;Je veux traduire du texte",
-      about:
-        "Sous-catégories : assistants de rédaction;grammaire et reformulation;fiction et récit;traduction. Publics : auteurs, marketing et croissance, étudiants.",
+      description: "Rédigez, réécrivez et traduisez avec un partenaire d'écriture qui garde votre voix. Comparez les assistants pour les articles, les récits et les messages, et trouvez celui qui vous ressemble.",
+      about: "",
     },
     image: {
       name: "Génération et retouche d'images",
-      description: "Je veux créer ou retoucher des images",
-      about:
-        "Sous-catégories : texte vers image;retouche photo et suppression de fond;agrandissement;hubs de modèles. Publics : créateurs de contenu, designers, marketing et croissance, e-commerce.",
+      description: "Créez une image à partir d'une courte description, ou retouchez une photo que vous avez déjà. Comparez générateurs et éditeurs, et repartez avec des visuels prêts à publier.",
+      about: "",
     },
     video: {
       name: "Vidéo",
-      description: "Je veux créer des vidéos à partir de texte;Je veux monter ou découper des vidéos;Je veux des avatars ou des publicités UGC",
-      about:
-        "Sous-catégories : texte ou image vers vidéo;avatars et publicités UGC;montage vidéo et sous-titres;extraits et réutilisation. Publics : créateurs de contenu, marketing et croissance, formation.",
+      description: "Transformez un script, une image ou une ébauche en vidéo que vous pouvez partager. Comparez générateurs, monteurs et outils d'avatars, et choisissez celui qui correspond au type de vidéo que vous faites.",
+      about: "",
     },
     voice: {
       name: "Voix et parole",
-      description: "Je veux générer des voix off;Je veux transcrire de l'audio;Je veux un agent vocal ou téléphonique",
-      about:
-        "Sous-catégories : synthèse vocale et clonage de voix;transcription;agents vocaux;dictée. Publics : créateurs de contenu, développement et ingénierie, support client.",
+      description: "Donnez une voix naturelle à votre projet, ou transformez un enregistrement en texte que vous pouvez chercher et modifier. Comparez voix off, transcription, dictée et agents téléphoniques, et prenez ce qu'il vous faut aujourd'hui.",
+      about: "",
     },
     music: {
       name: "Musique et audio",
-      description: "Je veux créer de la musique;Je veux nettoyer de l'audio",
-      about:
-        "Sous-catégories : génération de musique;séparation de pistes;mastering;amélioration audio et podcast. Publics : musiciens, créateurs de contenu, podcasteurs.",
+      description: "Esquissez un morceau, séparez les parties ou nettoyez un podcast pour qu'il sonne abouti. Comparez les outils de musique et d'audio, et produisez quelque chose que vous avez envie de publier.",
+      about: "",
     },
     design: {
       name: "Design et interface",
-      description: "Je veux concevoir des visuels, des interfaces, des logos ou des produits",
-      about:
-        "Sous-catégories : design graphique;design UI/UX;logo et identité;3D et design produit;couleurs et polices. Publics : designers, produit, marketing et croissance.",
+      description: "Concevez un visuel, une interface, un logo ou un rendu produit sans partir d'une page vide. Comparez les outils et passez d'une première idée à quelque chose sur lequel votre équipe peut réagir.",
+      about: "",
     },
     meetings: {
       name: "Réunions et notes",
-      description: "Je veux des notes de réunion et des actions automatiques",
-      about:
-        "Sous-catégories : preneurs de notes IA;intelligence de réunion. Publics : ventes et développement commercial, managers, tout le monde.",
+      description: "Sortez de la réunion avec les notes et les prochaines étapes déjà rédigées. Comparez les preneurs de notes et restez dans la conversation pendant que le résumé est capté pour vous.",
+      about: "",
     },
     productivity: {
       name: "Productivité et espace de travail",
-      description: "Je veux organiser mon travail et gagner du temps;Je veux faire des présentations",
-      about:
-        "Sous-catégories : e-mail;agenda et planification;documents et notes;présentations;navigateurs IA;recherche d'entreprise. Publics : tout le monde, managers, indépendants et freelances.",
+      description: "Faites avancer l'e-mail, les notes, l'agenda et les présentations dans le même rythme. Comparez les outils d'espace de travail et passez moins de temps à chercher ce qu'il vous faut.",
+      about: "",
     },
     search: {
       name: "Recherche",
-      description: "Je veux des réponses avec des sources;Je veux faire une revue de littérature",
-      about:
-        "Sous-catégories : moteurs de recherche IA;recherche académique;API de recherche pour les agents. Publics : chercheurs, étudiants, analystes.",
+      description: "Posez une question et obtenez une réponse que vous pouvez relier à ses sources. Comparez les outils de recherche pour une question rapide ou une revue de littérature, avec les citations à portée de main.",
+      about: "",
     },
     data: {
       name: "Données et analytique",
-      description: "Je veux analyser des données et construire des tableaux de bord",
-      about:
-        "Sous-catégories : analyse de données par IA;BI et tableaux de bord;IA pour tableurs;plateformes de machine learning. Publics : analystes, opérations et administration, fondateurs et start-up, data scientists.",
+      description: "Interrogez vos chiffres et transformez les réponses en tableau de bord lisible. Comparez les outils d'analyse et de reporting, et passez d'un tableur à une image claire.",
+      about: "",
     },
     marketing: {
       name: "Marketing et SEO",
-      description: "Je veux être visible dans la recherche et les réponses IA;Je veux créer des publicités;Je veux grandir sur les réseaux sociaux",
-      about:
-        "Sous-catégories : SEO et visibilité dans la recherche IA;publicités et créations;réseaux sociaux;e-mail marketing. Publics : marketing et croissance, créateurs de contenu, indépendants et freelances.",
+      description: "Rendez-vous visible dans la recherche et dans les réponses des IA, et créez les publicités et les publications qui portent votre message. Comparez les outils de vos canaux et choisissez ceux qui collent à votre façon de faire du marketing.",
+      about: "",
     },
     sales: {
       name: "Ventes et CRM",
-      description: "Je veux trouver des prospects et conclure des ventes",
-      about:
-        "Sous-catégories : prospection et données de leads;prospection à froid;intelligence du revenu;CRM. Publics : ventes et développement commercial, fondateurs et start-up.",
+      description: "Trouvez les bonnes personnes à contacter et faites avancer chaque vente une fois la conversation lancée. Comparez prospection, prise de contact et CRM, et choisissez ce qui correspond à votre façon de vendre.",
+      about: "",
     },
     support: {
       name: "Support client",
-      description: "Je veux automatiser le support client",
-      about:
-        "Sous-catégories : agents de support IA;constructeurs de chatbots;IA pour centre d'aide. Publics : support client, opérations et administration, e-commerce.",
+      description: "Répondez plus vite à vos clients, y compris aux questions qui arrivent à toute heure. Comparez agents de support, constructeurs de chatbots et outils de centre d'aide, et choisissez ce qui convient à votre équipe.",
+      about: "",
     },
     hr: {
       name: "RH et recrutement",
-      description: "Je veux sourcer, présélectionner et recruter des candidats",
-      about:
-        "Sous-catégories : sourcing;entretiens et présélection;fiches de poste et performance. Publics : RH et recrutement, recruteurs, managers.",
+      description: "Trouvez des candidats, présélectionnez-les avec soin et rédigez le poste pour que les bonnes personnes postulent. Comparez les outils de recrutement et passez plus de temps avec les gens qu'avec la paperasse.",
+      about: "",
     },
     education: {
       name: "Éducation et apprentissage",
-      description: "Je veux apprendre ou enseigner plus efficacement",
-      about:
-        "Sous-catégories : outils pour enseignants;aide aux devoirs et à l'étude;apprentissage des langues. Publics : étudiants, enseignants, parents.",
+      description: "Apprenez un sujet, entraînez-vous, ou préparez un cours que vos élèves peuvent suivre. Comparez aides à l'étude, outils pour enseignants et applications de langues, et trouvez ce qui correspond à votre façon d'apprendre ou d'enseigner.",
+      about: "",
     },
     health: {
       name: "Santé et médical",
-      description: "Je veux réduire la documentation clinique;Je veux vérifier des symptômes",
-      about:
-        "Sous-catégories : documentation clinique;preuves cliniques;vérificateurs de symptômes. Publics : cliniciens, patients.",
+      description: "Passez moins de temps sur les notes cliniques et plus de temps avec la personne en face de vous. Comparez documentation, preuves et outils de symptômes pensés pour le soin, et choisissez ce qui convient à votre cadre.",
+      about: "",
     },
     legal: {
       name: "Juridique",
-      description: "Je veux relire des contrats et accélérer le travail juridique",
-      about:
-        "Sous-catégories : relecture et rédaction de contrats;recherche juridique. Publics : avocats, opérations juridiques, fondateurs et start-up.",
+      description: "Relisez un contrat ou retrouvez le point qu'il vous faut sans y passer l'après-midi. Comparez les outils de rédaction et de recherche, et faites avancer le travail juridique.",
+      about: "",
     },
     finance: {
       name: "Finance et comptabilité",
-      description: "Je veux étudier les marchés;Je veux automatiser la comptabilité",
-      about:
-        "Sous-catégories : recherche d'investissement;automatisation comptable;finances personnelles. Publics : finance, fondateurs et start-up, particuliers.",
+      description: "Étudiez un marché ou bouclez les comptes avec moins de saisie manuelle. Comparez recherche d'investissement, comptabilité et finances personnelles, et choisissez ce qui correspond à vos décisions.",
+      about: "",
     },
     security: {
       name: "Sécurité",
-      description: "Je veux sécuriser mon code et mes applications d'IA",
-      about:
-        "Sous-catégories : sécurité applicative;sécurité de la chaîne d'approvisionnement;sécurité de l'IA et des LLM. Publics : développement et ingénierie, équipes sécurité.",
+      description: "Repérez le code risqué et protégez les fonctions d'IA que vous livrez avant qu'elles n'atteignent les utilisateurs. Comparez sécurité applicative, chaîne d'approvisionnement et modèles, et choisissez les contrôles qui collent à votre pile.",
+      about: "",
     },
   },
 }

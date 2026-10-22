@@ -47,12 +47,7 @@ export default async function CategoryPage(props: PageProps) {
       <BackButton />
       <h1 className="text-4xl font-extrabold mb-4 text-purple-700 drop-shadow-sm">{copy.name}</h1>
       <div className="bg-gradient-to-r from-gray-100 via-gray-50 to-gray-200 rounded-xl p-6 mb-8 shadow-md border border-gray-200">
-        <p className="text-lg text-gray-800 leading-relaxed">
-          <span className="font-semibold text-purple-700">{copy.description}</span>
-          {copy.about && (
-            <span> <span className="font-semibold text-gray-700">{copy.about}</span></span>
-          )}
-        </p>
+        <p className="text-lg text-gray-800 leading-relaxed">{copy.description}</p>
       </div>
       <PricingToolsGrid tools={tools} />
     </div>
