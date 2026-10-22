@@ -1,6 +1,6 @@
 "use client"
 
-import { usePathname, useRouter, useSearchParams } from "next/navigation"
+import { usePathname, useSearchParams } from "next/navigation"
 import { Check, ChevronDown, Languages } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
@@ -23,7 +23,6 @@ export default function LanguageSwitcher() {
   const t = useT()
   const pathname = usePathname() || "/"
   const searchParams = useSearchParams()
-  const router = useRouter()
   const barePath = stripLocale(pathname)
   const query = searchParams?.toString()
 
@@ -31,7 +30,9 @@ export default function LanguageSwitcher() {
     if (next === locale) return
     writeLocaleCookie(next)
     const href = localizeHref(next, barePath)
-    router.push(query ? `${href}?${query}` : href)
+    // Middleware rewrites /fr onto the English route, so a client navigation
+    // updates the URL without re-rendering the layout that reads x-locale.
+    window.location.assign(query ? `${href}?${query}` : href)
   }
 
   return (

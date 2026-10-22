@@ -4,12 +4,12 @@ import ToolCard from "@/components/tool-card"
 import { useLocale, useT } from "@/components/locale-provider"
 import { localizeHref } from "@/lib/i18n/paths"
 import CategoryFilter from "@/components/category-filter"
-import { mockTools } from "@/lib/data"
+import type { Tool } from "@/lib/types"
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import { Sparkles, Star, CheckCircle } from "lucide-react"
 
-export default function Home() {
+export default function Home({ tools }: { tools: Tool[] }) {
   const t = useT()
   const locale = useLocale()
   const [prompt, setPrompt] = useState("");
@@ -54,7 +54,7 @@ export default function Home() {
   // Find 3 more tools in the same category as the main tool, excluding the top 3
   let moreCategoryTools: any[] = [];
   if (mainTool) {
-    moreCategoryTools = mockTools
+    moreCategoryTools = tools
       .filter(tool =>
         tool.id !== mainTool.id &&
         !topTools.find(t => t.tool && t.tool.id === tool.id) &&
@@ -64,7 +64,7 @@ export default function Home() {
   }
 
   // Newest catalog additions. Closed and undated cards are left out.
-  const newTools = [...mockTools]
+  const newTools = [...tools]
     .filter((tool) => tool.dateAdded && tool.status !== "sunset")
     .sort((a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime())
     .slice(0, 5);

@@ -7,20 +7,21 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { cn } from "@/lib/utils"
 import { useRouter } from "next/navigation"
-import { mockTools } from "@/lib/data"
 import { advancedSearch } from "@/lib/recommendation-engine"
 import { categoryCopy } from "@/lib/i18n/messages"
+import type { CatalogSearchRecord } from "@/lib/i18n/search-records"
 import { localizeHref } from "@/lib/i18n/paths"
-import { localizeTool } from "@/lib/i18n/localize-tool"
+import type { Tool } from "@/lib/types"
 import { useLocale, useT } from "./locale-provider"
 
 interface SearchBarProps {
   className?: string
+  records: CatalogSearchRecord[]
 }
 
-export default function SearchBar({ className }: SearchBarProps) {
+export default function SearchBar({ className, records }: SearchBarProps) {
   const [searchQuery, setSearchQuery] = useState("")
-  const [results, setResults] = useState<Array<{ tool: any; match: any; score: number }>>([])
+  const [results, setResults] = useState<Array<{ tool: Tool; match: unknown; score: number }>>([])
   const router = useRouter()
   const locale = useLocale()
   const t = useT()
@@ -28,16 +29,7 @@ export default function SearchBar({ className }: SearchBarProps) {
   const handleSearch = (value: string) => {
     setSearchQuery(value)
     if (value.trim()) {
-      const searchable = mockTools.map((tool) => {
-        const french = localizeTool(tool, "fr")
-        return {
-          ...tool,
-          description: `${tool.description} ${french.description}`,
-          longDescription: `${tool.longDescription || ""} ${french.longDescription || ""}`,
-          tags: [...(tool.tags || []), ...(french.tags || [])],
-        }
-      })
-      const searchResults = advancedSearch(searchable, value)
+      const searchResults = advancedSearch(records as Tool[], value)
       setResults(searchResults)
     } else {
       setResults([])

@@ -10,6 +10,7 @@ import GoogleAnalytics from "@/components/GoogleAnalytics"
 import { LocaleProvider } from "@/components/locale-provider"
 import { getLocale, getRequestPathname } from "@/lib/i18n/get-locale"
 import { buildPageMetadata } from "@/lib/i18n/metadata"
+import { searchRecordsForLocale } from "@/lib/i18n/search-records"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -24,6 +25,7 @@ export default async function RootLayout({
   children: React.ReactNode
 }>) {
   const locale = await getLocale()
+  const searchRecords = searchRecordsForLocale(locale)
 
   return (
     <html lang={locale} suppressHydrationWarning>
@@ -34,7 +36,7 @@ export default async function RootLayout({
         <LocaleProvider locale={locale}>
           <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
             <div className="flex flex-col min-h-screen">
-              <Header />
+              <Header searchRecords={searchRecords} />
               <main className="flex-grow">{children}</main>
               <Footer />
               <CookieConsent />

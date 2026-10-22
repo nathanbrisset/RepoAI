@@ -3,6 +3,7 @@ import BackButton from "./BackButton"
 import { notFound } from "next/navigation"
 import PricingToolsGrid from "./PricingToolsGrid"
 import { getLocale } from "@/lib/i18n/get-locale"
+import { toolForLocale } from "@/lib/i18n/localize-tool"
 import { categoryCopy } from "@/lib/i18n/messages"
 import { metadataFor } from "@/lib/i18n/metadata"
 
@@ -40,7 +41,9 @@ export default async function CategoryPage(props: PageProps) {
   const copy = categoryCopy(locale, categoryObj.id) || categoryObj
 
   // Get tools in this category
-  const tools = mockTools.filter(tool => tool.categories.includes(categoryObj.id));
+  const tools = mockTools
+    .filter((tool) => tool.categories.includes(categoryObj.id))
+    .map((tool) => toolForLocale(tool, locale))
 
   return (
     <div className="container py-8 space-y-8">

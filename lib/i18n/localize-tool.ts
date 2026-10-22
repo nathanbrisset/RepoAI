@@ -10,6 +10,33 @@ export function formatCatalogDate(value: string | null | undefined, locale: Loca
   return date.toLocaleDateString(locale === "fr" ? "fr-FR" : "en-US")
 }
 
+const FRENCH_FIELD_KEYS = [
+  "summary_fr",
+  "shortDescription_fr",
+  "description_fr",
+  "tags_fr",
+  "features_fr",
+  "howToUse_fr",
+  "statusNote_fr",
+  "dateAddedNote_fr",
+  "pricingNote_fr",
+] as const satisfies readonly (keyof Tool)[]
+
+/**
+ * Fiche for the page that is on screen.
+ * French copy is copied into the displayed fields, then the overlay keys are
+ * removed so the other language is not serialized to the browser.
+ */
+export function toolForLocale(tool: Tool, locale: Locale): Tool {
+  const localized = localizeTool(tool, locale)
+  const copy: Tool = {
+    ...localized,
+    pricing: localized.pricing ? { ...localized.pricing } : undefined,
+  }
+  for (const key of FRENCH_FIELD_KEYS) delete copy[key]
+  return copy
+}
+
 /** Swap in French fiche fields when they exist. English copy stays otherwise. */
 export function localizeTool(tool: Tool, locale: Locale): Tool {
   if (locale !== "fr" || !tool) return tool

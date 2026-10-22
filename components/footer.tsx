@@ -2,8 +2,7 @@
 
 import LocaleLink from "./locale-link"
 import { useLocale, useT } from "./locale-provider"
-import { categories } from "@/lib/data"
-import { categoryName } from "@/lib/category-meta"
+import { categoryCatalog, categoryName } from "@/lib/category-meta"
 import { categoryCopy } from "@/lib/i18n/messages"
 
 export default function Footer() {
@@ -22,7 +21,7 @@ export default function Footer() {
           <div className="flex-1 mb-8 md:mb-0 md:mr-8">
             <h3 className="font-bold text-lg mb-4">{t("footer.categories")}</h3>
             <ul className="grid grid-cols-2 gap-x-4 gap-y-2">
-              {categories.map((category) => (
+              {categoryCatalog.map((category) => (
                 <li key={category.id}>
                   <LocaleLink href={`/categories/${category.id}`} className="text-gray-600 hover:text-gray-900 transition-colors">
                     {categoryCopy(locale, category.id)?.name || categoryName(category.id)}

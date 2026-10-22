@@ -8,9 +8,8 @@ import { Button } from "@/components/ui/button"
 import { Search } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import type { Tool } from "@/lib/types"
-import { categories } from "@/lib/data"
+import { categoryCatalog } from "@/lib/category-meta"
 import { pricingLabel } from "@/lib/i18n/messages"
-import { localizeTool } from "@/lib/i18n/localize-tool"
 import { localizeHref } from "@/lib/i18n/paths"
 import LocaleLink from "@/components/locale-link"
 import { useLocale, useT } from "@/components/locale-provider"
@@ -30,7 +29,7 @@ interface ToolsClientProps {
 
 export default function ToolsClient({ tools, initialCategory = null, initialPricing = null }: ToolsClientProps) {
   const router = useRouter()
-  const initial = categories.some((category) => category.id === initialCategory) ? initialCategory : null
+  const initial = categoryCatalog.some((category) => category.id === initialCategory) ? initialCategory : null
   const initialFilter = priceFilterFromParam(initialPricing)
   const [selectedPricing, setSelectedPricing] = useState<PriceFilter | null>(initialFilter)
   const [selectedCategory, setSelectedCategory] = useState<string | null>(initial)
@@ -66,15 +65,12 @@ export default function ToolsClient({ tools, initialCategory = null, initialPric
   }
 
   const filteredTools = tools.filter(tool => {
-    const french = localizeTool(tool, "fr")
     const haystack = [
       tool.name,
       tool.description,
       tool.longDescription,
-      french.description,
-      french.longDescription,
       ...(tool.tags || []),
-      ...(french.tags || []),
+      ...(tool.features || []),
     ].join(" ").toLowerCase()
     const matchesQuery = haystack.includes(query.toLowerCase())
     const matchesPricing = matchesPriceFilter(tool, selectedPricing)
@@ -123,7 +119,7 @@ export default function ToolsClient({ tools, initialCategory = null, initialPric
           >
             All categories
           </button>
-          {categories.map((category) => (
+          {categoryCatalog.map((category) => (
             <button
               key={category.id}
               type="button"

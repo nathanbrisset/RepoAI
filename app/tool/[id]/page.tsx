@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { allTools, mockTools } from "@/lib/data";
 import ToolPageClient from "./tool-page-client";
 import { getLocale } from "@/lib/i18n/get-locale";
-import { localizeTool } from "@/lib/i18n/localize-tool";
+import { toolForLocale } from "@/lib/i18n/localize-tool";
 import { metadataFor } from "@/lib/i18n/metadata";
 
 // Unknown ids are not rendered as empty shells. Next responds with the not-found page.
@@ -41,7 +41,7 @@ export default async function ToolPage({ params }: PageProps) {
 
   const successor = tool.successorId ? allTools.find((item) => item.id === tool.successorId) : null
   const locale = await getLocale()
-  const localized = localizeTool(tool, locale)
+  const localized = toolForLocale(tool, locale)
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
@@ -60,8 +60,8 @@ export default async function ToolPage({ params }: PageProps) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <ToolPageClient
-        tool={tool}
-        relatedTools={relatedTools}
+        tool={localized}
+        relatedTools={relatedTools.map((item) => toolForLocale(item, locale))}
         successorName={successor?.name}
       />
     </>

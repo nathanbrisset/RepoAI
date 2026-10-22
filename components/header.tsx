@@ -7,9 +7,10 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import SearchBar from "./search-bar"
 import LanguageSwitcher from "./language-switcher"
 import LocaleLink from "./locale-link"
+import type { CatalogSearchRecord } from "@/lib/i18n/search-records"
 import { useT } from "./locale-provider"
 
-export default function Header() {
+export default function Header({ searchRecords }: { searchRecords: CatalogSearchRecord[] }) {
   const t = useT()
   const [open, setOpen] = useState(false)
 
@@ -35,7 +36,7 @@ export default function Header() {
             <LanguageSwitcher />
           </Suspense>
           <div className="flex items-center space-x-3">
-            <SearchBar className="bg-transparent" />
+            <SearchBar className="bg-transparent" records={searchRecords} />
           </div>
         </nav>
 
@@ -43,7 +44,7 @@ export default function Header() {
           <Suspense fallback={<span className="inline-block w-14" />}>
             <LanguageSwitcher />
           </Suspense>
-          <SearchBar className="bg-transparent" />
+          <SearchBar className="bg-transparent" records={searchRecords} />
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" aria-label={t("header.openMenu")}>
