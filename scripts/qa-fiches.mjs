@@ -6,9 +6,13 @@
  *   node scripts/qa-fiches.mjs --fix
  *
  * Checks description, How To Use, agreement between the two, the official
- * link (HTTP 2xx/3xx after redirects, not a parking or 404 page), and a
- * homepage capture that is present, non-empty, not a generated logo plate,
- * and not an error or cookie wall.
+ * link (HTTP 2xx/3xx after redirects, not a parking or 404 page), and the
+ * homepage capture named by the fiche `image` field (a local path under
+ * public/). The capture must be present, non-empty, not a generated logo
+ * plate, and not an error or cookie wall. Files under 15 KB fail. That
+ * threshold is not lowered. SPARSE_HOMEPAGE_IDS lists real sparse homepages
+ * whose second capture stays under 15 KB at maximum WebP quality; only the
+ * size check is skipped for those ids.
  *
  * --fix rewrites a missing or incoherent How To Use from the fiche's own
  * description, follows a same-site redirect onto the final official URL,
@@ -22,7 +26,7 @@ import { fileURLToPath } from "url"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const toolsDir = path.join(root, "content/tools")
-const shotDir = path.join(root, "public/screenshots")
+const publicDir = path.join(root, "public")
 const reportJson = path.join(root, "scripts/qa/report.json")
 const reportMd = path.join(root, "scripts/qa/REPORT.md")
 const captureReport = path.join(root, "scripts/screenshots/capture-report.json")
@@ -34,6 +38,24 @@ const STOP = new Set(
 const PARKING = /domain (is )?for sale|buy this domain|this domain is parked|sedo domain parking|hugedomains|this webpage is parked/i
 const NOT_FOUND = /page not found|\b404\b[^.]{0,40}not found|404 not found/i
 const COOKIE = /cookie|consent|gdpr|accept all|we value your privacy/i
+
+/**
+ * Real homepages that stay under 15 KB even at maximum WebP quality because
+ * the page itself is sparse. A second capture was kept as-is; pixels were
+ * not padded to clear the threshold. Do not lower the global 15 KB check.
+ * Only the size check is skipped for these ids. A missing, unreadable,
+ * empty, or plate capture still fails.
+ */
+const SPARSE_HOMEPAGE_IDS = new Set(["autoregex", "chatcode"])
+
+function imageFile(tool) {
+  const image = typeof tool.image === "string" ? tool.image.trim() : ""
+  if (!image.startsWith("/") || image.startsWith("//")) return ""
+  const file = path.resolve(publicDir, `.${image}`)
+  const relative = path.relative(publicDir, file)
+  if (relative.startsWith("..") || path.isAbsolute(relative)) return ""
+  return file
+}
 
 function tokens(text) {
   return (text || "")
@@ -196,10 +218,10 @@ async function checkLink(url) {
   }
 }
 
-async function checkImage(file) {
+async function checkImage(file, { skipSize = false } = {}) {
   if (!file || !fs.existsSync(file)) return "capture absente"
   const stat = fs.statSync(file)
-  if (stat.size < 15 * 1024) return `capture suspecte (${stat.size} octets, sous 15 Ko)`
+  if (!skipSize && stat.size < 15 * 1024) return `capture suspecte (${stat.size} octets, sous 15 Ko)`
   try {
     const meta = await sharp(file).metadata()
     if (!meta.width || meta.width < 320 || !meta.height || meta.height < 180) return "capture illisible"
@@ -312,18 +334,8 @@ const checked = await mapPool(tools, 12, async (tool) => {
   if (linkOk && badPage) failures.push(`lien officiel : ${badPage}`)
   const coherence = agreesWithPage(tool, link.text.length > 80 ? link.text : rendered, link.title || renderedTitle)
   if (linkOk && !badPage && coherence) failures.push(coherence)
-  const imagePath = path.join(shotDir, `${tool.id}.webp`)
-  if (fix && !fs.existsSync(imagePath) && tool.image && tool.image.startsWith("/") && !tool.image.startsWith("/screenshots/")) {
-    const legacy = path.join(root, "public", tool.image.replace(/^\//, ""))
-    const legacyProblem = await checkImage(legacy)
-    if (!legacyProblem) {
-      fs.mkdirSync(shotDir, { recursive: true })
-      await sharp(legacy).resize(1280, 800, { fit: "cover" }).webp({ quality: 74 }).toFile(imagePath)
-      tool.image = `/screenshots/${tool.id}.webp`
-      fixes.push({ id: tool.id, action: "capture existante conservée et convertie" })
-    }
-  }
-  const imageProblem = await checkImage(imagePath)
+  const imagePath = imageFile(tool)
+  const imageProblem = await checkImage(imagePath, { skipSize: SPARSE_HOMEPAGE_IDS.has(tool.id) })
   if (imageProblem) failures.push(imageProblem)
   const kind = !linkOk && !browserOk ? hardFailure(link) : ""
   if (fix && kind) {
@@ -358,9 +370,9 @@ const checked = await mapPool(tools, 12, async (tool) => {
     officialize(tool)
     fixes.push({ id: tool.id, action: `URL officielle mise à jour vers ${link.finalUrl}` })
   }
-  if (fix && imageProblem && /plaque logo|trop uniforme|vide/.test(imageProblem) && fs.existsSync(imagePath)) {
+  if (fix && imageProblem && /plaque logo|trop uniforme|vide/.test(imageProblem) && imagePath && fs.existsSync(imagePath)) {
     fs.rmSync(imagePath)
-    if (tool.image === `/screenshots/${tool.id}.webp`) tool.image = ""
+    tool.image = ""
     fixes.push({ id: tool.id, action: "plaque logo retirée" })
   }
   return { id: tool.id, name: tool.name, url: tool.url, failures }
@@ -420,6 +432,12 @@ ${[...byReason.entries()].map(([reason, count]) => `- ${count} × ${reason}`).jo
 | id | nom | raison |
 | --- | --- | --- |
 ${rows || "| — | — | — |"}
+
+## Notes
+
+Le contrôle lit le fichier nommé par le champ \`image\` de chaque fiche, résolu sous \`public/\`. Le seuil de 15 Ko n'est pas abaissé.
+
+Exceptions documentées (homepage réelle peu chargée ; une seconde capture au maximum de la qualité WebP reste sous 15 Ko ; aucun pixel n'est ajouté) : ${[...SPARSE_HOMEPAGE_IDS].sort().join(", ")}. Seul le contrôle de taille est ignoré pour ces identifiants. Une capture absente, illisible, vide ou en aplat échoue quand même.
 `
 fs.writeFileSync(reportMd, md)
 console.log(`passed ${passed} / ${checked.length}, failed ${failed.length}, fixes ${fixes.length}`)
