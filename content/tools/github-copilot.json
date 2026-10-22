@@ -15,15 +15,16 @@
     "ide-integration"
   ],
   "pricing": {
-    "model": "open-source",
-    "label": "Open source",
-    "verified": false,
-    "note": "The official link is a GitHub repository. The license and any paid hosting were not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "GitHub's docs list Copilot Free with a limited allowance, including 2,000 completions a month. Paid plans are Pro at $10/month, Pro+ at $39/month and Max at $100/month, plus Business at $19 per user per month and Enterprise at $39 per user per month.",
+    "sourceUrl": "https://docs.github.com/en/copilot/get-started/plans"
   },
   "logo": "/logos/github-copilot.png",
   "image": "/screenshots/github-copilot.webp",
   "dateAdded": "2021-06-29",
-  "lastVerified": null,
+  "lastVerified": "2026-10-22",
   "features": [
     "AI Code Completions: Suggest code snippets based on context.",
     "Natural Language Chat: Interact with codebase using conversational queries.",

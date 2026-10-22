@@ -16,13 +16,14 @@
   "pricing": {
     "model": "open-source",
     "label": "Open source",
-    "verified": false,
-    "note": "The official link is a GitHub repository. The license and any paid hosting were not rechecked."
+    "verified": true,
+    "note": "Checked on 22 October 2026: the official repository is free to run locally and remains open source. Comfy Cloud is a separate hosted product, with a free credit tier and paid plans.",
+    "sourceUrl": "https://github.com/Comfy-Org/ComfyUI"
   },
   "logo": "/logos/comfyui.png",
   "image": "/screenshots/comfyui.webp",
   "dateAdded": "2023-09-11",
-  "lastVerified": null,
+  "lastVerified": "2026-10-22",
   "features": [
     "Node-based workflow: Build custom image generation pipelines.",
     "Custom model support: Use your own or community models.",

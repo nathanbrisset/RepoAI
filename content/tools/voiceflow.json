@@ -16,13 +16,16 @@
     "cx"
   ],
   "pricing": {
-    "verified": false,
-    "uncertain": true
+    "verified": true,
+    "model": "usage-based",
+    "label": "Usage-based",
+    "note": "The official pricing page offers a free trial and describes agency billing as usage-based. Business plans are quoted on request. No dollar price was published on that page.",
+    "sourceUrl": "https://www.voiceflow.com/pricing"
   },
   "logo": "https://www.voiceflow.com/webclip.png",
   "image": "/screenshots/voiceflow.webp",
   "dateAdded": null,
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-22",
   "sources": [
     "https://www.voiceflow.com/",
     "https://www.voiceflow.com/pricing"

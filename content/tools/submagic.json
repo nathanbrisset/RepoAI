@@ -16,13 +16,16 @@
     "api"
   ],
   "pricing": {
-    "verified": false,
-    "uncertain": true
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "The official pricing page lists Starter at $19/month and Pro at $39/month. A Try For Free button is shown, but no lasting $0 plan was listed.",
+    "sourceUrl": "https://www.submagic.co/pricing"
   },
   "logo": "https://cdn.prod.website-files.com/6469e2294ac68c3d5caea327/64bfa3c12a5deee2593d92ac_256.png",
   "image": "/screenshots/submagic.webp",
   "dateAdded": null,
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-22",
   "sources": [
     "https://www.submagic.co/",
     "https://www.submagic.co/pricing"

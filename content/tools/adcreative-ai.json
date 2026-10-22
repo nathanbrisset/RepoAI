@@ -16,13 +16,16 @@
     "video-ads"
   ],
   "pricing": {
-    "verified": false,
-    "uncertain": true
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "The official homepage, fetched on 22 October 2026, offers a 7-day free trial and says to cancel anytime. It does not show a lasting free plan or a plan price.",
+    "sourceUrl": "https://www.adcreative.ai/"
   },
   "logo": "https://cdn.prod.website-files.com/661ce890f68a1d352ebbed35/66aa467aba9463ef88f4949d_256.png",
   "image": "/screenshots/adcreative-ai.webp",
   "dateAdded": null,
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-22",
   "sources": [
     "https://www.adcreative.ai/"
   ],

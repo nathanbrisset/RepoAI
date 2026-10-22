@@ -16,13 +16,16 @@
     "ai-sdr"
   ],
   "pricing": {
-    "verified": false,
-    "uncertain": true
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "The official pricing page lists paid Outreach plans, with Growth at $47/month. No $0 plan was shown.",
+    "sourceUrl": "https://instantly.ai/pricing"
   },
   "logo": "https://cdn.prod.website-files.com/63860c8c65e7bef4a1eeebeb/63f62e4d1df86f1bf7f133d5_cleaned_rounded.png",
   "image": "/screenshots/instantly.webp",
   "dateAdded": null,
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-22",
   "sources": [
     "https://instantly.ai/",
     "https://instantly.ai/pricing"

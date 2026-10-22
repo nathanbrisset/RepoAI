@@ -16,13 +16,14 @@
   "pricing": {
     "model": "open-source",
     "label": "Open source",
-    "verified": false,
-    "note": "The official link is a GitHub repository. The license and any paid hosting were not rechecked."
+    "verified": true,
+    "note": "Checked on 22 October 2026: the official GitHub repository publishes this as open-source software, with no paid plan on that page.",
+    "sourceUrl": "https://github.com/salesforce/CodeGen"
   },
   "logo": "/logos/codegen.png",
   "image": "/screenshots/codegen.webp",
   "dateAdded": "2023-02-01",
-  "lastVerified": null,
+  "lastVerified": "2026-10-22",
   "features": [
     "AI-Powered Code Generation: Generates code snippets based on natural language prompts.",
     "Support for Multiple Languages: Handles code generation in various programming languages.",

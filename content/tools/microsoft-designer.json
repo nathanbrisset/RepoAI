@@ -16,13 +16,16 @@
     "image-generation"
   ],
   "pricing": {
-    "verified": false,
-    "uncertain": true
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "Microsoft's Designer page says each account gets monthly credits, and that Microsoft 365 Personal, Family or Premium provides up to four times more credits.",
+    "sourceUrl": "https://www.microsoft.com/en-us/microsoft-365/microsoft-designer"
   },
   "logo": "https://res.public.onecdn.static.microsoft/designer/client/prod/static/media/designer-logo-192.png",
   "image": "/screenshots/microsoft-designer.webp",
   "dateAdded": null,
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-22",
   "sources": [
     "https://designer.microsoft.com/"
   ],

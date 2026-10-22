@@ -16,13 +16,16 @@
     "automation"
   ],
   "pricing": {
-    "verified": false,
-    "uncertain": true
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "The official pricing page shows only an Enterprise plan, with pricing on request.",
+    "sourceUrl": "https://relevanceai.com/pricing"
   },
   "logo": "https://cdn.relevanceai.com/images/favicon-256x256.png",
   "image": "/screenshots/relevance-ai.webp",
   "dateAdded": null,
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-22",
   "sources": [
     "https://relevanceai.com/",
     "https://relevanceai.com/pricing"

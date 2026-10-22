@@ -16,13 +16,16 @@
     "app"
   ],
   "pricing": {
-    "verified": false,
-    "uncertain": true
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "The official pricing page lists Plus at $5.99/month, Pro at $8.99/month and Builder at $14.99/month. No $0 plan was shown on that page.",
+    "sourceUrl": "https://web.meetcleo.com/pricing"
   },
   "logo": "",
   "image": "/screenshots/cleo.webp",
   "dateAdded": null,
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-22",
   "sources": [
     "https://web.meetcleo.com/",
     "https://web.meetcleo.com/pricing"

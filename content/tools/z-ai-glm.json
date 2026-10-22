@@ -16,13 +16,16 @@
     "open-weight"
   ],
   "pricing": {
-    "verified": false,
-    "uncertain": true
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "Z.AI's pricing page lists per-token prices, including GLM-5.3 at $1.40 per million input tokens, and marks GLM-4.7-Flash, GLM-4.5-Flash and GLM-4.6V-Flash as free. The coding plan documented separately starts at $18/month.",
+    "sourceUrl": "https://docs.z.ai/guides/overview/pricing"
   },
   "logo": "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
   "image": "/screenshots/z-ai-glm.webp",
   "dateAdded": null,
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-22",
   "sources": [
     "https://chat.z.ai/"
   ],

@@ -17,13 +17,14 @@
   "pricing": {
     "model": "open-source",
     "label": "Open source",
-    "verified": false,
-    "note": "The official link is a GitHub repository. The license and any paid hosting were not rechecked."
+    "verified": true,
+    "note": "Checked on 22 October 2026: the official GitHub repository publishes this as open-source software, with no paid plan on that page.",
+    "sourceUrl": "https://github.com/openai/whisper"
   },
   "logo": "/logos/whisper.png",
   "image": "/screenshots/whisper.webp",
   "dateAdded": "2022-09-20",
-  "lastVerified": null,
+  "lastVerified": "2026-10-22",
   "features": [
     "Multilingual Transcription: Transcribes speech in over 90 languages.",
     "Open-Source: Available for public use and modification.",

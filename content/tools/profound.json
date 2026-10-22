@@ -16,13 +16,16 @@
     "answer-engines"
   ],
   "pricing": {
-    "verified": false,
-    "uncertain": true
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "The official pricing page lists a free 7-day trial, with 50 prompts a day, and paid Enterprise and Agency Growth plans. No dollar price was shown.",
+    "sourceUrl": "https://www.tryprofound.com/pricing"
   },
   "logo": "https://static.tryprofound.com/favicons/v1/production/light.svg",
   "image": "/screenshots/profound.webp",
   "dateAdded": null,
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-22",
   "sources": [
     "https://www.tryprofound.com/",
     "https://www.tryprofound.com/plans"

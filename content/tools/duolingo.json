@@ -15,13 +15,16 @@
     "mobile-apps"
   ],
   "pricing": {
-    "verified": false,
-    "uncertain": true
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "The official Super page lists a Free plan and paid Super and Super Family plans, with a one-week trial. Dollar prices are not printed on that page.",
+    "sourceUrl": "https://www.duolingo.com/super"
   },
   "logo": "https://d35aaqx5ub95lt.cloudfront.net/images/duolingo-touch-icon2.png",
   "image": "/screenshots/duolingo.webp",
   "dateAdded": null,
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-22",
   "sources": [
     "https://www.duolingo.com/"
   ],

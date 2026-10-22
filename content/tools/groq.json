@@ -16,13 +16,16 @@
     "lpu"
   ],
   "pricing": {
-    "verified": false,
-    "uncertain": true
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "Groq's billing page lists a Free plan at $0 and a Developer plan billed per token, plus Enterprise.",
+    "sourceUrl": "https://console.groq.com/settings/billing/plans"
   },
   "logo": "https://groq.com/favicon.svg",
   "image": "/screenshots/groq.webp",
   "dateAdded": null,
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-22",
   "sources": [
     "https://groq.com/",
     "https://groq.com/pricing"

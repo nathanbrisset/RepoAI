@@ -16,13 +16,14 @@
   "pricing": {
     "model": "open-source",
     "label": "Open source",
-    "verified": false,
-    "note": "The official link is a GitHub repository. The license and any paid hosting were not rechecked."
+    "verified": true,
+    "note": "Checked on 22 October 2026: the official GitHub repository publishes this as open-source software, with no paid plan on that page.",
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel"
   },
   "logo": "/logos/semantic-kernel.png",
   "image": "/screenshots/semantic-kernel.webp",
   "dateAdded": "2023-07-01",
-  "lastVerified": null,
+  "lastVerified": "2026-10-22",
   "features": [
     "Integration of AI Models: Combines various AI models into applications.",
     "Support for Plugins: Allows extension with custom functionalities.",

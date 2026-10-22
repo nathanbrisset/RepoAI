@@ -17,13 +17,16 @@
     "api"
   ],
   "pricing": {
-    "verified": false,
-    "uncertain": true
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "The official pricing page lists Free at $0/month with 20,000 credits, Pro at $5/month and Startup at $49/month.",
+    "sourceUrl": "https://www.cartesia.ai/pricing"
   },
   "logo": "https://www.cartesia.ai/favicon.svg",
   "image": "/screenshots/cartesia.webp",
   "dateAdded": null,
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-22",
   "sources": [
     "https://cartesia.ai/",
     "https://www.cartesia.ai/pricing"

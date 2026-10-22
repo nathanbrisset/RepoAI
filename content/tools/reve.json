@@ -15,13 +15,16 @@
     "prompt-adherence"
   ],
   "pricing": {
-    "verified": false,
-    "uncertain": true
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "The official pricing page lists Free at $0/month, Lite at $7.99/month, Pro at $19.99/month and Teams at $59 per user per month.",
+    "sourceUrl": "https://app.reve.com/pricing"
   },
   "logo": "https://app.reve.com/icon.svg",
   "image": "/screenshots/reve.webp",
   "dateAdded": null,
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-22",
   "sources": [
     "https://reve.com/"
   ],
