@@ -21,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "",
-  "image": "/screenshots/alphacode.webp",
+  "image": "/tool-screenshots/alphacode.png",
   "dateAdded": "2025-06-04",
   "lastVerified": null,
   "features": [
@@ -33,10 +33,10 @@
   "howToUse": [
     {
       "title": "Access AlphaCode",
-      "description": "Visit the AlphaCode research page for demos and documentation.",
+      "description": "The demo host no longer completes a TLS handshake. Read the DeepMind article on competitive programming with AlphaCode.",
       "links": [
         {
-          "label": "AlphaCode",
+          "label": "Competitive programming with AlphaCode",
           "url": "https://alphacode.deepmind.com/"
         }
       ]

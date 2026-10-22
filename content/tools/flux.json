@@ -31,26 +31,28 @@
   ],
   "howToUse": [
     {
-      "title": "Open FLUX (Black Forest Labs)",
-      "description": "Open the official FLUX (Black Forest Labs) website.",
+      "title": "Start from text, an image, or keyframes",
+      "description": "The Black Forest Labs page presents FLUX 3 for image, video, audio, and action, and says to start from text, an image, or keyframes.",
       "links": [
         {
-          "label": "FLUX (Black Forest Labs)",
+          "label": "Black Forest Labs",
           "url": "https://bfl.ai/"
         }
       ]
     },
     {
-      "title": "Black Forest Labs develops the FLUX family of models for image generation and editing",
-      "description": "Black Forest Labs develops the FLUX family of models for image generation and editing, known for high prompt fidelity and photorealism."
+      "title": "Generate",
+      "description": "The page says a video generation can include native audio, run up to 20 seconds, and contain multiple shots in one take."
     },
     {
-      "title": "The models are offered via the BFL API and playground",
-      "description": "The models are offered via the BFL API and playground, and some versions are released as open weights for developers."
-    },
-    {
-      "title": "API usage is paid per image",
-      "description": "API usage is paid per image, for example $0.048 per image on the pricing calculator, with custom enterprise pricing at scale."
+      "title": "Use the playground, weights, or the API",
+      "description": "The homepage links a playground, open weights, enterprise, and an API quick start. Get started opens the dashboard.",
+      "links": [
+        {
+          "label": "API quick start",
+          "url": "https://docs.bfl.ai/quick_start/introduction"
+        }
+      ]
     }
   ]
 }

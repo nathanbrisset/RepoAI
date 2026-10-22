@@ -31,8 +31,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Pika",
-      "description": "Open the official Pika website.",
+      "title": "Try Pika",
+      "description": "The homepage says to try Pika and points at self-contained creative apps.",
       "links": [
         {
           "label": "Pika",
@@ -41,16 +41,18 @@
       ]
     },
     {
-      "title": "Pika provides AI tools to generate and transform short videos from text and images",
-      "description": "Pika provides AI tools to generate and transform short videos from text and images, including playful effects for social media."
+      "title": "Generate in Video Studio",
+      "description": "Video Studio is described as generating anything from a short clip to a 30-second multi-shot video."
     },
     {
-      "title": "It positions itself on creative",
-      "description": "It positions itself on creative, effect-driven video rather than long cinematic shots."
-    },
-    {
-      "title": "A free plan is available to try the tools",
-      "description": "A free plan is available to try the tools, and paid plans unlock more credits, higher quality and commercial features."
+      "title": "Use the other apps",
+      "description": "The page also lists Image Studio, Edit Image, Color Grade, Extend Video, Pika Soundtrack, Character Studio, and Product Shot.",
+      "links": [
+        {
+          "label": "Help Center",
+          "url": "https://pika.art/faq"
+        }
+      ]
     }
   ]
 }

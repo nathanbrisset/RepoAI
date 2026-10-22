@@ -31,8 +31,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Cline",
-      "description": "Open the official Cline website.",
+      "title": "Install Cline",
+      "description": "The homepage says to install the extension in VS Code, Windsurf, JetBrains, or Cursor, or to download the desktop app for Mac, Windows, or Linux.",
       "links": [
         {
           "label": "Cline",
@@ -41,16 +41,18 @@
       ]
     },
     {
-      "title": "Cline is an open-source AI coding agent for VS Code and the terminal",
-      "description": "Cline is an open-source AI coding agent for VS Code and the terminal, with Plan and Act modes and MCP integration for external tools."
+      "title": "Or use the CLI or SDK",
+      "description": "The page shows npm i -g cline for the terminal, and npm install @cline/sdk to embed the runtime."
     },
     {
-      "title": "Its differentiator is transparency and model choice",
-      "description": "Its differentiator is transparency and model choice: developers bring their own API keys or providers and can self-host."
-    },
-    {
-      "title": "The extension is completely free for individual developers",
-      "description": "The extension is completely free for individual developers, who only pay their model provider; team and enterprise offerings are available."
+      "title": "Plan, then let it edit",
+      "description": "The page says Cline plans before it acts, edits across the project, and can run bash commands.",
+      "links": [
+        {
+          "label": "Cline docs",
+          "url": "https://docs.cline.bot/"
+        }
+      ]
     }
   ]
 }

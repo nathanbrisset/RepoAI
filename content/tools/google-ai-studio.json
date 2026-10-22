@@ -33,8 +33,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Google AI Studio",
-      "description": "Open the official Google AI Studio website.",
+      "title": "Open AI Studio",
+      "description": "The welcome page says to go from a prompt to production and offers Get started.",
       "links": [
         {
           "label": "Google AI Studio",
@@ -43,16 +43,22 @@
       ]
     },
     {
-      "title": "Google AI Studio is a browser-based environment to experiment with Gemini models",
-      "description": "Google AI Studio is a browser-based environment to experiment with Gemini models, vibe-code apps, and obtain API keys for the Gemini API."
+      "title": "Try a model",
+      "description": "The page lists Gemini, Nano Banana, Veo, Gemini TTS, Gemini Live, Omni, and Lyria as models you can experiment with."
     },
     {
-      "title": "It is the fastest path from prompt to production for developers using Google models.",
-      "description": "It is the fastest path from prompt to production for developers using Google models."
+      "title": "Get an API key",
+      "description": "The page says to get an API key and use an official GenAI SDK for Python, JavaScript, Go, Java, or C++."
     },
     {
-      "title": "Use of AI Studio and the Gemini API free tier costs nothing",
-      "description": "Use of AI Studio and the Gemini API free tier costs nothing, with paid API tiers billed per token and higher limits included in Google AI plans."
+      "title": "Remix a project, or read the docs",
+      "description": "Featured projects can be remixed from the gallery. Documentation is linked from the page.",
+      "links": [
+        {
+          "label": "Documentation",
+          "url": "https://aistudio.google.com/docs"
+        }
+      ]
     }
   ]
 }

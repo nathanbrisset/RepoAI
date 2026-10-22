@@ -31,8 +31,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Claude Code",
-      "description": "Open the official Claude Code website.",
+      "title": "Download Claude Code",
+      "description": "The product page offers a Windows download and says it is available for macOS, Linux, and Windows.",
       "links": [
         {
           "label": "Claude Code",
@@ -41,16 +41,22 @@
       ]
     },
     {
-      "title": "Claude Code is Anthropic's agentic coding tool that reads your codebase",
-      "description": "Claude Code is Anthropic's agentic coding tool that reads your codebase, edits files, runs commands and helps ship features from the terminal, IDE or web."
+      "title": "Hand it a task",
+      "description": "The page says to hand Claude a bug fix, a test, or a longer migration, then steer and review the work."
     },
     {
-      "title": "It is valued for strong reasoning on large codebases.",
-      "description": "It is valued for strong reasoning on large codebases."
+      "title": "Use it where you work",
+      "description": "The page lists the terminal, IDE, Slack, and web, plus iOS, Android, GitHub, VS Code, and JetBrains."
     },
     {
-      "title": "It is not part of the free Claude plan",
-      "description": "It is not part of the free Claude plan: access starts with Claude Pro at $17/month billed annually ($20 monthly), with Max plans from $100/month, or via pay-as-you-go API usage."
+      "title": "Read the docs",
+      "description": "Documentation is linked from the product page.",
+      "links": [
+        {
+          "label": "Claude Code docs",
+          "url": "https://code.claude.com/docs/en/overview"
+        }
+      ]
     }
   ]
 }

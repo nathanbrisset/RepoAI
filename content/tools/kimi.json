@@ -32,7 +32,7 @@
   "howToUse": [
     {
       "title": "Open Kimi",
-      "description": "Open the official Kimi website.",
+      "description": "The homepage is a chat. Its prompt says to ask anything, or task an agent.",
       "links": [
         {
           "label": "Kimi",
@@ -41,16 +41,18 @@
       ]
     },
     {
-      "title": "Kimi is the AI assistant from Moonshot AI",
-      "description": "Kimi is the AI assistant from Moonshot AI, powered by its Kimi K3 model."
+      "title": "Use the tools on the page",
+      "description": "The same screen lists Plugins, Slides, and Deep Research alongside the prompt."
     },
     {
-      "title": "Beyond chat",
-      "description": "Beyond chat, it offers agent features for documents, spreadsheets and slides, deep research, website deployment and 'Swarm' multi-agent execution with a Goal mode."
-    },
-    {
-      "title": "Paid memberships start with Plus at $15/month billed annually ($19 monthly)",
-      "description": "Paid memberships start with Plus at $15/month billed annually ($19 monthly), up to Ultra; the pricing page did not show a free tier, so pricing is left unverified."
+      "title": "Read the docs",
+      "description": "Docs are linked from the homepage.",
+      "links": [
+        {
+          "label": "Kimi docs",
+          "url": "https://www.kimi.com/docs"
+        }
+      ]
     }
   ]
 }

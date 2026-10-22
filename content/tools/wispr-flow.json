@@ -31,8 +31,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Wispr Flow",
-      "description": "Open the official Wispr Flow website.",
+      "title": "Install Flow",
+      "description": "The homepage says Flow is available on Mac, Windows, iPhone, and Android.",
       "links": [
         {
           "label": "Wispr Flow",
@@ -41,16 +41,22 @@
       ]
     },
     {
-      "title": "Wispr Flow is a voice dictation tool that turns natural speech into polished",
-      "description": "Wispr Flow is a voice dictation tool that turns natural speech into polished, formatted text in any app on desktop and mobile."
+      "title": "Speak instead of typing",
+      "description": "The page says Flow turns speech into polished writing in every app."
     },
     {
-      "title": "It differentiates itself by auto-editing filler words and adapting tone to the app you...",
-      "description": "It differentiates itself by auto-editing filler words and adapting tone to the app you are writing in."
+      "title": "Let Flow edit as you speak",
+      "description": "A section on the homepage is titled Flow edits as you speak."
     },
     {
-      "title": "A free plan with a weekly word limit is offered",
-      "description": "A free plan with a weekly word limit is offered, and paid plans remove limits and add team features."
+      "title": "Use Notetaker where it is offered",
+      "description": "The page says Wispr Flow Notetaker is available on Windows and Mac.",
+      "links": [
+        {
+          "label": "Flow docs",
+          "url": "https://docs.wisprflow.ai/"
+        }
+      ]
     }
   ]
 }

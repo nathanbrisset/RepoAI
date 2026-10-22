@@ -32,26 +32,32 @@
   ],
   "howToUse": [
     {
-      "title": "Open Fathom",
-      "description": "Open the official Fathom website.",
+      "title": "Sign up",
+      "description": "Create a Fathom account. The homepage says it summarizes your meetings so you can focus on the conversation, and that a free plan is available.",
       "links": [
         {
           "label": "Fathom",
-          "url": "https://www.fathom.ai/"
+          "url": "https://fathom.video/users/sign_up"
         }
       ]
     },
     {
-      "title": "Fathom records",
-      "description": "Fathom records, transcribes and summarizes Zoom, Google Meet and Teams meetings, and syncs notes and action items to CRMs."
+      "title": "Capture the meeting",
+      "description": "Take notes with a meeting bot or bot-free. The site says Fathom works where you meet."
     },
     {
-      "title": "It is known for a generous free-forever plan for individuals.",
-      "description": "It is known for a generous free-forever plan for individuals."
+      "title": "Open the summary",
+      "description": "The homepage says AI summaries are available immediately after the call."
     },
     {
-      "title": "Paid plans add advanced AI summaries",
-      "description": "Paid plans add advanced AI summaries, team sharing, coaching and CRM integrations."
+      "title": "Use the notes",
+      "description": "The page says your meeting data can also be used inside ChatGPT, Claude, and more.",
+      "links": [
+        {
+          "label": "Help Center",
+          "url": "https://help.fathom.video/"
+        }
+      ]
     }
   ]
 }

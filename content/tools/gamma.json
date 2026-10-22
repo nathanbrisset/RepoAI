@@ -32,8 +32,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Gamma",
-      "description": "Open the official Gamma website.",
+      "title": "Describe what you want to make",
+      "description": "Gamma's help center says to start from the dashboard prompt. A sentence is enough, and you can paste notes, attach files, or pick a template.",
       "links": [
         {
           "label": "Gamma",
@@ -42,16 +42,22 @@
       ]
     },
     {
-      "title": "Gamma generates presentations",
-      "description": "Gamma generates presentations, documents, websites and social posts from a prompt, outline or imported file, with editable designs and online sharing."
+      "title": "Choose Plan, Express, or Research",
+      "description": "Plan asks questions and shows a plan before building. Express goes straight to a first draft. Research pulls web sources and only works with Plan."
     },
     {
-      "title": "It is known for replacing slide design work with fluid web-native cards.",
-      "description": "It is known for replacing slide design work with fluid web-native cards."
+      "title": "Approve the plan",
+      "description": "In Plan mode, answer the questions, review the plan, and give the go-ahead. The help article says the agent does not build until you do."
     },
     {
-      "title": "The Free plan gives 400 one-time credits and up to 10 slides per prompt; Plus is $9/sea...",
-      "description": "The Free plan gives 400 one-time credits and up to 10 slides per prompt; Plus is $9/seat/month billed annually ($12 monthly) and Pro $18/month billed annually."
+      "title": "Review and ask for changes",
+      "description": "The help article says the agent builds the gamma, and you can tell it what to change afterward.",
+      "links": [
+        {
+          "label": "Create with Agent",
+          "url": "https://help.gamma.app/en/articles/15002203-how-do-i-create-with-agent-in-gamma"
+        }
+      ]
     }
   ]
 }

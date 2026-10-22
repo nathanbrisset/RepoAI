@@ -31,8 +31,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Jules",
-      "description": "Open the official Jules website.",
+      "title": "Give Jules a repository and a prompt",
+      "description": "The homepage says to select a GitHub repository and branch and write a prompt, or add the jules label to an issue.",
       "links": [
         {
           "label": "Jules",
@@ -41,16 +41,22 @@
       ]
     },
     {
-      "title": "Jules is Google's autonomous coding agent",
-      "description": "Jules is Google's autonomous coding agent: it connects to GitHub repositories, works on tasks in the background in a cloud VM, and returns changes as pull requests to review."
+      "title": "Review the plan",
+      "description": "Jules fetches the repository, clones it to a cloud VM, and writes a plan."
     },
     {
-      "title": "It differs from in-editor assistants by being fully asynchronous.",
-      "description": "It differs from in-editor assistants by being fully asynchronous."
+      "title": "Approve the diff",
+      "description": "The page says Jules then shows a diff for you to review and approve."
     },
     {
-      "title": "The free plan includes 15 tasks per day and 3 concurrent tasks; higher limits come with...",
-      "description": "The free plan includes 15 tasks per day and 3 concurrent tasks; higher limits come with Google AI Pro ($19.99/month) and Ultra."
+      "title": "Merge the pull request",
+      "description": "Jules opens a pull request. The page says you approve it, merge it, and publish the branch.",
+      "links": [
+        {
+          "label": "Jules docs",
+          "url": "https://jules.google/docs"
+        }
+      ]
     }
   ]
 }

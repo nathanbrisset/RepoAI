@@ -30,8 +30,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Udio",
-      "description": "Open the official Udio website.",
+      "title": "Describe a song",
+      "description": "Choose Start Creating. The page says that if you can describe the song in text, you can make it.",
       "links": [
         {
           "label": "Udio",
@@ -40,16 +40,18 @@
       ]
     },
     {
-      "title": "Udio generates full songs",
-      "description": "Udio generates full songs, with vocals and lyrics, from text prompts, and lets users extend, remix and edit tracks or use reference styles."
+      "title": "Edit the track",
+      "description": "The homepage shows Extend, Inpaint, Remix, and Upload Song on a creation."
     },
     {
-      "title": "It targets musicians and hobbyists who want controllable song generation.",
-      "description": "It targets musicians and hobbyists who want controllable song generation."
-    },
-    {
-      "title": "The Free plan includes 10 credits per day (100 per month); Standard costs $10/month ($8...",
-      "description": "The Free plan includes 10 credits per day (100 per month); Standard costs $10/month ($8/month billed annually) with 2,400 credits and Pro $30/month."
+      "title": "Listen or share",
+      "description": "The page says you can discover music and share your own creations. Help and a free trial are linked from the page.",
+      "links": [
+        {
+          "label": "Udio Help",
+          "url": "https://help.udio.com/"
+        }
+      ]
     }
   ]
 }

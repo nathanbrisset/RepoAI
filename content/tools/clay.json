@@ -33,8 +33,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Clay",
-      "description": "Open the official Clay website.",
+      "title": "Start a free trial",
+      "description": "The homepage button is Start free trial. The page describes infrastructure for data, agentic workflows, and GTM plays.",
       "links": [
         {
           "label": "Clay",
@@ -43,16 +43,22 @@
       ]
     },
     {
-      "title": "Clay combines over a hundred data providers with AI research agents to find and enrich...",
-      "description": "Clay combines over a hundred data providers with AI research agents to find and enrich leads and automate personalized outbound workflows in a spreadsheet-like interface."
+      "title": "Get the data",
+      "description": "The page says to get data from its data marketplace."
     },
     {
-      "title": "It is widely used by growth and sales teams to build targeted lists.",
-      "description": "It is widely used by growth and sales teams to build targeted lists."
+      "title": "Put agents to work",
+      "description": "The page says to use agents that know your business."
     },
     {
-      "title": "A free plan is available",
-      "description": "A free plan is available, and paid plans add credits, integrations and CRM sync; Clay also runs a creators partner programme."
+      "title": "Build the play on the canvas",
+      "description": "The page says GTM plays are built on a visual canvas.",
+      "links": [
+        {
+          "label": "Pricing",
+          "url": "https://www.clay.com/pricing"
+        }
+      ]
     }
   ]
 }

@@ -32,8 +32,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Dify",
-      "description": "Open the official Dify website.",
+      "title": "Get started or self-host",
+      "description": "The homepage says to deploy on Dify Cloud, a VPC, or self-hosted. Get Started opens the cloud app.",
       "links": [
         {
           "label": "Dify",
@@ -42,16 +42,24 @@
       ]
     },
     {
-      "title": "Dify is a platform to build AI agents",
-      "description": "Dify is a platform to build AI agents, RAG knowledge pipelines and LLM workflows on a visual canvas, then deploy them as apps or APIs."
+      "title": "Build a workflow or a RAG pipeline",
+      "description": "The page says you build agentic workflows and RAG pipelines in one workspace.",
+      "links": [
+        {
+          "label": "Dify Cloud",
+          "url": "https://cloud.dify.ai/"
+        }
+      ]
     },
     {
-      "title": "It is open source and can run on Dify Cloud",
-      "description": "It is open source and can run on Dify Cloud, in a private VPC or self-hosted, which makes it popular with technical teams."
-    },
-    {
-      "title": "A free plan is available on the cloud",
-      "description": "A free plan is available on the cloud, with paid plans for more message credits and team members."
+      "title": "Use the pieces on the page",
+      "description": "The homepage lists Workflow, Agent, Knowledge Pipeline, and Plugins.",
+      "links": [
+        {
+          "label": "Dify docs",
+          "url": "https://docs.dify.ai/"
+        }
+      ]
     }
   ]
 }

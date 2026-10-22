@@ -32,26 +32,32 @@
   ],
   "howToUse": [
     {
-      "title": "Open Firebase Studio",
-      "description": "Open the official Firebase Studio website.",
+      "title": "Read the sunset notice",
+      "description": "The homepage says Firebase Studio sunsets on March 22, 2027, new workspaces can no longer be created, and existing code should move to Google AI Studio or Google Antigravity.",
       "links": [
         {
-          "label": "Firebase Studio",
-          "url": "https://firebase.studio/"
+          "label": "Migration paths",
+          "url": "https://firebase.google.com/docs/studio/migrating-project"
         }
       ]
     },
     {
-      "title": "Firebase Studio is Google's entirely web-based workspace for building full-stack and mo...",
-      "description": "Firebase Studio is Google's entirely web-based workspace for building full-stack and mobile apps with Gemini assistance, Open VSX extensions, web previews and Android emulators."
+      "title": "Import a repository",
+      "description": "For work that is already in a workspace, the page says you can import a repository from GitHub, GitLab, Bitbucket, or your machine."
     },
     {
-      "title": "It integrates directly with Firebase App Hosting for deployment and monitoring.",
-      "description": "It integrates directly with Firebase App Hosting for deployment and monitoring."
+      "title": "Prototype in the workspace",
+      "description": "The same page says the App Prototyping agent can start an application from natural language, mockups, drawings, screenshots, or a template."
     },
     {
-      "title": "It is currently available at no cost during preview with 3 workspaces",
-      "description": "It is currently available at no cost during preview with 3 workspaces, and members of the Google Developer Program get up to 30 workspaces."
+      "title": "Follow the docs",
+      "description": "Firebase Studio documentation is linked from the homepage.",
+      "links": [
+        {
+          "label": "Firebase Studio docs",
+          "url": "https://firebase.google.com/docs/studio"
+        }
+      ]
     }
   ]
 }

@@ -32,8 +32,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Bolt",
-      "description": "Open the official Bolt website.",
+      "title": "Describe what to build",
+      "description": "The homepage says to create apps and websites by chatting with AI. Get Started is the account entry.",
       "links": [
         {
           "label": "Bolt",
@@ -42,16 +42,18 @@
       ]
     },
     {
-      "title": "Bolt",
-      "description": "Bolt, from StackBlitz, lets users build, run and deploy websites and web apps by describing them in plain language, entirely in the browser."
+      "title": "Plan, build, or start from something you have",
+      "description": "The prompt offers Plan and Build now, and says you can start from Figma, GitHub, or a team template. You can also select an element on the preview."
     },
     {
-      "title": "Its differentiator is a full in-browser development environment",
-      "description": "Its differentiator is a full in-browser development environment, so generated code runs instantly without local setup."
-    },
-    {
-      "title": "A free-forever plan is available to get started",
-      "description": "A free-forever plan is available to get started, and paid plans increase token allowances and add team features."
+      "title": "Let Bolt pick the model",
+      "description": "The page says Bolt routes each task to a model and tests, refactors, and iterates while it builds.",
+      "links": [
+        {
+          "label": "Help Center",
+          "url": "https://support.bolt.new/"
+        }
+      ]
     }
   ]
 }

@@ -40,13 +40,26 @@ const NOT_FOUND = /page not found|\b404\b[^.]{0,40}not found|404 not found/i
 const COOKIE = /cookie|consent|gdpr|accept all|we value your privacy/i
 
 /**
- * Real homepages that stay under 15 KB even at maximum WebP quality because
- * the page itself is sparse. A second capture was kept as-is; pixels were
- * not padded to clear the threshold. Do not lower the global 15 KB check.
- * Only the size check is skipped for these ids. A missing, unreadable,
- * empty, or plate capture still fails.
+ * Real homepages that stay under 15 KB because the page itself is sparse.
+ * Reviewed on 21 October 2026 (screenshot pass and OCR). Pixels were not
+ * padded. Do not lower the global 15 KB check, and do not add an id here
+ * without looking at the capture. Only the size check is skipped. A missing,
+ * unreadable, empty, or plate capture still fails.
+ *
+ * AutoRegex is not listed: the capture from the screenshot branch is over 15 KB.
  */
-const SPARSE_HOMEPAGE_IDS = new Set(["autoregex", "chatcode"])
+const SPARSE_HOMEPAGE_IDS = new Set([
+  "chatcode", // dark UI, "Hello I am ChatCode AI", Ask Code field, nothing else on the page
+  "albertai", // light Albert homepage
+  "autodraw", // "AutoDraw / Fast drawing for everyone"
+  "grok", // "What should we explore?"
+  "kimi", // "Ask anything, or task an agent"
+  "lovable", // Lovable homepage
+  "luma_ai", // "Luma is your creative partner"
+  "manus", // "Introducing Manus 2.0"
+  "mutiny", // "What do you want Mutiny to build for you?"
+  "notebooklm", // Gemini Notebook, "Turn your files into Slide Decks"
+])
 
 function imageFile(tool) {
   const image = typeof tool.image === "string" ? tool.image.trim() : ""

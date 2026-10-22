@@ -29,8 +29,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Higgsfield",
-      "description": "Open the official Higgsfield website.",
+      "title": "Sign up",
+      "description": "The homepage has Sign up and links straight into Kling 4.0 and Genjutsu.",
       "links": [
         {
           "label": "Higgsfield",
@@ -39,16 +39,22 @@
       ]
     },
     {
-      "title": "Higgsfield lets creators generate images",
-      "description": "Higgsfield lets creators generate images, videos and voice from prompts or references, then edit, upscale and automate workflows with an AI agent on web and mobile."
+      "title": "Create or edit a video",
+      "description": "The Kling 4.0 card says to create and edit videos with text, images, and references."
     },
     {
-      "title": "It aggregates many third-party models (e.g.",
-      "description": "It aggregates many third-party models (e.g."
+      "title": "Or start from one upload",
+      "description": "Genjutsu on the page is described as one upload in and new versions out, including motion transfer."
     },
     {
-      "title": "Kling",
-      "description": "Kling, Nano Banana) with cinematic presets."
+      "title": "Learn the flow in the Academy",
+      "description": "Higgsfield Academy says it teaches AI images and videos step by step.",
+      "links": [
+        {
+          "label": "Help center",
+          "url": "https://higgsfield.ai/creator-hub/help-center"
+        }
+      ]
     }
   ]
 }

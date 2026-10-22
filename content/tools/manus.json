@@ -32,8 +32,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Manus",
-      "description": "Open the official Manus website.",
+      "title": "Sign up and tell Manus the task",
+      "description": "The homepage asks what it can do for you, with starters for slides, a website, games, video, and design.",
       "links": [
         {
           "label": "Manus",
@@ -42,16 +42,18 @@
       ]
     },
     {
-      "title": "Manus is an autonomous AI agent that goes beyond answering questions to carry out tasks...",
-      "description": "Manus is an autonomous AI agent that goes beyond answering questions to carry out tasks such as in-depth research, building websites and producing slides."
+      "title": "Pick a starter or type your own request",
+      "description": "The visible starters are Create slides, Build website, Create games, Video, and Design."
     },
     {
-      "title": "It stands out for parallel 'Wide Research' and scheduled tasks running in the cloud.",
-      "description": "It stands out for parallel 'Wide Research' and scheduled tasks running in the cloud."
-    },
-    {
-      "title": "A free plan gives 300 daily refresh credits (Lite agent mode",
-      "description": "A free plan gives 300 daily refresh credits (Lite agent mode, capped monthly) plus signup credits, and paid plans add monthly credit pools from 4,000 credits."
+      "title": "Use the docs when you need them",
+      "description": "Docs and the help center are linked from the page.",
+      "links": [
+        {
+          "label": "Manus docs",
+          "url": "https://manus.im/docs"
+        }
+      ]
     }
   ]
 }

@@ -30,26 +30,28 @@
   ],
   "howToUse": [
     {
-      "title": "Open MP3 to MIDI (mp3tomidi.io)",
-      "description": "Open the official MP3 to MIDI (mp3tomidi.io) website.",
+      "title": "Upload an MP3",
+      "description": "Drop an MP3 in the browser. The page says there is no signup, the audio stays on your device, and the free conversion accepts files up to 5 minutes.",
       "links": [
         {
-          "label": "MP3 to MIDI (mp3tomidi.io)",
+          "label": "MP3 to MIDI",
           "url": "https://mp3tomidi.io/"
         }
       ]
     },
     {
-      "title": "MP3 to MIDI converts an uploaded MP3 into a MIDI file in the browser.",
-      "description": "MP3 to MIDI converts an uploaded MP3 into a MIDI file in the browser."
+      "title": "Choose the closest audio type",
+      "description": "Select voice, piano, guitar, bass, another solo instrument, a full song, or Not Sure. The page says the preset adjusts detection and does not create separate instrument tracks."
     },
     {
-      "title": "A machine-learning model detects notes on the device",
-      "description": "A machine-learning model detects notes on the device, so the audio is processed locally and no account is required."
-    },
-    {
-      "title": "A piano roll previews the detected notes and lets you adjust them before downloading th...",
-      "description": "A piano roll previews the detected notes and lets you adjust them before downloading the MIDI file."
+      "title": "Preview and download the MIDI",
+      "description": "Compare the audio with the MIDI preview, edit notes in the piano roll, and download the MIDI file.",
+      "links": [
+        {
+          "label": "How it works",
+          "url": "https://mp3tomidi.io/#how-it-works"
+        }
+      ]
     }
   ]
 }

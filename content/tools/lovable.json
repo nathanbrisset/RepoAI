@@ -30,8 +30,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Lovable",
-      "description": "Open the official Lovable website.",
+      "title": "Create an account",
+      "description": "The docs say you can start for free with email, Google, GitHub, or Apple.",
       "links": [
         {
           "label": "Lovable",
@@ -40,16 +40,22 @@
       ]
     },
     {
-      "title": "Lovable is an AI app builder that creates and edits full-stack web applications from na...",
-      "description": "Lovable is an AI app builder that creates and edits full-stack web applications from natural-language prompts."
+      "title": "Describe what you want",
+      "description": "The homepage says to describe the product in plain language. The docs say Lovable generates a working application, including frontend, backend, database, authentication, and integrations."
     },
     {
-      "title": "Users iterate in a chat interface",
-      "description": "Users iterate in a chat interface, connect a backend, and deploy without writing code by hand, which makes it popular with founders and non-developers prototyping products."
+      "title": "Review and iterate",
+      "description": "The homepage says to refine the design, then ship it. The docs say to review the app and iterate."
     },
     {
-      "title": "It offers a free plan to get started and paid plans with more messages and collaboratio...",
-      "description": "It offers a free plan to get started and paid plans with more messages and collaboration features."
+      "title": "Publish, then sync the code",
+      "description": "The docs say to publish to a live URL, and, when you want the code in your own pipeline, sync it to GitHub, GitLab, or Bitbucket.",
+      "links": [
+        {
+          "label": "Lovable docs",
+          "url": "https://docs.lovable.dev/introduction/welcome"
+        }
+      ]
     }
   ]
 }

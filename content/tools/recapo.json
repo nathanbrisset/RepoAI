@@ -32,8 +32,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Recapo",
-      "description": "Open the official Recapo website.",
+      "title": "Upload footage",
+      "description": "Upload a video or drop a link. The page says this is step 01.",
       "links": [
         {
           "label": "Recapo",
@@ -42,16 +42,22 @@
       ]
     },
     {
-      "title": "Recapo is an AI video editing platform.",
-      "description": "Recapo is an AI video editing platform."
+      "title": "Let AI make a rough cut",
+      "description": "Step 02 on the page is an AI rough cut of the footage."
     },
     {
-      "title": "It analyzes long videos",
-      "description": "It analyzes long videos, drafts a commentary script, adds a voiceover and subtitles, and produces short clips ready to publish."
+      "title": "Fine-tune the edit",
+      "description": "Step 03 is to refine the edit and add B-roll."
     },
     {
-      "title": "The site presents it for film recaps",
-      "description": "The site presents it for film recaps, highlight extraction, and edits described in natural language."
+      "title": "Schedule publishing",
+      "description": "Step 04 is to schedule publishing of the short clips. The page says a video can be published automatically to YouTube.",
+      "links": [
+        {
+          "label": "Product guide",
+          "url": "https://recapo.ai/product-guide/"
+        }
+      ]
     }
   ]
 }

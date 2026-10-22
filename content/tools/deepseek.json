@@ -33,8 +33,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open DeepSeek",
-      "description": "Open the official DeepSeek website.",
+      "title": "Chat on the web or in the app",
+      "description": "The homepage links the DeepSeek web version, an app download, and a chat entry labeled in Chinese as talking with DeepSeek. Chatting in the web and mobile app is the path the homepage offers.",
       "links": [
         {
           "label": "DeepSeek",
@@ -43,16 +43,18 @@
       ]
     },
     {
-      "title": "DeepSeek develops large language models and publishes open-weight models such as DeepSe...",
-      "description": "DeepSeek develops large language models and publishes open-weight models such as DeepSeek-R1 and DeepSeek-V4, usable for chat, reasoning and coding."
+      "title": "Or open the API platform",
+      "description": "The same page links the API platform. The API docs say to apply for an API key and call https://api.deepseek.com, using the model name deepseek-flash.",
+      "links": [
+        {
+          "label": "API docs",
+          "url": "https://api-docs.deepseek.com/"
+        }
+      ]
     },
     {
-      "title": "Its differentiator is open weights combined with very low API prices",
-      "description": "Its differentiator is open weights combined with very low API prices, with off-peak discounts."
-    },
-    {
-      "title": "Chatting in the web and mobile app is free; the API is pay-as-you-go",
-      "description": "Chatting in the web and mobile app is free; the API is pay-as-you-go, e.g. from $0.15 per million input tokens (cache miss, off-peak) on the current pricing table."
+      "title": "Use it from an agent tool",
+      "description": "Those docs say Claude Code, GitHub Copilot, and OpenCode can use DeepSeek as the backend model."
     }
   ]
 }

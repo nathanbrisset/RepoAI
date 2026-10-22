@@ -31,8 +31,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Kling AI",
-      "description": "Open the official Kling AI website.",
+      "title": "Open Kling and choose Try Now",
+      "description": "The homepage leads with Try Now and Create Now for Kling video and image generation.",
       "links": [
         {
           "label": "Kling AI",
@@ -41,16 +41,18 @@
       ]
     },
     {
-      "title": "Kling AI is a creative studio from Kuaishou that turns text",
-      "description": "Kling AI is a creative studio from Kuaishou that turns text, images and reference material into videos and images."
+      "title": "Describe a video or an image",
+      "description": "The page presents Kling 4.0 for video and Kling Image 3.0 for still images, including image series from a reference."
     },
     {
-      "title": "It is known for realistic motion and multimodal inputs combined in a single workspace a...",
-      "description": "It is known for realistic motion and multimodal inputs combined in a single workspace aimed at creators and marketers."
-    },
-    {
-      "title": "A free tier ($0) gives credits to try the models",
-      "description": "A free tier ($0) gives credits to try the models, while paid subscriptions add more credits, higher resolution and faster generation."
+      "title": "Follow the user guide",
+      "description": "Kling links a user guide from the page.",
+      "links": [
+        {
+          "label": "Kling user guide",
+          "url": "https://kling.ai/quickstart"
+        }
+      ]
     }
   ]
 }

@@ -31,8 +31,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Warp",
-      "description": "Open the official Warp website.",
+      "title": "Request access or download the terminal",
+      "description": "The homepage leads with Request early access for cloud software factories and a separate Download Warp Terminal button.",
       "links": [
         {
           "label": "Warp",
@@ -41,16 +41,18 @@
       ]
     },
     {
-      "title": "Warp is a modern terminal and agentic development environment where developers run AI c...",
-      "description": "Warp is a modern terminal and agentic development environment where developers run AI coding agents with the model of their choice, alongside classic command-line work."
+      "title": "Define the factory in code",
+      "description": "The page says the factory is defined in code and shows factory.yaml together with agents, automations, runners, skills, webhooks, scorers, and benchmarks."
     },
     {
-      "title": "It positions itself as a 'software factory' with agent evals and automation.",
-      "description": "It positions itself as a 'software factory' with agent evals and automation."
-    },
-    {
-      "title": "A free plan is available",
-      "description": "A free plan is available, and paid plans add more AI requests and team features."
+      "title": "Read the docs",
+      "description": "API docs and guides are linked from the homepage.",
+      "links": [
+        {
+          "label": "Warp docs",
+          "url": "https://docs.warp.dev/"
+        }
+      ]
     }
   ]
 }

@@ -22,13 +22,21 @@ node scripts/screenshots/capture.mjs
 node scripts/screenshots/capture.mjs --ids zapier,notion-ai
 node scripts/screenshots/capture.mjs --missing
 node scripts/screenshots/capture.mjs --concurrency 4
+node scripts/screenshots/capture.mjs --ids udio,mp3tomidi --retries 2 --timeout 50000
 ```
 
+`--retries` relance une fiche après un échec (timeout, page vide, captcha, erreur). `--timeout` est le délai de navigation en millisecondes. Le script attend aussi le chargement de la page et des images, ferme les bannières cookies, et utilise un user-agent desktop.
 `--ids` ne traite que ces fiches. `--missing` ne traite que les fiches qui n'ont pas encore de fichier `public/screenshots/<id>.webp` (les nouvelles fiches, ou un passage interrompu). Les deux options se combinent.
 
 `--prune-orphans` supprime, après la passe, les PNG de `public/tool-screenshots` qu'aucune fiche ne référence plus.
 
 Le rapport des captures ratées est réécrit dans `scripts/screenshots/REPORT.md`. L'audit des images d'origine (manquantes, 404, partagées, hors sujet) est dans `scripts/screenshots/AUDIT.md`.
+
+`npm run catalog:qa` enchaîne deux contrôles. `scripts/qa-fiches.mjs` vérifie les fiches actives : description, How To Use, lien officiel, et le fichier nommé par le champ `image`. `scripts/catalog-qa.mjs` échoue si une fiche hors sunset a une capture locale sous 15 Ko, sauf les pages peu denses déjà revues dans ce script, ou si un How To Use pointe vers YouTube ou un guide tiers (`yeschat.ai`, `cococlip.ai`, `fahimai.com`). Il échoue aussi si une URL du catalogue ou de `app/` utilise encore `aidungeon.io`, `useblackbox.io`, `cursor.sh`, `chat.openai.com` ou `lensa-ai.com`. Le seuil de 15 Ko n'est pas abaissé.
+
+`npm run screenshots` lance `scripts/screenshots/capture.mjs`.
+
+`xvfb-run -a node scripts/screenshots/recover.mjs` est une passe manuelle (Chrome fenêtré, page officielle alternative, puis image `og:image` assez grande). Le workflow mensuel ne l'appelle pas. Une page captcha, connexion, 404 ou erreur n'est pas publiée.
 
 ## Workflow mensuel
 

@@ -31,8 +31,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open n8n",
-      "description": "Open the official n8n website.",
+      "title": "Get started",
+      "description": "The homepage says to get started and describes n8n as the platform for agents and workflows you can follow.",
       "links": [
         {
           "label": "n8n",
@@ -41,16 +41,22 @@
       ]
     },
     {
-      "title": "n8n is a workflow automation platform that combines AI agents with hundreds of app inte...",
-      "description": "n8n is a workflow automation platform that combines AI agents with hundreds of app integrations and custom code, giving technical teams the flexibility of code with the speed of no-code."
+      "title": "Build the workflow",
+      "description": "The page says you can open any step, see what it does, and explain it to the person who runs it.",
+      "links": [
+        {
+          "label": "Create an account",
+          "url": "https://n8n.io/"
+        }
+      ]
     },
     {
-      "title": "Its differentiator is that it can be self-hosted (free Community Edition) as well as us...",
-      "description": "Its differentiator is that it can be self-hosted (free Community Edition) as well as used in the cloud."
+      "title": "Connect your apps",
+      "description": "The page says n8n connects to the apps in your stack."
     },
     {
-      "title": "Cloud plans come with a free trial.",
-      "description": "Cloud plans come with a free trial."
+      "title": "Self-host if you need to",
+      "description": "The homepage says you can self-host the AI stack, and lists a fully on-prem option."
     }
   ]
 }
