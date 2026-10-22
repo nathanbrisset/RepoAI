@@ -1,0 +1,57 @@
+{
+  "id": "browser-use",
+  "name": "Browser Use",
+  "url": "https://browser-use.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Cloud browsers and web agents for automating tasks on websites, with an open-source library.",
+  "description": "Browser Use offers infrastructure for agents that operate websites. Its hosted agents complete tasks in a browser, and its cloud browsers can be driven by a developer's own agent. The project started as an open-source library. Pricing is pay-as-you-go with no subscription: cloud browsers cost $0.02 per hour, residential proxies $5 per GB, and new accounts get $1 of free credit. The company lists SOC 2 Type II and HIPAA compliance.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "browser-automation",
+    "web-agents",
+    "cloud-browser",
+    "open-source"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": true,
+    "note": "$0.02/browser-hour",
+    "sourceUrl": "https://browser-use.com/pricing"
+  },
+  "logo": "https://browser-use.com/apple-touch-icon.png",
+  "image": "/screenshots/browser-use.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://browser-use.com/",
+    "https://browser-use.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Browser Use",
+      "description": "Open the official Browser Use website.",
+      "links": [
+        {
+          "label": "Browser Use",
+          "url": "https://browser-use.com/"
+        }
+      ]
+    },
+    {
+      "title": "An agent to complete tasks on websites",
+      "description": "Browser Use offers infrastructure for agents that operate websites."
+    },
+    {
+      "title": "Its hosted agents complete tasks in a browser",
+      "description": "Its hosted agents complete tasks in a browser, and its cloud browsers can be driven by a developer's own agent."
+    },
+    {
+      "title": "The project started as an open-source library.",
+      "description": "The project started as an open-source library."
+    }
+  ]
+}

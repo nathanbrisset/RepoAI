@@ -1,0 +1,54 @@
+{
+  "id": "openrouter",
+  "name": "OpenRouter",
+  "url": "https://openrouter.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Single API and chat interface for several hundred models from many providers, billed per token.",
+  "description": "OpenRouter provides a single API that routes requests to more than 500 models from over 80 providers. It handles provider fallback, shows per-model prices and publishes usage rankings and benchmarks. There is no subscription: users buy credits and pay per token at the listed model rates. A web chat lets users compare models side by side. The API follows the OpenAI request format, so existing clients can switch with few changes.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "api",
+    "model-router",
+    "multi-model",
+    "llm"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": true
+  },
+  "logo": "https://openrouter.ai/apple-touch-icon.png",
+  "image": "/screenshots/openrouter.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://openrouter.ai/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open OpenRouter",
+      "description": "Open the official OpenRouter website.",
+      "links": [
+        {
+          "label": "OpenRouter",
+          "url": "https://openrouter.ai/"
+        }
+      ]
+    },
+    {
+      "title": "One API for many models",
+      "description": "OpenRouter provides a single API that routes requests to more than 500 models from over 80 providers."
+    },
+    {
+      "title": "Compare model prices",
+      "description": "OpenRouter provides a single API that routes requests to more than 500 models from over 80 providers."
+    },
+    {
+      "title": "It handles provider fallback",
+      "description": "It handles provider fallback, shows per-model prices and publishes usage rankings and benchmarks."
+    }
+  ]
+}

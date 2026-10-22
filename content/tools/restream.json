@@ -1,18 +1,17 @@
 {
   "id": "restream",
   "name": "Restream",
-  "url": "https://restream.io",
+  "url": "https://restream.io/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "A streaming platform that enables multi-platform broadcasting with integrated audio processing capabilities.",
   "description": "A streaming platform that enables multi-platform broadcasting with integrated audio processing capabilities.\n\nRestream is a simple live video platform that empowers you to create beautiful videos and multistream them to your favorite channels.\n\nAI audio processing: Restream supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
   "categories": [
-    "audio"
+    "video"
   ],
   "tags": [
-    "AI",
-    "Audio",
-    "Speech"
+    "audio",
+    "speech"
   ],
   "pricing": {
     "model": "freemium",

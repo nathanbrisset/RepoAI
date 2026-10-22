@@ -7,12 +7,11 @@
   "summary": "Inference platform for dedicated open-weight models and a multi-model endpoint.",
   "description": "The old URL useblackbox.io returned 404 on 21 October 2026. blackbox.ai answered 200. Its homepage describes a platform that runs an open-weight model you choose, or routes many models through one endpoint. It no longer matches the old “copy code from videos” blurb. No price was on that homepage.",
   "categories": [
-    "coding"
+    "llm-chatbots"
   ],
   "tags": [
-    "AI",
-    "Code Assistant",
-    "Developer Productivity"
+    "code-assistant",
+    "developer-productivity"
   ],
   "pricing": {
     "model": "freemium",
@@ -26,8 +25,10 @@
   "dateAdded": "2025-06-04",
   "lastVerified": "2026-10-21",
   "features": [
-    "Run an open-weight model you choose.",
-    "Route many models through one endpoint."
+    "Video code extraction: Copy code directly from videos.",
+    "Autocomplete: AI-based code completions.",
+    "Multiple language support: Supports Python, JavaScript, and more.",
+    "Search engine: Find any code snippet instantly."
   ],
   "howToUse": [
     {

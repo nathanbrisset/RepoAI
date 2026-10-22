@@ -1,0 +1,56 @@
+{
+  "id": "clipchamp",
+  "name": "Clipchamp",
+  "url": "https://clipchamp.com/en/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Microsoft's browser and Windows video editor with templates, AI subtitles and text-to-speech.",
+  "description": "Clipchamp is Microsoft's video editor, available in the browser and as a Windows app. It provides templates, stock footage and music, screen and camera recording, AI subtitles, text-to-speech, background removal and export up to 4K. The editor is free to use, and premium features are included in Microsoft 365 Personal and Family plans. It runs in the browser and as a Windows app.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "video-editor",
+    "microsoft",
+    "templates",
+    "subtitles"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://clipchamp.com/pricing"
+  },
+  "logo": "https://clipchamp.com/icon3.png?icon3.3gcansntxrts-.png",
+  "image": "/screenshots/clipchamp.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://clipchamp.com/",
+    "https://clipchamp.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Clipchamp",
+      "description": "Open the official Clipchamp website.",
+      "links": [
+        {
+          "label": "Clipchamp",
+          "url": "https://clipchamp.com/en/"
+        }
+      ]
+    },
+    {
+      "title": "A simple video editor with AI subtitles and voiceover",
+      "description": "Clipchamp is Microsoft's video editor, available in the browser and as a Windows app."
+    },
+    {
+      "title": "It provides templates",
+      "description": "It provides templates, stock footage and music, screen and camera recording, AI subtitles, text-to-speech, background removal and export up to 4K."
+    },
+    {
+      "title": "The editor is free to use",
+      "description": "The editor is free to use, and premium features are included in Microsoft 365 Personal and Family plans."
+    }
+  ]
+}

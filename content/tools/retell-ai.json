@@ -1,0 +1,56 @@
+{
+  "id": "retell-ai",
+  "name": "Retell AI",
+  "url": "https://www.retellai.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Platform for voice AI agents that answer, qualify and book appointments on phone calls.",
+  "description": "Retell AI deploys voice agents that handle real phone calls, including call transfer, appointment booking, knowledge-base answers, IVR navigation and batch outbound campaigns. It provides post-call analysis and quality assurance, and lists HIPAA and SOC 2 compliance. Pricing starts at $0 with pay-as-you-go billing, and new accounts receive $10 of free credits. Agents can also use a branded caller ID and verified phone numbers to avoid spam flags.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "voice-agents",
+    "phone-calls",
+    "hipaa",
+    "no-code"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": true,
+    "sourceUrl": "https://www.retellai.com/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/64ada0f2685b2d18caa5e699/69d7b35ce160f153aa823cf0_output-Retellai%20(2).png",
+  "image": "/screenshots/retell-ai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.retellai.com/",
+    "https://www.retellai.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Retell AI",
+      "description": "Open the official Retell AI website.",
+      "links": [
+        {
+          "label": "Retell AI",
+          "url": "https://www.retellai.com/"
+        }
+      ]
+    },
+    {
+      "title": "An AI agent to answer and book phone calls",
+      "description": "Retell AI deploys voice agents that handle real phone calls, including call transfer, appointment booking, knowledge-base answers, IVR navigation and batch outbound campaigns."
+    },
+    {
+      "title": "It provides post-call analysis and quality assurance",
+      "description": "It provides post-call analysis and quality assurance, and lists HIPAA and SOC 2 compliance."
+    },
+    {
+      "title": "Pricing starts at $0 with pay-as-you-go billing",
+      "description": "Pricing starts at $0 with pay-as-you-go billing, and new accounts receive $10 of free credits."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "meta-ai",
+  "name": "Meta AI",
+  "url": "https://www.meta.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Meta's AI assistant for questions, image generation and editing, available on the web and in Meta apps.",
+  "description": "Meta AI is the assistant built by Meta and offered on meta.ai as well as inside Meta's apps. It answers questions in a chat interface, generates and edits images from text prompts, and helps with everyday tasks such as finding places or comparing products listed on Marketplace. Access is free with a Meta account.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "chatbot",
+    "image-generation",
+    "assistant",
+    "meta"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": true,
+    "sourceUrl": "https://www.meta.ai/pricing"
+  },
+  "logo": "https://www.meta.ai/images/pwa_icons/apple/180.png?v=1",
+  "image": "/screenshots/meta-ai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.meta.ai/",
+    "https://www.meta.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Meta AI",
+      "description": "Open the official Meta AI website.",
+      "links": [
+        {
+          "label": "Meta AI",
+          "url": "https://www.meta.ai"
+        }
+      ]
+    },
+    {
+      "title": "Ask questions and get answers",
+      "description": "It answers questions in a chat interface, generates and edits images from text prompts, and helps with everyday tasks such as finding places or comparing products listed on Marketplace."
+    },
+    {
+      "title": "Generate images from text",
+      "description": "It answers questions in a chat interface, generates and edits images from text prompts, and helps with everyday tasks such as finding places or comparing products listed on Marketplace."
+    },
+    {
+      "title": "Meta AI is the assistant built by Meta and offered on meta.ai as well as inside Meta's...",
+      "description": "Meta AI is the assistant built by Meta and offered on meta.ai as well as inside Meta's apps."
+    }
+  ]
+}

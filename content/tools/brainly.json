@@ -1,0 +1,49 @@
+{
+  "id": "brainly",
+  "name": "Brainly",
+  "url": "https://brainly.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Homework help platform with AI explanations, test prep and optional human tutoring.",
+  "description": "Brainly helps students with homework and turns missed topics into test preparation, with a learning advisor included and a weekly human tutor available as an add-on, according to its site description. The service is aimed at parents of teenagers as well as students.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "homework-help",
+    "tutoring",
+    "test-prep",
+    "parents"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "https://brainly.com/nx-images/favicon/hd.png",
+  "image": "/screenshots/brainly.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://brainly.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Brainly",
+      "description": "Open the official Brainly website.",
+      "links": [
+        {
+          "label": "Brainly",
+          "url": "https://brainly.com"
+        }
+      ]
+    },
+    {
+      "title": "Help with homework and test prep",
+      "description": "Brainly helps students with homework and turns missed topics into test preparation, with a learning advisor included and a weekly human tutor available as an add-on, according to its site description."
+    },
+    {
+      "title": "The service is aimed at parents of teenagers as well as students.",
+      "description": "The service is aimed at parents of teenagers as well as students."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "cohere",
+  "name": "Cohere",
+  "url": "https://cohere.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Enterprise AI company offering Command language models, Embed and Rerank APIs, and the North workspace.",
+  "description": "Cohere builds language models and AI products for businesses. Its model line includes Command for text generation, Embed for vector embeddings, Rerank for search relevance and Transcribe for speech recognition. The North platform provides an AI workspace for employees, and Compass handles enterprise search. Models are available through a pay-per-use API, through dedicated instances billed monthly, or as private deployments with custom pricing.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "llm",
+    "api",
+    "embeddings",
+    "rerank",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": true,
+    "sourceUrl": "https://cohere.com/pricing"
+  },
+  "logo": "https://cohere.com/apple-touch-icon.png",
+  "image": "/screenshots/cohere.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://cohere.com/",
+    "https://cohere.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Cohere",
+      "description": "Open the official Cohere website.",
+      "links": [
+        {
+          "label": "Cohere",
+          "url": "https://cohere.com/"
+        }
+      ]
+    },
+    {
+      "title": "Add search and generation to my company's apps",
+      "description": "Its model line includes Command for text generation, Embed for vector embeddings, Rerank for search relevance and Transcribe for speech recognition."
+    },
+    {
+      "title": "Cohere builds language models and AI products for businesses.",
+      "description": "Cohere builds language models and AI products for businesses."
+    },
+    {
+      "title": "The North platform provides an AI workspace for employees",
+      "description": "The North platform provides an AI workspace for employees, and Compass handles enterprise search."
+    }
+  ]
+}

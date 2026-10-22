@@ -1,0 +1,52 @@
+{
+  "id": "openevidence",
+  "name": "OpenEvidence",
+  "url": "https://www.openevidence.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI search tool that answers clinical questions with citations from medical literature.",
+  "description": "OpenEvidence is an AI search tool for clinicians that answers clinical questions using medical literature and cites its sources. It is intended for healthcare professionals rather than patients. Further details should be checked manually in a regular browser.",
+  "categories": [
+    "health"
+  ],
+  "tags": [
+    "medical-search",
+    "evidence",
+    "clinicians"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "https://www.openevidence.com/favicon.ico",
+  "image": "/screenshots/openevidence.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.openevidence.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open OpenEvidence",
+      "description": "Open the official OpenEvidence website.",
+      "links": [
+        {
+          "label": "OpenEvidence",
+          "url": "https://www.openevidence.com"
+        }
+      ]
+    },
+    {
+      "title": "Cited answers from the medical literature",
+      "description": "OpenEvidence is an AI search tool for clinicians that answers clinical questions using medical literature and cites its sources."
+    },
+    {
+      "title": "It is intended for healthcare professionals rather than patients.",
+      "description": "It is intended for healthcare professionals rather than patients."
+    },
+    {
+      "title": "Further details should be checked manually in a regular browser.",
+      "description": "Further details should be checked manually in a regular browser."
+    }
+  ]
+}

@@ -1,20 +1,18 @@
 {
   "id": "hemingway-app",
   "name": "Hemingway App",
-  "url": "https://hemingwayapp.com",
+  "url": "https://hemingwayapp.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Hemingway Editor makes your writing bold and clear.",
   "description": "Hemingway Editor makes your writing bold and clear.\n\nReadability Analysis: Highlights complex sentences and suggests simplifications. Sentence Structure: Identifies long or hard-to-read sentences. Passive Voice Detection: Points out passive constructions for revision. Adverb Highlighting: Flags excessive use of adverbs to tighten prose.",
   "categories": [
-    "text",
-    "productivity"
+    "writing"
   ],
   "tags": [
-    "AI",
-    "Writing",
-    "Editing",
-    "Readability"
+    "writing",
+    "editing",
+    "readability"
   ],
   "pricing": {
     "model": "free",

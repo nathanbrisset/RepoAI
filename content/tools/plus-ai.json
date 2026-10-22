@@ -1,0 +1,57 @@
+{
+  "id": "plus-ai",
+  "name": "Plus AI",
+  "url": "https://plusai.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI add-on for Google Slides and PowerPoint that generates, edits and reformats presentations.",
+  "description": "Plus AI works inside Google Slides and PowerPoint. It creates presentations from prompts or documents, edits and reformats existing slides with AI, applies custom branding and generates images, and it offers an API and MCP server. All paid plans start with a seven-day free trial with 1,000 AI credits. Basic costs $10 per user per month billed annually or $15 monthly.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "presentations",
+    "google-slides",
+    "powerpoint",
+    "add-on"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$10/user/mo (Basic, annual)",
+    "sourceUrl": "https://plusai.com/pricing"
+  },
+  "logo": "https://plusai.com/favicon.svg",
+  "image": "/screenshots/plus-ai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://plusai.com/",
+    "https://plusai.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Plus AI",
+      "description": "Open the official Plus AI website.",
+      "links": [
+        {
+          "label": "Plus AI",
+          "url": "https://plusai.com/"
+        }
+      ]
+    },
+    {
+      "title": "AI to create slides inside Google Slides or PowerPoint",
+      "description": "Plus AI works inside Google Slides and PowerPoint."
+    },
+    {
+      "title": "It creates presentations from prompts or documents",
+      "description": "It creates presentations from prompts or documents, edits and reformats existing slides with AI, applies custom branding and generates images, and it offers an API and MCP server."
+    },
+    {
+      "title": "All paid plans start with a seven-day free trial with 1",
+      "description": "All paid plans start with a seven-day free trial with 1,000 AI credits."
+    }
+  ]
+}

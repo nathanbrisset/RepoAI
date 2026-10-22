@@ -1,0 +1,57 @@
+{
+  "id": "google-antigravity",
+  "name": "Google Antigravity",
+  "url": "https://antigravity.google/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Google's agent-first development platform and IDE built around Gemini models.",
+  "description": "Google Antigravity is an agentic development platform in which AI agents plan, write and verify code across the editor, terminal and browser. It is generally available, and it also reaches other IDEs through extensions; Google has moved the free tier of Gemini CLI to its Antigravity CLI. Individuals can use it for $0 per month. Business Standard and Plus plans start at $30 per seat per month, with a pay-as-you-go option.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ide",
+    "agents",
+    "gemini",
+    "google"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$30/seat/mo (Standard, business)",
+    "sourceUrl": "https://antigravity.google/pricing"
+  },
+  "logo": "https://antigravity.google/favicon.ico",
+  "image": "/screenshots/google-antigravity.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://antigravity.google/",
+    "https://antigravity.google/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Google Antigravity",
+      "description": "Open the official Google Antigravity website.",
+      "links": [
+        {
+          "label": "Google Antigravity",
+          "url": "https://antigravity.google/"
+        }
+      ]
+    },
+    {
+      "title": "An agent-first IDE from Google",
+      "description": "Google Antigravity is an agentic development platform in which AI agents plan, write and verify code across the editor, terminal and browser."
+    },
+    {
+      "title": "It is generally available",
+      "description": "It is generally available, and it also reaches other IDEs through extensions; Google has moved the free tier of Gemini CLI to its Antigravity CLI."
+    },
+    {
+      "title": "Individuals can use it for $0 per month.",
+      "description": "Individuals can use it for $0 per month."
+    }
+  ]
+}

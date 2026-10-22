@@ -1,0 +1,57 @@
+{
+  "id": "scite",
+  "name": "Scite",
+  "url": "https://scite.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Research platform that shows how scientific claims are supported or disputed by citing papers.",
+  "description": "Scite searches more than 300 million scholarly articles and classifies citation statements to show whether later work supports or disputes a claim. It includes an AI assistant grounded in research, full-text citation search, collections, a Zotero plugin, a browser extension and an API. Basic costs $12 per month and Pro $40 per month, billed yearly, each with a seven-day free trial.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "citations",
+    "academic-search",
+    "zotero",
+    "api"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$12/mo (Basic, annual)",
+    "sourceUrl": "https://scite.ai/pricing"
+  },
+  "logo": "https://cdn.scite.ai/assets/images/favicon.ico",
+  "image": "/screenshots/scite.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://scite.ai/",
+    "https://scite.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Scite",
+      "description": "Open the official Scite website.",
+      "links": [
+        {
+          "label": "Scite",
+          "url": "https://scite.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Check whether a claim is supported or disputed in the literature",
+      "description": "Scite searches more than 300 million scholarly articles and classifies citation statements to show whether later work supports or disputes a claim."
+    },
+    {
+      "title": "It includes an AI assistant grounded in research",
+      "description": "It includes an AI assistant grounded in research, full-text citation search, collections, a Zotero plugin, a browser extension and an API."
+    },
+    {
+      "title": "Basic costs $12 per month and Pro $40 per month",
+      "description": "Basic costs $12 per month and Pro $40 per month, billed yearly, each with a seven-day free trial."
+    }
+  ]
+}

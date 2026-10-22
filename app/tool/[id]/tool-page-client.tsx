@@ -9,6 +9,7 @@ import ToolCard from "@/components/tool-card"
 import { Tool } from '@/lib/types'
 import LocaleLink from "@/components/locale-link"
 import { useLocale, useT } from "@/components/locale-provider"
+import { categoryName } from "@/lib/category-meta"
 import { categoryCopy, pricingLabel, statusLabel } from "@/lib/i18n/messages"
 import { formatCatalogDate, localizeTool } from "@/lib/i18n/localize-tool"
 
@@ -84,7 +85,9 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
           </div>
           <div className="flex flex-wrap gap-2 mb-2">
             {tool.categories.map((cat: string) => (
-              <Badge key={cat} variant="secondary" className="text-xs">{categoryCopy(locale, cat)?.name || cat}</Badge>
+              <LocaleLink key={cat} href={`/categories/${cat}`}>
+                <Badge variant="secondary" className="text-xs">{categoryCopy(locale, cat)?.name || categoryName(cat)}</Badge>
+              </LocaleLink>
             ))}
           </div>
           {((tool.status && tool.status !== "active") || tool.statusNote) && (
@@ -100,7 +103,9 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
           )}
           <div className="flex items-center gap-2 text-sm mb-6 flex-wrap">
             <span className="text-gray-400">{dateLabel ? t("tool.added", { date: dateLabel }) : t("tool.addedUnknown")}</span>
-            <span className="text-gray-400">{t("tool.pricing")} <span className="font-semibold text-gray-700">{priceLabel || t("tool.unknown")}</span>{sourceTool.pricing?.verified ? "" : ` ${t("tool.notRechecked")}`}</span>
+            {sourceTool.pricing?.uncertain || !sourceTool.isPremium ? null : (
+              <span className="text-gray-400">{t("tool.pricing")} <span className="font-semibold text-gray-700">{priceLabel || t("tool.unknown")}</span>{sourceTool.pricing?.verified ? "" : ` ${t("tool.notRechecked")}`}</span>
+            )}
             <span className="text-gray-400">{checkedLabel ? t("tool.lastChecked", { date: checkedLabel }) : `${t("tool.lastCheckedLabel")} ${t("tool.notChecked")}`}</span>
           </div>
           {(tool.image || tool.logo) && (
@@ -118,14 +123,14 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
             <div className="mb-8 space-y-4">
               <h2 className="text-xl font-bold mb-4">{t("tool.about", { name: tool.name })}</h2>
               <p className="text-gray-700 mb-4 whitespace-pre-line">{tool.longDescription || tool.description}</p>
-              {tool.pricing?.details && (
+              {tool.pricing?.details && !tool.pricing?.uncertain && (
                 <p className="text-gray-700 mb-4"><b>{t("tool.priceNote")}</b> {tool.pricing.details}</p>
               )}
               {tool.dateAddedNote && (
                 <p className="text-gray-600 mb-4 text-sm">{tool.dateAddedNote}</p>
               )}
               <p className="text-gray-700 mb-4">
-                <b>{t("tool.categories")}</b> {tool.categories.map((cat) => categoryCopy(locale, cat)?.name || cat).join(", ")}
+                <b>{t("tool.categories")}</b> {tool.categories.map((cat) => categoryCopy(locale, cat)?.name || categoryName(cat)).join(", ")}
               </p>
               {tool.tags && tool.tags.length > 0 && (
                 <p className="text-gray-700 mb-4">
@@ -268,12 +273,14 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
             <div className="flex flex-col gap-3 text-sm mb-4">
               <div className="flex justify-between items-center">
                 <span className="text-gray-500">{t("tool.category")}</span>
-                <span className="font-medium">{tool.categories.map((cat) => categoryCopy(locale, cat)?.name || cat).join(", ")}</span>
+                <span className="font-medium">{tool.categories.map((cat) => categoryCopy(locale, cat)?.name || categoryName(cat)).join(", ")}</span>
               </div>
+              {tool.pricing?.uncertain || !tool.isPremium ? null : (
               <div className="flex justify-between items-center">
                 <span className="text-gray-500">{t("tool.pricingLabel")}</span>
                 <span className="font-medium">{priceLabel || t("tool.unknown")}{sourceTool.pricing?.verified ? "" : ` · ${t("tool.notRecheckedShort")}`}</span>
               </div>
+              )}
               <div className="flex justify-between items-center">
                 <span className="text-gray-500">{t("tool.addedLabel")}</span>
                 <span>{dateLabel || t("tool.notRecorded")}</span>

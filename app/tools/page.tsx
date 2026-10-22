@@ -6,6 +6,12 @@ export function generateMetadata() {
   return metadataFor("/tools")
 }
 
-export default function Page() {
-  return <ToolsClient tools={mockTools} />
+type PageProps = {
+  searchParams: Promise<{ category?: string | string[] }>
+}
+
+export default async function Page({ searchParams }: PageProps) {
+  const params = await searchParams
+  const requested = Array.isArray(params.category) ? params.category[0] : params.category
+  return <ToolsClient tools={mockTools} initialCategory={requested ?? null} />
 } 

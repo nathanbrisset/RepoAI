@@ -1,0 +1,57 @@
+{
+  "id": "botpress",
+  "name": "Botpress",
+  "url": "https://botpress.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Platform for building and deploying AI agents and chatbots, with a helpdesk and many integrations.",
+  "description": "Botpress provides a visual studio and a natural-language builder for AI agents, an engine for running them, knowledge bases and tables, and Botpress Desk, a helpdesk for complex support. Agents deploy to webchat, WhatsApp and other channels, and integrate with tools such as Zendesk and HubSpot. The Free plan includes 100 conversations; Plus costs $150 per month billed annually. Seats are counted separately from conversations.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "agent-builder",
+    "helpdesk",
+    "whatsapp",
+    "integrations"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$150/mo (Plus, annual)",
+    "sourceUrl": "https://botpress.com/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/635c4eeb78332f7971255095/6a8876810551d667a25125aa_bp-logo.jpg",
+  "image": "/screenshots/botpress.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://botpress.com/",
+    "https://botpress.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Botpress",
+      "description": "Open the official Botpress website.",
+      "links": [
+        {
+          "label": "Botpress",
+          "url": "https://botpress.com/"
+        }
+      ]
+    },
+    {
+      "title": "Build an AI agent for my website or messaging apps",
+      "description": "Botpress provides a visual studio and a natural-language builder for AI agents, an engine for running them, knowledge bases and tables, and Botpress Desk, a helpdesk for complex support."
+    },
+    {
+      "title": "Agents deploy to webchat",
+      "description": "Agents deploy to webchat, WhatsApp and other channels, and integrate with tools such as Zendesk and HubSpot."
+    },
+    {
+      "title": "The Free plan includes 100 conversations; Plus costs $150 per month billed annually.",
+      "description": "The Free plan includes 100 conversations; Plus costs $150 per month billed annually."
+    }
+  ]
+}

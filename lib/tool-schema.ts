@@ -1,23 +1,33 @@
 import { z } from "zod"
+import taxonomy from "@/content/taxonomy.json"
 
-/** Category ids already used by the site routes. Do not invent new ids without adding a category entry. */
+/** Public category ids, plus legacy ids kept only for fiches the reassignment table does not include. */
 export const CATEGORY_IDS = [
-  "text",
-  "image",
-  "audio",
-  "video",
-  "coding",
-  "marketing",
-  "productivity",
-  "data-processing",
-  "design",
-] as const
+  ...taxonomy.categories.map((category) => category.id),
+  ...taxonomy.legacyIds,
+] as [string, ...string[]]
 
-export const toolStatusSchema = z.enum(["active", "renamed", "sunset", "duplicate-of"])
+export const toolStatusSchema = z.enum(["active", "inactive", "renamed", "sunset", "duplicate-of"])
 
-export const pricingModelSchema = z.enum(["free", "freemium", "paid", "open-source"])
+export const pricingModelSchema = z.enum([
+  "free",
+  "freemium",
+  "paid",
+  "open-source",
+  "enterprise",
+  "usage-based",
+  "one-time",
+])
 
-export const pricingLabelSchema = z.enum(["Free", "Freemium", "Premium", "Open source"])
+export const pricingLabelSchema = z.enum([
+  "Free",
+  "Freemium",
+  "Premium",
+  "Open source",
+  "Enterprise",
+  "Usage-based",
+  "One-time",
+])
 
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/)
 
@@ -56,14 +66,21 @@ export const toolSchema = z.object({
   categories: z.array(z.enum(CATEGORY_IDS)).min(1),
   tags: z.array(z.string().min(1)).min(1),
   tags_fr: z.array(z.string().min(1)).optional(),
-  pricing: z.object({
-    model: pricingModelSchema,
-    label: pricingLabelSchema,
-    note: z.string().optional(),
-    note_fr: z.string().min(1).optional(),
-    verified: z.boolean(),
-    sourceUrl: z.string().url().optional(),
-  }),
+  pricing: z
+    .object({
+      model: pricingModelSchema.optional(),
+      label: pricingLabelSchema.optional(),
+      note: z.string().optional(),
+      note_fr: z.string().min(1).optional(),
+      verified: z.boolean(),
+      sourceUrl: z.string().url().optional(),
+      uncertain: z.boolean().optional(),
+    })
+    .superRefine((value, ctx) => {
+      if (value.uncertain) return
+      if (!value.model) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["model"], message: "required unless the price is uncertain" })
+      if (!value.label) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["label"], message: "required unless the price is uncertain" })
+    }),
   logo: z.string(),
   image: z.string(),
   dateAdded: isoDate.nullable(),

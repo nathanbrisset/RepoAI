@@ -1,0 +1,458 @@
+{
+  "categories": [
+    {
+      "id": "llm-chatbots",
+      "code": "C01",
+      "name": "LLM & Chatbots",
+      "description": "I want to ask questions and get answers;I want to run models locally;I want one interface for many models",
+      "about": "Subcategories: General assistants;Multi-model chat;Local LLM apps;Model APIs & routers;Character & companion chat. Audiences: everyone, students, Developers & engineering, Solopreneurs & freelancers.",
+      "subcategories": [
+        "General assistants",
+        "Multi-model chat",
+        "Local LLM apps",
+        "Model APIs & routers",
+        "Character & companion chat"
+      ],
+      "tags": [
+        "chatbot",
+        "llm",
+        "open-source",
+        "api",
+        "local"
+      ]
+    },
+    {
+      "id": "ai-agents",
+      "code": "C02",
+      "name": "AI Agents",
+      "description": "I want an AI to complete a multi-step task for me;I want to build my own agent",
+      "about": "Subcategories: General-purpose agents;Agent builders & frameworks;Browser agents. Audiences: Operations & admin, Developers & engineering, Solopreneurs & freelancers.",
+      "subcategories": [
+        "General-purpose agents",
+        "Agent builders & frameworks",
+        "Browser agents"
+      ],
+      "tags": [
+        "ai-agents",
+        "autonomous",
+        "agent-builder",
+        "multi-agent"
+      ]
+    },
+    {
+      "id": "automation",
+      "code": "C03",
+      "name": "Automation & Workflows",
+      "description": "I want to connect my apps and automate repetitive work",
+      "about": "Subcategories: Workflow automation;Integrations platforms. Audiences: Operations & admin, Marketing & growth, Solopreneurs & freelancers.",
+      "subcategories": [
+        "Workflow automation",
+        "Integrations platforms"
+      ],
+      "tags": [
+        "automation",
+        "integrations",
+        "no-code",
+        "zaps"
+      ]
+    },
+    {
+      "id": "coding",
+      "code": "C04",
+      "name": "Coding & Dev Tools",
+      "description": "I want to write, review or ship code faster",
+      "about": "Subcategories: AI code editors;CLI coding agents;Cloud coding agents;AI code review;Backend & database;Developer APIs. Audiences: Developers & engineering, engineering managers.",
+      "subcategories": [
+        "AI code editors",
+        "CLI coding agents",
+        "Cloud coding agents",
+        "AI code review",
+        "Backend & database",
+        "Developer APIs"
+      ],
+      "tags": [
+        "coding",
+        "ide",
+        "code-review",
+        "agents",
+        "cli"
+      ]
+    },
+    {
+      "id": "no-code",
+      "code": "C05",
+      "name": "No-code & App Builders",
+      "description": "I want to build an app or website without coding",
+      "about": "Subcategories: AI app & website builders;Internal tools;Mobile app builders. Audiences: Founders & startups, Solopreneurs & freelancers, product, Marketing & growth.",
+      "subcategories": [
+        "AI app & website builders",
+        "Internal tools",
+        "Mobile app builders"
+      ],
+      "tags": [
+        "no-code",
+        "vibe-coding",
+        "app-builder",
+        "website-builder"
+      ]
+    },
+    {
+      "id": "writing",
+      "code": "C06",
+      "name": "Writing & Content",
+      "description": "I want to write faster and better;I want to translate text",
+      "about": "Subcategories: Writing assistants;Grammar & paraphrasing;Fiction & storytelling;Translation. Audiences: writers, Marketing & growth, students.",
+      "subcategories": [
+        "Writing assistants",
+        "Grammar & paraphrasing",
+        "Fiction & storytelling",
+        "Translation"
+      ],
+      "tags": [
+        "writing",
+        "grammar",
+        "copywriting",
+        "translation"
+      ]
+    },
+    {
+      "id": "image",
+      "code": "C07",
+      "name": "Image Generation & Editing",
+      "description": "I want to create or edit images",
+      "about": "Subcategories: Text-to-image;Photo editing & background removal;Upscaling;Model hubs. Audiences: Content creators, designers, Marketing & growth, e-commerce.",
+      "subcategories": [
+        "Text-to-image",
+        "Photo editing & background removal",
+        "Upscaling",
+        "Model hubs"
+      ],
+      "tags": [
+        "text-to-image",
+        "photo-editing",
+        "upscaling"
+      ]
+    },
+    {
+      "id": "video",
+      "code": "C08",
+      "name": "Video",
+      "description": "I want to create videos from text;I want to edit or clip videos;I want avatar or UGC ads",
+      "about": "Subcategories: Text/image-to-video;Avatars & UGC ads;Video editing & captions;Clips & repurposing. Audiences: Content creators, Marketing & growth, L&D.",
+      "subcategories": [
+        "Text/image-to-video",
+        "Avatars & UGC ads",
+        "Video editing & captions",
+        "Clips & repurposing"
+      ],
+      "tags": [
+        "text-to-video",
+        "avatars",
+        "editing",
+        "captions",
+        "shorts"
+      ]
+    },
+    {
+      "id": "voice",
+      "code": "C09",
+      "name": "Voice & Speech",
+      "description": "I want to generate voiceovers;I want to transcribe audio;I want a phone/voice agent",
+      "about": "Subcategories: Text-to-speech & voice cloning;Speech-to-text & transcription;Voice agents;Dictation. Audiences: Content creators, Developers & engineering, Customer support.",
+      "subcategories": [
+        "Text-to-speech & voice cloning",
+        "Speech-to-text & transcription",
+        "Voice agents",
+        "Dictation"
+      ],
+      "tags": [
+        "tts",
+        "stt",
+        "voice-cloning",
+        "voice-agents",
+        "dictation"
+      ]
+    },
+    {
+      "id": "music",
+      "code": "C10",
+      "name": "Music & Audio",
+      "description": "I want to create music;I want to clean up audio",
+      "about": "Subcategories: Music generation;Stem separation;Mastering;Audio enhancement & podcasting. Audiences: musicians, Content creators, podcasters.",
+      "subcategories": [
+        "Music generation",
+        "Stem separation",
+        "Mastering",
+        "Audio enhancement & podcasting"
+      ],
+      "tags": [
+        "music",
+        "stems",
+        "mastering",
+        "podcast"
+      ]
+    },
+    {
+      "id": "design",
+      "code": "C11",
+      "name": "Design & UI",
+      "description": "I want to design graphics, UI, logos or products",
+      "about": "Subcategories: Graphic design;UI/UX design;Logo & branding;3D & product design;Color & fonts. Audiences: designers, product, Marketing & growth.",
+      "subcategories": [
+        "Graphic design",
+        "UI/UX design",
+        "Logo & branding",
+        "3D & product design",
+        "Color & fonts"
+      ],
+      "tags": [
+        "design",
+        "ui",
+        "ux",
+        "branding",
+        "3d"
+      ]
+    },
+    {
+      "id": "meetings",
+      "code": "C12",
+      "name": "Meetings & Notes",
+      "description": "I want automatic meeting notes and action items",
+      "about": "Subcategories: AI notetakers;Meeting intelligence. Audiences: Sales & business development, managers, everyone.",
+      "subcategories": [
+        "AI notetakers",
+        "Meeting intelligence"
+      ],
+      "tags": [
+        "meetings",
+        "transcription",
+        "summaries"
+      ]
+    },
+    {
+      "id": "productivity",
+      "code": "C13",
+      "name": "Productivity & Workspace",
+      "description": "I want to organize my work and save time;I want to make presentations",
+      "about": "Subcategories: Email;Calendar & planning;Docs & notes;Presentations;AI browsers;Enterprise search. Audiences: everyone, managers, Solopreneurs & freelancers.",
+      "subcategories": [
+        "Email",
+        "Calendar & planning",
+        "Docs & notes",
+        "Presentations",
+        "AI browsers",
+        "Enterprise search"
+      ],
+      "tags": [
+        "email",
+        "calendar",
+        "notes",
+        "slides",
+        "browser"
+      ]
+    },
+    {
+      "id": "search",
+      "code": "C14",
+      "name": "Search & Research",
+      "description": "I want answers with sources;I want to do a literature review",
+      "about": "Subcategories: AI search engines;Academic research;Search APIs for agents. Audiences: researchers, students, analysts.",
+      "subcategories": [
+        "AI search engines",
+        "Academic research",
+        "Search APIs for agents"
+      ],
+      "tags": [
+        "search",
+        "research",
+        "papers",
+        "citations"
+      ]
+    },
+    {
+      "id": "data",
+      "code": "C15",
+      "name": "Data & Analytics",
+      "description": "I want to analyze data and build dashboards",
+      "about": "Subcategories: AI data analysis;BI & dashboards;Spreadsheets AI;ML platforms. Audiences: analysts, Operations & admin, Founders & startups, data scientists.",
+      "subcategories": [
+        "AI data analysis",
+        "BI & dashboards",
+        "Spreadsheets AI",
+        "ML platforms"
+      ],
+      "tags": [
+        "data",
+        "analytics",
+        "bi",
+        "spreadsheets",
+        "ml"
+      ]
+    },
+    {
+      "id": "marketing",
+      "code": "C16",
+      "name": "Marketing & SEO",
+      "description": "I want to rank in search and AI answers;I want to create ads;I want to grow on social media",
+      "about": "Subcategories: SEO & AI search visibility;Ads & creatives;Social media;Email marketing. Audiences: Marketing & growth, Content creators, Solopreneurs & freelancers.",
+      "subcategories": [
+        "SEO & AI search visibility",
+        "Ads & creatives",
+        "Social media",
+        "Email marketing"
+      ],
+      "tags": [
+        "seo",
+        "geo",
+        "ads",
+        "social-media",
+        "email"
+      ]
+    },
+    {
+      "id": "sales",
+      "code": "C17",
+      "name": "Sales & CRM",
+      "description": "I want to find leads and close deals",
+      "about": "Subcategories: Prospecting & lead data;Cold outreach;Revenue intelligence;CRM. Audiences: Sales & business development, Founders & startups.",
+      "subcategories": [
+        "Prospecting & lead data",
+        "Cold outreach",
+        "Revenue intelligence",
+        "CRM"
+      ],
+      "tags": [
+        "sales",
+        "crm",
+        "outreach",
+        "leads"
+      ]
+    },
+    {
+      "id": "support",
+      "code": "C18",
+      "name": "Customer Support",
+      "description": "I want to automate customer support",
+      "about": "Subcategories: AI support agents;Chatbot builders;Help desk AI. Audiences: Customer support, Operations & admin, e-commerce.",
+      "subcategories": [
+        "AI support agents",
+        "Chatbot builders",
+        "Help desk AI"
+      ],
+      "tags": [
+        "customer-support",
+        "chatbot",
+        "helpdesk"
+      ]
+    },
+    {
+      "id": "hr",
+      "code": "C19",
+      "name": "HR & Recruiting",
+      "description": "I want to source, screen and hire candidates",
+      "about": "Subcategories: Sourcing;Interviewing & screening;Job descriptions & performance. Audiences: HR & recruiting, recruiters, managers.",
+      "subcategories": [
+        "Sourcing",
+        "Interviewing & screening",
+        "Job descriptions & performance"
+      ],
+      "tags": [
+        "hr",
+        "recruiting",
+        "sourcing",
+        "interviews"
+      ]
+    },
+    {
+      "id": "education",
+      "code": "C20",
+      "name": "Education & Learning",
+      "description": "I want to learn or teach more effectively",
+      "about": "Subcategories: Teacher tools;Study & homework help;Language learning. Audiences: students, teachers, parents.",
+      "subcategories": [
+        "Teacher tools",
+        "Study & homework help",
+        "Language learning"
+      ],
+      "tags": [
+        "education",
+        "study",
+        "flashcards",
+        "languages"
+      ]
+    },
+    {
+      "id": "health",
+      "code": "C21",
+      "name": "Health & Medical",
+      "description": "I want to reduce clinical documentation;I want to check symptoms",
+      "about": "Subcategories: Clinical documentation;Clinical evidence;Symptom checkers. Audiences: clinicians, patients.",
+      "subcategories": [
+        "Clinical documentation",
+        "Clinical evidence",
+        "Symptom checkers"
+      ],
+      "tags": [
+        "health",
+        "medical",
+        "scribe"
+      ]
+    },
+    {
+      "id": "legal",
+      "code": "C22",
+      "name": "Legal",
+      "description": "I want to review contracts and speed up legal work",
+      "about": "Subcategories: Contract review & drafting;Legal research. Audiences: lawyers, legal-ops, Founders & startups.",
+      "subcategories": [
+        "Contract review & drafting",
+        "Legal research"
+      ],
+      "tags": [
+        "legal",
+        "contracts",
+        "research"
+      ]
+    },
+    {
+      "id": "finance",
+      "code": "C23",
+      "name": "Finance & Accounting",
+      "description": "I want to research markets;I want to automate bookkeeping",
+      "about": "Subcategories: Investment research;Accounting automation;Personal finance. Audiences: Finance, Founders & startups, consumers.",
+      "subcategories": [
+        "Investment research",
+        "Accounting automation",
+        "Personal finance"
+      ],
+      "tags": [
+        "finance",
+        "accounting",
+        "investing"
+      ]
+    },
+    {
+      "id": "security",
+      "code": "C24",
+      "name": "Security",
+      "description": "I want to secure my code and AI apps",
+      "about": "Subcategories: Application security;Supply-chain security;AI/LLM security. Audiences: Developers & engineering, security teams.",
+      "subcategories": [
+        "Application security",
+        "Supply-chain security",
+        "AI/LLM security"
+      ],
+      "tags": [
+        "security",
+        "appsec",
+        "sast",
+        "llm-security"
+      ]
+    }
+  ],
+  "legacyIds": [
+    "text",
+    "audio",
+    "data-processing"
+  ]
+}

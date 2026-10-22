@@ -1,18 +1,17 @@
 {
   "id": "fireflies-ai",
   "name": "Fireflies.ai",
-  "url": "https://fireflies.ai",
+  "url": "https://fireflies.ai/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI meeting assistant for transcription and analysis.",
   "description": "AI meeting assistant for transcription and analysis.\n\nMeeting Recording: Captures audio and video from meetings. Transcription: Converts speech to accurate, searchable text. AI Summaries: Provides concise highlights of meetings. Collaboration Tools: Share, comment on, and assign notes within teams.",
   "categories": [
-    "productivity"
+    "meetings"
   ],
   "tags": [
-    "AI",
-    "Transcription",
-    "Meetings"
+    "transcription",
+    "meetings"
   ],
   "pricing": {
     "model": "freemium",

@@ -1,0 +1,57 @@
+{
+  "id": "typingmind",
+  "name": "TypingMind",
+  "url": "https://www.typingmind.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Chat interface for several LLM providers that runs on your own API keys, sold as a one-time licence.",
+  "description": "TypingMind is a chat front end for models from OpenAI, Anthropic, Google and other providers. Users connect their own API keys and pay providers per use, while TypingMind itself is sold as a lifetime licence. Features include plugins, MCP support, prompt libraries, document upload and voice input, depending on tier. Licences start at $39 for Standard, with Extended and Premium tiers costing more.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "chat-frontend",
+    "byok",
+    "multi-model",
+    "one-time-license"
+  ],
+  "pricing": {
+    "model": "one-time",
+    "label": "Premium",
+    "verified": true,
+    "note": "$39 one-time (Standard)",
+    "sourceUrl": "https://www.typingmind.com/pricing"
+  },
+  "logo": "https://www.typingmind.com/android-icon-192x192.png",
+  "image": "/screenshots/typingmind.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.typingmind.com/",
+    "https://www.typingmind.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open TypingMind",
+      "description": "Open the official TypingMind website.",
+      "links": [
+        {
+          "label": "TypingMind",
+          "url": "https://www.typingmind.com/"
+        }
+      ]
+    },
+    {
+      "title": "One chat interface using my own API keys",
+      "description": "TypingMind is a chat front end for models from OpenAI, Anthropic, Google and other providers."
+    },
+    {
+      "title": "Users connect their own API keys and pay providers per use",
+      "description": "Users connect their own API keys and pay providers per use, while TypingMind itself is sold as a lifetime licence."
+    },
+    {
+      "title": "Features include plugins",
+      "description": "Features include plugins, MCP support, prompt libraries, document upload and voice input, depending on tier."
+    }
+  ]
+}

@@ -7,12 +7,12 @@
   "summary": "MindsDB is an open-source platform that brings advanced machine learning capabilities directly inside databases. It enables users to create, train, and deploy predictive models using simple SQL queries, without moving data out of the database. MindsDB supports a range of data types and integrates with popular databases and BI tools, simplifying the machine learning workflow for data engineers and analysts.",
   "description": "MindsDB is an open-source platform that brings advanced machine learning capabilities directly inside databases. It enables users to create, train, and deploy predictive models using simple SQL queries, without moving data out of the database. MindsDB supports a range of data types and integrates with popular databases and BI tools, simplifying the machine learning workflow for data engineers and analysts.\n\nManage AI access, usage, and budgets in one console. Use MindsHub models in your own apps and agents, or get work done with Cowork and Code. Start free.\n\nIn-Database ML: Train and deploy models within your existing database. Open Source: Free to use with commercial support options. Automated Machine Learning: Simplifies ML workflows for SQL users. Supports Multiple Data Types: Structured and unstructured data.",
   "categories": [
-    "data-processing"
+    "data"
   ],
   "tags": [
-    "Automl",
-    "Database",
-    "Open Source"
+    "automl",
+    "databases",
+    "open-source"
   ],
   "pricing": {
     "model": "freemium",

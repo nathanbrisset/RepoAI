@@ -7,12 +7,11 @@
   "summary": "Provides transcription services with support for multiple languages and automatic subtitle generation.",
   "description": "Provides transcription services with support for multiple languages and automatic subtitle generation.\n\nAI audio processing: Happy Scribe supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
   "categories": [
-    "audio"
+    "voice"
   ],
   "tags": [
-    "AI",
-    "Audio",
-    "Speech"
+    "audio",
+    "speech"
   ],
   "pricing": {
     "model": "freemium",

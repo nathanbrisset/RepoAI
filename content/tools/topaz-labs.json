@@ -1,0 +1,57 @@
+{
+  "id": "topaz-labs",
+  "name": "Topaz Labs",
+  "url": "https://www.topazlabs.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Desktop and web software for upscaling, denoising and sharpening video and photos.",
+  "description": "Topaz Labs makes enhancement software for photos and video: upscaling, noise reduction, sharpening, face recovery and lighting correction. Products include Topaz Studio, Topaz Photo, Topaz for Web and a Premiere panel. All products are paid; Topaz for Web – Image lists at $19 per month and Topaz Studio at $69 per month, and discounts were running during this check. Licences cover commercial use for organisations under $1M revenue.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "upscaling",
+    "denoise",
+    "photo-enhancement",
+    "desktop"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$19/mo (Topaz for Web – Image)",
+    "sourceUrl": "https://www.topazlabs.com/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/66207d48d19641ced6ae4796_tnb-favicon-256.png",
+  "image": "/screenshots/topaz-labs.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.topazlabs.com/",
+    "https://www.topazlabs.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Topaz Labs",
+      "description": "Open the official Topaz Labs website.",
+      "links": [
+        {
+          "label": "Topaz Labs",
+          "url": "https://www.topazlabs.com/"
+        }
+      ]
+    },
+    {
+      "title": "Upscale and sharpen video or photos",
+      "description": "Topaz Labs makes enhancement software for photos and video: upscaling, noise reduction, sharpening, face recovery and lighting correction."
+    },
+    {
+      "title": "Products include Topaz Studio",
+      "description": "Products include Topaz Studio, Topaz Photo, Topaz for Web and a Premiere panel."
+    },
+    {
+      "title": "All products are paid; Topaz for Web – Image lists at $19 per month and Topaz Studio at...",
+      "description": "All products are paid; Topaz for Web – Image lists at $19 per month and Topaz Studio at $69 per month, and discounts were running during this check."
+    }
+  ]
+}

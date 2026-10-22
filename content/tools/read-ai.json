@@ -1,0 +1,56 @@
+{
+  "id": "read-ai",
+  "name": "Read AI",
+  "url": "https://www.read.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI meeting notetaker and assistant for Teams, Meet and Zoom, with search across meetings and messages.",
+  "description": "Read AI joins meetings on Microsoft Teams, Google Meet and Zoom to produce transcripts, summaries and meeting reports, and offers apps for Windows, macOS, iOS and Android. It is also available as a Claude connector, ChatGPT app and MCP server. Workspaces and an AI assistant are offered for teams and enterprises.",
+  "categories": [
+    "meetings"
+  ],
+  "tags": [
+    "meeting-notes",
+    "transcription",
+    "search",
+    "integrations"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.read.ai/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/615f71de842b191ea061fda6_ReadLogomark_256x256.png",
+  "image": "/screenshots/read-ai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.read.ai/",
+    "https://www.read.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Read AI",
+      "description": "Open the official Read AI website.",
+      "links": [
+        {
+          "label": "Read AI",
+          "url": "https://www.read.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Meeting summaries and search across my work",
+      "description": "Read AI joins meetings on Microsoft Teams, Google Meet and Zoom to produce transcripts, summaries and meeting reports, and offers apps for Windows, macOS, iOS and Android."
+    },
+    {
+      "title": "It is also available as a Claude connector",
+      "description": "It is also available as a Claude connector, ChatGPT app and MCP server."
+    },
+    {
+      "title": "Workspaces and an AI assistant are offered for teams and enterprises.",
+      "description": "Workspaces and an AI assistant are offered for teams and enterprises."
+    }
+  ]
+}

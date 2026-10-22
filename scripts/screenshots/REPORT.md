@@ -65,3 +65,7 @@ Ratées par type : captcha 2.
 | --- | --- | --- | --- | --- |
 | codeassist | CodeAssist | captcha | Cloudflare : blocage dur (Sorry, you have been blocked) | image actuelle |
 | growthbar | GrowthBar | captcha | Captcha ou interstitiel anti-bot | image actuelle |
+
+## Intégration avec le lot
+
+Ce rapport est celui de la branche captures (`edab3013`) pour les fiches qui existaient déjà. Les fiches nouvelles du lot gardent leurs captures, de même que Brainly, Quizlet et Tensor.Art (`public/screenshots/brainly.webp`, `quizlet.webp`, `tensor-art.webp`). Le contrôle des fiches actives est `npm run catalog:qa`.

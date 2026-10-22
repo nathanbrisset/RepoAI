@@ -7,15 +7,13 @@
   "summary": "Anima bridges the gap between design and development by converting Figma, Adobe XD, and Sketch designs into developer-friendly React, HTML, and CSS code. It streamlines handoff, supports prototyping with real data, and enhances workflow for product teams.",
   "description": "Anima bridges the gap between design and development by converting Figma, Adobe XD, and Sketch designs into developer-friendly React, HTML, and CSS code. It streamlines handoff, supports prototyping with real data, and enhances workflow for product teams.\n\nAnima is the design-aware AI agent that bridges creativity and code. From Figma files, URLs, or prompts, Anima generates real, production-ready apps, for product teams building directly, or coding platforms integrating via API. Powers Bolt.new and Replit.\n\nDesign-to-Code: Convert designs to React, HTML, and CSS. Prototyping with Real Data: Use real APIs in prototypes. Automatic Code Updates: Sync design changes instantly. Collaboration: Comment and iterate with teams.",
   "categories": [
-    "design",
-    "coding",
-    "productivity"
+    "design"
   ],
   "tags": [
-    "Figma",
-    "Sketch",
-    "Code Generation",
-    "Handoff"
+    "figma",
+    "sketch",
+    "code-generation",
+    "handoff"
   ],
   "pricing": {
     "model": "freemium",

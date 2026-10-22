@@ -1,0 +1,54 @@
+{
+  "id": "langflow",
+  "name": "Langflow",
+  "url": "https://www.langflow.org/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source visual builder for AI agents, RAG pipelines and MCP servers.",
+  "description": "Langflow is an open-source, Python-based tool for building AI agents and workflows with a visual editor. Components for models, vector stores and tools are connected on a canvas, and each flow can be served as an API or exposed as an MCP server. It can be self-hosted, and the site also offers a free cloud account for deployment. Professional services and premier support are offered by the company behind it.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "visual-builder",
+    "open-source",
+    "mcp",
+    "python"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": true
+  },
+  "logo": "https://www.langflow.org/favicon.ico",
+  "image": "/screenshots/langflow.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.langflow.org/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Langflow",
+      "description": "Open the official Langflow website.",
+      "links": [
+        {
+          "label": "Langflow",
+          "url": "https://www.langflow.org/"
+        }
+      ]
+    },
+    {
+      "title": "Build AI agents visually",
+      "description": "Langflow is an open-source, Python-based tool for building AI agents and workflows with a visual editor."
+    },
+    {
+      "title": "Components for models",
+      "description": "Components for models, vector stores and tools are connected on a canvas, and each flow can be served as an API or exposed as an MCP server."
+    },
+    {
+      "title": "It can be self-hosted",
+      "description": "It can be self-hosted, and the site also offers a free cloud account for deployment."
+    }
+  ]
+}

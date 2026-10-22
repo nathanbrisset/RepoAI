@@ -28,7 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...STATIC_PATHS.map((path) => ({ path })),
     ...categories.map((category) => ({ path: `/categories/${category.id}` })),
     ...allTools
-      .filter((tool) => tool.status !== "renamed")
+      .filter((tool) => tool.status !== "renamed" && tool.status !== "sunset" && tool.status !== "inactive" && tool.status !== "duplicate-of")
       .map((tool) => ({
         path: `/tool/${tool.id}`,
         lastModified: catalogDate(tool.lastVerified) || catalogDate(tool.dateAdded),

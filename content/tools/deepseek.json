@@ -11,7 +11,7 @@
   "summary": "Chinese lab offering open-weight LLMs, a free chat app and a low-cost API.",
   "description": "DeepSeek develops large language models and publishes open-weight models such as DeepSeek-R1 and DeepSeek-V4, usable for chat, reasoning and coding. Its differentiator is open weights combined with very low API prices, with off-peak discounts. Chatting in the web and mobile app is free; the API is pay-as-you-go, e.g. from $0.15 per million input tokens (cache miss, off-peak) on the current pricing table.",
   "categories": [
-    "text"
+    "llm-chatbots"
   ],
   "tags": [
     "llm",
@@ -34,7 +34,7 @@
   "howToUse": [
     {
       "title": "Chat on the web or in the app",
-      "description": "The homepage links the DeepSeek web version, an app download, and a chat entry labeled in Chinese as talking with DeepSeek.",
+      "description": "The homepage links the DeepSeek web version, an app download, and a chat entry labeled in Chinese as talking with DeepSeek. Chatting in the web and mobile app is the path the homepage offers.",
       "links": [
         {
           "label": "DeepSeek",

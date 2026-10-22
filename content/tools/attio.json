@@ -1,0 +1,57 @@
+{
+  "id": "attio",
+  "name": "Attio",
+  "url": "https://attio.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Flexible CRM with a custom data model, enrichment, call intelligence, workflows and AI agents.",
+  "description": "Attio is a CRM built on a configurable data model that syncs email and calendar, enriches records automatically, records and analyses calls, and runs workflows and custom AI agents. Reports and forecasts update in real time. The Free plan covers up to three seats; Plus costs $35 per user per month billed annually ($44 monthly), and Pro $79 ($99 monthly).",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "crm",
+    "data-model",
+    "enrichment",
+    "workflows"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$35/user/mo (Plus, annual)",
+    "sourceUrl": "https://attio.com/pricing"
+  },
+  "logo": "https://attio.com/favicon.ico?favicon.0t61hvyp-jaev.ico",
+  "image": "/screenshots/attio.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://attio.com/",
+    "https://attio.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Attio",
+      "description": "Open the official Attio website.",
+      "links": [
+        {
+          "label": "Attio",
+          "url": "https://attio.com/"
+        }
+      ]
+    },
+    {
+      "title": "A flexible CRM with AI and automation",
+      "description": "Attio is a CRM built on a configurable data model that syncs email and calendar, enriches records automatically, records and analyses calls, and runs workflows and custom AI agents."
+    },
+    {
+      "title": "Reports and forecasts update in real time.",
+      "description": "Reports and forecasts update in real time."
+    },
+    {
+      "title": "The Free plan covers up to three seats; Plus costs $35 per user per month billed annual...",
+      "description": "The Free plan covers up to three seats; Plus costs $35 per user per month billed annually ($44 monthly), and Pro $79 ($99 monthly)."
+    }
+  ]
+}

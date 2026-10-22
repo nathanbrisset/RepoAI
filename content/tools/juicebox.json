@@ -1,0 +1,57 @@
+{
+  "id": "juicebox",
+  "name": "Juicebox",
+  "url": "https://juicebox.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI recruiting platform that searches 800M+ profiles, verifies candidates and runs outreach.",
+  "description": "Juicebox searches more than 800 million profiles from over 30 sources using natural-language queries, verifies candidates and sends email outreach, with recruiting agents that learn how the user searches. The Free plan includes limited searches; Starter costs $119 per seat per month, with yearly billing at a 15% discount. It supports agents that run searches automatically. It also provides AI email templates and a Juicebox Agent setup on the free plan.",
+  "categories": [
+    "hr"
+  ],
+  "tags": [
+    "sourcing",
+    "candidate-search",
+    "outreach",
+    "agents"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$119/seat/mo (Starter)",
+    "sourceUrl": "https://juicebox.ai/pricing"
+  },
+  "logo": "https://framerusercontent.com/images/iAd5NjLTQ75ExQtYYZyVoVGw2k.png",
+  "image": "/screenshots/juicebox.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://juicebox.ai/",
+    "https://juicebox.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Juicebox",
+      "description": "Open the official Juicebox website.",
+      "links": [
+        {
+          "label": "Juicebox",
+          "url": "https://juicebox.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Find and contact candidates with one search",
+      "description": "Juicebox searches more than 800 million profiles from over 30 sources using natural-language queries, verifies candidates and sends email outreach, with recruiting agents that learn how the user searches."
+    },
+    {
+      "title": "The Free plan includes limited searches; Starter costs $119 per seat per month",
+      "description": "The Free plan includes limited searches; Starter costs $119 per seat per month, with yearly billing at a 15% discount."
+    },
+    {
+      "title": "It supports agents that run searches automatically.",
+      "description": "It supports agents that run searches automatically."
+    }
+  ]
+}

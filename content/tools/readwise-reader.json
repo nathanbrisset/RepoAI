@@ -1,0 +1,57 @@
+{
+  "id": "readwise-reader",
+  "name": "Readwise Reader",
+  "url": "https://readwise.io/read",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Read-it-later app for articles, newsletters, RSS, PDFs and highlights, part of Readwise.",
+  "description": "Readwise Reader saves web articles, newsletters, RSS feeds, PDFs and other documents to one place, with highlighting and search. It is part of Readwise, which resurfaces past highlights through a daily review. Both start with a 30-day free trial; the Full plan including Reader costs $9.99 per month billed annually, and the Lite plan $5.59 per month. Reader is designed to replace several separate reading apps.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "read-it-later",
+    "rss",
+    "newsletters",
+    "highlights"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$9.99/mo (Full, billed annually)",
+    "sourceUrl": "https://readwise.io/pricing"
+  },
+  "logo": "https://readwise.io/favicon.ico",
+  "image": "/screenshots/readwise-reader.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://readwise.io/read",
+    "https://readwise.io/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Readwise Reader",
+      "description": "Open the official Readwise Reader website.",
+      "links": [
+        {
+          "label": "Readwise Reader",
+          "url": "https://readwise.io/read"
+        }
+      ]
+    },
+    {
+      "title": "One place to save, read and highlight articles",
+      "description": "Readwise Reader saves web articles, newsletters, RSS feeds, PDFs and other documents to one place, with highlighting and search."
+    },
+    {
+      "title": "It is part of Readwise",
+      "description": "It is part of Readwise, which resurfaces past highlights through a daily review."
+    },
+    {
+      "title": "Both start with a 30-day free trial; the Full plan including Reader costs $9.99 per mon...",
+      "description": "Both start with a 30-day free trial; the Full plan including Reader costs $9.99 per month billed annually, and the Lite plan $5.59 per month."
+    }
+  ]
+}

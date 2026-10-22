@@ -1,0 +1,57 @@
+{
+  "id": "assemblyai",
+  "name": "AssemblyAI",
+  "url": "https://www.assemblyai.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Speech-to-text and speech-understanding APIs for pre-recorded and real-time audio.",
+  "description": "AssemblyAI offers APIs for pre-recorded, real-time and synchronous speech-to-text, along with speech understanding features such as summaries and guardrails, and an LLM gateway. Users can try the API for free, then pay as they go with no commitment. Universal models are priced per hour of audio, starting at $0.15 per hour, with a model offering stronger speaker diarization at $0.21 per hour.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "stt",
+    "api",
+    "speaker-diarization",
+    "speech-understanding"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": true,
+    "note": "$0.15/hr",
+    "sourceUrl": "https://www.assemblyai.com/pricing"
+  },
+  "logo": "https://www.assemblyai.com/favicon.ico",
+  "image": "/screenshots/assemblyai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.assemblyai.com/",
+    "https://www.assemblyai.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open AssemblyAI",
+      "description": "Open the official AssemblyAI website.",
+      "links": [
+        {
+          "label": "AssemblyAI",
+          "url": "https://www.assemblyai.com/"
+        }
+      ]
+    },
+    {
+      "title": "Accurate transcription in my app",
+      "description": "AssemblyAI offers APIs for pre-recorded, real-time and synchronous speech-to-text, along with speech understanding features such as summaries and guardrails, and an LLM gateway."
+    },
+    {
+      "title": "Users can try the API for free",
+      "description": "Users can try the API for free, then pay as they go with no commitment."
+    },
+    {
+      "title": "Universal models are priced per hour of audio",
+      "description": "Universal models are priced per hour of audio, starting at $0.15 per hour, with a model offering stronger speaker diarization at $0.21 per hour."
+    }
+  ]
+}

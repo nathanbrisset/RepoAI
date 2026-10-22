@@ -1,0 +1,56 @@
+{
+  "id": "exa",
+  "name": "Exa",
+  "url": "https://exa.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Search API built for AI agents, with content retrieval, deep research and monitoring endpoints.",
+  "description": "Exa provides web search designed for AI agents, along with endpoints for page contents, deep research, monitoring, people search and company search. Developers call it through an API or agent interfaces. The Starter tier is free with $10 of credits every month plus $10 at onboarding, and usage beyond that is pay-as-you-go; enterprise plans are available through sales. The company publishes an llms.txt index of its documentation for agents.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "search-api",
+    "web-data",
+    "agents",
+    "deep-research"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": true,
+    "sourceUrl": "https://exa.ai/pricing"
+  },
+  "logo": "https://exa.ai/images/favicon-32x32.png",
+  "image": "/screenshots/exa.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://exa.ai/",
+    "https://exa.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Exa",
+      "description": "Open the official Exa website.",
+      "links": [
+        {
+          "label": "Exa",
+          "url": "https://exa.ai/"
+        }
+      ]
+    },
+    {
+      "title": "My agent to search and read the web via API",
+      "description": "Exa provides web search designed for AI agents, along with endpoints for page contents, deep research, monitoring, people search and company search."
+    },
+    {
+      "title": "Developers call it through an API or agent interfaces.",
+      "description": "Developers call it through an API or agent interfaces."
+    },
+    {
+      "title": "The Starter tier is free with $10 of credits every month plus $10 at onboarding",
+      "description": "The Starter tier is free with $10 of credits every month plus $10 at onboarding, and usage beyond that is pay-as-you-go; enterprise plans are available through sales."
+    }
+  ]
+}

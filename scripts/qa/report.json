@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-10-22T09:51:12.218Z",
+  "activeChecked": 465,
+  "passed": 464,
+  "failed": 1,
+  "fixes": [],
+  "byReason": {
+    "lien officiel HTTP": 1
+  },
+  "failures": [
+    {
+      "id": "clipchamp",
+      "name": "Clipchamp",
+      "url": "https://clipchamp.com/en/",
+      "failures": [
+        "lien officiel HTTP 502"
+      ]
+    }
+  ]
+}

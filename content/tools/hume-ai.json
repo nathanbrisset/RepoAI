@@ -1,0 +1,54 @@
+{
+  "id": "hume-ai",
+  "name": "Hume AI",
+  "url": "https://www.hume.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Voice AI company offering emotion-aware models and evaluation tools for voice systems.",
+  "description": "Hume AI works on emotionally intelligent voice AI. Its current focus is infrastructure to evaluate voice systems: it finds conversations that break a system, diagnoses why and feeds failures into an improvement loop, combining automated evaluation and human judgment. Its Expression APIs measure more than 600 dimensions of vocal and facial expression in over 50 languages. No public prices were shown on the pricing page during this check.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "voice-ai",
+    "emotion",
+    "evaluation",
+    "api"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "https://www.hume.ai/favicon.ico?favicon.bd1999a1.ico",
+  "image": "/screenshots/hume-ai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.hume.ai/",
+    "https://www.hume.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Hume AI",
+      "description": "Open the official Hume AI website.",
+      "links": [
+        {
+          "label": "Hume AI",
+          "url": "https://www.hume.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Test and improve my voice AI system",
+      "description": "Hume AI works on emotionally intelligent voice AI."
+    },
+    {
+      "title": "Its current focus is infrastructure to evaluate voice systems",
+      "description": "Its current focus is infrastructure to evaluate voice systems: it finds conversations that break a system, diagnoses why and feeds failures into an improvement loop, combining automated evaluation and human judgment."
+    },
+    {
+      "title": "Its Expression APIs measure more than 600 dimensions of vocal and facial expression in...",
+      "description": "Its Expression APIs measure more than 600 dimensions of vocal and facial expression in over 50 languages."
+    }
+  ]
+}

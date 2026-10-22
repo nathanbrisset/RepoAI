@@ -5,6 +5,7 @@ import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import type { Tool } from "@/lib/types"
+import { categoryName } from "@/lib/category-meta"
 import { categoryCopy, pricingLabel, statusLabel } from "@/lib/i18n/messages"
 import { formatCatalogDate, localizeTool } from "@/lib/i18n/localize-tool"
 import LocaleLink from "./locale-link"
@@ -51,7 +52,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
           <div className="flex flex-wrap gap-2 mb-2">
             {localized.categories.map((category) => (
               <Badge key={category} variant="secondary" className="text-xs">
-                {categoryCopy(locale, category)?.name || category}
+                {categoryCopy(locale, category)?.name || categoryName(category)}
               </Badge>
             ))}
           </div>
@@ -64,11 +65,11 @@ export default function ToolCard({ tool }: ToolCardProps) {
               ))}
             </div>
           )}
-          {tool.isPremium && (
+          {tool.isPremium && !tool.pricing?.uncertain && (
             <div className="mb-2">
               <Badge
                 className={
-                  tool.isPremium === "Premium"
+                  tool.isPremium === "Premium" || tool.isPremium === "Enterprise" || tool.isPremium === "Usage-based" || tool.isPremium === "One-time"
                     ? "bg-gradient-to-r from-amber-500 to-yellow-500 text-white"
                     : tool.isPremium === "Freemium"
                       ? "bg-gradient-to-r from-blue-500 to-green-400 text-white"
@@ -83,7 +84,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
       </LocaleLink>
       <CardFooter className="px-5 pb-4 pt-0 flex justify-between text-xs text-gray-500">
         <span>{tool.dateAdded ? formatCatalogDate(tool.dateAdded, locale) : t("tool.dateNotRecorded")}</span>
-        {tool.pricing?.verified === false && <span>{t("tool.priceNotRechecked")}</span>}
+        {tool.pricing?.verified === false && !tool.pricing?.uncertain && <span>{t("tool.priceNotRechecked")}</span>}
       </CardFooter>
     </Card>
   )

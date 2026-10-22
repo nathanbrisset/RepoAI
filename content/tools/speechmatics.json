@@ -1,18 +1,17 @@
 {
   "id": "speechmatics",
   "name": "Speechmatics",
-  "url": "https://www.speechmatics.com",
+  "url": "https://www.speechmatics.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Provides advanced speech recognition technology, supporting various languages and dialects for accurate transcriptions.",
   "description": "Provides advanced speech recognition technology, supporting various languages and dialects for accurate transcriptions.\n\nSpeechmatics builds speech-to-text APIs for real conversations, not clean demos. Build Voice AI that understands accents, multiple speakers, and multilingual speech.\n\nAI audio processing: Speechmatics supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
   "categories": [
-    "audio"
+    "voice"
   ],
   "tags": [
-    "AI",
-    "Audio",
-    "Speech"
+    "audio",
+    "speech"
   ],
   "pricing": {
     "model": "freemium",

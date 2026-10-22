@@ -1,0 +1,48 @@
+{
+  "id": "duolingo",
+  "name": "Duolingo",
+  "url": "https://www.duolingo.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Gamified language-learning app built around short lessons.",
+  "description": "Duolingo is a language-learning app that teaches through short, gamified lessons on mobile and the web. Features, plans and prices should be checked again once the site is back online, since none could be read during this review.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "language-learning",
+    "gamification",
+    "mobile-apps"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "https://d35aaqx5ub95lt.cloudfront.net/images/duolingo-touch-icon2.png",
+  "image": "/screenshots/duolingo.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.duolingo.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Duolingo",
+      "description": "Open the official Duolingo website.",
+      "links": [
+        {
+          "label": "Duolingo",
+          "url": "https://www.duolingo.com/"
+        }
+      ]
+    },
+    {
+      "title": "Learn a language in short daily lessons",
+      "description": "Duolingo is a language-learning app that teaches through short, gamified lessons on mobile and the web."
+    },
+    {
+      "title": "Features",
+      "description": "Features, plans and prices should be checked again once the site is back online, since none could be read during this review."
+    }
+  ]
+}

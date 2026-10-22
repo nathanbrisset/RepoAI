@@ -1,18 +1,18 @@
 {
   "id": "knime",
   "name": "KNIME",
-  "url": "https://www.knime.com",
+  "url": "https://www.knime.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "KNIME is a comprehensive open-source platform designed for data analytics, reporting, and integration. It allows users to visually create data workflows, selectively execute steps, and inspect results, models, and visualizations. KNIME's modular pipelining concept makes it easy for both beginners and experts to build advanced data science solutions with minimal coding. It supports integration with machine learning and deep learning libraries, data manipulation, ETL processes, and offers a vast ecosystem of extensions for specialized analyses. KNIME is widely used in academia and industry for tasks ranging from simple data preprocessing to complex predictive modeling.",
   "description": "KNIME is a comprehensive open-source platform designed for data analytics, reporting, and integration. It allows users to visually create data workflows, selectively execute steps, and inspect results, models, and visualizations. KNIME's modular pipelining concept makes it easy for both beginners and experts to build advanced data science solutions with minimal coding. It supports integration with machine learning and deep learning libraries, data manipulation, ETL processes, and offers a vast ecosystem of extensions for specialized analyses. KNIME is widely used in academia and industry for tasks ranging from simple data preprocessing to complex predictive modeling.\n\nFree and open source with all your data analysis tools. Create data science solutions with the visual workflow builder & put them into production in the enterprise.\n\nDrag-and-Drop Workflow: User-friendly interface for building analytics pipelines without code. Extensive Integration: Connects with databases, cloud storage, and big data tools. Advanced Analytics: Supports machine learning, deep learning, statistics, and text mining. Extensible Platform: Large ecosystem of plugins and community extensions.",
   "categories": [
-    "data-processing"
+    "data"
   ],
   "tags": [
-    "Data Mining",
-    "Workflow",
-    "Open Source"
+    "data-mining",
+    "workflows",
+    "open-source"
   ],
   "pricing": {
     "model": "free",

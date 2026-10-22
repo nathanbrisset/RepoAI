@@ -1,0 +1,54 @@
+{
+  "id": "groq",
+  "name": "Groq",
+  "url": "https://groq.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Inference cloud running open models on Groq's own LPU chips through an API.",
+  "description": "Groq operates an inference cloud built on its own LPU chips. Developers call open models such as Llama, Qwen and GPT-OSS through an API that is compatible with the OpenAI format, and the platform targets high token throughput and low latency. The company also offers dedicated infrastructure for enterprises. The pricing page did not render readable prices during this check, so no price was recorded.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "inference",
+    "api",
+    "open-models",
+    "lpu"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "https://groq.com/favicon.svg",
+  "image": "/screenshots/groq.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://groq.com/",
+    "https://groq.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Groq",
+      "description": "Open the official Groq website.",
+      "links": [
+        {
+          "label": "Groq",
+          "url": "https://groq.com/"
+        }
+      ]
+    },
+    {
+      "title": "Fast, low-cost inference for open models",
+      "description": "Groq operates an inference cloud built on its own LPU chips."
+    },
+    {
+      "title": "Developers call open models such as Llama",
+      "description": "Developers call open models such as Llama, Qwen and GPT-OSS through an API that is compatible with the OpenAI format, and the platform targets high token throughput and low latency."
+    },
+    {
+      "title": "The company also offers dedicated infrastructure for enterprises.",
+      "description": "The company also offers dedicated infrastructure for enterprises."
+    }
+  ]
+}
