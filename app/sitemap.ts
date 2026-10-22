@@ -1,47 +1,46 @@
 import type { MetadataRoute } from "next"
-import { categories, mockTools } from "@/lib/data"
-import { absoluteUrl } from "@/lib/seo"
+import { categories, allTools } from "@/lib/data"
+import { absoluteUrl, languageAlternates } from "@/lib/i18n/paths"
+
+const STATIC_PATHS = [
+  "/",
+  "/about",
+  "/contact",
+  "/privacy",
+  "/terms",
+  "/submit",
+  "/recommendation",
+  "/categories",
+  "/tools",
+  "/category/new",
+  "/category/popular",
+  "/category/top-rated",
+]
+
+function catalogDate(value?: string | null) {
+  if (!value || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return undefined
+  const date = new Date(`${value}T00:00:00.000Z`)
+  return Number.isNaN(date.getTime()) ? undefined : date
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date()
+  const pages: { path: string; lastModified?: Date }[] = [
+    ...STATIC_PATHS.map((path) => ({ path })),
+    ...categories.map((category) => ({ path: `/categories/${category.id}` })),
+    ...allTools
+      .filter((tool) => tool.status !== "renamed")
+      .map((tool) => ({
+        path: `/tool/${tool.id}`,
+        lastModified: catalogDate(tool.lastVerified) || catalogDate(tool.dateAdded),
+      })),
+  ]
 
-  const staticPages: MetadataRoute.Sitemap = [
-    { path: "/", priority: 1, changeFrequency: "weekly" as const },
-    { path: "/tools", priority: 0.9, changeFrequency: "weekly" as const },
-    { path: "/categories", priority: 0.8, changeFrequency: "weekly" as const },
-    { path: "/about", priority: 0.4, changeFrequency: "monthly" as const },
-    { path: "/contact", priority: 0.4, changeFrequency: "yearly" as const },
-    { path: "/submit", priority: 0.5, changeFrequency: "monthly" as const },
-    { path: "/privacy", priority: 0.2, changeFrequency: "yearly" as const },
-    { path: "/terms", priority: 0.2, changeFrequency: "yearly" as const },
-    { path: "/recommendation", priority: 0.5, changeFrequency: "monthly" as const },
-  ].map((page) => ({
-    url: absoluteUrl(page.path),
-    lastModified: now,
-    changeFrequency: page.changeFrequency,
-    priority: page.priority,
-  }))
-
-  const categoryPages: MetadataRoute.Sitemap = categories.map((category) => ({
-    url: absoluteUrl(`/categories/${category.id}`),
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.8,
-  }))
-
-  const seen = new Set<string>()
-  const toolPages: MetadataRoute.Sitemap = []
-  for (const tool of mockTools) {
-    if (!tool.id || seen.has(tool.id)) continue
-    seen.add(tool.id)
-    const added = new Date(tool.dateAdded)
-    toolPages.push({
-      url: absoluteUrl(`/tool/${tool.id}`),
-      lastModified: Number.isNaN(added.getTime()) ? now : added,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    })
-  }
-
-  return [...staticPages, ...categoryPages, ...toolPages]
+  return pages.flatMap(({ path, lastModified }) => {
+    const languages = languageAlternates(path)
+    return (["en", "fr"] as const).map((locale) => ({
+      url: absoluteUrl(locale, path),
+      ...(lastModified ? { lastModified } : {}),
+      alternates: { languages },
+    }))
+  })
 }

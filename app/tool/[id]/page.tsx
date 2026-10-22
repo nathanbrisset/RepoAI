@@ -1,8 +1,9 @@
-import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { allTools, mockTools } from "@/lib/data";
-import { metaDescription, pageMetadata } from "@/lib/seo";
 import ToolPageClient from "./tool-page-client";
+import { getLocale } from "@/lib/i18n/get-locale";
+import { localizeTool } from "@/lib/i18n/localize-tool";
+import { metadataFor } from "@/lib/i18n/metadata";
 
 // Unknown ids are not rendered as empty shells. Next responds with the not-found page.
 export const dynamicParams = false
@@ -19,22 +20,9 @@ type PageProps = {
   searchParams: Promise<Record<string, string>>;
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { id } = await params;
-  const tool = allTools.find((entry) => entry.id === id);
-
-  if (!tool) {
-    notFound();
-  }
-
-  return pageMetadata({
-    title: tool.name,
-    description: metaDescription(
-      tool.description,
-      `${tool.name} is listed in the AI Tools Ninja directory. Read the summary and open the official website.`
-    ),
-    path: `/tool/${tool.id}`,
-  });
+export async function generateMetadata({ params }: PageProps) {
+  const { id } = await params
+  return metadataFor(`/tool/${id}`)
 }
 
 export default async function ToolPage({ params }: PageProps) {
@@ -51,12 +39,30 @@ export default async function ToolPage({ params }: PageProps) {
   ).slice(0, 2);
 
   const successor = tool.successorId ? allTools.find((item) => item.id === tool.successorId) : null
+  const locale = await getLocale()
+  const localized = localizeTool(tool, locale)
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: tool.name,
+    description: localized.longDescription || localized.description,
+    applicationCategory: tool.categories.join(", "),
+    url: tool.url,
+    image: tool.image,
+    inLanguage: locale,
+    ...(tool.pricing?.verified && tool.pricing.model === "free"
+      ? { offers: { "@type": "Offer", price: 0, priceCurrency: "USD" } }
+      : {}),
+  }
 
   return (
-    <ToolPageClient
-      tool={tool}
-      relatedTools={relatedTools}
-      successorName={successor?.name}
-    />
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <ToolPageClient
+        tool={tool}
+        relatedTools={relatedTools}
+        successorName={successor?.name}
+      />
+    </>
   );
 }

@@ -1,9 +1,14 @@
 import { Suspense } from "react"
-import RecommendationClient from "./RecommendationClient"
+import { metadataFor } from "@/lib/i18n/metadata"
+import RecommendationClient from "./recommendation-client"
+
+export function generateMetadata() {
+  return metadataFor("/recommendation")
+}
 
 export default function RecommendationPage() {
   return (
-    <Suspense fallback={<div className="container mx-auto max-w-3xl px-4 py-16 text-gray-600">Loading recommendations…</div>}>
+    <Suspense>
       <RecommendationClient />
     </Suspense>
   )

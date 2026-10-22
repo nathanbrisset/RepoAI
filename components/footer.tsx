@@ -1,82 +1,84 @@
-import Link from "next/link"
+"use client"
+
+import LocaleLink from "./locale-link"
+import { useT } from "./locale-provider"
 
 export default function Footer() {
+  const t = useT()
+
   return (
     <footer className="bg-gray-100 border-t">
       <div className="container mx-auto max-w-6xl px-4 py-12">
         <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-10 md:gap-0">
-          {/* Brand/mission */}
           <div className="flex-1 mb-8 md:mb-0 md:mr-8">
             <h3 className="font-bold text-lg mb-4">AITools.ninja</h3>
-            <p className="text-gray-600 mb-2">We help you find your perfect AI !</p>
+            <p className="text-gray-600 mb-2">{t("footer.tagline")}</p>
           </div>
 
-          {/* Categories */}
           <div className="flex-1 mb-8 md:mb-0 md:mr-8">
-            <h3 className="font-bold text-lg mb-4">Categories</h3>
+            <h3 className="font-bold text-lg mb-4">{t("footer.categories")}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/categories/text" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  Text Generation
-                </Link>
+                <LocaleLink href="/categories/text" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  {t("footer.text")}
+                </LocaleLink>
               </li>
               <li>
-                <Link href="/categories/image" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  Image Generation
-                </Link>
+                <LocaleLink href="/categories/image" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  {t("footer.image")}
+                </LocaleLink>
               </li>
               <li>
-                <Link href="/categories/audio" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  Audio & Speech
-                </Link>
+                <LocaleLink href="/categories/audio" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  {t("footer.audio")}
+                </LocaleLink>
               </li>
               <li>
-                <Link href="/categories/productivity" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  Productivity
-                </Link>
+                <LocaleLink href="/categories/productivity" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  {t("footer.productivity")}
+                </LocaleLink>
               </li>
               <li>
-                <Link href="/categories/coding" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  Coding
-                </Link>
+                <LocaleLink href="/categories/coding" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  {t("footer.coding")}
+                </LocaleLink>
               </li>
             </ul>
           </div>
 
-          {/* Company */}
           <div className="flex-1">
-            <h3 className="font-bold text-lg mb-4">Company</h3>
+            <h3 className="font-bold text-lg mb-4">{t("footer.company")}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/about" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  About Us
-                </Link>
+                <LocaleLink href="/about" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  {t("footer.about")}
+                </LocaleLink>
               </li>
               <li>
-                <Link href="/submit" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  Submit a Tool
-                </Link>
+                <LocaleLink href="/submit" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  {t("footer.submit")}
+                </LocaleLink>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  Contact
-                </Link>
+                <LocaleLink href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  {t("footer.contact")}
+                </LocaleLink>
               </li>
               <li>
-                <Link href="/privacy" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  Privacy Policy
-                </Link>
+                <LocaleLink href="/privacy" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  {t("footer.privacy")}
+                </LocaleLink>
               </li>
               <li>
-                <Link href="/terms" className="text-gray-600 hover:text-gray-900 transition-colors">
-                  Terms of Service
-                </Link>
+                <LocaleLink href="/terms" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  {t("footer.terms")}
+                </LocaleLink>
               </li>
             </ul>
           </div>
         </div>
         <div className="border-t mt-12 pt-8 flex flex-col items-center">
-          <p className="text-gray-600 text-center">© {new Date().getFullYear()} AI Tools Ninja. All rights reserved.</p>
+          <p className="text-gray-600 text-center">{t("footer.copyright")}</p>
         </div>
       </div>
     </footer>

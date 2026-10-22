@@ -49,12 +49,18 @@ export const toolSchema = z.object({
   statusNote: z.string().optional(),
   summary: z.string().min(1),
   description: z.string().min(1),
+  /** French short text. shortDescription_fr is the same field under the name used in briefs. */
+  summary_fr: z.string().min(1).optional(),
+  shortDescription_fr: z.string().min(1).optional(),
+  description_fr: z.string().min(1).optional(),
   categories: z.array(z.enum(CATEGORY_IDS)).min(1),
   tags: z.array(z.string().min(1)).min(1),
+  tags_fr: z.array(z.string().min(1)).optional(),
   pricing: z.object({
     model: pricingModelSchema,
     label: pricingLabelSchema,
     note: z.string().optional(),
+    note_fr: z.string().min(1).optional(),
     verified: z.boolean(),
     sourceUrl: z.string().url().optional(),
   }),
@@ -65,7 +71,11 @@ export const toolSchema = z.object({
   lastVerified: isoDate.nullable(),
   sources: z.array(z.string().url()).optional(),
   features: z.array(z.string().min(1)).optional(),
+  features_fr: z.array(z.string().min(1)).optional(),
   howToUse: z.array(howToStepSchema).optional(),
+  howToUse_fr: z.array(howToStepSchema).optional(),
+  statusNote_fr: z.string().min(1).optional(),
+  dateAddedNote_fr: z.string().min(1).optional(),
 })
 
 export type CatalogTool = z.infer<typeof toolSchema>

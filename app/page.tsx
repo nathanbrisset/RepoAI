@@ -1,8 +1,10 @@
-import HomeClient from "./HomeClient"
-import { homeMetadata } from "@/lib/seo"
+import { metadataFor } from "@/lib/i18n/metadata"
+import HomePage from "./home-client"
 
-export const metadata = homeMetadata
+export function generateMetadata() {
+  return metadataFor("/")
+}
 
-export default function HomePage() {
-  return <HomeClient />
+export default function Page() {
+  return <HomePage />
 }

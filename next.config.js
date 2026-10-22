@@ -62,14 +62,31 @@ const nextConfig = {
       { source: "/tools/tools", destination: "/tools", permanent: true },
       { source: "/tool/tool/:id", destination: "/tool/:id", permanent: true },
       { source: "/tools/:id", destination: "/tool/:id", permanent: true },
-      ...renamedToTools.map((id) => ({
-        source: `/tool/${id}`,
-        destination: "/tools",
-        permanent: true,
-      })),
+      { source: "/fr/about/about", destination: "/fr/about", permanent: true },
+      { source: "/fr/submit/submit", destination: "/fr/submit", permanent: true },
+      { source: "/fr/tools/tools", destination: "/fr/tools", permanent: true },
+      { source: "/fr/tool/tool/:id", destination: "/fr/tool/:id", permanent: true },
+      { source: "/fr/tools/:id", destination: "/fr/tool/:id", permanent: true },
+      ...renamedToTools.flatMap((id) => [
+        {
+          source: `/tool/${id}`,
+          destination: "/tools",
+          permanent: true,
+        },
+        {
+          source: `/fr/tool/${id}`,
+          destination: "/fr/tools",
+          permanent: true,
+        },
+      ]),
       {
         source: "/tool/windsurf",
         destination: "/tool/devin",
+        permanent: true,
+      },
+      {
+        source: "/fr/tool/windsurf",
+        destination: "/fr/tool/devin",
         permanent: true,
       },
     ]

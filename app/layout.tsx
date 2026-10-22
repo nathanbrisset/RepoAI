@@ -7,33 +7,40 @@ import Footer from "@/components/footer"
 import { ThemeProvider } from "@/components/theme-provider"
 import CookieConsent from "@/components/cookie-consent"
 import GoogleAnalytics from "@/components/GoogleAnalytics"
-import { rootMetadata } from "@/lib/seo"
+import { LocaleProvider } from "@/components/locale-provider"
+import { getLocale, getRequestPathname } from "@/lib/i18n/get-locale"
+import { buildPageMetadata } from "@/lib/i18n/metadata"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata: Metadata = rootMetadata
+export async function generateMetadata(): Promise<Metadata> {
+  const [locale, pathname] = await Promise.all([getLocale(), getRequestPathname()])
+  return buildPageMetadata(locale, pathname)
+}
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const locale = await getLocale()
+
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          <div className="flex flex-col min-h-screen">
-            <Header />
-            <main className="flex-grow">
-              {children}
-            </main>
-            <Footer />
-            <CookieConsent />
-          </div>
-        </ThemeProvider>
+        <LocaleProvider locale={locale}>
+          <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+            <div className="flex flex-col min-h-screen">
+              <Header />
+              <main className="flex-grow">{children}</main>
+              <Footer />
+              <CookieConsent />
+            </div>
+          </ThemeProvider>
+        </LocaleProvider>
         <GoogleAnalytics />
       </body>
     </html>

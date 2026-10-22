@@ -25,6 +25,15 @@ export interface Tool {
   status?: 'active' | 'renamed' | 'sunset' | 'duplicate-of'
   successorId?: string
   statusNote?: string
+  summary_fr?: string
+  shortDescription_fr?: string
+  description_fr?: string
+  tags_fr?: string[]
+  features_fr?: string[]
+  howToUse_fr?: Tool["howToUse"]
+  statusNote_fr?: string
+  dateAddedNote_fr?: string
+  pricingNote_fr?: string
   lastVerified?: string | null
   sources?: string[]
   pricing?: {
