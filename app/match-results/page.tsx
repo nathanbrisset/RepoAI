@@ -1,5 +1,3 @@
-import type { Metadata } from "next";
-import { pageMetadata } from "@/lib/seo";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, TrendingUp, Clock, CheckCircle } from 'lucide-react';
@@ -14,12 +12,6 @@ import { mockTools } from "@/lib/data";
 import type { Tool } from "@/lib/types";
 import { Badge } from "@/components/ui/badge";
 import { notFound } from "next/navigation";
-
-export const metadata: Metadata = pageMetadata({
-  title: "AI Match Results",
-  description: "Tools suggested from your description. Results stay on this page and are not a separate listing for each search.",
-  path: "/match-results",
-})
 
 interface MatchResult {
   tool: Tool;
