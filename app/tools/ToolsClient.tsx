@@ -11,28 +11,28 @@ import type { Tool } from "@/lib/types"
 import { categories } from "@/lib/data"
 import { pricingLabel } from "@/lib/i18n/messages"
 import { localizeTool } from "@/lib/i18n/localize-tool"
+import { localizeHref } from "@/lib/i18n/paths"
 import LocaleLink from "@/components/locale-link"
 import { useLocale, useT } from "@/components/locale-provider"
+import {
+  PRICE_FILTER_OPTIONS,
+  matchesPriceFilter,
+  priceFilterFromParam,
+  priceFilterParam,
+  type PriceFilter,
+} from "@/lib/price-filter"
 
 interface ToolsClientProps {
   tools: Tool[]
   initialCategory?: string | null
+  initialPricing?: string | null
 }
 
-const PRICING_OPTIONS = [
-  { label: "Free", className: "bg-gray-200 text-gray-800" },
-  { label: "Freemium", className: "bg-gradient-to-r from-blue-500 to-green-400 text-white" },
-  { label: "Premium", className: "bg-gradient-to-r from-amber-500 to-yellow-500 text-white" },
-  { label: "Enterprise", className: "bg-gradient-to-r from-amber-500 to-yellow-500 text-white" },
-  { label: "Usage-based", className: "bg-gradient-to-r from-amber-500 to-yellow-500 text-white" },
-  { label: "One-time", className: "bg-gray-800 text-white" },
-  { label: "Open source", className: "bg-gray-800 text-white" },
-]
-
-export default function ToolsClient({ tools, initialCategory = null }: ToolsClientProps) {
+export default function ToolsClient({ tools, initialCategory = null, initialPricing = null }: ToolsClientProps) {
   const router = useRouter()
   const initial = categories.some((category) => category.id === initialCategory) ? initialCategory : null
-  const [selectedPricing, setSelectedPricing] = useState<string | null>(null)
+  const initialFilter = priceFilterFromParam(initialPricing)
+  const [selectedPricing, setSelectedPricing] = useState<PriceFilter | null>(initialFilter)
   const [selectedCategory, setSelectedCategory] = useState<string | null>(initial)
   const [query, setQuery] = useState("")
   const locale = useLocale()
@@ -42,13 +42,27 @@ export default function ToolsClient({ tools, initialCategory = null }: ToolsClie
     setSelectedCategory(initial)
   }, [initial])
 
+  useEffect(() => {
+    setSelectedPricing(initialFilter)
+  }, [initialFilter])
+
+  function writeQuery(category: string | null, pricing: PriceFilter | null) {
+    const params = new URLSearchParams()
+    if (category) params.set("category", category)
+    if (pricing) params.set("pricing", priceFilterParam(pricing))
+    const next = params.toString()
+    router.replace(localizeHref(locale, next ? `/tools?${next}` : "/tools"), { scroll: false })
+  }
+
   function selectCategory(id: string | null) {
     setSelectedCategory(id)
-    const params = new URLSearchParams(window.location.search)
-    if (id) params.set("category", id)
-    else params.delete("category")
-    const next = params.toString()
-    router.replace(next ? `/tools?${next}` : "/tools", { scroll: false })
+    writeQuery(id, selectedPricing)
+  }
+
+  function selectPricing(label: PriceFilter) {
+    const next = selectedPricing === label ? null : label
+    setSelectedPricing(next)
+    writeQuery(selectedCategory, next)
   }
 
   const filteredTools = tools.filter(tool => {
@@ -63,7 +77,7 @@ export default function ToolsClient({ tools, initialCategory = null }: ToolsClie
       ...(french.tags || []),
     ].join(" ").toLowerCase()
     const matchesQuery = haystack.includes(query.toLowerCase())
-    const matchesPricing = selectedPricing ? tool.isPremium === selectedPricing && !tool.pricing?.uncertain : true
+    const matchesPricing = matchesPriceFilter(tool, selectedPricing)
     const matchesCategory = selectedCategory ? tool.categories.includes(selectedCategory) : true
     return matchesQuery && matchesPricing && matchesCategory
   })
@@ -80,12 +94,14 @@ export default function ToolsClient({ tools, initialCategory = null }: ToolsClie
           </div>
           {/* Pricing Filter - right aligned */}
           <div className="flex gap-3 justify-center md:justify-end items-center">
-            {PRICING_OPTIONS.map(({ label, className }) => (
+            {PRICE_FILTER_OPTIONS.map(({ label, className }) => (
               <button
                 key={label}
-                onClick={() => setSelectedPricing(selectedPricing === label ? null : label)}
+                type="button"
+                onClick={() => selectPricing(label)}
                 className="focus:outline-none"
                 aria-pressed={selectedPricing === label}
+                data-pricing={priceFilterParam(label)}
               >
                 <Badge className={
                   `${className} px-4 py-2 text-base rounded-lg transition-colors border-2 ${
