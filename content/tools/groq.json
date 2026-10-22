@@ -32,8 +32,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Groq",
-      "description": "Go to Groq and choose Start building. Groq operates an inference cloud built on its own LPU chips, which the page also calls the chip it pioneered.",
+      "title": "Create an API key",
+      "description": "Open Groq, start building, and create a key in the console.",
       "links": [
         {
           "label": "Groq",
@@ -42,16 +42,16 @@
       ]
     },
     {
-      "title": "Call an open model",
-      "description": "Developers call open models such as Llama, Qwen, and GPT-OSS through an API that is compatible with the OpenAI format."
+      "title": "Pick an open model",
+      "description": "Choose an open model such as Llama, Qwen, or GPT-OSS. The API follows the OpenAI format."
     },
     {
-      "title": "Aim for throughput or dedicated capacity",
-      "description": "The platform targets high token throughput and low latency. The company also offers dedicated infrastructure for enterprises."
+      "title": "Send a request",
+      "description": "Point an OpenAI-compatible client at Groq and send a completion. The service runs on Groq's own LPU chips."
     },
     {
-      "title": "Leave prices unread",
-      "description": "During this check the pricing page did not render readable prices, so no price was recorded."
+      "title": "Pick Free, Developer, or Enterprise",
+      "description": "The free plan is $0. Developer billing is per token. Enterprise is a separate plan."
     }
   ]
 }

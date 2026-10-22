@@ -25,7 +25,7 @@ const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/)
 const toolSchema = z.object({
   id: z.string().regex(/^[a-z0-9]+(?:[-_][a-z0-9]+)*$/),
   name: z.string().min(1),
-  url: z.string().url(),
+  url: z.union([z.literal(""), z.string().url()]),
   affiliateUrl: z.union([z.literal(""), z.string().url()]).optional(),
   status: z.enum(["active", "inactive", "renamed", "sunset", "duplicate-of"]),
   successorId: z.string().optional(),

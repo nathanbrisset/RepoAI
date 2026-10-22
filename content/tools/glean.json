@@ -31,8 +31,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Glean",
-      "description": "Go to Glean and choose Get a demo or Sign in. No public prices are listed. Access is through a sales demo, and it is aimed at large organisations with many internal systems.",
+      "title": "Ask for access",
+      "description": "Open Glean and request a demo, or sign in if your company already has it. Prices are not listed publicly.",
       "links": [
         {
           "label": "Glean",
@@ -41,16 +41,16 @@
       ]
     },
     {
-      "title": "Connect company applications",
-      "description": "Glean connects to company applications through more than 250 connectors and builds a context layer of enterprise knowledge and permissions."
+      "title": "Connect the company apps",
+      "description": "An admin connects the company applications. Glean keeps each person's permissions on that knowledge."
     },
     {
-      "title": "Search, ask, or run governed agents",
-      "description": "Use that layer for search, the assistant, and governed agents."
+      "title": "Search or ask",
+      "description": "Search across the connected apps, or ask the assistant a question."
     },
     {
-      "title": "Publish agents from coding tools",
-      "description": "Recent releases let developers build, test, and publish Glean agents from their coding tools. The homepage repeats that October release."
+      "title": "Publish an agent",
+      "description": "From a coding tool, build, test, and publish a Glean agent if the developers use that release."
     }
   ]
 }

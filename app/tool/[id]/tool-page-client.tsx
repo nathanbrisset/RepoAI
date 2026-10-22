@@ -77,11 +77,13 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
           <button onClick={() => window.history.back()} className="text-xs text-gray-500 hover:text-gray-700 mb-4 inline-block">← {t("tool.back")}</button>
           <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4 gap-4">
             <h1 className="text-3xl font-bold">{tool.name}</h1>
+            {tool.url ? (
             <div className="flex gap-2">
               <Link href={tool.url} target="_blank" rel="noopener noreferrer" className="px-4 py-1 rounded bg-purple-500 text-white font-semibold hover:bg-purple-600 flex items-center gap-1 text-sm">
                 {t("tool.visit")} <ExternalLink className="w-4 h-4 ml-1" />
               </Link>
             </div>
+            ) : null}
           </div>
           <div className="flex flex-wrap gap-2 mb-2">
             {tool.categories.map((cat: string) => (
@@ -302,9 +304,11 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
                 </div>
               )}
             </div>
+            {tool.url ? (
             <Link href={tool.url} target="_blank" className="block w-full bg-purple-600 text-white text-center py-2 rounded-lg font-semibold hover:bg-purple-700 transition">
               {t("tool.visit")} <ExternalLink className="inline w-4 h-4 ml-1" />
             </Link>
+            ) : null}
           </div>
           <div className="bg-white border border-gray-100 rounded-xl p-6">
             <h3 className="font-semibold text-gray-900 mb-4">{t("tool.related")}</h3>

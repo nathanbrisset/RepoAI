@@ -52,7 +52,7 @@ export const howToStepSchema = z.object({
 export const toolSchema = z.object({
   id: z.string().regex(/^[a-z0-9]+(?:[-_][a-z0-9]+)*$/),
   name: z.string().min(1),
-  url: z.string().url(),
+  url: z.union([z.literal(""), z.string().url()]),
   affiliateUrl: z.union([z.literal(""), z.string().url()]).optional(),
   status: toolStatusSchema,
   successorId: z.string().optional(),

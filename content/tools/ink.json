@@ -1,11 +1,11 @@
 {
   "id": "ink",
   "name": "INK",
-  "url": "https://github.com/smythos/sre",
+  "url": "",
   "affiliateUrl": "",
   "status": "sunset",
   "summary": "Sunset AI writing assistant for SEO and content optimization.",
-  "description": "INK was an AI writing assistant for SEO and content optimization. On 21 October 2026, inkforall.com redirected to https://github.com/smythos/sre, the SmythOS Runtime Environment, which is a different product. This card is a duplicate of INK for All and is closed.",
+  "description": "INK was an AI writing assistant for SEO and content optimization. On 21 October 2026, inkforall.com no longer opened this product. It led to the SmythOS Runtime Environment, which is a different product. This card is a duplicate of INK for All and is closed.",
   "categories": [
     "marketing",
     "text"
@@ -16,10 +16,8 @@
     "writing"
   ],
   "pricing": {
-    "model": "open-source",
-    "label": "Open source",
-    "verified": false,
-    "note": "The official link is a GitHub repository. The license and any paid hosting were not rechecked."
+    "uncertain": true,
+    "verified": false
   },
   "logo": "/logos/ink.png",
   "image": "/tool-screenshots/ink.png",
@@ -32,16 +30,6 @@
     "Topic research: Recommends keywords and related topics."
   ],
   "howToUse": [
-    {
-      "title": "Sign Up & Access Dashboard",
-      "description": "Create a free or paid account on INK and log in to the writing dashboard.",
-      "links": [
-        {
-          "label": "INK",
-          "url": "https://github.com/smythos/sre"
-        }
-      ]
-    },
     {
       "title": "Start a New Project",
       "description": "Create or import a document and select the SEO optimization tool."
@@ -59,8 +47,5 @@
       "description": "Export your optimized content for your CMS or publish it directly from INK if supported."
     }
   ],
-  "statusNote": "Duplicate of INK for All (same URL); inkforall.com now redirects to SmythOS GitHub",
-  "sources": [
-    "https://github.com/smythos/sre"
-  ]
+  "statusNote": "Duplicate of INK for All. The product is closed."
 }

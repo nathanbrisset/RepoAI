@@ -1,11 +1,11 @@
 {
   "id": "ink-for-all",
   "name": "INK for All",
-  "url": "https://github.com/smythos/sre",
+  "url": "",
   "affiliateUrl": "",
   "status": "sunset",
   "summary": "Sunset AI writing assistant for SEO, drafting, and plagiarism checks.",
-  "description": "INK for All was an AI writing assistant for SEO. It scored content, helped draft posts and outlines, and checked plagiarism and accessibility. On 21 October 2026, inkforall.com redirected to https://github.com/smythos/sre, the SmythOS Runtime Environment, which is a different product. The tool is closed.",
+  "description": "INK for All was an AI writing assistant for SEO. It scored content, helped draft posts and outlines, and checked plagiarism and accessibility. On 21 October 2026, inkforall.com no longer opened this product. It led to the SmythOS Runtime Environment, which is a different product. The tool is closed.",
   "categories": [
     "text"
   ],
@@ -17,10 +17,8 @@
     "writing-assistant"
   ],
   "pricing": {
-    "model": "open-source",
-    "label": "Open source",
-    "verified": false,
-    "note": "The official link is a GitHub repository. The license and any paid hosting were not rechecked."
+    "uncertain": true,
+    "verified": false
   },
   "logo": "/logos/ink-for-all.png",
   "image": "/tool-screenshots/ink-for-all.png",
@@ -34,16 +32,6 @@
   ],
   "howToUse": [
     {
-      "title": "Register & Access INK",
-      "description": "Create an account and start a new content project.",
-      "links": [
-        {
-          "label": "INK for All",
-          "url": "https://github.com/smythos/sre"
-        }
-      ]
-    },
-    {
       "title": "Input or Generate Content",
       "description": "Paste or generate blog posts, articles, or marketing copy."
     },
@@ -56,5 +44,5 @@
       "description": "Download or publish the optimized content."
     }
   ],
-  "statusNote": "inkforall.com redirects to the SmythOS SRE GitHub repo"
+  "statusNote": "The product is closed. inkforall.com no longer opens INK for All."
 }

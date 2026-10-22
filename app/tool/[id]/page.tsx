@@ -48,7 +48,7 @@ export default async function ToolPage({ params }: PageProps) {
     name: tool.name,
     description: localized.longDescription || localized.description,
     applicationCategory: tool.categories.join(", "),
-    url: tool.url,
+    ...(tool.url ? { url: tool.url } : {}),
     image: tool.image,
     inLanguage: locale,
     ...(tool.pricing?.verified && tool.pricing.model === "free"

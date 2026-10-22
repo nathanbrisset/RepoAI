@@ -13398,8 +13398,8 @@
     ],
     "howToUse_fr": [
       {
-        "title": "Ouvrir CodeRabbit",
-        "description": "Allez sur CodeRabbit et lancez l'essai gratuit proposé sur la page. Les offres commencent à 24 $ par utilisateur et par mois en facturation annuelle, avec des paliers supérieurs à 48 $ et 72 $.",
+        "title": "Connecter le dépôt",
+        "description": "Connectez-vous sur CodeRabbit et reliez GitHub ou GitLab pour qu'une revue puisse tourner sur les pull requests.",
         "links": [
           {
             "label": "CodeRabbit",
@@ -13408,12 +13408,16 @@
         ]
       },
       {
-        "title": "Relire les pull requests",
-        "description": "Sur GitHub, GitLab et d'autres plateformes, CodeRabbit relit les pull requests automatiquement. Lisez les commentaires sur les bugs, le style et les problèmes de sécurité. Il explique les changements et apprend des retours de l'équipe."
+        "title": "Ouvrir une pull request",
+        "description": "Poussez une branche et ouvrez la pull request. Lisez les commentaires que CodeRabbit laisse sur les bugs, le style et la sécurité."
       },
       {
-        "title": "Trier les tickets et surveiller la sécurité",
-        "description": "Utilisez les produits plus récents, qui couvrent le tri des tickets et la surveillance continue de la sécurité, y compris l'analyse de santé du code affichée sur la page."
+        "title": "Répondre dans le fil",
+        "description": "Répondez à un commentaire s'il est faux, ou si l'équipe veut un autre style. Les revues suivantes tiennent compte de ce retour."
+      },
+      {
+        "title": "Activer le tri ou la veille sécurité",
+        "description": "Si le forfait les inclut, activez le tri des tickets et la surveillance continue de la sécurité."
       }
     ],
     "pricingNote_fr": "$24/user/mo (annuel)"
@@ -14586,8 +14590,8 @@
     ],
     "howToUse_fr": [
       {
-        "title": "Ouvrir Glean",
-        "description": "Allez sur Glean et choisissez Get a demo ou Sign in. Aucun prix public n'est indiqué. L'accès passe par une démo commerciale, et le produit vise les grandes organisations qui ont de nombreux systèmes internes.",
+        "title": "Demander l'accès",
+        "description": "Ouvrez Glean et demandez une démo, ou connectez-vous si l'entreprise l'a déjà. Les prix ne sont pas publics.",
         "links": [
           {
             "label": "Glean",
@@ -14596,16 +14600,16 @@
         ]
       },
       {
-        "title": "Connecter les applications de l'entreprise",
-        "description": "Glean se connecte aux applications de l'entreprise via plus de 250 connecteurs et construit une couche de contexte avec la connaissance d'entreprise et les permissions."
+        "title": "Connecter les applications",
+        "description": "Un administrateur relie les applications de l'entreprise. Glean conserve les permissions de chaque personne sur cette connaissance."
       },
       {
-        "title": "Chercher, demander ou lancer des agents gouvernés",
-        "description": "Utilisez cette couche pour la recherche, l'assistant et les agents gouvernés."
+        "title": "Chercher ou poser une question",
+        "description": "Cherchez dans les applications connectées, ou posez une question à l'assistant."
       },
       {
-        "title": "Publier des agents depuis les outils de code",
-        "description": "Les versions récentes permettent aux développeurs de construire, tester et publier des agents Glean depuis leurs outils de code. La page d'accueil répète cette version d'octobre."
+        "title": "Publier un agent",
+        "description": "Depuis un outil de code, les développeurs peuvent construire, tester et publier un agent Glean."
       }
     ]
   },
@@ -14620,8 +14624,8 @@
     ],
     "howToUse_fr": [
       {
-        "title": "Ouvrir Glide",
-        "description": "Allez sur Glide et choisissez Get started ou Sign up.",
+        "title": "Créer un compte",
+        "description": "Ouvrez Glide et choisissez Get started.",
         "links": [
           {
             "label": "Glide",
@@ -14630,16 +14634,16 @@
         ]
       },
       {
-        "title": "Partir d'un tableur ou d'une consigne",
-        "description": "Déposez les fichiers Excel ou Google Sheets sur lesquels l'équipe travaille déjà, ou partez d'une consigne. Glide construit des applications métier et des agents IA pour que les équipes opérationnelles remplacent les flux de tableur."
+        "title": "Partir du tableur ou d'une consigne",
+        "description": "Importez le fichier Excel ou le Google Sheet que l'équipe utilise déjà, ou décrivez l'application dans une consigne."
       },
       {
-        "title": "L'exécuter sur le web ou sur mobile",
-        "description": "Faites tourner les applications sur le web et sur mobile. Une application iPhone est annoncée, et la page indique Glide for iPhone comme à venir."
+        "title": "Ouvrir l'application",
+        "description": "Utilisez-la dans le navigateur ou sur un téléphone. Glide annonce aussi une application iPhone."
       },
       {
-        "title": "Comparer les crédits et les prix mensuels",
-        "description": "Le plan Free a des crédits limités. Basic coûte 25 $ par mois, Plus 50 $, et Pro 125 $ par mois, avec des plans entreprise sur demande. La plateforme vise les équipes dont les opérations reposent sur des tableurs."
+        "title": "Choisir le volume de crédits",
+        "description": "Restez sur l'offre gratuite, ou passez à Basic, Plus ou Pro si l'équipe a besoin de plus. Les forfaits entreprise sont sur demande."
       }
     ],
     "pricingNote_fr": "$25/mo (Basic)"
@@ -14655,8 +14659,8 @@
     ],
     "howToUse_fr": [
       {
-        "title": "Ouvrir Gong",
-        "description": "Allez sur Gong et choisissez Book a demo ou Sign in. Les prix sont personnalisés via les ventes. Le produit vise les équipes revenue en vente, succès client et enablement.",
+        "title": "Réserver une démo ou se connecter",
+        "description": "Ouvrez Gong et réservez une démo, ou connectez-vous si l'équipe a déjà l'accès. Le prix se discute avec les ventes.",
         "links": [
           {
             "label": "Gong",
@@ -14665,16 +14669,16 @@
         ]
       },
       {
-        "title": "Capturer les interactions client",
-        "description": "Gong enregistre et analyse les appels, les e-mails et les autres interactions client."
+        "title": "Connecter les appels et les e-mails",
+        "description": "Laissez Gong enregistrer les appels clients, les e-mails et les autres échanges que l'équipe revenue a déjà."
       },
       {
-        "title": "Agir sur le pipeline, le risque et l'attrition",
-        "description": "Prévoyez le pipeline, signalez le risque des affaires, automatisez les passations, coachez les commerciaux et prédisez l'attrition avec des agents IA spécialisés."
+        "title": "Lire les signaux sur les affaires",
+        "description": "Utilisez la prévision de pipeline, les alertes de risque sur une affaire et la prédiction d'attrition à partir de ces conversations."
       },
       {
-        "title": "Lire le classement d'analyste sur la page",
-        "description": "L'entreprise indique sur la page d'accueil qu'elle est nommée Leader dans le Magic Quadrant 2026 de Gartner pour le Revenue Action Orchestration."
+        "title": "Passer la suite à un agent",
+        "description": "Utilisez un agent spécialisé pour coacher un commercial ou pour faire la passation après un appel."
       }
     ]
   },
@@ -14895,8 +14899,8 @@
     ],
     "howToUse_fr": [
       {
-        "title": "Ouvrir Groq",
-        "description": "Allez sur Groq et choisissez Start building. Groq exploite un cloud d'inférence construit sur ses propres puces LPU, que la page présente aussi comme la puce qu'elle a lancée.",
+        "title": "Créer une clé d'API",
+        "description": "Ouvrez Groq, lancez la construction, et créez une clé dans la console.",
         "links": [
           {
             "label": "Groq",
@@ -14905,16 +14909,16 @@
         ]
       },
       {
-        "title": "Appeler un modèle ouvert",
-        "description": "Les développeurs appellent des modèles ouverts tels que Llama, Qwen et GPT-OSS via une API compatible avec le format OpenAI."
+        "title": "Choisir un modèle ouvert",
+        "description": "Choisissez un modèle ouvert comme Llama, Qwen ou GPT-OSS. L'API suit le format d'OpenAI."
       },
       {
-        "title": "Viser le débit ou une capacité dédiée",
-        "description": "La plateforme vise un débit de tokens élevé et une faible latence. L'entreprise propose aussi une infrastructure dédiée pour les entreprises."
+        "title": "Envoyer une requête",
+        "description": "Pointez un client compatible OpenAI vers Groq et envoyez une complétion. Le service tourne sur les puces LPU de Groq."
       },
       {
-        "title": "Laisser les prix non lus",
-        "description": "Pendant cette vérification, la page des prix n'a pas affiché de prix lisibles, donc aucun prix n'a été enregistré."
+        "title": "Choisir Gratuit, Developer ou Enterprise",
+        "description": "Le forfait gratuit est à 0 $. Developer se facture au jeton. Enterprise est un forfait à part."
       }
     ],
     "pricingNote_fr": "La page de facturation de Groq indique un forfait Free à 0 $ et un forfait Developer facturé au jeton, plus Enterprise."
@@ -15113,8 +15117,8 @@
     ],
     "howToUse_fr": [
       {
-        "title": "Ouvrir Hex",
-        "description": "Ouvrez Hex et choisissez Get started for free, ou Request a demo.",
+        "title": "Ouvrir un espace",
+        "description": "Ouvrez Hex et commencez gratuitement, ou demandez une démo.",
         "links": [
           {
             "label": "Hex",
@@ -15123,16 +15127,16 @@
         ]
       },
       {
-        "title": "Analyser dans un notebook",
-        "description": "Ouvrez un notebook et faites l'analyse en SQL et en Python. Hex est une plateforme de données collaborative où les analystes travaillent ainsi."
+        "title": "Travailler dans un notebook",
+        "description": "Créez un notebook et faites l'analyse en SQL ou en Python avec les autres analystes."
       },
       {
-        "title": "Poser la question en langage naturel",
-        "description": "Laissez un utilisateur métier poser des questions en langage naturel. Hex gère le contexte sémantique pour que ces réponses d'IA restent liées aux données de l'équipe."
+        "title": "Laisser un collègue poser la question",
+        "description": "Un collègue peut poser une question sans écrire de requête. Hex s'appuie sur le contexte sémantique de l'équipe pour la réponse."
       },
       {
-        "title": "Publier, puis comparer les offres",
-        "description": "Publiez des tableaux de bord et des applications de données interactives pour l'équipe. Community ne coûte rien. Professional est à 36 $ pour chaque éditeur chaque mois. Team est à 75 $ pour chaque éditeur chaque mois et comprend un essai de 14 jours. Le calcul supplémentaire, au-delà des petites tailles, est facturé à l'heure."
+        "title": "Publier un tableau de bord ou une app",
+        "description": "Partagez le résultat en tableau de bord ou en application de données. Community est gratuit. Professional et Team sont les forfaits payants par éditeur."
       }
     ],
     "pricingNote_fr": "$36/editor/mo (Professional)"
@@ -15427,23 +15431,13 @@
   },
   "ink": {
     "summary_fr": "Assistant d'écriture IA retiré, pour le SEO et l'optimisation de contenu.",
-    "description_fr": "INK était un assistant d'écriture par IA pour le SEO et l'optimisation de contenu. Le 21 octobre 2026, inkforall.com a redirigé vers https://github.com/smythos/sre, le SmythOS Runtime Environment, qui est un autre produit. Cette fiche est un doublon d'INK for All et elle est fermée.",
+    "description_fr": "INK était un assistant d'écriture par IA pour le SEO et l'optimisation de contenu. Le 21 octobre 2026, inkforall.com n'ouvrait plus ce produit. Il menait au SmythOS Runtime Environment, qui est un autre produit. Cette fiche est un doublon d'INK for All et elle est fermée.",
     "tags_fr": [
       "IA",
       "SEO",
       "Écriture"
     ],
     "howToUse_fr": [
-      {
-        "title": "Inscription et accès au tableau de bord",
-        "description": "Créez un compte gratuit ou payant sur INK et connectez-vous au tableau de bord d'écriture.",
-        "links": [
-          {
-            "label": "INK",
-            "url": "https://github.com/smythos/sre"
-          }
-        ]
-      },
       {
         "title": "Démarrer un nouveau projet",
         "description": "Créez ou importez un document et sélectionnez l'outil d'optimisation SEO."
@@ -15467,12 +15461,11 @@
       "Vérificateur de plagiat intégré : Assure l'originalité du contenu.",
       "Recherche de sujets : Recommande des mots-clés et des sujets liés."
     ],
-    "pricingNote_fr": "Le lien officiel est un dépôt GitHub. La licence et tout hébergement payant n'ont pas été revérifiés.",
-    "statusNote_fr": "Doublon d'INK for All (même URL) ; inkforall.com redirige désormais vers le GitHub de SmythOS"
+    "statusNote_fr": "Doublon d'INK for All. Le produit est fermé."
   },
   "ink-for-all": {
     "summary_fr": "Assistant d'écriture IA retiré, pour le SEO, la rédaction et le plagiat.",
-    "description_fr": "INK for All était un assistant d'écriture par IA pour le SEO. Il notait le contenu, aidait à rédiger des articles et des plans, et vérifiait le plagiat et l'accessibilité. Le 21 octobre 2026, inkforall.com a redirigé vers https://github.com/smythos/sre, le SmythOS Runtime Environment, qui est un autre produit. L'outil est fermé.",
+    "description_fr": "INK for All était un assistant d'écriture par IA pour le SEO. Il notait le contenu, aidait à rédiger des articles et des plans, et vérifiait le plagiat et l'accessibilité. Le 21 octobre 2026, inkforall.com n'ouvrait plus ce produit. Il menait au SmythOS Runtime Environment, qui est un autre produit. L'outil est fermé.",
     "tags_fr": [
       "SEO",
       "Marketing de contenu",
@@ -15481,16 +15474,6 @@
       "Assistant d'écriture"
     ],
     "howToUse_fr": [
-      {
-        "title": "Inscription et accès à INK",
-        "description": "Créez un compte et démarrez un nouveau projet de contenu.",
-        "links": [
-          {
-            "label": "INK for All",
-            "url": "https://github.com/smythos/sre"
-          }
-        ]
-      },
       {
         "title": "Saisir ou générer du contenu",
         "description": "Collez ou générez des articles de blog, des articles ou des textes marketing."
@@ -15510,8 +15493,7 @@
       "Vérificateur de plagiat : Vérificateur d'originalité de contenu intégré.",
       "Vérificateur d'accessibilité : Assure que le contenu respecte des normes inclusives."
     ],
-    "pricingNote_fr": "Le lien officiel est un dépôt GitHub. La licence et tout hébergement payant n'ont pas été revérifiés.",
-    "statusNote_fr": "inkforall.com redirige vers le dépôt GitHub de SmythOS SRE"
+    "statusNote_fr": "Le produit est fermé. inkforall.com n'ouvre plus INK for All."
   },
   "instantly": {
     "summary_fr": "Plateforme de prospection par e-mail à froid, avec une base de leads, des outils de délivrabilité, des agents d'IA et un CRM.",
@@ -17685,8 +17667,8 @@
     ],
     "howToUse_fr": [
       {
-        "title": "Ouvrir Polymer",
-        "description": "Ouvrez Polymer et connectez une source de données, comme un tableur importé ou l'une des intégrations listées.",
+        "title": "Connecter une source",
+        "description": "Ouvrez Polymer et reliez un tableur ou l'une des intégrations listées.",
         "links": [
           {
             "label": "Polymer",
@@ -17695,16 +17677,16 @@
         ]
       },
       {
-        "title": "Construire des tableaux de bord et des rapports",
-        "description": "Polymer construit des tableaux de bord et des rapports interactifs à partir de ces sources connectées et suggère des insights."
+        "title": "Construire le tableau de bord",
+        "description": "Transformez ces données en tableau de bord ou en rapport interactif, et lisez les insights que Polymer propose."
       },
       {
-        "title": "Poser une question ou intégrer des graphiques",
-        "description": "Utilisez l'analytique conversationnelle pour qu'une question devienne des graphiques, ou l'analytique embarquée via l'API afin que les entreprises affichent des graphiques dans leurs propres produits."
+        "title": "Poser une question ou intégrer les graphiques",
+        "description": "Utilisez la vue conversationnelle pour qu'une question devienne des graphiques, ou intégrez-les dans votre produit via l'API."
       },
       {
-        "title": "Choisir une offre payante ou l'offre classe",
-        "description": "Les offres payantes commencent à 20 $ par mois. Pro propose un essai de 14 jours et coûte 40 $ par mois. Les étudiants et les enseignants peuvent utiliser Polymer gratuitement."
+        "title": "Prendre Starter ou l'essai Pro",
+        "description": "Starter est le premier forfait payant. Pro inclut un essai de 14 jours. La page des tarifs n'affichait pas de forfait gratuit général."
       }
     ],
     "pricingNote_fr": "La page de tarifs officielle indique Starter à 20 $ par mois, ou 10 $ par mois en facturation annuelle, et Pro à 40 $ par mois avec 14 jours d'essai. Aucun forfait gratuit général n'y figure."
@@ -18419,8 +18401,8 @@
     ],
     "howToUse_fr": [
       {
-        "title": "Ouvrir Semgrep",
-        "description": "Ouvrez Semgrep et connectez-vous. Le moteur d'analyse est open source. Lancez-le pour que Semgrep examine le code source à la recherche de problèmes de sécurité avec le moteur SAST.",
+        "title": "Ajouter le scanner",
+        "description": "Connectez-vous sur Semgrep et reliez le dépôt, ou lancez le moteur open source vous-même sur le code.",
         "links": [
           {
             "label": "Semgrep",
@@ -18429,16 +18411,16 @@
         ]
       },
       {
-        "title": "Contrôler les dépendances et les secrets",
-        "description": "Lancez les contrôles de chaîne d'approvisionnement. Semgrep contrôle les dépendances open source pour les vulnérabilités et les logiciels malveillants, et il détecte les secrets codés en dur."
+        "title": "Scanner le code",
+        "description": "Lancez l'analyse SAST pour que Semgrep signale les problèmes de sécurité dans le code source."
+      },
+      {
+        "title": "Vérifier les dépendances et les secrets",
+        "description": "Activez les contrôles de chaîne d'approvisionnement pour les dépendances vulnérables ou malveillantes, et la recherche de secrets en dur."
       },
       {
         "title": "Trier les résultats",
-        "description": "Utilisez le tri par IA sur les résultats, puis corrigez ceux qui comptent. L'édition gratuite ajoute l'analyse inter-fichiers pour les petites équipes."
-      },
-      {
-        "title": "Quitter un autre scanner",
-        "description": "Si l'équipe quitte Checkmarx ou Snyk, lisez le programme Shift sur la page."
+        "description": "Utilisez le tri par IA, corrigez les résultats qui comptent, et prenez l'édition gratuite avec l'analyse inter-fichiers si l'équipe est petite."
       }
     ]
   },
@@ -18558,8 +18540,8 @@
     ],
     "howToUse_fr": [
       {
-        "title": "Ouvrir Skyvern",
-        "description": "Ouvrez Skyvern et choisissez Start Building sur le service hébergé, ou utilisez le cœur open source. Skyvern automatise le travail répétitif dans le navigateur.",
+        "title": "Lancer une exécution",
+        "description": "Ouvrez Skyvern hébergé et choisissez Start Building, ou lancez le cœur open source vous-même.",
         "links": [
           {
             "label": "Skyvern",
@@ -18568,12 +18550,16 @@
         ]
       },
       {
-        "title": "Décrire le flux",
-        "description": "Décrivez l'exécution voulue : connexion aux portails, remplissage de formulaires, téléchargement de factures ou extraction de données depuis les pages. Il gère aussi la 2FA."
+        "title": "Décrire la tâche dans le navigateur",
+        "description": "Indiquez ce que l'exécution doit faire : se connecter à un portail, remplir un formulaire, télécharger une facture ou extraire des données. Précisez le 2FA si le site le demande."
       },
       {
-        "title": "Le laisser lire la page",
-        "description": "Skyvern lit les pages, donc vous ne dépendez pas de sélecteurs fixes qui cassent quand les sites changent. Le service hébergé indique la conformité HIPAA. Un plan gratuit inclut 5 000 crédits par mois. Hobby coûte 29 $ par mois et Pro coûte 149 $."
+        "title": "Laisser Skyvern lire la page",
+        "description": "Skyvern lit la page avec l'IA, donc le flux ne dépend pas de sélecteurs qui cassent quand le site change."
+      },
+      {
+        "title": "Garder les crédits gratuits ou un forfait payant",
+        "description": "Le forfait hébergé gratuit inclut 5 000 crédits par mois. Hobby et Pro sont les forfaits payants."
       }
     ],
     "pricingNote_fr": "$29/mois (Hobby)"

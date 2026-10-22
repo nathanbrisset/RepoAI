@@ -1,20 +1,44 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import { usePathname, useRouter } from "next/navigation"
 import ToolCard from "@/components/tool-card"
 import { Badge } from "@/components/ui/badge"
 import type { Tool } from "@/lib/types"
 import { pricingLabel } from "@/lib/i18n/messages"
+import { localizeHref, stripLocale } from "@/lib/i18n/paths"
 import { useLocale } from "@/components/locale-provider"
-import { PRICE_FILTER_OPTIONS, matchesPriceFilter, type PriceFilter } from "@/lib/price-filter"
+import {
+  PRICE_FILTER_OPTIONS,
+  matchesPriceFilter,
+  priceFilterFromParam,
+  priceFilterParam,
+  type PriceFilter,
+} from "@/lib/price-filter"
 
 interface PricingToolsGridProps {
   tools: Tool[]
+  initialPricing?: string | null
 }
 
-export default function PricingToolsGrid({ tools }: PricingToolsGridProps) {
-  const [selectedPricing, setSelectedPricing] = useState<PriceFilter | null>(null)
+export default function PricingToolsGrid({ tools, initialPricing = null }: PricingToolsGridProps) {
+  const router = useRouter()
+  const pathname = usePathname() || "/"
+  const initialFilter = priceFilterFromParam(initialPricing)
+  const [selectedPricing, setSelectedPricing] = useState<PriceFilter | null>(initialFilter)
   const locale = useLocale()
+
+  useEffect(() => {
+    setSelectedPricing(initialFilter)
+  }, [initialFilter])
+
+  function selectPricing(label: PriceFilter) {
+    const next = selectedPricing === label ? null : label
+    setSelectedPricing(next)
+    const bare = stripLocale(pathname)
+    const href = localizeHref(locale, next ? `${bare}?pricing=${priceFilterParam(next)}` : bare)
+    router.replace(href, { scroll: false })
+  }
 
   const filteredTools = tools.filter((tool) => matchesPriceFilter(tool, selectedPricing))
 
@@ -28,10 +52,10 @@ export default function PricingToolsGrid({ tools }: PricingToolsGridProps) {
             <button
               key={label}
               type="button"
-              onClick={() => setSelectedPricing(selectedPricing === label ? null : label)}
+              onClick={() => selectPricing(label)}
               className="shrink-0 focus:outline-none"
               aria-pressed={selectedPricing === label}
-              data-pricing={label}
+              data-pricing={priceFilterParam(label)}
             >
               <Badge className={
                 `${className} whitespace-nowrap px-2 py-1 text-xs rounded-md transition-colors border-2 ${

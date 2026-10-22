@@ -7,6 +7,9 @@ import { toolForLocale } from "@/lib/i18n/localize-tool"
 import { categoryCopy } from "@/lib/i18n/messages"
 import { metadataFor } from "@/lib/i18n/metadata"
 
+// Unknown slugs are not rendered. The middleware rewrites them to a missing route.
+export const dynamicParams = false
+
 // Generate static paths for all categories
 export async function generateStaticParams() {
   return categories.map((category) => ({
@@ -41,6 +44,7 @@ export default async function CategoryPage(props: PageProps) {
   const copy = categoryCopy(locale, categoryObj.id) || categoryObj
 
   // Get tools in this category
+  const pricing = Array.isArray(searchParams.pricing) ? searchParams.pricing[0] : searchParams.pricing
   const tools = mockTools
     .filter((tool) => tool.categories.includes(categoryObj.id))
     .map((tool) => toolForLocale(tool, locale))
@@ -52,7 +56,7 @@ export default async function CategoryPage(props: PageProps) {
       <div className="bg-gradient-to-r from-gray-100 via-gray-50 to-gray-200 rounded-xl p-6 mb-8 shadow-md border border-gray-200">
         <p className="text-lg text-gray-800 leading-relaxed">{copy.description}</p>
       </div>
-      <PricingToolsGrid tools={tools} />
+      <PricingToolsGrid tools={tools} initialPricing={pricing ?? null} />
     </div>
   );
 }
