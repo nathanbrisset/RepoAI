@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { mockTools } from '@/lib/data';
 import { localizeTool } from '@/lib/i18n/localize-tool';
 import type { Locale } from '@/lib/i18n/config';
+import { clientIp, rateLimit, rateSubject, searchLimit } from '@/lib/match-guard';
 
 // Find top 3 copywriting tools by rating
 const copywritingTools = mockTools
@@ -14,6 +15,15 @@ const copywritingTools = mockTools
   }));
 
 export async function POST(req: NextRequest) {
+  const search = searchLimit()
+  const limited = await rateLimit(rateSubject(clientIp(req.headers)), "search", search.limit, search.windowSec)
+  if (!limited.ok) {
+    return NextResponse.json(
+      { error: limited.status === 429 ? "Too many requests" : "AI Match is temporarily unavailable" },
+      { status: limited.status, headers: { "Cache-Control": "no-store", "Retry-After": String(limited.retryAfter) } },
+    )
+  }
+
   let fallbackTools = copywritingTools
   try {
     const body = await req.json();

@@ -9,6 +9,7 @@ import Image from 'next/image'
 export default function WelcomeModal() {
   const [isOpen, setIsOpen] = useState(false)
   const [query, setQuery] = useState('')
+  const [fieldError, setFieldError] = useState("")
   const router = useRouter()
 
   useEffect(() => {
@@ -19,11 +20,13 @@ export default function WelcomeModal() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    if (query.trim()) {
-      // Encode the query for URL
-      const encodedQuery = encodeURIComponent(query.trim())
-      router.push(`/recommendation?q=${encodedQuery}`)
+    const trimmed = query.trim()
+    if (!trimmed) {
+      setFieldError("Describe what you want to do.")
+      return
     }
+    setFieldError("")
+    router.push(`/recommendation?query=${encodeURIComponent(trimmed)}`)
   }
 
   return (
@@ -46,13 +49,18 @@ export default function WelcomeModal() {
             Sure there is an AI for it!
           </p>
         </DialogHeader>
-        <form onSubmit={handleSubmit} className="mt-8 space-y-6">
+        <form noValidate onSubmit={handleSubmit} className="mt-8 space-y-6">
           <textarea
-            className="w-full min-h-[150px] p-6 rounded-xl border border-input bg-white/50 dark:bg-black/50 backdrop-blur-sm text-lg shadow-inner"
+            className={`w-full min-h-[150px] p-6 rounded-xl border bg-white/50 dark:bg-black/50 backdrop-blur-sm text-lg shadow-inner ${fieldError ? "border-pink-500 bg-pink-50" : "border-input"}`}
             placeholder="Describe what you're looking to do... (e.g., 'I need to create professional voiceovers for my videos' or 'I want to generate images from text descriptions')"
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={(e) => {
+              setQuery(e.target.value)
+              if (fieldError) setFieldError("")
+            }}
+            aria-invalid={Boolean(fieldError)}
           />
+          {fieldError && <p role="alert" className="text-sm font-medium text-purple-800">{fieldError}</p>}
           <div className="flex justify-center">
             <Button 
               type="submit" 
