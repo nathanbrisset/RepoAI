@@ -30,7 +30,7 @@
   "howToUse": [
     {
       "title": "Open Hume AI",
-      "description": "Open the official Hume AI website.",
+      "description": "Open Hume AI and choose Evaluate your system, or Talk to Hume. No public prices were shown on the pricing page.",
       "links": [
         {
           "label": "Hume AI",
@@ -39,16 +39,16 @@
       ]
     },
     {
-      "title": "Test and improve my voice AI system",
-      "description": "Hume AI works on emotionally intelligent voice AI."
+      "title": "Evaluate the voice system",
+      "description": "Point the evaluation at a voice system. Hume finds the conversations that break that system, diagnoses why, and feeds each failure into an improvement loop that combines automated evaluation and human judgment."
     },
     {
-      "title": "Its current focus is infrastructure to evaluate voice systems",
-      "description": "Its current focus is infrastructure to evaluate voice systems: it finds conversations that break a system, diagnoses why and feeds failures into an improvement loop, combining automated evaluation and human judgment."
+      "title": "Measure vocal and facial expression",
+      "description": "Open the Expression APIs and measure expression. They cover more than 600 dimensions of vocal and facial expression in over 50 languages."
     },
     {
-      "title": "Its Expression APIs measure more than 600 dimensions of vocal and facial expression in...",
-      "description": "Its Expression APIs measure more than 600 dimensions of vocal and facial expression in over 50 languages."
+      "title": "Generate tests and validate the change",
+      "description": "Follow the loop shown on the page: generate targeted tests, stress-test the voice system, diagnose the failures, and validate the improvement."
     }
   ]
 }

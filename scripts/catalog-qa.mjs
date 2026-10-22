@@ -67,6 +67,12 @@ function walkUrls(value, found) {
 
 const failures = []
 const warnings = []
+const toolIdFile = path.join(ROOT, "content/tool-ids.json")
+const toolIdList = JSON.parse(fs.readFileSync(toolIdFile, "utf8"))
+const toolFiles = fs.readdirSync(TOOLS_DIR).filter((name) => name.endsWith(".json")).map((name) => name.replace(/\.json$/, "")).sort()
+if (toolIdList.join("\n") !== toolFiles.join("\n")) {
+  failures.push("content/tool-ids.json ne correspond pas aux fichiers content/tools")
+}
 const tools = fs
   .readdirSync(TOOLS_DIR)
   .filter((name) => name.endsWith(".json"))
@@ -86,7 +92,8 @@ for (const tool of tools) {
       const host = hostOf(link.url)
       if (blocked(host, BLOCKED_HOWTO)) failures.push(`${tool.id}: lien How To Use tiers ou YouTube ${link.url}`)
       const toolHost = hostOf(tool.url)
-      if (host && toolHost && registrable(host) !== registrable(toolHost) && !blocked(host, BLOCKED_HOWTO)) {
+      const sister = tool.id === "n8n" && host === "app.n8n.cloud" || tool.id === "veo" && host === "ai.google.dev"
+      if (host && toolHost && registrable(host) !== registrable(toolHost) && !sister && !blocked(host, BLOCKED_HOWTO)) {
         warnings.push(`${tool.id}: How To Use hors domaine (${link.url})`)
       }
     }

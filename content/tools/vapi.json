@@ -32,7 +32,7 @@
   "howToUse": [
     {
       "title": "Open Vapi",
-      "description": "Open the official Vapi website.",
+      "description": "Open Vapi and start free as a developer building voice agents.",
       "links": [
         {
           "label": "Vapi",
@@ -41,16 +41,16 @@
       ]
     },
     {
-      "title": "Build phone and voice agents",
-      "description": "Vapi is a platform for developers building voice agents for use cases such as customer support, lead qualification and appointment scheduling."
+      "title": "Choose the call task",
+      "description": "Set the agent up for customer support, lead qualification, or appointment scheduling."
     },
     {
-      "title": "It orchestrates transcription",
-      "description": "It orchestrates transcription, language models and voice synthesis from providers such as Deepgram, OpenAI and ElevenLabs."
+      "title": "Pick transcriber, model, and voice",
+      "description": "For that agent, choose your own transcriber, model, and voice. Providers such as Deepgram, OpenAI, and ElevenLabs cover transcription, the language model, and synthesis, and Vapi orchestrates them."
     },
     {
-      "title": "Users start free and pay per minute of calls; the pricing calculator shows component ra...",
-      "description": "Users start free and pay per minute of calls; the pricing calculator shows component rates per minute for each provider."
+      "title": "Read the per-minute rate",
+      "description": "Open the pricing calculator and read the per-minute component rates, since calls are billed per minute."
     }
   ]
 }

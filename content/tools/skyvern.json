@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Skyvern",
-      "description": "Open the official Skyvern website.",
+      "description": "Open Skyvern and choose Start Building on the hosted service, or use the open-source core. Skyvern automates repetitive browser work.",
       "links": [
         {
           "label": "Skyvern",
@@ -42,16 +42,12 @@
       ]
     },
     {
-      "title": "Automate logins, form filling and downloads on websites",
-      "description": "Skyvern automates repetitive browser work such as logging into portals, filling forms, downloading invoices and extracting data."
+      "title": "Describe the workflow",
+      "description": "Describe the run you want: logging into portals, filling forms, downloading invoices or extracting data from the pages. It also supports 2FA."
     },
     {
-      "title": "It uses AI to read pages",
-      "description": "It uses AI to read pages, so it does not rely on fixed selectors that break when sites change."
-    },
-    {
-      "title": "The core is open source.",
-      "description": "The core is open source."
+      "title": "Let it read the page",
+      "description": "Skyvern reads the pages, so you do not depend on fixed selectors that break when sites change. The hosted service lists HIPAA compliance. A free plan includes 5,000 credits each month. Hobby costs $29 a month and Pro costs $149."
     }
   ]
 }

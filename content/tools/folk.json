@@ -30,7 +30,7 @@
   "howToUse": [
     {
       "title": "Open folk",
-      "description": "Open the official folk website.",
+      "description": "Go to folk and choose Login or Get a demo. It is a CRM for small teams.",
       "links": [
         {
           "label": "folk",
@@ -39,12 +39,16 @@
       ]
     },
     {
-      "title": "A simple CRM synced with LinkedIn, Gmail and WhatsApp",
-      "description": "folk is a CRM for small teams that imports contacts from LinkedIn, Gmail, Outlook and WhatsApp, enriches them and runs messages and sequences, pipelines and call recording, with AI sales assistants, an API and an MCP server."
+      "title": "Import and enrich contacts",
+      "description": "folk imports contacts from LinkedIn, Gmail, Outlook, and WhatsApp, then enriches them."
     },
     {
-      "title": "Standard costs $24 per member per month billed yearly and Premium $48; a free trial is...",
-      "description": "Standard costs $24 per member per month billed yearly and Premium $48; a free trial is offered, and a permanent free plan was not confirmed."
+      "title": "Run messages, pipelines, and recording",
+      "description": "Run messages and sequences, pipelines, and call recording with the AI sales assistants."
+    },
+    {
+      "title": "Connect the server and compare prices",
+      "description": "Use the API and the MCP server. Standard costs $24 per member per month billed yearly, and Premium costs $48. A trial is offered, and a permanent free plan was not confirmed."
     }
   ]
 }

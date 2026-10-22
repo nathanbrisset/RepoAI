@@ -34,7 +34,7 @@
   "howToUse": [
     {
       "title": "Open Rows",
-      "description": "Open the official Rows website.",
+      "description": "Open the Rows spreadsheet. Rows has joined Superhuman, so continue there to reach the AI analyst.",
       "links": [
         {
           "label": "Rows",
@@ -43,16 +43,12 @@
       ]
     },
     {
-      "title": "Pull data from PDFs and tools into a spreadsheet and analyse it",
-      "description": "Rows is a spreadsheet with an AI analyst that imports data from more than 50 sources, including PDFs, databases, analytics tools and bank accounts, and analyses it in plain language without formulas or SQL."
+      "title": "Bring in sources",
+      "description": "Give it PDFs, databases, analytics tools and bank accounts so it imports those sources. The RowsX extension can also pull tables from websites into the sheet."
     },
     {
-      "title": "The site states that Rows has joined Superhuman.",
-      "description": "The site states that Rows has joined Superhuman."
-    },
-    {
-      "title": "A Free plan is available; Plus costs $8 per user per month and Pro $79 per month plus $...",
-      "description": "A Free plan is available; Plus costs $8 per user per month and Pro $79 per month plus $8 per user."
+      "title": "Ask in plain language",
+      "description": "Ask the analyst in plain language. It analyses the data without formulas or SQL, then you can turn the answer into a report."
     }
   ]
 }

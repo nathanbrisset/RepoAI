@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Augment Code",
-      "description": "Open the official Augment Code website.",
+      "description": "Go to Augment Code and choose Get Started or Try Cosmos to use the coding agents.",
       "links": [
         {
           "label": "Augment Code",
@@ -42,16 +42,12 @@
       ]
     },
     {
-      "title": "Agents that work across my whole codebase and SDLC",
-      "description": "Augment Code builds coding agents supported by a context engine that indexes large codebases."
+      "title": "Index large codebases",
+      "description": "Let the context engine index large codebases so the agents have context for the work."
     },
     {
-      "title": "Its Cosmos platform connects agents across the software lifecycle",
-      "description": "Its Cosmos platform connects agents across the software lifecycle, covering code review, test coverage, incident investigation and ticket-to-PR work, with a CLI and cloud agents."
-    },
-    {
-      "title": "The Standard plan costs $20 per month flat for up to 50 seats with $20 of usage include...",
-      "description": "The Standard plan costs $20 per month flat for up to 50 seats with $20 of usage included; Business costs $100 per month; enterprise pricing is custom."
+      "title": "Run a loop in Cosmos",
+      "description": "Cosmos connects the agents, and the span is the software lifecycle. Cover code review, then test coverage, then incident investigation, then ticket-to-PR work. Use the CLI or cloud agents. Standard is a flat $20 per month for up to 50 seats and includes $20 of usage. Business is $100 per month. Enterprise pricing is custom."
     }
   ]
 }

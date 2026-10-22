@@ -32,8 +32,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open LM Studio",
-      "description": "Open the official LM Studio website.",
+      "title": "Download LM Studio",
+      "description": "Open LM Studio and download the desktop application for macOS, Windows or Linux.",
       "links": [
         {
           "label": "LM Studio",
@@ -42,16 +42,16 @@
       ]
     },
     {
-      "title": "Run models locally",
-      "description": "LM Studio is a desktop application for macOS, Windows and Linux that downloads and runs open-weight models on the user's own machine."
+      "title": "Run a model on your machine",
+      "description": "In the app, download an open-weight model and use the chat interface to run it locally on your machine."
     },
     {
-      "title": "It includes a chat interface and a local server compatible with the OpenAI API.",
-      "description": "It includes a chat interface and a local server compatible with the OpenAI API."
+      "title": "Create with Bionic",
+      "description": "Ask the Bionic agent to create documents, slides, PDFs or code with a local model, or switch to a hosted model for heavier work."
     },
     {
-      "title": "Its Bionic agent can create documents",
-      "description": "Its Bionic agent can create documents, slides, PDFs and code using local or hosted models."
+      "title": "Call the local server",
+      "description": "Turn on the local server, which is compatible with the OpenAI API, so another app on the machine can call the same model."
     }
   ]
 }

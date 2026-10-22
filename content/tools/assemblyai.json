@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open AssemblyAI",
-      "description": "Open the official AssemblyAI website.",
+      "description": "Go to AssemblyAI and choose Get started so you can try the API for free, then pay as you go with no commitment.",
       "links": [
         {
           "label": "AssemblyAI",
@@ -42,16 +42,12 @@
       ]
     },
     {
-      "title": "Accurate transcription in my app",
-      "description": "AssemblyAI offers APIs for pre-recorded, real-time and synchronous speech-to-text, along with speech understanding features such as summaries and guardrails, and an LLM gateway."
+      "title": "Transcribe the audio",
+      "description": "Send audio to the pre-recorded, real-time or synchronous speech-to-text API."
     },
     {
-      "title": "Users can try the API for free",
-      "description": "Users can try the API for free, then pay as they go with no commitment."
-    },
-    {
-      "title": "Universal models are priced per hour of audio",
-      "description": "Universal models are priced per hour of audio, starting at $0.15 per hour, with a model offering stronger speaker diarization at $0.21 per hour."
+      "title": "Add speech understanding",
+      "description": "Add speech understanding when you need summaries or guardrails, or call the LLM gateway. Universal models are billed per hour of audio, from $0.15, and the model with stronger speaker diarization is $0.21 per hour."
     }
   ]
 }

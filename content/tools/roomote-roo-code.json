@@ -28,8 +28,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Roomote (Roo Code)",
-      "description": "Open the official Roomote (Roo Code) website.",
+      "title": "Open Roomote",
+      "description": "Open Roomote, the cloud coding agent built by the team behind the open-source Roo Code extension. roocode.com now redirects to it.",
       "links": [
         {
           "label": "Roomote (Roo Code)",
@@ -38,16 +38,16 @@
       ]
     },
     {
-      "title": "An agent that opens reviewable pull requests",
-      "description": "Roomote is a cloud coding agent built by the team behind the open-source Roo Code extension; roocode.com now redirects to it."
+      "title": "Run it in the project environment",
+      "description": "Point Roomote at the project's real development environment so it verifies its own work."
     },
     {
-      "title": "It runs in the project's real development environment",
-      "description": "It runs in the project's real development environment, verifies its own work, reviews code with a different model and opens pull requests for human review."
+      "title": "Read the pull request",
+      "description": "It reviews the code with a different model and opens pull requests for human review."
     },
     {
-      "title": "It can be hosted by the company or self-hosted.",
-      "description": "It can be hosted by the company or self-hosted."
+      "title": "Choose hosted or self-hosted",
+      "description": "Run the agent hosted by the company, or self-host it."
     }
   ]
 }

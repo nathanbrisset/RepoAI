@@ -28,7 +28,7 @@
   "howToUse": [
     {
       "title": "Open OpenEvidence",
-      "description": "Open the official OpenEvidence website.",
+      "description": "Open OpenEvidence in a regular browser. It is a search tool for clinicians, and further details should be checked manually in that browser.",
       "links": [
         {
           "label": "OpenEvidence",
@@ -37,16 +37,12 @@
       ]
     },
     {
-      "title": "Cited answers from the medical literature",
-      "description": "OpenEvidence is an AI search tool for clinicians that answers clinical questions using medical literature and cites its sources."
+      "title": "Ask a clinical question",
+      "description": "Search with a clinical question. OpenEvidence answers from the medical literature and cites its sources."
     },
     {
-      "title": "It is intended for healthcare professionals rather than patients.",
-      "description": "It is intended for healthcare professionals rather than patients."
-    },
-    {
-      "title": "Further details should be checked manually in a regular browser.",
-      "description": "Further details should be checked manually in a regular browser."
+      "title": "Use it as a clinician",
+      "description": "Keep the session for healthcare professionals. The tool is intended for clinicians rather than patients."
     }
   ]
 }

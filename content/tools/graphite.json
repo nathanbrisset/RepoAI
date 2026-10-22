@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Graphite",
-      "description": "Open the official Graphite website.",
+      "description": "Go to Graphite and choose Sign up or Get started for free, then sync the GitHub account as the page describes. It is a code review platform for teams on GitHub.",
       "links": [
         {
           "label": "Graphite",
@@ -42,16 +42,16 @@
       ]
     },
     {
-      "title": "Faster code review with stacked pull requests",
-      "description": "Graphite is a code review platform for teams on GitHub."
+      "title": "Stack pull requests",
+      "description": "It supports stacked pull requests through its CLI and web app. Then use the AI reviews, the merge queue, and insights."
     },
     {
-      "title": "It supports stacked pull requests through its CLI and web app",
-      "description": "It supports stacked pull requests through its CLI and web app, provides AI reviews, a merge queue and insights."
+      "title": "Ship from the pull request",
+      "description": "Cursor Cloud Agents are integrated, so you can create and ship changes from a pull request. The homepage says you can do that without leaving the PR."
     },
     {
-      "title": "Cursor Cloud Agents are now integrated so users can create and ship changes from a pull...",
-      "description": "Cursor Cloud Agents are now integrated so users can create and ship changes from a pull request."
+      "title": "Compare Hobby, Starter, and Team",
+      "description": "A Hobby plan is free for personal repositories. Starter costs $20 and Team $40 per user per month, billed annually."
     }
   ]
 }

@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open OpenHands",
-      "description": "Open the official OpenHands website.",
+      "description": "Open OpenHands and get the open-source platform, or try OpenHands Cloud from the same page.",
       "links": [
         {
           "label": "OpenHands",
@@ -42,16 +42,16 @@
       ]
     },
     {
-      "title": "Run open-source coding agents at scale",
-      "description": "OpenHands is an open-source platform for AI coding agents."
+      "title": "Start locally with any model",
+      "description": "Developers start locally with any model, then use the SDK to build coding agents and automate engineering workflows."
     },
     {
-      "title": "Developers can start locally with any model",
-      "description": "Developers can start locally with any model, use the SDK to build agents and automate engineering workflows, and scale with a cloud control plane."
+      "title": "Scale with the cloud control plane",
+      "description": "Move the same agents to the cloud control plane and trigger workflows from GitHub, Slack, Jira, Linear or a schedule."
     },
     {
-      "title": "The open-source tier is free.",
-      "description": "The open-source tier is free."
+      "title": "Compare team plans",
+      "description": "The open-source tier is free. Teams costs $499 per month and Teams Plus $999 per month, both with a 30-day trial, and enterprise pricing is custom. The GitHub repository shows about 91,500 stars."
     }
   ]
 }

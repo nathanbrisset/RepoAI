@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Tavily",
-      "description": "Open the official Tavily website.",
+      "description": "Open Tavily and start for free so your agents can reach the web through the API.",
       "links": [
         {
           "label": "Tavily",
@@ -42,16 +42,16 @@
       ]
     },
     {
-      "title": "Fast web search and extraction for my agent",
-      "description": "Tavily provides APIs that give AI agents access to the web: search, extraction of clean content, research, crawling and site mapping."
+      "title": "Search the web",
+      "description": "Copy the setup prompt, then call search so the agent gets relevant web results."
     },
     {
-      "title": "The Researcher plan is free with 1",
-      "description": "The Researcher plan is free with 1,000 API credits per month; pay-as-you-go costs $0.008 per credit, and monthly Project plans start at $30."
+      "title": "Extract, research, crawl, or map",
+      "description": "Use extraction when you need clean content, research for a deeper question, crawling for a whole site, or mapping to list URLs."
     },
     {
-      "title": "Startups can apply for 100",
-      "description": "Startups can apply for 100,000 free credits, and students can use it for free."
+      "title": "Check credits and industries",
+      "description": "Researcher includes 1,000 API credits each month. Startups can apply for a larger grant, and students can use Tavily without paying. The company offers industry solutions for finance and for insurance."
     }
   ]
 }

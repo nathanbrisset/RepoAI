@@ -333,11 +333,18 @@ function registrable(host) {
   return parts.slice(-2).join(".")
 }
 
+// Official product links that live on a sister host, not the fiche homepage.
+const OFFICIAL_DEEP_HOSTS = {
+  n8n: ["app.n8n.cloud"],
+  veo: ["ai.google.dev"],
+}
+
 function officialHowToLink(linkUrl, tool) {
   if (sameSite(linkUrl, tool.url)) return true
   const host = hostOf(linkUrl)
   const toolHost = hostOf(tool.url)
   if (host && toolHost && registrable(host) === registrable(toolHost)) return true
+  if ((OFFICIAL_DEEP_HOSTS[tool.id] || []).includes(host)) return true
   const parts = tool.name.toLowerCase().split(/[^a-z0-9]+/).filter((word) => word.length >= 6 && !STOP.has(word))
   return parts.some((part) => host.includes(part))
 }

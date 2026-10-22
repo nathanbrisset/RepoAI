@@ -32,7 +32,7 @@
   "howToUse": [
     {
       "title": "Open Rork",
-      "description": "Open the official Rork website.",
+      "description": "Open Rork and sign in. Start a chat that builds a cross-platform app for iOS, Android or the web from prompts.",
       "links": [
         {
           "label": "Rork",
@@ -41,16 +41,12 @@
       ]
     },
     {
-      "title": "Build and publish a native mobile app without coding",
-      "description": "Rork builds cross-platform apps for iOS, Android and the web from prompts, and helps publish them to the App Store and Google Play."
+      "title": "Choose a builder",
+      "description": "Pick the native Swift builder for Apple platforms, the Kotlin builder for Android, or the web product. The games builder and the AI cloud are there too."
     },
     {
-      "title": "Its products include a backend with realtime data",
-      "description": "Its products include a backend with realtime data, auth and storage, an AI cloud, native Swift and Kotlin builders, a games builder and an App Store review checker."
-    },
-    {
-      "title": "The pricing page lists Free",
-      "description": "The pricing page lists Free, Pro and Max tiers; Rork Max for Apple platforms costs $200 per month."
+      "title": "Publish the app",
+      "description": "Add the backend for realtime data, auth and storage, then run the App Store review checker. Publish to the App Store or Google Play. The pricing page lists Free, Pro and Max tiers, and Max for Apple platforms costs $200 a month."
     }
   ]
 }

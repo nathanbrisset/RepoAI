@@ -32,7 +32,7 @@
   "howToUse": [
     {
       "title": "Open Lakera",
-      "description": "Open the official Lakera website.",
+      "description": "Open Lakera and choose Get Started or Start for free. Community is $0 each month and covers a limited number of requests. For enterprise pricing, contact Lakera or book a demo.",
       "links": [
         {
           "label": "Lakera",
@@ -41,16 +41,16 @@
       ]
     },
     {
-      "title": "Protect my AI application from prompt attacks",
-      "description": "Lakera provides runtime security for generative AI: it screens prompts and responses for prompt injection, data leakage and harmful content, governs employee AI usage and secures AI agents."
+      "title": "Screen prompts and responses",
+      "description": "Use the runtime security for generative AI. It screens prompts and responses for prompt injection, data leakage, and harmful content."
     },
     {
-      "title": "It also offers AI red teaming as a product and a service.",
-      "description": "It also offers AI red teaming as a product and a service."
+      "title": "Govern employee usage and secure agents",
+      "description": "Govern employee AI usage, and secure AI agents in your applications. The page describes real-time threat detection and data leakage protection for those agents."
     },
     {
-      "title": "The Community plan is free at $0 per month for a limited number of requests; enterprise...",
-      "description": "The Community plan is free at $0 per month for a limited number of requests; enterprise pricing is by contact."
+      "title": "Red team the application",
+      "description": "Run AI red teaming as a product, or take it as a service, to test the application before you rely on it."
     }
   ]
 }

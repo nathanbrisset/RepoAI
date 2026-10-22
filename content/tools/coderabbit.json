@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open CodeRabbit",
-      "description": "Open the official CodeRabbit website.",
+      "description": "Go to CodeRabbit and start a free trial, which is offered on the page. Plans start at $24 per user per month billed annually, with higher tiers at $48 and $72.",
       "links": [
         {
           "label": "CodeRabbit",
@@ -42,16 +42,12 @@
       ]
     },
     {
-      "title": "AI reviews on every pull request",
-      "description": "CodeRabbit reviews pull requests automatically on GitHub, GitLab and other platforms."
+      "title": "Review pull requests",
+      "description": "On GitHub, GitLab and other platforms, CodeRabbit reviews pull requests automatically. Read the comments on bugs, style and security issues. It explains the changes and learns from team feedback."
     },
     {
-      "title": "It comments on bugs",
-      "description": "It comments on bugs, style and security issues, explains changes and learns from team feedback."
-    },
-    {
-      "title": "Newer products cover issue triage and continuous security monitoring.",
-      "description": "Newer products cover issue triage and continuous security monitoring."
+      "title": "Triage issues and monitor security",
+      "description": "Use the newer products that cover issue triage and continuous security monitoring, including the codebase health scan on the page."
     }
   ]
 }

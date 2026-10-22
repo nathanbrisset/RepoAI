@@ -32,7 +32,7 @@
   "howToUse": [
     {
       "title": "Open Exa",
-      "description": "Open the official Exa website.",
+      "description": "Go to Exa and choose Sign up or Try API for free so developers can call web search designed for AI agents.",
       "links": [
         {
           "label": "Exa",
@@ -41,16 +41,18 @@
       ]
     },
     {
-      "title": "My agent to search and read the web via API",
-      "description": "Exa provides web search designed for AI agents, along with endpoints for page contents, deep research, monitoring, people search and company search."
+      "title": "Call search and the related endpoints",
+      "description": "Call endpoints for page contents, deep research, monitoring, people search, and company search through the API or agent interfaces."
     },
     {
-      "title": "Developers call it through an API or agent interfaces.",
-      "description": "Developers call it through an API or agent interfaces."
-    },
-    {
-      "title": "The Starter tier is free with $10 of credits every month plus $10 at onboarding",
-      "description": "The Starter tier is free with $10 of credits every month plus $10 at onboarding, and usage beyond that is pay-as-you-go; enterprise plans are available through sales."
+      "title": "Read the agent index and Starter credits",
+      "description": "Open the published llms.txt index of documentation for agents. The Starter tier includes $10 of credits every month plus $10 at onboarding, then pay-as-you-go usage, with enterprise arrangements through sales.",
+      "links": [
+        {
+          "label": "llms.txt",
+          "url": "https://exa.ai/llms.txt"
+        }
+      ]
     }
   ]
 }

@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Bardeen",
-      "description": "Open the official Bardeen website.",
+      "description": "Go to Bardeen and choose Get started, then open the AI web scraper for lead sourcing.",
       "links": [
         {
           "label": "Bardeen",
@@ -42,16 +42,12 @@
       ]
     },
     {
-      "title": "Scrape and enrich lead lists",
-      "description": "Bardeen is a lead sourcing tool built around an AI web scraper."
+      "title": "Extract and score leads",
+      "description": "Extract website data, then enrich the contacts' emails and phone numbers, and score each lead."
     },
     {
-      "title": "Users extract data from websites",
-      "description": "Users extract data from websites, enrich contacts with emails and phone numbers, score leads with AI and sync results to spreadsheets or CRMs."
-    },
-    {
-      "title": "Pricing is credit-based",
-      "description": "Pricing is credit-based: every account keeps 100 free credits, and paid plans start at $10 per month, with larger plans at $50 per month and custom bulk credits on request."
+      "title": "Sync the results",
+      "description": "Push the rows into spreadsheets or CRMs. Every account holds 100 credits before you pay. Credit-based plans begin at $10 per month, a larger plan is $50 per month, and you can request custom bulk credits."
     }
   ]
 }

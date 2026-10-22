@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open LTX Studio",
-      "description": "Open the official LTX Studio website.",
+      "description": "Open LTX Studio, the production environment for AI video aimed at creative teams, marketers and filmmakers.",
       "links": [
         {
           "label": "LTX Studio",
@@ -42,16 +42,16 @@
       ]
     },
     {
-      "title": "Produce a video from script to storyboard to shots",
-      "description": "LTX Studio is a production environment for AI video aimed at creative teams, marketers and filmmakers, covering scripts, storyboards, shots and editing."
+      "title": "Move from script to edit",
+      "description": "Build the production through scripts, storyboards, shots and editing, using the LTX video models underneath."
     },
     {
-      "title": "It is built on the LTX video models",
-      "description": "It is built on the LTX video models, which are also available with open weights, through an API and as a desktop app."
+      "title": "Use the models outside the studio",
+      "description": "Take the same models with open weights, call them through the API, or run the desktop app when the work should leave the browser."
     },
     {
-      "title": "The Free plan gives 800 one-time credits; Lite costs $15 per month ($12 billed yearly).",
-      "description": "The Free plan gives 800 one-time credits; Lite costs $15 per month ($12 billed yearly)."
+      "title": "Spend credits",
+      "description": "The Free plan gives 800 one-time credits. Lite costs $15 per month ($12 billed yearly) when that first allowance is not enough."
     }
   ]
 }

@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Ollama",
-      "description": "Open the official Ollama website.",
+      "description": "Open Ollama and download the command-line tool or the desktop app so developers can run models on their own machine.",
       "links": [
         {
           "label": "Ollama",
@@ -42,16 +42,16 @@
       ]
     },
     {
-      "title": "Run models locally",
-      "description": "Ollama lets developers download and run open-weight models locally through a command-line tool, a desktop app and a local API."
+      "title": "Run an open-weight model locally",
+      "description": "Download an open-weight model and run it locally through the local API. The local tool is free."
     },
     {
-      "title": "A local API for open models",
-      "description": "Ollama lets developers download and run open-weight models locally through a command-line tool, a desktop app and a local API."
+      "title": "Move larger workloads to the cloud",
+      "description": "For larger workloads, switch to a cloud-hosted model. Ollama states that prompts are not stored and are not used for training."
     },
     {
-      "title": "It also offers cloud-hosted models for larger workloads",
-      "description": "It also offers cloud-hosted models for larger workloads, and states that prompts are not stored or used for training."
+      "title": "Pick a cloud usage plan",
+      "description": "When local hardware is not enough, compare paid cloud plans. They start with Pro at $20 per month and Max at $100 per month, with more usage on the higher tier."
     }
   ]
 }

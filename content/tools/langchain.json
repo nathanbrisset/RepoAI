@@ -34,7 +34,7 @@
   "howToUse": [
     {
       "title": "Open LangChain",
-      "description": "Open the official LangChain website.",
+      "description": "Open LangChain and choose Try LangSmith or Start building. Choose Get a demo if you want a walkthrough of the commercial platform.",
       "links": [
         {
           "label": "LangChain",
@@ -43,16 +43,16 @@
       ]
     },
     {
-      "title": "Build, trace and evaluate LLM agents",
-      "description": "LangChain maintains open-source frameworks for building LLM applications and agents, including LangChain and LangGraph."
+      "title": "Build with the open-source frameworks",
+      "description": "Build an LLM application or an agent with the open-source frameworks, including LangChain and LangGraph. For a no-code path, use Fleet, the agent product for the whole company."
     },
     {
-      "title": "Its commercial platform",
-      "description": "Its commercial platform, LangSmith, adds observability, evaluation, deployment, sandboxes and an LLM gateway."
+      "title": "Trace, evaluate, and deploy in LangSmith",
+      "description": "In LangSmith, use observability to see agent runs and evaluation to score them, then deployment to ship them. Sandboxes run agent-generated code, and the LLM gateway controls model calls. An agent improvement engine is included."
     },
     {
-      "title": "The Developer plan is free for one seat with 5",
-      "description": "The Developer plan is free for one seat with 5,000 base traces per month and pay-as-you-go beyond that."
+      "title": "Start on the Developer plan",
+      "description": "Start on Developer: one seat costs nothing and includes 5,000 base traces each month, with pay-as-you-go beyond that. Plus is $39 for each seat every month, and enterprise pricing is custom."
     }
   ]
 }

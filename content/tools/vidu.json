@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Vidu",
-      "description": "Open the official Vidu website.",
+      "description": "Open Vidu. A Free plan exists. Paid plans start at $10 per month, or $8.25 per month when billed yearly, and they include 800 monthly credits.",
       "links": [
         {
           "label": "Vidu",
@@ -42,16 +42,16 @@
       ]
     },
     {
-      "title": "Generate consistent video clips from references",
-      "description": "Vidu generates videos from text prompts, images and reference images, keeping characters consistent across shots, and also creates images."
+      "title": "Generate a video",
+      "description": "Pick Text to Video, Image to Video, or Reference to Video. A Q-series model generates the video from your prompts or your images, including reference images."
     },
     {
-      "title": "It runs on its own Vidu Q-series models and offers templates",
-      "description": "It runs on its own Vidu Q-series models and offers templates, an agent, an API platform and a creator programme."
+      "title": "Keep the character consistent",
+      "description": "Reference images are for keeping characters consistent across shots."
     },
     {
-      "title": "A Free plan is available; paid plans start at $10 per month ($8.25 per month billed yea...",
-      "description": "A Free plan is available; paid plans start at $10 per month ($8.25 per month billed yearly) with 800 monthly credits."
+      "title": "Use templates, the agent, or the API",
+      "description": "From there, Vidu offers templates, an agent, an API platform, and a creator programme you can join."
     }
   ]
 }

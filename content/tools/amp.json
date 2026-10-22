@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Amp",
-      "description": "Open the official Amp website.",
+      "description": "Go to Amp and choose Start to use the coding agent and development environment.",
       "links": [
         {
           "label": "Amp",
@@ -42,16 +42,12 @@
       ]
     },
     {
-      "title": "Coding agents that keep running after I close my laptop",
-      "description": "Amp is a coding agent and development environment."
+      "title": "Run the task in an orb",
+      "description": "Put the task in an orb. That orb is the agent's own isolated environment, and tasks continue after the laptop closes. Follow the thread from a phone."
     },
     {
-      "title": "Each agent runs in its own isolated environment",
-      "description": "Each agent runs in its own isolated environment, called an orb, so tasks continue after the user closes their laptop and can be followed from a phone."
-    },
-    {
-      "title": "Threads can be shared with teammates.",
-      "description": "Threads can be shared with teammates."
+      "title": "Share the thread or use the CLI",
+      "description": "Share threads with teammates, or keep working on your own machine with the CLI and runner. Hobby includes pay-as-you-go usage and unlimited orbs that are self-hosted, with no subscription charge. Individual costs $20 per month, and team tiers sit above it."
     }
   ]
 }

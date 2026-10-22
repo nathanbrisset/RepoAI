@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Scite",
-      "description": "Open the official Scite website.",
+      "description": "Open Scite and sign in, or start the seven-day trial. Ask a question so the assistant searches more than 300 million scholarly articles and answers from research it is grounded in.",
       "links": [
         {
           "label": "Scite",
@@ -42,16 +42,12 @@
       ]
     },
     {
-      "title": "Check whether a claim is supported or disputed in the literature",
-      "description": "Scite searches more than 300 million scholarly articles and classifies citation statements to show whether later work supports or disputes a claim."
+      "title": "Check a citation",
+      "description": "Read the citation statements on a paper. Scite classifies each one, and you can tell whether later research supports that claim or disputes it."
     },
     {
-      "title": "It includes an AI assistant grounded in research",
-      "description": "It includes an AI assistant grounded in research, full-text citation search, collections, a Zotero plugin, a browser extension and an API."
-    },
-    {
-      "title": "Basic costs $12 per month and Pro $40 per month",
-      "description": "Basic costs $12 per month and Pro $40 per month, billed yearly, each with a seven-day free trial."
+      "title": "Save and extend",
+      "description": "Put papers in collections, then add the Zotero plugin or the browser extension."
     }
   ]
 }

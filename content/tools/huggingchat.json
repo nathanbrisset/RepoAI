@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open HuggingChat",
-      "description": "Open the official HuggingChat website.",
+      "description": "Open HuggingChat and choose Start chatting. With a Hugging Face account, basic use costs nothing.",
       "links": [
         {
           "label": "HuggingChat",
@@ -42,16 +42,16 @@
       ]
     },
     {
-      "title": "Chat with open-source models",
-      "description": "HuggingChat is Hugging Face's chat application built on open-source models."
+      "title": "Let Omni pick the model, or choose one",
+      "description": "Leave Omni on so it routes each request to a suitable model automatically, or pick a specific model from the catalogue. The page lists 133 models, and the catalogue has more than one hundred."
     },
     {
-      "title": "Its Omni mode routes each request to a suitable model automatically",
-      "description": "Its Omni mode routes each request to a suitable model automatically, and users can also pick a specific model from the catalogue of more than one hundred available models."
+      "title": "Use web search in the conversation",
+      "description": "In the conversation, use tools such as web search when the reply needs information beyond the model."
     },
     {
-      "title": "Conversations can use tools such as web search.",
-      "description": "Conversations can use tools such as web search."
+      "title": "Raise limits with PRO",
+      "description": "For higher usage limits and inference credits, take the Hugging Face PRO subscription at $9 per month."
     }
   ]
 }

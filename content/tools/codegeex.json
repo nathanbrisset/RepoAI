@@ -32,7 +32,7 @@
   "howToUse": [
     {
       "title": "Open CodeGeeX",
-      "description": "Open the official CodeGeeX website.",
+      "description": "Go to CodeGeeX and use its multilingual code generation model, which has support for over 20 programming languages.",
       "links": [
         {
           "label": "CodeGeeX",
@@ -41,16 +41,12 @@
       ]
     },
     {
-      "title": "A multilingual code generation model supporting over 20 programming languages.",
-      "description": "A multilingual code generation model supporting over 20 programming languages."
+      "title": "Generate code, then translate it",
+      "description": "Use the large-scale model, trained on extensive code datasets, so it generates code. Then use code translation, which translates code between languages."
     },
     {
-      "title": "Multilingual support",
-      "description": "Multilingual support: Generates code in over 20 languages."
-    },
-    {
-      "title": "Large-scale model",
-      "description": "Large-scale model: Trained on extensive code datasets."
+      "title": "Add the IDE integration",
+      "description": "Turn on the IDE integration, which is compatible with popular development environments."
     }
   ]
 }

@@ -29,7 +29,7 @@
   "howToUse": [
     {
       "title": "Open Poe",
-      "description": "Open the official Poe website.",
+      "description": "Open Poe, the chat platform operated by Quora, and start a conversation in one interface.",
       "links": [
         {
           "label": "Poe",
@@ -38,16 +38,12 @@
       ]
     },
     {
-      "title": "One interface for many models",
-      "description": "Poe is a chat platform operated by Quora that gives access to models from several providers, including OpenAI, Anthropic, Google, xAI and others, from one interface."
+      "title": "Switch models from several providers",
+      "description": "Switch models within the conversation. Poe gives access to models from providers such as OpenAI, Anthropic, Google, and xAI."
     },
     {
-      "title": "Build a custom bot",
-      "description": "Poe is a chat platform operated by Quora that gives access to models from several providers, including OpenAI, Anthropic, Google, xAI and others, from one interface."
-    },
-    {
-      "title": "Users can chat privately or in group chats",
-      "description": "Users can chat privately or in group chats, switch models within a conversation and use thousands of community-created bots."
+      "title": "Chat privately, in a group, or with bots",
+      "description": "Chat privately or in group chats, and use thousands of community-created bots. Developers publish their own bots from the same interface."
     }
   ]
 }

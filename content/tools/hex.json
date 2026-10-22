@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Hex",
-      "description": "Open the official Hex website.",
+      "description": "Open Hex and choose Get started for free, or Request a demo.",
       "links": [
         {
           "label": "Hex",
@@ -42,16 +42,16 @@
       ]
     },
     {
-      "title": "My team to analyse data with SQL, Python or plain questions",
-      "description": "Hex is a collaborative data platform where analysts work in SQL and Python notebooks, business users ask questions in natural language, and teams publish dashboards and interactive data apps."
+      "title": "Analyze in a notebook",
+      "description": "Open a notebook and do the analysis in SQL and Python. Hex is a collaborative data platform where analysts work this way."
     },
     {
-      "title": "It manages semantic context for AI answers.",
-      "description": "It manages semantic context for AI answers."
+      "title": "Ask in natural language",
+      "description": "Have a business user ask questions in natural language. Hex manages semantic context so those AI answers stay tied to the team's data."
     },
     {
-      "title": "A Community plan is free; Professional costs $36 per editor per month and Team $75 per...",
-      "description": "A Community plan is free; Professional costs $36 per editor per month and Team $75 per editor per month with a 14-day trial; compute beyond small sizes is billed per hour."
+      "title": "Publish, then compare plans",
+      "description": "Publish dashboards and interactive data apps for the team. Community costs nothing. Professional is $36 for each editor every month. Team is $75 for each editor every month and includes a 14-day trial. Extra compute, past the small sizes, is billed by the hour."
     }
   ]
 }

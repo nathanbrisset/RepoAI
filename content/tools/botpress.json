@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Botpress",
-      "description": "Open the official Botpress website.",
+      "description": "Go to Botpress and choose Try for free to build an AI agent for support.",
       "links": [
         {
           "label": "Botpress",
@@ -42,16 +42,12 @@
       ]
     },
     {
-      "title": "Build an AI agent for my website or messaging apps",
-      "description": "Botpress provides a visual studio and a natural-language builder for AI agents, an engine for running them, knowledge bases and tables, and Botpress Desk, a helpdesk for complex support."
+      "title": "Build in the studio",
+      "description": "Use the visual studio or the natural-language builder, add knowledge bases and tables, and run the agent on the engine."
     },
     {
-      "title": "Agents deploy to webchat",
-      "description": "Agents deploy to webchat, WhatsApp and other channels, and integrate with tools such as Zendesk and HubSpot."
-    },
-    {
-      "title": "The Free plan includes 100 conversations; Plus costs $150 per month billed annually.",
-      "description": "The Free plan includes 100 conversations; Plus costs $150 per month billed annually."
+      "title": "Deploy and escalate",
+      "description": "Deploy the agent to webchat, WhatsApp or another channel, connect Zendesk or HubSpot, and hand complex support to Botpress Desk, the helpdesk. Free includes 100 conversations. Plus is $150 per month on an annual bill. Seats are tallied on their own and counted separately, not as conversations."
     }
   ]
 }

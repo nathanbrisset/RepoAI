@@ -32,7 +32,7 @@
   "howToUse": [
     {
       "title": "Open Undermind",
-      "description": "Open the official Undermind website.",
+      "description": "Open Undermind and sign up, then describe the research question. It asks follow-up questions.",
       "links": [
         {
           "label": "Undermind",
@@ -41,12 +41,16 @@
       ]
     },
     {
-      "title": "An AI to find papers others miss on a research question",
-      "description": "Undermind runs in-depth searches of the scientific literature, reading full texts and figures and citing every source, then keeps results in a library that grows as research continues."
+      "title": "Search the literature",
+      "description": "Undermind runs searches across the scientific literature, reading the full texts and the figures."
     },
     {
-      "title": "It can be connected to AI agents such as Claude and ChatGPT.",
-      "description": "It can be connected to AI agents such as Claude and ChatGPT."
+      "title": "Check every source",
+      "description": "Every statement keeps citing its source, so you can open that source and check the paper."
+    },
+    {
+      "title": "Keep a growing library",
+      "description": "Keep the results in the library. It grows as the research continues, and the account can be connected to Claude or ChatGPT."
     }
   ]
 }

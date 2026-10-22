@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open TypingMind",
-      "description": "Open the official TypingMind website.",
+      "description": "Open TypingMind and buy the lifetime licence. Standard starts at $39; Extended and Premium tiers cost more.",
       "links": [
         {
           "label": "TypingMind",
@@ -42,16 +42,16 @@
       ]
     },
     {
-      "title": "One chat interface using my own API keys",
-      "description": "TypingMind is a chat front end for models from OpenAI, Anthropic, Google and other providers."
+      "title": "Connect your API keys",
+      "description": "Connect your own API keys for models from OpenAI, Anthropic, Google, or another provider. You pay those providers per use."
     },
     {
-      "title": "Users connect their own API keys and pay providers per use",
-      "description": "Users connect their own API keys and pay providers per use, while TypingMind itself is sold as a lifetime licence."
+      "title": "Chat in the front end",
+      "description": "Start a chat in the front end and send a prompt to the model you connected."
     },
     {
-      "title": "Features include plugins",
-      "description": "Features include plugins, MCP support, prompt libraries, document upload and voice input, depending on tier."
+      "title": "Add plugins, documents, or voice",
+      "description": "Upload a document, use voice input, or open a prompt from the libraries. Plugins and MCP support depend on the tier."
     }
   ]
 }

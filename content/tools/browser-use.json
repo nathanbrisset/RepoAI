@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Browser Use",
-      "description": "Open the official Browser Use website.",
+      "description": "Go to Browser Use and start for free. New accounts get $1 of free credit, and pricing is pay-as-you-go with no subscription.",
       "links": [
         {
           "label": "Browser Use",
@@ -42,16 +42,12 @@
       ]
     },
     {
-      "title": "An agent to complete tasks on websites",
-      "description": "Browser Use offers infrastructure for agents that operate websites."
+      "title": "Run a hosted agent",
+      "description": "Run a hosted agent to complete tasks in a browser, for example forms, logins, shopping or extraction. These agents operate websites."
     },
     {
-      "title": "Its hosted agents complete tasks in a browser",
-      "description": "Its hosted agents complete tasks in a browser, and its cloud browsers can be driven by a developer's own agent."
-    },
-    {
-      "title": "The project started as an open-source library.",
-      "description": "The project started as an open-source library."
+      "title": "Connect your own agent",
+      "description": "Connect a developer agent to the cloud browsers, including Playwright or Puppeteer over CDP. This infrastructure bills cloud browsers at $0.02 per hour and residential proxies at $5 per GB."
     }
   ]
 }

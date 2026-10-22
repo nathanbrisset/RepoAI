@@ -31,8 +31,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Jan",
-      "description": "Open the official Jan website.",
+      "title": "Open Jan and download it",
+      "description": "Open Jan and download the desktop application. The page offers Download for Mac, the software is free to download, and it notes v0.8.7 on GitHub.",
       "links": [
         {
           "label": "Jan",
@@ -41,16 +41,16 @@
       ]
     },
     {
-      "title": "Run models locally",
-      "description": "Jan is an open-source desktop application that runs open-weight models locally and can also connect to cloud providers such as OpenAI and Anthropic with the user's own API keys."
+      "title": "Run a local model or connect a provider",
+      "description": "Download an open-weight model and run it locally in the chat interface, or connect to a cloud provider such as OpenAI or Anthropic with your own API key."
     },
     {
-      "title": "An open-source ChatGPT alternative",
-      "description": "Jan is an open-source desktop application that runs open-weight models locally and can also connect to cloud providers such as OpenAI and Anthropic with the user's own API keys."
+      "title": "Call the local API server",
+      "description": "Use the local API server when another program on the computer should call the same models."
     },
     {
-      "title": "It provides a chat interface",
-      "description": "It provides a chat interface, model downloads and a local API server."
+      "title": "Follow Jan Agent on GitHub",
+      "description": "Follow the public development on GitHub. From the Jan site, open Jan Agent or the research work when you want the agent or the research."
     }
   ]
 }

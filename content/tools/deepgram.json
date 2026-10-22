@@ -32,7 +32,7 @@
   "howToUse": [
     {
       "title": "Open Deepgram",
-      "description": "Open the official Deepgram website.",
+      "description": "Go to Deepgram and sign up. New accounts receive $200 of credit without a card.",
       "links": [
         {
           "label": "Deepgram",
@@ -41,16 +41,12 @@
       ]
     },
     {
-      "title": "Real-time transcription or voice agents in my product",
-      "description": "Deepgram provides APIs for speech-to-text, text-to-speech and voice agents."
+      "title": "Call the speech APIs",
+      "description": "Call the speech-to-text, text-to-speech and voice agent APIs that Deepgram provides. Flux models are designed for conversation, with handling for turn-taking and interruptions."
     },
     {
-      "title": "Its Flux models are designed for conversation",
-      "description": "Its Flux models are designed for conversation, handling turn-taking and interruptions."
-    },
-    {
-      "title": "New accounts receive $200 of free credit without a card",
-      "description": "New accounts receive $200 of free credit without a card, after which usage is billed pay-as-you-go with no minimums; growth plans start with annual commitments, and enterprise plans are custom."
+      "title": "Pick pay-as-you-go or a commitment",
+      "description": "After the credit, usage is billed pay-as-you-go and there are no minimums. Growth plans start once annual commitments are in place, and the enterprise offering is custom. The products are offered as APIs for developers and as enterprise deployments."
     }
   ]
 }

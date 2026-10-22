@@ -32,7 +32,7 @@
   "howToUse": [
     {
       "title": "Open Semgrep",
-      "description": "Open the official Semgrep website.",
+      "description": "Open Semgrep and sign in. The scanning engine is open source. Run it so Semgrep scans source code for security issues with the SAST engine.",
       "links": [
         {
           "label": "Semgrep",
@@ -41,16 +41,16 @@
       ]
     },
     {
-      "title": "Find vulnerabilities and secrets in my code",
-      "description": "Semgrep scans source code for security issues with its SAST engine, checks open-source dependencies for vulnerabilities and malware, and detects hardcoded secrets."
+      "title": "Check dependencies and secrets",
+      "description": "Run the supply-chain checks. Semgrep checks open-source dependencies for vulnerabilities and malware, and it detects hardcoded secrets."
     },
     {
-      "title": "AI features help triage and fix findings.",
-      "description": "AI features help triage and fix findings."
+      "title": "Triage findings",
+      "description": "Use the AI triage on the findings, then fix the ones that matter. The free edition adds cross-file analysis for small teams."
     },
     {
-      "title": "The scanning engine is open source.",
-      "description": "The scanning engine is open source."
+      "title": "Moving from another scanner",
+      "description": "If the team is moving from Checkmarx or Snyk, read the Shift programme on the page."
     }
   ]
 }

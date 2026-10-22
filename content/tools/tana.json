@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Tana",
-      "description": "Open the official Tana website.",
+      "description": "Open Tana and download the app. Start native video calls so the agents on this agentic meeting platform can join.",
       "links": [
         {
           "label": "Tana",
@@ -42,16 +42,18 @@
       ]
     },
     {
-      "title": "Meetings that end with the work already done",
-      "description": "Tana is now an agentic meeting platform: AI agents join native video calls, capture what is said and complete follow-up work such as filing issues, drafting emails and updating tools."
+      "title": "Let the agents finish the work",
+      "description": "The agents capture what is said on the calls and complete the follow-up by filing issues, drafting emails and updating your other tools before you hang up."
     },
     {
-      "title": "The company states this is separate from Tana Outliner",
-      "description": "The company states this is separate from Tana Outliner, its note-taking product."
-    },
-    {
-      "title": "The Free plan offers meeting memory; Pro costs $30 per user per month",
-      "description": "The Free plan offers meeting memory; Pro costs $30 per user per month, with an early-bird price of $20, and includes 20 times the free AI usage."
+      "title": "Keep memory apart from Outliner",
+      "description": "The company states that this meeting platform is a separate product from Tana Outliner, the note-taking product. The Free plan offers meeting memory. Pro costs $30 per user each month, the early-bird price is $20, and Pro includes 20 times the free AI usage.",
+      "links": [
+        {
+          "label": "Tana Outliner",
+          "url": "https://outliner.tana.inc"
+        }
+      ]
     }
   ]
 }

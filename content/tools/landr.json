@@ -32,7 +32,7 @@
   "howToUse": [
     {
       "title": "Open LANDR",
-      "description": "Open the official LANDR website.",
+      "description": "Open LANDR and choose Sign up free.",
       "links": [
         {
           "label": "LANDR",
@@ -41,12 +41,16 @@
       ]
     },
     {
-      "title": "Master and release my music",
-      "description": "LANDR provides services for creating and releasing music: AI mastering online and as a DAW plugin, digital distribution to streaming services, a sample library, a plugin marketplace, collaboration and messaging tools, and courses."
+      "title": "Master the track",
+      "description": "Master the music online in the browser, or run the LANDR Mastering Plugin inside your DAW."
     },
     {
-      "title": "Musicians can also hire or sell services.",
-      "description": "Musicians can also hire or sell services."
+      "title": "Distribute and pull in sounds",
+      "description": "Release the track through digital distribution to streaming services. While you produce, use the sample library and the plugin marketplace."
+    },
+    {
+      "title": "Collaborate, study, or hire",
+      "description": "Use the collaboration and messaging tools, take a course, or hire or sell services with other musicians."
     }
   ]
 }

@@ -30,7 +30,7 @@
   "howToUse": [
     {
       "title": "Open Voiceflow",
-      "description": "Open the official Voiceflow website.",
+      "description": "Open Voiceflow and start a trial, or talk to sales if a team is rolling agents out for clients.",
       "links": [
         {
           "label": "Voiceflow",
@@ -39,16 +39,22 @@
       ]
     },
     {
-      "title": "Design chat and voice agents for customer support",
-      "description": "Voiceflow is used to design, launch and scale chat and voice AI agents for customer support and other customer experience tasks, with collaboration features for teams and agencies building for clients."
+      "title": "Design a chat or voice agent",
+      "description": "Design a chat agent or a voice agent for customer support or another customer experience task."
     },
     {
-      "title": "The company publishes documentation",
-      "description": "The company publishes documentation, webinars and a changelog."
+      "title": "Launch and scale with the team",
+      "description": "Launch the agent, then scale it. Use collaboration if several people on the team, or an agency, are building it."
     },
     {
-      "title": "It was named a 2026 Best Software Award winner by G2",
-      "description": "It was named a 2026 Best Software Award winner by G2, according to the site."
+      "title": "Read the docs and changelog",
+      "description": "Follow the setup guide. The company publishes documentation, webinars, and a changelog. G2 named it a 2026 Best Software Award winner, according to the site.",
+      "links": [
+        {
+          "label": "Set up Voiceflow",
+          "url": "https://www.voiceflow.com/agents/setup"
+        }
+      ]
     }
   ]
 }

@@ -32,7 +32,7 @@
   "howToUse": [
     {
       "title": "Open Aikido",
-      "description": "Open the official Aikido website.",
+      "description": "Go to Aikido and choose Start for Free to scan what developers build, ship and run.",
       "links": [
         {
           "label": "Aikido",
@@ -41,16 +41,12 @@
       ]
     },
     {
-      "title": "One tool for code, dependency and cloud security",
-      "description": "Aikido combines security scanning for dependencies, malware, SAST, secrets, licences, infrastructure as code, containers, cloud misconfigurations and Kubernetes, and adds AI pentesting and automatic fixes."
+      "title": "Scan the stack",
+      "description": "Start security scanning with dependencies and malware. Add SAST, secrets and licences, then infrastructure as code, containers, cloud misconfigurations and Kubernetes. Finish with AI pentesting and automatic fixes."
     },
     {
-      "title": "Findings are filtered to reduce noise for developers.",
-      "description": "Findings are filtered to reduce noise for developers."
-    },
-    {
-      "title": "The Developer plan is free forever for two users with no card; paid plans are priced in...",
-      "description": "The Developer plan is free forever for two users with no card; paid plans are priced in euros on the pricing page."
+      "title": "Read the filtered findings",
+      "description": "Read the findings after they are filtered, which reduces noise for developers. Two users can keep the Developer plan forever without a card. The pricing page shows paid plans priced in euros."
     }
   ]
 }

@@ -30,7 +30,7 @@
   "howToUse": [
     {
       "title": "Open Semantic Scholar",
-      "description": "Open the official Semantic Scholar website.",
+      "description": "Open Semantic Scholar and use this AI-powered discovery search of the scientific literature. Indexing covers more than 239 million papers from all fields of science.",
       "links": [
         {
           "label": "Semantic Scholar",
@@ -39,16 +39,12 @@
       ]
     },
     {
-      "title": "Search and track scientific papers for free",
-      "description": "Semantic Scholar is a free, AI-powered search and discovery tool for scientific literature, indexing more than 239 million papers from all fields of science."
+      "title": "Interpret a paper",
+      "description": "Open a result and let the AI interpret its content so researchers can find relevant work. Try Semantic Reader where it is offered on select papers."
     },
     {
-      "title": "It uses AI to interpret the content of papers so researchers can find relevant work",
-      "description": "It uses AI to interpret the content of papers so researchers can find relevant work, and it offers free user accounts."
-    },
-    {
-      "title": "A public API for developers includes paper search and has recently been extended with b...",
-      "description": "A public API for developers includes paper search and has recently been extended with better documentation and stability."
+      "title": "Use the API",
+      "description": "Create a free account. Semantic Scholar offers these accounts, and no paid plan exists. Developers can call the public API. It includes paper search and was recently extended, with better documentation and stability."
     }
   ]
 }

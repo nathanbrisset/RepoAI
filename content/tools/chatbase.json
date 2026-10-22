@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Chatbase",
-      "description": "Open the official Chatbase website.",
+      "description": "Go to Chatbase and start the seven-day trial. Hobby is $40 per month ($32 billed yearly), Standard is $150 and Pro is $500 per month.",
       "links": [
         {
           "label": "Chatbase",
@@ -42,16 +42,12 @@
       ]
     },
     {
-      "title": "A support agent trained on my content",
-      "description": "Chatbase builds AI agents trained on a company's content that answer customer questions and take actions across chat, email and voice, with analytics and a helpdesk inbox."
+      "title": "Train an agent on company content",
+      "description": "Connect data sources so an agent is trained on company content, define its role and set guardrails. It can answer customer questions and take actions across chat, email and voice."
     },
     {
-      "title": "Plans start with Hobby at $40 per month ($32 billed yearly)",
-      "description": "Plans start with Hobby at $40 per month ($32 billed yearly), then Standard at $150 and Pro at $500 per month, each with a seven-day trial; no free plan was listed."
-    },
-    {
-      "title": "The company states it serves more than 10",
-      "description": "The company states it serves more than 10,000 businesses."
+      "title": "Test, deploy and read the inbox",
+      "description": "Run customer scenarios, then publish the agent. Use analytics and the helpdesk inbox to review conversations. The company states that it serves more than 10,000 businesses."
     }
   ]
 }

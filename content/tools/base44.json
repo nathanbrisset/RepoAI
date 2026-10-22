@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Base44",
-      "description": "Open the official Base44 website.",
+      "description": "Go to Base44 and choose Start building.",
       "links": [
         {
           "label": "Base44",
@@ -42,16 +42,12 @@
       ]
     },
     {
-      "title": "Build an app or website by describing it",
-      "description": "Base44 lets users build apps, websites, games, internal tools and AI agents by describing them in plain language."
+      "title": "Describe the build in plain language",
+      "description": "Describe apps, websites, games, internal tools or AI agents in plain language. Hosting, a database, authentication and integrations are already included, so you can skip a separate setup."
     },
     {
-      "title": "The platform includes hosting",
-      "description": "The platform includes hosting, a database, authentication and integrations, so no separate setup is required."
-    },
-    {
-      "title": "Users can start for free; paid plans are based on message and integration credits and s...",
-      "description": "Users can start for free; paid plans are based on message and integration credits and start at $40 per month billed annually, with higher tiers at $80 and $160 per month."
+      "title": "Start free, then add credits",
+      "description": "Start for free. Paid tiers meter message credits and integration credits. The first tier is $40 per month when billed annually; the higher tiers are $80 and $160 per month."
     }
   ]
 }

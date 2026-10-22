@@ -30,7 +30,7 @@
   "howToUse": [
     {
       "title": "Open Langflow",
-      "description": "Open the official Langflow website.",
+      "description": "Open Langflow and choose Get Started for Free, or download the open-source builder if you want to run it yourself.",
       "links": [
         {
           "label": "Langflow",
@@ -39,16 +39,12 @@
       ]
     },
     {
-      "title": "Build AI agents visually",
-      "description": "Langflow is an open-source, Python-based tool for building AI agents and workflows with a visual editor."
+      "title": "Connect components on the canvas",
+      "description": "In the visual editor, drop components for models, vector stores and other pieces onto the canvas and connect them into a Python-based workflow of agents."
     },
     {
-      "title": "Components for models",
-      "description": "Components for models, vector stores and tools are connected on a canvas, and each flow can be served as an API or exposed as an MCP server."
-    },
-    {
-      "title": "It can be self-hosted",
-      "description": "It can be self-hosted, and the site also offers a free cloud account for deployment."
+      "title": "Serve the flow",
+      "description": "Run the finished flow as an API or expose it as an MCP server. Deploy it on your own host, or use the cloud account when you want the hosted deployment."
     }
   ]
 }

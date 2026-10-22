@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Zed",
-      "description": "Open the official Zed website.",
+      "description": "Open Zed and download the editor for macOS, Linux, or Windows.",
       "links": [
         {
           "label": "Zed",
@@ -42,16 +42,16 @@
       ]
     },
     {
-      "title": "A fast code editor with AI agents",
-      "description": "Zed is a code editor written from scratch in Rust by the creators of Atom and Tree-sitter, available for macOS, Linux and Windows."
+      "title": "Edit in the native editor",
+      "description": "Use the code editor written from scratch in Rust by the creators of Atom and Tree-sitter."
     },
     {
-      "title": "It supports real-time collaboration and runs AI agents",
-      "description": "It supports real-time collaboration and runs AI agents, including external ones such as Claude Agent and Codex CLI."
+      "title": "Run an agent",
+      "description": "Run an external agent such as Claude Agent or the Codex CLI. The editor supports them."
     },
     {
-      "title": "The Personal plan is free and works with the user's own API keys.",
-      "description": "The Personal plan is free and works with the user's own API keys."
+      "title": "Collaborate, then pick a plan",
+      "description": "Use real-time collaboration to code together. The Personal plan is free and works with your own API keys. Pro costs $10 a month and adds edit predictions plus $5 of included tokens. Business is $30 a seat each month."
     }
   ]
 }

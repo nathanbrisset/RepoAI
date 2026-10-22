@@ -30,7 +30,7 @@
   "howToUse": [
     {
       "title": "Open Dia",
-      "description": "Open the official Dia website.",
+      "description": "Download Dia, the browser for macOS and Windows.",
       "links": [
         {
           "label": "Dia",
@@ -39,8 +39,12 @@
       ]
     },
     {
-      "title": "A browser that answers questions across my tabs",
-      "description": "Dia is a web browser for macOS and Windows that adds AI chat working across open tabs, a Morning Brief summarising calendar and inbox, and ready-to-share outputs."
+      "title": "Read the Morning Brief",
+      "description": "Open the Morning Brief summarising the calendar and inbox before the workday starts."
+    },
+    {
+      "title": "Ask across tabs and share",
+      "description": "Use the AI chat working across open tabs, then make ready-to-share outputs such as a report or a deck."
     }
   ]
 }

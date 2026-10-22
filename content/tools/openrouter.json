@@ -30,7 +30,7 @@
   "howToUse": [
     {
       "title": "Open OpenRouter",
-      "description": "Open the official OpenRouter website.",
+      "description": "Open OpenRouter and create an account. There is no subscription: buy credits and pay per token at the listed model rates.",
       "links": [
         {
           "label": "OpenRouter",
@@ -39,16 +39,16 @@
       ]
     },
     {
-      "title": "One API for many models",
-      "description": "OpenRouter provides a single API that routes requests to more than 500 models from over 80 providers."
+      "title": "Send a request with your API key",
+      "description": "Create an API key and send a request. The API follows the OpenAI request format, so existing clients can switch with few changes."
     },
     {
-      "title": "Compare model prices",
-      "description": "OpenRouter provides a single API that routes requests to more than 500 models from over 80 providers."
+      "title": "Let routing handle fallback",
+      "description": "The single API routes each request to models from more than 80 providers and handles provider fallback when one provider fails."
     },
     {
-      "title": "It handles provider fallback",
-      "description": "It handles provider fallback, shows per-model prices and publishes usage rankings and benchmarks."
+      "title": "Compare models in chat",
+      "description": "Open the web chat to compare models side by side, and check the usage rankings, benchmarks and per-model prices the site publishes."
     }
   ]
 }

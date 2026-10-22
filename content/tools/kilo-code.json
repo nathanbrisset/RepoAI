@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Kilo Code",
-      "description": "Open the official Kilo Code website.",
+      "description": "Open Kilo Code and choose Get Started. Install the coding agent in VS Code, add it to a JetBrains IDE, use the CLI, or open the cloud service.",
       "links": [
         {
           "label": "Kilo Code",
@@ -42,16 +42,16 @@
       ]
     },
     {
-      "title": "An open-source coding agent with any model",
-      "description": "Kilo Code is an open-source AI coding agent that runs in VS Code, JetBrains IDEs, a CLI and a cloud service."
+      "title": "Choose a model",
+      "description": "Choose from more than 500 models at provider prices, bring your own keys, or use local models. Individual use is free and open source, and model usage is billed separately."
     },
     {
-      "title": "Users can choose from more than 500 models at provider prices",
-      "description": "Users can choose from more than 500 models at provider prices, bring their own keys or use local models."
+      "title": "Move the agent with the work",
+      "description": "Start the agent in the IDE or the CLI, then continue it in the cloud. The page also shows a desktop app and a Slack mention."
     },
     {
-      "title": "Individual use is free and open source",
-      "description": "Individual use is free and open source, with model usage billed separately."
+      "title": "Add team management if you need it",
+      "description": "Teams is $15 for each user every month and adds team management. Enterprise plans add governance."
     }
   ]
 }

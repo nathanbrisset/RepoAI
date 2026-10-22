@@ -32,7 +32,7 @@
   "howToUse": [
     {
       "title": "Open Softr",
-      "description": "Open the official Softr website.",
+      "description": "Open Softr and start for free. Describe a business app in a prompt so the AI app builder can generate it. Softr builds the interface from that prompt.",
       "links": [
         {
           "label": "Softr",
@@ -41,16 +41,12 @@
       ]
     },
     {
-      "title": "Build client portals and internal tools without code",
-      "description": "Softr builds client portals, internal tools and business apps without code."
+      "title": "Add data and flows",
+      "description": "The app includes databases, workflows and forms. Softr syncs external sources, and you shape roles and permissions without code."
     },
     {
-      "title": "It includes its own databases",
-      "description": "It includes its own databases, workflows, forms, mobile apps and built-in AI agents, and syncs with external data sources."
-    },
-    {
-      "title": "An AI app builder can generate an app from a prompt",
-      "description": "An AI app builder can generate an app from a prompt, and an MCP server lets AI agents build tools."
+      "title": "Ship the portal",
+      "description": "Publish client portals or internal tools, turn on the built-in agents, and send out mobile apps. An MCP server lets other agents build alongside you."
     }
   ]
 }

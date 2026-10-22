@@ -32,7 +32,7 @@
   "howToUse": [
     {
       "title": "Open Tensor.Art",
-      "description": "Open the official Tensor.Art website.",
+      "description": "Open Tensor.Art, the model-sharing platform for community image models.",
       "links": [
         {
           "label": "Tensor.Art",
@@ -41,12 +41,16 @@
       ]
     },
     {
-      "title": "Run and share community image models online",
-      "description": "Tensor.Art is a model-sharing platform where users upload, download and run community image models, including Stable Diffusion checkpoints and LoRAs, and generate images and videos online."
+      "title": "Upload or download a model",
+      "description": "Upload your own model or download a community one, such as Stable Diffusion checkpoints or LoRAs, and run it online."
     },
     {
-      "title": "It also supports model training and remixing of shared works.",
-      "description": "It also supports model training and remixing of shared works."
+      "title": "Generate images and videos",
+      "description": "Generate images and videos from the model you are running."
+    },
+    {
+      "title": "Train or remix",
+      "description": "Tensor.Art supports model training, and you can start remixing shared works."
     }
   ]
 }

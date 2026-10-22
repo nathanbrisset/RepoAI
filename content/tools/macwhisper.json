@@ -30,8 +30,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open MacWhisper",
-      "description": "Open the official MacWhisper website.",
+      "title": "Open MacWhisper on Gumroad",
+      "description": "Open the MacWhisper page on Gumroad, where the native macOS app is sold.",
       "links": [
         {
           "label": "MacWhisper",
@@ -40,16 +40,12 @@
       ]
     },
     {
-      "title": "Transcribe audio files locally on my Mac",
-      "description": "MacWhisper transcribes audio and video files on the Mac using OpenAI's Whisper, Qwen and NVIDIA Parakeet models running locally."
+      "title": "Transcribe a recording locally",
+      "description": "Add an audio or video file. MacWhisper transcribes it with OpenAI Whisper, Qwen or NVIDIA Parakeet models running locally, so recordings are not uploaded for transcription."
     },
     {
-      "title": "It is sold on Gumroad",
-      "description": "It is sold on Gumroad: a free version is available, and MacWhisper Pro costs €65 for a personal licence, with volume licences for teams."
-    },
-    {
-      "title": "Volume licences range from 5 to 50 seats at lower per-licence prices.",
-      "description": "Volume licences range from 5 to 50 seats at lower per-licence prices."
+      "title": "Choose a licence",
+      "description": "Keep the free version, or buy the personal licence for MacWhisper Pro, which costs €65. Volume licences for teams range from 5 to 50 seats at lower per-licence prices."
     }
   ]
 }

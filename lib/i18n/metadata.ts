@@ -83,7 +83,7 @@ export function buildPageMetadata(locale: Locale, pathname: string): Metadata {
       type: "website",
       images: [
         {
-          url: "/og-image.png",
+          url: "/opengraph-image",
           width: 1200,
           height: 630,
           alt: translate(locale, "meta.ogAlt"),
@@ -94,7 +94,7 @@ export function buildPageMetadata(locale: Locale, pathname: string): Metadata {
       card: "summary_large_image",
       title,
       description,
-      images: ["/og-image.png"],
+      images: ["/opengraph-image"],
       site: "@aitoolsninja",
     },
     icons: {
