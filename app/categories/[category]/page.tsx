@@ -20,6 +20,7 @@ type PageProps = {
 
 export async function generateMetadata(props: PageProps) {
   const { category } = await props.params
+  if (!categories.some((item) => item.id === category)) notFound()
   return metadataFor(`/categories/${category}`)
 }
 

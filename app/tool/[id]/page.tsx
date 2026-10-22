@@ -22,6 +22,7 @@ type PageProps = {
 
 export async function generateMetadata({ params }: PageProps) {
   const { id } = await params
+  if (!allTools.some((tool) => tool.id === id)) notFound()
   return metadataFor(`/tool/${id}`)
 }
 

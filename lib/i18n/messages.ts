@@ -233,6 +233,9 @@ const en = {
     Freemium: "Freemium",
     Premium: "Premium",
     "Open source": "Open source",
+    Enterprise: "Enterprise",
+    "Usage-based": "Usage-based",
+    "One-time": "One-time",
   },
   status: {
     sunset: "Closed",
@@ -378,6 +381,96 @@ const en = {
       description: "AI-powered design tools for graphic design, UI/UX, and branding.",
       about:
         "Design AI tools assist designers in creating stunning visuals, layouts, and prototypes quickly and efficiently. They offer features like automated layout suggestions, asset generation, and branding support, making high-quality design accessible to everyone.",
+    },
+    "llm-chatbots": {
+      name: "LLM & Chatbots",
+      description: "I want to ask questions and get answers;I want to run models locally;I want one interface for many models",
+      about: "Subcategories: General assistants;Multi-model chat;Local LLM apps;Model APIs & routers;Character & companion chat. Audiences: everyone, students, Developers & engineering, Solopreneurs & freelancers.",
+    },
+    "ai-agents": {
+      name: "AI Agents",
+      description: "I want an AI to complete a multi-step task for me;I want to build my own agent",
+      about: "Subcategories: General-purpose agents;Agent builders & frameworks;Browser agents. Audiences: Operations & admin, Developers & engineering, Solopreneurs & freelancers.",
+    },
+    automation: {
+      name: "Automation & Workflows",
+      description: "I want to connect my apps and automate repetitive work",
+      about: "Subcategories: Workflow automation;Integrations platforms. Audiences: Operations & admin, Marketing & growth, Solopreneurs & freelancers.",
+    },
+    "no-code": {
+      name: "No-code & App Builders",
+      description: "I want to build an app or website without coding",
+      about: "Subcategories: AI app & website builders;Internal tools;Mobile app builders. Audiences: Founders & startups, Solopreneurs & freelancers, product, Marketing & growth.",
+    },
+    writing: {
+      name: "Writing & Content",
+      description: "I want to write faster and better;I want to translate text",
+      about: "Subcategories: Writing assistants;Grammar & paraphrasing;Fiction & storytelling;Translation. Audiences: writers, Marketing & growth, students.",
+    },
+    voice: {
+      name: "Voice & Speech",
+      description: "I want to generate voiceovers;I want to transcribe audio;I want a phone/voice agent",
+      about: "Subcategories: Text-to-speech & voice cloning;Speech-to-text & transcription;Voice agents;Dictation. Audiences: Content creators, Developers & engineering, Customer support.",
+    },
+    music: {
+      name: "Music & Audio",
+      description: "I want to create music;I want to clean up audio",
+      about: "Subcategories: Music generation;Stem separation;Mastering;Audio enhancement & podcasting. Audiences: musicians, Content creators, podcasters.",
+    },
+    meetings: {
+      name: "Meetings & Notes",
+      description: "I want automatic meeting notes and action items",
+      about: "Subcategories: AI notetakers;Meeting intelligence. Audiences: Sales & business development, managers, everyone.",
+    },
+    search: {
+      name: "Search & Research",
+      description: "I want answers with sources;I want to do a literature review",
+      about: "Subcategories: AI search engines;Academic research;Search APIs for agents. Audiences: researchers, students, analysts.",
+    },
+    data: {
+      name: "Data & Analytics",
+      description: "I want to analyze data and build dashboards",
+      about: "Subcategories: AI data analysis;BI & dashboards;Spreadsheets AI;ML platforms. Audiences: analysts, Operations & admin, Founders & startups, data scientists.",
+    },
+    sales: {
+      name: "Sales & CRM",
+      description: "I want to find leads and close deals",
+      about: "Subcategories: Prospecting & lead data;Cold outreach;Revenue intelligence;CRM. Audiences: Sales & business development, Founders & startups.",
+    },
+    support: {
+      name: "Customer Support",
+      description: "I want to automate customer support",
+      about: "Subcategories: AI support agents;Chatbot builders;Help desk AI. Audiences: Customer support, Operations & admin, e-commerce.",
+    },
+    hr: {
+      name: "HR & Recruiting",
+      description: "I want to source, screen and hire candidates",
+      about: "Subcategories: Sourcing;Interviewing & screening;Job descriptions & performance. Audiences: HR & recruiting, recruiters, managers.",
+    },
+    education: {
+      name: "Education & Learning",
+      description: "I want to learn or teach more effectively",
+      about: "Subcategories: Teacher tools;Study & homework help;Language learning. Audiences: students, teachers, parents.",
+    },
+    health: {
+      name: "Health & Medical",
+      description: "I want to reduce clinical documentation;I want to check symptoms",
+      about: "Subcategories: Clinical documentation;Clinical evidence;Symptom checkers. Audiences: clinicians, patients.",
+    },
+    legal: {
+      name: "Legal",
+      description: "I want to review contracts and speed up legal work",
+      about: "Subcategories: Contract review & drafting;Legal research. Audiences: lawyers, legal-ops, Founders & startups.",
+    },
+    finance: {
+      name: "Finance & Accounting",
+      description: "I want to research markets;I want to automate bookkeeping",
+      about: "Subcategories: Investment research;Accounting automation;Personal finance. Audiences: Finance, Founders & startups, consumers.",
+    },
+    security: {
+      name: "Security",
+      description: "I want to secure my code and AI apps",
+      about: "Subcategories: Application security;Supply-chain security;AI/LLM security. Audiences: Developers & engineering, security teams.",
     },
   },
 }
@@ -613,6 +706,9 @@ const fr: typeof en = {
     Freemium: "Freemium",
     Premium: "Premium",
     "Open source": "Open source",
+    Enterprise: "Entreprise",
+    "Usage-based": "À l'usage",
+    "One-time": "Paiement unique",
   },
   status: {
     sunset: "Fermé",
@@ -711,41 +807,11 @@ const fr: typeof en = {
       about:
         "Ces outils s'appuient sur des modèles de langage pour aider à écrire : rédaction, création de contenu, résumé, traduction et correction. Ils servent à produire un texte plus vite, que l'on soit marketeur, étudiant, chercheur ou entreprise.",
     },
-    image: {
-      name: "Génération d'images",
-      description: "Outils d'IA pour créer, retoucher et améliorer des images.",
-      about:
-        "Ces outils créent, transforment et améliorent des images. Ils peuvent produire une image à partir d'un texte, agrandir une photo, retirer un fond ou appliquer un effet, sans exiger une formation de graphiste.",
-    },
     audio: {
       name: "Audio et voix",
       description: "Outils d'IA pour le traitement audio, la synthèse vocale et la transcription.",
       about:
         "Ces outils traitent, génèrent et transforment l'audio, y compris la synthèse vocale et le clonage de voix. On y trouve la transcription, la réduction de bruit et la génération de voix pour les podcasts, les vidéos et d'autres usages.",
-    },
-    video: {
-      name: "Création vidéo",
-      description: "Outils d'IA pour générer, monter et améliorer des vidéos.",
-      about:
-        "Ces outils automatisent et enrichissent la production vidéo. Ils peuvent générer une vidéo à partir d'un script, ajouter des effets, créer des sous-titres et aider à raconter. La vidéo devient plus rapide à produire pour les créateurs, les équipes marketing et les formateurs.",
-    },
-    coding: {
-      name: "Code",
-      description: "Assistants de code et outils pour les développeurs.",
-      about:
-        "Ces assistants aident à générer du code, à le déboguer, à le relire et à apprendre un langage. Ils font gagner du temps et accompagnent les développeurs, quel que soit leur niveau, dans la construction et la maintenance des logiciels.",
-    },
-    marketing: {
-      name: "Marketing",
-      description: "Outils d'IA pour l'automatisation marketing, le contenu et l'analyse.",
-      about:
-        "Ces outils aident à automatiser des campagnes, personnaliser des messages, analyser des données et améliorer un contenu. Ils servent à toucher une audience et à suivre les résultats dans un environnement numérique concurrentiel.",
-    },
-    productivity: {
-      name: "Productivité",
-      description: "Outils d'IA pour automatiser des tâches, gérer des projets et fluidifier le travail.",
-      about:
-        "Ces outils allègent les flux de travail, automatisent les tâches répétitives et aident à s'organiser, seul ou en équipe. De l'agenda intelligent à la prise de notes, ils libèrent du temps pour l'essentiel.",
     },
     "data-processing": {
       name: "Traitement de données",
@@ -753,11 +819,149 @@ const fr: typeof en = {
       about:
         "Ces outils aident à extraire des enseignements, à automatiser des flux de données et à décider à partir de chiffres. Ils couvrent le nettoyage, la transformation, l'analyse et la visualisation, pour la business intelligence, la recherche et l'analytique.",
     },
-    design: {
-      name: "Design",
-      description: "Outils de design assistés par l'IA, pour le graphisme, l'UI et l'identité.",
+    "llm-chatbots": {
+      name: "LLM et chatbots",
+      description: "Je veux poser des questions et obtenir des réponses;Je veux faire tourner des modèles en local;Je veux une seule interface pour plusieurs modèles",
       about:
-        "Ces outils aident à produire des visuels, des mises en page et des prototypes plus vite. Suggestions de mise en page, génération d'éléments et aide à l'identité visuelle : le design devient accessible sans être réservé aux spécialistes.",
+        "Sous-catégories : assistants généraux;chat multi-modèles;applications de LLM locales;API et routeurs de modèles;chat de personnages et de compagnons. Publics : tout le monde, étudiants, développement et ingénierie, indépendants et freelances.",
+    },
+    "ai-agents": {
+      name: "Agents IA",
+      description: "Je veux qu'une IA mène une tâche en plusieurs étapes pour moi;Je veux construire mon propre agent",
+      about:
+        "Sous-catégories : agents généralistes;constructeurs et frameworks d'agents;agents de navigation. Publics : opérations et administration, développement et ingénierie, indépendants et freelances.",
+    },
+    automation: {
+      name: "Automatisation et workflows",
+      description: "Je veux connecter mes applications et automatiser le travail répétitif",
+      about:
+        "Sous-catégories : automatisation de workflows;plateformes d'intégrations. Publics : opérations et administration, marketing et croissance, indépendants et freelances.",
+    },
+    coding: {
+      name: "Code et outils de développement",
+      description: "Je veux écrire, relire ou livrer du code plus vite",
+      about:
+        "Sous-catégories : éditeurs de code IA;agents de code en ligne de commande;agents de code dans le cloud;relecture de code par IA;backend et base de données;API pour développeurs. Publics : développement et ingénierie, responsables engineering.",
+    },
+    "no-code": {
+      name: "No-code et créateurs d'applications",
+      description: "Je veux créer une application ou un site sans coder",
+      about:
+        "Sous-catégories : créateurs d'applications et de sites par IA;outils internes;créateurs d'applications mobiles. Publics : fondateurs et start-up, indépendants et freelances, produit, marketing et croissance.",
+    },
+    writing: {
+      name: "Rédaction et contenu",
+      description: "Je veux écrire plus vite et mieux;Je veux traduire du texte",
+      about:
+        "Sous-catégories : assistants de rédaction;grammaire et reformulation;fiction et récit;traduction. Publics : auteurs, marketing et croissance, étudiants.",
+    },
+    image: {
+      name: "Génération et retouche d'images",
+      description: "Je veux créer ou retoucher des images",
+      about:
+        "Sous-catégories : texte vers image;retouche photo et suppression de fond;agrandissement;hubs de modèles. Publics : créateurs de contenu, designers, marketing et croissance, e-commerce.",
+    },
+    video: {
+      name: "Vidéo",
+      description: "Je veux créer des vidéos à partir de texte;Je veux monter ou découper des vidéos;Je veux des avatars ou des publicités UGC",
+      about:
+        "Sous-catégories : texte ou image vers vidéo;avatars et publicités UGC;montage vidéo et sous-titres;extraits et réutilisation. Publics : créateurs de contenu, marketing et croissance, formation.",
+    },
+    voice: {
+      name: "Voix et parole",
+      description: "Je veux générer des voix off;Je veux transcrire de l'audio;Je veux un agent vocal ou téléphonique",
+      about:
+        "Sous-catégories : synthèse vocale et clonage de voix;transcription;agents vocaux;dictée. Publics : créateurs de contenu, développement et ingénierie, support client.",
+    },
+    music: {
+      name: "Musique et audio",
+      description: "Je veux créer de la musique;Je veux nettoyer de l'audio",
+      about:
+        "Sous-catégories : génération de musique;séparation de pistes;mastering;amélioration audio et podcast. Publics : musiciens, créateurs de contenu, podcasteurs.",
+    },
+    design: {
+      name: "Design et interface",
+      description: "Je veux concevoir des visuels, des interfaces, des logos ou des produits",
+      about:
+        "Sous-catégories : design graphique;design UI/UX;logo et identité;3D et design produit;couleurs et polices. Publics : designers, produit, marketing et croissance.",
+    },
+    meetings: {
+      name: "Réunions et notes",
+      description: "Je veux des notes de réunion et des actions automatiques",
+      about:
+        "Sous-catégories : preneurs de notes IA;intelligence de réunion. Publics : ventes et développement commercial, managers, tout le monde.",
+    },
+    productivity: {
+      name: "Productivité et espace de travail",
+      description: "Je veux organiser mon travail et gagner du temps;Je veux faire des présentations",
+      about:
+        "Sous-catégories : e-mail;agenda et planification;documents et notes;présentations;navigateurs IA;recherche d'entreprise. Publics : tout le monde, managers, indépendants et freelances.",
+    },
+    search: {
+      name: "Recherche",
+      description: "Je veux des réponses avec des sources;Je veux faire une revue de littérature",
+      about:
+        "Sous-catégories : moteurs de recherche IA;recherche académique;API de recherche pour les agents. Publics : chercheurs, étudiants, analystes.",
+    },
+    data: {
+      name: "Données et analytique",
+      description: "Je veux analyser des données et construire des tableaux de bord",
+      about:
+        "Sous-catégories : analyse de données par IA;BI et tableaux de bord;IA pour tableurs;plateformes de machine learning. Publics : analystes, opérations et administration, fondateurs et start-up, data scientists.",
+    },
+    marketing: {
+      name: "Marketing et SEO",
+      description: "Je veux être visible dans la recherche et les réponses IA;Je veux créer des publicités;Je veux grandir sur les réseaux sociaux",
+      about:
+        "Sous-catégories : SEO et visibilité dans la recherche IA;publicités et créations;réseaux sociaux;e-mail marketing. Publics : marketing et croissance, créateurs de contenu, indépendants et freelances.",
+    },
+    sales: {
+      name: "Ventes et CRM",
+      description: "Je veux trouver des prospects et conclure des ventes",
+      about:
+        "Sous-catégories : prospection et données de leads;prospection à froid;intelligence du revenu;CRM. Publics : ventes et développement commercial, fondateurs et start-up.",
+    },
+    support: {
+      name: "Support client",
+      description: "Je veux automatiser le support client",
+      about:
+        "Sous-catégories : agents de support IA;constructeurs de chatbots;IA pour centre d'aide. Publics : support client, opérations et administration, e-commerce.",
+    },
+    hr: {
+      name: "RH et recrutement",
+      description: "Je veux sourcer, présélectionner et recruter des candidats",
+      about:
+        "Sous-catégories : sourcing;entretiens et présélection;fiches de poste et performance. Publics : RH et recrutement, recruteurs, managers.",
+    },
+    education: {
+      name: "Éducation et apprentissage",
+      description: "Je veux apprendre ou enseigner plus efficacement",
+      about:
+        "Sous-catégories : outils pour enseignants;aide aux devoirs et à l'étude;apprentissage des langues. Publics : étudiants, enseignants, parents.",
+    },
+    health: {
+      name: "Santé et médical",
+      description: "Je veux réduire la documentation clinique;Je veux vérifier des symptômes",
+      about:
+        "Sous-catégories : documentation clinique;preuves cliniques;vérificateurs de symptômes. Publics : cliniciens, patients.",
+    },
+    legal: {
+      name: "Juridique",
+      description: "Je veux relire des contrats et accélérer le travail juridique",
+      about:
+        "Sous-catégories : relecture et rédaction de contrats;recherche juridique. Publics : avocats, opérations juridiques, fondateurs et start-up.",
+    },
+    finance: {
+      name: "Finance et comptabilité",
+      description: "Je veux étudier les marchés;Je veux automatiser la comptabilité",
+      about:
+        "Sous-catégories : recherche d'investissement;automatisation comptable;finances personnelles. Publics : finance, fondateurs et start-up, particuliers.",
+    },
+    security: {
+      name: "Sécurité",
+      description: "Je veux sécuriser mon code et mes applications d'IA",
+      about:
+        "Sous-catégories : sécurité applicative;sécurité de la chaîne d'approvisionnement;sécurité de l'IA et des LLM. Publics : développement et ingénierie, équipes sécurité.",
     },
   },
 }
