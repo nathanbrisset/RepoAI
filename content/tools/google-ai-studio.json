@@ -1,7 +1,7 @@
 {
   "affiliateUrl": "",
   "logo": "/logos/google-ai-studio.png",
-  "image": "",
+  "image": "/screenshots/google-ai-studio.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -30,5 +30,35 @@
     "https://aistudio.google.com",
     "https://ai.google.dev/gemini-api/docs/pricing",
     "https://one.google.com/about/google-ai-plans/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open AI Studio",
+      "description": "The welcome page says to go from a prompt to production and offers Get started.",
+      "links": [
+        {
+          "label": "Google AI Studio",
+          "url": "https://aistudio.google.com/welcome"
+        }
+      ]
+    },
+    {
+      "title": "Try a model",
+      "description": "The page lists Gemini, Nano Banana, Veo, Gemini TTS, Gemini Live, Omni, and Lyria as models you can experiment with."
+    },
+    {
+      "title": "Get an API key",
+      "description": "The page says to get an API key and use an official GenAI SDK for Python, JavaScript, Go, Java, or C++."
+    },
+    {
+      "title": "Remix a project, or read the docs",
+      "description": "Featured projects can be remixed from the gallery. Documentation is linked from the page.",
+      "links": [
+        {
+          "label": "Documentation",
+          "url": "https://aistudio.google.com/docs"
+        }
+      ]
+    }
   ]
 }

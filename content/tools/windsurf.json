@@ -1,7 +1,7 @@
 {
   "affiliateUrl": "",
   "logo": "/logos/windsurf.png",
-  "image": "",
+  "image": "/screenshots/windsurf.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "renamed",
@@ -27,5 +27,31 @@
   "statusNote": "windsurf.com redirects to devin.ai/desktop. The validated lot lists the current product as Devin (incl. Windsurf).",
   "sources": [
     "https://devin.ai/desktop"
+  ],
+  "howToUse": [
+    {
+      "title": "Download Devin Desktop",
+      "description": "The fiche URL opens the Devin Desktop page. It says to download the app and manage local and cloud agents from one surface.",
+      "links": [
+        {
+          "label": "Devin Desktop",
+          "url": "https://devin.ai/desktop"
+        }
+      ]
+    },
+    {
+      "title": "Plan, delegate, review, and ship",
+      "description": "That is the sequence the page uses for work that stays in the editor."
+    },
+    {
+      "title": "Run the agents you need",
+      "description": "The page says one space holds every agent, with local and cloud agents together.",
+      "links": [
+        {
+          "label": "Devin Desktop FAQ",
+          "url": "https://docs.devin.ai/desktop/devin-desktop-faq"
+        }
+      ]
+    }
   ]
 }

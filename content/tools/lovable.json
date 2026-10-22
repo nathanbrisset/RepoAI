@@ -1,6 +1,6 @@
 {
   "logo": "/logos/lovable.png",
-  "image": "",
+  "image": "/screenshots/lovable.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -27,5 +27,35 @@
   },
   "sources": [
     "https://lovable.dev"
+  ],
+  "howToUse": [
+    {
+      "title": "Create an account",
+      "description": "The docs say you can start for free with email, Google, GitHub, or Apple.",
+      "links": [
+        {
+          "label": "Lovable",
+          "url": "https://lovable.dev"
+        }
+      ]
+    },
+    {
+      "title": "Describe what you want",
+      "description": "The homepage says to describe the product in plain language. The docs say Lovable generates a working application, including frontend, backend, database, authentication, and integrations."
+    },
+    {
+      "title": "Review and iterate",
+      "description": "The homepage says to refine the design, then ship it. The docs say to review the app and iterate."
+    },
+    {
+      "title": "Publish, then sync the code",
+      "description": "The docs say to publish to a live URL, and, when you want the code in your own pipeline, sync it to GitHub, GitLab, or Bitbucket.",
+      "links": [
+        {
+          "label": "Lovable docs",
+          "url": "https://docs.lovable.dev/introduction/welcome"
+        }
+      ]
+    }
   ]
 }

@@ -23,11 +23,41 @@
     "sourceUrl": "https://recapo.ai/pricing/"
   },
   "logo": "/logos/recapo.png",
-  "image": "",
+  "image": "/screenshots/recapo.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://recapo.ai/",
     "https://recapo.ai/pricing/"
+  ],
+  "howToUse": [
+    {
+      "title": "Upload footage",
+      "description": "Upload a video or drop a link. The page says this is step 01.",
+      "links": [
+        {
+          "label": "Recapo",
+          "url": "https://recapo.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Let AI make a rough cut",
+      "description": "Step 02 on the page is an AI rough cut of the footage."
+    },
+    {
+      "title": "Fine-tune the edit",
+      "description": "Step 03 is to refine the edit and add B-roll."
+    },
+    {
+      "title": "Schedule publishing",
+      "description": "Step 04 is to schedule publishing. The page says a video can be published automatically to YouTube.",
+      "links": [
+        {
+          "label": "Product guide",
+          "url": "https://recapo.ai/product-guide/"
+        }
+      ]
+    }
   ]
 }

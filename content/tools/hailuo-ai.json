@@ -21,11 +21,35 @@
     "sourceUrl": "https://hailuoai.video"
   },
   "logo": "/logos/hailuo-ai.png",
-  "image": "",
+  "image": "/screenshots/hailuo-ai.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://hailuoai.video",
     "https://hailuoai.video/subscribe"
+  ],
+  "howToUse": [
+    {
+      "title": "Choose video or image",
+      "description": "The homepage has Create Video and Create Image, plus Hailuo Agent.",
+      "links": [
+        {
+          "label": "Hailuo AI",
+          "url": "https://hailuoai.video/"
+        }
+      ]
+    },
+    {
+      "title": "Describe what you want",
+      "description": "The video field asks you to describe the content. Its example is a child flying a kite in a park, with golden sunlight and the camera tilting up."
+    },
+    {
+      "title": "Set references and format",
+      "description": "The composer shows a reference slot, a model choice, a duration, and an aspect ratio. MiniMax H3 is the model marked live on the page."
+    },
+    {
+      "title": "Create",
+      "description": "Press Create. The page also links MiniMax H3 tutorials for open-weight projects and workflows."
+    }
   ]
 }

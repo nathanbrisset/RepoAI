@@ -1,7 +1,7 @@
 {
   "affiliateUrl": "",
   "logo": "/logos/bolt.png",
-  "image": "",
+  "image": "/screenshots/bolt.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -29,5 +29,31 @@
   "sources": [
     "https://bolt.new",
     "https://bolt.new/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Describe what to build",
+      "description": "The homepage says to create apps and websites by chatting with AI. Get Started is the account entry.",
+      "links": [
+        {
+          "label": "Bolt",
+          "url": "https://bolt.new/"
+        }
+      ]
+    },
+    {
+      "title": "Plan, build, or start from something you have",
+      "description": "The prompt offers Plan and Build now, and says you can start from Figma, GitHub, or a team template. You can also select an element on the preview."
+    },
+    {
+      "title": "Let Bolt pick the model",
+      "description": "The page says Bolt routes each task to a model and tests, refactors, and iterates while it builds.",
+      "links": [
+        {
+          "label": "Help Center",
+          "url": "https://support.bolt.new/"
+        }
+      ]
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "affiliateUrl": "",
   "logo": "/logos/manus.png",
-  "image": "",
+  "image": "/screenshots/manus.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -29,5 +29,31 @@
   "sources": [
     "https://manus.im/pricing",
     "https://help.manus.im/en/articles/11711111-what-is-the-current-membership-pricing-for-manus"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up and tell Manus the task",
+      "description": "The homepage asks what it can do for you, with starters for slides, a website, games, video, and design.",
+      "links": [
+        {
+          "label": "Manus",
+          "url": "https://manus.im/"
+        }
+      ]
+    },
+    {
+      "title": "Pick a starter or type your own request",
+      "description": "The visible starters are Create slides, Build website, Create games, Video, and Design."
+    },
+    {
+      "title": "Use the docs when you need them",
+      "description": "Docs and the help center are linked from the page.",
+      "links": [
+        {
+          "label": "Manus docs",
+          "url": "https://manus.im/docs"
+        }
+      ]
+    }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "id": "neurallove",
   "name": "Neural.love Video Enhancer",
-  "url": "https://neural.love/video-enhancer",
+  "url": "https://neural.love/video",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Neural.love offers AI-powered upscaling, colorization, and restoration for old or damaged video footage, making your archives shine.",
-  "description": "Neural.love offers AI-powered upscaling, colorization, and restoration for old or damaged video footage, making your archives shine.\n\nUse AI tools to enhance videos, generate and edit images, create AI art, and animate photos in your browser. Explore neural.love and start creating today.\n\nAI upscaling: Transform SD or low-quality footage into crisp HD or 4K with advanced deep learning. Colorization: Automatically colorize black-and-white videos for a modern, vibrant look. Scratch and noise removal: Remove physical and digital imperfections from aged footage. Frame interpolation: Generate additional frames for smoother slow-motion or restored framerate.",
+  "description": "Neural.love offers AI-powered upscaling, colorization, and restoration for old or damaged video footage, making your archives shine.\n\nThe video enhancer page is titled AI Video Enhancer. It lists 4K upscaling, an FPS boost, colorization, and facial restoration. The old /video-enhancer path is not a route of the site and returns 404 after the app loads.",
   "categories": [
     "video",
     "productivity"
@@ -22,45 +22,46 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/neurallove.png",
-  "image": "/tool-screenshots/neurallove.png",
+  "image": "/screenshots/neurallove.webp",
   "dateAdded": "2025-06-13",
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "features": [
-    "AI upscaling: Transform SD or low-quality footage into crisp HD or 4K with advanced deep learning.",
-    "Colorization: Automatically colorize black-and-white videos for a modern, vibrant look.",
-    "Scratch and noise removal: Remove physical and digital imperfections from aged footage.",
-    "Frame interpolation: Generate additional frames for smoother slow-motion or restored framerate."
+    "4K upscaling.",
+    "FPS boost.",
+    "Colorization.",
+    "Facial restoration."
   ],
   "howToUse": [
     {
-      "title": "Sign Up and Log In",
-      "description": "Go to Neural.love, create an account, and log in to the video enhancer dashboard.",
+      "title": "Sign up",
+      "description": "Open the AI Video Enhancer and sign up.",
       "links": [
         {
-          "label": "Neural.love Video Enhancer",
-          "url": "https://neural.love/video-enhancer"
+          "label": "AI Video Enhancer",
+          "url": "https://neural.love/video"
         }
       ]
     },
     {
-      "title": "Upload Your Video",
-      "description": "Click 'Upload Video' and select your source file (supported formats: MP4, MOV, etc.)."
+      "title": "Upload a video",
+      "description": "Upload a file. The page lists MOV, MP4, MKV, AVI, and more."
     },
     {
-      "title": "Choose Enhancement Options",
-      "description": "Select upscaling, colorization, scratch removal, noise reduction, or frame interpolation. Combine features as needed."
+      "title": "Choose enhancements",
+      "description": "The page offers 4K upscaling, an FPS boost, colorization, and facial restoration."
     },
     {
-      "title": "Set Output Preferences",
-      "description": "Choose output resolution (HD, 4K), format, and other preferences before starting."
+      "title": "Preview",
+      "description": "Preview the result before processing the full file."
     },
     {
-      "title": "Process Video with AI",
-      "description": "Start the enhancement process. Neural.love’s AI will apply selected features and show progress."
+      "title": "Process in the cloud",
+      "description": "The page says the video is processed in the cloud."
     },
     {
-      "title": "Preview and Download",
-      "description": "Preview the enhanced video to review quality. Download your high-quality, restored video or tweak settings and reprocess if needed."
+      "title": "Download",
+      "description": "Download the result as MP4 (H264) or MOV (ProRes 422)."
     }
-  ]
+  ],
+  "statusNote": "https://neural.love/video-enhancer is not a current route (404 after the app loads). The video enhancer is https://neural.love/video."
 }
