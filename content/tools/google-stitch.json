@@ -1,0 +1,48 @@
+{
+  "id": "google-stitch",
+  "name": "Google Stitch",
+  "url": "https://stitch.withgoogle.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Google tool that generates user interface designs for mobile and web apps.",
+  "description": "Stitch is a Google tool that generates user interfaces for mobile and web applications, aimed at making design ideation faster. Users describe the screen they want and receive generated UI designs to iterate on.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "ui-generation",
+    "google",
+    "prototyping"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "https://www.gstatic.com/labs-code/stitch/favicon-512x512.png",
+  "image": "/screenshots/google-stitch.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://stitch.withgoogle.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Google Stitch",
+      "description": "Go to Google Stitch, the Google tool that generates user interfaces.",
+      "links": [
+        {
+          "label": "Google Stitch",
+          "url": "https://stitch.withgoogle.com/"
+        }
+      ]
+    },
+    {
+      "title": "Describe the screen",
+      "description": "Describe the screen you want for a mobile or web application."
+    },
+    {
+      "title": "Iterate on the generated designs",
+      "description": "Receive the generated UI designs and iterate on them. The aim is making design ideation faster."
+    }
+  ]
+}

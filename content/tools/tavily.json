@@ -1,0 +1,57 @@
+{
+  "id": "tavily",
+  "name": "Tavily",
+  "url": "https://www.tavily.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Real-time search, extraction and crawling APIs for AI agents.",
+  "description": "Tavily provides APIs that give AI agents access to the web: search, extraction of clean content, research, crawling and site mapping. The Researcher plan is free with 1,000 API credits per month; pay-as-you-go costs $0.008 per credit, and monthly Project plans start at $30. Startups can apply for 100,000 free credits, and students can use it for free. The company also offers industry solutions for finance and insurance.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "search-api",
+    "extraction",
+    "crawl",
+    "agents"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": true,
+    "note": "$0.008/credit",
+    "sourceUrl": "https://www.tavily.com/pricing"
+  },
+  "logo": "https://www.tavily.com/icon.svg?icon.0v6b1ltlljvdd.svg",
+  "image": "/screenshots/tavily.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.tavily.com/",
+    "https://www.tavily.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Tavily",
+      "description": "Open Tavily and start for free so your agents can reach the web through the API.",
+      "links": [
+        {
+          "label": "Tavily",
+          "url": "https://www.tavily.com/"
+        }
+      ]
+    },
+    {
+      "title": "Search the web",
+      "description": "Copy the setup prompt, then call search so the agent gets relevant web results."
+    },
+    {
+      "title": "Extract, research, crawl, or map",
+      "description": "Use extraction when you need clean content, research for a deeper question, crawling for a whole site, or mapping to list URLs."
+    },
+    {
+      "title": "Check credits and industries",
+      "description": "Researcher includes 1,000 API credits each month. Startups can apply for a larger grant, and students can use Tavily without paying. The company offers industry solutions for finance and for insurance."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "smartlead",
+  "name": "Smartlead",
+  "url": "https://www.smartlead.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Cold email platform with unlimited mailboxes, AI warm-up, lead finding and deliverability infrastructure.",
+  "description": "Smartlead sends cold email at scale across unlimited mailboxes with AI warm-up, and adds SmartProspect for verified leads, AI agents, dedicated sending servers and an AI dialer. It is used by agencies and outbound teams. A free trial is offered; plan prices were partly readable on the pricing page. The company publishes case studies and free tools for email authentication and deliverability. Its site offered 50% off the first month during this check.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "cold-email",
+    "mailboxes",
+    "warmup",
+    "agency"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "sourceUrl": "https://www.smartlead.ai/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/6204a703ff61516512c04f55/6a6af43a310b5f2fbb4b5083_512.png",
+  "image": "/screenshots/smartlead.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.smartlead.ai/",
+    "https://www.smartlead.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Smartlead",
+      "description": "Open Smartlead and start the trial that is offered. Agencies and outbound teams use it when Smartlead sends cold email at scale.",
+      "links": [
+        {
+          "label": "Smartlead",
+          "url": "https://www.smartlead.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Set mailboxes and leads",
+      "description": "Add unlimited mailboxes with AI warm-up. Use SmartProspect for verified leads and SmartAgents as the outreach agents."
+    },
+    {
+      "title": "Add servers and the dialer",
+      "description": "Turn on dedicated sending servers, then call with the AI dialer. Read the case studies the company publishes."
+    },
+    {
+      "title": "Check authentication and pricing",
+      "description": "Use the SPF, DKIM and DMARC checkers for email authentication and deliverability. Open pricing: prices were partly readable, and during this check the site offered 50% off the first month."
+    }
+  ]
+}

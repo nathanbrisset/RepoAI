@@ -1,0 +1,58 @@
+{
+  "id": "myedit",
+  "name": "MyEdit",
+  "url": "https://myedit.online/en",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An AI-powered audio editing platform that helps create professional-quality audio content with automated editing features.",
+  "description": "An AI-powered audio editing platform that helps create professional-quality audio content with automated editing features.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "audio",
+    "speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Box cannot reach myedit.io; web search + curl: official site is myedit.online (title 'MyEdit: Online AI Editor for Image, Video & Audio'); pricing page myedit.online/en/pricing via search: free tier with daily credits, paid from $5/month annually"
+  },
+  "logo": "/logos/myedit.png",
+  "image": "/screenshots/myedit.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI audio processing: MyEdit supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Register & Access MyEdit",
+      "description": "Create an account and log in to MyEdit’s interface.",
+      "links": [
+        {
+          "label": "MyEdit",
+          "url": "https://myedit.online/en"
+        }
+      ]
+    },
+    {
+      "title": "Upload Audio Files",
+      "description": "Add recordings or music for editing."
+    },
+    {
+      "title": "Apply AI Editing Tools",
+      "description": "Use noise reduction, transcription, and other enhancement features."
+    },
+    {
+      "title": "Review & Export",
+      "description": "Preview changes and export the final audio for use."
+    }
+  ],
+  "statusNote": "Box cannot reach myedit.io; web search + curl: official site is myedit.online (title 'MyEdit: Online AI Editor for Image, Video & Audio'); pricing page myedit.online/en/pricing via search: free tier with daily credits, paid from $5/month annually"
+}

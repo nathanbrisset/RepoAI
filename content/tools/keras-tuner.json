@@ -1,0 +1,52 @@
+{
+  "id": "keras-tuner",
+  "name": "Keras Tuner",
+  "url": "https://keras.io/keras_tuner/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Hyperparameter tuning library for Keras models.",
+  "description": "Hyperparameter tuning library for Keras models.\n\nHyperparameter Optimization: Automates the search for optimal model parameters. Integration with Keras: Works seamlessly with Keras models. Support for Various Search Algorithms: Includes random search, Bayesian optimization, and more. Scalability: Can be used for tuning models on large datasets.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "machine-learning",
+    "hyperparameter-tuning"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/keras-tuner.png",
+  "image": "/screenshots/keras-tuner.webp",
+  "dateAdded": "2023-10-01",
+  "lastVerified": null,
+  "features": [
+    "Hyperparameter Optimization: Automates the search for optimal model parameters.",
+    "Integration with Keras: Works seamlessly with Keras models.",
+    "Support for Various Search Algorithms: Includes random search, Bayesian optimization, and more.",
+    "Scalability: Can be used for tuning models on large datasets."
+  ],
+  "howToUse": [
+    {
+      "title": "Install Keras Tuner",
+      "description": "Add keras-tuner to your Python environment.",
+      "links": [
+        {
+          "label": "Keras Tuner",
+          "url": "https://keras.io/keras_tuner"
+        }
+      ]
+    },
+    {
+      "title": "Define Search Space",
+      "description": "Specify hyperparameters and search algorithms in your model pipeline."
+    },
+    {
+      "title": "Run Tuning",
+      "description": "Execute the search and select the best model configuration."
+    }
+  ]
+}

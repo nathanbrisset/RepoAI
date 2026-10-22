@@ -1,0 +1,56 @@
+{
+  "id": "askcodi",
+  "name": "AskCodi",
+  "url": "https://www.askcodi.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An AI agency that runs itself. Give AskCodi a goal: the scope comes back in writing, the work arrives for your sign off, and the account stays open after launch.",
+  "description": "An AI agency that runs itself. Give AskCodi a goal: the scope comes back in writing, the work arrives for your sign off, and the account stays open after launch.\n\nCode suggestions: Provides code snippets based on input. Question answering: Answers coding-related queries. Supports multiple languages: Handles various programming languages. IDE integration: Compatible with popular code editors.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "code-suggestions",
+    "coding-questions"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/askcodi.png",
+  "image": "/screenshots/askcodi.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Code suggestions: Provides code snippets based on input.",
+    "Question answering: Answers coding-related queries.",
+    "Supports multiple languages: Handles various programming languages.",
+    "IDE integration: Compatible with popular code editors."
+  ],
+  "howToUse": [
+    {
+      "title": "Install AskCodi Extension",
+      "description": "Add AskCodi to your IDE or browser from the extension store.",
+      "links": [
+        {
+          "label": "AskCodi",
+          "url": "https://www.askcodi.com/"
+        }
+      ]
+    },
+    {
+      "title": "Input Query or Task",
+      "description": "Type your coding question or task description."
+    },
+    {
+      "title": "Receive Code Suggestions",
+      "description": "Review and insert suggested code or answers."
+    },
+    {
+      "title": "Edit and Use",
+      "description": "Modify AI-suggested code as needed for your project."
+    }
+  ]
+}

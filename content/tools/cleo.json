@@ -1,0 +1,53 @@
+{
+  "id": "cleo",
+  "name": "Cleo",
+  "url": "https://web.meetcleo.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI money assistant app that analyses spending and offers budgeting, credit and cash-advance features.",
+  "description": "Cleo is a personal finance app with an AI assistant that analyses spending, comments on habits and helps users budget and save. Subscriptions add credit support, a debt reset plan, cash advances, high-yield savings and early paycheck access.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "budgeting",
+    "personal-finance",
+    "cash-advance",
+    "app"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "The official pricing page lists Plus at $5.99/month, Pro at $8.99/month and Builder at $14.99/month. No $0 plan was shown on that page.",
+    "sourceUrl": "https://web.meetcleo.com/pricing"
+  },
+  "logo": "",
+  "image": "/screenshots/cleo.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://web.meetcleo.com/",
+    "https://web.meetcleo.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Cleo",
+      "description": "Go to Cleo and open the personal finance app and its AI assistant.",
+      "links": [
+        {
+          "label": "Cleo",
+          "url": "https://web.meetcleo.com/"
+        }
+      ]
+    },
+    {
+      "title": "Review spending and habits",
+      "description": "Ask the assistant, which analyses spending and comments on habits, to budget and save."
+    },
+    {
+      "title": "Add a subscription for more support",
+      "description": "Subscriptions add credit support, a debt reset, cash advances, high-yield savings and early paycheck access."
+    }
+  ]
+}

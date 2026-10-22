@@ -1,0 +1,59 @@
+{
+  "id": "tana",
+  "name": "Tana",
+  "url": "https://tana.inc/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Agentic meeting platform where AI agents capture calls and complete follow-up work.",
+  "description": "Tana is now an agentic meeting platform: AI agents join native video calls, capture what is said and complete follow-up work such as filing issues, drafting emails and updating tools. The company states this is separate from Tana Outliner, its note-taking product. The Free plan offers meeting memory; Pro costs $30 per user per month, with an early-bird price of $20, and includes 20 times the free AI usage.",
+  "categories": [
+    "meetings"
+  ],
+  "tags": [
+    "meetings",
+    "video-calls",
+    "agents",
+    "action-items"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$30/user/mo (Pro; $20 early bird)",
+    "sourceUrl": "https://tana.inc/pricing"
+  },
+  "logo": "https://tana.inc/logo/tana-symbol-mono-lightbg-tightcrop.svg",
+  "image": "/screenshots/tana.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://tana.inc/",
+    "https://tana.inc/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Tana",
+      "description": "Open Tana and download the app. Start native video calls so the agents on this agentic meeting platform can join.",
+      "links": [
+        {
+          "label": "Tana",
+          "url": "https://tana.inc/"
+        }
+      ]
+    },
+    {
+      "title": "Let the agents finish the work",
+      "description": "The agents capture what is said on the calls and complete the follow-up by filing issues, drafting emails and updating your other tools before you hang up."
+    },
+    {
+      "title": "Keep memory apart from Outliner",
+      "description": "The company states that this meeting platform is a separate product from Tana Outliner, the note-taking product. The Free plan offers meeting memory. Pro costs $30 per user each month, the early-bird price is $20, and Pro includes 20 times the free AI usage.",
+      "links": [
+        {
+          "label": "Tana Outliner",
+          "url": "https://outliner.tana.inc"
+        }
+      ]
+    }
+  ]
+}

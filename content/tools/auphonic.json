@@ -1,0 +1,58 @@
+{
+  "id": "auphonic",
+  "name": "Auphonic",
+  "url": "https://auphonic.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An audio post-production web service that uses AI to balance levels, equalize speech, and reduce noise for podcasts and videos.",
+  "description": "An audio post-production web service that uses AI to balance levels, equalize speech, and reduce noise for podcasts and videos.\n\nThe automatic audio post production webservice.\n\nAudio Leveling: Automatically balances audio levels. Noise & Hum Reduction: Cleans up background noise and hums. Loudness Normalization: Ensures consistent loudness across files. Multi-Track Processing: Processes multiple audio tracks simultaneously.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "audio-leveling",
+    "post-production",
+    "automation"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; pricing: Free 2h/month + paid credits",
+    "sourceUrl": "https://auphonic.com"
+  },
+  "logo": "/logos/auphonic.png",
+  "image": "/screenshots/auphonic.webp",
+  "dateAdded": "2023-03-20",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Audio Leveling: Automatically balances audio levels.",
+    "Noise & Hum Reduction: Cleans up background noise and hums.",
+    "Loudness Normalization: Ensures consistent loudness across files.",
+    "Multi-Track Processing: Processes multiple audio tracks simultaneously."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Auphonic",
+      "description": "Register on the Auphonic website to access the web app.",
+      "links": [
+        {
+          "label": "Auphonic",
+          "url": "https://auphonic.com"
+        }
+      ]
+    },
+    {
+      "title": "Upload Audio Files",
+      "description": "Add your recorded audio for post-production processing."
+    },
+    {
+      "title": "Configure Processing",
+      "description": "Select noise reduction, leveling, and other options."
+    },
+    {
+      "title": "Download Processed Audio",
+      "description": "Export the finished, balanced audio for publishing."
+    }
+  ]
+}

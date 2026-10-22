@@ -1,0 +1,64 @@
+{
+  "id": "anima",
+  "name": "Anima",
+  "url": "https://www.animaapp.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Anima bridges the gap between design and development by converting Figma, Adobe XD, and Sketch designs into developer-friendly React, HTML, and CSS code. It streamlines handoff, supports prototyping with real data, and enhances workflow for product teams.",
+  "description": "Anima bridges the gap between design and development by converting Figma, Adobe XD, and Sketch designs into developer-friendly React, HTML, and CSS code. It streamlines handoff, supports prototyping with real data, and enhances workflow for product teams.\n\nAnima is the design-aware AI agent that bridges creativity and code. From Figma files, URLs, or prompts, Anima generates real, production-ready apps, for product teams building directly, or coding platforms integrating via API. Powers Bolt.new and Replit.\n\nDesign-to-Code: Convert designs to React, HTML, and CSS. Prototyping with Real Data: Use real APIs in prototypes. Automatic Code Updates: Sync design changes instantly. Collaboration: Comment and iterate with teams.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "figma",
+    "sketch",
+    "code-generation",
+    "handoff"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/anima.png",
+  "image": "/screenshots/anima.webp",
+  "dateAdded": null,
+  "lastVerified": null,
+  "dateAddedNote": "The previous Added date was 2017-06-01. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Design-to-Code: Convert designs to React, HTML, and CSS.",
+    "Prototyping with Real Data: Use real APIs in prototypes.",
+    "Automatic Code Updates: Sync design changes instantly.",
+    "Collaboration: Comment and iterate with teams.",
+    "Plugin Support: Integrates with leading design tools."
+  ],
+  "howToUse": [
+    {
+      "title": "Create Account & Install Plugin",
+      "description": "Sign up on Anima and install the plugin for Figma, Sketch, or XD.",
+      "links": [
+        {
+          "label": "Anima",
+          "url": "https://animaapp.com"
+        }
+      ]
+    },
+    {
+      "title": "Sync Your Design",
+      "description": "Connect your design tool and sync your project to Anima."
+    },
+    {
+      "title": "Convert to Code",
+      "description": "Let Anima generate React, HTML, or CSS code from your design."
+    },
+    {
+      "title": "Prototype with Real Data",
+      "description": "Integrate live data or APIs to test interactive prototypes."
+    },
+    {
+      "title": "Collaborate and Export",
+      "description": "Share projects with your team and export code for development."
+    }
+  ]
+}

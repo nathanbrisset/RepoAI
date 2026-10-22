@@ -1,0 +1,56 @@
+{
+  "id": "harvey",
+  "name": "Harvey",
+  "url": "https://www.harvey.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI platform for law firms and corporate legal teams covering research, drafting and review.",
+  "description": "Harvey provides AI tailored to legal work for law firms, corporate legal teams and professional services firms. It supports contract analysis, due diligence, compliance, litigation, research and drafting through a platform with agents and workflows. The company announced raising $550M at a $15.5B valuation. No public prices are listed. Use cases are organised by practice area and customer type. The platform is available to firms worldwide.",
+  "categories": [
+    "legal"
+  ],
+  "tags": [
+    "legal-ai",
+    "law-firms",
+    "due-diligence",
+    "contracts"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": true,
+    "sourceUrl": "https://www.harvey.ai/pricing"
+  },
+  "logo": "https://www.harvey.ai/icons/brand-favicon.png",
+  "image": "/screenshots/harvey.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.harvey.ai/",
+    "https://www.harvey.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Harvey",
+      "description": "Open Harvey and choose Request a demo. No public prices are listed, and the platform is offered to firms worldwide.",
+      "links": [
+        {
+          "label": "Harvey",
+          "url": "https://www.harvey.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Choose a practice and a customer type",
+      "description": "Pick a path for your customer type, such as in-house, law firm, or mid-size firm, and a practice area such as litigation or transactional work. Harvey is built for law firms, corporate legal teams, and professional services firms."
+    },
+    {
+      "title": "Run the legal work",
+      "description": "Use agents and workflows for contract analysis, due diligence, compliance, litigation, research, and drafting. On the platform, Contract Intelligence handles reviews, Vault stores and bulk-analyzes documents, and Knowledge covers legal research."
+    },
+    {
+      "title": "Assign the work and review it",
+      "description": "Use Intake to capture and route a legal request, then Legal Work Orchestration to assign, execute, and review that work with agents and your team."
+    }
+  ]
+}

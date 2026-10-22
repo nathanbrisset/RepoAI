@@ -1,0 +1,52 @@
+{
+  "id": "clipchamp",
+  "name": "Clipchamp",
+  "url": "https://clipchamp.com/en/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Microsoft's browser and Windows video editor with templates, AI subtitles and text-to-speech.",
+  "description": "Clipchamp is Microsoft's video editor, available in the browser and as a Windows app. It provides templates, stock footage and music, screen and camera recording, AI subtitles, text-to-speech, background removal and export up to 4K. The editor is free to use, and premium features are included in Microsoft 365 Personal and Family plans. It runs in the browser and as a Windows app.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "video-editor",
+    "microsoft",
+    "templates",
+    "subtitles"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://clipchamp.com/pricing"
+  },
+  "logo": "https://clipchamp.com/icon3.png?icon3.3gcansntxrts-.png",
+  "image": "/screenshots/clipchamp.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://clipchamp.com/",
+    "https://clipchamp.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Clipchamp",
+      "description": "Go to Clipchamp, Microsoft's video editor, and start in the browser or download the Windows app.",
+      "links": [
+        {
+          "label": "Clipchamp",
+          "url": "https://clipchamp.com/en/"
+        }
+      ]
+    },
+    {
+      "title": "Record, then edit",
+      "description": "Start a screen and camera recording, then edit with templates, stock footage and music. Add AI subtitles, text-to-speech and background removal."
+    },
+    {
+      "title": "Export the video",
+      "description": "Export at up to 4K. The editor is free to use, and premium options are included in Microsoft 365 Personal and Family plans."
+    }
+  ]
+}

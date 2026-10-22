@@ -1,0 +1,51 @@
+{
+  "id": "macwhisper",
+  "name": "MacWhisper",
+  "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Mac app for local transcription of audio and video using Whisper and other speech models.",
+  "description": "MacWhisper transcribes audio and video files on the Mac using OpenAI's Whisper, Qwen and NVIDIA Parakeet models running locally. It is sold on Gumroad: a free version is available, and MacWhisper Pro costs €65 for a personal licence, with volume licences for teams. Volume licences range from 5 to 50 seats at lower per-licence prices. The app runs natively on macOS, so recordings do not need to be uploaded for transcription.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "transcription",
+    "macos",
+    "local",
+    "whisper"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "€65 one-time (Pro)"
+  },
+  "logo": "https://public-files.gumroad.com/j3hdhfe4opxg215xkdp69wy6ccr2",
+  "image": "/screenshots/macwhisper.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://goodsnooze.gumroad.com/l/macwhisper"
+  ],
+  "howToUse": [
+    {
+      "title": "Open MacWhisper on Gumroad",
+      "description": "Open the MacWhisper page on Gumroad, where the native macOS app is sold.",
+      "links": [
+        {
+          "label": "MacWhisper",
+          "url": "https://goodsnooze.gumroad.com/l/macwhisper"
+        }
+      ]
+    },
+    {
+      "title": "Transcribe a recording locally",
+      "description": "Add an audio or video file. MacWhisper transcribes it with OpenAI Whisper, Qwen or NVIDIA Parakeet models running locally, so recordings are not uploaded for transcription."
+    },
+    {
+      "title": "Choose a licence",
+      "description": "Keep the free version, or buy the personal licence for MacWhisper Pro, which costs €65. Volume licences for teams range from 5 to 50 seats at lower per-licence prices."
+    }
+  ]
+}

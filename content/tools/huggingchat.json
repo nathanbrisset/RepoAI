@@ -1,0 +1,57 @@
+{
+  "id": "huggingchat",
+  "name": "HuggingChat",
+  "url": "https://huggingface.co/chat/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Hugging Face's chat app for open-source models, with automatic model routing.",
+  "description": "HuggingChat is Hugging Face's chat application built on open-source models. Its Omni mode routes each request to a suitable model automatically, and users can also pick a specific model from the catalogue of more than one hundred available models. Conversations can use tools such as web search. Basic use is free with a Hugging Face account; the Hugging Face PRO subscription at $9 per month adds higher usage limits and inference credits.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "chatbot",
+    "open-source",
+    "hugging-face",
+    "multi-model"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$9/mo (Hugging Face PRO)",
+    "sourceUrl": "https://huggingface.co/pricing"
+  },
+  "logo": "https://huggingface.co/chat/huggingchat/icon.svg",
+  "image": "/screenshots/huggingchat.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://huggingface.co/chat",
+    "https://huggingface.co/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open HuggingChat",
+      "description": "Open HuggingChat and choose Start chatting. With a Hugging Face account, basic use costs nothing.",
+      "links": [
+        {
+          "label": "HuggingChat",
+          "url": "https://huggingface.co/chat/"
+        }
+      ]
+    },
+    {
+      "title": "Let Omni pick the model, or choose one",
+      "description": "Leave Omni on so it routes each request to a suitable model automatically, or pick a specific model from the catalogue. The page lists 133 models, and the catalogue has more than one hundred."
+    },
+    {
+      "title": "Use web search in the conversation",
+      "description": "In the conversation, use tools such as web search when the reply needs information beyond the model."
+    },
+    {
+      "title": "Raise limits with PRO",
+      "description": "For higher usage limits and inference credits, take the Hugging Face PRO subscription at $9 per month."
+    }
+  ]
+}

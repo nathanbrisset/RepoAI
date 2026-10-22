@@ -1,0 +1,53 @@
+{
+  "id": "shortwave",
+  "name": "Shortwave",
+  "url": "https://www.shortwave.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI email client for Gmail that organises, writes, searches and schedules with prompts.",
+  "description": "Shortwave is an email client built for Gmail with an AI agent that organises the inbox, drafts replies, searches history and schedules meetings from prompts. It runs on the web, iOS, Android, Mac and Windows. Plans include a 14-day free trial: Business costs $30 per seat per month, Premier $45 and Max $120. A permanent free plan was not listed on the pricing page.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "email",
+    "gmail",
+    "ai-agents",
+    "scheduling"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$30/seat/mo (Business)",
+    "sourceUrl": "https://www.shortwave.com/pricing"
+  },
+  "logo": "https://www.shortwave.com/favicon.png",
+  "image": "/screenshots/shortwave.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.shortwave.com/",
+    "https://www.shortwave.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Shortwave",
+      "description": "Open Shortwave and start the 14-day trial on the web, or install the email client on Android, Mac or Windows.",
+      "links": [
+        {
+          "label": "Shortwave",
+          "url": "https://www.shortwave.com/"
+        }
+      ]
+    },
+    {
+      "title": "Organise the Gmail inbox",
+      "description": "Connect the Gmail inbox this client is built for. Give the agent prompts and it organises the inbox."
+    },
+    {
+      "title": "Reply, search and schedule",
+      "description": "Have the agent write drafts and replies in your voice. Then it searches the history of the mailbox and schedules the meetings you name."
+    }
+  ]
+}

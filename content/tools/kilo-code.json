@@ -1,0 +1,57 @@
+{
+  "id": "kilo-code",
+  "name": "Kilo Code",
+  "url": "https://kilo.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source coding agent for VS Code, JetBrains, the CLI and the cloud, with 500+ models.",
+  "description": "Kilo Code is an open-source AI coding agent that runs in VS Code, JetBrains IDEs, a CLI and a cloud service. Users can choose from more than 500 models at provider prices, bring their own keys or use local models. Individual use is free and open source, with model usage billed separately. The Teams plan costs $15 per user per month and adds team management; enterprise plans add governance.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "coding-agent",
+    "open-source",
+    "vscode",
+    "jetbrains"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$15/user/mo (Teams)",
+    "sourceUrl": "https://kilo.ai/pricing"
+  },
+  "logo": "https://kilo.ai/favicon/android-chrome-512x512.png?v=3",
+  "image": "/screenshots/kilo-code.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://kilocode.ai/",
+    "https://kilo.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kilo Code",
+      "description": "Open Kilo Code and choose Get Started. Install the coding agent in VS Code, add it to a JetBrains IDE, use the CLI, or open the cloud service.",
+      "links": [
+        {
+          "label": "Kilo Code",
+          "url": "https://kilo.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Choose a model",
+      "description": "Choose from more than 500 models at provider prices, bring your own keys, or use local models. Individual use is free and open source, and model usage is billed separately."
+    },
+    {
+      "title": "Move the agent with the work",
+      "description": "Start the agent in the IDE or the CLI, then continue it in the cloud. The page also shows a desktop app and a Slack mention."
+    },
+    {
+      "title": "Add team management if you need it",
+      "description": "Teams is $15 for each user every month and adds team management. Enterprise plans add governance."
+    }
+  ]
+}

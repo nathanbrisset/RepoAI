@@ -1,0 +1,57 @@
+{
+  "id": "groq",
+  "name": "Groq",
+  "url": "https://groq.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Inference cloud running open models on Groq's own LPU chips through an API.",
+  "description": "Groq operates an inference cloud built on its own LPU chips. Developers call open models such as Llama, Qwen and GPT-OSS through an API that is compatible with the OpenAI format, and the platform targets high token throughput and low latency. The company also offers dedicated infrastructure for enterprises. The pricing page did not render readable prices during this check, so no price was recorded.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "inference",
+    "api",
+    "open-models",
+    "lpu"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "Groq's billing page lists a Free plan at $0 and a Developer plan billed per token, plus Enterprise.",
+    "sourceUrl": "https://console.groq.com/settings/billing/plans"
+  },
+  "logo": "https://groq.com/favicon.svg",
+  "image": "/screenshots/groq.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://groq.com/",
+    "https://groq.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Create an API key",
+      "description": "Open Groq, start building, and create a key in the console.",
+      "links": [
+        {
+          "label": "Groq",
+          "url": "https://groq.com/"
+        }
+      ]
+    },
+    {
+      "title": "Pick an open model",
+      "description": "Choose an open model such as Llama, Qwen, or GPT-OSS. The API follows the OpenAI format."
+    },
+    {
+      "title": "Send a request",
+      "description": "Point an OpenAI-compatible client at Groq and send a completion. The service runs on Groq's own LPU chips."
+    },
+    {
+      "title": "Pick Free, Developer, or Enterprise",
+      "description": "The free plan is $0. Developer billing is per token. Enterprise is a separate plan."
+    }
+  ]
+}

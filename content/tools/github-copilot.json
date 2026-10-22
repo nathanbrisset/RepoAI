@@ -1,0 +1,58 @@
+{
+  "id": "github-copilot",
+  "name": "GitHub Copilot",
+  "url": "https://github.com/features/copilot",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "GitHub Copilot works every step of the way, from an open issue to reviewing and merging a pull request. Use it in your editor, the terminal, on your desktop, and on GitHub.",
+  "description": "GitHub Copilot works every step of the way, from an open issue to reviewing and merging a pull request. Use it in your editor, the terminal, on your desktop, and on GitHub.\n\nAI Code Completions: Suggest code snippets based on context. Natural Language Chat: Interact with codebase using conversational queries. Smart Actions: Enhance productivity with AI-driven suggestions. Pull Request Summaries: Generate summaries for code changes.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "code-completion",
+    "pair-programming",
+    "ide-integration"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "GitHub's docs list Copilot Free with a limited allowance, including 2,000 completions a month. Paid plans are Pro at $10/month, Pro+ at $39/month and Max at $100/month, plus Business at $19 per user per month and Enterprise at $39 per user per month.",
+    "sourceUrl": "https://docs.github.com/en/copilot/get-started/plans"
+  },
+  "logo": "/logos/github-copilot.png",
+  "image": "/screenshots/github-copilot.webp",
+  "dateAdded": "2021-06-29",
+  "lastVerified": "2026-10-22",
+  "features": [
+    "AI Code Completions: Suggest code snippets based on context.",
+    "Natural Language Chat: Interact with codebase using conversational queries.",
+    "Smart Actions: Enhance productivity with AI-driven suggestions.",
+    "Pull Request Summaries: Generate summaries for code changes."
+  ],
+  "howToUse": [
+    {
+      "title": "Enable Copilot in IDE",
+      "description": "Install GitHub Copilot extension in VS Code, JetBrains, or compatible editors.",
+      "links": [
+        {
+          "label": "GitHub Copilot",
+          "url": "https://github.com/features/copilot"
+        }
+      ]
+    },
+    {
+      "title": "Write Code",
+      "description": "Start coding as usual—Copilot will suggest completions and snippets."
+    },
+    {
+      "title": "Accept or Refine Suggestions",
+      "description": "Review and accept, reject, or edit Copilot suggestions in real time."
+    },
+    {
+      "title": "Chat & Summarize",
+      "description": "Use chat or summary features for deeper code understanding."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "cursor",
+  "name": "Cursor",
+  "url": "https://cursor.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI code editor with agents, now bundled with xAI's Grok plans.",
+  "description": "Cursor is an AI-first code editor with agents, tab completion, cloud agents and code review. Its pricing page now presents a shared subscription with Grok and X: the Free plan ($0) has limited AI usage, Plus is $8/month with Grok models only, Premium $30/month adds the latest models and cloud agents, and Super ($100) and Ultra ($200) raise usage. Third-party models are billed separately by usage; it should no longer be listed as Free.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "code-editor",
+    "ide",
+    "coding-agent"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Its pricing page now presents a shared subscription with Grok and X: the Free plan ($0) has limited AI usage, Plus is $8/month with Grok models only, Premium $30/month adds the latest models and cloud agents, and Super ($100) and Ultra ($200) raise usage.",
+    "sourceUrl": "https://cursor.com/pricing"
+  },
+  "logo": "/logos/cursor.png",
+  "image": "/screenshots/cursor.webp",
+  "dateAdded": "2023-01-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI Code Review: Highlights logic flaws and inefficiencies.",
+    "Copilot Integration: Chat with code using natural language.",
+    "Refactoring Suggestions: Restructures code for readability and efficiency.",
+    "IDE-Like Environment: Works in a web-based AI IDE with debugging tools."
+  ],
+  "howToUse": [
+    {
+      "title": "Download or Access Cursor",
+      "description": "Install the Cursor app or use the web version.",
+      "links": [
+        {
+          "label": "Cursor",
+          "url": "https://cursor.com/"
+        }
+      ]
+    },
+    {
+      "title": "Start Coding",
+      "description": "Open or create a project and write code with AI suggestions."
+    },
+    {
+      "title": "Use AI Features",
+      "description": "Leverage code review, refactoring, and Copilot chat for productivity."
+    },
+    {
+      "title": "Debug and Ship",
+      "description": "Use built-in debugging and deployment tools."
+    }
+  ],
+  "sources": [
+    "https://cursor.com/pricing",
+    "https://grok.com/plans"
+  ]
+}

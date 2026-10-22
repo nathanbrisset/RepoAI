@@ -1,0 +1,65 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/veo.png",
+  "image": "/screenshots/veo.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "veo",
+  "name": "Veo",
+  "url": "https://deepmind.google/models/veo/",
+  "summary": "Google DeepMind's video generation model with native audio.",
+  "description": "Veo is Google DeepMind's video model (currently Veo 3.1) that generates cinematic clips with synchronized audio from text and image prompts. It is available inside Google products such as Gemini and Flow and to developers via the Gemini API. On the Gemini API it is paid-tier only (not available on the free tier), from $0.05 per second for Veo 3.1 Lite at 720p; Google notes the Veo 3.1 preview endpoints shut down on Oct 22, 2026 in favour of Gemini Omni Flash.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "text-to-video",
+    "video-generation",
+    "google",
+    "audio"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "On the Gemini API it is paid-tier only (not available on the free tier), from $0.05 per second for Veo 3.1 Lite at 720p; Google notes the Veo 3.1 preview endpoints shut down on Oct 22, 2026 in favour of Gemini Omni Flash.",
+    "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing"
+  },
+  "sources": [
+    "https://deepmind.google/models/veo/",
+    "https://ai.google.dev/gemini-api/docs/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Try Veo in Gemini or Flow",
+      "description": "The DeepMind model page buttons are Try in Gemini and Try in Google Flow.",
+      "links": [
+        {
+          "label": "Veo",
+          "url": "https://deepmind.google/models/veo/"
+        }
+      ]
+    },
+    {
+      "title": "Or build with the API",
+      "description": "The model page button Build with Veo opens the Gemini API video documentation. Try in Gemini and Try in Google Flow are the other buttons.",
+      "links": [
+        {
+          "label": "Gemini API video",
+          "url": "https://ai.google.dev/gemini-api/docs/video"
+        }
+      ]
+    },
+    {
+      "title": "Write a prompt",
+      "description": "The page presents Veo 3.1 as a video model with native audio, and links a prompt guide.",
+      "links": [
+        {
+          "label": "Prompt guide",
+          "url": "https://deepmind.google/models/veo/prompt-guide/"
+        }
+      ]
+    }
+  ]
+}

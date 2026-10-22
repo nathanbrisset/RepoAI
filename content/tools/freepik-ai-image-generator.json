@@ -1,0 +1,62 @@
+{
+  "id": "freepik-ai-image-generator",
+  "name": "Magnific",
+  "url": "https://www.freepik.com/ai/image-generator",
+  "affiliateUrl": "",
+  "status": "renamed",
+  "statusNote": "Headless Chrome: page states 'Freepik is now Magnific'; magnific.com/pricing title 'Pricing plans | Magnific (formerly Freepik)' - rename",
+  "summary": "Creates photorealistic images and digital art from text prompts using advanced AI models.",
+  "description": "Creates photorealistic images and digital art from text prompts using advanced AI models.\n\nText-to-image generation: Create images from textual prompts. Multiple art styles: Choose from a variety of digital art genres. Batch creation: Generate multiple images quickly. Quick editing: Instantly refine and download generated images.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "image-generation",
+    "digital-art"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/freepik-ai-image-generator.png",
+  "image": "/screenshots/freepik-ai-image-generator.webp",
+  "dateAdded": "2024-02-19",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Text-to-image generation: Create images from textual prompts.",
+    "Multiple art styles: Choose from a variety of digital art genres.",
+    "Batch creation: Generate multiple images quickly.",
+    "Quick editing: Instantly refine and download generated images.",
+    "Ecosystem integration: Use in Freepik's design environment."
+  ],
+  "howToUse": [
+    {
+      "title": "Access the Generator",
+      "description": "Go to Freepik's AI Image Generator page.",
+      "links": [
+        {
+          "label": "Freepik AI Image Generator",
+          "url": "https://www.freepik.com/ai/image-generator"
+        }
+      ]
+    },
+    {
+      "title": "Enter a Prompt",
+      "description": "Type a text description of the image you wish to generate."
+    },
+    {
+      "title": "Select Art Style and Settings",
+      "description": "Choose from available styles and adjust settings as desired."
+    },
+    {
+      "title": "Generate and Edit",
+      "description": "Click to create images, edit or refine as needed."
+    },
+    {
+      "title": "Download or Use in Designs",
+      "description": "Download finished images or use them within Freepik's design tools."
+    }
+  ]
+}

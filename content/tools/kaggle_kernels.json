@@ -1,0 +1,59 @@
+{
+  "id": "kaggle_kernels",
+  "name": "Kaggle Kernels",
+  "url": "https://www.kaggle.com/code",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Kaggle Kernels is a cloud-based code environment that enables data scientists and analysts to write, run, and share code in Python and R directly in the browser. It provides free access to GPUs and TPUs, seamless integration with Kaggle datasets and competitions, and version control for collaborative projects. With an active community and built-in sharing features, Kaggle Kernels accelerates the prototyping, experimentation, and sharing of data science and machine learning projects.",
+  "description": "Kaggle Kernels is a cloud-based code environment that enables data scientists and analysts to write, run, and share code in Python and R directly in the browser. It provides free access to GPUs and TPUs, seamless integration with Kaggle datasets and competitions, and version control for collaborative projects. With an active community and built-in sharing features, Kaggle Kernels accelerates the prototyping, experimentation, and sharing of data science and machine learning projects.\n\nExplore and run AI code in free cloud notebooks with GPUs. Access public datasets, share your work, and collaborate with a community of millions of AI builders.\n\nFree GPU/TPU Access: Run computationally intensive code at no cost. Seamless Dataset Access: Direct integration with Kaggle datasets and competitions. Version Control: Automatically save and track changes in notebooks. Real-Time Collaboration: Share and work on code together with others.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "notebooks",
+    "data-science",
+    "collaboration"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/kaggle_kernels.png",
+  "image": "/screenshots/kaggle_kernels.webp",
+  "dateAdded": null,
+  "lastVerified": null,
+  "dateAddedNote": "The previous Added date was 2016-09-01. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Free GPU/TPU Access: Run computationally intensive code at no cost.",
+    "Seamless Dataset Access: Direct integration with Kaggle datasets and competitions.",
+    "Version Control: Automatically save and track changes in notebooks.",
+    "Real-Time Collaboration: Share and work on code together with others.",
+    "Multiple Language Support: Native support for Python and R scripts."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up and Access Kernels",
+      "description": "Create a Kaggle account and navigate to the Kernels section.",
+      "links": [
+        {
+          "label": "Kaggle Kernels",
+          "url": "https://www.kaggle.com/code"
+        }
+      ]
+    },
+    {
+      "title": "Create or Fork a Kernel",
+      "description": "Start a new notebook or fork an existing one from the community."
+    },
+    {
+      "title": "Write and Run Code",
+      "description": "Develop in Python or R, use GPUs/TPUs, and access datasets directly."
+    },
+    {
+      "title": "Share and Collaborate",
+      "description": "Share kernels publicly or with teams, and collaborate in real time."
+    }
+  ]
+}

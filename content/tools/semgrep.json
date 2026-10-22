@@ -1,0 +1,56 @@
+{
+  "id": "semgrep",
+  "name": "Semgrep",
+  "url": "https://semgrep.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Application security platform for code scanning (SAST), dependencies (SCA) and secrets, with AI triage.",
+  "description": "Semgrep scans source code for security issues with its SAST engine, checks open-source dependencies for vulnerabilities and malware, and detects hardcoded secrets. AI features help triage and fix findings. The scanning engine is open source. A free edition with cross-file analysis is available for small teams, and paid plans are priced per contributor per month. The company runs a programme for teams moving from Checkmarx or Snyk.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "sast",
+    "sca",
+    "secrets",
+    "open-source"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://semgrep.dev/pricing"
+  },
+  "logo": "https://semgrep.dev/build/assets/favicon-CIx-xpG_.svg",
+  "image": "/screenshots/semgrep.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://semgrep.dev/",
+    "https://semgrep.dev/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Add the scanner",
+      "description": "Sign in at Semgrep and connect the repository, or run the open-source engine on the code yourself.",
+      "links": [
+        {
+          "label": "Semgrep",
+          "url": "https://semgrep.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Scan the source",
+      "description": "Run the SAST scan so Semgrep reports security issues in the source code."
+    },
+    {
+      "title": "Check dependencies and secrets",
+      "description": "Turn on the supply-chain checks for vulnerable or malicious dependencies, and the scan for hardcoded secrets."
+    },
+    {
+      "title": "Triage the findings",
+      "description": "Use the AI triage, fix the findings that matter, and use the free edition with cross-file analysis if the team is small."
+    }
+  ]
+}

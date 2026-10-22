@@ -1,0 +1,57 @@
+{
+  "id": "predis-ai",
+  "name": "Predis.ai",
+  "url": "https://predis.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI generator for social media posts, ads and short videos, with scheduling.",
+  "description": "Predis.ai turns text prompts into ads, carousel and video posts for platforms such as Instagram, TikTok, LinkedIn and YouTube, and includes UGC-style videos and scheduling. The site advertises a three-day free trial; the lowest plan price was not readable, and the highest plan shown was $212 per month billed yearly. It also offers an API and a ChatGPT integration. It positions itself as costing less than $1 per day.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "social-media",
+    "ad-generator",
+    "video-ads",
+    "ugc"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "The official pricing page offers a 3-day free trial before a paid plan. One yearly plan shown costs $212 per month. No lasting free plan was listed.",
+    "sourceUrl": "https://predis.ai/pricing/"
+  },
+  "logo": "https://predis.ai/assets/img/favicon.png",
+  "image": "/screenshots/predis-ai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://predis.ai/",
+    "https://predis.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Predis.ai",
+      "description": "Open Predis.ai and write a text prompt for an ad or a social post.",
+      "links": [
+        {
+          "label": "Predis.ai",
+          "url": "https://predis.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Turn the prompt into posts",
+      "description": "Predis.ai turns prompts into ads, carousel posts, and video posts for platforms such as Instagram, TikTok, LinkedIn, and YouTube, and includes UGC-style videos."
+    },
+    {
+      "title": "Schedule, or call the API",
+      "description": "Use scheduling to publish the posts. Predis.ai also offers an API and a ChatGPT integration."
+    },
+    {
+      "title": "Start the advertised trial",
+      "description": "The site advertises a three-day trial. The highest plan shown was $212 per month billed yearly, and Predis.ai positions itself as costing less than $1 per day."
+    }
+  ]
+}

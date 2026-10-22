@@ -1,0 +1,57 @@
+{
+  "id": "vadoo",
+  "name": "Vadoo AI",
+  "url": "https://www.vadoo.tv/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A video generation tool that allows users to add voice-overs to videos, offering various voice options for diverse applications.",
+  "description": "A video generation tool that allows users to add voice-overs to videos, offering various voice options for diverse applications.\n\nVadoo AI is the all-in-one AI video generator built for short-form content. Create TikToks, Reels, Shorts, and podcasts with AI scriptwriting, text-to-video, captions, voiceovers, B-roll, SEO tools, and auto-posting — all in one platform.\n\nAI audio processing: Vadoo AI supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "audio",
+    "speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/vadoo.png",
+  "image": "/screenshots/vadoo.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "AI audio processing: Vadoo AI supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Log In",
+      "description": "Register and log into Vadoo AI.",
+      "links": [
+        {
+          "label": "Vadoo AI",
+          "url": "https://www.vadoo.tv"
+        }
+      ]
+    },
+    {
+      "title": "Upload or Create Video",
+      "description": "Add a video for voice-over or AI voice generation."
+    },
+    {
+      "title": "Select Voice & Language",
+      "description": "Choose from various voice options for the voice-over."
+    },
+    {
+      "title": "Apply & Export",
+      "description": "Generate the voice-over and download your processed video."
+    }
+  ]
+}

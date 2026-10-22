@@ -1,0 +1,57 @@
+{
+  "id": "freed",
+  "name": "Freed",
+  "url": "https://www.getfreed.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Ambient AI scribe for clinicians, with coding, evidence answers and a front-desk product.",
+  "description": "Freed writes clinical notes from visits and works with browser-based EHRs, adding visit preparation, cited clinical evidence, letters and ICD-10, CPT and E/M code suggestions. A separate front-desk product offers an AI receptionist. A free trial is offered; scribe plans start at $39 per month and front-desk plans at $149 per month. The company states it is trusted by more than 26,000 clinicians.",
+  "categories": [
+    "health"
+  ],
+  "tags": [
+    "ambient-scribe",
+    "ehr",
+    "coding",
+    "front-desk"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$39/mo",
+    "sourceUrl": "https://www.getfreed.ai/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/6966c715bac2a445645cc554/6966c715bac2a445645cc95a_webclip.png",
+  "image": "/screenshots/freed.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.getfreed.ai/",
+    "https://www.getfreed.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Freed",
+      "description": "Go to Freed and choose Try AI scribe or Try front desk.",
+      "links": [
+        {
+          "label": "Freed",
+          "url": "https://www.getfreed.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Write the clinical note",
+      "description": "Freed writes clinical notes from visits, then adds visit preparation, cited clinical evidence, and letters, and works with browser-based EHRs."
+    },
+    {
+      "title": "Review code suggestions",
+      "description": "Review the ICD-10, CPT, and E/M code suggestions in the scribe workflow."
+    },
+    {
+      "title": "Try the receptionist and the monthly prices",
+      "description": "Try the separate front-desk product, an AI receptionist. Scribe plans start at $39 per month and front-desk plans at $149 per month. The company states it is trusted by more than 26,000 clinicians."
+    }
+  ]
+}

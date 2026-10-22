@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Tool } from '@/lib/types'
+import { formatLabel } from '@/lib/format-label'
 import Link from 'next/link'
 
 interface ToolCardProps {
@@ -36,29 +37,17 @@ export function ToolCard({ tool }: ToolCardProps) {
               key={tag}
               className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs text-gray-600"
             >
-              {tag}
+              {formatLabel(tag)}
             </span>
           ))}
         </div>
         )}
         
-        <div className="mt-auto flex items-center justify-between">
-          <div className="flex items-center space-x-1">
-            <span className="text-sm font-medium text-gray-900">
-              {tool.rating}
-            </span>
-            <span className="text-sm text-gray-500">rating</span>
-          </div>
-          <div className="flex items-center space-x-1">
-            <span className="text-sm font-medium text-gray-900">
-              {new Intl.NumberFormat().format(tool.visits)}
-            </span>
-            <span className="text-sm text-gray-500">visits</span>
-          </div>
-          {tool.isPremium && (
+        {tool.isPremium && (
+        <div className="mt-auto flex items-center justify-end">
           <span className="text-sm text-gray-500">{tool.isPremium}</span>
-          )}
         </div>
+        )}
       </div>
     </Link>
   )

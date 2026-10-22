@@ -1,0 +1,58 @@
+{
+  "id": "julius-ai",
+  "name": "Julius AI",
+  "url": "https://www.julius.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI assistant for data analysis and visualization.",
+  "description": "AI assistant for data analysis and visualization.\n\nData Analysis: Perform complex data analyses using AI-driven tools. Graph & Chart Creation: Automatically generate visual representations of data. Research Assistance: Conduct research with AI support for data gathering and summarization. Mathematical Problem Solving: Solve equations and mathematical problems using AI capabilities.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "data-analysis",
+    "ai-assistant",
+    "visualization",
+    "natural-language"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/julius-ai.png",
+  "image": "/screenshots/julius-ai.webp",
+  "dateAdded": "2023-06-12",
+  "lastVerified": null,
+  "features": [
+    "Data Analysis: Perform complex data analyses using AI-driven tools.",
+    "Graph & Chart Creation: Automatically generate visual representations of data.",
+    "Research Assistance: Conduct research with AI support for data gathering and summarization.",
+    "Mathematical Problem Solving: Solve equations and mathematical problems using AI capabilities."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Julius AI",
+      "description": "Register for an account and log in to the Julius AI platform.",
+      "links": [
+        {
+          "label": "Julius AI",
+          "url": "https://www.julius.ai"
+        }
+      ]
+    },
+    {
+      "title": "Upload or Link Data",
+      "description": "Import your data or connect to data sources for analysis."
+    },
+    {
+      "title": "Ask Questions & Analyze",
+      "description": "Use natural language or select tools to explore data, generate charts, or get AI-driven insights."
+    },
+    {
+      "title": "Download & Share Results",
+      "description": "Export analyses or charts for reporting and collaboration."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "tableau",
+  "name": "Tableau",
+  "url": "https://www.tableau.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Interactive data visualization software for business intelligence.",
+  "description": "Interactive data visualization software for business intelligence.\n\nInteractive Dashboards: Create real-time, interactive visualizations with drag-and-drop functionality. Data Blending: Combine data from multiple sources for comprehensive analysis. Forecasting Tools: Utilize built-in forecasting to predict trends and patterns. Explain Data: Automatically generate explanations for data points to uncover insights.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "data-visualization",
+    "business-intelligence",
+    "dashboards",
+    "analytics"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/tableau.png",
+  "image": "/screenshots/tableau.webp",
+  "dateAdded": "2022-11-20",
+  "lastVerified": null,
+  "features": [
+    "Interactive Dashboards: Create real-time, interactive visualizations with drag-and-drop functionality.",
+    "Data Blending: Combine data from multiple sources for comprehensive analysis.",
+    "Forecasting Tools: Utilize built-in forecasting to predict trends and patterns.",
+    "Explain Data: Automatically generate explanations for data points to uncover insights."
+  ],
+  "howToUse": [
+    {
+      "title": "Download Tableau & Start Trial",
+      "description": "Get Tableau Desktop or use Tableau Cloud for a free trial.",
+      "links": [
+        {
+          "label": "Tableau",
+          "url": "https://www.tableau.com"
+        }
+      ]
+    },
+    {
+      "title": "Connect Data Sources",
+      "description": "Import or connect to databases, spreadsheets, or cloud data."
+    },
+    {
+      "title": "Create Visualizations",
+      "description": "Drag and drop fields to build interactive dashboards and charts."
+    },
+    {
+      "title": "Analyze & Share",
+      "description": "Use forecasting and data explanations, then publish dashboards online or embed in reports."
+    }
+  ]
+}

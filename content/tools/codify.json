@@ -1,0 +1,56 @@
+{
+  "id": "codify",
+  "name": "Codify",
+  "url": "https://codify.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Generate code snippets and full modules from natural language prompts.",
+  "description": "Generate code snippets and full modules from natural language prompts.\n\nPrompt-based generation: Turn descriptions into code. Supports popular languages: JavaScript, Python, and more. Custom templates: Build with reusable code blocks. Collaborative sharing: Share snippets with teams.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "code-generator",
+    "natural-language"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/codify.png",
+  "image": "/screenshots/codify.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Prompt-based generation: Turn descriptions into code.",
+    "Supports popular languages: JavaScript, Python, and more.",
+    "Custom templates: Build with reusable code blocks.",
+    "Collaborative sharing: Share snippets with teams."
+  ],
+  "howToUse": [
+    {
+      "title": "Go to Codify",
+      "description": "Access Codify via the website and log in or sign up.",
+      "links": [
+        {
+          "label": "Codify",
+          "url": "https://www.codify.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Describe Your Code Needs",
+      "description": "Write a natural language prompt describing the snippet or module you want."
+    },
+    {
+      "title": "Receive and Edit Code",
+      "description": "Review generated code, edit, or refine as needed."
+    },
+    {
+      "title": "Copy or Share",
+      "description": "Export the code or share with your team via the platform."
+    }
+  ]
+}

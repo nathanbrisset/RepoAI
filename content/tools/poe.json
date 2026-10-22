@@ -1,0 +1,52 @@
+{
+  "id": "poe",
+  "name": "Poe",
+  "url": "https://poe.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Quora's chat platform giving access to many third-party AI models and user-made bots in one app.",
+  "description": "Poe is a chat platform operated by Quora that gives access to models from several providers, including OpenAI, Anthropic, Google, xAI and others, from one interface. Users can chat privately or in group chats, switch models within a conversation and use thousands of community-created bots. Developers can also publish their own bots.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "chatbot",
+    "multi-model",
+    "bots",
+    "quora"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "Poe's help center says subscribers can send far more messages than free users, and can generate more images, video and audio.",
+    "sourceUrl": "https://help.poe.com/hc/en-us/articles/19945140063636-Poe-Purchases-FAQs"
+  },
+  "logo": "https://psc2.cf2.poecdn.net/assets/favicon.svg",
+  "image": "/screenshots/poe.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://poe.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Poe",
+      "description": "Open Poe, the chat platform operated by Quora, and start a conversation in one interface.",
+      "links": [
+        {
+          "label": "Poe",
+          "url": "https://poe.com"
+        }
+      ]
+    },
+    {
+      "title": "Switch models from several providers",
+      "description": "Switch models within the conversation. Poe gives access to models from providers such as OpenAI, Anthropic, Google, and xAI."
+    },
+    {
+      "title": "Chat privately, in a group, or with bots",
+      "description": "Chat privately or in group chats, and use thousands of community-created bots. Developers publish their own bots from the same interface."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "sisense",
+  "name": "Sisense",
+  "url": "https://www.sisense.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Business intelligence software for complex data analysis.",
+  "description": "Business intelligence software for complex data analysis.\n\nData Integration: Connect to various data sources, including databases and cloud services. Custom Dashboards: Create personalized dashboards to monitor key metrics. Embedded Analytics: Integrate analytics into your own applications. Scalability: Handle large datasets and scale as your data grows.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "data-integration",
+    "analytics",
+    "dashboards",
+    "big-data"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/sisense.png",
+  "image": "/screenshots/sisense.webp",
+  "dateAdded": "2022-07-14",
+  "lastVerified": null,
+  "features": [
+    "Data Integration: Connect to various data sources, including databases and cloud services.",
+    "Custom Dashboards: Create personalized dashboards to monitor key metrics.",
+    "Embedded Analytics: Integrate analytics into your own applications.",
+    "Scalability: Handle large datasets and scale as your data grows."
+  ],
+  "howToUse": [
+    {
+      "title": "Contact Sisense & Start Trial",
+      "description": "Request a demo or start a free trial on the Sisense website.",
+      "links": [
+        {
+          "label": "Sisense",
+          "url": "https://www.sisense.com"
+        }
+      ]
+    },
+    {
+      "title": "Connect Data Sources",
+      "description": "Integrate databases, cloud services, and other sources."
+    },
+    {
+      "title": "Build Custom Dashboards",
+      "description": "Design dashboards and reports tailored to your business needs."
+    },
+    {
+      "title": "Deploy & Scale",
+      "description": "Embed analytics into apps or scale for big data workflows."
+    }
+  ]
+}

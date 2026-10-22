@@ -1,0 +1,57 @@
+{
+  "id": "vidu",
+  "name": "Vidu",
+  "url": "https://www.vidu.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI video generator for text, image and reference-to-video, with its own Vidu models and API.",
+  "description": "Vidu generates videos from text prompts, images and reference images, keeping characters consistent across shots, and also creates images. It runs on its own Vidu Q-series models and offers templates, an agent, an API platform and a creator programme. A Free plan is available; paid plans start at $10 per month ($8.25 per month billed yearly) with 800 monthly credits.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "text-to-video",
+    "image-to-video",
+    "reference-to-video",
+    "api"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$10/mo (monthly)",
+    "sourceUrl": "https://www.vidu.com/pricing"
+  },
+  "logo": "https://www.vidu.com/logo.svg",
+  "image": "/screenshots/vidu.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.vidu.com/",
+    "https://www.vidu.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Vidu",
+      "description": "Open Vidu. A Free plan exists. Paid plans start at $10 per month, or $8.25 per month when billed yearly, and they include 800 monthly credits.",
+      "links": [
+        {
+          "label": "Vidu",
+          "url": "https://www.vidu.com/"
+        }
+      ]
+    },
+    {
+      "title": "Generate a video",
+      "description": "Pick Text to Video, Image to Video, or Reference to Video. A Q-series model generates the video from your prompts or your images, including reference images."
+    },
+    {
+      "title": "Keep the character consistent",
+      "description": "Reference images are for keeping characters consistent across shots."
+    },
+    {
+      "title": "Use templates, the agent, or the API",
+      "description": "From there, Vidu offers templates, an agent, an API platform, and a creator programme you can join."
+    }
+  ]
+}

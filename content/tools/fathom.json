@@ -1,0 +1,63 @@
+{
+  "id": "fathom",
+  "name": "Fathom",
+  "url": "https://www.fathom.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI meeting recorder, transcriber and note-taker.",
+  "description": "Fathom records, transcribes and summarizes Zoom, Google Meet and Teams meetings, and syncs notes and action items to CRMs. It is known for a generous free-forever plan for individuals. Paid plans add advanced AI summaries, team sharing, coaching and CRM integrations.",
+  "categories": [
+    "meetings"
+  ],
+  "tags": [
+    "meeting-notes",
+    "transcription",
+    "summaries",
+    "crm"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "It is known for a generous free-forever plan for individuals. Paid plans add advanced AI summaries, team sharing, coaching and CRM integrations.",
+    "sourceUrl": "https://www.fathom.ai/pricing"
+  },
+  "logo": "/logos/fathom.png",
+  "image": "/screenshots/fathom.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.fathom.ai",
+    "https://www.fathom.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up",
+      "description": "Create a Fathom account. The homepage says it summarizes your meetings so you can focus on the conversation, and that a free plan is available.",
+      "links": [
+        {
+          "label": "Fathom",
+          "url": "https://fathom.video/users/sign_up"
+        }
+      ]
+    },
+    {
+      "title": "Capture the meeting",
+      "description": "Take notes with a meeting bot or bot-free. The site says Fathom works where you meet."
+    },
+    {
+      "title": "Open the summary",
+      "description": "The homepage says AI summaries are available immediately after the call."
+    },
+    {
+      "title": "Use the notes",
+      "description": "The page says your meeting data can also be used inside ChatGPT, Claude, and more.",
+      "links": [
+        {
+          "label": "Help Center",
+          "url": "https://help.fathom.video/"
+        }
+      ]
+    }
+  ]
+}

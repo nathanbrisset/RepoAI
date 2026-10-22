@@ -1,0 +1,58 @@
+{
+  "id": "roomgpt",
+  "name": "RoomGPT",
+  "url": "https://www.roomgpt.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "RoomGPT is an AI-powered tool that generates interior design ideas from a single room photo. By uploading an image and choosing a style, users receive realistic renderings of their space with new decor and layouts, perfect for inspiration and remote staging.",
+  "description": "RoomGPT is an AI-powered tool that generates interior design ideas from a single room photo. By uploading an image and choosing a style, users receive realistic renderings of their space with new decor and layouts, perfect for inspiration and remote staging.\n\nPhoto-to-Design: Transform photos into styled rooms. Multiple Styles: Choose from modern, classic, rustic, and more. Fast Rendering: Get new designs in seconds. Mobile Friendly: Works on smartphones and tablets.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "interior-design",
+    "rendering",
+    "virtual-staging"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/roomgpt.png",
+  "image": "/screenshots/roomgpt.webp",
+  "dateAdded": "2023-03-01",
+  "lastVerified": null,
+  "features": [
+    "Photo-to-Design: Transform photos into styled rooms.",
+    "Multiple Styles: Choose from modern, classic, rustic, and more.",
+    "Fast Rendering: Get new designs in seconds.",
+    "Mobile Friendly: Works on smartphones and tablets.",
+    "Download Images: Save new room concepts for later."
+  ],
+  "howToUse": [
+    {
+      "title": "Access RoomGPT & Upload Photo",
+      "description": "Go to RoomGPT, sign in, and upload a photo of your room.",
+      "links": [
+        {
+          "label": "RoomGPT",
+          "url": "https://roomgpt.io"
+        }
+      ]
+    },
+    {
+      "title": "Select a Style",
+      "description": "Choose from available interior design styles."
+    },
+    {
+      "title": "Generate New Designs",
+      "description": "Let AI render realistic new room concepts."
+    },
+    {
+      "title": "Download & Save",
+      "description": "Download your favorite designs for reference or sharing."
+    }
+  ]
+}

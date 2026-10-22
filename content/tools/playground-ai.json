@@ -1,0 +1,57 @@
+{
+  "id": "playground-ai",
+  "name": "Playground AI",
+  "url": "https://playgroundai.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Create custom designs and graphics with Playground",
+  "description": "Create custom designs and graphics with Playground\n\nText-to-Image Generation: Creates images from textual prompts. Style Customization: Offers various artistic styles. Interactive Editing: Allows real-time adjustments to images. Community Sharing: Enables users to share and explore artworks.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "text-to-image",
+    "inpainting",
+    "style-filters"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/playground-ai.png",
+  "image": "/screenshots/playground-ai.webp",
+  "dateAdded": "2023-01-10",
+  "lastVerified": null,
+  "features": [
+    "Text-to-Image Generation: Creates images from textual prompts.",
+    "Style Customization: Offers various artistic styles.",
+    "Interactive Editing: Allows real-time adjustments to images.",
+    "Community Sharing: Enables users to share and explore artworks."
+  ],
+  "howToUse": [
+    {
+      "title": "Access Playground AI",
+      "description": "Sign up for a free account at Playground AI.",
+      "links": [
+        {
+          "label": "Playground AI",
+          "url": "https://playgroundai.com"
+        }
+      ]
+    },
+    {
+      "title": "Create or Edit Image",
+      "description": "Start a new image from text or edit/upload an image and apply effects."
+    },
+    {
+      "title": "Customize Styles",
+      "description": "Choose from a variety of filters, inpainting, and style options."
+    },
+    {
+      "title": "Export or Share",
+      "description": "Download, publish, or share your creation in the Playground AI community."
+    }
+  ]
+}

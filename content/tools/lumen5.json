@@ -1,0 +1,59 @@
+{
+  "id": "lumen5",
+  "name": "Lumen5",
+  "url": "https://lumen5.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Lumen5 is a video creation platform powered by AI that enables anyone without training or experience to easily create engaging video content within minutes.",
+  "description": "Lumen5 is a video creation platform powered by AI that enables anyone without training or experience to easily create engaging video content within minutes.\n\nAI-Powered Video Creation: Turn blog posts into engaging videos. Drag-and-Drop Interface: User-friendly interface for easy video creation. Extensive Media Library: Access to millions of stock photos and videos. Customizable Templates: Various templates tailored for different platforms.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "promo-videos",
+    "content-marketing",
+    "drag-and-drop",
+    "automation",
+    "text-overlay"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/lumen5.png",
+  "image": "/screenshots/lumen5.webp",
+  "dateAdded": "2020-12-01",
+  "lastVerified": null,
+  "features": [
+    "AI-Powered Video Creation: Turn blog posts into engaging videos.",
+    "Drag-and-Drop Interface: User-friendly interface for easy video creation.",
+    "Extensive Media Library: Access to millions of stock photos and videos.",
+    "Customizable Templates: Various templates tailored for different platforms."
+  ],
+  "howToUse": [
+    {
+      "title": "Create Account & Log In",
+      "description": "Sign up on Lumen5 and access the video builder.",
+      "links": [
+        {
+          "label": "Lumen5",
+          "url": "https://www.lumen5.com"
+        }
+      ]
+    },
+    {
+      "title": "Input Blog or Script",
+      "description": "Paste a blog post or script for video generation."
+    },
+    {
+      "title": "Customize & Edit",
+      "description": "Adjust visuals, layout, and add branding or music."
+    },
+    {
+      "title": "Export & Share",
+      "description": "Download or publish your marketing video."
+    }
+  ]
+}

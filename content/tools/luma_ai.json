@@ -1,0 +1,59 @@
+{
+  "id": "luma_ai",
+  "name": "Luma AI",
+  "url": "https://lumalabs.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Luma AI leverages neural radiance fields (NeRF) to capture and generate photorealistic 3D models from smartphone photos or videos. It's popular for AR/VR, e-commerce, and digital creators seeking ultra-realistic 3D scans.",
+  "description": "Luma AI leverages neural radiance fields (NeRF) to capture and generate photorealistic 3D models from smartphone photos or videos. It's popular for AR/VR, e-commerce, and digital creators seeking ultra-realistic 3D scans.\n\nLuma AI is the creative AI platform for video generation and image creation. Powered by the world's leading video generation models, Ray and Uni, and creative agents handling end-to-end workflows. Trusted by leading agencies and brands. Try it free.\n\nNeRF Technology: Create 3D models from photos/videos. Photorealistic Output: High-fidelity, detailed results. Mobile Friendly: Capture with a standard smartphone. Export Options: Download in 3D and AR formats.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "3d",
+    "photo2model",
+    "nerf",
+    "ar-vr"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/luma_ai.png",
+  "image": "/screenshots/luma_ai.webp",
+  "dateAdded": "2022-05-01",
+  "lastVerified": null,
+  "features": [
+    "NeRF Technology: Create 3D models from photos/videos.",
+    "Photorealistic Output: High-fidelity, detailed results.",
+    "Mobile Friendly: Capture with a standard smartphone.",
+    "Export Options: Download in 3D and AR formats.",
+    "Web Viewer: Share scans easily online."
+  ],
+  "howToUse": [
+    {
+      "title": "Create Account & Download App",
+      "description": "Sign up for Luma AI and download the mobile app or use the web platform.",
+      "links": [
+        {
+          "label": "Luma AI",
+          "url": "https://lumalabs.ai"
+        }
+      ]
+    },
+    {
+      "title": "Capture Photos or Video",
+      "description": "Use your smartphone to capture an object or scene from multiple angles."
+    },
+    {
+      "title": "Process & Generate 3D Model",
+      "description": "Upload your captures to let Luma AI generate a photorealistic 3D model."
+    },
+    {
+      "title": "Download or Share Model",
+      "description": "Export in your preferred 3D/AR format or share a web viewer link."
+    }
+  ]
+}

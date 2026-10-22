@@ -1,0 +1,56 @@
+{
+  "id": "undermind",
+  "name": "Undermind",
+  "url": "https://www.undermind.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI research assistant that reads full texts and figures to find and cite relevant papers.",
+  "description": "Undermind runs in-depth searches of the scientific literature, reading full texts and figures and citing every source, then keeps results in a library that grows as research continues. It can be connected to AI agents such as Claude and ChatGPT.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "deep-research",
+    "papers",
+    "full-text",
+    "agents"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.undermind.ai/pricing"
+  },
+  "logo": "https://www.undermind.ai/logo.png",
+  "image": "/screenshots/undermind.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.undermind.ai/",
+    "https://www.undermind.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Undermind",
+      "description": "Open Undermind and sign up, then describe the research question. It asks follow-up questions.",
+      "links": [
+        {
+          "label": "Undermind",
+          "url": "https://www.undermind.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Search the literature",
+      "description": "Undermind runs searches across the scientific literature, reading the full texts and the figures."
+    },
+    {
+      "title": "Check every source",
+      "description": "Every statement keeps citing its source, so you can open that source and check the paper."
+    },
+    {
+      "title": "Keep a growing library",
+      "description": "Keep the results in the library. It grows as the research continues, and the account can be connected to Claude or ChatGPT."
+    }
+  ]
+}

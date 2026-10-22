@@ -1,0 +1,57 @@
+{
+  "id": "trint",
+  "name": "Trint",
+  "url": "https://trint.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Combines automated transcription with editing tools, facilitating efficient content creation workflows.",
+  "description": "Combines automated transcription with editing tools, facilitating efficient content creation workflows.\n\nFast-track your first draft with Trint's AI-connected media production. Transcribe, translate and collaborate in 50+ languages. Trusted by newsrooms worldwide.\n\nAI audio processing: Trint supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "audio",
+    "speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/trint.png",
+  "image": "/screenshots/trint.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "AI audio processing: Trint supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Trint",
+      "description": "Register and log in to the Trint dashboard.",
+      "links": [
+        {
+          "label": "Trint",
+          "url": "https://trint.com"
+        }
+      ]
+    },
+    {
+      "title": "Upload or Record Media",
+      "description": "Add audio or video files or record directly in the platform."
+    },
+    {
+      "title": "Transcribe & Edit",
+      "description": "Use AI to generate transcripts and edit them with built-in tools."
+    },
+    {
+      "title": "Export & Share",
+      "description": "Download transcripts and audio or share with collaborators."
+    }
+  ]
+}

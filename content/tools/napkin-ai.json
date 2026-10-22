@@ -1,0 +1,56 @@
+{
+  "id": "napkin-ai",
+  "name": "Napkin AI",
+  "url": "https://www.napkin.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turn text into diagrams, flowcharts and infographics.",
+  "description": "Napkin AI converts plain text into editable visuals such as diagrams, flowcharts and infographics, which can be exported for slides, documents and social posts. It differentiates itself by generating visuals directly from the meaning of your text rather than from image prompts. A free plan is available, with paid plans adding more credits and export options.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "diagrams",
+    "infographics",
+    "visuals"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "A free plan is available, with paid plans adding more credits and export options.",
+    "sourceUrl": "https://www.napkin.ai/pricing"
+  },
+  "logo": "",
+  "image": "/screenshots/napkin-ai.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.napkin.ai",
+    "https://www.napkin.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Import or paste your text",
+      "description": "Napkin's first step says to import or paste text. It says the visual comes from that text, without a separate prompt.",
+      "links": [
+        {
+          "label": "Napkin AI",
+          "url": "https://www.napkin.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Generate visuals and pick one",
+      "description": "Click to generate visuals, then choose the one that matches what you have in mind."
+    },
+    {
+      "title": "Polish it",
+      "description": "The page says nothing is fixed: change the visual until it feels right."
+    },
+    {
+      "title": "Export it",
+      "description": "Export as PPT, PNG, PDF, or SVG."
+    }
+  ]
+}

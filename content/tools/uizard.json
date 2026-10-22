@@ -1,0 +1,55 @@
+{
+  "id": "uizard",
+  "name": "Uizard",
+  "url": "https://uizard.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "UI design for apps, websites, and desktop software in minutes. If you can use Google Slides or PowerPoint, you can use Uizard!",
+  "description": "UI design for apps, websites, and desktop software in minutes. If you can use Google Slides or PowerPoint, you can use Uizard!\n\nAutodesigner: Creates UIs from text prompts. Screenshot Scanner: Turns sketches into editable UIs. Drag-and-Drop Editor: No-code visual design. Focus Predictor: Predicts attention hotspots.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "wireframing",
+    "prototyping",
+    "no-code",
+    "ui-design",
+    "collaboration"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/uizard.png",
+  "image": "/screenshots/uizard.webp",
+  "dateAdded": "2022-09-10",
+  "lastVerified": null,
+  "features": [
+    "Autodesigner: Creates UIs from text prompts.",
+    "Screenshot Scanner: Turns sketches into editable UIs.",
+    "Drag-and-Drop Editor: No-code visual design.",
+    "Focus Predictor: Predicts attention hotspots."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Launch Uizard",
+      "description": "Create an account and open the Uizard editor.",
+      "links": [
+        {
+          "label": "Uizard",
+          "url": "https://uizard.io/"
+        }
+      ]
+    },
+    {
+      "title": "Import Sketch or Wireframe",
+      "description": "Upload a sketch or start from scratch with drag-and-drop elements."
+    },
+    {
+      "title": "Auto-Design & Edit",
+      "description": "Use AI to transform sketches into digital designs and customize layouts."
+    }
+  ]
+}

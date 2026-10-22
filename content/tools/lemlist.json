@@ -1,0 +1,53 @@
+{
+  "id": "lemlist",
+  "name": "lemlist",
+  "url": "https://www.lemlist.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Multichannel prospecting tool with a lead database and sequences across email, LinkedIn, calls and WhatsApp.",
+  "description": "lemlist finds prospects in a database of more than 650 million leads, verifies emails and phone numbers, and runs multichannel sequences across email, LinkedIn, calls, SMS and WhatsApp with a unified inbox and deliverability tools. Plans start at $69 per month ($55 billed annually) for the email plan, with a free trial; no permanent free plan was shown. Lead finding and outreach can also be run from a CRM or an AI assistant.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "multichannel",
+    "cold-email",
+    "linkedin",
+    "lead-database"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$69/mo (monthly; $55 annual)",
+    "sourceUrl": "https://www.lemlist.com/pricing"
+  },
+  "logo": "https://www.lemlist.com/favicon.ico",
+  "image": "/screenshots/lemlist.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.lemlist.com/",
+    "https://www.lemlist.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open lemlist",
+      "description": "Open lemlist and start a free trial, or request a demo, to reach the outbound workspace.",
+      "links": [
+        {
+          "label": "lemlist",
+          "url": "https://www.lemlist.com/"
+        }
+      ]
+    },
+    {
+      "title": "Find prospects and verify contacts",
+      "description": "Search the database of more than 650 million prospects, then use the finder that verifies emails and phone numbers before any outreach."
+    },
+    {
+      "title": "Launch multichannel sequences",
+      "description": "Build multichannel sequences across email, LinkedIn, calls, SMS and WhatsApp, follow replies in the unified inbox, and watch deliverability. The same outreach can also run from a CRM or an AI assistant."
+    }
+  ]
+}

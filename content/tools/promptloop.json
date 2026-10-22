@@ -1,0 +1,56 @@
+{
+  "id": "promptloop",
+  "name": "PromptLoop",
+  "url": "https://www.promptloop.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI platform for GTM & B2B Sales: Automate web scraping, Deep Research, and CRM data enrichment for accurate B2B insights. 10x faster B2B research. Get started free.",
+  "description": "AI platform for GTM & B2B Sales: Automate web scraping, Deep Research, and CRM data enrichment for accurate B2B insights. 10x faster B2B research. Get started free.\n\nSpreadsheet AI: Use LLMs in Excel or Sheets. Formula builder: Write complex logic in simple language. No-code integration: Set up without coding. Text processing: Clean and format content.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "sheets",
+    "automation"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/promptloop.png",
+  "image": "/screenshots/promptloop.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Spreadsheet AI: Use LLMs in Excel or Sheets.",
+    "Formula builder: Write complex logic in simple language.",
+    "No-code integration: Set up without coding.",
+    "Text processing: Clean and format content."
+  ],
+  "howToUse": [
+    {
+      "title": "Install PromptLoop Add-on",
+      "description": "Add the PromptLoop extension to Google Sheets or Excel.",
+      "links": [
+        {
+          "label": "PromptLoop",
+          "url": "https://www.promptloop.com/"
+        }
+      ]
+    },
+    {
+      "title": "Use AI Formulas",
+      "description": "Enter natural language instructions in your spreadsheet cells."
+    },
+    {
+      "title": "Analyze or Transform Data",
+      "description": "Let AI help with data cleaning, summarization, or logic in your sheet."
+    },
+    {
+      "title": "No-Code Setup",
+      "description": "Set up automations and workflows without writing code."
+    }
+  ]
+}

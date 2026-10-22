@@ -1,0 +1,59 @@
+{
+  "id": "nanonets",
+  "name": "Nanonets",
+  "url": "https://nanonets.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Nanonets is an AI platform focused on automating document workflows and extracting data from unstructured files such as invoices, receipts, and IDs. Using deep learning, Nanonets can be trained on custom documents and integrated into business processes via API. The platform continuously learns from user feedback, offers multi-language support, and enables organizations to build intelligent document processing solutions at scale.",
+  "description": "Nanonets is an AI platform focused on automating document workflows and extracting data from unstructured files such as invoices, receipts, and IDs. Using deep learning, Nanonets can be trained on custom documents and integrated into business processes via API. The platform continuously learns from user feedback, offers multi-language support, and enables organizations to build intelligent document processing solutions at scale.\n\nNanonets automates messy manual processes including accounts payable, claims processing, order management, and more, and delivers clean data to systems of record like SAP, Salesforce, and more. Trusted by 10,000+ enterprises.\n\nAutomated Data Extraction: Extracts fields from documents and images. Custom Workflows: Train models on your own documents. API Integration: Easily integrate with existing business systems. Multi-Language Support: Processes documents in various languages.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "document-ai",
+    "automation",
+    "data-extraction"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/nanonets.png",
+  "image": "/screenshots/nanonets.webp",
+  "dateAdded": null,
+  "lastVerified": null,
+  "dateAddedNote": "The previous Added date was 2017-04-01. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Automated Data Extraction: Extracts fields from documents and images.",
+    "Custom Workflows: Train models on your own documents.",
+    "API Integration: Easily integrate with existing business systems.",
+    "Multi-Language Support: Processes documents in various languages.",
+    "Continuous Learning: Improves accuracy through feedback."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Log In",
+      "description": "Create an account on Nanonets and log in to the dashboard.",
+      "links": [
+        {
+          "label": "Nanonets",
+          "url": "https://nanonets.com"
+        }
+      ]
+    },
+    {
+      "title": "Train or Use a Model",
+      "description": "Upload sample documents to train a custom model or use a prebuilt workflow."
+    },
+    {
+      "title": "Integrate with Your Systems",
+      "description": "Use APIs or integrations to automate document processing in your business."
+    },
+    {
+      "title": "Review & Improve",
+      "description": "Review extracted data and provide feedback to improve model accuracy."
+    }
+  ]
+}

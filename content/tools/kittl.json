@@ -1,0 +1,56 @@
+{
+  "id": "kittl",
+  "name": "Kittl",
+  "url": "https://www.kittl.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Design platform combining image and vector generation, editing tools, mockups and curated assets.",
+  "description": "Kittl is a browser-based design platform. It combines image, vector and video generation with professional editing tools, mockups, background removal and a library of assets and templates, and provides workflows for merch and marketing. A creative agent and an MCP integration let AI agents work inside Kittl. It is free to start; paid plan prices did not load during this check.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "graphic-design",
+    "vector",
+    "mockups",
+    "merch"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.kittl.com/pricing"
+  },
+  "logo": "https://www.kittl.com/apple-icon.png?apple-icon.3l5nqt4zrix42.png",
+  "image": "/screenshots/kittl.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.kittl.com/",
+    "https://www.kittl.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kittl",
+      "description": "Open Kittl and choose Start Creating. It is a browser-based design platform and it is free to start.",
+      "links": [
+        {
+          "label": "Kittl",
+          "url": "https://www.kittl.com/"
+        }
+      ]
+    },
+    {
+      "title": "Generate, then edit",
+      "description": "Generate an image, a vector, or a video, then keep editing with the professional tools: mockups, background removal, and the library of assets and templates."
+    },
+    {
+      "title": "Run a merch or marketing workflow",
+      "description": "Use a workflow for merch or marketing, or open the creative agent and build launch-ready assets in one chat."
+    },
+    {
+      "title": "Let another agent work inside Kittl",
+      "description": "Use the MCP integration when an AI agent should work inside Kittl. Paid plan prices did not load during the check, so open Pricing on Kittl before you pay."
+    }
+  ]
+}

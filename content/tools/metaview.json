@@ -1,0 +1,56 @@
+{
+  "id": "metaview",
+  "name": "Metaview",
+  "url": "https://www.metaview.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Agentic recruiting platform for sourcing, screening, interviewing and interview notes.",
+  "description": "Metaview provides recruiting agents that source candidates, run outreach, review applications, take interview notes and book screening calls, sharing context across the hiring process. Its fillmore agent handles autonomous outbound recruiting. The Free plan includes 100 sourced profiles; Pro costs $100 per user per month. The company announced $60M in new funding led by Insight Partners. Its agents are designed to share context from first search to final offer.",
+  "categories": [
+    "hr"
+  ],
+  "tags": [
+    "interview-notes",
+    "sourcing",
+    "recruiting-agents"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$100/user/mo (Pro)",
+    "sourceUrl": "https://www.metaview.ai/pricing"
+  },
+  "logo": "https://www.metaview.ai/safari-pinned-tab.svg",
+  "image": "/screenshots/metaview.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.metaview.ai/",
+    "https://www.metaview.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Metaview",
+      "description": "Open Metaview and start for free, or book a demo, to use the recruiting agents.",
+      "links": [
+        {
+          "label": "Metaview",
+          "url": "https://www.metaview.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Source candidates and run outreach",
+      "description": "Tell Metaview who you need so an agent can source candidates and run outreach. fillmore handles autonomous outbound recruiting and can book screening calls."
+    },
+    {
+      "title": "Review through to the offer",
+      "description": "Review applications, keep interview notes, and continue sharing context across the hiring process from the first search to the final offer."
+    },
+    {
+      "title": "Compare Free and Pro",
+      "description": "The Free plan includes 100 sourced profiles. Pro costs $100 per user per month when the team needs a higher allowance."
+    }
+  ]
+}

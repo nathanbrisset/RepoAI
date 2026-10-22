@@ -1,0 +1,64 @@
+{
+  "id": "builder_io",
+  "name": "Builder.io",
+  "url": "https://www.builder.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Builder.io is a visual CMS and page builder that empowers teams to create, test, and optimize digital experiences without writing code. With AI-powered content generation and modular components, Builder.io speeds up development and enables dynamic, data-driven web pages.",
+  "description": "Builder.io is a visual CMS and page builder that empowers teams to create, test, and optimize digital experiences without writing code. With AI-powered content generation and modular components, Builder.io speeds up development and enables dynamic, data-driven web pages.\n\nOne codebase for engineers, designers, PMs, and marketers. Everyone works from one source of truth, on brand and in code, with no handoffs to clean up.\n\nVisual Editing: Drag-and-drop page creation. AI Content Generation: Quickly produce text and images. A/B Testing: Experiment with versions and track conversions. Integration: Connects with React, Vue, Angular, and more.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "cms",
+    "page-builder",
+    "ai-content",
+    "optimization"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/builder_io.png",
+  "image": "/screenshots/builder_io.webp",
+  "dateAdded": null,
+  "lastVerified": null,
+  "dateAddedNote": "The previous Added date was 2018-05-01. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Visual Editing: Drag-and-drop page creation.",
+    "AI Content Generation: Quickly produce text and images.",
+    "A/B Testing: Experiment with versions and track conversions.",
+    "Integration: Connects with React, Vue, Angular, and more.",
+    "Dynamic Data: Display content from APIs and databases."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Builder.io",
+      "description": "Create your account and access the visual editor.",
+      "links": [
+        {
+          "label": "Builder.io",
+          "url": "https://builder.io"
+        }
+      ]
+    },
+    {
+      "title": "Start a New Page or Project",
+      "description": "Create a new page or import an existing site for editing."
+    },
+    {
+      "title": "Design Visually",
+      "description": "Drag and drop components, and use AI to generate or optimize content."
+    },
+    {
+      "title": "Integrate & Test",
+      "description": "Connect to frameworks, APIs, or dynamic data sources. Use A/B testing to optimize."
+    },
+    {
+      "title": "Publish & Export",
+      "description": "Publish directly or export code and assets for deployment."
+    }
+  ]
+}

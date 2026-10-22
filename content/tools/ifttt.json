@@ -1,0 +1,57 @@
+{
+  "id": "ifttt",
+  "name": "IFTTT",
+  "url": "https://ifttt.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code service linking 1,000+ apps and devices through simple trigger-action applets.",
+  "description": "IFTTT connects more than 1,000 services, including Google apps, webhooks, Discord, Slack and smart home devices, through applets that run an action when a trigger fires. It is aimed at individuals and small businesses rather than complex enterprise workflows. A free plan allows using published applets; paid tiers start at $2.99 per month billed annually and $8.99 per month for multi-step and filter features.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "automation",
+    "smart-home",
+    "no-code",
+    "applets"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$2.99/mo (annual)",
+    "sourceUrl": "https://ifttt.com/plans"
+  },
+  "logo": "https://web-assets.ifttt.com/builds/assets/favicon-C2-mcUeO.svg",
+  "image": "/screenshots/ifttt.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://ifttt.com/",
+    "https://ifttt.com/plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Open IFTTT",
+      "description": "Open IFTTT and choose Get started or Start building.",
+      "links": [
+        {
+          "label": "IFTTT",
+          "url": "https://ifttt.com/"
+        }
+      ]
+    },
+    {
+      "title": "Connect a trigger to an action",
+      "description": "Create an applet that connects services. Choose a trigger, pick an action, and customize it so the action runs when the trigger fires. Services include Google apps, webhooks, Discord, Slack, and smart home devices, among more than 1,000."
+    },
+    {
+      "title": "Enable a published applet",
+      "description": "Enable a published applet when you want one that already exists. The free plan allows using published applets."
+    },
+    {
+      "title": "Move to a paid tier for longer applets",
+      "description": "Paid tiers start at $2.99 per month billed annually. The tier at $8.99 per month adds multi-step and filter features. IFTTT is aimed at individuals and small businesses."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "superwhisper",
+  "name": "Superwhisper",
+  "url": "https://superwhisper.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Voice-to-text dictation for macOS, Windows, iOS and Android, working offline or in the cloud.",
+  "description": "Superwhisper lets users dictate into any app with a keyboard shortcut and turns speech into formatted text, with modes such as formal, casual and legal. It works offline or with cloud models, supports more than 100 languages and lets users bring their own AI API keys. Pro features can be tried free for 3,000 words; Pro costs $8.49 per month, with yearly and lifetime options.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "dictation",
+    "speech-to-text",
+    "offline",
+    "macos"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$8.49/mo (Pro)"
+  },
+  "logo": "https://superwhisper.com/icon.png?65555eabc972a88c",
+  "image": "/screenshots/superwhisper.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://superwhisper.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Superwhisper",
+      "description": "Open Superwhisper and download it for your computer or phone.",
+      "links": [
+        {
+          "label": "Superwhisper",
+          "url": "https://superwhisper.com/"
+        }
+      ]
+    },
+    {
+      "title": "Dictate with the shortcut",
+      "description": "Select an app, press the keyboard shortcut and dictate. On a Mac that shortcut is Option plus space. Superwhisper turns speech into formatted text. Switch among the formal, casual and legal modes. The transcript is pasted into the app."
+    },
+    {
+      "title": "Choose offline, cloud or Pro",
+      "description": "It works offline or with cloud models, supports more than 100 languages, and lets you bring your own AI API keys. Pro can be tried free for 3,000 words. Pro costs $8.49 a month, with yearly and lifetime options."
+    }
+  ]
+}

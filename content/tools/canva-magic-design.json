@@ -1,0 +1,59 @@
+{
+  "id": "canva-magic-design",
+  "name": "Canva Magic Design",
+  "url": "https://www.canva.com/magic-design",
+  "affiliateUrl": "",
+  "status": "duplicate-of",
+  "successorId": "canva-ai",
+  "statusNote": "Magic Design is a feature of Canva, not a separate product. See canva-ai.",
+  "summary": "AI-powered design assistant integrated with Canva for creating visual assets.",
+  "description": "AI-powered design assistant integrated with Canva for creating visual assets.\n\nDesign Generation: Creates designs based on user input and preferences. Template Suggestions: Offers tailored templates for various needs. Content Integration: Incorporates user content into designs seamlessly. Real-Time Collaboration: Allows multiple users to work on designs simultaneously.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "templates",
+    "design-assistant",
+    "creative"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/canva-magic-design.png",
+  "image": "/screenshots/canva-magic-design.webp",
+  "dateAdded": "2023-10-01",
+  "lastVerified": null,
+  "features": [
+    "Design Generation: Creates designs based on user input and preferences.",
+    "Template Suggestions: Offers tailored templates for various needs.",
+    "Content Integration: Incorporates user content into designs seamlessly.",
+    "Real-Time Collaboration: Allows multiple users to work on designs simultaneously."
+  ],
+  "howToUse": [
+    {
+      "title": "Access Canva Magic Design",
+      "description": "Sign into Canva and access Magic Design from the dashboard.",
+      "links": [
+        {
+          "label": "Canva Magic Design",
+          "url": "https://www.canva.com/magic-design"
+        }
+      ]
+    },
+    {
+      "title": "Start a New Project",
+      "description": "Describe your needs and get AI-generated designs and templates."
+    },
+    {
+      "title": "Customize & Collaborate",
+      "description": "Edit generated designs and collaborate in real-time."
+    },
+    {
+      "title": "Download or Publish",
+      "description": "Export designs or publish them directly from Canva."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "warp",
+  "name": "Warp",
+  "url": "https://www.warp.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Agentic development environment built around the terminal.",
+  "description": "Warp is a modern terminal and agentic development environment where developers run AI coding agents with the model of their choice, alongside classic command-line work. It positions itself as a 'software factory' with agent evals and automation. A free plan is available, and paid plans add more AI requests and team features.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "terminal",
+    "coding-agent",
+    "developer-tools"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "A free plan is available, and paid plans add more AI requests and team features.",
+    "sourceUrl": "https://www.warp.dev/pricing"
+  },
+  "logo": "/logos/warp.png",
+  "image": "/screenshots/warp.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.warp.dev",
+    "https://www.warp.dev/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Request access or download the terminal",
+      "description": "The homepage leads with Request early access for cloud software factories and a separate Download Warp Terminal button.",
+      "links": [
+        {
+          "label": "Warp",
+          "url": "https://www.warp.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Define the factory in code",
+      "description": "The page says the factory is defined in code and shows factory.yaml together with agents, automations, runners, skills, webhooks, scorers, and benchmarks."
+    },
+    {
+      "title": "Read the docs",
+      "description": "API docs and guides are linked from the homepage.",
+      "links": [
+        {
+          "label": "Warp docs",
+          "url": "https://docs.warp.dev/"
+        }
+      ]
+    }
+  ]
+}

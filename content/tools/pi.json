@@ -1,0 +1,49 @@
+{
+  "id": "pi",
+  "name": "Pi",
+  "url": "https://pi.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Personal AI chat assistant from Inflection AI, designed for open-ended conversation.",
+  "description": "Pi is a personal AI assistant developed by Inflection AI. It is designed for open-ended, supportive conversation rather than task automation, and users can talk to it on the web or in its mobile apps after signing up. The service presents itself with the line \"Hey, I'm Pi — your personal AI\".",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "chatbot",
+    "personal-assistant",
+    "conversation",
+    "inflection"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "",
+  "image": "/screenshots/pi.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://pi.ai/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Pi",
+      "description": "Open Pi, the personal AI assistant developed by Inflection AI, and sign up before you talk to it.",
+      "links": [
+        {
+          "label": "Pi",
+          "url": "https://pi.ai"
+        }
+      ]
+    },
+    {
+      "title": "Talk on the web or in the mobile apps",
+      "description": "After signing up, talk to Pi on the web or in its mobile apps."
+    },
+    {
+      "title": "Keep the conversation open-ended",
+      "description": "Use Pi for open-ended, supportive conversation rather than task automation. The service presents itself with the line Hey, I'm Pi, your personal AI."
+    }
+  ]
+}

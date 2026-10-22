@@ -1,0 +1,57 @@
+{
+  "id": "google-flow-music",
+  "name": "Google Flow Music",
+  "url": "https://www.flowmusic.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Generative music platform, formerly Producer.ai (Riffusion), for creating and remixing songs.",
+  "description": "Google Flow Music, previously Producer.ai and before that Riffusion, is a platform for creating, remixing and sharing songs with generative AI. Users chat with an assistant as in a studio session to produce full-length tracks, make music videos, create instruments and effects, and remix unreleased tracks. The Free plan has daily credit top-ups; paid plans are Starter at $6, Plus at $18 and Member at $48 per month.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "music-generation",
+    "songs",
+    "remix",
+    "google"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$6/mo (Starter)",
+    "sourceUrl": "https://www.flowmusic.app/pricing"
+  },
+  "logo": "https://www.flowmusic.app/icon-512.png",
+  "image": "/screenshots/google-flow-music.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.producer.ai/",
+    "https://www.flowmusic.app/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Google Flow Music",
+      "description": "Go to Google Flow Music and choose Get started, Sign up, or Log in. This platform, previously Producer.ai and before that Riffusion, is for creating, remixing, and sharing songs with generative AI.",
+      "links": [
+        {
+          "label": "Google Flow Music",
+          "url": "https://www.flowmusic.app/"
+        }
+      ]
+    },
+    {
+      "title": "Chat through a studio session",
+      "description": "Chat with the assistant as in a studio session to produce full-length tracks. The page calls that chat Producer."
+    },
+    {
+      "title": "Make videos, instruments, and remixes",
+      "description": "Make music videos, create instruments and effects, and remix unreleased tracks."
+    },
+    {
+      "title": "Spend daily credits or a paid plan",
+      "description": "The Free plan has daily credit top-ups. Paid plans are Starter at $6, Plus at $18, and Member at $48 per month. The page says you can start with no credit card required."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "deepswap",
+  "name": "DeepSwap",
+  "url": "https://www.deepswap.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "DeepSwap is an AI-powered face swapping tool for videos and images, enabling realistic and quick face replacement for memes, parody, and creative edits.",
+  "description": "DeepSwap is an AI-powered face swapping tool for videos and images, enabling realistic and quick face replacement for memes, parody, and creative edits.\n\nProfessional AI face swapping website online. Swap any faces in video, GIF and photo with a few clicks. Unleash your creativity with Deepswap now!\n\nAutomatic face swapping: Replace faces in videos or images with high accuracy and realism using advanced neural networks. Realistic results: Seamless blending and natural expressions for both fun and professional use cases. Multiple file formats: Works with MP4, GIF, JPEG, and many other common media file types. Fast processing: Upload and process large files quickly, with support for batch jobs.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "face-swap",
+    "editing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/deepswap.png",
+  "image": "/screenshots/deepswap.webp",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "Automatic face swapping: Replace faces in videos or images with high accuracy and realism using advanced neural networks.",
+    "Realistic results: Seamless blending and natural expressions for both fun and professional use cases.",
+    "Multiple file formats: Works with MP4, GIF, JPEG, and many other common media file types.",
+    "Fast processing: Upload and process large files quickly, with support for batch jobs."
+  ],
+  "howToUse": [
+    {
+      "title": "Register or Log In",
+      "description": "Go to DeepSwap's website, sign up for an account, and log in to your dashboard.",
+      "links": [
+        {
+          "label": "DeepSwap",
+          "url": "https://www.deepswap.ai"
+        }
+      ]
+    },
+    {
+      "title": "Upload Source Video or Image",
+      "description": "Click 'Upload' and choose the video, GIF, or image you want to use as the base for face swapping."
+    },
+    {
+      "title": "Upload Face(s) for Swap",
+      "description": "Upload the face image(s) you want to insert into the base video or image. DeepSwap will analyze and prepare them for swapping."
+    },
+    {
+      "title": "Run AI Face Swap",
+      "description": "Start the swap process. DeepSwap’s AI will automatically replace faces, adjust blending, and generate the output."
+    },
+    {
+      "title": "Preview & Edit",
+      "description": "Preview your swapped result. For best results, check the alignment and naturalness. Re-upload or adjust faces if needed."
+    },
+    {
+      "title": "Download or Share",
+      "description": "Download your face-swapped video or image. Paid users can export in higher resolution and without watermark."
+    }
+  ]
+}

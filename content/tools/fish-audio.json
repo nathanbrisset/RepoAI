@@ -1,0 +1,54 @@
+{
+  "id": "fish-audio",
+  "name": "Fish Audio",
+  "url": "https://fish.audio/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Text-to-speech and voice cloning platform with emotion control and a large voice library.",
+  "description": "Fish Audio provides text-to-speech and voice cloning with emotion control, a library of more than two million community voices and a developer API. Its Drama model targets expressive real-time speech. The Free tier includes 8,000 credits per month without a card; paid tiers include Plus, Pro at $75 per month billed annually and Max for teams, with commercial use on paid plans.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "tts",
+    "voice-cloning",
+    "api",
+    "expressive-speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true
+  },
+  "logo": "https://fish.audio/apple-touch-icon.png",
+  "image": "/screenshots/fish-audio.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://fish.audio/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Fish Audio",
+      "description": "Go to Fish Audio and choose Sign Up Free or Get started.",
+      "links": [
+        {
+          "label": "Fish Audio",
+          "url": "https://fish.audio/"
+        }
+      ]
+    },
+    {
+      "title": "Generate speech",
+      "description": "Enter text, pick a voice from the community library of more than two million voices, and generate speech with emotion control or voice cloning."
+    },
+    {
+      "title": "Try the Drama model",
+      "description": "Use the Drama model when you need expressive speech. The page presents Drama as the voice model for that style."
+    },
+    {
+      "title": "Call the developer API",
+      "description": "Call the developer API for the same voices. The Free tier includes 8,000 credits per month without a card. Paid tiers are Plus, Pro at $75 per month billed annually, and Max for teams, with commercial use on paid plans."
+    }
+  ]
+}

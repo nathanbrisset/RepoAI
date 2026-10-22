@@ -1,35 +1,81 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import { useRouter } from "next/navigation"
 import ToolCard from "@/components/tool-card"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Search } from "lucide-react"
-import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
 import type { Tool } from "@/lib/types"
+import { categoryCatalog } from "@/lib/category-meta"
+import { pricingLabel } from "@/lib/i18n/messages"
+import { localizeHref } from "@/lib/i18n/paths"
+import LocaleLink from "@/components/locale-link"
+import { useLocale, useT } from "@/components/locale-provider"
+import {
+  PRICE_FILTER_OPTIONS,
+  matchesPriceFilter,
+  priceFilterFromParam,
+  priceFilterParam,
+  type PriceFilter,
+} from "@/lib/price-filter"
 
 interface ToolsClientProps {
   tools: Tool[]
+  initialCategory?: string | null
+  initialPricing?: string | null
 }
 
-const PRICING_OPTIONS = [
-  { label: "Free", className: "bg-gray-200 text-gray-800" },
-  { label: "Freemium", className: "bg-gradient-to-r from-blue-500 to-green-400 text-white" },
-  { label: "Premium", className: "bg-gradient-to-r from-amber-500 to-yellow-500 text-white" },
-]
-
-export default function ToolsClient({ tools }: ToolsClientProps) {
-  const [selectedPricing, setSelectedPricing] = useState<string | null>(null)
+export default function ToolsClient({ tools, initialCategory = null, initialPricing = null }: ToolsClientProps) {
+  const router = useRouter()
+  const initial = categoryCatalog.some((category) => category.id === initialCategory) ? initialCategory : null
+  const initialFilter = priceFilterFromParam(initialPricing)
+  const [selectedPricing, setSelectedPricing] = useState<PriceFilter | null>(initialFilter)
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(initial)
   const [query, setQuery] = useState("")
+  const locale = useLocale()
+  const t = useT()
+
+  useEffect(() => {
+    setSelectedCategory(initial)
+  }, [initial])
+
+  useEffect(() => {
+    setSelectedPricing(initialFilter)
+  }, [initialFilter])
+
+  function writeQuery(category: string | null, pricing: PriceFilter | null) {
+    const params = new URLSearchParams()
+    if (category) params.set("category", category)
+    if (pricing) params.set("pricing", priceFilterParam(pricing))
+    const next = params.toString()
+    router.replace(localizeHref(locale, next ? `/tools?${next}` : "/tools"), { scroll: false })
+  }
+
+  function selectCategory(id: string | null) {
+    setSelectedCategory(id)
+    writeQuery(id, selectedPricing)
+  }
+
+  function selectPricing(label: PriceFilter) {
+    const next = selectedPricing === label ? null : label
+    setSelectedPricing(next)
+    writeQuery(selectedCategory, next)
+  }
 
   const filteredTools = tools.filter(tool => {
-    const matchesQuery =
-      tool.name.toLowerCase().includes(query.toLowerCase()) ||
-      tool.description.toLowerCase().includes(query.toLowerCase()) ||
-      tool.tags?.some(tag => tag.toLowerCase().includes(query.toLowerCase()))
-    const matchesPricing = selectedPricing ? tool.isPremium === selectedPricing : true
-    return matchesQuery && matchesPricing
+    const haystack = [
+      tool.name,
+      tool.description,
+      tool.longDescription,
+      ...(tool.tags || []),
+      ...(tool.features || []),
+    ].join(" ").toLowerCase()
+    const matchesQuery = haystack.includes(query.toLowerCase())
+    const matchesPricing = matchesPriceFilter(tool, selectedPricing)
+    const matchesCategory = selectedCategory ? tool.categories.includes(selectedCategory) : true
+    return matchesQuery && matchesPricing && matchesCategory
   })
 
   return (
@@ -37,30 +83,52 @@ export default function ToolsClient({ tools }: ToolsClientProps) {
       <div className="container mx-auto max-w-6xl px-4 py-12">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12 gap-4">
           <div className="text-center md:text-left">
-            <h1 className="text-5xl font-extrabold mb-4 text-black">AI Tools Directory</h1>
+            <h1 className="text-5xl font-extrabold mb-4 text-black">{t("tools.title")}</h1>
             <p className="text-xl text-gray-600 max-w-2xl">
-              Browse our comprehensive collection of {tools.length} AI tools. Find the perfect solution for your needs.
+              {t("tools.subtitle", { count: tools.length })}
             </p>
           </div>
           {/* Pricing Filter - right aligned */}
-          <div className="flex gap-3 justify-center md:justify-end items-center">
-            {PRICING_OPTIONS.map(({ label, className }) => (
+          <div className="flex max-w-full flex-wrap gap-3 justify-center md:shrink-0 md:justify-end items-center">
+            {PRICE_FILTER_OPTIONS.map(({ label, className }) => (
               <button
                 key={label}
-                onClick={() => setSelectedPricing(selectedPricing === label ? null : label)}
-                className="focus:outline-none"
+                type="button"
+                onClick={() => selectPricing(label)}
+                className="shrink-0 focus:outline-none"
                 aria-pressed={selectedPricing === label}
+                data-pricing={priceFilterParam(label)}
               >
                 <Badge className={
-                  `${className} px-4 py-2 text-base rounded-lg transition-colors border-2 ${
+                  `${className} whitespace-nowrap px-4 py-2 text-base rounded-lg transition-colors border-2 ${
                     selectedPricing === label ? 'border-black scale-105 shadow' : 'border-transparent opacity-80 hover:opacity-100'
                   }`
                 }>
-                  {label}
+                  {pricingLabel(locale, label)}
                 </Badge>
               </button>
             ))}
           </div>
+        </div>
+
+        <div className="flex flex-wrap gap-2 mb-8">
+          <button
+            type="button"
+            onClick={() => selectCategory(null)}
+            className={`rounded-full px-3 py-1 text-sm ${selectedCategory === null ? "bg-gray-900 text-white" : "bg-white text-gray-700 border"}`}
+          >
+            All categories
+          </button>
+          {categoryCatalog.map((category) => (
+            <button
+              key={category.id}
+              type="button"
+              onClick={() => selectCategory(selectedCategory === category.id ? null : category.id)}
+              className={`rounded-full px-3 py-1 text-sm ${selectedCategory === category.id ? "bg-gray-900 text-white" : "bg-white text-gray-700 border"}`}
+            >
+              {category.name}
+            </button>
+          ))}
         </div>
 
         {/* Search Bar */}
@@ -68,7 +136,7 @@ export default function ToolsClient({ tools }: ToolsClientProps) {
           <form className="relative" onSubmit={e => { e.preventDefault(); }}>
             <Input
               type="search"
-              placeholder="Search tools by name, description, or tags..."
+              placeholder={t("tools.searchPlaceholder")}
               className="w-full pl-12 pr-4 py-6 text-lg rounded-xl border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
               value={query}
               onChange={e => setQuery(e.target.value)}
@@ -79,7 +147,7 @@ export default function ToolsClient({ tools }: ToolsClientProps) {
               type="submit"
               className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg"
             >
-              Search
+              {t("tools.search")}
             </Button>
           </form>
         </div>
@@ -94,11 +162,11 @@ export default function ToolsClient({ tools }: ToolsClientProps) {
         {/* No Results Message */}
         {filteredTools.length === 0 && (
           <div className="text-center py-12">
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">No tools found</h3>
-            <p className="text-gray-600 mb-4">Try adjusting your search terms or browse all tools</p>
-            <Link href="/tools">
-              <Button variant="outline">View All Tools</Button>
-            </Link>
+            <h3 className="text-xl font-semibold text-gray-900 mb-2">{t("tools.noneTitle")}</h3>
+            <p className="text-gray-600 mb-4">{t("tools.noneBody")}</p>
+            <LocaleLink href="/tools">
+              <Button variant="outline">{t("tools.viewAll")}</Button>
+            </LocaleLink>
           </div>
         )}
       </div>

@@ -1,0 +1,58 @@
+{
+  "id": "langchain",
+  "name": "LangChain",
+  "url": "https://www.langchain.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source agent framework plus LangSmith for tracing, evaluation and deployment of agents.",
+  "description": "LangChain maintains open-source frameworks for building LLM applications and agents, including LangChain and LangGraph. Its commercial platform, LangSmith, adds observability, evaluation, deployment, sandboxes and an LLM gateway. The Developer plan is free for one seat with 5,000 base traces per month and pay-as-you-go beyond that. The Plus plan costs $39 per seat per month; enterprise pricing is custom. LangSmith also includes an agent improvement engine and Fleet, a no-code agent product for the whole company.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "framework",
+    "observability",
+    "evaluation",
+    "langsmith",
+    "open-source"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$39/seat/mo (Plus)",
+    "sourceUrl": "https://www.langchain.com/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/69a17e4f0c916c644f4de1cd_webclip%20lg.png",
+  "image": "/screenshots/langchain.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.langchain.com/",
+    "https://www.langchain.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open LangChain",
+      "description": "Open LangChain and choose Try LangSmith or Start building. Choose Get a demo if you want a walkthrough of the commercial platform.",
+      "links": [
+        {
+          "label": "LangChain",
+          "url": "https://www.langchain.com/"
+        }
+      ]
+    },
+    {
+      "title": "Build with the open-source frameworks",
+      "description": "Build an LLM application or an agent with the open-source frameworks, including LangChain and LangGraph. For a no-code path, use Fleet, the agent product for the whole company."
+    },
+    {
+      "title": "Trace, evaluate, and deploy in LangSmith",
+      "description": "In LangSmith, use observability to see agent runs and evaluation to score them, then deployment to ship them. Sandboxes run agent-generated code, and the LLM gateway controls model calls. An agent improvement engine is included."
+    },
+    {
+      "title": "Start on the Developer plan",
+      "description": "Start on Developer: one seat costs nothing and includes 5,000 base traces each month, with pay-as-you-go beyond that. Plus is $39 for each seat every month, and enterprise pricing is custom."
+    }
+  ]
+}

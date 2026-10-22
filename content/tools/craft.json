@@ -1,0 +1,53 @@
+{
+  "id": "craft",
+  "name": "Craft",
+  "url": "https://www.craft.do/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Notes and productivity app with docs, tasks, calendar, whiteboards and AI across devices.",
+  "description": "Craft is a notes and productivity app with documents, tasks, calendar, whiteboards and daily notes that syncs across devices. The Free plan covers occasional use; Plus costs $8 per month ($6.40 billed yearly), and a Family plan costs $15 per month. Use cases shown include meeting notes, social media posts and shoot plans. Its documents, tasks and calendar are combined in one space.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "notes",
+    "tasks",
+    "whiteboards",
+    "cross-platform"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$8/mo (Plus, monthly)",
+    "sourceUrl": "https://www.craft.do/pricing"
+  },
+  "logo": "https://www.craft.do/favicons/light/light_192.png",
+  "image": "/screenshots/craft.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.craft.do/",
+    "https://www.craft.do/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Craft",
+      "description": "Go to Craft and try it free. It is a notes and productivity app that syncs across devices.",
+      "links": [
+        {
+          "label": "Craft",
+          "url": "https://www.craft.do/"
+        }
+      ]
+    },
+    {
+      "title": "Keep work in one space",
+      "description": "Add documents, tasks, a calendar, whiteboards and daily notes, combined in one space. Meeting notes, social media posts and shoot plans are among the use cases shown."
+    },
+    {
+      "title": "Choose Plus or Family",
+      "description": "The Free plan covers occasional use. Plus costs $8 per month, or $6.40 when billed yearly, and the Family plan costs $15 per month."
+    }
+  ]
+}

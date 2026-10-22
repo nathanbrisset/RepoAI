@@ -1,0 +1,52 @@
+{
+  "id": "crewai",
+  "name": "CrewAI",
+  "url": "https://crewai.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source multi-agent framework with an enterprise platform for building and running agents.",
+  "description": "CrewAI is an open-source Python framework for orchestrating multiple AI agents that share tasks. The company also sells an enterprise platform for building, deploying and monitoring agent workflows with governance controls. The Basic plan is free; enterprise plans are priced on request. Documentation, case studies and webinars are published on the site. The enterprise platform adds governance controls from the start, and the company states it is used by 65% of the Fortune 500.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "multi-agent",
+    "open-source",
+    "python",
+    "framework"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://crewai.com/pricing"
+  },
+  "logo": "https://crewai.com/favicon.ico?favicon.9df2505d.ico",
+  "image": "/screenshots/crewai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.crewai.com/",
+    "https://crewai.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open CrewAI",
+      "description": "Go to CrewAI and open the open-source Python framework for orchestrating multiple agents that share tasks. Documentation is linked from the page.",
+      "links": [
+        {
+          "label": "CrewAI",
+          "url": "https://crewai.com/"
+        }
+      ]
+    },
+    {
+      "title": "Build and govern a workflow",
+      "description": "On the enterprise platform, handle building, deploying and monitoring of agent workflows, with governance controls from the start. The page also has a no-code editor that exports to Python."
+    },
+    {
+      "title": "Read the plans and the studies",
+      "description": "The Basic plan is free, while enterprise plans are priced on request. Read the case studies and webinars published on the site. The company states that 65% of the Fortune 500 uses it."
+    }
+  ]
+}

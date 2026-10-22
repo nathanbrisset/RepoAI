@@ -1,0 +1,106 @@
+{
+  "id": "papercup",
+  "name": "Papercup",
+  "url": "https://www.rws.com/localization/services/translation-services/video-and-audio-translation/ai-dubbing-and-vo/",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "AI video dubbing service that has shut down. The domain redirects to RWS.",
+  "description": "Papercup dubbed video into other languages. RWS announced on 26 June 2025 that it had acquired Papercup’s intellectual property, and the standalone service is closed. On 21 October 2026, papercup.com redirected to an RWS localization page for AI dubbing and voice-over, with a campaign parameter naming a Papercup migration. That page answers HTTP 202 to a non-browser client. support.papercup.com and docs.papercup.com do not resolve.",
+  "categories": [
+    "video",
+    "marketing",
+    "audio"
+  ],
+  "tags": [
+    "ai",
+    "dubbing",
+    "translation"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "The old Premium label is historical. There is no Papercup plan to buy."
+  },
+  "logo": "/logos/papercup.png",
+  "image": "/tool-screenshots/papercup.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Automatic dubbing: Translate and voiceover your videos with high-quality AI voices, reducing the need for manual dubbing.",
+    "Emotion-preserving voices: Synthetic voices retain emotional nuance and delivery style for authenticity.",
+    "Global reach: Instantly make your videos accessible in dozens of languages and markets.",
+    "Custom voice library: Choose or commission voices to match your brand, character, or style."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Papercup Dashboard",
+      "description": "Visit Papercup and create an account for your business or project. Log in to access the dashboard where you can start new dubbing projects.",
+      "links": [
+        {
+          "label": "RWS acquisition notice",
+          "url": "https://www.investegate.co.uk/announcement/rns/rws-holdings--rws/acquisition-of-ip-of-papercup-/8949808"
+        }
+      ]
+    },
+    {
+      "title": "Start a New Dubbing Project",
+      "description": "Click 'New Project' and upload your source video file. Papercup supports most major video formats (MP4, MOV, etc.).",
+      "links": [
+        {
+          "label": "RWS acquisition notice",
+          "url": "https://www.investegate.co.uk/announcement/rns/rws-holdings--rws/acquisition-of-ip-of-papercup-/8949808"
+        }
+      ]
+    },
+    {
+      "title": "Choose Target Languages",
+      "description": "Select one or more target languages from Papercup’s supported list. You can dub into dozens of languages for global reach."
+    },
+    {
+      "title": "Customize Voice & Style",
+      "description": "Choose from Papercup’s voice library. Pick voices that best match your content’s tone, or commission a custom voice for your brand."
+    },
+    {
+      "title": "Configure Additional Preferences",
+      "description": "Set preferences for gender, accent, and emotion if needed. You can specify requirements for each project or video segment."
+    },
+    {
+      "title": "Initiate AI Dubbing Process",
+      "description": "Papercup’s AI will transcribe your video, translate the script, generate synthetic voices, and sync the dubbed audio to the video with emotion preservation."
+    },
+    {
+      "title": "Review & Edit Transcript and Audio",
+      "description": "Check the AI-generated transcript and dubbed audio. Manually edit translations or timing if needed for accuracy and flow."
+    },
+    {
+      "title": "Preview and Approve",
+      "description": "Preview the dubbed video for quality and correctness. Approve when satisfied or send back for further adjustments."
+    },
+    {
+      "title": "Download & Distribute",
+      "description": "Export your dubbed video in the desired format. Use the download link to distribute, embed, or upload to your platforms.",
+      "links": [
+        {
+          "label": "RWS acquisition notice",
+          "url": "https://www.investegate.co.uk/announcement/rns/rws-holdings--rws/acquisition-of-ip-of-papercup-/8949808"
+        }
+      ]
+    },
+    {
+      "title": "API & Integrations (Advanced)",
+      "description": "For large-scale automation, use Papercup’s API to submit videos, retrieve results, and integrate dubbing directly into your workflow.",
+      "links": [
+        {
+          "label": "RWS acquisition notice",
+          "url": "https://www.investegate.co.uk/announcement/rns/rws-holdings--rws/acquisition-of-ip-of-papercup-/8949808"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.investegate.co.uk/announcement/rns/rws-holdings--rws/acquisition-of-ip-of-papercup-/8949808",
+    "https://www.papercup.com/"
+  ],
+  "statusNote": "Sunset: RWS acquired Papercup’s IP on 26 June 2025 and the standalone tool closed. No successor fiche. papercup.com redirects to an RWS page that answers 202 to non-browser clients."
+}

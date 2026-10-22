@@ -1,0 +1,48 @@
+{
+  "id": "quizlet",
+  "name": "Quizlet",
+  "url": "https://quizlet.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Study platform with flashcards and AI study tools, used by students and teachers.",
+  "description": "Quizlet lets students and teachers create and share flashcard sets and study them with modes such as learn, test and games, plus AI study tools. Flashcards are free and premium study tools are paid, according to the site description.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "flashcards",
+    "study-tools",
+    "students"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "https://quizlet.com/_next/static/media/apple-touch-icon.39a33aec.png",
+  "image": "/screenshots/quizlet.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://quizlet.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Quizlet",
+      "description": "Open Quizlet so students and teachers can start a flashcard set.",
+      "links": [
+        {
+          "label": "Quizlet",
+          "url": "https://quizlet.com"
+        }
+      ]
+    },
+    {
+      "title": "Create a set and share it",
+      "description": "Create a flashcard set and share it with the people who need to study it."
+    },
+    {
+      "title": "Study with learn, test, and games",
+      "description": "Study the set with modes such as learn, test, and games, plus the AI study tools. Flashcards stay free, while premium study tools are paid."
+    }
+  ]
+}

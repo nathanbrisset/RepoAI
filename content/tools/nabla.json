@@ -1,0 +1,56 @@
+{
+  "id": "nabla",
+  "name": "Nabla",
+  "url": "https://www.nabla.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Clinical AI layer for ambient documentation, dictation and coding support integrated with EHRs.",
+  "description": "Nabla offers ambient documentation that drafts notes from consultations, dictation and coding support, integrated with Epic, athenahealth and other EHRs. It publishes case studies and whitepapers and provides an API. A free trial is offered; no public prices were found. Customers include health organisations across the United States, and the product is offered through partnerships with EHR vendors. Its API lets other products embed the same documentation features.",
+  "categories": [
+    "health"
+  ],
+  "tags": [
+    "ambient-scribe",
+    "dictation",
+    "coding",
+    "ehr"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "Nabla's help center says each user gets a 30-day free trial, then an individual subscription is $119 per month.",
+    "sourceUrl": "https://help.nabla.com/en/articles/10692354"
+  },
+  "logo": "https://cdn.prod.website-files.com/67c6ddc58c9e7b3f7d095cb3/69e8ed278ce22f3e664e7f87_Webclip.png",
+  "image": "/screenshots/nabla.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://www.nabla.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Nabla",
+      "description": "Open Nabla and start the free trial, or talk to the team, to use the clinical documentation product.",
+      "links": [
+        {
+          "label": "Nabla",
+          "url": "https://www.nabla.com/"
+        }
+      ]
+    },
+    {
+      "title": "Draft notes from a consultation",
+      "description": "During a consultation, let ambient documentation draft the notes, or dictate into an EHR such as Epic or athenahealth."
+    },
+    {
+      "title": "Review coding support",
+      "description": "Read the coding support suggestions after the note is drafted, and keep the final code decision with the clinician."
+    },
+    {
+      "title": "Connect an EHR or the API",
+      "description": "Roll it out through partnerships with EHR vendors for health organisations, including customers in the United States, or embed the same documentation in another product with the API. Case studies and whitepapers are published on the site."
+    }
+  ]
+}

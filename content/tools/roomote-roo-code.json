@@ -1,0 +1,56 @@
+{
+  "id": "roomote-roo-code",
+  "name": "Roomote (Roo Code)",
+  "url": "https://roomote.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Cloud coding agent from the creators of Roo Code that ships pull requests, hosted or self-hosted.",
+  "description": "Roomote is a cloud coding agent built by the team behind the open-source Roo Code extension; roocode.com now redirects to it. It runs in the project's real development environment, verifies its own work, reviews code with a different model and opens pull requests for human review. It can be hosted by the company or self-hosted.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "coding-agent",
+    "pull-requests",
+    "self-hosted",
+    "open-source"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "The official site says self-hosting is free for up to 10 users. Roomote Cloud starts at $49/month after a 7-day trial.",
+    "sourceUrl": "https://roocode.com/"
+  },
+  "logo": "https://roomote.dev/android-chrome-512x512.png",
+  "image": "/screenshots/roomote-roo-code.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://roocode.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Roomote",
+      "description": "Open Roomote, the cloud coding agent built by the team behind the open-source Roo Code extension. roocode.com now redirects to it.",
+      "links": [
+        {
+          "label": "Roomote (Roo Code)",
+          "url": "https://roomote.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Run it in the project environment",
+      "description": "Point Roomote at the project's real development environment so it verifies its own work."
+    },
+    {
+      "title": "Read the pull request",
+      "description": "It reviews the code with a different model and opens pull requests for human review."
+    },
+    {
+      "title": "Choose hosted or self-hosted",
+      "description": "Run the agent hosted by the company, or self-host it."
+    }
+  ]
+}

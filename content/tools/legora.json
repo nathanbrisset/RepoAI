@@ -1,0 +1,50 @@
+{
+  "id": "legora",
+  "name": "Legora",
+  "url": "https://legora.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Collaborative AI platform for lawyers covering review, research and drafting.",
+  "description": "Legora is a collaborative AI platform for law firms. Lawyers use it to review documents, research and draft, and it presents an agentic operating system for legal work. The company announced a $550M Series E. Access is through a demo, and no public prices are listed. It is aimed at law firms and in-house legal teams. Security and customer pages are published on the site.",
+  "categories": [
+    "legal"
+  ],
+  "tags": [
+    "legal-ai",
+    "review",
+    "drafting",
+    "collaboration"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": true
+  },
+  "logo": "https://framerusercontent.com/images/t4E7HtGvgFipxaYtePy1dSQAjks.png",
+  "image": "/screenshots/legora.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://legora.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Legora",
+      "description": "Open Legora and log in, or book a demo if a law firm or an in-house legal team is evaluating the collaborative platform.",
+      "links": [
+        {
+          "label": "Legora",
+          "url": "https://legora.com/"
+        }
+      ]
+    },
+    {
+      "title": "Review documents and research",
+      "description": "Use the workspace to review documents and do legal research, then draft from that material instead of starting from a blank page."
+    },
+    {
+      "title": "Run work in the agentic system",
+      "description": "Hand a matter to the Agent inside the agentic operating system so it can plan and carry out the legal work, and keep the outputs in Lists tied to those documents."
+    }
+  ]
+}

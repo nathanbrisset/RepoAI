@@ -1,0 +1,53 @@
+{
+  "id": "chatbase",
+  "name": "Chatbase",
+  "url": "https://www.chatbase.co/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Platform for AI agents that answer customer questions across chat, email and voice.",
+  "description": "Chatbase builds AI agents trained on a company's content that answer customer questions and take actions across chat, email and voice, with analytics and a helpdesk inbox. Plans start with Hobby at $40 per month ($32 billed yearly), then Standard at $150 and Pro at $500 per month, each with a seven-day trial; no free plan was listed. The company states it serves more than 10,000 businesses.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "chatbot-builder",
+    "customer-support",
+    "voice",
+    "integrations"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$40/mo (Hobby, monthly)",
+    "sourceUrl": "https://www.chatbase.co/pricing"
+  },
+  "logo": "https://www.chatbase.co/favicon.ico",
+  "image": "/screenshots/chatbase.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.chatbase.co/",
+    "https://www.chatbase.co/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Chatbase",
+      "description": "Go to Chatbase and start the seven-day trial. Hobby is $40 per month ($32 billed yearly), Standard is $150 and Pro is $500 per month.",
+      "links": [
+        {
+          "label": "Chatbase",
+          "url": "https://www.chatbase.co/"
+        }
+      ]
+    },
+    {
+      "title": "Train an agent on company content",
+      "description": "Connect data sources so an agent is trained on company content, define its role and set guardrails. It can answer customer questions and take actions across chat, email and voice."
+    },
+    {
+      "title": "Test, deploy and read the inbox",
+      "description": "Run customer scenarios, then publish the agent. Use analytics and the helpdesk inbox to review conversations. The company states that it serves more than 10,000 businesses."
+    }
+  ]
+}

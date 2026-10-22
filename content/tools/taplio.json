@@ -1,0 +1,57 @@
+{
+  "id": "taplio",
+  "name": "Taplio",
+  "url": "https://taplio.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "LinkedIn growth tool for finding post ideas, writing in your voice, scheduling and lead generation.",
+  "description": "Taplio is built for LinkedIn. It surfaces popular posts for inspiration, writes drafts in the user's voice, schedules posts at optimal times, analyses performance and automates connection requests and DMs to warm leads. It is also available as a Claude connector and through MCP. Plans start at $39 per month with a free trial and a money-back guarantee. Full app access is included during the trial whichever plan is chosen.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "linkedin",
+    "personal-branding",
+    "scheduling",
+    "lead-generation"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$39/mo (Starter)",
+    "sourceUrl": "https://taplio.com/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/6939243f5769a4de787769c3/693fd25c10dab46c2d863cbd_taplio_webclip.png",
+  "image": "/screenshots/taplio.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://taplio.com/",
+    "https://taplio.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Taplio",
+      "description": "Open Taplio, connect LinkedIn, and start the trial. Full access is included during the trial, whichever plan is chosen.",
+      "links": [
+        {
+          "label": "Taplio",
+          "url": "https://taplio.com/"
+        }
+      ]
+    },
+    {
+      "title": "Write from popular posts",
+      "description": "Look through popular posts and use them as inspiration, then let Taplio write the drafts in your voice."
+    },
+    {
+      "title": "Schedule and analyse",
+      "description": "Taplio schedules the post at one of your optimal times, then analyses performance."
+    },
+    {
+      "title": "Message warm leads",
+      "description": "Taplio automates connection requests and messages to warm leads. You can also run it as a Claude connector through MCP."
+    }
+  ]
+}

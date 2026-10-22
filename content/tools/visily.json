@@ -1,0 +1,58 @@
+{
+  "id": "visily",
+  "name": "Visily",
+  "url": "https://www.visily.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Visily is an AI-powered wireframing tool that helps non-designers create beautiful app wireframes from simple sketches, screenshots, or text prompts. It speeds up the ideation process and allows teams to collaborate effortlessly on low-fidelity and high-fidelity prototypes.",
+  "description": "Visily is an AI-powered wireframing tool that helps non-designers create beautiful app wireframes from simple sketches, screenshots, or text prompts. It speeds up the ideation process and allows teams to collaborate effortlessly on low-fidelity and high-fidelity prototypes.\n\nVisily is the UI design software anyone can use. With Visily, you can create hi-fidelity wireframes and prototypes in minutes, all with no learning curve.\n\nAI Wireframe Generation: Turn sketches or text into wireframes. Component Library: Access a wide variety of UI components. Collaboration: Real-time team editing and commenting. Template Gallery: Start quickly with prebuilt layouts.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "wireframe",
+    "prototyping",
+    "collaboration"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/visily.png",
+  "image": "/screenshots/visily.webp",
+  "dateAdded": "2022-07-01",
+  "lastVerified": null,
+  "features": [
+    "AI Wireframe Generation: Turn sketches or text into wireframes.",
+    "Component Library: Access a wide variety of UI components.",
+    "Collaboration: Real-time team editing and commenting.",
+    "Template Gallery: Start quickly with prebuilt layouts.",
+    "Export Options: Share designs or export to popular formats."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up and Start Project",
+      "description": "Register on Visily and start a new wireframe project.",
+      "links": [
+        {
+          "label": "Visily",
+          "url": "https://www.visily.ai"
+        }
+      ]
+    },
+    {
+      "title": "Generate or Import Wireframes",
+      "description": "Create wireframes from sketches, screenshots, or use text prompts."
+    },
+    {
+      "title": "Edit & Collaborate",
+      "description": "Use the component library and real-time collaboration for editing and feedback."
+    },
+    {
+      "title": "Export or Share",
+      "description": "Export designs in popular formats or share with your team."
+    }
+  ]
+}

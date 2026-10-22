@@ -1,0 +1,57 @@
+{
+  "id": "zonos",
+  "name": "Zonos AI",
+  "url": "https://zonosai.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An open-source text-to-speech model that generates expressive voices, capable of cloning voices in seconds and producing high-quality audio content in multiple languages.",
+  "description": "An open-source text-to-speech model that generates expressive voices, capable of cloning voices in seconds and producing high-quality audio content in multiple languages.\n\nDiscover Zonos AI for advanced text-to-speech technology with voice cloning.\n\nAI audio processing: Zonos AI supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "audio",
+    "speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/zonos.png",
+  "image": "/screenshots/zonos.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "AI audio processing: Zonos AI supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Access Zonos AI",
+      "description": "Go to the Zonos AI website and access its open-source TTS features.",
+      "links": [
+        {
+          "label": "Zonos AI",
+          "url": "https://zonosai.com/"
+        }
+      ]
+    },
+    {
+      "title": "Clone or Select Voice",
+      "description": "Clone a voice with a short sample or choose from available voices."
+    },
+    {
+      "title": "Generate Speech",
+      "description": "Type or upload text to generate audio in your chosen voice."
+    },
+    {
+      "title": "Download Output",
+      "description": "Export your audio files for use in projects or content."
+    }
+  ]
+}

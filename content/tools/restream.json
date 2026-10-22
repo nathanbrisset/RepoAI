@@ -1,0 +1,57 @@
+{
+  "id": "restream",
+  "name": "Restream",
+  "url": "https://restream.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A streaming platform that enables multi-platform broadcasting with integrated audio processing capabilities.",
+  "description": "A streaming platform that enables multi-platform broadcasting with integrated audio processing capabilities.\n\nRestream is a simple live video platform that empowers you to create beautiful videos and multistream them to your favorite channels.\n\nAI audio processing: Restream supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "audio",
+    "speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/restream.png",
+  "image": "/screenshots/restream.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "AI audio processing: Restream supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Connect Platforms",
+      "description": "Create an account and link your streaming destinations (YouTube, Twitch, etc.).",
+      "links": [
+        {
+          "label": "Restream",
+          "url": "https://restream.io"
+        }
+      ]
+    },
+    {
+      "title": "Configure Audio Enhancements",
+      "description": "Enable AI-powered features such as noise reduction and audio processing."
+    },
+    {
+      "title": "Go Live",
+      "description": "Start your live stream and broadcast to multiple platforms with enhanced audio."
+    },
+    {
+      "title": "Review & Download Streams",
+      "description": "Access recorded streams and download processed audio/video as needed."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "coda",
+  "name": "Coda",
+  "url": "https://coda.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "statusNote": "The site states that Coda is now Superhuman Docs, part of the Superhuman suite, and coda.io pricing now shows the Superhuman plans.",
+  "summary": "All-in-one doc combining pages, tables and automations, now part of Superhuman as Superhuman Docs.",
+  "description": "Coda combines documents, spreadsheet-style tables and app-like buttons and automations in one doc, with AI features and Packs that connect external tools. The site states that Coda is now Superhuman Docs, part of the Superhuman suite, and coda.io pricing now shows the Superhuman plans. A Free plan includes collaborative docs; paid suite plans are listed under Superhuman. Comparison pages position it against Notion, Confluence, Quip and Airtable.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "docs",
+    "databases",
+    "team-hubs",
+    "superhuman"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://coda.io/pricing"
+  },
+  "logo": "https://cdn.coda.io/icons/png/color/coda-192.png",
+  "image": "/screenshots/coda.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://coda.io/",
+    "https://coda.io/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Coda",
+      "description": "Go to Coda and get started for free. The site states that Coda is now Superhuman Docs, part of the Superhuman suite.",
+      "links": [
+        {
+          "label": "Coda",
+          "url": "https://coda.io/"
+        }
+      ]
+    },
+    {
+      "title": "Build the doc",
+      "description": "Combine documents with spreadsheet-style tables, then add buttons and automations. Use Packs to connect external tools, and use Coda AI in the doc."
+    },
+    {
+      "title": "Compare docs and check pricing",
+      "description": "Open the comparison pages against Notion, Confluence, Quip and Airtable. Pricing shows the Superhuman plans. The Free plan includes collaborative docs, and paid suite plans are listed under Superhuman."
+    }
+  ]
+}

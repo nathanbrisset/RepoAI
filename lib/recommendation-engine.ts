@@ -58,18 +58,19 @@ export function calculateToolScore(tool: Tool, query: string, factors: Recommend
   const queryLower = query.toLowerCase();
 
   // Rating score (normalized to 0-1)
-  const ratingScore = tool.rating / 5;
+  const ratingScore = typeof tool.rating === "number" ? tool.rating / 5 : 0;
   score += ratingScore * factors.ratingWeight;
 
-  // Popularity score (normalized using log scale)
-  const maxVisits = 180000000;
-  const popularityScore = Math.log(tool.visits + 1) / Math.log(maxVisits + 1);
+  // Visit counts in the old catalog were unsourced, so they are not used.
+  const popularityScore = typeof tool.visits === "number"
+    ? Math.log(tool.visits + 1) / Math.log(180000000 + 1)
+    : 0;
   score += popularityScore * factors.popularityWeight;
 
   // Recency score with exponential decay
   const currentDate = new Date();
-  const toolDate = new Date(tool.dateAdded);
-  const daysOld = (currentDate.getTime() - toolDate.getTime()) / (1000 * 60 * 60 * 24);
+  const toolDate = tool.dateAdded ? new Date(tool.dateAdded) : null;
+  const daysOld = toolDate ? (currentDate.getTime() - toolDate.getTime()) / (1000 * 60 * 60 * 24) : 365;
   const recencyScore = Math.exp(-daysOld / 365);
   score += recencyScore * factors.recencyWeight;
 

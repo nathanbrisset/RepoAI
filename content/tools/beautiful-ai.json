@@ -1,0 +1,53 @@
+{
+  "id": "beautiful-ai",
+  "name": "Beautiful.ai",
+  "url": "https://www.beautiful.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Presentation software with auto-formatting slides, AI generation and brand controls for teams.",
+  "description": "Beautiful.ai creates presentations with smart slide templates that adjust layout automatically, AI-generated decks and brand controls that keep company slides consistent. It includes data visualisation, integrations and analytics. A 14-day free trial of Pro or Team is offered; Pro costs $14.50 per month for individuals billed annually. Free plans exist for students. It targets enterprise teams that need consistent slides across the company.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "presentations",
+    "slides",
+    "brand-control",
+    "templates"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$14.50/mo (Pro, annual)",
+    "sourceUrl": "https://www.beautiful.ai/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/59deb588800ae30001ec19c9/691b4ae4a724e6c686bfb035_BAI%20symbol%3Dfull%20color%20black.png",
+  "image": "/screenshots/beautiful-ai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.beautiful.ai/",
+    "https://www.beautiful.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Beautiful.ai",
+      "description": "Go to Beautiful.ai and choose Try it free or Get started to create presentations. A 14-day trial of Pro or Team is offered.",
+      "links": [
+        {
+          "label": "Beautiful.ai",
+          "url": "https://www.beautiful.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Build the deck",
+      "description": "Choose templates built as smart slides so the layout can adjust automatically, or generate a deck with the AI presentation workflow."
+    },
+    {
+      "title": "Apply brand controls",
+      "description": "Turn on brand controls so company slides stay consistent, and add data visualisation, integrations and analytics. An individual on Pro pays $14.50 per month when billed annually. Students have free plans. Enterprise teams are the audience."
+    }
+  ]
+}

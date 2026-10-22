@@ -1,0 +1,57 @@
+{
+  "id": "openhands",
+  "name": "OpenHands",
+  "url": "https://www.openhands.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source platform for building and running AI coding agents locally or in the cloud.",
+  "description": "OpenHands is an open-source platform for AI coding agents. Developers can start locally with any model, use the SDK to build agents and automate engineering workflows, and scale with a cloud control plane. The open-source tier is free. Teams costs $499 per month and Teams Plus $999 per month, both with a 30-day trial; enterprise pricing is custom. The project's GitHub repository shows about 91,500 stars.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "coding-agent",
+    "open-source",
+    "sdk",
+    "self-hosted"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$499/mo (Teams)",
+    "sourceUrl": "https://www.openhands.dev/pricing"
+  },
+  "logo": "https://www.openhands.dev/favicon.svg",
+  "image": "/screenshots/openhands.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.all-hands.dev/",
+    "https://www.openhands.dev/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open OpenHands",
+      "description": "Open OpenHands and get the open-source platform, or try OpenHands Cloud from the same page.",
+      "links": [
+        {
+          "label": "OpenHands",
+          "url": "https://www.openhands.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Start locally with any model",
+      "description": "Developers start locally with any model, then use the SDK to build coding agents and automate engineering workflows."
+    },
+    {
+      "title": "Scale with the cloud control plane",
+      "description": "Move the same agents to the cloud control plane and trigger workflows from GitHub, Slack, Jira, Linear or a schedule."
+    },
+    {
+      "title": "Compare team plans",
+      "description": "The open-source tier is free. Teams costs $499 per month and Teams Plus $999 per month, both with a 30-day trial, and enterprise pricing is custom. The GitHub repository shows about 91,500 stars."
+    }
+  ]
+}

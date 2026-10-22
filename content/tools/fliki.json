@@ -1,0 +1,59 @@
+{
+  "id": "fliki",
+  "name": "Fliki",
+  "url": "https://fliki.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turn text, scripts, and blog posts into videos with 2,000+ AI voices in 80+ languages. No camera, no editing skills needed. Free forever plan.",
+  "description": "Turn text, scripts, and blog posts into videos with 2,000+ AI voices in 80+ languages. No camera, no editing skills needed. Free forever plan.\n\nText to Video: Transform text into videos with lifelike AI voices. Multilingual Support: Supports over 75 languages and 900 voices. AI Voiceovers: Generate realistic voiceovers for videos. Script Generation: Automatically generate scripts for videos.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "text-to-video",
+    "voiceover",
+    "short-form-video",
+    "social-clips",
+    "branding"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/fliki.png",
+  "image": "/screenshots/fliki.webp",
+  "dateAdded": "2023-01-05",
+  "lastVerified": null,
+  "features": [
+    "Text to Video: Transform text into videos with lifelike AI voices.",
+    "Multilingual Support: Supports over 75 languages and 900 voices.",
+    "AI Voiceovers: Generate realistic voiceovers for videos.",
+    "Script Generation: Automatically generate scripts for videos."
+  ],
+  "howToUse": [
+    {
+      "title": "Create Account & Access Fliki",
+      "description": "Sign up on Fliki and open the creative studio.",
+      "links": [
+        {
+          "label": "Fliki",
+          "url": "https://fliki.ai"
+        }
+      ]
+    },
+    {
+      "title": "Input Script or Text",
+      "description": "Paste your script, blog, or tweet to begin."
+    },
+    {
+      "title": "Choose Voices & Edit",
+      "description": "Select voices, languages, and edit scenes or timing."
+    },
+    {
+      "title": "Generate & Export",
+      "description": "Create the video and export or share as needed."
+    }
+  ]
+}

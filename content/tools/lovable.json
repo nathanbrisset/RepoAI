@@ -1,0 +1,61 @@
+{
+  "logo": "/logos/lovable.png",
+  "image": "/screenshots/lovable.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "lovable",
+  "name": "Lovable",
+  "url": "https://lovable.dev",
+  "summary": "Build full-stack web apps by chatting with AI.",
+  "description": "Lovable is an AI app builder that creates and edits full-stack web applications from natural-language prompts. Users iterate in a chat interface, connect a backend, and deploy without writing code by hand, which makes it popular with founders and non-developers prototyping products. It offers a free plan to get started and paid plans with more messages and collaboration features.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "app-builder",
+    "no-code",
+    "vibe-coding",
+    "web-apps"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "It offers a free plan to get started and paid plans with more messages and collaboration features.",
+    "sourceUrl": "https://lovable.dev"
+  },
+  "sources": [
+    "https://lovable.dev"
+  ],
+  "howToUse": [
+    {
+      "title": "Create an account",
+      "description": "The docs say you can start for free with email, Google, GitHub, or Apple.",
+      "links": [
+        {
+          "label": "Lovable",
+          "url": "https://lovable.dev"
+        }
+      ]
+    },
+    {
+      "title": "Describe what you want",
+      "description": "The homepage says to describe the product in plain language. The docs say Lovable generates a working application, including frontend, backend, database, authentication, and integrations."
+    },
+    {
+      "title": "Review and iterate",
+      "description": "The homepage says to refine the design, then ship it. The docs say to review the app and iterate."
+    },
+    {
+      "title": "Publish, then sync the code",
+      "description": "The docs say to publish to a live URL, and, when you want the code in your own pipeline, sync it to GitHub, GitLab, or Bitbucket.",
+      "links": [
+        {
+          "label": "Lovable docs",
+          "url": "https://docs.lovable.dev/introduction/welcome"
+        }
+      ]
+    }
+  ]
+}

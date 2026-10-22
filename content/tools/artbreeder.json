@@ -1,0 +1,52 @@
+{
+  "id": "artbreeder",
+  "name": "Artbreeder",
+  "url": "https://www.artbreeder.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A collaborative tool for creating images with AI.",
+  "description": "A collaborative tool for creating images with AI.\n\nImage Blending: Combines multiple images to create new artworks. Gene Editing: Adjusts specific attributes like age, gender, and mood. High-Resolution Downloads: Provides high-quality image outputs. Collaborative Creation: Allows users to work together on image projects.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "image-blending",
+    "art"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/artbreeder.png",
+  "image": "/screenshots/artbreeder.webp",
+  "dateAdded": "2021-08-01",
+  "lastVerified": null,
+  "features": [
+    "Image Blending: Combines multiple images to create new artworks.",
+    "Gene Editing: Adjusts specific attributes like age, gender, and mood.",
+    "High-Resolution Downloads: Provides high-quality image outputs.",
+    "Collaborative Creation: Allows users to work together on image projects."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Start Breeding",
+      "description": "Register on Artbreeder and start creating by blending images.",
+      "links": [
+        {
+          "label": "Artbreeder",
+          "url": "https://artbreeder.com"
+        }
+      ]
+    },
+    {
+      "title": "Blend or Edit Genes",
+      "description": "Mix images or adjust gene sliders for attributes like age, gender, or style."
+    },
+    {
+      "title": "Download or Collaborate",
+      "description": "Export your creation or collaborate with others in the community."
+    }
+  ]
+}

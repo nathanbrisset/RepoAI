@@ -1,0 +1,59 @@
+{
+  "id": "wordtune",
+  "name": "Wordtune",
+  "url": "https://www.wordtune.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Perfect your English with a free AI writer that can paraphrase, rewrite, correct your grammar and more.",
+  "description": "Perfect your English with a free AI writer that can paraphrase, rewrite, correct your grammar and more.\n\nRewrite Suggestions: Offers multiple tone-based rewrites (casual, formal). Summarizer: Condenses long documents or webpages instantly. AI Writing Tool: Helps generate intros, conclusions, and full drafts. Grammar & Clarity: Enhances sentence structure and readability.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "rephrasing",
+    "tone-adjustment",
+    "clarity",
+    "grammar",
+    "style-editing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/wordtune.png",
+  "image": "/screenshots/wordtune.webp",
+  "dateAdded": "2020-09-25",
+  "lastVerified": null,
+  "features": [
+    "Rewrite Suggestions: Offers multiple tone-based rewrites (casual, formal).",
+    "Summarizer: Condenses long documents or webpages instantly.",
+    "AI Writing Tool: Helps generate intros, conclusions, and full drafts.",
+    "Grammar & Clarity: Enhances sentence structure and readability."
+  ],
+  "howToUse": [
+    {
+      "title": "Open Wordtune",
+      "description": "Open Wordtune and start the free writer so you can perfect your English. The page says no credit card is required.",
+      "links": [
+        {
+          "label": "Wordtune",
+          "url": "https://www.wordtune.com/"
+        }
+      ]
+    },
+    {
+      "title": "Paraphrase or switch tone",
+      "description": "Paraphrase a sentence or rewrite it. The suggestions offer multiple rewrites, including a casual or formal tone."
+    },
+    {
+      "title": "Correct grammar and clarity",
+      "description": "Correct the grammar, then let clarity do the rest. Clarity enhances sentence structure and the readability of the paragraph."
+    },
+    {
+      "title": "Summarize or continue a draft",
+      "description": "Use the summarizer. It condenses long documents or webpages instantly. The writing tool can generate intros, conclusions, and drafts."
+    }
+  ]
+}

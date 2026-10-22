@@ -1,0 +1,57 @@
+{
+  "id": "vizcom",
+  "name": "Vizcom",
+  "url": "https://vizcom.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Product design tool that turns sketches into photorealistic renders and 3D models.",
+  "description": "Vizcom is built for industrial, footwear, apparel, automotive and gaming designers. It turns sketches into photorealistic renders and 3D models and supports team collaboration. The Starter plan is free; Professional costs $49 per user per month; Enterprise is quoted on request. Qualified students and educators can use an Education plan for free. Paid plans include monthly rendering credits: 800 on Starter and 20,000 on Professional.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "industrial-design",
+    "sketch-to-render",
+    "3d",
+    "footwear"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$49/user/mo (Professional)",
+    "sourceUrl": "https://vizcom.com/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/68da69e18c8988d039a9f6fe/694ae66d4eb76e40c3f02251_webclip.png",
+  "image": "/screenshots/vizcom.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.vizcom.ai/",
+    "https://vizcom.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Vizcom",
+      "description": "Open Vizcom, built for designers in industrial, footwear, apparel, automotive, and gaming work. Starter is free and includes 800 monthly rendering credits.",
+      "links": [
+        {
+          "label": "Vizcom",
+          "url": "https://vizcom.com/"
+        }
+      ]
+    },
+    {
+      "title": "Turn sketches into renders",
+      "description": "Add sketches, describe the form and materials, and Vizcom turns them into photorealistic renders and also builds 3D models."
+    },
+    {
+      "title": "Iterate with the team",
+      "description": "Vary the form and color, try a new view, then use the team collaboration Vizcom supports."
+    },
+    {
+      "title": "Match the plan to the studio",
+      "description": "Professional costs $49 per user a month and includes 20,000 rendering credits. Enterprise is quoted on request. Qualified students and educators can use the Education plan for free."
+    }
+  ]
+}

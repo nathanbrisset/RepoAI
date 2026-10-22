@@ -1,0 +1,52 @@
+{
+  "id": "speak",
+  "name": "Speak",
+  "url": "https://www.speak.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Language app for speaking practice with an AI tutor and an expert-made curriculum.",
+  "description": "Speak teaches languages through spoken conversation practice with an AI tutor, following a curriculum built by experts and personalised by AI. It gives feedback on what matters in each answer and lets learners repeat conversations as often as they like; Korean and Japanese are among the languages offered. A seven-day free trial is offered; subscription prices were not listed on the web pages checked.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "language-learning",
+    "speaking-practice",
+    "conversation",
+    "ai-tutor"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "sourceUrl": "https://www.speak.com/plans"
+  },
+  "logo": "https://www.speak.com/cdn.prod.website-files.com/61a88c135006e8345b005efd/686a5c29b8678b5802ceb837_WebIcon.png",
+  "image": "/screenshots/speak.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.speak.com/",
+    "https://www.speak.com/plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Speak",
+      "description": "Open Speak and start speaking. A seven-day trial is offered. Subscription prices were not listed on the pages checked.",
+      "links": [
+        {
+          "label": "Speak",
+          "url": "https://www.speak.com/"
+        }
+      ]
+    },
+    {
+      "title": "Follow the lessons",
+      "description": "Start by following the curriculum built by experts. Speak teaches languages through spoken conversation practice, and the path is personalised by AI."
+    },
+    {
+      "title": "Practise with the tutor",
+      "description": "Talk with the tutor, read the feedback on what matters in your answer, and repeat conversations as often as you want. Korean and Japanese are among the languages. The tutor gives learners that loop."
+    }
+  ]
+}

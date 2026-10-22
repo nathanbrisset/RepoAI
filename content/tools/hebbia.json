@@ -1,0 +1,56 @@
+{
+  "id": "hebbia",
+  "name": "Hebbia",
+  "url": "https://www.hebbia.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI platform for finance that analyses large document sets for investing, banking and legal work.",
+  "description": "Hebbia sells AI for financial institutions, investment banks, law firms and corporates. Its products, Max and Matrix, run agents across large collections of documents and data. Access is through a demo request; no public prices are listed. Its users include asset managers, investment banks, law firms and Fortune 500 companies, according to the site. The platform is designed for institutional work rather than individual consumers. Integrations connect it to existing data sources.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "finance",
+    "document-analysis",
+    "matrix",
+    "agents"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": true,
+    "sourceUrl": "https://www.hebbia.com/pricing"
+  },
+  "logo": "https://www.hebbia.com/favicon.svg",
+  "image": "/screenshots/hebbia.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.hebbia.com/",
+    "https://www.hebbia.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Hebbia and request a demo",
+      "description": "Open Hebbia and choose Request a demo. Access is through that demo request, and no public prices are listed.",
+      "links": [
+        {
+          "label": "Hebbia",
+          "url": "https://www.hebbia.com/"
+        }
+      ]
+    },
+    {
+      "title": "Work in Max and Matrix",
+      "description": "Use Max with the deal team, and use Matrix to run agents across large collections of documents and financial data, including filings and earnings transcripts."
+    },
+    {
+      "title": "Connect existing data sources",
+      "description": "Connect integrations to data sources the firm already keeps, such as SharePoint, OneDrive, Box, Dropbox, PitchBook, or FactSet."
+    },
+    {
+      "title": "Use it for institutional work",
+      "description": "Keep the work on institutional matters. Hebbia sells this platform to financial institutions, investment banks, law firms, corporates, asset managers, and Fortune 500 companies."
+    }
+  ]
+}

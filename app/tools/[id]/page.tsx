@@ -1,10 +1,18 @@
 import { mockTools } from "@/lib/data"
+import { metadataFor } from "@/lib/i18n/metadata"
 import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Star, ExternalLink } from "lucide-react"
+import { ExternalLink } from "lucide-react"
+
+export async function generateMetadata(props: { params?: Promise<{ id: string }> | { id: string } }) {
+  const params = props?.params
+  const resolved = params && typeof (params as Promise<{ id: string }>).then === "function" ? await params : params
+  const id = resolved && "id" in resolved ? resolved.id : ""
+  return metadataFor(`/tools/${id}`)
+}
 
 export default async function Page(props: any) {
   let id;
@@ -53,10 +61,6 @@ export default async function Page(props: any) {
             <div className="w-full md:w-2/3">
               <div className="flex justify-between items-start mb-4">
                 <h1 className="text-4xl font-bold text-gray-900">{tool.name}</h1>
-                <div className="flex items-center">
-                  <Star className="h-5 w-5 fill-yellow-400 text-yellow-400 mr-1" />
-                  <span className="text-lg font-semibold text-gray-700">{tool.rating.toFixed(1)}</span>
-                </div>
               </div>
 
               <p className="text-xl text-gray-600 mb-6">{tool.description}</p>

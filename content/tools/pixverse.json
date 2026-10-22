@@ -1,0 +1,50 @@
+{
+  "id": "pixverse",
+  "name": "PixVerse",
+  "url": "https://pixverse.ai/en",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI video generator for text-to-video, image-to-video, transitions and effects.",
+  "description": "PixVerse is an AI video platform offering text-to-video, image-to-video, transitions, scene extension, an editor and ad templates. It uses its own models and also gives access to third-party video models. The company describes extending its research into real-time worlds and interactive entertainment.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "text-to-video",
+    "image-to-video",
+    "effects",
+    "templates"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "https://cdn.pixverse.ai/media/pixverse/favicon.svg",
+  "image": "/screenshots/pixverse.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://pixverse.ai/",
+    "https://pixverse.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open PixVerse",
+      "description": "Open PixVerse and start from a prompt on its video platform.",
+      "links": [
+        {
+          "label": "PixVerse",
+          "url": "https://pixverse.ai/en"
+        }
+      ]
+    },
+    {
+      "title": "Make a clip from text or an image",
+      "description": "Use text-to-video or image-to-video, then add transitions, scene extension, or changes in the editor."
+    },
+    {
+      "title": "Choose models and ad templates",
+      "description": "Pick ad templates, PixVerse models, or third-party video models. The company describes this work as extending its research into real-time worlds and interactive entertainment."
+    }
+  ]
+}

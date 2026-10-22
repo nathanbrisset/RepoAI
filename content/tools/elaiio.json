@@ -1,0 +1,128 @@
+{
+  "id": "elaiio",
+  "name": "Elai.io",
+  "url": "https://elai.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Elai.io enables users to produce professional AI videos from text with customizable digital avatars. Supports multiple languages and templates for e-learning, marketing, and training.",
+  "description": "Elai.io enables users to produce professional AI videos from text with customizable digital avatars. Supports multiple languages and templates for e-learning, marketing, and training.\n\nAI avatar video creation: Turn any text into engaging videos with lifelike digital presenters, saving time and production costs. Multi-language support: Produce videos in over 65 languages, reaching diverse global audiences without additional translation work. Template library: Access a range of ready-made video templates for marketing, education, and business use cases. Bulk video generation: Generate hundreds of personalized videos simultaneously for campaigns, training, or customer outreach.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "avatars",
+    "marketing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/elaiio.png",
+  "image": "/screenshots/elaiio.webp",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "AI avatar video creation: Turn any text into engaging videos with lifelike digital presenters, saving time and production costs.",
+    "Multi-language support: Produce videos in over 65 languages, reaching diverse global audiences without additional translation work.",
+    "Template library: Access a range of ready-made video templates for marketing, education, and business use cases.",
+    "Bulk video generation: Generate hundreds of personalized videos simultaneously for campaigns, training, or customer outreach."
+  ],
+  "howToUse": [
+    {
+      "title": "Register and Log In",
+      "description": "Visit Elai.io and sign up for a free or premium account. Confirm your email and log into the dashboard.",
+      "links": [
+        {
+          "label": "Elai.io",
+          "url": "https://elai.io"
+        }
+      ]
+    },
+    {
+      "title": "Create a New Video",
+      "description": "Click 'Create Video' and select a template or start with a blank project. Templates speed up the process for common use cases like marketing or training.",
+      "links": [
+        {
+          "label": "Templates",
+          "url": "https://elai.io/templates"
+        }
+      ]
+    },
+    {
+      "title": "Select an AI Avatar",
+      "description": "Choose from Elai's avatar library. Avatars can be filtered by language, appearance, and use case to match your audience.",
+      "links": [
+        {
+          "label": "Avatars",
+          "url": "https://elai.io/avatars"
+        }
+      ]
+    },
+    {
+      "title": "Enter or Upload Script",
+      "description": "Paste your script into each scene or upload a document. You can also use the AI script generator for content ideas or translation.",
+      "links": [
+        {
+          "label": "Script Tool",
+          "url": "https://elai.io/script-generator"
+        }
+      ]
+    },
+    {
+      "title": "Set Voice and Language",
+      "description": "Pick from dozens of AI voices and over 65 languages. Fine-tune speech speed, pitch, and accent for localization.",
+      "links": [
+        {
+          "label": "Voice Settings",
+          "url": "https://elai.io/features"
+        }
+      ]
+    },
+    {
+      "title": "Customize Scenes",
+      "description": "Edit backgrounds, change layouts, add images, logos, transitions, and arrange visual elements for each slide.",
+      "links": [
+        {
+          "label": "Scene Customization",
+          "url": "https://elai.io/customization"
+        }
+      ]
+    },
+    {
+      "title": "Add Media and Effects",
+      "description": "Enhance scenes with video clips, stock images, animations, and audio. Adjust timing and animate elements for dynamic presentations."
+    },
+    {
+      "title": "Preview & Edit",
+      "description": "Preview the video to check avatar performance, pronunciation, and scene flow. Make necessary edits before finalizing.",
+      "links": [
+        {
+          "label": "Help Center",
+          "url": "https://elai.io/help"
+        }
+      ]
+    },
+    {
+      "title": "Export or Share",
+      "description": "Export the video in your desired resolution (dependent on plan). Download or share via link or embed code.",
+      "links": [
+        {
+          "label": "Export Guide",
+          "url": "https://elai.io/export"
+        }
+      ]
+    },
+    {
+      "title": "API & Automation (Advanced)",
+      "description": "For bulk or automated video generation, connect with Elai’s API. Use for CRM integration, mass personalization, or e-learning at scale.",
+      "links": [
+        {
+          "label": "API Docs",
+          "url": "https://elai.io/api"
+        }
+      ]
+    }
+  ]
+}

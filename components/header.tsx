@@ -1,57 +1,70 @@
 "use client"
 
-import { useState } from "react"
-import Link from "next/link"
-import { Menu } from 'lucide-react'
+import { Suspense, useState } from "react"
+import { Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import SearchBar from "./search-bar"
+import LanguageSwitcher from "./language-switcher"
+import LocaleLink from "./locale-link"
+import type { CatalogSearchRecord } from "@/lib/i18n/search-records"
+import { useT } from "./locale-provider"
 
-export default function Header() {
+export default function Header({ searchRecords }: { searchRecords: CatalogSearchRecord[] }) {
+  const t = useT()
+  const [open, setOpen] = useState(false)
+
   return (
     <header className="border-b bg-background sticky top-0 z-50">
-      <div className="container mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
-          <img src="/placeholder-logo.png" alt="AITools.ninja Logo" className="w-8 h-8 rounded-md" />
-          <span className="font-bold text-xl">Your AI Ninja</span>
-        </Link>
+      <div className="container mx-auto max-w-6xl px-4 py-3 flex items-center justify-between gap-3">
+        <LocaleLink href="/" className="flex items-center space-x-2 min-w-0">
+          <img src="/placeholder-logo.png" alt={t("header.logoAlt")} className="w-8 h-8 rounded-md" />
+          <span className="font-bold text-xl truncate">{t("header.brand")}</span>
+        </LocaleLink>
 
-        {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
-          <Link href="/categories" className="text-gray-600 hover:text-gray-900">
-            Categories
-          </Link>
-          <Link href="/submit" className="text-gray-600 hover:text-gray-900">
-            Submit Tool
-          </Link>
-          <Link href="/about" className="text-gray-600 hover:text-gray-900">
-            About
-          </Link>
+          <LocaleLink href="/categories" className="text-gray-600 hover:text-gray-900">
+            {t("header.categories")}
+          </LocaleLink>
+          <LocaleLink href="/submit" className="text-gray-600 hover:text-gray-900">
+            {t("header.submit")}
+          </LocaleLink>
+          <LocaleLink href="/about" className="text-gray-600 hover:text-gray-900">
+            {t("header.about")}
+          </LocaleLink>
+          <Suspense fallback={<span className="inline-block w-14" />}>
+            <LanguageSwitcher />
+          </Suspense>
           <div className="flex items-center space-x-3">
-            <SearchBar className="bg-transparent" />
+            <SearchBar className="bg-transparent" records={searchRecords} />
           </div>
         </nav>
 
-        {/* Mobile Navigation */}
-        <div className="flex items-center space-x-3 md:hidden">
-          <SearchBar className="bg-transparent" />
-          <Sheet>
+        <div className="flex items-center space-x-2 md:hidden">
+          <Suspense fallback={<span className="inline-block w-14" />}>
+            <LanguageSwitcher />
+          </Suspense>
+          <SearchBar className="bg-transparent" records={searchRecords} />
+          <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon">
+              <Button variant="ghost" size="icon" aria-label={t("header.openMenu")}>
                 <Menu className="h-5 w-5" />
               </Button>
             </SheetTrigger>
             <SheetContent>
               <div className="flex flex-col space-y-4 mt-8">
-                <Link href="/categories" className="text-lg font-medium">
-                  Categories
-                </Link>
-                <Link href="/submit" className="text-lg font-medium">
-                  Submit Tool
-                </Link>
-                <Link href="/about" className="text-lg font-medium">
-                  About
-                </Link>
+                <LocaleLink href="/categories" className="text-lg font-medium" onClick={() => setOpen(false)}>
+                  {t("header.categories")}
+                </LocaleLink>
+                <LocaleLink href="/submit" className="text-lg font-medium" onClick={() => setOpen(false)}>
+                  {t("header.submit")}
+                </LocaleLink>
+                <LocaleLink href="/about" className="text-lg font-medium" onClick={() => setOpen(false)}>
+                  {t("header.about")}
+                </LocaleLink>
+                <Suspense fallback={<span className="inline-block w-14" />}>
+            <LanguageSwitcher />
+          </Suspense>
               </div>
             </SheetContent>
           </Sheet>

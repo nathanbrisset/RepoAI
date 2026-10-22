@@ -1,0 +1,57 @@
+{
+  "id": "typecast",
+  "name": "Typecast",
+  "url": "https://typecast.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Text-to-speech service with expressive AI voices, voice cloning and an API.",
+  "description": "Typecast generates voiceovers from text using a library of expressive AI voices, including character, ad and audiobook voices, and supports voice cloning. It runs on the web, in a mobile app and through an API. Voice generation and playback are free on every plan, and credits are used for downloads; the Free plan requires attribution, and the Basic plan costs $5 per month or $54 per year.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "tts",
+    "voiceover",
+    "voice-cloning",
+    "characters"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$5/mo (Basic)",
+    "sourceUrl": "https://typecast.ai/pricing"
+  },
+  "logo": "https://typecast.ai/favicon.svg",
+  "image": "/screenshots/typecast.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://typecast.ai/",
+    "https://typecast.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Typecast",
+      "description": "Open Typecast on the web, in the mobile app, or through the API, and try voice generation.",
+      "links": [
+        {
+          "label": "Typecast",
+          "url": "https://typecast.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Pick an expressive voice",
+      "description": "Choose an expressive voice from the library, such as a character, ad, or audiobook voice, then type the script."
+    },
+    {
+      "title": "Generate and play the voiceover",
+      "description": "Typecast generates the voiceover. Play it back: credits are used for downloads, while generation and playback stay free on every plan."
+    },
+    {
+      "title": "Clone a voice or download",
+      "description": "Use voice cloning if you need your own voice, then download the file. The Free plan requires attribution. Basic costs $5 a month or $54 a year."
+    }
+  ]
+}

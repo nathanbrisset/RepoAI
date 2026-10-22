@@ -1,0 +1,61 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/fal.png",
+  "image": "/screenshots/fal.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "fal",
+  "name": "fal",
+  "url": "https://fal.ai/",
+  "summary": "API platform for generative media models and serverless GPUs.",
+  "description": "fal.ai on 21 October 2026 described a generative media inference platform: call many models through one API, deploy your own on serverless GPUs, or train on GPU clusters. No dollar rate was in that text.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "api",
+    "media",
+    "gpu"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "sourceUrl": "https://fal.ai/",
+    "note": "Usage-based pricing is implied by the API product. Rates were not copied."
+  },
+  "sources": [
+    "https://fal.ai/"
+  ],
+  "howToUse": [
+    {
+      "title": "Get started",
+      "description": "The homepage is a generative media platform for developers and links Get started to the login page.",
+      "links": [
+        {
+          "label": "fal",
+          "url": "https://fal.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Pick a model",
+      "description": "The page says the gallery has 1,000+ production-ready image, video, audio, and 3D models."
+    },
+    {
+      "title": "Call a model or deploy your own",
+      "description": "The page says to call a hosted model or deploy your own on the same platform."
+    },
+    {
+      "title": "Use serverless GPUs",
+      "description": "Serverless GPUs and on-demand clusters are part of the same pitch. Documentation is linked from the nav.",
+      "links": [
+        {
+          "label": "fal docs",
+          "url": "https://fal.ai/docs/documentation"
+        }
+      ]
+    }
+  ]
+}

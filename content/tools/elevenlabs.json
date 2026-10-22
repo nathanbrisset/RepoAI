@@ -1,0 +1,62 @@
+{
+  "id": "elevenlabs",
+  "name": "ElevenLabs",
+  "url": "https://elevenlabs.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI voice generation, cloning, dubbing and voice agents.",
+  "description": "ElevenLabs provides realistic AI text-to-speech, voice cloning, speech-to-text, dubbing, sound effects, music and conversational voice agents via apps and API. It is a leading reference for natural-sounding voices in many languages. The Free plan ($0) includes 10k credits per month; Starter is $6/month, Creator $22/month, Pro $99/month, with Scale and Business tiers for teams.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "text-to-speech",
+    "voice-cloning",
+    "dubbing",
+    "api"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "The Free plan ($0) includes 10k credits per month; Starter is $6/month, Creator $22/month, Pro $99/month, with Scale and Business tiers for teams.",
+    "sourceUrl": "https://elevenlabs.io/pricing"
+  },
+  "logo": "/logos/elevenlabs.png",
+  "image": "/screenshots/elevenlabs.webp",
+  "dateAdded": "2023-01-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Ultra-Realistic Text-to-Speech: Generates lifelike speech in over 30 languages with natural intonation.",
+    "Voice Cloning: Allows users to create high-fidelity replicas of voices using minimal audio samples.",
+    "Custom Voice Design: Offers tools to fine-tune voice attributes like stability and clarity.",
+    "Developer-Friendly API: Provides integration capabilities for various applications."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Log In",
+      "description": "Register at ElevenLabs and access the web studio or API.",
+      "links": [
+        {
+          "label": "ElevenLabs",
+          "url": "https://elevenlabs.io"
+        }
+      ]
+    },
+    {
+      "title": "Select Voice or Clone New",
+      "description": "Choose from the library or create a custom cloned voice."
+    },
+    {
+      "title": "Generate Speech",
+      "description": "Input text, adjust settings, and generate lifelike voice output."
+    },
+    {
+      "title": "Download or Integrate",
+      "description": "Export audio files or use the API for application integration."
+    }
+  ],
+  "sources": [
+    "https://elevenlabs.io/pricing"
+  ]
+}

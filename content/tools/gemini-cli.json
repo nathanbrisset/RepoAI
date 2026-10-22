@@ -1,0 +1,53 @@
+{
+  "id": "gemini-cli",
+  "name": "Gemini CLI",
+  "url": "https://geminicli.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "statusNote": "Google states that, for unpaid-tier and Google One users, Gemini CLI was replaced by Antigravity CLI on 18 June 2026, and that it is not optimised for the newest Gemini model.",
+  "summary": "Google's open-source command-line agent for Gemini, now replaced by Antigravity CLI for unpaid users.",
+  "description": "Gemini CLI is Google's open-source agent that brings Gemini models into the terminal for coding and other tasks, with extensions. Google states that, for unpaid-tier and Google One users, Gemini CLI was replaced by Antigravity CLI on 18 June 2026, and that it is not optimised for the newest Gemini model. Plans include a free tier, Google AI Pro and API-key use.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "cli",
+    "gemini",
+    "open-source",
+    "google"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://geminicli.com/plans"
+  },
+  "logo": "https://geminicli.com/icon.png",
+  "image": "/screenshots/gemini-cli.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://geminicli.com/",
+    "https://geminicli.com/plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Gemini CLI",
+      "description": "Go to Gemini CLI, Google's open-source agent that brings Gemini models into the terminal.",
+      "links": [
+        {
+          "label": "Gemini CLI",
+          "url": "https://geminicli.com/"
+        }
+      ]
+    },
+    {
+      "title": "Work from the terminal",
+      "description": "Use it for coding and other tasks, with extensions. The page also says you can query and edit large codebases and automate workflows from the terminal."
+    },
+    {
+      "title": "See whether Antigravity CLI replaced your tier",
+      "description": "For unpaid-tier and Google One accounts, Gemini CLI was replaced by Antigravity CLI on 18 June 2026, and it is not optimised for the newest Gemini model. The page names Gemini 4 Argon for that case. Plans include a free tier, Google AI Pro, and API-key use."
+    }
+  ]
+}

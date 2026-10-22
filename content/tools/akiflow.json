@@ -1,0 +1,53 @@
+{
+  "id": "akiflow",
+  "name": "Akiflow",
+  "url": "https://akiflow.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Planner that consolidates tasks and calendars, with an AI assistant for time-blocking.",
+  "description": "Akiflow collects tasks from other apps into one inbox, lets users time-block them on their calendars and includes an AI assistant that answers scheduling questions and books slots. It targets founders, operators and busy professionals. A seven-day free trial is offered; the Pro plan costs $19 per month or $16 per month billed yearly, with a student discount. Integrations bring tasks in from other apps into a single inbox.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "time-blocking",
+    "tasks",
+    "calendar",
+    "planner"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$19/mo (Pro, monthly)",
+    "sourceUrl": "https://akiflow.com/pricing"
+  },
+  "logo": "https://framerusercontent.com/images/F8myGPh6kBiAR2BuPTtef4KdGs.svg",
+  "image": "/screenshots/akiflow.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://akiflow.com/",
+    "https://akiflow.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Akiflow",
+      "description": "Go to Akiflow and choose Try for free. The trial lasts seven days and is aimed at founders, operators and busy professionals.",
+      "links": [
+        {
+          "label": "Akiflow",
+          "url": "https://akiflow.com/"
+        }
+      ]
+    },
+    {
+      "title": "Collect tasks and time-block them",
+      "description": "Turn on integrations from other apps. Akiflow collects those tasks in the inbox, then you time-block them on the calendar."
+    },
+    {
+      "title": "Ask the assistant to book a slot",
+      "description": "Ask the assistant scheduling questions so it books slots. If you stay, Pro is $19 a month, or $16 a month when billed yearly, and there is a student discount."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "hedra",
+  "name": "Hedra",
+  "url": "https://www.hedra.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Generative video models for expressive character video.",
+  "description": "Hedra builds generative video models and a platform to create expressive, character-driven videos such as talking avatars with lip-sync from an image and audio. It focuses on characters and performance rather than general scenes. A free tier ($0) is listed on its pricing page, with paid plans adding credits, higher resolution and commercial use.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "video-generation",
+    "avatars",
+    "lip-sync"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "A free tier ($0) is listed on its pricing page, with paid plans adding credits, higher resolution and commercial use.",
+    "sourceUrl": "https://www.hedra.com/pricing"
+  },
+  "logo": "/logos/hedra.png",
+  "image": "/screenshots/hedra.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.hedra.com",
+    "https://www.hedra.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Create an account",
+      "description": "The homepage starts with Create an account and Get the API.",
+      "links": [
+        {
+          "label": "Hedra",
+          "url": "https://www.hedra.com/auth/start?flow=signup"
+        }
+      ]
+    },
+    {
+      "title": "Get an API key",
+      "description": "Managed inference hosts the models. The page says there are 100+ models and that Hedra handles hosting.",
+      "links": [
+        {
+          "label": "Quickstart",
+          "url": "https://www.hedra.com/docs/pages/developer/v3/quickstart"
+        }
+      ]
+    },
+    {
+      "title": "Fine-tune, or use a sandbox",
+      "description": "The page says you can fine-tune a supported model with your data and Hedra's training recipes, then deploy on the same stack, or create an isolated GPU sandbox with the Hedra SDK."
+    }
+  ]
+}

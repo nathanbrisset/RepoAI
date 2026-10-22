@@ -1,0 +1,56 @@
+{
+  "id": "make",
+  "name": "Make",
+  "url": "https://www.make.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Visual no-code platform for building automations and AI agent workflows across apps.",
+  "description": "Make is a no-code automation platform where users build workflows, called scenarios, on a visual canvas that connects thousands of apps. It also supports AI agents that run inside those workflows. Usage is measured in credits. A free plan includes 1,000 credits per month, and paid plans add more credits and features; enterprise plans include 24/7 support.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "automation",
+    "integrations",
+    "no-code",
+    "ai-agents"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.make.com/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/6a294495bc84130c6dd0c4fd/6a7b9441e295d2f297063147_favicon-32x32.png",
+  "image": "/screenshots/make.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.make.com/",
+    "https://www.make.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Make",
+      "description": "Open Make and start on the free plan of this no-code automation platform.",
+      "links": [
+        {
+          "label": "Make",
+          "url": "https://www.make.com/"
+        }
+      ]
+    },
+    {
+      "title": "Build a scenario on the canvas",
+      "description": "On the visual canvas, build a workflow called a scenario. The canvas connects thousands of apps from the integration library."
+    },
+    {
+      "title": "Put an agent inside the workflow",
+      "description": "Add an AI agent so it runs inside the scenario, then watch usage, which is measured in credits."
+    },
+    {
+      "title": "Raise the credit allowance",
+      "description": "The free plan includes 1,000 credits per month. Paid plans add more credits, and enterprise plans include 24/7 support."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "khanmigo",
+  "name": "Khanmigo",
+  "url": "https://www.khanmigo.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Khan Academy's AI tutor for learners and free teaching assistant for teachers.",
+  "description": "Khanmigo is built by the non-profit Khan Academy. Teachers use it free to plan lessons, create materials and handle classroom tasks, while students and parents get personalised AI tutoring and help with homework, plus a writing coach. The learner and parent plan costs $4 per month or $44 per year, and districts can buy school-wide access. It covers subjects such as maths and science.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "tutoring",
+    "teachers",
+    "khan-academy",
+    "math"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$4/mo (learners & parents)",
+    "sourceUrl": "https://www.khanmigo.ai/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/659ee90e075c502b5cc49dae/659ee90e075c502b5cc49e16_KA_Favicon_72x72.png",
+  "image": "/screenshots/khanmigo.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.khanmigo.ai/",
+    "https://www.khanmigo.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Khanmigo",
+      "description": "Open Khanmigo. Teachers choose Sign up for free. Learners and parents choose Get Khanmigo. The non-profit behind it is Khan Academy.",
+      "links": [
+        {
+          "label": "Khanmigo",
+          "url": "https://www.khanmigo.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Plan lessons and classroom tasks",
+      "description": "If you teach, use it at no charge to plan lessons, prepare materials, and handle classroom tasks. The page describes building a rubric from unit plans."
+    },
+    {
+      "title": "Tutor homework with the writing coach",
+      "description": "Students and parents get personalised tutoring and homework help, plus a writing coach. Khanmigo guides the learner toward the answer. Subjects such as maths and science are covered."
+    },
+    {
+      "title": "Choose a learner plan or a district",
+      "description": "The learner and parent plan costs $4 per month or $44 per year. Districts can buy school-wide access. The page says classroom access for students goes through a school or district."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "monkeylearn",
+  "name": "MonkeyLearn",
+  "url": "https://www.medallia.com/",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "Text analysis tool for extracting insights from text data.",
+  "description": "Text analysis tool for extracting insights from text data.\n\nText Classification: Categorize text data using machine learning. Sentiment Analysis: Determine the sentiment of text data. Custom Model Training: Train models tailored to specific needs. Data Visualization: Visualize text analysis results for easier interpretation.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "nlp",
+    "text-analysis",
+    "machine-learning",
+    "data-extraction"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/monkeylearn.png",
+  "image": "/tool-screenshots/monkeylearn.png",
+  "dateAdded": "2022-10-30",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Text Classification: Categorize text data using machine learning.",
+    "Sentiment Analysis: Determine the sentiment of text data.",
+    "Custom Model Training: Train models tailored to specific needs.",
+    "Data Visualization: Visualize text analysis results for easier interpretation."
+  ],
+  "howToUse": [
+    {
+      "title": "Create Account & Log In",
+      "description": "Sign up on MonkeyLearn and access the dashboard.",
+      "links": [
+        {
+          "label": "MonkeyLearn",
+          "url": "https://www.medallia.com/"
+        }
+      ]
+    },
+    {
+      "title": "Import Text Data",
+      "description": "Upload documents, reviews, or other text for analysis."
+    },
+    {
+      "title": "Select or Train Models",
+      "description": "Use prebuilt models or train custom ones for classification or sentiment analysis."
+    },
+    {
+      "title": "Analyze & Visualize",
+      "description": "View analytics and visualizations, then export results as needed."
+    }
+  ],
+  "statusNote": "monkeylearn.com redirects to medallia.com"
+}

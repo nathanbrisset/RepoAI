@@ -1,0 +1,63 @@
+{
+  "id": "voiceflow",
+  "name": "Voiceflow",
+  "url": "https://www.voiceflow.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Platform for building and deploying chat and voice AI agents for customer experience.",
+  "description": "Voiceflow is used to design, launch and scale chat and voice AI agents for customer support and other customer experience tasks, with collaboration features for teams and agencies building for clients. The company publishes documentation, webinars and a changelog. It was named a 2026 Best Software Award winner by G2, according to the site.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "agent-builder",
+    "voice",
+    "chat",
+    "cx"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "usage-based",
+    "label": "Usage-based",
+    "note": "The official pricing page offers a free trial and describes agency billing as usage-based. Business plans are quoted on request. No dollar price was published on that page.",
+    "sourceUrl": "https://www.voiceflow.com/pricing"
+  },
+  "logo": "https://www.voiceflow.com/webclip.png",
+  "image": "/screenshots/voiceflow.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://www.voiceflow.com/",
+    "https://www.voiceflow.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Voiceflow",
+      "description": "Open Voiceflow and start a trial, or talk to sales if a team is rolling agents out for clients.",
+      "links": [
+        {
+          "label": "Voiceflow",
+          "url": "https://www.voiceflow.com/"
+        }
+      ]
+    },
+    {
+      "title": "Design a chat or voice agent",
+      "description": "Design a chat agent or a voice agent for customer support or another customer experience task."
+    },
+    {
+      "title": "Launch and scale with the team",
+      "description": "Launch the agent, then scale it. Use collaboration if several people on the team, or an agency, are building it."
+    },
+    {
+      "title": "Read the docs and changelog",
+      "description": "Follow the setup guide. The company publishes documentation, webinars, and a changelog. G2 named it a 2026 Best Software Award winner, according to the site.",
+      "links": [
+        {
+          "label": "Set up Voiceflow",
+          "url": "https://www.voiceflow.com/agents/setup"
+        }
+      ]
+    }
+  ]
+}

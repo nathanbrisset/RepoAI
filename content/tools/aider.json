@@ -1,0 +1,50 @@
+{
+  "id": "aider",
+  "name": "Aider",
+  "url": "https://aider.chat/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source terminal tool for pair programming with LLMs on local git repositories.",
+  "description": "Aider is an open-source command-line tool for editing code with large language models. It works inside a local git repository, maps the codebase for context, applies edits across files and commits changes automatically. It supports cloud models and local models. The project is free to install; users pay their model provider for API usage. The site reports more than 44,000 GitHub stars and 6.8 million installs.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "cli",
+    "pair-programming",
+    "open-source",
+    "git"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": true
+  },
+  "logo": "https://aider.chat/assets/icons/apple-touch-icon.png",
+  "image": "/screenshots/aider.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://aider.chat/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Aider",
+      "description": "Go to Aider and open Getting Started. It is an open-source, command-line way of editing code with large language models.",
+      "links": [
+        {
+          "label": "Aider",
+          "url": "https://aider.chat/"
+        }
+      ]
+    },
+    {
+      "title": "Install and enter the repository",
+      "description": "Run python -m pip install aider-install, then aider-install, and change directory into your local git repository so Aider maps the codebase."
+    },
+    {
+      "title": "Edit files and let it commit",
+      "description": "Ask for the code change. Aider applies each edit in the relevant files, then commits those changes automatically. Cloud models and local models both work; install is free and you pay the model provider for API usage."
+    }
+  ]
+}

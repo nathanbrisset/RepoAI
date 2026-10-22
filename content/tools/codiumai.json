@@ -1,0 +1,57 @@
+{
+  "id": "codiumai",
+  "name": "CodiumAI",
+  "url": "https://www.qodo.ai/",
+  "affiliateUrl": "",
+  "status": "renamed",
+  "summary": "Qodo is an AI code review tool giving teams deep codebase context to move faster and improve code quality, with 15+ agentic workflows for IDEs, PRs and security.",
+  "description": "Qodo is an AI code review tool giving teams deep codebase context to move faster and improve code quality, with 15+ agentic workflows for IDEs, PRs and security.\n\nTest generation: Automatically creates meaningful tests. Real-time insights: Suggests fixes as you code. IDE integration: Works with VS Code and JetBrains. Code integrity: Identifies logical gaps and edge cases.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "code-quality",
+    "test-generation"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/codiumai.png",
+  "image": "/screenshots/codiumai.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Test generation: Automatically creates meaningful tests.",
+    "Real-time insights: Suggests fixes as you code.",
+    "IDE integration: Works with VS Code and JetBrains.",
+    "Code integrity: Identifies logical gaps and edge cases."
+  ],
+  "howToUse": [
+    {
+      "title": "Add CodiumAI Extension",
+      "description": "Install the CodiumAI plugin for VS Code or JetBrains IDEs.",
+      "links": [
+        {
+          "label": "CodiumAI",
+          "url": "https://www.qodo.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Generate Tests",
+      "description": "Use the tool to automatically suggest and create tests for your code."
+    },
+    {
+      "title": "Review Code Insights",
+      "description": "Receive instant feedback on code integrity and get suggestions for improvements."
+    },
+    {
+      "title": "Iterate and Validate",
+      "description": "Fix logical issues and cover edge cases with AI-guided input."
+    }
+  ],
+  "statusNote": "codium.ai redirects to qodo.ai (CodiumAI rebranded as Qodo)"
+}

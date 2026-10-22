@@ -1,0 +1,59 @@
+{
+  "id": "looka",
+  "name": "Looka",
+  "url": "https://looka.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-powered logo maker and brand identity design tool.",
+  "description": "AI-powered logo maker and brand identity design tool.\n\nLogo Generator: Designs logos from your preferences. Brand Kit Builder: Creates full brand identity packages. Design Customization: Edit fonts, colors, and layout. High-Res Downloads: Exports in multiple formats.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "logo-design",
+    "branding",
+    "templates",
+    "business-cards",
+    "social-media-kits"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/looka.png",
+  "image": "/screenshots/looka.webp",
+  "dateAdded": "2021-05-20",
+  "lastVerified": null,
+  "features": [
+    "Logo Generator: Designs logos from your preferences.",
+    "Brand Kit Builder: Creates full brand identity packages.",
+    "Design Customization: Edit fonts, colors, and layout.",
+    "High-Res Downloads: Exports in multiple formats."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up and Start a Logo",
+      "description": "Create a Looka account and start a new logo project.",
+      "links": [
+        {
+          "label": "Looka",
+          "url": "https://looka.com/"
+        }
+      ]
+    },
+    {
+      "title": "Enter Brand Preferences",
+      "description": "Input your business name, industry, and style preferences."
+    },
+    {
+      "title": "Customize Logo",
+      "description": "Use the editor to adjust colors, fonts, and layouts."
+    },
+    {
+      "title": "Download or Purchase Brand Kit",
+      "description": "Export logo files or purchase a complete brand kit for business use."
+    }
+  ]
+}

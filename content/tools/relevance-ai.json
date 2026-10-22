@@ -1,0 +1,57 @@
+{
+  "id": "relevance-ai",
+  "name": "Relevance AI",
+  "url": "https://relevanceai.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Platform for building and running AI agents for sales, support, marketing and HR tasks.",
+  "description": "Relevance AI is a platform for building and operating AI agents that carry out business tasks such as research, outreach, qualification and support. Teams can configure specialist agents, connect them to their tools and run them at scale. Its Invent assistant helps identify processes to automate and turns them into agents. The pricing page showed only an enterprise offer during this check, so no price was recorded.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai-agents",
+    "no-code",
+    "sales",
+    "automation"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "The official pricing page shows only an Enterprise plan, with pricing on request.",
+    "sourceUrl": "https://relevanceai.com/pricing"
+  },
+  "logo": "https://cdn.relevanceai.com/images/favicon-256x256.png",
+  "image": "/screenshots/relevance-ai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://relevanceai.com/",
+    "https://relevanceai.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Relevance AI",
+      "description": "Open Relevance AI and talk to sales about the platform for building and operating agents.",
+      "links": [
+        {
+          "label": "Relevance AI",
+          "url": "https://relevanceai.com/"
+        }
+      ]
+    },
+    {
+      "title": "Configure specialist agents",
+      "description": "Configure specialist agents for business tasks such as research, outreach, qualification, and support, connect them to your tools, and run them at scale."
+    },
+    {
+      "title": "Use the Invent assistant",
+      "description": "The Invent assistant helps identify processes to automate and turns them into agents."
+    },
+    {
+      "title": "Check the enterprise offer",
+      "description": "Only an enterprise offer showed on the pricing page during this check, so no price was recorded."
+    }
+  ]
+}

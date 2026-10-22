@@ -1,0 +1,58 @@
+{
+  "id": "jasper-art",
+  "name": "Jasper Art",
+  "url": "https://www.jasper.ai/image/pipelines",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Jasper's image product for on-brand product images. The official page is Image Pipelines, separate from Jasper's writing platform.",
+  "description": "Jasper Art is Jasper's image product, not the writing platform. The official page is Image Pipelines, for on-brand product images at enterprise scale. The page describes pixel-perfect product imagery at 10× the speed and up to 50% lower cost.\n\nAI Image Generation: Produces images based on text descriptions. Style Variations: Offers different artistic styles for outputs. High-Quality Outputs: Generates professional-grade images. Integration with Jasper Suite: Works with the rest of Jasper.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "marketing",
+    "content",
+    "art"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "Listed Free; URL redirects to jasper.ai/image/pipelines; Jasper is paid (Pro $69/month)",
+    "sourceUrl": "https://jasper.ai/image/pipelines"
+  },
+  "logo": "/logos/jasper-art.png",
+  "image": "/screenshots/jasper-art.webp",
+  "dateAdded": "2022-04-01",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI Image Generation: Produces images based on text descriptions.",
+    "Style Variations: Offers different artistic styles for outputs.",
+    "High-Quality Outputs: Generates professional-grade images.",
+    "Integration with Jasper Suite: Works seamlessly with other Jasper AI tools."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Use Jasper Art",
+      "description": "Create an account and start generating images with Jasper Art.",
+      "links": [
+        {
+          "label": "Jasper Art",
+          "url": "https://www.jasper.ai/art"
+        }
+      ]
+    },
+    {
+      "title": "Describe the Image",
+      "description": "Enter a descriptive text prompt and select the desired style."
+    },
+    {
+      "title": "Generate & Refine",
+      "description": "Review generated images and refine your prompt or style."
+    },
+    {
+      "title": "Download or Use in Jasper",
+      "description": "Export the image or use in Jasper's content marketing suite."
+    }
+  ]
+}

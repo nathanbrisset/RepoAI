@@ -1,0 +1,57 @@
+{
+  "id": "mp3tomidi",
+  "name": "MP3 to MIDI (mp3tomidi.io)",
+  "url": "https://mp3tomidi.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Online MP3 to MIDI converter with AI note detection in the browser.",
+  "description": "MP3 to MIDI converts an uploaded MP3 into a MIDI file in the browser. A machine-learning model detects notes on the device, so the audio is processed locally and no account is required. A piano roll previews the detected notes and lets you adjust them before downloading the MIDI file.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "music-production",
+    "file-converter",
+    "midi"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": true,
+    "note": "The site says the first version is a free online converter and does not require an account.",
+    "sourceUrl": "https://mp3tomidi.io/"
+  },
+  "logo": "/logos/mp3tomidi.png",
+  "image": "/screenshots/mp3tomidi.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://mp3tomidi.io/"
+  ],
+  "howToUse": [
+    {
+      "title": "Upload an MP3",
+      "description": "Drop an MP3 in the browser. The page says there is no signup, the audio stays on your device, and the free conversion accepts files up to 5 minutes.",
+      "links": [
+        {
+          "label": "MP3 to MIDI",
+          "url": "https://mp3tomidi.io/"
+        }
+      ]
+    },
+    {
+      "title": "Choose the closest audio type",
+      "description": "Select voice, piano, guitar, bass, another solo instrument, a full song, or Not Sure. The page says the preset adjusts detection and does not create separate instrument tracks."
+    },
+    {
+      "title": "Preview and download the MIDI",
+      "description": "Compare the audio with the MIDI preview, edit notes in the piano roll, and download the MIDI file.",
+      "links": [
+        {
+          "label": "How it works",
+          "url": "https://mp3tomidi.io/#how-it-works"
+        }
+      ]
+    }
+  ]
+}

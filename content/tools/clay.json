@@ -1,0 +1,64 @@
+{
+  "id": "clay",
+  "name": "Clay",
+  "url": "https://www.clay.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Data enrichment and AI research platform for go-to-market teams.",
+  "description": "Clay combines over a hundred data providers with AI research agents to find and enrich leads and automate personalized outbound workflows in a spreadsheet-like interface. It is widely used by growth and sales teams to build targeted lists. A free plan is available, and paid plans add credits, integrations and CRM sync; Clay also runs a creators partner programme.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "lead-generation",
+    "data-enrichment",
+    "sales",
+    "gtm"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "A free plan is available, and paid plans add credits, integrations and CRM sync; Clay also runs a creators partner programme.",
+    "sourceUrl": "https://www.clay.com/pricing"
+  },
+  "logo": "/logos/clay.png",
+  "image": "/screenshots/clay.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.clay.com",
+    "https://www.clay.com/pricing",
+    "https://www.clay.com/partners/creators"
+  ],
+  "howToUse": [
+    {
+      "title": "Start a free trial",
+      "description": "The homepage button is Start free trial. The page describes infrastructure for data, agentic workflows, and GTM plays.",
+      "links": [
+        {
+          "label": "Clay",
+          "url": "https://www.clay.com/"
+        }
+      ]
+    },
+    {
+      "title": "Get the data",
+      "description": "The page says to get data from its data marketplace."
+    },
+    {
+      "title": "Put agents to work",
+      "description": "The page says to use agents that know your business."
+    },
+    {
+      "title": "Build the play on the canvas",
+      "description": "The page says GTM plays are built on a visual canvas.",
+      "links": [
+        {
+          "label": "Pricing",
+          "url": "https://www.clay.com/pricing"
+        }
+      ]
+    }
+  ]
+}

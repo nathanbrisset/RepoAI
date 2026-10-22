@@ -1,0 +1,57 @@
+{
+  "id": "hemingway-app",
+  "name": "Hemingway App",
+  "url": "https://hemingwayapp.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Hemingway Editor makes your writing bold and clear.",
+  "description": "Hemingway Editor makes your writing bold and clear.\n\nReadability Analysis: Highlights complex sentences and suggests simplifications. Sentence Structure: Identifies long or hard-to-read sentences. Passive Voice Detection: Points out passive constructions for revision. Adverb Highlighting: Flags excessive use of adverbs to tighten prose.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "writing",
+    "editing",
+    "readability"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/hemingway-app.png",
+  "image": "/screenshots/hemingway-app.webp",
+  "dateAdded": "2021-08-15",
+  "lastVerified": null,
+  "features": [
+    "Readability Analysis: Highlights complex sentences and suggests simplifications.",
+    "Sentence Structure: Identifies long or hard-to-read sentences.",
+    "Passive Voice Detection: Points out passive constructions for revision.",
+    "Adverb Highlighting: Flags excessive use of adverbs to tighten prose."
+  ],
+  "howToUse": [
+    {
+      "title": "Open Hemingway App",
+      "description": "Visit the web app or use the desktop version.",
+      "links": [
+        {
+          "label": "Hemingway App",
+          "url": "https://hemingwayapp.com"
+        }
+      ]
+    },
+    {
+      "title": "Paste or Write Content",
+      "description": "Add your writing to the editor."
+    },
+    {
+      "title": "Review Highlights & Suggestions",
+      "description": "Check color-coded feedback for readability and style."
+    },
+    {
+      "title": "Edit & Export",
+      "description": "Make improvements and download or copy the text."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "brisk-teaching",
+  "name": "Brisk Teaching",
+  "url": "https://www.briskteaching.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI browser extension and platform for teachers to plan lessons, give feedback and personalise learning.",
+  "description": "Brisk Teaching is an AI layer for teachers that runs as a browser extension inside the tools and websites teachers already use, and as a web platform. It helps build lessons, give feedback, see what students need and offer safe AI activities for students through Brisk Boost. It is free for teachers, with paid plans for schools. Brisk Intelligence is described as AI that already knows a school's curriculum.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "chrome-extension",
+    "teachers",
+    "feedback",
+    "curriculum"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.briskteaching.com/plans"
+  },
+  "logo": "https://cdn.prod.website-files.com/6a6b7e36c7e8274794581e32/6a6b7e36c7e8274794582e23_Brisk%20Logo.png",
+  "image": "/screenshots/brisk-teaching.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.briskteaching.com/",
+    "https://www.briskteaching.com/plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Brisk Teaching",
+      "description": "Go to Brisk Teaching and choose Install for free to add the browser extension, or use the web platform. Teachers do not pay; schools are the group with paid plans.",
+      "links": [
+        {
+          "label": "Brisk Teaching",
+          "url": "https://www.briskteaching.com/"
+        }
+      ]
+    },
+    {
+      "title": "Build lessons where you already teach",
+      "description": "Keep this AI layer on the websites and other places where teachers already work, and use it to build lessons or give feedback."
+    },
+    {
+      "title": "Check students and open Brisk Boost",
+      "description": "Check which students need help, then offer them safe AI activities in Brisk Boost. Brisk Intelligence already knows a school's curriculum."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "semantic-scholar",
+  "name": "Semantic Scholar",
+  "url": "https://www.semanticscholar.org/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Free AI-powered search and discovery tool for scientific literature.",
+  "description": "Semantic Scholar is a free, AI-powered search and discovery tool for scientific literature, indexing more than 239 million papers from all fields of science. It uses AI to interpret the content of papers so researchers can find relevant work, and it offers free user accounts. A public API for developers includes paper search and has recently been extended with better documentation and stability. No paid plan exists.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "academic-search",
+    "papers",
+    "open-data",
+    "api"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": true
+  },
+  "logo": "https://cdn.semanticscholar.org/96374d262d7c8584/img/favicon-196x196.png",
+  "image": "/screenshots/semantic-scholar.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.semanticscholar.org/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Semantic Scholar",
+      "description": "Open Semantic Scholar and use this AI-powered discovery search of the scientific literature. Indexing covers more than 239 million papers from all fields of science.",
+      "links": [
+        {
+          "label": "Semantic Scholar",
+          "url": "https://www.semanticscholar.org/"
+        }
+      ]
+    },
+    {
+      "title": "Interpret a paper",
+      "description": "Open a result and let the AI interpret its content so researchers can find relevant work. Try Semantic Reader where it is offered on select papers."
+    },
+    {
+      "title": "Use the API",
+      "description": "Create a free account. Semantic Scholar offers these accounts, and no paid plan exists. Developers can call the public API. It includes paper search and was recently extended, with better documentation and stability."
+    }
+  ]
+}

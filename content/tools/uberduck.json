@@ -1,0 +1,58 @@
+{
+  "id": "uberduck",
+  "name": "Uberduck",
+  "url": "https://www.uberduck.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An AI voice platform that enables users to create custom voiceovers and songs using a variety of AI-generated voices.",
+  "description": "An AI voice platform that enables users to create custom voiceovers and songs using a variety of AI-generated voices.\n\nMake Music, Voiceovers and Videos With AI Vocals, Text to Speech, Voice Conversion and Voice Cloning\n\nText-to-Speech & Singing: Converts text into speech, singing, or rapping. Voice Cloning: Creates custom voices for various applications. API Access: Provides developers with tools for integration. Music Studio: A platform for creating complete songs using AI vocals.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "voiceover",
+    "music-synthesis",
+    "custom-voices"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; uberduck.ai/pricing mentions a free tier and paid plans from $2/month yearly",
+    "sourceUrl": "https://uberduck.ai/pricing"
+  },
+  "logo": "/logos/uberduck.png",
+  "image": "/screenshots/uberduck.webp",
+  "dateAdded": "2023-05-01",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Text-to-Speech & Singing: Converts text into speech, singing, or rapping.",
+    "Voice Cloning: Creates custom voices for various applications.",
+    "API Access: Provides developers with tools for integration.",
+    "Music Studio: A platform for creating complete songs using AI vocals."
+  ],
+  "howToUse": [
+    {
+      "title": "Register & Log In",
+      "description": "Create an account at Uberduck and access the platform.",
+      "links": [
+        {
+          "label": "Uberduck",
+          "url": "https://uberduck.ai"
+        }
+      ]
+    },
+    {
+      "title": "Select Voice/Mode",
+      "description": "Choose from TTS, singing, or custom voice creation."
+    },
+    {
+      "title": "Input Script or Lyrics",
+      "description": "Type or paste your text or lyrics for generation."
+    },
+    {
+      "title": "Generate & Export",
+      "description": "Produce audio and download or share your voice creation."
+    }
+  ]
+}

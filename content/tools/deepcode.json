@@ -1,0 +1,52 @@
+{
+  "id": "deepcode",
+  "name": "DeepCode (Snyk Code)",
+  "url": "https://snyk.io/product/snyk-code/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Snyk Code is the fastest & most comprehensive SAST code vulnerability scanning and auto-fixing tool. Try Snyk’s code scanner solutions for free, or book a live demo.",
+  "description": "Snyk Code is the fastest & most comprehensive SAST code vulnerability scanning and auto-fixing tool. Try Snyk’s code scanner solutions for free, or book a live demo.\n\nAI-Powered Code Analysis: Analyzes code to detect security vulnerabilities and coding issues. Automatic Fix Suggestions: Provides recommendations to fix identified problems. Integration with Snyk: Works alongside Snyk's other security tools for comprehensive protection. Support for Multiple Languages: Analyzes code written in various programming languages.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "review",
+    "bug-fixing"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/deepcode.png",
+  "image": "/screenshots/deepcode.webp",
+  "dateAdded": "2021-08-20",
+  "lastVerified": null,
+  "features": [
+    "AI-Powered Code Analysis: Analyzes code to detect security vulnerabilities and coding issues.",
+    "Automatic Fix Suggestions: Provides recommendations to fix identified problems.",
+    "Integration with Snyk: Works alongside Snyk's other security tools for comprehensive protection.",
+    "Support for Multiple Languages: Analyzes code written in various programming languages."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Connect Repo",
+      "description": "Register on Snyk, connect your code repository.",
+      "links": [
+        {
+          "label": "DeepCode (Snyk Code)",
+          "url": "https://snyk.io/product/snyk-code"
+        }
+      ]
+    },
+    {
+      "title": "Run Code Analysis",
+      "description": "Let DeepCode scan your codebase for issues."
+    },
+    {
+      "title": "Review & Fix",
+      "description": "Examine AI-generated feedback and apply suggested fixes."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/grok.png",
+  "image": "/screenshots/grok.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "grok",
+  "name": "Grok",
+  "url": "https://grok.com/",
+  "summary": "xAI's AI assistant with real-time web and X search.",
+  "description": "Grok is xAI's AI assistant for chat, voice, image and video creation, coding and real-time answers drawn from the web and X. It differentiates itself through live X integration and a single subscription that bundles Grok Chat, Imagine, Build, the Grok API, Cursor access and X benefits. Plans start with Plus at $8/month ($7/month billed annually); Premium is $30/month and higher Super and Ultra tiers add more usage. The plans page lists no $0 tier.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "chatbot",
+    "llm",
+    "assistant",
+    "image-generation",
+    "video-generation"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "It differentiates itself through live X integration and a single subscription that bundles Grok Chat, Imagine, Build, the Grok API, Cursor access and X benefits. Plans start with Plus at $8/month ($7/month billed annually); Premium is $30/month and higher Super and Ultra tiers add more usage. The plans page lists no $0 tier.",
+    "sourceUrl": "https://grok.com/plans"
+  },
+  "sources": [
+    "https://grok.com/plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign in",
+      "description": "The grok.com page offers Sign in and Sign up above the message box.",
+      "links": [
+        {
+          "label": "Grok",
+          "url": "https://grok.com/"
+        }
+      ]
+    },
+    {
+      "title": "Send a message",
+      "description": "Type a message and send it to the assistant for answers. The page says typing / opens slash commands."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "z-ai-glm",
+  "name": "Z.ai (GLM)",
+  "url": "https://chat.z.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Chat assistant from Zhipu AI powered by its GLM models, with coding and agent features.",
+  "description": "Z.ai is the assistant and model platform from Zhipu AI, built on its GLM family of models. The chat app answers questions, writes code, builds simple websites and handles longer multi-step tasks. The company also releases GLM models with open weights. Its subscription page lists Lite, Pro and Max plans starting at $18 per month, with team seats priced separately. Whether the basic chat remains free was not stated on the pages checked.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "chatbot",
+    "glm",
+    "coding",
+    "open-weight"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "Z.AI's pricing page lists per-token prices, including GLM-5.3 at $1.40 per million input tokens, and marks GLM-4.7-Flash, GLM-4.5-Flash and GLM-4.6V-Flash as free. The coding plan documented separately starts at $18/month.",
+    "sourceUrl": "https://docs.z.ai/guides/overview/pricing"
+  },
+  "logo": "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+  "image": "/screenshots/z-ai-glm.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://chat.z.ai/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Z.ai",
+      "description": "Open Z.ai, the assistant and model platform from Zhipu AI, built on the GLM family of models.",
+      "links": [
+        {
+          "label": "Z.ai (GLM)",
+          "url": "https://chat.z.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Ask, code, or build a page",
+      "description": "In the chat it answers questions, writes code, and builds simple websites."
+    },
+    {
+      "title": "Hand over a longer task",
+      "description": "For longer tasks, it handles the multi-step work in the same chat."
+    },
+    {
+      "title": "Check models and subscriptions",
+      "description": "The company releases GLM models with open weights. The subscription page lists Lite, Pro, and Max, starting at $18 a month, and team seats are priced separately. It was not stated whether basic chat remains free on the pages checked."
+    }
+  ]
+}

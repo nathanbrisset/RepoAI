@@ -1,0 +1,53 @@
+{
+  "id": "buffer",
+  "name": "Buffer",
+  "url": "https://buffer.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Social media scheduling and analytics tool with a free plan and AI assistance.",
+  "description": "Buffer plans, schedules and publishes posts across social networks, with an idea library, analytics, community engagement, team collaboration and a link-in-bio page. The Free plan connects up to three channels. Essentials costs $5 per month per channel, with a 14-day free trial. Paid plans also cover team collaboration and approval workflows. Pricing is per connected channel, so costs scale with the number of social accounts managed.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "social-scheduler",
+    "publishing",
+    "analytics",
+    "link-in-bio"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$5/mo per channel (Essentials)",
+    "sourceUrl": "https://buffer.com/pricing"
+  },
+  "logo": "https://buffer.com/icons/favicon.svg",
+  "image": "/screenshots/buffer.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://buffer.com/",
+    "https://buffer.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Buffer",
+      "description": "Go to Buffer and get started for free. On the Free plan you can connect three channels.",
+      "links": [
+        {
+          "label": "Buffer",
+          "url": "https://buffer.com/"
+        }
+      ]
+    },
+    {
+      "title": "Schedule posts from an idea library",
+      "description": "Build an idea library, then schedule and publish posts across the social networks you connect."
+    },
+    {
+      "title": "Review analytics and collaborate",
+      "description": "Use analytics and community engagement, and build the Start Page as a link-in-bio. Paid plans cover team collaboration and approval workflows. Essentials costs $5 per month per channel and comes with a 14-day trial. Pricing follows each connected channel, so the number of accounts managed changes the cost."
+    }
+  ]
+}

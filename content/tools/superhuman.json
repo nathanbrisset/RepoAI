@@ -1,0 +1,53 @@
+{
+  "id": "superhuman",
+  "name": "Superhuman",
+  "url": "https://superhuman.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Productivity suite combining Superhuman Mail, Grammarly, Coda-based Docs and the Go assistant.",
+  "description": "Superhuman is now the name of a suite that includes Superhuman Mail, Grammarly, Superhuman Docs (formerly Coda) and Go, an AI assistant that works across other apps, plus agents and a calendar. The Free plan gives AI assistance in common apps, Grammarly and Docs. Paid plans start at $12 per member per month billed annually, with business and enterprise tiers above it.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "email",
+    "ai-assistant",
+    "grammarly",
+    "docs"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$12/member/mo (annual)",
+    "sourceUrl": "https://superhuman.com/plans"
+  },
+  "logo": "https://superhumanstatic.com/super-funnel/main/public/images/v4/favicons/superhuman-icon.svg",
+  "image": "/screenshots/superhuman.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://superhuman.com/",
+    "https://superhuman.com/plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Superhuman",
+      "description": "Open the Superhuman suite. It includes Mail, Docs (formerly Coda), Go, agents and a calendar.",
+      "links": [
+        {
+          "label": "Superhuman",
+          "url": "https://superhuman.com/"
+        }
+      ]
+    },
+    {
+      "title": "Work where you already type",
+      "description": "Go is the assistant that works across the apps you already have. The suite gives assistance in common apps on the Free plan, Grammarly included."
+    },
+    {
+      "title": "Look at paid tiers",
+      "description": "Paid tiers start at $12 per member per month when billed annually. Business and enterprise tiers sit above that price."
+    }
+  ]
+}

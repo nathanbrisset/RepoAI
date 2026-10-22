@@ -1,0 +1,52 @@
+{
+  "id": "adcreative-ai",
+  "name": "AdCreative.ai",
+  "url": "https://www.adcreative.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Tool that generates ad creatives, images, videos and copy for marketing campaigns.",
+  "description": "AdCreative.ai generates ad creatives, product images, videos and ad copy with AI, aimed at marketers scaling campaigns and improving return on ad spend. It targets marketers who need many creative variants for testing. The rest of the site loaded normally, so the service itself appears active, but plan details need manual verification.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ad-creatives",
+    "roas",
+    "images",
+    "video-ads"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "The official homepage, fetched on 22 October 2026, offers a 7-day free trial and says to cancel anytime. It does not show a lasting free plan or a plan price.",
+    "sourceUrl": "https://www.adcreative.ai/"
+  },
+  "logo": "https://cdn.prod.website-files.com/661ce890f68a1d352ebbed35/66aa467aba9463ef88f4949d_256.png",
+  "image": "/screenshots/adcreative-ai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://www.adcreative.ai/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open AdCreative.ai",
+      "description": "Go to AdCreative.ai and choose Try For Free Now to generate ad creatives for a campaign.",
+      "links": [
+        {
+          "label": "AdCreative.ai",
+          "url": "https://www.adcreative.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Upload a product image",
+      "description": "Upload a product image, then generate videos, ad copy, product images and other ad creatives, including UGC-style video ads."
+    },
+    {
+      "title": "Test more variants",
+      "description": "Review creative performance, then generate more variants so marketers can test campaigns and improve return on ad spend."
+    }
+  ]
+}

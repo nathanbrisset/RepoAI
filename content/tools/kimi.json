@@ -1,0 +1,58 @@
+{
+  "id": "kimi",
+  "name": "Kimi",
+  "url": "https://www.kimi.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Moonshot AI's assistant with agents, slides and deep research.",
+  "description": "Kimi is the AI assistant from Moonshot AI, powered by its Kimi K3 model. Beyond chat, it offers agent features for documents, spreadsheets and slides, deep research, website deployment and 'Swarm' multi-agent execution with a Goal mode. Paid memberships start with Plus at $15/month billed annually ($19 monthly), up to Ultra; the pricing page did not show a free tier, so pricing is left unverified.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "llm",
+    "chatbot",
+    "ai-agents",
+    "slides"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "The validated file left the pricing column empty. The description says paid plans are listed and no free tier was shown, so no tier is marked verified.",
+    "sourceUrl": "https://www.kimi.com/membership/pricing"
+  },
+  "logo": "/logos/kimi.png",
+  "image": "/screenshots/kimi.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.kimi.com/membership/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kimi",
+      "description": "The homepage is a chat. Its prompt says to ask anything, or task an agent.",
+      "links": [
+        {
+          "label": "Kimi",
+          "url": "https://www.kimi.com/"
+        }
+      ]
+    },
+    {
+      "title": "Use the tools on the page",
+      "description": "The same screen lists Plugins, Slides, and Deep Research alongside the prompt."
+    },
+    {
+      "title": "Read the docs",
+      "description": "Docs are linked from the homepage.",
+      "links": [
+        {
+          "label": "Kimi docs",
+          "url": "https://www.kimi.com/docs"
+        }
+      ]
+    }
+  ]
+}

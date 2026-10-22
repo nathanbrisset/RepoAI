@@ -1,0 +1,52 @@
+{
+  "id": "jina-ai",
+  "name": "Jina AI",
+  "url": "https://jina.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Embeddings, rerankers, web reader, deepsearch, small language models. Search AI for multilingual and multimodal data.",
+  "description": "Embeddings, rerankers, web reader, deepsearch, small language models. Search AI for multilingual and multimodal data.\n\nNeural Search Framework: Enables building search systems powered by neural networks. Modular Architecture: Allows customization and extension of components. Support for Multimodal Data: Handles text, images, and other data types. Scalability: Designed to scale with large datasets and high traffic.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "search",
+    "neural-networks"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/jina-ai.png",
+  "image": "/screenshots/jina-ai.webp",
+  "dateAdded": "2023-05-01",
+  "lastVerified": null,
+  "features": [
+    "Neural Search Framework: Enables building search systems powered by neural networks.",
+    "Modular Architecture: Allows customization and extension of components.",
+    "Support for Multimodal Data: Handles text, images, and other data types.",
+    "Scalability: Designed to scale with large datasets and high traffic."
+  ],
+  "howToUse": [
+    {
+      "title": "Explore Jina Documentation",
+      "description": "Visit the official docs for installation and starter guides.",
+      "links": [
+        {
+          "label": "Jina AI",
+          "url": "https://jina.ai"
+        }
+      ]
+    },
+    {
+      "title": "Build Neural Search Flows",
+      "description": "Define flows and executors for text, image, or audio search."
+    },
+    {
+      "title": "Deploy & Scale",
+      "description": "Run your search solution on local servers or cloud infrastructure."
+    }
+  ]
+}

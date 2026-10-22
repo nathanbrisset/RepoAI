@@ -1,0 +1,57 @@
+{
+  "id": "canva-ai",
+  "name": "Canva AI",
+  "url": "https://canva.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-powered graphic design platform for creating professional images and templates.",
+  "description": "Canva is the graphic design platform, including its AI tools. Magic Design, at canva.com/magic-design, generates a layout from a prompt inside Canva. It is not a separate product.\n\nAI-Powered Design Suggestions: Provides design recommendations based on user input. Magic Write: Generates text content for various design needs. Text-to-Image Tool: Creates images from text prompts. Background Remover: Automatically removes backgrounds from images.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "design",
+    "graphics",
+    "templates"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/canva-ai.png",
+  "image": "/screenshots/canva-ai.webp",
+  "dateAdded": "2023-01-15",
+  "lastVerified": null,
+  "features": [
+    "AI-Powered Design Suggestions: Provides design recommendations based on user input.",
+    "Magic Write: Generates text content for various design needs.",
+    "Text-to-Image Tool: Creates images from text prompts.",
+    "Background Remover: Automatically removes backgrounds from images."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Open Canva AI",
+      "description": "Create an account and access Canva's AI tools via the dashboard.",
+      "links": [
+        {
+          "label": "Canva AI",
+          "url": "https://canva.com"
+        }
+      ]
+    },
+    {
+      "title": "Start or Upload Design",
+      "description": "Choose a template, start a new design, or upload your own image."
+    },
+    {
+      "title": "Use AI Features",
+      "description": "Apply Magic Write, text-to-image, or background removal tools."
+    },
+    {
+      "title": "Export or Share",
+      "description": "Download, print, or share your finished design."
+    }
+  ]
+}

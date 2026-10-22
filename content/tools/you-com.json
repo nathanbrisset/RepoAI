@@ -1,0 +1,57 @@
+{
+  "id": "you-com",
+  "name": "You.com",
+  "url": "https://you.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Web search, content extraction and grounded-answer APIs for AI applications.",
+  "description": "You.com now focuses on APIs that give AI applications access to the web. Its products cover web search, clean content extraction and grounded answers, and the search API also returns live data such as stock prices, crypto rates and weather. The homepage states a price of $5 per 1,000 search calls. Documentation, benchmarks and a sales contact are offered for larger deployments.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "search-api",
+    "web-search",
+    "llm-grounding",
+    "api"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": true,
+    "note": "$5 per 1,000 calls",
+    "sourceUrl": "https://you.com/pricing"
+  },
+  "logo": "https://you.com/favicon.ico?favicon.2oo7buuzhxlge.ico",
+  "image": "/screenshots/you-com.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://you.com/",
+    "https://you.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open You.com",
+      "description": "Open You.com. It focuses on APIs that give applications access to the web, and you can get started for free.",
+      "links": [
+        {
+          "label": "You.com",
+          "url": "https://you.com/"
+        }
+      ]
+    },
+    {
+      "title": "Search, extract, or answer",
+      "description": "Call search, run extraction for clean content, or request grounded answers. The products cover those three."
+    },
+    {
+      "title": "Ask for live data",
+      "description": "A search call returns live stock prices, crypto rates, and weather. The homepage states a price of $5 per 1,000 search calls."
+    },
+    {
+      "title": "Read docs or contact sales",
+      "description": "Read the documentation and the benchmarks, or contact sales for larger deployments."
+    }
+  ]
+}

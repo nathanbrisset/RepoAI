@@ -1,0 +1,59 @@
+{
+  "id": "leonardo_ai",
+  "name": "Leonardo.Ai",
+  "url": "https://leonardo.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Leonardo.Ai is an AI-powered creative platform for generating high-quality art, illustrations, and concept images. It offers a variety of generative models and customization tools, making it ideal for game assets, concept artists, and designers seeking unique visuals. Its intuitive interface and prompt-based generation help users create professional artwork with minimal effort.",
+  "description": "Leonardo.Ai is an AI-powered creative platform for generating high-quality art, illustrations, and concept images. It offers a variety of generative models and customization tools, making it ideal for game assets, concept artists, and designers seeking unique visuals. Its intuitive interface and prompt-based generation help users create professional artwork with minimal effort.\n\nPrompt-Based Generation: Create images from text prompts. Style Customization: Choose from various artistic styles and modifiers. Batch Generation: Produce multiple variations simultaneously. Asset Library: Save and manage your generated artwork.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "ai-art",
+    "concept-art",
+    "visuals",
+    "prompt"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/leonardo_ai.png",
+  "image": "/screenshots/leonardo_ai.webp",
+  "dateAdded": "2023-03-01",
+  "lastVerified": null,
+  "features": [
+    "Prompt-Based Generation: Create images from text prompts.",
+    "Style Customization: Choose from various artistic styles and modifiers.",
+    "Batch Generation: Produce multiple variations simultaneously.",
+    "Asset Library: Save and manage your generated artwork.",
+    "Community Gallery: Share and explore creations from other users."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Leonardo.Ai",
+      "description": "Create an account and log in to the Leonardo.Ai dashboard.",
+      "links": [
+        {
+          "label": "Leonardo.Ai",
+          "url": "https://leonardo.ai"
+        }
+      ]
+    },
+    {
+      "title": "Enter Prompt & Customize",
+      "description": "Input a text prompt, select styles, and adjust modifiers for your image."
+    },
+    {
+      "title": "Generate & Save Artwork",
+      "description": "Generate images in batches, then save, manage, or share them in your asset library."
+    },
+    {
+      "title": "Explore Community Gallery",
+      "description": "Browse and interact with other users' creations for inspiration."
+    }
+  ]
+}

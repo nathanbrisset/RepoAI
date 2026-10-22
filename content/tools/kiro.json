@@ -1,0 +1,57 @@
+{
+  "id": "kiro",
+  "name": "Kiro",
+  "url": "https://kiro.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AWS-backed agentic IDE that turns prompts into specifications, then plans and writes code.",
+  "description": "Kiro is an agentic development environment from AWS. It converts prompts into executable specifications, checks code correctness to find bugs that unit tests miss and runs parallel agents across large codebases. Users sign in with social login or an AWS Builder ID. Kiro Free includes 50 credits per month; Pro costs $20 per user per month with 1,000 credits, Pro+ $40, and extra credits cost $0.04 each.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ide",
+    "spec-driven",
+    "agents",
+    "aws"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$20/user/mo (Pro)",
+    "sourceUrl": "https://kiro.dev/pricing"
+  },
+  "logo": "https://kiro.dev/icon.svg?fe599162bb293ea0",
+  "image": "/screenshots/kiro.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://kiro.dev/",
+    "https://kiro.dev/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kiro and sign in",
+      "description": "Open Kiro and choose Download Kiro, or install the CLI. Sign in with social login or an AWS Builder ID. This agentic development environment comes from AWS.",
+      "links": [
+        {
+          "label": "Kiro",
+          "url": "https://kiro.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Turn a prompt into specifications",
+      "description": "Give Kiro a prompt. It converts prompts into executable specifications, with requirements, a design, and sequenced tasks, then implements them."
+    },
+    {
+      "title": "Check correctness past the unit tests",
+      "description": "Have Kiro check code correctness. Property-based tests look for bugs that unit tests miss."
+    },
+    {
+      "title": "Run parallel agents and watch credits",
+      "description": "Run parallel agents across a large codebase, on your machine or in the cloud. Kiro Free includes 50 credits per month. Pro costs $20 per user per month with 1,000 credits, Pro+ costs $40, and extra credits cost $0.04 each. The page also offers a $20 credit when you first sign up for a paid plan with social login or a Builder ID."
+    }
+  ]
+}

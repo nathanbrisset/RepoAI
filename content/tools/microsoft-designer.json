@@ -1,0 +1,52 @@
+{
+  "id": "microsoft-designer",
+  "name": "Microsoft Designer",
+  "url": "https://designer.microsoft.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Microsoft's AI graphic design app for social posts, invitations, cards and other graphics.",
+  "description": "Microsoft Designer is a graphic design app that creates social media posts, invitations, digital postcards and other graphics. Users start from an idea written in plain language, and the app generates images and layouts that can then be edited. The main page did not render readable content to automated checks during this review, so details are taken from the site's metadata, and no pricing information could be confirmed.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "graphic-design",
+    "social-media",
+    "microsoft",
+    "image-generation"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "Microsoft's Designer page says each account gets monthly credits, and that Microsoft 365 Personal, Family or Premium provides up to four times more credits.",
+    "sourceUrl": "https://www.microsoft.com/en-us/microsoft-365/microsoft-designer"
+  },
+  "logo": "https://res.public.onecdn.static.microsoft/designer/client/prod/static/media/designer-logo-192.png",
+  "image": "/screenshots/microsoft-designer.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://designer.microsoft.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Microsoft Designer",
+      "description": "Open Microsoft Designer, the graphic design app for social media posts, invitations, digital postcards and other graphics.",
+      "links": [
+        {
+          "label": "Microsoft Designer",
+          "url": "https://designer.microsoft.com/"
+        }
+      ]
+    },
+    {
+      "title": "Start from plain language",
+      "description": "Start from an idea written in plain language so the app has a brief for the graphic."
+    },
+    {
+      "title": "Generate images and layouts",
+      "description": "Wait while Microsoft Designer generates images and layouts from that idea, then edit them until the post, invitation or postcard is ready."
+    }
+  ]
+}

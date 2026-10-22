@@ -1,0 +1,52 @@
+{
+  "id": "ada-health",
+  "name": "Ada Health",
+  "url": "https://ada.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI symptom assessment app for consumers, with enterprise solutions for health partners.",
+  "description": "Ada offers an AI symptom assessment, developed with clinicians, that asks questions and suggests possible causes and next steps. It also runs a medical library and sells enterprise solutions to health and care partners. The site is available in several languages. No pricing page was found. Its assessment is presented as optimised by clinicians, and the app is offered in languages including English, German, Spanish, Swahili, Portuguese and Romanian.",
+  "categories": [
+    "health"
+  ],
+  "tags": [
+    "symptom-checker",
+    "medical-library",
+    "consumer-health"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "free",
+    "label": "Free",
+    "note": "Ada's terms describe the symptom assessment as free. No consumer price was published. Enterprise solutions for health partners have no public price on the pages checked on 22 October 2026.",
+    "sourceUrl": "https://ada.com/us/terms-and-conditions/"
+  },
+  "logo": "https://ada.com/safari-pinned-tab.svg",
+  "image": "/screenshots/ada-health.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://ada.com/",
+    "https://ada.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Ada Health",
+      "description": "Go to Ada Health and choose Start symptom assessment. The assessment is optimised by clinicians and asks questions about symptoms.",
+      "links": [
+        {
+          "label": "Ada Health",
+          "url": "https://ada.com/"
+        }
+      ]
+    },
+    {
+      "title": "Follow the questions",
+      "description": "Answer until Ada suggests possible causes and next steps. You can also download the app, which is offered in several languages."
+    },
+    {
+      "title": "Read the library or talk to partners",
+      "description": "Browse the medical library for conditions and symptoms, or open For partners for enterprise solutions aimed at health and care partners. Language options include English, German, Spanish, Swahili, Portuguese and Romanian."
+    }
+  ]
+}

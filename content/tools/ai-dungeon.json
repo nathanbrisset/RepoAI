@@ -1,0 +1,58 @@
+{
+  "id": "ai-dungeon",
+  "name": "AI Dungeon",
+  "url": "https://aidungeon.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-powered text adventure game and storytelling platform.",
+  "description": "AI-powered text adventure game and storytelling platform.\n\nInteractive Storytelling: Generates dynamic narratives based on user input. Custom Adventures: Allows creation of personalized story scenarios. Multiplayer Mode: Enables collaborative storytelling with others. AI-Driven Characters: Features characters that respond intelligently to interactions.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "gaming",
+    "storytelling",
+    "creative"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/ai-dungeon.png",
+  "image": "/screenshots/ai-dungeon.webp",
+  "dateAdded": "2022-01-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Interactive Storytelling: Generates dynamic narratives based on user input.",
+    "Custom Adventures: Allows creation of personalized story scenarios.",
+    "Multiplayer Mode: Enables collaborative storytelling with others.",
+    "AI-Driven Characters: Features characters that respond intelligently to interactions."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up or Log In",
+      "description": "Create an account at AI Dungeon.",
+      "links": [
+        {
+          "label": "AI Dungeon",
+          "url": "https://aidungeon.com/"
+        }
+      ]
+    },
+    {
+      "title": "Start or Join Adventure",
+      "description": "Pick or create a scenario and begin your interactive story."
+    },
+    {
+      "title": "Interact and Guide Story",
+      "description": "Type actions or dialogue to shape the narrative."
+    },
+    {
+      "title": "Share and Replay",
+      "description": "Share your stories or replay to explore different outcomes."
+    }
+  ],
+  "statusNote": "aidungeon.io redirects to aidungeon.com"
+}

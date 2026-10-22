@@ -1,0 +1,51 @@
+{
+  "id": "duolingo",
+  "name": "Duolingo",
+  "url": "https://www.duolingo.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Gamified language-learning app built around short lessons.",
+  "description": "Duolingo is a language-learning app that teaches through short, gamified lessons on mobile and the web. Features, plans and prices should be checked again once the site is back online, since none could be read during this review.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "language-learning",
+    "gamification",
+    "mobile-apps"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "The official Super page lists a Free plan and paid Super and Super Family plans, with a one-week trial. Dollar prices are not printed on that page.",
+    "sourceUrl": "https://www.duolingo.com/super"
+  },
+  "logo": "https://d35aaqx5ub95lt.cloudfront.net/images/duolingo-touch-icon2.png",
+  "image": "/screenshots/duolingo.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://www.duolingo.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Duolingo",
+      "description": "Go to Duolingo, the language-learning app, on mobile or on the web.",
+      "links": [
+        {
+          "label": "Duolingo",
+          "url": "https://www.duolingo.com/"
+        }
+      ]
+    },
+    {
+      "title": "Take a short lesson",
+      "description": "Work through short, gamified lessons. That is how the app teaches the language."
+    },
+    {
+      "title": "Recheck prices later",
+      "description": "Once the site is back online, check prices again, because none could be read during this review."
+    }
+  ]
+}

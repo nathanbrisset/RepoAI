@@ -1,0 +1,56 @@
+{
+  "id": "starcoder",
+  "name": "StarCoder",
+  "url": "https://huggingface.co/blog/starcoder",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+  "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.\n\nOpen-source model: Accessible and modifiable by developers. Code completion: Suggests code snippets as you type. Supports multiple languages: Handles various programming languages. Community-driven: Developed and maintained by the community.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "open-source",
+    "code-completion"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/starcoder.png",
+  "image": "/screenshots/starcoder.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Open-source model: Accessible and modifiable by developers.",
+    "Code completion: Suggests code snippets as you type.",
+    "Supports multiple languages: Handles various programming languages.",
+    "Community-driven: Developed and maintained by the community."
+  ],
+  "howToUse": [
+    {
+      "title": "Access StarCoder Model",
+      "description": "Find and use StarCoder via the HuggingFace Model Hub or integrate with open-source LLM platforms.",
+      "links": [
+        {
+          "label": "StarCoder on HuggingFace",
+          "url": "https://huggingface.co/blog/starcoder"
+        }
+      ]
+    },
+    {
+      "title": "Integrate with Coding Tools",
+      "description": "Use provided APIs, CLI tools, or plugins to connect StarCoder to your IDE or workflow."
+    },
+    {
+      "title": "Prompt for Code",
+      "description": "Type code or prompts to receive code completions or suggestions in supported programming languages."
+    },
+    {
+      "title": "Customize & Extend",
+      "description": "Modify the open-source model or contribute to the community for new features and language support."
+    }
+  ]
+}

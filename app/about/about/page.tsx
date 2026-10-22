@@ -1,6 +1,11 @@
 import { ArrowRight, CheckCircle } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { metadataFor } from "@/lib/i18n/metadata"
+
+export function generateMetadata() {
+  return metadataFor("/about/about")
+}
 
 export default function AboutPage() {
   return (
@@ -29,10 +34,6 @@ export default function AboutPage() {
             <li className="flex items-start">
               <CheckCircle className="h-6 w-6 text-purple-600 mr-2 flex-shrink-0" />
               <span>Detailed information about each tool's features and capabilities</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="h-6 w-6 text-purple-600 mr-2 flex-shrink-0" />
-              <span>User reviews and ratings to help you make informed decisions</span>
             </li>
             <li className="flex items-start">
               <CheckCircle className="h-6 w-6 text-purple-600 mr-2 flex-shrink-0" />

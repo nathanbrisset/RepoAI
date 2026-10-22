@@ -1,0 +1,66 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/devin.png",
+  "image": "/screenshots/devin.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "devin",
+  "name": "Devin (incl. Windsurf)",
+  "url": "https://devin.ai/",
+  "summary": "Cognition's AI software engineer and Windsurf AI code editor.",
+  "description": "Devin, from Cognition, is an autonomous AI software engineer that runs parallel cloud agents to plan, write and ship code. Cognition also owns the Windsurf AI code editor: windsurf.com now redirects to devin.ai/desktop, which manages local and cloud agents from the editor. The Free plan ($0) gives a light quota, Pro costs $20/month, Max $200/month and Teams $80/month plus $40 per developer seat.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "coding-agent",
+    "ai-code-editor",
+    "ide",
+    "windsurf"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Devin, from Cognition, is an autonomous AI software engineer that runs parallel cloud agents to plan, write and ship code. The Free plan ($0) gives a light quota, Pro costs $20/month, Max $200/month and Teams $80/month plus $40 per developer seat.",
+    "sourceUrl": "https://devin.ai/pricing"
+  },
+  "sources": [
+    "https://devin.ai/pricing",
+    "https://devin.ai/",
+    "https://devin.ai/desktop"
+  ],
+  "howToUse": [
+    {
+      "title": "Get started",
+      "description": "The homepage says to get started. Devin runs in the cloud or on your machine.",
+      "links": [
+        {
+          "label": "Devin",
+          "url": "https://devin.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Give it the engineering task",
+      "description": "The page says Devin tests in its own browser and continues until the pull request is ready to merge.",
+      "links": [
+        {
+          "label": "Sign up",
+          "url": "https://app.devin.ai/auth/signup"
+        }
+      ]
+    },
+    {
+      "title": "Review the pull request",
+      "description": "The homepage frames the work as going from the problem to a merged pull request.",
+      "links": [
+        {
+          "label": "Devin docs",
+          "url": "https://docs.devin.ai/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "gong",
+  "name": "Gong",
+  "url": "https://www.gong.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Revenue AI platform that analyses customer interactions to forecast pipeline and coach sales teams.",
+  "description": "Gong records and analyses calls, emails and other customer interactions and uses them to forecast pipeline, flag deal risk, automate handoffs, coach reps and predict churn, with specialised AI agents. The company states it is named a Leader in the 2026 Gartner Magic Quadrant for Revenue Action Orchestration. Pricing is customised through sales. It is aimed at revenue teams across sales, customer success and enablement.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "revenue-intelligence",
+    "call-recording",
+    "forecasting",
+    "agents"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": true,
+    "sourceUrl": "https://www.gong.io/pricing"
+  },
+  "logo": "https://www.gong.io/marketing-assets/favicon.svg",
+  "image": "/screenshots/gong.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.gong.io/",
+    "https://www.gong.io/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Book a demo or sign in",
+      "description": "Open Gong and book a demo, or sign in if the team already has access. Pricing is arranged with sales.",
+      "links": [
+        {
+          "label": "Gong",
+          "url": "https://www.gong.io/"
+        }
+      ]
+    },
+    {
+      "title": "Connect the calls and the email",
+      "description": "Let Gong record the customer calls, emails, and the other interactions the revenue team already has."
+    },
+    {
+      "title": "Read the deal signals",
+      "description": "Use the pipeline forecast, the deal-risk flags, and the churn prediction on those conversations."
+    },
+    {
+      "title": "Hand the next step to an agent",
+      "description": "Use a specialised agent to coach a rep or to run the handoff after a call."
+    }
+  ]
+}

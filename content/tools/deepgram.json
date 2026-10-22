@@ -1,0 +1,52 @@
+{
+  "id": "deepgram",
+  "name": "Deepgram",
+  "url": "https://deepgram.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Speech-to-text, text-to-speech and voice agent APIs for developers and enterprises.",
+  "description": "Deepgram provides APIs for speech-to-text, text-to-speech and voice agents. Its Flux models are designed for conversation, handling turn-taking and interruptions. New accounts receive $200 of free credit without a card, after which usage is billed pay-as-you-go with no minimums; growth plans start with annual commitments, and enterprise plans are custom. Products are offered as APIs for developers and as enterprise deployments with SLAs.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "stt",
+    "tts",
+    "voice-agents",
+    "api"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": true,
+    "sourceUrl": "https://deepgram.com/pricing"
+  },
+  "logo": "https://deepgram.com/favicon.ico?93834efdfdd5438d",
+  "image": "/screenshots/deepgram.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://deepgram.com/",
+    "https://deepgram.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Deepgram",
+      "description": "Go to Deepgram and sign up. New accounts receive $200 of credit without a card.",
+      "links": [
+        {
+          "label": "Deepgram",
+          "url": "https://deepgram.com/"
+        }
+      ]
+    },
+    {
+      "title": "Call the speech APIs",
+      "description": "Call the speech-to-text, text-to-speech and voice agent APIs that Deepgram provides. Flux models are designed for conversation, with handling for turn-taking and interruptions."
+    },
+    {
+      "title": "Pick pay-as-you-go or a commitment",
+      "description": "After the credit, usage is billed pay-as-you-go and there are no minimums. Growth plans start once annual commitments are in place, and the enterprise offering is custom. The products are offered as APIs for developers and as enterprise deployments."
+    }
+  ]
+}

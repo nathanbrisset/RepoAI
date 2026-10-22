@@ -1,0 +1,64 @@
+{
+  "id": "videoleap",
+  "name": "VideoLeap by Lightricks",
+  "url": "https://www.videoleapapp.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "VideoLeap is a mobile video editing app with AI-powered effects, auto-cutting, and enhancement tools for quick, high-quality video creation.",
+  "description": "VideoLeap is a mobile video editing app with AI-powered effects, auto-cutting, and enhancement tools for quick, high-quality video creation.\n\nCreate standout videos with Videoleap, your intuitive video editor and video maker. Explore premade templates, advanced features, and AI tools. Start today.\n\nAI-powered effects: Instantly enhance footage and apply creative filters and transitions with a tap. Auto-cut and montage: Automatically find and assemble the best clips for polished, professional videos. Layered editing: Combine video clips, images, and soundtracks with advanced compositing tools. Mobile-first: Edit and publish on the go with full-featured apps for iOS and Android devices.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "mobile",
+    "editing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/videoleap.png",
+  "image": "/screenshots/videoleap.webp",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "AI-powered effects: Instantly enhance footage and apply creative filters and transitions with a tap.",
+    "Auto-cut and montage: Automatically find and assemble the best clips for polished, professional videos.",
+    "Layered editing: Combine video clips, images, and soundtracks with advanced compositing tools.",
+    "Mobile-first: Edit and publish on the go with full-featured apps for iOS and Android devices."
+  ],
+  "howToUse": [
+    {
+      "title": "Download VideoLeap App",
+      "description": "Download and install VideoLeap from the App Store (iOS) or Google Play (Android). Launch the app on your mobile device.",
+      "links": [
+        {
+          "label": "VideoLeap App",
+          "url": "https://www.videoleapapp.com"
+        }
+      ]
+    },
+    {
+      "title": "Start a New Project",
+      "description": "Tap the '+' button to create a new project. Import your video clips, photos, or audio from your device."
+    },
+    {
+      "title": "Edit with AI Tools",
+      "description": "Use AI-powered effects, auto-cut, and montage tools to enhance and assemble your video. Apply filters, transitions, and creative overlays."
+    },
+    {
+      "title": "Arrange Clips and Layers",
+      "description": "Drag and drop video clips, images, and soundtracks onto the timeline. Use advanced layering and compositing options as needed."
+    },
+    {
+      "title": "Preview and Adjust",
+      "description": "Preview your edit in real time. Trim, split, or reorder clips, and adjust colors, speed, or effects."
+    },
+    {
+      "title": "Export and Share",
+      "description": "Export your finished video in high resolution. Share directly to social media or save to your device."
+    }
+  ]
+}

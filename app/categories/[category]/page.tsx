@@ -1,13 +1,14 @@
 import { categories, mockTools } from "@/lib/data"
-import { Badge } from "@/components/ui/badge"
-import Link from "next/link"
-import Image from "next/image"
-import { Star, ExternalLink } from "lucide-react"
-import ToolCard from "@/components/tool-card"
 import BackButton from "./BackButton"
 import { notFound } from "next/navigation"
-import { useState } from "react"
 import PricingToolsGrid from "./PricingToolsGrid"
+import { getLocale } from "@/lib/i18n/get-locale"
+import { toolForLocale } from "@/lib/i18n/localize-tool"
+import { categoryCopy } from "@/lib/i18n/messages"
+import { metadataFor } from "@/lib/i18n/metadata"
+
+// Unknown slugs are not rendered. The middleware rewrites them to a missing route.
+export const dynamicParams = false
 
 // Generate static paths for all categories
 export async function generateStaticParams() {
@@ -16,13 +17,15 @@ export async function generateStaticParams() {
   }))
 }
 
-function capitalizeWords(str: string) {
-  return str.replace(/\b\w/g, c => c.toUpperCase());
-}
-
 type PageProps = {
   params: Promise<{ category: string }>
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+}
+
+export async function generateMetadata(props: PageProps) {
+  const { category } = await props.params
+  if (!categories.some((item) => item.id === category)) notFound()
+  return metadataFor(`/categories/${category}`)
 }
 
 export default async function CategoryPage(props: PageProps) {
@@ -37,22 +40,23 @@ export default async function CategoryPage(props: PageProps) {
     notFound();
   }
 
+  const locale = await getLocale()
+  const copy = categoryCopy(locale, categoryObj.id) || categoryObj
+
   // Get tools in this category
-  const tools = mockTools.filter(tool => tool.categories.includes(categoryObj.id));
+  const pricing = Array.isArray(searchParams.pricing) ? searchParams.pricing[0] : searchParams.pricing
+  const tools = mockTools
+    .filter((tool) => tool.categories.includes(categoryObj.id))
+    .map((tool) => toolForLocale(tool, locale))
 
   return (
     <div className="container py-8 space-y-8">
       <BackButton />
-      <h1 className="text-4xl font-extrabold mb-4 text-purple-700 drop-shadow-sm">{categoryObj.name}</h1>
+      <h1 className="text-4xl font-extrabold mb-4 text-purple-700 drop-shadow-sm">{copy.name}</h1>
       <div className="bg-gradient-to-r from-gray-100 via-gray-50 to-gray-200 rounded-xl p-6 mb-8 shadow-md border border-gray-200">
-        <p className="text-lg text-gray-800 leading-relaxed">
-          <span className="font-semibold text-purple-700">{categoryObj.description}</span>
-          {categoryObj.about && (
-            <span> <span className="font-semibold text-gray-700">{categoryObj.about}</span></span>
-          )}
-        </p>
+        <p className="text-lg text-gray-800 leading-relaxed">{copy.description}</p>
       </div>
-      <PricingToolsGrid tools={tools} />
+      <PricingToolsGrid tools={tools} initialPricing={pricing ?? null} />
     </div>
   );
 }

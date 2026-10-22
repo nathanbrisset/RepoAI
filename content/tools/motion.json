@@ -1,0 +1,57 @@
+{
+  "id": "motion",
+  "name": "Motion",
+  "url": "https://www.usemotion.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Motion is the #1 Rated Productivity Platform for the AI Era. AI Projects, AI Tasks, AI Calendar, AI Meetings, AI Docs, AI Notes, AI Reports, AI Workflows, and more.",
+  "description": "Motion is the #1 Rated Productivity Platform for the AI Era. AI Projects, AI Tasks, AI Calendar, AI Meetings, AI Docs, AI Notes, AI Reports, AI Workflows, and more.\n\nAI Scheduler: Automatically prioritizes and schedules tasks on your calendar. Meeting Booking: Handles meeting coordination with smart availability. Task Rescheduling: Dynamically shifts tasks based on deadlines. Focus Time: Protects time for deep work using calendar blocking.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "scheduling",
+    "automation"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "Listed Free; usemotion.com/pricing: $19 and $29/seat/month with free trial",
+    "sourceUrl": "https://usemotion.com/pricing"
+  },
+  "logo": "/logos/motion.png",
+  "image": "/screenshots/motion.webp",
+  "dateAdded": "2023-09-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI Scheduler: Automatically prioritizes and schedules tasks on your calendar.",
+    "Meeting Booking: Handles meeting coordination with smart availability.",
+    "Task Rescheduling: Dynamically shifts tasks based on deadlines.",
+    "Focus Time: Protects time for deep work using calendar blocking."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Connect Calendar",
+      "description": "Register on Motion and integrate your existing calendars.",
+      "links": [
+        {
+          "label": "Motion",
+          "url": "https://www.usemotion.com"
+        }
+      ]
+    },
+    {
+      "title": "Add Tasks & Preferences",
+      "description": "Input tasks and set preferences for focus, deadlines, and meetings."
+    },
+    {
+      "title": "Let AI Schedule",
+      "description": "Allow Motion to automatically organize your calendar."
+    },
+    {
+      "title": "Adjust & Track",
+      "description": "Review, reschedule, and track productivity as needed."
+    }
+  ]
+}

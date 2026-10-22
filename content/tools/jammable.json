@@ -1,0 +1,57 @@
+{
+  "id": "jammable",
+  "name": "Jammable",
+  "url": "https://www.jammable.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A platform for creating AI-generated music and voice covers with a library of celebrity voice models.",
+  "description": "A platform for creating AI-generated music and voice covers with a library of celebrity voice models.\n\nCreate AI covers in seconds with Jammable, with thousands of community uploaded AI voice models available for creative use now!\n\nAI audio processing: Jammable supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "audio",
+    "speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/jammable.png",
+  "image": "/screenshots/jammable.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "AI audio processing: Jammable supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Register & Log In",
+      "description": "Sign up and access the Jammable platform.",
+      "links": [
+        {
+          "label": "Jammable",
+          "url": "https://jammable.com"
+        }
+      ]
+    },
+    {
+      "title": "Choose Models & Create",
+      "description": "Select voice models or music templates and generate AI audio content."
+    },
+    {
+      "title": "Edit & Customize",
+      "description": "Use built-in tools to further edit and personalize songs or covers."
+    },
+    {
+      "title": "Download & Share",
+      "description": "Export your creations or share them on social platforms."
+    }
+  ]
+}

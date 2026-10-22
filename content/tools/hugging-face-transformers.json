@@ -1,0 +1,52 @@
+{
+  "id": "hugging-face-transformers",
+  "name": "Hugging Face Transformers",
+  "url": "https://huggingface.co/docs/transformers/index",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+  "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.\n\nPretrained Models: Access to a wide range of pretrained models for NLP tasks. Easy Integration: Simple APIs for incorporating models into applications. Support for Multiple Frameworks: Compatible with TensorFlow and PyTorch. Community Contributions: Active community providing models and support.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "nlp",
+    "transformers"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/hugging-face-transformers.png",
+  "image": "/screenshots/hugging-face-transformers.webp",
+  "dateAdded": "2023-09-01",
+  "lastVerified": null,
+  "features": [
+    "Pretrained Models: Access to a wide range of pretrained models for NLP tasks.",
+    "Easy Integration: Simple APIs for incorporating models into applications.",
+    "Support for Multiple Frameworks: Compatible with TensorFlow and PyTorch.",
+    "Community Contributions: Active community providing models and support."
+  ],
+  "howToUse": [
+    {
+      "title": "Install Transformers",
+      "description": "Install via pip and explore documentation and model hub.",
+      "links": [
+        {
+          "label": "Hugging Face Transformers",
+          "url": "https://huggingface.co/docs/transformers"
+        }
+      ]
+    },
+    {
+      "title": "Load Pretrained Models",
+      "description": "Use simple APIs to load models for tasks like text classification, translation, and more."
+    },
+    {
+      "title": "Fine-Tune or Deploy",
+      "description": "Fine-tune models on your data or deploy to production environments."
+    }
+  ]
+}

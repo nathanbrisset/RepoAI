@@ -1,0 +1,52 @@
+{
+  "id": "refact-ai",
+  "name": "Refact.ai",
+  "url": "https://refact.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI Agent for Coding - Refact.ai adapts to your workflow, automating coding, debugging, and testing with full context awareness. An open-source alternative to Cursor and Copilot, Refact.ai can be deployed on-premise.",
+  "description": "AI Agent for Coding - Refact.ai adapts to your workflow, automating coding, debugging, and testing with full context awareness. An open-source alternative to Cursor and Copilot, Refact.ai can be deployed on-premise.\n\nReal-time suggestions: Offers inline coding help. Supports major IDEs: Integration with JetBrains and VS Code. Secure development: Runs locally for sensitive projects. Custom prompts: Generate specific code with natural input.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "code-refactoring",
+    "ide-plugin"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/refact-ai.png",
+  "image": "/screenshots/refact-ai.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Real-time suggestions: Offers inline coding help.",
+    "Supports major IDEs: Integration with JetBrains and VS Code.",
+    "Secure development: Runs locally for sensitive projects.",
+    "Custom prompts: Generate specific code with natural input."
+  ],
+  "howToUse": [
+    {
+      "title": "Install Refact.ai Plugin",
+      "description": "Add Refact.ai to your JetBrains IDE or VS Code.",
+      "links": [
+        {
+          "label": "Refact.ai",
+          "url": "https://refact.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Use Inline Suggestions",
+      "description": "Get real-time code suggestions and refactoring help as you type."
+    },
+    {
+      "title": "Customize Prompts",
+      "description": "Write custom prompts to generate or refactor code for specific needs."
+    }
+  ]
+}

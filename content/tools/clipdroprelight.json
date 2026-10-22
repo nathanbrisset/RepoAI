@@ -1,0 +1,64 @@
+{
+  "id": "clipdroprelight",
+  "name": "ClipDrop Relight",
+  "url": "https://clipdrop.co/relight",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "ClipDrop Relight uses AI to relight and edit video scenes, enhancing visuals without reshooting. Perfect for post-production and creative projects.",
+  "description": "ClipDrop Relight uses AI to relight and edit video scenes, enhancing visuals without reshooting. Perfect for post-production and creative projects.\n\nRelight your photos automatically with AI\n\nAI relighting: Change the lighting conditions in your video after filming, adding drama or correcting bad lighting. Color grading: Instantly adjust the mood, tone, and color palette for a polished professional look. Object removal: Effortlessly erase unwanted elements from your shots without complex editing skills. Web-based editor: Edit videos in the cloud, with no need for high-powered local hardware.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "relighting",
+    "editing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/clipdroprelight.png",
+  "image": "/screenshots/clipdroprelight.webp",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "AI relighting: Change the lighting conditions in your video after filming, adding drama or correcting bad lighting.",
+    "Color grading: Instantly adjust the mood, tone, and color palette for a polished professional look.",
+    "Object removal: Effortlessly erase unwanted elements from your shots without complex editing skills.",
+    "Web-based editor: Edit videos in the cloud, with no need for high-powered local hardware."
+  ],
+  "howToUse": [
+    {
+      "title": "Go to ClipDrop Relight",
+      "description": "Visit ClipDrop’s Relight tool online. No installation is needed; all editing is done in the browser.",
+      "links": [
+        {
+          "label": "ClipDrop Relight",
+          "url": "https://clipdrop.co/relight"
+        }
+      ]
+    },
+    {
+      "title": "Upload Your Video or Image",
+      "description": "Click 'Upload' and select the video or image file you want to relight or enhance."
+    },
+    {
+      "title": "Adjust Lighting",
+      "description": "Use the relight controls to add, move, or adjust virtual light sources. Instantly see the effect on your scene."
+    },
+    {
+      "title": "Apply Color Grading and Effects",
+      "description": "Experiment with color grading sliders and filters to achieve the desired mood and style."
+    },
+    {
+      "title": "Remove Objects (Optional)",
+      "description": "If needed, use the object removal tool to erase unwanted elements from your video or image."
+    },
+    {
+      "title": "Preview & Download",
+      "description": "Preview your enhanced video or image. Download the result in your chosen format directly from the web editor."
+    }
+  ]
+}

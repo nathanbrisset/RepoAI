@@ -1,0 +1,59 @@
+{
+  "id": "playht",
+  "name": "Play.ht",
+  "url": "https://www.play.ht",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "Text-to-speech service whose domain no longer resolves.",
+  "description": "Play.ht was a text-to-speech product. On 21 October 2026, www.play.ht had no DNS address. A third-party shutdown list dates the closure to 31 December 2025. This pass did not open a vendor notice.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "ai",
+    "audio",
+    "speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "No live site, so the old price was not rechecked."
+  },
+  "logo": "",
+  "image": "/tool-screenshots/playht.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI audio processing: Play.ht supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Create Account & Log In",
+      "description": "Sign up on Play.ht and access the dashboard.",
+      "links": [
+        {
+          "label": "Play.ht",
+          "url": "https://www.play.ht"
+        }
+      ]
+    },
+    {
+      "title": "Input Text",
+      "description": "Paste or type the text you want converted to speech."
+    },
+    {
+      "title": "Select Voice & Language",
+      "description": "Choose from 800+ AI voices in different languages."
+    },
+    {
+      "title": "Generate & Download Audio",
+      "description": "Listen to, edit, and download your generated audio."
+    }
+  ],
+  "statusNote": "Web search: Meta acquired PlayHT (MarketScreener/S&P, Jul 12 2025); Inworld migration guide: all products closed Dec 31 2025; box: play.ht does not resolve"
+}

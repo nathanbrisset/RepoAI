@@ -1,0 +1,53 @@
+{
+  "id": "attio",
+  "name": "Attio",
+  "url": "https://attio.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Flexible CRM with a custom data model, enrichment, call intelligence, workflows and AI agents.",
+  "description": "Attio is a CRM built on a configurable data model that syncs email and calendar, enriches records automatically, records and analyses calls, and runs workflows and custom AI agents. Reports and forecasts update in real time. The Free plan covers up to three seats; Plus costs $35 per user per month billed annually ($44 monthly), and Pro $79 ($99 monthly).",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "crm",
+    "data-model",
+    "enrichment",
+    "workflows"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$35/user/mo (Plus, annual)",
+    "sourceUrl": "https://attio.com/pricing"
+  },
+  "logo": "https://attio.com/favicon.ico?favicon.0t61hvyp-jaev.ico",
+  "image": "/screenshots/attio.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://attio.com/",
+    "https://attio.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Attio",
+      "description": "Go to Attio and choose Start for free. The Free plan covers up to three seats on this CRM.",
+      "links": [
+        {
+          "label": "Attio",
+          "url": "https://attio.com/"
+        }
+      ]
+    },
+    {
+      "title": "Sync and enrich records",
+      "description": "Point Attio at email and calendar. It syncs them into the configurable data model and enriches records automatically."
+    },
+    {
+      "title": "Analyse calls and run agents",
+      "description": "Record calls so Attio analyses them, run workflows and custom AI agents, and read reports and forecasts that update in real time. Plus is $35 per user each month when billed annually, or $44 monthly. Pro is $79 on the annual bill, or $99 monthly."
+    }
+  ]
+}

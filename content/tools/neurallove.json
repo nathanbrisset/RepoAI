@@ -1,0 +1,65 @@
+{
+  "id": "neurallove",
+  "name": "Neural.love Video Enhancer",
+  "url": "https://neural.love/video",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Neural.love offers AI-powered upscaling, colorization, and restoration for old or damaged video footage, making your archives shine.",
+  "description": "Neural.love offers AI-powered upscaling, colorization, and restoration for old or damaged video footage, making your archives shine.\n\nThe video enhancer page is titled AI Video Enhancer. It lists 4K upscaling, an FPS boost, colorization, and facial restoration. The old /video-enhancer path is not a route of the site and returns 404 after the app loads.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "upscaling",
+    "restoration"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/neurallove.png",
+  "image": "/screenshots/neurallove.webp",
+  "dateAdded": "2025-06-13",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "4K upscaling.",
+    "FPS boost.",
+    "Colorization.",
+    "Facial restoration."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up",
+      "description": "Open the AI Video Enhancer and sign up.",
+      "links": [
+        {
+          "label": "AI Video Enhancer",
+          "url": "https://neural.love/video"
+        }
+      ]
+    },
+    {
+      "title": "Upload a video",
+      "description": "Upload a file. The page lists MOV, MP4, MKV, AVI, and more."
+    },
+    {
+      "title": "Choose enhancements",
+      "description": "The page offers 4K upscaling, an FPS boost, colorization, and facial restoration."
+    },
+    {
+      "title": "Preview",
+      "description": "Preview the result before processing the full file."
+    },
+    {
+      "title": "Process in the cloud",
+      "description": "The page says the video is processed in the cloud."
+    },
+    {
+      "title": "Download",
+      "description": "Download the result as MP4 (H264) or MOV (ProRes 422)."
+    }
+  ],
+  "statusNote": "https://neural.love/video-enhancer is not a current route (404 after the app loads). The video enhancer is https://neural.love/video."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "qlik",
+  "name": "Qlik",
+  "url": "https://www.qlik.com/us",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Qlik is a leading business intelligence and data analytics platform that empowers organizations to explore and analyze data interactively. Qlik's associative engine enables users to discover insights through dynamic dashboards, reports, and visualizations. Qlik supports data integration from diverse sources, embedded AI for advanced analytics, and collaborative features for sharing findings. It is trusted by enterprises worldwide for self-service analytics, guided analytics, and embedded BI solutions.",
+  "description": "Qlik is a leading business intelligence and data analytics platform that empowers organizations to explore and analyze data interactively. Qlik's associative engine enables users to discover insights through dynamic dashboards, reports, and visualizations. Qlik supports data integration from diverse sources, embedded AI for advanced analytics, and collaborative features for sharing findings. It is trusted by enterprises worldwide for self-service analytics, guided analytics, and embedded BI solutions.\n\nQlik, now with Talend, delivers a data fabric and next-level insights with its end-to-end data integration, data quality, & analytics solutions.\n\nAssociative Analytics Engine: Enables dynamic data exploration and discovery. Interactive Dashboards: Real-time insights and customizable reports. Data Integration: Connects to a wide variety of data sources. Built-In AI: Features for predictive analytics and insights.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "business-intelligence",
+    "dashboards",
+    "analytics"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/qlik.png",
+  "image": "/screenshots/qlik.webp",
+  "dateAdded": null,
+  "lastVerified": null,
+  "dateAddedNote": "The previous Added date was 2012-03-01. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Associative Analytics Engine: Enables dynamic data exploration and discovery.",
+    "Interactive Dashboards: Real-time insights and customizable reports.",
+    "Data Integration: Connects to a wide variety of data sources.",
+    "Built-In AI: Features for predictive analytics and insights.",
+    "Collaboration: Tools for sharing and storytelling with analytics."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Qlik Cloud",
+      "description": "Create a Qlik account and log in to the Qlik Cloud platform.",
+      "links": [
+        {
+          "label": "Qlik",
+          "url": "https://www.qlik.com"
+        }
+      ]
+    },
+    {
+      "title": "Connect to Data Sources",
+      "description": "Import data from databases, cloud storage, or files."
+    },
+    {
+      "title": "Build Visualizations",
+      "description": "Use the associative engine and drag-and-drop dashboard editor to create interactive reports."
+    },
+    {
+      "title": "Share & Collaborate",
+      "description": "Share dashboards and insights with your team or organization."
+    }
+  ]
+}

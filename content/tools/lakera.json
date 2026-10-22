@@ -1,0 +1,56 @@
+{
+  "id": "lakera",
+  "name": "Lakera",
+  "url": "https://www.lakera.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Security platform protecting generative AI applications and agents from prompt attacks and data leaks.",
+  "description": "Lakera provides runtime security for generative AI: it screens prompts and responses for prompt injection, data leakage and harmful content, governs employee AI usage and secures AI agents. It also offers AI red teaming as a product and a service. The Community plan is free at $0 per month for a limited number of requests; enterprise pricing is by contact.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "llm-security",
+    "prompt-injection",
+    "red-teaming",
+    "guardrails"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.lakera.ai/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/65080baa3f9a607985451de3/6526f98447db0b4b7b22493e_Lakera-Symbol-Black-256.png",
+  "image": "/screenshots/lakera.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.lakera.ai/",
+    "https://www.lakera.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Lakera",
+      "description": "Open Lakera and choose Get Started or Start for free. Community is $0 each month and covers a limited number of requests. For enterprise pricing, contact Lakera or book a demo.",
+      "links": [
+        {
+          "label": "Lakera",
+          "url": "https://www.lakera.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Screen prompts and responses",
+      "description": "Use the runtime security for generative AI. It screens prompts and responses for prompt injection, data leakage, and harmful content."
+    },
+    {
+      "title": "Govern employee usage and secure agents",
+      "description": "Govern employee AI usage, and secure AI agents in your applications. The page describes real-time threat detection and data leakage protection for those agents."
+    },
+    {
+      "title": "Red team the application",
+      "description": "Run AI red teaming as a product, or take it as a service, to test the application before you rely on it."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "manychat",
+  "name": "ManyChat",
+  "url": "https://manychat.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "ManyChat automates Messenger, Instagram, and WhatsApp marketing with AI-powered chatbots. It helps marketers engage users, qualify leads, and automate follow-ups.",
+  "description": "ManyChat automates Messenger, Instagram, and WhatsApp marketing with AI-powered chatbots. It helps marketers engage users, qualify leads, and automate follow-ups.\n\nChatbots for Messenger, Instagram, WhatsApp. Visual flow builder for bot creation. Integrates with major marketing tools. Analytics for conversion and engagement.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "chatbot",
+    "automation"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/manychat.png",
+  "image": "/screenshots/manychat.webp",
+  "dateAdded": "2025-06-11",
+  "lastVerified": null,
+  "features": [
+    "Chatbots for Messenger, Instagram, WhatsApp.",
+    "Visual flow builder for bot creation.",
+    "Integrates with major marketing tools.",
+    "Analytics for conversion and engagement."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up and Connect Channels",
+      "description": "Register for a ManyChat account and connect your Messenger, Instagram, or WhatsApp accounts.",
+      "links": [
+        {
+          "label": "ManyChat",
+          "url": "https://manychat.com"
+        }
+      ]
+    },
+    {
+      "title": "Create a Chatbot Flow",
+      "description": "Use the drag-and-drop flow builder to design conversations, capture leads, and automate responses."
+    },
+    {
+      "title": "Integrate with Marketing Tools",
+      "description": "Connect ManyChat to your CRM, email, or marketing platforms for seamless lead management."
+    },
+    {
+      "title": "Deploy and Monitor",
+      "description": "Publish your chatbot and monitor engagement and conversion analytics within the ManyChat dashboard."
+    }
+  ]
+}

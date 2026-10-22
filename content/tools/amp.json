@@ -1,0 +1,53 @@
+{
+  "id": "amp",
+  "name": "Amp",
+  "url": "https://ampcode.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Coding agent that runs tasks in isolated hosted or self-hosted environments called orbs.",
+  "description": "Amp is a coding agent and development environment. Each agent runs in its own isolated environment, called an orb, so tasks continue after the user closes their laptop and can be followed from a phone. Threads can be shared with teammates. The Hobby plan is free with pay-as-you-go usage and unlimited self-hosted orbs; the Individual plan costs $20 per month, with higher team tiers above it.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "coding-agent",
+    "cli",
+    "cloud-agents",
+    "teams"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$20/mo (Individual)",
+    "sourceUrl": "https://ampcode.com/pricing"
+  },
+  "logo": "https://ampcode.com/app-icon.svg?v=4",
+  "image": "/screenshots/amp.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://ampcode.com/",
+    "https://ampcode.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Amp",
+      "description": "Go to Amp and choose Start to use the coding agent and development environment.",
+      "links": [
+        {
+          "label": "Amp",
+          "url": "https://ampcode.com/"
+        }
+      ]
+    },
+    {
+      "title": "Run the task in an orb",
+      "description": "Put the task in an orb. That orb is the agent's own isolated environment, and tasks continue after the laptop closes. Follow the thread from a phone."
+    },
+    {
+      "title": "Share the thread or use the CLI",
+      "description": "Share threads with teammates, or keep working on your own machine with the CLI and runner. Hobby includes pay-as-you-go usage and unlimited orbs that are self-hosted, with no subscription charge. Individual costs $20 per month, and team tiers sit above it."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/google-ai-studio.png",
+  "image": "/screenshots/google-ai-studio.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "google-ai-studio",
+  "name": "Google AI Studio",
+  "url": "https://aistudio.google.com/welcome",
+  "summary": "Google's web tool to prototype and build with Gemini models.",
+  "description": "Google AI Studio is a browser-based environment to experiment with Gemini models, vibe-code apps, and obtain API keys for the Gemini API. It is the fastest path from prompt to production for developers using Google models. Use of AI Studio and the Gemini API free tier costs nothing, with paid API tiers billed per token and higher limits included in Google AI plans.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "gemini",
+    "api",
+    "prototyping",
+    "google"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Use of AI Studio and the Gemini API free tier costs nothing, with paid API tiers billed per token and higher limits included in Google AI plans.",
+    "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing"
+  },
+  "sources": [
+    "https://aistudio.google.com",
+    "https://ai.google.dev/gemini-api/docs/pricing",
+    "https://one.google.com/about/google-ai-plans/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open AI Studio",
+      "description": "The welcome page says to go from a prompt to production and offers Get started.",
+      "links": [
+        {
+          "label": "Google AI Studio",
+          "url": "https://aistudio.google.com/welcome"
+        }
+      ]
+    },
+    {
+      "title": "Try a model",
+      "description": "The page lists Gemini, Nano Banana, Veo, Gemini TTS, Gemini Live, Omni, and Lyria as models you can experiment with."
+    },
+    {
+      "title": "Get an API key",
+      "description": "The page says to get an API key and use an official GenAI SDK for Python, JavaScript, Go, Java, or C++."
+    },
+    {
+      "title": "Remix a project, or read the docs",
+      "description": "Featured projects can be remixed from the gallery. Documentation is linked from the page.",
+      "links": [
+        {
+          "label": "Documentation",
+          "url": "https://aistudio.google.com/docs"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "logo": "/logos/n8n.png",
+  "image": "/screenshots/n8n.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "n8n",
+  "name": "n8n",
+  "url": "https://n8n.io/",
+  "summary": "Workflow automation platform combining AI agents and integrations.",
+  "description": "n8n is a workflow automation platform that combines AI agents with hundreds of app integrations and custom code, giving technical teams the flexibility of code with the speed of no-code. Its differentiator is that it can be self-hosted (free Community Edition) as well as used in the cloud. Cloud plans come with a free trial.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "automation",
+    "workflows",
+    "ai-agents",
+    "open-source"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Cloud plans come with a free trial.",
+    "sourceUrl": "https://n8n.io/pricing"
+  },
+  "sources": [
+    "https://n8n.io",
+    "https://n8n.io/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Get started",
+      "description": "The homepage says to get started and describes n8n as the platform for agents and workflows you can follow.",
+      "links": [
+        {
+          "label": "n8n",
+          "url": "https://n8n.io/"
+        }
+      ]
+    },
+    {
+      "title": "Build the workflow",
+      "description": "The page says you can open any step, see what it does, and explain it to the person who runs it.",
+      "links": [
+        {
+          "label": "Get started",
+          "url": "https://app.n8n.cloud/register"
+        }
+      ]
+    },
+    {
+      "title": "Connect your tools",
+      "description": "The page says to connect n8n to just about any tool, with 500+ native integrations, any API via HTTP, and MCP."
+    },
+    {
+      "title": "Self-host if you need to",
+      "description": "The homepage says you can self-host your AI stack, and deploy on-prem or with Docker."
+    }
+  ]
+}

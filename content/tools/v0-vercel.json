@@ -1,0 +1,57 @@
+{
+  "id": "v0-vercel",
+  "name": "V0 by Vercel",
+  "url": "https://v0.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-powered UI generator that transforms prompts into production-ready React and Tailwind components.",
+  "description": "AI-powered UI generator that transforms prompts into production-ready React and Tailwind components.\n\nYour collaborative AI assistant to design, iterate, and scale full-stack applications for the web.\n\nComponent Generation: Create UI components from text prompts. Code Export: Export components as usable code. Design Customization: Adjust component styles and layouts. Integration with Frameworks: Use components with popular frameworks.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "tailwind",
+    "react",
+    "shadcn",
+    "ui-generator",
+    "no-code",
+    "vercel"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/v0-vercel.png",
+  "image": "/screenshots/v0-vercel.webp",
+  "dateAdded": "2023-10-10",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Component Generation: Create UI components from text prompts.",
+    "Code Export: Export components as usable code.",
+    "Design Customization: Adjust component styles and layouts.",
+    "Integration with Frameworks: Use components with popular frameworks."
+  ],
+  "howToUse": [
+    {
+      "title": "Access V0 by Vercel",
+      "description": "Go to v0.app and start generating UI components.",
+      "links": [
+        {
+          "label": "V0 by Vercel",
+          "url": "https://v0.app/"
+        }
+      ]
+    },
+    {
+      "title": "Enter Prompt",
+      "description": "Describe the UI you want to generate using natural language."
+    },
+    {
+      "title": "Edit & Export Code",
+      "description": "Customize generated React + Tailwind components and export code for your project."
+    }
+  ],
+  "statusNote": "v0.dev redirects to v0.app"
+}

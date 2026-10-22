@@ -1,0 +1,59 @@
+{
+  "id": "zoho_analytics",
+  "name": "Zoho Analytics",
+  "url": "https://www.zoho.com/analytics/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Zoho Analytics is a cloud-based business intelligence and analytics platform that makes it easy to visualize data, build insightful reports, and share dashboards. It offers a no-code interface, AI-powered insights via Zia, and the ability to blend data from hundreds of sources. Zoho Analytics supports team collaboration, scheduled reporting, and data security, making it suitable for businesses of all sizes seeking actionable data insights.",
+  "description": "Zoho Analytics is a cloud-based business intelligence and analytics platform that makes it easy to visualize data, build insightful reports, and share dashboards. It offers a no-code interface, AI-powered insights via Zia, and the ability to blend data from hundreds of sources. Zoho Analytics supports team collaboration, scheduled reporting, and data security, making it suitable for businesses of all sizes seeking actionable data insights.\n\nConnect 500+ apps, build dashboards, and get actionable insights instantly with Zoho Analytics, the award-winning business intelligence and data analytics software.\n\nSelf-Service Analytics: Create reports and dashboards without coding. Data Blending: Merge and analyze data from multiple sources. AI Insights: Zia provides automated insights and anomaly detection. Collaboration: Share reports and dashboards with your team.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "bi",
+    "analytics",
+    "cloud"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/zoho_analytics.png",
+  "image": "/screenshots/zoho_analytics.webp",
+  "dateAdded": null,
+  "lastVerified": null,
+  "dateAddedNote": "The previous Added date was 2015-10-01. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Self-Service Analytics: Create reports and dashboards without coding.",
+    "Data Blending: Merge and analyze data from multiple sources.",
+    "AI Insights: Zia provides automated insights and anomaly detection.",
+    "Collaboration: Share reports and dashboards with your team.",
+    "Broad Integrations: Connects to over 500 data sources and apps."
+  ],
+  "howToUse": [
+    {
+      "title": "Register & Log In",
+      "description": "Sign up for Zoho Analytics and access the dashboard.",
+      "links": [
+        {
+          "label": "Zoho Analytics",
+          "url": "https://www.zoho.com/analytics/"
+        }
+      ]
+    },
+    {
+      "title": "Import & Blend Data",
+      "description": "Connect to cloud apps, databases, or upload files to blend and analyze data."
+    },
+    {
+      "title": "Create Reports & Dashboards",
+      "description": "Use the visual builder and Zia insights to create interactive reports and dashboards."
+    },
+    {
+      "title": "Collaborate & Schedule",
+      "description": "Share dashboards with your team and schedule automated report delivery."
+    }
+  ]
+}

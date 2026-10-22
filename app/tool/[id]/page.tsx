@@ -1,10 +1,16 @@
 import { notFound } from "next/navigation";
-import { mockTools } from "@/lib/data";
+import { allTools, mockTools } from "@/lib/data";
 import ToolPageClient from "./tool-page-client";
+import { getLocale } from "@/lib/i18n/get-locale";
+import { toolForLocale } from "@/lib/i18n/localize-tool";
+import { metadataFor } from "@/lib/i18n/metadata";
+
+// Unknown ids are not rendered as empty shells. Next responds with the not-found page.
+export const dynamicParams = false
 
 // Generate static paths for all tools
 export async function generateStaticParams() {
-  return mockTools.map((tool) => ({
+  return allTools.map((tool) => ({
     id: tool.id,
   }))
 }
@@ -14,9 +20,15 @@ type PageProps = {
   searchParams: Promise<Record<string, string>>;
 }
 
+export async function generateMetadata({ params }: PageProps) {
+  const { id } = await params
+  if (!allTools.some((tool) => tool.id === id)) notFound()
+  return metadataFor(`/tool/${id}`)
+}
+
 export default async function ToolPage({ params }: PageProps) {
   const { id } = await params;
-  const tool = mockTools.find((tool) => tool.id === id);
+  const tool = allTools.find((tool) => tool.id === id);
 
   if (!tool) {
     notFound();
@@ -27,5 +39,31 @@ export default async function ToolPage({ params }: PageProps) {
     (t) => t.id !== tool.id && t.categories.some((cat) => tool.categories.includes(cat))
   ).slice(0, 2);
 
-  return <ToolPageClient tool={tool} relatedTools={relatedTools} />;
+  const successor = tool.successorId ? allTools.find((item) => item.id === tool.successorId) : null
+  const locale = await getLocale()
+  const localized = toolForLocale(tool, locale)
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: tool.name,
+    description: localized.longDescription || localized.description,
+    applicationCategory: tool.categories.join(", "),
+    ...(tool.url ? { url: tool.url } : {}),
+    image: tool.image,
+    inLanguage: locale,
+    ...(tool.pricing?.verified && tool.pricing.model === "free"
+      ? { offers: { "@type": "Offer", price: 0, priceCurrency: "USD" } }
+      : {}),
+  }
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <ToolPageClient
+        tool={localized}
+        relatedTools={relatedTools.map((item) => toolForLocale(item, locale))}
+        successorName={successor?.name}
+      />
+    </>
+  );
 }

@@ -1,0 +1,53 @@
+{
+  "id": "submagic",
+  "name": "Submagic",
+  "url": "https://www.submagic.co/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Editor for short-form video that adds AI captions, B-roll, zooms and other edits automatically.",
+  "description": "Submagic edits short-form videos for social media. It generates animated captions, adds B-roll, sound effects and transitions, removes silences, trims clips, corrects eye contact and translates videos. A publishing tool and an API support automation. Plans start at $19 per month for 15 videos up to two minutes, with Pro at $39 and Business at $69 per month. A free trial is offered; a permanent free plan was not confirmed.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "captions",
+    "short-form",
+    "b-roll",
+    "api"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "The official pricing page lists Starter at $19/month and Pro at $39/month. A Try For Free button is shown, but no lasting $0 plan was listed.",
+    "sourceUrl": "https://www.submagic.co/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/6469e2294ac68c3d5caea327/64bfa3c12a5deee2593d92ac_256.png",
+  "image": "/screenshots/submagic.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://www.submagic.co/",
+    "https://www.submagic.co/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Submagic",
+      "description": "Open Submagic and try the editor on short videos for social media. A trial is offered.",
+      "links": [
+        {
+          "label": "Submagic",
+          "url": "https://www.submagic.co/"
+        }
+      ]
+    },
+    {
+      "title": "Edit the cut",
+      "description": "Submagic edits the footage. It generates animated captions, adds sound effects and transitions, removes silences, trims clips and corrects eye contact."
+    },
+    {
+      "title": "Translate and publish",
+      "description": "Next, Submagic translates the video. Use the publishing tool or the API for automation support. Plans start at $19 per month for 15 videos up to two minutes. Pro is $39 and Business is $69 per month. A permanent free plan was not confirmed."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "factory",
+  "name": "Factory",
+  "url": "https://factory.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Platform of AI coding agents, called Droids, that handle coding, testing and deployment tasks.",
+  "description": "Factory sells AI coding agents called Droids that work in the terminal, IDE and remote computers to write code, run tests, review changes and handle deployment tasks. The platform includes an agent-readiness dashboard and organisation controls. The pricing page lists Pro at $20 per month, Plus at $100, Max at $200, and Teams at $60 per team plus $40 per seat per month; no free plan was listed.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "coding-agent",
+    "droids",
+    "cli",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$20/mo (Pro)",
+    "sourceUrl": "https://factory.com/pricing"
+  },
+  "logo": "https://factory.com/favicon.svg",
+  "image": "/screenshots/factory.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://factory.ai/",
+    "https://factory.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Factory",
+      "description": "Go to Factory and choose Get Started, Log in / Sign up, or Contact Sales.",
+      "links": [
+        {
+          "label": "Factory",
+          "url": "https://factory.com/"
+        }
+      ]
+    },
+    {
+      "title": "Put Droids on the work",
+      "description": "Use the coding agents called Droids in the terminal, the IDE, or on remote computers to write code, run tests, review changes, and handle deployment tasks."
+    },
+    {
+      "title": "Check readiness and controls",
+      "description": "Open the agent-readiness dashboard and the organisation controls. The page also shows an Agent Readiness score across repositories."
+    },
+    {
+      "title": "Read the listed prices",
+      "description": "On the pricing page, Pro is listed at $20 per month, Plus at $100, Max at $200, and Teams at $60 per team plus $40 per seat per month. No free plan was listed."
+    }
+  ]
+}

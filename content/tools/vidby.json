@@ -1,0 +1,68 @@
+{
+  "id": "vidby",
+  "name": "Vidby",
+  "url": "https://vidby.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Vidby is an AI-powered video translation and voiceover tool, supporting 70+ languages for fast and accurate video localization.",
+  "description": "Vidby is an AI-powered video translation and voiceover tool, supporting 70+ languages for fast and accurate video localization.\n\nTry vidby now and expand your business to international markets. Translate and dub videos with up to 100% accuracy in 70+ languages using AI.\n\nAI voiceover: Quickly add multi-language narration to your videos, making them accessible worldwide. Fast translation: Localize videos in over 70 languages with just a few clicks, no manual work needed. Subtitle generation: Automatic, editable subtitles for every video, enhancing SEO and accessibility. Speaker detection: Accurately identifies and translates multiple speakers in one video.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "translation",
+    "dubbing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/vidby.png",
+  "image": "/screenshots/vidby.webp",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "AI voiceover: Quickly add multi-language narration to your videos, making them accessible worldwide.",
+    "Fast translation: Localize videos in over 70 languages with just a few clicks, no manual work needed.",
+    "Subtitle generation: Automatic, editable subtitles for every video, enhancing SEO and accessibility.",
+    "Speaker detection: Accurately identifies and translates multiple speakers in one video."
+  ],
+  "howToUse": [
+    {
+      "title": "Register and Log In",
+      "description": "Go to Vidby, sign up for a free or premium account, and log into your dashboard.",
+      "links": [
+        {
+          "label": "Vidby",
+          "url": "https://www.vidby.com"
+        }
+      ]
+    },
+    {
+      "title": "Upload Your Video",
+      "description": "Click on 'Upload Video' and select your file. Supported formats include MP4, MOV, AVI, and more."
+    },
+    {
+      "title": "Select Languages and Voices",
+      "description": "Pick the target language(s) for translation. Choose from a variety of voices for narration or dubbing."
+    },
+    {
+      "title": "Configure Subtitles and Speaker Detection",
+      "description": "Enable automatic subtitle generation and confirm speaker identification for multi-speaker videos."
+    },
+    {
+      "title": "Initiate AI Translation and Voiceover",
+      "description": "Start the process. Vidby’s AI will translate, dub, and subtitle your video. Wait for processing (time depends on video length)."
+    },
+    {
+      "title": "Review and Edit Output",
+      "description": "Check the translated video, subtitles, and voiceover for accuracy. Edit any section if needed."
+    },
+    {
+      "title": "Export or Share",
+      "description": "Export your localized video, subtitles, and transcripts. Share directly via Vidby links or download for distribution."
+    }
+  ]
+}

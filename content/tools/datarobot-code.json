@@ -1,0 +1,56 @@
+{
+  "id": "datarobot-code",
+  "name": "DataRobot Code",
+  "url": "https://www.datarobot.com",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "DataRobot delivers the industry-leading AI applications and platform that maximize impact and minimize risk for your business",
+  "description": "DataRobot delivers the industry-leading AI applications and platform that maximize impact and minimize risk for your business\n\nAutomated Feature Engineering: Discovers and creates new features from datasets. Model Deployment: Simplifies the process of deploying machine learning models. Time Series Analysis: Provides tools for forecasting and analyzing time-based data. Integration with Python: Offers a Python client for advanced users.",
+  "categories": [
+    "coding",
+    "data-processing"
+  ],
+  "tags": [
+    "ai",
+    "deployment",
+    "automation"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/datarobot-code.png",
+  "image": "/tool-screenshots/datarobot-code.png",
+  "dateAdded": "2023-01-01",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Automated Feature Engineering: Discovers and creates new features from datasets.",
+    "Model Deployment: Simplifies the process of deploying machine learning models.",
+    "Time Series Analysis: Provides tools for forecasting and analyzing time-based data.",
+    "Integration with Python: Offers a Python client for advanced users."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Use DataRobot",
+      "description": "Create an account to access DataRobot Code tools.",
+      "links": [
+        {
+          "label": "DataRobot Code",
+          "url": "https://www.datarobot.com"
+        }
+      ]
+    },
+    {
+      "title": "Upload Data & Optimize",
+      "description": "Import your data and let the AI optimize code and models."
+    },
+    {
+      "title": "Deploy & Integrate",
+      "description": "Deploy optimized solutions or integrate with your projects."
+    }
+  ],
+  "successorId": "datarobot",
+  "statusNote": "Same URL as DataRobot (datarobot.com), marked Free"
+}

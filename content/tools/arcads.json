@@ -1,0 +1,52 @@
+{
+  "id": "arcads",
+  "name": "Arcads",
+  "url": "https://www.arcads.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Platform for generating UGC-style video and image ads with AI actors.",
+  "description": "Arcads generates user-generated-content style video ads and images for marketing teams, using AI actors and third-party video models such as Seedance, with features organised by industry. The site offers demos and sign-up. The pricing page did not load during this check, so no price was recorded. A limited-time offer during this check gave seven days of unlimited generations with a new video model for subscribers. The service is aimed at marketing teams producing large numbers of ad variations.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ugc",
+    "ai-actors",
+    "video-ads",
+    "marketing"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "Arcads' help center describes a 72-hour trial that requires a card, then paid plans (Starter, Creator, Pro, Scale and Business). That article does not publish a dollar price.",
+    "sourceUrl": "https://help.arcads.ai/en/articles/17350051-arcads-faq"
+  },
+  "logo": "https://cdn.prod.website-files.com/685001cf708232477ed43d3f/68efa8160baa4b79fde9574d_webclip.jpg",
+  "image": "/screenshots/arcads.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://www.arcads.ai/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Arcads",
+      "description": "Go to Arcads, choose Login or Sign up, then choose Create Your AI Ad. Demos are offered on the site.",
+      "links": [
+        {
+          "label": "Arcads",
+          "url": "https://www.arcads.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Generate the ad",
+      "description": "Pick AI actors and a third-party video model such as Seedance, then generate images and video ads in a user-generated-content style. Features are organised by industry."
+    },
+    {
+      "title": "Refine variations",
+      "description": "Edit, translate or extend the video, then make further ad variations for the marketing team. Subscribers can take the limited-time offer of seven days of unlimited generations on the new video model. Fair use terms are stated on the page."
+    }
+  ]
+}

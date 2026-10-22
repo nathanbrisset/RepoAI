@@ -1,0 +1,60 @@
+{
+  "id": "invideo",
+  "name": "InVideo",
+  "url": "https://invideo.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "InVideo is an AI-powered video creation platform for marketers. It offers thousands of templates, stock assets, and automated tools to produce branded videos quickly.",
+  "description": "InVideo is an AI-powered video creation platform for marketers. It offers thousands of templates, stock assets, and automated tools to produce branded videos quickly.\n\n5000+ customizable video templates. AI script generation from prompts. Premium stock video and music. Auto text-to-video from articles.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "video",
+    "content-creation"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/invideo.png",
+  "image": "/screenshots/invideo.webp",
+  "dateAdded": "2025-06-11",
+  "lastVerified": null,
+  "features": [
+    "5000+ customizable video templates.",
+    "AI script generation from prompts.",
+    "Premium stock video and music.",
+    "Auto text-to-video from articles."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up and Log In",
+      "description": "Register for a free or paid InVideo account. Log in to access the video creation dashboard.",
+      "links": [
+        {
+          "label": "InVideo",
+          "url": "https://invideo.io"
+        }
+      ]
+    },
+    {
+      "title": "Choose a Template or Start from Scratch",
+      "description": "Browse thousands of templates by category, or start with a blank canvas for full creative control."
+    },
+    {
+      "title": "Generate Script or Upload Content",
+      "description": "Use the AI script generator, input your own text, or convert articles into videos directly from a URL."
+    },
+    {
+      "title": "Customize Video",
+      "description": "Edit scenes, add stock footage, music, text, transitions, and branding elements. Use drag-and-drop tools for quick adjustments."
+    },
+    {
+      "title": "Preview and Export",
+      "description": "Preview your video for quality and accuracy. Export it in your desired format and resolution, or publish directly to social platforms."
+    }
+  ]
+}

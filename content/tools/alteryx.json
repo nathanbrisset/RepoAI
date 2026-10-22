@@ -1,0 +1,59 @@
+{
+  "id": "alteryx",
+  "name": "Alteryx",
+  "url": "https://www.alteryx.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Alteryx is a powerful platform designed for data blending, advanced analytics, and data science. With its intuitive drag-and-drop interface, users can easily prepare, blend, and analyze data from multiple sources. Alteryx offers a wide range of predictive, statistical, and spatial analytics capabilities. Its automation features reduce manual work and accelerate time-to-insight, making Alteryx a favorite among business analysts and data professionals for building repeatable workflows at scale.",
+  "description": "Alteryx is a powerful platform designed for data blending, advanced analytics, and data science. With its intuitive drag-and-drop interface, users can easily prepare, blend, and analyze data from multiple sources. Alteryx offers a wide range of predictive, statistical, and spatial analytics capabilities. Its automation features reduce manual work and accelerate time-to-insight, making Alteryx a favorite among business analysts and data professionals for building repeatable workflows at scale.\n\nVisual Workflow Builder: Drag-and-drop interface for building analytic pipelines. Data Preparation: Cleans, transforms, and blends data from multiple sources. Predictive Analytics: Built-in tools for forecasting and classification. Scalability: Efficiently handles large-scale data workflows.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "analytics",
+    "etl",
+    "data-prep"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/alteryx.png",
+  "image": "/screenshots/alteryx.webp",
+  "dateAdded": null,
+  "lastVerified": null,
+  "dateAddedNote": "The previous Added date was 2010-01-01. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Visual Workflow Builder: Drag-and-drop interface for building analytic pipelines.",
+    "Data Preparation: Cleans, transforms, and blends data from multiple sources.",
+    "Predictive Analytics: Built-in tools for forecasting and classification.",
+    "Scalability: Efficiently handles large-scale data workflows.",
+    "Collaboration: Enables sharing and reuse of workflows across teams."
+  ],
+  "howToUse": [
+    {
+      "title": "Install & Launch Alteryx Designer",
+      "description": "Download and install Alteryx Designer. Open the application to start building workflows.",
+      "links": [
+        {
+          "label": "Alteryx",
+          "url": "https://www.alteryx.com"
+        }
+      ]
+    },
+    {
+      "title": "Connect Data Sources",
+      "description": "Use the drag-and-drop interface to connect to databases, files, APIs, and more."
+    },
+    {
+      "title": "Build & Automate Workflows",
+      "description": "Drag analytic tools to the canvas, configure them, and chain steps to prepare, blend, and analyze data."
+    },
+    {
+      "title": "Run & Share Results",
+      "description": "Execute workflows to generate outputs. Share or schedule workflows for team collaboration."
+    }
+  ]
+}

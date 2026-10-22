@@ -1,0 +1,78 @@
+{
+  "id": "videoken",
+  "name": "VideoKen",
+  "url": "https://www.videoken.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "VideoKen uses AI to summarize, chapter, and index webinars, lectures, and conferences, making long-form video content easily navigable and searchable.",
+  "description": "VideoKen uses AI to summarize, chapter, and index webinars, lectures, and conferences, making long-form video content easily navigable and searchable.\n\nVideoKen helps you engage better with learners by turning your videos into interactive and immersive learning experiences\n\nAI video summarization: Condenses long videos into highlight reels or concise summaries, saving viewers time. Automatic chaptering: Detects topic changes and creates clickable chapters for easy navigation. Searchable transcripts: Generates accurate transcripts and indexes key content for efficient search. Embeddable widgets: Add smart indexes and navigation tools to your video platform or website.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "summarization",
+    "education"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/videoken.png",
+  "image": "/screenshots/videoken.webp",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "AI video summarization: Condenses long videos into highlight reels or concise summaries, saving viewers time.",
+    "Automatic chaptering: Detects topic changes and creates clickable chapters for easy navigation.",
+    "Searchable transcripts: Generates accurate transcripts and indexes key content for efficient search.",
+    "Embeddable widgets: Add smart indexes and navigation tools to your video platform or website."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Dashboard",
+      "description": "Visit VideoKen and sign up for an account. After verifying your email, log in to access the project dashboard.",
+      "links": [
+        {
+          "label": "VideoKen",
+          "url": "https://www.videoken.com"
+        }
+      ]
+    },
+    {
+      "title": "Start a New Project",
+      "description": "Click 'New Project' and upload your long-form video (webinar, lecture, or conference). Supported formats include MP4, MOV, and more."
+    },
+    {
+      "title": "Configure Analysis Preferences",
+      "description": "Set options for summarization depth, chapter length, and indexing detail. You can tailor these to your audience or use case."
+    },
+    {
+      "title": "Run AI Summarization & Chaptering",
+      "description": "Initiate the analysis. VideoKen's AI will process your video, identify key segments, summarize content, and create interactive chapters."
+    },
+    {
+      "title": "Review Summaries & Chapters",
+      "description": "Preview the generated summaries and chapters. Manually edit titles, keywords, or timestamps for accuracy and clarity."
+    },
+    {
+      "title": "Generate and Edit Transcript",
+      "description": "VideoKen will auto-generate a searchable transcript. Review and edit the transcript to fix names, terms, or add custom notes."
+    },
+    {
+      "title": "Embed or Export Indexes",
+      "description": "Embed interactive chapter widgets or indexes on your website, LMS, or shareable pages. Export summaries or transcripts as needed.",
+      "links": [
+        {
+          "label": "Embed Guide",
+          "url": "https://www.videoken.com/embed"
+        }
+      ]
+    },
+    {
+      "title": "Monitor Engagement",
+      "description": "Use VideoKen's analytics to track how viewers interact with your chapters, indexes, and summaries."
+    }
+  ]
+}

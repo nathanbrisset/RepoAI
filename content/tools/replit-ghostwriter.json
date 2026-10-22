@@ -1,0 +1,62 @@
+{
+  "id": "replit-ghostwriter",
+  "name": "Replit Agent",
+  "url": "https://replit.com/ghostwriter",
+  "affiliateUrl": "",
+  "status": "renamed",
+  "summary": "AI coding assistant in the Replit editor. The Ghostwriter name is outdated.",
+  "description": "Replit Ghostwriter is the coding assistant inside the Replit editor. The validated note says that name is outdated and the product is now Replit AI/Agent, with a free mode and Core at $20/month. No replacement URL was recorded, so this fiche keeps https://replit.com/ghostwriter.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "coding",
+    "replit",
+    "assistant"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; replit.com/pricing: Free mode + Core $20/month; Ghostwriter name is outdated (now Replit AI/Agent)",
+    "sourceUrl": "https://replit.com/pricing"
+  },
+  "logo": "/logos/replit-ghostwriter.png",
+  "image": "/screenshots/replit-ghostwriter.webp",
+  "dateAdded": "2022-09-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Inline Code Completions: Fast suggestions within Replit.",
+    "Code Explanation: Converts code to plain language.",
+    "Prompt-Based Coding: Generates code from natural language.",
+    "Refactoring Support: Helps restructure and improve code logic."
+  ],
+  "howToUse": [
+    {
+      "title": "Start Coding on Replit",
+      "description": "Use the Replit IDE and enable Ghostwriter.",
+      "links": [
+        {
+          "label": "Replit Ghostwriter",
+          "url": "https://replit.com/ghostwriter"
+        }
+      ]
+    },
+    {
+      "title": "Leverage Inline Suggestions",
+      "description": "Type code and accept Ghostwriter completions or explanations."
+    },
+    {
+      "title": "Prompt for Code",
+      "description": "Describe coding tasks in natural language for instant code generation."
+    },
+    {
+      "title": "Refactor and Improve",
+      "description": "Use suggestions to clean up and optimize your code."
+    }
+  ],
+  "sources": [
+    "https://replit.com/products/agent"
+  ],
+  "statusNote": "Listed Free; replit.com/pricing: Free mode + Core $20/month; Ghostwriter name is outdated (now Replit AI/Agent)"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "magicschool",
+  "name": "MagicSchool",
+  "url": "https://www.magicschool.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI platform for teachers, students and school districts, with tools for planning and instruction.",
+  "description": "MagicSchool provides AI tools for educators, such as lesson planning and a presentation generator, along with supervised AI tools for students and administrative controls for districts. It is free for individual teachers, with Plus and Enterprise plans for schools and districts. Its site provides resources for superintendents, academic officers, technology officers and principals. It also publishes district case studies and webinars on AI in schools.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "teachers",
+    "lesson-planning",
+    "schools",
+    "student-ai"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.magicschool.ai/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/645187265d5e5e386be40629/69446a3bf302af048b1b6297_Webclip_256x256.webp",
+  "image": "/screenshots/magicschool.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.magicschool.ai/",
+    "https://www.magicschool.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open MagicSchool",
+      "description": "Open MagicSchool. Individual teachers can start free, and schools or districts look at Plus and Enterprise.",
+      "links": [
+        {
+          "label": "MagicSchool",
+          "url": "https://www.magicschool.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Plan a lesson and make slides",
+      "description": "Use the educator tools for lesson planning, then open the presentation generator for classroom-ready slides."
+    },
+    {
+      "title": "Set student and district controls",
+      "description": "Give students the supervised tools, then apply administrative controls. The site also has resources for superintendents, academic officers, technology officers and principals."
+    },
+    {
+      "title": "Read district studies and webinars",
+      "description": "Open the district case studies and the webinars on AI in schools when you need examples beyond a single classroom."
+    }
+  ]
+}

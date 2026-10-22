@@ -1,0 +1,57 @@
+{
+  "id": "researchrabbit",
+  "name": "ResearchRabbit",
+  "url": "https://www.researchrabbit.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Literature discovery tool that finds related papers and builds citation maps from a seed set.",
+  "description": "ResearchRabbit analyses papers a user selects and recommends related research, builds visual citation and author maps, and tracks new publications. The company states it will always have a free offering. The Free plan covers core search; ResearchRabbit+ costs $10 per month on an annual plan or $12.50 monthly and allows larger seed collections. The paid plan allows up to 300 seed articles for large-scale research.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "citation-maps",
+    "literature-review",
+    "papers",
+    "alerts"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$10/mo (annual)",
+    "sourceUrl": "https://www.researchrabbit.ai/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/68367775ca3b1655a71e1698/68f169d618fea3828326bbe2_RR_icon_256.png",
+  "image": "/screenshots/researchrabbit.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.researchrabbit.ai/",
+    "https://www.researchrabbit.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open ResearchRabbit",
+      "description": "Open ResearchRabbit and sign up. The company states that a free offering will always remain.",
+      "links": [
+        {
+          "label": "ResearchRabbit",
+          "url": "https://www.researchrabbit.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Select seed papers",
+      "description": "Select papers you already know. ResearchRabbit analyses the papers a reader selects and recommends related research."
+    },
+    {
+      "title": "Read the maps and track publications",
+      "description": "It builds visual citation and author maps, and it tracks new publications."
+    },
+    {
+      "title": "Enlarge the seed collection",
+      "description": "The Free plan covers core search. ResearchRabbit+ costs $10 per month on an annual plan or $12.50 monthly and allows larger seed collections, up to 300 seed articles for large-scale research."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "pixlr",
+  "name": "Pixlr",
+  "url": "https://pixlr.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A cloud-based image editing suite with AI tools for background removal, image generation, and smart resizing.",
+  "description": "A cloud-based image editing suite with AI tools for background removal, image generation, and smart resizing.\n\nPixlr is a free online AI photo editor and image generator. Edit photos, generate AI images and videos, swap faces, remove backgrounds, make collages — powered by Flux, Kling, Veo & more. No install needed.\n\nAI background remover: One-click cutouts with high accuracy. Smart resizing: Effortlessly crop and resize images using AI. Image generation: Create visuals from text prompts. Auto color correction: Instantly enhance colors and exposure.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "image-editing",
+    "background-removal",
+    "image-generation"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/pixlr.png",
+  "image": "/screenshots/pixlr.webp",
+  "dateAdded": "2021-08-10",
+  "lastVerified": null,
+  "features": [
+    "AI background remover: One-click cutouts with high accuracy.",
+    "Smart resizing: Effortlessly crop and resize images using AI.",
+    "Image generation: Create visuals from text prompts.",
+    "Auto color correction: Instantly enhance colors and exposure.",
+    "Batch editing: Apply edits to multiple images at once."
+  ],
+  "howToUse": [
+    {
+      "title": "Open Pixlr Editor",
+      "description": "Visit the Pixlr website and choose Pixlr X (easy) or Pixlr E (advanced) editor.",
+      "links": [
+        {
+          "label": "Pixlr",
+          "url": "https://www.pixlr.com/"
+        }
+      ]
+    },
+    {
+      "title": "Upload or Start a Project",
+      "description": "Upload an image or start with a blank canvas or template."
+    },
+    {
+      "title": "Use AI Tools",
+      "description": "Apply background removal, resizing, or generate images from text prompts."
+    },
+    {
+      "title": "Edit and Export",
+      "description": "Make further adjustments and download your finished image."
+    }
+  ]
+}

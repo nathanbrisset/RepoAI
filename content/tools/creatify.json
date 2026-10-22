@@ -1,0 +1,53 @@
+{
+  "id": "creatify",
+  "name": "Creatify",
+  "url": "https://creatify.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI ad creation platform for image and video ads, with avatars, URL-to-video and ad analytics.",
+  "description": "Creatify produces image and video ads with AI. Tools include URL-to-video, AI avatars, ad cloning and a creative agent, plus a competitor tracker and an ad library for research. Integrations cover an API, MCP and ad launching. Plans start at $15 per month ($10 billed yearly) for 55 credits, with Pro, Max and team tiers above it; a free plan was not confirmed.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "video-ads",
+    "avatars",
+    "url-to-video",
+    "ad-library"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "The official pricing page lists a Free plan with 10 credits a month. Standard is $15/month, or $10/month billed yearly.",
+    "sourceUrl": "https://creatify.ai/pricing"
+  },
+  "logo": "https://creatify.ai/favicon.ico",
+  "image": "/screenshots/creatify.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://creatify.ai/",
+    "https://creatify.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Creatify",
+      "description": "Go to Creatify and start a trial. Creatify produces image and video ads.",
+      "links": [
+        {
+          "label": "Creatify",
+          "url": "https://creatify.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Generate the ad",
+      "description": "Use URL-to-video, AI avatars, ad cloning or the creative agent to make the ad."
+    },
+    {
+      "title": "Research, then launch",
+      "description": "Open the competitor tracker and the ad library for research. The integrations cover an API, MCP and ad launching. Plans start at $15 per month ($10 billed yearly) for 55 credits, with Pro, Max and team tiers above that. No free plan was confirmed."
+    }
+  ]
+}

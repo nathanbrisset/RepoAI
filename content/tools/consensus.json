@@ -1,0 +1,53 @@
+{
+  "id": "consensus",
+  "name": "Consensus",
+  "url": "https://consensus.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI search engine for peer-reviewed research that summarises findings with citations.",
+  "description": "Consensus is an academic search engine that finds peer-reviewed papers and analyses them with AI, producing cited answers, filters and summaries, and helping users organise sources. The Free plan keeps basic paper search without AI analysis and includes ten Pro messages; Pro costs $12 per month billed annually ($144 per year), with team and enterprise plans available. Answers come from peer-reviewed literature rather than general web pages.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "academic-search",
+    "papers",
+    "citations",
+    "literature-review"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$12/mo (Pro, annual)",
+    "sourceUrl": "https://consensus.app/pricing"
+  },
+  "logo": "https://consensus.app/favicon.svg",
+  "image": "/screenshots/consensus.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://consensus.app/",
+    "https://consensus.app/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Consensus",
+      "description": "Go to Consensus, the academic search engine, and search peer-reviewed papers.",
+      "links": [
+        {
+          "label": "Consensus",
+          "url": "https://consensus.app/"
+        }
+      ]
+    },
+    {
+      "title": "Read cited answers",
+      "description": "Use the AI so Consensus analyses the papers into cited answers, filters and summaries, then organise the sources. The Free plan keeps basic paper search without the AI analysis and includes ten Pro messages."
+    },
+    {
+      "title": "Choose Pro for the analysis",
+      "description": "Pro costs $12 per month when billed annually, which is $144 per year. The answers stay with peer-reviewed literature rather than general web pages. Team and enterprise plans are listed as well."
+    }
+  ]
+}

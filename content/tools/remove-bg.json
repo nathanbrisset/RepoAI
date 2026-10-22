@@ -1,0 +1,53 @@
+{
+  "id": "remove-bg",
+  "name": "Remove.bg",
+  "url": "https://www.remove.bg/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Remove image backgrounds automatically in 5 seconds with just one click. Don't spend hours manually picking pixels. Upload your photo now & see the magic.",
+  "description": "Remove image backgrounds automatically in 5 seconds with just one click. Don't spend hours manually picking pixels. Upload your photo now & see the magic.\n\nInstant background removal: Eliminate backgrounds from photos automatically. Batch processing: Remove backgrounds from multiple images at once. High-resolution output: Download images in high quality with transparent backgrounds. API integration: Automate background removal in your workflows.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "background-removal",
+    "image-editing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/remove-bg.png",
+  "image": "/screenshots/remove-bg.webp",
+  "dateAdded": "2020-10-05",
+  "lastVerified": null,
+  "features": [
+    "Instant background removal: Eliminate backgrounds from photos automatically.",
+    "Batch processing: Remove backgrounds from multiple images at once.",
+    "High-resolution output: Download images in high quality with transparent backgrounds.",
+    "API integration: Automate background removal in your workflows.",
+    "Smart hair detection: Retain fine hair and edges for realistic results."
+  ],
+  "howToUse": [
+    {
+      "title": "Go to Remove.bg",
+      "description": "Visit the Remove.bg website.",
+      "links": [
+        {
+          "label": "Remove.bg",
+          "url": "https://www.remove.bg/"
+        }
+      ]
+    },
+    {
+      "title": "Upload Your Image",
+      "description": "Drag and drop your image onto the site or use the upload button."
+    },
+    {
+      "title": "Download Result",
+      "description": "Download the processed image with background removed. Use batch or API features for automation."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "greptile",
+  "name": "Greptile",
+  "url": "https://www.greptile.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI code review that indexes the whole repository to review pull requests in context.",
+  "description": "Greptile reviews pull requests using an index of the entire codebase, so comments can reference code outside the diff. It supports custom rules, learns from feedback and adds security review and runtime validation features. A Starter plan for individual developers is free with 50 credits per month, Pro is for teams, and enterprise plans add compliance features. The company announced a $50M Series B.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "code-review",
+    "codebase-context",
+    "pull-requests"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.greptile.com/pricing"
+  },
+  "logo": "https://www.greptile.com/greptile-brand-mark.png",
+  "image": "/screenshots/greptile.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.greptile.com/",
+    "https://www.greptile.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Greptile",
+      "description": "Go to Greptile and choose Sign up or Contact sales.",
+      "links": [
+        {
+          "label": "Greptile",
+          "url": "https://www.greptile.com/"
+        }
+      ]
+    },
+    {
+      "title": "Review with a full codebase index",
+      "description": "Let Greptile review pull requests using an index of the entire codebase, so comments can reference code outside the diff."
+    },
+    {
+      "title": "Add rules, security review, and validation",
+      "description": "It supports custom rules, learns from feedback, and adds security review and runtime validation."
+    },
+    {
+      "title": "Pick Starter, Pro, or enterprise",
+      "description": "A Starter plan for individual developers includes 50 credits per month at no charge. Pro is for teams, and enterprise plans add compliance features. The company announced a $50M Series B, which the homepage also reports."
+    }
+  ]
+}

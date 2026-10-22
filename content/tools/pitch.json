@@ -1,0 +1,57 @@
+{
+  "id": "pitch",
+  "name": "Pitch",
+  "url": "https://pitch.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Collaborative presentation platform for creating, sharing and presenting decks, with AI generation.",
+  "description": "Pitch is a presentation tool for teams. Users generate decks from prompts, edit them together in real time, share links with analytics and present. The Free plan covers one to five members; Plus costs $13 per seat per month paid yearly with 500 AI credits per seat, Team $19 and Business $25 per seat per month. The company states that more than four million teams use it.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "presentations",
+    "collaboration",
+    "ai-slides",
+    "templates"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$13/seat/mo (Plus, annual)",
+    "sourceUrl": "https://pitch.com/pricing"
+  },
+  "logo": "https://framerusercontent.com/images/ZDXuG5VMV3iJ6FfqEQHgtZkhnM.png",
+  "image": "/screenshots/pitch.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://pitch.com/",
+    "https://pitch.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Pitch",
+      "description": "Open Pitch and sign up so your team can generate decks from prompts.",
+      "links": [
+        {
+          "label": "Pitch",
+          "url": "https://pitch.com/"
+        }
+      ]
+    },
+    {
+      "title": "Edit the deck together",
+      "description": "Generate the presentation from a prompt, then edit the slides together in real time."
+    },
+    {
+      "title": "Share a link and present",
+      "description": "Share links with analytics and present the deck. The company states that more than four million teams use Pitch."
+    },
+    {
+      "title": "Pick a plan if you need credits",
+      "description": "The Free plan covers one to five members. Plus costs $13 per seat per month paid yearly with 500 AI credits per seat. Team costs $19 and Business $25 per seat per month."
+    }
+  ]
+}

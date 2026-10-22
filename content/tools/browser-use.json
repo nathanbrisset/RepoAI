@@ -1,0 +1,53 @@
+{
+  "id": "browser-use",
+  "name": "Browser Use",
+  "url": "https://browser-use.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Cloud browsers and web agents for automating tasks on websites, with an open-source library.",
+  "description": "Browser Use offers infrastructure for agents that operate websites. Its hosted agents complete tasks in a browser, and its cloud browsers can be driven by a developer's own agent. The project started as an open-source library. Pricing is pay-as-you-go with no subscription: cloud browsers cost $0.02 per hour, residential proxies $5 per GB, and new accounts get $1 of free credit. The company lists SOC 2 Type II and HIPAA compliance.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "browser-automation",
+    "web-agents",
+    "cloud-browser",
+    "open-source"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": true,
+    "note": "$0.02/browser-hour",
+    "sourceUrl": "https://browser-use.com/pricing"
+  },
+  "logo": "https://browser-use.com/apple-touch-icon.png",
+  "image": "/screenshots/browser-use.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://browser-use.com/",
+    "https://browser-use.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Browser Use",
+      "description": "Go to Browser Use and start for free. New accounts get $1 of free credit, and pricing is pay-as-you-go with no subscription.",
+      "links": [
+        {
+          "label": "Browser Use",
+          "url": "https://browser-use.com/"
+        }
+      ]
+    },
+    {
+      "title": "Run a hosted agent",
+      "description": "Run a hosted agent to complete tasks in a browser, for example forms, logins, shopping or extraction. These agents operate websites."
+    },
+    {
+      "title": "Connect your own agent",
+      "description": "Connect a developer agent to the cloud browsers, including Playwright or Puppeteer over CDP. This infrastructure bills cloud browsers at $0.02 per hour and residential proxies at $5 per GB."
+    }
+  ]
+}

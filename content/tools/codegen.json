@@ -1,0 +1,53 @@
+{
+  "id": "codegen",
+  "name": "CodeGen",
+  "url": "https://github.com/salesforce/CodeGen",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "CodeGen is a family of open-source model for program synthesis. Trained on TPU-v4. Competitive with OpenAI Codex. - salesforce/CodeGen",
+  "description": "CodeGen is a family of open-source model for program synthesis. Trained on TPU-v4. Competitive with OpenAI Codex. - salesforce/CodeGen\n\nAI-Powered Code Generation: Generates code snippets based on natural language prompts. Support for Multiple Languages: Handles code generation in various programming languages. Transformer-Based Model: Utilizes advanced machine learning architectures for code synthesis. Open-Source Availability: Accessible for customization and integration into workflows.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "deep-learning",
+    "models"
+  ],
+  "pricing": {
+    "model": "open-source",
+    "label": "Open source",
+    "verified": true,
+    "note": "Checked on 22 October 2026: the official GitHub repository publishes this as open-source software, with no paid plan on that page.",
+    "sourceUrl": "https://github.com/salesforce/CodeGen"
+  },
+  "logo": "/logos/codegen.png",
+  "image": "/screenshots/codegen.webp",
+  "dateAdded": "2023-02-01",
+  "lastVerified": "2026-10-22",
+  "features": [
+    "AI-Powered Code Generation: Generates code snippets based on natural language prompts.",
+    "Support for Multiple Languages: Handles code generation in various programming languages.",
+    "Transformer-Based Model: Utilizes advanced machine learning architectures for code synthesis.",
+    "Open-Source Availability: Accessible for customization and integration into workflows."
+  ],
+  "howToUse": [
+    {
+      "title": "Explore CodeGen on GitHub",
+      "description": "Visit the CodeGen repository for documentation, models, and usage.",
+      "links": [
+        {
+          "label": "CodeGen",
+          "url": "https://github.com/salesforce/CodeGen"
+        }
+      ]
+    },
+    {
+      "title": "Clone & Install",
+      "description": "Clone the repo and install required dependencies."
+    },
+    {
+      "title": "Generate Code",
+      "description": "Use the provided scripts or API to generate code from prompts."
+    }
+  ]
+}

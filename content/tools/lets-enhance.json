@@ -1,0 +1,59 @@
+{
+  "id": "lets-enhance",
+  "name": "Let's Enhance",
+  "url": "https://letsenhance.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Try our AI image & video tools: enhancer, upscaler, generator, editor. Online & API. Free to start.",
+  "description": "Try our AI image & video tools: enhancer, upscaler, generator, editor. Online & API. Free to start.\n\nAI Upscaling: Boosts image resolution. Color Correction: Fixes tones and lighting. Noise Reduction: Removes blur and grain. Preset Modes: Optimizes for print, e-com, and real estate.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "image-upscaling",
+    "photo-enhancement",
+    "ecommerce",
+    "print-quality",
+    "batch-processing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/lets-enhance.png",
+  "image": "/screenshots/lets-enhance.webp",
+  "dateAdded": "2019-12-10",
+  "lastVerified": null,
+  "features": [
+    "AI Upscaling: Boosts image resolution.",
+    "Color Correction: Fixes tones and lighting.",
+    "Noise Reduction: Removes blur and grain.",
+    "Preset Modes: Optimizes for print, e-com, and real estate."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Dashboard",
+      "description": "Register and log in to Let's Enhance.",
+      "links": [
+        {
+          "label": "Let's Enhance",
+          "url": "https://letsenhance.io/"
+        }
+      ]
+    },
+    {
+      "title": "Upload Images",
+      "description": "Add the images you want to upscale or enhance."
+    },
+    {
+      "title": "Select Enhancement Options",
+      "description": "Choose upscaling, color correction, or preset modes."
+    },
+    {
+      "title": "Download Enhanced Files",
+      "description": "Export high-resolution, improved photos for print or web."
+    }
+  ]
+}

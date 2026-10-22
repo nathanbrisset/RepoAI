@@ -1,0 +1,59 @@
+{
+  "id": "writesonic",
+  "name": "Writesonic",
+  "url": "https://writesonic.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "The AI Search Growth Engine. GEO, AEO, and AI visibility in one platform. Track 8 AI platforms, run the work, prove the lift. Trusted by Amazon, Unilever, Acer & NP Digital.",
+  "description": "The AI Search Growth Engine. GEO, AEO, and AI visibility in one platform. Track 8 AI platforms, run the work, prove the lift. Trusted by Amazon, Unilever, Acer & NP Digital.\n\nAI Article Writer: Generates blog posts and web content in minutes. Chatsonic Assistant: Chatbot with real-time web access. Landing Page Generator: Tailors content for product launches. Bulk Content Creation: Produce multiple pieces at scale.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai-writer",
+    "chatbot",
+    "image-generation",
+    "landing-pages",
+    "bulk-content"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/writesonic.png",
+  "image": "/screenshots/writesonic.webp",
+  "dateAdded": "2021-07-22",
+  "lastVerified": null,
+  "features": [
+    "AI Article Writer: Generates blog posts and web content in minutes.",
+    "Chatsonic Assistant: Chatbot with real-time web access.",
+    "Landing Page Generator: Tailors content for product launches.",
+    "Bulk Content Creation: Produce multiple pieces at scale."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Log In",
+      "description": "Register on Writesonic and access the dashboard.",
+      "links": [
+        {
+          "label": "Writesonic",
+          "url": "https://writesonic.com"
+        }
+      ]
+    },
+    {
+      "title": "Select Content Type",
+      "description": "Choose from blog, ad copy, landing page, or chatbot."
+    },
+    {
+      "title": "Provide Prompts & Info",
+      "description": "Input your product, business, or campaign details."
+    },
+    {
+      "title": "Generate & Edit",
+      "description": "Review, edit, and export generated content or images."
+    }
+  ]
+}

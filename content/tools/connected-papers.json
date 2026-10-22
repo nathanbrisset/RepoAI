@@ -1,0 +1,51 @@
+{
+  "id": "connected-papers",
+  "name": "Connected Papers",
+  "url": "https://www.connectedpapers.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Visual tool that builds graphs of academic papers related to a chosen paper.",
+  "description": "Connected Papers creates a graph of papers related to a starting paper, so researchers can see prior and derivative works in a field. The free tier includes all features with five graphs per month; paid plans remove the monthly limit. Discounted or free premium access is offered to users who cannot pay. The tool is intended to give a quick overview of a field before a literature review. Group plans are available with annual or quarterly billing.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "citation-graph",
+    "visualisation",
+    "papers"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.connectedpapers.com/pricing"
+  },
+  "logo": "https://www.connectedpapers.com/favicon.ico",
+  "image": "/screenshots/connected-papers.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.connectedpapers.com/",
+    "https://www.connectedpapers.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Connected Papers",
+      "description": "Go to Connected Papers to find and explore academic papers.",
+      "links": [
+        {
+          "label": "Connected Papers",
+          "url": "https://www.connectedpapers.com/"
+        }
+      ]
+    },
+    {
+      "title": "Build a graph from a starting paper",
+      "description": "Pick a starting paper and build a graph of related papers. Researchers can see prior and derivative works in the field and get a quick overview before a literature review."
+    },
+    {
+      "title": "Watch the monthly graph limit",
+      "description": "The free tier includes five graphs per month, and paid plans remove that monthly limit. Discounted or free premium access is offered to people who cannot pay. Group plans use annual or quarterly billing."
+    }
+  ]
+}

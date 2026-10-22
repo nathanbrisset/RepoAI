@@ -1,0 +1,57 @@
+{
+  "id": "lm-studio",
+  "name": "LM Studio",
+  "url": "https://lmstudio.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Desktop app to download and run open models locally, now with the Bionic agent.",
+  "description": "LM Studio is a desktop application for macOS, Windows and Linux that downloads and runs open-weight models on the user's own machine. It includes a chat interface and a local server compatible with the OpenAI API. Its Bionic agent can create documents, slides, PDFs and code using local or hosted models. The free plan covers local use; Bionic+ at $20 per month and Pro at $100 per month add US-hosted models and more usage.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "local-llm",
+    "desktop",
+    "open-models",
+    "privacy"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$20/mo (Bionic+)",
+    "sourceUrl": "https://lmstudio.ai/pricing"
+  },
+  "logo": "https://lmstudio.ai/assets/marketing/logo-192x192.png",
+  "image": "/screenshots/lm-studio.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://lmstudio.ai/",
+    "https://lmstudio.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Download LM Studio",
+      "description": "Open LM Studio and download the desktop application for macOS, Windows or Linux.",
+      "links": [
+        {
+          "label": "LM Studio",
+          "url": "https://lmstudio.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Run a model on your machine",
+      "description": "In the app, download an open-weight model and use the chat interface to run it locally on your machine."
+    },
+    {
+      "title": "Create with Bionic",
+      "description": "Ask the Bionic agent to create documents, slides, PDFs or code with a local model, or switch to a hosted model for heavier work."
+    },
+    {
+      "title": "Call the local server",
+      "description": "Turn on the local server, which is compatible with the OpenAI API, so another app on the machine can call the same model."
+    }
+  ]
+}

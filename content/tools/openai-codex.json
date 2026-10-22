@@ -1,0 +1,54 @@
+{
+  "id": "openai-codex",
+  "name": "OpenAI Codex",
+  "url": "https://openai.com/codex/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "OpenAI’s coding agent for the editor, terminal, and cloud, included with ChatGPT plans.",
+  "description": "Codex is OpenAI’s coding agent. The product page describes it working in ChatGPT, the editor, and the terminal, with cloud tasks and pull-request review. It is not described there as the engine behind GitHub Copilot. Official pricing pages on 21 October 2026 say Codex is included in ChatGPT plans. One page lists Plus at $20/month, Pro from $100/month, and a limited free trial. A second developer page listed Pro at $200/month and Business at $30/user/month. Use the live pricing page for the number you will pay.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "natural-language-processing",
+    "code-generation"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Included with ChatGPT. Plus is listed at $20/month on openai.com/codex. Developer docs differed on Pro and Business.",
+    "sourceUrl": "https://openai.com/codex/"
+  },
+  "logo": "/logos/openai-codex.png",
+  "image": "/screenshots/openai-codex.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Coding agent in ChatGPT, the CLI, and an IDE extension.",
+    "Cloud tasks that keep running after the laptop is closed.",
+    "Pull-request review on paid ChatGPT plans.",
+    "API-key use billed as model tokens, separate from the subscription."
+  ],
+  "howToUse": [
+    {
+      "title": "Open the Codex page",
+      "description": "Start from OpenAI’s Codex page. Access is tied to a ChatGPT plan.",
+      "links": [
+        {
+          "label": "Codex",
+          "url": "https://openai.com/codex/"
+        }
+      ]
+    },
+    {
+      "title": "Pick where you work",
+      "description": "OpenAI documents Codex in ChatGPT, the terminal, and an editor extension."
+    }
+  ],
+  "sources": [
+    "https://openai.com/codex/",
+    "https://developers.openai.com/codex/pricing/",
+    "https://chatgpt.com/codex/pricing/"
+  ]
+}

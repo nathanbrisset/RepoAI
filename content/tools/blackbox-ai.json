@@ -1,0 +1,57 @@
+{
+  "id": "blackbox-ai",
+  "name": "Blackbox AI",
+  "url": "https://www.blackbox.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Inference platform for dedicated open-weight models and a multi-model endpoint.",
+  "description": "The old URL useblackbox.io returned 404 on 21 October 2026. blackbox.ai answered 200. Its homepage describes a platform that runs an open-weight model you choose, or routes many models through one endpoint. It no longer matches the old “copy code from videos” blurb. No price was on that homepage.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "code-assistant",
+    "developer-productivity"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price not published on the homepage fetched 21 October 2026. The previous Freemium label was not confirmed.",
+    "sourceUrl": "https://www.blackbox.ai/"
+  },
+  "logo": "/logos/blackbox-ai.png",
+  "image": "/screenshots/blackbox-ai.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Video code extraction: Copy code directly from videos.",
+    "Autocomplete: AI-based code completions.",
+    "Multiple language support: Supports Python, JavaScript, and more.",
+    "Search engine: Find any code snippet instantly."
+  ],
+  "howToUse": [
+    {
+      "title": "Open Blackbox",
+      "description": "blackbox.ai describes a platform for frontier inference. useblackbox.io returned 404 on 21 October 2026.",
+      "links": [
+        {
+          "label": "Blackbox AI",
+          "url": "https://www.blackbox.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Choose a model",
+      "description": "The homepage says you can run an open-weight model you choose."
+    },
+    {
+      "title": "Or use one endpoint",
+      "description": "The same page says many models can be routed through one endpoint. No price was on that homepage."
+    }
+  ],
+  "sources": [
+    "https://www.blackbox.ai/"
+  ],
+  "statusNote": "useblackbox.io returns 404; blackbox.ai loads (title: 'Blackbox: The high-trust platform for frontier inference') - product positioning changed, review description"
+}

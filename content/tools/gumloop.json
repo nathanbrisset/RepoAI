@@ -1,0 +1,57 @@
+{
+  "id": "gumloop",
+  "name": "Gumloop",
+  "url": "https://www.gumloop.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code builder for AI agents and workflows that connect to company tools and models.",
+  "description": "Gumloop is a builder for AI agents and automations that non-engineers can use. Users combine AI models with integrations to apps such as Slack, Gmail and CRMs, then share the agents across the company while IT controls access. Templates cover sales research, outbound writing and customer success tasks. The pricing page lists Pro from $37 per month with a 14-day free trial, and Enterprise at custom pricing; no free plan was listed.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "ai-agents",
+    "no-code",
+    "integrations",
+    "automation"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$37/mo (Pro)",
+    "sourceUrl": "https://www.gumloop.com/pricing"
+  },
+  "logo": "https://www.gumloop.com/favicon.ico",
+  "image": "/screenshots/gumloop.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.gumloop.com/",
+    "https://www.gumloop.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Gumloop",
+      "description": "Open Gumloop and choose Get Started to build an agent, or Book a demo for a guided look.",
+      "links": [
+        {
+          "label": "Gumloop",
+          "url": "https://www.gumloop.com/"
+        }
+      ]
+    },
+    {
+      "title": "Combine models with integrations",
+      "description": "Pick a model, then connect integrations such as Slack, Gmail, or a CRM. This builder is for automations that non-engineers can run."
+    },
+    {
+      "title": "Start from a task template",
+      "description": "Open a template for sales research, outbound writing, or a customer success task. The page shows those jobs as Account Researcher, Outbound Writer, and Customer Success."
+    },
+    {
+      "title": "Share the agent, then check pricing",
+      "description": "Share the agent across the company so teammates can run it while IT controls access. On Pricing, Pro starts at $37 per month with a 14-day free trial, and Enterprise is custom pricing."
+    }
+  ]
+}

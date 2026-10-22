@@ -1,0 +1,52 @@
+{
+  "id": "codegeex",
+  "name": "CodeGeeX",
+  "url": "https://codegeex.cn/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A multilingual code generation model supporting over 20 programming languages.",
+  "description": "A multilingual code generation model supporting over 20 programming languages.\n\nMultilingual support: Generates code in over 20 languages. Large-scale model: Trained on extensive code datasets. Code translation: Translates code between languages. IDE integration: Compatible with popular development environments.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "multilingual",
+    "code-generation"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/codegeex.png",
+  "image": "/screenshots/codegeex.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Multilingual support: Generates code in over 20 languages.",
+    "Large-scale model: Trained on extensive code datasets.",
+    "Code translation: Translates code between languages.",
+    "IDE integration: Compatible with popular development environments."
+  ],
+  "howToUse": [
+    {
+      "title": "Open CodeGeeX",
+      "description": "Go to CodeGeeX and use its multilingual code generation model, which has support for over 20 programming languages.",
+      "links": [
+        {
+          "label": "CodeGeeX",
+          "url": "https://codegeex.cn/"
+        }
+      ]
+    },
+    {
+      "title": "Generate code, then translate it",
+      "description": "Use the large-scale model, trained on extensive code datasets, so it generates code. Then use code translation, which translates code between languages."
+    },
+    {
+      "title": "Add the IDE integration",
+      "description": "Turn on the IDE integration, which is compatible with popular development environments."
+    }
+  ]
+}

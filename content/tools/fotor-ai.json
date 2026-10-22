@@ -1,0 +1,57 @@
+{
+  "id": "fotor-ai",
+  "name": "Fotor AI",
+  "url": "https://www.fotor.com/ai-image-generator/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-powered photo editing and image generation platform.",
+  "description": "AI-powered photo editing and image generation platform.\n\nPhoto Enhancement: Improves image quality automatically. Background Removal: Eliminates backgrounds from photos. AI Retouching: Enhances portraits with AI tools. Artistic Effects: Applies creative filters to images.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "photo-editing",
+    "filters",
+    "ai-portrait"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/fotor-ai.png",
+  "image": "/screenshots/fotor-ai.webp",
+  "dateAdded": "2023-02-28",
+  "lastVerified": null,
+  "features": [
+    "Photo Enhancement: Improves image quality automatically.",
+    "Background Removal: Eliminates backgrounds from photos.",
+    "AI Retouching: Enhances portraits with AI tools.",
+    "Artistic Effects: Applies creative filters to images."
+  ],
+  "howToUse": [
+    {
+      "title": "Go to Fotor AI Image Generator",
+      "description": "Access the Fotor AI web platform.",
+      "links": [
+        {
+          "label": "Fotor AI",
+          "url": "https://www.fotor.com/features/ai-image-generator"
+        }
+      ]
+    },
+    {
+      "title": "Upload or Create Image",
+      "description": "Upload your photo or start from a text prompt to generate one."
+    },
+    {
+      "title": "Apply Enhancements",
+      "description": "Use AI tools for enhancement, retouching, or background removal."
+    },
+    {
+      "title": "Download & Share",
+      "description": "Export edited images or share them directly."
+    }
+  ]
+}

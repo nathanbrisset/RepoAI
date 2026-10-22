@@ -1,0 +1,54 @@
+{
+  "id": "aiva",
+  "name": "AIVA",
+  "url": "https://www.aiva.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AIVA, your AI music generation assistant",
+  "description": "AIVA, your AI music generation assistant\n\nAI Music Composition: Generates original music compositions. Customizable Styles: Allows users to set the mood and style of compositions. Sheet Music Generation: Provides sheet music for compositions. Integration with DAWs: Compatible with digital audio workstations.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "soundtrack",
+    "emotional-music",
+    "film-scores"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; aiva.ai/pricing: Free Forever EUR0, Standard EUR11/month annually",
+    "sourceUrl": "https://aiva.ai/pricing"
+  },
+  "logo": "/logos/aiva.png",
+  "image": "/screenshots/aiva.webp",
+  "dateAdded": "2023-01-20",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI Music Composition: Generates original music compositions.",
+    "Customizable Styles: Allows users to set the mood and style of compositions.",
+    "Sheet Music Generation: Provides sheet music for compositions.",
+    "Integration with DAWs: Compatible with digital audio workstations."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Log In",
+      "description": "Create an account at AIVA and access the dashboard.",
+      "links": [
+        {
+          "label": "AIVA",
+          "url": "https://aiva.ai"
+        }
+      ]
+    },
+    {
+      "title": "Create a New Composition",
+      "description": "Select style, mood, and parameters to generate music."
+    },
+    {
+      "title": "Download Audio or Sheet Music",
+      "description": "Export your composition as audio or sheet music for DAW use."
+    }
+  ]
+}

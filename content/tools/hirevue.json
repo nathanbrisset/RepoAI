@@ -1,0 +1,56 @@
+{
+  "id": "hirevue",
+  "name": "HireVue",
+  "url": "https://www.hirevue.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Hiring platform for video interviews, AI-led interviews, assessments and scheduling.",
+  "description": "HireVue offers video interviewing, an AI interviewer, pre-employment assessments, an assessment builder, candidate matching and scheduling, and fraud mitigation. It is free for candidates; employers buy it through sales, and no public prices are listed. Products cover the engage, screen, assess and interview stages of hiring. The platform includes integrations with other HR systems and an automation layer. The company publishes material on the science behind its assessments.",
+  "categories": [
+    "hr"
+  ],
+  "tags": [
+    "video-interviews",
+    "assessments",
+    "ai-interviewer",
+    "hiring"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": true,
+    "sourceUrl": "https://www.hirevue.com/pricing"
+  },
+  "logo": "https://www.hirevue.com/wp-content/uploads/2025/06/cropped-favicon-192x192.png",
+  "image": "/screenshots/hirevue.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.hirevue.com/",
+    "https://www.hirevue.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open HireVue",
+      "description": "Open HireVue. Candidates log in at no charge. Employers buy through sales, so choose Request a demo. No public prices are listed.",
+      "links": [
+        {
+          "label": "HireVue",
+          "url": "https://www.hirevue.com/"
+        }
+      ]
+    },
+    {
+      "title": "Move through the hiring stages",
+      "description": "Use the products that cover engage, screen, assess, and interview. That includes video interviewing, an AI interviewer, pre-employment assessments, and an assessment builder."
+    },
+    {
+      "title": "Match, schedule, and limit fraud",
+      "description": "Add candidate matching and scheduling, and use fraud mitigation. You can also connect other HR systems through the integrations, and use the automation layer."
+    },
+    {
+      "title": "Read the assessment science",
+      "description": "Read the material the company publishes on the science behind its assessments before you treat a result as a hiring decision."
+    }
+  ]
+}

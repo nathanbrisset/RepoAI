@@ -1,0 +1,56 @@
+{
+  "id": "meta-ai",
+  "name": "Meta AI",
+  "url": "https://www.meta.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Meta's AI assistant for questions, image generation and editing, available on the web and in Meta apps.",
+  "description": "Meta AI is the assistant built by Meta and offered on meta.ai as well as inside Meta's apps. It answers questions in a chat interface, generates and edits images from text prompts, and helps with everyday tasks such as finding places or comparing products listed on Marketplace. Access is free with a Meta account.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "chatbot",
+    "image-generation",
+    "assistant",
+    "meta"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": true,
+    "sourceUrl": "https://www.meta.ai/pricing"
+  },
+  "logo": "https://www.meta.ai/images/pwa_icons/apple/180.png?v=1",
+  "image": "/screenshots/meta-ai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.meta.ai/",
+    "https://www.meta.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Meta AI",
+      "description": "Open Meta AI on meta.ai, or use the assistant inside Meta's apps. Access is free with a Meta account.",
+      "links": [
+        {
+          "label": "Meta AI",
+          "url": "https://www.meta.ai"
+        }
+      ]
+    },
+    {
+      "title": "Ask in the chat interface",
+      "description": "Ask questions in the chat interface and read what the assistant answers, including everyday tasks such as finding places."
+    },
+    {
+      "title": "Generate or edit an image",
+      "description": "Enter a text prompt so Meta AI generates an image, or edit an image that is already in the conversation."
+    },
+    {
+      "title": "Compare Marketplace products",
+      "description": "Ask it to help by comparing products listed on Marketplace when you are choosing between listings."
+    }
+  ]
+}

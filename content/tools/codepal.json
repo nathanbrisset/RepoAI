@@ -1,0 +1,53 @@
+{
+  "id": "codepal",
+  "name": "CodePal",
+  "url": "https://codepal.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI app builder that turns ideas into production software.",
+  "description": "CodePal now presents itself as an AI app builder ('From idea to production. Your AI-powered dev team that ships real software, not demos'), with a CodePal Agent, in-app code edits and CodePal Cloud project hosting. Usage runs on credits. The free Starter plan ($0) includes 2 daily credits (up to 30 per month), up to 50 projects and limited Agent use; Standard is $25/month and Pro $50/month (annual billing) with 100 and 250 monthly credits, credit rollover and private projects; Enterprise is custom.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "code-generation",
+    "coding-assistant"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Usage runs on credits. The free Starter plan ($0) includes 2 daily credits (up to 30 per month), up to 50 projects and limited Agent use; Standard is $25/month and Pro $50/month (annual billing) with 100 and 250 monthly credits, credit rollover and private projects; Enterprise is custom.",
+    "sourceUrl": "https://codepal.ai/pricing"
+  },
+  "logo": "/logos/codepal.png",
+  "image": "/screenshots/codepal.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Code snippet generation: Creates code based on input.",
+    "Bug detection: Identifies potential issues in code.",
+    "Code simplification: Refactors complex code.",
+    "Supports various languages: Handles multiple programming languages."
+  ],
+  "howToUse": [
+    {
+      "title": "Open CodePal",
+      "description": "Go to CodePal, the AI app builder, describe the product you want and start free with no credit card. The Starter plan includes 2 daily credits, up to 30 per month, up to 50 projects and limited Agent use.",
+      "links": [
+        {
+          "label": "CodePal",
+          "url": "https://codepal.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Let the Agent build and edit",
+      "description": "Use the CodePal Agent so it ships software for production rather than demos, then make in-app code edits while the build runs."
+    },
+    {
+      "title": "Host the project",
+      "description": "Put the project on CodePal Cloud for hosting, publish a live URL and sync with GitHub. Usage runs on credits. Standard is $25 per month and Pro is $50 per month on annual billing, with 100 and 250 monthly credits, credit rollover and private projects. Enterprise is custom."
+    }
+  ]
+}

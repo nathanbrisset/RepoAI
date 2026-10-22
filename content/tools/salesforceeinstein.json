@@ -1,0 +1,64 @@
+{
+  "id": "salesforceeinstein",
+  "name": "Salesforce Einstein",
+  "url": "https://www.salesforce.com/artificial-intelligence/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Salesforce Einstein brings AI-driven analytics, insights, and automation to the Salesforce CRM, empowering marketers with predictive, personalized, and automated capabilities.",
+  "description": "Salesforce Einstein brings AI-driven analytics, insights, and automation to the Salesforce CRM, empowering marketers with predictive, personalized, and automated capabilities.\n\nAIforce lets you use trusted Salesforce data and agents in the tools you already work in — Slack, Claude, and beyond. See how it works.\n\nPredictive analytics and opportunity scoring. Automated insights for sales and marketing. Personalization for emails and offers. AI-powered workflow automation.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "crm",
+    "automation"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/salesforceeinstein.png",
+  "image": "/screenshots/salesforceeinstein.webp",
+  "dateAdded": "2025-06-11",
+  "lastVerified": null,
+  "features": [
+    "Predictive analytics and opportunity scoring.",
+    "Automated insights for sales and marketing.",
+    "Personalization for emails and offers.",
+    "AI-powered workflow automation."
+  ],
+  "howToUse": [
+    {
+      "title": "Access Salesforce Einstein",
+      "description": "Log in to your Salesforce account. Make sure Einstein is enabled in your CRM environment.",
+      "links": [
+        {
+          "label": "Salesforce Einstein",
+          "url": "https://www.salesforce.com/products/einstein/overview/"
+        }
+      ]
+    },
+    {
+      "title": "Configure Data Sources",
+      "description": "Connect CRM data, marketing platforms, and external data sources to feed Einstein’s analytics and prediction engine."
+    },
+    {
+      "title": "Leverage Predictive Analytics",
+      "description": "Use Einstein’s predictive scoring to identify high-value leads and opportunities, and to automate smart follow-ups."
+    },
+    {
+      "title": "Automate Campaigns & Workflows",
+      "description": "Set up automated campaigns and workflow rules using Einstein’s AI recommendations, triggers, and segmentation."
+    },
+    {
+      "title": "Personalize at Scale",
+      "description": "Let Einstein personalize emails, offers, and content for each contact based on data-driven insights."
+    },
+    {
+      "title": "Monitor and Refine",
+      "description": "Track performance with built-in analytics. Adjust automation and personalization strategies for continuous improvement."
+    }
+  ]
+}

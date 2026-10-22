@@ -1,0 +1,57 @@
+{
+  "id": "flutterflow",
+  "name": "FlutterFlow",
+  "url": "https://www.flutterflow.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Visual development platform for Flutter apps on mobile, web and desktop, with code export.",
+  "description": "FlutterFlow is a visual builder for applications based on Google's Flutter framework, targeting mobile, web and desktop. It includes AI features, templates and the option to download the generated source code. The Free plan allows building and testing up to two projects; Basic costs $39 per month with code download, and Growth costs $80 for the first seat and $55 for the second.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "flutter",
+    "low-code",
+    "mobile",
+    "code-export"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$39/mo (Basic)",
+    "sourceUrl": "https://www.flutterflow.io/pricing"
+  },
+  "logo": "https://www.flutterflow.io/apple-touch-icon.png",
+  "image": "/screenshots/flutterflow.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.flutterflow.io/",
+    "https://www.flutterflow.io/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open FlutterFlow",
+      "description": "Go to FlutterFlow and choose Start for Free or Log in.",
+      "links": [
+        {
+          "label": "FlutterFlow",
+          "url": "https://www.flutterflow.io/"
+        }
+      ]
+    },
+    {
+      "title": "Build the application visually",
+      "description": "Use the visual builder for applications on Google's Flutter framework, targeting mobile, web, and desktop, and start from templates when you want a base."
+    },
+    {
+      "title": "Test, then download the source",
+      "description": "Test the project in the builder, then download the generated source code."
+    },
+    {
+      "title": "Match the plan to the project count",
+      "description": "The Free plan allows building and testing up to two projects. Basic costs $39 per month and includes code download. Growth costs $80 for the first seat and $55 for the second."
+    }
+  ]
+}

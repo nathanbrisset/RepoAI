@@ -1,0 +1,63 @@
+{
+  "id": "mage_space",
+  "name": "Mage.Space",
+  "url": "https://www.mage.space/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Mage.Space is an AI art studio for creating images, videos, and animations from text prompts using cutting-edge generative models. It is popular for both personal and professional creative work, with privacy-focused and NSFW-friendly options.",
+  "description": "Mage.Space is an AI art studio for creating images, videos, and animations from text prompts using cutting-edge generative models. It is popular for both personal and professional creative work, with privacy-focused and NSFW-friendly options.\n\nUnlimited AI image and video generation with no creative limits. Free to start. Create characters, images, audio, and video fast — private by default.\n\nText-to-Image: Generate visuals from text prompts. Text-to-Video: Create short AI-powered videos. Animation: Turn static images into animated content. Private Generation: No content moderation for privacy-focused users.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "ai-art",
+    "image-generation",
+    "animation",
+    "video"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/mage_space.png",
+  "image": "/screenshots/mage_space.webp",
+  "dateAdded": "2022-10-01",
+  "lastVerified": null,
+  "features": [
+    "Text-to-Image: Generate visuals from text prompts.",
+    "Text-to-Video: Create short AI-powered videos.",
+    "Animation: Turn static images into animated content.",
+    "Private Generation: No content moderation for privacy-focused users.",
+    "Gallery: Explore and remix public works."
+  ],
+  "howToUse": [
+    {
+      "title": "Access Mage.Space",
+      "description": "Go to Mage.Space and start creating with or without an account.",
+      "links": [
+        {
+          "label": "Mage.Space",
+          "url": "https://mage.space"
+        }
+      ]
+    },
+    {
+      "title": "Enter Prompt",
+      "description": "Type your idea for an image, animation, or video."
+    },
+    {
+      "title": "Select Style & Options",
+      "description": "Choose generation settings and privacy options."
+    },
+    {
+      "title": "Generate & Review",
+      "description": "Create your content and review outputs. Iterate as needed."
+    },
+    {
+      "title": "Download or Share",
+      "description": "Save your work or publish to the public gallery."
+    }
+  ]
+}

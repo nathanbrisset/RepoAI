@@ -1,0 +1,57 @@
+{
+  "id": "profound",
+  "name": "Profound",
+  "url": "https://www.tryprofound.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Platform that monitors brand visibility in AI answer engines and runs marketing agents.",
+  "description": "Profound tracks what customers ask AI assistants and how brands appear in their answers, with answer engine insights, prompt volumes and shopping and agent analytics. It also deploys AI marketing agents and measures results in a shared workbench. The pricing page did not render during this check, so no price was recorded. Resources include an AEO guide, the Profound Index and a research hub.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "aeo",
+    "geo",
+    "ai-visibility",
+    "answer-engines"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "The official pricing page lists a free 7-day trial, with 50 prompts a day, and paid Enterprise and Agency Growth plans. No dollar price was shown.",
+    "sourceUrl": "https://www.tryprofound.com/pricing"
+  },
+  "logo": "https://static.tryprofound.com/favicons/v1/production/light.svg",
+  "image": "/screenshots/profound.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://www.tryprofound.com/",
+    "https://www.tryprofound.com/plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Profound",
+      "description": "Open Profound and request a demo of the marketing platform.",
+      "links": [
+        {
+          "label": "Profound",
+          "url": "https://www.tryprofound.com/"
+        }
+      ]
+    },
+    {
+      "title": "Track how brands appear in answers",
+      "description": "Profound tracks what customers ask assistants and how brands appear in answers, through answer engine insights, prompt volumes, and shopping and agent analytics."
+    },
+    {
+      "title": "Deploy agents and measure results",
+      "description": "Deploy AI marketing agents and measure results in the shared workbench."
+    },
+    {
+      "title": "Open the research resources",
+      "description": "Read the AEO guide, the Profound Index, and the research hub. During this check the pricing page did not render, so no price was recorded."
+    }
+  ]
+}

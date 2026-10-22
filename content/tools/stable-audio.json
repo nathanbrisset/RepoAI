@@ -1,0 +1,53 @@
+{
+  "id": "stable-audio",
+  "name": "Stable Audio",
+  "url": "https://stableaudio.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Stability AI's audio toolkit for generating music and sound with commercially safe models.",
+  "description": "Stable Audio is Stability AI's tool for creating music and sound effects with models trained for commercial safety, aimed at iterative creative work by professionals. The Free plan gives 50 credits per month for personal, non-commercial use. Solo costs $12 per month with a commercial licence, Session $30, Producer $90 and Studio $199 per month. An enterprise option exists for larger organisations.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "music-generation",
+    "sound-effects",
+    "commercial-license",
+    "stability-ai"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$12/mo (Solo)",
+    "sourceUrl": "https://stableaudio.com/pricing"
+  },
+  "logo": "https://stableaudio.com/st-1/favicon.svg",
+  "image": "/screenshots/stable-audio.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://stableaudio.com/",
+    "https://stableaudio.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Stable Audio",
+      "description": "Open Stable Audio. It is Stability AI's product for creating music and sound effects.",
+      "links": [
+        {
+          "label": "Stable Audio",
+          "url": "https://stableaudio.com/"
+        }
+      ]
+    },
+    {
+      "title": "Shape a clip",
+      "description": "Work with the models trained for commercial safety. The product is aimed at iterative creative work by professionals."
+    },
+    {
+      "title": "Use your credits",
+      "description": "The Free plan gives 50 credits each month for personal, non-commercial use. Solo costs $12 a month and adds a commercial licence. Session costs $30, Producer $90 and Studio $199 per month. Larger organisations can take the enterprise option, which exists beside those tiers."
+    }
+  ]
+}

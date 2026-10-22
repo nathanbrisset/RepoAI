@@ -1,0 +1,58 @@
+{
+  "id": "pulse",
+  "name": "Pulse",
+  "url": "https://pulsedata.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Pulse is a data analytics platform designed for monitoring business performance, tracking key metrics, and visualizing KPIs. With customizable dashboards, real-time alerts, and integration capabilities, Pulse helps organizations stay on top of their data and make data-driven decisions. It is particularly useful for executives and managers who need at-a-glance insights into business operations.",
+  "description": "Pulse is a data analytics platform designed for monitoring business performance, tracking key metrics, and visualizing KPIs. With customizable dashboards, real-time alerts, and integration capabilities, Pulse helps organizations stay on top of their data and make data-driven decisions. It is particularly useful for executives and managers who need at-a-glance insights into business operations.\n\nRevolutionizing Population Health Outcomes with Clinically-Validated Predictive Insights.\n\nKPI Tracking: Monitors business metrics in real time. Custom Dashboards: Build visualizations for specific teams or goals. Alerting: Notifies users of anomalies or performance thresholds. Integrates with Data Sources: Connects to databases and business tools.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "analytics",
+    "kpi",
+    "data-monitoring"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/pulse.png",
+  "image": "/screenshots/pulse.webp",
+  "dateAdded": "2019-02-01",
+  "lastVerified": null,
+  "features": [
+    "KPI Tracking: Monitors business metrics in real time.",
+    "Custom Dashboards: Build visualizations for specific teams or goals.",
+    "Alerting: Notifies users of anomalies or performance thresholds.",
+    "Integrates with Data Sources: Connects to databases and business tools.",
+    "Data Visualization: Offers a variety of charts and graphs for deep insights."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Connect Data Sources",
+      "description": "Register for Pulse and log in. Connect your business data sources (databases, SaaS tools) to the platform.",
+      "links": [
+        {
+          "label": "Pulse",
+          "url": "https://www.pulsedata.io"
+        }
+      ]
+    },
+    {
+      "title": "Build Custom Dashboards",
+      "description": "Use the dashboard builder to create visualizations for specific teams, departments, or KPIs."
+    },
+    {
+      "title": "Set Up Alerts",
+      "description": "Configure real-time alerts for threshold breaches, anomalies, or significant changes in your metrics."
+    },
+    {
+      "title": "Monitor & Analyze",
+      "description": "Track key metrics and interact with dashboards to gain actionable business insights."
+    }
+  ]
+}

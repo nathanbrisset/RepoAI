@@ -1,0 +1,63 @@
+{
+  "id": "gencraft",
+  "name": "Gencraft",
+  "url": "https://gencraft.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Gencraft is an AI image generator that creates unique visuals for art, marketing, and storytelling. It offers high-res downloads, a prompt marketplace, and commercial licensing.",
+  "description": "Gencraft is an AI image generator that creates unique visuals for art, marketing, and storytelling. It offers high-res downloads, a prompt marketplace, and commercial licensing.\n\nAI art generator. Create a free account. Try hundreds of AI models. Remix artwork from 10M+ users. Use AI to create stunning images, avatars, and photos\n\nPrompt Marketplace: Share and discover creative prompts. High-Resolution Output: Download images up to 4K. Style Filters: Apply different art styles. Commercial Use: License for business and marketing.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "ai-art",
+    "image-generation",
+    "marketing",
+    "prompt"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/gencraft.png",
+  "image": "/screenshots/gencraft.webp",
+  "dateAdded": "2023-04-01",
+  "lastVerified": null,
+  "features": [
+    "Prompt Marketplace: Share and discover creative prompts.",
+    "High-Resolution Output: Download images up to 4K.",
+    "Style Filters: Apply different art styles.",
+    "Commercial Use: License for business and marketing.",
+    "Batch Generation: Create multiple images at once."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up or Log In",
+      "description": "Visit Gencraft and create an account for high-res downloads and marketplace access.",
+      "links": [
+        {
+          "label": "Gencraft",
+          "url": "https://gencraft.com"
+        }
+      ]
+    },
+    {
+      "title": "Enter a Prompt",
+      "description": "Type your creative prompt. Use the marketplace for inspiration."
+    },
+    {
+      "title": "Choose Styles and Settings",
+      "description": "Select art styles or filters, and set your desired resolution."
+    },
+    {
+      "title": "Generate and Download",
+      "description": "Generate images, preview results, and download the ones you like."
+    },
+    {
+      "title": "Use Commercially or Share",
+      "description": "License images for business, or share your creations on the platform."
+    }
+  ]
+}

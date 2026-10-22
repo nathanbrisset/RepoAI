@@ -1,0 +1,57 @@
+{
+  "id": "digits",
+  "name": "Digits",
+  "url": "https://digits.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI accounting software with automated bookkeeping, real-time financials, bill pay and invoicing.",
+  "description": "Digits is accounting software with automated bookkeeping, real-time financial statements, an AI month-end close, bill pay and invoicing, and an API and MCP server with write access. It connects to more than 12,000 financial institutions. A free trial is offered; plans start at $65 per month for Essentials, with Core at $100 and Pro at $250 per month. The API and MCP server are free and open to extend.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "bookkeeping",
+    "accounting",
+    "bill-pay",
+    "small-business"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$65/mo (Essentials)",
+    "sourceUrl": "https://digits.com/pricing"
+  },
+  "logo": "https://digits.com/favicon/favicon-1024.png?v=3",
+  "image": "/screenshots/digits.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://digits.com/",
+    "https://digits.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Digits",
+      "description": "Go to Digits and choose Get started or Sign in to enter the accounting software.",
+      "links": [
+        {
+          "label": "Digits",
+          "url": "https://digits.com/"
+        }
+      ]
+    },
+    {
+      "title": "Run automated bookkeeping",
+      "description": "Use automated bookkeeping, then review the real-time financial statements, bill pay, and invoicing."
+    },
+    {
+      "title": "Close the month",
+      "description": "Run the AI month-end close, and use Ask Digits when a figure in those statements needs an explanation."
+    },
+    {
+      "title": "Connect institutions and extend access",
+      "description": "Connect financial institutions (the page cites more than 12,000) and extend the books through the API and MCP server, which include write access."
+    }
+  ]
+}

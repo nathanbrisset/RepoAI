@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Tool } from '@/lib/types';
 import { advancedSearch } from '@/lib/recommendation-engine';
 import { useRouter } from 'next/navigation';
-import { Sparkles, Search, ArrowRight, Star, TrendingUp, Clock, ExternalLink } from 'lucide-react';
+import { Sparkles, Search, ArrowRight, Clock, ExternalLink } from 'lucide-react';
 
 interface AIMatchProps {
   tools: Tool[];
@@ -19,8 +19,6 @@ export function AIMatch({ tools }: AIMatchProps) {
     reasons: string[];
   }[]>([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-  const [result, setResult] = useState<any>(null);
   const router = useRouter();
 
   useEffect(() => {
@@ -44,34 +42,11 @@ export function AIMatch({ tools }: AIMatchProps) {
     router.push(`/tool/${toolId}`);
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsLoading(true);
-    setError(null);
-    setResult(null);
-
-    try {
-      const response = await fetch('/api/recommend', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ prompt: query }),
-      });
-
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || 'Failed to get recommendation');
-      }
-
-      const data = await response.json();
-      setResult(data);
-    } catch (err) {
-      console.error('Error getting recommendation:', err);
-      setError(err instanceof Error ? err.message : 'An error occurred');
-    } finally {
-      setIsLoading(false);
-    }
+    const trimmed = query.trim();
+    if (!trimmed) return;
+    router.push(`/recommendation?query=${encodeURIComponent(trimmed)}`);
   };
 
   return (
@@ -110,26 +85,6 @@ export function AIMatch({ tools }: AIMatchProps) {
         </button>
       </form>
 
-      {error && (
-        <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-md">
-          <p className="text-sm text-red-600">{error}</p>
-        </div>
-      )}
-
-      {result && (
-        <div className="mt-4 p-4 bg-green-50 border border-green-200 rounded-md">
-          <h3 className="text-lg font-medium text-green-800">Your AI Match:</h3>
-          <p className="mt-2 text-sm text-green-700">{result.recommendation}</p>
-          {result.tool && (
-            <div className="mt-4">
-              <h4 className="text-sm font-medium text-green-800">Recommended Tool:</h4>
-              <p className="mt-1 text-sm text-green-700">{result.tool.name}</p>
-              <p className="mt-1 text-sm text-green-600">{result.tool.description}</p>
-            </div>
-          )}
-        </div>
-      )}
-
       {recommendations.length > 0 && (
         <div className="mt-4 space-y-4">
           {recommendations.map(({ tool, reasons }) => (
@@ -145,14 +100,6 @@ export function AIMatch({ tools }: AIMatchProps) {
                     {tool.description}
                   </p>
                   <div className="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
-                    <div className="flex items-center gap-1">
-                      <Star className="w-4 h-4" />
-                      <span>{tool.rating.toFixed(1)}</span>
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <TrendingUp className="w-4 h-4" />
-                      <span>{tool.visits.toLocaleString()} visits</span>
-                    </div>
                     <div className="flex items-center gap-1">
                       <Clock className="w-4 h-4" />
                       <span>{new Date(tool.dateAdded).toLocaleDateString()}</span>

@@ -1,0 +1,59 @@
+{
+  "id": "voicemyai",
+  "name": "Voicemy.ai",
+  "url": "https://voicemy.ai",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "A voice cloning platform that allows users to create and customize AI voices for various applications.",
+  "description": "A voice cloning platform that allows users to create and customize AI voices for various applications.\n\nAI audio processing: Voicemy.ai supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "ai",
+    "audio",
+    "speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "",
+  "image": "",
+  "dateAdded": "2025-06-04",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI audio processing: Voicemy.ai supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Log In",
+      "description": "Register and access Voicemy.ai’s dashboard.",
+      "links": [
+        {
+          "label": "Voicemy.ai",
+          "url": "https://voicemy.ai"
+        }
+      ]
+    },
+    {
+      "title": "Create or Clone Voices",
+      "description": "Use the platform to generate or clone custom voices for your projects."
+    },
+    {
+      "title": "Apply to Audio",
+      "description": "Synthesize or modify recordings with AI-generated voices."
+    },
+    {
+      "title": "Export or Integrate",
+      "description": "Download files or use APIs for integration in other apps."
+    }
+  ],
+  "statusNote": "voicemy.ai returns 404 'Site Not Found | Framer'"
+}

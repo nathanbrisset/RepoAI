@@ -1,0 +1,55 @@
+{
+  "id": "reve",
+  "name": "Reve",
+  "url": "https://app.reve.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Image model and app for creating, editing and remixing images with text and a visual editor.",
+  "description": "Reve is an image generation model and app. Users create images from prompts, edit them with natural-language instructions and use a drag-and-drop editor to adjust layouts, and they can remix existing images. A pricing page exists but its content did not render during this check, so no plan or price was recorded. A dedicated page describes the underlying Reve image model. Access requires signing in to the web app.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "text-to-image",
+    "image-editing",
+    "prompt-adherence"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "The official pricing page lists Free at $0/month, Lite at $7.99/month, Pro at $19.99/month and Teams at $59 per user per month.",
+    "sourceUrl": "https://app.reve.com/pricing"
+  },
+  "logo": "https://app.reve.com/icon.svg",
+  "image": "/screenshots/reve.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://reve.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Reve",
+      "description": "Open Reve and sign in. Access requires signing in to the web app before you generate an image.",
+      "links": [
+        {
+          "label": "Reve",
+          "url": "https://app.reve.com/"
+        }
+      ]
+    },
+    {
+      "title": "Create an image from a prompt",
+      "description": "Create images from prompts, then edit them with natural-language instructions."
+    },
+    {
+      "title": "Adjust a layout or remix",
+      "description": "Use the drag-and-drop editor to adjust layouts, or remix existing images."
+    },
+    {
+      "title": "Read the model page",
+      "description": "Open the dedicated page that describes the underlying Reve image generation model. A pricing page exists, but its content did not render during this check, so no price was recorded."
+    }
+  ]
+}

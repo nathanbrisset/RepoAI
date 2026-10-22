@@ -1,0 +1,57 @@
+{
+  "id": "coderabbit",
+  "name": "CodeRabbit",
+  "url": "https://www.coderabbit.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI code review for pull requests, with triage, change explanations and security monitoring.",
+  "description": "CodeRabbit reviews pull requests automatically on GitHub, GitLab and other platforms. It comments on bugs, style and security issues, explains changes and learns from team feedback. Newer products cover issue triage and continuous security monitoring. Plans start at $24 per user per month billed annually, with higher tiers at $48 and $72, and a free trial is offered.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "code-review",
+    "pull-requests",
+    "security",
+    "github"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$24/user/mo (annual)",
+    "sourceUrl": "https://www.coderabbit.ai/pricing"
+  },
+  "logo": "https://www.coderabbit.ai/apple-touch-icon.png?v=4",
+  "image": "/screenshots/coderabbit.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.coderabbit.ai/",
+    "https://www.coderabbit.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Connect the repository",
+      "description": "Sign in on CodeRabbit and connect GitHub or GitLab so a review can run on pull requests.",
+      "links": [
+        {
+          "label": "CodeRabbit",
+          "url": "https://www.coderabbit.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Open a pull request",
+      "description": "Push a branch and open the pull request. Read the comments CodeRabbit leaves on bugs, style, and security issues."
+    },
+    {
+      "title": "Reply in the thread",
+      "description": "Answer a comment when it is wrong or when the team wants a different style. Later reviews follow that feedback."
+    },
+    {
+      "title": "Turn on triage or the security scan",
+      "description": "If the plan includes them, enable issue triage and the continuous security monitoring."
+    }
+  ]
+}

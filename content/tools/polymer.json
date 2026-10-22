@@ -1,0 +1,56 @@
+{
+  "id": "polymer",
+  "name": "Polymer",
+  "url": "https://www.polymersearch.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Tool for AI-generated dashboards, conversational analytics and embedded analytics.",
+  "description": "Polymer builds dashboards and interactive reports from connected data sources and suggests insights with AI. It also offers conversational analytics and embedded analytics through an API, for companies that want to show charts inside their own products. Paid plans start at $20 per month; Pro has a 14-day free trial and costs $40 per month. Students and educators can use it for free.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "dashboards",
+    "embedded-analytics",
+    "ai-insights"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "paid",
+    "label": "Premium",
+    "note": "The official pricing page lists Starter at $20 per month, or $10 per month billed yearly, and Pro at $40 per month with a 14-day trial. No general free plan was shown.",
+    "sourceUrl": "https://www.polymersearch.com/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/6141c766b4919f865b6cb85b/615718366d4a4a2ecd9e3401_fav-icon-256.jpg",
+  "image": "/screenshots/polymer.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-22",
+  "sources": [
+    "https://www.polymersearch.com/",
+    "https://www.polymersearch.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Connect a data source",
+      "description": "Open Polymer and connect a spreadsheet or one of the listed integrations.",
+      "links": [
+        {
+          "label": "Polymer",
+          "url": "https://www.polymersearch.com/"
+        }
+      ]
+    },
+    {
+      "title": "Build the dashboard",
+      "description": "Turn that data into a dashboard or an interactive report, and read the insights Polymer suggests."
+    },
+    {
+      "title": "Ask a question or embed the charts",
+      "description": "Use the conversational view so a question becomes charts, or embed those charts in your own product through the API."
+    },
+    {
+      "title": "Start Starter or the Pro trial",
+      "description": "Starter is the entry paid plan. Pro includes a 14-day trial. The pricing page did not show a general free plan."
+    }
+  ]
+}

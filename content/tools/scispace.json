@@ -1,0 +1,50 @@
+{
+  "id": "scispace",
+  "name": "SciSpace",
+  "url": "https://scispace.com",
+  "affiliateUrl": "",
+  "status": "inactive",
+  "summary": "AI research assistant for literature reviews and academic writing across 280M+ papers.",
+  "description": "SciSpace helps academics search more than 280 million papers, run systematic literature reviews, extract data from PDFs and write papers with cited sources. It is aimed at students, PhD candidates and researchers. Paid plans start with Premium at $20 per month or $12 per month billed annually, with Advanced and Max tiers above it.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "literature-review",
+    "papers",
+    "academic-writing",
+    "citations"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "https://scispace.com/icon.png",
+  "image": "/screenshots/scispace.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://scispace.com/",
+    "https://scispace.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open SciSpace",
+      "description": "Open SciSpace and search the index of more than 280 million papers.",
+      "links": [
+        {
+          "label": "SciSpace",
+          "url": "https://scispace.com"
+        }
+      ]
+    },
+    {
+      "title": "Review the literature",
+      "description": "Run systematic literature reviews, then extract data from the PDFs you keep."
+    },
+    {
+      "title": "Write with citations",
+      "description": "Write the paper with cited sources. The workflow is aimed at academics, students, PhD candidates and researchers."
+    }
+  ]
+}

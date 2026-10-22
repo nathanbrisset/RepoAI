@@ -1,0 +1,73 @@
+{
+  "id": "vidyoai",
+  "name": "Vidyo.ai",
+  "url": "https://quso.ai/",
+  "affiliateUrl": "",
+  "status": "renamed",
+  "summary": "Vidyo.ai repurposes long-form videos into short, social-ready clips using AI, with auto-captioning, highlights, and vertical format conversion.",
+  "description": "Vidyo.ai repurposes long-form videos into short, social-ready clips using AI, with auto-captioning, highlights, and vertical format conversion.\n\nAI highlight detection: Automatically analyzes videos to find the most engaging moments, perfect for sharing on social media. Auto-captioning: Generates accurate, on-brand subtitles for every clip, improving accessibility and engagement. Format conversion: Instantly adapt content for TikTok, Instagram, or YouTube by converting to vertical, square, or horizontal formats. Batch processing: Process and export dozens of clips from long-form content in a fraction of the time.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "clips",
+    "social-media"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/vidyoai.png",
+  "image": "/screenshots/vidyoai.webp",
+  "dateAdded": "2025-06-13",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI highlight detection: Automatically analyzes videos to find the most engaging moments, perfect for sharing on social media.",
+    "Auto-captioning: Generates accurate, on-brand subtitles for every clip, improving accessibility and engagement.",
+    "Format conversion: Instantly adapt content for TikTok, Instagram, or YouTube by converting to vertical, square, or horizontal formats.",
+    "Batch processing: Process and export dozens of clips from long-form content in a fraction of the time."
+  ],
+  "howToUse": [
+    {
+      "title": "Register and Access Dashboard",
+      "description": "Go to Vidyo.ai and sign up for a free or premium account. After email confirmation, log into the dashboard.",
+      "links": [
+        {
+          "label": "Vidyo.ai",
+          "url": "https://quso.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Upload a Long-Form Video",
+      "description": "Click the 'Upload Video' button and select your source video file (supported formats: MP4, MOV, etc.). Vidyo.ai will process most standard video types."
+    },
+    {
+      "title": "Choose Output Platform & Format",
+      "description": "Select the target platform (TikTok, Reels, Shorts, etc.). Vidyo.ai will recommend the best aspect ratio, clip length, and settings for that platform."
+    },
+    {
+      "title": "Let AI Generate Clips",
+      "description": "Vidyo.ai's AI will automatically detect key highlights and create multiple short, engaging clips from your long-form video."
+    },
+    {
+      "title": "Edit and Fine-Tune",
+      "description": "Review all generated clips. Use the built-in editor to trim, rearrange, add logos, overlays, music, and filters as needed."
+    },
+    {
+      "title": "Add Captions",
+      "description": "Enable auto-captioning for all clips, then review and edit the captions for accuracy, branding, and style."
+    },
+    {
+      "title": "Preview and Export",
+      "description": "Preview your clips and export in the optimal format for your chosen platform, ready for upload to social media."
+    },
+    {
+      "title": "Batch Process (Optional)",
+      "description": "For bulk work, upload and process multiple long videos at once—Vidyo.ai will handle batch highlight generation and export."
+    }
+  ],
+  "statusNote": "vidyo.ai redirects to quso.ai (rebrand)"
+}

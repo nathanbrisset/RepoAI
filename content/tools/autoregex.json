@@ -1,0 +1,56 @@
+{
+  "id": "autoregex",
+  "name": "AutoRegex",
+  "url": "https://www.autoregex.xyz/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Convert natural language to regular expressions using AI.",
+  "description": "Convert natural language to regular expressions using AI.\n\nNatural language input: Describe pattern needs in plain text. Regex output: Instant conversion to valid regular expressions. Syntax highlighting: Understand and edit regex easily. Learning tool: Helps beginners master regex concepts.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "regex",
+    "natural-language"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/autoregex.png",
+  "image": "/screenshots/autoregex.webp",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Natural language input: Describe pattern needs in plain text.",
+    "Regex output: Instant conversion to valid regular expressions.",
+    "Syntax highlighting: Understand and edit regex easily.",
+    "Learning tool: Helps beginners master regex concepts."
+  ],
+  "howToUse": [
+    {
+      "title": "Describe Your Pattern",
+      "description": "Go to the AutoRegex website and enter a plain language description of the pattern you want to convert to regex.",
+      "links": [
+        {
+          "label": "AutoRegex",
+          "url": "https://www.autoregex.xyz/"
+        }
+      ]
+    },
+    {
+      "title": "Get Regex Output",
+      "description": "The tool instantly generates a regular expression based on your input."
+    },
+    {
+      "title": "Copy or Edit Regex",
+      "description": "Copy the generated regex or use syntax highlighting and tools to further refine it."
+    },
+    {
+      "title": "Learn Regex Concepts",
+      "description": "Review explanations and visualizations to understand how the regex works."
+    }
+  ]
+}

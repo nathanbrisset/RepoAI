@@ -1,0 +1,62 @@
+{
+  "id": "comfyui",
+  "name": "ComfyUI",
+  "url": "https://github.com/Comfy-Org/ComfyUI",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An open-source, node-based program that allows users to generate images from text prompts using diffusion models.",
+  "description": "An open-source, node-based program that allows users to generate images from text prompts using diffusion models.\n\nThe most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. - Comfy-Org/ComfyUI\n\nNode-based workflow: Build custom image generation pipelines. Custom model support: Use your own or community models. Real-time preview: Instantly see prompt results. Workflow export: Share and reuse generation setups.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "image-generation",
+    "diffusion-models"
+  ],
+  "pricing": {
+    "model": "open-source",
+    "label": "Open source",
+    "verified": true,
+    "note": "Checked on 22 October 2026: the official repository is free to run locally and remains open source. Comfy Cloud is a separate hosted product, with a free credit tier and paid plans.",
+    "sourceUrl": "https://github.com/Comfy-Org/ComfyUI"
+  },
+  "logo": "/logos/comfyui.png",
+  "image": "/screenshots/comfyui.webp",
+  "dateAdded": "2023-09-11",
+  "lastVerified": "2026-10-22",
+  "features": [
+    "Node-based workflow: Build custom image generation pipelines.",
+    "Custom model support: Use your own or community models.",
+    "Real-time preview: Instantly see prompt results.",
+    "Workflow export: Share and reuse generation setups.",
+    "Open source: Community-driven and extensible."
+  ],
+  "howToUse": [
+    {
+      "title": "Install ComfyUI",
+      "description": "Clone the repository from GitHub and follow the installation instructions for your OS.",
+      "links": [
+        {
+          "label": "ComfyUI",
+          "url": "https://github.com/comfyanonymous/ComfyUI"
+        }
+      ]
+    },
+    {
+      "title": "Launch the Interface",
+      "description": "Start the UI by running the provided script (e.g., python main.py)."
+    },
+    {
+      "title": "Build Your Workflow",
+      "description": "Drag and connect nodes to set up your image generation pipeline."
+    },
+    {
+      "title": "Generate Images",
+      "description": "Enter text prompts, select models, and tweak settings. Preview results in real time."
+    },
+    {
+      "title": "Export or Share Workflow",
+      "description": "Export workflows or results for reuse or sharing with the community."
+    }
+  ]
+}

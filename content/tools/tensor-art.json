@@ -1,0 +1,56 @@
+{
+  "id": "tensor-art",
+  "name": "Tensor.Art",
+  "url": "https://tensor.art",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Community platform for sharing and running image and video models online, including LoRA training.",
+  "description": "Tensor.Art is a model-sharing platform where users upload, download and run community image models, including Stable Diffusion checkpoints and LoRAs, and generate images and videos online. It also supports model training and remixing of shared works.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "model-hub",
+    "stable-diffusion",
+    "lora",
+    "community"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://tensor.art/pricing"
+  },
+  "logo": "https://images.tensorart.me/system/tensorart_logo_square_version.png",
+  "image": "/screenshots/tensor-art.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://tensor.art/",
+    "https://tensor.art/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Tensor.Art",
+      "description": "Open Tensor.Art, the model-sharing platform for community image models.",
+      "links": [
+        {
+          "label": "Tensor.Art",
+          "url": "https://tensor.art"
+        }
+      ]
+    },
+    {
+      "title": "Upload or download a model",
+      "description": "Upload your own model or download a community one, such as Stable Diffusion checkpoints or LoRAs, and run it online."
+    },
+    {
+      "title": "Generate images and videos",
+      "description": "Generate images and videos from the model you are running."
+    },
+    {
+      "title": "Train or remix",
+      "description": "Tensor.Art supports model training, and you can start remixing shared works."
+    }
+  ]
+}
