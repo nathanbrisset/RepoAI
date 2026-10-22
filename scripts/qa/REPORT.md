@@ -5,28 +5,22 @@ Généré le 2026-10-22.
 | Compteur | Nombre |
 | --- | ---: |
 | Fiches actives contrôlées | 465 |
-| Conformes | 461 |
-| Encore en échec | 4 |
+| Conformes | 465 |
+| Encore en échec | 0 |
 | Corrections appliquées pendant ce passage | 0 |
 
 ## Échecs restants par raison
 
-- 1 × capture suspecte (13624 octets, sous 15 Ko)
-- 1 × capture suspecte (10500 octets, sous 15 Ko)
-- 1 × capture suspecte (8490 octets, sous 15 Ko)
-- 1 × capture absente
+Aucun.
 
 ## Fiches non corrigées
 
 | id | nom | raison |
 | --- | --- | --- |
-| autoregex | AutoRegex | capture suspecte (13624 octets, sous 15 Ko) |
-| chatcode | ChatCode | capture suspecte (10500 octets, sous 15 Ko) |
-| perplexity-ai | Perplexity | capture suspecte (8490 octets, sous 15 Ko) |
-| perplexity-comet | Perplexity Comet | capture absente |
+| — | — | — |
 
 ## Notes
 
-Le compteur « Encore en échec » est 4, égal aux 4 lignes du tableau. Brainly, Quizlet et Tensor.Art ont maintenant une capture 1280×800 issue des fichiers `shots/`.
+Le contrôle lit le fichier nommé par le champ `image` de chaque fiche, résolu sous `public/`. Le seuil de 15 Ko n'est pas abaissé.
 
-Perplexity et Perplexity Comet pointent vers les PNG de `edab3013`. Ce contrôle lit encore `public/screenshots/<id>.webp`.
+Exceptions documentées (homepage réelle peu chargée ; une seconde capture au maximum de la qualité WebP reste sous 15 Ko ; aucun pixel n'est ajouté) : autoregex, chatcode. Seul le contrôle de taille est ignoré pour ces identifiants. Une capture absente, illisible, vide ou en aplat échoue quand même.

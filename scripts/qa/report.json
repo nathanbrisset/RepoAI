@@ -1,47 +1,9 @@
 {
-  "generatedAt": "2026-10-22T09:20:53.269Z",
+  "generatedAt": "2026-10-22T09:25:33.082Z",
   "activeChecked": 465,
-  "passed": 461,
-  "failed": 4,
+  "passed": 465,
+  "failed": 0,
   "fixes": [],
-  "byReason": {
-    "capture suspecte (13624 octets, sous 15 Ko)": 1,
-    "capture suspecte (10500 octets, sous 15 Ko)": 1,
-    "capture suspecte (8490 octets, sous 15 Ko)": 1,
-    "capture absente": 1
-  },
-  "failures": [
-    {
-      "id": "autoregex",
-      "name": "AutoRegex",
-      "url": "https://www.autoregex.xyz/",
-      "failures": [
-        "capture suspecte (13624 octets, sous 15 Ko)"
-      ]
-    },
-    {
-      "id": "chatcode",
-      "name": "ChatCode",
-      "url": "https://chatcodeai.vercel.app/",
-      "failures": [
-        "capture suspecte (10500 octets, sous 15 Ko)"
-      ]
-    },
-    {
-      "id": "perplexity-ai",
-      "name": "Perplexity",
-      "url": "https://www.perplexity.ai",
-      "failures": [
-        "capture suspecte (8490 octets, sous 15 Ko)"
-      ]
-    },
-    {
-      "id": "perplexity-comet",
-      "name": "Perplexity Comet",
-      "url": "https://www.perplexity.ai/comet",
-      "failures": [
-        "capture absente"
-      ]
-    }
-  ]
+  "byReason": {},
+  "failures": []
 }
