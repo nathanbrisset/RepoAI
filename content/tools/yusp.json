@@ -1,0 +1,63 @@
+{
+  "id": "yusp",
+  "name": "Yusp",
+  "url": "https://www.taboola.com/",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "Yusp provides AI-powered personalization engines for e-commerce and content sites. It increases sales and engagement with real-time, user-specific recommendations.",
+  "description": "Yusp provides AI-powered personalization engines for e-commerce and content sites. It increases sales and engagement with real-time, user-specific recommendations.\n\nReach 600M daily active users and achieve conversions at scale with the world's leading performance platform.\n\nPersonalized recommendations for each user. Cross-selling and upselling with AI. Behavioral targeting from user data. Instant updates as user behavior changes.",
+  "categories": [
+    "marketing",
+    "data-processing"
+  ],
+  "tags": [
+    "AI",
+    "Recommendation",
+    "Personalization"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/yusp.png",
+  "image": "/tool-screenshots/yusp.png",
+  "dateAdded": "2025-06-11",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Personalized recommendations for each user.",
+    "Cross-selling and upselling with AI.",
+    "Behavioral targeting from user data.",
+    "Instant updates as user behavior changes."
+  ],
+  "howToUse": [
+    {
+      "title": "Request Demo or Sign Up",
+      "description": "Go to Yusp and request a demo or sign up for an account. Consult with the Yusp team to set up your personalization engine.",
+      "links": [
+        {
+          "label": "Yusp",
+          "url": "https://www.taboola.com/"
+        }
+      ]
+    },
+    {
+      "title": "Integrate Yusp with Your Platform",
+      "description": "Install Yusp’s API, SDK, or plugin on your e-commerce or content site. Follow documentation to connect user and product data sources."
+    },
+    {
+      "title": "Configure Recommendation Settings",
+      "description": "Set up recommendation logic, cross-sell/upsell strategies, and define behavioral targeting rules for your use case."
+    },
+    {
+      "title": "Deploy and Test",
+      "description": "Launch your personalization engine on your website. Test recommendations and targeting for different user segments."
+    },
+    {
+      "title": "Monitor & Optimize",
+      "description": "Track engagement, sales, and conversion metrics with Yusp’s analytics dashboard. Refine recommendation strategies for optimal performance."
+    }
+  ],
+  "statusNote": "yusp.com redirects to taboola.com"
+}

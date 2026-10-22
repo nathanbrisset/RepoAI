@@ -1,0 +1,32 @@
+{
+  "id": "elicit",
+  "name": "Elicit",
+  "url": "https://elicit.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI research assistant for synthesizing scientific evidence.",
+  "description": "Elicit helps researchers search academic papers, extract data into tables and synthesize evidence for systematic reviews and research reports. It is designed for rigour, with sentence-level citations, and is used by over 7 million researchers. A free plan is available for basic search and summaries, and paid plans add higher limits, data extraction and reports.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "research",
+    "papers",
+    "literature-review"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "A free plan is available for basic search and summaries, and paid plans add higher limits, data extraction and reports.",
+    "sourceUrl": "https://elicit.com/pricing"
+  },
+  "logo": "/logos/elicit.png",
+  "image": "",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://elicit.com",
+    "https://elicit.com/pricing"
+  ]
+}

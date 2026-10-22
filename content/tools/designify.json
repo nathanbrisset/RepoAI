@@ -1,0 +1,61 @@
+{
+  "id": "designify",
+  "name": "Designify",
+  "url": "https://www.canva.com/features/ai-photo-editing/",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "AI tool for automatically enhancing product photos and removing backgrounds.",
+  "description": "AI tool for automatically enhancing product photos and removing backgrounds.\n\nBackground Removal: Clears backgrounds automatically. Image Retouching: Enhances photos with one click. Templates: Adds styles and frames to images. Batch Editing: Process many images at once.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "Background Removal",
+    "Photo Enhancement",
+    "Ecommerce",
+    "Automation",
+    "Batch Processing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/designify.png",
+  "image": "/tool-screenshots/designify.png",
+  "dateAdded": "2021-08-30",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Background Removal: Clears backgrounds automatically.",
+    "Image Retouching: Enhances photos with one click.",
+    "Templates: Adds styles and frames to images.",
+    "Batch Editing: Process many images at once."
+  ],
+  "howToUse": [
+    {
+      "title": "Go to Designify",
+      "description": "Access the Designify website to get started.",
+      "links": [
+        {
+          "label": "Designify",
+          "url": "https://www.canva.com/features/ai-photo-editing/"
+        }
+      ]
+    },
+    {
+      "title": "Upload Images",
+      "description": "Drag and drop or select photos for enhancement."
+    },
+    {
+      "title": "Apply Enhancements",
+      "description": "Let AI remove backgrounds, retouch, or style images automatically."
+    },
+    {
+      "title": "Download Enhanced Images",
+      "description": "Save processed photos for ecommerce or marketing."
+    }
+  ],
+  "statusNote": "designify.com redirects to Canva AI photo editing",
+  "successorId": "canva-ai"
+}

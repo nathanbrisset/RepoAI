@@ -1,0 +1,55 @@
+{
+  "id": "tabnine",
+  "name": "Tabnine",
+  "url": "https://www.tricentis.com/products",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Ship AI-generated code with confidence. The Tricentis Agentic Quality Engineering Platform unifies specialized AI agents under one governed control plane.",
+  "description": "Ship AI-generated code with confidence. The Tricentis Agentic Quality Engineering Platform unifies specialized AI agents under one governed control plane.\n\nContext-Aware Suggestions: Provide real-time code completions. AI Chat in IDE: Assist with coding tasks through natural language. Security and Compliance: Ensure code privacy and compliance. Integration with Tools: Work seamlessly with tools like Jira.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Code Completion",
+    "Multi Language",
+    "IDE Support"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/tabnine.png",
+  "image": "/tool-screenshots/tabnine.png",
+  "dateAdded": "2019-02-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Context-Aware Suggestions: Provide real-time code completions.",
+    "AI Chat in IDE: Assist with coding tasks through natural language.",
+    "Security and Compliance: Ensure code privacy and compliance.",
+    "Integration with Tools: Work seamlessly with tools like Jira."
+  ],
+  "howToUse": [
+    {
+      "title": "Install Tabnine Extension",
+      "description": "Add Tabnine to your preferred IDE (VS Code, JetBrains, etc.).",
+      "links": [
+        {
+          "label": "Tabnine",
+          "url": "https://www.tricentis.com/products"
+        }
+      ]
+    },
+    {
+      "title": "Write Code",
+      "description": "Start coding and accept Tabnine’s real-time suggestions."
+    },
+    {
+      "title": "Use AI Chat",
+      "description": "Ask questions or request code help directly in your editor."
+    }
+  ],
+  "statusNote": "tabnine.com redirects to Tricentis products page (utm_source=www.tabnine.com); verify whether Tabnine still exists as a product"
+}

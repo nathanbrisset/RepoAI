@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Tool } from '@/lib/types';
 import { advancedSearch } from '@/lib/recommendation-engine';
 import { useRouter } from 'next/navigation';
-import { Sparkles, Search, ArrowRight, Star, TrendingUp, Clock, ExternalLink } from 'lucide-react';
+import { Sparkles, Search, ArrowRight, Clock, ExternalLink } from 'lucide-react';
 
 interface AIMatchProps {
   tools: Tool[];
@@ -145,14 +145,6 @@ export function AIMatch({ tools }: AIMatchProps) {
                     {tool.description}
                   </p>
                   <div className="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
-                    <div className="flex items-center gap-1">
-                      <Star className="w-4 h-4" />
-                      <span>{tool.rating.toFixed(1)}</span>
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <TrendingUp className="w-4 h-4" />
-                      <span>{tool.visits.toLocaleString()} visits</span>
-                    </div>
                     <div className="flex items-center gap-1">
                       <Clock className="w-4 h-4" />
                       <span>{new Date(tool.dateAdded).toLocaleDateString()}</span>

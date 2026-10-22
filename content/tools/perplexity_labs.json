@@ -1,0 +1,60 @@
+{
+  "id": "perplexity_labs",
+  "name": "Perplexity Labs",
+  "url": "https://www.perplexity.ai/",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "Perplexity Labs is a platform that enables users to build, deploy, and manage AI-powered applications without extensive coding. It offers a no-code builder, model hosting, and analytics tools to track app performance. With easy API integrations and user management features, Perplexity Labs empowers organizations to quickly prototype and launch AI solutions tailored to their business needs.",
+  "description": "Perplexity Labs is a platform that enables users to build, deploy, and manage AI-powered applications without extensive coding. It offers a no-code builder, model hosting, and analytics tools to track app performance. With easy API integrations and user management features, Perplexity Labs empowers organizations to quickly prototype and launch AI solutions tailored to their business needs.\n\nNo-Code Builder: Create AI applications with a simple drag-and-drop editor. Model Hosting: Deploy and manage custom AI models. API Integrations: Connect with external data and services. User Management: Built-in authentication and access control.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "AI App",
+    "No Code",
+    "Deployment"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/perplexity_labs.png",
+  "image": "/tool-screenshots/perplexity_labs.png",
+  "dateAdded": "2023-01-01",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "No-Code Builder: Create AI applications with a simple drag-and-drop editor.",
+    "Model Hosting: Deploy and manage custom AI models.",
+    "API Integrations: Connect with external data and services.",
+    "User Management: Built-in authentication and access control.",
+    "Analytics Dashboard: Monitor the usage and performance of your AI apps."
+  ],
+  "howToUse": [
+    {
+      "title": "Register & Start a Project",
+      "description": "Sign up for Perplexity Labs and start a new AI app project.",
+      "links": [
+        {
+          "label": "Perplexity Labs",
+          "url": "https://www.perplexity.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Build with No-Code Editor",
+      "description": "Drag and drop components to create your AI application's interface and logic."
+    },
+    {
+      "title": "Deploy & Integrate Models",
+      "description": "Host your own AI models or use built-in ones. Integrate APIs and data sources as needed."
+    },
+    {
+      "title": "Manage Users & Monitor Usage",
+      "description": "Set up authentication, manage access, and track app usage with built-in analytics."
+    }
+  ],
+  "statusNote": "labs.perplexity.ai redirects to perplexity.ai; covered by Perplexity update row in lot v3",
+  "successorId": "perplexity-ai"
+}

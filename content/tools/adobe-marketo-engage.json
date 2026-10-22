@@ -1,0 +1,59 @@
+{
+  "id": "adobe-marketo-engage",
+  "name": "Adobe Marketo Engage",
+  "url": "https://business.adobe.com/products/marketo/adobe-marketo.html",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Marketing automation software for lead management, email marketing, and campaign management.",
+  "description": "Marketing automation software for lead management, email marketing, and campaign management.\n\nLead Management: Capture and score leads with automation. Cross-Channel Campaigns: Email, social, ads, and more. Personalization: Tailor experiences to user behavior. Analytics: Real-time reporting on campaign performance.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "Lead Management",
+    "Email Marketing",
+    "Campaign Management",
+    "Analytics"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/adobe-marketo-engage.png",
+  "image": "/tool-screenshots/adobe-marketo-engage.png",
+  "dateAdded": null,
+  "lastVerified": null,
+  "dateAddedNote": "The previous Added date was 2006-01-01. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Lead Management: Capture and score leads with automation.",
+    "Cross-Channel Campaigns: Email, social, ads, and more.",
+    "Personalization: Tailor experiences to user behavior.",
+    "Analytics: Real-time reporting on campaign performance."
+  ],
+  "howToUse": [
+    {
+      "title": "Request Demo or Start Trial",
+      "description": "Contact Adobe Marketo Engage for a demo or set up a free trial.",
+      "links": [
+        {
+          "label": "Adobe Marketo Engage",
+          "url": "https://business.adobe.com/products/marketo/adobe-marketo.html"
+        }
+      ]
+    },
+    {
+      "title": "Import Leads & Set Up Campaigns",
+      "description": "Add leads and create campaigns using built-in templates."
+    },
+    {
+      "title": "Personalize & Automate",
+      "description": "Use automation features to tailor experiences and trigger actions."
+    },
+    {
+      "title": "Analyze & Optimize",
+      "description": "Review analytics and continually optimize for results."
+    }
+  ]
+}

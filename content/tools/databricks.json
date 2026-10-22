@@ -1,0 +1,59 @@
+{
+  "id": "databricks",
+  "name": "Databricks",
+  "url": "https://www.databricks.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Databricks offers a unified platform for data, analytics and AI. Build better AI with a data-centric approach. Simplify ETL, data warehousing, governance and AI on the Data + AI Platform.",
+  "description": "Databricks offers a unified platform for data, analytics and AI. Build better AI with a data-centric approach. Simplify ETL, data warehousing, governance and AI on the Data + AI Platform.\n\nUnified Data Platform: Combines data engineering, data science, machine learning, and analytics into a single collaborative platform. Delta Lake: Provides reliable data lakes with ACID transaction support, scalable metadata handling, and unification of streaming and batch data. Collaborative Notebooks: Enables teams to write and run code together in real time using languages like Python, SQL, Scala, and R. MLflow Integration: Built-in support for experiment tracking, model versioning, and reproducible machine learning workflows.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "Big Data",
+    "Data Engineering",
+    "Machine Learning",
+    "Spark",
+    "Lakehouse"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/databricks.png",
+  "image": "/tool-screenshots/databricks.png",
+  "dateAdded": "2023-05-15",
+  "lastVerified": null,
+  "features": [
+    "Unified Data Platform: Combines data engineering, data science, machine learning, and analytics into a single collaborative platform.",
+    "Delta Lake: Provides reliable data lakes with ACID transaction support, scalable metadata handling, and unification of streaming and batch data.",
+    "Collaborative Notebooks: Enables teams to write and run code together in real time using languages like Python, SQL, Scala, and R.",
+    "MLflow Integration: Built-in support for experiment tracking, model versioning, and reproducible machine learning workflows."
+  ],
+  "howToUse": [
+    {
+      "title": "Start Free Trial or Request Demo",
+      "description": "Sign up for a Databricks account or request a demo to access the platform.",
+      "links": [
+        {
+          "label": "Databricks",
+          "url": "https://www.databricks.com"
+        }
+      ]
+    },
+    {
+      "title": "Create Workspace & Import Data",
+      "description": "Set up a workspace and upload datasets or connect to cloud storage."
+    },
+    {
+      "title": "Use Collaborative Notebooks",
+      "description": "Write and execute code for data engineering, analysis, or machine learning in Python, SQL, Scala, or R."
+    },
+    {
+      "title": "Deploy Models & Monitor",
+      "description": "Deploy ML models with MLflow and monitor data pipelines and analytics."
+    }
+  ]
+}

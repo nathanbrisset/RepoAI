@@ -1,0 +1,61 @@
+{
+  "id": "dalle",
+  "name": "DALL·E",
+  "url": "https://openai.com/dall-e",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "OpenAI's model creating images from textual descriptions, integrated with ChatGPT.",
+  "description": "OpenAI's model creating images from textual descriptions, integrated with ChatGPT.\n\nText-to-Image Synthesis: Generates original images from descriptive text prompts. Inpainting: Edits and extends existing images using AI. Variations: Creates multiple versions of an image based on a single prompt. Integration with ChatGPT: Accessible directly within ChatGPT for seamless creative workflows.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "Text To Image",
+    "Illustrations"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/dalle.png",
+  "image": "/tool-screenshots/dalle.png",
+  "dateAdded": "2021-01-05",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Text-to-Image Synthesis: Generates original images from descriptive text prompts.",
+    "Inpainting: Edits and extends existing images using AI.",
+    "Variations: Creates multiple versions of an image based on a single prompt.",
+    "Integration with ChatGPT: Accessible directly within ChatGPT for seamless creative workflows."
+  ],
+  "howToUse": [
+    {
+      "title": "Access DALL·E",
+      "description": "Go to the DALL·E website or use via ChatGPT integration.",
+      "links": [
+        {
+          "label": "DALL·E",
+          "url": "https://openai.com/dall-e"
+        },
+        {
+          "label": "ChatGPT",
+          "url": "https://chatgpt.com/"
+        }
+      ]
+    },
+    {
+      "title": "Enter or Edit Prompts",
+      "description": "Write descriptive prompts or upload images for inpainting."
+    },
+    {
+      "title": "Generate Images & Variations",
+      "description": "Review generated images and create variations or edits."
+    },
+    {
+      "title": "Download or Integrate",
+      "description": "Export images or use them in creative workflows."
+    }
+  ],
+  "statusNote": "Two DALL-E entries (dalle, dalle_3); openai.com pages return 403 - unverified"
+}

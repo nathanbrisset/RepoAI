@@ -1,0 +1,59 @@
+{
+  "id": "animoto",
+  "name": "Animoto",
+  "url": "https://animoto.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Create and edit videos with our free video maker. Combine your photos, video clips, and music to make quality videos in minutes. Get started free!",
+  "description": "Create and edit videos with our free video maker. Combine your photos, video clips, and music to make quality videos in minutes. Get started free!\n\nDrag-and-Drop Interface: Easily create videos with a user-friendly interface. Customizable Templates: Various templates for different video types. Music Library: Access to a vast library of licensed music tracks. Text and Voiceover Integration: Add text overlays and voiceovers to videos.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "Social Video",
+    "Slideshow",
+    "Ecommerce",
+    "Storyboarding",
+    "Templates"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/animoto.png",
+  "image": "/tool-screenshots/animoto.png",
+  "dateAdded": "2019-11-12",
+  "lastVerified": null,
+  "features": [
+    "Drag-and-Drop Interface: Easily create videos with a user-friendly interface.",
+    "Customizable Templates: Various templates for different video types.",
+    "Music Library: Access to a vast library of licensed music tracks.",
+    "Text and Voiceover Integration: Add text overlays and voiceovers to videos."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Start Project",
+      "description": "Create an Animoto account and start a new video project.",
+      "links": [
+        {
+          "label": "Animoto",
+          "url": "https://animoto.com"
+        }
+      ]
+    },
+    {
+      "title": "Upload Media & Choose Template",
+      "description": "Add images, clips, or select a template for your video."
+    },
+    {
+      "title": "Customize Video",
+      "description": "Edit scenes, add music, text overlays, and voiceovers."
+    },
+    {
+      "title": "Export & Share",
+      "description": "Download or share your completed video."
+    }
+  ]
+}

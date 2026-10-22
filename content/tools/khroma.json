@@ -1,0 +1,54 @@
+{
+  "id": "khroma",
+  "name": "Khroma",
+  "url": "https://www.khroma.co",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Khroma is the fastest way to discover, search, and save color combos and palettes you",
+  "description": "Khroma is the fastest way to discover, search, and save color combos and palettes you\n\nAI Color Palette Generation: Learns your preferences and creates color schemes. Custom Training: Personalize palettes by training on colors you like. Infinite Combos: Generates endless color pairings with hex/RGB codes. Visual Previews: See palettes in UI mockups, images, and gradients.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "AI",
+    "Design",
+    "Colors",
+    "Palettes"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/khroma.png",
+  "image": "/tool-screenshots/khroma.png",
+  "dateAdded": "2022-01-15",
+  "lastVerified": null,
+  "features": [
+    "AI Color Palette Generation: Learns your preferences and creates color schemes.",
+    "Custom Training: Personalize palettes by training on colors you like.",
+    "Infinite Combos: Generates endless color pairings with hex/RGB codes.",
+    "Visual Previews: See palettes in UI mockups, images, and gradients."
+  ],
+  "howToUse": [
+    {
+      "title": "Train Khroma",
+      "description": "Pick colors you like to train the AI.",
+      "links": [
+        {
+          "label": "Khroma",
+          "url": "https://www.khroma.co"
+        }
+      ]
+    },
+    {
+      "title": "Browse and Save Palettes",
+      "description": "View AI-generated palettes and save your favorites."
+    },
+    {
+      "title": "Preview in Context",
+      "description": "See palettes applied in UI, images, and designs."
+    }
+  ]
+}

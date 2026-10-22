@@ -1,0 +1,58 @@
+{
+  "id": "cogram",
+  "name": "Cogram",
+  "url": "https://cogram.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI tools for documentation, collaboration, and design—built for architects and engineers.",
+  "description": "AI tools for documentation, collaboration, and design—built for architects and engineers.\n\nNatural language to SQL: Converts plain English to SQL queries. Python code generation: Translates descriptions into Python code. Data analysis assistance: Helps with data-related coding tasks. Integration with notebooks: Works with Jupyter and other platforms.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "SQL",
+    "Python",
+    "Natural Language Processing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/cogram.png",
+  "image": "/tool-screenshots/cogram.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Natural language to SQL: Converts plain English to SQL queries.",
+    "Python code generation: Translates descriptions into Python code.",
+    "Data analysis assistance: Helps with data-related coding tasks.",
+    "Integration with notebooks: Works with Jupyter and other platforms."
+  ],
+  "howToUse": [
+    {
+      "title": "Access Cogram Platform",
+      "description": "Sign up on Cogram’s website and access the online platform or notebook integration.",
+      "links": [
+        {
+          "label": "Cogram",
+          "url": "https://www.cogram.com/"
+        }
+      ]
+    },
+    {
+      "title": "Describe Your Task",
+      "description": "Type natural language instructions or prompts for SQL or Python code."
+    },
+    {
+      "title": "Generate & Edit Code",
+      "description": "Receive code suggestions, review, and edit as needed."
+    },
+    {
+      "title": "Integrate with Data Tools",
+      "description": "Use Cogram’s integrations for data workflows in Jupyter and beyond."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "veed-io",
+  "name": "Veed.io",
+  "url": "https://www.veed.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Generate and edit in one workflow. Create talking heads, edit with AI, dub videos, and add subtitles — all in VEED. Built for marketers and solopreneurs",
+  "description": "Generate and edit in one workflow. Create talking heads, edit with AI, dub videos, and add subtitles — all in VEED. Built for marketers and solopreneurs\n\nOnline Video Editing: Edit videos directly in the browser. Auto Subtitles: Automatically generate subtitles for videos. AI Tools: Features like text-to-video, AI avatars, and more. Collaboration Features: Collaborate with team members on video projects.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "Subtitling",
+    "Auto Transcription",
+    "Filters",
+    "Branding",
+    "Reels"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/veed-io.png",
+  "image": "/tool-screenshots/veed-io.png",
+  "dateAdded": "2021-02-15",
+  "lastVerified": null,
+  "features": [
+    "Online Video Editing: Edit videos directly in the browser.",
+    "Auto Subtitles: Automatically generate subtitles for videos.",
+    "AI Tools: Features like text-to-video, AI avatars, and more.",
+    "Collaboration Features: Collaborate with team members on video projects."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Studio",
+      "description": "Create an account on Veed.io and open the editor.",
+      "links": [
+        {
+          "label": "Veed.io",
+          "url": "https://www.veed.io"
+        }
+      ]
+    },
+    {
+      "title": "Upload or Record Video",
+      "description": "Add video files or record directly in the browser."
+    },
+    {
+      "title": "Edit & Enhance",
+      "description": "Use AI tools for subtitles, avatars, effects, and more."
+    },
+    {
+      "title": "Export & Share",
+      "description": "Download or share finished videos online."
+    }
+  ]
+}

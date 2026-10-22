@@ -1,0 +1,62 @@
+{
+  "id": "descript",
+  "name": "Descript",
+  "url": "https://www.descript.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An all-in-one audio and video editing tool that includes features like transcription, screen recording, and multitrack editing.",
+  "description": "An all-in-one audio and video editing tool that includes features like transcription, screen recording, and multitrack editing.\n\nDescript is the AI video and audio editor that makes editing as easy as editing text. Record, transcribe, edit, and publish in one tool. Try it free.\n\nOverdub: AI-powered voice cloning for seamless edits. Studio Sound: Enhances audio quality by removing noise and echo. Text-Based Editing: Edit audio and video by editing the transcribed text. Multi-Track Editing: Supports editing multiple audio and video tracks simultaneously.",
+  "categories": [
+    "audio",
+    "video"
+  ],
+  "tags": [
+    "AI",
+    "Podcasting",
+    "Transcription",
+    "Editing",
+    "Video Editing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; descript.com/pricing: 'Free to Start', Hobbyist $16-24/person/month",
+    "sourceUrl": "https://descript.com/pricing"
+  },
+  "logo": "/logos/descript.png",
+  "image": "/tool-screenshots/descript.png",
+  "dateAdded": "2023-01-01",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Overdub: AI-powered voice cloning for seamless edits.",
+    "Studio Sound: Enhances audio quality by removing noise and echo.",
+    "Text-Based Editing: Edit audio and video by editing the transcribed text.",
+    "Multi-Track Editing: Supports editing multiple audio and video tracks simultaneously.",
+    "Screen Recording: Record and edit screen content easily."
+  ],
+  "howToUse": [
+    {
+      "title": "Download & Install Descript",
+      "description": "Get Descript for your OS or use the web app.",
+      "links": [
+        {
+          "label": "Descript",
+          "url": "https://descript.com"
+        }
+      ]
+    },
+    {
+      "title": "Import Media",
+      "description": "Add audio, video, or screen recordings for editing."
+    },
+    {
+      "title": "Edit by Text",
+      "description": "Transcribe, cut, or overdub by editing the transcript."
+    },
+    {
+      "title": "Export & Publish",
+      "description": "Download the finished project or publish online."
+    }
+  ]
+}

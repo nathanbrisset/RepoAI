@@ -1,0 +1,58 @@
+{
+  "id": "cleanvoice",
+  "name": "Cleanvoice AI",
+  "url": "https://cleanvoice.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An AI-powered audio cleaning tool that removes filler words, stutters, and background noise from recordings.",
+  "description": "An AI-powered audio cleaning tool that removes filler words, stutters, and background noise from recordings.\n\nRemove background noise, fillers, mouth sounds, silence & more from your podcast with Cleanvoice AI. Get studio-quality sound without hours of editing.\n\nAI audio processing: Cleanvoice AI supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Audio",
+    "Speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/cleanvoice.png",
+  "image": "/tool-screenshots/cleanvoice.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "AI audio processing: Cleanvoice AI supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Access Cleanvoice Platform",
+      "description": "Sign up and log in to Cleanvoice’s web interface.",
+      "links": [
+        {
+          "label": "Cleanvoice AI",
+          "url": "https://cleanvoice.ai"
+        }
+      ]
+    },
+    {
+      "title": "Upload Recordings",
+      "description": "Add audio files for analysis and cleaning."
+    },
+    {
+      "title": "Select Cleaning Features",
+      "description": "Choose to remove background noise, filler words, and stutters."
+    },
+    {
+      "title": "Download Cleaned Audio",
+      "description": "Review and export cleaned audio files for further use."
+    }
+  ]
+}

@@ -60,16 +60,11 @@ export default function Home() {
       .slice(0, 3);
   }
 
-  // Get the newest tools (last 5 added)
+  // Newest catalog additions. Closed and undated cards are left out.
   const newTools = [...mockTools]
+    .filter((tool) => tool.dateAdded && tool.status !== "sunset")
     .sort((a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime())
     .slice(0, 5);
-
-  // Get the most visited tools (top 5)
-  const mostVisited = [...mockTools].sort((a, b) => b.visits - a.visits).slice(0, 5);
-
-  // Get the top rated tools (top 5)
-  const topRated = [...mockTools].sort((a, b) => b.rating - a.rating).slice(0, 5);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -243,26 +238,6 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-6 text-gray-800">Newest Tools</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {newTools.map((tool) => (
-              <ToolCard key={tool.id} tool={tool} />
-            ))}
-          </div>
-        </section>
-
-        {/* Most Visited */}
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 text-gray-800">Most Popular</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {mostVisited.map((tool) => (
-              <ToolCard key={tool.id} tool={tool} />
-            ))}
-          </div>
-        </section>
-
-        {/* Top Rated */}
-        <section>
-          <h2 className="text-2xl font-bold mb-6 text-gray-800">Top Rated</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {topRated.map((tool) => (
               <ToolCard key={tool.id} tool={tool} />
             ))}
           </div>

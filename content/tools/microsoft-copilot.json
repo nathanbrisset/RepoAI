@@ -1,0 +1,58 @@
+{
+  "id": "microsoft-copilot",
+  "name": "Microsoft Copilot",
+  "url": "https://www.microsoft.com/en-us/copilot/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Microsoft Copilot knows your work, lives in the apps you already use, and brings you the leading AI models. Explore Copilot for individuals, business, and enterprise.",
+  "description": "Microsoft Copilot knows your work, lives in the apps you already use, and brings you the leading AI models. Explore Copilot for individuals, business, and enterprise.\n\nDocument Summarization: Condenses long documents in Word and Outlook. Data Insights: Generates charts and formulas in Excel from natural language. Meeting Recaps: Summarizes Teams meetings and assigns tasks. Contextual Assistance: Suggests next steps in Office tools based on activity.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Productivity",
+    "Microsoft",
+    "Office"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/microsoft-copilot.png",
+  "image": "/tool-screenshots/microsoft-copilot.png",
+  "dateAdded": "2023-03-15",
+  "lastVerified": null,
+  "features": [
+    "Document Summarization: Condenses long documents in Word and Outlook.",
+    "Data Insights: Generates charts and formulas in Excel from natural language.",
+    "Meeting Recaps: Summarizes Teams meetings and assigns tasks.",
+    "Contextual Assistance: Suggests next steps in Office tools based on activity."
+  ],
+  "howToUse": [
+    {
+      "title": "Access Microsoft Copilot",
+      "description": "Use Copilot via Microsoft 365 apps like Word, Excel, and Teams.",
+      "links": [
+        {
+          "label": "Microsoft Copilot",
+          "url": "https://www.microsoft.com/copilot"
+        }
+      ]
+    },
+    {
+      "title": "Prompt for Help",
+      "description": "Ask Copilot to summarize, generate, or analyze documents and data."
+    },
+    {
+      "title": "Accept and Edit Output",
+      "description": "Review Copilot’s suggestions and adjust as needed."
+    },
+    {
+      "title": "Use Across Office Apps",
+      "description": "Leverage Copilot in Word, Excel, Outlook, and Teams for productivity."
+    }
+  ]
+}

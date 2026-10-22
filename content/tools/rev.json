@@ -1,0 +1,58 @@
+{
+  "id": "rev",
+  "name": "Rev",
+  "url": "https://www.rev.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Offers both AI-powered and human transcription services, ensuring high accuracy for various audio formats.",
+  "description": "Offers both AI-powered and human transcription services, ensuring high accuracy for various audio formats.\n\nBuilt for investigations that hold up under court. Rev’s legal AI platform turns digital evidence into verified, citable findings to help you manage your case.\n\nAI audio processing: Rev supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Audio",
+    "Speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/rev.png",
+  "image": "/tool-screenshots/rev.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "AI audio processing: Rev supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Access Rev Platform",
+      "description": "Go to Rev.com and choose AI or human transcription services.",
+      "links": [
+        {
+          "label": "Rev",
+          "url": "https://www.rev.com"
+        }
+      ]
+    },
+    {
+      "title": "Upload Files",
+      "description": "Add audio or video files for transcription."
+    },
+    {
+      "title": "Select Service & Language",
+      "description": "Choose turnaround time, language, and service type."
+    },
+    {
+      "title": "Receive & Download",
+      "description": "Review completed transcripts, make edits, and download results."
+    }
+  ]
+}

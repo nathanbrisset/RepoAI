@@ -1,0 +1,61 @@
+{
+  "id": "adobe_firefly",
+  "name": "Adobe Firefly",
+  "url": "https://firefly.adobe.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Adobe Firefly is Adobe's generative AI model for creative professionals. It enables image generation, text effects, and vector creation using natural language prompts. Deeply integrated with Adobe Creative Cloud, Firefly empowers designers to rapidly prototype and enhance projects with AI-powered visuals tailored for commercial use.",
+  "description": "Adobe Firefly is Adobe's generative AI model for creative professionals. It enables image generation, text effects, and vector creation using natural language prompts. Deeply integrated with Adobe Creative Cloud, Firefly empowers designers to rapidly prototype and enhance projects with AI-powered visuals tailored for commercial use.\n\nText-to-Image: Create images from descriptions. Text Effects: Apply unique styles to text for branding. Vector Generation: Produce vector art with AI assistance. Seamless Integration: Works within Adobe Photoshop and Illustrator.",
+  "categories": [
+    "design",
+    "image"
+  ],
+  "tags": [
+    "Adobe",
+    "AI Art",
+    "Creative Cloud",
+    "Text Effects"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/adobe_firefly.png",
+  "image": "/tool-screenshots/adobe_firefly.png",
+  "dateAdded": "2023-05-01",
+  "lastVerified": "2026-10-21",
+  "statusNote": "Headless Chrome: adobe.com/sensei/generative-ai/firefly returns a 404 page; firefly.adobe.com loads ('Adobe Firefly: Your all-in-one AI creative studio')",
+  "features": [
+    "Text-to-Image: Create images from descriptions.",
+    "Text Effects: Apply unique styles to text for branding.",
+    "Vector Generation: Produce vector art with AI assistance.",
+    "Seamless Integration: Works within Adobe Photoshop and Illustrator.",
+    "Commercial Use: Outputs designed to be safe for business projects."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign In with Adobe Account",
+      "description": "Access Firefly through Creative Cloud or web app with your Adobe account.",
+      "links": [
+        {
+          "label": "Adobe Firefly",
+          "url": "https://firefly.adobe.com/"
+        }
+      ]
+    },
+    {
+      "title": "Choose Generation Tool",
+      "description": "Select from text-to-image, text effects, or vector generation."
+    },
+    {
+      "title": "Enter Prompt & Customize",
+      "description": "Describe the image or effect, and fine-tune settings (styles, colors, etc.)."
+    },
+    {
+      "title": "Export or Integrate",
+      "description": "Download outputs or use them in Photoshop, Illustrator, or other Adobe apps."
+    }
+  ]
+}

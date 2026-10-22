@@ -1,0 +1,64 @@
+{
+  "id": "spline",
+  "name": "Spline",
+  "url": "https://spline.design",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Spline is a 3D design tool that enables designers to create, animate, and publish interactive 3D web experiences. With a real-time collaborative editor and intuitive interface, Spline makes 3D creation accessible for web, UI, and motion designers.",
+  "description": "Spline is a 3D design tool that enables designers to create, animate, and publish interactive 3D web experiences. With a real-time collaborative editor and intuitive interface, Spline makes 3D creation accessible for web, UI, and motion designers.\n\nSpline is a free 3D design software with real-time collaboration to create web interactive experiences in the browser. Easy 3d modeling, animation, textures, and more.\n\n3D Modeling: Build shapes and scenes easily. Animation: Animate objects and scenes with keyframes. Interactivity: Add triggers and user actions. Collaboration: Edit projects in real time with others.",
+  "categories": [
+    "design",
+    "image"
+  ],
+  "tags": [
+    "3D",
+    "Animation",
+    "Web",
+    "Collaboration"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/spline.png",
+  "image": "/tool-screenshots/spline.png",
+  "dateAdded": "2020-09-01",
+  "lastVerified": null,
+  "features": [
+    "3D Modeling: Build shapes and scenes easily.",
+    "Animation: Animate objects and scenes with keyframes.",
+    "Interactivity: Add triggers and user actions.",
+    "Collaboration: Edit projects in real time with others.",
+    "Web Export: Publish interactive 3D content online."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Editor",
+      "description": "Create a free account on Spline to access the online 3D editor.",
+      "links": [
+        {
+          "label": "Spline",
+          "url": "https://spline.design"
+        }
+      ]
+    },
+    {
+      "title": "Create or Import a 3D Scene",
+      "description": "Start a new project or import 3D assets. Use the intuitive interface to add, modify, or arrange objects."
+    },
+    {
+      "title": "Animate & Add Interactivity",
+      "description": "Use keyframes to animate objects and add triggers for user interactions (clicks, hovers, etc.)."
+    },
+    {
+      "title": "Collaborate in Real Time",
+      "description": "Invite others to edit your project simultaneously for team-based workflows."
+    },
+    {
+      "title": "Export or Publish",
+      "description": "Export your project as web-embeddable content or share a public link for interactive viewing."
+    }
+  ]
+}

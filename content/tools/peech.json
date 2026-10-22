@@ -1,0 +1,72 @@
+{
+  "id": "peech",
+  "name": "Peech",
+  "url": "https://www.peech-ai.com",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "Peech is an AI video editor for marketers, offering automated subtitling, branding, and highlight detection to repurpose long-form content for social media.",
+  "description": "Peech is an AI video editor for marketers, offering automated subtitling, branding, and highlight detection to repurpose long-form content for social media.\n\nThe previous website did not resolve on 21 October 2026, so the card is marked closed until someone confirms a new URL.",
+  "categories": [
+    "video",
+    "marketing",
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Editing",
+    "Subtitles"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "",
+  "image": "/tool-screenshots/peech.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Automatic highlight detection: AI scans and extracts the best moments from your content for social media sharing.",
+    "AI branding: Applies logos, colors, and fonts consistently across all your video content.",
+    "Auto-subtitling: Generates accurate, stylized captions to boost accessibility and engagement.",
+    "Batch video repurposing: Turn webinars or podcasts into dozens of clips for different platforms in one workflow."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Log In",
+      "description": "Visit Peech AI and create an account. Log in to your personalized dashboard to start editing.",
+      "links": [
+        {
+          "label": "Peech AI",
+          "url": "https://www.peech-ai.com"
+        }
+      ]
+    },
+    {
+      "title": "Upload Your Video Content",
+      "description": "Click on 'Upload' and select your webinar, podcast, or long-form video. Peech supports popular video formats such as MP4 and MOV."
+    },
+    {
+      "title": "Automatic Highlight Detection",
+      "description": "Let Peech’s AI analyze your video and automatically detect the most engaging highlights suitable for social sharing."
+    },
+    {
+      "title": "Apply Branding",
+      "description": "Customize your video with your brand’s logos, colors, and fonts. Peech applies brand consistency across all output clips."
+    },
+    {
+      "title": "Generate and Edit Subtitles",
+      "description": "Peech automatically creates subtitles for your video. Edit the captions for accuracy or style them to match your branding."
+    },
+    {
+      "title": "Batch Repurposing",
+      "description": "Use batch features to turn one long-form video into multiple short, platform-ready clips for TikTok, YouTube Shorts, Reels, and more."
+    },
+    {
+      "title": "Preview & Export",
+      "description": "Preview all generated clips, make any final adjustments, and export them in the desired format for your preferred platforms."
+    }
+  ],
+  "statusNote": "The official URL did not resolve on 21 October 2026. A vendor shutdown notice was not found in this pass."
+}

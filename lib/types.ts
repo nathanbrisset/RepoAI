@@ -10,19 +10,30 @@ export interface Tool {
   categories: string[]
   subcategory?: string
   tags?: string[]
-  rating: number
-  visits: number
+  rating?: number
+  visits?: number
   dateAdded: string
-  isPremium?: 'Free' | 'Freemium' | 'Premium'
+  dateAddedNote?: string
+  isPremium?: 'Free' | 'Freemium' | 'Premium' | 'Open source'
   features?: string[]
   howToUse?: {
     title: string;
     description: string;
     links?: { label: string; url: string }[];
   }[]
+  longDescription?: string
+  status?: 'active' | 'renamed' | 'sunset' | 'duplicate-of'
+  successorId?: string
+  statusNote?: string
+  lastVerified?: string | null
+  sources?: string[]
   pricing?: {
     type: 'free' | 'paid' | 'freemium'
+    model?: 'free' | 'freemium' | 'paid' | 'open-source'
+    label?: string
     details?: string
+    verified?: boolean
+    sourceUrl?: string
   }
 }
 

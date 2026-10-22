@@ -1,0 +1,59 @@
+{
+  "id": "mem",
+  "name": "Mem",
+  "url": "https://mem.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-powered note-taking and knowledge management platform.",
+  "description": "AI-powered note-taking and knowledge management platform.\n\nAI Note-Taking: Automatically captures and organizes notes. Smart Search: Enables quick retrieval of information using natural language. Integration: Connects with calendars and other tools for seamless workflow. Collaboration: Allows sharing and collaboration on notes with team members.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Notes",
+    "Knowledge",
+    "Organization"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; get.mem.ai/pricing: Mem Free + Plus $9/month, Pro $29/month",
+    "sourceUrl": "https://get.mem.ai/pricing"
+  },
+  "logo": "/logos/mem.png",
+  "image": "/tool-screenshots/mem.png",
+  "dateAdded": "2021-11-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI Note-Taking: Automatically captures and organizes notes.",
+    "Smart Search: Enables quick retrieval of information using natural language.",
+    "Integration: Connects with calendars and other tools for seamless workflow.",
+    "Collaboration: Allows sharing and collaboration on notes with team members."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Log In",
+      "description": "Register and access Mem’s note dashboard.",
+      "links": [
+        {
+          "label": "Mem",
+          "url": "https://mem.ai"
+        }
+      ]
+    },
+    {
+      "title": "Create or Import Notes",
+      "description": "Take new notes or import from other sources."
+    },
+    {
+      "title": "Search & Organize",
+      "description": "Use smart search and tagging to organize your knowledge."
+    },
+    {
+      "title": "Collaborate & Integrate",
+      "description": "Share notes or connect with calendars and tools."
+    }
+  ]
+}

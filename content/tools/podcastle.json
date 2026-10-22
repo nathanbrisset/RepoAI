@@ -1,0 +1,59 @@
+{
+  "id": "podcastle",
+  "name": "Podcastle",
+  "url": "https://async.com/",
+  "affiliateUrl": "",
+  "status": "renamed",
+  "summary": "Chat-based AI creative suite for video content production. From raw footage and AI-generated scenes to finished videos in one AI workflow - just tell Async what you want.",
+  "description": "Chat-based AI creative suite for video content production. From raw footage and AI-generated scenes to finished videos in one AI workflow - just tell Async what you want.\n\nAI-Powered Audio Editing: Automatically removes background noise and enhances audio quality. Text-to-Speech Conversion: Transforms written content into natural-sounding speech. Multitrack Recording: Supports recording of separate audio and video tracks for each participant. Dynamic Speaker Feature: Intelligently switches focus between speakers in video recordings.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Podcasting",
+    "Voice Cloning",
+    "Editing"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/podcastle.png",
+  "image": "/tool-screenshots/podcastle.png",
+  "dateAdded": "2023-03-01",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI-Powered Audio Editing: Automatically removes background noise and enhances audio quality.",
+    "Text-to-Speech Conversion: Transforms written content into natural-sounding speech.",
+    "Multitrack Recording: Supports recording of separate audio and video tracks for each participant.",
+    "Dynamic Speaker Feature: Intelligently switches focus between speakers in video recordings."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up and Access Studio",
+      "description": "Register at Podcastle and launch the studio dashboard.",
+      "links": [
+        {
+          "label": "Podcastle",
+          "url": "https://async.com/"
+        }
+      ]
+    },
+    {
+      "title": "Record or Upload Content",
+      "description": "Create new podcast episodes or upload audio/video for editing."
+    },
+    {
+      "title": "Edit and Enhance",
+      "description": "Use AI tools for noise reduction, voice cloning, and multitrack editing."
+    },
+    {
+      "title": "Export or Publish",
+      "description": "Download finished files or publish to podcast platforms."
+    }
+  ],
+  "statusNote": "podcastle.ai redirects to async.com (title 'Async | Make videos like you have a team') - rebrand"
+}

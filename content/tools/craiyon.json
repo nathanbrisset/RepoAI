@@ -1,0 +1,60 @@
+{
+  "id": "craiyon",
+  "name": "Craiyon",
+  "url": "https://www.craiyon.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Craiyon (formerly DALL·E mini) is a free AI image generator that creates fun, surreal images from any text prompt. It is popular for social sharing and creative experimentation.",
+  "description": "Craiyon (formerly DALL·E mini) is a free AI image generator that creates fun, surreal images from any text prompt. It is popular for social sharing and creative experimentation.\n\nFree Text-to-Image: No signup or payment required. Unlimited Generation: Create as many images as you want. Fun Styles: Surreal, cartoonish outputs. Community Gallery: Share and browse creations.",
+  "categories": [
+    "design",
+    "image"
+  ],
+  "tags": [
+    "AI Art",
+    "Prompt",
+    "Free",
+    "Social"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/craiyon.png",
+  "image": "/tool-screenshots/craiyon.png",
+  "dateAdded": "2022-05-01",
+  "lastVerified": null,
+  "features": [
+    "Free Text-to-Image: No signup or payment required.",
+    "Unlimited Generation: Create as many images as you want.",
+    "Fun Styles: Surreal, cartoonish outputs.",
+    "Community Gallery: Share and browse creations.",
+    "Mobile Friendly: Works on all devices."
+  ],
+  "howToUse": [
+    {
+      "title": "Go to Craiyon",
+      "description": "Access Craiyon from any browser or device. No sign-up required.",
+      "links": [
+        {
+          "label": "Craiyon",
+          "url": "https://www.craiyon.com"
+        }
+      ]
+    },
+    {
+      "title": "Enter a Prompt",
+      "description": "Type your desired prompt in the input box."
+    },
+    {
+      "title": "Generate Images",
+      "description": "Click 'Draw' to create images. Wait for the AI to finish generating."
+    },
+    {
+      "title": "Download or Share",
+      "description": "Download images or share them to the community gallery."
+    }
+  ]
+}

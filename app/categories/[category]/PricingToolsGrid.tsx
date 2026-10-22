@@ -13,6 +13,7 @@ const PRICING_OPTIONS = [
   { label: "Free", className: "bg-gray-200 text-gray-800" },
   { label: "Freemium", className: "bg-gradient-to-r from-blue-500 to-green-400 text-white" },
   { label: "Premium", className: "bg-gradient-to-r from-amber-500 to-yellow-500 text-white" },
+  { label: "Open source", className: "bg-gray-800 text-white" },
 ]
 
 export default function PricingToolsGrid({ tools }: PricingToolsGridProps) {

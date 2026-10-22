@@ -1,0 +1,63 @@
+{
+  "id": "knime",
+  "name": "KNIME",
+  "url": "https://www.knime.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "KNIME is a comprehensive open-source platform designed for data analytics, reporting, and integration. It allows users to visually create data workflows, selectively execute steps, and inspect results, models, and visualizations. KNIME's modular pipelining concept makes it easy for both beginners and experts to build advanced data science solutions with minimal coding. It supports integration with machine learning and deep learning libraries, data manipulation, ETL processes, and offers a vast ecosystem of extensions for specialized analyses. KNIME is widely used in academia and industry for tasks ranging from simple data preprocessing to complex predictive modeling.",
+  "description": "KNIME is a comprehensive open-source platform designed for data analytics, reporting, and integration. It allows users to visually create data workflows, selectively execute steps, and inspect results, models, and visualizations. KNIME's modular pipelining concept makes it easy for both beginners and experts to build advanced data science solutions with minimal coding. It supports integration with machine learning and deep learning libraries, data manipulation, ETL processes, and offers a vast ecosystem of extensions for specialized analyses. KNIME is widely used in academia and industry for tasks ranging from simple data preprocessing to complex predictive modeling.\n\nFree and open source with all your data analysis tools. Create data science solutions with the visual workflow builder & put them into production in the enterprise.\n\nDrag-and-Drop Workflow: User-friendly interface for building analytics pipelines without code. Extensive Integration: Connects with databases, cloud storage, and big data tools. Advanced Analytics: Supports machine learning, deep learning, statistics, and text mining. Extensible Platform: Large ecosystem of plugins and community extensions.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "Data Mining",
+    "Workflow",
+    "Open Source"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/knime.png",
+  "image": "/tool-screenshots/knime.png",
+  "dateAdded": null,
+  "lastVerified": null,
+  "dateAddedNote": "The previous Added date was 2015-06-15. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Drag-and-Drop Workflow: User-friendly interface for building analytics pipelines without code.",
+    "Extensive Integration: Connects with databases, cloud storage, and big data tools.",
+    "Advanced Analytics: Supports machine learning, deep learning, statistics, and text mining.",
+    "Extensible Platform: Large ecosystem of plugins and community extensions.",
+    "Strong Community: Active forums, documentation, and training resources."
+  ],
+  "howToUse": [
+    {
+      "title": "Download and Install KNIME",
+      "description": "Get the latest version from the KNIME website and install it on your system.",
+      "links": [
+        {
+          "label": "KNIME",
+          "url": "https://www.knime.com"
+        }
+      ]
+    },
+    {
+      "title": "Create a Workflow",
+      "description": "Open KNIME and use the drag-and-drop editor to build your data workflow."
+    },
+    {
+      "title": "Add Nodes for Data Processing",
+      "description": "Choose nodes for reading, transforming, analyzing, and visualizing data."
+    },
+    {
+      "title": "Execute and Inspect Results",
+      "description": "Run the workflow, inspect intermediate results, and visualize outputs."
+    },
+    {
+      "title": "Extend with Plugins",
+      "description": "Install community extensions for additional analytics capabilities."
+    }
+  ]
+}

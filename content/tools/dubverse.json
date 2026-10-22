@@ -1,0 +1,81 @@
+{
+  "id": "dubverse",
+  "name": "Dubverse",
+  "url": "https://dubverse.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Dubverse is an AI-powered video translation and dubbing platform that enables fast, accurate localization using a global voice library.",
+  "description": "Dubverse is an AI-powered video translation and dubbing platform that enables fast, accurate localization using a global voice library.\n\nDubverse is a Generative AI platform with best in class AI Video Dubbing, AI Text to Speech, Auto Subtitles & API. Dubverse uses artificial intelligence to best in class Video Dubbing\n\nAI translation: Converts video speech to subtitles and voice in over 30 languages, opening content to new audiences. Voice cloning: Maintain the original speaker’s style and tone for a more authentic dub. Fast turnaround: Get dubbed videos in minutes, making localization efficient even for large projects. Subtitle and transcript generation: Automated, editable subtitles and full transcripts to complement any video.",
+  "categories": [
+    "video",
+    "marketing",
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Dubbing",
+    "Translation"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/dubverse.png",
+  "image": "/tool-screenshots/dubverse.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "AI translation: Converts video speech to subtitles and voice in over 30 languages, opening content to new audiences.",
+    "Voice cloning: Maintain the original speaker’s style and tone for a more authentic dub.",
+    "Fast turnaround: Get dubbed videos in minutes, making localization efficient even for large projects.",
+    "Subtitle and transcript generation: Automated, editable subtitles and full transcripts to complement any video."
+  ],
+  "howToUse": [
+    {
+      "title": "Register and Sign In",
+      "description": "Go to Dubverse and create an account. Log in to access your dashboard and start dubbing projects.",
+      "links": [
+        {
+          "label": "Dubverse",
+          "url": "https://www.dubverse.ai"
+        }
+      ]
+    },
+    {
+      "title": "Upload Your Video",
+      "description": "Start a new project and upload your video file. Supported formats include MP4, MOV, and others."
+    },
+    {
+      "title": "Select Target Language(s)",
+      "description": "Choose one or more target languages you want your video to be dubbed into. Dubverse supports over 30 languages."
+    },
+    {
+      "title": "Pick Voice and Cloning Options",
+      "description": "Select from a variety of AI voices or use voice cloning for original style retention. Adjust gender, accent, and tone as desired."
+    },
+    {
+      "title": "AI Translation and Dubbing",
+      "description": "Dubverse will automatically transcribe, translate, and generate the dubbed audio with accurate lip-sync using AI."
+    },
+    {
+      "title": "Review Transcript and Dubbing",
+      "description": "Edit the generated transcript, subtitles, or audio if needed to ensure high-quality output."
+    },
+    {
+      "title": "Export Video with Subtitles",
+      "description": "Export your dubbed video and download it, or share via Dubverse’s provided link. You can also download the subtitle and transcript files."
+    },
+    {
+      "title": "API Automation (For Developers)",
+      "description": "Use the Dubverse API for batch processing and workflow integration in large-scale localization projects.",
+      "links": [
+        {
+          "label": "Dubverse API Docs",
+          "url": "https://docs.dubverse.ai"
+        }
+      ]
+    }
+  ]
+}

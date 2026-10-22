@@ -1,0 +1,32 @@
+{
+  "id": "claude-code",
+  "name": "Claude Code",
+  "url": "https://claude.com/product/claude-code",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Anthropic's agentic coding tool for terminal and IDE.",
+  "description": "Claude Code is Anthropic's agentic coding tool that reads your codebase, edits files, runs commands and helps ship features from the terminal, IDE or web. It is valued for strong reasoning on large codebases. It is not part of the free Claude plan: access starts with Claude Pro at $17/month billed annually ($20 monthly), with Max plans from $100/month, or via pay-as-you-go API usage.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "coding-agent",
+    "cli",
+    "anthropic"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "It is not part of the free Claude plan: access starts with Claude Pro at $17/month billed annually ($20 monthly), with Max plans from $100/month, or via pay-as-you-go API usage.",
+    "sourceUrl": "https://claude.com/pricing"
+  },
+  "logo": "",
+  "image": "",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.claude.com/product/claude-code",
+    "https://claude.com/pricing"
+  ]
+}

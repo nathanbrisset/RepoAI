@@ -1,0 +1,58 @@
+{
+  "id": "reclaim-ai",
+  "name": "Reclaim.ai",
+  "url": "https://reclaim.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Reclaim is an AI-powered app that creates 40% more time for teams — auto-schedule tasks, habits, meeting & breaks – free on Google Calendar & Outlook Calendar.",
+  "description": "Reclaim is an AI-powered app that creates 40% more time for teams — auto-schedule tasks, habits, meeting & breaks – free on Google Calendar & Outlook Calendar.\n\nSmart Calendar: Automatically finds the best time for tasks. Habit Scheduling: Maintains routines and habits within your workweek. Meeting Syncing: Avoids overlap by syncing multiple calendars. Task Prioritization: Reschedules tasks based on urgency and deadline.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Scheduling",
+    "Automation"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; reclaim.ai/pricing: Lite Free forever + paid tiers",
+    "sourceUrl": "https://reclaim.ai/pricing"
+  },
+  "logo": "/logos/reclaim-ai.png",
+  "image": "/tool-screenshots/reclaim-ai.png",
+  "dateAdded": "2023-05-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Smart Calendar: Automatically finds the best time for tasks.",
+    "Habit Scheduling: Maintains routines and habits within your workweek.",
+    "Meeting Syncing: Avoids overlap by syncing multiple calendars.",
+    "Task Prioritization: Reschedules tasks based on urgency and deadline."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Connect Calendars",
+      "description": "Register for Reclaim.ai and link your calendars.",
+      "links": [
+        {
+          "label": "Reclaim.ai",
+          "url": "https://reclaim.ai"
+        }
+      ]
+    },
+    {
+      "title": "Add Tasks & Habits",
+      "description": "Enter recurring habits and one-off tasks."
+    },
+    {
+      "title": "Let AI Schedule",
+      "description": "Allow Reclaim to prioritize and fit everything into your calendar."
+    },
+    {
+      "title": "Adjust & Track",
+      "description": "Review and update your schedule as needed."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "penpot",
+  "name": "Penpot",
+  "url": "https://penpot.app",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Penpot is an open-source design and prototyping platform for cross-functional teams. It offers collaborative vector editing, interactive prototyping, and supports open web standards. Penpot is web-based and suitable for both designers and developers who value transparency and extensibility.",
+  "description": "Penpot is an open-source design and prototyping platform for cross-functional teams. It offers collaborative vector editing, interactive prototyping, and supports open web standards. Penpot is web-based and suitable for both designers and developers who value transparency and extensibility.\n\nPenpot is the open-source design platform for teams building digital products at scale, enabling deeper collaboration across design, code, and AI workflows.\n\nCollaborative Editing: Work on designs with teams in real time. Vector Tools: Create detailed illustrations and interfaces. Interactive Prototyping: Build and share clickable prototypes. Open Standards: Export to SVG and other formats.",
+  "categories": [
+    "design",
+    "coding",
+    "productivity"
+  ],
+  "tags": [
+    "Open Source",
+    "Vector",
+    "Prototyping",
+    "Collaboration"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/penpot.png",
+  "image": "/tool-screenshots/penpot.png",
+  "dateAdded": "2021-01-01",
+  "lastVerified": null,
+  "features": [
+    "Collaborative Editing: Work on designs with teams in real time.",
+    "Vector Tools: Create detailed illustrations and interfaces.",
+    "Interactive Prototyping: Build and share clickable prototypes.",
+    "Open Standards: Export to SVG and other formats.",
+    "Plugin Architecture: Extend and customize functionality."
+  ],
+  "howToUse": [
+    {
+      "title": "Register & Log In",
+      "description": "Create a free account on Penpot and access the web app.",
+      "links": [
+        {
+          "label": "Penpot",
+          "url": "https://penpot.app"
+        }
+      ]
+    },
+    {
+      "title": "Start New Design or Import Assets",
+      "description": "Begin a new design or import SVGs and other assets."
+    },
+    {
+      "title": "Design & Prototype",
+      "description": "Use vector editing and prototyping features. Collaborate with others in real time."
+    },
+    {
+      "title": "Export & Extend",
+      "description": "Export your work to SVG/other formats or add plugins for new features."
+    }
+  ]
+}

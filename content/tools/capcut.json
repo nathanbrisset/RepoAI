@@ -1,0 +1,60 @@
+{
+  "id": "capcut",
+  "name": "CapCut",
+  "url": "https://www.capcut.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "TikTok's official video editing tool with AI features and templates.",
+  "description": "TikTok's official video editing tool with AI features and templates.\n\nAdvanced Editing Tools: Features like keyframe animation, chroma key, and more. AI Video Editing: Automated editing features like auto-captions and filler word removal. Social Media Integration: Direct exports to platforms like TikTok. Text-to-Speech: Convert text into speech for videos.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "Video Templates",
+    "Shorts",
+    "Filters",
+    "Background Removal",
+    "Mobile Editing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; capcut.com/pricing: Free USD 0 + paid plans",
+    "sourceUrl": "https://capcut.com/pricing"
+  },
+  "logo": "/logos/capcut.png",
+  "image": "/tool-screenshots/capcut.png",
+  "dateAdded": "2021-03-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Advanced Editing Tools: Features like keyframe animation, chroma key, and more.",
+    "AI Video Editing: Automated editing features like auto-captions and filler word removal.",
+    "Social Media Integration: Direct exports to platforms like TikTok.",
+    "Text-to-Speech: Convert text into speech for videos."
+  ],
+  "howToUse": [
+    {
+      "title": "Open CapCut",
+      "description": "Go to CapCut via browser or mobile app.",
+      "links": [
+        {
+          "label": "CapCut",
+          "url": "https://www.capcut.com"
+        }
+      ]
+    },
+    {
+      "title": "Import or Record Video",
+      "description": "Upload video files or record directly."
+    },
+    {
+      "title": "Edit with AI Tools",
+      "description": "Apply filters, templates, auto-captions, and more."
+    },
+    {
+      "title": "Export & Share",
+      "description": "Download or share directly to social platforms."
+    }
+  ]
+}

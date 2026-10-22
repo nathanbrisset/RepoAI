@@ -1,0 +1,32 @@
+{
+  "id": "flux",
+  "name": "FLUX (Black Forest Labs)",
+  "url": "https://bfl.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Black Forest Labs' FLUX image generation and editing models.",
+  "description": "Black Forest Labs develops the FLUX family of models for image generation and editing, known for high prompt fidelity and photorealism. The models are offered via the BFL API and playground, and some versions are released as open weights for developers. API usage is paid per image, for example $0.048 per image on the pricing calculator, with custom enterprise pricing at scale.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "text-to-image",
+    "image-editing",
+    "api"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "API usage is paid per image, for example $0.048 per image on the pricing calculator, with custom enterprise pricing at scale.",
+    "sourceUrl": "https://bfl.ai/pricing"
+  },
+  "logo": "/logos/flux.png",
+  "image": "",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://bfl.ai",
+    "https://bfl.ai/pricing"
+  ]
+}

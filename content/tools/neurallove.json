@@ -1,0 +1,66 @@
+{
+  "id": "neurallove",
+  "name": "Neural.love Video Enhancer",
+  "url": "https://neural.love/video-enhancer",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Neural.love offers AI-powered upscaling, colorization, and restoration for old or damaged video footage, making your archives shine.",
+  "description": "Neural.love offers AI-powered upscaling, colorization, and restoration for old or damaged video footage, making your archives shine.\n\nUse AI tools to enhance videos, generate and edit images, create AI art, and animate photos in your browser. Explore neural.love and start creating today.\n\nAI upscaling: Transform SD or low-quality footage into crisp HD or 4K with advanced deep learning. Colorization: Automatically colorize black-and-white videos for a modern, vibrant look. Scratch and noise removal: Remove physical and digital imperfections from aged footage. Frame interpolation: Generate additional frames for smoother slow-motion or restored framerate.",
+  "categories": [
+    "video",
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Upscaling",
+    "Restoration"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/neurallove.png",
+  "image": "/tool-screenshots/neurallove.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "AI upscaling: Transform SD or low-quality footage into crisp HD or 4K with advanced deep learning.",
+    "Colorization: Automatically colorize black-and-white videos for a modern, vibrant look.",
+    "Scratch and noise removal: Remove physical and digital imperfections from aged footage.",
+    "Frame interpolation: Generate additional frames for smoother slow-motion or restored framerate."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up and Log In",
+      "description": "Go to Neural.love, create an account, and log in to the video enhancer dashboard.",
+      "links": [
+        {
+          "label": "Neural.love Video Enhancer",
+          "url": "https://neural.love/video-enhancer"
+        }
+      ]
+    },
+    {
+      "title": "Upload Your Video",
+      "description": "Click 'Upload Video' and select your source file (supported formats: MP4, MOV, etc.)."
+    },
+    {
+      "title": "Choose Enhancement Options",
+      "description": "Select upscaling, colorization, scratch removal, noise reduction, or frame interpolation. Combine features as needed."
+    },
+    {
+      "title": "Set Output Preferences",
+      "description": "Choose output resolution (HD, 4K), format, and other preferences before starting."
+    },
+    {
+      "title": "Process Video with AI",
+      "description": "Start the enhancement process. Neural.love’s AI will apply selected features and show progress."
+    },
+    {
+      "title": "Preview and Download",
+      "description": "Preview the enhanced video to review quality. Download your high-quality, restored video or tweak settings and reprocess if needed."
+    }
+  ]
+}

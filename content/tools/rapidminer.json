@@ -1,0 +1,60 @@
+{
+  "id": "rapidminer",
+  "name": "RapidMiner",
+  "url": "https://www.siemens.com/en-us/products/rapidminer/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "RapidMiner is a powerful data science platform offering advanced analytics, machine learning, and predictive modeling tools. Its intuitive visual workflow designer allows users to build, train, and deploy machine learning models with little to no coding. RapidMiner supports a wide variety of data sources and provides hundreds of pre-built machine learning algorithms. Its automation and collaboration features help teams accelerate the end-to-end data science lifecycle, from data preparation through deployment. RapidMiner is suitable for both business analysts and data scientists, enabling rapid prototyping and productionization of models.",
+  "description": "RapidMiner is a powerful data science platform offering advanced analytics, machine learning, and predictive modeling tools. Its intuitive visual workflow designer allows users to build, train, and deploy machine learning models with little to no coding. RapidMiner supports a wide variety of data sources and provides hundreds of pre-built machine learning algorithms. Its automation and collaboration features help teams accelerate the end-to-end data science lifecycle, from data preparation through deployment. RapidMiner is suitable for both business analysts and data scientists, enabling rapid prototyping and productionization of models.\n\nVisual Workflow Designer: Drag-and-drop interface for building end-to-end data processes. Automated Machine Learning: AutoML to automatically select and tune models. Extensive Model Library: Hundreds of built-in algorithms for classification, regression, and clustering. Integrated Data Prep: Tools for cleaning, transforming, and enriching data.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "Machine Learning",
+    "Data Prep",
+    "Predictive Analytics"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/rapidminer.png",
+  "image": "/tool-screenshots/rapidminer.png",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "dateAddedNote": "The previous Added date was 2006-07-01. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Visual Workflow Designer: Drag-and-drop interface for building end-to-end data processes.",
+    "Automated Machine Learning: AutoML to automatically select and tune models.",
+    "Extensive Model Library: Hundreds of built-in algorithms for classification, regression, and clustering.",
+    "Integrated Data Prep: Tools for cleaning, transforming, and enriching data.",
+    "Collaboration and Sharing: Team features for project management and sharing results."
+  ],
+  "howToUse": [
+    {
+      "title": "Download and Install RapidMiner",
+      "description": "Get the platform from the RapidMiner website and install on your system.",
+      "links": [
+        {
+          "label": "RapidMiner",
+          "url": "https://www.siemens.com/en-us/products/rapidminer/"
+        }
+      ]
+    },
+    {
+      "title": "Open the Visual Designer",
+      "description": "Launch RapidMiner Studio and open a new project."
+    },
+    {
+      "title": "Build Your Workflow",
+      "description": "Drag and drop operators to prepare data, train models, and evaluate results."
+    },
+    {
+      "title": "Automate and Share Projects",
+      "description": "Use built-in automation and collaboration tools for deployment and sharing."
+    }
+  ],
+  "statusNote": "rapidminer.com redirects to Siemens RapidMiner page"
+}

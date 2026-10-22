@@ -1,0 +1,63 @@
+{
+  "id": "conversion-ai",
+  "name": "Conversion.ai",
+  "url": "https://conversion.ai/",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "Former copywriting brand. The domain now presents a different product.",
+  "description": "Conversion.ai was an earlier name of the Jasper copywriter. On 21 October 2026, conversion.ai answered with the title “Conversion | AI-Native B2B Marketing Automation Platform” and described an agentic marketing product, not the old copy tool. Jasper is the successor of the copywriting product. This card is not a free writing tool.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "AI",
+    "Marketing",
+    "Sales"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "The old Free label was wrong. No current price was read for the product now on this domain."
+  },
+  "logo": "/logos/conversion-ai.png",
+  "image": "/tool-screenshots/conversion-ai.png",
+  "dateAdded": "2021-10-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI Enrichment: Enhances lead data with AI for better personalization.",
+    "Magic Segmentation: Automatically segments leads based on behavior.",
+    "Real-Time Triggers: Initiates actions based on real-time user behavior.",
+    "Content Generation: Generates brand-consistent and personalized content efficiently."
+  ],
+  "howToUse": [
+    {
+      "title": "Log In & Access Dashboard",
+      "description": "Create an account and open the Conversion.ai dashboard.",
+      "links": [
+        {
+          "label": "Conversion.ai",
+          "url": "https://www.conversion.ai"
+        }
+      ]
+    },
+    {
+      "title": "Choose Campaign or Copy Type",
+      "description": "Select what type of marketing or sales copy you need."
+    },
+    {
+      "title": "Input Brand & Audience Info",
+      "description": "Enter relevant details about your product and target audience."
+    },
+    {
+      "title": "Generate & Refine Copy",
+      "description": "Use AI to produce, review, and personalize your marketing messages."
+    }
+  ],
+  "sources": [
+    "https://conversion.ai/",
+    "https://www.jasper.ai"
+  ],
+  "statusNote": "conversion.ai is now a different product (marketing automation replacing Marketo/HubSpot per homepage); old entry was a Jasper alias, also listed Free",
+  "successorId": "jasper"
+}

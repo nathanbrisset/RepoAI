@@ -1,0 +1,58 @@
+{
+  "id": "codiga",
+  "name": "Codiga",
+  "url": "https://www.codiga.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Static Code Analysis in VS Code, JetBrains, VisualStudio, GitHub, GitLab and Bitbucket.",
+  "description": "Static Code Analysis in VS Code, JetBrains, VisualStudio, GitHub, GitLab and Bitbucket.\n\nReal-Time Code Analysis: Detects issues while coding. Smart Code Snippets: Reusable code blocks with best practices. Security & Performance Checks: Flags unsafe or slow code. IDE/CI Integration: Works with VS Code, JetBrains, GitHub Actions, and more.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Coding",
+    "Security",
+    "Analysis"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/codiga.png",
+  "image": "/tool-screenshots/codiga.png",
+  "dateAdded": "2022-03-15",
+  "lastVerified": null,
+  "features": [
+    "Real-Time Code Analysis: Detects issues while coding.",
+    "Smart Code Snippets: Reusable code blocks with best practices.",
+    "Security & Performance Checks: Flags unsafe or slow code.",
+    "IDE/CI Integration: Works with VS Code, JetBrains, GitHub Actions, and more."
+  ],
+  "howToUse": [
+    {
+      "title": "Install Codiga Extension",
+      "description": "Add Codiga to your IDE or CI/CD pipeline.",
+      "links": [
+        {
+          "label": "Codiga",
+          "url": "https://www.codiga.io"
+        }
+      ]
+    },
+    {
+      "title": "Scan Code in Real Time",
+      "description": "Write or review code to receive instant security and quality feedback."
+    },
+    {
+      "title": "Use Smart Snippets",
+      "description": "Integrate best-practice code blocks as you work."
+    },
+    {
+      "title": "Review Reports",
+      "description": "Check analytics and reports for ongoing code improvements."
+    }
+  ]
+}

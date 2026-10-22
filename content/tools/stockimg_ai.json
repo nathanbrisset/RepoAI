@@ -1,0 +1,61 @@
+{
+  "id": "stockimg_ai",
+  "name": "Stockimg.AI",
+  "url": "https://stockimg.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Stockimg.AI is an AI-powered platform for generating stock images, book covers, posters, and more from text prompts. It is used by marketers, designers, and content creators looking for unique, copyright-safe visuals.",
+  "description": "Stockimg.AI is an AI-powered platform for generating stock images, book covers, posters, and more from text prompts. It is used by marketers, designers, and content creators looking for unique, copyright-safe visuals.\n\nStockimg is an all in one design and content creation tool powered by AI. You can easily generate logo, illustration, wallpaper, poster and more.\n\nText-to-Image: Generate stock images from prompts. Variety of Outputs: Create posters, book covers, wallpapers, and more. Commercial Use: Royalty-free outputs for business. Prompt Library: Inspiration for creative projects.",
+  "categories": [
+    "design",
+    "image",
+    "marketing"
+  ],
+  "tags": [
+    "Stock Images",
+    "AI Art",
+    "Marketing",
+    "Posters"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/stockimg_ai.png",
+  "image": "/tool-screenshots/stockimg_ai.png",
+  "dateAdded": "2023-03-01",
+  "lastVerified": null,
+  "features": [
+    "Text-to-Image: Generate stock images from prompts.",
+    "Variety of Outputs: Create posters, book covers, wallpapers, and more.",
+    "Commercial Use: Royalty-free outputs for business.",
+    "Prompt Library: Inspiration for creative projects.",
+    "High-Resolution Export: Download large, print-ready images."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up and Access Platform",
+      "description": "Register at Stockimg.AI to unlock all generation features.",
+      "links": [
+        {
+          "label": "Stockimg.AI",
+          "url": "https://stockimg.ai"
+        }
+      ]
+    },
+    {
+      "title": "Input Text Prompt",
+      "description": "Describe the image you want to generate."
+    },
+    {
+      "title": "Choose Type & Settings",
+      "description": "Select image type (poster, cover, etc.) and resolution."
+    },
+    {
+      "title": "Generate & Download",
+      "description": "Generate your image and download high-res outputs."
+    }
+  ]
+}

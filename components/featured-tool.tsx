@@ -37,9 +37,6 @@ export function FeaturedTool({ tool }: FeaturedToolProps) {
           >
             Visit Website
           </Link>
-          <span className="text-sm text-muted-foreground">
-            {tool.rating} ★
-          </span>
             </div>
       </div>
     </div>

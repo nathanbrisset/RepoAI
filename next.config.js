@@ -27,6 +27,23 @@ const nextConfig = {
       type: "host",
       value: "aitools.ninja",
     }
+    const renamedToTools = [
+      "autopilot",
+      "codiumai",
+      "freepik-ai-image-generator",
+      "google_cloud_automl",
+      "growthbar",
+      "hugo-ai",
+      "mindsdb",
+      "mobilemonkey",
+      "munch",
+      "paintschainer",
+      "phrasee",
+      "podcastle",
+      "replit-ghostwriter",
+      "sendinblue",
+      "vidyoai",
+    ]
     return [
       {
         source: "/",
@@ -45,6 +62,16 @@ const nextConfig = {
       { source: "/tools/tools", destination: "/tools", permanent: true },
       { source: "/tool/tool/:id", destination: "/tool/:id", permanent: true },
       { source: "/tools/:id", destination: "/tool/:id", permanent: true },
+      ...renamedToTools.map((id) => ({
+        source: `/tool/${id}`,
+        destination: "/tools",
+        permanent: true,
+      })),
+      {
+        source: "/tool/windsurf",
+        destination: "/tool/devin",
+        permanent: true,
+      },
     ]
   },
 }

@@ -1,0 +1,56 @@
+{
+  "id": "notion-ai",
+  "name": "Notion AI",
+  "url": "https://www.notion.com/product/ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "One tool that does it all. Search, generate, analyze, and chat—right inside Notion.",
+  "description": "One tool that does it all. Search, generate, analyze, and chat—right inside Notion.\n\nWriting Assistant: Generates, rewrites, and summarizes content. Task Automation: Completes repetitive content workflows. Brainstorming: Helps ideate content from prompts. Inline Suggestions: Enhances writing directly in Notion docs.",
+  "categories": [
+    "text"
+  ],
+  "tags": [
+    "Note Taking",
+    "Task Management",
+    "Summarization",
+    "Meeting Notes",
+    "Knowledge Management"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/notion-ai.png",
+  "image": "/tool-screenshots/notion-ai.png",
+  "dateAdded": "2023-02-01",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Writing Assistant: Generates, rewrites, and summarizes content.",
+    "Task Automation: Completes repetitive content workflows.",
+    "Brainstorming: Helps ideate content from prompts.",
+    "Inline Suggestions: Enhances writing directly in Notion docs."
+  ],
+  "howToUse": [
+    {
+      "title": "Enable Notion AI",
+      "description": "Sign in to Notion and enable AI for your workspace.",
+      "links": [
+        {
+          "label": "Notion AI",
+          "url": "https://www.notion.com/product/ai"
+        }
+      ]
+    },
+    {
+      "title": "Use AI Block",
+      "description": "Add an AI block or use slash commands to generate, summarize, or rewrite content."
+    },
+    {
+      "title": "Edit & Organize",
+      "description": "Edit AI outputs and organize your notes, tasks, or projects."
+    }
+  ],
+  "statusNote": "notion.so redirects to notion.com"
+}

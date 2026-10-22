@@ -1,0 +1,54 @@
+{
+  "id": "fireflies-ai",
+  "name": "Fireflies.ai",
+  "url": "https://fireflies.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI meeting assistant for transcription and analysis.",
+  "description": "AI meeting assistant for transcription and analysis.\n\nMeeting Recording: Captures audio and video from meetings. Transcription: Converts speech to accurate, searchable text. AI Summaries: Provides concise highlights of meetings. Collaboration Tools: Share, comment on, and assign notes within teams.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Transcription",
+    "Meetings"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; fireflies.ai/pricing: Free $0, Pro $10-18/seat/month",
+    "sourceUrl": "https://fireflies.ai/pricing"
+  },
+  "logo": "/logos/fireflies-ai.png",
+  "image": "/tool-screenshots/fireflies-ai.png",
+  "dateAdded": "2023-08-01",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Meeting Recording: Captures audio and video from meetings.",
+    "Transcription: Converts speech to accurate, searchable text.",
+    "AI Summaries: Provides concise highlights of meetings.",
+    "Collaboration Tools: Share, comment on, and assign notes within teams."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Connect Calendar",
+      "description": "Register, connect your calendar, and invite Fireflies to meetings.",
+      "links": [
+        {
+          "label": "Fireflies.ai",
+          "url": "https://fireflies.ai"
+        }
+      ]
+    },
+    {
+      "title": "Record & Transcribe",
+      "description": "Let Fireflies join and record meetings, generating transcripts and summaries."
+    },
+    {
+      "title": "Review, Share & Collaborate",
+      "description": "Use the dashboard to highlight, comment, and distribute notes."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "grammarly",
+  "name": "Grammarly",
+  "url": "https://www.grammarly.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Writing assistant with a free plan and paid plans.",
+  "description": "Grammarly checks and rewrites text in the browser and other apps. The homepage title on 21 October 2026 was “Grammarly: Free AI Writing Assistance”. The plans page is titled “Grammarly Prices and Plans”, so a paid tier exists, but the dollar amounts were not in the HTML that was fetched.",
+  "categories": [
+    "text",
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Grammar",
+    "Proofreading",
+    "Editing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; grammarly.com/plans: Free $0, Pro $12",
+    "sourceUrl": "https://grammarly.com/plans"
+  },
+  "logo": "/logos/grammarly.png",
+  "image": "/tool-screenshots/grammarly.png",
+  "dateAdded": "2020-09-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Real-Time Grammar and Spelling Checks: Instantly identifies and corrects grammatical errors and typos as you type.",
+    "Writing Style Improvements: Offers suggestions to improve clarity, conciseness, and tone.",
+    "Plagiarism Detection: Checks content against billions of web pages to ensure originality.",
+    "Tone Detection: Analyzes the tone of your writing to ensure it matches your intended message."
+  ],
+  "howToUse": [
+    {
+      "title": "Install & Log In",
+      "description": "Add Grammarly as a browser extension or use the web editor.",
+      "links": [
+        {
+          "label": "Grammarly",
+          "url": "https://www.grammarly.com"
+        }
+      ]
+    },
+    {
+      "title": "Write or Paste Text",
+      "description": "Type or paste your content for real-time suggestions."
+    },
+    {
+      "title": "Review & Accept Suggestions",
+      "description": "Check grammar, clarity, and tone feedback, then accept or ignore changes."
+    },
+    {
+      "title": "Export or Share",
+      "description": "Copy, download, or share your improved writing."
+    }
+  ],
+  "sources": [
+    "https://www.grammarly.com/",
+    "https://www.grammarly.com/plans"
+  ]
+}

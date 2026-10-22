@@ -1,0 +1,62 @@
+{
+  "id": "chatgpt",
+  "name": "ChatGPT",
+  "url": "https://chatgpt.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "OpenAI's AI assistant for chat, images, research and coding.",
+  "description": "ChatGPT is OpenAI's AI assistant for writing, questions, image creation, deep research, file analysis and coding (via Codex), on web, desktop and mobile; the official URL is now chatgpt.com. It is the most widely used general AI assistant. The Free plan includes unlimited everyday chats with GPT-6; paid tiers are Go, Plus and Pro, plus Business and Enterprise plans for organisations.",
+  "categories": [
+    "text"
+  ],
+  "tags": [
+    "chatbot",
+    "llm",
+    "assistant",
+    "openai"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "The Free plan includes unlimited everyday chats with GPT-6; paid tiers are Go, Plus and Pro, plus Business and Enterprise plans for organisations.",
+    "sourceUrl": "https://chatgpt.com/pricing"
+  },
+  "logo": "/logos/chatgpt.png",
+  "image": "/tool-screenshots/chatgpt.png",
+  "dateAdded": "2023-11-06",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Multimodal Input: Understands text, images, and voice commands.",
+    "Code Interpreter: Performs data analysis, calculations, and file transformations.",
+    "Memory: Remembers user preferences and past interactions (selectively).",
+    "Advanced Reasoning: Excels at logic, problem-solving, and creative writing tasks."
+  ],
+  "howToUse": [
+    {
+      "title": "Go to ChatGPT",
+      "description": "Sign in or sign up on ChatGPT's website.",
+      "links": [
+        {
+          "label": "ChatGPT",
+          "url": "https://chatgpt.com/"
+        }
+      ]
+    },
+    {
+      "title": "Start a New Chat",
+      "description": "Type your question, prompt, or task for writing, editing, or brainstorming."
+    },
+    {
+      "title": "Use Advanced Tools",
+      "description": "Leverage code interpreter, data analysis, and image input features."
+    },
+    {
+      "title": "Save or Share Output",
+      "description": "Copy, export, or continue chats for future use."
+    }
+  ],
+  "sources": [
+    "https://chatgpt.com/pricing"
+  ]
+}

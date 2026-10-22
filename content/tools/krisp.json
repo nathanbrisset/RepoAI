@@ -1,0 +1,59 @@
+{
+  "id": "krisp",
+  "name": "Krisp",
+  "url": "https://krisp.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An AI noise cancellation app that removes background noise and echo during calls, enhancing communication clarity.",
+  "description": "An AI noise cancellation app that removes background noise and echo during calls, enhancing communication clarity.\n\nClear calls, smarter meetings—powered by #1 noise cancellation. Krisp brings Voice AI with an AI Note Taker, Accent AI, and Call Center AI.\n\nNoise Cancellation: Removes background noise during calls. Voice Cancellation: Eliminates other voices in the background. Meeting Transcription: Provides real-time transcription of meetings. Accent Conversion: Adjusts accents in real-time for clearer communication.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Noise Cancellation",
+    "Meetings",
+    "Live Calls"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "Listed Free; krisp.ai/pricing: 7-day free trial, Core $8-16/user/month",
+    "sourceUrl": "https://krisp.ai/pricing"
+  },
+  "logo": "/logos/krisp.png",
+  "image": "/tool-screenshots/krisp.png",
+  "dateAdded": "2022-12-01",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Noise Cancellation: Removes background noise during calls.",
+    "Voice Cancellation: Eliminates other voices in the background.",
+    "Meeting Transcription: Provides real-time transcription of meetings.",
+    "Accent Conversion: Adjusts accents in real-time for clearer communication."
+  ],
+  "howToUse": [
+    {
+      "title": "Download & Install Krisp",
+      "description": "Go to the Krisp website and download the app for your OS.",
+      "links": [
+        {
+          "label": "Krisp",
+          "url": "https://krisp.ai"
+        }
+      ]
+    },
+    {
+      "title": "Set Up Audio Devices",
+      "description": "Select Krisp as your microphone and/or speaker in your conferencing app."
+    },
+    {
+      "title": "Enable Noise Cancellation",
+      "description": "Toggle on noise or voice cancellation features during calls."
+    },
+    {
+      "title": "Use Transcription & Accent Tools",
+      "description": "Enable real-time transcription and accent conversion as needed."
+    }
+  ]
+}

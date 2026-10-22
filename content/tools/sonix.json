@@ -1,0 +1,58 @@
+{
+  "id": "sonix",
+  "name": "Sonix",
+  "url": "https://sonix.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Delivers fast and accurate transcriptions with multilingual support and integration options for diverse needs.",
+  "description": "Delivers fast and accurate transcriptions with multilingual support and integration options for diverse needs.\n\nTranscribe audio and video to text in minutes with 99% accuracy. 54+ languages, AI summaries, and speaker detection. Try Sonix free — no credit card required.\n\nAI audio processing: Sonix supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Audio",
+    "Speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/sonix.png",
+  "image": "/tool-screenshots/sonix.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "AI audio processing: Sonix supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Register & Log In",
+      "description": "Create an account on Sonix.ai.",
+      "links": [
+        {
+          "label": "Sonix",
+          "url": "https://sonix.ai"
+        }
+      ]
+    },
+    {
+      "title": "Upload Media",
+      "description": "Add audio or video files for transcription."
+    },
+    {
+      "title": "Transcribe & Edit",
+      "description": "Use AI to generate, edit, and translate transcripts."
+    },
+    {
+      "title": "Download & Integrate",
+      "description": "Export results or use integrations with other tools."
+    }
+  ]
+}

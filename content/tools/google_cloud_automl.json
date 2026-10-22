@@ -1,0 +1,60 @@
+{
+  "id": "google_cloud_automl",
+  "name": "Google Cloud AutoML",
+  "url": "https://cloud.google.com/products/gemini-enterprise-agent-platform",
+  "affiliateUrl": "",
+  "status": "renamed",
+  "summary": "Google’s old AutoML brand. Confirm the current product name before sending users.",
+  "description": "Google Cloud AutoML is a suite of products that enables developers with limited machine learning expertise to train high-quality models tailored to their needs. With a simple graphical interface, users can label data, train models, and deploy them on Google Cloud. AutoML supports a variety of data types, including images, text, and tabular data, and leverages Google's state-of-the-art transfer learning and neural architecture search technologies for optimal results.\n\nThis card was not given a new official URL in this pass. Treat the old AutoML name as historical until the destination page is checked again.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "Automl",
+    "Cloud",
+    "Google"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/google_cloud_automl.png",
+  "image": "/tool-screenshots/google_cloud_automl.png",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "dateAddedNote": "The previous Added date was 2018-01-17. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Automated Model Training: Build and tune machine learning models with minimal effort.",
+    "Support for Multiple Data Types: Image, text, and tabular data.",
+    "Easy Deployment: Deploy models to Google Cloud with a few clicks.",
+    "Integrated Data Labeling: Built-in tools for annotating datasets.",
+    "Scalable Infrastructure: Handles enterprise workloads and large datasets."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Console",
+      "description": "Create a Google Cloud account and access the AutoML console.",
+      "links": [
+        {
+          "label": "Google Cloud AutoML",
+          "url": "https://cloud.google.com/products/gemini-enterprise-agent-platform"
+        }
+      ]
+    },
+    {
+      "title": "Prepare & Label Data",
+      "description": "Upload your dataset and use built-in tools to label data for training."
+    },
+    {
+      "title": "Train & Validate Model",
+      "description": "Use the graphical interface to train and evaluate machine learning models."
+    },
+    {
+      "title": "Deploy & Monitor",
+      "description": "Deploy models to Google Cloud and monitor their performance in production."
+    }
+  ],
+  "statusNote": "Name is historical. Destination was not re-fetched successfully in this pass."
+}

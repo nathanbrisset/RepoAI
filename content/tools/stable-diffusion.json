@@ -1,0 +1,58 @@
+{
+  "id": "stable-diffusion",
+  "name": "Stable Diffusion",
+  "url": "https://stability.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Stability AI is the enterprise-ready creative partner for teams and creators, delivering professional-grade generative AI tools and solutions for content production at scale.",
+  "description": "Stability AI is the enterprise-ready creative partner for teams and creators, delivering professional-grade generative AI tools and solutions for content production at scale.\n\nText-to-Image Generation: Transforms descriptive text prompts into high-quality images. Image-to-Image Translation: Modifies existing images based on new prompts or styles. Custom Model Training: Allows fine-tuning for specific artistic styles or subjects. Open-Source Accessibility: Provides flexibility for developers and artists to customize and integrate.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "AI",
+    "Open Source",
+    "Art",
+    "Creative"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/stable-diffusion.png",
+  "image": "/tool-screenshots/stable-diffusion.png",
+  "dateAdded": "2022-08-22",
+  "lastVerified": null,
+  "features": [
+    "Text-to-Image Generation: Transforms descriptive text prompts into high-quality images.",
+    "Image-to-Image Translation: Modifies existing images based on new prompts or styles.",
+    "Custom Model Training: Allows fine-tuning for specific artistic styles or subjects.",
+    "Open-Source Accessibility: Provides flexibility for developers and artists to customize and integrate."
+  ],
+  "howToUse": [
+    {
+      "title": "Access Stable Diffusion",
+      "description": "Visit Stability AI or use a local/hosted instance for image generation.",
+      "links": [
+        {
+          "label": "Stable Diffusion",
+          "url": "https://stability.ai"
+        }
+      ]
+    },
+    {
+      "title": "Input Prompt or Image",
+      "description": "Provide a text prompt for generation, or upload an image for translation."
+    },
+    {
+      "title": "Configure Settings",
+      "description": "Adjust parameters such as style, resolution, or seed (if available)."
+    },
+    {
+      "title": "Generate & Download",
+      "description": "Generate the image and download or use in creative projects."
+    }
+  ]
+}

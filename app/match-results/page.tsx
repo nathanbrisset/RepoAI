@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Star, TrendingUp, Clock, CheckCircle } from 'lucide-react';
+import { ArrowLeft, TrendingUp, Clock, CheckCircle } from 'lucide-react';
 import Link from 'next/link';
 import ToolCard from "@/components/tool-card";
 import { mockTools } from "@/lib/data";
@@ -124,10 +124,6 @@ export default async function MatchResultsPage(props: any) {
                 ))}
           </div>
               <div className="flex items-center gap-4 mb-4">
-                <div className="flex items-center">
-                  <Star className="w-5 h-5 text-yellow-400 fill-current" />
-                  <span className="ml-1">{mainTool.rating}</span>
-                </div>
                 <div className="flex items-center">
                   <TrendingUp className="w-5 h-5 text-green-500" />
                   <span className="ml-1">Popular</span>

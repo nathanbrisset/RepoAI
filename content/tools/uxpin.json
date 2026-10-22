@@ -1,0 +1,59 @@
+{
+  "id": "uxpin",
+  "name": "UXPin",
+  "url": "https://www.uxpin.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A design platform that uses AI to streamline prototyping and collaboration, allowing designers to create interactive prototypes with real code components.",
+  "description": "A design platform that uses AI to streamline prototyping and collaboration, allowing designers to create interactive prototypes with real code components.\n\nDesign tool like no other. Prototypes that feel real, with powers of code components, logic, states, and design systems. Join for free!\n\nAI prototyping: Generate interactive prototypes from design specs. Real-time collaboration: Work together with your team live. Accessibility checks: Get AI-powered accessibility suggestions. Design-to-code: Convert designs to code-ready components.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "AI",
+    "Prototyping",
+    "Collaboration",
+    "Code Based Design"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/uxpin.png",
+  "image": "/tool-screenshots/uxpin.png",
+  "dateAdded": "2021-11-20",
+  "lastVerified": null,
+  "features": [
+    "AI prototyping: Generate interactive prototypes from design specs.",
+    "Real-time collaboration: Work together with your team live.",
+    "Accessibility checks: Get AI-powered accessibility suggestions.",
+    "Design-to-code: Convert designs to code-ready components.",
+    "Component libraries: Maintain and reuse design system elements."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up and Start Project",
+      "description": "Create an account on UXPin and start a new design or prototype.",
+      "links": [
+        {
+          "label": "UXPin",
+          "url": "https://www.uxpin.com/"
+        }
+      ]
+    },
+    {
+      "title": "Design with AI",
+      "description": "Use AI features to generate prototypes and receive accessibility suggestions."
+    },
+    {
+      "title": "Collaborate and Share",
+      "description": "Invite team members for live collaboration and share interactive prototypes."
+    },
+    {
+      "title": "Export Components",
+      "description": "Convert your design to code or export assets for development."
+    }
+  ]
+}

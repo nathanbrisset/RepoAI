@@ -1,0 +1,59 @@
+{
+  "id": "codeium",
+  "name": "Codeium",
+  "url": "https://devin.ai/desktop",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "Codeium’s site now redirects to Devin Desktop.",
+  "description": "On 21 October 2026, codeium.com redirected to https://devin.ai/desktop. That page is titled “Devin Desktop” and describes managing local and cloud coding agents. The old Codeium autocomplete description is out of date. See the Devin card.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Code Generation",
+    "Multi Language",
+    "IDE Integration"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Codeium’s own price was not rechecked because the domain redirects to Devin."
+  },
+  "logo": "/logos/codeium.png",
+  "image": "/tool-screenshots/codeium.png",
+  "dateAdded": "2022-09-15",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI Autocomplete: Real-time suggestions in 70+ languages.",
+    "In-Editor AI Chat: Technical help inside your IDE.",
+    "Broad IDE Support: Works with VS Code, JetBrains, and more.",
+    "Free for Individuals: Unlimited access with no cost."
+  ],
+  "howToUse": [
+    {
+      "title": "Install Codeium Plugin",
+      "description": "Add Codeium to your IDE (VS Code, JetBrains, etc.).",
+      "links": [
+        {
+          "label": "Codeium",
+          "url": "https://devin.ai/desktop"
+        }
+      ]
+    },
+    {
+      "title": "Start Coding",
+      "description": "Receive real-time code completions and suggestions."
+    },
+    {
+      "title": "Use AI Chat",
+      "description": "Ask technical questions or get coding help in-editor."
+    }
+  ],
+  "successorId": "devin",
+  "sources": [
+    "https://devin.ai/desktop"
+  ],
+  "statusNote": "codeium.com redirects to devin.ai/desktop (Windsurf); covered by 'Devin (incl. Windsurf)' in lot v3"
+}

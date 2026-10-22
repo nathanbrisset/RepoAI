@@ -1,0 +1,66 @@
+{
+  "id": "aimages",
+  "name": "Aimages",
+  "url": "https://aimages.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Aimages is an AI-powered video enhancement platform for upscaling, denoising, and restoring old or low-quality videos, making them look new again.",
+  "description": "Aimages is an AI-powered video enhancement platform for upscaling, denoising, and restoring old or low-quality videos, making them look new again.\n\nUpscale and Enhance videos and images online using AI. Get professional quality for every video or image. Try for Free.\n\nAI upscaling: Sharpen and enhance low-resolution videos for HD or 4K output. Noise reduction: Remove grain, compression artifacts, and visual noise for a clean look. Frame interpolation: Smooth choppy or low-FPS footage for more natural motion. Restoration: Revive damaged, faded, or old videos using deep learning models.",
+  "categories": [
+    "video",
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Upscaling",
+    "Restoration"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/aimages.png",
+  "image": "/tool-screenshots/aimages.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "AI upscaling: Sharpen and enhance low-resolution videos for HD or 4K output.",
+    "Noise reduction: Remove grain, compression artifacts, and visual noise for a clean look.",
+    "Frame interpolation: Smooth choppy or low-FPS footage for more natural motion.",
+    "Restoration: Revive damaged, faded, or old videos using deep learning models."
+  ],
+  "howToUse": [
+    {
+      "title": "Create an Account and Log In",
+      "description": "Sign up at Aimages and log into your dashboard to start processing videos.",
+      "links": [
+        {
+          "label": "Aimages",
+          "url": "https://aimages.ai"
+        }
+      ]
+    },
+    {
+      "title": "Upload Video for Enhancement",
+      "description": "Click 'Upload' and select the video you want to enhance. Supported formats: MP4, AVI, MOV, etc."
+    },
+    {
+      "title": "Select Enhancement Features",
+      "description": "Choose from upscaling (HD/4K), noise reduction, frame interpolation, and restoration. You can enable one or several features based on your needs."
+    },
+    {
+      "title": "Configure Output Settings",
+      "description": "Set your desired output resolution, frame rate, and format. Review advanced options for best results."
+    },
+    {
+      "title": "Run AI Enhancement",
+      "description": "Start processing. Aimages’ AI will enhance your video and display a progress bar. Processing time depends on video length and selected features."
+    },
+    {
+      "title": "Preview and Download",
+      "description": "Preview the enhanced video for quality. Download the final result or reprocess with different settings if needed."
+    }
+  ]
+}

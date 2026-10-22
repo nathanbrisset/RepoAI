@@ -1,0 +1,60 @@
+{
+  "id": "wisecut",
+  "name": "Wisecut",
+  "url": "https://wisecut.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turn long videos and livestreams into clips for Reels, Shorts and TikTok. Edit with AI and automate publishing with Wisecut.",
+  "description": "Turn long videos and livestreams into clips for Reels, Shorts and TikTok. Edit with AI and automate publishing with Wisecut.\n\nAutomatic Video Editing: Automatically edit videos by removing silences and adding music. Auto Captioning: Generate captions for videos automatically. Voice Recognition: Edit videos based on voice commands. Background Music: Add background music that adapts to the video's tone.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "Jump Cut",
+    "Auto Subtitles",
+    "Music Sync",
+    "YouTube",
+    "E Learning"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/wisecut.png",
+  "image": "/tool-screenshots/wisecut.png",
+  "dateAdded": "2021-08-20",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Automatic Video Editing: Automatically edit videos by removing silences and adding music.",
+    "Auto Captioning: Generate captions for videos automatically.",
+    "Voice Recognition: Edit videos based on voice commands.",
+    "Background Music: Add background music that adapts to the video's tone."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Upload Video",
+      "description": "Register at Wisecut and upload a talking-head video.",
+      "links": [
+        {
+          "label": "Wisecut",
+          "url": "https://wisecut.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Auto-Edit with AI",
+      "description": "Let Wisecut remove silences, add jump cuts, music, and subtitles automatically."
+    },
+    {
+      "title": "Edit & Customize",
+      "description": "Fine-tune the edit, captions, and effects as needed."
+    },
+    {
+      "title": "Export & Share",
+      "description": "Download your video or share it on YouTube/social media."
+    }
+  ],
+  "statusNote": "wisecut.video redirects to wisecut.ai"
+}

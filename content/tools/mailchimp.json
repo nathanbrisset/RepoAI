@@ -1,0 +1,59 @@
+{
+  "id": "mailchimp",
+  "name": "Mailchimp",
+  "url": "https://mailchimp.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Marketing automation platform offering email marketing, landing pages, and audience management tools.",
+  "description": "Marketing automation platform offering email marketing, landing pages, and audience management tools.\n\nUtilize real-time user behavior data and artificial intelligence to convert more customers. Easy to use, get started for free!\n\nEmail Automation: Create and schedule campaigns. Customer Journeys: Design multi-step email sequences. A/B Testing: Test email subject lines and content. CRM Features: Manage contacts, segments, and preferences.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "Email Campaigns",
+    "Automation",
+    "Audience Management",
+    "Analytics"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/mailchimp.png",
+  "image": "/tool-screenshots/mailchimp.png",
+  "dateAdded": null,
+  "lastVerified": null,
+  "dateAddedNote": "The previous Added date was 2001-10-01. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Email Automation: Create and schedule campaigns.",
+    "Customer Journeys: Design multi-step email sequences.",
+    "A/B Testing: Test email subject lines and content.",
+    "CRM Features: Manage contacts, segments, and preferences."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Build Campaign",
+      "description": "Create a Mailchimp account and start a new email or landing page campaign.",
+      "links": [
+        {
+          "label": "Mailchimp",
+          "url": "https://mailchimp.com"
+        }
+      ]
+    },
+    {
+      "title": "Add Content & Design",
+      "description": "Write your message, add images, and select templates."
+    },
+    {
+      "title": "Set Audience & Schedule",
+      "description": "Choose segments and schedule send times."
+    },
+    {
+      "title": "Analyze Results",
+      "description": "Track opens, clicks, and conversions in analytics."
+    }
+  ]
+}

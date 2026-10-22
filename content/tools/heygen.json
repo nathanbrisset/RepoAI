@@ -1,0 +1,137 @@
+{
+  "id": "heygen",
+  "name": "HeyGen (formerly Movio)",
+  "url": "https://www.heygen.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "HeyGen is a text-to-video platform that uses AI avatars and lip-sync to create videos from scripts, PowerPoints, or URLs. Features real-time video translation and voice cloning.",
+  "description": "HeyGen is a text-to-video platform that uses AI avatars and lip-sync to create videos from scripts, PowerPoints, or URLs. Features real-time video translation and voice cloning.\n\nBe your best self, every time. Create clear, confident AI videos with your Personal Avatar—your face and voice, without filming every video. Try it free.\n\nAI avatar generation: Choose from a diverse range of digital humans to present your content, offering a professional and engaging delivery. Real-time translation: Instantly translate and dub your videos into multiple languages, breaking down language barriers for a global audience. Voice cloning: Use your own voice or select from a library of synthesized voices, enabling consistent branding and personal connection. Script-to-video: Convert text, slides, or even URLs directly into compelling video content, streamlining the content creation process.",
+  "categories": [
+    "video",
+    "marketing"
+  ],
+  "tags": [
+    "AI",
+    "Avatar",
+    "Translation",
+    "Voice"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/heygen.png",
+  "image": "/tool-screenshots/heygen.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "AI avatar generation: Choose from a diverse range of digital humans to present your content, offering a professional and engaging delivery.",
+    "Real-time translation: Instantly translate and dub your videos into multiple languages, breaking down language barriers for a global audience.",
+    "Voice cloning: Use your own voice or select from a library of synthesized voices, enabling consistent branding and personal connection.",
+    "Script-to-video: Convert text, slides, or even URLs directly into compelling video content, streamlining the content creation process."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Access Dashboard",
+      "description": "Go to HeyGen's website and sign up for a free or premium account. After verifying your email, log in to access the dashboard.",
+      "links": [
+        {
+          "label": "HeyGen",
+          "url": "https://www.heygen.com/"
+        }
+      ]
+    },
+    {
+      "title": "Start a New Project",
+      "description": "Click 'Create Video' or 'New Project'. Choose from blank, script, PowerPoint, or URL input to start. You can also select a template suited for your use case.",
+      "links": [
+        {
+          "label": "Video creation pathways",
+          "url": "https://www.heygen.com/academy/video-creation-pathways"
+        }
+      ]
+    },
+    {
+      "title": "Select Your AI Avatar",
+      "description": "Browse the avatar library and pick a digital presenter that matches your target audience and tone. Premium users unlock more avatar options.",
+      "links": [
+        {
+          "label": "Avatar Library",
+          "url": "https://www.heygen.com/avatars"
+        }
+      ]
+    },
+    {
+      "title": "Input Script or Content",
+      "description": "Paste your script, upload a PowerPoint, or enter a URL. HeyGen will extract text and generate scenes based on your input. Edit each scene’s text as needed.",
+      "links": [
+        {
+          "label": "Scripting guide",
+          "url": "https://www.heygen.com/academy/scripting"
+        }
+      ]
+    },
+    {
+      "title": "Choose Voice and Language",
+      "description": "Select the AI voice and adjust language, accent, speed, and tone. Use the voice cloning feature if you want to use your own or a custom voice.",
+      "links": [
+        {
+          "label": "Voice Settings",
+          "url": "https://www.heygen.com/voices"
+        }
+      ]
+    },
+    {
+      "title": "Customize Video Scenes",
+      "description": "Add or customize backgrounds, upload images, use HeyGen's stock assets, and arrange avatars and text. Adjust timing and transitions for each scene.",
+      "links": [
+        {
+          "label": "Scene Editing",
+          "url": "https://www.heygen.com/features"
+        }
+      ]
+    },
+    {
+      "title": "Translate or Dub Video (Optional)",
+      "description": "Enable the translation feature to automatically translate and dub your video into other languages. Review the translated script and voices before generating.",
+      "links": [
+        {
+          "label": "Video translation",
+          "url": "https://www.heygen.com/translate"
+        }
+      ]
+    },
+    {
+      "title": "Preview and Revise",
+      "description": "Preview the full video, check lip-sync, transitions, voice, and adjust any elements as needed. Make sure all scenes and text are accurate.",
+      "links": [
+        {
+          "label": "HeyGen Help Center",
+          "url": "https://help.heygen.com/"
+        }
+      ]
+    },
+    {
+      "title": "Export & Download",
+      "description": "Choose your export format and resolution (some options may require a premium plan). Download the MP4 or share directly to social or business platforms.",
+      "links": [
+        {
+          "label": "Download or export",
+          "url": "https://help.heygen.com/en/articles/9834825-how-to-download-or-export-a-video"
+        }
+      ]
+    },
+    {
+      "title": "Explore Advanced Features & API",
+      "description": "Try batch video creation, API integrations, or advanced branding and voice options for automation or large-scale production.",
+      "links": [
+        {
+          "label": "API Docs",
+          "url": "https://docs.heygen.com/"
+        }
+      ]
+    }
+  ]
+}

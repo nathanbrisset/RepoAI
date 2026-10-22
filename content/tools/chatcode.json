@@ -1,0 +1,53 @@
+{
+  "id": "chatcode",
+  "name": "ChatCode",
+  "url": "https://chatcodeai.vercel.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Interactive AI coding chatbot for developer support.",
+  "description": "Interactive AI coding chatbot for developer support.\n\nCollaborative Coding Environment: Allows multiple users to code together in real-time. Audio and Video Communication: Facilitates discussions among collaborators. Support for Multiple Languages: Enables coding in over 10 different programming languages. Shared Code Execution: Users can execute code within the shared environment.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Chatbot",
+    "Developer Support"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "",
+  "image": "/tool-screenshots/chatcode.png",
+  "dateAdded": "2022-11-01",
+  "lastVerified": null,
+  "features": [
+    "Collaborative Coding Environment: Allows multiple users to code together in real-time.",
+    "Audio and Video Communication: Facilitates discussions among collaborators.",
+    "Support for Multiple Languages: Enables coding in over 10 different programming languages.",
+    "Shared Code Execution: Users can execute code within the shared environment."
+  ],
+  "howToUse": [
+    {
+      "title": "Visit ChatCode",
+      "description": "Access the ChatCode platform in your browser.",
+      "links": [
+        {
+          "label": "ChatCode",
+          "url": "https://chatcodeai.vercel.app/"
+        }
+      ]
+    },
+    {
+      "title": "Create or Join Session",
+      "description": "Start a new coding session or join an existing one."
+    },
+    {
+      "title": "Collaborate & Code",
+      "description": "Write code, chat, and even make calls within the platform."
+    }
+  ]
+}

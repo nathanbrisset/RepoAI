@@ -1,0 +1,130 @@
+{
+  "id": "deepbrainai",
+  "name": "DeepBrain AI",
+  "url": "https://www.aistudios.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "DeepBrain AI lets you generate realistic human avatar videos from scripts in multiple languages. Used for news, training, and explainer content with lifelike AI presenters.",
+  "description": "DeepBrain AI lets you generate realistic human avatar videos from scripts in multiple languages. Used for news, training, and explainer content with lifelike AI presenters.\n\nAI Video Generator, Text-to-Video, Generative Videos, Custom Avatar, 2,000+ Avatars, AI Dubbing with Translation, TTS with 150+ Languages, and 7,000+ Video Templates — for HR Training, and YouTube Creators.\n\nAI news anchor avatars: Instantly generate professional news-style videos with digital presenters, cutting down production time and costs. Multilingual support: Create videos in over 80 languages, allowing for global reach and consistent branding across different markets. Custom avatars: Upload your own face or select from a diverse array of digital personas to match your company's image or audience. Easy script-to-video: Simply paste your script and receive a polished, presenter-led video ready for publishing or internal use.",
+  "categories": [
+    "video",
+    "marketing"
+  ],
+  "tags": [
+    "AI",
+    "Avatar",
+    "News",
+    "Training"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/deepbrainai.png",
+  "image": "/tool-screenshots/deepbrainai.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI news anchor avatars: Instantly generate professional news-style videos with digital presenters, cutting down production time and costs.",
+    "Multilingual support: Create videos in over 80 languages, allowing for global reach and consistent branding across different markets.",
+    "Custom avatars: Upload your own face or select from a diverse array of digital personas to match your company's image or audience.",
+    "Easy script-to-video: Simply paste your script and receive a polished, presenter-led video ready for publishing or internal use."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Log In",
+      "description": "Visit the DeepBrain AI (AI Studios) website and create a free account—no credit card needed. Verify your email and log into the AI Studios dashboard.",
+      "links": [
+        {
+          "label": "aistudios.com",
+          "url": "https://www.aistudios.com"
+        }
+      ]
+    },
+    {
+      "title": "Create a New Video Project",
+      "description": "Click 'New Project' or select a template (for business, explainer, training, etc.). Templates give you a structured starting point; otherwise, begin with a blank slate.",
+      "links": [
+        {
+          "label": "aistudios.com",
+          "url": "https://www.aistudios.com"
+        }
+      ]
+    },
+    {
+      "title": "Choose Your AI Avatar",
+      "description": "Browse the Avatars library—over 80 multilingual lifelike avatars. Select one that aligns with your project's tone, language, and audience.",
+      "links": [
+        {
+          "label": "aistudios.com",
+          "url": "https://www.aistudios.com"
+        }
+      ]
+    },
+    {
+      "title": "Customize Background & Scene",
+      "description": "Upload your own background image or choose from built-in stock options. Adjust avatars' position, scale, and style settings to suit your design."
+    },
+    {
+      "title": "Write or Import Your Script",
+      "description": "Use the onboard Script Assistant or paste script directly into each scene. You can edit text per slide and even auto-generate subtitles.",
+      "links": [
+        {
+          "label": "AI Studios",
+          "url": "https://www.aistudios.com/"
+        }
+      ]
+    },
+    {
+      "title": "Select Voice & Language",
+      "description": "Choose from AI voices in 80+ languages with adjustable tone and speed. That allows localization or multilingual content targeting.",
+      "links": [
+        {
+          "label": "aistudios.com",
+          "url": "https://www.aistudios.com"
+        }
+      ]
+    },
+    {
+      "title": "Enhance with Media & Effects",
+      "description": "Add images, shapes, animations, and background music or custom audio. Layer media assets and animate them across scenes for visual appeal.",
+      "links": [
+        {
+          "label": "AI Studios",
+          "url": "https://www.aistudios.com/"
+        }
+      ]
+    },
+    {
+      "title": "Preview & Tweak",
+      "description": "Playback your video to check avatar lip-sync, timing, and scene transitions. Make any needed edits—swap avatars, adjust pacing, refine visuals."
+    },
+    {
+      "title": "Export & Publish",
+      "description": "Choose export options (MP4, resolution, chroma key if supported). Export your project and download. Higher resolutions and watermark-free exports depend on your subscription level.",
+      "links": [
+        {
+          "label": "AI Studios",
+          "url": "https://www.aistudios.com/"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Usage & API",
+      "description": "Avatar & Voice Customization: Choose outfits and styles, tweak lip-sync precision. API Integration: Automate video production using the AI Studios API—generate API keys, script uploads, job polling, and webhook callbacks.",
+      "links": [
+        {
+          "label": "aistudios.com",
+          "url": "https://www.aistudios.com"
+        },
+        {
+          "label": "docs.deepbrain.io",
+          "url": "https://docs.deepbrain.io"
+        }
+      ]
+    }
+  ],
+  "statusNote": "deepbrain.io redirects to aistudios.com"
+}

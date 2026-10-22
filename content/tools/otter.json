@@ -1,0 +1,63 @@
+{
+  "id": "otter",
+  "name": "Otter.ai",
+  "url": "https://otter.ai",
+  "affiliateUrl": "",
+  "status": "sunset",
+  "summary": "Meeting agent for live transcription, summaries, and notes.",
+  "description": "Otter’s homepage title on 21 October 2026 was “Otter Meeting Agent - AI Notetaker, Transcription, Insights”. The meta description says it supports real-time transcription, live chat, automated summaries, and insights. The price was not on that text. This fiche is the duplicate. The kept fiche is otterai.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Transcription",
+    "Meetings"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Duplicate fiche. otter.ai/pricing: Basic Free, Pro $8.49-16.99/user/month",
+    "sourceUrl": "https://otter.ai/pricing"
+  },
+  "logo": "/logos/otter.png",
+  "image": "",
+  "dateAdded": "2023-06-01",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Real-Time Transcription: Transcribes meetings and lectures as they happen.",
+    "Speaker Identification: Labels who said what in group conversations.",
+    "Automatic Summaries: Creates outlines of spoken content.",
+    "Search & Highlight: Lets users find keywords and key moments."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Invite Otter",
+      "description": "Create an Otter.ai account and invite Otter to meetings.",
+      "links": [
+        {
+          "label": "Otter.ai",
+          "url": "https://otter.ai"
+        }
+      ]
+    },
+    {
+      "title": "Start Transcription",
+      "description": "Begin a live transcription for meetings or lectures."
+    },
+    {
+      "title": "Review & Edit",
+      "description": "Edit transcripts, add highlights, and assign speakers."
+    },
+    {
+      "title": "Export Results",
+      "description": "Download or share notes and summaries."
+    }
+  ],
+  "sources": [
+    "https://otter.ai"
+  ],
+  "statusNote": "Duplicate Otter.ai entry (id otter, marked Free); keep id otterai",
+  "successorId": "otterai"
+}

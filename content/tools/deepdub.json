@@ -1,0 +1,76 @@
+{
+  "id": "deepdub",
+  "name": "DeepDub",
+  "url": "https://deepdub.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "DeepDub is an AI dubbing platform for video translation with emotion-preserving synthetic voices, enabling global video content localization.",
+  "description": "DeepDub is an AI dubbing platform for video translation with emotion-preserving synthetic voices, enabling global video content localization.\n\nScale up dubbing for your productions faster and more cost-efficiently than ever with the end-to-end localization platform made for voice production.\n\nEmotion-preserving dubbing: AI voices keep the original speaker’s tone, emotion, and intent for a natural translation. Multi-language support: Translate and dub content into any major language for global audience expansion. Voice cloning: Retain the identity of the original speaker for authenticity and continuity. API access: Automate large-scale localization and dubbing workflows for enterprise-level needs.",
+  "categories": [
+    "video",
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Dubbing",
+    "Translation"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/deepdub.png",
+  "image": "/tool-screenshots/deepdub.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "Emotion-preserving dubbing: AI voices keep the original speaker’s tone, emotion, and intent for a natural translation.",
+    "Multi-language support: Translate and dub content into any major language for global audience expansion.",
+    "Voice cloning: Retain the identity of the original speaker for authenticity and continuity.",
+    "API access: Automate large-scale localization and dubbing workflows for enterprise-level needs."
+  ],
+  "howToUse": [
+    {
+      "title": "Contact DeepDub Sales",
+      "description": "Visit DeepDub and reach out via the contact form to discuss your project and get access to the platform.",
+      "links": [
+        {
+          "label": "DeepDub",
+          "url": "https://deepdub.ai"
+        }
+      ]
+    },
+    {
+      "title": "Onboard and Upload Video",
+      "description": "Work with the DeepDub team to onboard your project, set up access, and securely upload your source video files."
+    },
+    {
+      "title": "Define Languages and Preferences",
+      "description": "Specify the target languages, desired tone, and any emotional requirements for dubbing. DeepDub will help configure the right AI voices."
+    },
+    {
+      "title": "Voice Cloning & Dubbing Setup",
+      "description": "If needed, provide sample audio for voice cloning. DeepDub will set up voices to match your requirements and brand consistency."
+    },
+    {
+      "title": "AI Dubbing and Review",
+      "description": "DeepDub’s AI transcribes, translates, and dubs the video while preserving the original speaker’s intent and emotion. Review initial outputs for feedback."
+    },
+    {
+      "title": "Approve and Receive Deliverables",
+      "description": "Approve the final dubbed videos after your review. Receive your localized content in the required video format for global distribution."
+    },
+    {
+      "title": "API Integration (Enterprise)",
+      "description": "For large-scale, recurring, or programmatic localization, use DeepDub’s API to automate video submission and retrieval.",
+      "links": [
+        {
+          "label": "DeepDub API",
+          "url": "https://deepdub.ai/technology"
+        }
+      ]
+    }
+  ]
+}

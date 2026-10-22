@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { mockTools } from "@/lib/data";
+import { allTools, mockTools } from "@/lib/data";
 import { metaDescription, pageMetadata } from "@/lib/seo";
 import ToolPageClient from "./tool-page-client";
 
@@ -9,7 +9,7 @@ export const dynamicParams = false
 
 // Generate static paths for all tools
 export async function generateStaticParams() {
-  return mockTools.map((tool) => ({
+  return allTools.map((tool) => ({
     id: tool.id,
   }))
 }
@@ -21,7 +21,7 @@ type PageProps = {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { id } = await params;
-  const tool = mockTools.find((entry) => entry.id === id);
+  const tool = allTools.find((entry) => entry.id === id);
 
   if (!tool) {
     notFound();
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ToolPage({ params }: PageProps) {
   const { id } = await params;
-  const tool = mockTools.find((tool) => tool.id === id);
+  const tool = allTools.find((tool) => tool.id === id);
 
   if (!tool) {
     notFound();
@@ -50,5 +50,13 @@ export default async function ToolPage({ params }: PageProps) {
     (t) => t.id !== tool.id && t.categories.some((cat) => tool.categories.includes(cat))
   ).slice(0, 2);
 
-  return <ToolPageClient tool={tool} relatedTools={relatedTools} />;
+  const successor = tool.successorId ? allTools.find((item) => item.id === tool.successorId) : null
+
+  return (
+    <ToolPageClient
+      tool={tool}
+      relatedTools={relatedTools}
+      successorName={successor?.name}
+    />
+  );
 }

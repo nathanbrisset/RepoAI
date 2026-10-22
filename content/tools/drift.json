@@ -1,0 +1,62 @@
+{
+  "id": "drift",
+  "name": "Drift",
+  "url": "https://www.drift.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Drift is an AI-powered chatbot and conversational marketing platform that helps businesses engage website visitors, qualify leads, and accelerate sales pipelines.",
+  "description": "Drift is an AI-powered chatbot and conversational marketing platform that helps businesses engage website visitors, qualify leads, and accelerate sales pipelines.\n\nConversational marketing: Engage visitors with real-time chat. Lead qualification: AI filters and prioritizes sales leads. Automated meeting booking: Schedule calls directly from chat. Integrations: Connects with major CRM and marketing tools.",
+  "categories": [
+    "marketing",
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Chatbot",
+    "Conversational"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/drift.png",
+  "image": "/tool-screenshots/drift.png",
+  "dateAdded": "2025-06-11",
+  "lastVerified": null,
+  "features": [
+    "Conversational marketing: Engage visitors with real-time chat.",
+    "Lead qualification: AI filters and prioritizes sales leads.",
+    "Automated meeting booking: Schedule calls directly from chat.",
+    "Integrations: Connects with major CRM and marketing tools."
+  ],
+  "howToUse": [
+    {
+      "title": "Request a Demo or Start Free",
+      "description": "Go to Drift and request a demo or start a free trial. Onboarding guidance is provided for integration.",
+      "links": [
+        {
+          "label": "Drift",
+          "url": "https://www.drift.com"
+        }
+      ]
+    },
+    {
+      "title": "Install Drift Widget",
+      "description": "Add the Drift chat widget to your website to enable real-time conversations."
+    },
+    {
+      "title": "Configure Playbooks",
+      "description": "Set up conversation playbooks to qualify leads, answer FAQs, or book meetings automatically."
+    },
+    {
+      "title": "Integrate with CRM/Marketing Tools",
+      "description": "Sync Drift with your CRM or marketing automation platform for full lead management."
+    },
+    {
+      "title": "Review Conversations and Analytics",
+      "description": "Track conversations, analyze chat impact, and optimize bot flows to improve results."
+    }
+  ]
+}

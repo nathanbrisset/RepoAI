@@ -1,0 +1,55 @@
+{
+  "id": "voice-ai",
+  "name": "Voice.ai",
+  "url": "https://voice.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A voice cloning tool that allows users to transform their voice into various characters or styles in real-time.",
+  "description": "A voice cloning tool that allows users to transform their voice into various characters or styles in real-time.\n\nReal-Time Voice Changer: Modifies voice in real-time across various applications. Wide App Compatibility: Works with platforms like Zoom, Discord, and Skype. Voice Universe: A collection of diverse voice options for users. Audio Editing Tools: Includes features like vocal remover and echo reducer.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Voice Changer",
+    "Streaming",
+    "Real Time"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Listed Free; voice.ai/pricing: Free $0, Starter $5/month",
+    "sourceUrl": "https://voice.ai/pricing"
+  },
+  "logo": "/logos/voice-ai.png",
+  "image": "/tool-screenshots/voice-ai.png",
+  "dateAdded": "2023-04-05",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "Real-Time Voice Changer: Modifies voice in real-time across various applications.",
+    "Wide App Compatibility: Works with platforms like Zoom, Discord, and Skype.",
+    "Voice Universe: A collection of diverse voice options for users.",
+    "Audio Editing Tools: Includes features like vocal remover and echo reducer."
+  ],
+  "howToUse": [
+    {
+      "title": "Download & Install Voice.ai",
+      "description": "Get the desktop app from the Voice.ai website.",
+      "links": [
+        {
+          "label": "Voice.ai",
+          "url": "https://voice.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure App & Audio Devices",
+      "description": "Set up microphone and select target voices or effects."
+    },
+    {
+      "title": "Enable Real-Time Voice Changing",
+      "description": "Activate the voice changer in your preferred apps."
+    }
+  ]
+}

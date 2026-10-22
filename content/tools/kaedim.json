@@ -1,0 +1,60 @@
+{
+  "id": "kaedim",
+  "name": "Kaedim",
+  "url": "https://www.kaedim3d.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Kaedim is an AI-powered tool that converts 2D images into 3D models automatically. Geared toward game developers, 3D artists, and designers, it accelerates asset creation for games, AR/VR, and digital content.",
+  "description": "Kaedim is an AI-powered tool that converts 2D images into 3D models automatically. Geared toward game developers, 3D artists, and designers, it accelerates asset creation for games, AR/VR, and digital content.\n\nAI-powered 3D asset creation service delivering fast, production-ready 3D assets. Scale 3D pipelines without hiring, accelerate 3D game art production, and reduce 3D asset costs by up to 90%.\n\n2D to 3D Conversion: Turn sketches or images into 3D models. Rapid Prototyping: Generate assets in minutes. Format Support: Download models in standard 3D formats. Cloud Processing: Handle large or complex scenes via cloud.",
+  "categories": [
+    "design",
+    "image"
+  ],
+  "tags": [
+    "3D",
+    "AI",
+    "Asset Generation",
+    "Games"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/kaedim.png",
+  "image": "/tool-screenshots/kaedim.png",
+  "dateAdded": "2021-07-01",
+  "lastVerified": null,
+  "features": [
+    "2D to 3D Conversion: Turn sketches or images into 3D models.",
+    "Rapid Prototyping: Generate assets in minutes.",
+    "Format Support: Download models in standard 3D formats.",
+    "Cloud Processing: Handle large or complex scenes via cloud.",
+    "Integration: Use in game engines and 3D editors."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Upload Image",
+      "description": "Register for Kaedim and upload a 2D image or sketch you want to convert.",
+      "links": [
+        {
+          "label": "Kaedim",
+          "url": "https://kaedim3d.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure Output",
+      "description": "Specify your desired output format and any model requirements."
+    },
+    {
+      "title": "Generate 3D Asset",
+      "description": "Let Kaedim’s AI process your image and create a 3D model."
+    },
+    {
+      "title": "Download & Integrate",
+      "description": "Download your model for use in game engines or 3D editors."
+    }
+  ]
+}

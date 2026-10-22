@@ -1,0 +1,67 @@
+{
+  "id": "lalalai",
+  "name": "LALAL.AI Video Stem Splitter",
+  "url": "https://www.lalal.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "LALAL.AI uses AI to extract vocals and music from video files, making it easy to remix or edit soundtracks for new projects.",
+  "description": "LALAL.AI uses AI to extract vocals and music from video files, making it easy to remix or edit soundtracks for new projects.\n\nAudio stem extraction: Precisely separate vocals, instrumentation, drums, and other elements from video or audio files. Batch processing: Upload and process multiple video files at once for efficient workflows. High-accuracy AI: Maintains excellent sound quality and clarity during the extraction process. Multi-format support: Works with a wide range of video and audio file types for maximum flexibility.",
+  "categories": [
+    "video",
+    "audio",
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Audio",
+    "Stem Splitter"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/lalalai.png",
+  "image": "/tool-screenshots/lalalai.png",
+  "dateAdded": "2025-06-13",
+  "lastVerified": null,
+  "features": [
+    "Audio stem extraction: Precisely separate vocals, instrumentation, drums, and other elements from video or audio files.",
+    "Batch processing: Upload and process multiple video files at once for efficient workflows.",
+    "High-accuracy AI: Maintains excellent sound quality and clarity during the extraction process.",
+    "Multi-format support: Works with a wide range of video and audio file types for maximum flexibility."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up or Start for Free",
+      "description": "Go to LALAL.AI and either sign up or start the free trial to access the stem splitter tool.",
+      "links": [
+        {
+          "label": "LALAL.AI",
+          "url": "https://www.lalal.ai"
+        }
+      ]
+    },
+    {
+      "title": "Upload Your Video or Audio File",
+      "description": "Drag and drop or select the file you want to split. LALAL.AI supports MP4, MP3, WAV, and many other formats."
+    },
+    {
+      "title": "Choose Stems to Extract",
+      "description": "Select which stems you want—vocals, instrumental, drums, bass, etc. LALAL.AI will process accordingly."
+    },
+    {
+      "title": "Processing & Preview",
+      "description": "Wait for the AI to analyze and separate the tracks. You can preview the extracted stems before downloading."
+    },
+    {
+      "title": "Download Stems",
+      "description": "Download your separated audio files and use them for remixing, editing, or any new creative project."
+    },
+    {
+      "title": "Batch Mode (Optional)",
+      "description": "For large jobs, use batch processing to split stems from multiple files in one session (requires paid plan)."
+    }
+  ]
+}

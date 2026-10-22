@@ -1,0 +1,63 @@
+{
+  "id": "synthesys",
+  "name": "Synthesys",
+  "url": "https://synthesys.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Synthesys generates AI voiceovers and avatar videos for marketing, e-learning, and presentations. It offers realistic voices, facial animation, and multi-language support.",
+  "description": "Synthesys generates AI voiceovers and avatar videos for marketing, e-learning, and presentations. It offers realistic voices, facial animation, and multi-language support.\n\nCreate AI video ads, UGC & commercials in minutes. Trusted by Coca-Cola & Yahoo. 10X faster, 90%+ cheaper than traditional production.\n\nWide variety of synthetic voices. Text-to-video with talking avatars. Supports 50+ languages for global reach. Branded video templates and customization.",
+  "categories": [
+    "marketing",
+    "audio",
+    "video"
+  ],
+  "tags": [
+    "AI",
+    "Audio",
+    "Video"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/synthesys.png",
+  "image": "/tool-screenshots/synthesys.png",
+  "dateAdded": "2025-06-11",
+  "lastVerified": null,
+  "features": [
+    "Wide variety of synthetic voices.",
+    "Text-to-video with talking avatars.",
+    "Supports 50+ languages for global reach.",
+    "Branded video templates and customization."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up and Access Dashboard",
+      "description": "Create a Synthesys account and log in to the platform to access voiceover and avatar video tools.",
+      "links": [
+        {
+          "label": "Synthesys",
+          "url": "https://synthesys.io"
+        }
+      ]
+    },
+    {
+      "title": "Input or Paste Script",
+      "description": "Enter your script for voiceover or avatar video generation. Select the language and style you prefer."
+    },
+    {
+      "title": "Choose Voice and Avatar",
+      "description": "Pick from a library of AI voices and talking avatars. Adjust parameters for tone, speed, and accent as needed."
+    },
+    {
+      "title": "Generate and Preview Media",
+      "description": "Click to generate your audio or video. Preview the result and make further edits if required."
+    },
+    {
+      "title": "Download or Integrate",
+      "description": "Download your voiceover/video file or use integrations to publish directly to your marketing platforms."
+    }
+  ]
+}

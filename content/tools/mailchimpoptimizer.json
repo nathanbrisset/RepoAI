@@ -1,0 +1,62 @@
+{
+  "id": "mailchimpoptimizer",
+  "name": "Mailchimp Content Optimizer",
+  "url": "https://mailchimp.com/solutions/ai-tools/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Mailchimp Content Optimizer uses AI to analyze marketing emails, providing personalized recommendations for subject lines, copy, and design. It helps marketers improve open and click rates.",
+  "description": "Mailchimp Content Optimizer uses AI to analyze marketing emails, providing personalized recommendations for subject lines, copy, and design. It helps marketers improve open and click rates.\n\nMailchimp with Intuit Intelligence turns your data into clear answers and a recommended next move — Analytics AI, plus ChatGPT and Claude connectors.\n\nAI analysis of subject lines and body copy. Actionable suggestions for engagement. Design optimization tools. Personalized recommendations for content.",
+  "categories": [
+    "marketing",
+    "productivity"
+  ],
+  "tags": [
+    "AI",
+    "Email",
+    "Optimization"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/mailchimpoptimizer.png",
+  "image": "/tool-screenshots/mailchimpoptimizer.png",
+  "dateAdded": "2025-06-11",
+  "lastVerified": null,
+  "features": [
+    "AI analysis of subject lines and body copy.",
+    "Actionable suggestions for engagement.",
+    "Design optimization tools.",
+    "Personalized recommendations for content."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up or Log In",
+      "description": "Create or log in to your Mailchimp account. Access the Content Optimizer tool from your dashboard.",
+      "links": [
+        {
+          "label": "Mailchimp Content Optimizer",
+          "url": "https://mailchimp.com/features/content-optimizer/"
+        }
+      ]
+    },
+    {
+      "title": "Analyze an Email Campaign",
+      "description": "Select or create a marketing email, then run the Content Optimizer to analyze subject lines, copy, and design."
+    },
+    {
+      "title": "Review AI Recommendations",
+      "description": "Follow actionable AI suggestions for subject lines, email body, and visual layout to improve performance."
+    },
+    {
+      "title": "Implement Changes",
+      "description": "Edit your email campaign according to the recommendations for maximum engagement and click rates."
+    },
+    {
+      "title": "Track Performance",
+      "description": "Monitor open and click rates post-send, and use ongoing optimization for future campaigns."
+    }
+  ]
+}

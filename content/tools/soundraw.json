@@ -1,0 +1,59 @@
+{
+  "id": "soundraw",
+  "name": "SOUNDRAW",
+  "url": "https://soundraw.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An AI music generation platform focused on creating custom music tracks and beats for creators and artists without copyright concerns.",
+  "description": "An AI music generation platform focused on creating custom music tracks and beats for creators and artists without copyright concerns.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "AI",
+    "Audio",
+    "Speech"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/soundraw.png",
+  "image": "/tool-screenshots/soundraw.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI audio processing: SOUNDRAW supports automated audio analysis and enhancements.",
+    "Transcription support: Provides tools for converting speech to text.",
+    "Noise reduction: Reduces unwanted sounds from audio input.",
+    "Voice synthesis: Can generate or clone voices using AI models.",
+    "User-friendly interface: Simple design for creators and professionals."
+  ],
+  "howToUse": [
+    {
+      "title": "Access SOUNDRAW",
+      "description": "Go to SOUNDRAW's website and log in or start creating music.",
+      "links": [
+        {
+          "label": "SOUNDRAW",
+          "url": "https://soundraw.io/"
+        }
+      ]
+    },
+    {
+      "title": "Set Mood & Preferences",
+      "description": "Select the mood, genre, and track length for your music."
+    },
+    {
+      "title": "Generate Tracks",
+      "description": "Let AI compose music based on your settings."
+    },
+    {
+      "title": "Edit & Download",
+      "description": "Customize tracks and download royalty-free music for your projects."
+    }
+  ],
+  "statusNote": "soundraw.com redirects to an unrelated X profile (x.com/rundns); soundraw.io loads with title 'SOUNDRAW | AI Music Generator'"
+}

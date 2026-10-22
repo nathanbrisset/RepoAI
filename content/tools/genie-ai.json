@@ -1,0 +1,57 @@
+{
+  "id": "genie-ai",
+  "name": "Genie AI",
+  "url": "https://www.genieai.co/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Draft, review, and negotiate legal documents with AI. Free legal templates, AI contract review, and legal research tools.",
+  "description": "Draft, review, and negotiate legal documents with AI. Free legal templates, AI contract review, and legal research tools.\n\nLegal templates: Pre-built contracts to customize. Clause generator: Drafts based on legal intent. Collaboration: Co-author with team members. Version tracking: Keep changes and history.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "AI",
+    "Legal",
+    "Contracts"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/genie-ai.png",
+  "image": "/tool-screenshots/genie-ai.png",
+  "dateAdded": "2025-06-04",
+  "lastVerified": null,
+  "features": [
+    "Legal templates: Pre-built contracts to customize.",
+    "Clause generator: Drafts based on legal intent.",
+    "Collaboration: Co-author with team members.",
+    "Version tracking: Keep changes and history."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up and Access Genie AI",
+      "description": "Register on the Genie AI website and log in.",
+      "links": [
+        {
+          "label": "Genie AI",
+          "url": "https://www.genieai.co/"
+        }
+      ]
+    },
+    {
+      "title": "Select or Create Contract",
+      "description": "Choose a pre-built template or describe the contract you need."
+    },
+    {
+      "title": "Edit and Collaborate",
+      "description": "Customize clauses, invite collaborators, and iterate."
+    },
+    {
+      "title": "Export or Track Versions",
+      "description": "Download documents or use version history to manage changes."
+    }
+  ]
+}

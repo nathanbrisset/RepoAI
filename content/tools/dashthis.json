@@ -1,0 +1,62 @@
+{
+  "id": "dashthis",
+  "name": "DashThis",
+  "url": "https://dashthis.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "DashThis is an automated marketing reporting tool that uses AI to collect, visualize, and deliver insights from analytics, SEO, PPC, and social data. It simplifies cross-channel reporting for marketers.",
+  "description": "DashThis is an automated marketing reporting tool that uses AI to collect, visualize, and deliver insights from analytics, SEO, PPC, and social data. It simplifies cross-channel reporting for marketers.\n\nDashThis automates marketing reports for agencies and teams. Connect 30+ tools into client-ready dashboards in minutes. Try free for 14 days.\n\nAutomated dashboards from all your data sources. Custom and prebuilt templates for fast setup. Collaboration tools for sharing and commenting. AI-powered insights highlight key changes.",
+  "categories": [
+    "marketing",
+    "data-processing"
+  ],
+  "tags": [
+    "AI",
+    "Analytics",
+    "Reporting"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/dashthis.png",
+  "image": "/tool-screenshots/dashthis.png",
+  "dateAdded": "2025-06-11",
+  "lastVerified": null,
+  "features": [
+    "Automated dashboards from all your data sources.",
+    "Custom and prebuilt templates for fast setup.",
+    "Collaboration tools for sharing and commenting.",
+    "AI-powered insights highlight key changes."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Connect Data Sources",
+      "description": "Register on DashThis and log in. Connect your analytics, SEO, PPC, and social accounts for unified reporting.",
+      "links": [
+        {
+          "label": "DashThis",
+          "url": "https://dashthis.com"
+        }
+      ]
+    },
+    {
+      "title": "Create or Select a Dashboard Template",
+      "description": "Pick from prebuilt templates or customize your own dashboard to suit your reporting needs."
+    },
+    {
+      "title": "Automate Data Collection",
+      "description": "Let DashThis automatically fetch and update your data across all connected platforms."
+    },
+    {
+      "title": "Collaborate and Share",
+      "description": "Invite team members to comment and collaborate on reports, or share dashboards with stakeholders."
+    },
+    {
+      "title": "Leverage AI Insights",
+      "description": "Use AI-powered suggestions and visualizations to spot key trends, anomalies, and growth opportunities."
+    }
+  ]
+}

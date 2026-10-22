@@ -1,0 +1,34 @@
+{
+  "affiliateUrl": "",
+  "logo": "/logos/deepseek.png",
+  "image": "",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "active",
+  "id": "deepseek",
+  "name": "DeepSeek",
+  "url": "https://www.deepseek.com/",
+  "summary": "Chinese lab offering open-weight LLMs, a free chat app and a low-cost API.",
+  "description": "DeepSeek develops large language models and publishes open-weight models such as DeepSeek-R1 and DeepSeek-V4, usable for chat, reasoning and coding. Its differentiator is open weights combined with very low API prices, with off-peak discounts. Chatting in the web and mobile app is free; the API is pay-as-you-go, e.g. from $0.15 per million input tokens (cache miss, off-peak) on the current pricing table.",
+  "categories": [
+    "text"
+  ],
+  "tags": [
+    "llm",
+    "open-source",
+    "chatbot",
+    "api",
+    "reasoning"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "from $0.15 per million input tokens (cache miss, off-peak) on the current pricing table.",
+    "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing"
+  },
+  "sources": [
+    "https://www.deepseek.com",
+    "https://api-docs.deepseek.com/quick_start/pricing"
+  ]
+}

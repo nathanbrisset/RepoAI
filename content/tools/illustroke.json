@@ -1,0 +1,60 @@
+{
+  "id": "illustroke",
+  "name": "Illustroke",
+  "url": "https://illustroke.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Illustroke uses AI to generate vector illustrations (SVG format) from simple text prompts. It's ideal for web designers, content creators, and marketers who need scalable, unique vector art quickly.",
+  "description": "Illustroke uses AI to generate vector illustrations (SVG format) from simple text prompts. It's ideal for web designers, content creators, and marketers who need scalable, unique vector art quickly.\n\nSVG Output: Generate vector illustrations from text. Prompt-Based: Use natural language to specify your needs. Customizable: Edit colors and details after generation. Commercial License: Use outputs for business and products.",
+  "categories": [
+    "design",
+    "image"
+  ],
+  "tags": [
+    "Vector",
+    "Svg",
+    "AI Art",
+    "Illustration"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/illustroke.png",
+  "image": "/tool-screenshots/illustroke.png",
+  "dateAdded": "2023-05-10",
+  "lastVerified": null,
+  "features": [
+    "SVG Output: Generate vector illustrations from text.",
+    "Prompt-Based: Use natural language to specify your needs.",
+    "Customizable: Edit colors and details after generation.",
+    "Commercial License: Use outputs for business and products.",
+    "Large Illustration Library: Browse and reuse community images."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up & Enter Prompt",
+      "description": "Create an account at Illustroke and input your text prompt.",
+      "links": [
+        {
+          "label": "Illustroke",
+          "url": "https://illustroke.com"
+        }
+      ]
+    },
+    {
+      "title": "Generate SVG Illustration",
+      "description": "Let the AI create a unique vector illustration."
+    },
+    {
+      "title": "Customize Colors & Details",
+      "description": "Modify the SVG output to match your preferences."
+    },
+    {
+      "title": "Download & Use",
+      "description": "Download your illustration for web, print, or commercial use."
+    }
+  ]
+}

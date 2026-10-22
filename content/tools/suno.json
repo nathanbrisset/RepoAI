@@ -1,0 +1,61 @@
+{
+  "id": "suno",
+  "name": "Suno",
+  "url": "https://suno.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Create full songs with vocals from a text prompt.",
+  "description": "Suno generates complete songs with vocals, lyrics and instrumentation from a text prompt, with editing tools to extend and rework tracks. It is one of the most popular AI music generators. The Free plan ($0) gives 50 credits per day on the free model (v6-mini); Pro costs $8/month and Premier $24/month billed yearly, adding the best models and commercial use.",
+  "categories": [
+    "audio"
+  ],
+  "tags": [
+    "music-generation",
+    "text-to-music",
+    "vocals"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "The Free plan ($0) gives 50 credits per day on the free model (v6-mini); Pro costs $8/month and Premier $24/month billed yearly, adding the best models and commercial use.",
+    "sourceUrl": "https://suno.com/pricing"
+  },
+  "logo": "/logos/suno.png",
+  "image": "/tool-screenshots/suno.png",
+  "dateAdded": "2023-05-10",
+  "lastVerified": "2026-10-21",
+  "features": [
+    "AI Music Generation: Creates songs based on user inputs.",
+    "Genre Versatility: Supports various musical genres.",
+    "Lyric Integration: Generates lyrics to accompany compositions.",
+    "Rapid Composition: Produces complete songs in seconds."
+  ],
+  "howToUse": [
+    {
+      "title": "Visit Suno Website",
+      "description": "Access Suno via their platform to start generating music.",
+      "links": [
+        {
+          "label": "Suno",
+          "url": "https://suno.com/"
+        }
+      ]
+    },
+    {
+      "title": "Describe or Select Style",
+      "description": "Enter a text prompt or select genre and style for your composition."
+    },
+    {
+      "title": "Generate Song",
+      "description": "Let the AI create music and lyrics based on your input."
+    },
+    {
+      "title": "Download or Share",
+      "description": "Export the composition or share it directly."
+    }
+  ],
+  "sources": [
+    "https://suno.com/pricing"
+  ]
+}
