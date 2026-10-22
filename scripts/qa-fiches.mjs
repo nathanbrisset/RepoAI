@@ -206,9 +206,31 @@ function officialize(tool) {
   return changed
 }
 
-async function checkLink(url) {
+function metaContent(html, attrRe) {
+  const tags = html.match(/<meta\b[^>]*>/gi) || []
+  for (const tag of tags) {
+    if (!attrRe.test(tag)) continue
+    const content = tag.match(/\bcontent=["']([^"']*)["']/i)
+    if (content) return content[1].replace(/\s+/g, " ").trim()
+  }
+  return ""
+}
+
+function refreshTarget(html, base) {
+  const tag = (html.match(/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i) || [])[0] || ""
+  const content = tag.match(/\bcontent=["']([^"']+)["']/i)
+  const raw = content?.[1]?.split(/;\s*url=/i)[1]?.trim()
+  if (!raw) return ""
+  try {
+    return new URL(raw, base).href
+  } catch {
+    return ""
+  }
+}
+
+async function checkLink(url, attempt = 0) {
   const controller = new AbortController()
-    const timer = setTimeout(() => controller.abort(), 25000)
+  const timer = setTimeout(() => controller.abort(), 25000)
   try {
     const response = await fetch(url, {
       redirect: "follow",
@@ -219,12 +241,43 @@ async function checkLink(url) {
       },
     })
     const status = response.status
-    const finalUrl = response.url || url
-    const body = (await response.text()).slice(0, 200000)
-    const text = body.replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()
-    const title = (body.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [, ""])[1].replace(/\s+/g, " ").trim()
+    if (attempt < 1 && (status === 429 || status === 502 || status === 503)) {
+      await new Promise((resolve) => setTimeout(resolve, 2000))
+      return checkLink(url, attempt + 1)
+    }
+    let finalUrl = response.url || url
+    let body = (await response.text()).slice(0, 2000000)
+    const next = refreshTarget(body, finalUrl)
+    if (next && next !== finalUrl && status >= 200 && status < 400) {
+      const followed = await fetch(next, {
+        redirect: "follow",
+        signal: controller.signal,
+        headers: {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+          accept: "text/html,application/xhtml+xml",
+        },
+      })
+      if (followed.status >= 200 && followed.status < 400) {
+        finalUrl = followed.url || next
+        body = (await followed.text()).slice(0, 2000000)
+      }
+    }
+    const titleTag = (body.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [, ""])[1].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()
+    const title = titleTag || metaContent(body, /property=["']og:title["']/i)
+    const summary = metaContent(body, /name=["']description["']/i) || metaContent(body, /property=["']og:description["']/i)
+    const visible = body
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+    const text = [summary, visible].filter(Boolean).join(" ")
     return { ok: status >= 200 && status < 400, status, finalUrl, title, text: text.slice(0, 4000), error: "" }
   } catch (error) {
+    if (attempt < 1) {
+      await new Promise((resolve) => setTimeout(resolve, 2000))
+      return checkLink(url, attempt + 1)
+    }
     return { ok: false, status: 0, finalUrl: url, title: "", text: "", error: error instanceof Error ? error.message : String(error) }
   } finally {
     clearTimeout(timer)
@@ -274,15 +327,24 @@ function nameOnPage(name, blob) {
   return parts.some((part) => new RegExp(`\\b${part}\\b`).test(blob))
 }
 
+function registrable(host) {
+  const parts = host.split(".").filter(Boolean)
+  if (parts.length < 2) return host
+  return parts.slice(-2).join(".")
+}
+
 function officialHowToLink(linkUrl, tool) {
   if (sameSite(linkUrl, tool.url)) return true
   const host = hostOf(linkUrl)
+  const toolHost = hostOf(tool.url)
+  if (host && toolHost && registrable(host) === registrable(toolHost)) return true
   const parts = tool.name.toLowerCase().split(/[^a-z0-9]+/).filter((word) => word.length >= 6 && !STOP.has(word))
   return parts.some((part) => host.includes(part))
 }
 
 function agreesWithPage(tool, text, title) {
   const blob = `${title}\n${text}`.toLowerCase()
+  if (/^redirecting\b/i.test(text || "") && (text || "").length < 400) return ""
   if ((text || "").length < 80 && (title || "").length < 2) return ""
   const nameHit = nameOnPage(tool.name.toLowerCase(), blob)
   const described = tokens(`${tool.description} ${tool.summary}`)
@@ -341,11 +403,11 @@ const checked = await mapPool(tools, 12, async (tool) => {
   const browserStatus = Number(shot?.httpStatus || 0)
   const browserOk = browserStatus >= 200 && browserStatus < 400 && shot?.outcome === "success"
   const linkOk = link.ok || browserOk
-  const clientBlocked = !linkOk && link.status === 403
+  const clientBlocked = !linkOk && (link.status === 403 || link.status === 429)
   if (!linkOk && !clientBlocked) failures.push(link.error ? `lien officiel injoignable (${link.error})` : `lien officiel HTTP ${link.status || browserStatus || "absent"}`)
   const badPage = pageIsBad(link.title || renderedTitle, link.text || rendered)
   if (linkOk && badPage) failures.push(`lien officiel : ${badPage}`)
-  const coherence = agreesWithPage(tool, link.text.length > 80 ? link.text : rendered, link.title || renderedTitle)
+  const coherence = agreesWithPage(tool, link.text.length > 40 ? link.text : link.text || rendered, link.title || renderedTitle)
   if (linkOk && !badPage && coherence) failures.push(coherence)
   const imagePath = imageFile(tool)
   const imageProblem = await checkImage(imagePath, { skipSize: SPARSE_HOMEPAGE_IDS.has(tool.id) })
