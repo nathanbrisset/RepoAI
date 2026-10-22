@@ -1,7 +1,7 @@
 {
   "id": "adobe-marketo-engage",
   "name": "Adobe Marketo Engage",
-  "url": "https://business.adobe.com/products/marketo/adobe-marketo.html",
+  "url": "https://business.adobe.com/products/marketo.html",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Marketing automation software for lead management, email marketing, and campaign management.",
@@ -10,10 +10,10 @@
     "marketing"
   ],
   "tags": [
-    "Lead Management",
-    "Email Marketing",
-    "Campaign Management",
-    "Analytics"
+    "lead-management",
+    "email-marketing",
+    "campaign-management",
+    "analytics"
   ],
   "pricing": {
     "model": "paid",
@@ -22,9 +22,9 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/adobe-marketo-engage.png",
-  "image": "/tool-screenshots/adobe-marketo-engage.png",
+  "image": "/screenshots/adobe-marketo-engage.webp",
   "dateAdded": null,
-  "lastVerified": null,
+  "lastVerified": "2026-10-21",
   "dateAddedNote": "The previous Added date was 2006-01-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Lead Management: Capture and score leads with automation.",
@@ -39,7 +39,7 @@
       "links": [
         {
           "label": "Adobe Marketo Engage",
-          "url": "https://business.adobe.com/products/marketo/adobe-marketo.html"
+          "url": "https://business.adobe.com/products/marketo.html"
         }
       ]
     },
@@ -54,6 +54,17 @@
     {
       "title": "Analyze & Optimize",
       "description": "Review analytics and continually optimize for results."
+    },
+    {
+      "title": "Read the product docs",
+      "description": "Adobe Experience League publishes the Marketo Engage documentation.",
+      "links": [
+        {
+          "label": "Marketo Engage documentation",
+          "url": "https://experienceleague.adobe.com/en/docs/marketo-engage"
+        }
+      ]
     }
-  ]
+  ],
+  "statusNote": "On 21 October 2026, curl -IL https://www.marketo.com/ returned 301 to https://business.adobe.com/products/marketo/adobe-marketo.html. curl -IL does not finish on business.adobe.com (HTTP/2 INTERNAL_ERROR, HTTP/1.1 timeout). A browser follows that URL to https://business.adobe.com/products/marketo.html and gets HTTP 200. Experience League docs also returned 200."
 }

@@ -1,0 +1,55 @@
+{
+  "id": "photomath",
+  "name": "Photomath",
+  "url": "https://photomath.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Maths app that scans problems with the camera and explains step-by-step solutions.",
+  "description": "Photomath scans handwritten or printed maths problems, including word problems, and shows step-by-step solutions and explanations; problems can also be typed in a smart calculator. The Basic plan is free. Plus costs $9.99 per month or $69.99 per year and adds extra explanations and visual aids, with a trial available. It is available as a mobile app. Problems that are hard to type can be scanned directly from paper.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "math",
+    "camera-solver",
+    "step-by-step",
+    "app"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$9.99/mo (Plus, monthly)"
+  },
+  "logo": "https://photomath.com/apple-touch-icon.png",
+  "image": "/screenshots/photomath.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://photomath.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Photomath",
+      "description": "Open the official Photomath website.",
+      "links": [
+        {
+          "label": "Photomath",
+          "url": "https://photomath.com/"
+        }
+      ]
+    },
+    {
+      "title": "Understand how to solve a maths problem",
+      "description": "Photomath scans handwritten or printed maths problems, including word problems, and shows step-by-step solutions and explanations; problems can also be typed in a smart calculator."
+    },
+    {
+      "title": "The Basic plan is free.",
+      "description": "The Basic plan is free."
+    },
+    {
+      "title": "Plus costs $9.99 per month or $69.99 per year and adds extra explanations and visual aids",
+      "description": "Plus costs $9.99 per month or $69.99 per year and adds extra explanations and visual aids, with a trial available."
+    }
+  ]
+}

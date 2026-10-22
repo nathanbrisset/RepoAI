@@ -1,7 +1,7 @@
 {
   "affiliateUrl": "",
   "logo": "/logos/notebooklm.png",
-  "image": "",
+  "image": "/screenshots/notebooklm.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -11,7 +11,7 @@
   "summary": "Google's source-grounded AI research notebook, formerly NotebookLM.",
   "description": "Gemini Notebook, the new name of NotebookLM since July 2026, is Google's AI research assistant that answers questions grounded only in the sources you upload. It can summarize documents, build mind maps and generate Audio Overviews read aloud. It is free with a Google account (up to 100 notebooks and 50 sources each); Google AI Plus, Pro ($19.99/month) and Ultra plans raise usage and notebook limits.",
   "categories": [
-    "productivity"
+    "search"
   ],
   "tags": [
     "research",
@@ -31,5 +31,29 @@
     "https://notebook.google/",
     "https://one.google.com/about/google-ai-plans/",
     "https://support.google.com/gemininotebook/answer/16213268"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Gemini Notebook",
+      "description": "The site at notebook.google presents Gemini Notebook as the research partner, and asks whether it is the same product as NotebookLM.",
+      "links": [
+        {
+          "label": "Gemini Notebook",
+          "url": "https://notebook.google/"
+        }
+      ]
+    },
+    {
+      "title": "Provide sources you trust",
+      "description": "The page says responses stay grounded in the information you provide."
+    },
+    {
+      "title": "Ask a question",
+      "description": "Ask about the notes or sources you added. The page says that is how the notebook is meant to be used."
+    },
+    {
+      "title": "Play an Audio Overview",
+      "description": "Audio Overviews read a summary of your sources aloud. support.google.com/gemininotebook returned 404 on 21 October 2026, including the former NotebookLM help URL which redirects there."
+    }
   ]
 }

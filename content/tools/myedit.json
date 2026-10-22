@@ -7,12 +7,11 @@
   "summary": "An AI-powered audio editing platform that helps create professional-quality audio content with automated editing features.",
   "description": "An AI-powered audio editing platform that helps create professional-quality audio content with automated editing features.",
   "categories": [
-    "audio"
+    "music"
   ],
   "tags": [
-    "AI",
-    "Audio",
-    "Speech"
+    "audio",
+    "speech"
   ],
   "pricing": {
     "model": "freemium",
@@ -21,7 +20,7 @@
     "note": "Box cannot reach myedit.io; web search + curl: official site is myedit.online (title 'MyEdit: Online AI Editor for Image, Video & Audio'); pricing page myedit.online/en/pricing via search: free tier with daily credits, paid from $5/month annually"
   },
   "logo": "/logos/myedit.png",
-  "image": "/tool-screenshots/myedit.png",
+  "image": "/screenshots/myedit.webp",
   "dateAdded": "2025-06-04",
   "lastVerified": "2026-10-21",
   "features": [

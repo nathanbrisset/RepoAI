@@ -1,0 +1,57 @@
+{
+  "id": "viggle",
+  "name": "Viggle",
+  "url": "https://viggle.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Spatial AI platform for animating characters with motion, used for memes, games and an API.",
+  "description": "Viggle animates characters by transferring motion onto them in any scene. Products include Meme Maker for swapping characters into videos, PINOC for capturing motion and exporting rigged 3D animation in FBX or GLB, games and a developer API. The Free plan allows five videos per day; paid Viggle plans start at $7.99 per month, and the API is pay-as-you-go at $0.01 per credit.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "motion-transfer",
+    "memes",
+    "3d",
+    "api"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$7.99/mo",
+    "sourceUrl": "https://viggle.ai/pricing"
+  },
+  "logo": "https://viggle.ai/icon-512.png",
+  "image": "/screenshots/viggle.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://viggle.ai/",
+    "https://viggle.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Viggle",
+      "description": "Open the official Viggle website.",
+      "links": [
+        {
+          "label": "Viggle",
+          "url": "https://viggle.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Animate a character with motion from a video",
+      "description": "Viggle animates characters by transferring motion onto them in any scene."
+    },
+    {
+      "title": "Products include Meme Maker for swapping characters into videos",
+      "description": "Products include Meme Maker for swapping characters into videos, PINOC for capturing motion and exporting rigged 3D animation in FBX or GLB, games and a developer API."
+    },
+    {
+      "title": "The Free plan allows five videos per day; paid Viggle plans start at $7.99 per month",
+      "description": "The Free plan allows five videos per day; paid Viggle plans start at $7.99 per month, and the API is pay-as-you-go at $0.01 per credit."
+    }
+  ]
+}

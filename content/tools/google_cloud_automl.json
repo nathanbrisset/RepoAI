@@ -7,12 +7,12 @@
   "summary": "Google’s old AutoML brand. Confirm the current product name before sending users.",
   "description": "Google Cloud AutoML is a suite of products that enables developers with limited machine learning expertise to train high-quality models tailored to their needs. With a simple graphical interface, users can label data, train models, and deploy them on Google Cloud. AutoML supports a variety of data types, including images, text, and tabular data, and leverages Google's state-of-the-art transfer learning and neural architecture search technologies for optimal results.\n\nThis card was not given a new official URL in this pass. Treat the old AutoML name as historical until the destination page is checked again.",
   "categories": [
-    "data-processing"
+    "data"
   ],
   "tags": [
-    "Automl",
-    "Cloud",
-    "Google"
+    "automl",
+    "cloud",
+    "google"
   ],
   "pricing": {
     "model": "paid",
@@ -21,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/google_cloud_automl.png",
-  "image": "/tool-screenshots/google_cloud_automl.png",
+  "image": "/screenshots/google_cloud_automl.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-21",
   "dateAddedNote": "The previous Added date was 2018-01-17. It was removed because it is not a credible date for this directory.",

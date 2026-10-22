@@ -1,0 +1,56 @@
+{
+  "id": "harvey",
+  "name": "Harvey",
+  "url": "https://www.harvey.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI platform for law firms and corporate legal teams covering research, drafting and review.",
+  "description": "Harvey provides AI tailored to legal work for law firms, corporate legal teams and professional services firms. It supports contract analysis, due diligence, compliance, litigation, research and drafting through a platform with agents and workflows. The company announced raising $550M at a $15.5B valuation. No public prices are listed. Use cases are organised by practice area and customer type. The platform is available to firms worldwide.",
+  "categories": [
+    "legal"
+  ],
+  "tags": [
+    "legal-ai",
+    "law-firms",
+    "due-diligence",
+    "contracts"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": true,
+    "sourceUrl": "https://www.harvey.ai/pricing"
+  },
+  "logo": "https://www.harvey.ai/icons/brand-favicon.png",
+  "image": "/screenshots/harvey.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.harvey.ai/",
+    "https://www.harvey.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Harvey",
+      "description": "Open the official Harvey website.",
+      "links": [
+        {
+          "label": "Harvey",
+          "url": "https://www.harvey.ai/"
+        }
+      ]
+    },
+    {
+      "title": "AI for legal research, drafting and due diligence",
+      "description": "Harvey provides AI tailored to legal work for law firms, corporate legal teams and professional services firms."
+    },
+    {
+      "title": "It supports contract analysis",
+      "description": "It supports contract analysis, due diligence, compliance, litigation, research and drafting through a platform with agents and workflows."
+    },
+    {
+      "title": "The company announced raising $550M at a $15.5B valuation.",
+      "description": "The company announced raising $550M at a $15.5B valuation."
+    }
+  ]
+}

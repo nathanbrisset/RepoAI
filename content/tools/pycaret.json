@@ -8,13 +8,11 @@
   "summary": "AutoML platform for machine learning and coding pipelines.",
   "description": "AutoML platform for machine learning and coding pipelines.\n\nAutomated Machine Learning: Simplifies the process of training and deploying models. Feature Engineering: Provides tools for preprocessing and transforming data. Model Comparison: Allows easy comparison of different machine learning models. Low-Code Interface: Designed for users with minimal coding experience.",
   "categories": [
-    "coding",
-    "data-processing"
+    "data"
   ],
   "tags": [
-    "AI",
-    "AutoML",
-    "Python"
+    "automl",
+    "python"
   ],
   "pricing": {
     "model": "free",
@@ -24,7 +22,7 @@
     "sourceUrl": "https://github.com/pycaret/pycaret"
   },
   "logo": "/logos/pycaret.png",
-  "image": "/tool-screenshots/pycaret.png",
+  "image": "/screenshots/pycaret.webp",
   "dateAdded": "2022-12-01",
   "lastVerified": "2026-10-21",
   "features": [

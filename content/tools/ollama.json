@@ -1,0 +1,57 @@
+{
+  "id": "ollama",
+  "name": "Ollama",
+  "url": "https://ollama.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Tool to run open models locally or in Ollama's cloud on macOS, Windows and Linux.",
+  "description": "Ollama lets developers download and run open-weight models locally through a command-line tool, a desktop app and a local API. It also offers cloud-hosted models for larger workloads, and states that prompts are not stored or used for training. The local tool is free. Paid cloud plans start with Pro at $20 per month and Max at $100 per month, which include more usage.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "local-llm",
+    "cli",
+    "open-models",
+    "api"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$20/mo (Pro)",
+    "sourceUrl": "https://ollama.com/pricing"
+  },
+  "logo": "https://ollama.com/public/apple-touch-icon.png",
+  "image": "/screenshots/ollama.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://ollama.com/",
+    "https://ollama.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Ollama",
+      "description": "Open the official Ollama website.",
+      "links": [
+        {
+          "label": "Ollama",
+          "url": "https://ollama.com/"
+        }
+      ]
+    },
+    {
+      "title": "Run models locally",
+      "description": "Ollama lets developers download and run open-weight models locally through a command-line tool, a desktop app and a local API."
+    },
+    {
+      "title": "A local API for open models",
+      "description": "Ollama lets developers download and run open-weight models locally through a command-line tool, a desktop app and a local API."
+    },
+    {
+      "title": "It also offers cloud-hosted models for larger workloads",
+      "description": "It also offers cloud-hosted models for larger workloads, and states that prompts are not stored or used for training."
+    }
+  ]
+}

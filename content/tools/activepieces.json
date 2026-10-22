@@ -1,0 +1,57 @@
+{
+  "id": "activepieces",
+  "name": "Activepieces",
+  "url": "https://www.activepieces.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source automation workspace with chat, agents, flows and tables connecting to 760+ apps.",
+  "description": "Activepieces combines workflow automation, AI agents, chat and data tables in one workspace with more than 760 app connectors and an MCP server. Its core is open source and can be self-hosted. The hosted Free plan needs no card; Plus costs a flat $20 per month with ten times the free usage and pay-as-you-go beyond that, and Team costs $200 per month. Enterprise features include audit logs and embedding.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "automation",
+    "open-source",
+    "mcp",
+    "ai-agents"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$20/mo (Plus)",
+    "sourceUrl": "https://www.activepieces.com/pricing"
+  },
+  "logo": "https://www.activepieces.com/favicon.svg",
+  "image": "/screenshots/activepieces.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.activepieces.com/",
+    "https://www.activepieces.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Activepieces",
+      "description": "Open the official Activepieces website.",
+      "links": [
+        {
+          "label": "Activepieces",
+          "url": "https://www.activepieces.com/"
+        }
+      ]
+    },
+    {
+      "title": "Automate work across my apps with AI agents",
+      "description": "Activepieces combines workflow automation, AI agents, chat and data tables in one workspace with more than 760 app connectors and an MCP server."
+    },
+    {
+      "title": "Its core is open source and can be self-hosted.",
+      "description": "Its core is open source and can be self-hosted."
+    },
+    {
+      "title": "The hosted Free plan needs no card; Plus costs a flat $20 per month with ten times the...",
+      "description": "The hosted Free plan needs no card; Plus costs a flat $20 per month with ten times the free usage and pay-as-you-go beyond that, and Team costs $200 per month."
+    }
+  ]
+}

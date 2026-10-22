@@ -1,0 +1,57 @@
+{
+  "id": "webflow",
+  "name": "Webflow",
+  "url": "https://webflow.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Visual website builder with CMS, hosting, localisation and SEO/AEO tools.",
+  "description": "Webflow is a visual platform for designing, building and hosting websites without writing code. It includes a CMS, interactions, localisation, shared libraries, analytics, optimisation and SEO and answer-engine (AEO) features, and recently added Campaigns for marketing teams. Users can build on a webflow.io domain for free; the Basic site plan costs $15 per month billed yearly. Plans are split between site plans and workspace plans for teams, with enterprise options handled by sales.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "website-builder",
+    "cms",
+    "hosting",
+    "seo"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$15/mo (Basic, annual)",
+    "sourceUrl": "https://webflow.com/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/686d53d0446d4237b2f38c5f_webclip.png",
+  "image": "/screenshots/webflow.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://webflow.com/",
+    "https://webflow.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Webflow",
+      "description": "Open the official Webflow website.",
+      "links": [
+        {
+          "label": "Webflow",
+          "url": "https://webflow.com/"
+        }
+      ]
+    },
+    {
+      "title": "Design and host a marketing website",
+      "description": "Webflow is a visual platform for designing, building and hosting websites without writing code."
+    },
+    {
+      "title": "It includes a CMS",
+      "description": "It includes a CMS, interactions, localisation, shared libraries, analytics, optimisation and SEO and answer-engine (AEO) features, and recently added Campaigns for marketing teams."
+    },
+    {
+      "title": "Users can build on a webflow.io domain for free; the Basic site plan costs $15 per mont...",
+      "description": "Users can build on a webflow.io domain for free; the Basic site plan costs $15 per month billed yearly."
+    }
+  ]
+}

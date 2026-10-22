@@ -1,0 +1,57 @@
+{
+  "id": "hex",
+  "name": "Hex",
+  "url": "https://hex.tech/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Data workspace combining notebooks, conversational analytics, dashboards and data apps.",
+  "description": "Hex is a collaborative data platform where analysts work in SQL and Python notebooks, business users ask questions in natural language, and teams publish dashboards and interactive data apps. It manages semantic context for AI answers. A Community plan is free; Professional costs $36 per editor per month and Team $75 per editor per month with a 14-day trial; compute beyond small sizes is billed per hour.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "notebooks",
+    "sql",
+    "bi",
+    "conversational-analytics"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$36/editor/mo (Professional)",
+    "sourceUrl": "https://hex.tech/pricing"
+  },
+  "logo": "https://hex.tech/favicon.svg",
+  "image": "/screenshots/hex.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://hex.tech/",
+    "https://hex.tech/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Hex",
+      "description": "Open the official Hex website.",
+      "links": [
+        {
+          "label": "Hex",
+          "url": "https://hex.tech/"
+        }
+      ]
+    },
+    {
+      "title": "My team to analyse data with SQL, Python or plain questions",
+      "description": "Hex is a collaborative data platform where analysts work in SQL and Python notebooks, business users ask questions in natural language, and teams publish dashboards and interactive data apps."
+    },
+    {
+      "title": "It manages semantic context for AI answers.",
+      "description": "It manages semantic context for AI answers."
+    },
+    {
+      "title": "A Community plan is free; Professional costs $36 per editor per month and Team $75 per...",
+      "description": "A Community plan is free; Professional costs $36 per editor per month and Team $75 per editor per month with a 14-day trial; compute beyond small sizes is billed per hour."
+    }
+  ]
+}

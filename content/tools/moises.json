@@ -1,0 +1,56 @@
+{
+  "id": "moises",
+  "name": "Moises",
+  "url": "https://moises.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "App for musicians to separate stems, remove vocals, practise, master and remix tracks.",
+  "description": "Moises is a toolkit for musicians that separates songs into stems such as vocals, drums and bass, detects chords and tempo, and supports practice, mastering and remixing. Moises Studio adds collaborative music making. It runs on the web, desktop and mobile.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "stem-separation",
+    "vocal-removal",
+    "practice",
+    "mastering"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://moises.ai/pricing"
+  },
+  "logo": "https://storage.googleapis.com/moises-cms-site/favicon_03fefcef56/favicon_03fefcef56.svg",
+  "image": "/screenshots/moises.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://moises.ai/",
+    "https://moises.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Moises",
+      "description": "Open the official Moises website.",
+      "links": [
+        {
+          "label": "Moises",
+          "url": "https://moises.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Remove vocals or isolate instruments from a song",
+      "description": "Moises is a toolkit for musicians that separates songs into stems such as vocals, drums and bass, detects chords and tempo, and supports practice, mastering and remixing."
+    },
+    {
+      "title": "Moises Studio adds collaborative music making.",
+      "description": "Moises Studio adds collaborative music making."
+    },
+    {
+      "title": "It runs on the web",
+      "description": "It runs on the web, desktop and mobile."
+    }
+  ]
+}

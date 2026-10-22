@@ -1,0 +1,52 @@
+{
+  "id": "landr",
+  "name": "LANDR",
+  "url": "https://www.landr.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Music platform offering AI mastering, distribution, samples, plugins and collaboration tools.",
+  "description": "LANDR provides services for creating and releasing music: AI mastering online and as a DAW plugin, digital distribution to streaming services, a sample library, a plugin marketplace, collaboration and messaging tools, and courses. Musicians can also hire or sell services.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "mastering",
+    "distribution",
+    "samples",
+    "plugins"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.landr.com/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/66451c84f87c605764b3d93a/66967d464d23464e6ec86eb0_WebClip%20Image.png",
+  "image": "/screenshots/landr.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.landr.com/",
+    "https://www.landr.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open LANDR",
+      "description": "Open the official LANDR website.",
+      "links": [
+        {
+          "label": "LANDR",
+          "url": "https://www.landr.com/"
+        }
+      ]
+    },
+    {
+      "title": "Master and release my music",
+      "description": "LANDR provides services for creating and releasing music: AI mastering online and as a DAW plugin, digital distribution to streaming services, a sample library, a plugin marketplace, collaboration and messaging tools, and courses."
+    },
+    {
+      "title": "Musicians can also hire or sell services.",
+      "description": "Musicians can also hire or sell services."
+    }
+  ]
+}

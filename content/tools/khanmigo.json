@@ -1,0 +1,57 @@
+{
+  "id": "khanmigo",
+  "name": "Khanmigo",
+  "url": "https://www.khanmigo.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Khan Academy's AI tutor for learners and free teaching assistant for teachers.",
+  "description": "Khanmigo is built by the non-profit Khan Academy. Teachers use it free to plan lessons, create materials and handle classroom tasks, while students and parents get personalised AI tutoring and help with homework, plus a writing coach. The learner and parent plan costs $4 per month or $44 per year, and districts can buy school-wide access. It covers subjects such as maths and science.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "tutoring",
+    "teachers",
+    "khan-academy",
+    "math"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$4/mo (learners & parents)",
+    "sourceUrl": "https://www.khanmigo.ai/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/659ee90e075c502b5cc49dae/659ee90e075c502b5cc49e16_KA_Favicon_72x72.png",
+  "image": "/screenshots/khanmigo.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.khanmigo.ai/",
+    "https://www.khanmigo.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Khanmigo",
+      "description": "Open the official Khanmigo website.",
+      "links": [
+        {
+          "label": "Khanmigo",
+          "url": "https://www.khanmigo.ai/"
+        }
+      ]
+    },
+    {
+      "title": "An AI tutor or teaching assistant",
+      "description": "Teachers use it free to plan lessons, create materials and handle classroom tasks, while students and parents get personalised AI tutoring and help with homework, plus a writing coach."
+    },
+    {
+      "title": "Khanmigo is built by the non-profit Khan Academy.",
+      "description": "Khanmigo is built by the non-profit Khan Academy."
+    },
+    {
+      "title": "The learner and parent plan costs $4 per month or $44 per year",
+      "description": "The learner and parent plan costs $4 per month or $44 per year, and districts can buy school-wide access."
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "summary": "Anthropic's AI assistant for writing, analysis and coding.",
   "description": "Claude is Anthropic's AI assistant (replacing the outdated 'Claude 3' entry) for writing, analysis, research and coding, with Artifacts, projects, connectors and Claude in Chrome. It is known for careful reasoning and long documents. A free plan is available on web, desktop and mobile; Pro costs $17/month billed annually ($20 monthly) and includes Claude Code, while Max starts at $100/month.",
   "categories": [
-    "text"
+    "llm-chatbots"
   ],
   "tags": [
     "chatbot",
@@ -23,7 +23,7 @@
     "sourceUrl": "https://claude.com/pricing"
   },
   "logo": "/logos/claude-3.png",
-  "image": "/tool-screenshots/claude.png",
+  "image": "/screenshots/claude-3.webp",
   "dateAdded": "2024-03-05",
   "lastVerified": "2026-10-21",
   "features": [

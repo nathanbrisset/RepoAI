@@ -1,0 +1,57 @@
+{
+  "id": "skyvern",
+  "name": "Skyvern",
+  "url": "https://www.skyvern.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source browser automation that uses AI to fill forms, log in and extract data across websites.",
+  "description": "Skyvern automates repetitive browser work such as logging into portals, filling forms, downloading invoices and extracting data. It uses AI to read pages, so it does not rely on fixed selectors that break when sites change. The core is open source. The hosted service has a free plan with 5,000 credits per month, a Hobby plan at $29 per month and a Pro plan at $149 per month; it supports 2FA and lists HIPAA and SOC 2 compliance.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "browser-automation",
+    "rpa",
+    "open-source",
+    "forms"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$29/mo (Hobby)",
+    "sourceUrl": "https://www.skyvern.com/pricing"
+  },
+  "logo": "https://www.skyvern.com/apple-touch-icon.png",
+  "image": "/screenshots/skyvern.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.skyvern.com/",
+    "https://www.skyvern.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Skyvern",
+      "description": "Open the official Skyvern website.",
+      "links": [
+        {
+          "label": "Skyvern",
+          "url": "https://www.skyvern.com/"
+        }
+      ]
+    },
+    {
+      "title": "Automate logins, form filling and downloads on websites",
+      "description": "Skyvern automates repetitive browser work such as logging into portals, filling forms, downloading invoices and extracting data."
+    },
+    {
+      "title": "It uses AI to read pages",
+      "description": "It uses AI to read pages, so it does not rely on fixed selectors that break when sites change."
+    },
+    {
+      "title": "The core is open source.",
+      "description": "The core is open source."
+    }
+  ]
+}

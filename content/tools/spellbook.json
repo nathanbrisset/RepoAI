@@ -1,0 +1,56 @@
+{
+  "id": "spellbook",
+  "name": "Spellbook",
+  "url": "https://spellbook.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI contract review and drafting tool for transactional lawyers, working inside Microsoft Word.",
+  "description": "Spellbook is an AI tool for transactional lawyers that works as a Microsoft Word add-in. It redlines contracts and flags risks, drafts clauses from scratch or saved libraries, compares terms to market standards, answers questions and applies firm playbooks, with multi-document workflows. A seven-day free trial is offered and pricing is custom; academic institutions can get free access. It is SOC 2 Type II compliant, according to the site.",
+  "categories": [
+    "legal"
+  ],
+  "tags": [
+    "contracts",
+    "word-add-in",
+    "redlining",
+    "playbooks"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": true,
+    "sourceUrl": "https://spellbook.com/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/673f8362e07dee522e1d6c08_webclip.png",
+  "image": "/screenshots/spellbook.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.spellbook.legal/",
+    "https://spellbook.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Spellbook",
+      "description": "Open the official Spellbook website.",
+      "links": [
+        {
+          "label": "Spellbook",
+          "url": "https://spellbook.com/"
+        }
+      ]
+    },
+    {
+      "title": "AI to review and redline contracts in Word",
+      "description": "It redlines contracts and flags risks, drafts clauses from scratch or saved libraries, compares terms to market standards, answers questions and applies firm playbooks, with multi-document workflows."
+    },
+    {
+      "title": "Spellbook is an AI tool for transactional lawyers that works as a Microsoft Word add-in.",
+      "description": "Spellbook is an AI tool for transactional lawyers that works as a Microsoft Word add-in."
+    },
+    {
+      "title": "A seven-day free trial is offered and pricing is custom; academic institutions can get...",
+      "description": "A seven-day free trial is offered and pricing is custom; academic institutions can get free access."
+    }
+  ]
+}

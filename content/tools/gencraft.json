@@ -1,21 +1,19 @@
 {
   "id": "gencraft",
   "name": "Gencraft",
-  "url": "https://gencraft.com",
+  "url": "https://gencraft.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Gencraft is an AI image generator that creates unique visuals for art, marketing, and storytelling. It offers high-res downloads, a prompt marketplace, and commercial licensing.",
   "description": "Gencraft is an AI image generator that creates unique visuals for art, marketing, and storytelling. It offers high-res downloads, a prompt marketplace, and commercial licensing.\n\nAI art generator. Create a free account. Try hundreds of AI models. Remix artwork from 10M+ users. Use AI to create stunning images, avatars, and photos\n\nPrompt Marketplace: Share and discover creative prompts. High-Resolution Output: Download images up to 4K. Style Filters: Apply different art styles. Commercial Use: License for business and marketing.",
   "categories": [
-    "design",
-    "image",
-    "video"
+    "image"
   ],
   "tags": [
-    "AI Art",
-    "Image Generation",
-    "Marketing",
-    "Prompt"
+    "ai-art",
+    "image-generation",
+    "marketing",
+    "prompt"
   ],
   "pricing": {
     "model": "freemium",
@@ -24,7 +22,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/gencraft.png",
-  "image": "/tool-screenshots/gencraft.png",
+  "image": "/screenshots/gencraft.webp",
   "dateAdded": "2023-04-01",
   "lastVerified": null,
   "features": [

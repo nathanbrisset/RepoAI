@@ -1,0 +1,57 @@
+{
+  "id": "tavily",
+  "name": "Tavily",
+  "url": "https://www.tavily.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Real-time search, extraction and crawling APIs for AI agents.",
+  "description": "Tavily provides APIs that give AI agents access to the web: search, extraction of clean content, research, crawling and site mapping. The Researcher plan is free with 1,000 API credits per month; pay-as-you-go costs $0.008 per credit, and monthly Project plans start at $30. Startups can apply for 100,000 free credits, and students can use it for free. The company also offers industry solutions for finance and insurance.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "search-api",
+    "extraction",
+    "crawl",
+    "agents"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": true,
+    "note": "$0.008/credit",
+    "sourceUrl": "https://www.tavily.com/pricing"
+  },
+  "logo": "https://www.tavily.com/icon.svg?icon.0v6b1ltlljvdd.svg",
+  "image": "/screenshots/tavily.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.tavily.com/",
+    "https://www.tavily.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Tavily",
+      "description": "Open the official Tavily website.",
+      "links": [
+        {
+          "label": "Tavily",
+          "url": "https://www.tavily.com/"
+        }
+      ]
+    },
+    {
+      "title": "Fast web search and extraction for my agent",
+      "description": "Tavily provides APIs that give AI agents access to the web: search, extraction of clean content, research, crawling and site mapping."
+    },
+    {
+      "title": "The Researcher plan is free with 1",
+      "description": "The Researcher plan is free with 1,000 API credits per month; pay-as-you-go costs $0.008 per credit, and monthly Project plans start at $30."
+    },
+    {
+      "title": "Startups can apply for 100",
+      "description": "Startups can apply for 100,000 free credits, and students can use it for free."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "affiliateUrl": "",
   "logo": "/logos/kling.png",
-  "image": "",
+  "image": "/screenshots/kling.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -28,5 +28,31 @@
   "sources": [
     "https://kling.ai",
     "https://kling.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kling and choose Try Now",
+      "description": "The homepage leads with Try Now and Create Now for Kling video and image generation.",
+      "links": [
+        {
+          "label": "Kling AI",
+          "url": "https://kling.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Describe a video or an image",
+      "description": "The page presents Kling 4.0 for video and Kling Image 3.0 for still images, including image series from a reference."
+    },
+    {
+      "title": "Follow the user guide",
+      "description": "Kling links a user guide from the page.",
+      "links": [
+        {
+          "label": "Kling user guide",
+          "url": "https://kling.ai/quickstart"
+        }
+      ]
+    }
   ]
 }

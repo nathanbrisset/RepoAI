@@ -1,7 +1,7 @@
 {
   "affiliateUrl": "",
   "logo": "/logos/deepl.png",
-  "image": "",
+  "image": "/screenshots/deepl.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -11,7 +11,7 @@
   "summary": "AI translation and writing assistant known for accuracy.",
   "description": "DeepL provides AI translation for text and documents in dozens of languages, plus DeepL Write for editing and an API for developers. It is widely regarded for natural, accurate translations and data security for businesses. A free version allows up to 50,000 characters per month; DeepL Pro Individual costs EUR 7.49/month billed annually, with a 30-day free trial, and Team and Business plans are available.",
   "categories": [
-    "text"
+    "writing"
   ],
   "tags": [
     "translation",
@@ -28,5 +28,31 @@
   },
   "sources": [
     "https://www.deepl.com/en/pro"
+  ],
+  "howToUse": [
+    {
+      "title": "Translate text, a file, or speech",
+      "description": "The homepage lists Translate text, Translate files, and Translate speech, and offers a free trial.",
+      "links": [
+        {
+          "label": "DeepL",
+          "url": "https://www.deepl.com/en"
+        }
+      ]
+    },
+    {
+      "title": "Drop a file on the translator",
+      "description": "The page describes drag-and-drop translation for a file."
+    },
+    {
+      "title": "Use the API or an AI app",
+      "description": "The page lists Use API and Use in AI apps, and says DeepL is available in Microsoft Copilot, ChatGPT, and Claude via MCP.",
+      "links": [
+        {
+          "label": "DeepL API docs",
+          "url": "https://developers.deepl.com/"
+        }
+      ]
+    }
   ]
 }

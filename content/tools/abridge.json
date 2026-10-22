@@ -1,0 +1,54 @@
+{
+  "id": "abridge",
+  "name": "Abridge",
+  "url": "https://www.abridge.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Ambient AI that drafts clinical documentation from patient conversations for health systems.",
+  "description": "Abridge records clinician-patient conversations and generates clinical notes, with versions for clinicians, revenue cycle teams and nursing. It also provides an assistant and care signals inside clinical workflows. The product is sold to health systems; no public prices are listed. Its documentation is designed for billing accuracy as well as clinical use. Access is through sales to health organisations, and the product works within clinical workflows rather than as a standalone consumer app.",
+  "categories": [
+    "health"
+  ],
+  "tags": [
+    "ambient-scribe",
+    "ehr",
+    "clinical-notes",
+    "nursing"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": true
+  },
+  "logo": "https://cdn.prod.website-files.com/6279c9d10eb860662e5ec006/663e90f63e32aea60e6769b6_abridge-logo-symbol-webclip.png",
+  "image": "/screenshots/abridge.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.abridge.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Abridge",
+      "description": "Open the official Abridge website.",
+      "links": [
+        {
+          "label": "Abridge",
+          "url": "https://www.abridge.com/"
+        }
+      ]
+    },
+    {
+      "title": "Clinical notes drafted from patient conversations",
+      "description": "Abridge records clinician-patient conversations and generates clinical notes, with versions for clinicians, revenue cycle teams and nursing."
+    },
+    {
+      "title": "It also provides an assistant and care signals inside clinical workflows.",
+      "description": "It also provides an assistant and care signals inside clinical workflows."
+    },
+    {
+      "title": "The product is sold to health systems; no public prices are listed.",
+      "description": "The product is sold to health systems; no public prices are listed."
+    }
+  ]
+}

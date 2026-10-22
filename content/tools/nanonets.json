@@ -1,18 +1,18 @@
 {
   "id": "nanonets",
   "name": "Nanonets",
-  "url": "https://nanonets.com",
+  "url": "https://nanonets.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Nanonets is an AI platform focused on automating document workflows and extracting data from unstructured files such as invoices, receipts, and IDs. Using deep learning, Nanonets can be trained on custom documents and integrated into business processes via API. The platform continuously learns from user feedback, offers multi-language support, and enables organizations to build intelligent document processing solutions at scale.",
   "description": "Nanonets is an AI platform focused on automating document workflows and extracting data from unstructured files such as invoices, receipts, and IDs. Using deep learning, Nanonets can be trained on custom documents and integrated into business processes via API. The platform continuously learns from user feedback, offers multi-language support, and enables organizations to build intelligent document processing solutions at scale.\n\nNanonets automates messy manual processes including accounts payable, claims processing, order management, and more, and delivers clean data to systems of record like SAP, Salesforce, and more. Trusted by 10,000+ enterprises.\n\nAutomated Data Extraction: Extracts fields from documents and images. Custom Workflows: Train models on your own documents. API Integration: Easily integrate with existing business systems. Multi-Language Support: Processes documents in various languages.",
   "categories": [
-    "data-processing"
+    "data"
   ],
   "tags": [
-    "Document AI",
-    "Automation",
-    "Data Extraction"
+    "document-ai",
+    "automation",
+    "data-extraction"
   ],
   "pricing": {
     "model": "freemium",
@@ -21,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/nanonets.png",
-  "image": "/tool-screenshots/nanonets.png",
+  "image": "/screenshots/nanonets.webp",
   "dateAdded": null,
   "lastVerified": null,
   "dateAddedNote": "The previous Added date was 2017-04-01. It was removed because it is not a credible date for this directory.",

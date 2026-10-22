@@ -1,0 +1,56 @@
+{
+  "id": "glean",
+  "name": "Glean",
+  "url": "https://www.glean.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Enterprise AI platform that searches company data across connected apps and runs agents.",
+  "description": "Glean connects to company applications through more than 250 connectors, builds a context layer of enterprise knowledge and permissions, and uses it for search, an assistant and governed agents. Recent releases let developers build, test and publish Glean agents from their coding tools. No public prices are listed; access is through a sales demo. It is aimed at large organisations with many internal systems.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "enterprise-search",
+    "agents",
+    "connectors",
+    "knowledge"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": true,
+    "sourceUrl": "https://www.glean.com/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/67189bfac8da27b3a70ddd93_256%20x%20256%20Glean%20Favicon.png",
+  "image": "/screenshots/glean.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.glean.com/",
+    "https://www.glean.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Glean",
+      "description": "Open the official Glean website.",
+      "links": [
+        {
+          "label": "Glean",
+          "url": "https://www.glean.com/"
+        }
+      ]
+    },
+    {
+      "title": "Employees to find and act on company knowledge",
+      "description": "Glean connects to company applications through more than 250 connectors, builds a context layer of enterprise knowledge and permissions, and uses it for search, an assistant and governed agents."
+    },
+    {
+      "title": "Recent releases let developers build",
+      "description": "Recent releases let developers build, test and publish Glean agents from their coding tools."
+    },
+    {
+      "title": "No public prices are listed; access is through a sales demo.",
+      "description": "No public prices are listed; access is through a sales demo."
+    }
+  ]
+}

@@ -7,14 +7,13 @@
   "summary": "Relume is an AI-powered site builder that generates website wireframes, copy, and design with simple prompts. Focused on rapid prototyping and agency workflows, it enables quick iteration and seamless export to Figma or Webflow.",
   "description": "Relume is an AI-powered site builder that generates website wireframes, copy, and design with simple prompts. Focused on rapid prototyping and agency workflows, it enables quick iteration and seamless export to Figma or Webflow.\n\nBuild from the human-made component system behind 2M+ websites. Publish and grow your site in Relume, or export to Webflow, Figma & React. Free to start.\n\nPrompt-Based Generation: Build site wireframes from descriptions. AI Copywriting: Instantly generate and edit website content. Export Options: Send designs to Figma or Webflow. Library of Blocks: Mix-and-match prebuilt components.",
   "categories": [
-    "design",
-    "coding"
+    "no-code"
   ],
   "tags": [
-    "Wireframe",
-    "AI Copy",
-    "Webflow",
-    "Agency"
+    "wireframe",
+    "ai-copy",
+    "webflow",
+    "agency"
   ],
   "pricing": {
     "model": "freemium",
@@ -23,7 +22,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/relume.png",
-  "image": "/tool-screenshots/relume.png",
+  "image": "/screenshots/relume.webp",
   "dateAdded": "2023-06-01",
   "lastVerified": "2026-10-21",
   "features": [

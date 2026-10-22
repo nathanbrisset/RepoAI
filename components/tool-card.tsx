@@ -4,12 +4,10 @@ import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import type { Tool } from "@/lib/types"
-
-function categoryLabel(id: string) {
-  return id.replace(/-/g, " ")
-}
+import { categoryName } from "@/lib/category-meta"
 
 const STATUS_LABEL: Record<string, string> = {
+  inactive: "Inactive",
   sunset: "Closed",
   renamed: "Renamed",
   "duplicate-of": "Duplicate",
@@ -48,8 +46,8 @@ export default function ToolCard({ tool }: ToolCardProps) {
           <p className="text-gray-700 text-sm mb-3 line-clamp-2">{tool.description}</p>
           <div className="flex flex-wrap gap-2 mb-2">
             {tool.categories.map((category) => (
-              <Badge key={category} variant="secondary" className="text-xs capitalize">
-                {categoryLabel(category)}
+              <Badge key={category} variant="secondary" className="text-xs">
+                {categoryName(category)}
               </Badge>
             ))}
           </div>
@@ -62,10 +60,10 @@ export default function ToolCard({ tool }: ToolCardProps) {
               ))}
             </div>
           )}
-          {tool.isPremium && (
+          {tool.isPremium && !tool.pricing?.uncertain && (
             <div className="mb-2">
               <Badge className={
-                tool.isPremium === 'Premium'
+                tool.isPremium === 'Premium' || tool.isPremium === 'Enterprise' || tool.isPremium === 'Usage-based' || tool.isPremium === 'One-time'
                   ? 'bg-gradient-to-r from-amber-500 to-yellow-500 text-white'
                   : tool.isPremium === 'Freemium'
                   ? 'bg-gradient-to-r from-blue-500 to-green-400 text-white'
@@ -79,7 +77,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
       </Link>
       <CardFooter className="px-5 pb-4 pt-0 flex justify-between text-xs text-gray-500">
         <span>{tool.dateAdded ? new Date(tool.dateAdded).toLocaleDateString() : "Date not recorded"}</span>
-        {tool.pricing?.verified === false && <span>Price not rechecked</span>}
+        {tool.isPremium && tool.pricing?.verified === false && !tool.pricing?.uncertain && <span>Price not rechecked</span>}
       </CardFooter>
     </Card>
   )

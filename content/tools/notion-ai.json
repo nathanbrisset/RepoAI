@@ -7,14 +7,14 @@
   "summary": "One tool that does it all. Search, generate, analyze, and chat—right inside Notion.",
   "description": "One tool that does it all. Search, generate, analyze, and chat—right inside Notion.\n\nWriting Assistant: Generates, rewrites, and summarizes content. Task Automation: Completes repetitive content workflows. Brainstorming: Helps ideate content from prompts. Inline Suggestions: Enhances writing directly in Notion docs.",
   "categories": [
-    "text"
+    "productivity"
   ],
   "tags": [
-    "Note Taking",
-    "Task Management",
-    "Summarization",
-    "Meeting Notes",
-    "Knowledge Management"
+    "note-taking",
+    "task-management",
+    "summarization",
+    "meeting-notes",
+    "knowledge-management"
   ],
   "pricing": {
     "model": "freemium",
@@ -23,7 +23,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/notion-ai.png",
-  "image": "/tool-screenshots/notion-ai.png",
+  "image": "/screenshots/notion-ai.webp",
   "dateAdded": "2023-02-01",
   "lastVerified": "2026-10-21",
   "features": [

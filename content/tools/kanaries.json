@@ -1,19 +1,19 @@
 {
   "id": "kanaries",
   "name": "Kanaries",
-  "url": "https://kanaries.net",
+  "url": "https://kanaries.net/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Make exploratory data analysis (EDA) easier with AI powered visual analytics. Discover, Analyze and Share data insights with ease.",
   "description": "Make exploratory data analysis (EDA) easier with AI powered visual analytics. Discover, Analyze and Share data insights with ease.\n\nAutoVis: Automatically generate visualizations based on selected data. Data Wrangler: Automate data summarization and transformation. Data Painter: Interactively explore data through visual means. Graphic Walker: Embed visual analytics into web and mobile applications.",
   "categories": [
-    "data-processing"
+    "data"
   ],
   "tags": [
-    "Data Visualization",
-    "AI Assistant",
-    "Exploratory Analysis",
-    "Charts"
+    "data-visualization",
+    "ai-assistant",
+    "exploratory-analysis",
+    "charts"
   ],
   "pricing": {
     "model": "freemium",
@@ -22,7 +22,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/kanaries.png",
-  "image": "/tool-screenshots/kanaries.png",
+  "image": "/screenshots/kanaries.webp",
   "dateAdded": "2023-04-08",
   "lastVerified": null,
   "features": [

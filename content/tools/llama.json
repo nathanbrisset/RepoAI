@@ -1,7 +1,7 @@
 {
   "affiliateUrl": "",
   "logo": "/logos/llama.png",
-  "image": "",
+  "image": "/screenshots/llama.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -11,7 +11,7 @@
   "summary": "Meta's family of open-weight language models, now alongside Muse.",
   "description": "Llama is Meta's family of open-weight large language models that developers can download, fine-tune and self-host. llama.com now redirects to dev.meta.ai, Meta's developer portal, which leads with Meta's newer Muse models (Muse Spark, Muse Spark Open, Muse Wonder) and the Meta Model API, and still links to Llama on Hugging Face. The Llama weights are free to download under Meta's license.",
   "categories": [
-    "text"
+    "llm-chatbots"
   ],
   "tags": [
     "llm",
@@ -28,5 +28,31 @@
   "sources": [
     "https://www.llama.com",
     "https://dev.meta.ai/"
+  ],
+  "howToUse": [
+    {
+      "title": "Try the Muse models",
+      "description": "The page at the Llama fiche URL is Meta's developer site. It says to try Muse models, including Muse Wonder and Muse Wonder Full.",
+      "links": [
+        {
+          "label": "Meta for developers",
+          "url": "https://dev.meta.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Install Muse Code",
+      "description": "Muse Code is described as multi-agent coding in the terminal, built for Muse models, with Mac and Windows downloads. The Windows command shown on the page is irm https://dev.meta.ai/install.ps1 | iex."
+    },
+    {
+      "title": "Read the docs",
+      "description": "Documentation and cookbooks are linked from the page.",
+      "links": [
+        {
+          "label": "Documentation",
+          "url": "https://dev.meta.ai/docs"
+        }
+      ]
+    }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "id": "writer-com",
   "name": "Writer.com",
-  "url": "https://writer.com",
+  "url": "https://writer.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "WRITER is the enterprise AI agent platform trusted by Fortune 500 companies, built to help teams execute and scale on-brand, compliant work.",
   "description": "WRITER is the enterprise AI agent platform trusted by Fortune 500 companies, built to help teams execute and scale on-brand, compliant work.\n\nStyle Guide Enforcement: Enforces brand writing rules and tone. Enterprise Privacy: Designed for regulated industries (SOC2, HIPAA). AI Writing Assistant: Edits, rephrases, and drafts high-quality content. Team Management: Permissions, analytics, and document control.",
   "categories": [
-    "text"
+    "ai-agents"
   ],
   "tags": [
-    "Compliance",
-    "Style Guide",
-    "Team Collaboration",
-    "Branding",
-    "Corporate"
+    "compliance",
+    "style-guide",
+    "team-collaboration",
+    "branding",
+    "corporate"
   ],
   "pricing": {
     "model": "paid",
@@ -23,7 +23,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/writer-com.png",
-  "image": "/tool-screenshots/writer-com.png",
+  "image": "/screenshots/writer-com.webp",
   "dateAdded": "2022-03-10",
   "lastVerified": null,
   "features": [

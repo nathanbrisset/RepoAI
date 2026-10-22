@@ -7,7 +7,7 @@
   "summary": "AI notepad for meetings that works without a meeting bot.",
   "description": "Granola transcribes meetings directly from your computer's audio and enhances your own notes with AI, without a bot joining the call. It differentiates itself by combining the user's notes with the transcript into clean summaries and action items. A free plan is available to get started, with paid plans for unlimited history and team features.",
   "categories": [
-    "productivity"
+    "meetings"
   ],
   "tags": [
     "meeting-notes",
@@ -22,11 +22,41 @@
     "sourceUrl": "https://www.granola.ai/pricing"
   },
   "logo": "/logos/granola.png",
-  "image": "",
+  "image": "/screenshots/granola.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.granola.ai",
     "https://www.granola.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Download Granola",
+      "description": "The homepage offers macOS, Windows, iOS, and Android.",
+      "links": [
+        {
+          "label": "Granola",
+          "url": "https://www.granola.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Take notes without a bot",
+      "description": "The page says Granola uses your computer audio and does not invite a meeting bot."
+    },
+    {
+      "title": "Use it in the meeting app you already have",
+      "description": "The homepage says it works with Zoom, Google Meet, Teams, and every other meeting app."
+    },
+    {
+      "title": "Use the notes before, during, and after",
+      "description": "The page says Granola helps you prepare, stay in the meeting, and finish the admin afterward.",
+      "links": [
+        {
+          "label": "Help Center",
+          "url": "https://docs.granola.ai/help-center"
+        }
+      ]
+    }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "id": "tl-dv",
+  "name": "tl;dv",
+  "url": "https://tldv.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI notetaker that records Zoom, Google Meet and Teams calls and sends insights to other apps.",
+  "description": "tl;dv records and transcribes calls on Zoom, Google Meet and Microsoft Teams, writes summaries and sends meeting insights to tools such as CRMs and Slack. Teams can search across meetings and automate workflows. The Free plan includes unlimited recordings with no card; Pro costs $18 per seat per month billed annually, and Business costs $29 per seat per month. The company reports more than two million users and GDPR compliance.",
+  "categories": [
+    "meetings"
+  ],
+  "tags": [
+    "meeting-notes",
+    "zoom",
+    "google-meet",
+    "teams",
+    "crm"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$18/seat/mo (Pro, annual)",
+    "sourceUrl": "https://tldv.io/pricing"
+  },
+  "logo": "https://tldv.io/faviconV2.png",
+  "image": "/screenshots/tl-dv.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://tldv.io/",
+    "https://tldv.io/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open tl;dv",
+      "description": "Open the official tl;dv website.",
+      "links": [
+        {
+          "label": "tl;dv",
+          "url": "https://tldv.io/"
+        }
+      ]
+    },
+    {
+      "title": "Automatic notes from Zoom, Meet or Teams calls",
+      "description": "tl;dv records and transcribes calls on Zoom, Google Meet and Microsoft Teams, writes summaries and sends meeting insights to tools such as CRMs and Slack."
+    },
+    {
+      "title": "Teams can search across meetings and automate workflows.",
+      "description": "Teams can search across meetings and automate workflows."
+    },
+    {
+      "title": "The Free plan includes unlimited recordings with no card; Pro costs $18 per seat per mo...",
+      "description": "The Free plan includes unlimited recordings with no card; Pro costs $18 per seat per month billed annually, and Business costs $29 per seat per month."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "affiliateUrl": "",
   "logo": "/logos/veo.png",
-  "image": "",
+  "image": "/screenshots/veo.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "status": "active",
@@ -29,5 +29,37 @@
   "sources": [
     "https://deepmind.google/models/veo/",
     "https://ai.google.dev/gemini-api/docs/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Try Veo in Gemini or Flow",
+      "description": "The DeepMind model page buttons are Try in Gemini and Try in Google Flow.",
+      "links": [
+        {
+          "label": "Veo",
+          "url": "https://deepmind.google/models/veo/"
+        }
+      ]
+    },
+    {
+      "title": "Or build with the API",
+      "description": "Build with Veo links to the Gemini API video documentation.",
+      "links": [
+        {
+          "label": "Build with Veo",
+          "url": "https://deepmind.google/models/veo/"
+        }
+      ]
+    },
+    {
+      "title": "Write a prompt",
+      "description": "The page presents Veo 3.1 as a video model with native audio, and links a prompt guide.",
+      "links": [
+        {
+          "label": "Prompt guide",
+          "url": "https://deepmind.google/models/veo/prompt-guide/"
+        }
+      ]
+    }
   ]
 }

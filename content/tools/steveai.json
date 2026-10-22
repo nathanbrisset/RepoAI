@@ -1,19 +1,17 @@
 {
   "id": "steveai",
   "name": "Steve.AI",
-  "url": "https://www.steve.ai",
+  "url": "https://www.steve.ai/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Steve.AI creates videos from blog posts or scripts using AI-generated scenes, stock footage, and voiceovers, ideal for marketing and content teams.",
   "description": "Steve.AI creates videos from blog posts or scripts using AI-generated scenes, stock footage, and voiceovers, ideal for marketing and content teams.\n\nSteve AI - The only AI video maker with 3 patents, Trusted by 7M+ users. Turn blogs, ideas, or audio into professional AI videos. Create generative AI, live action, or animated videos in minutes. Start free.\n\nBlog-to-video: AI transforms written articles or scripts into animated explainer or promo videos in minutes. AI scene generation: Automatically generates relevant, visually engaging scenes to match your script. Stock library: Access thousands of royalty-free images, video clips, and music tracks for your projects. Voiceover generation: Add realistic AI voice narration in multiple languages and accents.",
   "categories": [
-    "video",
-    "marketing"
+    "video"
   ],
   "tags": [
-    "AI",
-    "Creation",
-    "Voiceover"
+    "creation",
+    "voiceover"
   ],
   "pricing": {
     "model": "freemium",
@@ -22,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/steveai.png",
-  "image": "/tool-screenshots/steveai.png",
+  "image": "/screenshots/steveai.webp",
   "dateAdded": "2025-06-13",
   "lastVerified": null,
   "features": [

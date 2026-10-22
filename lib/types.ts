@@ -14,7 +14,7 @@ export interface Tool {
   visits?: number
   dateAdded: string
   dateAddedNote?: string
-  isPremium?: 'Free' | 'Freemium' | 'Premium' | 'Open source'
+  isPremium?: 'Free' | 'Freemium' | 'Premium' | 'Open source' | 'Enterprise' | 'Usage-based' | 'One-time'
   features?: string[]
   howToUse?: {
     title: string;
@@ -22,18 +22,19 @@ export interface Tool {
     links?: { label: string; url: string }[];
   }[]
   longDescription?: string
-  status?: 'active' | 'renamed' | 'sunset' | 'duplicate-of'
+  status?: 'active' | 'inactive' | 'renamed' | 'sunset' | 'duplicate-of'
   successorId?: string
   statusNote?: string
   lastVerified?: string | null
   sources?: string[]
   pricing?: {
     type: 'free' | 'paid' | 'freemium'
-    model?: 'free' | 'freemium' | 'paid' | 'open-source'
+    model?: 'free' | 'freemium' | 'paid' | 'open-source' | 'enterprise' | 'usage-based' | 'one-time'
     label?: string
     details?: string
     verified?: boolean
     sourceUrl?: string
+    uncertain?: boolean
   }
 }
 

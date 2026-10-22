@@ -7,14 +7,12 @@
   "summary": "RoomGPT is an AI-powered tool that generates interior design ideas from a single room photo. By uploading an image and choosing a style, users receive realistic renderings of their space with new decor and layouts, perfect for inspiration and remote staging.",
   "description": "RoomGPT is an AI-powered tool that generates interior design ideas from a single room photo. By uploading an image and choosing a style, users receive realistic renderings of their space with new decor and layouts, perfect for inspiration and remote staging.\n\nPhoto-to-Design: Transform photos into styled rooms. Multiple Styles: Choose from modern, classic, rustic, and more. Fast Rendering: Get new designs in seconds. Mobile Friendly: Works on smartphones and tablets.",
   "categories": [
-    "design",
-    "image"
+    "design"
   ],
   "tags": [
-    "Interior Design",
-    "AI",
-    "Rendering",
-    "Virtual Staging"
+    "interior-design",
+    "rendering",
+    "virtual-staging"
   ],
   "pricing": {
     "model": "freemium",
@@ -23,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/roomgpt.png",
-  "image": "/tool-screenshots/roomgpt.png",
+  "image": "/screenshots/roomgpt.webp",
   "dateAdded": "2023-03-01",
   "lastVerified": null,
   "features": [

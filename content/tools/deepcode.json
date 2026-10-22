@@ -7,12 +7,11 @@
   "summary": "Snyk Code is the fastest & most comprehensive SAST code vulnerability scanning and auto-fixing tool. Try Snyk’s code scanner solutions for free, or book a live demo.",
   "description": "Snyk Code is the fastest & most comprehensive SAST code vulnerability scanning and auto-fixing tool. Try Snyk’s code scanner solutions for free, or book a live demo.\n\nAI-Powered Code Analysis: Analyzes code to detect security vulnerabilities and coding issues. Automatic Fix Suggestions: Provides recommendations to fix identified problems. Integration with Snyk: Works alongside Snyk's other security tools for comprehensive protection. Support for Multiple Languages: Analyzes code written in various programming languages.",
   "categories": [
-    "coding"
+    "security"
   ],
   "tags": [
-    "AI",
-    "Review",
-    "Bug Fixing"
+    "review",
+    "bug-fixing"
   ],
   "pricing": {
     "model": "free",
@@ -21,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/deepcode.png",
-  "image": "/tool-screenshots/deepcode.png",
+  "image": "/screenshots/deepcode.webp",
   "dateAdded": "2021-08-20",
   "lastVerified": null,
   "features": [

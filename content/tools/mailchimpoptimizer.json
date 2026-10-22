@@ -3,17 +3,17 @@
   "name": "Mailchimp Content Optimizer",
   "url": "https://mailchimp.com/solutions/ai-tools/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "duplicate-of",
+  "successorId": "mailchimp",
+  "statusNote": "Content Optimizer is an AI feature of Mailchimp, on mailchimp.com/solutions/ai-tools/. See mailchimp.",
   "summary": "Mailchimp Content Optimizer uses AI to analyze marketing emails, providing personalized recommendations for subject lines, copy, and design. It helps marketers improve open and click rates.",
   "description": "Mailchimp Content Optimizer uses AI to analyze marketing emails, providing personalized recommendations for subject lines, copy, and design. It helps marketers improve open and click rates.\n\nMailchimp with Intuit Intelligence turns your data into clear answers and a recommended next move — Analytics AI, plus ChatGPT and Claude connectors.\n\nAI analysis of subject lines and body copy. Actionable suggestions for engagement. Design optimization tools. Personalized recommendations for content.",
   "categories": [
-    "marketing",
-    "productivity"
+    "marketing"
   ],
   "tags": [
-    "AI",
-    "Email",
-    "Optimization"
+    "email",
+    "optimization"
   ],
   "pricing": {
     "model": "freemium",
@@ -22,7 +22,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/mailchimpoptimizer.png",
-  "image": "/tool-screenshots/mailchimpoptimizer.png",
+  "image": "/screenshots/mailchimpoptimizer.webp",
   "dateAdded": "2025-06-11",
   "lastVerified": null,
   "features": [

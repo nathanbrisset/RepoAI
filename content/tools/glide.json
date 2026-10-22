@@ -1,0 +1,57 @@
+{
+  "id": "glide",
+  "name": "Glide",
+  "url": "https://www.glideapps.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code platform that turns spreadsheets or prompts into business apps and AI agents.",
+  "description": "Glide builds business apps and AI agents from Excel files, Google Sheets or a prompt, so operations teams can replace spreadsheet workflows. Apps run on the web and on mobile, and an iPhone app is announced. The Free plan has limited credits; Basic costs $25 per month, Plus $50 and Pro $125 per month, with enterprise plans on request. The platform targets teams whose operations run on spreadsheets.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "no-code",
+    "spreadsheets",
+    "business-apps",
+    "ai-agents"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$25/mo (Basic)",
+    "sourceUrl": "https://www.glideapps.com/pricing"
+  },
+  "logo": "https://www.glideapps.com/favicon.ico?favicon.050ouc-gi496w.ico",
+  "image": "/screenshots/glide.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.glideapps.com/",
+    "https://www.glideapps.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Glide",
+      "description": "Open the official Glide website.",
+      "links": [
+        {
+          "label": "Glide",
+          "url": "https://www.glideapps.com/"
+        }
+      ]
+    },
+    {
+      "title": "Turn spreadsheets into business apps",
+      "description": "Glide builds business apps and AI agents from Excel files, Google Sheets or a prompt, so operations teams can replace spreadsheet workflows."
+    },
+    {
+      "title": "Apps run on the web and on mobile",
+      "description": "Apps run on the web and on mobile, and an iPhone app is announced."
+    },
+    {
+      "title": "The Free plan has limited credits; Basic costs $25 per month",
+      "description": "The Free plan has limited credits; Basic costs $25 per month, Plus $50 and Pro $125 per month, with enterprise plans on request."
+    }
+  ]
+}

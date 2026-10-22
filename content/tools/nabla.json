@@ -1,0 +1,53 @@
+{
+  "id": "nabla",
+  "name": "Nabla",
+  "url": "https://www.nabla.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Clinical AI layer for ambient documentation, dictation and coding support integrated with EHRs.",
+  "description": "Nabla offers ambient documentation that drafts notes from consultations, dictation and coding support, integrated with Epic, athenahealth and other EHRs. It publishes case studies and whitepapers and provides an API. A free trial is offered; no public prices were found. Customers include health organisations across the United States, and the product is offered through partnerships with EHR vendors. Its API lets other products embed the same documentation features.",
+  "categories": [
+    "health"
+  ],
+  "tags": [
+    "ambient-scribe",
+    "dictation",
+    "coding",
+    "ehr"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "https://cdn.prod.website-files.com/67c6ddc58c9e7b3f7d095cb3/69e8ed278ce22f3e664e7f87_Webclip.png",
+  "image": "/screenshots/nabla.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.nabla.com/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Nabla",
+      "description": "Open the official Nabla website.",
+      "links": [
+        {
+          "label": "Nabla",
+          "url": "https://www.nabla.com/"
+        }
+      ]
+    },
+    {
+      "title": "Ambient notes and coding inside my EHR",
+      "description": "Nabla offers ambient documentation that drafts notes from consultations, dictation and coding support, integrated with Epic, athenahealth and other EHRs."
+    },
+    {
+      "title": "It publishes case studies and whitepapers and provides an API.",
+      "description": "It publishes case studies and whitepapers and provides an API."
+    },
+    {
+      "title": "A free trial is offered; no public prices were found.",
+      "description": "A free trial is offered; no public prices were found."
+    }
+  ]
+}

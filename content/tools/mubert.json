@@ -1,0 +1,57 @@
+{
+  "id": "mubert",
+  "name": "Mubert",
+  "url": "https://mubert.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI music generator producing royalty-free tracks for videos, podcasts and apps, with an API.",
+  "description": "Mubert generates royalty-free music from text prompts, moods and durations for video, podcasts and apps, and offers an API for developers and a podcast editor called Cast. A free non-commercial plan includes limited generations. Paid plans start with Creator at $14 per month ($11.69 billed annually), and commercial-use plans start at $39 per month ($32.49 annually). Commercial plans cover freelance and agency work as well as use in apps and services.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "royalty-free",
+    "music-generation",
+    "api",
+    "content-creators"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$14/mo (Creator, monthly)",
+    "sourceUrl": "https://mubert.com/pricing"
+  },
+  "logo": "https://mubert.com/safari-pinned-tab.svg",
+  "image": "/screenshots/mubert.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://mubert.com/",
+    "https://mubert.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Mubert",
+      "description": "Open the official Mubert website.",
+      "links": [
+        {
+          "label": "Mubert",
+          "url": "https://mubert.com/"
+        }
+      ]
+    },
+    {
+      "title": "Royalty-free soundtrack music for my videos",
+      "description": "Mubert generates royalty-free music from text prompts, moods and durations for video, podcasts and apps, and offers an API for developers and a podcast editor called Cast."
+    },
+    {
+      "title": "A free non-commercial plan includes limited generations.",
+      "description": "A free non-commercial plan includes limited generations."
+    },
+    {
+      "title": "Paid plans start with Creator at $14 per month ($11.69 billed annually)",
+      "description": "Paid plans start with Creator at $14 per month ($11.69 billed annually), and commercial-use plans start at $39 per month ($32.49 annually)."
+    }
+  ]
+}

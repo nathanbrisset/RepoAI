@@ -1,0 +1,54 @@
+{
+  "id": "creatify",
+  "name": "Creatify",
+  "url": "https://creatify.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI ad creation platform for image and video ads, with avatars, URL-to-video and ad analytics.",
+  "description": "Creatify produces image and video ads with AI. Tools include URL-to-video, AI avatars, ad cloning and a creative agent, plus a competitor tracker and an ad library for research. Integrations cover an API, MCP and ad launching. Plans start at $15 per month ($10 billed yearly) for 55 credits, with Pro, Max and team tiers above it; a free plan was not confirmed.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "video-ads",
+    "avatars",
+    "url-to-video",
+    "ad-library"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "https://creatify.ai/favicon.ico",
+  "image": "/screenshots/creatify.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://creatify.ai/",
+    "https://creatify.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Creatify",
+      "description": "Open the official Creatify website.",
+      "links": [
+        {
+          "label": "Creatify",
+          "url": "https://creatify.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Turn a product URL into video ads",
+      "description": "Creatify produces image and video ads with AI."
+    },
+    {
+      "title": "Tools include URL-to-video",
+      "description": "Tools include URL-to-video, AI avatars, ad cloning and a creative agent, plus a competitor tracker and an ad library for research."
+    },
+    {
+      "title": "Integrations cover an API",
+      "description": "Integrations cover an API, MCP and ad launching."
+    }
+  ]
+}

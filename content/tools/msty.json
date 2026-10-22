@@ -1,0 +1,57 @@
+{
+  "id": "msty",
+  "name": "Msty",
+  "url": "https://msty.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Private AI workspace app combining local and cloud models, knowledge stacks and agents.",
+  "description": "Msty is a desktop AI workspace for individuals and organisations. Its Studio app chats with local and cloud models, organises work into workspaces and connects documents through a knowledge layer. Related products cover bounded agents (Go) and admin controls (Nexus). The Studio desktop app has a free plan; the Aurum plan costs $149 per user per year or $349 as a lifetime licence, and team plans are quoted on request.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "local-llm",
+    "multi-model",
+    "workspace",
+    "privacy"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$149/user/yr (Aurum)",
+    "sourceUrl": "https://msty.ai/pricing"
+  },
+  "logo": "https://msty.ai/brands/msty-cube.webp",
+  "image": "/screenshots/msty.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://msty.ai/",
+    "https://msty.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Msty",
+      "description": "Open the official Msty website.",
+      "links": [
+        {
+          "label": "Msty",
+          "url": "https://msty.ai/"
+        }
+      ]
+    },
+    {
+      "title": "One private interface for local and cloud models",
+      "description": "Its Studio app chats with local and cloud models, organises work into workspaces and connects documents through a knowledge layer."
+    },
+    {
+      "title": "Msty is a desktop AI workspace for individuals and organisations.",
+      "description": "Msty is a desktop AI workspace for individuals and organisations."
+    },
+    {
+      "title": "Related products cover bounded agents (Go) and admin controls (Nexus).",
+      "description": "Related products cover bounded agents (Go) and admin controls (Nexus)."
+    }
+  ]
+}

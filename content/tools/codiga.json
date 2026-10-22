@@ -1,19 +1,18 @@
 {
   "id": "codiga",
   "name": "Codiga",
-  "url": "https://www.codiga.io",
+  "url": "https://www.codiga.io/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Static Code Analysis in VS Code, JetBrains, VisualStudio, GitHub, GitLab and Bitbucket.",
   "description": "Static Code Analysis in VS Code, JetBrains, VisualStudio, GitHub, GitLab and Bitbucket.\n\nReal-Time Code Analysis: Detects issues while coding. Smart Code Snippets: Reusable code blocks with best practices. Security & Performance Checks: Flags unsafe or slow code. IDE/CI Integration: Works with VS Code, JetBrains, GitHub Actions, and more.",
   "categories": [
-    "coding"
+    "security"
   ],
   "tags": [
-    "AI",
-    "Coding",
-    "Security",
-    "Analysis"
+    "coding",
+    "security",
+    "analysis"
   ],
   "pricing": {
     "model": "free",
@@ -22,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/codiga.png",
-  "image": "/tool-screenshots/codiga.png",
+  "image": "/screenshots/codiga.webp",
   "dateAdded": "2022-03-15",
   "lastVerified": null,
   "features": [

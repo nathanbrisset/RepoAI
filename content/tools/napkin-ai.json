@@ -22,11 +22,35 @@
     "sourceUrl": "https://www.napkin.ai/pricing"
   },
   "logo": "",
-  "image": "",
+  "image": "/screenshots/napkin-ai.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.napkin.ai",
     "https://www.napkin.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Import or paste your text",
+      "description": "Napkin's first step says to import or paste text. It says the visual comes from that text, without a separate prompt.",
+      "links": [
+        {
+          "label": "Napkin AI",
+          "url": "https://www.napkin.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Generate visuals and pick one",
+      "description": "Click to generate visuals, then choose the one that matches what you have in mind."
+    },
+    {
+      "title": "Polish it",
+      "description": "The page says nothing is fixed: change the visual until it feels right."
+    },
+    {
+      "title": "Export it",
+      "description": "Export as PPT, PNG, PDF, or SVG."
+    }
   ]
 }

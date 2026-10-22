@@ -10,9 +10,8 @@
     "coding"
   ],
   "tags": [
-    "AI",
-    "Multilingual",
-    "Code Generation"
+    "multilingual",
+    "code-generation"
   ],
   "pricing": {
     "model": "free",
@@ -21,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/codegeex.png",
-  "image": "/tool-screenshots/codegeex.png",
+  "image": "/screenshots/codegeex.webp",
   "dateAdded": "2025-06-04",
   "lastVerified": null,
   "features": [
@@ -32,8 +31,8 @@
   ],
   "howToUse": [
     {
-      "title": "Access CodeGeeX Platform",
-      "description": "Visit the CodeGeeX website for demos and documentation.",
+      "title": "Open CodeGeeX",
+      "description": "Open the official CodeGeeX website.",
       "links": [
         {
           "label": "CodeGeeX",
@@ -42,16 +41,16 @@
       ]
     },
     {
-      "title": "Use Online Demos or Plugins",
-      "description": "Generate or translate code using web demos or install IDE integrations."
+      "title": "A multilingual code generation model supporting over 20 programming languages.",
+      "description": "A multilingual code generation model supporting over 20 programming languages."
     },
     {
-      "title": "Prompt and Review",
-      "description": "Describe your coding need or input code for translation/completion."
+      "title": "Multilingual support",
+      "description": "Multilingual support: Generates code in over 20 languages."
     },
     {
-      "title": "Export & Integrate",
-      "description": "Copy results into your IDE or integrate via provided APIs."
+      "title": "Large-scale model",
+      "description": "Large-scale model: Trained on extensive code datasets."
     }
   ]
 }

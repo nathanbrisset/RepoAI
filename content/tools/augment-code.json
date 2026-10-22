@@ -1,0 +1,57 @@
+{
+  "id": "augment-code",
+  "name": "Augment Code",
+  "url": "https://www.augmentcode.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Coding agents and context engine for development teams, sold as the Cosmos platform.",
+  "description": "Augment Code builds coding agents supported by a context engine that indexes large codebases. Its Cosmos platform connects agents across the software lifecycle, covering code review, test coverage, incident investigation and ticket-to-PR work, with a CLI and cloud agents. The Standard plan costs $20 per month flat for up to 50 seats with $20 of usage included; Business costs $100 per month; enterprise pricing is custom.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "coding-agent",
+    "context-engine",
+    "code-review",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$20/mo (Standard, flat)",
+    "sourceUrl": "https://www.augmentcode.com/pricing"
+  },
+  "logo": "https://www.augmentcode.com/favicon.svg",
+  "image": "/screenshots/augment-code.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.augmentcode.com/",
+    "https://www.augmentcode.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Augment Code",
+      "description": "Open the official Augment Code website.",
+      "links": [
+        {
+          "label": "Augment Code",
+          "url": "https://www.augmentcode.com/"
+        }
+      ]
+    },
+    {
+      "title": "Agents that work across my whole codebase and SDLC",
+      "description": "Augment Code builds coding agents supported by a context engine that indexes large codebases."
+    },
+    {
+      "title": "Its Cosmos platform connects agents across the software lifecycle",
+      "description": "Its Cosmos platform connects agents across the software lifecycle, covering code review, test coverage, incident investigation and ticket-to-PR work, with a CLI and cloud agents."
+    },
+    {
+      "title": "The Standard plan costs $20 per month flat for up to 50 seats with $20 of usage include...",
+      "description": "The Standard plan costs $20 per month flat for up to 50 seats with $20 of usage included; Business costs $100 per month; enterprise pricing is custom."
+    }
+  ]
+}

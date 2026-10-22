@@ -1,0 +1,56 @@
+{
+  "id": "jan",
+  "name": "Jan",
+  "url": "https://www.jan.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source desktop app for chatting with local models or connecting to cloud model APIs.",
+  "description": "Jan is an open-source desktop application that runs open-weight models locally and can also connect to cloud providers such as OpenAI and Anthropic with the user's own API keys. It provides a chat interface, model downloads and a local API server. The project is developed in public on GitHub and also offers Jan Agent and research work. The software is free to download.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "local-llm",
+    "open-source",
+    "desktop",
+    "privacy"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": true,
+    "sourceUrl": "https://www.jan.ai/pricing"
+  },
+  "logo": "https://www.jan.ai/favicon.ico",
+  "image": "/screenshots/jan.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://jan.ai/",
+    "https://www.jan.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Jan",
+      "description": "Open the official Jan website.",
+      "links": [
+        {
+          "label": "Jan",
+          "url": "https://www.jan.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Run models locally",
+      "description": "Jan is an open-source desktop application that runs open-weight models locally and can also connect to cloud providers such as OpenAI and Anthropic with the user's own API keys."
+    },
+    {
+      "title": "An open-source ChatGPT alternative",
+      "description": "Jan is an open-source desktop application that runs open-weight models locally and can also connect to cloud providers such as OpenAI and Anthropic with the user's own API keys."
+    },
+    {
+      "title": "It provides a chat interface",
+      "description": "It provides a chat interface, model downloads and a local API server."
+    }
+  ]
+}

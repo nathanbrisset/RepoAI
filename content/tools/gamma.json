@@ -23,11 +23,41 @@
     "sourceUrl": "https://gamma.app/pricing"
   },
   "logo": "/logos/gamma.png",
-  "image": "",
+  "image": "/screenshots/gamma.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://gamma.app/pricing",
     "https://help.gamma.app/en/articles/8077107"
+  ],
+  "howToUse": [
+    {
+      "title": "Describe what you want to make",
+      "description": "Gamma's help center says to start from the dashboard prompt. A sentence is enough, and you can paste notes, attach files, or pick a template.",
+      "links": [
+        {
+          "label": "Gamma",
+          "url": "https://gamma.app"
+        }
+      ]
+    },
+    {
+      "title": "Choose Plan, Express, or Research",
+      "description": "Plan asks questions and shows a plan before building. Express goes straight to a first draft. Research pulls web sources and only works with Plan."
+    },
+    {
+      "title": "Approve the plan",
+      "description": "In Plan mode, answer the questions, review the plan, and give the go-ahead. The help article says the agent does not build until you do."
+    },
+    {
+      "title": "Review and ask for changes",
+      "description": "The help article says the agent builds the gamma, and you can tell it what to change afterward.",
+      "links": [
+        {
+          "label": "Create with Agent",
+          "url": "https://help.gamma.app/en/articles/15002203-how-do-i-create-with-agent-in-gamma"
+        }
+      ]
+    }
   ]
 }

@@ -1,20 +1,17 @@
 {
   "id": "optimizely",
   "name": "Optimizely",
-  "url": "https://www.optimizely.com",
+  "url": "https://www.optimizely.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Optimizely offers AI-powered experimentation and personalization for websites and apps. Marketers can run A/B tests, manage features, and deliver personalized content.",
   "description": "Optimizely offers AI-powered experimentation and personalization for websites and apps. Marketers can run A/B tests, manage features, and deliver personalized content.\n\nEverything marketing and digital teams need to create content fast, test and personalize, and prove business impact.\n\nA/B and multivariate testing for web/app changes. AI-driven content personalization. Feature flag management for safe rollouts. Real-time analytics for experiment tracking.",
   "categories": [
-    "marketing",
-    "data-processing",
-    "productivity"
+    "marketing"
   ],
   "tags": [
-    "AI",
-    "Personalization",
-    "AB Testing"
+    "personalization",
+    "ab-testing"
   ],
   "pricing": {
     "model": "paid",
@@ -23,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/optimizely.png",
-  "image": "/tool-screenshots/optimizely.png",
+  "image": "/screenshots/optimizely.webp",
   "dateAdded": "2025-06-11",
   "lastVerified": null,
   "features": [

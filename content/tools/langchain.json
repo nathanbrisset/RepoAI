@@ -1,0 +1,58 @@
+{
+  "id": "langchain",
+  "name": "LangChain",
+  "url": "https://www.langchain.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source agent framework plus LangSmith for tracing, evaluation and deployment of agents.",
+  "description": "LangChain maintains open-source frameworks for building LLM applications and agents, including LangChain and LangGraph. Its commercial platform, LangSmith, adds observability, evaluation, deployment, sandboxes and an LLM gateway. The Developer plan is free for one seat with 5,000 base traces per month and pay-as-you-go beyond that. The Plus plan costs $39 per seat per month; enterprise pricing is custom. LangSmith also includes an agent improvement engine and Fleet, a no-code agent product for the whole company.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "framework",
+    "observability",
+    "evaluation",
+    "langsmith",
+    "open-source"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$39/seat/mo (Plus)",
+    "sourceUrl": "https://www.langchain.com/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/69a17e4f0c916c644f4de1cd_webclip%20lg.png",
+  "image": "/screenshots/langchain.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.langchain.com/",
+    "https://www.langchain.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open LangChain",
+      "description": "Open the official LangChain website.",
+      "links": [
+        {
+          "label": "LangChain",
+          "url": "https://www.langchain.com/"
+        }
+      ]
+    },
+    {
+      "title": "Build, trace and evaluate LLM agents",
+      "description": "LangChain maintains open-source frameworks for building LLM applications and agents, including LangChain and LangGraph."
+    },
+    {
+      "title": "Its commercial platform",
+      "description": "Its commercial platform, LangSmith, adds observability, evaluation, deployment, sandboxes and an LLM gateway."
+    },
+    {
+      "title": "The Developer plan is free for one seat with 5",
+      "description": "The Developer plan is free for one seat with 5,000 base traces per month and pay-as-you-go beyond that."
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import { useRouter } from "next/navigation"
 import ToolCard from "@/components/tool-card"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
@@ -8,21 +9,42 @@ import { Search } from "lucide-react"
 import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
 import type { Tool } from "@/lib/types"
+import { categories } from "@/lib/data"
 
 interface ToolsClientProps {
   tools: Tool[]
+  initialCategory?: string | null
 }
 
 const PRICING_OPTIONS = [
   { label: "Free", className: "bg-gray-200 text-gray-800" },
   { label: "Freemium", className: "bg-gradient-to-r from-blue-500 to-green-400 text-white" },
   { label: "Premium", className: "bg-gradient-to-r from-amber-500 to-yellow-500 text-white" },
+  { label: "Enterprise", className: "bg-gradient-to-r from-amber-500 to-yellow-500 text-white" },
+  { label: "Usage-based", className: "bg-gradient-to-r from-amber-500 to-yellow-500 text-white" },
+  { label: "One-time", className: "bg-gray-800 text-white" },
   { label: "Open source", className: "bg-gray-800 text-white" },
 ]
 
-export default function ToolsClient({ tools }: ToolsClientProps) {
+export default function ToolsClient({ tools, initialCategory = null }: ToolsClientProps) {
+  const router = useRouter()
+  const initial = categories.some((category) => category.id === initialCategory) ? initialCategory : null
   const [selectedPricing, setSelectedPricing] = useState<string | null>(null)
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(initial)
   const [query, setQuery] = useState("")
+
+  useEffect(() => {
+    setSelectedCategory(initial)
+  }, [initial])
+
+  function selectCategory(id: string | null) {
+    setSelectedCategory(id)
+    const params = new URLSearchParams(window.location.search)
+    if (id) params.set("category", id)
+    else params.delete("category")
+    const next = params.toString()
+    router.replace(next ? `/tools?${next}` : "/tools", { scroll: false })
+  }
 
   const filteredTools = tools.filter(tool => {
     const matchesQuery =
@@ -30,8 +52,9 @@ export default function ToolsClient({ tools }: ToolsClientProps) {
       tool.description.toLowerCase().includes(query.toLowerCase()) ||
       tool.tags?.some(tag => tag.toLowerCase().includes(query.toLowerCase())) ||
       tool.longDescription?.toLowerCase().includes(query.toLowerCase())
-    const matchesPricing = selectedPricing ? tool.isPremium === selectedPricing : true
-    return matchesQuery && matchesPricing
+    const matchesPricing = selectedPricing ? tool.isPremium === selectedPricing && !tool.pricing?.uncertain : true
+    const matchesCategory = selectedCategory ? tool.categories.includes(selectedCategory) : true
+    return matchesQuery && matchesPricing && matchesCategory
   })
 
   return (
@@ -63,6 +86,26 @@ export default function ToolsClient({ tools }: ToolsClientProps) {
               </button>
             ))}
           </div>
+        </div>
+
+        <div className="flex flex-wrap gap-2 mb-8">
+          <button
+            type="button"
+            onClick={() => selectCategory(null)}
+            className={`rounded-full px-3 py-1 text-sm ${selectedCategory === null ? "bg-gray-900 text-white" : "bg-white text-gray-700 border"}`}
+          >
+            All categories
+          </button>
+          {categories.map((category) => (
+            <button
+              key={category.id}
+              type="button"
+              onClick={() => selectCategory(selectedCategory === category.id ? null : category.id)}
+              className={`rounded-full px-3 py-1 text-sm ${selectedCategory === category.id ? "bg-gray-900 text-white" : "bg-white text-gray-700 border"}`}
+            >
+              {category.name}
+            </button>
+          ))}
         </div>
 
         {/* Search Bar */}

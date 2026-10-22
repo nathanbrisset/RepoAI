@@ -7,13 +7,13 @@
   "summary": "AI assistant for data analysis and visualization.",
   "description": "AI assistant for data analysis and visualization.\n\nData Analysis: Perform complex data analyses using AI-driven tools. Graph & Chart Creation: Automatically generate visual representations of data. Research Assistance: Conduct research with AI support for data gathering and summarization. Mathematical Problem Solving: Solve equations and mathematical problems using AI capabilities.",
   "categories": [
-    "data-processing"
+    "data"
   ],
   "tags": [
-    "Data Analysis",
-    "AI Assistant",
-    "Visualization",
-    "Natural Language"
+    "data-analysis",
+    "ai-assistant",
+    "visualization",
+    "natural-language"
   ],
   "pricing": {
     "model": "freemium",
@@ -22,7 +22,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/julius-ai.png",
-  "image": "/tool-screenshots/julius-ai.png",
+  "image": "/screenshots/julius-ai.webp",
   "dateAdded": "2023-06-12",
   "lastVerified": null,
   "features": [

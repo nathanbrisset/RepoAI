@@ -1,19 +1,17 @@
 {
   "id": "deepdub",
   "name": "DeepDub",
-  "url": "https://deepdub.ai",
+  "url": "https://deepdub.ai/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "DeepDub is an AI dubbing platform for video translation with emotion-preserving synthetic voices, enabling global video content localization.",
   "description": "DeepDub is an AI dubbing platform for video translation with emotion-preserving synthetic voices, enabling global video content localization.\n\nScale up dubbing for your productions faster and more cost-efficiently than ever with the end-to-end localization platform made for voice production.\n\nEmotion-preserving dubbing: AI voices keep the original speaker’s tone, emotion, and intent for a natural translation. Multi-language support: Translate and dub content into any major language for global audience expansion. Voice cloning: Retain the identity of the original speaker for authenticity and continuity. API access: Automate large-scale localization and dubbing workflows for enterprise-level needs.",
   "categories": [
-    "video",
-    "audio"
+    "voice"
   ],
   "tags": [
-    "AI",
-    "Dubbing",
-    "Translation"
+    "dubbing",
+    "translation"
   ],
   "pricing": {
     "model": "paid",
@@ -22,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/deepdub.png",
-  "image": "/tool-screenshots/deepdub.png",
+  "image": "/screenshots/deepdub.webp",
   "dateAdded": "2025-06-13",
   "lastVerified": null,
   "features": [

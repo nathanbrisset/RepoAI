@@ -7,7 +7,7 @@
   "summary": "Create AI music with vocals from text prompts.",
   "description": "Udio generates full songs, with vocals and lyrics, from text prompts, and lets users extend, remix and edit tracks or use reference styles. It targets musicians and hobbyists who want controllable song generation. The Free plan includes 10 credits per day (100 per month); Standard costs $10/month ($8/month billed annually) with 2,400 credits and Pro $30/month.",
   "categories": [
-    "audio"
+    "music"
   ],
   "tags": [
     "music-generation",
@@ -22,10 +22,36 @@
     "sourceUrl": "https://www.udio.com/pricing"
   },
   "logo": "",
-  "image": "",
+  "image": "/screenshots/udio.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.udio.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Describe a song",
+      "description": "Choose Start Creating. The page says that if you can describe the song in text, you can make it.",
+      "links": [
+        {
+          "label": "Udio",
+          "url": "https://www.udio.com/"
+        }
+      ]
+    },
+    {
+      "title": "Edit the track",
+      "description": "The homepage shows Extend, Inpaint, Remix, and Upload Song on a creation."
+    },
+    {
+      "title": "Listen or share",
+      "description": "The page says you can discover music and share your own creations. Help and a free trial are linked from the page.",
+      "links": [
+        {
+          "label": "Udio Help",
+          "url": "https://help.udio.com/"
+        }
+      ]
+    }
   ]
 }

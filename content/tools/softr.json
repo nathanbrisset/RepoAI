@@ -1,0 +1,56 @@
+{
+  "id": "softr",
+  "name": "Softr",
+  "url": "https://www.softr.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code builder for portals and internal tools on top of Softr databases or external data.",
+  "description": "Softr builds client portals, internal tools and business apps without code. It includes its own databases, workflows, forms, mobile apps and built-in AI agents, and syncs with external data sources. An AI app builder can generate an app from a prompt, and an MCP server lets AI agents build tools.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "no-code",
+    "portals",
+    "internal-tools",
+    "databases"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.softr.io/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/6772e8855f7859bc8df95c78/67c5520c14af2aa8657fedbd_softr_webclip.png",
+  "image": "/screenshots/softr.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.softr.io/",
+    "https://www.softr.io/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Softr",
+      "description": "Open the official Softr website.",
+      "links": [
+        {
+          "label": "Softr",
+          "url": "https://www.softr.io/"
+        }
+      ]
+    },
+    {
+      "title": "Build client portals and internal tools without code",
+      "description": "Softr builds client portals, internal tools and business apps without code."
+    },
+    {
+      "title": "It includes its own databases",
+      "description": "It includes its own databases, workflows, forms, mobile apps and built-in AI agents, and syncs with external data sources."
+    },
+    {
+      "title": "An AI app builder can generate an app from a prompt",
+      "description": "An AI app builder can generate an app from a prompt, and an MCP server lets AI agents build tools."
+    }
+  ]
+}

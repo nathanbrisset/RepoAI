@@ -7,14 +7,13 @@
   "summary": "Leonardo.Ai is an AI-powered creative platform for generating high-quality art, illustrations, and concept images. It offers a variety of generative models and customization tools, making it ideal for game assets, concept artists, and designers seeking unique visuals. Its intuitive interface and prompt-based generation help users create professional artwork with minimal effort.",
   "description": "Leonardo.Ai is an AI-powered creative platform for generating high-quality art, illustrations, and concept images. It offers a variety of generative models and customization tools, making it ideal for game assets, concept artists, and designers seeking unique visuals. Its intuitive interface and prompt-based generation help users create professional artwork with minimal effort.\n\nPrompt-Based Generation: Create images from text prompts. Style Customization: Choose from various artistic styles and modifiers. Batch Generation: Produce multiple variations simultaneously. Asset Library: Save and manage your generated artwork.",
   "categories": [
-    "design",
     "image"
   ],
   "tags": [
-    "AI Art",
-    "Concept Art",
-    "Visuals",
-    "Prompt"
+    "ai-art",
+    "concept-art",
+    "visuals",
+    "prompt"
   ],
   "pricing": {
     "model": "freemium",
@@ -23,7 +22,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/leonardo_ai.png",
-  "image": "/tool-screenshots/leonardo_ai.png",
+  "image": "/screenshots/leonardo_ai.webp",
   "dateAdded": "2023-03-01",
   "lastVerified": null,
   "features": [

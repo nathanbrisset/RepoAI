@@ -5,16 +5,14 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI-powered graphic design platform for creating professional images and templates.",
-  "description": "AI-powered graphic design platform for creating professional images and templates.\n\nAI-Powered Design Suggestions: Provides design recommendations based on user input. Magic Write: Generates text content for various design needs. Text-to-Image Tool: Creates images from text prompts. Background Remover: Automatically removes backgrounds from images.",
+  "description": "Canva is the graphic design platform, including its AI tools. Magic Design, at canva.com/magic-design, generates a layout from a prompt inside Canva. It is not a separate product.\n\nAI-Powered Design Suggestions: Provides design recommendations based on user input. Magic Write: Generates text content for various design needs. Text-to-Image Tool: Creates images from text prompts. Background Remover: Automatically removes backgrounds from images.",
   "categories": [
-    "image",
     "design"
   ],
   "tags": [
-    "AI",
-    "Design",
-    "Graphics",
-    "Templates"
+    "design",
+    "graphics",
+    "templates"
   ],
   "pricing": {
     "model": "free",
@@ -23,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/canva-ai.png",
-  "image": "/tool-screenshots/canva-ai.png",
+  "image": "/screenshots/canva-ai.webp",
   "dateAdded": "2023-01-15",
   "lastVerified": null,
   "features": [

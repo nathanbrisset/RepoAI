@@ -1,0 +1,57 @@
+{
+  "id": "graphite",
+  "name": "Graphite",
+  "url": "https://graphite.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Code review platform for GitHub with stacked PRs, AI review and a merge queue.",
+  "description": "Graphite is a code review platform for teams on GitHub. It supports stacked pull requests through its CLI and web app, provides AI reviews, a merge queue and insights. Cursor Cloud Agents are now integrated so users can create and ship changes from a pull request. A Hobby plan is free for personal repositories; Starter costs $20 and Team $40 per user per month, billed annually.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "code-review",
+    "stacked-prs",
+    "merge-queue",
+    "github"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$20/user/mo (annual)",
+    "sourceUrl": "https://graphite.com/pricing"
+  },
+  "logo": "https://graphite.com/favicon/safari-pinned-tab.svg",
+  "image": "/screenshots/graphite.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://graphite.dev/",
+    "https://graphite.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Graphite",
+      "description": "Open the official Graphite website.",
+      "links": [
+        {
+          "label": "Graphite",
+          "url": "https://graphite.com/"
+        }
+      ]
+    },
+    {
+      "title": "Faster code review with stacked pull requests",
+      "description": "Graphite is a code review platform for teams on GitHub."
+    },
+    {
+      "title": "It supports stacked pull requests through its CLI and web app",
+      "description": "It supports stacked pull requests through its CLI and web app, provides AI reviews, a merge queue and insights."
+    },
+    {
+      "title": "Cursor Cloud Agents are now integrated so users can create and ship changes from a pull...",
+      "description": "Cursor Cloud Agents are now integrated so users can create and ship changes from a pull request."
+    }
+  ]
+}

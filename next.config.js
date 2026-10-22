@@ -40,6 +40,16 @@ const nextConfig = {
       "sendinblue",
       "vidyoai",
     ]
+    const retiredCategories = {
+      text: "writing",
+      audio: "voice",
+      "data-processing": "data",
+    }
+    const duplicateTools = {
+      "microsoft-copilot": "microsoft-365-copilot",
+      "canva-magic-design": "canva-ai",
+      mailchimpoptimizer: "mailchimp",
+    }
     return [
       ...renamedToTools.map((id) => ({
         source: `/tool/${id}`,
@@ -51,6 +61,15 @@ const nextConfig = {
         destination: "/tool/devin",
         permanent: true,
       },
+      ...Object.entries(duplicateTools).map(([from, to]) => ({
+        source: `/tool/${from}`,
+        destination: `/tool/${to}`,
+        permanent: true,
+      })),
+      ...Object.entries(retiredCategories).flatMap(([from, to]) => [
+        { source: `/categories/${from}`, destination: `/categories/${to}`, permanent: true },
+        { source: `/categories/${from}/`, destination: `/categories/${to}`, permanent: true },
+      ]),
     ]
   },
 }

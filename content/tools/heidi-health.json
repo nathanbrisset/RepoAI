@@ -1,0 +1,57 @@
+{
+  "id": "heidi-health",
+  "name": "Heidi Health",
+  "url": "https://www.heidihealth.com/en-us",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI medical scribe with a free plan, plus evidence and desktop dictation tools for clinicians.",
+  "description": "Heidi Health is an AI scribe that listens to consultations and drafts notes, letters and documents, and adds evidence answers during visits. Its desktop app captures telehealth audio and dictation anywhere on screen. The Free plan includes unlimited ambient documentation; paid tiers add evidence and other features, with Max at $110 per user per month, and enterprise plans are available.",
+  "categories": [
+    "health"
+  ],
+  "tags": [
+    "ambient-scribe",
+    "clinical-notes",
+    "evidence",
+    "telehealth"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$110/user/mo (Max)",
+    "sourceUrl": "https://www.heidihealth.com/pricing"
+  },
+  "logo": "https://www.heidihealth.com/favicon.ico",
+  "image": "/screenshots/heidi-health.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.heidihealth.com/",
+    "https://www.heidihealth.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Heidi Health",
+      "description": "Open the official Heidi Health website.",
+      "links": [
+        {
+          "label": "Heidi Health",
+          "url": "https://www.heidihealth.com/en-us"
+        }
+      ]
+    },
+    {
+      "title": "Free AI clinical notes during patient visits",
+      "description": "Heidi Health is an AI scribe that listens to consultations and drafts notes, letters and documents, and adds evidence answers during visits."
+    },
+    {
+      "title": "Its desktop app captures telehealth audio and dictation anywhere on screen.",
+      "description": "Its desktop app captures telehealth audio and dictation anywhere on screen."
+    },
+    {
+      "title": "The Free plan includes unlimited ambient documentation; paid tiers add evidence and oth...",
+      "description": "The Free plan includes unlimited ambient documentation; paid tiers add evidence and other features, with Max at $110 per user per month, and enterprise plans are available."
+    }
+  ]
+}

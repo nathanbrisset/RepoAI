@@ -1,0 +1,57 @@
+{
+  "id": "coderabbit",
+  "name": "CodeRabbit",
+  "url": "https://www.coderabbit.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI code review for pull requests, with triage, change explanations and security monitoring.",
+  "description": "CodeRabbit reviews pull requests automatically on GitHub, GitLab and other platforms. It comments on bugs, style and security issues, explains changes and learns from team feedback. Newer products cover issue triage and continuous security monitoring. Plans start at $24 per user per month billed annually, with higher tiers at $48 and $72, and a free trial is offered.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "code-review",
+    "pull-requests",
+    "security",
+    "github"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$24/user/mo (annual)",
+    "sourceUrl": "https://www.coderabbit.ai/pricing"
+  },
+  "logo": "https://www.coderabbit.ai/apple-touch-icon.png?v=4",
+  "image": "/screenshots/coderabbit.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.coderabbit.ai/",
+    "https://www.coderabbit.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open CodeRabbit",
+      "description": "Open the official CodeRabbit website.",
+      "links": [
+        {
+          "label": "CodeRabbit",
+          "url": "https://www.coderabbit.ai/"
+        }
+      ]
+    },
+    {
+      "title": "AI reviews on every pull request",
+      "description": "CodeRabbit reviews pull requests automatically on GitHub, GitLab and other platforms."
+    },
+    {
+      "title": "It comments on bugs",
+      "description": "It comments on bugs, style and security issues, explains changes and learns from team feedback."
+    },
+    {
+      "title": "Newer products cover issue triage and continuous security monitoring.",
+      "description": "Newer products cover issue triage and continuous security monitoring."
+    }
+  ]
+}

@@ -7,12 +7,11 @@
   "summary": "AI app builder that turns ideas into production software.",
   "description": "CodePal now presents itself as an AI app builder ('From idea to production. Your AI-powered dev team that ships real software, not demos'), with a CodePal Agent, in-app code edits and CodePal Cloud project hosting. Usage runs on credits. The free Starter plan ($0) includes 2 daily credits (up to 30 per month), up to 50 projects and limited Agent use; Standard is $25/month and Pro $50/month (annual billing) with 100 and 250 monthly credits, credit rollover and private projects; Enterprise is custom.",
   "categories": [
-    "coding"
+    "no-code"
   ],
   "tags": [
-    "AI",
-    "Code Generation",
-    "Coding Assistant"
+    "code-generation",
+    "coding-assistant"
   ],
   "pricing": {
     "model": "freemium",
@@ -22,7 +21,7 @@
     "sourceUrl": "https://codepal.ai/pricing"
   },
   "logo": "/logos/codepal.png",
-  "image": "/tool-screenshots/codepal.png",
+  "image": "/screenshots/codepal.webp",
   "dateAdded": "2025-06-04",
   "lastVerified": "2026-10-21",
   "features": [
@@ -33,8 +32,8 @@
   ],
   "howToUse": [
     {
-      "title": "Sign Up & Access CodePal",
-      "description": "Register on CodePal’s website to access the web app or browser extension.",
+      "title": "Open CodePal",
+      "description": "Open the official CodePal website.",
       "links": [
         {
           "label": "CodePal",
@@ -43,16 +42,16 @@
       ]
     },
     {
-      "title": "Describe or Paste Code",
-      "description": "Enter a task description or paste code to generate, debug, or simplify."
+      "title": "CodePal now presents itself as an AI app builder ('From idea to production.",
+      "description": "CodePal now presents itself as an AI app builder ('From idea to production."
     },
     {
-      "title": "Review AI Suggestions",
-      "description": "Accept, edit, or refine code snippets and solutions."
+      "title": "Your AI-powered dev team that ships real software",
+      "description": "Your AI-powered dev team that ships real software, not demos'), with a CodePal Agent, in-app code edits and CodePal Cloud project hosting."
     },
     {
-      "title": "Export or Use Code",
-      "description": "Copy snippets into your IDE or export for sharing."
+      "title": "Usage runs on credits.",
+      "description": "Usage runs on credits."
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "id": "semantic-scholar",
+  "name": "Semantic Scholar",
+  "url": "https://www.semanticscholar.org/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Free AI-powered search and discovery tool for scientific literature.",
+  "description": "Semantic Scholar is a free, AI-powered search and discovery tool for scientific literature, indexing more than 239 million papers from all fields of science. It uses AI to interpret the content of papers so researchers can find relevant work, and it offers free user accounts. A public API for developers includes paper search and has recently been extended with better documentation and stability. No paid plan exists.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "academic-search",
+    "papers",
+    "open-data",
+    "api"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": true
+  },
+  "logo": "https://cdn.semanticscholar.org/96374d262d7c8584/img/favicon-196x196.png",
+  "image": "/screenshots/semantic-scholar.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.semanticscholar.org/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Semantic Scholar",
+      "description": "Open the official Semantic Scholar website.",
+      "links": [
+        {
+          "label": "Semantic Scholar",
+          "url": "https://www.semanticscholar.org/"
+        }
+      ]
+    },
+    {
+      "title": "Search and track scientific papers for free",
+      "description": "Semantic Scholar is a free, AI-powered search and discovery tool for scientific literature, indexing more than 239 million papers from all fields of science."
+    },
+    {
+      "title": "It uses AI to interpret the content of papers so researchers can find relevant work",
+      "description": "It uses AI to interpret the content of papers so researchers can find relevant work, and it offers free user accounts."
+    },
+    {
+      "title": "A public API for developers includes paper search and has recently been extended with b...",
+      "description": "A public API for developers includes paper search and has recently been extended with better documentation and stability."
+    }
+  ]
+}

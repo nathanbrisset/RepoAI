@@ -1,0 +1,56 @@
+{
+  "id": "lakera",
+  "name": "Lakera",
+  "url": "https://www.lakera.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Security platform protecting generative AI applications and agents from prompt attacks and data leaks.",
+  "description": "Lakera provides runtime security for generative AI: it screens prompts and responses for prompt injection, data leakage and harmful content, governs employee AI usage and secures AI agents. It also offers AI red teaming as a product and a service. The Community plan is free at $0 per month for a limited number of requests; enterprise pricing is by contact.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "llm-security",
+    "prompt-injection",
+    "red-teaming",
+    "guardrails"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.lakera.ai/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/65080baa3f9a607985451de3/6526f98447db0b4b7b22493e_Lakera-Symbol-Black-256.png",
+  "image": "/screenshots/lakera.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.lakera.ai/",
+    "https://www.lakera.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Lakera",
+      "description": "Open the official Lakera website.",
+      "links": [
+        {
+          "label": "Lakera",
+          "url": "https://www.lakera.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Protect my AI application from prompt attacks",
+      "description": "Lakera provides runtime security for generative AI: it screens prompts and responses for prompt injection, data leakage and harmful content, governs employee AI usage and secures AI agents."
+    },
+    {
+      "title": "It also offers AI red teaming as a product and a service.",
+      "description": "It also offers AI red teaming as a product and a service."
+    },
+    {
+      "title": "The Community plan is free at $0 per month for a limited number of requests; enterprise...",
+      "description": "The Community plan is free at $0 per month for a limited number of requests; enterprise pricing is by contact."
+    }
+  ]
+}

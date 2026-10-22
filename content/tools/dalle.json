@@ -10,8 +10,8 @@
     "image"
   ],
   "tags": [
-    "Text To Image",
-    "Illustrations"
+    "text-to-image",
+    "illustrations"
   ],
   "pricing": {
     "model": "freemium",
@@ -37,10 +37,6 @@
         {
           "label": "DALL·E",
           "url": "https://openai.com/dall-e"
-        },
-        {
-          "label": "ChatGPT",
-          "url": "https://chatgpt.com/"
         }
       ]
     },

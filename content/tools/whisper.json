@@ -7,13 +7,12 @@
   "summary": "Robust Speech Recognition via Large-Scale Weak Supervision - openai/whisper",
   "description": "Robust Speech Recognition via Large-Scale Weak Supervision - openai/whisper\n\nMultilingual Transcription: Transcribes speech in over 90 languages. Open-Source: Available for public use and modification. High Accuracy: Delivers precise transcriptions even in challenging conditions. Real-Time Processing: Transcribes audio in real-time.",
   "categories": [
-    "audio"
+    "voice"
   ],
   "tags": [
-    "AI",
-    "Speech To Text",
-    "Open Source",
-    "Transcription"
+    "speech-to-text",
+    "open-source",
+    "transcription"
   ],
   "pricing": {
     "model": "open-source",
@@ -22,7 +21,7 @@
     "note": "The official link is a GitHub repository. The license and any paid hosting were not rechecked."
   },
   "logo": "/logos/whisper.png",
-  "image": "/tool-screenshots/whisper.png",
+  "image": "/screenshots/whisper.webp",
   "dateAdded": "2022-09-20",
   "lastVerified": null,
   "features": [

@@ -1,0 +1,57 @@
+{
+  "id": "buffer",
+  "name": "Buffer",
+  "url": "https://buffer.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Social media scheduling and analytics tool with a free plan and AI assistance.",
+  "description": "Buffer plans, schedules and publishes posts across social networks, with an idea library, analytics, community engagement, team collaboration and a link-in-bio page. The Free plan connects up to three channels. Essentials costs $5 per month per channel, with a 14-day free trial. Paid plans also cover team collaboration and approval workflows. Pricing is per connected channel, so costs scale with the number of social accounts managed.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "social-scheduler",
+    "publishing",
+    "analytics",
+    "link-in-bio"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$5/mo per channel (Essentials)",
+    "sourceUrl": "https://buffer.com/pricing"
+  },
+  "logo": "https://buffer.com/icons/favicon.svg",
+  "image": "/screenshots/buffer.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://buffer.com/",
+    "https://buffer.com/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Buffer",
+      "description": "Open the official Buffer website.",
+      "links": [
+        {
+          "label": "Buffer",
+          "url": "https://buffer.com/"
+        }
+      ]
+    },
+    {
+      "title": "Plan and publish social media posts",
+      "description": "Buffer plans, schedules and publishes posts across social networks, with an idea library, analytics, community engagement, team collaboration and a link-in-bio page."
+    },
+    {
+      "title": "The Free plan connects up to three channels.",
+      "description": "The Free plan connects up to three channels."
+    },
+    {
+      "title": "Essentials costs $5 per month per channel",
+      "description": "Essentials costs $5 per month per channel, with a 14-day free trial."
+    }
+  ]
+}

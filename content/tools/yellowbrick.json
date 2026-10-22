@@ -7,13 +7,11 @@
   "summary": "Visual analysis and diagnostic tools for machine learning models.",
   "description": "Visual analysis and diagnostic tools for machine learning models.\n\nVisual Analysis of Machine Learning Models: Provides visualizations to understand model performance. Integration with Scikit-Learn: Works alongside popular Python machine learning libraries. Diagnostic Tools: Offers tools to diagnose issues like overfitting. Feature Visualization: Helps in understanding the importance and impact of features.",
   "categories": [
-    "coding",
-    "data-processing"
+    "data"
   ],
   "tags": [
-    "AI",
-    "Visualization",
-    "Machine Learning"
+    "visualization",
+    "machine-learning"
   ],
   "pricing": {
     "model": "free",
@@ -22,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/yellowbrick.png",
-  "image": "/tool-screenshots/yellowbrick.png",
+  "image": "/screenshots/yellowbrick.webp",
   "dateAdded": "2023-06-01",
   "lastVerified": null,
   "features": [

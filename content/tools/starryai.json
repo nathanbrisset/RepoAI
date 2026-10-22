@@ -1,7 +1,7 @@
 {
   "id": "starryai",
   "name": "StarryAI",
-  "url": "https://starryai.com",
+  "url": "https://starryai.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Simply upload an image and our AI transforms it into what you imagine.",
@@ -10,10 +10,9 @@
     "image"
   ],
   "tags": [
-    "AI",
-    "Art",
-    "NFTs",
-    "Creativity"
+    "art",
+    "nfts",
+    "creativity"
   ],
   "pricing": {
     "model": "free",
@@ -22,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/starryai.png",
-  "image": "/tool-screenshots/starryai.png",
+  "image": "/screenshots/starryai.webp",
   "dateAdded": "2022-06-01",
   "lastVerified": null,
   "features": [

@@ -1,7 +1,7 @@
 {
   "id": "lexica-art",
   "name": "Lexica Art",
-  "url": "https://lexica.art",
+  "url": "https://lexica.art/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "The state of the art AI image generation engine.",
@@ -10,9 +10,9 @@
     "image"
   ],
   "tags": [
-    "Prompt Reference",
-    "Gallery",
-    "Image Variants"
+    "prompt-reference",
+    "gallery",
+    "image-variants"
   ],
   "pricing": {
     "model": "freemium",
@@ -21,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/lexica-art.png",
-  "image": "/tool-screenshots/lexica-art.png",
+  "image": "/screenshots/lexica-art.webp",
   "dateAdded": "2022-12-05",
   "lastVerified": null,
   "features": [

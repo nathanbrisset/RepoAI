@@ -1,0 +1,57 @@
+{
+  "id": "notta",
+  "name": "Notta",
+  "url": "https://www.notta.ai/en/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI note taker that records, transcribes, translates and summarises meetings and audio files.",
+  "description": "Notta records online meetings through a bot or on-device without a bot, transcribes uploaded audio, video and YouTube links, and produces summaries and action items. It also offers real-time translation, screen recording, a desktop app, an MCP connector and a hardware recorder. A Free plan is available; Pro costs $8.17 per month billed annually, and Business $16.67 per month. Its Memo device can be attached to a phone to record calls and in-person meetings.",
+  "categories": [
+    "meetings"
+  ],
+  "tags": [
+    "transcription",
+    "meeting-notes",
+    "translation",
+    "summaries"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$8.17/mo (Pro, annual)",
+    "sourceUrl": "https://www.notta.ai/pricing"
+  },
+  "logo": "https://www.notta.ai/apple-touch-icon.png",
+  "image": "/screenshots/notta.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.notta.ai/",
+    "https://www.notta.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Notta",
+      "description": "Open the official Notta website.",
+      "links": [
+        {
+          "label": "Notta",
+          "url": "https://www.notta.ai/en/"
+        }
+      ]
+    },
+    {
+      "title": "My meetings and recordings transcribed and summarised",
+      "description": "Notta records online meetings through a bot or on-device without a bot, transcribes uploaded audio, video and YouTube links, and produces summaries and action items."
+    },
+    {
+      "title": "It also offers real-time translation",
+      "description": "It also offers real-time translation, screen recording, a desktop app, an MCP connector and a hardware recorder."
+    },
+    {
+      "title": "A Free plan is available; Pro costs $8.17 per month billed annually",
+      "description": "A Free plan is available; Pro costs $8.17 per month billed annually, and Business $16.67 per month."
+    }
+  ]
+}

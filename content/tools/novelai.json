@@ -1,0 +1,55 @@
+{
+  "id": "novelai",
+  "name": "NovelAI",
+  "url": "https://novelai.net/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Subscription service for AI story writing and anime-style image generation.",
+  "description": "NovelAI offers storytelling models that help users write fiction and NovelAI Diffusion models for anime-style images, including characters, scenes and comic pages. Users own the content they create. The company states it is not a free generator; subscriptions start at $10 per month, and a free start option is shown on the homepage. The site describes its image generation as having no restrictions and grants users ownership of their outputs.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "storytelling",
+    "anime-art",
+    "image-generation",
+    "fiction"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": true,
+    "note": "$10/mo"
+  },
+  "logo": "https://novelai.net/icons/pen-tip-light.svg",
+  "image": "/screenshots/novelai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://novelai.net/"
+  ],
+  "howToUse": [
+    {
+      "title": "Open NovelAI",
+      "description": "Open the official NovelAI website.",
+      "links": [
+        {
+          "label": "NovelAI",
+          "url": "https://novelai.net/"
+        }
+      ]
+    },
+    {
+      "title": "AI-assisted story writing or anime-style art",
+      "description": "NovelAI offers storytelling models that help users write fiction and NovelAI Diffusion models for anime-style images, including characters, scenes and comic pages."
+    },
+    {
+      "title": "Users own the content they create.",
+      "description": "Users own the content they create."
+    },
+    {
+      "title": "The company states it is not a free generator; subscriptions start at $10 per month",
+      "description": "The company states it is not a free generator; subscriptions start at $10 per month, and a free start option is shown on the homepage."
+    }
+  ]
+}

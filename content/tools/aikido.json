@@ -1,0 +1,56 @@
+{
+  "id": "aikido",
+  "name": "Aikido",
+  "url": "https://www.aikido.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Developer-focused security platform covering code, dependencies, containers, cloud and runtime.",
+  "description": "Aikido combines security scanning for dependencies, malware, SAST, secrets, licences, infrastructure as code, containers, cloud misconfigurations and Kubernetes, and adds AI pentesting and automatic fixes. Findings are filtered to reduce noise for developers. The Developer plan is free forever for two users with no card; paid plans are priced in euros on the pricing page. Language options on the site include English, French, Japanese, German, Portuguese, Spanish, Italian and Turkish.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "appsec",
+    "sca",
+    "cloud-security",
+    "pentest"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.aikido.dev/pricing"
+  },
+  "logo": "https://cdn.prod.website-files.com/642adcaf364024552e71df01/6acf3def441df9fbcf54b3ac_favicon-512.jpg",
+  "image": "/screenshots/aikido.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-21",
+  "sources": [
+    "https://www.aikido.dev/",
+    "https://www.aikido.dev/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Aikido",
+      "description": "Open the official Aikido website.",
+      "links": [
+        {
+          "label": "Aikido",
+          "url": "https://www.aikido.dev/"
+        }
+      ]
+    },
+    {
+      "title": "One tool for code, dependency and cloud security",
+      "description": "Aikido combines security scanning for dependencies, malware, SAST, secrets, licences, infrastructure as code, containers, cloud misconfigurations and Kubernetes, and adds AI pentesting and automatic fixes."
+    },
+    {
+      "title": "Findings are filtered to reduce noise for developers.",
+      "description": "Findings are filtered to reduce noise for developers."
+    },
+    {
+      "title": "The Developer plan is free forever for two users with no card; paid plans are priced in...",
+      "description": "The Developer plan is free forever for two users with no card; paid plans are priced in euros on the pricing page."
+    }
+  ]
+}

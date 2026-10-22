@@ -7,12 +7,12 @@
   "summary": "IBM Watson Studio is a robust cloud-based environment that enables data scientists, analysts, and developers to collaboratively work on data science and AI projects. The platform provides tools for data preparation, visualization, automated machine learning (AutoAI), and model deployment. With strong integration to IBM Cloud services and support for open-source technologies, Watson Studio helps teams accelerate the entire data science lifecycle, from exploration to production, while ensuring enterprise-grade security and scalability.",
   "description": "IBM Watson Studio is a robust cloud-based environment that enables data scientists, analysts, and developers to collaboratively work on data science and AI projects. The platform provides tools for data preparation, visualization, automated machine learning (AutoAI), and model deployment. With strong integration to IBM Cloud services and support for open-source technologies, Watson Studio helps teams accelerate the entire data science lifecycle, from exploration to production, while ensuring enterprise-grade security and scalability.\n\nIBM Watson Studio as a Service is an AI development platform with model building, deployment and governance capabilities that accelerate AI delivery.\n\nCollaborative Workspace: Enables team-based data science projects. AutoAI: Automated model building, selection, and optimization. Interactive Visualization: Dashboards and visual tools for data exploration. Open Source Integration: Supports Jupyter, RStudio, and other tools.",
   "categories": [
-    "data-processing"
+    "data"
   ],
   "tags": [
-    "Cloud",
-    "Data Science",
-    "Collaboration"
+    "cloud",
+    "data-science",
+    "collaboration"
   ],
   "pricing": {
     "model": "freemium",
@@ -21,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/watson_studio.png",
-  "image": "/tool-screenshots/watson_studio.png",
+  "image": "/screenshots/watson_studio.webp",
   "dateAdded": null,
   "lastVerified": null,
   "dateAddedNote": "The previous Added date was 2017-02-01. It was removed because it is not a credible date for this directory.",

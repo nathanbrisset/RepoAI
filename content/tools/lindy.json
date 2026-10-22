@@ -7,7 +7,7 @@
   "summary": "Build AI agents that automate work across your tools.",
   "description": "Lindy lets individuals and teams create AI agents ('AI employees') that connect to their apps and company knowledge to handle email, scheduling, sales follow-ups and other tasks. It differentiates itself with no-code agent building and many integrations. New users get $50 in free credits valid for 7 days with no card required; after that paid plans start at $29.99/month for 3,000 credits.",
   "categories": [
-    "productivity"
+    "ai-agents"
   ],
   "tags": [
     "ai-agents",
@@ -22,10 +22,40 @@
     "sourceUrl": "https://www.lindy.ai/pricing"
   },
   "logo": "/logos/lindy.png",
-  "image": "",
+  "image": "/screenshots/lindy.webp",
   "dateAdded": "2026-10-21",
   "lastVerified": "2026-10-21",
   "sources": [
     "https://www.lindy.ai/pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Try Lindy for free",
+      "description": "The homepage says to try it for free, with $50 in free credits and no credit card required.",
+      "links": [
+        {
+          "label": "Lindy",
+          "url": "https://www.lindy.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Connect your tools",
+      "description": "The page says Lindy plugs into Gmail, Slack, Notion, HubSpot, and 1,500+ more tools, and that it supports MCP."
+    },
+    {
+      "title": "Ask it to do the work",
+      "description": "The page shows Lindy in Slack, and says it is also available in iMessage and email."
+    },
+    {
+      "title": "Put repeated work on a schedule",
+      "description": "The page says work you do on repeat can be handed to Lindy on a schedule.",
+      "links": [
+        {
+          "label": "Lindy docs",
+          "url": "https://docs.lindy.ai/"
+        }
+      ]
+    }
   ]
 }
