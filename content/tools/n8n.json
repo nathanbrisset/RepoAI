@@ -45,18 +45,18 @@
       "description": "The page says you can open any step, see what it does, and explain it to the person who runs it.",
       "links": [
         {
-          "label": "Create an account",
+          "label": "Get started",
           "url": "https://n8n.io/"
         }
       ]
     },
     {
-      "title": "Connect your apps",
-      "description": "The page says n8n connects to the apps in your stack."
+      "title": "Connect your tools",
+      "description": "The page says to connect n8n to just about any tool, with 500+ native integrations, any API via HTTP, and MCP."
     },
     {
       "title": "Self-host if you need to",
-      "description": "The homepage says you can self-host the AI stack, and lists a fully on-prem option."
+      "description": "The homepage says you can self-host your AI stack, and deploy on-prem or with Docker."
     }
   ]
 }
