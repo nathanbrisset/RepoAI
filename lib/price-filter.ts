@@ -18,10 +18,10 @@ const PARAM_TO_FILTER = Object.fromEntries(
 ) as Record<string, PriceFilter>
 
 export const PRICE_FILTER_OPTIONS: { label: PriceFilter; className: string }[] = [
-  { label: "Free", className: "bg-gray-200 text-gray-800" },
-  { label: "Freemium", className: "bg-gradient-to-r from-blue-500 to-green-400 text-white" },
-  { label: "Premium", className: "bg-gradient-to-r from-amber-500 to-yellow-500 text-white" },
-  { label: "Usage-based", className: "bg-gradient-to-r from-amber-500 to-yellow-500 text-white" },
+  { label: "Free", className: "border-border bg-card text-foreground" },
+  { label: "Freemium", className: "border-border bg-card text-foreground" },
+  { label: "Premium", className: "border-border bg-card text-foreground" },
+  { label: "Usage-based", className: "border-border bg-card text-foreground" },
 ]
 
 export function priceFilterParam(filter: PriceFilter): string {

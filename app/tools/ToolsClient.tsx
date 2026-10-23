@@ -100,8 +100,8 @@ export default function ToolsClient({ tools, initialCategory = null, initialPric
                 data-pricing={priceFilterParam(label)}
               >
                 <Badge className={
-                  `${className} whitespace-nowrap px-4 py-2 text-base rounded-lg transition-colors border-2 ${
-                    selectedPricing === label ? 'border-black scale-105 shadow' : 'border-transparent opacity-80 hover:opacity-100'
+                  `${className} whitespace-nowrap rounded-full px-4 py-2 text-sm transition-colors ${
+                    selectedPricing === label ? "border-navy bg-navy text-white" : "hover:bg-secondary"
                   }`
                 }>
                   {pricingLabel(locale, label)}
