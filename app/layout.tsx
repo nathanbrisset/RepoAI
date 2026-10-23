@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Plus_Jakarta_Sans } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
@@ -12,7 +12,7 @@ import { getLocale, getRequestPathname } from "@/lib/i18n/get-locale"
 import { buildPageMetadata } from "@/lib/i18n/metadata"
 import { searchRecordsForLocale } from "@/lib/i18n/search-records"
 
-const inter = Inter({ subsets: ["latin"] })
+const sans = Plus_Jakarta_Sans({ subsets: ["latin"], display: "swap" })
 
 export async function generateMetadata(): Promise<Metadata> {
   const [locale, pathname] = await Promise.all([getLocale(), getRequestPathname()])
@@ -32,7 +32,7 @@ export default async function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={inter.className}>
+      <body className={sans.className}>
         <LocaleProvider locale={locale}>
           <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
             <div className="flex flex-col min-h-screen">

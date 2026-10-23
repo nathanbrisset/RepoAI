@@ -25,6 +25,61 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        navy: {
+          DEFAULT: "hsl(var(--navy))",
+          foreground: "hsl(var(--navy-foreground))",
+        },
+        cta: {
+          DEFAULT: "hsl(var(--cta))",
+          foreground: "hsl(var(--cta-foreground))",
+        },
+        link: "hsl(var(--link))",
+        cream: "hsl(var(--background))",
+        // Existing pages use these scales directly. Point them at the lot 1 palette
+        // so leftover utilities inherit the cream, navy, and blue look.
+        gray: {
+          50: "#f4f0e6",
+          100: "#efeae0",
+          200: "#e4ddd0",
+          300: "#cfc6b6",
+          400: "#8f877c",
+          500: "#6d675f",
+          600: "#514c46",
+          700: "#3c3833",
+          800: "#1c2438",
+          900: "#12182b",
+          950: "#0b1020",
+        },
+        blue: {
+          50: "#eef3ff",
+          100: "#dce6ff",
+          200: "#c0d2ff",
+          300: "#93b0ff",
+          400: "#5c86ff",
+          500: "#3d6bff",
+          600: "#2f5bff",
+          700: "#2346d4",
+          800: "#1d3aad",
+          900: "#1c3488",
+          950: "#14245e",
+        },
+        purple: {
+          50: "#f3f6ff",
+          100: "#e7edff",
+          200: "#d4dffc",
+          300: "#a9bff8",
+          400: "#6d90f5",
+          500: "#2f5bff",
+          600: "#12182b",
+          700: "#101628",
+          800: "#0d1222",
+          900: "#0a0e1a",
+          950: "#070a14",
+        },
+        pink: {
+          500: "#ff5a1f",
+          600: "#e24a14",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -58,6 +113,9 @@ const config = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      boxShadow: {
+        soft: "0 10px 30px -16px rgba(18, 24, 43, 0.28)",
       },
       keyframes: {
         "accordion-down": {

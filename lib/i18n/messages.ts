@@ -9,10 +9,11 @@ const en = {
     fr: "Français",
   },
   header: {
-    brand: "Your AI Ninja",
+    brand: "aitools.ninja",
     logoAlt: "AITools.ninja logo",
     categories: "Categories",
-    submit: "Submit Tool",
+    everything: "Everything",
+    submit: "Submit a tool",
     about: "About",
     openMenu: "Open menu",
   },
@@ -42,6 +43,15 @@ const en = {
   home: {
     subtitle:
       "Your comprehensive directory of AI tools for every use case. Find, compare, and choose the perfect AI solution for your needs.",
+    eyebrow: "The AI tools dojo · {count} tools",
+    heroLine1: "Find your AI",
+    heroLine2: "match for",
+    searchPlaceholder: "Search tools, tags, or categories...",
+    searchAction: "Search",
+    matchAction: "AI Match",
+    shuriken: "Throw a shuriken",
+    shurikenHint: "We'll pick a random tool for you",
+    badgeNew: "New",
     matchTitle: "Find your AI MATCH!",
     matchAlt: "AI Match",
     matchSubtitle: "Whatever you need, there's an AI for it!",
@@ -226,7 +236,7 @@ const en = {
     viewAll: "View All Tools",
   },
   search: {
-    placeholder: "Search for AI tools...",
+    placeholder: "Search 'video avatars', 'vibe-coding', 'podcast'...",
   },
   pricing: {
     Free: "Free",
@@ -476,9 +486,10 @@ const fr: typeof en = {
     fr: "Français",
   },
   header: {
-    brand: "Votre ninja IA",
+    brand: "aitools.ninja",
     logoAlt: "Logo AITools.ninja",
     categories: "Catégories",
+    everything: "Tout",
     submit: "Proposer un outil",
     about: "À propos",
     openMenu: "Ouvrir le menu",
@@ -509,6 +520,15 @@ const fr: typeof en = {
   home: {
     subtitle:
       "L'annuaire des outils d'IA pour chaque usage. Trouvez, comparez et choisissez la solution qui vous convient.",
+    eyebrow: "Le dojo des outils d'IA · {count} outils",
+    heroLine1: "Trouvez votre match IA",
+    heroLine2: "pour",
+    searchPlaceholder: "Rechercher un outil, un tag ou une catégorie…",
+    searchAction: "Rechercher",
+    matchAction: "Match IA",
+    shuriken: "Lancer un shuriken",
+    shurikenHint: "On ouvre une fiche au hasard",
+    badgeNew: "Nouveau",
     matchTitle: "Trouvez votre AI MATCH !",
     matchAlt: "AI Match",
     matchSubtitle: "Quel que soit votre besoin, une IA peut y répondre.",
@@ -693,7 +713,7 @@ const fr: typeof en = {
     viewAll: "Voir tous les outils",
   },
   search: {
-    placeholder: "Rechercher un outil d'IA...",
+    placeholder: "Recherchez « avatars vidéo », « vibe-coding », « podcast »…",
   },
   pricing: {
     Free: "Gratuit",
@@ -973,4 +993,93 @@ export function statusLabel(locale: Locale, status?: string | null) {
   if (!status) return ""
   const table = dictionaries[locale].status as Record<string, string>
   return table[status] || status
+}
+
+/** Short rotating hero words. Each word is taken from that category's real name. */
+const heroWordTable: Record<Locale, Record<string, string>> = {
+  en: {
+    video: "video",
+    coding: "coding",
+    writing: "writing",
+    image: "image",
+    music: "music",
+    search: "research",
+    design: "design",
+    voice: "voice",
+    "ai-agents": "agents",
+    "llm-chatbots": "chat",
+    automation: "automation",
+    "no-code": "no-code",
+    meetings: "meetings",
+    productivity: "productivity",
+    data: "data",
+    marketing: "marketing",
+    sales: "sales",
+    support: "support",
+    hr: "recruiting",
+    education: "learning",
+    health: "health",
+    legal: "legal",
+    finance: "finance",
+    security: "security",
+  },
+  fr: {
+    video: "vidéo",
+    coding: "code",
+    writing: "rédaction",
+    image: "image",
+    music: "musique",
+    search: "recherche",
+    design: "design",
+    voice: "voix",
+    "ai-agents": "agents",
+    "llm-chatbots": "chat",
+    automation: "automatisation",
+    "no-code": "no-code",
+    meetings: "réunions",
+    productivity: "productivité",
+    data: "données",
+    marketing: "marketing",
+    sales: "ventes",
+    support: "support",
+    hr: "recrutement",
+    education: "apprentissage",
+    health: "santé",
+    legal: "juridique",
+    finance: "finance",
+    security: "sécurité",
+  },
+}
+
+const heroWordOrder = [
+  "video",
+  "coding",
+  "writing",
+  "image",
+  "music",
+  "search",
+  "design",
+  "voice",
+  "ai-agents",
+  "llm-chatbots",
+  "automation",
+  "no-code",
+  "meetings",
+  "productivity",
+  "data",
+  "marketing",
+  "sales",
+  "support",
+  "hr",
+  "education",
+  "health",
+  "legal",
+  "finance",
+  "security",
+]
+
+export function heroWordsFor(locale: Locale, categoryIds: readonly string[]) {
+  const known = new Set(categoryIds)
+  const table = heroWordTable[locale]
+  return heroWordOrder.filter((id) => known.has(id) && table[id]).map((id) => table[id])
 }
