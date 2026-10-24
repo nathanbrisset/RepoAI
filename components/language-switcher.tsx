@@ -41,7 +41,7 @@ export default function LanguageSwitcher() {
         <Button
           variant="ghost"
           size="sm"
-          className="gap-1 px-2 text-gray-700"
+          className="h-12 shrink-0 gap-1 rounded-full px-3 text-foreground"
           aria-label={t("language.label")}
         >
           <Languages className="h-4 w-4" />

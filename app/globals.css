@@ -2,85 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+  Palette from the v0 export: washi paper, sumi ink, royal blue, vermilion.
+  Channels are stored without the oklch() wrapper so Tailwind opacity modifiers work.
+*/
 @layer base {
   :root {
-    --background: 40 38% 93%;
-    --foreground: 226 41% 12%;
-
-    --card: 40 45% 99%;
-    --card-foreground: 226 41% 12%;
-
-    --popover: 40 45% 99%;
-    --popover-foreground: 226 41% 12%;
-
-    --primary: 226 41% 12%;
-    --primary-foreground: 40 45% 98%;
-
-    --secondary: 38 28% 90%;
-    --secondary-foreground: 226 41% 12%;
-
-    --muted: 38 24% 90%;
-    --muted-foreground: 30 8% 38%;
-
-    --accent: 38 28% 90%;
-    --accent-foreground: 226 41% 12%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 38 22% 84%;
-    --input: 38 22% 84%;
-    --ring: 227 100% 59%;
-
-    --navy: 226 41% 12%;
-    --navy-foreground: 40 45% 98%;
-    --cta: 16 100% 56%;
-    --cta-foreground: 0 0% 100%;
-    --link: 227 100% 59%;
-
+    color-scheme: light;
+    --background: 0.955 0.013 85;
+    --foreground: 0.22 0.045 270;
+    --card: 0.985 0.007 85;
+    --card-foreground: 0.22 0.045 270;
+    --popover: 0.985 0.007 85;
+    --popover-foreground: 0.22 0.045 270;
+    --primary: 0.43 0.16 266;
+    --primary-foreground: 0.985 0.007 85;
+    --secondary: 0.91 0.018 85;
+    --secondary-foreground: 0.22 0.045 270;
+    --muted: 0.91 0.018 85;
+    --muted-foreground: 0.45 0.035 270;
+    --accent: 0.65 0.2 35;
+    --accent-foreground: 0.985 0.007 85;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0.007 85;
+    --border: 0.22 0.045 270;
+    --input: 0.22 0.045 270;
+    --ring: 0.43 0.16 266;
+    --navy: 0.22 0.045 270;
+    --navy-foreground: 0.985 0.007 85;
+    --cta: 0.65 0.2 35;
+    --cta-foreground: 0.985 0.007 85;
+    --link: 0.43 0.16 266;
     --radius: 1rem;
   }
 
   .dark {
-    --background: 40 38% 93%;
-    --foreground: 226 41% 12%;
-
-    --card: 40 45% 99%;
-    --card-foreground: 226 41% 12%;
-
-    --popover: 40 45% 99%;
-    --popover-foreground: 226 41% 12%;
-
-    --primary: 226 41% 12%;
-    --primary-foreground: 40 45% 98%;
-
-    --secondary: 38 28% 90%;
-    --secondary-foreground: 226 41% 12%;
-
-    --muted: 38 24% 90%;
-    --muted-foreground: 30 8% 38%;
-
-    --accent: 38 28% 90%;
-    --accent-foreground: 226 41% 12%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 38 22% 84%;
-    --input: 38 22% 84%;
-    --ring: 227 100% 59%;
-
-    --navy: 226 41% 12%;
-    --navy-foreground: 40 45% 98%;
-    --cta: 16 100% 56%;
-    --cta-foreground: 0 0% 100%;
-    --link: 227 100% 59%;
+    color-scheme: light;
+    --background: 0.955 0.013 85;
+    --foreground: 0.22 0.045 270;
+    --card: 0.985 0.007 85;
+    --card-foreground: 0.22 0.045 270;
+    --popover: 0.985 0.007 85;
+    --popover-foreground: 0.22 0.045 270;
+    --primary: 0.43 0.16 266;
+    --primary-foreground: 0.985 0.007 85;
+    --secondary: 0.91 0.018 85;
+    --secondary-foreground: 0.22 0.045 270;
+    --muted: 0.91 0.018 85;
+    --muted-foreground: 0.45 0.035 270;
+    --accent: 0.65 0.2 35;
+    --accent-foreground: 0.985 0.007 85;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0.007 85;
+    --border: 0.22 0.045 270;
+    --input: 0.22 0.045 270;
+    --ring: 0.43 0.16 266;
+    --navy: 0.22 0.045 270;
+    --navy-foreground: 0.985 0.007 85;
+    --cta: 0.65 0.2 35;
+    --cta-foreground: 0.985 0.007 85;
+    --link: 0.43 0.16 266;
   }
 }
 
 @layer base {
   html {
-    background: hsl(var(--background));
+    background: oklch(var(--background));
   }
   * {
     @apply border-border;
@@ -96,10 +83,10 @@
   }
 }
 
-@keyframes hero-word {
+@keyframes rise {
   from {
     opacity: 0;
-    transform: translateY(0.2em);
+    transform: translateY(18px) scale(0.98);
   }
   to {
     opacity: 1;
@@ -107,12 +94,30 @@
   }
 }
 
-.hero-word {
-  animation: hero-word 0.35s ease;
+@keyframes throw {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  60% {
+    transform: rotate(900deg) scale(1.25);
+  }
+  100% {
+    transform: rotate(1080deg) scale(1);
+  }
+}
+
+.animate-rise {
+  animation: rise 0.55s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.animate-throw {
+  animation: throw 0.75s cubic-bezier(0.3, 0.7, 0.3, 1) both;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-word {
-    animation: none;
+  .animate-rise,
+  .animate-throw,
+  .animate-in {
+    animation: none !important;
   }
 }
