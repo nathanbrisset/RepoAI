@@ -58,8 +58,8 @@ export default function PricingToolsGrid({ tools, initialPricing = null }: Prici
               data-pricing={priceFilterParam(label)}
             >
               <Badge className={
-                `${className} whitespace-nowrap px-2 py-1 text-xs rounded-md transition-colors border-2 ${
-                  selectedPricing === label ? 'border-black scale-105 shadow' : 'border-transparent opacity-80 hover:opacity-100'
+                `${className} whitespace-nowrap rounded-full px-3 py-1 text-xs transition-colors ${
+                  selectedPricing === label ? "border-navy bg-navy text-white" : "hover:bg-secondary"
                 }`
               }>
                 {pricingLabel(locale, label)}
@@ -70,7 +70,7 @@ export default function PricingToolsGrid({ tools, initialPricing = null }: Prici
       </div>
 
       {/* Tools Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {filteredTools.map((tool) => (
           <ToolCard key={tool.id} tool={tool} />
         ))}

@@ -23,7 +23,9 @@ const nextConfig = {
   compress: true,
   reactStrictMode: true,
   trailingSlash: true, // Add trailing slashes to all routes
-  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://aitools.ninja' : '', // For static exports
+  // Production keeps serving built files from the apex domain. Preview builds
+  // must use their own /_next assets, or the branch preview is styled by production.
+  assetPrefix: process.env.VERCEL_ENV === "production" ? "https://aitools.ninja" : "",
   // Add basePath if deploying to a subdirectory
   basePath: '',
   // Ensure static files are properly served

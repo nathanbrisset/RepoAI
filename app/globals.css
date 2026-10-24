@@ -2,75 +2,122 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+  Palette from the v0 export: washi paper, sumi ink, royal blue, vermilion.
+  Channels are stored without the oklch() wrapper so Tailwind opacity modifiers work.
+*/
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 271 91% 65%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 271 91% 65%;
-
-    --radius: 0.5rem;
+    color-scheme: light;
+    --background: 0.955 0.013 85;
+    --foreground: 0.22 0.045 270;
+    --card: 0.985 0.007 85;
+    --card-foreground: 0.22 0.045 270;
+    --popover: 0.985 0.007 85;
+    --popover-foreground: 0.22 0.045 270;
+    --primary: 0.43 0.16 266;
+    --primary-foreground: 0.985 0.007 85;
+    --secondary: 0.91 0.018 85;
+    --secondary-foreground: 0.22 0.045 270;
+    --muted: 0.91 0.018 85;
+    --muted-foreground: 0.45 0.035 270;
+    --accent: 0.65 0.2 35;
+    --accent-foreground: 0.985 0.007 85;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0.007 85;
+    --border: 0.22 0.045 270;
+    --input: 0.22 0.045 270;
+    --ring: 0.43 0.16 266;
+    --navy: 0.22 0.045 270;
+    --navy-foreground: 0.985 0.007 85;
+    --cta: 0.65 0.2 35;
+    --cta-foreground: 0.985 0.007 85;
+    --link: 0.43 0.16 266;
+    --radius: 1rem;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 271 91% 65%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 271 91% 65%;
+    color-scheme: light;
+    --background: 0.955 0.013 85;
+    --foreground: 0.22 0.045 270;
+    --card: 0.985 0.007 85;
+    --card-foreground: 0.22 0.045 270;
+    --popover: 0.985 0.007 85;
+    --popover-foreground: 0.22 0.045 270;
+    --primary: 0.43 0.16 266;
+    --primary-foreground: 0.985 0.007 85;
+    --secondary: 0.91 0.018 85;
+    --secondary-foreground: 0.22 0.045 270;
+    --muted: 0.91 0.018 85;
+    --muted-foreground: 0.45 0.035 270;
+    --accent: 0.65 0.2 35;
+    --accent-foreground: 0.985 0.007 85;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0.007 85;
+    --border: 0.22 0.045 270;
+    --input: 0.22 0.045 270;
+    --ring: 0.43 0.16 266;
+    --navy: 0.22 0.045 270;
+    --navy-foreground: 0.985 0.007 85;
+    --cta: 0.65 0.2 35;
+    --cta-foreground: 0.985 0.007 85;
+    --link: 0.43 0.16 266;
   }
 }
 
 @layer base {
+  html {
+    background: oklch(var(--background));
+  }
   * {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: -0.03em;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes throw {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  60% {
+    transform: rotate(900deg) scale(1.25);
+  }
+  100% {
+    transform: rotate(1080deg) scale(1);
+  }
+}
+
+.animate-rise {
+  animation: rise 0.55s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.animate-throw {
+  animation: throw 0.75s cubic-bezier(0.3, 0.7, 0.3, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-rise,
+  .animate-throw,
+  .animate-in {
+    animation: none !important;
   }
 }

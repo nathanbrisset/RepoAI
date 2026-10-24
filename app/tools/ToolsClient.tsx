@@ -79,7 +79,7 @@ export default function ToolsClient({ tools, initialCategory = null, initialPric
   })
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen">
       <div className="container mx-auto max-w-6xl px-4 py-12">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12 gap-4">
           <div className="text-center md:text-left">
@@ -100,8 +100,8 @@ export default function ToolsClient({ tools, initialCategory = null, initialPric
                 data-pricing={priceFilterParam(label)}
               >
                 <Badge className={
-                  `${className} whitespace-nowrap px-4 py-2 text-base rounded-lg transition-colors border-2 ${
-                    selectedPricing === label ? 'border-black scale-105 shadow' : 'border-transparent opacity-80 hover:opacity-100'
+                  `${className} whitespace-nowrap rounded-full px-4 py-2 text-sm transition-colors ${
+                    selectedPricing === label ? "border-navy bg-navy text-white" : "hover:bg-secondary"
                   }`
                 }>
                   {pricingLabel(locale, label)}
@@ -153,7 +153,7 @@ export default function ToolsClient({ tools, initialCategory = null, initialPric
         </div>
 
         {/* Tools Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {filteredTools.map((tool) => (
             <ToolCard key={tool.id} tool={tool} />
           ))}

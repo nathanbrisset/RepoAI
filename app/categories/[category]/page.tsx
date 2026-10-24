@@ -50,12 +50,10 @@ export default async function CategoryPage(props: PageProps) {
     .map((tool) => toolForLocale(tool, locale))
 
   return (
-    <div className="container py-8 space-y-8">
+    <div className="mx-auto max-w-7xl space-y-8 px-4 py-8">
       <BackButton />
-      <h1 className="text-4xl font-extrabold mb-4 text-purple-700 drop-shadow-sm">{copy.name}</h1>
-      <div className="bg-gradient-to-r from-gray-100 via-gray-50 to-gray-200 rounded-xl p-6 mb-8 shadow-md border border-gray-200">
-        <p className="text-lg text-gray-800 leading-relaxed">{copy.description}</p>
-      </div>
+      <h1 className="text-4xl font-extrabold text-navy md:text-5xl">{copy.name}</h1>
+      <p className="max-w-3xl text-lg leading-relaxed text-muted-foreground">{copy.description}</p>
       <PricingToolsGrid tools={tools} initialPricing={pricing ?? null} />
     </div>
   );
