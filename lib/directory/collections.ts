@@ -124,6 +124,33 @@ export const COLLECTION_DEFS: CollectionDef[] = [
     },
     ids: ["chatgpt", "claude-3", "pi"],
   },
+  {
+    slug: "automatisations-agents",
+    title: { en: "Automations & agents", fr: "Automatisations & agents" },
+    blurb: {
+      en: "Connect your apps so repetitive work runs on its own.",
+      fr: "Relie tes apps pour que le travail répétitif avance sans toi.",
+    },
+    ids: ["n8n", "zapier", "make"],
+  },
+  {
+    slug: "video-longue-youtube",
+    title: { en: "Long-form video / YouTube", fr: "Vidéo longue / YouTube" },
+    blurb: {
+      en: "Plan, edit and ship long-form video people watch to the end.",
+      fr: "Planifie, monte et publie une vidéo longue que l'on regarde jusqu'au bout.",
+    },
+    ids: ["runway", "descript", "heygen"],
+  },
+  {
+    slug: "musique-son",
+    title: { en: "Music & sound", fr: "Musique & son" },
+    blurb: {
+      en: "Sketch tracks and voice without a full studio setup.",
+      fr: "Esquisse des morceaux et de la voix sans monter un studio.",
+    },
+    ids: ["suno", "udio", "elevenlabs"],
+  },
 ]
 
 export const FEATURED_STACK_IDS = ["v0-vercel", "runway", "jasper"] as const
