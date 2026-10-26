@@ -103,6 +103,27 @@ export const COLLECTION_DEFS: CollectionDef[] = [
     },
     ids: ["chatgpt", "claude-3", "pi"],
   },
+  {
+    slug: "recettes-et-stacks",
+    title: { en: "Recipes & stacks", fr: "Recettes & stacks" },
+    blurb: {
+      en: "Recipes for getting useful work done.",
+      fr: "Des recettes pour avancer sur un vrai travail.",
+    },
+    ids: [
+      "capcut",
+      "elevenlabs",
+      "descript",
+      "perplexity-ai",
+      "elicit",
+      "notebooklm",
+      "v0-vercel",
+      "gamma",
+      "jasper",
+      "granola",
+      "notion-ai",
+    ],
+  },
 ]
 
 export const FEATURED_STACK_IDS = ["v0-vercel", "runway", "jasper"] as const

@@ -1,0 +1,88 @@
+{
+  "id": "albato",
+  "name": "Albato",
+  "url": "https://albato.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code automation platform with 1,000+ integrations and a white-label embedded iPaaS option.",
+  "description": "Albato is a no-code platform for connecting apps and automating workflows, with more than 1,000 native integrations. A white-label embedded edition lets software companies offer integrations to their own users and AI agents without building them in-house. The pricing page lists a free plan with 100 transactions, Pro at $15 per month billed annually ($22 monthly) with a 7-day trial, and a Teams plan for agencies starting at $65 per month billed annually. Extra transactions cost $0.033 each.",
+  "summary_fr": "Plateforme d'automatisation no-code avec plus de 1 000 intégrations et un iPaaS embarqué en marque blanche.",
+  "description_fr": "Albato est une plateforme no-code pour connecter des apps et automatiser des workflows, avec plus de 1 000 intégrations natives. Une édition embarquée en marque blanche permet à des éditeurs de logiciels de proposer des intégrations à leurs utilisateurs et à des agents IA sans les construire en interne. La page tarifs liste une offre gratuite de 100 transactions, Pro à 15 $ par mois en facturation annuelle (22 $ au mois) avec un essai de 7 jours, et un plan Teams pour les agences à partir de 65 $ par mois en facturation annuelle. Les transactions supplémentaires coûtent 0,033 $ chacune.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "no-code",
+    "integrations",
+    "embedded-ipaas",
+    "white-label"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$15/mo (Pro, billed annually); $22/mo monthly",
+    "sourceUrl": "https://albato.com/pricing"
+  },
+  "logo": "https://albato.com/images/favicon-32x32.png",
+  "image": "/screenshots/albato.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://albato.com/",
+    "https://albato.com/pricing"
+  ],
+  "features": [
+    "Connect marketing and CRM apps",
+    "Embed integrations in a SaaS product",
+    "Automate agency workflows"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Albato",
+      "description": "Start on the free plan (100 transactions) or the 7-day Pro trial and connect two apps. SaaS companies wanting the embedded version book a demo.",
+      "links": [
+        {
+          "label": "Albato",
+          "url": "https://albato.com/"
+        }
+      ]
+    },
+    {
+      "title": "Albato is a no-code platform for connecting apps and automating workflows",
+      "description": "Albato is a no-code platform for connecting apps and automating workflows, with more than 1,000 native integrations."
+    },
+    {
+      "title": "A white-label embedded edition lets software companies offer integrations to their own...",
+      "description": "A white-label embedded edition lets software companies offer integrations to their own users and AI agents without building them in-house."
+    },
+    {
+      "title": "The pricing page lists a free plan with 100 transactions",
+      "description": "The pricing page lists a free plan with 100 transactions, Pro at $15 per month billed annually ($22 monthly) with a 7-day trial, and a Teams plan for agencies starting at $65 per month billed annually."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvrir Albato",
+      "description": "Commencer avec l'offre gratuite (100 transactions) ou l'essai Pro de 7 jours et connecter deux apps. Les éditeurs qui veulent la version embarquée réservent une démo.",
+      "links": [
+        {
+          "label": "Albato",
+          "url": "https://albato.com/"
+        }
+      ]
+    },
+    {
+      "title": "Albato est une plateforme no-code pour connecter des apps et automatiser des workflows",
+      "description": "Albato est une plateforme no-code pour connecter des apps et automatiser des workflows, avec plus de 1 000 intégrations natives."
+    },
+    {
+      "title": "Une édition embarquée en marque blanche permet à des éditeurs de logiciels de proposer...",
+      "description": "Une édition embarquée en marque blanche permet à des éditeurs de logiciels de proposer des intégrations à leurs utilisateurs et à des agents IA sans les construire en interne."
+    },
+    {
+      "title": "La page tarifs liste une offre gratuite de 100 transactions",
+      "description": "La page tarifs liste une offre gratuite de 100 transactions, Pro à 15 $ par mois en facturation annuelle (22 $ au mois) avec un essai de 7 jours, et un plan Teams pour les agences à partir de 65 $ par mois en facturation annuelle."
+    }
+  ]
+}

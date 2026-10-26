@@ -1,0 +1,88 @@
+{
+  "id": "integrately",
+  "name": "Integrately",
+  "url": "https://integrately.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code integration tool with ready-made one-click automations for 1,500+ apps.",
+  "description": "Integrately is a no-code tool for connecting apps. It offers a library of ready-made automations that users activate in a few clicks instead of building workflows from scratch. It supports more than 1,500 apps, with webhooks, branching and scheduling. The pricing page lists a free plan with 100 tasks, Starter at $19.99 per month billed annually (2,000 tasks), Professional at $39, Growth at $99 and Business at $239 per month. Paid plans include live chat support.",
+  "summary_fr": "Outil d'intégration no-code avec des automatisations prêtes en un clic pour plus de 1 500 apps.",
+  "description_fr": "Integrately est un outil no-code pour connecter des apps. Il propose une bibliothèque d'automatisations prêtes que l'on active en quelques clics au lieu de construire le workflow. Il prend en charge plus de 1 500 apps, avec webhooks, branchements et planification. La page tarifs liste une offre gratuite de 100 tâches, Starter à 19,99 $ par mois en facturation annuelle (2 000 tâches), Professional à 39 $, Growth à 99 $ et Business à 239 $ par mois. Les plans payants incluent le chat en direct.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "no-code",
+    "integrations",
+    "templates",
+    "workflow-automation"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "$19.99/mo (Starter, billed annually)",
+    "sourceUrl": "https://integrately.com/pricing"
+  },
+  "logo": "https://integrately.com/images/fav/favicon-32x32.png",
+  "image": "/screenshots/integrately.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://integrately.com/",
+    "https://integrately.com/pricing"
+  ],
+  "features": [
+    "Activate prebuilt app integrations",
+    "Automate CRM and email updates",
+    "Sync e-commerce orders"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Integrately",
+      "description": "Choose Get Integrately Free (100 tasks), search for your two apps and activate one of the suggested ready automations.",
+      "links": [
+        {
+          "label": "Integrately",
+          "url": "https://integrately.com/"
+        }
+      ]
+    },
+    {
+      "title": "Integrately is a no-code tool for connecting apps.",
+      "description": "Integrately is a no-code tool for connecting apps."
+    },
+    {
+      "title": "It offers a library of ready-made automations that users activate in a few clicks inste...",
+      "description": "It offers a library of ready-made automations that users activate in a few clicks instead of building workflows from scratch."
+    },
+    {
+      "title": "It supports more than 1",
+      "description": "It supports more than 1,500 apps, with webhooks, branching and scheduling."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvrir Integrately",
+      "description": "Choisir Get Integrately Free (100 tâches), chercher les deux apps et activer l'une des automatisations suggérées.",
+      "links": [
+        {
+          "label": "Integrately",
+          "url": "https://integrately.com/"
+        }
+      ]
+    },
+    {
+      "title": "Integrately est un outil no-code pour connecter des apps.",
+      "description": "Integrately est un outil no-code pour connecter des apps."
+    },
+    {
+      "title": "Il propose une bibliothèque d'automatisations prêtes que l'on active en quelques clics...",
+      "description": "Il propose une bibliothèque d'automatisations prêtes que l'on active en quelques clics au lieu de construire le workflow."
+    },
+    {
+      "title": "Il prend en charge plus de 1 500 apps",
+      "description": "Il prend en charge plus de 1 500 apps, avec webhooks, branchements et planification."
+    }
+  ]
+}

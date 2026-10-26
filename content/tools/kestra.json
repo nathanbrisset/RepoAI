@@ -1,0 +1,88 @@
+{
+  "id": "kestra",
+  "name": "Kestra",
+  "url": "https://kestra.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source declarative orchestration platform for data, infrastructure and business workflows.",
+  "description": "Kestra is an open-source orchestration platform where workflows are defined declaratively in YAML. It is used for data pipelines, infrastructure jobs and business processes, and offers more than 2,300 plugins. The open-source edition includes unlimited flows and executions. Kestra Cloud, a fully managed service, and Kestra Enterprise, which adds governance, multi-cloud and air-gapped deployment and support with an SLA, are sold through the sales team on an annual per-instance subscription. Customers cited on the site include teams that moved from Apache Airflow.",
+  "summary_fr": "Plateforme d'orchestration déclarative open source pour les workflows data, infrastructure et métier.",
+  "description_fr": "Kestra est une plateforme d'orchestration open source où les workflows sont définis de façon déclarative en YAML. Elle sert aux pipelines de données, aux jobs d'infrastructure et aux processus métier, et propose plus de 2 300 plugins. L'édition open source inclut des flux et des exécutions illimités. Kestra Cloud, un service managé, et Kestra Enterprise, qui ajoute gouvernance, multi-cloud, déploiement isolé et support avec SLA, sont vendus par l'équipe commerciale en abonnement annuel par instance. Le site cite des équipes venues d'Apache Airflow.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "open-source",
+    "orchestration",
+    "data-pipelines",
+    "yaml",
+    "self-hosted"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://kestra.io/pricing"
+  },
+  "logo": "https://kestra.io/apple-touch-icon.png",
+  "image": "/screenshots/kestra.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://kestra.io/",
+    "https://kestra.io/pricing"
+  ],
+  "features": [
+    "Orchestrate data pipelines",
+    "Schedule infrastructure jobs",
+    "Replace Airflow DAGs"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kestra",
+      "description": "Choose Get Started to run the open-source edition, then adapt a ready-made Blueprint from the docs. Managed Cloud and Enterprise are sold through sales.",
+      "links": [
+        {
+          "label": "Kestra",
+          "url": "https://kestra.io/"
+        }
+      ]
+    },
+    {
+      "title": "Kestra is an open-source orchestration platform where workflows are defined declarative...",
+      "description": "Kestra is an open-source orchestration platform where workflows are defined declaratively in YAML."
+    },
+    {
+      "title": "It is used for data pipelines",
+      "description": "It is used for data pipelines, infrastructure jobs and business processes, and offers more than 2,300 plugins."
+    },
+    {
+      "title": "The open-source edition includes unlimited flows and executions.",
+      "description": "The open-source edition includes unlimited flows and executions."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvrir Kestra",
+      "description": "Choisir Get Started pour lancer l'édition open source, puis adapter un Blueprint prêt depuis la documentation. Le Cloud managé et l'Enterprise passent par les ventes.",
+      "links": [
+        {
+          "label": "Kestra",
+          "url": "https://kestra.io/"
+        }
+      ]
+    },
+    {
+      "title": "Kestra est une plateforme d'orchestration open source où les workflows sont définis de...",
+      "description": "Kestra est une plateforme d'orchestration open source où les workflows sont définis de façon déclarative en YAML."
+    },
+    {
+      "title": "Elle sert aux pipelines de données",
+      "description": "Elle sert aux pipelines de données, aux jobs d'infrastructure et aux processus métier, et propose plus de 2 300 plugins."
+    },
+    {
+      "title": "L'édition open source inclut des flux et des exécutions illimités.",
+      "description": "L'édition open source inclut des flux et des exécutions illimités."
+    }
+  ]
+}

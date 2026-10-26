@@ -1,0 +1,219 @@
+{
+  "Workato": {
+    "pitch": "iPaaS d'entreprise qui relie applications, données, workflows et agents IA, avec une gouvernance centrale.",
+    "use": "Relier des systèmes d'entreprise comme les apps CRM, ERP et RH avec des recipes qui synchronisent les données et exécutent des processus transverses, et faire tourner des agents IA gouvernés sur la même plateforme.",
+    "why": "La plateforme couvre l'iPaaS d'entreprise, les intégrations embarquées et la gestion d'API, avec le cycle de vie des recipes et des environnements séparés de développement, test et production.",
+    "how": "Pas d'offre en libre-service publique : planifier une démo via la page tarifs et choisir une édition, à partir de Standard. Workato propose des formations pour construire et gérer les recipes.",
+    "worksWith": "Apps CRM, ERP et RH",
+    "description": "Workato est une plateforme d'intégration et d'automatisation pour l'entreprise. Elle relie les applications et les données métier, exécute des workflows automatisés appelés recipes et héberge des agents IA, avec des contrôles de gouvernance pour l'IT. La gamme couvre l'iPaaS d'entreprise, les intégrations embarquées et la gestion d'API. La page tarifs liste des éditions à partir de Standard, combinées à une consommation à l'usage, et oriente vers une démo ; elle n'affiche pas de prix publics. Les tarifs et les plans peuvent varier selon le contrat."
+  },
+  "Tray.ai": {
+    "pitch": "iPaaS d'entreprise pensé pour l'IA : agents, gouvernance MCP et plus de 700 applications.",
+    "use": "Intégrer des applications d'entreprise et construire des agents IA qui agissent sur plus de 700 apps connectées, avec une gouvernance sur les serveurs MCP que les agents peuvent utiliser.",
+    "why": "Tray combine un constructeur low-code en glisser-déposer et un usage headless depuis Claude Code, Codex et MCP, et publie un prix de départ à 50 $/mois, ce que les iPaaS d'entreprise font rarement.",
+    "how": "Démarrer l'essai gratuit de 30 jours, sans carte ni appel commercial, et partir d'un modèle prêt dans le constructeur. L'essai sert à dimensionner l'usage avant d'acheter.",
+    "worksWith": "700+ apps, MCP, Claude Code, Codex",
+    "description": "Tray.ai est une plateforme d'intégration et d'automatisation pour les entreprises. Les équipes construisent des intégrations, des automatisations et des agents IA sur plus de 700 applications connectées, avec une gouvernance des serveurs Model Context Protocol (MCP). La page tarifs indique un départ à 50 $ par mois, l'usage étant ajusté ensuite, avec des remises de volume. Un essai de 30 jours est disponible sans carte ni appel commercial. Le support premium, avec un canal Slack dédié, est une option."
+  },
+  "UiPath": {
+    "pitch": "Plateforme d'orchestration qui combine robots RPA, agents IA et personnes.",
+    "use": "Faire répéter à des robots logiciels des tâches de bureau et web, comme la saisie entre applications, et orchestrer agents IA, robots et personnes dans un même processus avec Maestro.",
+    "why": "UiPath est une plateforme RPA établie qui ajoute les agents et l'orchestration, se déploie dans le cloud ou on-premises, et propose une offre gratuite sans limite de durée.",
+    "how": "Choisir Try UiPath free pour ouvrir l'offre gratuite. L'UiPath Academy, la documentation et le forum couvrent les premières automatisations. Basic commence à 25 $/mois, et certains plans ont un essai de 60 jours.",
+    "worksWith": "Applications bureau et web",
+    "description": "UiPath est une plateforme d'automatisation construite autour de la RPA, avec des agents IA et l'orchestration de processus via Maestro. Les robots logiciels exécutent des tâches répétitives dans des applications de bureau et web, tandis que les agents et les personnes prennent les étapes qui demandent un jugement. La page tarifs liste une offre gratuite sans limite de durée, un plan Basic à partir de 25 $ par mois, et des plans Standard et Enterprise dont le prix vient des ventes. Certains plans proposent un essai de 60 jours. Le déploiement se fait dans le cloud, dans plusieurs régions, ou on-premises."
+  },
+  "Automation Anywhere": {
+    "pitch": "Système d'automatisation agentique qui combine IA, automatisation et RPA pour les processus d'entreprise.",
+    "use": "Automatiser des processus back-office de bout en bout en combinant bots RPA, automatisation documentaire et agents IA à travers les systèmes métier.",
+    "why": "Le produit vise les processus d'entreprise critiques, et la gamme inclut la découverte de processus, l'automatisation documentaire et un gestionnaire de centre d'excellence, en plus de la RPA.",
+    "how": "Obtenir la Cloud Community Edition gratuite, proposée aux entrepreneurs, développeurs, étudiants et petites entreprises. Pour un déploiement en entreprise, contacter les ventes.",
+    "worksWith": "Systèmes métier",
+    "description": "Automation Anywhere vend un système d'automatisation agentique qui combine agents IA, automatisation de workflows et RPA pour des processus métier de bout en bout dans les grandes organisations. Le site oriente vers l'équipe commerciale pour les tarifs. Une Cloud Community Edition gratuite est proposée aux entrepreneurs, développeurs, étudiants et petites entreprises. L'entreprise tient aussi une plateforme d'apprentissage, Automation Anywhere University, et une communauté de développeurs, Pathfinder."
+  },
+  "Pabbly Connect": {
+    "pitch": "Outil d'intégration no-code qui fait circuler les données entre apps et automatise les tâches répétitives.",
+    "use": "Envoyer des données d'une app à une autre quand un événement se produit, par exemple transmettre une soumission de formulaire à un CRM et à un outil e-mail, avec des webhooks instantanés et des formateurs intégrés.",
+    "why": "L'éditeur indique que toutes les fonctions sont incluses dans le plan Basic et que les étapes internes ne comptent pas comme des tâches. Il vend aussi un accès à vie en paiement unique, contrairement aux concurrents uniquement en abonnement.",
+    "how": "Créer un compte sur le site, connecter une app déclencheuse ou un webhook instantané, puis ajouter des actions. Les plans sont tarifés selon les tâches mensuelles, à partir de 16 $/mois pour 10 000 tâches, facturés annuellement.",
+    "worksWith": "Formulaires, CRM, outils e-mail",
+    "description": "Pabbly Connect est un outil no-code qui relie des applications web pour qu'un événement dans l'une déclenche des actions dans les autres. Il s'adresse à des personnes sans compétence de code, et l'éditeur indique que toutes les fonctions sont incluses dans le plan Basic. Les étapes internes ne sont pas comptées comme des tâches. La page tarifs affiche 16 $ par mois pour 10 000 tâches, facturés annuellement, et aussi un accès à vie en paiement unique. Pabbly Connect fait partie de la suite Pabbly."
+  },
+  "Albato": {
+    "pitch": "Plateforme d'automatisation no-code avec plus de 1 000 intégrations et un iPaaS embarqué en marque blanche.",
+    "use": "Automatiser des flux de données entre apps marketing, CRM et vente, ou embarquer des intégrations en marque blanche et des agents IA reliés à plus de 1 000 apps dans un produit SaaS.",
+    "why": "Albato sert les utilisateurs finaux et aussi les éditeurs SaaS qui veulent un iPaaS embarqué en marque blanche avec un serveur MCP, sans construire eux-mêmes les intégrations OAuth.",
+    "how": "Commencer avec l'offre gratuite (100 transactions) ou l'essai Pro de 7 jours et connecter deux apps. Les éditeurs qui veulent la version embarquée réservent une démo.",
+    "worksWith": "Apps marketing, CRM et vente",
+    "description": "Albato est une plateforme no-code pour connecter des apps et automatiser des workflows, avec plus de 1 000 intégrations natives. Une édition embarquée en marque blanche permet à des éditeurs de logiciels de proposer des intégrations à leurs utilisateurs et à des agents IA sans les construire en interne. La page tarifs liste une offre gratuite de 100 transactions, Pro à 15 $ par mois en facturation annuelle (22 $ au mois) avec un essai de 7 jours, et un plan Teams pour les agences à partir de 65 $ par mois en facturation annuelle. Les transactions supplémentaires coûtent 0,033 $ chacune."
+  },
+  "Integrately": {
+    "pitch": "Outil d'intégration no-code avec des automatisations prêtes en un clic pour plus de 1 500 apps.",
+    "use": "Activer des automatisations préconstruites entre des apps comme Calendly, Pipedrive, MailerLite ou Freshdesk sans dessiner le workflow soi-même.",
+    "why": "Le produit est centré sur une bibliothèque d'automatisations prêtes en un clic, destinée à des utilisateurs non techniques, avec un chat en direct sur tous les plans payants.",
+    "how": "Choisir Get Integrately Free (100 tâches), chercher les deux apps et activer l'une des automatisations suggérées.",
+    "worksWith": "Calendly, Pipedrive, MailerLite, Freshdesk",
+    "description": "Integrately est un outil no-code pour connecter des apps. Il propose une bibliothèque d'automatisations prêtes que l'on active en quelques clics au lieu de construire le workflow. Il prend en charge plus de 1 500 apps, avec webhooks, branchements et planification. La page tarifs liste une offre gratuite de 100 tâches, Starter à 19,99 $ par mois en facturation annuelle (2 000 tâches), Professional à 39 $, Growth à 99 $ et Business à 239 $ par mois. Les plans payants incluent le chat en direct."
+  },
+  "Latenode": {
+    "pitch": "Plateforme de workflows IA avec des LLM intégrés, plus de 5 500 intégrations et un tarif à l'usage.",
+    "use": "Construire des workflows qui appellent un LLM dans n'importe quel nœud, par exemple pour classer ou enrichir des enregistrements, et les relier à plus de 5 500 apps ou à des agents via MCP.",
+    "why": "Latenode facture le temps d'exécution CPU plutôt que l'opération, inclut l'accès à plus de 335 LLM sans clés d'API séparées, et permet du JavaScript dans chaque nœud.",
+    "how": "Commencer avec l'offre gratuite, sans carte, qui inclut un quota mensuel de calcul. Partir d'un modèle prêt sur le canevas.",
+    "worksWith": "5 500+ apps, MCP",
+    "description": "Latenode est une plateforme de workflows où les grands modèles de langage sont disponibles dans les nœuds sans clés d'API séparées ; l'éditeur en liste plus de 335. On construit des workflows et des agents IA reliés à plus de 5 500 intégrations, et on peut ajouter du code. Le tarif repose sur le temps d'exécution plutôt que sur les opérations. Une offre gratuite sans carte inclut un quota mensuel de calcul, et le temps supplémentaire part de 0,00012 $ par seconde CPU, avec des tarifs plus bas aux volumes plus élevés."
+  },
+  "Prowork by Parabola": {
+    "pitch": "Espace de travail IA de Parabola qui répond à des questions, construit des rapports et exécute des processus métier.",
+    "use": "Décrire une tâche opérationnelle en langage courant, par exemple rapprocher les stocks entre Shopify, NetSuite et ShipHero par SKU, et laisser l'agent construire puis exécuter le processus.",
+    "why": "On peut inspecter les données et la logique à chaque étape et modifier n'importe quel calcul, donc les résultats restent auditables.",
+    "how": "Choisir Start for free sur l'offre gratuite en libre-service et essayer un flux d'exemple sur les jeux de données fournis, comme l'inventaire Shopify. Les clients Business commencent par une preuve de concept.",
+    "worksWith": "Shopify, NetSuite, ShipHero",
+    "description": "Prowork est l'espace de travail IA de Parabola pour les opérations. Il répond à des questions, construit des rapports et exécute des processus récurrents. On décrit une tâche en langage courant à son constructeur d'agent, et on peut inspecter les données et la logique à chaque étape et modifier un calcul. La page tarifs liste des plans en libre-service avec une offre gratuite utilisable sans limite de durée, et des plans Business avec des volumes de crédits sur mesure, un onboarding en preuve de concept et un responsable de compte. Les prix en libre-service n'étaient pas lisibles sur la page."
+  },
+  "Tines": {
+    "pitch": "Plateforme pour construire des agents IA, des apps et des workflows sur des systèmes sensibles, avec une gouvernance de sécurité.",
+    "use": "Automatiser le travail sécurité et IT, comme le tri d'alertes et le traitement d'incidents, et faire tourner des agents IA sur des systèmes sensibles sous contrôles de gouvernance.",
+    "why": "Tines est conçu pour des systèmes et des données sensibles, avec des contrôles de sécurité et de gouvernance, et l'édition gratuite autorise un nombre illimité d'utilisateurs et de connecteurs.",
+    "how": "Créer un compte sur l'édition gratuite (3 workflows actifs, une enveloppe IA de 50 $ en une fois) et partir de la bibliothèque de modèles ou des flux en cinq minutes.",
+    "worksWith": "Systèmes sensibles et connecteurs",
+    "description": "Tines est une plateforme de workflows pour faire tourner de l'automatisation et des agents IA sur des systèmes, des données et des processus sensibles, avec des contrôles de sécurité et de gouvernance. L'outil a commencé dans les opérations de sécurité et sert maintenant l'IT et d'autres équipes. La page tarifs liste une édition gratuite avec utilisateurs, espaces et connecteurs illimités, 3 workflows actifs et une enveloppe IA de 50 $ en une fois. Les éditions payantes pour un usage à l'échelle de l'organisation passent par les ventes. Une communauté et une galerie d'exemples sont disponibles."
+  },
+  "Windmill": {
+    "pitch": "Plateforme open source, code d'abord, pour scripts, workflows, apps internes et agents IA.",
+    "use": "Transformer des scripts en jobs planifiés, workflows en plusieurs étapes, apps internes ou pipelines de données, et les déployer avec versionnage et synchronisation git vers GitHub ou GitLab.",
+    "why": "Windmill est open source et orienté code, peut être auto-hébergé avec des exécutions illimitées gratuitement, et publie ses tarifs.",
+    "how": "Auto-héberger avec Docker ou Kubernetes, installer la CLI (npm install -g windmill-cli), ou utiliser Windmill Cloud. Écrire un premier script et le promouvoir en workflow.",
+    "worksWith": "GitHub, GitLab",
+    "description": "Windmill est une plateforme open source pour écrire des scripts, des workflows, des apps internes, des agents IA et des pipelines de données, en code ou avec une aide IA. Elle tourne sur un orchestrateur auto-hébergeable. Les ingénieurs gardent le contrôle de ce qui est déployé, notamment via le versionnage. La page tarifs liste une édition open source auto-hébergée gratuite avec des exécutions illimitées, un plan cloud à 170 $ par mois pour un builder, et une édition Enterprise auto-hébergée à partir de 120 $ par mois. Un plan pour les organisations à but non lucratif existe aussi."
+  },
+  "Kestra": {
+    "pitch": "Plateforme d'orchestration déclarative open source pour les workflows data, infrastructure et métier.",
+    "use": "Orchestrer des pipelines de données, des jobs d'infrastructure et des processus métier définis en YAML déclaratif, avec plus de 2 300 plugins.",
+    "why": "Les workflows sont du YAML déclaratif, et l'édition open source inclut des flux et des exécutions illimités. Des témoignages sur le site décrivent une migration depuis Airflow.",
+    "how": "Choisir Get Started pour lancer l'édition open source, puis adapter un Blueprint prêt depuis la documentation. Le Cloud managé et l'Enterprise passent par les ventes.",
+    "worksWith": "2 300+ plugins",
+    "description": "Kestra est une plateforme d'orchestration open source où les workflows sont définis de façon déclarative en YAML. Elle sert aux pipelines de données, aux jobs d'infrastructure et aux processus métier, et propose plus de 2 300 plugins. L'édition open source inclut des flux et des exécutions illimités. Kestra Cloud, un service managé, et Kestra Enterprise, qui ajoute gouvernance, multi-cloud, déploiement isolé et support avec SLA, sont vendus par l'équipe commerciale en abonnement annuel par instance. Le site cite des équipes venues d'Apache Airflow."
+  },
+  "Node-RED": {
+    "pitch": "Outil low-code open source pour construire des flux événementiels dans un éditeur navigateur.",
+    "use": "Relier appareils, API et services en ligne dans un éditeur de flux dans le navigateur, par exemple pour collecter des données de capteurs et les afficher sur un tableau de bord, ou pour automatiser une maison.",
+    "why": "Node-RED est gratuit et open source, projet de l'OpenJS Foundation, et assez léger pour tourner sur du matériel peu coûteux comme un Raspberry Pi aussi bien que dans le cloud.",
+    "how": "L'installer en local avec npm (Node.js), le lancer dans Docker ou sur un Raspberry Pi, ouvrir l'éditeur dans le navigateur et importer un flux depuis la bibliothèque communautaire.",
+    "worksWith": "Appareils, API, services en ligne",
+    "description": "Node-RED est un outil low-code open source pour des applications événementielles. On relie des nœuds dans un éditeur de flux dans le navigateur pour collecter, transformer et visualiser des données, et il tourne sur Node.js. Il sert à la domotique, aux systèmes de contrôle industriels et à la connexion d'API et d'appareils. L'équipe Emerging Technology Services d'IBM l'a créé à l'origine, et c'est maintenant un projet de l'OpenJS Foundation. FlowFuse, Inc., fondée par son créateur, propose un hébergement commercial. La version indiquée est 5.0.9."
+  },
+  "Axiom.ai": {
+    "pitch": "Outil d'automatisation de navigateur et de scraping, utilisable sans code, via une API ou avec Claude.",
+    "use": "Automatiser des tâches web répétitives comme extraire des données vers un tableur, remplir des formulaires ou cliquer à travers des pages, sans code.",
+    "why": "Les bots se construisent dans une extension Chrome no-code, via une API, ou en les décrivant à Claude, et ils tournent dans le cloud ou sur la machine. Les exécutions desktop n'ont pas de limite de concurrence.",
+    "how": "Installer l'extension Chrome, construire un bot pas à pas ou avec l'IA, et le lancer sur le temps d'essai gratuit. Starter coûte 15 $/mois pour 5 heures.",
+    "worksWith": "Sites web, via Chrome, une API ou Claude",
+    "description": "Axiom.ai automatise des actions sur des sites, comme les clics, le remplissage de formulaires et l'extraction de données. Les bots se construisent avec une extension Chrome no-code, via une API d'automatisation de navigateur, ou en décrivant la tâche à Claude. Les bots tournent dans le cloud d'Axiom ou sur la machine de l'utilisateur. Le tarif repose sur le temps d'exécution mensuel : Starter à 15 $ par mois pour 5 heures, Pro 50 $ pour 30 heures, Pro Max 150 $ pour 100 heures et Ultimate 250 $ pour 250 heures. Chaque plan a un essai gratuit, et les exécutions desktop n'ont pas de limite de concurrence."
+  },
+  "n8n": {
+    "pitch": "Plateforme de workflows qui combine agents IA et intégrations.",
+    "use": "Construire des workflows en plusieurs étapes qui combinent plus de 500 intégrations natives, n'importe quelle API HTTP, du code et des agents IA, par exemple pour router des leads ou faire traiter un ticket par un agent.",
+    "why": "n8n peut être auto-hébergé (Community Edition gratuite, Docker ou on-prem) pour garder les données dans son environnement, et mélange nœuds visuels et code.",
+    "how": "Auto-héberger avec Docker, ou démarrer un essai n8n Cloud sans carte. Partir d'un modèle de workflow, inclus dans chaque plan.",
+    "worksWith": "500+ intégrations, API HTTP"
+  },
+  "Zapier": {
+    "pitch": "Plateforme no-code qui relie plus de 9 000 apps avec des Zaps, des tables, des formulaires et des agents IA.",
+    "use": "Relier des apps avec des Zaps déclencheur-action, par exemple envoyer de nouveaux leads de formulaire vers un CRM et Slack, et ajouter tables, formulaires et agents IA.",
+    "why": "Zapier annonce ici la plus grande bibliothèque d'apps (plus de 9 000 apps et plus de 66 000 déclencheurs et actions), plus Copilot, qui rédige des workflows à partir du langage courant.",
+    "how": "Créer un compte sur l'offre Free, partir d'un modèle ou décrire le Zap à Copilot, choisir un déclencheur et une action, tester, puis activer.",
+    "worksWith": "9 000+ apps, dont formulaires, CRM et Slack"
+  },
+  "Make": {
+    "pitch": "Plateforme visuelle no-code pour construire des automatisations et des workflows d'agents IA entre apps.",
+    "use": "Construire des scénarios visuels en plusieurs étapes qui déplacent et transforment des données entre apps, avec des agents IA dans le scénario.",
+    "why": "Le canevas visuel montre les scénarios et leurs branchements, et l'usage se mesure en crédits plutôt qu'en tâches par Zap.",
+    "how": "Commencer avec l'offre gratuite (1 000 crédits par mois), construire un premier scénario sur le canevas depuis la bibliothèque d'intégrations, puis ajouter un agent IA si besoin.",
+    "worksWith": "Des milliers d'apps"
+  },
+  "Activepieces": {
+    "pitch": "Espace d'automatisation open source avec chat, agents, flux et tables, relié à plus de 760 apps.",
+    "use": "Automatiser des workflows sur plus de 760 connecteurs, avec agents IA, chat et tables dans le même espace, et exposer les outils aux agents via son serveur MCP.",
+    "why": "Le cœur est open source et peut être auto-hébergé. Le plan hébergé Plus est un forfait de 20 $ par mois.",
+    "how": "Utiliser l'offre hébergée Free, sans carte, ou auto-héberger le cœur open source, puis connecter des apps et construire un premier flux.",
+    "worksWith": "760+ connecteurs, MCP"
+  },
+  "Pipedream": {
+    "pitch": "Plateforme développeur qui fournit une authentification gérée et des milliers d'outils d'API pour les agents et les apps.",
+    "use": "Donner à des agents IA et à des apps des actions authentifiées dans les comptes des utilisateurs sur plus de 3 000 API, ou construire des intégrations événementielles au niveau du code.",
+    "why": "Pipedream s'adresse aux développeurs, avec une authentification gérée et plus de 10 000 outils prêts via Connect, plus Conduit pour gouverner les outils d'IA.",
+    "how": "Commencer à construire gratuitement, sans carte. Les plans payants s'appliquent quand les intégrations passent en production, à partir de 99 $ par mois en facturation annuelle.",
+    "worksWith": "3 000+ API"
+  },
+  "IFTTT": {
+    "pitch": "Service no-code qui relie plus de 1 000 apps et appareils par de simples applets déclencheur-action.",
+    "use": "Relier plus de 1 000 services et appareils domotiques avec des applets simples, par exemple publier sur Discord ou Slack quand un déclencheur se produit.",
+    "why": "IFTTT est un moyen peu coûteux, pour des particuliers et des petites entreprises, de poser des automatisations simples déclencheur-action, à partir de 2,99 $ par mois.",
+    "how": "Choisir Get started, activer un applet publié sur l'offre gratuite, ou construire le sien avec un déclencheur et une action.",
+    "worksWith": "1 000+ services, Discord, Slack, maison connectée"
+  },
+  "Microsoft Power Automate": {
+    "pitch": "Service d'automatisation cloud et desktop de Microsoft, avec RPA et Copilot.",
+    "use": "Automatiser des validations et des workflows dans Microsoft 365 et des apps cloud, et automatiser des tâches de bureau avec des bots RPA.",
+    "why": "Power Automate fait partie de Microsoft Power Platform et inclut la RPA desktop, le process mining et la création de flux assistée par Copilot.",
+    "how": "Démarrer l'essai de 30 jours ou se connecter avec un compte Microsoft, puis décrire un flux cloud à Copilot.",
+    "worksWith": "Microsoft 365 et apps cloud"
+  },
+  "Gumloop": {
+    "pitch": "Constructeur no-code d'agents IA et de workflows reliés aux outils et aux modèles de l'entreprise.",
+    "use": "Construire des agents IA pour des tâches comme la recherche de comptes, la rédaction d'outbound ou le succès client, reliés à Slack, Gmail et des CRM.",
+    "why": "Gumloop s'adresse à des personnes qui ne sont pas ingénieures, et les agents peuvent être partagés dans l'entreprise pendant que l'IT contrôle les accès.",
+    "how": "Choisir Get Started (Pro a un essai de 14 jours ; aucune offre gratuite n'était listée) et ouvrir un modèle de tâche comme Account Researcher.",
+    "worksWith": "Slack, Gmail, CRM"
+  },
+  "Lindy": {
+    "pitch": "Construire des agents IA qui automatisent le travail à travers vos outils.",
+    "use": "Déléguer e-mail, agenda et relances commerciales à des agents IA reliés à Gmail, Slack, Notion, HubSpot et plus de 1 500 outils, ou mettre le travail récurrent sur un calendrier.",
+    "why": "Les agents se construisent sans code et sont joignables dans Slack, iMessage ou par e-mail.",
+    "how": "Essayer gratuitement avec 50 $ de crédits (valables 7 jours, sans carte), connecter les outils et lui demander une tâche.",
+    "worksWith": "Gmail, Slack, Notion, HubSpot"
+  },
+  "Relevance AI": {
+    "pitch": "Plateforme pour construire et faire tourner des agents IA pour la vente, le support, le marketing et les RH.",
+    "use": "Configurer des agents IA spécialisés pour la recherche, la prospection, la qualification de leads et le support, reliés aux outils de l'entreprise.",
+    "why": "L'assistant Invent aide à repérer les processus à automatiser et les transforme en agents.",
+    "how": "Contacter les ventes ; lors de la vérification, la page tarifs ne montrait qu'une offre enterprise.",
+    "worksWith": "Outils de l'entreprise"
+  },
+  "Dify": {
+    "pitch": "Plateforme open source pour construire des workflows agentiques et des apps LLM.",
+    "use": "Construire des workflows agentiques et des pipelines de connaissance RAG sur un canevas visuel, puis les déployer comme apps ou API.",
+    "why": "Dify est open source et peut tourner sur Dify Cloud, dans un VPC privé ou en auto-hébergement.",
+    "how": "Auto-héberger la Community Edition avec Docker, ou choisir Get Started sur le Sandbox gratuit (200 crédits de messages).",
+    "worksWith": "Déploiement en apps ou API"
+  },
+  "Langflow": {
+    "pitch": "Constructeur visuel open source pour agents IA, pipelines RAG et serveurs MCP.",
+    "use": "Assembler des agents IA et des flux RAG à partir de modèles, de bases vectorielles et d'outils sur un canevas, puis les servir comme API ou serveur MCP.",
+    "why": "Langflow est open source et écrit en Python, et chaque flux peut être exposé comme API ou serveur MCP.",
+    "how": "Télécharger le constructeur open source pour le faire tourner soi-même, ou choisir Get Started for Free sur le cloud.",
+    "worksWith": "Modèles, bases vectorielles, MCP"
+  },
+  "Bardeen": {
+    "pitch": "Scraper web dans le navigateur et outil d'enrichissement pour trouver et qualifier des leads.",
+    "use": "Scraper des sites pour des leads, enrichir les contacts avec e-mails et numéros, les scorer avec l'IA et les synchroniser vers un tableur ou un CRM.",
+    "why": "Bardeen se concentre sur la recherche de leads dans le navigateur plutôt que sur l'intégration générale d'apps.",
+    "how": "Choisir Get started ; chaque compte a 100 crédits gratuits. Lancer le scraper IA sur un site cible.",
+    "worksWith": "Sites web, tableurs, CRM"
+  },
+  "Browser Use": {
+    "pitch": "Navigateurs cloud et agents web pour automatiser des tâches sur des sites, avec une bibliothèque open source.",
+    "use": "Faire accomplir par des agents IA hébergés des tâches sur des sites, comme des formulaires, des connexions ou de l'extraction, ou piloter des navigateurs cloud depuis son propre agent.",
+    "why": "Le projet a commencé comme une bibliothèque open source, propose un paiement à l'usage sans abonnement, et prend en charge Playwright ou Puppeteer via CDP.",
+    "how": "Commencer gratuitement avec 1 $ de crédit, puis lancer une tâche d'agent hébergé ou connecter son agent à un navigateur cloud.",
+    "worksWith": "Sites web, Playwright, Puppeteer"
+  },
+  "Skyvern": {
+    "pitch": "Automatisation de navigateur open source qui utilise l'IA pour remplir des formulaires, se connecter et extraire des données.",
+    "use": "Automatiser les connexions à des portails, le remplissage de formulaires, le téléchargement de factures et l'extraction de données, y compris sur des sites qui demandent une 2FA.",
+    "why": "Skyvern lit les pages avec l'IA au lieu de sélecteurs fixes, qui cassent quand le site change, et son cœur est open source.",
+    "how": "Utiliser l'offre hébergée gratuite (5 000 crédits par mois) et choisir Start Building, ou faire tourner le cœur open source soi-même.",
+    "worksWith": "Portails web, y compris avec 2FA"
+  }
+}

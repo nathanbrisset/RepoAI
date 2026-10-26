@@ -1,0 +1,88 @@
+{
+  "id": "workato",
+  "name": "Workato",
+  "url": "https://www.workato.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Enterprise iPaaS that connects apps, data, workflows and AI agents with central governance.",
+  "description": "Workato is an enterprise integration and automation platform. It connects business applications and data, runs automated workflows called recipes, and hosts AI agents, with governance controls for IT. The product range covers enterprise iPaaS, embedded integrations and API management. The pricing page lists platform editions starting with Standard, combined with a usage-based consumption component, and directs buyers to schedule a demo; it shows no public prices. Pricing and plan structures can vary with contract terms.",
+  "summary_fr": "iPaaS d'entreprise qui relie applications, données, workflows et agents IA, avec une gouvernance centrale.",
+  "description_fr": "Workato est une plateforme d'intégration et d'automatisation pour l'entreprise. Elle relie les applications et les données métier, exécute des workflows automatisés appelés recipes et héberge des agents IA, avec des contrôles de gouvernance pour l'IT. La gamme couvre l'iPaaS d'entreprise, les intégrations embarquées et la gestion d'API. La page tarifs liste des éditions à partir de Standard, combinées à une consommation à l'usage, et oriente vers une démo ; elle n'affiche pas de prix publics. Les tarifs et les plans peuvent varier selon le contrat.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "ipaas",
+    "integrations",
+    "enterprise",
+    "ai-agents",
+    "api-management"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": true,
+    "sourceUrl": "https://www.workato.com/pricing"
+  },
+  "logo": "https://www.workato.com/favicon.ico",
+  "image": "/screenshots/workato.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://www.workato.com/",
+    "https://www.workato.com/pricing"
+  ],
+  "features": [
+    "Connect SaaS apps across departments",
+    "Automate IT and HR processes",
+    "Govern AI agents"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Workato",
+      "description": "No public self-serve plan: schedule a demo through the pricing page and choose a platform edition, starting with Standard. Workato offers training packages for building and managing recipes.",
+      "links": [
+        {
+          "label": "Workato",
+          "url": "https://www.workato.com/"
+        }
+      ]
+    },
+    {
+      "title": "Workato is an enterprise integration and automation platform.",
+      "description": "Workato is an enterprise integration and automation platform."
+    },
+    {
+      "title": "It connects business applications and data",
+      "description": "It connects business applications and data, runs automated workflows called recipes, and hosts AI agents, with governance controls for IT."
+    },
+    {
+      "title": "The product range covers enterprise iPaaS",
+      "description": "The product range covers enterprise iPaaS, embedded integrations and API management."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvrir Workato",
+      "description": "Pas d'offre en libre-service publique : planifier une démo via la page tarifs et choisir une édition, à partir de Standard. Workato propose des formations pour construire et gérer les recipes.",
+      "links": [
+        {
+          "label": "Workato",
+          "url": "https://www.workato.com/"
+        }
+      ]
+    },
+    {
+      "title": "Workato est une plateforme d'intégration et d'automatisation pour l'entreprise.",
+      "description": "Workato est une plateforme d'intégration et d'automatisation pour l'entreprise."
+    },
+    {
+      "title": "Elle relie les applications et les données métier",
+      "description": "Elle relie les applications et les données métier, exécute des workflows automatisés appelés recipes et héberge des agents IA, avec des contrôles de gouvernance pour l'IT."
+    },
+    {
+      "title": "La gamme couvre l'iPaaS d'entreprise",
+      "description": "La gamme couvre l'iPaaS d'entreprise, les intégrations embarquées et la gestion d'API."
+    }
+  ]
+}

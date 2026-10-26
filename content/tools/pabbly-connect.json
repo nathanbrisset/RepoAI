@@ -1,0 +1,88 @@
+{
+  "id": "pabbly-connect",
+  "name": "Pabbly Connect",
+  "url": "https://www.pabbly.com/connect/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code integration tool that moves data between apps and automates repetitive tasks.",
+  "description": "Pabbly Connect is a no-code tool that links web applications so that an event in one app triggers actions in others. It is aimed at users without coding skills, and the vendor states that all features are included in its Basic plan. Internal steps are not counted as tasks. The pricing page shows $16 per month for 10,000 tasks, billed annually, and also lists a one-time lifetime-access plan. Pabbly Connect is part of the Pabbly suite of business apps.",
+  "summary_fr": "Outil d'intégration no-code qui fait circuler les données entre apps et automatise les tâches répétitives.",
+  "description_fr": "Pabbly Connect est un outil no-code qui relie des applications web pour qu'un événement dans l'une déclenche des actions dans les autres. Il s'adresse à des personnes sans compétence de code, et l'éditeur indique que toutes les fonctions sont incluses dans le plan Basic. Les étapes internes ne sont pas comptées comme des tâches. La page tarifs affiche 16 $ par mois pour 10 000 tâches, facturés annuellement, et aussi un accès à vie en paiement unique. Pabbly Connect fait partie de la suite Pabbly.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "no-code",
+    "integrations",
+    "workflow-automation",
+    "lifetime-deal"
+  ],
+  "pricing": {
+    "model": "one-time",
+    "label": "One-time",
+    "verified": true,
+    "note": "$16/mo (10,000 tasks, billed annually)",
+    "sourceUrl": "https://www.pabbly.com/connect/pricing/"
+  },
+  "logo": "https://www.pabbly.com/wp-content/uploads/2026/01/favicon.png",
+  "image": "/screenshots/pabbly-connect.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://www.pabbly.com/connect/",
+    "https://www.pabbly.com/connect/pricing/"
+  ],
+  "features": [
+    "Sync data between apps",
+    "Automate lead routing",
+    "Send notifications from form submissions"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Pabbly Connect",
+      "description": "Sign up on the site, connect a trigger app or an instant webhook, then add action steps. Plans are priced by monthly tasks, from $16/mo for 10,000 tasks billed annually.",
+      "links": [
+        {
+          "label": "Pabbly Connect",
+          "url": "https://www.pabbly.com/connect/"
+        }
+      ]
+    },
+    {
+      "title": "Pabbly Connect is a no-code tool that links web applications so that an event in one ap...",
+      "description": "Pabbly Connect is a no-code tool that links web applications so that an event in one app triggers actions in others."
+    },
+    {
+      "title": "It is aimed at users without coding skills",
+      "description": "It is aimed at users without coding skills, and the vendor states that all features are included in its Basic plan."
+    },
+    {
+      "title": "The pricing page shows $16 per month for 10",
+      "description": "The pricing page shows $16 per month for 10,000 tasks, billed annually, and also lists a one-time lifetime-access plan."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvrir Pabbly Connect",
+      "description": "Créer un compte sur le site, connecter une app déclencheuse ou un webhook instantané, puis ajouter des actions. Les plans sont tarifés selon les tâches mensuelles, à partir de 16 $/mois pour 10 000 tâches, facturés annuellement.",
+      "links": [
+        {
+          "label": "Pabbly Connect",
+          "url": "https://www.pabbly.com/connect/"
+        }
+      ]
+    },
+    {
+      "title": "Pabbly Connect est un outil no-code qui relie des applications web pour qu'un événement...",
+      "description": "Pabbly Connect est un outil no-code qui relie des applications web pour qu'un événement dans l'une déclenche des actions dans les autres."
+    },
+    {
+      "title": "Il s'adresse à des personnes sans compétence de code",
+      "description": "Il s'adresse à des personnes sans compétence de code, et l'éditeur indique que toutes les fonctions sont incluses dans le plan Basic."
+    },
+    {
+      "title": "Les étapes internes ne sont pas comptées comme des tâches.",
+      "description": "Les étapes internes ne sont pas comptées comme des tâches."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "tines",
+  "name": "Tines",
+  "url": "https://www.tines.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Platform for building AI agents, apps and workflows on sensitive systems, with security governance.",
+  "description": "Tines is a workflow platform for running automation and AI agents on sensitive systems, data and processes, with security and governance controls. It started in security operations and is now used across IT and other teams. The pricing page lists a free edition with unlimited users, spaces and connectors, 3 live workflows and a one-time $50 AI allowance. Paid editions for organisation-wide use are sold through the sales team. A community and examples gallery are available.",
+  "summary_fr": "Plateforme pour construire des agents IA, des apps et des workflows sur des systèmes sensibles, avec une gouvernance de sécurité.",
+  "description_fr": "Tines est une plateforme de workflows pour faire tourner de l'automatisation et des agents IA sur des systèmes, des données et des processus sensibles, avec des contrôles de sécurité et de gouvernance. L'outil a commencé dans les opérations de sécurité et sert maintenant l'IT et d'autres équipes. La page tarifs liste une édition gratuite avec utilisateurs, espaces et connecteurs illimités, 3 workflows actifs et une enveloppe IA de 50 $ en une fois. Les éditions payantes pour un usage à l'échelle de l'organisation passent par les ventes. Une communauté et une galerie d'exemples sont disponibles.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "security-automation",
+    "soar",
+    "ai-agents",
+    "it-automation",
+    "workflows"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.tines.com/pricing/"
+  },
+  "logo": "https://www.tines.com/v5-assets/favicon.png",
+  "image": "/screenshots/tines.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://www.tines.com/",
+    "https://www.tines.com/pricing/"
+  ],
+  "features": [
+    "Automate security alert triage",
+    "Run IT service workflows",
+    "Deploy governed AI agents"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Tines",
+      "description": "Sign up for the free edition (3 live workflows, a one-time $50 AI allowance) and start from the templates library or the five-minute flows.",
+      "links": [
+        {
+          "label": "Tines",
+          "url": "https://www.tines.com/"
+        }
+      ]
+    },
+    {
+      "title": "Tines is a workflow platform for running automation and AI agents on sensitive systems",
+      "description": "Tines is a workflow platform for running automation and AI agents on sensitive systems, data and processes, with security and governance controls."
+    },
+    {
+      "title": "It started in security operations and is now used across IT and other teams.",
+      "description": "It started in security operations and is now used across IT and other teams."
+    },
+    {
+      "title": "The pricing page lists a free edition with unlimited users",
+      "description": "The pricing page lists a free edition with unlimited users, spaces and connectors, 3 live workflows and a one-time $50 AI allowance."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvrir Tines",
+      "description": "Créer un compte sur l'édition gratuite (3 workflows actifs, une enveloppe IA de 50 $ en une fois) et partir de la bibliothèque de modèles ou des flux en cinq minutes.",
+      "links": [
+        {
+          "label": "Tines",
+          "url": "https://www.tines.com/"
+        }
+      ]
+    },
+    {
+      "title": "Tines est une plateforme de workflows pour faire tourner de l'automatisation et des age...",
+      "description": "Tines est une plateforme de workflows pour faire tourner de l'automatisation et des agents IA sur des systèmes, des données et des processus sensibles, avec des contrôles de sécurité et de gouvernance."
+    },
+    {
+      "title": "L'outil a commencé dans les opérations de sécurité et sert maintenant l'IT et d'autres...",
+      "description": "L'outil a commencé dans les opérations de sécurité et sert maintenant l'IT et d'autres équipes."
+    },
+    {
+      "title": "La page tarifs liste une édition gratuite avec utilisateurs",
+      "description": "La page tarifs liste une édition gratuite avec utilisateurs, espaces et connecteurs illimités, 3 workflows actifs et une enveloppe IA de 50 $ en une fois."
+    }
+  ]
+}

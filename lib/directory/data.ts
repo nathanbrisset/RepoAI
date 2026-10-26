@@ -5,7 +5,7 @@ import { categoryCopy } from "@/lib/i18n/messages"
 import { toolForLocale } from "@/lib/i18n/localize-tool"
 import { priceFilterBucket, type PriceFilter } from "@/lib/price-filter"
 import type { Tool } from "@/lib/types"
-import { COLLECTION_DEFS, DOOR_ART, DOOR_IDS, FEATURED_STACK_IDS } from "./collections"
+import { COLLECTION_DEFS, DOOR_ART, DOOR_IDS, FEATURED_STACK_IDS, RECIPE_DEFS } from "./collections"
 
 export type DirectoryRecord = {
   id: string
@@ -117,6 +117,21 @@ export function dailyPicks(locale: Locale, count = 8, now = new Date()) {
   return dailyPickIds(records.map((record) => record.id), count, now)
     .map((id) => byId.get(id))
     .filter((record): record is DirectoryRecord => Boolean(record))
+}
+
+export type ResolvedRecipe = {
+  id: string
+  title: string
+  steps: { id: string; label: string }[]
+}
+
+export function resolvedRecipes(locale: Locale): ResolvedRecipe[] {
+  const known = new Set(directoryRecords(locale).map((record) => record.id))
+  return RECIPE_DEFS.map((recipe) => ({
+    id: recipe.id,
+    title: recipe.title[locale],
+    steps: recipe.steps.filter((step) => known.has(step.id)).map((step) => ({ id: step.id, label: step.label[locale] })),
+  })).filter((recipe) => recipe.steps.length > 0)
 }
 
 export function resolvedCollections(locale: Locale): ResolvedCollection[] {

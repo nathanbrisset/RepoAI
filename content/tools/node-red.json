@@ -1,0 +1,88 @@
+{
+  "id": "node-red",
+  "name": "Node-RED",
+  "url": "https://nodered.org/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source low-code tool for building event-driven flows in a browser editor.",
+  "description": "Node-RED is an open-source low-code tool for event-driven applications. Users connect nodes in a browser-based flow editor to collect, transform and visualise data, and it runs on Node.js. It is used for home automation, industrial control systems and connecting APIs and devices. IBM's Emerging Technology Services team originally built it, and it is now a project of the OpenJS Foundation. FlowFuse, Inc., founded by its creator, offers commercial hosting. The current version is 5.0.9.",
+  "summary_fr": "Outil low-code open source pour construire des flux événementiels dans un éditeur navigateur.",
+  "description_fr": "Node-RED est un outil low-code open source pour des applications événementielles. On relie des nœuds dans un éditeur de flux dans le navigateur pour collecter, transformer et visualiser des données, et il tourne sur Node.js. Il sert à la domotique, aux systèmes de contrôle industriels et à la connexion d'API et d'appareils. L'équipe Emerging Technology Services d'IBM l'a créé à l'origine, et c'est maintenant un projet de l'OpenJS Foundation. FlowFuse, Inc., fondée par son créateur, propose un hébergement commercial. La version indiquée est 5.0.9.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "open-source",
+    "low-code",
+    "iot",
+    "event-driven",
+    "self-hosted"
+  ],
+  "pricing": {
+    "model": "free",
+    "label": "Free",
+    "verified": true,
+    "sourceUrl": "https://nodered.org/about/"
+  },
+  "logo": "https://nodered.org/favicon.ico",
+  "image": "/screenshots/node-red.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://nodered.org/",
+    "https://nodered.org/about/"
+  ],
+  "features": [
+    "Automate smart-home devices",
+    "Connect IoT sensors to dashboards",
+    "Wire APIs together"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Node-RED",
+      "description": "Install it locally with npm (Node.js), run it in Docker or on a Raspberry Pi, open the browser editor and import a flow from the community flow library.",
+      "links": [
+        {
+          "label": "Node-RED",
+          "url": "https://nodered.org/"
+        }
+      ]
+    },
+    {
+      "title": "Node-RED is an open-source low-code tool for event-driven applications.",
+      "description": "Node-RED is an open-source low-code tool for event-driven applications."
+    },
+    {
+      "title": "Users connect nodes in a browser-based flow editor to collect",
+      "description": "Users connect nodes in a browser-based flow editor to collect, transform and visualise data, and it runs on Node.js."
+    },
+    {
+      "title": "It is used for home automation",
+      "description": "It is used for home automation, industrial control systems and connecting APIs and devices."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvrir Node-RED",
+      "description": "L'installer en local avec npm (Node.js), le lancer dans Docker ou sur un Raspberry Pi, ouvrir l'éditeur dans le navigateur et importer un flux depuis la bibliothèque communautaire.",
+      "links": [
+        {
+          "label": "Node-RED",
+          "url": "https://nodered.org/"
+        }
+      ]
+    },
+    {
+      "title": "Node-RED est un outil low-code open source pour des applications événementielles.",
+      "description": "Node-RED est un outil low-code open source pour des applications événementielles."
+    },
+    {
+      "title": "On relie des nœuds dans un éditeur de flux dans le navigateur pour collecter",
+      "description": "On relie des nœuds dans un éditeur de flux dans le navigateur pour collecter, transformer et visualiser des données, et il tourne sur Node.js."
+    },
+    {
+      "title": "Il sert à la domotique",
+      "description": "Il sert à la domotique, aux systèmes de contrôle industriels et à la connexion d'API et d'appareils."
+    }
+  ]
+}

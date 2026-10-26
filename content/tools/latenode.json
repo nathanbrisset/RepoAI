@@ -1,0 +1,89 @@
+{
+  "id": "latenode",
+  "name": "Latenode",
+  "url": "https://latenode.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI workflow automation platform with built-in LLMs, 5,500+ integrations and usage-based pricing.",
+  "description": "Latenode is a workflow automation platform where large language models are available inside workflow nodes without separate API keys; the vendor lists more than 335 models. Users build workflows and AI agents that connect to more than 5,500 integrations, and can add custom code. Pricing is based on execution time rather than on operations. A free plan with no credit card includes a monthly allowance of free compute, and additional runtime is billed from $0.00012 per CPU-second, with lower rates at higher volumes.",
+  "summary_fr": "Plateforme de workflows IA avec des LLM intégrés, plus de 5 500 intégrations et un tarif à l'usage.",
+  "description_fr": "Latenode est une plateforme de workflows où les grands modèles de langage sont disponibles dans les nœuds sans clés d'API séparées ; l'éditeur en liste plus de 335. On construit des workflows et des agents IA reliés à plus de 5 500 intégrations, et on peut ajouter du code. Le tarif repose sur le temps d'exécution plutôt que sur les opérations. Une offre gratuite sans carte inclut un quota mensuel de calcul, et le temps supplémentaire part de 0,00012 $ par seconde CPU, avec des tarifs plus bas aux volumes plus élevés.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "ai-workflows",
+    "llm",
+    "integrations",
+    "low-code",
+    "usage-based"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": true,
+    "note": "Free tier; then from $0.00012 per CPU-second",
+    "sourceUrl": "https://latenode.com/pricing"
+  },
+  "logo": "https://latenode.com/icon.png",
+  "image": "/screenshots/latenode.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://latenode.com/",
+    "https://latenode.com/pricing"
+  ],
+  "features": [
+    "Build AI agents connected to apps",
+    "Automate data enrichment with LLMs",
+    "Replace per-task automation pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Latenode",
+      "description": "Start on the free plan, which needs no card and includes a monthly compute allowance. Begin from a ready-made template on the drag-and-drop canvas.",
+      "links": [
+        {
+          "label": "Latenode",
+          "url": "https://latenode.com/"
+        }
+      ]
+    },
+    {
+      "title": "Latenode is a workflow automation platform where large language models are available in...",
+      "description": "Latenode is a workflow automation platform where large language models are available inside workflow nodes without separate API keys; the vendor lists more than 335 models."
+    },
+    {
+      "title": "Users build workflows and AI agents that connect to more than 5",
+      "description": "Users build workflows and AI agents that connect to more than 5,500 integrations, and can add custom code."
+    },
+    {
+      "title": "Pricing is based on execution time rather than on operations.",
+      "description": "Pricing is based on execution time rather than on operations."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvrir Latenode",
+      "description": "Commencer avec l'offre gratuite, sans carte, qui inclut un quota mensuel de calcul. Partir d'un modèle prêt sur le canevas.",
+      "links": [
+        {
+          "label": "Latenode",
+          "url": "https://latenode.com/"
+        }
+      ]
+    },
+    {
+      "title": "Latenode est une plateforme de workflows où les grands modèles de langage sont disponib...",
+      "description": "Latenode est une plateforme de workflows où les grands modèles de langage sont disponibles dans les nœuds sans clés d'API séparées ; l'éditeur en liste plus de 335."
+    },
+    {
+      "title": "On construit des workflows et des agents IA reliés à plus de 5 500 intégrations",
+      "description": "On construit des workflows et des agents IA reliés à plus de 5 500 intégrations, et on peut ajouter du code."
+    },
+    {
+      "title": "Le tarif repose sur le temps d'exécution plutôt que sur les opérations.",
+      "description": "Le tarif repose sur le temps d'exécution plutôt que sur les opérations."
+    }
+  ]
+}

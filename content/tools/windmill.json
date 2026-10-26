@@ -1,0 +1,89 @@
+{
+  "id": "windmill",
+  "name": "Windmill",
+  "url": "https://www.windmill.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source, code-first platform for scripts, workflows, internal apps and AI agents.",
+  "description": "Windmill is an open-source developer platform for writing scripts, workflows, internal apps, AI agents and data pipelines in code or with AI assistance. It runs on a self-hostable orchestrator. Engineers keep control of what is deployed through features such as versioning. The pricing page lists a free open-source self-hosted edition with unlimited executions, a cloud plan priced at $170 per month for one builder, and a self-hosted Enterprise edition from $120 per month. A nonprofit plan is also available.",
+  "summary_fr": "Plateforme open source, code d'abord, pour scripts, workflows, apps internes et agents IA.",
+  "description_fr": "Windmill est une plateforme open source pour écrire des scripts, des workflows, des apps internes, des agents IA et des pipelines de données, en code ou avec une aide IA. Elle tourne sur un orchestrateur auto-hébergeable. Les ingénieurs gardent le contrôle de ce qui est déployé, notamment via le versionnage. La page tarifs liste une édition open source auto-hébergée gratuite avec des exécutions illimitées, un plan cloud à 170 $ par mois pour un builder, et une édition Enterprise auto-hébergée à partir de 120 $ par mois. Un plan pour les organisations à but non lucratif existe aussi.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "open-source",
+    "developer-tools",
+    "orchestration",
+    "self-hosted",
+    "internal-tools"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Self-host free; Cloud Team $170/mo (1 builder)",
+    "sourceUrl": "https://www.windmill.dev/pricing"
+  },
+  "logo": "https://www.windmill.dev/img/logo.svg",
+  "image": "/screenshots/windmill.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://www.windmill.dev/",
+    "https://www.windmill.dev/pricing"
+  ],
+  "features": [
+    "Schedule scripts and data pipelines",
+    "Build internal tools on workflows",
+    "Self-host automation"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Windmill",
+      "description": "Self-host with Docker or Kubernetes, or install the CLI (npm install -g windmill-cli), or use Windmill Cloud. Write a first script and promote it to a workflow.",
+      "links": [
+        {
+          "label": "Windmill",
+          "url": "https://www.windmill.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Windmill is an open-source developer platform for writing scripts",
+      "description": "Windmill is an open-source developer platform for writing scripts, workflows, internal apps, AI agents and data pipelines in code or with AI assistance."
+    },
+    {
+      "title": "Engineers keep control of what is deployed through features such as versioning.",
+      "description": "Engineers keep control of what is deployed through features such as versioning."
+    },
+    {
+      "title": "The pricing page lists a free open-source self-hosted edition with unlimited executions",
+      "description": "The pricing page lists a free open-source self-hosted edition with unlimited executions, a cloud plan priced at $170 per month for one builder, and a self-hosted Enterprise edition from $120 per month."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvrir Windmill",
+      "description": "Auto-héberger avec Docker ou Kubernetes, installer la CLI (npm install -g windmill-cli), ou utiliser Windmill Cloud. Écrire un premier script et le promouvoir en workflow.",
+      "links": [
+        {
+          "label": "Windmill",
+          "url": "https://www.windmill.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Windmill est une plateforme open source pour écrire des scripts",
+      "description": "Windmill est une plateforme open source pour écrire des scripts, des workflows, des apps internes, des agents IA et des pipelines de données, en code ou avec une aide IA."
+    },
+    {
+      "title": "Elle tourne sur un orchestrateur auto-hébergeable.",
+      "description": "Elle tourne sur un orchestrateur auto-hébergeable."
+    },
+    {
+      "title": "Les ingénieurs gardent le contrôle de ce qui est déployé",
+      "description": "Les ingénieurs gardent le contrôle de ce qui est déployé, notamment via le versionnage."
+    }
+  ]
+}
