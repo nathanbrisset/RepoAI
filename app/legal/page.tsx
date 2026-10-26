@@ -2,7 +2,7 @@ import { getLocale } from "@/lib/i18n/get-locale"
 import { metadataFor } from "@/lib/i18n/metadata"
 import { legalNoticeDocument } from "@/lib/i18n/legal"
 
-const CONTACT_EMAIL = "contact@aitools.ninja"
+const CONTACT_EMAIL = "aitoolrequest@gmail.com"
 
 function renderParagraph(paragraph: string) {
   if (paragraph.includes(CONTACT_EMAIL)) {

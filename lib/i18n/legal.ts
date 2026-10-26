@@ -69,7 +69,7 @@ const privacy: Record<Locale, LegalDocument> = {
         heading: "6. Contact Us",
         paragraphs: [
           "If you have any questions about this privacy policy or our privacy practices, please contact us at:",
-          "Email: aitoolsrequest@gmail.com",
+          "Email: aitoolrequest@gmail.com",
         ],
       },
     ],
@@ -130,7 +130,7 @@ const privacy: Record<Locale, LegalDocument> = {
         heading: "6. Nous contacter",
         paragraphs: [
           "Pour toute question sur cette politique ou sur nos pratiques, écrivez-nous à :",
-          "E-mail : aitoolsrequest@gmail.com",
+          "E-mail : aitoolrequest@gmail.com",
         ],
       },
     ],
@@ -201,7 +201,7 @@ const terms: Record<Locale, LegalDocument> = {
         heading: "9. Contact Us",
         paragraphs: [
           "If you have any questions about these Terms of Service, please contact us at:",
-          "Email: aitoolsrequest@gmail.com",
+          "Email: aitoolrequest@gmail.com",
         ],
       },
     ],
@@ -269,7 +269,7 @@ const terms: Record<Locale, LegalDocument> = {
         heading: "9. Nous contacter",
         paragraphs: [
           "Pour toute question sur ces conditions d'utilisation, écrivez-nous à :",
-          "E-mail : aitoolsrequest@gmail.com",
+          "E-mail : aitoolrequest@gmail.com",
         ],
       },
     ],
@@ -287,7 +287,7 @@ const legalNotice: Record<Locale, LegalDocument> = {
           "Website: AITools.ninja",
           "Legal entity: TBD",
           "Registered office: TBD",
-          "Contact: contact@aitools.ninja",
+          "Contact: aitoolrequest@gmail.com",
         ],
       },
       {
@@ -305,7 +305,7 @@ const legalNotice: Record<Locale, LegalDocument> = {
       {
         heading: "Contact",
         paragraphs: [
-          "For any question about this site, email contact@aitools.ninja.",
+          "For any question about this site, email aitoolrequest@gmail.com.",
         ],
       },
     ],
@@ -320,7 +320,7 @@ const legalNotice: Record<Locale, LegalDocument> = {
           "Site : AITools.ninja",
           "Raison sociale : À compléter",
           "Siège social : À compléter",
-          "Contact : contact@aitools.ninja",
+          "Contact : aitoolrequest@gmail.com",
         ],
       },
       {
@@ -338,7 +338,7 @@ const legalNotice: Record<Locale, LegalDocument> = {
       {
         heading: "Contact",
         paragraphs: [
-          "Pour toute question concernant ce site : contact@aitools.ninja.",
+          "Pour toute question concernant ce site : aitoolrequest@gmail.com.",
         ],
       },
     ],

@@ -199,8 +199,8 @@ export default function ContactPage() {
                   <Mail className="h-6 w-6 text-blue-600 mt-1 mr-4" />
                   <div>
                     <h3 className="font-semibold text-gray-900">{t("contact.emailLabel")}</h3>
-                    <a href="mailto:contact@aitools.ninja" className="text-gray-600 hover:text-primary underline">
-                      contact@aitools.ninja
+                    <a href="mailto:aitoolrequest@gmail.com" className="text-gray-600 hover:text-primary underline">
+                      aitoolrequest@gmail.com
                     </a>
                     <p className="text-sm text-gray-500 mt-1">{t("contact.replyTime")}</p>
                   </div>
