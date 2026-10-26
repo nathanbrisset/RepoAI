@@ -249,8 +249,6 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
     void runSearch(query)
   }
 
-  const top = recommendations[0]
-  const others = recommendations.slice(1)
   const showResults = !loading && !error && recommendations.length > 0
 
   return (
