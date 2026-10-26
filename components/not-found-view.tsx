@@ -11,7 +11,7 @@ export default function NotFoundView() {
     <div style={{ background: "#fff", minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
       <div style={{ display: "flex", alignItems: "center", width: "100%", maxWidth: 900 }}>
         <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
-          <Image src="/ninja-logo.png" alt="Ninja Logo" width={960} height={960} priority />
+          <Image src="/brand/aitools-ninja-logo.png" alt="AItools.ninja" width={756} height={318} priority className="h-auto w-full max-w-sm" />
         </div>
         <div style={{ flex: 1, paddingLeft: 40, display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
           <h1 style={{ fontSize: 32, fontWeight: 700, marginBottom: 24 }}>Sorry ninja, this page is not available</h1>

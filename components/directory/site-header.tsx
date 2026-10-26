@@ -109,7 +109,7 @@ function SiteHeaderInner() {
       <div className="mx-auto flex max-w-[1600px] items-center gap-3 px-4 py-3 md:gap-4 md:px-6">
         <LocaleLink
           href="/"
-          className="group flex shrink-0 items-center gap-3.5 md:gap-4 mr-2 md:mr-4 lg:mr-6"
+          className="group mr-2 flex shrink-0 items-center gap-3.5 md:mr-4 md:gap-4 lg:mr-6"
           aria-label={t.brand}
         >
           <img

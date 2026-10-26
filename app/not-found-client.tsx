@@ -13,7 +13,7 @@ export default function NotFound() {
     <div className="flex min-h-[70vh] items-center justify-center bg-background px-6 py-16">
       <div className="flex w-full max-w-5xl flex-col items-center gap-8 md:flex-row">
         <div className="flex flex-1 justify-center">
-          <Image src="/ninja-logo.png" alt={t("notFound.logoAlt")} width={420} height={420} priority className="h-auto w-full max-w-sm" />
+          <Image src="/brand/aitools-ninja-logo.png" alt="AItools.ninja" width={756} height={318} priority className="h-auto w-full max-w-sm" />
         </div>
         <div className="flex flex-1 flex-col items-start">
           <h1 className="mb-6 font-display text-3xl text-foreground">{t("notFound.title")}</h1>
