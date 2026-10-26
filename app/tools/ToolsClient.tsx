@@ -79,7 +79,7 @@ export default function ToolsClient({ tools, initialCategory = null, initialPric
   })
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-background">
       <div className="container mx-auto max-w-6xl px-4 py-12">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12 gap-4">
           <div className="text-center md:text-left">

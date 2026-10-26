@@ -51,7 +51,7 @@ export default function SearchBar({ className, records }: SearchBarProps) {
               <Input
                 type="text"
                 placeholder={t("search.placeholder")}
-          className="pl-10 pr-4 py-2 w-full rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+          className="pl-10 pr-4 py-2 w-full rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                 value={searchQuery}
           onChange={(e) => handleSearch(e.target.value)}
               />

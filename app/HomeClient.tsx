@@ -67,8 +67,8 @@ export default function Home() {
     .slice(0, 5);
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <section className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-16 px-4">
+    <div className="min-h-screen bg-background">
+      <section className="bg-gradient-to-r from-primary to-accent text-white py-16 px-4">
         <div className="container mx-auto max-w-6xl flex flex-col items-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">AITools.ninja</h1>
           <p className="text-xl mb-8 max-w-2xl text-center">
@@ -103,7 +103,7 @@ export default function Home() {
                   name="query"
                   required
                 />
-                <Button type="submit" className="w-full bg-purple-600 hover:bg-purple-700">
+                <Button type="submit" className="w-full bg-primary hover:bg-primary/90">
                   Find my A-Match
                 </Button>
               </form>
@@ -113,10 +113,10 @@ export default function Home() {
 
         {/* Results Section */}
         {submitted && (
-          <section className="w-full bg-gradient-to-br from-purple-100 via-white to-blue-100 rounded-3xl shadow-xl border border-purple-200 p-12 flex flex-col gap-12 items-stretch relative overflow-hidden mb-12">
+          <section className="w-full bg-gradient-to-br from-secondary via-card to-background rounded-3xl shadow-xl border border-border p-12 flex flex-col gap-12 items-stretch relative overflow-hidden mb-12">
             {loading && (
               <div className="text-center">
-                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600 mx-auto mb-4"></div>
+                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
                 <p className="text-lg text-gray-600">Finding your perfect AI match...</p>
               </div>
             )}
@@ -129,14 +129,14 @@ export default function Home() {
                 {/* Purple info box for intro */}
                 {intro && (
                   <div className="mb-8">
-                    <div className="bg-purple-50 border border-purple-200 rounded-lg px-6 py-4">
+                    <div className="bg-secondary border border-border rounded-lg px-6 py-4">
                       <p className="text-lg text-gray-800 leading-relaxed">
                         {(() => {
                           const firstPeriod = intro.indexOf('.') !== -1 ? intro.indexOf('.') + 1 : intro.length;
                           const firstSentence = intro.slice(0, firstPeriod);
                           const rest = intro.slice(firstPeriod);
                           const highlight = (text: string) =>
-                            text.replace(/\b(newsletter|AI|tools?|writing|content|design|engaging|fun|easy|professional)\b/gi, match => `<span class='font-semibold text-purple-700'>${match}</span>`);
+                            text.replace(/\b(newsletter|AI|tools?|writing|content|design|engaging|fun|easy|professional)\b/gi, match => `<span class='font-semibold text-primary'>${match}</span>`);
                           return <span><b>{firstSentence}</b>{' '}<span dangerouslySetInnerHTML={{ __html: highlight(rest) }} /></span>;
                         })()}
                       </p>
@@ -151,7 +151,7 @@ export default function Home() {
                       {topTools.map((item, idx) => (
                         item?.tool?.id && (
                           <div key={item.tool.id} className="flex items-start gap-4">
-                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center text-purple-700 font-bold text-base border border-purple-200">{idx + 1}</div>
+                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-secondary flex items-center justify-center text-primary font-bold text-base border border-border">{idx + 1}</div>
                             <div>
                               <div className="font-semibold text-lg text-gray-900 mb-1">{item.tool.name}</div>
                               <p className="text-gray-600 text-base leading-relaxed">{item.explanation}</p>
@@ -164,10 +164,10 @@ export default function Home() {
                   {/* Right side - Main recommendation minimal card */}
                   <div className="md:w-1/2 flex flex-col justify-start">
                     {mainTool && (
-                      <div className="bg-white rounded-2xl border border-purple-100 p-8 relative overflow-visible">
+                      <div className="bg-white rounded-2xl border border-border p-8 relative overflow-visible">
                         <div className="flex items-center gap-2 mb-4">
                           <Star className="h-5 w-5 text-yellow-400" />
-                          <h3 className="text-lg font-bold text-purple-700">Our Top Pick</h3>
+                          <h3 className="text-lg font-bold text-primary">Our Top Pick</h3>
                         </div>
                         <img src="/top-pick.png" alt="Top Pick" className="absolute top-0 right-0 w-16 h-16 md:w-20 md:h-20 -mt-8 -mr-8 z-10 drop-shadow-lg rounded-full" />
                         <ToolCard tool={mainTool} />

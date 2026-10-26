@@ -14,7 +14,7 @@ export default async function TermsOfServicePage() {
   return (
     <div className="container mx-auto px-4 py-8 mt-16">
       <h1 className="text-3xl font-bold mb-4">{document.title}</h1>
-      <div className="h-1 w-24 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full mb-8"></div>
+      <div className="h-1 w-24 bg-gradient-to-r from-primary to-accent rounded-full mb-8"></div>
       <div className="prose prose-lg max-w-none">
         <p className="text-gray-600 mb-8">{document.updated.replace("{date}", date)}</p>
         {document.sections.map((section) => (

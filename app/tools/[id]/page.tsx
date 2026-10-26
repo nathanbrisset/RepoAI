@@ -34,7 +34,7 @@ export default async function Page(props: any) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-background">
       <div className="container mx-auto max-w-6xl px-4 py-12">
         <div className="bg-white rounded-2xl shadow-sm p-8 mb-8">
           <div className="flex flex-col md:flex-row gap-8">

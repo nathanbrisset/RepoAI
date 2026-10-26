@@ -59,7 +59,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
           {localized.tags && localized.tags.length > 0 && (
             <div className="flex flex-wrap gap-2 mb-2">
               {localized.tags.map((tag) => (
-                <Badge key={tag} variant="outline" className="text-xs text-purple-700 border-purple-300">
+                <Badge key={tag} variant="outline" className="text-xs text-primary border-border">
                   {tag}
                 </Badge>
               ))}

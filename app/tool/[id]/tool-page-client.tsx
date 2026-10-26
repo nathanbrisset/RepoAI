@@ -46,17 +46,17 @@ const stepIcons = [
 
 // Gradient color mapping for steps
 const gradients = [
-  "from-pink-50 to-pink-100",
-  "from-blue-50 to-blue-100",
-  "from-green-50 to-green-100",
-  "from-yellow-50 to-yellow-100",
-  "from-purple-50 to-purple-100",
-  "from-indigo-50 to-indigo-100",
-  "from-cyan-50 to-cyan-100",
-  "from-orange-50 to-orange-100",
-  "from-violet-50 to-violet-100",
-  "from-gray-50 to-gray-100"
-];
+  "from-secondary to-muted",
+  "from-card to-secondary",
+  "from-muted to-background",
+  "from-secondary to-card",
+  "from-background to-secondary",
+  "from-card to-muted",
+  "from-muted to-secondary",
+  "from-secondary to-background",
+  "from-card to-background",
+  "from-muted to-card",
+]
 
 export default function ToolPageClient({ tool: sourceTool, relatedTools, successorName }: ToolPageClientProps) {
   const [tab, setTab] = useState<'overview' | 'features'>('overview');
@@ -79,7 +79,7 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
             <h1 className="text-3xl font-bold">{tool.name}</h1>
             {tool.url ? (
             <div className="flex gap-2">
-              <Link href={tool.url} target="_blank" rel="noopener noreferrer" className="px-4 py-1 rounded bg-purple-500 text-white font-semibold hover:bg-purple-600 flex items-center gap-1 text-sm">
+              <Link href={tool.url} target="_blank" rel="noopener noreferrer" className="px-4 py-1 rounded bg-primary text-white font-semibold hover:bg-primary/90 flex items-center gap-1 text-sm">
                 {t("tool.visit")} <ExternalLink className="w-4 h-4 ml-1" />
               </Link>
             </div>
@@ -116,9 +116,9 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
           </div>
           )}
           {/* Tabs */}
-          <div className="border-b border-gray-200 mb-6 flex gap-2">
-            <button onClick={() => setTab('overview')} className={`px-4 py-2 font-semibold ${tab === 'overview' ? 'border-b-2 border-purple-600 text-purple-700 bg-white' : 'text-gray-500'}`}>{t("tool.overview")}</button>
-            <button onClick={() => setTab('features')} className={`px-4 py-2 font-semibold ${tab === 'features' ? 'border-b-2 border-purple-600 text-purple-700 bg-white' : 'text-gray-500'}`}>{t("tool.features")}</button>
+          <div className="border-b border-border mb-6 flex gap-2">
+            <button onClick={() => setTab('overview')} className={`px-4 py-2 font-semibold ${tab === 'overview' ? 'border-b-2 border-primary text-primary bg-card' : 'text-gray-500'}`}>{t("tool.overview")}</button>
+            <button onClick={() => setTab('features')} className={`px-4 py-2 font-semibold ${tab === 'features' ? 'border-b-2 border-primary text-primary bg-card' : 'text-gray-500'}`}>{t("tool.features")}</button>
           </div>
           {/* Tab Content */}
           {tab === 'overview' && (
@@ -151,7 +151,7 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
                     const description = descriptionParts.join(':').trim();
                     return (
                       <li key={idx} className="flex items-start gap-3">
-                        <ThumbsUp className="mt-1 text-purple-500" />
+                        <ThumbsUp className="mt-1 text-primary" />
                         <div>
                           <div className="font-bold text-base text-gray-900">{title}</div>
                           <div className="text-gray-600 text-sm mt-1">{description}</div>
@@ -170,15 +170,15 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
             <div className="pt-10 pb-12">
               <div className="text-left mb-8 flex flex-col gap-2">
                 <h2 className="text-3xl font-extrabold text-gray-900">{t("tool.howTo", { name: tool.name })}</h2>
-                <div className="w-16 h-1 bg-gradient-to-r from-purple-500 to-blue-400 rounded-full" />
+                <div className="w-16 h-1 bg-gradient-to-r from-primary to-accent rounded-full" />
                 <div className="flex items-center gap-2 mt-2">
                   <p className="text-gray-500 text-lg m-0">{t("tool.howToIntro")}</p>
                   <button
-                    className={`ml-2 flex items-center gap-1 px-2 py-1 rounded-lg border border-gray-200 bg-white shadow-sm transition-all duration-200 focus:outline-none cursor-pointer hover:bg-purple-50 ${howToOpen ? 'rotate-180' : ''}`}
+                    className={`ml-2 flex items-center gap-1 px-2 py-1 rounded-lg border border-border bg-card shadow-sm transition-all duration-200 focus:outline-none cursor-pointer hover:bg-secondary ${howToOpen ? 'rotate-180' : ''}`}
                     aria-label={howToOpen ? t("tool.collapseAria") : t("tool.expandAria")}
                     onClick={() => setHowToOpen(v => !v)}
                   >
-                    <svg className="w-7 h-7 text-purple-500 transition-colors duration-200 group-hover:text-purple-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-7 h-7 text-primary transition-colors duration-200 group-hover:text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                     <span className="text-xs text-gray-600 font-medium select-none hidden sm:inline">{howToOpen ? t("tool.collapse") : t("tool.expand")}</span>
@@ -194,7 +194,7 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
                       return (
                         <button
                           key={idx}
-                          className={`relative group text-left rounded-2xl p-4 transition-all duration-200 border outline-none focus:ring-2 focus:ring-purple-400 bg-gradient-to-br ${gradients[idx % gradients.length]} ${isActive ? 'border-purple-200 scale-105 shadow-lg z-10' : 'border-transparent shadow-sm hover:scale-105 hover:shadow-md'} ${isFAQ ? 'ring-2 ring-blue-100' : ''}`}
+                          className={`relative group text-left rounded-2xl p-4 transition-all duration-200 border outline-none focus:ring-2 focus:ring-primary bg-gradient-to-br ${gradients[idx % gradients.length]} ${isActive ? 'border-border scale-105 shadow-lg z-10' : 'border-transparent shadow-sm hover:scale-105 hover:shadow-md'} ${isFAQ ? 'ring-2 ring-blue-100' : ''}`}
                           style={{ minHeight: 160 }}
                           onClick={() => setActiveStep(idx)}
                           tabIndex={0}
@@ -204,7 +204,7 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
                             {(idx + 1).toString().padStart(2, '0')}
                           </span>
                           {/* Icon */}
-                          <span className="relative z-10 inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/90 mb-3 shadow-sm border border-white/50">
+                          <span className="relative z-10 inline-flex items-center justify-center w-10 h-10 rounded-full bg-card/90 mb-3 shadow-sm border border-white/50">
                             {stepIcons[idx % stepIcons.length]}
                           </span>
                           {/* Title */}
@@ -215,7 +215,7 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
                           </div>
                           {/* FAQ button if present */}
                           {isFAQ && step.links && step.links.length > 0 && (
-                            <a href={step.links[0].url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-3 py-1.5 mt-2 bg-gradient-to-r from-blue-400 to-purple-400 text-white rounded-lg font-semibold shadow-sm hover:from-blue-500 hover:to-purple-500 transition ring-1 ring-blue-100 animate-glow text-sm">
+                            <a href={step.links[0].url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-3 py-1.5 mt-2 bg-gradient-to-r from-primary to-accent text-white rounded-lg font-semibold shadow-sm hover:from-primary hover:to-accent transition ring-1 ring-blue-100 animate-glow text-sm">
                               {t("tool.visitFaq")} <ExternalLink className="w-4 h-4" />
                             </a>
                           )}
@@ -227,7 +227,7 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
                   <div className="flex items-center justify-center gap-4 mt-4">
                     <button
                       onClick={() => setActiveStep(prev => (prev > 0 ? prev - 1 : tool.howToUse.length - 1))}
-                      className="p-2 rounded-full bg-white shadow-sm border border-gray-200 hover:bg-gray-50 transition-colors"
+                      className="p-2 rounded-full bg-card shadow-sm border border-border hover:bg-secondary transition-colors"
                       aria-label={t("tool.previous")}
                     >
                       <svg className="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -238,7 +238,7 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
                       {tool.howToUse.map((_, idx) => (
                         <button
                           key={idx}
-                          className={`w-2.5 h-2.5 rounded-full transition-all duration-200 ${activeStep === idx ? 'bg-purple-400 scale-125 shadow-sm' : 'bg-gray-200 hover:bg-purple-200'}`}
+                          className={`w-2.5 h-2.5 rounded-full transition-all duration-200 ${activeStep === idx ? 'bg-primary scale-125 shadow-sm' : 'bg-muted hover:bg-secondary'}`}
                           onClick={() => setActiveStep(idx)}
                           aria-label={t("tool.goToStep", { n: idx + 1 })}
                         />
@@ -246,7 +246,7 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
                     </div>
                     <button
                       onClick={() => setActiveStep(prev => (prev < tool.howToUse.length - 1 ? prev + 1 : 0))}
-                      className="p-2 rounded-full bg-white shadow-sm border border-gray-200 hover:bg-gray-50 transition-colors"
+                      className="p-2 rounded-full bg-card shadow-sm border border-border hover:bg-secondary transition-colors"
                       aria-label={t("tool.next")}
                     >
                       <svg className="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -270,7 +270,7 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
         </div>
         {/* Sidebar */}
         <aside className="lg:col-span-1">
-          <div className="bg-white border border-gray-100 rounded-xl p-6 mb-8">
+          <div className="bg-card border border-gray-100 rounded-xl p-6 mb-8">
             <h3 className="font-semibold text-gray-900 mb-4">{t("tool.quickInfo")}</h3>
             <div className="flex flex-col gap-3 text-sm mb-4">
               <div className="flex justify-between items-center">
@@ -305,12 +305,12 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
               )}
             </div>
             {tool.url ? (
-            <Link href={tool.url} target="_blank" className="block w-full bg-purple-600 text-white text-center py-2 rounded-lg font-semibold hover:bg-purple-700 transition">
+            <Link href={tool.url} target="_blank" className="block w-full bg-primary text-white text-center py-2 rounded-lg font-semibold hover:bg-primary/90 transition">
               {t("tool.visit")} <ExternalLink className="inline w-4 h-4 ml-1" />
             </Link>
             ) : null}
           </div>
-          <div className="bg-white border border-gray-100 rounded-xl p-6">
+          <div className="bg-card border border-gray-100 rounded-xl p-6">
             <h3 className="font-semibold text-gray-900 mb-4">{t("tool.related")}</h3>
             <div className="flex flex-col gap-4">
               {relatedTools.length === 0 && <div className="text-gray-500 text-sm">{t("tool.noRelated")}</div>}

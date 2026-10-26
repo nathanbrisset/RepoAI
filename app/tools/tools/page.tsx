@@ -15,13 +15,13 @@ export default function ToolsPage() {
         return (
           <section key={category.id} className="mb-12">
             <h2 className="text-2xl font-bold mb-2">
-              <Link href={`/categories/${category.id}`} className="hover:text-purple-700">{category.name}</Link>
+              <Link href={`/categories/${category.id}`} className="hover:text-primary">{category.name}</Link>
             </h2>
             <p className="text-gray-600 mb-4">{category.description}</p>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
               {tools.map((tool) => (
                 <li key={tool.id}>
-                  <Link href={`/tool/${tool.id}`} className="text-gray-900 hover:text-purple-700">
+                  <Link href={`/tool/${tool.id}`} className="text-gray-900 hover:text-primary">
                     {tool.name}
                   </Link>
                   <span className="text-gray-500"> — {tool.description}</span>

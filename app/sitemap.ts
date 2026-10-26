@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next"
+import { COLLECTION_DEFS } from "@/lib/directory/collections"
 import { categories, allTools } from "@/lib/data"
 import { absoluteUrl, languageAlternates } from "@/lib/i18n/paths"
 
@@ -12,6 +13,10 @@ const STATIC_PATHS = [
   "/recommendation",
   "/categories",
   "/tools",
+  "/catalogue",
+  "/collections",
+  "/automations",
+  "/compare",
   "/category/new",
   "/category/popular",
   "/category/top-rated",
@@ -27,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const pages: { path: string; lastModified?: Date }[] = [
     ...STATIC_PATHS.map((path) => ({ path })),
     ...categories.map((category) => ({ path: `/categories/${category.id}` })),
+    ...COLLECTION_DEFS.map((collection) => ({ path: `/collections/${collection.slug}` })),
     ...allTools
       .filter((tool) => tool.status !== "renamed" && tool.status !== "sunset" && tool.status !== "inactive" && tool.status !== "duplicate-of")
       .map((tool) => ({

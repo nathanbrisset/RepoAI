@@ -31,7 +31,7 @@ export default function WelcomeModal() {
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
-      <DialogContent className="sm:max-w-[800px] bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-950 dark:to-purple-950">
+      <DialogContent className="sm:max-w-[800px] bg-gradient-to-br from-secondary to-muted dark:from-blue-950 dark:to-purple-950">
         <DialogHeader className="space-y-4">
           <div className="flex justify-center">
             <Image
@@ -42,7 +42,7 @@ export default function WelcomeModal() {
               className="mb-4"
             />
           </div>
-          <DialogTitle className="text-4xl text-center bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold">
+          <DialogTitle className="text-4xl text-center bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent font-bold">
             What are you searching for today?
           </DialogTitle>
           <p className="text-center text-xl text-muted-foreground">
@@ -60,12 +60,12 @@ export default function WelcomeModal() {
             }}
             aria-invalid={Boolean(fieldError)}
           />
-          {fieldError && <p role="alert" className="text-sm font-medium text-purple-800">{fieldError}</p>}
+          {fieldError && <p role="alert" className="text-sm font-medium text-foreground">{fieldError}</p>}
           <div className="flex justify-center">
             <Button 
               type="submit" 
               size="lg"
-              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-6 text-lg rounded-full transition-all duration-200 hover:scale-105"
+              className="bg-gradient-to-r from-primary to-accent hover:from-primary hover:to-accent text-white px-8 py-6 text-lg rounded-full transition-all duration-200 hover:scale-105"
             >
               Find the perfect AI tool
             </Button>

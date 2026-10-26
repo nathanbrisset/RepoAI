@@ -20,7 +20,7 @@ export default function CategoryCard({ category }: CategoryCardProps) {
     <Link href={`/categories/${category.id}`}>
       <Card className="h-full transition-all hover:shadow-md">
         <CardHeader className="pb-2">
-          <div className="w-12 h-12 rounded-lg bg-purple-100 flex items-center justify-center mb-4">
+          <div className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center mb-4">
             {category.icon}
           </div>
           <CardTitle>{capitalizeWords(category.name)}</CardTitle>
@@ -33,7 +33,7 @@ export default function CategoryCard({ category }: CategoryCardProps) {
             <span className="text-sm text-muted-foreground">
               {categoryTools.length} tools available
             </span>
-            <span className="text-purple-600 text-sm font-medium">
+            <span className="text-primary text-sm font-medium">
               View tools →
             </span>
           </div>

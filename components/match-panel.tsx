@@ -51,18 +51,18 @@ function takeMatch(query: string): MatchPayload | null {
 function MatchCardView({ card }: { card: MatchCard }) {
   const src = visualSrc(card)
   return (
-    <article className="flex h-full flex-col rounded-2xl border border-purple-100 bg-white p-5 shadow-sm">
+    <article className="flex h-full flex-col rounded-2xl border border-border bg-white p-5 shadow-sm">
       <div className="flex items-start gap-4">
         <div className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-gray-50">
           {src ? (
             <img src={src} alt="" className="h-12 w-12 object-contain" />
           ) : (
-            <span className="text-lg font-bold text-purple-700">{card.name.slice(0, 1)}</span>
+            <span className="text-lg font-bold text-primary">{card.name.slice(0, 1)}</span>
           )}
         </div>
         <div className="min-w-0 flex-1">
           <h3 className="break-words text-xl font-bold leading-tight text-gray-900">{card.name}</h3>
-          {card.price && <p className="mt-1 text-sm font-medium text-purple-700">{card.price}</p>}
+          {card.price && <p className="mt-1 text-sm font-medium text-primary">{card.price}</p>}
           {card.priceUnchecked && <p className="text-xs text-gray-500">Price not rechecked</p>}
         </div>
       </div>
@@ -71,7 +71,7 @@ function MatchCardView({ card }: { card: MatchCard }) {
         href={card.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-4 inline-flex h-10 w-full items-center justify-center rounded-md bg-purple-600 px-4 text-sm font-medium text-white hover:bg-purple-700 sm:w-auto"
+        className="mt-4 inline-flex h-10 w-full items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-white hover:bg-primary/90 sm:w-auto"
       >
         Voir l&apos;outil
       </a>
@@ -262,7 +262,7 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
                   <button
                     key={example}
                     type="button"
-                    className="rounded-full border border-purple-200 bg-purple-50 px-3 py-1 text-left text-sm text-purple-800 hover:bg-purple-100"
+                    className="rounded-full border border-border bg-secondary px-3 py-1 text-left text-sm text-foreground hover:bg-secondary"
                     onClick={() => {
                       setPrompt(example)
                       setFieldError("")
@@ -284,7 +284,7 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
                   value={prompt}
                   maxLength={MAX_QUERY_LENGTH}
                   placeholder="Describe what you're trying to accomplish..."
-                  className={`min-h-[120px] resize-none md:min-h-[150px] ${fieldError ? "border-pink-500 bg-pink-50 focus-visible:ring-purple-500" : ""}`}
+                  className={`min-h-[120px] resize-none md:min-h-[150px] ${fieldError ? "border-pink-500 bg-pink-50 focus-visible:ring-primary" : ""}`}
                   aria-invalid={Boolean(fieldError)}
                   aria-describedby={fieldError ? "ai-match-field-error" : undefined}
                   onChange={(event) => {
@@ -294,7 +294,7 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
                   disabled={loading}
                 />
                 {fieldError && (
-                  <p id="ai-match-field-error" role="alert" className="mt-2 text-sm font-medium text-purple-800">
+                  <p id="ai-match-field-error" role="alert" className="mt-2 text-sm font-medium text-foreground">
                     {fieldError}
                   </p>
                 )}
@@ -311,15 +311,15 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
                 />
               </div>
               {setupError ? (
-                <div role="alert" className="rounded-lg border border-pink-300 bg-pink-50 px-4 py-3 text-purple-900">
+                <div role="alert" className="rounded-lg border border-pink-300 bg-pink-50 px-4 py-3 text-foreground">
                   <p>{setupError}</p>
-                  <Button type="button" className="mt-3 bg-purple-600 hover:bg-purple-700" onClick={() => void loadChallenge()}>
+                  <Button type="button" className="mt-3 bg-primary hover:bg-primary/90" onClick={() => void loadChallenge()}>
                     Réessayer
                   </Button>
                 </div>
               ) : (
                 <div>
-                  <label htmlFor="ai-match-check" className="mb-1 block text-sm font-medium text-purple-900">
+                  <label htmlFor="ai-match-check" className="mb-1 block text-sm font-medium text-foreground">
                     {challenge ? `Quick check: what is ${challenge.question}?` : "Quick check"}
                   </label>
                   <Input
@@ -335,25 +335,25 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
                     }}
                     disabled={loading || !challenge}
                     aria-invalid={Boolean(captchaError)}
-                    className={captchaError ? "border-pink-500 bg-pink-50 focus-visible:ring-purple-500" : ""}
+                    className={captchaError ? "border-pink-500 bg-pink-50 focus-visible:ring-primary" : ""}
                   />
                   {captchaError && (
-                    <p role="alert" className="mt-2 text-sm font-medium text-purple-800">
+                    <p role="alert" className="mt-2 text-sm font-medium text-foreground">
                       {captchaError}
                     </p>
                   )}
                 </div>
               )}
-              <Button type="submit" className="w-full bg-purple-600 hover:bg-purple-700" disabled={loading}>
+              <Button type="submit" className="w-full bg-primary hover:bg-primary/90" disabled={loading}>
                 {loading ? "Finding your match..." : "Find my A-Match"}
               </Button>
             </form>
             {error && (
-              <div role="alert" className="mt-4 rounded-lg border border-pink-300 bg-pink-50 px-4 py-3 text-purple-900">
+              <div role="alert" className="mt-4 rounded-lg border border-pink-300 bg-pink-50 px-4 py-3 text-foreground">
                 <p>{error}</p>
                 <Button
                   type="button"
-                  className="mt-3 bg-purple-600 hover:bg-purple-700"
+                  className="mt-3 bg-primary hover:bg-primary/90"
                   onClick={() => {
                     if (!challenge) {
                       void loadChallenge()
@@ -379,7 +379,7 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
       </section>
 
       {showResults && (
-        <section className="mb-12 rounded-3xl border border-purple-200 bg-gradient-to-br from-purple-100 via-white to-blue-100 p-4 shadow-xl sm:p-8">
+        <section className="mb-12 rounded-3xl border border-border bg-gradient-to-br from-secondary via-card to-background p-4 shadow-xl sm:p-8">
           <div className="mb-6">
             <h2 className="mb-2 text-2xl font-bold text-gray-800">Your search</h2>
             <div className="rounded-lg border border-gray-100 bg-white px-6 py-4 text-lg text-gray-700 shadow-sm">
@@ -387,13 +387,13 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
             </div>
           </div>
           {intro && (
-            <div className="mb-8 rounded-lg border border-purple-200 bg-purple-50 px-6 py-4">
+            <div className="mb-8 rounded-lg border border-border bg-secondary px-6 py-4">
               <p className="text-lg leading-relaxed text-gray-800">{intro}</p>
             </div>
           )}
           {top && (
             <div className="mb-10">
-              <h3 className="mb-4 flex items-center gap-2 text-lg font-bold text-purple-700">
+              <h3 className="mb-4 flex items-center gap-2 text-lg font-bold text-primary">
                 <Sparkles className="h-5 w-5 text-yellow-400" />
                 Our Top Pick
               </h3>

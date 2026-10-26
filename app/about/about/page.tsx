@@ -28,15 +28,15 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold mt-8 mb-4">What We Offer</h2>
           <ul className="space-y-4 mb-8">
             <li className="flex items-start">
-              <CheckCircle className="h-6 w-6 text-purple-600 mr-2 flex-shrink-0" />
+              <CheckCircle className="h-6 w-6 text-primary mr-2 flex-shrink-0" />
               <span>Comprehensive directory of AI tools across multiple categories</span>
             </li>
             <li className="flex items-start">
-              <CheckCircle className="h-6 w-6 text-purple-600 mr-2 flex-shrink-0" />
+              <CheckCircle className="h-6 w-6 text-primary mr-2 flex-shrink-0" />
               <span>Detailed information about each tool's features and capabilities</span>
             </li>
             <li className="flex items-start">
-              <CheckCircle className="h-6 w-6 text-purple-600 mr-2 flex-shrink-0" />
+              <CheckCircle className="h-6 w-6 text-primary mr-2 flex-shrink-0" />
               <span>Regular updates with the latest AI tools and technologies</span>
             </li>
           </ul>
