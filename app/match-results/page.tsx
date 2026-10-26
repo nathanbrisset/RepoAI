@@ -9,6 +9,7 @@ import type { Tool } from "@/lib/types"
 import { notFound } from "next/navigation"
 import { MatchResultsList } from "@/components/match/match-results-list"
 import { Shuriken } from "@/components/directory/shuriken"
+import { messageForCode } from "@/lib/match-copy"
 
 interface MatchResult {
   tool: Tool
@@ -41,25 +42,14 @@ export default async function MatchResultsPage(props: {
     body: JSON.stringify({ prompt: query, locale }),
   })
 
-  if (!response.ok) {
-    return (
-      <div className="mx-auto max-w-3xl px-4 py-16">
-        <p className="text-center text-sm text-muted-foreground">{messageForCodeFallback(t)}</p>
-        <div className="mt-6 text-center">
-          <Link href={localizeHref(locale, "/recommendation")}>
-            <Button>{t("recommendation.editQuery")}</Button>
-          </Link>
-        </div>
-      </div>
-    )
-  }
+  const data = await response.json().catch(() => ({}))
+  const errorCode = typeof data?.code === "string" ? data.code : !response.ok ? "unavailable" : null
 
-  const data = await response.json()
-  if (data?.code) {
+  if (errorCode) {
     return (
       <div className="mx-auto max-w-3xl px-4 py-16 text-center">
         <h1 className="font-display text-2xl">{t("recommendation.noMatch")}</h1>
-        <p className="mt-3 text-muted-foreground">{t("recommendation.noMatchBody")}</p>
+        <p className="mt-3 text-muted-foreground" role="alert">{messageForCode(errorCode, query)}</p>
         <Link href={localizeHref(locale, `/recommendation?query=${encodeURIComponent(query)}`)} className="mt-6 inline-block">
           <Button>{t("recommendation.runAgain")}</Button>
         </Link>
@@ -75,7 +65,7 @@ export default async function MatchResultsPage(props: {
     return (
       <div className="mx-auto max-w-3xl px-4 py-16 text-center">
         <h1 className="font-display text-2xl">{t("recommendation.noMatch")}</h1>
-        <p className="mt-3 text-muted-foreground">{t("recommendation.noMatchBody")}</p>
+        <p className="mt-3 text-muted-foreground" role="alert">{messageForCode("no_match", query)}</p>
         <Link href={localizeHref(locale, "/")}>
           <Button className="mt-6">
             <ArrowLeft className="mr-2 size-4" />
@@ -112,6 +102,3 @@ export default async function MatchResultsPage(props: {
   )
 }
 
-function messageForCodeFallback(t: (key: string) => string) {
-  return t("recommendation.noMatchBody")
-}

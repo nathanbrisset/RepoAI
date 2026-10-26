@@ -8,6 +8,7 @@ import type { Tool } from "@/lib/types"
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import { Sparkles, Star, CheckCircle } from "lucide-react"
+import { messageForCode } from "@/lib/match-copy"
 
 export default function Home({ tools }: { tools: Tool[] }) {
   const t = useT()
@@ -33,15 +34,18 @@ export default function Home({ tools }: { tools: Tool[] }) {
         body: JSON.stringify({ prompt, locale }),
       });
       const data = await res.json();
-      if (data.error) throw new Error(data.error);
+      if (!res.ok || data?.code) {
+        setError(messageForCode(data?.code, prompt));
+        return;
+      }
       if (Array.isArray(data?.recommendations) && data.recommendations.length > 0) {
         setResults(data.recommendations);
         setIntro(data.intro || "");
       } else {
-        setError(t("home.noResults"));
+        setError(messageForCode("no_match", prompt));
       }
-    } catch (err: any) {
-      setError(err.message || t("home.genericError"));
+    } catch {
+      setError(messageForCode("unavailable", prompt));
     } finally {
       setLoading(false);
     }

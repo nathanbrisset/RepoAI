@@ -12,6 +12,8 @@ import {
   promptProblem,
   rankTools,
   relatedCards,
+  textIncludesToken,
+  foldMatchText,
   toMatchTool,
   validateModelPayload,
   type MatchTool,
@@ -178,6 +180,28 @@ assert.ok(newsletter)
 assert.equal(newsletter?.lang, "fr")
 assert.equal(newsletter?.recommendations[0]?.id, "writer")
 assert.ok(newsletter?.recommendations[0]?.reason.includes("Writer"))
+
+assert.equal(textIncludesToken("Créez des vidéos en ligne", "videos"), true)
+assert.equal(foldMatchText("vidéos"), "videos")
+
+const frenchVideo = tool({
+  id: "veed",
+  name: "Veed",
+  categories: ["video"],
+  tags: ["Vidéo"],
+  summary: "Créez des vidéos en ligne facilement.",
+})
+const frenchVideoMatch = catalogMatch([frenchVideo, chatgpt], "créer des vidéos", ["Veed", "ChatGPT"])
+assert.ok(frenchVideoMatch)
+assert.equal(frenchVideoMatch?.recommendations[0]?.id, "veed")
+
+const drawPick = catalogMatch(
+  [tool({ id: "mj", name: "Midjourney", categories: ["image"], tags: ["dessin"], summary: "Images et dessin par IA." }), chatgpt],
+  "Je veux faire du dessin",
+  ["Midjourney", "ChatGPT"],
+)
+assert.ok(drawPick)
+assert.equal(drawPick?.recommendations[0]?.id, "mj")
 
 const catalog = catalogMatch([synthesia, synthesys, chatgpt], "Je veux créer une vidéo avec un avatar", names)
 assert.ok(catalog)

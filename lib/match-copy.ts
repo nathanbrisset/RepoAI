@@ -104,7 +104,7 @@ const COPY: Record<MatchLang, Record<MatchErrorCode, string>> = {
 }
 
 const LANGUAGE_HINTS: Record<Exclude<MatchLang, "en">, string[]> = {
-  fr: ["je", "j'ai", "pour", "avec", "une", "des", "les", "creer", "ecrire", "video", "besoin", "cherche", "veux", "mon", "mes", "dans", "outil", "fais", "voudrais", "sur", "cette"],
+  fr: ["je", "j'ai", "pour", "avec", "une", "des", "les", "creer", "ecrire", "video", "videos", "besoin", "cherche", "veux", "mon", "mes", "dans", "outil", "fais", "faire", "voudrais", "sur", "cette", "dessin"],
   es: ["necesito", "quiero", "para", "crear", "herramienta", "escribir", "busco", "una", "con", "video"],
   de: ["ich", "brauche", "fuer", "für", "erstellen", "werkzeug", "schreiben", "eine", "mit", "moechte", "möchte"],
   pt: ["preciso", "quero", "para", "criar", "ferramenta", "escrever", "uma", "com", "video"],
@@ -125,8 +125,8 @@ const STOP = new Set([
 const GENERIC_TAGS = new Set(["ai", "tool", "tools", "artificial intelligence"])
 
 const INTENTS: { tokens: string[]; categories: string[] }[] = [
-  { tokens: ["video", "avatar", "clip", "film", "youtube"], categories: ["video"] },
-  { tokens: ["image", "picture", "logo", "photo", "icon", "illustration"], categories: ["image", "design"] },
+  { tokens: ["video", "videos", "avatar", "clip", "film", "youtube", "montage"], categories: ["video"] },
+  { tokens: ["image", "picture", "logo", "photo", "icon", "illustration", "dessin", "dessiner", "drawing"], categories: ["image", "design"] },
   { tokens: ["write", "writing", "newsletter", "copy", "blog", "ecrire", "rediger", "article"], categories: ["text"] },
   { tokens: ["code", "coding", "python", "github", "debug", "programming"], categories: ["coding"] },
   { tokens: ["voice", "audio", "podcast", "speech", "voix", "voixoff"], categories: ["audio"] },
@@ -314,6 +314,12 @@ const QUERY_EXPANSIONS: Record<string, string[]> = {
   image: ["image"],
   logo: ["logo", "design"],
   photo: ["photo", "image"],
+  videos: ["video"],
+  video: ["video"],
+  dessin: ["design", "image", "illustration", "drawing"],
+  dessiner: ["design", "image", "illustration", "drawing"],
+  creer: ["create", "video"],
+  faire: ["create", "make"],
 }
 
 export function searchTokens(query: string): string[] {
@@ -325,6 +331,27 @@ export function searchTokens(query: string): string[] {
     }
   }
   return [...expanded]
+}
+
+/** Lowercase + strip accents for consistent query/catalog matching. */
+export function foldMatchText(text: string): string {
+  return text.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase()
+}
+
+function tokenMatchVariants(token: string): string[] {
+  const variants = new Set<string>([token])
+  if (token.length > 3 && token.endsWith("s")) variants.add(token.slice(0, -1))
+  if (token.length > 4 && token.endsWith("es")) variants.add(token.slice(0, -2))
+  if (token.length >= 3 && !token.endsWith("s")) variants.add(`${token}s`)
+  return [...variants]
+}
+
+export function textIncludesToken(text: string, token: string): boolean {
+  const hay = foldMatchText(text)
+  for (const variant of tokenMatchVariants(token)) {
+    if (variant.length >= 3 && hay.includes(variant)) return true
+  }
+  return false
 }
 
 function intentCategories(query: string): string[] {
@@ -342,19 +369,20 @@ export function rankTools(tools: MatchTool[], query: string): { tool: MatchTool;
   const tokens = searchTokens(query)
   if (tokens.length === 0) return []
   const rows = tools.map((tool) => {
-    const name = tool.name.toLowerCase()
-    const summary = tool.summary.toLowerCase()
-    const features = tool.features.join(" ").toLowerCase()
-    const tags = tool.tags.map((tag) => tag.toLowerCase())
-    const categories = tool.categories.map((category) => category.toLowerCase().replace(/-/g, " "))
+    const name = foldMatchText(tool.name)
+    const summary = foldMatchText(tool.summary)
+    const features = foldMatchText(tool.features.join(" "))
+    const tags = tool.tags.map((tag) => foldMatchText(tag))
+    const categories = tool.categories.map((category) => foldMatchText(category.replace(/-/g, " ")))
     let score = 0
     for (const token of tokens) {
-      if (name === token) score += 12
-      else if (name.includes(token)) score += 8
-      if (tags.some((tag) => tag.includes(token))) score += 5
-      if (categories.some((category) => category.includes(token))) score += 4
-      if (summary.includes(token)) score += 2
-      if (features.includes(token)) score += 1
+      const variants = tokenMatchVariants(token)
+      if (variants.some((variant) => name === variant)) score += 12
+      else if (variants.some((variant) => textIncludesToken(tool.name, variant))) score += 8
+      if (tags.some((tag) => variants.some((variant) => tag.includes(variant)))) score += 5
+      if (categories.some((category) => variants.some((variant) => category.includes(variant)))) score += 4
+      if (variants.some((variant) => summary.includes(variant))) score += 2
+      if (variants.some((variant) => features.includes(variant))) score += 1
     }
     return { tool, score }
   })
@@ -538,8 +566,8 @@ export function relatedCards(tools: MatchTool[], picks: MatchCard[], query: stri
     .filter((tool) => !pickIds.has(tool.id) && tool.categories[0] === primary)
     .map((tool) => {
       const shared = tool.tags.filter((tag) => mainTags.has(tag.toLowerCase())).length
-      const hay = `${tool.name} ${tool.summary} ${tool.tags.join(" ")}`.toLowerCase()
-      const hits = tokens.reduce((count, token) => count + (hay.includes(token) ? 1 : 0), 0)
+      const hay = foldMatchText(`${tool.name} ${tool.summary} ${tool.tags.join(" ")}`)
+      const hits = tokens.reduce((count, token) => count + (textIncludesToken(hay, token) ? 1 : 0), 0)
       return { tool, score: shared * 3 + hits * 2 }
     })
     .filter((row) => row.score >= 3)
