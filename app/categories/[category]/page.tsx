@@ -52,7 +52,7 @@ export default async function CategoryPage(props: PageProps) {
   return (
     <div className="container py-8 space-y-8">
       <BackButton />
-      <h1 className="text-4xl font-extrabold mb-4 text-purple-700 drop-shadow-sm">{copy.name}</h1>
+      <h1 className="text-4xl font-extrabold mb-4 text-primary drop-shadow-sm">{copy.name}</h1>
       <div className="bg-gradient-to-r from-gray-100 via-gray-50 to-gray-200 rounded-xl p-6 mb-8 shadow-md border border-gray-200">
         <p className="text-lg text-gray-800 leading-relaxed">{copy.description}</p>
       </div>

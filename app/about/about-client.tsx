@@ -8,7 +8,7 @@ export default function AboutPage() {
   const t = useT()
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-background">
       <div className="container mx-auto max-w-4xl px-4 py-16">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-extrabold mb-6 text-black">{t("about.title")}</h1>

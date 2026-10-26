@@ -10,21 +10,22 @@ export default function NotFound() {
   const t = useT()
 
   return (
-    <div style={{ background: "#fff", minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
-      <div style={{ display: "flex", alignItems: "center", width: "100%", maxWidth: 900 }}>
-        <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
-          <Image src="/ninja-logo.png" alt={t("notFound.logoAlt")} width={960} height={960} priority />
+    <div className="flex min-h-[70vh] items-center justify-center bg-background px-6 py-16">
+      <div className="flex w-full max-w-5xl flex-col items-center gap-8 md:flex-row">
+        <div className="flex flex-1 justify-center">
+          <Image src="/brand/aitools-ninja-logo.png" alt="AItools.ninja" width={756} height={318} priority className="h-auto w-full max-w-sm" />
         </div>
-        <div style={{ flex: 1, paddingLeft: 40, display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
-          <h1 style={{ fontSize: 32, fontWeight: 700, marginBottom: 24 }}>{t("notFound.title")}</h1>
-          <div style={{ display: "flex", gap: 16 }}>
+        <div className="flex flex-1 flex-col items-start">
+          <h1 className="mb-6 font-display text-3xl text-foreground">{t("notFound.title")}</h1>
+          <div className="flex flex-wrap gap-4">
             <button
+              type="button"
               onClick={() => router.back()}
-              style={{ padding: "12px 28px", fontSize: 18, borderRadius: 8, background: "#eee", border: "none", cursor: "pointer", fontWeight: 600 }}
+              className="rounded-full bg-secondary px-6 py-3 text-lg font-semibold text-foreground"
             >
               {t("notFound.back")}
             </button>
-            <LocaleLink href="/" style={{ padding: "12px 28px", fontSize: 18, borderRadius: 8, background: "#0070f3", color: "#fff", textDecoration: "none", fontWeight: 600 }}>
+            <LocaleLink href="/" className="rounded-full bg-primary px-6 py-3 text-lg font-semibold text-primary-foreground">
               {t("notFound.home")}
             </LocaleLink>
           </div>

@@ -1,8 +1,7 @@
-import { mockTools } from "@/lib/data"
+import { HomeDirectory } from "@/components/directory/home-directory"
+import { categoryCount, dailyPicks, directoryDoors, featuredStack, resolvedCollections } from "@/lib/directory/data"
 import { getLocale } from "@/lib/i18n/get-locale"
-import { toolForLocale } from "@/lib/i18n/localize-tool"
 import { metadataFor } from "@/lib/i18n/metadata"
-import HomePage from "./home-client"
 
 export function generateMetadata() {
   return metadataFor("/")
@@ -10,6 +9,13 @@ export function generateMetadata() {
 
 export default async function Page() {
   const locale = await getLocale()
-  const tools = mockTools.map((tool) => toolForLocale(tool, locale))
-  return <HomePage tools={tools} />
+  return (
+    <HomeDirectory
+      picks={dailyPicks(locale)}
+      collections={resolvedCollections(locale)}
+      doors={directoryDoors(locale)}
+      categoryTotal={categoryCount()}
+      stack={featuredStack(locale)}
+    />
+  )
 }

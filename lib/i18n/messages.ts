@@ -10,7 +10,7 @@ const en = {
   },
   header: {
     brand: "Your AI Ninja",
-    logoAlt: "AITools.ninja logo",
+    logoAlt: "AItools.ninja",
     categories: "Categories",
     submit: "Submit Tool",
     about: "About",
@@ -205,7 +205,7 @@ const en = {
     title: "Sorry ninja, this page is not available",
     back: "Get back",
     home: "Go back to home",
-    logoAlt: "Ninja Logo",
+    logoAlt: "AItools.ninja",
   },
   categories: {
     title: "Browse Categories",
@@ -296,7 +296,7 @@ const en = {
   meta: {
     homeTitle: "AITools.ninja - Find the Best AI Tools for Every Use Case",
     homeDescription:
-      "Your comprehensive directory of AI tools for every use case. Find, compare, and choose the perfect AI solution for your needs.",
+      "Find your AI match. A hand-picked directory of AI tools for coding, video, image, music, writing, research and the rest of the work.",
     aboutTitle: "About AI Tools Ninja",
     aboutDescription: "Your trusted guide in the world of AI tools.",
     contactTitle: "Contact Us | AITools.ninja",
@@ -314,6 +314,14 @@ const en = {
     toolsTitle: "AI Tools Directory | AITools.ninja",
     toolsDescription:
       "Browse our directory of AI tools. Filter by pricing, search by name or description, and find a tool for your needs.",
+    catalogueTitle: "Catalogue | AITools.ninja",
+    catalogueDescription: "Browse the full AI tools catalogue. Filter by category and price, and search by name.",
+    collectionsTitle: "Collections | AITools.ninja",
+    collectionsDescription: "Editorial paths through the AI tools catalogue.",
+    automationsTitle: "Automations | AITools.ninja",
+    automationsDescription: "Repeatable recipes that chain tools already in the catalogue.",
+    compareTitle: "Compare AI tools | AITools.ninja",
+    compareDescription: "Compare catalogue tools side by side. Empty fields stay empty.",
     newTitle: "New AI Tools | AITools.ninja",
     newDescription: "The latest AI tools added to the directory.",
     popularTitle: "Most Popular AI Tools | AITools.ninja",
@@ -477,7 +485,7 @@ const fr: typeof en = {
   },
   header: {
     brand: "Votre ninja IA",
-    logoAlt: "Logo AITools.ninja",
+    logoAlt: "AItools.ninja",
     categories: "Catégories",
     submit: "Proposer un outil",
     about: "À propos",
@@ -672,7 +680,7 @@ const fr: typeof en = {
     title: "Désolé ninja, cette page n'existe pas",
     back: "Revenir",
     home: "Retour à l'accueil",
-    logoAlt: "Logo ninja",
+    logoAlt: "AItools.ninja",
   },
   categories: {
     title: "Parcourir les catégories",
@@ -763,7 +771,7 @@ const fr: typeof en = {
   meta: {
     homeTitle: "AITools.ninja - Trouvez les meilleurs outils d'IA",
     homeDescription:
-      "L'annuaire des outils d'IA pour chaque usage. Trouvez, comparez et choisissez la solution qui vous convient.",
+      "Trouve ton match IA. Un annuaire d'outils triés pour le code, la vidéo, l'image, la musique, l'écriture et la recherche.",
     aboutTitle: "À propos | AITools.ninja",
     aboutDescription: "AI Tools Ninja, repère pour trouver et comparer des outils d'IA.",
     contactTitle: "Contact | AITools.ninja",
@@ -781,6 +789,14 @@ const fr: typeof en = {
     toolsTitle: "Annuaire des outils d'IA | AITools.ninja",
     toolsDescription:
       "Parcourez l'annuaire des outils d'IA. Filtrez par tarif, cherchez par nom ou description.",
+    catalogueTitle: "Catalogue | AITools.ninja",
+    catalogueDescription: "Parcourez tout le catalogue. Filtrez par catégorie et par tarif, et cherchez par nom.",
+    collectionsTitle: "Collections | AITools.ninja",
+    collectionsDescription: "Des parcours éditoriaux dans le catalogue d'outils d'IA.",
+    automationsTitle: "Automations | AITools.ninja",
+    automationsDescription: "Des recettes qui enchaînent des outils déjà présents dans le catalogue.",
+    compareTitle: "Comparer des outils d'IA | AITools.ninja",
+    compareDescription: "Comparez des outils du catalogue. Un champ vide reste vide.",
     newTitle: "Nouveaux outils d'IA | AITools.ninja",
     newDescription: "Les derniers outils d'IA ajoutés à l'annuaire.",
     popularTitle: "Outils d'IA les plus consultés | AITools.ninja",

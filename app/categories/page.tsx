@@ -23,7 +23,7 @@ export default async function CategoriesPage() {
         <div className="mt-4 md:mt-0 md:ml-8 flex-shrink-0 w-full md:w-auto flex justify-start md:justify-end">
           <LocaleLink
             href="/tools"
-            className="px-4 py-2 bg-purple-600 text-white rounded-lg font-medium shadow hover:bg-purple-700 transition w-full md:w-auto text-center"
+            className="px-4 py-2 bg-primary text-white rounded-lg font-medium shadow hover:bg-primary/90 transition w-full md:w-auto text-center"
           >
             {t("categories.seeAll")}
           </LocaleLink>
@@ -38,7 +38,7 @@ export default async function CategoriesPage() {
             <LocaleLink key={category.id} href={`/categories/${category.id}`}>
               <Card className="h-full transition-all hover:shadow-md">
                 <CardHeader className="pb-2">
-                  <div className="w-12 h-12 rounded-lg bg-purple-100 flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center mb-4">
                     {category.icon}
                   </div>
                   <CardTitle>{copy?.name || category.name}</CardTitle>
@@ -49,7 +49,7 @@ export default async function CategoriesPage() {
                     <span className="text-sm text-muted-foreground">
                       {count === 1 ? t("categories.toolsOne", { count }) : t("categories.toolsMany", { count })}
                     </span>
-                    <span className="text-purple-600 text-sm font-medium">{t("categories.view")}</span>
+                    <span className="text-primary text-sm font-medium">{t("categories.view")}</span>
                   </div>
                 </CardContent>
               </Card>

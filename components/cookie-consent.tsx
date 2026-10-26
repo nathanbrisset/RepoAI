@@ -26,12 +26,12 @@ export default function CookieConsent() {
   if (!showBanner) return null
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-lg p-4 z-50">
+    <div className="fixed bottom-0 left-0 right-0 z-[75] border-t border-border bg-card p-4 shadow-lg">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex-1">
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-muted-foreground">
             {t("cookie.body")}{" "}
-            <LocaleLink href="/privacy" className="text-blue-600 hover:underline">
+            <LocaleLink href="/privacy" className="font-semibold text-primary hover:underline">
               {t("cookie.privacy")}
             </LocaleLink>{" "}
             {t("cookie.more")}
@@ -40,13 +40,13 @@ export default function CookieConsent() {
         <div className="flex gap-4">
           <button
             onClick={handleDecline}
-            className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-md transition-colors"
+            className="rounded-full bg-secondary px-4 py-2 text-sm font-medium text-foreground"
           >
             {t("cookie.decline")}
           </button>
           <button
             onClick={handleAccept}
-            className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors"
+            className="rounded-full bg-primary px-4 py-2 text-sm font-medium text-primary-foreground"
           >
             {t("cookie.accept")}
           </button>

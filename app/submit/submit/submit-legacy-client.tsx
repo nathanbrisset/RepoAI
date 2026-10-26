@@ -85,7 +85,7 @@ export default function SubmitToolPage() {
               <div className="flex flex-col items-center">
                 <div
                   className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                    step >= 1 ? "bg-purple-600 text-white" : "bg-gray-200 text-gray-500"
+                    step >= 1 ? "bg-primary text-white" : "bg-gray-200 text-gray-500"
                   }`}
                 >
                   1
@@ -96,7 +96,7 @@ export default function SubmitToolPage() {
               <div className="flex flex-col items-center">
                 <div
                   className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                    step >= 2 ? "bg-purple-600 text-white" : "bg-gray-200 text-gray-500"
+                    step >= 2 ? "bg-primary text-white" : "bg-gray-200 text-gray-500"
                   }`}
                 >
                   2
@@ -107,7 +107,7 @@ export default function SubmitToolPage() {
               <div className="flex flex-col items-center">
                 <div
                   className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                    step >= 3 ? "bg-purple-600 text-white" : "bg-gray-200 text-gray-500"
+                    step >= 3 ? "bg-primary text-white" : "bg-gray-200 text-gray-500"
                   }`}
                 >
                   3

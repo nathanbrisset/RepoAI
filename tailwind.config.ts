@@ -19,6 +19,10 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-geist)", "ui-sans-serif", "system-ui", "sans-serif"],
+        display: ["var(--font-dela)", "ui-sans-serif", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -68,10 +72,21 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        rise: {
+          from: { opacity: "0", transform: "translateY(18px) scale(0.98)" },
+          to: { opacity: "1", transform: "none" },
+        },
+        throw: {
+          "0%": { transform: "rotate(0deg) scale(1)" },
+          "60%": { transform: "rotate(900deg) scale(1.25)" },
+          "100%": { transform: "rotate(1080deg) scale(1)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        rise: "rise 0.55s cubic-bezier(0.2, 0.8, 0.2, 1) both",
+        throw: "throw 0.75s cubic-bezier(0.3, 0.7, 0.3, 1) both",
       },
     },
   },

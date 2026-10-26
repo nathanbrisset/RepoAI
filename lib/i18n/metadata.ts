@@ -4,6 +4,7 @@ import { getToolById } from "@/lib/catalog"
 import { SITE_URL, type Locale } from "./config"
 import { getLocale } from "./get-locale"
 import { absoluteUrl, languageAlternates, stripLocale } from "./paths"
+import { COLLECTION_DEFS } from "@/lib/directory/collections"
 import { categoryCopy, translate } from "./messages"
 import { localizeTool } from "./localize-tool"
 
@@ -22,6 +23,21 @@ function pageCopy(locale: Locale, pathname: string): { title: string; descriptio
   }
   if (path === "/categories") return { title: t("meta.categoriesTitle"), description: t("meta.categoriesDescription") }
   if (path === "/tools") return { title: t("meta.toolsTitle"), description: t("meta.toolsDescription") }
+  if (path === "/catalogue") return { title: t("meta.catalogueTitle"), description: t("meta.catalogueDescription") }
+  if (path === "/collections") return { title: t("meta.collectionsTitle"), description: t("meta.collectionsDescription") }
+  if (path === "/automations") return { title: t("meta.automationsTitle"), description: t("meta.automationsDescription") }
+  if (path === "/compare") return { title: t("meta.compareTitle"), description: t("meta.compareDescription") }
+
+  const collectionMatch = path.match(/^\/collections\/([^/]+)$/)
+  if (collectionMatch) {
+    const definition = COLLECTION_DEFS.find((collection) => collection.slug === decodeURIComponent(collectionMatch[1]))
+    if (definition) {
+      return {
+        title: `${definition.title[locale]} | AITools.ninja`,
+        description: definition.blurb[locale],
+      }
+    }
+  }
   if (path === "/category/new") return { title: t("meta.newTitle"), description: t("meta.newDescription") }
   if (path === "/category/popular") return { title: t("meta.popularTitle"), description: t("meta.popularDescription") }
   if (path === "/category/top-rated") return { title: t("meta.topTitle"), description: t("meta.topDescription") }
@@ -98,7 +114,12 @@ export function buildPageMetadata(locale: Locale, pathname: string): Metadata {
       site: "@aitoolsninja",
     },
     icons: {
-      icon: "/favicon.ico",
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/brand/favicon-32.png", type: "image/png", sizes: "32x32" },
+        { url: "/brand/icon-192.png", type: "image/png", sizes: "192x192" },
+      ],
+      apple: "/apple-touch-icon.png",
     },
   }
 }
