@@ -4,7 +4,7 @@ import { pageMetadata } from "@/lib/seo"
 
 export const metadata: Metadata = pageMetadata({
   title: "About",
-  description: "AI Tools Ninja organizes publicly available information about AI tools so you can compare categories, pricing labels, and official websites.",
+  description: "AItools.ninja organizes publicly available information about AI tools so you can compare categories, pricing labels, and official websites.",
   path: "/about",
 })
 

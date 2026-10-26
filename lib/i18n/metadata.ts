@@ -34,7 +34,7 @@ function pageCopy(locale: Locale, pathname: string): { title: string; descriptio
     const definition = COLLECTION_DEFS.find((collection) => collection.slug === decodeURIComponent(collectionMatch[1]))
     if (definition) {
       return {
-        title: `${definition.title[locale]} | AITools.ninja`,
+        title: `${definition.title[locale]} | AItools.ninja`,
         description: definition.blurb[locale],
       }
     }
@@ -94,7 +94,7 @@ export function buildPageMetadata(locale: Locale, pathname: string): Metadata {
       title,
       description,
       url: canonical,
-      siteName: "AITools.ninja",
+      siteName: "AItools.ninja",
       locale: locale === "fr" ? "fr_FR" : "en_US",
       alternateLocale: locale === "fr" ? ["en_US"] : ["fr_FR"],
       type: "website",

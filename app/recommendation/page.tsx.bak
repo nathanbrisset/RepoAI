@@ -8,7 +8,7 @@ import type { Tool } from '@/lib/types'
 import { redirect } from 'next/navigation'
 
 export const metadata: Metadata = {
-  title: 'AI Tool Recommendation | AI Tools Ninja',
+  title: 'AI Tool Recommendation | AItools.ninja',
   description: 'Get personalized AI tool recommendations based on your needs',
 }
 

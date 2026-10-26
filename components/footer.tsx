@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="container mx-auto max-w-6xl px-4 py-12">
         <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-10 md:gap-0">
           <div className="flex-1 mb-8 md:mb-0 md:mr-8">
-            <h3 className="font-bold text-lg mb-4">AITools.ninja</h3>
+            <h3 className="font-bold text-lg mb-4">AItools.ninja</h3>
             <p className="text-gray-600 mb-2">{t("footer.tagline")}</p>
           </div>
 

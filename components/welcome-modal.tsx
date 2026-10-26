@@ -36,7 +36,7 @@ export default function WelcomeModal() {
           <div className="flex justify-center">
             <Image
               src="/ninja-logo.png"
-              alt="AI Tools Ninja Logo"
+              alt="AItools.ninja Logo"
               width={120}
               height={120}
               className="mb-4"

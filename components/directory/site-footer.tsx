@@ -33,7 +33,7 @@ export function SiteFooter() {
         <div className="flex flex-col gap-4 border-t border-background/15 pt-6 text-sm text-background/60 md:flex-row md:items-center md:justify-between">
           <span className="flex items-center gap-2 font-display text-base text-background">
             <Shuriken className="size-4 text-accent" />
-            aitools.ninja
+            AItools.ninja
           </span>
           <p>{t.footerTagline}</p>
         </div>

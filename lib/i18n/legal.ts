@@ -20,7 +20,7 @@ const privacy: Record<Locale, LegalDocument> = {
       {
         heading: "1. Introduction",
         paragraphs: [
-          "Welcome to AITools.ninja. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you visit our website and tell you about your privacy rights.",
+          "Welcome to AItools.ninja. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you visit our website and tell you about your privacy rights.",
         ],
       },
       {
@@ -81,7 +81,7 @@ const privacy: Record<Locale, LegalDocument> = {
       {
         heading: "1. Introduction",
         paragraphs: [
-          "Bienvenue sur AITools.ninja. Nous respectons votre vie privée et protégeons vos données personnelles. Cette politique explique comment nous traitons ces données lorsque vous visitez le site, et quels sont vos droits.",
+          "Bienvenue sur AItools.ninja. Nous respectons votre vie privée et protégeons vos données personnelles. Cette politique explique comment nous traitons ces données lorsque vous visitez le site, et quels sont vos droits.",
         ],
       },
       {
@@ -145,13 +145,13 @@ const terms: Record<Locale, LegalDocument> = {
       {
         heading: "1. Agreement to Terms",
         paragraphs: [
-          "By accessing and using AITools.ninja, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing this site.",
+          "By accessing and using AItools.ninja, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing this site.",
         ],
       },
       {
         heading: "2. Use License",
         paragraphs: [
-          "Permission is granted to temporarily access the materials (information or software) on AITools.ninja for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:",
+          "Permission is granted to temporarily access the materials (information or software) on AItools.ninja for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:",
         ],
         list: [
           "Modify or copy the materials",
@@ -170,31 +170,31 @@ const terms: Record<Locale, LegalDocument> = {
       {
         heading: "4. Disclaimer",
         paragraphs: [
-          "The materials on AITools.ninja are provided on an 'as is' basis. AITools.ninja makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.",
+          "The materials on AItools.ninja are provided on an 'as is' basis. AItools.ninja makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.",
         ],
       },
       {
         heading: "5. Limitations",
         paragraphs: [
-          "In no event shall AITools.ninja or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on AITools.ninja.",
+          "In no event shall AItools.ninja or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on AItools.ninja.",
         ],
       },
       {
         heading: "6. Accuracy of Materials",
         paragraphs: [
-          "The materials appearing on AITools.ninja could include technical, typographical, or photographic errors. AITools.ninja does not warrant that any of the materials on its website are accurate, complete, or current. AITools.ninja may make changes to the materials contained on its website at any time without notice.",
+          "The materials appearing on AItools.ninja could include technical, typographical, or photographic errors. AItools.ninja does not warrant that any of the materials on its website are accurate, complete, or current. AItools.ninja may make changes to the materials contained on its website at any time without notice.",
         ],
       },
       {
         heading: "7. Links",
         paragraphs: [
-          "AITools.ninja has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by AITools.ninja of the site. Use of any such linked website is at the user's own risk.",
+          "AItools.ninja has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by AItools.ninja of the site. Use of any such linked website is at the user's own risk.",
         ],
       },
       {
         heading: "8. Modifications",
         paragraphs: [
-          "AITools.ninja may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.",
+          "AItools.ninja may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.",
         ],
       },
       {
@@ -213,13 +213,13 @@ const terms: Record<Locale, LegalDocument> = {
       {
         heading: "1. Acceptation des conditions",
         paragraphs: [
-          "En accédant à AITools.ninja et en l'utilisant, vous acceptez ces conditions d'utilisation ainsi que les lois et règlements applicables. Si vous n'acceptez pas l'une de ces conditions, vous ne devez pas utiliser ce site ni y accéder.",
+          "En accédant à AItools.ninja et en l'utilisant, vous acceptez ces conditions d'utilisation ainsi que les lois et règlements applicables. Si vous n'acceptez pas l'une de ces conditions, vous ne devez pas utiliser ce site ni y accéder.",
         ],
       },
       {
         heading: "2. Licence d'utilisation",
         paragraphs: [
-          "L'accès aux contenus (informations ou logiciels) d'AITools.ninja est autorisé de façon temporaire, pour une consultation personnelle, non commerciale et transitoire. Il s'agit d'une licence, pas d'un transfert de propriété. À ce titre, vous ne pouvez pas :",
+          "L'accès aux contenus (informations ou logiciels) d'AItools.ninja est autorisé de façon temporaire, pour une consultation personnelle, non commerciale et transitoire. Il s'agit d'une licence, pas d'un transfert de propriété. À ce titre, vous ne pouvez pas :",
         ],
         list: [
           "Modifier ou copier les contenus",
@@ -238,31 +238,31 @@ const terms: Record<Locale, LegalDocument> = {
       {
         heading: "4. Avertissement",
         paragraphs: [
-          "Les contenus d'AITools.ninja sont fournis « en l'état ». AITools.ninja n'accorde aucune garantie, expresse ou implicite, et écarte toute autre garantie, y compris, sans s'y limiter, les garanties implicites de qualité marchande, d'adéquation à un usage particulier, ou d'absence d'atteinte à un droit de propriété intellectuelle ou à un autre droit.",
+          "Les contenus d'AItools.ninja sont fournis « en l'état ». AItools.ninja n'accorde aucune garantie, expresse ou implicite, et écarte toute autre garantie, y compris, sans s'y limiter, les garanties implicites de qualité marchande, d'adéquation à un usage particulier, ou d'absence d'atteinte à un droit de propriété intellectuelle ou à un autre droit.",
         ],
       },
       {
         heading: "5. Limitation de responsabilité",
         paragraphs: [
-          "AITools.ninja et ses fournisseurs ne pourront en aucun cas être tenus responsables d'un dommage (y compris, sans s'y limiter, la perte de données ou de profit, ou une interruption d'activité) résultant de l'usage ou de l'impossibilité d'utiliser les contenus du site.",
+          "AItools.ninja et ses fournisseurs ne pourront en aucun cas être tenus responsables d'un dommage (y compris, sans s'y limiter, la perte de données ou de profit, ou une interruption d'activité) résultant de l'usage ou de l'impossibilité d'utiliser les contenus du site.",
         ],
       },
       {
         heading: "6. Exactitude des contenus",
         paragraphs: [
-          "Les contenus présents sur AITools.ninja peuvent comporter des erreurs techniques, typographiques ou photographiques. AITools.ninja ne garantit pas que les contenus du site sont exacts, complets ou à jour. AITools.ninja peut modifier ces contenus à tout moment, sans préavis.",
+          "Les contenus présents sur AItools.ninja peuvent comporter des erreurs techniques, typographiques ou photographiques. AItools.ninja ne garantit pas que les contenus du site sont exacts, complets ou à jour. AItools.ninja peut modifier ces contenus à tout moment, sans préavis.",
         ],
       },
       {
         heading: "7. Liens",
         paragraphs: [
-          "AITools.ninja n'a pas examiné l'ensemble des sites vers lesquels il pointe et n'est pas responsable de leur contenu. La présence d'un lien n'implique pas une approbation du site lié. L'usage d'un site lié se fait aux risques de l'utilisateur.",
+          "AItools.ninja n'a pas examiné l'ensemble des sites vers lesquels il pointe et n'est pas responsable de leur contenu. La présence d'un lien n'implique pas une approbation du site lié. L'usage d'un site lié se fait aux risques de l'utilisateur.",
         ],
       },
       {
         heading: "8. Modifications",
         paragraphs: [
-          "AITools.ninja peut réviser ces conditions à tout moment, sans préavis. En utilisant le site, vous acceptez la version alors en vigueur.",
+          "AItools.ninja peut réviser ces conditions à tout moment, sans préavis. En utilisant le site, vous acceptez la version alors en vigueur.",
         ],
       },
       {
@@ -284,7 +284,7 @@ const legalNotice: Record<Locale, LegalDocument> = {
       {
         heading: "Publisher",
         paragraphs: [
-          "Website: AITools.ninja",
+          "Website: AItools.ninja",
           "Legal entity: TBD",
           "Registered office: TBD",
           "Contact: aitoolrequest@gmail.com",
@@ -317,7 +317,7 @@ const legalNotice: Record<Locale, LegalDocument> = {
       {
         heading: "Éditeur du site",
         paragraphs: [
-          "Site : AITools.ninja",
+          "Site : AItools.ninja",
           "Raison sociale : À compléter",
           "Siège social : À compléter",
           "Contact : aitoolrequest@gmail.com",
