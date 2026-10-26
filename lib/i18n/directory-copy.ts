@@ -2,7 +2,7 @@ import type { Locale } from "./config"
 
 const copy = {
   en: {
-    brand: "aitools.ninja",
+    brand: "AItools.ninja",
     navCatalogue: "Catalogue",
     navCollections: "Collections",
     navAutomations: "Automations",
@@ -181,7 +181,7 @@ const copy = {
     suggestions: "Suggestions",
   },
   fr: {
-    brand: "aitools.ninja",
+    brand: "AItools.ninja",
     navCatalogue: "Catalogue",
     navCollections: "Collections",
     navAutomations: "Automations",

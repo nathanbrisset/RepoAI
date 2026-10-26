@@ -114,15 +114,22 @@ function SiteHeaderInner() {
   return (
     <header className={cn("sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur", scrolled && "shadow-sm")}>
       <div className="mx-auto flex max-w-[1600px] items-center gap-3 px-4 py-3 md:gap-4 md:px-6">
-        <LocaleLink href="/" className="flex shrink-0 items-center" aria-label="AItools.ninja">
+        <LocaleLink
+          href="/"
+          className="flex shrink-0 items-center gap-3 md:gap-3.5 mr-2 md:mr-4 lg:mr-6"
+          aria-label={t.brand}
+        >
           <img
-            src="/brand/aitools-ninja-logo.png"
-            alt="AItools.ninja"
-            width={212}
-            height={73}
+            src="/brand/aitools-ninja-mark.png"
+            alt=""
+            width={32}
+            height={32}
             decoding="async"
-            className="h-8 w-auto sm:h-9"
+            className="h-8 w-8 shrink-0 object-contain"
           />
+          <span className="font-display text-base font-bold leading-none tracking-tight text-foreground sm:text-lg">
+            AItools.ninja
+          </span>
         </LocaleLink>
 
         <nav aria-label={t.primaryNav} className="hidden items-center gap-4 text-sm font-semibold lg:flex">
