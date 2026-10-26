@@ -115,8 +115,11 @@ export function buildPageMetadata(locale: Locale, pathname: string): Metadata {
       site: "@aitoolsninja",
     },
     icons: {
-      icon: [{ url: "/icon.png", type: "image/png" }, { url: "/favicon.ico" }],
-      apple: "/brand/aitools-ninja-mark.png",
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/brand/favicon-32.png", sizes: "32x32", type: "image/png" },
+      ],
+      apple: "/apple-icon.png",
     },
   }
 }

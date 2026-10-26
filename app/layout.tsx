@@ -39,9 +39,6 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className={`${geist.variable} ${dela.variable}`} suppressHydrationWarning>
-      <head>
-        <link rel="icon" href="/favicon.ico" />
-      </head>
       <body className="bg-background font-sans text-foreground antialiased">
         <LocaleProvider locale={locale}>
           <ThemeProvider attribute="class" forcedTheme="light" enableSystem={false} disableTransitionOnChange>
