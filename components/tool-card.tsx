@@ -1,7 +1,7 @@
 "use client"
 
 import { Image as ImageIcon } from "lucide-react"
-import Image from "next/image"
+import { cn } from "@/lib/utils"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import type { Tool } from "@/lib/types"
@@ -27,13 +27,15 @@ export default function ToolCard({ tool }: ToolCardProps) {
       <LocaleLink href={`/tool/${localized.id}`} className="block">
         <div className="relative bg-gray-100 flex items-center justify-center" style={{ height: 160 }}>
           {visual ? (
-            <Image
+            <img
               src={visual}
               alt={localized.name}
-              fill
-              className={localized.image ? "object-cover" : "object-contain p-8"}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              unoptimized={visual.endsWith(".svg")}
+              className={cn(
+                "absolute inset-0 h-full w-full",
+                localized.image ? "object-cover" : "object-contain p-8",
+              )}
+              loading="lazy"
+              decoding="async"
             />
           ) : (
             <ImageIcon className="w-12 h-12 text-gray-300" />

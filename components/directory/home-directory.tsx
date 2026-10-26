@@ -134,7 +134,7 @@ export function HomeDirectory({
   }
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <section className="mx-auto grid max-w-[1400px] items-center gap-10 px-4 py-10 md:px-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(280px,0.8fr)] lg:py-16">
         <div className="min-w-0">
           <p className="mb-5 text-sm font-bold uppercase tracking-[0.22em] text-accent">{t.dojo}</p>
@@ -201,17 +201,17 @@ export function HomeDirectory({
         </div>
       </section>
 
-      <section className="mx-auto max-w-[1400px] border-t border-border px-4 py-12 md:px-8">
+      <section className="mx-auto max-w-[1400px] min-w-0 overflow-hidden border-t border-border px-4 py-12 md:px-8">
         <div className="mb-6 flex items-end justify-between gap-4">
-          <div>
+          <div className="min-w-0">
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent">{t.collectionsKicker}</p>
             <h2 className="font-display text-3xl">{t.collectionsTitle}</h2>
           </div>
-          <LocaleLink href="/collections" className="hidden font-semibold sm:inline">
+          <LocaleLink href="/collections" className="hidden shrink-0 font-semibold sm:inline">
             {t.allCollections} <ArrowRight className="inline size-4" />
           </LocaleLink>
         </div>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid min-w-0 gap-4 md:grid-cols-2 lg:grid-cols-4">
           {collections.slice(0, 4).map((collection, index) => (
             <CollectionCard key={collection.slug} slug={collection.slug} title={collection.title} blurb={collection.blurb} tools={collection.tools} index={index} />
           ))}

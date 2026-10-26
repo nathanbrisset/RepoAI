@@ -48,7 +48,7 @@ export default async function RootLayout({
             <DirectoryProvider records={records} chips={chips} total={records.length} today={new Date().toISOString().slice(0, 10)}>
               <div className="flex min-h-screen flex-col">
                 <SiteHeader />
-                <main className="flex-grow">{children}</main>
+                <main className="flex-grow overflow-x-hidden">{children}</main>
                 <CompareSpacer />
                 <SiteFooter />
               </div>

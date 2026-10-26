@@ -29,13 +29,13 @@ export function CollectionCard({
       <button
         type="button"
         onClick={() => router.push(localizeHref(locale, `/collections/${slug}`))}
-        className="group flex min-h-[280px] w-full flex-col justify-between overflow-hidden rounded-3xl bg-foreground p-5 text-left text-background transition duration-300 hover:-translate-y-1 hover:shadow-2xl"
+        className="group flex min-h-[280px] w-full min-w-0 max-w-full flex-col justify-between overflow-hidden rounded-3xl bg-foreground p-5 text-left text-background transition duration-300 hover:-translate-y-1 hover:shadow-2xl"
       >
         <div className="flex items-center justify-between">
           <span className="rounded-full border border-accent px-2.5 py-1 text-xs font-semibold tracking-widest text-accent uppercase">{t.dojoPick}</span>
           <span className="text-xs text-background/70">{t.editorial}</span>
         </div>
-        <div className="flex">
+        <div className="flex max-w-full overflow-hidden">
           {tools.slice(0, 4).map((tool, toolIndex) => (
             <span key={tool.id} className="-ml-3 first:ml-0" style={{ zIndex: 4 - toolIndex }}>
               <ToolLogo tool={tool} className="size-12 bg-card text-foreground ring-4 ring-foreground" />
@@ -46,8 +46,8 @@ export function CollectionCard({
           <h3 className="font-display text-xl leading-tight">{title}</h3>
           <p className="mt-1 text-sm leading-relaxed text-background/70">{blurb}</p>
         </div>
-        <span className="flex items-center gap-2 text-sm font-semibold">
-          <span className="truncate">{tools.map((tool) => tool.name).join(" + ")}</span>
+        <span className="flex min-w-0 items-center gap-2 text-sm font-semibold">
+          <span className="min-w-0 truncate">{tools.map((tool) => tool.name).join(" + ")}</span>
           <ArrowRight className="size-4 shrink-0 transition-transform group-hover:translate-x-1" aria-hidden="true" />
         </span>
       </button>

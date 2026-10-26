@@ -17,6 +17,7 @@ function pageCopy(locale: Locale, pathname: string): { title: string; descriptio
   if (path === "/contact") return { title: t("meta.contactTitle"), description: t("meta.contactDescription") }
   if (path === "/privacy") return { title: t("meta.privacyTitle"), description: t("meta.privacyDescription") }
   if (path === "/terms") return { title: t("meta.termsTitle"), description: t("meta.termsDescription") }
+  if (path === "/legal") return { title: t("meta.legalTitle"), description: t("meta.legalDescription") }
   if (path === "/submit") return { title: t("meta.submitTitle"), description: t("meta.submitDescription") }
   if (path === "/recommendation") {
     return { title: t("meta.recommendationTitle"), description: t("meta.recommendationDescription") }

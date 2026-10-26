@@ -1,10 +1,9 @@
 "use client";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useRef, useState } from "react";
-import { Mail, MessageSquare } from "lucide-react"
+import { Mail } from "lucide-react"
 import { useT } from "@/components/locale-provider"
 
 export default function ContactPage() {
@@ -184,12 +183,14 @@ export default function ContactPage() {
           <div className="space-y-8">
             <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100">
               <div className="flex justify-center mb-6">
-                <Image
+                <img
                   src="/ccare.png"
                   alt={t("contact.careAlt")}
                   width={200}
                   height={200}
                   className="rounded-lg"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <h2 className="text-2xl font-bold mb-6 text-gray-900">{t("contact.infoTitle")}</h2>
@@ -198,16 +199,10 @@ export default function ContactPage() {
                   <Mail className="h-6 w-6 text-blue-600 mt-1 mr-4" />
                   <div>
                     <h3 className="font-semibold text-gray-900">{t("contact.emailLabel")}</h3>
-                    <p className="text-gray-600">contact@aitoolsninja.com</p>
+                    <a href="mailto:contact@aitools.ninja" className="text-gray-600 hover:text-primary underline">
+                      contact@aitools.ninja
+                    </a>
                     <p className="text-sm text-gray-500 mt-1">{t("contact.replyTime")}</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <MessageSquare className="h-6 w-6 text-blue-600 mt-1 mr-4" />
-                  <div>
-                    <h3 className="font-semibold text-gray-900">{t("contact.chatTitle")}</h3>
-                    <p className="text-gray-600">{t("contact.chatBody")}</p>
-                    <p className="text-sm text-gray-500 mt-1">{t("contact.chatNote")}</p>
                   </div>
                 </div>
               </div>

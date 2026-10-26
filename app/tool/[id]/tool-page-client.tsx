@@ -3,7 +3,6 @@
 import { useState } from "react"
 import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
-import Image from "next/image"
 import { ExternalLink, ThumbsUp, LogIn, FilePlus, User, ImageIcon, Upload, Globe, Zap, Eye, Download, HelpCircle } from "lucide-react"
 import ToolCard from "@/components/tool-card"
 import { Tool } from '@/lib/types'
@@ -112,7 +111,7 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
           </div>
           {(tool.image || tool.logo) && (
           <div className="w-full aspect-[4/3] bg-gray-100 rounded-xl flex items-center justify-center mb-6 relative overflow-hidden" style={{ minHeight: 340 }}>
-            <Image src={tool.image || tool.logo || ""} alt={tool.name} fill className="object-contain" unoptimized={(tool.image || tool.logo || "").endsWith(".svg")} />
+            <img src={tool.image || tool.logo || ""} alt={tool.name} className="max-h-full max-w-full object-contain" loading="lazy" decoding="async" />
           </div>
           )}
           {/* Tabs */}

@@ -276,10 +276,83 @@ const terms: Record<Locale, LegalDocument> = {
   },
 }
 
+const legalNotice: Record<Locale, LegalDocument> = {
+  en: {
+    title: "Legal notice",
+    updated: "Last updated: {date}",
+    sections: [
+      {
+        heading: "Publisher",
+        paragraphs: [
+          "Website: AITools.ninja",
+          "Legal entity: To be completed",
+          "Registered office: To be completed",
+          "Contact: contact@aitools.ninja",
+        ],
+      },
+      {
+        heading: "Publication director",
+        paragraphs: ["To be completed"],
+      },
+      {
+        heading: "Hosting provider",
+        paragraphs: [
+          "Vercel Inc.",
+          "440 N Barranca Ave #4133, Covina, CA 91723, United States",
+          "https://vercel.com",
+        ],
+      },
+      {
+        heading: "Contact",
+        paragraphs: [
+          "For any question about this site, email contact@aitools.ninja.",
+        ],
+      },
+    ],
+  },
+  fr: {
+    title: "Mentions légales",
+    updated: "Dernière mise à jour : {date}",
+    sections: [
+      {
+        heading: "Éditeur du site",
+        paragraphs: [
+          "Site : AITools.ninja",
+          "Raison sociale : À compléter",
+          "Siège social : À compléter",
+          "Contact : contact@aitools.ninja",
+        ],
+      },
+      {
+        heading: "Directeur de la publication",
+        paragraphs: ["À compléter"],
+      },
+      {
+        heading: "Hébergeur",
+        paragraphs: [
+          "Vercel Inc.",
+          "440 N Barranca Ave #4133, Covina, CA 91723, États-Unis",
+          "https://vercel.com",
+        ],
+      },
+      {
+        heading: "Contact",
+        paragraphs: [
+          "Pour toute question concernant ce site : contact@aitools.ninja.",
+        ],
+      },
+    ],
+  },
+}
+
 export function privacyDocument(locale: Locale) {
   return privacy[locale]
 }
 
 export function termsDocument(locale: Locale) {
   return terms[locale]
+}
+
+export function legalNoticeDocument(locale: Locale) {
+  return legalNotice[locale]
 }

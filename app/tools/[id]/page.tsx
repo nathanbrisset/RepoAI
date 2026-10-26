@@ -1,7 +1,6 @@
 import { mockTools } from "@/lib/data"
 import { metadataFor } from "@/lib/i18n/metadata"
 import { notFound } from "next/navigation"
-import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -42,12 +41,12 @@ export default async function Page(props: any) {
             <div className="w-full md:w-1/3">
               <div className="relative bg-gray-100 rounded-xl overflow-hidden" style={{height: 240}}>
                 {tool.image ? (
-                  <Image
+                  <img
                     src={tool.image}
                     alt={tool.name}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="absolute inset-0 h-full w-full object-cover"
+                    loading="lazy"
+                    decoding="async"
                   />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center">

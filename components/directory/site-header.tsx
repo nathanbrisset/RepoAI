@@ -118,8 +118,8 @@ function SiteHeaderInner() {
           <img
             src="/brand/aitools-ninja-logo.png"
             alt="AItools.ninja"
-            width={1066}
-            height={367}
+            width={212}
+            height={73}
             decoding="async"
             className="h-8 w-auto sm:h-9"
           />
