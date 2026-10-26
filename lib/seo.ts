@@ -110,7 +110,8 @@ export const rootMetadata: Metadata = {
     images: [OG_IMAGE_URL],
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [{ url: "/icon.png", type: "image/png" }, { url: "/favicon.ico" }],
+    apple: "/brand/aitools-ninja-mark.png",
   },
 }
 
