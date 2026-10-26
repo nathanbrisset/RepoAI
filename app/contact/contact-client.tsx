@@ -1,233 +1,172 @@
-"use client";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { useRef, useState } from "react";
+"use client"
+
+import { ArrowRight } from "lucide-react"
+import { useRef, useState } from "react"
 import { Mail } from "lucide-react"
+import LocaleLink from "@/components/locale-link"
+import { useLocale } from "@/components/locale-provider"
 import { useT } from "@/components/locale-provider"
+import { directoryCopy } from "@/lib/i18n/directory-copy"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Textarea } from "@/components/ui/textarea"
 
 export default function ContactPage() {
   const t = useT()
-  const formRef = useRef<HTMLFormElement>(null);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [success, setSuccess] = useState(false);
-  const [error, setError] = useState("");
-  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
-  const [isNotRobot, setIsNotRobot] = useState(false);
-  const [consent, setConsent] = useState(false);
+  const locale = useLocale()
+  const nav = directoryCopy(locale)
+  const formRef = useRef<HTMLFormElement>(null)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [success, setSuccess] = useState(false)
+  const [error, setError] = useState("")
+  const [isNotRobot, setIsNotRobot] = useState(false)
+  const [consent, setConsent] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+    e.preventDefault()
     if (!formRef.current) {
-      setError(t("contact.missingForm"));
-      return;
+      setError(t("contact.missingForm"))
+      return
     }
     if (!isNotRobot) {
-      setError(t("contact.confirmRobot"));
-      return;
+      setError(t("contact.confirmRobot"))
+      return
     }
     if (!consent) {
-      setError(t("contact.confirmConsent"));
-      return;
+      setError(t("contact.confirmConsent"))
+      return
     }
-    setIsSubmitting(true);
-    setSuccess(false);
-    setError("");
-    
-    const formData = new FormData(formRef.current);
+    setIsSubmitting(true)
+    setSuccess(false)
+    setError("")
+
+    const formData = new FormData(formRef.current)
     const data = {
-      firstName: formData.get('firstName'),
-      lastName: formData.get('lastName'),
-      email: formData.get('email'),
-      subject: formData.get('subject'),
-      message: formData.get('message')
-    };
+      firstName: formData.get("firstName"),
+      lastName: formData.get("lastName"),
+      email: formData.get("email"),
+      subject: formData.get("subject"),
+      message: formData.get("message"),
+    }
 
     try {
       const response = await fetch("/api/send-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
-      });
-
-      const result = await response.json();
-      
+      })
+      const result = await response.json()
       if (!response.ok) {
-        throw new Error(result.error || t("contact.sendFailed"));
+        throw new Error(result.error || t("contact.sendFailed"))
       }
-
-      setSuccess(true);
-      formRef.current.reset();
-      setIsNotRobot(false);
-      setConsent(false);
+      setSuccess(true)
+      formRef.current.reset()
+      setIsNotRobot(false)
+      setConsent(false)
     } catch (err) {
-      console.error('Error sending message:', err);
-      setError(err instanceof Error ? err.message : t("contact.sendFailed"));
+      setError(err instanceof Error ? err.message : t("contact.sendFailed"))
     } finally {
-      setIsSubmitting(false);
+      setIsSubmitting(false)
     }
-  };
+  }
 
-  const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "";
+  const asideSections = [
+    { title: t("contact.readTitle"), body: t("contact.readBody") },
+    { title: t("contact.partnersTitle"), body: t("contact.partnersBody") },
+    { title: t("contact.otherTitle"), body: t("contact.otherBody") },
+  ]
 
   return (
-    <div className="min-h-screen bg-background">
-      <div className="container mx-auto max-w-4xl px-4 py-16">
-        <div className="text-center mb-16">
-          <h1 className="text-5xl font-extrabold mb-6 text-black">{t("contact.title")}</h1>
-          <p className="text-xl text-gray-600">
-            {t("contact.subtitle")}
-          </p>
+    <main className="mx-auto max-w-[1400px] px-4 py-10 md:px-8 md:py-16">
+      <LocaleLink href="/" className="font-semibold text-primary">
+        ← {nav.backHome}
+      </LocaleLink>
+      <p className="mt-12 text-sm font-bold uppercase tracking-[0.2em] text-accent">{nav.brand}</p>
+      <h1 className="mt-2 font-display text-5xl md:text-6xl">{t("contact.title")}</h1>
+      <p className="mt-4 max-w-2xl text-lg text-muted-foreground">{t("contact.lead")}</p>
+
+      <div className="mt-12 grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(280px,0.9fr)]">
+        <div className="rounded-3xl bg-card p-6 ring-1 ring-border md:p-8">
+          <h2 className="font-display text-2xl">{t("contact.sendTitle")}</h2>
+          <form ref={formRef} onSubmit={handleSubmit} className="mt-6 space-y-5">
+            <div className="grid gap-5 sm:grid-cols-2">
+              <div>
+                <label htmlFor="firstName" className="mb-1 block text-sm font-semibold">{t("contact.firstName")}</label>
+                <Input id="firstName" name="firstName" required placeholder={t("contact.firstNamePlaceholder")} />
+              </div>
+              <div>
+                <label htmlFor="lastName" className="mb-1 block text-sm font-semibold">{t("contact.lastName")}</label>
+                <Input id="lastName" name="lastName" required placeholder={t("contact.lastNamePlaceholder")} />
+              </div>
+            </div>
+            <div>
+              <label htmlFor="email" className="mb-1 block text-sm font-semibold">{t("contact.email")}</label>
+              <Input id="email" name="email" type="email" required placeholder="your@email.com" />
+            </div>
+            <div>
+              <label htmlFor="subject" className="mb-1 block text-sm font-semibold">{t("contact.subject")}</label>
+              <Input id="subject" name="subject" required placeholder={t("contact.subjectPlaceholder")} />
+            </div>
+            <div>
+              <label htmlFor="message" className="mb-1 block text-sm font-semibold">{t("contact.message")}</label>
+              <Textarea id="message" name="message" required className="min-h-[150px]" placeholder={t("contact.messagePlaceholder")} />
+            </div>
+            <label className="flex items-start gap-2 text-sm">
+              <input type="checkbox" checked={isNotRobot} onChange={(e) => setIsNotRobot(e.target.checked)} className="mt-1" />
+              <span>{t("contact.notRobot")}</span>
+            </label>
+            <label className="flex items-start gap-2 text-sm">
+              <input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-1" />
+              <span>{t("contact.consent")}</span>
+            </label>
+            {success ? <p className="text-sm font-semibold text-primary">{t("contact.success")}</p> : null}
+            {error ? <p className="text-sm font-semibold text-destructive">{error}</p> : null}
+            <Button type="submit" className="w-full rounded-full" disabled={isSubmitting}>
+              {isSubmitting ? t("contact.sending") : t("contact.send")}
+            </Button>
+          </form>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* Contact Form */}
-          <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100">
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">{t("contact.sendTitle")}</h2>
-            <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
+        <div className="space-y-6">
+          {asideSections.map((section) => (
+            <section key={section.title} className="rounded-3xl bg-card p-6 ring-1 ring-border">
+              <h2 className="font-display text-xl">{section.title}</h2>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{section.body}</p>
+            </section>
+          ))}
+          <section className="rounded-3xl bg-card p-6 ring-1 ring-border">
+            <div className="flex items-start gap-3">
+              <Mail className="mt-0.5 size-5 shrink-0 text-primary" aria-hidden="true" />
               <div>
-                <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-1">
-                  {t("contact.firstName")}
-                </label>
-                <Input
-                  id="firstName"
-                  name="firstName"
-                  type="text"
-                  required
-                  className="w-full"
-                  placeholder={t("contact.firstNamePlaceholder")}
-                />
-              </div>
-              <div>
-                <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-1">
-                  {t("contact.lastName")}
-                </label>
-                <Input
-                  id="lastName"
-                  name="lastName"
-                  type="text"
-                  required
-                  className="w-full"
-                  placeholder={t("contact.lastNamePlaceholder")}
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                  {t("contact.email")}
-                </label>
-                <Input
-                  id="email"
-                  name="email"
-                  type="email"
-                  required
-                  className="w-full"
-                  placeholder="your@email.com"
-                />
-              </div>
-              <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">
-                  {t("contact.subject")}
-                </label>
-                <Input
-                  id="subject"
-                  name="subject"
-                  type="text"
-                  required
-                  className="w-full"
-                  placeholder={t("contact.subjectPlaceholder")}
-                />
-              </div>
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                  {t("contact.message")}
-                </label>
-                <Textarea
-                  id="message"
-                  name="message"
-                  required
-                  className="w-full min-h-[150px]"
-                  placeholder={t("contact.messagePlaceholder")}
-                />
-              </div>
-              <div>
-                <label className="flex items-center space-x-2">
-                  <input
-                    type="checkbox"
-                    checked={isNotRobot}
-                    onChange={e => setIsNotRobot(e.target.checked)}
-                    className="form-checkbox h-4 w-4 text-blue-600"
-                  />
-                  <span>{t("contact.notRobot")}</span>
-                </label>
-              </div>
-              <div>
-                <label className="flex items-center space-x-2">
-                  <input
-                    type="checkbox"
-                    checked={consent}
-                    onChange={e => setConsent(e.target.checked)}
-                    className="form-checkbox h-4 w-4 text-blue-600"
-                  />
-                  <span>{t("contact.consent")}</span>
-                </label>
-              </div>
-              {success && <div className="text-green-600 text-center">{t("contact.success")}</div>}
-              {error && <div className="text-red-600 text-center">{error}</div>}
-              <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700" disabled={isSubmitting}>
-                {isSubmitting ? t("contact.sending") : t("contact.send")}
-              </Button>
-            </form>
-          </div>
-
-          {/* Contact Information */}
-          <div className="space-y-8">
-            <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100">
-              <div className="flex justify-center mb-6">
-                <img
-                  src="/ccare.png"
-                  alt={t("contact.careAlt")}
-                  width={200}
-                  height={200}
-                  className="rounded-lg"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-              <h2 className="text-2xl font-bold mb-6 text-gray-900">{t("contact.infoTitle")}</h2>
-              <div className="space-y-6">
-                <div className="flex items-start">
-                  <Mail className="h-6 w-6 text-blue-600 mt-1 mr-4" />
-                  <div>
-                    <h3 className="font-semibold text-gray-900">{t("contact.emailLabel")}</h3>
-                    <a href="mailto:aitoolrequest@gmail.com" className="text-gray-600 hover:text-primary underline">
-                      aitoolrequest@gmail.com
-                    </a>
-                    <p className="text-sm text-gray-500 mt-1">{t("contact.replyTime")}</p>
-                  </div>
-                </div>
+                <h2 className="font-display text-xl">{t("contact.infoTitle")}</h2>
+                <a href="mailto:aitoolrequest@gmail.com" className="mt-2 inline-block font-semibold text-primary underline">
+                  aitoolrequest@gmail.com
+                </a>
               </div>
             </div>
-
-            <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100">
-              <h2 className="text-2xl font-bold mb-6 text-gray-900">{t("contact.faqTitle")}</h2>
-              <div className="space-y-4">
-                <div>
-                  <h3 className="font-semibold text-gray-900">{t("contact.faqSubmitQ")}</h3>
-                  <p className="text-gray-600">{t("contact.faqSubmitA")}</p>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900">{t("contact.faqReviewQ")}</h3>
-                  <p className="text-gray-600">{t("contact.faqReviewA")}</p>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900">{t("contact.faqAdsQ")}</h3>
-                  <p className="text-gray-600">{t("contact.faqAdsA")}</p>
-                </div>
+          </section>
+          <section className="rounded-3xl bg-card p-6 ring-1 ring-border">
+            <h2 className="font-display text-xl">{t("contact.faqTitle")}</h2>
+            <dl className="mt-4 space-y-4 text-sm">
+              <div>
+                <dt className="font-semibold">{t("contact.faqFixQ")}</dt>
+                <dd className="text-muted-foreground">{t("contact.faqFixA")}</dd>
               </div>
-            </div>
-          </div>
+              <div>
+                <dt className="font-semibold">{t("contact.faqSubmitQ")}</dt>
+                <dd className="text-muted-foreground">{t("contact.faqSubmitA")}</dd>
+              </div>
+              <div>
+                <dt className="font-semibold">{t("contact.faqAdsQ")}</dt>
+                <dd className="text-muted-foreground">{t("contact.faqAdsA")}</dd>
+              </div>
+            </dl>
+            <LocaleLink href="/submit" className="mt-5 inline-flex items-center text-sm font-semibold text-primary">
+              {nav.submit} <ArrowRight className="ml-1 size-4" />
+            </LocaleLink>
+          </section>
         </div>
       </div>
-    </div>
-  );
-} 
+    </main>
+  )
+}

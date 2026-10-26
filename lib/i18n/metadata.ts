@@ -1,4 +1,14 @@
 import type { Metadata } from "next"
+
+const BRAND_SUFFIX = " | AItools.ninja"
+
+/** Ensure document title is `Page | AItools.ninja` (I-06). */
+export function formatPageTitle(title: string): string {
+  const trimmed = title.trim()
+  if (trimmed.includes("AItools.ninja")) return trimmed
+  const base = trimmed.replace(/\s*[|–-]\s*AItools\.ninja\s*$/i, "").trim()
+  return `${base}${BRAND_SUFFIX}`
+}
 import { categories } from "@/lib/data"
 import { getToolById } from "@/lib/catalog"
 import { SITE_URL, type Locale } from "./config"
@@ -79,11 +89,12 @@ export async function metadataFor(pathname: string): Promise<Metadata> {
 
 export function buildPageMetadata(locale: Locale, pathname: string): Metadata {
   const { title, description } = pageCopy(locale, pathname)
+  const pageTitle = formatPageTitle(title)
   const canonical = absoluteUrl(locale, pathname)
   const languages = languageAlternates(pathname)
 
   return {
-    title,
+    title: pageTitle,
     description,
     metadataBase: new URL(SITE_URL),
     alternates: {
@@ -91,7 +102,7 @@ export function buildPageMetadata(locale: Locale, pathname: string): Metadata {
       languages,
     },
     openGraph: {
-      title,
+      title: pageTitle,
       description,
       url: canonical,
       siteName: "AItools.ninja",
@@ -109,7 +120,7 @@ export function buildPageMetadata(locale: Locale, pathname: string): Metadata {
     },
     twitter: {
       card: "summary_large_image",
-      title,
+      title: pageTitle,
       description,
       images: ["/opengraph-image"],
       site: "@aitoolsninja",

@@ -7,7 +7,7 @@ export const OG_IMAGE_WIDTH = 1200
 export const OG_IMAGE_HEIGHT = 630
 export const OG_IMAGE_ALT = "AItools.ninja — directory of AI tools"
 
-const HOME_TITLE = "AItools.ninja — Find the Right AI Tool"
+const HOME_TITLE = "Find your AI match | AItools.ninja"
 const HOME_DESCRIPTION =
   "Browse a directory of AI tools for writing, coding, images, video, audio, and everyday work. Open a listing and go to the official site."
 

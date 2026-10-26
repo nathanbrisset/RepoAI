@@ -1,86 +1,54 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
+import { ArrowRight } from "lucide-react"
 import LocaleLink from "@/components/locale-link"
-import { useT } from "@/components/locale-provider"
+import { useLocale, useT } from "@/components/locale-provider"
+import { directoryCopy } from "@/lib/i18n/directory-copy"
 
 export default function AboutPage() {
   const t = useT()
+  const locale = useLocale()
+  const nav = directoryCopy(locale)
+
+  const sections = [
+    { title: t("about.whatTitle"), body: t("about.whatBody") },
+    { title: t("about.verifyTitle"), body: t("about.verifyBody") },
+    { title: t("about.shortsTitle"), body: t("about.shortsBody") },
+    { title: t("about.notTitle"), body: t("about.notBody") },
+  ]
 
   return (
-    <div className="min-h-screen bg-background">
-      <div className="container mx-auto max-w-4xl px-4 py-16">
-        <div className="text-center mb-16">
-          <h1 className="text-5xl font-extrabold mb-6 text-black">{t("about.title")}</h1>
-          <p className="text-xl text-gray-600">{t("about.subtitle")}</p>
-        </div>
+    <main className="mx-auto max-w-[1400px] px-4 py-10 md:px-8 md:py-16">
+      <LocaleLink href="/" className="font-semibold text-primary">
+        ← {nav.backHome}
+      </LocaleLink>
+      <p className="mt-12 text-sm font-bold uppercase tracking-[0.2em] text-accent">{nav.brand}</p>
+      <h1 className="mt-2 font-display text-5xl md:text-6xl">{t("about.title")}</h1>
+      <p className="mt-4 max-w-2xl text-lg text-muted-foreground">{t("about.lead")}</p>
 
-        <div className="prose prose-lg max-w-none">
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-gray-900">{t("about.missionTitle")}</h2>
-            <p className="text-gray-700 mb-4">{t("about.mission")}</p>
+      <div className="mt-12 space-y-10">
+        {sections.map((section) => (
+          <section key={section.title} className="max-w-3xl">
+            <h2 className="font-display text-2xl md:text-3xl">{section.title}</h2>
+            <p className="mt-3 leading-relaxed text-muted-foreground">{section.body}</p>
           </section>
-
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-gray-900">{t("about.whatTitle")}</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900">{t("about.discoveryTitle")}</h3>
-                <p className="text-gray-700">{t("about.discovery")}</p>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900">{t("about.recommendTitle")}</h3>
-                <p className="text-gray-700">{t("about.recommend")}</p>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900">{t("about.reviewsTitle")}</h3>
-                <p className="text-gray-700">{t("about.reviews")}</p>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900">{t("about.organizeTitle")}</h3>
-                <p className="text-gray-700">{t("about.organize")}</p>
-              </div>
-            </div>
-          </section>
-
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-gray-900">{t("about.processTitle")}</h2>
-            <div className="space-y-6">
-              {[
-                ["1", "about.researchTitle", "about.research"],
-                ["2", "about.evaluationTitle", "about.evaluation"],
-                ["3", "about.curationTitle", "about.curation"],
-              ].map(([n, title, body]) => (
-                <div className="flex items-start" key={n}>
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold text-xl mr-4">
-                    {n}
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold mb-2 text-gray-900">{t(title)}</h3>
-                    <p className="text-gray-700">{t(body)}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          <section className="text-center">
-            <h2 className="text-3xl font-bold mb-6 text-gray-900">{t("about.ctaTitle")}</h2>
-            <div className="space-x-4">
-              <LocaleLink href="/tools">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                  {t("about.browse")}
-                </Button>
-              </LocaleLink>
-              <LocaleLink href="/recommendation">
-                <Button size="lg" variant="outline">
-                  {t("about.personalized")}
-                </Button>
-              </LocaleLink>
-            </div>
-          </section>
-        </div>
+        ))}
       </div>
-    </div>
+
+      <div className="mt-12 flex flex-wrap gap-3">
+        <LocaleLink
+          href="/catalogue"
+          className="inline-flex items-center rounded-full bg-primary px-5 py-3 text-sm font-bold text-primary-foreground"
+        >
+          {t("about.ctaBrowse")} <ArrowRight className="ml-1 size-4" />
+        </LocaleLink>
+        <LocaleLink
+          href="/collections"
+          className="inline-flex items-center rounded-full bg-card px-5 py-3 text-sm font-bold ring-1 ring-border"
+        >
+          {t("about.ctaCollections")} <ArrowRight className="ml-1 size-4" />
+        </LocaleLink>
+      </div>
+    </main>
   )
 }

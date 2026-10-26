@@ -1,18 +1,14 @@
 import { SITE_URL, type Locale } from "./config"
 
-/** Path without a /fr prefix. Query and hash are not included. */
+import { localeFromPathname, stripLocalePrefix } from "./locale-detect"
+
+/** Path without a /fr or /en prefix. Query and hash are not included. */
 export function stripLocale(pathname: string): string {
-  const path = pathname.split("?")[0].split("#")[0] || "/"
-  if (path === "/fr" || path === "/fr/") return "/"
-  if (path.startsWith("/fr/")) {
-    const rest = path.slice(3)
-    return rest.startsWith("/") ? rest : `/${rest}`
-  }
-  return path.startsWith("/") ? path : `/${path}`
+  return stripLocalePrefix(pathname)
 }
 
 export function localeFromPath(pathname: string): Locale {
-  return pathname === "/fr" || pathname.startsWith("/fr/") ? "fr" : "en"
+  return localeFromPathname(pathname)
 }
 
 /** Prefix an internal path for the active locale. External URLs are unchanged. */

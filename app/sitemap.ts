@@ -13,14 +13,10 @@ const STATIC_PATHS = [
   "/submit",
   "/recommendation",
   "/categories",
-  "/tools",
   "/catalogue",
   "/collections",
   "/automations",
   "/compare",
-  "/category/new",
-  "/category/popular",
-  "/category/top-rated",
 ]
 
 function catalogDate(value?: string | null) {
