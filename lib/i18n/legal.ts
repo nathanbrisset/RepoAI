@@ -285,14 +285,14 @@ const legalNotice: Record<Locale, LegalDocument> = {
         heading: "Publisher",
         paragraphs: [
           "Website: AITools.ninja",
-          "Legal entity: To be completed",
-          "Registered office: To be completed",
+          "Legal entity: TBD",
+          "Registered office: TBD",
           "Contact: contact@aitools.ninja",
         ],
       },
       {
         heading: "Publication director",
-        paragraphs: ["To be completed"],
+        paragraphs: ["TBD"],
       },
       {
         heading: "Hosting provider",

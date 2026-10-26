@@ -2,6 +2,31 @@ import { getLocale } from "@/lib/i18n/get-locale"
 import { metadataFor } from "@/lib/i18n/metadata"
 import { legalNoticeDocument } from "@/lib/i18n/legal"
 
+const CONTACT_EMAIL = "contact@aitools.ninja"
+
+function renderParagraph(paragraph: string) {
+  if (paragraph.includes(CONTACT_EMAIL)) {
+    const [before, after = ""] = paragraph.split(CONTACT_EMAIL)
+    return (
+      <>
+        {before}
+        <a href={`mailto:${CONTACT_EMAIL}`} className="text-primary underline">
+          {CONTACT_EMAIL}
+        </a>
+        {after}
+      </>
+    )
+  }
+  if (paragraph === "https://vercel.com") {
+    return (
+      <a href="https://vercel.com" className="text-primary underline" rel="noopener noreferrer" target="_blank">
+        vercel.com
+      </a>
+    )
+  }
+  return paragraph
+}
+
 export function generateMetadata() {
   return metadataFor("/legal")
 }
@@ -22,17 +47,7 @@ export default async function LegalNoticePage() {
             <h2 className="text-2xl font-semibold mb-4">{section.heading}</h2>
             {section.paragraphs?.map((paragraph) => (
               <p key={paragraph} className="mb-4">
-                {paragraph.includes("@") ? (
-                  <>
-                    {paragraph.split("contact@aitools.ninja")[0]}
-                    <a href="mailto:contact@aitools.ninja" className="text-primary underline">
-                      contact@aitools.ninja
-                    </a>
-                    {paragraph.split("contact@aitools.ninja")[1] ?? ""}
-                  </>
-                ) : (
-                  paragraph
-                )}
+                {renderParagraph(paragraph)}
               </p>
             ))}
           </section>
