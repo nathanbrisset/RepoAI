@@ -1,0 +1,82 @@
+{
+  "id": "kestra",
+  "name": "Kestra",
+  "url": "https://kestra.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source declarative orchestration platform for data, infrastructure and business workflows.",
+  "description": "Kestra is an open-source orchestration platform where workflows are defined declaratively in YAML. It is used for data pipelines, infrastructure jobs and business processes, and offers more than 2,300 plugins. The open-source edition includes unlimited flows and executions. Kestra Cloud, a fully managed service, and Kestra Enterprise, which adds governance, multi-cloud and air-gapped deployment and support with an SLA, are sold through the sales team on an annual per-instance subscription. Customers cited on the site include teams that moved from Apache Airflow.",
+  "summary_fr": "Plateforme d'orchestration déclarative et libre pour les flux de données, d'infrastructure et de métier.",
+  "description_fr": "Kestra est une plateforme d'orchestration libre où les flux sont définis de façon déclarative en YAML. Elle sert aux pipelines de données, aux jobs d'infrastructure et aux processus métier, et propose plus de 2 300 plugins. L'édition libre inclut des flux et des exécutions illimités. Kestra Cloud, un service managé, et Kestra Enterprise, qui ajoute gouvernance, multi-cloud, déploiement isolé et support avec SLA, sont vendus par l'équipe commerciale en abonnement annuel par instance. Le site cite des équipes venues d'Apache Airflow.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "open-source",
+    "orchestration",
+    "data-pipelines",
+    "yaml",
+    "self-hosted"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://kestra.io/pricing",
+    "note": "Free (open-source edition)",
+    "note_fr": "Gratuit (édition libre)"
+  },
+  "logo": "/logos/kestra.png",
+  "image": "/screenshots/kestra.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://kestra.io/",
+    "https://kestra.io/pricing"
+  ],
+  "features": [
+    "Orchestrate data pipelines",
+    "Schedule infrastructure jobs",
+    "Replace Airflow DAGs"
+  ],
+  "howToUse": [
+    {
+      "title": "Start the open-source edition",
+      "description": "Choose Get Started and run the open-source edition. It includes unlimited flows and executions.",
+      "links": [
+        {
+          "label": "Kestra",
+          "url": "https://kestra.io/"
+        }
+      ]
+    },
+    {
+      "title": "Describe a flow in YAML",
+      "description": "Define a data pipeline, an infrastructure job or a business process declaratively in YAML, then adapt a Blueprint from the documentation."
+    },
+    {
+      "title": "Add plugins",
+      "description": "Attach plugins from the catalog of more than 2,300 plugins. Kestra Cloud and Kestra Enterprise, including air-gapped deployment, are sold through the sales team."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Lancer l'édition libre",
+      "description": "Choisir Get Started et lancer l'édition libre. Elle inclut des flux et des exécutions illimités.",
+      "links": [
+        {
+          "label": "Kestra",
+          "url": "https://kestra.io/"
+        }
+      ]
+    },
+    {
+      "title": "Décrire un flux en YAML",
+      "description": "Définir un pipeline de données, un job d'infrastructure ou un processus métier en YAML, puis adapter un Blueprint de la documentation."
+    },
+    {
+      "title": "Ajouter des plugins",
+      "description": "Brancher des plugins parmi plus de 2 300. Le Cloud managé et l'édition Enterprise, y compris le déploiement isolé, passent par les ventes."
+    }
+  ]
+}

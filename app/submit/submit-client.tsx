@@ -16,6 +16,30 @@ import { useLocale, useT } from "@/components/locale-provider"
 import { categoryCopy } from "@/lib/i18n/messages"
 // import ReCAPTCHA from "react-google-recaptcha"
 
+type FieldErrors = Record<string, string>
+
+function isValidUrl(value: string) {
+  try {
+    const url = new URL(value)
+    return url.protocol === "http:" || url.protocol === "https:"
+  } catch {
+    return false
+  }
+}
+
+function isValidEmail(value: string) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
+}
+
+function fieldErrorProps(id: string, errors: FieldErrors) {
+  const message = errors[id]
+  if (!message) return {}
+  return {
+    "aria-invalid": true as const,
+    "aria-describedby": `${id}-error`,
+  }
+}
+
 export default function SubmitToolPage() {
   const t = useT()
   const locale = useLocale()
@@ -26,10 +50,59 @@ export default function SubmitToolPage() {
   const [isNotRobot, setIsNotRobot] = useState(false)
   const [consent, setConsent] = useState(false)
   const [error, setError] = useState("")
+  const [fieldErrors, setFieldErrors] = useState<FieldErrors>({})
+  const [category, setCategory] = useState("")
+  const [pricing, setPricing] = useState("freemium")
+  const [relationship, setRelationship] = useState("")
   // const [captchaToken, setCaptchaToken] = useState<string | null>(null)
+
+  function clearFieldError(id: string) {
+    setFieldErrors((prev) => {
+      if (!prev[id]) return prev
+      const next = { ...prev }
+      delete next[id]
+      return next
+    })
+  }
+
+  function validateStep(target: number): boolean {
+    const form = formRef.current
+    if (!form) return false
+    const nextErrors: FieldErrors = {}
+    const toolName = (form.elements.namedItem("tool_name") as HTMLInputElement | null)?.value.trim() ?? ""
+    const website = (form.elements.namedItem("website") as HTMLInputElement | null)?.value.trim() ?? ""
+    const description = (form.elements.namedItem("description") as HTMLTextAreaElement | null)?.value.trim() ?? ""
+    const submitterName = (form.elements.namedItem("submitter_name") as HTMLInputElement | null)?.value.trim() ?? ""
+    const submitterEmail = (form.elements.namedItem("submitter_email") as HTMLInputElement | null)?.value.trim() ?? ""
+
+    if (target >= 2) {
+      if (!toolName) nextErrors.tool_name = t("submit.errorRequired")
+      if (!website) nextErrors.website = t("submit.errorRequired")
+      else if (!isValidUrl(website)) nextErrors.website = t("submit.errorUrl")
+      if (!category) nextErrors.category = t("submit.errorCategory")
+    }
+    if (target >= 3) {
+      if (!description) nextErrors.description = t("submit.errorRequired")
+    }
+    if (target >= 4) {
+      if (!submitterName) nextErrors.submitter_name = t("submit.errorRequired")
+      if (!submitterEmail) nextErrors.submitter_email = t("submit.errorRequired")
+      else if (!isValidEmail(submitterEmail)) nextErrors.submitter_email = t("submit.errorEmail")
+      if (!relationship) nextErrors.relationship = t("submit.errorRelationship")
+    }
+
+    setFieldErrors(nextErrors)
+    return Object.keys(nextErrors).length === 0
+  }
+
+  function goToStep(next: number) {
+    if (!validateStep(next)) return
+    setStep(next)
+  }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    if (!validateStep(4)) return
     if (!formRef.current) {
       setError(t("submit.missingForm"))
       return
@@ -150,30 +223,61 @@ export default function SubmitToolPage() {
                   <CardContent className="space-y-4">
                     <div className="space-y-2">
                       <Label htmlFor="tool_name">{t("submit.toolName")}</Label>
-                      <Input id="tool_name" name="tool_name" placeholder={t("submit.toolNamePlaceholder")} required />
+                      <Input
+                        id="tool_name"
+                        name="tool_name"
+                        placeholder={t("submit.toolNamePlaceholder")}
+                        required
+                        {...fieldErrorProps("tool_name", fieldErrors)}
+                        onChange={() => clearFieldError("tool_name")}
+                      />
+                      {fieldErrors.tool_name ? (
+                        <p id="tool_name-error" className="text-sm text-red-600" role="alert">{fieldErrors.tool_name}</p>
+                      ) : null}
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="website">{t("submit.website")}</Label>
-                      <Input id="website" name="website" type="url" placeholder="https://example.com" required />
+                      <Input
+                        id="website"
+                        name="website"
+                        type="url"
+                        placeholder="https://example.com"
+                        required
+                        {...fieldErrorProps("website", fieldErrors)}
+                        onChange={() => clearFieldError("website")}
+                      />
+                      {fieldErrors.website ? (
+                        <p id="website-error" className="text-sm text-red-600" role="alert">{fieldErrors.website}</p>
+                      ) : null}
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="category">{t("submit.category")}</Label>
-                      <Select required>
-                        <SelectTrigger>
+                      <input type="hidden" name="category" value={category} />
+                      <Select
+                        value={category}
+                        onValueChange={(value) => {
+                          setCategory(value)
+                          clearFieldError("category")
+                        }}
+                      >
+                        <SelectTrigger id="category" {...fieldErrorProps("category", fieldErrors)}>
                           <SelectValue placeholder={t("submit.categoryPlaceholder")} />
                         </SelectTrigger>
                         <SelectContent>
-                          {categories.map((category) => (
-                            <SelectItem key={category.id} value={category.id}>
-                              {categoryCopy(locale, category.id)?.name || category.name}
+                          {categories.map((item) => (
+                            <SelectItem key={item.id} value={item.id}>
+                              {categoryCopy(locale, item.id)?.name || item.name}
                             </SelectItem>
                           ))}
                         </SelectContent>
                       </Select>
+                      {fieldErrors.category ? (
+                        <p id="category-error" className="text-sm text-red-600" role="alert">{fieldErrors.category}</p>
+                      ) : null}
                     </div>
                     <div className="space-y-2">
                       <Label>{t("submit.pricing")}</Label>
-                      <RadioGroup defaultValue="freemium">
+                      <RadioGroup value={pricing} onValueChange={setPricing}>
                         <div className="flex items-center space-x-2">
                           <RadioGroupItem value="free" id="free" />
                           <Label htmlFor="free">{t("submit.free")}</Label>
@@ -189,7 +293,7 @@ export default function SubmitToolPage() {
                       </RadioGroup>
                     </div>
                     <div className="pt-4 flex justify-end">
-                      <Button type="button" onClick={() => setStep(2)}>
+                      <Button type="button" onClick={() => goToStep(2)}>
                         {t("submit.next")}
                         <ArrowRight className="ml-2 h-4 w-4" />
                       </Button>
@@ -213,7 +317,12 @@ export default function SubmitToolPage() {
                         placeholder={t("submit.descriptionPlaceholder")}
                         className="min-h-[120px]"
                         required
+                        {...fieldErrorProps("description", fieldErrors)}
+                        onChange={() => clearFieldError("description")}
                       />
+                      {fieldErrors.description ? (
+                        <p id="description-error" className="text-sm text-red-600" role="alert">{fieldErrors.description}</p>
+                      ) : null}
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="features">{t("submit.features")}</Label>
@@ -236,7 +345,7 @@ export default function SubmitToolPage() {
                       <Button type="button" variant="outline" onClick={() => setStep(1)}>
                         {t("submit.back")}
                       </Button>
-                      <Button type="button" onClick={() => setStep(3)}>
+                      <Button type="button" onClick={() => goToStep(3)}>
                         {t("submit.next")}
                         <ArrowRight className="ml-2 h-4 w-4" />
                       </Button>
@@ -270,19 +379,47 @@ export default function SubmitToolPage() {
 
                     <div className="space-y-2">
                       <Label htmlFor="submitter_name">{t("submit.yourName")}</Label>
-                      <Input id="submitter_name" placeholder={t("submit.yourNamePlaceholder")} required />
+                      <Input
+                        id="submitter_name"
+                        name="submitter_name"
+                        placeholder={t("submit.yourNamePlaceholder")}
+                        required
+                        {...fieldErrorProps("submitter_name", fieldErrors)}
+                        onChange={() => clearFieldError("submitter_name")}
+                      />
+                      {fieldErrors.submitter_name ? (
+                        <p id="submitter_name-error" className="text-sm text-red-600" role="alert">{fieldErrors.submitter_name}</p>
+                      ) : null}
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="submitter_email">{t("submit.yourEmail")}</Label>
-                      <Input id="submitter_email" type="email" placeholder="your@email.com" required />
+                      <Input
+                        id="submitter_email"
+                        name="submitter_email"
+                        type="email"
+                        placeholder="your@email.com"
+                        required
+                        {...fieldErrorProps("submitter_email", fieldErrors)}
+                        onChange={() => clearFieldError("submitter_email")}
+                      />
+                      {fieldErrors.submitter_email ? (
+                        <p id="submitter_email-error" className="text-sm text-red-600" role="alert">{fieldErrors.submitter_email}</p>
+                      ) : null}
                       <p className="text-sm text-gray-500">
                         {t("submit.emailNote")}
                       </p>
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="relationship">{t("submit.relationship")}</Label>
-                      <Select required>
-                        <SelectTrigger>
+                      <input type="hidden" name="relationship" value={relationship} />
+                      <Select
+                        value={relationship}
+                        onValueChange={(value) => {
+                          setRelationship(value)
+                          clearFieldError("relationship")
+                        }}
+                      >
+                        <SelectTrigger id="relationship" {...fieldErrorProps("relationship", fieldErrors)}>
                           <SelectValue placeholder={t("submit.relationshipPlaceholder")} />
                         </SelectTrigger>
                         <SelectContent>
@@ -292,6 +429,9 @@ export default function SubmitToolPage() {
                           <SelectItem value="other">{t("submit.relOther")}</SelectItem>
                         </SelectContent>
                       </Select>
+                      {fieldErrors.relationship ? (
+                        <p id="relationship-error" className="text-sm text-red-600" role="alert">{fieldErrors.relationship}</p>
+                      ) : null}
                     </div>
                     <div className="space-y-2">
                       <label className="flex items-center space-x-2">

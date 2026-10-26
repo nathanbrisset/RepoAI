@@ -19,10 +19,11 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "$2.99/mo (annual)",
-    "sourceUrl": "https://ifttt.com/plans"
+    "note": "Free, then $2.99/mo (billed annually)",
+    "sourceUrl": "https://ifttt.com/plans",
+    "note_fr": "Gratuit, puis 2,99 $/mois (facturé annuellement)"
   },
-  "logo": "https://web-assets.ifttt.com/builds/assets/favicon-C2-mcUeO.svg",
+  "logo": "/logos/ifttt.png",
   "image": "/screenshots/ifttt.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-21",

@@ -79,7 +79,8 @@
 
 @media (prefers-reduced-motion: reduce) {
   .animate-rise,
-  .animate-throw {
+  .animate-throw,
+  .animate-logo-shuriken-spin {
     animation: none !important;
   }
 }

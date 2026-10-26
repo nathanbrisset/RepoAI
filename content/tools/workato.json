@@ -1,0 +1,82 @@
+{
+  "id": "workato",
+  "name": "Workato",
+  "url": "https://www.workato.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Enterprise iPaaS that connects apps, data, workflows and AI agents with central governance.",
+  "description": "Workato is an enterprise integration and automation platform. It connects business applications and data, runs automated workflows called recipes, and hosts AI agents, with governance controls for IT. The product range covers enterprise iPaaS, embedded integrations and API management. The pricing page lists platform editions starting with Standard, combined with a usage-based consumption component, and directs buyers to schedule a demo; it shows no public prices. Pricing and plan structures can vary with contract terms.",
+  "summary_fr": "Plateforme iPaaS d'entreprise qui relie les applications, les données, les flux et les agents IA, avec une gouvernance centrale.",
+  "description_fr": "Workato est une plateforme d'intégration et d'automatisation pour l'entreprise. Elle relie les applications et les données métier, exécute des flux automatisés appelés recipes et héberge des agents IA, avec des contrôles de gouvernance pour l'IT. La gamme couvre l'iPaaS d'entreprise, les intégrations embarquées et la gestion d'API. La page tarifs liste des éditions à partir de Standard, combinées à une consommation à l'usage, et oriente vers une démo. Le tarif est sur devis. Les tarifs et les plans peuvent varier selon le contrat.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "ipaas",
+    "integrations",
+    "enterprise",
+    "ai-agents",
+    "api-management"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": true,
+    "sourceUrl": "https://www.workato.com/pricing",
+    "note": "On request",
+    "note_fr": "Sur devis"
+  },
+  "logo": "/logos/workato.png",
+  "image": "/screenshots/workato.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://www.workato.com/",
+    "https://www.workato.com/pricing"
+  ],
+  "features": [
+    "Connect SaaS apps across departments",
+    "Automate IT and HR processes",
+    "Govern AI agents"
+  ],
+  "howToUse": [
+    {
+      "title": "Schedule a demo",
+      "description": "Open the pricing page and schedule a demo. Platform editions start with Standard, and the page shows no public prices.",
+      "links": [
+        {
+          "label": "Workato",
+          "url": "https://www.workato.com/"
+        }
+      ]
+    },
+    {
+      "title": "Connect the business systems",
+      "description": "Connect business applications and data, then run automated workflows called recipes between CRM, ERP and HR."
+    },
+    {
+      "title": "Govern the agents",
+      "description": "Host AI agents on the same enterprise integration platform, and keep embedded integrations and API management under IT governance controls."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Planifier une démo",
+      "description": "Ouvrir la page tarifs et planifier une démo. Les éditions commencent à Standard, et le tarif est sur devis.",
+      "links": [
+        {
+          "label": "Workato",
+          "url": "https://www.workato.com/"
+        }
+      ]
+    },
+    {
+      "title": "Relier les systèmes métier",
+      "description": "Relier les applications et les données, puis faire circuler des recipes entre le CRM, l'ERP et les RH."
+    },
+    {
+      "title": "Encadrer les agents",
+      "description": "Héberger les agents IA sur la même plateforme, avec des contrôles de gouvernance et des environnements séparés."
+    }
+  ]
+}

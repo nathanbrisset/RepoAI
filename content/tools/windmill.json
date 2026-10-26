@@ -1,0 +1,82 @@
+{
+  "id": "windmill",
+  "name": "Windmill",
+  "url": "https://www.windmill.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source, code-first platform for scripts, workflows, internal apps and AI agents.",
+  "description": "Windmill is an open-source developer platform for writing scripts, workflows, internal apps, AI agents and data pipelines in code or with AI assistance. It runs on a self-hostable orchestrator. Engineers keep control of what is deployed through features such as versioning. The pricing page lists a free open-source self-hosted edition with unlimited executions, a cloud plan priced at $170 per month for one builder, and a self-hosted Enterprise edition from $120 per month. A nonprofit plan is also available.",
+  "summary_fr": "Plateforme libre, orientée code, pour les scripts, les flux, les applications internes et les agents IA.",
+  "description_fr": "Windmill est une plateforme libre pour écrire des scripts, des flux, des applications internes, des agents IA et des pipelines de données, en code ou avec une aide IA. Elle tourne sur un orchestrateur auto-hébergeable. Les ingénieurs gardent le contrôle de ce qui est déployé, notamment via le versionnage. La page tarifs liste une édition libre auto-hébergée gratuite avec des exécutions illimitées, un plan cloud à 170 $/mois (Cloud Team), et une édition Enterprise auto-hébergée à partir de 120 $ par mois. Un plan pour les organisations à but non lucratif existe aussi.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "open-source",
+    "developer-tools",
+    "orchestration",
+    "self-hosted",
+    "internal-tools"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Free when self-hosted, then $170/mo (Cloud Team)",
+    "sourceUrl": "https://www.windmill.dev/pricing",
+    "note_fr": "Gratuit en auto-hébergement, puis 170 $/mois (Cloud Team)"
+  },
+  "logo": "/logos/windmill.png",
+  "image": "/screenshots/windmill.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://www.windmill.dev/",
+    "https://www.windmill.dev/pricing"
+  ],
+  "features": [
+    "Schedule scripts and data pipelines",
+    "Build internal tools on workflows",
+    "Self-host automation"
+  ],
+  "howToUse": [
+    {
+      "title": "Install the orchestrator",
+      "description": "Self-host the open-source edition with Docker or Kubernetes, or open Windmill Cloud. The self-hosted edition includes unlimited executions.",
+      "links": [
+        {
+          "label": "Windmill",
+          "url": "https://www.windmill.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Write a script",
+      "description": "Write a script for an internal app, an AI agent or a data pipeline, in code or with AI assistance, then promote it to a workflow."
+    },
+    {
+      "title": "Version what you deploy",
+      "description": "Keep control of what is deployed through versioning and git sync to GitHub or GitLab. The cloud plan is $170 per month for one builder."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Installer l'orchestrateur",
+      "description": "Auto-héberger l'édition libre avec Docker ou Kubernetes, ou ouvrir Windmill Cloud. L'édition auto-hébergée inclut des exécutions illimitées.",
+      "links": [
+        {
+          "label": "Windmill",
+          "url": "https://www.windmill.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Écrire un script",
+      "description": "Écrire un script pour une application interne, un agent IA ou un pipeline de données, puis le promouvoir en flux."
+    },
+    {
+      "title": "Versionner le déploiement",
+      "description": "Garder la main sur ce qui est déployé grâce au versionnage et à la synchro git vers GitHub ou GitLab. Le cloud est à 170 $/mois (Cloud Team)."
+    }
+  ]
+}

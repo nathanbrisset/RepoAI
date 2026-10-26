@@ -1,7 +1,7 @@
 "use client"
 
 import { Suspense, useEffect, useMemo, useRef, useState } from "react"
-import { Bookmark, Flame, Menu, Plus, Search, Sparkles, Trophy, X } from "lucide-react"
+import { Bookmark, Menu, Plus, Search, X } from "lucide-react"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { cn } from "@/lib/utils"
 import LocaleLink from "@/components/locale-link"
@@ -9,16 +9,10 @@ import { useLocale } from "@/components/locale-provider"
 import { LOCALE_COOKIE, type Locale } from "@/lib/i18n/config"
 import { directoryCopy } from "@/lib/i18n/directory-copy"
 import { localizeHref, stripLocale } from "@/lib/i18n/paths"
+import { CategoryChipsBar, type SortMode } from "./category-chips-bar"
 import { useDirectory } from "./directory-provider"
-import Image from "next/image"
 
-export type SortMode = "trending" | "new" | "top"
-
-const sortOptions: { id: SortMode; icon: typeof Flame }[] = [
-  { id: "trending", icon: Flame },
-  { id: "new", icon: Sparkles },
-  { id: "top", icon: Trophy },
-]
+export type { SortMode }
 
 function writeLocaleCookie(locale: Locale) {
   const secure = window.location.protocol === "https:" ? "; Secure" : ""
@@ -31,7 +25,7 @@ function SiteHeaderInner() {
   const router = useRouter()
   const pathname = usePathname() || "/"
   const searchParams = useSearchParams()
-  const { chips, total, saved, setSavedOpen, records, openTool } = useDirectory()
+  const { total, saved, setSavedOpen, records, openTool } = useDirectory()
   const inputRef = useRef<HTMLInputElement>(null)
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -110,21 +104,25 @@ function SiteHeaderInner() {
       .slice(0, 6)
   }, [draft, records])
 
-  const sortLabel = { trending: t.sortTrending, new: t.sortNew, top: t.sortTop }
-
   return (
     <header className={cn("sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur", scrolled && "shadow-sm")}>
       <div className="mx-auto flex max-w-[1600px] items-center gap-3 px-4 py-3 md:gap-4 md:px-6">
-        <LocaleLink href="/" className="shrink-0">
-          <Image
-            src="/brand/aitools-ninja-logo.png"
-            alt="AItools.ninja"
-            width={756}
-            height={318}
-            quality={100}
-            priority
-            className="h-auto w-[9.5rem] max-w-[42vw] sm:w-56 lg:w-64"
+        <LocaleLink
+          href="/"
+          className="group mr-2 flex shrink-0 items-center gap-3.5 md:mr-4 md:gap-4 lg:mr-6"
+          aria-label={t.brand}
+        >
+          <img
+            src="/brand/aitools-ninja-mark.png"
+            alt=""
+            width={56}
+            height={56}
+            decoding="async"
+            className="h-12 w-12 shrink-0 object-contain motion-safe:group-hover:animate-logo-shuriken-spin md:h-14 md:w-14"
           />
+          <span className="font-display text-base font-bold leading-none tracking-tight text-foreground sm:text-lg md:text-xl">
+            {t.brand}
+          </span>
         </LocaleLink>
 
         <nav aria-label={t.primaryNav} className="hidden items-center gap-4 text-sm font-semibold lg:flex">
@@ -246,58 +244,18 @@ function SiteHeaderInner() {
         </div>
       ) : null}
 
-      <div className="mx-auto flex max-w-[1600px] items-center gap-4 px-4 pb-3 md:px-6">
-        <nav aria-label={t.categoriesLabel} className="-mx-4 flex flex-1 gap-2 overflow-x-auto px-4 [scrollbar-width:none] md:mx-0 md:px-0">
-          <button
-            type="button"
-            onClick={() => pushCatalogue({ category: null })}
-            aria-pressed={onFilterable && !category}
-            className={cn(
-              "flex h-9 shrink-0 items-center gap-2 rounded-full px-4 text-sm font-medium",
-              onFilterable && !category ? "bg-primary text-primary-foreground" : "bg-card text-foreground ring-1 ring-border hover:-translate-y-0.5",
-            )}
-          >
-            {t.everything}
-            <span className={cn("text-xs tabular-nums", onFilterable && !category ? "text-primary-foreground/70" : "text-muted-foreground")}>{total}</span>
-          </button>
-          {chips.map((chip) => {
-            const active = chip.id === category
-            return (
-              <button
-                key={chip.id}
-                type="button"
-                onClick={() => pushCatalogue({ category: chip.id })}
-                aria-pressed={active}
-                className={cn(
-                  "flex h-9 shrink-0 items-center gap-2 rounded-full px-4 text-sm font-medium",
-                  active ? "bg-primary text-primary-foreground" : "bg-card text-foreground ring-1 ring-border hover:-translate-y-0.5",
-                )}
-              >
-                {chip.label}
-                <span className={cn("text-xs tabular-nums", active ? "text-primary-foreground/70" : "text-muted-foreground")}>{chip.count}</span>
-              </button>
-            )
-          })}
-        </nav>
-        <div role="radiogroup" aria-label={t.sortLabel} className="hidden shrink-0 items-center gap-1 rounded-full bg-card p-1 ring-1 ring-border lg:flex">
-          {sortOptions.map(({ id, icon: Icon }) => (
-            <button
-              key={id}
-              type="button"
-              role="radio"
-              aria-checked={onFilterable && sort === id}
-              onClick={() => pushCatalogue({ sort: id === "trending" ? null : id })}
-              className={cn(
-                "flex h-7 items-center gap-1.5 rounded-full px-3 text-sm font-medium",
-                onFilterable && sort === id ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground",
-              )}
-            >
-              <Icon className="size-3.5" aria-hidden="true" />
-              {sortLabel[id]}
-            </button>
-          ))}
+      {onFilterable ? (
+        <div className="mx-auto max-w-[1600px] px-4 pb-3 md:px-6">
+          <CategoryChipsBar
+            activeCategory={category}
+            highlightActive
+            onSelectCategory={(id) => pushCatalogue({ category: id })}
+            showSort
+            activeSort={sort}
+            onSelectSort={(id) => pushCatalogue({ sort: id === "trending" ? null : id })}
+          />
         </div>
-      </div>
+      ) : null}
     </header>
   )
 }

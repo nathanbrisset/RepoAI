@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { Tool } from '@/lib/types';
 
@@ -14,12 +13,14 @@ export function FeaturedTool({ tool }: FeaturedToolProps) {
         <div className="space-y-2">
           <div className="flex items-center gap-2">
             {tool.logo && (
-              <Image
+              <img
                 src={tool.logo}
-            alt={tool.name}
+                alt={tool.name}
                 width={32}
                 height={32}
                 className="rounded-sm"
+                loading="lazy"
+                decoding="async"
               />
             )}
             <h3 className="font-bold">{tool.name}</h3>

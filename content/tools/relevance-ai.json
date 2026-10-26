@@ -5,9 +5,10 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Platform for building and running AI agents for sales, support, marketing and HR tasks.",
-  "description": "Relevance AI is a platform for building and operating AI agents that carry out business tasks such as research, outreach, qualification and support. Teams can configure specialist agents, connect them to their tools and run them at scale. Its Invent assistant helps identify processes to automate and turns them into agents. The pricing page showed only an enterprise offer during this check, so no price was recorded.",
+  "description": "Relevance AI is a platform for building and operating AI agents that carry out business tasks such as research, outreach, qualification and support. Teams can configure specialist agents, connect them to their tools and run them at scale. Its Invent assistant helps identify processes to automate and turns them into agents. Pricing is on request.",
   "categories": [
-    "ai-agents"
+    "ai-agents",
+    "automation"
   ],
   "tags": [
     "ai-agents",
@@ -17,12 +18,13 @@
   ],
   "pricing": {
     "verified": true,
-    "model": "paid",
-    "label": "Premium",
-    "note": "The official pricing page shows only an Enterprise plan, with pricing on request.",
-    "sourceUrl": "https://relevanceai.com/pricing"
+    "model": "enterprise",
+    "label": "Enterprise",
+    "note": "On request",
+    "sourceUrl": "https://relevanceai.com/pricing",
+    "note_fr": "Sur devis"
   },
-  "logo": "https://cdn.relevanceai.com/images/favicon-256x256.png",
+  "logo": "/logos/relevance-ai.png",
   "image": "/screenshots/relevance-ai.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-22",
@@ -51,7 +53,7 @@
     },
     {
       "title": "Check the enterprise offer",
-      "description": "Only an enterprise offer showed on the pricing page during this check, so no price was recorded."
+      "description": "Pricing is on request."
     }
   ]
 }

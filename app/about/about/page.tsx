@@ -11,11 +11,11 @@ export default function AboutPage() {
   return (
     <div className="container mx-auto max-w-6xl px-4 py-12">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold mb-8">About AITools.ninja</h1>
+        <h1 className="text-4xl font-bold mb-8">About AItools.ninja</h1>
         
         <div className="prose prose-lg mb-12">
           <p className="text-xl text-gray-600 mb-6">
-            Welcome to AITools.ninja, your ultimate directory for discovering and exploring the best AI tools across various categories.
+            Welcome to AItools.ninja, your ultimate directory for discovering and exploring the best AI tools across various categories.
             Our mission is to help you navigate the rapidly evolving landscape of artificial intelligence tools and find the perfect solutions for your needs.
           </p>
 

@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { Tool } from '@/lib/types'
 import { formatLabel } from '@/lib/format-label'
 import Link from 'next/link'
@@ -13,11 +12,12 @@ export function ToolCard({ tool }: ToolCardProps) {
       <div className="relative flex flex-col space-y-2 rounded-2xl border border-gray-200 bg-white p-4 hover:border-gray-300">
         <div className="flex items-center space-x-3">
           <div className="relative h-12 w-12 overflow-hidden rounded-xl">
-            <Image
+            <img
               src={tool.logo || tool.image}
               alt={tool.name}
-              fill
-              className="object-cover"
+              className="h-full w-full object-cover"
+              loading="lazy"
+              decoding="async"
             />
           </div>
           <div>

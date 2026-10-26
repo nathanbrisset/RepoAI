@@ -4,7 +4,8 @@ import { pageMetadata } from "@/lib/seo"
 
 export const metadata: Metadata = pageMetadata({
   title: "Contact",
-  description: "Send a message to AI Tools Ninja about a listing, a correction, or a partnership. A public email address is not published yet.",
+  description:
+    "Questions about the catalogue, collections, Shorts, or tool submissions — contact aitoolrequest@gmail.com or use the form.",
   path: "/contact",
 })
 

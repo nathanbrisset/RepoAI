@@ -8,18 +8,15 @@ const STATIC_PATHS = [
   "/about",
   "/contact",
   "/privacy",
+  "/legal",
   "/terms",
   "/submit",
   "/recommendation",
   "/categories",
-  "/tools",
   "/catalogue",
   "/collections",
   "/automations",
   "/compare",
-  "/category/new",
-  "/category/popular",
-  "/category/top-rated",
 ]
 
 function catalogDate(value?: string | null) {

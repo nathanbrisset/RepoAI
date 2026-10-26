@@ -1,4 +1,14 @@
 import type { Metadata } from "next"
+
+const BRAND_SUFFIX = " | AItools.ninja"
+
+/** Ensure document title is `Page | AItools.ninja` (I-06). */
+export function formatPageTitle(title: string): string {
+  const trimmed = title.trim()
+  if (trimmed.includes("AItools.ninja")) return trimmed
+  const base = trimmed.replace(/\s*[|–-]\s*AItools\.ninja\s*$/i, "").trim()
+  return `${base}${BRAND_SUFFIX}`
+}
 import { categories } from "@/lib/data"
 import { getToolById } from "@/lib/catalog"
 import { SITE_URL, type Locale } from "./config"
@@ -17,6 +27,7 @@ function pageCopy(locale: Locale, pathname: string): { title: string; descriptio
   if (path === "/contact") return { title: t("meta.contactTitle"), description: t("meta.contactDescription") }
   if (path === "/privacy") return { title: t("meta.privacyTitle"), description: t("meta.privacyDescription") }
   if (path === "/terms") return { title: t("meta.termsTitle"), description: t("meta.termsDescription") }
+  if (path === "/legal") return { title: t("meta.legalTitle"), description: t("meta.legalDescription") }
   if (path === "/submit") return { title: t("meta.submitTitle"), description: t("meta.submitDescription") }
   if (path === "/recommendation") {
     return { title: t("meta.recommendationTitle"), description: t("meta.recommendationDescription") }
@@ -33,7 +44,7 @@ function pageCopy(locale: Locale, pathname: string): { title: string; descriptio
     const definition = COLLECTION_DEFS.find((collection) => collection.slug === decodeURIComponent(collectionMatch[1]))
     if (definition) {
       return {
-        title: `${definition.title[locale]} | AITools.ninja`,
+        title: `${definition.title[locale]} | AItools.ninja`,
         description: definition.blurb[locale],
       }
     }
@@ -78,11 +89,12 @@ export async function metadataFor(pathname: string): Promise<Metadata> {
 
 export function buildPageMetadata(locale: Locale, pathname: string): Metadata {
   const { title, description } = pageCopy(locale, pathname)
+  const pageTitle = formatPageTitle(title)
   const canonical = absoluteUrl(locale, pathname)
   const languages = languageAlternates(pathname)
 
   return {
-    title,
+    title: pageTitle,
     description,
     metadataBase: new URL(SITE_URL),
     alternates: {
@@ -90,10 +102,10 @@ export function buildPageMetadata(locale: Locale, pathname: string): Metadata {
       languages,
     },
     openGraph: {
-      title,
+      title: pageTitle,
       description,
       url: canonical,
-      siteName: "AITools.ninja",
+      siteName: "AItools.ninja",
       locale: locale === "fr" ? "fr_FR" : "en_US",
       alternateLocale: locale === "fr" ? ["en_US"] : ["fr_FR"],
       type: "website",
@@ -108,7 +120,7 @@ export function buildPageMetadata(locale: Locale, pathname: string): Metadata {
     },
     twitter: {
       card: "summary_large_image",
-      title,
+      title: pageTitle,
       description,
       images: ["/opengraph-image"],
       site: "@aitoolsninja",

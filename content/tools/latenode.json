@@ -1,0 +1,82 @@
+{
+  "id": "latenode",
+  "name": "Latenode",
+  "url": "https://latenode.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI workflow automation platform with built-in LLMs, 5,500+ integrations and usage-based pricing.",
+  "description": "Latenode is a workflow automation platform where large language models are available inside workflow nodes without separate API keys; the vendor lists more than 335 models. Users build workflows and AI agents that connect to more than 5,500 integrations, and can add custom code. Pricing is based on execution time rather than on operations. A free plan with no credit card includes a monthly allowance of free compute, and additional runtime is billed from $0.00012 per CPU-second, with lower rates at higher volumes.",
+  "summary_fr": "Plateforme de flux IA avec des modèles de langage intégrés, plus de 5 500 intégrations et un tarif à l'usage.",
+  "description_fr": "Latenode est une plateforme de flux où les grands modèles de langage sont disponibles dans les nœuds sans clés d'API séparées ; l'éditeur en liste plus de 335. On construit des flux et des agents IA reliés à plus de 5 500 intégrations, et on peut ajouter du code. Le tarif repose sur le temps d'exécution plutôt que sur les opérations. Une offre gratuite sans carte inclut un quota mensuel de calcul, et le temps supplémentaire part de 0,00012 $/seconde CPU, avec des tarifs plus bas aux volumes plus élevés.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "ai-workflows",
+    "llm",
+    "integrations",
+    "low-code",
+    "usage-based"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": true,
+    "note": "Free, then $0.00012 per CPU-second",
+    "sourceUrl": "https://latenode.com/pricing",
+    "note_fr": "Gratuit, puis 0,00012 $/seconde CPU"
+  },
+  "logo": "/logos/latenode.png",
+  "image": "/screenshots/latenode.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://latenode.com/",
+    "https://latenode.com/pricing"
+  ],
+  "features": [
+    "Build AI agents connected to apps",
+    "Automate data enrichment with LLMs",
+    "Replace per-task automation pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Start without a card",
+      "description": "Start on the free plan. No credit card is required, and the plan includes a monthly allowance of free compute.",
+      "links": [
+        {
+          "label": "Latenode",
+          "url": "https://latenode.com/"
+        }
+      ]
+    },
+    {
+      "title": "Call a model inside a node",
+      "description": "Build workflows where large language models are available inside workflow nodes without separate API keys. The vendor lists more than 335 models."
+    },
+    {
+      "title": "Pay for extra runtime",
+      "description": "Additional runtime is billed from $0.00012 per CPU-second. AI agents can connect to more than 5,500 integrations, and custom code can be added."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Commencer sans carte",
+      "description": "Ouvrir l'offre gratuite, sans carte, avec un quota mensuel de calcul.",
+      "links": [
+        {
+          "label": "Latenode",
+          "url": "https://latenode.com/"
+        }
+      ]
+    },
+    {
+      "title": "Appeler un modèle dans un nœud",
+      "description": "Construire un flux où le modèle de langage est disponible dans le nœud, sans clé d'API séparée. L'éditeur en liste plus de 335."
+    },
+    {
+      "title": "Payer le temps supplémentaire",
+      "description": "Le temps supplémentaire part de 0,00012 $/seconde CPU. Les agents peuvent rejoindre plus de 5 500 intégrations, et du code peut être ajouté."
+    }
+  ]
+}

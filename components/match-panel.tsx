@@ -2,7 +2,8 @@
 
 import { FormEvent, useEffect, useRef, useState } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
-import { Sparkles } from "lucide-react"
+import { Pencil } from "lucide-react"
+import { Shuriken } from "@/components/directory/shuriken"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -48,33 +49,46 @@ function takeMatch(query: string): MatchPayload | null {
   }
 }
 
-function MatchCardView({ card }: { card: MatchCard }) {
+function MatchCardView({ card, rank, featured = false }: { card: MatchCard; rank: number; featured?: boolean }) {
   const src = visualSrc(card)
   return (
-    <article className="flex h-full flex-col rounded-2xl border border-border bg-white p-5 shadow-sm">
-      <div className="flex items-start gap-4">
-        <div className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-gray-50">
-          {src ? (
-            <img src={src} alt="" className="h-12 w-12 object-contain" />
-          ) : (
-            <span className="text-lg font-bold text-primary">{card.name.slice(0, 1)}</span>
-          )}
-        </div>
-        <div className="min-w-0 flex-1">
-          <h3 className="break-words text-xl font-bold leading-tight text-gray-900">{card.name}</h3>
-          {card.price && <p className="mt-1 text-sm font-medium text-primary">{card.price}</p>}
-          {card.priceUnchecked && <p className="text-xs text-gray-500">Price not rechecked</p>}
+    <article
+      className={`flex flex-col rounded-2xl p-4 ring-1 sm:p-5 ${featured ? "bg-foreground text-background ring-foreground" : "bg-card text-card-foreground ring-border"}`}
+    >
+      <div className="flex items-start gap-3">
+        <span
+          className={`grid size-8 shrink-0 place-items-center rounded-full text-sm font-bold ${featured ? "bg-accent text-accent-foreground" : "bg-secondary text-foreground"}`}
+        >
+          {rank}
+        </span>
+        <div className="flex min-w-0 flex-1 gap-3">
+          <span
+            className={`grid size-11 shrink-0 place-items-center overflow-hidden rounded-xl text-lg font-bold ring-1 ${featured ? "bg-background text-foreground ring-background/30" : "bg-foreground text-background ring-border"}`}
+          >
+            {src ? <img src={src} alt="" className="size-7 object-contain" /> : card.name.slice(0, 1)}
+          </span>
+          <div className="min-w-0">
+            <h3 className="font-display text-xl leading-tight">{card.name}</h3>
+            {card.price ? (
+              <p className={`mt-1 text-xs font-semibold ${featured ? "text-accent" : "text-muted-foreground"}`}>{card.price}</p>
+            ) : null}
+          </div>
         </div>
       </div>
-      {card.reason && <p className="mt-4 text-base leading-relaxed text-gray-700">{card.reason}</p>}
-      <a
-        href={card.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-4 inline-flex h-10 w-full items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-white hover:bg-primary/90 sm:w-auto"
-      >
-        Voir l&apos;outil
-      </a>
+      {card.reason ? (
+        <section className={`mt-4 rounded-xl p-3 ${featured ? "bg-background/10" : "bg-secondary/90"}`}>
+          <h4 className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">Why this match</h4>
+          <p className="mt-1.5 text-sm leading-relaxed">{card.reason}</p>
+        </section>
+      ) : null}
+      <div className="mt-4 flex flex-wrap gap-4 text-sm font-semibold">
+        <a href={`/tool/${card.id}`} className={featured ? "text-accent hover:underline" : "text-primary hover:underline"}>
+          Catalogue fiche
+        </a>
+        <a href={card.url} target="_blank" rel="noopener noreferrer" className={featured ? "text-accent hover:underline" : "text-primary hover:underline"}>
+          Official site
+        </a>
+      </div>
     </article>
   )
 }
@@ -235,27 +249,22 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
     void runSearch(query)
   }
 
-  const top = recommendations[0]
-  const others = recommendations.slice(1)
   const showResults = !loading && !error && recommendations.length > 0
 
   return (
     <div>
-      <section className="mb-10 rounded-xl bg-white shadow-lg">
-        <div className="grid grid-cols-1 gap-6 p-4 sm:p-8 md:grid-cols-2">
-          <div className="order-1 flex flex-col justify-center md:order-2">
+      <section className="mb-10 rounded-2xl bg-card p-4 ring-1 ring-border sm:p-8">
+        <div className="max-w-2xl">
+            <p className="mb-2 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-accent">
+              <Shuriken className="size-3.5 text-primary" />
+              AI Match
+            </p>
             {mode === "results" ? (
-              <h1 className="mb-2 flex items-center gap-2 text-3xl font-bold">
-                <Sparkles className="h-7 w-7 shrink-0 text-yellow-400" />
-                Find your AI MATCH!
-              </h1>
+              <h1 className="mb-2 font-display text-3xl leading-tight">Your AI Match results</h1>
             ) : (
-              <h2 className="mb-2 flex items-center gap-2 text-3xl font-bold">
-                <Sparkles className="h-7 w-7 shrink-0 text-yellow-400" />
-                Find your AI MATCH!
-              </h2>
+              <h2 className="mb-2 font-display text-3xl leading-tight">Find your AI match</h2>
             )}
-            <p className="mb-6 text-lg text-gray-600">Whatever you need, there&apos;s an AI for it!</p>
+            <p className="mb-6 text-sm leading-relaxed text-muted-foreground">Describe what you want to do — we shortlist tools from the AItools.ninja catalogue.</p>
             <form noValidate onSubmit={handleSubmit} className="space-y-4">
               <div className="flex flex-wrap gap-2" aria-label="Example requests">
                 {EXAMPLES.map((example) => (
@@ -371,53 +380,47 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
                 </Button>
               </div>
             )}
-          </div>
-          <div className="order-2 h-28 overflow-hidden rounded-lg sm:h-36 md:order-1 md:h-[400px]">
-            <img src="/ai-match-hero.jpg" alt="" className="h-full w-full object-cover object-top" />
-          </div>
         </div>
       </section>
 
       {showResults && (
-        <section className="mb-12 rounded-3xl border border-border bg-gradient-to-br from-secondary via-card to-background p-4 shadow-xl sm:p-8">
-          <div className="mb-6">
-            <h2 className="mb-2 text-2xl font-bold text-gray-800">Your search</h2>
-            <div className="rounded-lg border border-gray-100 bg-white px-6 py-4 text-lg text-gray-700 shadow-sm">
-              {submittedQuery}
-            </div>
+        <section className="mb-12 space-y-6">
+          <div className="rounded-2xl bg-card p-4 ring-1 ring-border sm:p-5">
+            <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-muted-foreground">Your query</p>
+            <p className="mt-2 text-base leading-relaxed">{submittedQuery}</p>
+            <Button
+              type="button"
+              variant="outline"
+              size="sm"
+              className="mt-4"
+              onClick={() => {
+                setPrompt(submittedQuery)
+                promptRef.current?.focus()
+              }}
+            >
+              <Pencil className="mr-1.5 size-3.5" />
+              Edit query
+            </Button>
           </div>
-          {intro && (
-            <div className="mb-8 rounded-lg border border-border bg-secondary px-6 py-4">
-              <p className="text-lg leading-relaxed text-gray-800">{intro}</p>
-            </div>
-          )}
-          {top && (
-            <div className="mb-10">
-              <h3 className="mb-4 flex items-center gap-2 text-lg font-bold text-primary">
-                <Sparkles className="h-5 w-5 text-yellow-400" />
-                Our Top Pick
-              </h3>
-              <MatchCardView card={top} />
-            </div>
-          )}
-          {others.length > 0 && (
-            <div className="mb-10">
-              <h3 className="mb-4 text-lg font-semibold text-gray-900">Other Great Options</h3>
-              <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-                {others.map((card) => (
-                  <MatchCardView key={card.id} card={card} />
-                ))}
-              </div>
-            </div>
-          )}
+          {intro ? <p className="text-sm leading-relaxed text-muted-foreground">{intro}</p> : null}
+          <h3 className="font-display text-xl">Ranked picks</h3>
+          <ol className="flex flex-col gap-5">
+            {recommendations.map((card, index) => (
+              <li key={card.id}>
+                <MatchCardView card={card} rank={index + 1} featured={index === 0} />
+              </li>
+            ))}
+          </ol>
           {related.length > 0 && (
             <div>
-              <h3 className="mb-4 text-lg font-semibold text-gray-900">More in this Category</h3>
-              <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-                {related.map((card) => (
-                  <MatchCardView key={card.id} card={card} />
+              <h3 className="mb-4 font-display text-lg">Related tools</h3>
+              <ol className="flex flex-col gap-5">
+                {related.map((card, index) => (
+                  <li key={card.id}>
+                    <MatchCardView card={card} rank={index + 1} />
+                  </li>
                 ))}
-              </div>
+              </ol>
             </div>
           )}
         </section>

@@ -32,6 +32,27 @@ export type CollectionDef = {
 /** Editorial paths. Every id is a real catalogue fiche; missing ids are dropped at resolve time. */
 export const COLLECTION_DEFS: CollectionDef[] = [
   {
+    slug: "recettes-et-stacks",
+    title: { en: "Recipes & stacks", fr: "Recettes & stacks" },
+    blurb: {
+      en: "Recipes for getting useful work done.",
+      fr: "Des recettes pour avancer sur un vrai travail.",
+    },
+    ids: [
+      "capcut",
+      "elevenlabs",
+      "descript",
+      "perplexity-ai",
+      "elicit",
+      "notebooklm",
+      "v0-vercel",
+      "gamma",
+      "jasper",
+      "granola",
+      "notion-ai",
+    ],
+  },
+  {
     slug: "kit-shorts-youtube",
     title: { en: "Kit Shorts YouTube", fr: "Kit Shorts YouTube" },
     blurb: {
@@ -103,9 +124,48 @@ export const COLLECTION_DEFS: CollectionDef[] = [
     },
     ids: ["chatgpt", "claude-3", "pi"],
   },
+  {
+    slug: "automatisations-agents",
+    title: { en: "Automations & agents", fr: "Automatisations & agents" },
+    blurb: {
+      en: "Connect your apps so repetitive work runs on its own.",
+      fr: "Relie tes apps pour que le travail répétitif avance sans toi.",
+    },
+    ids: ["n8n", "zapier", "make"],
+  },
+  {
+    slug: "video-longue-youtube",
+    title: { en: "Long-form video / YouTube", fr: "Vidéo longue / YouTube" },
+    blurb: {
+      en: "Plan, edit and ship long-form video people watch to the end.",
+      fr: "Planifie, monte et publie une vidéo longue que l'on regarde jusqu'au bout.",
+    },
+    ids: ["runway", "descript", "heygen"],
+  },
+  {
+    slug: "musique-son",
+    title: { en: "Music & sound", fr: "Musique & son" },
+    blurb: {
+      en: "Sketch tracks and voice without a full studio setup.",
+      fr: "Esquisse des morceaux et de la voix sans monter un studio.",
+    },
+    ids: ["suno", "udio", "elevenlabs"],
+  },
 ]
 
 export const FEATURED_STACK_IDS = ["v0-vercel", "runway", "jasper"] as const
+
+/** Hand-curated home picks — short copy, strong tools (not random catalogue draw). */
+export const DOJO_PICK_IDS = [
+  "chatgpt",
+  "claude-3",
+  "perplexity-ai",
+  "capcut",
+  "descript",
+  "notion-ai",
+  "v0-vercel",
+  "gamma",
+] as const
 
 export const COMPARE_PRESETS = [
   ["chatgpt", "claude-3"],
@@ -116,6 +176,7 @@ export const COMPARE_PRESETS = [
 export type RecipeDef = {
   id: string
   title: Record<Locale, string>
+  intent: Record<Locale, string>
   steps: { id: string; label: Record<Locale, string> }[]
 }
 
@@ -125,6 +186,10 @@ export const RECIPE_DEFS: RecipeDef[] = [
     title: {
       en: "Shorts, without the editing spiral",
       fr: "Des shorts, sans la spirale de montage",
+    },
+    intent: {
+      en: "From a rough idea to a short people finish watching.",
+      fr: "D'une idée brute à un short que l'on regarde jusqu'au bout.",
     },
     steps: [
       { id: "capcut", label: { en: "CapCut", fr: "CapCut" } },
@@ -138,6 +203,10 @@ export const RECIPE_DEFS: RecipeDef[] = [
       en: "Research to a clear brief",
       fr: "De la recherche à un brief clair",
     },
+    intent: {
+      en: "Go from a blank page to a clear draft.",
+      fr: "De la page blanche à un texte clair.",
+    },
     steps: [
       { id: "perplexity-ai", label: { en: "Perplexity", fr: "Perplexity" } },
       { id: "elicit", label: { en: "Elicit", fr: "Elicit" } },
@@ -150,6 +219,10 @@ export const RECIPE_DEFS: RecipeDef[] = [
       en: "Idea to a launch page",
       fr: "D'une idée à une page de lancement",
     },
+    intent: {
+      en: "A practical stack for turning one idea into a landing page, a video, and a launch post.",
+      fr: "Un stack pratique pour transformer une idée en page, en vidéo et en post de lancement.",
+    },
     steps: [
       { id: "v0-vercel", label: { en: "v0", fr: "v0" } },
       { id: "gamma", label: { en: "Gamma", fr: "Gamma" } },
@@ -161,6 +234,10 @@ export const RECIPE_DEFS: RecipeDef[] = [
     title: {
       en: "Meeting to the next step",
       fr: "De la réunion à la prochaine étape",
+    },
+    intent: {
+      en: "Leave every call with a clear next step.",
+      fr: "Sortir de chaque appel avec la prochaine étape.",
     },
     steps: [
       { id: "granola", label: { en: "Granola", fr: "Granola" } },

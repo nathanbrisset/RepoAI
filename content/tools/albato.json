@@ -1,0 +1,81 @@
+{
+  "id": "albato",
+  "name": "Albato",
+  "url": "https://albato.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code automation platform with 1,000+ integrations and a white-label embedded iPaaS option.",
+  "description": "Albato is a no-code platform for connecting apps and automating workflows, with more than 1,000 native integrations. A white-label embedded edition lets software companies offer integrations to their own users and AI agents without building them in-house. The pricing page lists a free plan with 100 transactions, Pro at $15 per month billed annually ($22 monthly) with a 7-day trial, and a Teams plan for agencies starting at $65 per month billed annually. Extra transactions cost $0.033 each.",
+  "summary_fr": "Plateforme d'automatisation sans code avec plus de 1 000 intégrations et un iPaaS embarqué en marque blanche.",
+  "description_fr": "Albato est une plateforme sans code pour connecter des applications et automatiser des flux, avec plus de 1 000 intégrations natives. Une édition embarquée en marque blanche permet à des éditeurs de logiciels de proposer des intégrations à leurs utilisateurs et à des agents IA sans les construire en interne. La page tarifs liste une offre gratuite de 100 transactions, Pro à 15 $/mois (Pro, facturé annuellement) avec un essai de 7 jours, et un plan Teams pour les agences à partir de 65 $ par mois en facturation annuelle. Les transactions supplémentaires coûtent 0,033 $ chacune.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "no-code",
+    "integrations",
+    "embedded-ipaas",
+    "white-label"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Free (100 transactions), then $15/mo (Pro, billed annually)",
+    "sourceUrl": "https://albato.com/pricing",
+    "note_fr": "Gratuit (100 transactions), puis 15 $/mois (Pro, facturé annuellement)"
+  },
+  "logo": "/logos/albato.png",
+  "image": "/screenshots/albato.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://albato.com/",
+    "https://albato.com/pricing"
+  ],
+  "features": [
+    "Connect marketing and CRM apps",
+    "Embed integrations in a SaaS product",
+    "Automate agency workflows"
+  ],
+  "howToUse": [
+    {
+      "title": "Start on the free plan",
+      "description": "Start with the free plan of 100 transactions, or the 7-day Pro trial. Pro is $15 per month billed annually.",
+      "links": [
+        {
+          "label": "Albato",
+          "url": "https://albato.com/"
+        }
+      ]
+    },
+    {
+      "title": "Connect two apps",
+      "description": "Connect apps and automate workflows across more than 1,000 native integrations."
+    },
+    {
+      "title": "Ask about the embedded edition",
+      "description": "Software companies can offer a white-label embedded edition to their own users and AI agents. Book a demo for that edition."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Partir de l'offre gratuite",
+      "description": "Commencer avec 100 transactions, ou l'essai Pro de 7 jours. Pro est à 15 $/mois (Pro, facturé annuellement).",
+      "links": [
+        {
+          "label": "Albato",
+          "url": "https://albato.com/"
+        }
+      ]
+    },
+    {
+      "title": "Connecter deux applications",
+      "description": "Connecter des applications et automatiser des flux parmi plus de 1 000 intégrations natives."
+    },
+    {
+      "title": "Demander l'édition embarquée",
+      "description": "Les éditeurs peuvent proposer une édition embarquée en marque blanche à leurs utilisateurs et à leurs agents IA."
+    }
+  ]
+}

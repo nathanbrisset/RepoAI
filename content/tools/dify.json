@@ -7,7 +7,8 @@
   "summary": "Open-source platform for building agentic workflows and LLM apps.",
   "description": "Dify is a platform to build AI agents, RAG knowledge pipelines and LLM workflows on a visual canvas, then deploy them as apps or APIs. It is open source and can run on Dify Cloud, in a private VPC or self-hosted, which makes it popular with technical teams. A free plan is available on the cloud, with paid plans for more message credits and team members.",
   "categories": [
-    "ai-agents"
+    "ai-agents",
+    "automation"
   ],
   "tags": [
     "llm-apps",
@@ -19,13 +20,14 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "A free plan is available on the cloud, with paid plans for more message credits and team members.",
-    "sourceUrl": "https://dify.ai/pricing"
+    "note": "Free (200 message credits)",
+    "sourceUrl": "https://dify.ai/pricing",
+    "note_fr": "Gratuit (200 crédits de messages)"
   },
   "logo": "/logos/dify.png",
   "image": "/screenshots/dify.webp",
   "dateAdded": "2026-10-21",
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-26",
   "sources": [
     "https://dify.ai",
     "https://dify.ai/pricing"

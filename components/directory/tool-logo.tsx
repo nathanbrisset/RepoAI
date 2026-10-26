@@ -4,7 +4,7 @@ import { useState } from "react"
 import { cn } from "@/lib/utils"
 import type { DirectoryRecord } from "@/lib/directory/data"
 
-export function ToolLogo({ tool, className }: { tool: DirectoryRecord; className?: string }) {
+export function ToolLogo({ tool, className }: { tool: Pick<DirectoryRecord, "name" | "logo" | "image">; className?: string }) {
   const [failed, setFailed] = useState(false)
   const src = tool.logo || tool.image
   return (

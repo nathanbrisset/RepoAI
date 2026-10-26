@@ -37,7 +37,7 @@ export default function NewsletterModal() {
                   body: JSON.stringify({
                     subject: "New Newsletter Subscriber",
                     message: `Newsletter signup: ${email}`,
-                    email: "aitoolsrequest@gmail.com"
+                    email: "aitoolrequest@gmail.com"
                   })
                 })
                 if (res.ok) setStatus("success")

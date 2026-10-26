@@ -73,7 +73,7 @@ export default function Home({ tools }: { tools: Tool[] }) {
     <div className="min-h-screen bg-background">
       <section className="bg-gradient-to-r from-primary to-accent text-white py-16 px-4">
         <div className="container mx-auto max-w-6xl flex flex-col items-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">AITools.ninja</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">AItools.ninja</h1>
           <p className="text-xl mb-8 max-w-2xl text-center">
             {t("home.subtitle")}
           </p>

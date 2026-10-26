@@ -76,7 +76,7 @@ export function ContactModal() {
             <form ref={formRef} onSubmit={handleSubmit} className="w-full max-w-md mx-auto">
               <DialogHeader>
                 <DialogTitle className="text-2xl font-bold mb-2 text-foreground text-center">Contact Us</DialogTitle>
-                <DialogDescription className="mb-4 text-center">We usually respond within 24 hours.</DialogDescription>
+                <DialogDescription className="mb-4 text-center">We read everything; we don&apos;t promise a reply time.</DialogDescription>
               </DialogHeader>
               <div className="flex gap-2 mb-3">
                 <div className="flex-1">

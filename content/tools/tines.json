@@ -1,0 +1,82 @@
+{
+  "id": "tines",
+  "name": "Tines",
+  "url": "https://www.tines.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Platform for building AI agents, apps and workflows on sensitive systems, with security governance.",
+  "description": "Tines is a workflow platform for running automation and AI agents on sensitive systems, data and processes, with security and governance controls. It started in security operations and is now used across IT and other teams. The pricing page lists a free edition with unlimited users, spaces and connectors, 3 live workflows and a one-time $50 AI allowance. Paid editions for organisation-wide use are sold through the sales team. A community and examples gallery are available.",
+  "summary_fr": "Plateforme pour construire des agents IA, des applications et des flux sur des systèmes sensibles, avec une gouvernance de sécurité.",
+  "description_fr": "Tines est une plateforme de flux pour faire tourner de l'automatisation et des agents IA sur des systèmes, des données et des processus sensibles, avec des contrôles de sécurité et de gouvernance. L'outil a commencé dans les opérations de sécurité et sert maintenant l'IT et d'autres équipes. La page tarifs liste une édition gratuite avec utilisateurs, espaces et connecteurs illimités, 3 flux actifs et une enveloppe IA de 50 $ en une fois. Les éditions payantes pour un usage à l'échelle de l'organisation passent par les ventes. Une communauté et une galerie d'exemples sont disponibles.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "security-automation",
+    "soar",
+    "ai-agents",
+    "it-automation",
+    "workflows"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "sourceUrl": "https://www.tines.com/pricing/",
+    "note": "Free (3 live workflows)",
+    "note_fr": "Gratuit (3 flux actifs)"
+  },
+  "logo": "/logos/tines.png",
+  "image": "/screenshots/tines.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://www.tines.com/",
+    "https://www.tines.com/pricing/"
+  ],
+  "features": [
+    "Automate security alert triage",
+    "Run IT service workflows",
+    "Deploy governed AI agents"
+  ],
+  "howToUse": [
+    {
+      "title": "Create a free account",
+      "description": "Create an account on the free edition: unlimited users, spaces and connectors, with 3 live workflows and a one-time $50 AI allowance.",
+      "links": [
+        {
+          "label": "Tines",
+          "url": "https://www.tines.com/"
+        }
+      ]
+    },
+    {
+      "title": "Start from a template",
+      "description": "Start from the template library or a five-minute flow for security or IT work, such as alert triage."
+    },
+    {
+      "title": "Keep governance on sensitive systems",
+      "description": "Run automation and AI agents on sensitive systems, data and processes with security and governance controls. Organisation-wide editions go through sales."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Créer un compte gratuit",
+      "description": "Créer un compte sur l'édition gratuite : utilisateurs, espaces et connecteurs illimités, 3 flux actifs et une enveloppe IA de 50 $ en une fois.",
+      "links": [
+        {
+          "label": "Tines",
+          "url": "https://www.tines.com/"
+        }
+      ]
+    },
+    {
+      "title": "Partir d'un modèle",
+      "description": "Partir de la bibliothèque de modèles ou d'un flux en cinq minutes, par exemple pour trier des alertes."
+    },
+    {
+      "title": "Garder la gouvernance",
+      "description": "Faire tourner l'automatisation et les agents IA sur des systèmes sensibles, avec des contrôles de sécurité. Les éditions pour toute l'organisation passent par les ventes."
+    }
+  ]
+}

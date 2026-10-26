@@ -1,10 +1,10 @@
 "use client"
 
 import { ArrowRight } from "lucide-react"
-import Image from "next/image"
 import LocaleLink from "@/components/locale-link"
 import { useLocale } from "@/components/locale-provider"
 import { directoryCopy } from "@/lib/i18n/directory-copy"
+import { Shuriken } from "./shuriken"
 
 export function SiteFooter() {
   const locale = useLocale()
@@ -31,16 +31,10 @@ export function SiteFooter() {
           ))}
         </nav>
         <div className="flex flex-col gap-4 border-t border-background/15 pt-6 text-sm text-background/60 md:flex-row md:items-center md:justify-between">
-          <LocaleLink href="/" className="inline-flex w-fit rounded-2xl bg-background px-3 py-2">
-            <Image
-              src="/brand/aitools-ninja-logo.png"
-              alt="AItools.ninja"
-              width={756}
-              height={318}
-              quality={100}
-              className="h-auto w-52 sm:w-64"
-            />
-          </LocaleLink>
+          <span className="flex items-center gap-2 font-display text-base text-background">
+            <Shuriken className="size-4 text-accent" />
+            AItools.ninja
+          </span>
           <p>{t.footerTagline}</p>
         </div>
       </div>

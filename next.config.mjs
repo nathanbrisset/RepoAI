@@ -23,7 +23,8 @@ const nextConfig = {
   compress: true,
   reactStrictMode: true,
   trailingSlash: true, // Add trailing slashes to all routes
-  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://aitools.ninja' : '', // For static exports
+  // Only pin assets to the live domain on Vercel production — preview/local builds must serve /public from the current host.
+  assetPrefix: process.env.VERCEL_ENV === 'production' ? 'https://aitools.ninja' : '',
   // Add basePath if deploying to a subdirectory
   basePath: '',
   // Ensure static files are properly served

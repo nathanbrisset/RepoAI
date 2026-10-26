@@ -6533,8 +6533,8 @@
     "pricingNote_fr": "Libellé de prix repris du catalogue précédent et non revérifié."
   },
   "lindy": {
-    "summary_fr": "Créez des agents IA qui automatisent le travail dans vos outils.",
-    "description_fr": "Lindy permet aux particuliers et aux équipes de créer des agents IA (« employés IA ») qui se connectent à leurs applications et aux connaissances de l'entreprise pour gérer les e-mails, la planification, les relances commerciales et d'autres tâches. Il se distingue par la création d'agents en no-code et par de nombreuses intégrations. Les nouveaux utilisateurs reçoivent 50 $ de crédits gratuits, valables 7 jours, sans carte bancaire requise ; ensuite, les formules payantes commencent à 29,99 $/mois pour 3 000 crédits.",
+    "summary_fr": "Plateforme d'agents IA qui automatisent le travail à travers les outils de l'équipe.",
+    "description_fr": "Lindy permet aux particuliers et aux équipes de créer des agents IA (« employés IA ») qui se connectent à leurs applications et aux connaissances de l'entreprise pour gérer les e-mails, la planification, les relances commerciales et d'autres tâches. Il se distingue par la création d'agents en no-code et par de nombreuses intégrations. L'entrée payante est à 49,99 $/mois (Team, 5 000 crédits). 50 $ de crédits sont offerts pendant 7 jours.",
     "tags_fr": [
       "agents IA",
       "automatisation",
@@ -6570,7 +6570,7 @@
         ]
       }
     ],
-    "pricingNote_fr": "Les nouveaux utilisateurs reçoivent 50 $ de crédits gratuits valables 7 jours, sans carte bancaire ; ensuite les forfaits payants commencent à 29,99 $/mois pour 3 000 crédits."
+    "pricingNote_fr": "49,99 $/mois (Team, 5 000 crédits). 50 $ de crédits sont offerts pendant 7 jours."
   },
   "llama": {
     "summary_fr": "La famille de modèles de langage à poids ouverts de Meta, désormais aux côtés de Muse.",
@@ -12159,7 +12159,7 @@
     "pricingNote_fr": "Libellé de prix repris du catalogue précédent et non revérifié."
   },
   "zapier": {
-    "summary_fr": "Créez et faites passer à l'échelle des workflows et des agents IA sur 9 000+ applications avec Zapier, la plateforme d'orchestration IA la plus connectée. 3 millions+ d'entreprises lui font confiance.",
+    "summary_fr": "Plateforme sans code qui relie plus de 9 000 applications avec des Zaps, des tables, des formulaires et des agents IA.",
     "description_fr": "Créez et faites passer à l'échelle des workflows et des agents IA sur 9 000+ applications avec Zapier, la plateforme d'orchestration IA la plus connectée. 3 millions+ d'entreprises lui font confiance.\n\nIntégration d'applications : connecte 6 000+ applications pour automatiser les workflows. AI Actions : automatise des tâches à l'aide de prompts en langage naturel. Zaps multi-étapes : enchaîne plusieurs tâches dans une seule automatisation. Mise en forme des données : nettoie et reformate les données entre les applications.",
     "tags_fr": [
       "IA",
@@ -12312,7 +12312,7 @@
   },
   "activepieces": {
     "summary_fr": "Espace d'automatisation open source avec chat, agents, flux et tables, connecté à 760+ applications.",
-    "description_fr": "Activepieces réunit l'automatisation de workflows, des agents IA, le chat et des tables de données dans un même espace de travail, avec plus de 760 connecteurs d'applications et un serveur MCP. Son cœur est open source et peut être auto-hébergé. Le plan Free hébergé ne demande pas de carte ; Plus coûte un forfait de $20 par mois avec dix fois l'usage gratuit et un paiement à l'usage au-delà, et Team coûte $200 par mois. Les fonctions Enterprise comprennent les journaux d'audit et l'embedding.",
+    "description_fr": "Activepieces réunit l'automatisation de workflows, des agents IA, le chat et des tables de données dans un même espace de travail, avec plus de 760 connecteurs d'applications et un serveur MCP. Son cœur est open source et peut être auto-hébergé. Le plan Free hébergé ne demande pas de carte ; Plus est à 20 $/mois (Plus) avec dix fois l'usage gratuit et un paiement à l'usage au-delà, et Team coûte $200 par mois. Les fonctions Enterprise comprennent les journaux d'audit et l'embedding.",
     "tags_fr": [
       "automatisation",
       "open source",
@@ -12786,7 +12786,7 @@
   },
   "bardeen": {
     "summary_fr": "Extracteur web dans le navigateur et outil d'enrichissement pour trouver et qualifier des leads commerciaux.",
-    "description_fr": "Bardeen est un outil de sourcing de leads construit autour d'un extracteur web par IA. Les utilisateurs extraient des données de sites web, enrichissent les contacts avec des e-mails et des numéros de téléphone, notent les leads avec l'IA et synchronisent les résultats vers des tableurs ou des CRM. La tarification est fondée sur des crédits : chaque compte conserve 100 crédits gratuits, et les plans payants commencent à $10 par mois, avec des plans plus importants à $50 par mois et des crédits en volume personnalisés sur demande.",
+    "description_fr": "Bardeen est un outil de sourcing de leads construit autour d'un extracteur web par IA. Les utilisateurs extraient des données de sites web, enrichissent les contacts avec des e-mails et des numéros de téléphone, notent les leads avec l'IA et synchronisent les résultats vers des tableurs ou des CRM. La tarification est fondée sur des crédits : chaque compte conserve 100 crédits gratuits, et les plans payants commencent à 10 $/mois, avec des plans plus importants à $50 par mois et des crédits en volume personnalisés sur demande.",
     "tags_fr": [
       "scraping web",
       "génération de leads",
@@ -13032,7 +13032,7 @@
   },
   "browser-use": {
     "summary_fr": "Navigateurs cloud et agents web pour automatiser des tâches sur des sites, avec une bibliothèque open source.",
-    "description_fr": "Browser Use propose une infrastructure pour des agents qui opèrent sur des sites web. Ses agents hébergés accomplissent des tâches dans un navigateur, et ses navigateurs cloud peuvent être pilotés par l'agent propre d'un développeur. Le projet a commencé comme une bibliothèque open source. La tarification est au paiement à l'usage, sans abonnement : les navigateurs cloud coûtent $0.02 par heure, les proxys résidentiels $5 par GB, et les nouveaux comptes reçoivent $1 de crédit gratuit. L'entreprise indique une conformité SOC 2 Type II et HIPAA.",
+    "description_fr": "Browser Use propose une infrastructure pour des agents qui opèrent sur des sites web. Ses agents hébergés accomplissent des tâches dans un navigateur, et ses navigateurs cloud peuvent être pilotés par l'agent propre d'un développeur. Le projet a commencé comme une bibliothèque open source. La tarification est au paiement à l'usage, sans abonnement : les navigateurs cloud coûtent 0,02 $/heure de navigateur, les proxys résidentiels $5 par GB, et les nouveaux comptes reçoivent $1 de crédit gratuit. L'entreprise indique une conformité SOC 2 Type II et HIPAA.",
     "tags_fr": [
       "automatisation du navigateur",
       "agents web",
@@ -14970,7 +14970,7 @@
   },
   "gumloop": {
     "summary_fr": "Constructeur no-code d'agents d'IA et de workflows qui se connectent aux outils et aux modèles de l'entreprise.",
-    "description_fr": "Gumloop est un constructeur d'agents d'IA et d'automatisations utilisable par des non-ingénieurs. Les utilisateurs combinent des modèles d'IA avec des intégrations à des applications telles que Slack, Gmail et des CRM, puis partagent les agents dans l'entreprise pendant que l'IT contrôle l'accès. Les modèles couvrent la recherche commerciale, la rédaction de prospection sortante et les tâches de succès client. La page de tarifs indique Pro à partir de $37 par mois avec un essai gratuit de 14 jours, et Enterprise à un tarif sur mesure ; aucun plan gratuit n'était indiqué.",
+    "description_fr": "Gumloop est un constructeur d'agents d'IA et d'automatisations utilisable par des non-ingénieurs. Les utilisateurs combinent des modèles d'IA avec des intégrations à des applications telles que Slack, Gmail et des CRM, puis partagent les agents dans l'entreprise pendant que l'IT contrôle l'accès. Les modèles couvrent la recherche commerciale, la rédaction de prospection sortante et les tâches de succès client. Pro est à 37 $/mois (Pro), avec un essai de 14 jours. Pas d'offre gratuite. Enterprise est sur devis.",
     "tags_fr": [
       "Agents d'IA",
       "No-code",
@@ -14998,7 +14998,7 @@
       },
       {
         "title": "Partager l'agent, puis voir les tarifs",
-        "description": "Partagez l'agent dans l'entreprise pour que les collègues puissent le lancer, pendant que le service informatique contrôle l'accès. Sur Pricing, Pro commence à 37 $ par mois avec un essai gratuit de 14 jours, et Enterprise est à un tarif sur mesure."
+        "description": "Partagez l'agent dans l'entreprise pour que les collègues puissent le lancer, pendant que le service informatique contrôle l'accès. Sur Pricing, Pro est à 37 $/mois (Pro) avec un essai gratuit de 14 jours, et Enterprise est à un tarif sur mesure."
       }
     ],
     "pricingNote_fr": "$37/mo (Pro)"
@@ -15396,7 +15396,7 @@
   },
   "ifttt": {
     "summary_fr": "Service no-code qui relie 1,000+ applications et appareils par de simples applets déclencheur-action.",
-    "description_fr": "IFTTT connecte plus de 1,000 services, dont les applications Google, les webhooks, Discord, Slack et les appareils de maison connectée, via des applets qui lancent une action lorsqu'un déclencheur se produit. Il s'adresse aux particuliers et aux petites entreprises plutôt qu'aux workflows d'entreprise complexes. Un plan gratuit permet d'utiliser les applets publiées ; les paliers payants commencent à $2.99 par mois en facturation annuelle et $8.99 par mois pour les fonctions multi-étapes et de filtre.",
+    "description_fr": "IFTTT connecte plus de 1,000 services, dont les applications Google, les webhooks, Discord, Slack et les appareils de maison connectée, via des applets qui lancent une action lorsqu'un déclencheur se produit. Il s'adresse aux particuliers et aux petites entreprises plutôt qu'aux workflows d'entreprise complexes. Un plan gratuit permet d'utiliser les applets publiées ; les paliers payants commencent à 2,99 $/mois (facturé annuellement) et $8.99 par mois pour les fonctions multi-étapes et de filtre.",
     "tags_fr": [
       "Automatisation",
       "Maison connectée",
@@ -16329,7 +16329,7 @@
   },
   "make": {
     "summary_fr": "Plateforme visuelle no-code pour construire des automatisations et des workflows d'agents IA entre applications.",
-    "description_fr": "Make est une plateforme d'automatisation no-code où les utilisateurs construisent des workflows, appelés scenarios, sur un canevas visuel qui connecte des milliers d'applications. Elle prend aussi en charge des agents IA qui s'exécutent à l'intérieur de ces workflows. L'usage est mesuré en crédits. Un plan gratuit inclut 1,000 crédits par mois, et les plans payants ajoutent davantage de crédits et de fonctions ; les plans entreprise incluent un support 24/7.",
+    "description_fr": "Make est une plateforme d'automatisation no-code où les utilisateurs construisent des workflows, appelés scenarios, sur un canevas visuel qui connecte des milliers d'applications. Elle prend aussi en charge des agents IA qui s'exécutent à l'intérieur de ces workflows. L'usage est mesuré en crédits. Un plan gratuit inclut 1 000 crédits/mois, et les plans payants ajoutent davantage de crédits et de fonctions ; les plans entreprise incluent un support 24/7.",
     "tags_fr": [
       "Automatisation",
       "Intégrations",
@@ -16496,7 +16496,7 @@
   },
   "microsoft-power-automate": {
     "summary_fr": "Service d'automatisation cloud et de bureau de Microsoft, avec RPA et fonctions Copilot.",
-    "description_fr": "Power Automate fait partie de Microsoft Power Platform. Il automatise des workflows entre applications cloud, systèmes et sites web, et inclut l'automatisation robotisée des processus pour les tâches de bureau, le process mining et la création de flux assistée par Copilot. Un essai gratuit de 30 jours est disponible. Le plan Premium coûte $15 par utilisateur et par mois payé annuellement ; les licences Process et Hosted Process pour les bots non supervisés coûtent $150 et $215 par bot et par mois.",
+    "description_fr": "Power Automate fait partie de Microsoft Power Platform. Il automatise des workflows entre applications cloud, systèmes et sites web, et inclut l'automatisation robotisée des processus pour les tâches de bureau, le process mining et la création de flux assistée par Copilot. Un essai gratuit de 30 jours est disponible. Le plan Premium coûte 15 $/mois par utilisateur (facturé annuellement) ; les licences Process et Hosted Process pour les bots non supervisés coûtent $150 et $215 par bot et par mois.",
     "tags_fr": [
       "RPA",
       "Automatisation",
@@ -17410,7 +17410,7 @@
   },
   "pipedream": {
     "summary_fr": "Plateforme pour développeurs qui fournit une authentification gérée et des milliers d'outils d'API pour les agents et les applications.",
-    "description_fr": "Pipedream fournit aux développeurs une authentification gérée et plus de 10,000 outils préconstruits sur plus de 3,000 API, par son produit Connect, afin que les agents et les applications puissent agir dans les comptes des utilisateurs. Conduit est une passerelle pour gouverner les outils d'IA qu'une entreprise utilise. La construction est gratuite, sans carte requise ; les plans payants s'appliquent lorsque les intégrations passent en production, à commencer par le plan Startup à $99 par mois en facturation annuelle.",
+    "description_fr": "Pipedream fournit aux développeurs une authentification gérée et plus de 10,000 outils préconstruits sur plus de 3,000 API, par son produit Connect, afin que les agents et les applications puissent agir dans les comptes des utilisateurs. Conduit est une passerelle pour gouverner les outils d'IA qu'une entreprise utilise. La construction est gratuite, sans carte requise ; les plans payants s'appliquent lorsque les intégrations passent en production, à commencer par le plan Startup à 99 $/mois (Startup, facturé annuellement).",
     "tags_fr": [
       "Intégrations API",
       "Développeurs",
@@ -17892,7 +17892,7 @@
   },
   "relevance-ai": {
     "summary_fr": "Plateforme pour construire et exécuter des agents IA pour des tâches de vente, de support, de marketing et de RH.",
-    "description_fr": "Relevance AI est une plateforme pour construire et faire fonctionner des agents IA qui exécutent des tâches métier telles que la recherche, la prospection, la qualification et le support. Les équipes peuvent configurer des agents spécialisés, les connecter à leurs outils et les exécuter à grande échelle. Son assistant Invent aide à repérer les processus à automatiser et les transforme en agents. La page de tarifs n'affichait qu'une offre entreprise lors de cette vérification, aucun prix n'a donc été enregistré.",
+    "description_fr": "Relevance AI est une plateforme pour construire et faire fonctionner des agents IA qui exécutent des tâches métier telles que la recherche, la prospection, la qualification et le support. Les équipes peuvent configurer des agents spécialisés, les connecter à leurs outils et les exécuter à grande échelle. Son assistant Invent aide à repérer les processus à automatiser et les transforme en agents. Le tarif est sur devis.",
     "tags_fr": [
       "Agents IA",
       "No-code",
@@ -17920,10 +17920,10 @@
       },
       {
         "title": "Vérifier l'offre entreprise",
-        "description": "Seule une offre entreprise apparaissait sur la page de tarifs lors de cette vérification, donc aucun prix n'a été enregistré."
+        "description": "Le tarif est sur devis."
       }
     ],
-    "pricingNote_fr": "La page de tarifs officielle ne montre qu'un forfait Enterprise, sur devis."
+    "pricingNote_fr": "Sur devis"
   },
   "replit-ghostwriter": {
     "summary_fr": "Assistant de code par IA dans l'éditeur Replit. Le nom Ghostwriter est obsolète.",
@@ -18531,7 +18531,7 @@
   },
   "skyvern": {
     "summary_fr": "Automatisation de navigateur open source qui utilise l'IA pour remplir des formulaires, se connecter et extraire des données sur des sites.",
-    "description_fr": "Skyvern automatise le travail répétitif dans le navigateur, comme la connexion à des portails, le remplissage de formulaires, le téléchargement de factures et l'extraction de données. Il utilise l'IA pour lire les pages, et ne s'appuie donc pas sur des sélecteurs fixes qui cassent quand les sites changent. Le cœur est open source. Le service hébergé propose une formule gratuite avec 5,000 crédits par mois, une formule Hobby à $29 par mois et une formule Pro à $149 par mois ; il prend en charge la 2FA et indique une conformité HIPAA et SOC 2.",
+    "description_fr": "Skyvern automatise le travail répétitif dans le navigateur, comme la connexion à des portails, le remplissage de formulaires, le téléchargement de factures et l'extraction de données. Il utilise l'IA pour lire les pages, et ne s'appuie donc pas sur des sélecteurs fixes qui cassent quand les sites changent. Le cœur est open source. Le service hébergé propose une formule gratuite avec 5,000 crédits par mois, une formule Hobby à 29 $/mois (Hobby) et une formule Pro à $149 par mois ; il prend en charge la 2FA et indique une conformité HIPAA et SOC 2.",
     "tags_fr": [
       "Automatisation du navigateur",
       "RPA",

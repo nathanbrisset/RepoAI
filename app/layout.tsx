@@ -39,18 +39,13 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className={`${geist.variable} ${dela.variable}`} suppressHydrationWarning>
-      <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/brand/icon-192.png" type="image/png" sizes="192x192" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-      </head>
       <body className="bg-background font-sans text-foreground antialiased">
         <LocaleProvider locale={locale}>
           <ThemeProvider attribute="class" forcedTheme="light" enableSystem={false} disableTransitionOnChange>
             <DirectoryProvider records={records} chips={chips} total={records.length} today={new Date().toISOString().slice(0, 10)}>
               <div className="flex min-h-screen flex-col">
                 <SiteHeader />
-                <main className="flex-grow">{children}</main>
+                <main className="flex-grow overflow-x-hidden">{children}</main>
                 <CompareSpacer />
                 <SiteFooter />
               </div>

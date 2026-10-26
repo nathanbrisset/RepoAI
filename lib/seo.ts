@@ -1,13 +1,13 @@
 import type { Metadata } from "next"
 
 export const SITE_URL = "https://www.aitools.ninja"
-export const SITE_NAME = "AI Tools Ninja"
+export const SITE_NAME = "AItools.ninja"
 export const OG_IMAGE_PATH = "/opengraph-image"
 export const OG_IMAGE_WIDTH = 1200
 export const OG_IMAGE_HEIGHT = 630
-export const OG_IMAGE_ALT = "AI Tools Ninja — directory of AI tools"
+export const OG_IMAGE_ALT = "AItools.ninja — directory of AI tools"
 
-const HOME_TITLE = "AI Tools Ninja — Find the Right AI Tool"
+const HOME_TITLE = "Find your AI match | AItools.ninja"
 const HOME_DESCRIPTION =
   "Browse a directory of AI tools for writing, coding, images, video, audio, and everyday work. Open a listing and go to the official site."
 
@@ -21,7 +21,7 @@ const ogImage = {
   alt: OG_IMAGE_ALT,
 }
 
-const TITLE_TEMPLATE = "%s | AI Tools Ninja"
+const TITLE_TEMPLATE = "%s | AItools.ninja"
 
 export function absoluteUrl(path: string): string {
   if (path === "/" || path === "") return SITE_URL

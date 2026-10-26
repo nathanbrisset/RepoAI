@@ -1,0 +1,82 @@
+{
+  "id": "uipath",
+  "name": "UiPath",
+  "url": "https://www.uipath.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Platform for business orchestration and automation that combines RPA robots, AI agents and people.",
+  "description": "UiPath is an automation platform built around robotic process automation (RPA), with AI agents and process orchestration through its Maestro product. Software robots carry out repetitive tasks in desktop and web applications, while agents and people handle steps that need judgment. The pricing page lists a free-forever plan, a Basic plan starting at $25 per month, and Standard and Enterprise plans with pricing from sales. Some plans offer a 60-day free trial. Deployment is cloud-hosted in several regions or on-premises.",
+  "summary_fr": "Plateforme d'orchestration qui combine robots RPA, agents IA et personnes.",
+  "description_fr": "UiPath est une plateforme d'automatisation construite autour de la RPA, avec des agents IA et l'orchestration de processus via Maestro. Les robots logiciels exécutent des tâches répétitives dans des applications de bureau et web, tandis que les agents et les personnes prennent les étapes qui demandent un jugement. La page tarifs liste une offre gratuite sans limite de durée, Basic à 25 $/mois (Basic), et des plans Standard et Enterprise dont le prix vient des ventes. Certains plans proposent un essai de 60 jours. Le déploiement se fait dans le cloud, dans plusieurs régions, ou on-premises.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "rpa",
+    "ai-agents",
+    "orchestration",
+    "enterprise",
+    "desktop-automation"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Free, then $25/mo (Basic)",
+    "sourceUrl": "https://www.uipath.com/pricing",
+    "note_fr": "Gratuit, puis 25 $/mois (Basic)"
+  },
+  "logo": "/logos/uipath.png",
+  "image": "/screenshots/uipath.webp",
+  "dateAdded": "2026-10-26",
+  "lastVerified": "2026-10-26",
+  "sources": [
+    "https://www.uipath.com/",
+    "https://www.uipath.com/pricing"
+  ],
+  "features": [
+    "Automate repetitive desktop tasks",
+    "Orchestrate agents and robots",
+    "Process documents"
+  ],
+  "howToUse": [
+    {
+      "title": "Open the free plan",
+      "description": "Choose Try UiPath free. The pricing page lists a free-forever plan before Basic at $25 per month.",
+      "links": [
+        {
+          "label": "UiPath",
+          "url": "https://www.uipath.com/"
+        }
+      ]
+    },
+    {
+      "title": "Record a desktop task",
+      "description": "Let software robots carry out repetitive tasks in desktop and web applications, such as copying a record between systems."
+    },
+    {
+      "title": "Orchestrate the handoff",
+      "description": "Use Maestro so AI agents and people handle the steps that need judgment. Deployment can be cloud-hosted or on-premises."
+    }
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvrir l'offre gratuite",
+      "description": "Choisir Try UiPath free. L'offre gratuite n'a pas de limite de durée, puis Basic est à 25 $/mois (Basic).",
+      "links": [
+        {
+          "label": "UiPath",
+          "url": "https://www.uipath.com/"
+        }
+      ]
+    },
+    {
+      "title": "Enregistrer une tâche de bureau",
+      "description": "Faire exécuter par un robot une saisie répétitive entre une application de bureau et un site."
+    },
+    {
+      "title": "Passer la main",
+      "description": "Avec Maestro, confier à une personne les étapes qui demandent un jugement. Le déploiement peut être cloud ou sur site."
+    }
+  ]
+}

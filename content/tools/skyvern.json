@@ -7,7 +7,8 @@
   "summary": "Open-source browser automation that uses AI to fill forms, log in and extract data across websites.",
   "description": "Skyvern automates repetitive browser work such as logging into portals, filling forms, downloading invoices and extracting data. It uses AI to read pages, so it does not rely on fixed selectors that break when sites change. The core is open source. The hosted service has a free plan with 5,000 credits per month, a Hobby plan at $29 per month and a Pro plan at $149 per month; it supports 2FA and lists HIPAA and SOC 2 compliance.",
   "categories": [
-    "ai-agents"
+    "ai-agents",
+    "automation"
   ],
   "tags": [
     "browser-automation",
@@ -19,10 +20,11 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "$29/mo (Hobby)",
-    "sourceUrl": "https://www.skyvern.com/pricing"
+    "note": "Free (5,000 credits/mo), then $29/mo (Hobby)",
+    "sourceUrl": "https://www.skyvern.com/pricing",
+    "note_fr": "Gratuit (5 000 crédits/mois), puis 29 $/mois (Hobby)"
   },
-  "logo": "https://www.skyvern.com/apple-touch-icon.png",
+  "logo": "/logos/skyvern.png",
   "image": "/screenshots/skyvern.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-21",

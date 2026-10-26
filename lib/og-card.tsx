@@ -21,10 +21,10 @@ export function renderOgImage() {
         }}
       >
         <div style={{ display: "flex", fontSize: 28, letterSpacing: 2, textTransform: "uppercase" }}>
-          www.aitools.ninja
+          AItools.ninja
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <div style={{ fontSize: 84, fontWeight: 800, lineHeight: 1.05 }}>AI Tools Ninja</div>
+          <div style={{ fontSize: 84, fontWeight: 800, lineHeight: 1.05 }}>AItools.ninja</div>
           <div style={{ marginTop: 24, fontSize: 36, lineHeight: 1.3 }}>
             A directory of AI tools for writing, code, image, video, and more.
           </div>

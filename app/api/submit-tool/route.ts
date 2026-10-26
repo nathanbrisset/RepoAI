@@ -25,7 +25,7 @@ export async function POST(request: Request) {
 
     const data = await resend.emails.send({
       from: 'Tool Submission <onboarding@resend.dev>',
-      to: ['aitoolsrequest@gmail.com'],
+      to: ['aitoolrequest@gmail.com'],
       subject: `New Tool Submission: ${toolName}`,
       text,
     });
