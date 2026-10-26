@@ -26,27 +26,27 @@ export default function CookieConsent() {
   if (!showBanner) return null
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-[75] border-t border-border bg-card p-4 shadow-lg">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-        <div className="flex-1">
-          <p className="text-sm text-muted-foreground">
-            {t("cookie.body")}{" "}
-            <LocaleLink href="/privacy" className="font-semibold text-primary hover:underline">
-              {t("cookie.privacy")}
-            </LocaleLink>{" "}
-            {t("cookie.more")}
-          </p>
-        </div>
-        <div className="flex gap-4">
+    <div className="pointer-events-none fixed inset-x-0 bottom-2 z-[60] flex justify-center px-2 sm:bottom-3 sm:px-4">
+      <div className="pointer-events-auto flex w-full max-w-3xl flex-col gap-2 rounded-2xl border border-border bg-card/95 p-2.5 shadow-lg backdrop-blur sm:flex-row sm:items-center sm:gap-3 sm:p-3">
+        <p className="flex-1 text-xs leading-snug text-muted-foreground sm:text-sm sm:leading-normal">
+          {t("cookie.body")}{" "}
+          <LocaleLink href="/privacy" className="font-semibold text-primary hover:underline">
+            {t("cookie.privacy")}
+          </LocaleLink>{" "}
+          {t("cookie.more")}
+        </p>
+        <div className="flex shrink-0 gap-2">
           <button
+            type="button"
             onClick={handleDecline}
-            className="rounded-full bg-secondary px-4 py-2 text-sm font-medium text-foreground"
+            className="rounded-full bg-secondary px-3 py-1.5 text-xs font-medium text-foreground sm:px-4 sm:py-2 sm:text-sm"
           >
             {t("cookie.decline")}
           </button>
           <button
+            type="button"
             onClick={handleAccept}
-            className="rounded-full bg-primary px-4 py-2 text-sm font-medium text-primary-foreground"
+            className="rounded-full bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground sm:px-4 sm:py-2 sm:text-sm"
           >
             {t("cookie.accept")}
           </button>

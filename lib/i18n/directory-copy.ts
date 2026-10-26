@@ -50,7 +50,7 @@ const copy = {
     watchSeries: "Watch the series",
     selectionKicker: "Selection",
     selectionTitle: "Dojo picks",
-    selectionNote: "Eight tools drawn from the catalogue for today.",
+    selectionNote: "Eight hand-picked tools for today.",
     viewCatalogue: "View the full catalogue",
     doorsKicker: "Catalogue doors",
     doorsTitle: "Browse by category",
@@ -184,7 +184,7 @@ const copy = {
     brand: "AItools.ninja",
     navCatalogue: "Catalogue",
     navCollections: "Collections",
-    navAutomations: "Automations",
+    navAutomations: "Automatisations",
     compare: "Comparer",
     submit: "Proposer un outil",
     scroll: "Mon scroll",
@@ -206,7 +206,7 @@ const copy = {
     dojo: "Le dojo des outils IA",
     dojoMeta: "{count} outils triés sur le volet, affûtés chaque jour",
     heroLead: "Trouve ton match IA pour",
-    words: ["vidéo", "code", "écriture", "vente", "art"],
+    words: ["la vidéo", "le code", "l'écriture", "la vente", "l'art"],
     heroSearch: "Rechercher des outils, tâches ou catégories",
     heroSearchAi: "Décris ce que tu veux faire",
     searchMode: "Recherche",
@@ -228,8 +228,8 @@ const copy = {
     shortsTitle: "Un stack pour les formats courts, avec des outils du catalogue",
     watchSeries: "Voir la série",
     selectionKicker: "Sélection",
-    selectionTitle: "Dojo picks",
-    selectionNote: "Huit outils tirés du catalogue pour aujourd'hui.",
+    selectionTitle: "Sélection du dojo",
+    selectionNote: "Huit outils choisis à la main pour aujourd'hui.",
     viewCatalogue: "Voir tout le catalogue",
     doorsKicker: "Portes du catalogue",
     doorsTitle: "Parcourir par catégorie",
@@ -244,7 +244,7 @@ const copy = {
     removeFromScroll: "Retirer de Mon scroll",
     addCompare: "Ajouter à la comparaison",
     removeCompare: "Retirer de la comparaison",
-    viewDetails: "Voir la fiche de {name}",
+    viewDetails: "Voir la fiche {name}",
     visitSite: "Visiter le site de {name}",
     visitName: "Visiter {name}",
     fullPage: "Ouvrir la fiche complète",
@@ -348,7 +348,7 @@ const copy = {
     footerLinks: [
       { href: "/catalogue", label: "Catalogue" },
       { href: "/collections", label: "Collections" },
-      { href: "/automations", label: "Automations" },
+      { href: "/automations", label: "Automatisations" },
       { href: "/about", label: "À propos" },
       { href: "/submit", label: "Proposer" },
       { href: "/contact", label: "Contact" },
@@ -369,4 +369,17 @@ export function directoryCopy(locale: Locale): DirectoryCopy {
 
 export function fill(template: string, vars: Record<string, string | number>) {
   return template.replace(/\{(\w+)\}/g, (_, name: string) => String(vars[name] ?? ""))
+}
+
+const FRENCH_ELISION = /^[aeiouàâäéèêëîïôöùûüœh]/i
+
+/** French « de » / « d' » before a tool name in UI labels. */
+export function frenchDe(name: string) {
+  const trimmed = name.trim()
+  return FRENCH_ELISION.test(trimmed) ? `d'${trimmed}` : `de ${trimmed}`
+}
+
+export function viewDetailsFor(locale: Locale, name: string) {
+  if (locale === "en") return fill(copy.en.viewDetails, { name })
+  return `Voir la fiche ${frenchDe(name)}`
 }

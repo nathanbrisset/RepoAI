@@ -5,7 +5,8 @@ import { categoryCopy } from "@/lib/i18n/messages"
 import { toolForLocale } from "@/lib/i18n/localize-tool"
 import { priceFilterBucket, type PriceFilter } from "@/lib/price-filter"
 import type { Tool } from "@/lib/types"
-import { COLLECTION_DEFS, DOOR_ART, DOOR_IDS, FEATURED_STACK_IDS, RECIPE_DEFS } from "./collections"
+import { translateTags } from "@/lib/i18n/tags"
+import { COLLECTION_DEFS, DOJO_PICK_IDS, DOOR_ART, DOOR_IDS, FEATURED_STACK_IDS, RECIPE_DEFS } from "./collections"
 
 export type DirectoryRecord = {
   id: string
@@ -51,7 +52,7 @@ function toRecord(tool: Tool, locale: Locale): DirectoryRecord {
     name: localized.name,
     description: localized.description,
     categories: tool.categories,
-    tags: (localized.tags || []).slice(0, 8),
+    tags: (locale === "fr" ? translateTags(localized.tags, tool.tags_fr) : localized.tags || []).slice(0, 8),
     features: (localized.features || []).slice(0, 6),
     url: tool.url || "",
     logo: tool.logo || "",
@@ -111,10 +112,9 @@ export function dailyPickIds(ids: string[], count = 8, now = new Date()) {
   return bag.slice(0, count)
 }
 
-export function dailyPicks(locale: Locale, count = 8, now = new Date()) {
-  const records = directoryRecords(locale)
-  const byId = new Map(records.map((record) => [record.id, record]))
-  return dailyPickIds(records.map((record) => record.id), count, now)
+export function dailyPicks(locale: Locale, count = 8) {
+  const byId = new Map(directoryRecords(locale).map((record) => [record.id, record]))
+  return DOJO_PICK_IDS.slice(0, count)
     .map((id) => byId.get(id))
     .filter((record): record is DirectoryRecord => Boolean(record))
 }

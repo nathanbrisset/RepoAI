@@ -4,7 +4,7 @@ import { ArrowUpRight, Bookmark, GitCompareArrows } from "lucide-react"
 import { cn } from "@/lib/utils"
 import type { DirectoryRecord } from "@/lib/directory/data"
 import { useLocale } from "@/components/locale-provider"
-import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
+import { directoryCopy, fill, viewDetailsFor } from "@/lib/i18n/directory-copy"
 import { useDirectory } from "./directory-provider"
 import { isRecentAddition, ToolLogo } from "./tool-logo"
 
@@ -26,7 +26,7 @@ export function ToolCard({ tool, index = 0 }: { tool: DirectoryRecord; index?: n
           onClick={() => openTool(tool.id)}
           className="absolute inset-0 z-0 rounded-3xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
         >
-          <span className="sr-only">{fill(t.viewDetails, { name: tool.name })}</span>
+          <span className="sr-only">{viewDetailsFor(locale, tool.name)}</span>
         </button>
         <div className="pointer-events-none relative z-10 flex items-start justify-between gap-3">
           <ToolLogo tool={tool} />

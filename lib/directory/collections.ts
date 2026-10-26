@@ -155,6 +155,18 @@ export const COLLECTION_DEFS: CollectionDef[] = [
 
 export const FEATURED_STACK_IDS = ["v0-vercel", "runway", "jasper"] as const
 
+/** Hand-curated home picks — short copy, strong tools (not random catalogue draw). */
+export const DOJO_PICK_IDS = [
+  "chatgpt",
+  "claude-3",
+  "perplexity-ai",
+  "capcut",
+  "descript",
+  "notion-ai",
+  "v0-vercel",
+  "gamma",
+] as const
+
 export const COMPARE_PRESETS = [
   ["chatgpt", "claude-3"],
   ["cursor", "devin"],

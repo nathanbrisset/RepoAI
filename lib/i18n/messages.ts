@@ -523,8 +523,8 @@ const fr: typeof en = {
   },
   home: {
     subtitle:
-      "L'annuaire des outils d'IA pour chaque usage. Trouvez, comparez et choisissez la solution qui vous convient.",
-    matchTitle: "Trouvez votre AI MATCH !",
+      "L'annuaire des outils d'IA pour chaque usage. Trouve, compare et choisis la solution qui te convient.",
+    matchTitle: "Trouve ton AI MATCH !",
     matchAlt: "AI Match",
     matchSubtitle: "Quel que soit votre besoin, une IA peut y répondre.",
     placeholder: "Décrivez ce que vous voulez accomplir...",
@@ -781,7 +781,7 @@ const fr: typeof en = {
     topNote: "Les notes en étoiles ont été retirées. Elles ne reposaient pas sur un ensemble d'avis publié.",
   },
   meta: {
-    homeTitle: "AITools.ninja - Trouvez les meilleurs outils d'IA",
+    homeTitle: "AITools.ninja — Trouve les meilleurs outils d'IA",
     homeDescription:
       "Trouve ton match IA. Un annuaire d'outils triés pour le code, la vidéo, l'image, la musique, l'écriture et la recherche.",
     aboutTitle: "À propos | AITools.ninja",
