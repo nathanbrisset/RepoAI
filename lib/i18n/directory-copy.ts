@@ -2,7 +2,7 @@ import type { Locale } from "./config"
 
 const copy = {
   en: {
-    brand: "aitools.ninja",
+    brand: "AItools.ninja",
     navCatalogue: "Catalogue",
     navCollections: "Collections",
     navAutomations: "Automations",
@@ -96,7 +96,7 @@ const copy = {
     collectionsPageKicker: "Collections",
     collectionsPageTitle: "Practical paths through the dojo.",
     collectionBack: "Collections",
-    backHome: "aitools.ninja",
+    backHome: "AItools.ninja",
     recipesKicker: "Automation recipes",
     recipesTitle: "Repeatable moves",
     automationsKicker: "Collections / Automations",
@@ -145,7 +145,7 @@ const copy = {
     suggestions: "Suggestions",
   },
   fr: {
-    brand: "aitools.ninja",
+    brand: "AItools.ninja",
     navCatalogue: "Catalogue",
     navCollections: "Collections",
     navAutomations: "Automations",
@@ -239,7 +239,7 @@ const copy = {
     collectionsPageKicker: "Collections",
     collectionsPageTitle: "Des parcours concrets dans le dojo.",
     collectionBack: "Collections",
-    backHome: "aitools.ninja",
+    backHome: "AItools.ninja",
     recipesKicker: "Recettes d'automation",
     recipesTitle: "Des enchaînements à refaire",
     automationsKicker: "Collections / Automations",

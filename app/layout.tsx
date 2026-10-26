@@ -40,7 +40,9 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={`${geist.variable} ${dela.variable}`} suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/brand/icon-192.png" type="image/png" sizes="192x192" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
       <body className="bg-background font-sans text-foreground antialiased">
         <LocaleProvider locale={locale}>

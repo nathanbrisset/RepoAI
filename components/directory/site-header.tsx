@@ -10,7 +10,7 @@ import { LOCALE_COOKIE, type Locale } from "@/lib/i18n/config"
 import { directoryCopy } from "@/lib/i18n/directory-copy"
 import { localizeHref, stripLocale } from "@/lib/i18n/paths"
 import { useDirectory } from "./directory-provider"
-import { Shuriken } from "./shuriken"
+import Image from "next/image"
 
 export type SortMode = "trending" | "new" | "top"
 
@@ -115,13 +115,16 @@ function SiteHeaderInner() {
   return (
     <header className={cn("sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur", scrolled && "shadow-sm")}>
       <div className="mx-auto flex max-w-[1600px] items-center gap-3 px-4 py-3 md:gap-4 md:px-6">
-        <LocaleLink href="/" className="flex shrink-0 items-center gap-2" aria-label={t.brand}>
-          <span className="grid size-10 place-items-center rounded-xl bg-foreground text-background">
-            <Shuriken className="size-5" />
-          </span>
-          <span className="hidden font-display text-lg leading-none sm:inline">
-            aitools<span className="text-accent">.</span>ninja
-          </span>
+        <LocaleLink href="/" className="shrink-0">
+          <Image
+            src="/brand/aitools-ninja-logo.png"
+            alt="AItools.ninja"
+            width={756}
+            height={318}
+            quality={100}
+            priority
+            className="h-auto w-[9.5rem] max-w-[42vw] sm:w-56 lg:w-64"
+          />
         </LocaleLink>
 
         <nav aria-label={t.primaryNav} className="hidden items-center gap-4 text-sm font-semibold lg:flex">

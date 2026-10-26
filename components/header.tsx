@@ -1,6 +1,7 @@
 "use client"
 
 import { Suspense, useState } from "react"
+import Image from "next/image"
 import { Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
@@ -17,9 +18,8 @@ export default function Header({ searchRecords }: { searchRecords: CatalogSearch
   return (
     <header className="border-b bg-background sticky top-0 z-50">
       <div className="container mx-auto max-w-6xl px-4 py-3 flex items-center justify-between gap-3">
-        <LocaleLink href="/" className="flex items-center space-x-2 min-w-0">
-          <img src="/placeholder-logo.png" alt={t("header.logoAlt")} className="w-8 h-8 rounded-md" />
-          <span className="font-bold text-xl truncate">{t("header.brand")}</span>
+        <LocaleLink href="/" className="flex min-w-0 items-center">
+          <Image src="/brand/aitools-ninja-logo.png" alt="AItools.ninja" width={756} height={318} priority className="h-auto w-40" />
         </LocaleLink>
 
         <nav className="hidden md:flex items-center space-x-6">

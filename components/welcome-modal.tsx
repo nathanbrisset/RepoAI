@@ -35,11 +35,11 @@ export default function WelcomeModal() {
         <DialogHeader className="space-y-4">
           <div className="flex justify-center">
             <Image
-              src="/ninja-logo.png"
-              alt="AI Tools Ninja Logo"
-              width={120}
-              height={120}
-              className="mb-4"
+              src="/brand/aitools-ninja-logo.png"
+              alt="AItools.ninja"
+              width={756}
+              height={318}
+              className="mb-4 h-auto w-48"
             />
           </div>
           <DialogTitle className="text-4xl text-center bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent font-bold">

@@ -10,7 +10,7 @@ const en = {
   },
   header: {
     brand: "Your AI Ninja",
-    logoAlt: "AITools.ninja logo",
+    logoAlt: "AItools.ninja",
     categories: "Categories",
     submit: "Submit Tool",
     about: "About",
@@ -205,7 +205,7 @@ const en = {
     title: "Sorry ninja, this page is not available",
     back: "Get back",
     home: "Go back to home",
-    logoAlt: "Ninja Logo",
+    logoAlt: "AItools.ninja",
   },
   categories: {
     title: "Browse Categories",
@@ -485,7 +485,7 @@ const fr: typeof en = {
   },
   header: {
     brand: "Votre ninja IA",
-    logoAlt: "Logo AITools.ninja",
+    logoAlt: "AItools.ninja",
     categories: "Catégories",
     submit: "Proposer un outil",
     about: "À propos",
@@ -680,7 +680,7 @@ const fr: typeof en = {
     title: "Désolé ninja, cette page n'existe pas",
     back: "Revenir",
     home: "Retour à l'accueil",
-    logoAlt: "Logo ninja",
+    logoAlt: "AItools.ninja",
   },
   categories: {
     title: "Parcourir les catégories",

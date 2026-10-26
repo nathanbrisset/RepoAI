@@ -78,10 +78,7 @@ export function CompareClient() {
 
   return (
     <main className="mx-auto min-h-[70vh] max-w-7xl px-4 py-10 md:px-8">
-      <LocaleLink href="/" className="font-display text-lg">
-        aitools<span className="text-accent">.</span>ninja
-      </LocaleLink>
-      <div className="mt-10 flex flex-wrap items-end justify-between gap-4">
+      <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <p className="text-sm font-semibold uppercase tracking-widest text-accent">{t.compareKicker}</p>
           <h1 className="mt-2 font-display text-4xl md:text-6xl">{t.compareTitle}</h1>
