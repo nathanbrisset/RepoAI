@@ -139,8 +139,8 @@ export function HomeDirectory({
           <p className="mb-5 text-sm font-bold uppercase tracking-[0.22em] text-accent">{t.dojo}</p>
           <p className="mb-4 text-sm text-muted-foreground">{fill(t.dojoMeta, { count: total })}</p>
           <h1 className="font-display text-5xl leading-[0.98] tracking-tight md:text-7xl">
-            {t.heroLead}{" "}
-            <span className="relative inline-block text-primary">
+            {t.heroLead}
+            <span className="relative ml-2 inline-block text-primary md:ml-3">
               <span key={t.words[wordIndex]} className="inline-block min-w-[10ch]">
                 {t.words[wordIndex]}
               </span>
