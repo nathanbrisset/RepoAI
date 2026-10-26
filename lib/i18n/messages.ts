@@ -692,7 +692,7 @@ const fr: typeof en = {
     title: "Désolé ninja, cette page n'existe pas",
     back: "Revenir",
     home: "Retour à l'accueil",
-    logoAlt: "Logo ninja",
+    logoAlt: "Logo AItools.ninja",
   },
   categories: {
     title: "Parcourir les catégories",

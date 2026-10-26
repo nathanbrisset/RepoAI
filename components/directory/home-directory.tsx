@@ -139,14 +139,12 @@ export function HomeDirectory({
           <p className="mb-5 text-sm font-bold uppercase tracking-[0.22em] text-accent">{t.dojo}</p>
           <p className="mb-4 text-sm text-muted-foreground">{fill(t.dojoMeta, { count: total })}</p>
           <h1 className="font-display text-5xl leading-[0.98] tracking-tight md:text-7xl">
-            <span className="block text-foreground">{t.heroLead}</span>
-            <span className="mt-2 flex justify-end text-primary md:mt-3">
-              <span className="relative inline-block text-right">
-                <span key={t.words[wordIndex]} className="inline-block min-w-[10ch]">
-                  {t.words[wordIndex]}
-                </span>
-                <span aria-hidden="true" className="absolute -bottom-1 left-0 h-2 w-full -rotate-1 rounded-full bg-accent/80 md:h-3" />
+            {t.heroLead}{" "}
+            <span className="relative inline-block text-primary">
+              <span key={t.words[wordIndex]} className="inline-block min-w-[10ch]">
+                {t.words[wordIndex]}
               </span>
+              <span aria-hidden="true" className="absolute -bottom-1 left-0 h-2 w-full -rotate-1 rounded-full bg-accent/80 md:h-3" />
             </span>
           </h1>
           <form onSubmit={submitHero} className="relative mt-8 max-w-2xl">

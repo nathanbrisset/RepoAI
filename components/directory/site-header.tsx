@@ -121,7 +121,7 @@ function SiteHeaderInner() {
             className="h-12 w-12 shrink-0 object-contain motion-safe:group-hover:animate-logo-shuriken-spin md:h-14 md:w-14"
           />
           <span className="font-display text-base font-bold leading-none tracking-tight text-foreground sm:text-lg md:text-xl">
-            AItools.ninja
+            {t.brand}
           </span>
         </LocaleLink>
 
