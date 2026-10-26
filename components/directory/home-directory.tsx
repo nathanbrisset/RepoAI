@@ -1,28 +1,80 @@
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
-import { ArrowRight, Search, Sparkles } from "lucide-react"
+import { ArrowRight, ExternalLink, Play, Search, Sparkles } from "lucide-react"
 import { useRouter } from "next/navigation"
 import LocaleLink from "@/components/locale-link"
 import { useLocale } from "@/components/locale-provider"
 import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
 import { localizeHref } from "@/lib/i18n/paths"
-import type { DirectoryDoor, DirectoryRecord, ResolvedCollection } from "@/lib/directory/data"
+import type { DirectoryRecord, ResolvedCollection } from "@/lib/directory/data"
+import { CategoryChipsBar } from "./category-chips-bar"
 import { CollectionCard } from "./collection-card"
 import { Shuriken } from "./shuriken"
 import { ToolCard } from "./tool-card"
 import { useDirectory } from "./directory-provider"
 
+function EpisodeCard({ compact = false }: { compact?: boolean }) {
+  const locale = useLocale()
+  const t = directoryCopy(locale)
+  if (compact) {
+    return (
+      <article className="flex w-full items-center gap-3 rounded-2xl bg-card p-3 shadow-md ring-1 ring-border lg:hidden">
+        <div className="relative size-16 shrink-0 overflow-hidden rounded-xl bg-foreground">
+          <img src="/art/chat.webp" alt={t.episodeAlt} className="size-full object-cover" loading="lazy" decoding="async" />
+          <span className="absolute inset-0 grid place-items-center">
+            <span className="grid size-7 place-items-center rounded-full bg-accent text-accent-foreground shadow">
+              <Play className="ml-0.5 size-3.5 fill-current" />
+            </span>
+          </span>
+        </div>
+        <div className="min-w-0 flex-1">
+          <p className="text-[10px] font-bold tracking-[0.14em] text-accent">{t.episodeKicker}</p>
+          <h2 className="mt-1 truncate font-display text-sm">{t.episodeTitle}</h2>
+        </div>
+        <LocaleLink href="/collections/kit-shorts-youtube" className="shrink-0 text-xs font-semibold text-primary">
+          {t.episodeWatch}
+        </LocaleLink>
+      </article>
+    )
+  }
+
+  return (
+    <article className="hidden h-full max-h-[340px] w-full max-w-[460px] overflow-hidden rounded-[2rem] bg-card p-4 shadow-xl ring-1 ring-border lg:flex lg:gap-4">
+      <div className="relative aspect-[9/16] h-full max-h-[300px] w-auto shrink-0 overflow-hidden rounded-2xl bg-foreground">
+        <img src="/art/chat.webp" alt={t.episodeAlt} className="size-full object-cover" loading="lazy" decoding="async" />
+        <span className="absolute inset-0 grid place-items-center">
+          <span className="grid size-14 place-items-center rounded-full bg-accent text-accent-foreground shadow-lg">
+            <Play className="ml-1 size-6 fill-current" />
+          </span>
+        </span>
+      </div>
+      <div className="flex min-w-0 flex-1 flex-col justify-between py-1">
+        <div>
+          <p className="text-[10px] font-bold tracking-[0.14em] text-accent">{t.episodeKicker}</p>
+          <h2 className="mt-3 font-display text-xl leading-tight">{t.episodeTitle}</h2>
+        </div>
+        <div className="flex flex-col gap-2 text-sm font-semibold">
+          <LocaleLink href="/collections/kit-shorts-youtube" className="text-primary hover:underline">
+            {t.episodeWatch} <ArrowRight className="inline size-4" />
+          </LocaleLink>
+          <LocaleLink href="/tool/chatgpt" className="text-primary hover:underline">
+            {t.episodePrompt} <ExternalLink className="inline size-3.5" />
+          </LocaleLink>
+        </div>
+      </div>
+    </article>
+  )
+}
+
 export function HomeDirectory({
   picks,
   collections,
-  doors,
   categoryTotal,
   stack,
 }: {
   picks: DirectoryRecord[]
   collections: ResolvedCollection[]
-  doors: DirectoryDoor[]
   categoryTotal: number
   stack: DirectoryRecord[]
 }) {
@@ -82,7 +134,7 @@ export function HomeDirectory({
 
   return (
     <div className="overflow-x-hidden">
-      <section className="mx-auto max-w-[1400px] px-4 py-10 md:px-8 lg:py-16">
+      <section className="mx-auto grid max-w-[1400px] items-center gap-10 px-4 py-10 md:px-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(280px,0.8fr)] lg:py-16">
         <div className="min-w-0">
           <p className="mb-5 text-sm font-bold uppercase tracking-[0.22em] text-accent">{t.dojo}</p>
           <p className="mb-4 text-sm text-muted-foreground">{fill(t.dojoMeta, { count: total })}</p>
@@ -139,22 +191,22 @@ export function HomeDirectory({
               {t.browse} <ArrowRight className="inline size-4" />
             </LocaleLink>
           </div>
+          <div className="mt-6 lg:hidden">
+            <EpisodeCard compact />
+          </div>
+        </div>
+        <div className="hidden justify-center lg:flex">
+          <EpisodeCard />
         </div>
       </section>
 
-      <section className="mx-auto max-w-[1400px] border-t border-border px-4 py-12 md:px-8">
-        <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent">{t.doorsKicker}</p>
-        <h2 className="mt-1 font-display text-3xl">{t.doorsTitle}</h2>
-        <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
-          {doors.map((door) => (
-            <LocaleLink key={door.id} href={`/catalogue?category=${door.id}`} className="rounded-2xl bg-card p-3 font-semibold ring-1 ring-border transition hover:-translate-y-1">
-              <img src={door.art} alt="" className="mb-3 h-24 w-full rounded-xl object-cover" loading="lazy" decoding="async" />
-              <span className="block">{door.label}</span>
-              <span className="mt-1 block text-sm font-medium text-muted-foreground">{door.count}</span>
-            </LocaleLink>
-          ))}
-        </div>
-        <LocaleLink href="/categories" className="mt-5 inline-block font-semibold text-primary">
+      <section className="mx-auto max-w-[1600px] border-t border-border px-4 py-4 md:px-6 md:pb-6">
+        <CategoryChipsBar
+          onSelectCategory={(id) => {
+            router.push(localizeHref(locale, id ? `/catalogue?category=${encodeURIComponent(id)}` : "/catalogue"))
+          }}
+        />
+        <LocaleLink href="/categories" className="mt-4 inline-block font-semibold text-primary">
           {fill(t.allCategories, { count: categoryTotal })} <ArrowRight className="inline size-4" />
         </LocaleLink>
       </section>
