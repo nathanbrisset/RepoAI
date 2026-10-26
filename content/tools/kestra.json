@@ -6,8 +6,8 @@
   "status": "active",
   "summary": "Open-source declarative orchestration platform for data, infrastructure and business workflows.",
   "description": "Kestra is an open-source orchestration platform where workflows are defined declaratively in YAML. It is used for data pipelines, infrastructure jobs and business processes, and offers more than 2,300 plugins. The open-source edition includes unlimited flows and executions. Kestra Cloud, a fully managed service, and Kestra Enterprise, which adds governance, multi-cloud and air-gapped deployment and support with an SLA, are sold through the sales team on an annual per-instance subscription. Customers cited on the site include teams that moved from Apache Airflow.",
-  "summary_fr": "Plateforme d'orchestration déclarative open source pour les workflows data, infrastructure et métier.",
-  "description_fr": "Kestra est une plateforme d'orchestration open source où les workflows sont définis de façon déclarative en YAML. Elle sert aux pipelines de données, aux jobs d'infrastructure et aux processus métier, et propose plus de 2 300 plugins. L'édition open source inclut des flux et des exécutions illimités. Kestra Cloud, un service managé, et Kestra Enterprise, qui ajoute gouvernance, multi-cloud, déploiement isolé et support avec SLA, sont vendus par l'équipe commerciale en abonnement annuel par instance. Le site cite des équipes venues d'Apache Airflow.",
+  "summary_fr": "Plateforme d'orchestration déclarative et libre pour les flux de données, d'infrastructure et de métier.",
+  "description_fr": "Kestra est une plateforme d'orchestration libre où les flux sont définis de façon déclarative en YAML. Elle sert aux pipelines de données, aux jobs d'infrastructure et aux processus métier, et propose plus de 2 300 plugins. L'édition libre inclut des flux et des exécutions illimités. Kestra Cloud, un service managé, et Kestra Enterprise, qui ajoute gouvernance, multi-cloud, déploiement isolé et support avec SLA, sont vendus par l'équipe commerciale en abonnement annuel par instance. Le site cite des équipes venues d'Apache Airflow.",
   "categories": [
     "automation"
   ],
@@ -22,9 +22,11 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "sourceUrl": "https://kestra.io/pricing"
+    "sourceUrl": "https://kestra.io/pricing",
+    "note": "Free (open-source edition)",
+    "note_fr": "Gratuit (édition libre)"
   },
-  "logo": "https://kestra.io/apple-touch-icon.png",
+  "logo": "/logos/kestra.png",
   "image": "/screenshots/kestra.webp",
   "dateAdded": "2026-10-26",
   "lastVerified": "2026-10-26",
@@ -39,8 +41,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Kestra",
-      "description": "Choose Get Started to run the open-source edition, then adapt a ready-made Blueprint from the docs. Managed Cloud and Enterprise are sold through sales.",
+      "title": "Start the open-source edition",
+      "description": "Choose Get Started and run the open-source edition. It includes unlimited flows and executions.",
       "links": [
         {
           "label": "Kestra",
@@ -49,22 +51,18 @@
       ]
     },
     {
-      "title": "Kestra is an open-source orchestration platform where workflows are defined declarative...",
-      "description": "Kestra is an open-source orchestration platform where workflows are defined declaratively in YAML."
+      "title": "Describe a flow in YAML",
+      "description": "Define a data pipeline, an infrastructure job or a business process declaratively in YAML, then adapt a Blueprint from the documentation."
     },
     {
-      "title": "It is used for data pipelines",
-      "description": "It is used for data pipelines, infrastructure jobs and business processes, and offers more than 2,300 plugins."
-    },
-    {
-      "title": "The open-source edition includes unlimited flows and executions.",
-      "description": "The open-source edition includes unlimited flows and executions."
+      "title": "Add plugins",
+      "description": "Attach plugins from the catalog of more than 2,300 plugins. Kestra Cloud and Kestra Enterprise, including air-gapped deployment, are sold through the sales team."
     }
   ],
   "howToUse_fr": [
     {
-      "title": "Ouvrir Kestra",
-      "description": "Choisir Get Started pour lancer l'édition open source, puis adapter un Blueprint prêt depuis la documentation. Le Cloud managé et l'Enterprise passent par les ventes.",
+      "title": "Lancer l'édition libre",
+      "description": "Choisir Get Started et lancer l'édition libre. Elle inclut des flux et des exécutions illimités.",
       "links": [
         {
           "label": "Kestra",
@@ -73,16 +71,12 @@
       ]
     },
     {
-      "title": "Kestra est une plateforme d'orchestration open source où les workflows sont définis de...",
-      "description": "Kestra est une plateforme d'orchestration open source où les workflows sont définis de façon déclarative en YAML."
+      "title": "Décrire un flux en YAML",
+      "description": "Définir un pipeline de données, un job d'infrastructure ou un processus métier en YAML, puis adapter un Blueprint de la documentation."
     },
     {
-      "title": "Elle sert aux pipelines de données",
-      "description": "Elle sert aux pipelines de données, aux jobs d'infrastructure et aux processus métier, et propose plus de 2 300 plugins."
-    },
-    {
-      "title": "L'édition open source inclut des flux et des exécutions illimités.",
-      "description": "L'édition open source inclut des flux et des exécutions illimités."
+      "title": "Ajouter des plugins",
+      "description": "Brancher des plugins parmi plus de 2 300. Le Cloud managé et l'édition Enterprise, y compris le déploiement isolé, passent par les ventes."
     }
   ]
 }

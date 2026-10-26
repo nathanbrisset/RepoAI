@@ -6,8 +6,8 @@
   "status": "active",
   "summary": "Open-source low-code tool for building event-driven flows in a browser editor.",
   "description": "Node-RED is an open-source low-code tool for event-driven applications. Users connect nodes in a browser-based flow editor to collect, transform and visualise data, and it runs on Node.js. It is used for home automation, industrial control systems and connecting APIs and devices. IBM's Emerging Technology Services team originally built it, and it is now a project of the OpenJS Foundation. FlowFuse, Inc., founded by its creator, offers commercial hosting. The current version is 5.0.9.",
-  "summary_fr": "Outil low-code open source pour construire des flux événementiels dans un éditeur navigateur.",
-  "description_fr": "Node-RED est un outil low-code open source pour des applications événementielles. On relie des nœuds dans un éditeur de flux dans le navigateur pour collecter, transformer et visualiser des données, et il tourne sur Node.js. Il sert à la domotique, aux systèmes de contrôle industriels et à la connexion d'API et d'appareils. L'équipe Emerging Technology Services d'IBM l'a créé à l'origine, et c'est maintenant un projet de l'OpenJS Foundation. FlowFuse, Inc., fondée par son créateur, propose un hébergement commercial. La version indiquée est 5.0.9.",
+  "summary_fr": "Outil libre pour construire des flux événementiels dans un éditeur de navigateur.",
+  "description_fr": "Node-RED est un outil visuel libre pour des applications événementielles. On relie des nœuds dans un éditeur de flux dans le navigateur pour collecter, transformer et visualiser des données, et il tourne sur Node.js. Il sert à la domotique, aux systèmes de contrôle industriels et à la connexion d'API et d'appareils. L'équipe Emerging Technology Services d'IBM l'a créé à l'origine, et c'est maintenant un projet de l'OpenJS Foundation. FlowFuse, Inc., fondée par son créateur, propose un hébergement commercial. La version indiquée est 5.0.9.",
   "categories": [
     "automation"
   ],
@@ -22,9 +22,11 @@
     "model": "free",
     "label": "Free",
     "verified": true,
-    "sourceUrl": "https://nodered.org/about/"
+    "sourceUrl": "https://nodered.org/about/",
+    "note": "Free",
+    "note_fr": "Gratuit"
   },
-  "logo": "https://nodered.org/favicon.ico",
+  "logo": "/logos/node-red.png",
   "image": "/screenshots/node-red.webp",
   "dateAdded": "2026-10-26",
   "lastVerified": "2026-10-26",
@@ -39,8 +41,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Node-RED",
-      "description": "Install it locally with npm (Node.js), run it in Docker or on a Raspberry Pi, open the browser editor and import a flow from the community flow library.",
+      "title": "Install Node-RED",
+      "description": "Install it locally with npm on Node.js, or run it in Docker or on a Raspberry Pi. The project is free and open source.",
       "links": [
         {
           "label": "Node-RED",
@@ -49,22 +51,18 @@
       ]
     },
     {
-      "title": "Node-RED is an open-source low-code tool for event-driven applications.",
-      "description": "Node-RED is an open-source low-code tool for event-driven applications."
+      "title": "Wire nodes in the browser",
+      "description": "Open the browser-based flow editor and connect nodes for an event-driven application, such as collecting and visualising sensor data."
     },
     {
-      "title": "Users connect nodes in a browser-based flow editor to collect",
-      "description": "Users connect nodes in a browser-based flow editor to collect, transform and visualise data, and it runs on Node.js."
-    },
-    {
-      "title": "It is used for home automation",
-      "description": "It is used for home automation, industrial control systems and connecting APIs and devices."
+      "title": "Import a community flow",
+      "description": "Import a flow from the community library. The project belongs to the OpenJS Foundation, and FlowFuse offers commercial hosting."
     }
   ],
   "howToUse_fr": [
     {
-      "title": "Ouvrir Node-RED",
-      "description": "L'installer en local avec npm (Node.js), le lancer dans Docker ou sur un Raspberry Pi, ouvrir l'éditeur dans le navigateur et importer un flux depuis la bibliothèque communautaire.",
+      "title": "Installer Node-RED",
+      "description": "L'installer en local avec npm sous Node.js, ou le lancer dans Docker ou sur un Raspberry Pi. Le projet est gratuit et libre.",
       "links": [
         {
           "label": "Node-RED",
@@ -73,16 +71,12 @@
       ]
     },
     {
-      "title": "Node-RED est un outil low-code open source pour des applications événementielles.",
-      "description": "Node-RED est un outil low-code open source pour des applications événementielles."
+      "title": "Relier des nœuds dans le navigateur",
+      "description": "Ouvrir l'éditeur du navigateur et relier des nœuds pour une application événementielle, par exemple collecter et afficher des mesures."
     },
     {
-      "title": "On relie des nœuds dans un éditeur de flux dans le navigateur pour collecter",
-      "description": "On relie des nœuds dans un éditeur de flux dans le navigateur pour collecter, transformer et visualiser des données, et il tourne sur Node.js."
-    },
-    {
-      "title": "Il sert à la domotique",
-      "description": "Il sert à la domotique, aux systèmes de contrôle industriels et à la connexion d'API et d'appareils."
+      "title": "Importer un flux communautaire",
+      "description": "Importer un flux depuis la bibliothèque communautaire. Le projet est à l'OpenJS Foundation, et FlowFuse propose un hébergement commercial."
     }
   ]
 }

@@ -16,11 +16,12 @@
     "no-code"
   ],
   "pricing": {
-    "model": "freemium",
-    "label": "Freemium",
+    "model": "paid",
+    "label": "Premium",
     "verified": true,
-    "note": "$49.99/mo (Team, 5,000 credits); $50 free credits valid for 7 days, no card required.",
-    "sourceUrl": "https://www.lindy.ai/pricing"
+    "note": "$49.99/mo (Team, 5,000 credits)",
+    "sourceUrl": "https://www.lindy.ai/pricing",
+    "note_fr": "49,99 $/mois (Team, 5 000 crédits)"
   },
   "logo": "/logos/lindy.png",
   "image": "/screenshots/lindy.webp",

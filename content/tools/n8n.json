@@ -22,8 +22,9 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "$20/mo (Starter, billed annually); self-host free",
-    "sourceUrl": "https://n8n.io/pricing"
+    "note": "Free when self-hosted, then $20/mo (Starter, billed annually)",
+    "sourceUrl": "https://n8n.io/pricing",
+    "note_fr": "Gratuit en auto-hébergement, puis 20 $/mois (Starter, facturé annuellement)"
   },
   "sources": [
     "https://n8n.io",

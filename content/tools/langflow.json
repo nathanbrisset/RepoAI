@@ -19,9 +19,11 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": true
+    "verified": true,
+    "note": "Free",
+    "note_fr": "Gratuit"
   },
-  "logo": "https://www.langflow.org/favicon.ico",
+  "logo": "/logos/langflow.png",
   "image": "/screenshots/langflow.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-21",

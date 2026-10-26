@@ -6,8 +6,8 @@
   "status": "active",
   "summary": "Browser automation and web scraping tool usable with no code, via an API or through Claude.",
   "description": "Axiom.ai automates actions on websites, such as clicking, form filling and data extraction. Bots are built with a no-code Chrome extension, through a browser automation API, or by describing the task to Claude. Bots run in Axiom's cloud or on the user's own machine. Pricing is based on monthly runtime: Starter costs $15 per month for 5 hours, Pro $50 for 30 hours, Pro Max $150 for 100 hours and Ultimate $250 for 250 hours. Each plan offers a free trial, and desktop runs have no concurrency limit.",
-  "summary_fr": "Outil d'automatisation de navigateur et de scraping, utilisable sans code, via une API ou avec Claude.",
-  "description_fr": "Axiom.ai automatise des actions sur des sites, comme les clics, le remplissage de formulaires et l'extraction de données. Les bots se construisent avec une extension Chrome no-code, via une API d'automatisation de navigateur, ou en décrivant la tâche à Claude. Les bots tournent dans le cloud d'Axiom ou sur la machine de l'utilisateur. Le tarif repose sur le temps d'exécution mensuel : Starter à 15 $ par mois pour 5 heures, Pro 50 $ pour 30 heures, Pro Max 150 $ pour 100 heures et Ultimate 250 $ pour 250 heures. Chaque plan a un essai gratuit, et les exécutions desktop n'ont pas de limite de concurrence.",
+  "summary_fr": "Outil d'automatisation de navigateur et de collecte web, utilisable sans code, via une API ou avec Claude.",
+  "description_fr": "Axiom.ai automatise des actions sur des sites, comme les clics, le remplissage de formulaires et l'extraction de données. Les bots se construisent avec une extension Chrome sans code, via une API d'automatisation de navigateur, ou en décrivant la tâche à Claude. Les bots tournent dans le cloud d'Axiom ou sur la machine de l'utilisateur. Le tarif repose sur le temps d'exécution mensuel : Starter à 15 $/mois (Starter, 5 h), Pro 50 $ pour 30 heures, Pro Max 150 $ pour 100 heures et Ultimate 250 $ pour 250 heures. Chaque plan a un essai gratuit, et les exécutions desktop n'ont pas de limite de concurrence.",
   "categories": [
     "automation"
   ],
@@ -23,9 +23,10 @@
     "label": "Premium",
     "verified": true,
     "note": "$15/mo (Starter, 5 h runtime)",
-    "sourceUrl": "https://axiom.ai/pricing"
+    "sourceUrl": "https://axiom.ai/pricing",
+    "note_fr": "15 $/mois (Starter, 5 h)"
   },
-  "logo": "https://axiom.ai/favicon.ico",
+  "logo": "",
   "image": "/screenshots/axiom-ai.webp",
   "dateAdded": "2026-10-26",
   "lastVerified": "2026-10-26",
@@ -40,8 +41,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Axiom.ai",
-      "description": "Install the Chrome extension, build a bot step by step or with AI, and run it on the free trial runtime. Starter costs $15/mo for 5 hours.",
+      "title": "Install the Chrome extension",
+      "description": "Install the Chrome extension and start the free trial. Starter costs $15 per month for 5 hours of runtime.",
       "links": [
         {
           "label": "Axiom.ai",
@@ -50,22 +51,18 @@
       ]
     },
     {
-      "title": "Axiom.ai automates actions on websites",
-      "description": "Axiom.ai automates actions on websites, such as clicking, form filling and data extraction."
+      "title": "Build the bot",
+      "description": "Build a bot step by step, through the browser automation API, or by describing the task to Claude. Actions include clicking, form filling and data extraction."
     },
     {
-      "title": "Bots are built with a no-code Chrome extension",
-      "description": "Bots are built with a no-code Chrome extension, through a browser automation API, or by describing the task to Claude."
-    },
-    {
-      "title": "Bots run in Axiom's cloud or on the user's own machine.",
-      "description": "Bots run in Axiom's cloud or on the user's own machine."
+      "title": "Choose where it runs",
+      "description": "Run the bot in Axiom's cloud or on your own machine. Desktop runs have no concurrency limit."
     }
   ],
   "howToUse_fr": [
     {
-      "title": "Ouvrir Axiom.ai",
-      "description": "Installer l'extension Chrome, construire un bot pas à pas ou avec l'IA, et le lancer sur le temps d'essai gratuit. Starter coûte 15 $/mois pour 5 heures.",
+      "title": "Installer l'extension Chrome",
+      "description": "Installer l'extension Chrome et utiliser le temps d'essai. Starter est à 15 $/mois (Starter, 5 h).",
       "links": [
         {
           "label": "Axiom.ai",
@@ -74,16 +71,12 @@
       ]
     },
     {
-      "title": "Axiom.ai automatise des actions sur des sites",
-      "description": "Axiom.ai automatise des actions sur des sites, comme les clics, le remplissage de formulaires et l'extraction de données."
+      "title": "Construire le bot",
+      "description": "Construire le bot pas à pas, via l'API, ou en décrivant la tâche à Claude : clics, formulaires et extraction."
     },
     {
-      "title": "Les bots se construisent avec une extension Chrome no-code",
-      "description": "Les bots se construisent avec une extension Chrome no-code, via une API d'automatisation de navigateur, ou en décrivant la tâche à Claude."
-    },
-    {
-      "title": "Les bots tournent dans le cloud d'Axiom ou sur la machine de l'utilisateur.",
-      "description": "Les bots tournent dans le cloud d'Axiom ou sur la machine de l'utilisateur."
+      "title": "Choisir où il tourne",
+      "description": "Lancer le bot dans le cloud d'Axiom ou sur sa machine. Les exécutions sur la machine n'ont pas de limite de concurrence."
     }
   ]
 }

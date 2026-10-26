@@ -19,10 +19,11 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "$99/mo (Startup, annual)",
-    "sourceUrl": "https://pipedream.com/pricing"
+    "note": "Free to build, then $99/mo (Startup, billed annually)",
+    "sourceUrl": "https://pipedream.com/pricing",
+    "note_fr": "Gratuit pour construire, puis 99 $/mois (Startup, facturé annuellement)"
   },
-  "logo": "https://pipedream.com/assets/favicon.svg",
+  "logo": "/logos/pipedream.png",
   "image": "/screenshots/pipedream.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-21",

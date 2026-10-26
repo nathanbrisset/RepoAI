@@ -5,9 +5,9 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI workspace from Parabola that answers questions, builds reports and runs business processes.",
-  "description": "Prowork is Parabola's AI workspace for operations work. It answers questions, builds reports and runs recurring processes. Users describe a task in plain language to its agent builder, and can inspect the data and logic at each step and edit any calculation. The pricing page lists self-serve plans with a free tier that can be used indefinitely, and Business plans with custom credit volumes, proof-of-concept onboarding and a dedicated account manager. Self-serve prices were not readable on the page.",
+  "description": "Prowork is Parabola's AI workspace for operations work. It answers questions, builds reports and runs recurring processes. Users describe a task in plain language to its agent builder, and can inspect the data and logic at each step and edit any calculation. The pricing page lists self-serve plans with a free tier that can be used indefinitely, and Business plans with custom credit volumes, proof-of-concept onboarding and a dedicated account manager.",
   "summary_fr": "Espace de travail IA de Parabola qui répond à des questions, construit des rapports et exécute des processus métier.",
-  "description_fr": "Prowork est l'espace de travail IA de Parabola pour les opérations. Il répond à des questions, construit des rapports et exécute des processus récurrents. On décrit une tâche en langage courant à son constructeur d'agent, et on peut inspecter les données et la logique à chaque étape et modifier un calcul. La page tarifs liste des plans en libre-service avec une offre gratuite utilisable sans limite de durée, et des plans Business avec des volumes de crédits sur mesure, un onboarding en preuve de concept et un responsable de compte. Les prix en libre-service n'étaient pas lisibles sur la page.",
+  "description_fr": "Prowork est l'espace de travail IA de Parabola pour les opérations. Il répond à des questions, construit des rapports et exécute des processus récurrents. On décrit une tâche en langage courant à son constructeur d'agent, et on peut inspecter les données et la logique à chaque étape et modifier un calcul. La page tarifs liste des plans en libre-service avec une offre gratuite utilisable sans limite de durée, et des plans Business avec des volumes de crédits sur mesure, un onboarding en preuve de concept et un responsable de compte.",
   "categories": [
     "automation"
   ],
@@ -22,9 +22,11 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "sourceUrl": "https://parabola.io/pricing"
+    "sourceUrl": "https://parabola.io/pricing",
+    "note": "Free",
+    "note_fr": "Gratuit"
   },
-  "logo": "https://parabola.io/images/webclip.png",
+  "logo": "/logos/prowork.png",
   "image": "/screenshots/prowork.webp",
   "dateAdded": "2026-10-26",
   "lastVerified": "2026-10-26",
@@ -39,8 +41,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Prowork by Parabola",
-      "description": "Choose Start for free on the self-serve free tier and try a sample flow built on the provided datasets, such as Shopify inventory. Business customers start with a proof of concept.",
+      "title": "Start for free",
+      "description": "Choose Start for free. The free tier can be used indefinitely on the self-serve plans.",
       "links": [
         {
           "label": "Prowork by Parabola",
@@ -49,22 +51,18 @@
       ]
     },
     {
-      "title": "Prowork is Parabola's AI workspace for operations work.",
-      "description": "Prowork is Parabola's AI workspace for operations work."
+      "title": "Describe the operations task",
+      "description": "Describe a task in plain language to the agent builder, for example reconciling Shopify, NetSuite and ShipHero inventory."
     },
     {
-      "title": "It answers questions",
-      "description": "It answers questions, builds reports and runs recurring processes."
-    },
-    {
-      "title": "Users describe a task in plain language to its agent builder",
-      "description": "Users describe a task in plain language to its agent builder, and can inspect the data and logic at each step and edit any calculation."
+      "title": "Inspect each calculation",
+      "description": "Inspect the data and logic at each step and edit any calculation. Business plans add custom credit volumes and proof-of-concept onboarding."
     }
   ],
   "howToUse_fr": [
     {
-      "title": "Ouvrir Prowork by Parabola",
-      "description": "Choisir Start for free sur l'offre gratuite en libre-service et essayer un flux d'exemple sur les jeux de données fournis, comme l'inventaire Shopify. Les clients Business commencent par une preuve de concept.",
+      "title": "Choisir Start for free",
+      "description": "Choisir Start for free. L'offre gratuite des plans en libre-service n'a pas de limite de durée.",
       "links": [
         {
           "label": "Prowork by Parabola",
@@ -73,16 +71,12 @@
       ]
     },
     {
-      "title": "Prowork est l'espace de travail IA de Parabola pour les opérations.",
-      "description": "Prowork est l'espace de travail IA de Parabola pour les opérations."
+      "title": "Décrire la tâche opérationnelle",
+      "description": "Décrire une tâche en langage courant, par exemple rapprocher les stocks Shopify, NetSuite et ShipHero."
     },
     {
-      "title": "Il répond à des questions",
-      "description": "Il répond à des questions, construit des rapports et exécute des processus récurrents."
-    },
-    {
-      "title": "On décrit une tâche en langage courant à son constructeur d'agent",
-      "description": "On décrit une tâche en langage courant à son constructeur d'agent, et on peut inspecter les données et la logique à chaque étape et modifier un calcul."
+      "title": "Contrôler chaque calcul",
+      "description": "Inspecter les données et la logique à chaque étape et modifier un calcul. Les plans Business ajoutent une preuve de concept."
     }
   ]
 }

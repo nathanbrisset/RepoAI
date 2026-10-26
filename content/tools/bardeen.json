@@ -20,10 +20,11 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "$10/mo",
-    "sourceUrl": "https://www.bardeen.ai/pricing"
+    "note": "Free (100 credits), then $10/mo",
+    "sourceUrl": "https://www.bardeen.ai/pricing",
+    "note_fr": "Gratuit (100 crédits), puis 10 $/mois"
   },
-  "logo": "https://cdn.prod.website-files.com/67a4e756231fbcd6386ec06a/68ef8291b04588fc181bb136_Bardeen-Webclip.svg",
+  "logo": "/logos/bardeen.png",
   "image": "/screenshots/bardeen.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-21",

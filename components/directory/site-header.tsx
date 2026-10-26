@@ -243,6 +243,7 @@ function SiteHeaderInner() {
         </div>
       ) : null}
 
+      {bare === "/automations" ? null : (
       <div className="mx-auto flex max-w-[1600px] items-center gap-4 px-4 pb-3 md:px-6">
         <nav aria-label={t.categoriesLabel} className="-mx-4 flex flex-1 gap-2 overflow-x-auto px-4 [scrollbar-width:none] md:mx-0 md:px-0">
           <button
@@ -295,6 +296,7 @@ function SiteHeaderInner() {
           ))}
         </div>
       </div>
+      )}
     </header>
   )
 }

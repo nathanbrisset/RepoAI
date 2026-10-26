@@ -19,10 +19,11 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "$20/mo (Plus)",
-    "sourceUrl": "https://www.activepieces.com/pricing"
+    "note": "Free, then $20/mo (Plus)",
+    "sourceUrl": "https://www.activepieces.com/pricing",
+    "note_fr": "Gratuit, puis 20 $/mois (Plus)"
   },
-  "logo": "https://www.activepieces.com/favicon.svg",
+  "logo": "/logos/activepieces.png",
   "image": "/screenshots/activepieces.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-21",

@@ -122,15 +122,20 @@ export function dailyPicks(locale: Locale, count = 8, now = new Date()) {
 export type ResolvedRecipe = {
   id: string
   title: string
-  steps: { id: string; label: string }[]
+  intent: string
+  steps: { id: string; label: string; logo: string }[]
 }
 
 export function resolvedRecipes(locale: Locale): ResolvedRecipe[] {
-  const known = new Set(directoryRecords(locale).map((record) => record.id))
+  const records = directoryRecords(locale)
+  const byId = new Map(records.map((record) => [record.id, record]))
   return RECIPE_DEFS.map((recipe) => ({
     id: recipe.id,
     title: recipe.title[locale],
-    steps: recipe.steps.filter((step) => known.has(step.id)).map((step) => ({ id: step.id, label: step.label[locale] })),
+    intent: recipe.intent[locale],
+    steps: recipe.steps
+      .filter((step) => byId.has(step.id))
+      .map((step) => ({ id: step.id, label: step.label[locale], logo: byId.get(step.id)?.logo || "" })),
   })).filter((recipe) => recipe.steps.length > 0)
 }
 

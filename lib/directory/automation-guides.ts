@@ -13,7 +13,9 @@ export type AutomationGuide = {
   pitch: Localized
   audience: Localized
   pricingBadge: string
-  priceFrom: string
+  price: Localized
+  priceRank: number | null
+  freeOffer: boolean
   worksWith: Localized
   openSource: boolean
   selfHost: boolean
@@ -21,6 +23,8 @@ export type AutomationGuide = {
   use: Localized
   why: Localized
   how: Localized
+  bestFor: Localized
+  dateAdded: string
   pinned: boolean
 }
 
@@ -34,7 +38,9 @@ export type AutomationCard = {
   pitch: string
   audience: string
   pricingBadge: string
-  priceFrom: string
+  price: string
+  priceRank: number | null
+  freeOffer: boolean
   worksWith: string
   openSource: boolean
   selfHost: boolean
@@ -42,18 +48,21 @@ export type AutomationCard = {
   use: string
   why: string
   how: string
+  bestFor: string
+  dateAdded: string
+  order: number
   pinned: boolean
 }
 
 const PIN_ORDER = ["n8n", "zapier", "make"]
 
-function pick(value: Localized, locale: Locale) {
+function pick(value: Localized | undefined, locale: Locale) {
+  if (!value) return ""
   return value[locale] || value.en
 }
 
 export function automationCards(locale: Locale): AutomationCard[] {
-  const pinRank = new Map(PIN_ORDER.map((id, index) => [id, index]))
-  const cards = (guidesFile.tools as AutomationGuide[]).map((tool) => ({
+  return (guidesFile.tools as AutomationGuide[]).map((tool, order) => ({
     id: tool.id,
     name: tool.name,
     url: tool.url,
@@ -63,15 +72,19 @@ export function automationCards(locale: Locale): AutomationCard[] {
     pitch: pick(tool.pitch, locale),
     audience: pick(tool.audience, locale),
     pricingBadge: pricingLabel(locale, tool.pricingBadge),
-    priceFrom: tool.priceFrom,
+    price: pick(tool.price, locale),
+    priceRank: tool.priceRank,
+    freeOffer: tool.freeOffer,
     worksWith: pick(tool.worksWith, locale),
     openSource: tool.openSource,
     selfHost: tool.selfHost,
-    onPrem: tool.onPrem && !tool.selfHost,
+    onPrem: tool.onPrem,
     use: pick(tool.use, locale),
     why: pick(tool.why, locale),
     how: pick(tool.how, locale),
+    bestFor: pick(tool.bestFor, locale),
+    dateAdded: tool.dateAdded || "",
+    order,
     pinned: PIN_ORDER.includes(tool.id),
   }))
-  return cards.sort((a, b) => (pinRank.get(a.id) ?? 100) - (pinRank.get(b.id) ?? 100))
 }

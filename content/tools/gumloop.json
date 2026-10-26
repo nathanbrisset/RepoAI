@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "No-code builder for AI agents and workflows that connect to company tools and models.",
-  "description": "Gumloop is a builder for AI agents and automations that non-engineers can use. Users combine AI models with integrations to apps such as Slack, Gmail and CRMs, then share the agents across the company while IT controls access. Templates cover sales research, outbound writing and customer success tasks. The pricing page lists Pro from $37 per month with a 14-day free trial, and Enterprise at custom pricing; no free plan was listed.",
+  "description": "Gumloop is a builder for AI agents and automations that non-engineers can use. Users combine AI models with integrations to apps such as Slack, Gmail and CRMs, then share the agents across the company while IT controls access. Templates cover sales research, outbound writing and customer success tasks. The pricing page lists Pro from $37 per month with a 14-day free trial, and Enterprise at custom pricing; there is no free plan.",
   "categories": [
     "automation"
   ],
@@ -20,9 +20,10 @@
     "label": "Premium",
     "verified": true,
     "note": "$37/mo (Pro)",
-    "sourceUrl": "https://www.gumloop.com/pricing"
+    "sourceUrl": "https://www.gumloop.com/pricing",
+    "note_fr": "37 $/mois (Pro)"
   },
-  "logo": "https://www.gumloop.com/favicon.ico",
+  "logo": "/logos/gumloop.png",
   "image": "/screenshots/gumloop.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-21",

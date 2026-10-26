@@ -6,8 +6,8 @@
   "status": "active",
   "summary": "No-code integration tool that moves data between apps and automates repetitive tasks.",
   "description": "Pabbly Connect is a no-code tool that links web applications so that an event in one app triggers actions in others. It is aimed at users without coding skills, and the vendor states that all features are included in its Basic plan. Internal steps are not counted as tasks. The pricing page shows $16 per month for 10,000 tasks, billed annually, and also lists a one-time lifetime-access plan. Pabbly Connect is part of the Pabbly suite of business apps.",
-  "summary_fr": "Outil d'intégration no-code qui fait circuler les données entre apps et automatise les tâches répétitives.",
-  "description_fr": "Pabbly Connect est un outil no-code qui relie des applications web pour qu'un événement dans l'une déclenche des actions dans les autres. Il s'adresse à des personnes sans compétence de code, et l'éditeur indique que toutes les fonctions sont incluses dans le plan Basic. Les étapes internes ne sont pas comptées comme des tâches. La page tarifs affiche 16 $ par mois pour 10 000 tâches, facturés annuellement, et aussi un accès à vie en paiement unique. Pabbly Connect fait partie de la suite Pabbly.",
+  "summary_fr": "Outil d'intégration sans code qui fait circuler les données entre applications et automatise les tâches répétitives.",
+  "description_fr": "Pabbly Connect est un outil sans code qui relie des applications web pour qu'un événement dans l'une déclenche des actions dans les autres. Il s'adresse à des personnes sans compétence de code, et l'éditeur indique que toutes les fonctions sont incluses dans le plan Basic. Les étapes internes ne sont pas comptées comme des tâches. La page tarifs affiche 16 $/mois (10 000 tâches, facturé annuellement), et aussi un accès à vie en paiement unique. Pabbly Connect fait partie de la suite Pabbly.",
   "categories": [
     "automation"
   ],
@@ -18,13 +18,14 @@
     "lifetime-deal"
   ],
   "pricing": {
-    "model": "one-time",
-    "label": "One-time",
+    "model": "paid",
+    "label": "Premium",
     "verified": true,
     "note": "$16/mo (10,000 tasks, billed annually)",
-    "sourceUrl": "https://www.pabbly.com/connect/pricing/"
+    "sourceUrl": "https://www.pabbly.com/connect/pricing/",
+    "note_fr": "16 $/mois (10 000 tâches, facturé annuellement)"
   },
-  "logo": "https://www.pabbly.com/wp-content/uploads/2026/01/favicon.png",
+  "logo": "/logos/pabbly-connect.png",
   "image": "/screenshots/pabbly-connect.webp",
   "dateAdded": "2026-10-26",
   "lastVerified": "2026-10-26",
@@ -39,8 +40,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Pabbly Connect",
-      "description": "Sign up on the site, connect a trigger app or an instant webhook, then add action steps. Plans are priced by monthly tasks, from $16/mo for 10,000 tasks billed annually.",
+      "title": "Create an account",
+      "description": "Create an account. There is no free plan: the entry price is $16 per month for 10,000 tasks, billed annually.",
       "links": [
         {
           "label": "Pabbly Connect",
@@ -49,22 +50,18 @@
       ]
     },
     {
-      "title": "Pabbly Connect is a no-code tool that links web applications so that an event in one ap...",
-      "description": "Pabbly Connect is a no-code tool that links web applications so that an event in one app triggers actions in others."
+      "title": "Link a trigger",
+      "description": "Link web applications so an event in one app triggers actions in others, for example a form submission into a CRM."
     },
     {
-      "title": "It is aimed at users without coding skills",
-      "description": "It is aimed at users without coding skills, and the vendor states that all features are included in its Basic plan."
-    },
-    {
-      "title": "The pricing page shows $16 per month for 10",
-      "description": "The pricing page shows $16 per month for 10,000 tasks, billed annually, and also lists a one-time lifetime-access plan."
+      "title": "Count external tasks only",
+      "description": "Internal steps are not counted as tasks, and the vendor states that all features are included in the Basic plan. A one-time lifetime-access plan is also listed."
     }
   ],
   "howToUse_fr": [
     {
-      "title": "Ouvrir Pabbly Connect",
-      "description": "Créer un compte sur le site, connecter une app déclencheuse ou un webhook instantané, puis ajouter des actions. Les plans sont tarifés selon les tâches mensuelles, à partir de 16 $/mois pour 10 000 tâches, facturés annuellement.",
+      "title": "Créer un compte",
+      "description": "Créer un compte. Il n'y a pas d'offre gratuite : l'entrée est à 16 $/mois (10 000 tâches, facturé annuellement).",
       "links": [
         {
           "label": "Pabbly Connect",
@@ -73,16 +70,12 @@
       ]
     },
     {
-      "title": "Pabbly Connect est un outil no-code qui relie des applications web pour qu'un événement...",
-      "description": "Pabbly Connect est un outil no-code qui relie des applications web pour qu'un événement dans l'une déclenche des actions dans les autres."
+      "title": "Brancher un déclencheur",
+      "description": "Relier des applications web pour qu'un événement dans l'une déclenche des actions dans les autres, par exemple un formulaire vers un CRM."
     },
     {
-      "title": "Il s'adresse à des personnes sans compétence de code",
-      "description": "Il s'adresse à des personnes sans compétence de code, et l'éditeur indique que toutes les fonctions sont incluses dans le plan Basic."
-    },
-    {
-      "title": "Les étapes internes ne sont pas comptées comme des tâches.",
-      "description": "Les étapes internes ne sont pas comptées comme des tâches."
+      "title": "Compter les tâches externes",
+      "description": "Les étapes internes ne comptent pas comme des tâches, et toutes les fonctions sont dans le plan Basic. Un accès à vie est aussi proposé."
     }
   ]
 }

@@ -20,10 +20,11 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "$29/mo (Hobby)",
-    "sourceUrl": "https://www.skyvern.com/pricing"
+    "note": "Free (5,000 credits/mo), then $29/mo (Hobby)",
+    "sourceUrl": "https://www.skyvern.com/pricing",
+    "note_fr": "Gratuit (5 000 crédits/mois), puis 29 $/mois (Hobby)"
   },
-  "logo": "https://www.skyvern.com/apple-touch-icon.png",
+  "logo": "/logos/skyvern.png",
   "image": "/screenshots/skyvern.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-21",

@@ -15,16 +15,13 @@ export default async function AutomationsPage() {
   const count = automationCards(locale).length
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-16">
-      <LocaleLink href="/" className="font-semibold text-primary">
+    <main className="mx-auto max-w-6xl px-4 pt-4 pb-10">
+      <LocaleLink href="/" className="hidden text-sm font-semibold text-primary md:inline">
         ← {t.backHome}
       </LocaleLink>
-      <p className="mt-12 text-sm font-bold uppercase tracking-[0.2em] text-accent">{t.automationsKicker}</p>
-      <h1 className="mt-2 max-w-4xl font-display text-5xl leading-tight md:text-6xl">{t.automationsTitle}</h1>
-      <p className="mt-5 max-w-2xl text-lg text-muted-foreground">{fill(t.automationsIntro, { count })}</p>
-      <LocaleLink href="/collections/recettes-et-stacks" className="mt-4 inline-flex font-semibold text-primary">
-        {t.automationsRecipesLink} →
-      </LocaleLink>
+      <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent md:mt-3">{t.automationsKicker}</p>
+      <h1 className="mt-1 max-w-4xl font-display text-xl leading-tight md:text-3xl">{t.automationsTitle}</h1>
+      <p className="mt-1 line-clamp-1 max-w-2xl text-xs leading-4 text-muted-foreground md:line-clamp-none md:text-sm md:leading-5">{fill(t.automationsIntro, { count })}</p>
       <AutomationsGuide />
     </main>
   )

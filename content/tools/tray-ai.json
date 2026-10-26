@@ -6,8 +6,8 @@
   "status": "active",
   "summary": "AI-native enterprise iPaaS for building AI agents, governing MCP and integrating 700+ apps.",
   "description": "Tray.ai is an integration and automation platform for enterprises. Teams build integrations, automations and AI agents across more than 700 connected apps, and the platform includes governance for Model Context Protocol (MCP) servers. The pricing page states that Tray starts at $50 a month, with usage settled at a true-up and volume discounts at larger scale. A 30-day free trial is available without a card or sales call. Premium support with a dedicated Slack channel is an upgrade.",
-  "summary_fr": "iPaaS d'entreprise pensé pour l'IA : agents, gouvernance MCP et plus de 700 applications.",
-  "description_fr": "Tray.ai est une plateforme d'intégration et d'automatisation pour les entreprises. Les équipes construisent des intégrations, des automatisations et des agents IA sur plus de 700 applications connectées, avec une gouvernance des serveurs Model Context Protocol (MCP). La page tarifs indique un départ à 50 $ par mois, l'usage étant ajusté ensuite, avec des remises de volume. Un essai de 30 jours est disponible sans carte ni appel commercial. Le support premium, avec un canal Slack dédié, est une option.",
+  "summary_fr": "Plateforme iPaaS d'entreprise pensée pour l'IA : agents, gouvernance MCP et plus de 700 applications.",
+  "description_fr": "Tray.ai est une plateforme d'intégration et d'automatisation pour les entreprises. Les équipes construisent des intégrations, des automatisations et des agents IA sur plus de 700 applications connectées, avec une gouvernance des serveurs Model Context Protocol (MCP). La page tarifs indique un départ à 50 $/mois, l'usage étant ajusté ensuite, avec des remises de volume. Un essai de 30 jours est disponible sans carte ni appel commercial. Le support premium, avec un canal Slack dédié, est une option.",
   "categories": [
     "automation"
   ],
@@ -23,9 +23,10 @@
     "label": "Premium",
     "verified": true,
     "note": "$50/mo",
-    "sourceUrl": "https://tray.ai/pricing"
+    "sourceUrl": "https://tray.ai/pricing",
+    "note_fr": "50 $/mois"
   },
-  "logo": "https://tray.ai/icons/icon-192.png",
+  "logo": "/logos/tray-ai.png",
   "image": "/screenshots/tray-ai.webp",
   "dateAdded": "2026-10-26",
   "lastVerified": "2026-10-26",
@@ -40,8 +41,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Tray.ai",
-      "description": "Start the 30-day free trial, which needs no card or sales call, and build from a prebuilt template in the drag-and-drop builder. The trial helps size usage before buying.",
+      "title": "Start the trial",
+      "description": "Start the 30-day free trial. No card and no sales call are required, and Tray starts at $50 a month.",
       "links": [
         {
           "label": "Tray.ai",
@@ -50,22 +51,18 @@
       ]
     },
     {
-      "title": "Tray.ai is an integration and automation platform for enterprises.",
-      "description": "Tray.ai is an integration and automation platform for enterprises."
+      "title": "Connect the apps",
+      "description": "Build integrations and AI agents across more than 700 connected apps, starting from a ready-made template."
     },
     {
-      "title": "Teams build integrations",
-      "description": "Teams build integrations, automations and AI agents across more than 700 connected apps, and the platform includes governance for Model Context Protocol (MCP) servers."
-    },
-    {
-      "title": "The pricing page states that Tray starts at $50 a month",
-      "description": "The pricing page states that Tray starts at $50 a month, with usage settled at a true-up and volume discounts at larger scale."
+      "title": "Set MCP governance",
+      "description": "Turn on governance for the Model Context Protocol servers that agents are allowed to call before the true-up."
     }
   ],
   "howToUse_fr": [
     {
-      "title": "Ouvrir Tray.ai",
-      "description": "Démarrer l'essai gratuit de 30 jours, sans carte ni appel commercial, et partir d'un modèle prêt dans le constructeur. L'essai sert à dimensionner l'usage avant d'acheter.",
+      "title": "Lancer l'essai",
+      "description": "Démarrer l'essai de 30 jours, sans carte. Le départ est à 50 $/mois.",
       "links": [
         {
           "label": "Tray.ai",
@@ -74,16 +71,12 @@
       ]
     },
     {
-      "title": "Tray.ai est une plateforme d'intégration et d'automatisation pour les entreprises.",
-      "description": "Tray.ai est une plateforme d'intégration et d'automatisation pour les entreprises."
+      "title": "Connecter les applications",
+      "description": "Construire des intégrations et des agents IA sur plus de 700 applications, à partir d'un modèle prêt."
     },
     {
-      "title": "Les équipes construisent des intégrations",
-      "description": "Les équipes construisent des intégrations, des automatisations et des agents IA sur plus de 700 applications connectées, avec une gouvernance des serveurs Model Context Protocol (MCP)."
-    },
-    {
-      "title": "La page tarifs indique un départ à 50 $ par mois",
-      "description": "La page tarifs indique un départ à 50 $ par mois, l'usage étant ajusté ensuite, avec des remises de volume."
+      "title": "Régler la gouvernance MCP",
+      "description": "Limiter les serveurs MCP que les agents peuvent appeler avant de confirmer le volume."
     }
   ]
 }

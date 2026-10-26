@@ -7,7 +7,7 @@
   "summary": "Platform for business orchestration and automation that combines RPA robots, AI agents and people.",
   "description": "UiPath is an automation platform built around robotic process automation (RPA), with AI agents and process orchestration through its Maestro product. Software robots carry out repetitive tasks in desktop and web applications, while agents and people handle steps that need judgment. The pricing page lists a free-forever plan, a Basic plan starting at $25 per month, and Standard and Enterprise plans with pricing from sales. Some plans offer a 60-day free trial. Deployment is cloud-hosted in several regions or on-premises.",
   "summary_fr": "Plateforme d'orchestration qui combine robots RPA, agents IA et personnes.",
-  "description_fr": "UiPath est une plateforme d'automatisation construite autour de la RPA, avec des agents IA et l'orchestration de processus via Maestro. Les robots logiciels exécutent des tâches répétitives dans des applications de bureau et web, tandis que les agents et les personnes prennent les étapes qui demandent un jugement. La page tarifs liste une offre gratuite sans limite de durée, un plan Basic à partir de 25 $ par mois, et des plans Standard et Enterprise dont le prix vient des ventes. Certains plans proposent un essai de 60 jours. Le déploiement se fait dans le cloud, dans plusieurs régions, ou on-premises.",
+  "description_fr": "UiPath est une plateforme d'automatisation construite autour de la RPA, avec des agents IA et l'orchestration de processus via Maestro. Les robots logiciels exécutent des tâches répétitives dans des applications de bureau et web, tandis que les agents et les personnes prennent les étapes qui demandent un jugement. La page tarifs liste une offre gratuite sans limite de durée, Basic à 25 $/mois (Basic), et des plans Standard et Enterprise dont le prix vient des ventes. Certains plans proposent un essai de 60 jours. Le déploiement se fait dans le cloud, dans plusieurs régions, ou on-premises.",
   "categories": [
     "automation"
   ],
@@ -22,10 +22,11 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "$25/mo (Basic)",
-    "sourceUrl": "https://www.uipath.com/pricing"
+    "note": "Free, then $25/mo (Basic)",
+    "sourceUrl": "https://www.uipath.com/pricing",
+    "note_fr": "Gratuit, puis 25 $/mois (Basic)"
   },
-  "logo": "https://images.ctfassets.net/5965pury2lcm/1tnmFcdDiCxf9zC14g97ri/19aa59ad1ac0f7bab14838fae98fd99c/favicon-icon.png",
+  "logo": "/logos/uipath.png",
   "image": "/screenshots/uipath.webp",
   "dateAdded": "2026-10-26",
   "lastVerified": "2026-10-26",
@@ -40,8 +41,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open UiPath",
-      "description": "Choose Try UiPath free to open the free-forever plan. The UiPath Academy, documentation and community forum cover first automations. Basic starts at $25/mo, and some plans have a 60-day trial.",
+      "title": "Open the free plan",
+      "description": "Choose Try UiPath free. The pricing page lists a free-forever plan before Basic at $25 per month.",
       "links": [
         {
           "label": "UiPath",
@@ -50,22 +51,18 @@
       ]
     },
     {
-      "title": "UiPath is an automation platform built around robotic process automation (RPA)",
-      "description": "UiPath is an automation platform built around robotic process automation (RPA), with AI agents and process orchestration through its Maestro product."
+      "title": "Record a desktop task",
+      "description": "Let software robots carry out repetitive tasks in desktop and web applications, such as copying a record between systems."
     },
     {
-      "title": "Software robots carry out repetitive tasks in desktop and web applications",
-      "description": "Software robots carry out repetitive tasks in desktop and web applications, while agents and people handle steps that need judgment."
-    },
-    {
-      "title": "The pricing page lists a free-forever plan",
-      "description": "The pricing page lists a free-forever plan, a Basic plan starting at $25 per month, and Standard and Enterprise plans with pricing from sales."
+      "title": "Orchestrate the handoff",
+      "description": "Use Maestro so AI agents and people handle the steps that need judgment. Deployment can be cloud-hosted or on-premises."
     }
   ],
   "howToUse_fr": [
     {
-      "title": "Ouvrir UiPath",
-      "description": "Choisir Try UiPath free pour ouvrir l'offre gratuite. L'UiPath Academy, la documentation et le forum couvrent les premières automatisations. Basic commence à 25 $/mois, et certains plans ont un essai de 60 jours.",
+      "title": "Ouvrir l'offre gratuite",
+      "description": "Choisir Try UiPath free. L'offre gratuite n'a pas de limite de durée, puis Basic est à 25 $/mois (Basic).",
       "links": [
         {
           "label": "UiPath",
@@ -74,16 +71,12 @@
       ]
     },
     {
-      "title": "UiPath est une plateforme d'automatisation construite autour de la RPA",
-      "description": "UiPath est une plateforme d'automatisation construite autour de la RPA, avec des agents IA et l'orchestration de processus via Maestro."
+      "title": "Enregistrer une tâche de bureau",
+      "description": "Faire exécuter par un robot une saisie répétitive entre une application de bureau et un site."
     },
     {
-      "title": "Les robots logiciels exécutent des tâches répétitives dans des applications de bureau e...",
-      "description": "Les robots logiciels exécutent des tâches répétitives dans des applications de bureau et web, tandis que les agents et les personnes prennent les étapes qui demandent un jugement."
-    },
-    {
-      "title": "La page tarifs liste une offre gratuite sans limite de durée",
-      "description": "La page tarifs liste une offre gratuite sans limite de durée, un plan Basic à partir de 25 $ par mois, et des plans Standard et Enterprise dont le prix vient des ventes."
+      "title": "Passer la main",
+      "description": "Avec Maestro, confier à une personne les étapes qui demandent un jugement. Le déploiement peut être cloud ou sur site."
     }
   ]
 }

@@ -5,89 +5,109 @@
       "id": "workato",
       "name": "Workato",
       "url": "https://www.workato.com/",
-      "logo": "https://www.workato.com/favicon.ico",
+      "logo": "/logos/workato.png",
       "subcategory": {
         "en": "iPaaS & enterprise integration",
         "fr": "iPaaS et intégration d'entreprise"
       },
       "pitch": {
         "en": "Enterprise iPaaS that connects apps, data, workflows and AI agents with central governance.",
-        "fr": "iPaaS d'entreprise qui relie applications, données, workflows et agents IA, avec une gouvernance centrale."
+        "fr": "Plateforme iPaaS d'entreprise qui relie les applications, les données, les flux et les agents IA, avec une gouvernance centrale."
       },
       "audience": {
         "en": "IT teams · Enterprises",
-        "fr": "Équipes IT · Entreprises"
+        "fr": "Équipes informatiques · Entreprises"
       },
       "pricingBadge": "Enterprise",
-      "priceFrom": "",
       "worksWith": {
         "en": "CRM, ERP and HR apps",
-        "fr": "Apps CRM, ERP et RH"
+        "fr": "Applications CRM, ERP et RH"
       },
       "openSource": false,
       "selfHost": false,
       "onPrem": false,
       "use": {
         "en": "Connect enterprise systems such as CRM, ERP and HR apps with recipes that sync data and run cross-department processes, and run governed AI agents on the same platform.",
-        "fr": "Relier des systèmes d'entreprise comme les apps CRM, ERP et RH avec des recipes qui synchronisent les données et exécutent des processus transverses, et faire tourner des agents IA gouvernés sur la même plateforme."
+        "fr": "Quand un compte change dans le CRM, la fiche RH et l'ERP suivent, et un agent IA ne part qu'après une validation informatique."
       },
       "why": {
         "en": "It covers enterprise iPaaS, embedded integrations and API management in one platform, with recipe lifecycle management and separate dev, test and production environments.",
-        "fr": "La plateforme couvre l'iPaaS d'entreprise, les intégrations embarquées et la gestion d'API, avec le cycle de vie des recipes et des environnements séparés de développement, test et production."
+        "fr": "La gamme couvre l'iPaaS d'entreprise, les intégrations embarquées et la gestion d'API, avec le cycle de vie des recipes et des environnements séparés de développement, de test et de production."
       },
       "how": {
         "en": "No public self-serve plan: schedule a demo through the pricing page and choose a platform edition, starting with Standard. Workato offers training packages for building and managing recipes.",
-        "fr": "Pas d'offre en libre-service publique : planifier une démo via la page tarifs et choisir une édition, à partir de Standard. Workato propose des formations pour construire et gérer les recipes."
+        "fr": "Pas d'offre en libre-service : planifier une démo via la page tarifs et choisir une édition, à partir de Standard. Workato propose des formations pour construire et gérer les recipes."
       },
       "pinned": false,
-      "status": "new"
+      "status": "new",
+      "price": {
+        "en": "On request",
+        "fr": "Sur devis"
+      },
+      "priceRank": null,
+      "freeOffer": false,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-26"
     },
     {
       "id": "tray-ai",
       "name": "Tray.ai",
       "url": "https://tray.ai/",
-      "logo": "https://tray.ai/icons/icon-192.png",
+      "logo": "/logos/tray-ai.png",
       "subcategory": {
         "en": "iPaaS & enterprise integration",
         "fr": "iPaaS et intégration d'entreprise"
       },
       "pitch": {
         "en": "AI-native enterprise iPaaS for building AI agents, governing MCP and integrating 700+ apps.",
-        "fr": "iPaaS d'entreprise pensé pour l'IA : agents, gouvernance MCP et plus de 700 applications."
+        "fr": "Plateforme iPaaS d'entreprise pensée pour l'IA : agents, gouvernance MCP et plus de 700 applications."
       },
       "audience": {
         "en": "IT teams · Enterprises · Developers",
-        "fr": "Équipes IT · Entreprises · Développeurs"
+        "fr": "Équipes informatiques · Entreprises · Développeurs"
       },
       "pricingBadge": "Premium",
-      "priceFrom": "$50/mo",
       "worksWith": {
         "en": "700+ apps, MCP, Claude Code, Codex",
-        "fr": "700+ apps, MCP, Claude Code, Codex"
+        "fr": "700+ applications, MCP, Claude Code, Codex"
       },
       "openSource": false,
       "selfHost": false,
       "onPrem": false,
       "use": {
         "en": "Integrate enterprise apps and build AI agents that act across more than 700 connected apps, with governance over which MCP servers agents can use.",
-        "fr": "Intégrer des applications d'entreprise et construire des agents IA qui agissent sur plus de 700 apps connectées, avec une gouvernance sur les serveurs MCP que les agents peuvent utiliser."
+        "fr": "Un agent répond dans Slack et met à jour l'outil métier parmi les applications déjà connectées, dans la limite des serveurs MCP autorisés."
       },
       "why": {
         "en": "It combines a low-code drag-and-drop builder with headless use from Claude Code, Codex and MCP, and it publishes a starting price of $50/mo, which enterprise iPaaS vendors often do not.",
-        "fr": "Tray combine un constructeur low-code en glisser-déposer et un usage headless depuis Claude Code, Codex et MCP, et publie un prix de départ à 50 $/mois, ce que les iPaaS d'entreprise font rarement."
+        "fr": "Tray publie un prix de départ, ce que les iPaaS d'entreprise font rarement, et couvre à la fois un constructeur visuel et un usage depuis Claude Code, Codex et MCP."
       },
       "how": {
         "en": "Start the 30-day free trial, which needs no card or sales call, and build from a prebuilt template in the drag-and-drop builder. The trial helps size usage before buying.",
-        "fr": "Démarrer l'essai gratuit de 30 jours, sans carte ni appel commercial, et partir d'un modèle prêt dans le constructeur. L'essai sert à dimensionner l'usage avant d'acheter."
+        "fr": "Démarrer l'essai de 30 jours, sans carte ni appel commercial, et partir d'un modèle prêt. L'essai sert à dimensionner l'usage avant d'acheter."
       },
       "pinned": false,
-      "status": "new"
+      "status": "new",
+      "price": {
+        "en": "$50/mo",
+        "fr": "50 $/mois"
+      },
+      "priceRank": 50,
+      "freeOffer": false,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-26"
     },
     {
       "id": "uipath",
       "name": "UiPath",
       "url": "https://www.uipath.com/",
-      "logo": "https://images.ctfassets.net/5965pury2lcm/1tnmFcdDiCxf9zC14g97ri/19aa59ad1ac0f7bab14838fae98fd99c/favicon-icon.png",
+      "logo": "/logos/uipath.png",
       "subcategory": {
         "en": "RPA & agentic automation",
         "fr": "RPA et automatisation agentique"
@@ -98,10 +118,9 @@
       },
       "audience": {
         "en": "Operations teams · Enterprises · Automation developers",
-        "fr": "Équipes opérations · Entreprises · Développeurs automation"
+        "fr": "Équipes opérations · Entreprises · Développeurs en automatisation"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "$25/mo (Basic)",
       "worksWith": {
         "en": "Desktop and web applications",
         "fr": "Applications bureau et web"
@@ -111,24 +130,35 @@
       "onPrem": true,
       "use": {
         "en": "Use software robots to repeat desktop and web tasks such as data entry across applications, and orchestrate AI agents, robots and people in one business process with Maestro.",
-        "fr": "Faire répéter à des robots logiciels des tâches de bureau et web, comme la saisie entre applications, et orchestrer agents IA, robots et personnes dans un même processus avec Maestro."
+        "fr": "Un robot recopie une facture d'un portail vers le logiciel comptable, et Maestro passe la main à une personne au-dessus d'un seuil."
       },
       "why": {
         "en": "It is an established RPA platform that adds agents and orchestration, can be deployed in the cloud or on-premises, and has a free-forever plan.",
-        "fr": "UiPath est une plateforme RPA établie qui ajoute les agents et l'orchestration, se déploie dans le cloud ou on-premises, et propose une offre gratuite sans limite de durée."
+        "fr": "UiPath est une plateforme RPA établie qui ajoute les agents et l'orchestration, se déploie dans le cloud ou sur site, et propose une offre gratuite sans limite de durée."
       },
       "how": {
         "en": "Choose Try UiPath free to open the free-forever plan. The UiPath Academy, documentation and community forum cover first automations. Basic starts at $25/mo, and some plans have a 60-day trial.",
-        "fr": "Choisir Try UiPath free pour ouvrir l'offre gratuite. L'UiPath Academy, la documentation et le forum couvrent les premières automatisations. Basic commence à 25 $/mois, et certains plans ont un essai de 60 jours."
+        "fr": "Choisir Try UiPath free pour ouvrir l'offre gratuite. L'UiPath Academy, la documentation et le forum couvrent les premières automatisations. Basic commence à 25 $/mois (Basic)."
       },
       "pinned": false,
-      "status": "new"
+      "status": "new",
+      "price": {
+        "en": "Free, then $25/mo (Basic)",
+        "fr": "Gratuit, puis 25 $/mois (Basic)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-26"
     },
     {
       "id": "automation-anywhere",
       "name": "Automation Anywhere",
       "url": "https://www.automationanywhere.com/",
-      "logo": "https://www.automationanywhere.com/themes/custom/aai_cohesion/favicon.ico",
+      "logo": "/logos/automation-anywhere.png",
       "subcategory": {
         "en": "RPA & agentic automation",
         "fr": "RPA et automatisation agentique"
@@ -139,10 +169,9 @@
       },
       "audience": {
         "en": "Enterprises · Automation developers",
-        "fr": "Entreprises · Développeurs automation"
+        "fr": "Entreprises · Développeurs en automatisation"
       },
-      "pricingBadge": "Enterprise",
-      "priceFrom": "",
+      "pricingBadge": "Freemium",
       "worksWith": {
         "en": "Business systems",
         "fr": "Systèmes métier"
@@ -152,7 +181,7 @@
       "onPrem": false,
       "use": {
         "en": "Automate back-office processes end to end by combining RPA bots, document automation and AI agents across business systems.",
-        "fr": "Automatiser des processus back-office de bout en bout en combinant bots RPA, automatisation documentaire et agents IA à travers les systèmes métier."
+        "fr": "Une équipe back-office fait extraire les champs d'un document, puis un bot saisit le dossier dans les systèmes métier."
       },
       "why": {
         "en": "It targets mission-critical enterprise processes, and its product range includes process discovery, document automation and a CoE manager alongside RPA.",
@@ -163,27 +192,37 @@
         "fr": "Obtenir la Cloud Community Edition gratuite, proposée aux entrepreneurs, développeurs, étudiants et petites entreprises. Pour un déploiement en entreprise, contacter les ventes."
       },
       "pinned": false,
-      "status": "new"
+      "status": "new",
+      "price": {
+        "en": "Free (Cloud Community Edition)",
+        "fr": "Gratuit (Cloud Community Edition)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-26"
     },
     {
       "id": "pabbly-connect",
       "name": "Pabbly Connect",
       "url": "https://www.pabbly.com/connect/",
-      "logo": "https://www.pabbly.com/wp-content/uploads/2026/01/favicon.png",
+      "logo": "/logos/pabbly-connect.png",
       "subcategory": {
         "en": "No-code workflow automation",
-        "fr": "Automatisation no-code"
+        "fr": "Automatisation sans code"
       },
       "pitch": {
         "en": "No-code integration tool that moves data between apps and automates repetitive tasks.",
-        "fr": "Outil d'intégration no-code qui fait circuler les données entre apps et automatise les tâches répétitives."
+        "fr": "Outil d'intégration sans code qui fait circuler les données entre applications et automatise les tâches répétitives."
       },
       "audience": {
         "en": "Small businesses · Solopreneurs · Agencies",
         "fr": "Petites entreprises · Indépendants · Agences"
       },
-      "pricingBadge": "One-time",
-      "priceFrom": "$16/mo (10,000 tasks, billed annually)",
+      "pricingBadge": "Premium",
       "worksWith": {
         "en": "Forms, CRMs, email tools",
         "fr": "Formulaires, CRM, outils e-mail"
@@ -193,79 +232,99 @@
       "onPrem": false,
       "use": {
         "en": "Send data from one app to another when an event happens, for example passing a form submission to a CRM and an email tool, using instant webhooks and built-in formatters.",
-        "fr": "Envoyer des données d'une app à une autre quand un événement se produit, par exemple transmettre une soumission de formulaire à un CRM et à un outil e-mail, avec des webhooks instantanés et des formateurs intégrés."
+        "fr": "Une soumission de formulaire part vers le CRM et l'outil d'e-mail, avec un webhook instantané et un formatage avant l'envoi."
       },
       "why": {
         "en": "The vendor states that all features are included in the Basic plan and that internal steps do not count as tasks. It also sells a one-time lifetime plan, unlike recurring-only competitors.",
-        "fr": "L'éditeur indique que toutes les fonctions sont incluses dans le plan Basic et que les étapes internes ne comptent pas comme des tâches. Il vend aussi un accès à vie en paiement unique, contrairement aux concurrents uniquement en abonnement."
+        "fr": "L'éditeur indique que toutes les fonctions sont incluses dans le plan Basic et que les étapes internes ne comptent pas comme des tâches. Un accès à vie en paiement unique existe aussi."
       },
       "how": {
         "en": "Sign up on the site, connect a trigger app or an instant webhook, then add action steps. Plans are priced by monthly tasks, from $16/mo for 10,000 tasks billed annually.",
-        "fr": "Créer un compte sur le site, connecter une app déclencheuse ou un webhook instantané, puis ajouter des actions. Les plans sont tarifés selon les tâches mensuelles, à partir de 16 $/mois pour 10 000 tâches, facturés annuellement."
+        "fr": "Créer un compte, connecter une application déclencheuse ou un webhook instantané, puis ajouter des actions. L'entrée est à 16 $/mois (10 000 tâches, facturé annuellement)."
       },
       "pinned": false,
-      "status": "new"
+      "status": "new",
+      "price": {
+        "en": "$16/mo (10,000 tasks, billed annually)",
+        "fr": "16 $/mois (10 000 tâches, facturé annuellement)"
+      },
+      "priceRank": 16,
+      "freeOffer": false,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-26"
     },
     {
       "id": "albato",
       "name": "Albato",
       "url": "https://albato.com/",
-      "logo": "https://albato.com/images/favicon-32x32.png",
+      "logo": "/logos/albato.png",
       "subcategory": {
         "en": "No-code workflow automation",
-        "fr": "Automatisation no-code"
+        "fr": "Automatisation sans code"
       },
       "pitch": {
         "en": "No-code automation platform with 1,000+ integrations and a white-label embedded iPaaS option.",
-        "fr": "Plateforme d'automatisation no-code avec plus de 1 000 intégrations et un iPaaS embarqué en marque blanche."
+        "fr": "Plateforme d'automatisation sans code avec plus de 1 000 intégrations et un iPaaS embarqué en marque blanche."
       },
       "audience": {
         "en": "Small businesses · Agencies · SaaS companies",
         "fr": "Petites entreprises · Agences · Éditeurs SaaS"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "$15/mo (Pro, billed annually); $22/mo monthly",
       "worksWith": {
         "en": "Marketing, CRM and sales apps",
-        "fr": "Apps marketing, CRM et vente"
+        "fr": "Applications marketing, CRM et vente"
       },
       "openSource": false,
       "selfHost": false,
       "onPrem": false,
       "use": {
         "en": "Automate data flows between marketing, CRM and sales apps, or embed white-label integrations and AI agents connected to 1,000+ apps inside a SaaS product.",
-        "fr": "Automatiser des flux de données entre apps marketing, CRM et vente, ou embarquer des intégrations en marque blanche et des agents IA reliés à plus de 1 000 apps dans un produit SaaS."
+        "fr": "Une agence envoie les prospects marketing vers le CRM, ou un éditeur SaaS propose ces connexions en marque blanche à ses clients."
       },
       "why": {
         "en": "It serves end users and also SaaS vendors that want a white-label embedded iPaaS with an MCP server, so they do not have to build OAuth integrations themselves.",
-        "fr": "Albato sert les utilisateurs finaux et aussi les éditeurs SaaS qui veulent un iPaaS embarqué en marque blanche avec un serveur MCP, sans construire eux-mêmes les intégrations OAuth."
+        "fr": "Albato sert les utilisateurs finaux et aussi les éditeurs qui veulent un iPaaS embarqué en marque blanche avec un serveur MCP, sans construire eux-mêmes les connexions OAuth."
       },
       "how": {
         "en": "Start on the free plan (100 transactions) or the 7-day Pro trial and connect two apps. SaaS companies wanting the embedded version book a demo.",
-        "fr": "Commencer avec l'offre gratuite (100 transactions) ou l'essai Pro de 7 jours et connecter deux apps. Les éditeurs qui veulent la version embarquée réservent une démo."
+        "fr": "Commencer avec l'offre gratuite (100 transactions) ou l'essai Pro de 7 jours et connecter deux applications. Les éditeurs qui veulent la version embarquée réservent une démo."
       },
       "pinned": false,
-      "status": "new"
+      "status": "new",
+      "price": {
+        "en": "Free (100 transactions), then $15/mo (Pro, billed annually)",
+        "fr": "Gratuit (100 transactions), puis 15 $/mois (Pro, facturé annuellement)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-26"
     },
     {
       "id": "integrately",
       "name": "Integrately",
       "url": "https://integrately.com/",
-      "logo": "https://integrately.com/images/fav/favicon-32x32.png",
+      "logo": "/logos/integrately.png",
       "subcategory": {
         "en": "No-code workflow automation",
-        "fr": "Automatisation no-code"
+        "fr": "Automatisation sans code"
       },
       "pitch": {
         "en": "No-code integration tool with ready-made one-click automations for 1,500+ apps.",
-        "fr": "Outil d'intégration no-code avec des automatisations prêtes en un clic pour plus de 1 500 apps."
+        "fr": "Outil d'intégration sans code avec des automatisations prêtes en un clic pour plus de 1 500 applications."
       },
       "audience": {
         "en": "Non-technical users · Small businesses",
         "fr": "Utilisateurs non techniques · Petites entreprises"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "$19.99/mo (Starter, billed annually)",
       "worksWith": {
         "en": "Calendly, Pipedrive, MailerLite, Freshdesk",
         "fr": "Calendly, Pipedrive, MailerLite, Freshdesk"
@@ -275,7 +334,7 @@
       "onPrem": false,
       "use": {
         "en": "Activate prebuilt automations between apps such as Calendly, Pipedrive, MailerLite or Freshdesk without designing the workflow yourself.",
-        "fr": "Activer des automatisations préconstruites entre des apps comme Calendly, Pipedrive, MailerLite ou Freshdesk sans dessiner le workflow soi-même."
+        "fr": "On cherche Calendly et Pipedrive, puis on active l'automatisation déjà prête au lieu de dessiner le flux."
       },
       "why": {
         "en": "Its focus is a library of ready-made one-click automations aimed at non-technical users, with live chat support on all paid plans.",
@@ -283,60 +342,81 @@
       },
       "how": {
         "en": "Choose Get Integrately Free (100 tasks), search for your two apps and activate one of the suggested ready automations.",
-        "fr": "Choisir Get Integrately Free (100 tâches), chercher les deux apps et activer l'une des automatisations suggérées."
+        "fr": "Choisir Get Integrately Free (100 tâches), chercher les deux applications et activer l'une des automatisations suggérées."
       },
       "pinned": false,
-      "status": "new"
+      "status": "new",
+      "price": {
+        "en": "Free (100 tasks), then $19.99/mo (Starter, billed annually)",
+        "fr": "Gratuit (100 tâches), puis 19,99 $/mois (Starter, facturé annuellement)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-26"
     },
     {
       "id": "latenode",
       "name": "Latenode",
       "url": "https://latenode.com/",
-      "logo": "https://latenode.com/icon.png",
+      "logo": "/logos/latenode.png",
       "subcategory": {
         "en": "AI workflow automation",
-        "fr": "Workflows IA"
+        "fr": "Flux IA"
       },
       "pitch": {
         "en": "AI workflow automation platform with built-in LLMs, 5,500+ integrations and usage-based pricing.",
-        "fr": "Plateforme de workflows IA avec des LLM intégrés, plus de 5 500 intégrations et un tarif à l'usage."
+        "fr": "Plateforme de flux IA avec des modèles de langage intégrés, plus de 5 500 intégrations et un tarif à l'usage."
       },
       "audience": {
         "en": "Developers · Automation builders · Agencies",
         "fr": "Développeurs · Concepteurs d'automatisations · Agences"
       },
-      "pricingBadge": "Freemium",
-      "priceFrom": "Free tier; then from $0.00012 per CPU-second",
+      "pricingBadge": "Usage-based",
       "worksWith": {
         "en": "5,500+ apps, MCP",
-        "fr": "5 500+ apps, MCP"
+        "fr": "5 500+ applications, MCP"
       },
       "openSource": false,
       "selfHost": false,
       "onPrem": false,
       "use": {
         "en": "Build workflows that call an LLM inside any node, for example to classify or enrich records, and connect them to 5,500+ apps or to agents through MCP.",
-        "fr": "Construire des workflows qui appellent un LLM dans n'importe quel nœud, par exemple pour classer ou enrichir des enregistrements, et les relier à plus de 5 500 apps ou à des agents via MCP."
+        "fr": "Un nœud classe des tickets avec un modèle de langage, puis envoie le résultat vers l'une des intégrations, facturé au temps CPU."
       },
       "why": {
         "en": "It charges for CPU execution time instead of per operation, includes access to 335+ LLMs without separate API keys, and allows JavaScript in any node.",
-        "fr": "Latenode facture le temps d'exécution CPU plutôt que l'opération, inclut l'accès à plus de 335 LLM sans clés d'API séparées, et permet du JavaScript dans chaque nœud."
+        "fr": "Latenode facture le temps d'exécution CPU plutôt que l'opération, inclut l'accès à plus de 335 modèles sans clés d'API séparées, et permet du JavaScript dans chaque nœud."
       },
       "how": {
         "en": "Start on the free plan, which needs no card and includes a monthly compute allowance. Begin from a ready-made template on the drag-and-drop canvas.",
         "fr": "Commencer avec l'offre gratuite, sans carte, qui inclut un quota mensuel de calcul. Partir d'un modèle prêt sur le canevas."
       },
       "pinned": false,
-      "status": "new"
+      "status": "new",
+      "price": {
+        "en": "Free, then $0.00012 per CPU-second",
+        "fr": "Gratuit, puis 0,00012 $/seconde CPU"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-26"
     },
     {
       "id": "prowork",
       "name": "Prowork by Parabola",
       "url": "https://parabola.io/",
-      "logo": "https://parabola.io/images/webclip.png",
+      "logo": "/logos/prowork.png",
       "subcategory": {
         "en": "AI workflow automation",
-        "fr": "Workflows IA"
+        "fr": "Flux IA"
       },
       "pitch": {
         "en": "AI workspace from Parabola that answers questions, builds reports and runs business processes.",
@@ -347,7 +427,6 @@
         "fr": "Équipes opérations · Entreprises e-commerce"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "",
       "worksWith": {
         "en": "Shopify, NetSuite, ShipHero",
         "fr": "Shopify, NetSuite, ShipHero"
@@ -357,7 +436,7 @@
       "onPrem": false,
       "use": {
         "en": "Describe an operations task in plain language, such as reconciling inventory across Shopify, NetSuite and ShipHero by SKU, and let the agent build and run the process.",
-        "fr": "Décrire une tâche opérationnelle en langage courant, par exemple rapprocher les stocks entre Shopify, NetSuite et ShipHero par SKU, et laisser l'agent construire puis exécuter le processus."
+        "fr": "On demande de rapprocher les stocks Shopify, NetSuite et ShipHero par SKU, puis on corrige un calcul avant de relancer le processus."
       },
       "why": {
         "en": "Users can inspect the data and logic at every step and change any calculation, so results stay auditable.",
@@ -365,30 +444,40 @@
       },
       "how": {
         "en": "Choose Start for free on the self-serve free tier and try a sample flow built on the provided datasets, such as Shopify inventory. Business customers start with a proof of concept.",
-        "fr": "Choisir Start for free sur l'offre gratuite en libre-service et essayer un flux d'exemple sur les jeux de données fournis, comme l'inventaire Shopify. Les clients Business commencent par une preuve de concept."
+        "fr": "Choisir Start for free sur l'offre gratuite et essayer un flux d'exemple sur les jeux de données fournis, comme l'inventaire Shopify. Les clients Business commencent par une preuve de concept."
       },
       "pinned": false,
-      "status": "new"
+      "status": "new",
+      "price": {
+        "en": "Free",
+        "fr": "Gratuit"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-26"
     },
     {
       "id": "tines",
       "name": "Tines",
       "url": "https://www.tines.com/",
-      "logo": "https://www.tines.com/v5-assets/favicon.png",
+      "logo": "/logos/tines.png",
       "subcategory": {
         "en": "Security & IT automation",
         "fr": "Automatisation sécurité et IT"
       },
       "pitch": {
         "en": "Platform for building AI agents, apps and workflows on sensitive systems, with security governance.",
-        "fr": "Plateforme pour construire des agents IA, des apps et des workflows sur des systèmes sensibles, avec une gouvernance de sécurité."
+        "fr": "Plateforme pour construire des agents IA, des applications et des flux sur des systèmes sensibles, avec une gouvernance de sécurité."
       },
       "audience": {
         "en": "Security teams · IT teams",
-        "fr": "Équipes sécurité · Équipes IT"
+        "fr": "Équipes sécurité · Équipes informatiques"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "",
       "worksWith": {
         "en": "Sensitive systems and connectors",
         "fr": "Systèmes sensibles et connecteurs"
@@ -398,7 +487,7 @@
       "onPrem": false,
       "use": {
         "en": "Automate security and IT work such as alert triage and incident handling, and run AI agents on sensitive systems under governance controls.",
-        "fr": "Automatiser le travail sécurité et IT, comme le tri d'alertes et le traitement d'incidents, et faire tourner des agents IA sur des systèmes sensibles sous contrôles de gouvernance."
+        "fr": "Une alerte de sécurité est triée, enrichie, puis escaladée, avec un nombre d'utilisateurs illimité sur l'édition gratuite."
       },
       "why": {
         "en": "It is built for sensitive systems and data, with security and governance controls, and the free edition allows unlimited users and connectors.",
@@ -406,30 +495,40 @@
       },
       "how": {
         "en": "Sign up for the free edition (3 live workflows, a one-time $50 AI allowance) and start from the templates library or the five-minute flows.",
-        "fr": "Créer un compte sur l'édition gratuite (3 workflows actifs, une enveloppe IA de 50 $ en une fois) et partir de la bibliothèque de modèles ou des flux en cinq minutes."
+        "fr": "Créer un compte sur l'édition gratuite (3 flux actifs, une enveloppe IA de 50 $ en une fois) et partir de la bibliothèque de modèles ou des flux en cinq minutes."
       },
       "pinned": false,
-      "status": "new"
+      "status": "new",
+      "price": {
+        "en": "Free (3 live workflows)",
+        "fr": "Gratuit (3 flux actifs)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-26"
     },
     {
       "id": "windmill",
       "name": "Windmill",
       "url": "https://www.windmill.dev/",
-      "logo": "https://www.windmill.dev/img/logo.svg",
+      "logo": "/logos/windmill.png",
       "subcategory": {
         "en": "Developer workflow orchestration",
         "fr": "Orchestration pour développeurs"
       },
       "pitch": {
         "en": "Open-source, code-first platform for scripts, workflows, internal apps and AI agents.",
-        "fr": "Plateforme open source, code d'abord, pour scripts, workflows, apps internes et agents IA."
+        "fr": "Plateforme libre, orientée code, pour les scripts, les flux, les applications internes et les agents IA."
       },
       "audience": {
         "en": "Developers · Data engineers · Platform teams",
-        "fr": "Développeurs · Ingénieurs data · Équipes plateforme"
+        "fr": "Développeurs · Ingénieurs données · Équipes plateforme"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "Self-host free; Cloud Team $170/mo (1 builder)",
       "worksWith": {
         "en": "GitHub, GitLab",
         "fr": "GitHub, GitLab"
@@ -439,38 +538,48 @@
       "onPrem": false,
       "use": {
         "en": "Turn scripts into scheduled jobs, multi-step workflows, internal apps or data pipelines, and deploy them with versioning and git sync to GitHub or GitLab.",
-        "fr": "Transformer des scripts en jobs planifiés, workflows en plusieurs étapes, apps internes ou pipelines de données, et les déployer avec versionnage et synchronisation git vers GitHub ou GitLab."
+        "fr": "Un script Python devient un job planifié, versionné, puis synchronisé vers GitHub ou GitLab."
       },
       "why": {
         "en": "It is open source and code-first, can be self-hosted with unlimited executions for free, and publishes its pricing.",
-        "fr": "Windmill est open source et orienté code, peut être auto-hébergé avec des exécutions illimitées gratuitement, et publie ses tarifs."
+        "fr": "Windmill est libre et orienté code, peut être auto-hébergé avec des exécutions illimitées gratuitement, et publie ses tarifs."
       },
       "how": {
         "en": "Self-host with Docker or Kubernetes, or install the CLI (npm install -g windmill-cli), or use Windmill Cloud. Write a first script and promote it to a workflow.",
-        "fr": "Auto-héberger avec Docker ou Kubernetes, installer la CLI (npm install -g windmill-cli), ou utiliser Windmill Cloud. Écrire un premier script et le promouvoir en workflow."
+        "fr": "Auto-héberger avec Docker ou Kubernetes, installer la CLI, ou utiliser Windmill Cloud. Écrire un premier script et le promouvoir en flux."
       },
       "pinned": false,
-      "status": "new"
+      "status": "new",
+      "price": {
+        "en": "Free when self-hosted, then $170/mo (Cloud Team)",
+        "fr": "Gratuit en auto-hébergement, puis 170 $/mois (Cloud Team)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-26"
     },
     {
       "id": "kestra",
       "name": "Kestra",
       "url": "https://kestra.io/",
-      "logo": "https://kestra.io/apple-touch-icon.png",
+      "logo": "/logos/kestra.png",
       "subcategory": {
         "en": "Developer workflow orchestration",
         "fr": "Orchestration pour développeurs"
       },
       "pitch": {
         "en": "Open-source declarative orchestration platform for data, infrastructure and business workflows.",
-        "fr": "Plateforme d'orchestration déclarative open source pour les workflows data, infrastructure et métier."
+        "fr": "Plateforme d'orchestration déclarative et libre pour les flux de données, d'infrastructure et de métier."
       },
       "audience": {
         "en": "Data engineers · Platform teams",
-        "fr": "Ingénieurs data · Équipes plateforme"
+        "fr": "Ingénieurs données · Équipes plateforme"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "",
       "worksWith": {
         "en": "2,300+ plugins",
         "fr": "2 300+ plugins"
@@ -480,38 +589,48 @@
       "onPrem": false,
       "use": {
         "en": "Orchestrate data pipelines, infrastructure jobs and business processes defined as declarative YAML, using 2,300+ plugins.",
-        "fr": "Orchestrer des pipelines de données, des jobs d'infrastructure et des processus métier définis en YAML déclaratif, avec plus de 2 300 plugins."
+        "fr": "Un pipeline de données est décrit en YAML, enchaîne des plugins, et part en exécution sans réécrire l'orchestrateur."
       },
       "why": {
         "en": "Its workflows are declarative YAML, and the open-source edition includes unlimited flows and executions. Customer stories on the site describe moving from Airflow.",
-        "fr": "Les workflows sont du YAML déclaratif, et l'édition open source inclut des flux et des exécutions illimités. Des témoignages sur le site décrivent une migration depuis Airflow."
+        "fr": "Les flux sont du YAML déclaratif, et l'édition libre inclut des flux et des exécutions illimités. Des témoignages sur le site décrivent une migration depuis Airflow."
       },
       "how": {
         "en": "Choose Get Started to run the open-source edition, then adapt a ready-made Blueprint from the docs. Managed Cloud and Enterprise are sold through sales.",
-        "fr": "Choisir Get Started pour lancer l'édition open source, puis adapter un Blueprint prêt depuis la documentation. Le Cloud managé et l'Enterprise passent par les ventes."
+        "fr": "Choisir Get Started pour lancer l'édition libre, puis adapter un Blueprint prêt depuis la documentation. Le Cloud managé et l'Enterprise passent par les ventes."
       },
       "pinned": false,
-      "status": "new"
+      "status": "new",
+      "price": {
+        "en": "Free (open-source edition)",
+        "fr": "Gratuit (édition libre)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-26"
     },
     {
       "id": "node-red",
       "name": "Node-RED",
       "url": "https://nodered.org/",
-      "logo": "https://nodered.org/favicon.ico",
+      "logo": "/logos/node-red.png",
       "subcategory": {
         "en": "Developer workflow orchestration",
         "fr": "Orchestration pour développeurs"
       },
       "pitch": {
         "en": "Open-source low-code tool for building event-driven flows in a browser editor.",
-        "fr": "Outil low-code open source pour construire des flux événementiels dans un éditeur navigateur."
+        "fr": "Outil libre pour construire des flux événementiels dans un éditeur de navigateur."
       },
       "audience": {
         "en": "Developers · Makers · Industrial engineers",
-        "fr": "Développeurs · Makers · Ingénieurs industriels"
+        "fr": "Développeurs · Bricoleurs · Ingénieurs industriels"
       },
       "pricingBadge": "Free",
-      "priceFrom": "",
       "worksWith": {
         "en": "Devices, APIs, online services",
         "fr": "Appareils, API, services en ligne"
@@ -521,38 +640,48 @@
       "onPrem": false,
       "use": {
         "en": "Wire devices, APIs and online services together in a browser-based flow editor, for example to collect sensor data and show it on a dashboard or to automate a smart home.",
-        "fr": "Relier appareils, API et services en ligne dans un éditeur de flux dans le navigateur, par exemple pour collecter des données de capteurs et les afficher sur un tableau de bord, ou pour automatiser une maison."
+        "fr": "Des mesures de capteur arrivent dans l'éditeur, sont transformées, puis s'affichent sur un tableau de bord, y compris depuis un Raspberry Pi."
       },
       "why": {
         "en": "It is free and open source under the OpenJS Foundation and is light enough to run on low-cost hardware such as a Raspberry Pi as well as in the cloud.",
-        "fr": "Node-RED est gratuit et open source, projet de l'OpenJS Foundation, et assez léger pour tourner sur du matériel peu coûteux comme un Raspberry Pi aussi bien que dans le cloud."
+        "fr": "Node-RED est gratuit et libre, projet de l'OpenJS Foundation, et assez léger pour tourner sur du matériel peu coûteux comme un Raspberry Pi aussi bien que dans le cloud."
       },
       "how": {
         "en": "Install it locally with npm (Node.js), run it in Docker or on a Raspberry Pi, open the browser editor and import a flow from the community flow library.",
         "fr": "L'installer en local avec npm (Node.js), le lancer dans Docker ou sur un Raspberry Pi, ouvrir l'éditeur dans le navigateur et importer un flux depuis la bibliothèque communautaire."
       },
       "pinned": false,
-      "status": "new"
+      "status": "new",
+      "price": {
+        "en": "Free",
+        "fr": "Gratuit"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-26"
     },
     {
       "id": "axiom-ai",
       "name": "Axiom.ai",
       "url": "https://axiom.ai/",
-      "logo": "https://axiom.ai/favicon.ico",
+      "logo": "",
       "subcategory": {
         "en": "Browser automation",
         "fr": "Automatisation de navigateur"
       },
       "pitch": {
         "en": "Browser automation and web scraping tool usable with no code, via an API or through Claude.",
-        "fr": "Outil d'automatisation de navigateur et de scraping, utilisable sans code, via une API ou avec Claude."
+        "fr": "Outil d'automatisation de navigateur et de collecte web, utilisable sans code, via une API ou avec Claude."
       },
       "audience": {
         "en": "Marketers · Operations teams · Researchers",
         "fr": "Marketeurs · Équipes opérations · Chercheurs"
       },
       "pricingBadge": "Premium",
-      "priceFrom": "$15/mo (Starter, 5 h runtime)",
       "worksWith": {
         "en": "Websites, via Chrome, an API or Claude",
         "fr": "Sites web, via Chrome, une API ou Claude"
@@ -562,18 +691,29 @@
       "onPrem": false,
       "use": {
         "en": "Automate repetitive website tasks such as scraping data into a spreadsheet, filling forms or clicking through pages, without code.",
-        "fr": "Automatiser des tâches web répétitives comme extraire des données vers un tableur, remplir des formulaires ou cliquer à travers des pages, sans code."
+        "fr": "Une extension Chrome clique dans un site, extrait un tableau vers un tableur, et le même bot peut tourner dans le cloud."
       },
       "why": {
         "en": "Bots can be built in a no-code Chrome extension, through an API, or by describing them to Claude, and they run in the cloud or on your own machine. Desktop runs have no concurrency limit.",
-        "fr": "Les bots se construisent dans une extension Chrome no-code, via une API, ou en les décrivant à Claude, et ils tournent dans le cloud ou sur la machine. Les exécutions desktop n'ont pas de limite de concurrence."
+        "fr": "Les bots se construisent dans une extension Chrome sans code, via une API, ou en les décrivant à Claude, et ils tournent dans le cloud ou sur la machine. Les exécutions sur la machine n'ont pas de limite de concurrence."
       },
       "how": {
         "en": "Install the Chrome extension, build a bot step by step or with AI, and run it on the free trial runtime. Starter costs $15/mo for 5 hours.",
-        "fr": "Installer l'extension Chrome, construire un bot pas à pas ou avec l'IA, et le lancer sur le temps d'essai gratuit. Starter coûte 15 $/mois pour 5 heures."
+        "fr": "Installer l'extension Chrome, construire un bot pas à pas ou avec l'IA, et le lancer sur le temps d'essai. Starter est à 15 $/mois (Starter, 5 h)."
       },
       "pinned": false,
-      "status": "new"
+      "status": "new",
+      "price": {
+        "en": "$15/mo (Starter, 5 h runtime)",
+        "fr": "15 $/mois (Starter, 5 h)"
+      },
+      "priceRank": 15,
+      "freeOffer": false,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-26"
     },
     {
       "id": "n8n",
@@ -582,18 +722,17 @@
       "logo": "/logos/n8n.png",
       "subcategory": {
         "en": "No-code workflow automation",
-        "fr": "Automatisation no-code"
+        "fr": "Automatisation sans code"
       },
       "pitch": {
         "en": "Workflow automation platform combining AI agents and integrations.",
-        "fr": "Plateforme de workflows qui combine agents IA et intégrations."
+        "fr": "Plateforme de flux qui combine agents IA et intégrations."
       },
       "audience": {
         "en": "Technical teams · Developers · Ops teams",
-        "fr": "Équipes techniques · Développeurs · Équipes ops"
+        "fr": "Équipes techniques · Développeurs · Équipes opérations"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "$20/mo (Starter, billed annually); self-host free",
       "worksWith": {
         "en": "500+ integrations, HTTP APIs",
         "fr": "500+ intégrations, API HTTP"
@@ -603,18 +742,29 @@
       "onPrem": true,
       "use": {
         "en": "Build multi-step workflows that combine 500+ native integrations, any HTTP API, custom code and AI agents, for example routing leads or running an AI agent on incoming tickets.",
-        "fr": "Construire des workflows en plusieurs étapes qui combinent plus de 500 intégrations natives, n'importe quelle API HTTP, du code et des agents IA, par exemple pour router des leads ou faire traiter un ticket par un agent."
+        "fr": "Un prospect entrant est routé selon des règles, enrichi via une API HTTP, puis confié à un agent, dans un environnement que l'équipe héberge."
       },
       "why": {
         "en": "It can be self-hosted (free Community Edition, Docker or on-prem) to keep data in your environment, and it mixes visual nodes with code.",
-        "fr": "n8n peut être auto-hébergé (Community Edition gratuite, Docker ou on-prem) pour garder les données dans son environnement, et mélange nœuds visuels et code."
+        "fr": "n8n peut être auto-hébergé (édition communautaire gratuite, Docker ou sur site) pour garder les données dans son environnement, et mélange nœuds visuels et code."
       },
       "how": {
         "en": "Self-host with Docker, or start an n8n Cloud free trial (no card). Begin from a workflow template, which every plan includes.",
-        "fr": "Auto-héberger avec Docker, ou démarrer un essai n8n Cloud sans carte. Partir d'un modèle de workflow, inclus dans chaque plan."
+        "fr": "Auto-héberger avec Docker, ou démarrer un essai n8n Cloud sans carte. Partir d'un modèle de flux, inclus dans chaque plan."
       },
       "pinned": true,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "Free when self-hosted, then $20/mo (Starter, billed annually)",
+        "fr": "Gratuit en auto-hébergement, puis 20 $/mois (Starter, facturé annuellement)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "Technical teams who want to self-host.",
+        "fr": "Équipes techniques qui veulent auto-héberger."
+      },
+      "dateAdded": "2026-10-21"
     },
     {
       "id": "zapier",
@@ -623,100 +773,119 @@
       "logo": "/logos/zapier.png",
       "subcategory": {
         "en": "No-code workflow automation",
-        "fr": "Automatisation no-code"
+        "fr": "Automatisation sans code"
       },
       "pitch": {
         "en": "No-code automation platform connecting 9,000+ apps with Zaps, tables, forms and AI agents.",
-        "fr": "Plateforme no-code qui relie plus de 9 000 apps avec des Zaps, des tables, des formulaires et des agents IA."
+        "fr": "Plateforme sans code qui relie plus de 9 000 applications avec des Zaps, des tables, des formulaires et des agents IA."
       },
       "audience": {
         "en": "Small businesses · Non-technical teams · Enterprises",
         "fr": "Petites entreprises · Équipes non techniques · Entreprises"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "$19.99/mo (Professional)",
       "worksWith": {
         "en": "9,000+ apps, including forms, CRMs and Slack",
-        "fr": "9 000+ apps, dont formulaires, CRM et Slack"
+        "fr": "9 000+ applications, dont formulaires, CRM et Slack"
       },
       "openSource": false,
       "selfHost": false,
       "onPrem": false,
       "use": {
         "en": "Connect apps with trigger-and-action Zaps, for example sending new form leads to a CRM and Slack, and add tables, forms and AI agents.",
-        "fr": "Relier des apps avec des Zaps déclencheur-action, par exemple envoyer de nouveaux leads de formulaire vers un CRM et Slack, et ajouter tables, formulaires et agents IA."
+        "fr": "Un nouveau prospect de formulaire est envoyé dans le CRM et annoncé dans Slack, à partir d'un Zap décrit en langage courant à Copilot."
       },
       "why": {
         "en": "It has the largest stated app library here (9,000+ apps and 66,000+ triggers and actions), plus Copilot, which drafts workflows from plain language.",
-        "fr": "Zapier annonce ici la plus grande bibliothèque d'apps (plus de 9 000 apps et plus de 66 000 déclencheurs et actions), plus Copilot, qui rédige des workflows à partir du langage courant."
+        "fr": "Zapier annonce ici la plus grande bibliothèque d'applications (plus de 9 000 applications et plus de 66 000 déclencheurs et actions), plus Copilot, qui rédige des flux à partir du langage courant."
       },
       "how": {
         "en": "Sign up for the Free plan, start from a template or describe the Zap to Copilot, choose a trigger and an action, test it and turn it on.",
-        "fr": "Créer un compte sur l'offre Free, partir d'un modèle ou décrire le Zap à Copilot, choisir un déclencheur et une action, tester, puis activer."
+        "fr": "Créer un compte sur l'offre gratuite, partir d'un modèle ou décrire le Zap à Copilot, choisir un déclencheur et une action, tester, puis activer."
       },
       "pinned": true,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "Free, then $19.99/mo (Professional)",
+        "fr": "Gratuit, puis 19,99 $/mois (Professional)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "Connect a very large library of apps without code.",
+        "fr": "Relier un très grand nombre d'applications sans code."
+      },
+      "dateAdded": "2023-10-01"
     },
     {
       "id": "make",
       "name": "Make",
       "url": "https://www.make.com/",
-      "logo": "https://cdn.prod.website-files.com/6a294495bc84130c6dd0c4fd/6a7b9441e295d2f297063147_favicon-32x32.png",
+      "logo": "/logos/make.png",
       "subcategory": {
         "en": "No-code workflow automation",
-        "fr": "Automatisation no-code"
+        "fr": "Automatisation sans code"
       },
       "pitch": {
         "en": "Visual no-code platform for building automations and AI agent workflows across apps.",
-        "fr": "Plateforme visuelle no-code pour construire des automatisations et des workflows d'agents IA entre apps."
+        "fr": "Plateforme visuelle sans code pour construire des automatisations et des flux d'agents IA entre applications."
       },
       "audience": {
         "en": "SMBs · Agencies · Ops teams",
-        "fr": "PME · Agences · Équipes ops"
+        "fr": "PME · Agences · Équipes opérations"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "",
       "worksWith": {
         "en": "Thousands of apps",
-        "fr": "Des milliers d'apps"
+        "fr": "Des milliers d'applications"
       },
       "openSource": false,
       "selfHost": false,
       "onPrem": false,
       "use": {
         "en": "Build visual multi-step scenarios that move and transform data between apps, with AI agents running inside the scenario.",
-        "fr": "Construire des scénarios visuels en plusieurs étapes qui déplacent et transforment des données entre apps, avec des agents IA dans le scénario."
+        "fr": "Un scénario visuel prend une commande, la sépare en plusieurs branches, transforme les champs, puis appelle un agent, le tout décompté en crédits."
       },
       "why": {
         "en": "Its visual canvas shows branching scenarios, and usage is measured in credits rather than per-Zap tasks.",
-        "fr": "Le canevas visuel montre les scénarios et leurs branchements, et l'usage se mesure en crédits plutôt qu'en tâches par Zap."
+        "fr": "Le canevas visuel montre les scénarios et leurs branchements, et l'usage se mesure en crédits plutôt qu'en tâches."
       },
       "how": {
         "en": "Start on the free plan (1,000 credits/mo), build a first scenario on the canvas from the integration library, then add an AI agent if needed.",
-        "fr": "Commencer avec l'offre gratuite (1 000 crédits par mois), construire un premier scénario sur le canevas depuis la bibliothèque d'intégrations, puis ajouter un agent IA si besoin."
+        "fr": "Commencer avec l'offre gratuite (1 000 crédits/mois), construire un premier scénario sur le canevas depuis la bibliothèque d'intégrations, puis ajouter un agent IA si besoin."
       },
       "pinned": true,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "Free (1,000 credits/mo)",
+        "fr": "Gratuit (1 000 crédits/mois)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "Visual scenarios with several branches.",
+        "fr": "Scénarios visuels à plusieurs branches."
+      },
+      "dateAdded": ""
     },
     {
       "id": "activepieces",
       "name": "Activepieces",
       "url": "https://www.activepieces.com/",
-      "logo": "https://www.activepieces.com/favicon.svg",
+      "logo": "/logos/activepieces.png",
       "subcategory": {
         "en": "No-code workflow automation",
-        "fr": "Automatisation no-code"
+        "fr": "Automatisation sans code"
       },
       "pitch": {
         "en": "Open-source automation workspace with chat, agents, flows and tables connecting to 760+ apps.",
-        "fr": "Espace d'automatisation open source avec chat, agents, flux et tables, relié à plus de 760 apps."
+        "fr": "Espace d'automatisation libre avec chat, agents, flux et tables, relié à plus de 760 applications."
       },
       "audience": {
         "en": "Teams · Developers",
         "fr": "Équipes · Développeurs"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "$20/mo (Plus)",
       "worksWith": {
         "en": "760+ app connectors, MCP",
         "fr": "760+ connecteurs, MCP"
@@ -726,38 +895,48 @@
       "onPrem": false,
       "use": {
         "en": "Automate workflows across 760+ app connectors, with AI agents, chat and data tables in one workspace, and expose the tools to agents through its MCP server.",
-        "fr": "Automatiser des workflows sur plus de 760 connecteurs, avec agents IA, chat et tables dans le même espace, et exposer les outils aux agents via son serveur MCP."
+        "fr": "L'équipe connecte l'une des 760 applications, lance un agent dans le même espace, et peut héberger le cœur chez elle."
       },
       "why": {
         "en": "The core is open source and can be self-hosted. The hosted Plus plan is a flat $20/mo.",
-        "fr": "Le cœur est open source et peut être auto-hébergé. Le plan hébergé Plus est un forfait de 20 $ par mois."
+        "fr": "Le cœur est libre et peut être auto-hébergé. Le plan hébergé Plus est un forfait de 20 $/mois (Plus)."
       },
       "how": {
         "en": "Use the hosted Free plan (no card) or self-host the open-source core, then connect apps and build a first flow.",
-        "fr": "Utiliser l'offre hébergée Free, sans carte, ou auto-héberger le cœur open source, puis connecter des apps et construire un premier flux."
+        "fr": "Utiliser l'offre hébergée gratuite, sans carte, ou auto-héberger le cœur libre, puis connecter des applications et construire un premier flux."
       },
       "pinned": false,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "Free, then $20/mo (Plus)",
+        "fr": "Gratuit, puis 20 $/mois (Plus)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": ""
     },
     {
       "id": "pipedream",
       "name": "Pipedream",
       "url": "https://pipedream.com/",
-      "logo": "https://pipedream.com/assets/favicon.svg",
+      "logo": "/logos/pipedream.png",
       "subcategory": {
         "en": "Developer workflow orchestration",
         "fr": "Orchestration pour développeurs"
       },
       "pitch": {
         "en": "Developer platform providing managed auth and thousands of API tools for agents and apps.",
-        "fr": "Plateforme développeur qui fournit une authentification gérée et des milliers d'outils d'API pour les agents et les apps."
+        "fr": "Plateforme développeur qui fournit une authentification gérée et des milliers d'outils d'API pour les agents et les applications."
       },
       "audience": {
         "en": "Developers",
         "fr": "Développeurs"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "$99/mo (Startup, annual)",
       "worksWith": {
         "en": "3,000+ APIs",
         "fr": "3 000+ API"
@@ -767,7 +946,7 @@
       "onPrem": false,
       "use": {
         "en": "Give AI agents and apps authenticated actions in users' accounts across 3,000+ APIs, or build code-level, event-driven integrations.",
-        "fr": "Donner à des agents IA et à des apps des actions authentifiées dans les comptes des utilisateurs sur plus de 3 000 API, ou construire des intégrations événementielles au niveau du code."
+        "fr": "Un développeur donne à son agent des actions authentifiées sur les comptes de ses utilisateurs, via Connect, avant de passer l'intégration en production."
       },
       "why": {
         "en": "It is developer-focused, with managed authentication and 10,000+ prebuilt tools through Connect, plus Conduit for governing AI tools.",
@@ -775,30 +954,40 @@
       },
       "how": {
         "en": "Start building for free with no card. Paid plans apply when integrations go into production, from $99/mo on annual billing.",
-        "fr": "Commencer à construire gratuitement, sans carte. Les plans payants s'appliquent quand les intégrations passent en production, à partir de 99 $ par mois en facturation annuelle."
+        "fr": "Commencer à construire gratuitement, sans carte. Les plans payants s'appliquent quand les intégrations passent en production, à partir de 99 $/mois (Startup, facturé annuellement)."
       },
       "pinned": false,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "Free to build, then $99/mo (Startup, billed annually)",
+        "fr": "Gratuit pour construire, puis 99 $/mois (Startup, facturé annuellement)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": ""
     },
     {
       "id": "ifttt",
       "name": "IFTTT",
       "url": "https://ifttt.com/",
-      "logo": "https://web-assets.ifttt.com/builds/assets/favicon-C2-mcUeO.svg",
+      "logo": "/logos/ifttt.png",
       "subcategory": {
         "en": "No-code workflow automation",
-        "fr": "Automatisation no-code"
+        "fr": "Automatisation sans code"
       },
       "pitch": {
         "en": "No-code service linking 1,000+ apps and devices through simple trigger-action applets.",
-        "fr": "Service no-code qui relie plus de 1 000 apps et appareils par de simples applets déclencheur-action."
+        "fr": "Service sans code qui relie plus de 1 000 applications et appareils par de simples applets déclencheur-action."
       },
       "audience": {
         "en": "Consumers · Creators",
         "fr": "Particuliers · Créateurs"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "$2.99/mo (annual)",
       "worksWith": {
         "en": "1,000+ services, Discord, Slack, smart home",
         "fr": "1 000+ services, Discord, Slack, maison connectée"
@@ -808,79 +997,99 @@
       "onPrem": false,
       "use": {
         "en": "Link 1,000+ services and smart-home devices with simple applets, for example posting to Discord or Slack when a trigger fires.",
-        "fr": "Relier plus de 1 000 services et appareils domotiques avec des applets simples, par exemple publier sur Discord ou Slack quand un déclencheur se produit."
+        "fr": "Une ampoule ou un message Discord réagit à un déclencheur simple, sans dessiner un scénario à plusieurs branches."
       },
       "why": {
         "en": "It is a low-cost way for individuals and small businesses to set up simple trigger-action automations, from $2.99/mo.",
-        "fr": "IFTTT est un moyen peu coûteux, pour des particuliers et des petites entreprises, de poser des automatisations simples déclencheur-action, à partir de 2,99 $ par mois."
+        "fr": "IFTTT est un moyen peu coûteux, pour des particuliers et des petites entreprises, de poser des automatisations simples déclencheur-action, à partir de 2,99 $/mois (facturé annuellement)."
       },
       "how": {
         "en": "Choose Get started, enable a published applet on the free plan, or build your own with a trigger and an action.",
         "fr": "Choisir Get started, activer un applet publié sur l'offre gratuite, ou construire le sien avec un déclencheur et une action."
       },
       "pinned": false,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "Free, then $2.99/mo (billed annually)",
+        "fr": "Gratuit, puis 2,99 $/mois (facturé annuellement)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": ""
     },
     {
       "id": "microsoft-power-automate",
       "name": "Microsoft Power Automate",
       "url": "https://www.microsoft.com/en-us/power-platform/products/power-automate",
-      "logo": "https://www.microsoft.com/favicon.ico?v2",
+      "logo": "",
       "subcategory": {
         "en": "RPA & agentic automation",
         "fr": "RPA et automatisation agentique"
       },
       "pitch": {
         "en": "Microsoft's cloud and desktop automation service with RPA and Copilot features.",
-        "fr": "Service d'automatisation cloud et desktop de Microsoft, avec RPA et Copilot."
+        "fr": "Service d'automatisation cloud et de bureau de Microsoft, avec RPA et Copilot."
       },
       "audience": {
         "en": "Microsoft 365 organisations · Enterprises",
         "fr": "Organisations Microsoft 365 · Entreprises"
       },
       "pricingBadge": "Premium",
-      "priceFrom": "$15/user/mo (annual)",
       "worksWith": {
         "en": "Microsoft 365 and cloud apps",
-        "fr": "Microsoft 365 et apps cloud"
+        "fr": "Microsoft 365 et applications cloud"
       },
       "openSource": false,
       "selfHost": false,
       "onPrem": false,
       "use": {
         "en": "Automate approvals and workflows across Microsoft 365 and cloud apps, and automate desktop tasks with RPA bots.",
-        "fr": "Automatiser des validations et des workflows dans Microsoft 365 et des apps cloud, et automatiser des tâches de bureau avec des bots RPA."
+        "fr": "Une validation de document dans Microsoft 365 part toute seule, et un bot de bureau reprend la saisie sur le poste."
       },
       "why": {
         "en": "It is part of Microsoft Power Platform and includes desktop RPA, process mining and Copilot-assisted flow creation.",
-        "fr": "Power Automate fait partie de Microsoft Power Platform et inclut la RPA desktop, le process mining et la création de flux assistée par Copilot."
+        "fr": "Power Automate fait partie de Microsoft Power Platform et inclut la RPA de bureau, le process mining et la création de flux assistée par Copilot."
       },
       "how": {
         "en": "Start the 30-day trial or sign in with a Microsoft account, then describe a cloud flow to Copilot.",
-        "fr": "Démarrer l'essai de 30 jours ou se connecter avec un compte Microsoft, puis décrire un flux cloud à Copilot."
+        "fr": "Démarrer l'essai de 30 jours ou se connecter avec un compte Microsoft, puis décrire un flux cloud à Copilot. L'entrée est à 15 $/mois par utilisateur (facturé annuellement)."
       },
       "pinned": false,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "$15/user/mo (billed annually)",
+        "fr": "15 $/mois par utilisateur (facturé annuellement)"
+      },
+      "priceRank": 15,
+      "freeOffer": false,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": ""
     },
     {
       "id": "gumloop",
       "name": "Gumloop",
       "url": "https://www.gumloop.com/",
-      "logo": "https://www.gumloop.com/favicon.ico",
+      "logo": "/logos/gumloop.png",
       "subcategory": {
         "en": "AI workflow automation",
-        "fr": "Workflows IA"
+        "fr": "Flux IA"
       },
       "pitch": {
         "en": "No-code builder for AI agents and workflows that connect to company tools and models.",
-        "fr": "Constructeur no-code d'agents IA et de workflows reliés aux outils et aux modèles de l'entreprise."
+        "fr": "Outil sans code pour construire des agents IA et des flux reliés aux outils et aux modèles de l'entreprise."
       },
       "audience": {
         "en": "Business teams · Ops teams",
-        "fr": "Équipes métier · Équipes ops"
+        "fr": "Équipes métier · Équipes opérations"
       },
       "pricingBadge": "Premium",
-      "priceFrom": "$37/mo (Pro)",
       "worksWith": {
         "en": "Slack, Gmail, CRMs",
         "fr": "Slack, Gmail, CRM"
@@ -890,18 +1099,29 @@
       "onPrem": false,
       "use": {
         "en": "Build AI agents for tasks such as account research, outbound writing or customer success, connected to Slack, Gmail and CRMs.",
-        "fr": "Construire des agents IA pour des tâches comme la recherche de comptes, la rédaction d'outbound ou le succès client, reliés à Slack, Gmail et des CRM."
+        "fr": "Une personne non ingénieure lance un agent de recherche de comptes, branché à Slack, Gmail et au CRM, puis le partage à l'équipe."
       },
       "why": {
         "en": "It is aimed at non-engineers, and agents can be shared across the company while IT controls access.",
-        "fr": "Gumloop s'adresse à des personnes qui ne sont pas ingénieures, et les agents peuvent être partagés dans l'entreprise pendant que l'IT contrôle les accès."
+        "fr": "Gumloop s'adresse à des personnes qui ne sont pas ingénieures, et les agents peuvent être partagés dans l'entreprise pendant que l'informatique contrôle les accès."
       },
       "how": {
         "en": "Choose Get Started (Pro has a 14-day trial; no free plan was listed) and open a task template such as Account Researcher.",
-        "fr": "Choisir Get Started (Pro a un essai de 14 jours ; aucune offre gratuite n'était listée) et ouvrir un modèle de tâche comme Account Researcher."
+        "fr": "Choisir Get Started. Pro a un essai de 14 jours. Pas d'offre gratuite. Ouvrir un modèle de tâche comme Account Researcher."
       },
       "pinned": false,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "$37/mo (Pro)",
+        "fr": "37 $/mois (Pro)"
+      },
+      "priceRank": 37,
+      "freeOffer": false,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": ""
     },
     {
       "id": "lindy",
@@ -914,14 +1134,13 @@
       },
       "pitch": {
         "en": "Build AI agents that automate work across your tools.",
-        "fr": "Construire des agents IA qui automatisent le travail à travers vos outils."
+        "fr": "Plateforme d'agents IA qui automatisent le travail à travers les outils de l'équipe."
       },
       "audience": {
         "en": "Professionals · Small teams",
         "fr": "Professionnels · Petites équipes"
       },
-      "pricingBadge": "Freemium",
-      "priceFrom": "$49.99/mo (Team, 5,000 credits); $50 free credits",
+      "pricingBadge": "Premium",
       "worksWith": {
         "en": "Gmail, Slack, Notion, HubSpot",
         "fr": "Gmail, Slack, Notion, HubSpot"
@@ -931,7 +1150,7 @@
       "onPrem": false,
       "use": {
         "en": "Delegate email, scheduling and sales follow-ups to AI agents connected to Gmail, Slack, Notion, HubSpot and 1,500+ tools, or put repeated work on a schedule.",
-        "fr": "Déléguer e-mail, agenda et relances commerciales à des agents IA reliés à Gmail, Slack, Notion, HubSpot et plus de 1 500 outils, ou mettre le travail récurrent sur un calendrier."
+        "fr": "L'agent lit la boîte Gmail, propose un créneau, et relance un prospect dans HubSpot, joignable aussi depuis Slack."
       },
       "why": {
         "en": "Agents are built without code and can be reached in Slack, iMessage or email.",
@@ -939,16 +1158,27 @@
       },
       "how": {
         "en": "Try it free with $50 in credits (valid 7 days, no card), connect your tools and ask it to do a task.",
-        "fr": "Essayer gratuitement avec 50 $ de crédits (valables 7 jours, sans carte), connecter les outils et lui demander une tâche."
+        "fr": "Essayer avec 50 $ de crédits offerts pendant 7 jours, sans carte, connecter les outils et lui demander une tâche. L'entrée payante est à 49,99 $/mois (Team, 5 000 crédits)."
       },
       "pinned": false,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "$49.99/mo (Team, 5,000 credits)",
+        "fr": "49,99 $/mois (Team, 5 000 crédits)"
+      },
+      "priceRank": 49.99,
+      "freeOffer": false,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-21"
     },
     {
       "id": "relevance-ai",
       "name": "Relevance AI",
       "url": "https://relevanceai.com/",
-      "logo": "https://cdn.relevanceai.com/images/favicon-256x256.png",
+      "logo": "/logos/relevance-ai.png",
       "subcategory": {
         "en": "AI agents for work",
         "fr": "Agents IA pour le travail"
@@ -961,8 +1191,7 @@
         "en": "Business teams",
         "fr": "Équipes métier"
       },
-      "pricingBadge": "Premium",
-      "priceFrom": "The official pricing page shows only an Enterprise plan, with pricing on request.",
+      "pricingBadge": "Enterprise",
       "worksWith": {
         "en": "Company tools",
         "fr": "Outils de l'entreprise"
@@ -972,7 +1201,7 @@
       "onPrem": false,
       "use": {
         "en": "Configure specialist AI agents for research, outreach, lead qualification and support, connected to company tools.",
-        "fr": "Configurer des agents IA spécialisés pour la recherche, la prospection, la qualification de leads et le support, reliés aux outils de l'entreprise."
+        "fr": "L'équipe décrit un processus commercial à Invent, qui le transforme en agent de qualification branché aux outils internes."
       },
       "why": {
         "en": "Its Invent assistant helps identify processes to automate and turns them into agents.",
@@ -980,10 +1209,21 @@
       },
       "how": {
         "en": "Contact sales; the pricing page showed only an enterprise offer during the check.",
-        "fr": "Contacter les ventes ; lors de la vérification, la page tarifs ne montrait qu'une offre enterprise."
+        "fr": "Contacter les ventes. Le tarif est sur devis."
       },
       "pinned": false,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "On request",
+        "fr": "Sur devis"
+      },
+      "priceRank": null,
+      "freeOffer": false,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": ""
     },
     {
       "id": "dify",
@@ -992,59 +1232,68 @@
       "logo": "/logos/dify.png",
       "subcategory": {
         "en": "AI workflow automation",
-        "fr": "Workflows IA"
+        "fr": "Flux IA"
       },
       "pitch": {
         "en": "Open-source platform for building agentic workflows and LLM apps.",
-        "fr": "Plateforme open source pour construire des workflows agentiques et des apps LLM."
+        "fr": "Plateforme libre pour construire des flux agentiques et des applications de modèles de langage."
       },
       "audience": {
         "en": "Developers · AI teams",
         "fr": "Développeurs · Équipes IA"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "Free Sandbox (200 message credits)",
       "worksWith": {
         "en": "Deployed as apps or APIs",
-        "fr": "Déploiement en apps ou API"
+        "fr": "Déploiement en applications ou API"
       },
       "openSource": true,
       "selfHost": true,
       "onPrem": false,
       "use": {
         "en": "Build agentic workflows and RAG knowledge pipelines on a visual canvas, and deploy them as apps or APIs.",
-        "fr": "Construire des workflows agentiques et des pipelines de connaissance RAG sur un canevas visuel, puis les déployer comme apps ou API."
+        "fr": "Un pipeline de connaissance est dessiné sur le canevas, testé dans le Sandbox, puis publié comme API dans le VPC."
       },
       "why": {
         "en": "It is open source and can run on Dify Cloud, in a private VPC or self-hosted.",
-        "fr": "Dify est open source et peut tourner sur Dify Cloud, dans un VPC privé ou en auto-hébergement."
+        "fr": "Dify est libre et peut tourner sur Dify Cloud, dans un VPC privé ou en auto-hébergement."
       },
       "how": {
         "en": "Self-host the Community Edition with Docker, or choose Get Started on the free Sandbox plan (200 message credits).",
-        "fr": "Auto-héberger la Community Edition avec Docker, ou choisir Get Started sur le Sandbox gratuit (200 crédits de messages)."
+        "fr": "Auto-héberger l'édition communautaire avec Docker, ou choisir Get Started sur le Sandbox gratuit (200 crédits de messages)."
       },
       "pinned": false,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "Free (200 message credits)",
+        "fr": "Gratuit (200 crédits de messages)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": "2026-10-21"
     },
     {
       "id": "langflow",
       "name": "Langflow",
       "url": "https://www.langflow.org/",
-      "logo": "https://www.langflow.org/favicon.ico",
+      "logo": "/logos/langflow.png",
       "subcategory": {
         "en": "AI workflow automation",
-        "fr": "Workflows IA"
+        "fr": "Flux IA"
       },
       "pitch": {
         "en": "Open-source visual builder for AI agents, RAG pipelines and MCP servers.",
-        "fr": "Constructeur visuel open source pour agents IA, pipelines RAG et serveurs MCP."
+        "fr": "Outil visuel libre pour les agents IA, les pipelines RAG et les serveurs MCP."
       },
       "audience": {
         "en": "Developers",
         "fr": "Développeurs"
       },
       "pricingBadge": "Free",
-      "priceFrom": "",
       "worksWith": {
         "en": "Models, vector stores, MCP",
         "fr": "Modèles, bases vectorielles, MCP"
@@ -1054,38 +1303,48 @@
       "onPrem": false,
       "use": {
         "en": "Assemble AI agents and RAG flows from models, vector stores and tools on a visual canvas, then serve them as an API or MCP server.",
-        "fr": "Assembler des agents IA et des flux RAG à partir de modèles, de bases vectorielles et d'outils sur un canevas, puis les servir comme API ou serveur MCP."
+        "fr": "On dépose un modèle et une base vectorielle sur le canevas, puis on expose le flux comme serveur MCP."
       },
       "why": {
         "en": "It is open source and Python-based, and each flow can be exposed as an API or MCP server.",
-        "fr": "Langflow est open source et écrit en Python, et chaque flux peut être exposé comme API ou serveur MCP."
+        "fr": "Langflow est libre et écrit en Python, et chaque flux peut être exposé comme API ou serveur MCP."
       },
       "how": {
         "en": "Download the open-source builder to run it yourself, or choose Get Started for Free on the cloud.",
-        "fr": "Télécharger le constructeur open source pour le faire tourner soi-même, ou choisir Get Started for Free sur le cloud."
+        "fr": "Télécharger l'outil libre pour le faire tourner soi-même, ou choisir Get Started for Free sur le cloud."
       },
       "pinned": false,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "Free",
+        "fr": "Gratuit"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": ""
     },
     {
       "id": "bardeen",
       "name": "Bardeen",
       "url": "https://www.bardeen.ai/",
-      "logo": "https://cdn.prod.website-files.com/67a4e756231fbcd6386ec06a/68ef8291b04588fc181bb136_Bardeen-Webclip.svg",
+      "logo": "/logos/bardeen.png",
       "subcategory": {
         "en": "Browser automation",
         "fr": "Automatisation de navigateur"
       },
       "pitch": {
         "en": "Browser-based web scraper and enrichment tool for finding and qualifying sales leads.",
-        "fr": "Scraper web dans le navigateur et outil d'enrichissement pour trouver et qualifier des leads."
+        "fr": "Outil de collecte web dans le navigateur et d'enrichissement pour trouver et qualifier des prospects."
       },
       "audience": {
         "en": "Sales teams",
         "fr": "Équipes commerciales"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "$10/mo",
       "worksWith": {
         "en": "Websites, spreadsheets, CRMs",
         "fr": "Sites web, tableurs, CRM"
@@ -1095,38 +1354,48 @@
       "onPrem": false,
       "use": {
         "en": "Scrape websites for leads, enrich contacts with emails and phone numbers, score them with AI and sync them to a spreadsheet or CRM.",
-        "fr": "Scraper des sites pour des leads, enrichir les contacts avec e-mails et numéros, les scorer avec l'IA et les synchroniser vers un tableur ou un CRM."
+        "fr": "Depuis le navigateur, on collecte des contacts sur un site, on récupère l'e-mail, on les note, puis on les pousse dans le CRM."
       },
       "why": {
         "en": "It focuses on browser-based lead sourcing rather than general app integration.",
-        "fr": "Bardeen se concentre sur la recherche de leads dans le navigateur plutôt que sur l'intégration générale d'apps."
+        "fr": "Bardeen se concentre sur la recherche de prospects dans le navigateur plutôt que sur l'intégration générale d'applications."
       },
       "how": {
         "en": "Choose Get started; every account has 100 free credits. Run the AI web scraper on a target site.",
-        "fr": "Choisir Get started ; chaque compte a 100 crédits gratuits. Lancer le scraper IA sur un site cible."
+        "fr": "Choisir Get started. Chaque compte a 100 crédits gratuits. Lancer le collecteur IA sur un site cible. L'entrée payante est à 10 $/mois."
       },
       "pinned": false,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "Free (100 credits), then $10/mo",
+        "fr": "Gratuit (100 crédits), puis 10 $/mois"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": ""
     },
     {
       "id": "browser-use",
       "name": "Browser Use",
       "url": "https://browser-use.com/",
-      "logo": "https://browser-use.com/apple-touch-icon.png",
+      "logo": "/logos/browser-use.png",
       "subcategory": {
         "en": "Browser automation",
         "fr": "Automatisation de navigateur"
       },
       "pitch": {
         "en": "Cloud browsers and web agents for automating tasks on websites, with an open-source library.",
-        "fr": "Navigateurs cloud et agents web pour automatiser des tâches sur des sites, avec une bibliothèque open source."
+        "fr": "Service de navigateurs cloud et d'agents web pour automatiser des tâches sur des sites, avec une bibliothèque libre."
       },
       "audience": {
         "en": "Developers",
         "fr": "Développeurs"
       },
       "pricingBadge": "Usage-based",
-      "priceFrom": "$0.02/browser-hour",
       "worksWith": {
         "en": "Websites, Playwright, Puppeteer",
         "fr": "Sites web, Playwright, Puppeteer"
@@ -1136,38 +1405,48 @@
       "onPrem": false,
       "use": {
         "en": "Have hosted AI agents complete website tasks such as forms, logins or data extraction, or drive cloud browsers from your own agent.",
-        "fr": "Faire accomplir par des agents IA hébergés des tâches sur des sites, comme des formulaires, des connexions ou de l'extraction, ou piloter des navigateurs cloud depuis son propre agent."
+        "fr": "Un agent hébergé remplit un formulaire sur un site, ou le développeur branche son propre agent à un navigateur cloud via CDP."
       },
       "why": {
         "en": "It started as an open-source library, offers pay-as-you-go pricing with no subscription, and supports Playwright or Puppeteer over CDP.",
-        "fr": "Le projet a commencé comme une bibliothèque open source, propose un paiement à l'usage sans abonnement, et prend en charge Playwright ou Puppeteer via CDP."
+        "fr": "Le projet a commencé comme une bibliothèque libre, propose un paiement à l'usage sans abonnement, et prend en charge Playwright ou Puppeteer via CDP."
       },
       "how": {
         "en": "Start for free with $1 of credit, then run a hosted agent task or connect your agent to a cloud browser.",
-        "fr": "Commencer gratuitement avec 1 $ de crédit, puis lancer une tâche d'agent hébergé ou connecter son agent à un navigateur cloud."
+        "fr": "Ouvrir un compte : 1 $ de crédit est offert au départ, ce n'est pas une offre gratuite durable. Puis lancer une tâche d'agent hébergé ou connecter son agent à un navigateur cloud."
       },
       "pinned": false,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "$0.02/browser-hour",
+        "fr": "0,02 $/heure de navigateur"
+      },
+      "priceRank": 0.02,
+      "freeOffer": false,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": ""
     },
     {
       "id": "skyvern",
       "name": "Skyvern",
       "url": "https://www.skyvern.com/",
-      "logo": "https://www.skyvern.com/apple-touch-icon.png",
+      "logo": "/logos/skyvern.png",
       "subcategory": {
         "en": "Browser automation",
         "fr": "Automatisation de navigateur"
       },
       "pitch": {
         "en": "Open-source browser automation that uses AI to fill forms, log in and extract data across websites.",
-        "fr": "Automatisation de navigateur open source qui utilise l'IA pour remplir des formulaires, se connecter et extraire des données."
+        "fr": "Outil libre d'automatisation de navigateur qui utilise l'IA pour remplir des formulaires, se connecter et extraire des données."
       },
       "audience": {
         "en": "Developers · Ops teams",
-        "fr": "Développeurs · Équipes ops"
+        "fr": "Développeurs · Équipes opérations"
       },
       "pricingBadge": "Freemium",
-      "priceFrom": "$29/mo (Hobby)",
       "worksWith": {
         "en": "Web portals, including 2FA",
         "fr": "Portails web, y compris avec 2FA"
@@ -1177,18 +1456,29 @@
       "onPrem": false,
       "use": {
         "en": "Automate portal logins, form filling, invoice downloads and data extraction, including sites that require 2FA.",
-        "fr": "Automatiser les connexions à des portails, le remplissage de formulaires, le téléchargement de factures et l'extraction de données, y compris sur des sites qui demandent une 2FA."
+        "fr": "Le flux se connecte à un portail, passe la double authentification, télécharge les factures, sans sélecteur qui casse au prochain changement de page."
       },
       "why": {
         "en": "It reads pages with AI instead of fixed selectors, which break when sites change, and its core is open source.",
-        "fr": "Skyvern lit les pages avec l'IA au lieu de sélecteurs fixes, qui cassent quand le site change, et son cœur est open source."
+        "fr": "Skyvern lit les pages avec l'IA au lieu de sélecteurs fixes, qui cassent quand le site change, et son cœur est libre."
       },
       "how": {
         "en": "Use the hosted free plan (5,000 credits/mo) and choose Start Building, or run the open-source core yourself.",
-        "fr": "Utiliser l'offre hébergée gratuite (5 000 crédits par mois) et choisir Start Building, ou faire tourner le cœur open source soi-même."
+        "fr": "Utiliser l'offre hébergée gratuite (5 000 crédits/mois) et choisir Start Building, ou faire tourner le cœur libre soi-même."
       },
       "pinned": false,
-      "status": "already_in_catalog"
+      "status": "already_in_catalog",
+      "price": {
+        "en": "Free (5,000 credits/mo), then $29/mo (Hobby)",
+        "fr": "Gratuit (5 000 crédits/mois), puis 29 $/mois (Hobby)"
+      },
+      "priceRank": 0,
+      "freeOffer": true,
+      "bestFor": {
+        "en": "",
+        "fr": ""
+      },
+      "dateAdded": ""
     }
   ]
 }

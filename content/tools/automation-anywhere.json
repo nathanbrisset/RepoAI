@@ -7,7 +7,7 @@
   "summary": "Agentic process automation system combining AI, automation and RPA for enterprise processes.",
   "description": "Automation Anywhere sells an agentic process automation system that combines AI agents, workflow automation and robotic process automation (RPA) for end-to-end business processes in large organisations. The site directs buyers to its sales team for pricing. A free Cloud Community Edition is offered to entrepreneurs, developers, students and small businesses. The company also runs a learning platform, Automation Anywhere University, and a developer community called Pathfinder.",
   "summary_fr": "Système d'automatisation agentique qui combine IA, automatisation et RPA pour les processus d'entreprise.",
-  "description_fr": "Automation Anywhere vend un système d'automatisation agentique qui combine agents IA, automatisation de workflows et RPA pour des processus métier de bout en bout dans les grandes organisations. Le site oriente vers l'équipe commerciale pour les tarifs. Une Cloud Community Edition gratuite est proposée aux entrepreneurs, développeurs, étudiants et petites entreprises. L'entreprise tient aussi une plateforme d'apprentissage, Automation Anywhere University, et une communauté de développeurs, Pathfinder.",
+  "description_fr": "Automation Anywhere vend un système d'automatisation agentique qui combine agents IA, automatisation de flux et RPA pour des processus métier de bout en bout dans les grandes organisations. Le site oriente vers l'équipe commerciale pour les tarifs. Une Cloud Community Edition gratuite est proposée aux entrepreneurs, développeurs, étudiants et petites entreprises. L'entreprise tient aussi une plateforme d'apprentissage, Automation Anywhere University, et une communauté de développeurs, Pathfinder.",
   "categories": [
     "automation"
   ],
@@ -18,12 +18,14 @@
     "process-automation"
   ],
   "pricing": {
-    "model": "enterprise",
-    "label": "Enterprise",
+    "model": "freemium",
+    "label": "Freemium",
     "verified": true,
-    "sourceUrl": "https://www.automationanywhere.com/"
+    "sourceUrl": "https://www.automationanywhere.com/",
+    "note": "Free (Cloud Community Edition)",
+    "note_fr": "Gratuit (Cloud Community Edition)"
   },
-  "logo": "https://www.automationanywhere.com/themes/custom/aai_cohesion/favicon.ico",
+  "logo": "/logos/automation-anywhere.png",
   "image": "/screenshots/automation-anywhere.webp",
   "dateAdded": "2026-10-26",
   "lastVerified": "2026-10-26",
@@ -37,8 +39,8 @@
   ],
   "howToUse": [
     {
-      "title": "Open Automation Anywhere",
-      "description": "Get the free Cloud Community Edition, which the vendor offers to entrepreneurs, developers, students and small businesses. For company deployments, contact sales.",
+      "title": "Request the community edition",
+      "description": "Get the free Cloud Community Edition offered to entrepreneurs, developers, students and small businesses.",
       "links": [
         {
           "label": "Automation Anywhere",
@@ -47,22 +49,18 @@
       ]
     },
     {
-      "title": "Automation Anywhere sells an agentic process automation system that combines AI agents",
-      "description": "Automation Anywhere sells an agentic process automation system that combines AI agents, workflow automation and robotic process automation (RPA) for end-to-end business processes in large organisations."
+      "title": "Automate a back-office process",
+      "description": "Combine AI agents, workflow automation and robotic process automation for an end-to-end business process."
     },
     {
-      "title": "The site directs buyers to its sales team for pricing.",
-      "description": "The site directs buyers to its sales team for pricing."
-    },
-    {
-      "title": "A free Cloud Community Edition is offered to entrepreneurs",
-      "description": "A free Cloud Community Edition is offered to entrepreneurs, developers, students and small businesses."
+      "title": "Talk to sales for the company rollout",
+      "description": "The site directs buyers to its sales team for company pricing. Automation Anywhere University and the Pathfinder community cover the first builds."
     }
   ],
   "howToUse_fr": [
     {
-      "title": "Ouvrir Automation Anywhere",
-      "description": "Obtenir la Cloud Community Edition gratuite, proposée aux entrepreneurs, développeurs, étudiants et petites entreprises. Pour un déploiement en entreprise, contacter les ventes.",
+      "title": "Demander l'édition communautaire",
+      "description": "Obtenir la Cloud Community Edition gratuite, ouverte aux entrepreneurs, développeurs, étudiants et petites entreprises.",
       "links": [
         {
           "label": "Automation Anywhere",
@@ -71,16 +69,12 @@
       ]
     },
     {
-      "title": "Automation Anywhere vend un système d'automatisation agentique qui combine agents IA",
-      "description": "Automation Anywhere vend un système d'automatisation agentique qui combine agents IA, automatisation de workflows et RPA pour des processus métier de bout en bout dans les grandes organisations."
+      "title": "Automatiser un processus back-office",
+      "description": "Combiner agents IA, automatisation et RPA pour un processus métier de bout en bout."
     },
     {
-      "title": "Le site oriente vers l'équipe commerciale pour les tarifs.",
-      "description": "Le site oriente vers l'équipe commerciale pour les tarifs."
-    },
-    {
-      "title": "Une Cloud Community Edition gratuite est proposée aux entrepreneurs",
-      "description": "Une Cloud Community Edition gratuite est proposée aux entrepreneurs, développeurs, étudiants et petites entreprises."
+      "title": "Contacter les ventes pour l'entreprise",
+      "description": "Le tarif entreprise passe par l'équipe commerciale. Automation Anywhere University et la communauté Pathfinder aident les premiers pas."
     }
   ]
 }
