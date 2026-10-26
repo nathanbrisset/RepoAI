@@ -9,7 +9,6 @@ import { useLocale } from "@/components/locale-provider"
 import { LOCALE_COOKIE, type Locale } from "@/lib/i18n/config"
 import { directoryCopy } from "@/lib/i18n/directory-copy"
 import { localizeHref, stripLocale } from "@/lib/i18n/paths"
-import Image from "next/image"
 import { useDirectory } from "./directory-provider"
 
 export type SortMode = "trending" | "new" | "top"
@@ -116,12 +115,12 @@ function SiteHeaderInner() {
     <header className={cn("sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur", scrolled && "shadow-sm")}>
       <div className="mx-auto flex max-w-[1600px] items-center gap-3 px-4 py-3 md:gap-4 md:px-6">
         <LocaleLink href="/" className="flex shrink-0 items-center" aria-label="AItools.ninja">
-          <Image
+          <img
             src="/brand/aitools-ninja-logo.png"
             alt="AItools.ninja"
             width={1066}
             height={367}
-            priority
+            decoding="async"
             className="h-8 w-auto sm:h-9"
           />
         </LocaleLink>
