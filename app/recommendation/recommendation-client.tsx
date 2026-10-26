@@ -8,6 +8,7 @@ import { Sparkles, ArrowLeft, Star, CheckCircle } from "lucide-react";
 import { mockTools } from "@/lib/data";
 import { useSearchParams } from "next/navigation";
 import { useLocale, useT } from "@/components/locale-provider";
+import { messageForCode } from "@/lib/match-copy";
 
 export default function RecommendationPage() {
   const t = useT();
@@ -42,15 +43,18 @@ export default function RecommendationPage() {
         body: JSON.stringify({ prompt, locale }),
       });
       const data = await res.json();
-      if (data.error) throw new Error(data.error);
+      if (!res.ok || data?.code) {
+        setError(messageForCode(data?.code, prompt));
+        return;
+      }
       if (Array.isArray(data?.recommendations) && data.recommendations.length > 0) {
         setResults(data.recommendations);
         setIntro(data.intro || "");
       } else {
         setError(t("home.noResults"));
       }
-    } catch (err: any) {
-      setError(err.message || t("home.genericError"));
+    } catch {
+      setError(messageForCode("unavailable", prompt));
     } finally {
       setLoading(false);
     }
