@@ -328,9 +328,21 @@ if (preferred.ok) assert.equal(preferred.remaining, 9)
 const failingFetch: typeof fetch = async () => {
   throw new Error("http 401")
 }
-const failed = await rateLimit("203.0.113.24", "search", 10, 1800, { requireRedis: true, fetchImpl: failingFetch })
-assert.equal(failed.ok, false)
-if (!failed.ok) assert.equal(failed.status, 503)
+const redisErrorFallback = await rateLimit("203.0.113.24", "search", 10, 1800, { requireRedis: true, fetchImpl: failingFetch })
+assert.equal(redisErrorFallback.ok, true)
+if (redisErrorFallback.ok) {
+  assert.equal(redisErrorFallback.backend, "none")
+  assert.equal(redisErrorFallback.remaining, 9)
+}
+
+const timeoutFetch: typeof fetch = async () => {
+  const err = new Error("The operation was aborted due to timeout")
+  err.name = "TimeoutError"
+  throw err
+}
+const timeoutFallback = await rateLimit("203.0.113.25", "search", 10, 1800, { requireRedis: true, fetchImpl: timeoutFetch })
+assert.equal(timeoutFallback.ok, true)
+if (timeoutFallback.ok) assert.equal(timeoutFallback.backend, "none")
 
 if (savedUrl === undefined) delete process.env.KV_REST_API_URL
 else process.env.KV_REST_API_URL = savedUrl
