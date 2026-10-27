@@ -115,7 +115,7 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
   async function loadChallenge() {
     setCaptchaAnswer("")
     try {
-      const response = await fetch("/api/recommend/challenge/")
+      const response = await fetch("/api/recommend/challenge")
       const data = await response.json().catch(() => null)
       if (!response.ok || typeof data?.token !== "string" || typeof data?.question !== "string") {
         setChallenge(null)
@@ -169,7 +169,7 @@ function MatchExperience({ mode, urlQuery }: { mode: "home" | "results"; urlQuer
     searchedQuery.current = query
     let navigating = false
     try {
-      const response = await fetch("/api/recommend/", {
+      const response = await fetch("/api/recommend", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

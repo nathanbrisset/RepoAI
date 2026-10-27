@@ -5,8 +5,9 @@ import { createHash } from "crypto"
  * Reads UPSTASH_REDIS_REST_URL / UPSTASH_REDIS_REST_TOKEN, or the Vercel KV
  * pair KV_REST_API_URL / KV_REST_API_TOKEN. REDIS_URL and the read-only token
  * are not used: the function talks to the REST API.
- * In production and on Vercel preview (NODE_ENV=production), a missing or
- * failing store refuses the request. Development keeps an in-memory counter.
+ * In production, a missing Redis/KV config refuses the request. Transient Redis
+ * errors fall back to a per-instance in-memory counter so a short blip does not
+ * take AI Match offline. Development always uses the in-memory counter.
  */
 
 type Bucket = { count: number; reset: number }
@@ -220,8 +221,9 @@ export async function rateLimit(
   } catch (error) {
     const reason = error instanceof Error ? error.message || error.name : "error"
     console.error("Match rate limit store failed", reason.slice(0, 80))
-    if (shared) return unavailable()
     const local = takeToken(ip, bucketName, limit, windowSec)
+    local.backend = "none"
+    console.warn(`match-rate redis-fallback subject=${ip.slice(0, 8)} bucket=${bucketName}`)
     logDecision(local)
     return local
   }
@@ -258,11 +260,11 @@ export async function consumeNonce(
     throw new Error("bad-payload")
   } catch (error) {
     console.error("Match captcha store failed", error instanceof Error ? (error.message || error.name).slice(0, 80) : "error")
-    if (shared) return "unavailable"
+    console.warn("match-captcha redis-fallback")
     return consumeNonceMemory(nonce, Date.now() + ttlSec * 1000) ? "fresh" : "replay"
   }
 }
 
 export function searchLimit(): { limit: number; windowSec: number } {
-  return { limit: 10, windowSec: 1800 }
+  return { limit: 40, windowSec: 1800 }
 }
