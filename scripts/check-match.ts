@@ -19,7 +19,16 @@ import {
   type MatchTool,
 } from "../lib/match-copy.ts"
 import { issueChallenge, verifyChallenge } from "../lib/match-captcha.ts"
-import { clientIp, consumeNonceMemory, rateHeaders, rateLimit, takeToken } from "../lib/match-guard.ts"
+import {
+  clientIp,
+  consumeNonce,
+  consumeNonceMemory,
+  payloadFingerprint,
+  rateHeaders,
+  rateLimit,
+  rowsFrom,
+  takeToken,
+} from "../lib/match-guard.ts"
 
 const names = ["Synthesia", "Synthesys", "ChatGPT"]
 
@@ -343,6 +352,56 @@ const timeoutFetch: typeof fetch = async () => {
 const timeoutFallback = await rateLimit("203.0.113.25", "search", 10, 1800, { requireRedis: true, fetchImpl: timeoutFetch })
 assert.equal(timeoutFallback.ok, true)
 if (timeoutFallback.ok) assert.equal(timeoutFallback.backend, "none")
+
+assert.equal(rowsFrom([[null, 1], [null, -1]])?.map((r) => r.result).join(","), "1,-1")
+assert.equal(rowsFrom({ result: [[null, "2"], [null, "1800"]] })?.map((r) => r.result).join(","), "2,1800")
+assert.equal(rowsFrom({ result: [{ result: 3 }, { result: -1 }] })?.map((r) => r.result).join(","), "3,-1")
+assert.equal(payloadFingerprint({ result: [{ result: 1 }, { error: "ERR x" }] }).includes("obj"), true)
+
+process.env.KV_REST_API_URL = "https://kv-tuple.example.test"
+process.env.KV_REST_API_TOKEN = "kv-token-value"
+let tupleExpireCalls = 0
+const tupleFetchWithExpire: typeof fetch = async (input, init) => {
+  const url = String(input)
+  const body = JSON.parse(String(init?.body))
+  if (!Array.isArray(body[0])) {
+    tupleExpireCalls += 1
+    assert.equal(body[0], "EXPIRE")
+    return Response.json({ result: 1 })
+  }
+  assert.equal(url.endsWith("/pipeline"), true)
+  return Response.json([[null, 1], [null, -1]])
+}
+const tupleAllowed = await rateLimit("203.0.113.30", "search", 10, 1800, {
+  requireRedis: true,
+  fetchImpl: tupleFetchWithExpire,
+})
+assert.equal(tupleAllowed.ok, true)
+if (tupleAllowed.ok) {
+  assert.equal(tupleAllowed.backend, "redis")
+  assert.equal(tupleAllowed.remaining, 9)
+}
+assert.equal(tupleExpireCalls, 1)
+
+const wrappedFetch: typeof fetch = async () =>
+  Response.json({ result: [{ result: "1" }, { result: "-1" }] })
+const wrappedAllowed = await rateLimit("203.0.113.31", "search", 10, 1800, {
+  requireRedis: true,
+  fetchImpl: wrappedFetch,
+})
+assert.equal(wrappedAllowed.ok, true)
+if (wrappedAllowed.ok) assert.equal(wrappedAllowed.backend, "redis")
+
+const nonceTupleFetch: typeof fetch = async () => Response.json([null, "OK"])
+assert.equal(
+  await consumeNonce("nonce-tuple-shape", 120, { requireRedis: true, fetchImpl: nonceTupleFetch }),
+  "fresh",
+)
+const nonceWrappedFetch: typeof fetch = async () => Response.json({ result: null })
+assert.equal(
+  await consumeNonce("nonce-replay-shape", 120, { requireRedis: true, fetchImpl: nonceWrappedFetch }),
+  "replay",
+)
 
 if (savedUrl === undefined) delete process.env.KV_REST_API_URL
 else process.env.KV_REST_API_URL = savedUrl

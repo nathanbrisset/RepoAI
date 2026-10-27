@@ -156,25 +156,101 @@ async function redisCommand(config: RedisCall, command: unknown, pipeline: boole
 
 function asInt(value: unknown): number | null {
   if (typeof value === "number" && Number.isFinite(value)) return Math.trunc(value)
-  if (typeof value === "string" && /^-?\d+$/.test(value)) return Number(value)
+  if (typeof value === "string" && /^-?\d+$/.test(value.trim())) return Number(value.trim())
+  if (typeof value === "boolean") return value ? 1 : 0
   return null
 }
 
 type RedisRow = { result?: unknown; error?: string }
 
-function rowsFrom(payload: unknown): RedisRow[] | null {
-  let value = payload
-  if (value && typeof value === "object" && "result" in value && Array.isArray((value as { result: unknown }).result)) {
-    value = (value as { result: unknown[] }).result
+/** Short type fingerprint for logs — never includes secrets or token values. */
+export function payloadFingerprint(payload: unknown, depth = 0): string {
+  if (depth > 4) return "…"
+  if (payload === null) return "null"
+  if (payload === undefined) return "undef"
+  const t = typeof payload
+  if (t === "string") return `str(${payload.length})`
+  if (t === "number" || t === "boolean") return t
+  if (Array.isArray(payload)) {
+    const inner = payload.slice(0, 4).map((item) => payloadFingerprint(item, depth + 1))
+    return `arr[${payload.length}](${inner.join(",")})`
   }
-  if (!Array.isArray(value)) return null
-  return value.map((item) => {
-    if (item && typeof item === "object") {
-      const row = item as { result?: unknown; error?: unknown }
+  if (t === "object") {
+    const keys = Object.keys(payload as object).slice(0, 6)
+    const parts = keys.map((key) => `${key}:${payloadFingerprint((payload as Record<string, unknown>)[key], depth + 1)}`)
+    return `obj{${parts.join(",")}}`
+  }
+  return t
+}
+
+function rowFromItem(item: unknown): RedisRow {
+  if (Array.isArray(item)) {
+    if (item.length >= 2 && (item[0] === null || typeof item[0] === "string")) {
+      const err = item[0]
+      return {
+        result: item[1],
+        error: typeof err === "string" ? err : undefined,
+      }
+    }
+    if (item.length === 1) return rowFromItem(item[0])
+    return { result: item }
+  }
+  if (item && typeof item === "object") {
+    const row = item as { result?: unknown; error?: unknown }
+    if ("error" in row && typeof row.error === "string") {
+      return { result: row.result, error: row.error }
+    }
+    if ("result" in row || "error" in row) {
       return { result: row.result, error: typeof row.error === "string" ? row.error : undefined }
     }
-    return { result: item }
-  })
+  }
+  return { result: item }
+}
+
+function unwrapTopLevel(payload: unknown): unknown {
+  let value = payload
+  for (let i = 0; i < 3; i++) {
+    if (value && typeof value === "object" && !Array.isArray(value) && "result" in value) {
+      const inner = (value as { result: unknown }).result
+      if (inner !== value) {
+        value = inner
+        continue
+      }
+    }
+    break
+  }
+  return value
+}
+
+export function rowsFrom(payload: unknown): RedisRow[] | null {
+  const value = unwrapTopLevel(payload)
+  if (!Array.isArray(value)) return null
+  return value.map((item) => rowFromItem(item))
+}
+
+function commandResult(payload: unknown): { value: unknown; error?: string } {
+  const rows = rowsFrom(payload)
+  if (rows && rows.length === 1) {
+    if (rows[0].error) return { value: null, error: rows[0].error }
+    return { value: rows[0].result }
+  }
+  const unwrapped = unwrapTopLevel(payload)
+  if (unwrapped && typeof unwrapped === "object" && !Array.isArray(unwrapped) && "error" in unwrapped) {
+    const err = (unwrapped as { error: unknown }).error
+    return { value: null, error: typeof err === "string" ? err : "error" }
+  }
+  if (Array.isArray(unwrapped) && unwrapped.length >= 2 && (unwrapped[0] === null || typeof unwrapped[0] === "string")) {
+    const err = unwrapped[0]
+    return {
+      value: unwrapped[1],
+      error: typeof err === "string" ? err : undefined,
+    }
+  }
+  if (unwrapped && typeof unwrapped === "object" && !Array.isArray(unwrapped) && "result" in unwrapped) {
+    const row = unwrapped as { result?: unknown; error?: string }
+    return { value: row.result, error: row.error }
+  }
+  return { value: unwrapped }
 }
 
 export async function rateLimit(
@@ -202,7 +278,8 @@ export async function rateLimit(
     const rows = rowsFrom(payload)
     const count = rows && rows.length >= 1 ? asInt(rows[0].result) : null
     if (!rows || rows[0]?.error || count === null || count < 1) {
-      throw new Error("bad-payload")
+      const detail = rows?.[0]?.error || payloadFingerprint(payload)
+      throw new Error(`bad-payload ${detail}`)
     }
     let ttl = rows.length >= 2 ? asInt(rows[1].result) : null
     if (ttl === null || ttl < 0) {
@@ -254,10 +331,11 @@ export async function consumeNonce(
   }
   try {
     const payload = await redisCommand(config, ["SET", key, "1", "EX", ttlSec, "NX"], false, options?.fetchImpl || fetch)
-    const result = payload && typeof payload === "object" && "result" in payload ? (payload as { result: unknown }).result : payload
-    if (result === "OK") return "fresh"
-    if (result === null) return "replay"
-    throw new Error("bad-payload")
+    const { value: result, error } = commandResult(payload)
+    if (error) throw new Error(error.slice(0, 80))
+    if (result === "OK" || result === true || result === 1) return "fresh"
+    if (result === null || result === false) return "replay"
+    throw new Error(`bad-payload ${payloadFingerprint(payload)}`)
   } catch (error) {
     console.error("Match captcha store failed", error instanceof Error ? (error.message || error.name).slice(0, 80) : "error")
     console.warn("match-captcha redis-fallback")
