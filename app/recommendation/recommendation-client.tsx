@@ -57,7 +57,7 @@ export default function RecommendationClient() {
           setResults(data.recommendations.filter((row: MatchRow) => row?.tool?.id))
           setIntro(typeof data.intro === "string" ? data.intro : "")
         } else {
-          setError(t("home.noResults"))
+          setError(messageForCode("no_match", trimmed))
         }
       } catch {
         setError(messageForCode("unavailable", trimmed))

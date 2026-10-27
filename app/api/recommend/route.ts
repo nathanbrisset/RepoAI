@@ -9,6 +9,7 @@ import {
   detectLanguage,
   parseModelJson,
   promptProblem,
+  rankTools,
   relatedCards,
   shortlist,
   toMatchTool,
@@ -107,7 +108,20 @@ ${toolLines}`
     clearTimeout(timeoutId)
     if (!response.ok) {
       const detail = await response.text()
-      console.error("OpenAI match error", response.status, detail.slice(0, 500))
+      let modelHint = ""
+      try {
+        const parsed = JSON.parse(detail) as { error?: { code?: string; message?: string } }
+        const code = parsed?.error?.code
+        if (code === "model_not_found" || response.status === 403) {
+          modelHint = ` (model=${OPENAI_MATCH_MODEL}${code ? `, code=${code}` : ""})`
+        }
+      } catch {
+        /* non-JSON body */
+      }
+      console.error(
+        `OpenAI match error${modelHint}: HTTP ${response.status}`,
+        detail.slice(0, 500),
+      )
       return null
     }
     const data = await response.json()
@@ -160,7 +174,11 @@ export async function POST(req: NextRequest) {
     const lang = detectLanguage(prompt)
 
     const catalog = catalogMatch(tools, prompt, names)
-    if (catalog && catalog.recommendations.length >= 2) {
+    const catalogStrong =
+      catalog &&
+      catalog.recommendations.length >= 2 &&
+      rankTools(tools, prompt).some((row) => row.score >= 4)
+    if (catalogStrong) {
       return jsonOk(withRelated(catalog, tools, prompt, names), legacy)
     }
 
@@ -170,7 +188,7 @@ export async function POST(req: NextRequest) {
       return jsonOk(withRelated(model, tools, prompt, names), legacy)
     }
 
-    if (catalog) {
+    if (catalog && catalog.recommendations.length > 0) {
       return jsonOk(withRelated(catalog, tools, prompt, names), legacy)
     }
 
