@@ -65,7 +65,7 @@ export default function RecommendationClient() {
         setLoading(false)
       }
     },
-    [locale, t],
+    [locale],
   )
 
   useEffect(() => {

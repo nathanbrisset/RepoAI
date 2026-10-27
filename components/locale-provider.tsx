@@ -1,6 +1,6 @@
 "use client"
 
-import { createContext, useContext } from "react"
+import { createContext, useCallback, useContext } from "react"
 import { defaultLocale, type Locale } from "@/lib/i18n/config"
 import { translate, type MessageVars } from "@/lib/i18n/messages"
 
@@ -22,5 +22,8 @@ export function useLocale(): Locale {
 
 export function useT() {
   const locale = useLocale()
-  return (key: string, vars?: MessageVars) => translate(locale, key, vars)
+  return useCallback(
+    (key: string, vars?: MessageVars) => translate(locale, key, vars),
+    [locale],
+  )
 }
