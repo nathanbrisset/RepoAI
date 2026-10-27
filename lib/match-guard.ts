@@ -169,7 +169,7 @@ export function payloadFingerprint(payload: unknown, depth = 0): string {
   if (payload === null) return "null"
   if (payload === undefined) return "undef"
   const t = typeof payload
-  if (t === "string") return `str(${payload.length})`
+  if (typeof payload === "string") return `str(${payload.length})`
   if (t === "number" || t === "boolean") return t
   if (Array.isArray(payload)) {
     const inner = payload.slice(0, 4).map((item) => payloadFingerprint(item, depth + 1))
