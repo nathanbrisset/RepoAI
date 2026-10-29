@@ -6,7 +6,7 @@ import { directoryCopy } from "@/lib/i18n/directory-copy"
 import { pricingLabel } from "@/lib/i18n/messages"
 import { PRICE_FILTERS } from "@/lib/price-filter"
 import { useDirectory } from "@/components/directory/directory-provider"
-import type { SwipeFilters, SwipeLanguage, SwipeLearning, SwipePlatform, SwipeUseCase } from "@/lib/ai-match-swipe/filters"
+import type { SwipeCountry, SwipeFilters, SwipeLearning, SwipePlatform, SwipeUseCase } from "@/lib/ai-match-swipe/filters"
 
 const PLATFORMS: SwipePlatform[] = ["web", "mobile", "desktop", "api", "extension"]
 const LEARNING: SwipeLearning[] = ["easy", "medium", "advanced"]
@@ -22,7 +22,7 @@ const USE_CASES: SwipeUseCase[] = [
   "productivity",
   "design",
 ]
-const LANGUAGES: SwipeLanguage[] = ["en", "fr", "multilingual"]
+const COUNTRIES: SwipeCountry[] = ["FR", "UK", "US", "ES", "DE"]
 
 type Props = {
   filters: SwipeFilters
@@ -133,14 +133,19 @@ export function SwipeFiltersScreen({ filters, onChange, onStart, emptyAfterFilte
           </ChipRow>
         </FilterSection>
 
-        <FilterSection title={t.swipeLanguageLabel}>
+        <FilterSection title={t.swipeCountryLabel}>
           <ChipRow>
-            {LANGUAGES.map((language) => (
+            <FilterChip
+              label={t.swipeCountryAny}
+              pressed={filters.country === null}
+              onClick={() => patch({ country: null })}
+            />
+            {COUNTRIES.map((country) => (
               <FilterChip
-                key={language}
-                label={t.swipeLanguages[language]}
-                pressed={filters.language === language}
-                onClick={() => toggleChip("language", language, filters.language)}
+                key={country}
+                label={t.swipeCountries[country]}
+                pressed={filters.country === country}
+                onClick={() => toggleChip("country", country, filters.country)}
               />
             ))}
           </ChipRow>

@@ -34,6 +34,7 @@ export type DirectoryRecord = {
   pricingNote?: string
   pricingModel?: string
   priceBucket: PriceFilter | null
+  hqCountry?: string
 }
 
 export type DirectoryChip = {
@@ -73,6 +74,7 @@ function toRecord(tool: Tool, locale: Locale): DirectoryRecord {
     pricingNote: uncertain ? undefined : localized.pricing?.details,
     pricingModel: tool.pricing?.model,
     priceBucket: priceFilterBucket(tool),
+    hqCountry: tool.hqCountry,
   }
 }
 

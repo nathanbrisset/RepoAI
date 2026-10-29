@@ -7,6 +7,7 @@ import { useLocale } from "@/components/locale-provider"
 import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
 import { localizeHref } from "@/lib/i18n/paths"
 import { PRICE_FILTERS, priceFilterParam, type PriceFilter } from "@/lib/price-filter"
+import { matchesHqCountryFilter } from "@/lib/hq-country-filter"
 import { pricingLabel } from "@/lib/i18n/messages"
 import { useDirectory } from "./directory-provider"
 import { ToolCard } from "./tool-card"
@@ -23,6 +24,7 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
   const query = (searchParams.get("q") || "").trim().toLowerCase()
   const sort = (searchParams.get("sort") as SortMode) || "trending"
   const pricing = searchParams.get("pricing")
+  const hqCountry = searchParams.get("hqCountry")
 
   const activePrice = PRICE_FILTERS.find((filter) => priceFilterParam(filter) === pricing) || null
 
@@ -41,9 +43,10 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
     const filtered = records.filter((tool) => {
       const matchesCategory = category ? tool.categories.includes(category) : true
       const matchesPrice = activePrice ? tool.priceBucket === activePrice : true
+      const matchesCountry = matchesHqCountryFilter(tool.hqCountry, hqCountry)
       const haystack = [tool.name, tool.description, tool.tags.join(" "), tool.categories.join(" "), tool.features.join(" ")].join(" ").toLowerCase()
       const matchesQuery = query ? haystack.includes(query) : true
-      return matchesCategory && matchesPrice && matchesQuery
+      return matchesCategory && matchesPrice && matchesCountry && matchesQuery
     })
     if (sort === "new") {
       return [...filtered].sort((a, b) => (b.dateAdded || "").localeCompare(a.dateAdded || ""))
@@ -52,7 +55,7 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
       return [...filtered].sort((a, b) => a.name.localeCompare(b.name, locale))
     }
     return filtered
-  }, [records, category, activePrice, query, sort, locale])
+  }, [records, category, activePrice, hqCountry, query, sort, locale])
 
   return (
     <main className="mx-auto max-w-[1400px] px-4 py-10 md:px-8">
@@ -88,7 +91,7 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
             </button>
           )
         })}
-        {(category || query || activePrice || sort !== "trending") && (
+        {(category || query || activePrice || hqCountry || sort !== "trending") && (
           <button type="button" onClick={() => router.replace(localizeHref(locale, basePath), { scroll: false })} className="h-9 rounded-full px-4 text-sm font-semibold text-primary">
             {t.clearFilters}
           </button>
