@@ -7,7 +7,12 @@ import { useLocale } from "@/components/locale-provider"
 import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
 import { localizeHref } from "@/lib/i18n/paths"
 import { PRICE_FILTERS, priceFilterParam, type PriceFilter } from "@/lib/price-filter"
-import { matchesHqCountryFilter } from "@/lib/hq-country-filter"
+import {
+  CATALOGUE_HQ_COUNTRIES,
+  catalogueHqCountryParam,
+  matchesHqCountryFilter,
+  parseCatalogueHqCountryParam,
+} from "@/lib/hq-country-filter"
 import { pricingLabel } from "@/lib/i18n/messages"
 import { useDirectory } from "./directory-provider"
 import { ToolCard } from "./tool-card"
@@ -27,6 +32,7 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
   const hqCountry = searchParams.get("hqCountry")
 
   const activePrice = PRICE_FILTERS.find((filter) => priceFilterParam(filter) === pricing) || null
+  const activeCountry = parseCatalogueHqCountryParam(hqCountry)
 
   function write(updates: Record<string, string | null>) {
     const params = new URLSearchParams(searchParams.toString())
@@ -76,23 +82,49 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
         </label>
       </div>
 
-      <div className="mt-6 flex flex-wrap items-center gap-2" role="group" aria-label={t.priceFilters}>
-        {PRICE_FILTERS.map((filter) => {
-          const selected = activePrice === filter
-          return (
-            <button
-              key={filter}
-              type="button"
-              aria-pressed={selected}
-              onClick={() => write({ pricing: selected ? null : priceFilterParam(filter as PriceFilter) })}
-              className={`h-9 rounded-full px-4 text-sm font-semibold ring-1 ring-border ${selected ? "bg-primary text-primary-foreground" : "bg-card"}`}
-            >
-              {pricingLabel(locale, filter)}
-            </button>
-          )
-        })}
-        {(category || query || activePrice || hqCountry || sort !== "trending") && (
-          <button type="button" onClick={() => router.replace(localizeHref(locale, basePath), { scroll: false })} className="h-9 rounded-full px-4 text-sm font-semibold text-primary">
+      <div className="mt-6 space-y-2">
+        <div className="-mx-4 flex flex-wrap items-center gap-2 overflow-x-auto px-4 [scrollbar-width:none] md:mx-0 md:overflow-visible md:px-0" role="group" aria-label={t.priceFilters}>
+          {PRICE_FILTERS.map((filter) => {
+            const selected = activePrice === filter
+            return (
+              <button
+                key={filter}
+                type="button"
+                aria-pressed={selected}
+                onClick={() => write({ pricing: selected ? null : priceFilterParam(filter as PriceFilter) })}
+                className={`h-9 shrink-0 rounded-full px-4 text-sm font-semibold ring-1 ring-border ${selected ? "bg-primary text-primary-foreground" : "bg-card"}`}
+              >
+                {pricingLabel(locale, filter)}
+              </button>
+            )
+          })}
+        </div>
+        <div className="-mx-4 flex flex-wrap items-center gap-2 overflow-x-auto px-4 [scrollbar-width:none] md:mx-0 md:overflow-visible md:px-0" role="group" aria-label={t.swipeCountryLabel}>
+          {CATALOGUE_HQ_COUNTRIES.map((country) => {
+            const selected = activeCountry === country
+            return (
+              <button
+                key={country}
+                type="button"
+                aria-pressed={selected}
+                onClick={() =>
+                  write({
+                    hqCountry: selected ? null : catalogueHqCountryParam(country),
+                  })
+                }
+                className={`h-9 shrink-0 rounded-full px-4 text-sm font-semibold ring-1 ring-border ${selected ? "bg-primary text-primary-foreground" : "bg-card"}`}
+              >
+                {t.swipeCountries[country]}
+              </button>
+            )
+          })}
+        </div>
+        {(category || query || activePrice || activeCountry || sort !== "trending") && (
+          <button
+            type="button"
+            onClick={() => router.replace(localizeHref(locale, basePath), { scroll: false })}
+            className="h-9 rounded-full px-4 text-sm font-semibold text-primary"
+          >
             {t.clearFilters}
           </button>
         )}
