@@ -1,9 +1,11 @@
 import type { DirectoryRecord } from "@/lib/directory/data"
+import { matchesSwipeCountry, type SwipeCountry } from "@/lib/hq-country-filter"
 import type { PriceFilter } from "@/lib/price-filter"
+
+export type { SwipeCountry } from "@/lib/hq-country-filter"
 
 export type SwipePlatform = "web" | "mobile" | "desktop" | "api" | "extension"
 export type SwipeLearning = "easy" | "medium" | "advanced"
-export type SwipeLanguage = "en" | "fr" | "multilingual"
 export type SwipeUseCase =
   | "content_creation"
   | "image_generation"
@@ -22,7 +24,7 @@ export type SwipeFilters = {
   platform: SwipePlatform | null
   learning: SwipeLearning | null
   useCase: SwipeUseCase | null
-  language: SwipeLanguage | null
+  country: SwipeCountry | null
   jobText: string
 }
 
@@ -32,7 +34,7 @@ export const DEFAULT_SWIPE_FILTERS: SwipeFilters = {
   platform: null,
   learning: null,
   useCase: null,
-  language: null,
+  country: null,
   jobText: "",
 }
 
@@ -59,12 +61,6 @@ const PLATFORM_KEYWORDS: Record<SwipePlatform, string[]> = {
 
 const LEARNING_EASY = ["no-code", "nocode", "beginner", "simple", "easy", "anyone", "without coding"]
 const LEARNING_ADVANCED = ["developer", "engineer", "api", "sdk", "code", "terminal", "enterprise", "devops"]
-
-const LANGUAGE_MARKERS: Record<SwipeLanguage, string[]> = {
-  en: ["english", "en-us", "en-gb"],
-  fr: ["french", "français", "francais", "fr-fr"],
-  multilingual: ["multilingual", "multi-language", "multi language", "100+ languages", "50+ languages"],
-}
 
 function haystack(tool: DirectoryRecord): string {
   return [tool.name, tool.description, tool.tags.join(" "), tool.features.join(" ")].join(" ").toLowerCase()
@@ -94,12 +90,6 @@ function matchesUseCase(tool: DirectoryRecord, useCase: SwipeUseCase): boolean {
   return hits >= Math.max(1, Math.ceil(keywords.length * 0.15))
 }
 
-function matchesLanguage(tool: DirectoryRecord, language: SwipeLanguage): boolean {
-  const text = haystack(tool)
-  if (language === "multilingual") return matchesKeywords(text, LANGUAGE_MARKERS.multilingual)
-  return matchesKeywords(text, LANGUAGE_MARKERS[language])
-}
-
 function matchesJobText(tool: DirectoryRecord, jobText: string): boolean {
   const needle = jobText.trim().toLowerCase()
   if (!needle) return true
@@ -119,7 +109,7 @@ export function filterSwipeDeck(records: DirectoryRecord[], filters: SwipeFilter
     if (filters.platform && !matchesPlatform(tool, filters.platform)) return false
     if (filters.learning && !matchesLearning(tool, filters.learning)) return false
     if (filters.useCase && !matchesUseCase(tool, filters.useCase)) return false
-    if (filters.language && !matchesLanguage(tool, filters.language)) return false
+    if (filters.country && !matchesSwipeCountry(tool.hqCountry, filters.country)) return false
     if (!matchesJobText(tool, filters.jobText)) return false
     return true
   })

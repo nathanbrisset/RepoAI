@@ -8,6 +8,7 @@ import { useLocale } from "@/components/locale-provider"
 import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
 import { localizeHref } from "@/lib/i18n/paths"
 import type { DirectoryRecord, ResolvedCollection } from "@/lib/directory/data"
+import { homeCountryCatalogueFilter } from "@/lib/home-country-section"
 import { CategoryChipsBar } from "./category-chips-bar"
 import { CollectionCard } from "./collection-card"
 import { Shuriken } from "./shuriken"
@@ -20,11 +21,13 @@ export function HomeDirectory({
   collections,
   categoryTotal,
   stack,
+  countryTools = [],
 }: {
   picks: DirectoryRecord[]
   collections: ResolvedCollection[]
   categoryTotal: number
   stack: DirectoryRecord[]
+  countryTools?: DirectoryRecord[]
 }) {
   const locale = useLocale()
   const t = directoryCopy(locale)
@@ -80,6 +83,9 @@ export function HomeDirectory({
     }
     router.push(localizeHref(locale, value ? `/catalogue?q=${encodeURIComponent(value)}` : "/catalogue"))
   }
+
+  const countryCatalogueHref = `/catalogue?hqCountry=${encodeURIComponent(homeCountryCatalogueFilter(locale))}`
+  const countryCta = locale === "fr" ? t.homeCountryCtaFr : t.homeCountryCta
 
   return (
     <div className="overflow-x-hidden">
@@ -163,6 +169,22 @@ export function HomeDirectory({
           {fill(t.allCategories, { count: categoryTotal })} <ArrowRight className="inline size-4" />
         </LocaleLink>
       </section>
+
+      {countryTools.length > 0 ? (
+        <section className="mx-auto max-w-[1400px] border-t border-border px-4 py-12 md:px-8">
+          <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
+            <h2 className="font-display text-3xl">{t.homeCountryTitle}</h2>
+            <LocaleLink href={countryCatalogueHref} className="font-semibold">
+              {countryCta} <ArrowRight className="inline size-4" />
+            </LocaleLink>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {countryTools.map((tool, index) => (
+              <ToolCard key={tool.id} tool={tool} index={index} />
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <section className="mx-auto max-w-[1400px] min-w-0 overflow-hidden border-t border-border px-4 py-12 md:px-8">
         <div className="mb-6 flex items-end justify-between gap-4">
