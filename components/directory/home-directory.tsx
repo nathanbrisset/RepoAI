@@ -13,6 +13,7 @@ import { CollectionCard } from "./collection-card"
 import { Shuriken } from "./shuriken"
 import { ToolCard } from "./tool-card"
 import { useDirectory } from "./directory-provider"
+import { AiMatchSwipeModal } from "@/components/ai-match-swipe/ai-match-swipe-modal"
 
 export function HomeDirectory({
   picks,
@@ -35,6 +36,7 @@ export function HomeDirectory({
   const [mode, setMode] = useState<"search" | "ai">("ai")
   const [throwing, setThrowing] = useState(false)
   const [throwId, setThrowId] = useState(0)
+  const [swipeOpen, setSwipeOpen] = useState(false)
 
   useEffect(() => {
     const media = window.matchMedia("(prefers-reduced-motion: reduce)")
@@ -127,16 +129,18 @@ export function HomeDirectory({
               </div>
             ) : null}
           </form>
-          <div className="mt-4 flex flex-wrap items-center gap-4">
-            <LocaleLink
-              href="/recommendation"
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-primary-foreground shadow-lg shadow-primary/20 hover:-translate-y-0.5"
+          <div className="mt-6 flex flex-col gap-4 max-sm:pb-[var(--cookie-banner-h,0px)]">
+            <button
+              type="button"
+              onClick={() => setSwipeOpen(true)}
+              className="inline-flex min-h-[3rem] w-full items-center justify-center gap-3 rounded-full bg-accent px-8 py-3.5 text-base font-bold text-accent-foreground shadow-xl shadow-accent/30 ring-2 ring-primary hover:-translate-y-0.5 sm:w-auto md:min-h-[3.25rem] md:px-10 md:text-lg"
             >
-              <Sparkles className="size-4" />
-              {t.aiMatchHeroCta}
-            </LocaleLink>
-            <button type="button" onClick={handleThrow} aria-busy={throwing} className="inline-flex items-center gap-3 rounded-full bg-accent py-2 pr-5 pl-2 font-semibold text-accent-foreground shadow-lg shadow-accent/20 hover:-translate-y-0.5">
-              <span className="grid size-9 place-items-center rounded-full bg-accent-foreground/15">
+              <Shuriken className="size-5 md:size-6" />
+              {t.startSwipingCta}
+            </button>
+            <div className="flex flex-wrap items-center gap-4">
+            <button type="button" onClick={handleThrow} aria-busy={throwing} className="inline-flex min-h-11 items-center gap-3 rounded-full bg-muted py-2 pr-5 pl-2 font-semibold text-foreground ring-1 ring-border hover:-translate-y-0.5">
+              <span className="grid size-9 place-items-center rounded-full bg-foreground/10">
                 <Shuriken key={throwId} className={throwing ? "size-6 animate-throw" : "size-6"} />
               </span>
               {throwing ? t.throwing : t.throw}
@@ -144,6 +148,7 @@ export function HomeDirectory({
             <LocaleLink href="/catalogue" className="font-semibold text-primary">
               {t.browse} <ArrowRight className="inline size-4" />
             </LocaleLink>
+            </div>
           </div>
         </div>
       </section>
@@ -222,6 +227,7 @@ export function HomeDirectory({
           </div>
         </div>
       </section>
+      <AiMatchSwipeModal open={swipeOpen} onOpenChange={setSwipeOpen} />
     </div>
   )
 }

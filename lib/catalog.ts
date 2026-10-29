@@ -1,5 +1,6 @@
 import { catalogTools } from "@/content/tools/index"
 import { frenchToolsById } from "@/lib/i18n/french-catalog"
+import { resolveCatalogLogo } from "@/lib/logo-url"
 import type { CatalogTool } from "./tool-schema"
 import type { Tool } from "./types"
 
@@ -26,7 +27,7 @@ export function toRuntimeTool(entry: CatalogTool): Tool {
     longDescription: entry.description,
     url: entry.url,
     image: entry.image,
-    logo: entry.logo,
+    logo: resolveCatalogLogo(entry.logo),
     categories: entry.categories,
     tags: entry.tags,
     summary_fr: frenchText(entry.summary_fr || entry.shortDescription_fr, overlay?.summary_fr || overlay?.shortDescription_fr),

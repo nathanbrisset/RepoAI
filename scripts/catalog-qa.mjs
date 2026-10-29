@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
  * Contrôles du catalogue hors sunset :
+ * - logo local /logos/{id}.* présent quand la fiche le référence
  * - capture locale d'au moins 15 Ko, sauf fiches revues dont la page est vraiment petite
  * - How To Use : pas de YouTube ni de sites tiers connus (guides copiés)
  * - anciens domaines qui ne sont plus l'URL officielle
@@ -15,6 +16,12 @@ import { fileURLToPath } from "url"
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const TOOLS_DIR = path.join(ROOT, "content/tools")
 const MIN_BYTES = 15 * 1024
+
+function localLogoExists(logoPath) {
+  if (!logoPath.startsWith("/logos/")) return true
+  const rel = logoPath.replace(/^\//, "")
+  return fs.existsSync(path.join(ROOT, "public", rel))
+}
 
 const BLOCKED_HOWTO = ["youtube.com", "youtu.be", "youtube-nocookie.com", "yeschat.ai", "cococlip.ai", "fahimai.com"]
 const RETIRED = ["aidungeon.io", "useblackbox.io", "cursor.sh", "chat.openai.com", "lensa-ai.com"]
@@ -86,6 +93,11 @@ for (const tool of tools) {
     if (blocked(host, RETIRED)) failures.push(`${tool.id}: ancien domaine ${url}`)
   }
   if (tool.status === "sunset") continue
+
+  const logo = (tool.logo || "").trim()
+  if (logo.startsWith("/logos/") && !localLogoExists(logo)) {
+    failures.push(`${tool.id}: logo local manquant ${logo}`)
+  }
 
   for (const step of tool.howToUse || []) {
     for (const link of step.links || []) {
