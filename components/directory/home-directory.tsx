@@ -13,6 +13,7 @@ import { CollectionCard } from "./collection-card"
 import { Shuriken } from "./shuriken"
 import { ToolCard } from "./tool-card"
 import { useDirectory } from "./directory-provider"
+import { AiMatchSwipeModal } from "@/components/ai-match-swipe/ai-match-swipe-modal"
 
 export function HomeDirectory({
   picks,
@@ -35,6 +36,7 @@ export function HomeDirectory({
   const [mode, setMode] = useState<"search" | "ai">("ai")
   const [throwing, setThrowing] = useState(false)
   const [throwId, setThrowId] = useState(0)
+  const [swipeOpen, setSwipeOpen] = useState(false)
 
   useEffect(() => {
     const media = window.matchMedia("(prefers-reduced-motion: reduce)")
@@ -135,8 +137,16 @@ export function HomeDirectory({
               <Sparkles className="size-4" />
               {t.aiMatchHeroCta}
             </LocaleLink>
-            <button type="button" onClick={handleThrow} aria-busy={throwing} className="inline-flex items-center gap-3 rounded-full bg-accent py-2 pr-5 pl-2 font-semibold text-accent-foreground shadow-lg shadow-accent/20 hover:-translate-y-0.5">
-              <span className="grid size-9 place-items-center rounded-full bg-accent-foreground/15">
+            <button
+              type="button"
+              onClick={() => setSwipeOpen(true)}
+              className="inline-flex min-h-11 items-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-bold text-accent-foreground shadow-lg shadow-accent/20 hover:-translate-y-0.5"
+            >
+              <Shuriken className="size-4" />
+              {t.startSwipingCta}
+            </button>
+            <button type="button" onClick={handleThrow} aria-busy={throwing} className="inline-flex items-center gap-3 rounded-full bg-muted py-2 pr-5 pl-2 font-semibold text-foreground ring-1 ring-border hover:-translate-y-0.5">
+              <span className="grid size-9 place-items-center rounded-full bg-foreground/10">
                 <Shuriken key={throwId} className={throwing ? "size-6 animate-throw" : "size-6"} />
               </span>
               {throwing ? t.throwing : t.throw}
@@ -222,6 +232,7 @@ export function HomeDirectory({
           </div>
         </div>
       </section>
+      <AiMatchSwipeModal open={swipeOpen} onOpenChange={setSwipeOpen} />
     </div>
   )
 }
