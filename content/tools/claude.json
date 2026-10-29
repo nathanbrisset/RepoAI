@@ -1,0 +1,62 @@
+{
+  "id": "claude",
+  "name": "Claude",
+  "url": "https://claude.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Anthropic's AI assistant for writing, analysis and coding.",
+  "description": "Claude is Anthropic's AI assistant (replacing the outdated 'Claude 3' entry) for writing, analysis, research and coding, with Artifacts, projects, connectors and Claude in Chrome. It is known for careful reasoning and long documents. A free plan is available on web, desktop and mobile; Pro costs $17/month billed annually ($20 monthly) and includes Claude Code, while Max starts at $100/month.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "chatbot",
+    "llm",
+    "assistant",
+    "anthropic"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "A free plan is available on web, desktop and mobile; Pro costs $17/month billed annually ($20 monthly) and includes Claude Code, while Max starts at $100/month.",
+    "sourceUrl": "https://claude.com/pricing"
+  },
+  "logo": "/logos/claude-3.png",
+  "image": "/screenshots/claude-3.webp",
+  "dateAdded": "2024-03-05",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Long Context Handling: Processes documents up to 200K tokens.",
+    "Safety & Alignment: Optimized for reliable, safe responses.",
+    "Creative Writing: Generates detailed, imaginative content.",
+    "Helpful for Research: Answers questions based on long-form material."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign Up or Log In",
+      "description": "Access Claude 3 by registering on the website.",
+      "links": [
+        {
+          "label": "Claude 3",
+          "url": "https://claude.ai"
+        }
+      ]
+    },
+    {
+      "title": "Upload or Paste Content",
+      "description": "Paste large documents, ask research questions, or start creative tasks."
+    },
+    {
+      "title": "Leverage Long Context",
+      "description": "Use Claude for summarization, analysis, or detailed creative writing."
+    },
+    {
+      "title": "Export or Continue",
+      "description": "Copy results or continue long-form conversations."
+    }
+  ],
+  "sources": [
+    "https://claude.com/pricing"
+  ]
+}

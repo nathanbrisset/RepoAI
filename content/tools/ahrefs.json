@@ -1,0 +1,59 @@
+{
+  "id": "ahrefs",
+  "name": "Ahrefs",
+  "url": "https://ahrefs.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Ahrefs is an AI product in the Marketing & SEO space with official hosting at ahrefs.com.",
+  "description": "Ahrefs is an AI product in the Marketing & SEO space with official hosting at ahrefs.com. Check the pricing page before production use.\n\nFeature: Ahrefs ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "seo",
+    "keywords",
+    "content",
+    "audit"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "See https://ahrefs.com/ for current plans.",
+    "sourceUrl": "https://ahrefs.com/"
+  },
+  "logo": "/logos/ahrefs.png",
+  "image": "/screenshots/ahrefs.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Ahrefs ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Ahrefs",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Ahrefs",
+          "url": "https://ahrefs.com/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

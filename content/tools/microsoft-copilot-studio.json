@@ -1,0 +1,59 @@
+{
+  "id": "microsoft-copilot-studio",
+  "name": "Microsoft Copilot Studio",
+  "url": "https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Microsoft Copilot Studio is an AI product in the AI Agents space with official hosting at www.microsoft.com.",
+  "description": "Microsoft Copilot Studio is an AI product in the AI Agents space with official hosting at www.microsoft.com. Check the pricing page before production use.\n\nFeature: Build or deploy agents connected to your data. Feature: Tool calling to SaaS APIs and internal systems. Feature: Monitoring, logs, or human handoff where offered. Feature: Templates to start from common automations.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "microsoft",
+    "agents",
+    "power-platform",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": false,
+    "note": "See https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio for current plans.",
+    "sourceUrl": "https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio"
+  },
+  "logo": "/logos/microsoft-copilot-studio.png",
+  "image": "/screenshots/microsoft-copilot-studio.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Build or deploy agents connected to your data.",
+    "Tool calling to SaaS APIs and internal systems.",
+    "Monitoring, logs, or human handoff where offered.",
+    "Templates to start from common automations."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Microsoft Copilot Studio",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Microsoft Copilot Studio",
+          "url": "https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "id": "salesforceeinstein",
-  "name": "Salesforce Einstein",
-  "url": "https://www.salesforce.com/artificial-intelligence/",
+  "name": "Salesforce Agentforce",
+  "url": "https://www.salesforce.com/agentforce/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Salesforce Einstein brings AI-driven analytics, insights, and automation to the Salesforce CRM, empowering marketers with predictive, personalized, and automated capabilities.",
+  "summary": "Salesforce's agent platform for CRM: autonomous agents, Einstein copilots, and AI embedded in Sales and Service Cloud.",
   "description": "Salesforce Einstein brings AI-driven analytics, insights, and automation to the Salesforce CRM, empowering marketers with predictive, personalized, and automated capabilities.\n\nAIforce lets you use trusted Salesforce data and agents in the tools you already work in — Slack, Claude, and beyond. See how it works.\n\nPredictive analytics and opportunity scoring. Automated insights for sales and marketing. Personalization for emails and offers. AI-powered workflow automation.",
   "categories": [
     "sales"
@@ -22,7 +22,7 @@
   "logo": "/logos/salesforceeinstein.png",
   "image": "/screenshots/salesforceeinstein.webp",
   "dateAdded": "2025-06-11",
-  "lastVerified": null,
+  "lastVerified": "2026-10-29",
   "features": [
     "Predictive analytics and opportunity scoring.",
     "Automated insights for sales and marketing.",
@@ -60,5 +60,6 @@
       "title": "Monitor and Refine",
       "description": "Track performance with built-in analytics. Adjust automation and personalization strategies for continuous improvement."
     }
-  ]
+  ],
+  "statusNote": "Formerly marketed as Salesforce Einstein; Agentforce is the current agent brand."
 }

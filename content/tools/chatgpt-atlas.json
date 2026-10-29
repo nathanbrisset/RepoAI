@@ -1,0 +1,59 @@
+{
+  "id": "chatgpt-atlas",
+  "name": "ChatGPT Atlas",
+  "url": "https://chatgpt.com/atlas",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "OpenAI's AI-first browser experience that embeds ChatGPT for search, tabs, and page-aware assistance.",
+  "description": "OpenAI's AI-first browser experience that embeds ChatGPT for search, tabs, and page-aware assistance. Check the pricing page before production use.\n\nFeature: Multi-turn chat with model selection where available. Feature: File, image, or voice input on supported plans. Feature: Share or export conversations for teammates. Feature: API or enterprise controls on higher tiers.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "browser",
+    "openai",
+    "chatgpt",
+    "research"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Requires ChatGPT subscription where Atlas is rolled out.",
+    "sourceUrl": "https://chatgpt.com/pricing"
+  },
+  "logo": "/logos/chatgpt-atlas.png",
+  "image": "/screenshots/chatgpt-atlas.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Multi-turn chat with model selection where available.",
+    "File, image, or voice input on supported plans.",
+    "Share or export conversations for teammates.",
+    "API or enterprise controls on higher tiers."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on ChatGPT Atlas",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "ChatGPT Atlas",
+          "url": "https://chatgpt.com/atlas"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

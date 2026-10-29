@@ -1,0 +1,59 @@
+{
+  "id": "openclaw",
+  "name": "OpenClaw",
+  "url": "https://openclaw.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Personal AI agent platform for running assistants that connect to your tools and messaging channels.",
+  "description": "Personal AI agent platform for running assistants that connect to your tools and messaging channels. Check the pricing page before production use.\n\nFeature: Build or deploy agents connected to your data. Feature: Tool calling to SaaS APIs and internal systems. Feature: Monitoring, logs, or human handoff where offered. Feature: Templates to start from common automations.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "personal-agent",
+    "open-source",
+    "local",
+    "automation"
+  ],
+  "pricing": {
+    "model": "open-source",
+    "label": "Open source",
+    "verified": true,
+    "note": "Open-source agent stack; hosted services may add paid tiers.",
+    "sourceUrl": "https://openclaw.ai/"
+  },
+  "logo": "/logos/openclaw.png",
+  "image": "/screenshots/openclaw.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Build or deploy agents connected to your data.",
+    "Tool calling to SaaS APIs and internal systems.",
+    "Monitoring, logs, or human handoff where offered.",
+    "Templates to start from common automations."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on OpenClaw",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "OpenClaw",
+          "url": "https://openclaw.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

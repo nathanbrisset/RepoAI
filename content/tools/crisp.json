@@ -1,0 +1,59 @@
+{
+  "id": "crisp",
+  "name": "Crisp",
+  "url": "https://crisp.chat/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Crisp is an AI product in the Customer Support space with official hosting at crisp.chat.",
+  "description": "Crisp is an AI product in the Customer Support space with official hosting at crisp.chat. Check the pricing page before production use.\n\nFeature: Crisp ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "chat",
+    "inbox",
+    "french",
+    "ai"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See https://crisp.chat/ for current plans.",
+    "sourceUrl": "https://crisp.chat/"
+  },
+  "logo": "/logos/crisp.png",
+  "image": "/screenshots/crisp.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Crisp ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Crisp",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Crisp",
+          "url": "https://crisp.chat/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

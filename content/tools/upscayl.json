@@ -1,0 +1,59 @@
+{
+  "id": "upscayl",
+  "name": "Upscayl",
+  "url": "https://upscayl.org/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Upscayl delivers AI-assisted capabilities for image generation & editing teams via upscayl.org.",
+  "description": "Upscayl delivers AI-assisted capabilities for image generation & editing teams via upscayl.org. Check the pricing page before production use.\n\nFeature: Upscayl ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "upscale",
+    "local",
+    "open-source",
+    "images"
+  ],
+  "pricing": {
+    "model": "open-source",
+    "label": "Open source",
+    "verified": false,
+    "note": "See official pricing at https://upscayl.org/.",
+    "sourceUrl": "https://upscayl.org/"
+  },
+  "logo": "/logos/upscayl.png",
+  "image": "/screenshots/upscayl.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Upscayl ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Upscayl",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Upscayl",
+          "url": "https://upscayl.org/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

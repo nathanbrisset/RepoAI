@@ -1,0 +1,59 @@
+{
+  "id": "miro-ai",
+  "name": "Miro AI",
+  "url": "https://miro.com/ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Miro AI is an AI product in the Design & UI space with official hosting at miro.com.",
+  "description": "Miro AI is an AI product in the Design & UI space with official hosting at miro.com. Check the pricing page before production use.\n\nFeature: Miro AI ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "whiteboard",
+    "diagrams",
+    "collaboration",
+    "workshops"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See https://miro.com/ai/ for current plans.",
+    "sourceUrl": "https://miro.com/ai/"
+  },
+  "logo": "/logos/miro-ai.png",
+  "image": "/screenshots/miro-ai.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Miro AI ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Miro AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Miro AI",
+          "url": "https://miro.com/ai/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

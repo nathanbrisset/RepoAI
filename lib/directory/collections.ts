@@ -122,7 +122,7 @@ export const COLLECTION_DEFS: CollectionDef[] = [
       en: "Assistants for writing, thinking and talking things through.",
       fr: "Des assistants pour écrire, réfléchir et en parler.",
     },
-    ids: ["chatgpt", "claude-3", "pi"],
+    ids: ["chatgpt", "claude", "pi"],
   },
   {
     slug: "automatisations-agents",
@@ -151,6 +151,28 @@ export const COLLECTION_DEFS: CollectionDef[] = [
     },
     ids: ["suno", "udio", "elevenlabs"],
   },
+  {
+    slug: "data-science",
+    title: { en: "Data science platforms", fr: "Plateformes data science" },
+    blurb: {
+      en: "ML frameworks and data platforms for engineers—not general-purpose AI assistants.",
+      fr: "Frameworks ML et plateformes data pour les ingénieurs—pas des assistants IA grand public.",
+    },
+    ids: [
+      "apache_spark",
+      "apache_nifi",
+      "node-red",
+      "weka",
+      "orange3",
+      "keras-tuner",
+      "ml-net",
+      "codet5",
+      "yellowbrick",
+      "pycaret",
+      "kaggle_kernels",
+      "sagemaker_neo",
+    ],
+  },
 ]
 
 /** Home grid: these four paths surface before other collections. */
@@ -166,7 +188,7 @@ export const FEATURED_STACK_IDS = ["v0-vercel", "runway", "jasper"] as const
 /** Hand-curated home picks — short copy, strong tools (not random catalogue draw). */
 export const DOJO_PICK_IDS = [
   "chatgpt",
-  "claude-3",
+  "claude",
   "perplexity-ai",
   "capcut",
   "descript",
@@ -176,7 +198,7 @@ export const DOJO_PICK_IDS = [
 ] as const
 
 export const COMPARE_PRESETS = [
-  ["chatgpt", "claude-3"],
+  ["chatgpt", "claude"],
   ["cursor", "devin"],
   ["granola", "notebooklm"],
 ] as const

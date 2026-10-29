@@ -1,23 +1,23 @@
 # Captures d'écran du catalogue
 
-Généré le 2026-10-21. Les fiches sunset sont exclues. Les captures ratées ne sont pas publiées.
+Généré le 2026-10-29. Les fiches sunset sont exclues. Les captures ratées ne sont pas publiées.
 
 ## Audit des images avant remplacement
 
 | Constat | Nombre |
 | --- | ---: |
-| Fiches hors sunset | 306 |
-| Actives | 290 |
+| Fiches hors sunset | 487 |
+| Actives | 469 |
 | Renommées (conservées dans le catalogue) | 16 |
 | Image locale présente | 260 |
-| Champ image vide | 46 |
+| Champ image vide | 227 |
 | Fichier image manquant (404 local) | 0 |
 | Images partagées entre plusieurs fiches | 0 |
 | Poids des images alors référencées | 150.4 Mio |
 
 Aucune. Chaque fichier présent a un chemin et un hash SHA-256 qui lui sont propres.
 
-Fiches sans image : altered, bolt, captions, character-ai, claude-code, clay, cline, deepl, deepseek, devin, dify, elicit, fal, fathom, firebase-studio, flux, gamma, genspark, google-ai-studio, granola, grok, hailuo-ai, happy, hedra, higgsfield, jules, kimi, kling, krea, lindy, llama, lovable, manus, mistral, mp3tomidi, n8n, napkin-ai, notebooklm, perplexity-comet, pika, recapo, udio, veo, warp, windsurf, wispr-flow.
+Fiches sans image : abridge, activepieces, ada-health, adcreative-ai, aider, aikido, akiflow, alphasense, altered, amp, anything, apollo-io, arcads, assemblyai, attio, augment-code, bardeen, base44, beautiful-ai, better-analyst-formerly-formula-bot, bland-ai, bolt, botpress, brainly, brisk-teaching, browser-use, bubble, buffer, captions, cartesia, character-ai, chatbase, claude-code, clay, cleo, cline, clipchamp, cocounsel, coda, coderabbit, cohere, connected-papers, consensus, craft, creatify, crewai, decagon, deepgram, deepl, deepseek, devin, dia, dify, digits, dreamina, duolingo, durable, eightfold-ai, elicit, exa, factory, fal, fathom, figma-make, firebase-studio, fiscal-ai, fish-audio, flutterflow, flux, folk, freed, gamma, gauth, gemini-cli, genspark, glean, glide, gong, google-ai-studio, google-antigravity, google-flow-music, google-stitch, granola, graphite, greptile, grok, groq, gumloop, hailuo-ai, happy, harvey, hebbia, hedra, heidi-health, hex, higgsfield, hirevue, huggingchat, hume-ai, ifttt, instantly, intercom-fin, jan, juicebox, jules, kagi, kapwing, khanmigo, kilo-code, kimi, kiro, kittl, kling, knowt, krea, lakera, landr, langchain, langflow, legora, lemlist, lindy, llama, lm-studio, lovable, ltx-studio, luminance, macwhisper, magicschool, make, manus, meta-ai, metaview, microsoft-365-copilot, microsoft-designer, microsoft-power-automate, mistral, moises, mp3tomidi, msty, mubert, n8n, nabla, napkin-ai, notebooklm, notta, novelai, ollama, openevidence, openhands, openrouter, paradox, perplexity-comet, photomath, pi, pika, pipedream, pitch, pixverse, plus-ai, poe, polymer, predis-ai, profound, quizlet, raycast, read-ai, readwise-reader, recapo, relevance-ai, researchrabbit, retell-ai, retool, reve, robin-ai, rogo, roomote-roo-code, rork, rows, rytr, scispace, scite, semantic-scholar, semgrep, shortwave, sierra, skyvern, smartlead, socket, softr, soundful, speak, spellbook, stable-audio, submagic, sunsama, supabase, superhuman, superwhisper, tana, taplio, tavily, tempo, tensor-art, textio, tl-dv, topaz-labs, trae, turbolearn, typecast, typefully, typingmind, udio, undermind, vapi, veo, vidu, viggle, vizcom, voiceflow, warp, webflow, windsurf, wispr-flow, you-com, z-ai-glm, zed.
 
 Les fichiers manquants : aucun.
 
@@ -27,14 +27,14 @@ Les PNG historiques dans `public/tool-screenshots` sont des captures plein cadre
 
 | Issue | Nombre |
 | --- | ---: |
-| Captures réussies | 303 |
-| Captures ratées | 2 |
-| Image actuelle conservée | 2 |
-| Visuel de repli (logo) | 0 |
-| Poids de public/screenshots | 12.6 Mio |
+| Captures réussies | 431 |
+| Captures ratées | 16 |
+| Image actuelle conservée | 5 |
+| Visuel de repli (logo) | 11 |
+| Poids de public/screenshots | 26.1 Mio |
 | Poids restant de public/tool-screenshots | 38.0 Mio |
 
-Ratées par type : captcha 2.
+Ratées par type : login 1, captcha 7, error 6, empty 2.
 
 ## Images publiées avec une note
 
@@ -51,7 +51,6 @@ Ratées par type : captcha 2.
 | gamma | Capture de help.gamma.app. gamma.app, /pricing et /templates restent derrière un captcha. |
 | ideogram | Image officielle about.ideogram.ai, pas une capture du navigateur. ideogram.ai reste derrière un captcha. |
 | neurallove | Capture de https://neural.love/video. |
-| perplexity-ai | PNG 1024×594 capturé dans un navigateur réel, fourni dans l'agent store (shots/). |
 | perplexity-comet | PNG 1024×594 capturé dans un navigateur réel, fourni dans l'agent store (shots/). |
 | pictory | Image officielle og:image de pictory.ai. La page elle-même est un captcha. |
 | quillbot | PNG 1024×594 capturé dans un navigateur réel, fourni dans l'agent store (shots/). |
@@ -63,9 +62,19 @@ Ratées par type : captcha 2.
 
 | id | nom | type | détail | décision |
 | --- | --- | --- | --- | --- |
+| chatgpt-atlas | ChatGPT Atlas | login | Page de connexion | repli logo |
+| civitai | Civitai | captcha | Captcha ou interstitiel anti-bot | repli logo |
+| claude | Claude | error | HTTP 403 | image actuelle |
+| clio | Clio | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | codeassist | CodeAssist | captcha | Cloudflare : blocage dur (Sorry, you have been blocked) | image actuelle |
+| freshdesk-freddy | Freshdesk Freddy | error | HTTP 404 | repli logo |
 | growthbar | GrowthBar | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-
-## Intégration avec le lot
-
-Ce rapport est celui de la branche captures (`edab3013`) pour les fiches qui existaient déjà. Les fiches nouvelles du lot gardent leurs captures, de même que Brainly, Quizlet et Tensor.Art (`public/screenshots/brainly.webp`, `quizlet.webp`, `tensor-art.webp`). Le contrôle des fiches actives est `npm run catalog:qa`.
+| lavender | Lavender | empty | Capture quasi uniforme | repli logo |
+| liner | Liner | error | HTTP 410 | repli logo |
+| lovo | LOVO | error | HTTP 402 | image actuelle |
+| magnific | Magnific AI | error | page.screenshot: Protocol error (Page.captureScreenshot): Unable to capture screenshot | repli logo |
+| opera-aria | Opera Aria | error | HTTP 404 | repli logo |
+| perplexity-ai | Perplexity | captcha | Captcha ou interstitiel anti-bot | image actuelle |
+| turboscribe | TurboScribe | captcha | Captcha ou interstitiel anti-bot | repli logo |
+| wan | Wan | empty | Page vide | repli logo |
+| zerogpt | ZeroGPT | captcha | Captcha ou interstitiel anti-bot | repli logo |

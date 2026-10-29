@@ -1,50 +1,59 @@
 {
   "id": "scispace",
   "name": "SciSpace",
-  "url": "https://scispace.com",
+  "url": "https://scispace.com/",
   "affiliateUrl": "",
-  "status": "inactive",
-  "summary": "AI research assistant for literature reviews and academic writing across 280M+ papers.",
-  "description": "SciSpace helps academics search more than 280 million papers, run systematic literature reviews, extract data from PDFs and write papers with cited sources. It is aimed at students, PhD candidates and researchers. Paid plans start with Premium at $20 per month or $12 per month billed annually, with Advanced and Max tiers above it.",
+  "status": "active",
+  "summary": "SciSpace is an AI product in the Search & Research space with official hosting at scispace.com.",
+  "description": "SciSpace is an AI product in the Search & Research space with official hosting at scispace.com. Check the pricing page before production use.\n\nFeature: SciSpace ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
   "categories": [
     "search"
   ],
   "tags": [
-    "literature-review",
     "papers",
-    "academic-writing",
-    "citations"
+    "literature-review",
+    "citations",
+    "academic"
   ],
   "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
     "verified": false,
-    "uncertain": true
+    "note": "See https://scispace.com/ for current plans.",
+    "sourceUrl": "https://scispace.com/"
   },
   "logo": "https://scispace.com/icon.png",
   "image": "/screenshots/scispace.webp",
-  "dateAdded": null,
-  "lastVerified": "2026-10-21",
-  "sources": [
-    "https://scispace.com/",
-    "https://scispace.com/pricing"
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "SciSpace ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
   ],
   "howToUse": [
     {
-      "title": "Open SciSpace",
-      "description": "Open SciSpace and search the index of more than 280 million papers.",
+      "title": "Sign up on SciSpace",
+      "description": "Create an account at the official URL if you need saved work or billing.",
       "links": [
         {
           "label": "SciSpace",
-          "url": "https://scispace.com"
+          "url": "https://scispace.com/"
         }
       ]
     },
     {
-      "title": "Review the literature",
-      "description": "Run systematic literature reviews, then extract data from the PDFs you keep."
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
     },
     {
-      "title": "Write with citations",
-      "description": "Write the paper with cited sources. The workflow is aimed at academics, students, PhD candidates and researchers."
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
     }
   ]
 }

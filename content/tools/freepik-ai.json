@@ -1,0 +1,59 @@
+{
+  "id": "freepik-ai",
+  "name": "Freepik AI",
+  "url": "https://www.freepik.com/ai/image-generator",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI image generation and editing inside Freepik's stock and design platform for marketers and creators.",
+  "description": "AI image generation and editing inside Freepik's stock and design platform for marketers and creators. Check the pricing page before production use.\n\nFeature: Freepik AI ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "stock",
+    "image-gen",
+    "design",
+    "templates"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Credits-based AI tools on Freepik; Magnific merger may affect branding.",
+    "sourceUrl": "https://www.freepik.com/pricing"
+  },
+  "logo": "/logos/freepik-ai.png",
+  "image": "/screenshots/freepik-ai.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Freepik AI ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Freepik AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Freepik AI",
+          "url": "https://www.freepik.com/ai/image-generator"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

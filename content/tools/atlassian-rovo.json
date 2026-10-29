@@ -1,0 +1,59 @@
+{
+  "id": "atlassian-rovo",
+  "name": "Atlassian Rovo",
+  "url": "https://www.atlassian.com/software/rovo",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Atlassian Rovo is an AI product in the Productivity & Workspace space with official hosting at www.atlassian.com.",
+  "description": "Atlassian Rovo is an AI product in the Productivity & Workspace space with official hosting at www.atlassian.com. Check the pricing page before production use.\n\nFeature: Atlassian Rovo ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "jira",
+    "confluence",
+    "search",
+    "agents"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": false,
+    "note": "See https://www.atlassian.com/software/rovo for current plans.",
+    "sourceUrl": "https://www.atlassian.com/software/rovo"
+  },
+  "logo": "/logos/atlassian-rovo.png",
+  "image": "/screenshots/atlassian-rovo.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Atlassian Rovo ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Atlassian Rovo",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Atlassian Rovo",
+          "url": "https://www.atlassian.com/software/rovo"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

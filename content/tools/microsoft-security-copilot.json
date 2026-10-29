@@ -1,0 +1,59 @@
+{
+  "id": "microsoft-security-copilot",
+  "name": "Microsoft Security Copilot",
+  "url": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Microsoft Security Copilot delivers AI-assisted capabilities for security teams via www.microsoft.com.",
+  "description": "Microsoft Security Copilot delivers AI-assisted capabilities for security teams via www.microsoft.com. Check the pricing page before production use.\n\nFeature: Microsoft Security Copilot ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "soc",
+    "microsoft",
+    "defender",
+    "copilot"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": false,
+    "note": "See official pricing at https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot.",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot"
+  },
+  "logo": "/logos/microsoft-security-copilot.png",
+  "image": "/screenshots/microsoft-security-copilot.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Microsoft Security Copilot ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Microsoft Security Copilot",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Microsoft Security Copilot",
+          "url": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

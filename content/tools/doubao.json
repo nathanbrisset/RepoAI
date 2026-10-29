@@ -1,0 +1,59 @@
+{
+  "id": "doubao",
+  "name": "Doubao",
+  "url": "https://www.doubao.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Doubao delivers AI-assisted capabilities for llm & chatbots teams via www.doubao.com.",
+  "description": "Doubao delivers AI-assisted capabilities for llm & chatbots teams via www.doubao.com. Check the pricing page before production use.\n\nFeature: Multi-turn chat with model selection where available. Feature: File, image, or voice input on supported plans. Feature: Share or export conversations for teammates. Feature: API or enterprise controls on higher tiers.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "bytedance",
+    "chat",
+    "china",
+    "multimodal"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See official pricing at https://www.doubao.com/.",
+    "sourceUrl": "https://www.doubao.com/"
+  },
+  "logo": "/logos/doubao.png",
+  "image": "/screenshots/doubao.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Multi-turn chat with model selection where available.",
+    "File, image, or voice input on supported plans.",
+    "Share or export conversations for teammates.",
+    "API or enterprise controls on higher tiers."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Doubao",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Doubao",
+          "url": "https://www.doubao.com/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

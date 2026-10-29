@@ -1,0 +1,62 @@
+{
+  "id": "amazon-q-developer",
+  "name": "Amazon Q Developer",
+  "url": "https://aws.amazon.com/q/developer/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Amazon's AI coding assistant for the IDE and CLI: inline suggestions, chat, and security scans in your workflow.",
+  "description": "aws.amazon.com/codewhisperer redirected to Amazon Q Developer on 21 October 2026. AWS describes it as a coding assistant that writes, debugs, and works inside the IDE. The price was not extracted from that page.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "code-generation",
+    "aws",
+    "natural-language"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "AWS publishes a free tier and a Pro tier in other docs. The dollar price was not copied from this fetch.",
+    "sourceUrl": "https://aws.amazon.com/q/developer/"
+  },
+  "logo": "/logos/amazon-codewhisperer.png",
+  "image": "/screenshots/amazon-q-developer.webp",
+  "dateAdded": "2022-06-22",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Real-Time Code Suggestions: Context-aware completions while coding.",
+    "AWS Service Integration: Tailored snippets for AWS services.",
+    "Security Scanning: Detects potential vulnerabilities.",
+    "Open Source Attribution: References similar open-source code."
+  ],
+  "howToUse": [
+    {
+      "title": "Install CodeWhisperer",
+      "description": "Add CodeWhisperer extension to your IDE (VS Code, JetBrains, etc).",
+      "links": [
+        {
+          "label": "Amazon CodeWhisperer",
+          "url": "https://aws.amazon.com/codewhisperer/"
+        }
+      ]
+    },
+    {
+      "title": "Start Coding",
+      "description": "Write code and receive context-aware suggestions."
+    },
+    {
+      "title": "Leverage AWS Snippets",
+      "description": "Use suggested code for AWS integrations."
+    },
+    {
+      "title": "Review Security Feedback",
+      "description": "Check for any flagged vulnerabilities or suggestions."
+    }
+  ],
+  "sources": [
+    "https://aws.amazon.com/q/developer/"
+  ],
+  "statusNote": "Formerly Amazon CodeWhisperer."
+}

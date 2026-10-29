@@ -1,0 +1,54 @@
+{
+  "id": "nano-banana",
+  "name": "Nano Banana (Gemini image)",
+  "url": "https://gemini.google.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Google's Gemini native image generation and editing capability, widely referred to as Nano Banana in model releases.",
+  "description": "Nano Banana is the community nickname for Google's Gemini image model tuned for fast generation and conversational editing. It ships inside the Gemini app and related Google surfaces rather than as a separate download.\n\nFeature: Text-to-image with character consistency options. Feature: In-chat edits such as background swap or style change. Feature: Integration with Gemini subscriptions. Feature: Safety filters on generated imagery.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "image-generation",
+    "gemini",
+    "google",
+    "editing"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Image features roll out inside Gemini apps and Google AI plans."
+  },
+  "logo": "/logos/nano-banana.png",
+  "image": "/screenshots/nano-banana.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Text-to-image with character consistency options.",
+    "In-chat edits such as background swap or style change.",
+    "Integration with Gemini subscriptions.",
+    "Safety filters on generated imagery."
+  ],
+  "howToUse": [
+    {
+      "title": "Open Gemini",
+      "description": "Use gemini.google.com or the mobile Gemini app with an eligible account.",
+      "links": [
+        {
+          "label": "Gemini",
+          "url": "https://gemini.google.com/"
+        }
+      ]
+    },
+    {
+      "title": "Switch to image mode",
+      "description": "Ask for an image or pick the image tool when the UI exposes it."
+    },
+    {
+      "title": "Refine in conversation",
+      "description": "Follow up with edit instructions instead of regenerating from scratch."
+    }
+  ]
+}

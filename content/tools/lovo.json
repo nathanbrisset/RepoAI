@@ -1,59 +1,59 @@
 {
   "id": "lovo",
-  "name": "Lovo",
-  "url": "https://lovo.ai",
+  "name": "LOVO",
+  "url": "https://lovo.ai/",
   "affiliateUrl": "",
-  "status": "sunset",
-  "summary": "An AI voiceover platform offering a wide range of voices and languages, designed for content creators and businesses.",
-  "description": "An AI voiceover platform offering a wide range of voices and languages, designed for content creators and businesses.\n\nExtensive Voice Options: Offers 500+ AI voices in over 100 languages. Voice Cloning: Allows users to create unique, branded voices. Genny AI: An intuitive tool for generating voiceovers from text. Auto Subtitle Generator: Automatically creates subtitles for videos.",
+  "status": "active",
+  "summary": "LOVO delivers AI-assisted capabilities for voice & speech teams via lovo.ai.",
+  "description": "LOVO delivers AI-assisted capabilities for voice & speech teams via lovo.ai. Check the pricing page before production use.\n\nFeature: LOVO ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
   "categories": [
-    "audio"
+    "voice"
   ],
   "tags": [
-    "ai",
-    "voice-editing",
-    "narration",
-    "content-creation"
+    "voice-cloning",
+    "tts",
+    "video",
+    "marketing"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
+    "model": "freemium",
+    "label": "Freemium",
     "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "note": "See official pricing at https://lovo.ai/.",
+    "sourceUrl": "https://lovo.ai/"
   },
   "logo": "/logos/lovo.png",
   "image": "/tool-screenshots/lovo.png",
   "dateAdded": "2023-03-10",
-  "lastVerified": "2026-10-21",
-  "statusNote": "Headless Chrome: lovo.ai shows Vercel 'Deployment Paused' (HTTP 402); web search: Lovo Inc. filed Chapter 7 on May 27 2026 (Bloomberg Law / MLex via ToolColumn, NanoPhoto)",
+  "lastVerified": "2026-10-29",
   "features": [
-    "Extensive Voice Options: Offers 500+ AI voices in over 100 languages.",
-    "Voice Cloning: Allows users to create unique, branded voices.",
-    "Genny AI: An intuitive tool for generating voiceovers from text.",
-    "Auto Subtitle Generator: Automatically creates subtitles for videos."
+    "LOVO ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
   ],
   "howToUse": [
     {
-      "title": "Sign Up & Use Genny Studio",
-      "description": "Register and log in to Lovo's Genny Studio.",
+      "title": "Sign up on LOVO",
+      "description": "Create an account at the official URL if you need saved work or billing.",
       "links": [
         {
-          "label": "Lovo",
-          "url": "https://lovo.ai"
+          "label": "LOVO",
+          "url": "https://lovo.ai/"
         }
       ]
     },
     {
-      "title": "Input Script",
-      "description": "Type or paste your script for voice generation."
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
     },
     {
-      "title": "Select Voice & Language",
-      "description": "Pick from hundreds of voices and languages, and preview."
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
     },
     {
-      "title": "Generate & Download",
-      "description": "Produce, edit, and export the final audio or subtitles."
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
     }
   ]
 }

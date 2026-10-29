@@ -1,0 +1,59 @@
+{
+  "id": "loudly",
+  "name": "Loudly",
+  "url": "https://www.loudly.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Loudly delivers AI-assisted capabilities for music & audio teams via www.loudly.com.",
+  "description": "Loudly delivers AI-assisted capabilities for music & audio teams via www.loudly.com. Check the pricing page before production use.\n\nFeature: Loudly ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "royalty-free",
+    "music-gen",
+    "creator",
+    "api"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See official pricing at https://www.loudly.com/.",
+    "sourceUrl": "https://www.loudly.com/"
+  },
+  "logo": "/logos/loudly.png",
+  "image": "/screenshots/loudly.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Loudly ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Loudly",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Loudly",
+          "url": "https://www.loudly.com/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

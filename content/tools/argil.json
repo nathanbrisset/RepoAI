@@ -1,0 +1,59 @@
+{
+  "id": "argil",
+  "name": "Argil",
+  "url": "https://www.argil.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Argil is an AI product in the Video space with official hosting at www.argil.ai.",
+  "description": "Argil is an AI product in the Video space with official hosting at www.argil.ai. Check the pricing page before production use.\n\nFeature: Argil ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "avatars",
+    "ugc",
+    "french",
+    "social"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See https://www.argil.ai/ for current plans.",
+    "sourceUrl": "https://www.argil.ai/"
+  },
+  "logo": "/logos/argil.png",
+  "image": "/screenshots/argil.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Argil ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Argil",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Argil",
+          "url": "https://www.argil.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

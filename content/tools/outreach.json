@@ -1,0 +1,59 @@
+{
+  "id": "outreach",
+  "name": "Outreach",
+  "url": "https://www.outreach.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Outreach delivers AI-assisted capabilities for sales & crm teams via www.outreach.io.",
+  "description": "Outreach delivers AI-assisted capabilities for sales & crm teams via www.outreach.io. Check the pricing page before production use.\n\nFeature: Outreach ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "sales-engagement",
+    "sequences",
+    "forecast",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": false,
+    "note": "See official pricing at https://www.outreach.io/.",
+    "sourceUrl": "https://www.outreach.io/"
+  },
+  "logo": "/logos/outreach.png",
+  "image": "/screenshots/outreach.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Outreach ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Outreach",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Outreach",
+          "url": "https://www.outreach.io/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

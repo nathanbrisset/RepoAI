@@ -1,0 +1,59 @@
+{
+  "id": "vic-ai",
+  "name": "Vic.ai",
+  "url": "https://www.vic.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Vic.ai delivers AI-assisted capabilities for finance & accounting teams via www.vic.ai.",
+  "description": "Vic.ai delivers AI-assisted capabilities for finance & accounting teams via www.vic.ai. Check the pricing page before production use.\n\nFeature: Vic.ai ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "ap",
+    "accounting",
+    "automation",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": false,
+    "note": "See official pricing at https://www.vic.ai/.",
+    "sourceUrl": "https://www.vic.ai/"
+  },
+  "logo": "/logos/vic-ai.png",
+  "image": "/screenshots/vic-ai.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Vic.ai ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Vic.ai",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Vic.ai",
+          "url": "https://www.vic.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

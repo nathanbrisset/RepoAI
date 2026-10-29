@@ -1,59 +1,59 @@
 {
   "id": "microsoft-copilot",
   "name": "Microsoft Copilot",
-  "url": "https://www.microsoft.com/en-us/copilot/",
+  "url": "https://copilot.microsoft.com/",
   "affiliateUrl": "",
-  "status": "duplicate-of",
-  "successorId": "microsoft-365-copilot",
-  "statusNote": "Same official page as Microsoft 365 Copilot: https://www.microsoft.com/en-us/copilot",
-  "summary": "Microsoft Copilot knows your work, lives in the apps you already use, and brings you the leading AI models. Explore Copilot for individuals, business, and enterprise.",
-  "description": "Microsoft Copilot knows your work, lives in the apps you already use, and brings you the leading AI models. Explore Copilot for individuals, business, and enterprise.\n\nDocument Summarization: Condenses long documents in Word and Outlook. Data Insights: Generates charts and formulas in Excel from natural language. Meeting Recaps: Summarizes Teams meetings and assigns tasks. Contextual Assistance: Suggests next steps in Office tools based on activity.",
+  "status": "active",
+  "summary": "Consumer Copilot chat at copilot.microsoft.com for web search, image creation, and everyday questions—not the same product page as Microsoft 365 Copilot for work.",
+  "description": "Microsoft Copilot on the web is the free-to-try assistant at copilot.microsoft.com. It answers questions, generates images, and helps with writing using Microsoft's latest models. Microsoft 365 Copilot is the paid work assistant embedded in Word, Excel, and Teams; this fiche covers the consumer web experience only.\n\nFeature: Web-grounded answers with citations from Bing search. Feature: Image generation and editing in the Copilot chat. Feature: Voice and file upload on supported browsers. Feature: Sign-in with a personal Microsoft account for history sync.",
   "categories": [
     "llm-chatbots"
   ],
   "tags": [
-    "productivity",
+    "chatbot",
     "microsoft",
-    "office"
+    "web-search",
+    "consumer"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Free tier on copilot.microsoft.com; Copilot Pro and Microsoft 365 Copilot are separate paid offers.",
+    "sourceUrl": "https://www.microsoft.com/store/b/copilotpro"
   },
   "logo": "/logos/microsoft-copilot.png",
   "image": "/screenshots/microsoft-copilot.webp",
   "dateAdded": "2023-03-15",
-  "lastVerified": null,
+  "lastVerified": "2026-10-29",
   "features": [
-    "Document Summarization: Condenses long documents in Word and Outlook.",
-    "Data Insights: Generates charts and formulas in Excel from natural language.",
-    "Meeting Recaps: Summarizes Teams meetings and assigns tasks.",
-    "Contextual Assistance: Suggests next steps in Office tools based on activity."
+    "Web-grounded answers with citations from Bing search.",
+    "Image generation and editing in the Copilot chat.",
+    "Voice and file upload on supported browsers.",
+    "Sign-in with a personal Microsoft account for history sync."
   ],
   "howToUse": [
     {
-      "title": "Access Microsoft Copilot",
-      "description": "Use Copilot via Microsoft 365 apps like Word, Excel, and Teams.",
+      "title": "Open the consumer Copilot site",
+      "description": "Go to copilot.microsoft.com in a browser—not the Microsoft 365 marketing hub.",
       "links": [
         {
           "label": "Microsoft Copilot",
-          "url": "https://www.microsoft.com/copilot"
+          "url": "https://copilot.microsoft.com/"
         }
       ]
     },
     {
-      "title": "Prompt for Help",
-      "description": "Ask Copilot to summarize, generate, or analyze documents and data."
+      "title": "Sign in or continue as guest",
+      "description": "Use a Microsoft account to save chats or try features without signing in where allowed."
     },
     {
-      "title": "Accept and Edit Output",
-      "description": "Review Copilot’s suggestions and adjust as needed."
+      "title": "Choose a mode",
+      "description": "Pick chat, image creation, or deep research when offered, then refine with follow-up prompts."
     },
     {
-      "title": "Use Across Office Apps",
-      "description": "Leverage Copilot in Word, Excel, Outlook, and Teams for productivity."
+      "title": "Compare with work Copilot",
+      "description": "For Office-embedded Copilot inside your tenant, use the Microsoft 365 Copilot fiche instead."
     }
   ]
 }

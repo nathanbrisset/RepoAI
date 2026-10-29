@@ -1,0 +1,59 @@
+{
+  "id": "asana-ai",
+  "name": "Asana AI",
+  "url": "https://asana.com/product/ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Asana AI delivers AI-assisted capabilities for productivity & workspace teams via asana.com.",
+  "description": "Asana AI delivers AI-assisted capabilities for productivity & workspace teams via asana.com. Check the pricing page before production use.\n\nFeature: Asana AI ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "project-management",
+    "goals",
+    "reporting",
+    "teams"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See official pricing at https://asana.com/product/ai.",
+    "sourceUrl": "https://asana.com/product/ai"
+  },
+  "logo": "/logos/asana-ai.png",
+  "image": "/screenshots/asana-ai.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Asana AI ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Asana AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Asana AI",
+          "url": "https://asana.com/product/ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

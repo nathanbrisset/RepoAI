@@ -1,0 +1,59 @@
+{
+  "id": "producer-ai",
+  "name": "Producer.ai",
+  "url": "https://www.producer.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Producer.ai is an AI product in the Music & Audio space with official hosting at www.producer.ai.",
+  "description": "Producer.ai is an AI product in the Music & Audio space with official hosting at www.producer.ai. Check the pricing page before production use.\n\nFeature: Producer.ai ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "music-generation",
+    "stems",
+    "creator",
+    "audio"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See https://www.producer.ai/ for current plans.",
+    "sourceUrl": "https://www.producer.ai/"
+  },
+  "logo": "/logos/producer-ai.png",
+  "image": "/screenshots/producer-ai.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Producer.ai ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Producer.ai",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Producer.ai",
+          "url": "https://www.producer.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

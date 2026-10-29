@@ -1,0 +1,59 @@
+{
+  "id": "stack-ai",
+  "name": "Stack AI",
+  "url": "https://www.stack-ai.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Stack AI delivers AI-assisted capabilities for ai agents teams via www.stack-ai.com.",
+  "description": "Stack AI delivers AI-assisted capabilities for ai agents teams via www.stack-ai.com. Check the pricing page before production use.\n\nFeature: Build or deploy agents connected to your data. Feature: Tool calling to SaaS APIs and internal systems. Feature: Monitoring, logs, or human handoff where offered. Feature: Templates to start from common automations.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "enterprise",
+    "workflow",
+    "rag",
+    "builders"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": false,
+    "note": "See official pricing at https://www.stack-ai.com/.",
+    "sourceUrl": "https://www.stack-ai.com/"
+  },
+  "logo": "/logos/stack-ai.png",
+  "image": "/screenshots/stack-ai.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Build or deploy agents connected to your data.",
+    "Tool calling to SaaS APIs and internal systems.",
+    "Monitoring, logs, or human handoff where offered.",
+    "Templates to start from common automations."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Stack AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Stack AI",
+          "url": "https://www.stack-ai.com/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

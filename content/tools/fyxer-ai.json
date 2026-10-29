@@ -1,0 +1,59 @@
+{
+  "id": "fyxer-ai",
+  "name": "Fyxer AI",
+  "url": "https://www.fyxer.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Fyxer AI is an AI product in the Productivity & Workspace space with official hosting at www.fyxer.com.",
+  "description": "Fyxer AI is an AI product in the Productivity & Workspace space with official hosting at www.fyxer.com. Check the pricing page before production use.\n\nFeature: Fyxer AI ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "email",
+    "scheduling",
+    "executive-assistant",
+    "inbox"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See https://www.fyxer.com/ for current plans.",
+    "sourceUrl": "https://www.fyxer.com/"
+  },
+  "logo": "/logos/fyxer-ai.png",
+  "image": "/screenshots/fyxer-ai.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Fyxer AI ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Fyxer AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Fyxer AI",
+          "url": "https://www.fyxer.com/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

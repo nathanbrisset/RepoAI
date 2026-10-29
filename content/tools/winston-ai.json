@@ -1,0 +1,59 @@
+{
+  "id": "winston-ai",
+  "name": "Winston AI",
+  "url": "https://gowinston.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Winston AI delivers AI-assisted capabilities for ai detection teams via gowinston.ai.",
+  "description": "Winston AI delivers AI-assisted capabilities for ai detection teams via gowinston.ai. Check the pricing page before production use.\n\nFeature: Scan text or documents for likely AI authorship. Feature: Batch or API access for CMS and LMS workflows. Feature: Reports with scores and highlighted passages. Feature: Settings for sensitivity and language.",
+  "categories": [
+    "ai-detection"
+  ],
+  "tags": [
+    "detection",
+    "content",
+    "publishers",
+    "api"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See official pricing at https://gowinston.ai/.",
+    "sourceUrl": "https://gowinston.ai/"
+  },
+  "logo": "/logos/winston-ai.png",
+  "image": "/screenshots/winston-ai.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Scan text or documents for likely AI authorship.",
+    "Batch or API access for CMS and LMS workflows.",
+    "Reports with scores and highlighted passages.",
+    "Settings for sensitivity and language."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Winston AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Winston AI",
+          "url": "https://gowinston.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

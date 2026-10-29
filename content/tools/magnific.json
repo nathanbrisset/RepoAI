@@ -1,0 +1,59 @@
+{
+  "id": "magnific",
+  "name": "Magnific AI",
+  "url": "https://magnific.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Magnific AI is an AI product in the Image Generation & Editing space with official hosting at magnific.ai.",
+  "description": "Magnific AI is an AI product in the Image Generation & Editing space with official hosting at magnific.ai. Check the pricing page before production use.\n\nFeature: Magnific AI ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "upscale",
+    "enhance",
+    "creative",
+    "generative"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See https://magnific.ai/ for current plans.",
+    "sourceUrl": "https://magnific.ai/"
+  },
+  "logo": "/logos/magnific.png",
+  "image": "/screenshots/magnific.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Magnific AI ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Magnific AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Magnific AI",
+          "url": "https://magnific.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

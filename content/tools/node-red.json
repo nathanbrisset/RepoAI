@@ -3,7 +3,7 @@
   "name": "Node-RED",
   "url": "https://nodered.org/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "inactive",
   "summary": "Open-source low-code tool for building event-driven flows in a browser editor.",
   "description": "Node-RED is an open-source low-code tool for event-driven applications. Users connect nodes in a browser-based flow editor to collect, transform and visualise data, and it runs on Node.js. It is used for home automation, industrial control systems and connecting APIs and devices. IBM's Emerging Technology Services team originally built it, and it is now a project of the OpenJS Foundation. FlowFuse, Inc., founded by its creator, offers commercial hosting. The current version is 5.0.9.",
   "summary_fr": "Outil libre pour construire des flux événementiels dans un éditeur de navigateur.",
@@ -29,7 +29,7 @@
   "logo": "/logos/node-red.png",
   "image": "/screenshots/node-red.webp",
   "dateAdded": "2026-10-26",
-  "lastVerified": "2026-10-26",
+  "lastVerified": "2026-10-29",
   "sources": [
     "https://nodered.org/",
     "https://nodered.org/about/"
@@ -78,5 +78,6 @@
       "title": "Importer un flux communautaire",
       "description": "Importer un flux depuis la bibliothèque communautaire. Le projet est à l'OpenJS Foundation, et FlowFuse propose un hébergement commercial."
     }
-  ]
+  ],
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
 }

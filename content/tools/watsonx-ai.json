@@ -1,0 +1,60 @@
+{
+  "id": "watsonx-ai",
+  "name": "IBM watsonx.ai",
+  "url": "https://www.ibm.com/products/watsonx-ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "IBM Watson Studio is a robust cloud-based environment that enables data scientists, analysts, and developers to collaboratively work on data science and AI projects. The platform provides tools for data preparation, visualization, automated machine learning (AutoAI), and model deployment. With strong integration to IBM Cloud services and support for open-source technologies, Watson Studio helps teams accelerate the entire data science lifecycle, from exploration to production, while ensuring enterprise-grade security and scalability.",
+  "description": "IBM Watson Studio is a robust cloud-based environment that enables data scientists, analysts, and developers to collaboratively work on data science and AI projects. The platform provides tools for data preparation, visualization, automated machine learning (AutoAI), and model deployment. With strong integration to IBM Cloud services and support for open-source technologies, Watson Studio helps teams accelerate the entire data science lifecycle, from exploration to production, while ensuring enterprise-grade security and scalability.\n\nIBM Watson Studio as a Service is an AI development platform with model building, deployment and governance capabilities that accelerate AI delivery.\n\nCollaborative Workspace: Enables team-based data science projects. AutoAI: Automated model building, selection, and optimization. Interactive Visualization: Dashboards and visual tools for data exploration. Open Source Integration: Supports Jupyter, RStudio, and other tools.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "cloud",
+    "data-science",
+    "collaboration"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
+  },
+  "logo": "/logos/watson_studio.png",
+  "image": "/screenshots/watsonx-ai.webp",
+  "dateAdded": null,
+  "lastVerified": "2026-10-29",
+  "dateAddedNote": "The previous Added date was 2017-02-01. It was removed because it is not a credible date for this directory.",
+  "features": [
+    "Collaborative Workspace: Enables team-based data science projects.",
+    "AutoAI: Automated model building, selection, and optimization.",
+    "Interactive Visualization: Dashboards and visual tools for data exploration.",
+    "Open Source Integration: Supports Jupyter, RStudio, and other tools.",
+    "Easy Model Deployment: Streamlined deployment and monitoring of models."
+  ],
+  "howToUse": [
+    {
+      "title": "Register and Access Watson Studio",
+      "description": "Sign up on IBM Cloud and access Watson Studio from your dashboard.",
+      "links": [
+        {
+          "label": "Watson Studio",
+          "url": "https://www.ibm.com/cloud/watson-studio"
+        }
+      ]
+    },
+    {
+      "title": "Start a New Project",
+      "description": "Create a new project for data analysis, modeling, or visualization."
+    },
+    {
+      "title": "Import Data and Build Models",
+      "description": "Upload datasets, use AutoAI, or develop custom models in Jupyter or RStudio."
+    },
+    {
+      "title": "Visualize and Deploy",
+      "description": "Use dashboards for analysis and deploy models to production as needed."
+    }
+  ],
+  "statusNote": "Successor to IBM Watson Studio for building and deploying AI on IBM Cloud."
+}

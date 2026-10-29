@@ -448,6 +448,23 @@
         "sast",
         "llm-security"
       ]
+    },
+    {
+      "id": "ai-detection",
+      "code": "C25",
+      "name": "AI Detection",
+      "description": "I want to check if text was written by AI;I want to prove originality for school or publishing",
+      "about": "Subcategories: AI writing detectors;Plagiarism and originality checks. Audiences: students, teachers, writers, publishers.",
+      "subcategories": [
+        "AI writing detectors",
+        "Plagiarism and originality checks"
+      ],
+      "tags": [
+        "ai-detection",
+        "plagiarism",
+        "originality",
+        "education"
+      ]
     }
   ],
   "legacyIds": [

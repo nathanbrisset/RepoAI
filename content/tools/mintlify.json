@@ -1,0 +1,59 @@
+{
+  "id": "mintlify",
+  "name": "Mintlify",
+  "url": "https://mintlify.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Mintlify delivers AI-assisted capabilities for coding & dev tools teams via mintlify.com.",
+  "description": "Mintlify delivers AI-assisted capabilities for coding & dev tools teams via mintlify.com. Check the pricing page before production use.\n\nFeature: Mintlify ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "docs",
+    "developer",
+    "ai-writer",
+    "api"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See official pricing at https://mintlify.com/.",
+    "sourceUrl": "https://mintlify.com/"
+  },
+  "logo": "/logos/mintlify.png",
+  "image": "/screenshots/mintlify.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Mintlify ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Mintlify",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Mintlify",
+          "url": "https://mintlify.com/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

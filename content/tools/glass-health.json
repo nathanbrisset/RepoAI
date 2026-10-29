@@ -1,0 +1,59 @@
+{
+  "id": "glass-health",
+  "name": "Glass Health",
+  "url": "https://glass.health/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Glass Health delivers AI-assisted capabilities for health & medical teams via glass.health.",
+  "description": "Glass Health delivers AI-assisted capabilities for health & medical teams via glass.health. Check the pricing page before production use.\n\nFeature: Glass Health ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "health"
+  ],
+  "tags": [
+    "clinical",
+    "decision-support",
+    "documentation",
+    "providers"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See official pricing at https://glass.health/.",
+    "sourceUrl": "https://glass.health/"
+  },
+  "logo": "/logos/glass-health.png",
+  "image": "/screenshots/glass-health.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Glass Health ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Glass Health",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Glass Health",
+          "url": "https://glass.health/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}
