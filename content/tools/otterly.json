@@ -1,0 +1,68 @@
+{
+  "id": "otterly",
+  "name": "Otterly.AI",
+  "url": "https://otterly.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Otterly.AI is an AI product in the Marketing space with official hosting at otterly.ai.",
+  "description": "Otterly.AI is an AI product in the Marketing space with official hosting at otterly.ai.\n\nSuivi de visibilité de sa marque dans ChatGPT, Perplexity…. Check the pricing page before production use.\n\nFeature: Otterly.AI ships the main workflow advertised on its official site.",
+  "summary_fr": "Suivi de visibilité de sa marque dans ChatGPT, Perplexity….",
+  "description_fr": "Suivi de visibilité de sa marque dans ChatGPT, Perplexity…. Vérifie la page tarifs avant un déploiement en production.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Payant",
+    "sourceUrl": "https://otterly.ai"
+  },
+  "logo": "/logos/otterly.png",
+  "image": "/screenshots/otterly.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Otterly.AI ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "features_fr": [
+    "Otterly.AI propose le flux principal décrit sur le site officiel.",
+    "Comptes équipe, rôles ou espaces de travail si disponibles.",
+    "Exports, webhooks ou intégrations vers tes autres outils.",
+    "Centre d'aide et onboarding pour le premier projet."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Otterly.AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Otterly.AI",
+          "url": "https://otterly.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "AT",
+  "hqCountrySource": "import"
+}

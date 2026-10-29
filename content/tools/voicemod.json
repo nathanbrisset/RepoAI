@@ -1,0 +1,68 @@
+{
+  "id": "voicemod",
+  "name": "Voicemod",
+  "url": "https://www.voicemod.net",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Voicemod is an AI product in the Voice & Speech space with official hosting at voicemod.net.",
+  "description": "Voicemod is an AI product in the Voice & Speech space with official hosting at voicemod.net.\n\nChangeur de voix temps réel (streamers). Check the pricing page before production use.\n\nFeature: Voicemod ships the main workflow advertised on its official site.",
+  "summary_fr": "Changeur de voix temps réel (streamers).",
+  "description_fr": "Changeur de voix temps réel (streamers). Vérifie la page tarifs avant un déploiement en production.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "ai",
+    "voice",
+    "catalog"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.voicemod.net"
+  },
+  "logo": "/logos/voicemod.png",
+  "image": "/screenshots/voicemod.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Voicemod ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "features_fr": [
+    "Voicemod propose le flux principal décrit sur le site officiel.",
+    "Comptes équipe, rôles ou espaces de travail si disponibles.",
+    "Exports, webhooks ou intégrations vers tes autres outils.",
+    "Centre d'aide et onboarding pour le premier projet."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Voicemod",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Voicemod",
+          "url": "https://www.voicemod.net"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "ES",
+  "hqCountrySource": "import"
+}

@@ -27,14 +27,14 @@ Les PNG historiques dans `public/tool-screenshots` sont des captures plein cadre
 
 | Issue | Nombre |
 | --- | ---: |
-| Captures réussies | 431 |
-| Captures ratées | 16 |
+| Captures réussies | 526 |
+| Captures ratées | 18 |
 | Image actuelle conservée | 5 |
-| Visuel de repli (logo) | 11 |
-| Poids de public/screenshots | 26.1 Mio |
+| Visuel de repli (logo) | 13 |
+| Poids de public/screenshots | 29.8 Mio |
 | Poids restant de public/tool-screenshots | 38.0 Mio |
 
-Ratées par type : login 1, captcha 7, error 6, empty 2.
+Ratées par type : login 1, captcha 9, error 6, empty 2.
 
 ## Images publiées avec une note
 
@@ -75,6 +75,8 @@ Ratées par type : login 1, captcha 7, error 6, empty 2.
 | magnific | Magnific AI | error | page.screenshot: Protocol error (Page.captureScreenshot): Unable to capture screenshot | repli logo |
 | opera-aria | Opera Aria | error | HTTP 404 | repli logo |
 | perplexity-ai | Perplexity | captcha | Captcha ou interstitiel anti-bot | image actuelle |
+| remini | Remini | captcha | Captcha ou interstitiel anti-bot | repli logo |
+| ttsmaker | TTSMaker | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | turboscribe | TurboScribe | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | wan | Wan | empty | Page vide | repli logo |
 | zerogpt | ZeroGPT | captcha | Captcha ou interstitiel anti-bot | repli logo |

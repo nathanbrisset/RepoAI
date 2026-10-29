@@ -58,6 +58,8 @@ export function toRuntimeTool(entry: CatalogTool): Tool {
     statusNote: entry.statusNote,
     lastVerified: entry.lastVerified,
     sources: entry.sources?.filter((source) => source !== entry.affiliateUrl),
+    hqCountry: entry.hqCountry,
+    hqCountrySource: entry.hqCountrySource,
   } as Tool
 }
 

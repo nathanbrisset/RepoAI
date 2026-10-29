@@ -1,0 +1,66 @@
+{
+  "id": "sendshort",
+  "name": "SendShort",
+  "url": "https://sendshort.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "SendShort is an AI product in the Video Creation space with official hosting at sendshort.ai.",
+  "description": "SendShort is an AI product in the Video Creation space with official hosting at sendshort.ai.\n\nSous-titres animés et découpe de Shorts automatique. Check the pricing page before production use.\n\nFeature: SendShort ships the main workflow advertised on its official site.",
+  "summary_fr": "Sous-titres animés et découpe de Shorts automatique.",
+  "description_fr": "Sous-titres animés et découpe de Shorts automatique. Vérifie la page tarifs avant un déploiement en production.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ai",
+    "video",
+    "catalog"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://sendshort.ai"
+  },
+  "logo": "/logos/sendshort.png",
+  "image": "/screenshots/sendshort.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "SendShort ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "features_fr": [
+    "SendShort propose le flux principal décrit sur le site officiel.",
+    "Comptes équipe, rôles ou espaces de travail si disponibles.",
+    "Exports, webhooks ou intégrations vers tes autres outils.",
+    "Centre d'aide et onboarding pour le premier projet."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on SendShort",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "SendShort",
+          "url": "https://sendshort.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

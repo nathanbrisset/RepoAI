@@ -60,6 +60,8 @@ const toolSchema = z.object({
     description: z.string().min(1),
     links: z.array(z.object({ label: z.string().min(1), url: z.string().url() })).optional(),
   })).optional(),
+  hqCountry: z.string().regex(/^[A-Z]{2}$/).optional(),
+  hqCountrySource: z.enum(["verified", "import", "inferred"]).optional(),
 })
 
 const ids = new Set()

@@ -291,6 +291,7 @@ const en = {
     noRelated: "No related tools found.",
     see: "See",
     dateNotRecorded: "Date not recorded",
+    hqCountryLabel: "Headquarters: {country}",
     priceNotRechecked: "Price not rechecked",
   },
   lists: {
@@ -786,6 +787,7 @@ const fr: typeof en = {
     noRelated: "Aucun outil proche.",
     see: "Voir",
     dateNotRecorded: "Date non renseignée",
+    hqCountryLabel: "Siège : {country}",
     priceNotRechecked: "Prix non revérifié",
   },
   lists: {

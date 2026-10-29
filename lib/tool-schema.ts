@@ -93,6 +93,12 @@ export const toolSchema = z.object({
   howToUse_fr: z.array(howToStepSchema).optional(),
   statusNote_fr: z.string().min(1).optional(),
   dateAddedNote_fr: z.string().min(1).optional(),
+  /** ISO 3166-1 alpha-2 headquarters country (uppercase). Not inferred from language tags. */
+  hqCountry: z
+    .string()
+    .regex(/^[A-Z]{2}$/)
+    .optional(),
+  hqCountrySource: z.enum(["verified", "import", "inferred"]).optional(),
 })
 
 export type CatalogTool = z.infer<typeof toolSchema>

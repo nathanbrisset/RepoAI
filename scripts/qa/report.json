@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-10-29T13:32:04.755Z",
-  "activeChecked": 606,
-  "passed": 581,
-  "failed": 25,
+  "generatedAt": "2026-10-29T15:36:36.944Z",
+  "activeChecked": 703,
+  "passed": 676,
+  "failed": 27,
   "fixes": [],
   "byReason": {
-    "le texte de la page officielle ne recoupe ni le nom ni la description": 5,
+    "le texte de la page officielle ne recoupe ni le nom ni la description": 6,
     "How To Use absent ou pas cohérent avec la description": 5,
-    "lien officiel HTTP": 4,
+    "lien officiel HTTP": 5,
     "capture suspecte (5630 octets, sous 15 Ko)": 1,
     "capture suspecte (4120 octets, sous 15 Ko)": 1,
     "capture suspecte (3700 octets, sous 15 Ko)": 1,
     "capture suspecte (4928 octets, sous 15 Ko)": 1,
     "lien How To Use hors domaine officiel ((url)": 1,
     "capture suspecte (5874 octets, sous 15 Ko)": 1,
-    "lien officiel injoignable (This operation was aborted)": 1,
     "capture suspecte (5294 octets, sous 15 Ko)": 1,
     "capture suspecte (4364 octets, sous 15 Ko)": 1,
     "capture suspecte (3626 octets, sous 15 Ko)": 1,
     "capture suspecte (5078 octets, sous 15 Ko)": 1,
     "capture suspecte (5156 octets, sous 15 Ko)": 1,
+    "lien officiel injoignable (fetch failed)": 1,
     "capture suspecte (5286 octets, sous 15 Ko)": 1,
     "capture suspecte (4808 octets, sous 15 Ko)": 1,
     "capture suspecte (4048 octets, sous 15 Ko)": 1,
@@ -117,19 +117,27 @@
       ]
     },
     {
-      "id": "fronty",
-      "name": "Fronty",
-      "url": "https://fronty.com/",
-      "failures": [
-        "lien officiel injoignable (This operation was aborted)"
-      ]
-    },
-    {
       "id": "gptzero",
       "name": "GPTZero",
       "url": "https://gptzero.me/",
       "failures": [
         "How To Use absent ou pas cohérent avec la description"
+      ]
+    },
+    {
+      "id": "hugging-face-transformers",
+      "name": "Hugging Face Transformers",
+      "url": "https://huggingface.co/docs/transformers/index",
+      "failures": [
+        "lien officiel HTTP 404"
+      ]
+    },
+    {
+      "id": "hunyuan-video",
+      "name": "Hunyuan Video (Tencent)",
+      "url": "https://hunyuan.tencent.com",
+      "failures": [
+        "le texte de la page officielle ne recoupe ni le nom ni la description"
       ]
     },
     {
@@ -180,6 +188,14 @@
       "failures": [
         "lien officiel HTTP 404",
         "capture suspecte (5156 octets, sous 15 Ko)"
+      ]
+    },
+    {
+      "id": "publer",
+      "name": "Publer",
+      "url": "https://publer.com",
+      "failures": [
+        "lien officiel injoignable (fetch failed)"
       ]
     },
     {

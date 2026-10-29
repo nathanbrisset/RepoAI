@@ -1,0 +1,68 @@
+{
+  "id": "vectorizer",
+  "name": "Vectorizer.AI",
+  "url": "https://vectorizer.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Vectorizer.AI is an AI product in the Design space with official hosting at vectorizer.ai.",
+  "description": "Vectorizer.AI is an AI product in the Design space with official hosting at vectorizer.ai.\n\nConvertit une image en vecteur propre (logos). Check the pricing page before production use.\n\nFeature: Vectorizer.AI ships the main workflow advertised on its official site.",
+  "summary_fr": "Convertit une image en vecteur propre (logos).",
+  "description_fr": "Convertit une image en vecteur propre (logos). Vérifie la page tarifs avant un déploiement en production.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "catalog"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Payant",
+    "sourceUrl": "https://vectorizer.ai"
+  },
+  "logo": "/logos/vectorizer.png",
+  "image": "/screenshots/vectorizer.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Vectorizer.AI ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "features_fr": [
+    "Vectorizer.AI propose le flux principal décrit sur le site officiel.",
+    "Comptes équipe, rôles ou espaces de travail si disponibles.",
+    "Exports, webhooks ou intégrations vers tes autres outils.",
+    "Centre d'aide et onboarding pour le premier projet."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Vectorizer.AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Vectorizer.AI",
+          "url": "https://vectorizer.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

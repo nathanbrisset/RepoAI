@@ -11,6 +11,8 @@ import { useLocale, useT } from "@/components/locale-provider"
 import { categoryName } from "@/lib/category-meta"
 import { categoryCopy, pricingLabel, statusLabel } from "@/lib/i18n/messages"
 import { formatCatalogDate, localizeTool } from "@/lib/i18n/localize-tool"
+import HqCountryFlag from "@/components/hq-country-flag"
+import { hqCountryDisplayName, isValidHqCountry } from "@/lib/hq-country"
 
 function capitalizeWords(str: string) {
   return str.replace(/\b\w/g, c => c.toUpperCase());
@@ -75,7 +77,19 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
         <div className="lg:col-span-2">
           <button onClick={() => window.history.back()} className="text-xs text-gray-500 hover:text-gray-700 mb-4 inline-block">← {t("tool.back")}</button>
           <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4 gap-4">
-            <h1 className="text-3xl font-bold">{tool.name}</h1>
+            <div className="flex items-center gap-3 flex-wrap">
+              <h1 className="text-3xl font-bold">{tool.name}</h1>
+              <HqCountryFlag
+                iso2={sourceTool.hqCountry}
+                ariaLabel={
+                  isValidHqCountry(sourceTool.hqCountry)
+                    ? t("tool.hqCountryLabel", {
+                        country: hqCountryDisplayName(sourceTool.hqCountry, locale),
+                      })
+                    : ""
+                }
+              />
+            </div>
             {tool.url ? (
             <div className="flex gap-2">
               <Link href={tool.url} target="_blank" rel="noopener noreferrer" className="px-4 py-1 rounded bg-primary text-white font-semibold hover:bg-primary/90 flex items-center gap-1 text-sm">
