@@ -4,8 +4,8 @@
   "url": "https://trypencil.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Pencil — marketing software with an official web app.",
-  "description": "Pencil — marketing software with an official web app.",
+  "summary": "Pencil: AI ad creative generation and testing for performance marketing.",
+  "description": "Pencil produces and iterates ad variants (copy, visuals, video) with predictive scoring for Meta, Google, and TikTok campaigns.",
   "categories": [
     "marketing"
   ],
@@ -27,7 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Pencil — marketing software with an official web app."
+    "Generates static and video ad concepts from briefs.",
+    "Predictive performance scores before spend.",
+    "Brand kit and asset guardrails for consistency.",
+    "Export to ad platforms and creative testing workflows."
   ],
   "howToUse": [
     {
@@ -52,5 +55,13 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "summary_fr": "Génération et tests de créations publicitaires IA pour le performance marketing.",
+  "description_fr": "Pencil produit et itère des variantes d'ads (copy, visuels, vidéo) avec scoring prédictif pour Meta, Google et TikTok.",
+  "features_fr": [
+    "Concepts d'ads statiques et vidéo à partir d'un brief.",
+    "Scores prédictifs de performance avant diffusion.",
+    "Brand kit et garde-fous créatifs.",
+    "Export vers plateformes ads et tests A/B."
   ]
 }

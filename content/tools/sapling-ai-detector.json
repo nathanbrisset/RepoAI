@@ -6,8 +6,8 @@
   "status": "active",
   "summary": "Sapling AI Detector: Free AI text detector.",
   "description": "Sapling AI Detector helps teams with free AI text detector.",
-  "summary_fr": "Détecteur de texte IA gratuit.",
-  "description_fr": "Détecteur de texte IA gratuit.",
+  "summary_fr": "API et interface de détection de texte généré par IA.",
+  "description_fr": "Sapling AI Detector estime la probabilité qu'un passage soit rédigé par un modèle, pour éducation, modération et conformité.",
   "categories": [
     "ai-detection"
   ],
@@ -31,8 +31,10 @@
     "Sapling AI Detector helps teams with free AI text detector."
   ],
   "features_fr": [
-    "Free AI text detector.",
-    "Sapling AI Detector helps teams with free AI text detector."
+    "Score de détection par phrase ou document.",
+    "API temps réel pour éditeurs et LMS.",
+    "Tableaux de bord pour volumes et seuils.",
+    "Intégrations navigateur et outils d'écriture."
   ],
   "howToUse": [
     {

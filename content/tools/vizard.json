@@ -4,8 +4,8 @@
   "url": "https://vizard.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Vizard — video software with an official web app.",
-  "description": "Vizard — video software with an official web app.",
+  "summary": "Vizard: AI clipping of long videos into social-ready shorts.",
+  "description": "Vizard detects highlights in webinars and podcasts, reframes for vertical, and adds captions for TikTok, Reels, and LinkedIn.",
   "categories": [
     "video"
   ],
@@ -27,7 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Vizard — video software with an official web app."
+    "Auto highlight detection from long-form video.",
+    "Reframe and crop for 9:16 social formats.",
+    "Animated captions and brand templates.",
+    "Team workspace and direct social publishing."
   ],
   "howToUse": [
     {
@@ -52,5 +55,13 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "summary_fr": "Découpe IA de longues vidéos en clips prêts pour le social.",
+  "description_fr": "Vizard repère les moments forts de webinaires et podcasts, recadre en vertical et ajoute sous-titres pour TikTok, Reels et LinkedIn.",
+  "features_fr": [
+    "Détection automatique des passages marquants.",
+    "Recadrage 9:16 pour réseaux sociaux.",
+    "Sous-titres animés et modèles de marque.",
+    "Espace équipe et publication directe."
   ]
 }

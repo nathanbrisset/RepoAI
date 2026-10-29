@@ -51,7 +51,14 @@ function repairSummary(tool, base) {
   }
 
   const cat = tool.categories?.[0]?.replace(/-/g, " ") || "AI"
-  return `${tool.name} — ${cat} software with an official web app.`
+  const host = (() => {
+    try {
+      return new URL(tool.url).hostname.replace(/^www\./, "")
+    } catch {
+      return "the vendor site"
+    }
+  })()
+  return `${tool.name} — ${cat} tools available at ${host}.`
 }
 
 function repairDescription(tool, base) {

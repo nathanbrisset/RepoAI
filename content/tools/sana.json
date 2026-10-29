@@ -6,8 +6,8 @@
   "status": "active",
   "summary": "Sana AI: Enterprise knowledge assistant.",
   "description": "Sana AI helps teams with enterprise knowledge assistant.",
-  "summary_fr": "Assistant de connaissance d'entreprise.",
-  "description_fr": "Assistant de connaissance d'entreprise.",
+  "summary_fr": "Plateforme de formation interne avec recherche IA sur la knowledge base.",
+  "description_fr": "Sana AI indexe docs, vidéos et wiki d'entreprise pour répondre aux questions des équipes et générer parcours de formation.",
   "categories": [
     "productivity"
   ],
@@ -32,8 +32,10 @@
     "Sana AI helps teams with enterprise knowledge assistant."
   ],
   "features_fr": [
-    "Enterprise knowledge assistant.",
-    "Sana AI helps teams with enterprise knowledge assistant."
+    "Recherche en langage naturel sur contenus internes.",
+    "Génération de cours et micro-learnings.",
+    "Connecteurs Drive, Notion, Confluence, etc.",
+    "Analytics d'usage et de compétences."
   ],
   "howToUse": [
     {
