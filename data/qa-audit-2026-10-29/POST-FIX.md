@@ -1,49 +1,44 @@
-# QA audit post-fix summary (branch)
+# QA audit post-fix summary (PR #28)
 
-Compared to prod audit on 2026-10-29 (`uploads/fiches-full-summary_0faa.json`).
+## Root cause of “fixed locally but preview unchanged”
 
-## Text & i18n
+1. **Wrong success metric** — grep only matched *old* filler strings; the first apply pass replaced them with *new* generic lines QA still flags.
+2. **French in EN** — lot-2 CSV use cases are French; they were pasted into EN `summary` / `features` (e.g. `11x: SDR IA autonome`).
+3. **`fr-tools.json` not populated** — 181 active tools had **no** French overlay → `/fr` About/meta used English via `localizeTool` fallback.
+4. **`features_fr` missing** — FR Features tab fell back to English `tool.features` for ~231 tools.
+5. **Logos** — download saved **HTML 404** bodies as `.png` (goose, codegen, whisper, chatcode).
+6. **Screenshots** — capture published **logo-on-grey fallbacks** as “success”.
 
-| Metric | Before (801 live) | After (active tools, local check) |
-| --- | ---: | ---: |
-| Template filler in tool JSON | 356 | **0** |
-| Lot 2 EN mixed with FR | ~100 | Rewritten from CSV use cases |
-| `fr-tools.json` entries | ~248 fully OK | **435** entries; **332** gained `features_fr` backfill |
+## Served-content verification (run on branch)
 
-Scripts: `apply-fiche-quality-audit.mjs`, `backfill-features-fr.mjs`, `merge-fr-tools.mjs` (now merges `fr-audit-pack.json` + `fr-7-qa-canonical.json`).
+```bash
+node scripts/verify-served-fiches.mjs
+```
+
+Latest local simulation (matches runtime merge: tool JSON + `fr-tools.json` + `localizeTool`):
+
+| Check | Approx. count (803 active) |
+| --- | ---: |
+| FR About still English | **0** |
+| FR Features still English (heuristic) | ~134 (often loanwords / colon labels) |
+| EN About mixed French | **25** |
+| Tools with any generic filler phrase | **48** |
+
+## Fixes added (retest push)
+
+| Script | Role |
+| --- | --- |
+| `apply-served-content-fix.mjs` | Lot-2 EN from `data/lot2-use-case-en.json`, clean descriptions, host-specific bullets, sync inline FR → `fr-tools.json` |
+| `backfill-fr-tools-missing.mjs` | French About/Features overlay for 181 missing tools |
+| `repair-fr-tools.mjs` | Strip filler/English from existing `fr-tools` rows |
+| `fix-logos-validated.mjs` | PNG/JPEG magic-byte check before write |
+| `capture.mjs` | **No logo fallback** written on failed capture |
+| `verify-served-fiches.mjs` | Served-copy sanity check (not raw JSON grep) |
 
 ## Logos
 
-- Wired `/logos/{id}` with correct `.png`/`.jpg` for lot 2.
-- Re-fetched product logos: chatcode, google-flow, google-opal, goose, codegen, comfyui, semantic-kernel, whisper, drift (9 fetches, 0 failures).
+Validated PNG for goose, codegen, whisper, chatcode (`file public/logos/*.png`).
 
-## Screenshots
+## Screenshots still honest skips
 
-- Playwright pass on **125** ids (missing + small placeholders): **112** real captures published in this batch; **13** kept fallback (login/captcha/404/empty).
-
-### Could not publish a real homepage capture (honest list)
-
-| id | reason |
-| --- | --- |
-| chatgpt-atlas | login wall |
-| civitai | captcha |
-| clio | captcha |
-| freshdesk-freddy | HTTP 404 |
-| lavender | empty/uniform page |
-| liner | HTTP 410 |
-| opera-aria | HTTP 404 |
-| ramp | captcha |
-| spotter | HTTP 404 |
-| wan | empty page |
-| zerogpt | captcha |
-| doubao | login (prior audit) |
-| jenni-ai | blank page (prior audit) |
-| kaiber | error page (prior audit) |
-| chatcode | weak/empty capture (~6 Ko) |
-| sora | discontinuation / black screen (product status) |
-
-~22 active tools still under 15 Ko (logo fallback or sparse pages) — run `npm run catalog:qa` for CI detail.
-
-## Canonical FR copy (examples)
-
-`content/i18n/batches/fr-7-qa-canonical.json`: claude, gemini, chatgpt features, pennylane, mammouth, goose, wan, sora FR fields, etc.
+No logo-on-grey published on failure. Remaining weak/missing: chatgpt-atlas, civitai, clio, doubao, freshdesk-freddy, jenni-ai, kaiber, lavender, liner, opera-aria, ramp, spotter, wan, zerogpt, chatcode, sora, manus (see retest CSV).

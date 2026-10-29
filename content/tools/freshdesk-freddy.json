@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Freshdesk Freddy — AI for customer support at freshworks.com.",
-  "description": "Freshdesk Freddy is an AI product for customer support. Visit freshworks.com for official pricing and feature details.",
+  "description": "Freshdesk Freddy is an AI product for customer support.",
   "categories": [
     "support"
   ],
@@ -23,14 +23,12 @@
     "sourceUrl": "https://www.freshworks.com/freshdesk/omni/freddy-ai/"
   },
   "logo": "/logos/freshdesk-freddy.png",
-  "image": "/screenshots/freshdesk-freddy.webp",
+  "image": "",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Freshdesk Freddy — helpdesk: capabilities described on freshworks.com.",
-    "Freshdesk Freddy — bots: capabilities described on freshworks.com.",
-    "Freshdesk Freddy — freshworks: capabilities described on freshworks.com.",
-    "Freshdesk Freddy — support: capabilities described on freshworks.com."
+    "Freshdesk Freddy.",
+    "AI for customer support at freshworks.com."
   ],
   "howToUse": [
     {
@@ -55,5 +53,9 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Bureau frais Freddy.",
+    "IA pour le support client sur Freshworks.com."
   ]
 }

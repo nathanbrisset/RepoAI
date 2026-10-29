@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Lavender — AI for sales and CRM at lavender.ai.",
-  "description": "Lavender is an AI product for sales and CRM. Visit lavender.ai for official pricing and feature details.",
+  "description": "Lavender is an AI product for sales and CRM.",
   "categories": [
     "sales"
   ],
@@ -23,14 +23,14 @@
     "sourceUrl": "https://www.lavender.ai/"
   },
   "logo": "/logos/lavender.png",
-  "image": "/screenshots/lavender.webp",
+  "image": "",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Lavender — email: capabilities described on lavender.ai.",
-    "Lavender — sales: capabilities described on lavender.ai.",
-    "Lavender — coaching: capabilities described on lavender.ai.",
-    "Lavender — outreach: capabilities described on lavender.ai."
+    "Lavender — AI for sales and CRM at lavender.ai.",
+    "Focused on sales workflows.",
+    "Lavender includes email capabilities.",
+    "Lavender includes sales capabilities."
   ],
   "howToUse": [
     {
@@ -55,5 +55,11 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Lavande — IA pour les ventes et le CRM sur lavande.ai.",
+    "Axé sur les workflows de vente.",
+    "Lavender inclut des fonctionnalités de messagerie.",
+    "Lavande inclut des capacités de vente."
   ]
 }

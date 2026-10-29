@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Doubao — AI for LLM and chat at doubao.com.",
-  "description": "Doubao is an AI product for LLM and chat. Visit doubao.com for official pricing and feature details.",
+  "description": "Doubao is an AI product for LLM and chat.",
   "categories": [
     "llm-chatbots"
   ],
@@ -23,7 +23,7 @@
     "sourceUrl": "https://www.doubao.com/"
   },
   "logo": "/logos/doubao.png",
-  "image": "/screenshots/doubao.webp",
+  "image": "",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
@@ -55,5 +55,11 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Chat multi-tours avec sélection de modèle si disponible.",
+    "Saisie de fichier, d’image ou vocale sur les forfaits pris en charge.",
+    "Partagez ou exportez des conversations pour vos coéquipiers.",
+    "Contrôles API ou d'entreprise sur les niveaux supérieurs."
   ]
 }

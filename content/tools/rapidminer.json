@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "RapidMiner is a powerful data science platform offering advanced analytics, machine learning, and predictive modeling tools. Its intuitive visual workflow designer allows users to build, train, and deploy machine learning models with little to no coding. RapidMiner supports a wide variety of data sources and provides hundreds of pre-built machine learning algorithms. Its automation and collaboration features help teams accelerate the end-to-end data science lifecycle, from data preparation through deployment. RapidMiner is suitable for both business analysts and data scientists, enabling rapid prototyping and productionization of models.",
-  "description": "RapidMiner is a powerful data science platform offering advanced analytics, machine learning, and predictive modeling tools. Its intuitive visual workflow designer allows users to build, train, and deploy machine learning models with little to no coding. RapidMiner supports a wide variety of data sources and provides hundreds of pre-built machine learning algorithms. Its automation and collaboration features help teams accelerate the end-to-end data science lifecycle, from data preparation through deployment. RapidMiner is suitable for both business analysts and data scientists, enabling rapid prototyping and productionization of models.\n\nVisual Workflow Designer: Drag-and-drop interface for building end-to-end data processes. Automated Machine Learning: AutoML to automatically select and tune models. Extensive Model Library: Hundreds of built-in algorithms for classification, regression, and clustering. Integrated Data Prep: Tools for cleaning, transforming, and enriching data.",
+  "description": "RapidMiner is a powerful data science platform offering advanced analytics, machine learning, and predictive modeling tools. Its intuitive visual workflow designer allows users to build, train, and deploy machine learning models with little to no coding. RapidMiner supports a wide variety of data sources and provides hundreds of pre-built machine learning algorithms. Its automation and collaboration features help teams accelerate the end-to-end data science lifecycle, from data preparation through deployment. RapidMiner is suitable for both business analysts and data scientists, enabling rapid prototyping and productionization of models. Visual Workflow Designer: Drag-and-drop interface for building end-to-end data processes. Automated Machine Learning: AutoML to automatically select and tune models. Extensive Model Library: Hundreds of built-in algorithms for classification, regression, and clustering. Integrated Data Prep: Tools for cleaning, transforming, and enriching data.",
   "categories": [
     "data"
   ],
@@ -56,5 +56,11 @@
       "description": "Use built-in automation and collaboration tools for deployment and sharing."
     }
   ],
-  "statusNote": "rapidminer.com redirects to Siemens RapidMiner page"
+  "statusNote": "rapidminer.com redirects to Siemens RapidMiner page",
+  "features_fr": [
+    "Visual Workflow Designer : interface glisser-déposer pour créer des processus de données de bout en bout.",
+    "Apprentissage automatique automatisé : AutoML pour sélectionner et régler automatiquement les modèles.",
+    "Bibliothèque de modèles étendue : des centaines d'algorithmes intégrés pour la classification, la régression et le clustering.",
+    "Préparation de données intégrée : outils pour nettoyer, transformer et enrichir les données."
+  ]
 }

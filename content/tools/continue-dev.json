@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "An open-source autopilot for coding directly within VS Code.",
-  "description": "An open-source autopilot for coding directly within VS Code.\n\nVS Code integration: Seamlessly extends your IDE. Open-source tool: Modify and extend functionality. Contextual coding: Generates code based on nearby files. Prompting panel: Ask and receive inline answers.",
+  "description": "An open-source autopilot for coding directly within VS Code. VS Code integration: Seamlessly extends your IDE. Open-source tool: Modify and extend functionality. Contextual coding: Generates code based on nearby files. Prompting panel: Ask and receive inline answers.",
   "categories": [
     "coding"
   ],
@@ -52,5 +52,11 @@
       "title": "Modify or Extend",
       "description": "As an open-source project, you can extend functionality or contribute to the tool."
     }
+  ],
+  "features_fr": [
+    "Intégration VS Code : étend de manière transparente votre IDE.",
+    "Outil open source : modifiez et étendez les fonctionnalités.",
+    "Codage contextuel : génère du code basé sur les fichiers proches.",
+    "Panneau d'invite : demandez et recevez des réponses en ligne."
   ]
 }

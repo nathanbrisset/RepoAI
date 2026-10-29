@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI tools for documentation, collaboration, and design—built for architects and engineers.",
-  "description": "AI tools for documentation, collaboration, and design—built for architects and engineers.\n\nNatural language to SQL: Converts plain English to SQL queries. Python code generation: Translates descriptions into Python code. Data analysis assistance: Helps with data-related coding tasks. Integration with notebooks: Works with Jupyter and other platforms.",
+  "description": "AI tools for documentation, collaboration, and design—built for architects and engineers. Natural language to SQL: Converts plain English to SQL queries. Python code generation: Translates descriptions into Python code. Data analysis assistance: Helps with data-related coding tasks. Integration with notebooks: Works with Jupyter and other platforms.",
   "categories": [
     "productivity"
   ],
@@ -53,5 +53,11 @@
       "title": "Integrate with Data Tools",
       "description": "Use Cogram’s integrations for data workflows in Jupyter and beyond."
     }
+  ],
+  "features_fr": [
+    "Langage naturel vers SQL : convertit l'anglais simple en requêtes SQL.",
+    "Génération de code Python : traduit les descriptions en code Python.",
+    "Aide à l'analyse des données : aide aux tâches de codage liées aux données.",
+    "Intégration avec les notebooks : fonctionne avec Jupyter et d'autres plates-formes."
   ]
 }

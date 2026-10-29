@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "IBM Watson Studio is a robust cloud-based environment that enables data scientists, analysts, and developers to collaboratively work on data science and AI projects. The platform provides tools for data preparation, visualization, automated machine learning (AutoAI), and model deployment. With strong integration to IBM Cloud services and support for open-source technologies, Watson Studio helps teams accelerate the entire data science lifecycle, from exploration to production, while ensuring enterprise-grade security and scalability.",
-  "description": "IBM Watson Studio is a robust cloud-based environment that enables data scientists, analysts, and developers to collaboratively work on data science and AI projects. The platform provides tools for data preparation, visualization, automated machine learning (AutoAI), and model deployment. With strong integration to IBM Cloud services and support for open-source technologies, Watson Studio helps teams accelerate the entire data science lifecycle, from exploration to production, while ensuring enterprise-grade security and scalability.\n\nIBM Watson Studio as a Service is an AI development platform with model building, deployment and governance capabilities that accelerate AI delivery.\n\nCollaborative Workspace: Enables team-based data science projects. AutoAI: Automated model building, selection, and optimization. Interactive Visualization: Dashboards and visual tools for data exploration. Open Source Integration: Supports Jupyter, RStudio, and other tools.",
+  "description": "IBM Watson Studio is a robust cloud-based environment that enables data scientists, analysts, and developers to collaboratively work on data science and AI projects. The platform provides tools for data preparation, visualization, automated machine learning (AutoAI), and model deployment. With strong integration to IBM Cloud services and support for open-source technologies, Watson Studio helps teams accelerate the entire data science lifecycle, from exploration to production, while ensuring enterprise-grade security and scalability. IBM Watson Studio as a Service is an AI development platform with model building, deployment and governance capabilities that accelerate AI delivery. Collaborative Workspace: Enables team-based data science projects. AutoAI: Automated model building, selection, and optimization. Interactive Visualization: Dashboards and visual tools for data exploration. Open Source Integration: Supports Jupyter, RStudio, and other tools.",
   "categories": [
     "data"
   ],
@@ -56,5 +56,6 @@
       "description": "Use dashboards for analysis and deploy models to production as needed."
     }
   ],
-  "statusNote": "Successor to IBM Watson Studio for building and deploying AI on IBM Cloud."
+  "statusNote": "Successor to IBM Watson Studio for building and deploying AI on IBM Cloud.",
+  "features_fr": []
 }

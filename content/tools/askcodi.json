@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "An AI agency that runs itself. Give AskCodi a goal: the scope comes back in writing, the work arrives for your sign off, and the account stays open after launch.",
-  "description": "An AI agency that runs itself. Give AskCodi a goal: the scope comes back in writing, the work arrives for your sign off, and the account stays open after launch.\n\nCode suggestions: Provides code snippets based on input. Question answering: Answers coding-related queries. Supports multiple languages: Handles various programming languages. IDE integration: Compatible with popular code editors.",
+  "description": "An AI agency that runs itself. Give AskCodi a goal: the scope comes back in writing, the work arrives for your sign off, and the account stays open after launch. Code suggestions: Provides code snippets based on input. Question answering: Answers coding-related queries. Supports multiple languages: Handles various programming languages. IDE integration: Compatible with popular code editors.",
   "categories": [
     "ai-agents"
   ],
@@ -52,5 +52,11 @@
       "title": "Edit and Use",
       "description": "Modify AI-suggested code as needed for your project."
     }
+  ],
+  "features_fr": [
+    "Suggestions de code : fournit des extraits de code basés sur la saisie.",
+    "Réponse aux questions : répond aux requêtes liées au codage.",
+    "Prend en charge plusieurs langages : gère différents langages de programmation.",
+    "Intégration IDE : Compatible avec les éditeurs de code populaires."
   ]
 }

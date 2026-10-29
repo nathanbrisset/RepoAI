@@ -247,7 +247,7 @@ function applyLot2(tool, lot2Row, stats) {
     `${name} helps teams with ${useCaseEn.charAt(0).toLowerCase()}${useCaseEn.slice(1)}. See ${hostOf(url) || "the official site"} for pricing and limits.`,
   )
   tool.summary_fr = useCaseFr.endsWith(".") ? useCaseFr : `${useCaseFr}.`
-  tool.description_fr = `${tool.summary_fr} Tarifs et limites sur le site officiel.`
+  tool.description_fr = tool.summary_fr || tool.description_fr
   tool.features = featuresFromUseCase(name, useCaseEn, useCaseFr, tool.tags, url)
   tool.features_fr = featuresFrFromUseCase(name, useCaseFr, tool.tags, url)
   stats.lot2++

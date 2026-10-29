@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Deepnote is a collaborative notebook platform built for data science and analytics teams. It combines the flexibility of Jupyter notebooks with real-time collaboration, cloud execution, and integrations with popular data sources. Deepnote enables teams to explore data, build models, and create interactive reports together, making it ideal for both rapid prototyping and production analytics workflows.",
-  "description": "Deepnote is a collaborative notebook platform built for data science and analytics teams. It combines the flexibility of Jupyter notebooks with real-time collaboration, cloud execution, and integrations with popular data sources. Deepnote enables teams to explore data, build models, and create interactive reports together, making it ideal for both rapid prototyping and production analytics workflows.\n\nExplore data with Python & SQL, work together with your team, and share insights that lead to action — all in one place with Deepnote.\n\nReal-Time Collaboration: Multiple users can edit and run code simultaneously. Cloud-Based Execution: No local setup or infrastructure required. Integrations: Connect to databases, cloud storage, and other tools. Version Control: Track changes and experiment with branching.",
+  "description": "Deepnote is a collaborative notebook platform built for data science and analytics teams. It combines the flexibility of Jupyter notebooks with real-time collaboration, cloud execution, and integrations with popular data sources. Deepnote enables teams to explore data, build models, and create interactive reports together, making it ideal for both rapid prototyping and production analytics workflows. Explore data with Python & SQL, work together with your team, and share insights that lead to action — all in one place with Deepnote. Real-Time Collaboration: Multiple users can edit and run code simultaneously. Cloud-Based Execution: No local setup or infrastructure required. Integrations: Connect to databases, cloud storage, and other tools. Version Control: Track changes and experiment with branching.",
   "categories": [
     "data"
   ],
@@ -54,5 +54,11 @@
       "title": "Analyze & Share Results",
       "description": "Build models, visualize data, and share interactive reports."
     }
+  ],
+  "features_fr": [
+    "Collaboration en temps réel : plusieurs utilisateurs peuvent modifier et exécuter du code simultanément.",
+    "Exécution basée sur le cloud : aucune configuration ou infrastructure locale requise.",
+    "Intégrations : connectez-vous aux bases de données, au stockage cloud et à d'autres outils.",
+    "Contrôle de version : suivez les modifications et expérimentez les branchements."
   ]
 }

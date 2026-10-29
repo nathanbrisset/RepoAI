@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Interactive AI coding chatbot for developer support.",
-  "description": "Interactive AI coding chatbot for developer support.\n\nCollaborative Coding Environment: Allows multiple users to code together in real-time. Audio and Video Communication: Facilitates discussions among collaborators. Support for Multiple Languages: Enables coding in over 10 different programming languages. Shared Code Execution: Users can execute code within the shared environment.",
+  "description": "Interactive AI coding chatbot for developer support. Collaborative Coding Environment: Allows multiple users to code together in real-time. Audio and Video Communication: Facilitates discussions among collaborators. Support for Multiple Languages: Enables coding in over 10 different programming languages. Shared Code Execution: Users can execute code within the shared environment.",
   "categories": [
     "coding"
   ],
@@ -20,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/chatcode.png",
-  "image": "/screenshots/chatcode.webp",
+  "image": "",
   "dateAdded": "2022-11-01",
   "lastVerified": null,
   "features": [
@@ -48,5 +48,11 @@
       "title": "Collaborate & Code",
       "description": "Write code, chat, and even make calls within the platform."
     }
+  ],
+  "features_fr": [
+    "Environnement de codage collaboratif : permet à plusieurs utilisateurs de coder ensemble en temps réel.",
+    "Communication audio et vidéo : facilite les discussions entre les collaborateurs.",
+    "Prise en charge de plusieurs langues : permet de coder dans plus de 10 langages de programmation différents.",
+    "Exécution de code partagé : les utilisateurs peuvent exécuter du code dans l'environnement partagé."
   ]
 }

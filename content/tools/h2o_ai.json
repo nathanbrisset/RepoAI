@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "H2O.ai is an open-source AI platform that delivers advanced machine learning and deep learning capabilities for data scientists and business analysts. It features a scalable architecture, AutoML, and support for distributed computing. H2O.ai offers integration with popular programming languages and supports model interpretability, making it a trusted solution for organizations seeking to accelerate AI adoption.",
-  "description": "H2O.ai is an open-source AI platform that delivers advanced machine learning and deep learning capabilities for data scientists and business analysts. It features a scalable architecture, AutoML, and support for distributed computing. H2O.ai offers integration with popular programming languages and supports model interpretability, making it a trusted solution for organizations seeking to accelerate AI adoption.\n\nThe trusted Sovereign AI Platform. Run predictive, generative, and agentic AI on your own infrastructure, from the cloud to fully air-gapped. You own it.\n\nOpen-Source Machine Learning: Free, extensible, and community-driven platform. AutoML: Automated pipelines for model selection and tuning. Distributed Processing: Scalable solutions for big data environments. Multi-Language Support: Integrates with Python, R, and Java.",
+  "description": "H2O.ai is an open-source AI platform that delivers advanced machine learning and deep learning capabilities for data scientists and business analysts. It features a scalable architecture, AutoML, and support for distributed computing. H2O.ai offers integration with popular programming languages and supports model interpretability, making it a trusted solution for organizations seeking to accelerate AI adoption. The trusted Sovereign AI Platform. Run predictive, generative, and agentic AI on your own infrastructure, from the cloud to fully air-gapped. You own it. Open-Source Machine Learning: Free, extensible, and community-driven platform. AutoML: Automated pipelines for model selection and tuning. Distributed Processing: Scalable solutions for big data environments. Multi-Language Support: Integrates with Python, R, and Java.",
   "categories": [
     "data"
   ],
@@ -51,5 +51,11 @@
       "title": "Interpret & Deploy Models",
       "description": "Use interpretability tools to explain model results and deploy models to production."
     }
+  ],
+  "features_fr": [
+    "Machine Learning Open Source : plateforme gratuite, extensible et communautaire.",
+    "AutoML : pipelines automatisés pour la sélection et le réglage des modèles.",
+    "Traitement distribué : solutions évolutives pour les environnements Big Data.",
+    "Prise en charge multilingue : s'intègre à Python, R et Java."
   ]
 }

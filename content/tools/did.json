@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "D-ID brings photos to life with AI-powered talking avatars, animating faces from text or audio. Also enables video translation and dubbing for global audiences.",
-  "description": "D-ID brings photos to life with AI-powered talking avatars, animating faces from text or audio. Also enables video translation and dubbing for global audiences.\n\nPhoto animation: Animate any portrait into a speaking avatar, adding a human touch to otherwise static images for a memorable experience. Text-to-video: Generate talking head videos from scripts or audio, making it easy to produce narrated content without cameras or actors. AI video dubbing: Effortlessly translate and dub existing videos into different languages, preserving emotion and lip-sync for authenticity. API and integrations: Automate avatar creation and video translation for scalable workflows in marketing, education, or customer service.",
+  "description": "D-ID brings photos to life with AI-powered talking avatars, animating faces from text or audio. Also enables video translation and dubbing for global audiences. Photo animation: Animate any portrait into a speaking avatar, adding a human touch to otherwise static images for a memorable experience. Text-to-video: Generate talking head videos from scripts or audio, making it easy to produce narrated content without cameras or actors. AI video dubbing: Effortlessly translate and dub existing videos into different languages, preserving emotion and lip-sync for authenticity. API and integrations: Automate avatar creation and video translation for scalable workflows in marketing, education, or customer service.",
   "categories": [
     "video"
   ],
@@ -109,5 +109,11 @@
         }
       ]
     }
+  ],
+  "features_fr": [
+    "Animation photo : animez n'importe quel portrait en avatar parlant, ajoutant une touche humaine à des images autrement statiques pour une expérience mémorable.",
+    "Texte vers vidéo : générez des vidéos de têtes parlantes à partir de scripts ou d'audio, ce qui facilite la production de contenu narré sans caméras ni acteurs.",
+    "Doublage vidéo IA : traduisez et doublez sans effort des vidéos existantes dans différentes langues, en préservant l'émotion et la synchronisation labiale pour plus d'authenticité.",
+    "API et intégrations : automatisez la création d'avatars et la traduction vidéo pour des flux de travail évolutifs dans les domaines du marketing, de l'éducation ou du service client."
   ]
 }

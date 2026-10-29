@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Brave Leo — AI for LLM and chat at brave.com.",
-  "description": "Brave Leo is an AI product for LLM and chat. Visit brave.com for official pricing and feature details.",
+  "description": "Brave Leo is an AI product for LLM and chat.",
   "categories": [
     "llm-chatbots"
   ],
@@ -55,5 +55,11 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Chat multi-tours avec sélection de modèle si disponible.",
+    "Saisie de fichier, d’image ou vocale sur les forfaits pris en charge.",
+    "Partagez ou exportez des conversations pour vos coéquipiers.",
+    "Contrôles API ou d'entreprise sur les niveaux supérieurs."
   ]
 }

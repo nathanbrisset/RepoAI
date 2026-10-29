@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI SQL assistant that works on your real schema. Generate, explain, fix and optimize SQL, and let Claude, Cursor or ChatGPT query your database over MCP.",
-  "description": "AI SQL assistant that works on your real schema. Generate, explain, fix and optimize SQL, and let Claude, Cursor or ChatGPT query your database over MCP.\n\nNatural language to SQL: Translate plain text into queries. Query optimization: Suggests better query structures. Supports multiple DBs: MySQL, PostgreSQL, etc. Real-time feedback: Validate queries instantly.",
+  "description": "AI SQL assistant that works on your real schema. Generate, explain, fix and optimize SQL, and let Claude, Cursor or ChatGPT query your database over MCP. Natural language to SQL: Translate plain text into queries. Query optimization: Suggests better query structures. Supports multiple DBs: MySQL, PostgreSQL, etc. Real-time feedback: Validate queries instantly.",
   "categories": [
     "coding"
   ],
@@ -52,5 +52,11 @@
       "title": "Validate and Use",
       "description": "Test or copy the query for your database."
     }
+  ],
+  "features_fr": [
+    "Langage naturel vers SQL : traduisez du texte brut en requêtes.",
+    "Optimisation des requêtes : suggère de meilleures structures de requêtes.",
+    "Prend en charge plusieurs bases de données : MySQL, PostgreSQL, etc.",
+    "Commentaires en temps réel : validez les requêtes instantanément."
   ]
 }

@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "inactive",
   "summary": "Visual analysis and diagnostic tools for machine learning models.",
-  "description": "Visual analysis and diagnostic tools for machine learning models.\n\nVisual Analysis of Machine Learning Models: Provides visualizations to understand model performance. Integration with Scikit-Learn: Works alongside popular Python machine learning libraries. Diagnostic Tools: Offers tools to diagnose issues like overfitting. Feature Visualization: Helps in understanding the importance and impact of features.",
+  "description": "Visual analysis and diagnostic tools for machine learning models. Visual Analysis of Machine Learning Models: Provides visualizations to understand model performance. Integration with Scikit-Learn: Works alongside popular Python machine learning libraries. Diagnostic Tools: Offers tools to diagnose issues like overfitting. Feature Visualization: Helps in understanding the importance and impact of features.",
   "categories": [
     "data"
   ],
@@ -49,5 +49,6 @@
       "description": "Review plots for diagnostics, feature importance, and model evaluation."
     }
   ],
-  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
+  "features_fr": []
 }

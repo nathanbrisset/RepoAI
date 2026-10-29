@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Business analytics service providing interactive visualizations.",
-  "description": "Business analytics service providing interactive visualizations.\n\nData Connectivity: Connect to a wide range of data sources, including Excel, SQL Server, and cloud-based services. Custom Visualizations: Create and import custom visuals to tailor reports to specific needs. Natural Language Queries: Ask questions in natural language to get instant answers from your data. Real-Time Dashboards: Monitor data in real-time with live dashboards and alerts.",
+  "description": "Business analytics service providing interactive visualizations. Data Connectivity: Connect to a wide range of data sources, including Excel, SQL Server, and cloud-based services. Custom Visualizations: Create and import custom visuals to tailor reports to specific needs. Natural Language Queries: Ask questions in natural language to get instant answers from your data. Real-Time Dashboards: Monitor data in real-time with live dashboards and alerts.",
   "categories": [
     "data"
   ],
@@ -54,5 +54,11 @@
       "title": "Ask Questions & Share",
       "description": "Use natural language queries to explore data and publish dashboards for team access."
     }
+  ],
+  "features_fr": [
+    "Connectivité des données : connectez-vous à un large éventail de sources de données, notamment Excel, SQL Server et des services basés sur le cloud.",
+    "Visualisations personnalisées : créez et importez des visuels personnalisés pour adapter les rapports à des besoins spécifiques.",
+    "Requêtes en langage naturel : posez des questions en langage naturel pour obtenir des réponses instantanées à partir de vos données.",
+    "Tableaux de bord en temps réel : surveillez les données en temps réel avec des tableaux de bord et des alertes en direct."
   ]
 }

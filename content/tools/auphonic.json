@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "An audio post-production web service that uses AI to balance levels, equalize speech, and reduce noise for podcasts and videos.",
-  "description": "An audio post-production web service that uses AI to balance levels, equalize speech, and reduce noise for podcasts and videos.\n\nThe automatic audio post production webservice.\n\nAudio Leveling: Automatically balances audio levels. Noise & Hum Reduction: Cleans up background noise and hums. Loudness Normalization: Ensures consistent loudness across files. Multi-Track Processing: Processes multiple audio tracks simultaneously.",
+  "description": "An audio post-production web service that uses AI to balance levels, equalize speech, and reduce noise for podcasts and videos. The automatic audio post production webservice. Audio Leveling: Automatically balances audio levels. Noise & Hum Reduction: Cleans up background noise and hums. Loudness Normalization: Ensures consistent loudness across files. Multi-Track Processing: Processes multiple audio tracks simultaneously.",
   "categories": [
     "music"
   ],
@@ -54,5 +54,11 @@
       "title": "Download Processed Audio",
       "description": "Export the finished, balanced audio for publishing."
     }
+  ],
+  "features_fr": [
+    "Nivellement audio : équilibre automatiquement les niveaux audio.",
+    "Réduction du bruit et du bourdonnement : nettoie le bruit de fond et les bourdonnements.",
+    "Normalisation du volume sonore : garantit un volume sonore constant dans tous les fichiers.",
+    "Traitement multipiste : traite plusieurs pistes audio simultanément."
   ]
 }

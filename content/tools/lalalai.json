@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "LALAL.AI uses AI to extract vocals and music from video files, making it easy to remix or edit soundtracks for new projects.",
-  "description": "LALAL.AI uses AI to extract vocals and music from video files, making it easy to remix or edit soundtracks for new projects.\n\nAudio stem extraction: Precisely separate vocals, instrumentation, drums, and other elements from video or audio files. Batch processing: Upload and process multiple video files at once for efficient workflows. High-accuracy AI: Maintains excellent sound quality and clarity during the extraction process. Multi-format support: Works with a wide range of video and audio file types for maximum flexibility.",
+  "description": "LALAL.AI uses AI to extract vocals and music from video files, making it easy to remix or edit soundtracks for new projects. Audio stem extraction: Precisely separate vocals, instrumentation, drums, and other elements from video or audio files. Batch processing: Upload and process multiple video files at once for efficient workflows. High-accuracy AI: Maintains excellent sound quality and clarity during the extraction process. Multi-format support: Works with a wide range of video and audio file types for maximum flexibility.",
   "categories": [
     "music"
   ],
@@ -60,5 +60,11 @@
       "title": "Batch Mode (Optional)",
       "description": "For large jobs, use batch processing to split stems from multiple files in one session (requires paid plan)."
     }
+  ],
+  "features_fr": [
+    "Extraction de tiges audio : séparez avec précision les voix, les instruments, la batterie et les autres éléments des fichiers vidéo ou audio.",
+    "Traitement par lots : téléchargez et traitez plusieurs fichiers vidéo à la fois pour des flux de travail efficaces.",
+    "IA de haute précision : maintient une excellente qualité sonore et une excellente clarté pendant le processus d'extraction.",
+    "Prise en charge multiformat : fonctionne avec une large gamme de types de fichiers vidéo et audio pour une flexibilité maximale."
   ]
 }

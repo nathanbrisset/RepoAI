@@ -13,9 +13,9 @@ const toolsDir = path.join(root, "content/tools")
 
 const TARGETS = {
   goose: [
-    "https://raw.githubusercontent.com/block/goose/main/docs/assets/logo_light.png",
-    "https://block.github.io/goose/img/goose-logo-light.png",
-    "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "https://raw.githubusercontent.com/block/goose/main/documentation/static/img/logo_light.png",
+    "https://raw.githubusercontent.com/block/goose/main/documentation/static/img/logo_codename_goose.png",
+    "https://raw.githubusercontent.com/block/goose/main/documentation/docs/assets/logo.png",
   ],
   codegen: [
     "https://www.google.com/s2/favicons?domain=codegen.com&sz=128",
@@ -26,8 +26,8 @@ const TARGETS = {
     "https://openai.com/favicon.ico",
   ],
   chatcode: [
-    "https://www.google.com/s2/favicons?domain=chatcode.co&sz=128",
-    "https://logo.clearbit.com/chatcode.co",
+    "https://chatcodeai.vercel.app/favicon.ico",
+    "https://www.google.com/s2/favicons?domain=chatcodeai.vercel.app&sz=128",
   ],
 }
 

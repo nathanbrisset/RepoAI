@@ -49,5 +49,11 @@
       "title": "Generate Code",
       "description": "Use the provided scripts or API to generate code from prompts."
     }
+  ],
+  "features_fr": [
+    "Génération de code basée sur l'IA : génère des extraits de code basés sur des invites en langage naturel.",
+    "Prise en charge de plusieurs langages : gère la génération de code dans différents langages de programmation.",
+    "Modèle basé sur un transformateur : utilise des architectures avancées d'apprentissage automatique pour la synthèse de code.",
+    "Disponibilité Open Source : accessible pour la personnalisation et l'intégration dans les flux de travail."
   ]
 }

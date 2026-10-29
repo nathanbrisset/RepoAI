@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Provides advanced speech recognition technology, supporting various languages and dialects for accurate transcriptions.",
-  "description": "Provides advanced speech recognition technology, supporting various languages and dialects for accurate transcriptions.\n\nSpeechmatics builds speech-to-text APIs for real conversations, not clean demos. Build Voice AI that understands accents, multiple speakers, and multilingual speech.\n\nAI audio processing: Speechmatics supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "description": "Provides advanced speech recognition technology, supporting various languages and dialects for accurate transcriptions. Speechmatics builds speech-to-text APIs for real conversations, not clean demos. Build Voice AI that understands accents, multiple speakers, and multilingual speech. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
   "categories": [
     "voice"
   ],
@@ -24,11 +24,8 @@
   "dateAdded": "2025-06-04",
   "lastVerified": null,
   "features": [
-    "AI audio processing: Speechmatics supports automated audio analysis and enhancements.",
-    "Transcription support: Provides tools for converting speech to text.",
-    "Noise reduction: Reduces unwanted sounds from audio input.",
-    "Voice synthesis: Can generate or clone voices using AI models.",
-    "User-friendly interface: Simple design for creators and professionals."
+    "Provides advanced speech recognition technology.",
+    "Supporting various languages and dialects for accurate transcriptions."
   ],
   "howToUse": [
     {
@@ -53,5 +50,6 @@
       "title": "Process & Download Results",
       "description": "Receive transcriptions or processed audio. Download results in your preferred format."
     }
-  ]
+  ],
+  "features_fr": []
 }

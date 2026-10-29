@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Neural.love offers AI-powered upscaling, colorization, and restoration for old or damaged video footage, making your archives shine.",
-  "description": "Neural.love offers AI-powered upscaling, colorization, and restoration for old or damaged video footage, making your archives shine.\n\nThe video enhancer page is titled AI Video Enhancer. It lists 4K upscaling, an FPS boost, colorization, and facial restoration. The old /video-enhancer path is not a route of the site and returns 404 after the app loads.",
+  "description": "Neural.love offers AI-powered upscaling, colorization, and restoration for old or damaged video footage, making your archives shine. The video enhancer page is titled AI Video Enhancer. It lists 4K upscaling, an FPS boost, colorization, and facial restoration. The old /video-enhancer path is not a route of the site and returns 404 after the app loads.",
   "categories": [
     "image"
   ],
@@ -61,5 +61,6 @@
       "description": "Download the result as MP4 (H264) or MOV (ProRes 422)."
     }
   ],
-  "statusNote": "https://neural.love/video-enhancer is not a current route (404 after the app loads). The video enhancer is https://neural.love/video."
+  "statusNote": "https://neural.love/video-enhancer is not a current route (404 after the app loads). The video enhancer is https://neural.love/video.",
+  "features_fr": []
 }

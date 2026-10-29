@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Developer security platform covering code, dependencies, containers, and IaC with AI-assisted fixes.",
-  "description": "Snyk focuses on developer security platform covering code, dependencies, containers, and IaC with AI-assisted fixes. Visit snyk.io for plans, limits and regional availability.",
+  "description": "Snyk focuses on developer security platform covering code, dependencies, containers, and IaC with AI-assisted fixes.",
   "categories": [
     "security"
   ],
@@ -27,10 +27,9 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Developer security platform covering code, dependencies, containers, and IaC with AI-assisted fixes.",
-    "Snyk — sast: capabilities described on snyk.io.",
-    "Snyk — sca: capabilities described on snyk.io.",
-    "Snyk — container: capabilities described on snyk.io."
+    "Developer security platform covering code.",
+    "Dependencies.",
+    "And IaC with AI-assisted fixes."
   ],
   "howToUse": [
     {
@@ -55,5 +54,6 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
-  ]
+  ],
+  "features_fr": []
 }

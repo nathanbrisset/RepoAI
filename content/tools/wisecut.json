@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Turn long videos and livestreams into clips for Reels, Shorts and TikTok. Edit with AI and automate publishing with Wisecut.",
-  "description": "Turn long videos and livestreams into clips for Reels, Shorts and TikTok. Edit with AI and automate publishing with Wisecut.\n\nAutomatic Video Editing: Automatically edit videos by removing silences and adding music. Auto Captioning: Generate captions for videos automatically. Voice Recognition: Edit videos based on voice commands. Background Music: Add background music that adapts to the video's tone.",
+  "description": "Turn long videos and livestreams into clips for Reels, Shorts and TikTok. Edit with AI and automate publishing with Wisecut. Automatic Video Editing: Automatically edit videos by removing silences and adding music. Auto Captioning: Generate captions for videos automatically. Voice Recognition: Edit videos based on voice commands. Background Music: Add background music that adapts to the video's tone.",
   "categories": [
     "video"
   ],
@@ -56,5 +56,13 @@
       "description": "Download your video or share it on YouTube/social media."
     }
   ],
-  "statusNote": "wisecut.video redirects to wisecut.ai"
+  "statusNote": "wisecut.video redirects to wisecut.ai",
+  "features_fr": [
+    "Montage automatique : coupe les silences et ajoute une musique de fond.",
+    "Sous-titrage automatique pour Reels, Shorts et TikTok.",
+    "Commandes vocales pour éditer la timeline.",
+    "Musique adaptive au ton de la vidéo."
+  ],
+  "summary_fr": "Transformez les longues vidéos et les diffusions en direct en clips pour Reels, Shorts et TikTok. Montez avec l'IA et automatisez la publication avec Wisecut.",
+  "description_fr": "Transformez les longues vidéos et les diffusions en direct en clips pour Reels, Shorts et TikTok. Montez avec l'IA et automatisez la publication avec Wisecut."
 }

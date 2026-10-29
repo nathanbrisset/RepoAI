@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Make exploratory data analysis (EDA) easier with AI powered visual analytics. Discover, Analyze and Share data insights with ease.",
-  "description": "Make exploratory data analysis (EDA) easier with AI powered visual analytics. Discover, Analyze and Share data insights with ease.\n\nAutoVis: Automatically generate visualizations based on selected data. Data Wrangler: Automate data summarization and transformation. Data Painter: Interactively explore data through visual means. Graphic Walker: Embed visual analytics into web and mobile applications.",
+  "description": "Make exploratory data analysis (EDA) easier with AI powered visual analytics. Discover, Analyze and Share data insights with ease. AutoVis: Automatically generate visualizations based on selected data. Data Wrangler: Automate data summarization and transformation. Data Painter: Interactively explore data through visual means. Graphic Walker: Embed visual analytics into web and mobile applications.",
   "categories": [
     "data"
   ],
@@ -54,5 +54,11 @@
       "title": "Export & Share",
       "description": "Download visualizations or embed them into applications."
     }
+  ],
+  "features_fr": [
+    "AutoVis : générez automatiquement des visualisations basées sur les données sélectionnées.",
+    "Data Wrangler : automatisez la synthèse et la transformation des données.",
+    "Data Painter : explorez les données de manière interactive par des moyens visuels.",
+    "Graphic Walker : intégrez des analyses visuelles dans des applications Web et mobiles."
   ]
 }

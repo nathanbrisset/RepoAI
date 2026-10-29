@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "inactive",
   "summary": "Hyperparameter tuning library for Keras models.",
-  "description": "Hyperparameter tuning library for Keras models.\n\nHyperparameter Optimization: Automates the search for optimal model parameters. Integration with Keras: Works seamlessly with Keras models. Support for Various Search Algorithms: Includes random search, Bayesian optimization, and more. Scalability: Can be used for tuning models on large datasets.",
+  "description": "Hyperparameter tuning library for Keras models. Hyperparameter Optimization: Automates the search for optimal model parameters. Integration with Keras: Works seamlessly with Keras models. Support for Various Search Algorithms: Includes random search, Bayesian optimization, and more. Scalability: Can be used for tuning models on large datasets.",
   "categories": [
     "coding"
   ],
@@ -49,5 +49,11 @@
       "description": "Execute the search and select the best model configuration."
     }
   ],
-  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
+  "features_fr": [
+    "Optimisation des hyperparamètres : automatise la recherche des paramètres de modèle optimaux.",
+    "Intégration avec Keras : fonctionne de manière transparente avec les modèles Keras.",
+    "Prise en charge de divers algorithmes de recherche : inclut la recherche aléatoire, l'optimisation bayésienne, etc.",
+    "Évolutivité : peut être utilisée pour ajuster des modèles sur de grands ensembles de données."
+  ]
 }

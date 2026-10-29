@@ -50,5 +50,11 @@
       "description": "Use APIs or command-line tools for code generation or summarization tasks."
     }
   ],
-  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
+  "features_fr": [
+    "Compréhension et génération de code : excelle dans des tâches telles que la synthèse et la traduction de code.",
+    "Pré-formation prenant en compte les identifiants : comprend le rôle des identifiants dans le code pour un meilleur contexte.",
+    "Prise en charge de plusieurs langages de programmation : formé sur diverses bases de code pour gérer différents langages.",
+    "Architecture basée sur un transformateur : utilise des modèles avancés d'apprentissage automatique pour les tâches de code."
+  ]
 }

@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "OpenAI's AI-first browser experience that embeds ChatGPT for search, tabs, and page-aware assistance.",
-  "description": "ChatGPT Atlas focuses on openAI's AI-first browser experience that embeds ChatGPT for search, tabs, and page-aware assistance. Visit chatgpt.com for plans, limits and regional availability.",
+  "description": "ChatGPT Atlas focuses on openAI's AI-first browser experience that embeds ChatGPT for search, tabs, and page-aware assistance.",
   "categories": [
     "llm-chatbots"
   ],
@@ -23,7 +23,7 @@
     "sourceUrl": "https://chatgpt.com/pricing"
   },
   "logo": "/logos/chatgpt-atlas.png",
-  "image": "/screenshots/chatgpt-atlas.webp",
+  "image": "",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
@@ -55,5 +55,11 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Chat multi-tours avec sélection de modèle si disponible.",
+    "Saisie de fichier, d’image ou vocale sur les forfaits pris en charge.",
+    "Partagez ou exportez des conversations pour vos coéquipiers.",
+    "Contrôles API ou d'entreprise sur les niveaux supérieurs."
   ]
 }

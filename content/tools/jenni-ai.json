@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Jenni AI — AI for writing and content at jenni.ai.",
-  "description": "Jenni AI is an AI product for writing and content. Visit jenni.ai for official pricing and feature details.",
+  "description": "Jenni AI — AI for writing and content at jenni.ai. Learn more on the Jenni AI website.",
   "categories": [
     "writing"
   ],
@@ -23,14 +23,14 @@
     "sourceUrl": "https://jenni.ai/"
   },
   "logo": "/logos/jenni-ai.png",
-  "image": "/screenshots/jenni-ai.webp",
+  "image": "",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Jenni AI — academic: capabilities described on jenni.ai.",
-    "Jenni AI — writing: capabilities described on jenni.ai.",
-    "Jenni AI — citations: capabilities described on jenni.ai.",
-    "Jenni AI — editor: capabilities described on jenni.ai."
+    "Jenni AI — AI for writing and content at jenni.ai.",
+    "Focused on writing workflows.",
+    "Jenni AI includes academic capabilities.",
+    "Jenni AI includes writing capabilities."
   ],
   "howToUse": [
     {
@@ -55,5 +55,13 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
-  ]
+  ],
+  "features_fr": [
+    "Jenni AI — IA pour l'écriture et le contenu sur jenni.ai.",
+    "Axé sur l'écriture des workflows.",
+    "Jenni AI inclut des capacités académiques.",
+    "Jenni AI inclut des capacités d'écriture."
+  ],
+  "summary_fr": "Assistant de rédaction académique avec citations et suggestions IA.",
+  "description_fr": "Jenni AI aide à rédiger des textes académiques avec suggestions, citations et reprise de brouillon dans l'éditeur."
 }
