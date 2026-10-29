@@ -1,0 +1,68 @@
+{
+  "id": "circleback",
+  "name": "Circleback",
+  "url": "https://circleback.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Circleback is an AI product in the Meetings & Notes space with official hosting at circleback.ai.",
+  "description": "Circleback is an AI product in the Meetings & Notes space with official hosting at circleback.ai.\n\nNotes de réunion et actions automatiques. Check the pricing page before production use.\n\nFeature: Circleback ships the main workflow advertised on its official site.",
+  "summary_fr": "Notes de réunion et actions automatiques.",
+  "description_fr": "Notes de réunion et actions automatiques. Vérifie la page tarifs avant un déploiement en production.",
+  "categories": [
+    "meetings"
+  ],
+  "tags": [
+    "ai",
+    "meetings",
+    "catalog"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Payant",
+    "sourceUrl": "https://circleback.ai"
+  },
+  "logo": "/logos/circleback.png",
+  "image": "",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Circleback ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "features_fr": [
+    "Circleback propose le flux principal décrit sur le site officiel.",
+    "Comptes équipe, rôles ou espaces de travail si disponibles.",
+    "Exports, webhooks ou intégrations vers tes autres outils.",
+    "Centre d'aide et onboarding pour le premier projet."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Circleback",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Circleback",
+          "url": "https://circleback.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "abnormal-security",
+  "name": "Abnormal Security",
+  "url": "https://abnormalsecurity.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Abnormal Security is an AI product in the Security space with official hosting at abnormalsecurity.com.",
+  "description": "Abnormal Security is an AI product in the Security space with official hosting at abnormalsecurity.com.\n\nProtection email par IA comportementale. Check the pricing page before production use.\n\nFeature: Abnormal Security ships the main workflow advertised on its official site.",
+  "summary_fr": "Protection email par IA comportementale.",
+  "description_fr": "Protection email par IA comportementale. Vérifie la page tarifs avant un déploiement en production.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "ai",
+    "security",
+    "catalog"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Payant",
+    "sourceUrl": "https://abnormalsecurity.com"
+  },
+  "logo": "/logos/abnormal-security.png",
+  "image": "",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Abnormal Security ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "features_fr": [
+    "Abnormal Security propose le flux principal décrit sur le site officiel.",
+    "Comptes équipe, rôles ou espaces de travail si disponibles.",
+    "Exports, webhooks ou intégrations vers tes autres outils.",
+    "Centre d'aide et onboarding pour le premier projet."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Abnormal Security",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Abnormal Security",
+          "url": "https://abnormalsecurity.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

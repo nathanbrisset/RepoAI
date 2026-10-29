@@ -1,0 +1,68 @@
+{
+  "id": "kahoot",
+  "name": "Kahoot!",
+  "url": "https://kahoot.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Kahoot! is an AI product in the Education & Learning space with official hosting at kahoot.com.",
+  "description": "Kahoot! is an AI product in the Education & Learning space with official hosting at kahoot.com.\n\nQuiz interactifs générés par IA. Check the pricing page before production use.\n\nFeature: Kahoot! ships the main workflow advertised on its official site.",
+  "summary_fr": "Quiz interactifs générés par IA.",
+  "description_fr": "Quiz interactifs générés par IA. Vérifie la page tarifs avant un déploiement en production.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "ai",
+    "education",
+    "catalog"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://kahoot.com"
+  },
+  "logo": "/logos/kahoot.png",
+  "image": "",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Kahoot! ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "features_fr": [
+    "Kahoot! propose le flux principal décrit sur le site officiel.",
+    "Comptes équipe, rôles ou espaces de travail si disponibles.",
+    "Exports, webhooks ou intégrations vers tes autres outils.",
+    "Centre d'aide et onboarding pour le premier projet."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Kahoot!",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Kahoot!",
+          "url": "https://kahoot.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "NO",
+  "hqCountrySource": "import"
+}

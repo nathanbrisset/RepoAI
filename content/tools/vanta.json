@@ -1,0 +1,68 @@
+{
+  "id": "vanta",
+  "name": "Vanta",
+  "url": "https://www.vanta.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Vanta is an AI product in the Security space with official hosting at vanta.com.",
+  "description": "Vanta is an AI product in the Security space with official hosting at vanta.com.\n\nConformité (SOC 2, ISO) automatisée par IA. Check the pricing page before production use.\n\nFeature: Vanta ships the main workflow advertised on its official site.",
+  "summary_fr": "Conformité (SOC 2, ISO) automatisée par IA.",
+  "description_fr": "Conformité (SOC 2, ISO) automatisée par IA. Vérifie la page tarifs avant un déploiement en production.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "ai",
+    "security",
+    "catalog"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Payant",
+    "sourceUrl": "https://www.vanta.com"
+  },
+  "logo": "/logos/vanta.png",
+  "image": "",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Vanta ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "features_fr": [
+    "Vanta propose le flux principal décrit sur le site officiel.",
+    "Comptes équipe, rôles ou espaces de travail si disponibles.",
+    "Exports, webhooks ou intégrations vers tes autres outils.",
+    "Centre d'aide et onboarding pour le premier projet."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Vanta",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Vanta",
+          "url": "https://www.vanta.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

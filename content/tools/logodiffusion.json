@@ -1,0 +1,66 @@
+{
+  "id": "logodiffusion",
+  "name": "Logo Diffusion",
+  "url": "https://logodiffusion.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Logo Diffusion is an AI product in the Design space with official hosting at logodiffusion.com.",
+  "description": "Logo Diffusion is an AI product in the Design space with official hosting at logodiffusion.com.\n\nLogos générés par IA, exportables en vectoriel. Check the pricing page before production use.\n\nFeature: Logo Diffusion ships the main workflow advertised on its official site.",
+  "summary_fr": "Logos générés par IA, exportables en vectoriel.",
+  "description_fr": "Logos générés par IA, exportables en vectoriel. Vérifie la page tarifs avant un déploiement en production.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "catalog"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://logodiffusion.com"
+  },
+  "logo": "/logos/logodiffusion.png",
+  "image": "",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Logo Diffusion ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "features_fr": [
+    "Logo Diffusion propose le flux principal décrit sur le site officiel.",
+    "Comptes équipe, rôles ou espaces de travail si disponibles.",
+    "Exports, webhooks ou intégrations vers tes autres outils.",
+    "Centre d'aide et onboarding pour le premier projet."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Logo Diffusion",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Logo Diffusion",
+          "url": "https://logodiffusion.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

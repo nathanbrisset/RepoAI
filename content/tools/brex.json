@@ -1,0 +1,68 @@
+{
+  "id": "brex",
+  "name": "Brex",
+  "url": "https://www.brex.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Brex is an AI product in the Finance & Accounting space with official hosting at brex.com.",
+  "description": "Brex is an AI product in the Finance & Accounting space with official hosting at brex.com.\n\nDépenses d'entreprise automatisées par IA. Check the pricing page before production use.\n\nFeature: Brex ships the main workflow advertised on its official site.",
+  "summary_fr": "Dépenses d'entreprise automatisées par IA.",
+  "description_fr": "Dépenses d'entreprise automatisées par IA. Vérifie la page tarifs avant un déploiement en production.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "ai",
+    "finance",
+    "catalog"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Payant",
+    "sourceUrl": "https://www.brex.com"
+  },
+  "logo": "/logos/brex.png",
+  "image": "",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Brex ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "features_fr": [
+    "Brex propose le flux principal décrit sur le site officiel.",
+    "Comptes équipe, rôles ou espaces de travail si disponibles.",
+    "Exports, webhooks ou intégrations vers tes autres outils.",
+    "Centre d'aide et onboarding pour le premier projet."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Brex",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Brex",
+          "url": "https://www.brex.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}
