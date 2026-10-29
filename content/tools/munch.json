@@ -14,15 +14,16 @@
     "social-media"
   ],
   "pricing": {
-    "model": "freemium",
-    "label": "Freemium",
+    "model": "paid",
+    "label": "Premium",
     "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "note": "Payant",
+    "sourceUrl": "https://www.getmunch.com"
   },
   "logo": "/logos/munch.png",
   "image": "/screenshots/munch.webp",
   "dateAdded": "2025-06-13",
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-29",
   "features": [
     "AI highlight selection: Analyzes videos and finds the most engaging moments to create viral-ready clips for social media.",
     "Auto-captioning: Adds accurate, on-brand subtitles in a variety of styles to increase accessibility and reach.",
@@ -61,5 +62,9 @@
       "description": "Export your clips in the correct format for TikTok, YouTube Shorts, Instagram Reels, and more. Download or share via direct link."
     }
   ],
-  "statusNote": "getmunch.com redirects to munchstudio.com, now a done-for-you social media content service"
+  "statusNote": "getmunch.com redirects to munchstudio.com, now a done-for-you social media content service",
+  "summary_fr": "Extraction de clips viraux + analyse des tendances.",
+  "description_fr": "Extraction de clips viraux + analyse des tendances. Vérifie la page tarifs avant un déploiement en production.",
+  "hqCountry": "IL",
+  "hqCountrySource": "import"
 }

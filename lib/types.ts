@@ -45,6 +45,8 @@ export interface Tool {
     sourceUrl?: string
     uncertain?: boolean
   }
+  hqCountry?: string
+  hqCountrySource?: "verified" | "import" | "inferred"
 }
 
 export interface Category {

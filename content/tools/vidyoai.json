@@ -17,12 +17,13 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "note": "Freemium",
+    "sourceUrl": "https://quso.ai"
   },
   "logo": "/logos/vidyoai.png",
   "image": "/screenshots/vidyoai.webp",
   "dateAdded": "2025-06-13",
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-29",
   "features": [
     "AI highlight detection: Automatically analyzes videos to find the most engaging moments, perfect for sharing on social media.",
     "Auto-captioning: Generates accurate, on-brand subtitles for every clip, improving accessibility and engagement.",
@@ -69,5 +70,9 @@
       "description": "For bulk work, upload and process multiple long videos at once—Vidyo.ai will handle batch highlight generation and export."
     }
   ],
-  "statusNote": "vidyo.ai redirects to quso.ai (rebrand)"
+  "statusNote": "vidyo.ai redirects to quso.ai (rebrand)",
+  "summary_fr": "Découpe une vidéo longue en clips sociaux.",
+  "description_fr": "Découpe une vidéo longue en clips sociaux. Vérifie la page tarifs avant un déploiement en production.",
+  "hqCountry": "IN",
+  "hqCountrySource": "import"
 }

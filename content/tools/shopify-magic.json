@@ -1,0 +1,68 @@
+{
+  "id": "shopify-magic",
+  "name": "Shopify Magic",
+  "url": "https://www.shopify.com/magic",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Shopify Magic is an AI product in the Marketing space with official hosting at shopify.com.",
+  "description": "Shopify Magic is an AI product in the Marketing space with official hosting at shopify.com.\n\nIA intégrée à Shopify : fiches produits, emails, boutique. Check the pricing page before production use.\n\nFeature: Shopify Magic ships the main workflow advertised on its official site.",
+  "summary_fr": "IA intégrée à Shopify : fiches produits, emails, boutique.",
+  "description_fr": "IA intégrée à Shopify : fiches produits, emails, boutique. Vérifie la page tarifs avant un déploiement en production.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Inclus Shopify",
+    "sourceUrl": "https://www.shopify.com/magic"
+  },
+  "logo": "/logos/shopify-magic.png",
+  "image": "",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Shopify Magic ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "features_fr": [
+    "Shopify Magic propose le flux principal décrit sur le site officiel.",
+    "Comptes équipe, rôles ou espaces de travail si disponibles.",
+    "Exports, webhooks ou intégrations vers tes autres outils.",
+    "Centre d'aide et onboarding pour le premier projet."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Shopify Magic",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Shopify Magic",
+          "url": "https://www.shopify.com/magic"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CA",
+  "hqCountrySource": "import"
+}
