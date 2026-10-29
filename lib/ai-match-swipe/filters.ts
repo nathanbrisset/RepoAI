@@ -17,7 +17,7 @@ export type SwipeUseCase =
   | "design"
 
 export type SwipeFilters = {
-  categoryId: string
+  categoryIds: string[]
   pricing: PriceFilter | null
   platform: SwipePlatform | null
   learning: SwipeLearning | null
@@ -27,7 +27,7 @@ export type SwipeFilters = {
 }
 
 export const DEFAULT_SWIPE_FILTERS: SwipeFilters = {
-  categoryId: "",
+  categoryIds: [],
   pricing: null,
   platform: null,
   learning: null,
@@ -111,10 +111,10 @@ function matchesJobText(tool: DirectoryRecord, jobText: string): boolean {
 }
 
 export function filterSwipeDeck(records: DirectoryRecord[], filters: SwipeFilters): DirectoryRecord[] {
-  if (!filters.categoryId) return []
+  if (filters.categoryIds.length === 0) return []
 
   return records.filter((tool) => {
-    if (!tool.categories.includes(filters.categoryId)) return false
+    if (!tool.categories.some((category) => filters.categoryIds.includes(category))) return false
     if (filters.pricing && tool.priceBucket !== filters.pricing) return false
     if (filters.platform && !matchesPlatform(tool, filters.platform)) return false
     if (filters.learning && !matchesLearning(tool, filters.learning)) return false

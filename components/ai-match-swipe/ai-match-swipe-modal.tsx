@@ -121,7 +121,7 @@ export function AiMatchSwipeModal({ open, onOpenChange }: { open: boolean; onOpe
                 filters={filters}
                 onChange={setFilters}
                 onStart={() => startDeck(filters)}
-                emptyAfterFilter={Boolean(filters.categoryId) && filterSwipeDeck(records, filters).length === 0}
+                emptyAfterFilter={filters.categoryIds.length > 0 && filterSwipeDeck(records, filters).length === 0}
               />
             ) : null}
             {step === "deck" && currentTool ? (

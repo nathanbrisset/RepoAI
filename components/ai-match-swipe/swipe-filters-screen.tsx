@@ -35,10 +35,16 @@ export function SwipeFiltersScreen({ filters, onChange, onStart, emptyAfterFilte
   const locale = useLocale()
   const t = directoryCopy(locale)
   const { chips } = useDirectory()
-  const canStart = Boolean(filters.categoryId)
+  const canStart = filters.categoryIds.length > 0
 
   function patch(partial: Partial<SwipeFilters>) {
     onChange({ ...filters, ...partial })
+  }
+
+  function toggleCategory(id: string) {
+    const selected = filters.categoryIds.includes(id)
+    const categoryIds = selected ? filters.categoryIds.filter((item) => item !== id) : [...filters.categoryIds, id]
+    patch({ categoryIds })
   }
 
   function toggleChip<T extends string>(field: keyof SwipeFilters, value: T, current: T | null) {
@@ -56,16 +62,16 @@ export function SwipeFiltersScreen({ filters, onChange, onStart, emptyAfterFilte
           </h2>
           <div className="-mx-1 mt-3 flex flex-wrap gap-2">
             {chips.map((chip) => {
-              const selected = filters.categoryId === chip.id
+              const selected = filters.categoryIds.includes(chip.id)
               return (
                 <button
                   key={chip.id}
                   type="button"
                   aria-pressed={selected}
-                  onClick={() => patch({ categoryId: selected ? "" : chip.id })}
+                  onClick={() => toggleCategory(chip.id)}
                   className={cn(
                     "min-h-11 rounded-full px-4 text-sm font-semibold ring-1 ring-border",
-                    selected ? "bg-primary text-primary-foreground" : "bg-muted/50",
+                    selected ? "bg-primary text-primary-foreground ring-primary" : "bg-muted/50",
                   )}
                 >
                   {chip.label}
