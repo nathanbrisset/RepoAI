@@ -1,0 +1,59 @@
+{
+  "id": "davinci-resolve-ai",
+  "name": "DaVinci Resolve AI",
+  "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "DaVinci Resolve AI delivers AI-assisted capabilities for video teams via www.blackmagicdesign.com.",
+  "description": "DaVinci Resolve AI delivers AI-assisted capabilities for video teams via www.blackmagicdesign.com. Check the pricing page before production use.\n\nFeature: DaVinci Resolve AI ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "color",
+    "edit",
+    "fairlight",
+    "magic-mask"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See official pricing at https://www.blackmagicdesign.com/products/davinciresolve.",
+    "sourceUrl": "https://www.blackmagicdesign.com/products/davinciresolve"
+  },
+  "logo": "/logos/davinci-resolve-ai.png",
+  "image": "/screenshots/davinci-resolve-ai.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "DaVinci Resolve AI ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on DaVinci Resolve AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "DaVinci Resolve AI",
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

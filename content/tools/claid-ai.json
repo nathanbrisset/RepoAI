@@ -1,0 +1,59 @@
+{
+  "id": "claid-ai",
+  "name": "Claid.ai",
+  "url": "https://claid.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Claid.ai delivers AI-assisted capabilities for image generation & editing teams via claid.ai.",
+  "description": "Claid.ai delivers AI-assisted capabilities for image generation & editing teams via claid.ai. Check the pricing page before production use.\n\nFeature: Claid.ai ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "ecommerce",
+    "product-photos",
+    "enhance",
+    "api"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": false,
+    "note": "See official pricing at https://claid.ai/.",
+    "sourceUrl": "https://claid.ai/"
+  },
+  "logo": "/logos/claid-ai.png",
+  "image": "/screenshots/claid-ai.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Claid.ai ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Claid.ai",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Claid.ai",
+          "url": "https://claid.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

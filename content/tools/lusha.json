@@ -1,0 +1,59 @@
+{
+  "id": "lusha",
+  "name": "Lusha",
+  "url": "https://www.lusha.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Lusha delivers AI-assisted capabilities for sales & crm teams via www.lusha.com.",
+  "description": "Lusha delivers AI-assisted capabilities for sales & crm teams via www.lusha.com. Check the pricing page before production use.\n\nFeature: Lusha ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "prospecting",
+    "contacts",
+    "enrichment",
+    "b2b"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See official pricing at https://www.lusha.com/.",
+    "sourceUrl": "https://www.lusha.com/"
+  },
+  "logo": "/logos/lusha.png",
+  "image": "/screenshots/lusha.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Lusha ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Lusha",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Lusha",
+          "url": "https://www.lusha.com/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

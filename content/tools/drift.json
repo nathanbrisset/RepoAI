@@ -1,10 +1,10 @@
 {
   "id": "drift",
-  "name": "Drift",
-  "url": "https://www.drift.com/",
+  "name": "Salesloft Drift",
+  "url": "https://www.salesloft.com/platform/drift/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Drift is an AI-powered chatbot and conversational marketing platform that helps businesses engage website visitors, qualify leads, and accelerate sales pipelines.",
+  "summary": "Conversational marketing and sales chat from Salesloft, powered by Drift after the acquisition.",
   "description": "Drift is an AI-powered chatbot and conversational marketing platform that helps businesses engage website visitors, qualify leads, and accelerate sales pipelines.\n\nConversational marketing: Engage visitors with real-time chat. Lead qualification: AI filters and prioritizes sales leads. Automated meeting booking: Schedule calls directly from chat. Integrations: Connects with major CRM and marketing tools.",
   "categories": [
     "support"
@@ -22,7 +22,7 @@
   "logo": "/logos/drift.png",
   "image": "/screenshots/drift.webp",
   "dateAdded": "2025-06-11",
-  "lastVerified": null,
+  "lastVerified": "2026-10-29",
   "features": [
     "Conversational marketing: Engage visitors with real-time chat.",
     "Lead qualification: AI filters and prioritizes sales leads.",
@@ -56,5 +56,6 @@
       "title": "Review Conversations and Analytics",
       "description": "Track conversations, analyze chat impact, and optimize bot flows to improve results."
     }
-  ]
+  ],
+  "statusNote": "Drift was acquired by Salesloft."
 }

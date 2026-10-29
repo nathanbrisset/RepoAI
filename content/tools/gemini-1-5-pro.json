@@ -3,7 +3,7 @@
   "name": "Gemini",
   "url": "https://gemini.google.com/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "duplicate-of",
   "summary": "Google's AI assistant app powered by Gemini models.",
   "description": "Update replacing 'Gemini 1.5 Pro': Gemini is now Google's AI assistant and model family (latest Gemini 4 Argon) for chat, Deep Research, image and video creation and Gemini Live, integrated across Google apps. The app is free with a Google account; Google AI Plus costs $4.99/month, Pro $19.99/month and Ultra from $99.99/month, while developers access the models through Google AI Studio and the Gemini API.",
   "categories": [
@@ -25,7 +25,7 @@
   "logo": "/logos/gemini-1-5-pro.png",
   "image": "/screenshots/gemini-1-5-pro.webp",
   "dateAdded": "2024-02-20",
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-29",
   "features": [
     "Multilingual Support: Translates and understands content across languages.",
     "Accurate Summarization: Extracts key ideas from long documents.",
@@ -59,5 +59,7 @@
   "sources": [
     "https://gemini.google/subscriptions/",
     "https://ai.google.dev/gemini-api/docs/pricing"
-  ]
+  ],
+  "successorId": "gemini",
+  "statusNote": "Canonical fiche is /tool/gemini."
 }

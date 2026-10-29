@@ -486,6 +486,11 @@ const en = {
       description: "Catch risky code and protect the AI features you ship before they reach users. Compare application, supply-chain, and model security tools, and pick the checks that fit your stack.",
       about: "",
     },
+    "ai-detection": {
+      name: "AI Detection",
+      description: "Check whether text was written by AI and show originality for school, publishing, or compliance. Compare detectors and pick the workflow that fits your audience.",
+      about: "",
+    },
   },
 }
 
@@ -972,6 +977,11 @@ const fr: typeof en = {
     security: {
       name: "Sécurité",
       description: "Repérez le code risqué et protégez les fonctions d'IA que vous livrez avant qu'elles n'atteignent les utilisateurs. Comparez sécurité applicative, chaîne d'approvisionnement et modèles, et choisissez les contrôles qui collent à votre pile.",
+      about: "",
+    },
+    "ai-detection": {
+      name: "Détection IA",
+      description: "Vérifie si un texte vient d'une IA et prouve l'originalité pour l'école, l'édition ou la conformité. Compare les détecteurs et choisis celui qui correspond à ton usage.",
       about: "",
     },
   },

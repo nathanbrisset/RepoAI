@@ -1,57 +1,59 @@
 {
-  "affiliateUrl": "",
-  "logo": "/logos/windsurf.png",
-  "image": "/screenshots/windsurf.webp",
-  "dateAdded": "2026-10-21",
-  "lastVerified": "2026-10-21",
-  "status": "renamed",
   "id": "windsurf",
   "name": "Windsurf",
-  "url": "https://devin.ai/desktop",
-  "successorId": "devin",
-  "summary": "Windsurf’s domain now redirects to Devin Desktop.",
-  "description": "On 21 October 2026, windsurf.com redirected to https://devin.ai/desktop. That page describes Devin Desktop, not a separate Windsurf IDE. Use the Devin card for the current product.",
+  "url": "https://windsurf.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-native IDE from the Codeium team with cascade agents, deep codebase context, and multi-file edits.",
+  "description": "Windsurf is an AI-first code editor built by Codeium. It combines chat, autonomous agents, and inline completions with repository-wide context for faster feature work.\n\nFeature: Cascade agent for multi-step coding tasks. Feature: Deep context across files and terminals. Feature: Inline completions and refactors. Feature: Support for popular languages and Git workflows.",
   "categories": [
     "coding"
   ],
   "tags": [
-    "coding",
-    "renamed"
+    "ide",
+    "ai-coding",
+    "codeium",
+    "agents"
   ],
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
     "verified": false,
-    "note": "No Windsurf price. The domain redirects."
+    "note": "Windsurf IDE plans are listed on the Codeium/Windsurf site; domain may redirect during brand transitions.",
+    "sourceUrl": "https://codeium.com/pricing"
   },
-  "statusNote": "windsurf.com redirects to devin.ai/desktop. The validated lot lists the current product as Devin (incl. Windsurf).",
-  "sources": [
-    "https://devin.ai/desktop"
+  "logo": "/logos/windsurf.png",
+  "image": "/screenshots/windsurf.webp",
+  "dateAdded": "2026-10-21",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Cascade agent for multi-step coding tasks.",
+    "Deep context across files and terminals.",
+    "Inline completions and refactors.",
+    "Support for popular languages and Git workflows."
   ],
   "howToUse": [
     {
-      "title": "Download Devin Desktop",
-      "description": "The fiche URL opens the Devin Desktop page. It says to download the app and manage local and cloud agents from one surface.",
+      "title": "Download Windsurf",
+      "description": "Install the desktop editor from the official Windsurf or Codeium download page.",
       "links": [
         {
-          "label": "Devin Desktop",
-          "url": "https://devin.ai/desktop"
+          "label": "Windsurf",
+          "url": "https://windsurf.com/"
         }
       ]
     },
     {
-      "title": "Plan, delegate, review, and ship",
-      "description": "That is the sequence the page uses for work that stays in the editor."
+      "title": "Open your repository",
+      "description": "Clone or open a folder so the agent can index the codebase."
     },
     {
-      "title": "Run the agents you need",
-      "description": "The page says one space holds every agent, with local and cloud agents together.",
-      "links": [
-        {
-          "label": "Devin Desktop FAQ",
-          "url": "https://docs.devin.ai/desktop/devin-desktop-faq"
-        }
-      ]
+      "title": "Run a Cascade task",
+      "description": "Describe a feature or bugfix and review the agent's plan before applying patches."
+    },
+    {
+      "title": "Commit from the IDE",
+      "description": "Use built-in Git tools to stage and push accepted changes."
     }
   ]
 }

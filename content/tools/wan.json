@@ -1,0 +1,59 @@
+{
+  "id": "wan",
+  "name": "Wan",
+  "url": "https://wan.video/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Wan delivers AI-assisted capabilities for video teams via wan.video.",
+  "description": "Wan delivers AI-assisted capabilities for video teams via wan.video. Check the pricing page before production use.\n\nFeature: Wan ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "alibaba",
+    "video-gen",
+    "open",
+    "models"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See official pricing at https://wan.video/.",
+    "sourceUrl": "https://wan.video/"
+  },
+  "logo": "/logos/wan.png",
+  "image": "/screenshots/wan.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Wan ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Wan",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Wan",
+          "url": "https://wan.video/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

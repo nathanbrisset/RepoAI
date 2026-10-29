@@ -1,0 +1,59 @@
+{
+  "id": "quadratic",
+  "name": "Quadratic",
+  "url": "https://www.quadratichq.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Quadratic is an AI product in the Data & Analytics space with official hosting at www.quadratichq.com.",
+  "description": "Quadratic is an AI product in the Data & Analytics space with official hosting at www.quadratichq.com. Check the pricing page before production use.\n\nFeature: Quadratic ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "spreadsheet",
+    "sql",
+    "python",
+    "collaboration"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See https://www.quadratichq.com/ for current plans.",
+    "sourceUrl": "https://www.quadratichq.com/"
+  },
+  "logo": "/logos/quadratic.png",
+  "image": "/screenshots/quadratic.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Quadratic ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Quadratic",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Quadratic",
+          "url": "https://www.quadratichq.com/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

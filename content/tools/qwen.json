@@ -1,0 +1,55 @@
+{
+  "id": "qwen",
+  "name": "Qwen",
+  "url": "https://qwen.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Alibaba's Qwen family of open and hosted models with a public chat app and developer APIs.",
+  "description": "Qwen is Alibaba Cloud's line of large language and multimodal models. The qwen.ai site offers a consumer chat experience, while developers deploy the same models through APIs and open weights on Hugging Face.\n\nFeature: Multimodal Qwen models for text, vision, and code. Feature: Open-weight releases for self-hosting. Feature: Qwen Chat web app with file and image input. Feature: Model Studio API for production workloads.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "llm",
+    "alibaba",
+    "open-models",
+    "multimodal"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Free chat on qwen.ai; API and cloud pricing via Alibaba Cloud Model Studio.",
+    "sourceUrl": "https://qwen.ai/pricing"
+  },
+  "logo": "/logos/qwen.png",
+  "image": "/screenshots/qwen.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Multimodal Qwen models for text, vision, and code.",
+    "Open-weight releases for self-hosting.",
+    "Qwen Chat web app with file and image input.",
+    "Model Studio API for production workloads."
+  ],
+  "howToUse": [
+    {
+      "title": "Try Qwen Chat",
+      "description": "Open qwen.ai and start a conversation or upload an image for vision tasks.",
+      "links": [
+        {
+          "label": "Qwen",
+          "url": "https://qwen.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Pick a model tier",
+      "description": "Select the model size or capability shown in the UI for harder reasoning or faster replies."
+    },
+    {
+      "title": "Integrate via API",
+      "description": "Create credentials in Alibaba Cloud Model Studio if you need programmatic access."
+    }
+  ]
+}

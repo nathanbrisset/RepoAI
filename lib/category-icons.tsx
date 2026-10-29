@@ -51,6 +51,7 @@ const categoryIcons: Record<string, ReactNode> = {
   legal: <Scale className="h-4 w-4" />,
   finance: <LineChart className="h-4 w-4" />,
   security: <Shield className="h-4 w-4" />,
+  "ai-detection": <Search className="h-4 w-4" />,
 }
 
 export function categoryIcon(id: string) {

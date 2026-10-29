@@ -3,7 +3,7 @@
   "name": "CodeT5",
   "url": "https://github.com/salesforce/CodeT5",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "inactive",
   "summary": "Home of CodeT5: Open Code LLMs for Code Understanding and Generation - salesforce/CodeT5",
   "description": "Home of CodeT5: Open Code LLMs for Code Understanding and Generation - salesforce/CodeT5\n\nCode Understanding and Generation: Excels at tasks like code summarization and translation. Identifier-Aware Pretraining: Understands the role of identifiers in code for better context. Support for Multiple Programming Languages: Trained on diverse codebases to handle various languages. Transformer-Based Architecture: Utilizes advanced machine learning models for code tasks.",
   "categories": [
@@ -23,7 +23,7 @@
   "logo": "/logos/codet5.png",
   "image": "/screenshots/codet5.webp",
   "dateAdded": "2022-08-15",
-  "lastVerified": "2026-10-22",
+  "lastVerified": "2026-10-29",
   "features": [
     "Code Understanding and Generation: Excels at tasks like code summarization and translation.",
     "Identifier-Aware Pretraining: Understands the role of identifiers in code for better context.",
@@ -49,5 +49,6 @@
       "title": "Generate or Summarize Code",
       "description": "Use APIs or command-line tools for code generation or summarization tasks."
     }
-  ]
+  ],
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
 }

@@ -3,7 +3,7 @@
   "name": "Weka",
   "url": "https://ml.cms.waikato.ac.nz/weka/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "inactive",
   "summary": "Weka is a popular open-source collection of machine learning algorithms for data mining tasks, developed at the University of Waikato. Weka features a graphical user interface for easy access to powerful data preprocessing, modeling, and visualization tools. It includes a comprehensive suite of algorithms for classification, regression, clustering, and feature selection. Weka is widely used in education and research for teaching, prototyping, and experimenting with machine learning techniques on structured datasets.",
   "description": "Weka is a popular open-source collection of machine learning algorithms for data mining tasks, developed at the University of Waikato. Weka features a graphical user interface for easy access to powerful data preprocessing, modeling, and visualization tools. It includes a comprehensive suite of algorithms for classification, regression, clustering, and feature selection. Weka is widely used in education and research for teaching, prototyping, and experimenting with machine learning techniques on structured datasets.\n\nComprehensive Algorithms: Wide range of classification, regression, and clustering methods. Interactive Visualization: Tools for exploring and understanding datasets. Preprocessing Utilities: Support for data cleaning, filtering, and transformation. Extensible Framework: Plugin support for adding new methods and integrations.",
   "categories": [
@@ -23,7 +23,7 @@
   "logo": "/logos/weka.png",
   "image": "/screenshots/weka.webp",
   "dateAdded": null,
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-29",
   "dateAddedNote": "The previous Added date was 2000-07-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Comprehensive Algorithms: Wide range of classification, regression, and clustering methods.",
@@ -56,5 +56,5 @@
       "description": "Select and run machine learning algorithms, visualize results, and export models."
     }
   ],
-  "statusNote": "Old Waikato URL redirects"
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
 }

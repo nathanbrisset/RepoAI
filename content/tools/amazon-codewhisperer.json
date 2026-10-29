@@ -3,7 +3,7 @@
   "name": "Amazon Q Developer",
   "url": "https://aws.amazon.com/q/developer/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "duplicate-of",
   "summary": "Amazon’s AI coding assistant. The CodeWhisperer URL redirects here.",
   "description": "aws.amazon.com/codewhisperer redirected to Amazon Q Developer on 21 October 2026. AWS describes it as a coding assistant that writes, debugs, and works inside the IDE. The price was not extracted from that page.",
   "categories": [
@@ -24,7 +24,7 @@
   "logo": "/logos/amazon-codewhisperer.png",
   "image": "/screenshots/amazon-codewhisperer.webp",
   "dateAdded": "2022-06-22",
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-29",
   "features": [
     "Real-Time Code Suggestions: Context-aware completions while coding.",
     "AWS Service Integration: Tailored snippets for AWS services.",
@@ -58,5 +58,6 @@
   "sources": [
     "https://aws.amazon.com/q/developer/"
   ],
-  "statusNote": "Formerly Amazon CodeWhisperer."
+  "statusNote": "Renamed to Amazon Q Developer in April 2024.",
+  "successorId": "amazon-q-developer"
 }

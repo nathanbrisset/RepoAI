@@ -1,0 +1,59 @@
+{
+  "id": "crowdstrike-charlotte-ai",
+  "name": "CrowdStrike Charlotte AI",
+  "url": "https://www.crowdstrike.com/platform/charlotte-ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "CrowdStrike Charlotte AI delivers AI-assisted capabilities for security teams via www.crowdstrike.com.",
+  "description": "CrowdStrike Charlotte AI delivers AI-assisted capabilities for security teams via www.crowdstrike.com. Check the pricing page before production use.\n\nFeature: CrowdStrike Charlotte AI ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "soc",
+    "crowdstrike",
+    "threat",
+    "copilot"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": false,
+    "note": "See official pricing at https://www.crowdstrike.com/platform/charlotte-ai/.",
+    "sourceUrl": "https://www.crowdstrike.com/platform/charlotte-ai/"
+  },
+  "logo": "/logos/crowdstrike-charlotte-ai.png",
+  "image": "/screenshots/crowdstrike-charlotte-ai.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "CrowdStrike Charlotte AI ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on CrowdStrike Charlotte AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "CrowdStrike Charlotte AI",
+          "url": "https://www.crowdstrike.com/platform/charlotte-ai/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

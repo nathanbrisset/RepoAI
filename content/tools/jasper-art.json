@@ -3,7 +3,7 @@
   "name": "Jasper Art",
   "url": "https://www.jasper.ai/image/pipelines",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "duplicate-of",
   "summary": "Jasper's image product for on-brand product images. The official page is Image Pipelines, separate from Jasper's writing platform.",
   "description": "Jasper Art is Jasper's image product, not the writing platform. The official page is Image Pipelines, for on-brand product images at enterprise scale. The page describes pixel-perfect product imagery at 10× the speed and up to 50% lower cost.\n\nAI Image Generation: Produces images based on text descriptions. Style Variations: Offers different artistic styles for outputs. High-Quality Outputs: Generates professional-grade images. Integration with Jasper Suite: Works with the rest of Jasper.",
   "categories": [
@@ -24,7 +24,7 @@
   "logo": "/logos/jasper-art.png",
   "image": "/screenshots/jasper-art.webp",
   "dateAdded": "2022-04-01",
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-29",
   "features": [
     "AI Image Generation: Produces images based on text descriptions.",
     "Style Variations: Offers different artistic styles for outputs.",
@@ -54,5 +54,7 @@
       "title": "Download or Use in Jasper",
       "description": "Export the image or use in Jasper's content marketing suite."
     }
-  ]
+  ],
+  "successorId": "jasper",
+  "statusNote": "Jasper Art features live inside the main Jasper platform."
 }

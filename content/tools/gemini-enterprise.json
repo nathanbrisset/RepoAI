@@ -1,0 +1,59 @@
+{
+  "id": "gemini-enterprise",
+  "name": "Gemini Enterprise",
+  "url": "https://cloud.google.com/gemini-enterprise",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Gemini Enterprise delivers AI-assisted capabilities for llm & chatbots teams via cloud.google.com.",
+  "description": "Gemini Enterprise delivers AI-assisted capabilities for llm & chatbots teams via cloud.google.com. Check the pricing page before production use.\n\nFeature: Multi-turn chat with model selection where available. Feature: File, image, or voice input on supported plans. Feature: Share or export conversations for teammates. Feature: API or enterprise controls on higher tiers.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "google",
+    "enterprise",
+    "workspace",
+    "gemini"
+  ],
+  "pricing": {
+    "model": "enterprise",
+    "label": "Enterprise",
+    "verified": false,
+    "note": "See official pricing at https://cloud.google.com/gemini-enterprise.",
+    "sourceUrl": "https://cloud.google.com/gemini-enterprise"
+  },
+  "logo": "/logos/gemini-enterprise.png",
+  "image": "/screenshots/gemini-enterprise.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Multi-turn chat with model selection where available.",
+    "File, image, or voice input on supported plans.",
+    "Share or export conversations for teammates.",
+    "API or enterprise controls on higher tiers."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Gemini Enterprise",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Gemini Enterprise",
+          "url": "https://cloud.google.com/gemini-enterprise"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

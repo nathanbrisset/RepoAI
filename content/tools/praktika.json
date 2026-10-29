@@ -1,0 +1,59 @@
+{
+  "id": "praktika",
+  "name": "Praktika",
+  "url": "https://praktika.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Praktika is an AI product in the Education & Learning space with official hosting at praktika.ai.",
+  "description": "Praktika is an AI product in the Education & Learning space with official hosting at praktika.ai. Check the pricing page before production use.\n\nFeature: Praktika ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "language",
+    "tutor",
+    "speaking",
+    "mobile"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See https://praktika.ai/ for current plans.",
+    "sourceUrl": "https://praktika.ai/"
+  },
+  "logo": "/logos/praktika.png",
+  "image": "/screenshots/praktika.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Praktika ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Praktika",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Praktika",
+          "url": "https://praktika.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

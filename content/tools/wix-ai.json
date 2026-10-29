@@ -1,0 +1,59 @@
+{
+  "id": "wix-ai",
+  "name": "Wix AI",
+  "url": "https://www.wix.com/ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Wix AI is an AI product in the No-code & App Builders space with official hosting at www.wix.com.",
+  "description": "Wix AI is an AI product in the No-code & App Builders space with official hosting at www.wix.com. Check the pricing page before production use.\n\nFeature: Wix AI ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "website",
+    "wix",
+    "design",
+    "generative"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See https://www.wix.com/ai for current plans.",
+    "sourceUrl": "https://www.wix.com/ai"
+  },
+  "logo": "/logos/wix-ai.png",
+  "image": "/screenshots/wix-ai.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Wix AI ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Wix AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Wix AI",
+          "url": "https://www.wix.com/ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

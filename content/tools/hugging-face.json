@@ -1,0 +1,59 @@
+{
+  "id": "hugging-face",
+  "name": "Hugging Face",
+  "url": "https://huggingface.co/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Hub for open ML models, datasets, Spaces demos, and inference endpoints used across the AI ecosystem.",
+  "description": "Hub for open ML models, datasets, Spaces demos, and inference endpoints used across the AI ecosystem. Check the pricing page before production use.\n\nFeature: Hugging Face ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "models",
+    "datasets",
+    "spaces",
+    "inference"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Free community tier; Pro and Enterprise for teams and inference.",
+    "sourceUrl": "https://huggingface.co/pricing"
+  },
+  "logo": "/logos/hugging-face.png",
+  "image": "/screenshots/hugging-face.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Hugging Face ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Hugging Face",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "adobe-express",
+  "name": "Adobe Express",
+  "url": "https://www.adobe.com/express/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Quick design app with generative AI for posts, video clips, and brand kits from Adobe.",
+  "description": "Quick design app with generative AI for posts, video clips, and brand kits from Adobe. Check the pricing page before production use.\n\nFeature: Adobe Express ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "templates",
+    "social",
+    "generative",
+    "adobe"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Free plan with premium templates and generative credits on paid tiers.",
+    "sourceUrl": "https://www.adobe.com/express/pricing"
+  },
+  "logo": "/logos/adobe-express.png",
+  "image": "/screenshots/adobe-express.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Adobe Express ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Adobe Express",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Adobe Express",
+          "url": "https://www.adobe.com/express/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

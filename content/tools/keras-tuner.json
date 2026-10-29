@@ -3,7 +3,7 @@
   "name": "Keras Tuner",
   "url": "https://keras.io/keras_tuner/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "inactive",
   "summary": "Hyperparameter tuning library for Keras models.",
   "description": "Hyperparameter tuning library for Keras models.\n\nHyperparameter Optimization: Automates the search for optimal model parameters. Integration with Keras: Works seamlessly with Keras models. Support for Various Search Algorithms: Includes random search, Bayesian optimization, and more. Scalability: Can be used for tuning models on large datasets.",
   "categories": [
@@ -22,7 +22,7 @@
   "logo": "/logos/keras-tuner.png",
   "image": "/screenshots/keras-tuner.webp",
   "dateAdded": "2023-10-01",
-  "lastVerified": null,
+  "lastVerified": "2026-10-29",
   "features": [
     "Hyperparameter Optimization: Automates the search for optimal model parameters.",
     "Integration with Keras: Works seamlessly with Keras models.",
@@ -48,5 +48,6 @@
       "title": "Run Tuning",
       "description": "Execute the search and select the best model configuration."
     }
-  ]
+  ],
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
 }

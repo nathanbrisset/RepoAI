@@ -1,0 +1,59 @@
+{
+  "id": "gladia",
+  "name": "Gladia",
+  "url": "https://www.gladia.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Gladia is an AI product in the Voice & Speech space with official hosting at www.gladia.io.",
+  "description": "Gladia is an AI product in the Voice & Speech space with official hosting at www.gladia.io. Check the pricing page before production use.\n\nFeature: Gladia ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "api",
+    "transcription",
+    "speech-to-text",
+    "real-time"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": false,
+    "note": "See https://www.gladia.io/ for current plans.",
+    "sourceUrl": "https://www.gladia.io/"
+  },
+  "logo": "/logos/gladia.png",
+  "image": "/screenshots/gladia.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Gladia ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Gladia",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Gladia",
+          "url": "https://www.gladia.io/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

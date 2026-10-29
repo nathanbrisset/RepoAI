@@ -1,0 +1,59 @@
+{
+  "id": "klaviyo-ai",
+  "name": "Klaviyo AI",
+  "url": "https://www.klaviyo.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Klaviyo AI delivers AI-assisted capabilities for marketing & seo teams via www.klaviyo.com.",
+  "description": "Klaviyo AI delivers AI-assisted capabilities for marketing & seo teams via www.klaviyo.com. Check the pricing page before production use.\n\nFeature: Klaviyo AI ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "email",
+    "sms",
+    "ecommerce",
+    "personalization"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See official pricing at https://www.klaviyo.com/.",
+    "sourceUrl": "https://www.klaviyo.com/"
+  },
+  "logo": "/logos/klaviyo-ai.png",
+  "image": "/screenshots/klaviyo-ai.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Klaviyo AI ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Klaviyo AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Klaviyo AI",
+          "url": "https://www.klaviyo.com/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

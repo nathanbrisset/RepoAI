@@ -1,0 +1,59 @@
+{
+  "id": "hostinger-horizons",
+  "name": "Hostinger Horizons",
+  "url": "https://www.hostinger.com/horizons",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Hostinger Horizons is an AI product in the No-code & App Builders space with official hosting at www.hostinger.com.",
+  "description": "Hostinger Horizons is an AI product in the No-code & App Builders space with official hosting at www.hostinger.com. Check the pricing page before production use.\n\nFeature: Hostinger Horizons ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "websites",
+    "hostinger",
+    "ai-builder",
+    "hosting"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See https://www.hostinger.com/horizons for current plans.",
+    "sourceUrl": "https://www.hostinger.com/horizons"
+  },
+  "logo": "/logos/hostinger-horizons.png",
+  "image": "/screenshots/hostinger-horizons.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Hostinger Horizons ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Hostinger Horizons",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Hostinger Horizons",
+          "url": "https://www.hostinger.com/horizons"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

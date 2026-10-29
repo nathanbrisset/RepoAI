@@ -1,0 +1,59 @@
+{
+  "id": "shortcut",
+  "name": "Shortcut",
+  "url": "https://www.shortcut.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Shortcut is an AI product in the Data & Analytics space with official hosting at www.shortcut.ai.",
+  "description": "Shortcut is an AI product in the Data & Analytics space with official hosting at www.shortcut.ai. Check the pricing page before production use.\n\nFeature: Shortcut ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "excel",
+    "formulas",
+    "analysis",
+    "copilot"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See https://www.shortcut.ai/ for current plans.",
+    "sourceUrl": "https://www.shortcut.ai/"
+  },
+  "logo": "/logos/shortcut.png",
+  "image": "/screenshots/shortcut.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Shortcut ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Shortcut",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Shortcut",
+          "url": "https://www.shortcut.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

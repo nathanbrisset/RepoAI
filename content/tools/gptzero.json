@@ -1,0 +1,59 @@
+{
+  "id": "gptzero",
+  "name": "GPTZero",
+  "url": "https://gptzero.me/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI content detection for educators and publishers with document and API scanning.",
+  "description": "AI content detection for educators and publishers with document and API scanning. Check the pricing page before production use.\n\nFeature: Scan text or documents for likely AI authorship. Feature: Batch or API access for CMS and LMS workflows. Feature: Reports with scores and highlighted passages. Feature: Settings for sensitivity and language.",
+  "categories": [
+    "ai-detection"
+  ],
+  "tags": [
+    "ai-detection",
+    "education",
+    "writing",
+    "plagiarism"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": true,
+    "note": "Free scans with paid educator and API plans.",
+    "sourceUrl": "https://gptzero.me/pricing"
+  },
+  "logo": "/logos/gptzero.png",
+  "image": "/screenshots/gptzero.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Scan text or documents for likely AI authorship.",
+    "Batch or API access for CMS and LMS workflows.",
+    "Reports with scores and highlighted passages.",
+    "Settings for sensitivity and language."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on GPTZero",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "GPTZero",
+          "url": "https://gptzero.me/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

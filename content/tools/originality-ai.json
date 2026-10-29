@@ -1,0 +1,59 @@
+{
+  "id": "originality-ai",
+  "name": "Originality.ai",
+  "url": "https://originality.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Originality.ai is an AI product in the AI Detection space with official hosting at originality.ai.",
+  "description": "Originality.ai is an AI product in the AI Detection space with official hosting at originality.ai. Check the pricing page before production use.\n\nFeature: Scan text or documents for likely AI authorship. Feature: Batch or API access for CMS and LMS workflows. Feature: Reports with scores and highlighted passages. Feature: Settings for sensitivity and language.",
+  "categories": [
+    "ai-detection"
+  ],
+  "tags": [
+    "detection",
+    "plagiarism",
+    "content",
+    "publishers"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "label": "Usage-based",
+    "verified": false,
+    "note": "See https://originality.ai/ for current plans.",
+    "sourceUrl": "https://originality.ai/"
+  },
+  "logo": "/logos/originality-ai.png",
+  "image": "/screenshots/originality-ai.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Scan text or documents for likely AI authorship.",
+    "Batch or API access for CMS and LMS workflows.",
+    "Reports with scores and highlighted passages.",
+    "Settings for sensitivity and language."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Originality.ai",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Originality.ai",
+          "url": "https://originality.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

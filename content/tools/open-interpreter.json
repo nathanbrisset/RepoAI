@@ -1,0 +1,59 @@
+{
+  "id": "open-interpreter",
+  "name": "Open Interpreter",
+  "url": "https://openinterpreter.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open Interpreter is an AI product in the AI Agents space with official hosting at openinterpreter.com.",
+  "description": "Open Interpreter is an AI product in the AI Agents space with official hosting at openinterpreter.com. Check the pricing page before production use.\n\nFeature: Build or deploy agents connected to your data. Feature: Tool calling to SaaS APIs and internal systems. Feature: Monitoring, logs, or human handoff where offered. Feature: Templates to start from common automations.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "local",
+    "code-execution",
+    "agents",
+    "open-source"
+  ],
+  "pricing": {
+    "model": "open-source",
+    "label": "Open source",
+    "verified": false,
+    "note": "See https://openinterpreter.com/ for current plans.",
+    "sourceUrl": "https://openinterpreter.com/"
+  },
+  "logo": "/logos/open-interpreter.png",
+  "image": "/screenshots/open-interpreter.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Build or deploy agents connected to your data.",
+    "Tool calling to SaaS APIs and internal systems.",
+    "Monitoring, logs, or human handoff where offered.",
+    "Templates to start from common automations."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Open Interpreter",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Open Interpreter",
+          "url": "https://openinterpreter.com/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

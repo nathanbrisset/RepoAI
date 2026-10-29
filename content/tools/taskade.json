@@ -1,0 +1,59 @@
+{
+  "id": "taskade",
+  "name": "Taskade",
+  "url": "https://www.taskade.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Taskade delivers AI-assisted capabilities for productivity & workspace teams via www.taskade.com.",
+  "description": "Taskade delivers AI-assisted capabilities for productivity & workspace teams via www.taskade.com. Check the pricing page before production use.\n\nFeature: Taskade ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "tasks",
+    "agents",
+    "docs",
+    "collaboration"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "See official pricing at https://www.taskade.com/.",
+    "sourceUrl": "https://www.taskade.com/"
+  },
+  "logo": "/logos/taskade.png",
+  "image": "/screenshots/taskade.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Taskade ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Taskade",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Taskade",
+          "url": "https://www.taskade.com/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow—generation, scan, or deploy—using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ]
+}

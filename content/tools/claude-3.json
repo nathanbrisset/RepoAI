@@ -3,7 +3,7 @@
   "name": "Claude",
   "url": "https://claude.ai",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "duplicate-of",
   "summary": "Anthropic's AI assistant for writing, analysis and coding.",
   "description": "Claude is Anthropic's AI assistant (replacing the outdated 'Claude 3' entry) for writing, analysis, research and coding, with Artifacts, projects, connectors and Claude in Chrome. It is known for careful reasoning and long documents. A free plan is available on web, desktop and mobile; Pro costs $17/month billed annually ($20 monthly) and includes Claude Code, while Max starts at $100/month.",
   "categories": [
@@ -25,7 +25,7 @@
   "logo": "/logos/claude-3.png",
   "image": "/screenshots/claude-3.webp",
   "dateAdded": "2024-03-05",
-  "lastVerified": "2026-10-21",
+  "lastVerified": "2026-10-29",
   "features": [
     "Long Context Handling: Processes documents up to 200K tokens.",
     "Safety & Alignment: Optimized for reliable, safe responses.",
@@ -58,5 +58,7 @@
   ],
   "sources": [
     "https://claude.com/pricing"
-  ]
+  ],
+  "successorId": "claude",
+  "statusNote": "Canonical fiche is /tool/claude."
 }

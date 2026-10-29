@@ -1,0 +1,59 @@
+{
+  "id": "google-flow",
+  "name": "Google Flow",
+  "url": "https://flow.google.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Google's AI filmmaking workspace for generating and editing video clips with Veo and related models.",
+  "description": "Google Flow is Google's creative video workspace built on generative models such as Veo. It lets creators storyboard scenes, generate shots, and refine clips in a guided flow tied to Google accounts.\n\nFeature: Scene-based video generation with Veo models. Feature: Integrated editing and extension of clips. Feature: Works with Google AI subscription tiers. Feature: Export for social or further editing.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "video-generation",
+    "google",
+    "veo",
+    "creative"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Included in Google AI Pro/Ultra subscriptions where Flow is available.",
+    "sourceUrl": "https://one.google.com/about/google-ai-plans/"
+  },
+  "logo": "/logos/google-flow.png",
+  "image": "/screenshots/google-flow.webp",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Scene-based video generation with Veo models.",
+    "Integrated editing and extension of clips.",
+    "Works with Google AI subscription tiers.",
+    "Export for social or further editing."
+  ],
+  "howToUse": [
+    {
+      "title": "Open Flow",
+      "description": "Sign in with a Google account that has Flow access and start a new project.",
+      "links": [
+        {
+          "label": "Google Flow",
+          "url": "https://flow.google.com/"
+        }
+      ]
+    },
+    {
+      "title": "Outline your story",
+      "description": "Describe scenes or upload references Flow accepts, then generate initial clips."
+    },
+    {
+      "title": "Iterate shots",
+      "description": "Regenerate, extend, or adjust prompts per scene until the sequence fits."
+    },
+    {
+      "title": "Export",
+      "description": "Download or send finished clips to your editor or publishing workflow."
+    }
+  ]
+}

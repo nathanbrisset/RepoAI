@@ -50,9 +50,14 @@ const nextConfig = {
       "data-processing": "data",
     }
     const duplicateTools = {
-      "microsoft-copilot": "microsoft-365-copilot",
       "canva-magic-design": "canva-ai",
       mailchimpoptimizer: "mailchimp",
+      "claude-3": "claude",
+      "gemini-1-5-pro": "gemini",
+      "amazon-codewhisperer": "amazon-q-developer",
+      deepcode: "snyk",
+      watson_studio: "watsonx-ai",
+      "jasper-art": "jasper",
     }
     return [
       {
