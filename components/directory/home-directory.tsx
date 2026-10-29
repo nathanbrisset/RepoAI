@@ -129,23 +129,17 @@ export function HomeDirectory({
               </div>
             ) : null}
           </form>
-          <div className="mt-4 flex flex-wrap items-center gap-4">
-            <LocaleLink
-              href="/recommendation"
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-primary-foreground shadow-lg shadow-primary/20 hover:-translate-y-0.5"
-            >
-              <Sparkles className="size-4" />
-              {t.aiMatchHeroCta}
-            </LocaleLink>
+          <div className="mt-6 flex flex-col gap-4">
             <button
               type="button"
               onClick={() => setSwipeOpen(true)}
-              className="inline-flex min-h-11 items-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-bold text-accent-foreground shadow-lg shadow-accent/20 hover:-translate-y-0.5"
+              className="inline-flex min-h-[3rem] w-full items-center justify-center gap-3 rounded-full bg-accent px-8 py-3.5 text-base font-bold text-accent-foreground shadow-xl shadow-accent/30 ring-2 ring-primary hover:-translate-y-0.5 sm:w-auto md:min-h-[3.25rem] md:px-10 md:text-lg"
             >
-              <Shuriken className="size-4" />
+              <Shuriken className="size-5 md:size-6" />
               {t.startSwipingCta}
             </button>
-            <button type="button" onClick={handleThrow} aria-busy={throwing} className="inline-flex items-center gap-3 rounded-full bg-muted py-2 pr-5 pl-2 font-semibold text-foreground ring-1 ring-border hover:-translate-y-0.5">
+            <div className="flex flex-wrap items-center gap-4">
+            <button type="button" onClick={handleThrow} aria-busy={throwing} className="inline-flex min-h-11 items-center gap-3 rounded-full bg-muted py-2 pr-5 pl-2 font-semibold text-foreground ring-1 ring-border hover:-translate-y-0.5">
               <span className="grid size-9 place-items-center rounded-full bg-foreground/10">
                 <Shuriken key={throwId} className={throwing ? "size-6 animate-throw" : "size-6"} />
               </span>
@@ -154,6 +148,7 @@ export function HomeDirectory({
             <LocaleLink href="/catalogue" className="font-semibold text-primary">
               {t.browse} <ArrowRight className="inline size-4" />
             </LocaleLink>
+            </div>
           </div>
         </div>
       </section>
