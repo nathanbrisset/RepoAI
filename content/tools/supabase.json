@@ -51,5 +51,16 @@
       "description": "Use the hosted platform or self-host, since the platform is open source. The Free plan suits small projects but pauses them after a week of inactivity. Pro starts at $25 per month, and extra projects start from $10. The database is Postgres rather than a proprietary store."
     }
   ],
-  "features": []
+  "features": [
+    "Open-source Postgres development platform with auth, APIs, realtime, storage and vectors.",
+    "Supabase provides each project with a full Postgres database plus authentication, instant data APIs, edge functions, realtime subscriptions, file storage and vector embeddings.",
+    "The platform is open source and can be self-hosted.",
+    "The Free plan suits small projects but pauses projects after a week of inactivity; Pro starts at $25 per month, with extra projects from $10 per month."
+  ],
+  "features_fr": [
+    "Plateforme de développement Postgres open source avec authentification, API, temps réel, stockage et vecteurs.",
+    "Supabase fournit à chaque projet une base de données Postgres complète ainsi qu'une authentification, des API de données instantanées, des fonctions Edge, des abonnements en temps réel, un stockage de fichiers et des intégrations vectorielles.",
+    "La plateforme est open source et peut être auto-hébergée.",
+    "Le plan gratuit convient aux petits projets mais met les projets en pause après une semaine d'inactivité ; Pro commence à 25 $ par mois, avec des projets supplémentaires à partir de 10 $ par mois."
+  ]
 }

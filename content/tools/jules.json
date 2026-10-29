@@ -59,5 +59,16 @@
       ]
     }
   ],
-  "features": []
+  "features": [
+    "Google's asynchronous AI coding agent for GitHub repositories.",
+    "Jules is Google's autonomous coding agent: it connects to GitHub repositories, works on tasks in the background in a cloud VM, and returns changes as pull requests to review.",
+    "It differs from in-editor assistants by being fully asynchronous.",
+    "The free plan includes 15 tasks per day and 3 concurrent tasks; higher limits come with Google AI Pro ($19.99/month) and Ultra."
+  ],
+  "features_fr": [
+    "L'agent de codage IA asynchrone de Google pour les référentiels GitHub.",
+    "Jules est l'agent de codage autonome de Google : il se connecte aux référentiels GitHub, travaille sur des tâches en arrière-plan dans une VM cloud et renvoie les modifications sous forme de demandes d'extraction à examiner.",
+    "Il diffère des assistants intégrés à l'éditeur en étant entièrement asynchrone.",
+    "Le plan gratuit comprend 15 tâches par jour et 3 tâches simultanées ; des limites plus élevées sont fournies avec Google AI Pro (19,99 $/mois) et Ultra."
+  ]
 }

@@ -53,5 +53,16 @@
       "description": "Run the agent hosted by the company, or self-host it."
     }
   ],
-  "features": []
+  "features": [
+    "Cloud coding agent from the creators of Roo Code that ships pull requests, hosted or self-hosted.",
+    "Roomote is a cloud coding agent built by the team behind the open-source Roo Code extension; roocode.com now redirects to it.",
+    "It runs in the project's real development environment, verifies its own work, reviews code with a different model and opens pull requests for human review.",
+    "It can be hosted by the company or self-hosted."
+  ],
+  "features_fr": [
+    "Agent de codage cloud des créateurs de Roo Code qui envoie des demandes d'extraction, hébergées ou auto-hébergées.",
+    "Roomote est un agent de codage cloud créé par l'équipe derrière l'extension open source Roo Code ; roocode.com y redirige désormais.",
+    "Il s'exécute dans l'environnement de développement réel du projet, vérifie son propre travail, examine le code avec un modèle différent et ouvre les demandes d'extraction pour examen humain.",
+    "Il peut être hébergé par l’entreprise ou auto-hébergé."
+  ]
 }

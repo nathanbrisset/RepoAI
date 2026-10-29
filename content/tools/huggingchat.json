@@ -54,5 +54,16 @@
       "description": "For higher usage limits and inference credits, take the Hugging Face PRO subscription at $9 per month."
     }
   ],
-  "features": []
+  "features": [
+    "Hugging Face's chat app for open-source models, with automatic model routing.",
+    "HuggingChat is Hugging Face's chat application built on open-source models.",
+    "Its Omni mode routes each request to a suitable model automatically, and users can also pick a specific model from the catalogue of more than one hundred available models.",
+    "Conversations can use tools such as web search."
+  ],
+  "features_fr": [
+    "L'application de chat de Hugging Face pour les modèles open source, avec routage automatique des modèles.",
+    "HuggingChat est l'application de chat de Hugging Face construite sur des modèles open source.",
+    "Son mode Omni achemine automatiquement chaque demande vers un modèle approprié, et les utilisateurs peuvent également choisir un modèle spécifique dans le catalogue de plus d'une centaine de modèles disponibles.",
+    "Les conversations peuvent utiliser des outils tels que la recherche sur le Web."
+  ]
 }

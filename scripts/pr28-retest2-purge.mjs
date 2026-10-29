@@ -100,11 +100,7 @@ function buildEnFeatures(tool, useCaseEn) {
   const base = core.endsWith(".") ? core : `${core}.`
   const lines = [base.charAt(0).toUpperCase() + base.slice(1)]
   const cat = tool.categories?.[0]?.replace(/-/g, " ")
-  if (cat) lines.push(`Focused on ${cat} workflows.`)
-  for (const tag of (tool.tags || []).filter((t) => !["ai", "catalog", "no"].includes(t)).slice(0, 2)) {
-    if (lines.length >= 4) break
-    lines.push(`${tool.name} includes ${tag.replace(/-/g, " ")} capabilities.`)
-  }
+  if (cat && lines.length < 4) lines.push(`${tool.name} helps teams in ${cat}.`)
   return lines.filter((l) => !lineIsFiller(l)).slice(0, 4)
 }
 

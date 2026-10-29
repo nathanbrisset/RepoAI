@@ -51,5 +51,16 @@
       "description": "Open the web chat to compare models side by side, and check the usage rankings, benchmarks and per-model prices the site publishes."
     }
   ],
-  "features": []
+  "features": [
+    "Single API and chat interface for several hundred models from many providers, billed per token.",
+    "OpenRouter provides a single API that routes requests to more than 500 models from over 80 providers.",
+    "It handles provider fallback, shows per-model prices and publishes usage rankings and benchmarks.",
+    "There is no subscription: users buy credits and pay per token at the listed model rates."
+  ],
+  "features_fr": [
+    "API unique et interface de chat pour plusieurs centaines de modèles de nombreux fournisseurs, facturés par token.",
+    "OpenRouter fournit une API unique qui achemine les requêtes vers plus de 500 modèles provenant de plus de 80 fournisseurs.",
+    "Il gère le repli du fournisseur, affiche les prix par modèle et publie des classements et des références d'utilisation.",
+    "Il n'y a pas d'abonnement : les utilisateurs achètent des crédits et paient par jeton aux tarifs des modèles indiqués."
+  ]
 }

@@ -4,7 +4,7 @@
   "url": "https://lovo.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "LOVO — AI for voice and speech at lovo.ai.",
+  "summary": "LOVO: LOVO is an AI product for voice and speech.",
   "description": "LOVO is an AI product for voice and speech.",
   "categories": [
     "voice"
@@ -23,14 +23,11 @@
     "sourceUrl": "https://lovo.ai/"
   },
   "logo": "/logos/lovo.png",
-  "image": "",
+  "image": "/tool-screenshots/lovo.png",
   "dateAdded": "2023-03-10",
   "lastVerified": "2026-10-29",
   "features": [
-    "LOVO — AI for voice and speech at lovo.ai.",
-    "Focused on voice workflows.",
-    "LOVO includes voice cloning capabilities.",
-    "LOVO includes tts capabilities."
+    "LOVO is an AI product for voice and speech."
   ],
   "howToUse": [
     {
@@ -55,5 +52,8 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "LOVO est un produit d'IA pour la voix et la parole."
   ]
 }

@@ -53,5 +53,16 @@
       "description": "Run AI red teaming as a product, or take it as a service, to test the application before you rely on it."
     }
   ],
-  "features": []
+  "features": [
+    "Security platform protecting generative AI applications and agents from prompt attacks and data leaks.",
+    "Lakera provides runtime security for generative AI: it screens prompts and responses for prompt injection, data leakage and harmful content, governs employee AI usage and secures AI agents.",
+    "It also offers AI red teaming as a product and a service.",
+    "The Community plan is free at $0 per month for a limited number of requests; enterprise pricing is by contact."
+  ],
+  "features_fr": [
+    "Plateforme de sécurité protégeant les applications et agents d'IA générative contre les attaques rapides et les fuites de données.",
+    "Lakera fournit une sécurité d'exécution pour l'IA générative : il filtre les invites et les réponses en cas d'injection rapide, de fuite de données et de contenu nuisible, régit l'utilisation de l'IA par les employés et sécurise les agents d'IA.",
+    "Il propose également l’IA Red Teaming en tant que produit et service.",
+    "Le forfait Communauté est gratuit à 0 $ par mois pour un nombre limité de demandes ; la tarification d'entreprise se fait par contact."
+  ]
 }

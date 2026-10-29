@@ -4,7 +4,7 @@
   "url": "https://lmarena.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "LMArena — AI for LLM and chat at lmarena.ai.",
+  "summary": "LMArena: LMArena is an AI product for LLM and chat.",
   "description": "LMArena is an AI product for LLM and chat.",
   "categories": [
     "llm-chatbots"
@@ -55,5 +55,11 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Chat multi-tours avec sélection de modèle si disponible.",
+    "Saisie de fichier, d’image ou vocale sur les forfaits pris en charge.",
+    "Partagez ou exportez des conversations pour vos coéquipiers.",
+    "Contrôles API ou d'entreprise sur les niveaux supérieurs."
   ]
 }

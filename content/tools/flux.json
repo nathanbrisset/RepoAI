@@ -55,5 +55,16 @@
       ]
     }
   ],
-  "features": []
+  "features": [
+    "Black Forest Labs' FLUX image generation and editing models.",
+    "Black Forest Labs develops the FLUX family of models for image generation and editing, known for high prompt fidelity and photorealism.",
+    "The models are offered via the BFL API and playground, and some versions are released as open weights for developers.",
+    "API usage is paid per image, for example $0.048 per image on the pricing calculator, with custom enterprise pricing at scale."
+  ],
+  "features_fr": [
+    "Modèles de génération et d'édition d'images FLUX de Black Forest Labs.",
+    "Black Forest Labs développe la famille de modèles FLUX pour la génération et l'édition d'images, connue pour sa haute fidélité instantanée et son photoréalisme.",
+    "Les modèles sont proposés via l'API BFL et Playground, et certaines versions sont publiées sous forme de poids ouverts pour les développeurs.",
+    "L'utilisation de l'API est payée par image, par exemple 0,048 $ par image sur le calculateur de prix, avec une tarification d'entreprise personnalisée à grande échelle."
+  ]
 }

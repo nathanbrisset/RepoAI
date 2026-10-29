@@ -45,5 +45,16 @@
       "description": "Keep the session for healthcare professionals. The tool is intended for clinicians rather than patients."
     }
   ],
-  "features": []
+  "features": [
+    "AI search tool that answers clinical questions with citations from medical literature.",
+    "OpenEvidence is an AI search tool for clinicians that answers clinical questions using medical literature and cites its sources.",
+    "It is intended for healthcare professionals rather than patients.",
+    "Further details should be checked manually in a regular browser."
+  ],
+  "features_fr": [
+    "Outil de recherche d'IA qui répond aux questions cliniques avec des citations de la littérature médicale.",
+    "OpenEvidence est un outil de recherche d'IA destiné aux cliniciens qui répond aux questions cliniques à l'aide de la littérature médicale et cite ses sources.",
+    "Il s’adresse aux professionnels de santé plutôt qu’aux patients.",
+    "De plus amples détails doivent être vérifiés manuellement dans un navigateur classique."
+  ]
 }

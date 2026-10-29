@@ -50,5 +50,16 @@
       "description": "Run the finished flow as an API or expose it as an MCP server. Deploy it on your own host, or use the cloud account when you want the hosted deployment."
     }
   ],
-  "features": []
+  "features": [
+    "Open-source visual builder for AI agents, RAG pipelines and MCP servers.",
+    "Langflow is an open-source, Python-based tool for building AI agents and workflows with a visual editor.",
+    "Components for models, vector stores and tools are connected on a canvas, and each flow can be served as an API or exposed as an MCP server.",
+    "It can be self-hosted, and the site also offers a free cloud account for deployment."
+  ],
+  "features_fr": [
+    "Générateur visuel open source pour les agents IA, les pipelines RAG et les serveurs MCP.",
+    "Langflow est un outil open source basé sur Python permettant de créer des agents et des flux de travail d'IA avec un éditeur visuel.",
+    "Les composants des modèles, des magasins de vecteurs et des outils sont connectés sur un canevas, et chaque flux peut être servi comme API ou exposé en tant que serveur MCP.",
+    "Il peut être auto-hébergé et le site propose également un compte cloud gratuit pour le déploiement."
+  ]
 }

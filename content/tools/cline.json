@@ -55,5 +55,16 @@
       ]
     }
   ],
-  "features": []
+  "features": [
+    "Open-source AI coding agent for the IDE and terminal.",
+    "Cline is an open-source AI coding agent for VS Code and the terminal, with Plan and Act modes and MCP integration for external tools.",
+    "Its differentiator is transparency and model choice: developers bring their own API keys or providers and can self-host.",
+    "The extension is completely free for individual developers, who only pay their model provider; team and enterprise offerings are available."
+  ],
+  "features_fr": [
+    "Agent de codage IA open source pour l'IDE et le terminal.",
+    "Cline est un agent de codage d'IA open source pour VS Code et le terminal, avec les modes Planifier et Agir et l'intégration MCP pour les outils externes.",
+    "Son différenciateur est la transparence et le choix du modèle : les développeurs apportent leurs propres clés API ou fournisseurs et peuvent s'auto-héberger.",
+    "L'extension est entièrement gratuite pour les développeurs individuels, qui ne paient que leur fournisseur de modèles ; des offres d’équipe et d’entreprise sont disponibles."
+  ]
 }

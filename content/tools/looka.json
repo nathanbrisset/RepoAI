@@ -23,7 +23,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/looka.png",
-  "image": "/screenshots/looka.webp",
+  "image": "/tool-screenshots/looka.png",
   "dateAdded": "2021-05-20",
   "lastVerified": null,
   "features": [
@@ -55,5 +55,11 @@
       "title": "Download or Purchase Brand Kit",
       "description": "Export logo files or purchase a complete brand kit for business use."
     }
+  ],
+  "features_fr": [
+    "Générateur de logo : conçoit des logos à partir de vos préférences.",
+    "Brand Kit Builder : crée des packages complets d’identité de marque.",
+    "Personnalisation du design : modifiez les polices, les couleurs et la mise en page.",
+    "Téléchargements haute résolution : exportations dans plusieurs formats."
   ]
 }

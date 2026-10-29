@@ -53,5 +53,14 @@
       "description": "Keep the results in the library. It grows as the research continues, and the account can be connected to Claude or ChatGPT."
     }
   ],
-  "features": []
+  "features": [
+    "AI research assistant that reads full texts and figures to find and cite relevant papers.",
+    "Undermind runs in-depth searches of the scientific literature, reading full texts and figures and citing every source, then keeps results in a library that grows as research continues.",
+    "It can be connected to AI agents such as Claude and ChatGPT."
+  ],
+  "features_fr": [
+    "Assistant de recherche en IA qui lit les textes intégraux et les figures pour trouver et citer des articles pertinents.",
+    "Undermind effectue des recherches approfondies dans la littérature scientifique, lisant les textes intégraux et les figures et citant chaque source, puis conserve les résultats dans une bibliothèque qui s'enrichit au fur et à mesure de la progression de la recherche.",
+    "Il peut être connecté à des agents IA tels que Claude et ChatGPT."
+  ]
 }

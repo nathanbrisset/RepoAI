@@ -29,8 +29,7 @@
     "Comprehensive Algorithms: Wide range of classification, regression, and clustering methods.",
     "Interactive Visualization: Tools for exploring and understanding datasets.",
     "Preprocessing Utilities: Support for data cleaning, filtering, and transformation.",
-    "Extensible Framework: Plugin support for adding new methods and integrations.",
-    "User-Friendly Interface: Intuitive GUI for non-programmers and rapid prototyping."
+    "Extensible Framework: Plugin support for adding new methods and integrations."
   ],
   "howToUse": [
     {
@@ -56,5 +55,11 @@
       "description": "Select and run machine learning algorithms, visualize results, and export models."
     }
   ],
-  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
+  "features_fr": [
+    "Algorithmes complets : large gamme de méthodes de classification, de régression et de clustering.",
+    "Visualisation interactive : outils pour explorer et comprendre des ensembles de données.",
+    "Utilitaires de prétraitement : prise en charge du nettoyage, du filtrage et de la transformation des données.",
+    "Extensible Framework : prise en charge du plugin pour l'ajout de nouvelles méthodes et intégrations."
+  ]
 }

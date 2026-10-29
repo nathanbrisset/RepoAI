@@ -49,5 +49,16 @@
       "description": "Publish client portals or internal tools, turn on the built-in agents, and send out mobile apps. An MCP server lets other agents build alongside you."
     }
   ],
-  "features": []
+  "features": [
+    "No-code builder for portals and internal tools on top of Softr databases or external data.",
+    "Softr builds client portals, internal tools and business apps without code.",
+    "It includes its own databases, workflows, forms, mobile apps and built-in AI agents, and syncs with external data sources.",
+    "An AI app builder can generate an app from a prompt, and an MCP server lets AI agents build tools."
+  ],
+  "features_fr": [
+    "Générateur sans code pour les portails et les outils internes au-dessus des bases de données Softr ou des données externes.",
+    "Softr crée des portails clients, des outils internes et des applications professionnelles sans code.",
+    "Il comprend ses propres bases de données, flux de travail, formulaires, applications mobiles et agents IA intégrés, et se synchronise avec des sources de données externes.",
+    "Un générateur d'applications IA peut générer une application à partir d'une invite, et un serveur MCP permet aux agents IA de créer des outils."
+  ]
 }

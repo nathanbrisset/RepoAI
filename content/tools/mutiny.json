@@ -20,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/mutiny.png",
-  "image": "/screenshots/mutiny.webp",
+  "image": "/tool-screenshots/mutiny.png",
   "dateAdded": "2025-06-11",
   "lastVerified": null,
   "features": [
@@ -56,5 +56,11 @@
       "title": "Analyze Impact",
       "description": "Use Mutiny’s analytics dashboard to track engagement, conversions, and campaign effectiveness."
     }
+  ],
+  "features_fr": [
+    "Personnalisation du site Web en temps réel : adapte le contenu à chaque visiteur.",
+    "Campagnes segmentées : ciblez des publics professionnels spécifiques.",
+    "Tests A/B : expérimentez différents messages de sites Web.",
+    "Tableau de bord d'analyse : surveillez les taux de conversion et d'engagement."
   ]
 }

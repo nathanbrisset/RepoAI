@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Combines automated transcription with editing tools, facilitating efficient content creation workflows.",
-  "description": "Combines automated transcription with editing tools, facilitating efficient content creation workflows. Fast-track your first draft with Trint's AI-connected media production. Transcribe, translate and collaborate in 50+ languages. Trusted by newsrooms worldwide. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "description": "Combines automated transcription with editing tools, facilitating efficient content creation workflows. Fast-track your first draft with Trint's AI-connected media production. Transcribe, translate and collaborate in 50+ languages. Trusted by newsrooms worldwide.",
   "categories": [
     "voice"
   ],
@@ -20,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/trint.png",
-  "image": "/screenshots/trint.webp",
+  "image": "/tool-screenshots/trint.png",
   "dateAdded": "2025-06-04",
   "lastVerified": null,
   "features": [
@@ -50,5 +50,9 @@
       "title": "Export & Share",
       "description": "Download transcripts and audio or share with collaborators."
     }
+  ],
+  "features_fr": [
+    "Combine la transcription automatisée avec des outils d'édition.",
+    "Faciliter des flux de travail efficaces de création de contenu."
   ]
 }

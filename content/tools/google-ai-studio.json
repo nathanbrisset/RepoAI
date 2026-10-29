@@ -61,5 +61,16 @@
       ]
     }
   ],
-  "features": []
+  "features": [
+    "Google's web tool to prototype and build with Gemini models.",
+    "Google AI Studio is a browser-based environment to experiment with Gemini models, vibe-code apps, and obtain API keys for the Gemini API.",
+    "It is the fastest path from prompt to production for developers using Google models.",
+    "Use of AI Studio and the Gemini API free tier costs nothing, with paid API tiers billed per token and higher limits included in Google AI plans."
+  ],
+  "features_fr": [
+    "L'outil Web de Google pour prototyper et construire avec des modèles Gemini.",
+    "Google AI Studio est un environnement basé sur un navigateur permettant d'expérimenter des modèles Gemini, des applications de code d'ambiance et d'obtenir des clés API pour l'API Gemini.",
+    "Il s'agit du chemin le plus rapide entre l'invite et la production pour les développeurs utilisant les modèles Google.",
+    "L'utilisation d'AI Studio et du niveau gratuit de l'API Gemini ne coûte rien, avec des niveaux d'API payants facturés par jeton et des limites plus élevées incluses dans les forfaits Google AI."
+  ]
 }

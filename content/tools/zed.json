@@ -54,5 +54,16 @@
       "description": "Use real-time collaboration to code together. The Personal plan is free and works with your own API keys. Pro costs $10 a month and adds edit predictions plus $5 of included tokens. Business is $30 a seat each month."
     }
   ],
-  "features": []
+  "features": [
+    "Open-source code editor written in Rust, with real-time collaboration and built-in AI agents.",
+    "Zed is a code editor written from scratch in Rust by the creators of Atom and Tree-sitter, available for macOS, Linux and Windows.",
+    "It supports real-time collaboration and runs AI agents, including external ones such as Claude Agent and Codex CLI.",
+    "The Personal plan is free and works with the user's own API keys."
+  ],
+  "features_fr": [
+    "Éditeur de code open source écrit en Rust, avec collaboration en temps réel et agents IA intégrés.",
+    "Zed est un éditeur de code écrit de toutes pièces dans Rust par les créateurs d'Atom et Tree-sitter, disponible pour macOS, Linux et Windows.",
+    "Il prend en charge la collaboration en temps réel et exécute des agents IA, y compris des agents externes tels que Claude Agent et Codex CLI.",
+    "Le forfait Personnel est gratuit et fonctionne avec les propres clés API de l'utilisateur."
+  ]
 }

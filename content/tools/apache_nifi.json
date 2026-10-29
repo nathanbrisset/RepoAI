@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "inactive",
   "summary": "Apache NiFi is an open-source tool for automating the flow of data between software systems. With a web-based interface, users can build complex data pipelines for ingestion, transformation, and delivery across a wide range of systems. NiFi is designed for scalability, security, and extensibility, making it ideal for real-time analytics, ETL, and IoT data flows in both enterprise and research environments.",
-  "description": "Apache NiFi is an open-source tool for automating the flow of data between software systems. With a web-based interface, users can build complex data pipelines for ingestion, transformation, and delivery across a wide range of systems. NiFi is designed for scalability, security, and extensibility, making it ideal for real-time analytics, ETL, and IoT data flows in both enterprise and research environments. Apache NiFi is an easy to use, powerful, and reliable system to process and distribute data\n\nVisual Flow-Based Programming: Drag-and-drop interface for building data flows. Real-Time Processing: Handles streaming and batch data. Extensible Processor Library: Wide range of built-in and custom processors. Security Features: Data encryption, access control, and audit logs.",
+  "description": "Apache NiFi is an open-source tool for automating the flow of data between software systems. With a web-based interface, users can build complex data pipelines for ingestion, transformation, and delivery across a wide range of systems. NiFi is designed for scalability, security, and extensibility, making it ideal for real-time analytics, ETL, and IoT data flows in both enterprise and research environments. Apache NiFi is an easy to use, powerful, and reliable system to process and distribute data Visual Flow-Based Programming: Drag-and-drop interface for building data flows. Real-Time Processing: Handles streaming and batch data. Extensible Processor Library: Wide range of built-in and custom processors. Security Features: Data encryption, access control, and audit logs.",
   "categories": [
     "data"
   ],
@@ -29,8 +29,7 @@
     "Visual Flow-Based Programming: Drag-and-drop interface for building data flows.",
     "Real-Time Processing: Handles streaming and batch data.",
     "Extensible Processor Library: Wide range of built-in and custom processors.",
-    "Security Features: Data encryption, access control, and audit logs.",
-    "Scalable Architecture: Designed for both small and enterprise-scale deployments."
+    "Security Features: Data encryption, access control, and audit logs."
   ],
   "howToUse": [
     {

@@ -50,5 +50,16 @@
       "description": "Cosmos connects the agents, and the span is the software lifecycle. Cover code review, then test coverage, then incident investigation, then ticket-to-PR work. Use the CLI or cloud agents. Standard is a flat $20 per month for up to 50 seats and includes $20 of usage. Business is $100 per month. Enterprise pricing is custom."
     }
   ],
-  "features": []
+  "features": [
+    "Coding agents and context engine for development teams, sold as the Cosmos platform.",
+    "Augment Code builds coding agents supported by a context engine that indexes large codebases.",
+    "Its Cosmos platform connects agents across the software lifecycle, covering code review, test coverage, incident investigation and ticket-to-PR work, with a CLI and cloud agents.",
+    "The Standard plan costs $20 per month flat for up to 50 seats with $20 of usage included; Business costs $100 per month; enterprise pricing is custom."
+  ],
+  "features_fr": [
+    "Agents de codage et moteur de contexte pour les équipes de développement, vendus sous le nom de plateforme Cosmos.",
+    "Augment Code crée des agents de codage pris en charge par un moteur contextuel qui indexe de grandes bases de code.",
+    "Sa plate-forme Cosmos connecte les agents tout au long du cycle de vie du logiciel, couvrant la révision du code, la couverture des tests, l'enquête sur les incidents et le travail de ticket-to-PR, avec une CLI et des agents cloud.",
+    "Le forfait Standard coûte 20 $ par mois pour un maximum de 50 sièges, avec 20 $ d'utilisation incluse ; L'entreprise coûte 100 $ par mois ; la tarification de l'entreprise est personnalisée."
+  ]
 }

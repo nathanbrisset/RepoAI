@@ -20,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/neurallove.png",
-  "image": "/screenshots/neurallove.webp",
+  "image": "/tool-screenshots/neurallove.png",
   "dateAdded": "2025-06-13",
   "lastVerified": "2026-10-21",
   "features": [
@@ -61,5 +61,11 @@
       "description": "Download the result as MP4 (H264) or MOV (ProRes 422)."
     }
   ],
-  "statusNote": "https://neural.love/video-enhancer is not a current route (404 after the app loads). The video enhancer is https://neural.love/video."
+  "statusNote": "https://neural.love/video-enhancer is not a current route (404 after the app loads). The video enhancer is https://neural.love/video.",
+  "features_fr": [
+    "Mise à l'échelle 4K.",
+    "Augmentation des FPS.",
+    "Colorisation.",
+    "Restauration du visage."
+  ]
 }

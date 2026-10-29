@@ -50,5 +50,16 @@
       "description": "Share threads with teammates, or keep working on your own machine with the CLI and runner. Hobby includes pay-as-you-go usage and unlimited orbs that are self-hosted, with no subscription charge. Individual costs $20 per month, and team tiers sit above it."
     }
   ],
-  "features": []
+  "features": [
+    "Coding agent that runs tasks in isolated hosted or self-hosted environments called orbs.",
+    "Amp is a coding agent and development environment.",
+    "Each agent runs in its own isolated environment, called an orb, so tasks continue after the user closes their laptop and can be followed from a phone.",
+    "Threads can be shared with teammates."
+  ],
+  "features_fr": [
+    "Agent de codage qui exécute des tâches dans des environnements isolés hébergés ou auto-hébergés appelés orbes.",
+    "Amp est un agent de codage et un environnement de développement.",
+    "Chaque agent s'exécute dans son propre environnement isolé, appelé orbe, de sorte que les tâches se poursuivent une fois que l'utilisateur ferme son ordinateur portable et peuvent être suivies depuis un téléphone.",
+    "Les fils de discussion peuvent être partagés avec des coéquipiers."
+  ]
 }

@@ -2,43 +2,44 @@
 
 ## Root cause of “fixed locally but preview unchanged”
 
-1. **Wrong success metric** — grep only matched *old* filler strings; the first apply pass replaced them with *new* generic lines QA still flags.
-2. **French in EN** — lot-2 CSV use cases are French; they were pasted into EN `summary` / `features` (e.g. `11x: SDR IA autonome`).
-3. **`fr-tools.json` not populated** — 181 active tools had **no** French overlay → `/fr` About/meta used English via `localizeTool` fallback.
-4. **`features_fr` missing** — FR Features tab fell back to English `tool.features` for ~231 tools.
-5. **Logos** — download saved **HTML 404** bodies as `.png` (goose, codegen, whisper, chatcode).
-6. **Screenshots** — capture published **logo-on-grey fallbacks** as “success”.
+1. **Wrong success metric** — grep only matched *old* filler strings; apply passes replaced them with *new* generic lines QA still flags.
+2. **French in EN** — lot-2 CSV use cases are French; they were pasted into EN `summary` / `features`.
+3. **`fr-tools.json` gaps** — missing overlay → `/fr` fell back to English via `localizeTool`.
+4. **`features_fr` missing** — FR Features tab used English `tool.features`.
+5. **Logos** — wrong domain (GitHub favicon → octocat for Goose).
+6. **Screenshots** — JSON `image` left set after deleting files → broken `<img>`.
 
-## Served-content verification (run on branch)
+## Served-content verification (QA-aligned)
+
+Uses `scripts/verify-served-fiches.mjs` (catalog merge + `qa-filler-patterns.mjs`, same phrases as retest #2 gap CSV).
 
 ```bash
 node scripts/verify-served-fiches.mjs
 ```
 
-Latest local simulation (matches runtime merge: tool JSON + `fr-tools.json` + `localizeTool`):
+**Retest #2 push (after purge):**
 
-| Check | Approx. count (803 active) |
-| --- | ---: |
-| FR About still English | **0** |
-| FR Features still English (heuristic) | ~134 (often loanwords / colon labels) |
-| EN About mixed French | **25** |
-| Tools with any generic filler phrase | **48** |
+| Check | QA retest #2 | Local sim (803 active) |
+| --- | ---: | ---: |
+| Filler (FR or EN) | 342 | **0** |
+| EN mixed French | 95 | **0** |
+| FR About English | — | **0** |
+| FR Features English | ~222 | **0** |
+| Broken screenshot refs | 9 | **0** |
 
-## Fixes added (retest push)
+## Scripts (retest #2)
 
 | Script | Role |
 | --- | --- |
-| `apply-served-content-fix.mjs` | Lot-2 EN from `data/lot2-use-case-en.json`, clean descriptions, host-specific bullets, sync inline FR → `fr-tools.json` |
-| `backfill-fr-tools-missing.mjs` | French About/Features overlay for 181 missing tools |
-| `repair-fr-tools.mjs` | Strip filler/English from existing `fr-tools` rows |
-| `fix-logos-validated.mjs` | PNG/JPEG magic-byte check before write |
-| `capture.mjs` | **No logo fallback** written on failed capture |
-| `verify-served-fiches.mjs` | Served-copy sanity check (not raw JSON grep) |
+| `scripts/qa-filler-patterns.mjs` | Shared filler regex list (QA retest #2) |
+| `scripts/pr28-retest2-purge.mjs` | Purge filler, rebuild EN features, clear broken/weak screenshots |
+| `scripts/fix-en-french-summary.mjs` | Translate FR use cases out of EN summary/features |
+| `scripts/backfill-served-features-fr.mjs` | Translate `features_fr` when FR tab still English |
+| `scripts/fix-logos-validated.mjs` | Goose logo from `block/goose` docs assets; ChatCode from app favicon |
+| `scripts/verify-served-fiches.mjs` | QA-aligned served metrics |
 
-## Logos
+## Logos / screenshots
 
-Validated PNG for goose, codegen, whisper, chatcode (`file public/logos/*.png`).
-
-## Screenshots still honest skips
-
-No logo-on-grey published on failure. Remaining weak/missing: chatgpt-atlas, civitai, clio, doubao, freshdesk-freddy, jenni-ai, kaiber, lavender, liner, opera-aria, ramp, spotter, wan, zerogpt, chatcode, sora, manus (see retest CSV).
+- **Goose**: `documentation/static/img/logo_light.png` (not GitHub octocat).
+- **ChatCode**: favicon from `chatcodeai.vercel.app`.
+- Cleared `image` when file missing or ≤6.5KB (weak): chatgpt-atlas, freshdesk-freddy, lavender, liner, opera-aria, ramp, spotter, wan, zerogpt, doubao, sora, jenni-ai, kaiber, chatcode.

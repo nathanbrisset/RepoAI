@@ -50,5 +50,16 @@
       "description": "For unpaid-tier and Google One accounts, Gemini CLI was replaced by Antigravity CLI on 18 June 2026, and it is not optimised for the newest Gemini model. The page names Gemini 4 Argon for that case. Plans include a free tier, Google AI Pro, and API-key use."
     }
   ],
-  "features": []
+  "features": [
+    "Google's open-source command-line agent for Gemini, now replaced by Antigravity CLI for unpaid users.",
+    "Gemini CLI is Google's open-source agent that brings Gemini models into the terminal for coding and other tasks, with extensions.",
+    "Google states that, for unpaid-tier and Google One users, Gemini CLI was replaced by Antigravity CLI on 18 June 2026, and that it is not optimised for the newest Gemini model.",
+    "Plans include a free tier, Google AI Pro and API-key use."
+  ],
+  "features_fr": [
+    "L'agent de ligne de commande open source de Google pour Gemini, désormais remplacé par Antigravity CLI pour les utilisateurs non rémunérés.",
+    "Gemini CLI est l'agent open source de Google qui intègre les modèles Gemini dans le terminal pour le codage et d'autres tâches, avec des extensions.",
+    "Google déclare que, pour les utilisateurs non rémunérés et Google One, Gemini CLI a été remplacé par Antigravity CLI le 18 juin 2026 et qu'il n'est pas optimisé pour le dernier modèle Gemini.",
+    "Les forfaits incluent un niveau gratuit, Google AI Pro et l'utilisation des clés API."
+  ]
 }

@@ -57,5 +57,16 @@
       "description": "Those docs say Claude Code, GitHub Copilot, and OpenCode can use DeepSeek as the backend model."
     }
   ],
-  "features": []
+  "features": [
+    "Chinese lab offering open-weight LLMs, a free chat app and a low-cost API.",
+    "DeepSeek develops large language models and publishes open-weight models such as DeepSeek-R1 and DeepSeek-V4, usable for chat, reasoning and coding.",
+    "Its differentiator is open weights combined with very low API prices, with off-peak discounts.",
+    "Chatting in the web and mobile app is free; the API is pay-as-you-go, e.g."
+  ],
+  "features_fr": [
+    "Laboratoire chinois proposant des LLM à poids ouvert, une application de chat gratuite et une API à faible coût.",
+    "DeepSeek développe de grands modèles de langage et publie des modèles ouverts tels que DeepSeek-R1 et DeepSeek-V4, utilisables pour le chat, le raisonnement et le codage.",
+    "Son différenciateur réside dans des pondérations ouvertes combinées à des prix API très bas, avec des remises hors pointe.",
+    "Le chat sur le Web et l'application mobile est gratuit ; l'API est payante, par ex."
+  ]
 }

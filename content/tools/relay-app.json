@@ -4,7 +4,7 @@
   "url": "https://www.relay.app/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Relay.app — AI for AI agents at relay.app.",
+  "summary": "Relay.app: Relay.app is an AI product for AI agents.",
   "description": "Relay.app is an AI product for AI agents.",
   "categories": [
     "ai-agents"
@@ -27,10 +27,9 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Relay.app — AI for AI agents at relay.app.",
-    "Focused on ai agents workflows.",
-    "Relay.app includes automation capabilities.",
-    "Relay.app includes workflows capabilities."
+    "Tool calling to SaaS APIs and internal systems.",
+    "Monitoring, logs, or human handoff where offered.",
+    "Templates to start from common automations."
   ],
   "howToUse": [
     {
@@ -55,5 +54,10 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Outil appelant les API SaaS et les systèmes internes.",
+    "Surveillance, journaux ou transfert humain lorsque cela est proposé.",
+    "Modèles pour démarrer à partir d’automatisations courantes."
   ]
 }

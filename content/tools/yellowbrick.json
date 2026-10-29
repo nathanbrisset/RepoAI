@@ -49,5 +49,11 @@
       "description": "Review plots for diagnostics, feature importance, and model evaluation."
     }
   ],
-  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
+  "features_fr": [
+    "Analyse visuelle des modèles d'apprentissage automatique : fournit des visualisations pour comprendre les performances du modèle.",
+    "Intégration avec Scikit-Learn : fonctionne avec les bibliothèques d'apprentissage automatique Python populaires.",
+    "Outils de diagnostic : propose des outils pour diagnostiquer des problèmes tels que le surapprentissage.",
+    "Visualisation des fonctionnalités : aide à comprendre l’importance et l’impact des fonctionnalités."
+  ]
 }

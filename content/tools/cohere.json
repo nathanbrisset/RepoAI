@@ -50,5 +50,16 @@
       "description": "Open the North platform, an AI workspace for employees, or Compass, which handles enterprise search. Reach models through a pay-per-use API, through dedicated instances billed monthly, or as private deployments with custom pricing."
     }
   ],
-  "features": []
+  "features": [
+    "Enterprise AI company offering Command language models, Embed and Rerank APIs, and the North workspace.",
+    "Cohere builds language models and AI products for businesses.",
+    "Its model line includes Command for text generation, Embed for vector embeddings, Rerank for search relevance and Transcribe for speech recognition.",
+    "The North platform provides an AI workspace for employees, and Compass handles enterprise search."
+  ],
+  "features_fr": [
+    "Entreprise d'IA d'entreprise proposant des modèles de langage de commande, des API d'intégration et de reclassement et l'espace de travail Nord.",
+    "Cohere crée des modèles de langage et des produits d'IA pour les entreprises.",
+    "Sa gamme de modèles comprend Command pour la génération de texte, Embed pour les intégrations vectorielles, Rerank pour la pertinence de la recherche et Transcribe pour la reconnaissance vocale.",
+    "La plate-forme North fournit un espace de travail d'IA aux employés et Compass gère la recherche d'entreprise."
+  ]
 }

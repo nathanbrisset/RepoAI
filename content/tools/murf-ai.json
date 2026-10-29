@@ -21,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/murf-ai.png",
-  "image": "/screenshots/murf-ai.webp",
+  "image": "/tool-screenshots/murf-ai.png",
   "dateAdded": "2023-02-20",
   "lastVerified": null,
   "features": [
@@ -53,5 +53,11 @@
       "title": "Generate & Download",
       "description": "Produce the voiceover and export audio files for use."
     }
+  ],
+  "features_fr": [
+    "Bibliothèque de voix diversifiée : accès à plus de 200 voix réalistes dans plus de 20 langues.",
+    "Clonage vocal : permet la création de voix personnalisées pour un contenu personnalisé.",
+    "AI Voice Changer : transforme les voix enregistrées en narrations de qualité professionnelle.",
+    "Intégrations transparentes : compatible avec des plateformes telles que Canva et Google Slides."
   ]
 }

@@ -50,5 +50,16 @@
       "description": "Start has no platform fee. It includes credits and an inbound number. Talk time is $0.14 a minute, and a transfer adds $0.05 a minute. The higher tier charges $0.12 a minute plus a $299 monthly platform fee. Concurrent call limits rise with the tier."
     }
   ],
-  "features": []
+  "features": [
+    "Voice agent platform with self-hosted models, aimed at enterprise phone automation.",
+    "Bland AI builds, deploys and monitors AI voice agents for phone calls, using self-hosted models and offering enterprise compliance features.",
+    "The Start plan has no platform fee, includes credits and an inbound number, and charges $0.14 per minute plus $0.05 per transfer minute.",
+    "A higher plan charges $0.12 per minute with a $299 monthly platform fee."
+  ],
+  "features_fr": [
+    "Plateforme d'agent vocal avec modèles auto-hébergés, destinée à l'automatisation des téléphones d'entreprise.",
+    "Bland AI crée, déploie et surveille des agents vocaux IA pour les appels téléphoniques, en utilisant des modèles auto-hébergés et en offrant des fonctionnalités de conformité d'entreprise.",
+    "Le plan Start ne comporte aucun frais de plate-forme, comprend des crédits et un numéro entrant, et facture 0,14 $ par minute plus 0,05 $ par minute de transfert.",
+    "Un forfait plus élevé facture 0,12 $ par minute avec des frais de plateforme mensuels de 299 $."
+  ]
 }

@@ -23,7 +23,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/uizard.png",
-  "image": "/screenshots/uizard.webp",
+  "image": "/tool-screenshots/uizard.png",
   "dateAdded": "2022-09-10",
   "lastVerified": null,
   "features": [
@@ -51,5 +51,11 @@
       "title": "Auto-Design & Edit",
       "description": "Use AI to transform sketches into digital designs and customize layouts."
     }
+  ],
+  "features_fr": [
+    "Autodesigner : crée des interfaces utilisateur à partir d'invites textuelles.",
+    "Scanner de capture d'écran : transforme les croquis en interfaces utilisateur modifiables.",
+    "Éditeur glisser-déposer : conception visuelle sans code.",
+    "Focus Predictor : prédit les points chauds d’attention."
   ]
 }

@@ -29,8 +29,7 @@
     "Visual Programming: Build analysis workflows with drag-and-drop widgets.",
     "Interactive Data Exploration: Real-time visualizations and interactive reports.",
     "Add-On Ecosystem: Extensions for text mining, bioinformatics, and more.",
-    "Educational Focus: Designed for teaching and rapid prototyping.",
-    "Integrated Machine Learning: Wide range of built-in ML algorithms."
+    "Educational Focus: Designed for teaching and rapid prototyping."
   ],
   "howToUse": [
     {
@@ -56,5 +55,11 @@
       "description": "Install add-ons for specialized analyses such as text mining or bioinformatics."
     }
   ],
-  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
+  "features_fr": [
+    "Programmation visuelle : créez des flux de travail d'analyse avec des widgets glisser-déposer.",
+    "Exploration interactive des données : visualisations en temps réel et rapports interactifs.",
+    "Écosystème complémentaire : extensions pour l'exploration de texte, la bioinformatique, etc.",
+    "Objectif pédagogique : conçu pour l'enseignement et le prototypage rapide."
+  ]
 }

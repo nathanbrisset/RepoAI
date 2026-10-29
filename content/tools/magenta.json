@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "An open-source project by Google exploring machine learning in music creation, offering tools for melody generation and more.",
-  "description": "An open-source project by Google exploring machine learning in music creation, offering tools for melody generation and more. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "description": "An open-source project by Google exploring machine learning in music creation, offering tools for melody generation and more.",
   "categories": [
     "music"
   ],
@@ -46,5 +46,9 @@
       "title": "Experiment & Export",
       "description": "Experiment with settings and export your musical creations."
     }
+  ],
+  "features_fr": [
+    "Un projet open source de Google explorant l'apprentissage automatique dans la création musicale.",
+    "Offrant des outils pour la génération de mélodies et plus encore."
   ]
 }

@@ -59,5 +59,16 @@
       ]
     }
   ],
-  "features": []
+  "features": [
+    "Anthropic's agentic coding tool for terminal and IDE.",
+    "Claude Code is Anthropic's agentic coding tool that reads your codebase, edits files, runs commands and helps ship features from the terminal, IDE or web.",
+    "It is valued for strong reasoning on large codebases.",
+    "It is not part of the free Claude plan: access starts with Claude Pro at $17/month billed annually ($20 monthly), with Max plans from $100/month, or via pay-as-you-go API usage."
+  ],
+  "features_fr": [
+    "L'outil de codage agent d'Anthropic pour terminal et IDE.",
+    "Claude Code est l'outil de codage agent d'Anthropic qui lit votre base de code, édite des fichiers, exécute des commandes et aide à expédier des fonctionnalités depuis le terminal, l'IDE ou le Web.",
+    "Il est apprécié pour son raisonnement solide sur de grandes bases de code.",
+    "Il ne fait pas partie du forfait gratuit Claude : l'accès commence avec Claude Pro à 17 $/mois facturé annuellement (20 $ par mois), avec les forfaits Max à partir de 100 $/mois, ou via l'utilisation de l'API à l'utilisation."
+  ]
 }

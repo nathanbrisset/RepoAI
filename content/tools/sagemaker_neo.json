@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "inactive",
   "summary": "Amazon SageMaker Neo is a model optimization and deployment platform that enables developers to train machine learning models once and deploy them anywhere. Neo automatically optimizes models for multiple hardware platforms, including cloud instances and edge devices, to maximize performance and minimize latency. It integrates seamlessly with the AWS SageMaker ecosystem and supports popular frameworks such as TensorFlow, MXNet, and PyTorch. SageMaker Neo empowers organizations to quickly roll out efficient ML solutions across diverse environments.",
-  "description": "Amazon SageMaker Neo is a model optimization and deployment platform that enables developers to train machine learning models once and deploy them anywhere. Neo automatically optimizes models for multiple hardware platforms, including cloud instances and edge devices, to maximize performance and minimize latency. It integrates seamlessly with the AWS SageMaker ecosystem and supports popular frameworks such as TensorFlow, MXNet, and PyTorch. SageMaker Neo empowers organizations to quickly roll out efficient ML solutions across diverse environments. The next generation of Amazon SageMaker is the center for all your data, analytics, and AI\n\nMulti-Framework Compatibility: Supports TensorFlow, PyTorch, MXNet, and more. Cross-Platform Deployment: Optimizes models for cloud and edge hardware. Accelerated Inference: Reduces latency and improves throughput on optimized hardware. Seamless AWS Integration: Directly connects with the SageMaker ecosystem.",
+  "description": "Amazon SageMaker Neo is a model optimization and deployment platform that enables developers to train machine learning models once and deploy them anywhere. Neo automatically optimizes models for multiple hardware platforms, including cloud instances and edge devices, to maximize performance and minimize latency. It integrates seamlessly with the AWS SageMaker ecosystem and supports popular frameworks such as TensorFlow, MXNet, and PyTorch. SageMaker Neo empowers organizations to quickly roll out efficient ML solutions across diverse environments. The next generation of Amazon SageMaker is the center for all your data, analytics, and AI Multi-Framework Compatibility: Supports TensorFlow, PyTorch, MXNet, and more. Cross-Platform Deployment: Optimizes models for cloud and edge hardware. Accelerated Inference: Reduces latency and improves throughput on optimized hardware. Seamless AWS Integration: Directly connects with the SageMaker ecosystem.",
   "categories": [
     "data"
   ],
@@ -29,8 +29,7 @@
     "Multi-Framework Compatibility: Supports TensorFlow, PyTorch, MXNet, and more.",
     "Cross-Platform Deployment: Optimizes models for cloud and edge hardware.",
     "Accelerated Inference: Reduces latency and improves throughput on optimized hardware.",
-    "Seamless AWS Integration: Directly connects with the SageMaker ecosystem.",
-    "Automatic Model Compilation: Converts models automatically for target devices."
+    "Seamless AWS Integration: Directly connects with the SageMaker ecosystem."
   ],
   "howToUse": [
     {
@@ -56,5 +55,11 @@
       "description": "Deploy optimized models to cloud endpoints or edge devices."
     }
   ],
-  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
+  "features_fr": [
+    "Compatibilité multi-framework : prend en charge TensorFlow, PyTorch, MXNet et plus encore.",
+    "Déploiement multiplateforme : optimise les modèles pour le matériel cloud et Edge.",
+    "Inférence accélérée : réduit la latence et améliore le débit sur du matériel optimisé.",
+    "Intégration AWS transparente : se connecte directement à l'écosystème SageMaker."
+  ]
 }

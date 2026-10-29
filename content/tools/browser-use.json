@@ -52,5 +52,16 @@
       "description": "Connect a developer agent to the cloud browsers, including Playwright or Puppeteer over CDP. This infrastructure bills cloud browsers at $0.02 per hour and residential proxies at $5 per GB."
     }
   ],
-  "features": []
+  "features": [
+    "Cloud browsers and web agents for automating tasks on websites, with an open-source library.",
+    "Browser Use offers infrastructure for agents that operate websites.",
+    "Its hosted agents complete tasks in a browser, and its cloud browsers can be driven by a developer's own agent.",
+    "The project started as an open-source library."
+  ],
+  "features_fr": [
+    "Navigateurs cloud et agents Web pour automatiser les tâches sur les sites Web, avec une bibliothèque open source.",
+    "L'utilisation du navigateur offre une infrastructure aux agents qui exploitent des sites Web.",
+    "Ses agents hébergés effectuent des tâches dans un navigateur et ses navigateurs cloud peuvent être pilotés par le propre agent d'un développeur.",
+    "Le projet a commencé comme une bibliothèque open source."
+  ]
 }
