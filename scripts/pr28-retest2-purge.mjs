@@ -151,7 +151,10 @@ function cleanFrAbout(tool) {
   if (description_fr && lineIsFiller(description_fr)) {
     description_fr = summary_fr || description_fr
   }
-  if (summary_fr && !description_fr) description_fr = summary_fr
+  if (summary_fr) tool.summary_fr = summary_fr
+  else delete tool.summary_fr
+  if (description_fr) tool.description_fr = description_fr
+  else delete tool.description_fr
   return { summary_fr, description_fr }
 }
 
