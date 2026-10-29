@@ -129,7 +129,7 @@ export function HomeDirectory({
               </div>
             ) : null}
           </form>
-          <div className="mt-6 flex flex-col gap-4">
+          <div className="mt-6 flex flex-col gap-4 max-sm:pb-[var(--cookie-banner-h,0px)]">
             <button
               type="button"
               onClick={() => setSwipeOpen(true)}

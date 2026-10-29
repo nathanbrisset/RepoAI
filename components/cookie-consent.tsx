@@ -13,6 +13,21 @@ export default function CookieConsent() {
     if (!readConsent()) setShowBanner(true)
   }, [])
 
+  useEffect(() => {
+    const root = document.documentElement
+    if (showBanner) {
+      root.style.setProperty(
+        "--cookie-banner-h",
+        "max(7.25rem, calc(env(safe-area-inset-bottom, 0px) + 6.75rem))",
+      )
+    } else {
+      root.style.removeProperty("--cookie-banner-h")
+    }
+    return () => {
+      root.style.removeProperty("--cookie-banner-h")
+    }
+  }, [showBanner])
+
   const handleAccept = () => {
     writeConsent("accepted")
     setShowBanner(false)

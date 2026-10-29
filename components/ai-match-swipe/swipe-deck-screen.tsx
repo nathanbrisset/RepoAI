@@ -87,7 +87,7 @@ export function SwipeDeckScreen({ tool, progressCurrent, progressTotal, keptCoun
 
   return (
     <div className="flex min-h-0 flex-1 flex-col px-4 py-4 md:px-6">
-      <div className="mb-4 flex items-center justify-between gap-3">
+      <div className="mb-3 flex items-center justify-between gap-3">
         <button
           type="button"
           onClick={onEditFilters}
@@ -96,9 +96,25 @@ export function SwipeDeckScreen({ tool, progressCurrent, progressTotal, keptCoun
           <SlidersHorizontal className="size-4" aria-hidden="true" />
           {t.swipeEditFilters}
         </button>
-        <p className="text-sm font-semibold tabular-nums text-muted-foreground">
+        <p className="sr-only">
           {t.swipeProgress.replace("{current}", String(progressCurrent)).replace("{total}", String(progressTotal))}
         </p>
+        <span className="text-sm font-semibold tabular-nums text-muted-foreground" aria-hidden="true">
+          {progressCurrent}/{progressTotal}
+        </span>
+      </div>
+      <div
+        className="mb-4 h-1.5 w-full overflow-hidden rounded-full bg-muted"
+        role="progressbar"
+        aria-valuenow={progressCurrent}
+        aria-valuemin={1}
+        aria-valuemax={progressTotal}
+        aria-label={t.swipeProgress.replace("{current}", String(progressCurrent)).replace("{total}", String(progressTotal))}
+      >
+        <div
+          className="h-full rounded-full bg-accent transition-[width] duration-300 ease-out"
+          style={{ width: `${progressTotal > 0 ? (progressCurrent / progressTotal) * 100 : 0}%` }}
+        />
       </div>
 
       <div className="relative mx-auto w-full max-w-md flex-1 touch-pan-y">

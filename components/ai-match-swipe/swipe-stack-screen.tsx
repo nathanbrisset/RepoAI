@@ -26,7 +26,11 @@ export function SwipeStackScreen({ tools, onOpenStack, onKeepSwiping, onClose }:
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-accent">{t.swipeStackKicker}</p>
         <h2 className="mt-2 font-display text-2xl">{t.swipeStackTitle}</h2>
         <p className="mt-2 text-sm text-muted-foreground">
-          {tools.length > 0 ? fill(t.swipeStackCountMany, { count: tools.length }) : t.swipeStackEmpty}
+          {tools.length === 0
+            ? t.swipeStackEmpty
+            : tools.length === 1
+              ? t.swipeStackCountOne
+              : fill(t.swipeStackCountMany, { count: tools.length })}
         </p>
 
         <ul className="mt-6 space-y-3">
