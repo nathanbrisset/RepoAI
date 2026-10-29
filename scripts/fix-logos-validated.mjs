@@ -13,8 +13,8 @@ const toolsDir = path.join(root, "content/tools")
 
 const TARGETS = {
   goose: [
-    "https://raw.githubusercontent.com/block/goose/main/documentation/static/img/logo_light.png",
     "https://raw.githubusercontent.com/block/goose/main/documentation/static/img/logo_codename_goose.png",
+    "https://raw.githubusercontent.com/block/goose/main/documentation/static/img/logo_light.png",
     "https://raw.githubusercontent.com/block/goose/main/documentation/docs/assets/logo.png",
   ],
   codegen: [
@@ -66,6 +66,17 @@ async function fixId(id, urls) {
         out = await toPng(buf)
       } catch {
         /* keep */
+      }
+      if (id === "goose") {
+        try {
+          const sharp = (await import("sharp")).default
+          out = await sharp(out)
+            .resize(128, 128, { fit: "inside", background: { r: 255, g: 255, b: 255 } })
+            .png()
+            .toBuffer()
+        } catch {
+          /* keep */
+        }
       }
       if (!isImageBuffer(out)) continue
       fs.mkdirSync(logoDir, { recursive: true })
