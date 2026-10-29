@@ -51,7 +51,7 @@ export function CollectionDetail({ collection, recipes = [] }: { collection: Res
           ))}
         </div>
       )}
-      {shortsTeaser ? (
+      {shortsTeaser && recipes.length === 0 ? (
         <section className="mt-16 rounded-3xl bg-foreground p-8 text-background">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-accent">{t.recipesKicker}</p>
           <h2 className="mt-2 font-display text-3xl">{t.recipesTitle}</h2>
