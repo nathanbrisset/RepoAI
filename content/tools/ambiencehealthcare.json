@@ -4,10 +4,10 @@
   "url": "https://www.ambiencehealthcare.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Ambience Healthcare is an AI product in the Health & Medical space with official hosting at ambiencehealthcare.com.",
-  "description": "Ambience Healthcare is an AI product in the Health & Medical space with official hosting at ambiencehealthcare.com.\n\nScribe médical IA pour hôpitaux. Check the pricing page before production use.\n\nFeature: Ambience Healthcare ships the main workflow advertised on its official site.",
+  "summary": "Ambience Healthcare: Scribe médical IA pour hôpitaux.",
+  "description": "Feature: . Feature: Web app and account features on ambiencehealthcare.com. Feature: Collaboration, roles or workspaces when offered by the vendor. Feature: Exports, API or integrations for your existing stack.",
   "summary_fr": "Scribe médical IA pour hôpitaux.",
-  "description_fr": "Scribe médical IA pour hôpitaux. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Scribe médical IA pour hôpitaux. Consulte le site officiel pour les tarifs et limites avant un usage en production.",
   "categories": [
     "health"
   ],
@@ -20,24 +20,24 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.ambiencehealthcare.com"
   },
   "logo": "/logos/ambiencehealthcare.png",
-  "image": "",
+  "image": "/screenshots/ambiencehealthcare.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Ambience Healthcare ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Scribe médical IA pour hôpitaux.",
+    "Web app and account features on ambiencehealthcare.com.",
+    "Collaboration, roles or workspaces when offered by the vendor.",
+    "Exports, API or integrations for your existing stack."
   ],
   "features_fr": [
-    "Ambience Healthcare propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Scribe médical IA pour hôpitaux.",
+    "Application web et compte utilisateur sur le site officiel.",
+    "Collaboration, rôles ou espaces d'équipe selon l'offre.",
+    "Exports, API ou intégrations avec ton environnement."
   ],
   "howToUse": [
     {

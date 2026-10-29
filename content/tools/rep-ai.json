@@ -4,10 +4,10 @@
   "url": "https://www.hellorep.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Rep AI is an AI product in the Customer Support space with official hosting at hellorep.ai.",
-  "description": "Rep AI is an AI product in the Customer Support space with official hosting at hellorep.ai.\n\nAssistant de vente et SAV IA pour Shopify. Check the pricing page before production use.\n\nFeature: Rep AI ships the main workflow advertised on its official site.",
+  "summary": "Rep AI: Assistant de vente et SAV IA pour Shopify.",
+  "description": "Rep AI focuses on assistant de vente et SAV IA pour Shopify. Visit hellorep.ai for plans, limits and regional availability.\n\nFeature: . Feature: Web app and account features on hellorep.ai. Feature: Collaboration, roles or workspaces when offered by the vendor. Feature: Exports, API or integrations for your existing stack.",
   "summary_fr": "Assistant de vente et SAV IA pour Shopify.",
-  "description_fr": "Assistant de vente et SAV IA pour Shopify. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Assistant de vente et SAV IA pour Shopify. Consulte le site officiel pour les tarifs et limites avant un usage en production.",
   "categories": [
     "support"
   ],
@@ -20,24 +20,24 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.hellorep.ai"
   },
   "logo": "/logos/rep-ai.png",
-  "image": "",
+  "image": "/screenshots/rep-ai.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Rep AI ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Assistant de vente et SAV IA pour Shopify.",
+    "Web app and account features on hellorep.ai.",
+    "Collaboration, roles or workspaces when offered by the vendor.",
+    "Exports, API or integrations for your existing stack."
   ],
   "features_fr": [
-    "Rep AI propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Assistant de vente et SAV IA pour Shopify.",
+    "Application web et compte utilisateur sur le site officiel.",
+    "Collaboration, rôles ou espaces d'équipe selon l'offre.",
+    "Exports, API ou intégrations avec ton environnement."
   ],
   "howToUse": [
     {

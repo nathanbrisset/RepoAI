@@ -4,10 +4,10 @@
   "url": "https://agent.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Agent.ai is an AI product in the AI Agents space with official hosting at agent.ai.",
-  "description": "Agent.ai is an AI product in the AI Agents space with official hosting at agent.ai.\n\nPlace de marché d'agents IA prêts à l'emploi. Check the pricing page before production use.\n\nFeature: Agent.ai ships the main workflow advertised on its official site.",
+  "summary": "Agent.ai: Place de marché d'agents IA prêts à l'emploi.",
+  "description": "Feature: . Feature: Web app and account features on agent.ai. Feature: Collaboration, roles or workspaces when offered by the vendor. Feature: Exports, API or integrations for your existing stack.",
   "summary_fr": "Place de marché d'agents IA prêts à l'emploi.",
-  "description_fr": "Place de marché d'agents IA prêts à l'emploi. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Place de marché d'agents IA prêts à l'emploi. Consulte le site officiel pour les tarifs et limites avant un usage en production.",
   "categories": [
     "ai-agents"
   ],
@@ -19,7 +19,7 @@
     "model": "free",
     "label": "Free",
     "verified": false,
-    "note": "Gratuit",
+    "note": "Free tier available; see the official site for limits.",
     "sourceUrl": "https://agent.ai"
   },
   "logo": "/logos/agent.png",
@@ -27,16 +27,16 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Agent.ai ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Place de marché d'agents IA prêts à l'emploi.",
+    "Web app and account features on agent.ai.",
+    "Collaboration, roles or workspaces when offered by the vendor.",
+    "Exports, API or integrations for your existing stack."
   ],
   "features_fr": [
-    "Agent.ai propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Place de marché d'agents IA prêts à l'emploi.",
+    "Application web et compte utilisateur sur le site officiel.",
+    "Collaboration, rôles ou espaces d'équipe selon l'offre.",
+    "Exports, API ou intégrations avec ton environnement."
   ],
   "howToUse": [
     {

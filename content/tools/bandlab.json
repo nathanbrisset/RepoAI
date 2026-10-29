@@ -4,10 +4,10 @@
   "url": "https://www.bandlab.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "BandLab is an AI product in the Music & Audio space with official hosting at bandlab.com.",
-  "description": "BandLab is an AI product in the Music & Audio space with official hosting at bandlab.com.\n\nStudio musical gratuit avec SongStarter et mastering IA. Check the pricing page before production use.\n\nFeature: BandLab ships the main workflow advertised on its official site.",
+  "summary": "BandLab: Studio musical gratuit avec SongStarter et mastering IA.",
+  "description": "BandLab focuses on studio musical gratuit avec SongStarter et mastering IA. Visit bandlab.com for plans, limits and regional availability.\n\nFeature: . Feature: Web app and account features on bandlab.com. Feature: Collaboration, roles or workspaces when offered by the vendor. Feature: Exports, API or integrations for your existing stack.",
   "summary_fr": "Studio musical gratuit avec SongStarter et mastering IA.",
-  "description_fr": "Studio musical gratuit avec SongStarter et mastering IA. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Studio musical gratuit avec SongStarter et mastering IA. Consulte le site officiel pour les tarifs et limites avant un usage en production.",
   "categories": [
     "music"
   ],
@@ -20,24 +20,24 @@
     "model": "free",
     "label": "Free",
     "verified": false,
-    "note": "Gratuit",
+    "note": "Free tier available; see the official site for limits.",
     "sourceUrl": "https://www.bandlab.com"
   },
   "logo": "/logos/bandlab.png",
-  "image": "",
+  "image": "/screenshots/bandlab.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "BandLab ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Studio musical gratuit avec SongStarter et mastering IA.",
+    "Web app and account features on bandlab.com.",
+    "Collaboration, roles or workspaces when offered by the vendor.",
+    "Exports, API or integrations for your existing stack."
   ],
   "features_fr": [
-    "BandLab propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Studio musical gratuit avec SongStarter et mastering IA.",
+    "Application web et compte utilisateur sur le site officiel.",
+    "Collaboration, rôles ou espaces d'équipe selon l'offre.",
+    "Exports, API ou intégrations avec ton environnement."
   ],
   "howToUse": [
     {

@@ -4,10 +4,10 @@
   "url": "https://duck.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Duck.ai is an AI product in the LLM & Chatbots space with official hosting at duck.ai.",
-  "description": "Duck.ai is an AI product in the LLM & Chatbots space with official hosting at duck.ai.\n\nChat IA anonyme de DuckDuckGo. Check the pricing page before production use.\n\nFeature: Duck.ai ships the main workflow advertised on its official site.",
+  "summary": "Duck.ai: Chat IA anonyme de DuckDuckGo.",
+  "description": "Duck.ai focuses on chat IA anonyme de DuckDuckGo. Visit duck.ai for plans, limits and regional availability.\n\nFeature: . Feature: Web app and account features on duck.ai. Feature: Collaboration, roles or workspaces when offered by the vendor. Feature: Exports, API or integrations for your existing stack.",
   "summary_fr": "Chat IA anonyme de DuckDuckGo.",
-  "description_fr": "Chat IA anonyme de DuckDuckGo. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Chat IA anonyme de DuckDuckGo. Consulte le site officiel pour les tarifs et limites avant un usage en production.",
   "categories": [
     "llm-chatbots"
   ],
@@ -20,24 +20,24 @@
     "model": "free",
     "label": "Free",
     "verified": false,
-    "note": "Gratuit",
+    "note": "Free tier available; see the official site for limits.",
     "sourceUrl": "https://duck.ai"
   },
   "logo": "/logos/duck.png",
-  "image": "",
+  "image": "/screenshots/duck.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Duck.ai ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Chat IA anonyme de DuckDuckGo.",
+    "Web app and account features on duck.ai.",
+    "Collaboration, roles or workspaces when offered by the vendor.",
+    "Exports, API or integrations for your existing stack."
   ],
   "features_fr": [
-    "Duck.ai propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Chat IA anonyme de DuckDuckGo.",
+    "Application web et compte utilisateur sur le site officiel.",
+    "Collaboration, rôles ou espaces d'équipe selon l'offre.",
+    "Exports, API ou intégrations avec ton environnement."
   ],
   "howToUse": [
     {

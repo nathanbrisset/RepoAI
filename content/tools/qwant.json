@@ -4,10 +4,10 @@
   "url": "https://www.qwant.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Qwant is an AI product in the Search & Research space with official hosting at qwant.com.",
-  "description": "Qwant is an AI product in the Search & Research space with official hosting at qwant.com.\n\nMoteur de recherche européen avec réponses IA. Check the pricing page before production use.\n\nFeature: Qwant ships the main workflow advertised on its official site.",
+  "summary": "Qwant: Moteur de recherche européen avec réponses IA.",
+  "description": "Feature: . Feature: Web app and account features on qwant.com. Feature: Collaboration, roles or workspaces when offered by the vendor. Feature: Exports, API or integrations for your existing stack.",
   "summary_fr": "Moteur de recherche européen avec réponses IA.",
-  "description_fr": "Moteur de recherche européen avec réponses IA. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Moteur de recherche européen avec réponses IA. Consulte le site officiel pour les tarifs et limites avant un usage en production.",
   "categories": [
     "search"
   ],
@@ -20,24 +20,24 @@
     "model": "free",
     "label": "Free",
     "verified": false,
-    "note": "Gratuit",
+    "note": "Free tier available; see the official site for limits.",
     "sourceUrl": "https://www.qwant.com"
   },
   "logo": "/logos/qwant.png",
-  "image": "",
+  "image": "/screenshots/qwant.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Qwant ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Moteur de recherche européen avec réponses IA.",
+    "Web app and account features on qwant.com.",
+    "Collaboration, roles or workspaces when offered by the vendor.",
+    "Exports, API or integrations for your existing stack."
   ],
   "features_fr": [
-    "Qwant propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Moteur de recherche européen avec réponses IA.",
+    "Application web et compte utilisateur sur le site officiel.",
+    "Collaboration, rôles ou espaces d'équipe selon l'offre.",
+    "Exports, API ou intégrations avec ton environnement."
   ],
   "howToUse": [
     {

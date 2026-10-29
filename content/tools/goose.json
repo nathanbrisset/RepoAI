@@ -4,8 +4,8 @@
   "url": "https://block.github.io/goose/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Goose delivers AI-assisted capabilities for coding & dev tools teams via block.github.io.",
-  "description": "Goose delivers AI-assisted capabilities for coding & dev tools teams via block.github.io. Check the pricing page before production use.\n\nFeature: Goose ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Open-source AI agent from Block for terminal, desktop and API workflows.",
+  "description": "Goose is Block's local open-source agent that reads your repo, edits files, runs shell commands and automates dev tasks from the terminal, a desktop app or an API. It extends via MCP servers.",
   "categories": [
     "coding"
   ],
@@ -27,10 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Goose ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Local open-source agent with file and shell access.",
+    "MCP extensions to connect your tools.",
+    "CLI, desktop app and API modes.",
+    "Automates coding and deployment tasks on your machine."
   ],
   "howToUse": [
     {

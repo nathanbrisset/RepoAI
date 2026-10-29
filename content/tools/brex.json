@@ -4,10 +4,10 @@
   "url": "https://www.brex.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Brex is an AI product in the Finance & Accounting space with official hosting at brex.com.",
-  "description": "Brex is an AI product in the Finance & Accounting space with official hosting at brex.com.\n\nDépenses d'entreprise automatisées par IA. Check the pricing page before production use.\n\nFeature: Brex ships the main workflow advertised on its official site.",
+  "summary": "Brex: Dépenses d'entreprise automatisées par IA.",
+  "description": "Feature: . Feature: Web app and account features on brex.com. Feature: Collaboration, roles or workspaces when offered by the vendor. Feature: Exports, API or integrations for your existing stack.",
   "summary_fr": "Dépenses d'entreprise automatisées par IA.",
-  "description_fr": "Dépenses d'entreprise automatisées par IA. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Dépenses d'entreprise automatisées par IA. Consulte le site officiel pour les tarifs et limites avant un usage en production.",
   "categories": [
     "finance"
   ],
@@ -20,24 +20,24 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.brex.com"
   },
   "logo": "/logos/brex.png",
-  "image": "",
+  "image": "/screenshots/brex.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Brex ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Dépenses d'entreprise automatisées par IA.",
+    "Web app and account features on brex.com.",
+    "Collaboration, roles or workspaces when offered by the vendor.",
+    "Exports, API or integrations for your existing stack."
   ],
   "features_fr": [
-    "Brex propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Dépenses d'entreprise automatisées par IA.",
+    "Application web et compte utilisateur sur le site officiel.",
+    "Collaboration, rôles ou espaces d'équipe selon l'offre.",
+    "Exports, API ou intégrations avec ton environnement."
   ],
   "howToUse": [
     {

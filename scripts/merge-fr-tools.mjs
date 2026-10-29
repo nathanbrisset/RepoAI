@@ -9,25 +9,43 @@ const outFile = path.join(root, "content/i18n/fr-tools.json")
 
 const batches = fs
   .readdirSync(batchDir)
-  .filter((name) => /^fr-\d+\.json$/.test(name))
-  .sort()
+  .filter((name) => /^fr-\d+\.json$/.test(name) || name === "fr-audit-pack.json" || name === "fr-7-qa-canonical.json")
+  .sort((a, b) => {
+    const rank = (n) => {
+      if (n === "fr-audit-pack.json") return 900
+      if (n === "fr-7-qa-canonical.json") return 1000
+      const m = n.match(/^fr-(\d+)\.json$/)
+      return m ? Number(m[1]) : 500
+    }
+    return rank(a) - rank(b) || a.localeCompare(b)
+  })
 
 const french = {}
 for (const name of batches) {
   const batch = JSON.parse(fs.readFileSync(path.join(batchDir, name), "utf8"))
   for (const [id, value] of Object.entries(batch)) {
-    if (!value?.summary_fr || !value?.description_fr) {
+    const prev = french[id] || {}
+    const summary_fr = (value.summary_fr || prev.summary_fr || "").trim()
+    const description_fr = (value.description_fr || prev.description_fr || "").trim()
+    if (!summary_fr || !description_fr) {
       throw new Error(`${name} is missing summary_fr or description_fr for ${id}`)
     }
     french[id] = {
-      summary_fr: value.summary_fr.trim(),
-      description_fr: value.description_fr.trim(),
+      ...prev,
+      summary_fr,
+      description_fr,
+    }
+    if (Array.isArray(value.features_fr) && value.features_fr.length) {
+      french[id].features_fr = value.features_fr
     }
     if (Array.isArray(value.howToUse_fr) && value.howToUse_fr.length) {
       french[id].howToUse_fr = value.howToUse_fr
     }
     if (typeof value.statusNote_fr === "string" && value.statusNote_fr.trim()) {
       french[id].statusNote_fr = value.statusNote_fr.trim()
+    }
+    if (typeof value.pricingNote_fr === "string" && value.pricingNote_fr.trim()) {
+      french[id].pricingNote_fr = value.pricingNote_fr.trim()
     }
   }
 }

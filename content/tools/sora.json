@@ -27,5 +27,19 @@
   "sources": [
     "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
     "https://openai.com/index/sora/"
-  ]
+  ],
+  "features": [
+    "Text-to-video generation from natural-language prompts.",
+    "Remix and extend clips inside the Sora app.",
+    "Share exports when your ChatGPT plan includes Sora access.",
+    "Regional and plan limits apply; see OpenAI help for status."
+  ],
+  "features_fr": [
+    "Génération vidéo à partir de prompts textuels.",
+    "Remix et extension de clips dans l'application Sora.",
+    "Partage des exports selon l'éligibilité de ton plan ChatGPT.",
+    "Disponibilité selon la région et le plan ; voir l'aide OpenAI."
+  ],
+  "summary_fr": "Application OpenAI de texte vers vidéo pour créer et remixer de courts clips.",
+  "description_fr": "Sora est le produit de génération vidéo d'OpenAI sur sora.com. Les utilisateurs ChatGPT éligibles peuvent créer, remixer et partager de courtes vidéos à partir de prompts. La disponibilité et les limites dépendent de ton plan et de ta région ; consulte le centre d'aide OpenAI."
 }

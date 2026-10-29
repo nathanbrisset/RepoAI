@@ -4,10 +4,10 @@
   "url": "https://www.11x.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "11x is an AI product in the Sales & CRM space with official hosting at 11x.ai.",
-  "description": "11x is an AI product in the Sales & CRM space with official hosting at 11x.ai.\n\nSDR IA autonome. Check the pricing page before production use.\n\nFeature: 11x ships the main workflow advertised on its official site.",
+  "summary": "11x: SDR IA autonome.",
+  "description": "11x focuses on sDR IA autonome. Visit 11x.ai for plans, limits and regional availability.\n\nFeature: . Feature: Web app and account features on 11x.ai. Feature: Collaboration, roles or workspaces when offered by the vendor. Feature: Exports, API or integrations for your existing stack.",
   "summary_fr": "SDR IA autonome.",
-  "description_fr": "SDR IA autonome. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "SDR IA autonome. Consulte le site officiel pour les tarifs et limites avant un usage en production.",
   "categories": [
     "sales"
   ],
@@ -20,24 +20,24 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.11x.ai"
   },
   "logo": "/logos/11x.png",
-  "image": "",
+  "image": "/screenshots/11x.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "11x ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "SDR IA autonome.",
+    "Web app and account features on 11x.ai.",
+    "Collaboration, roles or workspaces when offered by the vendor.",
+    "Exports, API or integrations for your existing stack."
   ],
   "features_fr": [
-    "11x propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "SDR IA autonome.",
+    "Application web et compte utilisateur sur le site officiel.",
+    "Collaboration, rôles ou espaces d'équipe selon l'offre.",
+    "Exports, API ou intégrations avec ton environnement."
   ],
   "howToUse": [
     {

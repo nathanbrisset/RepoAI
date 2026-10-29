@@ -4,10 +4,10 @@
   "url": "https://www.cassidyai.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Cassidy AI is an AI product in the AI Agents space with official hosting at cassidyai.com.",
-  "description": "Cassidy AI is an AI product in the AI Agents space with official hosting at cassidyai.com.\n\nAssistants et workflows IA entraînés sur vos documents. Check the pricing page before production use.\n\nFeature: Cassidy AI ships the main workflow advertised on its official site.",
+  "summary": "Cassidy AI: Assistants et workflows IA entraînés sur vos documents.",
+  "description": "Feature: . Feature: Web app and account features on cassidyai.com. Feature: Collaboration, roles or workspaces when offered by the vendor. Feature: Exports, API or integrations for your existing stack.",
   "summary_fr": "Assistants et workflows IA entraînés sur vos documents.",
-  "description_fr": "Assistants et workflows IA entraînés sur vos documents. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Assistants et workflows IA entraînés sur vos documents. Consulte le site officiel pour les tarifs et limites avant un usage en production.",
   "categories": [
     "ai-agents"
   ],
@@ -19,7 +19,7 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.cassidyai.com"
   },
   "logo": "/logos/cassidyai.png",
@@ -27,16 +27,16 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Cassidy AI ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Assistants et workflows IA entraînés sur vos documents.",
+    "Web app and account features on cassidyai.com.",
+    "Collaboration, roles or workspaces when offered by the vendor.",
+    "Exports, API or integrations for your existing stack."
   ],
   "features_fr": [
-    "Cassidy AI propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Assistants et workflows IA entraînés sur vos documents.",
+    "Application web et compte utilisateur sur le site officiel.",
+    "Collaboration, rôles ou espaces d'équipe selon l'offre.",
+    "Exports, API ou intégrations avec ton environnement."
   ],
   "howToUse": [
     {

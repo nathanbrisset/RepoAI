@@ -4,10 +4,10 @@
   "url": "https://www.hippocraticai.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Hippocratic AI is an AI product in the Health & Medical space with official hosting at hippocraticai.com.",
-  "description": "Hippocratic AI is an AI product in the Health & Medical space with official hosting at hippocraticai.com.\n\nAgents IA de santé pour suivi patient. Check the pricing page before production use.\n\nFeature: Hippocratic AI ships the main workflow advertised on its official site.",
+  "summary": "Hippocratic AI: Agents IA de santé pour suivi patient.",
+  "description": "Hippocratic AI focuses on agents IA de santé pour suivi patient. Visit hippocraticai.com for plans, limits and regional availability.\n\nFeature: . Feature: Web app and account features on hippocraticai.com. Feature: Collaboration, roles or workspaces when offered by the vendor. Feature: Exports, API or integrations for your existing stack.",
   "summary_fr": "Agents IA de santé pour suivi patient.",
-  "description_fr": "Agents IA de santé pour suivi patient. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Agents IA de santé pour suivi patient. Consulte le site officiel pour les tarifs et limites avant un usage en production.",
   "categories": [
     "health"
   ],
@@ -20,24 +20,24 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.hippocraticai.com"
   },
   "logo": "/logos/hippocraticai.png",
-  "image": "",
+  "image": "/screenshots/hippocraticai.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Hippocratic AI ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Agents IA de santé pour suivi patient.",
+    "Web app and account features on hippocraticai.com.",
+    "Collaboration, roles or workspaces when offered by the vendor.",
+    "Exports, API or integrations for your existing stack."
   ],
   "features_fr": [
-    "Hippocratic AI propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Agents IA de santé pour suivi patient.",
+    "Application web et compte utilisateur sur le site officiel.",
+    "Collaboration, rôles ou espaces d'équipe selon l'offre.",
+    "Exports, API ou intégrations avec ton environnement."
   ],
   "howToUse": [
     {

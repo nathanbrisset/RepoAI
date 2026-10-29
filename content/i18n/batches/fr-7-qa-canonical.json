@@ -1,0 +1,161 @@
+{
+  "claude": {
+    "summary_fr": "Assistant d'IA d'Anthropic pour l'écriture, l'analyse et le code.",
+    "description_fr": "Claude est l'assistant d'IA d'Anthropic pour l'écriture, l'analyse, la recherche et le code, avec Artifacts, les projets, les connecteurs et Claude in Chrome. Il est reconnu pour son raisonnement soigneux et les documents longs. Un plan gratuit est disponible sur le web, en application de bureau et sur mobile ; Pro coûte 17 €/mois (facturation annuelle) et inclut Claude Code, tandis que Max commence à 100 €/mois.",
+    "features_fr": [
+      "Long contexte : traite des documents jusqu'à 200 000 tokens.",
+      "Sécurité et alignement : réponses fiables et prudentes.",
+      "Rédaction créative : contenus détaillés et imaginatifs.",
+      "Recherche : réponses fondées sur des documents longs."
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Crée un compte ou connecte-toi",
+        "description": "Inscris-toi sur claude.ai pour accéder à l'assistant.",
+        "links": [{ "label": "Claude", "url": "https://claude.ai" }]
+      },
+      {
+        "title": "Importe ou colle ton contenu",
+        "description": "Colle de longs documents, pose des questions de recherche ou lance une tâche créative."
+      },
+      {
+        "title": "Exploite le long contexte",
+        "description": "Utilise Claude pour résumer, analyser ou rédiger des contenus longs."
+      },
+      {
+        "title": "Exporte ou poursuis",
+        "description": "Copie les résultats ou continue la conversation."
+      }
+    ]
+  },
+  "gemini": {
+    "summary_fr": "L'assistant IA de Google, propulsé par la famille de modèles Gemini.",
+    "description_fr": "Gemini est l'assistant et la famille de modèles IA de Google (dernière génération Gemini) pour le chat, la recherche approfondie, la création d'images et de vidéos et Gemini Live, intégré aux applications Google. L'application est gratuite avec un compte Google ; Google AI Plus coûte 4,99 €/mois, Pro 19,99 €/mois et Ultra à partir de 99,99 €/mois ; les développeurs accèdent aux modèles via Google AI Studio et l'API Gemini.",
+    "features_fr": [
+      "Multilingue : traduction et compréhension dans de nombreuses langues.",
+      "Synthèses précises : idées clés extraites de longs documents.",
+      "Cohérence factuelle : priorité aux faits et aux sources.",
+      "Rédaction académique : citations, arguments structurés et rapports."
+    ]
+  },
+  "chatgpt": {
+    "features_fr": [
+      "Entrées multimodales : texte, images et commandes vocales.",
+      "Interpréteur de code : analyse de données, calculs et transformation de fichiers.",
+      "Mémoire : mémorisation sélective des préférences et échanges passés.",
+      "Raisonnement avancé : logique, résolution de problèmes et écriture créative."
+    ]
+  },
+  "midjourney": {
+    "features_fr": [
+      "Génération d'images à partir de prompts textuels.",
+      "Vidéos courtes et outils de retouche dans l'application web.",
+      "Communauté Discord et bibliothèque de styles.",
+      "Plans Basic à Mega avec mode Relax sur les formules supérieures."
+    ]
+  },
+  "perplexity-ai": {
+    "features_fr": [
+      "Réponses citées : réponses en temps réel avec sources.",
+      "Recherche web : combine IA et données en direct.",
+      "Relances contextuelles : questions de suivi dans la même conversation.",
+      "Entrées multimodales : texte et voix."
+    ]
+  },
+  "notion-ai": {
+    "features_fr": [
+      "Assistant d'écriture : génération, réécriture et résumés.",
+      "Automatisation : flux répétitifs dans les bases Notion.",
+      "Brainstorming : idées à partir de prompts.",
+      "Suggestions intégrées : amélioration du texte dans les pages."
+    ]
+  },
+  "elevenlabs": {
+    "features_fr": [
+      "Synthèse vocale réaliste dans de nombreuses langues.",
+      "Clonage de voix et doublage pour la vidéo.",
+      "API et SDK pour intégrer la voix dans les produits.",
+      "Studio de création audio et bibliothèque de voix."
+    ]
+  },
+  "runway": {
+    "features_fr": [
+      "Génération et édition vidéo par IA (Gen-4 et outils associés).",
+      "Effets, inpainting et extension de plans.",
+      "Collaboration d'équipe et assets partagés.",
+      "Export pour montage ou publication directe."
+    ]
+  },
+  "cursor": {
+    "features_fr": [
+      "Éditeur de code avec complétion et chat IA intégrés.",
+      "Agent qui modifie plusieurs fichiers et exécute des commandes.",
+      "Indexation du dépôt pour des réponses contextuelles.",
+      "Plans Free, Pro et Business pour équipes."
+    ]
+  },
+  "pennylane": {
+    "summary_fr": "Comptabilité et gestion financière pour entreprises et cabinets, avec automatisation assistée par IA.",
+    "description_fr": "Pennylane centralise la comptabilité, la facturation et le pilotage financier pour les PME et les experts-comptables en France. L'IA aide à la saisie, au rapprochement bancaire, aux relances et aux tableaux de bord en temps réel. Les formules sont adaptées aux entreprises et aux cabinets ; les tarifs détaillés sont sur pennylane.com.",
+    "features_fr": [
+      "Comptabilité générale et facturation client intégrées.",
+      "Rapprochement bancaire et imports automatiques.",
+      "Tableaux de bord et indicateurs pour le dirigeant et le cabinet.",
+      "Collaboration entre entreprise et expert-comptable sur la même plateforme."
+    ],
+    "pricingNote_fr": "Offres payantes pour entreprises et cabinets ; voir pennylane.com."
+  },
+  "mammouth": {
+    "summary_fr": "Un abonnement unique pour accéder à ChatGPT, Claude, Gemini, Mistral et d'autres modèles (startup française).",
+    "description_fr": "Mammouth AI regroupe plusieurs assistants et modèles de chat derrière un seul abonnement, avec une interface en français pensée pour les utilisateurs en Europe. Tu peux comparer les réponses, changer de modèle selon la tâche et éviter plusieurs factures séparées. Consulte mammouth.ai pour les formules et limites actuelles.",
+    "features_fr": [
+      "Accès multi-modèles (ChatGPT, Claude, Gemini, Mistral, etc.) via un seul compte.",
+      "Interface et support orientés marché francophone.",
+      "Historique et projets pour enchaîner les conversations.",
+      "Abonnement unique à la place de plusieurs souscriptions."
+    ],
+    "pricingNote_fr": "Abonnement payant ; détails sur mammouth.ai."
+  },
+  "goose": {
+    "summary_fr": "Agent IA open source natif pour le terminal, le bureau et l'API (Block).",
+    "description_fr": "Goose est l'agent IA open source de Block qui lit ton dépôt, modifie des fichiers, exécute des commandes et automatise des tâches de développement depuis le terminal, une application de bureau ou une API. Il s'installe localement et s'étend via des extensions MCP.",
+    "features_fr": [
+      "Agent local open source avec accès fichiers et shell.",
+      "Extensions MCP pour connecter tes outils.",
+      "CLI, application de bureau et mode API.",
+      "Automatisation de tâches de code et de déploiement."
+    ]
+  },
+  "wan": {
+    "summary_fr": "Modèles et outils vidéo open d'Alibaba (Wan) pour la génération et l'édition.",
+    "description_fr": "Wan (wan.video) propose des modèles et workflows de génération vidéo par IA d'Alibaba, avec des démos et ressources pour créateurs et développeurs. Les offres et quotas évoluent sur le site officiel.",
+    "features_fr": [
+      "Modèles vidéo génératifs Wan open et hébergés.",
+      "Workflows de création et édition sur wan.video.",
+      "Ressources pour développeurs et créateurs.",
+      "Documentation et exemples sur le portail Alibaba."
+    ]
+  },
+  "google-flow": {
+    "features_fr": [
+      "Génération vidéo par scènes avec Veo.",
+      "Montage et extension de clips intégrés.",
+      "Lié aux abonnements Google AI.",
+      "Export pour les réseaux ou un montage externe."
+    ]
+  },
+  "google-opal": {
+    "summary_fr": "Expérience Google pour créer et explorer des flux IA (Opal).",
+    "description_fr": "Google Opal est une expérience Google pour composer et tester des flux assistés par IA. Connecte-toi avec un compte Google et suis les consignes sur le site officiel pour les fonctionnalités disponibles dans ta région.",
+    "features_fr": [
+      "Composition de flux IA dans l'interface Opal.",
+      "Connexion avec un compte Google.",
+      "Tests et itérations sur les scénarios proposés.",
+      "Disponibilité selon la région et le compte."
+    ]
+  },
+  "drift": {
+    "summary_fr": "Marketing conversationnel et chat sales de Salesloft (ex-Drift).",
+    "description_fr": "Drift, désormais intégré à Salesloft, engage les visiteurs du site en chat, qualifie les leads et accélère le pipeline commercial avec des playbooks automatisés et des intégrations CRM."
+  }
+}

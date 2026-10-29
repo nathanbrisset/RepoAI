@@ -4,10 +4,10 @@
   "url": "https://huemint.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Huemint is an AI product in the Design space with official hosting at huemint.com.",
-  "description": "Huemint is an AI product in the Design space with official hosting at huemint.com.\n\nPalettes de couleurs générées par IA. Check the pricing page before production use.\n\nFeature: Huemint ships the main workflow advertised on its official site.",
+  "summary": "Huemint: Palettes de couleurs générées par IA.",
+  "description": "Feature: . Feature: Web app and account features on huemint.com. Feature: Collaboration, roles or workspaces when offered by the vendor. Feature: Exports, API or integrations for your existing stack.",
   "summary_fr": "Palettes de couleurs générées par IA.",
-  "description_fr": "Palettes de couleurs générées par IA. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Palettes de couleurs générées par IA. Consulte le site officiel pour les tarifs et limites avant un usage en production.",
   "categories": [
     "design"
   ],
@@ -20,24 +20,24 @@
     "model": "free",
     "label": "Free",
     "verified": false,
-    "note": "Gratuit",
+    "note": "Free tier available; see the official site for limits.",
     "sourceUrl": "https://huemint.com"
   },
   "logo": "/logos/huemint.png",
-  "image": "",
+  "image": "/screenshots/huemint.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Huemint ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Palettes de couleurs générées par IA.",
+    "Web app and account features on huemint.com.",
+    "Collaboration, roles or workspaces when offered by the vendor.",
+    "Exports, API or integrations for your existing stack."
   ],
   "features_fr": [
-    "Huemint propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Palettes de couleurs générées par IA.",
+    "Application web et compte utilisateur sur le site officiel.",
+    "Collaboration, rôles ou espaces d'équipe selon l'offre.",
+    "Exports, API ou intégrations avec ton environnement."
   ],
   "howToUse": [
     {

@@ -4,10 +4,10 @@
   "url": "https://www.tabbyml.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Tabby is an AI product in the Coding space with official hosting at tabbyml.com.",
-  "description": "Tabby is an AI product in the Coding space with official hosting at tabbyml.com.\n\nAssistant de code open source auto-hébergeable. Check the pricing page before production use.\n\nFeature: Tabby ships the main workflow advertised on its official site.",
+  "summary": "Tabby: Assistant de code open source auto-hébergeable.",
+  "description": "Tabby focuses on assistant de code open source auto-hébergeable. Visit tabbyml.com for plans, limits and regional availability.\n\nFeature: . Feature: Web app and account features on tabbyml.com. Feature: Collaboration, roles or workspaces when offered by the vendor. Feature: Exports, API or integrations for your existing stack.",
   "summary_fr": "Assistant de code open source auto-hébergeable.",
-  "description_fr": "Assistant de code open source auto-hébergeable. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Assistant de code open source auto-hébergeable. Consulte le site officiel pour les tarifs et limites avant un usage en production.",
   "categories": [
     "coding"
   ],
@@ -20,24 +20,24 @@
     "model": "free",
     "label": "Free",
     "verified": false,
-    "note": "Gratuit",
+    "note": "Free tier available; see the official site for limits.",
     "sourceUrl": "https://www.tabbyml.com"
   },
-  "logo": "/logos/tabbyml.png",
-  "image": "",
+  "logo": "/logos/tabbyml.jpg",
+  "image": "/screenshots/tabbyml.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Tabby ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Assistant de code open source auto-hébergeable.",
+    "Web app and account features on tabbyml.com.",
+    "Collaboration, roles or workspaces when offered by the vendor.",
+    "Exports, API or integrations for your existing stack."
   ],
   "features_fr": [
-    "Tabby propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Assistant de code open source auto-hébergeable.",
+    "Application web et compte utilisateur sur le site officiel.",
+    "Collaboration, rôles ou espaces d'équipe selon l'offre.",
+    "Exports, API ou intégrations avec ton environnement."
   ],
   "howToUse": [
     {
