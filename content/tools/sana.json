@@ -1,0 +1,68 @@
+{
+  "id": "sana",
+  "name": "Sana AI",
+  "url": "https://sana.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Sana AI is an AI product in the Productivity space with official hosting at sana.ai.",
+  "description": "Sana AI is an AI product in the Productivity space with official hosting at sana.ai.\n\nAssistant de connaissance d'entreprise. Check the pricing page before production use.\n\nFeature: Sana AI ships the main workflow advertised on its official site.",
+  "summary_fr": "Assistant de connaissance d'entreprise.",
+  "description_fr": "Assistant de connaissance d'entreprise. Vérifie la page tarifs avant un déploiement en production.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai",
+    "productivity",
+    "catalog"
+  ],
+  "pricing": {
+    "model": "paid",
+    "label": "Premium",
+    "verified": false,
+    "note": "Payant",
+    "sourceUrl": "https://sana.ai"
+  },
+  "logo": "/logos/sana.png",
+  "image": "",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Sana AI ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "features_fr": [
+    "Sana AI propose le flux principal décrit sur le site officiel.",
+    "Comptes équipe, rôles ou espaces de travail si disponibles.",
+    "Exports, webhooks ou intégrations vers tes autres outils.",
+    "Centre d'aide et onboarding pour le premier projet."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Sana AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Sana AI",
+          "url": "https://sana.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "SE",
+  "hqCountrySource": "import"
+}

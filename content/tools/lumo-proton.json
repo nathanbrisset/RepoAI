@@ -1,0 +1,68 @@
+{
+  "id": "lumo-proton",
+  "name": "Lumo (Proton)",
+  "url": "https://lumo.proton.me",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Lumo (Proton) is an AI product in the LLM & Chatbots space with official hosting at lumo.proton.me.",
+  "description": "Lumo (Proton) is an AI product in the LLM & Chatbots space with official hosting at lumo.proton.me.\n\nAssistant IA confidentiel de Proton. Check the pricing page before production use.\n\nFeature: Lumo (Proton) ships the main workflow advertised on its official site.",
+  "summary_fr": "Assistant IA confidentiel de Proton.",
+  "description_fr": "Assistant IA confidentiel de Proton. Vérifie la page tarifs avant un déploiement en production.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "ai",
+    "llm",
+    "catalog"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "label": "Freemium",
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://lumo.proton.me"
+  },
+  "logo": "/logos/lumo-proton.png",
+  "image": "",
+  "dateAdded": "2026-10-29",
+  "lastVerified": "2026-10-29",
+  "features": [
+    "Lumo (Proton) ships the main workflow advertised on its official site.",
+    "Team accounts, roles, or workspaces where the product supports them.",
+    "Exports, webhooks, or integrations for downstream tools.",
+    "Help center and onboarding to configure the first project."
+  ],
+  "features_fr": [
+    "Lumo (Proton) propose le flux principal décrit sur le site officiel.",
+    "Comptes équipe, rôles ou espaces de travail si disponibles.",
+    "Exports, webhooks ou intégrations vers tes autres outils.",
+    "Centre d'aide et onboarding pour le premier projet."
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on Lumo (Proton)",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Lumo (Proton)",
+          "url": "https://lumo.proton.me"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CH",
+  "hqCountrySource": "import"
+}
