@@ -6,7 +6,16 @@ import { toolForLocale } from "@/lib/i18n/localize-tool"
 import { priceFilterBucket, type PriceFilter } from "@/lib/price-filter"
 import type { Tool } from "@/lib/types"
 import { translateTags } from "@/lib/i18n/tags"
-import { COLLECTION_DEFS, DOJO_PICK_IDS, DOOR_ART, DOOR_IDS, FEATURED_STACK_IDS, RECIPE_DEFS } from "./collections"
+import {
+  COLLECTION_DEFS,
+  COLLECTION_RECIPE_IDS,
+  DOJO_PICK_IDS,
+  DOOR_ART,
+  DOOR_IDS,
+  FEATURED_STACK_IDS,
+  HOME_FEATURED_COLLECTION_SLUGS,
+  RECIPE_DEFS,
+} from "./collections"
 
 export type DirectoryRecord = {
   id: string
@@ -126,17 +135,44 @@ export type ResolvedRecipe = {
   steps: { id: string; label: string; logo: string }[]
 }
 
-export function resolvedRecipes(locale: Locale): ResolvedRecipe[] {
+function mapRecipes(locale: Locale, recipeIds: string[]): ResolvedRecipe[] {
   const records = directoryRecords(locale)
   const byId = new Map(records.map((record) => [record.id, record]))
-  return RECIPE_DEFS.map((recipe) => ({
-    id: recipe.id,
-    title: recipe.title[locale],
-    intent: recipe.intent[locale],
-    steps: recipe.steps
-      .filter((step) => byId.has(step.id))
-      .map((step) => ({ id: step.id, label: step.label[locale], logo: byId.get(step.id)?.logo || "" })),
-  })).filter((recipe) => recipe.steps.length > 0)
+  const defsById = new Map(RECIPE_DEFS.map((recipe) => [recipe.id, recipe]))
+  return recipeIds
+    .map((id) => defsById.get(id))
+    .filter((recipe): recipe is (typeof RECIPE_DEFS)[number] => Boolean(recipe))
+    .map((recipe) => ({
+      id: recipe.id,
+      title: recipe.title[locale],
+      intent: recipe.intent[locale],
+      steps: recipe.steps
+        .filter((step) => byId.has(step.id))
+        .map((step) => ({ id: step.id, label: step.label[locale], logo: byId.get(step.id)?.logo || "" })),
+    }))
+    .filter((recipe) => recipe.steps.length > 0)
+}
+
+export function resolvedRecipes(locale: Locale): ResolvedRecipe[] {
+  const allIds = COLLECTION_RECIPE_IDS["recettes-et-stacks"] ?? RECIPE_DEFS.map((recipe) => recipe.id)
+  return mapRecipes(locale, allIds)
+}
+
+export function resolvedRecipesForCollection(locale: Locale, slug: string): ResolvedRecipe[] {
+  const ids = COLLECTION_RECIPE_IDS[slug]
+  if (!ids?.length) return []
+  return mapRecipes(locale, ids)
+}
+
+export function homeFeaturedCollections(locale: Locale): ResolvedCollection[] {
+  const all = resolvedCollections(locale)
+  const featuredSet = new Set<string>(HOME_FEATURED_COLLECTION_SLUGS)
+  const bySlug = new Map(all.map((collection) => [collection.slug, collection]))
+  const featured = HOME_FEATURED_COLLECTION_SLUGS.map((slug) => bySlug.get(slug)).filter(
+    (collection): collection is ResolvedCollection => Boolean(collection),
+  )
+  const rest = all.filter((collection) => !featuredSet.has(collection.slug))
+  return [...featured, ...rest]
 }
 
 export function resolvedCollections(locale: Locale): ResolvedCollection[] {

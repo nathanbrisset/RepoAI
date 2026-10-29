@@ -15,6 +15,7 @@ import { SITE_URL, type Locale } from "./config"
 import { getLocale } from "./get-locale"
 import { absoluteUrl, languageAlternates, stripLocale } from "./paths"
 import { COLLECTION_DEFS } from "@/lib/directory/collections"
+import { editorialGuideBySlug } from "@/lib/directory/editorial-guides"
 import { categoryCopy, translate } from "./messages"
 import { localizeTool } from "./localize-tool"
 
@@ -38,6 +39,18 @@ function pageCopy(locale: Locale, pathname: string): { title: string; descriptio
   if (path === "/collections") return { title: t("meta.collectionsTitle"), description: t("meta.collectionsDescription") }
   if (path === "/automations") return { title: t("meta.automationsTitle"), description: t("meta.automationsDescription") }
   if (path === "/compare") return { title: t("meta.compareTitle"), description: t("meta.compareDescription") }
+  if (path === "/guides") return { title: t("meta.guidesTitle"), description: t("meta.guidesDescription") }
+
+  const guideMatch = path.match(/^\/guides\/([^/]+)$/)
+  if (guideMatch) {
+    const definition = editorialGuideBySlug(decodeURIComponent(guideMatch[1]))
+    if (definition) {
+      return {
+        title: definition.title[locale],
+        description: definition.description[locale],
+      }
+    }
+  }
 
   const collectionMatch = path.match(/^\/collections\/([^/]+)$/)
   if (collectionMatch) {

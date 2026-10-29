@@ -153,6 +153,14 @@ export const COLLECTION_DEFS: CollectionDef[] = [
   },
 ]
 
+/** Home grid: these four paths surface before other collections. */
+export const HOME_FEATURED_COLLECTION_SLUGS = [
+  "kit-shorts-youtube",
+  "automatisations-agents",
+  "video-longue-youtube",
+  "musique-son",
+] as const
+
 export const FEATURED_STACK_IDS = ["v0-vercel", "runway", "jasper"] as const
 
 /** Hand-curated home picks — short copy, strong tools (not random catalogue draw). */
@@ -245,4 +253,77 @@ export const RECIPE_DEFS: RecipeDef[] = [
       { id: "notion-ai", label: { en: "Notion AI", fr: "Notion AI" } },
     ],
   },
+  {
+    id: "shorts-broll",
+    title: {
+      en: "B-roll and hooks without a shoot",
+      fr: "Des plans B-roll et des hooks sans tournage",
+    },
+    intent: {
+      en: "Generate visuals and avatars when you cannot film everything yourself.",
+      fr: "Génère des visuels et des avatars quand tu ne peux pas tout filmer toi-même.",
+    },
+    steps: [
+      { id: "runway", label: { en: "Runway", fr: "Runway" } },
+      { id: "heygen", label: { en: "HeyGen", fr: "HeyGen" } },
+      { id: "kling", label: { en: "Kling", fr: "Kling" } },
+    ],
+  },
+  {
+    id: "automations",
+    title: {
+      en: "Lead to follow-up, on autopilot",
+      fr: "Du lead au suivi, en pilote automatique",
+    },
+    intent: {
+      en: "Connect your apps so repetitive hand-offs run without copy-paste.",
+      fr: "Relie tes apps pour que les passages répétitifs avancent sans copier-coller.",
+    },
+    steps: [
+      { id: "n8n", label: { en: "n8n", fr: "n8n" } },
+      { id: "zapier", label: { en: "Zapier", fr: "Zapier" } },
+      { id: "make", label: { en: "Make", fr: "Make" } },
+    ],
+  },
+  {
+    id: "longform-video",
+    title: {
+      en: "Long video from script to publish",
+      fr: "Vidéo longue, du script à la publication",
+    },
+    intent: {
+      en: "Plan, edit and ship long-form video people watch to the end.",
+      fr: "Planifie, monte et publie une vidéo longue que l'on regarde jusqu'au bout.",
+    },
+    steps: [
+      { id: "descript", label: { en: "Descript", fr: "Descript" } },
+      { id: "runway", label: { en: "Runway", fr: "Runway" } },
+      { id: "heygen", label: { en: "HeyGen", fr: "HeyGen" } },
+    ],
+  },
+  {
+    id: "music-voice",
+    title: {
+      en: "Track sketch and voice in one pass",
+      fr: "Esquisse de morceau et voix en une passe",
+    },
+    intent: {
+      en: "Sketch tracks and voice without a full studio setup.",
+      fr: "Esquisse des morceaux et de la voix sans monter un studio.",
+    },
+    steps: [
+      { id: "suno", label: { en: "Suno", fr: "Suno" } },
+      { id: "udio", label: { en: "Udio", fr: "Udio" } },
+      { id: "elevenlabs", label: { en: "ElevenLabs", fr: "ElevenLabs" } },
+    ],
+  },
 ]
+
+/** Recipe ids shown on each collection detail page (recettes-et-stacks shows all). */
+export const COLLECTION_RECIPE_IDS: Record<string, string[]> = {
+  "recettes-et-stacks": ["shorts", "shorts-broll", "research", "launch", "meetings", "automations", "longform-video", "music-voice"],
+  "kit-shorts-youtube": ["shorts", "shorts-broll"],
+  "automatisations-agents": ["automations"],
+  "video-longue-youtube": ["longform-video"],
+  "musique-son": ["music-voice"],
+}

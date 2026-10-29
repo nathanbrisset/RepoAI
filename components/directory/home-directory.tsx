@@ -85,7 +85,7 @@ export function HomeDirectory({
   const [wordIndex, setWordIndex] = useState(0)
   const [reducedMotion, setReducedMotion] = useState(false)
   const [query, setQuery] = useState("")
-  const [mode, setMode] = useState<"search" | "ai">("search")
+  const [mode, setMode] = useState<"search" | "ai">("ai")
   const [throwing, setThrowing] = useState(false)
   const [throwId, setThrowId] = useState(0)
 
@@ -148,7 +148,7 @@ export function HomeDirectory({
             </span>
           </h1>
           <form onSubmit={submitHero} className="relative mt-8 max-w-2xl">
-            <div className="flex flex-col gap-2 rounded-[1.75rem] bg-card p-2 shadow-xl ring-2 ring-primary/20 focus-within:ring-primary sm:flex-row sm:items-center">
+            <div className={`flex flex-col gap-2 rounded-[1.75rem] bg-card p-2 shadow-xl ring-2 focus-within:ring-primary sm:flex-row sm:items-center ${mode === "ai" ? "ring-accent/50" : "ring-primary/20"}`}>
               {mode === "ai" ? <Sparkles className="ml-3 hidden size-5 shrink-0 text-accent sm:block" /> : <Search className="ml-3 hidden size-5 shrink-0 text-muted-foreground sm:block" />}
               <input
                 value={query}
@@ -181,6 +181,13 @@ export function HomeDirectory({
             ) : null}
           </form>
           <div className="mt-4 flex flex-wrap items-center gap-4">
+            <LocaleLink
+              href="/recommendation"
+              className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-primary-foreground shadow-lg shadow-primary/20 hover:-translate-y-0.5"
+            >
+              <Sparkles className="size-4" />
+              {t.aiMatchHeroCta}
+            </LocaleLink>
             <button type="button" onClick={handleThrow} aria-busy={throwing} className="inline-flex items-center gap-3 rounded-full bg-accent py-2 pr-5 pl-2 font-semibold text-accent-foreground shadow-lg shadow-accent/20 hover:-translate-y-0.5">
               <span className="grid size-9 place-items-center rounded-full bg-accent-foreground/15">
                 <Shuriken key={throwId} className={throwing ? "size-6 animate-throw" : "size-6"} />

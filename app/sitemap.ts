@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next"
 import { COLLECTION_DEFS } from "@/lib/directory/collections"
+import { editorialGuideSlugs } from "@/lib/directory/editorial-guides"
 import { categories, allTools } from "@/lib/data"
 import { absoluteUrl, languageAlternates } from "@/lib/i18n/paths"
 
@@ -17,6 +18,7 @@ const STATIC_PATHS = [
   "/collections",
   "/automations",
   "/compare",
+  "/guides",
 ]
 
 function catalogDate(value?: string | null) {
@@ -30,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...STATIC_PATHS.map((path) => ({ path })),
     ...categories.map((category) => ({ path: `/categories/${category.id}` })),
     ...COLLECTION_DEFS.map((collection) => ({ path: `/collections/${collection.slug}` })),
+    ...editorialGuideSlugs().map((slug) => ({ path: `/guides/${slug}` })),
     ...allTools
       .filter((tool) => tool.status !== "renamed" && tool.status !== "sunset" && tool.status !== "inactive" && tool.status !== "duplicate-of")
       .map((tool) => ({
