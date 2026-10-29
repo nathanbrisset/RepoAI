@@ -29,7 +29,6 @@ Target ~600 listed fiches: **606** (includes complementary list from audit).
 | Homepage Gemini Notebook deep link | Out of scope for catalogue JSON (noted in audit; no change in this PR). |
 | FR default at site root | Product decision unchanged (EN root, `/fr`). |
 | Mass slug underscore→hyphen migration | Not bulk-renamed; redirects added only where this pack touched ids. |
-| Screenshots | Many new fiches have empty `image` until capture runs. See below. |
 
 ## Screenshots
 
