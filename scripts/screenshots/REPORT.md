@@ -27,14 +27,14 @@ Les PNG historiques dans `public/tool-screenshots` sont des captures plein cadre
 
 | Issue | Nombre |
 | --- | ---: |
-| Captures réussies | 625 |
-| Captures ratées | 19 |
-| Image actuelle conservée | 6 |
-| Visuel de repli (logo) | 13 |
+| Captures réussies | 628 |
+| Captures ratées | 7 |
+| Image actuelle conservée | 5 |
+| Visuel de repli (logo) | 2 |
 | Poids de public/screenshots | 34.0 Mio |
 | Poids restant de public/tool-screenshots | 38.0 Mio |
 
-Ratées par type : login 1, captcha 10, error 6, empty 2.
+Ratées par type : error 2, captcha 5.
 
 ## Images publiées avec une note
 
@@ -61,22 +61,10 @@ Ratées par type : login 1, captcha 10, error 6, empty 2.
 
 | id | nom | type | détail | décision |
 | --- | --- | --- | --- | --- |
-| chatgpt-atlas | ChatGPT Atlas | login | Page de connexion | repli logo |
-| civitai | Civitai | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | claude | Claude | error | HTTP 403 | image actuelle |
-| clio | Clio | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | codeassist | CodeAssist | captcha | Cloudflare : blocage dur (Sorry, you have been blocked) | image actuelle |
-| freshdesk-freddy | Freshdesk Freddy | error | HTTP 404 | repli logo |
 | growthbar | GrowthBar | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| lavender | Lavender | empty | Capture quasi uniforme | repli logo |
-| liner | Liner | error | HTTP 410 | repli logo |
 | lovo | LOVO | error | HTTP 402 | image actuelle |
-| manus | Manus | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| opera-aria | Opera Aria | error | HTTP 404 | repli logo |
 | perplexity-ai | Perplexity | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| ramp | Ramp | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | remini | Remini | captcha | Captcha ou interstitiel anti-bot | repli logo |
-| spotter | Spotter Studio | error | HTTP 404 | repli logo |
 | ttsmaker | TTSMaker | captcha | Captcha ou interstitiel anti-bot | repli logo |
-| wan | Wan | empty | Page vide | repli logo |
-| zerogpt | ZeroGPT | captcha | Captcha ou interstitiel anti-bot | repli logo |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T20:05:07.169Z",
+  "generatedAt": "2026-10-29T20:32:28.795Z",
   "audit": {
     "capturedAt": "2026-10-21T18:30:40.343Z",
     "totalFiles": 513,
@@ -244,18 +244,16 @@
   },
   "counts": {
     "processed": 644,
-    "success": 625,
-    "failed": 19,
-    "kept": 6,
-    "fallback": 13,
+    "success": 628,
+    "failed": 7,
+    "kept": 5,
+    "fallback": 2,
     "byCategory": {
-      "login": 1,
-      "captcha": 10,
-      "error": 6,
-      "empty": 2
+      "error": 2,
+      "captcha": 5
     }
   },
-  "screenshotsBytes": 35653912,
+  "screenshotsBytes": 35703682,
   "legacyBytes": 39883589,
   "results": [
     {
@@ -1235,12 +1233,11 @@
       "name": "ChatGPT Atlas",
       "url": "https://chatgpt.com/atlas",
       "finalUrl": "https://chatgpt.com/auth/login?next=%2F",
-      "outcome": "fallback",
+      "outcome": "skipped",
       "category": "login",
       "reason": "Page de connexion",
       "image": "/screenshots/chatgpt-atlas.webp",
-      "note": "repli logo (fichier image trop petit)",
-      "bytes": 6790
+      "note": "capture ratée — pas de repli logo publié"
     },
     {
       "id": "chatpdf",
@@ -1271,12 +1268,12 @@
       "name": "Civitai",
       "url": "https://civitai.com/",
       "finalUrl": "https://civitai.com/",
-      "outcome": "fallback",
-      "category": "captcha",
-      "reason": "Captcha ou interstitiel anti-bot",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
       "image": "/screenshots/civitai.webp",
-      "note": "repli logo (fichier image trop petit)",
-      "bytes": 5552
+      "bytes": 39812,
+      "note": ""
     },
     {
       "id": "claap",
@@ -1426,12 +1423,12 @@
       "name": "Clio",
       "url": "https://www.clio.com/",
       "finalUrl": "https://www.clio.com/",
-      "outcome": "fallback",
-      "category": "captcha",
-      "reason": "Captcha ou interstitiel anti-bot",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
       "image": "/screenshots/clio.webp",
-      "note": "repli logo (fichier image trop petit)",
-      "bytes": 4502
+      "bytes": 73840,
+      "note": ""
     },
     {
       "id": "clipdroprelight",
@@ -2577,12 +2574,11 @@
       "name": "Freshdesk Freddy",
       "url": "https://www.freshworks.com/freshdesk/omni/freddy-ai/",
       "finalUrl": "https://www.freshworks.com/freshdesk/omni/freddy-ai/",
-      "outcome": "fallback",
+      "outcome": "skipped",
       "category": "error",
       "reason": "HTTP 404",
       "image": "/screenshots/freshdesk-freddy.webp",
-      "note": "repli logo (fichier image trop petit)",
-      "bytes": 6962
+      "note": "capture ratée — pas de repli logo publié"
     },
     {
       "id": "fronty",
@@ -3992,12 +3988,11 @@
       "name": "Lavender",
       "url": "https://www.lavender.ai/",
       "finalUrl": "https://lavender.ai/",
-      "outcome": "fallback",
+      "outcome": "skipped",
       "category": "empty",
       "reason": "Capture quasi uniforme",
       "image": "/screenshots/lavender.webp",
-      "note": "repli logo (fichier image trop petit)",
-      "bytes": 5862
+      "note": "capture ratée — pas de repli logo publié"
     },
     {
       "id": "leena",
@@ -4148,12 +4143,11 @@
       "name": "Liner",
       "url": "https://getliner.com/",
       "finalUrl": "https://getliner.com/",
-      "outcome": "fallback",
+      "outcome": "skipped",
       "category": "error",
       "reason": "HTTP 410",
       "image": "/screenshots/liner.webp",
-      "note": "repli logo (fichier image trop petit)",
-      "bytes": 3516
+      "note": "capture ratée — pas de repli logo publié"
     },
     {
       "id": "listnr",
@@ -4459,11 +4453,12 @@
       "name": "Manus",
       "url": "https://manus.im/",
       "finalUrl": "https://manus.im/",
-      "outcome": "kept",
-      "category": "captcha",
-      "reason": "Captcha ou interstitiel anti-bot",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
       "image": "/screenshots/manus.webp",
-      "note": "image actuelle conservée"
+      "bytes": 15562,
+      "note": ""
     },
     {
       "id": "manychat",
@@ -5178,12 +5173,11 @@
       "name": "Opera Aria",
       "url": "https://www.opera.com/aria",
       "finalUrl": "https://www.opera.com/aria",
-      "outcome": "fallback",
+      "outcome": "skipped",
       "category": "error",
       "reason": "HTTP 404",
       "image": "/screenshots/opera-aria.webp",
-      "note": "repli logo (fichier image trop petit)",
-      "bytes": 6374
+      "note": "capture ratée — pas de repli logo publié"
     },
     {
       "id": "optimizely",
@@ -5837,12 +5831,11 @@
       "name": "Ramp",
       "url": "https://ramp.com",
       "finalUrl": "https://ramp.com/",
-      "outcome": "fallback",
+      "outcome": "skipped",
       "category": "captcha",
       "reason": "Captcha ou interstitiel anti-bot",
       "image": "/screenshots/ramp.webp",
-      "note": "repli logo (image absente)",
-      "bytes": 4476
+      "note": "capture ratée — pas de repli logo publié"
     },
     {
       "id": "rapidminer",
@@ -6689,12 +6682,11 @@
       "name": "Spotter Studio",
       "url": "https://www.spotter.com/studio",
       "finalUrl": "https://www.spotter.com/studio",
-      "outcome": "fallback",
+      "outcome": "skipped",
       "category": "error",
       "reason": "HTTP 404",
       "image": "/screenshots/spotter.webp",
-      "note": "repli logo (image absente)",
-      "bytes": 5584
+      "note": "capture ratée — pas de repli logo publié"
     },
     {
       "id": "sproutsocial",
@@ -7589,12 +7581,11 @@
       "name": "Wan",
       "url": "https://wan.video/",
       "finalUrl": "https://wan.video/",
-      "outcome": "fallback",
+      "outcome": "skipped",
       "category": "empty",
       "reason": "Page vide",
       "image": "/screenshots/wan.webp",
-      "note": "repli logo (fichier image trop petit)",
-      "bytes": 4886
+      "note": "capture ratée — pas de repli logo publié"
     },
     {
       "id": "warp",
@@ -7937,12 +7928,11 @@
       "name": "ZeroGPT",
       "url": "https://www.zerogpt.com/",
       "finalUrl": "https://www.zerogpt.com/",
-      "outcome": "fallback",
+      "outcome": "skipped",
       "category": "captcha",
       "reason": "Captcha ou interstitiel anti-bot",
       "image": "/screenshots/zerogpt.webp",
-      "note": "repli logo (fichier image trop petit)",
-      "bytes": 8476
+      "note": "capture ratée — pas de repli logo publié"
     },
     {
       "id": "zoho_analytics",
