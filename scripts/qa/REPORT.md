@@ -4,9 +4,9 @@ Généré le 2026-10-29.
 
 | Compteur | Nombre |
 | --- | ---: |
-| Fiches actives contrôlées | 606 |
-| Conformes | 581 |
-| Encore en échec | 25 |
+| Fiches actives contrôlées | 703 |
+| Conformes | 676 |
+| Encore en échec | 27 |
 | Corrections appliquées pendant ce passage | 0 |
 
 ## Échecs restants par raison
@@ -14,18 +14,18 @@ Généré le 2026-10-29.
 - 1 × capture suspecte (5630 octets, sous 15 Ko)
 - 1 × capture suspecte (4120 octets, sous 15 Ko)
 - 1 × capture suspecte (3700 octets, sous 15 Ko)
-- 5 × le texte de la page officielle ne recoupe ni le nom ni la description
+- 6 × le texte de la page officielle ne recoupe ni le nom ni la description
 - 5 × How To Use absent ou pas cohérent avec la description
 - 1 × capture suspecte (4928 octets, sous 15 Ko)
 - 1 × lien How To Use hors domaine officiel ((url)
-- 4 × lien officiel HTTP
+- 5 × lien officiel HTTP
 - 1 × capture suspecte (5874 octets, sous 15 Ko)
-- 1 × lien officiel injoignable (This operation was aborted)
 - 1 × capture suspecte (5294 octets, sous 15 Ko)
 - 1 × capture suspecte (4364 octets, sous 15 Ko)
 - 1 × capture suspecte (3626 octets, sous 15 Ko)
 - 1 × capture suspecte (5078 octets, sous 15 Ko)
 - 1 × capture suspecte (5156 octets, sous 15 Ko)
+- 1 × lien officiel injoignable (fetch failed)
 - 1 × capture suspecte (5286 octets, sous 15 Ko)
 - 1 × capture suspecte (4808 octets, sous 15 Ko)
 - 1 × capture suspecte (4048 octets, sous 15 Ko)
@@ -46,14 +46,16 @@ Généré le 2026-10-29.
 | dust | Dust | How To Use absent ou pas cohérent avec la description |
 | freepik-ai | Freepik AI | le texte de la page officielle ne recoupe ni le nom ni la description |
 | freshdesk-freddy | Freshdesk Freddy | lien officiel HTTP 404; capture suspecte (5874 octets, sous 15 Ko) |
-| fronty | Fronty | lien officiel injoignable (This operation was aborted) |
 | gptzero | GPTZero | How To Use absent ou pas cohérent avec la description |
+| hugging-face-transformers | Hugging Face Transformers | lien officiel HTTP 404 |
+| hunyuan-video | Hunyuan Video (Tencent) | le texte de la page officielle ne recoupe ni le nom ni la description |
 | jenni-ai | Jenni AI | capture suspecte (5294 octets, sous 15 Ko) |
 | lavender | Lavender | capture suspecte (4364 octets, sous 15 Ko) |
 | liner | Liner | lien officiel HTTP 410; capture suspecte (3626 octets, sous 15 Ko) |
 | lovo | LOVO | lien officiel HTTP 402 |
 | magnific | Magnific AI | capture suspecte (5078 octets, sous 15 Ko) |
 | opera-aria | Opera Aria | lien officiel HTTP 404; capture suspecte (5156 octets, sous 15 Ko) |
+| publer | Publer | lien officiel injoignable (fetch failed) |
 | scispace | SciSpace | le texte de la page officielle ne recoupe ni le nom ni la description |
 | sora | Sora | How To Use absent ou pas cohérent avec la description; capture suspecte (5286 octets, sous 15 Ko) |
 | turboscribe | TurboScribe | capture suspecte (4808 octets, sous 15 Ko) |
