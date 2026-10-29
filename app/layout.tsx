@@ -11,6 +11,7 @@ import { DirectoryProvider } from "@/components/directory/directory-provider"
 import { SavedDrawer } from "@/components/directory/saved-drawer"
 import { SiteFooter } from "@/components/directory/site-footer"
 import { SiteHeader } from "@/components/directory/site-header"
+import { YouTubeChannelBanner } from "@/components/directory/youtube-channel-banner"
 import { ToolDialog } from "@/components/directory/tool-dialog"
 import { directoryChips, directoryRecords } from "@/lib/directory/data"
 import { getLocale, getRequestPathname } from "@/lib/i18n/get-locale"
@@ -45,6 +46,7 @@ export default async function RootLayout({
             <DirectoryProvider records={records} chips={chips} total={records.length} today={new Date().toISOString().slice(0, 10)}>
               <div className="flex min-h-screen flex-col">
                 <SiteHeader />
+                <YouTubeChannelBanner />
                 <main className="flex-grow overflow-x-hidden">{children}</main>
                 <CompareSpacer />
                 <SiteFooter />

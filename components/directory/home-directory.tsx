@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
-import { ArrowRight, ExternalLink, Play, Search, Sparkles } from "lucide-react"
+import { ArrowRight, Search, Sparkles } from "lucide-react"
 import { useRouter } from "next/navigation"
 import LocaleLink from "@/components/locale-link"
 import { useLocale } from "@/components/locale-provider"
@@ -13,59 +13,6 @@ import { CollectionCard } from "./collection-card"
 import { Shuriken } from "./shuriken"
 import { ToolCard } from "./tool-card"
 import { useDirectory } from "./directory-provider"
-
-function EpisodeCard({ compact = false }: { compact?: boolean }) {
-  const locale = useLocale()
-  const t = directoryCopy(locale)
-  if (compact) {
-    return (
-      <article className="flex w-full items-center gap-3 rounded-2xl bg-card p-3 shadow-md ring-1 ring-border lg:hidden">
-        <div className="relative size-16 shrink-0 overflow-hidden rounded-xl bg-foreground">
-          <img src="/art/chat.webp" alt={t.episodeAlt} className="size-full object-cover" loading="lazy" decoding="async" />
-          <span className="absolute inset-0 grid place-items-center">
-            <span className="grid size-7 place-items-center rounded-full bg-accent text-accent-foreground shadow">
-              <Play className="ml-0.5 size-3.5 fill-current" />
-            </span>
-          </span>
-        </div>
-        <div className="min-w-0 flex-1">
-          <p className="text-[10px] font-bold tracking-[0.14em] text-accent">{t.episodeKicker}</p>
-          <h2 className="mt-1 truncate font-display text-sm">{t.episodeTitle}</h2>
-        </div>
-        <LocaleLink href="/collections/kit-shorts-youtube" className="shrink-0 text-xs font-semibold text-primary">
-          {t.episodeWatch}
-        </LocaleLink>
-      </article>
-    )
-  }
-
-  return (
-    <article className="hidden h-full max-h-[340px] w-full max-w-[460px] overflow-hidden rounded-[2rem] bg-card p-4 shadow-xl ring-1 ring-border lg:flex lg:gap-4">
-      <div className="relative aspect-[9/16] h-full max-h-[300px] w-auto shrink-0 overflow-hidden rounded-2xl bg-foreground">
-        <img src="/art/chat.webp" alt={t.episodeAlt} className="size-full object-cover" loading="lazy" decoding="async" />
-        <span className="absolute inset-0 grid place-items-center">
-          <span className="grid size-14 place-items-center rounded-full bg-accent text-accent-foreground shadow-lg">
-            <Play className="ml-1 size-6 fill-current" />
-          </span>
-        </span>
-      </div>
-      <div className="flex min-w-0 flex-1 flex-col justify-between py-1">
-        <div>
-          <p className="text-[10px] font-bold tracking-[0.14em] text-accent">{t.episodeKicker}</p>
-          <h2 className="mt-3 font-display text-xl leading-tight">{t.episodeTitle}</h2>
-        </div>
-        <div className="flex flex-col gap-2 text-sm font-semibold">
-          <LocaleLink href="/collections/kit-shorts-youtube" className="text-primary hover:underline">
-            {t.episodeWatch} <ArrowRight className="inline size-4" />
-          </LocaleLink>
-          <LocaleLink href="/tool/chatgpt" className="text-primary hover:underline">
-            {t.episodePrompt} <ExternalLink className="inline size-3.5" />
-          </LocaleLink>
-        </div>
-      </div>
-    </article>
-  )
-}
 
 export function HomeDirectory({
   picks,
@@ -134,8 +81,8 @@ export function HomeDirectory({
 
   return (
     <div className="overflow-x-hidden">
-      <section className="mx-auto grid max-w-[1400px] items-center gap-10 px-4 py-10 md:px-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(280px,0.8fr)] lg:py-16">
-        <div className="min-w-0">
+      <section className="mx-auto max-w-[1400px] px-4 py-10 md:px-8 lg:py-16">
+        <div className="min-w-0 w-full">
           <p className="mb-5 text-sm font-bold uppercase tracking-[0.22em] text-accent">{t.dojo}</p>
           <p className="mb-4 text-sm text-muted-foreground">{fill(t.dojoMeta, { count: total })}</p>
           <h1 className="font-display text-5xl leading-[0.98] tracking-tight md:text-7xl">
@@ -147,7 +94,7 @@ export function HomeDirectory({
               <span aria-hidden="true" className="absolute -bottom-1 left-0 h-2 w-full -rotate-1 rounded-full bg-accent/80 md:h-3" />
             </span>
           </h1>
-          <form onSubmit={submitHero} className="relative mt-8 max-w-2xl">
+          <form onSubmit={submitHero} className="relative mt-8 w-full max-w-none">
             <div className={`flex flex-col gap-2 rounded-[1.75rem] bg-card p-2 shadow-xl ring-2 focus-within:ring-primary sm:flex-row sm:items-center ${mode === "ai" ? "ring-accent/50" : "ring-primary/20"}`}>
               {mode === "ai" ? <Sparkles className="ml-3 hidden size-5 shrink-0 text-accent sm:block" /> : <Search className="ml-3 hidden size-5 shrink-0 text-muted-foreground sm:block" />}
               <input
@@ -198,12 +145,6 @@ export function HomeDirectory({
               {t.browse} <ArrowRight className="inline size-4" />
             </LocaleLink>
           </div>
-          <div className="mt-6 lg:hidden">
-            <EpisodeCard compact />
-          </div>
-        </div>
-        <div className="hidden justify-center lg:flex">
-          <EpisodeCard />
         </div>
       </section>
 
