@@ -52,7 +52,7 @@ export default async function ToolPage({ params }: PageProps) {
     image: tool.image,
     inLanguage: locale,
     ...(tool.pricing?.verified && tool.pricing.model === "free"
-      ? { offers: { "@type": "Offer", price: 0, priceCurrency: "USD" } }
+      ? { offers: { "@type": "Offer", price: 0, priceCurrency: "EUR" } }
       : {}),
   }
 
