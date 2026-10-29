@@ -6,7 +6,7 @@ import type { DirectoryRecord } from "@/lib/directory/data"
 
 export function ToolLogo({ tool, className }: { tool: Pick<DirectoryRecord, "name" | "logo" | "image">; className?: string }) {
   const [failed, setFailed] = useState(false)
-  const src = tool.logo || tool.image
+  const src = tool.logo
   return (
     <span
       className={cn(

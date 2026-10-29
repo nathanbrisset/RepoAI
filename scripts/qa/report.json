@@ -1,9 +1,235 @@
 {
-  "generatedAt": "2026-10-22T13:29:37.667Z",
-  "activeChecked": 465,
-  "passed": 465,
-  "failed": 0,
+  "generatedAt": "2026-10-29T13:32:04.755Z",
+  "activeChecked": 606,
+  "passed": 581,
+  "failed": 25,
   "fixes": [],
-  "byReason": {},
-  "failures": []
+  "byReason": {
+    "le texte de la page officielle ne recoupe ni le nom ni la description": 5,
+    "How To Use absent ou pas cohérent avec la description": 5,
+    "lien officiel HTTP": 4,
+    "capture suspecte (5630 octets, sous 15 Ko)": 1,
+    "capture suspecte (4120 octets, sous 15 Ko)": 1,
+    "capture suspecte (3700 octets, sous 15 Ko)": 1,
+    "capture suspecte (4928 octets, sous 15 Ko)": 1,
+    "lien How To Use hors domaine officiel ((url)": 1,
+    "capture suspecte (5874 octets, sous 15 Ko)": 1,
+    "lien officiel injoignable (This operation was aborted)": 1,
+    "capture suspecte (5294 octets, sous 15 Ko)": 1,
+    "capture suspecte (4364 octets, sous 15 Ko)": 1,
+    "capture suspecte (3626 octets, sous 15 Ko)": 1,
+    "capture suspecte (5078 octets, sous 15 Ko)": 1,
+    "capture suspecte (5156 octets, sous 15 Ko)": 1,
+    "capture suspecte (5286 octets, sous 15 Ko)": 1,
+    "capture suspecte (4808 octets, sous 15 Ko)": 1,
+    "capture suspecte (4048 octets, sous 15 Ko)": 1,
+    "capture suspecte (4362 octets, sous 15 Ko)": 1
+  },
+  "failures": [
+    {
+      "id": "chatgpt-atlas",
+      "name": "ChatGPT Atlas",
+      "url": "https://chatgpt.com/atlas",
+      "failures": [
+        "capture suspecte (5630 octets, sous 15 Ko)"
+      ]
+    },
+    {
+      "id": "civitai",
+      "name": "Civitai",
+      "url": "https://civitai.com/",
+      "failures": [
+        "capture suspecte (4120 octets, sous 15 Ko)"
+      ]
+    },
+    {
+      "id": "clio",
+      "name": "Clio",
+      "url": "https://www.clio.com/",
+      "failures": [
+        "capture suspecte (3700 octets, sous 15 Ko)"
+      ]
+    },
+    {
+      "id": "codeassist",
+      "name": "CodeAssist",
+      "url": "https://www.codeassist.tech/",
+      "failures": [
+        "le texte de la page officielle ne recoupe ni le nom ni la description"
+      ]
+    },
+    {
+      "id": "codetree",
+      "name": "Codetree",
+      "url": "https://www.codetree.ai/",
+      "failures": [
+        "le texte de la page officielle ne recoupe ni le nom ni la description"
+      ]
+    },
+    {
+      "id": "copyleaks",
+      "name": "Copyleaks",
+      "url": "https://copyleaks.com/",
+      "failures": [
+        "How To Use absent ou pas cohérent avec la description"
+      ]
+    },
+    {
+      "id": "doubao",
+      "name": "Doubao",
+      "url": "https://www.doubao.com/",
+      "failures": [
+        "le texte de la page officielle ne recoupe ni le nom ni la description",
+        "capture suspecte (4928 octets, sous 15 Ko)"
+      ]
+    },
+    {
+      "id": "drift",
+      "name": "Salesloft Drift",
+      "url": "https://www.salesloft.com/platform/drift/",
+      "failures": [
+        "lien How To Use hors domaine officiel (https://www.drift.com)"
+      ]
+    },
+    {
+      "id": "dust",
+      "name": "Dust",
+      "url": "https://dust.tt/",
+      "failures": [
+        "How To Use absent ou pas cohérent avec la description"
+      ]
+    },
+    {
+      "id": "freepik-ai",
+      "name": "Freepik AI",
+      "url": "https://www.freepik.com/ai/image-generator",
+      "failures": [
+        "le texte de la page officielle ne recoupe ni le nom ni la description"
+      ]
+    },
+    {
+      "id": "freshdesk-freddy",
+      "name": "Freshdesk Freddy",
+      "url": "https://www.freshworks.com/freshdesk/omni/freddy-ai/",
+      "failures": [
+        "lien officiel HTTP 404",
+        "capture suspecte (5874 octets, sous 15 Ko)"
+      ]
+    },
+    {
+      "id": "fronty",
+      "name": "Fronty",
+      "url": "https://fronty.com/",
+      "failures": [
+        "lien officiel injoignable (This operation was aborted)"
+      ]
+    },
+    {
+      "id": "gptzero",
+      "name": "GPTZero",
+      "url": "https://gptzero.me/",
+      "failures": [
+        "How To Use absent ou pas cohérent avec la description"
+      ]
+    },
+    {
+      "id": "jenni-ai",
+      "name": "Jenni AI",
+      "url": "https://jenni.ai/",
+      "failures": [
+        "capture suspecte (5294 octets, sous 15 Ko)"
+      ]
+    },
+    {
+      "id": "lavender",
+      "name": "Lavender",
+      "url": "https://www.lavender.ai/",
+      "failures": [
+        "capture suspecte (4364 octets, sous 15 Ko)"
+      ]
+    },
+    {
+      "id": "liner",
+      "name": "Liner",
+      "url": "https://getliner.com/",
+      "failures": [
+        "lien officiel HTTP 410",
+        "capture suspecte (3626 octets, sous 15 Ko)"
+      ]
+    },
+    {
+      "id": "lovo",
+      "name": "LOVO",
+      "url": "https://lovo.ai/",
+      "failures": [
+        "lien officiel HTTP 402"
+      ]
+    },
+    {
+      "id": "magnific",
+      "name": "Magnific AI",
+      "url": "https://magnific.ai/",
+      "failures": [
+        "capture suspecte (5078 octets, sous 15 Ko)"
+      ]
+    },
+    {
+      "id": "opera-aria",
+      "name": "Opera Aria",
+      "url": "https://www.opera.com/aria",
+      "failures": [
+        "lien officiel HTTP 404",
+        "capture suspecte (5156 octets, sous 15 Ko)"
+      ]
+    },
+    {
+      "id": "scispace",
+      "name": "SciSpace",
+      "url": "https://scispace.com/",
+      "failures": [
+        "le texte de la page officielle ne recoupe ni le nom ni la description"
+      ]
+    },
+    {
+      "id": "sora",
+      "name": "Sora",
+      "url": "https://sora.com/",
+      "failures": [
+        "How To Use absent ou pas cohérent avec la description",
+        "capture suspecte (5286 octets, sous 15 Ko)"
+      ]
+    },
+    {
+      "id": "turboscribe",
+      "name": "TurboScribe",
+      "url": "https://turboscribe.ai/",
+      "failures": [
+        "capture suspecte (4808 octets, sous 15 Ko)"
+      ]
+    },
+    {
+      "id": "wan",
+      "name": "Wan",
+      "url": "https://wan.video/",
+      "failures": [
+        "capture suspecte (4048 octets, sous 15 Ko)"
+      ]
+    },
+    {
+      "id": "winston-ai",
+      "name": "Winston AI",
+      "url": "https://gowinston.ai/",
+      "failures": [
+        "How To Use absent ou pas cohérent avec la description"
+      ]
+    },
+    {
+      "id": "zerogpt",
+      "name": "ZeroGPT",
+      "url": "https://www.zerogpt.com/",
+      "failures": [
+        "capture suspecte (4362 octets, sous 15 Ko)"
+      ]
+    }
+  ]
 }
