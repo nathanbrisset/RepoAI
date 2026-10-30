@@ -57,13 +57,13 @@ const COPY: Record<MatchLang, Record<MatchErrorCode, string>> = {
     unavailable: "AI Match is unavailable right now. Try again in a moment.",
   },
   fr: {
-    empty: "Décrivez ce que vous voulez faire.",
-    too_long: "Cette demande est trop longue. Restez sous 500 caractères.",
-    invalid: "Décrivez ce que vous voulez faire.",
-    captcha: "La vérification n'a pas abouti. Refaites-la, puis réessayez.",
-    rate_limited: "Trop de recherches depuis ce réseau. Patientez un peu, puis réessayez.",
-    no_match: "Aucun outil actif ne correspond. Décrivez la tâche avec un peu plus de détails.",
-    unavailable: "AI Match est indisponible pour le moment. Réessayez dans un instant.",
+    empty: "Décris ce que tu veux faire.",
+    too_long: "Cette demande est trop longue. Reste sous 500 caractères.",
+    invalid: "Décris ce que tu veux faire.",
+    captcha: "La vérification n'a pas abouti. Refais-la, puis réessaie.",
+    rate_limited: "Trop de recherches depuis ce réseau. Patiente un peu, puis réessaie.",
+    no_match: "Aucun outil actif ne correspond. Décris la tâche avec un peu plus de détails.",
+    unavailable: "AI Match est indisponible pour le moment. Réessaie dans un instant.",
   },
   es: {
     empty: "Describe lo que quieres hacer.",
@@ -447,7 +447,7 @@ export function fallbackReason(lang: MatchLang, tool: MatchTool, index = 0): str
 export function fallbackIntro(lang: MatchLang): string {
   const templates: Record<MatchLang, string> = {
     en: "These active tools from the directory match what you described.",
-    fr: "Ces outils encore actifs du répertoire correspondent à votre demande.",
+    fr: "Ces outils encore actifs du répertoire correspondent à ta demande.",
     es: "Estas herramientas activas del directorio encajan con lo que describes.",
     de: "Diese aktiven Tools aus dem Verzeichnis passen zu deiner Anfrage.",
     pt: "Estas ferramentas ativas do diretório correspondem ao que você descreveu.",

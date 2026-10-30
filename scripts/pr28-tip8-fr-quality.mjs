@@ -84,7 +84,7 @@ function pickFeaturesFr(tool, entry) {
   const host = hostOf(tool.url)
   return [
     summary.endsWith(".") ? summary : `${summary}.`,
-    `Consultez ${host} pour les capacités, limites et tarifs actuels.`,
+    `Consulte ${host} pour les capacités, limites et tarifs actuels.`,
   ]
 }
 
@@ -120,17 +120,17 @@ function pickSummaryFr(tool, frEntry) {
 function firstUseDescription(name, summaryFr) {
   const hook = summaryFr.replace(/\.$/, "").trim()
   if (!hook) {
-    return `Utilisez le flux principal de ${name} avec l'exemple ou le modèle proposé.`
+    return `Utilise le flux principal de ${name} avec l'exemple ou le modèle proposé.`
   }
   const firstWord = hook.split(/\s+/)[0] || ""
   const looksLikeAcronym = /^[A-Z0-9]{2,}$/.test(firstWord) || /^[A-Z]{2,}[a-z]?/.test(firstWord)
   if (looksLikeAcronym || hook.length < 48) {
-    return `Configurez votre premier scénario avec ${name} : ${hook}.`
+    return `Configure ton premier scénario avec ${name} : ${hook}.`
   }
   if (/^[a-zàâäéèêëïîôùûüç]/.test(hook)) {
-    return `Commencez par ${hook}.`
+    return `Commence par ${hook}.`
   }
-  return `Commencez par : ${hook.charAt(0).toLowerCase()}${hook.slice(1)}.`
+  return `Commence par : ${hook.charAt(0).toLowerCase()}${hook.slice(1)}.`
 }
 
 function buildHowToUseFr(tool, frEntry) {
@@ -140,23 +140,23 @@ function buildHowToUseFr(tool, frEntry) {
   const host = hostOf(url)
   return [
     {
-      title: `Ouvrez ${name}`,
-      description: `Rendez-vous sur ${host} pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.`,
+      title: `Ouvre ${name}`,
+      description: `Rends-toi sur ${host} pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.`,
       links: [{ label: name, url }],
     },
     {
-      title: "Configurez votre espace",
+      title: "Configure ton espace",
       description:
-        "Complétez l'onboarding, les préférences ou la première intégration demandée par le produit.",
+        "Complète l'onboarding, les préférences ou la première intégration demandée par le produit.",
     },
     {
-      title: "Lancez un premier usage",
+      title: "Lance un premier usage",
       description: firstUseDescription(name, summaryFr),
     },
     {
-      title: "Contrôlez le résultat",
+      title: "Contrôle le résultat",
       description:
-        "Exportez, partagez ou connectez votre environnement existant avant d'étendre l'usage en équipe.",
+        "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe.",
     },
   ]
 }
@@ -206,23 +206,23 @@ function pricingNoteFrForTool(tool) {
   const note = (tool.pricing?.note || "").trim()
   const map = {
     "Paid plans; see the official site for current pricing.":
-      "Offres payantes ; consultez le site officiel pour les tarifs actuels.",
+      "Offres payantes ; consulte le site officiel pour les tarifs actuels.",
     "Free tier available; see the official site for limits.":
-      "Formule gratuite disponible ; consultez le site officiel pour les limites.",
+      "Formule gratuite disponible ; consulte le site officiel pour les limites.",
     "Price label carried over from the previous catalog and not rechecked.":
       "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
   }
   if (map[note]) return map[note]
   if (/^See (official )?pricing at https?:\/\//i.test(note)) {
     const host = hostOf(note.replace(/^See (official )?pricing at /i, ""))
-    return `Tarifs sur ${host} ; consultez la page officielle pour les offres en vigueur.`
+    return `Tarifs sur ${host} ; consulte la page officielle pour les offres en vigueur.`
   }
   if (/^See https?:\/\//i.test(note)) {
     const host = hostOf(note.replace(/^See /i, "").replace(/ for current plans\.?$/i, ""))
-    return `Consultez ${host} pour les formules et limites actuelles.`
+    return `Consulte ${host} pour les formules et limites actuelles.`
   }
   if (note && /[a-z]/i.test(note) && !/[àâäéèêëïîôùûüç]/i.test(note) && note.length > 20) {
-    return `Détails tarifaires sur ${hostOf(tool.url)} ; consultez la page officielle avant un usage en production.`
+    return `Détails tarifaires sur ${hostOf(tool.url)} ; consulte la page officielle avant un usage en production.`
   }
   return undefined
 }
@@ -336,19 +336,13 @@ for (const file of fs.readdirSync(toolsDir).filter((f) => f.endsWith(".json"))) 
     stats.featuresScrub++
   }
 
-  entry.howToUse_fr = buildHowToUseFr(tool, entry).map((step) => ({
-    ...step,
-    title: vousify(step.title),
-    description: vousify(step.description),
-  }))
+  entry.howToUse_fr = buildHowToUseFr(tool, entry)
   stats.howTo++
 
   const noteFr = pricingNoteFrForTool(tool)
   if (noteFr) {
-    entry.pricingNote_fr = vousify(noteFr)
+    entry.pricingNote_fr = noteFr
     stats.pricing++
-  } else if (entry.pricingNote_fr) {
-    entry.pricingNote_fr = vousify(entry.pricingNote_fr)
   }
 }
 
