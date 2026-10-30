@@ -304,16 +304,19 @@ export default function ToolPageClient({ tool: sourceTool, relatedTools, success
                 <span className="text-gray-500">{t("tool.lastCheckedLabel")}</span>
                 <span>{checkedLabel || t("tool.notCheckedLabel")}</span>
               </div>
-              {tool.tags && tool.tags.length > 0 && (
+              {tool.features && tool.features.length > 0 && (
                 <div className="flex flex-col gap-2">
                   <span className="text-gray-500">{t("tool.keyFeaturesSide")}</span>
-                  <div className="flex flex-wrap gap-1">
-                    {tool.tags.slice(0, 3).map((tag: string) => (
-                      <span key={tag} className="px-2 py-1 bg-gray-100 rounded-full text-xs">
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
+                  <ul className="flex flex-col gap-1.5">
+                    {tool.features.slice(0, 3).map((feature: string, idx: number) => {
+                      const title = feature.includes(":") ? feature.split(":")[0].trim() : feature
+                      return (
+                        <li key={idx} className="text-xs text-gray-800 leading-snug">
+                          {title}
+                        </li>
+                      )
+                    })}
+                  </ul>
                 </div>
               )}
             </div>
