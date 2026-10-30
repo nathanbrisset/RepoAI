@@ -4,8 +4,8 @@
   "url": "https://kombai.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Kombai: Kombai is an AI product for coding and developer tools.",
-  "description": "Kombai is an AI product for coding and developer tools.",
+  "summary": "AI agent specialized in front-end code from designs.",
+  "description": "Kombai turns Figma designs or screenshots into clean front-end code such as React and Tailwind, reusing the project's existing components. It works inside your code editor.",
   "categories": [
     "coding"
   ],
@@ -57,5 +57,7 @@
     "Kombai – IA pour les outils de codage et de développement sur kombai.com.",
     "Axé sur les flux de travail de codage.",
     "Kombai inclut des fonctionnalités frontales."
-  ]
+  ],
+  "summary_fr": "Agent IA spécialisé dans le code front-end à partir de maquettes.",
+  "description_fr": "Kombai transforme des maquettes Figma ou des captures en code front-end propre (React, Tailwind…), en respectant les composants existants du projet. Il fonctionne dans l'éditeur de code."
 }

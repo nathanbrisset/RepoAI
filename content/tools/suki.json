@@ -4,8 +4,8 @@
   "url": "https://www.suki.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Suki: Suki is an AI product for health and medical.",
-  "description": "Suki is an AI product for health and medical.",
+  "summary": "AI voice assistant that writes clinical documentation.",
+  "description": "Suki listens to the visit and generates the clinical note in the health record, with voice commands for navigation. It integrates with major US EHR systems.",
   "categories": [
     "health"
   ],
@@ -55,5 +55,7 @@
   ],
   "features_fr": [
     "Suki est un produit d'IA pour la santé et le médical."
-  ]
+  ],
+  "summary_fr": "Assistant vocal IA qui rédige la documentation clinique.",
+  "description_fr": "Suki écoute la consultation et génère la note clinique dans le dossier médical, avec des commandes vocales pour naviguer. Il s'intègre aux principaux logiciels de dossier patient américains."
 }

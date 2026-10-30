@@ -4,8 +4,8 @@
   "url": "https://copyleaks.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Copyleaks: Copyleaks is an AI product for AI detection.",
-  "description": "Copyleaks is an AI product for AI detection.",
+  "summary": "Plagiarism and AI-generated content detection.",
+  "description": "Copyleaks analyzes text and code to detect plagiarism, including paraphrased or translated copies, and estimate how much was AI-written. It serves schools, publishers and businesses through a web app, integrations and an API.",
   "categories": [
     "ai-detection"
   ],
@@ -61,5 +61,7 @@
     "Accès par lots ou API pour les workflows CMS et LMS.",
     "Rapports avec partitions et passages surlignés.",
     "Paramètres de sensibilité et de langue."
-  ]
+  ],
+  "summary_fr": "Détection de plagiat et de contenu généré par IA.",
+  "description_fr": "Copyleaks analyse textes et code pour détecter le plagiat, y compris paraphrasé ou traduit, et estimer la part rédigée par IA. Il s'adresse aux établissements d'enseignement, aux éditeurs et aux entreprises, via une application web, des intégrations et une API."
 }

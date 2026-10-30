@@ -4,10 +4,10 @@
   "url": "https://comparia.beta.gouv.fr",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Compar:IA: Public chatbot comparator from the French public sector (beta.gouv).",
-  "description": "Compar:IA lets users compare answers from major chatbots side by side, with transparency notes and French-language benchmarks widely cited in media.",
-  "summary_fr": "Comparateur public de chatbots (beta.gouv) — très cité en FR.",
-  "description_fr": "Comparateur public de chatbots (beta.gouv) — très cité en FR.",
+  "summary": "Public chatbot comparison tool run by the French government.",
+  "description": "Compar:IA, a beta.gouv.fr service, sends the same question to two anonymous models and lets users vote for the better answer. It helps people discover models, including European ones, and raises awareness of their environmental impact. Votes feed a public French-language dataset.",
+  "summary_fr": "Comparateur public de chatbots, mené par l'État français.",
+  "description_fr": "Compar:IA, service de beta.gouv.fr, pose la même question à deux modèles anonymes et laisse l'utilisateur voter pour la meilleure réponse. Il sert à découvrir des modèles, y compris européens, et à sensibiliser à leur impact environnemental. Les votes alimentent un jeu de données public en français.",
   "categories": [
     "llm-chatbots"
   ],

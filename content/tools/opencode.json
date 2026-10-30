@@ -4,8 +4,8 @@
   "url": "https://opencode.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "OpenCode: OpenCode is an AI product for coding and developer tools.",
-  "description": "OpenCode is an AI product for coding and developer tools.",
+  "summary": "Open-source AI coding agent for the terminal.",
+  "description": "OpenCode is a coding agent that works in the terminal: it reads your project, edits files and runs commands. It's open source and works with many model providers.",
   "categories": [
     "coding"
   ],
@@ -55,5 +55,7 @@
   ],
   "features_fr": [
     "OpenCode est un produit d'IA pour les outils de codage et de développement."
-  ]
+  ],
+  "summary_fr": "Agent de code IA open source dans le terminal.",
+  "description_fr": "OpenCode est un agent de programmation qui travaille dans le terminal : il lit le projet, modifie les fichiers et exécute des commandes. Il est open source et compatible avec de nombreux fournisseurs de modèles."
 }
