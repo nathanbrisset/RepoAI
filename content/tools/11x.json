@@ -6,15 +6,15 @@
   "status": "active",
   "summary": "11x: Autonomous AI sales development rep.",
   "description": "11x helps teams with autonomous AI sales development rep.",
-  "summary_fr": "SDR IA autonome.",
-  "description_fr": "SDR IA autonome.",
+  "summary_fr": "SDR IA autonome pour la prospection sortante et la prise de rendez-vous.",
+  "description_fr": "11x déploie un agent SDR IA autonome qui automatise la prospection sortante, les relances et la réservation de rendez-vous, connecté à votre CRM et à vos workflows e-mail.",
   "categories": [
     "sales"
   ],
   "tags": [
-    "ai",
     "sales",
-    "catalog"
+    "outbound",
+    "automation"
   ],
   "pricing": {
     "model": "paid",
@@ -64,5 +64,10 @@
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "ventes",
+    "prospection",
+    "automatisation"
+  ]
 }

@@ -12,9 +12,9 @@
     "voice"
   ],
   "tags": [
-    "ai",
     "voice",
-    "catalog"
+    "phone",
+    "support"
   ],
   "pricing": {
     "model": "paid",
@@ -62,5 +62,10 @@
     }
   ],
   "hqCountry": "DE",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "voix",
+    "téléphone",
+    "support"
+  ]
 }

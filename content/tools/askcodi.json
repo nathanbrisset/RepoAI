@@ -4,8 +4,8 @@
   "url": "https://www.askcodi.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "An AI agency that runs itself. Give AskCodi a goal: the scope comes back in writing, the work arrives for your sign off, and the account stays open after launch.",
-  "description": "An AI agency that runs itself. Give AskCodi a goal: the scope comes back in writing, the work arrives for your sign off, and the account stays open after launch. Code suggestions: Provides code snippets based on input. Question answering: Answers coding-related queries. Supports multiple languages: Handles various programming languages. IDE integration: Compatible with popular code editors.",
+  "summary": "AI coding assistant for snippets, answers, and IDE workflows.",
+  "description": "AskCodi helps developers with code suggestions, coding Q&A, multi-language support, and IDE integrations. Ask questions in natural language, review generated snippets, and adapt them in your editor.",
   "categories": [
     "ai-agents"
   ],
@@ -54,17 +54,25 @@
     }
   ],
   "features_fr": [
-    "Suggestions de code : fournit des extraits de code basés sur la saisie.",
-    "Réponses aux questions : répond aux requêtes liées au codage.",
-    "Prise en charge de plusieurs langages : gère divers langages de programmation.",
-    "Intégration IDE : compatible avec les éditeurs de code populaires."
+    "Suggestions de code à partir de votre saisie ou de vos questions.",
+    "Réponses aux questions liées au développement et au débogage.",
+    "Prise en charge de nombreux langages de programmation.",
+    "Extensions et intégrations pour les éditeurs et navigateurs courants."
   ],
-  "tags_fr": ["suggestions de code", "questions de codage"],
+  "tags_fr": [
+    "suggestions de code",
+    "questions de code"
+  ],
   "howToUse_fr": [
     {
       "title": "Installe l'extension AskCodi",
       "description": "Ajoute AskCodi à ton IDE ou navigateur depuis la boutique d'extensions.",
-      "links": [{ "label": "AskCodi", "url": "https://www.askcodi.com/" }]
+      "links": [
+        {
+          "label": "AskCodi",
+          "url": "https://www.askcodi.com/"
+        }
+      ]
     },
     {
       "title": "Saisis une question ou une tâche",
@@ -78,5 +86,7 @@
       "title": "Adapte et intègre",
       "description": "Modifie le code suggéré puis valide-le dans ton dépôt ou ton projet."
     }
-  ]
+  ],
+  "summary_fr": "Assistant de code IA pour extraits, réponses et workflows dans l'IDE.",
+  "description_fr": "AskCodi aide les développeurs avec des suggestions de code, des réponses aux questions techniques, la prise en charge de plusieurs langages et des intégrations IDE. Posez une question, examinez les extraits proposés et adaptez-les dans votre éditeur."
 }

@@ -4,8 +4,8 @@
   "url": "https://www.lavender.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Lavender: Lavender is an AI product for sales and CRM.",
-  "description": "Lavender is an AI product for sales and CRM.",
+  "summary": "AI email coach for sales teams — scoring, coaching, and send-time insights.",
+  "description": "Lavender analyzes outbound sales emails, scores messages, and coaches reps on tone, clarity, and personalization before they hit send.",
   "categories": [
     "sales"
   ],
@@ -27,7 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Lavender is an AI product for sales and CRM."
+    "Email scoring and coaching for outbound sales messages.",
+    "Personalization and clarity suggestions before send.",
+    "Integrations with common sales email workflows.",
+    "Analytics to improve reply rates over time."
   ],
   "howToUse": [
     {
@@ -54,8 +57,17 @@
     }
   ],
   "features_fr": [
-    "Lavande — IA pour les ventes et le CRM sur lavande.ai.",
-    "Axé sur les workflows de vente.",
-    "Lavender inclut des fonctionnalités de messagerie."
+    "Scoring et coaching des e-mails commerciaux sortants.",
+    "Suggestions de personnalisation et de clarté avant envoi.",
+    "Intégrations avec les workflows e-mail sales courants.",
+    "Analyses pour améliorer les taux de réponse dans le temps."
+  ],
+  "summary_fr": "Coach e-mail IA pour les équipes commerciales : scoring, coaching et conseils avant envoi.",
+  "description_fr": "Lavender analyse les e-mails commerciaux sortants, note les messages et coach les commerciaux sur le ton, la clarté et la personnalisation avant l'envoi.",
+  "tags_fr": [
+    "e-mail",
+    "ventes",
+    "coaching",
+    "prospection"
   ]
 }

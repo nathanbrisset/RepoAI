@@ -12,9 +12,9 @@
     "llm-chatbots"
   ],
   "tags": [
-    "ai",
     "llm",
-    "catalog"
+    "multi-model",
+    "subscription"
   ],
   "pricing": {
     "model": "paid",
@@ -28,12 +28,16 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "One subscription for ChatGPT.",
-    "And more (French startup)."
+    "One subscription for ChatGPT, Claude, Gemini, Mistral, and more.",
+    "French-first interface and support for European users.",
+    "Conversation history and projects across models.",
+    "Single bill instead of many vendor plans."
   ],
   "features_fr": [
-    "Un abonnement pour ChatGPT.",
-    "Mistral… (startup française)."
+    "Un abonnement pour ChatGPT, Claude, Gemini, Mistral et d'autres modèles.",
+    "Interface et support orientés utilisateurs francophones.",
+    "Historique de conversations et projets multi-modèles.",
+    "Une seule facture au lieu de plusieurs abonnements éditeurs."
   ],
   "howToUse": [
     {
@@ -60,5 +64,10 @@
     }
   ],
   "hqCountry": "FR",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "LLM",
+    "multi-modèles",
+    "abonnement"
+  ]
 }

@@ -4,8 +4,8 @@
   "url": "https://www.freshworks.com/freshdesk/omni/freddy-ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Freshdesk Freddy: Freshdesk Freddy is an AI product for customer support.",
-  "description": "Freshdesk Freddy is an AI product for customer support.",
+  "summary": "Freddy AI copilot for Freshdesk — ticket triage, replies, and agent assist.",
+  "description": "Freshdesk Freddy brings AI to Freshdesk Omni: suggested replies, ticket summarization, intent detection, and automation for support teams on Freshworks.",
   "categories": [
     "support"
   ],
@@ -27,8 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Freshdesk Freddy.",
-    "AI for customer support at freshworks.com."
+    "AI-suggested replies and summaries on support tickets.",
+    "Intent detection and routing for Freshdesk Omni workflows.",
+    "Agent assist embedded in the Freshdesk workspace.",
+    "Automation and insights tied to Freshworks CRM data."
   ],
   "howToUse": [
     {
@@ -55,7 +57,17 @@
     }
   ],
   "features_fr": [
-    "Bureau frais Freddy.",
-    "IA pour le support client sur Freshworks.com."
+    "Réponses et résumés suggérés par l'IA sur les tickets support.",
+    "Détection d'intention et routage dans les workflows Freshdesk Omni.",
+    "Assistance agent intégrée à l'espace Freshdesk.",
+    "Automatisations et insights liés aux données Freshworks."
+  ],
+  "summary_fr": "Copilote Freddy AI pour Freshdesk : tri des tickets, réponses suggérées et assistance agent.",
+  "description_fr": "Freshdesk Freddy apporte l'IA à Freshdesk Omni : réponses suggérées, résumés de tickets, détection d'intention et automatisations pour les équipes support sur Freshworks.",
+  "tags_fr": [
+    "helpdesk",
+    "bots",
+    "Freshworks",
+    "support"
   ]
 }
