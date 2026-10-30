@@ -42,10 +42,10 @@
     "summary_fr": "Plateforme d'automatisation de l'expérience client qui combine marketing par e-mail, automatisation et outils CRM.",
     "description_fr": "Plateforme d'automatisation de l'expérience client qui combine marketing par e-mail, automatisation et outils CRM. Automatisation marketing : Déclenche des e-mails selon les actions des utilisateurs. CRM intégré : Synchronise les tâches commerciales et marketing. Suivi du site : Surveille le comportement des utilisateurs pour personnaliser le contenu. Segmentation des e-mails : Cible les messages vers des segments d'audience.",
     "tags_fr": [
-      "email-marketing",
+      "e-mail marketing",
       "crm",
       "automatisation",
-      "sales-automation"
+      "automatisation commerciale"
     ],
     "features_fr": [
       "Automatisation du marketing : déclenchez des e-mails en fonction des actions des utilisateurs.",
@@ -156,9 +156,9 @@
     ],
     "tags_fr": [
       "adobe",
-      "ai-art",
-      "creative-cloud",
-      "text-effects"
+      "IA art",
+      "créatif cloud",
+      "texte effets"
     ]
   },
   "adobe-express": {
@@ -203,7 +203,7 @@
   },
   "adobe-marketo-engage": {
     "summary_fr": "Logiciel d'automatisation marketing pour la gestion des leads, le marketing par e-mail et la gestion des campagnes.",
-    "description_fr": "Logiciel d'automatisation marketing pour la gestion des leads, le marketing par e-mail et la gestion des campagnes. Gestion des leads : Capture les leads et leur attribue un score grâce à l'automatisation. Campagnes cross-canal : E-mail, réseaux sociaux, publicités, et plus encore. Personnalisation : Adapte les expériences au comportement des utilisateurs. Analytique : Reporting en temps réel sur la performance des campagnes.",
+    "description_fr": "Logiciel d'automatisation marketing pour la gestion des leads, le marketing par e-mail et la gestion des campagnes. Gestion des leads : Capture les leads et leur attribue un score grâce à l'automatisation. Campagnes cross-canal : E-mail, réseaux sociaux, publicités, et plus encore. Personnalisation : Adaptez les expériences au comportement des utilisateurs. Analytique : Reporting en temps réel sur la performance des campagnes.",
     "features_fr": [
       "Gestion des leads : capturez et notez des leads grâce à l'automatisation.",
       "Campagnes cross-canal : e-mail, réseaux sociaux, publicités, etc.",
@@ -236,9 +236,9 @@
       }
     ],
     "tags_fr": [
-      "lead-management",
-      "email-marketing",
-      "campaign-management",
+      "gestion des prospects",
+      "e-mail marketing",
+      "campaign gestion",
       "analytique"
     ]
   },
@@ -273,7 +273,7 @@
     ],
     "tags_fr": [
       "photoshop",
-      "generative-fill",
+      "remplissage génératif",
       "adobe",
       "montage"
     ],
@@ -316,8 +316,8 @@
       }
     ],
     "tags_fr": [
-      "noise-removal",
-      "speech-clarity",
+      "noise suppression",
+      "parole clarity",
       "enhancement"
     ]
   },
@@ -356,7 +356,7 @@
     "tags_fr": [
       "premiere",
       "generative",
-      "video-edit",
+      "vidéo édition",
       "adobe"
     ]
   },
@@ -441,12 +441,12 @@
   },
   "ai2sql": {
     "summary_fr": "Assistant SQL par IA qui fonctionne sur votre schéma réel. Générez, expliquez, corrigez et optimisez le SQL, et laissez Claude, Cursor ou ChatGPT interroger votre base de données via MCP.",
-    "description_fr": "Assistant SQL par IA qui fonctionne sur votre schéma réel. Générez, expliquez, corrigez et optimisez le SQL, et laissez Claude, Cursor ou ChatGPT interroger votre base de données via MCP. Langage naturel vers SQL : Traduit le texte courant en requêtes. Optimisation des requêtes : Suggère de meilleures structures de requête. Prise en charge de plusieurs bases : MySQL, PostgreSQL, etc. Retour en temps réel : Valide les requêtes instantanément.",
+    "description_fr": "Assistant SQL par IA qui fonctionne sur votre schéma réel. Générez, expliquez, corrigez et optimisez le SQL, et laissez Claude, Cursor ou ChatGPT interroger votre base de données via MCP. Langage naturel vers SQL : Traduit le texte courant en requêvos. Optimisation des requêvos : Suggère de meilleures structures de requête. Prise en charge de plusieurs bases : MySQL, PostgreSQL, etc. Retour en temps réel : Valide les requêvos instantanément.",
     "features_fr": [
-      "Langage naturel vers SQL : traduisez du texte brut en requêtes.",
-      "Optimisation des requêtes : suggère de meilleures structures de requêtes.",
+      "Langage naturel vers SQL : traduisez du texte brut en requêvos.",
+      "Optimisation des requêvos : suggère de meilleures structures de requêvos.",
       "Prend en charge plusieurs bases de données : MySQL, PostgreSQL, etc.",
-      "Commentaires en temps réel : validez les requêtes instantanément."
+      "Commentaires en temps réel : validez les requêvos instantanément."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
     "howToUse_fr": [
@@ -475,7 +475,7 @@
     ],
     "tags_fr": [
       "sql",
-      "natural-language"
+      "naturel langue"
     ]
   },
   "aimages": {
@@ -592,16 +592,16 @@
     ],
     "tags_fr": [
       "soundtrack",
-      "emotional-music",
-      "film-scores"
+      "emotional musique",
+      "film scores"
     ]
   },
   "akkio": {
     "summary_fr": "Découvrez la puissance de l'IA spécifique aux applications. Akkio permet aux agences média de comprendre facilement et instantanément leurs données dans les workflows de campagne, et d'agir dessus pour des résultats clients meilleurs et plus rapides.",
-    "description_fr": "Découvrez la puissance de l'IA spécifique aux applications. Akkio permet aux agences média de comprendre facilement et instantanément leurs données dans les workflows de campagne, et d'agir dessus pour des résultats clients meilleurs et plus rapides. Modélisation IA sans code : Construisez des modèles prédictifs sans coder. Idéal pour l'analytique marketing et commerciale. Chat Explore™ : Interagissez avec les données par des requêtes en langage naturel. Outils de préparation des données : Nettoyez et transformez les données efficacement. Rapports génératifs : Générez automatiquement des enseignements et des rapports à partir des données.",
+    "description_fr": "Découvrez la puissance de l'IA spécifique aux applications. Akkio permet aux agences média de comprendre facilement et instantanément leurs données dans les workflows de campagne, et d'agir dessus pour des résultats clients meilleurs et plus rapides. Modélisation IA sans code : Construisez des modèles prédictifs sans coder. Idéal pour l'analytique marketing et commerciale. Chat Explore™ : Interagissez avec les données par des requêvos en langage naturel. Outils de préparation des données : Nettoyez et transformez les données efficacement. Rapports génératifs : Générez automatiquement des enseignements et des rapports à partir des données.",
     "features_fr": [
       "Modélisation d'IA sans code : créez des modèles prédictifs sans codage, idéaux pour l'analyse du marketing et des ventes.",
-      "Chat Explore™ : interagissez avec les données à l'aide de requêtes en langage naturel.",
+      "Chat Explore™ : interagissez avec les données à l'aide de requêvos en langage naturel.",
       "Outils de préparation des données : nettoyez et transformez les données efficacement.",
       "Rapports génératifs : générez automatiquement des informations et des rapports à partir des données."
     ],
@@ -631,10 +631,10 @@
       }
     ],
     "tags_fr": [
-      "machine-learning",
-      "predictive-models",
-      "no-code",
-      "data-analysis"
+      "machine apprentissage",
+      "predictive modèles",
+      "sans code",
+      "données analyse"
     ]
   },
   "albertai": {
@@ -762,7 +762,7 @@
     "tags_fr": [
       "analytique",
       "etl",
-      "data-prep"
+      "données préparation"
     ]
   },
   "amazon-codewhisperer": {
@@ -771,7 +771,7 @@
   },
   "anima": {
     "summary_fr": "Anima fait le lien entre design et développement en convertissant les designs Figma, Adobe XD et Sketch en code React, HTML et CSS adapté aux développeurs. Il simplifie la passation, prend en charge le prototypage avec des données réelles et améliore le flux de travail des équipes produit.",
-    "description_fr": "Anima fait le lien entre design et développement en convertissant les designs Figma, Adobe XD et Sketch en code React, HTML et CSS adapté aux développeurs. Il simplifie la passation, prend en charge le prototypage avec des données réelles et améliore le flux de travail des équipes produit. Anima est l'agent d'IA attentif au design qui relie créativité et code. À partir de fichiers Figma, d'URL ou de prompts, Anima génère de vraies applications prêtes pour la production, pour les équipes produit qui construisent directement, ou pour les plateformes de code qui s'intègrent via API. Sert de moteur à Bolt.new et Replit. Design vers code : Convertissez les designs en React, HTML et CSS. Prototypage avec des données réelles : Utilisez de vraies API dans les prototypes. Mises à jour automatiques du code : Synchronisez instantanément les changements de design. Collaboration : Commentez et itérez avec les équipes.",
+    "description_fr": "Anima fait le lien entre design et développement en convertissant les designs Figma, Adobe XD et Sketch en code React, HTML et CSS adapté aux développeurs. Il simplifie la passation, prend en charge le prototypage avec des données réelles et améliore le flux de travail des équipes produit. Anima est l'agent d'IA attentif au design qui relie créativité et code. À partir de fichiers Figma, d'URL ou de prompts, Anima génère de vraies applications prêvos pour la production, pour les équipes produit qui construisent directement, ou pour les plateformes de code qui s'intègrent via API. Sert de moteur à Bolt.new et Replit. Design vers code : Convertissez les designs en React, HTML et CSS. Prototypage avec des données réelles : Utilisez de vraies API dans les prototypes. Mises à jour automatiques du code : Synchronisez instantanément les changements de design. Collaboration : Commentez et itérez avec les équipes.",
     "features_fr": [
       "Design-to-Code : convertissez les conceptions en React, HTML et CSS.",
       "Prototypage avec des données réelles : utilisez de vraies API dans les prototypes.",
@@ -806,7 +806,7 @@
     "tags_fr": [
       "figma",
       "sketch",
-      "code-generation",
+      "code génération",
       "handoff"
     ]
   },
@@ -845,7 +845,7 @@
       }
     ],
     "tags_fr": [
-      "social-video",
+      "social vidéo",
       "slideshow",
       "ecommerce",
       "storyboarding",
@@ -895,7 +895,7 @@
   },
   "anyword": {
     "summary_fr": "Anyword fonctionne avec n'importe quel modèle d'IA ou n'importe quelle application, en ajoutant des données issues de tests A/B à chaque étape du processus de génération. Le résultat : une hausse de 30 % des résultats d'activité.",
-    "description_fr": "Anyword fonctionne avec n'importe quel modèle d'IA ou n'importe quelle application, en ajoutant des données issues de tests A/B à chaque étape du processus de génération. Le résultat : une hausse de 30 % des résultats d'activité. Score de performance prédictif : Prévoit l'efficacité du contenu. Générateur d'annonces : Crée des titres, des CTA et des variantes pour les tests. Ciblage par persona : Adapte les textes selon les segments d'audience. Mode SEO : Optimise le contenu pour les classements et la lisibilité.",
+    "description_fr": "Anyword fonctionne avec n'importe quel modèle d'IA ou n'importe quelle application, en ajoutant des données issues de tests A/B à chaque étape du processus de génération. Le résultat : une hausse de 30 % des résultats d'activité. Score de performance prédictif : Prévoit l'efficacité du contenu. Générateur d'annonces : Crée des titres, des CTA et des variantes pour les tests. Ciblage par persona : Adaptez les textes selon les segments d'audience. Mode SEO : Optimise le contenu pour les classements et la lisibilité.",
     "features_fr": [
       "Score de performance prédictif : prévoit l'efficacité du contenu.",
       "Générateur d'annonces : crée des titres, des CTA et des variantes à des fins de test.",
@@ -928,11 +928,11 @@
       }
     ],
     "tags_fr": [
-      "performance-score",
+      "performance score",
       "ads",
-      "marketing-ai",
-      "conversion-optimization",
-      "ab-testing"
+      "marketing IA",
+      "conversion optimisation",
+      "ab testing"
     ]
   },
   "apache_nifi": {
@@ -1029,7 +1029,7 @@
       }
     ],
     "tags_fr": [
-      "image-blending",
+      "image blending",
       "art"
     ]
   },
@@ -1066,7 +1066,7 @@
     "description_fr": "Asana AI — L'IA pour la productivité sur asana.com.",
     "pricingNote_fr": "Tarifs sur asana.com ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
-      "project-management",
+      "project gestion",
       "goals",
       "reporting",
       "teams"
@@ -1084,8 +1084,8 @@
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
     "howToUse_fr": [
       {
-        "title": "Ouvrez AskCodi",
-        "description": "Rendez-vous sur askcodi.com pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.",
+        "title": "Installez l'extension AskCodi",
+        "description": "Ajoutez AskCodi à votre IDE ou navigateur depuis la boutique d'extensions.",
         "links": [
           {
             "label": "AskCodi",
@@ -1094,16 +1094,16 @@
         ]
       },
       {
-        "title": "Configurez votre espace",
-        "description": "Complétez l'onboarding, les préférences ou la première intégration demandée par le produit."
+        "title": "Saisissez une question ou une tâche",
+        "description": "Décrivez votre besoin de code ou posez une question technique précise."
       },
       {
-        "title": "Lancez un premier usage",
-        "description": "Commencez par : assistant de code IA pour extraits, réponses et workflows dans l'IDE."
+        "title": "Recevez des suggestions",
+        "description": "Parcourez les extraits ou réponses proposés et insérez ce qui convient."
       },
       {
-        "title": "Contrôlez le résultat",
-        "description": "Exportez, partagez ou connectez votre environnement existant avant d'étendre l'usage en équipe."
+        "title": "Adaptez et intégrez",
+        "description": "Modifiez le code suggéré puis validez-le dans votre dépôt ou projet."
       }
     ],
     "tags_fr": [
@@ -1154,8 +1154,8 @@
     "summary_fr": "Service web de postproduction audio qui utilise l'IA pour équilibrer les niveaux, égaliser la voix et réduire le bruit, pour les podcasts et les vidéos.",
     "description_fr": "Service web de postproduction audio qui utilise l'IA pour équilibrer les niveaux, égaliser la voix et réduire le bruit, pour les podcasts et les vidéos. Le service web automatique de postproduction audio. Nivellement audio : Équilibre automatiquement les niveaux audio.",
     "tags_fr": [
-      "audio-leveling",
-      "post-production",
+      "audio leveling",
+      "post production",
       "automatisation"
     ],
     "features_fr": [
@@ -1226,7 +1226,7 @@
     ],
     "tags_fr": [
       "drawing",
-      "machine-learning",
+      "machine apprentissage",
       "sketching"
     ]
   },
@@ -1305,7 +1305,7 @@
     ],
     "tags_fr": [
       "regex",
-      "natural-language"
+      "naturel langue"
     ]
   },
   "avoma": {
@@ -1388,7 +1388,7 @@
   },
   "bito-ai": {
     "summary_fr": "Governor comprend votre code et oriente chaque requête vers le meilleur modèle, deux leviers qui réduisent de moitié les coûts des agents de code sans toucher à la qualité.",
-    "description_fr": "Governor comprend votre code et oriente chaque requête vers le meilleur modèle, deux leviers qui réduisent de moitié les coûts des agents de code sans toucher à la qualité. Explication du code : Décompose la logique complexe. Génération de code : Écrit du code à partir de prompts. Commentaires : Ajoute des commentaires de code utiles. Aide aux tests : Aide à écrire des tests unitaires.",
+    "description_fr": "Governor comprend votre code et oriente chaque requête vers le meilleur modèle, deux leviers qui réduisent de moitié les coûts des agents de code sans toucher à la qualité. Explication du code : Décompose la logique complexe. Génération de code : Écrit du code à partir de prompts. Commentaires : Ajoutez des commentaires de code utiles. Aide aux tests : Aide à écrire des tests unitaires.",
     "features_fr": [
       "Explication du code : décompose la logique complexe.",
       "Génération de code : écrit du code à partir d'invites.",
@@ -1422,7 +1422,7 @@
     ],
     "tags_fr": [
       "documentation",
-      "developer-productivity"
+      "développeur productivité"
     ]
   },
   "blackbox-ai": {
@@ -1460,8 +1460,8 @@
       }
     ],
     "tags_fr": [
-      "code-assistant",
-      "developer-productivity"
+      "code assistant",
+      "développeur productivité"
     ]
   },
   "blaze": {
@@ -1500,7 +1500,7 @@
       "contenu",
       "social",
       "calendar",
-      "small-business"
+      "PME entreprise"
     ]
   },
   "bolt": {
@@ -1509,7 +1509,7 @@
     "tags_fr": [
       "créateur d'applications",
       "applications web",
-      "no-code",
+      "applications web",
       "déploiement"
     ],
     "features_fr": [
@@ -1577,7 +1577,7 @@
     "description_fr": "Boomy com.",
     "pricingNote_fr": "Tarifs sur boomy.com ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
-      "music-gen",
+      "musique gen",
       "distribution",
       "creator",
       "tracks"
@@ -1817,14 +1817,14 @@
     ],
     "tags_fr": [
       "cms",
-      "page-builder",
-      "ai-content",
+      "page constructeur",
+      "IA contenu",
       "optimization"
     ]
   },
   "canirank": {
     "summary_fr": "CanIRank est un outil de SEO par IA qui analyse les mots-clés, suggère des opportunités de classement et recommande des étapes concrètes pour améliorer la performance de votre site dans la recherche.",
-    "description_fr": "CanIRank est un outil de SEO par IA qui analyse les mots-clés, suggère des opportunités de classement et recommande des étapes concrètes pour améliorer la performance de votre site dans la recherche. Oubliez les données, ce nouveau logiciel SEO trouve des mots-clés sur lesquels vous pouvez vous classer, des liens que vous pouvez obtenir, et des optimisations on-page garanties d'augmenter les classements. Analyse de mots-clés pour les opportunités de classement. Recommandations d'actions SEO, étape par étape. Analyse comparative des concurrents et enseignements. Suivi des progrès pour les améliorations SEO.",
+    "description_fr": "CanIRank est un outil de SEO par IA qui analyse les mots-clés, suggère des opportunités de classement et recommande des étapes concrèvos pour améliorer la performance de votre site dans la recherche. Oubliez les données, ce nouveau logiciel SEO trouve des mots-clés sur lesquels vous pouvez vous classer, des liens que vous pouvez obtenir, et des optimisations on-page garanties d'augmenter les classements. Analyse de mots-clés pour les opportunités de classement. Recommandations d'actions SEO, étape par étape. Analyse comparative des concurrents et enseignements. Suivi des progrès pour les améliorations SEO.",
     "features_fr": [
       "Analyse de mots clés pour les opportunités de classement.",
       "Recommandations d'actions SEO étape par étape.",
@@ -1940,11 +1940,11 @@
       }
     ],
     "tags_fr": [
-      "video-templates",
+      "vidéo templates",
       "shorts",
       "filters",
-      "background-removal",
-      "mobile-editing"
+      "détourage",
+      "mobile édition"
     ]
   },
   "captions": {
@@ -1952,7 +1952,7 @@
     "description_fr": "Captions est un générateur et un éditeur vidéo par IA qui fait passer un contenu de l'idée à la vidéo prête à partager, avec sous-titres automatiques, montages par IA, avatars IA et doublage. Il est conçu pour les créateurs et les spécialistes du marketing qui publient des vidéos face caméra et des vidéos pour les réseaux sociaux. Un plan gratuit est disponible, et les plans payants débloquent davantage d'exports, de crédits et de fonctions premium.",
     "tags_fr": [
       "montage vidéo",
-      "sous-titres",
+      "sous titres",
       "réseaux sociaux",
       "avatars"
     ],
@@ -2113,10 +2113,10 @@
     "summary_fr": "Navigateur IA d'OpenAI intégrant ChatGPT pour la recherche et l'aide contextuelle sur les pages.",
     "description_fr": "Navigateur IA d'OpenAI intégrant ChatGPT pour la recherche et l'aide contextuelle sur les pages.",
     "features_fr": [
-      "Chat multi-tours avec sélection de modèle si disponible.",
-      "Saisie de fichier, d’image ou vocale sur les forfaits pris en charge.",
-      "Partagez ou exportez des conversations pour vos coéquipiers.",
-      "Contrôles API ou d'entreprise sur les niveaux supérieurs."
+      "Navigateur axé sur l'IA avec ChatGPT intégré pour la recherche et les onglets.",
+      "Assistance contextuelle sur la page web que vous consultez.",
+      "Synthèse et questions sur le contenu ouvert sans changer d'application.",
+      "Nécessite un abonnement ChatGPT éligible là où Atlas est déployé."
     ],
     "howToUse_fr": [
       {
@@ -2184,7 +2184,7 @@
     ],
     "pricingNote_fr": "Consultez civitai.com pour les formules et limites actuelles.",
     "tags_fr": [
-      "stable-diffusion",
+      "stable diffusion",
       "modèles",
       "community",
       "lora"
@@ -2224,7 +2224,7 @@
     "pricingNote_fr": "Tarifs sur claid.ai ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
       "ecommerce",
-      "product-photos",
+      "product photos",
       "enhance",
       "api"
     ]
@@ -2469,7 +2469,7 @@
     ],
     "tags_fr": [
       "seo",
-      "content-optimization"
+      "contenu optimisation"
     ]
   },
   "clickup-ai": {
@@ -2477,7 +2477,7 @@
     "description_fr": "Le premier réseau de neurones au monde qui relie projets, documents, personnes et l'ensemble des connaissances de votre entreprise à l'IA, via ClickUp Brain. Automatisation des tâches : Génère et met à jour automatiquement des tâches à partir de prompts. Rédacteur IA : Rédige des notes de réunion, des briefs de projet et du contenu. Résumé : Résume les longs fils de discussion et les commentaires. Assistant de brainstorming : Aide à trouver des idées et à décomposer les projets.",
     "tags_fr": [
       "automatisation",
-      "project-management"
+      "project gestion"
     ],
     "features_fr": [
       "Automatisation des tâches : génère et met à jour automatiquement les tâches en fonction des invites.",
@@ -2585,7 +2585,7 @@
     "description_fr": "Clio com.",
     "pricingNote_fr": "Tarifs sur clio.com ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
-      "practice-management",
+      "practice gestion",
       "legal",
       "billing",
       "IA"
@@ -2593,14 +2593,14 @@
   },
   "clipdroprelight": {
     "summary_fr": "ClipDrop Relight utilise l'IA pour rééclairer et monter des scènes vidéo, en améliorant les visuels sans nouveau tournage. Parfait pour la postproduction et les projets créatifs.",
-    "description_fr": "ClipDrop Relight utilise l'IA pour rééclairer et monter des scènes vidéo, en améliorant les visuels sans nouveau tournage. Parfait pour la postproduction et les projets créatifs. Rééclairez vos photos automatiquement avec l'IA Rééclairage par IA : Modifiez les conditions d'éclairage de votre vidéo après le tournage, en ajoutant du dramatisme ou en corrigeant un mauvais éclairage. Étalonnage des couleurs : Ajustez instantanément l'ambiance, le ton et la palette de couleurs pour un rendu professionnel soigné. Suppression d'objets : Effacez sans effort les éléments indésirables de vos plans, sans compétences de montage complexes. Éditeur web : Montez des vidéos dans le cloud, sans matériel local de haute puissance.",
+    "description_fr": "ClipDrop Relight utilise l'IA pour rééclairer et monter des scènes vidéo, en améliorant les visuels sans nouveau tournage. Parfait pour la postproduction et les projets créatifs. Rééclairez vos photos automatiquement avec l'IA Rééclairage par IA : Modifiez les conditions d'éclairage de votre vidéo après le tournage, en ajoutant du dramatisme ou en corrigeant un mauvais éclairage. Étalonnage des couleurs : Ajustez instantanément l'ambiance, le votre et la palette de couleurs pour un rendu professionnel soigné. Suppression d'objets : Effacez sans effort les éléments indésirables de vos plans, sans compétences de montage complexes. Éditeur web : Montez des vidéos dans le cloud, sans matériel local de haute puissance.",
     "tags_fr": [
       "relighting",
       "montage"
     ],
     "features_fr": [
       "Rééclairage IA : modifiez les conditions d'éclairage de votre vidéo après le tournage, en ajoutant du drame ou en corrigeant un mauvais éclairage.",
-      "Étalonnage des couleurs : ajustez instantanément l’ambiance, le ton et la palette de couleurs pour un look professionnel raffiné.",
+      "Étalonnage des couleurs : ajustez instantanément l’ambiance, le votre et la palette de couleurs pour un look professionnel raffiné.",
       "Suppression d'objets : effacez sans effort les éléments indésirables de vos photos sans compétences d'édition complexes.",
       "Éditeur Web : éditez des vidéos dans le cloud, sans avoir besoin de matériel local puissant."
     ],
@@ -2705,7 +2705,7 @@
     ],
     "tags_fr": [
       "chatbot",
-      "code-writing"
+      "code écriture"
     ]
   },
   "codegeex": {
@@ -2744,7 +2744,7 @@
     ],
     "tags_fr": [
       "multilingual",
-      "code-generation"
+      "code génération"
     ]
   },
   "codegen": {
@@ -2782,7 +2782,7 @@
       }
     ],
     "tags_fr": [
-      "deep-learning",
+      "deep apprentissage",
       "modèles"
     ]
   },
@@ -2821,8 +2821,8 @@
       }
     ],
     "tags_fr": [
-      "code-generation",
-      "coding-assistant"
+      "code génération",
+      "codage assistant"
     ]
   },
   "codet5": {
@@ -2839,7 +2839,7 @@
     "summary_fr": "Programme d'apprentissage du code couvrant les besoins de niveau débutant jusqu'aux connaissances de haut niveau en code exigées pour travailler dans les entreprises technologiques de premier plan.",
     "description_fr": "Programme d'apprentissage du code couvrant les besoins de niveau débutant jusqu'aux connaissances de haut niveau en code exigées pour travailler dans les entreprises technologiques de premier plan. Découpage des objectifs : transformez des visions en plans structurés. Génération automatique de tâches : attribue des actions adaptées aux développeurs. Cartographie des jalons : visualisez l'avancement du projet. Flux de travail personnalisés : adaptez la planification à votre style.",
     "tags_fr": [
-      "project-planning",
+      "project planning",
       "outils développeur"
     ],
     "features_fr": [
@@ -2876,12 +2876,12 @@
   },
   "codify": {
     "summary_fr": "Générez des extraits de code et des modules complets à partir de prompts en langage naturel.",
-    "description_fr": "Générez des extraits de code et des modules complets à partir de prompts en langage naturel. Génération à partir de prompts : transformez des descriptions en code. Prise en charge des langages courants : JavaScript, Python et plus encore. Modèles personnalisés : construisez avec des blocs de code réutilisables. Partage collaboratif : partagez des extraits avec les équipes.",
+    "description_fr": "Générez des extraits de code et des modules complets à partir de prompts en langage naturel. Génération à partir de prompts : transformez des descriptions en code. Prise en charge des langages courants : JavaScript, Python et plus encore. Modèles personnalisés : construisez avec des blocs de code réutilisables. Partagez collaboratif : partagez des extraits avec les équipes.",
     "features_fr": [
       "Génération basée sur des invites : transformez les descriptions en code.",
       "Prend en charge les langages populaires : JavaScript, Python, etc.",
       "Modèles personnalisés : créez avec des blocs de code réutilisables.",
-      "Partage collaboratif : partagez des extraits avec les équipes."
+      "Partagez collaboratif : partagez des extraits avec les équipes."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
     "howToUse_fr": [
@@ -2909,8 +2909,8 @@
       }
     ],
     "tags_fr": [
-      "code-generator",
-      "natural-language"
+      "code generator",
+      "naturel langue"
     ]
   },
   "codiga": {
@@ -2919,9 +2919,9 @@
   },
   "cogram": {
     "summary_fr": "Outils d'IA pour la documentation, la collaboration et la conception — conçus pour les architectes et les ingénieurs.",
-    "description_fr": "Outils d'IA pour la documentation, la collaboration et la conception — conçus pour les architectes et les ingénieurs. Langage naturel vers SQL : convertit l'anglais courant en requêtes SQL. Génération de code Python : traduit des descriptions en code Python. Aide à l'analyse de données : assiste les tâches de code liées aux données. Intégration aux notebooks : fonctionne avec Jupyter et d'autres plateformes.",
+    "description_fr": "Outils d'IA pour la documentation, la collaboration et la conception — conçus pour les architectes et les ingénieurs. Langage naturel vers SQL : convertit l'anglais courant en requêvos SQL. Génération de code Python : traduit des descriptions en code Python. Aide à l'analyse de données : assiste les tâches de code liées aux données. Intégration aux notebooks : fonctionne avec Jupyter et d'autres plateformes.",
     "features_fr": [
-      "Langage naturel vers SQL : convertit l'anglais simple en requêtes SQL.",
+      "Langage naturel vers SQL : convertit l'anglais simple en requêvos SQL.",
       "Génération de code Python : traduit les descriptions en code Python.",
       "Aide à l'analyse des données : aide aux tâches de codage liées aux données.",
       "Intégration avec les notebooks : fonctionne avec Jupyter et d'autres plates-formes."
@@ -2954,7 +2954,7 @@
     "tags_fr": [
       "sql",
       "python",
-      "natural-language-processing"
+      "naturel langue traitement"
     ]
   },
   "colossyan": {
@@ -2992,11 +2992,11 @@
       }
     ],
     "tags_fr": [
-      "ai-presenters",
-      "learning-videos",
-      "hr-training",
+      "IA presenters",
+      "apprentissage videos",
+      "hr training",
       "compliance",
-      "slides-to-video"
+      "diapositives vers vidéo"
     ]
   },
   "comfyui": {
@@ -3004,7 +3004,7 @@
     "description_fr": "Programme open source, à base de nœuds, qui permet aux utilisateurs de générer des images à partir de prompts textuels à l'aide de modèles de diffusion. La GUI, l'API et le backend les plus puissants et les plus modulaires pour les modèles de diffusion, avec une interface en graphe/nœuds. Le moteur d'inférence locale le plus rapide au monde. - Comfy-Org/ComfyUI Flux de travail à base de nœuds : construisez des pipelines personnalisés de génération d'images. Prise en charge de modèles personnalisés : utilisez vos propres modèles ou ceux de la communauté. Aperçu en temps réel : voyez immédiatement le résultat du prompt. Export du flux de travail : partagez et réutilisez des configurations de génération.",
     "tags_fr": [
       "génération d'images",
-      "diffusion-models"
+      "diffusion modèles"
     ],
     "features_fr": [
       "Workflow basé sur des nœuds : créez des pipelines de génération d'images personnalisés.",
@@ -3043,7 +3043,7 @@
     "description_fr": "Autopilote open source pour coder directement dans VS Code. Intégration à VS Code : étend votre IDE de façon fluide. Outil open source : modifiez et étendez les fonctionnalités. Codage contextuel : génère du code à partir des fichiers proches. Panneau de prompts : posez des questions et recevez des réponses directement dans l'éditeur.",
     "tags_fr": [
       "open source",
-      "ide-extension"
+      "IDE extension"
     ],
     "features_fr": [
       "Intégration VS Code : étend de manière transparente votre IDE.",
@@ -3079,11 +3079,11 @@
   },
   "copy-ai": {
     "summary_fr": "Voici la toute première plateforme d'IA GTM. Automatisez des centaines de tâches fastidieuses et répétitives, et donnez à votre équipe les moyens d'accroître le succès comme jamais auparavant.",
-    "description_fr": "Voici la toute première plateforme d'IA GTM. Automatisez des centaines de tâches fastidieuses et répétitives, et donnez à votre équipe les moyens d'accroître le succès comme jamais auparavant. Génération de textes commerciaux : rédige des propositions de valeur, des CTA et des descriptions de produits. Flux de campagne : automatise la rédaction sur plusieurs points de contact. Personnalisation du ton : s'ajuste à la voix de la marque, au style et au ton. Assistant pour les formats longs : aide à rédiger des articles de blog, des rapports et des scripts.",
+    "description_fr": "Voici la toute première plateforme d'IA GTM. Automatisez des centaines de tâches fastidieuses et répétitives, et donnez à votre équipe les moyens d'accroître le succès comme jamais auparavant. Génération de textes commerciaux : rédige des propositions de valeur, des CTA et des descriptions de produits. Flux de campagne : automatise la rédaction sur plusieurs points de contact. Personnalisation du votre : s'ajuste à la voix de la marque, au style et au votre. Assistant pour les formats longs : aide à rédiger des articles de blog, des rapports et des scripts.",
     "features_fr": [
       "Génération de copies de vente : rédige des accessoires de valeur, des CTA et des descriptions de produits.",
       "Workflows de campagne : automatise l'écriture sur plusieurs points de contact.",
-      "Personnalisation du ton : s'ajuste à la voix, au style et au ton de la marque.",
+      "Personnalisation du votre : s'ajuste à la voix, au style et au votre de la marque.",
       "Assistant de forme longue : aide à rédiger des articles de blog, des rapports et des scripts."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
@@ -3153,7 +3153,7 @@
     "pricingNote_fr": "Tarifs sur copyleaks.com ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
       "plagiarism",
-      "ai-detection",
+      "IA détection",
       "enterprise",
       "éducation"
     ]
@@ -3271,7 +3271,7 @@
       }
     ],
     "tags_fr": [
-      "ai-art",
+      "IA art",
       "prompt",
       "free",
       "social"
@@ -3509,9 +3509,9 @@
       }
     ],
     "tags_fr": [
-      "big-data",
-      "data-engineering",
-      "machine-learning",
+      "big données",
+      "données engineering",
+      "machine apprentissage",
       "spark",
       "lakehouse"
     ]
@@ -3553,7 +3553,7 @@
     "tags_fr": [
       "automl",
       "enterprise",
-      "machine-learning"
+      "machine apprentissage"
     ]
   },
   "davinci-resolve-ai": {
@@ -3592,7 +3592,7 @@
       "color",
       "edit",
       "fairlight",
-      "magic-mask"
+      "magic mask"
     ]
   },
   "deep_dream_generator": {
@@ -3630,9 +3630,9 @@
       }
     ],
     "tags_fr": [
-      "ai-art",
+      "IA art",
       "filters",
-      "neural-networks",
+      "neural networks",
       "surreal"
     ]
   },
@@ -3721,13 +3721,13 @@
   },
   "deepdub": {
     "summary_fr": "DeepDub est une plateforme de doublage par IA pour la traduction vidéo, avec des voix synthétiques qui préservent l'émotion, et permet la localisation mondiale de contenus vidéo.",
-    "description_fr": "DeepDub est une plateforme de doublage par IA pour la traduction vidéo, avec des voix synthétiques qui préservent l'émotion, et permet la localisation mondiale de contenus vidéo. Passez le doublage de vos productions à plus grande échelle, plus vite et à moindre coût que jamais, avec la plateforme de localisation de bout en bout conçue pour la production vocale. Doublage qui préserve l'émotion : les voix IA conservent le ton, l'émotion et l'intention du locuteur d'origine, pour une traduction naturelle. Prise en charge multilingue : traduisez et doublez des contenus dans toute langue majeure, pour élargir l'audience à l'échelle mondiale. Clonage de voix : conservez l'identité du locuteur d'origine, pour l'authenticité et la continuité. Accès API : automatisez les flux de localisation et de doublage à grande échelle, pour des besoins de niveau entreprise.",
+    "description_fr": "DeepDub est une plateforme de doublage par IA pour la traduction vidéo, avec des voix synthétiques qui préservent l'émotion, et permet la localisation mondiale de contenus vidéo. Passez le doublage de vos productions à plus grande échelle, plus vite et à moindre coût que jamais, avec la plateforme de localisation de bout en bout conçue pour la production vocale. Doublage qui préserve l'émotion : les voix IA conservent le votre, l'émotion et l'intention du locuteur d'origine, pour une traduction naturelle. Prise en charge multilingue : traduisez et doublez des contenus dans toute langue majeure, pour élargir l'audience à l'échelle mondiale. Clonage de voix : conservez l'identité du locuteur d'origine, pour l'authenticité et la continuité. Accès API : automatisez les flux de localisation et de doublage à grande échelle, pour des besoins de niveau entreprise.",
     "tags_fr": [
       "doublage",
       "traduction"
     ],
     "features_fr": [
-      "Doublage préservant les émotions : les voix IA conservent le ton, l’émotion et l’intention de l’orateur d’origine pour une traduction naturelle.",
+      "Doublage préservant les émotions : les voix IA conservent le votre, l’émotion et l’intention de l’orateur d’origine pour une traduction naturelle.",
       "Prise en charge multilingue : traduisez et doublez du contenu dans n’importe quelle langue principale pour élargir votre audience mondiale.",
       "Clonage vocal : conservez l'identité du locuteur d'origine pour plus d'authenticité et de continuité.",
       "Accès API : automatisez les flux de travail de localisation et de doublage à grande échelle pour les besoins de l'entreprise."
@@ -3801,12 +3801,12 @@
   },
   "deepnote": {
     "summary_fr": "Deepnote est une plateforme de notebooks collaboratifs conçue pour les équipes de data science et d'analytics. Elle associe la flexibilité des notebooks Jupyter à la collaboration en temps réel, à l'exécution dans le cloud et à des intégrations avec des sources de données courantes. Deepnote permet aux équipes d'explorer des données, de construire des modèles et de créer ensemble des rapports interactifs, ce qui la rend idéale à la fois pour le prototypage rapide et pour les flux d'analytics de production.",
-    "description_fr": "Deepnote est une plateforme de notebooks collaboratifs conçue pour les équipes de data science et d'analytics. Elle associe la flexibilité des notebooks Jupyter à la collaboration en temps réel, à l'exécution dans le cloud et à des intégrations avec des sources de données courantes. Deepnote permet aux équipes d'explorer des données, de construire des modèles et de créer ensemble des rapports interactifs, ce qui la rend idéale à la fois pour le prototypage rapide et pour les flux d'analytics de production. Explorez des données avec Python et SQL, travaillez avec votre équipe et partagez des enseignements qui mènent à l'action — le tout au même endroit avec Deepnote. Collaboration en temps réel : plusieurs utilisateurs peuvent modifier et exécuter du code en même temps. Exécution dans le cloud : aucune installation locale ni infrastructure requise. Intégrations : connexion aux bases de données, au stockage cloud et à d'autres outils. Contrôle de version : suivez les modifications et expérimentez avec des branches.",
+    "description_fr": "Deepnote est une plateforme de notebooks collaboratifs conçue pour les équipes de data science et d'analytics. Elle associe la flexibilité des notebooks Jupyter à la collaboration en temps réel, à l'exécution dans le cloud et à des intégrations avec des sources de données courantes. Deepnote permet aux équipes d'explorer des données, de construire des modèles et de créer ensemble des rapports interactifs, ce qui la rend idéale à la fois pour le prototypage rapide et pour les flux d'analytics de production. Explorez des données avec Python et SQL, travaillez avec votre équipe et partagez des enseignements qui mènent à l'action — le tout au même endroit avec Deepnote. Collaboration en temps réel : plusieurs utilisateurs peuvent modifier et exécuter du code en même temps. Exécution dans le cloud : aucune installation locale ni infrastructure requise. Intégrations : connexion aux bases de données, au stockage cloud et à d'autres outils. Contrôlez de version : suivez les modifications et expérimentez avec des branches.",
     "features_fr": [
       "Collaboration en temps réel : plusieurs utilisateurs peuvent modifier et exécuter du code simultanément.",
       "Exécution basée sur le cloud : aucune configuration ou infrastructure locale requise.",
       "Intégrations : connectez-vous aux bases de données, au stockage cloud et à d'autres outils.",
-      "Contrôle de version : suivez les modifications et expérimentez les branchements."
+      "Contrôlez de version : suivez les modifications et expérimentez les branchements."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
     "howToUse_fr": [
@@ -3885,7 +3885,7 @@
     "summary_fr": "DeepSwap est un outil d'échange de visages par IA pour les vidéos et les images, qui permet un remplacement de visage réaliste et rapide pour les mèmes, la parodie et les retouches créatives.",
     "description_fr": "DeepSwap est un outil d'échange de visages par IA pour les vidéos et les images, qui permet un remplacement de visage réaliste et rapide pour les mèmes, la parodie et les retouches créatives. Site professionnel en ligne d'échange de visages par IA. Échangez n'importe quels visages dans une vidéo, un GIF et une photo en quelques clics. Libérez votre créativité avec Deepswap maintenant ! Échange de visages automatique : remplacez des visages dans des vidéos ou des images avec une précision et un réalisme élevés, grâce à des réseaux de neurones avancés. Résultats réalistes : fusion fluide et expressions naturelles, pour des usages ludiques comme professionnels. Plusieurs formats de fichiers : fonctionne avec MP4, GIF, JPEG et de nombreux autres types de fichiers média courants. Traitement rapide : importez et traitez rapidement des fichiers volumineux, avec prise en charge des traitements par lots.",
     "tags_fr": [
-      "face-swap",
+      "face swap",
       "montage"
     ],
     "features_fr": [
@@ -4052,7 +4052,7 @@
     ],
     "features_fr": [
       "Animation photo : animez n'importe quel portrait en avatar parlant, ajoutant une touche humaine à des images autrement statiques pour une expérience mémorable.",
-      "Texte vers vidéo : générez des vidéos de têtes parlantes à partir de scripts ou d'audio, ce qui facilite la production de contenu narré sans caméras ni acteurs.",
+      "Texte vers vidéo : générez des vidéos de têvos parlantes à partir de scripts ou d'audio, ce qui facilite la production de contenu narré sans caméras ni acteurs.",
       "Doublage vidéo IA : traduisez et doublez sans effort des vidéos existantes dans différentes langues, en préservant l'émotion et la synchronisation labiale pour plus d'authenticité.",
       "API et intégrations : automatisez la création d'avatars et la traduction vidéo pour des flux de travail évolutifs dans les domaines du marketing, de l'éducation ou du service client."
     ],
@@ -4158,18 +4158,18 @@
     ],
     "pricingNote_fr": "Consultez doctrine.fr pour les formules et limites actuelles.",
     "tags_fr": [
-      "legal-research",
+      "juridique recherche",
       "français",
-      "case-law",
+      "case law",
       "IA"
     ]
   },
   "doubao": {
     "features_fr": [
-      "Chat multi-tours avec sélection de modèle si disponible.",
-      "Saisie de fichier, d’image ou vocale sur les forfaits pris en charge.",
-      "Partagez ou exportez des conversations pour vos coéquipiers.",
-      "Contrôles API ou d'entreprise sur les niveaux supérieurs."
+      "Chat multimodal avec modèles Doubao (ByteDance) pour le texte et la création.",
+      "Saisie texte, image ou voix selon les fonctionnalités disponibles sur doubao.com.",
+      "Historique de conversations et projets dans l'interface Doubao.",
+      "Quotas, langues et modèles selon la région ; consultez le site officiel."
     ],
     "howToUse_fr": [
       {
@@ -4246,16 +4246,16 @@
   },
   "dubverse": {
     "summary_fr": "Dubverse est une plateforme de traduction et de doublage vidéo par IA qui permet une localisation rapide et précise grâce à une bibliothèque mondiale de voix.",
-    "description_fr": "Dubverse est une plateforme de traduction et de doublage vidéo par IA qui permet une localisation rapide et précise grâce à une bibliothèque mondiale de voix. Dubverse est une plateforme d'IA générative avec un doublage vidéo par IA parmi les meilleurs de sa catégorie, du texte vers parole par IA, des sous-titres automatiques et une API. Dubverse utilise l'intelligence artificielle pour un doublage vidéo parmi les meilleurs de sa catégorie. Traduction par IA : convertit la parole d'une vidéo en sous-titres et en voix dans plus de 30 langues, ce qui ouvre le contenu à de nouveaux publics. Clonage de voix : conservez le style et le ton du locuteur d'origine pour un doublage plus authentique. Délai court : obtenez des vidéos doublées en quelques minutes, ce qui rend la localisation efficace même pour les grands projets. Génération de sous-titres et de transcription : sous-titres automatiques et modifiables, et transcriptions complètes, pour compléter n'importe quelle vidéo.",
+    "description_fr": "Dubverse est une plateforme de traduction et de doublage vidéo par IA qui permet une localisation rapide et précise grâce à une bibliothèque mondiale de voix. Dubverse est une plateforme d'IA générative avec un doublage vidéo par IA parmi les meilleurs de sa catégorie, du texte vers parole par IA, des sous-titres automatiques et une API. Dubverse utilise l'intelligence artificielle pour un doublage vidéo parmi les meilleurs de sa catégorie. Traduction par IA : convertit la parole d'une vidéo en sous-titres et en voix dans plus de 30 langues, ce qui ouvre le contenu à de nouveaux publics. Clonage de voix : conservez le style et le votre du locuteur d'origine pour un doublage plus authentique. Délai court : obtenez des vidéos doublées en quelques minutes, ce qui rend la localisation efficace même pour les grands projets. Génération de sous-titres et de transcription : sous-titres automatiques et modifiables, et transcriptions complèvos, pour compléter n'importe quelle vidéo.",
     "tags_fr": [
       "doublage",
       "traduction"
     ],
     "features_fr": [
       "Traduction IA : convertit le discours vidéo en sous-titres et en voix dans plus de 30 langues, ouvrant ainsi le contenu à de nouveaux publics.",
-      "Clonage de voix : conservez le style et le ton de l'orateur d'origine pour un doublage plus authentique.",
+      "Clonage de voix : conservez le style et le votre de l'orateur d'origine pour un doublage plus authentique.",
       "Délai d'exécution rapide : obtenez des vidéos doublées en quelques minutes, ce qui rend la localisation efficace même pour les grands projets.",
-      "Génération de sous-titres et de transcriptions : sous-titres automatisés et modifiables et transcriptions complètes pour compléter n'importe quelle vidéo."
+      "Génération de sous-titres et de transcriptions : sous-titres automatisés et modifiables et transcriptions complèvos pour compléter n'importe quelle vidéo."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
     "howToUse_fr": [
@@ -4646,11 +4646,11 @@
     "summary_fr": "Outil collaboratif de conception d'interfaces, avec des fonctions par IA pour les suggestions de design et l'automatisation.",
     "description_fr": "Outil collaboratif de conception d'interfaces, avec des fonctions par IA pour les suggestions de design et l'automatisation. Figma est le canevas où le design, le code et l'IA se rejoignent. De la première idée au produit livré — passez du concept à la production avec toute votre équipe, au même endroit. Génération de contenu par IA : crée automatiquement des textes et des images. Assistance textuelle : améliore ou réécrit les textes de design. Automatisation du design : aide pour la mise en page et les espacements. Suggestions d'images : recommande des visuels pour les designs.",
     "tags_fr": [
-      "ui-design",
-      "ux-design",
+      "interface design",
+      "ux design",
       "prototypage",
       "collaboration",
-      "design-systems"
+      "design systems"
     ],
     "features_fr": [
       "Génération de contenu AI : crée automatiquement du texte et des images.",
@@ -4848,8 +4848,8 @@
     "tags_fr": [
       "texte vers vidéo",
       "voiceover",
-      "short-form-video",
-      "social-clips",
+      "short form vidéo",
+      "social clips",
       "branding"
     ],
     "features_fr": [
@@ -4916,7 +4916,7 @@
       }
     ],
     "tags_fr": [
-      "low-code",
+      "low code",
       "agents",
       "langchain",
       "open source"
@@ -5041,7 +5041,7 @@
       "typography",
       "fonts",
       "pairing",
-      "web-design"
+      "web design"
     ]
   },
   "forethought": {
@@ -5118,9 +5118,9 @@
       }
     ],
     "tags_fr": [
-      "photo-editing",
+      "photo édition",
       "filters",
-      "ai-portrait"
+      "IA portrait"
     ]
   },
   "framer_ai": {
@@ -5128,8 +5128,8 @@
     "description_fr": "Framer AI étend la plateforme de conception de sites web et d'interfaces de Framer avec du prototypage et de la génération de contenus fondés sur l'IA. Les designers peuvent générer des mises en page, des textes et des composants interactifs à partir de prompts en langage naturel, ce qui simplifie la conception web pour les débutants comme pour les professionnels. Framer est un constructeur de sites web par IA destiné aux designers et aux équipes. Générez des pages modifiables, affinez chaque détail sur le canevas, et publiez avec CMS, hébergement, SEO et analytique. Mises en page par IA : générez des structures de page à partir de prompts textuels. Rédaction : créez et modifiez instantanément les textes du site. Bibliothèque de composants : accédez à des blocs d'interface interactifs. Aperçu en direct : visualisez et testez les conceptions en temps réel.",
     "tags_fr": [
       "ui",
-      "web-design",
-      "ai-content",
+      "web design",
+      "IA contenu",
       "prototypage"
     ],
     "features_fr": [
@@ -5198,7 +5198,7 @@
     "pricingNote_fr": "Détails tarifaires sur freepik.com ; consultez la page officielle avant un usage en production.",
     "tags_fr": [
       "stock",
-      "image-gen",
+      "image gen",
       "design",
       "templates"
     ]
@@ -5281,7 +5281,7 @@
     "tags_fr": [
       "html",
       "css",
-      "mockup-conversion"
+      "mockup conversion"
     ]
   },
   "fyxer-ai": {
@@ -5319,7 +5319,7 @@
     "tags_fr": [
       "email",
       "scheduling",
-      "executive-assistant",
+      "executive assistant",
       "inbox"
     ]
   },
@@ -5454,7 +5454,7 @@
     "summary_fr": "Gencraft est un générateur d'images par IA qui crée des visuels uniques pour l'art, le marketing et la narration. Il propose des téléchargements en haute résolution, une place de marché de prompts et des licences commerciales.",
     "description_fr": "Gencraft est un générateur d'images par IA qui crée des visuels uniques pour l'art, le marketing et la narration. Il propose des téléchargements en haute résolution, une place de marché de prompts et des licences commerciales. Générateur d'art par IA. Créez un compte gratuit. Essayez des centaines de modèles d'IA. Remixez des œuvres de plus de 10 millions d'utilisateurs. Utilisez l'IA pour créer des images, des avatars et des photos remarquables Place de marché de prompts : partagez et découvrez des prompts créatifs. Sortie haute résolution : téléchargez des images jusqu'à 4K. Filtres de style : appliquez différents styles artistiques. Usage commercial : licence pour l'entreprise et le marketing.",
     "tags_fr": [
-      "ai-art",
+      "IA art",
       "génération d'images",
       "marketing",
       "prompt"
@@ -5612,10 +5612,10 @@
   },
   "github-copilot": {
     "summary_fr": "GitHub Copilot intervient à chaque étape, d'une issue ouverte jusqu'à la revue et la fusion d'une pull request. Utilisez-le dans votre éditeur, dans le terminal, sur votre ordinateur et sur GitHub.",
-    "description_fr": "GitHub Copilot intervient à chaque étape, d'une issue ouverte jusqu'à la revue et la fusion d'une pull request. Utilisez-le dans votre éditeur, dans le terminal, sur votre ordinateur et sur GitHub. Complétions de code par IA : suggère des extraits de code selon le contexte. Chat en langage naturel : interrogez la base de code par des requêtes conversationnelles. Actions intelligentes : gagnez en productivité grâce à des suggestions fondées sur l'IA. Résumés de pull request : générez des résumés des modifications de code.",
+    "description_fr": "GitHub Copilot intervient à chaque étape, d'une issue ouverte jusqu'à la revue et la fusion d'une pull request. Utilisez-le dans votre éditeur, dans le terminal, sur votre ordinateur et sur GitHub. Complétions de code par IA : suggère des extraits de code selon le contexte. Chat en langage naturel : interrogez la base de code par des requêvos conversationnelles. Actions intelligentes : gagnez en productivité grâce à des suggestions fondées sur l'IA. Résumés de pull request : générez des résumés des modifications de code.",
     "features_fr": [
       "Complétions de code AI : suggérez des extraits de code en fonction du contexte.",
-      "Chat en langage naturel : interagissez avec la base de code à l'aide de requêtes conversationnelles.",
+      "Chat en langage naturel : interagissez avec la base de code à l'aide de requêvos conversationnelles.",
       "Actions intelligentes : améliorez la productivité grâce aux suggestions basées sur l'IA.",
       "Résumés des demandes d'extraction : générez des résumés pour les modifications de code."
     ],
@@ -5645,9 +5645,9 @@
       }
     ],
     "tags_fr": [
-      "code-completion",
-      "pair-programming",
-      "ide-integration"
+      "code completion",
+      "pair programming",
+      "IDE intégration"
     ]
   },
   "gizmo": {
@@ -5764,7 +5764,7 @@
     "pricingNote_fr": "Tarifs sur glass.health ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
       "clinical",
-      "decision-support",
+      "decision support",
       "documentation",
       "providers"
     ]
@@ -5840,7 +5840,7 @@
     "tags_fr": [
       "recherche",
       "google",
-      "ai-overviews",
+      "IA overviews",
       "answers"
     ],
     "summary_fr": "Mode Google AI – IA pour la recherche et la recherche sur google.com.",
@@ -5969,10 +5969,10 @@
   },
   "goose": {
     "summary_fr": "Agent IA open source natif pour le terminal, le bureau et l'API (Block).",
-    "description_fr": "Goose est l'agent IA open source de Block qui lit ton dépôt, modifie des fichiers, exécute des commandes et automatise des tâches de développement depuis le terminal, une application de bureau ou une API. Il s'installe localement et s'étend via des extensions MCP.",
+    "description_fr": "Goose est l'agent IA open source de Block qui lit votre dépôt, modifie des fichiers, exécute des commandes et automatise des tâches de développement depuis le terminal, une application de bureau ou une API. Il s'installe localement et s'étend via des extensions MCP.",
     "features_fr": [
       "Agent local open source avec accès fichiers et shell.",
-      "Extensions MCP pour connecter tes outils.",
+      "Extensions MCP pour connecter vos outils.",
       "CLI, application de bureau et mode API.",
       "Automatisation de tâches de code et de déploiement."
     ],
@@ -6081,7 +6081,7 @@
       }
     ],
     "tags_fr": [
-      "ai-detection",
+      "IA détection",
       "éducation",
       "écriture",
       "plagiarism"
@@ -6094,13 +6094,13 @@
     "tags_fr": [
       "grammaire",
       "relecture",
-      "montage"
+      "correction"
     ],
     "features_fr": [
       "Vérifications grammaticales et orthographiques en temps réel : identifie et corrige instantanément les erreurs grammaticales et les fautes de frappe au fur et à mesure que vous tapez.",
-      "Améliorations du style d'écriture : propose des suggestions pour améliorer la clarté, la concision et le ton.",
+      "Améliorations du style d'écriture : propose des suggestions pour améliorer la clarté, la concision et le votre.",
       "Détection du plagiat : vérifie le contenu par rapport à des milliards de pages Web pour garantir son originalité.",
-      "Détection de tonalité : analyse le ton de votre écriture pour garantir qu'elle correspond au message souhaité."
+      "Détection de tonalité : analyse le votre de votre écriture pour garantir qu'elle correspond au message souhaité."
     ],
     "pricingNote_fr": "Détails tarifaires sur grammarly.com ; consultez la page officielle avant un usage en production.",
     "howToUse_fr": [
@@ -6212,9 +6212,9 @@
   },
   "h2o_ai": {
     "summary_fr": "H2O.ai est une plateforme d'IA open source qui fournit des capacités avancées d'apprentissage automatique et d'apprentissage profond aux data scientists et aux analystes métier. Elle repose sur une architecture évolutive, l'AutoML et la prise en charge du calcul distribué. H2O.ai s'intègre aux langages de programmation courants et prend en charge l'interprétabilité des modèles, ce qui en fait une solution de confiance pour les organisations qui cherchent à accélérer l'adoption de l'IA.",
-    "description_fr": "H2O.ai est une plateforme d'IA open source qui fournit des capacités avancées d'apprentissage automatique et d'apprentissage profond aux data scientists et aux analystes métier. Elle repose sur une architecture évolutive, l'AutoML et la prise en charge du calcul distribué. H2O.ai s'intègre aux langages de programmation courants et prend en charge l'interprétabilité des modèles, ce qui en fait une solution de confiance pour les organisations qui cherchent à accélérer l'adoption de l'IA. La Sovereign AI Platform de confiance. Exécutez une IA prédictive, générative et agentique sur votre propre infrastructure, du cloud jusqu'à un environnement entièrement air-gapped. Vous en êtes propriétaire. Apprentissage automatique open source : plateforme gratuite, extensible et portée par la communauté. AutoML : pipelines automatisés pour la sélection et le réglage des modèles. Traitement distribué : solutions évolutives pour les environnements big data. Prise en charge de plusieurs langages : s'intègre à Python, R et Java.",
+    "description_fr": "H2O.ai est une plateforme d'IA open source qui fournit des capacités avancées d'apprentissage automatique et d'apprentissage profond aux data scientists et aux analystes métier. Elle repose sur une architecture évolutive, l'AutoML et la prise en charge du calcul distribué. H2O.ai s'intègre aux langages de programmation courants et prend en charge l'interprétabilité des modèles, ce qui en fait une solution de confiance pour les organisations qui cherchent à accélérer l'adoption de l'IA. La Sovereign AI Platform de confiance. Exécutez une IA prédictive, générative et agentique sur votre propre infrastructure, du cloud jusqu'à un environnement entièrement air-gapped. Vous en êvos propriétaire. Apprentissage automatique open source : plateforme gratuite, extensible et portée par la communauté. AutoML : pipelines automatisés pour la sélection et le réglage des modèles. Traitement distribué : solutions évolutives pour les environnements big data. Prise en charge de plusieurs langages : s'intègre à Python, R et Java.",
     "tags_fr": [
-      "machine-learning",
+      "machine apprentissage",
       "open source",
       "automl"
     ],
@@ -6331,11 +6331,11 @@
   },
   "headlime": {
     "summary_fr": "Outil de rédaction par IA qui génère des titres, des descriptions et des microtextes adaptés à divers contextes de design.",
-    "description_fr": "Outil de rédaction par IA qui génère des titres, des descriptions et des microtextes adaptés à divers contextes de design. Écrire des textes marketing efficaces peut être difficile ou prendre du temps. Headlime utilise l'intelligence artificielle et des modèles pour rendre l'écriture plus rapide et plus simple. Vous passerez moins de temps sur le contenu et plus de temps sur les résultats. Génération de titres : créez des titres accrocheurs et des microtextes. Suggestions de contenu : obtenez des idées pour des pages de destination et des publicités. Styles d'écriture personnalisés : ajustez automatiquement le ton et le style d'écriture. Collaboration d'équipe : travaillez ensemble à la création de contenu.",
+    "description_fr": "Outil de rédaction par IA qui génère des titres, des descriptions et des microtextes adaptés à divers contextes de design. Écrire des textes marketing efficaces peut être difficile ou prendre du temps. Headlime utilise l'intelligence artificielle et des modèles pour rendre l'écriture plus rapide et plus simple. Vous passerez moins de temps sur le contenu et plus de temps sur les résultats. Génération de titres : créez des titres accrocheurs et des microtextes. Suggestions de contenu : obtenez des idées pour des pages de destination et des publicités. Styles d'écriture personnalisés : ajustez automatiquement le votre et le style d'écriture. Collaboration d'équipe : travaillez ensemble à la création de contenu.",
     "features_fr": [
       "Génération de titres : créez des titres et des microcopies accrocheurs.",
       "Suggestions de contenu : obtenez des idées de pages de destination et d'annonces.",
-      "Styles d’écriture personnalisés : ajustez automatiquement le ton et le style d’écriture.",
+      "Styles d’écriture personnalisés : ajustez automatiquement le votre et le style d’écriture.",
       "Collaboration en équipe : travaillez ensemble sur la création de contenu."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
@@ -6641,7 +6641,7 @@
     "tags_fr": [
       "sites web",
       "hostinger",
-      "ai-builder",
+      "IA constructeur",
       "hosting"
     ],
     "pricingNote_fr": "Consultez hostinger.com pour les formules et limites actuelles."
@@ -6806,9 +6806,9 @@
   },
   "ideogram": {
     "summary_fr": "Ideogram est un outil d'art par IA centré sur la génération d'images comportant du texte et de la typographie. Il permet de créer des affiches, des contenus pour les réseaux sociaux et des graphismes, tous visuellement engageants, en combinant une génération artistique par IA avec des polices et des mises en page personnalisables. Ideogram excelle à produire des images qui intègrent un texte lisible et stylisé.",
-    "description_fr": "Ideogram est un outil d'art par IA centré sur la génération d'images comportant du texte et de la typographie. Il permet de créer des affiches, des contenus pour les réseaux sociaux et des graphismes, tous visuellement engageants, en combinant une génération artistique par IA avec des polices et des mises en page personnalisables. Ideogram excelle à produire des images qui intègrent un texte lisible et stylisé. Intégration du texte : générez des images avec un texte intégré et stylisé. Contrôles typographiques : personnalisez les polices, la taille et le placement. Art à partir de prompts : créez des visuels uniques à partir de descriptions. Modèles : mises en page prêtes à l'emploi pour les affiches et les graphismes.",
+    "description_fr": "Ideogram est un outil d'art par IA centré sur la génération d'images comportant du texte et de la typographie. Il permet de créer des affiches, des contenus pour les réseaux sociaux et des graphismes, tous visuellement engageants, en combinant une génération artistique par IA avec des polices et des mises en page personnalisables. Ideogram excelle à produire des images qui intègrent un texte lisible et stylisé. Intégration du texte : générez des images avec un texte intégré et stylisé. Contrôles typographiques : personnalisez les polices, la taille et le placement. Art à partir de prompts : créez des visuels uniques à partir de descriptions. Modèles : mises en page prêvos à l'emploi pour les affiches et les graphismes.",
     "tags_fr": [
-      "ai-art",
+      "IA art",
       "typography",
       "texte vers image",
       "graphics"
@@ -6882,7 +6882,7 @@
     "tags_fr": [
       "vector",
       "svg",
-      "ai-art",
+      "IA art",
       "illustrations"
     ]
   },
@@ -6960,9 +6960,9 @@
       }
     ],
     "tags_fr": [
-      "interior-design",
-      "virtual-staging",
-      "room-styles"
+      "interior design",
+      "virtual staging",
+      "room styles"
     ]
   },
   "invideo": {
@@ -7001,7 +7001,7 @@
     ],
     "tags_fr": [
       "vidéo",
-      "content-creation"
+      "contenu creation"
     ]
   },
   "ironclad": {
@@ -7078,8 +7078,8 @@
       }
     ],
     "tags_fr": [
-      "sound-design",
-      "audio-effects",
+      "sound design",
+      "audio effets",
       "professional"
     ]
   },
@@ -7171,7 +7171,7 @@
     ],
     "features_fr": [
       "Génération de contenu : crée des textes marketing et des articles de blog de haute qualité.",
-      "Personnalisation du ton : ajuste le style d'écriture pour correspondre à la voix de la marque.",
+      "Personnalisation du votre : ajuste le style d'écriture pour correspondre à la voix de la marque.",
       "Optimisation SEO : garantit que le contenu est optimisé pour les moteurs de recherche.",
       "Collaboration en équipe : permet à plusieurs utilisateurs de travailler ensemble sur le contenu."
     ],
@@ -7290,7 +7290,7 @@
     "description_fr": "Embeddings, rerankers, lecteur web, deepsearch, petits modèles de langage. IA de recherche pour des données multilingues et multimodales. Framework de recherche neuronale : permet de construire des systèmes de recherche fondés sur des réseaux de neurones. Architecture modulaire : permet de personnaliser et d'étendre les composants. Prise en charge des données multimodales : traite le texte, les images et d'autres types de données. Montée en charge : conçue pour absorber de grands jeux de données et un trafic élevé.",
     "tags_fr": [
       "recherche",
-      "neural-networks"
+      "neural networks"
     ],
     "features_fr": [
       "Neural Search Framework : permet de créer des systèmes de recherche alimentés par des réseaux de neurones.",
@@ -7439,10 +7439,10 @@
       }
     ],
     "tags_fr": [
-      "data-analysis",
-      "ai-assistant",
+      "données analyse",
+      "IA assistant",
       "visualization",
-      "natural-language"
+      "naturel langue"
     ]
   },
   "kaedim": {
@@ -7481,7 +7481,7 @@
     ],
     "tags_fr": [
       "3d",
-      "asset-generation",
+      "asset génération",
       "games"
     ]
   },
@@ -7530,9 +7530,9 @@
       }
     ],
     "tags_fr": [
-      "data-visualization",
-      "ai-assistant",
-      "exploratory-analysis",
+      "données visualization",
+      "IA assistant",
+      "exploratory analyse",
       "charts"
     ]
   },
@@ -7663,7 +7663,7 @@
       "shorts",
       "tiktok",
       "YouTube",
-      "ai-edit"
+      "IA édition"
     ]
   },
   "klaviyo-ai": {
@@ -7749,7 +7749,7 @@
     "summary_fr": "KNIME est une plateforme open source complète, conçue pour l'analyse de données, le reporting et l'intégration. Elle permet de créer visuellement des flux de données, d'exécuter certaines étapes de façon sélective et d'inspecter les résultats, les modèles et les visualisations. Le concept de pipeline modulaire de KNIME permet aux débutants comme aux experts de construire facilement des solutions avancées de data science avec un minimum de code. Elle prend en charge l'intégration de bibliothèques d'apprentissage automatique et d'apprentissage profond, la manipulation de données et les processus ETL, et offre un vaste écosystème d'extensions pour des analyses spécialisées. KNIME est largement utilisé dans le monde académique et dans l'industrie, pour des tâches allant du simple prétraitement de données à la modélisation prédictive complexe.",
     "description_fr": "KNIME est une plateforme open source complète, conçue pour l'analyse de données, le reporting et l'intégration. Elle permet de créer visuellement des flux de données, d'exécuter certaines étapes de façon sélective et d'inspecter les résultats, les modèles et les visualisations. Le concept de pipeline modulaire de KNIME permet aux débutants comme aux experts de construire facilement des solutions avancées de data science avec un minimum de code. Elle prend en charge l'intégration de bibliothèques d'apprentissage automatique et d'apprentissage profond, la manipulation de données et les processus ETL, et offre un vaste écosystème d'extensions pour des analyses spécialisées. KNIME est largement utilisé dans le monde académique et dans l'industrie, pour des tâches allant du simple prétraitement de données à la modélisation prédictive complexe. Gratuit et open source, avec tous vos outils d'analyse de données. Créez des solutions de data science avec le constructeur visuel de workflows et mettez-les en production dans l'entreprise. Workflow en glisser-déposer : interface simple pour construire des pipelines d'analyse sans code. Intégration étendue : se connecte aux bases de données, au stockage cloud et aux outils big data. Analyse avancée : prend en charge l'apprentissage automatique, l'apprentissage profond, les statistiques et la fouille de texte. Plateforme extensible : vaste écosystème de plugins et d'extensions de la communauté.",
     "tags_fr": [
-      "data-mining",
+      "données mining",
       "flux de travail",
       "open source"
     ],
@@ -7939,9 +7939,9 @@
       }
     ],
     "tags_fr": [
-      "noise-cancellation",
+      "noise cancellation",
       "meetings",
-      "live-calls"
+      "live appels"
     ]
   },
   "kustomer": {
@@ -8058,7 +8058,7 @@
     ],
     "tags_fr": [
       "audio",
-      "stem-splitter"
+      "stem splitter"
     ]
   },
   "lalals": {
@@ -8143,14 +8143,14 @@
   },
   "latelyai": {
     "summary_fr": "Lately AI transforme les contenus longs en dizaines de publications pour les réseaux sociaux, en s'appuyant sur l'IA pour maximiser l'engagement. Il aide les marketeurs à réutiliser blogs, vidéos et podcasts pour élargir leur portée.",
-    "description_fr": "Lately AI transforme les contenus longs en dizaines de publications pour les réseaux sociaux, en s'appuyant sur l'IA pour maximiser l'engagement. Il aide les marketeurs à réutiliser blogs, vidéos et podcasts pour élargir leur portée. Lately s'appuie sur l'IA et les neurosciences pour apprendre les nombreux dialectes et nuances de votre marque, d'une sous-marque et d'un marché à l'autre, afin de transformer vos contenus longs existants en contenus à forte valeur pour les réseaux sociaux. Réutilisation de contenu par IA : transforme les contenus longs en publications pour les réseaux sociaux. Apprentissage de la voix de marque : s'adapte au ton et au style de votre marque. Publication multicanale : permet de publier sur divers réseaux sociaux. Analyse des performances : mesure l'engagement et l'efficacité des contenus.",
+    "description_fr": "Lately AI transforme les contenus longs en dizaines de publications pour les réseaux sociaux, en s'appuyant sur l'IA pour maximiser l'engagement. Il aide les marketeurs à réutiliser blogs, vidéos et podcasts pour élargir leur portée. Lately s'appuie sur l'IA et les neurosciences pour apprendre les nombreux dialectes et nuances de votre marque, d'une sous-marque et d'un marché à l'autre, afin de transformer vos contenus longs existants en contenus à forte valeur pour les réseaux sociaux. Réutilisation de contenu par IA : transforme les contenus longs en publications pour les réseaux sociaux. Apprentissage de la voix de marque : s'adapte au votre et au style de votre marque. Publication multicanale : permet de publier sur divers réseaux sociaux. Analyse des performances : mesure l'engagement et l'efficacité des contenus.",
     "tags_fr": [
       "réseaux sociaux",
       "automatisation"
     ],
     "features_fr": [
       "Réutilisation du contenu IA : transforme le contenu long en publications sociales.",
-      "Apprentissage vocal de la marque : s'adapte au ton et au style de votre marque.",
+      "Apprentissage vocal de la marque : s'adapte au votre et au style de votre marque.",
       "Publication multicanal : prend en charge la publication sur divers réseaux sociaux.",
       "Analyse des performances : mesure l'engagement et l'efficacité du contenu."
     ],
@@ -8221,7 +8221,7 @@
   },
   "lavender": {
     "summary_fr": "Coach e-mail IA pour les équipes commerciales : scoring, coaching et conseils avant envoi.",
-    "description_fr": "Lavender analyse les e-mails commerciaux sortants, note les messages et coach les commerciaux sur le ton, la clarté et la personnalisation avant l'envoi.",
+    "description_fr": "Lavender analyse les e-mails commerciaux sortants, note les messages et coach les commerciaux sur le votre, la clarté et la personnalisation avant l'envoi.",
     "features_fr": [
       "Scoring et coaching des e-mails commerciaux sortants.",
       "Suggestions de personnalisation et de clarté avant envoi.",
@@ -8253,7 +8253,7 @@
       }
     ],
     "tags_fr": [
-      "e-mail",
+      "courriel",
       "ventes",
       "coaching",
       "prospection"
@@ -8343,8 +8343,8 @@
     "summary_fr": "Leonardo.Ai est une plateforme créative fondée sur l'IA, destinée à générer de l'art, des illustrations et des images de concept de haute qualité. Elle propose divers modèles génératifs et outils de personnalisation, ce qui la rend adaptée aux assets de jeu, aux concept artists et aux designers en quête de visuels uniques. Son interface intuitive et la génération à partir de prompts aident les utilisateurs à créer des œuvres professionnelles avec un effort minimal.",
     "description_fr": "Leonardo.Ai est une plateforme créative fondée sur l'IA, destinée à générer de l'art, des illustrations et des images de concept de haute qualité. Elle propose divers modèles génératifs et outils de personnalisation, ce qui la rend adaptée aux assets de jeu, aux concept artists et aux designers en quête de visuels uniques. Son interface intuitive et la génération à partir de prompts aident les utilisateurs à créer des œuvres professionnelles avec un effort minimal. Génération à partir de prompts : crée des images à partir de prompts textuels. Personnalisation du style : permet de choisir parmi divers styles artistiques et modificateurs. Génération par lots : produit plusieurs variations en même temps. Bibliothèque d'assets : enregistre et gère vos œuvres générées.",
     "tags_fr": [
-      "ai-art",
-      "concept-art",
+      "IA art",
+      "concept art",
       "visuels",
       "prompt"
     ],
@@ -8415,11 +8415,11 @@
       }
     ],
     "tags_fr": [
-      "image-upscaling",
-      "photo-enhancement",
+      "image agrandissement",
+      "photo enhancement",
       "ecommerce",
-      "print-quality",
-      "batch-processing"
+      "print quality",
+      "batch traitement"
     ]
   },
   "lexica-art": {
@@ -8457,9 +8457,9 @@
       }
     ],
     "tags_fr": [
-      "prompt-reference",
+      "prompt reference",
       "gallery",
-      "image-variants"
+      "image variants"
     ]
   },
   "lexis-plus-ai": {
@@ -8496,7 +8496,7 @@
     ],
     "pricingNote_fr": "Consultez lexisnexis.com pour les formules et limites actuelles.",
     "tags_fr": [
-      "legal-research",
+      "juridique recherche",
       "drafting",
       "lexisnexis",
       "enterprise"
@@ -8508,7 +8508,7 @@
     "tags_fr": [
       "agents IA",
       "automatisation",
-      "no-code"
+      "sans code"
     ],
     "features_fr": [
       "Créez des agents IA qui automatisent le travail sur vos outils.",
@@ -8701,7 +8701,7 @@
     "tags_fr": [
       "logo",
       "branding",
-      "drag-and-drop",
+      "drag and drop",
       "icons"
     ]
   },
@@ -8740,11 +8740,11 @@
       }
     ],
     "tags_fr": [
-      "logo-design",
+      "logo design",
       "branding",
       "templates",
-      "business-cards",
-      "social-media-kits"
+      "entreprise cartes",
+      "social médias kits"
     ]
   },
   "looker": {
@@ -8781,7 +8781,7 @@
     "pricingNote_fr": "Tarifs sur cloud.google.com ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
       "bi",
-      "google-cloud",
+      "google cloud",
       "dashboards",
       "semantic"
     ]
@@ -8819,8 +8819,8 @@
     "description_fr": "Loudly – IA pour la musique et l'audio sur Loudly.com.",
     "pricingNote_fr": "Tarifs sur loudly.com ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
-      "royalty-free",
-      "music-gen",
+      "royalty gratuit",
+      "musique gen",
       "creator",
       "api"
     ]
@@ -8830,13 +8830,13 @@
     "description_fr": "Lovable est un créateur d'applications par IA qui crée et modifie des applications web full-stack à partir de prompts en langage naturel. Les utilisateurs itèrent dans une interface de chat, connectent un backend et déploient sans écrire le code à la main, ce qui le rend populaire auprès des fondateurs et des non-développeurs qui prototypent des produits. Il propose une formule gratuite pour commencer, et des formules payantes avec davantage de messages et des fonctions de collaboration.",
     "tags_fr": [
       "créateur d'applications",
-      "no-code",
+      "sans code",
       "vibe coding",
       "applications web"
     ],
     "features_fr": [
-      "Créez des applications Web complètes en discutant avec l'IA.",
-      "Lovable est un créateur d'applications d'IA qui crée et modifie des applications Web complètes à partir d'invites en langage naturel.",
+      "Créez des applications Web complèvos en discutant avec l'IA.",
+      "Lovable est un créateur d'applications d'IA qui crée et modifie des applications Web complèvos à partir d'invites en langage naturel.",
       "Les utilisateurs itèrent dans une interface de discussion, connectent un backend et déploient sans écrire de code à la main, ce qui le rend populaire auprès des fondateurs et des non-développeurs de produits de prototypage.",
       "Il propose un forfait gratuit pour démarrer et des forfaits payants avec plus de messages et de fonctionnalités de collaboration."
     ],
@@ -8982,18 +8982,18 @@
       "3d",
       "photo2model",
       "nerf",
-      "ar-vr"
+      "ar vr"
     ]
   },
   "lumen5": {
     "summary_fr": "Lumen5 est une plateforme de création vidéo fondée sur l'IA, qui permet à toute personne sans formation ni expérience de créer facilement des contenus vidéo engageants en quelques minutes.",
     "description_fr": "Lumen5 est une plateforme de création vidéo fondée sur l'IA, qui permet à toute personne sans formation ni expérience de créer facilement des contenus vidéo engageants en quelques minutes. Création vidéo par IA : transforme des articles de blog en vidéos engageantes. Interface en glisser-déposer : interface simple pour créer des vidéos facilement. Vaste médiathèque : accès à des millions de photos et de vidéos de stock. Modèles personnalisables : divers modèles adaptés à différentes plateformes.",
     "tags_fr": [
-      "promo-videos",
-      "content-marketing",
-      "drag-and-drop",
+      "promo videos",
+      "contenu marketing",
+      "drag and drop",
       "automatisation",
-      "text-overlay"
+      "texte overlay"
     ],
     "features_fr": [
       "Création vidéo basée sur l'IA : transformez les articles de blog en vidéos attrayantes.",
@@ -9062,9 +9062,9 @@
       }
     ],
     "tags_fr": [
-      "photo-editing",
-      "sky-replacement",
-      "portrait-enhancer"
+      "photo édition",
+      "sky replacement",
+      "portrait enhancer"
     ]
   },
   "lummi-ai": {
@@ -9102,9 +9102,9 @@
       }
     ],
     "tags_fr": [
-      "design-assistant",
-      "creative-prompts",
-      "concept-generation"
+      "design assistant",
+      "créatif prompts",
+      "concept génération"
     ]
   },
   "lusha": {
@@ -9150,7 +9150,7 @@
     "summary_fr": "Mage.Space est un studio d'art par IA pour créer des images, des vidéos et des animations à partir de prompts textuels, à l'aide de modèles génératifs de pointe. Il est populaire pour le travail créatif, personnel comme professionnel, avec des options axées sur la confidentialité et ouvertes au NSFW.",
     "description_fr": "Mage.Space est un studio d'art par IA pour créer des images, des vidéos et des animations à partir de prompts textuels, à l'aide de modèles génératifs de pointe. Il est populaire pour le travail créatif, personnel comme professionnel, avec des options axées sur la confidentialité et ouvertes au NSFW. Génération illimitée d'images et de vidéos par IA, sans limites créatives. Gratuit pour commencer. Créez rapidement des personnages, des images, de l'audio et de la vidéo — privé par défaut. Texte vers image : génère des visuels à partir de prompts textuels. Texte vers vidéo : crée de courtes vidéos par IA. Animation : transforme des images fixes en contenus animés. Génération privée : aucune modération de contenu pour les utilisateurs soucieux de confidentialité.",
     "tags_fr": [
-      "ai-art",
+      "IA art",
       "génération d'images",
       "animation",
       "vidéo"
@@ -9267,16 +9267,16 @@
   },
   "mailchimp": {
     "summary_fr": "Plateforme d'automatisation marketing qui propose l'e-mail marketing, des pages d'atterrissage et des outils de gestion d'audience.",
-    "description_fr": "Plateforme d'automatisation marketing qui propose l'e-mail marketing, des pages d'atterrissage et des outils de gestion d'audience. Exploitez les données de comportement des utilisateurs en temps réel et l'intelligence artificielle pour convertir davantage de clients. Simple à utiliser, commencez gratuitement ! Automatisation des e-mails : créez et planifiez des campagnes. Parcours clients : concevez des séquences d'e-mails en plusieurs étapes. Tests A/B : testez les objets et le contenu des e-mails. Fonctions CRM : gérez les contacts, les segments et les préférences.",
+    "description_fr": "Plateforme d'automatisation marketing qui propose l'e-mail marketing, des pages d'atterrissage et des outils de gestion d'audience. Exploitez les données de comportement des utilisateurs en temps réel et l'intelligence artificielle pour convertir davantage de clients. Simple à utiliser, commencez gratuitement ! Automatisation des e-mails : créez et planifiez des campagnes. Parcourez clients : concevez des séquences d'e-mails en plusieurs étapes. Tests A/B : testez les objets et le contenu des e-mails. Fonctions CRM : gérez les contacts, les segments et les préférences.",
     "tags_fr": [
-      "email-campaigns",
+      "e-mail campaigns",
       "automatisation",
-      "audience-management",
+      "audience gestion",
       "analytique"
     ],
     "features_fr": [
       "Automatisation des e-mails : créez et planifiez des campagnes.",
-      "Parcours client : concevez des séquences d'e-mails en plusieurs étapes.",
+      "Parcourez client : concevez des séquences d'e-mails en plusieurs étapes.",
       "Tests A/B : testez les lignes d'objet et le contenu des e-mails.",
       "Fonctionnalités CRM : gérez les contacts, les segments et les préférences."
     ],
@@ -9543,14 +9543,14 @@
     "pricingNote_fr": "Tarifs sur meshy.ai ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
       "3d",
-      "text-to-3d",
+      "texte vers 3d",
       "assets",
       "game"
     ]
   },
   "microsoft-copilot": {
     "summary_fr": "Copilot grand public sur copilot.microsoft.com pour la recherche, les images et le quotidien—distinct de Microsoft 365 Copilot pour le travail.",
-    "description_fr": "Copilot sur le web est l'assistant accessible sur copilot.microsoft.com. Il répond à tes questions, génère des images et t'aide à écrire avec les modèles Microsoft récents. Microsoft 365 Copilot est l'offre payante intégrée à Word, Excel et Teams ; cette fiche couvre uniquement l'expérience web grand public.",
+    "description_fr": "Copilot sur le web est l'assistant accessible sur copilot.microsoft.com. Il répond à vos questions, génère des images et t'aide à écrire avec les modèles Microsoft récents. Microsoft 365 Copilot est l'offre payante intégrée à Word, Excel et Teams ; cette fiche couvre uniquement l'expérience web grand public.",
     "features_fr": [
       "Réponses basées sur le Web avec des citations de la recherche Bing.",
       "Génération et édition d'images dans le chat Copilot.",
@@ -9585,7 +9585,7 @@
     "tags_fr": [
       "chatbot",
       "microsoft",
-      "web-search",
+      "web recherche",
       "consumer"
     ]
   },
@@ -9624,7 +9624,7 @@
     "tags_fr": [
       "microsoft",
       "agents",
-      "power-platform",
+      "power platform",
       "enterprise"
     ]
   },
@@ -9781,7 +9781,7 @@
     "tags_fr": [
       "docs",
       "developer",
-      "ai-writer",
+      "IA writer",
       "api"
     ]
   },
@@ -9909,7 +9909,7 @@
     "description_fr": "monday AI — L'IA pour la productivité sur monday.com.",
     "pricingNote_fr": "Tarifs sur monday.com ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
-      "work-os",
+      "work os",
       "automations",
       "crm",
       "projects"
@@ -9949,8 +9949,8 @@
     "pricingNote_fr": "Tarifs sur motiff.com ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
       "figma",
-      "ui-design",
-      "ai-layout",
+      "interface design",
+      "IA layout",
       "collaboration"
     ]
   },
@@ -10028,8 +10028,8 @@
       }
     ],
     "tags_fr": [
-      "music-production",
-      "file-converter",
+      "musique production",
+      "file converter",
       "midi"
     ]
   },
@@ -10235,9 +10235,9 @@
     "summary_fr": "Nanonets est une plateforme d'IA axée sur l'automatisation des flux documentaires et l'extraction de données à partir de fichiers non structurés, tels que factures, reçus et pièces d'identité. Grâce à l'apprentissage profond, Nanonets peut être entraîné sur des documents personnalisés et intégré aux processus métier via API. La plateforme apprend en continu à partir des retours des utilisateurs, offre une prise en charge multilingue et permet aux organisations de construire, à grande échelle, des solutions de traitement intelligent des documents.",
     "description_fr": "Nanonets est une plateforme d'IA axée sur l'automatisation des flux documentaires et l'extraction de données à partir de fichiers non structurés, tels que factures, reçus et pièces d'identité. Grâce à l'apprentissage profond, Nanonets peut être entraîné sur des documents personnalisés et intégré aux processus métier via API. La plateforme apprend en continu à partir des retours des utilisateurs, offre une prise en charge multilingue et permet aux organisations de construire, à grande échelle, des solutions de traitement intelligent des documents. Nanonets automatise des processus manuels désordonnés, notamment les comptes fournisseurs, le traitement des réclamations, la gestion des commandes et d'autres, et transmet des données propres à des systèmes d'enregistrement comme SAP, Salesforce et d'autres. Plus de 10 000 entreprises lui font confiance. Extraction automatisée de données : extrait des champs depuis des documents et des images. Flux de travail personnalisés : entraînez des modèles sur vos propres documents. Intégration API : intégration simple aux systèmes métier existants. Prise en charge multilingue : traite des documents dans diverses langues.",
     "tags_fr": [
-      "document-ai",
+      "document IA",
       "automatisation",
-      "data-extraction"
+      "données extraction"
     ],
     "features_fr": [
       "Extraction automatisée de données : extrait les champs des documents et des images.",
@@ -10385,8 +10385,8 @@
       }
     ],
     "tags_fr": [
-      "style-transfer",
-      "ai-art",
+      "style transfer",
+      "IA art",
       "community"
     ]
   },
@@ -10625,7 +10625,7 @@
     "description_fr": "Évidemment AI – IA pour les données et les analyses sur évidemment.ai.",
     "pricingNote_fr": "Tarifs sur obviously.ai ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
-      "no-code",
+      "sans code",
       "ml",
       "predictions",
       "analytique"
@@ -10703,7 +10703,7 @@
     ],
     "tags_fr": [
       "local",
-      "code-execution",
+      "code execution",
       "agents",
       "open source"
     ],
@@ -10744,8 +10744,8 @@
       }
     ],
     "tags_fr": [
-      "natural-language-processing",
-      "code-generation"
+      "naturel langue traitement",
+      "code génération"
     ]
   },
   "openart": {
@@ -10781,7 +10781,7 @@
     "description_fr": "OpenArt ai.",
     "pricingNote_fr": "Tarifs sur openart.ai ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
-      "stable-diffusion",
+      "stable diffusion",
       "community",
       "modèles",
       "prompts"
@@ -10789,7 +10789,7 @@
   },
   "openclaw": {
     "summary_fr": "Plateforme d'agent personnel pour relier tes outils et messageries.",
-    "description_fr": "Plateforme d'agent personnel pour relier tes outils et messageries.",
+    "description_fr": "Plateforme d'agent personnel pour relier vos outils et messageries.",
     "features_fr": [
       "Outil appelant les API SaaS et les systèmes internes.",
       "Surveillance, journaux ou transfert humain lorsque cela est proposé.",
@@ -10820,7 +10820,7 @@
       }
     ],
     "tags_fr": [
-      "personal-agent",
+      "personal agent",
       "open source",
       "local",
       "automatisation"
@@ -10943,7 +10943,7 @@
     ],
     "tags_fr": [
       "personalization",
-      "ab-testing"
+      "ab testing"
     ]
   },
   "opusclip": {
@@ -11108,7 +11108,7 @@
     "description_fr": "Outreach – IA pour les ventes et le CRM sur outreach.io.",
     "pricingNote_fr": "Tarifs sur outreach.io ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
-      "sales-engagement",
+      "ventes engagement",
       "sequences",
       "forecast",
       "enterprise"
@@ -11257,12 +11257,12 @@
       "Suivi des mentions de marque sur produits de recherche IA.",
       "Bibliothèques de prompts et tendances de classement.",
       "Rapports de visibilité concurrentielle par thème.",
-      "Alertes si la part de voix baisse sur requêtes clés."
+      "Alertes si la part de voix baisse sur requêvos clés."
     ],
     "pricingNote_fr": "Consultez peec.ai pour les formules et limites actuelles.",
     "tags_fr": [
       "geo",
-      "ai-search",
+      "IA recherche",
       "brand",
       "analytique"
     ]
@@ -11396,12 +11396,12 @@
     "features_fr": [
       "Réponses citées : fournit des réponses en temps réel avec des citations de sources.",
       "Intégration de la recherche Web : combine l'IA et les données Web en direct.",
-      "Requêtes de suivi : permet des questions contextuelles de va-et-vient.",
+      "Requêvos de suivi : permet des questions contextuelles de va-et-vient.",
       "Entrées multimodales : accepte les invites textuelles et vocales."
     ],
     "tags_fr": [
       "recherche",
-      "answer-engines",
+      "answer engines",
       "recherche",
       "citations"
     ],
@@ -11512,11 +11512,11 @@
   },
   "photoroom": {
     "summary_fr": "Photoroom est un outil de retouche photo assisté par IA, spécialisé dans la suppression d'arrière-plan, l'isolation d'objets et l'amélioration de la photographie produit. Utilisé par les vendeurs en e-commerce et les professionnels du marketing, il propose des détourages instantanés, le traitement par lots et des effets créatifs pour transformer des photos ordinaires en visuels professionnels.",
-    "description_fr": "Photoroom est un outil de retouche photo assisté par IA, spécialisé dans la suppression d'arrière-plan, l'isolation d'objets et l'amélioration de la photographie produit. Utilisé par les vendeurs en e-commerce et les professionnels du marketing, il propose des détourages instantanés, le traitement par lots et des effets créatifs pour transformer des photos ordinaires en visuels professionnels. Outil de retouche photo assisté par IA et studio de fiches, pour des visuels rapides et de qualité professionnelle, adaptés aux entreprises d'e-commerce et aux créateurs sur les réseaux sociaux. Il aide à automatiser la création d'images, à les mettre au format de plusieurs places de marché et à produire à grande échelle des fiches prêtes pour ces places de marché. Suppression d'arrière-plan : isole instantanément les sujets de leur arrière-plan. Retouche par lots : traite plusieurs images à la fois. Modèles : mises en page prêtes à l'emploi pour les réseaux sociaux et l'e-commerce. Effets IA : ajoute des ombres, du flou et des améliorations de couleur.",
+    "description_fr": "Photoroom est un outil de retouche photo assisté par IA, spécialisé dans la suppression d'arrière-plan, l'isolation d'objets et l'amélioration de la photographie produit. Utilisé par les vendeurs en e-commerce et les professionnels du marketing, il propose des détourages instantanés, le traitement par lots et des effets créatifs pour transformer des photos ordinaires en visuels professionnels. Outil de retouche photo assisté par IA et studio de fiches, pour des visuels rapides et de qualité professionnelle, adaptés aux entreprises d'e-commerce et aux créateurs sur les réseaux sociaux. Il aide à automatiser la création d'images, à les mettre au format de plusieurs places de marché et à produire à grande échelle des fiches prêvos pour ces places de marché. Suppression d'arrière-plan : isole instantanément les sujets de leur arrière-plan. Retouche par lots : traite plusieurs images à la fois. Modèles : mises en page prêvos à l'emploi pour les réseaux sociaux et l'e-commerce. Effets IA : ajoute des ombres, du flou et des améliorations de couleur.",
     "features_fr": [
       "Suppression de l'arrière-plan : isolez instantanément les sujets des arrière-plans.",
       "Édition par lots : traitez plusieurs images à la fois.",
-      "Modèles : mises en page prêtes à l'emploi pour les médias sociaux et le commerce électronique.",
+      "Modèles : mises en page prêvos à l'emploi pour les médias sociaux et le commerce électronique.",
       "Effets IA : ajoutez des ombres, du flou et des améliorations de couleurs."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
@@ -11545,8 +11545,8 @@
       }
     ],
     "tags_fr": [
-      "background-removal",
-      "photo-editing",
+      "détourage",
+      "photo édition",
       "ecommerce",
       "creative"
     ]
@@ -11586,8 +11586,8 @@
       }
     ],
     "tags_fr": [
-      "photo-editing",
-      "ai-art",
+      "photo édition",
+      "IA art",
       "vidéo",
       "filters"
     ]
@@ -11597,8 +11597,8 @@
     "description_fr": "Convertissez des scripts ou des articles en vidéos partageables grâce à l'IA. Du script à la vidéo : convertit des scripts en vidéos de qualité professionnelle avec des voix IA. Du blog à la vidéo : transforme des articles de blog en vidéos qui retiennent l'attention. Sous-titrage automatique : génère automatiquement des sous-titres pour les vidéos. Résumé vidéo : résume les vidéos longues en courts moments forts.",
     "tags_fr": [
       "texte vers vidéo",
-      "content-repurposing",
-      "video-summarization",
+      "contenu repurposing",
+      "vidéo résumé",
       "réseaux sociaux"
     ],
     "features_fr": [
@@ -11669,7 +11669,7 @@
     ],
     "tags_fr": [
       "snippets",
-      "developer-productivity"
+      "développeur productivité"
     ]
   },
   "pika": {
@@ -11717,7 +11717,7 @@
     "description_fr": "Une suite de retouche d'images dans le cloud, avec des outils d'IA pour la suppression d'arrière-plan, la génération d'images et le redimensionnement intelligent. Pixlr est un éditeur photo en ligne gratuit et un générateur d'images par IA. Retouchez des photos, générez des images et des vidéos par IA, échangez des visages, supprimez des arrière-plans, faites des collages — propulsé par Flux, Kling, Veo et d'autres. Aucune installation requise. Suppression d'arrière-plan par IA : détourages en un clic, avec une grande précision. Redimensionnement intelligent : recadre et redimensionne les images sans effort grâce à l'IA. Génération d'images : crée des visuels à partir de prompts textuels. Correction automatique des couleurs : améliore instantanément les couleurs et l'exposition.",
     "tags_fr": [
       "retouche d'image",
-      "background-removal",
+      "détourage",
       "génération d'images"
     ],
     "features_fr": [
@@ -11787,8 +11787,8 @@
       }
     ],
     "tags_fr": [
-      "interior-design",
-      "floor-plans",
+      "interior design",
+      "floor plans",
       "3d"
     ]
   },
@@ -11833,17 +11833,17 @@
   },
   "playground-ai": {
     "summary_fr": "Créez des designs et des graphismes personnalisés avec Playground",
-    "description_fr": "Créez des designs et des graphismes personnalisés avec Playground Génération texte-image : crée des images à partir de prompts textuels. Personnalisation du style : propose différents styles artistiques. Édition interactive : permet d'ajuster les images en temps réel. Partage communautaire : permet aux utilisateurs de partager des œuvres et d'en explorer.",
+    "description_fr": "Créez des designs et des graphismes personnalisés avec Playground Génération texte-image : crée des images à partir de prompts textuels. Personnalisation du style : propose différents styles artistiques. Édition interactive : permet d'ajuster les images en temps réel. Partagez communautaire : permet aux utilisateurs de partager des œuvres et d'en explorer.",
     "tags_fr": [
       "texte vers image",
       "inpainting",
-      "style-filters"
+      "style filters"
     ],
     "features_fr": [
       "Génération de texte en image : crée des images à partir d'invites textuelles.",
       "Personnalisation du style : offre différents styles artistiques.",
       "Édition interactive : permet des ajustements en temps réel des images.",
-      "Partage communautaire : permet aux utilisateurs de partager et d'explorer des œuvres d'art."
+      "Partagez communautaire : permet aux utilisateurs de partager et d'explorer des œuvres d'art."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
     "howToUse_fr": [
@@ -11906,17 +11906,17 @@
     "tags_fr": [
       "podcast",
       "recording",
-      "ai-edit",
+      "IA édition",
       "audio"
     ]
   },
   "power-bi": {
     "summary_fr": "Service d'analytique d'entreprise qui fournit des visualisations interactives.",
-    "description_fr": "Service d'analytique d'entreprise qui fournit des visualisations interactives. Connectivité des données : connectez-vous à un large éventail de sources de données, dont Excel, SQL Server et des services cloud. Visualisations personnalisées : créez et importez des visuels sur mesure pour adapter les rapports à des besoins précis. Requêtes en langage naturel : posez des questions en langage naturel pour obtenir des réponses immédiates à partir de vos données. Tableaux de bord en temps réel : suivez les données en temps réel avec des tableaux de bord en direct et des alertes.",
+    "description_fr": "Service d'analytique d'entreprise qui fournit des visualisations interactives. Connectivité des données : connectez-vous à un large éventail de sources de données, dont Excel, SQL Server et des services cloud. Visualisations personnalisées : créez et importez des visuels sur mesure pour adapter les rapports à des besoins précis. Requêvos en langage naturel : posez des questions en langage naturel pour obtenir des réponses immédiates à partir de vos données. Tableaux de bord en temps réel : suivez les données en temps réel avec des tableaux de bord en direct et des alertes.",
     "features_fr": [
       "Connectivité des données : connectez-vous à un large éventail de sources de données, notamment Excel, SQL Server et des services basés sur le cloud.",
       "Visualisations personnalisées : créez et importez des visuels personnalisés pour adapter les rapports à des besoins spécifiques.",
-      "Requêtes en langage naturel : posez des questions en langage naturel pour obtenir des réponses instantanées à partir de vos données.",
+      "Requêvos en langage naturel : posez des questions en langage naturel pour obtenir des réponses instantanées à partir de vos données.",
       "Tableaux de bord en temps réel : surveillez les données en temps réel avec des tableaux de bord et des alertes en direct."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
@@ -11945,7 +11945,7 @@
       }
     ],
     "tags_fr": [
-      "data-analysis",
+      "données analyse",
       "reporting",
       "dashboards",
       "microsoft"
@@ -12145,7 +12145,7 @@
     "tags_fr": [
       "analytique",
       "kpi",
-      "data-monitoring"
+      "données monitoring"
     ]
   },
   "pycaret": {
@@ -12193,7 +12193,7 @@
       }
     ],
     "tags_fr": [
-      "business-intelligence",
+      "entreprise intelligence",
       "dashboards",
       "analytique"
     ]
@@ -12231,7 +12231,7 @@
     ],
     "pricingNote_fr": "Consultez qodo.ai pour les formules et limites actuelles.",
     "tags_fr": [
-      "code-review",
+      "code revue",
       "testing",
       "agents",
       "ide"
@@ -12353,7 +12353,7 @@
     "tags_fr": [
       "LLM",
       "alibaba",
-      "open-models",
+      "open modèles",
       "multimodal"
     ]
   },
@@ -12392,9 +12392,9 @@
       }
     ],
     "tags_fr": [
-      "machine-learning",
-      "data-prep",
-      "predictive-analytics"
+      "machine apprentissage",
+      "données préparation",
+      "predictive analytics"
     ]
   },
   "rask-ai": {
@@ -12443,7 +12443,7 @@
     "description_fr": "Recapo est une plateforme de montage vidéo par IA. Elle analyse les vidéos longues, rédige un script de commentaire, ajoute une voix off et des sous-titres, puis produit de courts extraits prêts à publier. Le site la présente pour les récapitulatifs de films, l'extraction de moments forts et les montages décrits en langage naturel.",
     "tags_fr": [
       "montage vidéo",
-      "short-form",
+      "short form",
       "subtitles",
       "voiceover"
     ],
@@ -12555,7 +12555,7 @@
     "tags_fr": [
       "vector",
       "illustrations",
-      "branding-assets"
+      "branding assets"
     ]
   },
   "reface": {
@@ -12593,7 +12593,7 @@
       }
     ],
     "tags_fr": [
-      "face-swap",
+      "face swap",
       "memes"
     ]
   },
@@ -12632,8 +12632,8 @@
       }
     ],
     "tags_fr": [
-      "code-refactoring",
-      "ide-plugin"
+      "code refactoring",
+      "IDE plugin"
     ]
   },
   "relay-app": {
@@ -12713,7 +12713,7 @@
     ],
     "tags_fr": [
       "wireframe",
-      "ai-copy",
+      "IA copy",
       "webflow",
       "agency"
     ]
@@ -12722,7 +12722,7 @@
     "summary_fr": "Supprimez les arrière-plans d'image automatiquement en 5 secondes, d'un seul clic. Ne passez pas des heures à sélectionner manuellement les pixels. Téléversez votre photo maintenant et voyez le résultat.",
     "description_fr": "Supprimez les arrière-plans d'image automatiquement en 5 secondes, d'un seul clic. Ne passez pas des heures à sélectionner manuellement les pixels. Téléversez votre photo maintenant et voyez le résultat. Suppression instantanée de l'arrière-plan : retire automatiquement les arrière-plans des photos. Traitement par lots : supprime les arrière-plans de plusieurs images à la fois. Sortie en haute résolution : téléchargez les images en haute qualité, avec des arrière-plans transparents. Intégration API : automatisez la suppression d'arrière-plan dans vos flux de travail.",
     "tags_fr": [
-      "background-removal",
+      "détourage",
       "retouche d'image"
     ],
     "features_fr": [
@@ -12915,10 +12915,10 @@
   },
   "rev": {
     "summary_fr": "Propose à la fois une transcription assistée par IA et une transcription humaine, en garantissant une grande précision pour différents formats audio.",
-    "description_fr": "Propose à la fois une transcription assistée par IA et une transcription humaine, en garantissant une grande précision pour différents formats audio. Conçu pour des enquêtes qui tiennent devant un tribunal. La plateforme d'IA juridique de Rev transforme les preuves numériques en conclusions vérifiées et citables, afin de vous aider à gérer votre dossier.",
+    "description_fr": "Propose à la fois une transcription assistée par IA et une transcription humaine, en garantissant une grande précision pour différents formats audio. Conçu pour des enquêvos qui tiennent devant un tribunal. La plateforme d'IA juridique de Rev transforme les preuves numériques en conclusions vérifiées et citables, afin de vous aider à gérer votre dossier.",
     "features_fr": [
       "Propose à la fois une transcription assistée par IA et une transcription humaine, en garantissant une grande précision pour différents formats audio.",
-      "Conçu pour des enquêtes qui tiennent devant un tribunal.",
+      "Conçu pour des enquêvos qui tiennent devant un tribunal.",
       "La plateforme d'IA juridique de Rev transforme les preuves numériques en conclusions vérifiées et citables, afin de vous aider à gérer votre dossier.",
       "Traitement audio par IA : Rev prend en charge l'analyse et l'amélioration automatiques de l'audio."
     ],
@@ -13067,9 +13067,9 @@
       }
     ],
     "tags_fr": [
-      "interior-design",
+      "interior design",
       "rendering",
-      "virtual-staging"
+      "virtual staging"
     ]
   },
   "runway": {
@@ -13438,14 +13438,14 @@
   },
   "semrushwritingassistant": {
     "summary_fr": "SEMrush Writing Assistant fournit une optimisation en temps réel pour le SEO, la lisibilité et l'originalité. Il propose des retours exploitables pour aider les rédacteurs à créer un contenu qui se classe et qui retient l'attention.",
-    "description_fr": "SEMrush Writing Assistant fournit une optimisation en temps réel pour le SEO, la lisibilité et l'originalité. Il propose des retours exploitables pour aider les rédacteurs à créer un contenu qui se classe et qui retient l'attention. Score SEO avec un retour immédiat. Analyse de la lisibilité, du ton et de l'originalité. Intégration à l'écosystème SEMrush. Suggestions exploitables pour de meilleurs classements.",
+    "description_fr": "SEMrush Writing Assistant fournit une optimisation en temps réel pour le SEO, la lisibilité et l'originalité. Il propose des retours exploitables pour aider les rédacteurs à créer un contenu qui se classe et qui retient l'attention. Score SEO avec un retour immédiat. Analyse de la lisibilité, du votre et de l'originalité. Intégration à l'écosystème SEMrush. Suggestions exploitables pour de meilleurs classements.",
     "tags_fr": [
       "seo",
       "écriture"
     ],
     "features_fr": [
       "Score SEO avec retour instantané.",
-      "Analyse de lisibilité, de ton et d’originalité.",
+      "Analyse de lisibilité, de votre et d’originalité.",
       "Intégration avec l'écosystème SEMrush.",
       "Suggestions exploitables pour un meilleur classement."
     ],
@@ -13627,10 +13627,10 @@
       }
     ],
     "tags_fr": [
-      "data-integration",
+      "données intégration",
       "analytique",
       "dashboards",
-      "big-data"
+      "big données"
     ]
   },
   "snyk": {
@@ -13784,7 +13784,7 @@
       }
     ],
     "tags_fr": [
-      "code-refactoring",
+      "code refactoring",
       "python",
       "performance"
     ]
@@ -14072,7 +14072,7 @@
     "description_fr": "Nous poursuivons une démarche pour faire progresser et démocratiser l'intelligence artificielle, par l'open source et la science ouverte. Modèle open source : accessible et modifiable par les développeurs. Complétion de code : suggère des extraits de code à mesure que vous saisissez. Prise en charge de plusieurs langages : gère différents langages de programmation. Porté par la communauté : développé et maintenu par la communauté.",
     "tags_fr": [
       "open source",
-      "code-completion"
+      "code completion"
     ],
     "features_fr": [
       "Modèle open-source : Accessible et modifiable par les développeurs.",
@@ -14220,8 +14220,8 @@
       }
     ],
     "tags_fr": [
-      "stock-images",
-      "ai-art",
+      "stock images",
+      "IA art",
       "marketing",
       "posters"
     ]
@@ -14267,12 +14267,12 @@
   },
   "sudowrite": {
     "summary_fr": "Écrivez votre roman plus vite avec le meilleur outil d'IA pour la fiction. Commencez gratuitement dès aujourd'hui et voyez pourquoi The New Yorker y voit « un salut » pour les écrivains, et pourquoi The New York Times, The Verge et bien d'autres aiment Sudowrite.",
-    "description_fr": "Écrivez votre roman plus vite avec le meilleur outil d'IA pour la fiction. Commencez gratuitement dès aujourd'hui et voyez pourquoi The New Yorker y voit « un salut » pour les écrivains, et pourquoi The New York Times, The Verge et bien d'autres aiment Sudowrite. Story Engine : génère l'intrigue, les arcs de personnages et des idées de scènes. Describe Tool : ajoute des détails sensoriels vivants à n'importe quelle phrase. Brainstorming : fournit des prompts créatifs et des développements d'idées. Rewrite & Expand : ajuste le rythme, le ton et le dialogue.",
+    "description_fr": "Écrivez votre roman plus vite avec le meilleur outil d'IA pour la fiction. Commencez gratuitement dès aujourd'hui et voyez pourquoi The New Yorker y voit « un salut » pour les écrivains, et pourquoi The New York Times, The Verge et bien d'autres aiment Sudowrite. Story Engine : génère l'intrigue, les arcs de personnages et des idées de scènes. Describe Tool : ajoute des détails sensoriels vivants à n'importe quelle phrase. Brainstorming : fournit des prompts créatifs et des développements d'idées. Rewrite & Expand : ajuste le rythme, le votre et le dialogue.",
     "features_fr": [
       "Story Engine : génère des intrigues, des arcs de personnages et des idées de scènes.",
       "Outil de description : ajoute des détails sensoriels vifs à n'importe quelle phrase.",
       "Brainstorming : fournit des invites créatives et des extensions d'idées.",
-      "Réécrire et développer : ajustez le rythme, le ton et le dialogue."
+      "Réécrire et développer : ajustez le rythme, le votre et le dialogue."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
     "howToUse_fr": [
@@ -14304,7 +14304,7 @@
       "novel",
       "fiction",
       "creative",
-      "character-generation"
+      "character génération"
     ]
   },
   "suki": {
@@ -14348,7 +14348,7 @@
   },
   "suno": {
     "summary_fr": "Créez des chansons complètes avec voix à partir d'un prompt textuel.",
-    "description_fr": "Suno génère des chansons complètes, avec voix, paroles et instrumentation, à partir d'un prompt textuel, avec des outils d'édition pour prolonger et retravailler les morceaux. C'est l'un des générateurs de musique par IA les plus populaires. Le plan Free (0 $) donne 50 crédits par jour sur le modèle gratuit (v6-mini) ; Pro coûte 8 $/mois et Premier 24 $/mois, facturés à l'année, avec les meilleurs modèles et l'usage commercial en plus.",
+    "description_fr": "Suno génère des chansons complèvos, avec voix, paroles et instrumentation, à partir d'un prompt textuel, avec des outils d'édition pour prolonger et retravailler les morceaux. C'est l'un des générateurs de musique par IA les plus populaires. Le plan Free (0 $) donne 50 crédits par jour sur le modèle gratuit (v6-mini) ; Pro coûte 8 $/mois et Premier 24 $/mois, facturés à l'année, avec les meilleurs modèles et l'usage commercial en plus.",
     "tags_fr": [
       "génération musicale",
       "texte vers musique",
@@ -14358,7 +14358,7 @@
       "AI Music Generation : crée des chansons basées sur les entrées de l'utilisateur.",
       "Polyvalence des genres : prend en charge divers genres musicaux.",
       "Intégration des paroles : génère des paroles pour accompagner les compositions.",
-      "Composition rapide : produit des chansons complètes en quelques secondes."
+      "Composition rapide : produit des chansons complèvos en quelques secondes."
     ],
     "pricingNote_fr": "Détails tarifaires sur suno.com ; consultez la page officielle avant un usage en production.",
     "howToUse_fr": [
@@ -14388,7 +14388,7 @@
   },
   "surfer-seo": {
     "summary_fr": "Suivez et améliorez la visibilité de votre marque sur Google et sur les moteurs de recherche par IA comme ChatGPT, Gemini et Perplexity. Surfer est conçu pour les équipes marketing et SEO prêtes pour l'ère de l'IA.",
-    "description_fr": "Suivez et améliorez la visibilité de votre marque sur Google et sur les moteurs de recherche par IA comme ChatGPT, Gemini et Perplexity. Surfer est conçu pour les équipes marketing et SEO prêtes pour l'ère de l'IA. Éditeur de contenu : suggestions d'optimisation en temps réel, à partir des données SERP. Recherche de mots-clés : identifie les mots-clés à fort impact, avec les données de volume. Audits SEO : analyse les pages existantes pour en améliorer le classement. Analyseur SERP : décomposition visuelle des facteurs de classement des concurrents.",
+    "description_fr": "Suivez et améliorez la visibilité de votre marque sur Google et sur les moteurs de recherche par IA comme ChatGPT, Gemini et Perplexity. Surfer est conçu pour les équipes marketing et SEO prêvos pour l'ère de l'IA. Éditeur de contenu : suggestions d'optimisation en temps réel, à partir des données SERP. Recherche de mots-clés : identifie les mots-clés à fort impact, avec les données de volume. Audits SEO : analyse les pages existantes pour en améliorer le classement. Analyseur SERP : décomposition visuelle des facteurs de classement des concurrents.",
     "features_fr": [
       "Éditeur de contenu : suggestions d'optimisation en temps réel basées sur les données SERP.",
       "Recherche de mots clés : identifie les mots clés à fort impact avec des données de volume.",
@@ -14461,10 +14461,10 @@
       }
     ],
     "tags_fr": [
-      "video-creation",
-      "ai-video",
-      "personalized-video",
-      "training-videos"
+      "vidéo creation",
+      "IA vidéo",
+      "personalized vidéo",
+      "training videos"
     ]
   },
   "synthesys": {
@@ -14541,8 +14541,8 @@
       }
     ],
     "tags_fr": [
-      "data-visualization",
-      "business-intelligence",
+      "données visualization",
+      "entreprise intelligence",
       "dashboards",
       "analytique"
     ]
@@ -14582,9 +14582,9 @@
       }
     ],
     "tags_fr": [
-      "code-completion",
-      "multi-language",
-      "ide-support"
+      "code completion",
+      "multi langue",
+      "IDE support"
     ]
   },
   "taskade": {
@@ -14669,9 +14669,9 @@
     "summary_fr": "TeleportHQ est une plateforme low-code pour créer, prototyper et publier des sites web à l'aide de l'IA. Elle propose des éditeurs visuels en glisser-déposer, une génération de code par IA et un export fluide vers des frameworks comme React et Vue. TeleportHQ est idéal pour les designers qui veulent combler l'écart entre le design et le développement.",
     "description_fr": "TeleportHQ est une plateforme low-code pour créer, prototyper et publier des sites web à l'aide de l'IA. Elle propose des éditeurs visuels en glisser-déposer, une génération de code par IA et un export fluide vers des frameworks comme React et Vue. TeleportHQ est idéal pour les designers qui veulent combler l'écart entre le design et le développement. Outil de création de sites web par IA, avec un éditeur visuel low-code, une modélisation de contenu headless et un export de code. Concevez, construisez et faites passer à l'échelle plus rapidement des sites web sur mesure. Éditeur en glisser-déposer : assemblez visuellement des mises en page web. Génération de code par IA : transformez des wireframes en code prêt pour la production. Export vers les frameworks : prend en charge React, Vue et HTML/CSS. Collaboration : gestion de projet en équipe.",
     "tags_fr": [
-      "web-design",
-      "low-code",
-      "ai-code",
+      "web design",
+      "low code",
+      "IA code",
       "prototypage"
     ],
     "features_fr": [
@@ -14708,11 +14708,11 @@
   },
   "thoughtspot": {
     "summary_fr": "ThoughtSpot est une plateforme d'analytique reposant sur l'IA, qui permet aux utilisateurs de rechercher et d'analyser des données métier à l'aide de requêtes en langage naturel. Elle propose une analytique en temps réel, pilotée par la recherche, sur des données dans le cloud ou sur site, et permet aux utilisateurs métier de dégager des informations exploitables sans dépendre d'experts techniques. Avec une IA intégrée pour des informations et des recommandations automatiques, ThoughtSpot transforme la façon dont les organisations abordent la business intelligence et la prise de décision.",
-    "description_fr": "ThoughtSpot est une plateforme d'analytique reposant sur l'IA, qui permet aux utilisateurs de rechercher et d'analyser des données métier à l'aide de requêtes en langage naturel. Elle propose une analytique en temps réel, pilotée par la recherche, sur des données dans le cloud ou sur site, et permet aux utilisateurs métier de dégager des informations exploitables sans dépendre d'experts techniques. Avec une IA intégrée pour des informations et des recommandations automatiques, ThoughtSpot transforme la façon dont les organisations abordent la business intelligence et la prise de décision. Analytique pilotée par la recherche : interrogez les données dans un langage simple et naturel. Informations par IA : fait remonter automatiquement les tendances, les anomalies et les recommandations. Analyse en temps réel : requêtes en direct sur des données dans le cloud et sur site. Souplesse d'intégration : se connecte aux données cloud, aux entrepôts de données et aux données locales.",
+    "description_fr": "ThoughtSpot est une plateforme d'analytique reposant sur l'IA, qui permet aux utilisateurs de rechercher et d'analyser des données métier à l'aide de requêvos en langage naturel. Elle propose une analytique en temps réel, pilotée par la recherche, sur des données dans le cloud ou sur site, et permet aux utilisateurs métier de dégager des informations exploitables sans dépendre d'experts techniques. Avec une IA intégrée pour des informations et des recommandations automatiques, ThoughtSpot transforme la façon dont les organisations abordent la business intelligence et la prise de décision. Analytique pilotée par la recherche : interrogez les données dans un langage simple et naturel. Informations par IA : fait remonter automatiquement les tendances, les anomalies et les recommandations. Analyse en temps réel : requêvos en direct sur des données dans le cloud et sur site. Souplesse d'intégration : se connecte aux données cloud, aux entrepôts de données et aux données locales.",
     "features_fr": [
       "Analyses basées sur la recherche : interrogez des données à l'aide d'un langage simple et naturel.",
       "AI Insights : fait apparaître automatiquement les tendances, les anomalies et les recommandations.",
-      "Analyse en temps réel : requêtes en direct sur les données cloud et sur site.",
+      "Analyse en temps réel : requêvos en direct sur les données cloud et sur site.",
       "Flexibilité d'intégration : se connecte au cloud, à l'entrepôt et aux données locales."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
@@ -14741,7 +14741,7 @@
       }
     ],
     "tags_fr": [
-      "search-analytics",
+      "recherche analytics",
       "bi",
       "cloud"
     ]
@@ -14989,7 +14989,7 @@
       "Synthèse vocale et chant : convertit le texte en parole, chant ou rap.",
       "Clonage vocal : crée des voix personnalisées pour diverses applications.",
       "Accès API : fournit aux développeurs des outils d'intégration.",
-      "Music Studio : une plate-forme pour créer des chansons complètes à l'aide de voix IA."
+      "Music Studio : une plate-forme pour créer des chansons complèvos à l'aide de voix IA."
     ],
     "pricingNote_fr": "Détails tarifaires sur uberduck.ai ; consultez la page officielle avant un usage en production.",
     "howToUse_fr": [
@@ -15018,13 +15018,13 @@
     ],
     "tags_fr": [
       "voiceover",
-      "music-synthesis",
-      "custom-voices"
+      "musique synthesis",
+      "custom voices"
     ]
   },
   "udio": {
     "summary_fr": "Créez de la musique par IA avec voix, à partir de prompts textuels.",
-    "description_fr": "Udio génère des chansons complètes, avec voix et paroles, à partir de prompts textuels, et permet de prolonger, de remixer et de modifier les morceaux ou d'utiliser des styles de référence. Il s'adresse aux musiciens et aux amateurs qui veulent une génération de chansons contrôlable. Le plan Free comprend 10 crédits par jour (100 par mois) ; Standard coûte 10 $/mois (8 $/mois en facturation annuelle) avec 2 400 crédits, et Pro 30 $/mois.",
+    "description_fr": "Udio génère des chansons complèvos, avec voix et paroles, à partir de prompts textuels, et permet de prolonger, de remixer et de modifier les morceaux ou d'utiliser des styles de référence. Il s'adresse aux musiciens et aux amateurs qui veulent une génération de chansons contrôlable. Le plan Free comprend 10 crédits par jour (100 par mois) ; Standard coûte 10 $/mois (8 $/mois en facturation annuelle) avec 2 400 crédits, et Pro 30 $/mois.",
     "tags_fr": [
       "génération musicale",
       "texte vers musique",
@@ -15032,7 +15032,7 @@
     ],
     "features_fr": [
       "Créez de la musique IA avec des voix à partir d'invites textuelles.",
-      "Udio génère des chansons complètes, avec voix et paroles, à partir d'invites textuelles, et permet aux utilisateurs d'étendre, de remixer et d'éditer des pistes ou d'utiliser des styles de référence.",
+      "Udio génère des chansons complèvos, avec voix et paroles, à partir d'invites textuelles, et permet aux utilisateurs d'étendre, de remixer et d'éditer des pistes ou d'utiliser des styles de référence.",
       "Il cible les musiciens et les amateurs qui souhaitent générer des chansons contrôlables.",
       "Le forfait Free comprend 10 crédits par jour (100 par mois) ; Standard coûte 10 $/mois (8 $/mois facturés annuellement) avec 2 400 crédits et Pro 30 $/mois."
     ],
@@ -15068,8 +15068,8 @@
     "tags_fr": [
       "wireframing",
       "prototypage",
-      "no-code",
-      "ui-design",
+      "sans code",
+      "interface design",
       "collaboration"
     ],
     "features_fr": [
@@ -15190,7 +15190,7 @@
     "tags_fr": [
       "prototypage",
       "collaboration",
-      "code-based-design"
+      "code based design"
     ],
     "features_fr": [
       "Prototypage IA : générez des prototypes interactifs à partir de spécifications de conception.",
@@ -15262,8 +15262,8 @@
       "tailwind",
       "react",
       "shadcn",
-      "ui-generator",
-      "no-code",
+      "interface generator",
+      "sans code",
       "vercel"
     ]
   },
@@ -15340,7 +15340,7 @@
     ],
     "tags_fr": [
       "subtitling",
-      "auto-transcription",
+      "auto transcription",
       "filters",
       "branding",
       "reels"
@@ -15508,7 +15508,7 @@
   },
   "videoleap": {
     "summary_fr": "VideoLeap est une application mobile de montage vidéo, avec des effets par IA, une découpe automatique et des outils d'amélioration, pour créer rapidement des vidéos de haute qualité.",
-    "description_fr": "VideoLeap est une application mobile de montage vidéo, avec des effets par IA, une découpe automatique et des outils d'amélioration, pour créer rapidement des vidéos de haute qualité. Créez des vidéos qui se démarquent avec Videoleap, votre éditeur et créateur de vidéos intuitif. Explorez des modèles prédéfinis, des fonctions avancées et des outils IA. Commencez aujourd'hui. Effets par IA : améliorez instantanément les images et appliquez des filtres créatifs et des transitions créatives, d'un appui. Découpe automatique et montage : trouve et assemble automatiquement les meilleurs plans, pour des vidéos soignées et professionnelles. Montage par calques : combinez des clips vidéo, des images et des bandes-son avec des outils de compositing avancés. Priorité au mobile : montez et publiez en déplacement, avec des applications complètes pour les appareils iOS et Android.",
+    "description_fr": "VideoLeap est une application mobile de montage vidéo, avec des effets par IA, une découpe automatique et des outils d'amélioration, pour créer rapidement des vidéos de haute qualité. Créez des vidéos qui se démarquent avec Videoleap, votre éditeur et créateur de vidéos intuitif. Explorez des modèles prédéfinis, des fonctions avancées et des outils IA. Commencez aujourd'hui. Effets par IA : améliorez instantanément les images et appliquez des filtres créatifs et des transitions créatives, d'un appui. Découpe automatique et montage : trouve et assemble automatiquement les meilleurs plans, pour des vidéos soignées et professionnelles. Montage par calques : combinez des clips vidéo, des images et des bandes-son avec des outils de compositing avancés. Priorité au mobile : montez et publiez en déplacement, avec des applications complèvos pour les appareils iOS et Android.",
     "tags_fr": [
       "mobile",
       "montage"
@@ -15517,7 +15517,7 @@
       "Effets basés sur l'IA : améliorez instantanément les séquences et appliquez des filtres et des transitions créatifs d'un simple toucher.",
       "Découpe et montage automatiques : recherchez et assemblez automatiquement les meilleurs clips pour des vidéos soignées et professionnelles.",
       "Édition en couches : combinez des clips vidéo, des images et des bandes sonores avec des outils de composition avancés.",
-      "Le mobile d'abord : modifiez et publiez en déplacement avec des applications complètes pour les appareils iOS et Android."
+      "Le mobile d'abord : modifiez et publiez en déplacement avec des applications complèvos pour les appareils iOS et Android."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
     "howToUse_fr": [
@@ -15669,7 +15669,7 @@
     "summary_fr": "Un outil de clonage de voix qui permet aux utilisateurs de transformer leur voix en divers personnages ou styles, en temps réel.",
     "description_fr": "Un outil de clonage de voix qui permet aux utilisateurs de transformer leur voix en divers personnages ou styles, en temps réel. Changeur de voix en temps réel : modifie la voix en temps réel dans diverses applications. Large compatibilité avec les applications : fonctionne avec des plateformes comme Zoom, Discord et Skype. Voice Universe : une collection d'options de voix variées pour les utilisateurs. Outils d'édition audio : comprend des fonctions comme la suppression de la voix et la réduction de l'écho.",
     "tags_fr": [
-      "voice-changer",
+      "voix changer",
       "streaming",
       "temps réel"
     ],
@@ -15786,7 +15786,7 @@
   },
   "warp": {
     "summary_fr": "Environnement de développement agentique construit autour du terminal.",
-    "description_fr": "Warp est un terminal moderne et un environnement de développement agentique, où les développeurs exécutent des agents de codage par IA avec le modèle de leur choix, en parallèle du travail classique en ligne de commande. Il se présente comme une « software factory », avec des évaluations d'agents et de l'automatisation. Un plan gratuit est disponible, et les plans payants ajoutent davantage de requêtes IA et des fonctions d'équipe.",
+    "description_fr": "Warp est un terminal moderne et un environnement de développement agentique, où les développeurs exécutent des agents de codage par IA avec le modèle de leur choix, en parallèle du travail classique en ligne de commande. Il se présente comme une « software factory », avec des évaluations d'agents et de l'automatisation. Un plan gratuit est disponible, et les plans payants ajoutent davantage de requêvos IA et des fonctions d'équipe.",
     "tags_fr": [
       "terminal",
       "agent de code",
@@ -15796,7 +15796,7 @@
       "Environnement de développement agent construit autour du terminal.",
       "Warp est un environnement de développement de terminaux et d'agents moderne dans lequel les développeurs exécutent des agents de codage d'IA avec le modèle de leur choix, parallèlement au travail classique en ligne de commande.",
       "Il se positionne comme une « usine logicielle » avec des évaluations d'agents et une automatisation.",
-      "Un forfait gratuit est disponible et les forfaits payants ajoutent plus de requêtes d'IA et de fonctionnalités d'équipe."
+      "Un forfait gratuit est disponible et les forfaits payants ajoutent plus de requêvos d'IA et de fonctionnalités d'équipe."
     ],
     "pricingNote_fr": "Détails tarifaires sur warp.dev ; consultez la page officielle avant un usage en production.",
     "howToUse_fr": [
@@ -15863,9 +15863,9 @@
       }
     ],
     "tags_fr": [
-      "browser-daw",
+      "navigateur daw",
       "composition",
-      "music-creation"
+      "musique creation"
     ]
   },
   "wayground": {
@@ -16031,7 +16031,7 @@
     "pricingNote_fr": "Détails tarifaires sur windsurf.com ; consultez la page officielle avant un usage en production.",
     "tags_fr": [
       "ide",
-      "ai-coding",
+      "IA codage",
       "codeium",
       "agents"
     ]
@@ -16084,7 +16084,7 @@
       "Montage automatique : coupe les silences et ajoute une musique de fond.",
       "Sous-titrage automatique pour Reels, Shorts et TikTok.",
       "Commandes vocales pour éditer la timeline.",
-      "Musique adaptive au ton de la vidéo."
+      "Musique adaptive au votre de la vidéo."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
     "howToUse_fr": [
@@ -16112,16 +16112,16 @@
       }
     ],
     "tags_fr": [
-      "jump-cut",
-      "auto-subtitles",
-      "music-sync",
+      "jump cut",
+      "auto subtitles",
+      "musique sync",
       "YouTube",
-      "e-learning"
+      "e apprentissage"
     ]
   },
   "wispr-flow": {
     "summary_fr": "Dictée vocale par IA qui fonctionne dans n'importe quelle application.",
-    "description_fr": "Wispr Flow est un outil de dictée vocale qui transforme la parole naturelle en texte soigné et mis en forme, dans n'importe quelle application sur ordinateur et sur mobile. Il se distingue par la révision automatique des mots de remplissage et par l'adaptation du ton à l'application dans laquelle vous écrivez. Un plan gratuit avec une limite de mots par semaine est proposé, et les plans payants suppriment les limites et ajoutent des fonctions d'équipe.",
+    "description_fr": "Wispr Flow est un outil de dictée vocale qui transforme la parole naturelle en texte soigné et mis en forme, dans n'importe quelle application sur ordinateur et sur mobile. Il se distingue par la révision automatique des mots de remplissage et par l'adaptation du votre à l'application dans laquelle vous écrivez. Un plan gratuit avec une limite de mots par semaine est proposé, et les plans payants suppriment les limites et ajoutent des fonctions d'équipe.",
     "tags_fr": [
       "dictée",
       "voix",
@@ -16130,7 +16130,7 @@
     "features_fr": [
       "Dictée vocale AI qui fonctionne dans n'importe quelle application.",
       "Wispr Flow est un outil de dictée vocale qui transforme la parole naturelle en texte soigné et formaté dans n'importe quelle application sur ordinateur et mobile.",
-      "Il se différencie en éditant automatiquement les mots de remplissage et en adaptant le ton à l'application dans laquelle vous écrivez.",
+      "Il se différencie en éditant automatiquement les mots de remplissage et en adaptant le votre à l'application dans laquelle vous écrivez.",
       "Un forfait gratuit avec une limite hebdomadaire de mots est proposé, et les forfaits payants suppriment les limites et ajoutent des fonctionnalités d'équipe."
     ],
     "pricingNote_fr": "Détails tarifaires sur wisprflow.ai ; consultez la page officielle avant un usage en production.",
@@ -16272,7 +16272,7 @@
       }
     ],
     "tags_fr": [
-      "ai-art",
+      "IA art",
       "mobile",
       "prompt",
       "community"
@@ -16311,17 +16311,17 @@
     "description_fr": "Wondershare Filmora wondershare.com.",
     "pricingNote_fr": "Tarifs sur filmora.wondershare.com ; consultez la page officielle pour les offres en vigueur.",
     "tags_fr": [
-      "video-edit",
+      "vidéo édition",
       "templates",
-      "ai-tools",
+      "IA outils",
       "creator"
     ]
   },
   "wordtune": {
     "summary_fr": "Perfectionnez votre anglais avec un rédacteur IA gratuit qui peut paraphraser, réécrire, corriger votre grammaire et plus encore.",
-    "description_fr": "Perfectionnez votre anglais avec un rédacteur IA gratuit qui peut paraphraser, réécrire, corriger votre grammaire et plus encore. Suggestions de réécriture : propose plusieurs réécritures selon le ton (décontracté, formel). Résumeur : condense instantanément de longs documents ou des pages web. Outil d'écriture IA : aide à générer des introductions, des conclusions et des brouillons complets. Grammaire et clarté : améliore la structure des phrases et la lisibilité.",
+    "description_fr": "Perfectionnez votre anglais avec un rédacteur IA gratuit qui peut paraphraser, réécrire, corriger votre grammaire et plus encore. Suggestions de réécriture : propose plusieurs réécritures selon le votre (décontracté, formel). Résumeur : condense instantanément de longs documents ou des pages web. Outil d'écriture IA : aide à générer des introductions, des conclusions et des brouillons complets. Grammaire et clarté : améliore la structure des phrases et la lisibilité.",
     "features_fr": [
-      "Suggestions de réécriture : propose plusieurs réécritures basées sur le ton (occasionnelles, formelles).",
+      "Suggestions de réécriture : propose plusieurs réécritures basées sur le votre (occasionnelles, formelles).",
       "Summarizer : condense instantanément de longs documents ou des pages Web.",
       "Outil d'écriture IA : aide à générer des introductions, des conclusions et des brouillons complets.",
       "Grammaire et clarté : améliore la structure et la lisibilité des phrases."
@@ -16353,17 +16353,17 @@
     ],
     "tags_fr": [
       "rephrasing",
-      "tone-adjustment",
+      "tone adjustment",
       "clarity",
       "grammaire",
-      "style-editing"
+      "style édition"
     ]
   },
   "writer-com": {
     "summary_fr": "WRITER est la plateforme d'agents IA pour l'entreprise à laquelle font confiance des entreprises du Fortune 500, conçue pour aider les équipes à exécuter et à faire passer à l'échelle un travail fidèle à la marque et conforme aux exigences.",
-    "description_fr": "WRITER est la plateforme d'agents IA pour l'entreprise à laquelle font confiance des entreprises du Fortune 500, conçue pour aider les équipes à exécuter et à faire passer à l'échelle un travail fidèle à la marque et conforme aux exigences. Application du guide de style : fait respecter les règles d'écriture de la marque et le ton. Confidentialité d'entreprise : conçue pour les secteurs réglementés (SOC2, HIPAA). Assistant d'écriture IA : révise, reformule et rédige du contenu de haute qualité. Gestion d'équipe : autorisations, analytique et contrôle des documents.",
+    "description_fr": "WRITER est la plateforme d'agents IA pour l'entreprise à laquelle font confiance des entreprises du Fortune 500, conçue pour aider les équipes à exécuter et à faire passer à l'échelle un travail fidèle à la marque et conforme aux exigences. Application du guide de style : fait respecter les règles d'écriture de la marque et le votre. Confidentialité d'entreprise : conçue pour les secteurs réglementés (SOC2, HIPAA). Assistant d'écriture IA : révise, reformule et rédige du contenu de haute qualité. Gestion d'équipe : autorisations, analytique et contrôle des documents.",
     "features_fr": [
-      "Application du guide de style : applique les règles et le ton d’écriture de la marque.",
+      "Application du guide de style : applique les règles et le votre d’écriture de la marque.",
       "Confidentialité d'entreprise : conçue pour les secteurs réglementés (SOC2, HIPAA).",
       "AI Writing Assistant : modifie, reformule et rédige du contenu de haute qualité.",
       "Gestion d'équipe : autorisations, analyses et contrôle des documents."
@@ -16395,8 +16395,8 @@
     ],
     "tags_fr": [
       "compliance",
-      "style-guide",
-      "team-collaboration",
+      "style guide",
+      "équipe collaboration",
       "branding",
       "corporate"
     ]
@@ -16405,11 +16405,11 @@
     "summary_fr": "Le moteur de croissance de la recherche IA. GEO, AEO et visibilité IA sur une seule plateforme. Suivez 8 plateformes d'IA, menez le travail, prouvez la hausse. Amazon, Unilever, Acer et NP Digital lui font confiance.",
     "description_fr": "Le moteur de croissance de la recherche IA. GEO, AEO et visibilité IA sur une seule plateforme. Suivez 8 plateformes d'IA, menez le travail, prouvez la hausse. Amazon, Unilever, Acer et NP Digital lui font confiance. Rédacteur d'articles IA : génère des articles de blog et du contenu web en quelques minutes. Chatsonic Assistant : chatbot avec accès au web en temps réel. Générateur de pages de destination : adapte le contenu pour les lancements de produits. Création de contenu en volume : produisez à grande échelle plusieurs contenus.",
     "tags_fr": [
-      "ai-writer",
+      "IA writer",
       "chatbot",
       "génération d'images",
-      "landing-pages",
-      "bulk-content"
+      "landing pages",
+      "bulk contenu"
     ],
     "features_fr": [
       "AI Article Writer : génère des articles de blog et du contenu Web en quelques minutes.",
@@ -16567,7 +16567,7 @@
     "pricingNote_fr": "Consultez zerogpt.com pour les formules et limites actuelles.",
     "tags_fr": [
       "détection",
-      "analyse gratuite",
+      "gratuit",
       "texte",
       "éducation"
     ]
@@ -17101,10 +17101,10 @@
     ],
     "pricingNote_fr": "Détails tarifaires sur albato.com ; consultez la page officielle avant un usage en production.",
     "tags_fr": [
-      "no-code",
+      "sans code",
       "intégrations",
-      "embedded-ipaas",
-      "white-label"
+      "embedded ipaas",
+      "white label"
     ]
   },
   "ambiencehealthcare": {
@@ -17259,7 +17259,7 @@
       "rpa",
       "agents IA",
       "enterprise",
-      "process-automation"
+      "process automatisation"
     ]
   },
   "autoshorts": {
@@ -17334,11 +17334,11 @@
     ],
     "pricingNote_fr": "Détails tarifaires sur axiom.ai ; consultez la page officielle avant un usage en production.",
     "tags_fr": [
-      "browser-automation",
-      "web-scraping",
-      "no-code",
+      "navigateur automatisation",
+      "web scraping",
+      "sans code",
       "rpa",
-      "chrome-extension"
+      "chrome extension"
     ]
   },
   "bandlab": {
@@ -19662,7 +19662,7 @@
   },
   "integrately": {
     "summary_fr": "Outil d'intégration sans code avec des automatisations prêtes en un clic pour plus de 1 500 applications.",
-    "description_fr": "Integrately est un outil sans code pour connecter des applications. Il propose une bibliothèque d'automatisations prêtes que l'on active en quelques clics au lieu de construire le flux. Il prend en charge plus de 1 500 applications, avec webhooks, branchements et planification. La page tarifs liste une offre gratuite de 100 tâches, Starter à 19,99 $/mois (Starter, facturé annuellement), Professional à 39 $, Growth à 99 $ et Business à 239 $ par mois. Les plans payants incluent le chat en direct.",
+    "description_fr": "Integrately est un outil sans code pour connecter des applications. Il propose une bibliothèque d'automatisations prêvos que l'on active en quelques clics au lieu de construire le flux. Il prend en charge plus de 1 500 applications, avec webhooks, branchements et planification. La page tarifs liste une offre gratuite de 100 tâches, Starter à 19,99 $/mois (Starter, facturé annuellement), Professional à 39 $, Growth à 99 $ et Business à 239 $ par mois. Les plans payants incluent le chat en direct.",
     "howToUse_fr": [
       {
         "title": "Ouvrez Integrately",
@@ -19694,10 +19694,10 @@
     ],
     "pricingNote_fr": "Détails tarifaires sur integrately.com ; consultez la page officielle avant un usage en production.",
     "tags_fr": [
-      "no-code",
+      "sans code",
       "intégrations",
       "templates",
-      "workflow-automation"
+      "flux automatisation"
     ]
   },
   "inworld": {
@@ -19962,9 +19962,9 @@
     "tags_fr": [
       "open source",
       "orchestration",
-      "data-pipelines",
+      "données pipelines",
       "yaml",
-      "self-hosted"
+      "auto hébergé"
     ]
   },
   "khealth": {
@@ -20190,11 +20190,11 @@
     ],
     "pricingNote_fr": "Détails tarifaires sur latenode.com ; consultez la page officielle avant un usage en production.",
     "tags_fr": [
-      "ai-workflows",
+      "IA flux",
       "LLM",
       "intégrations",
-      "low-code",
-      "usage-based"
+      "low code",
+      "usage based"
     ]
   },
   "later": {
@@ -20914,9 +20914,9 @@
   },
   "mureka": {
     "summary_fr": "Génération de chansons complètes, alternative à Suno.",
-    "description_fr": "Génération de chansons complètes, alternative à Suno.",
+    "description_fr": "Génération de chansons complèvos, alternative à Suno.",
     "features_fr": [
-      "Génération de chansons complètes.",
+      "Génération de chansons complèvos.",
       "Alternative à Suno."
     ],
     "howToUse_fr": [
@@ -21359,10 +21359,10 @@
     ],
     "pricingNote_fr": "Détails tarifaires sur pabbly.com ; consultez la page officielle avant un usage en production.",
     "tags_fr": [
-      "no-code",
+      "sans code",
       "intégrations",
-      "workflow-automation",
-      "lifetime-deal"
+      "flux automatisation",
+      "lifetime deal"
     ]
   },
   "pebblely": {
@@ -21748,7 +21748,7 @@
       "Canvas zoom non linéaire pour pitch et cours.",
       "Suggestions IA de plan et de transitions.",
       "Bibliothèque de modèles et assets visuels.",
-      "Partage, analytics et mode présentateur."
+      "Partagez, analytics et mode présentateur."
     ],
     "howToUse_fr": [
       {
@@ -21815,9 +21815,9 @@
     "tags_fr": [
       "agents IA",
       "operations",
-      "data-processing",
+      "données traitement",
       "reporting",
-      "no-code"
+      "sans code"
     ]
   },
   "publer": {
@@ -22989,12 +22989,12 @@
   },
   "sora": {
     "summary_fr": "Application OpenAI de texte vers vidéo pour créer et remixer de courts clips.",
-    "description_fr": "Sora est le produit de génération vidéo d'OpenAI sur sora.com. Les utilisateurs ChatGPT éligibles peuvent créer, remixer et partager de courtes vidéos à partir de prompts. La disponibilité et les limites dépendent de ton plan et de ta région ; consulte le centre d'aide OpenAI.",
+    "description_fr": "Sora est le produit de génération vidéo d'OpenAI sur sora.com. Les utilisateurs ChatGPT éligibles peuvent créer, remixer et partager de courtes vidéos à partir de prompts. La disponibilité et les limites dépendent de votre plan et de votre région ; consultez le centre d'aide OpenAI.",
     "features_fr": [
       "Génération vidéo à partir de prompts textuels.",
       "Remix et extension de clips dans l'application Sora.",
-      "Partage des exports selon l'éligibilité de ton plan ChatGPT.",
-      "Disponibilité selon la région et le plan ; voir l'aide OpenAI."
+      "Partagez des exports selon l'éligibilité de votre plan ChatGPT.",
+      "Disponibilité selon la région et le plan ; consultez l'aide OpenAI."
     ],
     "pricingNote_fr": "Détails tarifaires sur sora.com ; consultez la page officielle avant un usage en production.",
     "howToUse_fr": [
@@ -23023,7 +23023,7 @@
     ],
     "tags_fr": [
       "vidéo",
-      "arrêté"
+      "abandonné"
     ]
   },
   "splice": {
@@ -23629,10 +23629,10 @@
     ],
     "pricingNote_fr": "Détails tarifaires sur tines.com ; consultez la page officielle avant un usage en production.",
     "tags_fr": [
-      "security-automation",
+      "security automatisation",
       "soar",
       "agents IA",
-      "it-automation",
+      "it automatisation",
       "flux de travail"
     ]
   },
@@ -23827,7 +23827,7 @@
       "agents IA",
       "orchestration",
       "enterprise",
-      "desktop-automation"
+      "desktop automatisation"
     ]
   },
   "useorigin": {
@@ -23908,7 +23908,7 @@
   },
   "vectorizer": {
     "summary_fr": "Convertisseur professionnel de bitmaps en fichiers vectoriels SVG.",
-    "description_fr": "Vectorizer.AI transforme vos PNG et JPG en courbes vectorielles propres, prêtes pour l'impression et le web.",
+    "description_fr": "Vectorizer.AI transforme vos PNG et JPG en courbes vectorielles propres, prêvos pour l'impression et le web.",
     "features_fr": [
       "Vectorisation automatique avec ajustement des courbes.",
       "Prévisualisation avant export SVG/PDF.",
@@ -24353,8 +24353,8 @@
       "open source",
       "outils développeur",
       "orchestration",
-      "self-hosted",
-      "internal-tools"
+      "auto hébergé",
+      "internal outils"
     ]
   },
   "withaqua": {
@@ -24468,7 +24468,7 @@
       "intégrations",
       "enterprise",
       "agents IA",
-      "api-management"
+      "API gestion"
     ]
   },
   "yuma": {
@@ -24621,9 +24621,9 @@
       }
     ],
     "tags_fr": [
-      "ambient-scribe",
+      "transcription ambiante",
       "ehr",
-      "clinical-notes",
+      "notes cliniques",
       "nursing"
     ]
   },
@@ -24703,9 +24703,9 @@
       }
     ],
     "tags_fr": [
-      "symptom-checker",
-      "medical-library",
-      "consumer-health"
+      "symptom checker",
+      "medical library",
+      "consumer health"
     ]
   },
   "adcreative-ai": {
@@ -24743,10 +24743,10 @@
       }
     ],
     "tags_fr": [
-      "ad-creatives",
+      "créatifs publicitaires",
       "roas",
       "images",
-      "video-ads"
+      "vidéo publicités"
     ]
   },
   "aider": {
@@ -24784,7 +24784,7 @@
     ],
     "tags_fr": [
       "cli",
-      "pair-programming",
+      "pair programming",
       "open source",
       "git"
     ]
@@ -24825,7 +24825,7 @@
     "tags_fr": [
       "appsec",
       "sca",
-      "cloud-security",
+      "cloud security",
       "pentest"
     ]
   },
@@ -24864,7 +24864,7 @@
       }
     ],
     "tags_fr": [
-      "time-blocking",
+      "temps blocking",
       "tasks",
       "calendar",
       "planner"
@@ -24904,9 +24904,9 @@
       }
     ],
     "tags_fr": [
-      "market-intelligence",
+      "market intelligence",
       "filings",
-      "expert-calls",
+      "expert appels",
       "agents"
     ]
   },
@@ -24945,9 +24945,9 @@
       }
     ],
     "tags_fr": [
-      "code-generation",
+      "code génération",
       "aws",
-      "natural-language"
+      "naturel langue"
     ]
   },
   "amp": {
@@ -24986,7 +24986,7 @@
     "tags_fr": [
       "agent de code",
       "cli",
-      "cloud-agents",
+      "cloud agents",
       "teams"
     ]
   },
@@ -25027,7 +25027,7 @@
       "créateur d'applications",
       "mobile",
       "vibe coding",
-      "no-code"
+      "sans code"
     ]
   },
   "apollo-io": {
@@ -25065,7 +25065,7 @@
       }
     ],
     "tags_fr": [
-      "b2b-data",
+      "b2b données",
       "prospecting",
       "sequences",
       "gtm"
@@ -25107,8 +25107,8 @@
     ],
     "tags_fr": [
       "ugc",
-      "ai-actors",
-      "video-ads",
+      "IA actors",
+      "vidéo publicités",
       "marketing"
     ]
   },
@@ -25148,8 +25148,8 @@
     "tags_fr": [
       "stt",
       "api",
-      "speaker-diarization",
-      "speech-understanding"
+      "speaker diarization",
+      "parole understanding"
     ]
   },
   "attio": {
@@ -25188,7 +25188,7 @@
     ],
     "tags_fr": [
       "crm",
-      "data-model",
+      "données modèle",
       "enrichment",
       "flux de travail"
     ]
@@ -25229,8 +25229,8 @@
     ],
     "tags_fr": [
       "agent de code",
-      "context-engine",
-      "code-review",
+      "context engine",
+      "code revue",
       "enterprise"
     ]
   },
@@ -25269,7 +25269,7 @@
       }
     ],
     "tags_fr": [
-      "web-scraping",
+      "web scraping",
       "génération de prospects",
       "enrichment",
       "automatisation"
@@ -25311,7 +25311,7 @@
     "tags_fr": [
       "vibe coding",
       "créateur d'applications",
-      "no-code",
+      "sans code",
       "hosting"
     ]
   },
@@ -25352,17 +25352,17 @@
     "tags_fr": [
       "présentations",
       "diapositives",
-      "brand-control",
+      "brand control",
       "templates"
     ]
   },
   "better-analyst-formerly-formula-bot": {
     "summary_fr": "Application d'analyse tout-en-un, anciennement Formula Bot, pour l'enrichissement, l'analyse, les tableaux de bord et l'automatisation.",
-    "description_fr": "Better Analyst est le nouveau nom de Formula Bot, avec le même compte et les mêmes flux de travail. Il se connecte aux sources de données, répond aux questions dans un langage simple, enrichit les données, construit des tableaux de bord d'IA et automatise les analyses récurrentes, avec des exports vers Excel et une intégration Slack en version bêta.",
+    "description_fr": "Better Analyst est le nouveau nom de Formula Bot, avec le même compte et les mêmes flux de travail. Il se connecte aux sources de données, répond aux questions dans un langage simple, enrichit les données, construit des tableaux de bord d'IA et automatise les analyses récurrentes, avec des exports vers Excel et une intégration Slack en version bêvotre.",
     "features_fr": [
       "Application d'analyse tout-en-un, anciennement Formula Bot, pour l'enrichissement, l'analyse, les tableaux de bord et l'automatisation.",
       "Better Analyst est le nouveau nom de Formula Bot, avec le même compte et les mêmes flux de travail.",
-      "Il se connecte aux sources de données, répond aux questions dans un langage simple, enrichit les données, construit des tableaux de bord d'IA et automatise les analyses récurrentes, avec des exports vers Excel et une intégration Slack en version bêta."
+      "Il se connecte aux sources de données, répond aux questions dans un langage simple, enrichit les données, construit des tableaux de bord d'IA et automatise les analyses récurrentes, avec des exports vers Excel et une intégration Slack en version bêvotre."
     ],
     "howToUse_fr": [
       {
@@ -25389,7 +25389,7 @@
       }
     ],
     "tags_fr": [
-      "data-analysis",
+      "données analyse",
       "dashboards",
       "spreadsheets",
       "automatisation"
@@ -25429,9 +25429,9 @@
       }
     ],
     "tags_fr": [
-      "voice-agents",
-      "phone-calls",
-      "self-hosted",
+      "voix agents",
+      "téléphone appels",
+      "auto hébergé",
       "enterprise"
     ]
   },
@@ -25470,7 +25470,7 @@
       }
     ],
     "tags_fr": [
-      "agent-builder",
+      "agent constructeur",
       "helpdesk",
       "whatsapp",
       "intégrations"
@@ -25510,9 +25510,9 @@
       }
     ],
     "tags_fr": [
-      "homework-help",
+      "homework help",
       "tutoring",
-      "test-prep",
+      "test préparation",
       "parents"
     ]
   },
@@ -25550,7 +25550,7 @@
       }
     ],
     "tags_fr": [
-      "chrome-extension",
+      "chrome extension",
       "teachers",
       "feedback",
       "curriculum"
@@ -25590,9 +25590,9 @@
       }
     ],
     "tags_fr": [
-      "browser-automation",
-      "web-agents",
-      "cloud-browser",
+      "navigateur automatisation",
+      "web agents",
+      "cloud navigateur",
       "open source"
     ]
   },
@@ -25631,10 +25631,10 @@
       }
     ],
     "tags_fr": [
-      "no-code",
+      "sans code",
       "applications web",
-      "mobile-apps",
-      "visual-editor"
+      "mobile applications",
+      "visual éditeur"
     ]
   },
   "buffer": {
@@ -25672,10 +25672,10 @@
       }
     ],
     "tags_fr": [
-      "social-scheduler",
+      "social scheduler",
       "publishing",
       "analytique",
-      "link-in-bio"
+      "link in bio"
     ]
   },
   "cartesia": {
@@ -25715,7 +25715,7 @@
     "tags_fr": [
       "tts",
       "stt",
-      "voice-agents",
+      "voix agents",
       "temps réel",
       "api"
     ]
@@ -25755,8 +25755,8 @@
       }
     ],
     "tags_fr": [
-      "chatbot-builder",
-      "customer-support",
+      "chatbot constructeur",
+      "client support",
       "voix",
       "intégrations"
     ]
@@ -25796,8 +25796,8 @@
     ],
     "tags_fr": [
       "budgeting",
-      "personal-finance",
-      "cash-advance",
+      "personal finance",
+      "cash advance",
       "app"
     ]
   },
@@ -25835,7 +25835,7 @@
       }
     ],
     "tags_fr": [
-      "video-editor",
+      "vidéo éditeur",
       "microsoft",
       "templates",
       "subtitles"
@@ -25875,8 +25875,8 @@
       }
     ],
     "tags_fr": [
-      "legal-research",
-      "thomson-reuters",
+      "juridique recherche",
+      "thomson reuters",
       "westlaw",
       "tax"
     ]
@@ -25917,7 +25917,7 @@
     "tags_fr": [
       "docs",
       "databases",
-      "team-hubs",
+      "équipe hubs",
       "superhuman"
     ]
   },
@@ -25955,8 +25955,8 @@
       }
     ],
     "tags_fr": [
-      "code-review",
-      "pull-requests",
+      "code revue",
+      "pull requests",
       "security",
       "github"
     ]
@@ -26036,7 +26036,7 @@
       }
     ],
     "tags_fr": [
-      "citation-graph",
+      "citation graph",
       "visualisation",
       "articles"
     ]
@@ -26075,7 +26075,7 @@
       }
     ],
     "tags_fr": [
-      "academic-search",
+      "académique recherche",
       "articles",
       "citations",
       "revue de littérature"
@@ -26119,7 +26119,7 @@
       "notes",
       "tasks",
       "whiteboards",
-      "cross-platform"
+      "cross platform"
     ]
   },
   "creatify": {
@@ -26157,10 +26157,10 @@
       }
     ],
     "tags_fr": [
-      "video-ads",
+      "vidéo publicités",
       "avatars",
-      "url-to-video",
-      "ad-library"
+      "url vers vidéo",
+      "publicité library"
     ]
   },
   "crewai": {
@@ -26197,7 +26197,7 @@
       }
     ],
     "tags_fr": [
-      "multi-agent",
+      "multi agent",
       "open source",
       "python",
       "framework"
@@ -26237,7 +26237,7 @@
       }
     ],
     "tags_fr": [
-      "customer-service",
+      "client service",
       "voix",
       "chat",
       "email"
@@ -26279,16 +26279,16 @@
     "tags_fr": [
       "stt",
       "tts",
-      "voice-agents",
+      "voix agents",
       "api"
     ]
   },
   "dia": {
     "summary_fr": "Navigateur Web IA pour le travail, avec chat dans les onglets ouverts et briefing quotidien.",
-    "description_fr": "Dia est un navigateur Web pour macOS et Windows qui ajoute un chat AI fonctionnant dans les onglets ouverts, un Morning Brief résumant le calendrier et la boîte de réception, ainsi que des sorties prêtes à partager.",
+    "description_fr": "Dia est un navigateur Web pour macOS et Windows qui ajoute un chat AI fonctionnant dans les onglets ouverts, un Morning Brief résumant le calendrier et la boîte de réception, ainsi que des sorties prêvos à partager.",
     "features_fr": [
       "Navigateur Web IA pour le travail, avec chat dans les onglets ouverts et briefing quotidien.",
-      "Dia est un navigateur Web pour macOS et Windows qui ajoute un chat AI fonctionnant dans les onglets ouverts, un Morning Brief résumant le calendrier et la boîte de réception, ainsi que des sorties prêtes à partager."
+      "Dia est un navigateur Web pour macOS et Windows qui ajoute un chat AI fonctionnant dans les onglets ouverts, un Morning Brief résumant le calendrier et la boîte de réception, ainsi que des sorties prêvos à partager."
     ],
     "pricingNote_fr": "Détails tarifaires sur diabrowser.com ; consultez la page officielle avant un usage en production.",
     "howToUse_fr": [
@@ -26317,7 +26317,7 @@
     ],
     "tags_fr": [
       "navigateur",
-      "ai-assistant",
+      "IA assistant",
       "macos",
       "windows"
     ]
@@ -26358,8 +26358,8 @@
     "tags_fr": [
       "bookkeeping",
       "comptabilité",
-      "bill-pay",
-      "small-business"
+      "bill pay",
+      "PME entreprise"
     ]
   },
   "dreamina": {
@@ -26436,9 +26436,9 @@
       }
     ],
     "tags_fr": [
-      "language-learning",
+      "langue apprentissage",
       "gamification",
-      "mobile-apps"
+      "mobile applications"
     ]
   },
   "durable": {
@@ -26475,8 +26475,8 @@
       }
     ],
     "tags_fr": [
-      "website-builder",
-      "small-business",
+      "website constructeur",
+      "PME entreprise",
       "crm",
       "seo"
     ]
@@ -26515,8 +26515,8 @@
       }
     ],
     "tags_fr": [
-      "talent-intelligence",
-      "ai-interviewer",
+      "talent intelligence",
+      "IA interviewer",
       "skills",
       "agents"
     ]
@@ -26555,10 +26555,10 @@
       }
     ],
     "tags_fr": [
-      "search-api",
-      "web-data",
+      "recherche API",
+      "web données",
       "agents",
-      "deep-research"
+      "deep recherche"
     ]
   },
   "factory": {
@@ -26636,10 +26636,10 @@
       }
     ],
     "tags_fr": [
-      "prompt-to-app",
+      "prompt vers application",
       "prototypage",
       "figma",
-      "design-to-code"
+      "design vers code"
     ]
   },
   "fish-audio": {
@@ -26679,7 +26679,7 @@
       "tts",
       "clonage de voix",
       "api",
-      "expressive-speech"
+      "expressive parole"
     ]
   },
   "flutterflow": {
@@ -26717,9 +26717,9 @@
     ],
     "tags_fr": [
       "flutter",
-      "low-code",
+      "low code",
       "mobile",
-      "code-export"
+      "code export"
     ]
   },
   "folk": {
@@ -26759,7 +26759,7 @@
       "crm",
       "linkedin",
       "whatsapp",
-      "small-teams"
+      "PME équipes"
     ]
   },
   "freed": {
@@ -26796,10 +26796,10 @@
       }
     ],
     "tags_fr": [
-      "ambient-scribe",
+      "transcription ambiante",
       "ehr",
       "coding",
-      "front-desk"
+      "front desk"
     ]
   },
   "gauth": {
@@ -26836,9 +26836,9 @@
       }
     ],
     "tags_fr": [
-      "homework-help",
+      "homework help",
       "math",
-      "ai-calculator",
+      "IA calculator",
       "tutors"
     ]
   },
@@ -26916,7 +26916,7 @@
       }
     ],
     "tags_fr": [
-      "enterprise-search",
+      "entreprise recherche",
       "agents",
       "connectors",
       "connaissances"
@@ -26956,9 +26956,9 @@
       }
     ],
     "tags_fr": [
-      "no-code",
+      "sans code",
       "spreadsheets",
-      "business-apps",
+      "entreprise applications",
       "agents IA"
     ]
   },
@@ -26996,8 +26996,8 @@
       }
     ],
     "tags_fr": [
-      "revenue-intelligence",
-      "call-recording",
+      "revenue intelligence",
+      "call recording",
       "forecasting",
       "agents"
     ]
@@ -27116,7 +27116,7 @@
       }
     ],
     "tags_fr": [
-      "ui-generation",
+      "interface génération",
       "google",
       "prototypage"
     ]
@@ -27155,9 +27155,9 @@
       }
     ],
     "tags_fr": [
-      "code-review",
-      "stacked-prs",
-      "merge-queue",
+      "code revue",
+      "stacked prs",
+      "merge queue",
       "github"
     ]
   },
@@ -27195,9 +27195,9 @@
       }
     ],
     "tags_fr": [
-      "code-review",
-      "codebase-context",
-      "pull-requests"
+      "code revue",
+      "codebase context",
+      "pull requests"
     ]
   },
   "groq": {
@@ -27237,7 +27237,7 @@
     "tags_fr": [
       "inference",
       "api",
-      "open-models",
+      "open modèles",
       "lpu"
     ]
   },
@@ -27276,7 +27276,7 @@
     ],
     "tags_fr": [
       "agents IA",
-      "no-code",
+      "sans code",
       "intégrations",
       "automatisation"
     ]
@@ -27315,9 +27315,9 @@
       }
     ],
     "tags_fr": [
-      "legal-ai",
-      "law-firms",
-      "due-diligence",
+      "juridique IA",
+      "law firms",
+      "due diligence",
       "contracts"
     ]
   },
@@ -27356,7 +27356,7 @@
     ],
     "tags_fr": [
       "finance",
-      "document-analysis",
+      "document analyse",
       "matrix",
       "agents"
     ]
@@ -27395,8 +27395,8 @@
       }
     ],
     "tags_fr": [
-      "ambient-scribe",
-      "clinical-notes",
+      "transcription ambiante",
+      "notes cliniques",
       "evidence",
       "telehealth"
     ]
@@ -27439,7 +27439,7 @@
       "notebooks",
       "sql",
       "bi",
-      "conversational-analytics"
+      "conversational analytics"
     ]
   },
   "hirevue": {
@@ -27476,9 +27476,9 @@
       }
     ],
     "tags_fr": [
-      "video-interviews",
+      "vidéo interviews",
       "assessments",
-      "ai-interviewer",
+      "IA interviewer",
       "hiring"
     ]
   },
@@ -27519,7 +27519,7 @@
     "tags_fr": [
       "chatbot",
       "open source",
-      "hugging-face",
+      "hugging face",
       "multi-modèles"
     ]
   },
@@ -27557,7 +27557,7 @@
       }
     ],
     "tags_fr": [
-      "voice-ai",
+      "voix IA",
       "emotion",
       "evaluation",
       "api"
@@ -27599,8 +27599,8 @@
     ],
     "tags_fr": [
       "automatisation",
-      "smart-home",
-      "no-code",
+      "smart home",
+      "sans code",
       "applets"
     ]
   },
@@ -27639,10 +27639,10 @@
       }
     ],
     "tags_fr": [
-      "cold-email",
+      "cold e-mail",
       "deliverability",
-      "lead-database",
-      "ai-sdr"
+      "prospects database",
+      "IA SDR"
     ]
   },
   "intercom-fin": {
@@ -27679,10 +27679,10 @@
       }
     ],
     "tags_fr": [
-      "customer-service",
+      "client service",
       "agents IA",
       "helpdesk",
-      "per-outcome"
+      "per outcome"
     ]
   },
   "jan": {
@@ -27719,7 +27719,7 @@
       }
     ],
     "tags_fr": [
-      "local-llm",
+      "local LLM",
       "open source",
       "desktop",
       "confidentialité"
@@ -27727,10 +27727,10 @@
   },
   "juicebox": {
     "summary_fr": "Plateforme de recrutement IA qui recherche plus de 800 millions de profils, vérifie les candidats et mène des actions de sensibilisation.",
-    "description_fr": "Juicebox recherche plus de 800 millions de profils provenant de plus de 30 sources à l'aide de requêtes en langage naturel, vérifie les candidats et envoie des courriers électroniques, avec des agents de recrutement qui apprennent comment l'utilisateur recherche. Le forfait gratuit comprend des recherches limitées ; Starter coûte 119 $ par siège et par mois, avec une facturation annuelle avec une réduction de 15 %. Il prend en charge les agents qui exécutent automatiquement des recherches. Il fournit également des modèles de courrier électronique IA et une configuration de Juicebox Agent sur le plan gratuit.",
+    "description_fr": "Juicebox recherche plus de 800 millions de profils provenant de plus de 30 sources à l'aide de requêvos en langage naturel, vérifie les candidats et envoie des courriers électroniques, avec des agents de recrutement qui apprennent comment l'utilisateur recherche. Le forfait gratuit comprend des recherches limitées ; Starter coûte 119 $ par siège et par mois, avec une facturation annuelle avec une réduction de 15 %. Il prend en charge les agents qui exécutent automatiquement des recherches. Il fournit également des modèles de courrier électronique IA et une configuration de Juicebox Agent sur le plan gratuit.",
     "features_fr": [
       "Plateforme de recrutement IA qui recherche plus de 800 millions de profils, vérifie les candidats et mène des actions de sensibilisation.",
-      "Juicebox recherche plus de 800 millions de profils provenant de plus de 30 sources à l'aide de requêtes en langage naturel, vérifie les candidats et envoie des courriers électroniques, avec des agents de recrutement qui apprennent comment l'utilisateur recherche.",
+      "Juicebox recherche plus de 800 millions de profils provenant de plus de 30 sources à l'aide de requêvos en langage naturel, vérifie les candidats et envoie des courriers électroniques, avec des agents de recrutement qui apprennent comment l'utilisateur recherche.",
       "Le forfait gratuit comprend des recherches limitées ; Starter coûte 119 $ par siège et par mois, avec une facturation annuelle avec une réduction de 15 %.",
       "Il prend en charge les agents qui exécutent automatiquement des recherches."
     ],
@@ -27761,7 +27761,7 @@
     ],
     "tags_fr": [
       "sourcing",
-      "candidate-search",
+      "candidate recherche",
       "prospection",
       "agents"
     ]
@@ -27800,8 +27800,8 @@
       }
     ],
     "tags_fr": [
-      "search-engine",
-      "ad-free",
+      "recherche engine",
+      "publicité gratuit",
       "confidentialité",
       "assistant"
     ]
@@ -27840,7 +27840,7 @@
       }
     ],
     "tags_fr": [
-      "video-editor",
+      "vidéo éditeur",
       "subtitles",
       "repurposing",
       "collaboration"
@@ -27883,7 +27883,7 @@
     "tags_fr": [
       "tutoring",
       "teachers",
-      "khan-academy",
+      "khan academy",
       "math"
     ]
   },
@@ -27962,7 +27962,7 @@
     ],
     "tags_fr": [
       "ide",
-      "spec-driven",
+      "spec driven",
       "agents",
       "aws"
     ]
@@ -28001,7 +28001,7 @@
       }
     ],
     "tags_fr": [
-      "graphic-design",
+      "graphic design",
       "vector",
       "mockups",
       "merch"
@@ -28043,9 +28043,9 @@
     ],
     "tags_fr": [
       "flashcards",
-      "ap-exams",
-      "quizlet-alternative",
-      "lecture-notes"
+      "ap exams",
+      "quizlet alternative",
+      "lecture notes"
     ]
   },
   "lakera": {
@@ -28082,9 +28082,9 @@
       }
     ],
     "tags_fr": [
-      "llm-security",
-      "prompt-injection",
-      "red-teaming",
+      "LLM security",
+      "prompt injection",
+      "red teaming",
       "guardrails"
     ]
   },
@@ -28202,7 +28202,7 @@
       }
     ],
     "tags_fr": [
-      "visual-builder",
+      "visual constructeur",
       "open source",
       "mcp",
       "python"
@@ -28242,7 +28242,7 @@
       }
     ],
     "tags_fr": [
-      "legal-ai",
+      "juridique IA",
       "review",
       "drafting",
       "collaboration"
@@ -28284,9 +28284,9 @@
     ],
     "tags_fr": [
       "multichannel",
-      "cold-email",
+      "cold e-mail",
       "linkedin",
-      "lead-database"
+      "prospects database"
     ]
   },
   "lm-studio": {
@@ -28323,9 +28323,9 @@
       }
     ],
     "tags_fr": [
-      "local-llm",
+      "local LLM",
       "desktop",
-      "open-models",
+      "open modèles",
       "confidentialité"
     ]
   },
@@ -28364,9 +28364,9 @@
       }
     ],
     "tags_fr": [
-      "ai-video",
+      "IA vidéo",
       "storyboarding",
-      "open-weight",
+      "open weight",
       "filmmaking"
     ]
   },
@@ -28405,7 +28405,7 @@
     ],
     "tags_fr": [
       "contracts",
-      "contract-management",
+      "contract gestion",
       "negotiation",
       "enterprise"
     ]
@@ -28485,9 +28485,9 @@
     ],
     "tags_fr": [
       "teachers",
-      "lesson-planning",
+      "lesson planning",
       "schools",
-      "student-ai"
+      "student IA"
     ]
   },
   "make": {
@@ -28527,7 +28527,7 @@
     "tags_fr": [
       "automatisation",
       "intégrations",
-      "no-code",
+      "sans code",
       "agents IA"
     ]
   },
@@ -28605,9 +28605,9 @@
       }
     ],
     "tags_fr": [
-      "interview-notes",
+      "interview notes",
       "sourcing",
-      "recruiting-agents"
+      "recruiting agents"
     ]
   },
   "microsoft-365-copilot": {
@@ -28644,7 +28644,7 @@
       }
     ],
     "tags_fr": [
-      "microsoft-365",
+      "microsoft 365",
       "office",
       "copilot",
       "enterprise"
@@ -28685,7 +28685,7 @@
       }
     ],
     "tags_fr": [
-      "graphic-design",
+      "graphic design",
       "réseaux sociaux",
       "microsoft",
       "génération d'images"
@@ -28766,8 +28766,8 @@
       }
     ],
     "tags_fr": [
-      "stem-separation",
-      "vocal-removal",
+      "stem separation",
+      "vocal suppression",
       "practice",
       "mastering"
     ]
@@ -28806,7 +28806,7 @@
       }
     ],
     "tags_fr": [
-      "local-llm",
+      "local LLM",
       "multi-modèles",
       "espace de travail",
       "confidentialité"
@@ -28847,10 +28847,10 @@
       }
     ],
     "tags_fr": [
-      "royalty-free",
+      "royalty gratuit",
       "génération musicale",
       "api",
-      "content-creators"
+      "contenu creators"
     ]
   },
   "nabla": {
@@ -28888,7 +28888,7 @@
       }
     ],
     "tags_fr": [
-      "ambient-scribe",
+      "transcription ambiante",
       "dictée",
       "coding",
       "ehr"
@@ -28970,7 +28970,7 @@
     ],
     "tags_fr": [
       "storytelling",
-      "anime-art",
+      "anime art",
       "génération d'images",
       "fiction"
     ]
@@ -29009,9 +29009,9 @@
       }
     ],
     "tags_fr": [
-      "local-llm",
+      "local LLM",
       "cli",
-      "open-models",
+      "open modèles",
       "api"
     ]
   },
@@ -29049,7 +29049,7 @@
       }
     ],
     "tags_fr": [
-      "medical-search",
+      "medical recherche",
       "evidence",
       "clinicians"
     ]
@@ -29091,15 +29091,15 @@
       "agent de code",
       "open source",
       "sdk",
-      "self-hosted"
+      "auto hébergé"
     ]
   },
   "openrouter": {
     "summary_fr": "API unique et interface de chat pour plusieurs centaines de modèles de nombreux fournisseurs, facturés par token.",
-    "description_fr": "OpenRouter fournit une API unique qui achemine les requêtes vers plus de 500 modèles provenant de plus de 80 fournisseurs. Il gère le repli du fournisseur, affiche les prix par modèle et publie des classements et des références d'utilisation. Il n'y a pas d'abonnement : les utilisateurs achètent des crédits et paient par jeton aux tarifs des modèles indiqués. Un chat Web permet aux utilisateurs de comparer les modèles côte à côte. L'API suit le format de requête OpenAI, afin que les clients existants puissent changer avec peu de modifications.",
+    "description_fr": "OpenRouter fournit une API unique qui achemine les requêvos vers plus de 500 modèles provenant de plus de 80 fournisseurs. Il gère le repli du fournisseur, affiche les prix par modèle et publie des classements et des références d'utilisation. Il n'y a pas d'abonnement : les utilisateurs achètent des crédits et paient par jeton aux tarifs des modèles indiqués. Un chat Web permet aux utilisateurs de comparer les modèles côte à côte. L'API suit le format de requête OpenAI, afin que les clients existants puissent changer avec peu de modifications.",
     "features_fr": [
       "API unique et interface de chat pour plusieurs centaines de modèles de nombreux fournisseurs, facturés par token.",
-      "OpenRouter fournit une API unique qui achemine les requêtes vers plus de 500 modèles provenant de plus de 80 fournisseurs.",
+      "OpenRouter fournit une API unique qui achemine les requêvos vers plus de 500 modèles provenant de plus de 80 fournisseurs.",
       "Il gère le repli du fournisseur, affiche les prix par modèle et publie des classements et des références d'utilisation.",
       "Il n'y a pas d'abonnement : les utilisateurs achètent des crédits et paient par jeton aux tarifs des modèles indiqués."
     ],
@@ -29129,7 +29129,7 @@
     ],
     "tags_fr": [
       "api",
-      "model-router",
+      "modèle router",
       "multi-modèles",
       "LLM"
     ]
@@ -29168,8 +29168,8 @@
       }
     ],
     "tags_fr": [
-      "conversational-ats",
-      "high-volume-hiring",
+      "conversational ats",
+      "high volume hiring",
       "scheduling",
       "frontline"
     ]
@@ -29210,8 +29210,8 @@
     ],
     "tags_fr": [
       "math",
-      "camera-solver",
-      "step-by-step",
+      "camera solver",
+      "step by step",
       "app"
     ]
   },
@@ -29250,7 +29250,7 @@
     ],
     "tags_fr": [
       "chatbot",
-      "personal-assistant",
+      "personal assistant",
       "conversation",
       "inflection"
     ]
@@ -29290,9 +29290,9 @@
       }
     ],
     "tags_fr": [
-      "api-integrations",
+      "API intégrations",
       "developers",
-      "managed-auth",
+      "managed auth",
       "mcp"
     ]
   },
@@ -29333,7 +29333,7 @@
     "tags_fr": [
       "présentations",
       "collaboration",
-      "ai-slides",
+      "IA diapositives",
       "templates"
     ]
   },
@@ -29413,9 +29413,9 @@
     ],
     "tags_fr": [
       "présentations",
-      "google-slides",
+      "google diapositives",
       "powerpoint",
-      "add-on"
+      "add on"
     ]
   },
   "poe": {
@@ -29495,8 +29495,8 @@
     ],
     "tags_fr": [
       "dashboards",
-      "embedded-analytics",
-      "ai-insights"
+      "embedded analytics",
+      "IA insights"
     ]
   },
   "predis-ai": {
@@ -29535,8 +29535,8 @@
     ],
     "tags_fr": [
       "réseaux sociaux",
-      "ad-generator",
-      "video-ads",
+      "publicité generator",
+      "vidéo publicités",
       "ugc"
     ]
   },
@@ -29577,8 +29577,8 @@
     "tags_fr": [
       "aeo",
       "geo",
-      "ai-visibility",
-      "answer-engines"
+      "IA visibility",
+      "answer engines"
     ]
   },
   "quizlet": {
@@ -29615,7 +29615,7 @@
     ],
     "tags_fr": [
       "flashcards",
-      "study-tools",
+      "study outils",
       "students"
     ]
   },
@@ -29734,7 +29734,7 @@
       }
     ],
     "tags_fr": [
-      "read-it-later",
+      "read it later",
       "rss",
       "newsletters",
       "highlights"
@@ -29775,7 +29775,7 @@
     ],
     "tags_fr": [
       "agents IA",
-      "no-code",
+      "sans code",
       "ventes",
       "automatisation"
     ]
@@ -29814,7 +29814,7 @@
       }
     ],
     "tags_fr": [
-      "citation-maps",
+      "citation maps",
       "revue de littérature",
       "articles",
       "alerts"
@@ -29854,10 +29854,10 @@
       }
     ],
     "tags_fr": [
-      "voice-agents",
-      "phone-calls",
+      "voix agents",
+      "téléphone appels",
       "hipaa",
-      "no-code"
+      "sans code"
     ]
   },
   "retool": {
@@ -29895,8 +29895,8 @@
       }
     ],
     "tags_fr": [
-      "internal-tools",
-      "low-code",
+      "internal outils",
+      "low code",
       "databases",
       "agents IA"
     ]
@@ -29938,7 +29938,7 @@
     "tags_fr": [
       "texte vers image",
       "retouche d'image",
-      "prompt-adherence"
+      "prompt adherence"
     ]
   },
   "robin-ai": {
@@ -29976,8 +29976,8 @@
     ],
     "tags_fr": [
       "contracts",
-      "legal-intelligence",
-      "managed-services"
+      "juridique intelligence",
+      "managed services"
     ]
   },
   "rogo": {
@@ -30015,7 +30015,7 @@
     ],
     "tags_fr": [
       "finance",
-      "investment-banking",
+      "investment banking",
       "recherche",
       "agents"
     ]
@@ -30056,8 +30056,8 @@
     ],
     "tags_fr": [
       "agent de code",
-      "pull-requests",
-      "self-hosted",
+      "pull requests",
+      "auto hébergé",
       "open source"
     ]
   },
@@ -30098,7 +30098,7 @@
       "mobile",
       "ios",
       "android",
-      "app-store"
+      "application store"
     ]
   },
   "rows": {
@@ -30136,9 +30136,9 @@
     ],
     "tags_fr": [
       "spreadsheets",
-      "pdf-extraction",
+      "PDF extraction",
       "intégrations",
-      "ai-analyst"
+      "IA analyst"
     ]
   },
   "rytr": {
@@ -30175,9 +30175,9 @@
       }
     ],
     "tags_fr": [
-      "relationship-manager",
-      "meeting-prep",
-      "follow-ups",
+      "relationship manager",
+      "réunion préparation",
+      "follow ups",
       "écriture"
     ]
   },
@@ -30217,7 +30217,7 @@
     ],
     "tags_fr": [
       "citations",
-      "academic-search",
+      "académique recherche",
       "zotero",
       "api"
     ]
@@ -30256,9 +30256,9 @@
       }
     ],
     "tags_fr": [
-      "academic-search",
+      "académique recherche",
       "articles",
-      "open-data",
+      "open données",
       "api"
     ]
   },
@@ -30377,7 +30377,7 @@
       }
     ],
     "tags_fr": [
-      "customer-experience",
+      "client experience",
       "agents IA",
       "voix",
       "enterprise"
@@ -30418,7 +30418,7 @@
       }
     ],
     "tags_fr": [
-      "browser-automation",
+      "navigateur automatisation",
       "rpa",
       "open source",
       "forms"
@@ -30426,10 +30426,10 @@
   },
   "smartlead": {
     "summary_fr": "Plateforme de courrier électronique froid avec boîtes aux lettres illimitées, échauffement de l'IA, infrastructure de recherche de leads et de délivrabilité.",
-    "description_fr": "Smartlead envoie des e-mails froids à grande échelle sur un nombre illimité de boîtes aux lettres avec un échauffement de l'IA, et ajoute SmartProspect pour les prospects vérifiés, les agents IA, les serveurs d'envoi dédiés et un numéroteur IA. Il est utilisé par les agences et les équipes outbound. Un essai gratuit est offert ; les prix des forfaits étaient en partie lisibles sur la page de tarification. La société publie des études de cas et des outils gratuits pour l'authentification et la délivrabilité des e-mails. Son site proposait 50% de réduction le premier mois lors de ce contrôle.",
+    "description_fr": "Smartlead envoie des e-mails froids à grande échelle sur un nombre illimité de boîvos aux lettres avec un échauffement de l'IA, et ajoute SmartProspect pour les prospects vérifiés, les agents IA, les serveurs d'envoi dédiés et un numéroteur IA. Il est utilisé par les agences et les équipes outbound. Un essai gratuit est offert ; les prix des forfaits étaient en partie lisibles sur la page de tarification. La société publie des études de cas et des outils gratuits pour l'authentification et la délivrabilité des e-mails. Son site proposait 50% de réduction le premier mois lors de ce contrôle.",
     "features_fr": [
-      "Plateforme de courrier électronique froid avec boîtes aux lettres illimitées, échauffement de l'IA, infrastructure de recherche de leads et de délivrabilité.",
-      "Smartlead envoie des e-mails froids à grande échelle sur un nombre illimité de boîtes aux lettres avec un échauffement de l'IA, et ajoute SmartProspect pour les prospects vérifiés, les agents IA, les serveurs d'envoi dédiés et un numéroteur IA.",
+      "Plateforme de courrier électronique froid avec boîvos aux lettres illimitées, échauffement de l'IA, infrastructure de recherche de leads et de délivrabilité.",
+      "Smartlead envoie des e-mails froids à grande échelle sur un nombre illimité de boîvos aux lettres avec un échauffement de l'IA, et ajoute SmartProspect pour les prospects vérifiés, les agents IA, les serveurs d'envoi dédiés et un numéroteur IA.",
       "Il est utilisé par les agences et les équipes outbound.",
       "Un essai gratuit est offert ; les prix des forfaits étaient en partie lisibles sur la page de tarification."
     ],
@@ -30458,7 +30458,7 @@
       }
     ],
     "tags_fr": [
-      "cold-email",
+      "cold e-mail",
       "mailboxes",
       "warmup",
       "agency"
@@ -30499,7 +30499,7 @@
       }
     ],
     "tags_fr": [
-      "supply-chain",
+      "supply chain",
       "npm",
       "pypi",
       "dependencies"
@@ -30539,9 +30539,9 @@
       }
     ],
     "tags_fr": [
-      "no-code",
+      "sans code",
       "portals",
-      "internal-tools",
+      "internal outils",
       "databases"
     ]
   },
@@ -30580,7 +30580,7 @@
       }
     ],
     "tags_fr": [
-      "royalty-free",
+      "royalty gratuit",
       "génération musicale",
       "brands",
       "licensing"
@@ -30620,10 +30620,10 @@
       }
     ],
     "tags_fr": [
-      "language-learning",
-      "speaking-practice",
+      "langue apprentissage",
+      "speaking practice",
       "conversation",
-      "ai-tutor"
+      "IA tutor"
     ]
   },
   "spellbook": {
@@ -30661,7 +30661,7 @@
     ],
     "tags_fr": [
       "contracts",
-      "word-add-in",
+      "word add in",
       "redlining",
       "playbooks"
     ]
@@ -30701,9 +30701,9 @@
     ],
     "tags_fr": [
       "génération musicale",
-      "sound-effects",
-      "commercial-license",
-      "stability-ai"
+      "sound effets",
+      "commercial license",
+      "stability IA"
     ]
   },
   "submagic": {
@@ -30741,9 +30741,9 @@
       }
     ],
     "tags_fr": [
-      "sous-titres",
-      "short-form",
-      "b-roll",
+      "sous titres",
+      "short form",
+      "b roll",
       "api"
     ]
   },
@@ -30781,7 +30781,7 @@
       }
     ],
     "tags_fr": [
-      "daily-planner",
+      "daily planner",
       "tasks",
       "calendar",
       "focus"
@@ -30864,7 +30864,7 @@
     ],
     "tags_fr": [
       "email",
-      "ai-assistant",
+      "IA assistant",
       "grammarly",
       "docs"
     ]
@@ -30945,9 +30945,9 @@
     ],
     "tags_fr": [
       "meetings",
-      "video-calls",
+      "vidéo appels",
       "agents",
-      "action-items"
+      "action items"
     ]
   },
   "taplio": {
@@ -30985,7 +30985,7 @@
     ],
     "tags_fr": [
       "linkedin",
-      "personal-branding",
+      "personal branding",
       "scheduling",
       "génération de prospects"
     ]
@@ -31024,7 +31024,7 @@
       }
     ],
     "tags_fr": [
-      "search-api",
+      "recherche API",
       "extraction",
       "crawl",
       "agents"
@@ -31065,7 +31065,7 @@
     ],
     "tags_fr": [
       "agent de code",
-      "pull-requests",
+      "pull requests",
       "product",
       "feedback"
     ]
@@ -31103,8 +31103,8 @@
       }
     ],
     "tags_fr": [
-      "model-hub",
-      "stable-diffusion",
+      "modèle hub",
+      "stable diffusion",
       "lora",
       "community"
     ]
@@ -31143,9 +31143,9 @@
       }
     ],
     "tags_fr": [
-      "job-posts",
-      "performance-reviews",
-      "inclusive-language",
+      "job posts",
+      "performance reviews",
+      "inclusive langue",
       "feedback"
     ]
   },
@@ -31186,7 +31186,7 @@
     "tags_fr": [
       "notes de réunion",
       "zoom",
-      "google-meet",
+      "google meet",
       "teams",
       "crm"
     ]
@@ -31228,7 +31228,7 @@
     "tags_fr": [
       "agrandissement",
       "denoise",
-      "photo-enhancement",
+      "photo enhancement",
       "desktop"
     ]
   },
@@ -31385,7 +31385,7 @@
       }
     ],
     "tags_fr": [
-      "social-scheduler",
+      "social scheduler",
       "x",
       "linkedin",
       "threads"
@@ -31426,10 +31426,10 @@
       }
     ],
     "tags_fr": [
-      "chat-frontend",
+      "chat frontend",
       "byok",
       "multi-modèles",
-      "one-time-license"
+      "one temps license"
     ]
   },
   "undermind": {
@@ -31465,9 +31465,9 @@
       }
     ],
     "tags_fr": [
-      "deep-research",
+      "deep recherche",
       "articles",
-      "full-text",
+      "full texte",
       "agents"
     ]
   },
@@ -31505,7 +31505,7 @@
       }
     ],
     "tags_fr": [
-      "voice-agents",
+      "voix agents",
       "telephony",
       "api",
       "developers"
@@ -31547,7 +31547,7 @@
     "tags_fr": [
       "texte vers vidéo",
       "image vers vidéo",
-      "reference-to-video",
+      "reference vers vidéo",
       "api"
     ]
   },
@@ -31585,7 +31585,7 @@
       }
     ],
     "tags_fr": [
-      "motion-transfer",
+      "motion transfer",
       "memes",
       "3d",
       "api"
@@ -31626,8 +31626,8 @@
       }
     ],
     "tags_fr": [
-      "industrial-design",
-      "sketch-to-render",
+      "industrial design",
+      "sketch vers render",
       "3d",
       "footwear"
     ]
@@ -31667,7 +31667,7 @@
       }
     ],
     "tags_fr": [
-      "agent-builder",
+      "agent constructeur",
       "voix",
       "chat",
       "cx"
@@ -31709,7 +31709,7 @@
     ],
     "tags_fr": [
       "cloud",
-      "data-science",
+      "données science",
       "collaboration"
     ]
   },
@@ -31748,7 +31748,7 @@
       }
     ],
     "tags_fr": [
-      "website-builder",
+      "website constructeur",
       "cms",
       "hosting",
       "seo"
@@ -31788,9 +31788,9 @@
       }
     ],
     "tags_fr": [
-      "search-api",
-      "web-search",
-      "llm-grounding",
+      "recherche API",
+      "web recherche",
+      "LLM grounding",
       "api"
     ]
   },
@@ -31832,7 +31832,7 @@
       "chatbot",
       "glm",
       "coding",
-      "open-weight"
+      "open weight"
     ]
   },
   "zed": {
