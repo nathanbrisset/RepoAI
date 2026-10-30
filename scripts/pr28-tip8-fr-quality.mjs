@@ -157,9 +157,24 @@ function buildHowToUseFr(tool, frEntry) {
   ]
 }
 
+const TON_TONALITE = "\uE000TON_TONALITE\uE001"
+
+function protectTonaliteTon(text) {
+  return text
+    .replace(/\ble ton\b/gi, `le ${TON_TONALITE}`)
+    .replace(/\bdu ton\b/gi, `du ${TON_TONALITE}`)
+    .replace(/\bau ton\b/gi, `au ${TON_TONALITE}`)
+    .replace(/\bPersonnalisation du ton\b/gi, `Personnalisation du ${TON_TONALITE}`)
+}
+
+function restoreTonaliteTon(text) {
+  return text.replaceAll(TON_TONALITE, "ton")
+}
+
 function vousify(text) {
   if (!text || typeof text !== "string") return text
-  return text
+  let s = protectTonaliteTon(text)
+  s = s
     .replace(/\bconsulte\b/gi, "consultez")
     .replace(/\bvérifie\b/gi, "vérifiez")
     .replace(/\bRends-toi\b/g, "Rendez-vous")
@@ -180,6 +195,7 @@ function vousify(text) {
     .replace(/\btu veux\b/gi, "vous avez besoin")
     .replace(/\bton\b/g, "votre")
     .replace(/\btes\b/g, "vos")
+  return restoreTonaliteTon(s)
 }
 
 function pricingNoteFrForTool(tool) {

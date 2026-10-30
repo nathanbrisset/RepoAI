@@ -79,9 +79,24 @@ function writeJson(file, value) {
   fs.writeFileSync(file, `${JSON.stringify(value, null, 2)}\n`)
 }
 
+const TON_TONALITE = "\uE000TON_TONALITE\uE001"
+
+function protectTonaliteTon(text) {
+  return text
+    .replace(/\ble ton\b/gi, `le ${TON_TONALITE}`)
+    .replace(/\bdu ton\b/gi, `du ${TON_TONALITE}`)
+    .replace(/\bau ton\b/gi, `au ${TON_TONALITE}`)
+    .replace(/\bPersonnalisation du ton\b/gi, `Personnalisation du ${TON_TONALITE}`)
+}
+
+function restoreTonaliteTon(text) {
+  return text.replaceAll(TON_TONALITE, "ton")
+}
+
 function vousifyText(text) {
   if (!text || typeof text !== "string") return text
-  return text
+  let s = protectTonaliteTon(text)
+  s = s
     .replace(/\bton plan\b/gi, "votre plan")
     .replace(/\bta région\b/gi, "votre région")
     .replace(/\bconsulte\b/gi, "consultez")
@@ -114,6 +129,7 @@ function vousifyText(text) {
     .replace(/\bta\b/g, "votre")
     .replace(/\btes\b/g, "vos")
     .replace(/\btoi\b/g, "vous")
+  return restoreTonaliteTon(s)
 }
 
 function vousifySteps(steps) {
