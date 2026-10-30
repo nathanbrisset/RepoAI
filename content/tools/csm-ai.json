@@ -1,7 +1,7 @@
 {
   "id": "csm-ai",
   "name": "CSM",
-  "url": "https://www.csm.ai",
+  "url": "https://csm.ai",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Generates 3D models from images or text.",
@@ -19,12 +19,12 @@
   "pricing": {
     "verified": false,
     "note": "Freemium",
-    "sourceUrl": "https://www.csm.ai",
+    "sourceUrl": "https://csm.ai",
     "model": "freemium",
     "label": "Freemium"
   },
   "logo": "/logos/csm-ai.png",
-  "image": "",
+  "image": "/screenshots/csm-ai.webp",
   "dateAdded": "2026-10-30",
   "lastVerified": "2026-10-30",
   "features": [
@@ -46,7 +46,7 @@
       "links": [
         {
           "label": "CSM",
-          "url": "https://www.csm.ai"
+          "url": "https://csm.ai"
         }
       ]
     },
