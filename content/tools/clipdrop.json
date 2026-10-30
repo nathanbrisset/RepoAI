@@ -1,0 +1,68 @@
+{
+  "id": "clipdrop",
+  "name": "Clipdrop",
+  "url": "https://clipdrop.co",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI image toolkit: background removal, cleanup, upscaling (France).",
+  "description": "Clipdrop bundles simple tools to remove backgrounds, erase objects, upscale, relight or generate images. Launched by a French startup, it was later acquired by Jasper.",
+  "summary_fr": "Suite d'outils d'image IA : détourage, nettoyage, agrandissement (France).",
+  "description_fr": "Clipdrop réunit des outils simples pour retirer un arrière-plan, effacer des objets, agrandir, rééclairer ou générer des images. Lancé par une startup française, il a ensuite été repris par Jasper.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "ai",
+    "image",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://clipdrop.co",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/clipdrop.png",
+  "image": "/screenshots/clipdrop.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Background removal",
+    "Object erasing",
+    "Upscaling and relighting",
+    "Developer API"
+  ],
+  "features_fr": [
+    "Suppression d'arrière-plan",
+    "Effacement d'objets",
+    "Agrandissement et relighting",
+    "API pour développeurs"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Clipdrop",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Clipdrop",
+          "url": "https://clipdrop.co"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "tooljet",
+  "name": "ToolJet",
+  "url": "https://www.tooljet.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-powered internal app builder, open source.",
+  "description": "ToolJet generates business apps from a description, then lets you edit them visually and connect them to 80+ data sources. It comes in open-source and enterprise editions.",
+  "summary_fr": "Création d'applications internes avec IA, open source.",
+  "description_fr": "ToolJet génère des applications métier à partir d'une description, puis permet de les modifier visuellement et de les connecter à plus de 80 sources de données. Il existe en version open source et entreprise.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "ai",
+    "no",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://www.tooljet.com",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/tooljet.png",
+  "image": "/screenshots/tooljet.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "AI-generated apps",
+    "Visual editor",
+    "80+ data sources",
+    "Open source and self-hostable"
+  ],
+  "features_fr": [
+    "Applications générées par IA",
+    "Éditeur visuel",
+    "Plus de 80 sources de données",
+    "Open source et auto-hébergeable"
+  ],
+  "howToUse": [
+    {
+      "title": "Open ToolJet",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "ToolJet",
+          "url": "https://www.tooljet.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

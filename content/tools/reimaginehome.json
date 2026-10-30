@@ -1,0 +1,68 @@
+{
+  "id": "reimaginehome",
+  "name": "REimagineHome",
+  "url": "https://www.reimaginehome.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Redesigns a room from a photo with AI.",
+  "description": "REimagineHome transforms a photo of a room or exterior into the chosen style, and can empty or virtually stage it. It serves homeowners, decorators and real estate agents.",
+  "summary_fr": "Redécore une pièce à partir d'une photo grâce à l'IA.",
+  "description_fr": "REimagineHome transforme la photo d'une pièce ou d'un extérieur selon le style choisi, peut la vider ou la meubler virtuellement. Il sert aux particuliers, décorateurs et agents immobiliers.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.reimaginehome.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/reimaginehome.png",
+  "image": "/screenshots/reimaginehome.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Restyling by chosen style",
+    "Virtual staging",
+    "Room decluttering",
+    "Exteriors and gardens"
+  ],
+  "features_fr": [
+    "Redécoration selon un style",
+    "Home staging virtuel",
+    "Désencombrement de pièce",
+    "Extérieurs et jardins"
+  ],
+  "howToUse": [
+    {
+      "title": "Open REimagineHome",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "REimagineHome",
+          "url": "https://www.reimaginehome.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

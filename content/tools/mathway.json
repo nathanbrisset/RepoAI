@@ -1,0 +1,68 @@
+{
+  "id": "mathway",
+  "name": "Mathway",
+  "url": "https://www.mathway.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Solves math problems from algebra to calculus.",
+  "description": "Mathway solves equations and exercises in algebra, trigonometry, calculus, statistics or chemistry, from typed input or a photo. Detailed steps are available in the paid plan.",
+  "summary_fr": "Résout des problèmes de maths, de l'algèbre au calcul.",
+  "description_fr": "Mathway résout équations et exercices en algèbre, trigonométrie, calcul, statistiques ou chimie, à partir d'une saisie ou d'une photo. Les étapes détaillées sont disponibles dans l'offre payante.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "ai",
+    "education",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.mathway.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/mathway.png",
+  "image": "/screenshots/mathway.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Solve by typing or photo",
+    "Algebra, calculus and statistics",
+    "Detailed steps",
+    "Function graphing"
+  ],
+  "features_fr": [
+    "Résolution par saisie ou photo",
+    "Algèbre, calcul et statistiques",
+    "Étapes détaillées",
+    "Graphiques de fonctions"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Mathway",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Mathway",
+          "url": "https://www.mathway.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

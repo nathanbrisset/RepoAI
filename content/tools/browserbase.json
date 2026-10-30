@@ -1,0 +1,67 @@
+{
+  "id": "browserbase",
+  "name": "Browserbase",
+  "url": "https://www.browserbase.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Headless browser infrastructure for AI agents.",
+  "description": "Browserbase runs cloud browsers at scale for agents and automation scripts, with session management, recording and anti-blocking. Stagehand, its open-source framework, drives the browser in plain language.",
+  "summary_fr": "Infrastructure de navigateurs headless pour agents IA.",
+  "description_fr": "Browserbase fait tourner à grande échelle des navigateurs dans le cloud pour les agents et scripts d'automatisation, avec gestion des sessions, enregistrement et contournement des blocages. Stagehand, son framework open source, pilote le navigateur en langage naturel.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Usage-based",
+    "sourceUrl": "https://www.browserbase.com",
+    "model": "usage-based",
+    "label": "Usage-based"
+  },
+  "logo": "/logos/browserbase.png",
+  "image": "/screenshots/browserbase.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Cloud browsers at scale",
+    "Session recording",
+    "Stagehand: plain-language control",
+    "Developer API"
+  ],
+  "features_fr": [
+    "Navigateurs cloud à grande échelle",
+    "Enregistrement des sessions",
+    "Stagehand : pilotage en langage naturel",
+    "API pour développeurs"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Browserbase",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Browserbase",
+          "url": "https://www.browserbase.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

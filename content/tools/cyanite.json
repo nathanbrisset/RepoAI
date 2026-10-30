@@ -1,0 +1,68 @@
+{
+  "id": "cyanite",
+  "name": "Cyanite",
+  "url": "https://cyanite.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI tagging and search for music catalogs.",
+  "description": "Cyanite automatically analyzes tracks to extract genre, mood, tempo or instruments, and enables similarity or text-based search. Labels, publishers and sync platforms use it to work their catalogs.",
+  "summary_fr": "Tagging et recherche IA pour les catalogues musicaux.",
+  "description_fr": "Cyanite analyse automatiquement des morceaux pour en extraire genre, ambiance, tempo ou instruments, et permet de chercher par similarité ou par description. Labels, éditeurs et plateformes de synchro l'utilisent pour exploiter leurs catalogues.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "ai",
+    "music",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://cyanite.ai",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/cyanite.png",
+  "image": "/screenshots/cyanite.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Automatic track tagging",
+    "Similarity search",
+    "Search by description",
+    "API for music platforms"
+  ],
+  "features_fr": [
+    "Tagging automatique des morceaux",
+    "Recherche par similarité",
+    "Recherche par description",
+    "API pour plateformes musicales"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Cyanite",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Cyanite",
+          "url": "https://cyanite.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "DE",
+  "hqCountrySource": "import"
+}

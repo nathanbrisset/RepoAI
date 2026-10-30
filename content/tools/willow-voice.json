@@ -1,0 +1,68 @@
+{
+  "id": "willow-voice",
+  "name": "Willow Voice",
+  "url": "https://willowvoice.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Fast AI voice dictation in all your apps.",
+  "description": "Willow turns speech into clean, well-punctuated text in any app, adapting style to context such as email, chat or documents. It learns your vocabulary over time.",
+  "summary_fr": "Dictée vocale IA rapide, dans toutes tes applications.",
+  "description_fr": "Willow transforme la voix en texte propre et bien ponctué dans n'importe quelle application, en adaptant le style au contexte (email, chat, document). Il apprend ton vocabulaire au fil de l'usage.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "ai",
+    "voice",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://willowvoice.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/willow-voice.png",
+  "image": "/screenshots/willow-voice.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Dictation in any app",
+    "Automatic punctuation and formatting",
+    "Context-aware style",
+    "Learns your vocabulary"
+  ],
+  "features_fr": [
+    "Dictée dans toutes les applications",
+    "Ponctuation et mise en forme automatiques",
+    "Style adapté au contexte",
+    "Apprentissage du vocabulaire"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Willow Voice",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Willow Voice",
+          "url": "https://willowvoice.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

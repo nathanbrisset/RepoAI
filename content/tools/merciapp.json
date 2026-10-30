@@ -1,0 +1,68 @@
+{
+  "id": "merciapp",
+  "name": "MerciApp",
+  "url": "https://www.merci-app.com/en/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "French AI writing assistant across all your tools.",
+  "description": "MerciApp corrects and improves French texts in the browser, Gmail, Outlook and social media. It rephrases, adjusts tone and suggests clearer wording. The company is French.",
+  "summary_fr": "Assistant d'écriture IA en français, dans tous tes outils.",
+  "description_fr": "MerciApp corrige et améliore les textes en français dans le navigateur, Gmail, Outlook ou les réseaux sociaux. Il reformule, ajuste le ton et propose des formulations plus claires. L'éditeur est français.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "ai",
+    "writing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.merci-app.com/en/",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/merciapp.png",
+  "image": "/screenshots/merciapp.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "French text correction",
+    "Rephrasing and tone",
+    "Works in Gmail, Outlook and the browser",
+    "French company"
+  ],
+  "features_fr": [
+    "Correction des textes en français",
+    "Reformulation et ton",
+    "Fonctionne dans Gmail, Outlook et le navigateur",
+    "Éditeur français"
+  ],
+  "howToUse": [
+    {
+      "title": "Open MerciApp",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "MerciApp",
+          "url": "https://www.merciapp.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import"
+}

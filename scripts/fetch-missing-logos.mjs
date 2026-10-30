@@ -113,6 +113,7 @@ async function fetchForTool(tool) {
   const host = hostOf(tool.url)
   if (!host) return { ok: false, error: "no url" }
   const attempts = [
+    `https://logo.clearbit.com/${host}`,
     `https://www.google.com/s2/favicons?domain=${encodeURIComponent(host)}&sz=128`,
     `https://${host}/favicon.ico`,
     `https://${host}/apple-touch-icon.png`,

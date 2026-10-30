@@ -1,0 +1,70 @@
+{
+  "id": "alexlegal",
+  "name": "Alex AI (Legálitas)",
+  "url": "https://alexlegal.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Free AI legal advisor for Spanish law, backed by Legálitas lawyers.",
+  "description": "Alex AI is a free online legal assistant from Legálitas Innovation. You ask questions in chat (or voice when enabled) and get answers in plain language within seconds, grounded in current Spanish legislation and patterns from real legal cases. It covers labor, housing, family, contracts and consumer topics. Answers are reviewed against Legálitas expertise; you can also request contact with a licensed lawyer for next steps. Alex is not a substitute for a lawyer in court or for binding advice, but it helps you understand your rights before you escalate.",
+  "summary_fr": "Conseiller juridique en ligne gratuit avec IA, pour le droit espagnol.",
+  "description_fr": "Alex AI est un assistant juridique en ligne gratuit proposé par Legálitas Innovation. Tu poses ta question par chat (ou à la voix quand c'est disponible) et tu obtiens une réponse claire en quelques secondes, fondée sur la législation espagnole en vigueur et sur l'expérience de cas réels. Il couvre le travail, le logement, la famille, les contrats et la consommation. Les réponses s'appuient sur l'expertise Legálitas ; tu peux aussi demander à être mis en relation avec un avocat pour la suite. Alex ne remplace pas un avocat devant un tribunal, mais il t'aide à comprendre tes droits avant d'aller plus loin.",
+  "categories": [
+    "legal"
+  ],
+  "tags": [
+    "ai",
+    "legal",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Free",
+    "sourceUrl": "https://alexlegal.ai",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/alexlegal.png",
+  "image": "/screenshots/alexlegal.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Free legal Q&A in chat and voice, 24/7",
+    "Answers tailored to Spanish law and Legálitas playbooks",
+    "Labor, housing, family, contracts and consumer topics",
+    "Optional handoff to licensed lawyers",
+    "Mobile apps on iOS and Android"
+  ],
+  "features_fr": [
+    "Questions juridiques gratuites par chat et voix, 24 h/24",
+    "Réponses adaptées au droit espagnol et aux guides Legálitas",
+    "Travail, logement, famille, contrats et consommation",
+    "Mise en relation optionnelle avec des avocats",
+    "Applications mobiles iOS et Android"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Alex AI",
+      "description": "Go to alexlegal.ai or install the Alex app from the App Store or Google Play.",
+      "links": [
+        {
+          "label": "Alex AI",
+          "url": "https://alexlegal.ai"
+        }
+      ]
+    },
+    {
+      "title": "Describe your situation",
+      "description": "Type or speak your legal question in everyday language. Pick a topic such as work, rent or family if the site prompts you."
+    },
+    {
+      "title": "Read the AI answer",
+      "description": "Review the response, which cites Spanish rules in clear wording. Save or copy it if you need a record."
+    },
+    {
+      "title": "Escalate if needed",
+      "description": "Use the in-product option to reach a Legálitas lawyer when you need validation or formal representation."
+    }
+  ],
+  "hqCountry": "ES",
+  "hqCountrySource": "import"
+}

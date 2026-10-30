@@ -1,0 +1,68 @@
+{
+  "id": "help-scout",
+  "name": "Help Scout",
+  "url": "https://www.helpscout.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Email and chat customer support with AI answers.",
+  "description": "Help Scout combines a shared support inbox, live chat, knowledge base and AI answers grounded in your docs. It summarizes conversations and helps draft replies.",
+  "summary_fr": "Service client par email et chat, avec réponses IA.",
+  "description_fr": "Help Scout réunit boîte de support partagée, chat, base de connaissances et réponses IA qui s'appuient sur ta documentation. Il résume les conversations et aide à rédiger des réponses.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "ai",
+    "support",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.helpscout.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/help-scout.png",
+  "image": "/screenshots/help-scout.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Shared support inbox",
+    "AI answers from your docs",
+    "Conversation summaries",
+    "Knowledge base"
+  ],
+  "features_fr": [
+    "Boîte de support partagée",
+    "Réponses IA basées sur la documentation",
+    "Résumé des conversations",
+    "Base de connaissances"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Help Scout",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Help Scout",
+          "url": "https://www.helpscout.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

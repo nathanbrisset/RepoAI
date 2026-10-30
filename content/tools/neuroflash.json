@@ -1,0 +1,68 @@
+{
+  "id": "neuroflash",
+  "name": "neuroflash",
+  "url": "https://neuroflash.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI marketing copy in European languages (Germany).",
+  "description": "neuroflash generates marketing copy, posts and articles in your brand voice, with a focus on European languages including German and French. It also offers image generation and copy impact analysis.",
+  "summary_fr": "Rédaction marketing IA en langues européennes (Allemagne).",
+  "description_fr": "neuroflash génère textes marketing, posts et articles dans le ton de la marque, avec une attention particulière aux langues européennes dont l'allemand et le français. Il propose aussi la génération d'images et une analyse de l'impact des textes.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "ai",
+    "writing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://neuroflash.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/neuroflash.png",
+  "image": "/screenshots/neuroflash.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Brand-voice marketing copy",
+    "European languages",
+    "Image generation",
+    "Copy impact analysis"
+  ],
+  "features_fr": [
+    "Textes marketing dans le ton de la marque",
+    "Langues européennes",
+    "Génération d'images",
+    "Analyse de l'impact des textes"
+  ],
+  "howToUse": [
+    {
+      "title": "Open neuroflash",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "neuroflash",
+          "url": "https://neuroflash.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "DE",
+  "hqCountrySource": "import"
+}

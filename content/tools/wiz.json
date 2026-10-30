@@ -1,0 +1,68 @@
+{
+  "id": "wiz",
+  "name": "Wiz",
+  "url": "https://www.wiz.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Security for cloud, applications and AI systems.",
+  "description": "Wiz maps cloud environments to detect vulnerabilities, misconfigurations and risks, including those tied to AI models and pipelines. The company was acquired by Google.",
+  "summary_fr": "Sécurité du cloud, des applications et des systèmes d'IA.",
+  "description_fr": "Wiz cartographie les environnements cloud pour détecter vulnérabilités, mauvaises configurations et risques, y compris ceux liés aux modèles et pipelines d'IA. La société a été rachetée par Google.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "ai",
+    "security",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://www.wiz.io",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/wiz.png",
+  "image": "/screenshots/wiz.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Cloud risk mapping",
+    "Vulnerability detection",
+    "AI system security",
+    "Agentless"
+  ],
+  "features_fr": [
+    "Cartographie des risques cloud",
+    "Détection des vulnérabilités",
+    "Sécurité des systèmes d'IA",
+    "Sans agent à installer"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Wiz",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Wiz",
+          "url": "https://www.wiz.io"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

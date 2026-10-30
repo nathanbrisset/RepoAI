@@ -1,0 +1,68 @@
+{
+  "id": "rossum",
+  "name": "Rossum",
+  "url": "https://rossum.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Intelligent document processing for invoices and orders.",
+  "description": "Rossum automatically extracts data from invoices, purchase orders and logistics documents, validates it and sends it to the ERP. It learns from corrections to reduce manual entry.",
+  "summary_fr": "Traitement intelligent des documents (factures, bons de commande).",
+  "description_fr": "Rossum extrait automatiquement les données des factures, bons de commande et documents logistiques, valide les informations et les envoie dans l'ERP. Il apprend des corrections pour réduire la saisie manuelle.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://rossum.ai",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/rossum.png",
+  "image": "/screenshots/rossum.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Document data extraction",
+    "Automatic validation",
+    "ERP integration",
+    "Learns from corrections"
+  ],
+  "features_fr": [
+    "Extraction de données de documents",
+    "Validation automatique",
+    "Intégration ERP",
+    "Apprentissage à partir des corrections"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Rossum",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Rossum",
+          "url": "https://rossum.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CZ",
+  "hqCountrySource": "import"
+}

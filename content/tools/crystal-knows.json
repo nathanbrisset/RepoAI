@@ -1,0 +1,68 @@
+{
+  "id": "crystal-knows",
+  "name": "Crystal",
+  "url": "https://www.crystalknows.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Communication tips tailored to each contact's personality.",
+  "description": "Crystal estimates a contact's DISC personality profile from their public profile and suggests how to write to, persuade or work with them. It's used in sales, recruiting and management.",
+  "summary_fr": "Conseils de communication adaptés à la personnalité de chaque contact.",
+  "description_fr": "Crystal estime le profil de personnalité DISC d'un interlocuteur à partir de son profil public et suggère comment lui écrire, le convaincre ou travailler avec lui. Il sert en vente, recrutement et management.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "ai",
+    "sales",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.crystalknows.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/crystal-knows.png",
+  "image": "/screenshots/crystal-knows.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "DISC personality profile",
+    "Writing tips",
+    "LinkedIn and Gmail extension",
+    "Sales and team use"
+  ],
+  "features_fr": [
+    "Profil de personnalité DISC",
+    "Conseils de rédaction",
+    "Extension LinkedIn et Gmail",
+    "Usage en vente et en équipe"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Crystal",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Crystal",
+          "url": "https://www.crystalknows.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

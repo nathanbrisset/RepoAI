@@ -1,0 +1,68 @@
+{
+  "id": "kira",
+  "name": "Kira",
+  "url": "https://kirasystems.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI contract analysis for law firms and legal teams.",
+  "description": "Kira extracts clauses and key information from large contract volumes, useful for M&A due diligence, compliance and contract management. It's part of Litera.",
+  "summary_fr": "Analyse IA de contrats pour les cabinets et directions juridiques.",
+  "description_fr": "Kira extrait clauses et informations clés de grands volumes de contrats, utile pour les audits d'acquisition, la conformité et la gestion contractuelle. Il fait partie de Litera.",
+  "categories": [
+    "legal"
+  ],
+  "tags": [
+    "ai",
+    "legal",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://kirasystems.com",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/kira.png",
+  "image": "/screenshots/kira.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Clause extraction",
+    "High-volume contract review",
+    "M&A due diligence",
+    "Customizable models"
+  ],
+  "features_fr": [
+    "Extraction de clauses",
+    "Revue de grands volumes de contrats",
+    "Audits d'acquisition",
+    "Modèles personnalisables"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kira",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Kira",
+          "url": "https://kirasystems.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CA",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "monarch-money",
+  "name": "Monarch Money",
+  "url": "https://www.monarchmoney.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Personal budgeting app with an AI assistant.",
+  "description": "Monarch brings accounts, cards and investments together to track spending, budget and net worth, alone or as a couple. Its AI assistant answers questions about your finances and spots trends.",
+  "summary_fr": "Application de budget personnel avec assistant IA.",
+  "description_fr": "Monarch regroupe comptes, cartes et placements pour suivre dépenses, budget et patrimoine, seul ou en couple. Son assistant IA répond aux questions sur tes finances et repère des tendances.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "ai",
+    "finance",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.monarchmoney.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/monarch-money.png",
+  "image": "/screenshots/monarch-money.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "All accounts together",
+    "Budgeting and spending tracking",
+    "AI assistant for your finances",
+    "Shared with a partner"
+  ],
+  "features_fr": [
+    "Tous les comptes réunis",
+    "Budget et suivi des dépenses",
+    "Assistant IA sur tes finances",
+    "Partage en couple"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Monarch Money",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Monarch Money",
+          "url": "https://www.monarchmoney.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ginger",
+  "name": "Ginger",
+  "url": "https://www.gingersoftware.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Grammar checker and rephraser for English writing.",
+  "description": "Ginger corrects English grammar and spelling, rephrases sentences and translates into many languages. It's useful for non-native speakers writing in English every day.",
+  "summary_fr": "Correcteur et reformulateur pour écrire en anglais.",
+  "description_fr": "Ginger corrige grammaire et orthographe en anglais, reformule des phrases et traduit dans de nombreuses langues. Il est utile aux non-anglophones qui rédigent en anglais au quotidien.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "ai",
+    "writing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.gingersoftware.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/ginger.png",
+  "image": "/screenshots/ginger.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "English grammar correction",
+    "Sentence rephrasing",
+    "Translation",
+    "Browser and mobile extensions"
+  ],
+  "features_fr": [
+    "Correction grammaticale en anglais",
+    "Reformulation de phrases",
+    "Traduction",
+    "Extensions navigateur et mobile"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Ginger",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Ginger",
+          "url": "https://www.gingersoftware.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "IL",
+  "hqCountrySource": "import"
+}

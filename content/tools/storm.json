@@ -1,0 +1,68 @@
+{
+  "id": "storm",
+  "name": "STORM (Stanford)",
+  "url": "https://storm.genie.stanford.edu",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Writes Wikipedia-style overview articles from web research.",
+  "description": "STORM, a Stanford research project, explores a topic from several angles, gathers sources and writes a long article with citations. It's useful for preparing a review or getting into a new field.",
+  "summary_fr": "Rédige des articles de synthèse type Wikipédia à partir de recherches web.",
+  "description_fr": "STORM, projet de recherche de Stanford, explore un sujet sous plusieurs angles, collecte des sources et rédige un article long avec citations. Il est utile pour préparer une revue ou découvrir un domaine.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "ai",
+    "search",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Free",
+    "sourceUrl": "https://storm.genie.stanford.edu",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/storm.png",
+  "image": "/screenshots/storm.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Explores a topic from several angles",
+    "Long article with citations",
+    "Automatic outline",
+    "Free, research project"
+  ],
+  "features_fr": [
+    "Exploration d'un sujet sous plusieurs angles",
+    "Article long avec citations",
+    "Plan généré automatiquement",
+    "Gratuit, issu de la recherche"
+  ],
+  "howToUse": [
+    {
+      "title": "Open STORM (Stanford)",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "STORM (Stanford)",
+          "url": "https://storm.genie.stanford.edu"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

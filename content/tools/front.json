@@ -1,0 +1,68 @@
+{
+  "id": "front",
+  "name": "Front",
+  "url": "https://front.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Collaborative customer service platform with AI.",
+  "description": "Front centralizes email, chat and messaging for support and operations teams, with routing rules and AI that triages, summarizes and drafts replies. It suits teams handling high volumes.",
+  "summary_fr": "Plateforme de service client collaborative, avec IA.",
+  "description_fr": "Front centralise emails, chats et messageries des équipes support et opérations, avec règles d'attribution et IA qui trie, résume et rédige les réponses. Il convient aux équipes qui gèrent de gros volumes.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "ai",
+    "support",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://front.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/front.png",
+  "image": "/screenshots/front.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "All channels in one inbox",
+    "Automatic triage and routing",
+    "AI-drafted replies",
+    "Team analytics"
+  ],
+  "features_fr": [
+    "Tous les canaux dans une boîte",
+    "Tri et attribution automatiques",
+    "Réponses rédigées par IA",
+    "Statistiques d'équipe"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Front",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Front",
+          "url": "https://front.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

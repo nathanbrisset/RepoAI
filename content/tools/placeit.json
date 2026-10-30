@@ -1,0 +1,68 @@
+{
+  "id": "placeit",
+  "name": "Placeit",
+  "url": "https://placeit.net",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Mockups, logos and marketing visuals from templates.",
+  "description": "Placeit, by Envato, offers thousands of customizable online mockups (t-shirts, screens, packaging), logos, videos and social visuals. Its AI tools generate logos and images from a description.",
+  "summary_fr": "Mockups, logos et visuels marketing à partir de modèles.",
+  "description_fr": "Placeit, d'Envato, offre des milliers de mockups (t-shirts, écrans, packagings), logos, vidéos et visuels réseaux sociaux personnalisables en ligne. Ses outils IA génèrent logos et images à partir d'une description.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://placeit.net",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/placeit.png",
+  "image": "/screenshots/placeit.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Thousands of product mockups",
+    "Logo maker",
+    "Social visuals and videos",
+    "Unlimited subscription"
+  ],
+  "features_fr": [
+    "Milliers de mockups produits",
+    "Créateur de logos",
+    "Visuels et vidéos pour réseaux sociaux",
+    "Abonnement illimité"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Placeit",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Placeit",
+          "url": "https://placeit.net"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

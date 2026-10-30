@@ -1,0 +1,68 @@
+{
+  "id": "mymind",
+  "name": "mymind",
+  "url": "https://mymind.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Private visual memory that organizes what you save on its own.",
+  "description": "mymind keeps articles, images, notes and products with no folders or tags to manage: AI sorts them and finds them from a simple description. The app has no ads and no social sharing.",
+  "summary_fr": "Mémoire visuelle privée qui organise tout seul ce que tu enregistres.",
+  "description_fr": "mymind conserve articles, images, notes et produits sans dossiers ni étiquettes à gérer : l'IA les classe et les retrouve par simple description. L'application ne contient ni publicité ni partage social.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai",
+    "productivity",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://mymind.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/mymind.png",
+  "image": "/screenshots/mymind.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Automatic AI organization",
+    "Search by description",
+    "Images, articles and notes",
+    "Private, ad-free"
+  ],
+  "features_fr": [
+    "Classement automatique par IA",
+    "Recherche par description",
+    "Images, articles et notes",
+    "Privé, sans publicité"
+  ],
+  "howToUse": [
+    {
+      "title": "Open mymind",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "mymind",
+          "url": "https://mymind.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "DE",
+  "hqCountrySource": "import"
+}

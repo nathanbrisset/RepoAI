@@ -1,0 +1,18 @@
+{
+  "lot3CsvTools": 197,
+  "addonAlexlegal": {
+    "id": "alexlegal",
+    "logoOk": true,
+    "screenshotOk": true
+  },
+  "logosOk": 198,
+  "logosFail": [],
+  "screenshotsOk": 198,
+  "screenshotsFail": [],
+  "screenshotNotes": {
+    "shutterstock-ai": "Homepage returns HTTP 403 in CI; capture uses investor.shutterstock.com (official IR site).",
+    "merciapp": "CSV URL www.merciapp.com is dead; capture from www.merci-app.com (official).",
+    "invokeai": "CSV URL invoke.com errors; capture from invoke.ai (current product site).",
+    "csm-ai": "Live csm.ai had no public A record from agent egress; fiche URL set to https://csm.ai. Screenshot from Internet Archive id_ replay of that homepage (Dec 2025 snapshot), not logo fallback."
+  }
+}

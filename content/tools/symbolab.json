@@ -1,0 +1,68 @@
+{
+  "id": "symbolab",
+  "name": "Symbolab",
+  "url": "https://www.symbolab.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Step-by-step math solver with explanations.",
+  "description": "Symbolab solves equations, integrals, derivatives and limits showing every step, and offers practice exercises and quizzes. It also works from a photo.",
+  "summary_fr": "Solveur mathématique pas à pas avec explications.",
+  "description_fr": "Symbolab résout équations, intégrales, dérivées et limites en montrant chaque étape, et propose exercices et quiz pour s'entraîner. Il fonctionne aussi à partir d'une photo.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "ai",
+    "education",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.symbolab.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/symbolab.png",
+  "image": "/screenshots/symbolab.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Step-by-step solutions",
+    "Integrals, derivatives and limits",
+    "Practice exercises",
+    "Photo input"
+  ],
+  "features_fr": [
+    "Solutions pas à pas",
+    "Intégrales, dérivées et limites",
+    "Exercices d'entraînement",
+    "Saisie par photo"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Symbolab",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Symbolab",
+          "url": "https://www.symbolab.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "IL",
+  "hqCountrySource": "import"
+}

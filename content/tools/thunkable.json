@@ -1,0 +1,68 @@
+{
+  "id": "thunkable",
+  "name": "Thunkable",
+  "url": "https://thunkable.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code mobile apps with blocks and AI.",
+  "description": "Thunkable lets you build iOS, Android and web apps with drag and drop and block logic, plus ready-made AI components. It's popular in education and with first-time makers.",
+  "summary_fr": "Applications mobiles sans code, avec blocs et IA.",
+  "description_fr": "Thunkable permet de créer des apps iOS, Android et web par glisser-déposer et logique en blocs, avec des composants IA prêts à l'emploi. Il est apprécié dans l'éducation et par les créateurs débutants.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "ai",
+    "no",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://thunkable.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/thunkable.png",
+  "image": "/screenshots/thunkable.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Drag and drop with block logic",
+    "Built-in AI components",
+    "Store publishing",
+    "Beginner-friendly"
+  ],
+  "features_fr": [
+    "Glisser-déposer et logique en blocs",
+    "Composants IA intégrés",
+    "Publication sur les stores",
+    "Adapté aux débutants"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Thunkable",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Thunkable",
+          "url": "https://thunkable.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

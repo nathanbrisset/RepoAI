@@ -1,0 +1,68 @@
+{
+  "id": "codestral",
+  "name": "Codestral (Mistral)",
+  "url": "https://mistral.ai/news/codestral",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Mistral AI's fast, multilingual code model (France).",
+  "description": "Codestral is Mistral AI's code-specialized model. It completes, explains and generates code in over 80 languages and plugs into editors via extensions such as Continue or Mistral's tools.",
+  "summary_fr": "Modèle de code de Mistral AI, rapide et multilingue (France).",
+  "description_fr": "Codestral est le modèle spécialisé dans le code de Mistral AI. Il complète, explique et génère du code dans plus de 80 langages, et s'intègre aux éditeurs via des extensions comme Continue ou les outils de Mistral.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ai",
+    "coding",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://mistral.ai/news/codestral",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/codestral.png",
+  "image": "/screenshots/codestral.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Fast code completion",
+    "Over 80 languages",
+    "Available via API",
+    "European model"
+  ],
+  "features_fr": [
+    "Complétion de code rapide",
+    "Plus de 80 langages",
+    "Disponible par API",
+    "Modèle européen"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Codestral (Mistral)",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Codestral (Mistral)",
+          "url": "https://mistral.ai/news/codestral"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import"
+}

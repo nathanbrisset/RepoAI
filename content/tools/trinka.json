@@ -1,0 +1,68 @@
+{
+  "id": "trinka",
+  "name": "Trinka",
+  "url": "https://www.trinka.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Grammar checker for academic and technical English.",
+  "description": "Trinka corrects grammar, style and terminology in scientific and technical English texts, following each field's conventions. It also checks consistency and journal requirements.",
+  "summary_fr": "Correcteur spécialisé dans l'écriture académique et technique en anglais.",
+  "description_fr": "Trinka corrige grammaire, style et terminologie dans les textes scientifiques et techniques en anglais, en tenant compte des conventions de chaque discipline. Il vérifie aussi la cohérence et la conformité aux exigences des revues.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "ai",
+    "writing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.trinka.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/trinka.png",
+  "image": "/screenshots/trinka.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Field-specific corrections",
+    "Scientific terminology",
+    "Consistency checks",
+    "Pre-submission checks"
+  ],
+  "features_fr": [
+    "Correction adaptée aux disciplines",
+    "Terminologie scientifique",
+    "Vérification de cohérence",
+    "Contrôle avant soumission"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Trinka",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Trinka",
+          "url": "https://www.trinka.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "IN",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "turnitin-ai",
+  "name": "Turnitin AI Detection",
+  "url": "https://www.turnitin.com/solutions/topics/ai-writing/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI writing detection built into the leading plagiarism checker.",
+  "description": "Turnitin flags passages in student work that were likely written or paraphrased by AI, alongside plagiarism detection. Many universities use it through institutional licenses.",
+  "summary_fr": "Détection d'écriture IA intégrée à l'outil anti-plagiat de référence.",
+  "description_fr": "Turnitin signale dans les travaux d'élèves et d'étudiants les passages probablement rédigés ou reformulés par une IA, en plus de la détection de plagiat. Il est utilisé par de nombreuses universités via des licences d'établissement.",
+  "categories": [
+    "ai-detection"
+  ],
+  "tags": [
+    "ai",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://www.turnitin.com/solutions/topics/ai-writing/",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/turnitin-ai.png",
+  "image": "/screenshots/turnitin-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Detects AI-written passages",
+    "Flags AI paraphrasing",
+    "Plagiarism checking",
+    "Learning platform integration"
+  ],
+  "features_fr": [
+    "Détection des passages rédigés par IA",
+    "Repérage des reformulations",
+    "Vérification de plagiat",
+    "Intégration aux plateformes d'enseignement"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Turnitin AI Detection",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Turnitin AI Detection",
+          "url": "https://www.turnitin.com/solutions/topics/ai-writing/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

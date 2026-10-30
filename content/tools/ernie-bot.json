@@ -1,0 +1,68 @@
+{
+  "id": "ernie-bot",
+  "name": "ERNIE Bot (Baidu)",
+  "url": "https://yiyan.baidu.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Baidu's AI assistant, widely used in China.",
+  "description": "ERNIE Bot (文心一言) is Baidu's chatbot, built on its ERNIE models. It answers questions, writes, generates images and plugs into Baidu's search services.",
+  "summary_fr": "L'assistant IA de Baidu, très utilisé en Chine.",
+  "description_fr": "ERNIE Bot (文心一言) est le chatbot de Baidu, basé sur ses modèles ERNIE. Il répond aux questions, rédige, génère des images et s'intègre aux services de recherche de Baidu.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "ai",
+    "llm",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://yiyan.baidu.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/ernie-bot.png",
+  "image": "/screenshots/ernie-bot.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Chat and writing in Chinese and English",
+    "Image generation",
+    "Built-in web search",
+    "Web and mobile apps"
+  ],
+  "features_fr": [
+    "Chat et rédaction en chinois et en anglais",
+    "Génération d'images",
+    "Recherche web intégrée",
+    "Application web et mobile"
+  ],
+  "howToUse": [
+    {
+      "title": "Open ERNIE Bot (Baidu)",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "ERNIE Bot (Baidu)",
+          "url": "https://yiyan.baidu.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CN",
+  "hqCountrySource": "import"
+}

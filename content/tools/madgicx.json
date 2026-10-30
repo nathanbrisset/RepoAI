@@ -1,0 +1,68 @@
+{
+  "id": "madgicx",
+  "name": "Madgicx",
+  "url": "https://madgicx.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI optimization of Meta ads for e-commerce.",
+  "description": "Madgicx analyzes Facebook and Instagram campaigns, recommends budget and audience adjustments, and generates ad creatives. It targets online stores and agencies.",
+  "summary_fr": "Optimisation IA des publicités Meta pour l'e-commerce.",
+  "description_fr": "Madgicx analyse les campagnes Facebook et Instagram, recommande des ajustements de budget et d'audience, et génère des créations publicitaires. Il vise les boutiques en ligne et les agences.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://madgicx.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/madgicx.png",
+  "image": "/screenshots/madgicx.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Meta campaign analysis",
+    "Budget and audience recommendations",
+    "Generated ad creatives",
+    "E-commerce reporting"
+  ],
+  "features_fr": [
+    "Analyse des campagnes Meta",
+    "Recommandations de budget et d'audience",
+    "Créations publicitaires générées",
+    "Rapports pour e-commerce"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Madgicx",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Madgicx",
+          "url": "https://madgicx.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "IL",
+  "hqCountrySource": "import"
+}

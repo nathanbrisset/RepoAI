@@ -1,0 +1,68 @@
+{
+  "id": "sentry-seer",
+  "name": "Sentry Seer",
+  "url": "https://sentry.io/product/seer/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI debugging agent that finds root causes and proposes fixes.",
+  "description": "Seer analyzes errors, traces and logs in Sentry to identify a bug's root cause, then proposes and tests a fix as a pull request. It also reviews code to prevent regressions.",
+  "summary_fr": "Agent de débogage IA qui trouve la cause des erreurs et propose un correctif.",
+  "description_fr": "Seer analyse les erreurs, traces et logs remontés dans Sentry pour identifier la cause racine d'un bug, puis propose et teste un correctif sous forme de pull request. Il revoit aussi le code pour prévenir les régressions.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ai",
+    "coding",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://sentry.io/product/seer/",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/sentry-seer.png",
+  "image": "/screenshots/sentry-seer.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Root cause analysis",
+    "Fixes proposed as pull requests",
+    "Preventive code review",
+    "Grounded in Sentry data"
+  ],
+  "features_fr": [
+    "Analyse de cause racine",
+    "Correctifs proposés en pull request",
+    "Revue de code préventive",
+    "Basé sur les données Sentry"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Sentry Seer",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Sentry Seer",
+          "url": "https://sentry.io/product/seer/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

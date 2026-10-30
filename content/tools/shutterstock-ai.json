@@ -1,0 +1,68 @@
+{
+  "id": "shutterstock-ai",
+  "name": "Shutterstock AI",
+  "url": "https://www.shutterstock.com/ai-image-generator",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Shutterstock's AI image generator with commercial licensing.",
+  "description": "Shutterstock generates images from text using models trained on licensed content, with legal coverage for commercial use. Images can then be edited in the platform's tools.",
+  "summary_fr": "Générateur d'images IA de Shutterstock, avec licence commerciale.",
+  "description_fr": "Shutterstock génère des images à partir de texte à l'aide de modèles entraînés sur des contenus sous licence, avec une couverture juridique pour l'usage commercial. Les images s'éditent ensuite dans les outils de la plateforme.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "ai",
+    "image",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.shutterstock.com/ai-image-generator",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/shutterstock-ai.png",
+  "image": "/screenshots/shutterstock-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Text-to-image generation",
+    "Models trained on licensed content",
+    "Commercial legal coverage",
+    "Built-in editing"
+  ],
+  "features_fr": [
+    "Génération d'images à partir de texte",
+    "Modèles entraînés sur contenus sous licence",
+    "Couverture juridique commerciale",
+    "Édition intégrée"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Shutterstock AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Shutterstock AI",
+          "url": "https://www.shutterstock.com/ai-image-generator"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

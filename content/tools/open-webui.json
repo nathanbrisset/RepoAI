@@ -1,0 +1,68 @@
+{
+  "id": "open-webui",
+  "name": "Open WebUI",
+  "url": "https://openwebui.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source chat interface for local or cloud models.",
+  "description": "Open WebUI provides a ChatGPT-like interface for Ollama, OpenAI-compatible models and other providers, self-hosted. It handles documents, web search, multiple users and tools.",
+  "summary_fr": "Interface de chat open source pour modèles locaux ou en ligne.",
+  "description_fr": "Open WebUI offre une interface proche de ChatGPT pour utiliser Ollama, des modèles compatibles OpenAI ou d'autres fournisseurs, en auto-hébergement. Elle gère documents, recherche web, multi-utilisateurs et outils.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "ai",
+    "llm",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://openwebui.com",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/open-webui.png",
+  "image": "/screenshots/open-webui.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Self-hosted chat interface",
+    "Works with Ollama and OpenAI APIs",
+    "Chat with documents (RAG)",
+    "User and permission management"
+  ],
+  "features_fr": [
+    "Interface de chat auto-hébergée",
+    "Compatible Ollama et API OpenAI",
+    "Chat avec documents (RAG)",
+    "Gestion des utilisateurs et des droits"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Open WebUI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Open WebUI",
+          "url": "https://openwebui.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

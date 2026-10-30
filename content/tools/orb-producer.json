@@ -1,0 +1,68 @@
+{
+  "id": "orb-producer",
+  "name": "Orb Producer Suite",
+  "url": "https://www.orbplugins.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI plugins that generate melodies, chords and basslines in your DAW.",
+  "description": "Orb Producer Suite offers plugins that generate chord progressions, melodies, basslines and arpeggios as MIDI right inside your DAW. Ideas can then be freely edited.",
+  "summary_fr": "Plugins IA qui génèrent mélodies, accords et basses dans ton logiciel musical.",
+  "description_fr": "Orb Producer Suite propose des plugins qui génèrent progressions d'accords, mélodies, basses et arpèges en MIDI, directement dans le logiciel de production. Les idées se modifient ensuite librement.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "ai",
+    "music",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.orbplugins.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/orb-producer.png",
+  "image": "/screenshots/orb-producer.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Generated chord progressions",
+    "MIDI melodies and basslines",
+    "Arpeggios",
+    "VST and AU plugins"
+  ],
+  "features_fr": [
+    "Progressions d'accords générées",
+    "Mélodies et basses en MIDI",
+    "Arpèges",
+    "Plugins VST et AU"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Orb Producer Suite",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Orb Producer Suite",
+          "url": "https://www.orbplugins.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "ES",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "fabric-so",
+  "name": "Fabric",
+  "url": "https://fabric.so",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI workspace that connects files, notes and links.",
+  "description": "Fabric centralizes documents, notes, links and files from your various services and lets you find anything or query it all with AI. It positions itself as a personal working memory.",
+  "summary_fr": "Espace de travail IA qui relie fichiers, notes et liens.",
+  "description_fr": "Fabric centralise documents, notes, liens et fichiers de tes différents services et permet de tout retrouver ou d'interroger l'ensemble avec l'IA. Il se présente comme une mémoire de travail personnelle.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai",
+    "productivity",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://fabric.so",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/fabric-so.png",
+  "image": "/screenshots/fabric-so.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Files, notes and links together",
+    "Semantic search",
+    "Ask AI about your content",
+    "Cloud storage connections"
+  ],
+  "features_fr": [
+    "Fichiers, notes et liens réunis",
+    "Recherche sémantique",
+    "Questions à l'IA sur tes contenus",
+    "Connexion aux services de stockage"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Fabric",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Fabric",
+          "url": "https://fabric.so"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "GB",
+  "hqCountrySource": "import"
+}

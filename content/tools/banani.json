@@ -1,0 +1,68 @@
+{
+  "id": "banani",
+  "name": "Banani",
+  "url": "https://www.banani.co",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Generates UI mockups from a description.",
+  "description": "Banani creates app and website screens from text or a screenshot, with a consistent style across the whole flow. Mockups export to Figma for refinement.",
+  "summary_fr": "Génère des maquettes d'interface à partir d'une description.",
+  "description_fr": "Banani crée des écrans d'application et de site à partir d'un texte ou d'une capture, avec un style cohérent sur tout le parcours. Les maquettes s'exportent vers Figma pour être affinées.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.banani.co",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/banani.png",
+  "image": "/screenshots/banani.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Screens generated from text",
+    "Consistent style across the flow",
+    "Inspiration from a screenshot",
+    "Export to Figma"
+  ],
+  "features_fr": [
+    "Écrans générés à partir d'un texte",
+    "Style cohérent sur tout le parcours",
+    "Inspiration à partir d'une capture",
+    "Export vers Figma"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Banani",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Banani",
+          "url": "https://www.banani.co"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "PL",
+  "hqCountrySource": "import"
+}

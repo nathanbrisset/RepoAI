@@ -1,0 +1,68 @@
+{
+  "id": "fillout",
+  "name": "Fillout",
+  "url": "https://www.fillout.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Powerful, polished forms with AI generation.",
+  "description": "Fillout creates forms, surveys and quizzes from a description, with conditional logic, payments and scheduling. Responses flow straight into Notion, Airtable, HubSpot or Google Sheets.",
+  "summary_fr": "Formulaires puissants et élégants, avec génération par IA.",
+  "description_fr": "Fillout crée formulaires, enquêtes et quiz à partir d'une description, avec logique conditionnelle, paiements et planification. Les réponses vont directement dans Notion, Airtable, HubSpot ou Google Sheets.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "ai",
+    "no",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.fillout.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/fillout.png",
+  "image": "/screenshots/fillout.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "AI-generated forms",
+    "Conditional logic",
+    "Payments and scheduling",
+    "Notion, Airtable and HubSpot integrations"
+  ],
+  "features_fr": [
+    "Formulaires générés par IA",
+    "Logique conditionnelle",
+    "Paiements et prise de rendez-vous",
+    "Intégrations Notion, Airtable, HubSpot"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Fillout",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Fillout",
+          "url": "https://www.fillout.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

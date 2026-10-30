@@ -1,0 +1,68 @@
+{
+  "id": "eesel-ai",
+  "name": "eesel AI",
+  "url": "https://www.eesel.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI agent trained on your support tickets and docs.",
+  "description": "eesel AI learns from past tickets, the knowledge base and internal docs to answer customers or assist agents. It integrates with Zendesk, Freshdesk, Slack and other tools.",
+  "summary_fr": "Agent IA qui s'entraîne sur tes tickets et documents de support.",
+  "description_fr": "eesel AI apprend à partir des anciens tickets, de la base de connaissances et des documents internes pour répondre aux clients ou assister les conseillers. Il s'intègre à Zendesk, Freshdesk, Slack et d'autres outils.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "ai",
+    "support",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.eesel.ai",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/eesel-ai.png",
+  "image": "/screenshots/eesel-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Learns from past tickets",
+    "Customer replies",
+    "Agent assist",
+    "Zendesk, Freshdesk and Slack"
+  ],
+  "features_fr": [
+    "Apprentissage sur les anciens tickets",
+    "Réponses aux clients",
+    "Assistance aux conseillers",
+    "Zendesk, Freshdesk et Slack"
+  ],
+  "howToUse": [
+    {
+      "title": "Open eesel AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "eesel AI",
+          "url": "https://www.eesel.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "AU",
+  "hqCountrySource": "import"
+}

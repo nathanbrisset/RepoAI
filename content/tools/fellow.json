@@ -1,0 +1,68 @@
+{
+  "id": "fellow",
+  "name": "Fellow",
+  "url": "https://fellow.app",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI meeting notes, agendas and action tracking.",
+  "description": "Fellow records and summarizes meetings, prepares agendas and tracks agreed actions to completion. It integrates with calendars, Zoom, Meet, Teams and project tools.",
+  "summary_fr": "Notes de réunion IA, ordres du jour et suivi des actions.",
+  "description_fr": "Fellow enregistre et résume les réunions, prépare les ordres du jour et suit les actions décidées jusqu'à leur réalisation. Il s'intègre au calendrier, à Zoom, Meet, Teams et aux outils de gestion de projet.",
+  "categories": [
+    "meetings"
+  ],
+  "tags": [
+    "ai",
+    "meetings",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://fellow.app",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/fellow.png",
+  "image": "/screenshots/fellow.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Meeting recording and summaries",
+    "Collaborative agendas",
+    "Action item tracking",
+    "Calendar and project tool integrations"
+  ],
+  "features_fr": [
+    "Enregistrement et résumé des réunions",
+    "Ordres du jour collaboratifs",
+    "Suivi des actions",
+    "Intégrations calendrier et gestion de projet"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Fellow",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Fellow",
+          "url": "https://fellow.app"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CA",
+  "hqCountrySource": "import"
+}

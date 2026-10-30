@@ -1,0 +1,68 @@
+{
+  "id": "answerthepublic",
+  "name": "AnswerThePublic",
+  "url": "https://answerthepublic.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Visualizes the questions people ask about a topic.",
+  "description": "AnswerThePublic collects real searches and questions typed around a keyword and presents them as visual maps. It's a source of content and FAQ ideas.",
+  "summary_fr": "Visualise les questions que les internautes posent sur un sujet.",
+  "description_fr": "AnswerThePublic collecte les recherches et questions réellement tapées autour d'un mot-clé et les présente sous forme de cartes visuelles. C'est une source d'idées de contenus et de FAQ.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://answerthepublic.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/answerthepublic.png",
+  "image": "/screenshots/answerthepublic.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Real user questions",
+    "Visual maps",
+    "Content and FAQ ideas",
+    "Several countries and languages"
+  ],
+  "features_fr": [
+    "Questions réelles des internautes",
+    "Cartes visuelles",
+    "Idées de contenus et de FAQ",
+    "Plusieurs pays et langues"
+  ],
+  "howToUse": [
+    {
+      "title": "Open AnswerThePublic",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "AnswerThePublic",
+          "url": "https://answerthepublic.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

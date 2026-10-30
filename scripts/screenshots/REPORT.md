@@ -27,11 +27,11 @@ Les PNG historiques dans `public/tool-screenshots` sont des captures plein cadre
 
 | Issue | Nombre |
 | --- | ---: |
-| Captures réussies | 627 |
+| Captures réussies | 812 |
 | Captures ratées | 7 |
 | Image actuelle conservée | 5 |
 | Visuel de repli (logo) | 2 |
-| Poids de public/screenshots | 34.0 Mio |
+| Poids de public/screenshots | 43.3 Mio |
 | Poids restant de public/tool-screenshots | 38.0 Mio |
 
 Ratées par type : error 2, captcha 5.

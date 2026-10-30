@@ -1,0 +1,68 @@
+{
+  "id": "postman-postbot",
+  "name": "Postman Postbot",
+  "url": "https://www.postman.com/product/postbot/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Postman's AI assistant to test and document APIs.",
+  "description": "Postbot generates API tests, documentation and response visualizations in Postman, and helps debug requests. It speeds up teams that design and test APIs.",
+  "summary_fr": "Assistant IA de Postman pour tester et documenter les API.",
+  "description_fr": "Postbot génère des tests d'API, de la documentation et des visualisations de réponses dans Postman, et aide à déboguer les requêtes. Il accélère le travail des équipes qui conçoivent et testent des API.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ai",
+    "coding",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.postman.com/product/postbot/",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/postman-postbot.png",
+  "image": "/screenshots/postman-postbot.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "API test generation",
+    "Automatic documentation",
+    "Request debugging",
+    "Response visualization"
+  ],
+  "features_fr": [
+    "Génération de tests d'API",
+    "Documentation automatique",
+    "Débogage des requêtes",
+    "Visualisation des réponses"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Postman Postbot",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Postman Postbot",
+          "url": "https://www.postman.com/product/postbot/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

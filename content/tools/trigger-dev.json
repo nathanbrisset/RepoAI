@@ -1,0 +1,68 @@
+{
+  "id": "trigger-dev",
+  "name": "Trigger.dev",
+  "url": "https://trigger.dev",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Background jobs and AI workflows for developers, in TypeScript.",
+  "description": "Trigger.dev lets you write long-running, scheduled or event-driven tasks in TypeScript without managing servers. It's often used to orchestrate AI agents and processing in production.",
+  "summary_fr": "Tâches de fond et workflows IA pour développeurs, en TypeScript.",
+  "description_fr": "Trigger.dev permet d'écrire en TypeScript des tâches longues, planifiées ou déclenchées par événement, sans gérer de serveurs. Il est souvent utilisé pour orchestrer des agents et traitements IA en production.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://trigger.dev",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/trigger-dev.png",
+  "image": "/screenshots/trigger-dev.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Serverless long-running tasks",
+    "Scheduling and triggers",
+    "Run observability",
+    "Open source"
+  ],
+  "features_fr": [
+    "Tâches longues sans serveur",
+    "Planification et déclencheurs",
+    "Observabilité des exécutions",
+    "Open source"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Trigger.dev",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Trigger.dev",
+          "url": "https://trigger.dev"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "GB",
+  "hqCountrySource": "import"
+}

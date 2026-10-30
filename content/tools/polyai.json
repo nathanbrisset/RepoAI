@@ -1,0 +1,68 @@
+{
+  "id": "polyai",
+  "name": "PolyAI",
+  "url": "https://poly.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI voice agents for enterprise contact centers.",
+  "description": "PolyAI deploys voice assistants that answer the phone naturally to book, manage accounts or solve problems. It targets hospitality, banking, retail and utilities.",
+  "summary_fr": "Agents vocaux IA pour les centres d'appels des grandes entreprises.",
+  "description_fr": "PolyAI déploie des assistants vocaux qui répondent au téléphone de façon naturelle pour réserver, gérer un compte ou résoudre un problème. Il vise l'hôtellerie, la banque, la distribution et les services publics.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "ai",
+    "voice",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://poly.ai",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/polyai.png",
+  "image": "/screenshots/polyai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Voice agents for customer service",
+    "Natural, multilingual conversations",
+    "Integration with existing systems",
+    "Built for high call volumes"
+  ],
+  "features_fr": [
+    "Agents vocaux pour le service client",
+    "Conversations naturelles et multilingues",
+    "Intégration aux systèmes existants",
+    "Pensé pour les grands volumes d'appels"
+  ],
+  "howToUse": [
+    {
+      "title": "Open PolyAI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "PolyAI",
+          "url": "https://poly.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "GB",
+  "hqCountrySource": "import"
+}

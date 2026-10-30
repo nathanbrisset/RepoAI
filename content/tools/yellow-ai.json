@@ -1,0 +1,68 @@
+{
+  "id": "yellow-ai",
+  "name": "Yellow.ai",
+  "url": "https://yellow.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Multichannel AI agents for customer service.",
+  "description": "Yellow.ai deploys agents that respond over chat, voice, email and WhatsApp in over 100 languages. The platform targets companies that want to automate a large share of their support.",
+  "summary_fr": "Agents IA multicanaux pour le service client.",
+  "description_fr": "Yellow.ai déploie des agents qui répondent par chat, voix, email et WhatsApp dans plus de 100 langues. La plateforme vise les entreprises qui veulent automatiser une large part de leur support.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "ai",
+    "support",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://yellow.ai",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/yellow-ai.png",
+  "image": "/screenshots/yellow-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Chat, voice, email and WhatsApp",
+    "Over 100 languages",
+    "Support automation",
+    "Conversation analytics"
+  ],
+  "features_fr": [
+    "Chat, voix, email et WhatsApp",
+    "Plus de 100 langues",
+    "Automatisation du support",
+    "Analyse des conversations"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Yellow.ai",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Yellow.ai",
+          "url": "https://yellow.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

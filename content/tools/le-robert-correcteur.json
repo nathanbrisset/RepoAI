@@ -1,0 +1,68 @@
+{
+  "id": "le-robert-correcteur",
+  "name": "Le Robert Correcteur",
+  "url": "https://www.lerobert.com/correcteur",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Le Robert's grammar checker with built-in dictionaries.",
+  "description": "Le Robert Correcteur fixes spelling, grammar, conjugation and typography using Le Robert dictionaries. It explains each correction and works in Word, Outlook and the browser.",
+  "summary_fr": "Le correcteur des éditions Le Robert, avec dictionnaires intégrés.",
+  "description_fr": "Le Robert Correcteur corrige orthographe, grammaire, conjugaison et typographie en s'appuyant sur les dictionnaires Le Robert. Il explique chaque correction et fonctionne dans Word, Outlook et le navigateur.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "ai",
+    "writing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.lerobert.com/correcteur",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/le-robert-correcteur.png",
+  "image": "/screenshots/le-robert-correcteur.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Corrections based on Le Robert dictionaries",
+    "Explanation for each fix",
+    "Word, Outlook and browser integration",
+    "Synonym dictionaries"
+  ],
+  "features_fr": [
+    "Correction appuyée sur les dictionnaires Le Robert",
+    "Explication de chaque correction",
+    "Intégration Word, Outlook et navigateur",
+    "Dictionnaires de synonymes"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Le Robert Correcteur",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Le Robert Correcteur",
+          "url": "https://www.lerobert.com/correcteur"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import"
+}

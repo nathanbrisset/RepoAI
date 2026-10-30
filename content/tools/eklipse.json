@@ -1,0 +1,68 @@
+{
+  "id": "eklipse",
+  "name": "Eklipse",
+  "url": "https://eklipse.gg",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns gaming streams into TikTok and Shorts clips.",
+  "description": "Eklipse automatically finds the best moments in Twitch, YouTube or Kick streams and converts them into vertical clips with captions and effects. It targets streamers and gaming creators.",
+  "summary_fr": "Transforme tes streams de jeux en clips TikTok et Shorts.",
+  "description_fr": "Eklipse repère automatiquement les meilleurs moments des streams Twitch, YouTube ou Kick et les convertit en clips verticaux avec sous-titres et effets. Il cible les streamers et créateurs gaming.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ai",
+    "video",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://eklipse.gg",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/eklipse.png",
+  "image": "/screenshots/eklipse.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Best stream moment detection",
+    "Automatic vertical clips",
+    "Captions and effects",
+    "Posting to TikTok and Shorts"
+  ],
+  "features_fr": [
+    "Détection des meilleurs moments de stream",
+    "Clips verticaux automatiques",
+    "Sous-titres et effets",
+    "Publication sur TikTok et Shorts"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Eklipse",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Eklipse",
+          "url": "https://eklipse.gg"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

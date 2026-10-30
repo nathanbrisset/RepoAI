@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-10-30T12:35:21.958Z",
+  "results": [
+    {
+      "id": "ernie-bot",
+      "outcome": "success",
+      "bytes": 29118,
+      "source": "https://wenxin.baidu.com/?enter_type=yiyan_site"
+    },
+    {
+      "id": "merciapp",
+      "outcome": "failed",
+      "category": "error",
+      "reason": "page.goto: net::ERR_CONNECTION_CLOSED at https://www.merciapp.com/",
+      "url": "https://www.merciapp.com/"
+    },
+    {
+      "id": "le-robert-correcteur",
+      "outcome": "success",
+      "bytes": 76556,
+      "source": "https://dictionnaire.lerobert.com/"
+    },
+    {
+      "id": "invokeai",
+      "outcome": "failed",
+      "category": "error",
+      "reason": "page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://www.invoke.com/product",
+      "url": "https://www.invoke.com/product"
+    },
+    {
+      "id": "clipdrop",
+      "outcome": "success",
+      "bytes": 21494,
+      "source": "https://static.clipdrop.co/web/homepage/og-twitter-image.webp"
+    },
+    {
+      "id": "shutterstock-ai",
+      "outcome": "failed",
+      "category": "error",
+      "reason": "HTTP 403",
+      "url": "https://www.shutterstock.com/discover/ai-image-generator"
+    },
+    {
+      "id": "dragon-speech",
+      "outcome": "success",
+      "bytes": 82890,
+      "source": "https://www.microsoft.com/en-us/health-solutions"
+    },
+    {
+      "id": "coolors",
+      "outcome": "success",
+      "bytes": 37852,
+      "source": "https://coolors.co/assets/img/og_image.png"
+    },
+    {
+      "id": "homestyler",
+      "outcome": "success",
+      "bytes": 61530,
+      "source": "https://www.homestyler.com/image/homestyler-social.png"
+    },
+    {
+      "id": "csm-ai",
+      "outcome": "failed",
+      "category": "error",
+      "reason": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://csm.ai/",
+      "url": "https://csm.ai/"
+    },
+    {
+      "id": "skybox-ai",
+      "outcome": "success",
+      "bytes": 101210,
+      "source": "https://www.blockadelabs.com/"
+    },
+    {
+      "id": "memrise",
+      "outcome": "failed",
+      "category": "captcha",
+      "reason": "Captcha ou interstitiel anti-bot",
+      "url": "https://www.memrise.com/courses/english/"
+    },
+    {
+      "id": "turnitin-ai",
+      "outcome": "success",
+      "bytes": 111438,
+      "source": "https://www.turnitin.com/"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "doximity-gpt",
+  "name": "Doximity GPT",
+  "url": "https://www.doximity.com/gpt",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Free AI assistant for US clinicians.",
+  "description": "Doximity GPT helps healthcare professionals write letters, insurance authorization requests and patient explanations, and answers clinical questions with references. It's limited to verified clinicians.",
+  "summary_fr": "Assistant IA gratuit pour les médecins américains.",
+  "description_fr": "Doximity GPT aide les professionnels de santé à rédiger courriers, demandes d'accord aux assurances et explications pour les patients, et répond à des questions cliniques avec références. Il est réservé aux praticiens vérifiés.",
+  "categories": [
+    "health"
+  ],
+  "tags": [
+    "ai",
+    "health",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Free",
+    "sourceUrl": "https://www.doximity.com/gpt",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/doximity-gpt.png",
+  "image": "/screenshots/doximity-gpt.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Medical letter drafting",
+    "Insurance requests",
+    "Clinical answers with references",
+    "Free for verified clinicians"
+  ],
+  "features_fr": [
+    "Rédaction de courriers médicaux",
+    "Demandes aux assurances",
+    "Réponses cliniques avec références",
+    "Gratuit pour les praticiens vérifiés"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Doximity GPT",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Doximity GPT",
+          "url": "https://www.doximity.com/gpt"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

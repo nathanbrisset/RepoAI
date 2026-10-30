@@ -1,0 +1,68 @@
+{
+  "id": "semrush",
+  "name": "Semrush",
+  "url": "https://www.semrush.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Leading suite for SEO, advertising and AI visibility.",
+  "description": "Semrush analyzes keywords, backlinks, rankings and competitors, audits sites and tracks brand visibility in AI assistant answers. Its tools also cover ads, content and social media.",
+  "summary_fr": "Suite de référence pour le SEO, la publicité et la visibilité IA.",
+  "description_fr": "Semrush analyse mots-clés, backlinks, positions et concurrents, audite les sites et suit la visibilité de la marque dans les réponses des assistants IA. Ses outils couvrent aussi publicité, contenu et réseaux sociaux.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.semrush.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/semrush.png",
+  "image": "/screenshots/semrush.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Keyword and backlink research",
+    "Technical site audit",
+    "AI visibility tracking",
+    "Competitor analysis"
+  ],
+  "features_fr": [
+    "Recherche de mots-clés et backlinks",
+    "Audit technique de site",
+    "Suivi de la visibilité dans les IA",
+    "Analyse des concurrents"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Semrush",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Semrush",
+          "url": "https://www.semrush.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

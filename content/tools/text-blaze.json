@@ -1,0 +1,68 @@
+{
+  "id": "text-blaze",
+  "name": "Text Blaze",
+  "url": "https://blaze.today",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Dynamic text templates and AI to write faster anywhere.",
+  "description": "Text Blaze inserts customizable text templates via shortcuts, with dynamic fields and formulas. Its AI assistant helps write and rephrase on any website.",
+  "summary_fr": "Modèles de texte dynamiques et IA pour écrire plus vite partout.",
+  "description_fr": "Text Blaze insère des modèles de texte personnalisables avec des raccourcis, avec des champs dynamiques et des formules. Son assistant IA aide à rédiger et reformuler dans n'importe quel site.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://blaze.today",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/text-blaze.png",
+  "image": "/screenshots/text-blaze.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Text templates with shortcuts",
+    "Dynamic fields and formulas",
+    "AI writing assistant",
+    "Team template sharing"
+  ],
+  "features_fr": [
+    "Modèles de texte avec raccourcis",
+    "Champs dynamiques et formules",
+    "Assistant IA de rédaction",
+    "Partage des modèles en équipe"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Text Blaze",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Text Blaze",
+          "url": "https://blaze.today"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "agno",
+  "name": "Agno",
+  "url": "https://www.agno.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Lightweight, fast framework for AI agents (formerly Phidata).",
+  "description": "Agno, formerly Phidata, lets you build Python agents with memory, knowledge and tools, then combine them into teams. A UI lets you chat with and monitor agents.",
+  "summary_fr": "Framework léger et rapide pour créer des agents IA (ex-Phidata).",
+  "description_fr": "Agno, anciennement Phidata, permet de créer en Python des agents avec mémoire, connaissances et outils, puis de les assembler en équipes. Une interface permet de discuter avec les agents et de les surveiller.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://www.agno.com",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/agno.png",
+  "image": "/screenshots/agno.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Agents with memory and tools",
+    "Agent teams",
+    "Monitoring UI",
+    "Open source, Python"
+  ],
+  "features_fr": [
+    "Agents avec mémoire et outils",
+    "Équipes d'agents",
+    "Interface de suivi",
+    "Open source, Python"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Agno",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Agno",
+          "url": "https://www.agno.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

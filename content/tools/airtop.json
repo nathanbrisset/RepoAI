@@ -1,0 +1,67 @@
+{
+  "id": "airtop",
+  "name": "Airtop",
+  "url": "https://www.airtop.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Cloud browsers controlled in plain language for AI agents.",
+  "description": "Airtop provides cloud browsers that agents can control in plain language: log in, browse and extract data, even behind authentication. It automates web tasks without brittle scripts.",
+  "summary_fr": "Navigateurs cloud pilotés en langage naturel pour agents IA.",
+  "description_fr": "Airtop fournit des navigateurs dans le cloud que les agents peuvent contrôler en langage naturel : se connecter, naviguer, extraire des données, même derrière une authentification. Il sert à automatiser des tâches web sans scripts fragiles.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.airtop.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/airtop.png",
+  "image": "/screenshots/airtop.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Cloud browsers for agents",
+    "Plain-language control",
+    "Authenticated sessions",
+    "Web data extraction"
+  ],
+  "features_fr": [
+    "Navigateurs cloud pour agents",
+    "Contrôle en langage naturel",
+    "Sessions authentifiées",
+    "Extraction de données web"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Airtop",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Airtop",
+          "url": "https://www.airtop.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

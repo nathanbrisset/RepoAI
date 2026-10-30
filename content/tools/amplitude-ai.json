@@ -1,0 +1,68 @@
+{
+  "id": "amplitude-ai",
+  "name": "Amplitude AI",
+  "url": "https://amplitude.com/ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Product analytics with agents and natural-language questions.",
+  "description": "Amplitude measures digital product usage, and its AI agents spot trends, explain changes and suggest optimizations. You can create charts just by asking a question.",
+  "summary_fr": "Analytique produit avec agents et questions en langage naturel.",
+  "description_fr": "Amplitude mesure l'usage d'un produit numérique et ses agents IA repèrent les tendances, expliquent les variations et proposent des optimisations. On peut créer des graphiques en posant simplement une question.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "ai",
+    "data",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://amplitude.com/ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/amplitude-ai.png",
+  "image": "/screenshots/amplitude-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Charts from a question",
+    "Explains metric changes",
+    "Analysis agents",
+    "Full product analytics"
+  ],
+  "features_fr": [
+    "Graphiques à partir d'une question",
+    "Explication des variations",
+    "Agents d'analyse",
+    "Analytique produit complète"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Amplitude AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Amplitude AI",
+          "url": "https://amplitude.com/ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "pydantic-ai",
+  "name": "Pydantic AI",
+  "url": "https://ai.pydantic.dev",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Python framework for type-safe, reliable AI agents.",
+  "description": "Pydantic AI, from the team behind Pydantic, lets you build agents with validated outputs, typed tools and dependency injection. It integrates with Logfire for observability.",
+  "summary_fr": "Framework Python pour des agents IA typés et fiables.",
+  "description_fr": "Pydantic AI, de l'équipe derrière Pydantic, permet de créer des agents avec des sorties validées, des outils typés et l'injection de dépendances. Il s'intègre à Logfire pour l'observabilité.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://ai.pydantic.dev",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/pydantic-ai.png",
+  "image": "/screenshots/pydantic-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Validated, typed outputs",
+    "Tools and dependencies",
+    "Works with many models",
+    "Observability with Logfire"
+  ],
+  "features_fr": [
+    "Sorties validées et typées",
+    "Outils et dépendances",
+    "Compatible avec de nombreux modèles",
+    "Observabilité avec Logfire"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Pydantic AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Pydantic AI",
+          "url": "https://ai.pydantic.dev"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "GB",
+  "hqCountrySource": "import"
+}

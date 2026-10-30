@@ -1,0 +1,68 @@
+{
+  "id": "magical",
+  "name": "Magical",
+  "url": "https://www.getmagical.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Text shortcuts and AI automations in the browser.",
+  "description": "Magical fills forms, drafts replies and moves data between tabs using shortcuts and AI. It targets support, recruiting and sales teams repeating the same tasks.",
+  "summary_fr": "Raccourcis texte et automatisations IA dans le navigateur.",
+  "description_fr": "Magical remplit formulaires, rédige réponses et transfère des données entre onglets grâce à des raccourcis et à l'IA. Il vise les équipes de support, recrutement et vente qui répètent les mêmes tâches.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.getmagical.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/magical.png",
+  "image": "/screenshots/magical.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Text shortcuts",
+    "Automatic form filling",
+    "AI-drafted replies",
+    "Data transfer between tabs"
+  ],
+  "features_fr": [
+    "Raccourcis de texte",
+    "Remplissage automatique de formulaires",
+    "Réponses rédigées par IA",
+    "Transfert de données entre onglets"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Magical",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Magical",
+          "url": "https://www.getmagical.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

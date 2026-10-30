@@ -1,0 +1,68 @@
+{
+  "id": "vercel-ai-sdk",
+  "name": "Vercel AI SDK",
+  "url": "https://ai-sdk.dev",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source TypeScript toolkit for building AI apps.",
+  "description": "Vercel's AI SDK unifies access to major model providers and simplifies streaming, tool calls and chat UIs in web apps. It's widely used with Next.js and React.",
+  "summary_fr": "Kit TypeScript open source pour créer des apps IA.",
+  "description_fr": "L'AI SDK de Vercel unifie l'accès aux principaux fournisseurs de modèles et simplifie le streaming, les appels d'outils et les interfaces de chat dans les applications web. Il est très utilisé avec Next.js et React.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ai",
+    "coding",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://ai-sdk.dev",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/vercel-ai-sdk.png",
+  "image": "/screenshots/vercel-ai-sdk.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Unified model provider access",
+    "Response streaming",
+    "Tool calls and agents",
+    "Chat UI components"
+  ],
+  "features_fr": [
+    "Accès unifié aux fournisseurs de modèles",
+    "Streaming des réponses",
+    "Appels d'outils et agents",
+    "Composants d'interface de chat"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Vercel AI SDK",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Vercel AI SDK",
+          "url": "https://ai-sdk.dev"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

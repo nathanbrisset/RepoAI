@@ -1,0 +1,68 @@
+{
+  "id": "screenpipe",
+  "name": "Screenpipe",
+  "url": "https://screenpi.pe",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Records your screen and audio locally for a searchable AI memory.",
+  "description": "Screenpipe continuously captures what appears and is said on your computer, indexes it locally and lets AI answer questions about your activity. The project is open source and extensible with plugins.",
+  "summary_fr": "Enregistre ton écran et ton audio en local pour une mémoire IA consultable.",
+  "description_fr": "Screenpipe capture en continu ce qui s'affiche et se dit sur ton ordinateur, l'indexe en local et permet à l'IA de répondre à des questions sur ton activité. Le projet est open source et extensible par plugins.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai",
+    "productivity",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://screenpi.pe",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/screenpipe.png",
+  "image": "/screenshots/screenpipe.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Continuous screen and audio capture",
+    "Local indexing",
+    "Ask about your activity",
+    "Open source, with plugins"
+  ],
+  "features_fr": [
+    "Capture continue de l'écran et de l'audio",
+    "Indexation en local",
+    "Questions sur ton activité",
+    "Open source, avec plugins"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Screenpipe",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Screenpipe",
+          "url": "https://screenpi.pe"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "slidespeak",
+  "name": "SlideSpeak",
+  "url": "https://slidespeak.co",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-generated PowerPoint presentations from documents.",
+  "description": "SlideSpeak creates presentations from text, a PDF or a Word document, and summarizes existing decks. Files export as editable PowerPoint.",
+  "summary_fr": "Présentations PowerPoint générées par IA à partir de documents.",
+  "description_fr": "SlideSpeak crée des présentations à partir d'un texte, d'un PDF ou d'un document Word, et résume des présentations existantes. Les fichiers s'exportent en PowerPoint modifiable.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai",
+    "productivity",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://slidespeak.co",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/slidespeak.png",
+  "image": "/screenshots/slidespeak.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Presentation from a document",
+    "Deck summaries",
+    "Templates and branding",
+    "Editable PowerPoint export"
+  ],
+  "features_fr": [
+    "Présentation à partir d'un document",
+    "Résumé de présentations",
+    "Modèles et charte graphique",
+    "Export PowerPoint modifiable"
+  ],
+  "howToUse": [
+    {
+      "title": "Open SlideSpeak",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "SlideSpeak",
+          "url": "https://slidespeak.co"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "GB",
+  "hqCountrySource": "import"
+}

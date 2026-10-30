@@ -1,0 +1,68 @@
+{
+  "id": "whimsical",
+  "name": "Whimsical AI",
+  "url": "https://whimsical.com/ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-generated flowcharts, mind maps and wireframes.",
+  "description": "Whimsical is a visual workspace for flowcharts, mind maps, wireframes and docs. Its AI generates a flowchart, mind map or sequence diagram from a simple prompt, which you can then edit.",
+  "summary_fr": "Schémas, mind maps et wireframes générés par IA.",
+  "description_fr": "Whimsical est un espace visuel pour diagrammes, mind maps, wireframes et documents. Son IA génère un organigramme, une carte mentale ou une séquence à partir d'une simple consigne, modifiable ensuite.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://whimsical.com/ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/whimsical.png",
+  "image": "/screenshots/whimsical.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "AI-generated flowcharts",
+    "Mind maps",
+    "Wireframes",
+    "Real-time collaboration"
+  ],
+  "features_fr": [
+    "Organigrammes générés par IA",
+    "Cartes mentales",
+    "Wireframes",
+    "Collaboration en temps réel"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Whimsical AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Whimsical AI",
+          "url": "https://whimsical.com/ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "homestyler",
+  "name": "Homestyler",
+  "url": "https://www.homestyler.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Online 3D interior design with AI renders.",
+  "description": "Homestyler lets you draw a floor plan, furnish rooms in 3D with real products and produce photorealistic renders. Its AI tools decorate a room or suggest styles from a photo.",
+  "summary_fr": "Conception d'intérieur 3D en ligne avec rendus IA.",
+  "description_fr": "Homestyler permet de dessiner un plan, de meubler les pièces en 3D avec des produits réels et de produire des rendus photoréalistes. Ses outils IA décorent une pièce ou proposent des styles à partir d'une photo.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.homestyler.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/homestyler.png",
+  "image": "/screenshots/homestyler.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "3D floor plans and layouts",
+    "Real furniture catalog",
+    "Photorealistic renders",
+    "AI decoration from a photo"
+  ],
+  "features_fr": [
+    "Plans et aménagement en 3D",
+    "Catalogue de meubles réels",
+    "Rendus photoréalistes",
+    "Décoration IA à partir d'une photo"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Homestyler",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Homestyler",
+          "url": "https://www.homestyler.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CN",
+  "hqCountrySource": "import"
+}

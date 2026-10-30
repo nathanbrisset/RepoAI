@@ -1,0 +1,68 @@
+{
+  "id": "squibler",
+  "name": "Squibler",
+  "url": "https://www.squibler.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI assistant for writing novels, scripts and books.",
+  "description": "Squibler helps structure and write long-form work: outline, chapters, characters and scenes. Its AI drafts, continues passages and can illustrate the story with images and video.",
+  "summary_fr": "Assistant IA pour écrire romans, scénarios et livres.",
+  "description_fr": "Squibler aide à structurer et rédiger des œuvres longues : plan, chapitres, personnages et scènes. Son IA génère des brouillons, poursuit un passage et peut illustrer l'histoire avec des images et vidéos.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "ai",
+    "writing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.squibler.io",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/squibler.png",
+  "image": "/screenshots/squibler.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Book outline and structure",
+    "AI drafting and continuation",
+    "Character sheets",
+    "Generated illustrations"
+  ],
+  "features_fr": [
+    "Plan et structure de livre",
+    "Brouillons et continuation par IA",
+    "Fiches personnages",
+    "Illustrations générées"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Squibler",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Squibler",
+          "url": "https://www.squibler.io"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

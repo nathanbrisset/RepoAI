@@ -1,0 +1,68 @@
+{
+  "id": "culture-amp",
+  "name": "Culture Amp",
+  "url": "https://www.cultureamp.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Engagement surveys and performance management with AI.",
+  "description": "Culture Amp measures employee engagement through surveys and manages performance reviews and development. Its AI summarizes comments and suggests actions for managers.",
+  "summary_fr": "Enquêtes d'engagement et gestion de la performance, avec IA.",
+  "description_fr": "Culture Amp mesure l'engagement des employés par enquêtes, gère les entretiens de performance et le développement. Son IA résume les commentaires et suggère des actions aux managers.",
+  "categories": [
+    "hr"
+  ],
+  "tags": [
+    "ai",
+    "hr",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://www.cultureamp.com",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/culture-amp.png",
+  "image": "/screenshots/culture-amp.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Engagement surveys",
+    "Performance reviews",
+    "AI comment summaries",
+    "Suggested manager actions"
+  ],
+  "features_fr": [
+    "Enquêtes d'engagement",
+    "Entretiens de performance",
+    "Résumé des commentaires par IA",
+    "Actions suggérées aux managers"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Culture Amp",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Culture Amp",
+          "url": "https://www.cultureamp.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "AU",
+  "hqCountrySource": "import"
+}

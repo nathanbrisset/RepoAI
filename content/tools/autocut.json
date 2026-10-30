@@ -1,0 +1,68 @@
+{
+  "id": "autocut",
+  "name": "AutoCut",
+  "url": "https://www.autocut.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI plugin to speed up editing in Premiere Pro and DaVinci (France).",
+  "description": "AutoCut automates repetitive editing tasks: silence removal, animated captions, automatic zooms, viral clip cutting and B-roll selection. The startup is French and targets YouTube creators.",
+  "summary_fr": "Plugin IA pour accélérer le montage dans Premiere Pro et DaVinci (France).",
+  "description_fr": "AutoCut automatise les tâches répétitives du montage : suppression des silences, sous-titres animés, zooms automatiques, découpe en clips viraux et choix des B-rolls. La startup est française et vise les créateurs YouTube.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ai",
+    "video",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.autocut.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/autocut.png",
+  "image": "/screenshots/autocut.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Automatic silence removal",
+    "Animated captions",
+    "Automatic zooms and B-roll",
+    "Premiere Pro and DaVinci Resolve plugin"
+  ],
+  "features_fr": [
+    "Suppression automatique des silences",
+    "Sous-titres animés",
+    "Zooms et B-rolls automatiques",
+    "Plugin Premiere Pro et DaVinci Resolve"
+  ],
+  "howToUse": [
+    {
+      "title": "Open AutoCut",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "AutoCut",
+          "url": "https://www.autocut.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import"
+}

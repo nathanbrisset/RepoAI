@@ -1,0 +1,68 @@
+{
+  "id": "coolors",
+  "name": "Coolors",
+  "url": "https://coolors.co",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Fast, popular color palette generator.",
+  "description": "Coolors generates harmonious palettes in one click, extracts colors from an image and checks contrast. Palettes export for web, Figma or Adobe.",
+  "summary_fr": "Générateur de palettes de couleurs rapide et populaire.",
+  "description_fr": "Coolors génère des palettes harmonieuses en un clic, permet d'extraire les couleurs d'une image et de vérifier les contrastes. Les palettes s'exportent pour le web, Figma ou Adobe.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://coolors.co",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/coolors.png",
+  "image": "/screenshots/coolors.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "One-click palette generation",
+    "Colors from an image",
+    "Contrast checking",
+    "Figma, Adobe and CSS export"
+  ],
+  "features_fr": [
+    "Palettes générées en un clic",
+    "Couleurs extraites d'une image",
+    "Vérification des contrastes",
+    "Export Figma, Adobe et CSS"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Coolors",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Coolors",
+          "url": "https://coolors.co"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "IT",
+  "hqCountrySource": "import"
+}

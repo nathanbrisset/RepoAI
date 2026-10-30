@@ -1,0 +1,68 @@
+{
+  "id": "unblocked",
+  "name": "Unblocked",
+  "url": "https://getunblocked.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Answers about your codebase from code, tickets and discussions.",
+  "description": "Unblocked answers developers' questions by combining code, docs, Jira tickets and Slack conversations. It explains why code is written the way it is and speeds up onboarding.",
+  "summary_fr": "Réponses sur ta base de code à partir du code, des tickets et des discussions.",
+  "description_fr": "Unblocked répond aux questions des développeurs en croisant le code, la documentation, les tickets Jira et les conversations Slack. Il aide à comprendre pourquoi le code est écrit ainsi et accélère l'arrivée de nouveaux développeurs.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ai",
+    "coding",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://getunblocked.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/unblocked.png",
+  "image": "/screenshots/unblocked.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Answers from code and discussions",
+    "Connects to Slack, Jira and Confluence",
+    "Historical decision context",
+    "Faster onboarding"
+  ],
+  "features_fr": [
+    "Réponses à partir du code et des discussions",
+    "Connexion à Slack, Jira et Confluence",
+    "Contexte historique des décisions",
+    "Accélère l'intégration des nouveaux"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Unblocked",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Unblocked",
+          "url": "https://getunblocked.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CA",
+  "hqCountrySource": "import"
+}

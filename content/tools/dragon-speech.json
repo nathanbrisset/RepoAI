@@ -1,0 +1,68 @@
+{
+  "id": "dragon-speech",
+  "name": "Dragon (Nuance)",
+  "url": "https://www.nuance.com/dragon.html",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Reference speech recognition software from Microsoft Nuance.",
+  "description": "Dragon transcribes speech with high accuracy, lets you control your computer by voice and adapts to professional vocabularies such as legal and medical. It's a long-standing reference for dictation.",
+  "summary_fr": "Logiciel de reconnaissance vocale de référence, par Microsoft Nuance.",
+  "description_fr": "Dragon transcrit la voix avec une grande précision, permet de contrôler l'ordinateur à la voix et s'adapte aux vocabulaires professionnels (juridique, médical). Il est une référence de longue date pour la dictée.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "ai",
+    "voice",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.nuance.com/dragon.html",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/dragon-speech.png",
+  "image": "/screenshots/dragon-speech.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Highly accurate dictation",
+    "Voice control of your computer",
+    "Professional vocabularies",
+    "Legal and medical editions"
+  ],
+  "features_fr": [
+    "Dictée très précise",
+    "Commandes vocales de l'ordinateur",
+    "Vocabulaires professionnels",
+    "Versions juridique et médicale"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Dragon (Nuance)",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Dragon (Nuance)",
+          "url": "https://www.nuance.com/dragon.html"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

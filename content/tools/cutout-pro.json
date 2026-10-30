@@ -1,0 +1,68 @@
+{
+  "id": "cutout-pro",
+  "name": "Cutout.Pro",
+  "url": "https://www.cutout.pro",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Online AI background removal and photo/video editing.",
+  "description": "Cutout.Pro removes backgrounds from photos and videos, enhances quality, colorizes and generates portraits. It offers batch processing and an API for large volumes.",
+  "summary_fr": "Détourage, retouche photo et vidéo par IA en ligne.",
+  "description_fr": "Cutout.Pro supprime les arrière-plans des photos et vidéos, améliore la qualité, colorise et génère des portraits. Il propose un traitement par lots et une API pour les volumes importants.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "ai",
+    "image",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.cutout.pro",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/cutout-pro.png",
+  "image": "/screenshots/cutout-pro.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Photo and video background removal",
+    "Enhancement and colorization",
+    "Generated portraits",
+    "Batch processing and API"
+  ],
+  "features_fr": [
+    "Détourage photo et vidéo",
+    "Amélioration et colorisation",
+    "Portraits générés",
+    "Traitement par lots et API"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Cutout.Pro",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Cutout.Pro",
+          "url": "https://www.cutout.pro"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CN",
+  "hqCountrySource": "import"
+}

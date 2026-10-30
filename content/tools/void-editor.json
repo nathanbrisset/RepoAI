@@ -1,0 +1,68 @@
+{
+  "id": "void-editor",
+  "name": "Void",
+  "url": "https://voideditor.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source AI code editor, a Cursor alternative.",
+  "description": "Void is a VS Code-based editor with built-in completion, chat and agent, letting you choose any model, including local ones. Data stays under your control, with no middleman server.",
+  "summary_fr": "Éditeur de code IA open source, alternative à Cursor.",
+  "description_fr": "Void est un éditeur basé sur VS Code qui intègre complétion, chat et agent, tout en laissant le choix du modèle, y compris local. Les données restent sous ton contrôle, sans passer par un serveur intermédiaire.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ai",
+    "coding",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://voideditor.com",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/void-editor.png",
+  "image": "/screenshots/void-editor.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Built-in completion, chat and agent",
+    "Any model, including local",
+    "Based on VS Code",
+    "Open source"
+  ],
+  "features_fr": [
+    "Complétion, chat et agent intégrés",
+    "Choix libre du modèle, y compris local",
+    "Basé sur VS Code",
+    "Open source"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Void",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Void",
+          "url": "https://voideditor.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

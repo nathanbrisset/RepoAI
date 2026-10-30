@@ -1,0 +1,68 @@
+{
+  "id": "seamless-ai",
+  "name": "Seamless.AI",
+  "url": "https://seamless.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Real-time verified B2B contact search.",
+  "description": "Seamless.AI finds decision-makers' emails and phone numbers, enriches lists and feeds the CRM. It also offers intent signals and a LinkedIn extension.",
+  "summary_fr": "Recherche de contacts commerciaux vérifiés en temps réel.",
+  "description_fr": "Seamless.AI trouve emails et numéros de téléphone de décideurs, enrichit les listes et alimente le CRM. Il propose aussi des signaux d'intention et une extension pour LinkedIn.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "ai",
+    "sales",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://seamless.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/seamless-ai.png",
+  "image": "/screenshots/seamless-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Decision-maker emails and phones",
+    "List enrichment",
+    "Intent signals",
+    "LinkedIn extension"
+  ],
+  "features_fr": [
+    "Emails et téléphones de décideurs",
+    "Enrichissement de listes",
+    "Signaux d'intention",
+    "Extension LinkedIn"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Seamless.AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Seamless.AI",
+          "url": "https://seamless.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

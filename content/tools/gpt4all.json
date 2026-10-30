@@ -1,0 +1,68 @@
+{
+  "id": "gpt4all",
+  "name": "GPT4All",
+  "url": "https://www.nomic.ai/gpt4all",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Run AI models locally on your computer.",
+  "description": "GPT4All, from Nomic, is a free desktop app to download and use open-source language models offline. It can also query your local files privately.",
+  "summary_fr": "Faire tourner des modèles d'IA en local sur son ordinateur.",
+  "description_fr": "GPT4All, de Nomic, est une application de bureau gratuite pour télécharger et utiliser des modèles de langage open source sans connexion. Elle permet aussi d'interroger ses fichiers locaux en toute confidentialité.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "ai",
+    "llm",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://www.nomic.ai/gpt4all",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/gpt4all.png",
+  "image": "/screenshots/gpt4all.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Offline open-source models",
+    "Query your local files",
+    "No data sent online",
+    "Windows, macOS and Linux"
+  ],
+  "features_fr": [
+    "Modèles open source hors ligne",
+    "Interroger ses fichiers locaux",
+    "Aucune donnée envoyée en ligne",
+    "Windows, macOS et Linux"
+  ],
+  "howToUse": [
+    {
+      "title": "Open GPT4All",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "GPT4All",
+          "url": "https://www.nomic.ai/gpt4all"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

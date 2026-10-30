@@ -1,0 +1,68 @@
+{
+  "id": "talkpal",
+  "name": "Talkpal",
+  "url": "https://talkpal.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI language tutor for speaking and writing practice.",
+  "description": "Talkpal has users converse with an AI tutor in over 50 languages through role-plays, debates and characters, correcting grammar and pronunciation in real time.",
+  "summary_fr": "Professeur de langues IA pour pratiquer à l'oral et à l'écrit.",
+  "description_fr": "Talkpal fait converser l'utilisateur avec un tuteur IA dans plus de 50 langues, via jeux de rôle, débats et personnages, et corrige la grammaire et la prononciation en direct.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "ai",
+    "education",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://talkpal.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/talkpal.png",
+  "image": "/screenshots/talkpal.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Conversation with an AI tutor",
+    "Over 50 languages",
+    "Role-plays and debates",
+    "Pronunciation feedback"
+  ],
+  "features_fr": [
+    "Conversation avec un tuteur IA",
+    "Plus de 50 langues",
+    "Jeux de rôle et débats",
+    "Correction de la prononciation"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Talkpal",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Talkpal",
+          "url": "https://talkpal.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "mention",
+  "name": "Mention",
+  "url": "https://mention.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Media and social monitoring, built in France.",
+  "description": "Mention tracks in real time what's said about a brand or competitor across the web and social media, with sentiment analysis and reports. It also lets you publish and manage social accounts.",
+  "summary_fr": "Veille média et réseaux sociaux, conçue en France.",
+  "description_fr": "Mention suit en temps réel ce qui se dit d'une marque ou d'un concurrent sur le web et les réseaux, avec analyse du sentiment et rapports. Il permet aussi de publier et de gérer ses comptes sociaux.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://mention.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/mention.png",
+  "image": "/screenshots/mention.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Real-time monitoring",
+    "Sentiment analysis",
+    "Competitor tracking",
+    "Social publishing"
+  ],
+  "features_fr": [
+    "Veille en temps réel",
+    "Analyse du sentiment",
+    "Suivi des concurrents",
+    "Publication sur les réseaux"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Mention",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Mention",
+          "url": "https://mention.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import"
+}

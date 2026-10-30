@@ -1,0 +1,68 @@
+{
+  "id": "immersity-ai",
+  "name": "Immersity AI",
+  "url": "https://www.immersity.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns photos and videos into 3D content with depth.",
+  "description": "Immersity AI, formerly LeiaPix, converts 2D images and videos into animated 3D content with a parallax effect. Results can be shared on social media or shown on 3D displays and headsets.",
+  "summary_fr": "Transforme photos et vidéos en contenus 3D avec effet de profondeur.",
+  "description_fr": "Immersity AI, anciennement LeiaPix, convertit des images et vidéos 2D en contenus 3D animés avec effet de parallaxe. Les résultats se partagent sur les réseaux ou s'affichent sur écrans et casques 3D.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "ai",
+    "image",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.immersity.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/immersity-ai.png",
+  "image": "/screenshots/immersity-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "2D to 3D conversion",
+    "Animated parallax effect",
+    "Photos and videos",
+    "Export for social and 3D headsets"
+  ],
+  "features_fr": [
+    "Conversion 2D vers 3D",
+    "Effet de parallaxe animé",
+    "Photos et vidéos",
+    "Export pour réseaux et casques 3D"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Immersity AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Immersity AI",
+          "url": "https://www.immersity.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

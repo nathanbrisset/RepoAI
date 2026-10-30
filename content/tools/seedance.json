@@ -1,0 +1,68 @@
+{
+  "id": "seedance",
+  "name": "Seedance (ByteDance)",
+  "url": "https://seed.bytedance.com/en/seedance",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "ByteDance's cinematic, smooth video generation model.",
+  "description": "Seedance generates videos from text or images, with controlled camera moves and several consistent shots in one sequence. It's available in Dreamina, CapCut and through API platforms.",
+  "summary_fr": "Modèle de génération vidéo de ByteDance, cinématographique et fluide.",
+  "description_fr": "Seedance génère des vidéos à partir de texte ou d'images, avec des mouvements de caméra maîtrisés et plusieurs plans cohérents dans une même séquence. Il est disponible dans Dreamina, CapCut et via des plateformes d'API.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ai",
+    "video",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://seed.bytedance.com/en/seedance",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/seedance.png",
+  "image": "/screenshots/seedance.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Video from text or image",
+    "Consistent multi-shot sequences",
+    "Controlled camera moves",
+    "Available in Dreamina and via API"
+  ],
+  "features_fr": [
+    "Vidéo à partir de texte ou d'image",
+    "Plans multiples cohérents",
+    "Mouvements de caméra maîtrisés",
+    "Disponible dans Dreamina et par API"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Seedance (ByteDance)",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Seedance (ByteDance)",
+          "url": "https://seed.bytedance.com/en/seedance"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CN",
+  "hqCountrySource": "import"
+}

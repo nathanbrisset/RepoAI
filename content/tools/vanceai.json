@@ -1,0 +1,68 @@
+{
+  "id": "vanceai",
+  "name": "VanceAI",
+  "url": "https://vanceai.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI photo upscaling, sharpening and restoration.",
+  "description": "VanceAI enhances images with upscaling, blur and noise reduction, old photo restoration and colorization, and background removal. It's available online, as desktop software and via API.",
+  "summary_fr": "Agrandissement, netteté et restauration de photos par IA.",
+  "description_fr": "VanceAI améliore les images : agrandissement, réduction du flou et du bruit, restauration et colorisation de vieilles photos, suppression d'arrière-plan. Il existe en ligne, en logiciel de bureau et par API.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "ai",
+    "image",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://vanceai.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/vanceai.png",
+  "image": "/screenshots/vanceai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Image upscaling",
+    "Blur and noise reduction",
+    "Restoration and colorization",
+    "Desktop version and API"
+  ],
+  "features_fr": [
+    "Agrandissement d'images",
+    "Réduction du flou et du bruit",
+    "Restauration et colorisation",
+    "Version bureau et API"
+  ],
+  "howToUse": [
+    {
+      "title": "Open VanceAI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "VanceAI",
+          "url": "https://vanceai.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CN",
+  "hqCountrySource": "import"
+}

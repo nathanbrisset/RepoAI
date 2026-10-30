@@ -1,0 +1,68 @@
+{
+  "id": "greenhouse",
+  "name": "Greenhouse",
+  "url": "https://www.greenhouse.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Structured hiring software with AI assistance.",
+  "description": "Greenhouse organizes the whole hiring process around structured interviews, scorecards and reporting. Its AI features help write job posts, summarize applications and prepare interviews.",
+  "summary_fr": "Logiciel de recrutement structuré, avec assistance IA.",
+  "description_fr": "Greenhouse organise tout le recrutement autour d'entretiens structurés, de grilles d'évaluation et de rapports. Ses fonctions IA aident à rédiger les offres, résumer les candidatures et préparer les entretiens.",
+  "categories": [
+    "hr"
+  ],
+  "tags": [
+    "ai",
+    "hr",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://www.greenhouse.com",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/greenhouse.png",
+  "image": "/screenshots/greenhouse.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Structured interviews",
+    "Scorecards",
+    "AI-written job posts and summaries",
+    "Hiring reports"
+  ],
+  "features_fr": [
+    "Entretiens structurés",
+    "Grilles d'évaluation",
+    "Offres et résumés rédigés par IA",
+    "Rapports de recrutement"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Greenhouse",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Greenhouse",
+          "url": "https://www.greenhouse.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

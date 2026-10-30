@@ -1,0 +1,68 @@
+{
+  "id": "librechat",
+  "name": "LibreChat",
+  "url": "https://www.librechat.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source multi-provider chat interface.",
+  "description": "LibreChat brings OpenAI, Anthropic, Google, Mistral and local models into one interface. It offers agents, search, artifacts and sharing, and runs on your own servers.",
+  "summary_fr": "Interface de chat open source multi-fournisseurs.",
+  "description_fr": "LibreChat réunit dans une interface unique les modèles d'OpenAI, Anthropic, Google, Mistral et des modèles locaux. Il propose agents, recherche, artefacts et partage, et s'installe sur ses propres serveurs.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "ai",
+    "llm",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://www.librechat.ai",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/librechat.png",
+  "image": "/screenshots/librechat.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "All major model providers",
+    "Agents and tools",
+    "Self-hosting",
+    "Conversation sharing"
+  ],
+  "features_fr": [
+    "Tous les grands fournisseurs de modèles",
+    "Agents et outils",
+    "Auto-hébergement",
+    "Partage de conversations"
+  ],
+  "howToUse": [
+    {
+      "title": "Open LibreChat",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "LibreChat",
+          "url": "https://www.librechat.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

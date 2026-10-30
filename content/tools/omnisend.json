@@ -1,0 +1,68 @@
+{
+  "id": "omnisend",
+  "name": "Omnisend",
+  "url": "https://www.omnisend.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Email and SMS marketing for e-commerce, with AI.",
+  "description": "Omnisend automates emails and SMS for online stores: abandoned carts, welcome flows, follow-ups. AI writes subject lines and content, recommends products and segments customers.",
+  "summary_fr": "Email et SMS marketing pour l'e-commerce, avec IA.",
+  "description_fr": "Omnisend automatise emails et SMS pour les boutiques en ligne : paniers abandonnés, bienvenue, relances. L'IA rédige les objets et contenus, recommande des produits et segmente les clients.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.omnisend.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/omnisend.png",
+  "image": "/screenshots/omnisend.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Ready-made e-commerce flows",
+    "Email and SMS",
+    "AI content writing",
+    "Shopify and WooCommerce integration"
+  ],
+  "features_fr": [
+    "Scénarios e-commerce prêts à l'emploi",
+    "Emails et SMS",
+    "Rédaction IA des contenus",
+    "Intégration Shopify et WooCommerce"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Omnisend",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Omnisend",
+          "url": "https://www.omnisend.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "LT",
+  "hqCountrySource": "import"
+}

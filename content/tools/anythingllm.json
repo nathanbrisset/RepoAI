@@ -1,0 +1,68 @@
+{
+  "id": "anythingllm",
+  "name": "AnythingLLM",
+  "url": "https://anythingllm.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "All-in-one app to chat with your documents locally.",
+  "description": "AnythingLLM lets you load documents and sites, then query them with the model of your choice, local or cloud. The desktop app works out of the box and includes agents.",
+  "summary_fr": "Application tout-en-un pour discuter avec tes documents en local.",
+  "description_fr": "AnythingLLM permet de charger documents et sites, puis de les interroger avec le modèle de ton choix, local ou en ligne. L'application de bureau fonctionne sans configuration et inclut des agents.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "ai",
+    "llm",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://anythingllm.com",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/anythingllm.png",
+  "image": "/screenshots/anythingllm.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Local document chat",
+    "Choice of model (local or API)",
+    "Agents and tools",
+    "Zero-setup desktop app"
+  ],
+  "features_fr": [
+    "Chat avec documents en local",
+    "Choix du modèle (local ou API)",
+    "Agents et outils",
+    "Application de bureau sans configuration"
+  ],
+  "howToUse": [
+    {
+      "title": "Open AnythingLLM",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "AnythingLLM",
+          "url": "https://anythingllm.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "audioshake",
+  "name": "AudioShake",
+  "url": "https://www.audioshake.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Professional-grade stem separation for music and video.",
+  "description": "AudioShake separates vocals, instruments, dialogue and effects at a quality used by major labels, film studios and platforms. It's used for remixing, sync, dubbing and karaoke.",
+  "summary_fr": "Séparation de pistes de qualité professionnelle pour la musique et la vidéo.",
+  "description_fr": "AudioShake sépare voix, instruments, dialogues et effets avec une qualité utilisée par les majors, le cinéma et les plateformes. Il sert au remix, à la synchro, au doublage et à la création de karaokés.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "ai",
+    "music",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Usage-based",
+    "sourceUrl": "https://www.audioshake.ai",
+    "model": "usage-based",
+    "label": "Usage-based"
+  },
+  "logo": "/logos/audioshake.png",
+  "image": "/screenshots/audioshake.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Vocal and instrument separation",
+    "Dialogue isolation",
+    "Professional quality",
+    "API and app"
+  ],
+  "features_fr": [
+    "Séparation voix et instruments",
+    "Isolation des dialogues",
+    "Qualité professionnelle",
+    "API et application"
+  ],
+  "howToUse": [
+    {
+      "title": "Open AudioShake",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "AudioShake",
+          "url": "https://www.audioshake.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

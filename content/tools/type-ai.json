@@ -1,0 +1,68 @@
+{
+  "id": "type-ai",
+  "name": "Type",
+  "url": "https://type.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Document editor with built-in AI to write faster.",
+  "description": "Type is a word processor with AI at every step: generate a first draft, rewrite a paragraph, change the tone or continue an idea. It draws on your own documents to keep your style.",
+  "summary_fr": "Éditeur de documents avec IA intégrée pour écrire plus vite.",
+  "description_fr": "Type est un traitement de texte qui intègre l'IA à chaque étape : générer un premier jet, réécrire un paragraphe, changer le ton ou poursuivre une idée. Il s'appuie sur tes propres documents pour garder ton style.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "ai",
+    "writing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://type.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/type-ai.png",
+  "image": "/screenshots/type-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Generated first drafts",
+    "Rewriting and tone changes",
+    "Idea continuation",
+    "Adapts to your style"
+  ],
+  "features_fr": [
+    "Premier jet généré",
+    "Réécriture et changement de ton",
+    "Continuation des idées",
+    "S'adapte à ton style"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Type",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Type",
+          "url": "https://type.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

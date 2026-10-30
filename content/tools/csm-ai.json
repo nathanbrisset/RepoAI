@@ -1,0 +1,68 @@
+{
+  "id": "csm-ai",
+  "name": "CSM",
+  "url": "https://csm.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Generates 3D models from images or text.",
+  "description": "CSM (Common Sense Machines) turns images, sketches or descriptions into textured 3D objects for games, AR or 3D printing. Models export in common formats.",
+  "summary_fr": "Génère des modèles 3D à partir d'images ou de texte.",
+  "description_fr": "CSM (Common Sense Machines) convertit images, croquis ou descriptions en objets 3D texturés, utilisables dans les jeux, la réalité augmentée ou l'impression 3D. Les modèles s'exportent dans les formats courants.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://csm.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/csm-ai.png",
+  "image": "/screenshots/csm-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Image or sketch to 3D model",
+    "Text to 3D",
+    "Generated textures",
+    "Export for games and 3D printing"
+  ],
+  "features_fr": [
+    "Image ou croquis vers modèle 3D",
+    "Texte vers 3D",
+    "Textures générées",
+    "Export pour jeux et impression 3D"
+  ],
+  "howToUse": [
+    {
+      "title": "Open CSM",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "CSM",
+          "url": "https://csm.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

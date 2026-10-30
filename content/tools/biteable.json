@@ -1,0 +1,68 @@
+{
+  "id": "biteable",
+  "name": "Biteable",
+  "url": "https://biteable.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Animated business videos from templates and AI.",
+  "description": "Biteable creates animated and explainer videos for business communication, with templates, brand kits and AI-generated drafts. Videos are shared with view tracking.",
+  "summary_fr": "Vidéos animées pour entreprises, à partir de modèles et d'IA.",
+  "description_fr": "Biteable crée des vidéos animées et explicatives pour la communication d'entreprise, avec modèles, charte graphique et génération de brouillons par IA. Les vidéos se partagent avec suivi des vues.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ai",
+    "video",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://biteable.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/biteable.png",
+  "image": "/screenshots/biteable.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Animated video templates",
+    "AI-generated drafts",
+    "Brand kit",
+    "Sharing and view tracking"
+  ],
+  "features_fr": [
+    "Modèles de vidéos animées",
+    "Brouillons générés par IA",
+    "Charte graphique",
+    "Partage et suivi des vues"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Biteable",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Biteable",
+          "url": "https://biteable.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "AU",
+  "hqCountrySource": "import"
+}

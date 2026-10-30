@@ -1,0 +1,68 @@
+{
+  "id": "magicslides",
+  "name": "MagicSlides",
+  "url": "https://www.magicslides.app",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-generated presentations in Google Slides or PowerPoint.",
+  "description": "MagicSlides creates a presentation from a topic, text, PDF or YouTube video, right in Google Slides or as PowerPoint. It suits students and busy teams.",
+  "summary_fr": "Présentations générées par IA, dans Google Slides ou PowerPoint.",
+  "description_fr": "MagicSlides crée une présentation à partir d'un sujet, d'un texte, d'un PDF ou d'une vidéo YouTube, directement dans Google Slides ou en PowerPoint. Il convient aux étudiants et aux équipes pressées.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai",
+    "productivity",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.magicslides.app",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/magicslides.png",
+  "image": "/screenshots/magicslides.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Presentation from a topic",
+    "From a PDF or YouTube video",
+    "Google Slides add-on",
+    "PowerPoint export"
+  ],
+  "features_fr": [
+    "Présentation à partir d'un sujet",
+    "Depuis un PDF ou une vidéo YouTube",
+    "Extension Google Slides",
+    "Export PowerPoint"
+  ],
+  "howToUse": [
+    {
+      "title": "Open MagicSlides",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "MagicSlides",
+          "url": "https://www.magicslides.app"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "IN",
+  "hqCountrySource": "import"
+}

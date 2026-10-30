@@ -1,0 +1,68 @@
+{
+  "id": "mercor",
+  "name": "Mercor",
+  "url": "https://mercor.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Hiring platform where AI runs the interviews.",
+  "description": "Mercor assesses candidates through AI-led interviews, then matches them with companies and AI labs. It notably recruits experts to help train models.",
+  "summary_fr": "Plateforme de recrutement où l'IA mène les entretiens.",
+  "description_fr": "Mercor évalue les candidats grâce à des entretiens menés par IA, puis les met en relation avec des entreprises et des laboratoires d'IA. Elle recrute notamment des experts pour entraîner des modèles.",
+  "categories": [
+    "hr"
+  ],
+  "tags": [
+    "ai",
+    "hr",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://mercor.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/mercor.png",
+  "image": "/screenshots/mercor.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "AI-led interviews",
+    "Matching with companies",
+    "Expert work for AI labs",
+    "Skills assessment"
+  ],
+  "features_fr": [
+    "Entretiens menés par IA",
+    "Mise en relation avec des entreprises",
+    "Missions d'experts pour l'IA",
+    "Évaluation des compétences"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Mercor",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Mercor",
+          "url": "https://mercor.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

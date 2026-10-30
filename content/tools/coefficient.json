@@ -1,0 +1,68 @@
+{
+  "id": "coefficient",
+  "name": "Coefficient",
+  "url": "https://coefficient.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Pulls business data into Google Sheets and Excel, with AI.",
+  "description": "Coefficient connects Sheets and Excel to Salesforce, HubSpot, databases and other tools with automatic refresh. Its AI assistant generates formulas, charts and pivot tables.",
+  "summary_fr": "Importe tes données métier dans Google Sheets et Excel, avec IA.",
+  "description_fr": "Coefficient connecte Sheets et Excel à Salesforce, HubSpot, bases de données et autres outils, avec actualisation automatique. Son assistant IA génère formules, graphiques et tableaux croisés.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "ai",
+    "data",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://coefficient.io",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/coefficient.png",
+  "image": "/screenshots/coefficient.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Connects Salesforce, HubSpot and databases",
+    "Automatic refresh",
+    "AI formulas and charts",
+    "Google Sheets and Excel"
+  ],
+  "features_fr": [
+    "Connexion à Salesforce, HubSpot et bases",
+    "Actualisation automatique",
+    "Formules et graphiques par IA",
+    "Google Sheets et Excel"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Coefficient",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Coefficient",
+          "url": "https://coefficient.io"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

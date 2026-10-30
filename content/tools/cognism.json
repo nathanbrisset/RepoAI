@@ -1,0 +1,68 @@
+{
+  "id": "cognism",
+  "name": "Cognism",
+  "url": "https://www.cognism.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "GDPR-compliant B2B data, strong in Europe.",
+  "description": "Cognism provides verified contacts and mobile numbers with strong European coverage and strict GDPR compliance. It adds intent signals and CRM enrichment.",
+  "summary_fr": "Données B2B conformes au RGPD, fortes en Europe.",
+  "description_fr": "Cognism fournit des contacts et numéros de mobile vérifiés, avec une bonne couverture européenne et un respect strict du RGPD. Il ajoute signaux d'intention et enrichissement du CRM.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "ai",
+    "sales",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://www.cognism.com",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/cognism.png",
+  "image": "/screenshots/cognism.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Verified mobile numbers",
+    "Strong European coverage",
+    "GDPR compliance",
+    "Intent signals"
+  ],
+  "features_fr": [
+    "Numéros de mobile vérifiés",
+    "Bonne couverture européenne",
+    "Conformité RGPD",
+    "Signaux d'intention"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Cognism",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Cognism",
+          "url": "https://www.cognism.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "GB",
+  "hqCountrySource": "import"
+}
