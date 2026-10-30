@@ -24,8 +24,10 @@
   "dateAdded": "2025-06-04",
   "lastVerified": null,
   "features": [
-    "A voice cloning platform that enables users to create realistic synthetic voices with minimal data.",
-    "Supporting both text-to-speech and speech-to-speech transformations."
+    "Realistic voice cloning",
+    "Text-to-speech API",
+    "Audio deepfake detection",
+    "Audio watermarking"
   ],
   "howToUse": [
     {
@@ -52,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Plateforme de clonage vocal qui permet de créer des voix synthétiques réalistes avec un minimum de données, et qui prend en charge à la fois les transformations texte-parole et parole-parole.",
-    "Resemble AI permet la détection de deepfakes en temps réel pour l'entreprise.",
-    "Vérifiez les médias et respectez les normes de conformité des contenus IA.",
-    "Sur site ou dans le cloud, conçu pour monter en charge."
+    "Clonage de voix réaliste",
+    "Synthèse vocale par API",
+    "Détection de deepfakes audio",
+    "Filigrane audio"
   ]
 }

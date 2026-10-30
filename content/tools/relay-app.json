@@ -27,9 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Tool calling to SaaS APIs and internal systems.",
-    "Monitoring, logs, or human handoff where offered.",
-    "Templates to start from common automations."
+    "Automations across Gmail, Slack, Notion, HubSpot…",
+    "AI steps: summarize, extract, draft",
+    "Human approval checkpoints",
+    "Scheduled or event triggers"
   ],
   "howToUse": [
     {
@@ -56,10 +57,10 @@
     }
   ],
   "features_fr": [
-    "Workflows visuels déclenchés par événements ou horaires.",
-    "Étapes IA (résumé, classification, génération de texte).",
-    "Bibliothèque de connecteurs SaaS.",
-    "Exécution partagée en équipe avec historique."
+    "Automatisations entre Gmail, Slack, Notion, HubSpot…",
+    "Étapes IA : résumé, extraction, rédaction",
+    "Points de validation humaine",
+    "Déclencheurs planifiés ou par événement"
   ],
   "summary_fr": "Automatisations entre tes outils, avec étapes IA et validation humaine.",
   "description_fr": "Relay.app enchaîne des actions entre Gmail, Slack, Notion, HubSpot et d'autres outils, en ajoutant des étapes IA (résumé, extraction, rédaction). Des points de validation humaine permettent de garder la main sur les étapes sensibles."

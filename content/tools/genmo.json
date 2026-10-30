@@ -26,7 +26,12 @@
   "image": "/screenshots/genmo.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
-  "features": [],
+  "features": [
+    "Text-to-video generation",
+    "Open-source Mochi model",
+    "Use online or on your own hardware",
+    "Short realistic clips"
+  ],
   "howToUse": [
     {
       "title": "Sign up on Genmo",
@@ -52,7 +57,10 @@
     }
   ],
   "features_fr": [
-    "Genmo — IA pour la création vidéo sur genmo.ai."
+    "Génération vidéo à partir de texte",
+    "Modèle Mochi publié en open source",
+    "Utilisation en ligne ou sur son matériel",
+    "Clips courts réalistes"
   ],
   "summary_fr": "Génération vidéo IA, avec le modèle open source Mochi.",
   "description_fr": "Genmo développe Mochi, un modèle de génération vidéo à partir de texte publié en open source. On peut l'utiliser sur la plateforme de Genmo ou le faire tourner soi-même pour créer des clips courts réalistes."

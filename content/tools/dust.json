@@ -27,9 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Tool calling to SaaS APIs and internal systems.",
-    "Monitoring, logs, or human handoff where offered.",
-    "Templates to start from common automations."
+    "Agents connected to Notion, Slack, Drive, Salesforce…",
+    "Best model chosen per task",
+    "Search and actions in connected tools",
+    "Permissions and security controls"
   ],
   "howToUse": [
     {
@@ -56,9 +57,10 @@
     }
   ],
   "features_fr": [
-    "Dust – IA pour les agents IA sur dust.tt.",
-    "Axé sur les flux de travail des agents IA.",
-    "Dust inclut les capacités des agents."
+    "Agents connectés à Notion, Slack, Drive, Salesforce…",
+    "Choix du meilleur modèle selon la tâche",
+    "Recherche et actions dans les outils connectés",
+    "Gestion des droits et de la sécurité"
   ],
   "summary_fr": "Plateforme française pour créer des agents IA connectés aux outils de l'entreprise.",
   "description_fr": "Dust permet aux équipes de créer des assistants IA qui s'appuient sur les données internes (Notion, Slack, Google Drive, Salesforce…) et choisissent le meilleur modèle selon la tâche. Les agents peuvent chercher, analyser et agir dans les outils connectés."

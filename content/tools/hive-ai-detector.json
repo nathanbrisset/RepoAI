@@ -27,12 +27,16 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Detection of AI-generated text.",
-    "And video."
+    "AI-generated text detection",
+    "Image detection and generator identification",
+    "Synthetic video and audio detection",
+    "Large-scale moderation API"
   ],
   "features_fr": [
-    "Détection de texte.",
-    "Vidéos générés par IA."
+    "Détection de textes générés par IA",
+    "Détection d'images et identification du générateur",
+    "Détection de vidéos et d'audios synthétiques",
+    "API de modération à grande échelle"
   ],
   "howToUse": [
     {

@@ -24,8 +24,10 @@
   "dateAdded": "2025-06-04",
   "lastVerified": null,
   "features": [
-    "An open-source text-to-speech model that generates expressive voices.",
-    "Capable of cloning voices in seconds and producing high-quality audio content in multiple languages."
+    "Expressive text-to-speech",
+    "Cloning from a short sample",
+    "Emotion, speed and pitch control",
+    "Open-source weights"
   ],
   "howToUse": [
     {
@@ -52,8 +54,10 @@
     }
   ],
   "features_fr": [
-    "Un modèle de synthèse vocale open source qui génère des voix expressives.",
-    "Capable de cloner des voix en quelques secondes et de produire du contenu audio de haute qualité dans plusieurs langues."
+    "Synthèse vocale expressive",
+    "Clonage à partir d'un court échantillon",
+    "Contrôle de l'émotion, du débit et de la hauteur",
+    "Poids publiés en open source"
   ],
   "summary_fr": "Modèle open source de synthèse vocale expressive.",
   "description_fr": "Zonos, de Zyphra, génère des voix naturelles et clone une voix à partir d'un court échantillon, avec contrôle de l'émotion, du débit et de la hauteur. Les poids sont publiés en open source."
