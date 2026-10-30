@@ -70,8 +70,15 @@ export function MatchResultCard({
         </span>
         <div className="flex min-w-0 flex-1 gap-3">
           <Logo name={localized.name} src={logo} inverted={featured} />
-          <div className="min-w-0">
-            <h3 className="font-display text-xl leading-tight">{localized.name}</h3>
+          <div className="min-w-0 flex-1">
+            <h3 className="font-display text-xl leading-tight">
+              <LocaleLink
+                href={`/tool/${localized.id}`}
+                className={cn("hover:underline underline-offset-2", featured ? "text-background" : "text-foreground")}
+              >
+                {localized.name}
+              </LocaleLink>
+            </h3>
             {price ? (
               <p className={cn("mt-1 text-xs font-semibold", featured ? "text-accent" : "text-muted-foreground")}>{price}</p>
             ) : null}
