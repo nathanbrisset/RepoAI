@@ -1,0 +1,68 @@
+{
+  "id": "humanlinker",
+  "name": "Humanlinker",
+  "url": "https://www.humanlinker.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "French sales assistant that personalizes every approach.",
+  "description": "Humanlinker analyzes a prospect's profile and company to prepare meetings and write personalized messages. It also finds emails and phone numbers and integrates with major CRMs.",
+  "summary_fr": "Assistant de prospection français qui personnalise chaque approche.",
+  "description_fr": "Humanlinker analyse le profil et l'entreprise d'un prospect pour préparer un rendez-vous et rédiger des messages personnalisés. Il trouve aussi emails et téléphones et s'intègre aux principaux CRM.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "ai",
+    "sales",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.humanlinker.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/humanlinker.png",
+  "image": "/screenshots/humanlinker.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Meeting preparation",
+    "Personalized messages",
+    "Email and phone finder",
+    "CRM integration"
+  ],
+  "features_fr": [
+    "Préparation des rendez-vous",
+    "Messages personnalisés",
+    "Recherche d'emails et téléphones",
+    "Intégration CRM"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Humanlinker",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Humanlinker",
+          "url": "https://www.humanlinker.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "pixso",
+  "name": "Pixso",
+  "url": "https://pixso.net",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Collaborative UI design tool with an AI assistant.",
+  "description": "Pixso is a Figma alternative for designing interfaces, prototypes and design systems as a team. Its AI generates screens, renames layers and creates elements from a description.",
+  "summary_fr": "Outil de design d'interface collaboratif, avec assistant IA.",
+  "description_fr": "Pixso est une alternative à Figma pour concevoir interfaces, prototypes et systèmes de design en équipe. Son IA génère des écrans, renomme les calques et produit des éléments à partir d'une description.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://pixso.net",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/pixso.png",
+  "image": "/screenshots/pixso.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Collaborative design and prototyping",
+    "AI-generated screens",
+    "Figma file import",
+    "Shared design systems"
+  ],
+  "features_fr": [
+    "Design et prototypage collaboratifs",
+    "Écrans générés par IA",
+    "Import de fichiers Figma",
+    "Systèmes de design partagés"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Pixso",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Pixso",
+          "url": "https://pixso.net"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CN",
+  "hqCountrySource": "import"
+}

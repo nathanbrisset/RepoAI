@@ -1,0 +1,68 @@
+{
+  "id": "moz",
+  "name": "Moz Pro",
+  "url": "https://moz.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Classic SEO tools: keywords, links and domain authority.",
+  "description": "Moz Pro tracks rankings, analyzes backlinks, audits sites and provides its widely used Domain Authority metric. Its AI assistant helps cluster and prioritize keywords.",
+  "summary_fr": "Outils SEO historiques : mots-clés, liens et autorité de domaine.",
+  "description_fr": "Moz Pro suit les positions, analyse les backlinks, audite les sites et propose sa métrique d'autorité de domaine, très utilisée dans le secteur. Son assistant IA aide à regrouper et prioriser les mots-clés.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://moz.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/moz.png",
+  "image": "/screenshots/moz.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Rank tracking",
+    "Backlink analysis",
+    "Domain Authority",
+    "AI keyword clustering"
+  ],
+  "features_fr": [
+    "Suivi des positions",
+    "Analyse des backlinks",
+    "Autorité de domaine",
+    "Regroupement de mots-clés par IA"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Moz Pro",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Moz Pro",
+          "url": "https://moz.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

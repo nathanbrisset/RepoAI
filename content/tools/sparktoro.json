@@ -1,0 +1,68 @@
+{
+  "id": "sparktoro",
+  "name": "SparkToro",
+  "url": "https://sparktoro.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Discover what your audience reads, listens to and follows.",
+  "description": "SparkToro reveals the websites, podcasts, social accounts and keywords a given audience engages with, starting from a topic or site. It helps decide where to communicate and with which influencers.",
+  "summary_fr": "Découvre ce que ton audience lit, écoute et suit.",
+  "description_fr": "SparkToro révèle les sites, podcasts, comptes sociaux et mots-clés qu'une audience donnée fréquente, à partir d'un sujet ou d'un site. Il aide à choisir où communiquer et avec quels influenceurs.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://sparktoro.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/sparktoro.png",
+  "image": "/screenshots/sparktoro.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Websites and podcasts visited",
+    "Social accounts followed",
+    "Audience keywords",
+    "Search by topic or website"
+  ],
+  "features_fr": [
+    "Sites et podcasts fréquentés",
+    "Comptes sociaux suivis",
+    "Mots-clés de l'audience",
+    "Recherche par sujet ou par site"
+  ],
+  "howToUse": [
+    {
+      "title": "Open SparkToro",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "SparkToro",
+          "url": "https://sparktoro.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

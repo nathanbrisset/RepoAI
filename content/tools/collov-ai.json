@@ -1,0 +1,68 @@
+{
+  "id": "collov-ai",
+  "name": "Collov AI",
+  "url": "https://collov.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI virtual staging and interior design.",
+  "description": "Collov AI virtually furnishes empty rooms and restyles interiors with realistic renders, for real estate or renovation projects. Human designers can complete the work.",
+  "summary_fr": "Home staging virtuel et décoration d'intérieur par IA.",
+  "description_fr": "Collov AI meuble virtuellement des pièces vides et redécore des intérieurs avec des rendus réalistes, pour l'immobilier ou les projets de rénovation. Des designers humains peuvent compléter le travail.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://collov.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/collov-ai.png",
+  "image": "/screenshots/collov-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Virtual staging",
+    "Style-based redesign",
+    "Realistic renders",
+    "Human designer option"
+  ],
+  "features_fr": [
+    "Home staging virtuel",
+    "Redécoration par style",
+    "Rendus réalistes",
+    "Option avec designers humains"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Collov AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Collov AI",
+          "url": "https://collov.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

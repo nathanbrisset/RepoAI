@@ -1,0 +1,68 @@
+{
+  "id": "makeugc",
+  "name": "MakeUGC",
+  "url": "https://www.makeugc.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "UGC-style ad videos with AI actors.",
+  "description": "MakeUGC produces user-generated-style videos such as testimonials and demos with realistic AI actors from a script. E-commerce brands use it to test many ads quickly.",
+  "summary_fr": "Vidéos publicitaires au format UGC avec acteurs IA.",
+  "description_fr": "MakeUGC produit des vidéos type contenu utilisateur (témoignages, démonstrations) avec des acteurs IA réalistes à partir d'un script. Les marques e-commerce l'utilisent pour tester rapidement de nombreuses publicités.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ai",
+    "video",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.makeugc.ai",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/makeugc.png",
+  "image": "/screenshots/makeugc.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Realistic AI actors",
+    "UGC videos from a script",
+    "Many languages",
+    "Fast ad variations"
+  ],
+  "features_fr": [
+    "Acteurs IA réalistes",
+    "Vidéos UGC à partir d'un script",
+    "Nombreuses langues",
+    "Variantes publicitaires rapides"
+  ],
+  "howToUse": [
+    {
+      "title": "Open MakeUGC",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "MakeUGC",
+          "url": "https://www.makeugc.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "draftbit",
+  "name": "Draftbit",
+  "url": "https://draftbit.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Visual native mobile app builder with code export.",
+  "description": "Draftbit lets you design iOS and Android apps in a React Native-based visual editor, connect APIs and export the source code. An AI assistant helps generate screens.",
+  "summary_fr": "Création visuelle d'apps mobiles natives, avec export du code.",
+  "description_fr": "Draftbit permet de concevoir des applications iOS et Android avec un éditeur visuel basé sur React Native, de connecter des API et d'exporter le code source. Un assistant IA aide à générer les écrans.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "ai",
+    "no",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://draftbit.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/draftbit.png",
+  "image": "/screenshots/draftbit.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Visual React Native editor",
+    "API connections",
+    "Source code export",
+    "AI screen generation"
+  ],
+  "features_fr": [
+    "Éditeur visuel React Native",
+    "Connexion aux API",
+    "Export du code source",
+    "Génération d'écrans par IA"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Draftbit",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Draftbit",
+          "url": "https://draftbit.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

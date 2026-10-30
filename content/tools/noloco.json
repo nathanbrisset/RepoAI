@@ -1,0 +1,68 @@
+{
+  "id": "noloco",
+  "name": "Noloco",
+  "url": "https://noloco.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code client portals and internal tools from your data.",
+  "description": "Noloco turns Airtable, Google Sheets or SQL data into apps such as client portals, CRMs and internal tools. AI helps generate the app and automate tasks, with fine-grained permissions.",
+  "summary_fr": "Portails clients et outils internes sans code, à partir de tes données.",
+  "description_fr": "Noloco transforme des données Airtable, Google Sheets ou SQL en applications : portails clients, CRM, outils internes. L'IA aide à générer l'app et automatiser des tâches, avec gestion fine des droits.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "ai",
+    "no",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://noloco.io",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/noloco.png",
+  "image": "/screenshots/noloco.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Apps from Airtable, Sheets or SQL",
+    "Client portals",
+    "AI generation and automations",
+    "Roles and permissions"
+  ],
+  "features_fr": [
+    "Apps à partir d'Airtable, Sheets ou SQL",
+    "Portails clients",
+    "Génération et automatisations par IA",
+    "Gestion des rôles et permissions"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Noloco",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Noloco",
+          "url": "https://noloco.io"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "IE",
+  "hqCountrySource": "import"
+}

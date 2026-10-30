@@ -1,0 +1,68 @@
+{
+  "id": "getty-generative-ai",
+  "name": "Getty Images Generative AI",
+  "url": "https://www.gettyimages.com/ai/generation",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Commercially safe image generation by Getty Images.",
+  "description": "Getty Images' generator is trained only on its licensed library and comes with legal indemnification. It targets brands and agencies that need visuals without rights risk.",
+  "summary_fr": "Génération d'images commercialement sûre par Getty Images.",
+  "description_fr": "Le générateur de Getty Images est entraîné uniquement sur sa bibliothèque sous licence et offre une indemnisation juridique. Il cible les marques et agences qui ont besoin de visuels sans risque de droits.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "ai",
+    "image",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://www.gettyimages.com/ai/generation",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/getty-generative-ai.png",
+  "image": "/screenshots/getty-generative-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Trained on Getty's library",
+    "Legal indemnification",
+    "Image editing and extension",
+    "Built for brands and agencies"
+  ],
+  "features_fr": [
+    "Entraîné sur la bibliothèque Getty",
+    "Indemnisation juridique",
+    "Retouche et extension d'images",
+    "Pensé pour marques et agences"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Getty Images Generative AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Getty Images Generative AI",
+          "url": "https://www.gettyimages.com/ai/generation"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

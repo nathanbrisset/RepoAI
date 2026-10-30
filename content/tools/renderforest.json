@@ -1,0 +1,68 @@
+{
+  "id": "renderforest",
+  "name": "Renderforest",
+  "url": "https://www.renderforest.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-generated videos, logos and sites from templates.",
+  "description": "Renderforest offers thousands of templates to create animated videos, intros, logos, mockups and websites. Its AI tools generate a full video or logo from a description.",
+  "summary_fr": "Vidéos, logos et sites générés par IA à partir de modèles.",
+  "description_fr": "Renderforest propose des milliers de modèles pour créer vidéos animées, intros, logos, maquettes et sites web. Ses outils IA génèrent une vidéo ou un logo complet à partir d'une description.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ai",
+    "video",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.renderforest.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/renderforest.png",
+  "image": "/screenshots/renderforest.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Thousands of video templates",
+    "AI video generation",
+    "Logos and mockups",
+    "Website builder"
+  ],
+  "features_fr": [
+    "Milliers de modèles vidéo",
+    "Génération de vidéo par IA",
+    "Logos et maquettes",
+    "Création de sites web"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Renderforest",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Renderforest",
+          "url": "https://www.renderforest.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "AM",
+  "hqCountrySource": "import"
+}

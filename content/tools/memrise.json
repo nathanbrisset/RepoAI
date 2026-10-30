@@ -1,0 +1,68 @@
+{
+  "id": "memrise",
+  "name": "Memrise",
+  "url": "https://www.memrise.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Language learning with native-speaker videos and an AI partner.",
+  "description": "Memrise teaches useful vocabulary and phrases through native-speaker videos and spaced repetition. An AI conversation partner lets you practice real-life situations.",
+  "summary_fr": "Apprentissage des langues avec vidéos de natifs et partenaire IA.",
+  "description_fr": "Memrise enseigne le vocabulaire et les expressions utiles grâce à des vidéos de locuteurs natifs et à la répétition espacée. Un partenaire de conversation IA permet de pratiquer des situations réelles.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "ai",
+    "education",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.memrise.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/memrise.png",
+  "image": "/screenshots/memrise.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Native-speaker videos",
+    "Spaced repetition",
+    "AI conversation partner",
+    "Many languages"
+  ],
+  "features_fr": [
+    "Vidéos de locuteurs natifs",
+    "Répétition espacée",
+    "Conversation avec un partenaire IA",
+    "Nombreuses langues"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Memrise",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Memrise",
+          "url": "https://www.memrise.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "GB",
+  "hqCountrySource": "import"
+}

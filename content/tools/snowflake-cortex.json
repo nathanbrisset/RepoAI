@@ -1,0 +1,68 @@
+{
+  "id": "snowflake-cortex",
+  "name": "Snowflake Cortex AI",
+  "url": "https://www.snowflake.com/en/product/features/cortex/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Generative AI directly on Snowflake data.",
+  "description": "Cortex AI lets you run language models on data stored in Snowflake, ask questions in natural language and build agents without moving data. It's aimed at enterprise data teams.",
+  "summary_fr": "IA générative directement dans les données Snowflake.",
+  "description_fr": "Cortex AI permet d'utiliser des modèles de langage sur les données stockées dans Snowflake, de poser des questions en langage naturel et de créer des agents, sans déplacer les données. Il s'adresse aux équipes data des entreprises.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "ai",
+    "data",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Usage-based",
+    "sourceUrl": "https://www.snowflake.com/en/product/features/cortex/",
+    "model": "usage-based",
+    "label": "Usage-based"
+  },
+  "logo": "/logos/snowflake-cortex.png",
+  "image": "/screenshots/snowflake-cortex.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Language models inside Snowflake",
+    "Natural-language questions",
+    "Document search",
+    "Data stays in place"
+  ],
+  "features_fr": [
+    "Modèles de langage dans Snowflake",
+    "Questions en langage naturel",
+    "Recherche sur documents",
+    "Données qui restent en place"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Snowflake Cortex AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Snowflake Cortex AI",
+          "url": "https://www.snowflake.com/en/product/features/cortex/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

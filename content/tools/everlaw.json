@@ -1,0 +1,68 @@
+{
+  "id": "everlaw",
+  "name": "Everlaw",
+  "url": "https://www.everlaw.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "eDiscovery and litigation platform with generative AI.",
+  "description": "Everlaw helps lawyers review and organize large document volumes in litigation. Its AI tools summarize, classify and answer questions about case documents.",
+  "summary_fr": "Plateforme d'eDiscovery et de contentieux avec IA générative.",
+  "description_fr": "Everlaw aide les avocats à examiner et organiser de grands volumes de documents en contentieux. Ses outils IA résument, classent et répondent aux questions sur les pièces du dossier.",
+  "categories": [
+    "legal"
+  ],
+  "tags": [
+    "ai",
+    "legal",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://www.everlaw.com",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/everlaw.png",
+  "image": "/screenshots/everlaw.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Litigation document review",
+    "AI summaries and coding",
+    "Questions over case documents",
+    "Timeline building"
+  ],
+  "features_fr": [
+    "Revue de documents en contentieux",
+    "Résumés et classement par IA",
+    "Questions sur les pièces du dossier",
+    "Construction de la chronologie"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Everlaw",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Everlaw",
+          "url": "https://www.everlaw.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

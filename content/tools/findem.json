@@ -1,0 +1,68 @@
+{
+  "id": "findem",
+  "name": "Findem",
+  "url": "https://www.findem.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Attribute-based talent search powered by data and AI.",
+  "description": "Findem builds enriched talent profiles from many sources and lets you search by skills, career path or outcomes. It also automates sourcing and outreach.",
+  "summary_fr": "Recherche de talents par attributs, grâce aux données et à l'IA.",
+  "description_fr": "Findem construit des profils de talents enrichis à partir de nombreuses sources et permet de rechercher par compétences, parcours ou résultats. Il automatise aussi le sourcing et la prise de contact.",
+  "categories": [
+    "hr"
+  ],
+  "tags": [
+    "ai",
+    "hr",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://www.findem.ai",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/findem.png",
+  "image": "/screenshots/findem.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Search by skills and career path",
+    "Enriched profiles",
+    "Automated sourcing",
+    "Talent market analytics"
+  ],
+  "features_fr": [
+    "Recherche par compétences et parcours",
+    "Profils enrichis",
+    "Sourcing automatisé",
+    "Analyse du marché des talents"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Findem",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Findem",
+          "url": "https://www.findem.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

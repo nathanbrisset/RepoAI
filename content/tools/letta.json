@@ -1,0 +1,67 @@
+{
+  "id": "letta",
+  "name": "Letta",
+  "url": "https://www.letta.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI agent platform with persistent memory (formerly MemGPT).",
+  "description": "Letta, born from the MemGPT research project, lets you build agents that keep lasting memory and learn over time. A developer interface lets you inspect and edit their memory.",
+  "summary_fr": "Plateforme d'agents IA avec mémoire persistante (ex-MemGPT).",
+  "description_fr": "Letta, issu du projet de recherche MemGPT, permet de créer des agents qui gardent une mémoire durable et apprennent au fil du temps. Une interface de développement permet d'inspecter et modifier leur mémoire.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.letta.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/letta.png",
+  "image": "/screenshots/letta.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Persistent agent memory",
+    "Memory inspection and editing",
+    "API and open-source server",
+    "Agents that learn over time"
+  ],
+  "features_fr": [
+    "Mémoire persistante des agents",
+    "Inspection et édition de la mémoire",
+    "API et serveur open source",
+    "Agents qui apprennent dans la durée"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Letta",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Letta",
+          "url": "https://www.letta.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

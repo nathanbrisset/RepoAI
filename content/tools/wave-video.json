@@ -1,0 +1,68 @@
+{
+  "id": "wave-video",
+  "name": "Wave.video",
+  "url": "https://wave.video",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Marketing video creation, hosting and streaming.",
+  "description": "Wave.video combines a video editor, stock library, live streaming and hosting. Its AI tools generate videos from text, captions and thumbnails for social media.",
+  "summary_fr": "Création, hébergement et diffusion de vidéos marketing.",
+  "description_fr": "Wave.video combine éditeur vidéo, banque de médias, diffusion en direct et hébergement. Ses outils IA génèrent des vidéos à partir de texte, des sous-titres et des miniatures pour les réseaux sociaux.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ai",
+    "video",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://wave.video",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/wave-video.png",
+  "image": "/screenshots/wave-video.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Video editor and stock library",
+    "AI text-to-video",
+    "Live streaming",
+    "Video hosting"
+  ],
+  "features_fr": [
+    "Éditeur vidéo et banque de médias",
+    "Texte en vidéo par IA",
+    "Diffusion en direct",
+    "Hébergement vidéo"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Wave.video",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Wave.video",
+          "url": "https://wave.video"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

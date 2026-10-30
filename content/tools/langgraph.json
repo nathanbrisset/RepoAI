@@ -1,0 +1,67 @@
+{
+  "id": "langgraph",
+  "name": "LangGraph",
+  "url": "https://www.langchain.com/langgraph",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Framework to build reliable AI agents as graphs.",
+  "description": "LangGraph, from the LangChain team, models an agent as a graph of steps with memory, error recovery and human approval. LangGraph Platform deploys and monitors agents in production.",
+  "summary_fr": "Framework pour construire des agents IA fiables sous forme de graphes.",
+  "description_fr": "LangGraph, de l'équipe LangChain, modélise un agent comme un graphe d'étapes avec mémoire, reprise sur erreur et validation humaine. LangGraph Platform permet de déployer et surveiller les agents en production.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://www.langchain.com/langgraph",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/langgraph.png",
+  "image": "/screenshots/langgraph.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Agents modeled as step graphs",
+    "Memory and error recovery",
+    "Human-in-the-loop approval",
+    "Deployment with LangGraph Platform"
+  ],
+  "features_fr": [
+    "Agents modélisés en graphes d'étapes",
+    "Mémoire et reprise sur erreur",
+    "Validation humaine dans la boucle",
+    "Déploiement avec LangGraph Platform"
+  ],
+  "howToUse": [
+    {
+      "title": "Open LangGraph",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "LangGraph",
+          "url": "https://www.langchain.com/langgraph"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

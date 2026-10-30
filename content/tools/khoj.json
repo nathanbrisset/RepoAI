@@ -1,0 +1,68 @@
+{
+  "id": "khoj",
+  "name": "Khoj",
+  "url": "https://khoj.dev",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Personal AI assistant that searches your notes and the web.",
+  "description": "Khoj is an open-source second brain: it answers from your documents, Obsidian or Notion notes and the web, and can run automated research. It works online or self-hosted.",
+  "summary_fr": "Assistant IA personnel qui cherche dans tes notes et sur le web.",
+  "description_fr": "Khoj est un « second cerveau » open source : il répond à partir de tes documents, notes Obsidian ou Notion et du web, et peut lancer des recherches automatisées. Il fonctionne en ligne ou en auto-hébergement.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "ai",
+    "llm",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://khoj.dev",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/khoj.png",
+  "image": "/screenshots/khoj.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Answers from your documents",
+    "Built-in web search",
+    "Scheduled automations",
+    "Open source, self-hostable"
+  ],
+  "features_fr": [
+    "Réponses à partir de tes documents",
+    "Recherche web intégrée",
+    "Automatisations planifiées",
+    "Open source, auto-hébergeable"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Khoj",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Khoj",
+          "url": "https://khoj.dev"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

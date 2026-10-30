@@ -1,0 +1,68 @@
+{
+  "id": "clipfly",
+  "name": "Clipfly",
+  "url": "https://www.clipfly.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Online AI video creation and editing.",
+  "description": "Clipfly combines text- or image-to-video generation, online editing, upscaling and quality enhancement. It targets creators who want to produce fast without heavy software.",
+  "summary_fr": "Création et montage vidéo IA en ligne.",
+  "description_fr": "Clipfly réunit génération de vidéos à partir de texte ou d'images, montage en ligne, agrandissement et amélioration de la qualité. Il vise les créateurs qui veulent produire vite sans logiciel lourd.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ai",
+    "video",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.clipfly.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/clipfly.png",
+  "image": "/screenshots/clipfly.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Text and image to video",
+    "Online editing",
+    "Video upscaling",
+    "Ready-made templates"
+  ],
+  "features_fr": [
+    "Texte et image en vidéo",
+    "Montage en ligne",
+    "Agrandissement vidéo",
+    "Modèles prêts à l'emploi"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Clipfly",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Clipfly",
+          "url": "https://www.clipfly.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CN",
+  "hqCountrySource": "import"
+}

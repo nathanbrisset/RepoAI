@@ -1,0 +1,68 @@
+{
+  "id": "unreal-speech",
+  "name": "Unreal Speech",
+  "url": "https://unrealspeech.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Low-cost, fast text-to-speech API.",
+  "description": "Unreal Speech provides a low-cost, low-latency text-to-speech API with several natural voices. It targets developers generating large audio volumes, such as audiobooks or apps.",
+  "summary_fr": "API de synthèse vocale bon marché et rapide.",
+  "description_fr": "Unreal Speech fournit une API de synthèse vocale à faible coût et faible latence, avec plusieurs voix naturelles. Elle cible les développeurs qui génèrent de gros volumes audio, comme les livres audio ou les applications.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "ai",
+    "voice",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Usage-based",
+    "sourceUrl": "https://unrealspeech.com",
+    "model": "usage-based",
+    "label": "Usage-based"
+  },
+  "logo": "/logos/unreal-speech.png",
+  "image": "/screenshots/unreal-speech.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Low-cost text-to-speech",
+    "Low latency",
+    "Natural voices",
+    "API for high volumes"
+  ],
+  "features_fr": [
+    "Synthèse vocale à faible coût",
+    "Faible latence",
+    "Voix naturelles",
+    "API pour gros volumes"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Unreal Speech",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Unreal Speech",
+          "url": "https://unrealspeech.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "spendesk",
+  "name": "Spendesk",
+  "url": "https://www.spendesk.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Business spend management with cards and AI (France).",
+  "description": "Spendesk brings together payment cards, expense reports, supplier invoices and budgets. AI reads receipts, prepares bookkeeping and flags anomalies. The company is French.",
+  "summary_fr": "Gestion des dépenses d'entreprise avec cartes et IA (France).",
+  "description_fr": "Spendesk réunit cartes de paiement, notes de frais, factures fournisseurs et budgets. L'IA lit les justificatifs, prépare la comptabilité et signale les anomalies. La société est française.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "ai",
+    "finance",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.spendesk.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/spendesk.png",
+  "image": "/screenshots/spendesk.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Team payment cards",
+    "Automated expense reports",
+    "AI receipt reading",
+    "Budget tracking"
+  ],
+  "features_fr": [
+    "Cartes de paiement pour les équipes",
+    "Notes de frais automatisées",
+    "Lecture des justificatifs par IA",
+    "Suivi des budgets"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Spendesk",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Spendesk",
+          "url": "https://www.spendesk.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import"
+}

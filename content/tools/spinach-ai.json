@@ -1,0 +1,68 @@
+{
+  "id": "spinach-ai",
+  "name": "Spinach AI",
+  "url": "https://www.spinach.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Meeting assistant that summarizes and updates your tools.",
+  "description": "Spinach joins meetings, produces summaries and action items, then pushes them to Slack, Jira, CRMs or docs tools. It supports many languages.",
+  "summary_fr": "Assistant de réunion qui résume et met à jour tes outils.",
+  "description_fr": "Spinach rejoint les réunions, produit résumés et actions, puis les envoie dans Slack, Jira, le CRM ou les outils de documentation. Il prend en charge de nombreuses langues.",
+  "categories": [
+    "meetings"
+  ],
+  "tags": [
+    "ai",
+    "meetings",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.spinach.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/spinach-ai.png",
+  "image": "/screenshots/spinach-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Automatic summaries and action items",
+    "Push to Slack, Jira and CRM",
+    "Many languages",
+    "Zoom, Meet and Teams"
+  ],
+  "features_fr": [
+    "Résumés et actions automatiques",
+    "Envoi vers Slack, Jira et CRM",
+    "Nombreuses langues",
+    "Zoom, Meet et Teams"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Spinach AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Spinach AI",
+          "url": "https://www.spinach.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "morgen",
+  "name": "Morgen",
+  "url": "https://www.morgen.so",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-assisted calendar and task planner.",
+  "description": "Morgen brings all your calendars and tasks together, then automatically schedules tasks into your calendar based on priorities and availability. It integrates with Todoist, Notion, ClickUp and more.",
+  "summary_fr": "Agenda et planificateur de tâches assisté par IA.",
+  "description_fr": "Morgen regroupe tous tes calendriers et tâches, puis place automatiquement les tâches dans ton agenda selon tes priorités et ta disponibilité. Il s'intègre à Todoist, Notion, ClickUp et d'autres.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai",
+    "productivity",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.morgen.so",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/morgen.png",
+  "image": "/screenshots/morgen.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "All calendars in one place",
+    "Automatic task scheduling",
+    "Todoist, Notion, ClickUp integrations",
+    "Booking links"
+  ],
+  "features_fr": [
+    "Tous les calendriers réunis",
+    "Planification automatique des tâches",
+    "Intégrations Todoist, Notion, ClickUp",
+    "Liens de prise de rendez-vous"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Morgen",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Morgen",
+          "url": "https://www.morgen.so"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CH",
+  "hqCountrySource": "import"
+}

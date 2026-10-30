@@ -1,0 +1,68 @@
+{
+  "id": "similarweb",
+  "name": "Similarweb",
+  "url": "https://www.similarweb.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Traffic and audience analysis for any website.",
+  "description": "Similarweb estimates traffic, audience sources, keywords and performance of competing sites and apps. Its AI features summarize market trends and measure traffic coming from AI assistants.",
+  "summary_fr": "Analyse du trafic et de l'audience de n'importe quel site.",
+  "description_fr": "Similarweb estime le trafic, les sources d'audience, les mots-clés et les performances des sites et applications concurrents. Ses fonctions IA résument les tendances d'un marché et mesurent le trafic venant des assistants IA.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.similarweb.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/similarweb.png",
+  "image": "/screenshots/similarweb.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Competitor traffic estimates",
+    "Audience sources",
+    "Market trends",
+    "Traffic from AI assistants"
+  ],
+  "features_fr": [
+    "Estimation du trafic concurrent",
+    "Sources d'audience",
+    "Tendances de marché",
+    "Trafic issu des assistants IA"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Similarweb",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Similarweb",
+          "url": "https://www.similarweb.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "IL",
+  "hqCountrySource": "import"
+}

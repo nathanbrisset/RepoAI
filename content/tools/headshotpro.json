@@ -1,0 +1,68 @@
+{
+  "id": "headshotpro",
+  "name": "HeadshotPro",
+  "url": "https://www.headshotpro.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI professional headshots for individuals and teams.",
+  "description": "HeadshotPro generates dozens of professional headshots from a few photos, with consistent styles for a whole team. It replaces a photo shoot for team pages and LinkedIn profiles.",
+  "summary_fr": "Photos de profil professionnelles par IA, pour particuliers et équipes.",
+  "description_fr": "HeadshotPro génère des dizaines de portraits professionnels à partir de quelques photos, avec des styles homogènes pour toute une équipe. Il remplace un shooting photo pour les pages équipe et profils LinkedIn.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "ai",
+    "image",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.headshotpro.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/headshotpro.png",
+  "image": "/screenshots/headshotpro.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Dozens of generated headshots",
+    "Consistent team styles",
+    "Outfit and background choices",
+    "Photo shoot alternative"
+  ],
+  "features_fr": [
+    "Dizaines de portraits générés",
+    "Styles homogènes pour une équipe",
+    "Choix des tenues et fonds",
+    "Alternative au shooting photo"
+  ],
+  "howToUse": [
+    {
+      "title": "Open HeadshotPro",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "HeadshotPro",
+          "url": "https://www.headshotpro.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "NL",
+  "hqCountrySource": "import"
+}

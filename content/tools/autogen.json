@@ -1,0 +1,67 @@
+{
+  "id": "autogen",
+  "name": "AutoGen (Microsoft)",
+  "url": "https://microsoft.github.io/autogen/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Microsoft's open-source framework for multi-agent systems.",
+  "description": "AutoGen lets several AI agents collaborate, converse, use tools and run code to solve a task. AutoGen Studio offers a visual interface to prototype without code.",
+  "summary_fr": "Framework open source de Microsoft pour créer des systèmes multi-agents.",
+  "description_fr": "AutoGen permet de faire collaborer plusieurs agents IA qui dialoguent, utilisent des outils et exécutent du code pour résoudre une tâche. AutoGen Studio offre une interface visuelle pour prototyper sans coder.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://microsoft.github.io/autogen/",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/autogen.png",
+  "image": "/screenshots/autogen.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Agents that collaborate",
+    "Code execution and tools",
+    "AutoGen Studio visual interface",
+    "Open source, Python and .NET"
+  ],
+  "features_fr": [
+    "Agents qui collaborent entre eux",
+    "Exécution de code et outils",
+    "AutoGen Studio, interface visuelle",
+    "Open source, Python et .NET"
+  ],
+  "howToUse": [
+    {
+      "title": "Open AutoGen (Microsoft)",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "AutoGen (Microsoft)",
+          "url": "https://microsoft.github.io/autogen/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

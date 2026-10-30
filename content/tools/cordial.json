@@ -1,0 +1,68 @@
+{
+  "id": "cordial",
+  "name": "Cordial",
+  "url": "https://www.cordial.fr",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Reference French grammar checker and style tool.",
+  "description": "Cordial, developed by Synapse Développement, corrects spelling, grammar and typography and analyzes the style of French texts. It offers dictionaries, synonyms and rephrasing on desktop and in major software.",
+  "summary_fr": "Correcteur et outil de style de référence pour le français.",
+  "description_fr": "Cordial, développé par Synapse Développement, corrige l'orthographe, la grammaire et la typographie et analyse le style des textes français. Il propose dictionnaires, synonymes et reformulations, sur ordinateur et dans les principaux logiciels.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "ai",
+    "writing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.cordial.fr",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/cordial.png",
+  "image": "/screenshots/cordial.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Spelling and grammar correction",
+    "Style analysis",
+    "Dictionaries and synonyms",
+    "Office software integration"
+  ],
+  "features_fr": [
+    "Correction orthographique et grammaticale",
+    "Analyse du style",
+    "Dictionnaires et synonymes",
+    "Intégration aux logiciels de bureautique"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Cordial",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Cordial",
+          "url": "https://www.cordial.fr"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "locofy",
+  "name": "Locofy",
+  "url": "https://www.locofy.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns Figma designs into production-ready front-end code.",
+  "description": "Locofy converts Figma or Penpot designs into React, Next.js, Vue, HTML or Flutter code, with reusable components and responsive layouts. It reduces handoff work between designers and developers.",
+  "summary_fr": "Transforme des maquettes Figma en code front-end prêt à l'emploi.",
+  "description_fr": "Locofy convertit des designs Figma ou Penpot en code React, Next.js, Vue, HTML ou Flutter, avec composants réutilisables et mise en page responsive. Il réduit le travail entre designers et développeurs.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.locofy.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/locofy.png",
+  "image": "/screenshots/locofy.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Figma to React, Vue, HTML or Flutter",
+    "Reusable components",
+    "Responsive layouts",
+    "Export to GitHub or VS Code"
+  ],
+  "features_fr": [
+    "Figma vers React, Vue, HTML ou Flutter",
+    "Composants réutilisables",
+    "Mise en page responsive",
+    "Export vers GitHub ou VS Code"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Locofy",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Locofy",
+          "url": "https://www.locofy.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "SG",
+  "hqCountrySource": "import"
+}

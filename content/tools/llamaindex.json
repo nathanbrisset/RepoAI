@@ -1,0 +1,67 @@
+{
+  "id": "llamaindex",
+  "name": "LlamaIndex",
+  "url": "https://www.llamaindex.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Framework to connect AI models to your data.",
+  "description": "LlamaIndex helps developers build agents and apps that query documents: ingestion, indexing, retrieval and extraction. LlamaParse and LlamaCloud handle complex PDFs at scale.",
+  "summary_fr": "Framework pour connecter les modèles d'IA à tes données.",
+  "description_fr": "LlamaIndex aide les développeurs à construire des agents et applications qui interrogent des documents : ingestion, indexation, recherche et extraction. LlamaParse et LlamaCloud traitent les PDF complexes à grande échelle.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.llamaindex.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/llamaindex.png",
+  "image": "/screenshots/llamaindex.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Document ingestion and indexing",
+    "Retrieval (RAG)",
+    "LlamaParse for complex PDFs",
+    "Agents and workflows"
+  ],
+  "features_fr": [
+    "Ingestion et indexation de documents",
+    "Recherche documentaire (RAG)",
+    "LlamaParse pour PDF complexes",
+    "Agents et workflows"
+  ],
+  "howToUse": [
+    {
+      "title": "Open LlamaIndex",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "LlamaIndex",
+          "url": "https://www.llamaindex.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "masterchannel",
+  "name": "Masterchannel",
+  "url": "https://masterchannel.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Automatic AI audio mastering.",
+  "description": "Masterchannel masters a track in seconds, modeled on an audio engineer's choices, with the option to match a reference track. It targets independent artists who release regularly.",
+  "summary_fr": "Mastering audio automatique par IA.",
+  "description_fr": "Masterchannel masterise un morceau en quelques secondes, en s'inspirant des choix d'un ingénieur du son, avec possibilité de s'aligner sur un titre de référence. Il vise les artistes indépendants qui publient régulièrement.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "ai",
+    "music",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://masterchannel.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/masterchannel.png",
+  "image": "/screenshots/masterchannel.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Mastering in seconds",
+    "Match a reference track",
+    "Intensity controls",
+    "Export for streaming platforms"
+  ],
+  "features_fr": [
+    "Mastering en quelques secondes",
+    "Alignement sur un titre de référence",
+    "Réglages d'intensité",
+    "Export pour plateformes de streaming"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Masterchannel",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Masterchannel",
+          "url": "https://masterchannel.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "NO",
+  "hqCountrySource": "import"
+}

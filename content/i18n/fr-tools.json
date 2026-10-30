@@ -32440,5 +32440,1986 @@
     ],
     "summary_fr": "Plateforme de recherche en investissement combinant données financières, analyses et IA conversationnelle.",
     "description_fr": "Plateforme de recherche en investissement combinant données financières, analyses et IA conversationnelle."
+  },
+  "ernie-bot": {
+    "summary_fr": "L'assistant IA de Baidu, très utilisé en Chine.",
+    "description_fr": "ERNIE Bot (文心一言) est le chatbot de Baidu, basé sur ses modèles ERNIE. Il répond aux questions, rédige, génère des images et s'intègre aux services de recherche de Baidu.",
+    "features_fr": [
+      "Chat et rédaction en chinois et en anglais",
+      "Génération d'images",
+      "Recherche web intégrée",
+      "Application web et mobile"
+    ]
+  },
+  "nomi-ai": {
+    "summary_fr": "Compagnon IA avec mémoire longue et personnalité propre.",
+    "description_fr": "Nomi AI permet de créer des compagnons conversationnels qui se souviennent des échanges passés et développent une personnalité. On peut discuter par texte ou voix, et générer des images du personnage.",
+    "features_fr": [
+      "Mémoire à long terme des conversations",
+      "Personnalité personnalisable",
+      "Appels vocaux",
+      "Images du compagnon générées"
+    ]
+  },
+  "replika": {
+    "summary_fr": "Compagnon IA pour discuter au quotidien.",
+    "description_fr": "Replika est l'une des premières applications de compagnon IA : un personnage avec qui discuter, qui apprend à te connaître au fil des échanges. Elle propose aussi des appels vocaux et une réalité augmentée.",
+    "features_fr": [
+      "Personnage qui apprend de tes échanges",
+      "Appels vocaux",
+      "Avatar 3D et réalité augmentée",
+      "Journal et suivi d'humeur"
+    ]
+  },
+  "open-webui": {
+    "summary_fr": "Interface de chat open source pour modèles locaux ou en ligne.",
+    "description_fr": "Open WebUI offre une interface proche de ChatGPT pour utiliser Ollama, des modèles compatibles OpenAI ou d'autres fournisseurs, en auto-hébergement. Elle gère documents, recherche web, multi-utilisateurs et outils.",
+    "features_fr": [
+      "Interface de chat auto-hébergée",
+      "Compatible Ollama et API OpenAI",
+      "Chat avec documents (RAG)",
+      "Gestion des utilisateurs et des droits"
+    ]
+  },
+  "librechat": {
+    "summary_fr": "Interface de chat open source multi-fournisseurs.",
+    "description_fr": "LibreChat réunit dans une interface unique les modèles d'OpenAI, Anthropic, Google, Mistral et des modèles locaux. Il propose agents, recherche, artefacts et partage, et s'installe sur ses propres serveurs.",
+    "features_fr": [
+      "Tous les grands fournisseurs de modèles",
+      "Agents et outils",
+      "Auto-hébergement",
+      "Partage de conversations"
+    ]
+  },
+  "khoj": {
+    "summary_fr": "Assistant IA personnel qui cherche dans tes notes et sur le web.",
+    "description_fr": "Khoj est un « second cerveau » open source : il répond à partir de tes documents, notes Obsidian ou Notion et du web, et peut lancer des recherches automatisées. Il fonctionne en ligne ou en auto-hébergement.",
+    "features_fr": [
+      "Réponses à partir de tes documents",
+      "Recherche web intégrée",
+      "Automatisations planifiées",
+      "Open source, auto-hébergeable"
+    ]
+  },
+  "anythingllm": {
+    "summary_fr": "Application tout-en-un pour discuter avec tes documents en local.",
+    "description_fr": "AnythingLLM permet de charger documents et sites, puis de les interroger avec le modèle de ton choix, local ou en ligne. L'application de bureau fonctionne sans configuration et inclut des agents.",
+    "features_fr": [
+      "Chat avec documents en local",
+      "Choix du modèle (local ou API)",
+      "Agents et outils",
+      "Application de bureau sans configuration"
+    ]
+  },
+  "gpt4all": {
+    "summary_fr": "Faire tourner des modèles d'IA en local sur son ordinateur.",
+    "description_fr": "GPT4All, de Nomic, est une application de bureau gratuite pour télécharger et utiliser des modèles de langage open source sans connexion. Elle permet aussi d'interroger ses fichiers locaux en toute confidentialité.",
+    "features_fr": [
+      "Modèles open source hors ligne",
+      "Interroger ses fichiers locaux",
+      "Aucune donnée envoyée en ligne",
+      "Windows, macOS et Linux"
+    ]
+  },
+  "autogen": {
+    "summary_fr": "Framework open source de Microsoft pour créer des systèmes multi-agents.",
+    "description_fr": "AutoGen permet de faire collaborer plusieurs agents IA qui dialoguent, utilisent des outils et exécutent du code pour résoudre une tâche. AutoGen Studio offre une interface visuelle pour prototyper sans coder.",
+    "features_fr": [
+      "Agents qui collaborent entre eux",
+      "Exécution de code et outils",
+      "AutoGen Studio, interface visuelle",
+      "Open source, Python et .NET"
+    ]
+  },
+  "langgraph": {
+    "summary_fr": "Framework pour construire des agents IA fiables sous forme de graphes.",
+    "description_fr": "LangGraph, de l'équipe LangChain, modélise un agent comme un graphe d'étapes avec mémoire, reprise sur erreur et validation humaine. LangGraph Platform permet de déployer et surveiller les agents en production.",
+    "features_fr": [
+      "Agents modélisés en graphes d'étapes",
+      "Mémoire et reprise sur erreur",
+      "Validation humaine dans la boucle",
+      "Déploiement avec LangGraph Platform"
+    ]
+  },
+  "llamaindex": {
+    "summary_fr": "Framework pour connecter les modèles d'IA à tes données.",
+    "description_fr": "LlamaIndex aide les développeurs à construire des agents et applications qui interrogent des documents : ingestion, indexation, recherche et extraction. LlamaParse et LlamaCloud traitent les PDF complexes à grande échelle.",
+    "features_fr": [
+      "Ingestion et indexation de documents",
+      "Recherche documentaire (RAG)",
+      "LlamaParse pour PDF complexes",
+      "Agents et workflows"
+    ]
+  },
+  "agno": {
+    "summary_fr": "Framework léger et rapide pour créer des agents IA (ex-Phidata).",
+    "description_fr": "Agno, anciennement Phidata, permet de créer en Python des agents avec mémoire, connaissances et outils, puis de les assembler en équipes. Une interface permet de discuter avec les agents et de les surveiller.",
+    "features_fr": [
+      "Agents avec mémoire et outils",
+      "Équipes d'agents",
+      "Interface de suivi",
+      "Open source, Python"
+    ]
+  },
+  "openai-agents-sdk": {
+    "summary_fr": "Kit open source d'OpenAI pour construire des agents.",
+    "description_fr": "L'Agents SDK d'OpenAI fournit les briques pour créer des agents : outils, passages de relais entre agents, garde-fous et traçage. Il est disponible en Python et TypeScript et fonctionne aussi avec d'autres modèles.",
+    "features_fr": [
+      "Outils et appels de fonctions",
+      "Relais entre agents",
+      "Garde-fous",
+      "Traçage et débogage"
+    ]
+  },
+  "airtop": {
+    "summary_fr": "Navigateurs cloud pilotés en langage naturel pour agents IA.",
+    "description_fr": "Airtop fournit des navigateurs dans le cloud que les agents peuvent contrôler en langage naturel : se connecter, naviguer, extraire des données, même derrière une authentification. Il sert à automatiser des tâches web sans scripts fragiles.",
+    "features_fr": [
+      "Navigateurs cloud pour agents",
+      "Contrôle en langage naturel",
+      "Sessions authentifiées",
+      "Extraction de données web"
+    ]
+  },
+  "browserbase": {
+    "summary_fr": "Infrastructure de navigateurs headless pour agents IA.",
+    "description_fr": "Browserbase fait tourner à grande échelle des navigateurs dans le cloud pour les agents et scripts d'automatisation, avec gestion des sessions, enregistrement et contournement des blocages. Stagehand, son framework open source, pilote le navigateur en langage naturel.",
+    "features_fr": [
+      "Navigateurs cloud à grande échelle",
+      "Enregistrement des sessions",
+      "Stagehand : pilotage en langage naturel",
+      "API pour développeurs"
+    ]
+  },
+  "firecrawl": {
+    "summary_fr": "Transforme n'importe quel site en données propres pour l'IA.",
+    "description_fr": "Firecrawl explore et récupère le contenu de sites web, puis le convertit en Markdown ou en données structurées prêtes pour les modèles d'IA. Il gère le JavaScript, la pagination et l'extraction guidée par schéma.",
+    "features_fr": [
+      "Exploration et extraction de sites",
+      "Conversion en Markdown",
+      "Extraction structurée par schéma",
+      "API et SDK open source"
+    ]
+  },
+  "e2b": {
+    "summary_fr": "Environnements sécurisés pour exécuter le code généré par l'IA.",
+    "description_fr": "E2B fournit des bacs à sable cloud où les agents IA peuvent exécuter du code, manipuler des fichiers et utiliser des outils sans risque pour tes systèmes. Il sert aux assistants d'analyse de données et aux agents de code.",
+    "features_fr": [
+      "Bacs à sable isolés dans le cloud",
+      "Exécution de code Python et JS",
+      "Système de fichiers et terminal",
+      "SDK pour agents"
+    ]
+  },
+  "letta": {
+    "summary_fr": "Plateforme d'agents IA avec mémoire persistante (ex-MemGPT).",
+    "description_fr": "Letta, issu du projet de recherche MemGPT, permet de créer des agents qui gardent une mémoire durable et apprennent au fil du temps. Une interface de développement permet d'inspecter et modifier leur mémoire.",
+    "features_fr": [
+      "Mémoire persistante des agents",
+      "Inspection et édition de la mémoire",
+      "API et serveur open source",
+      "Agents qui apprennent dans la durée"
+    ]
+  },
+  "mem0": {
+    "summary_fr": "Couche de mémoire pour applications et agents IA.",
+    "description_fr": "Mem0 ajoute une mémoire à long terme aux assistants IA : il retient les préférences et faits importants de chaque utilisateur et les restitue au bon moment. Il s'intègre en quelques lignes et existe en version open source.",
+    "features_fr": [
+      "Mémoire à long terme par utilisateur",
+      "Rappel contextuel",
+      "Intégration en quelques lignes",
+      "Version open source"
+    ]
+  },
+  "pydantic-ai": {
+    "summary_fr": "Framework Python pour des agents IA typés et fiables.",
+    "description_fr": "Pydantic AI, de l'équipe derrière Pydantic, permet de créer des agents avec des sorties validées, des outils typés et l'injection de dépendances. Il s'intègre à Logfire pour l'observabilité.",
+    "features_fr": [
+      "Sorties validées et typées",
+      "Outils et dépendances",
+      "Compatible avec de nombreux modèles",
+      "Observabilité avec Logfire"
+    ]
+  },
+  "phantombuster": {
+    "summary_fr": "Automatisations d'extraction et de prospection sur LinkedIn et le web (France).",
+    "description_fr": "PhantomBuster propose des « phantoms » prêts à l'emploi pour extraire des données de LinkedIn, Google Maps ou d'autres sites et automatiser des actions de prospection. Des fonctions IA enrichissent et qualifient les leads. La société est d'origine française.",
+    "features_fr": [
+      "Extraction LinkedIn, Google Maps et sites web",
+      "Automatisation d'actions de prospection",
+      "Enrichissement et qualification IA",
+      "Planification et export vers le CRM"
+    ]
+  },
+  "browse-ai": {
+    "summary_fr": "Robots sans code pour extraire et surveiller des données web.",
+    "description_fr": "Browse AI permet d'entraîner en quelques clics un robot qui extrait les données d'un site (prix, annonces, listes) et surveille leurs changements. Les données s'envoient vers Google Sheets, Airtable ou une API.",
+    "features_fr": [
+      "Robots d'extraction entraînés en quelques clics",
+      "Surveillance des changements",
+      "Export vers Sheets, Airtable et API",
+      "Robots préconfigurés"
+    ]
+  },
+  "apify": {
+    "summary_fr": "Plateforme de scraping et d'automatisation web avec des milliers d'outils prêts.",
+    "description_fr": "Apify héberge une place de marché de milliers d'« Actors » qui extraient des données de sites, réseaux sociaux ou moteurs de recherche. La plateforme fournit aussi l'infrastructure pour créer ses propres scrapers et alimenter des agents IA.",
+    "features_fr": [
+      "Place de marché de milliers de scrapers",
+      "Infrastructure cloud et proxys",
+      "Création de scrapers personnalisés",
+      "Intégration aux agents IA"
+    ]
+  },
+  "octoparse": {
+    "summary_fr": "Extraction de données web sans code, assistée par IA.",
+    "description_fr": "Octoparse détecte automatiquement les données d'une page et construit un scraper par pointer-cliquer. Les extractions tournent dans le cloud selon un planning et s'exportent en Excel, CSV ou base de données.",
+    "features_fr": [
+      "Détection automatique des données",
+      "Scraper par pointer-cliquer",
+      "Extractions planifiées dans le cloud",
+      "Modèles pour sites populaires"
+    ]
+  },
+  "magical": {
+    "summary_fr": "Raccourcis texte et automatisations IA dans le navigateur.",
+    "description_fr": "Magical remplit formulaires, rédige réponses et transfère des données entre onglets grâce à des raccourcis et à l'IA. Il vise les équipes de support, recrutement et vente qui répètent les mêmes tâches.",
+    "features_fr": [
+      "Raccourcis de texte",
+      "Remplissage automatique de formulaires",
+      "Réponses rédigées par IA",
+      "Transfert de données entre onglets"
+    ]
+  },
+  "text-blaze": {
+    "summary_fr": "Modèles de texte dynamiques et IA pour écrire plus vite partout.",
+    "description_fr": "Text Blaze insère des modèles de texte personnalisables avec des raccourcis, avec des champs dynamiques et des formules. Son assistant IA aide à rédiger et reformuler dans n'importe quel site.",
+    "features_fr": [
+      "Modèles de texte avec raccourcis",
+      "Champs dynamiques et formules",
+      "Assistant IA de rédaction",
+      "Partage des modèles en équipe"
+    ]
+  },
+  "trigger-dev": {
+    "summary_fr": "Tâches de fond et workflows IA pour développeurs, en TypeScript.",
+    "description_fr": "Trigger.dev permet d'écrire en TypeScript des tâches longues, planifiées ou déclenchées par événement, sans gérer de serveurs. Il est souvent utilisé pour orchestrer des agents et traitements IA en production.",
+    "features_fr": [
+      "Tâches longues sans serveur",
+      "Planification et déclencheurs",
+      "Observabilité des exécutions",
+      "Open source"
+    ]
+  },
+  "rossum": {
+    "summary_fr": "Traitement intelligent des documents (factures, bons de commande).",
+    "description_fr": "Rossum extrait automatiquement les données des factures, bons de commande et documents logistiques, valide les informations et les envoie dans l'ERP. Il apprend des corrections pour réduire la saisie manuelle.",
+    "features_fr": [
+      "Extraction de données de documents",
+      "Validation automatique",
+      "Intégration ERP",
+      "Apprentissage à partir des corrections"
+    ]
+  },
+  "gitlab-duo": {
+    "summary_fr": "IA de GitLab sur tout le cycle de développement.",
+    "description_fr": "GitLab Duo ajoute à la plateforme GitLab des suggestions de code, un chat, des explications de vulnérabilités, la rédaction de résumés de merge requests et des agents. Il couvre le développement, la sécurité et les opérations.",
+    "features_fr": [
+      "Suggestions de code et chat",
+      "Résumés de merge requests",
+      "Explication et correction de vulnérabilités",
+      "Agents dans GitLab"
+    ]
+  },
+  "sentry-seer": {
+    "summary_fr": "Agent de débogage IA qui trouve la cause des erreurs et propose un correctif.",
+    "description_fr": "Seer analyse les erreurs, traces et logs remontés dans Sentry pour identifier la cause racine d'un bug, puis propose et teste un correctif sous forme de pull request. Il revoit aussi le code pour prévenir les régressions.",
+    "features_fr": [
+      "Analyse de cause racine",
+      "Correctifs proposés en pull request",
+      "Revue de code préventive",
+      "Basé sur les données Sentry"
+    ]
+  },
+  "postman-postbot": {
+    "summary_fr": "Assistant IA de Postman pour tester et documenter les API.",
+    "description_fr": "Postbot génère des tests d'API, de la documentation et des visualisations de réponses dans Postman, et aide à déboguer les requêtes. Il accélère le travail des équipes qui conçoivent et testent des API.",
+    "features_fr": [
+      "Génération de tests d'API",
+      "Documentation automatique",
+      "Débogage des requêtes",
+      "Visualisation des réponses"
+    ]
+  },
+  "swimm": {
+    "summary_fr": "Documentation du code générée et tenue à jour par IA.",
+    "description_fr": "Swimm analyse un dépôt pour expliquer les flux et la logique du code, et maintient la documentation synchronisée à chaque changement. Il aide les développeurs à comprendre rapidement une base de code existante.",
+    "features_fr": [
+      "Explication des flux du code",
+      "Documentation synchronisée au code",
+      "Intégration dans l'IDE",
+      "Compréhension des bases de code anciennes"
+    ]
+  },
+  "codestral": {
+    "summary_fr": "Modèle de code de Mistral AI, rapide et multilingue (France).",
+    "description_fr": "Codestral est le modèle spécialisé dans le code de Mistral AI. Il complète, explique et génère du code dans plus de 80 langages, et s'intègre aux éditeurs via des extensions comme Continue ou les outils de Mistral.",
+    "features_fr": [
+      "Complétion de code rapide",
+      "Plus de 80 langages",
+      "Disponible par API",
+      "Modèle européen"
+    ]
+  },
+  "void-editor": {
+    "summary_fr": "Éditeur de code IA open source, alternative à Cursor.",
+    "description_fr": "Void est un éditeur basé sur VS Code qui intègre complétion, chat et agent, tout en laissant le choix du modèle, y compris local. Les données restent sous ton contrôle, sans passer par un serveur intermédiaire.",
+    "features_fr": [
+      "Complétion, chat et agent intégrés",
+      "Choix libre du modèle, y compris local",
+      "Basé sur VS Code",
+      "Open source"
+    ]
+  },
+  "pearai": {
+    "summary_fr": "Éditeur de code IA open source qui réunit les meilleurs outils.",
+    "description_fr": "PearAI est un éditeur basé sur VS Code qui intègre des outils IA open source pour le chat, l'agent de code, la recherche et la mémoire du projet. Il vise à offrir une alternative ouverte aux éditeurs IA propriétaires.",
+    "features_fr": [
+      "Chat et agent de code",
+      "Recherche dans le projet",
+      "Mémoire du projet",
+      "Basé sur VS Code, open source"
+    ]
+  },
+  "sourcegraph": {
+    "summary_fr": "Recherche de code et IA sur de très grandes bases de code.",
+    "description_fr": "Sourcegraph indexe tous les dépôts d'une entreprise pour chercher, naviguer et comprendre le code à grande échelle. Ses fonctions IA répondent aux questions sur le code et automatisent des changements massifs.",
+    "features_fr": [
+      "Recherche de code sur tous les dépôts",
+      "Navigation entre définitions et références",
+      "Questions IA sur le code",
+      "Changements de code à grande échelle"
+    ]
+  },
+  "vercel-ai-sdk": {
+    "summary_fr": "Kit TypeScript open source pour créer des apps IA.",
+    "description_fr": "L'AI SDK de Vercel unifie l'accès aux principaux fournisseurs de modèles et simplifie le streaming, les appels d'outils et les interfaces de chat dans les applications web. Il est très utilisé avec Next.js et React.",
+    "features_fr": [
+      "Accès unifié aux fournisseurs de modèles",
+      "Streaming des réponses",
+      "Appels d'outils et agents",
+      "Composants d'interface de chat"
+    ]
+  },
+  "unblocked": {
+    "summary_fr": "Réponses sur ta base de code à partir du code, des tickets et des discussions.",
+    "description_fr": "Unblocked répond aux questions des développeurs en croisant le code, la documentation, les tickets Jira et les conversations Slack. Il aide à comprendre pourquoi le code est écrit ainsi et accélère l'arrivée de nouveaux développeurs.",
+    "features_fr": [
+      "Réponses à partir du code et des discussions",
+      "Connexion à Slack, Jira et Confluence",
+      "Contexte historique des décisions",
+      "Accélère l'intégration des nouveaux"
+    ]
+  },
+  "draftbit": {
+    "summary_fr": "Création visuelle d'apps mobiles natives, avec export du code.",
+    "description_fr": "Draftbit permet de concevoir des applications iOS et Android avec un éditeur visuel basé sur React Native, de connecter des API et d'exporter le code source. Un assistant IA aide à générer les écrans.",
+    "features_fr": [
+      "Éditeur visuel React Native",
+      "Connexion aux API",
+      "Export du code source",
+      "Génération d'écrans par IA"
+    ]
+  },
+  "thunkable": {
+    "summary_fr": "Applications mobiles sans code, avec blocs et IA.",
+    "description_fr": "Thunkable permet de créer des apps iOS, Android et web par glisser-déposer et logique en blocs, avec des composants IA prêts à l'emploi. Il est apprécié dans l'éducation et par les créateurs débutants.",
+    "features_fr": [
+      "Glisser-déposer et logique en blocs",
+      "Composants IA intégrés",
+      "Publication sur les stores",
+      "Adapté aux débutants"
+    ]
+  },
+  "noloco": {
+    "summary_fr": "Portails clients et outils internes sans code, à partir de tes données.",
+    "description_fr": "Noloco transforme des données Airtable, Google Sheets ou SQL en applications : portails clients, CRM, outils internes. L'IA aide à générer l'app et automatiser des tâches, avec gestion fine des droits.",
+    "features_fr": [
+      "Apps à partir d'Airtable, Sheets ou SQL",
+      "Portails clients",
+      "Génération et automatisations par IA",
+      "Gestion des rôles et permissions"
+    ]
+  },
+  "fillout": {
+    "summary_fr": "Formulaires puissants et élégants, avec génération par IA.",
+    "description_fr": "Fillout crée formulaires, enquêtes et quiz à partir d'une description, avec logique conditionnelle, paiements et planification. Les réponses vont directement dans Notion, Airtable, HubSpot ou Google Sheets.",
+    "features_fr": [
+      "Formulaires générés par IA",
+      "Logique conditionnelle",
+      "Paiements et prise de rendez-vous",
+      "Intégrations Notion, Airtable, HubSpot"
+    ]
+  },
+  "tally": {
+    "summary_fr": "Formulaires gratuits et simples, façon document (Belgique).",
+    "description_fr": "Tally permet de créer des formulaires en écrivant comme dans un document, avec une offre gratuite très généreuse. Il gère la logique conditionnelle, les paiements et propose la génération de formulaires par IA.",
+    "features_fr": [
+      "Création façon document",
+      "Offre gratuite généreuse",
+      "Logique conditionnelle et paiements",
+      "Génération par IA"
+    ]
+  },
+  "appsmith": {
+    "summary_fr": "Plateforme open source pour créer des outils internes, avec IA.",
+    "description_fr": "Appsmith permet d'assembler rapidement des tableaux de bord, panneaux d'administration et outils internes connectés à des bases de données et API. Des fonctions IA aident à générer requêtes, code et agents.",
+    "features_fr": [
+      "Composants glisser-déposer",
+      "Connexion aux bases et API",
+      "Génération de requêtes et code par IA",
+      "Open source, auto-hébergeable"
+    ]
+  },
+  "budibase": {
+    "summary_fr": "Outils internes et workflows open source, avec IA.",
+    "description_fr": "Budibase crée applications internes, formulaires et automatisations sur ses données existantes. L'IA génère des tables et des écrans, et la plateforme peut être auto-hébergée pour garder la maîtrise des données.",
+    "features_fr": [
+      "Apps internes sur données existantes",
+      "Automatisations",
+      "Génération de tables et écrans par IA",
+      "Auto-hébergement"
+    ]
+  },
+  "tooljet": {
+    "summary_fr": "Création d'applications internes avec IA, open source.",
+    "description_fr": "ToolJet génère des applications métier à partir d'une description, puis permet de les modifier visuellement et de les connecter à plus de 80 sources de données. Il existe en version open source et entreprise.",
+    "features_fr": [
+      "Applications générées par IA",
+      "Éditeur visuel",
+      "Plus de 80 sources de données",
+      "Open source et auto-hébergeable"
+    ]
+  },
+  "bravo-studio": {
+    "summary_fr": "Transforme une maquette Figma en application mobile native (Espagne).",
+    "description_fr": "Bravo Studio convertit des designs Figma en applications iOS et Android natives, connectées à des API et bases de données. Il permet aux designers de publier une vraie app sans écrire de code.",
+    "features_fr": [
+      "Figma vers app native",
+      "Connexion aux API et bases de données",
+      "Publication sur les stores",
+      "Pensé pour les designers"
+    ]
+  },
+  "plasmic": {
+    "summary_fr": "Constructeur visuel de pages et d'apps, intégré au code existant.",
+    "description_fr": "Plasmic permet aux équipes de concevoir visuellement des pages et applications, puis de les intégrer dans un projet React ou Next.js. L'IA aide à générer des interfaces, et les développeurs gardent la main sur le code.",
+    "features_fr": [
+      "Éditeur visuel de pages",
+      "Intégration React et Next.js",
+      "Génération d'interfaces par IA",
+      "CMS headless"
+    ]
+  },
+  "squibler": {
+    "summary_fr": "Assistant IA pour écrire romans, scénarios et livres.",
+    "description_fr": "Squibler aide à structurer et rédiger des œuvres longues : plan, chapitres, personnages et scènes. Son IA génère des brouillons, poursuit un passage et peut illustrer l'histoire avec des images et vidéos.",
+    "features_fr": [
+      "Plan et structure de livre",
+      "Brouillons et continuation par IA",
+      "Fiches personnages",
+      "Illustrations générées"
+    ]
+  },
+  "type-ai": {
+    "summary_fr": "Éditeur de documents avec IA intégrée pour écrire plus vite.",
+    "description_fr": "Type est un traitement de texte qui intègre l'IA à chaque étape : générer un premier jet, réécrire un paragraphe, changer le ton ou poursuivre une idée. Il s'appuie sur tes propres documents pour garder ton style.",
+    "features_fr": [
+      "Premier jet généré",
+      "Réécriture et changement de ton",
+      "Continuation des idées",
+      "S'adapte à ton style"
+    ]
+  },
+  "scribens": {
+    "summary_fr": "Correcteur d'orthographe et de grammaire gratuit en français.",
+    "description_fr": "Scribens corrige les fautes d'orthographe, de grammaire, de conjugaison et de ponctuation dans les textes français, avec des explications. Il signale aussi répétitions et lourdeurs de style, et propose des extensions pour navigateur et traitement de texte.",
+    "features_fr": [
+      "Correction orthographique et grammaticale",
+      "Explications des règles",
+      "Détection des répétitions et du style",
+      "Extensions navigateur et Word"
+    ]
+  },
+  "merciapp": {
+    "summary_fr": "Assistant d'écriture IA en français, dans tous tes outils.",
+    "description_fr": "MerciApp corrige et améliore les textes en français dans le navigateur, Gmail, Outlook ou les réseaux sociaux. Il reformule, ajuste le ton et propose des formulations plus claires. L'éditeur est français.",
+    "features_fr": [
+      "Correction des textes en français",
+      "Reformulation et ton",
+      "Fonctionne dans Gmail, Outlook et le navigateur",
+      "Éditeur français"
+    ]
+  },
+  "cordial": {
+    "summary_fr": "Correcteur et outil de style de référence pour le français.",
+    "description_fr": "Cordial, développé par Synapse Développement, corrige l'orthographe, la grammaire et la typographie et analyse le style des textes français. Il propose dictionnaires, synonymes et reformulations, sur ordinateur et dans les principaux logiciels.",
+    "features_fr": [
+      "Correction orthographique et grammaticale",
+      "Analyse du style",
+      "Dictionnaires et synonymes",
+      "Intégration aux logiciels de bureautique"
+    ]
+  },
+  "le-robert-correcteur": {
+    "summary_fr": "Le correcteur des éditions Le Robert, avec dictionnaires intégrés.",
+    "description_fr": "Le Robert Correcteur corrige orthographe, grammaire, conjugaison et typographie en s'appuyant sur les dictionnaires Le Robert. Il explique chaque correction et fonctionne dans Word, Outlook et le navigateur.",
+    "features_fr": [
+      "Correction appuyée sur les dictionnaires Le Robert",
+      "Explication de chaque correction",
+      "Intégration Word, Outlook et navigateur",
+      "Dictionnaires de synonymes"
+    ]
+  },
+  "ginger": {
+    "summary_fr": "Correcteur et reformulateur pour écrire en anglais.",
+    "description_fr": "Ginger corrige grammaire et orthographe en anglais, reformule des phrases et traduit dans de nombreuses langues. Il est utile aux non-anglophones qui rédigent en anglais au quotidien.",
+    "features_fr": [
+      "Correction grammaticale en anglais",
+      "Reformulation de phrases",
+      "Traduction",
+      "Extensions navigateur et mobile"
+    ]
+  },
+  "trinka": {
+    "summary_fr": "Correcteur spécialisé dans l'écriture académique et technique en anglais.",
+    "description_fr": "Trinka corrige grammaire, style et terminologie dans les textes scientifiques et techniques en anglais, en tenant compte des conventions de chaque discipline. Il vérifie aussi la cohérence et la conformité aux exigences des revues.",
+    "features_fr": [
+      "Correction adaptée aux disciplines",
+      "Terminologie scientifique",
+      "Vérification de cohérence",
+      "Contrôle avant soumission"
+    ]
+  },
+  "neuroflash": {
+    "summary_fr": "Rédaction marketing IA en langues européennes (Allemagne).",
+    "description_fr": "neuroflash génère textes marketing, posts et articles dans le ton de la marque, avec une attention particulière aux langues européennes dont l'allemand et le français. Il propose aussi la génération d'images et une analyse de l'impact des textes.",
+    "features_fr": [
+      "Textes marketing dans le ton de la marque",
+      "Langues européennes",
+      "Génération d'images",
+      "Analyse de l'impact des textes"
+    ]
+  },
+  "smart-copy": {
+    "summary_fr": "Rédaction IA de textes marketing par Unbounce.",
+    "description_fr": "Smart Copy génère titres, textes de landing pages, publicités et emails à partir de quelques informations. Il est intégré à l'éditeur de pages d'Unbounce pour créer et tester rapidement des variantes.",
+    "features_fr": [
+      "Textes de landing pages",
+      "Publicités et emails",
+      "Variantes à tester",
+      "Intégré à Unbounce"
+    ]
+  },
+  "seedream": {
+    "summary_fr": "Modèle de génération et d'édition d'images de ByteDance.",
+    "description_fr": "Seedream génère des images très détaillées, avec un bon rendu du texte, et permet de les modifier par simples instructions. Il est accessible dans Dreamina, CapCut et via des plateformes d'API.",
+    "features_fr": [
+      "Images très détaillées",
+      "Bon rendu du texte dans l'image",
+      "Édition par instructions",
+      "Disponible dans Dreamina et par API"
+    ]
+  },
+  "imagen": {
+    "summary_fr": "Modèle de génération d'images de Google DeepMind.",
+    "description_fr": "Imagen produit des images photoréalistes et des illustrations à partir de texte, avec un rendu fin des détails et du texte. Il est disponible dans Gemini, Google AI Studio, Vertex AI et des outils comme Whisk.",
+    "features_fr": [
+      "Images photoréalistes",
+      "Rendu fin des détails et du texte",
+      "Disponible dans Gemini et AI Studio",
+      "API via Vertex AI"
+    ]
+  },
+  "invokeai": {
+    "summary_fr": "Studio de création d'images IA pour professionnels, open source.",
+    "description_fr": "Invoke propose un canvas pour générer, retoucher et composer des images avec des modèles comme Stable Diffusion et FLUX, avec contrôle précis par calques et masques. Il existe en version open source locale et en offre cloud pour les studios.",
+    "features_fr": [
+      "Canvas de génération et retouche",
+      "Calques, masques et contrôle fin",
+      "Modèles Stable Diffusion et FLUX",
+      "Open source local ou cloud"
+    ]
+  },
+  "clipdrop": {
+    "summary_fr": "Suite d'outils d'image IA : détourage, nettoyage, agrandissement (France).",
+    "description_fr": "Clipdrop réunit des outils simples pour retirer un arrière-plan, effacer des objets, agrandir, rééclairer ou générer des images. Lancé par une startup française, il a ensuite été repris par Jasper.",
+    "features_fr": [
+      "Suppression d'arrière-plan",
+      "Effacement d'objets",
+      "Agrandissement et relighting",
+      "API pour développeurs"
+    ]
+  },
+  "shutterstock-ai": {
+    "summary_fr": "Générateur d'images IA de Shutterstock, avec licence commerciale.",
+    "description_fr": "Shutterstock génère des images à partir de texte à l'aide de modèles entraînés sur des contenus sous licence, avec une couverture juridique pour l'usage commercial. Les images s'éditent ensuite dans les outils de la plateforme.",
+    "features_fr": [
+      "Génération d'images à partir de texte",
+      "Modèles entraînés sur contenus sous licence",
+      "Couverture juridique commerciale",
+      "Édition intégrée"
+    ]
+  },
+  "getty-generative-ai": {
+    "summary_fr": "Génération d'images commercialement sûre par Getty Images.",
+    "description_fr": "Le générateur de Getty Images est entraîné uniquement sur sa bibliothèque sous licence et offre une indemnisation juridique. Il cible les marques et agences qui ont besoin de visuels sans risque de droits.",
+    "features_fr": [
+      "Entraîné sur la bibliothèque Getty",
+      "Indemnisation juridique",
+      "Retouche et extension d'images",
+      "Pensé pour marques et agences"
+    ]
+  },
+  "cutout-pro": {
+    "summary_fr": "Détourage, retouche photo et vidéo par IA en ligne.",
+    "description_fr": "Cutout.Pro supprime les arrière-plans des photos et vidéos, améliore la qualité, colorise et génère des portraits. Il propose un traitement par lots et une API pour les volumes importants.",
+    "features_fr": [
+      "Détourage photo et vidéo",
+      "Amélioration et colorisation",
+      "Portraits générés",
+      "Traitement par lots et API"
+    ]
+  },
+  "immersity-ai": {
+    "summary_fr": "Transforme photos et vidéos en contenus 3D avec effet de profondeur.",
+    "description_fr": "Immersity AI, anciennement LeiaPix, convertit des images et vidéos 2D en contenus 3D animés avec effet de parallaxe. Les résultats se partagent sur les réseaux ou s'affichent sur écrans et casques 3D.",
+    "features_fr": [
+      "Conversion 2D vers 3D",
+      "Effet de parallaxe animé",
+      "Photos et vidéos",
+      "Export pour réseaux et casques 3D"
+    ]
+  },
+  "aragon-ai": {
+    "summary_fr": "Portraits professionnels générés par IA à partir de selfies.",
+    "description_fr": "Aragon AI crée des photos de profil professionnelles dans des tenues et décors variés à partir de quelques selfies. Les portraits servent pour LinkedIn, sites d'entreprise ou CV.",
+    "features_fr": [
+      "Portraits à partir de selfies",
+      "Tenues et décors variés",
+      "Résultats en haute résolution",
+      "Usage LinkedIn et CV"
+    ]
+  },
+  "headshotpro": {
+    "summary_fr": "Photos de profil professionnelles par IA, pour particuliers et équipes.",
+    "description_fr": "HeadshotPro génère des dizaines de portraits professionnels à partir de quelques photos, avec des styles homogènes pour toute une équipe. Il remplace un shooting photo pour les pages équipe et profils LinkedIn.",
+    "features_fr": [
+      "Dizaines de portraits générés",
+      "Styles homogènes pour une équipe",
+      "Choix des tenues et fonds",
+      "Alternative au shooting photo"
+    ]
+  },
+  "vanceai": {
+    "summary_fr": "Agrandissement, netteté et restauration de photos par IA.",
+    "description_fr": "VanceAI améliore les images : agrandissement, réduction du flou et du bruit, restauration et colorisation de vieilles photos, suppression d'arrière-plan. Il existe en ligne, en logiciel de bureau et par API.",
+    "features_fr": [
+      "Agrandissement d'images",
+      "Réduction du flou et du bruit",
+      "Restauration et colorisation",
+      "Version bureau et API"
+    ]
+  },
+  "seedance": {
+    "summary_fr": "Modèle de génération vidéo de ByteDance, cinématographique et fluide.",
+    "description_fr": "Seedance génère des vidéos à partir de texte ou d'images, avec des mouvements de caméra maîtrisés et plusieurs plans cohérents dans une même séquence. Il est disponible dans Dreamina, CapCut et via des plateformes d'API.",
+    "features_fr": [
+      "Vidéo à partir de texte ou d'image",
+      "Plans multiples cohérents",
+      "Mouvements de caméra maîtrisés",
+      "Disponible dans Dreamina et par API"
+    ]
+  },
+  "makeugc": {
+    "summary_fr": "Vidéos publicitaires au format UGC avec acteurs IA.",
+    "description_fr": "MakeUGC produit des vidéos type contenu utilisateur (témoignages, démonstrations) avec des acteurs IA réalistes à partir d'un script. Les marques e-commerce l'utilisent pour tester rapidement de nombreuses publicités.",
+    "features_fr": [
+      "Acteurs IA réalistes",
+      "Vidéos UGC à partir d'un script",
+      "Nombreuses langues",
+      "Variantes publicitaires rapides"
+    ]
+  },
+  "clipfly": {
+    "summary_fr": "Création et montage vidéo IA en ligne.",
+    "description_fr": "Clipfly réunit génération de vidéos à partir de texte ou d'images, montage en ligne, agrandissement et amélioration de la qualité. Il vise les créateurs qui veulent produire vite sans logiciel lourd.",
+    "features_fr": [
+      "Texte et image en vidéo",
+      "Montage en ligne",
+      "Agrandissement vidéo",
+      "Modèles prêts à l'emploi"
+    ]
+  },
+  "wave-video": {
+    "summary_fr": "Création, hébergement et diffusion de vidéos marketing.",
+    "description_fr": "Wave.video combine éditeur vidéo, banque de médias, diffusion en direct et hébergement. Ses outils IA génèrent des vidéos à partir de texte, des sous-titres et des miniatures pour les réseaux sociaux.",
+    "features_fr": [
+      "Éditeur vidéo et banque de médias",
+      "Texte en vidéo par IA",
+      "Diffusion en direct",
+      "Hébergement vidéo"
+    ]
+  },
+  "biteable": {
+    "summary_fr": "Vidéos animées pour entreprises, à partir de modèles et d'IA.",
+    "description_fr": "Biteable crée des vidéos animées et explicatives pour la communication d'entreprise, avec modèles, charte graphique et génération de brouillons par IA. Les vidéos se partagent avec suivi des vues.",
+    "features_fr": [
+      "Modèles de vidéos animées",
+      "Brouillons générés par IA",
+      "Charte graphique",
+      "Partage et suivi des vues"
+    ]
+  },
+  "renderforest": {
+    "summary_fr": "Vidéos, logos et sites générés par IA à partir de modèles.",
+    "description_fr": "Renderforest propose des milliers de modèles pour créer vidéos animées, intros, logos, maquettes et sites web. Ses outils IA génèrent une vidéo ou un logo complet à partir d'une description.",
+    "features_fr": [
+      "Milliers de modèles vidéo",
+      "Génération de vidéo par IA",
+      "Logos et maquettes",
+      "Création de sites web"
+    ]
+  },
+  "powtoon": {
+    "summary_fr": "Vidéos animées et présentations dynamiques, assistées par IA.",
+    "description_fr": "Powtoon permet de créer vidéos explicatives, formations et présentations animées par glisser-déposer. Ses fonctions IA transforment un document ou un script en vidéo et ajoutent avatars et voix off.",
+    "features_fr": [
+      "Animations par glisser-déposer",
+      "Document ou script vers vidéo",
+      "Avatars et voix off",
+      "Modèles pour formation et marketing"
+    ]
+  },
+  "vyond": {
+    "summary_fr": "Vidéos animées professionnelles avec personnages, assistées par IA.",
+    "description_fr": "Vyond crée des vidéos animées avec personnages pour la formation, la communication interne et le marketing. Vyond Go génère une vidéo complète à partir d'une consigne, modifiable ensuite dans l'éditeur.",
+    "features_fr": [
+      "Personnages animés personnalisables",
+      "Vyond Go : vidéo générée par consigne",
+      "Voix off et synchronisation labiale",
+      "Pensé pour la formation"
+    ]
+  },
+  "animaker": {
+    "summary_fr": "Création de vidéos animées et live, avec outils IA.",
+    "description_fr": "Animaker permet de créer des vidéos animées, des infographies et des vidéos en prises de vue réelles à partir de modèles et de personnages. L'IA génère voix off, sous-titres et vidéos à partir de texte.",
+    "features_fr": [
+      "Personnages et modèles animés",
+      "Infographies animées",
+      "Voix off et sous-titres IA",
+      "Texte en vidéo"
+    ]
+  },
+  "timebolt": {
+    "summary_fr": "Supprime automatiquement silences et hésitations dans les vidéos.",
+    "description_fr": "TimeBolt détecte et coupe les silences, les « euh » et les blancs dans les enregistrements, ce qui raccourcit fortement le temps de montage. Les coupes s'exportent vers Premiere Pro, DaVinci Resolve ou Final Cut.",
+    "features_fr": [
+      "Suppression automatique des silences",
+      "Détection des mots parasites",
+      "Export vers les logiciels de montage",
+      "Traitement de longues vidéos"
+    ]
+  },
+  "autocut": {
+    "summary_fr": "Plugin IA pour accélérer le montage dans Premiere Pro et DaVinci (France).",
+    "description_fr": "AutoCut automatise les tâches répétitives du montage : suppression des silences, sous-titres animés, zooms automatiques, découpe en clips viraux et choix des B-rolls. La startup est française et vise les créateurs YouTube.",
+    "features_fr": [
+      "Suppression automatique des silences",
+      "Sous-titres animés",
+      "Zooms et B-rolls automatiques",
+      "Plugin Premiere Pro et DaVinci Resolve"
+    ]
+  },
+  "eklipse": {
+    "summary_fr": "Transforme tes streams de jeux en clips TikTok et Shorts.",
+    "description_fr": "Eklipse repère automatiquement les meilleurs moments des streams Twitch, YouTube ou Kick et les convertit en clips verticaux avec sous-titres et effets. Il cible les streamers et créateurs gaming.",
+    "features_fr": [
+      "Détection des meilleurs moments de stream",
+      "Clips verticaux automatiques",
+      "Sous-titres et effets",
+      "Publication sur TikTok et Shorts"
+    ]
+  },
+  "spikes-studio": {
+    "summary_fr": "Clips viraux à partir de vidéos longues, podcasts et streams.",
+    "description_fr": "Spikes Studio découpe vidéos, podcasts et streams en clips courts au format vertical, avec sous-titres et recadrage automatiques. Il convient aux créateurs qui recyclent leurs contenus longs.",
+    "features_fr": [
+      "Découpe automatique en clips",
+      "Recadrage vertical",
+      "Sous-titres automatiques",
+      "Podcasts, vidéos et streams"
+    ]
+  },
+  "sesame": {
+    "summary_fr": "Assistant vocal conversationnel très naturel.",
+    "description_fr": "Sesame développe des voix IA conversationnelles qui reproduisent les intonations, pauses et réactions d'une vraie conversation. Sa démo a marqué les esprits par son naturel, et l'entreprise publie aussi un modèle open source.",
+    "features_fr": [
+      "Conversation vocale très naturelle",
+      "Intonations et pauses réalistes",
+      "Modèle vocal open source",
+      "Pensé comme compagnon au quotidien"
+    ]
+  },
+  "azure-ai-speech": {
+    "summary_fr": "Services vocaux de Microsoft : transcription, synthèse et traduction.",
+    "description_fr": "Azure AI Speech fournit reconnaissance vocale, synthèse vocale avec des centaines de voix neuronales, voix personnalisées et traduction de la parole en temps réel. Les entreprises l'intègrent dans leurs applications et centres d'appels.",
+    "features_fr": [
+      "Reconnaissance vocale",
+      "Centaines de voix neuronales",
+      "Voix personnalisées",
+      "Traduction de la parole en temps réel"
+    ]
+  },
+  "google-cloud-tts": {
+    "summary_fr": "Synthèse vocale de Google pour les développeurs.",
+    "description_fr": "Google Cloud Text-to-Speech convertit du texte en voix naturelle dans plus de 50 langues, avec les voix Chirp et WaveNet, et permet de créer des voix personnalisées. Il s'utilise par API dans les applications et services vocaux.",
+    "features_fr": [
+      "Plus de 50 langues",
+      "Voix Chirp et WaveNet",
+      "Voix personnalisées",
+      "API et facturation à l'usage"
+    ]
+  },
+  "amazon-polly": {
+    "summary_fr": "Synthèse vocale d'AWS pour applications et contenus.",
+    "description_fr": "Amazon Polly transforme du texte en parole avec des voix neuronales et génératives dans de nombreuses langues. Il est utilisé pour les applications, l'accessibilité, les articles audio et les serveurs vocaux.",
+    "features_fr": [
+      "Voix neuronales et génératives",
+      "Nombreuses langues",
+      "Contrôle par balisage SSML",
+      "API AWS à l'usage"
+    ]
+  },
+  "kokoro-tts": {
+    "summary_fr": "Petit modèle de synthèse vocale open source, rapide et de qualité.",
+    "description_fr": "Kokoro est un modèle de synthèse vocale léger (82 millions de paramètres) qui produit des voix de bonne qualité en plusieurs langues. Ses poids sont libres et il tourne même sur un ordinateur modeste.",
+    "features_fr": [
+      "Modèle léger et rapide",
+      "Voix de bonne qualité",
+      "Plusieurs langues",
+      "Poids open source, usage commercial permis"
+    ]
+  },
+  "polyai": {
+    "summary_fr": "Agents vocaux IA pour les centres d'appels des grandes entreprises.",
+    "description_fr": "PolyAI déploie des assistants vocaux qui répondent au téléphone de façon naturelle pour réserver, gérer un compte ou résoudre un problème. Il vise l'hôtellerie, la banque, la distribution et les services publics.",
+    "features_fr": [
+      "Agents vocaux pour le service client",
+      "Conversations naturelles et multilingues",
+      "Intégration aux systèmes existants",
+      "Pensé pour les grands volumes d'appels"
+    ]
+  },
+  "willow-voice": {
+    "summary_fr": "Dictée vocale IA rapide, dans toutes tes applications.",
+    "description_fr": "Willow transforme la voix en texte propre et bien ponctué dans n'importe quelle application, en adaptant le style au contexte (email, chat, document). Il apprend ton vocabulaire au fil de l'usage.",
+    "features_fr": [
+      "Dictée dans toutes les applications",
+      "Ponctuation et mise en forme automatiques",
+      "Style adapté au contexte",
+      "Apprentissage du vocabulaire"
+    ]
+  },
+  "dragon-speech": {
+    "summary_fr": "Logiciel de reconnaissance vocale de référence, par Microsoft Nuance.",
+    "description_fr": "Dragon transcrit la voix avec une grande précision, permet de contrôler l'ordinateur à la voix et s'adapte aux vocabulaires professionnels (juridique, médical). Il est une référence de longue date pour la dictée.",
+    "features_fr": [
+      "Dictée très précise",
+      "Commandes vocales de l'ordinateur",
+      "Vocabulaires professionnels",
+      "Versions juridique et médicale"
+    ]
+  },
+  "unreal-speech": {
+    "summary_fr": "API de synthèse vocale bon marché et rapide.",
+    "description_fr": "Unreal Speech fournit une API de synthèse vocale à faible coût et faible latence, avec plusieurs voix naturelles. Elle cible les développeurs qui génèrent de gros volumes audio, comme les livres audio ou les applications.",
+    "features_fr": [
+      "Synthèse vocale à faible coût",
+      "Faible latence",
+      "Voix naturelles",
+      "API pour gros volumes"
+    ]
+  },
+  "soundverse": {
+    "summary_fr": "Création musicale IA : chansons, instrumentaux et voix.",
+    "description_fr": "Soundverse génère des morceaux complets, des instrumentaux ou des paroles à partir d'une description, et permet de prolonger, séparer ou remixer un titre. Il s'adresse aux créateurs de contenu et aux musiciens amateurs.",
+    "features_fr": [
+      "Chanson complète à partir d'une description",
+      "Instrumentaux et paroles",
+      "Prolongation et remix d'un morceau",
+      "Séparation des pistes"
+    ]
+  },
+  "vocalremover": {
+    "summary_fr": "Sépare la voix et l'instrumental d'une chanson, en ligne et gratuitement.",
+    "description_fr": "Vocal Remover isole la voix ou l'accompagnement d'un morceau grâce à l'IA, directement dans le navigateur. Le site propose aussi changement de tonalité, détection du tempo, découpe et karaoké.",
+    "features_fr": [
+      "Séparation voix et instrumental",
+      "Changement de tonalité et tempo",
+      "Détection du BPM et de la tonalité",
+      "Gratuit dans le navigateur"
+    ]
+  },
+  "ultimate-vocal-remover": {
+    "summary_fr": "Application open source de séparation de pistes audio.",
+    "description_fr": "Ultimate Vocal Remover (UVR) est un logiciel gratuit qui sépare voix, batterie, basse et autres instruments avec plusieurs modèles IA de pointe. Il tourne en local sur Windows, Mac et Linux.",
+    "features_fr": [
+      "Séparation voix, batterie, basse",
+      "Choix entre plusieurs modèles IA",
+      "Traitement en local",
+      "Gratuit et open source"
+    ]
+  },
+  "cyanite": {
+    "summary_fr": "Tagging et recherche IA pour les catalogues musicaux.",
+    "description_fr": "Cyanite analyse automatiquement des morceaux pour en extraire genre, ambiance, tempo ou instruments, et permet de chercher par similarité ou par description. Labels, éditeurs et plateformes de synchro l'utilisent pour exploiter leurs catalogues.",
+    "features_fr": [
+      "Tagging automatique des morceaux",
+      "Recherche par similarité",
+      "Recherche par description",
+      "API pour plateformes musicales"
+    ]
+  },
+  "orb-producer": {
+    "summary_fr": "Plugins IA qui génèrent mélodies, accords et basses dans ton logiciel musical.",
+    "description_fr": "Orb Producer Suite propose des plugins qui génèrent progressions d'accords, mélodies, basses et arpèges en MIDI, directement dans le logiciel de production. Les idées se modifient ensuite librement.",
+    "features_fr": [
+      "Progressions d'accords générées",
+      "Mélodies et basses en MIDI",
+      "Arpèges",
+      "Plugins VST et AU"
+    ]
+  },
+  "scaler": {
+    "summary_fr": "Plugin d'aide à la composition : accords, gammes et progressions.",
+    "description_fr": "Scaler aide à trouver accords, gammes et progressions adaptés à un morceau, détecte la tonalité d'un enregistrement et propose des variations. Il s'utilise comme plugin dans la plupart des logiciels de production.",
+    "features_fr": [
+      "Suggestions d'accords et de progressions",
+      "Détection de la tonalité",
+      "Variations et voicings",
+      "Plugin pour logiciels de production"
+    ]
+  },
+  "audioshake": {
+    "summary_fr": "Séparation de pistes de qualité professionnelle pour la musique et la vidéo.",
+    "description_fr": "AudioShake sépare voix, instruments, dialogues et effets avec une qualité utilisée par les majors, le cinéma et les plateformes. Il sert au remix, à la synchro, au doublage et à la création de karaokés.",
+    "features_fr": [
+      "Séparation voix et instruments",
+      "Isolation des dialogues",
+      "Qualité professionnelle",
+      "API et application"
+    ]
+  },
+  "masterchannel": {
+    "summary_fr": "Mastering audio automatique par IA.",
+    "description_fr": "Masterchannel masterise un morceau en quelques secondes, en s'inspirant des choix d'un ingénieur du son, avec possibilité de s'aligner sur un titre de référence. Il vise les artistes indépendants qui publient régulièrement.",
+    "features_fr": [
+      "Mastering en quelques secondes",
+      "Alignement sur un titre de référence",
+      "Réglages d'intensité",
+      "Export pour plateformes de streaming"
+    ]
+  },
+  "banani": {
+    "summary_fr": "Génère des maquettes d'interface à partir d'une description.",
+    "description_fr": "Banani crée des écrans d'application et de site à partir d'un texte ou d'une capture, avec un style cohérent sur tout le parcours. Les maquettes s'exportent vers Figma pour être affinées.",
+    "features_fr": [
+      "Écrans générés à partir d'un texte",
+      "Style cohérent sur tout le parcours",
+      "Inspiration à partir d'une capture",
+      "Export vers Figma"
+    ]
+  },
+  "locofy": {
+    "summary_fr": "Transforme des maquettes Figma en code front-end prêt à l'emploi.",
+    "description_fr": "Locofy convertit des designs Figma ou Penpot en code React, Next.js, Vue, HTML ou Flutter, avec composants réutilisables et mise en page responsive. Il réduit le travail entre designers et développeurs.",
+    "features_fr": [
+      "Figma vers React, Vue, HTML ou Flutter",
+      "Composants réutilisables",
+      "Mise en page responsive",
+      "Export vers GitHub ou VS Code"
+    ]
+  },
+  "coolors": {
+    "summary_fr": "Générateur de palettes de couleurs rapide et populaire.",
+    "description_fr": "Coolors génère des palettes harmonieuses en un clic, permet d'extraire les couleurs d'une image et de vérifier les contrastes. Les palettes s'exportent pour le web, Figma ou Adobe.",
+    "features_fr": [
+      "Palettes générées en un clic",
+      "Couleurs extraites d'une image",
+      "Vérification des contrastes",
+      "Export Figma, Adobe et CSS"
+    ]
+  },
+  "colormind": {
+    "summary_fr": "Générateur de palettes de couleurs par apprentissage automatique.",
+    "description_fr": "Colormind propose des palettes apprises à partir de photos, films et œuvres d'art, et permet de les prévisualiser sur un modèle de site. Il est gratuit et dispose d'une API simple.",
+    "features_fr": [
+      "Palettes apprises sur des images",
+      "Aperçu sur un modèle de site",
+      "Verrouillage de certaines couleurs",
+      "Gratuit, avec API"
+    ]
+  },
+  "pixso": {
+    "summary_fr": "Outil de design d'interface collaboratif, avec assistant IA.",
+    "description_fr": "Pixso est une alternative à Figma pour concevoir interfaces, prototypes et systèmes de design en équipe. Son IA génère des écrans, renomme les calques et produit des éléments à partir d'une description.",
+    "features_fr": [
+      "Design et prototypage collaboratifs",
+      "Écrans générés par IA",
+      "Import de fichiers Figma",
+      "Systèmes de design partagés"
+    ]
+  },
+  "placeit": {
+    "summary_fr": "Mockups, logos et visuels marketing à partir de modèles.",
+    "description_fr": "Placeit, d'Envato, offre des milliers de mockups (t-shirts, écrans, packagings), logos, vidéos et visuels réseaux sociaux personnalisables en ligne. Ses outils IA génèrent logos et images à partir d'une description.",
+    "features_fr": [
+      "Milliers de mockups produits",
+      "Créateur de logos",
+      "Visuels et vidéos pour réseaux sociaux",
+      "Abonnement illimité"
+    ]
+  },
+  "homestyler": {
+    "summary_fr": "Conception d'intérieur 3D en ligne avec rendus IA.",
+    "description_fr": "Homestyler permet de dessiner un plan, de meubler les pièces en 3D avec des produits réels et de produire des rendus photoréalistes. Ses outils IA décorent une pièce ou proposent des styles à partir d'une photo.",
+    "features_fr": [
+      "Plans et aménagement en 3D",
+      "Catalogue de meubles réels",
+      "Rendus photoréalistes",
+      "Décoration IA à partir d'une photo"
+    ]
+  },
+  "reimaginehome": {
+    "summary_fr": "Redécore une pièce à partir d'une photo grâce à l'IA.",
+    "description_fr": "REimagineHome transforme la photo d'une pièce ou d'un extérieur selon le style choisi, peut la vider ou la meubler virtuellement. Il sert aux particuliers, décorateurs et agents immobiliers.",
+    "features_fr": [
+      "Redécoration selon un style",
+      "Home staging virtuel",
+      "Désencombrement de pièce",
+      "Extérieurs et jardins"
+    ]
+  },
+  "collov-ai": {
+    "summary_fr": "Home staging virtuel et décoration d'intérieur par IA.",
+    "description_fr": "Collov AI meuble virtuellement des pièces vides et redécore des intérieurs avec des rendus réalistes, pour l'immobilier ou les projets de rénovation. Des designers humains peuvent compléter le travail.",
+    "features_fr": [
+      "Home staging virtuel",
+      "Redécoration par style",
+      "Rendus réalistes",
+      "Option avec designers humains"
+    ]
+  },
+  "csm-ai": {
+    "summary_fr": "Génère des modèles 3D à partir d'images ou de texte.",
+    "description_fr": "CSM (Common Sense Machines) convertit images, croquis ou descriptions en objets 3D texturés, utilisables dans les jeux, la réalité augmentée ou l'impression 3D. Les modèles s'exportent dans les formats courants.",
+    "features_fr": [
+      "Image ou croquis vers modèle 3D",
+      "Texte vers 3D",
+      "Textures générées",
+      "Export pour jeux et impression 3D"
+    ]
+  },
+  "skybox-ai": {
+    "summary_fr": "Génère des environnements 360° à partir d'une description.",
+    "description_fr": "Skybox AI crée des panoramas à 360° immersifs à partir d'un texte, dans de nombreux styles artistiques, avec possibilité d'esquisser la composition. Ils servent aux jeux, à la réalité virtuelle et aux décors 3D.",
+    "features_fr": [
+      "Panoramas 360° à partir d'un texte",
+      "Nombreux styles artistiques",
+      "Esquisse de la composition",
+      "Export pour jeux et VR"
+    ]
+  },
+  "whimsical": {
+    "summary_fr": "Schémas, mind maps et wireframes générés par IA.",
+    "description_fr": "Whimsical est un espace visuel pour diagrammes, mind maps, wireframes et documents. Son IA génère un organigramme, une carte mentale ou une séquence à partir d'une simple consigne, modifiable ensuite.",
+    "features_fr": [
+      "Organigrammes générés par IA",
+      "Cartes mentales",
+      "Wireframes",
+      "Collaboration en temps réel"
+    ]
+  },
+  "fellow": {
+    "summary_fr": "Notes de réunion IA, ordres du jour et suivi des actions.",
+    "description_fr": "Fellow enregistre et résume les réunions, prépare les ordres du jour et suit les actions décidées jusqu'à leur réalisation. Il s'intègre au calendrier, à Zoom, Meet, Teams et aux outils de gestion de projet.",
+    "features_fr": [
+      "Enregistrement et résumé des réunions",
+      "Ordres du jour collaboratifs",
+      "Suivi des actions",
+      "Intégrations calendrier et gestion de projet"
+    ]
+  },
+  "grain": {
+    "summary_fr": "Notes de réunion IA pour les équipes commerciales et clients.",
+    "description_fr": "Grain enregistre les appels, rédige des notes structurées et met à jour automatiquement le CRM. Il permet aussi de partager des extraits vidéo des moments clés avec l'équipe.",
+    "features_fr": [
+      "Notes structurées automatiques",
+      "Mise à jour du CRM",
+      "Extraits vidéo partageables",
+      "Modèles de notes par type d'appel"
+    ]
+  },
+  "spinach-ai": {
+    "summary_fr": "Assistant de réunion qui résume et met à jour tes outils.",
+    "description_fr": "Spinach rejoint les réunions, produit résumés et actions, puis les envoie dans Slack, Jira, le CRM ou les outils de documentation. Il prend en charge de nombreuses langues.",
+    "features_fr": [
+      "Résumés et actions automatiques",
+      "Envoi vers Slack, Jira et CRM",
+      "Nombreuses langues",
+      "Zoom, Meet et Teams"
+    ]
+  },
+  "hyprnote": {
+    "summary_fr": "Prise de notes de réunion IA, en local et open source.",
+    "description_fr": "Hyprnote enregistre et transcrit les réunions directement sur l'ordinateur, sans robot dans l'appel, puis enrichit tes notes avec l'IA. Tout reste en local, ce qui en fait une option pour les données sensibles.",
+    "features_fr": [
+      "Transcription en local",
+      "Aucun robot dans l'appel",
+      "Notes enrichies par IA",
+      "Open source"
+    ]
+  },
+  "wudpecker": {
+    "summary_fr": "Notes de réunion IA personnalisées selon ton rôle.",
+    "description_fr": "Wudpecker enregistre les réunions et produit des notes adaptées à ce qui compte pour toi, avec actions et réponses aux questions sur l'historique. Il fonctionne avec Zoom, Meet et Teams.",
+    "features_fr": [
+      "Notes adaptées au rôle",
+      "Actions et décisions",
+      "Questions sur l'historique des réunions",
+      "Zoom, Meet et Teams"
+    ]
+  },
+  "capacities": {
+    "summary_fr": "Prise de notes structurée par objets, avec assistant IA.",
+    "description_fr": "Capacities organise notes, personnes, livres ou projets comme des objets reliés entre eux, plutôt qu'en dossiers. Son assistant IA résume, répond aux questions sur tes notes et propose des liens.",
+    "features_fr": [
+      "Notes organisées en objets",
+      "Liens entre les idées",
+      "Assistant IA sur tes notes",
+      "Applications web, bureau et mobile"
+    ]
+  },
+  "morgen": {
+    "summary_fr": "Agenda et planificateur de tâches assisté par IA.",
+    "description_fr": "Morgen regroupe tous tes calendriers et tâches, puis place automatiquement les tâches dans ton agenda selon tes priorités et ta disponibilité. Il s'intègre à Todoist, Notion, ClickUp et d'autres.",
+    "features_fr": [
+      "Tous les calendriers réunis",
+      "Planification automatique des tâches",
+      "Intégrations Todoist, Notion, ClickUp",
+      "Liens de prise de rendez-vous"
+    ]
+  },
+  "todoist": {
+    "summary_fr": "Gestionnaire de tâches populaire, avec ajout en langage naturel et IA.",
+    "description_fr": "Todoist organise tâches et projets personnels ou d'équipe, avec dates en langage naturel, priorités et rappels. Son assistant IA découpe un objectif en sous-tâches et suggère des actions.",
+    "features_fr": [
+      "Ajout de tâches en langage naturel",
+      "Projets, priorités et rappels",
+      "Découpage d'objectifs par IA",
+      "Sur toutes les plateformes"
+    ]
+  },
+  "evernote": {
+    "summary_fr": "Prise de notes historique, enrichie de recherche et d'assistance IA.",
+    "description_fr": "Evernote centralise notes, documents, pages web et tâches. Ses fonctions IA permettent de chercher en langage naturel, de résumer, de reformuler et de transcrire des enregistrements audio.",
+    "features_fr": [
+      "Recherche en langage naturel",
+      "Résumé et reformulation",
+      "Transcription audio",
+      "Capture web et documents"
+    ]
+  },
+  "missive": {
+    "summary_fr": "Boîte mail partagée pour les équipes, avec rédaction IA.",
+    "description_fr": "Missive réunit emails, SMS et messageries dans une boîte partagée où l'équipe commente, assigne et rédige à plusieurs. Son assistant IA rédige, traduit et résume les conversations.",
+    "features_fr": [
+      "Boîte mail partagée",
+      "Commentaires et assignation",
+      "Rédaction et traduction IA",
+      "Emails, SMS et WhatsApp"
+    ]
+  },
+  "screenpipe": {
+    "summary_fr": "Enregistre ton écran et ton audio en local pour une mémoire IA consultable.",
+    "description_fr": "Screenpipe capture en continu ce qui s'affiche et se dit sur ton ordinateur, l'indexe en local et permet à l'IA de répondre à des questions sur ton activité. Le projet est open source et extensible par plugins.",
+    "features_fr": [
+      "Capture continue de l'écran et de l'audio",
+      "Indexation en local",
+      "Questions sur ton activité",
+      "Open source, avec plugins"
+    ]
+  },
+  "slidespeak": {
+    "summary_fr": "Présentations PowerPoint générées par IA à partir de documents.",
+    "description_fr": "SlideSpeak crée des présentations à partir d'un texte, d'un PDF ou d'un document Word, et résume des présentations existantes. Les fichiers s'exportent en PowerPoint modifiable.",
+    "features_fr": [
+      "Présentation à partir d'un document",
+      "Résumé de présentations",
+      "Modèles et charte graphique",
+      "Export PowerPoint modifiable"
+    ]
+  },
+  "magicslides": {
+    "summary_fr": "Présentations générées par IA, dans Google Slides ou PowerPoint.",
+    "description_fr": "MagicSlides crée une présentation à partir d'un sujet, d'un texte, d'un PDF ou d'une vidéo YouTube, directement dans Google Slides ou en PowerPoint. Il convient aux étudiants et aux équipes pressées.",
+    "features_fr": [
+      "Présentation à partir d'un sujet",
+      "Depuis un PDF ou une vidéo YouTube",
+      "Extension Google Slides",
+      "Export PowerPoint"
+    ]
+  },
+  "mymind": {
+    "summary_fr": "Mémoire visuelle privée qui organise tout seul ce que tu enregistres.",
+    "description_fr": "mymind conserve articles, images, notes et produits sans dossiers ni étiquettes à gérer : l'IA les classe et les retrouve par simple description. L'application ne contient ni publicité ni partage social.",
+    "features_fr": [
+      "Classement automatique par IA",
+      "Recherche par description",
+      "Images, articles et notes",
+      "Privé, sans publicité"
+    ]
+  },
+  "fabric-so": {
+    "summary_fr": "Espace de travail IA qui relie fichiers, notes et liens.",
+    "description_fr": "Fabric centralise documents, notes, liens et fichiers de tes différents services et permet de tout retrouver ou d'interroger l'ensemble avec l'IA. Il se présente comme une mémoire de travail personnelle.",
+    "features_fr": [
+      "Fichiers, notes et liens réunis",
+      "Recherche sémantique",
+      "Questions à l'IA sur tes contenus",
+      "Connexion aux services de stockage"
+    ]
+  },
+  "brave-search": {
+    "summary_fr": "Moteur de recherche indépendant avec réponses IA.",
+    "description_fr": "Brave Search s'appuie sur son propre index, sans pistage, et affiche des réponses synthétisées par IA avec sources. Son API de recherche est aussi utilisée par de nombreux assistants et agents IA.",
+    "features_fr": [
+      "Index de recherche indépendant",
+      "Réponses IA avec sources",
+      "Aucun pistage",
+      "API pour assistants IA"
+    ]
+  },
+  "morphic": {
+    "summary_fr": "Moteur de réponses IA open source, à héberger soi-même.",
+    "description_fr": "Morphic recherche sur le web et répond avec une synthèse sourcée et une interface générative. Le code est open source, ce qui permet de le déployer avec ses propres modèles.",
+    "features_fr": [
+      "Réponses sourcées",
+      "Interface générative",
+      "Choix du modèle",
+      "Open source et auto-hébergeable"
+    ]
+  },
+  "storm": {
+    "summary_fr": "Rédige des articles de synthèse type Wikipédia à partir de recherches web.",
+    "description_fr": "STORM, projet de recherche de Stanford, explore un sujet sous plusieurs angles, collecte des sources et rédige un article long avec citations. Il est utile pour préparer une revue ou découvrir un domaine.",
+    "features_fr": [
+      "Exploration d'un sujet sous plusieurs angles",
+      "Article long avec citations",
+      "Plan généré automatiquement",
+      "Gratuit, issu de la recherche"
+    ]
+  },
+  "paperguide": {
+    "summary_fr": "Assistant de recherche académique : trouver, lire et citer des articles.",
+    "description_fr": "Paperguide recherche des articles scientifiques, répond aux questions avec citations, résume des PDF et gère les références. Il aide aussi à rédiger une revue de littérature.",
+    "features_fr": [
+      "Recherche d'articles scientifiques",
+      "Réponses avec citations",
+      "Résumé de PDF",
+      "Gestion des références"
+    ]
+  },
+  "litmaps": {
+    "summary_fr": "Cartographie visuelle de la littérature scientifique.",
+    "description_fr": "Litmaps part d'un ou plusieurs articles et construit une carte des travaux liés par citations, pour repérer les références clés et les nouvelles publications. Des alertes signalent les articles récents pertinents.",
+    "features_fr": [
+      "Carte des articles liés",
+      "Découverte de références clés",
+      "Alertes sur les nouvelles publications",
+      "Import depuis Zotero"
+    ]
+  },
+  "scopus-ai": {
+    "summary_fr": "Recherche académique IA sur la base Scopus d'Elsevier.",
+    "description_fr": "Scopus AI répond aux questions de recherche en s'appuyant sur les résumés de la base Scopus, avec références, cartes de concepts et experts du domaine. Il est accessible via les abonnements institutionnels.",
+    "features_fr": [
+      "Réponses basées sur Scopus",
+      "Références vérifiables",
+      "Cartes de concepts",
+      "Identification des experts"
+    ]
+  },
+  "snowflake-cortex": {
+    "summary_fr": "IA générative directement dans les données Snowflake.",
+    "description_fr": "Cortex AI permet d'utiliser des modèles de langage sur les données stockées dans Snowflake, de poser des questions en langage naturel et de créer des agents, sans déplacer les données. Il s'adresse aux équipes data des entreprises.",
+    "features_fr": [
+      "Modèles de langage dans Snowflake",
+      "Questions en langage naturel",
+      "Recherche sur documents",
+      "Données qui restent en place"
+    ]
+  },
+  "amplitude-ai": {
+    "summary_fr": "Analytique produit avec agents et questions en langage naturel.",
+    "description_fr": "Amplitude mesure l'usage d'un produit numérique et ses agents IA repèrent les tendances, expliquent les variations et proposent des optimisations. On peut créer des graphiques en posant simplement une question.",
+    "features_fr": [
+      "Graphiques à partir d'une question",
+      "Explication des variations",
+      "Agents d'analyse",
+      "Analytique produit complète"
+    ]
+  },
+  "metabase": {
+    "summary_fr": "Outil de BI open source, avec questions en langage naturel.",
+    "description_fr": "Metabase connecte les bases de données et permet de créer graphiques et tableaux de bord sans SQL. Son assistant Metabot génère requêtes et visualisations à partir d'une question en langage courant.",
+    "features_fr": [
+      "Tableaux de bord sans SQL",
+      "Metabot : questions en langage courant",
+      "Connexion à de nombreuses bases",
+      "Open source ou cloud"
+    ]
+  },
+  "vanna-ai": {
+    "summary_fr": "Transforme des questions en requêtes SQL sur tes bases de données.",
+    "description_fr": "Vanna est un framework open source qui apprend la structure de ta base de données pour générer des requêtes SQL fiables à partir de questions. Il s'intègre dans une application, un notebook ou Slack.",
+    "features_fr": [
+      "Texte vers SQL",
+      "Apprentissage du schéma de la base",
+      "Intégration app, notebook ou Slack",
+      "Open source"
+    ]
+  },
+  "text2sql-ai": {
+    "summary_fr": "Génère et explique des requêtes SQL à partir de texte.",
+    "description_fr": "Text2SQL.ai convertit une demande en SQL, explique des requêtes existantes et les optimise, pour de nombreux dialectes (PostgreSQL, MySQL, BigQuery…). Il peut se connecter à une base pour exécuter les requêtes.",
+    "features_fr": [
+      "Texte vers SQL",
+      "Explication de requêtes",
+      "Optimisation",
+      "Nombreux dialectes SQL"
+    ]
+  },
+  "equals": {
+    "summary_fr": "Tableur connecté aux bases de données, avec IA intégrée.",
+    "description_fr": "Equals combine un tableur classique et des connexions directes aux bases de données et outils SaaS, avec des données à jour. Son IA écrit formules et requêtes SQL et aide à construire des rapports.",
+    "features_fr": [
+      "Tableur connecté aux bases de données",
+      "Données toujours à jour",
+      "Formules et SQL générés par IA",
+      "Rapports automatisés"
+    ]
+  },
+  "coefficient": {
+    "summary_fr": "Importe tes données métier dans Google Sheets et Excel, avec IA.",
+    "description_fr": "Coefficient connecte Sheets et Excel à Salesforce, HubSpot, bases de données et autres outils, avec actualisation automatique. Son assistant IA génère formules, graphiques et tableaux croisés.",
+    "features_fr": [
+      "Connexion à Salesforce, HubSpot et bases",
+      "Actualisation automatique",
+      "Formules et graphiques par IA",
+      "Google Sheets et Excel"
+    ]
+  },
+  "semrush": {
+    "summary_fr": "Suite de référence pour le SEO, la publicité et la visibilité IA.",
+    "description_fr": "Semrush analyse mots-clés, backlinks, positions et concurrents, audite les sites et suit la visibilité de la marque dans les réponses des assistants IA. Ses outils couvrent aussi publicité, contenu et réseaux sociaux.",
+    "features_fr": [
+      "Recherche de mots-clés et backlinks",
+      "Audit technique de site",
+      "Suivi de la visibilité dans les IA",
+      "Analyse des concurrents"
+    ]
+  },
+  "moz": {
+    "summary_fr": "Outils SEO historiques : mots-clés, liens et autorité de domaine.",
+    "description_fr": "Moz Pro suit les positions, analyse les backlinks, audite les sites et propose sa métrique d'autorité de domaine, très utilisée dans le secteur. Son assistant IA aide à regrouper et prioriser les mots-clés.",
+    "features_fr": [
+      "Suivi des positions",
+      "Analyse des backlinks",
+      "Autorité de domaine",
+      "Regroupement de mots-clés par IA"
+    ]
+  },
+  "se-ranking": {
+    "summary_fr": "Plateforme SEO complète et abordable, avec suivi de la visibilité IA.",
+    "description_fr": "SE Ranking couvre suivi des positions, audit de site, recherche de mots-clés, backlinks et rédaction assistée par IA. Il suit aussi la présence d'une marque dans les réponses de Google AI et ChatGPT.",
+    "features_fr": [
+      "Suivi des positions",
+      "Audit de site",
+      "Rédaction SEO par IA",
+      "Visibilité dans les réponses IA"
+    ]
+  },
+  "similarweb": {
+    "summary_fr": "Analyse du trafic et de l'audience de n'importe quel site.",
+    "description_fr": "Similarweb estime le trafic, les sources d'audience, les mots-clés et les performances des sites et applications concurrents. Ses fonctions IA résument les tendances d'un marché et mesurent le trafic venant des assistants IA.",
+    "features_fr": [
+      "Estimation du trafic concurrent",
+      "Sources d'audience",
+      "Tendances de marché",
+      "Trafic issu des assistants IA"
+    ]
+  },
+  "sparktoro": {
+    "summary_fr": "Découvre ce que ton audience lit, écoute et suit.",
+    "description_fr": "SparkToro révèle les sites, podcasts, comptes sociaux et mots-clés qu'une audience donnée fréquente, à partir d'un sujet ou d'un site. Il aide à choisir où communiquer et avec quels influenceurs.",
+    "features_fr": [
+      "Sites et podcasts fréquentés",
+      "Comptes sociaux suivis",
+      "Mots-clés de l'audience",
+      "Recherche par sujet ou par site"
+    ]
+  },
+  "answerthepublic": {
+    "summary_fr": "Visualise les questions que les internautes posent sur un sujet.",
+    "description_fr": "AnswerThePublic collecte les recherches et questions réellement tapées autour d'un mot-clé et les présente sous forme de cartes visuelles. C'est une source d'idées de contenus et de FAQ.",
+    "features_fr": [
+      "Questions réelles des internautes",
+      "Cartes visuelles",
+      "Idées de contenus et de FAQ",
+      "Plusieurs pays et langues"
+    ]
+  },
+  "omnisend": {
+    "summary_fr": "Email et SMS marketing pour l'e-commerce, avec IA.",
+    "description_fr": "Omnisend automatise emails et SMS pour les boutiques en ligne : paniers abandonnés, bienvenue, relances. L'IA rédige les objets et contenus, recommande des produits et segmente les clients.",
+    "features_fr": [
+      "Scénarios e-commerce prêts à l'emploi",
+      "Emails et SMS",
+      "Rédaction IA des contenus",
+      "Intégration Shopify et WooCommerce"
+    ]
+  },
+  "getresponse": {
+    "summary_fr": "Emailing, automatisation et pages de vente, avec générateur IA.",
+    "description_fr": "GetResponse gère newsletters, automatisations, pages d'atterrissage, webinaires et vente de cours en ligne. Son générateur IA crée emails, pages et campagnes à partir d'une description.",
+    "features_fr": [
+      "Emails et campagnes générés par IA",
+      "Automatisations marketing",
+      "Pages d'atterrissage et webinaires",
+      "Vente de cours en ligne"
+    ]
+  },
+  "systeme-io": {
+    "summary_fr": "Tout-en-un français pour vendre en ligne : tunnels, emails et formations.",
+    "description_fr": "systeme.io réunit tunnels de vente, emailing, site, blog, formations en ligne et affiliation dans un seul outil, avec une offre gratuite généreuse. Son assistant IA rédige pages et emails.",
+    "features_fr": [
+      "Tunnels de vente",
+      "Emailing et automatisations",
+      "Formations en ligne et affiliation",
+      "Rédaction IA des pages et emails"
+    ]
+  },
+  "chatfuel": {
+    "summary_fr": "Chatbots IA pour Instagram, Messenger et WhatsApp.",
+    "description_fr": "Chatfuel crée des assistants qui répondent aux messages, qualifient les prospects et vendent sur Instagram, Facebook Messenger et WhatsApp. Les scénarios se construisent sans code.",
+    "features_fr": [
+      "Chatbots Instagram, Messenger, WhatsApp",
+      "Réponses IA",
+      "Qualification de prospects",
+      "Création sans code"
+    ]
+  },
+  "madgicx": {
+    "summary_fr": "Optimisation IA des publicités Meta pour l'e-commerce.",
+    "description_fr": "Madgicx analyse les campagnes Facebook et Instagram, recommande des ajustements de budget et d'audience, et génère des créations publicitaires. Il vise les boutiques en ligne et les agences.",
+    "features_fr": [
+      "Analyse des campagnes Meta",
+      "Recommandations de budget et d'audience",
+      "Créations publicitaires générées",
+      "Rapports pour e-commerce"
+    ]
+  },
+  "brand24": {
+    "summary_fr": "Veille des mentions de ta marque sur le web et les réseaux.",
+    "description_fr": "Brand24 surveille réseaux sociaux, médias, blogs, forums et podcasts pour détecter les mentions d'une marque, analyse le sentiment et repère les influenceurs. Son IA résume les discussions et alerte sur les pics.",
+    "features_fr": [
+      "Mentions sur le web et les réseaux",
+      "Analyse du sentiment",
+      "Résumés et alertes IA",
+      "Repérage d'influenceurs"
+    ]
+  },
+  "mention": {
+    "summary_fr": "Veille média et réseaux sociaux, conçue en France.",
+    "description_fr": "Mention suit en temps réel ce qui se dit d'une marque ou d'un concurrent sur le web et les réseaux, avec analyse du sentiment et rapports. Il permet aussi de publier et de gérer ses comptes sociaux.",
+    "features_fr": [
+      "Veille en temps réel",
+      "Analyse du sentiment",
+      "Suivi des concurrents",
+      "Publication sur les réseaux"
+    ]
+  },
+  "hunter-io": {
+    "summary_fr": "Trouve et vérifie des adresses email professionnelles (France).",
+    "description_fr": "Hunter retrouve les emails professionnels d'une entreprise ou d'une personne, vérifie leur validité et permet d'envoyer des campagnes de prospection personnalisées. La société a été fondée en France.",
+    "features_fr": [
+      "Recherche d'emails par domaine",
+      "Vérification des adresses",
+      "Campagnes de prospection",
+      "Extension Chrome et API"
+    ]
+  },
+  "pipedrive": {
+    "summary_fr": "CRM visuel pour les commerciaux, avec assistant IA.",
+    "description_fr": "Pipedrive organise les affaires en pipeline visuel et aide à suivre chaque opportunité. Son assistant IA résume les emails, suggère les prochaines actions et repère les affaires à risque.",
+    "features_fr": [
+      "Pipeline de vente visuel",
+      "Résumés d'emails par IA",
+      "Prochaines actions suggérées",
+      "Automatisations et intégrations"
+    ]
+  },
+  "close-crm": {
+    "summary_fr": "CRM pour équipes de vente avec appels, emails et IA intégrés.",
+    "description_fr": "Close intègre appels, SMS, emails et séquences dans le CRM, sans outil supplémentaire. Ses fonctions IA transcrivent et résument les appels et rédigent des emails de suivi.",
+    "features_fr": [
+      "Appels et SMS intégrés",
+      "Séquences d'emails",
+      "Résumé des appels par IA",
+      "Emails de suivi rédigés"
+    ]
+  },
+  "zoho-crm": {
+    "summary_fr": "CRM complet avec l'assistant IA Zia.",
+    "description_fr": "Zoho CRM gère prospects, affaires, campagnes et service client. Son assistant Zia prédit les chances de conclure, détecte les anomalies, suggère les meilleurs moments de contact et répond aux questions sur les données.",
+    "features_fr": [
+      "Prédiction de conclusion des affaires",
+      "Détection d'anomalies",
+      "Meilleurs moments de contact",
+      "Questions en langage naturel"
+    ]
+  },
+  "seamless-ai": {
+    "summary_fr": "Recherche de contacts commerciaux vérifiés en temps réel.",
+    "description_fr": "Seamless.AI trouve emails et numéros de téléphone de décideurs, enrichit les listes et alimente le CRM. Il propose aussi des signaux d'intention et une extension pour LinkedIn.",
+    "features_fr": [
+      "Emails et téléphones de décideurs",
+      "Enrichissement de listes",
+      "Signaux d'intention",
+      "Extension LinkedIn"
+    ]
+  },
+  "cognism": {
+    "summary_fr": "Données B2B conformes au RGPD, fortes en Europe.",
+    "description_fr": "Cognism fournit des contacts et numéros de mobile vérifiés, avec une bonne couverture européenne et un respect strict du RGPD. Il ajoute signaux d'intention et enrichissement du CRM.",
+    "features_fr": [
+      "Numéros de mobile vérifiés",
+      "Bonne couverture européenne",
+      "Conformité RGPD",
+      "Signaux d'intention"
+    ]
+  },
+  "crystal-knows": {
+    "summary_fr": "Conseils de communication adaptés à la personnalité de chaque contact.",
+    "description_fr": "Crystal estime le profil de personnalité DISC d'un interlocuteur à partir de son profil public et suggère comment lui écrire, le convaincre ou travailler avec lui. Il sert en vente, recrutement et management.",
+    "features_fr": [
+      "Profil de personnalité DISC",
+      "Conseils de rédaction",
+      "Extension LinkedIn et Gmail",
+      "Usage en vente et en équipe"
+    ]
+  },
+  "humanlinker": {
+    "summary_fr": "Assistant de prospection français qui personnalise chaque approche.",
+    "description_fr": "Humanlinker analyse le profil et l'entreprise d'un prospect pour préparer un rendez-vous et rédiger des messages personnalisés. Il trouve aussi emails et téléphones et s'intègre aux principaux CRM.",
+    "features_fr": [
+      "Préparation des rendez-vous",
+      "Messages personnalisés",
+      "Recherche d'emails et téléphones",
+      "Intégration CRM"
+    ]
+  },
+  "help-scout": {
+    "summary_fr": "Service client par email et chat, avec réponses IA.",
+    "description_fr": "Help Scout réunit boîte de support partagée, chat, base de connaissances et réponses IA qui s'appuient sur ta documentation. Il résume les conversations et aide à rédiger des réponses.",
+    "features_fr": [
+      "Boîte de support partagée",
+      "Réponses IA basées sur la documentation",
+      "Résumé des conversations",
+      "Base de connaissances"
+    ]
+  },
+  "front": {
+    "summary_fr": "Plateforme de service client collaborative, avec IA.",
+    "description_fr": "Front centralise emails, chats et messageries des équipes support et opérations, avec règles d'attribution et IA qui trie, résume et rédige les réponses. Il convient aux équipes qui gèrent de gros volumes.",
+    "features_fr": [
+      "Tous les canaux dans une boîte",
+      "Tri et attribution automatiques",
+      "Réponses rédigées par IA",
+      "Statistiques d'équipe"
+    ]
+  },
+  "kore-ai": {
+    "summary_fr": "Plateforme d'agents IA pour le service client et les employés.",
+    "description_fr": "Kore.ai permet aux grandes entreprises de créer des agents conversationnels pour le service client, les centres d'appels et l'assistance interne, sur la voix et le texte. Elle propose des solutions prêtes pour la banque, la santé et la distribution.",
+    "features_fr": [
+      "Agents conversationnels voix et texte",
+      "Assistance interne aux employés",
+      "Solutions sectorielles",
+      "Gouvernance pour grandes entreprises"
+    ]
+  },
+  "cognigy": {
+    "summary_fr": "Agents IA pour les centres de contact, conçus en Allemagne.",
+    "description_fr": "Cognigy automatise les conversations des centres de contact par téléphone et messagerie, et assiste les conseillers en direct. Elle vise les grandes entreprises et a été rachetée par NICE.",
+    "features_fr": [
+      "Agents vocaux et textuels",
+      "Assistance aux conseillers en direct",
+      "Nombreuses langues",
+      "Intégration aux centres de contact"
+    ]
+  },
+  "yellow-ai": {
+    "summary_fr": "Agents IA multicanaux pour le service client.",
+    "description_fr": "Yellow.ai déploie des agents qui répondent par chat, voix, email et WhatsApp dans plus de 100 langues. La plateforme vise les entreprises qui veulent automatiser une large part de leur support.",
+    "features_fr": [
+      "Chat, voix, email et WhatsApp",
+      "Plus de 100 langues",
+      "Automatisation du support",
+      "Analyse des conversations"
+    ]
+  },
+  "eesel-ai": {
+    "summary_fr": "Agent IA qui s'entraîne sur tes tickets et documents de support.",
+    "description_fr": "eesel AI apprend à partir des anciens tickets, de la base de connaissances et des documents internes pour répondre aux clients ou assister les conseillers. Il s'intègre à Zendesk, Freshdesk, Slack et d'autres outils.",
+    "features_fr": [
+      "Apprentissage sur les anciens tickets",
+      "Réponses aux clients",
+      "Assistance aux conseillers",
+      "Zendesk, Freshdesk et Slack"
+    ]
+  },
+  "greenhouse": {
+    "summary_fr": "Logiciel de recrutement structuré, avec assistance IA.",
+    "description_fr": "Greenhouse organise tout le recrutement autour d'entretiens structurés, de grilles d'évaluation et de rapports. Ses fonctions IA aident à rédiger les offres, résumer les candidatures et préparer les entretiens.",
+    "features_fr": [
+      "Entretiens structurés",
+      "Grilles d'évaluation",
+      "Offres et résumés rédigés par IA",
+      "Rapports de recrutement"
+    ]
+  },
+  "manatal": {
+    "summary_fr": "Logiciel de recrutement abordable avec recommandations IA.",
+    "description_fr": "Manatal gère offres, candidats et clients pour les recruteurs et cabinets, et recommande les meilleurs profils grâce à l'IA. Il enrichit les candidatures avec les informations des réseaux sociaux.",
+    "features_fr": [
+      "Recommandation de candidats par IA",
+      "Enrichissement des profils",
+      "Gestion des clients pour cabinets",
+      "Prix accessible"
+    ]
+  },
+  "gem-recruiting": {
+    "summary_fr": "Plateforme de recrutement tout-en-un avec sourcing IA.",
+    "description_fr": "Gem combine sourcing de candidats, séquences de prise de contact, CRM de talents, ATS et analyses. Son IA trouve et classe les profils correspondant à un poste.",
+    "features_fr": [
+      "Sourcing de candidats par IA",
+      "Séquences de prise de contact",
+      "CRM de talents et ATS",
+      "Analyses du recrutement"
+    ]
+  },
+  "findem": {
+    "summary_fr": "Recherche de talents par attributs, grâce aux données et à l'IA.",
+    "description_fr": "Findem construit des profils de talents enrichis à partir de nombreuses sources et permet de rechercher par compétences, parcours ou résultats. Il automatise aussi le sourcing et la prise de contact.",
+    "features_fr": [
+      "Recherche par compétences et parcours",
+      "Profils enrichis",
+      "Sourcing automatisé",
+      "Analyse du marché des talents"
+    ]
+  },
+  "mercor": {
+    "summary_fr": "Plateforme de recrutement où l'IA mène les entretiens.",
+    "description_fr": "Mercor évalue les candidats grâce à des entretiens menés par IA, puis les met en relation avec des entreprises et des laboratoires d'IA. Elle recrute notamment des experts pour entraîner des modèles.",
+    "features_fr": [
+      "Entretiens menés par IA",
+      "Mise en relation avec des entreprises",
+      "Missions d'experts pour l'IA",
+      "Évaluation des compétences"
+    ]
+  },
+  "culture-amp": {
+    "summary_fr": "Enquêtes d'engagement et gestion de la performance, avec IA.",
+    "description_fr": "Culture Amp mesure l'engagement des employés par enquêtes, gère les entretiens de performance et le développement. Son IA résume les commentaires et suggère des actions aux managers.",
+    "features_fr": [
+      "Enquêtes d'engagement",
+      "Entretiens de performance",
+      "Résumé des commentaires par IA",
+      "Actions suggérées aux managers"
+    ]
+  },
+  "leapsome": {
+    "summary_fr": "Plateforme RH pour la performance, l'engagement et les objectifs.",
+    "description_fr": "Leapsome réunit entretiens annuels, objectifs, feedback, enquêtes d'engagement et formation. Son IA aide à rédiger les évaluations et à analyser les retours des équipes.",
+    "features_fr": [
+      "Entretiens et feedback",
+      "Objectifs et OKR",
+      "Enquêtes d'engagement",
+      "Rédaction d'évaluations par IA"
+    ]
+  },
+  "mathway": {
+    "summary_fr": "Résout des problèmes de maths, de l'algèbre au calcul.",
+    "description_fr": "Mathway résout équations et exercices en algèbre, trigonométrie, calcul, statistiques ou chimie, à partir d'une saisie ou d'une photo. Les étapes détaillées sont disponibles dans l'offre payante.",
+    "features_fr": [
+      "Résolution par saisie ou photo",
+      "Algèbre, calcul et statistiques",
+      "Étapes détaillées",
+      "Graphiques de fonctions"
+    ]
+  },
+  "symbolab": {
+    "summary_fr": "Solveur mathématique pas à pas avec explications.",
+    "description_fr": "Symbolab résout équations, intégrales, dérivées et limites en montrant chaque étape, et propose exercices et quiz pour s'entraîner. Il fonctionne aussi à partir d'une photo.",
+    "features_fr": [
+      "Solutions pas à pas",
+      "Intégrales, dérivées et limites",
+      "Exercices d'entraînement",
+      "Saisie par photo"
+    ]
+  },
+  "memrise": {
+    "summary_fr": "Apprentissage des langues avec vidéos de natifs et partenaire IA.",
+    "description_fr": "Memrise enseigne le vocabulaire et les expressions utiles grâce à des vidéos de locuteurs natifs et à la répétition espacée. Un partenaire de conversation IA permet de pratiquer des situations réelles.",
+    "features_fr": [
+      "Vidéos de locuteurs natifs",
+      "Répétition espacée",
+      "Conversation avec un partenaire IA",
+      "Nombreuses langues"
+    ]
+  },
+  "talkpal": {
+    "summary_fr": "Professeur de langues IA pour pratiquer à l'oral et à l'écrit.",
+    "description_fr": "Talkpal fait converser l'utilisateur avec un tuteur IA dans plus de 50 langues, via jeux de rôle, débats et personnages, et corrige la grammaire et la prononciation en direct.",
+    "features_fr": [
+      "Conversation avec un tuteur IA",
+      "Plus de 50 langues",
+      "Jeux de rôle et débats",
+      "Correction de la prononciation"
+    ]
+  },
+  "diffit": {
+    "summary_fr": "Adapte n'importe quel texte au niveau de lecture des élèves.",
+    "description_fr": "Diffit génère, à partir d'un sujet, d'un article ou d'une vidéo, un texte adapté au niveau choisi avec vocabulaire, questions et exercices. Il aide les enseignants à différencier leurs supports.",
+    "features_fr": [
+      "Texte adapté au niveau de lecture",
+      "Vocabulaire et questions générés",
+      "Depuis un article ou une vidéo",
+      "Fiches prêtes à imprimer"
+    ]
+  },
+  "curipod": {
+    "summary_fr": "Leçons interactives générées par IA pour la classe.",
+    "description_fr": "Curipod crée en quelques secondes une leçon interactive avec sondages, nuages de mots, dessins et questions ouvertes, que les élèves suivent sur leur appareil. L'IA donne aussi un retour sur leurs réponses écrites.",
+    "features_fr": [
+      "Leçon interactive générée en secondes",
+      "Sondages, nuages de mots et dessins",
+      "Retour IA sur les réponses",
+      "Participation des élèves sur appareil"
+    ]
+  },
+  "schoolai": {
+    "summary_fr": "Espaces IA encadrés par l'enseignant pour accompagner chaque élève.",
+    "description_fr": "SchoolAI permet aux enseignants de créer des espaces où un assistant IA guide les élèves sur une activité, tout en suivant leurs échanges en temps réel. Il propose aussi des outils de préparation de cours.",
+    "features_fr": [
+      "Espaces IA créés par l'enseignant",
+      "Suivi des échanges en temps réel",
+      "Accompagnement individualisé",
+      "Outils de préparation de cours"
+    ]
+  },
+  "dragon-copilot": {
+    "summary_fr": "Assistant clinique qui rédige la documentation à partir de la consultation.",
+    "description_fr": "Dragon Copilot écoute la consultation, rédige automatiquement les notes cliniques et aide aux tâches administratives comme les courriers et les ordonnances. Il réunit les technologies Dragon et DAX de Microsoft.",
+    "features_fr": [
+      "Notes cliniques rédigées automatiquement",
+      "Dictée médicale",
+      "Courriers et tâches administratives",
+      "Intégration aux dossiers patients"
+    ]
+  },
+  "doximity-gpt": {
+    "summary_fr": "Assistant IA gratuit pour les médecins américains.",
+    "description_fr": "Doximity GPT aide les professionnels de santé à rédiger courriers, demandes d'accord aux assurances et explications pour les patients, et répond à des questions cliniques avec références. Il est réservé aux praticiens vérifiés.",
+    "features_fr": [
+      "Rédaction de courriers médicaux",
+      "Demandes aux assurances",
+      "Réponses cliniques avec références",
+      "Gratuit pour les praticiens vérifiés"
+    ]
+  },
+  "ubie": {
+    "summary_fr": "Vérificateur de symptômes IA pour orienter vers le bon soin.",
+    "description_fr": "Ubie pose une série de questions sur les symptômes et indique les causes possibles et le type de consultation adapté. Conçu avec des médecins, il ne remplace pas un avis médical.",
+    "features_fr": [
+      "Questionnaire sur les symptômes",
+      "Causes possibles",
+      "Orientation vers le bon soin",
+      "Conçu avec des médecins"
+    ]
+  },
+  "tandem-health": {
+    "summary_fr": "Scribe médical IA européen pour les consultations.",
+    "description_fr": "Tandem Health écoute la consultation et rédige les notes cliniques dans la langue et le format du praticien, en respectant les exigences européennes de protection des données. Il est utilisé dans plusieurs pays d'Europe.",
+    "features_fr": [
+      "Notes cliniques rédigées automatiquement",
+      "Plusieurs langues européennes",
+      "Conformité RGPD",
+      "Formats adaptés à chaque spécialité"
+    ]
+  },
+  "kira": {
+    "summary_fr": "Analyse IA de contrats pour les cabinets et directions juridiques.",
+    "description_fr": "Kira extrait clauses et informations clés de grands volumes de contrats, utile pour les audits d'acquisition, la conformité et la gestion contractuelle. Il fait partie de Litera.",
+    "features_fr": [
+      "Extraction de clauses",
+      "Revue de grands volumes de contrats",
+      "Audits d'acquisition",
+      "Modèles personnalisables"
+    ]
+  },
+  "everlaw": {
+    "summary_fr": "Plateforme d'eDiscovery et de contentieux avec IA générative.",
+    "description_fr": "Everlaw aide les avocats à examiner et organiser de grands volumes de documents en contentieux. Ses outils IA résument, classent et répondent aux questions sur les pièces du dossier.",
+    "features_fr": [
+      "Revue de documents en contentieux",
+      "Résumés et classement par IA",
+      "Questions sur les pièces du dossier",
+      "Construction de la chronologie"
+    ]
+  },
+  "vlex-vincent": {
+    "summary_fr": "Assistant de recherche juridique sur une vaste base multinationale.",
+    "description_fr": "Vincent AI, de vLex (groupe Clio), effectue des recherches juridiques, analyse des documents et rédige des mémos en s'appuyant sur une base de jurisprudence et de législation couvrant de nombreux pays.",
+    "features_fr": [
+      "Recherche juridique sourcée",
+      "Couverture de nombreux pays",
+      "Analyse de documents",
+      "Rédaction de mémos"
+    ]
+  },
+  "evenup": {
+    "summary_fr": "IA pour les avocats en préjudice corporel : demandes et dossiers.",
+    "description_fr": "EvenUp analyse dossiers médicaux et pièces pour rédiger des lettres de demande d'indemnisation et estimer la valeur d'un dossier. Il s'adresse aux cabinets américains spécialisés en préjudice corporel.",
+    "features_fr": [
+      "Lettres de demande rédigées",
+      "Analyse des dossiers médicaux",
+      "Estimation de la valeur d'un dossier",
+      "Pour cabinets de préjudice corporel"
+    ]
+  },
+  "pigment": {
+    "summary_fr": "Planification financière et business planning, avec agents IA (France).",
+    "description_fr": "Pigment permet aux équipes finance de construire budgets, prévisions et scénarios en connectant les données de l'entreprise. Ses agents IA analysent les écarts et répondent aux questions. La société est française.",
+    "features_fr": [
+      "Budgets et prévisions",
+      "Scénarios et simulations",
+      "Agents IA d'analyse",
+      "Connexion aux données de l'entreprise"
+    ]
+  },
+  "datarails": {
+    "summary_fr": "Planification financière qui garde Excel au centre, avec IA.",
+    "description_fr": "Datarails automatise la consolidation des données financières tout en laissant les équipes travailler dans Excel. Son assistant IA répond aux questions financières et génère rapports et présentations.",
+    "features_fr": [
+      "Consolidation automatique des données",
+      "Travail dans Excel",
+      "Questions financières à l'IA",
+      "Rapports et présentations générés"
+    ]
+  },
+  "spendesk": {
+    "summary_fr": "Gestion des dépenses d'entreprise avec cartes et IA (France).",
+    "description_fr": "Spendesk réunit cartes de paiement, notes de frais, factures fournisseurs et budgets. L'IA lit les justificatifs, prépare la comptabilité et signale les anomalies. La société est française.",
+    "features_fr": [
+      "Cartes de paiement pour les équipes",
+      "Notes de frais automatisées",
+      "Lecture des justificatifs par IA",
+      "Suivi des budgets"
+    ]
+  },
+  "monarch-money": {
+    "summary_fr": "Application de budget personnel avec assistant IA.",
+    "description_fr": "Monarch regroupe comptes, cartes et placements pour suivre dépenses, budget et patrimoine, seul ou en couple. Son assistant IA répond aux questions sur tes finances et repère des tendances.",
+    "features_fr": [
+      "Tous les comptes réunis",
+      "Budget et suivi des dépenses",
+      "Assistant IA sur tes finances",
+      "Partage en couple"
+    ]
+  },
+  "drata": {
+    "summary_fr": "Automatisation de la conformité SOC 2, ISO 27001 et RGPD.",
+    "description_fr": "Drata surveille en continu les contrôles de sécurité, collecte les preuves et prépare les audits de conformité. Ses fonctions IA répondent aux questionnaires de sécurité et évaluent les fournisseurs.",
+    "features_fr": [
+      "Surveillance continue des contrôles",
+      "Collecte automatique des preuves",
+      "Questionnaires de sécurité par IA",
+      "SOC 2, ISO 27001, RGPD"
+    ]
+  },
+  "wiz": {
+    "summary_fr": "Sécurité du cloud, des applications et des systèmes d'IA.",
+    "description_fr": "Wiz cartographie les environnements cloud pour détecter vulnérabilités, mauvaises configurations et risques, y compris ceux liés aux modèles et pipelines d'IA. La société a été rachetée par Google.",
+    "features_fr": [
+      "Cartographie des risques cloud",
+      "Détection des vulnérabilités",
+      "Sécurité des systèmes d'IA",
+      "Sans agent à installer"
+    ]
+  },
+  "hiddenlayer": {
+    "summary_fr": "Protection des modèles d'IA contre les attaques.",
+    "description_fr": "HiddenLayer analyse les modèles d'IA pour détecter code malveillant et vulnérabilités, et protège les applications en production contre les injections de prompt et les fuites de données.",
+    "features_fr": [
+      "Analyse de sécurité des modèles",
+      "Protection contre l'injection de prompt",
+      "Détection des fuites de données",
+      "Tests d'attaque sur les modèles"
+    ]
+  },
+  "sublime-security": {
+    "summary_fr": "Protection des emails contre le phishing, avec agents IA.",
+    "description_fr": "Sublime Security détecte phishing, usurpation et fraude par email grâce à des règles ouvertes et des agents IA qui analysent les messages suspects. Il s'intègre à Microsoft 365 et Google Workspace.",
+    "features_fr": [
+      "Détection du phishing",
+      "Agents IA d'analyse des emails",
+      "Règles de détection ouvertes",
+      "Microsoft 365 et Google Workspace"
+    ]
+  },
+  "turnitin-ai": {
+    "summary_fr": "Détection d'écriture IA intégrée à l'outil anti-plagiat de référence.",
+    "description_fr": "Turnitin signale dans les travaux d'élèves et d'étudiants les passages probablement rédigés ou reformulés par une IA, en plus de la détection de plagiat. Il est utilisé par de nombreuses universités via des licences d'établissement.",
+    "features_fr": [
+      "Détection des passages rédigés par IA",
+      "Repérage des reformulations",
+      "Vérification de plagiat",
+      "Intégration aux plateformes d'enseignement"
+    ]
+  },
+  "alexlegal": {
+    "summary_fr": "Conseiller juridique en ligne gratuit avec IA, pour le droit espagnol.",
+    "description_fr": "Alex AI est un assistant juridique en ligne gratuit proposé par Legálitas Innovation. Tu poses ta question par chat (ou à la voix quand c'est disponible) et tu obtiens une réponse claire en quelques secondes, fondée sur la législation espagnole en vigueur et sur l'expérience de cas réels. Il couvre le travail, le logement, la famille, les contrats et la consommation. Les réponses s'appuient sur l'expertise Legálitas ; tu peux aussi demander à être mis en relation avec un avocat pour la suite. Alex ne remplace pas un avocat devant un tribunal, mais il t'aide à comprendre tes droits avant d'aller plus loin.",
+    "features_fr": [
+      "Questions juridiques gratuites par chat et voix, 24 h/24",
+      "Réponses adaptées au droit espagnol et aux guides Legálitas",
+      "Travail, logement, famille, contrats et consommation",
+      "Mise en relation optionnelle avec des avocats",
+      "Applications mobiles iOS et Android"
+    ]
   }
 }

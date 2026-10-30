@@ -1,0 +1,68 @@
+{
+  "id": "hunter-io",
+  "name": "Hunter",
+  "url": "https://hunter.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Finds and verifies professional email addresses (France).",
+  "description": "Hunter finds professional emails for a company or person, verifies their validity and lets you send personalized outreach campaigns. The company was founded in France.",
+  "summary_fr": "Trouve et vérifie des adresses email professionnelles (France).",
+  "description_fr": "Hunter retrouve les emails professionnels d'une entreprise ou d'une personne, vérifie leur validité et permet d'envoyer des campagnes de prospection personnalisées. La société a été fondée en France.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "ai",
+    "sales",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://hunter.io",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/hunter-io.png",
+  "image": "/screenshots/hunter-io.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Email search by domain",
+    "Email verification",
+    "Outreach campaigns",
+    "Chrome extension and API"
+  ],
+  "features_fr": [
+    "Recherche d'emails par domaine",
+    "Vérification des adresses",
+    "Campagnes de prospection",
+    "Extension Chrome et API"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Hunter",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Hunter",
+          "url": "https://hunter.io"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import"
+}

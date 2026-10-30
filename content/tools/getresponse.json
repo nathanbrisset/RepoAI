@@ -1,0 +1,68 @@
+{
+  "id": "getresponse",
+  "name": "GetResponse",
+  "url": "https://www.getresponse.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Email marketing, automation and landing pages with an AI generator.",
+  "description": "GetResponse handles newsletters, automation, landing pages, webinars and online course sales. Its AI generator creates emails, pages and campaigns from a description.",
+  "summary_fr": "Emailing, automatisation et pages de vente, avec générateur IA.",
+  "description_fr": "GetResponse gère newsletters, automatisations, pages d'atterrissage, webinaires et vente de cours en ligne. Son générateur IA crée emails, pages et campagnes à partir d'une description.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.getresponse.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/getresponse.png",
+  "image": "/screenshots/getresponse.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "AI-generated emails and campaigns",
+    "Marketing automation",
+    "Landing pages and webinars",
+    "Online course sales"
+  ],
+  "features_fr": [
+    "Emails et campagnes générés par IA",
+    "Automatisations marketing",
+    "Pages d'atterrissage et webinaires",
+    "Vente de cours en ligne"
+  ],
+  "howToUse": [
+    {
+      "title": "Open GetResponse",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "GetResponse",
+          "url": "https://www.getresponse.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "PL",
+  "hqCountrySource": "import"
+}

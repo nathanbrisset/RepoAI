@@ -1,0 +1,68 @@
+{
+  "id": "scribens",
+  "name": "Scribens",
+  "url": "https://www.scribens.fr",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Free French spelling and grammar checker.",
+  "description": "Scribens corrects spelling, grammar, conjugation and punctuation mistakes in French texts, with explanations. It also flags repetition and clumsy style, with browser and word processor extensions.",
+  "summary_fr": "Correcteur d'orthographe et de grammaire gratuit en français.",
+  "description_fr": "Scribens corrige les fautes d'orthographe, de grammaire, de conjugaison et de ponctuation dans les textes français, avec des explications. Il signale aussi répétitions et lourdeurs de style, et propose des extensions pour navigateur et traitement de texte.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "ai",
+    "writing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.scribens.fr",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/scribens.png",
+  "image": "/screenshots/scribens.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Spelling and grammar correction",
+    "Rule explanations",
+    "Repetition and style detection",
+    "Browser and Word extensions"
+  ],
+  "features_fr": [
+    "Correction orthographique et grammaticale",
+    "Explications des règles",
+    "Détection des répétitions et du style",
+    "Extensions navigateur et Word"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Scribens",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Scribens",
+          "url": "https://www.scribens.fr"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import"
+}

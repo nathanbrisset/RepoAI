@@ -1,0 +1,68 @@
+{
+  "id": "evenup",
+  "name": "EvenUp",
+  "url": "https://www.evenuplaw.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI for personal injury lawyers: demands and case files.",
+  "description": "EvenUp analyzes medical records and documents to draft demand letters and estimate case value. It serves US personal injury law firms.",
+  "summary_fr": "IA pour les avocats en préjudice corporel : demandes et dossiers.",
+  "description_fr": "EvenUp analyse dossiers médicaux et pièces pour rédiger des lettres de demande d'indemnisation et estimer la valeur d'un dossier. Il s'adresse aux cabinets américains spécialisés en préjudice corporel.",
+  "categories": [
+    "legal"
+  ],
+  "tags": [
+    "ai",
+    "legal",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://www.evenuplaw.com",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/evenup.png",
+  "image": "/screenshots/evenup.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Drafted demand letters",
+    "Medical record analysis",
+    "Case value estimation",
+    "For personal injury firms"
+  ],
+  "features_fr": [
+    "Lettres de demande rédigées",
+    "Analyse des dossiers médicaux",
+    "Estimation de la valeur d'un dossier",
+    "Pour cabinets de préjudice corporel"
+  ],
+  "howToUse": [
+    {
+      "title": "Open EvenUp",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "EvenUp",
+          "url": "https://www.evenuplaw.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

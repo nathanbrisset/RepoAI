@@ -1,0 +1,68 @@
+{
+  "id": "missive",
+  "name": "Missive",
+  "url": "https://missiveapp.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Shared team inbox with AI writing.",
+  "description": "Missive brings email, SMS and messaging into a shared inbox where the team comments, assigns and co-writes. Its AI assistant drafts, translates and summarizes conversations.",
+  "summary_fr": "Boîte mail partagée pour les équipes, avec rédaction IA.",
+  "description_fr": "Missive réunit emails, SMS et messageries dans une boîte partagée où l'équipe commente, assigne et rédige à plusieurs. Son assistant IA rédige, traduit et résume les conversations.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai",
+    "productivity",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://missiveapp.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/missive.png",
+  "image": "/screenshots/missive.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Shared inbox",
+    "Comments and assignment",
+    "AI drafting and translation",
+    "Email, SMS and WhatsApp"
+  ],
+  "features_fr": [
+    "Boîte mail partagée",
+    "Commentaires et assignation",
+    "Rédaction et traduction IA",
+    "Emails, SMS et WhatsApp"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Missive",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Missive",
+          "url": "https://missiveapp.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CA",
+  "hqCountrySource": "import"
+}

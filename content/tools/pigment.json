@@ -1,0 +1,68 @@
+{
+  "id": "pigment",
+  "name": "Pigment",
+  "url": "https://www.pigment.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Financial and business planning with AI agents (France).",
+  "description": "Pigment lets finance teams build budgets, forecasts and scenarios by connecting company data. Its AI agents analyze variances and answer questions. The company is French.",
+  "summary_fr": "Planification financière et business planning, avec agents IA (France).",
+  "description_fr": "Pigment permet aux équipes finance de construire budgets, prévisions et scénarios en connectant les données de l'entreprise. Ses agents IA analysent les écarts et répondent aux questions. La société est française.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "ai",
+    "finance",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://www.pigment.com",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/pigment.png",
+  "image": "/screenshots/pigment.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Budgets and forecasts",
+    "Scenarios and simulations",
+    "AI analysis agents",
+    "Connects company data"
+  ],
+  "features_fr": [
+    "Budgets et prévisions",
+    "Scénarios et simulations",
+    "Agents IA d'analyse",
+    "Connexion aux données de l'entreprise"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Pigment",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Pigment",
+          "url": "https://www.pigment.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import"
+}

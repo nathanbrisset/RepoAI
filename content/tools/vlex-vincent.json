@@ -1,0 +1,68 @@
+{
+  "id": "vlex-vincent",
+  "name": "Vincent AI (vLex)",
+  "url": "https://vlex.com/vincent-ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Legal research assistant on a large multinational database.",
+  "description": "Vincent AI, from vLex (part of Clio), performs legal research, analyzes documents and drafts memos using a case law and legislation database covering many countries.",
+  "summary_fr": "Assistant de recherche juridique sur une vaste base multinationale.",
+  "description_fr": "Vincent AI, de vLex (groupe Clio), effectue des recherches juridiques, analyse des documents et rédige des mémos en s'appuyant sur une base de jurisprudence et de législation couvrant de nombreux pays.",
+  "categories": [
+    "legal"
+  ],
+  "tags": [
+    "ai",
+    "legal",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://vlex.com/vincent-ai",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/vlex-vincent.png",
+  "image": "/screenshots/vlex-vincent.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Sourced legal research",
+    "Coverage of many countries",
+    "Document analysis",
+    "Memo drafting"
+  ],
+  "features_fr": [
+    "Recherche juridique sourcée",
+    "Couverture de nombreux pays",
+    "Analyse de documents",
+    "Rédaction de mémos"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Vincent AI (vLex)",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Vincent AI (vLex)",
+          "url": "https://vlex.com/vincent-ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "ES",
+  "hqCountrySource": "import"
+}

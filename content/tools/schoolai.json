@@ -1,0 +1,68 @@
+{
+  "id": "schoolai",
+  "name": "SchoolAI",
+  "url": "https://schoolai.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Teacher-guided AI spaces to support every student.",
+  "description": "SchoolAI lets teachers create spaces where an AI assistant guides students through an activity while the teacher monitors conversations in real time. It also offers lesson-planning tools.",
+  "summary_fr": "Espaces IA encadrés par l'enseignant pour accompagner chaque élève.",
+  "description_fr": "SchoolAI permet aux enseignants de créer des espaces où un assistant IA guide les élèves sur une activité, tout en suivant leurs échanges en temps réel. Il propose aussi des outils de préparation de cours.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "ai",
+    "education",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://schoolai.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/schoolai.png",
+  "image": "/screenshots/schoolai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Teacher-created AI spaces",
+    "Real-time conversation monitoring",
+    "Individualized support",
+    "Lesson-planning tools"
+  ],
+  "features_fr": [
+    "Espaces IA créés par l'enseignant",
+    "Suivi des échanges en temps réel",
+    "Accompagnement individualisé",
+    "Outils de préparation de cours"
+  ],
+  "howToUse": [
+    {
+      "title": "Open SchoolAI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "SchoolAI",
+          "url": "https://schoolai.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "amazon-polly",
+  "name": "Amazon Polly",
+  "url": "https://aws.amazon.com/polly/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AWS text-to-speech for apps and content.",
+  "description": "Amazon Polly turns text into speech with neural and generative voices in many languages. It's used for apps, accessibility, audio articles and IVR systems.",
+  "summary_fr": "Synthèse vocale d'AWS pour applications et contenus.",
+  "description_fr": "Amazon Polly transforme du texte en parole avec des voix neuronales et génératives dans de nombreuses langues. Il est utilisé pour les applications, l'accessibilité, les articles audio et les serveurs vocaux.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "ai",
+    "voice",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Usage-based",
+    "sourceUrl": "https://aws.amazon.com/polly/",
+    "model": "usage-based",
+    "label": "Usage-based"
+  },
+  "logo": "/logos/amazon-polly.png",
+  "image": "/screenshots/amazon-polly.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Neural and generative voices",
+    "Many languages",
+    "SSML markup control",
+    "Pay-as-you-go AWS API"
+  ],
+  "features_fr": [
+    "Voix neuronales et génératives",
+    "Nombreuses langues",
+    "Contrôle par balisage SSML",
+    "API AWS à l'usage"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Amazon Polly",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Amazon Polly",
+          "url": "https://aws.amazon.com/polly/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

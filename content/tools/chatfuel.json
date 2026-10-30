@@ -1,0 +1,68 @@
+{
+  "id": "chatfuel",
+  "name": "Chatfuel",
+  "url": "https://chatfuel.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI chatbots for Instagram, Messenger and WhatsApp.",
+  "description": "Chatfuel builds assistants that answer messages, qualify leads and sell on Instagram, Facebook Messenger and WhatsApp. Flows are built without code.",
+  "summary_fr": "Chatbots IA pour Instagram, Messenger et WhatsApp.",
+  "description_fr": "Chatfuel crée des assistants qui répondent aux messages, qualifient les prospects et vendent sur Instagram, Facebook Messenger et WhatsApp. Les scénarios se construisent sans code.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://chatfuel.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/chatfuel.png",
+  "image": "/screenshots/chatfuel.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Instagram, Messenger, WhatsApp bots",
+    "AI replies",
+    "Lead qualification",
+    "No-code builder"
+  ],
+  "features_fr": [
+    "Chatbots Instagram, Messenger, WhatsApp",
+    "Réponses IA",
+    "Qualification de prospects",
+    "Création sans code"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Chatfuel",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Chatfuel",
+          "url": "https://chatfuel.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

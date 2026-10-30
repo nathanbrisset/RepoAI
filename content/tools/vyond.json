@@ -1,0 +1,68 @@
+{
+  "id": "vyond",
+  "name": "Vyond",
+  "url": "https://www.vyond.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Professional animated character videos with AI.",
+  "description": "Vyond creates animated character videos for training, internal comms and marketing. Vyond Go generates a full video from a prompt, which you then edit in the studio.",
+  "summary_fr": "Vidéos animées professionnelles avec personnages, assistées par IA.",
+  "description_fr": "Vyond crée des vidéos animées avec personnages pour la formation, la communication interne et le marketing. Vyond Go génère une vidéo complète à partir d'une consigne, modifiable ensuite dans l'éditeur.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ai",
+    "video",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.vyond.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/vyond.png",
+  "image": "/screenshots/vyond.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Customizable animated characters",
+    "Vyond Go: video from a prompt",
+    "Voiceover and lip sync",
+    "Built for training"
+  ],
+  "features_fr": [
+    "Personnages animés personnalisables",
+    "Vyond Go : vidéo générée par consigne",
+    "Voix off et synchronisation labiale",
+    "Pensé pour la formation"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Vyond",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Vyond",
+          "url": "https://www.vyond.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

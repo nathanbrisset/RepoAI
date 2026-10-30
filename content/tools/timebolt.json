@@ -1,0 +1,68 @@
+{
+  "id": "timebolt",
+  "name": "TimeBolt",
+  "url": "https://www.timebolt.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Automatically removes silences and filler from videos.",
+  "description": "TimeBolt detects and cuts silences, filler words and gaps in recordings, sharply reducing editing time. Cuts export to Premiere Pro, DaVinci Resolve or Final Cut.",
+  "summary_fr": "Supprime automatiquement silences et hésitations dans les vidéos.",
+  "description_fr": "TimeBolt détecte et coupe les silences, les « euh » et les blancs dans les enregistrements, ce qui raccourcit fortement le temps de montage. Les coupes s'exportent vers Premiere Pro, DaVinci Resolve ou Final Cut.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ai",
+    "video",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.timebolt.io",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/timebolt.png",
+  "image": "/screenshots/timebolt.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Automatic silence removal",
+    "Filler word detection",
+    "Export to editing software",
+    "Long video processing"
+  ],
+  "features_fr": [
+    "Suppression automatique des silences",
+    "Détection des mots parasites",
+    "Export vers les logiciels de montage",
+    "Traitement de longues vidéos"
+  ],
+  "howToUse": [
+    {
+      "title": "Open TimeBolt",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "TimeBolt",
+          "url": "https://www.timebolt.io"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

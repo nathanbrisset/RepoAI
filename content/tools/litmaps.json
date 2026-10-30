@@ -1,0 +1,68 @@
+{
+  "id": "litmaps",
+  "name": "Litmaps",
+  "url": "https://www.litmaps.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Visual mapping of scientific literature.",
+  "description": "Litmaps starts from one or more papers and builds a map of works linked by citations, to spot key references and new publications. Alerts flag relevant recent papers.",
+  "summary_fr": "Cartographie visuelle de la littérature scientifique.",
+  "description_fr": "Litmaps part d'un ou plusieurs articles et construit une carte des travaux liés par citations, pour repérer les références clés et les nouvelles publications. Des alertes signalent les articles récents pertinents.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "ai",
+    "search",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.litmaps.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/litmaps.png",
+  "image": "/screenshots/litmaps.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Map of connected papers",
+    "Key reference discovery",
+    "New publication alerts",
+    "Zotero import"
+  ],
+  "features_fr": [
+    "Carte des articles liés",
+    "Découverte de références clés",
+    "Alertes sur les nouvelles publications",
+    "Import depuis Zotero"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Litmaps",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Litmaps",
+          "url": "https://www.litmaps.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "NZ",
+  "hqCountrySource": "import"
+}

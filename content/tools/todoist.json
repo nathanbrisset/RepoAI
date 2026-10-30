@@ -1,0 +1,68 @@
+{
+  "id": "todoist",
+  "name": "Todoist",
+  "url": "https://www.todoist.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Popular task manager with natural-language input and AI.",
+  "description": "Todoist organizes personal and team tasks and projects, with natural-language dates, priorities and reminders. Its AI assistant breaks a goal into subtasks and suggests actions.",
+  "summary_fr": "Gestionnaire de tâches populaire, avec ajout en langage naturel et IA.",
+  "description_fr": "Todoist organise tâches et projets personnels ou d'équipe, avec dates en langage naturel, priorités et rappels. Son assistant IA découpe un objectif en sous-tâches et suggère des actions.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai",
+    "productivity",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.todoist.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/todoist.png",
+  "image": "/screenshots/todoist.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Natural-language task entry",
+    "Projects, priorities and reminders",
+    "AI goal breakdown",
+    "On every platform"
+  ],
+  "features_fr": [
+    "Ajout de tâches en langage naturel",
+    "Projets, priorités et rappels",
+    "Découpage d'objectifs par IA",
+    "Sur toutes les plateformes"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Todoist",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Todoist",
+          "url": "https://www.todoist.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

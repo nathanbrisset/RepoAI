@@ -1,0 +1,68 @@
+{
+  "id": "swimm",
+  "name": "Swimm",
+  "url": "https://swimm.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-generated, always-up-to-date code documentation.",
+  "description": "Swimm analyzes a repository to explain code flows and logic, and keeps documentation in sync with every change. It helps developers quickly understand an existing codebase.",
+  "summary_fr": "Documentation du code générée et tenue à jour par IA.",
+  "description_fr": "Swimm analyse un dépôt pour expliquer les flux et la logique du code, et maintient la documentation synchronisée à chaque changement. Il aide les développeurs à comprendre rapidement une base de code existante.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ai",
+    "coding",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://swimm.io",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/swimm.png",
+  "image": "/screenshots/swimm.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Code flow explanations",
+    "Docs synced with code",
+    "IDE integration",
+    "Legacy codebase understanding"
+  ],
+  "features_fr": [
+    "Explication des flux du code",
+    "Documentation synchronisée au code",
+    "Intégration dans l'IDE",
+    "Compréhension des bases de code anciennes"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Swimm",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Swimm",
+          "url": "https://swimm.io"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "IL",
+  "hqCountrySource": "import"
+}

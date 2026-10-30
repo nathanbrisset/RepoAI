@@ -1,0 +1,68 @@
+{
+  "id": "kokoro-tts",
+  "name": "Kokoro TTS",
+  "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Small, fast, high-quality open-source TTS model.",
+  "description": "Kokoro is a lightweight text-to-speech model (82 million parameters) that produces good-quality voices in several languages. Its weights are open and it runs even on a modest computer.",
+  "summary_fr": "Petit modèle de synthèse vocale open source, rapide et de qualité.",
+  "description_fr": "Kokoro est un modèle de synthèse vocale léger (82 millions de paramètres) qui produit des voix de bonne qualité en plusieurs langues. Ses poids sont libres et il tourne même sur un ordinateur modeste.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "ai",
+    "voice",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/kokoro-tts.png",
+  "image": "/screenshots/kokoro-tts.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Lightweight and fast",
+    "Good-quality voices",
+    "Several languages",
+    "Open weights, commercial use allowed"
+  ],
+  "features_fr": [
+    "Modèle léger et rapide",
+    "Voix de bonne qualité",
+    "Plusieurs langues",
+    "Poids open source, usage commercial permis"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kokoro TTS",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Kokoro TTS",
+          "url": "https://huggingface.co/hexgrad/Kokoro-82M"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

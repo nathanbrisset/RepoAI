@@ -1,0 +1,68 @@
+{
+  "id": "powtoon",
+  "name": "Powtoon",
+  "url": "https://www.powtoon.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Animated videos and dynamic presentations with AI.",
+  "description": "Powtoon lets you create explainer videos, training and animated presentations by drag and drop. Its AI features turn a document or script into a video and add avatars and voiceover.",
+  "summary_fr": "Vidéos animées et présentations dynamiques, assistées par IA.",
+  "description_fr": "Powtoon permet de créer vidéos explicatives, formations et présentations animées par glisser-déposer. Ses fonctions IA transforment un document ou un script en vidéo et ajoutent avatars et voix off.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ai",
+    "video",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.powtoon.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/powtoon.png",
+  "image": "/screenshots/powtoon.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Drag-and-drop animation",
+    "Document or script to video",
+    "Avatars and voiceover",
+    "Training and marketing templates"
+  ],
+  "features_fr": [
+    "Animations par glisser-déposer",
+    "Document ou script vers vidéo",
+    "Avatars et voix off",
+    "Modèles pour formation et marketing"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Powtoon",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Powtoon",
+          "url": "https://www.powtoon.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "GB",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "sublime-security",
+  "name": "Sublime Security",
+  "url": "https://sublime.security",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Email protection against phishing, with AI agents.",
+  "description": "Sublime Security detects phishing, impersonation and email fraud using open detection rules and AI agents that analyze suspicious messages. It integrates with Microsoft 365 and Google Workspace.",
+  "summary_fr": "Protection des emails contre le phishing, avec agents IA.",
+  "description_fr": "Sublime Security détecte phishing, usurpation et fraude par email grâce à des règles ouvertes et des agents IA qui analysent les messages suspects. Il s'intègre à Microsoft 365 et Google Workspace.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "ai",
+    "security",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://sublime.security",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/sublime-security.png",
+  "image": "/screenshots/sublime-security.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Phishing detection",
+    "AI email analysis agents",
+    "Open detection rules",
+    "Microsoft 365 and Google Workspace"
+  ],
+  "features_fr": [
+    "Détection du phishing",
+    "Agents IA d'analyse des emails",
+    "Règles de détection ouvertes",
+    "Microsoft 365 et Google Workspace"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Sublime Security",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Sublime Security",
+          "url": "https://sublime.security"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

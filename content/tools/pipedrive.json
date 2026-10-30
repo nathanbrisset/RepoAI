@@ -1,0 +1,68 @@
+{
+  "id": "pipedrive",
+  "name": "Pipedrive",
+  "url": "https://www.pipedrive.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Visual sales CRM with an AI assistant.",
+  "description": "Pipedrive organizes deals in a visual pipeline and helps you follow each opportunity. Its AI assistant summarizes emails, suggests next steps and flags deals at risk.",
+  "summary_fr": "CRM visuel pour les commerciaux, avec assistant IA.",
+  "description_fr": "Pipedrive organise les affaires en pipeline visuel et aide à suivre chaque opportunité. Son assistant IA résume les emails, suggère les prochaines actions et repère les affaires à risque.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "ai",
+    "sales",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.pipedrive.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/pipedrive.png",
+  "image": "/screenshots/pipedrive.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Visual sales pipeline",
+    "AI email summaries",
+    "Suggested next steps",
+    "Automations and integrations"
+  ],
+  "features_fr": [
+    "Pipeline de vente visuel",
+    "Résumés d'emails par IA",
+    "Prochaines actions suggérées",
+    "Automatisations et intégrations"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Pipedrive",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Pipedrive",
+          "url": "https://www.pipedrive.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

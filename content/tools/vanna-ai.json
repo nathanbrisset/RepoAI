@@ -1,0 +1,68 @@
+{
+  "id": "vanna-ai",
+  "name": "Vanna AI",
+  "url": "https://vanna.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns questions into SQL queries on your databases.",
+  "description": "Vanna is an open-source framework that learns your database schema to generate reliable SQL queries from questions. It plugs into an app, a notebook or Slack.",
+  "summary_fr": "Transforme des questions en requêtes SQL sur tes bases de données.",
+  "description_fr": "Vanna est un framework open source qui apprend la structure de ta base de données pour générer des requêtes SQL fiables à partir de questions. Il s'intègre dans une application, un notebook ou Slack.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "ai",
+    "data",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://vanna.ai",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/vanna-ai.png",
+  "image": "/screenshots/vanna-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Text to SQL",
+    "Learns your database schema",
+    "App, notebook or Slack integration",
+    "Open source"
+  ],
+  "features_fr": [
+    "Texte vers SQL",
+    "Apprentissage du schéma de la base",
+    "Intégration app, notebook ou Slack",
+    "Open source"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Vanna AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Vanna AI",
+          "url": "https://vanna.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "imagen",
+  "name": "Imagen (Google)",
+  "url": "https://deepmind.google/models/imagen/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Google DeepMind's image generation model.",
+  "description": "Imagen produces photorealistic images and illustrations from text, with fine detail and text rendering. It's available in Gemini, Google AI Studio, Vertex AI and tools like Whisk.",
+  "summary_fr": "Modèle de génération d'images de Google DeepMind.",
+  "description_fr": "Imagen produit des images photoréalistes et des illustrations à partir de texte, avec un rendu fin des détails et du texte. Il est disponible dans Gemini, Google AI Studio, Vertex AI et des outils comme Whisk.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "ai",
+    "image",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://deepmind.google/models/imagen/",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/imagen.png",
+  "image": "/screenshots/imagen.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Photorealistic images",
+    "Fine detail and text rendering",
+    "Available in Gemini and AI Studio",
+    "API via Vertex AI"
+  ],
+  "features_fr": [
+    "Images photoréalistes",
+    "Rendu fin des détails et du texte",
+    "Disponible dans Gemini et AI Studio",
+    "API via Vertex AI"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Imagen (Google)",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Imagen (Google)",
+          "url": "https://deepmind.google/models/imagen/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

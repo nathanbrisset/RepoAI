@@ -1,0 +1,68 @@
+{
+  "id": "cognigy",
+  "name": "Cognigy",
+  "url": "https://www.cognigy.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI agents for contact centers, built in Germany.",
+  "description": "Cognigy automates contact center conversations over phone and messaging and assists live agents. It targets large enterprises and was acquired by NICE.",
+  "summary_fr": "Agents IA pour les centres de contact, conçus en Allemagne.",
+  "description_fr": "Cognigy automatise les conversations des centres de contact par téléphone et messagerie, et assiste les conseillers en direct. Elle vise les grandes entreprises et a été rachetée par NICE.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "ai",
+    "support",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://www.cognigy.com",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/cognigy.png",
+  "image": "/screenshots/cognigy.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Voice and text agents",
+    "Live agent assist",
+    "Many languages",
+    "Contact center integration"
+  ],
+  "features_fr": [
+    "Agents vocaux et textuels",
+    "Assistance aux conseillers en direct",
+    "Nombreuses langues",
+    "Intégration aux centres de contact"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Cognigy",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Cognigy",
+          "url": "https://www.cognigy.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "DE",
+  "hqCountrySource": "import"
+}

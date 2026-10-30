@@ -1,0 +1,68 @@
+{
+  "id": "skybox-ai",
+  "name": "Skybox AI (Blockade Labs)",
+  "url": "https://skybox.blockadelabs.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Generates 360° environments from a description.",
+  "description": "Skybox AI creates immersive 360° panoramas from text in many art styles, with the option to sketch the composition. They're used for games, VR and 3D backdrops.",
+  "summary_fr": "Génère des environnements 360° à partir d'une description.",
+  "description_fr": "Skybox AI crée des panoramas à 360° immersifs à partir d'un texte, dans de nombreux styles artistiques, avec possibilité d'esquisser la composition. Ils servent aux jeux, à la réalité virtuelle et aux décors 3D.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://skybox.blockadelabs.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/skybox-ai.png",
+  "image": "/screenshots/skybox-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "360° panoramas from text",
+    "Many art styles",
+    "Sketch the composition",
+    "Export for games and VR"
+  ],
+  "features_fr": [
+    "Panoramas 360° à partir d'un texte",
+    "Nombreux styles artistiques",
+    "Esquisse de la composition",
+    "Export pour jeux et VR"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Skybox AI (Blockade Labs)",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Skybox AI (Blockade Labs)",
+          "url": "https://skybox.blockadelabs.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

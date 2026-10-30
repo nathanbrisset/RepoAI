@@ -1,0 +1,68 @@
+{
+  "id": "octoparse",
+  "name": "Octoparse",
+  "url": "https://www.octoparse.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code web data extraction with AI assistance.",
+  "description": "Octoparse automatically detects data on a page and builds a scraper by point and click. Extractions run in the cloud on a schedule and export to Excel, CSV or a database.",
+  "summary_fr": "Extraction de données web sans code, assistée par IA.",
+  "description_fr": "Octoparse détecte automatiquement les données d'une page et construit un scraper par pointer-cliquer. Les extractions tournent dans le cloud selon un planning et s'exportent en Excel, CSV ou base de données.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.octoparse.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/octoparse.png",
+  "image": "/screenshots/octoparse.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Automatic data detection",
+    "Point-and-click scraper",
+    "Scheduled cloud extraction",
+    "Templates for popular sites"
+  ],
+  "features_fr": [
+    "Détection automatique des données",
+    "Scraper par pointer-cliquer",
+    "Extractions planifiées dans le cloud",
+    "Modèles pour sites populaires"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Octoparse",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Octoparse",
+          "url": "https://www.octoparse.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

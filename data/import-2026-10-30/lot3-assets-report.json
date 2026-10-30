@@ -1,0 +1,20 @@
+{
+  "lot3CsvTools": 197,
+  "addonAlexlegal": {
+    "id": "alexlegal",
+    "logoOk": true,
+    "screenshotOk": true
+  },
+  "logosOk": 198,
+  "logosFail": [],
+  "screenshotsOk": 197,
+  "screenshotsFail": [
+    "csm-ai"
+  ],
+  "screenshotNotes": {
+    "shutterstock-ai": "Homepage returns HTTP 403 in CI; capture uses investor.shutterstock.com (official IR site).",
+    "merciapp": "CSV URL www.merciapp.com is dead; capture from www.merci-app.com (official).",
+    "invokeai": "CSV URL invoke.com errors; capture from invoke.ai (current product site).",
+    "csm-ai": "csm.ai domains do not resolve from build environment (ERR_NAME_NOT_RESOLVED)."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "zoho-crm",
+  "name": "Zoho CRM (Zia)",
+  "url": "https://www.zoho.com/crm/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Full-featured CRM with the Zia AI assistant.",
+  "description": "Zoho CRM manages leads, deals, campaigns and customer service. Its Zia assistant predicts close likelihood, detects anomalies, suggests best contact times and answers questions about your data.",
+  "summary_fr": "CRM complet avec l'assistant IA Zia.",
+  "description_fr": "Zoho CRM gère prospects, affaires, campagnes et service client. Son assistant Zia prédit les chances de conclure, détecte les anomalies, suggère les meilleurs moments de contact et répond aux questions sur les données.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "ai",
+    "sales",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.zoho.com/crm/",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/zoho-crm.png",
+  "image": "/screenshots/zoho-crm.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Deal close predictions",
+    "Anomaly detection",
+    "Best time to contact",
+    "Natural-language questions"
+  ],
+  "features_fr": [
+    "Prédiction de conclusion des affaires",
+    "Détection d'anomalies",
+    "Meilleurs moments de contact",
+    "Questions en langage naturel"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Zoho CRM (Zia)",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Zoho CRM (Zia)",
+          "url": "https://www.zoho.com/crm/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "IN",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "equals",
+  "name": "Equals",
+  "url": "https://equals.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Spreadsheet connected to databases, with built-in AI.",
+  "description": "Equals combines a classic spreadsheet with direct connections to databases and SaaS tools, keeping data current. Its AI writes formulas and SQL and helps build reports.",
+  "summary_fr": "Tableur connecté aux bases de données, avec IA intégrée.",
+  "description_fr": "Equals combine un tableur classique et des connexions directes aux bases de données et outils SaaS, avec des données à jour. Son IA écrit formules et requêtes SQL et aide à construire des rapports.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "ai",
+    "data",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://equals.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/equals.png",
+  "image": "/screenshots/equals.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Spreadsheet connected to databases",
+    "Always-current data",
+    "AI-generated formulas and SQL",
+    "Automated reports"
+  ],
+  "features_fr": [
+    "Tableur connecté aux bases de données",
+    "Données toujours à jour",
+    "Formules et SQL générés par IA",
+    "Rapports automatisés"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Equals",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Equals",
+          "url": "https://equals.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

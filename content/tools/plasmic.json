@@ -1,0 +1,68 @@
+{
+  "id": "plasmic",
+  "name": "Plasmic",
+  "url": "https://www.plasmic.app",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Visual page and app builder that plugs into existing code.",
+  "description": "Plasmic lets teams visually design pages and apps, then embed them in a React or Next.js project. AI helps generate interfaces, and developers stay in control of the code.",
+  "summary_fr": "Constructeur visuel de pages et d'apps, intégré au code existant.",
+  "description_fr": "Plasmic permet aux équipes de concevoir visuellement des pages et applications, puis de les intégrer dans un projet React ou Next.js. L'IA aide à générer des interfaces, et les développeurs gardent la main sur le code.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "ai",
+    "no",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.plasmic.app",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/plasmic.png",
+  "image": "/screenshots/plasmic.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Visual page editor",
+    "React and Next.js integration",
+    "AI interface generation",
+    "Headless CMS"
+  ],
+  "features_fr": [
+    "Éditeur visuel de pages",
+    "Intégration React et Next.js",
+    "Génération d'interfaces par IA",
+    "CMS headless"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Plasmic",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Plasmic",
+          "url": "https://www.plasmic.app"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "appsmith",
+  "name": "Appsmith",
+  "url": "https://www.appsmith.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source platform to build internal tools, with AI.",
+  "description": "Appsmith lets you quickly assemble dashboards, admin panels and internal tools connected to databases and APIs. AI features help generate queries, code and agents.",
+  "summary_fr": "Plateforme open source pour créer des outils internes, avec IA.",
+  "description_fr": "Appsmith permet d'assembler rapidement des tableaux de bord, panneaux d'administration et outils internes connectés à des bases de données et API. Des fonctions IA aident à générer requêtes, code et agents.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "ai",
+    "no",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://www.appsmith.com",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/appsmith.png",
+  "image": "/screenshots/appsmith.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Drag-and-drop components",
+    "Database and API connections",
+    "AI query and code generation",
+    "Open source, self-hostable"
+  ],
+  "features_fr": [
+    "Composants glisser-déposer",
+    "Connexion aux bases et API",
+    "Génération de requêtes et code par IA",
+    "Open source, auto-hébergeable"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Appsmith",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Appsmith",
+          "url": "https://www.appsmith.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

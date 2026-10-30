@@ -1,0 +1,68 @@
+{
+  "id": "seedream",
+  "name": "Seedream (ByteDance)",
+  "url": "https://seed.bytedance.com/en/seedream",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "ByteDance's image generation and editing model.",
+  "description": "Seedream generates highly detailed images with strong text rendering and lets you edit them with simple instructions. It's available in Dreamina, CapCut and through API platforms.",
+  "summary_fr": "Modèle de génération et d'édition d'images de ByteDance.",
+  "description_fr": "Seedream génère des images très détaillées, avec un bon rendu du texte, et permet de les modifier par simples instructions. Il est accessible dans Dreamina, CapCut et via des plateformes d'API.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "ai",
+    "image",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://seed.bytedance.com/en/seedream",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/seedream.png",
+  "image": "/screenshots/seedream.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Highly detailed images",
+    "Strong in-image text rendering",
+    "Instruction-based editing",
+    "Available in Dreamina and via API"
+  ],
+  "features_fr": [
+    "Images très détaillées",
+    "Bon rendu du texte dans l'image",
+    "Édition par instructions",
+    "Disponible dans Dreamina et par API"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Seedream (ByteDance)",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Seedream (ByteDance)",
+          "url": "https://seed.bytedance.com/en/seedream"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CN",
+  "hqCountrySource": "import"
+}

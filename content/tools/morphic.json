@@ -1,0 +1,68 @@
+{
+  "id": "morphic",
+  "name": "Morphic",
+  "url": "https://www.morphic.sh",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source, self-hostable AI answer engine.",
+  "description": "Morphic searches the web and answers with a sourced summary and a generative interface. The code is open source, so you can deploy it with your own models.",
+  "summary_fr": "Moteur de réponses IA open source, à héberger soi-même.",
+  "description_fr": "Morphic recherche sur le web et répond avec une synthèse sourcée et une interface générative. Le code est open source, ce qui permet de le déployer avec ses propres modèles.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "ai",
+    "search",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://www.morphic.sh",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/morphic.png",
+  "image": "/screenshots/morphic.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Sourced answers",
+    "Generative interface",
+    "Choice of model",
+    "Open source and self-hostable"
+  ],
+  "features_fr": [
+    "Réponses sourcées",
+    "Interface générative",
+    "Choix du modèle",
+    "Open source et auto-hébergeable"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Morphic",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Morphic",
+          "url": "https://www.morphic.sh"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "JP",
+  "hqCountrySource": "import"
+}

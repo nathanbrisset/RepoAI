@@ -1,0 +1,68 @@
+{
+  "id": "ultimate-vocal-remover",
+  "name": "Ultimate Vocal Remover",
+  "url": "https://ultimatevocalremover.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source audio stem separation app.",
+  "description": "Ultimate Vocal Remover (UVR) is free software that separates vocals, drums, bass and other instruments using several state-of-the-art AI models. It runs locally on Windows, Mac and Linux.",
+  "summary_fr": "Application open source de séparation de pistes audio.",
+  "description_fr": "Ultimate Vocal Remover (UVR) est un logiciel gratuit qui sépare voix, batterie, basse et autres instruments avec plusieurs modèles IA de pointe. Il tourne en local sur Windows, Mac et Linux.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "ai",
+    "music",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://ultimatevocalremover.com",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/ultimate-vocal-remover.png",
+  "image": "/screenshots/ultimate-vocal-remover.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Vocal, drum and bass separation",
+    "Choice of several AI models",
+    "Local processing",
+    "Free and open source"
+  ],
+  "features_fr": [
+    "Séparation voix, batterie, basse",
+    "Choix entre plusieurs modèles IA",
+    "Traitement en local",
+    "Gratuit et open source"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Ultimate Vocal Remover",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Ultimate Vocal Remover",
+          "url": "https://ultimatevocalremover.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

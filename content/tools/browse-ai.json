@@ -1,0 +1,68 @@
+{
+  "id": "browse-ai",
+  "name": "Browse AI",
+  "url": "https://www.browse.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code robots to extract and monitor web data.",
+  "description": "Browse AI lets you train a robot in a few clicks to extract data from a site, such as prices, listings or tables, and monitor changes. Data flows to Google Sheets, Airtable or an API.",
+  "summary_fr": "Robots sans code pour extraire et surveiller des données web.",
+  "description_fr": "Browse AI permet d'entraîner en quelques clics un robot qui extrait les données d'un site (prix, annonces, listes) et surveille leurs changements. Les données s'envoient vers Google Sheets, Airtable ou une API.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.browse.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/browse-ai.png",
+  "image": "/screenshots/browse-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Extraction robots trained in clicks",
+    "Change monitoring",
+    "Export to Sheets, Airtable and API",
+    "Prebuilt robots"
+  ],
+  "features_fr": [
+    "Robots d'extraction entraînés en quelques clics",
+    "Surveillance des changements",
+    "Export vers Sheets, Airtable et API",
+    "Robots préconfigurés"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Browse AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Browse AI",
+          "url": "https://www.browse.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CA",
+  "hqCountrySource": "import"
+}

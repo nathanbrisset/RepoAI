@@ -1,0 +1,68 @@
+{
+  "id": "brave-search",
+  "name": "Brave Search",
+  "url": "https://search.brave.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Independent search engine with AI answers.",
+  "description": "Brave Search runs on its own index, without tracking, and shows AI-synthesized answers with sources. Its search API is also used by many AI assistants and agents.",
+  "summary_fr": "Moteur de recherche indépendant avec réponses IA.",
+  "description_fr": "Brave Search s'appuie sur son propre index, sans pistage, et affiche des réponses synthétisées par IA avec sources. Son API de recherche est aussi utilisée par de nombreux assistants et agents IA.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "ai",
+    "search",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://search.brave.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/brave-search.png",
+  "image": "/screenshots/brave-search.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Independent search index",
+    "AI answers with sources",
+    "No tracking",
+    "API for AI assistants"
+  ],
+  "features_fr": [
+    "Index de recherche indépendant",
+    "Réponses IA avec sources",
+    "Aucun pistage",
+    "API pour assistants IA"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Brave Search",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Brave Search",
+          "url": "https://search.brave.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

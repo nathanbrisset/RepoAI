@@ -1,0 +1,68 @@
+{
+  "id": "sesame",
+  "name": "Sesame",
+  "url": "https://www.sesame.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Highly natural conversational voice assistant.",
+  "description": "Sesame builds conversational AI voices that reproduce the intonation, pauses and reactions of a real conversation. Its demo stood out for its naturalness, and the company also releases an open-source model.",
+  "summary_fr": "Assistant vocal conversationnel très naturel.",
+  "description_fr": "Sesame développe des voix IA conversationnelles qui reproduisent les intonations, pauses et réactions d'une vraie conversation. Sa démo a marqué les esprits par son naturel, et l'entreprise publie aussi un modèle open source.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "ai",
+    "voice",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.sesame.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/sesame.png",
+  "image": "/screenshots/sesame.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Highly natural voice conversation",
+    "Realistic intonation and pauses",
+    "Open-source speech model",
+    "Designed as an everyday companion"
+  ],
+  "features_fr": [
+    "Conversation vocale très naturelle",
+    "Intonations et pauses réalistes",
+    "Modèle vocal open source",
+    "Pensé comme compagnon au quotidien"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Sesame",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Sesame",
+          "url": "https://www.sesame.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

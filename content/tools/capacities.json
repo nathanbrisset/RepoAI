@@ -1,0 +1,68 @@
+{
+  "id": "capacities",
+  "name": "Capacities",
+  "url": "https://capacities.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Object-based note-taking with an AI assistant.",
+  "description": "Capacities organizes notes, people, books or projects as linked objects rather than folders. Its AI assistant summarizes, answers questions about your notes and suggests links.",
+  "summary_fr": "Prise de notes structurée par objets, avec assistant IA.",
+  "description_fr": "Capacities organise notes, personnes, livres ou projets comme des objets reliés entre eux, plutôt qu'en dossiers. Son assistant IA résume, répond aux questions sur tes notes et propose des liens.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai",
+    "productivity",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://capacities.io",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/capacities.png",
+  "image": "/screenshots/capacities.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Notes organized as objects",
+    "Links between ideas",
+    "AI assistant over your notes",
+    "Web, desktop and mobile apps"
+  ],
+  "features_fr": [
+    "Notes organisées en objets",
+    "Liens entre les idées",
+    "Assistant IA sur tes notes",
+    "Applications web, bureau et mobile"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Capacities",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Capacities",
+          "url": "https://capacities.io"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "DE",
+  "hqCountrySource": "import"
+}

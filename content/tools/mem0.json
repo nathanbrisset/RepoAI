@@ -1,0 +1,67 @@
+{
+  "id": "mem0",
+  "name": "Mem0",
+  "url": "https://mem0.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Memory layer for AI apps and agents.",
+  "description": "Mem0 adds long-term memory to AI assistants: it remembers each user's preferences and key facts and recalls them at the right time. It integrates in a few lines and has an open-source version.",
+  "summary_fr": "Couche de mémoire pour applications et agents IA.",
+  "description_fr": "Mem0 ajoute une mémoire à long terme aux assistants IA : il retient les préférences et faits importants de chaque utilisateur et les restitue au bon moment. Il s'intègre en quelques lignes et existe en version open source.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://mem0.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/mem0.png",
+  "image": "/screenshots/mem0.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Per-user long-term memory",
+    "Contextual recall",
+    "Integrates in a few lines",
+    "Open-source version"
+  ],
+  "features_fr": [
+    "Mémoire à long terme par utilisateur",
+    "Rappel contextuel",
+    "Intégration en quelques lignes",
+    "Version open source"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Mem0",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Mem0",
+          "url": "https://mem0.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

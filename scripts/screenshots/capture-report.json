@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T07:13:17.905Z",
+  "generatedAt": "2026-10-30T12:41:56.898Z",
   "audit": {
     "capturedAt": "2026-10-21T18:30:40.343Z",
     "totalFiles": 513,
@@ -243,8 +243,8 @@
     "referencedBytes": 157716471
   },
   "counts": {
-    "processed": 644,
-    "success": 627,
+    "processed": 842,
+    "success": 812,
     "failed": 7,
     "kept": 5,
     "fallback": 2,
@@ -253,7 +253,7 @@
       "captcha": 5
     }
   },
-  "screenshotsBytes": 35703682,
+  "screenshotsBytes": 45386650,
   "legacyBytes": 39883589,
   "results": [
     {
@@ -473,6 +473,18 @@
       "note": ""
     },
     {
+      "id": "agno",
+      "name": "Agno",
+      "url": "https://www.agno.com",
+      "finalUrl": "https://www.agno.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/agno.webp",
+      "bytes": 40268,
+      "note": ""
+    },
+    {
       "id": "ahrefs",
       "name": "Ahrefs",
       "url": "https://ahrefs.com/",
@@ -533,6 +545,18 @@
       "note": ""
     },
     {
+      "id": "airtop",
+      "name": "Airtop",
+      "url": "https://www.airtop.ai",
+      "finalUrl": "https://www.airtop.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/airtop.webp",
+      "bytes": 33804,
+      "note": ""
+    },
+    {
       "id": "aiva",
       "name": "AIVA",
       "url": "https://www.aiva.ai/",
@@ -581,6 +605,18 @@
       "note": ""
     },
     {
+      "id": "alexlegal",
+      "name": "Alex AI (Legálitas)",
+      "url": "https://alexlegal.ai",
+      "finalUrl": "https://alexlegal.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/alexlegal.webp",
+      "bytes": 49158,
+      "note": ""
+    },
+    {
       "id": "altered",
       "name": "Altered Studio",
       "url": "https://www.altered.ai",
@@ -614,6 +650,18 @@
       "reason": "",
       "image": "/screenshots/amazon-codewhisperer.webp",
       "bytes": 63324,
+      "note": ""
+    },
+    {
+      "id": "amazon-polly",
+      "name": "Amazon Polly",
+      "url": "https://aws.amazon.com/polly/",
+      "finalUrl": "https://aws.amazon.com/polly/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/amazon-polly.webp",
+      "bytes": 41926,
       "note": ""
     },
     {
@@ -653,6 +701,18 @@
       "note": ""
     },
     {
+      "id": "amplitude-ai",
+      "name": "Amplitude AI",
+      "url": "https://amplitude.com/ai",
+      "finalUrl": "https://amplitude.com/ai",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/amplitude-ai.webp",
+      "bytes": 33504,
+      "note": ""
+    },
+    {
       "id": "anima",
       "name": "Anima",
       "url": "https://www.animaapp.com/",
@@ -662,6 +722,18 @@
       "reason": "",
       "image": "/screenshots/anima.webp",
       "bytes": 25280,
+      "note": ""
+    },
+    {
+      "id": "animaker",
+      "name": "Animaker",
+      "url": "https://www.animaker.com",
+      "finalUrl": "https://www.animaker.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/animaker.webp",
+      "bytes": 65960,
       "note": ""
     },
     {
@@ -677,6 +749,18 @@
       "note": ""
     },
     {
+      "id": "answerthepublic",
+      "name": "AnswerThePublic",
+      "url": "https://answerthepublic.com",
+      "finalUrl": "https://answerthepublic.com/en",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/answerthepublic.webp",
+      "bytes": 43446,
+      "note": ""
+    },
+    {
       "id": "antidote",
       "name": "Antidote",
       "url": "https://www.antidote.info/",
@@ -686,6 +770,18 @@
       "reason": "",
       "image": "/screenshots/antidote.webp",
       "bytes": 32444,
+      "note": ""
+    },
+    {
+      "id": "anythingllm",
+      "name": "AnythingLLM",
+      "url": "https://anythingllm.com",
+      "finalUrl": "https://anythingllm.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/anythingllm.webp",
+      "bytes": 32510,
       "note": ""
     },
     {
@@ -722,6 +818,42 @@
       "reason": "",
       "image": "/screenshots/apache_spark.webp",
       "bytes": 49106,
+      "note": ""
+    },
+    {
+      "id": "apify",
+      "name": "Apify",
+      "url": "https://apify.com",
+      "finalUrl": "https://apify.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/apify.webp",
+      "bytes": 72846,
+      "note": ""
+    },
+    {
+      "id": "appsmith",
+      "name": "Appsmith",
+      "url": "https://www.appsmith.com",
+      "finalUrl": "https://www.appsmith.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/appsmith.webp",
+      "bytes": 36898,
+      "note": ""
+    },
+    {
+      "id": "aragon-ai",
+      "name": "Aragon AI",
+      "url": "https://www.aragon.ai",
+      "finalUrl": "https://www.aragon.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/aragon-ai.webp",
+      "bytes": 50922,
       "note": ""
     },
     {
@@ -797,6 +929,18 @@
       "note": ""
     },
     {
+      "id": "audioshake",
+      "name": "AudioShake",
+      "url": "https://www.audioshake.ai",
+      "finalUrl": "https://audioshake.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/audioshake.webp",
+      "bytes": 27298,
+      "note": ""
+    },
+    {
       "id": "auphonic",
       "name": "Auphonic",
       "url": "https://auphonic.com",
@@ -809,6 +953,18 @@
       "note": ""
     },
     {
+      "id": "autocut",
+      "name": "AutoCut",
+      "url": "https://www.autocut.com",
+      "finalUrl": "https://www.autocut.com/en/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/autocut.webp",
+      "bytes": 46118,
+      "note": ""
+    },
+    {
       "id": "autodraw",
       "name": "Autodraw",
       "url": "https://www.autodraw.com/",
@@ -818,6 +974,18 @@
       "reason": "",
       "image": "/screenshots/autodraw.webp",
       "bytes": 13074,
+      "note": ""
+    },
+    {
+      "id": "autogen",
+      "name": "AutoGen (Microsoft)",
+      "url": "https://microsoft.github.io/autogen/",
+      "finalUrl": "https://microsoft.github.io/autogen/stable/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/autogen.webp",
+      "bytes": 43540,
       "note": ""
     },
     {
@@ -881,6 +1049,30 @@
       "note": ""
     },
     {
+      "id": "azure-ai-speech",
+      "name": "Azure AI Speech",
+      "url": "https://azure.microsoft.com/products/ai-services/ai-speech",
+      "finalUrl": "https://azure.microsoft.com/en-us/products/ai-foundry/tools/speech",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/azure-ai-speech.webp",
+      "bytes": 29914,
+      "note": ""
+    },
+    {
+      "id": "banani",
+      "name": "Banani",
+      "url": "https://www.banani.co",
+      "finalUrl": "https://www.banani.co/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/banani.webp",
+      "bytes": 18598,
+      "note": ""
+    },
+    {
       "id": "bandlab",
       "name": "BandLab",
       "url": "https://www.bandlab.com",
@@ -926,6 +1118,18 @@
       "reason": "",
       "image": "/screenshots/beehiiv.webp",
       "bytes": 48960,
+      "note": ""
+    },
+    {
+      "id": "biteable",
+      "name": "Biteable",
+      "url": "https://biteable.com",
+      "finalUrl": "https://biteable.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/biteable.webp",
+      "bytes": 33950,
       "note": ""
     },
     {
@@ -1013,6 +1217,18 @@
       "note": ""
     },
     {
+      "id": "brand24",
+      "name": "Brand24",
+      "url": "https://brand24.com",
+      "finalUrl": "https://brand24.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/brand24.webp",
+      "bytes": 27590,
+      "note": ""
+    },
+    {
       "id": "brandmark",
       "name": "Brandmark",
       "url": "https://brandmark.io",
@@ -1034,6 +1250,30 @@
       "reason": "",
       "image": "/screenshots/brave-leo.webp",
       "bytes": 43358,
+      "note": ""
+    },
+    {
+      "id": "brave-search",
+      "name": "Brave Search",
+      "url": "https://search.brave.com",
+      "finalUrl": "https://search.brave.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/brave-search.webp",
+      "bytes": 23622,
+      "note": ""
+    },
+    {
+      "id": "bravo-studio",
+      "name": "Bravo Studio",
+      "url": "https://www.bravostudio.app",
+      "finalUrl": "https://www.bravostudio.app/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/bravo-studio.webp",
+      "bytes": 43606,
       "note": ""
     },
     {
@@ -1082,6 +1322,42 @@
       "reason": "",
       "image": "/screenshots/brightedge.webp",
       "bytes": 36568,
+      "note": ""
+    },
+    {
+      "id": "browse-ai",
+      "name": "Browse AI",
+      "url": "https://www.browse.ai",
+      "finalUrl": "https://www.browse.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/browse-ai.webp",
+      "bytes": 31708,
+      "note": ""
+    },
+    {
+      "id": "browserbase",
+      "name": "Browserbase",
+      "url": "https://www.browserbase.com",
+      "finalUrl": "https://www.browserbase.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/browserbase.webp",
+      "bytes": 142040,
+      "note": ""
+    },
+    {
+      "id": "budibase",
+      "name": "Budibase",
+      "url": "https://budibase.com",
+      "finalUrl": "https://budibase.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/budibase.webp",
+      "bytes": 45112,
       "note": ""
     },
     {
@@ -1142,6 +1418,18 @@
       "reason": "",
       "image": "/screenshots/canva-magic-design.webp",
       "bytes": 43680,
+      "note": ""
+    },
+    {
+      "id": "capacities",
+      "name": "Capacities",
+      "url": "https://capacities.io",
+      "finalUrl": "https://capacities.io/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/capacities.webp",
+      "bytes": 38930,
       "note": ""
     },
     {
@@ -1214,6 +1502,18 @@
       "reason": "",
       "image": "/screenshots/chatcode.webp",
       "bytes": 6032,
+      "note": ""
+    },
+    {
+      "id": "chatfuel",
+      "name": "Chatfuel",
+      "url": "https://chatfuel.com",
+      "finalUrl": "https://chatfuel.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/chatfuel.webp",
+      "bytes": 33078,
       "note": ""
     },
     {
@@ -1431,6 +1731,17 @@
       "note": ""
     },
     {
+      "id": "clipdrop",
+      "name": "Clipdrop",
+      "url": "https://clipdrop.co",
+      "finalUrl": "https://clipdrop.co/",
+      "outcome": "skipped",
+      "category": "captcha",
+      "reason": "Captcha ou interstitiel anti-bot",
+      "image": "",
+      "note": "capture ratée — pas de repli logo publié"
+    },
+    {
       "id": "clipdroprelight",
       "name": "ClipDrop Relight",
       "url": "https://clipdrop.co/relight",
@@ -1443,6 +1754,18 @@
       "note": "Image officielle og:image de clipdrop.co/relight. La page elle-même est un interstitiel."
     },
     {
+      "id": "clipfly",
+      "name": "Clipfly",
+      "url": "https://www.clipfly.ai",
+      "finalUrl": "https://www.clipfly.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/clipfly.webp",
+      "bytes": 71462,
+      "note": ""
+    },
+    {
       "id": "clonedub",
       "name": "CloneDub",
       "url": "https://www.clonedub.com/",
@@ -1452,6 +1775,18 @@
       "reason": "",
       "image": "/screenshots/clonedub.webp",
       "bytes": 22562,
+      "note": ""
+    },
+    {
+      "id": "close-crm",
+      "name": "Close",
+      "url": "https://www.close.com",
+      "finalUrl": "https://close.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/close-crm.webp",
+      "bytes": 26094,
       "note": ""
     },
     {
@@ -1500,6 +1835,18 @@
       "image": "/screenshots/codepal.webp",
       "bytes": 21448,
       "note": "Image officielle og:image de codepal.ai. La page elle-même est un captcha."
+    },
+    {
+      "id": "codestral",
+      "name": "Codestral (Mistral)",
+      "url": "https://mistral.ai/news/codestral",
+      "finalUrl": "https://mistral.ai/news/codestral/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/codestral.webp",
+      "bytes": 66374,
+      "note": ""
     },
     {
       "id": "codet5",
@@ -1562,6 +1909,42 @@
       "note": ""
     },
     {
+      "id": "coefficient",
+      "name": "Coefficient",
+      "url": "https://coefficient.io",
+      "finalUrl": "https://coefficient.io/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/coefficient.webp",
+      "bytes": 36342,
+      "note": ""
+    },
+    {
+      "id": "cognigy",
+      "name": "Cognigy",
+      "url": "https://www.cognigy.com",
+      "finalUrl": "https://www.cognigy.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/cognigy.webp",
+      "bytes": 47370,
+      "note": ""
+    },
+    {
+      "id": "cognism",
+      "name": "Cognism",
+      "url": "https://www.cognism.com",
+      "finalUrl": "https://www.cognism.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/cognism.webp",
+      "bytes": 42556,
+      "note": ""
+    },
+    {
       "id": "cogram",
       "name": "Cogram",
       "url": "https://cogram.com/",
@@ -1571,6 +1954,30 @@
       "reason": "",
       "image": "/screenshots/cogram.webp",
       "bytes": 71684,
+      "note": ""
+    },
+    {
+      "id": "collov-ai",
+      "name": "Collov AI",
+      "url": "https://collov.ai",
+      "finalUrl": "https://collov.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/collov-ai.webp",
+      "bytes": 67938,
+      "note": ""
+    },
+    {
+      "id": "colormind",
+      "name": "Colormind",
+      "url": "http://colormind.io",
+      "finalUrl": "https://colormind.io/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/colormind.webp",
+      "bytes": 27530,
       "note": ""
     },
     {
@@ -1634,6 +2041,17 @@
       "note": ""
     },
     {
+      "id": "coolors",
+      "name": "Coolors",
+      "url": "https://coolors.co",
+      "finalUrl": "https://coolors.co/",
+      "outcome": "skipped",
+      "category": "captcha",
+      "reason": "Captcha ou interstitiel anti-bot",
+      "image": "",
+      "note": "capture ratée — pas de repli logo publié"
+    },
+    {
       "id": "copy-ai",
       "name": "Copy.ai",
       "url": "https://www.copy.ai",
@@ -1679,6 +2097,18 @@
       "reason": "",
       "image": "/screenshots/copysmith.webp",
       "bytes": 33940,
+      "note": ""
+    },
+    {
+      "id": "cordial",
+      "name": "Cordial",
+      "url": "https://www.cordial.fr",
+      "finalUrl": "https://www.cordial.fr/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/cordial.webp",
+      "bytes": 52558,
       "note": ""
     },
     {
@@ -1742,6 +2172,53 @@
       "note": ""
     },
     {
+      "id": "crystal-knows",
+      "name": "Crystal",
+      "url": "https://www.crystalknows.com",
+      "finalUrl": "https://www.crystalknows.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/crystal-knows.webp",
+      "bytes": 55170,
+      "note": ""
+    },
+    {
+      "id": "csm-ai",
+      "name": "CSM",
+      "url": "https://www.csm.ai",
+      "finalUrl": "",
+      "outcome": "skipped",
+      "category": "error",
+      "reason": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.csm.ai/",
+      "image": "",
+      "note": "capture ratée — pas de repli logo publié"
+    },
+    {
+      "id": "culture-amp",
+      "name": "Culture Amp",
+      "url": "https://www.cultureamp.com",
+      "finalUrl": "https://www.cultureamp.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/culture-amp.webp",
+      "bytes": 27668,
+      "note": ""
+    },
+    {
+      "id": "curipod",
+      "name": "Curipod",
+      "url": "https://curipod.com",
+      "finalUrl": "https://curipod.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/curipod.webp",
+      "bytes": 27708,
+      "note": ""
+    },
+    {
       "id": "cursor",
       "name": "Cursor",
       "url": "https://cursor.com/",
@@ -1751,6 +2228,30 @@
       "reason": "",
       "image": "/screenshots/cursor.webp",
       "bytes": 51176,
+      "note": ""
+    },
+    {
+      "id": "cutout-pro",
+      "name": "Cutout.Pro",
+      "url": "https://www.cutout.pro",
+      "finalUrl": "https://www.cutout.pro/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/cutout-pro.webp",
+      "bytes": 66154,
+      "note": ""
+    },
+    {
+      "id": "cyanite",
+      "name": "Cyanite",
+      "url": "https://cyanite.ai",
+      "finalUrl": "https://cyanite.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/cyanite.webp",
+      "bytes": 32188,
       "note": ""
     },
     {
@@ -1787,6 +2288,18 @@
       "reason": "",
       "image": "/screenshots/databricks.webp",
       "bytes": 41466,
+      "note": ""
+    },
+    {
+      "id": "datarails",
+      "name": "Datarails",
+      "url": "https://www.datarails.com",
+      "finalUrl": "https://www.datarails.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/datarails.webp",
+      "bytes": 58780,
       "note": ""
     },
     {
@@ -2006,6 +2519,18 @@
       "note": ""
     },
     {
+      "id": "diffit",
+      "name": "Diffit",
+      "url": "https://web.diffit.me",
+      "finalUrl": "https://web.diffit.me/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/diffit.webp",
+      "bytes": 27108,
+      "note": ""
+    },
+    {
       "id": "dify",
       "name": "Dify",
       "url": "https://dify.ai/",
@@ -2063,6 +2588,65 @@
       "reason": "",
       "image": "/screenshots/doubao.webp",
       "bytes": 4928,
+      "note": ""
+    },
+    {
+      "id": "doximity-gpt",
+      "name": "Doximity GPT",
+      "url": "https://www.doximity.com/gpt",
+      "finalUrl": "https://www.doximity.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/doximity-gpt.webp",
+      "bytes": 12760,
+      "note": ""
+    },
+    {
+      "id": "draftbit",
+      "name": "Draftbit",
+      "url": "https://draftbit.com",
+      "finalUrl": "https://draftbit.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/draftbit.webp",
+      "bytes": 55830,
+      "note": ""
+    },
+    {
+      "id": "dragon-copilot",
+      "name": "Microsoft Dragon Copilot",
+      "url": "https://www.microsoft.com/en-us/health-solutions/clinical-workflow/dragon-copilot",
+      "finalUrl": "https://www.microsoft.com/en-us/health-solutions/clinical-workflow/dragon-copilot",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/dragon-copilot.webp",
+      "bytes": 42148,
+      "note": ""
+    },
+    {
+      "id": "dragon-speech",
+      "name": "Dragon (Nuance)",
+      "url": "https://www.nuance.com/dragon.html",
+      "finalUrl": "https://dragon.nuance.com/en-us/home-professional-and-consumer",
+      "outcome": "skipped",
+      "category": "error",
+      "reason": "HTTP 404",
+      "image": "",
+      "note": "capture ratée — pas de repli logo publié"
+    },
+    {
+      "id": "drata",
+      "name": "Drata",
+      "url": "https://drata.com",
+      "finalUrl": "https://drata.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/drata.webp",
+      "bytes": 51552,
       "note": ""
     },
     {
@@ -2162,6 +2746,18 @@
       "note": ""
     },
     {
+      "id": "e2b",
+      "name": "E2B",
+      "url": "https://e2b.dev",
+      "finalUrl": "https://e2b.dev/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/e2b.webp",
+      "bytes": 44138,
+      "note": ""
+    },
+    {
       "id": "ecrettmusic",
       "name": "Ecrett Music",
       "url": "https://ecrettmusic.com",
@@ -2174,6 +2770,18 @@
       "note": ""
     },
     {
+      "id": "eesel-ai",
+      "name": "eesel AI",
+      "url": "https://www.eesel.ai",
+      "finalUrl": "https://www.eesel.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/eesel-ai.webp",
+      "bytes": 42550,
+      "note": ""
+    },
+    {
       "id": "eightify",
       "name": "Eightify",
       "url": "https://eightify.app",
@@ -2183,6 +2791,18 @@
       "reason": "",
       "image": "/screenshots/eightify.webp",
       "bytes": 46390,
+      "note": ""
+    },
+    {
+      "id": "eklipse",
+      "name": "Eklipse",
+      "url": "https://eklipse.gg",
+      "finalUrl": "https://eklipse.gg/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/eklipse.webp",
+      "bytes": 38036,
       "note": ""
     },
     {
@@ -2246,6 +2866,77 @@
       "note": ""
     },
     {
+      "id": "equals",
+      "name": "Equals",
+      "url": "https://equals.com",
+      "finalUrl": "https://equals.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/equals.webp",
+      "bytes": 29908,
+      "note": ""
+    },
+    {
+      "id": "ernie-bot",
+      "name": "ERNIE Bot (Baidu)",
+      "url": "https://yiyan.baidu.com",
+      "finalUrl": "https://wenxin.baidu.com/?enter_type=yiyan_site",
+      "outcome": "skipped",
+      "category": "empty",
+      "reason": "Page vide",
+      "image": "",
+      "note": "capture ratée — pas de repli logo publié"
+    },
+    {
+      "id": "evenup",
+      "name": "EvenUp",
+      "url": "https://www.evenuplaw.com",
+      "finalUrl": "https://www.evenuplaw.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/evenup.webp",
+      "bytes": 26006,
+      "note": ""
+    },
+    {
+      "id": "everlaw",
+      "name": "Everlaw",
+      "url": "https://www.everlaw.com",
+      "finalUrl": "https://www.everlaw.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/everlaw.webp",
+      "bytes": 34248,
+      "note": ""
+    },
+    {
+      "id": "evernote",
+      "name": "Evernote AI",
+      "url": "https://evernote.com",
+      "finalUrl": "https://evernote.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/evernote.webp",
+      "bytes": 35232,
+      "note": ""
+    },
+    {
+      "id": "fabric-so",
+      "name": "Fabric",
+      "url": "https://fabric.so",
+      "finalUrl": "https://fabric.so/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/fabric-so.webp",
+      "bytes": 18198,
+      "note": ""
+    },
+    {
       "id": "faceapp",
       "name": "FaceApp",
       "url": "https://www.faceapp.com/",
@@ -2306,6 +2997,18 @@
       "note": ""
     },
     {
+      "id": "fellow",
+      "name": "Fellow",
+      "url": "https://fellow.app",
+      "finalUrl": "https://fellow.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/fellow.webp",
+      "bytes": 36582,
+      "note": ""
+    },
+    {
       "id": "felo",
       "name": "Felo",
       "url": "https://felo.ai",
@@ -2330,6 +3033,30 @@
       "note": ""
     },
     {
+      "id": "fillout",
+      "name": "Fillout",
+      "url": "https://www.fillout.com",
+      "finalUrl": "https://www.fillout.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/fillout.webp",
+      "bytes": 65680,
+      "note": ""
+    },
+    {
+      "id": "findem",
+      "name": "Findem",
+      "url": "https://www.findem.ai",
+      "finalUrl": "https://www.findem.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/findem.webp",
+      "bytes": 52620,
+      "note": ""
+    },
+    {
       "id": "fineshare",
       "name": "FineShare Singify",
       "url": "https://www.fineshare.com",
@@ -2351,6 +3078,18 @@
       "reason": "",
       "image": "/screenshots/firebase-studio.webp",
       "bytes": 35916,
+      "note": ""
+    },
+    {
+      "id": "firecrawl",
+      "name": "Firecrawl",
+      "url": "https://www.firecrawl.dev",
+      "finalUrl": "https://www.firecrawl.dev/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/firecrawl.webp",
+      "bytes": 36038,
       "note": ""
     },
     {
@@ -2581,6 +3320,18 @@
       "note": "capture ratée — pas de repli logo publié"
     },
     {
+      "id": "front",
+      "name": "Front",
+      "url": "https://front.com",
+      "finalUrl": "https://front.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/front.webp",
+      "bytes": 39728,
+      "note": ""
+    },
+    {
       "id": "fronty",
       "name": "Fronty",
       "url": "https://fronty.com/",
@@ -2615,6 +3366,18 @@
       "image": "/screenshots/gamma.webp",
       "bytes": 42800,
       "note": "Capture de help.gamma.app. gamma.app, /pricing et /templates restent derrière un captcha."
+    },
+    {
+      "id": "gem-recruiting",
+      "name": "Gem",
+      "url": "https://www.gem.com",
+      "finalUrl": "https://www.gem.com/?i=1",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/gem-recruiting.webp",
+      "bytes": 101874,
+      "note": ""
     },
     {
       "id": "gemini",
@@ -2737,6 +3500,30 @@
       "note": ""
     },
     {
+      "id": "getresponse",
+      "name": "GetResponse",
+      "url": "https://www.getresponse.com",
+      "finalUrl": "https://www.getresponse.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/getresponse.webp",
+      "bytes": 39646,
+      "note": ""
+    },
+    {
+      "id": "getty-generative-ai",
+      "name": "Getty Images Generative AI",
+      "url": "https://www.gettyimages.com/ai/generation",
+      "finalUrl": "https://www.gettyimages.com/ai/generation",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/getty-generative-ai.webp",
+      "bytes": 63648,
+      "note": ""
+    },
+    {
       "id": "getzowie",
       "name": "Zowie",
       "url": "https://getzowie.com",
@@ -2761,6 +3548,18 @@
       "note": ""
     },
     {
+      "id": "ginger",
+      "name": "Ginger",
+      "url": "https://www.gingersoftware.com",
+      "finalUrl": "https://www.gingersoftware.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/ginger.webp",
+      "bytes": 40968,
+      "note": ""
+    },
+    {
       "id": "github-copilot",
       "name": "GitHub Copilot",
       "url": "https://github.com/features/copilot",
@@ -2782,6 +3581,18 @@
       "reason": "",
       "image": "/screenshots/github-spark.webp",
       "bytes": 36598,
+      "note": ""
+    },
+    {
+      "id": "gitlab-duo",
+      "name": "GitLab Duo",
+      "url": "https://about.gitlab.com/gitlab-duo/",
+      "finalUrl": "https://about.gitlab.com/gitlab-duo-agent-platform/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/gitlab-duo.webp",
+      "bytes": 31872,
       "note": ""
     },
     {
@@ -2881,6 +3692,18 @@
       "note": ""
     },
     {
+      "id": "google-cloud-tts",
+      "name": "Google Cloud Text-to-Speech",
+      "url": "https://cloud.google.com/text-to-speech",
+      "finalUrl": "https://cloud.google.com/text-to-speech",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/google-cloud-tts.webp",
+      "bytes": 50192,
+      "note": ""
+    },
+    {
       "id": "google-flow",
       "name": "Google Flow",
       "url": "https://flow.google.com/",
@@ -2965,6 +3788,18 @@
       "note": ""
     },
     {
+      "id": "gpt4all",
+      "name": "GPT4All",
+      "url": "https://www.nomic.ai/gpt4all",
+      "finalUrl": "https://www.nomic.ai/gpt4all",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/gpt4all.webp",
+      "bytes": 19412,
+      "note": ""
+    },
+    {
       "id": "gptzero",
       "name": "GPTZero",
       "url": "https://gptzero.me/",
@@ -2974,6 +3809,18 @@
       "reason": "",
       "image": "/screenshots/gptzero.webp",
       "bytes": 36590,
+      "note": ""
+    },
+    {
+      "id": "grain",
+      "name": "Grain",
+      "url": "https://grain.com",
+      "finalUrl": "https://grain.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/grain.webp",
+      "bytes": 33470,
       "note": ""
     },
     {
@@ -2998,6 +3845,18 @@
       "reason": "",
       "image": "/screenshots/granola.webp",
       "bytes": 37028,
+      "note": ""
+    },
+    {
+      "id": "greenhouse",
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.com",
+      "finalUrl": "https://www.greenhouse.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/greenhouse.webp",
+      "bytes": 50586,
       "note": ""
     },
     {
@@ -3084,6 +3943,18 @@
       "note": ""
     },
     {
+      "id": "headshotpro",
+      "name": "HeadshotPro",
+      "url": "https://www.headshotpro.com",
+      "finalUrl": "https://www.headshotpro.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/headshotpro.webp",
+      "bytes": 56380,
+      "note": ""
+    },
+    {
       "id": "hedra",
       "name": "Hedra",
       "url": "https://www.hedra.com/",
@@ -3093,6 +3964,18 @@
       "reason": "",
       "image": "/screenshots/hedra.webp",
       "bytes": 58698,
+      "note": ""
+    },
+    {
+      "id": "help-scout",
+      "name": "Help Scout",
+      "url": "https://www.helpscout.com",
+      "finalUrl": "https://www.helpscout.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/help-scout.webp",
+      "bytes": 83940,
       "note": ""
     },
     {
@@ -3129,6 +4012,18 @@
       "reason": "",
       "image": "/screenshots/heygen.webp",
       "bytes": 51494,
+      "note": ""
+    },
+    {
+      "id": "hiddenlayer",
+      "name": "HiddenLayer",
+      "url": "https://hiddenlayer.com",
+      "finalUrl": "https://www.hiddenlayer.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/hiddenlayer.webp",
+      "bytes": 37466,
       "note": ""
     },
     {
@@ -3190,6 +4085,17 @@
       "image": "/screenshots/hix.webp",
       "bytes": 43550,
       "note": ""
+    },
+    {
+      "id": "homestyler",
+      "name": "Homestyler",
+      "url": "https://www.homestyler.com",
+      "finalUrl": "https://www.homestyler.com/",
+      "outcome": "skipped",
+      "category": "captcha",
+      "reason": "Captcha ou interstitiel anti-bot",
+      "image": "",
+      "note": "capture ratée — pas de repli logo publié"
     },
     {
       "id": "hootsuite",
@@ -3288,6 +4194,18 @@
       "note": ""
     },
     {
+      "id": "humanlinker",
+      "name": "Humanlinker",
+      "url": "https://www.humanlinker.com",
+      "finalUrl": "https://www.humanlinker.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/humanlinker.webp",
+      "bytes": 54174,
+      "note": ""
+    },
+    {
       "id": "humata",
       "name": "Humata",
       "url": "https://www.humata.ai",
@@ -3297,6 +4215,18 @@
       "reason": "",
       "image": "/screenshots/humata.webp",
       "bytes": 17846,
+      "note": ""
+    },
+    {
+      "id": "hunter-io",
+      "name": "Hunter",
+      "url": "https://hunter.io",
+      "finalUrl": "https://hunter.io/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/hunter-io.webp",
+      "bytes": 47694,
       "note": ""
     },
     {
@@ -3372,6 +4302,18 @@
       "note": ""
     },
     {
+      "id": "hyprnote",
+      "name": "Hyprnote",
+      "url": "https://hyprnote.com",
+      "finalUrl": "https://char.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/hyprnote.webp",
+      "bytes": 53332,
+      "note": ""
+    },
+    {
       "id": "ideogram",
       "name": "Ideogram",
       "url": "https://ideogram.ai",
@@ -3396,6 +4338,18 @@
       "note": ""
     },
     {
+      "id": "imagen",
+      "name": "Imagen (Google)",
+      "url": "https://deepmind.google/models/imagen/",
+      "finalUrl": "https://deepmind.google/models/gemini-image/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/imagen.webp",
+      "bytes": 48238,
+      "note": ""
+    },
+    {
       "id": "imagine",
       "name": "ImagineArt",
       "url": "https://www.imagine.art",
@@ -3405,6 +4359,18 @@
       "reason": "",
       "image": "/screenshots/imagine.webp",
       "bytes": 36352,
+      "note": ""
+    },
+    {
+      "id": "immersity-ai",
+      "name": "Immersity AI",
+      "url": "https://www.immersity.ai",
+      "finalUrl": "https://www.leiainc.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/immersity-ai.webp",
+      "bytes": 12368,
       "note": ""
     },
     {
@@ -3442,6 +4408,17 @@
       "image": "/screenshots/invideo.webp",
       "bytes": 54362,
       "note": ""
+    },
+    {
+      "id": "invokeai",
+      "name": "Invoke",
+      "url": "https://www.invoke.com",
+      "finalUrl": "",
+      "outcome": "skipped",
+      "category": "error",
+      "reason": "page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://www.invoke.com/",
+      "image": "",
+      "note": "capture ratée — pas de repli logo publié"
     },
     {
       "id": "inworld",
@@ -3720,6 +4697,18 @@
       "note": ""
     },
     {
+      "id": "khoj",
+      "name": "Khoj",
+      "url": "https://khoj.dev",
+      "finalUrl": "https://khoj.dev/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/khoj.webp",
+      "bytes": 27386,
+      "note": ""
+    },
+    {
       "id": "khroma",
       "name": "Khroma",
       "url": "https://www.khroma.co",
@@ -3741,6 +4730,18 @@
       "reason": "",
       "image": "/screenshots/kimi.webp",
       "bytes": 11090,
+      "note": ""
+    },
+    {
+      "id": "kira",
+      "name": "Kira",
+      "url": "https://kirasystems.com",
+      "finalUrl": "https://www.litera.com/capabilities/review",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/kira.webp",
+      "bytes": 54868,
       "note": ""
     },
     {
@@ -3828,6 +4829,18 @@
       "note": ""
     },
     {
+      "id": "kokoro-tts",
+      "name": "Kokoro TTS",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "finalUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/kokoro-tts.webp",
+      "bytes": 74526,
+      "note": ""
+    },
+    {
       "id": "kombai",
       "name": "Kombai",
       "url": "https://kombai.com/",
@@ -3837,6 +4850,18 @@
       "reason": "",
       "image": "/screenshots/kombai.webp",
       "bytes": 61846,
+      "note": ""
+    },
+    {
+      "id": "kore-ai",
+      "name": "Kore.ai",
+      "url": "https://kore.ai",
+      "finalUrl": "https://kore.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/kore-ai.webp",
+      "bytes": 70596,
       "note": ""
     },
     {
@@ -3924,6 +4949,18 @@
       "note": ""
     },
     {
+      "id": "langgraph",
+      "name": "LangGraph",
+      "url": "https://www.langchain.com/langgraph",
+      "finalUrl": "https://www.langchain.com/langgraph",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/langgraph.webp",
+      "bytes": 49050,
+      "note": ""
+    },
+    {
       "id": "languagetool",
       "name": "LanguageTool",
       "url": "https://languagetool.org/",
@@ -3993,6 +5030,29 @@
       "reason": "Capture quasi uniforme",
       "image": "",
       "note": "capture ratée — pas de repli logo publié"
+    },
+    {
+      "id": "le-robert-correcteur",
+      "name": "Le Robert Correcteur",
+      "url": "https://www.lerobert.com/correcteur",
+      "finalUrl": "https://www.lerobert.com/correcteur",
+      "outcome": "skipped",
+      "category": "error",
+      "reason": "HTTP 503",
+      "image": "",
+      "note": "capture ratée — pas de repli logo publié"
+    },
+    {
+      "id": "leapsome",
+      "name": "Leapsome",
+      "url": "https://www.leapsome.com",
+      "finalUrl": "https://www.leapsome.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/leapsome.webp",
+      "bytes": 35998,
+      "note": ""
     },
     {
       "id": "leena",
@@ -4067,6 +5127,18 @@
       "note": ""
     },
     {
+      "id": "letta",
+      "name": "Letta",
+      "url": "https://www.letta.com",
+      "finalUrl": "https://www.letta.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/letta.webp",
+      "bytes": 24100,
+      "note": ""
+    },
+    {
       "id": "lex",
       "name": "Lex",
       "url": "https://lex.page",
@@ -4100,6 +5172,18 @@
       "reason": "",
       "image": "/screenshots/lexis-plus-ai.webp",
       "bytes": 30460,
+      "note": ""
+    },
+    {
+      "id": "librechat",
+      "name": "LibreChat",
+      "url": "https://www.librechat.ai",
+      "finalUrl": "https://www.librechat.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/librechat.webp",
+      "bytes": 30404,
       "note": ""
     },
     {
@@ -4162,6 +5246,18 @@
       "note": ""
     },
     {
+      "id": "litmaps",
+      "name": "Litmaps",
+      "url": "https://www.litmaps.com",
+      "finalUrl": "https://www.litmaps.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/litmaps.webp",
+      "bytes": 31730,
+      "note": ""
+    },
+    {
       "id": "llama",
       "name": "Llama (Meta)",
       "url": "https://dev.meta.ai/",
@@ -4174,6 +5270,18 @@
       "note": ""
     },
     {
+      "id": "llamaindex",
+      "name": "LlamaIndex",
+      "url": "https://www.llamaindex.ai",
+      "finalUrl": "https://www.llamaindex.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/llamaindex.webp",
+      "bytes": 30700,
+      "note": ""
+    },
+    {
       "id": "lmarena",
       "name": "LMArena",
       "url": "https://lmarena.ai/",
@@ -4183,6 +5291,18 @@
       "reason": "",
       "image": "/screenshots/lmarena.webp",
       "bytes": 19586,
+      "note": ""
+    },
+    {
+      "id": "locofy",
+      "name": "Locofy",
+      "url": "https://www.locofy.ai",
+      "finalUrl": "https://www.locofy.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/locofy.webp",
+      "bytes": 47658,
       "note": ""
     },
     {
@@ -4353,6 +5473,18 @@
       "note": ""
     },
     {
+      "id": "madgicx",
+      "name": "Madgicx",
+      "url": "https://madgicx.com",
+      "finalUrl": "https://madgicx.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/madgicx.webp",
+      "bytes": 35338,
+      "note": ""
+    },
+    {
       "id": "maestra",
       "name": "Maestra",
       "url": "https://maestra.ai",
@@ -4389,6 +5521,18 @@
       "note": ""
     },
     {
+      "id": "magical",
+      "name": "Magical",
+      "url": "https://www.getmagical.com",
+      "finalUrl": "https://www.getmagical.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/magical.webp",
+      "bytes": 27708,
+      "note": ""
+    },
+    {
       "id": "magichour",
       "name": "Magic Hour",
       "url": "https://magichour.ai",
@@ -4398,6 +5542,18 @@
       "reason": "",
       "image": "/screenshots/magichour.webp",
       "bytes": 10646,
+      "note": ""
+    },
+    {
+      "id": "magicslides",
+      "name": "MagicSlides",
+      "url": "https://www.magicslides.app",
+      "finalUrl": "https://www.magicslides.app/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/magicslides.webp",
+      "bytes": 49448,
       "note": ""
     },
     {
@@ -4437,6 +5593,18 @@
       "note": ""
     },
     {
+      "id": "makeugc",
+      "name": "MakeUGC",
+      "url": "https://www.makeugc.ai",
+      "finalUrl": "https://makeugc.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/makeugc.webp",
+      "bytes": 27702,
+      "note": ""
+    },
+    {
       "id": "mammouth",
       "name": "Mammouth AI",
       "url": "https://mammouth.ai",
@@ -4446,6 +5614,18 @@
       "reason": "",
       "image": "/screenshots/mammouth.webp",
       "bytes": 24308,
+      "note": ""
+    },
+    {
+      "id": "manatal",
+      "name": "Manatal",
+      "url": "https://www.manatal.com",
+      "finalUrl": "https://www.manatal.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/manatal.webp",
+      "bytes": 67606,
       "note": ""
     },
     {
@@ -4470,6 +5650,30 @@
       "reason": "",
       "image": "/screenshots/manychat.webp",
       "bytes": 64242,
+      "note": ""
+    },
+    {
+      "id": "masterchannel",
+      "name": "Masterchannel",
+      "url": "https://masterchannel.ai",
+      "finalUrl": "https://master.channel/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/masterchannel.webp",
+      "bytes": 41794,
+      "note": ""
+    },
+    {
+      "id": "mathway",
+      "name": "Mathway",
+      "url": "https://www.mathway.com",
+      "finalUrl": "https://www.mathway.com/Algebra",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/mathway.webp",
+      "bytes": 43348,
       "note": ""
     },
     {
@@ -4509,6 +5713,64 @@
       "note": ""
     },
     {
+      "id": "mem0",
+      "name": "Mem0",
+      "url": "https://mem0.ai",
+      "finalUrl": "https://mem0.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/mem0.webp",
+      "bytes": 26476,
+      "note": ""
+    },
+    {
+      "id": "memrise",
+      "name": "Memrise",
+      "url": "https://www.memrise.com",
+      "finalUrl": "https://www.memrise.com/",
+      "outcome": "skipped",
+      "category": "captcha",
+      "reason": "Captcha ou interstitiel anti-bot",
+      "image": "",
+      "note": "capture ratée — pas de repli logo publié"
+    },
+    {
+      "id": "mention",
+      "name": "Mention",
+      "url": "https://mention.com",
+      "finalUrl": "https://mention.com/en/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/mention.webp",
+      "bytes": 46002,
+      "note": ""
+    },
+    {
+      "id": "merciapp",
+      "name": "MerciApp",
+      "url": "https://www.merciapp.com",
+      "finalUrl": "https://www.hugedomains.com/domain_profile.cfm?d=merciapp.com",
+      "outcome": "skipped",
+      "category": "error",
+      "reason": "Domaine en parking",
+      "image": "",
+      "note": "capture ratée — pas de repli logo publié"
+    },
+    {
+      "id": "mercor",
+      "name": "Mercor",
+      "url": "https://mercor.com",
+      "finalUrl": "https://www.mercor.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/mercor.webp",
+      "bytes": 30210,
+      "note": ""
+    },
+    {
       "id": "meshy",
       "name": "Meshy",
       "url": "https://www.meshy.ai/",
@@ -4518,6 +5780,18 @@
       "reason": "",
       "image": "/screenshots/meshy.webp",
       "bytes": 52008,
+      "note": ""
+    },
+    {
+      "id": "metabase",
+      "name": "Metabase",
+      "url": "https://www.metabase.com",
+      "finalUrl": "https://www.metabase.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/metabase.webp",
+      "bytes": 48696,
       "note": ""
     },
     {
@@ -4641,6 +5915,18 @@
       "note": ""
     },
     {
+      "id": "missive",
+      "name": "Missive",
+      "url": "https://missiveapp.com",
+      "finalUrl": "https://missiveapp.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/missive.webp",
+      "bytes": 42500,
+      "note": ""
+    },
+    {
       "id": "mistral",
       "name": "Le Chat (Mistral AI)",
       "url": "https://mistral.ai/",
@@ -4713,6 +5999,18 @@
       "note": ""
     },
     {
+      "id": "monarch-money",
+      "name": "Monarch Money",
+      "url": "https://www.monarchmoney.com",
+      "finalUrl": "https://www.monarch.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/monarch-money.webp",
+      "bytes": 49844,
+      "note": ""
+    },
+    {
       "id": "monday-ai",
       "name": "monday AI",
       "url": "https://monday.com/w/ai",
@@ -4749,6 +6047,30 @@
       "note": ""
     },
     {
+      "id": "morgen",
+      "name": "Morgen",
+      "url": "https://www.morgen.so",
+      "finalUrl": "https://www.morgen.so/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/morgen.webp",
+      "bytes": 42580,
+      "note": ""
+    },
+    {
+      "id": "morphic",
+      "name": "Morphic",
+      "url": "https://www.morphic.sh",
+      "finalUrl": "https://www.morphic.sh/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/morphic.webp",
+      "bytes": 35526,
+      "note": ""
+    },
+    {
       "id": "motiff",
       "name": "Motiff",
       "url": "https://motiff.com/",
@@ -4770,6 +6092,18 @@
       "reason": "",
       "image": "/screenshots/motion.webp",
       "bytes": 35430,
+      "note": ""
+    },
+    {
+      "id": "moz",
+      "name": "Moz Pro",
+      "url": "https://moz.com",
+      "finalUrl": "https://moz.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/moz.webp",
+      "bytes": 51540,
       "note": ""
     },
     {
@@ -4854,6 +6188,18 @@
       "reason": "",
       "image": "/screenshots/myedit.webp",
       "bytes": 52264,
+      "note": ""
+    },
+    {
+      "id": "mymind",
+      "name": "mymind",
+      "url": "https://mymind.com",
+      "finalUrl": "https://mymind.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/mymind.webp",
+      "bytes": 38916,
       "note": ""
     },
     {
@@ -4965,6 +6311,18 @@
       "note": "Capture de https://neural.love/video."
     },
     {
+      "id": "neuroflash",
+      "name": "neuroflash",
+      "url": "https://neuroflash.com",
+      "finalUrl": "https://neuroflash.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/neuroflash.webp",
+      "bytes": 20926,
+      "note": ""
+    },
+    {
       "id": "neuronwriter",
       "name": "NeuronWriter",
       "url": "https://neuronwriter.com",
@@ -4998,6 +6356,30 @@
       "reason": "",
       "image": "/screenshots/nolej.webp",
       "bytes": 42344,
+      "note": ""
+    },
+    {
+      "id": "noloco",
+      "name": "Noloco",
+      "url": "https://noloco.io",
+      "finalUrl": "https://noloco.io/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/noloco.webp",
+      "bytes": 39212,
+      "note": ""
+    },
+    {
+      "id": "nomi-ai",
+      "name": "Nomi AI",
+      "url": "https://nomi.ai",
+      "finalUrl": "https://nomi.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/nomi-ai.webp",
+      "bytes": 63814,
       "note": ""
     },
     {
@@ -5109,6 +6491,30 @@
       "note": ""
     },
     {
+      "id": "octoparse",
+      "name": "Octoparse",
+      "url": "https://www.octoparse.com",
+      "finalUrl": "https://www.octoparse.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/octoparse.webp",
+      "bytes": 40002,
+      "note": ""
+    },
+    {
+      "id": "omnisend",
+      "name": "Omnisend",
+      "url": "https://www.omnisend.com",
+      "finalUrl": "https://www.omnisend.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/omnisend.webp",
+      "bytes": 51392,
+      "note": ""
+    },
+    {
       "id": "open-interpreter",
       "name": "Open Interpreter",
       "url": "https://openinterpreter.com/",
@@ -5118,6 +6524,30 @@
       "reason": "",
       "image": "/screenshots/open-interpreter.webp",
       "bytes": 20836,
+      "note": ""
+    },
+    {
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "url": "https://openwebui.com",
+      "finalUrl": "https://openwebui.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/open-webui.webp",
+      "bytes": 21012,
+      "note": ""
+    },
+    {
+      "id": "openai-agents-sdk",
+      "name": "OpenAI Agents SDK",
+      "url": "https://openai.github.io/openai-agents-python/",
+      "finalUrl": "https://openai.github.io/openai-agents-python/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/openai-agents-sdk.webp",
+      "bytes": 70230,
       "note": ""
     },
     {
@@ -5216,6 +6646,18 @@
       "note": ""
     },
     {
+      "id": "orb-producer",
+      "name": "Orb Producer Suite",
+      "url": "https://www.orbplugins.com",
+      "finalUrl": "https://www.landr.com/plugins/landr-composer",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/orb-producer.webp",
+      "bytes": 47574,
+      "note": ""
+    },
+    {
       "id": "originality-ai",
       "name": "Originality.ai",
       "url": "https://originality.ai/",
@@ -5276,6 +6718,18 @@
       "note": ""
     },
     {
+      "id": "paperguide",
+      "name": "Paperguide",
+      "url": "https://paperguide.ai",
+      "finalUrl": "https://paperguide.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/paperguide.webp",
+      "bytes": 42976,
+      "note": ""
+    },
+    {
       "id": "paperpal",
       "name": "Paperpal",
       "url": "https://paperpal.com/",
@@ -5285,6 +6739,18 @@
       "reason": "",
       "image": "/screenshots/paperpal.webp",
       "bytes": 62898,
+      "note": ""
+    },
+    {
+      "id": "pearai",
+      "name": "PearAI",
+      "url": "https://trypear.ai",
+      "finalUrl": "https://www.trypear.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/pearai.webp",
+      "bytes": 35230,
       "note": ""
     },
     {
@@ -5395,6 +6861,18 @@
       "note": ""
     },
     {
+      "id": "phantombuster",
+      "name": "PhantomBuster",
+      "url": "https://phantombuster.com",
+      "finalUrl": "https://phantombuster.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/phantombuster.webp",
+      "bytes": 32372,
+      "note": ""
+    },
+    {
       "id": "photoleapapp",
       "name": "Photoleap",
       "url": "https://www.photoleapapp.com",
@@ -5479,6 +6957,18 @@
       "note": ""
     },
     {
+      "id": "pigment",
+      "name": "Pigment",
+      "url": "https://www.pigment.com",
+      "finalUrl": "https://www.pigment.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/pigment.webp",
+      "bytes": 47690,
+      "note": ""
+    },
+    {
       "id": "pika",
       "name": "Pika",
       "url": "https://pika.art/",
@@ -5488,6 +6978,18 @@
       "reason": "",
       "image": "/screenshots/pika.webp",
       "bytes": 48806,
+      "note": ""
+    },
+    {
+      "id": "pipedrive",
+      "name": "Pipedrive",
+      "url": "https://www.pipedrive.com",
+      "finalUrl": "https://www.pipedrive.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/pipedrive.webp",
+      "bytes": 50482,
       "note": ""
     },
     {
@@ -5539,6 +7041,30 @@
       "note": ""
     },
     {
+      "id": "pixso",
+      "name": "Pixso",
+      "url": "https://pixso.net",
+      "finalUrl": "https://pixso.net/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/pixso.webp",
+      "bytes": 34448,
+      "note": ""
+    },
+    {
+      "id": "placeit",
+      "name": "Placeit",
+      "url": "https://placeit.net",
+      "finalUrl": "https://placeit.net/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/placeit.webp",
+      "bytes": 109388,
+      "note": ""
+    },
+    {
       "id": "planner_5d",
       "name": "Planner 5D",
       "url": "https://planner5d.com",
@@ -5548,6 +7074,18 @@
       "reason": "",
       "image": "/screenshots/planner_5d.webp",
       "bytes": 49684,
+      "note": ""
+    },
+    {
+      "id": "plasmic",
+      "name": "Plasmic",
+      "url": "https://www.plasmic.app",
+      "finalUrl": "https://www.plasmic.app/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/plasmic.webp",
+      "bytes": 39416,
       "note": ""
     },
     {
@@ -5611,6 +7149,30 @@
       "note": ""
     },
     {
+      "id": "polyai",
+      "name": "PolyAI",
+      "url": "https://poly.ai",
+      "finalUrl": "https://poly.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/polyai.webp",
+      "bytes": 81754,
+      "note": ""
+    },
+    {
+      "id": "postman-postbot",
+      "name": "Postman Postbot",
+      "url": "https://www.postman.com/product/postbot/",
+      "finalUrl": "https://www.postman.com/product/agent-mode/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/postman-postbot.webp",
+      "bytes": 35964,
+      "note": ""
+    },
+    {
       "id": "power-bi",
       "name": "Microsoft Power BI",
       "url": "https://powerbi.microsoft.com",
@@ -5620,6 +7182,18 @@
       "reason": "",
       "image": "/screenshots/power-bi.webp",
       "bytes": 29000,
+      "note": ""
+    },
+    {
+      "id": "powtoon",
+      "name": "Powtoon",
+      "url": "https://www.powtoon.com",
+      "finalUrl": "https://www.powtoon.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/powtoon.webp",
+      "bytes": 97220,
       "note": ""
     },
     {
@@ -5728,6 +7302,18 @@
       "reason": "",
       "image": "/screenshots/pycaret.webp",
       "bytes": 72206,
+      "note": ""
+    },
+    {
+      "id": "pydantic-ai",
+      "name": "Pydantic AI",
+      "url": "https://ai.pydantic.dev",
+      "finalUrl": "https://pydantic.dev/docs/ai/overview/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/pydantic-ai.webp",
+      "bytes": 95800,
       "note": ""
     },
     {
@@ -5946,6 +7532,18 @@
       "note": ""
     },
     {
+      "id": "reimaginehome",
+      "name": "REimagineHome",
+      "url": "https://www.reimaginehome.ai",
+      "finalUrl": "https://www.reimaginehome.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/reimaginehome.webp",
+      "bytes": 70186,
+      "note": ""
+    },
+    {
       "id": "relay-app",
       "name": "Relay.app",
       "url": "https://www.relay.app/",
@@ -5994,6 +7592,18 @@
       "note": ""
     },
     {
+      "id": "renderforest",
+      "name": "Renderforest",
+      "url": "https://www.renderforest.com",
+      "finalUrl": "https://www.renderforest.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/renderforest.webp",
+      "bytes": 58136,
+      "note": ""
+    },
+    {
       "id": "rep-ai",
       "name": "Rep AI",
       "url": "https://www.hellorep.ai",
@@ -6003,6 +7613,18 @@
       "reason": "",
       "image": "/screenshots/rep-ai.webp",
       "bytes": 53238,
+      "note": ""
+    },
+    {
+      "id": "replika",
+      "name": "Replika",
+      "url": "https://replika.com",
+      "finalUrl": "https://replika.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/replika.webp",
+      "bytes": 45634,
       "note": ""
     },
     {
@@ -6150,6 +7772,18 @@
       "note": ""
     },
     {
+      "id": "rossum",
+      "name": "Rossum",
+      "url": "https://rossum.ai",
+      "finalUrl": "https://rossum.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/rossum.webp",
+      "bytes": 51660,
+      "note": ""
+    },
+    {
       "id": "runner-h",
       "name": "Runner H (H Company)",
       "url": "https://www.hcompany.ai",
@@ -6258,6 +7892,18 @@
       "note": ""
     },
     {
+      "id": "scaler",
+      "name": "Scaler",
+      "url": "https://www.scalermusic.com",
+      "finalUrl": "https://scalermusic.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/scaler.webp",
+      "bytes": 33016,
+      "note": ""
+    },
+    {
       "id": "scholarcy",
       "name": "Scholarcy",
       "url": "https://www.scholarcy.com/",
@@ -6267,6 +7913,42 @@
       "reason": "",
       "image": "/screenshots/scholarcy.webp",
       "bytes": 20154,
+      "note": ""
+    },
+    {
+      "id": "schoolai",
+      "name": "SchoolAI",
+      "url": "https://schoolai.com",
+      "finalUrl": "https://schoolai.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/schoolai.webp",
+      "bytes": 137360,
+      "note": ""
+    },
+    {
+      "id": "scopus-ai",
+      "name": "Scopus AI",
+      "url": "https://www.elsevier.com/products/scopus/scopus-ai",
+      "finalUrl": "https://www.elsevier.com/products/scopus/scopus-ai",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/scopus-ai.webp",
+      "bytes": 40814,
+      "note": ""
+    },
+    {
+      "id": "screenpipe",
+      "name": "Screenpipe",
+      "url": "https://screenpi.pe",
+      "finalUrl": "https://screenpipe.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/screenpipe.webp",
+      "bytes": 28802,
       "note": ""
     },
     {
@@ -6294,6 +7976,30 @@
       "note": ""
     },
     {
+      "id": "scribens",
+      "name": "Scribens",
+      "url": "https://www.scribens.fr",
+      "finalUrl": "https://www.scribens.fr/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/scribens.webp",
+      "bytes": 20978,
+      "note": ""
+    },
+    {
+      "id": "se-ranking",
+      "name": "SE Ranking",
+      "url": "https://seranking.com",
+      "finalUrl": "https://seranking.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/se-ranking.webp",
+      "bytes": 44290,
+      "note": ""
+    },
+    {
       "id": "seaart",
       "name": "SeaArt AI",
       "url": "https://www.seaart.ai",
@@ -6303,6 +8009,42 @@
       "reason": "",
       "image": "/screenshots/seaart.webp",
       "bytes": 46762,
+      "note": ""
+    },
+    {
+      "id": "seamless-ai",
+      "name": "Seamless.AI",
+      "url": "https://seamless.ai",
+      "finalUrl": "https://seamless.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/seamless-ai.webp",
+      "bytes": 65738,
+      "note": ""
+    },
+    {
+      "id": "seedance",
+      "name": "Seedance (ByteDance)",
+      "url": "https://seed.bytedance.com/en/seedance",
+      "finalUrl": "https://seed.bytedance.com/en/seedance",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/seedance.webp",
+      "bytes": 107918,
+      "note": ""
+    },
+    {
+      "id": "seedream",
+      "name": "Seedream (ByteDance)",
+      "url": "https://seed.bytedance.com/en/seedream",
+      "finalUrl": "https://seed.bytedance.com/en/seedream3_0",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/seedream.webp",
+      "bytes": 34168,
       "note": ""
     },
     {
@@ -6339,6 +8081,18 @@
       "reason": "",
       "image": "/screenshots/sembly-ai.webp",
       "bytes": 37100,
+      "note": ""
+    },
+    {
+      "id": "semrush",
+      "name": "Semrush",
+      "url": "https://www.semrush.com",
+      "finalUrl": "https://www.semrush.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/semrush.webp",
+      "bytes": 47672,
       "note": ""
     },
     {
@@ -6390,6 +8144,30 @@
       "note": ""
     },
     {
+      "id": "sentry-seer",
+      "name": "Sentry Seer",
+      "url": "https://sentry.io/product/seer/",
+      "finalUrl": "https://sentry.io/product/seer/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/sentry-seer.webp",
+      "bytes": 53394,
+      "note": ""
+    },
+    {
+      "id": "sesame",
+      "name": "Sesame",
+      "url": "https://www.sesame.com",
+      "finalUrl": "https://www.sesame.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/sesame.webp",
+      "bytes": 23056,
+      "note": ""
+    },
+    {
       "id": "seventhsense",
       "name": "Seventh Sense",
       "url": "https://www.theseventhsense.com/",
@@ -6426,6 +8204,17 @@
       "note": ""
     },
     {
+      "id": "shutterstock-ai",
+      "name": "Shutterstock AI",
+      "url": "https://www.shutterstock.com/ai-image-generator",
+      "finalUrl": "https://www.shutterstock.com/ai-image-generator",
+      "outcome": "skipped",
+      "category": "error",
+      "reason": "HTTP 403",
+      "image": "",
+      "note": "capture ratée — pas de repli logo publié"
+    },
+    {
       "id": "sider",
       "name": "Sider",
       "url": "https://sider.ai",
@@ -6447,6 +8236,18 @@
       "reason": "",
       "image": "/screenshots/siena.webp",
       "bytes": 35916,
+      "note": ""
+    },
+    {
+      "id": "similarweb",
+      "name": "Similarweb",
+      "url": "https://www.similarweb.com",
+      "finalUrl": "https://www.similarweb.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/similarweb.webp",
+      "bytes": 50416,
       "note": ""
     },
     {
@@ -6486,6 +8287,17 @@
       "note": ""
     },
     {
+      "id": "skybox-ai",
+      "name": "Skybox AI (Blockade Labs)",
+      "url": "https://skybox.blockadelabs.com",
+      "finalUrl": "https://skybox.blockadelabs.com/",
+      "outcome": "skipped",
+      "category": "error",
+      "reason": "HTTP 500",
+      "image": "",
+      "note": "capture ratée — pas de repli logo publié"
+    },
+    {
       "id": "skywork",
       "name": "Skywork",
       "url": "https://skywork.ai",
@@ -6510,6 +8322,18 @@
       "note": ""
     },
     {
+      "id": "slidespeak",
+      "name": "SlideSpeak",
+      "url": "https://slidespeak.co",
+      "finalUrl": "https://slidespeak.co/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/slidespeak.webp",
+      "bytes": 41214,
+      "note": ""
+    },
+    {
       "id": "sloyd",
       "name": "Sloyd",
       "url": "https://www.sloyd.ai",
@@ -6519,6 +8343,18 @@
       "reason": "",
       "image": "/screenshots/sloyd.webp",
       "bytes": 31652,
+      "note": ""
+    },
+    {
+      "id": "smart-copy",
+      "name": "Smart Copy (Unbounce)",
+      "url": "https://unbounce.com/smart-copy/",
+      "finalUrl": "https://unbounce.com/product/ai-copywriting/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/smart-copy.webp",
+      "bytes": 55634,
       "note": ""
     },
     {
@@ -6543,6 +8379,18 @@
       "reason": "",
       "image": "/screenshots/smodin.webp",
       "bytes": 41518,
+      "note": ""
+    },
+    {
+      "id": "snowflake-cortex",
+      "name": "Snowflake Cortex AI",
+      "url": "https://www.snowflake.com/en/product/features/cortex/",
+      "finalUrl": "https://www.snowflake.com/en/product/features/cortex/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/snowflake-cortex.webp",
+      "bytes": 45754,
       "note": ""
     },
     {
@@ -6605,6 +8453,30 @@
       "note": ""
     },
     {
+      "id": "soundverse",
+      "name": "Soundverse",
+      "url": "https://www.soundverse.ai",
+      "finalUrl": "https://www.soundverse.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/soundverse.webp",
+      "bytes": 35018,
+      "note": ""
+    },
+    {
+      "id": "sourcegraph",
+      "name": "Sourcegraph",
+      "url": "https://sourcegraph.com",
+      "finalUrl": "https://sourcegraph.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/sourcegraph.webp",
+      "bytes": 41400,
+      "note": ""
+    },
+    {
       "id": "sourcery",
       "name": "Sourcery",
       "url": "https://www.sourcery.ai/",
@@ -6629,6 +8501,18 @@
       "note": ""
     },
     {
+      "id": "sparktoro",
+      "name": "SparkToro",
+      "url": "https://sparktoro.com",
+      "finalUrl": "https://sparktoro.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/sparktoro.webp",
+      "bytes": 44324,
+      "note": ""
+    },
+    {
       "id": "speechify",
       "name": "Speechify",
       "url": "https://speechify.com/",
@@ -6650,6 +8534,42 @@
       "reason": "",
       "image": "/screenshots/speechmatics.webp",
       "bytes": 32310,
+      "note": ""
+    },
+    {
+      "id": "spendesk",
+      "name": "Spendesk",
+      "url": "https://www.spendesk.com",
+      "finalUrl": "https://www.spendesk.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/spendesk.webp",
+      "bytes": 40482,
+      "note": ""
+    },
+    {
+      "id": "spikes-studio",
+      "name": "Spikes Studio",
+      "url": "https://spikes.studio",
+      "finalUrl": "https://www.spikes.studio/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/spikes-studio.webp",
+      "bytes": 47252,
+      "note": ""
+    },
+    {
+      "id": "spinach-ai",
+      "name": "Spinach AI",
+      "url": "https://www.spinach.ai",
+      "finalUrl": "https://www.spinach.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/spinach-ai.webp",
+      "bytes": 46754,
       "note": ""
     },
     {
@@ -6709,6 +8629,18 @@
       "reason": "",
       "image": "/screenshots/squarespace.webp",
       "bytes": 45110,
+      "note": ""
+    },
+    {
+      "id": "squibler",
+      "name": "Squibler",
+      "url": "https://www.squibler.io",
+      "finalUrl": "https://www.squibler.io/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/squibler.webp",
+      "bytes": 27124,
       "note": ""
     },
     {
@@ -6796,6 +8728,18 @@
       "note": ""
     },
     {
+      "id": "storm",
+      "name": "STORM (Stanford)",
+      "url": "https://storm.genie.stanford.edu",
+      "finalUrl": "https://storm.genie.stanford.edu/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/storm.webp",
+      "bytes": 33858,
+      "note": ""
+    },
+    {
       "id": "studyfetch",
       "name": "StudyFetch",
       "url": "https://www.studyfetch.com/",
@@ -6805,6 +8749,18 @@
       "reason": "",
       "image": "/screenshots/studyfetch.webp",
       "bytes": 25426,
+      "note": ""
+    },
+    {
+      "id": "sublime-security",
+      "name": "Sublime Security",
+      "url": "https://sublime.security",
+      "finalUrl": "https://sublime.security/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/sublime-security.webp",
+      "bytes": 34514,
       "note": ""
     },
     {
@@ -6892,6 +8848,30 @@
       "note": ""
     },
     {
+      "id": "swimm",
+      "name": "Swimm",
+      "url": "https://swimm.io",
+      "finalUrl": "https://swimm.io/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/swimm.webp",
+      "bytes": 41548,
+      "note": ""
+    },
+    {
+      "id": "symbolab",
+      "name": "Symbolab",
+      "url": "https://www.symbolab.com",
+      "finalUrl": "https://www.symbolab.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/symbolab.webp",
+      "bytes": 22516,
+      "note": ""
+    },
+    {
       "id": "synthesia",
       "name": "Synthesia",
       "url": "https://www.synthesia.io",
@@ -6937,6 +8917,18 @@
       "reason": "",
       "image": "/screenshots/synthflow.webp",
       "bytes": 54446,
+      "note": ""
+    },
+    {
+      "id": "systeme-io",
+      "name": "systeme.io",
+      "url": "https://systeme.io",
+      "finalUrl": "https://systeme.io/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/systeme-io.webp",
+      "bytes": 34768,
       "note": ""
     },
     {
@@ -7012,6 +9004,42 @@
       "note": ""
     },
     {
+      "id": "talkpal",
+      "name": "Talkpal",
+      "url": "https://talkpal.ai",
+      "finalUrl": "https://talkpal.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/talkpal.webp",
+      "bytes": 30082,
+      "note": ""
+    },
+    {
+      "id": "tally",
+      "name": "Tally",
+      "url": "https://tally.so",
+      "finalUrl": "https://tally.so/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/tally.webp",
+      "bytes": 33786,
+      "note": ""
+    },
+    {
+      "id": "tandem-health",
+      "name": "Tandem Health",
+      "url": "https://www.tandemhealth.ai",
+      "finalUrl": "https://tandemhealth.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/tandem-health.webp",
+      "bytes": 40464,
+      "note": ""
+    },
+    {
       "id": "tango",
       "name": "Tango",
       "url": "https://www.tango.us",
@@ -7072,6 +9100,30 @@
       "note": ""
     },
     {
+      "id": "text-blaze",
+      "name": "Text Blaze",
+      "url": "https://blaze.today",
+      "finalUrl": "https://blaze.today/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/text-blaze.webp",
+      "bytes": 51584,
+      "note": ""
+    },
+    {
+      "id": "text2sql-ai",
+      "name": "Text2SQL.ai",
+      "url": "https://www.text2sql.ai",
+      "finalUrl": "https://www.text2sql.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/text2sql-ai.webp",
+      "bytes": 35052,
+      "note": ""
+    },
+    {
       "id": "thoughtspot",
       "name": "ThoughtSpot",
       "url": "https://www.thoughtspot.com",
@@ -7081,6 +9133,18 @@
       "reason": "",
       "image": "/screenshots/thoughtspot.webp",
       "bytes": 44706,
+      "note": ""
+    },
+    {
+      "id": "thunkable",
+      "name": "Thunkable",
+      "url": "https://thunkable.com",
+      "finalUrl": "https://thunkable.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/thunkable.webp",
+      "bytes": 33172,
       "note": ""
     },
     {
@@ -7096,6 +9160,42 @@
       "note": ""
     },
     {
+      "id": "timebolt",
+      "name": "TimeBolt",
+      "url": "https://www.timebolt.io",
+      "finalUrl": "https://www.timebolt.io/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/timebolt.webp",
+      "bytes": 38706,
+      "note": ""
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "url": "https://www.todoist.com",
+      "finalUrl": "https://www.todoist.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/todoist.webp",
+      "bytes": 27926,
+      "note": ""
+    },
+    {
+      "id": "tooljet",
+      "name": "ToolJet",
+      "url": "https://www.tooljet.com",
+      "finalUrl": "https://tooljet.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/tooljet.webp",
+      "bytes": 47036,
+      "note": ""
+    },
+    {
       "id": "topview",
       "name": "Topview",
       "url": "https://www.topview.ai/",
@@ -7105,6 +9205,30 @@
       "reason": "",
       "image": "/screenshots/topview.webp",
       "bytes": 55142,
+      "note": ""
+    },
+    {
+      "id": "trigger-dev",
+      "name": "Trigger.dev",
+      "url": "https://trigger.dev",
+      "finalUrl": "https://trigger.dev/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/trigger-dev.webp",
+      "bytes": 34952,
+      "note": ""
+    },
+    {
+      "id": "trinka",
+      "name": "Trinka",
+      "url": "https://www.trinka.ai",
+      "finalUrl": "https://www.trinka.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/trinka.webp",
+      "bytes": 58254,
       "note": ""
     },
     {
@@ -7168,6 +9292,29 @@
       "note": ""
     },
     {
+      "id": "turnitin-ai",
+      "name": "Turnitin AI Detection",
+      "url": "https://www.turnitin.com/solutions/topics/ai-writing/",
+      "finalUrl": "https://www.turnitin.com/solutions/topics/ai-writing/",
+      "outcome": "skipped",
+      "category": "error",
+      "reason": "Erreur de navigation",
+      "image": "",
+      "note": "capture ratée — pas de repli logo publié"
+    },
+    {
+      "id": "type-ai",
+      "name": "Type",
+      "url": "https://type.ai",
+      "finalUrl": "https://type.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/type-ai.webp",
+      "bytes": 18302,
+      "note": ""
+    },
+    {
       "id": "typebot",
       "name": "Typebot",
       "url": "https://typebot.io/",
@@ -7204,6 +9351,18 @@
       "note": ""
     },
     {
+      "id": "ubie",
+      "name": "Ubie",
+      "url": "https://ubiehealth.com",
+      "finalUrl": "https://ubiehealth.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/ubie.webp",
+      "bytes": 28724,
+      "note": ""
+    },
+    {
       "id": "udio",
       "name": "Udio",
       "url": "https://www.udio.com/",
@@ -7225,6 +9384,42 @@
       "reason": "",
       "image": "/screenshots/uizard.webp",
       "bytes": 32140,
+      "note": ""
+    },
+    {
+      "id": "ultimate-vocal-remover",
+      "name": "Ultimate Vocal Remover",
+      "url": "https://ultimatevocalremover.com",
+      "finalUrl": "https://ultimatevocalremover.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/ultimate-vocal-remover.webp",
+      "bytes": 33288,
+      "note": ""
+    },
+    {
+      "id": "unblocked",
+      "name": "Unblocked",
+      "url": "https://getunblocked.com",
+      "finalUrl": "https://getunblocked.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/unblocked.webp",
+      "bytes": 42604,
+      "note": ""
+    },
+    {
+      "id": "unreal-speech",
+      "name": "Unreal Speech",
+      "url": "https://unrealspeech.com",
+      "finalUrl": "https://unrealspeech.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/unreal-speech.webp",
+      "bytes": 49868,
       "note": ""
     },
     {
@@ -7300,6 +9495,30 @@
       "note": ""
     },
     {
+      "id": "vanceai",
+      "name": "VanceAI",
+      "url": "https://vanceai.com",
+      "finalUrl": "https://vanceai.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/vanceai.webp",
+      "bytes": 18700,
+      "note": ""
+    },
+    {
+      "id": "vanna-ai",
+      "name": "Vanna AI",
+      "url": "https://vanna.ai",
+      "finalUrl": "https://vanna.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/vanna-ai.webp",
+      "bytes": 24756,
+      "note": ""
+    },
+    {
       "id": "vanta",
       "name": "Vanta",
       "url": "https://www.vanta.com",
@@ -7357,6 +9576,18 @@
       "reason": "",
       "image": "/screenshots/veo.webp",
       "bytes": 32148,
+      "note": ""
+    },
+    {
+      "id": "vercel-ai-sdk",
+      "name": "Vercel AI SDK",
+      "url": "https://ai-sdk.dev",
+      "finalUrl": "https://ai-sdk.dev/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/vercel-ai-sdk.webp",
+      "bytes": 34966,
       "note": ""
     },
     {
@@ -7492,6 +9723,18 @@
       "note": ""
     },
     {
+      "id": "vlex-vincent",
+      "name": "Vincent AI (vLex)",
+      "url": "https://vlex.com/vincent-ai",
+      "finalUrl": "https://vlex.com/vincent-ai",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/vlex-vincent.webp",
+      "bytes": 41094,
+      "note": ""
+    },
+    {
       "id": "vmake",
       "name": "Vmake",
       "url": "https://vmake.ai",
@@ -7501,6 +9744,18 @@
       "reason": "",
       "image": "/screenshots/vmake.webp",
       "bytes": 63696,
+      "note": ""
+    },
+    {
+      "id": "vocalremover",
+      "name": "Vocal Remover",
+      "url": "https://vocalremover.org",
+      "finalUrl": "https://vocalremover.org/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/vocalremover.webp",
+      "bytes": 28578,
       "note": ""
     },
     {
@@ -7540,6 +9795,18 @@
       "note": ""
     },
     {
+      "id": "void-editor",
+      "name": "Void",
+      "url": "https://voideditor.com",
+      "finalUrl": "https://voideditor.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/void-editor.webp",
+      "bytes": 24934,
+      "note": ""
+    },
+    {
       "id": "vozo",
       "name": "Vozo",
       "url": "https://www.vozo.ai",
@@ -7561,6 +9828,18 @@
       "reason": "",
       "image": "/screenshots/vrew.webp",
       "bytes": 26108,
+      "note": ""
+    },
+    {
+      "id": "vyond",
+      "name": "Vyond",
+      "url": "https://www.vyond.com",
+      "finalUrl": "https://www.vyond.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/vyond.webp",
+      "bytes": 58938,
       "note": ""
     },
     {
@@ -7620,6 +9899,18 @@
       "reason": "",
       "image": "/screenshots/watsonx-ai.webp",
       "bytes": 48950,
+      "note": ""
+    },
+    {
+      "id": "wave-video",
+      "name": "Wave.video",
+      "url": "https://wave.video",
+      "finalUrl": "https://wave.video/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/wave-video.webp",
+      "bytes": 39478,
       "note": ""
     },
     {
@@ -7683,6 +9974,18 @@
       "note": "Capture de wellsaid.io/ai-voice-pricing. La homepage est un captcha."
     },
     {
+      "id": "whimsical",
+      "name": "Whimsical AI",
+      "url": "https://whimsical.com/ai",
+      "finalUrl": "https://whimsical.com/ai",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/whimsical.webp",
+      "bytes": 82456,
+      "note": ""
+    },
+    {
       "id": "whisper",
       "name": "Whisper",
       "url": "https://github.com/openai/whisper",
@@ -7692,6 +9995,18 @@
       "reason": "",
       "image": "/screenshots/whisper.webp",
       "bytes": 63866,
+      "note": ""
+    },
+    {
+      "id": "willow-voice",
+      "name": "Willow Voice",
+      "url": "https://willowvoice.com",
+      "finalUrl": "https://willowvoice.com/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/willow-voice.webp",
+      "bytes": 13652,
       "note": ""
     },
     {
@@ -7764,6 +10079,18 @@
       "reason": "",
       "image": "/screenshots/wix-ai.webp",
       "bytes": 32860,
+      "note": ""
+    },
+    {
+      "id": "wiz",
+      "name": "Wiz",
+      "url": "https://www.wiz.io",
+      "finalUrl": "https://www.wiz.io/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/wiz.webp",
+      "bytes": 48696,
       "note": ""
     },
     {
@@ -7848,6 +10175,30 @@
       "reason": "",
       "image": "/screenshots/writesonic.webp",
       "bytes": 59358,
+      "note": ""
+    },
+    {
+      "id": "wudpecker",
+      "name": "Wudpecker",
+      "url": "https://www.wudpecker.io",
+      "finalUrl": "https://www.wudpecker.io/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/wudpecker.webp",
+      "bytes": 36576,
+      "note": ""
+    },
+    {
+      "id": "yellow-ai",
+      "name": "Yellow.ai",
+      "url": "https://yellow.ai",
+      "finalUrl": "https://yellow.ai/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/yellow-ai.webp",
+      "bytes": 74198,
       "note": ""
     },
     {
@@ -7943,6 +10294,18 @@
       "reason": "",
       "image": "/screenshots/zoho_analytics.webp",
       "bytes": 53554,
+      "note": ""
+    },
+    {
+      "id": "zoho-crm",
+      "name": "Zoho CRM (Zia)",
+      "url": "https://www.zoho.com/crm/",
+      "finalUrl": "https://www.zoho.com/en-us/crm/",
+      "outcome": "success",
+      "category": "ok",
+      "reason": "",
+      "image": "/screenshots/zoho-crm.webp",
+      "bytes": 55592,
       "note": ""
     },
     {

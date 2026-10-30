@@ -1,0 +1,68 @@
+{
+  "id": "replika",
+  "name": "Replika",
+  "url": "https://replika.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI companion for everyday conversation.",
+  "description": "Replika is one of the first AI companion apps: a character to chat with that gets to know you over time. It also offers voice calls and augmented reality.",
+  "summary_fr": "Compagnon IA pour discuter au quotidien.",
+  "description_fr": "Replika est l'une des premières applications de compagnon IA : un personnage avec qui discuter, qui apprend à te connaître au fil des échanges. Elle propose aussi des appels vocaux et une réalité augmentée.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "ai",
+    "llm",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://replika.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/replika.png",
+  "image": "/screenshots/replika.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Character that learns from your chats",
+    "Voice calls",
+    "3D avatar and AR",
+    "Diary and mood tracking"
+  ],
+  "features_fr": [
+    "Personnage qui apprend de tes échanges",
+    "Appels vocaux",
+    "Avatar 3D et réalité augmentée",
+    "Journal et suivi d'humeur"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Replika",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Replika",
+          "url": "https://replika.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

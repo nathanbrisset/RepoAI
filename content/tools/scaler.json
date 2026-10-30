@@ -1,0 +1,68 @@
+{
+  "id": "scaler",
+  "name": "Scaler",
+  "url": "https://www.scalermusic.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Composition helper plugin: chords, scales and progressions.",
+  "description": "Scaler helps you find chords, scales and progressions that fit a song, detects the key of a recording and suggests variations. It works as a plugin in most DAWs.",
+  "summary_fr": "Plugin d'aide à la composition : accords, gammes et progressions.",
+  "description_fr": "Scaler aide à trouver accords, gammes et progressions adaptés à un morceau, détecte la tonalité d'un enregistrement et propose des variations. Il s'utilise comme plugin dans la plupart des logiciels de production.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "ai",
+    "music",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.scalermusic.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/scaler.png",
+  "image": "/screenshots/scaler.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Chord and progression suggestions",
+    "Key detection",
+    "Variations and voicings",
+    "DAW plugin"
+  ],
+  "features_fr": [
+    "Suggestions d'accords et de progressions",
+    "Détection de la tonalité",
+    "Variations et voicings",
+    "Plugin pour logiciels de production"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Scaler",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Scaler",
+          "url": "https://www.scalermusic.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "GB",
+  "hqCountrySource": "import"
+}

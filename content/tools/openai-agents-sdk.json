@@ -1,0 +1,67 @@
+{
+  "id": "openai-agents-sdk",
+  "name": "OpenAI Agents SDK",
+  "url": "https://openai.github.io/openai-agents-python/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "OpenAI's open-source kit for building agents.",
+  "description": "OpenAI's Agents SDK provides the building blocks for agents: tools, handoffs between agents, guardrails and tracing. It's available in Python and TypeScript and works with other models too.",
+  "summary_fr": "Kit open source d'OpenAI pour construire des agents.",
+  "description_fr": "L'Agents SDK d'OpenAI fournit les briques pour créer des agents : outils, passages de relais entre agents, garde-fous et traçage. Il est disponible en Python et TypeScript et fonctionne aussi avec d'autres modèles.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://openai.github.io/openai-agents-python/",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/openai-agents-sdk.png",
+  "image": "/screenshots/openai-agents-sdk.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Tools and function calls",
+    "Agent handoffs",
+    "Guardrails",
+    "Tracing and debugging"
+  ],
+  "features_fr": [
+    "Outils et appels de fonctions",
+    "Relais entre agents",
+    "Garde-fous",
+    "Traçage et débogage"
+  ],
+  "howToUse": [
+    {
+      "title": "Open OpenAI Agents SDK",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "OpenAI Agents SDK",
+          "url": "https://openai.github.io/openai-agents-python/"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "paperguide",
+  "name": "Paperguide",
+  "url": "https://paperguide.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Academic research assistant: find, read and cite papers.",
+  "description": "Paperguide searches scientific papers, answers questions with citations, summarizes PDFs and manages references. It also helps draft literature reviews.",
+  "summary_fr": "Assistant de recherche académique : trouver, lire et citer des articles.",
+  "description_fr": "Paperguide recherche des articles scientifiques, répond aux questions avec citations, résume des PDF et gère les références. Il aide aussi à rédiger une revue de littérature.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "ai",
+    "search",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://paperguide.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/paperguide.png",
+  "image": "/screenshots/paperguide.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Scientific paper search",
+    "Answers with citations",
+    "PDF summaries",
+    "Reference management"
+  ],
+  "features_fr": [
+    "Recherche d'articles scientifiques",
+    "Réponses avec citations",
+    "Résumé de PDF",
+    "Gestion des références"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Paperguide",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Paperguide",
+          "url": "https://paperguide.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

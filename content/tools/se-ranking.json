@@ -1,0 +1,68 @@
+{
+  "id": "se-ranking",
+  "name": "SE Ranking",
+  "url": "https://seranking.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Complete, affordable SEO platform with AI visibility tracking.",
+  "description": "SE Ranking covers rank tracking, site audits, keyword research, backlinks and AI-assisted writing. It also tracks brand presence in Google AI and ChatGPT answers.",
+  "summary_fr": "Plateforme SEO complète et abordable, avec suivi de la visibilité IA.",
+  "description_fr": "SE Ranking couvre suivi des positions, audit de site, recherche de mots-clés, backlinks et rédaction assistée par IA. Il suit aussi la présence d'une marque dans les réponses de Google AI et ChatGPT.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://seranking.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/se-ranking.png",
+  "image": "/screenshots/se-ranking.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Rank tracking",
+    "Site audit",
+    "AI SEO writing",
+    "Visibility in AI answers"
+  ],
+  "features_fr": [
+    "Suivi des positions",
+    "Audit de site",
+    "Rédaction SEO par IA",
+    "Visibilité dans les réponses IA"
+  ],
+  "howToUse": [
+    {
+      "title": "Open SE Ranking",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "SE Ranking",
+          "url": "https://seranking.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

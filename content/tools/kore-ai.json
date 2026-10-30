@@ -1,0 +1,68 @@
+{
+  "id": "kore-ai",
+  "name": "Kore.ai",
+  "url": "https://kore.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI agent platform for customer and employee service.",
+  "description": "Kore.ai lets large enterprises build conversational agents for customer service, contact centers and internal help desks, on voice and text. It offers ready-made solutions for banking, healthcare and retail.",
+  "summary_fr": "Plateforme d'agents IA pour le service client et les employés.",
+  "description_fr": "Kore.ai permet aux grandes entreprises de créer des agents conversationnels pour le service client, les centres d'appels et l'assistance interne, sur la voix et le texte. Elle propose des solutions prêtes pour la banque, la santé et la distribution.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "ai",
+    "support",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://kore.ai",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/kore-ai.png",
+  "image": "/screenshots/kore-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Voice and text conversational agents",
+    "Internal employee help desk",
+    "Industry solutions",
+    "Enterprise governance"
+  ],
+  "features_fr": [
+    "Agents conversationnels voix et texte",
+    "Assistance interne aux employés",
+    "Solutions sectorielles",
+    "Gouvernance pour grandes entreprises"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Kore.ai",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Kore.ai",
+          "url": "https://kore.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

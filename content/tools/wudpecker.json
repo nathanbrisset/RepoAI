@@ -1,0 +1,68 @@
+{
+  "id": "wudpecker",
+  "name": "Wudpecker",
+  "url": "https://www.wudpecker.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI meeting notes tailored to your role.",
+  "description": "Wudpecker records meetings and produces notes tailored to what matters to you, with action items and answers to questions about past calls. It works with Zoom, Meet and Teams.",
+  "summary_fr": "Notes de réunion IA personnalisées selon ton rôle.",
+  "description_fr": "Wudpecker enregistre les réunions et produit des notes adaptées à ce qui compte pour toi, avec actions et réponses aux questions sur l'historique. Il fonctionne avec Zoom, Meet et Teams.",
+  "categories": [
+    "meetings"
+  ],
+  "tags": [
+    "ai",
+    "meetings",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.wudpecker.io",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/wudpecker.png",
+  "image": "/screenshots/wudpecker.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Role-tailored notes",
+    "Action items and decisions",
+    "Ask questions across past meetings",
+    "Zoom, Meet and Teams"
+  ],
+  "features_fr": [
+    "Notes adaptées au rôle",
+    "Actions et décisions",
+    "Questions sur l'historique des réunions",
+    "Zoom, Meet et Teams"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Wudpecker",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Wudpecker",
+          "url": "https://www.wudpecker.io"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "FI",
+  "hqCountrySource": "import"
+}

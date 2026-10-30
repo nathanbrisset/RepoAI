@@ -1,0 +1,68 @@
+{
+  "id": "brand24",
+  "name": "Brand24",
+  "url": "https://brand24.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Monitors brand mentions across the web and social media.",
+  "description": "Brand24 tracks social networks, news, blogs, forums and podcasts to detect brand mentions, analyzes sentiment and spots influencers. Its AI summarizes discussions and alerts you to spikes.",
+  "summary_fr": "Veille des mentions de ta marque sur le web et les réseaux.",
+  "description_fr": "Brand24 surveille réseaux sociaux, médias, blogs, forums et podcasts pour détecter les mentions d'une marque, analyse le sentiment et repère les influenceurs. Son IA résume les discussions et alerte sur les pics.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://brand24.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/brand24.png",
+  "image": "/screenshots/brand24.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Mentions across web and social",
+    "Sentiment analysis",
+    "AI summaries and alerts",
+    "Influencer discovery"
+  ],
+  "features_fr": [
+    "Mentions sur le web et les réseaux",
+    "Analyse du sentiment",
+    "Résumés et alertes IA",
+    "Repérage d'influenceurs"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Brand24",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Brand24",
+          "url": "https://brand24.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "PL",
+  "hqCountrySource": "import"
+}

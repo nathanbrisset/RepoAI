@@ -1,0 +1,68 @@
+{
+  "id": "text2sql-ai",
+  "name": "Text2SQL.ai",
+  "url": "https://www.text2sql.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Generates and explains SQL queries from text.",
+  "description": "Text2SQL.ai converts a request into SQL, explains and optimizes existing queries, for many dialects such as PostgreSQL, MySQL and BigQuery. It can connect to a database to run queries.",
+  "summary_fr": "Génère et explique des requêtes SQL à partir de texte.",
+  "description_fr": "Text2SQL.ai convertit une demande en SQL, explique des requêtes existantes et les optimise, pour de nombreux dialectes (PostgreSQL, MySQL, BigQuery…). Il peut se connecter à une base pour exécuter les requêtes.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "ai",
+    "data",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.text2sql.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/text2sql-ai.png",
+  "image": "/screenshots/text2sql-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Text to SQL",
+    "Query explanation",
+    "Optimization",
+    "Many SQL dialects"
+  ],
+  "features_fr": [
+    "Texte vers SQL",
+    "Explication de requêtes",
+    "Optimisation",
+    "Nombreux dialectes SQL"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Text2SQL.ai",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Text2SQL.ai",
+          "url": "https://www.text2sql.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "DE",
+  "hqCountrySource": "import"
+}

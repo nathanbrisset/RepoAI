@@ -1,0 +1,68 @@
+{
+  "id": "gem-recruiting",
+  "name": "Gem",
+  "url": "https://www.gem.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "All-in-one recruiting platform with AI sourcing.",
+  "description": "Gem combines candidate sourcing, outreach sequences, talent CRM, ATS and analytics. Its AI finds and ranks profiles that match a role.",
+  "summary_fr": "Plateforme de recrutement tout-en-un avec sourcing IA.",
+  "description_fr": "Gem combine sourcing de candidats, séquences de prise de contact, CRM de talents, ATS et analyses. Son IA trouve et classe les profils correspondant à un poste.",
+  "categories": [
+    "hr"
+  ],
+  "tags": [
+    "ai",
+    "hr",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://www.gem.com",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/gem-recruiting.png",
+  "image": "/screenshots/gem-recruiting.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "AI candidate sourcing",
+    "Outreach sequences",
+    "Talent CRM and ATS",
+    "Recruiting analytics"
+  ],
+  "features_fr": [
+    "Sourcing de candidats par IA",
+    "Séquences de prise de contact",
+    "CRM de talents et ATS",
+    "Analyses du recrutement"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Gem",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Gem",
+          "url": "https://www.gem.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

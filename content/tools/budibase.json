@@ -1,0 +1,68 @@
+{
+  "id": "budibase",
+  "name": "Budibase",
+  "url": "https://budibase.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source internal tools and workflows, with AI.",
+  "description": "Budibase builds internal apps, forms and automations on top of your existing data. AI generates tables and screens, and the platform can be self-hosted to keep control of data.",
+  "summary_fr": "Outils internes et workflows open source, avec IA.",
+  "description_fr": "Budibase crée applications internes, formulaires et automatisations sur ses données existantes. L'IA génère des tables et des écrans, et la plateforme peut être auto-hébergée pour garder la maîtrise des données.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "ai",
+    "no",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://budibase.com",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/budibase.png",
+  "image": "/screenshots/budibase.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Internal apps on existing data",
+    "Automations",
+    "AI table and screen generation",
+    "Self-hosting"
+  ],
+  "features_fr": [
+    "Apps internes sur données existantes",
+    "Automatisations",
+    "Génération de tables et écrans par IA",
+    "Auto-hébergement"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Budibase",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Budibase",
+          "url": "https://budibase.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "GB",
+  "hqCountrySource": "import"
+}

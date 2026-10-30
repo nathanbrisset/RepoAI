@@ -1,0 +1,68 @@
+{
+  "id": "vocalremover",
+  "name": "Vocal Remover",
+  "url": "https://vocalremover.org",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Separates vocals and instrumentals from a song, online and free.",
+  "description": "Vocal Remover isolates the vocals or backing track of a song with AI, right in the browser. The site also offers pitch shifting, BPM detection, cutting and karaoke tools.",
+  "summary_fr": "Sépare la voix et l'instrumental d'une chanson, en ligne et gratuitement.",
+  "description_fr": "Vocal Remover isole la voix ou l'accompagnement d'un morceau grâce à l'IA, directement dans le navigateur. Le site propose aussi changement de tonalité, détection du tempo, découpe et karaoké.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "ai",
+    "music",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Free",
+    "sourceUrl": "https://vocalremover.org",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/vocalremover.png",
+  "image": "/screenshots/vocalremover.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Vocal and instrumental separation",
+    "Pitch and tempo changer",
+    "BPM and key detection",
+    "Free in the browser"
+  ],
+  "features_fr": [
+    "Séparation voix et instrumental",
+    "Changement de tonalité et tempo",
+    "Détection du BPM et de la tonalité",
+    "Gratuit dans le navigateur"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Vocal Remover",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Vocal Remover",
+          "url": "https://vocalremover.org"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

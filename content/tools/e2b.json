@@ -1,0 +1,67 @@
+{
+  "id": "e2b",
+  "name": "E2B",
+  "url": "https://e2b.dev",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Secure sandboxes to run AI-generated code.",
+  "description": "E2B provides cloud sandboxes where AI agents can run code, handle files and use tools without risk to your systems. It powers data-analysis assistants and coding agents.",
+  "summary_fr": "Environnements sécurisés pour exécuter le code généré par l'IA.",
+  "description_fr": "E2B fournit des bacs à sable cloud où les agents IA peuvent exécuter du code, manipuler des fichiers et utiliser des outils sans risque pour tes systèmes. Il sert aux assistants d'analyse de données et aux agents de code.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Usage-based",
+    "sourceUrl": "https://e2b.dev",
+    "model": "usage-based",
+    "label": "Usage-based"
+  },
+  "logo": "/logos/e2b.png",
+  "image": "/screenshots/e2b.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Isolated cloud sandboxes",
+    "Python and JS code execution",
+    "File system and terminal",
+    "SDKs for agents"
+  ],
+  "features_fr": [
+    "Bacs à sable isolés dans le cloud",
+    "Exécution de code Python et JS",
+    "Système de fichiers et terminal",
+    "SDK pour agents"
+  ],
+  "howToUse": [
+    {
+      "title": "Open E2B",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "E2B",
+          "url": "https://e2b.dev"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

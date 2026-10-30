@@ -1,0 +1,68 @@
+{
+  "id": "systeme-io",
+  "name": "systeme.io",
+  "url": "https://systeme.io",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "French all-in-one for selling online: funnels, emails and courses.",
+  "description": "systeme.io combines sales funnels, email marketing, website, blog, online courses and affiliate programs in one tool, with a generous free plan. Its AI assistant writes pages and emails.",
+  "summary_fr": "Tout-en-un français pour vendre en ligne : tunnels, emails et formations.",
+  "description_fr": "systeme.io réunit tunnels de vente, emailing, site, blog, formations en ligne et affiliation dans un seul outil, avec une offre gratuite généreuse. Son assistant IA rédige pages et emails.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ai",
+    "marketing",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://systeme.io",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/systeme-io.png",
+  "image": "/screenshots/systeme-io.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Sales funnels",
+    "Email marketing and automation",
+    "Online courses and affiliates",
+    "AI writing for pages and emails"
+  ],
+  "features_fr": [
+    "Tunnels de vente",
+    "Emailing et automatisations",
+    "Formations en ligne et affiliation",
+    "Rédaction IA des pages et emails"
+  ],
+  "howToUse": [
+    {
+      "title": "Open systeme.io",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "systeme.io",
+          "url": "https://systeme.io"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import"
+}

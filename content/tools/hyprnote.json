@@ -1,0 +1,68 @@
+{
+  "id": "hyprnote",
+  "name": "Hyprnote",
+  "url": "https://hyprnote.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Local, open-source AI meeting notes.",
+  "description": "Hyprnote records and transcribes meetings right on your computer, with no bot in the call, then enriches your notes with AI. Everything stays local, making it an option for sensitive data.",
+  "summary_fr": "Prise de notes de réunion IA, en local et open source.",
+  "description_fr": "Hyprnote enregistre et transcrit les réunions directement sur l'ordinateur, sans robot dans l'appel, puis enrichit tes notes avec l'IA. Tout reste en local, ce qui en fait une option pour les données sensibles.",
+  "categories": [
+    "meetings"
+  ],
+  "tags": [
+    "ai",
+    "meetings",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Open source",
+    "sourceUrl": "https://hyprnote.com",
+    "model": "open-source",
+    "label": "Open source"
+  },
+  "logo": "/logos/hyprnote.png",
+  "image": "/screenshots/hyprnote.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Local transcription",
+    "No bot in the call",
+    "AI-enhanced notes",
+    "Open source"
+  ],
+  "features_fr": [
+    "Transcription en local",
+    "Aucun robot dans l'appel",
+    "Notes enrichies par IA",
+    "Open source"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Hyprnote",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Hyprnote",
+          "url": "https://hyprnote.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "KR",
+  "hqCountrySource": "import"
+}

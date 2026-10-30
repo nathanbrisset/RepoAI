@@ -1,0 +1,68 @@
+{
+  "id": "invokeai",
+  "name": "Invoke",
+  "url": "https://invoke.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Professional AI image studio, open source.",
+  "description": "Invoke provides a canvas to generate, edit and compose images with models like Stable Diffusion and FLUX, with precise layer and mask control. It's available as local open source and as a cloud plan for studios.",
+  "summary_fr": "Studio de création d'images IA pour professionnels, open source.",
+  "description_fr": "Invoke propose un canvas pour générer, retoucher et composer des images avec des modèles comme Stable Diffusion et FLUX, avec contrôle précis par calques et masques. Il existe en version open source locale et en offre cloud pour les studios.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "ai",
+    "image",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://invoke.ai/",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/invokeai.png",
+  "image": "/screenshots/invokeai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Generation and editing canvas",
+    "Layers, masks and fine control",
+    "Stable Diffusion and FLUX models",
+    "Local open source or cloud"
+  ],
+  "features_fr": [
+    "Canvas de génération et retouche",
+    "Calques, masques et contrôle fin",
+    "Modèles Stable Diffusion et FLUX",
+    "Open source local ou cloud"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Invoke",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Invoke",
+          "url": "https://www.invoke.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

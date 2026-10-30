@@ -1,0 +1,68 @@
+{
+  "id": "manatal",
+  "name": "Manatal",
+  "url": "https://www.manatal.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Affordable recruiting software with AI recommendations.",
+  "description": "Manatal manages jobs, candidates and clients for recruiters and agencies, and recommends the best profiles with AI. It enriches applications with social media information.",
+  "summary_fr": "Logiciel de recrutement abordable avec recommandations IA.",
+  "description_fr": "Manatal gère offres, candidats et clients pour les recruteurs et cabinets, et recommande les meilleurs profils grâce à l'IA. Il enrichit les candidatures avec les informations des réseaux sociaux.",
+  "categories": [
+    "hr"
+  ],
+  "tags": [
+    "ai",
+    "hr",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Premium",
+    "sourceUrl": "https://www.manatal.com",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/manatal.png",
+  "image": "/screenshots/manatal.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "AI candidate recommendations",
+    "Profile enrichment",
+    "Client management for agencies",
+    "Affordable pricing"
+  ],
+  "features_fr": [
+    "Recommandation de candidats par IA",
+    "Enrichissement des profils",
+    "Gestion des clients pour cabinets",
+    "Prix accessible"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Manatal",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Manatal",
+          "url": "https://www.manatal.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "TH",
+  "hqCountrySource": "import"
+}

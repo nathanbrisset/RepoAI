@@ -1,0 +1,68 @@
+{
+  "id": "sourcegraph",
+  "name": "Sourcegraph",
+  "url": "https://sourcegraph.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Code search and AI across huge codebases.",
+  "description": "Sourcegraph indexes all of a company's repositories to search, navigate and understand code at scale. Its AI features answer code questions and automate large-scale changes.",
+  "summary_fr": "Recherche de code et IA sur de très grandes bases de code.",
+  "description_fr": "Sourcegraph indexe tous les dépôts d'une entreprise pour chercher, naviguer et comprendre le code à grande échelle. Ses fonctions IA répondent aux questions sur le code et automatisent des changements massifs.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ai",
+    "coding",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://sourcegraph.com",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/sourcegraph.png",
+  "image": "/screenshots/sourcegraph.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Code search across all repos",
+    "Definition and reference navigation",
+    "AI code Q&A",
+    "Large-scale code changes"
+  ],
+  "features_fr": [
+    "Recherche de code sur tous les dépôts",
+    "Navigation entre définitions et références",
+    "Questions IA sur le code",
+    "Changements de code à grande échelle"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Sourcegraph",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Sourcegraph",
+          "url": "https://sourcegraph.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

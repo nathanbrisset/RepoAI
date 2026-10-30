@@ -1,0 +1,68 @@
+{
+  "id": "apify",
+  "name": "Apify",
+  "url": "https://apify.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Web scraping and automation platform with thousands of ready tools.",
+  "description": "Apify hosts a marketplace of thousands of Actors that extract data from websites, social networks or search engines. It also provides the infrastructure to build your own scrapers and feed AI agents.",
+  "summary_fr": "Plateforme de scraping et d'automatisation web avec des milliers d'outils prêts.",
+  "description_fr": "Apify héberge une place de marché de milliers d'« Actors » qui extraient des données de sites, réseaux sociaux ou moteurs de recherche. La plateforme fournit aussi l'infrastructure pour créer ses propres scrapers et alimenter des agents IA.",
+  "categories": [
+    "automation"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://apify.com",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/apify.png",
+  "image": "/screenshots/apify.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Marketplace of thousands of scrapers",
+    "Cloud infrastructure and proxies",
+    "Custom scraper building",
+    "AI agent integration"
+  ],
+  "features_fr": [
+    "Place de marché de milliers de scrapers",
+    "Infrastructure cloud et proxys",
+    "Création de scrapers personnalisés",
+    "Intégration aux agents IA"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Apify",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Apify",
+          "url": "https://apify.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "CZ",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "pearai",
+  "name": "PearAI",
+  "url": "https://trypear.ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source AI code editor bundling the best tools.",
+  "description": "PearAI is a VS Code-based editor that integrates open-source AI tools for chat, coding agent, search and project memory. It aims to be an open alternative to proprietary AI editors.",
+  "summary_fr": "Éditeur de code IA open source qui réunit les meilleurs outils.",
+  "description_fr": "PearAI est un éditeur basé sur VS Code qui intègre des outils IA open source pour le chat, l'agent de code, la recherche et la mémoire du projet. Il vise à offrir une alternative ouverte aux éditeurs IA propriétaires.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ai",
+    "coding",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://trypear.ai",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/pearai.png",
+  "image": "/screenshots/pearai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Chat and coding agent",
+    "Project search",
+    "Project memory",
+    "VS Code-based, open source"
+  ],
+  "features_fr": [
+    "Chat et agent de code",
+    "Recherche dans le projet",
+    "Mémoire du projet",
+    "Basé sur VS Code, open source"
+  ],
+  "howToUse": [
+    {
+      "title": "Open PearAI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "PearAI",
+          "url": "https://trypear.ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

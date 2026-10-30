@@ -1,0 +1,68 @@
+{
+  "id": "azure-ai-speech",
+  "name": "Azure AI Speech",
+  "url": "https://azure.microsoft.com/products/ai-services/ai-speech",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Microsoft's speech services: transcription, synthesis and translation.",
+  "description": "Azure AI Speech provides speech recognition, text-to-speech with hundreds of neural voices, custom voices and real-time speech translation. Companies integrate it into apps and call centers.",
+  "summary_fr": "Services vocaux de Microsoft : transcription, synthèse et traduction.",
+  "description_fr": "Azure AI Speech fournit reconnaissance vocale, synthèse vocale avec des centaines de voix neuronales, voix personnalisées et traduction de la parole en temps réel. Les entreprises l'intègrent dans leurs applications et centres d'appels.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "ai",
+    "voice",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Usage-based",
+    "sourceUrl": "https://azure.microsoft.com/products/ai-services/ai-speech",
+    "model": "usage-based",
+    "label": "Usage-based"
+  },
+  "logo": "/logos/azure-ai-speech.png",
+  "image": "/screenshots/azure-ai-speech.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Speech recognition",
+    "Hundreds of neural voices",
+    "Custom voices",
+    "Real-time speech translation"
+  ],
+  "features_fr": [
+    "Reconnaissance vocale",
+    "Centaines de voix neuronales",
+    "Voix personnalisées",
+    "Traduction de la parole en temps réel"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Azure AI Speech",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Azure AI Speech",
+          "url": "https://azure.microsoft.com/products/ai-services/ai-speech"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

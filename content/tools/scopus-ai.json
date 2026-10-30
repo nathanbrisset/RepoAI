@@ -1,0 +1,68 @@
+{
+  "id": "scopus-ai",
+  "name": "Scopus AI",
+  "url": "https://www.elsevier.com/products/scopus/scopus-ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI academic search over Elsevier's Scopus database.",
+  "description": "Scopus AI answers research questions using abstracts from the Scopus database, with references, concept maps and field experts. It's available through institutional subscriptions.",
+  "summary_fr": "Recherche académique IA sur la base Scopus d'Elsevier.",
+  "description_fr": "Scopus AI répond aux questions de recherche en s'appuyant sur les résumés de la base Scopus, avec références, cartes de concepts et experts du domaine. Il est accessible via les abonnements institutionnels.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "ai",
+    "search",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://www.elsevier.com/products/scopus/scopus-ai",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/scopus-ai.png",
+  "image": "/screenshots/scopus-ai.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Answers grounded in Scopus",
+    "Verifiable references",
+    "Concept maps",
+    "Expert identification"
+  ],
+  "features_fr": [
+    "Réponses basées sur Scopus",
+    "Références vérifiables",
+    "Cartes de concepts",
+    "Identification des experts"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Scopus AI",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Scopus AI",
+          "url": "https://www.elsevier.com/products/scopus/scopus-ai"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "NL",
+  "hqCountrySource": "import"
+}

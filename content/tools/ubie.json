@@ -1,0 +1,68 @@
+{
+  "id": "ubie",
+  "name": "Ubie",
+  "url": "https://ubiehealth.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI symptom checker that points you to the right care.",
+  "description": "Ubie asks a series of questions about symptoms and shows possible causes and the appropriate type of care. Built with doctors, it doesn't replace medical advice.",
+  "summary_fr": "Vérificateur de symptômes IA pour orienter vers le bon soin.",
+  "description_fr": "Ubie pose une série de questions sur les symptômes et indique les causes possibles et le type de consultation adapté. Conçu avec des médecins, il ne remplace pas un avis médical.",
+  "categories": [
+    "health"
+  ],
+  "tags": [
+    "ai",
+    "health",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Free",
+    "sourceUrl": "https://ubiehealth.com",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/ubie.png",
+  "image": "/screenshots/ubie.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Symptom questionnaire",
+    "Possible causes",
+    "Guidance to the right care",
+    "Built with doctors"
+  ],
+  "features_fr": [
+    "Questionnaire sur les symptômes",
+    "Causes possibles",
+    "Orientation vers le bon soin",
+    "Conçu avec des médecins"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Ubie",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Ubie",
+          "url": "https://ubiehealth.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "JP",
+  "hqCountrySource": "import"
+}

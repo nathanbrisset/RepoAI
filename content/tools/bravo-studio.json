@@ -1,0 +1,68 @@
+{
+  "id": "bravo-studio",
+  "name": "Bravo Studio",
+  "url": "https://www.bravostudio.app",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns a Figma design into a native mobile app (Spain).",
+  "description": "Bravo Studio converts Figma designs into native iOS and Android apps connected to APIs and databases. It lets designers ship a real app without writing code.",
+  "summary_fr": "Transforme une maquette Figma en application mobile native (Espagne).",
+  "description_fr": "Bravo Studio convertit des designs Figma en applications iOS et Android natives, connectées à des API et bases de données. Il permet aux designers de publier une vraie app sans écrire de code.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "ai",
+    "no",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.bravostudio.app",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/bravo-studio.png",
+  "image": "/screenshots/bravo-studio.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Figma to native app",
+    "API and database connections",
+    "Store publishing",
+    "Built for designers"
+  ],
+  "features_fr": [
+    "Figma vers app native",
+    "Connexion aux API et bases de données",
+    "Publication sur les stores",
+    "Pensé pour les designers"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Bravo Studio",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Bravo Studio",
+          "url": "https://www.bravostudio.app"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "ES",
+  "hqCountrySource": "import"
+}

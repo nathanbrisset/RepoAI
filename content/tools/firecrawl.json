@@ -1,0 +1,67 @@
+{
+  "id": "firecrawl",
+  "name": "Firecrawl",
+  "url": "https://www.firecrawl.dev",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns any website into clean data for AI.",
+  "description": "Firecrawl crawls and scrapes websites, then converts the content into Markdown or structured data ready for AI models. It handles JavaScript, pagination and schema-guided extraction.",
+  "summary_fr": "Transforme n'importe quel site en données propres pour l'IA.",
+  "description_fr": "Firecrawl explore et récupère le contenu de sites web, puis le convertit en Markdown ou en données structurées prêtes pour les modèles d'IA. Il gère le JavaScript, la pagination et l'extraction guidée par schéma.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Freemium",
+    "sourceUrl": "https://www.firecrawl.dev",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/firecrawl.png",
+  "image": "/screenshots/firecrawl.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Website crawling and scraping",
+    "Markdown conversion",
+    "Schema-based extraction",
+    "API and open-source SDKs"
+  ],
+  "features_fr": [
+    "Exploration et extraction de sites",
+    "Conversion en Markdown",
+    "Extraction structurée par schéma",
+    "API et SDK open source"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Firecrawl",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "Firecrawl",
+          "url": "https://www.firecrawl.dev"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "hiddenlayer",
+  "name": "HiddenLayer",
+  "url": "https://hiddenlayer.com",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Protection for AI models against attacks.",
+  "description": "HiddenLayer scans AI models for malicious code and vulnerabilities, and protects production applications against prompt injection and data leaks.",
+  "summary_fr": "Protection des modèles d'IA contre les attaques.",
+  "description_fr": "HiddenLayer analyse les modèles d'IA pour détecter code malveillant et vulnérabilités, et protège les applications en production contre les injections de prompt et les fuites de données.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "ai",
+    "security",
+    "catalog"
+  ],
+  "pricing": {
+    "verified": false,
+    "note": "Enterprise",
+    "sourceUrl": "https://hiddenlayer.com",
+    "model": "enterprise",
+    "label": "Enterprise"
+  },
+  "logo": "/logos/hiddenlayer.png",
+  "image": "/screenshots/hiddenlayer.webp",
+  "dateAdded": "2026-10-30",
+  "lastVerified": "2026-10-30",
+  "features": [
+    "Model security scanning",
+    "Prompt injection protection",
+    "Data leak detection",
+    "Red-teaming of models"
+  ],
+  "features_fr": [
+    "Analyse de sécurité des modèles",
+    "Protection contre l'injection de prompt",
+    "Détection des fuites de données",
+    "Tests d'attaque sur les modèles"
+  ],
+  "howToUse": [
+    {
+      "title": "Open HiddenLayer",
+      "description": "Create an account at the official URL if you need saved work or billing.",
+      "links": [
+        {
+          "label": "HiddenLayer",
+          "url": "https://hiddenlayer.com"
+        }
+      ]
+    },
+    {
+      "title": "Complete onboarding",
+      "description": "Follow the product tour or connect the first integration it asks for."
+    },
+    {
+      "title": "Run a first task",
+      "description": "Execute the main workflow using a template or sample input."
+    },
+    {
+      "title": "Review outputs",
+      "description": "Export, share, or connect to your stack before scaling usage."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import"
+}
