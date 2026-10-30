@@ -24,7 +24,7 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
   const t = directoryCopy(locale)
   const router = useRouter()
   const searchParams = useSearchParams()
-  const { records, chips } = useDirectory()
+  const { records } = useDirectory()
   const category = searchParams.get("category") || ""
   const query = (searchParams.get("q") || "").trim().toLowerCase()
   const sort = (searchParams.get("sort") as SortMode) || "trending"
@@ -83,41 +83,51 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
       </div>
 
       <div className="mt-6 space-y-2">
-        <div className="-mx-4 flex flex-wrap items-center gap-2 overflow-x-auto px-4 [scrollbar-width:none] md:mx-0 md:overflow-visible md:px-0" role="group" aria-label={t.priceFilters}>
-          {PRICE_FILTERS.map((filter) => {
-            const selected = activePrice === filter
-            return (
-              <button
-                key={filter}
-                type="button"
-                aria-pressed={selected}
-                onClick={() => write({ pricing: selected ? null : priceFilterParam(filter as PriceFilter) })}
-                className={`h-9 shrink-0 rounded-full px-4 text-sm font-semibold ring-1 ring-border ${selected ? "bg-primary text-primary-foreground" : "bg-card"}`}
-              >
-                {pricingLabel(locale, filter)}
-              </button>
-            )
-          })}
-        </div>
-        <div className="-mx-4 flex flex-wrap items-center gap-2 overflow-x-auto px-4 [scrollbar-width:none] md:mx-0 md:overflow-visible md:px-0" role="group" aria-label={t.swipeCountryLabel}>
-          {CATALOGUE_HQ_COUNTRIES.map((country) => {
-            const selected = activeCountry === country
-            return (
-              <button
-                key={country}
-                type="button"
-                aria-pressed={selected}
-                onClick={() =>
-                  write({
-                    hqCountry: selected ? null : catalogueHqCountryParam(country),
-                  })
-                }
-                className={`h-9 shrink-0 rounded-full px-4 text-sm font-semibold ring-1 ring-border ${selected ? "bg-primary text-primary-foreground" : "bg-card"}`}
-              >
-                {t.swipeCountries[country]}
-              </button>
-            )
-          })}
+        <div className="flex flex-col gap-3 md:flex-row md:items-center md:gap-4">
+          <div className="min-w-0 flex-1 space-y-2">
+            <div className="-mx-4 flex flex-wrap items-center gap-2 overflow-x-auto px-4 [scrollbar-width:none] md:mx-0 md:overflow-visible md:px-0" role="group" aria-label={t.priceFilters}>
+              {PRICE_FILTERS.map((filter) => {
+                const selected = activePrice === filter
+                return (
+                  <button
+                    key={filter}
+                    type="button"
+                    aria-pressed={selected}
+                    onClick={() => write({ pricing: selected ? null : priceFilterParam(filter as PriceFilter) })}
+                    className={`h-9 shrink-0 rounded-full px-4 text-sm font-semibold ring-1 ring-border ${selected ? "bg-primary text-primary-foreground" : "bg-card"}`}
+                  >
+                    {pricingLabel(locale, filter)}
+                  </button>
+                )
+              })}
+            </div>
+            <div className="-mx-4 flex flex-wrap items-center gap-2 overflow-x-auto px-4 [scrollbar-width:none] md:mx-0 md:overflow-visible md:px-0" role="group" aria-label={t.swipeCountryLabel}>
+              {CATALOGUE_HQ_COUNTRIES.map((country) => {
+                const selected = activeCountry === country
+                return (
+                  <button
+                    key={country}
+                    type="button"
+                    aria-pressed={selected}
+                    onClick={() =>
+                      write({
+                        hqCountry: selected ? null : catalogueHqCountryParam(country),
+                      })
+                    }
+                    className={`h-9 shrink-0 rounded-full px-4 text-sm font-semibold ring-1 ring-border ${selected ? "bg-primary text-primary-foreground" : "bg-card"}`}
+                  >
+                    {t.swipeCountries[country]}
+                  </button>
+                )
+              })}
+            </div>
+          </div>
+          <LocaleLink
+            href="/categories"
+            className="shrink-0 text-sm font-semibold text-[#0B1F3A] underline-offset-4 hover:underline md:ml-auto"
+          >
+            {t.catalogueAllCategoriesCta}
+          </LocaleLink>
         </div>
         {(category || query || activePrice || activeCountry || sort !== "trending") && (
           <button
@@ -144,11 +154,6 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
           ))}
         </div>
       )}
-      <p className="mt-10">
-        <LocaleLink href="/categories" className="font-semibold text-primary">
-          {fill(t.allCategories, { count: chips.length })}
-        </LocaleLink>
-      </p>
     </main>
   )
 }
