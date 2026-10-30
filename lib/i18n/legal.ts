@@ -81,24 +81,24 @@ const privacy: Record<Locale, LegalDocument> = {
       {
         heading: "1. Introduction",
         paragraphs: [
-          "Bienvenue sur AItools.ninja. Nous respectons votre vie privée et protégeons vos données personnelles. Cette politique explique comment nous traitons ces données lorsque vous visitez le site, et quels sont vos droits.",
+          "Bienvenue sur AItools.ninja. Nous respectons ta vie privée et protégeons tes données personnelles. Cette politique explique comment nous traitons ces données lorsque tu visites le site, et quels sont tes droits.",
         ],
       },
       {
         heading: "2. Informations que nous collectons",
-        paragraphs: ["Nous pouvons collecter, utiliser, conserver et transmettre plusieurs types de données personnelles vous concernant :"],
+        paragraphs: ["Nous pouvons collecter, utiliser, conserver et transmettre plusieurs types de données personnelles te concernant :"],
         list: [
           "Coordonnées (adresse e-mail, nom)",
-          "Données d'usage (la façon dont vous utilisez le site)",
+          "Données d'usage (la façon dont tu utilises le site)",
           "Données techniques (adresse IP, type et version du navigateur)",
         ],
       },
       {
-        heading: "3. Utilisation de vos informations",
-        paragraphs: ["Nous utilisons vos données personnelles pour :"],
+        heading: "3. Utilisation de tes informations",
+        paragraphs: ["Nous utilisons tes données personnelles pour :"],
         list: [
           "Fournir et maintenir le service",
-          "Vous informer des changements apportés au service",
+          "T'informer des changements apportés au service",
           "Assurer le support",
           "Tirer des enseignements utiles pour améliorer le service",
           "Suivre l'usage du service",
@@ -108,28 +108,28 @@ const privacy: Record<Locale, LegalDocument> = {
       {
         heading: "4. Sécurité des données",
         paragraphs: [
-          "Nous avons mis en place des mesures destinées à éviter que vos données personnelles soient perdues, utilisées ou consultées sans autorisation, modifiées ou divulguées. L'accès est limité aux employés, mandataires, prestataires et autres tiers qui ont un besoin professionnel de les connaître.",
+          "Nous avons mis en place des mesures destinées à éviter que tes données personnelles soient perdues, utilisées ou consultées sans autorisation, modifiées ou divulguées. L'accès est limité aux employés, mandataires, prestataires et autres tiers qui ont un besoin professionnel de les connaître.",
         ],
       },
       {
-        heading: "5. Vos droits",
+        heading: "5. Tes droits",
         paragraphs: [
-          "Dans certains cas, la réglementation sur la protection des données vous reconnaît des droits sur vos données personnelles, notamment le droit de :",
+          "Dans certains cas, la réglementation sur la protection des données te reconnaît des droits sur tes données personnelles, notamment le droit de :",
         ],
         list: [
-          "Demander l'accès à vos données personnelles",
-          "Demander la rectification de vos données personnelles",
-          "Demander l'effacement de vos données personnelles",
-          "Vous opposer au traitement de vos données personnelles",
+          "Demander l'accès à tes données personnelles",
+          "Demander la rectification de tes données personnelles",
+          "Demander l'effacement de tes données personnelles",
+          "T'opposer au traitement de tes données personnelles",
           "Demander la limitation du traitement",
-          "Demander la portabilité de vos données personnelles",
-          "Retirer votre consentement",
+          "Demander la portabilité de tes données personnelles",
+          "Retirer ton consentement",
         ],
       },
       {
         heading: "6. Nous contacter",
         paragraphs: [
-          "Pour toute question sur cette politique ou sur nos pratiques, écrivez-nous à :",
+          "Pour toute question sur cette politique ou sur nos pratiques, écris-nous à :",
           "E-mail : aitoolrequest@gmail.com",
         ],
       },
@@ -213,13 +213,13 @@ const terms: Record<Locale, LegalDocument> = {
       {
         heading: "1. Acceptation des conditions",
         paragraphs: [
-          "En accédant à AItools.ninja et en l'utilisant, vous acceptez ces conditions d'utilisation ainsi que les lois et règlements applicables. Si vous n'acceptez pas l'une de ces conditions, vous ne devez pas utiliser ce site ni y accéder.",
+          "En accédant à AItools.ninja et en l'utilisant, tu acceptes ces conditions d'utilisation ainsi que les lois et règlements applicables. Si tu n'acceptes pas l'une de ces conditions, tu ne dois pas utiliser ce site ni y accéder.",
         ],
       },
       {
         heading: "2. Licence d'utilisation",
         paragraphs: [
-          "L'accès aux contenus (informations ou logiciels) d'AItools.ninja est autorisé de façon temporaire, pour une consultation personnelle, non commerciale et transitoire. Il s'agit d'une licence, pas d'un transfert de propriété. À ce titre, vous ne pouvez pas :",
+          "L'accès aux contenus (informations ou logiciels) d'AItools.ninja est autorisé de façon temporaire, pour une consultation personnelle, non commerciale et transitoire. Il s'agit d'une licence, pas d'un transfert de propriété. À ce titre, tu ne peux pas :",
         ],
         list: [
           "Modifier ou copier les contenus",
@@ -232,7 +232,7 @@ const terms: Record<Locale, LegalDocument> = {
       {
         heading: "3. Contenus envoyés par les utilisateurs",
         paragraphs: [
-          "En soumettant un contenu sur le site, vous nous autorisez à l'utiliser, le modifier, le représenter, l'afficher, le reproduire et le distribuer sur le site et par son intermédiaire. Vous conservez l'ensemble de vos droits sur les contenus que vous soumettez, publiez ou affichez.",
+          "En soumettant un contenu sur le site, tu nous autorises à l'utiliser, le modifier, le représenter, l'afficher, le reproduire et le distribuer sur le site et par son intermédiaire. Tu conserves l'ensemble de tes droits sur les contenus que tu soumets, publies ou affiches.",
         ],
       },
       {
@@ -262,13 +262,13 @@ const terms: Record<Locale, LegalDocument> = {
       {
         heading: "8. Modifications",
         paragraphs: [
-          "AItools.ninja peut réviser ces conditions à tout moment, sans préavis. En utilisant le site, vous acceptez la version alors en vigueur.",
+          "AItools.ninja peut réviser ces conditions à tout moment, sans préavis. En utilisant le site, tu acceptes la version alors en vigueur.",
         ],
       },
       {
         heading: "9. Nous contacter",
         paragraphs: [
-          "Pour toute question sur ces conditions d'utilisation, écrivez-nous à :",
+          "Pour toute question sur ces conditions d'utilisation, écris-nous à :",
           "E-mail : aitoolrequest@gmail.com",
         ],
       },
