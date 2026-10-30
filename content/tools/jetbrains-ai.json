@@ -27,8 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "JetBrains AI.",
-    "AI for coding and developer tools at jetbrains.com."
+    "Code completion in JetBrains IDEs",
+    "Project-aware chat",
+    "Test and documentation generation",
+    "Junie: autonomous coding agent"
   ],
   "howToUse": [
     {
@@ -55,8 +57,10 @@
     }
   ],
   "features_fr": [
-    "IA JetBrains.",
-    "IA pour les outils de codage et de développement sur jetbrains.com."
+    "Complétion de code dans les IDE JetBrains",
+    "Chat contextuel sur le projet",
+    "Génération de tests et de documentation",
+    "Junie : agent de code autonome"
   ],
   "summary_fr": "Assistant de code IA et agent Junie dans les IDE JetBrains.",
   "description_fr": "JetBrains AI intègre aux IDE comme IntelliJ IDEA ou PyCharm la complétion de code, un chat contextuel, la génération de tests et de documentation. Junie, l'agent de code, peut mener des tâches complètes sur un projet."

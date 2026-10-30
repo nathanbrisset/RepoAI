@@ -27,10 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Glass Health — clinical: capabilities described on glass.health.",
-    "Glass Health — decision-support: capabilities described on glass.health.",
-    "Glass Health — documentation: capabilities described on glass.health.",
-    "Glass Health — providers: capabilities described on glass.health."
+    "Differential diagnoses",
+    "Suggested care plans",
+    "Clinical note drafting",
+    "Answers grounded in medical references"
   ],
   "howToUse": [
     {
@@ -57,10 +57,10 @@
     }
   ],
   "features_fr": [
-    "Glass Health — clinique : capacités décrites sur glass.health.",
-    "Glass Health — aide à la décision : capacités décrites sur glass.health.",
-    "Glass Health — documentation : fonctionnalités décrites sur glass.health.",
-    "Glass Health — fournisseurs : capacités décrites sur glass.health."
+    "Diagnostics différentiels",
+    "Propositions de plans de prise en charge",
+    "Rédaction de notes cliniques",
+    "Réponses appuyées sur des références médicales"
   ],
   "summary_fr": "Aide à la décision clinique par IA pour les médecins.",
   "description_fr": "Glass Health aide les cliniciens à établir des diagnostics différentiels, proposer des plans de prise en charge et rédiger des notes à partir de la présentation d'un patient. Les réponses s'appuient sur des références médicales."

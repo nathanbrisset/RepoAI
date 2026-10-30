@@ -35,9 +35,10 @@
     "https://kestra.io/pricing"
   ],
   "features": [
-    "Orchestrate data pipelines",
-    "Schedule infrastructure jobs",
-    "Replace Airflow DAGs"
+    "Declarative workflow orchestration (YAML)",
+    "Scheduling and event triggers",
+    "Many plugins (databases, cloud, scripts)",
+    "Open source with a web UI"
   ],
   "howToUse": [
     {
@@ -80,8 +81,9 @@
     }
   ],
   "features_fr": [
-    "Orchestrer les pipelines de données",
-    "Planifier des travaux d'infrastructure",
-    "Remplacer les DAG Airflow"
+    "Orchestration de workflows déclarative (YAML)",
+    "Planification et déclencheurs d'événements",
+    "Nombreux plugins (bases, cloud, scripts)",
+    "Open source, interface web"
   ]
 }

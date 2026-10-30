@@ -27,7 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Vic.ai is an AI product for finance and accounting."
+    "Automatic invoice reading",
+    "General ledger coding",
+    "Approval management",
+    "Payment preparation"
   ],
   "howToUse": [
     {
@@ -56,9 +59,9 @@
   "summary_fr": "Automatisation de la comptabilité fournisseurs par IA.",
   "description_fr": "Vic.ai lit les factures, les code dans le plan comptable, gère les approbations et prépare les paiements. Il vise les équipes finance et cabinets qui traitent de gros volumes de factures.",
   "features_fr": [
-    "Capture et OCR des factures entrantes.",
-    "Suggestion de comptes et centres de coûts par IA.",
-    "Workflows d'approbation et règles métier.",
-    "Intégrations ERP et outils de paiement."
+    "Lecture automatique des factures",
+    "Imputation comptable",
+    "Gestion des approbations",
+    "Préparation des paiements"
   ]
 }

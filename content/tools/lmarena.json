@@ -27,10 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Multi-turn chat with model selection where available.",
-    "File, image, or voice input on supported plans.",
-    "Share or export conversations for teammates.",
-    "API or enterprise controls on higher tiers."
+    "Blind comparison of two models",
+    "Vote for the better answer",
+    "Public model leaderboard",
+    "Text, image, video and code arenas"
   ],
   "howToUse": [
     {
@@ -57,10 +57,10 @@
     }
   ],
   "features_fr": [
-    "Chat multi-tours avec sélection de modèle si disponible.",
-    "Saisie de fichier, d’image ou vocale sur les forfaits pris en charge.",
-    "Partagez ou exportez des conversations pour vos coéquipiers.",
-    "Contrôles API ou d'entreprise sur les niveaux supérieurs."
+    "Comparaison à l'aveugle de deux modèles",
+    "Vote pour la meilleure réponse",
+    "Classement public des modèles",
+    "Arènes texte, image, vidéo et code"
   ],
   "summary_fr": "Classement public des modèles d'IA par votes à l'aveugle.",
   "description_fr": "LMArena (ex-Chatbot Arena) fait répondre deux modèles anonymes à la même question et laisse l'utilisateur choisir la meilleure réponse. Les millions de votes produisent un classement de référence des modèles de texte, image et code."

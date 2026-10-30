@@ -27,10 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Scan text or documents for likely AI authorship.",
-    "Batch or API access for CMS and LMS workflows.",
-    "Reports with scores and highlighted passages.",
-    "Settings for sensitivity and language."
+    "Estimates AI-written share of a text",
+    "Highlights flagged sentences",
+    "Paraphrasing and summarizing",
+    "Translation and grammar checks"
   ],
   "howToUse": [
     {
@@ -57,10 +57,10 @@
     }
   ],
   "features_fr": [
-    "Numérisez du texte ou des documents pour rechercher la paternité probable de l'IA.",
-    "Accès par lots ou API pour les workflows CMS et LMS.",
-    "Rapports avec partitions et passages surlignés.",
-    "Paramètres de sensibilité et de langue."
+    "Estimation de la part de texte écrite par IA",
+    "Surlignage des phrases concernées",
+    "Reformulation et résumé",
+    "Traduction et correction"
   ],
   "summary_fr": "Détecteur de texte généré par IA, gratuit en ligne.",
   "description_fr": "ZeroGPT estime la part d'un texte rédigée par une IA et surligne les phrases concernées. Le site propose aussi reformulation, résumé, traduction et correction.",

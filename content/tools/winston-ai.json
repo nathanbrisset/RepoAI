@@ -27,10 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Scan text or documents for likely AI authorship.",
-    "Batch or API access for CMS and LMS workflows.",
-    "Reports with scores and highlighted passages.",
-    "Settings for sensitivity and language."
+    "AI text detection",
+    "Plagiarism checking",
+    "AI-generated image detection",
+    "Shareable reports"
   ],
   "howToUse": [
     {
@@ -57,10 +57,10 @@
     }
   ],
   "features_fr": [
-    "Numérisez du texte ou des documents pour rechercher la paternité probable de l'IA.",
-    "Accès par lots ou API pour les workflows CMS et LMS.",
-    "Rapports avec partitions et passages surlignés.",
-    "Paramètres de sensibilité et de langue."
+    "Détection de texte IA",
+    "Vérification de plagiat",
+    "Analyse d'images générées par IA",
+    "Rapports partageables"
   ],
   "summary_fr": "Détection de contenu IA et de plagiat.",
   "description_fr": "Winston AI estime la part d'un texte rédigée par IA, détecte le plagiat et analyse aussi les images générées. Il s'adresse aux enseignants, éditeurs et rédacteurs."
