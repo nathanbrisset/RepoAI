@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { allTools, mockTools } from "@/lib/data";
+import { relatedToolsFor } from "@/lib/related-tools";
 import ToolPageClient from "./tool-page-client";
 import { getLocale } from "@/lib/i18n/get-locale";
 import { toolForLocale } from "@/lib/i18n/localize-tool";
@@ -34,10 +35,7 @@ export default async function ToolPage({ params }: PageProps) {
     notFound();
   }
 
-  // Find related tools (same category, exclude self, limit 2)
-  const relatedTools = mockTools.filter(
-    (t) => t.id !== tool.id && t.categories.some((cat) => tool.categories.includes(cat))
-  ).slice(0, 2);
+  const relatedTools = relatedToolsFor(tool, mockTools);
 
   const successor = tool.successorId ? allTools.find((item) => item.id === tool.successorId) : null
   const locale = await getLocale()
