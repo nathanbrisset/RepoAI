@@ -12,16 +12,17 @@
     "search"
   ],
   "tags": [
-    "ai",
     "search",
-    "catalog"
+    "research",
+    "paperguide"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://paperguide.ai",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/paperguide.png",
   "image": "/screenshots/paperguide.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Paperguide",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to paperguide.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Paperguide",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Scientific paper search",
+      "description": "Use scientific paper search on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Answers with citations",
+      "description": "Use answers with citations on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "recherche",
+    "recherche",
+    "paperguide"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Paperguide",
+      "description": "Rends-toi sur paperguide.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Paperguide",
+          "url": "https://paperguide.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Recherche d'articles scientifiques",
+      "description": "Teste recherche d'articles scientifiques sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Réponses avec citations",
+      "description": "Teste réponses avec citations sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

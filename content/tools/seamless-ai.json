@@ -12,16 +12,17 @@
     "sales"
   ],
   "tags": [
-    "ai",
     "sales",
-    "catalog"
+    "crm",
+    "seamless"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://seamless.ai",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/seamless-ai.png",
   "image": "/screenshots/seamless-ai.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Seamless.AI",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to seamless.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Seamless.AI",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Decision-maker emails and phones",
+      "description": "Use decision-maker emails and phones on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "List enrichment",
+      "description": "Use list enrichment on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "ventes",
+    "crm",
+    "seamless"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Seamless.AI",
+      "description": "Rends-toi sur seamless.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Seamless.AI",
+          "url": "https://seamless.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Emails et téléphones de décideurs",
+      "description": "Teste emails et téléphones de décideurs sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Enrichissement de listes",
+      "description": "Teste enrichissement de listes sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

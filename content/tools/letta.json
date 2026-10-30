@@ -12,15 +12,18 @@
     "ai-agents"
   ],
   "tags": [
-    "ai",
-    "catalog"
+    "ai-agents",
+    "agents",
+    "automation",
+    "letta"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.letta.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/letta.png",
   "image": "/screenshots/letta.webp",
@@ -41,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Letta",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to letta.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Letta",
@@ -50,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Persistent agent memory",
+      "description": "Use persistent agent memory on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Memory inspection and editing",
+      "description": "Use memory inspection and editing on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "agents IA",
+    "agents",
+    "automatisation",
+    "letta"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Letta",
+      "description": "Rends-toi sur letta.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Letta",
+          "url": "https://www.letta.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Mémoire persistante des agents",
+      "description": "Teste mémoire persistante des agents sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Inspection et édition de la mémoire",
+      "description": "Teste inspection et édition de la mémoire sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

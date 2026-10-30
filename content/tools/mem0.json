@@ -12,15 +12,18 @@
     "ai-agents"
   ],
   "tags": [
-    "ai",
-    "catalog"
+    "ai-agents",
+    "agents",
+    "automation",
+    "mem0"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://mem0.ai",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/mem0.png",
   "image": "/screenshots/mem0.webp",
@@ -41,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Mem0",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to mem0.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Mem0",
@@ -50,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Per-user long-term memory",
+      "description": "Use per-user long-term memory on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Contextual recall",
+      "description": "Use contextual recall on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "agents IA",
+    "agents",
+    "automatisation",
+    "mem0"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Mem0",
+      "description": "Rends-toi sur mem0.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Mem0",
+          "url": "https://mem0.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Mémoire à long terme par utilisateur",
+      "description": "Teste mémoire à long terme par utilisateur sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Rappel contextuel",
+      "description": "Teste rappel contextuel sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

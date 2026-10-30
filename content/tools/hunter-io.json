@@ -12,16 +12,17 @@
     "sales"
   ],
   "tags": [
-    "ai",
     "sales",
-    "catalog"
+    "crm",
+    "hunter"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://hunter.io",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/hunter-io.png",
   "image": "/screenshots/hunter-io.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Hunter",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to hunter.io, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Hunter",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Email search by domain",
+      "description": "Use email search by domain on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Email verification",
+      "description": "Use email verification on a small sample project before scaling up."
     }
   ],
   "hqCountry": "FR",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "ventes",
+    "crm",
+    "hunter"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Hunter",
+      "description": "Rends-toi sur hunter.io, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Hunter",
+          "url": "https://hunter.io"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Recherche d'emails par domaine",
+      "description": "Teste recherche d'emails par domaine sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Vérification des adresses",
+      "description": "Teste vérification des adresses sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

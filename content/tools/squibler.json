@@ -12,16 +12,17 @@
     "writing"
   ],
   "tags": [
-    "ai",
     "writing",
-    "catalog"
+    "content",
+    "squibler"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.squibler.io",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/squibler.png",
   "image": "/screenshots/squibler.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Squibler",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to squibler.io, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Squibler",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Book outline and structure",
+      "description": "Use book outline and structure on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "AI drafting and continuation",
+      "description": "Use ai drafting and continuation on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "écriture",
+    "contenu",
+    "squibler"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Squibler",
+      "description": "Rends-toi sur squibler.io, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Squibler",
+          "url": "https://www.squibler.io"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Plan et structure de livre",
+      "description": "Teste plan et structure de livre sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Brouillons et continuation par IA",
+      "description": "Teste brouillons et continuation par IA sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

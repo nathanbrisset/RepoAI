@@ -12,15 +12,18 @@
     "ai-agents"
   ],
   "tags": [
-    "ai",
-    "catalog"
+    "ai-agents",
+    "agents",
+    "automation",
+    "airtop"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.airtop.ai",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/airtop.png",
   "image": "/screenshots/airtop.webp",
@@ -41,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Airtop",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to airtop.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Airtop",
@@ -50,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Cloud browsers for agents",
+      "description": "Use cloud browsers for agents on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Plain-language control",
+      "description": "Use plain-language control on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "agents IA",
+    "agents",
+    "automatisation",
+    "airtop"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Airtop",
+      "description": "Rends-toi sur airtop.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Airtop",
+          "url": "https://www.airtop.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Navigateurs cloud pour agents",
+      "description": "Teste navigateurs cloud pour agents sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Contrôle en langage naturel",
+      "description": "Teste contrôle en langage naturel sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

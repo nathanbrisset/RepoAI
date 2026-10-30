@@ -12,16 +12,17 @@
     "music"
   ],
   "tags": [
-    "ai",
     "music",
-    "catalog"
+    "audio",
+    "masterchannel"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://masterchannel.ai",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/masterchannel.png",
   "image": "/screenshots/masterchannel.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Masterchannel",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to masterchannel.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Masterchannel",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Mastering in seconds",
+      "description": "Use mastering in seconds on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Match a reference track",
+      "description": "Use match a reference track on a small sample project before scaling up."
     }
   ],
   "hqCountry": "NO",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "musique",
+    "audio",
+    "masterchannel"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Masterchannel",
+      "description": "Rends-toi sur masterchannel.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Masterchannel",
+          "url": "https://masterchannel.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Mastering en quelques secondes",
+      "description": "Teste mastering en quelques secondes sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Alignement sur un titre de référence",
+      "description": "Teste alignement sur un titre de référence sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

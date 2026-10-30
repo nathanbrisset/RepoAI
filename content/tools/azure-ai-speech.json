@@ -12,16 +12,17 @@
     "voice"
   ],
   "tags": [
-    "ai",
     "voice",
-    "catalog"
+    "speech",
+    "azure"
   ],
   "pricing": {
     "verified": false,
-    "note": "Usage-based",
     "sourceUrl": "https://azure.microsoft.com/products/ai-services/ai-speech",
     "model": "usage-based",
-    "label": "Usage-based"
+    "label": "Usage-based",
+    "note": "Usage-based billing; see the pricing page for meters and quotas.",
+    "note_fr": "Facturation à l'usage ; consulte la page tarifs pour les quotas et le détail."
   },
   "logo": "/logos/azure-ai-speech.png",
   "image": "/screenshots/azure-ai-speech.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Azure AI Speech",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to azure.microsoft.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Azure AI Speech",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Speech recognition",
+      "description": "Use speech recognition on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Hundreds of neural voices",
+      "description": "Use hundreds of neural voices on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "voix",
+    "parole",
+    "azure"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Azure AI Speech",
+      "description": "Rends-toi sur azure.microsoft.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Azure AI Speech",
+          "url": "https://azure.microsoft.com/products/ai-services/ai-speech"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Reconnaissance vocale",
+      "description": "Teste reconnaissance vocale sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Centaines de voix neuronales",
+      "description": "Teste centaines de voix neuronales sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

@@ -12,16 +12,18 @@
     "sales"
   ],
   "tags": [
-    "ai",
     "sales",
-    "catalog"
+    "crm",
+    "crystal",
+    "knows"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.crystalknows.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/crystal-knows.png",
   "image": "/screenshots/crystal-knows.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Crystal",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to crystalknows.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Crystal",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "DISC personality profile",
+      "description": "Use disc personality profile on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Writing tips",
+      "description": "Use writing tips on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "ventes",
+    "crm",
+    "crystal",
+    "knows"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Crystal",
+      "description": "Rends-toi sur crystalknows.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Crystal",
+          "url": "https://www.crystalknows.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Profil de personnalité DISC",
+      "description": "Teste profil de personnalité DISC sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Conseils de rédaction",
+      "description": "Teste conseils de rédaction sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

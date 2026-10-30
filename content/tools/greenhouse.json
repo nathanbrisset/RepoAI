@@ -12,16 +12,17 @@
     "hr"
   ],
   "tags": [
-    "ai",
     "hr",
-    "catalog"
+    "recruiting",
+    "greenhouse"
   ],
   "pricing": {
     "verified": false,
-    "note": "Enterprise",
     "sourceUrl": "https://www.greenhouse.com",
     "model": "enterprise",
-    "label": "Enterprise"
+    "label": "Enterprise",
+    "note": "Enterprise pricing; contact sales or see the official site.",
+    "note_fr": "Offre entreprise ; contacte l'éditeur ou consulte le site pour un devis."
   },
   "logo": "/logos/greenhouse.png",
   "image": "/screenshots/greenhouse.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Greenhouse",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to greenhouse.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Greenhouse",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Structured interviews",
+      "description": "Use structured interviews on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Scorecards",
+      "description": "Use scorecards on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "hr",
+    "recruiting",
+    "greenhouse"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Greenhouse",
+      "description": "Rends-toi sur greenhouse.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Greenhouse",
+          "url": "https://www.greenhouse.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Entretiens structurés",
+      "description": "Teste entretiens structurés sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Grilles d'évaluation",
+      "description": "Teste grilles d'évaluation sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

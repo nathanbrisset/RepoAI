@@ -1,7 +1,7 @@
 {
   "id": "csm-ai",
   "name": "CSM",
-  "url": "https://csm.ai",
+  "url": "https://www.csm.ai",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Generates 3D models from images or text.",
@@ -12,16 +12,17 @@
     "design"
   ],
   "tags": [
-    "ai",
     "design",
-    "catalog"
+    "ui",
+    "csm"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
-    "sourceUrl": "https://csm.ai",
+    "sourceUrl": "https://www.csm.ai",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/csm-ai.png",
   "image": "/screenshots/csm-ai.webp",
@@ -42,27 +43,56 @@
   "howToUse": [
     {
       "title": "Open CSM",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to csm.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "CSM",
-          "url": "https://csm.ai"
+          "url": "https://www.csm.ai"
         }
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Image or sketch to 3D model",
+      "description": "Use image or sketch to 3d model on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Text to 3D",
+      "description": "Use text to 3d on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "design",
+    "interface",
+    "csm"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre CSM",
+      "description": "Rends-toi sur csm.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "CSM",
+          "url": "https://www.csm.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Image ou croquis vers modèle 3D",
+      "description": "Teste image ou croquis vers modèle 3D sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Texte vers 3D",
+      "description": "Teste texte vers 3D sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

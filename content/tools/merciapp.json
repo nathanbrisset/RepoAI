@@ -1,7 +1,7 @@
 {
   "id": "merciapp",
   "name": "MerciApp",
-  "url": "https://www.merci-app.com/en/",
+  "url": "https://www.merciapp.com",
   "affiliateUrl": "",
   "status": "active",
   "summary": "French AI writing assistant across all your tools.",
@@ -12,16 +12,17 @@
     "writing"
   ],
   "tags": [
-    "ai",
     "writing",
-    "catalog"
+    "content",
+    "merciapp"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
-    "sourceUrl": "https://www.merci-app.com/en/",
+    "sourceUrl": "https://www.merciapp.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/merciapp.png",
   "image": "/screenshots/merciapp.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open MerciApp",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to merciapp.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "MerciApp",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "French text correction",
+      "description": "Use french text correction on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Rephrasing and tone",
+      "description": "Use rephrasing and tone on a small sample project before scaling up."
     }
   ],
   "hqCountry": "FR",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "écriture",
+    "contenu",
+    "merciapp"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre MerciApp",
+      "description": "Rends-toi sur merciapp.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "MerciApp",
+          "url": "https://www.merciapp.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Correction des textes en français",
+      "description": "Teste correction des textes en français sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Reformulation et ton",
+      "description": "Teste reformulation et ton sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

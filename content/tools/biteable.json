@@ -12,16 +12,17 @@
     "video"
   ],
   "tags": [
-    "ai",
     "video",
-    "catalog"
+    "creative",
+    "biteable"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://biteable.com",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/biteable.png",
   "image": "/screenshots/biteable.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Biteable",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to biteable.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Biteable",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Animated video templates",
+      "description": "Use animated video templates on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "AI-generated drafts",
+      "description": "Use ai-generated drafts on a small sample project before scaling up."
     }
   ],
   "hqCountry": "AU",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "vidéo",
+    "créatif",
+    "biteable"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Biteable",
+      "description": "Rends-toi sur biteable.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Biteable",
+          "url": "https://biteable.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Modèles de vidéos animées",
+      "description": "Teste modèles de vidéos animées sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Brouillons générés par IA",
+      "description": "Teste brouillons générés par IA sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

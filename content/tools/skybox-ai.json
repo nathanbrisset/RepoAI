@@ -12,16 +12,17 @@
     "design"
   ],
   "tags": [
-    "ai",
     "design",
-    "catalog"
+    "ui",
+    "skybox"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://skybox.blockadelabs.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/skybox-ai.png",
   "image": "/screenshots/skybox-ai.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Skybox AI (Blockade Labs)",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to skybox.blockadelabs.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Skybox AI (Blockade Labs)",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "360° panoramas from text",
+      "description": "Use 360° panoramas from text on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Many art styles",
+      "description": "Use many art styles on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "design",
+    "interface",
+    "skybox"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Skybox AI (Blockade Labs)",
+      "description": "Rends-toi sur skybox.blockadelabs.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Skybox AI (Blockade Labs)",
+          "url": "https://skybox.blockadelabs.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Panoramas 360° à partir d'un texte",
+      "description": "Teste panoramas 360° à partir d'un texte sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Nombreux styles artistiques",
+      "description": "Teste nombreux styles artistiques sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

@@ -12,16 +12,17 @@
     "design"
   ],
   "tags": [
-    "ai",
     "design",
-    "catalog"
+    "ui",
+    "collov"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://collov.ai",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/collov-ai.png",
   "image": "/screenshots/collov-ai.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Collov AI",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to collov.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Collov AI",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Virtual staging",
+      "description": "Use virtual staging on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Style-based redesign",
+      "description": "Use style-based redesign on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "design",
+    "interface",
+    "collov"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Collov AI",
+      "description": "Rends-toi sur collov.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Collov AI",
+          "url": "https://collov.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Home staging virtuel",
+      "description": "Teste home staging virtuel sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Redécoration par style",
+      "description": "Teste redécoration par style sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

@@ -12,16 +12,17 @@
     "meetings"
   ],
   "tags": [
-    "ai",
     "meetings",
-    "catalog"
+    "notes",
+    "hyprnote"
   ],
   "pricing": {
     "verified": false,
-    "note": "Open source",
     "sourceUrl": "https://hyprnote.com",
     "model": "open-source",
-    "label": "Open source"
+    "label": "Open source",
+    "note": "Open source; hosting, cloud or support plans may apply.",
+    "note_fr": "Open source ; l'hébergement ou les services cloud peuvent être payants selon ton déploiement."
   },
   "logo": "/logos/hyprnote.png",
   "image": "/screenshots/hyprnote.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Hyprnote",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to hyprnote.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Hyprnote",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Local transcription",
+      "description": "Use local transcription on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "No bot in the call",
+      "description": "Use no bot in the call on a small sample project before scaling up."
     }
   ],
   "hqCountry": "KR",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "meetings",
+    "notes",
+    "hyprnote"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Hyprnote",
+      "description": "Rends-toi sur hyprnote.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Hyprnote",
+          "url": "https://hyprnote.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Transcription en local",
+      "description": "Teste transcription en local sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Aucun robot dans l'appel",
+      "description": "Teste aucun robot dans l'appel sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

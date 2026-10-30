@@ -12,16 +12,18 @@
     "finance"
   ],
   "tags": [
-    "ai",
     "finance",
-    "catalog"
+    "accounting",
+    "monarch",
+    "money"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://www.monarchmoney.com",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/monarch-money.png",
   "image": "/screenshots/monarch-money.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Monarch Money",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to monarchmoney.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Monarch Money",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "All accounts together",
+      "description": "Use all accounts together on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Budgeting and spending tracking",
+      "description": "Use budgeting and spending tracking on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "finance",
+    "comptabilité",
+    "monarch",
+    "money"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Monarch Money",
+      "description": "Rends-toi sur monarchmoney.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Monarch Money",
+          "url": "https://www.monarchmoney.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Tous les comptes réunis",
+      "description": "Teste tous les comptes réunis sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Budget et suivi des dépenses",
+      "description": "Teste budget et suivi des dépenses sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

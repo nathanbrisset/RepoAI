@@ -12,16 +12,18 @@
     "coding"
   ],
   "tags": [
-    "ai",
-    "coding",
-    "catalog"
+    "developer",
+    "code",
+    "ide",
+    "swimm"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://swimm.io",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/swimm.png",
   "image": "/screenshots/swimm.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Swimm",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to swimm.io, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Swimm",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Code flow explanations",
+      "description": "Use code flow explanations on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Docs synced with code",
+      "description": "Use docs synced with code on a small sample project before scaling up."
     }
   ],
   "hqCountry": "IL",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "développeur",
+    "code",
+    "IDE",
+    "swimm"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Swimm",
+      "description": "Rends-toi sur swimm.io, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Swimm",
+          "url": "https://swimm.io"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Explication des flux du code",
+      "description": "Teste explication des flux du code sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Documentation synchronisée au code",
+      "description": "Teste documentation synchronisée au code sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

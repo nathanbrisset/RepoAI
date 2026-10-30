@@ -12,15 +12,18 @@
     "ai-agents"
   ],
   "tags": [
-    "ai",
-    "catalog"
+    "ai-agents",
+    "agents",
+    "automation",
+    "e2b"
   ],
   "pricing": {
     "verified": false,
-    "note": "Usage-based",
     "sourceUrl": "https://e2b.dev",
     "model": "usage-based",
-    "label": "Usage-based"
+    "label": "Usage-based",
+    "note": "Usage-based billing; see the pricing page for meters and quotas.",
+    "note_fr": "Facturation à l'usage ; consulte la page tarifs pour les quotas et le détail."
   },
   "logo": "/logos/e2b.png",
   "image": "/screenshots/e2b.webp",
@@ -41,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open E2B",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to e2b.dev, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "E2B",
@@ -50,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Isolated cloud sandboxes",
+      "description": "Use isolated cloud sandboxes on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Python and JS code execution",
+      "description": "Use python and js code execution on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "agents IA",
+    "agents",
+    "automatisation",
+    "e2b"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre E2B",
+      "description": "Rends-toi sur e2b.dev, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "E2B",
+          "url": "https://e2b.dev"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Bacs à sable isolés dans le cloud",
+      "description": "Teste bacs à sable isolés dans le cloud sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Exécution de code Python et JS",
+      "description": "Teste exécution de code Python et JS sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

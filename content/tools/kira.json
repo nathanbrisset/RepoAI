@@ -12,16 +12,16 @@
     "legal"
   ],
   "tags": [
-    "ai",
     "legal",
-    "catalog"
+    "kira"
   ],
   "pricing": {
     "verified": false,
-    "note": "Enterprise",
     "sourceUrl": "https://kirasystems.com",
     "model": "enterprise",
-    "label": "Enterprise"
+    "label": "Enterprise",
+    "note": "Enterprise pricing; contact sales or see the official site.",
+    "note_fr": "Offre entreprise ; contacte l'éditeur ou consulte le site pour un devis."
   },
   "logo": "/logos/kira.png",
   "image": "/screenshots/kira.webp",
@@ -42,7 +42,7 @@
   "howToUse": [
     {
       "title": "Open Kira",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to kirasystems.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Kira",
@@ -51,18 +51,46 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Clause extraction",
+      "description": "Use clause extraction on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "High-volume contract review",
+      "description": "Use high-volume contract review on a small sample project before scaling up."
     }
   ],
   "hqCountry": "CA",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "juridique",
+    "kira"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Kira",
+      "description": "Rends-toi sur kirasystems.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Kira",
+          "url": "https://kirasystems.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Extraction de clauses",
+      "description": "Teste extraction de clauses sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Revue de grands volumes de contrats",
+      "description": "Teste revue de grands volumes de contrats sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

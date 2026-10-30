@@ -12,16 +12,17 @@
     "design"
   ],
   "tags": [
-    "ai",
     "design",
-    "catalog"
+    "ui",
+    "banani"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.banani.co",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/banani.png",
   "image": "/screenshots/banani.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Banani",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to banani.co, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Banani",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Screens generated from text",
+      "description": "Use screens generated from text on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Consistent style across the flow",
+      "description": "Use consistent style across the flow on a small sample project before scaling up."
     }
   ],
   "hqCountry": "PL",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "design",
+    "interface",
+    "banani"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Banani",
+      "description": "Rends-toi sur banani.co, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Banani",
+          "url": "https://www.banani.co"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Écrans générés à partir d'un texte",
+      "description": "Teste écrans générés à partir d'un texte sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Style cohérent sur tout le parcours",
+      "description": "Teste style cohérent sur tout le parcours sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

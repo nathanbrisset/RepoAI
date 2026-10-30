@@ -12,16 +12,17 @@
     "support"
   ],
   "tags": [
-    "ai",
     "support",
-    "catalog"
+    "customer-service",
+    "eesel"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://www.eesel.ai",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/eesel-ai.png",
   "image": "/screenshots/eesel-ai.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open eesel AI",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to eesel.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "eesel AI",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Learns from past tickets",
+      "description": "Use learns from past tickets on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Customer replies",
+      "description": "Use customer replies on a small sample project before scaling up."
     }
   ],
   "hqCountry": "AU",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "support",
+    "customer-service",
+    "eesel"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre eesel AI",
+      "description": "Rends-toi sur eesel.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "eesel AI",
+          "url": "https://www.eesel.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Apprentissage sur les anciens tickets",
+      "description": "Teste apprentissage sur les anciens tickets sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Réponses aux clients",
+      "description": "Teste réponses aux clients sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

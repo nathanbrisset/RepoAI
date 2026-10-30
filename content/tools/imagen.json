@@ -12,16 +12,17 @@
     "image"
   ],
   "tags": [
-    "ai",
-    "image",
-    "catalog"
+    "image-generation",
+    "creative",
+    "imagen"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://deepmind.google/models/imagen/",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/imagen.png",
   "image": "/screenshots/imagen.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Imagen (Google)",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to deepmind.google, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Imagen (Google)",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Photorealistic images",
+      "description": "Use photorealistic images on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Fine detail and text rendering",
+      "description": "Use fine detail and text rendering on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "génération d'images",
+    "créatif",
+    "imagen"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Imagen (Google)",
+      "description": "Rends-toi sur deepmind.google, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Imagen (Google)",
+          "url": "https://deepmind.google/models/imagen/"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Images photoréalistes",
+      "description": "Teste images photoréalistes sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Rendu fin des détails et du texte",
+      "description": "Teste rendu fin des détails et du texte sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

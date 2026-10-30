@@ -12,16 +12,17 @@
     "data"
   ],
   "tags": [
-    "ai",
     "data",
-    "catalog"
+    "analytics",
+    "equals"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://equals.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/equals.png",
   "image": "/screenshots/equals.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Equals",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to equals.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Equals",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Spreadsheet connected to databases",
+      "description": "Use spreadsheet connected to databases on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Always-current data",
+      "description": "Use always-current data on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "données",
+    "analytics",
+    "equals"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Equals",
+      "description": "Rends-toi sur equals.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Equals",
+          "url": "https://equals.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Tableur connecté aux bases de données",
+      "description": "Teste tableur connecté aux bases de données sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Données toujours à jour",
+      "description": "Teste données toujours à jour sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

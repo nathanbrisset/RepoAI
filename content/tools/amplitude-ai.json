@@ -12,16 +12,17 @@
     "data"
   ],
   "tags": [
-    "ai",
     "data",
-    "catalog"
+    "analytics",
+    "amplitude"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://amplitude.com/ai",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/amplitude-ai.png",
   "image": "/screenshots/amplitude-ai.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Amplitude AI",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to amplitude.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Amplitude AI",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Charts from a question",
+      "description": "Use charts from a question on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Explains metric changes",
+      "description": "Use explains metric changes on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "données",
+    "analytics",
+    "amplitude"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Amplitude AI",
+      "description": "Rends-toi sur amplitude.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Amplitude AI",
+          "url": "https://amplitude.com/ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Graphiques à partir d'une question",
+      "description": "Teste graphiques à partir d'une question sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Explication des variations",
+      "description": "Teste explication des variations sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

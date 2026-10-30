@@ -12,16 +12,17 @@
     "no-code"
   ],
   "tags": [
-    "ai",
-    "no",
-    "catalog"
+    "no-code",
+    "app-builder",
+    "thunkable"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://thunkable.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/thunkable.png",
   "image": "/screenshots/thunkable.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Thunkable",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to thunkable.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Thunkable",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Drag and drop with block logic",
+      "description": "Use drag and drop with block logic on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Built-in AI components",
+      "description": "Use built-in ai components on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "sans code",
+    "créateur d'applications",
+    "thunkable"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Thunkable",
+      "description": "Rends-toi sur thunkable.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Thunkable",
+          "url": "https://thunkable.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Glisser-déposer et logique en blocs",
+      "description": "Teste glisser-déposer et logique en blocs sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Composants IA intégrés",
+      "description": "Teste composants IA intégrés sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

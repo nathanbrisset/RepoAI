@@ -12,16 +12,19 @@
     "llm-chatbots"
   ],
   "tags": [
-    "ai",
+    "chatbot",
     "llm",
-    "catalog"
+    "assistant",
+    "ernie",
+    "bot"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://yiyan.baidu.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/ernie-bot.png",
   "image": "/screenshots/ernie-bot.webp",
@@ -42,7 +45,7 @@
   "howToUse": [
     {
       "title": "Open ERNIE Bot (Baidu)",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to yiyan.baidu.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "ERNIE Bot (Baidu)",
@@ -51,18 +54,49 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Chat and writing in Chinese and English",
+      "description": "Use chat and writing in chinese and english on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Image generation",
+      "description": "Use image generation on a small sample project before scaling up."
     }
   ],
   "hqCountry": "CN",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "chatbot",
+    "LLM",
+    "assistant",
+    "ernie",
+    "bot"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre ERNIE Bot (Baidu)",
+      "description": "Rends-toi sur yiyan.baidu.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "ERNIE Bot (Baidu)",
+          "url": "https://yiyan.baidu.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Chat et rédaction en chinois et en anglais",
+      "description": "Teste chat et rédaction en chinois et en anglais sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Génération d'images",
+      "description": "Teste génération d'images sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

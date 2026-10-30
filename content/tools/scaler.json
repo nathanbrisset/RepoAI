@@ -12,16 +12,17 @@
     "music"
   ],
   "tags": [
-    "ai",
     "music",
-    "catalog"
+    "audio",
+    "scaler"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://www.scalermusic.com",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/scaler.png",
   "image": "/screenshots/scaler.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Scaler",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to scalermusic.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Scaler",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Chord and progression suggestions",
+      "description": "Use chord and progression suggestions on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Key detection",
+      "description": "Use key detection on a small sample project before scaling up."
     }
   ],
   "hqCountry": "GB",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "musique",
+    "audio",
+    "scaler"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Scaler",
+      "description": "Rends-toi sur scalermusic.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Scaler",
+          "url": "https://www.scalermusic.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Suggestions d'accords et de progressions",
+      "description": "Teste suggestions d'accords et de progressions sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Détection de la tonalité",
+      "description": "Teste détection de la tonalité sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

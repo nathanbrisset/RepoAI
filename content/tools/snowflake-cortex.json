@@ -12,16 +12,18 @@
     "data"
   ],
   "tags": [
-    "ai",
     "data",
-    "catalog"
+    "analytics",
+    "snowflake",
+    "cortex"
   ],
   "pricing": {
     "verified": false,
-    "note": "Usage-based",
     "sourceUrl": "https://www.snowflake.com/en/product/features/cortex/",
     "model": "usage-based",
-    "label": "Usage-based"
+    "label": "Usage-based",
+    "note": "Usage-based billing; see the pricing page for meters and quotas.",
+    "note_fr": "Facturation à l'usage ; consulte la page tarifs pour les quotas et le détail."
   },
   "logo": "/logos/snowflake-cortex.png",
   "image": "/screenshots/snowflake-cortex.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Snowflake Cortex AI",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to snowflake.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Snowflake Cortex AI",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Language models inside Snowflake",
+      "description": "Use language models inside snowflake on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Natural-language questions",
+      "description": "Use natural-language questions on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "données",
+    "analytics",
+    "snowflake",
+    "cortex"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Snowflake Cortex AI",
+      "description": "Rends-toi sur snowflake.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Snowflake Cortex AI",
+          "url": "https://www.snowflake.com/en/product/features/cortex/"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Modèles de langage dans Snowflake",
+      "description": "Teste modèles de langage dans Snowflake sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Questions en langage naturel",
+      "description": "Teste questions en langage naturel sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

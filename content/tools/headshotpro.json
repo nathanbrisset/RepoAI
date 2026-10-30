@@ -12,16 +12,17 @@
     "image"
   ],
   "tags": [
-    "ai",
-    "image",
-    "catalog"
+    "image-generation",
+    "creative",
+    "headshotpro"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://www.headshotpro.com",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/headshotpro.png",
   "image": "/screenshots/headshotpro.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open HeadshotPro",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to headshotpro.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "HeadshotPro",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Dozens of generated headshots",
+      "description": "Use dozens of generated headshots on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Consistent team styles",
+      "description": "Use consistent team styles on a small sample project before scaling up."
     }
   ],
   "hqCountry": "NL",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "génération d'images",
+    "créatif",
+    "headshotpro"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre HeadshotPro",
+      "description": "Rends-toi sur headshotpro.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "HeadshotPro",
+          "url": "https://www.headshotpro.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Dizaines de portraits générés",
+      "description": "Teste dizaines de portraits générés sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Styles homogènes pour une équipe",
+      "description": "Teste styles homogènes pour une équipe sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

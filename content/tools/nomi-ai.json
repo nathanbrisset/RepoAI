@@ -12,16 +12,18 @@
     "llm-chatbots"
   ],
   "tags": [
-    "ai",
+    "chatbot",
     "llm",
-    "catalog"
+    "assistant",
+    "nomi"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://nomi.ai",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/nomi-ai.png",
   "image": "/screenshots/nomi-ai.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Nomi AI",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to nomi.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Nomi AI",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Long-term conversation memory",
+      "description": "Use long-term conversation memory on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Customizable personality",
+      "description": "Use customizable personality on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "chatbot",
+    "LLM",
+    "assistant",
+    "nomi"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Nomi AI",
+      "description": "Rends-toi sur nomi.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Nomi AI",
+          "url": "https://nomi.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Mémoire à long terme des conversations",
+      "description": "Teste mémoire à long terme des conversations sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Personnalité personnalisable",
+      "description": "Teste personnalité personnalisable sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

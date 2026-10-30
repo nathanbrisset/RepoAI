@@ -12,16 +12,18 @@
     "automation"
   ],
   "tags": [
-    "ai",
     "automation",
-    "catalog"
+    "workflow",
+    "integrations",
+    "trigger"
   ],
   "pricing": {
     "verified": false,
-    "note": "Open source",
     "sourceUrl": "https://trigger.dev",
     "model": "open-source",
-    "label": "Open source"
+    "label": "Open source",
+    "note": "Open source; hosting, cloud or support plans may apply.",
+    "note_fr": "Open source ; l'hébergement ou les services cloud peuvent être payants selon ton déploiement."
   },
   "logo": "/logos/trigger-dev.png",
   "image": "/screenshots/trigger-dev.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Trigger.dev",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to trigger.dev, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Trigger.dev",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Serverless long-running tasks",
+      "description": "Use serverless long-running tasks on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Scheduling and triggers",
+      "description": "Use scheduling and triggers on a small sample project before scaling up."
     }
   ],
   "hqCountry": "GB",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "automatisation",
+    "flux",
+    "intégrations",
+    "trigger"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Trigger.dev",
+      "description": "Rends-toi sur trigger.dev, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Trigger.dev",
+          "url": "https://trigger.dev"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Tâches longues sans serveur",
+      "description": "Teste tâches longues sans serveur sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Planification et déclencheurs",
+      "description": "Teste planification et déclencheurs sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

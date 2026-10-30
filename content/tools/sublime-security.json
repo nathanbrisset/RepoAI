@@ -12,16 +12,16 @@
     "security"
   ],
   "tags": [
-    "ai",
     "security",
-    "catalog"
+    "sublime"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://sublime.security",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/sublime-security.png",
   "image": "/screenshots/sublime-security.webp",
@@ -42,7 +42,7 @@
   "howToUse": [
     {
       "title": "Open Sublime Security",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to sublime.security, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Sublime Security",
@@ -51,18 +51,46 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Phishing detection",
+      "description": "Use phishing detection on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "AI email analysis agents",
+      "description": "Use ai email analysis agents on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "security",
+    "sublime"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Sublime Security",
+      "description": "Rends-toi sur sublime.security, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Sublime Security",
+          "url": "https://sublime.security"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Détection du phishing",
+      "description": "Teste détection du phishing sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Agents IA d'analyse des emails",
+      "description": "Teste agents IA d'analyse des emails sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

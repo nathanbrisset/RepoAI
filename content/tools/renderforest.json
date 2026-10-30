@@ -12,16 +12,17 @@
     "video"
   ],
   "tags": [
-    "ai",
     "video",
-    "catalog"
+    "creative",
+    "renderforest"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.renderforest.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/renderforest.png",
   "image": "/screenshots/renderforest.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Renderforest",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to renderforest.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Renderforest",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Thousands of video templates",
+      "description": "Use thousands of video templates on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "AI video generation",
+      "description": "Use ai video generation on a small sample project before scaling up."
     }
   ],
   "hqCountry": "AM",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "vidéo",
+    "créatif",
+    "renderforest"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Renderforest",
+      "description": "Rends-toi sur renderforest.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Renderforest",
+          "url": "https://www.renderforest.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Milliers de modèles vidéo",
+      "description": "Teste milliers de modèles vidéo sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Génération de vidéo par IA",
+      "description": "Teste génération de vidéo par IA sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

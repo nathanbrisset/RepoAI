@@ -12,16 +12,17 @@
     "health"
   ],
   "tags": [
-    "ai",
     "health",
-    "catalog"
+    "medical",
+    "ubie"
   ],
   "pricing": {
     "verified": false,
-    "note": "Free",
     "sourceUrl": "https://ubiehealth.com",
     "model": "free",
-    "label": "Free"
+    "label": "Free",
+    "note": "Free; check the official site for limits or paid add-ons.",
+    "note_fr": "Gratuit ; vérifie sur le site les limites ou options payantes."
   },
   "logo": "/logos/ubie.png",
   "image": "/screenshots/ubie.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Ubie",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to ubiehealth.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Ubie",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Symptom questionnaire",
+      "description": "Use symptom questionnaire on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Possible causes",
+      "description": "Use possible causes on a small sample project before scaling up."
     }
   ],
   "hqCountry": "JP",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "health",
+    "medical",
+    "ubie"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Ubie",
+      "description": "Rends-toi sur ubiehealth.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Ubie",
+          "url": "https://ubiehealth.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Questionnaire sur les symptômes",
+      "description": "Teste questionnaire sur les symptômes sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Causes possibles",
+      "description": "Teste causes possibles sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

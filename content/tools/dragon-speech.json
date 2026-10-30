@@ -12,16 +12,17 @@
     "voice"
   ],
   "tags": [
-    "ai",
     "voice",
-    "catalog"
+    "speech",
+    "dragon"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://www.nuance.com/dragon.html",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/dragon-speech.png",
   "image": "/screenshots/dragon-speech.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Dragon (Nuance)",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to nuance.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Dragon (Nuance)",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Highly accurate dictation",
+      "description": "Use highly accurate dictation on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Voice control of your computer",
+      "description": "Use voice control of your computer on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "voix",
+    "parole",
+    "dragon"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Dragon (Nuance)",
+      "description": "Rends-toi sur nuance.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Dragon (Nuance)",
+          "url": "https://www.nuance.com/dragon.html"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Dictée très précise",
+      "description": "Teste dictée très précise sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Commandes vocales de l'ordinateur",
+      "description": "Teste commandes vocales de l'ordinateur sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

@@ -12,16 +12,17 @@
     "marketing"
   ],
   "tags": [
-    "ai",
     "marketing",
-    "catalog"
+    "seo",
+    "omnisend"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.omnisend.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/omnisend.png",
   "image": "/screenshots/omnisend.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Omnisend",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to omnisend.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Omnisend",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Ready-made e-commerce flows",
+      "description": "Use ready-made e-commerce flows on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Email and SMS",
+      "description": "Use email and sms on a small sample project before scaling up."
     }
   ],
   "hqCountry": "LT",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "marketing",
+    "seo",
+    "omnisend"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Omnisend",
+      "description": "Rends-toi sur omnisend.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Omnisend",
+          "url": "https://www.omnisend.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Scénarios e-commerce prêts à l'emploi",
+      "description": "Teste scénarios e-commerce prêts à l'emploi sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Emails et SMS",
+      "description": "Teste emails et SMS sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

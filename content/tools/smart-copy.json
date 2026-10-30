@@ -12,16 +12,18 @@
     "writing"
   ],
   "tags": [
-    "ai",
     "writing",
-    "catalog"
+    "content",
+    "smart",
+    "copy"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://unbounce.com/smart-copy/",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/smart-copy.png",
   "image": "/screenshots/smart-copy.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Smart Copy (Unbounce)",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to unbounce.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Smart Copy (Unbounce)",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Landing page copy",
+      "description": "Use landing page copy on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Ads and emails",
+      "description": "Use ads and emails on a small sample project before scaling up."
     }
   ],
   "hqCountry": "CA",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "écriture",
+    "contenu",
+    "smart",
+    "copy"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Smart Copy (Unbounce)",
+      "description": "Rends-toi sur unbounce.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Smart Copy (Unbounce)",
+          "url": "https://unbounce.com/smart-copy/"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Textes de landing pages",
+      "description": "Teste textes de landing pages sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Publicités et emails",
+      "description": "Teste publicités et emails sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }
