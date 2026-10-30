@@ -1,7 +1,7 @@
 {
   "id": "invokeai",
   "name": "Invoke",
-  "url": "https://invoke.ai/",
+  "url": "https://www.invoke.com",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Professional AI image studio, open source.",
@@ -12,16 +12,17 @@
     "image"
   ],
   "tags": [
-    "ai",
-    "image",
-    "catalog"
+    "image-generation",
+    "creative",
+    "invokeai"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
-    "sourceUrl": "https://invoke.ai/",
+    "sourceUrl": "https://www.invoke.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/invokeai.png",
   "image": "/screenshots/invokeai.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Invoke",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to invoke.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Invoke",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Generation and editing canvas",
+      "description": "Use generation and editing canvas on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Layers, masks and fine control",
+      "description": "Use layers, masks and fine control on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "génération d'images",
+    "créatif",
+    "invokeai"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Invoke",
+      "description": "Rends-toi sur invoke.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Invoke",
+          "url": "https://www.invoke.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Canvas de génération et retouche",
+      "description": "Teste canvas de génération et retouche sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Calques, masques et contrôle fin",
+      "description": "Teste calques, masques et contrôle fin sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

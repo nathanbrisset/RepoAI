@@ -12,16 +12,17 @@
     "productivity"
   ],
   "tags": [
-    "ai",
     "productivity",
-    "catalog"
+    "workspace",
+    "missive"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://missiveapp.com",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/missive.png",
   "image": "/screenshots/missive.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Missive",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to missiveapp.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Missive",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Shared inbox",
+      "description": "Use shared inbox on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Comments and assignment",
+      "description": "Use comments and assignment on a small sample project before scaling up."
     }
   ],
   "hqCountry": "CA",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "productivité",
+    "espace de travail",
+    "missive"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Missive",
+      "description": "Rends-toi sur missiveapp.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Missive",
+          "url": "https://missiveapp.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Boîte mail partagée",
+      "description": "Teste boîte mail partagée sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Commentaires et assignation",
+      "description": "Teste commentaires et assignation sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

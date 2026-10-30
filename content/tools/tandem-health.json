@@ -12,16 +12,17 @@
     "health"
   ],
   "tags": [
-    "ai",
     "health",
-    "catalog"
+    "medical",
+    "tandem"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://www.tandemhealth.ai",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/tandem-health.png",
   "image": "/screenshots/tandem-health.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Tandem Health",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to tandemhealth.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Tandem Health",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Automatic clinical notes",
+      "description": "Use automatic clinical notes on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Several European languages",
+      "description": "Use several european languages on a small sample project before scaling up."
     }
   ],
   "hqCountry": "SE",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "health",
+    "medical",
+    "tandem"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Tandem Health",
+      "description": "Rends-toi sur tandemhealth.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Tandem Health",
+          "url": "https://www.tandemhealth.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Notes cliniques rédigées automatiquement",
+      "description": "Teste notes cliniques rédigées automatiquement sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Plusieurs langues européennes",
+      "description": "Teste plusieurs langues européennes sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

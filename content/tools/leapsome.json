@@ -12,16 +12,17 @@
     "hr"
   ],
   "tags": [
-    "ai",
     "hr",
-    "catalog"
+    "recruiting",
+    "leapsome"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://www.leapsome.com",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/leapsome.png",
   "image": "/screenshots/leapsome.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Leapsome",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to leapsome.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Leapsome",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Reviews and feedback",
+      "description": "Use reviews and feedback on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Goals and OKRs",
+      "description": "Use goals and okrs on a small sample project before scaling up."
     }
   ],
   "hqCountry": "DE",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "hr",
+    "recruiting",
+    "leapsome"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Leapsome",
+      "description": "Rends-toi sur leapsome.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Leapsome",
+          "url": "https://www.leapsome.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Entretiens et feedback",
+      "description": "Teste entretiens et feedback sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Objectifs et OKR",
+      "description": "Teste objectifs et OKR sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

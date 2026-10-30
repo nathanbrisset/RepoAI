@@ -12,16 +12,17 @@
     "education"
   ],
   "tags": [
-    "ai",
     "education",
-    "catalog"
+    "learning",
+    "symbolab"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.symbolab.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/symbolab.png",
   "image": "/screenshots/symbolab.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Symbolab",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to symbolab.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Symbolab",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Step-by-step solutions",
+      "description": "Use step-by-step solutions on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Integrals, derivatives and limits",
+      "description": "Use integrals, derivatives and limits on a small sample project before scaling up."
     }
   ],
   "hqCountry": "IL",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "éducation",
+    "apprentissage",
+    "symbolab"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Symbolab",
+      "description": "Rends-toi sur symbolab.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Symbolab",
+          "url": "https://www.symbolab.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Solutions pas à pas",
+      "description": "Teste solutions pas à pas sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Intégrales, dérivées et limites",
+      "description": "Teste intégrales, dérivées et limites sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

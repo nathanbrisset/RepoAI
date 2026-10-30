@@ -12,16 +12,18 @@
     "music"
   ],
   "tags": [
-    "ai",
     "music",
-    "catalog"
+    "audio",
+    "orb",
+    "producer"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://www.orbplugins.com",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/orb-producer.png",
   "image": "/screenshots/orb-producer.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Orb Producer Suite",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to orbplugins.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Orb Producer Suite",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Generated chord progressions",
+      "description": "Use generated chord progressions on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "MIDI melodies and basslines",
+      "description": "Use midi melodies and basslines on a small sample project before scaling up."
     }
   ],
   "hqCountry": "ES",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "musique",
+    "audio",
+    "orb",
+    "producer"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Orb Producer Suite",
+      "description": "Rends-toi sur orbplugins.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Orb Producer Suite",
+          "url": "https://www.orbplugins.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Progressions d'accords générées",
+      "description": "Teste progressions d'accords générées sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Mélodies et basses en MIDI",
+      "description": "Teste mélodies et basses en MIDI sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

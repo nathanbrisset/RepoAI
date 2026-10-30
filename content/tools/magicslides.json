@@ -12,16 +12,17 @@
     "productivity"
   ],
   "tags": [
-    "ai",
     "productivity",
-    "catalog"
+    "workspace",
+    "magicslides"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.magicslides.app",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/magicslides.png",
   "image": "/screenshots/magicslides.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open MagicSlides",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to magicslides.app, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "MagicSlides",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Presentation from a topic",
+      "description": "Use presentation from a topic on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "From a PDF or YouTube video",
+      "description": "Use from a pdf or youtube video on a small sample project before scaling up."
     }
   ],
   "hqCountry": "IN",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "productivité",
+    "espace de travail",
+    "magicslides"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre MagicSlides",
+      "description": "Rends-toi sur magicslides.app, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "MagicSlides",
+          "url": "https://www.magicslides.app"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Présentation à partir d'un sujet",
+      "description": "Teste présentation à partir d'un sujet sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Depuis un PDF ou une vidéo YouTube",
+      "description": "Teste depuis un PDF ou une vidéo YouTube sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

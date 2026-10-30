@@ -12,16 +12,17 @@
     "marketing"
   ],
   "tags": [
-    "ai",
     "marketing",
-    "catalog"
+    "seo",
+    "moz"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://moz.com",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/moz.png",
   "image": "/screenshots/moz.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Moz Pro",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to moz.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Moz Pro",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Rank tracking",
+      "description": "Use rank tracking on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Backlink analysis",
+      "description": "Use backlink analysis on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "marketing",
+    "seo",
+    "moz"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Moz Pro",
+      "description": "Rends-toi sur moz.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Moz Pro",
+          "url": "https://moz.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Suivi des positions",
+      "description": "Teste suivi des positions sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Analyse des backlinks",
+      "description": "Teste analyse des backlinks sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

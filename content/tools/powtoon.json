@@ -12,16 +12,17 @@
     "video"
   ],
   "tags": [
-    "ai",
     "video",
-    "catalog"
+    "creative",
+    "powtoon"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.powtoon.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/powtoon.png",
   "image": "/screenshots/powtoon.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Powtoon",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to powtoon.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Powtoon",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Drag-and-drop animation",
+      "description": "Use drag-and-drop animation on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Document or script to video",
+      "description": "Use document or script to video on a small sample project before scaling up."
     }
   ],
   "hqCountry": "GB",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "vidéo",
+    "créatif",
+    "powtoon"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Powtoon",
+      "description": "Rends-toi sur powtoon.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Powtoon",
+          "url": "https://www.powtoon.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Animations par glisser-déposer",
+      "description": "Teste animations par glisser-déposer sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Document ou script vers vidéo",
+      "description": "Teste document ou script vers vidéo sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

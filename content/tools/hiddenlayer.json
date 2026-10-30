@@ -12,16 +12,16 @@
     "security"
   ],
   "tags": [
-    "ai",
     "security",
-    "catalog"
+    "hiddenlayer"
   ],
   "pricing": {
     "verified": false,
-    "note": "Enterprise",
     "sourceUrl": "https://hiddenlayer.com",
     "model": "enterprise",
-    "label": "Enterprise"
+    "label": "Enterprise",
+    "note": "Enterprise pricing; contact sales or see the official site.",
+    "note_fr": "Offre entreprise ; contacte l'éditeur ou consulte le site pour un devis."
   },
   "logo": "/logos/hiddenlayer.png",
   "image": "/screenshots/hiddenlayer.webp",
@@ -42,7 +42,7 @@
   "howToUse": [
     {
       "title": "Open HiddenLayer",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to hiddenlayer.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "HiddenLayer",
@@ -51,18 +51,46 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Model security scanning",
+      "description": "Use model security scanning on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Prompt injection protection",
+      "description": "Use prompt injection protection on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "security",
+    "hiddenlayer"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre HiddenLayer",
+      "description": "Rends-toi sur hiddenlayer.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "HiddenLayer",
+          "url": "https://hiddenlayer.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Analyse de sécurité des modèles",
+      "description": "Teste analyse de sécurité des modèles sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Protection contre l'injection de prompt",
+      "description": "Teste protection contre l'injection de prompt sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

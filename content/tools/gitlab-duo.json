@@ -12,16 +12,19 @@
     "coding"
   ],
   "tags": [
-    "ai",
-    "coding",
-    "catalog"
+    "developer",
+    "code",
+    "ide",
+    "gitlab",
+    "duo"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://about.gitlab.com/gitlab-duo/",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/gitlab-duo.png",
   "image": "/screenshots/gitlab-duo.webp",
@@ -42,7 +45,7 @@
   "howToUse": [
     {
       "title": "Open GitLab Duo",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to about.gitlab.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "GitLab Duo",
@@ -51,18 +54,49 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Code suggestions and chat",
+      "description": "Use code suggestions and chat on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Merge request summaries",
+      "description": "Use merge request summaries on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "développeur",
+    "code",
+    "IDE",
+    "gitlab",
+    "duo"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre GitLab Duo",
+      "description": "Rends-toi sur about.gitlab.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "GitLab Duo",
+          "url": "https://about.gitlab.com/gitlab-duo/"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Suggestions de code et chat",
+      "description": "Teste suggestions de code et chat sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Résumés de merge requests",
+      "description": "Teste résumés de merge requests sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

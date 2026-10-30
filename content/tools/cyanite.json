@@ -12,16 +12,17 @@
     "music"
   ],
   "tags": [
-    "ai",
     "music",
-    "catalog"
+    "audio",
+    "cyanite"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://cyanite.ai",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/cyanite.png",
   "image": "/screenshots/cyanite.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Cyanite",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to cyanite.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Cyanite",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Automatic track tagging",
+      "description": "Use automatic track tagging on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Similarity search",
+      "description": "Use similarity search on a small sample project before scaling up."
     }
   ],
   "hqCountry": "DE",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "musique",
+    "audio",
+    "cyanite"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Cyanite",
+      "description": "Rends-toi sur cyanite.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Cyanite",
+          "url": "https://cyanite.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Tagging automatique des morceaux",
+      "description": "Teste tagging automatique des morceaux sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Recherche par similarité",
+      "description": "Teste recherche par similarité sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

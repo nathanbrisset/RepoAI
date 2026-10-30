@@ -12,16 +12,17 @@
     "productivity"
   ],
   "tags": [
-    "ai",
     "productivity",
-    "catalog"
+    "workspace",
+    "screenpipe"
   ],
   "pricing": {
     "verified": false,
-    "note": "Open source",
     "sourceUrl": "https://screenpi.pe",
     "model": "open-source",
-    "label": "Open source"
+    "label": "Open source",
+    "note": "Open source; hosting, cloud or support plans may apply.",
+    "note_fr": "Open source ; l'hébergement ou les services cloud peuvent être payants selon ton déploiement."
   },
   "logo": "/logos/screenpipe.png",
   "image": "/screenshots/screenpipe.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Screenpipe",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to screenpi.pe, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Screenpipe",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Continuous screen and audio capture",
+      "description": "Use continuous screen and audio capture on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Local indexing",
+      "description": "Use local indexing on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "productivité",
+    "espace de travail",
+    "screenpipe"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Screenpipe",
+      "description": "Rends-toi sur screenpi.pe, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Screenpipe",
+          "url": "https://screenpi.pe"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Capture continue de l'écran et de l'audio",
+      "description": "Teste capture continue de l'écran et de l'audio sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Indexation en local",
+      "description": "Teste indexation en local sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

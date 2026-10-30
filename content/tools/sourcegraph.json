@@ -12,16 +12,18 @@
     "coding"
   ],
   "tags": [
-    "ai",
-    "coding",
-    "catalog"
+    "developer",
+    "code",
+    "ide",
+    "sourcegraph"
   ],
   "pricing": {
     "verified": false,
-    "note": "Enterprise",
     "sourceUrl": "https://sourcegraph.com",
     "model": "enterprise",
-    "label": "Enterprise"
+    "label": "Enterprise",
+    "note": "Enterprise pricing; contact sales or see the official site.",
+    "note_fr": "Offre entreprise ; contacte l'éditeur ou consulte le site pour un devis."
   },
   "logo": "/logos/sourcegraph.png",
   "image": "/screenshots/sourcegraph.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Sourcegraph",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to sourcegraph.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Sourcegraph",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Code search across all repos",
+      "description": "Use code search across all repos on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Definition and reference navigation",
+      "description": "Use definition and reference navigation on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "développeur",
+    "code",
+    "IDE",
+    "sourcegraph"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Sourcegraph",
+      "description": "Rends-toi sur sourcegraph.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Sourcegraph",
+          "url": "https://sourcegraph.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Recherche de code sur tous les dépôts",
+      "description": "Teste recherche de code sur tous les dépôts sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Navigation entre définitions et références",
+      "description": "Teste navigation entre définitions et références sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

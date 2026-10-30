@@ -12,16 +12,19 @@
     "coding"
   ],
   "tags": [
-    "ai",
-    "coding",
-    "catalog"
+    "developer",
+    "code",
+    "ide",
+    "sentry",
+    "seer"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://sentry.io/product/seer/",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/sentry-seer.png",
   "image": "/screenshots/sentry-seer.webp",
@@ -42,7 +45,7 @@
   "howToUse": [
     {
       "title": "Open Sentry Seer",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to sentry.io, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Sentry Seer",
@@ -51,18 +54,49 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Root cause analysis",
+      "description": "Use root cause analysis on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Fixes proposed as pull requests",
+      "description": "Use fixes proposed as pull requests on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "développeur",
+    "code",
+    "IDE",
+    "sentry",
+    "seer"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Sentry Seer",
+      "description": "Rends-toi sur sentry.io, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Sentry Seer",
+          "url": "https://sentry.io/product/seer/"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Analyse de cause racine",
+      "description": "Teste analyse de cause racine sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Correctifs proposés en pull request",
+      "description": "Teste correctifs proposés en pull request sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

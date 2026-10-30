@@ -12,16 +12,17 @@
     "hr"
   ],
   "tags": [
-    "ai",
     "hr",
-    "catalog"
+    "recruiting",
+    "manatal"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://www.manatal.com",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/manatal.png",
   "image": "/screenshots/manatal.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Manatal",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to manatal.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Manatal",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "AI candidate recommendations",
+      "description": "Use ai candidate recommendations on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Profile enrichment",
+      "description": "Use profile enrichment on a small sample project before scaling up."
     }
   ],
   "hqCountry": "TH",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "hr",
+    "recruiting",
+    "manatal"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Manatal",
+      "description": "Rends-toi sur manatal.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Manatal",
+          "url": "https://www.manatal.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Recommandation de candidats par IA",
+      "description": "Teste recommandation de candidats par IA sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Enrichissement des profils",
+      "description": "Teste enrichissement des profils sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

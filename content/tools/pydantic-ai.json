@@ -12,15 +12,18 @@
     "ai-agents"
   ],
   "tags": [
-    "ai",
-    "catalog"
+    "ai-agents",
+    "agents",
+    "automation",
+    "pydantic"
   ],
   "pricing": {
     "verified": false,
-    "note": "Open source",
     "sourceUrl": "https://ai.pydantic.dev",
     "model": "open-source",
-    "label": "Open source"
+    "label": "Open source",
+    "note": "Open source; hosting, cloud or support plans may apply.",
+    "note_fr": "Open source ; l'hébergement ou les services cloud peuvent être payants selon ton déploiement."
   },
   "logo": "/logos/pydantic-ai.png",
   "image": "/screenshots/pydantic-ai.webp",
@@ -41,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Pydantic AI",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to ai.pydantic.dev, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Pydantic AI",
@@ -50,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Validated, typed outputs",
+      "description": "Use validated, typed outputs on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Tools and dependencies",
+      "description": "Use tools and dependencies on a small sample project before scaling up."
     }
   ],
   "hqCountry": "GB",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "agents IA",
+    "agents",
+    "automatisation",
+    "pydantic"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Pydantic AI",
+      "description": "Rends-toi sur ai.pydantic.dev, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Pydantic AI",
+          "url": "https://ai.pydantic.dev"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Sorties validées et typées",
+      "description": "Teste sorties validées et typées sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Outils et dépendances",
+      "description": "Teste outils et dépendances sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

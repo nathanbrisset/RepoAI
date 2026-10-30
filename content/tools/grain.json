@@ -12,16 +12,17 @@
     "meetings"
   ],
   "tags": [
-    "ai",
     "meetings",
-    "catalog"
+    "notes",
+    "grain"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://grain.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/grain.png",
   "image": "/screenshots/grain.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Grain",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to grain.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Grain",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Automatic structured notes",
+      "description": "Use automatic structured notes on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "CRM updates",
+      "description": "Use crm updates on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "meetings",
+    "notes",
+    "grain"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Grain",
+      "description": "Rends-toi sur grain.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Grain",
+          "url": "https://grain.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Notes structurées automatiques",
+      "description": "Teste notes structurées automatiques sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Mise à jour du CRM",
+      "description": "Teste mise à jour du CRM sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

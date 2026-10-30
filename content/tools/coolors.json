@@ -12,16 +12,17 @@
     "design"
   ],
   "tags": [
-    "ai",
     "design",
-    "catalog"
+    "ui",
+    "coolors"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://coolors.co",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/coolors.png",
   "image": "/screenshots/coolors.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Coolors",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to coolors.co, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Coolors",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "One-click palette generation",
+      "description": "Use one-click palette generation on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Colors from an image",
+      "description": "Use colors from an image on a small sample project before scaling up."
     }
   ],
   "hqCountry": "IT",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "design",
+    "interface",
+    "coolors"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Coolors",
+      "description": "Rends-toi sur coolors.co, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Coolors",
+          "url": "https://coolors.co"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Palettes générées en un clic",
+      "description": "Teste palettes générées en un clic sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Couleurs extraites d'une image",
+      "description": "Teste couleurs extraites d'une image sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

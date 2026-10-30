@@ -12,16 +12,17 @@
     "writing"
   ],
   "tags": [
-    "ai",
     "writing",
-    "catalog"
+    "content",
+    "ginger"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.gingersoftware.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/ginger.png",
   "image": "/screenshots/ginger.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Ginger",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to gingersoftware.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Ginger",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "English grammar correction",
+      "description": "Use english grammar correction on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Sentence rephrasing",
+      "description": "Use sentence rephrasing on a small sample project before scaling up."
     }
   ],
   "hqCountry": "IL",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "écriture",
+    "contenu",
+    "ginger"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Ginger",
+      "description": "Rends-toi sur gingersoftware.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Ginger",
+          "url": "https://www.gingersoftware.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Correction grammaticale en anglais",
+      "description": "Teste correction grammaticale en anglais sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Reformulation de phrases",
+      "description": "Teste reformulation de phrases sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

@@ -12,16 +12,18 @@
     "llm-chatbots"
   ],
   "tags": [
-    "ai",
+    "chatbot",
     "llm",
-    "catalog"
+    "assistant",
+    "gpt4all"
   ],
   "pricing": {
     "verified": false,
-    "note": "Open source",
     "sourceUrl": "https://www.nomic.ai/gpt4all",
     "model": "open-source",
-    "label": "Open source"
+    "label": "Open source",
+    "note": "Open source; hosting, cloud or support plans may apply.",
+    "note_fr": "Open source ; l'hébergement ou les services cloud peuvent être payants selon ton déploiement."
   },
   "logo": "/logos/gpt4all.png",
   "image": "/screenshots/gpt4all.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open GPT4All",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to nomic.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "GPT4All",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Offline open-source models",
+      "description": "Use offline open-source models on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Query your local files",
+      "description": "Use query your local files on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "chatbot",
+    "LLM",
+    "assistant",
+    "gpt4all"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre GPT4All",
+      "description": "Rends-toi sur nomic.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "GPT4All",
+          "url": "https://www.nomic.ai/gpt4all"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Modèles open source hors ligne",
+      "description": "Teste modèles open source hors ligne sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Interroger ses fichiers locaux",
+      "description": "Teste interroger ses fichiers locaux sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

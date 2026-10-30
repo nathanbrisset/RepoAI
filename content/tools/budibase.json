@@ -12,16 +12,17 @@
     "no-code"
   ],
   "tags": [
-    "ai",
-    "no",
-    "catalog"
+    "no-code",
+    "app-builder",
+    "budibase"
   ],
   "pricing": {
     "verified": false,
-    "note": "Open source",
     "sourceUrl": "https://budibase.com",
     "model": "open-source",
-    "label": "Open source"
+    "label": "Open source",
+    "note": "Open source; hosting, cloud or support plans may apply.",
+    "note_fr": "Open source ; l'hébergement ou les services cloud peuvent être payants selon ton déploiement."
   },
   "logo": "/logos/budibase.png",
   "image": "/screenshots/budibase.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Budibase",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to budibase.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Budibase",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Internal apps on existing data",
+      "description": "Use internal apps on existing data on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Automations",
+      "description": "Use automations on a small sample project before scaling up."
     }
   ],
   "hqCountry": "GB",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "sans code",
+    "créateur d'applications",
+    "budibase"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Budibase",
+      "description": "Rends-toi sur budibase.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Budibase",
+          "url": "https://budibase.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Apps internes sur données existantes",
+      "description": "Teste apps internes sur données existantes sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Automatisations",
+      "description": "Teste automatisations sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

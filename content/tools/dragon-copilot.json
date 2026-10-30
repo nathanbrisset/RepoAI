@@ -12,16 +12,18 @@
     "health"
   ],
   "tags": [
-    "ai",
     "health",
-    "catalog"
+    "medical",
+    "dragon",
+    "copilot"
   ],
   "pricing": {
     "verified": false,
-    "note": "Enterprise",
     "sourceUrl": "https://www.microsoft.com/en-us/health-solutions/clinical-workflow/dragon-copilot",
     "model": "enterprise",
-    "label": "Enterprise"
+    "label": "Enterprise",
+    "note": "Enterprise pricing; contact sales or see the official site.",
+    "note_fr": "Offre entreprise ; contacte l'éditeur ou consulte le site pour un devis."
   },
   "logo": "/logos/dragon-copilot.png",
   "image": "/screenshots/dragon-copilot.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Microsoft Dragon Copilot",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to microsoft.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Microsoft Dragon Copilot",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Automatic clinical notes",
+      "description": "Use automatic clinical notes on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Medical dictation",
+      "description": "Use medical dictation on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "health",
+    "medical",
+    "dragon",
+    "copilot"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Microsoft Dragon Copilot",
+      "description": "Rends-toi sur microsoft.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Microsoft Dragon Copilot",
+          "url": "https://www.microsoft.com/en-us/health-solutions/clinical-workflow/dragon-copilot"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Notes cliniques rédigées automatiquement",
+      "description": "Teste notes cliniques rédigées automatiquement sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Dictée médicale",
+      "description": "Teste dictée médicale sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

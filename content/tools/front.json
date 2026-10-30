@@ -12,16 +12,17 @@
     "support"
   ],
   "tags": [
-    "ai",
     "support",
-    "catalog"
+    "customer-service",
+    "front"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://front.com",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/front.png",
   "image": "/screenshots/front.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Front",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to front.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Front",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "All channels in one inbox",
+      "description": "Use all channels in one inbox on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Automatic triage and routing",
+      "description": "Use automatic triage and routing on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "support",
+    "customer-service",
+    "front"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Front",
+      "description": "Rends-toi sur front.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Front",
+          "url": "https://front.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Tous les canaux dans une boîte",
+      "description": "Teste tous les canaux dans une boîte sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Tri et attribution automatiques",
+      "description": "Teste tri et attribution automatiques sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

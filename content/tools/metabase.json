@@ -12,16 +12,17 @@
     "data"
   ],
   "tags": [
-    "ai",
     "data",
-    "catalog"
+    "analytics",
+    "metabase"
   ],
   "pricing": {
     "verified": false,
-    "note": "Open source",
     "sourceUrl": "https://www.metabase.com",
     "model": "open-source",
-    "label": "Open source"
+    "label": "Open source",
+    "note": "Open source; hosting, cloud or support plans may apply.",
+    "note_fr": "Open source ; l'hébergement ou les services cloud peuvent être payants selon ton déploiement."
   },
   "logo": "/logos/metabase.png",
   "image": "/screenshots/metabase.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Metabase",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to metabase.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Metabase",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Dashboards without SQL",
+      "description": "Use dashboards without sql on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Metabot",
+      "description": "Use metabot on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "données",
+    "analytics",
+    "metabase"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Metabase",
+      "description": "Rends-toi sur metabase.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Metabase",
+          "url": "https://www.metabase.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Tableaux de bord sans SQL",
+      "description": "Teste tableaux de bord sans SQL sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Metabot",
+      "description": "Teste metabot sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

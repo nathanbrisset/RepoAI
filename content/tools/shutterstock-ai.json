@@ -12,16 +12,17 @@
     "image"
   ],
   "tags": [
-    "ai",
-    "image",
-    "catalog"
+    "image-generation",
+    "creative",
+    "shutterstock"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://www.shutterstock.com/ai-image-generator",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/shutterstock-ai.png",
   "image": "/screenshots/shutterstock-ai.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Shutterstock AI",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to shutterstock.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Shutterstock AI",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Text-to-image generation",
+      "description": "Use text-to-image generation on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Models trained on licensed content",
+      "description": "Use models trained on licensed content on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "génération d'images",
+    "créatif",
+    "shutterstock"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Shutterstock AI",
+      "description": "Rends-toi sur shutterstock.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Shutterstock AI",
+          "url": "https://www.shutterstock.com/ai-image-generator"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Génération d'images à partir de texte",
+      "description": "Teste génération d'images à partir de texte sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Modèles entraînés sur contenus sous licence",
+      "description": "Teste modèles entraînés sur contenus sous licence sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

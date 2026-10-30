@@ -12,16 +12,17 @@
     "search"
   ],
   "tags": [
-    "ai",
     "search",
-    "catalog"
+    "research",
+    "litmaps"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.litmaps.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/litmaps.png",
   "image": "/screenshots/litmaps.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Litmaps",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to litmaps.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Litmaps",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Map of connected papers",
+      "description": "Use map of connected papers on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Key reference discovery",
+      "description": "Use key reference discovery on a small sample project before scaling up."
     }
   ],
   "hqCountry": "NZ",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "recherche",
+    "recherche",
+    "litmaps"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Litmaps",
+      "description": "Rends-toi sur litmaps.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Litmaps",
+          "url": "https://www.litmaps.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Carte des articles liés",
+      "description": "Teste carte des articles liés sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Découverte de références clés",
+      "description": "Teste découverte de références clés sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

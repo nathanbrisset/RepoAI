@@ -12,16 +12,17 @@
     "sales"
   ],
   "tags": [
-    "ai",
     "sales",
-    "catalog"
+    "crm",
+    "close"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://www.close.com",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/close-crm.png",
   "image": "/screenshots/close-crm.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Close",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to close.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Close",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Built-in calling and SMS",
+      "description": "Use built-in calling and sms on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Email sequences",
+      "description": "Use email sequences on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "ventes",
+    "crm",
+    "close"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Close",
+      "description": "Rends-toi sur close.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Close",
+          "url": "https://www.close.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Appels et SMS intégrés",
+      "description": "Teste appels et SMS intégrés sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Séquences d'emails",
+      "description": "Teste séquences d'emails sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

@@ -12,16 +12,17 @@
     "search"
   ],
   "tags": [
-    "ai",
     "search",
-    "catalog"
+    "research",
+    "scopus"
   ],
   "pricing": {
     "verified": false,
-    "note": "Enterprise",
     "sourceUrl": "https://www.elsevier.com/products/scopus/scopus-ai",
     "model": "enterprise",
-    "label": "Enterprise"
+    "label": "Enterprise",
+    "note": "Enterprise pricing; contact sales or see the official site.",
+    "note_fr": "Offre entreprise ; contacte l'éditeur ou consulte le site pour un devis."
   },
   "logo": "/logos/scopus-ai.png",
   "image": "/screenshots/scopus-ai.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Scopus AI",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to elsevier.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Scopus AI",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Answers grounded in Scopus",
+      "description": "Use answers grounded in scopus on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Verifiable references",
+      "description": "Use verifiable references on a small sample project before scaling up."
     }
   ],
   "hqCountry": "NL",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "recherche",
+    "recherche",
+    "scopus"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Scopus AI",
+      "description": "Rends-toi sur elsevier.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Scopus AI",
+          "url": "https://www.elsevier.com/products/scopus/scopus-ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Réponses basées sur Scopus",
+      "description": "Teste réponses basées sur Scopus sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Références vérifiables",
+      "description": "Teste références vérifiables sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

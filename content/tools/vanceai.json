@@ -12,16 +12,17 @@
     "image"
   ],
   "tags": [
-    "ai",
-    "image",
-    "catalog"
+    "image-generation",
+    "creative",
+    "vanceai"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://vanceai.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/vanceai.png",
   "image": "/screenshots/vanceai.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open VanceAI",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to vanceai.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "VanceAI",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Image upscaling",
+      "description": "Use image upscaling on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Blur and noise reduction",
+      "description": "Use blur and noise reduction on a small sample project before scaling up."
     }
   ],
   "hqCountry": "CN",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "génération d'images",
+    "créatif",
+    "vanceai"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre VanceAI",
+      "description": "Rends-toi sur vanceai.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "VanceAI",
+          "url": "https://vanceai.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Agrandissement d'images",
+      "description": "Teste agrandissement d'images sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Réduction du flou et du bruit",
+      "description": "Teste réduction du flou et du bruit sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

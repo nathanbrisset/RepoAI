@@ -12,16 +12,17 @@
     "writing"
   ],
   "tags": [
-    "ai",
     "writing",
-    "catalog"
+    "content",
+    "neuroflash"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://neuroflash.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/neuroflash.png",
   "image": "/screenshots/neuroflash.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open neuroflash",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to neuroflash.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "neuroflash",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Brand-voice marketing copy",
+      "description": "Use brand-voice marketing copy on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "European languages",
+      "description": "Use european languages on a small sample project before scaling up."
     }
   ],
   "hqCountry": "DE",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "écriture",
+    "contenu",
+    "neuroflash"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre neuroflash",
+      "description": "Rends-toi sur neuroflash.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "neuroflash",
+          "url": "https://neuroflash.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Textes marketing dans le ton de la marque",
+      "description": "Teste textes marketing dans le ton de la marque sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Langues européennes",
+      "description": "Teste langues européennes sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

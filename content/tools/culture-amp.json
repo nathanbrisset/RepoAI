@@ -12,16 +12,18 @@
     "hr"
   ],
   "tags": [
-    "ai",
     "hr",
-    "catalog"
+    "recruiting",
+    "culture",
+    "amp"
   ],
   "pricing": {
     "verified": false,
-    "note": "Enterprise",
     "sourceUrl": "https://www.cultureamp.com",
     "model": "enterprise",
-    "label": "Enterprise"
+    "label": "Enterprise",
+    "note": "Enterprise pricing; contact sales or see the official site.",
+    "note_fr": "Offre entreprise ; contacte l'éditeur ou consulte le site pour un devis."
   },
   "logo": "/logos/culture-amp.png",
   "image": "/screenshots/culture-amp.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Culture Amp",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to cultureamp.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Culture Amp",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Engagement surveys",
+      "description": "Use engagement surveys on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Performance reviews",
+      "description": "Use performance reviews on a small sample project before scaling up."
     }
   ],
   "hqCountry": "AU",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "hr",
+    "recruiting",
+    "culture",
+    "amp"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Culture Amp",
+      "description": "Rends-toi sur cultureamp.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Culture Amp",
+          "url": "https://www.cultureamp.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Enquêtes d'engagement",
+      "description": "Teste enquêtes d'engagement sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Entretiens de performance",
+      "description": "Teste entretiens de performance sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

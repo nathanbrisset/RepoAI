@@ -12,16 +12,17 @@
     "video"
   ],
   "tags": [
-    "ai",
     "video",
-    "catalog"
+    "creative",
+    "autocut"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://www.autocut.com",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/autocut.png",
   "image": "/screenshots/autocut.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open AutoCut",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to autocut.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "AutoCut",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Automatic silence removal",
+      "description": "Use automatic silence removal on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Animated captions",
+      "description": "Use animated captions on a small sample project before scaling up."
     }
   ],
   "hqCountry": "FR",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "vidéo",
+    "créatif",
+    "autocut"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre AutoCut",
+      "description": "Rends-toi sur autocut.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "AutoCut",
+          "url": "https://www.autocut.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Suppression automatique des silences",
+      "description": "Teste suppression automatique des silences sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Sous-titres animés",
+      "description": "Teste sous-titres animés sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

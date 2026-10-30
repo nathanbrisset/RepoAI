@@ -12,15 +12,18 @@
     "ai-agents"
   ],
   "tags": [
-    "ai",
-    "catalog"
+    "ai-agents",
+    "agents",
+    "automation",
+    "openai"
   ],
   "pricing": {
     "verified": false,
-    "note": "Open source",
     "sourceUrl": "https://openai.github.io/openai-agents-python/",
     "model": "open-source",
-    "label": "Open source"
+    "label": "Open source",
+    "note": "Open source; hosting, cloud or support plans may apply.",
+    "note_fr": "Open source ; l'hébergement ou les services cloud peuvent être payants selon ton déploiement."
   },
   "logo": "/logos/openai-agents-sdk.png",
   "image": "/screenshots/openai-agents-sdk.webp",
@@ -41,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open OpenAI Agents SDK",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to openai.github.io, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "OpenAI Agents SDK",
@@ -50,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Tools and function calls",
+      "description": "Use tools and function calls on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Agent handoffs",
+      "description": "Use agent handoffs on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "agents IA",
+    "agents",
+    "automatisation",
+    "OpenAI"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre OpenAI Agents SDK",
+      "description": "Rends-toi sur openai.github.io, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "OpenAI Agents SDK",
+          "url": "https://openai.github.io/openai-agents-python/"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Outils et appels de fonctions",
+      "description": "Teste outils et appels de fonctions sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Relais entre agents",
+      "description": "Teste relais entre agents sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

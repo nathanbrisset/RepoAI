@@ -12,15 +12,18 @@
     "ai-agents"
   ],
   "tags": [
-    "ai",
-    "catalog"
+    "ai-agents",
+    "agents",
+    "automation",
+    "autogen"
   ],
   "pricing": {
     "verified": false,
-    "note": "Open source",
     "sourceUrl": "https://microsoft.github.io/autogen/",
     "model": "open-source",
-    "label": "Open source"
+    "label": "Open source",
+    "note": "Open source; hosting, cloud or support plans may apply.",
+    "note_fr": "Open source ; l'hébergement ou les services cloud peuvent être payants selon ton déploiement."
   },
   "logo": "/logos/autogen.png",
   "image": "/screenshots/autogen.webp",
@@ -41,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open AutoGen (Microsoft)",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to microsoft.github.io, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "AutoGen (Microsoft)",
@@ -50,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Agents that collaborate",
+      "description": "Use agents that collaborate on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Code execution and tools",
+      "description": "Use code execution and tools on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "agents IA",
+    "agents",
+    "automatisation",
+    "autogen"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre AutoGen (Microsoft)",
+      "description": "Rends-toi sur microsoft.github.io, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "AutoGen (Microsoft)",
+          "url": "https://microsoft.github.io/autogen/"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Agents qui collaborent entre eux",
+      "description": "Teste agents qui collaborent entre eux sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Exécution de code et outils",
+      "description": "Teste exécution de code et outils sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

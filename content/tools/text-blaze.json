@@ -12,16 +12,19 @@
     "automation"
   ],
   "tags": [
-    "ai",
     "automation",
-    "catalog"
+    "workflow",
+    "integrations",
+    "text",
+    "blaze"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://blaze.today",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/text-blaze.png",
   "image": "/screenshots/text-blaze.webp",
@@ -42,7 +45,7 @@
   "howToUse": [
     {
       "title": "Open Text Blaze",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to blaze.today, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Text Blaze",
@@ -51,18 +54,49 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Text templates with shortcuts",
+      "description": "Use text templates with shortcuts on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Dynamic fields and formulas",
+      "description": "Use dynamic fields and formulas on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "automatisation",
+    "flux",
+    "intégrations",
+    "texte",
+    "blaze"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Text Blaze",
+      "description": "Rends-toi sur blaze.today, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Text Blaze",
+          "url": "https://blaze.today"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Modèles de texte avec raccourcis",
+      "description": "Teste modèles de texte avec raccourcis sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Champs dynamiques et formules",
+      "description": "Teste champs dynamiques et formules sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

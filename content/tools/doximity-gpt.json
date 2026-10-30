@@ -12,16 +12,18 @@
     "health"
   ],
   "tags": [
-    "ai",
     "health",
-    "catalog"
+    "medical",
+    "doximity",
+    "gpt"
   ],
   "pricing": {
     "verified": false,
-    "note": "Free",
     "sourceUrl": "https://www.doximity.com/gpt",
     "model": "free",
-    "label": "Free"
+    "label": "Free",
+    "note": "Free; check the official site for limits or paid add-ons.",
+    "note_fr": "Gratuit ; vérifie sur le site les limites ou options payantes."
   },
   "logo": "/logos/doximity-gpt.png",
   "image": "/screenshots/doximity-gpt.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Doximity GPT",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to doximity.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Doximity GPT",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Medical letter drafting",
+      "description": "Use medical letter drafting on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Insurance requests",
+      "description": "Use insurance requests on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "health",
+    "medical",
+    "doximity",
+    "gpt"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Doximity GPT",
+      "description": "Rends-toi sur doximity.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Doximity GPT",
+          "url": "https://www.doximity.com/gpt"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Rédaction de courriers médicaux",
+      "description": "Teste rédaction de courriers médicaux sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Demandes aux assurances",
+      "description": "Teste demandes aux assurances sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

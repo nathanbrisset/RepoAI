@@ -12,16 +12,17 @@
     "image"
   ],
   "tags": [
-    "ai",
-    "image",
-    "catalog"
+    "image-generation",
+    "creative",
+    "clipdrop"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://clipdrop.co",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/clipdrop.png",
   "image": "/screenshots/clipdrop.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Clipdrop",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to clipdrop.co, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Clipdrop",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Background removal",
+      "description": "Use background removal on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Object erasing",
+      "description": "Use object erasing on a small sample project before scaling up."
     }
   ],
   "hqCountry": "FR",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "génération d'images",
+    "créatif",
+    "clipdrop"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Clipdrop",
+      "description": "Rends-toi sur clipdrop.co, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Clipdrop",
+          "url": "https://clipdrop.co"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Suppression d'arrière-plan",
+      "description": "Teste suppression d'arrière-plan sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Effacement d'objets",
+      "description": "Teste effacement d'objets sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

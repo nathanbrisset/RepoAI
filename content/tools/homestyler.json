@@ -12,16 +12,17 @@
     "design"
   ],
   "tags": [
-    "ai",
     "design",
-    "catalog"
+    "ui",
+    "homestyler"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.homestyler.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/homestyler.png",
   "image": "/screenshots/homestyler.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Homestyler",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to homestyler.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Homestyler",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "3D floor plans and layouts",
+      "description": "Use 3d floor plans and layouts on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Real furniture catalog",
+      "description": "Use real furniture catalog on a small sample project before scaling up."
     }
   ],
   "hqCountry": "CN",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "design",
+    "interface",
+    "homestyler"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Homestyler",
+      "description": "Rends-toi sur homestyler.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Homestyler",
+          "url": "https://www.homestyler.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Plans et aménagement en 3D",
+      "description": "Teste plans et aménagement en 3D sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Catalogue de meubles réels",
+      "description": "Teste catalogue de meubles réels sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

@@ -12,16 +12,18 @@
     "llm-chatbots"
   ],
   "tags": [
-    "ai",
+    "chatbot",
     "llm",
-    "catalog"
+    "assistant",
+    "librechat"
   ],
   "pricing": {
     "verified": false,
-    "note": "Open source",
     "sourceUrl": "https://www.librechat.ai",
     "model": "open-source",
-    "label": "Open source"
+    "label": "Open source",
+    "note": "Open source; hosting, cloud or support plans may apply.",
+    "note_fr": "Open source ; l'hébergement ou les services cloud peuvent être payants selon ton déploiement."
   },
   "logo": "/logos/librechat.png",
   "image": "/screenshots/librechat.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open LibreChat",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to librechat.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "LibreChat",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "All major model providers",
+      "description": "Use all major model providers on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Agents and tools",
+      "description": "Use agents and tools on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "chatbot",
+    "LLM",
+    "assistant",
+    "librechat"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre LibreChat",
+      "description": "Rends-toi sur librechat.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "LibreChat",
+          "url": "https://www.librechat.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Tous les grands fournisseurs de modèles",
+      "description": "Teste tous les grands fournisseurs de modèles sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Agents et outils",
+      "description": "Teste agents et outils sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

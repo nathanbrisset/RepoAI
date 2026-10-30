@@ -12,16 +12,17 @@
     "hr"
   ],
   "tags": [
-    "ai",
     "hr",
-    "catalog"
+    "recruiting",
+    "mercor"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://mercor.com",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/mercor.png",
   "image": "/screenshots/mercor.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Mercor",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to mercor.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Mercor",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "AI-led interviews",
+      "description": "Use ai-led interviews on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Matching with companies",
+      "description": "Use matching with companies on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "hr",
+    "recruiting",
+    "mercor"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Mercor",
+      "description": "Rends-toi sur mercor.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Mercor",
+          "url": "https://mercor.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Entretiens menés par IA",
+      "description": "Teste entretiens menés par IA sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Mise en relation avec des entreprises",
+      "description": "Teste mise en relation avec des entreprises sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

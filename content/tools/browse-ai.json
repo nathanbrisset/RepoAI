@@ -12,16 +12,18 @@
     "automation"
   ],
   "tags": [
-    "ai",
     "automation",
-    "catalog"
+    "workflow",
+    "integrations",
+    "browse"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.browse.ai",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/browse-ai.png",
   "image": "/screenshots/browse-ai.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Browse AI",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to browse.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Browse AI",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Extraction robots trained in clicks",
+      "description": "Use extraction robots trained in clicks on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Change monitoring",
+      "description": "Use change monitoring on a small sample project before scaling up."
     }
   ],
   "hqCountry": "CA",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "automatisation",
+    "flux",
+    "intégrations",
+    "browse"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Browse AI",
+      "description": "Rends-toi sur browse.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Browse AI",
+          "url": "https://www.browse.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Robots d'extraction entraînés en quelques clics",
+      "description": "Teste robots d'extraction entraînés en quelques clics sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Surveillance des changements",
+      "description": "Teste surveillance des changements sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

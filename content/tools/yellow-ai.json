@@ -12,16 +12,17 @@
     "support"
   ],
   "tags": [
-    "ai",
     "support",
-    "catalog"
+    "customer-service",
+    "yellow"
   ],
   "pricing": {
     "verified": false,
-    "note": "Enterprise",
     "sourceUrl": "https://yellow.ai",
     "model": "enterprise",
-    "label": "Enterprise"
+    "label": "Enterprise",
+    "note": "Enterprise pricing; contact sales or see the official site.",
+    "note_fr": "Offre entreprise ; contacte l'éditeur ou consulte le site pour un devis."
   },
   "logo": "/logos/yellow-ai.png",
   "image": "/screenshots/yellow-ai.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Yellow.ai",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to yellow.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Yellow.ai",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Chat, voice, email and WhatsApp",
+      "description": "Use chat, voice, email and whatsapp on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Over 100 languages",
+      "description": "Use over 100 languages on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "support",
+    "customer-service",
+    "yellow"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Yellow.ai",
+      "description": "Rends-toi sur yellow.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Yellow.ai",
+          "url": "https://yellow.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Chat, voix, email et WhatsApp",
+      "description": "Teste chat, voix, email et WhatsApp sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Plus de 100 langues",
+      "description": "Teste plus de 100 langues sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

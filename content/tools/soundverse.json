@@ -12,16 +12,17 @@
     "music"
   ],
   "tags": [
-    "ai",
     "music",
-    "catalog"
+    "audio",
+    "soundverse"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.soundverse.ai",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/soundverse.png",
   "image": "/screenshots/soundverse.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Soundverse",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to soundverse.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Soundverse",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Full song from a description",
+      "description": "Use full song from a description on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Instrumentals and lyrics",
+      "description": "Use instrumentals and lyrics on a small sample project before scaling up."
     }
   ],
   "hqCountry": "IN",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "musique",
+    "audio",
+    "soundverse"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Soundverse",
+      "description": "Rends-toi sur soundverse.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Soundverse",
+          "url": "https://www.soundverse.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Chanson complète à partir d'une description",
+      "description": "Teste chanson complète à partir d'une description sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Instrumentaux et paroles",
+      "description": "Teste instrumentaux et paroles sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

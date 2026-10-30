@@ -12,16 +12,16 @@
     "security"
   ],
   "tags": [
-    "ai",
     "security",
-    "catalog"
+    "drata"
   ],
   "pricing": {
     "verified": false,
-    "note": "Enterprise",
     "sourceUrl": "https://drata.com",
     "model": "enterprise",
-    "label": "Enterprise"
+    "label": "Enterprise",
+    "note": "Enterprise pricing; contact sales or see the official site.",
+    "note_fr": "Offre entreprise ; contacte l'éditeur ou consulte le site pour un devis."
   },
   "logo": "/logos/drata.png",
   "image": "/screenshots/drata.webp",
@@ -42,7 +42,7 @@
   "howToUse": [
     {
       "title": "Open Drata",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to drata.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Drata",
@@ -51,18 +51,46 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Continuous control monitoring",
+      "description": "Use continuous control monitoring on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Automatic evidence collection",
+      "description": "Use automatic evidence collection on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "security",
+    "drata"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Drata",
+      "description": "Rends-toi sur drata.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Drata",
+          "url": "https://drata.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Surveillance continue des contrôles",
+      "description": "Teste surveillance continue des contrôles sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Collecte automatique des preuves",
+      "description": "Teste collecte automatique des preuves sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

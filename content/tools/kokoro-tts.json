@@ -12,16 +12,18 @@
     "voice"
   ],
   "tags": [
-    "ai",
     "voice",
-    "catalog"
+    "speech",
+    "kokoro",
+    "tts"
   ],
   "pricing": {
     "verified": false,
-    "note": "Open source",
     "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
     "model": "open-source",
-    "label": "Open source"
+    "label": "Open source",
+    "note": "Open source; hosting, cloud or support plans may apply.",
+    "note_fr": "Open source ; l'hébergement ou les services cloud peuvent être payants selon ton déploiement."
   },
   "logo": "/logos/kokoro-tts.png",
   "image": "/screenshots/kokoro-tts.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Kokoro TTS",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to huggingface.co, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Kokoro TTS",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Lightweight and fast",
+      "description": "Use lightweight and fast on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Good-quality voices",
+      "description": "Use good-quality voices on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "voix",
+    "parole",
+    "kokoro",
+    "tts"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Kokoro TTS",
+      "description": "Rends-toi sur huggingface.co, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Kokoro TTS",
+          "url": "https://huggingface.co/hexgrad/Kokoro-82M"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Modèle léger et rapide",
+      "description": "Teste modèle léger et rapide sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Voix de bonne qualité",
+      "description": "Teste voix de bonne qualité sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

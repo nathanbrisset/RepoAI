@@ -12,16 +12,17 @@
     "design"
   ],
   "tags": [
-    "ai",
     "design",
-    "catalog"
+    "ui",
+    "placeit"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://placeit.net",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/placeit.png",
   "image": "/screenshots/placeit.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Placeit",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to placeit.net, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Placeit",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Thousands of product mockups",
+      "description": "Use thousands of product mockups on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Logo maker",
+      "description": "Use logo maker on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "design",
+    "interface",
+    "placeit"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Placeit",
+      "description": "Rends-toi sur placeit.net, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Placeit",
+          "url": "https://placeit.net"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Milliers de mockups produits",
+      "description": "Teste milliers de mockups produits sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Créateur de logos",
+      "description": "Teste créateur de logos sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

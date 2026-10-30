@@ -12,16 +12,17 @@
     "data"
   ],
   "tags": [
-    "ai",
     "data",
-    "catalog"
+    "analytics",
+    "text2sql"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.text2sql.ai",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/text2sql-ai.png",
   "image": "/screenshots/text2sql-ai.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Text2SQL.ai",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to text2sql.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Text2SQL.ai",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Text to SQL",
+      "description": "Use text to sql on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Query explanation",
+      "description": "Use query explanation on a small sample project before scaling up."
     }
   ],
   "hqCountry": "DE",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "données",
+    "analytics",
+    "text2sql"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Text2SQL.ai",
+      "description": "Rends-toi sur text2sql.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Text2SQL.ai",
+          "url": "https://www.text2sql.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Texte vers SQL",
+      "description": "Teste texte vers SQL sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Explication de requêtes",
+      "description": "Teste explication de requêtes sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

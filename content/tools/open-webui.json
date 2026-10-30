@@ -12,16 +12,19 @@
     "llm-chatbots"
   ],
   "tags": [
-    "ai",
+    "chatbot",
     "llm",
-    "catalog"
+    "assistant",
+    "open",
+    "webui"
   ],
   "pricing": {
     "verified": false,
-    "note": "Open source",
     "sourceUrl": "https://openwebui.com",
     "model": "open-source",
-    "label": "Open source"
+    "label": "Open source",
+    "note": "Open source; hosting, cloud or support plans may apply.",
+    "note_fr": "Open source ; l'hébergement ou les services cloud peuvent être payants selon ton déploiement."
   },
   "logo": "/logos/open-webui.png",
   "image": "/screenshots/open-webui.webp",
@@ -42,7 +45,7 @@
   "howToUse": [
     {
       "title": "Open Open WebUI",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to openwebui.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Open WebUI",
@@ -51,18 +54,49 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Self-hosted chat interface",
+      "description": "Use self-hosted chat interface on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Works with Ollama and OpenAI APIs",
+      "description": "Use works with ollama and openai apis on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "chatbot",
+    "LLM",
+    "assistant",
+    "open",
+    "webui"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Open WebUI",
+      "description": "Rends-toi sur openwebui.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Open WebUI",
+          "url": "https://openwebui.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Interface de chat auto-hébergée",
+      "description": "Teste interface de chat auto-hébergée sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Compatible Ollama et API OpenAI",
+      "description": "Teste compatible Ollama et API OpenAI sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

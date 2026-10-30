@@ -12,16 +12,18 @@
     "llm-chatbots"
   ],
   "tags": [
-    "ai",
+    "chatbot",
     "llm",
-    "catalog"
+    "assistant",
+    "anythingllm"
   ],
   "pricing": {
     "verified": false,
-    "note": "Open source",
     "sourceUrl": "https://anythingllm.com",
     "model": "open-source",
-    "label": "Open source"
+    "label": "Open source",
+    "note": "Open source; hosting, cloud or support plans may apply.",
+    "note_fr": "Open source ; l'hébergement ou les services cloud peuvent être payants selon ton déploiement."
   },
   "logo": "/logos/anythingllm.png",
   "image": "/screenshots/anythingllm.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open AnythingLLM",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to anythingllm.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "AnythingLLM",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Local document chat",
+      "description": "Use local document chat on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Choice of model (local or API)",
+      "description": "Use choice of model (local or api) on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "chatbot",
+    "LLM",
+    "assistant",
+    "anythingllm"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre AnythingLLM",
+      "description": "Rends-toi sur anythingllm.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "AnythingLLM",
+          "url": "https://anythingllm.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Chat avec documents en local",
+      "description": "Teste chat avec documents en local sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Choix du modèle (local ou API)",
+      "description": "Teste choix du modèle (local ou API) sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

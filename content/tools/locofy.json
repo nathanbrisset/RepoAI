@@ -12,16 +12,17 @@
     "design"
   ],
   "tags": [
-    "ai",
     "design",
-    "catalog"
+    "ui",
+    "locofy"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.locofy.ai",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/locofy.png",
   "image": "/screenshots/locofy.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Locofy",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to locofy.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Locofy",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Figma to React, Vue, HTML or Flutter",
+      "description": "Use figma to react, vue, html or flutter on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Reusable components",
+      "description": "Use reusable components on a small sample project before scaling up."
     }
   ],
   "hqCountry": "SG",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "design",
+    "interface",
+    "locofy"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Locofy",
+      "description": "Rends-toi sur locofy.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Locofy",
+          "url": "https://www.locofy.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Figma vers React, Vue, HTML ou Flutter",
+      "description": "Teste figma vers React, Vue, HTML ou Flutter sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Composants réutilisables",
+      "description": "Teste composants réutilisables sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

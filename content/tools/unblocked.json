@@ -12,16 +12,18 @@
     "coding"
   ],
   "tags": [
-    "ai",
-    "coding",
-    "catalog"
+    "developer",
+    "code",
+    "ide",
+    "unblocked"
   ],
   "pricing": {
     "verified": false,
-    "note": "Premium",
     "sourceUrl": "https://getunblocked.com",
     "model": "paid",
-    "label": "Premium"
+    "label": "Premium",
+    "note": "Paid plans; see the official site for current pricing.",
+    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/unblocked.png",
   "image": "/screenshots/unblocked.webp",
@@ -42,7 +44,7 @@
   "howToUse": [
     {
       "title": "Open Unblocked",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to getunblocked.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Unblocked",
@@ -51,18 +53,48 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Answers from code and discussions",
+      "description": "Use answers from code and discussions on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Connects to Slack, Jira and Confluence",
+      "description": "Use connects to slack, jira and confluence on a small sample project before scaling up."
     }
   ],
   "hqCountry": "CA",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "développeur",
+    "code",
+    "IDE",
+    "unblocked"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Unblocked",
+      "description": "Rends-toi sur getunblocked.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Unblocked",
+          "url": "https://getunblocked.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Réponses à partir du code et des discussions",
+      "description": "Teste réponses à partir du code et des discussions sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Connexion à Slack, Jira et Confluence",
+      "description": "Teste connexion à Slack, Jira et Confluence sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

@@ -12,16 +12,17 @@
     "marketing"
   ],
   "tags": [
-    "ai",
     "marketing",
-    "catalog"
+    "seo",
+    "similarweb"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://www.similarweb.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/similarweb.png",
   "image": "/screenshots/similarweb.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open Similarweb",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to similarweb.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Similarweb",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Competitor traffic estimates",
+      "description": "Use competitor traffic estimates on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Audience sources",
+      "description": "Use audience sources on a small sample project before scaling up."
     }
   ],
   "hqCountry": "IL",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "marketing",
+    "seo",
+    "similarweb"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Similarweb",
+      "description": "Rends-toi sur similarweb.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "Similarweb",
+          "url": "https://www.similarweb.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Estimation du trafic concurrent",
+      "description": "Teste estimation du trafic concurrent sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Sources d'audience",
+      "description": "Teste sources d'audience sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

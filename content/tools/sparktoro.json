@@ -12,16 +12,17 @@
     "marketing"
   ],
   "tags": [
-    "ai",
     "marketing",
-    "catalog"
+    "seo",
+    "sparktoro"
   ],
   "pricing": {
     "verified": false,
-    "note": "Freemium",
     "sourceUrl": "https://sparktoro.com",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "note": "Freemium; paid tiers and limits are listed on the official site.",
+    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/sparktoro.png",
   "image": "/screenshots/sparktoro.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open SparkToro",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to sparktoro.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "SparkToro",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Websites and podcasts visited",
+      "description": "Use websites and podcasts visited on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Social accounts followed",
+      "description": "Use social accounts followed on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "marketing",
+    "seo",
+    "sparktoro"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre SparkToro",
+      "description": "Rends-toi sur sparktoro.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "SparkToro",
+          "url": "https://sparktoro.com"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Sites et podcasts fréquentés",
+      "description": "Teste sites et podcasts fréquentés sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Comptes sociaux suivis",
+      "description": "Teste comptes sociaux suivis sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }

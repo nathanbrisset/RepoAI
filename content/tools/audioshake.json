@@ -12,16 +12,17 @@
     "music"
   ],
   "tags": [
-    "ai",
     "music",
-    "catalog"
+    "audio",
+    "audioshake"
   ],
   "pricing": {
     "verified": false,
-    "note": "Usage-based",
     "sourceUrl": "https://www.audioshake.ai",
     "model": "usage-based",
-    "label": "Usage-based"
+    "label": "Usage-based",
+    "note": "Usage-based billing; see the pricing page for meters and quotas.",
+    "note_fr": "Facturation à l'usage ; consulte la page tarifs pour les quotas et le détail."
   },
   "logo": "/logos/audioshake.png",
   "image": "/screenshots/audioshake.webp",
@@ -42,7 +43,7 @@
   "howToUse": [
     {
       "title": "Open AudioShake",
-      "description": "Create an account at the official URL if you need saved work or billing.",
+      "description": "Go to audioshake.ai, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "AudioShake",
@@ -51,18 +52,47 @@
       ]
     },
     {
-      "title": "Complete onboarding",
-      "description": "Follow the product tour or connect the first integration it asks for."
+      "title": "Set up your workspace",
+      "description": "Complete onboarding, preferences, or the first integration the product asks for."
     },
     {
-      "title": "Run a first task",
-      "description": "Execute the main workflow using a template or sample input."
+      "title": "Vocal and instrument separation",
+      "description": "Use vocal and instrument separation on a small sample project before scaling up."
     },
     {
-      "title": "Review outputs",
-      "description": "Export, share, or connect to your stack before scaling usage."
+      "title": "Dialogue isolation",
+      "description": "Use dialogue isolation on a small sample project before scaling up."
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "musique",
+    "audio",
+    "audioshake"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre AudioShake",
+      "description": "Rends-toi sur audioshake.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "links": [
+        {
+          "label": "AudioShake",
+          "url": "https://www.audioshake.ai"
+        }
+      ]
+    },
+    {
+      "title": "Configure ton espace",
+      "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+    },
+    {
+      "title": "Séparation voix et instruments",
+      "description": "Teste séparation voix et instruments sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    },
+    {
+      "title": "Isolation des dialogues",
+      "description": "Teste isolation des dialogues sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+    }
+  ]
 }
