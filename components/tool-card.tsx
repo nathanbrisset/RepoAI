@@ -23,8 +23,8 @@ export default function ToolCard({ tool }: ToolCardProps) {
   const status = localized.status && localized.status !== "active" ? statusLabel(locale, localized.status) : ""
 
   return (
-    <Card className="border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all">
-      <LocaleLink href={`/tool/${localized.id}`} className="block">
+    <Card className="border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all relative">
+      <LocaleLink href={`/tool/${localized.id}`} className="block after:absolute after:inset-0 after:rounded-xl after:content-['']" aria-label={localized.name}>
         <div className="relative bg-gray-100 flex items-center justify-center" style={{ height: 160 }}>
           {visual ? (
             <img
@@ -43,7 +43,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
         </div>
         <CardContent className="p-5 pb-2">
           <div className="flex justify-between items-center mb-1 gap-2">
-            <h3 className="font-extrabold text-lg text-gray-900 truncate">{localized.name}</h3>
+            <h3 className="font-extrabold text-lg text-gray-900 truncate relative z-[1]">{localized.name}</h3>
             {status ? (
               <Badge variant="outline" className="text-xs shrink-0">
                 {status}

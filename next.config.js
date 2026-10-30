@@ -39,7 +39,6 @@ const nextConfig = {
       "munch",
       "paintschainer",
       "phrasee",
-      "podcastle",
       "replit-ghostwriter",
       "sendinblue",
       "vidyoai",

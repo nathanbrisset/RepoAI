@@ -3,6 +3,7 @@
 import { ArrowUpRight, Bookmark, GitCompareArrows } from "lucide-react"
 import { cn } from "@/lib/utils"
 import type { DirectoryRecord } from "@/lib/directory/data"
+import LocaleLink from "@/components/locale-link"
 import { useLocale } from "@/components/locale-provider"
 import { directoryCopy, fill, viewDetailsFor } from "@/lib/i18n/directory-copy"
 import { useDirectory } from "./directory-provider"
@@ -11,7 +12,7 @@ import { isRecentAddition, ToolLogo } from "./tool-logo"
 export function ToolCard({ tool, index = 0 }: { tool: DirectoryRecord; index?: number }) {
   const locale = useLocale()
   const t = directoryCopy(locale)
-  const { isSaved, isComparing, toggleSave, toggleCompare, openTool, categoryLabel, today } = useDirectory()
+  const { isSaved, isComparing, toggleSave, toggleCompare, categoryLabel, today } = useDirectory()
   const saved = isSaved(tool.id)
   const comparing = isComparing(tool.id)
   const recent = isRecentAddition(tool.dateAdded, today)
@@ -21,13 +22,13 @@ export function ToolCard({ tool, index = 0 }: { tool: DirectoryRecord; index?: n
   return (
     <article className="group relative animate-rise" style={{ animationDelay: `${Math.min(index, 12) * 40}ms` }}>
       <div className="relative flex h-full min-h-[250px] flex-col overflow-hidden rounded-3xl bg-card p-4 text-card-foreground ring-1 ring-border transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-        <button
-          type="button"
-          onClick={() => openTool(tool.id)}
+        <LocaleLink
+          href={`/tool/${tool.id}`}
+          aria-label={viewDetailsFor(locale, tool.name)}
           className="absolute inset-0 z-0 rounded-3xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
         >
           <span className="sr-only">{viewDetailsFor(locale, tool.name)}</span>
-        </button>
+        </LocaleLink>
         <div className="pointer-events-none relative z-10 flex items-start justify-between gap-3">
           <ToolLogo tool={tool} />
           <div className="flex shrink-0 gap-2">
