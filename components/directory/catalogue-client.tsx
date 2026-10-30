@@ -14,6 +14,8 @@ import {
   parseCatalogueHqCountryParam,
 } from "@/lib/hq-country-filter"
 import { pricingLabel } from "@/lib/i18n/messages"
+import { filterAndRankCatalogSearch } from "@/lib/catalog-search"
+import { compareEditorialRank } from "@/lib/directory/editorial-rank"
 import { useDirectory } from "./directory-provider"
 import { ToolCard } from "./tool-card"
 
@@ -26,7 +28,8 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
   const searchParams = useSearchParams()
   const { records } = useDirectory()
   const category = searchParams.get("category") || ""
-  const query = (searchParams.get("q") || "").trim().toLowerCase()
+  const queryRaw = (searchParams.get("q") || "").trim()
+  const query = queryRaw.toLowerCase()
   const sort = (searchParams.get("sort") as SortMode) || "trending"
   const pricing = searchParams.get("pricing")
   const hqCountry = searchParams.get("hqCountry")
@@ -50,18 +53,33 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
       const matchesCategory = category ? tool.categories.includes(category) : true
       const matchesPrice = activePrice ? tool.priceBucket === activePrice : true
       const matchesCountry = matchesHqCountryFilter(tool.hqCountry, hqCountry)
-      const haystack = [tool.name, tool.description, tool.tags.join(" "), tool.categories.join(" "), tool.features.join(" ")].join(" ").toLowerCase()
-      const matchesQuery = query ? haystack.includes(query) : true
-      return matchesCategory && matchesPrice && matchesCountry && matchesQuery
+      return matchesCategory && matchesPrice && matchesCountry
     })
+
+    const searched = queryRaw
+      ? filterAndRankCatalogSearch(filtered, queryRaw, locale)
+      : filtered
+
+    if (queryRaw) return searched
+
     if (sort === "new") {
-      return [...filtered].sort((a, b) => (b.dateAdded || "").localeCompare(a.dateAdded || ""))
+      return [...searched].sort((a, b) => (b.dateAdded || "").localeCompare(a.dateAdded || "") || compareEditorialRank(a.id, b.id))
     }
     if (sort === "top") {
-      return [...filtered].sort((a, b) => a.name.localeCompare(b.name, locale))
+      return [...searched].sort(
+        (a, b) =>
+          compareEditorialRank(a.id, b.id) ||
+          a.name.localeCompare(b.name, locale) ||
+          a.id.localeCompare(b.id),
+      )
     }
-    return filtered
-  }, [records, category, activePrice, hqCountry, query, sort, locale])
+    return [...searched].sort(
+      (a, b) =>
+        compareEditorialRank(a.id, b.id) ||
+        (b.dateAdded || "").localeCompare(a.dateAdded || "") ||
+        a.name.localeCompare(b.name, locale),
+    )
+  }, [records, category, activePrice, hqCountry, queryRaw, sort, locale])
 
   return (
     <main className="mx-auto max-w-[1400px] px-4 py-10 md:px-8">
@@ -140,7 +158,11 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
         )}
       </div>
 
-      {searchParams.get("sort") === "top" ? <p className="mt-4 max-w-2xl text-sm text-muted-foreground">{t.sortTopNote}</p> : null}
+      {!queryRaw && sort === "top" ? (
+        <p className="mt-4 max-w-2xl text-sm text-muted-foreground">{t.sortTopNote}</p>
+      ) : !queryRaw && sort === "trending" ? (
+        <p className="mt-4 max-w-2xl text-sm text-muted-foreground">{t.sortTrendingNote}</p>
+      ) : null}
 
       {visible.length === 0 ? (
         <div className="mt-12 rounded-3xl bg-card p-8 ring-1 ring-border">

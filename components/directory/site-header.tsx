@@ -9,6 +9,7 @@ import { useLocale } from "@/components/locale-provider"
 import { LOCALE_COOKIE, type Locale } from "@/lib/i18n/config"
 import { directoryCopy } from "@/lib/i18n/directory-copy"
 import { localizeHref, stripLocale } from "@/lib/i18n/paths"
+import { rankCatalogSearch } from "@/lib/catalog-search"
 import { CategoryChipsBar, type SortMode } from "./category-chips-bar"
 import { useDirectory } from "./directory-provider"
 
@@ -95,14 +96,12 @@ function SiteHeaderInner() {
   }
 
   const suggestions = useMemo(() => {
-    const needle = draft.trim().toLowerCase()
+    const needle = draft.trim()
     if (needle.length < 2) return []
-    return records
-      .filter((tool) =>
-        [tool.name, tool.description, tool.categories.join(" "), tool.tags.join(" ")].join(" ").toLowerCase().includes(needle),
-      )
+    return rankCatalogSearch(records, needle, locale)
       .slice(0, 6)
-  }, [draft, records])
+      .map((row) => row.record)
+  }, [draft, records, locale])
 
   return (
     <header className={cn("sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur", scrolled && "shadow-sm")}>

@@ -16,6 +16,8 @@ import {
   foldMatchText,
   toMatchTool,
   validateModelPayload,
+  resolveMatchLang,
+  humanizeReason,
   type MatchTool,
 } from "../lib/match-copy.ts"
 import { issueChallenge, verifyChallenge } from "../lib/match-captcha.ts"
@@ -402,6 +404,11 @@ assert.equal(
   await consumeNonce("nonce-replay-shape", 120, { requireRedis: true, fetchImpl: nonceWrappedFetch }),
   "replay",
 )
+
+assert.equal(resolveMatchLang("help me edit a podcast", "fr"), "en")
+assert.equal(resolveMatchLang("montage video pour youtube", "fr"), "fr")
+assert.ok(humanizeReason('Matched in tags: "training video avatars daily"').includes("training"))
+assert.equal(humanizeReason("id: chatgpt slug: data-processing score: 12"), "")
 
 if (savedUrl === undefined) delete process.env.KV_REST_API_URL
 else process.env.KV_REST_API_URL = savedUrl
