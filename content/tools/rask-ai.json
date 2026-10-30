@@ -4,8 +4,8 @@
   "url": "https://www.rask.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Rask AI is an AI product in the Video space with official hosting at www.rask.ai.",
-  "description": "Rask AI is an AI product in the Video space with official hosting at www.rask.ai. Check the pricing page before production use.\n\nFeature: Rask AI ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Rask AI — video software with an official web app.",
+  "description": "Rask AI — video software with an official web app.",
   "categories": [
     "video"
   ],
@@ -26,12 +26,7 @@
   "image": "/screenshots/rask-ai.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
-  "features": [
-    "Rask AI ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
-  ],
+  "features": [],
   "howToUse": [
     {
       "title": "Sign up on Rask AI",
@@ -55,5 +50,13 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "summary_fr": "Localisation vidéo par IA (voix, lèvres, sous-titres).",
+  "description_fr": "Rask AI traduit et double des vidéos dans d'autres langues avec voix clonées, lip-sync et sous-titres pour marketing et formation.",
+  "features_fr": [
+    "Traduction audio et doublage multilingue.",
+    "Synchronisation labiale sur la vidéo source.",
+    "Génération de sous-titres et transcripts.",
+    "Export prêt pour réseaux sociaux et LMS."
   ]
 }

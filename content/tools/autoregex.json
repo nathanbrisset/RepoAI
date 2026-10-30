@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Convert natural language to regular expressions using AI.",
-  "description": "Convert natural language to regular expressions using AI.\n\nNatural language input: Describe pattern needs in plain text. Regex output: Instant conversion to valid regular expressions. Syntax highlighting: Understand and edit regex easily. Learning tool: Helps beginners master regex concepts.",
+  "description": "Convert natural language to regular expressions using AI. Natural language input: Describe pattern needs in plain text. Regex output: Instant conversion to valid regular expressions. Syntax highlighting: Understand and edit regex easily. Learning tool: Helps beginners master regex concepts.",
   "categories": [
     "coding"
   ],
@@ -20,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/autoregex.png",
-  "image": "/screenshots/autoregex.webp",
+  "image": "/tool-screenshots/autoregex.png",
   "dateAdded": "2025-06-04",
   "lastVerified": null,
   "features": [
@@ -52,5 +52,11 @@
       "title": "Learn Regex Concepts",
       "description": "Review explanations and visualizations to understand how the regex works."
     }
+  ],
+  "features_fr": [
+    "Saisie en langage naturel : décrivez les besoins en matière de modèles en texte brut.",
+    "Sortie Regex : conversion instantanée en expressions régulières valides.",
+    "Mise en évidence de la syntaxe : comprenez et modifiez facilement les expressions régulières.",
+    "Outil d'apprentissage : aide les débutants à maîtriser les concepts d'expression régulière."
   ]
 }

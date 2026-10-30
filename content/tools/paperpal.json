@@ -4,8 +4,8 @@
   "url": "https://paperpal.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Paperpal delivers AI-assisted capabilities for writing & content teams via paperpal.com.",
-  "description": "Paperpal delivers AI-assisted capabilities for writing & content teams via paperpal.com. Check the pricing page before production use.\n\nFeature: Paperpal ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Paperpal — writing software with an official web app.",
+  "description": "Paperpal — writing software with an official web app.",
   "categories": [
     "writing"
   ],
@@ -26,12 +26,7 @@
   "image": "/screenshots/paperpal.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
-  "features": [
-    "Paperpal ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
-  ],
+  "features": [],
   "howToUse": [
     {
       "title": "Sign up on Paperpal",
@@ -55,5 +50,13 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "summary_fr": "Assistant IA pour rédaction et relecture académique.",
+  "description_fr": "Paperpal aide chercheurs et étudiants à reformuler, vérifier grammaire et conformité éditoriale avant soumission.",
+  "features_fr": [
+    "Suggestions contextuelles dans Word et éditeurs web.",
+    "Vérifications grammaire et style académique.",
+    "Reformulation respectueuse du sens scientifique.",
+    "Rapports de langue pour revues et thèses."
   ]
 }

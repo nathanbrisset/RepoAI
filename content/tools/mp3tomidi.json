@@ -53,5 +53,17 @@
         }
       ]
     }
+  ],
+  "features": [
+    "Online MP3 to MIDI converter with AI note detection in the browser.",
+    "MP3 to MIDI converts an uploaded MP3 into a MIDI file in the browser.",
+    "A machine-learning model detects notes on the device, so the audio is processed locally and no account is required.",
+    "A piano roll previews the detected notes and lets you adjust them before downloading the MIDI file."
+  ],
+  "features_fr": [
+    "Convertisseur MP3 en MIDI en ligne avec détection de notes AI dans le navigateur.",
+    "MP3 to MIDI convertit un MP3 téléchargé en fichier MIDI dans le navigateur.",
+    "Un modèle d'apprentissage automatique détecte les notes sur l'appareil, de sorte que l'audio est traité localement et qu'aucun compte n'est requis.",
+    "Un piano roll prévisualise les notes détectées et vous permet de les ajuster avant de télécharger le fichier MIDI."
   ]
 }

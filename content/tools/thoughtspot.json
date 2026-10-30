@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "ThoughtSpot is an AI-powered analytics platform that enables users to search and analyze business data using natural language queries. It offers real-time, search-driven analytics on cloud or on-prem data, empowering business users to uncover actionable insights without relying on technical experts. With built-in AI for automated insights and recommendations, ThoughtSpot transforms the way organizations approach business intelligence and decision-making.",
-  "description": "ThoughtSpot is an AI-powered analytics platform that enables users to search and analyze business data using natural language queries. It offers real-time, search-driven analytics on cloud or on-prem data, empowering business users to uncover actionable insights without relying on technical experts. With built-in AI for automated insights and recommendations, ThoughtSpot transforms the way organizations approach business intelligence and decision-making.\n\nSearch-Driven Analytics: Query data using simple, natural language. AI Insights: Automatically surfaces trends, anomalies, and recommendations. Real-Time Analysis: Live queries on cloud and on-premises data. Integration Flexibility: Connects to cloud, warehouse, and local data.",
+  "description": "ThoughtSpot is an AI-powered analytics platform that enables users to search and analyze business data using natural language queries. It offers real-time, search-driven analytics on cloud or on-prem data, empowering business users to uncover actionable insights without relying on technical experts. With built-in AI for automated insights and recommendations, ThoughtSpot transforms the way organizations approach business intelligence and decision-making. Search-Driven Analytics: Query data using simple, natural language. AI Insights: Automatically surfaces trends, anomalies, and recommendations. Real-Time Analysis: Live queries on cloud and on-premises data. Integration Flexibility: Connects to cloud, warehouse, and local data.",
   "categories": [
     "data"
   ],
@@ -21,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/thoughtspot.png",
-  "image": "/screenshots/thoughtspot.webp",
+  "image": "/tool-screenshots/thoughtspot.png",
   "dateAdded": null,
   "lastVerified": null,
   "dateAddedNote": "The previous Added date was 2012-11-01. It was removed because it is not a credible date for this directory.",
@@ -29,8 +29,7 @@
     "Search-Driven Analytics: Query data using simple, natural language.",
     "AI Insights: Automatically surfaces trends, anomalies, and recommendations.",
     "Real-Time Analysis: Live queries on cloud and on-premises data.",
-    "Integration Flexibility: Connects to cloud, warehouse, and local data.",
-    "Collaboration: Share insights and dashboards with colleagues."
+    "Integration Flexibility: Connects to cloud, warehouse, and local data."
   ],
   "howToUse": [
     {
@@ -55,5 +54,11 @@
       "title": "Share & Collaborate",
       "description": "Share findings, dashboards, and automated insights with colleagues."
     }
+  ],
+  "features_fr": [
+    "Analyses basées sur la recherche : interrogez des données à l'aide d'un langage simple et naturel.",
+    "AI Insights : fait apparaître automatiquement les tendances, les anomalies et les recommandations.",
+    "Analyse en temps réel : requêvos en direct sur les données cloud et sur site.",
+    "Flexibilité d'intégration : se connecte au cloud, à l'entrepôt et aux données locales."
   ]
 }

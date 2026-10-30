@@ -4,8 +4,8 @@
   "url": "https://glass.health/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Glass Health delivers AI-assisted capabilities for health & medical teams via glass.health.",
-  "description": "Glass Health delivers AI-assisted capabilities for health & medical teams via glass.health. Check the pricing page before production use.\n\nFeature: Glass Health ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Glass Health — AI for health and medical at glass.health.",
+  "description": "Glass Health is an AI product for health and medical.",
   "categories": [
     "health"
   ],
@@ -27,10 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Glass Health ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Glass Health — clinical: capabilities described on glass.health.",
+    "Glass Health — decision-support: capabilities described on glass.health.",
+    "Glass Health — documentation: capabilities described on glass.health.",
+    "Glass Health — providers: capabilities described on glass.health."
   ],
   "howToUse": [
     {
@@ -55,5 +55,11 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Glass Health — clinique : capacités décrites sur glass.health.",
+    "Glass Health — aide à la décision : capacités décrites sur glass.health.",
+    "Glass Health — documentation : fonctionnalités décrites sur glass.health.",
+    "Glass Health — fournisseurs : capacités décrites sur glass.health."
   ]
 }

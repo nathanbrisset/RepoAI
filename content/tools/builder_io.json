@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Builder.io is a visual CMS and page builder that empowers teams to create, test, and optimize digital experiences without writing code. With AI-powered content generation and modular components, Builder.io speeds up development and enables dynamic, data-driven web pages.",
-  "description": "Builder.io is a visual CMS and page builder that empowers teams to create, test, and optimize digital experiences without writing code. With AI-powered content generation and modular components, Builder.io speeds up development and enables dynamic, data-driven web pages.\n\nOne codebase for engineers, designers, PMs, and marketers. Everyone works from one source of truth, on brand and in code, with no handoffs to clean up.\n\nVisual Editing: Drag-and-drop page creation. AI Content Generation: Quickly produce text and images. A/B Testing: Experiment with versions and track conversions. Integration: Connects with React, Vue, Angular, and more.",
+  "description": "Builder.io is a visual CMS and page builder that empowers teams to create, test, and optimize digital experiences without writing code. With AI-powered content generation and modular components, Builder.io speeds up development and enables dynamic, data-driven web pages. One codebase for engineers, designers, PMs, and marketers. Everyone works from one source of truth, on brand and in code, with no handoffs to clean up. Visual Editing: Drag-and-drop page creation. AI Content Generation: Quickly produce text and images. A/B Testing: Experiment with versions and track conversions. Integration: Connects with React, Vue, Angular, and more.",
   "categories": [
     "no-code"
   ],
@@ -30,8 +30,7 @@
     "Visual Editing: Drag-and-drop page creation.",
     "AI Content Generation: Quickly produce text and images.",
     "A/B Testing: Experiment with versions and track conversions.",
-    "Integration: Connects with React, Vue, Angular, and more.",
-    "Dynamic Data: Display content from APIs and databases."
+    "Integration: Connects with React, Vue, Angular, and more."
   ],
   "howToUse": [
     {
@@ -60,5 +59,11 @@
       "title": "Publish & Export",
       "description": "Publish directly or export code and assets for deployment."
     }
+  ],
+  "features_fr": [
+    "Édition visuelle : création de pages par glisser-déposer.",
+    "Génération de contenu IA : produisez rapidement du texte et des images.",
+    "Tests A/B : testez les versions et suivez les conversions.",
+    "Intégration : se connecte à React, Vue, Angular et plus encore."
   ]
 }

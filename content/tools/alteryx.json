@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Alteryx is a powerful platform designed for data blending, advanced analytics, and data science. With its intuitive drag-and-drop interface, users can easily prepare, blend, and analyze data from multiple sources. Alteryx offers a wide range of predictive, statistical, and spatial analytics capabilities. Its automation features reduce manual work and accelerate time-to-insight, making Alteryx a favorite among business analysts and data professionals for building repeatable workflows at scale.",
-  "description": "Alteryx is a powerful platform designed for data blending, advanced analytics, and data science. With its intuitive drag-and-drop interface, users can easily prepare, blend, and analyze data from multiple sources. Alteryx offers a wide range of predictive, statistical, and spatial analytics capabilities. Its automation features reduce manual work and accelerate time-to-insight, making Alteryx a favorite among business analysts and data professionals for building repeatable workflows at scale.\n\nVisual Workflow Builder: Drag-and-drop interface for building analytic pipelines. Data Preparation: Cleans, transforms, and blends data from multiple sources. Predictive Analytics: Built-in tools for forecasting and classification. Scalability: Efficiently handles large-scale data workflows.",
+  "description": "Alteryx is a powerful platform designed for data blending, advanced analytics, and data science. With its intuitive drag-and-drop interface, users can easily prepare, blend, and analyze data from multiple sources. Alteryx offers a wide range of predictive, statistical, and spatial analytics capabilities. Its automation features reduce manual work and accelerate time-to-insight, making Alteryx a favorite among business analysts and data professionals for building repeatable workflows at scale. Visual Workflow Builder: Drag-and-drop interface for building analytic pipelines. Data Preparation: Cleans, transforms, and blends data from multiple sources. Predictive Analytics: Built-in tools for forecasting and classification. Scalability: Efficiently handles large-scale data workflows.",
   "categories": [
     "data"
   ],
@@ -29,8 +29,7 @@
     "Visual Workflow Builder: Drag-and-drop interface for building analytic pipelines.",
     "Data Preparation: Cleans, transforms, and blends data from multiple sources.",
     "Predictive Analytics: Built-in tools for forecasting and classification.",
-    "Scalability: Efficiently handles large-scale data workflows.",
-    "Collaboration: Enables sharing and reuse of workflows across teams."
+    "Scalability: Efficiently handles large-scale data workflows."
   ],
   "howToUse": [
     {
@@ -55,5 +54,11 @@
       "title": "Run & Share Results",
       "description": "Execute workflows to generate outputs. Share or schedule workflows for team collaboration."
     }
+  ],
+  "features_fr": [
+    "Visual Workflow Builder : interface glisser-déposer pour créer des pipelines analytiques.",
+    "Préparation des données : nettoie, transforme et mélange les données provenant de plusieurs sources.",
+    "Analyse prédictive : outils intégrés de prévision et de classification.",
+    "Évolutivité : gère efficacement les flux de travail de données à grande échelle."
   ]
 }

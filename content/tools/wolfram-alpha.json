@@ -4,8 +4,8 @@
   "url": "https://www.wolframalpha.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Wolfram|Alpha delivers AI-assisted capabilities for search & research teams via www.wolframalpha.com.",
-  "description": "Wolfram|Alpha delivers AI-assisted capabilities for search & research teams via www.wolframalpha.com. Check the pricing page before production use.\n\nFeature: Wolfram|Alpha ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Wolfram|Alpha: Wolfram|Alpha is an AI product for search and research.",
+  "description": "Wolfram|Alpha is an AI product for search and research.",
   "categories": [
     "search"
   ],
@@ -27,10 +27,8 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Wolfram|Alpha ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Wolfram|Alpha.",
+    "AI for search and research at wolframalpha.com."
   ],
   "howToUse": [
     {
@@ -55,5 +53,9 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Wolfram|Alpha.",
+    "IA pour la recherche et la recherche sur wolframalpha.com."
   ]
 }

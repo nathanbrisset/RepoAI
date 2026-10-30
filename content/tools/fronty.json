@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Converts mockups into HTML/CSS code using AI, aiding in rapid front-end development.",
-  "description": "Converts mockups into HTML/CSS code using AI, aiding in rapid front-end development.\n\nMockup to code: Turn image designs into HTML/CSS automatically. Color and font extraction: Detect and apply styles from images. Responsive layout: Create layouts optimized for any device. Live preview: Instantly see generated website results.",
+  "description": "Converts mockups into HTML/CSS code using AI, aiding in rapid front-end development. Mockup to code: Turn image designs into HTML/CSS automatically. Color and font extraction: Detect and apply styles from images. Responsive layout: Create layouts optimized for any device. Live preview: Instantly see generated website results.",
   "categories": [
     "design"
   ],
@@ -21,15 +21,14 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/fronty.png",
-  "image": "/screenshots/fronty.webp",
+  "image": "/tool-screenshots/fronty.png",
   "dateAdded": "2023-05-18",
   "lastVerified": null,
   "features": [
     "Mockup to code: Turn image designs into HTML/CSS automatically.",
     "Color and font extraction: Detect and apply styles from images.",
     "Responsive layout: Create layouts optimized for any device.",
-    "Live preview: Instantly see generated website results.",
-    "One-click export: Download complete source code easily."
+    "Live preview: Instantly see generated website results."
   ],
   "howToUse": [
     {
@@ -54,5 +53,11 @@
       "title": "Export Source Code",
       "description": "Download the finished website code in one click."
     }
+  ],
+  "features_fr": [
+    "Maquette en code : transformez automatiquement les conceptions d'images en HTML/CSS.",
+    "Extraction de couleurs et de polices : détectez et appliquez des styles à partir d’images.",
+    "Mise en page réactive : créez des mises en page optimisées pour n'importe quel appareil.",
+    "Aperçu en direct : consultez instantanément les résultats générés par le site Web."
   ]
 }

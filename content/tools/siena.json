@@ -4,10 +4,10 @@
   "url": "https://www.siena.cx",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Siena AI is an AI product in the Customer Support space with official hosting at siena.cx.",
-  "description": "Siena AI is an AI product in the Customer Support space with official hosting at siena.cx.\n\nAgent SAV IA empathique pour marques DTC. Check the pricing page before production use.\n\nFeature: Siena AI ships the main workflow advertised on its official site.",
+  "summary": "Siena AI: Empathetic AI support agent for DTC brands.",
+  "description": "Siena AI helps teams with empathetic AI support agent for DTC brands.",
   "summary_fr": "Agent SAV IA empathique pour marques DTC.",
-  "description_fr": "Agent SAV IA empathique pour marques DTC. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Agent SAV IA empathique pour marques DTC.",
   "categories": [
     "support"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.siena.cx"
   },
   "logo": "/logos/siena.png",
-  "image": "",
+  "image": "/screenshots/siena.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Siena AI ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Empathetic AI support agent for DTC brands.",
+    "Siena AI helps teams with empathetic AI support agent for DTC brands."
   ],
   "features_fr": [
-    "Siena AI propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Agent SAV IA empathique pour marques DTC.",
+    "siena.cx décrit les capacités, limites et inscription de Siena AI."
   ],
   "howToUse": [
     {

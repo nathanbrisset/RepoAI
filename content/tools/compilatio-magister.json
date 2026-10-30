@@ -4,10 +4,10 @@
   "url": "https://www.compilatio.net",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Compilatio Magister+ is an AI product in the AI Detection space with official hosting at compilatio.net.",
-  "description": "Compilatio Magister+ is an AI product in the AI Detection space with official hosting at compilatio.net.\n\nDétection plagiat et IA utilisée par les universités françaises. Check the pricing page before production use.\n\nFeature: Compilatio Magister+ ships the main workflow advertised on its official site.",
+  "summary": "Compilatio Magister+: Plagiarism and AI detection used by French universities.",
+  "description": "Compilatio Magister+ helps teams with plagiarism and AI detection used by French universities.",
   "summary_fr": "Détection plagiat et IA utilisée par les universités françaises.",
-  "description_fr": "Détection plagiat et IA utilisée par les universités françaises. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Détection plagiat et IA utilisée par les universités françaises.",
   "categories": [
     "ai-detection"
   ],
@@ -19,24 +19,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.compilatio.net"
   },
   "logo": "/logos/compilatio-magister.png",
-  "image": "",
+  "image": "/screenshots/compilatio-magister.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Compilatio Magister+ ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Plagiarism and AI detection used by French universities.",
+    "Compilatio Magister+ helps teams with plagiarism and AI detection used by French universities."
   ],
   "features_fr": [
-    "Compilatio Magister+ propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Détection plagiat.",
+    "IA utilisée par les universités françaises."
   ],
   "howToUse": [
     {

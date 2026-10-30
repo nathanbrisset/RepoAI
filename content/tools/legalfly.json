@@ -4,10 +4,10 @@
   "url": "https://www.legalfly.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "LegalFly is an AI product in the Legal space with official hosting at legalfly.com.",
-  "description": "LegalFly is an AI product in the Legal space with official hosting at legalfly.com.\n\nRevue juridique IA pour entreprises. Check the pricing page before production use.\n\nFeature: LegalFly ships the main workflow advertised on its official site.",
+  "summary": "LegalFly: AI legal review for businesses.",
+  "description": "LegalFly helps teams with aI legal review for businesses.",
   "summary_fr": "Revue juridique IA pour entreprises.",
-  "description_fr": "Revue juridique IA pour entreprises. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Revue juridique IA pour entreprises.",
   "categories": [
     "legal"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.legalfly.com"
   },
   "logo": "/logos/legalfly.png",
-  "image": "",
+  "image": "/screenshots/legalfly.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "LegalFly ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "AI legal review for businesses.",
+    "LegalFly helps teams with aI legal review for businesses."
   ],
   "features_fr": [
-    "LegalFly propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Revue juridique de l'IA pour les entreprises.",
+    "Axé sur les flux de travail juridiques."
   ],
   "howToUse": [
     {

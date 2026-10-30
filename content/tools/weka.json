@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "inactive",
   "summary": "Weka is a popular open-source collection of machine learning algorithms for data mining tasks, developed at the University of Waikato. Weka features a graphical user interface for easy access to powerful data preprocessing, modeling, and visualization tools. It includes a comprehensive suite of algorithms for classification, regression, clustering, and feature selection. Weka is widely used in education and research for teaching, prototyping, and experimenting with machine learning techniques on structured datasets.",
-  "description": "Weka is a popular open-source collection of machine learning algorithms for data mining tasks, developed at the University of Waikato. Weka features a graphical user interface for easy access to powerful data preprocessing, modeling, and visualization tools. It includes a comprehensive suite of algorithms for classification, regression, clustering, and feature selection. Weka is widely used in education and research for teaching, prototyping, and experimenting with machine learning techniques on structured datasets.\n\nComprehensive Algorithms: Wide range of classification, regression, and clustering methods. Interactive Visualization: Tools for exploring and understanding datasets. Preprocessing Utilities: Support for data cleaning, filtering, and transformation. Extensible Framework: Plugin support for adding new methods and integrations.",
+  "description": "Weka is a popular open-source collection of machine learning algorithms for data mining tasks, developed at the University of Waikato. Weka features a graphical user interface for easy access to powerful data preprocessing, modeling, and visualization tools. It includes a comprehensive suite of algorithms for classification, regression, clustering, and feature selection. Weka is widely used in education and research for teaching, prototyping, and experimenting with machine learning techniques on structured datasets. Comprehensive Algorithms: Wide range of classification, regression, and clustering methods. Interactive Visualization: Tools for exploring and understanding datasets. Preprocessing Utilities: Support for data cleaning, filtering, and transformation. Extensible Framework: Plugin support for adding new methods and integrations.",
   "categories": [
     "data"
   ],
@@ -29,8 +29,7 @@
     "Comprehensive Algorithms: Wide range of classification, regression, and clustering methods.",
     "Interactive Visualization: Tools for exploring and understanding datasets.",
     "Preprocessing Utilities: Support for data cleaning, filtering, and transformation.",
-    "Extensible Framework: Plugin support for adding new methods and integrations.",
-    "User-Friendly Interface: Intuitive GUI for non-programmers and rapid prototyping."
+    "Extensible Framework: Plugin support for adding new methods and integrations."
   ],
   "howToUse": [
     {
@@ -56,5 +55,11 @@
       "description": "Select and run machine learning algorithms, visualize results, and export models."
     }
   ],
-  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
+  "features_fr": [
+    "Algorithmes complets : large gamme de méthodes de classification, de régression et de clustering.",
+    "Visualisation interactive : outils pour explorer et comprendre des ensembles de données.",
+    "Utilitaires de prétraitement : prise en charge du nettoyage, du filtrage et de la transformation des données.",
+    "Extensible Framework : prise en charge du plugin pour l'ajout de nouvelles méthodes et intégrations."
+  ]
 }

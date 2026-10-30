@@ -4,8 +4,8 @@
   "url": "https://www.reverso.net/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Reverso is an AI product in the Writing & Content space with official hosting at www.reverso.net.",
-  "description": "Reverso is an AI product in the Writing & Content space with official hosting at www.reverso.net. Check the pricing page before production use.\n\nFeature: Reverso ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Reverso — AI for writing and content at reverso.net.",
+  "description": "Reverso — AI for writing and content at reverso.net.",
   "categories": [
     "writing"
   ],
@@ -27,10 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Reverso ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Reverso — translation: capabilities described on reverso.net.",
+    "Reverso — context: capabilities described on reverso.net.",
+    "Reverso — french: capabilities described on reverso.net.",
+    "Reverso — writing: capabilities described on reverso.net."
   ],
   "howToUse": [
     {
@@ -55,5 +55,11 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Reverso — traduction : capacités décrites sur reverso.net.",
+    "Reverso — contexte : fonctionnalités décrites sur reverso.net.",
+    "Reverso — français : fonctionnalités décrites sur reverso.net.",
+    "Reverso — écriture : capacités décrites sur reverso.net."
   ]
 }

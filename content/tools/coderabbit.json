@@ -53,5 +53,17 @@
       "title": "Turn on triage or the security scan",
       "description": "If the plan includes them, enable issue triage and the continuous security monitoring."
     }
+  ],
+  "features": [
+    "AI code review for pull requests, with triage, change explanations and security monitoring.",
+    "CodeRabbit reviews pull requests automatically on GitHub, GitLab and other platforms.",
+    "It comments on bugs, style and security issues, explains changes and learns from team feedback.",
+    "Newer products cover issue triage and continuous security monitoring."
+  ],
+  "features_fr": [
+    "Révision du code IA pour les demandes d'extraction, avec triage, explications des modifications et surveillance de la sécurité.",
+    "CodeRabbit examine automatiquement les demandes d'extraction sur GitHub, GitLab et d'autres plateformes.",
+    "Il commente les bugs, les problèmes de style et de sécurité, explique les changements et apprend des commentaires de l'équipe.",
+    "Les produits les plus récents couvrent le tri des problèmes et la surveillance continue de la sécurité."
   ]
 }

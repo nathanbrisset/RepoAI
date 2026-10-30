@@ -49,5 +49,17 @@
       "title": "Connect your checks",
       "description": "Connect the GitHub app, the CLI, the firewall or the browser extension. That is how Socket integrates, and you can add reachability analysis on top. The Free plan suits individuals and small teams."
     }
+  ],
+  "features": [
+    "Supply-chain security that detects malicious and vulnerable open-source dependencies.",
+    "Socket analyses open-source packages for JavaScript, Python, Go and other ecosystems to detect malware, risky behaviour and vulnerabilities before they enter a codebase.",
+    "It integrates with GitHub, a CLI, a firewall and a browser extension, and adds reachability analysis.",
+    "The Free plan suits individuals and small teams; Team costs $25 and Business $50 per developer seat per month."
+  ],
+  "features_fr": [
+    "Sécurité de la chaîne d'approvisionnement qui détecte les dépendances open source malveillantes et vulnérables.",
+    "Socket analyse les packages open source pour JavaScript, Python, Go et d'autres écosystèmes afin de détecter les logiciels malveillants, les comportements à risque et les vulnérabilités avant qu'ils n'entrent dans une base de code.",
+    "Il s'intègre à GitHub, une CLI, un pare-feu et une extension de navigateur, et ajoute une analyse d'accessibilité.",
+    "Le plan Free convient aux particuliers et aux petites équipes ; L'équipe coûte 25 $ et l'entreprise 50 $ par siège de développeur et par mois."
   ]
 }

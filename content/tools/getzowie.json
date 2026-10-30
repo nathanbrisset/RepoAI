@@ -4,10 +4,10 @@
   "url": "https://getzowie.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Zowie is an AI product in the Customer Support space with official hosting at getzowie.com.",
-  "description": "Zowie is an AI product in the Customer Support space with official hosting at getzowie.com.\n\nAutomatisation du support client pour e-commerce. Check the pricing page before production use.\n\nFeature: Zowie ships the main workflow advertised on its official site.",
+  "summary": "Zowie: Customer support automation for e-commerce.",
+  "description": "Zowie helps teams with customer support automation for e-commerce.",
   "summary_fr": "Automatisation du support client pour e-commerce.",
-  "description_fr": "Automatisation du support client pour e-commerce. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Automatisation du support client pour e-commerce.",
   "categories": [
     "support"
   ],
@@ -20,24 +20,21 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://getzowie.com"
   },
   "logo": "/logos/getzowie.png",
-  "image": "",
+  "image": "/screenshots/getzowie.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Zowie ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Customer support automation for e-commerce.",
+    "Zowie helps teams with customer support automation for e-commerce."
   ],
   "features_fr": [
-    "Zowie propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Automatisation du support client pour le commerce électronique.",
+    "Axé sur les flux de travail de support.",
+    "Zowie inclut des fonctionnalités de support."
   ],
   "howToUse": [
     {

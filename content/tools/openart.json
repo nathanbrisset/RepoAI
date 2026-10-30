@@ -4,8 +4,8 @@
   "url": "https://openart.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "OpenArt delivers AI-assisted capabilities for image generation & editing teams via openart.ai.",
-  "description": "OpenArt delivers AI-assisted capabilities for image generation & editing teams via openart.ai. Check the pricing page before production use.\n\nFeature: OpenArt ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "OpenArt: OpenArt is an AI product for image generation.",
+  "description": "OpenArt is an AI product for image generation.",
   "categories": [
     "image"
   ],
@@ -27,10 +27,7 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "OpenArt ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "OpenArt is an AI product for image generation."
   ],
   "howToUse": [
     {
@@ -55,5 +52,8 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "OpenArt est un produit d'IA pour la génération d'images."
   ]
 }

@@ -4,10 +4,10 @@
   "url": "https://dext.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Dext is an AI product in the Finance & Accounting space with official hosting at dext.com.",
-  "description": "Dext is an AI product in the Finance & Accounting space with official hosting at dext.com.\n\nExtraction automatique de factures et reçus. Check the pricing page before production use.\n\nFeature: Dext ships the main workflow advertised on its official site.",
+  "summary": "Dext: Automatic extraction of invoices and receipts.",
+  "description": "Dext helps teams with automatic extraction of invoices and receipts.",
   "summary_fr": "Extraction automatique de factures et reçus.",
-  "description_fr": "Extraction automatique de factures et reçus. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Extraction automatique de factures et reçus.",
   "categories": [
     "finance"
   ],
@@ -20,7 +20,7 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://dext.com"
   },
   "logo": "/logos/dext.png",
@@ -28,16 +28,12 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Dext ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Automatic extraction of invoices and receipts.",
+    "Dext helps teams with automatic extraction of invoices and receipts."
   ],
   "features_fr": [
-    "Dext propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Extraction automatique de factures et reçues.",
+    "Axé sur les workflows financiers."
   ],
   "howToUse": [
     {

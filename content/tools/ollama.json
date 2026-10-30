@@ -53,5 +53,17 @@
       "title": "Pick a cloud usage plan",
       "description": "When local hardware is not enough, compare paid cloud plans. They start with Pro at $20 per month and Max at $100 per month, with more usage on the higher tier."
     }
+  ],
+  "features": [
+    "Tool to run open models locally or in Ollama's cloud on macOS, Windows and Linux.",
+    "Ollama lets developers download and run open-weight models locally through a command-line tool, a desktop app and a local API.",
+    "It also offers cloud-hosted models for larger workloads, and states that prompts are not stored or used for training.",
+    "Paid cloud plans start with Pro at $20 per month and Max at $100 per month, which include more usage."
+  ],
+  "features_fr": [
+    "Outil pour exécuter des modèles ouverts localement ou dans le cloud d'Ollama sur macOS, Windows et Linux.",
+    "Ollama permet aux développeurs de télécharger et d'exécuter localement des modèles à poids ouvert via un outil de ligne de commande, une application de bureau et une API locale.",
+    "Il propose également des modèles hébergés dans le cloud pour les charges de travail plus importantes et indique que les invites ne sont pas stockées ni utilisées pour la formation.",
+    "Les forfaits cloud payants commencent par Pro à 20 $ par mois et Max à 100 $ par mois, qui incluent une utilisation accrue."
   ]
 }

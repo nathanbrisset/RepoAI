@@ -4,10 +4,10 @@
   "url": "https://iris.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Iris.ai is an AI product in the Search & Research space with official hosting at iris.ai.",
-  "description": "Iris.ai is an AI product in the Search & Research space with official hosting at iris.ai.\n\nExploration de littérature scientifique par IA. Check the pricing page before production use.\n\nFeature: Iris.ai ships the main workflow advertised on its official site.",
+  "summary": "Iris.ai: AI scientific literature exploration.",
+  "description": "Iris.ai helps teams with aI scientific literature exploration.",
   "summary_fr": "Exploration de littérature scientifique par IA.",
-  "description_fr": "Exploration de littérature scientifique par IA. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Exploration de littérature scientifique par IA.",
   "categories": [
     "search"
   ],
@@ -20,24 +20,21 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://iris.ai"
   },
   "logo": "/logos/iris.png",
-  "image": "",
+  "image": "/screenshots/iris.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Iris.ai ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "AI scientific literature exploration.",
+    "Iris.ai helps teams with aI scientific literature exploration."
   ],
   "features_fr": [
-    "Iris.ai propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Exploration de la littérature scientifique sur l’IA.",
+    "Axé sur les workflows de recherche.",
+    "Iris.ai inclut des fonctionnalités de recherche."
   ],
   "howToUse": [
     {

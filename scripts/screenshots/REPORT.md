@@ -1,6 +1,6 @@
 # Captures d'écran du catalogue
 
-Généré le 2026-10-29. Les fiches sunset sont exclues. Les captures ratées ne sont pas publiées.
+Généré le 2026-10-30. Les fiches sunset sont exclues. Les captures ratées ne sont pas publiées.
 
 ## Audit des images avant remplacement
 
@@ -27,14 +27,14 @@ Les PNG historiques dans `public/tool-screenshots` sont des captures plein cadre
 
 | Issue | Nombre |
 | --- | ---: |
-| Captures réussies | 526 |
-| Captures ratées | 18 |
+| Captures réussies | 627 |
+| Captures ratées | 7 |
 | Image actuelle conservée | 5 |
-| Visuel de repli (logo) | 13 |
-| Poids de public/screenshots | 29.8 Mio |
+| Visuel de repli (logo) | 2 |
+| Poids de public/screenshots | 34.0 Mio |
 | Poids restant de public/tool-screenshots | 38.0 Mio |
 
-Ratées par type : login 1, captcha 9, error 6, empty 2.
+Ratées par type : error 2, captcha 5.
 
 ## Images publiées avec une note
 
@@ -43,7 +43,6 @@ Ratées par type : login 1, captcha 9, error 6, empty 2.
 | adobe-marketo-engage | Capture de https://business.adobe.com/products/marketo.html, URL finale du navigateur. |
 | autoregex | Page produit visible. Un iframe captcha est dans le DOM mais ne couvre pas la page. |
 | character-ai | Capture de character.ai. |
-| chatcode | Rendu attendu (fond #343541, titre, champ Ask Code). La page ne contient rien d'autre. |
 | claude-3 | Capture de claude.com, le site marketing officiel. claude.ai répond 403. |
 | clipdroprelight | Image officielle og:image de clipdrop.co/relight. La page elle-même est un interstitiel. |
 | codepal | Image officielle og:image de codepal.ai. La page elle-même est un captcha. |
@@ -62,21 +61,10 @@ Ratées par type : login 1, captcha 9, error 6, empty 2.
 
 | id | nom | type | détail | décision |
 | --- | --- | --- | --- | --- |
-| chatgpt-atlas | ChatGPT Atlas | login | Page de connexion | repli logo |
-| civitai | Civitai | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | claude | Claude | error | HTTP 403 | image actuelle |
-| clio | Clio | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | codeassist | CodeAssist | captcha | Cloudflare : blocage dur (Sorry, you have been blocked) | image actuelle |
-| freshdesk-freddy | Freshdesk Freddy | error | HTTP 404 | repli logo |
 | growthbar | GrowthBar | captcha | Captcha ou interstitiel anti-bot | image actuelle |
-| lavender | Lavender | empty | Capture quasi uniforme | repli logo |
-| liner | Liner | error | HTTP 410 | repli logo |
 | lovo | LOVO | error | HTTP 402 | image actuelle |
-| magnific | Magnific AI | error | page.screenshot: Protocol error (Page.captureScreenshot): Unable to capture screenshot | repli logo |
-| opera-aria | Opera Aria | error | HTTP 404 | repli logo |
 | perplexity-ai | Perplexity | captcha | Captcha ou interstitiel anti-bot | image actuelle |
 | remini | Remini | captcha | Captcha ou interstitiel anti-bot | repli logo |
 | ttsmaker | TTSMaker | captcha | Captcha ou interstitiel anti-bot | repli logo |
-| turboscribe | TurboScribe | captcha | Captcha ou interstitiel anti-bot | repli logo |
-| wan | Wan | empty | Page vide | repli logo |
-| zerogpt | ZeroGPT | captcha | Captcha ou interstitiel anti-bot | repli logo |

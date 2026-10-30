@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI Agent for Coding - Refact.ai adapts to your workflow, automating coding, debugging, and testing with full context awareness. An open-source alternative to Cursor and Copilot, Refact.ai can be deployed on-premise.",
-  "description": "AI Agent for Coding - Refact.ai adapts to your workflow, automating coding, debugging, and testing with full context awareness. An open-source alternative to Cursor and Copilot, Refact.ai can be deployed on-premise.\n\nReal-time suggestions: Offers inline coding help. Supports major IDEs: Integration with JetBrains and VS Code. Secure development: Runs locally for sensitive projects. Custom prompts: Generate specific code with natural input.",
+  "description": "AI Agent for Coding - Refact.ai adapts to your workflow, automating coding, debugging, and testing with full context awareness. An open-source alternative to Cursor and Copilot, Refact.ai can be deployed on-premise. Real-time suggestions: Offers inline coding help. Supports major IDEs: Integration with JetBrains and VS Code. Secure development: Runs locally for sensitive projects. Custom prompts: Generate specific code with natural input.",
   "categories": [
     "coding"
   ],
@@ -48,5 +48,11 @@
       "title": "Customize Prompts",
       "description": "Write custom prompts to generate or refactor code for specific needs."
     }
+  ],
+  "features_fr": [
+    "Suggestions en temps réel : offre une aide au codage en ligne.",
+    "Prend en charge les principaux IDE : intégration avec JetBrains et VS Code.",
+    "Développement sécurisé : s'exécute localement pour les projets sensibles.",
+    "Invites personnalisées : générez du code spécifique avec une saisie naturelle."
   ]
 }

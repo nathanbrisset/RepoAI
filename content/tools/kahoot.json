@@ -4,10 +4,10 @@
   "url": "https://kahoot.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Kahoot! is an AI product in the Education & Learning space with official hosting at kahoot.com.",
-  "description": "Kahoot! is an AI product in the Education & Learning space with official hosting at kahoot.com.\n\nQuiz interactifs générés par IA. Check the pricing page before production use.\n\nFeature: Kahoot! ships the main workflow advertised on its official site.",
+  "summary": "Kahoot!: Interactive AI-generated quizzes.",
+  "description": "Kahoot! helps teams with interactive AI-generated quizzes.",
   "summary_fr": "Quiz interactifs générés par IA.",
-  "description_fr": "Quiz interactifs générés par IA. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Quiz interactifs générés par IA.",
   "categories": [
     "education"
   ],
@@ -24,20 +24,16 @@
     "sourceUrl": "https://kahoot.com"
   },
   "logo": "/logos/kahoot.png",
-  "image": "",
+  "image": "/screenshots/kahoot.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Kahoot! ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Interactive AI-generated quizzes.",
+    "helps teams with interactive AI-generated quizzes."
   ],
   "features_fr": [
-    "Kahoot! propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Quiz interactifs générés par l'IA.",
+    "Kahoot ! comprend les capacités éducatives."
   ],
   "howToUse": [
     {

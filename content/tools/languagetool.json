@@ -4,8 +4,8 @@
   "url": "https://languagetool.org/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "LanguageTool is an AI product in the Writing & Content space with official hosting at languagetool.org.",
-  "description": "LanguageTool is an AI product in the Writing & Content space with official hosting at languagetool.org. Check the pricing page before production use.\n\nFeature: LanguageTool ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "LanguageTool — AI for writing and content at languagetool.org.",
+  "description": "LanguageTool — AI for writing and content at languagetool.org.",
   "categories": [
     "writing"
   ],
@@ -27,10 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "LanguageTool ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "LanguageTool — grammar: capabilities described on languagetool.org.",
+    "LanguageTool — multilingual: capabilities described on languagetool.org.",
+    "LanguageTool — browser: capabilities described on languagetool.org.",
+    "LanguageTool — writing: capabilities described on languagetool.org."
   ],
   "howToUse": [
     {
@@ -55,5 +55,11 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "LanguageTool — grammaire : fonctionnalités décrites sur languagetool.org.",
+    "LanguageTool — multilingue : fonctionnalités décrites sur languagetool.org.",
+    "LanguageTool — navigateur : fonctionnalités décrites sur languagetool.org.",
+    "LanguageTool — écriture : capacités décrites sur languagetool.org."
   ]
 }

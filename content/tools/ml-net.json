@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "inactive",
   "summary": "ML.NET is a machine learning framework for .NET. ML.NET supports sentiment analysis, price prediction, fraud detection, and more using custom models.",
-  "description": "ML.NET is a machine learning framework for .NET. ML.NET supports sentiment analysis, price prediction, fraud detection, and more using custom models.\n\nMachine Learning for .NET: Brings machine learning capabilities to .NET applications. Model Training and Deployment: Facilitates the entire machine learning lifecycle. Support for Various Algorithms: Includes classification, regression, clustering, and more. Integration with Visual Studio: Provides tools within the Visual Studio environment.",
+  "description": "ML.NET is a machine learning framework for .NET. ML.NET supports sentiment analysis, price prediction, fraud detection, and more using custom models. Machine Learning for .NET: Brings machine learning capabilities to .NET applications. Model Training and Deployment: Facilitates the entire machine learning lifecycle. Support for Various Algorithms: Includes classification, regression, clustering, and more. Integration with Visual Studio: Provides tools within the Visual Studio environment.",
   "categories": [
     "coding"
   ],
@@ -49,5 +49,11 @@
       "description": "Add predictions and ML features to your .NET applications."
     }
   ],
-  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
+  "features_fr": [
+    "Machine Learning pour .NET : apporte des fonctionnalités de machine learning aux applications .NET.",
+    "Formation et déploiement de modèles : facilite l'ensemble du cycle de vie de l'apprentissage automatique.",
+    "Prise en charge de divers algorithmes : inclut la classification, la régression, le clustering, etc.",
+    "Intégration avec Visual Studio : fournit des outils dans l'environnement Visual Studio."
+  ]
 }

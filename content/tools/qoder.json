@@ -4,10 +4,10 @@
   "url": "https://qoder.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Qoder is an AI product in the Coding space with official hosting at qoder.com.",
-  "description": "Qoder is an AI product in the Coding space with official hosting at qoder.com.\n\nIDE agentique d'Alibaba. Check the pricing page before production use.\n\nFeature: Qoder ships the main workflow advertised on its official site.",
+  "summary": "Qoder: Alibaba agentic IDE.",
+  "description": "Qoder helps teams with alibaba agentic IDE.",
   "summary_fr": "IDE agentique d'Alibaba.",
-  "description_fr": "IDE agentique d'Alibaba. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "IDE agentique d'Alibaba.",
   "categories": [
     "coding"
   ],
@@ -24,20 +24,16 @@
     "sourceUrl": "https://qoder.com"
   },
   "logo": "/logos/qoder.png",
-  "image": "",
+  "image": "/screenshots/qoder.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Qoder ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Alibaba agentic IDE.",
+    "Qoder helps teams with alibaba agentic IDE."
   ],
   "features_fr": [
-    "Qoder propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "IDE agentique d'Alibaba.",
+    "qoder.com décrit les capacités, limites et inscription de Qoder."
   ],
   "howToUse": [
     {

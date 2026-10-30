@@ -59,7 +59,7 @@ const TAGS_FR: Record<string, string> = {
   "Business Cards": "Cartes de visite",
   "Business Intelligence": "Informatique décisionnelle",
   "Campaign Management": "Gestion de campagnes",
-  captions: "sous-titres",
+  captions: "sous titres",
   "Character Generation": "Génération de personnages",
   characters: "personnages",
   Charts: "Graphiques",
@@ -241,7 +241,7 @@ const TAGS_FR: Record<string, string> = {
   "Neural Networks": "Réseaux de neurones",
   News: "Actualités",
   "No Code": "No-code",
-  "no-code": "no-code",
+  "no-code": "sans code",
   "Noise Cancellation": "Réduction de bruit",
   "Noise Removal": "Suppression du bruit",
   "Note Taking": "Prise de notes",
@@ -411,17 +411,235 @@ const TAGS_FR: Record<string, string> = {
   writing: "écriture",
   Writing: "Écriture",
   "Writing Assistant": "Assistant d'écriture",
+  ai: "IA",
+  catalog: "catalogue",
+  academic: "académique",
+  accounting: "comptabilité",
+  bots: "bots",
+  bytedance: "ByteDance",
+  china: "Chine",
+  "code-suggestions": "suggestions de code",
+  "coding-questions": "questions de code",
+  content: "contenu",
+  detection: "détection",
+  discontinued: "abandonné",
+  "developer-support": "support développeur",
+  editor: "éditeur",
+  education: "éducation",
+  "free-scan": "gratuit",
+  french: "français",
+  freshworks: "Freshworks",
+  grammar: "grammaire",
+  helpdesk: "helpdesk",
+  highlight: "surlignage",
+  knowledge: "connaissances",
+  "knowledge-management": "gestion des connaissances",
+  llm: "LLM",
+  models: "modèles",
+  multimodal: "multimodal",
+  "note-taking": "prise de notes",
+  open: "ouvert",
+  outreach: "prospection",
+  pdf: "PDF",
+  proofreading: "relecture",
+  sdr: "SDR",
+  "task-management": "gestion des tâches",
+  text: "texte",
+  video: "vidéo",
+  "video-gen": "génération vidéo",
+  anthropic: "Anthropic",
+  openai: "OpenAI",
+  chatgpt: "ChatGPT",
+  "low-code": "low code",
+  "e-mail": "courriel",
+  "sous-titres": "sous titres",
+}
+
+/** English token → French label for unknown kebab tags (UI copy, not slugs). */
+const TAG_WORD_FR: Record<string, string> = {
+  ai: "IA",
+  code: "code",
+  video: "vidéo",
+  open: "open",
+  generation: "génération",
+  source: "source",
+  to: "vers",
+  image: "image",
+  data: "données",
+  text: "texte",
+  agents: "agents",
+  coding: "codage",
+  no: "sans",
+  agent: "agent",
+  design: "design",
+  art: "art",
+  music: "musique",
+  learning: "apprentissage",
+  editing: "édition",
+  social: "social",
+  search: "recherche",
+  language: "langue",
+  builder: "constructeur",
+  assistant: "assistant",
+  web: "web",
+  voice: "voix",
+  machine: "machine",
+  notes: "notes",
+  automation: "automatisation",
+  management: "gestion",
+  model: "modèle",
+  review: "revue",
+  media: "médias",
+  speech: "parole",
+  content: "contenu",
+  multi: "multi",
+  removal: "suppression",
+  natural: "naturel",
+  analysis: "analyse",
+  app: "application",
+  developer: "développeur",
+  tools: "outils",
+  business: "entreprise",
+  apps: "applications",
+  photo: "photo",
+  llm: "LLM",
+  meeting: "réunion",
+  email: "courriel",
+  lead: "prospects",
+  time: "temps",
+  models: "modèles",
+  intelligence: "intelligence",
+  self: "auto",
+  hosted: "hébergé",
+  editor: "éditeur",
+  background: "arrière-plan",
+  legal: "juridique",
+  research: "recherche",
+  low: "low",
+  marketing: "marketing",
+  cloud: "cloud",
+  calls: "appels",
+  vibe: "vibe",
+  browser: "navigateur",
+  gen: "gen",
+  ide: "IDE",
+  processing: "traitement",
+  cloning: "clonage",
+  api: "API",
+  ui: "interface",
+  free: "gratuit",
+  ambient: "ambiant",
+  scribe: "transcription",
+  ad: "publicité",
+  ads: "publicités",
+  edit: "édition",
+  prep: "préparation",
+  optimization: "optimisation",
+  integration: "intégration",
+  small: "PME",
+  clinical: "clinique",
+  sales: "ventes",
+  creative: "créatif",
+  creatives: "créatifs",
+  fill: "remplissage",
+  generative: "générative",
+  customer: "client",
+  support: "support",
+  chat: "chat",
+  bot: "bot",
+  workflow: "flux",
+  workflows: "flux",
+  enterprise: "entreprise",
+  team: "équipe",
+  teams: "équipes",
+  document: "document",
+  documents: "documents",
+  audio: "audio",
+  transcription: "transcription",
+  summary: "résumé",
+  summarization: "résumé",
+  detection: "détection",
+  scan: "analyse",
+  writing: "écriture",
+  academic: "académique",
+  outreach: "prospection",
+  coaching: "coaching",
+  finance: "finance",
+  expense: "dépenses",
+  card: "carte",
+  cards: "cartes",
+  phone: "téléphone",
+  multimodal: "multimodal",
+  discontinued: "abandonné",
+}
+
+const KEBAB_COMPOUND_FR: Record<string, string> = {
+  "open-source": "open source",
+  "no-code": "sans code",
+  "low-code": "low code",
+  "vibe-coding": "vibe coding",
+  "note-taking": "prise de notes",
+  "task-management": "gestion des tâches",
+  "knowledge-management": "gestion des connaissances",
+  "lead-management": "gestion des prospects",
+  "sales-automation": "automatisation commerciale",
+  "code-suggestions": "suggestions de code",
+  "coding-questions": "questions de code",
+  "developer-support": "support développeur",
+  "video-gen": "génération vidéo",
+  "text-to-image": "texte vers image",
+  "text-to-video": "texte vers vidéo",
+  "image-to-video": "image vers vidéo",
+  "image-generation": "génération d'images",
+  "image-editing": "retouche d'image",
+  "background-removal": "détourage",
+  "meeting-notes": "notes de réunion",
+  "voice-cloning": "clonage de voix",
+  "ai-agents": "agents IA",
+  "coding-agent": "agent de code",
+  "ai-agent": "agent IA",
+  "free-scan": "gratuit",
+  "ambient-scribe": "transcription ambiante",
+  "clinical-notes": "notes cliniques",
+  "ad-creatives": "créatifs publicitaires",
+  "generative-fill": "remplissage génératif",
+}
+
+function isKebabSlug(value: string) {
+  return /^[a-z0-9]+(-[a-z0-9]+)+$/.test(value.trim())
+}
+
+function humanizeKebabTag(tag: string) {
+  const key = tag.trim().toLowerCase()
+  if (TAGS_FR[key]) return TAGS_FR[key]
+  if (KEBAB_COMPOUND_FR[key]) return KEBAB_COMPOUND_FR[key]
+  const parts = key.split("-")
+  const words: string[] = []
+  for (let i = 0; i < parts.length; i++) {
+    const part = parts[i]
+    if (part === "to" && i > 0 && i < parts.length - 1) {
+      words.push("vers")
+      continue
+    }
+    words.push(TAG_WORD_FR[part] ?? TAGS_FR[part] ?? part)
+  }
+  return words.join(" ")
 }
 
 export function translateTag(tag: string) {
-  return TAGS_FR[tag] || tag
+  const trimmed = tag.trim()
+  if (TAGS_FR[trimmed]) return TAGS_FR[trimmed]
+  if (isKebabSlug(trimmed)) return humanizeKebabTag(trimmed)
+  return TAG_WORD_FR[trimmed.toLowerCase()] ?? trimmed
 }
 
 export function translateTags(tags?: string[], tagsFr?: string[]) {
   if (!tags) return tags
   return tags.map((tag, index) => {
-    const explicit = tagsFr?.[index]
-    if (explicit && tagsFr && tagsFr.length === tags.length) return explicit
+    const explicit = tagsFr?.[index]?.trim()
+    if (explicit && tagsFr && tagsFr.length === tags.length && !isKebabSlug(explicit)) {
+      return explicit
+    }
     return translateTag(tag)
   })
 }

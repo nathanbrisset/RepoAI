@@ -53,5 +53,17 @@
       "title": "Run parallel agents and watch credits",
       "description": "Run parallel agents across a large codebase, on your machine or in the cloud. Kiro Free includes 50 credits per month. Pro costs $20 per user per month with 1,000 credits, Pro+ costs $40, and extra credits cost $0.04 each. The page also offers a $20 credit when you first sign up for a paid plan with social login or a Builder ID."
     }
+  ],
+  "features": [
+    "AWS-backed agentic IDE that turns prompts into specifications, then plans and writes code.",
+    "Kiro is an agentic development environment from AWS.",
+    "It converts prompts into executable specifications, checks code correctness to find bugs that unit tests miss and runs parallel agents across large codebases.",
+    "Users sign in with social login or an AWS Builder ID."
+  ],
+  "features_fr": [
+    "IDE agentique soutenu par AWS qui transforme les invites en spécifications, puis planifie et écrit le code.",
+    "Kiro est un environnement de développement agent d'AWS.",
+    "Il convertit les invites en spécifications exécutables, vérifie l'exactitude du code pour détecter les bogues manqués par les tests unitaires et exécute des agents parallèles sur de grandes bases de code.",
+    "Les utilisateurs se connectent avec une connexion sociale ou un ID AWS Builder."
   ]
 }

@@ -51,5 +51,17 @@
       "title": "Pick Starter, Pro, or enterprise",
       "description": "A Starter plan for individual developers includes 50 credits per month at no charge. Pro is for teams, and enterprise plans add compliance features. The company announced a $50M Series B, which the homepage also reports."
     }
+  ],
+  "features": [
+    "AI code review that indexes the whole repository to review pull requests in context.",
+    "Greptile reviews pull requests using an index of the entire codebase, so comments can reference code outside the diff.",
+    "It supports custom rules, learns from feedback and adds security review and runtime validation features.",
+    "A Starter plan for individual developers is free with 50 credits per month, Pro is for teams, and enterprise plans add compliance features."
+  ],
+  "features_fr": [
+    "Révision du code IA qui indexe l'ensemble du référentiel pour examiner les demandes d'extraction en contexte.",
+    "Greptile examine les demandes d'extraction en utilisant un index de l'intégralité de la base de code, afin que les commentaires puissent référencer du code en dehors du diff.",
+    "Il prend en charge les règles personnalisées, apprend des commentaires et ajoute des fonctionnalités d'examen de sécurité et de validation d'exécution.",
+    "Un plan Starter pour les développeurs individuels est gratuit avec 50 crédits par mois, Pro est destiné aux équipes et les plans d'entreprise ajoutent des fonctionnalités de conformité."
   ]
 }

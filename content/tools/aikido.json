@@ -48,5 +48,17 @@
       "title": "Read the filtered findings",
       "description": "Read the findings after they are filtered, which reduces noise for developers. Two users can keep the Developer plan forever without a card. The pricing page shows paid plans priced in euros."
     }
+  ],
+  "features": [
+    "Developer-focused security platform covering code, dependencies, containers, cloud and runtime.",
+    "Aikido combines security scanning for dependencies, malware, SAST, secrets, licences, infrastructure as code, containers, cloud misconfigurations and Kubernetes, and adds AI pentesting and automatic fixes.",
+    "Findings are filtered to reduce noise for developers.",
+    "The Developer plan is free forever for two users with no card; paid plans are priced in euros on the pricing page."
+  ],
+  "features_fr": [
+    "Plateforme de sécurité axée sur les développeurs couvrant le code, les dépendances, les conteneurs, le cloud et le runtime.",
+    "Aikido combine l'analyse de sécurité des dépendances, des logiciels malveillants, des SAST, des secrets, des licences, de l'infrastructure en tant que code, des conteneurs, des erreurs de configuration du cloud et de Kubernetes, et ajoute des tests d'intrusion et des correctifs automatiques.",
+    "Les résultats sont filtrés pour réduire le bruit pour les développeurs.",
+    "Le forfait Développeur est gratuit pour toujours pour deux utilisateurs sans carte ; les forfaits payants sont tarifés en euros sur la page tarification."
   ]
 }

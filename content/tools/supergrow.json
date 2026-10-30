@@ -4,10 +4,10 @@
   "url": "https://www.supergrow.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Supergrow is an AI product in the Marketing space with official hosting at supergrow.ai.",
-  "description": "Supergrow is an AI product in the Marketing space with official hosting at supergrow.ai.\n\nPosts LinkedIn rédigés et planifiés par IA. Check the pricing page before production use.\n\nFeature: Supergrow ships the main workflow advertised on its official site.",
+  "summary": "Supergrow: AI-written and scheduled LinkedIn posts.",
+  "description": "Supergrow helps teams with aI-written and scheduled LinkedIn posts.",
   "summary_fr": "Posts LinkedIn rédigés et planifiés par IA.",
-  "description_fr": "Posts LinkedIn rédigés et planifiés par IA. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Posts LinkedIn rédigés et planifiés par IA.",
   "categories": [
     "marketing"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.supergrow.ai"
   },
   "logo": "/logos/supergrow.png",
-  "image": "",
+  "image": "/screenshots/supergrow.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Supergrow ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "AI-written and scheduled LinkedIn posts.",
+    "Supergrow helps teams with aI-written and scheduled LinkedIn posts."
   ],
   "features_fr": [
-    "Supergrow propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Posts LinkedIn rédigés.",
+    "Planifiés par IA."
   ],
   "howToUse": [
     {

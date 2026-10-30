@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI-powered paraphrasing tool that helps you rewrite and improve your text while maintaining its meaning.",
-  "description": "AI-powered paraphrasing tool that helps you rewrite and improve your text while maintaining its meaning.\n\nParaphraser: Rewrites sentences while preserving the original meaning. Grammar Checker: Detects and corrects grammatical errors in your text. Summarizer: Condenses articles, papers, or documents into key points. Citation Generator: Automatically generates citations in various styles.",
+  "description": "AI-powered paraphrasing tool that helps you rewrite and improve your text while maintaining its meaning. Paraphraser: Rewrites sentences while preserving the original meaning. Grammar Checker: Detects and corrects grammatical errors in your text. Summarizer: Condenses articles, papers, or documents into key points. Citation Generator: Automatically generates citations in various styles.",
   "categories": [
     "writing"
   ],
@@ -22,7 +22,7 @@
     "sourceUrl": "https://help.quillbot.com/hc/en-us/articles/36491424881943-What-is-the-price-of-Quillbot-Premium"
   },
   "logo": "/logos/quillbot.png",
-  "image": "/screenshots/quillbot.webp",
+  "image": "/tool-screenshots/quillbot.png",
   "dateAdded": "2021-03-20",
   "lastVerified": "2026-10-21",
   "features": [
@@ -54,5 +54,11 @@
       "title": "Review & Copy Output",
       "description": "Copy or export the improved content."
     }
+  ],
+  "features_fr": [
+    "Paraphraser : réécrit les phrases tout en préservant le sens original.",
+    "Vérificateur de grammaire : détecte et corrige les erreurs grammaticales dans votre texte.",
+    "Récapitulateur : condense les articles, articles ou documents en points clés.",
+    "Générateur de citations : génère automatiquement des citations dans différents styles."
   ]
 }

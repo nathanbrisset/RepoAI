@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Adobe Firefly is Adobe's generative AI model for creative professionals. It enables image generation, text effects, and vector creation using natural language prompts. Deeply integrated with Adobe Creative Cloud, Firefly empowers designers to rapidly prototype and enhance projects with AI-powered visuals tailored for commercial use.",
-  "description": "Adobe Firefly is Adobe's generative AI model for creative professionals. It enables image generation, text effects, and vector creation using natural language prompts. Deeply integrated with Adobe Creative Cloud, Firefly empowers designers to rapidly prototype and enhance projects with AI-powered visuals tailored for commercial use.\n\nText-to-Image: Create images from descriptions. Text Effects: Apply unique styles to text for branding. Vector Generation: Produce vector art with AI assistance. Seamless Integration: Works within Adobe Photoshop and Illustrator.",
+  "description": "Adobe Firefly is Adobe's generative AI model for creative professionals. It enables image generation, text effects, and vector creation using natural language prompts. Deeply integrated with Adobe Creative Cloud, Firefly empowers designers to rapidly prototype and enhance projects with AI-powered visuals tailored for commercial use. Text-to-Image: Create images from descriptions. Text Effects: Apply unique styles to text for branding. Vector Generation: Produce vector art with AI assistance. Seamless Integration: Works within Adobe Photoshop and Illustrator.",
   "categories": [
     "image"
   ],
@@ -30,8 +30,7 @@
     "Text-to-Image: Create images from descriptions.",
     "Text Effects: Apply unique styles to text for branding.",
     "Vector Generation: Produce vector art with AI assistance.",
-    "Seamless Integration: Works within Adobe Photoshop and Illustrator.",
-    "Commercial Use: Outputs designed to be safe for business projects."
+    "Seamless Integration: Works within Adobe Photoshop and Illustrator."
   ],
   "howToUse": [
     {
@@ -56,5 +55,11 @@
       "title": "Export or Integrate",
       "description": "Download outputs or use them in Photoshop, Illustrator, or other Adobe apps."
     }
+  ],
+  "features_fr": [
+    "Text-to-Image : créez des images à partir de descriptions.",
+    "Effets de texte : appliquez des styles uniques au texte pour la personnalisation.",
+    "Génération de vecteurs : produisez des œuvres d'art vectorielles avec l'aide de l'IA.",
+    "Intégration transparente : fonctionne avec Adobe Photoshop et Illustrator."
   ]
 }

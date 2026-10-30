@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "inactive",
   "summary": "Kaggle Kernels is a cloud-based code environment that enables data scientists and analysts to write, run, and share code in Python and R directly in the browser. It provides free access to GPUs and TPUs, seamless integration with Kaggle datasets and competitions, and version control for collaborative projects. With an active community and built-in sharing features, Kaggle Kernels accelerates the prototyping, experimentation, and sharing of data science and machine learning projects.",
-  "description": "Kaggle Kernels is a cloud-based code environment that enables data scientists and analysts to write, run, and share code in Python and R directly in the browser. It provides free access to GPUs and TPUs, seamless integration with Kaggle datasets and competitions, and version control for collaborative projects. With an active community and built-in sharing features, Kaggle Kernels accelerates the prototyping, experimentation, and sharing of data science and machine learning projects.\n\nExplore and run AI code in free cloud notebooks with GPUs. Access public datasets, share your work, and collaborate with a community of millions of AI builders.\n\nFree GPU/TPU Access: Run computationally intensive code at no cost. Seamless Dataset Access: Direct integration with Kaggle datasets and competitions. Version Control: Automatically save and track changes in notebooks. Real-Time Collaboration: Share and work on code together with others.",
+  "description": "Kaggle Kernels is a cloud-based code environment that enables data scientists and analysts to write, run, and share code in Python and R directly in the browser. It provides free access to GPUs and TPUs, seamless integration with Kaggle datasets and competitions, and version control for collaborative projects. With an active community and built-in sharing features, Kaggle Kernels accelerates the prototyping, experimentation, and sharing of data science and machine learning projects. Explore and run AI code in free cloud notebooks with GPUs. Access public datasets, share your work, and collaborate with a community of millions of AI builders. Free GPU/TPU Access: Run computationally intensive code at no cost. Seamless Dataset Access: Direct integration with Kaggle datasets and competitions. Version Control: Automatically save and track changes in notebooks. Real-Time Collaboration: Share and work on code together with others.",
   "categories": [
     "data"
   ],
@@ -21,7 +21,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/kaggle_kernels.png",
-  "image": "/screenshots/kaggle_kernels.webp",
+  "image": "/tool-screenshots/kaggle_kernels.png",
   "dateAdded": null,
   "lastVerified": "2026-10-29",
   "dateAddedNote": "The previous Added date was 2016-09-01. It was removed because it is not a credible date for this directory.",
@@ -29,8 +29,7 @@
     "Free GPU/TPU Access: Run computationally intensive code at no cost.",
     "Seamless Dataset Access: Direct integration with Kaggle datasets and competitions.",
     "Version Control: Automatically save and track changes in notebooks.",
-    "Real-Time Collaboration: Share and work on code together with others.",
-    "Multiple Language Support: Native support for Python and R scripts."
+    "Real-Time Collaboration: Share and work on code together with others."
   ],
   "howToUse": [
     {
@@ -56,5 +55,11 @@
       "description": "Share kernels publicly or with teams, and collaborate in real time."
     }
   ],
-  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
+  "features_fr": [
+    "Accès GPU/TPU gratuit : exécutez gratuitement du code gourmand en calcul.",
+    "Accès transparent aux ensembles de données : intégration directe avec les ensembles de données et les compétitions Kaggle.",
+    "Contrôle de version : enregistrez et suivez automatiquement les modifications dans les blocs-notes.",
+    "Collaboration en temps réel : partagez et travaillez sur du code avec d'autres."
+  ]
 }

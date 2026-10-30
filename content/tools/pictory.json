@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Convert scripts or articles into shareable videos using AI.",
-  "description": "Convert scripts or articles into shareable videos using AI.\n\nScript to Video: Convert scripts into professional-quality videos with AI voices. Blog to Video: Transform blog posts into engaging videos. Auto Captioning: Automatically generate captions for videos. Video Summarization: Summarize long videos into short highlights.",
+  "description": "Convert scripts or articles into shareable videos using AI. Script to Video: Convert scripts into professional-quality videos with AI voices. Blog to Video: Transform blog posts into engaging videos. Auto Captioning: Automatically generate captions for videos. Video Summarization: Summarize long videos into short highlights.",
   "categories": [
     "video"
   ],
@@ -22,7 +22,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/pictory.png",
-  "image": "/screenshots/pictory.webp",
+  "image": "/tool-screenshots/pictory.png",
   "dateAdded": "2022-06-10",
   "lastVerified": null,
   "features": [
@@ -54,5 +54,11 @@
       "title": "Export & Share",
       "description": "Download or publish your finished video."
     }
+  ],
+  "features_fr": [
+    "Script en vidéo : convertissez des scripts en vidéos de qualité professionnelle avec des voix IA.",
+    "Blog en vidéo : transformez les articles de blog en vidéos attrayantes.",
+    "Sous-titres automatiques : générez automatiquement des sous-titres pour les vidéos.",
+    "Résumé vidéo : résumez les longues vidéos en courts moments forts."
   ]
 }

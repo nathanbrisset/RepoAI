@@ -4,8 +4,8 @@
   "url": "https://klap.app/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Klap is an AI product in the Video space with official hosting at klap.app.",
-  "description": "Klap is an AI product in the Video space with official hosting at klap.app. Check the pricing page before production use.\n\nFeature: Klap ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Klap — video software with an official web app.",
+  "description": "Klap — video software with an official web app.",
   "categories": [
     "video"
   ],
@@ -26,12 +26,7 @@
   "image": "/screenshots/klap.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
-  "features": [
-    "Klap ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
-  ],
+  "features": [],
   "howToUse": [
     {
       "title": "Sign up on Klap",
@@ -55,5 +50,9 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Klap — IA pour la création vidéo sur klap.app.",
+    "Klap inclut des fonctionnalités tiktok."
   ]
 }

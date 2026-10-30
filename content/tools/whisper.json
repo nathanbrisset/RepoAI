@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Robust Speech Recognition via Large-Scale Weak Supervision - openai/whisper",
-  "description": "Robust Speech Recognition via Large-Scale Weak Supervision - openai/whisper\n\nMultilingual Transcription: Transcribes speech in over 90 languages. Open-Source: Available for public use and modification. High Accuracy: Delivers precise transcriptions even in challenging conditions. Real-Time Processing: Transcribes audio in real-time.",
+  "description": "Robust Speech Recognition via Large-Scale Weak Supervision - openai/whisper Multilingual Transcription: Transcribes speech in over 90 languages. Open-Source: Available for public use and modification. High Accuracy: Delivers precise transcriptions even in challenging conditions. Real-Time Processing: Transcribes audio in real-time.",
   "categories": [
     "voice"
   ],
@@ -54,5 +54,11 @@
       "title": "Review and Use Output",
       "description": "Retrieve transcriptions in text format for further use."
     }
+  ],
+  "features_fr": [
+    "Transcription multilingue : transcrit la parole dans plus de 90 langues.",
+    "Open-Source : disponible pour un usage public et des modifications.",
+    "Haute précision : fournit des transcriptions précises même dans des conditions difficiles.",
+    "Traitement en temps réel : transcrit l'audio en temps réel."
   ]
 }

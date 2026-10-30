@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "A versatile text-to-speech application that converts written content into natural-sounding audio, featuring over 200 voices across 60+ languages.",
-  "description": "A versatile text-to-speech application that converts written content into natural-sounding audio, featuring over 200 voices across 60+ languages.\n\nSpeechify reads anything aloud to you. Listen to books, PDFs, or web pages anytime with natural voices. Try Speechify free.\n\nAI audio processing: Speechify supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "description": "A versatile text-to-speech application that converts written content into natural-sounding audio, featuring over 200 voices across 60+ languages. Speechify reads anything aloud to you. Listen to books, PDFs, or web pages anytime with natural voices. Try Speechify free.",
   "categories": [
     "voice"
   ],
@@ -24,11 +24,8 @@
   "dateAdded": "2025-06-04",
   "lastVerified": null,
   "features": [
-    "AI audio processing: Speechify supports automated audio analysis and enhancements.",
-    "Transcription support: Provides tools for converting speech to text.",
-    "Noise reduction: Reduces unwanted sounds from audio input.",
-    "Voice synthesis: Can generate or clone voices using AI models.",
-    "User-friendly interface: Simple design for creators and professionals."
+    "A versatile text-to-speech application that converts written content into natural-sounding audio.",
+    "Featuring over 200 voices across 60+ languages."
   ],
   "howToUse": [
     {
@@ -53,5 +50,11 @@
       "title": "Listen, Download, or Share",
       "description": "Listen to generated audio or export/share it as needed."
     }
+  ],
+  "features_fr": [
+    "Application polyvalente de synthèse vocale qui convertit un contenu écrit en audio au son naturel, avec plus de 200 voix dans 60+ langues.",
+    "Speechify vous lit tout à voix haute.",
+    "Écoutez des livres, des PDF ou des pages web à tout moment, avec des voix naturelles.",
+    "Essayez Speechify gratuitement."
   ]
 }

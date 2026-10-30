@@ -4,10 +4,10 @@
   "url": "https://www.dropcontact.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Dropcontact is an AI product in the Sales & CRM space with official hosting at dropcontact.com.",
-  "description": "Dropcontact is an AI product in the Sales & CRM space with official hosting at dropcontact.com.\n\nEnrichissement d'emails B2B conforme RGPD (France). Check the pricing page before production use.\n\nFeature: Dropcontact ships the main workflow advertised on its official site.",
+  "summary": "Dropcontact: GDPR-compliant B2B email enrichment (France).",
+  "description": "Dropcontact helps teams with gDPR-compliant B2B email enrichment (France).",
   "summary_fr": "Enrichissement d'emails B2B conforme RGPD (France).",
-  "description_fr": "Enrichissement d'emails B2B conforme RGPD (France). Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Enrichissement d'emails B2B conforme RGPD (France).",
   "categories": [
     "sales"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.dropcontact.com"
   },
   "logo": "/logos/dropcontact.png",
-  "image": "",
+  "image": "/screenshots/dropcontact.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Dropcontact ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "GDPR-compliant B2B email enrichment (France).",
+    "Dropcontact helps teams with gDPR-compliant B2B email enrichment (France)."
   ],
   "features_fr": [
-    "Dropcontact propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Enrichissement d'emails B2B conforme au RGPD (France).",
+    "Axé sur les workflows de vente."
   ],
   "howToUse": [
     {

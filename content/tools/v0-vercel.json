@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI-powered UI generator that transforms prompts into production-ready React and Tailwind components.",
-  "description": "AI-powered UI generator that transforms prompts into production-ready React and Tailwind components.\n\nYour collaborative AI assistant to design, iterate, and scale full-stack applications for the web.\n\nComponent Generation: Create UI components from text prompts. Code Export: Export components as usable code. Design Customization: Adjust component styles and layouts. Integration with Frameworks: Use components with popular frameworks.",
+  "description": "AI-powered UI generator that transforms prompts into production-ready React and Tailwind components. Your collaborative AI assistant to design, iterate, and scale full-stack applications for the web. Component Generation: Create UI components from text prompts. Code Export: Export components as usable code. Design Customization: Adjust component styles and layouts. Integration with Frameworks: Use components with popular frameworks.",
   "categories": [
     "no-code"
   ],
@@ -53,5 +53,11 @@
       "description": "Customize generated React + Tailwind components and export code for your project."
     }
   ],
-  "statusNote": "v0.dev redirects to v0.app"
+  "statusNote": "v0.dev redirects to v0.app",
+  "features_fr": [
+    "Génération de composants : créez des composants d'interface utilisateur à partir d'invites textuelles.",
+    "Exportation de code : exportez des composants sous forme de code utilisable.",
+    "Personnalisation de la conception : ajustez les styles et les dispositions des composants.",
+    "Intégration avec les frameworks : utilisez des composants avec des frameworks populaires."
+  ]
 }

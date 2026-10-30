@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Ideogram is an AI art tool focused on generating images with text and typography. It enables users to create visually engaging posters, social media content, and graphics by combining AI-powered art generation with customizable fonts and layouts. Ideogram excels at producing images that integrate readable and stylized text.",
-  "description": "Ideogram is an AI art tool focused on generating images with text and typography. It enables users to create visually engaging posters, social media content, and graphics by combining AI-powered art generation with customizable fonts and layouts. Ideogram excels at producing images that integrate readable and stylized text.\n\nText Integration: Generate images with embedded, stylized text. Typography Controls: Customize fonts, size, and placement. Prompt-Based Art: Create unique visuals from descriptions. Templates: Pre-made layouts for posters and graphics.",
+  "description": "Ideogram is an AI art tool focused on generating images with text and typography. It enables users to create visually engaging posters, social media content, and graphics by combining AI-powered art generation with customizable fonts and layouts. Ideogram excels at producing images that integrate readable and stylized text. Text Integration: Generate images with embedded, stylized text. Typography Controls: Customize fonts, size, and placement. Prompt-Based Art: Create unique visuals from descriptions. Templates: Pre-made layouts for posters and graphics.",
   "categories": [
     "image"
   ],
@@ -22,15 +22,14 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/ideogram.png",
-  "image": "/screenshots/ideogram.webp",
+  "image": "/tool-screenshots/ideogram.png",
   "dateAdded": "2023-08-01",
   "lastVerified": null,
   "features": [
     "Text Integration: Generate images with embedded, stylized text.",
     "Typography Controls: Customize fonts, size, and placement.",
     "Prompt-Based Art: Create unique visuals from descriptions.",
-    "Templates: Pre-made layouts for posters and graphics.",
-    "Export Options: Download images in high resolution."
+    "Templates: Pre-made layouts for posters and graphics."
   ],
   "howToUse": [
     {
@@ -55,5 +54,11 @@
       "title": "Download & Share",
       "description": "Export your graphics for use in marketing, social, or print projects."
     }
+  ],
+  "features_fr": [
+    "Intégration de texte : générez des images avec du texte stylisé intégré.",
+    "Contrôles de typographie : personnalisez les polices, la taille et l'emplacement.",
+    "Art basé sur des invites : créez des visuels uniques à partir de descriptions.",
+    "Modèles : mises en page prédéfinies pour les affiches et les graphiques."
   ]
 }

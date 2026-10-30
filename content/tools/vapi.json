@@ -52,5 +52,17 @@
       "title": "Read the per-minute rate",
       "description": "Open the pricing calculator and read the per-minute component rates, since calls are billed per minute."
     }
+  ],
+  "features": [
+    "Developer platform for building, testing and deploying voice AI agents, billed per minute.",
+    "Vapi is a platform for developers building voice agents for use cases such as customer support, lead qualification and appointment scheduling.",
+    "It orchestrates transcription, language models and voice synthesis from providers such as Deepgram, OpenAI and ElevenLabs.",
+    "Users start free and pay per minute of calls; the pricing calculator shows component rates per minute for each provider."
+  ],
+  "features_fr": [
+    "Plateforme de développement pour créer, tester et déployer des agents d'IA vocale, facturés à la minute.",
+    "Vapi est une plateforme permettant aux développeurs de créer des agents vocaux pour des cas d'utilisation tels que le support client, la qualification des leads et la prise de rendez-vous.",
+    "Il orchestre la transcription, les modèles linguistiques et la synthèse vocale de fournisseurs tels que Deepgram, OpenAI et ElevenLabs.",
+    "Les utilisateurs démarrent gratuitement et paient à la minute d'appels ; le calculateur de prix affiche les tarifs des composants par minute pour chaque fournisseur."
   ]
 }

@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Kaedim is an AI-powered tool that converts 2D images into 3D models automatically. Geared toward game developers, 3D artists, and designers, it accelerates asset creation for games, AR/VR, and digital content.",
-  "description": "Kaedim is an AI-powered tool that converts 2D images into 3D models automatically. Geared toward game developers, 3D artists, and designers, it accelerates asset creation for games, AR/VR, and digital content.\n\nAI-powered 3D asset creation service delivering fast, production-ready 3D assets. Scale 3D pipelines without hiring, accelerate 3D game art production, and reduce 3D asset costs by up to 90%.\n\n2D to 3D Conversion: Turn sketches or images into 3D models. Rapid Prototyping: Generate assets in minutes. Format Support: Download models in standard 3D formats. Cloud Processing: Handle large or complex scenes via cloud.",
+  "description": "Kaedim is an AI-powered tool that converts 2D images into 3D models automatically. Geared toward game developers, 3D artists, and designers, it accelerates asset creation for games, AR/VR, and digital content. AI-powered 3D asset creation service delivering fast, production-ready 3D assets. Scale 3D pipelines without hiring, accelerate 3D game art production, and reduce 3D asset costs by up to 90%. 2D to 3D Conversion: Turn sketches or images into 3D models. Rapid Prototyping: Generate assets in minutes. Format Support: Download models in standard 3D formats. Cloud Processing: Handle large or complex scenes via cloud.",
   "categories": [
     "design"
   ],
@@ -28,8 +28,7 @@
     "2D to 3D Conversion: Turn sketches or images into 3D models.",
     "Rapid Prototyping: Generate assets in minutes.",
     "Format Support: Download models in standard 3D formats.",
-    "Cloud Processing: Handle large or complex scenes via cloud.",
-    "Integration: Use in game engines and 3D editors."
+    "Cloud Processing: Handle large or complex scenes via cloud."
   ],
   "howToUse": [
     {
@@ -54,5 +53,11 @@
       "title": "Download & Integrate",
       "description": "Download your model for use in game engines or 3D editors."
     }
+  ],
+  "features_fr": [
+    "Conversion 2D en 3D : transformez des croquis ou des images en modèles 3D.",
+    "Prototypage rapide : générez des ressources en quelques minutes.",
+    "Prise en charge des formats : téléchargez des modèles dans des formats 3D standard.",
+    "Traitement cloud : gérez des scènes volumineuses ou complexes via le cloud."
   ]
 }

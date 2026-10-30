@@ -4,10 +4,10 @@
   "url": "https://www.dyad.sh",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Dyad is an AI product in the No-code & App Builders space with official hosting at dyad.sh.",
-  "description": "Dyad is an AI product in the No-code & App Builders space with official hosting at dyad.sh.\n\nCréateur d'apps IA open source en local, alternative à Lovable. Check the pricing page before production use.\n\nFeature: Dyad ships the main workflow advertised on its official site.",
+  "summary": "Dyad: Local open-source AI app builder, alternative to Lovable.",
+  "description": "Dyad helps teams with local open-source AI app builder, alternative to Lovable.",
   "summary_fr": "Créateur d'apps IA open source en local, alternative à Lovable.",
-  "description_fr": "Créateur d'apps IA open source en local, alternative à Lovable. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Créateur d'apps IA open source en local, alternative à Lovable.",
   "categories": [
     "no-code"
   ],
@@ -20,24 +20,20 @@
     "model": "free",
     "label": "Free",
     "verified": false,
-    "note": "Gratuit",
+    "note": "Free tier available; see the official site for limits.",
     "sourceUrl": "https://www.dyad.sh"
   },
   "logo": "/logos/dyad.png",
-  "image": "",
+  "image": "/screenshots/dyad.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Dyad ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Local open-source AI app builder.",
+    "Alternative to Lovable."
   ],
   "features_fr": [
-    "Dyad propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Créateur d'apps IA open source en local.",
+    "Alternative à Lovable."
   ],
   "howToUse": [
     {

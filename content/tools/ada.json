@@ -4,8 +4,8 @@
   "url": "https://www.ada.cx/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Ada is an AI product in the Customer Support space with official hosting at www.ada.cx.",
-  "description": "Ada is an AI product in the Customer Support space with official hosting at www.ada.cx. Check the pricing page before production use.\n\nFeature: Ada ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Ada — AI for customer support at ada.cx.",
+  "description": "Ada is an AI product for customer support.",
   "categories": [
     "support"
   ],
@@ -27,10 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Ada ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Ada — chatbot: capabilities described on ada.cx.",
+    "Ada — automation: capabilities described on ada.cx.",
+    "Ada — cx: capabilities described on ada.cx.",
+    "Ada — enterprise: capabilities described on ada.cx."
   ],
   "howToUse": [
     {
@@ -55,5 +55,11 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Ada — chatbot : fonctionnalités décrites sur ada.cx.",
+    "Ada — automatisation : capacités décrites sur ada.cx.",
+    "Ada — cx : capacités décrites sur ada.cx.",
+    "Ada — entreprise : fonctionnalités décrites sur ada.cx."
   ]
 }

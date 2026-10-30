@@ -1,0 +1,393 @@
+{
+  "bolt": {
+    "summary_fr": "Constructeur d'apps et sites par prompt dans le navigateur (StackBlitz).",
+    "description_fr": "Bolt, par StackBlitz, permet de créer, exécuter et déployer sites et apps web en les décrivant en langage courant, entièrement dans le navigateur. L'environnement de dev tourne dans l'onglet : le code généré s'exécute sans installation locale. Un plan gratuit permanent existe ; les offres payantes augmentent les quotas et ajoutent le travail d'équipe.",
+    "features_fr": [
+      "Création d'apps et de sites web à partir d'un prompt en langage naturel.",
+      "Environnement de développement complet dans le navigateur, sans setup local.",
+      "Exécution et déploiement instantanés du code généré.",
+      "Plans gratuit et payant avec quotas de tokens et fonctionnalités d'équipe."
+    ],
+    "tags_fr": ["créateur d'applications", "applications web", "no-code", "déploiement"]
+  },
+  "mokker": {
+    "summary_fr": "Décors photo produit générés par IA en un clic.",
+    "description_fr": "Mokker AI produit des mises en scène professionnelles pour e-commerce à partir d'une photo produit sur fond neutre, sans studio.",
+    "features_fr": [
+      "Import d'une photo produit sur fond uni.",
+      "Choix de décors et styles via modèles IA.",
+      "Visuels prêts pour fiches produit et publicités.",
+      "Export haute résolution pour marketplaces."
+    ]
+  },
+  "octaneai": {
+    "summary_fr": "Quiz et chatbots IA pour l'e-commerce et la collecte de leads.",
+    "description_fr": "Octane AI aide les marques à engager les visiteurs avec des quiz personnalisés, des recommandations produit et des conversations automatisées sur Shopify et le web.",
+    "features_fr": [
+      "Quiz et sondages interactifs pour recommander des produits.",
+      "Chatbot et messages personnalisés sur le parcours d'achat.",
+      "Intégrations e-commerce (Shopify, Klaviyo, etc.).",
+      "Analytics sur l'engagement et les conversions."
+    ]
+  },
+  "originality-ai": {
+    "summary_fr": "Détection de contenu IA et plagiat pour rédacteurs et SEO.",
+    "description_fr": "Originality.ai analyse textes et pages pour estimer la part IA, le plagiat et la qualité éditoriale, avec des rapports pour équipes marketing et agences.",
+    "features_fr": [
+      "Scan de contenu pour signaux de génération IA.",
+      "Vérification de similarité et plagiat.",
+      "Rapports partageables pour clients et équipes.",
+      "API et workflows pour gros volumes de pages."
+    ]
+  },
+  "perso": {
+    "summary_fr": "Vidéos personnalisées à grande échelle pour la prospection.",
+    "description_fr": "Perso AI génère des vidéos personnalisées (nom, entreprise, contexte) pour enrichir l'outbound sales et le marketing one-to-one.",
+    "features_fr": [
+      "Modèles vidéo avec champs dynamiques (prospect, entreprise).",
+      "Génération en masse depuis une liste ou un CRM.",
+      "Voix et avatars IA pour des messages crédibles.",
+      "Export et liens trackés pour les campagnes."
+    ]
+  },
+  "prezi": {
+    "summary_fr": "Présentations dynamiques avec assistance IA pour structure et design.",
+    "description_fr": "Prezi AI aide à structurer, designer et animer des présentations non linéaires avec suggestions de contenu et visuels générés.",
+    "features_fr": [
+      "Canvas zoom non linéaire pour pitch et cours.",
+      "Suggestions IA de plan et de transitions.",
+      "Bibliothèque de modèles et assets visuels.",
+      "Partage, analytics et mode présentateur."
+    ]
+  },
+  "rask-ai": {
+    "summary_fr": "Localisation vidéo par IA (voix, lèvres, sous-titres).",
+    "description_fr": "Rask AI traduit et double des vidéos dans d'autres langues avec voix clonées, lip-sync et sous-titres pour marketing et formation.",
+    "features_fr": [
+      "Traduction audio et doublage multilingue.",
+      "Synchronisation labiale sur la vidéo source.",
+      "Génération de sous-titres et transcripts.",
+      "Export prêt pour réseaux sociaux et LMS."
+    ]
+  },
+  "relay-app": {
+    "summary_fr": "Automatisations no-code entre apps avec blocs IA.",
+    "description_fr": "Relay.app enchaîne actions, données et modèles IA entre Gmail, Notion, CRM et centaines d'intégrations sans code.",
+    "features_fr": [
+      "Workflows visuels déclenchés par événements ou horaires.",
+      "Étapes IA (résumé, classification, génération de texte).",
+      "Bibliothèque de connecteurs SaaS.",
+      "Exécution partagée en équipe avec historique."
+    ]
+  },
+  "revid": {
+    "summary_fr": "Texte ou article transformé en vidéo courte virale.",
+    "description_fr": "Revid.ai convertit scripts, articles ou idées en Shorts/Reels avec voix IA, visuels stock et montage automatique.",
+    "features_fr": [
+      "Génération de storyboard et voix off depuis un texte.",
+      "Bibliothèque B-roll et styles faceless.",
+      "Formats vertical optimisés TikTok/Reels/Shorts.",
+      "Export et planification de publication."
+    ]
+  },
+  "simplified": {
+    "summary_fr": "Suite créative IA : design, copy et vidéo en un seul outil.",
+    "description_fr": "Simplified combine éditeur graphique, rédaction IA et montage vidéo léger pour équipes marketing et créateurs.",
+    "features_fr": [
+      "Modèles social, ads et présentations éditables.",
+      "Assistant IA pour légendes, scripts et posts.",
+      "Montage vidéo simple avec sous-titres auto.",
+      "Bibliothèque d'assets et collaboration d'équipe."
+    ]
+  },
+  "smartcat": {
+    "summary": "Smartcat: AI translation platform for documents, websites, and product content.",
+    "description": "Smartcat combines machine translation with human review workflows to localize documents, software UI, and marketing sites at scale.",
+    "features": [
+      "Translation memory and terminology management for consistent brand voice.",
+      "Machine translation with optional human post-editing in one workspace.",
+      "Integrations for CMS, docs, and developer file formats.",
+      "Vendor marketplace and workflow automation for large localization teams."
+    ],
+    "summary_fr": "Plateforme de traduction IA pour documents, sites et contenus produit.",
+    "description_fr": "Smartcat associe traduction automatique et relecture humaine pour localiser documents, interfaces logicielles et sites marketing à grande échelle.",
+    "features_fr": [
+      "Mémoire de traduction et glossaires pour une voix de marque cohérente.",
+      "Traduction automatique avec relecture humaine optionnelle.",
+      "Connecteurs CMS, docs et formats développeur.",
+      "Place de marché de traducteurs et automatisation des workflows."
+    ]
+  },
+  "stack-ai": {
+    "summary_fr": "Plateforme no-code pour déployer des agents et workflows IA en entreprise.",
+    "description_fr": "Stack AI permet de concevoir, tester et publier des assistants et automatisations connectés aux données internes avec gouvernance.",
+    "features_fr": [
+      "Builder visuel d'agents et de chaînes d'outils.",
+      "Connexion bases de connaissances, APIs et CRM.",
+      "Contrôles d'accès et logs pour équipes IT.",
+      "Déploiement sur web, Slack ou API."
+    ]
+  },
+  "tripo-ai": {
+    "summary_fr": "Modèles 3D générés par IA à partir d'images ou de texte.",
+    "description_fr": "Tripo AI crée des assets 3D texturés pour jeux, e-commerce et design à partir de photos ou de prompts.",
+    "features_fr": [
+      "Image-to-3D et text-to-3D avec textures.",
+      "Export formats GLB/OBJ pour moteurs et outils 3D.",
+      "Itérations rapides pour produits et personnages.",
+      "API pour pipelines créatifs automatisés."
+    ]
+  },
+  "vectorizer": {
+    "summary_fr": "Convertisseur professionnel de bitmaps en fichiers vectoriels SVG.",
+    "description_fr": "Vectorizer.AI transforme vos PNG et JPG en courbes vectorielles propres, prêtes pour l'impression et le web.",
+    "features_fr": [
+      "Vectorisation automatique avec ajustement des courbes.",
+      "Prévisualisation avant export SVG/PDF.",
+      "Traitement par lot pour catalogues produits.",
+      "API pour intégration dans outils design."
+    ]
+  },
+  "vic-ai": {
+    "summary_fr": "Automatisation comptable AP et analyse de factures par IA.",
+    "description_fr": "Vic.ai aide les équipes finance à coder, approuver et payer les factures fournisseurs avec apprentissage sur l'historique comptable.",
+    "features_fr": [
+      "Capture et OCR des factures entrantes.",
+      "Suggestion de comptes et centres de coûts par IA.",
+      "Workflows d'approbation et règles métier.",
+      "Intégrations ERP et outils de paiement."
+    ]
+  },
+  "vizcom": {
+    "summary_fr": "Esquisse produit transformée en rendu photoréaliste par IA.",
+    "description_fr": "Vizcom accélère le design industriel en colorisant et rendant des croquis 2D en visuels présentables aux stakeholders.",
+    "features_fr": [
+      "Import de croquis et annotations rapides.",
+      "Styles de rendu matériaux et éclairage.",
+      "Variations exploratoires en quelques minutes.",
+      "Export haute résolution pour reviews et portfolios."
+    ]
+  },
+  "modjo": {
+    "summary_fr": "Intelligence conversationnelle pour équipes commerciales (appels et coaching).",
+    "description_fr": "Modjo enregistre, transcrit et analyse les appels commerciaux pour extraire insights, playlists de coaching et CRM enrichi.",
+    "features_fr": [
+      "Enregistrement et transcription automatiques des appels.",
+      "Moments clés et scoring des conversations.",
+      "Bibliothèques de snippets pour formation.",
+      "Sync CRM et alertes sur deals à risque."
+    ]
+  },
+  "paperpal": {
+    "summary_fr": "Assistant IA pour rédaction et relecture académique.",
+    "description_fr": "Paperpal aide chercheurs et étudiants à reformuler, vérifier grammaire et conformité éditoriale avant soumission.",
+    "features_fr": [
+      "Suggestions contextuelles dans Word et éditeurs web.",
+      "Vérifications grammaire et style académique.",
+      "Reformulation respectueuse du sens scientifique.",
+      "Rapports de langue pour revues et thèses."
+    ]
+  },
+  "peec-ai": {
+    "summary": "Peec AI: Analytics for brand visibility in AI search and answer engines.",
+    "description": "Peec AI tracks how often your brand appears in ChatGPT, Perplexity, and other AI surfaces, with prompts and competitor benchmarks.",
+    "features": [
+      "Monitoring of brand mentions across AI search products.",
+      "Prompt libraries and ranking trends over time.",
+      "Competitive visibility reports by topic.",
+      "Alerts when share of voice drops on key queries."
+    ],
+    "summary_fr": "Analytics de visibilité de marque dans la recherche IA.",
+    "description_fr": "Peec AI mesure la présence de votre marque dans ChatGPT, Perplexity et autres moteurs de réponses, avec benchmarks concurrents.",
+    "features_fr": [
+      "Suivi des mentions de marque sur produits de recherche IA.",
+      "Bibliothèques de prompts et tendances de classement.",
+      "Rapports de visibilité concurrentielle par thème.",
+      "Alertes si la part de voix baisse sur requêtes clés."
+    ]
+  },
+  "pencil": {
+    "summary": "Pencil: AI ad creative generation and testing for performance marketing.",
+    "description": "Pencil produces and iterates ad variants (copy, visuals, video) with predictive scoring for Meta, Google, and TikTok campaigns.",
+    "features": [
+      "Generates static and video ad concepts from briefs.",
+      "Predictive performance scores before spend.",
+      "Brand kit and asset guardrails for consistency.",
+      "Export to ad platforms and creative testing workflows."
+    ],
+    "summary_fr": "Génération et tests de créations publicitaires IA pour le performance marketing.",
+    "description_fr": "Pencil produit et itère des variantes d'ads (copy, visuels, vidéo) avec scoring prédictif pour Meta, Google et TikTok.",
+    "features_fr": [
+      "Concepts d'ads statiques et vidéo à partir d'un brief.",
+      "Scores prédictifs de performance avant diffusion.",
+      "Brand kit et garde-fous créatifs.",
+      "Export vers plateformes ads et tests A/B."
+    ]
+  },
+  "regie": {
+    "summary_fr": "Copilote IA pour séquences outbound multicanal (email, LinkedIn, appels).",
+    "description_fr": "Regie.ai rédige et personnalise touchpoints sales en s'appuyant sur le CRM, les signaux d'intent et les playbooks d'équipe.",
+    "features_fr": [
+      "Génération de séquences email et messages LinkedIn.",
+      "Personnalisation à partir du CRM et du web.",
+      "A/B tests et analytics sur les réponses.",
+      "Intégrations Salesforce, HubSpot et Outreach."
+    ]
+  },
+  "sana": {
+    "summary_fr": "Plateforme de formation interne avec recherche IA sur la knowledge base.",
+    "description_fr": "Sana AI indexe docs, vidéos et wiki d'entreprise pour répondre aux questions des équipes et générer parcours de formation.",
+    "features_fr": [
+      "Recherche en langage naturel sur contenus internes.",
+      "Génération de cours et micro-learnings.",
+      "Connecteurs Drive, Notion, Confluence, etc.",
+      "Analytics d'usage et de compétences."
+    ]
+  },
+  "sapling-ai-detector": {
+    "summary_fr": "API et interface de détection de texte généré par IA.",
+    "description_fr": "Sapling AI Detector estime la probabilité qu'un passage soit rédigé par un modèle, pour éducation, modération et conformité.",
+    "features_fr": [
+      "Score de détection par phrase ou document.",
+      "API temps réel pour éditeurs et LMS.",
+      "Tableaux de bord pour volumes et seuils.",
+      "Intégrations navigateur et outils d'écriture."
+    ]
+  },
+  "synthflow": {
+    "summary_fr": "Agents vocaux IA pour support client et prise de rendez-vous.",
+    "description_fr": "Synthflow déploie des assistants téléphoniques qui comprennent l'intention, accèdent aux données métier et transfèrent aux humains si besoin.",
+    "features_fr": [
+      "Voix naturelles multilingues et scénarios d'appel sans code.",
+      "Connexion au CRM, aux calendriers et aux bases de questions fréquentes.",
+      "Transfert vers un conseiller humain lorsque la demande dépasse l'agent vocal.",
+      "Analyse des appels, détection d'intention et suivi de la satisfaction client."
+    ]
+  },
+  "topview": {
+    "summary": "Topview: AI video ads from product links and scripts.",
+    "description": "Topview turns URLs, scripts, and product assets into short video ads with avatars, captions, and templates for social placement.",
+    "features": [
+      "URL-to-video and script-to-video ad generation.",
+      "AI avatars and auto captions for vertical formats.",
+      "Template library for e-commerce and app promos.",
+      "Batch export for Meta, TikTok, and YouTube Shorts."
+    ],
+    "summary_fr": "Publicités vidéo IA à partir de liens produit et scripts.",
+    "description_fr": "Topview transforme URLs, scripts et assets produit en courtes vidéos ads avec avatars, sous-titres et modèles social.",
+    "features_fr": [
+      "Génération vidéo depuis URL ou script.",
+      "Avatars IA et sous-titres auto pour formats verticaux.",
+      "Bibliothèque de modèles e-commerce et apps.",
+      "Export batch pour Meta, TikTok et Shorts."
+    ]
+  },
+  "vizard": {
+    "summary": "Vizard: AI clipping of long videos into social-ready shorts.",
+    "description": "Vizard detects highlights in webinars and podcasts, reframes for vertical, and adds captions for TikTok, Reels, and LinkedIn.",
+    "features": [
+      "Auto highlight detection from long-form video.",
+      "Reframe and crop for 9:16 social formats.",
+      "Animated captions and brand templates.",
+      "Team workspace and direct social publishing."
+    ],
+    "summary_fr": "Découpe IA de longues vidéos en clips prêts pour le social.",
+    "description_fr": "Vizard repère les moments forts de webinaires et podcasts, recadre en vertical et ajoute sous-titres pour TikTok, Reels et LinkedIn.",
+    "features_fr": [
+      "Détection automatique des passages marquants.",
+      "Recadrage 9:16 pour réseaux sociaux.",
+      "Sous-titres animés et modèles de marque.",
+      "Espace équipe et publication directe."
+    ]
+  },
+  "yuma": {
+    "summary_fr": "Support client e-commerce automatisé par IA (Shopify, Gorgias).",
+    "description_fr": "Yuma AI répond aux tickets, suit les commandes et applique les politiques boutique avec intégrations helpdesk e-commerce.",
+    "features_fr": [
+      "Réponses automatiques aux questions commande/livraison.",
+      "Intégrations Shopify, Gorgias, Zendesk.",
+      "Macros et politiques alignées sur la boutique.",
+      "Escalade vers humain avec contexte complet."
+    ]
+  },
+  "zencoder": {
+    "summary_fr": "Assistant de code IA intégré au flux de développement.",
+    "description_fr": "Zencoder aide à générer, expliquer et refactorer du code dans l'IDE avec contexte repo et revues assistées.",
+    "features_fr": [
+      "Complétion et génération de code contextuelle.",
+      "Chat sur le dépôt et les pull requests.",
+      "Refactoring et tests suggérés par IA.",
+      "Intégrations IDE et politiques d'équipe."
+    ]
+  },
+  "compar-ia": {
+    "summary": "Compar:IA: Public chatbot comparator from the French public sector (beta.gouv).",
+    "description": "Compar:IA lets users compare answers from major chatbots side by side, with transparency notes and French-language benchmarks widely cited in media.",
+    "features": [
+      "Side-by-side answers from multiple LLM chatbots.",
+      "Public-sector transparency and methodology notes.",
+      "French-language focus and press-cited benchmarks.",
+      "Free access via the beta.gouv.fr initiative."
+    ]
+  },
+  "elsaspeak": {
+    "summary": "ELSA Speak: AI English pronunciation coach for learners.",
+    "description": "ELSA Speak gives phoneme-level feedback, daily drills, and progress tracking to improve spoken English for work and study.",
+    "features": [
+      "AI scoring of pronunciation with phoneme feedback.",
+      "Personalized daily speaking drills.",
+      "Progress dashboards for fluency and intonation.",
+      "Mobile apps for practice anywhere."
+    ]
+  },
+  "harpa": {
+    "summary": "HARPA AI: Browser automation and AI assistant for research and workflows.",
+    "description": "HARPA AI combines web automation, summarization, and GPT-powered commands inside Chrome to speed up research, SEO, and repetitive browser tasks.",
+    "features": [
+      "Automations and macros inside the Chrome extension.",
+      "Summarize pages, videos, and search results.",
+      "Custom AI commands and scheduled monitors.",
+      "Integrations with popular LLM providers."
+    ]
+  },
+  "hypefury": {
+    "summary": "Hypefury: Social scheduling and growth automation for creators.",
+    "description": "Hypefury helps creators queue threads, recycle top posts, and automate engagement rules to grow on X/Twitter and LinkedIn.",
+    "features": [
+      "Thread and post scheduling with smart queues.",
+      "Auto-retweet and repost rules for evergreen content.",
+      "Engagement automations within platform policies.",
+      "Analytics on reach and best-performing posts."
+    ]
+  },
+  "hypotenuse": {
+    "summary": "Hypotenuse AI: Product descriptions and e-commerce content at scale.",
+    "description": "Hypotenuse AI bulk-generates product copy, SEO content, and marketing assets from catalogs, images, and brand guidelines.",
+    "features": [
+      "Bulk product descriptions from spreadsheets or PIM.",
+      "Image-to-text and attribute-aware copy.",
+      "Brand voice and terminology controls.",
+      "Export to Shopify, Amazon, and CMS tools."
+    ]
+  },
+  "photoleapapp": {
+    "summary": "Photoleap: AI photo editing and creative image tools (Lightricks).",
+    "description": "Photoleap offers generative edits, backgrounds, animations, and pro retouching for social and marketing visuals on mobile and web.",
+    "features": [
+      "Generative fill, expand, and object removal.",
+      "AI backgrounds and scene blends for product shots.",
+      "Animated effects and text overlays for social.",
+      "Pro retouching tools in a mobile-first editor."
+    ]
+  },
+  "la-growth-machine": {
+    "summary": "La Growth Machine: Multichannel outbound automation for B2B sales.",
+    "description": "La Growth Machine orchestrates LinkedIn, email, and Twitter touchpoints with AI-assisted sequences and inbox management for European sales teams.",
+    "features": [
+      "Multichannel sequences with LinkedIn and email steps.",
+      "Inbox rotation and deliverability safeguards.",
+      "AI-assisted message variants and follow-ups.",
+      "CRM sync and pipeline reporting for outbound teams."
+    ]
+  }
+}

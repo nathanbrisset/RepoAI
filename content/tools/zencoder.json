@@ -4,10 +4,10 @@
   "url": "https://zencoder.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Zencoder is an AI product in the Coding space with official hosting at zencoder.ai.",
-  "description": "Zencoder is an AI product in the Coding space with official hosting at zencoder.ai.\n\nAgents de code intégrés à l'IDE. Check the pricing page before production use.\n\nFeature: Zencoder ships the main workflow advertised on its official site.",
-  "summary_fr": "Agents de code intégrés à l'IDE.",
-  "description_fr": "Agents de code intégrés à l'IDE. Vérifie la page tarifs avant un déploiement en production.",
+  "summary": "Zencoder: IDE-integrated coding agents.",
+  "description": "Zencoder helps teams with iDE-integrated coding agents.",
+  "summary_fr": "Assistant de code IA intégré au flux de développement.",
+  "description_fr": "Zencoder aide à générer, expliquer et refactorer du code dans l'IDE avec contexte repo et revues assistées.",
   "categories": [
     "coding"
   ],
@@ -24,20 +24,18 @@
     "sourceUrl": "https://zencoder.ai"
   },
   "logo": "/logos/zencoder.png",
-  "image": "",
+  "image": "/screenshots/zencoder.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Zencoder ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "IDE-integrated coding agents.",
+    "Zencoder helps teams with iDE-integrated coding agents."
   ],
   "features_fr": [
-    "Zencoder propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Complétion et génération de code contextuelle.",
+    "Chat sur le dépôt et les pull requests.",
+    "Refactoring et tests suggérés par IA.",
+    "Intégrations IDE et politiques d'équipe."
   ],
   "howToUse": [
     {

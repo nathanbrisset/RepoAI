@@ -4,10 +4,10 @@
   "url": "https://vrew.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Vrew is an AI product in the Video Creation space with official hosting at vrew.ai.",
-  "description": "Vrew is an AI product in the Video Creation space with official hosting at vrew.ai.\n\nMontage par le texte et sous-titres automatiques. Check the pricing page before production use.\n\nFeature: Vrew ships the main workflow advertised on its official site.",
+  "summary": "Vrew: Text-based editing and automatic subtitles.",
+  "description": "Vrew helps teams with text-based editing and automatic subtitles.",
   "summary_fr": "Montage par le texte et sous-titres automatiques.",
-  "description_fr": "Montage par le texte et sous-titres automatiques. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Montage par le texte et sous-titres automatiques.",
   "categories": [
     "video"
   ],
@@ -24,20 +24,16 @@
     "sourceUrl": "https://vrew.ai"
   },
   "logo": "/logos/vrew.png",
-  "image": "",
+  "image": "/screenshots/vrew.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Vrew ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Text-based editing and automatic subtitles.",
+    "Vrew helps teams with text-based editing and automatic subtitles."
   ],
   "features_fr": [
-    "Vrew propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Montage par le texte.",
+    "Sous-titres automatiques."
   ],
   "howToUse": [
     {

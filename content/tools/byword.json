@@ -4,10 +4,10 @@
   "url": "https://byword.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Byword is an AI product in the Writing & Content space with official hosting at byword.ai.",
-  "description": "Byword is an AI product in the Writing & Content space with official hosting at byword.ai.\n\nArticles SEO générés en masse. Check the pricing page before production use.\n\nFeature: Byword ships the main workflow advertised on its official site.",
+  "summary": "Byword: Bulk SEO article generation.",
+  "description": "Byword helps teams with bulk SEO article generation.",
   "summary_fr": "Articles SEO générés en masse.",
-  "description_fr": "Articles SEO générés en masse. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Articles SEO générés en masse.",
   "categories": [
     "writing"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://byword.ai"
   },
   "logo": "/logos/byword.png",
-  "image": "",
+  "image": "/screenshots/byword.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Byword ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Bulk SEO article generation.",
+    "Byword helps teams with bulk SEO article generation."
   ],
   "features_fr": [
-    "Byword propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Génération d’articles SEO en masse.",
+    "Byword aide les équipes à générer des articles SEO en masse."
   ],
   "howToUse": [
     {

@@ -4,10 +4,10 @@
   "url": "https://3d.hunyuan.tencent.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Hunyuan3D (Tencent) is an AI product in the Design space with official hosting at 3d.hunyuan.tencent.com.",
-  "description": "Hunyuan3D (Tencent) is an AI product in the Design space with official hosting at 3d.hunyuan.tencent.com.\n\nGénération 3D open source de Tencent. Check the pricing page before production use.\n\nFeature: Hunyuan3D (Tencent) ships the main workflow advertised on its official site.",
+  "summary": "Hunyuan3D (Tencent): Tencent open-source 3D generation.",
+  "description": "Hunyuan3D (Tencent) helps teams with tencent open-source 3D generation.",
   "summary_fr": "Génération 3D open source de Tencent.",
-  "description_fr": "Génération 3D open source de Tencent. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Génération 3D open source de Tencent.",
   "categories": [
     "design"
   ],
@@ -20,24 +20,20 @@
     "model": "free",
     "label": "Free",
     "verified": false,
-    "note": "Gratuit",
+    "note": "Free tier available; see the official site for limits.",
     "sourceUrl": "https://3d.hunyuan.tencent.com"
   },
   "logo": "/logos/hunyuan-3d.png",
-  "image": "",
+  "image": "/screenshots/hunyuan-3d.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Hunyuan3D (Tencent) ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Tencent open-source 3D generation.",
+    "Hunyuan3D (Tencent) helps teams with tencent open-source 3D generation."
   ],
   "features_fr": [
-    "Hunyuan3D (Tencent) propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Génération 3D open source Tencent.",
+    "Axé sur les workflows de conception."
   ],
   "howToUse": [
     {

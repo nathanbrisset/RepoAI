@@ -4,40 +4,40 @@
   "url": "https://mammouth.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Mammouth AI is an AI product in the LLM & Chatbots space with official hosting at mammouth.ai.",
-  "description": "Mammouth AI is an AI product in the LLM & Chatbots space with official hosting at mammouth.ai.\n\nUn abonnement pour ChatGPT, Claude, Gemini, Mistral… (startup française). Check the pricing page before production use.\n\nFeature: Mammouth AI ships the main workflow advertised on its official site.",
+  "summary": "Mammouth AI: One subscription for ChatGPT, Claude, Gemini, Mistral, and more (French startup).",
+  "description": "Mammouth AI helps teams with one subscription for ChatGPT, Claude, Gemini, Mistral, and more (French startup).",
   "summary_fr": "Un abonnement pour ChatGPT, Claude, Gemini, Mistral… (startup française).",
-  "description_fr": "Un abonnement pour ChatGPT, Claude, Gemini, Mistral… (startup française). Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Un abonnement pour ChatGPT, Claude, Gemini, Mistral… (startup française).",
   "categories": [
     "llm-chatbots"
   ],
   "tags": [
-    "ai",
     "llm",
-    "catalog"
+    "multi-model",
+    "subscription"
   ],
   "pricing": {
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://mammouth.ai"
   },
   "logo": "/logos/mammouth.png",
-  "image": "",
+  "image": "/screenshots/mammouth.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Mammouth AI ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "One subscription for ChatGPT, Claude, Gemini, Mistral, and more.",
+    "French-first interface and support for European users.",
+    "Conversation history and projects across models.",
+    "Single bill instead of many vendor plans."
   ],
   "features_fr": [
-    "Mammouth AI propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Un abonnement pour ChatGPT, Claude, Gemini, Mistral et d'autres modèles.",
+    "Interface et support orientés utilisateurs francophones.",
+    "Historique de conversations et projets multi-modèles.",
+    "Une seule facture au lieu de plusieurs abonnements éditeurs."
   ],
   "howToUse": [
     {
@@ -64,5 +64,10 @@
     }
   ],
   "hqCountry": "FR",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "LLM",
+    "multi-modèles",
+    "abonnement"
+  ]
 }

@@ -4,10 +4,10 @@
   "url": "https://www.synthesis.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Synthesis Tutor is an AI product in the Education & Learning space with official hosting at synthesis.com.",
-  "description": "Synthesis Tutor is an AI product in the Education & Learning space with official hosting at synthesis.com.\n\nTuteur de maths IA pour enfants. Check the pricing page before production use.\n\nFeature: Synthesis Tutor ships the main workflow advertised on its official site.",
+  "summary": "Synthesis Tutor: AI math tutor for children.",
+  "description": "Synthesis Tutor helps teams with aI math tutor for children.",
   "summary_fr": "Tuteur de maths IA pour enfants.",
-  "description_fr": "Tuteur de maths IA pour enfants. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Tuteur de maths IA pour enfants.",
   "categories": [
     "education"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.synthesis.com"
   },
   "logo": "/logos/synthesis.png",
-  "image": "",
+  "image": "/screenshots/synthesis.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Synthesis Tutor ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "AI math tutor for children.",
+    "Synthesis Tutor helps teams with aI math tutor for children."
   ],
   "features_fr": [
-    "Synthesis Tutor propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Tuteur de maths IA pour enfants.",
+    "synthesis.com décrit les capacités, limites et inscription de Synthesis Tutor."
   ],
   "howToUse": [
     {

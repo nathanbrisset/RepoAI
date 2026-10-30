@@ -4,10 +4,10 @@
   "url": "https://sapling.ai/ai-content-detector",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Sapling AI Detector is an AI product in the AI Detection space with official hosting at sapling.ai.",
-  "description": "Sapling AI Detector is an AI product in the AI Detection space with official hosting at sapling.ai.\n\nDétecteur de texte IA gratuit. Check the pricing page before production use.\n\nFeature: Sapling AI Detector ships the main workflow advertised on its official site.",
-  "summary_fr": "Détecteur de texte IA gratuit.",
-  "description_fr": "Détecteur de texte IA gratuit. Vérifie la page tarifs avant un déploiement en production.",
+  "summary": "Sapling AI Detector: Free AI text detector.",
+  "description": "Sapling AI Detector helps teams with free AI text detector.",
+  "summary_fr": "API et interface de détection de texte généré par IA.",
+  "description_fr": "Sapling AI Detector estime la probabilité qu'un passage soit rédigé par un modèle, pour éducation, modération et conformité.",
   "categories": [
     "ai-detection"
   ],
@@ -23,20 +23,18 @@
     "sourceUrl": "https://sapling.ai/ai-content-detector"
   },
   "logo": "/logos/sapling-ai-detector.png",
-  "image": "",
+  "image": "/screenshots/sapling-ai-detector.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Sapling AI Detector ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Free AI text detector.",
+    "Sapling AI Detector helps teams with free AI text detector."
   ],
   "features_fr": [
-    "Sapling AI Detector propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Score de détection par phrase ou document.",
+    "API temps réel pour éditeurs et LMS.",
+    "Tableaux de bord pour volumes et seuils.",
+    "Intégrations navigateur et outils d'écriture."
   ],
   "howToUse": [
     {

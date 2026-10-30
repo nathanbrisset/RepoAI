@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Penpot is an open-source design and prototyping platform for cross-functional teams. It offers collaborative vector editing, interactive prototyping, and supports open web standards. Penpot is web-based and suitable for both designers and developers who value transparency and extensibility.",
-  "description": "Penpot is an open-source design and prototyping platform for cross-functional teams. It offers collaborative vector editing, interactive prototyping, and supports open web standards. Penpot is web-based and suitable for both designers and developers who value transparency and extensibility.\n\nPenpot is the open-source design platform for teams building digital products at scale, enabling deeper collaboration across design, code, and AI workflows.\n\nCollaborative Editing: Work on designs with teams in real time. Vector Tools: Create detailed illustrations and interfaces. Interactive Prototyping: Build and share clickable prototypes. Open Standards: Export to SVG and other formats.",
+  "description": "Penpot is an open-source design and prototyping platform for cross-functional teams. It offers collaborative vector editing, interactive prototyping, and supports open web standards. Penpot is web-based and suitable for both designers and developers who value transparency and extensibility. Penpot is the open-source design platform for teams building digital products at scale, enabling deeper collaboration across design, code, and AI workflows. Collaborative Editing: Work on designs with teams in real time. Vector Tools: Create detailed illustrations and interfaces. Interactive Prototyping: Build and share clickable prototypes. Open Standards: Export to SVG and other formats.",
   "categories": [
     "design"
   ],
@@ -29,8 +29,7 @@
     "Collaborative Editing: Work on designs with teams in real time.",
     "Vector Tools: Create detailed illustrations and interfaces.",
     "Interactive Prototyping: Build and share clickable prototypes.",
-    "Open Standards: Export to SVG and other formats.",
-    "Plugin Architecture: Extend and customize functionality."
+    "Open Standards: Export to SVG and other formats."
   ],
   "howToUse": [
     {
@@ -55,5 +54,11 @@
       "title": "Export & Extend",
       "description": "Export your work to SVG/other formats or add plugins for new features."
     }
+  ],
+  "features_fr": [
+    "Édition collaborative : travaillez sur des conceptions avec des équipes en temps réel.",
+    "Outils vectoriels : créez des illustrations et des interfaces détaillées.",
+    "Prototypage interactif : créez et partagez des prototypes cliquables.",
+    "Normes ouvertes : exportez vers SVG et d’autres formats."
   ]
 }

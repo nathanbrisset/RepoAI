@@ -4,10 +4,10 @@
   "url": "https://www.hippocraticai.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Hippocratic AI is an AI product in the Health & Medical space with official hosting at hippocraticai.com.",
-  "description": "Hippocratic AI is an AI product in the Health & Medical space with official hosting at hippocraticai.com.\n\nAgents IA de santé pour suivi patient. Check the pricing page before production use.\n\nFeature: Hippocratic AI ships the main workflow advertised on its official site.",
+  "summary": "Hippocratic AI: AI health agents for patient follow-up.",
+  "description": "Hippocratic AI helps teams with aI health agents for patient follow-up.",
   "summary_fr": "Agents IA de santé pour suivi patient.",
-  "description_fr": "Agents IA de santé pour suivi patient. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Agents IA de santé pour suivi patient.",
   "categories": [
     "health"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.hippocraticai.com"
   },
   "logo": "/logos/hippocraticai.png",
-  "image": "",
+  "image": "/screenshots/hippocraticai.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Hippocratic AI ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "AI health agents for patient follow-up.",
+    "Hippocratic AI helps teams with aI health agents for patient follow-up."
   ],
   "features_fr": [
-    "Hippocratic AI propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Agents de santé IA pour le suivi des patients.",
+    "Axé sur les flux de travail de santé."
   ],
   "howToUse": [
     {

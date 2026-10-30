@@ -53,5 +53,17 @@
       "title": "Pick Free, Developer, or Enterprise",
       "description": "The free plan is $0. Developer billing is per token. Enterprise is a separate plan."
     }
+  ],
+  "features": [
+    "Inference cloud running open models on Groq's own LPU chips through an API.",
+    "Groq operates an inference cloud built on its own LPU chips.",
+    "Developers call open models such as Llama, Qwen and GPT-OSS through an API that is compatible with the OpenAI format, and the platform targets high token throughput and low latency.",
+    "The company also offers dedicated infrastructure for enterprises."
+  ],
+  "features_fr": [
+    "Cloud d'inférence exécutant des modèles ouverts sur les propres puces LPU de Groq via une API.",
+    "Groq exploite un cloud d'inférence construit sur ses propres puces LPU.",
+    "Les développeurs appellent des modèles ouverts tels que Llama, Qwen et GPT-OSS via une API compatible avec le format OpenAI, et la plate-forme cible un débit de jetons élevé et une faible latence.",
+    "La société propose également une infrastructure dédiée aux entreprises."
   ]
 }

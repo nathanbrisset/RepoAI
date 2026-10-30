@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Hub for open ML models, datasets, Spaces demos, and inference endpoints used across the AI ecosystem.",
-  "description": "Hub for open ML models, datasets, Spaces demos, and inference endpoints used across the AI ecosystem. Check the pricing page before production use.\n\nFeature: Hugging Face ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "description": "Hugging Face focuses on hub for open ML models, datasets, Spaces demos, and inference endpoints used across the AI ecosystem.",
   "categories": [
     "coding"
   ],
@@ -27,10 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Hugging Face ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Hub for open ML models, datasets, Spaces demos, and inference endpoints used across the AI ecosystem.",
+    "Hugging Face — datasets: capabilities described on huggingface.co.",
+    "Hugging Face — spaces: capabilities described on huggingface.co.",
+    "Hugging Face — inference: capabilities described on huggingface.co."
   ],
   "howToUse": [
     {
@@ -55,5 +55,11 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Hub pour les modèles de ML ouverts, les ensembles de données, les démonstrations Spaces et les points de terminaison d'inférence utilisés dans l'écosystème de l'IA.",
+    "Hugging Face — ensembles de données : fonctionnalités décrites sur huggingface.co.",
+    "Hugging Face — espaces : capacités décrites sur huggingface.co.",
+    "Hugging Face — inférence : capacités décrites sur huggingface.co."
   ]
 }

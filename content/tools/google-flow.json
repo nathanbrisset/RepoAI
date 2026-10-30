@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Google's AI filmmaking workspace for generating and editing video clips with Veo and related models.",
-  "description": "Google Flow is Google's creative video workspace built on generative models such as Veo. It lets creators storyboard scenes, generate shots, and refine clips in a guided flow tied to Google accounts.\n\nFeature: Scene-based video generation with Veo models. Feature: Integrated editing and extension of clips. Feature: Works with Google AI subscription tiers. Feature: Export for social or further editing.",
+  "description": "Google Flow is Google's creative video workspace built on generative models such as Veo. It lets creators storyboard scenes, generate shots, and refine clips in a guided flow tied to Google accounts.",
   "categories": [
     "video"
   ],
@@ -55,5 +55,11 @@
       "title": "Export",
       "description": "Download or send finished clips to your editor or publishing workflow."
     }
+  ],
+  "features_fr": [
+    "Génération vidéo basée sur la scène avec les modèles Veo.",
+    "Montage et extension intégrés des clips.",
+    "Fonctionne avec les niveaux d'abonnement Google AI.",
+    "Exportez pour une édition sociale ou ultérieure."
   ]
 }

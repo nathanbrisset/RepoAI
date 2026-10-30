@@ -4,10 +4,10 @@
   "url": "https://www.tango.us",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Tango is an AI product in the Productivity space with official hosting at tango.us.",
-  "description": "Tango is an AI product in the Productivity space with official hosting at tango.us.\n\nDocumentation de process automatique avec captures. Check the pricing page before production use.\n\nFeature: Tango ships the main workflow advertised on its official site.",
+  "summary": "Tango: Automatic process docs with screenshots.",
+  "description": "Tango helps teams with automatic process docs with screenshots.",
   "summary_fr": "Documentation de process automatique avec captures.",
-  "description_fr": "Documentation de process automatique avec captures. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Documentation de process automatique avec captures.",
   "categories": [
     "productivity"
   ],
@@ -24,20 +24,16 @@
     "sourceUrl": "https://www.tango.us"
   },
   "logo": "/logos/tango.png",
-  "image": "",
+  "image": "/screenshots/tango.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Tango ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Automatic process docs with screenshots.",
+    "Tango helps teams with automatic process docs with screenshots."
   ],
   "features_fr": [
-    "Tango propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Documentation de process automatique avec captures.",
+    "tango.us décrit les capacités, limites et inscription de Tango."
   ],
   "howToUse": [
     {

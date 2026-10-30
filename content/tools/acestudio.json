@@ -4,10 +4,10 @@
   "url": "https://acestudio.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "ACE Studio is an AI product in the Music & Audio space with official hosting at acestudio.ai.",
-  "description": "ACE Studio is an AI product in the Music & Audio space with official hosting at acestudio.ai.\n\nVoix chantées IA pour producteurs. Check the pricing page before production use.\n\nFeature: ACE Studio ships the main workflow advertised on its official site.",
+  "summary": "ACE Studio: AI sung vocals for producers.",
+  "description": "ACE Studio helps teams with aI sung vocals for producers.",
   "summary_fr": "Voix chantées IA pour producteurs.",
-  "description_fr": "Voix chantées IA pour producteurs. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Voix chantées IA pour producteurs.",
   "categories": [
     "music"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://acestudio.ai"
   },
   "logo": "/logos/acestudio.png",
-  "image": "",
+  "image": "/screenshots/acestudio.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "ACE Studio ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "AI sung vocals for producers.",
+    "ACE Studio helps teams with aI sung vocals for producers."
   ],
   "features_fr": [
-    "ACE Studio propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "AI chanté pour les producteurs.",
+    "ACE Studio inclut des fonctionnalités musicales."
   ],
   "howToUse": [
     {

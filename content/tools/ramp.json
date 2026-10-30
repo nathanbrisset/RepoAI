@@ -4,40 +4,40 @@
   "url": "https://ramp.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Ramp is an AI product in the Finance & Accounting space with official hosting at ramp.com.",
-  "description": "Ramp is an AI product in the Finance & Accounting space with official hosting at ramp.com.\n\nCartes et gestion des dépenses avec agents IA. Check the pricing page before production use.\n\nFeature: Ramp ships the main workflow advertised on its official site.",
+  "summary": "Ramp: Corporate cards and spend management with AI agents.",
+  "description": "Ramp helps teams with corporate cards and spend management with AI agents.",
   "summary_fr": "Cartes et gestion des dépenses avec agents IA.",
-  "description_fr": "Cartes et gestion des dépenses avec agents IA. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Cartes et gestion des dépenses avec agents IA.",
   "categories": [
     "finance"
   ],
   "tags": [
-    "ai",
     "finance",
-    "catalog"
+    "expense",
+    "cards"
   ],
   "pricing": {
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://ramp.com"
   },
   "logo": "/logos/ramp.png",
-  "image": "",
+  "image": "/screenshots/ramp.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Ramp ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Corporate cards with policy controls and spend limits.",
+    "AI agents for receipt matching and expense review.",
+    "Real-time visibility into team spend and budgets.",
+    "Integrations with accounting and ERP stacks."
   ],
   "features_fr": [
-    "Ramp propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Cartes corporate avec règles de dépenses et plafonds.",
+    "Agents IA pour rapprochement de reçus et revue des notes de frais.",
+    "Visibilité en temps réel sur les dépenses et budgets d'équipe.",
+    "Intégrations comptables et ERP."
   ],
   "howToUse": [
     {
@@ -64,5 +64,10 @@
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "finance",
+    "dépenses",
+    "cartes"
+  ]
 }

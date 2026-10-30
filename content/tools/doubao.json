@@ -4,8 +4,8 @@
   "url": "https://www.doubao.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Doubao delivers AI-assisted capabilities for llm & chatbots teams via www.doubao.com.",
-  "description": "Doubao delivers AI-assisted capabilities for llm & chatbots teams via www.doubao.com. Check the pricing page before production use.\n\nFeature: Multi-turn chat with model selection where available. Feature: File, image, or voice input on supported plans. Feature: Share or export conversations for teammates. Feature: API or enterprise controls on higher tiers.",
+  "summary": "Doubao: Doubao is an AI product for LLM and chat.",
+  "description": "Doubao is an AI product for LLM and chat.",
   "categories": [
     "llm-chatbots"
   ],
@@ -23,7 +23,7 @@
     "sourceUrl": "https://www.doubao.com/"
   },
   "logo": "/logos/doubao.png",
-  "image": "/screenshots/doubao.webp",
+  "image": "",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
@@ -55,5 +55,19 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Chat multimodal avec modèles Doubao (ByteDance) pour le texte et la création.",
+    "Saisie texte, image ou voix selon les fonctionnalités disponibles sur doubao.com.",
+    "Historique de conversations et projets dans l'interface Doubao.",
+    "Quotas, langues et modèles selon la région ; consultez le site officiel."
+  ],
+  "summary_fr": "Assistant conversationnel multimodal de ByteDance (豆包) pour le chat et la création.",
+  "description_fr": "Doubao (豆包) est l'assistant IA de ByteDance pour le chat multimodal, la rédaction et la génération de contenu. Consultez doubao.com pour les modèles, quotas et disponibilité régionale.",
+  "tags_fr": [
+    "ByteDance",
+    "chat",
+    "Chine",
+    "multimodal"
   ]
 }

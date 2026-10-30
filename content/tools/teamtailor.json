@@ -4,10 +4,10 @@
   "url": "https://www.teamtailor.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Teamtailor is an AI product in the HR & Recruiting space with official hosting at teamtailor.com.",
-  "description": "Teamtailor is an AI product in the HR & Recruiting space with official hosting at teamtailor.com.\n\nATS avec fonctionnalités IA. Check the pricing page before production use.\n\nFeature: Teamtailor ships the main workflow advertised on its official site.",
+  "summary": "Teamtailor: Applicant tracking with AI features.",
+  "description": "Teamtailor helps teams with applicant tracking with AI features.",
   "summary_fr": "ATS avec fonctionnalités IA.",
-  "description_fr": "ATS avec fonctionnalités IA. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "ATS avec fonctionnalités IA.",
   "categories": [
     "hr"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.teamtailor.com"
   },
   "logo": "/logos/teamtailor.png",
-  "image": "",
+  "image": "/screenshots/teamtailor.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Teamtailor ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Applicant tracking with AI features.",
+    "Teamtailor helps teams with applicant tracking with AI features."
   ],
   "features_fr": [
-    "Teamtailor propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "ATS avec fonctionnalités IA.",
+    "teamtailor.com décrit les capacités, limites et inscription de Teamtailor."
   ],
   "howToUse": [
     {

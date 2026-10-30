@@ -4,10 +4,10 @@
   "url": "https://www.vozo.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Vozo is an AI product in the Video Creation space with official hosting at vozo.ai.",
-  "description": "Vozo is an AI product in the Video Creation space with official hosting at vozo.ai.\n\nTraduction, doublage et réécriture de vidéos. Check the pricing page before production use.\n\nFeature: Vozo ships the main workflow advertised on its official site.",
+  "summary": "Vozo: Video translation, dubbing, and rewriting.",
+  "description": "Vozo helps teams with video translation, dubbing, and rewriting.",
   "summary_fr": "Traduction, doublage et réécriture de vidéos.",
-  "description_fr": "Traduction, doublage et réécriture de vidéos. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Traduction, doublage et réécriture de vidéos.",
   "categories": [
     "video"
   ],
@@ -24,20 +24,16 @@
     "sourceUrl": "https://www.vozo.ai"
   },
   "logo": "/logos/vozo.png",
-  "image": "",
+  "image": "/screenshots/vozo.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Vozo ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Video translation.",
+    "And rewriting."
   ],
   "features_fr": [
-    "Vozo propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Traduction.",
+    "Réécriture de vidéos."
   ],
   "howToUse": [
     {

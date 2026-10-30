@@ -4,10 +4,10 @@
   "url": "https://sonauto.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Sonauto is an AI product in the Music & Audio space with official hosting at sonauto.ai.",
-  "description": "Sonauto is an AI product in the Music & Audio space with official hosting at sonauto.ai.\n\nGénération de chansons, alternative gratuite à Suno. Check the pricing page before production use.\n\nFeature: Sonauto ships the main workflow advertised on its official site.",
+  "summary": "Sonauto: Song generation, free alternative to Suno.",
+  "description": "Sonauto helps teams with song generation, free alternative to Suno.",
   "summary_fr": "Génération de chansons, alternative gratuite à Suno.",
-  "description_fr": "Génération de chansons, alternative gratuite à Suno. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Génération de chansons, alternative gratuite à Suno.",
   "categories": [
     "music"
   ],
@@ -24,20 +24,16 @@
     "sourceUrl": "https://sonauto.ai"
   },
   "logo": "/logos/sonauto.png",
-  "image": "",
+  "image": "/screenshots/sonauto.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Sonauto ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Song generation.",
+    "Free alternative to Suno."
   ],
   "features_fr": [
-    "Sonauto propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Génération de chansons.",
+    "Alternative gratuite à Suno."
   ],
   "howToUse": [
     {

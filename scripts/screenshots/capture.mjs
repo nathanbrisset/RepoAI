@@ -573,18 +573,13 @@ async function settleFailure(tool, problem, png, debugDir) {
       note: "image actuelle conservée",
     }
   }
-  const webp = await renderFallback(tool)
-  const dest = path.join(OUT_DIR, `${tool.id}.webp`)
-  fs.writeFileSync(dest, webp)
-  const image = `/screenshots/${tool.id}.webp`
-  setImageField(tool.__file, image)
+  // Do not publish logo-on-grey fallbacks as homepage screenshots.
   return {
-    outcome: "fallback",
+    outcome: "skipped",
     category: problem.category,
     reason: problem.reason,
-    image,
-    note: `repli logo (${broken})`,
-    bytes: webp.length,
+    image: tool.image,
+    note: "capture ratée — pas de repli logo publié",
   }
 }
 

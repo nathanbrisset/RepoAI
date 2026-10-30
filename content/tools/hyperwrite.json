@@ -4,8 +4,8 @@
   "url": "https://www.hyperwriteai.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "HyperWrite delivers AI-assisted capabilities for writing & content teams via www.hyperwriteai.com.",
-  "description": "HyperWrite delivers AI-assisted capabilities for writing & content teams via www.hyperwriteai.com. Check the pricing page before production use.\n\nFeature: HyperWrite ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "HyperWrite — writing software with an official web app.",
+  "description": "HyperWrite — writing software with an official web app.",
   "categories": [
     "writing"
   ],
@@ -26,12 +26,7 @@
   "image": "/screenshots/hyperwrite.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
-  "features": [
-    "HyperWrite ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
-  ],
+  "features": [],
   "howToUse": [
     {
       "title": "Sign up on HyperWrite",
@@ -55,5 +50,11 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
-  ]
+  ],
+  "features_fr": [
+    "HyperWrite — IA pour l'écriture et le contenu sur hyperwriteai.com.",
+    "HyperWrite inclut des fonctionnalités de navigateur."
+  ],
+  "summary_fr": "Assistant IA pour rédiger plus vite (emails, articles, messages).",
+  "description_fr": "HyperWrite propose des outils d'écriture assistée par IA dans le navigateur et des extensions pour accélérer la rédaction au quotidien."
 }

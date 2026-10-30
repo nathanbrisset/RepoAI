@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Embeddings, rerankers, web reader, deepsearch, small language models. Search AI for multilingual and multimodal data.",
-  "description": "Embeddings, rerankers, web reader, deepsearch, small language models. Search AI for multilingual and multimodal data.\n\nNeural Search Framework: Enables building search systems powered by neural networks. Modular Architecture: Allows customization and extension of components. Support for Multimodal Data: Handles text, images, and other data types. Scalability: Designed to scale with large datasets and high traffic.",
+  "description": "Embeddings, rerankers, web reader, deepsearch, small language models. Search AI for multilingual and multimodal data. Neural Search Framework: Enables building search systems powered by neural networks. Modular Architecture: Allows customization and extension of components. Support for Multimodal Data: Handles text, images, and other data types. Scalability: Designed to scale with large datasets and high traffic.",
   "categories": [
     "search"
   ],
@@ -48,5 +48,11 @@
       "title": "Deploy & Scale",
       "description": "Run your search solution on local servers or cloud infrastructure."
     }
+  ],
+  "features_fr": [
+    "Neural Search Framework : permet de créer des systèmes de recherche alimentés par des réseaux de neurones.",
+    "Architecture modulaire : permet la personnalisation et l'extension des composants.",
+    "Prise en charge des données multimodales : gère le texte, les images et d'autres types de données.",
+    "Évolutivité : conçue pour évoluer avec de grands ensembles de données et un trafic élevé."
   ]
 }

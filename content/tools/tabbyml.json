@@ -4,10 +4,10 @@
   "url": "https://www.tabbyml.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Tabby is an AI product in the Coding space with official hosting at tabbyml.com.",
-  "description": "Tabby is an AI product in the Coding space with official hosting at tabbyml.com.\n\nAssistant de code open source auto-hébergeable. Check the pricing page before production use.\n\nFeature: Tabby ships the main workflow advertised on its official site.",
+  "summary": "Tabby: Self-hostable open-source coding assistant.",
+  "description": "Tabby helps teams with self-hostable open-source coding assistant.",
   "summary_fr": "Assistant de code open source auto-hébergeable.",
-  "description_fr": "Assistant de code open source auto-hébergeable. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Assistant de code open source auto-hébergeable.",
   "categories": [
     "coding"
   ],
@@ -20,24 +20,20 @@
     "model": "free",
     "label": "Free",
     "verified": false,
-    "note": "Gratuit",
+    "note": "Free tier available; see the official site for limits.",
     "sourceUrl": "https://www.tabbyml.com"
   },
-  "logo": "/logos/tabbyml.png",
-  "image": "",
+  "logo": "/logos/tabbyml.jpg",
+  "image": "/screenshots/tabbyml.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Tabby ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Self-hostable open-source coding assistant.",
+    "Tabby helps teams with self-hostable open-source coding assistant."
   ],
   "features_fr": [
-    "Tabby propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Assistant de code open source auto-hébergeable.",
+    "tabbyml.com décrit les capacités, limites et inscription de Tabby."
   ],
   "howToUse": [
     {

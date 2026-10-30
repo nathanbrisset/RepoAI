@@ -4,8 +4,8 @@
   "url": "https://getliner.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Liner is an AI product in the Search & Research space with official hosting at getliner.com.",
-  "description": "Liner is an AI product in the Search & Research space with official hosting at getliner.com. Check the pricing page before production use.\n\nFeature: Liner ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "AI research copilot with highlights, PDF chat, and browser workflows.",
+  "description": "Liner helps you search, highlight, and ask questions on web pages and PDFs, with AI answers grounded in your saved sources.",
   "categories": [
     "search"
   ],
@@ -27,10 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Liner ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Highlight and save passages from web pages and PDFs.",
+    "Ask questions with AI answers tied to your sources.",
+    "Browser extension and workspace for research projects.",
+    "Export and share highlights with teammates."
   ],
   "howToUse": [
     {
@@ -55,5 +55,19 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Surlignez et enregistrez des passages sur le web et dans les PDF.",
+    "Posez des questions avec des réponses IA liées à vos sources.",
+    "Extension navigateur et espace de travail pour vos recherches.",
+    "Exportez et partagez vos surlignages avec votre équipe."
+  ],
+  "summary_fr": "Copilote de recherche IA avec surlignages, chat PDF et extension navigateur.",
+  "description_fr": "Liner permet de rechercher, surligner et interroger des pages web et des PDF, avec des réponses IA ancrées sur vos sources enregistrées.",
+  "tags_fr": [
+    "surlignage",
+    "PDF",
+    "recherche",
+    "navigateur"
   ]
 }

@@ -1,0 +1,203 @@
+{
+  "askcodi": {
+    "summary": "AI coding assistant for snippets, answers, and IDE workflows.",
+    "description": "AskCodi helps developers with code suggestions, coding Q&A, multi-language support, and IDE integrations. Ask questions in natural language, review generated snippets, and adapt them in your editor.",
+    "summary_fr": "Assistant de code IA pour extraits, réponses et workflows dans l'IDE.",
+    "description_fr": "AskCodi aide les développeurs avec des suggestions de code, des réponses aux questions techniques, la prise en charge de plusieurs langages et des intégrations IDE. Posez une question, examinez les extraits proposés et adaptez-les dans votre éditeur.",
+    "features_fr": [
+      "Suggestions de code à partir de votre saisie ou de vos questions.",
+      "Réponses aux questions liées au développement et au débogage.",
+      "Prise en charge de nombreux langages de programmation.",
+      "Extensions et intégrations pour les éditeurs et navigateurs courants."
+    ],
+    "tags_fr": ["suggestions de code", "questions de code"]
+  },
+  "11x": {
+    "summary_fr": "SDR IA autonome pour la prospection sortante et la prise de rendez-vous.",
+    "description_fr": "11x déploie un agent SDR IA autonome qui automatise la prospection sortante, les relances et la réservation de rendez-vous, connecté à votre CRM et à vos workflows e-mail.",
+    "tags": ["sales", "outbound", "automation"],
+    "tags_fr": ["ventes", "prospection", "automatisation"]
+  },
+  "freshdesk-freddy": {
+    "summary": "Freddy AI copilot for Freshdesk — ticket triage, replies, and agent assist.",
+    "description": "Freshdesk Freddy brings AI to Freshdesk Omni: suggested replies, ticket summarization, intent detection, and automation for support teams on Freshworks.",
+    "summary_fr": "Copilote Freddy AI pour Freshdesk : tri des tickets, réponses suggérées et assistance agent.",
+    "description_fr": "Freshdesk Freddy apporte l'IA à Freshdesk Omni : réponses suggérées, résumés de tickets, détection d'intention et automatisations pour les équipes support sur Freshworks.",
+    "features": [
+      "AI-suggested replies and summaries on support tickets.",
+      "Intent detection and routing for Freshdesk Omni workflows.",
+      "Agent assist embedded in the Freshdesk workspace.",
+      "Automation and insights tied to Freshworks CRM data."
+    ],
+    "features_fr": [
+      "Réponses et résumés suggérés par l'IA sur les tickets support.",
+      "Détection d'intention et routage dans les workflows Freshdesk Omni.",
+      "Assistance agent intégrée à l'espace Freshdesk.",
+      "Automatisations et insights liés aux données Freshworks."
+    ],
+    "tags_fr": ["helpdesk", "bots", "Freshworks", "support"]
+  },
+  "lavender": {
+    "summary": "AI email coach for sales teams — scoring, coaching, and send-time insights.",
+    "description": "Lavender analyzes outbound sales emails, scores messages, and coaches reps on tone, clarity, and personalization before they hit send.",
+    "summary_fr": "Coach e-mail IA pour les équipes commerciales : scoring, coaching et conseils avant envoi.",
+    "description_fr": "Lavender analyse les e-mails commerciaux sortants, note les messages et coach les commerciaux sur le ton, la clarté et la personnalisation avant l'envoi.",
+    "features": [
+      "Email scoring and coaching for outbound sales messages.",
+      "Personalization and clarity suggestions before send.",
+      "Integrations with common sales email workflows.",
+      "Analytics to improve reply rates over time."
+    ],
+    "features_fr": [
+      "Scoring et coaching des e-mails commerciaux sortants.",
+      "Suggestions de personnalisation et de clarté avant envoi.",
+      "Intégrations avec les workflows e-mail sales courants.",
+      "Analyses pour améliorer les taux de réponse dans le temps."
+    ],
+    "tags_fr": ["courriel", "ventes", "coaching", "prospection"]
+  },
+  "liner": {
+    "summary": "AI research copilot with highlights, PDF chat, and browser workflows.",
+    "description": "Liner helps you search, highlight, and ask questions on web pages and PDFs, with AI answers grounded in your saved sources.",
+    "summary_fr": "Copilote de recherche IA avec surlignages, chat PDF et extension navigateur.",
+    "description_fr": "Liner permet de rechercher, surligner et interroger des pages web et des PDF, avec des réponses IA ancrées sur vos sources enregistrées.",
+    "features": [
+      "Highlight and save passages from web pages and PDFs.",
+      "Ask questions with AI answers tied to your sources.",
+      "Browser extension and workspace for research projects.",
+      "Export and share highlights with teammates."
+    ],
+    "features_fr": [
+      "Surlignez et enregistrez des passages sur le web et dans les PDF.",
+      "Posez des questions avec des réponses IA liées à vos sources.",
+      "Extension navigateur et espace de travail pour vos recherches.",
+      "Exportez et partagez vos surlignages avec votre équipe."
+    ],
+    "tags_fr": ["surlignage", "PDF", "recherche", "navigateur"]
+  },
+  "doubao": {
+    "summary_fr": "Assistant conversationnel multimodal de ByteDance (豆包) pour le chat et la création.",
+    "description_fr": "Doubao (豆包) est l'assistant IA de ByteDance pour le chat multimodal, la rédaction et la génération de contenu. Consultez doubao.com pour les modèles, quotas et disponibilité régionale.",
+    "tags_fr": ["ByteDance", "chat", "Chine", "multimodal"]
+  },
+  "jenni-ai": {
+    "features": [
+      "AI-assisted academic writing with inline suggestions.",
+      "Citation and bibliography support for research papers.",
+      "Outline and paragraph drafting in the web editor.",
+      "Import and export for common document workflows."
+    ],
+    "features_fr": [
+      "Rédaction académique assistée par l'IA avec suggestions en ligne.",
+      "Aide aux citations et bibliographies pour vos travaux de recherche.",
+      "Plans et brouillons de paragraphes dans l'éditeur web.",
+      "Import et export pour vos workflows documentaires courants."
+    ],
+    "tags_fr": ["académique", "écriture", "citations", "éditeur"]
+  },
+  "kaiber": {
+    "tags": ["video", "music-video", "creators"],
+    "features": [
+      "Text and image to stylized video generation for creators.",
+      "Music-video and motion presets with camera controls.",
+      "Storyboard-style editing and clip iteration.",
+      "Export for social and music promotion workflows."
+    ],
+    "features_fr": [
+      "Génération de vidéos stylisées à partir de texte ou d'images.",
+      "Presets clips musicaux et mouvements avec contrôles caméra.",
+      "Montage type storyboard et itérations sur les clips.",
+      "Export pour les réseaux sociaux et la promotion musicale."
+    ],
+    "tags_fr": ["vidéo", "clip musical", "créateurs"]
+  },
+  "mammouth": {
+    "features": [
+      "One subscription for ChatGPT, Claude, Gemini, Mistral, and more.",
+      "French-first interface and support for European users.",
+      "Conversation history and projects across models.",
+      "Single bill instead of many vendor plans."
+    ],
+    "features_fr": [
+      "Un abonnement pour ChatGPT, Claude, Gemini, Mistral et d'autres modèles.",
+      "Interface et support orientés utilisateurs francophones.",
+      "Historique de conversations et projets multi-modèles.",
+      "Une seule facture au lieu de plusieurs abonnements éditeurs."
+    ],
+    "tags": ["llm", "multi-model", "subscription"],
+    "tags_fr": ["LLM", "multi-modèles", "abonnement"]
+  },
+  "ramp": {
+    "tags": ["finance", "expense", "cards"],
+    "features": [
+      "Corporate cards with policy controls and spend limits.",
+      "AI agents for receipt matching and expense review.",
+      "Real-time visibility into team spend and budgets.",
+      "Integrations with accounting and ERP stacks."
+    ],
+    "features_fr": [
+      "Cartes corporate avec règles de dépenses et plafonds.",
+      "Agents IA pour rapprochement de reçus et revue des notes de frais.",
+      "Visibilité en temps réel sur les dépenses et budgets d'équipe.",
+      "Intégrations comptables et ERP."
+    ],
+    "tags_fr": ["finance", "dépenses", "cartes"]
+  },
+  "spotter": {
+    "tags": ["youtube", "marketing", "analytics"],
+    "features": [
+      "YouTube video ideation from trends and audience signals.",
+      "Title, thumbnail, and hook suggestions for creators.",
+      "Trend analysis and competitive insights for channels.",
+      "Workflow to plan uploads in Spotter Studio."
+    ],
+    "features_fr": [
+      "Idéation de vidéos YouTube à partir des tendances et de l'audience.",
+      "Suggestions de titres, miniatures et accroches pour les créateurs.",
+      "Analyse des tendances et insights concurrentiels pour les chaînes.",
+      "Workflow de planification des mises en ligne dans Spotter Studio."
+    ],
+    "tags_fr": ["YouTube", "marketing", "analytique"]
+  },
+  "synthflow": {
+    "tags": ["voice", "phone", "support"],
+    "tags_fr": ["voix", "téléphone", "support"]
+  },
+  "chatcode": {
+    "tags_fr": ["chatbot", "support développeur"]
+  },
+  "grammarly": {
+    "tags_fr": ["grammaire", "relecture", "montage"]
+  },
+  "notion-ai": {
+    "tags_fr": ["prise de notes", "gestion des tâches", "résumé", "notes de réunion", "gestion des connaissances"]
+  },
+  "pennylane": {
+    "tags_fr": ["comptabilité", "français", "finance", "automatisation"]
+  },
+  "jasper": {
+    "tags_fr": ["contenu", "marketing", "écriture"]
+  },
+  "zerogpt": {
+    "summary_fr": "Détection de contenu généré par IA pour textes et documents.",
+    "description_fr": "ZeroGPT analyse textes et fichiers pour estimer la part probable de contenu généré par IA, avec rapports, lots et API pour les workflows éditoriaux.",
+    "tags_fr": ["détection", "analyse gratuite", "texte", "éducation"]
+  },
+  "wan": {
+    "tags_fr": ["Alibaba", "génération vidéo", "ouvert", "modèles"]
+  },
+  "sora": {
+    "tags_fr": ["vidéo", "arrêté"]
+  },
+  "scholarcy": {
+    "summary_fr": "Résumés et fiches de lecture IA pour articles scientifiques et PDF.",
+    "description_fr": "Scholarcy extrait les points clés, références et structure de papers et PDF pour accélérer la revue de littérature.",
+    "features_fr": [
+      "Résumés flashcards de papers et chapitres PDF.",
+      "Extraction des références et liens vers les sources.",
+      "Import depuis DOI, URL ou fichier local.",
+      "Export vers Zotero et autres gestionnaires bibliographiques."
+    ],
+    "tags_fr": ["recherche", "PDF", "résumé", "éducation"]
+  }
+}

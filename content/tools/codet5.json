@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "inactive",
   "summary": "Home of CodeT5: Open Code LLMs for Code Understanding and Generation - salesforce/CodeT5",
-  "description": "Home of CodeT5: Open Code LLMs for Code Understanding and Generation - salesforce/CodeT5\n\nCode Understanding and Generation: Excels at tasks like code summarization and translation. Identifier-Aware Pretraining: Understands the role of identifiers in code for better context. Support for Multiple Programming Languages: Trained on diverse codebases to handle various languages. Transformer-Based Architecture: Utilizes advanced machine learning models for code tasks.",
+  "description": "Home of CodeT5: Open Code LLMs for Code Understanding and Generation - salesforce/CodeT5 Code Understanding and Generation: Excels at tasks like code summarization and translation. Identifier-Aware Pretraining: Understands the role of identifiers in code for better context. Support for Multiple Programming Languages: Trained on diverse codebases to handle various languages. Transformer-Based Architecture: Utilizes advanced machine learning models for code tasks.",
   "categories": [
     "coding"
   ],
@@ -50,5 +50,11 @@
       "description": "Use APIs or command-line tools for code generation or summarization tasks."
     }
   ],
-  "statusNote": "Grouped in the Data science collection; hidden from main discovery."
+  "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
+  "features_fr": [
+    "Compréhension et génération de code : excelle dans des tâches telles que la synthèse et la traduction de code.",
+    "Pré-formation prenant en compte les identifiants : comprend le rôle des identifiants dans le code pour un meilleur contexte.",
+    "Prise en charge de plusieurs langages de programmation : formé sur diverses bases de code pour gérer différents langages.",
+    "Architecture basée sur un transformateur : utilise des modèles avancés d'apprentissage automatique pour les tâches de code."
+  ]
 }

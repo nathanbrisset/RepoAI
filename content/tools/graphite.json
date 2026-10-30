@@ -53,5 +53,17 @@
       "title": "Compare Hobby, Starter, and Team",
       "description": "A Hobby plan is free for personal repositories. Starter costs $20 and Team $40 per user per month, billed annually."
     }
+  ],
+  "features": [
+    "Code review platform for GitHub with stacked PRs, AI review and a merge queue.",
+    "Graphite is a code review platform for teams on GitHub.",
+    "It supports stacked pull requests through its CLI and web app, provides AI reviews, a merge queue and insights.",
+    "Cursor Cloud Agents are now integrated so users can create and ship changes from a pull request."
+  ],
+  "features_fr": [
+    "Plateforme de révision de code pour GitHub avec des PR empilés, une révision par l'IA et une file d'attente de fusion.",
+    "Graphite est une plateforme de révision de code pour les équipes sur GitHub.",
+    "Il prend en charge les demandes d'extraction empilées via sa CLI et son application Web, fournit des analyses d'IA, une file d'attente de fusion et des informations.",
+    "Les agents Cursor Cloud sont désormais intégrés afin que les utilisateurs puissent créer et envoyer des modifications à partir d'une pull request."
   ]
 }

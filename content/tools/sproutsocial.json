@@ -4,10 +4,10 @@
   "url": "https://sproutsocial.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Sprout Social is an AI product in the Marketing space with official hosting at sproutsocial.com.",
-  "description": "Sprout Social is an AI product in the Marketing space with official hosting at sproutsocial.com.\n\nGestion des réseaux sociaux avec IA intégrée. Check the pricing page before production use.\n\nFeature: Sprout Social ships the main workflow advertised on its official site.",
+  "summary": "Sprout Social: Social media management with built-in AI.",
+  "description": "Sprout Social helps teams with social media management with built-in AI.",
   "summary_fr": "Gestion des réseaux sociaux avec IA intégrée.",
-  "description_fr": "Gestion des réseaux sociaux avec IA intégrée. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Gestion des réseaux sociaux avec IA intégrée.",
   "categories": [
     "marketing"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://sproutsocial.com"
   },
   "logo": "/logos/sproutsocial.png",
-  "image": "",
+  "image": "/screenshots/sproutsocial.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Sprout Social ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Social media management with built-in AI.",
+    "Sprout Social helps teams with social media management with built-in AI."
   ],
   "features_fr": [
-    "Sprout Social propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Gestion des réseaux sociaux avec IA intégrée.",
+    "sproutsocial.com décrit les capacités, limites et inscription de Sprout Social."
   ],
   "howToUse": [
     {

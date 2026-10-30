@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Consumer Copilot chat at copilot.microsoft.com for web search, image creation, and everyday questions—not the same product page as Microsoft 365 Copilot for work.",
-  "description": "Microsoft Copilot on the web is the free-to-try assistant at copilot.microsoft.com. It answers questions, generates images, and helps with writing using Microsoft's latest models. Microsoft 365 Copilot is the paid work assistant embedded in Word, Excel, and Teams; this fiche covers the consumer web experience only.\n\nFeature: Web-grounded answers with citations from Bing search. Feature: Image generation and editing in the Copilot chat. Feature: Voice and file upload on supported browsers. Feature: Sign-in with a personal Microsoft account for history sync.",
+  "description": "Microsoft Copilot on the web is the free-to-try assistant at copilot.microsoft.com. It answers questions, generates images, and helps with writing using Microsoft's latest models. Microsoft 365 Copilot is the paid work assistant embedded in Word, Excel, and Teams; this fiche covers the consumer web experience only.",
   "categories": [
     "llm-chatbots"
   ],
@@ -55,5 +55,11 @@
       "title": "Compare with work Copilot",
       "description": "For Office-embedded Copilot inside your tenant, use the Microsoft 365 Copilot fiche instead."
     }
+  ],
+  "features_fr": [
+    "Réponses basées sur le Web avec des citations de la recherche Bing.",
+    "Génération et édition d'images dans le chat Copilot.",
+    "Téléchargement de voix et de fichiers sur les navigateurs pris en charge.",
+    "Connectez-vous avec un compte Microsoft personnel pour la synchronisation de l'historique."
   ]
 }

@@ -58,5 +58,11 @@
   "sources": [
     "https://aws.amazon.com/q/developer/"
   ],
-  "statusNote": "Formerly Amazon CodeWhisperer."
+  "statusNote": "Formerly Amazon CodeWhisperer.",
+  "features_fr": [
+    "Suggestions de code en temps réel : complétions contextuelles lors du codage.",
+    "Intégration des services AWS : extraits de code personnalisés pour les services AWS.",
+    "Analyse de sécurité : détecte les vulnérabilités potentielles.",
+    "Attribution Open Source : fait référence à un code open source similaire."
+  ]
 }

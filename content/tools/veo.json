@@ -61,5 +61,17 @@
         }
       ]
     }
+  ],
+  "features": [
+    "Google DeepMind's video generation model with native audio.",
+    "Veo is Google DeepMind's video model (currently Veo 3.1) that generates cinematic clips with synchronized audio from text and image prompts.",
+    "It is available inside Google products such as Gemini and Flow and to developers via the Gemini API.",
+    "On the Gemini API it is paid-tier only (not available on the free tier), from $0.05 per second for Veo 3.1 Lite at 720p; Google notes the Veo 3.1 preview endpoints shut down on Oct 22, 2026 in favour of Gemini Omni Flash."
+  ],
+  "features_fr": [
+    "Modèle de génération vidéo de Google DeepMind avec audio natif.",
+    "Veo est le modèle vidéo de Google DeepMind (actuellement Veo 3.1) qui génère des clips cinématiques avec un son synchronisé à partir d'invites de texte et d'images.",
+    "Il est disponible dans les produits Google tels que Gemini et Flow et pour les développeurs via l'API Gemini.",
+    "Sur l'API Gemini, il s'agit uniquement du niveau payant (non disponible sur le niveau gratuit), à partir de 0,05 $ par seconde pour Veo 3.1 Lite à 720p ; Google note que les points de terminaison de la version préliminaire de Veo 3.1 ont été fermés le 22 octobre 2026 au profit de Gemini Omni Flash."
   ]
 }

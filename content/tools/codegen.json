@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "CodeGen is a family of open-source model for program synthesis. Trained on TPU-v4. Competitive with OpenAI Codex. - salesforce/CodeGen",
-  "description": "CodeGen is a family of open-source model for program synthesis. Trained on TPU-v4. Competitive with OpenAI Codex. - salesforce/CodeGen\n\nAI-Powered Code Generation: Generates code snippets based on natural language prompts. Support for Multiple Languages: Handles code generation in various programming languages. Transformer-Based Model: Utilizes advanced machine learning architectures for code synthesis. Open-Source Availability: Accessible for customization and integration into workflows.",
+  "description": "CodeGen is a family of open-source model for program synthesis. Trained on TPU-v4. Competitive with OpenAI Codex. - salesforce/CodeGen AI-Powered Code Generation: Generates code snippets based on natural language prompts. Support for Multiple Languages: Handles code generation in various programming languages. Transformer-Based Model: Utilizes advanced machine learning architectures for code synthesis. Open-Source Availability: Accessible for customization and integration into workflows.",
   "categories": [
     "coding"
   ],
@@ -49,5 +49,11 @@
       "title": "Generate Code",
       "description": "Use the provided scripts or API to generate code from prompts."
     }
+  ],
+  "features_fr": [
+    "Génération de code basée sur l'IA : génère des extraits de code basés sur des invites en langage naturel.",
+    "Prise en charge de plusieurs langages : gère la génération de code dans différents langages de programmation.",
+    "Modèle basé sur un transformateur : utilise des architectures avancées d'apprentissage automatique pour la synthèse de code.",
+    "Disponibilité Open Source : accessible pour la personnalisation et l'intégration dans les flux de travail."
   ]
 }

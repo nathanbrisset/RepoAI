@@ -4,8 +4,8 @@
   "url": "https://www.topview.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Topview delivers AI-assisted capabilities for video teams via www.topview.ai.",
-  "description": "Topview delivers AI-assisted capabilities for video teams via www.topview.ai. Check the pricing page before production use.\n\nFeature: Topview ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Topview: AI video ads from product links and scripts.",
+  "description": "Topview turns URLs, scripts, and product assets into short video ads with avatars, captions, and templates for social placement.",
   "categories": [
     "video"
   ],
@@ -27,10 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Topview ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "URL-to-video and script-to-video ad generation.",
+    "AI avatars and auto captions for vertical formats.",
+    "Template library for e-commerce and app promos.",
+    "Batch export for Meta, TikTok, and YouTube Shorts."
   ],
   "howToUse": [
     {
@@ -55,5 +55,13 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "summary_fr": "Publicités vidéo IA à partir de liens produit et scripts.",
+  "description_fr": "Topview transforme URLs, scripts et assets produit en courtes vidéos ads avec avatars, sous-titres et modèles social.",
+  "features_fr": [
+    "Génération vidéo depuis URL ou script.",
+    "Avatars IA et sous-titres auto pour formats verticaux.",
+    "Bibliothèque de modèles e-commerce et apps.",
+    "Export batch pour Meta, TikTok et Shorts."
   ]
 }

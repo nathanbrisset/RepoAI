@@ -4,8 +4,8 @@
   "url": "https://www.tripo3d.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Tripo AI delivers AI-assisted capabilities for design & ui teams via www.tripo3d.ai.",
-  "description": "Tripo AI delivers AI-assisted capabilities for design & ui teams via www.tripo3d.ai. Check the pricing page before production use.\n\nFeature: Tripo AI ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Tripo AI: Tripo AI is an AI product for design.",
+  "description": "Tripo AI is an AI product for design.",
   "categories": [
     "design"
   ],
@@ -27,10 +27,7 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Tripo AI ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Tripo AI is an AI product for design."
   ],
   "howToUse": [
     {
@@ -55,5 +52,13 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "summary_fr": "Modèles 3D générés par IA à partir d'images ou de texte.",
+  "description_fr": "Tripo AI crée des assets 3D texturés pour jeux, e-commerce et design à partir de photos ou de prompts.",
+  "features_fr": [
+    "Image-to-3D et text-to-3D avec textures.",
+    "Export formats GLB/OBJ pour moteurs et outils 3D.",
+    "Itérations rapides pour produits et personnages.",
+    "API pour pipelines créatifs automatisés."
   ]
 }

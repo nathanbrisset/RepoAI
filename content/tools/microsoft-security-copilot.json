@@ -4,8 +4,8 @@
   "url": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Microsoft Security Copilot delivers AI-assisted capabilities for security teams via www.microsoft.com.",
-  "description": "Microsoft Security Copilot delivers AI-assisted capabilities for security teams via www.microsoft.com. Check the pricing page before production use.\n\nFeature: Microsoft Security Copilot ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Microsoft Security Copilot: Microsoft Security Copilot is an AI product for security.",
+  "description": "Microsoft Security Copilot is an AI product for security.",
   "categories": [
     "security"
   ],
@@ -27,10 +27,8 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Microsoft Security Copilot ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Microsoft Security Copilot.",
+    "AI for security at microsoft.com."
   ],
   "howToUse": [
     {
@@ -55,5 +53,9 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Copilote de sécurité Microsoft.",
+    "IA pour la sécurité sur microsoft.com."
   ]
 }

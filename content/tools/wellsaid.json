@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "An AI voice generation platform that transforms text into lifelike, natural-sounding voiceovers, offering a diverse selection of voices in multiple languages.",
-  "description": "An AI voice generation platform that transforms text into lifelike, natural-sounding voiceovers, offering a diverse selection of voices in multiple languages.\n\nCreate professional-quality voice overs in any dialect or production style with our secure AI voices. Try WellSaid’s text-to-speech AI voices for free today.\n\nAI audio processing: WellSaid Labs supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "description": "An AI voice generation platform that transforms text into lifelike, natural-sounding voiceovers, offering a diverse selection of voices in multiple languages. Create professional-quality voice overs in any dialect or production style with our secure AI voices. Try WellSaid’s text-to-speech AI voices for free today.",
   "categories": [
     "voice"
   ],
@@ -20,15 +20,13 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/wellsaid.png",
-  "image": "/screenshots/wellsaid.webp",
+  "image": "/tool-screenshots/wellsaid.png",
   "dateAdded": "2025-06-04",
   "lastVerified": null,
   "features": [
-    "AI audio processing: WellSaid Labs supports automated audio analysis and enhancements.",
-    "Transcription support: Provides tools for converting speech to text.",
-    "Noise reduction: Reduces unwanted sounds from audio input.",
-    "Voice synthesis: Can generate or clone voices using AI models.",
-    "User-friendly interface: Simple design for creators and professionals."
+    "An AI voice generation platform that transforms text into lifelike.",
+    "Natural-sounding voiceovers.",
+    "Offering a diverse selection of voices in multiple languages."
   ],
   "howToUse": [
     {
@@ -53,5 +51,10 @@
       "title": "Generate & Download Audio",
       "description": "Produce the voiceover and download or integrate it with your project."
     }
+  ],
+  "features_fr": [
+    "Une plate-forme de génération vocale IA qui transforme le texte en un texte réaliste.",
+    "Des voix off au son naturel.",
+    "Offrant une sélection diversifiée de voix dans plusieurs langues."
   ]
 }

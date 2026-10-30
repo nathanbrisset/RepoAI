@@ -4,10 +4,10 @@
   "url": "https://www.ambiencehealthcare.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Ambience Healthcare is an AI product in the Health & Medical space with official hosting at ambiencehealthcare.com.",
-  "description": "Ambience Healthcare is an AI product in the Health & Medical space with official hosting at ambiencehealthcare.com.\n\nScribe médical IA pour hôpitaux. Check the pricing page before production use.\n\nFeature: Ambience Healthcare ships the main workflow advertised on its official site.",
+  "summary": "Ambience Healthcare: AI medical scribe for hospitals.",
+  "description": "Ambience Healthcare helps teams with aI medical scribe for hospitals.",
   "summary_fr": "Scribe médical IA pour hôpitaux.",
-  "description_fr": "Scribe médical IA pour hôpitaux. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Scribe médical IA pour hôpitaux.",
   "categories": [
     "health"
   ],
@@ -20,24 +20,21 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.ambiencehealthcare.com"
   },
   "logo": "/logos/ambiencehealthcare.png",
-  "image": "",
+  "image": "/screenshots/ambiencehealthcare.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Ambience Healthcare ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "AI medical scribe for hospitals.",
+    "Ambience Healthcare helps teams with aI medical scribe for hospitals."
   ],
   "features_fr": [
-    "Ambience Healthcare propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Scribe médical IA pour les hôpitaux.",
+    "Axé sur les flux de travail de santé.",
+    "Ambiance Healthcare comprend des fonctionnalités de santé."
   ],
   "howToUse": [
     {

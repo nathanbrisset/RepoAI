@@ -4,10 +4,10 @@
   "url": "https://reflect.app",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Reflect is an AI product in the Productivity space with official hosting at reflect.app.",
-  "description": "Reflect is an AI product in the Productivity space with official hosting at reflect.app.\n\nNotes connectées avec assistant IA. Check the pricing page before production use.\n\nFeature: Reflect ships the main workflow advertised on its official site.",
+  "summary": "Reflect: Connected notes with AI assistant.",
+  "description": "Reflect helps teams with connected notes with AI assistant.",
   "summary_fr": "Notes connectées avec assistant IA.",
-  "description_fr": "Notes connectées avec assistant IA. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Notes connectées avec assistant IA.",
   "categories": [
     "productivity"
   ],
@@ -20,7 +20,7 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://reflect.app"
   },
   "logo": "/logos/reflect.png",
@@ -28,16 +28,12 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Reflect ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Connected notes with AI assistant.",
+    "Reflect helps teams with connected notes with AI assistant."
   ],
   "features_fr": [
-    "Reflect propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Notes connectées avec assistant IA.",
+    "Reflect couvre ai, productivity, catalog."
   ],
   "howToUse": [
     {

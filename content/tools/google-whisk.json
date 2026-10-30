@@ -4,10 +4,10 @@
   "url": "https://labs.google/fx/tools/whisk",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Whisk (Google) is an AI product in the Image Generation space with official hosting at labs.google.",
-  "description": "Whisk (Google) is an AI product in the Image Generation space with official hosting at labs.google.\n\nRemix d'images à partir de références (Google Labs). Check the pricing page before production use.\n\nFeature: Whisk (Google) ships the main workflow advertised on its official site.",
+  "summary": "Whisk (Google): Remixing images from references (Google Labs).",
+  "description": "Remixing images from references (Google Labs).",
   "summary_fr": "Remix d'images à partir de références (Google Labs).",
-  "description_fr": "Remix d'images à partir de références (Google Labs). Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Remix d'images à partir de références (Google Labs).",
   "categories": [
     "image"
   ],
@@ -20,7 +20,7 @@
     "model": "free",
     "label": "Free",
     "verified": false,
-    "note": "Gratuit",
+    "note": "Free tier available; see the official site for limits.",
     "sourceUrl": "https://labs.google/fx/tools/whisk"
   },
   "logo": "/logos/google-whisk.png",
@@ -28,16 +28,13 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Whisk (Google) ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Remixing images from references (Google Labs).",
+    "Remixing images from references (Google Labs)."
   ],
   "features_fr": [
-    "Whisk (Google) propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Remixage d'images à partir de références (Google Labs).",
+    "Axé sur les flux de travail d'images.",
+    "Whisk (Google) inclut des fonctionnalités d'image."
   ],
   "howToUse": [
     {

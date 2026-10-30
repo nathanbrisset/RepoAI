@@ -4,10 +4,10 @@
   "url": "https://www.castmagic.io",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Castmagic is an AI product in the Writing & Content space with official hosting at castmagic.io.",
-  "description": "Castmagic is an AI product in the Writing & Content space with official hosting at castmagic.io.\n\nTransforme un audio / podcast en posts, newsletters, articles. Check the pricing page before production use.\n\nFeature: Castmagic ships the main workflow advertised on its official site.",
+  "summary": "Castmagic: Turn podcasts and audio into posts, newsletters, and articles.",
+  "description": "Castmagic repurposes podcast and audio recordings into social posts, newsletters, and long-form content with AI templates and editing controls.",
   "summary_fr": "Transforme un audio / podcast en posts, newsletters, articles.",
-  "description_fr": "Transforme un audio / podcast en posts, newsletters, articles. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Transforme un audio / podcast en posts, newsletters, articles.",
   "categories": [
     "writing"
   ],
@@ -20,7 +20,7 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.castmagic.io"
   },
   "logo": "/logos/castmagic.png",
@@ -28,16 +28,14 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Castmagic ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Upload audio or podcast episodes for AI transcription.",
+    "Generate social posts, newsletters, and blog drafts from transcripts.",
+    "Adjust tone and format for each marketing channel.",
+    "Export finished content to your publishing stack."
   ],
   "features_fr": [
-    "Castmagic propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Transforme un audio / podcast en posts.",
+    "Newsletters."
   ],
   "howToUse": [
     {

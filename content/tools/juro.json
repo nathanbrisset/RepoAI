@@ -4,10 +4,10 @@
   "url": "https://juro.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Juro is an AI product in the Legal space with official hosting at juro.com.",
-  "description": "Juro is an AI product in the Legal space with official hosting at juro.com.\n\nContrats rédigés et revus par IA. Check the pricing page before production use.\n\nFeature: Juro ships the main workflow advertised on its official site.",
+  "summary": "Juro: Contracts drafted and reviewed by AI.",
+  "description": "Juro helps teams with contracts drafted and reviewed by AI.",
   "summary_fr": "Contrats rédigés et revus par IA.",
-  "description_fr": "Contrats rédigés et revus par IA. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Contrats rédigés et revus par IA.",
   "categories": [
     "legal"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://juro.com"
   },
   "logo": "/logos/juro.png",
-  "image": "",
+  "image": "/screenshots/juro.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Juro ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Contracts drafted and reviewed by AI.",
+    "Juro helps teams with contracts drafted and reviewed by AI."
   ],
   "features_fr": [
-    "Juro propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Contrats rédigés.",
+    "Revus par IA."
   ],
   "howToUse": [
     {

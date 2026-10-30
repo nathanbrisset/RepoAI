@@ -52,5 +52,17 @@
       "title": "Triage the findings",
       "description": "Use the AI triage, fix the findings that matter, and use the free edition with cross-file analysis if the team is small."
     }
+  ],
+  "features": [
+    "Application security platform for code scanning (SAST), dependencies (SCA) and secrets, with AI triage.",
+    "Semgrep scans source code for security issues with its SAST engine, checks open-source dependencies for vulnerabilities and malware, and detects hardcoded secrets.",
+    "AI features help triage and fix findings.",
+    "The scanning engine is open source."
+  ],
+  "features_fr": [
+    "Plateforme de sécurité des applications pour l'analyse du code (SAST), les dépendances (SCA) et les secrets, avec triage IA.",
+    "Semgrep analyse le code source à la recherche de problèmes de sécurité avec son moteur SAST, vérifie les dépendances open source pour détecter les vulnérabilités et les logiciels malveillants et détecte les secrets codés en dur.",
+    "Les fonctionnalités d’IA aident à trier et à corriger les résultats.",
+    "Le moteur d'analyse est open source."
   ]
 }

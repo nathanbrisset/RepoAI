@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Generate code snippets and full modules from natural language prompts.",
-  "description": "Generate code snippets and full modules from natural language prompts.\n\nPrompt-based generation: Turn descriptions into code. Supports popular languages: JavaScript, Python, and more. Custom templates: Build with reusable code blocks. Collaborative sharing: Share snippets with teams.",
+  "description": "Generate code snippets and full modules from natural language prompts. Prompt-based generation: Turn descriptions into code. Supports popular languages: JavaScript, Python, and more. Custom templates: Build with reusable code blocks. Collaborative sharing: Share snippets with teams.",
   "categories": [
     "coding"
   ],
@@ -52,5 +52,11 @@
       "title": "Copy or Share",
       "description": "Export the code or share with your team via the platform."
     }
+  ],
+  "features_fr": [
+    "Génération basée sur des invites : transformez les descriptions en code.",
+    "Prend en charge les langages populaires : JavaScript, Python, etc.",
+    "Modèles personnalisés : créez avec des blocs de code réutilisables.",
+    "Partagez collaboratif : partagez des extraits avec les équipes."
   ]
 }

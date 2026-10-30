@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Otter AI Meeting Agent supports real-time transcription, live chat, automated summaries, insights, and action items.",
-  "description": "Otter AI Meeting Agent supports real-time transcription, live chat, automated summaries, insights, and action items.\n\nAI audio processing: Otter.ai supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "description": "Otter AI Meeting Agent supports real-time transcription, live chat, automated summaries, insights, and action items.",
   "categories": [
     "meetings"
   ],
@@ -25,11 +25,9 @@
   "dateAdded": "2025-06-04",
   "lastVerified": "2026-10-21",
   "features": [
-    "AI audio processing: Otter.ai supports automated audio analysis and enhancements.",
-    "Transcription support: Provides tools for converting speech to text.",
-    "Noise reduction: Reduces unwanted sounds from audio input.",
-    "Voice synthesis: Can generate or clone voices using AI models.",
-    "User-friendly interface: Simple design for creators and professionals."
+    "Otter AI Meeting Agent supports real-time transcription.",
+    "Automated summaries.",
+    "And action items."
   ],
   "howToUse": [
     {
@@ -54,5 +52,11 @@
       "title": "Export Results",
       "description": "Download transcripts and audio or share with collaborators."
     }
+  ],
+  "features_fr": [
+    "Otter AI Meeting Agent prend en charge la transcription en temps réel, le chat en direct, les résumés automatiques, les enseignements et les actions à mener.",
+    "Traitement audio par IA : Otter.ai prend en charge l'analyse audio automatisée et les améliorations.",
+    "Réduction du bruit : réduit les sons indésirables de l'audio en entrée.",
+    "Synthèse vocale : peut générer ou cloner des voix à l'aide de modèles d'IA."
   ]
 }

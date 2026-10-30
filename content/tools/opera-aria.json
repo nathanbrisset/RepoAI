@@ -4,8 +4,8 @@
   "url": "https://www.opera.com/aria",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Opera Aria delivers AI-assisted capabilities for llm & chatbots teams via www.opera.com.",
-  "description": "Opera Aria delivers AI-assisted capabilities for llm & chatbots teams via www.opera.com. Check the pricing page before production use.\n\nFeature: Multi-turn chat with model selection where available. Feature: File, image, or voice input on supported plans. Feature: Share or export conversations for teammates. Feature: API or enterprise controls on higher tiers.",
+  "summary": "Opera Aria: Opera Aria is an AI product for LLM and chat.",
+  "description": "Opera Aria is an AI product for LLM and chat.",
   "categories": [
     "llm-chatbots"
   ],
@@ -55,5 +55,11 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Chat multi-tours avec sélection de modèle si disponible.",
+    "Saisie de fichier, d’image ou vocale sur les forfaits pris en charge.",
+    "Partagez ou exportez des conversations pour vos coéquipiers.",
+    "Contrôles API ou d'entreprise sur les niveaux supérieurs."
   ]
 }

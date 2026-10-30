@@ -52,5 +52,17 @@
       "title": "Follow Jan Agent on GitHub",
       "description": "Follow the public development on GitHub. From the Jan site, open Jan Agent or the research work when you want the agent or the research."
     }
+  ],
+  "features": [
+    "Open-source desktop app for chatting with local models or connecting to cloud model APIs.",
+    "Jan is an open-source desktop application that runs open-weight models locally and can also connect to cloud providers such as OpenAI and Anthropic with the user's own API keys.",
+    "It provides a chat interface, model downloads and a local API server.",
+    "The project is developed in public on GitHub and also offers Jan Agent and research work."
+  ],
+  "features_fr": [
+    "Application de bureau open source pour discuter avec des modèles locaux ou se connecter aux API de modèles cloud.",
+    "Jan est une application de bureau open source qui exécute localement des modèles ouverts et peut également se connecter à des fournisseurs de cloud tels que OpenAI et Anthropic avec les propres clés API de l'utilisateur.",
+    "Il fournit une interface de chat, des téléchargements de modèles et un serveur API local.",
+    "Le projet est développé en public sur GitHub et propose également Jan Agent et des travaux de recherche."
   ]
 }

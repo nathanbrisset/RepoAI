@@ -4,10 +4,10 @@
   "url": "https://1of10.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "1of10 is an AI product in the Marketing space with official hosting at 1of10.com.",
-  "description": "1of10 is an AI product in the Marketing space with official hosting at 1of10.com.\n\nTrouve les vidéos YouTube qui surperforment dans une niche. Check the pricing page before production use.\n\nFeature: 1of10 ships the main workflow advertised on its official site.",
+  "summary": "1of10: Find top-performing YouTube videos in a niche.",
+  "description": "1of10 helps teams with find top-performing YouTube videos in a niche.",
   "summary_fr": "Trouve les vidéos YouTube qui surperforment dans une niche.",
-  "description_fr": "Trouve les vidéos YouTube qui surperforment dans une niche. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Trouve les vidéos YouTube qui surperforment dans une niche.",
   "categories": [
     "marketing"
   ],
@@ -20,24 +20,19 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://1of10.com"
   },
   "logo": "/logos/1of10.png",
-  "image": "",
+  "image": "/screenshots/1of10.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "1of10 ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Find top-performing YouTube videos in a niche.",
+    "1of10 helps teams with find top-performing YouTube videos in a niche."
   ],
   "features_fr": [
-    "1of10 propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Trouvez les vidéos YouTube les plus performantes dans une niche."
   ],
   "howToUse": [
     {

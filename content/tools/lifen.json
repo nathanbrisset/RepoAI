@@ -4,10 +4,10 @@
   "url": "https://www.lifen.fr",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Lifen is an AI product in the Health & Medical space with official hosting at lifen.fr.",
-  "description": "Lifen is an AI product in the Health & Medical space with official hosting at lifen.fr.\n\nGestion documentaire médicale par IA (France). Check the pricing page before production use.\n\nFeature: Lifen ships the main workflow advertised on its official site.",
+  "summary": "Lifen: AI medical document management (France).",
+  "description": "Lifen helps teams with aI medical document management (France).",
   "summary_fr": "Gestion documentaire médicale par IA (France).",
-  "description_fr": "Gestion documentaire médicale par IA (France). Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Gestion documentaire médicale par IA (France).",
   "categories": [
     "health"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.lifen.fr"
   },
   "logo": "/logos/lifen.png",
-  "image": "",
+  "image": "/screenshots/lifen.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Lifen ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "AI medical document management (France).",
+    "Lifen helps teams with aI medical document management (France)."
   ],
   "features_fr": [
-    "Lifen propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Gestion documentaire médicale par IA (France).",
+    "lifen.fr décrit les capacités, limites et inscription de Lifen."
   ],
   "howToUse": [
     {

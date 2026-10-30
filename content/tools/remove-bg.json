@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Remove image backgrounds automatically in 5 seconds with just one click. Don't spend hours manually picking pixels. Upload your photo now & see the magic.",
-  "description": "Remove image backgrounds automatically in 5 seconds with just one click. Don't spend hours manually picking pixels. Upload your photo now & see the magic.\n\nInstant background removal: Eliminate backgrounds from photos automatically. Batch processing: Remove backgrounds from multiple images at once. High-resolution output: Download images in high quality with transparent backgrounds. API integration: Automate background removal in your workflows.",
+  "description": "Remove image backgrounds automatically in 5 seconds with just one click. Don't spend hours manually picking pixels. Upload your photo now & see the magic. Instant background removal: Eliminate backgrounds from photos automatically. Batch processing: Remove backgrounds from multiple images at once. High-resolution output: Download images in high quality with transparent backgrounds. API integration: Automate background removal in your workflows.",
   "categories": [
     "image"
   ],
@@ -27,8 +27,7 @@
     "Instant background removal: Eliminate backgrounds from photos automatically.",
     "Batch processing: Remove backgrounds from multiple images at once.",
     "High-resolution output: Download images in high quality with transparent backgrounds.",
-    "API integration: Automate background removal in your workflows.",
-    "Smart hair detection: Retain fine hair and edges for realistic results."
+    "API integration: Automate background removal in your workflows."
   ],
   "howToUse": [
     {
@@ -49,5 +48,11 @@
       "title": "Download Result",
       "description": "Download the processed image with background removed. Use batch or API features for automation."
     }
+  ],
+  "features_fr": [
+    "Suppression instantanée de l’arrière-plan : éliminez automatiquement les arrière-plans des photos.",
+    "Traitement par lots : supprimez les arrière-plans de plusieurs images à la fois.",
+    "Sortie haute résolution : téléchargez des images de haute qualité avec des arrière-plans transparents.",
+    "Intégration API : automatisez la suppression de l'arrière-plan dans vos flux de travail."
   ]
 }

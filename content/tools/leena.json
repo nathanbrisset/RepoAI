@@ -4,10 +4,10 @@
   "url": "https://leena.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Leena AI is an AI product in the HR & Recruiting space with official hosting at leena.ai.",
-  "description": "Leena AI is an AI product in the HR & Recruiting space with official hosting at leena.ai.\n\nAssistant RH IA pour les employés. Check the pricing page before production use.\n\nFeature: Leena AI ships the main workflow advertised on its official site.",
+  "summary": "Leena AI: AI HR assistant for employees.",
+  "description": "Leena AI helps teams with aI HR assistant for employees.",
   "summary_fr": "Assistant RH IA pour les employés.",
-  "description_fr": "Assistant RH IA pour les employés. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Assistant RH IA pour les employés.",
   "categories": [
     "hr"
   ],
@@ -20,24 +20,21 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://leena.ai"
   },
   "logo": "/logos/leena.png",
-  "image": "",
+  "image": "/screenshots/leena.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Leena AI ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "AI HR assistant for employees.",
+    "Leena AI helps teams with aI HR assistant for employees."
   ],
   "features_fr": [
-    "Leena AI propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Assistant RH IA pour les salariés.",
+    "Axé sur les workflows RH.",
+    "Leena AI inclut des fonctionnalités RH."
   ],
   "howToUse": [
     {

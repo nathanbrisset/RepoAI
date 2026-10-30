@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "A suite of AI-powered audio tools designed for music production, mixing, and mastering, offering advanced sound processing capabilities.",
-  "description": "A suite of AI-powered audio tools designed for music production, mixing, and mastering, offering advanced sound processing capabilities.\n\nAdvanced Audio Restoration: Removes clicks, pops, and other imperfections. Spectral Editing: Visual editing of audio frequencies. Dialogue Isolation: Separates dialogue from background noise. Mastering Tools: Provides tools for finalizing audio projects.",
+  "description": "A suite of AI-powered audio tools designed for music production, mixing, and mastering, offering advanced sound processing capabilities. Advanced Audio Restoration: Removes clicks, pops, and other imperfections. Spectral Editing: Visual editing of audio frequencies. Dialogue Isolation: Separates dialogue from background noise. Mastering Tools: Provides tools for finalizing audio projects.",
   "categories": [
     "music"
   ],
@@ -53,5 +53,11 @@
       "title": "Export Final Audio",
       "description": "Render the mastered or restored audio for distribution."
     }
+  ],
+  "features_fr": [
+    "Restauration audio avancée : supprime les clics, les pops et autres imperfections.",
+    "Édition spectrale : Édition visuelle des fréquences audio.",
+    "Isolation du dialogue : sépare le dialogue du bruit de fond.",
+    "Outils de mastering : fournit des outils pour finaliser les projets audio."
   ]
 }

@@ -4,10 +4,10 @@
   "url": "https://comparia.beta.gouv.fr",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Compar:IA is an AI product in the LLM & Chatbots space with official hosting at comparia.beta.gouv.fr.",
-  "description": "Compar:IA is an AI product in the LLM & Chatbots space with official hosting at comparia.beta.gouv.fr.\n\nComparateur public de chatbots (beta.gouv) — très cité en FR. Check the pricing page before production use.\n\nFeature: Compar:IA ships the main workflow advertised on its official site.",
+  "summary": "Compar:IA: Public chatbot comparator from the French public sector (beta.gouv).",
+  "description": "Compar:IA lets users compare answers from major chatbots side by side, with transparency notes and French-language benchmarks widely cited in media.",
   "summary_fr": "Comparateur public de chatbots (beta.gouv) — très cité en FR.",
-  "description_fr": "Comparateur public de chatbots (beta.gouv) — très cité en FR. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Comparateur public de chatbots (beta.gouv) — très cité en FR.",
   "categories": [
     "llm-chatbots"
   ],
@@ -20,7 +20,7 @@
     "model": "free",
     "label": "Free",
     "verified": false,
-    "note": "Gratuit",
+    "note": "Free tier available; see the official site for limits.",
     "sourceUrl": "https://comparia.beta.gouv.fr"
   },
   "logo": "/logos/compar-ia.png",
@@ -28,16 +28,14 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Compar:IA ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Side-by-side answers from multiple LLM chatbots.",
+    "Public-sector transparency and methodology notes.",
+    "French-language focus and press-cited benchmarks.",
+    "Free access via the beta.gouv.fr initiative."
   ],
   "features_fr": [
-    "Compar:IA propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Comparateur public de chatbots (beta.gouv).",
+    "Très cité en FR."
   ],
   "howToUse": [
     {

@@ -4,8 +4,8 @@
   "url": "https://www.lavender.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Lavender is an AI product in the Sales & CRM space with official hosting at www.lavender.ai.",
-  "description": "Lavender is an AI product in the Sales & CRM space with official hosting at www.lavender.ai. Check the pricing page before production use.\n\nFeature: Lavender ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "AI email coach for sales teams — scoring, coaching, and send-time insights.",
+  "description": "Lavender analyzes outbound sales emails, scores messages, and coaches reps on tone, clarity, and personalization before they hit send.",
   "categories": [
     "sales"
   ],
@@ -27,10 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Lavender ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Email scoring and coaching for outbound sales messages.",
+    "Personalization and clarity suggestions before send.",
+    "Integrations with common sales email workflows.",
+    "Analytics to improve reply rates over time."
   ],
   "howToUse": [
     {
@@ -55,5 +55,19 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Scoring et coaching des e-mails commerciaux sortants.",
+    "Suggestions de personnalisation et de clarté avant envoi.",
+    "Intégrations avec les workflows e-mail sales courants.",
+    "Analyses pour améliorer les taux de réponse dans le temps."
+  ],
+  "summary_fr": "Coach e-mail IA pour les équipes commerciales : scoring, coaching et conseils avant envoi.",
+  "description_fr": "Lavender analyse les e-mails commerciaux sortants, note les messages et coach les commerciaux sur le ton, la clarté et la personnalisation avant l'envoi.",
+  "tags_fr": [
+    "e-mail",
+    "ventes",
+    "coaching",
+    "prospection"
   ]
 }

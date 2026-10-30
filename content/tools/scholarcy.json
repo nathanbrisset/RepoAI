@@ -4,8 +4,8 @@
   "url": "https://www.scholarcy.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Scholarcy delivers AI-assisted capabilities for search & research teams via www.scholarcy.com.",
-  "description": "Scholarcy delivers AI-assisted capabilities for search & research teams via www.scholarcy.com. Check the pricing page before production use.\n\nFeature: Scholarcy ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Scholarcy: Scholarcy is an AI product for search and research.",
+  "description": "Scholarcy is an AI product for search and research.",
   "categories": [
     "search"
   ],
@@ -27,10 +27,7 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Scholarcy ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Scholarcy is an AI product for search and research."
   ],
   "howToUse": [
     {
@@ -55,5 +52,19 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Résumés flashcards de papers et chapitres PDF.",
+    "Extraction des références et liens vers les sources.",
+    "Import depuis DOI, URL ou fichier local.",
+    "Export vers Zotero et autres gestionnaires bibliographiques."
+  ],
+  "summary_fr": "Résumés et fiches de lecture IA pour articles scientifiques et PDF.",
+  "description_fr": "Scholarcy extrait les points clés, références et structure de papers et PDF pour accélérer la revue de littérature.",
+  "tags_fr": [
+    "recherche",
+    "PDF",
+    "résumé",
+    "éducation"
   ]
 }

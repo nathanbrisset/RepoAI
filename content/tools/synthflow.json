@@ -4,40 +4,38 @@
   "url": "https://synthflow.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Synthflow is an AI product in the Voice & Speech space with official hosting at synthflow.ai.",
-  "description": "Synthflow is an AI product in the Voice & Speech space with official hosting at synthflow.ai.\n\nAgents vocaux IA pour appels sans coder. Check the pricing page before production use.\n\nFeature: Synthflow ships the main workflow advertised on its official site.",
-  "summary_fr": "Agents vocaux IA pour appels sans coder.",
-  "description_fr": "Agents vocaux IA pour appels sans coder. Vérifie la page tarifs avant un déploiement en production.",
+  "summary": "Synthflow: No-code AI voice agents for phone calls.",
+  "description": "Synthflow helps teams with no-code AI voice agents for phone calls.",
+  "summary_fr": "Agents vocaux IA pour support client et prise de rendez-vous.",
+  "description_fr": "Synthflow déploie des assistants téléphoniques qui comprennent l'intention, accèdent aux données métier et transfèrent aux humains si besoin.",
   "categories": [
     "voice"
   ],
   "tags": [
-    "ai",
     "voice",
-    "catalog"
+    "phone",
+    "support"
   ],
   "pricing": {
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://synthflow.ai"
   },
   "logo": "/logos/synthflow.png",
-  "image": "",
+  "image": "/screenshots/synthflow.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Synthflow ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "No-code AI voice agents for phone calls.",
+    "Synthflow helps teams with no-code AI voice agents for phone calls."
   ],
   "features_fr": [
-    "Synthflow propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Voix naturelles multilingues et scénarios d'appel sans code.",
+    "Connexion au CRM, aux calendriers et aux bases de questions fréquentes.",
+    "Transfert vers un conseiller humain lorsque la demande dépasse l'agent vocal.",
+    "Analyse des appels, détection d'intention et suivi de la satisfaction client."
   ],
   "howToUse": [
     {
@@ -64,5 +62,10 @@
     }
   ],
   "hqCountry": "DE",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "voix",
+    "téléphone",
+    "support"
+  ]
 }

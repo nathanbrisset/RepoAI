@@ -23,7 +23,7 @@
     "sourceUrl": "https://elevenlabs.io/pricing"
   },
   "logo": "/logos/elevenlabs.png",
-  "image": "/screenshots/elevenlabs.webp",
+  "image": "/tool-screenshots/elevenlabs.png",
   "dateAdded": "2023-01-15",
   "lastVerified": "2026-10-21",
   "features": [
@@ -58,5 +58,11 @@
   ],
   "sources": [
     "https://elevenlabs.io/pricing"
+  ],
+  "features_fr": [
+    "Synthèse vocale ultra-réaliste : génère des paroles réalistes dans plus de 30 langues avec une intonation naturelle.",
+    "Clonage de voix : permet aux utilisateurs de créer des répliques haute fidélité de voix en utilisant un minimum d'échantillons audio.",
+    "Conception vocale personnalisée : offre des outils pour affiner les attributs vocaux tels que la stabilité et la clarté.",
+    "API conviviale pour les développeurs : fournit des capacités d'intégration pour diverses applications."
   ]
 }

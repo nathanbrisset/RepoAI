@@ -4,10 +4,10 @@
   "url": "https://sana.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Sana AI is an AI product in the Productivity space with official hosting at sana.ai.",
-  "description": "Sana AI is an AI product in the Productivity space with official hosting at sana.ai.\n\nAssistant de connaissance d'entreprise. Check the pricing page before production use.\n\nFeature: Sana AI ships the main workflow advertised on its official site.",
-  "summary_fr": "Assistant de connaissance d'entreprise.",
-  "description_fr": "Assistant de connaissance d'entreprise. Vérifie la page tarifs avant un déploiement en production.",
+  "summary": "Sana AI: Enterprise knowledge assistant.",
+  "description": "Sana AI helps teams with enterprise knowledge assistant.",
+  "summary_fr": "Plateforme de formation interne avec recherche IA sur la knowledge base.",
+  "description_fr": "Sana AI indexe docs, vidéos et wiki d'entreprise pour répondre aux questions des équipes et générer parcours de formation.",
   "categories": [
     "productivity"
   ],
@@ -20,24 +20,22 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://sana.ai"
   },
   "logo": "/logos/sana.png",
-  "image": "",
+  "image": "/screenshots/sana.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Sana AI ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Enterprise knowledge assistant.",
+    "Sana AI helps teams with enterprise knowledge assistant."
   ],
   "features_fr": [
-    "Sana AI propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Recherche en langage naturel sur contenus internes.",
+    "Génération de cours et micro-learnings.",
+    "Connecteurs Drive, Notion, Confluence, etc.",
+    "Analytics d'usage et de compétences."
   ],
   "howToUse": [
     {

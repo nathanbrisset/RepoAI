@@ -4,10 +4,10 @@
   "url": "https://www.imagine.art",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "ImagineArt is an AI product in the Image Generation space with official hosting at imagine.art.",
-  "description": "ImagineArt is an AI product in the Image Generation space with official hosting at imagine.art.\n\nGénérateur d'images et vidéos multi-modèles grand public. Check the pricing page before production use.\n\nFeature: ImagineArt ships the main workflow advertised on its official site.",
+  "summary": "ImagineArt: Consumer multi-model image and video generator.",
+  "description": "ImagineArt helps teams with consumer multi-model image and video generator.",
   "summary_fr": "Générateur d'images et vidéos multi-modèles grand public.",
-  "description_fr": "Générateur d'images et vidéos multi-modèles grand public. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Générateur d'images et vidéos multi-modèles grand public.",
   "categories": [
     "image"
   ],
@@ -24,20 +24,16 @@
     "sourceUrl": "https://www.imagine.art"
   },
   "logo": "/logos/imagine.png",
-  "image": "",
+  "image": "/screenshots/imagine.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "ImagineArt ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Consumer multi-model image and video generator.",
+    "ImagineArt helps teams with consumer multi-model image and video generator."
   ],
   "features_fr": [
-    "ImagineArt propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Générateur d'images.",
+    "Vidéos multi-modèles grand public."
   ],
   "howToUse": [
     {

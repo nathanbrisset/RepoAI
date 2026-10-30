@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "TeleportHQ is a low-code platform for creating, prototyping, and publishing websites using AI. It offers visual drag-and-drop editors, AI-powered code generation, and seamless export to frameworks like React and Vue. TeleportHQ is ideal for designers who want to bridge the gap between design and development.",
-  "description": "TeleportHQ is a low-code platform for creating, prototyping, and publishing websites using AI. It offers visual drag-and-drop editors, AI-powered code generation, and seamless export to frameworks like React and Vue. TeleportHQ is ideal for designers who want to bridge the gap between design and development.\n\nAI-powered website builder with a visual low-code editor, headless content modeling, and code export. Design, build, and scale custom websites faster.\n\nDrag-and-Drop Editor: Visually assemble web layouts. AI Code Generation: Turn wireframes into production-ready code. Export to Frameworks: Supports React, Vue, and HTML/CSS. Collaboration: Team-based project management.",
+  "description": "TeleportHQ is a low-code platform for creating, prototyping, and publishing websites using AI. It offers visual drag-and-drop editors, AI-powered code generation, and seamless export to frameworks like React and Vue. TeleportHQ is ideal for designers who want to bridge the gap between design and development. AI-powered website builder with a visual low-code editor, headless content modeling, and code export. Design, build, and scale custom websites faster. Drag-and-Drop Editor: Visually assemble web layouts. AI Code Generation: Turn wireframes into production-ready code. Export to Frameworks: Supports React, Vue, and HTML/CSS. Collaboration: Team-based project management.",
   "categories": [
     "no-code"
   ],
@@ -22,15 +22,14 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/teleporthq.png",
-  "image": "/screenshots/teleporthq.webp",
+  "image": "/tool-screenshots/teleporthq.png",
   "dateAdded": "2019-06-01",
   "lastVerified": null,
   "features": [
     "Drag-and-Drop Editor: Visually assemble web layouts.",
     "AI Code Generation: Turn wireframes into production-ready code.",
     "Export to Frameworks: Supports React, Vue, and HTML/CSS.",
-    "Collaboration: Team-based project management.",
-    "Component Marketplace: Use and share UI components."
+    "Collaboration: Team-based project management."
   ],
   "howToUse": [
     {
@@ -59,5 +58,11 @@
       "title": "Collaborate & Publish",
       "description": "Invite team members, manage permissions, and publish your site online."
     }
+  ],
+  "features_fr": [
+    "Éditeur glisser-déposer : assemblez visuellement des mises en page Web.",
+    "Génération de code IA : transformez les wireframes en code prêt pour la production.",
+    "Exporter vers des frameworks : prend en charge React, Vue et HTML/CSS.",
+    "Collaboration : Gestion de projet en équipe."
   ]
 }

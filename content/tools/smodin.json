@@ -4,10 +4,10 @@
   "url": "https://smodin.io",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Smodin is an AI product in the AI Detection space with official hosting at smodin.io.",
-  "description": "Smodin is an AI product in the AI Detection space with official hosting at smodin.io.\n\nDétecteur IA, plagiat et réécriture. Check the pricing page before production use.\n\nFeature: Smodin ships the main workflow advertised on its official site.",
+  "summary": "Smodin: AI detector, plagiarism checks, and rewriting.",
+  "description": "Smodin helps teams with aI detector, plagiarism checks, and rewriting.",
   "summary_fr": "Détecteur IA, plagiat et réécriture.",
-  "description_fr": "Détecteur IA, plagiat et réécriture. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Détecteur IA, plagiat et réécriture.",
   "categories": [
     "ai-detection"
   ],
@@ -23,20 +23,17 @@
     "sourceUrl": "https://smodin.io"
   },
   "logo": "/logos/smodin.png",
-  "image": "",
+  "image": "/screenshots/smodin.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Smodin ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "AI detector.",
+    "Plagiarism checks.",
+    "And rewriting."
   ],
   "features_fr": [
-    "Smodin propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Détecteur IA.",
+    "Réécriture."
   ],
   "howToUse": [
     {

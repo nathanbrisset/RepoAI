@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "UI design for apps, websites, and desktop software in minutes. If you can use Google Slides or PowerPoint, you can use Uizard!",
-  "description": "UI design for apps, websites, and desktop software in minutes. If you can use Google Slides or PowerPoint, you can use Uizard!\n\nAutodesigner: Creates UIs from text prompts. Screenshot Scanner: Turns sketches into editable UIs. Drag-and-Drop Editor: No-code visual design. Focus Predictor: Predicts attention hotspots.",
+  "description": "UI design for apps, websites, and desktop software in minutes. If you can use Google Slides or PowerPoint, you can use Uizard! Autodesigner: Creates UIs from text prompts. Screenshot Scanner: Turns sketches into editable UIs. Drag-and-Drop Editor: No-code visual design. Focus Predictor: Predicts attention hotspots.",
   "categories": [
     "design"
   ],
@@ -23,7 +23,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/uizard.png",
-  "image": "/screenshots/uizard.webp",
+  "image": "/tool-screenshots/uizard.png",
   "dateAdded": "2022-09-10",
   "lastVerified": null,
   "features": [
@@ -51,5 +51,11 @@
       "title": "Auto-Design & Edit",
       "description": "Use AI to transform sketches into digital designs and customize layouts."
     }
+  ],
+  "features_fr": [
+    "Autodesigner : crée des interfaces utilisateur à partir d'invites textuelles.",
+    "Scanner de capture d'écran : transforme les croquis en interfaces utilisateur modifiables.",
+    "Éditeur glisser-déposer : conception visuelle sans code.",
+    "Focus Predictor : prédit les points chauds d’attention."
   ]
 }

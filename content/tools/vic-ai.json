@@ -4,8 +4,8 @@
   "url": "https://www.vic.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Vic.ai delivers AI-assisted capabilities for finance & accounting teams via www.vic.ai.",
-  "description": "Vic.ai delivers AI-assisted capabilities for finance & accounting teams via www.vic.ai. Check the pricing page before production use.\n\nFeature: Vic.ai ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Vic.ai: Vic.ai is an AI product for finance and accounting.",
+  "description": "Vic.ai is an AI product for finance and accounting.",
   "categories": [
     "finance"
   ],
@@ -27,10 +27,7 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Vic.ai ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Vic.ai is an AI product for finance and accounting."
   ],
   "howToUse": [
     {
@@ -55,5 +52,13 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "summary_fr": "Automatisation comptable AP et analyse de factures par IA.",
+  "description_fr": "Vic.ai aide les équipes finance à coder, approuver et payer les factures fournisseurs avec apprentissage sur l'historique comptable.",
+  "features_fr": [
+    "Capture et OCR des factures entrantes.",
+    "Suggestion de comptes et centres de coûts par IA.",
+    "Workflows d'approbation et règles métier.",
+    "Intégrations ERP et outils de paiement."
   ]
 }

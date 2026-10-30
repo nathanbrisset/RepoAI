@@ -4,10 +4,10 @@
   "url": "https://splice.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Splice is an AI product in the Music & Audio space with official hosting at splice.com.",
-  "description": "Splice is an AI product in the Music & Audio space with official hosting at splice.com.\n\nBanque de samples avec recherche et création assistées par IA. Check the pricing page before production use.\n\nFeature: Splice ships the main workflow advertised on its official site.",
+  "summary": "Splice: Sample library with AI search and creation.",
+  "description": "Splice helps teams with sample library with AI search and creation.",
   "summary_fr": "Banque de samples avec recherche et création assistées par IA.",
-  "description_fr": "Banque de samples avec recherche et création assistées par IA. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Banque de samples avec recherche et création assistées par IA.",
   "categories": [
     "music"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://splice.com"
   },
   "logo": "/logos/splice.png",
-  "image": "",
+  "image": "/screenshots/splice.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Splice ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Sample library with AI search and creation.",
+    "Splice helps teams with sample library with AI search and creation."
   ],
   "features_fr": [
-    "Splice propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Banque de samples avec recherche.",
+    "Création assistées par IA."
   ],
   "howToUse": [
     {

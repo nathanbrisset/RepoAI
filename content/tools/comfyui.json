@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "An open-source, node-based program that allows users to generate images from text prompts using diffusion models.",
-  "description": "An open-source, node-based program that allows users to generate images from text prompts using diffusion models.\n\nThe most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. - Comfy-Org/ComfyUI\n\nNode-based workflow: Build custom image generation pipelines. Custom model support: Use your own or community models. Real-time preview: Instantly see prompt results. Workflow export: Share and reuse generation setups.",
+  "description": "An open-source, node-based program that allows users to generate images from text prompts using diffusion models. The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. - Comfy-Org/ComfyUI Node-based workflow: Build custom image generation pipelines. Custom model support: Use your own or community models. Real-time preview: Instantly see prompt results. Workflow export: Share and reuse generation setups.",
   "categories": [
     "image"
   ],
@@ -28,8 +28,7 @@
     "Node-based workflow: Build custom image generation pipelines.",
     "Custom model support: Use your own or community models.",
     "Real-time preview: Instantly see prompt results.",
-    "Workflow export: Share and reuse generation setups.",
-    "Open source: Community-driven and extensible."
+    "Workflow export: Share and reuse generation setups."
   ],
   "howToUse": [
     {
@@ -58,5 +57,11 @@
       "title": "Export or Share Workflow",
       "description": "Export workflows or results for reuse or sharing with the community."
     }
+  ],
+  "features_fr": [
+    "Workflow basé sur des nœuds : créez des pipelines de génération d'images personnalisés.",
+    "Prise en charge des modèles personnalisés : utilisez vos propres modèles ou ceux de la communauté.",
+    "Aperçu en temps réel : consultez instantanément les résultats rapides.",
+    "Export du workflow : partagez et réutilisez les configurations de génération."
   ]
 }

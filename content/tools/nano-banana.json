@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Google's Gemini native image generation and editing capability, widely referred to as Nano Banana in model releases.",
-  "description": "Nano Banana is the community nickname for Google's Gemini image model tuned for fast generation and conversational editing. It ships inside the Gemini app and related Google surfaces rather than as a separate download.\n\nFeature: Text-to-image with character consistency options. Feature: In-chat edits such as background swap or style change. Feature: Integration with Gemini subscriptions. Feature: Safety filters on generated imagery.",
+  "description": "Nano Banana is the community nickname for Google's Gemini image model tuned for fast generation and conversational editing. It ships inside the Gemini app and related Google surfaces rather than as a separate download.",
   "categories": [
     "image"
   ],
@@ -50,5 +50,11 @@
       "title": "Refine in conversation",
       "description": "Follow up with edit instructions instead of regenerating from scratch."
     }
+  ],
+  "features_fr": [
+    "Texte en image avec options de cohérence des caractères.",
+    "Modifications dans le chat telles que l'échange d'arrière-plan ou le changement de style.",
+    "Intégration avec les abonnements Gemini.",
+    "Filtres de sécurité sur les images générées."
   ]
 }

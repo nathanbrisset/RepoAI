@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "A voice cloning platform that enables users to create realistic synthetic voices with minimal data, supporting both text-to-speech and speech-to-speech transformations.",
-  "description": "A voice cloning platform that enables users to create realistic synthetic voices with minimal data, supporting both text-to-speech and speech-to-speech transformations.\n\nResemble AI powers real-time deepfake detection for enterprise. Verify media and satisfy AI content compliance standards. On-prem or cloud, built to scale.\n\nAI audio processing: Resemble AI supports automated audio analysis and enhancements. Transcription support: Provides tools for converting speech to text. Noise reduction: Reduces unwanted sounds from audio input. Voice synthesis: Can generate or clone voices using AI models.",
+  "description": "A voice cloning platform that enables users to create realistic synthetic voices with minimal data, supporting both text-to-speech and speech-to-speech transformations. Resemble AI powers real-time deepfake detection for enterprise. Verify media and satisfy AI content compliance standards. On-prem or cloud, built to scale.",
   "categories": [
     "voice"
   ],
@@ -24,11 +24,8 @@
   "dateAdded": "2025-06-04",
   "lastVerified": null,
   "features": [
-    "AI audio processing: Resemble AI supports automated audio analysis and enhancements.",
-    "Transcription support: Provides tools for converting speech to text.",
-    "Noise reduction: Reduces unwanted sounds from audio input.",
-    "Voice synthesis: Can generate or clone voices using AI models.",
-    "User-friendly interface: Simple design for creators and professionals."
+    "A voice cloning platform that enables users to create realistic synthetic voices with minimal data.",
+    "Supporting both text-to-speech and speech-to-speech transformations."
   ],
   "howToUse": [
     {
@@ -53,5 +50,11 @@
       "title": "Download or Integrate",
       "description": "Export generated audio or use API integrations for advanced workflows."
     }
+  ],
+  "features_fr": [
+    "Plateforme de clonage vocal qui permet de créer des voix synthétiques réalistes avec un minimum de données, et qui prend en charge à la fois les transformations texte-parole et parole-parole.",
+    "Resemble AI permet la détection de deepfakes en temps réel pour l'entreprise.",
+    "Vérifiez les médias et respectez les normes de conformité des contenus IA.",
+    "Sur site ou dans le cloud, conçu pour monter en charge."
   ]
 }

@@ -4,40 +4,40 @@
   "url": "https://www.11x.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "11x is an AI product in the Sales & CRM space with official hosting at 11x.ai.",
-  "description": "11x is an AI product in the Sales & CRM space with official hosting at 11x.ai.\n\nSDR IA autonome. Check the pricing page before production use.\n\nFeature: 11x ships the main workflow advertised on its official site.",
-  "summary_fr": "SDR IA autonome.",
-  "description_fr": "SDR IA autonome. Vérifie la page tarifs avant un déploiement en production.",
+  "summary": "11x: Autonomous AI sales development rep.",
+  "description": "11x helps teams with autonomous AI sales development rep.",
+  "summary_fr": "SDR IA autonome pour la prospection sortante et la prise de rendez-vous.",
+  "description_fr": "11x déploie un agent SDR IA autonome qui automatise la prospection sortante, les relances et la réservation de rendez-vous, connecté à votre CRM et à vos workflows e-mail.",
   "categories": [
     "sales"
   ],
   "tags": [
-    "ai",
     "sales",
-    "catalog"
+    "outbound",
+    "automation"
   ],
   "pricing": {
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.11x.ai"
   },
   "logo": "/logos/11x.png",
-  "image": "",
+  "image": "/screenshots/11x.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "11x ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Autonomous AI sales development rep for outbound prospecting.",
+    "Automates follow-ups and meeting booking for revenue teams.",
+    "Connects to CRM and email workflows on your stack.",
+    "Runs on 11x.ai with plan-based usage limits."
   ],
   "features_fr": [
-    "11x propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "SDR IA autonome pour la prospection sortante.",
+    "Automatise les relances et la prise de rendez-vous pour les équipes revenue.",
+    "Se connecte au CRM et aux workflows email.",
+    "Fonctionne sur 11x.ai selon les limites du forfait."
   ],
   "howToUse": [
     {
@@ -64,5 +64,10 @@
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "ventes",
+    "prospection",
+    "automatisation"
+  ]
 }

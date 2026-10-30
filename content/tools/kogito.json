@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Cloud-native business automation for building intelligent applications, backed by battle-tested capabilities.",
-  "description": "Cloud-native business automation for building intelligent applications, backed by battle-tested capabilities.\n\nBusiness Process Automation: Helps in modeling and automating business workflows. Cloud-Native Architecture: Designed for deployment in cloud environments. Integration with Java: Works seamlessly with Java applications. Support for BPMN and DMN: Handles Business Process Model and Notation (BPMN) and Decision Model and Notation (DMN).",
+  "description": "Cloud-native business automation for building intelligent applications, backed by battle-tested capabilities. Business Process Automation: Helps in modeling and automating business workflows. Cloud-Native Architecture: Designed for deployment in cloud environments. Integration with Java: Works seamlessly with Java applications. Support for BPMN and DMN: Handles Business Process Model and Notation (BPMN) and Decision Model and Notation (DMN).",
   "categories": [
     "coding"
   ],
@@ -52,5 +52,11 @@
       "title": "Deploy and Monitor",
       "description": "Deploy to cloud platforms and monitor automation processes."
     }
+  ],
+  "features_fr": [
+    "Automatisation des processus métier : aide à modéliser et à automatiser les flux de travail métier.",
+    "Architecture cloud native : conçue pour le déploiement dans des environnements cloud.",
+    "Intégration avec Java : fonctionne de manière transparente avec les applications Java.",
+    "Prise en charge de BPMN et DMN : gère le modèle et la notation des processus métier (BPMN) et le modèle et la notation de décision (DMN)."
   ]
 }

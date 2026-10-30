@@ -4,10 +4,10 @@
   "url": "https://agicap.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Agicap is an AI product in the Finance & Accounting space with official hosting at agicap.com.",
-  "description": "Agicap is an AI product in the Finance & Accounting space with official hosting at agicap.com.\n\nGestion de trésorerie avec prévisions IA (France). Check the pricing page before production use.\n\nFeature: Agicap ships the main workflow advertised on its official site.",
+  "summary": "Agicap: Cash-flow management with AI forecasts (France).",
+  "description": "Agicap helps teams with cash-flow management with AI forecasts (France).",
   "summary_fr": "Gestion de trésorerie avec prévisions IA (France).",
-  "description_fr": "Gestion de trésorerie avec prévisions IA (France). Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Gestion de trésorerie avec prévisions IA (France).",
   "categories": [
     "finance"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://agicap.com"
   },
   "logo": "/logos/agicap.png",
-  "image": "",
+  "image": "/screenshots/agicap.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Agicap ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Cash-flow management with AI forecasts (France).",
+    "Agicap helps teams with cash-flow management with AI forecasts (France)."
   ],
   "features_fr": [
-    "Agicap propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Gestion de trésorerie avec prévisions IA (France).",
+    "Axé sur les workflows financiers."
   ],
   "howToUse": [
     {

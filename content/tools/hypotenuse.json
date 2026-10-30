@@ -4,10 +4,10 @@
   "url": "https://www.hypotenuse.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Hypotenuse AI is an AI product in the Writing & Content space with official hosting at hypotenuse.ai.",
-  "description": "Hypotenuse AI is an AI product in the Writing & Content space with official hosting at hypotenuse.ai.\n\nFiches produits et contenus e-commerce en masse. Check the pricing page before production use.\n\nFeature: Hypotenuse AI ships the main workflow advertised on its official site.",
+  "summary": "Hypotenuse AI: Product descriptions and e-commerce content at scale.",
+  "description": "Hypotenuse AI bulk-generates product copy, SEO content, and marketing assets from catalogs, images, and brand guidelines.",
   "summary_fr": "Fiches produits et contenus e-commerce en masse.",
-  "description_fr": "Fiches produits et contenus e-commerce en masse. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Fiches produits et contenus e-commerce en masse.",
   "categories": [
     "writing"
   ],
@@ -20,7 +20,7 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.hypotenuse.ai"
   },
   "logo": "/logos/hypotenuse.png",
@@ -28,16 +28,14 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Hypotenuse AI ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Bulk product descriptions from spreadsheets or PIM.",
+    "Image-to-text and attribute-aware copy.",
+    "Brand voice and terminology controls.",
+    "Export to Shopify, Amazon, and CMS tools."
   ],
   "features_fr": [
-    "Hypotenuse AI propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Fiches produits.",
+    "Contenus e-commerce en masse."
   ],
   "howToUse": [
     {

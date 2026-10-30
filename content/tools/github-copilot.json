@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "GitHub Copilot works every step of the way, from an open issue to reviewing and merging a pull request. Use it in your editor, the terminal, on your desktop, and on GitHub.",
-  "description": "GitHub Copilot works every step of the way, from an open issue to reviewing and merging a pull request. Use it in your editor, the terminal, on your desktop, and on GitHub.\n\nAI Code Completions: Suggest code snippets based on context. Natural Language Chat: Interact with codebase using conversational queries. Smart Actions: Enhance productivity with AI-driven suggestions. Pull Request Summaries: Generate summaries for code changes.",
+  "description": "GitHub Copilot works every step of the way, from an open issue to reviewing and merging a pull request. Use it in your editor, the terminal, on your desktop, and on GitHub. AI Code Completions: Suggest code snippets based on context. Natural Language Chat: Interact with codebase using conversational queries. Smart Actions: Enhance productivity with AI-driven suggestions. Pull Request Summaries: Generate summaries for code changes.",
   "categories": [
     "coding"
   ],
@@ -54,5 +54,11 @@
       "title": "Chat & Summarize",
       "description": "Use chat or summary features for deeper code understanding."
     }
+  ],
+  "features_fr": [
+    "Complétions de code AI : suggérez des extraits de code en fonction du contexte.",
+    "Chat en langage naturel : interagissez avec la base de code à l'aide de requêvos conversationnelles.",
+    "Actions intelligentes : améliorez la productivité grâce aux suggestions basées sur l'IA.",
+    "Résumés des demandes d'extraction : générez des résumés pour les modifications de code."
   ]
 }

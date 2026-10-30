@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI meeting assistant for transcription and analysis.",
-  "description": "AI meeting assistant for transcription and analysis.\n\nMeeting Recording: Captures audio and video from meetings. Transcription: Converts speech to accurate, searchable text. AI Summaries: Provides concise highlights of meetings. Collaboration Tools: Share, comment on, and assign notes within teams.",
+  "description": "AI meeting assistant for transcription and analysis. Meeting Recording: Captures audio and video from meetings. Transcription: Converts speech to accurate, searchable text. AI Summaries: Provides concise highlights of meetings. Collaboration Tools: Share, comment on, and assign notes within teams.",
   "categories": [
     "meetings"
   ],
@@ -49,5 +49,11 @@
       "title": "Review, Share & Collaborate",
       "description": "Use the dashboard to highlight, comment, and distribute notes."
     }
+  ],
+  "features_fr": [
+    "Enregistrement de réunion : capture l'audio et la vidéo des réunions.",
+    "Transcription : convertit la parole en texte précis et consultable.",
+    "Résumés AI : fournit des faits saillants concis des réunions.",
+    "Outils de collaboration : partagez, commentez et attribuez des notes au sein des équipes."
   ]
 }

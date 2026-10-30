@@ -4,8 +4,8 @@
   "url": "https://www.atlassian.com/software/rovo",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Atlassian Rovo is an AI product in the Productivity & Workspace space with official hosting at www.atlassian.com.",
-  "description": "Atlassian Rovo is an AI product in the Productivity & Workspace space with official hosting at www.atlassian.com. Check the pricing page before production use.\n\nFeature: Atlassian Rovo ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Atlassian Rovo: Atlassian Rovo is an AI product for productivity.",
+  "description": "Atlassian Rovo is an AI product for productivity.",
   "categories": [
     "productivity"
   ],
@@ -27,10 +27,8 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Atlassian Rovo ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Atlassian Rovo.",
+    "AI for productivity at atlassian.com."
   ],
   "howToUse": [
     {
@@ -55,5 +53,9 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Atlassien Rovo.",
+    "L'IA pour la productivité sur atlassian.com."
   ]
 }

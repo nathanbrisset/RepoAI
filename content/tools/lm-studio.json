@@ -53,5 +53,17 @@
       "title": "Call the local server",
       "description": "Turn on the local server, which is compatible with the OpenAI API, so another app on the machine can call the same model."
     }
+  ],
+  "features": [
+    "Desktop app to download and run open models locally, now with the Bionic agent.",
+    "LM Studio is a desktop application for macOS, Windows and Linux that downloads and runs open-weight models on the user's own machine.",
+    "It includes a chat interface and a local server compatible with the OpenAI API.",
+    "Its Bionic agent can create documents, slides, PDFs and code using local or hosted models."
+  ],
+  "features_fr": [
+    "Application de bureau pour télécharger et exécuter des modèles ouverts localement, désormais avec l'agent Bionic.",
+    "LM Studio est une application de bureau pour macOS, Windows et Linux qui télécharge et exécute des modèles ouverts sur la propre machine de l'utilisateur.",
+    "Il comprend une interface de chat et un serveur local compatible avec l'API OpenAI.",
+    "Son agent Bionic peut créer des documents, des diapositives, des PDF et du code à l'aide de modèles locaux ou hébergés."
   ]
 }

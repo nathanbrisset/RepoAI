@@ -4,8 +4,8 @@
   "url": "https://peec.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Peec AI is an AI product in the Marketing & SEO space with official hosting at peec.ai.",
-  "description": "Peec AI is an AI product in the Marketing & SEO space with official hosting at peec.ai. Check the pricing page before production use.\n\nFeature: Peec AI ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Peec AI: Analytics for brand visibility in AI search and answer engines.",
+  "description": "Peec AI tracks how often your brand appears in ChatGPT, Perplexity, and other AI surfaces, with prompts and competitor benchmarks.",
   "categories": [
     "marketing"
   ],
@@ -27,10 +27,10 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Peec AI ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Monitoring of brand mentions across AI search products.",
+    "Prompt libraries and ranking trends over time.",
+    "Competitive visibility reports by topic.",
+    "Alerts when share of voice drops on key queries."
   ],
   "howToUse": [
     {
@@ -55,5 +55,13 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "summary_fr": "Analytics de visibilité de marque dans la recherche IA.",
+  "description_fr": "Peec AI mesure la présence de votre marque dans ChatGPT, Perplexity et autres moteurs de réponses, avec benchmarks concurrents.",
+  "features_fr": [
+    "Suivi des mentions de marque sur produits de recherche IA.",
+    "Bibliothèques de prompts et tendances de classement.",
+    "Rapports de visibilité concurrentielle par thème.",
+    "Alertes si la part de voix baisse sur requêvos clés."
   ]
 }

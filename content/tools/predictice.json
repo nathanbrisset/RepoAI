@@ -4,10 +4,10 @@
   "url": "https://predictice.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Predictice is an AI product in the Legal space with official hosting at predictice.com.",
-  "description": "Predictice is an AI product in the Legal space with official hosting at predictice.com.\n\nRecherche juridique IA française. Check the pricing page before production use.\n\nFeature: Predictice ships the main workflow advertised on its official site.",
+  "summary": "Predictice: French AI legal research.",
+  "description": "Predictice helps teams with french AI legal research.",
   "summary_fr": "Recherche juridique IA française.",
-  "description_fr": "Recherche juridique IA française. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Recherche juridique IA française.",
   "categories": [
     "legal"
   ],
@@ -20,7 +20,7 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://predictice.com"
   },
   "logo": "/logos/predictice.png",
@@ -28,16 +28,12 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Predictice ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "French AI legal research.",
+    "Predictice helps teams with french AI legal research."
   ],
   "features_fr": [
-    "Predictice propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Recherche juridique IA française.",
+    "Predictice couvre ai, legal, catalog."
   ],
   "howToUse": [
     {

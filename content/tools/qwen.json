@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Alibaba's Qwen family of open and hosted models with a public chat app and developer APIs.",
-  "description": "Qwen is Alibaba Cloud's line of large language and multimodal models. The qwen.ai site offers a consumer chat experience, while developers deploy the same models through APIs and open weights on Hugging Face.\n\nFeature: Multimodal Qwen models for text, vision, and code. Feature: Open-weight releases for self-hosting. Feature: Qwen Chat web app with file and image input. Feature: Model Studio API for production workloads.",
+  "description": "Qwen is Alibaba Cloud's line of large language and multimodal models. The qwen.ai site offers a consumer chat experience, while developers deploy the same models through APIs and open weights on Hugging Face.",
   "categories": [
     "llm-chatbots"
   ],
@@ -51,5 +51,11 @@
       "title": "Integrate via API",
       "description": "Create credentials in Alibaba Cloud Model Studio if you need programmatic access."
     }
+  ],
+  "features_fr": [
+    "Modèles Qwen multimodaux pour le texte, la vision et le code.",
+    "Versions ouvertes pour l'auto-hébergement.",
+    "Application Web Qwen Chat avec saisie de fichiers et d'images.",
+    "API Model Studio pour les charges de travail de production."
   ]
 }

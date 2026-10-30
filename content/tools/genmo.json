@@ -4,8 +4,8 @@
   "url": "https://www.genmo.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Genmo delivers AI-assisted capabilities for video teams via www.genmo.ai.",
-  "description": "Genmo delivers AI-assisted capabilities for video teams via www.genmo.ai. Check the pricing page before production use.\n\nFeature: Genmo ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "summary": "Genmo — video software with an official web app.",
+  "description": "Genmo — video software with an official web app.",
   "categories": [
     "video"
   ],
@@ -26,12 +26,7 @@
   "image": "/screenshots/genmo.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
-  "features": [
-    "Genmo ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
-  ],
+  "features": [],
   "howToUse": [
     {
       "title": "Sign up on Genmo",
@@ -55,5 +50,8 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Genmo — IA pour la création vidéo sur genmo.ai."
   ]
 }

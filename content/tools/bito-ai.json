@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Governor understands your code and routes each request to the best model, two levers that cut coding agent costs in half without touching quality.",
-  "description": "Governor understands your code and routes each request to the best model, two levers that cut coding agent costs in half without touching quality.\n\nCode explanation: Breaks down complex logic. Code generation: Writes code from prompts. Commenting: Adds helpful code comments. Test support: Helps with writing unit tests.",
+  "description": "Governor understands your code and routes each request to the best model, two levers that cut coding agent costs in half without touching quality. Code explanation: Breaks down complex logic. Code generation: Writes code from prompts. Commenting: Adds helpful code comments. Test support: Helps with writing unit tests.",
   "categories": [
     "coding"
   ],
@@ -52,5 +52,11 @@
       "title": "Export or Use in Project",
       "description": "Copy and paste results into your development workflow."
     }
+  ],
+  "features_fr": [
+    "Explication du code : décompose la logique complexe.",
+    "Génération de code : écrit du code à partir d'invites.",
+    "Commentaire : ajoute des commentaires de code utiles.",
+    "Prise en charge des tests : aide à l'écriture de tests unitaires."
   ]
 }

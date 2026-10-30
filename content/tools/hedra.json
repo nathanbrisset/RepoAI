@@ -54,5 +54,17 @@
       "title": "Fine-tune, or use a sandbox",
       "description": "The page says you can fine-tune a supported model with your data and Hedra's training recipes, then deploy on the same stack, or create an isolated GPU sandbox with the Hedra SDK."
     }
+  ],
+  "features": [
+    "Generative video models for expressive character video.",
+    "Hedra builds generative video models and a platform to create expressive, character-driven videos such as talking avatars with lip-sync from an image and audio.",
+    "It focuses on characters and performance rather than general scenes.",
+    "A free tier ($0) is listed on its pricing page, with paid plans adding credits, higher resolution and commercial use."
+  ],
+  "features_fr": [
+    "Modèles vidéo génératifs pour des vidéos de personnages expressifs.",
+    "Hedra crée des modèles vidéo génératifs et une plate-forme pour créer des vidéos expressives axées sur les personnages, telles que des avatars parlants avec synchronisation labiale à partir d'une image et d'un son.",
+    "Il se concentre sur les personnages et les performances plutôt que sur les scènes générales.",
+    "Un niveau gratuit (0 $) est répertorié sur sa page de tarification, avec des forfaits payants ajoutant des crédits, une résolution plus élevée et une utilisation commerciale."
   ]
 }

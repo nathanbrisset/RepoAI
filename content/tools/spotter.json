@@ -4,40 +4,40 @@
   "url": "https://www.spotter.com/studio",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Spotter Studio is an AI product in the Marketing space with official hosting at spotter.com.",
-  "description": "Spotter Studio is an AI product in the Marketing space with official hosting at spotter.com.\n\nIdéation de vidéos YouTube et analyse des tendances. Check the pricing page before production use.\n\nFeature: Spotter Studio ships the main workflow advertised on its official site.",
+  "summary": "Spotter Studio: YouTube video ideation and trend analysis.",
+  "description": "Spotter Studio helps teams with youTube video ideation and trend analysis.",
   "summary_fr": "Idéation de vidéos YouTube et analyse des tendances.",
-  "description_fr": "Idéation de vidéos YouTube et analyse des tendances. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Idéation de vidéos YouTube et analyse des tendances.",
   "categories": [
     "marketing"
   ],
   "tags": [
-    "ai",
+    "youtube",
     "marketing",
-    "catalog"
+    "analytics"
   ],
   "pricing": {
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.spotter.com/studio"
   },
   "logo": "/logos/spotter.png",
-  "image": "",
+  "image": "/screenshots/spotter.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Spotter Studio ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "YouTube video ideation from trends and audience signals.",
+    "Title, thumbnail, and hook suggestions for creators.",
+    "Trend analysis and competitive insights for channels.",
+    "Workflow to plan uploads in Spotter Studio."
   ],
   "features_fr": [
-    "Spotter Studio propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Idéation de vidéos YouTube à partir des tendances et de l'audience.",
+    "Suggestions de titres, miniatures et accroches pour les créateurs.",
+    "Analyse des tendances et insights concurrentiels pour les chaînes.",
+    "Workflow de planification des mises en ligne dans Spotter Studio."
   ],
   "howToUse": [
     {
@@ -64,5 +64,10 @@
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "YouTube",
+    "marketing",
+    "analytique"
+  ]
 }

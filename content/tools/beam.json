@@ -4,10 +4,10 @@
   "url": "https://beam.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Beam AI is an AI product in the AI Agents space with official hosting at beam.ai.",
-  "description": "Beam AI is an AI product in the AI Agents space with official hosting at beam.ai.\n\nAgents IA pour automatiser des processus métier. Check the pricing page before production use.\n\nFeature: Beam AI ships the main workflow advertised on its official site.",
+  "summary": "Beam AI: AI agents to automate business processes.",
+  "description": "Beam AI helps teams with aI agents to automate business processes.",
   "summary_fr": "Agents IA pour automatiser des processus métier.",
-  "description_fr": "Agents IA pour automatiser des processus métier. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Agents IA pour automatiser des processus métier.",
   "categories": [
     "ai-agents"
   ],
@@ -19,24 +19,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://beam.ai"
   },
   "logo": "/logos/beam.png",
-  "image": "",
+  "image": "/screenshots/beam.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Beam AI ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "AI agents to automate business processes.",
+    "Beam AI helps teams with aI agents to automate business processes."
   ],
   "features_fr": [
-    "Beam AI propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Agents IA pour automatiser les processus métier.",
+    "Axé sur les flux de travail des agents IA."
   ],
   "howToUse": [
     {

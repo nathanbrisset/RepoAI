@@ -4,10 +4,10 @@
   "url": "https://huemint.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Huemint is an AI product in the Design space with official hosting at huemint.com.",
-  "description": "Huemint is an AI product in the Design space with official hosting at huemint.com.\n\nPalettes de couleurs générées par IA. Check the pricing page before production use.\n\nFeature: Huemint ships the main workflow advertised on its official site.",
+  "summary": "Huemint: AI-generated color palettes.",
+  "description": "Huemint helps teams with aI-generated color palettes.",
   "summary_fr": "Palettes de couleurs générées par IA.",
-  "description_fr": "Palettes de couleurs générées par IA. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Palettes de couleurs générées par IA.",
   "categories": [
     "design"
   ],
@@ -20,24 +20,20 @@
     "model": "free",
     "label": "Free",
     "verified": false,
-    "note": "Gratuit",
+    "note": "Free tier available; see the official site for limits.",
     "sourceUrl": "https://huemint.com"
   },
   "logo": "/logos/huemint.png",
-  "image": "",
+  "image": "/screenshots/huemint.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Huemint ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "AI-generated color palettes.",
+    "Huemint helps teams with aI-generated color palettes."
   ],
   "features_fr": [
-    "Huemint propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Palettes de couleurs générées par l'IA.",
+    "Axé sur les workflows de conception."
   ],
   "howToUse": [
     {

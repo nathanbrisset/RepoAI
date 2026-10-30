@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "A multilingual code generation model supporting over 20 programming languages.",
-  "description": "A multilingual code generation model supporting over 20 programming languages.\n\nMultilingual support: Generates code in over 20 languages. Large-scale model: Trained on extensive code datasets. Code translation: Translates code between languages. IDE integration: Compatible with popular development environments.",
+  "description": "A multilingual code generation model supporting over 20 programming languages. Multilingual support: Generates code in over 20 languages. Large-scale model: Trained on extensive code datasets. Code translation: Translates code between languages. IDE integration: Compatible with popular development environments.",
   "categories": [
     "coding"
   ],
@@ -48,5 +48,11 @@
       "title": "Add the IDE integration",
       "description": "Turn on the IDE integration, which is compatible with popular development environments."
     }
+  ],
+  "features_fr": [
+    "Prise en charge multilingue : génère du code dans plus de 20 langues.",
+    "Modèle à grande échelle : formé sur des ensembles de données de code étendus.",
+    "Traduction de code : traduit le code entre les langues.",
+    "Intégration IDE : Compatible avec les environnements de développement courants."
   ]
 }

@@ -4,10 +4,10 @@
   "url": "https://www.squarespace.com",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Squarespace is an AI product in the No-code & App Builders space with official hosting at squarespace.com.",
-  "description": "Squarespace is an AI product in the No-code & App Builders space with official hosting at squarespace.com.\n\nCréation de site avec Blueprint AI, très grand public. Check the pricing page before production use.\n\nFeature: Squarespace ships the main workflow advertised on its official site.",
+  "summary": "Squarespace: Site builder with Blueprint AI for mainstream users.",
+  "description": "Squarespace helps teams with site builder with Blueprint AI for mainstream users.",
   "summary_fr": "Création de site avec Blueprint AI, très grand public.",
-  "description_fr": "Création de site avec Blueprint AI, très grand public. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Création de site avec Blueprint AI, très grand public.",
   "categories": [
     "no-code"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.squarespace.com"
   },
   "logo": "/logos/squarespace.png",
-  "image": "",
+  "image": "/screenshots/squarespace.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Squarespace ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Site builder with Blueprint AI for mainstream users.",
+    "Squarespace helps teams with site builder with Blueprint AI for mainstream users."
   ],
   "features_fr": [
-    "Squarespace propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Création de site avec Blueprint AI.",
+    "Très grand public."
   ],
   "howToUse": [
     {

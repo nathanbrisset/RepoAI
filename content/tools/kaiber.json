@@ -4,17 +4,17 @@
   "url": "https://kaiber.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Kaiber is an AI product in the Video Creation space with official hosting at kaiber.ai.",
-  "description": "Kaiber is an AI product in the Video Creation space with official hosting at kaiber.ai.\n\nVidéos stylisées / clips musicaux pour créateurs. Check the pricing page before production use.\n\nFeature: Kaiber ships the main workflow advertised on its official site.",
+  "summary": "Kaiber: Stylized Videos/Music Videos for Creators.",
+  "description": "Stylized Videos/Music Videos for Creators.",
   "summary_fr": "Vidéos stylisées / clips musicaux pour créateurs.",
-  "description_fr": "Vidéos stylisées / clips musicaux pour créateurs. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Vidéos stylisées / clips musicaux pour créateurs.",
   "categories": [
     "video"
   ],
   "tags": [
-    "ai",
     "video",
-    "catalog"
+    "music-video",
+    "creators"
   ],
   "pricing": {
     "model": "freemium",
@@ -28,16 +28,16 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Kaiber ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Text and image to stylized video generation for creators.",
+    "Music-video and motion presets with camera controls.",
+    "Storyboard-style editing and clip iteration.",
+    "Export for social and music promotion workflows."
   ],
   "features_fr": [
-    "Kaiber propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Génération de vidéos stylisées à partir de texte ou d'images.",
+    "Presets clips musicaux et mouvements avec contrôles caméra.",
+    "Montage type storyboard et itérations sur les clips.",
+    "Export pour les réseaux sociaux et la promotion musicale."
   ],
   "howToUse": [
     {
@@ -64,5 +64,10 @@
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "tags_fr": [
+    "vidéo",
+    "clip musical",
+    "créateurs"
+  ]
 }

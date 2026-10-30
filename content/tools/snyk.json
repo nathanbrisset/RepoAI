@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Developer security platform covering code, dependencies, containers, and IaC with AI-assisted fixes.",
-  "description": "Developer security platform covering code, dependencies, containers, and IaC with AI-assisted fixes. Check the pricing page before production use.\n\nFeature: Snyk ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "description": "Snyk focuses on developer security platform covering code, dependencies, containers, and IaC with AI-assisted fixes.",
   "categories": [
     "security"
   ],
@@ -27,10 +27,9 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Snyk ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Developer security platform covering code.",
+    "Dependencies.",
+    "And IaC with AI-assisted fixes."
   ],
   "howToUse": [
     {
@@ -55,5 +54,10 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Plateforme de sécurité des développeurs couvrant le code.",
+    "Dépendances.",
+    "Et IaC avec des correctifs assistés par l'IA."
   ]
 }

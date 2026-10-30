@@ -4,10 +4,10 @@
   "url": "https://chatllm.abacus.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Abacus.AI ChatLLM is an AI product in the LLM & Chatbots space with official hosting at chatllm.abacus.ai.",
-  "description": "Abacus.AI ChatLLM is an AI product in the LLM & Chatbots space with official hosting at chatllm.abacus.ai.\n\nAccès à de nombreux modèles et agents pour un petit prix. Check the pricing page before production use.\n\nFeature: Abacus.AI ChatLLM ships the main workflow advertised on its official site.",
+  "summary": "Abacus.AI ChatLLM: Access many models and agents for a low price.",
+  "description": "Abacus.AI ChatLLM helps teams with access many models and agents for a low price.",
   "summary_fr": "Accès à de nombreux modèles et agents pour un petit prix.",
-  "description_fr": "Accès à de nombreux modèles et agents pour un petit prix. Vérifie la page tarifs avant un déploiement en production.",
+  "description_fr": "Accès à de nombreux modèles et agents pour un petit prix.",
   "categories": [
     "llm-chatbots"
   ],
@@ -20,24 +20,20 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://chatllm.abacus.ai"
   },
   "logo": "/logos/abacus-chatllm.png",
-  "image": "",
+  "image": "/screenshots/abacus-chatllm.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Abacus.AI ChatLLM ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Access many models and agents for a low price.",
+    "Abacus.AI ChatLLM helps teams with access many models and agents for a low price."
   ],
   "features_fr": [
-    "Abacus.AI ChatLLM propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Accès à de nombreux modèles.",
+    "Agents pour un petit prix."
   ],
   "howToUse": [
     {

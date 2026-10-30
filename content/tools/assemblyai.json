@@ -49,5 +49,17 @@
       "title": "Add speech understanding",
       "description": "Add speech understanding when you need summaries or guardrails, or call the LLM gateway. Universal models are billed per hour of audio, from $0.15, and the model with stronger speaker diarization is $0.21 per hour."
     }
+  ],
+  "features": [
+    "Speech-to-text and speech-understanding APIs for pre-recorded and real-time audio.",
+    "AssemblyAI offers APIs for pre-recorded, real-time and synchronous speech-to-text, along with speech understanding features such as summaries and guardrails, and an LLM gateway.",
+    "Users can try the API for free, then pay as they go with no commitment.",
+    "Universal models are priced per hour of audio, starting at $0.15 per hour, with a model offering stronger speaker diarization at $0.21 per hour."
+  ],
+  "features_fr": [
+    "API de synthèse vocale et de compréhension vocale pour l'audio préenregistré et en temps réel.",
+    "AssemblyAI propose des API pour la synthèse vocale préenregistrée, en temps réel et synchrone, ainsi que des fonctionnalités de compréhension vocale telles que des résumés et des garde-fous, ainsi qu'une passerelle LLM.",
+    "Les utilisateurs peuvent essayer l'API gratuitement, puis payer au fur et à mesure, sans engagement.",
+    "Les modèles universels sont facturés par heure d'audio, à partir de 0,15 $ par heure, avec un modèle offrant une diarisation plus forte des haut-parleurs à 0,21 $ par heure."
   ]
 }

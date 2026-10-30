@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Gling is an AI video editor for YouTubers that automatically removes silences, bad takes, and stutters, speeding up the editing process for vlogs and interviews.",
-  "description": "Gling is an AI video editor for YouTubers that automatically removes silences, bad takes, and stutters, speeding up the editing process for vlogs and interviews.\n\nGling’s AI video editing software is designed for YouTube creators. Optimize your workflow by automatically cutting out bad takes, silent moments, filler words, and background noise, ensuring your content is polished and engaging.\n\nSilence removal: Uses AI to detect and cut out pauses and dead air, making videos more engaging and concise. Bad take detection: Identifies and removes mistakes, retakes, or repeated lines for a polished final product. Timeline export: Provides clean project files for further editing in your favorite NLE. Batch processing: Edit multiple videos in one go, saving countless hours for creators.",
+  "description": "Gling is an AI video editor for YouTubers that automatically removes silences, bad takes, and stutters, speeding up the editing process for vlogs and interviews. Gling’s AI video editing software is designed for YouTube creators. Optimize your workflow by automatically cutting out bad takes, silent moments, filler words, and background noise, ensuring your content is polished and engaging. Silence removal: Uses AI to detect and cut out pauses and dead air, making videos more engaging and concise. Bad take detection: Identifies and removes mistakes, retakes, or repeated lines for a polished final product. Timeline export: Provides clean project files for further editing in your favorite NLE. Batch processing: Edit multiple videos in one go, saving countless hours for creators.",
   "categories": [
     "video"
   ],
@@ -20,7 +20,7 @@
     "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/gling.png",
-  "image": "/screenshots/gling.webp",
+  "image": "/tool-screenshots/gling.png",
   "dateAdded": "2025-06-13",
   "lastVerified": null,
   "features": [
@@ -60,5 +60,11 @@
       "title": "Batch Editing (Optional)",
       "description": "Use batch mode to process several videos at once, perfect for bulk YouTube content or podcast cleanups."
     }
+  ],
+  "features_fr": [
+    "Suppression des silences : utilise l'IA pour détecter et supprimer les pauses et les airs morts, rendant les vidéos plus attrayantes et concises.",
+    "Détection des mauvaises prises : identifie et supprime les erreurs, les reprises ou les lignes répétées pour un produit final soigné.",
+    "Exportation de la chronologie : fournit des fichiers de projet propres pour une édition ultérieure dans votre NLE préféré.",
+    "Traitement par lots : modifiez plusieurs vidéos en une seule fois, ce qui fait gagner d'innombrables heures aux créateurs."
   ]
 }

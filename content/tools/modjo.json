@@ -4,10 +4,10 @@
   "url": "https://www.modjo.ai",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Modjo is an AI product in the Meetings & Notes space with official hosting at modjo.ai.",
-  "description": "Modjo is an AI product in the Meetings & Notes space with official hosting at modjo.ai.\n\nAnalyse IA des appels commerciaux (startup française). Check the pricing page before production use.\n\nFeature: Modjo ships the main workflow advertised on its official site.",
-  "summary_fr": "Analyse IA des appels commerciaux (startup française).",
-  "description_fr": "Analyse IA des appels commerciaux (startup française). Vérifie la page tarifs avant un déploiement en production.",
+  "summary": "Modjo: AI analysis of sales calls (French startup).",
+  "description": "Modjo helps teams with aI analysis of sales calls (French startup).",
+  "summary_fr": "Intelligence conversationnelle pour équipes sales (appels, coaching).",
+  "description_fr": "Modjo enregistre, transcrit et analyse les appels commerciaux pour extraire insights, playlists de coaching et CRM enrichi.",
   "categories": [
     "meetings"
   ],
@@ -20,24 +20,22 @@
     "model": "paid",
     "label": "Premium",
     "verified": false,
-    "note": "Payant",
+    "note": "Paid plans; see the official site for current pricing.",
     "sourceUrl": "https://www.modjo.ai"
   },
   "logo": "/logos/modjo.png",
-  "image": "",
+  "image": "/screenshots/modjo.webp",
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Modjo ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "AI analysis of sales calls (French startup).",
+    "Modjo helps teams with aI analysis of sales calls (French startup)."
   ],
   "features_fr": [
-    "Modjo propose le flux principal décrit sur le site officiel.",
-    "Comptes équipe, rôles ou espaces de travail si disponibles.",
-    "Exports, webhooks ou intégrations vers tes autres outils.",
-    "Centre d'aide et onboarding pour le premier projet."
+    "Enregistrement et transcription automatiques des appels.",
+    "Moments clés et scoring des conversations.",
+    "Bibliothèques de snippets pour formation.",
+    "Sync CRM et alertes sur deals à risque."
   ],
   "howToUse": [
     {

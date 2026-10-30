@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Marketing automation software for lead management, email marketing, and campaign management.",
-  "description": "Marketing automation software for lead management, email marketing, and campaign management.\n\nLead Management: Capture and score leads with automation. Cross-Channel Campaigns: Email, social, ads, and more. Personalization: Tailor experiences to user behavior. Analytics: Real-time reporting on campaign performance.",
+  "description": "Marketing automation software for lead management, email marketing, and campaign management. Lead Management: Capture and score leads with automation. Cross-Channel Campaigns: Email, social, ads, and more. Personalization: Tailor experiences to user behavior. Analytics: Real-time reporting on campaign performance.",
   "categories": [
     "marketing"
   ],
@@ -66,5 +66,11 @@
       ]
     }
   ],
-  "statusNote": "On 21 October 2026, curl -IL https://www.marketo.com/ returned 301 to https://business.adobe.com/products/marketo/adobe-marketo.html. curl -IL does not finish on business.adobe.com (HTTP/2 INTERNAL_ERROR, HTTP/1.1 timeout). A browser follows that URL to https://business.adobe.com/products/marketo.html and gets HTTP 200. Experience League docs also returned 200."
+  "statusNote": "On 21 October 2026, curl -IL https://www.marketo.com/ returned 301 to https://business.adobe.com/products/marketo/adobe-marketo.html. curl -IL does not finish on business.adobe.com (HTTP/2 INTERNAL_ERROR, HTTP/1.1 timeout). A browser follows that URL to https://business.adobe.com/products/marketo.html and gets HTTP 200. Experience League docs also returned 200.",
+  "features_fr": [
+    "Gestion des leads : capturez et notez des leads grâce à l'automatisation.",
+    "Campagnes cross-canal : e-mail, réseaux sociaux, publicités, etc.",
+    "Personnalisation : adaptez les expériences au comportement des utilisateurs.",
+    "Analytics : rapports en temps réel sur les performances des campagnes."
+  ]
 }

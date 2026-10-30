@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Cloud IDE to build, test, and deploy apps with Replit Agent and collaborative workspaces.",
-  "description": "Cloud IDE to build, test, and deploy apps with Replit Agent and collaborative workspaces. Check the pricing page before production use.\n\nFeature: Replit ships the main workflow advertised on its official site. Feature: Team accounts, roles, or workspaces where the product supports them. Feature: Exports, webhooks, or integrations for downstream tools. Feature: Help center and onboarding to configure the first project.",
+  "description": "Replit focuses on cloud IDE to build, test, and deploy apps with Replit Agent and collaborative workspaces.",
   "categories": [
     "no-code"
   ],
@@ -27,10 +27,8 @@
   "dateAdded": "2026-10-29",
   "lastVerified": "2026-10-29",
   "features": [
-    "Replit ships the main workflow advertised on its official site.",
-    "Team accounts, roles, or workspaces where the product supports them.",
-    "Exports, webhooks, or integrations for downstream tools.",
-    "Help center and onboarding to configure the first project."
+    "Cloud IDE to build.",
+    "And deploy apps with Replit Agent and collaborative workspaces."
   ],
   "howToUse": [
     {
@@ -55,5 +53,9 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "IDE Cloud à construire.",
+    "Et déployez des applications avec Replit Agent et des espaces de travail collaboratifs."
   ]
 }

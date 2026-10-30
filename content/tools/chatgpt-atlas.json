@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "OpenAI's AI-first browser experience that embeds ChatGPT for search, tabs, and page-aware assistance.",
-  "description": "OpenAI's AI-first browser experience that embeds ChatGPT for search, tabs, and page-aware assistance. Check the pricing page before production use.\n\nFeature: Multi-turn chat with model selection where available. Feature: File, image, or voice input on supported plans. Feature: Share or export conversations for teammates. Feature: API or enterprise controls on higher tiers.",
+  "description": "ChatGPT Atlas focuses on openAI's AI-first browser experience that embeds ChatGPT for search, tabs, and page-aware assistance.",
   "categories": [
     "llm-chatbots"
   ],
@@ -55,5 +55,11 @@
       "title": "Review outputs",
       "description": "Export, share, or connect to your stack before scaling usage."
     }
+  ],
+  "features_fr": [
+    "Navigateur axé sur l'IA avec ChatGPT intégré pour la recherche et les onglets.",
+    "Assistance contextuelle sur la page web que vous consultez.",
+    "Synthèse et questions sur le contenu ouvert sans changer d'application.",
+    "Nécessite un abonnement ChatGPT éligible là où Atlas est déployé."
   ]
 }
