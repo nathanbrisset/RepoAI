@@ -6,7 +6,6 @@ import { captchaSecret, verifyChallenge } from "@/lib/match-captcha"
 import { clientIp, consumeNonce, rateLimit, rateSubject, searchLimit } from "@/lib/match-guard"
 import {
   catalogMatch,
-  detectLanguage,
   parseModelJson,
   promptProblem,
   rankTools,
@@ -15,6 +14,7 @@ import {
   toMatchTool,
   validateModelPayload,
   type MatchLang,
+  resolveMatchLang,
   type MatchPayload,
 } from "@/lib/match-copy"
 
@@ -171,13 +171,13 @@ export async function POST(req: NextRequest) {
     }
 
     const { tools, names } = activeTools(locale)
-    const lang = detectLanguage(prompt)
+    const lang = resolveMatchLang(prompt, locale)
 
-    const catalog = catalogMatch(tools, prompt, names)
+    const catalog = catalogMatch(tools, prompt, names, locale)
     const catalogStrong =
       catalog &&
       catalog.recommendations.length >= 2 &&
-      rankTools(tools, prompt).some((row) => row.score >= 4)
+      rankTools(tools, prompt, locale).some((row) => row.score >= 4)
     if (catalogStrong) {
       return jsonOk(withRelated(catalog, tools, prompt, names), legacy)
     }

@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { cn } from "@/lib/utils"
 import { useRouter } from "next/navigation"
-import { advancedSearch } from "@/lib/recommendation-engine"
+import { rankCatalogSearch } from "@/lib/catalog-search"
 import { categoryCopy } from "@/lib/i18n/messages"
 import type { CatalogSearchRecord } from "@/lib/i18n/search-records"
 import { localizeHref } from "@/lib/i18n/paths"
@@ -21,7 +21,7 @@ interface SearchBarProps {
 
 export default function SearchBar({ className, records }: SearchBarProps) {
   const [searchQuery, setSearchQuery] = useState("")
-  const [results, setResults] = useState<Array<{ tool: Tool; match: unknown; score: number }>>([])
+  const [results, setResults] = useState<Array<{ tool: Tool; score: number }>>([])
   const router = useRouter()
   const locale = useLocale()
   const t = useT()
@@ -29,8 +29,8 @@ export default function SearchBar({ className, records }: SearchBarProps) {
   const handleSearch = (value: string) => {
     setSearchQuery(value)
     if (value.trim()) {
-      const searchResults = advancedSearch(records as Tool[], value)
-      setResults(searchResults)
+      const searchResults = rankCatalogSearch(records as Tool[], value, locale).slice(0, 8)
+      setResults(searchResults.map((row) => ({ tool: row.record as Tool, score: row.score })))
     } else {
       setResults([])
     }

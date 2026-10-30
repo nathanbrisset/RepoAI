@@ -3,6 +3,50 @@
  * Active fiches only. Cards never carry visits, ratings, or affiliateUrl.
  */
 
+import taxonomy from "../content/taxonomy.json" with { type: "json" }
+
+type UiLocale = "en" | "fr"
+
+const enCategoryNames = new Map(
+  (taxonomy.categories as { id: string; name: string }[]).map((category) => [category.id, category.name]),
+)
+
+const frCategoryNames: Record<string, string> = {
+  "llm-chatbots": "Assistants IA",
+  "ai-agents": "Agents IA",
+  automation: "Automatisation",
+  coding: "Code",
+  "no-code": "No-code",
+  writing: "Écriture",
+  image: "Image",
+  video: "Vidéo",
+  voice: "Voix",
+  music: "Musique",
+  design: "Design",
+  meetings: "Réunions",
+  productivity: "Productivité",
+  search: "Recherche",
+  data: "Données",
+  marketing: "Marketing",
+  sales: "Vente",
+  support: "Support",
+  hr: "RH",
+  education: "Éducation",
+  health: "Santé",
+  legal: "Juridique",
+  finance: "Finance",
+  security: "Sécurité",
+  "ai-detection": "Détection IA",
+  text: "Texte",
+  audio: "Audio",
+  "data-processing": "Données",
+}
+
+export function categoryLabel(locale: UiLocale, id: string): string {
+  if (locale === "fr") return frCategoryNames[id] || enCategoryNames.get(id) || id.replace(/-/g, " ")
+  return enCategoryNames.get(id) || id.replace(/-/g, " ")
+}
+
 export const MAX_QUERY_LENGTH = 500
 export const MIN_QUERY_LENGTH = 3
 export const MAX_REASON_WORDS = 25
@@ -125,15 +169,17 @@ const STOP = new Set([
 const GENERIC_TAGS = new Set(["ai", "tool", "tools", "artificial intelligence"])
 
 const INTENTS: { tokens: string[]; categories: string[] }[] = [
-  { tokens: ["video", "videos", "avatar", "clip", "film", "youtube", "montage"], categories: ["video"] },
-  { tokens: ["image", "picture", "logo", "photo", "icon", "illustration", "dessin", "dessiner", "drawing"], categories: ["image", "design"] },
-  { tokens: ["write", "writing", "newsletter", "copy", "blog", "ecrire", "rediger", "article"], categories: ["text"] },
-  { tokens: ["code", "coding", "python", "github", "debug", "programming"], categories: ["coding"] },
-  { tokens: ["voice", "audio", "podcast", "speech", "voix", "voixoff"], categories: ["audio"] },
-  { tokens: ["market", "seo", "campaign", "ads"], categories: ["marketing"] },
-  { tokens: ["data", "spreadsheet", "analytics", "csv"], categories: ["data-processing"] },
-  { tokens: ["design", "figma", "mockup", "interface"], categories: ["design"] },
-  { tokens: ["task", "meeting", "email", "calendar", "notes"], categories: ["productivity"] },
+  { tokens: ["video", "videos", "avatar", "clip", "film", "youtube", "montage", "short", "shorts"], categories: ["video"] },
+  { tokens: ["image", "picture", "logo", "photo", "icon", "illustration", "dessin", "dessiner", "drawing", "visuel"], categories: ["image", "design"] },
+  { tokens: ["write", "writing", "newsletter", "copy", "blog", "ecrire", "écrire", "rediger", "rédiger", "article", "texte"], categories: ["text"] },
+  { tokens: ["code", "coding", "python", "github", "debug", "programming", "dev", "developpeur", "développeur"], categories: ["coding"] },
+  { tokens: ["voice", "audio", "podcast", "speech", "voix", "voixoff", "son", "musique"], categories: ["audio", "music"] },
+  { tokens: ["market", "seo", "campaign", "ads", "pub", "marketing", "vente"], categories: ["marketing", "sales"] },
+  { tokens: ["data", "spreadsheet", "analytics", "csv", "donnees", "données", "tableur"], categories: ["data-processing"] },
+  { tokens: ["design", "figma", "mockup", "interface", "maquette"], categories: ["design"] },
+  { tokens: ["task", "meeting", "email", "calendar", "notes", "reunion", "réunion", "courriel"], categories: ["productivity"] },
+  { tokens: ["search", "research", "recherche", "sources", "literature"], categories: ["search"] },
+  { tokens: ["chat", "chatbot", "assistant", "llm", "discuter"], categories: ["llm-chatbots"] },
 ]
 
 type ToolInput = {
@@ -209,6 +255,40 @@ export function detectLanguage(sample: string): MatchLang {
     }
   }
   return best
+}
+
+/** Prefer UI locale for FR copy when the prompt looks French or is short on /fr. */
+export function resolveMatchLang(query: string, locale?: UiLocale): MatchLang {
+  const detected = detectLanguage(query)
+  if (locale !== "fr") return detected
+  if (detected === "fr") return "fr"
+  const lower = query.toLowerCase()
+  if (/[àâçéèêëîïôùûüÿœ]/.test(lower)) return "fr"
+  const tokens = tokenize(query)
+  if (tokens.some((token) => LANGUAGE_HINTS.fr.includes(token))) return "fr"
+  return detected
+}
+
+const UUID_IN_TEXT =
+  /\b[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}\b/gi
+
+/** Strip matcher/debug phrasing; keep plain-language reasons for UI. */
+export function humanizeReason(text: string): string {
+  let cleaned = text.trim()
+  cleaned = cleaned.replace(UUID_IN_TEXT, "")
+  cleaned = cleaned.replace(/Matched in [^:]+:\s*/gi, "")
+  cleaned = cleaned.replace(/"([^"]+)"/g, "$1")
+  cleaned = cleaned.replace(/Matches use case:\s*[\w_]+/gi, "")
+  cleaned = cleaned.replace(/\bid:\s*[\w-]+/gi, "")
+  cleaned = cleaned.replace(/\b(slug|uuid|score|rating|visits)\b:\s*\S+/gi, "")
+  cleaned = cleaned.replace(/\b[a-z0-9]+(?:-[a-z0-9]+){2,}\b/gi, (slug) => {
+    if (/^[0-9a-f-]{36}$/i.test(slug)) return ""
+    if (slug.includes("-") && slug.length > 24) return ""
+    return slug
+  })
+  cleaned = cleaned.replace(/\s{2,}/g, " ").trim()
+  if (isUselessReason(cleaned)) return ""
+  return limitWords(cleaned, MAX_REASON_WORDS)
 }
 
 export function messageForCode(code: unknown, sample = ""): string {
@@ -319,7 +399,12 @@ const QUERY_EXPANSIONS: Record<string, string[]> = {
   dessin: ["design", "image", "illustration", "drawing"],
   dessiner: ["design", "image", "illustration", "drawing"],
   creer: ["create", "video"],
+  créer: ["create", "video"],
   faire: ["create", "make"],
+  montage: ["video", "edit"],
+  recherche: ["research", "search"],
+  automatiser: ["automate", "workflow"],
+  automatisation: ["automate", "workflow"],
 }
 
 export function searchTokens(query: string): string[] {
@@ -338,7 +423,7 @@ export function foldMatchText(text: string): string {
   return text.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase()
 }
 
-function tokenMatchVariants(token: string): string[] {
+export function tokenMatchVariants(token: string): string[] {
   const variants = new Set<string>([token])
   if (token.length > 3 && token.endsWith("s")) variants.add(token.slice(0, -1))
   if (token.length > 4 && token.endsWith("es")) variants.add(token.slice(0, -2))
@@ -365,15 +450,19 @@ function intentCategories(query: string): string[] {
   return [...categories]
 }
 
-export function rankTools(tools: MatchTool[], query: string): { tool: MatchTool; score: number }[] {
+export function rankTools(tools: MatchTool[], query: string, localeHint?: UiLocale): { tool: MatchTool; score: number }[] {
   const tokens = searchTokens(query)
   if (tokens.length === 0) return []
+  const uiLocale: UiLocale = localeHint || (detectLanguage(query) === "fr" ? "fr" : "en")
   const rows = tools.map((tool) => {
     const name = foldMatchText(tool.name)
     const summary = foldMatchText(tool.summary)
     const features = foldMatchText(tool.features.join(" "))
     const tags = tool.tags.map((tag) => foldMatchText(tag))
-    const categories = tool.categories.map((category) => foldMatchText(category.replace(/-/g, " ")))
+    const categories = tool.categories.flatMap((category) => {
+      const label = categoryLabel(uiLocale, category)
+      return [foldMatchText(category.replace(/-/g, " ")), foldMatchText(label)]
+    })
     let score = 0
     for (const token of tokens) {
       const variants = tokenMatchVariants(token)
@@ -402,46 +491,48 @@ export function shortlist(tools: MatchTool[], query: string, limit = 16): MatchT
   return [...picked, ...extras].slice(0, limit)
 }
 
-function categoryLabel(id: string): string {
-  return id.replace(/-/g, " ")
+function displayCategory(lang: MatchLang, categoryId: string): string {
+  const locale: UiLocale = lang === "fr" ? "fr" : "en"
+  return categoryLabel(locale, categoryId)
 }
 
 export function fallbackReason(lang: MatchLang, tool: MatchTool, index = 0): string {
-  const category = categoryLabel(tool.categories[0] || "ai")
-  const tag = tool.tags.find((item) => item.trim().length > 2 && !GENERIC_TAGS.has(item.toLowerCase())) || category
+  const category = displayCategory(lang, tool.categories[0] || "llm-chatbots")
+  const tag =
+    tool.tags.find((item) => item.trim().length > 2 && !GENERIC_TAGS.has(item.toLowerCase())) || category
   const templates: Record<MatchLang, [string, string, string]> = {
     en: [
-      `${tool.name} fits this request. It is filed under ${category} and covers ${tag}.`,
-      `${tool.name} is a strong option here. It sits in ${category} and focuses on ${tag}.`,
-      `${tool.name} can help with this task. Look under ${category}, especially ${tag}.`,
+      `${tool.name} lines up with what you asked for — strong in ${category}, especially around ${tag}.`,
+      `${tool.name} is a solid fit here, in ${category}, with ${tag} as a highlight.`,
+      `${tool.name} can help with this task — look at ${category} and ${tag}.`,
     ],
     fr: [
-      `${tool.name} correspond à cette demande. La fiche est dans ${category} et couvre ${tag}.`,
-      `${tool.name} répond à ce besoin. Il est classé dans ${category}, autour de ${tag}.`,
-      `${tool.name} est une piste active pour cette tâche, dans ${category}, côté ${tag}.`,
+      `${tool.name} colle à ce que tu décris — côté ${category}, avec ${tag} en point fort.`,
+      `${tool.name} répond bien à ton besoin, dans ${category}, autour de ${tag}.`,
+      `${tool.name} est une piste solide pour cette tâche (${category}, ${tag}).`,
     ],
     es: [
-      `${tool.name} encaja con esta petición. Está en ${category} y cubre ${tag}.`,
-      `${tool.name} es una buena opción aquí. Está en ${category} y se centra en ${tag}.`,
-      `${tool.name} puede ayudar en esta tarea. Míralo en ${category}, sobre todo por ${tag}.`,
+      `${tool.name} encaja con lo que pides — fuerte en ${category}, sobre todo en ${tag}.`,
+      `${tool.name} es una buena opción aquí, en ${category}, con ${tag} como foco.`,
+      `${tool.name} puede ayudar en esta tarea — mira ${category} y ${tag}.`,
     ],
     de: [
-      `${tool.name} passt zu dieser Anfrage. Es steht unter ${category} und deckt ${tag} ab.`,
-      `${tool.name} ist hier eine gute Wahl. Es liegt unter ${category} und zielt auf ${tag}.`,
-      `${tool.name} kann bei dieser Aufgabe helfen. Zu finden unter ${category}, besonders ${tag}.`,
+      `${tool.name} passt zu deiner Anfrage — stark in ${category}, besonders bei ${tag}.`,
+      `${tool.name} ist hier eine gute Wahl unter ${category}, Schwerpunkt ${tag}.`,
+      `${tool.name} kann bei dieser Aufgabe helfen — ${category}, vor allem ${tag}.`,
     ],
     pt: [
-      `${tool.name} combina com este pedido. Está em ${category} e cobre ${tag}.`,
-      `${tool.name} é uma boa opção aqui. Fica em ${category} e foca em ${tag}.`,
-      `${tool.name} pode ajudar nesta tarefa. Veja em ${category}, sobretudo ${tag}.`,
+      `${tool.name} combina com o que você pediu — forte em ${category}, especialmente em ${tag}.`,
+      `${tool.name} é uma boa opção aqui, em ${category}, com destaque em ${tag}.`,
+      `${tool.name} pode ajudar nesta tarefa — veja ${category} e ${tag}.`,
     ],
     it: [
-      `${tool.name} corrisponde a questa richiesta. È in ${category} e copre ${tag}.`,
-      `${tool.name} è una buona scelta qui. Sta in ${category} e punta su ${tag}.`,
-      `${tool.name} può aiutare in questo compito. Si trova in ${category}, specie per ${tag}.`,
+      `${tool.name} corrisponde a ciò che chiedi — forte in ${category}, soprattutto su ${tag}.`,
+      `${tool.name} è una buona scelta qui, in ${category}, con focus su ${tag}.`,
+      `${tool.name} può aiutare in questo compito — guarda ${category} e ${tag}.`,
     ],
   }
-  return limitWords(templates[lang][index % 3], MAX_REASON_WORDS)
+  return humanizeReason(templates[lang][index % 3]) || limitWords(templates[lang][0], MAX_REASON_WORDS)
 }
 
 export function fallbackIntro(lang: MatchLang): string {
@@ -468,9 +559,14 @@ function safeReason(lang: MatchLang, tool: MatchTool): string {
   return limitWords(templates[lang], MAX_REASON_WORDS)
 }
 
-export function catalogMatch(tools: MatchTool[], query: string, allNames: string[]): Omit<MatchPayload, "related"> | null {
-  const lang = detectLanguage(query)
-  const ranked = rankTools(tools, query).filter((row) => row.score > 0).slice(0, 3)
+export function catalogMatch(
+  tools: MatchTool[],
+  query: string,
+  allNames: string[],
+  localeHint?: UiLocale,
+): Omit<MatchPayload, "related"> | null {
+  const lang = resolveMatchLang(query, localeHint)
+  const ranked = rankTools(tools, query, localeHint).filter((row) => row.score > 0).slice(0, 3)
   if (ranked.length === 0) return null
   const used = new Set<string>()
   const recommendations: MatchCard[] = []
@@ -525,7 +621,7 @@ export function validateModelPayload(
     const tool = byId.get(pick.id.trim().toLowerCase())
     if (!tool || !namesMatch(tool.name, pick.name) || used.has(tool.id)) continue
     used.add(tool.id)
-    let reason = typeof pick.reason === "string" ? limitWords(pick.reason, MAX_REASON_WORDS) : ""
+    let reason = typeof pick.reason === "string" ? humanizeReason(pick.reason) : ""
     if (
       isUselessReason(reason) ||
       mentionsForeignTool(reason, [tool.name], allNames) ||
