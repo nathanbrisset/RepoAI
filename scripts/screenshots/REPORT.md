@@ -1,6 +1,6 @@
 # Captures d'écran du catalogue
 
-Généré le 2026-10-29. Les fiches sunset sont exclues. Les captures ratées ne sont pas publiées.
+Généré le 2026-10-30. Les fiches sunset sont exclues. Les captures ratées ne sont pas publiées.
 
 ## Audit des images avant remplacement
 
@@ -27,7 +27,7 @@ Les PNG historiques dans `public/tool-screenshots` sont des captures plein cadre
 
 | Issue | Nombre |
 | --- | ---: |
-| Captures réussies | 628 |
+| Captures réussies | 627 |
 | Captures ratées | 7 |
 | Image actuelle conservée | 5 |
 | Visuel de repli (logo) | 2 |

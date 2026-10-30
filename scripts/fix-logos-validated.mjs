@@ -27,6 +27,7 @@ const TARGETS = {
   ],
   chatcode: [
     "https://chatcodeai.vercel.app/favicon.ico",
+    "https://chatcode.co/apple-touch-icon.png",
     "https://www.google.com/s2/favicons?domain=chatcodeai.vercel.app&sz=128",
   ],
 }

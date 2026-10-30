@@ -54,9 +54,29 @@
     }
   ],
   "features_fr": [
-    "Suggestions de code : fournit des extraits de code basés sur la saisie.",
-    "Réponse aux questions : répond aux requêtes liées au codage.",
-    "Prend en charge plusieurs langages : gère différents langages de programmation.",
-    "Intégration IDE : Compatible avec les éditeurs de code populaires."
+    "Suggestions de code : fournit des extraits de code basés sur la saisie.",
+    "Réponses aux questions : répond aux requêtes liées au codage.",
+    "Prise en charge de plusieurs langages : gère divers langages de programmation.",
+    "Intégration IDE : compatible avec les éditeurs de code populaires."
+  ],
+  "tags_fr": ["suggestions de code", "questions de codage"],
+  "howToUse_fr": [
+    {
+      "title": "Installe l'extension AskCodi",
+      "description": "Ajoute AskCodi à ton IDE ou navigateur depuis la boutique d'extensions.",
+      "links": [{ "label": "AskCodi", "url": "https://www.askcodi.com/" }]
+    },
+    {
+      "title": "Saisis une question ou une tâche",
+      "description": "Décris ton besoin de code ou pose une question technique précise."
+    },
+    {
+      "title": "Reçois des suggestions",
+      "description": "Parcours les extraits ou réponses proposés et insère ce qui convient."
+    },
+    {
+      "title": "Adapte et intègre",
+      "description": "Modifie le code suggéré puis valide-le dans ton dépôt ou ton projet."
+    }
   ]
 }

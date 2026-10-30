@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T20:32:28.795Z",
+  "generatedAt": "2026-10-30T07:13:17.905Z",
   "audit": {
     "capturedAt": "2026-10-21T18:30:40.343Z",
     "totalFiles": 513,
@@ -244,7 +244,7 @@
   },
   "counts": {
     "processed": 644,
-    "success": 628,
+    "success": 627,
     "failed": 7,
     "kept": 5,
     "fallback": 2,
@@ -1236,7 +1236,7 @@
       "outcome": "skipped",
       "category": "login",
       "reason": "Page de connexion",
-      "image": "/screenshots/chatgpt-atlas.webp",
+      "image": "",
       "note": "capture ratée — pas de repli logo publié"
     },
     {
@@ -2577,7 +2577,7 @@
       "outcome": "skipped",
       "category": "error",
       "reason": "HTTP 404",
-      "image": "/screenshots/freshdesk-freddy.webp",
+      "image": "",
       "note": "capture ratée — pas de repli logo publié"
     },
     {
@@ -3991,7 +3991,7 @@
       "outcome": "skipped",
       "category": "empty",
       "reason": "Capture quasi uniforme",
-      "image": "/screenshots/lavender.webp",
+      "image": "",
       "note": "capture ratée — pas de repli logo publié"
     },
     {
@@ -4146,7 +4146,7 @@
       "outcome": "skipped",
       "category": "error",
       "reason": "HTTP 410",
-      "image": "/screenshots/liner.webp",
+      "image": "",
       "note": "capture ratée — pas de repli logo publié"
     },
     {
@@ -5176,7 +5176,7 @@
       "outcome": "skipped",
       "category": "error",
       "reason": "HTTP 404",
-      "image": "/screenshots/opera-aria.webp",
+      "image": "",
       "note": "capture ratée — pas de repli logo publié"
     },
     {
@@ -5834,7 +5834,7 @@
       "outcome": "skipped",
       "category": "captcha",
       "reason": "Captcha ou interstitiel anti-bot",
-      "image": "/screenshots/ramp.webp",
+      "image": "",
       "note": "capture ratée — pas de repli logo publié"
     },
     {
@@ -6586,12 +6586,11 @@
       "name": "Sora",
       "url": "https://sora.com/",
       "finalUrl": "https://sora.chatgpt.com/sunset",
-      "outcome": "success",
-      "category": "ok",
-      "reason": "",
+      "outcome": "skipped",
+      "category": "error",
+      "reason": "HTTP 403",
       "image": "/screenshots/sora.webp",
-      "bytes": 5286,
-      "note": ""
+      "note": "capture ratée — pas de repli logo publié"
     },
     {
       "id": "soundraw",
@@ -6685,7 +6684,7 @@
       "outcome": "skipped",
       "category": "error",
       "reason": "HTTP 404",
-      "image": "/screenshots/spotter.webp",
+      "image": "",
       "note": "capture ratée — pas de repli logo publié"
     },
     {
@@ -7584,7 +7583,7 @@
       "outcome": "skipped",
       "category": "empty",
       "reason": "Page vide",
-      "image": "/screenshots/wan.webp",
+      "image": "",
       "note": "capture ratée — pas de repli logo publié"
     },
     {
@@ -7931,7 +7930,7 @@
       "outcome": "skipped",
       "category": "captcha",
       "reason": "Captcha ou interstitiel anti-bot",
-      "image": "/screenshots/zerogpt.webp",
+      "image": "",
       "note": "capture ratée — pas de repli logo publié"
     },
     {
