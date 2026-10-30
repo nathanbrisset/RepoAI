@@ -4,8 +4,8 @@
   "url": "https://brave.com/leo/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Brave Leo: Brave Leo is an AI product for LLM and chat.",
-  "description": "Brave Leo is an AI product for LLM and chat.",
+  "summary": "Privacy-focused AI assistant built into the Brave browser.",
+  "description": "Leo summarizes web pages and videos, answers questions and helps write, right inside the Brave browser. Conversations aren't stored or used for training, and several models are available depending on the plan.",
   "categories": [
     "llm-chatbots"
   ],
@@ -61,5 +61,7 @@
     "Saisie de fichier, d’image ou vocale sur les forfaits pris en charge.",
     "Partagez ou exportez des conversations pour vos coéquipiers.",
     "Contrôles API ou d'entreprise sur les niveaux supérieurs."
-  ]
+  ],
+  "summary_fr": "Assistant IA intégré au navigateur Brave, axé confidentialité.",
+  "description_fr": "Leo résume les pages web et vidéos, répond aux questions et aide à rédiger, directement dans le navigateur Brave. Les conversations ne sont pas conservées ni utilisées pour l'entraînement, et plusieurs modèles sont disponibles selon l'offre."
 }

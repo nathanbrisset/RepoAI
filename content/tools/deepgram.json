@@ -4,8 +4,8 @@
   "url": "https://deepgram.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Speech-to-text, text-to-speech and voice agent APIs for developers and enterprises.",
-  "description": "Deepgram provides APIs for speech-to-text, text-to-speech and voice agents. Its Flux models are designed for conversation, handling turn-taking and interruptions. New accounts receive $200 of free credit without a card, after which usage is billed pay-as-you-go with no minimums; growth plans start with annual commitments, and enterprise plans are custom. Products are offered as APIs for developers and as enterprise deployments with SLAs.",
+  "summary": "Speech-to-text, text-to-speech and voice agent APIs.",
+  "description": "Deepgram gives developers fast, accurate transcription APIs for real-time or recorded audio, plus text-to-speech and a voice agent API. They're used for call centers, assistants and meeting tools.",
   "categories": [
     "voice"
   ],
@@ -60,5 +60,7 @@
     "Deepgram fournit des API pour la synthèse vocale, la synthèse vocale et les agents vocaux.",
     "Ses modèles Flux sont conçus pour la conversation, la gestion des tours de parole et des interruptions.",
     "Les nouveaux comptes reçoivent 200 $ de crédit gratuit sans carte, après quoi l'utilisation est facturée au fur et à mesure, sans minimum ; les plans de croissance commencent par des engagements annuels et les plans d'entreprise sont personnalisés."
-  ]
+  ],
+  "summary_fr": "API de reconnaissance vocale, synthèse vocale et agents vocaux.",
+  "description_fr": "Deepgram fournit aux développeurs des API de transcription rapides et précises, en temps réel ou sur fichiers, ainsi que de la synthèse vocale et une API pour créer des agents vocaux. Elles sont utilisées pour les centres d'appels, les assistants et les outils de réunion."
 }

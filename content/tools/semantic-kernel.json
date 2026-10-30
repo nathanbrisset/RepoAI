@@ -4,8 +4,8 @@
   "url": "https://github.com/microsoft/semantic-kernel",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Integrate cutting-edge LLM technology quickly and easily into your apps - microsoft/semantic-kernel",
-  "description": "Integrate cutting-edge LLM technology quickly and easily into your apps - microsoft/semantic-kernel Integration of AI Models: Combines various AI models into applications. Support for Plugins: Allows extension with custom functionalities. Contextual Memory: Maintains context across interactions. Flexible Deployment: Can be integrated into different environments and platforms.",
+  "summary": "Microsoft's open-source SDK for adding AI to applications.",
+  "description": "Semantic Kernel is an open-source SDK for C#, Python and Java that helps developers connect language models, data and existing code to build agents and AI features into their apps.",
   "categories": [
     "ai-agents"
   ],
@@ -55,5 +55,7 @@
     "Prise en charge des plugins : permet une extension avec des fonctionnalités personnalisées.",
     "Mémoire contextuelle : maintient le contexte à travers les interactions.",
     "Déploiement flexible : peut être intégré à différents environnements et plates-formes."
-  ]
+  ],
+  "summary_fr": "Kit open source de Microsoft pour intégrer l'IA dans les applications.",
+  "description_fr": "Semantic Kernel est un SDK open source (C#, Python, Java) qui aide les développeurs à connecter modèles de langage, données et code existant pour créer des agents et fonctionnalités IA dans leurs applications."
 }

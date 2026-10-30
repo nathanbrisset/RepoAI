@@ -4,8 +4,8 @@
   "url": "https://github.com/openai/whisper",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Robust Speech Recognition via Large-Scale Weak Supervision - openai/whisper",
-  "description": "Robust Speech Recognition via Large-Scale Weak Supervision - openai/whisper Multilingual Transcription: Transcribes speech in over 90 languages. Open-Source: Available for public use and modification. High Accuracy: Delivers precise transcriptions even in challenging conditions. Real-Time Processing: Transcribes audio in real-time.",
+  "summary": "OpenAI's open-source speech recognition model.",
+  "description": "Whisper transcribes and translates audio in about 100 languages. OpenAI released it as open source, and it powers many transcription and note-taking apps.",
   "categories": [
     "voice"
   ],
@@ -60,5 +60,7 @@
     "Open-Source : disponible pour un usage public et des modifications.",
     "Haute précision : fournit des transcriptions précises même dans des conditions difficiles.",
     "Traitement en temps réel : transcrit l'audio en temps réel."
-  ]
+  ],
+  "summary_fr": "Modèle open source de reconnaissance vocale d'OpenAI.",
+  "description_fr": "Whisper transcrit et traduit l'audio dans une centaine de langues. OpenAI l'a publié en open source, et il est intégré à de nombreuses applications de transcription et de prise de notes."
 }

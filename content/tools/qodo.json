@@ -4,8 +4,8 @@
   "url": "https://www.qodo.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Qodo: Qodo is an AI product for coding and developer tools.",
-  "description": "Qodo is an AI product for coding and developer tools.",
+  "summary": "AI code review and test generation.",
+  "description": "Qodo, formerly CodiumAI, reviews pull requests, suggests fixes and generates tests to improve code quality. It integrates with IDEs and GitHub or GitLab.",
   "categories": [
     "coding"
   ],
@@ -55,5 +55,7 @@
   ],
   "features_fr": [
     "Qodo est un produit d'IA pour les outils de codage et de développement."
-  ]
+  ],
+  "summary_fr": "Revue de code et génération de tests par IA.",
+  "description_fr": "Qodo (ex-CodiumAI) analyse les pull requests, suggère des corrections et génère des tests pour améliorer la qualité du code. Il s'intègre aux IDE et à GitHub ou GitLab."
 }

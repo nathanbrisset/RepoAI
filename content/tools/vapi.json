@@ -4,8 +4,8 @@
   "url": "https://vapi.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Developer platform for building, testing and deploying voice AI agents, billed per minute.",
-  "description": "Vapi is a platform for developers building voice agents for use cases such as customer support, lead qualification and appointment scheduling. It orchestrates transcription, language models and voice synthesis from providers such as Deepgram, OpenAI and ElevenLabs. Users start free and pay per minute of calls; the pricing calculator shows component rates per minute for each provider. Developers can choose their own transcriber, model and voice provider for each agent.",
+  "summary": "Developer platform for building AI voice agents.",
+  "description": "Vapi combines speech recognition, language models and voice synthesis to build low-latency phone and voice assistants. Developers choose each component and integrate the agent with their systems via API.",
   "categories": [
     "voice"
   ],
@@ -64,5 +64,7 @@
     "Vapi est une plateforme permettant aux développeurs de créer des agents vocaux pour des cas d'utilisation tels que le support client, la qualification des leads et la prise de rendez-vous.",
     "Il orchestre la transcription, les modèles linguistiques et la synthèse vocale de fournisseurs tels que Deepgram, OpenAI et ElevenLabs.",
     "Les utilisateurs démarrent gratuitement et paient à la minute d'appels ; le calculateur de prix affiche les tarifs des composants par minute pour chaque fournisseur."
-  ]
+  ],
+  "summary_fr": "Plateforme pour développeurs qui veulent créer des agents vocaux IA.",
+  "description_fr": "Vapi assemble transcription, modèles de langage et synthèse vocale pour créer des assistants téléphoniques et vocaux à faible latence. Les développeurs choisissent chaque brique et intègrent l'agent à leurs systèmes par API."
 }

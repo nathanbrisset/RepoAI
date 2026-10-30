@@ -58,6 +58,10 @@ function sanitizeDescriptionFr(text) {
   out = out.replace(/est un produit IA dans [^,]+, hébergé sur [^.]+\./gi, "")
   out = out.replace(/— IA pour .+ sur [^.]+\./g, "")
   out = out.replace(/\s+/g, " ").trim()
+  // Never collapse to « Name TLD. » domain-dot stubs after scrubbing.
+  if (out && out.length < 35 && /\s+(io|com|ai|app|dev|co)\.?$/i.test(out) && !/[àâäéèêëïîôùûüç]/i.test(out)) {
+    return text
+  }
   return out || text
 }
 

@@ -4,8 +4,8 @@
   "url": "https://civitai.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Civitai: Civitai is an AI product for image generation.",
-  "description": "Civitai is an AI product for image generation.",
+  "summary": "Community hub for sharing AI image models and generations.",
+  "description": "Civitai is the main platform where the community shares image-generation models such as checkpoints and LoRAs for Stable Diffusion, Flux and others. You can also generate images and videos online and train your own models.",
   "categories": [
     "image"
   ],
@@ -57,5 +57,7 @@
     "Civitai — IA pour la génération d'images sur civitai.com.",
     "Axé sur les flux de travail d'images.",
     "Civitai comprend des capacités de diffusion stables."
-  ]
+  ],
+  "summary_fr": "Communauté de partage de modèles et d'images générés par IA.",
+  "description_fr": "Civitai est la principale plateforme où la communauté partage des modèles de génération d'images (checkpoints, LoRA) basés sur Stable Diffusion, Flux et d'autres. On peut aussi générer des images et vidéos en ligne et entraîner ses propres modèles."
 }

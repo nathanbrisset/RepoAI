@@ -4,8 +4,8 @@
   "url": "https://www.google.com/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Google AI Mode: Google AI Mode is an AI product for search and research.",
-  "description": "Google AI Mode is an AI product for search and research.",
+  "summary": "Google Search mode that answers with a sourced AI overview.",
+  "description": "Google Search's AI Mode answers complex questions with a Gemini-written response and links to sources, and lets you ask follow-ups. It can also search from images or voice.",
   "categories": [
     "search"
   ],
@@ -57,5 +57,7 @@
   "features_fr": [
     "Mode IA de Google.",
     "IA pour la recherche et la recherche sur google.com."
-  ]
+  ],
+  "summary_fr": "Mode de recherche Google qui répond par une synthèse IA sourcée.",
+  "description_fr": "Le mode IA de Google Search répond aux questions complexes par une réponse rédigée par Gemini, avec des liens vers les sources, et permet de poser des questions de suivi. Il sait aussi chercher à partir d'images ou de la voix."
 }

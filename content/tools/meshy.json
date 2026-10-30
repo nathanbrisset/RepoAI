@@ -4,8 +4,8 @@
   "url": "https://www.meshy.ai/",
   "affiliateUrl": "",
   "status": "active",
-  "summary": "Meshy: Meshy is an AI product for design.",
-  "description": "Meshy is an AI product for design.",
+  "summary": "Textured 3D model generation from text or images.",
+  "description": "Meshy creates textured 3D models from a description or image, then lets you retexture and animate them. Models export to Blender, Unity or Unreal.",
   "categories": [
     "design"
   ],
@@ -55,5 +55,7 @@
   ],
   "features_fr": [
     "Meshy est un produit d'IA pour le design."
-  ]
+  ],
+  "summary_fr": "Génération de modèles 3D texturés à partir de texte ou d'images.",
+  "description_fr": "Meshy crée des modèles 3D avec textures à partir d'une description ou d'une image, puis permet de les retexturer et de les animer. Les modèles s'exportent vers Blender, Unity ou Unreal."
 }
