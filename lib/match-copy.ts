@@ -496,10 +496,17 @@ function displayCategory(lang: MatchLang, categoryId: string): string {
   return categoryLabel(locale, categoryId)
 }
 
+function displayMatchTag(raw: string): string {
+  const trimmed = raw.trim()
+  if (trimmed.toLowerCase() === "seo") return "SEO"
+  return trimmed
+}
+
 export function fallbackReason(lang: MatchLang, tool: MatchTool, index = 0): string {
   const category = displayCategory(lang, tool.categories[0] || "llm-chatbots")
-  const tag =
+  const tagRaw =
     tool.tags.find((item) => item.trim().length > 2 && !GENERIC_TAGS.has(item.toLowerCase())) || category
+  const tag = displayMatchTag(tagRaw)
   const templates: Record<MatchLang, [string, string, string]> = {
     en: [
       `${tool.name} lines up with what you asked for — strong in ${category}, especially around ${tag}.`,
