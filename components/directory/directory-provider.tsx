@@ -1,7 +1,8 @@
 "use client"
 
-import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react"
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react"
 import type { DirectoryChip, DirectoryRecord } from "@/lib/directory/data"
+import { fetchDirectoryRecords } from "@/lib/directory/client-records"
 
 const SCROLL_KEY = "aitools-scroll"
 const COMPARE_KEY = "aitools-compare"
@@ -13,6 +14,10 @@ type DirectoryContextValue = {
   total: number
   categoryLabel: (id: string) => string
   recordById: (id: string) => DirectoryRecord | undefined
+  ensureRecords: (ids: string[]) => Promise<void>
+  loadAllRecords: () => Promise<void>
+  recordsReady: boolean
+  allRecordsLoaded: boolean
   saved: string[]
   compare: string[]
   isSaved: (id: string) => boolean
@@ -49,35 +54,74 @@ function writeToolParam(id: string | null) {
 }
 
 export function DirectoryProvider({
-  records,
   chips,
   total,
   today,
   children,
 }: {
-  records: DirectoryRecord[]
   chips: DirectoryChip[]
   total: number
   today: string
   children: React.ReactNode
 }) {
+  const [byId, setById] = useState<Map<string, DirectoryRecord>>(new Map())
+  const [allRecordsLoaded, setAllRecordsLoaded] = useState(false)
+  const [recordsReady, setRecordsReady] = useState(false)
+  const loadingAllRef = useRef(false)
+  const pendingIdsRef = useRef<Set<string>>(new Set())
   const [saved, setSaved] = useState<string[]>([])
   const [compare, setCompare] = useState<string[]>([])
   const [openId, setOpenId] = useState<string | null>(null)
   const [savedOpen, setSavedOpen] = useState(false)
   const [ready, setReady] = useState(false)
 
-  const known = useMemo(() => new Set(records.map((record) => record.id)), [records])
-  const byId = useMemo(() => new Map(records.map((record) => [record.id, record])), [records])
+  const records = useMemo(() => Array.from(byId.values()), [byId])
   const labels = useMemo(() => new Map(chips.map((chip) => [chip.id, chip.label])), [chips])
 
+  const mergeRecords = useCallback((incoming: DirectoryRecord[]) => {
+    if (incoming.length === 0) return
+    setById((current) => {
+      const next = new Map(current)
+      for (const record of incoming) next.set(record.id, record)
+      return next
+    })
+  }, [])
+
+  const ensureRecords = useCallback(
+    async (ids: string[]) => {
+      const missing = [...new Set(ids.filter(Boolean))].filter((id) => !byId.has(id) && !pendingIdsRef.current.has(id))
+      if (missing.length === 0) return
+      for (const id of missing) pendingIdsRef.current.add(id)
+      try {
+        const fetched = await fetchDirectoryRecords(`ids=${encodeURIComponent(missing.join(","))}`)
+        mergeRecords(fetched)
+      } finally {
+        for (const id of missing) pendingIdsRef.current.delete(id)
+      }
+    },
+    [byId, mergeRecords],
+  )
+
+  const loadAllRecords = useCallback(async () => {
+    if (allRecordsLoaded || loadingAllRef.current) return
+    loadingAllRef.current = true
+    try {
+      const fetched = await fetchDirectoryRecords("all=1")
+      mergeRecords(fetched)
+      setAllRecordsLoaded(true)
+    } finally {
+      loadingAllRef.current = false
+    }
+  }, [allRecordsLoaded, mergeRecords])
+
   useEffect(() => {
-    setSaved(readList(SCROLL_KEY).filter((id) => known.has(id)))
-    setCompare(readList(COMPARE_KEY).filter((id) => known.has(id)).slice(0, COMPARE_LIMIT))
+    setSaved(readList(SCROLL_KEY))
+    setCompare(readList(COMPARE_KEY).slice(0, COMPARE_LIMIT))
     const fromUrl = new URLSearchParams(window.location.search).get("tool")
-    if (fromUrl && known.has(fromUrl)) setOpenId(fromUrl)
+    if (fromUrl) setOpenId(fromUrl)
     setReady(true)
-  }, [known])
+    setRecordsReady(true)
+  }, [])
 
   useEffect(() => {
     if (!ready) return
@@ -88,6 +132,12 @@ export function DirectoryProvider({
     if (!ready) return
     window.localStorage.setItem(COMPARE_KEY, JSON.stringify(compare))
   }, [compare, ready])
+
+  useEffect(() => {
+    if (!ready) return
+    const ids = [...new Set([...saved, ...compare, ...(openId ? [openId] : [])])]
+    if (ids.length > 0) void ensureRecords(ids)
+  }, [ready, saved, compare, openId, ensureRecords])
 
   const toggleSave = useCallback((id: string) => {
     setSaved((current) => (current.includes(id) ? current.filter((item) => item !== id) : [id, ...current]))
@@ -107,12 +157,12 @@ export function DirectoryProvider({
 
   const openTool = useCallback(
     (id: string) => {
-      if (!known.has(id)) return
+      void ensureRecords([id])
       setOpenId(id)
       setSavedOpen(false)
       writeToolParam(id)
     },
-    [known],
+    [ensureRecords],
   )
 
   const closeTool = useCallback(() => {
@@ -127,6 +177,10 @@ export function DirectoryProvider({
       total,
       categoryLabel: (id: string) => labels.get(id) || id,
       recordById: (id: string) => byId.get(id),
+      ensureRecords,
+      loadAllRecords,
+      recordsReady,
+      allRecordsLoaded,
       saved,
       compare,
       isSaved: (id: string) => saved.includes(id),
@@ -147,6 +201,10 @@ export function DirectoryProvider({
       total,
       labels,
       byId,
+      ensureRecords,
+      loadAllRecords,
+      recordsReady,
+      allRecordsLoaded,
       saved,
       compare,
       toggleSave,

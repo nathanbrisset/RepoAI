@@ -35,15 +35,15 @@ export default async function RootLayout({
   children: React.ReactNode
 }>) {
   const locale = await getLocale()
-  const records = directoryRecords(locale)
   const chips = directoryChips(locale)
+  const total = directoryRecords(locale).length
 
   return (
     <html lang={locale} className={`${geist.variable} ${dela.variable}`} suppressHydrationWarning>
       <body className="bg-background font-sans text-foreground antialiased">
         <LocaleProvider locale={locale}>
           <ThemeProvider attribute="class" forcedTheme="light" enableSystem={false} disableTransitionOnChange>
-            <DirectoryProvider records={records} chips={chips} total={records.length} today={new Date().toISOString().slice(0, 10)}>
+            <DirectoryProvider chips={chips} total={total} today={new Date().toISOString().slice(0, 10)}>
               <div className="flex min-h-screen flex-col">
                 <SiteHeader />
                 <YouTubeChannelBanner />

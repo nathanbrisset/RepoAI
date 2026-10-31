@@ -1,6 +1,6 @@
 "use client"
 
-import { Suspense, useEffect, useMemo, useRef, useState } from "react"
+import { Suspense, useEffect, useRef, useState } from "react"
 import { Bookmark, Menu, Plus, Search, X } from "lucide-react"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { cn } from "@/lib/utils"
@@ -9,7 +9,8 @@ import { useLocale } from "@/components/locale-provider"
 import { LOCALE_COOKIE, type Locale } from "@/lib/i18n/config"
 import { directoryCopy } from "@/lib/i18n/directory-copy"
 import { localizeHref, stripLocale } from "@/lib/i18n/paths"
-import { rankCatalogSearch } from "@/lib/catalog-search"
+import { fetchDirectorySearch } from "@/lib/directory/client-records"
+import type { DirectoryRecord } from "@/lib/directory/data"
 import { CategoryChipsBar, type SortMode } from "./category-chips-bar"
 import { useDirectory } from "./directory-provider"
 
@@ -26,11 +27,12 @@ function SiteHeaderInner() {
   const router = useRouter()
   const pathname = usePathname() || "/"
   const searchParams = useSearchParams()
-  const { total, saved, setSavedOpen, records, openTool } = useDirectory()
+  const { total, saved, setSavedOpen, openTool } = useDirectory()
   const inputRef = useRef<HTMLInputElement>(null)
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const [focused, setFocused] = useState(false)
+  const [suggestions, setSuggestions] = useState<DirectoryRecord[]>([])
   const bare = stripLocale(pathname)
   const onFilterable = bare === "/catalogue" || bare === "/tools"
   const base = bare === "/tools" ? "/tools" : "/catalogue"
@@ -95,13 +97,17 @@ function SiteHeaderInner() {
     window.location.assign(current ? `${href}?${current}` : href)
   }
 
-  const suggestions = useMemo(() => {
+  useEffect(() => {
     const needle = draft.trim()
-    if (needle.length < 2) return []
-    return rankCatalogSearch(records, needle, locale)
-      .slice(0, 6)
-      .map((row) => row.record)
-  }, [draft, records, locale])
+    if (needle.length < 2) {
+      setSuggestions([])
+      return
+    }
+    const handle = window.setTimeout(() => {
+      void fetchDirectorySearch(needle, 6).then(setSuggestions)
+    }, 200)
+    return () => window.clearTimeout(handle)
+  }, [draft])
 
   return (
     <header className={cn("sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur", scrolled && "shadow-sm")}>

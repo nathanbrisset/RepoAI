@@ -13,6 +13,7 @@ import {
   shuffleDeck,
   type SwipeFilters,
 } from "@/lib/ai-match-swipe/filters"
+import { fetchDirectoryRecords } from "@/lib/directory/client-records"
 import { SwipeFiltersScreen } from "./swipe-filters-screen"
 import { SwipeDeckScreen } from "./swipe-deck-screen"
 import { SwipeStackScreen } from "./swipe-stack-screen"
@@ -23,7 +24,7 @@ type Step = "filters" | "deck" | "stack"
 export function AiMatchSwipeModal({ open, onOpenChange }: { open: boolean; onOpenChange: (open: boolean) => void }) {
   const locale = useLocale()
   const t = directoryCopy(locale)
-  const { records, toggleSave, isSaved, setSavedOpen } = useDirectory()
+  const { records, toggleSave, isSaved, setSavedOpen, loadAllRecords } = useDirectory()
   const [step, setStep] = useState<Step>("filters")
   const [filters, setFilters] = useState<SwipeFilters>(DEFAULT_SWIPE_FILTERS)
   const [keptIds, setKeptIds] = useState<string[]>([])
@@ -41,8 +42,10 @@ export function AiMatchSwipeModal({ open, onOpenChange }: { open: boolean; onOpe
   useEffect(() => {
     if (!open) {
       resetSession()
+      return
     }
-  }, [open, resetSession])
+    void loadAllRecords()
+  }, [open, resetSession, loadAllRecords])
 
   const keptTools = useMemo(
     () => keptIds.map((id) => records.find((r) => r.id === id)).filter(Boolean) as typeof records,
@@ -50,16 +53,18 @@ export function AiMatchSwipeModal({ open, onOpenChange }: { open: boolean; onOpe
   )
 
   function startDeck(nextFilters: SwipeFilters) {
-    const kept = new Set(keptIds)
-    const filtered = shuffleDeck(filterSwipeDeck(records, nextFilters).filter((tool) => !kept.has(tool.id)))
-    setFilters(nextFilters)
-    setDeck(filtered)
-    setDeckIndex(0)
-    if (filtered.length === 0) {
-      setStep(kept.size > 0 ? "stack" : "filters")
-      return
-    }
-    setStep("deck")
+    void fetchDirectoryRecords("all=1").then((allRecords) => {
+      const kept = new Set(keptIds)
+      const filtered = shuffleDeck(filterSwipeDeck(allRecords, nextFilters).filter((tool) => !kept.has(tool.id)))
+      setFilters(nextFilters)
+      setDeck(filtered)
+      setDeckIndex(0)
+      if (filtered.length === 0) {
+        setStep(kept.size > 0 ? "stack" : "filters")
+        return
+      }
+      setStep("deck")
+    })
   }
 
   function handleKeep(id: string) {
