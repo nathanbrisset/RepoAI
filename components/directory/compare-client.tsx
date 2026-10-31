@@ -1,11 +1,12 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useEffect, useState } from "react"
 import { ArrowUpRight, X } from "lucide-react"
 import { useRouter, useSearchParams } from "next/navigation"
 import LocaleLink from "@/components/locale-link"
 import { useLocale } from "@/components/locale-provider"
 import { COMPARE_PRESETS } from "@/lib/directory/collections"
+import { fetchDirectorySearch } from "@/lib/directory/client-records"
 import { directoryCopy } from "@/lib/i18n/directory-copy"
 import { formatCatalogDate } from "@/lib/i18n/localize-tool"
 import { localizeHref } from "@/lib/i18n/paths"
@@ -33,15 +34,37 @@ export function CompareClient() {
   const t = directoryCopy(locale)
   const router = useRouter()
   const searchParams = useSearchParams()
-  const { records, recordById, categoryLabel } = useDirectory()
+  const { recordById, categoryLabel, ensureRecords } = useDirectory()
   const [highlight, setHighlight] = useState(false)
   const [adder, setAdder] = useState("")
+  const [addable, setAddable] = useState<DirectoryRecord[]>([])
 
-  const slugs = (searchParams.get("tools") || "")
+  const toolsParam = searchParams.get("tools") || ""
+
+  const slugs = toolsParam
     .split(",")
     .map((id) => id.trim())
-    .filter((id, index, list) => id && recordById(id) && list.indexOf(id) === index)
+    .filter((id, index, list) => id && list.indexOf(id) === index)
     .slice(0, 4)
+
+  useEffect(() => {
+    const presetIds = COMPARE_PRESETS.flat()
+    void ensureRecords([...new Set([...slugs, ...presetIds])])
+  }, [toolsParam, ensureRecords])
+
+  useEffect(() => {
+    const needle = adder.trim()
+    if (needle.length < 2) {
+      setAddable([])
+      return
+    }
+    const handle = window.setTimeout(() => {
+      void fetchDirectorySearch(needle, 12).then((rows) =>
+        setAddable(rows.filter((tool) => !slugs.includes(tool.id)).slice(0, 6)),
+      )
+    }, 200)
+    return () => window.clearTimeout(handle)
+  }, [adder, slugs])
 
   const selected = slugs.map((id) => recordById(id)).filter((tool): tool is DirectoryRecord => Boolean(tool))
 
@@ -68,13 +91,7 @@ export function CompareClient() {
     }))
     .filter((row) => row.values.some((value) => value && value !== t.dash))
 
-  const presets = COMPARE_PRESETS.map((preset) => preset.filter((id) => recordById(id))).filter((preset) => preset.length >= 2)
-
-  const addable = useMemo(() => {
-    const needle = adder.trim().toLowerCase()
-    if (needle.length < 2) return []
-    return records.filter((tool) => !slugs.includes(tool.id) && tool.name.toLowerCase().includes(needle)).slice(0, 6)
-  }, [adder, records, slugs])
+  const presets = COMPARE_PRESETS.filter((preset) => preset.length >= 2)
 
   return (
     <main className="mx-auto min-h-[70vh] max-w-7xl px-4 py-10 md:px-8">

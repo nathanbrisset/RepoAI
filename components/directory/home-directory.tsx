@@ -1,12 +1,13 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useState } from "react"
 import { ArrowRight, Search, Sparkles } from "lucide-react"
 import { useRouter } from "next/navigation"
 import LocaleLink from "@/components/locale-link"
 import { useLocale } from "@/components/locale-provider"
 import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
 import { localizeHref } from "@/lib/i18n/paths"
+import { fetchDirectoryRecords, fetchDirectorySearch } from "@/lib/directory/client-records"
 import type { DirectoryRecord, ResolvedCollection } from "@/lib/directory/data"
 import { homeCountryCatalogueFilter } from "@/lib/home-country-section"
 import { CategoryChipsBar } from "./category-chips-bar"
@@ -32,7 +33,7 @@ export function HomeDirectory({
   const locale = useLocale()
   const t = directoryCopy(locale)
   const router = useRouter()
-  const { total, records, openTool } = useDirectory()
+  const { total, openTool } = useDirectory()
   const [wordIndex, setWordIndex] = useState(0)
   const [reducedMotion, setReducedMotion] = useState(false)
   const [query, setQuery] = useState("")
@@ -40,6 +41,7 @@ export function HomeDirectory({
   const [throwing, setThrowing] = useState(false)
   const [throwId, setThrowId] = useState(0)
   const [swipeOpen, setSwipeOpen] = useState(false)
+  const [suggestions, setSuggestions] = useState<DirectoryRecord[]>([])
 
   useEffect(() => {
     const media = window.matchMedia("(prefers-reduced-motion: reduce)")
@@ -55,22 +57,28 @@ export function HomeDirectory({
     return () => window.clearInterval(id)
   }, [reducedMotion, t.words.length])
 
-  const suggestions = useMemo(() => {
-    const needle = query.trim().toLowerCase()
-    if (needle.length < 2) return []
-    return records
-      .filter((tool) => [tool.name, tool.description, tool.tags.join(" ")].join(" ").toLowerCase().includes(needle))
-      .slice(0, mode === "ai" ? 4 : 5)
-  }, [query, records, mode])
+  useEffect(() => {
+    const needle = query.trim()
+    if (needle.length < 2) {
+      setSuggestions([])
+      return
+    }
+    const handle = window.setTimeout(() => {
+      void fetchDirectorySearch(needle, mode === "ai" ? 4 : 5).then(setSuggestions)
+    }, 200)
+    return () => window.clearTimeout(handle)
+  }, [query, mode])
 
   function handleThrow() {
-    if (throwing || records.length === 0) return
+    if (throwing) return
     setThrowing(true)
     setThrowId((value) => value + 1)
     window.setTimeout(() => {
-      const pick = records[Math.floor(Math.random() * records.length)]
-      setThrowing(false)
-      if (pick) openTool(pick.id)
+      void fetchDirectoryRecords("random=1").then((rows) => {
+        setThrowing(false)
+        const pick = rows[0]
+        if (pick) openTool(pick.id)
+      })
     }, 700)
   }
 

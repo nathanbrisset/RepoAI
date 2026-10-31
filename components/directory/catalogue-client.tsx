@@ -1,7 +1,5 @@
 "use client"
 
-import { useMemo } from "react"
-import { useRouter, useSearchParams } from "next/navigation"
 import LocaleLink from "@/components/locale-link"
 import { useLocale } from "@/components/locale-provider"
 import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
@@ -10,76 +8,41 @@ import { PRICE_FILTERS, priceFilterParam, type PriceFilter } from "@/lib/price-f
 import {
   CATALOGUE_HQ_COUNTRIES,
   catalogueHqCountryParam,
-  matchesHqCountryFilter,
   parseCatalogueHqCountryParam,
 } from "@/lib/hq-country-filter"
 import { pricingLabel } from "@/lib/i18n/messages"
-import { filterAndRankCatalogSearch } from "@/lib/catalog-search"
-import { compareEditorialRank } from "@/lib/directory/editorial-rank"
-import { useDirectory } from "./directory-provider"
+import { listingQueryHref, type CatalogQueryResult } from "@/lib/directory/catalog-query"
+import { useRouter, useSearchParams } from "next/navigation"
+import { ListingPagination } from "./listing-pagination"
 import { ToolCard } from "./tool-card"
 
 export type SortMode = "trending" | "new" | "top"
 
-export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools" }) {
+export function CatalogueClient({
+  basePath,
+  catalogPage,
+}: {
+  basePath: "/catalogue" | "/tools"
+  catalogPage: CatalogQueryResult
+}) {
   const locale = useLocale()
   const t = directoryCopy(locale)
   const router = useRouter()
   const searchParams = useSearchParams()
-  const { records } = useDirectory()
   const category = searchParams.get("category") || ""
   const queryRaw = (searchParams.get("q") || "").trim()
-  const query = queryRaw.toLowerCase()
   const sort = (searchParams.get("sort") as SortMode) || "trending"
   const pricing = searchParams.get("pricing")
   const hqCountry = searchParams.get("hqCountry")
-
   const activePrice = PRICE_FILTERS.find((filter) => priceFilterParam(filter) === pricing) || null
   const activeCountry = parseCatalogueHqCountryParam(hqCountry)
 
   function write(updates: Record<string, string | null>) {
-    const params = new URLSearchParams(searchParams.toString())
-    for (const [key, value] of Object.entries(updates)) {
-      if (value) params.set(key, value)
-      else params.delete(key)
-    }
-    params.delete("tool")
-    const next = params.toString()
-    router.replace(localizeHref(locale, next ? `${basePath}?${next}` : basePath), { scroll: false })
+    const href = listingQueryHref(basePath, searchParams, updates, { resetPage: true })
+    router.push(localizeHref(locale, href), { scroll: false })
   }
 
-  const visible = useMemo(() => {
-    const filtered = records.filter((tool) => {
-      const matchesCategory = category ? tool.categories.includes(category) : true
-      const matchesPrice = activePrice ? tool.priceBucket === activePrice : true
-      const matchesCountry = matchesHqCountryFilter(tool.hqCountry, hqCountry)
-      return matchesCategory && matchesPrice && matchesCountry
-    })
-
-    const searched = queryRaw
-      ? filterAndRankCatalogSearch(filtered, queryRaw, locale)
-      : filtered
-
-    if (queryRaw) return searched
-
-    if (sort === "new") {
-      return [...searched].sort((a, b) => (b.dateAdded || "").localeCompare(a.dateAdded || "") || compareEditorialRank(a.id, b.id))
-    }
-    if (sort === "top") {
-      return [...searched].sort(
-        (a, b) =>
-          compareEditorialRank(a.id, b.id) ||
-          a.name.localeCompare(b.name, locale) ||
-          a.id.localeCompare(b.id),
-      )
-    }
-    return [...searched].sort(
-      (a, b) =>
-        compareEditorialRank(a.id, b.id) ||
-        (b.dateAdded || "").localeCompare(a.dateAdded || "") ||
-        a.name.localeCompare(b.name, locale),
-    )
-  }, [records, category, activePrice, hqCountry, queryRaw, sort, locale])
+  const { items: visible, total } = catalogPage
 
   return (
     <main className="mx-auto max-w-[1400px] px-4 py-10 md:px-8">
@@ -87,7 +50,7 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
       <div className="mt-3 flex flex-col justify-between gap-5 md:flex-row md:items-end">
         <div>
           <h1 className="font-display text-5xl">{t.catalogueTitle}</h1>
-          <p className="mt-3 text-muted-foreground">{fill(t.catalogueCount, { count: visible.length })}</p>
+          <p className="mt-3 text-muted-foreground">{fill(t.catalogueCount, { count: total })}</p>
         </div>
         <label className="block md:w-80">
           <span className="sr-only">{t.filterLabel}</span>
@@ -147,7 +110,7 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
             {t.catalogueAllCategoriesCta}
           </LocaleLink>
         </div>
-        {(category || query || activePrice || activeCountry || sort !== "trending") && (
+        {(category || queryRaw || activePrice || activeCountry || sort !== "trending") && (
           <button
             type="button"
             onClick={() => router.replace(localizeHref(locale, basePath), { scroll: false })}
@@ -170,11 +133,14 @@ export function CatalogueClient({ basePath }: { basePath: "/catalogue" | "/tools
           <p className="mt-2 text-muted-foreground">{t.noToolsBody}</p>
         </div>
       ) : (
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {visible.map((tool, index) => (
-            <ToolCard key={tool.id} tool={tool} index={index} />
-          ))}
-        </div>
+        <>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {visible.map((tool, index) => (
+              <ToolCard key={tool.id} tool={tool} index={index} />
+            ))}
+          </div>
+          <ListingPagination barePath={basePath} catalogPage={catalogPage} />
+        </>
       )}
     </main>
   )

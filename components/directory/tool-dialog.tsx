@@ -1,5 +1,6 @@
 "use client"
 
+import { useEffect, useMemo, useRef, useState } from "react"
 import { ArrowUpRight, Bookmark, BookmarkCheck, X } from "lucide-react"
 import * as Dialog from "@radix-ui/react-dialog"
 import { cn } from "@/lib/utils"
@@ -7,22 +8,32 @@ import LocaleLink from "@/components/locale-link"
 import { useLocale } from "@/components/locale-provider"
 import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
 import { formatCatalogDate } from "@/lib/i18n/localize-tool"
+import { fetchDirectoryRecords } from "@/lib/directory/client-records"
+import type { DirectoryRecord } from "@/lib/directory/data"
 import { useDirectory } from "./directory-provider"
 import { ToolLogo } from "./tool-logo"
 
 export function ToolDialog() {
   const locale = useLocale()
   const t = directoryCopy(locale)
-  const { openId, closeTool, recordById, records, isSaved, toggleSave, openTool, categoryLabel } = useDirectory()
+  const { openId, closeTool, recordById, isSaved, toggleSave, openTool, categoryLabel, ensureRecords } =
+    useDirectory()
   const tool = openId ? recordById(openId) : undefined
+  const [similar, setSimilar] = useState<DirectoryRecord[]>([])
   const categoryId = tool?.categories[0]
   const label = categoryId ? categoryLabel(categoryId) : ""
-  const similar = tool
-    ? records.filter((item) => item.id !== tool.id && item.categories.some((category) => tool.categories.includes(category))).slice(0, 3)
-    : []
   const saved = tool ? isSaved(tool.id) : false
   const checked = tool?.lastVerified ? formatCatalogDate(tool.lastVerified, locale) : t.notChecked
   const price = tool && !tool.pricingUncertain ? tool.pricingLabel : ""
+
+  useEffect(() => {
+    if (!openId) {
+      setSimilar([])
+      return
+    }
+    void ensureRecords([openId])
+    void fetchDirectoryRecords(`similarFor=${encodeURIComponent(openId)}&limit=3`).then(setSimilar)
+  }, [openId, ensureRecords])
 
   return (
     <Dialog.Root open={Boolean(tool)} onOpenChange={(open) => { if (!open) closeTool() }}>
