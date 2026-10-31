@@ -3,6 +3,36 @@ import type { Tool } from "./types"
 
 const GENERIC_TAGS = new Set(["ai", "tool", "tools", "artificial intelligence"])
 
+/** Consumer AI companion / chat-partner fiches (not self-hosted LLM hubs). */
+const COMPANION_CHAT_IDS = new Set(["replika", "nomi-ai", "character-ai", "pi", "sesame"])
+
+/** Local / multi-model chat apps that share llm-chatbots but are off-topic next to companions. */
+const LLM_HUB_IDS = new Set([
+  "librechat",
+  "anythingllm",
+  "open-webui",
+  "gpt4all",
+  "khoj",
+  "lm-studio",
+  "ollama",
+  "localai",
+  "jan",
+])
+
+function companionSignal(tool: Tool): boolean {
+  if (COMPANION_CHAT_IDS.has(tool.id)) return true
+  const blob = `${tool.description} ${tool.longDescription ?? ""} ${tool.summary_fr ?? ""} ${tool.description_fr ?? ""}`
+  return /\bcompanion\b|companionship|compagnon\s+ia\b/i.test(blob)
+}
+
+function llmHubOffTopicForCompanion(tool: Tool): boolean {
+  if (LLM_HUB_IDS.has(tool.id)) return true
+  const blob = `${tool.description} ${tool.longDescription ?? ""}`.toLowerCase()
+  if (/\b(self-host|self host|run locally|local llm|offline models)\b/.test(blob)) return true
+  if (/\bmultiple models\b|\bmulti-model\b/.test(blob) && !companionSignal(tool)) return true
+  return false
+}
+
 export const RELATED_TOOLS_MIN = 4
 export const RELATED_TOOLS_MAX = 6
 
@@ -71,6 +101,11 @@ export function scoreRelatedTool(base: Tool, candidate: Tool): number {
   score += Math.min(featureHits, 8)
 
   score += descriptionOverlapScore(base, candidate)
+
+  if (companionSignal(base)) {
+    if (llmHubOffTopicForCompanion(candidate) && !companionSignal(candidate)) return -1
+    if (companionSignal(candidate)) score += 8
+  }
 
   return score
 }
