@@ -8,7 +8,8 @@ import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
 import { localizeHref } from "@/lib/i18n/paths"
 import { pricingLabel } from "@/lib/i18n/messages"
 import { PRICE_FILTERS, priceFilterParam, type PriceFilter } from "@/lib/price-filter"
-import type { CatalogQueryResult } from "@/lib/directory/catalog-query"
+import { listingQueryHref, type CatalogQueryResult } from "@/lib/directory/catalog-query"
+import { ListingPagination } from "./listing-pagination"
 import { ToolCard } from "./tool-card"
 
 export function CategoryDetailClient({
@@ -28,25 +29,17 @@ export function CategoryDetailClient({
   const searchParams = useSearchParams()
   const pricing = searchParams.get("pricing")
   const activePrice = PRICE_FILTERS.find((filter) => priceFilterParam(filter) === pricing) || null
-  const { items: visible, total, page, totalPages } = catalogPage
+  const { items: visible, total } = catalogPage
+  const categoryPath = `/categories/${categoryId}`
 
   function writePricing(next: PriceFilter | null) {
-    const params = new URLSearchParams(searchParams.toString())
-    if (next) params.set("pricing", priceFilterParam(next))
-    else params.delete("pricing")
-    params.delete("page")
-    const query = params.toString()
-    router.replace(localizeHref(locale, query ? `/categories/${categoryId}?${query}` : `/categories/${categoryId}`), { scroll: false })
-  }
-
-  function goToPage(nextPage: number) {
-    if (nextPage < 1 || nextPage > totalPages) return
-    const params = new URLSearchParams(searchParams.toString())
-    if (nextPage === 1) params.delete("page")
-    else params.set("page", String(nextPage))
-    const query = params.toString()
-    router.replace(localizeHref(locale, query ? `/categories/${categoryId}?${query}` : `/categories/${categoryId}`), { scroll: false })
-    window.scrollTo({ top: 0, behavior: "smooth" })
+    const href = listingQueryHref(
+      categoryPath,
+      searchParams,
+      { pricing: next ? priceFilterParam(next) : null },
+      { resetPage: true },
+    )
+    router.push(localizeHref(locale, href), { scroll: false })
   }
 
   const countLabel = total === 1 ? t.categoryToolsOne : t.categoryToolsMany
@@ -101,29 +94,7 @@ export function CategoryDetailClient({
               <ToolCard key={tool.id} tool={tool} index={index} />
             ))}
           </div>
-          {totalPages > 1 ? (
-            <nav className="mt-10 flex flex-wrap items-center justify-center gap-3" aria-label={t.pageStatus}>
-              <button
-                type="button"
-                disabled={page <= 1}
-                onClick={() => goToPage(page - 1)}
-                className="h-10 rounded-full px-5 text-sm font-semibold ring-1 ring-border enabled:hover:bg-card disabled:opacity-40"
-              >
-                {t.pagePrev}
-              </button>
-              <span className="text-sm text-muted-foreground">
-                {fill(t.pageStatus, { page: String(page), totalPages: String(totalPages) })}
-              </span>
-              <button
-                type="button"
-                disabled={page >= totalPages}
-                onClick={() => goToPage(page + 1)}
-                className="h-10 rounded-full px-5 text-sm font-semibold ring-1 ring-border enabled:hover:bg-card disabled:opacity-40"
-              >
-                {t.pageNext}
-              </button>
-            </nav>
-          ) : null}
+          <ListingPagination barePath={categoryPath} catalogPage={catalogPage} />
         </>
       )}
     </main>

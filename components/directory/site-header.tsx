@@ -10,6 +10,7 @@ import { LOCALE_COOKIE, type Locale } from "@/lib/i18n/config"
 import { directoryCopy } from "@/lib/i18n/directory-copy"
 import { localizeHref, stripLocale } from "@/lib/i18n/paths"
 import { fetchDirectorySearch } from "@/lib/directory/client-records"
+import { listingQueryHref } from "@/lib/directory/catalog-query"
 import type { DirectoryRecord } from "@/lib/directory/data"
 import { CategoryChipsBar, type SortMode } from "./category-chips-bar"
 import { useDirectory } from "./directory-provider"
@@ -68,11 +69,8 @@ function SiteHeaderInner() {
   useEffect(() => {
     if (!onFilterable || draft === query) return
     const handle = window.setTimeout(() => {
-      const params = new URLSearchParams(searchParams.toString())
-      if (draft) params.set("q", draft)
-      else params.delete("q")
-      const next = params.toString()
-      router.replace(localizeHref(locale, next ? `${base}?${next}` : base), { scroll: false })
+      const href = listingQueryHref(base, searchParams, { q: draft || null }, { resetPage: true })
+      router.push(localizeHref(locale, href), { scroll: false })
     }, 200)
     return () => window.clearTimeout(handle)
   }, [draft, onFilterable, query, base, locale, router, searchParams])

@@ -11,8 +11,9 @@ import {
   parseCatalogueHqCountryParam,
 } from "@/lib/hq-country-filter"
 import { pricingLabel } from "@/lib/i18n/messages"
-import type { CatalogQueryResult } from "@/lib/directory/catalog-query"
+import { listingQueryHref, type CatalogQueryResult } from "@/lib/directory/catalog-query"
 import { useRouter, useSearchParams } from "next/navigation"
+import { ListingPagination } from "./listing-pagination"
 import { ToolCard } from "./tool-card"
 
 export type SortMode = "trending" | "new" | "top"
@@ -36,25 +37,12 @@ export function CatalogueClient({
   const activePrice = PRICE_FILTERS.find((filter) => priceFilterParam(filter) === pricing) || null
   const activeCountry = parseCatalogueHqCountryParam(hqCountry)
 
-  function write(updates: Record<string, string | null>, options?: { keepPage?: boolean }) {
-    const params = new URLSearchParams(searchParams.toString())
-    for (const [key, value] of Object.entries(updates)) {
-      if (value) params.set(key, value)
-      else params.delete(key)
-    }
-    if (!options?.keepPage) params.delete("page")
-    params.delete("tool")
-    const next = params.toString()
-    router.replace(localizeHref(locale, next ? `${basePath}?${next}` : basePath), { scroll: false })
+  function write(updates: Record<string, string | null>) {
+    const href = listingQueryHref(basePath, searchParams, updates, { resetPage: true })
+    router.push(localizeHref(locale, href), { scroll: false })
   }
 
-  function goToPage(nextPage: number) {
-    if (nextPage < 1 || nextPage > catalogPage.totalPages) return
-    write({ page: nextPage === 1 ? null : String(nextPage) }, { keepPage: true })
-    window.scrollTo({ top: 0, behavior: "smooth" })
-  }
-
-  const { items: visible, total, page, totalPages } = catalogPage
+  const { items: visible, total } = catalogPage
 
   return (
     <main className="mx-auto max-w-[1400px] px-4 py-10 md:px-8">
@@ -151,29 +139,7 @@ export function CatalogueClient({
               <ToolCard key={tool.id} tool={tool} index={index} />
             ))}
           </div>
-          {totalPages > 1 ? (
-            <nav className="mt-10 flex flex-wrap items-center justify-center gap-3" aria-label={t.pageStatus}>
-              <button
-                type="button"
-                disabled={page <= 1}
-                onClick={() => goToPage(page - 1)}
-                className="h-10 rounded-full px-5 text-sm font-semibold ring-1 ring-border enabled:hover:bg-card disabled:opacity-40"
-              >
-                {t.pagePrev}
-              </button>
-              <span className="text-sm text-muted-foreground">
-                {fill(t.pageStatus, { page: String(page), totalPages: String(totalPages) })}
-              </span>
-              <button
-                type="button"
-                disabled={page >= totalPages}
-                onClick={() => goToPage(page + 1)}
-                className="h-10 rounded-full px-5 text-sm font-semibold ring-1 ring-border enabled:hover:bg-card disabled:opacity-40"
-              >
-                {t.pageNext}
-              </button>
-            </nav>
-          ) : null}
+          <ListingPagination barePath={basePath} catalogPage={catalogPage} />
         </>
       )}
     </main>
