@@ -410,6 +410,22 @@ assert.equal(resolveMatchLang("montage video pour youtube", "fr"), "fr")
 assert.ok(humanizeReason('Matched in tags: "training video avatars daily"').includes("training"))
 assert.equal(humanizeReason("id: chatgpt slug: data-processing score: 12"), "")
 
+const seoFallback = fallbackReason("fr", {
+  id: "ahrefs",
+  name: "Ahrefs",
+  url: "https://ahrefs.com",
+  logo: "",
+  image: "",
+  price: "Paid",
+  priceUnchecked: false,
+  categories: ["marketing"],
+  tags: ["seo"],
+  summary: "SEO toolkit",
+  features: [],
+}, 1)
+assert.match(seoFallback, /SEO/)
+assert.doesNotMatch(seoFallback, /autour de seo\b/)
+
 if (savedUrl === undefined) delete process.env.KV_REST_API_URL
 else process.env.KV_REST_API_URL = savedUrl
 if (savedToken === undefined) delete process.env.KV_REST_API_TOKEN
