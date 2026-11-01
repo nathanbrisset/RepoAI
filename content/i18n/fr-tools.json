@@ -2305,15 +2305,15 @@
     "summary_fr": "Assistant d'IA d'Anthropic pour l'écriture, l'analyse et le code.",
     "description_fr": "Claude est l'assistant d'IA d'Anthropic pour l'écriture, l'analyse, la recherche et le code, avec Artifacts, les projets, les connecteurs et Claude in Chrome. Il est reconnu pour son raisonnement soigneux et les documents longs. Un plan gratuit est disponible sur le web, en application de bureau et sur mobile ; Pro coûte 17 €/mois (facturation annuelle) et inclut Claude Code, tandis que Max commence à 100 €/mois.",
     "features_fr": [
-      "Gestion des contextes longs : traite les documents jusqu'à 200 000 jetons.",
-      "Sécurité et alignement : optimisés pour des réponses fiables et sûres.",
-      "Écriture créative : génère un contenu détaillé et imaginatif.",
-      "Utile pour la recherche : répond aux questions basées sur du matériel détaillé."
+      "Artifacts et projets : génère et itère sur du code, des documents et des visuels dans des panneaux dédiés.",
+      "Documents longs : téléverse ou colle de gros fichiers pour les résumer, les analyser ou poser des questions de recherche.",
+      "Connecteurs et Claude in Chrome : récupère le contexte depuis des apps comme Google Drive et Slack, ou discute depuis l'extension navigateur.",
+      "Raisonnement soigneux : solide pour l'écriture, l'analyse et le code."
     ],
     "howToUse_fr": [
       {
-        "title": "Ouvre Claude",
-        "description": "Rends-toi sur claude.ai pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.",
+        "title": "Connecte-toi sur Claude",
+        "description": "Crée un compte ou connecte-toi sur claude.ai, sur le web, l'application de bureau ou le mobile.",
         "links": [
           {
             "label": "Claude",
@@ -2322,19 +2322,19 @@
         ]
       },
       {
-        "title": "Configure ton espace",
-        "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
+        "title": "Lance une conversation",
+        "description": "Saisis une consigne, colle un document ou demande de l'aide pour l'écriture, l'analyse, la recherche ou le code."
       },
       {
-        "title": "Lance un premier usage",
-        "description": "Commence par : assistant d'IA d'Anthropic pour l'écriture, l'analyse et le code."
+        "title": "Utilise Artifacts et les projets",
+        "description": "Ouvre le code ou les documents générés dans Artifacts, ou regroupe ton travail dans des projets avec consignes et fichiers partagés."
       },
       {
-        "title": "Contrôle le résultat",
-        "description": "Exporte, partagez ou connectez ton environnement existant avant d'étendre l'usage en équipe."
+        "title": "Partage ou reprends",
+        "description": "Copie les résultats, exporte un Artifact ou reprends une longue conversation ou un chat de projet."
       }
     ],
-    "pricingNote_fr": "Détails tarifaires sur claude.ai ; consulte la page officielle avant un usage en production.",
+    "pricingNote_fr": "Détails tarifaires sur claude.com/pricing ; consulte la page officielle avant un usage en production.",
     "tags_fr": [
       "chatbot",
       "LLM",
@@ -6514,7 +6514,7 @@
   },
   "heygen": {
     "summary_fr": "HeyGen est une plateforme text-to-video qui utilise des avatars IA et le lip-sync pour créer des vidéos à partir de scripts, de présentations PowerPoint ou d'URL. Elle propose la traduction vidéo en temps réel et le clonage de voix.",
-    "description_fr": "HeyGen est une plateforme text-to-video qui utilise des avatars IA et le lip-sync pour créer des vidéos à partir de scripts, de présentations PowerPoint ou d'URL. Elle propose la traduction vidéo en temps réel et le clonage de voix. Soyez au mieux de tu-même, à chaque fois. Crée des vidéos IA claires et assurées avec ton Personal Avatar, ton visage et ta voix, sans filmer chaque vidéo. Essayez gratuitement. Génération d'avatars IA : choisissez parmi une gamme variée d'humains numériques pour présenter ton contenu, avec une prestation professionnelle et engageante. Traduction en temps réel : traduisez et doublez instantanément tes vidéos dans plusieurs langues, en levant les barrières linguistiques pour un public mondial. Clonage de voix : utilisez ton propre voix ou choisissez dans une bibliothèque de voix synthétiques, pour une image de marque cohérente et un lien personnel. Script vers vidéo : convertissez directement du texte, des diapositives ou même des URL en contenus vidéo convaincants, ce qui simplifie la création de contenus.",
+    "description_fr": "HeyGen est une plateforme text-to-video qui utilise des avatars IA et le lip-sync pour créer des vidéos à partir de scripts, de présentations PowerPoint ou d'URL. Elle propose la traduction vidéo en temps réel et le clonage de voix. Sois au mieux de toi-même, à chaque fois. Crée des vidéos IA claires et assurées avec ton Personal Avatar, ton visage et ta voix, sans filmer chaque vidéo. Essaie gratuitement. Génération d'avatars IA : choisis parmi une gamme variée d'humains numériques pour présenter ton contenu, avec une prestation professionnelle et engageante. Traduction en temps réel : traduis et double instantanément tes vidéos dans plusieurs langues, pour un public mondial. Clonage de voix : utilise ta propre voix ou choisis dans une bibliothèque de voix synthétiques, pour une image de marque cohérente. Script vers vidéo : convertis du texte, des diapositives ou des URL directement en contenu vidéo convaincant.",
     "howToUse_fr": [
       {
         "title": "Ouvre HeyGen (formerly Movio)",
@@ -6536,7 +6536,7 @@
       },
       {
         "title": "Contrôle le résultat",
-        "description": "Exporte, partagez ou connectez ton environnement existant avant d'étendre l'usage en équipe."
+        "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
     "tags_fr": [
@@ -6545,10 +6545,10 @@
       "voix"
     ],
     "features_fr": [
-      "Génération d'avatars IA : choisissez parmi un large éventail d'humains numériques pour présenter ton contenu, offrant une diffusion professionnelle et engageante.",
-      "Traduction en temps réel : traduisez et doublez instantanément tes vidéos dans plusieurs langues, éliminant ainsi les barrières linguistiques pour un public mondial.",
-      "Clonage vocal : utilisez ton propre voix ou sélectionnez-la dans une bibliothèque de voix synthétisées, permettant une image de marque cohérente et une connexion personnelle.",
-      "Script en vidéo : convertissez du texte, des diapositives ou même des URL directement en contenu vidéo convaincant, rationalisant ainsi le processus de création de contenu."
+      "Génération d'avatars IA : choisis parmi un large éventail d'humains numériques pour présenter ton contenu, avec une diffusion professionnelle et engageante.",
+      "Traduction en temps réel : traduis et double instantanément tes vidéos dans plusieurs langues, pour un public mondial.",
+      "Clonage vocal : utilise ta propre voix ou sélectionne-la dans une bibliothèque de voix synthétisées, pour une image de marque cohérente.",
+      "Script en vidéo : convertis du texte, des diapositives ou des URL directement en contenu vidéo convaincant."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié."
   },
@@ -14680,12 +14680,12 @@
   },
   "tableau": {
     "summary_fr": "Logiciel de visualisation interactive de données pour la business intelligence.",
-    "description_fr": "Logiciel de visualisation interactive de données pour la business intelligence. Tableaux de bord interactifs : créez des visualisations en temps réel et interactives, avec une fonction de glisser-déposer. Fusion de données : combinez des données de plusieurs sources pour une analyse complète. Outils de prévision : utilisez les prévisions intégrées pour prédire les tendances et les schémas. Explain Data : générez automatiquement des explications pour les points de données, afin d'en dégager des informations.",
+    "description_fr": "Logiciel de visualisation interactive de données pour la business intelligence. Tableaux de bord interactifs : crée des visualisations en temps réel et interactives, avec une fonction de glisser-déposer. Fusion de données : combine des données de plusieurs sources pour une analyse complète. Outils de prévision : utilise les prévisions intégrées pour prédire les tendances et les schémas. Explain Data : génère automatiquement des explications pour les points de données, afin d'en dégager des informations.",
     "features_fr": [
-      "Tableaux de bord interactifs : créez des visualisations interactives en temps réel avec la fonctionnalité glisser-déposer.",
-      "Fusion de données : combinez des données provenant de plusieurs sources pour une analyse complète.",
-      "Outils de prévision : utilisez les prévisions intégrées pour prédire les tendances et les modèles.",
-      "Expliquer les données : générez automatiquement des explications pour les points de données afin de découvrir des informations."
+      "Tableaux de bord interactifs : crée des visualisations interactives en temps réel avec la fonctionnalité glisser-déposer.",
+      "Fusion de données : combine des données provenant de plusieurs sources pour une analyse complète.",
+      "Outils de prévision : utilise les prévisions intégrées pour prédire les tendances et les modèles.",
+      "Expliquer les données : génère automatiquement des explications pour les points de données afin de découvrir des informations."
     ],
     "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
     "howToUse_fr": [
@@ -14709,7 +14709,7 @@
       },
       {
         "title": "Contrôle le résultat",
-        "description": "Exporte, partagez ou connectez ton environnement existant avant d'étendre l'usage en équipe."
+        "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
     "tags_fr": [
@@ -15612,14 +15612,14 @@
   },
   "vidby": {
     "summary_fr": "Vidby est un outil de traduction vidéo et de voix off reposant sur l'IA, qui prend en charge 70+ langues pour une localisation vidéo rapide et précise.",
-    "description_fr": "Vidby est un outil de traduction vidéo et de voix off reposant sur l'IA, qui prend en charge 70+ langues pour une localisation vidéo rapide et précise. Essayez vidby maintenant et étendez ton activité aux marchés internationaux. Traduisez et doublez des vidéos avec une précision allant jusqu'à 100 % dans 70+ langues, grâce à l'IA. Voix off par IA : ajoutez rapidement une narration multilingue à tes vidéos, pour les rendre accessibles dans le monde entier. Traduction rapide : localisez des vidéos dans plus de 70 langues en quelques clics seulement, sans travail manuel. Génération de sous-titres : des sous-titres automatiques et modifiables pour chaque vidéo, ce qui améliore le SEO et l'accessibilité. Détection des locuteurs : identifie et traduit avec précision plusieurs locuteurs dans une même vidéo.",
+    "description_fr": "Vidby est un outil de traduction vidéo et de voix off reposant sur l'IA, qui prend en charge 70+ langues pour une localisation vidéo rapide et précise. Essaie vidby maintenant et étends ton activité aux marchés internationaux. Traduis et double des vidéos avec une précision allant jusqu'à 100 % dans 70+ langues, grâce à l'IA. Voix off par IA : ajoute rapidement une narration multilingue à tes vidéos, pour les rendre accessibles dans le monde entier. Traduction rapide : localise des vidéos dans plus de 70 langues en quelques clics seulement, sans travail manuel. Génération de sous-titres : des sous-titres automatiques et modifiables pour chaque vidéo, ce qui améliore le SEO et l'accessibilité. Détection des locuteurs : identifie et traduit avec précision plusieurs locuteurs dans une même vidéo.",
     "tags_fr": [
       "traduction",
       "doublage"
     ],
     "features_fr": [
-      "Voix off IA : ajoutez rapidement une narration multilingue à tes vidéos, les rendant ainsi accessibles dans le monde entier.",
-      "Traduction rapide : localisez des vidéos dans plus de 70 langues en quelques clics, sans travail manuel.",
+      "Voix off IA : ajoute rapidement une narration multilingue à tes vidéos, les rendant ainsi accessibles dans le monde entier.",
+      "Traduction rapide : localise des vidéos dans plus de 70 langues en quelques clics, sans travail manuel.",
       "Génération de sous-titres : sous-titres automatiques et modifiables pour chaque vidéo, améliorant le référencement et l'accessibilité.",
       "Détection des locuteurs : identifie et traduit avec précision plusieurs locuteurs dans une seule vidéo."
     ],
@@ -15645,7 +15645,7 @@
       },
       {
         "title": "Contrôle le résultat",
-        "description": "Exporte, partagez ou connectez ton environnement existant avant d'étendre l'usage en équipe."
+        "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ]
   },
@@ -29763,7 +29763,7 @@
   },
   "pi": {
     "summary_fr": "Assistant de chat personnel IA d'Inflection AI, conçu pour une conversation ouverte.",
-    "description_fr": "Pi est un assistant personnel d'IA développé par Inflection AI. Il est conçu pour une conversation ouverte et solidaire plutôt que pour l'automatisation des tâches, et les utilisateurs peuvent lui parler sur le Web ou dans ses applications mobiles après s'être inscrits. Le service se présente avec la ligne \"Hé, je suis Pi — ton IA personnelle\".",
+    "description_fr": "Pi est un assistant personnel d'IA développé par Inflection AI. Il est conçu pour une conversation ouverte et solidaire plutôt que pour l'automatisation des tâches, et tu peux lui parler sur le Web ou dans ses applications mobiles après t'être inscrit. Le service se présente avec la ligne \"Hé, je suis Pi — ton IA personnelle\". Pi reste gratuit sur le web et le mobile ; Inflection applique des limites de messages pour les usages intensifs et ne publie pas d'abonnement payant pour les particuliers.",
     "features_fr": [
       "Assistant de chat personnel IA d'Inflection AI, conçu pour une conversation ouverte.",
       "Pi est un assistant personnel d'IA développé par Inflection AI.",
@@ -29773,7 +29773,7 @@
     "howToUse_fr": [
       {
         "title": "Ouvre Pi",
-        "description": "Rends-toi sur pi.ai pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.",
+        "description": "Rends-toi sur pi.ai et inscris-toi avant de commencer à discuter.",
         "links": [
           {
             "label": "Pi",
@@ -29782,18 +29782,19 @@
         ]
       },
       {
-        "title": "Configure ton espace",
-        "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
+        "title": "Discute sur le web ou sur mobile",
+        "description": "Après inscription, parle à Pi dans le navigateur ou dans les applications iOS et Android."
       },
       {
-        "title": "Lance un premier usage",
-        "description": "Commence par : assistant de chat personnel IA d'Inflection AI, conçu pour une conversation ouverte."
+        "title": "Garde la conversation ouverte",
+        "description": "Utilise Pi pour une conversation ouverte et bienveillante plutôt que pour automatiser des tâches."
       },
       {
-        "title": "Contrôle le résultat",
-        "description": "Exporte, partagez ou connectez ton environnement existant avant d'étendre l'usage en équipe."
+        "title": "Exporte si besoin",
+        "description": "Exporte tes conversations depuis Pi si tu veux les archiver ou les réutiliser ailleurs."
       }
     ],
+    "pricingNote_fr": "Pi reste gratuit sur le web et le mobile ; Inflection applique des limites de messages pour les usages intensifs. Pas d'abonnement consommateur publié — voir inflection.ai/blog/the-future-of-pi.",
     "tags_fr": [
       "chatbot",
       "personal assistant",

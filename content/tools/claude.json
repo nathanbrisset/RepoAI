@@ -25,44 +25,44 @@
   "logo": "/logos/claude.png",
   "image": "/tool-screenshots/claude.png",
   "dateAdded": "2024-03-05",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-01",
   "features": [
-    "Long Context Handling: Processes documents up to 200K tokens.",
-    "Safety & Alignment: Optimized for reliable, safe responses.",
-    "Creative Writing: Generates detailed, imaginative content.",
-    "Helpful for Research: Answers questions based on long-form material."
+    "Artifacts and projects: Generate and iterate on code, documents, and visuals in dedicated side panels.",
+    "Long documents: Upload or paste large files for summarization, analysis, and research Q&A.",
+    "Connectors and Claude in Chrome: Pull context from apps such as Google Drive and Slack, or chat from the browser extension.",
+    "Careful reasoning: Strong performance on writing, analysis, and coding tasks."
   ],
   "howToUse": [
     {
-      "title": "Sign Up or Log In",
-      "description": "Access Claude 3 by registering on the website.",
+      "title": "Sign in at Claude",
+      "description": "Create an account or log in at claude.ai on the web, desktop app, or mobile.",
       "links": [
         {
-          "label": "Claude 3",
+          "label": "Claude",
           "url": "https://claude.ai"
         }
       ]
     },
     {
-      "title": "Upload or Paste Content",
-      "description": "Paste large documents, ask research questions, or start creative tasks."
+      "title": "Start a chat",
+      "description": "Type a prompt, paste a document, or ask for help with writing, analysis, research, or code."
     },
     {
-      "title": "Leverage Long Context",
-      "description": "Use Claude for summarization, analysis, or detailed creative writing."
+      "title": "Use Artifacts and projects",
+      "description": "Open generated code or documents in Artifacts, or organize ongoing work in projects with shared instructions and files."
     },
     {
-      "title": "Export or Continue",
-      "description": "Copy results or continue long-form conversations."
+      "title": "Share or continue",
+      "description": "Copy outputs, export Artifacts, or return to long threads and project chats later."
     }
   ],
   "sources": [
     "https://claude.com/pricing"
   ],
   "features_fr": [
-    "Gestion des contextes longs : traite les documents jusqu'à 200 000 jetons.",
-    "Sécurité et alignement : optimisés pour des réponses fiables et sûres.",
-    "Écriture créative : génère un contenu détaillé et imaginatif.",
-    "Utile pour la recherche : répond aux questions basées sur du matériel détaillé."
+    "Artifacts et projets : génère et itère sur du code, des documents et des visuels dans des panneaux dédiés.",
+    "Documents longs : téléverse ou colle de gros fichiers pour les résumer, les analyser ou poser des questions de recherche.",
+    "Connecteurs et Claude in Chrome : récupère le contexte depuis des apps comme Google Drive et Slack, ou discute depuis l'extension navigateur.",
+    "Raisonnement soigneux : solide pour l'écriture, l'analyse et le code."
   ]
 }
