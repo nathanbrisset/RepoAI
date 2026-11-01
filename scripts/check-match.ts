@@ -25,6 +25,8 @@ import {
   clientIp,
   consumeNonce,
   consumeNonceMemory,
+  DEFAULT_MATCH_REDIS_TIMEOUT_MS,
+  matchRedisTimeoutMs,
   payloadFingerprint,
   rateHeaders,
   rateLimit,
@@ -268,6 +270,15 @@ assert.equal(clientIp(new Headers({ "x-vercel-forwarded-for": "2001:db8::2" })),
 assert.equal(clientIp(new Headers({ "x-forwarded-for": "not-an-ip, 198.51.100.8" })), "198.51.100.8")
 assert.equal(clientIp(new Headers()), "unknown")
 
+assert.equal(matchRedisTimeoutMs(), DEFAULT_MATCH_REDIS_TIMEOUT_MS)
+const savedMatchRedisTimeout = process.env.MATCH_REDIS_TIMEOUT_MS
+process.env.MATCH_REDIS_TIMEOUT_MS = "99999"
+assert.equal(matchRedisTimeoutMs(), 10_000)
+process.env.MATCH_REDIS_TIMEOUT_MS = "100"
+assert.equal(matchRedisTimeoutMs(), 500)
+if (savedMatchRedisTimeout === undefined) delete process.env.MATCH_REDIS_TIMEOUT_MS
+else process.env.MATCH_REDIS_TIMEOUT_MS = savedMatchRedisTimeout
+
 const savedUrl = process.env.KV_REST_API_URL
 const savedToken = process.env.KV_REST_API_TOKEN
 const savedUpstashUrl = process.env.UPSTASH_REDIS_REST_URL
@@ -291,6 +302,7 @@ const fetchImpl: typeof fetch = async (input, init) => {
   const url = String(input)
   const header = new Headers(init?.headers).get("authorization") || ""
   assert.equal(header.startsWith("Bearer "), true)
+  assert.ok(init?.signal instanceof AbortSignal)
   const body = JSON.parse(String(init?.body))
   if (!Array.isArray(body[0])) {
     assert.equal(url, "https://kv.example.test")
