@@ -1,14 +1,23 @@
 import { createHash } from "crypto"
 
 /**
- * Per-IP rate limit and one-time captcha nonces.
+ * Per-IP rate limit and one-time captcha nonces for AI Match.
  * Reads UPSTASH_REDIS_REST_URL / UPSTASH_REDIS_REST_TOKEN, or the Vercel KV
  * pair KV_REST_API_URL / KV_REST_API_TOKEN. REDIS_URL and the read-only token
  * are not used: the function talks to the REST API.
- * In production, a missing Redis/KV config refuses the request. Transient Redis
- * errors fall back to a per-instance in-memory counter so a short blip does not
- * take AI Match offline. Development always uses the in-memory counter.
+ *
+ * Timeouts: each Upstash/KV REST call uses AbortSignal.timeout with
+ * matchRedisTimeoutMs() (default 2500 ms, override MATCH_REDIS_TIMEOUT_MS).
+ * rateLimit() shares one deadline across INCR/TTL and optional EXPIRE so two
+ * round trips cannot stack past that budget.
+ *
+ * Failure: missing Redis/KV in production → 503 unavailable. Slow/unreachable
+ * Redis, HTTP errors, or bad payloads → in-memory fallback (backend "none") so
+ * Match stays usable on a single instance. Development always uses memory.
  */
+
+/** Default per-command ceiling when MATCH_REDIS_TIMEOUT_MS is unset. */
+export const DEFAULT_MATCH_REDIS_TIMEOUT_MS = 2500
 
 type Bucket = { count: number; reset: number }
 
@@ -31,6 +40,19 @@ const nonces = new Map<string, number>()
 
 function cleanEnv(name: string): string {
   return (process.env[name] || "").trim().replace(/^["']|["']$/g, "")
+}
+
+/** Bounded Redis REST timeout for AI Match (ms). Override via MATCH_REDIS_TIMEOUT_MS. */
+export function matchRedisTimeoutMs(): number {
+  const raw = cleanEnv("MATCH_REDIS_TIMEOUT_MS")
+  if (!raw) return DEFAULT_MATCH_REDIS_TIMEOUT_MS
+  const parsed = Number(raw)
+  if (!Number.isFinite(parsed)) return DEFAULT_MATCH_REDIS_TIMEOUT_MS
+  return Math.min(10_000, Math.max(500, Math.trunc(parsed)))
+}
+
+function remainingRedisMs(deadlineMs: number): number {
+  return Math.max(1, deadlineMs - Date.now())
 }
 
 export function redisConfig(): RedisCall | null {
@@ -140,7 +162,13 @@ export function takeToken(
   return { ok: true, status: 200, retryAfter: 0, remaining: Math.max(0, limit - current.count), backend: "none" }
 }
 
-async function redisCommand(config: RedisCall, command: unknown, pipeline: boolean, fetchImpl: FetchLike): Promise<unknown> {
+async function redisCommand(
+  config: RedisCall,
+  command: unknown,
+  pipeline: boolean,
+  fetchImpl: FetchLike,
+  timeoutMs: number,
+): Promise<unknown> {
   const response = await fetchImpl(pipeline ? `${config.url}/pipeline` : config.url, {
     method: "POST",
     headers: {
@@ -148,7 +176,7 @@ async function redisCommand(config: RedisCall, command: unknown, pipeline: boole
       "Content-Type": "application/json",
     },
     body: JSON.stringify(command),
-    signal: AbortSignal.timeout(4000),
+    signal: AbortSignal.timeout(timeoutMs),
   })
   if (!response.ok) throw new Error(`http ${response.status}`)
   return response.json()
@@ -274,7 +302,14 @@ export async function rateLimit(
   }
   try {
     const fetchImpl = options?.fetchImpl || fetch
-    const payload = await redisCommand(config, [["INCR", key], ["TTL", key]], true, fetchImpl)
+    const deadlineMs = Date.now() + matchRedisTimeoutMs()
+    const payload = await redisCommand(
+      config,
+      [["INCR", key], ["TTL", key]],
+      true,
+      fetchImpl,
+      remainingRedisMs(deadlineMs),
+    )
     const rows = rowsFrom(payload)
     const count = rows && rows.length >= 1 ? asInt(rows[0].result) : null
     if (!rows || rows[0]?.error || count === null || count < 1) {
@@ -283,7 +318,7 @@ export async function rateLimit(
     }
     let ttl = rows.length >= 2 ? asInt(rows[1].result) : null
     if (ttl === null || ttl < 0) {
-      await redisCommand(config, ["EXPIRE", key, windowSec], false, fetchImpl)
+      await redisCommand(config, ["EXPIRE", key, windowSec], false, fetchImpl, remainingRedisMs(deadlineMs))
       ttl = windowSec
     }
     if (count > limit) {
@@ -330,7 +365,13 @@ export async function consumeNonce(
     return consumeNonceMemory(nonce, Date.now() + ttlSec * 1000) ? "fresh" : "replay"
   }
   try {
-    const payload = await redisCommand(config, ["SET", key, "1", "EX", ttlSec, "NX"], false, options?.fetchImpl || fetch)
+    const payload = await redisCommand(
+      config,
+      ["SET", key, "1", "EX", ttlSec, "NX"],
+      false,
+      options?.fetchImpl || fetch,
+      matchRedisTimeoutMs(),
+    )
     const { value: result, error } = commandResult(payload)
     if (error) throw new Error(error.slice(0, 80))
     if (result === "OK" || result === true || result === 1) return "fresh"
