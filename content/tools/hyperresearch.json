@@ -1,0 +1,85 @@
+{
+  "id": "hyperresearch",
+  "name": "Hyperresearch",
+  "url": "https://hyperresearch.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Agentic deep-research service that returns cited reports with every claim checked against its source.",
+  "description": "Hyperresearch runs multi-step research across several AI search engines and 40+ data sources, then delivers a report with the source list and a claims table with quotes; sources are kept in a searchable vault. An Answers MCP and API are also offered. Priced per run: Light $9, Deep $49; no subscription (first Deep run free when adding a card).",
+  "categories": [
+    "text"
+  ],
+  "tags": [
+    "deep-research",
+    "citations",
+    "research-agent",
+    "mcp",
+    "fact-checking"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://hyperresearch.ai/pricing",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/hyperresearch.png",
+  "image": "/screenshots/hyperresearch.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Cited long-form reports",
+    "claim-by-claim verification",
+    "searchable source vault",
+    "Answers MCP and API",
+    "per-run flat pricing",
+    "spend caps"
+  ],
+  "howToUse": [
+    {
+      "title": "Create an account",
+      "description": "Create an account, ask a question and choose a Light or Deep run, then read the report and its evidence table",
+      "links": [
+        {
+          "label": "Hyperresearch",
+          "url": "https://hyperresearch.ai/"
+        }
+      ]
+    },
+    {
+      "title": "or call the Answers API from your agent",
+      "description": "or call the Answers API from your agent."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://hyperresearch.ai/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/2"
+  ],
+  "summary_fr": "Service de recherche approfondie par agents qui livre des rapports sourcés, chaque affirmation vérifiée.",
+  "description_fr": "Service de recherche approfondie par agents qui livre des rapports sourcés, chaque affirmation vérifiée.",
+  "features_fr": [
+    "Cited long-form reports",
+    "claim-by-claim verification",
+    "searchable source vault",
+    "Answers MCP and API",
+    "per-run flat pricing",
+    "spend caps"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Create an account",
+      "description": "Create an account, ask a question and choose a Light or Deep run, then read the report and its evidence table",
+      "links": [
+        {
+          "label": "Hyperresearch",
+          "url": "https://hyperresearch.ai/"
+        }
+      ]
+    },
+    {
+      "title": "or call the Answers API from your agent",
+      "description": "or call the Answers API from your agent."
+    }
+  ]
+}

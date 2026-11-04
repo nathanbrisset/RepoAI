@@ -40388,5 +40388,772 @@
       "Mise en relation optionnelle avec des avocats",
       "Applications mobiles iOS et Android"
     ]
+  },
+  "dedica": {
+    "summary_fr": "Outil qui évalue si les agents IA peuvent trouver, utiliser et payer sur ton site web.",
+    "description_fr": "Outil qui évalue si les agents IA peuvent trouver, utiliser et payer sur ton site web.",
+    "features_fr": [
+      "Agent-readiness score of a website",
+      "Prioritized fixes with prompts for coding agents",
+      "Checks for discovery, access, actions and payments",
+      "Optional agent-facing version of the site and MCP endpoints",
+      "One-time fix kit"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Enter your website URL on Dedica",
+        "description": "Enter your website URL on Dedica.",
+        "links": [
+          {
+            "label": "Dedica",
+            "url": "https://getdedica.com/"
+          }
+        ]
+      },
+      {
+        "title": "Run the scan to get the agent-readiness score",
+        "description": "Run the scan to get the agent-readiness score."
+      },
+      {
+        "title": "Review the prioritized fixes",
+        "description": "Review the prioritized fixes."
+      },
+      {
+        "title": "Hand the provided prompts to your coding agent to apply fixes",
+        "description": "Hand the provided prompts to your coding agent to apply fixes."
+      },
+      {
+        "title": "Upgrade to Pro for more pages and agent payments if needed",
+        "description": "Upgrade to Pro for more pages and agent payments if needed."
+      }
+    ]
+  },
+  "empacer": {
+    "summary_fr": "Assistant IA vocal pour dirigeants de PME qui rédige posts, réponses et documents soumis à validation.",
+    "description_fr": "Assistant IA vocal pour dirigeants de PME qui rédige posts, réponses et documents soumis à validation.",
+    "features_fr": [
+      "Persistent business memory from a short setup",
+      "Voice requests turned into customer replies and social posts",
+      "Drafts invoices and plans",
+      "Nothing sent without owner approval",
+      "Web and Android apps (iOS via browser)"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Sign up and complete the short business setup",
+        "description": "Sign up and complete the short business setup.",
+        "links": [
+          {
+            "label": "Empacer",
+            "url": "https://www.empacer.com/"
+          }
+        ]
+      },
+      {
+        "title": "Speak a request",
+        "description": "Speak a request, e.g. a customer reply or a social post."
+      },
+      {
+        "title": "Review the draft Empacer produces",
+        "description": "Review the draft Empacer produces."
+      },
+      {
+        "title": "Approve it before anything is sent",
+        "description": "Approve it before anything is sent."
+      }
+    ]
+  },
+  "specsight": {
+    "summary_fr": "Observabilité produit qui apprend les fonctionnalités depuis le code et transforme les releases en mises à jour en langage clair.",
+    "description_fr": "Observabilité produit qui apprend les fonctionnalités depuis le code et transforme les releases en mises à jour en langage clair.",
+    "features_fr": [
+      "Read-only connection to code repositories",
+      "Live product spec and feature map derived from code",
+      "Plain-language product updates and release notes",
+      "Updates aimed at support, sales, marketing and leadership",
+      "7-day free trial"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Start the free trial",
+        "description": "Start the free trial.",
+        "links": [
+          {
+            "label": "Specsight",
+            "url": "https://specsight.app/"
+          }
+        ]
+      },
+      {
+        "title": "Connect your repository with read-only access",
+        "description": "Connect your repository with read-only access."
+      },
+      {
+        "title": "Let Specsight build the feature map",
+        "description": "Let Specsight build the feature map."
+      },
+      {
+        "title": "Share the generated product updates and release notes with your teams",
+        "description": "Share the generated product updates and release notes with your teams."
+      }
+    ]
+  },
+  "botgauge": {
+    "summary_fr": "Plateforme de red-teaming et d'évaluation d'agents IA avec traces, tests de régression et garde-fous.",
+    "description_fr": "Plateforme de red-teaming et d'évaluation d'agents IA avec traces, tests de régression et garde-fous.",
+    "features_fr": [
+      "Adaptive red-team attacks against AI agents",
+      "Real-world scenario testing",
+      "Full traces of prompts, tool calls and paths",
+      "Findings turned into evaluation suites",
+      "Safeguards for ongoing releases"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Connect your AI agent to BotGauge",
+        "description": "Connect your AI agent to BotGauge.",
+        "links": [
+          {
+            "label": "BotGauge",
+            "url": "https://www.botgauge.com/"
+          }
+        ]
+      },
+      {
+        "title": "Run red-team attacks and scenarios",
+        "description": "Run red-team attacks and scenarios."
+      },
+      {
+        "title": "Inspect the traces of failures",
+        "description": "Inspect the traces of failures."
+      },
+      {
+        "title": "Save findings as evaluation suites and rerun them on each release",
+        "description": "Save findings as evaluation suites and rerun them on each release."
+      }
+    ]
+  },
+  "floot": {
+    "summary_fr": "Connecteur qui crée des applications web et mobiles full-stack depuis Claude, ChatGPT ou Cursor.",
+    "description_fr": "Connecteur qui crée des applications web et mobiles full-stack depuis Claude, ChatGPT ou Cursor.",
+    "features_fr": [
+      "Works inside Claude, ChatGPT and Cursor",
+      "Hosted full-stack app with database, auth and email",
+      "Live URL for each app",
+      "App-store publish flows",
+      "Free plan with 100 build actions per day"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Connect Floot to Claude",
+        "description": "Connect Floot to Claude, ChatGPT or Cursor.",
+        "links": [
+          {
+            "label": "Floot",
+            "url": "https://floot.com/"
+          }
+        ]
+      },
+      {
+        "title": "Describe the app you want in the chat",
+        "description": "Describe the app you want in the chat."
+      },
+      {
+        "title": "Open the live URL of the generated app",
+        "description": "Open the live URL of the generated app."
+      },
+      {
+        "title": "Iterate in chat",
+        "description": "Iterate in chat, then publish to the web or app stores."
+      }
+    ]
+  },
+  "spacesheep": {
+    "summary_fr": "Espace partagé où humains et agents IA publient des pages interactives, commentent et versionnent ensemble.",
+    "description_fr": "Espace partagé où humains et agents IA publient des pages interactives, commentent et versionnent ensemble.",
+    "features_fr": [
+      "Agents publish HTML, docs, dashboards and mockups to private URLs",
+      "Comments and edits by humans and other agents",
+      "Full version history",
+      "MCP server and CLI for Claude Code, Codex, Cursor, ChatGPT",
+      "E-sign"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Create a free account",
+        "description": "Create a free account.",
+        "links": [
+          {
+            "label": "Spacesheep",
+            "url": "https://spacesheep.dev/"
+          }
+        ]
+      },
+      {
+        "title": "Install the MCP server or CLI in your agent",
+        "description": "Install the MCP server or CLI in your agent."
+      },
+      {
+        "title": "Ask the agent to publish a page",
+        "description": "Ask the agent to publish a page."
+      },
+      {
+        "title": "Share the private URL to collect comments and edits",
+        "description": "Share the private URL to collect comments and edits."
+      }
+    ]
+  },
+  "clawsgo-science": {
+    "summary_fr": "Agent de recherche IA avec laboratoire cloud qui explore la littérature, exécute du code et rédige des articles sourcés.",
+    "description_fr": "Agent de recherche IA avec laboratoire cloud qui explore la littérature, exécute du code et rédige des articles sourcés.",
+    "features_fr": [
+      "Academic literature search",
+      "Data analysis and code execution on a cloud host or connected lab GPU",
+      "Reports, LaTeX drafts and figures",
+      "Multi-hour unattended runs with replayable trace",
+      "AI-native LaTeX workbench"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Sign up to get the free signup credits",
+        "description": "Sign up to get the free signup credits.",
+        "links": [
+          {
+            "label": "ClawsGO Science",
+            "url": "https://clawsgo.ai/"
+          }
+        ]
+      },
+      {
+        "title": "Enter your research question",
+        "description": "Enter your research question."
+      },
+      {
+        "title": "Let the agent search sources and run analyses",
+        "description": "Let the agent search sources and run analyses."
+      },
+      {
+        "title": "Review the trace and the report or LaTeX draft",
+        "description": "Review the trace and the report or LaTeX draft."
+      }
+    ]
+  },
+  "cedric-ai": {
+    "summary_fr": "Coéquipier IA qui rejoint les réunions, présente des slides, prend des notes et gère les suivis avec validation.",
+    "description_fr": "Coéquipier IA qui rejoint les réunions, présente des slides, prend des notes et gère les suivis avec validation.",
+    "features_fr": [
+      "Joins Google Meet, Zoom and Teams calls",
+      "Presents decks slide by slide",
+      "Posts recaps and drafts follow-ups",
+      "Works in Slack, Discord and Telegram",
+      "Shared company memory and 3,000+ tool connections",
+      "Asks before sending anything outward"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Create a workspace (free credits",
+        "description": "Create a workspace (free credits, no card).",
+        "links": [
+          {
+            "label": "Cedric AI",
+            "url": "https://meet-cedric.com/"
+          }
+        ]
+      },
+      {
+        "title": "Invite Cedric to a meeting or connect Slack",
+        "description": "Invite Cedric to a meeting or connect Slack, Discord or Telegram."
+      },
+      {
+        "title": "Let it take notes or present a deck",
+        "description": "Let it take notes or present a deck."
+      },
+      {
+        "title": "Approve the follow-ups it drafts",
+        "description": "Approve the follow-ups it drafts."
+      }
+    ]
+  },
+  "hera": {
+    "summary_fr": "Canevas créatif IA pour générer images, designs et publicités animées avec des calques modifiables.",
+    "description_fr": "Canevas créatif IA pour générer images, designs et publicités animées avec des calques modifiables.",
+    "features_fr": [
+      "Brief multiple AI agents on one canvas",
+      "Image and layered design generation",
+      "Short motion graphics and ads",
+      "Every generation editable as layers",
+      "Brand kits"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Sign up for free",
+        "description": "Sign up for free.",
+        "links": [
+          {
+            "label": "Hera",
+            "url": "https://hera.video/"
+          }
+        ]
+      },
+      {
+        "title": "Set up a brand kit",
+        "description": "Set up a brand kit."
+      },
+      {
+        "title": "Write a brief on the canvas",
+        "description": "Write a brief on the canvas."
+      },
+      {
+        "title": "Edit the generated layers and animate the result",
+        "description": "Edit the generated layers and animate the result."
+      }
+    ]
+  },
+  "xmind-agent": {
+    "summary_fr": "IA conversationnelle intégrée à Xmind qui crée et modifie des cartes mentales à partir de chats, fichiers et liens.",
+    "description_fr": "IA conversationnelle intégrée à Xmind qui crée et modifie des cartes mentales à partir de chats, fichiers et liens.",
+    "features_fr": [
+      "Create, expand and reorganize mind maps by chat",
+      "Ingests PDFs, webpages, YouTube links and images",
+      "Xmind MCP and ChatGPT plugin",
+      "Web, desktop and Android"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Open Xmind on web",
+        "description": "Open Xmind on web, desktop or Android.",
+        "links": [
+          {
+            "label": "Xmind Agent",
+            "url": "https://xmind.com/ai"
+          }
+        ]
+      },
+      {
+        "title": "Start Xmind Agent and describe the map you need",
+        "description": "Start Xmind Agent and describe the map you need."
+      },
+      {
+        "title": "Add PDFs",
+        "description": "Add PDFs, links or images as sources."
+      },
+      {
+        "title": "Ask the agent to expand or reorganize the map",
+        "description": "Ask the agent to expand or reorganize the map."
+      }
+    ]
+  },
+  "entire": {
+    "summary_fr": "Forge Git pour la collaboration agents-humains avec Trails, mémoire continue et stockage des sessions d'agents.",
+    "description_fr": "Forge Git pour la collaboration agents-humains avec Trails, mémoire continue et stockage des sessions d'agents.",
+    "features_fr": [
+      "Distributed Git-compatible forge",
+      "Trails with agent-scored evals instead of pull requests",
+      "Continuous Memory storing agent sessions and prompts with commits",
+      "Agentic search across code and sessions",
+      "Built for high-throughput agent push/clone"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Create a repository on Entire",
+        "description": "Create a repository on Entire.",
+        "links": [
+          {
+            "label": "Entire",
+            "url": "https://entire.com/"
+          }
+        ]
+      },
+      {
+        "title": "Push code from your agents with standard Git",
+        "description": "Push code from your agents with standard Git."
+      },
+      {
+        "title": "Review changes through Trails",
+        "description": "Review changes through Trails."
+      },
+      {
+        "title": "Search code and past agent sessions",
+        "description": "Search code and past agent sessions."
+      }
+    ]
+  },
+  "treg": {
+    "summary_fr": "Catalogue MCP à la requête de plus de 4 100 API marketing et d'enrichissement pour agents de code.",
+    "description_fr": "Catalogue MCP à la requête de plus de 4 100 API marketing et d'enrichissement pour agents de code.",
+    "features_fr": [
+      "4,100+ endpoints across 100+ providers",
+      "One key for enrichment, SEO, ads, social and scraping APIs",
+      "Pay per call at provider rates, 0% markup",
+      "MCP connection for Claude Code, Codex and similar",
+      "Bring your own provider key",
+      "$1 free credit"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Sign up to get the free credit and your key",
+        "description": "Sign up to get the free credit and your key.",
+        "links": [
+          {
+            "label": "Treg",
+            "url": "https://treg.to/"
+          }
+        ]
+      },
+      {
+        "title": "Add Treg as an MCP server in your coding agent",
+        "description": "Add Treg as an MCP server in your coding agent."
+      },
+      {
+        "title": "Ask the agent to call the endpoint you need",
+        "description": "Ask the agent to call the endpoint you need."
+      },
+      {
+        "title": "Track per-call usage or add your own provider keys",
+        "description": "Track per-call usage or add your own provider keys."
+      }
+    ]
+  },
+  "simulon": {
+    "summary_fr": "Application AR pour iPhone qui place des assets neuronaux IA dans le monde réel et capture photos et vidéos réactives.",
+    "description_fr": "Application AR pour iPhone qui place des assets neuronaux IA dans le monde réel et capture photos et vidéos réactives.",
+    "features_fr": [
+      "Neural assets from photos, sketches or text",
+      "AR placement in your surroundings",
+      "Reality-Aware Rendering for photoreal captures",
+      "Action videos reacting to the scene",
+      "100 one-time starter credits"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Install Simulon on iPhone",
+        "description": "Install Simulon on iPhone.",
+        "links": [
+          {
+            "label": "Simulon",
+            "url": "https://simulon.com/"
+          }
+        ]
+      },
+      {
+        "title": "Pick a library subject or create one from a photo",
+        "description": "Pick a library subject or create one from a photo, sketch or text."
+      },
+      {
+        "title": "Place it in your surroundings with AR",
+        "description": "Place it in your surroundings with AR."
+      },
+      {
+        "title": "Capture a photo or video",
+        "description": "Capture a photo or video."
+      }
+    ]
+  },
+  "vaani": {
+    "summary_fr": "Plateforme no-code pour créer et déployer des agents vocaux IA au téléphone, avec mémoire des appels.",
+    "description_fr": "Plateforme no-code pour créer et déployer des agents vocaux IA au téléphone, avec mémoire des appels.",
+    "features_fr": [
+      "Teacher AI agent builder",
+      "multilingual low-latency voice (~450ms p90)",
+      "cross-call memories",
+      "call screening",
+      "warm/live transfers",
+      "integrations & API"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Describe the call goal to Teacher AI",
+        "description": "Describe the call goal to Teacher AI, answer its clarifying questions, review the prompt diff, connect knowledge and tools",
+        "links": [
+          {
+            "label": "Vaani",
+            "url": "https://www.vaani.dev/"
+          }
+        ]
+      },
+      {
+        "title": "top up the wallet and go live on a phone number",
+        "description": "top up the wallet and go live on a phone number."
+      }
+    ]
+  },
+  "scape": {
+    "summary_fr": "Client e-mail IA pour bureau qui trie ta boîte, prépare des brouillons et enregistre tes réunions en local.",
+    "description_fr": "Client e-mail IA pour bureau qui trie ta boîte, prépare des brouillons et enregistre tes réunions en local.",
+    "features_fr": [
+      "Priority inbox with auto-labels",
+      "contextual draft replies",
+      "local meeting recording (Meet, Teams, FaceTime, in person)",
+      "99-language transcription",
+      "email-based CRM",
+      "automations (Plus)"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Install the desktop app",
+        "description": "Install the desktop app, connect your email account and calendar, let Scape sort the inbox, then review and send the drafts it prepares",
+        "links": [
+          {
+            "label": "Scape",
+            "url": "https://scape.app/"
+          }
+        ]
+      },
+      {
+        "title": "click record when a meeting starts",
+        "description": "click record when a meeting starts."
+      }
+    ]
+  },
+  "strawberry": {
+    "summary_fr": "Navigateur IA avec des « compagnons » qui recherchent, extraient des données et rédigent pour toi.",
+    "description_fr": "Navigateur IA avec des « compagnons » qui recherchent, extraient des données et rédigent pour toi.",
+    "features_fr": [
+      "AI companions acting on any website",
+      "app connectors (Gmail, Slack, Notion)",
+      "scheduled tasks",
+      "interactive dashboards",
+      "memory across chats",
+      "no training on your content"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Download Strawberry",
+        "description": "Download Strawberry, browse normally",
+        "links": [
+          {
+            "label": "Strawberry",
+            "url": "https://strawberrybrowser.com/"
+          }
+        ]
+      },
+      {
+        "title": "ask a companion to do a task (research",
+        "description": "ask a companion to do a task (research, data extraction, outreach draft) or schedule it to run on its own."
+      }
+    ]
+  },
+  "unleashx": {
+    "summary_fr": "Plateforme pour « embaucher » des employés IA par rôle qui exécutent tes workflows dans ton CRM et tes outils.",
+    "description_fr": "Plateforme pour « embaucher » des employés IA par rôle qui exécutent tes workflows dans ton CRM et tes outils.",
+    "features_fr": [
+      "Role-based AI employees",
+      "CRM and tool connections",
+      "voice and video agents",
+      "custom forms",
+      "Leasha super agent",
+      "human-in-the-loop handoff"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Sign up for free credits",
+        "description": "Sign up for free credits, choose an AI employee role, connect your CRM and tools, set its rules",
+        "links": [
+          {
+            "label": "UnleashX",
+            "url": "https://unleashx.ai/"
+          }
+        ]
+      },
+      {
+        "title": "let it run workflows and step in when it escalates",
+        "description": "let it run workflows and step in when it escalates."
+      }
+    ]
+  },
+  "testifly": {
+    "summary_fr": "QA autonome par IA : à partir d'une URL, découvre les parcours de ton appli web et maintient les tests E2E.",
+    "description_fr": "QA autonome par IA : à partir d'une URL, découvre les parcours de ton appli web et maintient les tests E2E.",
+    "features_fr": [
+      "Automatic feature discovery",
+      "self-healing E2E tests",
+      "coverage map",
+      "blast-radius analysis (Growth+)",
+      "CI/CD execution API",
+      "Tessa AI assistant"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Create a free account",
+        "description": "Create a free account, enter your app URL and test logins, review the discovered coverage map",
+        "links": [
+          {
+            "label": "Testifly",
+            "url": "https://testifly.dev/"
+          }
+        ]
+      },
+      {
+        "title": "run tests in CI via the execution API",
+        "description": "run tests in CI via the execution API."
+      }
+    ]
+  },
+  "clayzo": {
+    "summary_fr": "Moteur d'animation gratuit pour que tes agents de code (Claude Code, Codex, Cursor) créent du motion design.",
+    "description_fr": "Moteur d'animation gratuit pour que tes agents de code (Claude Code, Codex, Cursor) créent du motion design.",
+    "features_fr": [
+      "Agent-written animations",
+      "frame-by-frame review by the agent",
+      "video export",
+      "live web playback",
+      "native Swift playback"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Run `npx clayzo@latest init` in your project",
+        "description": "Run `npx clayzo@latest init` in your project",
+        "links": [
+          {
+            "label": "Clayzo",
+            "url": "https://www.clayzo.com/"
+          }
+        ]
+      },
+      {
+        "title": "ask your coding agent to create the animation and export or embed it",
+        "description": "ask your coding agent to create the animation and export or embed it."
+      }
+    ]
+  },
+  "greta-sh": {
+    "summary_fr": "Créateur d'applis et de sites IA dont le site publie seul du contenu SEO/AEO et corrige ses problèmes.",
+    "description_fr": "Créateur d'applis et de sites IA dont le site publie seul du contenu SEO/AEO et corrige ses problèmes.",
+    "features_fr": [
+      "Prompt-to-website/app builder",
+      "automatic SEO and AEO content",
+      "design systems",
+      "custom domains",
+      "GitHub version control (Pro)",
+      "database (Pro)"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Describe your idea",
+        "description": "Describe your idea, let Greta build the site, connect a custom domain",
+        "links": [
+          {
+            "label": "Greta.sh",
+            "url": "https://www.greta.sh/"
+          }
+        ]
+      },
+      {
+        "title": "enable self-growing so it publishes and optimizes content weekly",
+        "description": "enable self-growing so it publishes and optimizes content weekly."
+      }
+    ]
+  },
+  "faylee": {
+    "summary_fr": "Rapports de bug (écran, console, réseau) en un seul lien, que ton agent de code peut corriger via MCP.",
+    "description_fr": "Rapports de bug (écran, console, réseau) en un seul lien, que ton agent de code peut corriger via MCP.",
+    "features_fr": [
+      "Screen + console + network recording",
+      "instant replay",
+      "auto-redaction of secrets",
+      "MCP server for coding agents",
+      "13 integrations (Linear, Jira, GitHub, Slack, Sentry...)",
+      "customer bug-report widget"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Install the Chrome extension",
+        "description": "Install the Chrome extension, record or replay the bug, share the link",
+        "links": [
+          {
+            "label": "Faylee",
+            "url": "https://faylee.app/"
+          }
+        ]
+      },
+      {
+        "title": "paste it into Claude Code or Cursor after adding Faylee's MCP server",
+        "description": "paste it into Claude Code or Cursor after adding Faylee's MCP server."
+      }
+    ]
+  },
+  "hyperresearch": {
+    "summary_fr": "Service de recherche approfondie par agents qui livre des rapports sourcés, chaque affirmation vérifiée.",
+    "description_fr": "Service de recherche approfondie par agents qui livre des rapports sourcés, chaque affirmation vérifiée.",
+    "features_fr": [
+      "Cited long-form reports",
+      "claim-by-claim verification",
+      "searchable source vault",
+      "Answers MCP and API",
+      "per-run flat pricing",
+      "spend caps"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Create an account",
+        "description": "Create an account, ask a question and choose a Light or Deep run, then read the report and its evidence table",
+        "links": [
+          {
+            "label": "Hyperresearch",
+            "url": "https://hyperresearch.ai/"
+          }
+        ]
+      },
+      {
+        "title": "or call the Answers API from your agent",
+        "description": "or call the Answers API from your agent."
+      }
+    ]
+  },
+  "synter-canvas": {
+    "summary_fr": "Agent IA qui crée, lance et optimise tes campagnes pub sur plus de 40 plateformes, avec garde-fous.",
+    "description_fr": "Agent IA qui crée, lance et optimise tes campagnes pub sur plus de 40 plateformes, avec garde-fous.",
+    "features_fr": [
+      "Universal Ads MCP/CLI/API (43 platforms)",
+      "campaign launch and optimization",
+      "preflight guardrails",
+      "AI creative generation",
+      "cross-platform reporting and attribution",
+      "CRM sync (Scale)"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Connect your ad accounts (no card needed to read)",
+        "description": "Connect your ad accounts (no card needed to read), connect your agent via MCP or use the app, review proposed changes",
+        "links": [
+          {
+            "label": "Synter Canvas",
+            "url": "https://synterai.com/"
+          }
+        ]
+      },
+      {
+        "title": "add a plan to launch campaigns",
+        "description": "add a plan to launch campaigns."
+      }
+    ]
+  },
+  "display": {
+    "summary_fr": "Espace pour publier, partager et ranger les docs, prototypes et applis que créent tes agents IA.",
+    "description_fr": "Espace pour publier, partager et ranger les docs, prototypes et applis que créent tes agents IA.",
+    "features_fr": [
+      "CLI publishing of agent-generated files",
+      "gated or public sharing",
+      "unlimited viewers",
+      "spaces, folders and version history",
+      "API keys",
+      "audit logs (Business)"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Install the CLI",
+        "description": "Install the CLI, publish an HTML or Markdown file your agent produced",
+        "links": [
+          {
+            "label": "Display",
+            "url": "https://display.dev/"
+          }
+        ]
+      },
+      {
+        "title": "share the link publicly or with your company domain",
+        "description": "share the link publicly or with your company domain."
+      }
+    ]
   }
 }

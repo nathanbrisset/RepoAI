@@ -1,0 +1,83 @@
+{
+  "id": "testifly",
+  "name": "Testifly",
+  "url": "https://testifly.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Autonomous AI QA that discovers your web app's flows from a URL and keeps end-to-end tests running.",
+  "description": "Testifly crawls a web app from its URL and logins, discovers features, creates end-to-end tests and adapts them when the UI changes, with a coverage map, CI/CD API and integrations (Jira, Linear, Notion, Slack on Growth+). 30-day free trial without card; Starter $29/month, Growth $89, Business $249, Enterprise custom.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "qa",
+    "testing",
+    "e2e",
+    "ci-cd",
+    "web-apps"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://testifly.dev/pricing",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/testifly.png",
+  "image": "/screenshots/testifly.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Automatic feature discovery",
+    "self-healing E2E tests",
+    "coverage map",
+    "blast-radius analysis (Growth+)",
+    "CI/CD execution API",
+    "Tessa AI assistant"
+  ],
+  "howToUse": [
+    {
+      "title": "Create a free account",
+      "description": "Create a free account, enter your app URL and test logins, review the discovered coverage map",
+      "links": [
+        {
+          "label": "Testifly",
+          "url": "https://testifly.dev/"
+        }
+      ]
+    },
+    {
+      "title": "run tests in CI via the execution API",
+      "description": "run tests in CI via the execution API."
+    }
+  ],
+  "sources": [
+    "https://testifly.dev/pricing",
+    "https://www.producthunt.com/leaderboard/weekly/2026/45"
+  ],
+  "summary_fr": "QA autonome par IA : à partir d'une URL, découvre les parcours de ton appli web et maintient les tests E2E.",
+  "description_fr": "QA autonome par IA : à partir d'une URL, découvre les parcours de ton appli web et maintient les tests E2E.",
+  "features_fr": [
+    "Automatic feature discovery",
+    "self-healing E2E tests",
+    "coverage map",
+    "blast-radius analysis (Growth+)",
+    "CI/CD execution API",
+    "Tessa AI assistant"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Create a free account",
+      "description": "Create a free account, enter your app URL and test logins, review the discovered coverage map",
+      "links": [
+        {
+          "label": "Testifly",
+          "url": "https://testifly.dev/"
+        }
+      ]
+    },
+    {
+      "title": "run tests in CI via the execution API",
+      "description": "run tests in CI via the execution API."
+    }
+  ]
+}

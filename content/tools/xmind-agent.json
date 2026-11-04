@@ -1,0 +1,96 @@
+{
+  "id": "xmind-agent",
+  "name": "Xmind Agent",
+  "url": "https://xmind.com/ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Conversational AI inside Xmind that builds and edits mind maps from chat, files and links.",
+  "description": "Xmind Agent (spotlighted with Xmind 2027 around late Oct 2026) lets users create, research, expand and reorganize mind maps through conversation, ingesting PDFs, webpages, YouTube links and images. Also ships Xmind MCP and a ChatGPT plugin so other agents can read/edit maps. Available on web, desktop and Android. Freemium: Free $0 and Pro ~$4.92/mo (annual) include limited AI credits; Premium ~$8.25/mo adds monthly AI credits.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "mind-mapping",
+    "agents",
+    "mcp",
+    "productivity",
+    "brainstorming"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://xmind.com/pricing",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/xmind-agent.png",
+  "image": "/screenshots/xmind-agent.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Create, expand and reorganize mind maps by chat",
+    "Ingests PDFs, webpages, YouTube links and images",
+    "Xmind MCP and ChatGPT plugin",
+    "Web, desktop and Android"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Xmind on web",
+      "description": "Open Xmind on web, desktop or Android.",
+      "links": [
+        {
+          "label": "Xmind Agent",
+          "url": "https://xmind.com/ai"
+        }
+      ]
+    },
+    {
+      "title": "Start Xmind Agent and describe the map you need",
+      "description": "Start Xmind Agent and describe the map you need."
+    },
+    {
+      "title": "Add PDFs",
+      "description": "Add PDFs, links or images as sources."
+    },
+    {
+      "title": "Ask the agent to expand or reorganize the map",
+      "description": "Ask the agent to expand or reorganize the map."
+    }
+  ],
+  "sources": [
+    "https://xmind.com/ai",
+    "https://xmind.com/pricing",
+    "https://www.techtimes.com/articles/329546/20261028/xmind-agent-brings-conversational-ai-mind-mapping-app-used-100-million-people.htm"
+  ],
+  "summary_fr": "IA conversationnelle intégrée à Xmind qui crée et modifie des cartes mentales à partir de chats, fichiers et liens.",
+  "description_fr": "IA conversationnelle intégrée à Xmind qui crée et modifie des cartes mentales à partir de chats, fichiers et liens.",
+  "features_fr": [
+    "Create, expand and reorganize mind maps by chat",
+    "Ingests PDFs, webpages, YouTube links and images",
+    "Xmind MCP and ChatGPT plugin",
+    "Web, desktop and Android"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Open Xmind on web",
+      "description": "Open Xmind on web, desktop or Android.",
+      "links": [
+        {
+          "label": "Xmind Agent",
+          "url": "https://xmind.com/ai"
+        }
+      ]
+    },
+    {
+      "title": "Start Xmind Agent and describe the map you need",
+      "description": "Start Xmind Agent and describe the map you need."
+    },
+    {
+      "title": "Add PDFs",
+      "description": "Add PDFs, links or images as sources."
+    },
+    {
+      "title": "Ask the agent to expand or reorganize the map",
+      "description": "Ask the agent to expand or reorganize the map."
+    }
+  ]
+}

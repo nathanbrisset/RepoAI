@@ -1,0 +1,83 @@
+{
+  "id": "unleashx",
+  "name": "UnleashX",
+  "url": "https://unleashx.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Platform to 'hire' AI employees by role that run workflows across your CRM and tools, voice and video included.",
+  "description": "UnleashX lets teams pick an AI employee role, connect their CRM and tools, set rules and hand over end-to-end workflows, with humans stepping in only when needed. It includes voice and video agents and Leasha, a super-agent. Pay-as-you-go: free to start with 1,000 credits, then usage plus model costs, no monthly commitment.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai-agents",
+    "workflow-automation",
+    "voice-agents",
+    "crm",
+    "ai-employees"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://unleashx.ai/pricing",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/unleashx.png",
+  "image": "/screenshots/unleashx.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Role-based AI employees",
+    "CRM and tool connections",
+    "voice and video agents",
+    "custom forms",
+    "Leasha super agent",
+    "human-in-the-loop handoff"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up for free credits",
+      "description": "Sign up for free credits, choose an AI employee role, connect your CRM and tools, set its rules",
+      "links": [
+        {
+          "label": "UnleashX",
+          "url": "https://unleashx.ai/"
+        }
+      ]
+    },
+    {
+      "title": "let it run workflows and step in when it escalates",
+      "description": "let it run workflows and step in when it escalates."
+    }
+  ],
+  "sources": [
+    "https://unleashx.ai/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/2"
+  ],
+  "summary_fr": "Plateforme pour « embaucher » des employés IA par rôle qui exécutent tes workflows dans ton CRM et tes outils.",
+  "description_fr": "Plateforme pour « embaucher » des employés IA par rôle qui exécutent tes workflows dans ton CRM et tes outils.",
+  "features_fr": [
+    "Role-based AI employees",
+    "CRM and tool connections",
+    "voice and video agents",
+    "custom forms",
+    "Leasha super agent",
+    "human-in-the-loop handoff"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Sign up for free credits",
+      "description": "Sign up for free credits, choose an AI employee role, connect your CRM and tools, set its rules",
+      "links": [
+        {
+          "label": "UnleashX",
+          "url": "https://unleashx.ai/"
+        }
+      ]
+    },
+    {
+      "title": "let it run workflows and step in when it escalates",
+      "description": "let it run workflows and step in when it escalates."
+    }
+  ]
+}

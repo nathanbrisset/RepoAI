@@ -1,0 +1,97 @@
+{
+  "id": "botgauge",
+  "name": "BotGauge",
+  "url": "https://www.botgauge.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI agent red-teaming and evaluation platform with traces, regression checks and guardrails.",
+  "description": "BotGauge runs adaptive red-team attacks and real-world scenarios against AI agents, shows full traces (prompts, tool calls, paths), and turns findings into evaluation suites and safeguards for ongoing releases. Aimed at teams shipping RAG, support, voice or multi-agent systems. Public homepage focuses on agent reliability; a clear Free/Freemium/Premium mapping for the agent product was not verified on the pricing page during this check, so pricing is left blank.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "agents",
+    "red-teaming",
+    "evals",
+    "observability",
+    "security",
+    "guardrails"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "/logos/botgauge.png",
+  "image": "/screenshots/botgauge.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Adaptive red-team attacks against AI agents",
+    "Real-world scenario testing",
+    "Full traces of prompts, tool calls and paths",
+    "Findings turned into evaluation suites",
+    "Safeguards for ongoing releases"
+  ],
+  "howToUse": [
+    {
+      "title": "Connect your AI agent to BotGauge",
+      "description": "Connect your AI agent to BotGauge.",
+      "links": [
+        {
+          "label": "BotGauge",
+          "url": "https://www.botgauge.com/"
+        }
+      ]
+    },
+    {
+      "title": "Run red-team attacks and scenarios",
+      "description": "Run red-team attacks and scenarios."
+    },
+    {
+      "title": "Inspect the traces of failures",
+      "description": "Inspect the traces of failures."
+    },
+    {
+      "title": "Save findings as evaluation suites and rerun them on each release",
+      "description": "Save findings as evaluation suites and rerun them on each release."
+    }
+  ],
+  "sources": [
+    "https://www.botgauge.com/",
+    "https://www.producthunt.com/products/botgauge-2",
+    "https://toolhype.dev/new"
+  ],
+  "summary_fr": "Plateforme de red-teaming et d'évaluation d'agents IA avec traces, tests de régression et garde-fous.",
+  "description_fr": "Plateforme de red-teaming et d'évaluation d'agents IA avec traces, tests de régression et garde-fous.",
+  "features_fr": [
+    "Adaptive red-team attacks against AI agents",
+    "Real-world scenario testing",
+    "Full traces of prompts, tool calls and paths",
+    "Findings turned into evaluation suites",
+    "Safeguards for ongoing releases"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Connect your AI agent to BotGauge",
+      "description": "Connect your AI agent to BotGauge.",
+      "links": [
+        {
+          "label": "BotGauge",
+          "url": "https://www.botgauge.com/"
+        }
+      ]
+    },
+    {
+      "title": "Run red-team attacks and scenarios",
+      "description": "Run red-team attacks and scenarios."
+    },
+    {
+      "title": "Inspect the traces of failures",
+      "description": "Inspect the traces of failures."
+    },
+    {
+      "title": "Save findings as evaluation suites and rerun them on each release",
+      "description": "Save findings as evaluation suites and rerun them on each release."
+    }
+  ]
+}

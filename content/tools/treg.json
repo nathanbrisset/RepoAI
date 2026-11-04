@@ -1,0 +1,100 @@
+{
+  "id": "treg",
+  "name": "Treg",
+  "url": "https://treg.to/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Pay-per-call MCP catalog of 4,100+ marketing and enrichment APIs for coding agents.",
+  "description": "Treg is an OpenRouter-style registry for agent tools: one key unlocks 4,100+ endpoints across 100+ providers (people enrichment, SEO, ads, social, scraping) billed per call at provider rates with 0% markup. Connect via MCP from Claude Code, Codex and similar agents. Differentiator is avoiding monthly data-tool seats for occasional agent runs. $1 free credit to start; bring-your-own-provider-key supported.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "mcp",
+    "enrichment",
+    "marketing",
+    "seo",
+    "agents",
+    "api-catalog"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/treg.png",
+  "image": "/screenshots/treg.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "4,100+ endpoints across 100+ providers",
+    "One key for enrichment, SEO, ads, social and scraping APIs",
+    "Pay per call at provider rates, 0% markup",
+    "MCP connection for Claude Code, Codex and similar",
+    "Bring your own provider key",
+    "$1 free credit"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up to get the free credit and your key",
+      "description": "Sign up to get the free credit and your key.",
+      "links": [
+        {
+          "label": "Treg",
+          "url": "https://treg.to/"
+        }
+      ]
+    },
+    {
+      "title": "Add Treg as an MCP server in your coding agent",
+      "description": "Add Treg as an MCP server in your coding agent."
+    },
+    {
+      "title": "Ask the agent to call the endpoint you need",
+      "description": "Ask the agent to call the endpoint you need."
+    },
+    {
+      "title": "Track per-call usage or add your own provider keys",
+      "description": "Track per-call usage or add your own provider keys."
+    }
+  ],
+  "sources": [
+    "https://treg.to/",
+    "https://treg.to/docs",
+    "https://toolhype.dev/new"
+  ],
+  "summary_fr": "Catalogue MCP à la requête de plus de 4 100 API marketing et d'enrichissement pour agents de code.",
+  "description_fr": "Catalogue MCP à la requête de plus de 4 100 API marketing et d'enrichissement pour agents de code.",
+  "features_fr": [
+    "4,100+ endpoints across 100+ providers",
+    "One key for enrichment, SEO, ads, social and scraping APIs",
+    "Pay per call at provider rates, 0% markup",
+    "MCP connection for Claude Code, Codex and similar",
+    "Bring your own provider key",
+    "$1 free credit"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Sign up to get the free credit and your key",
+      "description": "Sign up to get the free credit and your key.",
+      "links": [
+        {
+          "label": "Treg",
+          "url": "https://treg.to/"
+        }
+      ]
+    },
+    {
+      "title": "Add Treg as an MCP server in your coding agent",
+      "description": "Add Treg as an MCP server in your coding agent."
+    },
+    {
+      "title": "Ask the agent to call the endpoint you need",
+      "description": "Ask the agent to call the endpoint you need."
+    },
+    {
+      "title": "Track per-call usage or add your own provider keys",
+      "description": "Track per-call usage or add your own provider keys."
+    }
+  ]
+}

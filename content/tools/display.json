@@ -1,0 +1,83 @@
+{
+  "id": "display",
+  "name": "Display",
+  "url": "https://display.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Workspace to publish, share and organize the docs, prototypes and apps your AI agents create.",
+  "description": "Display hosts HTML and Markdown files produced by Claude, Codex, Cursor or scripts via a CLI, organizes them in spaces and folders, and shares them publicly or behind company sign-in, turning agent output into an internal knowledge base. Pricing is per storage and features, not seats: Free plan, Solo $9/month (yearly) or $12 monthly, Team $59, Business $199.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "docs",
+    "knowledge-base",
+    "ai-agents",
+    "hosting",
+    "collaboration"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://display.dev/pricing",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/display.png",
+  "image": "/screenshots/display.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "CLI publishing of agent-generated files",
+    "gated or public sharing",
+    "unlimited viewers",
+    "spaces, folders and version history",
+    "API keys",
+    "audit logs (Business)"
+  ],
+  "howToUse": [
+    {
+      "title": "Install the CLI",
+      "description": "Install the CLI, publish an HTML or Markdown file your agent produced",
+      "links": [
+        {
+          "label": "Display",
+          "url": "https://display.dev/"
+        }
+      ]
+    },
+    {
+      "title": "share the link publicly or with your company domain",
+      "description": "share the link publicly or with your company domain."
+    }
+  ],
+  "sources": [
+    "https://display.dev/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/2"
+  ],
+  "summary_fr": "Espace pour publier, partager et ranger les docs, prototypes et applis que créent tes agents IA.",
+  "description_fr": "Espace pour publier, partager et ranger les docs, prototypes et applis que créent tes agents IA.",
+  "features_fr": [
+    "CLI publishing of agent-generated files",
+    "gated or public sharing",
+    "unlimited viewers",
+    "spaces, folders and version history",
+    "API keys",
+    "audit logs (Business)"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Install the CLI",
+      "description": "Install the CLI, publish an HTML or Markdown file your agent produced",
+      "links": [
+        {
+          "label": "Display",
+          "url": "https://display.dev/"
+        }
+      ]
+    },
+    {
+      "title": "share the link publicly or with your company domain",
+      "description": "share the link publicly or with your company domain."
+    }
+  ]
+}

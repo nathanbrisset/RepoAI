@@ -1,0 +1,98 @@
+{
+  "id": "specsight",
+  "name": "Specsight",
+  "url": "https://specsight.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Product observability that learns features from code and turns releases into plain-language updates.",
+  "description": "Specsight connects read-only to code repositories, maintains a live product spec/feature map, and generates plain-language product updates and release notes for support, sales, marketing and leadership. Differentiator is a living product map derived from code rather than manually written docs. Standard plan is €150/month (up to 3 projects, 50 members, 200 syncs); 7-day free trial available; 14-day money-back on first payment.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "product-management",
+    "release-notes",
+    "observability",
+    "github",
+    "documentation"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://specsight.app/pricing",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/specsight.png",
+  "image": "/screenshots/specsight.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Read-only connection to code repositories",
+    "Live product spec and feature map derived from code",
+    "Plain-language product updates and release notes",
+    "Updates aimed at support, sales, marketing and leadership",
+    "7-day free trial"
+  ],
+  "howToUse": [
+    {
+      "title": "Start the free trial",
+      "description": "Start the free trial.",
+      "links": [
+        {
+          "label": "Specsight",
+          "url": "https://specsight.app/"
+        }
+      ]
+    },
+    {
+      "title": "Connect your repository with read-only access",
+      "description": "Connect your repository with read-only access."
+    },
+    {
+      "title": "Let Specsight build the feature map",
+      "description": "Let Specsight build the feature map."
+    },
+    {
+      "title": "Share the generated product updates and release notes with your teams",
+      "description": "Share the generated product updates and release notes with your teams."
+    }
+  ],
+  "sources": [
+    "https://specsight.app/",
+    "https://specsight.app/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/10/31"
+  ],
+  "summary_fr": "Observabilité produit qui apprend les fonctionnalités depuis le code et transforme les releases en mises à jour en langage clair.",
+  "description_fr": "Observabilité produit qui apprend les fonctionnalités depuis le code et transforme les releases en mises à jour en langage clair.",
+  "features_fr": [
+    "Read-only connection to code repositories",
+    "Live product spec and feature map derived from code",
+    "Plain-language product updates and release notes",
+    "Updates aimed at support, sales, marketing and leadership",
+    "7-day free trial"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Start the free trial",
+      "description": "Start the free trial.",
+      "links": [
+        {
+          "label": "Specsight",
+          "url": "https://specsight.app/"
+        }
+      ]
+    },
+    {
+      "title": "Connect your repository with read-only access",
+      "description": "Connect your repository with read-only access."
+    },
+    {
+      "title": "Let Specsight build the feature map",
+      "description": "Let Specsight build the feature map."
+    },
+    {
+      "title": "Share the generated product updates and release notes with your teams",
+      "description": "Share the generated product updates and release notes with your teams."
+    }
+  ]
+}

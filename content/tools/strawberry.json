@@ -1,0 +1,83 @@
+{
+  "id": "strawberry",
+  "name": "Strawberry",
+  "url": "https://strawberrybrowser.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI browser with companions that research, extract data, draft and run scheduled tasks across websites.",
+  "description": "Strawberry is a web browser with built-in AI companions that learn your workflows and can work across any website and connected apps (Gmail, Slack, Notion...) — e.g. sourcing candidates, building lead lists or drafting follow-ups. Browsing is free; credits are used only when companions act. Free 500 credits/month; Intern $20/month; Part-Time $85; Full-Time $250.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai-browser",
+    "browser-agent",
+    "research",
+    "lead-generation",
+    "automation"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://strawberrybrowser.com/pricing",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/strawberry.png",
+  "image": "/screenshots/strawberry.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "AI companions acting on any website",
+    "app connectors (Gmail, Slack, Notion)",
+    "scheduled tasks",
+    "interactive dashboards",
+    "memory across chats",
+    "no training on your content"
+  ],
+  "howToUse": [
+    {
+      "title": "Download Strawberry",
+      "description": "Download Strawberry, browse normally",
+      "links": [
+        {
+          "label": "Strawberry",
+          "url": "https://strawberrybrowser.com/"
+        }
+      ]
+    },
+    {
+      "title": "ask a companion to do a task (research",
+      "description": "ask a companion to do a task (research, data extraction, outreach draft) or schedule it to run on its own."
+    }
+  ],
+  "sources": [
+    "https://strawberrybrowser.com/pricing",
+    "https://www.producthunt.com/leaderboard/weekly/2026/44"
+  ],
+  "summary_fr": "Navigateur IA avec des « compagnons » qui recherchent, extraient des données et rédigent pour toi.",
+  "description_fr": "Navigateur IA avec des « compagnons » qui recherchent, extraient des données et rédigent pour toi.",
+  "features_fr": [
+    "AI companions acting on any website",
+    "app connectors (Gmail, Slack, Notion)",
+    "scheduled tasks",
+    "interactive dashboards",
+    "memory across chats",
+    "no training on your content"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Download Strawberry",
+      "description": "Download Strawberry, browse normally",
+      "links": [
+        {
+          "label": "Strawberry",
+          "url": "https://strawberrybrowser.com/"
+        }
+      ]
+    },
+    {
+      "title": "ask a companion to do a task (research",
+      "description": "ask a companion to do a task (research, data extraction, outreach draft) or schedule it to run on its own."
+    }
+  ]
+}

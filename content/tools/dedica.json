@@ -1,0 +1,107 @@
+{
+  "id": "dedica",
+  "name": "Dedica",
+  "url": "https://getdedica.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Agent-readiness checker that scores whether AI agents can find, use and pay on your website.",
+  "description": "Dedica scans a site the way AI agents browse it and returns an agent-readiness score with prioritized fixes and handable prompts for coding agents. Differentiator is GEO/agent navigation checks (discovery, access, actions, payments) plus an optional agent-facing version of the site and MCP endpoints. Free covers a limited score and top fixes; Pro is $79/month for more pages and agent payments; a one-time fix kit is also sold.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "agents",
+    "geo",
+    "seo",
+    "website-audit",
+    "mcp",
+    "agent-readiness"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://getdedica.com/pricing",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/dedica.png",
+  "image": "/screenshots/dedica.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Agent-readiness score of a website",
+    "Prioritized fixes with prompts for coding agents",
+    "Checks for discovery, access, actions and payments",
+    "Optional agent-facing version of the site and MCP endpoints",
+    "One-time fix kit"
+  ],
+  "howToUse": [
+    {
+      "title": "Enter your website URL on Dedica",
+      "description": "Enter your website URL on Dedica.",
+      "links": [
+        {
+          "label": "Dedica",
+          "url": "https://getdedica.com/"
+        }
+      ]
+    },
+    {
+      "title": "Run the scan to get the agent-readiness score",
+      "description": "Run the scan to get the agent-readiness score."
+    },
+    {
+      "title": "Review the prioritized fixes",
+      "description": "Review the prioritized fixes."
+    },
+    {
+      "title": "Hand the provided prompts to your coding agent to apply fixes",
+      "description": "Hand the provided prompts to your coding agent to apply fixes."
+    },
+    {
+      "title": "Upgrade to Pro for more pages and agent payments if needed",
+      "description": "Upgrade to Pro for more pages and agent payments if needed."
+    }
+  ],
+  "sources": [
+    "https://getdedica.com/",
+    "https://getdedica.com/pricing",
+    "https://www.producthunt.com/products/dedica"
+  ],
+  "summary_fr": "Outil qui évalue si les agents IA peuvent trouver, utiliser et payer sur ton site web.",
+  "description_fr": "Outil qui évalue si les agents IA peuvent trouver, utiliser et payer sur ton site web.",
+  "features_fr": [
+    "Agent-readiness score of a website",
+    "Prioritized fixes with prompts for coding agents",
+    "Checks for discovery, access, actions and payments",
+    "Optional agent-facing version of the site and MCP endpoints",
+    "One-time fix kit"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Enter your website URL on Dedica",
+      "description": "Enter your website URL on Dedica.",
+      "links": [
+        {
+          "label": "Dedica",
+          "url": "https://getdedica.com/"
+        }
+      ]
+    },
+    {
+      "title": "Run the scan to get the agent-readiness score",
+      "description": "Run the scan to get the agent-readiness score."
+    },
+    {
+      "title": "Review the prioritized fixes",
+      "description": "Review the prioritized fixes."
+    },
+    {
+      "title": "Hand the provided prompts to your coding agent to apply fixes",
+      "description": "Hand the provided prompts to your coding agent to apply fixes."
+    },
+    {
+      "title": "Upgrade to Pro for more pages and agent payments if needed",
+      "description": "Upgrade to Pro for more pages and agent payments if needed."
+    }
+  ]
+}
