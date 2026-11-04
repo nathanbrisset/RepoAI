@@ -1,0 +1,80 @@
+{
+  "id": "clayzo",
+  "name": "Clayzo",
+  "url": "https://www.clayzo.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Free animation engine that lets coding agents like Claude Code, Codex or Cursor create motion graphics.",
+  "description": "Clayzo is a free animation engine built for coding agents: you ask Claude Code, Codex or Cursor for motion graphics, product animations or interactive web animations, the agent writes them in code and checks every frame, and you export a video or play it live on the web or natively in Swift.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "motion-design",
+    "animation",
+    "coding-agents",
+    "video",
+    "web-animation"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/clayzo.png",
+  "image": "/screenshots/clayzo.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Agent-written animations",
+    "frame-by-frame review by the agent",
+    "video export",
+    "live web playback",
+    "native Swift playback"
+  ],
+  "howToUse": [
+    {
+      "title": "Run `npx clayzo@latest init` in your project",
+      "description": "Run `npx clayzo@latest init` in your project",
+      "links": [
+        {
+          "label": "Clayzo",
+          "url": "https://www.clayzo.com/"
+        }
+      ]
+    },
+    {
+      "title": "ask your coding agent to create the animation and export or embed it",
+      "description": "ask your coding agent to create the animation and export or embed it."
+    }
+  ],
+  "sources": [
+    "https://clayzo.com/",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/2"
+  ],
+  "summary_fr": "Moteur d'animation gratuit pour que tes agents de code (Claude Code, Codex, Cursor) créent du motion design.",
+  "description_fr": "Moteur d'animation gratuit pour que tes agents de code (Claude Code, Codex, Cursor) créent du motion design.",
+  "features_fr": [
+    "Agent-written animations",
+    "frame-by-frame review by the agent",
+    "video export",
+    "live web playback",
+    "native Swift playback"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Run `npx clayzo@latest init` in your project",
+      "description": "Run `npx clayzo@latest init` in your project",
+      "links": [
+        {
+          "label": "Clayzo",
+          "url": "https://www.clayzo.com/"
+        }
+      ]
+    },
+    {
+      "title": "ask your coding agent to create the animation and export or embed it",
+      "description": "ask your coding agent to create the animation and export or embed it."
+    }
+  ]
+}

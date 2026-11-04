@@ -1,0 +1,86 @@
+{
+  "id": "vaani",
+  "name": "Vaani",
+  "url": "https://www.vaani.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code platform to build, deploy and improve voice AI phone agents with memory and call screening.",
+  "description": "Vaani lets teams describe a phone agent in plain language (Teacher AI builds the prompt, voice and tools), connect a knowledge base and go live on a real number. Features include cross-call memory, call screening handling, warm/live transfers and structured data after each call. Pay-as-you-go via prepaid wallet with a ₹1/min platform fee plus model and telephony costs; Enterprise is custom.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "voice-agents",
+    "telephony",
+    "call-center",
+    "no-code",
+    "lead-qualification"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.vaani.dev/pricing",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/vaani.png",
+  "image": "/screenshots/vaani.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Teacher AI agent builder",
+    "multilingual low-latency voice (~450ms p90)",
+    "cross-call memories",
+    "call screening",
+    "warm/live transfers",
+    "integrations & API"
+  ],
+  "howToUse": [
+    {
+      "title": "Describe the call goal to Teacher AI",
+      "description": "Describe the call goal to Teacher AI, answer its clarifying questions, review the prompt diff, connect knowledge and tools",
+      "links": [
+        {
+          "label": "Vaani",
+          "url": "https://www.vaani.dev/"
+        }
+      ]
+    },
+    {
+      "title": "top up the wallet and go live on a phone number",
+      "description": "top up the wallet and go live on a phone number."
+    }
+  ],
+  "hqCountry": "IN",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://www.vaani.dev/",
+    "https://www.vaani.dev/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/10/30"
+  ],
+  "summary_fr": "Plateforme no-code pour créer et déployer des agents vocaux IA au téléphone, avec mémoire des appels.",
+  "description_fr": "Plateforme no-code pour créer et déployer des agents vocaux IA au téléphone, avec mémoire des appels.",
+  "features_fr": [
+    "Teacher AI agent builder",
+    "multilingual low-latency voice (~450ms p90)",
+    "cross-call memories",
+    "call screening",
+    "warm/live transfers",
+    "integrations & API"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Describe the call goal to Teacher AI",
+      "description": "Describe the call goal to Teacher AI, answer its clarifying questions, review the prompt diff, connect knowledge and tools",
+      "links": [
+        {
+          "label": "Vaani",
+          "url": "https://www.vaani.dev/"
+        }
+      ]
+    },
+    {
+      "title": "top up the wallet and go live on a phone number",
+      "description": "top up the wallet and go live on a phone number."
+    }
+  ]
+}

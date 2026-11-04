@@ -1,0 +1,99 @@
+{
+  "id": "floot",
+  "name": "Floot",
+  "url": "https://floot.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Connector that builds full-stack web and mobile apps from Claude, ChatGPT or Cursor chats.",
+  "description": "Floot plugs into Claude, ChatGPT and Cursor so users describe an app in chat and get a hosted full-stack app with database, auth, email and a live URL, including app-store publish flows. Differentiator is staying inside the chat/agent the user already pays for while Floot handles backend and hosting. Official pricing: Free $0 (100 build actions/day), Pro $25/month, Power $100/month.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "app-builder",
+    "mcp",
+    "no-code",
+    "chatgpt",
+    "claude",
+    "hosting"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://floot.com/en/pricing",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/floot.png",
+  "image": "/screenshots/floot.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Works inside Claude, ChatGPT and Cursor",
+    "Hosted full-stack app with database, auth and email",
+    "Live URL for each app",
+    "App-store publish flows",
+    "Free plan with 100 build actions per day"
+  ],
+  "howToUse": [
+    {
+      "title": "Connect Floot to Claude",
+      "description": "Connect Floot to Claude, ChatGPT or Cursor.",
+      "links": [
+        {
+          "label": "Floot",
+          "url": "https://floot.com/"
+        }
+      ]
+    },
+    {
+      "title": "Describe the app you want in the chat",
+      "description": "Describe the app you want in the chat."
+    },
+    {
+      "title": "Open the live URL of the generated app",
+      "description": "Open the live URL of the generated app."
+    },
+    {
+      "title": "Iterate in chat",
+      "description": "Iterate in chat, then publish to the web or app stores."
+    }
+  ],
+  "sources": [
+    "https://floot.com/",
+    "https://floot.com/en/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/10/29"
+  ],
+  "summary_fr": "Connecteur qui crée des applications web et mobiles full-stack depuis Claude, ChatGPT ou Cursor.",
+  "description_fr": "Connecteur qui crée des applications web et mobiles full-stack depuis Claude, ChatGPT ou Cursor.",
+  "features_fr": [
+    "Works inside Claude, ChatGPT and Cursor",
+    "Hosted full-stack app with database, auth and email",
+    "Live URL for each app",
+    "App-store publish flows",
+    "Free plan with 100 build actions per day"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Connect Floot to Claude",
+      "description": "Connect Floot to Claude, ChatGPT or Cursor.",
+      "links": [
+        {
+          "label": "Floot",
+          "url": "https://floot.com/"
+        }
+      ]
+    },
+    {
+      "title": "Describe the app you want in the chat",
+      "description": "Describe the app you want in the chat."
+    },
+    {
+      "title": "Open the live URL of the generated app",
+      "description": "Open the live URL of the generated app."
+    },
+    {
+      "title": "Iterate in chat",
+      "description": "Iterate in chat, then publish to the web or app stores."
+    }
+  ]
+}

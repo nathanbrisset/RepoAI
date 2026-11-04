@@ -1,0 +1,99 @@
+{
+  "id": "spacesheep",
+  "name": "Spacesheep",
+  "url": "https://spacesheep.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Shared workspace where people and AI agents publish interactive pages, comment and version together.",
+  "description": "Spacesheep (YC F26) lets agents publish HTML/docs/dashboards/mockups to private URLs that humans and other agents can view, comment on and edit, with full version history. Works via MCP server and CLI across Claude Code, Codex, Cursor, ChatGPT and more. Differentiator is cross-agent shareable artifacts with comments and e-sign. Free forever plan; Pro $4.50/month; Max $9/month; Team $10/member/month.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "agents",
+    "mcp",
+    "collaboration",
+    "artifacts",
+    "publishing",
+    "yc"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://spacesheep.dev/plans",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/spacesheep.png",
+  "image": "/screenshots/spacesheep.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Agents publish HTML, docs, dashboards and mockups to private URLs",
+    "Comments and edits by humans and other agents",
+    "Full version history",
+    "MCP server and CLI for Claude Code, Codex, Cursor, ChatGPT",
+    "E-sign"
+  ],
+  "howToUse": [
+    {
+      "title": "Create a free account",
+      "description": "Create a free account.",
+      "links": [
+        {
+          "label": "Spacesheep",
+          "url": "https://spacesheep.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Install the MCP server or CLI in your agent",
+      "description": "Install the MCP server or CLI in your agent."
+    },
+    {
+      "title": "Ask the agent to publish a page",
+      "description": "Ask the agent to publish a page."
+    },
+    {
+      "title": "Share the private URL to collect comments and edits",
+      "description": "Share the private URL to collect comments and edits."
+    }
+  ],
+  "sources": [
+    "https://spacesheep.dev/",
+    "https://spacesheep.dev/plans",
+    "https://www.ycombinator.com/companies/spacesheep"
+  ],
+  "summary_fr": "Espace partagé où humains et agents IA publient des pages interactives, commentent et versionnent ensemble.",
+  "description_fr": "Espace partagé où humains et agents IA publient des pages interactives, commentent et versionnent ensemble.",
+  "features_fr": [
+    "Agents publish HTML, docs, dashboards and mockups to private URLs",
+    "Comments and edits by humans and other agents",
+    "Full version history",
+    "MCP server and CLI for Claude Code, Codex, Cursor, ChatGPT",
+    "E-sign"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Create a free account",
+      "description": "Create a free account.",
+      "links": [
+        {
+          "label": "Spacesheep",
+          "url": "https://spacesheep.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Install the MCP server or CLI in your agent",
+      "description": "Install the MCP server or CLI in your agent."
+    },
+    {
+      "title": "Ask the agent to publish a page",
+      "description": "Ask the agent to publish a page."
+    },
+    {
+      "title": "Share the private URL to collect comments and edits",
+      "description": "Share the private URL to collect comments and edits."
+    }
+  ]
+}

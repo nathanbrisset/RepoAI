@@ -1,0 +1,97 @@
+{
+  "id": "entire",
+  "name": "Entire",
+  "url": "https://entire.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Git forge for agent-human collaboration with Trails, continuous memory and agent session storage.",
+  "description": "Entire, led by former GitHub CEO Thomas Dohmke, is a distributed Git-compatible forge built for agentic coding. It replaces pull requests with Trails (agent-scored evals), stores agent sessions/prompts with commits as Continuous Memory, and offers agentic search across code and sessions. Positioned for high-throughput agent push/clone workloads. Public pricing was not published on the homepage during verification, so pricing is left blank.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "git",
+    "agents",
+    "code-hosting",
+    "devtools",
+    "ci",
+    "memory"
+  ],
+  "pricing": {
+    "verified": false,
+    "uncertain": true
+  },
+  "logo": "/logos/entire.png",
+  "image": "/screenshots/entire.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Distributed Git-compatible forge",
+    "Trails with agent-scored evals instead of pull requests",
+    "Continuous Memory storing agent sessions and prompts with commits",
+    "Agentic search across code and sessions",
+    "Built for high-throughput agent push/clone"
+  ],
+  "howToUse": [
+    {
+      "title": "Create a repository on Entire",
+      "description": "Create a repository on Entire.",
+      "links": [
+        {
+          "label": "Entire",
+          "url": "https://entire.com/"
+        }
+      ]
+    },
+    {
+      "title": "Push code from your agents with standard Git",
+      "description": "Push code from your agents with standard Git."
+    },
+    {
+      "title": "Review changes through Trails",
+      "description": "Review changes through Trails."
+    },
+    {
+      "title": "Search code and past agent sessions",
+      "description": "Search code and past agent sessions."
+    }
+  ],
+  "sources": [
+    "https://entire.com/",
+    "https://entire.com/news/entire-launches-an-independent-git-forge-for-agent-human-collaboration",
+    "https://toolhype.dev/new"
+  ],
+  "summary_fr": "Forge Git pour la collaboration agents-humains avec Trails, mémoire continue et stockage des sessions d'agents.",
+  "description_fr": "Forge Git pour la collaboration agents-humains avec Trails, mémoire continue et stockage des sessions d'agents.",
+  "features_fr": [
+    "Distributed Git-compatible forge",
+    "Trails with agent-scored evals instead of pull requests",
+    "Continuous Memory storing agent sessions and prompts with commits",
+    "Agentic search across code and sessions",
+    "Built for high-throughput agent push/clone"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Create a repository on Entire",
+      "description": "Create a repository on Entire.",
+      "links": [
+        {
+          "label": "Entire",
+          "url": "https://entire.com/"
+        }
+      ]
+    },
+    {
+      "title": "Push code from your agents with standard Git",
+      "description": "Push code from your agents with standard Git."
+    },
+    {
+      "title": "Review changes through Trails",
+      "description": "Review changes through Trails."
+    },
+    {
+      "title": "Search code and past agent sessions",
+      "description": "Search code and past agent sessions."
+    }
+  ]
+}

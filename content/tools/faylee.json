@@ -1,0 +1,82 @@
+{
+  "id": "faylee",
+  "name": "Faylee",
+  "url": "https://faylee.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Bug reports with screen, console and network in one link that your coding agent can fix via MCP.",
+  "description": "Faylee is a Chrome extension that records the screen, console, network requests and steps behind a bug on one timeline and shares it as a link; secrets are redacted in the browser. Its MCP server lets Claude Code, Codex, Cursor or OpenCode read the report and fix the bug. Free for 3 members and 30 recordings/month; Team $15 per recording member/month.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "bug-reporting",
+    "debugging",
+    "mcp",
+    "qa",
+    "chrome-extension"
+  ],
+  "pricing": {
+    "verified": true,
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/faylee.png",
+  "image": "/screenshots/faylee.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Screen + console + network recording",
+    "instant replay",
+    "auto-redaction of secrets",
+    "MCP server for coding agents",
+    "13 integrations (Linear, Jira, GitHub, Slack, Sentry...)",
+    "customer bug-report widget"
+  ],
+  "howToUse": [
+    {
+      "title": "Install the Chrome extension",
+      "description": "Install the Chrome extension, record or replay the bug, share the link",
+      "links": [
+        {
+          "label": "Faylee",
+          "url": "https://faylee.app/"
+        }
+      ]
+    },
+    {
+      "title": "paste it into Claude Code or Cursor after adding Faylee's MCP server",
+      "description": "paste it into Claude Code or Cursor after adding Faylee's MCP server."
+    }
+  ],
+  "sources": [
+    "https://faylee.app/",
+    "https://www.producthunt.com/leaderboard/daily/2026/10/30"
+  ],
+  "summary_fr": "Rapports de bug (écran, console, réseau) en un seul lien, que ton agent de code peut corriger via MCP.",
+  "description_fr": "Rapports de bug (écran, console, réseau) en un seul lien, que ton agent de code peut corriger via MCP.",
+  "features_fr": [
+    "Screen + console + network recording",
+    "instant replay",
+    "auto-redaction of secrets",
+    "MCP server for coding agents",
+    "13 integrations (Linear, Jira, GitHub, Slack, Sentry...)",
+    "customer bug-report widget"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Install the Chrome extension",
+      "description": "Install the Chrome extension, record or replay the bug, share the link",
+      "links": [
+        {
+          "label": "Faylee",
+          "url": "https://faylee.app/"
+        }
+      ]
+    },
+    {
+      "title": "paste it into Claude Code or Cursor after adding Faylee's MCP server",
+      "description": "paste it into Claude Code or Cursor after adding Faylee's MCP server."
+    }
+  ]
+}

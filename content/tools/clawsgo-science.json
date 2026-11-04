@@ -1,0 +1,99 @@
+{
+  "id": "clawsgo-science",
+  "name": "ClawsGO Science",
+  "url": "https://clawsgo.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI research agent with a cloud lab that searches literature, runs code and drafts cited papers.",
+  "description": "ClawsGO Science is an end-to-end scientific research agent: from a question it searches academic sources, analyzes data, writes/runs code on a cloud host (or connected lab GPU), and delivers reports, LaTeX drafts and figures. Differentiator is unattended multi-hour cloud runs with a replayable trace and AI-native LaTeX workbench. Free tier includes 1,500 permanent signup credits; Plus $9.9/month, Pro $29.9/month, Max $99.9/month, Ultra $299.9/month (verified on official pricing page).",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "research",
+    "science",
+    "agents",
+    "literature-review",
+    "latex",
+    "cloud-lab"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://clawsgo.ai/pricing",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/clawsgo-science.png",
+  "image": "/screenshots/clawsgo-science.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Academic literature search",
+    "Data analysis and code execution on a cloud host or connected lab GPU",
+    "Reports, LaTeX drafts and figures",
+    "Multi-hour unattended runs with replayable trace",
+    "AI-native LaTeX workbench"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up to get the free signup credits",
+      "description": "Sign up to get the free signup credits.",
+      "links": [
+        {
+          "label": "ClawsGO Science",
+          "url": "https://clawsgo.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Enter your research question",
+      "description": "Enter your research question."
+    },
+    {
+      "title": "Let the agent search sources and run analyses",
+      "description": "Let the agent search sources and run analyses."
+    },
+    {
+      "title": "Review the trace and the report or LaTeX draft",
+      "description": "Review the trace and the report or LaTeX draft."
+    }
+  ],
+  "sources": [
+    "https://clawsgo.ai/",
+    "https://clawsgo.ai/pricing",
+    "https://www.producthunt.com/products/clawsgo-science"
+  ],
+  "summary_fr": "Agent de recherche IA avec laboratoire cloud qui explore la littérature, exécute du code et rédige des articles sourcés.",
+  "description_fr": "Agent de recherche IA avec laboratoire cloud qui explore la littérature, exécute du code et rédige des articles sourcés.",
+  "features_fr": [
+    "Academic literature search",
+    "Data analysis and code execution on a cloud host or connected lab GPU",
+    "Reports, LaTeX drafts and figures",
+    "Multi-hour unattended runs with replayable trace",
+    "AI-native LaTeX workbench"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Sign up to get the free signup credits",
+      "description": "Sign up to get the free signup credits.",
+      "links": [
+        {
+          "label": "ClawsGO Science",
+          "url": "https://clawsgo.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Enter your research question",
+      "description": "Enter your research question."
+    },
+    {
+      "title": "Let the agent search sources and run analyses",
+      "description": "Let the agent search sources and run analyses."
+    },
+    {
+      "title": "Review the trace and the report or LaTeX draft",
+      "description": "Review the trace and the report or LaTeX draft."
+    }
+  ]
+}

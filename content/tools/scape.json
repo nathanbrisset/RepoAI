@@ -1,0 +1,84 @@
+{
+  "id": "scape",
+  "name": "Scape",
+  "url": "https://scape.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI desktop email client that prioritizes your inbox, prepares contextual drafts and records meetings locally.",
+  "description": "Scape is a desktop email client that uses context from email, meeting transcripts, calendar and attachments to surface what matters and prepare replies you review and send. It records meetings locally on Mac without a bot joining, in 99 languages, and keeps customer conversations organized. Free plan ($0, unlimited inboxes); Plus $20/month; Max $100/month.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "email",
+    "inbox",
+    "meeting-notes",
+    "drafting",
+    "crm"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://scape.app/pricing",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/scape.png",
+  "image": "/screenshots/scape.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Priority inbox with auto-labels",
+    "contextual draft replies",
+    "local meeting recording (Meet, Teams, FaceTime, in person)",
+    "99-language transcription",
+    "email-based CRM",
+    "automations (Plus)"
+  ],
+  "howToUse": [
+    {
+      "title": "Install the desktop app",
+      "description": "Install the desktop app, connect your email account and calendar, let Scape sort the inbox, then review and send the drafts it prepares",
+      "links": [
+        {
+          "label": "Scape",
+          "url": "https://scape.app/"
+        }
+      ]
+    },
+    {
+      "title": "click record when a meeting starts",
+      "description": "click record when a meeting starts."
+    }
+  ],
+  "sources": [
+    "https://scape.app/",
+    "https://scape.app/pricing",
+    "https://www.producthunt.com/leaderboard/weekly/2026/44"
+  ],
+  "summary_fr": "Client e-mail IA pour bureau qui trie ta boîte, prépare des brouillons et enregistre tes réunions en local.",
+  "description_fr": "Client e-mail IA pour bureau qui trie ta boîte, prépare des brouillons et enregistre tes réunions en local.",
+  "features_fr": [
+    "Priority inbox with auto-labels",
+    "contextual draft replies",
+    "local meeting recording (Meet, Teams, FaceTime, in person)",
+    "99-language transcription",
+    "email-based CRM",
+    "automations (Plus)"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Install the desktop app",
+      "description": "Install the desktop app, connect your email account and calendar, let Scape sort the inbox, then review and send the drafts it prepares",
+      "links": [
+        {
+          "label": "Scape",
+          "url": "https://scape.app/"
+        }
+      ]
+    },
+    {
+      "title": "click record when a meeting starts",
+      "description": "click record when a meeting starts."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "empacer",
+  "name": "Empacer",
+  "url": "https://www.empacer.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Voice-first AI business assistant for SMB owners that drafts posts, replies and docs for approval.",
+  "description": "Empacer remembers business context from a short setup, then turns spoken requests into customer replies, social posts, invoices and plans. Nothing is sent without the owner's approval. Available on web and Android (iOS via browser). Differentiator is owner-facing voice ops with persistent business memory rather than a generic chatbot. Official pricing page states the assistant is paid only (no free assistant tier); exact amounts shown at checkout.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "voice",
+    "smb",
+    "assistant",
+    "marketing",
+    "inbox",
+    "business"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.empacer.com/pricing/",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/empacer.png",
+  "image": "/screenshots/empacer.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Persistent business memory from a short setup",
+    "Voice requests turned into customer replies and social posts",
+    "Drafts invoices and plans",
+    "Nothing sent without owner approval",
+    "Web and Android apps (iOS via browser)"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up and complete the short business setup",
+      "description": "Sign up and complete the short business setup.",
+      "links": [
+        {
+          "label": "Empacer",
+          "url": "https://www.empacer.com/"
+        }
+      ]
+    },
+    {
+      "title": "Speak a request",
+      "description": "Speak a request, e.g. a customer reply or a social post."
+    },
+    {
+      "title": "Review the draft Empacer produces",
+      "description": "Review the draft Empacer produces."
+    },
+    {
+      "title": "Approve it before anything is sent",
+      "description": "Approve it before anything is sent."
+    }
+  ],
+  "sources": [
+    "https://www.empacer.com/",
+    "https://www.empacer.com/pricing/",
+    "https://www.producthunt.com/products/empacer"
+  ],
+  "summary_fr": "Assistant IA vocal pour dirigeants de PME qui rédige posts, réponses et documents soumis à validation.",
+  "description_fr": "Assistant IA vocal pour dirigeants de PME qui rédige posts, réponses et documents soumis à validation.",
+  "features_fr": [
+    "Persistent business memory from a short setup",
+    "Voice requests turned into customer replies and social posts",
+    "Drafts invoices and plans",
+    "Nothing sent without owner approval",
+    "Web and Android apps (iOS via browser)"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Sign up and complete the short business setup",
+      "description": "Sign up and complete the short business setup.",
+      "links": [
+        {
+          "label": "Empacer",
+          "url": "https://www.empacer.com/"
+        }
+      ]
+    },
+    {
+      "title": "Speak a request",
+      "description": "Speak a request, e.g. a customer reply or a social post."
+    },
+    {
+      "title": "Review the draft Empacer produces",
+      "description": "Review the draft Empacer produces."
+    },
+    {
+      "title": "Approve it before anything is sent",
+      "description": "Approve it before anything is sent."
+    }
+  ]
+}

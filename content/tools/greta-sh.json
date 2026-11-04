@@ -1,0 +1,83 @@
+{
+  "id": "greta-sh",
+  "name": "Greta.sh",
+  "url": "https://www.greta.sh/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI app and website builder whose sites keep publishing SEO/AEO content and fixing issues on their own.",
+  "description": "Greta.sh builds a live website or full-stack app from a description, then its 'self-growing' mode researches what customers search for, publishes articles and pages aimed at Google and AI answer engines, and fixes SEO and speed issues. Free plan with 5 daily credits; Starter from $5/month (promo, list $20); Pro $20 (list $50); Business $200.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "website-builder",
+    "app-builder",
+    "seo",
+    "aeo",
+    "no-code"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.greta.sh/pricing",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/greta-sh.png",
+  "image": "/screenshots/greta-sh.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Prompt-to-website/app builder",
+    "automatic SEO and AEO content",
+    "design systems",
+    "custom domains",
+    "GitHub version control (Pro)",
+    "database (Pro)"
+  ],
+  "howToUse": [
+    {
+      "title": "Describe your idea",
+      "description": "Describe your idea, let Greta build the site, connect a custom domain",
+      "links": [
+        {
+          "label": "Greta.sh",
+          "url": "https://www.greta.sh/"
+        }
+      ]
+    },
+    {
+      "title": "enable self-growing so it publishes and optimizes content weekly",
+      "description": "enable self-growing so it publishes and optimizes content weekly."
+    }
+  ],
+  "sources": [
+    "https://www.greta.sh/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/2"
+  ],
+  "summary_fr": "Créateur d'applis et de sites IA dont le site publie seul du contenu SEO/AEO et corrige ses problèmes.",
+  "description_fr": "Créateur d'applis et de sites IA dont le site publie seul du contenu SEO/AEO et corrige ses problèmes.",
+  "features_fr": [
+    "Prompt-to-website/app builder",
+    "automatic SEO and AEO content",
+    "design systems",
+    "custom domains",
+    "GitHub version control (Pro)",
+    "database (Pro)"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Describe your idea",
+      "description": "Describe your idea, let Greta build the site, connect a custom domain",
+      "links": [
+        {
+          "label": "Greta.sh",
+          "url": "https://www.greta.sh/"
+        }
+      ]
+    },
+    {
+      "title": "enable self-growing so it publishes and optimizes content weekly",
+      "description": "enable self-growing so it publishes and optimizes content weekly."
+    }
+  ]
+}

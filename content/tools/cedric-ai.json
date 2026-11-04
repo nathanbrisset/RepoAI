@@ -1,0 +1,101 @@
+{
+  "id": "cedric-ai",
+  "name": "Cedric AI",
+  "url": "https://meet-cedric.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI teammate that joins meetings, presents slides, takes notes and completes follow-ups with approval.",
+  "description": "Cedric is a shared AI employee for teams: it joins Google Meet/Zoom/Teams calls, can present decks slide-by-slide, posts recaps, drafts follow-ups and works in Slack/Discord/Telegram with a shared company memory and 3,000+ tool connections. Swiss-based; asks before sending anything outward. Workspaces start with 100,000 free credits ($50) with no card; Starter $19/month; Max $99/month — plans differ by credit volume only.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "meetings",
+    "agents",
+    "slack",
+    "presentation",
+    "notes",
+    "team"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://meet-cedric.com/pricing",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/cedric-ai.png",
+  "image": "/screenshots/cedric-ai.webp",
+  "dateAdded": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "features": [
+    "Joins Google Meet, Zoom and Teams calls",
+    "Presents decks slide by slide",
+    "Posts recaps and drafts follow-ups",
+    "Works in Slack, Discord and Telegram",
+    "Shared company memory and 3,000+ tool connections",
+    "Asks before sending anything outward"
+  ],
+  "howToUse": [
+    {
+      "title": "Create a workspace (free credits",
+      "description": "Create a workspace (free credits, no card).",
+      "links": [
+        {
+          "label": "Cedric AI",
+          "url": "https://meet-cedric.com/"
+        }
+      ]
+    },
+    {
+      "title": "Invite Cedric to a meeting or connect Slack",
+      "description": "Invite Cedric to a meeting or connect Slack, Discord or Telegram."
+    },
+    {
+      "title": "Let it take notes or present a deck",
+      "description": "Let it take notes or present a deck."
+    },
+    {
+      "title": "Approve the follow-ups it drafts",
+      "description": "Approve the follow-ups it drafts."
+    }
+  ],
+  "sources": [
+    "https://meet-cedric.com/",
+    "https://meet-cedric.com/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/2"
+  ],
+  "summary_fr": "Coéquipier IA qui rejoint les réunions, présente des slides, prend des notes et gère les suivis avec validation.",
+  "description_fr": "Coéquipier IA qui rejoint les réunions, présente des slides, prend des notes et gère les suivis avec validation.",
+  "features_fr": [
+    "Joins Google Meet, Zoom and Teams calls",
+    "Presents decks slide by slide",
+    "Posts recaps and drafts follow-ups",
+    "Works in Slack, Discord and Telegram",
+    "Shared company memory and 3,000+ tool connections",
+    "Asks before sending anything outward"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Create a workspace (free credits",
+      "description": "Create a workspace (free credits, no card).",
+      "links": [
+        {
+          "label": "Cedric AI",
+          "url": "https://meet-cedric.com/"
+        }
+      ]
+    },
+    {
+      "title": "Invite Cedric to a meeting or connect Slack",
+      "description": "Invite Cedric to a meeting or connect Slack, Discord or Telegram."
+    },
+    {
+      "title": "Let it take notes or present a deck",
+      "description": "Let it take notes or present a deck."
+    },
+    {
+      "title": "Approve the follow-ups it drafts",
+      "description": "Approve the follow-ups it drafts."
+    }
+  ]
+}
