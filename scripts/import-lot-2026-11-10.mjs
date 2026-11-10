@@ -7,6 +7,7 @@
 import crypto from "crypto"
 import fs from "fs"
 import path from "path"
+import { spawnSync } from "child_process"
 import { fileURLToPath } from "url"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
@@ -35,17 +36,22 @@ const FORBIDDEN_IDS = new Set([
   "unfurl",
 ])
 
+/** CSV category labels → public taxonomy ids (not legacy text / data-processing). */
 const CATEGORY_SLUG = {
   Marketing: "marketing",
   Productivity: "productivity",
   Coding: "coding",
   Design: "design",
-  "Data Processing": "data-processing",
+  "Data Processing": "data",
   Video: "video",
   Audio: "voice",
-  Text: "text",
+  Text: "writing",
   Image: "image",
 }
+
+const PUBLIC_CATEGORY_IDS = new Set(
+  JSON.parse(fs.readFileSync(path.join(root, "content/taxonomy.json"), "utf8")).categories.map((c) => c.id),
+)
 
 const COUNTRY_ISO = {
   india: "IN",
@@ -178,13 +184,44 @@ function parseHqCountry(raw) {
   return { hqCountry: iso, hqCountrySource: "import" }
 }
 
+const HOWTO_TITLE_MAX = 90
+
+function firstSentence(text) {
+  const trimmed = text.trim()
+  for (let i = 0; i < trimmed.length; i++) {
+    const c = trimmed[i]
+    if (c !== "." && c !== "!" && c !== "?") continue
+    const next = trimmed[i + 1]
+    if (i === trimmed.length - 1 || (next && /\s/.test(next))) {
+      return trimmed.slice(0, i + 1).trim()
+    }
+  }
+  return trimmed
+}
+
+function truncateHowToTitle(text, max = HOWTO_TITLE_MAX) {
+  if (text.length <= max) return text
+  const slice = text.slice(0, max)
+  const lastSpace = slice.lastIndexOf(" ")
+  if (lastSpace > Math.floor(max * 0.45)) {
+    return `${slice.slice(0, lastSpace).trim()}...`
+  }
+  return `${slice.trim()}...`
+}
+
+function howToStepTitle(description) {
+  const trimmed = String(description).trim()
+  if (!trimmed) return "Step"
+  let title = firstSentence(trimmed)
+  title = truncateHowToTitle(title)
+  return title.length >= 3 ? title : trimmed.slice(0, HOWTO_TITLE_MAX)
+}
+
 function howToStepsFromStrings(steps, name, url) {
   if (!steps?.length) return undefined
   const out = steps.map((text, index) => {
     const trimmed = String(text).trim()
-    const titleMatch = trimmed.match(/^([^,.:;]{3,80})/)
-    let title = titleMatch ? titleMatch[1].trim() : `Step ${index + 1}`
-    if (title.length > 90) title = `${title.slice(0, 87).trim()}...`
+    const title = howToStepTitle(trimmed)
     const step = { title, description: trimmed }
     if (index === 0 && url) {
       step.links = [{ label: name, url }]
@@ -194,12 +231,13 @@ function howToStepsFromStrings(steps, name, url) {
   return out
 }
 
-function resolveToolId(deliverSlug, existingIds) {
+function resolveToolId(deliverSlug, existingIds, thisLotDeliverSlugs) {
   if (FORBIDDEN_IDS.has(deliverSlug)) {
     throw new Error(`Forbidden tool slug in lot: ${deliverSlug}`)
   }
   let id = deliverSlug
   if (existingIds.has(id)) {
+    if (thisLotDeliverSlugs.has(deliverSlug)) return id
     const alt = COLLISION_RENAMES[deliverSlug]
     if (!alt || existingIds.has(alt)) {
       throw new Error(`ID collision for deliver slug "${deliverSlug}" (existing id "${id}")`)
@@ -264,6 +302,15 @@ function syncToolIds() {
   return ids.length
 }
 
+function runCatalogIndex() {
+  if (dryRun) return
+  const script = path.join(root, "scripts/catalog-index.mjs")
+  const result = spawnSync(process.execPath, [script], { cwd: root, stdio: "inherit" })
+  if (result.status !== 0) {
+    throw new Error("catalog-index.mjs failed — run npm run catalog:check")
+  }
+}
+
 function main() {
   const copyEntries = JSON.parse(fs.readFileSync(copyPath, "utf8"))
   const SLUGS = copyEntries.map((e) => e.slug)
@@ -277,6 +324,7 @@ function main() {
   const copyBySlug = Object.fromEntries(copyEntries.map((entry) => [entry.slug, entry]))
   const expectedMd5 = JSON.parse(fs.readFileSync(md5Path, "utf8"))
   const existingIds = new Set(JSON.parse(fs.readFileSync(toolIdsPath, "utf8")))
+  const thisLotDeliverSlugs = new Set(SLUGS)
 
   const idPairs = []
   const createdIds = []
@@ -285,7 +333,7 @@ function main() {
 
   for (let i = 0; i < SLUGS.length; i++) {
     const deliverSlug = SLUGS[i]
-    const id = resolveToolId(deliverSlug, existingIds)
+    const id = resolveToolId(deliverSlug, existingIds, thisLotDeliverSlugs)
     if (id !== deliverSlug) {
       renames.push({ deliverSlug, id, reason: "existing tool id collision" })
     }
@@ -310,6 +358,9 @@ function main() {
     new URL(url)
     const categoryId = CATEGORY_SLUG[row.category]
     if (!categoryId) throw new Error(`Unknown category "${row.category}" for ${name}`)
+    if (!PUBLIC_CATEGORY_IDS.has(categoryId)) {
+      throw new Error(`Non-public category "${categoryId}" for ${name}`)
+    }
 
     const tags = (row.tags || "")
       .split(",")
@@ -389,6 +440,7 @@ function main() {
   writeJson(frPath, orderedFr)
 
   const toolCount = dryRun ? "dry-run" : syncToolIds()
+  if (!dryRun) runCatalogIndex()
 
   const report = {
     date: VERIFIED,
@@ -399,6 +451,7 @@ function main() {
     toolsWritten: createdIds.length,
     toolFiles: toolCount,
     md5Verified: true,
+    catalogIndexRegenerated: !dryRun,
     forbiddenExcluded: [...FORBIDDEN_IDS],
   }
   writeJson(path.join(importDir, "import-report.json"), report)
