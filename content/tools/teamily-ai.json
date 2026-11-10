@@ -1,0 +1,109 @@
+{
+  "id": "teamily-ai",
+  "name": "Teamily AI",
+  "url": "https://teamily.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-native messenger where people and always-on agents work together in shared chats, studios and memory.",
+  "description": "Teamily AI is a human–agent platform built as an AI-native messenger for multi-user, multi-agent teamwork. People and agents share 1:1 chats, group threads, a public feed and collaborative studios for web apps, slides, docs and dashboards. Agents arrive with built-in capabilities, persistent living memory and a model router; you can also create custom agents or teams in natural language. Apps exist for web, iOS, Android, Windows and macOS.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai-agents",
+    "messenger",
+    "collaboration",
+    "team-workspace",
+    "memory"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://teamily.ai/pricing",
+    "details": "Free; Plus 18 €/month, Premium 89 €/month, Pro 179 €/month.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/teamily-ai.png",
+  "image": "/screenshots/teamily-ai.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Multi-user and multi-agent group chat",
+    "living memory",
+    "human-agent studios (web, slides, docs, dashboards)",
+    "custom agents and teams",
+    "cross-device apps",
+    "public feed to remix agents"
+  ],
+  "howToUse": [
+    {
+      "title": "Create a free account on teamily.ai.",
+      "description": "Create a free account on teamily.ai.",
+      "links": [
+        {
+          "label": "Teamily AI",
+          "url": "https://teamily.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Start a chat or a group and add built-in or custom agents.",
+      "description": "Start a chat or a group and add built-in or custom agents."
+    },
+    {
+      "title": "Connect documents and tools the team should use.",
+      "description": "Connect documents and tools the team should use."
+    },
+    {
+      "title": "Turn conversations into deliverables in the collaborative studios.",
+      "description": "Turn conversations into deliverables in the collaborative studios."
+    },
+    {
+      "title": "Upgrade in billing if you need a paid plan.",
+      "description": "Upgrade in billing if you need a paid plan."
+    }
+  ],
+  "sources": [
+    "https://teamily.ai/",
+    "https://teamily.ai/pricing",
+    "https://www.producthunt.com/leaderboard/weekly/2026/45"
+  ],
+  "summary_fr": "Messagerie native IA où humains et agents travaillent ensemble, avec mémoire partagée et studios collaboratifs.",
+  "description_fr": "Messagerie native IA où humains et agents travaillent ensemble, avec mémoire partagée et studios collaboratifs.",
+  "features_fr": [
+    "Chat de groupe multi-utilisateurs et multi-agents",
+    "Mémoire vivante",
+    "Studios humain-agent (web, slides, docs, tableaux de bord)",
+    "Agents et équipes personnalisés",
+    "Applis multi-appareils",
+    "Fil public pour remixer des agents"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Crée un compte gratuit sur teamily.ai.",
+      "description": "Crée un compte gratuit sur teamily.ai.",
+      "links": [
+        {
+          "label": "Teamily AI",
+          "url": "https://teamily.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Démarre un chat ou un groupe et ajoute des agents intégrés ou personnalisés.",
+      "description": "Démarre un chat ou un groupe et ajoute des agents intégrés ou personnalisés."
+    },
+    {
+      "title": "Connecte les documents et les outils dont l'équipe a besoin.",
+      "description": "Connecte les documents et les outils dont l'équipe a besoin."
+    },
+    {
+      "title": "Transforme les conversations en livrables dans les studios collaboratifs.",
+      "description": "Transforme les conversations en livrables dans les studios collaboratifs."
+    },
+    {
+      "title": "Passe à une offre payante dans la facturation si tu en as besoin.",
+      "description": "Passe à une offre payante dans la facturation si tu en as besoin."
+    }
+  ]
+}

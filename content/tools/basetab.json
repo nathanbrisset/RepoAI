@@ -1,0 +1,86 @@
+{
+  "id": "basetab",
+  "name": "BaseTab",
+  "url": "https://basetab.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns a new browser tab into a workspace with widgets, bookmarks, AI chat and Google integrations, with a free plan.",
+  "description": "BaseTab is a new-tab workspace (Chrome and other browsers are listed) with customizable widgets, bookmarks, AI chat, Google integrations and other productivity tools.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "new-tab",
+    "chrome-extension",
+    "workspace",
+    "widgets",
+    "ai-chat"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://basetab.ai/pricing",
+    "details": "Free; Pro 8 € / 17 € / 44 € per month (100 / 500 / 2,000 AI credits).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/basetab.png",
+  "image": "/screenshots/basetab.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "New-tab workspace with widgets, bookmarks and AI chat",
+    "Google integrations",
+    "unlimited workspaces and up to 10-person team on Pro"
+  ],
+  "howToUse": [
+    {
+      "title": "Install BaseTab from basetab.ai in your browser.",
+      "description": "Install BaseTab from basetab.ai in your browser.",
+      "links": [
+        {
+          "label": "BaseTab",
+          "url": "https://basetab.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Use the Free plan's workspace and widgets.",
+      "description": "Use the Free plan's workspace and widgets."
+    },
+    {
+      "title": "Upgrade to a Pro credit plan on the pricing page if you want AI widgets and more...",
+      "description": "Upgrade to a Pro credit plan on the pricing page if you want AI widgets and more workspaces."
+    }
+  ],
+  "sources": [
+    "https://basetab.ai/",
+    "https://basetab.ai/pricing"
+  ],
+  "summary_fr": "Transforme un nouvel onglet de navigateur en espace de travail avec widgets, favoris, chat IA et intégrations Google, avec une offre gratuite.",
+  "description_fr": "Transforme un nouvel onglet de navigateur en espace de travail avec widgets, favoris, chat IA et intégrations Google, avec une offre gratuite.",
+  "features_fr": [
+    "Espace de travail en nouvel onglet, avec widgets, favoris et chat IA",
+    "Intégrations Google",
+    "Espaces de travail illimités et équipe jusqu'à 10 personnes sur Pro"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Installe BaseTab depuis basetab.ai dans ton navigateur.",
+      "description": "Installe BaseTab depuis basetab.ai dans ton navigateur.",
+      "links": [
+        {
+          "label": "BaseTab",
+          "url": "https://basetab.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Utilise l'espace de travail et les widgets de l'offre Gratuite.",
+      "description": "Utilise l'espace de travail et les widgets de l'offre Gratuite."
+    },
+    {
+      "title": "Passe à une offre Pro sur la page des tarifs si tu veux des widgets IA et plus d'espaces...",
+      "description": "Passe à une offre Pro sur la page des tarifs si tu veux des widgets IA et plus d'espaces de travail."
+    }
+  ]
+}

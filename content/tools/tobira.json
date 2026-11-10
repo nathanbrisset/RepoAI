@@ -1,0 +1,111 @@
+{
+  "id": "tobira",
+  "name": "Tobira",
+  "url": "https://tobira.ai/agentic-site/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns your website into a site agent that answers people and other AI agents, then books, sells or starts a trial.",
+  "description": "Tobira publishes a site agent from your pages and documents so it can answer visitors and incoming AI assistants (ChatGPT, Claude, Gemini and others) with structured facts, book meetings, take payment or send a trial link, and hand hard cases to your team. Leads can be sent to WhatsApp, Telegram, email or a CRM. A public Tobira network address is optional. Free plan uses your own OpenAI or OpenRouter key (up to 1,000 conversations/month).",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "site-agent",
+    "geo",
+    "aeo",
+    "lead-gen",
+    "chatbot",
+    "agent-commerce"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free (your own key, up to 1,000 conversations/month); Lite 44 €/month, Start 151 €/month, Business 356 €/month, Premium 714 €/month.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/tobira.png",
+  "image": "/screenshots/tobira.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Site agent for people and AI agents",
+    "booking and payments in chat",
+    "voice mode",
+    "knowledge from site and PDFs",
+    "lead alerts in messaging/CRM",
+    "optional agent network handle",
+    "MCP/API setup"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign in or start free with your own AI key.",
+      "description": "Sign in or start free with your own AI key.",
+      "links": [
+        {
+          "label": "Tobira",
+          "url": "https://tobira.ai/agentic-site/"
+        }
+      ]
+    },
+    {
+      "title": "Let Tobira scan your site, then add documents and rules.",
+      "description": "Let Tobira scan your site, then add documents and rules."
+    },
+    {
+      "title": "Embed the widget on your site.",
+      "description": "Embed the widget on your site."
+    },
+    {
+      "title": "Publish the agent-facing files (llms.txt, agent.json).",
+      "description": "Publish the agent-facing files (llms.txt, agent.json)."
+    },
+    {
+      "title": "Pick a paid plan on the pricing page if you need more capacity.",
+      "description": "Pick a paid plan on the pricing page if you need more capacity."
+    }
+  ],
+  "sources": [
+    "https://tobira.ai/",
+    "https://tobira.ai/agentic-site/",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/6"
+  ],
+  "summary_fr": "Transforme ton site en agent qui répond aux visiteurs et aux autres agents IA, puis réserve, vend ou ouvre un essai.",
+  "description_fr": "Transforme ton site en agent qui répond aux visiteurs et aux autres agents IA, puis réserve, vend ou ouvre un essai.",
+  "features_fr": [
+    "Agent de site pour les personnes et les agents IA",
+    "Réservation et paiements dans le chat",
+    "Mode vocal",
+    "Connaissance à partir du site et des PDF",
+    "Alertes de leads dans la messagerie/CRM",
+    "Identifiant optionnel sur le réseau d'agents",
+    "Configuration MCP/API"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Connecte-toi ou commence gratuitement avec ta propre clé IA.",
+      "description": "Connecte-toi ou commence gratuitement avec ta propre clé IA.",
+      "links": [
+        {
+          "label": "Tobira",
+          "url": "https://tobira.ai/agentic-site/"
+        }
+      ]
+    },
+    {
+      "title": "Laisse Tobira analyser ton site, puis ajoute documents et règles.",
+      "description": "Laisse Tobira analyser ton site, puis ajoute documents et règles."
+    },
+    {
+      "title": "Intègre le widget sur ton site.",
+      "description": "Intègre le widget sur ton site."
+    },
+    {
+      "title": "Publie les fichiers destinés aux agents (llms.txt, agent.json).",
+      "description": "Publie les fichiers destinés aux agents (llms.txt, agent.json)."
+    },
+    {
+      "title": "Choisis une offre payante sur la page des tarifs si tu as besoin de plus de capacité.",
+      "description": "Choisis une offre payante sur la page des tarifs si tu as besoin de plus de capacité."
+    }
+  ]
+}

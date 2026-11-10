@@ -1,0 +1,101 @@
+{
+  "id": "roomlab",
+  "name": "RoomLab",
+  "url": "https://roomlab.app/en/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns a photo of a room into a photorealistic redesign, virtual staging or a short video, using credits.",
+  "description": "RoomLab is a web app for interior redesign and virtual home staging: you start from a photo of a room, change furniture or materials, tidy a space or furnish a property, and can also generate short videos. The official English plan page (checked from Europe/Madrid) prices a first free image, then a one-time Personal plan at €9.99 for 150 credits (about 15 images or 3 videos, no renewal), and monthly Pro €14.99, Ultra €39.99 and Premium €89.99 (yearly Pro €149 and Ultra €399 also listed; unused subscription credits are saved if you cancel). Each image uses about 10 credits, and 4K adds about 10 more. Browsers may be geo-redirected to a language path such as /es.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "interior-design",
+    "virtual-staging",
+    "image-generation",
+    "home",
+    "credits"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "1 free image; Personal 9.99 € one-time (150 credits); Pro 14.99 €/month, Ultra 39.99 €/month, Premium 89.99 €/month (yearly: Pro 149 €, Ultra 399 €). Official euro prices as shown in Europe/Madrid.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/roomlab.png",
+  "image": "/screenshots/roomlab.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Photo-to-interior redesign and virtual staging",
+    "short video generations",
+    "1 free image",
+    "Personal €9.99 one-time (150 credits)",
+    "Pro/Ultra/Premium monthly or yearly",
+    "unused subscription credits kept after cancel",
+    "4K upscale uses extra credits"
+  ],
+  "howToUse": [
+    {
+      "title": "Open roomlab.app and upload or take a photo of a room.",
+      "description": "Open roomlab.app and upload or take a photo of a room.",
+      "links": [
+        {
+          "label": "RoomLab",
+          "url": "https://roomlab.app/en/"
+        }
+      ]
+    },
+    {
+      "title": "Choose a redesign or staging option.",
+      "description": "Choose a redesign or staging option."
+    },
+    {
+      "title": "Generate your free first image.",
+      "description": "Generate your free first image."
+    },
+    {
+      "title": "Buy the Personal pack or a Pro, Ultra or Premium plan if you need more credits.",
+      "description": "Buy the Personal pack or a Pro, Ultra or Premium plan if you need more credits."
+    }
+  ],
+  "sources": [
+    "https://roomlab.app/",
+    "https://roomlab.app/en/select-plan"
+  ],
+  "summary_fr": "Transforme la photo d’une pièce en relooking photoréaliste, home staging virtuel ou courte vidéo, avec un système de crédits.",
+  "description_fr": "Transforme la photo d’une pièce en relooking photoréaliste, home staging virtuel ou courte vidéo, avec un système de crédits.",
+  "features_fr": [
+    "Relooking d'intérieur et home staging virtuel à partir d'une photo",
+    "Générations de courtes vidéos",
+    "1 image gratuite",
+    "Personal 9,99 € en paiement unique (150 crédits)",
+    "Pro/Ultra/Premium en mensuel ou annuel",
+    "Crédits d'abonnement non utilisés conservés après résiliation",
+    "L'upscale 4K utilise des crédits supplémentaires"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre roomlab.app et envoie ou prends une photo d'une pièce.",
+      "description": "Ouvre roomlab.app et envoie ou prends une photo d'une pièce.",
+      "links": [
+        {
+          "label": "RoomLab",
+          "url": "https://roomlab.app/en/"
+        }
+      ]
+    },
+    {
+      "title": "Choisis une option de relooking ou de home staging.",
+      "description": "Choisis une option de relooking ou de home staging."
+    },
+    {
+      "title": "Génère ta première image gratuite.",
+      "description": "Génère ta première image gratuite."
+    },
+    {
+      "title": "Achète le pack Personal ou une offre Pro, Ultra ou Premium si tu as besoin de plus de...",
+      "description": "Achète le pack Personal ou une offre Pro, Ultra ou Premium si tu as besoin de plus de crédits."
+    }
+  ]
+}

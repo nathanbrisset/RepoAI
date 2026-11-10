@@ -1,0 +1,98 @@
+{
+  "id": "rankfender",
+  "name": "Rankfender",
+  "url": "https://rankfender.com/en/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "SEO and GEO platform that audits your site, publishes articles, and checks how major AI assistants talk about your brand.",
+  "description": "Rankfender combines keyword research, rank tracking (including AI Overviews), competitor and backlink analysis, site audits, content and social, and checks how ChatGPT, Claude, Gemini, Perplexity, DeepSeek, Grok, Llama and Mistral answer buyer questions (via official APIs). You can work in the app or connect Claude or ChatGPT so an agent can run it. Essential covers 1 brand, 15 AI prompts weekly in 5 of 8 assistants, 5 articles a month and a site audit up to 10 pages.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "seo",
+    "geo",
+    "aeo",
+    "rank-tracking",
+    "content"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://rankfender.com/en/pricing/",
+    "details": "Essential 80 €/month, Professional 178 €/month, Business 446 €/month, excl. VAT.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/rankfender.png",
+  "image": "/screenshots/rankfender.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Site audit for Google and AI engines",
+    "keyword and rank tracking",
+    "AI-assistant brand checks (up to 8 models)",
+    "AI articles to WordPress",
+    "agent access via Claude or ChatGPT"
+  ],
+  "howToUse": [
+    {
+      "title": "Create an account on rankfender.com.",
+      "description": "Create an account on rankfender.com.",
+      "links": [
+        {
+          "label": "Rankfender",
+          "url": "https://rankfender.com/en/"
+        }
+      ]
+    },
+    {
+      "title": "Add your brand and Search Console if you use it.",
+      "description": "Add your brand and Search Console if you use it."
+    },
+    {
+      "title": "Review the audit and the AI-answer checks.",
+      "description": "Review the audit and the AI-answer checks."
+    },
+    {
+      "title": "Publish, or let a connected agent run tasks, on a paid plan.",
+      "description": "Publish, or let a connected agent run tasks, on a paid plan."
+    }
+  ],
+  "sources": [
+    "https://rankfender.com/en/pricing/",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/6"
+  ],
+  "summary_fr": "Plateforme SEO et GEO qui audite ton site, publie des articles et vérifie comment les grands assistants IA parlent de ta marque.",
+  "description_fr": "Plateforme SEO et GEO qui audite ton site, publie des articles et vérifie comment les grands assistants IA parlent de ta marque.",
+  "features_fr": [
+    "Audit de site pour Google et les moteurs IA",
+    "Suivi des mots-clés et des positions",
+    "Contrôles de marque auprès des assistants IA (jusqu'à 8 modèles)",
+    "Articles IA vers WordPress",
+    "Accès agent via Claude ou ChatGPT"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Crée un compte sur rankfender.com.",
+      "description": "Crée un compte sur rankfender.com.",
+      "links": [
+        {
+          "label": "Rankfender",
+          "url": "https://rankfender.com/en/"
+        }
+      ]
+    },
+    {
+      "title": "Ajoute ta marque et Search Console si tu l'utilises.",
+      "description": "Ajoute ta marque et Search Console si tu l'utilises."
+    },
+    {
+      "title": "Relis l'audit et les contrôles des réponses IA.",
+      "description": "Relis l'audit et les contrôles des réponses IA."
+    },
+    {
+      "title": "Publie, ou laisse un agent connecté lancer des tâches, sur une offre payante.",
+      "description": "Publie, ou laisse un agent connecté lancer des tâches, sur une offre payante."
+    }
+  ]
+}

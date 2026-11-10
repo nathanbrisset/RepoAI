@@ -1,0 +1,101 @@
+{
+  "id": "rerun",
+  "name": "Rerun",
+  "url": "https://rerun.build/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "No-code team of AI coworkers that run recurring business tasks 24/7, with human approval and a private cloud machine.",
+  "description": "Rerun lets you install no-code “Coworkers” that run around the clock on a private cloud machine for each workspace—chasing invoices, qualifying leads or clearing an inbox—while you watch every step and they pause before sensitive actions. You can use the included models, connect your own API key, or plug in an existing ChatGPT or Claude subscription. Enterprise is custom.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai-agents",
+    "automation",
+    "no-code",
+    "coworkers",
+    "approvals"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://rerun.build/pricing",
+    "details": "5-day trial, then Pro 26 €/month.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/rerun.png",
+  "image": "/screenshots/rerun.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "No-code recurring agents",
+    "real-time step view and approval gates",
+    "private workspace server",
+    "BYO ChatGPT/Claude/API key",
+    "3,000+ app/MCP connectors",
+    "unlimited seats on Pro"
+  ],
+  "howToUse": [
+    {
+      "title": "Start the 5-day trial on rerun.build (a card is required).",
+      "description": "Start the 5-day trial on rerun.build (a card is required).",
+      "links": [
+        {
+          "label": "Rerun",
+          "url": "https://rerun.build/"
+        }
+      ]
+    },
+    {
+      "title": "Install Coworkers for the recurring jobs you want.",
+      "description": "Install Coworkers for the recurring jobs you want."
+    },
+    {
+      "title": "Connect apps or your own AI subscription and set approval rules.",
+      "description": "Connect apps or your own AI subscription and set approval rules."
+    },
+    {
+      "title": "Keep Pro after the trial, or cancel before day 5.",
+      "description": "Keep Pro after the trial, or cancel before day 5."
+    }
+  ],
+  "sources": [
+    "https://rerun.build/",
+    "https://rerun.build/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/5"
+  ],
+  "summary_fr": "Équipe de collègues IA no-code qui exécutent tes tâches récurrentes 24h/24, avec validation humaine et machine cloud privée.",
+  "description_fr": "Équipe de collègues IA no-code qui exécutent tes tâches récurrentes 24h/24, avec validation humaine et machine cloud privée.",
+  "features_fr": [
+    "Agents récurrents no-code",
+    "Vue des étapes en temps réel et portes de validation",
+    "Serveur d'espace de travail privé",
+    "Clé ChatGPT/Claude/API en BYO",
+    "Plus de 3 000 connecteurs d'applis/MCP",
+    "Sièges illimités sur Pro"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Démarre l'essai de 5 jours sur rerun.build (une carte est demandée).",
+      "description": "Démarre l'essai de 5 jours sur rerun.build (une carte est demandée).",
+      "links": [
+        {
+          "label": "Rerun",
+          "url": "https://rerun.build/"
+        }
+      ]
+    },
+    {
+      "title": "Installe des Coworkers pour les tâches récurrentes que tu veux déléguer.",
+      "description": "Installe des Coworkers pour les tâches récurrentes que tu veux déléguer."
+    },
+    {
+      "title": "Connecte tes applis ou ton propre abonnement IA et définis les règles de validation.",
+      "description": "Connecte tes applis ou ton propre abonnement IA et définis les règles de validation."
+    },
+    {
+      "title": "Garde Pro après l'essai, ou résilie avant le 5e jour.",
+      "description": "Garde Pro après l'essai, ou résilie avant le 5e jour."
+    }
+  ]
+}

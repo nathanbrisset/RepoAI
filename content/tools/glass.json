@@ -1,0 +1,84 @@
+{
+  "id": "glass",
+  "name": "Glass",
+  "url": "https://glasseditor.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Records your Mac screen and uses monthly AI credit to edit, chat and add voiceover, then gives you a shareable demo link.",
+  "description": "Glass is a macOS screen recorder (made for Apple silicon) that can edit while you talk: you record, hit Stop, and get a polished demo link. Recording, manual editing and export stay free. The early-access half price is kept for as long as you stay subscribed. Distinct from Glasshand in this same lot.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "screen-recorder",
+    "macos",
+    "video-editing",
+    "demos",
+    "voiceover"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://glasseditor.app/pricing",
+    "details": "Free (~10 min AI/month); early-access Starter 7 €/month billed 80 €/year (usually 13 €); Pro 13 €/month billed 161 €/year (usually 27 €).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/glass.png",
+  "image": "/screenshots/glass.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Mac screen recording and AI edit/chat/voiceover",
+    "automatic redaction on paid plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Download Glass for Mac from glasseditor.app.",
+      "description": "Download Glass for Mac from glasseditor.app.",
+      "links": [
+        {
+          "label": "Glass",
+          "url": "https://glasseditor.app/"
+        }
+      ]
+    },
+    {
+      "title": "Record a demo on your screen.",
+      "description": "Record a demo on your screen."
+    },
+    {
+      "title": "Use the Free plan's monthly AI minutes, or subscribe to Starter or Pro for more AI...",
+      "description": "Use the Free plan's monthly AI minutes, or subscribe to Starter or Pro for more AI editing and no watermark."
+    }
+  ],
+  "sources": [
+    "https://glasseditor.app/",
+    "https://glasseditor.app/pricing"
+  ],
+  "summary_fr": "Enregistre l’écran de ton Mac et utilise un crédit IA mensuel pour monter, discuter du rush et ajouter une voix off, puis te donne un lien de démo.",
+  "description_fr": "Enregistre l’écran de ton Mac et utilise un crédit IA mensuel pour monter, discuter du rush et ajouter une voix off, puis te donne un lien de démo.",
+  "features_fr": [
+    "Enregistrement d'écran Mac et montage/chat/voix off par IA",
+    "Caviardage automatique sur les offres payantes"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Télécharge Glass pour Mac sur glasseditor.app.",
+      "description": "Télécharge Glass pour Mac sur glasseditor.app.",
+      "links": [
+        {
+          "label": "Glass",
+          "url": "https://glasseditor.app/"
+        }
+      ]
+    },
+    {
+      "title": "Enregistre une démo sur ton écran.",
+      "description": "Enregistre une démo sur ton écran."
+    },
+    {
+      "title": "Utilise les minutes d'IA mensuelles de l'offre Gratuite, ou abonne-toi à Starter ou Pro...",
+      "description": "Utilise les minutes d'IA mensuelles de l'offre Gratuite, ou abonne-toi à Starter ou Pro pour plus de montage IA et sans filigrane."
+    }
+  ]
+}

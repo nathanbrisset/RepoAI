@@ -1,0 +1,90 @@
+{
+  "id": "toozi",
+  "name": "Toozi",
+  "url": "https://toozitax.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Handles books, invoices, savings reminders and e-filing for US self-employed people by text.",
+  "description": "Toozi is an SMS tax app for the US self-employed: it keeps books (separate books per hustle), sends invoices, tells you what to save, and e-files a federal return (Form 1040 with supporting forms, as described on the pricing FAQ). Cancel anytime, per the official FAQ.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "tax",
+    "sms",
+    "bookkeeping",
+    "invoices",
+    "self-employed"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://toozitax.app/pricing",
+    "details": "14-day trial, no card; 44 €/month or 356 €/year.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/toozi.png",
+  "image": "/screenshots/toozi.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Taxes by text for the US self-employed",
+    "bookkeeping and invoices",
+    "quarterly estimates and savings prompts",
+    "federal e-file (Form 1040)",
+    "14-day free trial, no card"
+  ],
+  "howToUse": [
+    {
+      "title": "Open toozitax.app and start the 14-day trial with no card.",
+      "description": "Open toozitax.app and start the 14-day trial with no card.",
+      "links": [
+        {
+          "label": "Toozi",
+          "url": "https://toozitax.app/"
+        }
+      ]
+    },
+    {
+      "title": "Connect your accounts and text the service about your books.",
+      "description": "Connect your accounts and text the service about your books."
+    },
+    {
+      "title": "Choose the monthly or yearly plan if you want to continue.",
+      "description": "Choose the monthly or yearly plan if you want to continue."
+    }
+  ],
+  "sources": [
+    "https://toozitax.app/",
+    "https://toozitax.app/pricing"
+  ],
+  "summary_fr": "Gère comptabilité, factures, rappels d’épargne et télédéclaration pour les indépendants US par SMS.",
+  "description_fr": "Gère comptabilité, factures, rappels d’épargne et télédéclaration pour les indépendants US par SMS.",
+  "features_fr": [
+    "Impôts par SMS pour les indépendants US",
+    "Comptabilité et factures",
+    "Estimations trimestrielles et rappels d'épargne",
+    "Télédéclaration fédérale (Form 1040)",
+    "Essai gratuit de 14 jours, sans carte"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre toozitax.app et démarre l'essai de 14 jours, sans carte.",
+      "description": "Ouvre toozitax.app et démarre l'essai de 14 jours, sans carte.",
+      "links": [
+        {
+          "label": "Toozi",
+          "url": "https://toozitax.app/"
+        }
+      ]
+    },
+    {
+      "title": "Connecte tes comptes et écris au service par SMS pour ta comptabilité.",
+      "description": "Connecte tes comptes et écris au service par SMS pour ta comptabilité."
+    },
+    {
+      "title": "Choisis l'offre mensuelle ou annuelle si tu veux continuer.",
+      "description": "Choisis l'offre mensuelle ou annuelle si tu veux continuer."
+    }
+  ]
+}

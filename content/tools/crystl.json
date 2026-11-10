@@ -1,0 +1,99 @@
+{
+  "id": "crystl",
+  "name": "Crystl",
+  "url": "https://crystl.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "macOS terminal for running and orchestrating multiple AI coding agents, with git worktrees, schedules and SSH.",
+  "description": "Crystl is a macOS terminal built for CLI coding agents such as Claude Code, Codex, Kimi and OpenCode. It supports multi-vendor, multi-agent orchestration and a super-orchestrator that can manage other orchestrators across projects. Built-in capabilities listed on the site include git worktree isolation, SSH, task management, agent status monitoring, automations, scheduled agents and an agent-usable CLI.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "coding-agents",
+    "terminal",
+    "macos",
+    "orchestration",
+    "git-worktrees"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free plan; Guild 152 €/year.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/crystl.png",
+  "image": "/screenshots/crystl.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Multi-agent macOS terminal",
+    "Claude Code, Codex, Kimi and OpenCode",
+    "git worktree isolation",
+    "SSH",
+    "scheduled agents",
+    "super-orchestration on Guild"
+  ],
+  "howToUse": [
+    {
+      "title": "Install Crystl on macOS.",
+      "description": "Install Crystl on macOS.",
+      "links": [
+        {
+          "label": "Crystl",
+          "url": "https://crystl.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Connect the CLI agents you already use.",
+      "description": "Connect the CLI agents you already use."
+    },
+    {
+      "title": "Run them in isolated git worktrees.",
+      "description": "Run them in isolated git worktrees."
+    },
+    {
+      "title": "Upgrade to Guild if you need multi-agent orchestration and sequence automations.",
+      "description": "Upgrade to Guild if you need multi-agent orchestration and sequence automations."
+    }
+  ],
+  "sources": [
+    "https://crystl.dev/",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/6"
+  ],
+  "summary_fr": "Terminal macOS pour lancer et orchestrer plusieurs agents de code IA, avec worktrees git, planifications et SSH.",
+  "description_fr": "Terminal macOS pour lancer et orchestrer plusieurs agents de code IA, avec worktrees git, planifications et SSH.",
+  "features_fr": [
+    "Terminal macOS multi-agents",
+    "Claude Code, Codex, Kimi et OpenCode",
+    "Isolation par worktree git",
+    "SSH",
+    "Agents planifiés",
+    "Super-orchestration sur Guild"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Installe Crystl sur macOS.",
+      "description": "Installe Crystl sur macOS.",
+      "links": [
+        {
+          "label": "Crystl",
+          "url": "https://crystl.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Connecte les agents en ligne de commande que tu utilises déjà.",
+      "description": "Connecte les agents en ligne de commande que tu utilises déjà."
+    },
+    {
+      "title": "Lance-les dans des worktrees git isolés.",
+      "description": "Lance-les dans des worktrees git isolés."
+    },
+    {
+      "title": "Passe à Guild si tu as besoin d'orchestrer plusieurs agents et des automatisations en...",
+      "description": "Passe à Guild si tu as besoin d'orchestrer plusieurs agents et des automatisations en séquence."
+    }
+  ]
+}

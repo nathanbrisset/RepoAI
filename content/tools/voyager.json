@@ -1,0 +1,97 @@
+{
+  "id": "voyager",
+  "name": "Voyager",
+  "url": "https://voyager.fm/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "macOS file browser that finds your files and lets AI agents work with them as context, without a separate upload.",
+  "description": "Voyager is an agentic file browser for macOS: you search and organize files in a familiar browser, then work with AI agents that use those files as context. The company says files are not uploaded to a separate store and are not sold for ads. Subscription costs for the AI providers you connect are paid to those providers.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "file-browser",
+    "macos",
+    "ai-agents",
+    "knowledge",
+    "privacy"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free; Early Supporter pass 179 € one-time; Plus and Pro coming soon.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/voyager.png",
+  "image": "/screenshots/voyager.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "macOS agentic file browser",
+    "file search and tabbed organization",
+    "work with files as agent context",
+    "no separate upload",
+    "Free plan available now"
+  ],
+  "howToUse": [
+    {
+      "title": "Install Voyager on macOS.",
+      "description": "Install Voyager on macOS.",
+      "links": [
+        {
+          "label": "Voyager",
+          "url": "https://voyager.fm/"
+        }
+      ]
+    },
+    {
+      "title": "Browse and find files as you would in a file manager.",
+      "description": "Browse and find files as you would in a file manager."
+    },
+    {
+      "title": "Work with your chosen AI agent using those files as context, without a separate upload.",
+      "description": "Work with your chosen AI agent using those files as context, without a separate upload."
+    },
+    {
+      "title": "The Early Supporter pass is optional; Plus and Pro were not yet available at verification.",
+      "description": "The Early Supporter pass is optional; Plus and Pro were not yet available at verification."
+    }
+  ],
+  "sources": [
+    "https://voyager.fm/",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/9"
+  ],
+  "summary_fr": "Explorateur de fichiers macOS qui retrouve tes fichiers et les donne en contexte à tes agents IA, sans envoi séparé.",
+  "description_fr": "Explorateur de fichiers macOS qui retrouve tes fichiers et les donne en contexte à tes agents IA, sans envoi séparé.",
+  "features_fr": [
+    "Explorateur de fichiers agentique pour macOS",
+    "Recherche de fichiers et organisation par onglets",
+    "Travail avec les fichiers comme contexte d'agent",
+    "Pas d'envoi séparé",
+    "Offre Free disponible dès maintenant"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Installe Voyager sur macOS.",
+      "description": "Installe Voyager sur macOS.",
+      "links": [
+        {
+          "label": "Voyager",
+          "url": "https://voyager.fm/"
+        }
+      ]
+    },
+    {
+      "title": "Parcours et retrouve tes fichiers comme dans un explorateur.",
+      "description": "Parcours et retrouve tes fichiers comme dans un explorateur."
+    },
+    {
+      "title": "Travaille avec l'agent IA de ton choix en leur donnant ces fichiers en contexte, sans...",
+      "description": "Travaille avec l'agent IA de ton choix en leur donnant ces fichiers en contexte, sans envoi séparé."
+    },
+    {
+      "title": "Le pass Early Supporter est optionnel ; Plus et Pro n'étaient pas encore disponibles au...",
+      "description": "Le pass Early Supporter est optionnel ; Plus et Pro n'étaient pas encore disponibles au moment de la vérification."
+    }
+  ]
+}

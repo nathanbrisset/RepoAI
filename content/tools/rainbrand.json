@@ -1,0 +1,99 @@
+{
+  "id": "rainbrand",
+  "name": "Rainbrand",
+  "url": "https://www.rainbrand.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Brand layer that keeps shared identity, guidance and assets current for your AI agents and products.",
+  "description": "Rainbrand builds and maintains shared brand context from your websites, brand guides and files, then gives agents the guidance and assets they need for campaigns, sites, slides, email and video. You can use it with Claude, ChatGPT, Codex or Cursor, or embed it in a product through the API. Credit top-ups are billed at plan rates listed on the pricing page.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "branding",
+    "brand-kit",
+    "mcp",
+    "marketing-agents",
+    "design-system"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.rainbrand.com/pricing",
+    "details": "Plus 18 €/month, Pro 31 €/month, Max 45 €/month, Scale from 58 €/month.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/rainbrand.png",
+  "image": "/screenshots/rainbrand.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Brand context from sites, guides and files",
+    "assets for campaigns and creative work",
+    "Claude/ChatGPT/Codex/Cursor access",
+    "API and MCP on every plan",
+    "credit-based usage"
+  ],
+  "howToUse": [
+    {
+      "title": "Add your websites, brand guides and files.",
+      "description": "Add your websites, brand guides and files.",
+      "links": [
+        {
+          "label": "Rainbrand",
+          "url": "https://www.rainbrand.com/"
+        }
+      ]
+    },
+    {
+      "title": "Connect Rainbrand to your agent via MCP or the API, or work in the app.",
+      "description": "Connect Rainbrand to your agent via MCP or the API, or work in the app."
+    },
+    {
+      "title": "Use the shared brand context so generated work stays on brand.",
+      "description": "Use the shared brand context so generated work stays on brand."
+    },
+    {
+      "title": "Pick Plus, Pro, Max or Scale when you need more usage.",
+      "description": "Pick Plus, Pro, Max or Scale when you need more usage."
+    }
+  ],
+  "sources": [
+    "https://www.rainbrand.com/",
+    "https://www.rainbrand.com/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/5"
+  ],
+  "summary_fr": "Couche de marque qui maintient à jour l'identité, les consignes et les visuels partagés pour tes agents et produits IA.",
+  "description_fr": "Couche de marque qui maintient à jour l'identité, les consignes et les visuels partagés pour tes agents et produits IA.",
+  "features_fr": [
+    "Contexte de marque à partir de sites, de guides et de fichiers",
+    "Assets pour les campagnes et le travail créatif",
+    "Accès Claude/ChatGPT/Codex/Cursor",
+    "API et MCP sur toutes les offres",
+    "Usage basé sur les crédits"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ajoute tes sites, chartes et fichiers de marque.",
+      "description": "Ajoute tes sites, chartes et fichiers de marque.",
+      "links": [
+        {
+          "label": "Rainbrand",
+          "url": "https://www.rainbrand.com/"
+        }
+      ]
+    },
+    {
+      "title": "Connecte Rainbrand à ton agent via MCP ou l'API, ou travaille dans l'application.",
+      "description": "Connecte Rainbrand à ton agent via MCP ou l'API, ou travaille dans l'application."
+    },
+    {
+      "title": "Appuie-toi sur le contexte de marque partagé pour rester cohérent.",
+      "description": "Appuie-toi sur le contexte de marque partagé pour rester cohérent."
+    },
+    {
+      "title": "Choisis Plus, Pro, Max ou Scale quand tu as besoin de plus d'usage.",
+      "description": "Choisis Plus, Pro, Max ou Scale quand tu as besoin de plus d'usage."
+    }
+  ]
+}

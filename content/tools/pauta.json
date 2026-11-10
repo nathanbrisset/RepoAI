@@ -1,0 +1,91 @@
+{
+  "id": "pauta",
+  "name": "Pauta",
+  "url": "https://www.pauta-ai.com/en",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Private, offline meeting and voice-note recorder that transcribes, summarizes and lists actions on your device.",
+  "description": "Pauta records and transcribes meetings, interviews and voice notes, then turns them into summaries and action items. It works fully offline and keeps data on the device, connecting to external AI only if you choose. Apps are available for Mac and Windows. After the trial you can buy from the site checkout.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "meeting-notes",
+    "transcription",
+    "offline",
+    "privacy",
+    "voice-notes"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "4 € one-time (lifetime license); 7-day trial, no card.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/pauta.png",
+  "image": "/screenshots/pauta.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "On-device recording and transcription",
+    "summaries and action items",
+    "fully offline by default",
+    "optional external AI",
+    "Mac and Windows apps",
+    "7-day trial without a card"
+  ],
+  "howToUse": [
+    {
+      "title": "Download Pauta for Mac or Windows.",
+      "description": "Download Pauta for Mac or Windows.",
+      "links": [
+        {
+          "label": "Pauta",
+          "url": "https://www.pauta-ai.com/en"
+        }
+      ]
+    },
+    {
+      "title": "Use it free for 7 days; no card is required.",
+      "description": "Use it free for 7 days; no card is required."
+    },
+    {
+      "title": "Pay once for a lifetime license if you want to keep it.",
+      "description": "Pay once for a lifetime license if you want to keep it."
+    }
+  ],
+  "sources": [
+    "https://www.pauta-ai.com/en",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/6"
+  ],
+  "summary_fr": "Enregistreur privé et hors ligne pour réunions et notes vocales : transcription, résumé et actions, le tout sur l'appareil.",
+  "description_fr": "Enregistreur privé et hors ligne pour réunions et notes vocales : transcription, résumé et actions, le tout sur l'appareil.",
+  "features_fr": [
+    "Enregistrement et transcription sur l'appareil",
+    "Résumés et points d'action",
+    "Entièrement hors ligne par défaut",
+    "IA externe en option",
+    "Applis Mac et Windows",
+    "Essai de 7 jours sans carte"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Télécharge Pauta pour Mac ou Windows.",
+      "description": "Télécharge Pauta pour Mac ou Windows.",
+      "links": [
+        {
+          "label": "Pauta",
+          "url": "https://www.pauta-ai.com/en"
+        }
+      ]
+    },
+    {
+      "title": "Utilise-le gratuitement pendant 7 jours, sans carte.",
+      "description": "Utilise-le gratuitement pendant 7 jours, sans carte."
+    },
+    {
+      "title": "Paie une fois pour une licence à vie si tu veux le garder.",
+      "description": "Paie une fois pour une licence à vie si tu veux le garder."
+    }
+  ]
+}

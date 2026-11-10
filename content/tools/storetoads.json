@@ -1,0 +1,86 @@
+{
+  "id": "storetoads",
+  "name": "StoreToAds",
+  "url": "https://storetoads.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Builds ads from your real product photos, on demand or on a schedule, with a free preview before paid plans.",
+  "description": "StoreToAds is an AI ad generator for online stores, built around your real product photos, with on-demand creation or scheduled delivery.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "advertising",
+    "ecommerce",
+    "product-photos",
+    "creative",
+    "marketing"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://storetoads.com/pricing/",
+    "details": "Free preview (3 ads, no signup); Lite 26 €/month, Starter 44 €/month (no trial); Growth 88 €/month, Pro 133 €/month, Scale 178 €/month with a free trial.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/storetoads.png",
+  "image": "/screenshots/storetoads.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Ads from real product photos",
+    "on-demand or scheduled delivery",
+    "free preview (3 ads, no signup)"
+  ],
+  "howToUse": [
+    {
+      "title": "Open storetoads.com and generate a free preview of 3 product ads with no signup.",
+      "description": "Open storetoads.com and generate a free preview of 3 product ads with no signup.",
+      "links": [
+        {
+          "label": "StoreToAds",
+          "url": "https://storetoads.com/"
+        }
+      ]
+    },
+    {
+      "title": "Choose Lite or Starter if you want more designs without a trial.",
+      "description": "Choose Lite or Starter if you want more designs without a trial."
+    },
+    {
+      "title": "Start a trial on Growth, Pro or Scale if you need the higher plans.",
+      "description": "Start a trial on Growth, Pro or Scale if you need the higher plans."
+    }
+  ],
+  "sources": [
+    "https://storetoads.com/",
+    "https://storetoads.com/pricing/"
+  ],
+  "summary_fr": "Crée des publicités à partir de tes vraies photos produit, à la demande ou en envoi programmé, avec un aperçu gratuit avant les offres payantes.",
+  "description_fr": "Crée des publicités à partir de tes vraies photos produit, à la demande ou en envoi programmé, avec un aperçu gratuit avant les offres payantes.",
+  "features_fr": [
+    "Publicités à partir de vraies photos produit",
+    "Livraison à la demande ou programmée",
+    "Aperçu gratuit (3 publicités, sans inscription)"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre storetoads.com et génère un aperçu gratuit de 3 publicités produit, sans...",
+      "description": "Ouvre storetoads.com et génère un aperçu gratuit de 3 publicités produit, sans inscription.",
+      "links": [
+        {
+          "label": "StoreToAds",
+          "url": "https://storetoads.com/"
+        }
+      ]
+    },
+    {
+      "title": "Choisis Lite ou Starter si tu veux plus de visuels sans essai.",
+      "description": "Choisis Lite ou Starter si tu veux plus de visuels sans essai."
+    },
+    {
+      "title": "Démarre un essai sur Growth, Pro ou Scale si tu as besoin des offres supérieures.",
+      "description": "Démarre un essai sur Growth, Pro ou Scale si tu as besoin des offres supérieures."
+    }
+  ]
+}
