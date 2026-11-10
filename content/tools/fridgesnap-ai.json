@@ -1,0 +1,86 @@
+{
+  "id": "fridgesnap-ai",
+  "name": "fridgesnap.AI",
+  "url": "https://fridgesnapai.recipes/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Takes a photo of your fridge and returns personalized recipes in three cuisines from the ingredients it sees.",
+  "description": "fridgesnap.AI is a food app: you snap a photo of your fridge and get personalized recipes, with three cuisines crafted from the ingredients in the photo, plus dietary preferences. Monthly and annual plans start with a 7-day free trial. Cancel anytime is stated for the monthly plan.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "recipes",
+    "food",
+    "health",
+    "photo",
+    "meal-planning"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://eat.fridgesnapai.recipes/pricing",
+    "details": "7-day trial; Monthly Cook 9 €/month; Annual Chef 88 €/year; Founder’s Pass 446 € lifetime.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/fridgesnap-ai.png",
+  "image": "/screenshots/fridgesnap-ai.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Fridge-photo to recipes",
+    "three cuisines per scan and dietary preferences",
+    "7-day free trial on monthly/annual"
+  ],
+  "howToUse": [
+    {
+      "title": "Open fridgesnapai",
+      "description": "Open fridgesnapai.recipes and start the 7-day trial.",
+      "links": [
+        {
+          "label": "fridgesnap.AI",
+          "url": "https://fridgesnapai.recipes/"
+        }
+      ]
+    },
+    {
+      "title": "Photograph your fridge and pick among the three recipe cuisines",
+      "description": "Photograph your fridge and pick among the three recipe cuisines."
+    },
+    {
+      "title": "Stay on Monthly Cook",
+      "description": "Stay on Monthly Cook, Annual Chef or the Founder’s Pass if you want to continue."
+    }
+  ],
+  "sources": [
+    "https://fridgesnapai.recipes/",
+    "https://eat.fridgesnapai.recipes/pricing"
+  ],
+  "summary_fr": "Prend une photo de ton frigo et te propose des recettes personnalisées, dans trois cuisines, à partir des ingrédients détectés.",
+  "description_fr": "Prend une photo de ton frigo et te propose des recettes personnalisées, dans trois cuisines, à partir des ingrédients détectés.",
+  "features_fr": [
+    "Fridge-photo to recipes",
+    "three cuisines per scan and dietary preferences",
+    "7-day free trial on monthly/annual"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre fridgesnapai",
+      "description": "Ouvre fridgesnapai.recipes et démarre l'essai de 7 jours.",
+      "links": [
+        {
+          "label": "fridgesnap.AI",
+          "url": "https://fridgesnapai.recipes/"
+        }
+      ]
+    },
+    {
+      "title": "Photographie ton frigo et choisis parmi les trois cuisines proposées",
+      "description": "Photographie ton frigo et choisis parmi les trois cuisines proposées."
+    },
+    {
+      "title": "Reste sur Monthly Cook",
+      "description": "Reste sur Monthly Cook, Annual Chef ou le Founder’s Pass si tu veux continuer."
+    }
+  ]
+}

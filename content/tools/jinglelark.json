@@ -1,0 +1,90 @@
+{
+  "id": "jinglelark",
+  "name": "JingleLark",
+  "url": "https://jinglelark.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Writes radio jingles from a line of text, lets you pick a voice, and mix intro, bed and outro for free; credits pay for voiceovers.",
+  "description": "JingleLark is an AI jingle maker for small radio stations and DJs: you type a line, pick a radio voice, and mix it with an intro, bed and outro. Mixing and downloads are always free; voiceovers use credits that never expire, with full commercial rights and MP3/WAV download. Every voice is included on every pack.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "jingles",
+    "radio",
+    "voiceover",
+    "music",
+    "credits"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://jinglelark.com/pricing",
+    "details": "Mixing and downloads always free; one-time packs Starter 13 €, Standard 35 €, Pro 88 €.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/jinglelark.png",
+  "image": "/screenshots/jinglelark.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Text-to-radio-jingle",
+    "free unlimited mixing and rebuilds",
+    "MP3/WAV and commercial rights",
+    "credits never expire",
+    "all voices on every pack"
+  ],
+  "howToUse": [
+    {
+      "title": "Open jinglelark",
+      "description": "Open jinglelark.com, type a line and pick a voice.",
+      "links": [
+        {
+          "label": "JingleLark",
+          "url": "https://jinglelark.com/"
+        }
+      ]
+    },
+    {
+      "title": "Mix intro",
+      "description": "Mix intro, bed and outro for free."
+    },
+    {
+      "title": "Buy a Starter",
+      "description": "Buy a Starter, Standard or Pro credit pack when you need paid voiceovers."
+    }
+  ],
+  "sources": [
+    "https://jinglelark.com/",
+    "https://jinglelark.com/pricing"
+  ],
+  "summary_fr": "Crée des jingles radio à partir d’une phrase, te laisse choisir une voix, et mixer intro, fond et outro gratuitement ; les crédits paient les voix off.",
+  "description_fr": "Crée des jingles radio à partir d’une phrase, te laisse choisir une voix, et mixer intro, fond et outro gratuitement ; les crédits paient les voix off.",
+  "features_fr": [
+    "Text-to-radio-jingle",
+    "free unlimited mixing and rebuilds",
+    "MP3/WAV and commercial rights",
+    "credits never expire",
+    "all voices on every pack"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre jinglelark",
+      "description": "Ouvre jinglelark.com, saisis une phrase et choisis une voix.",
+      "links": [
+        {
+          "label": "JingleLark",
+          "url": "https://jinglelark.com/"
+        }
+      ]
+    },
+    {
+      "title": "Mixe l'intro",
+      "description": "Mixe l'intro, le fond et l'outro gratuitement."
+    },
+    {
+      "title": "Achète un pack de crédits Starter",
+      "description": "Achète un pack de crédits Starter, Standard ou Pro quand tu as besoin de voix off payantes."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "fileai",
+  "name": "fileAI",
+  "url": "https://www.file.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns files into structured, checked data for AI agents, with fraud signals and outcome-based billing for completed flows.",
+  "description": "fileAI extracts structured data from files and adds fraud and AI-generated-content checks, then runs Agent Flows that apply rules, reconcile documents and post results via UI, API or MCP. The Product Hunt launch highlighted fileForensics, the file-trust checks, as part of this platform.",
+  "categories": [
+    "data-processing"
+  ],
+  "tags": [
+    "document-ai",
+    "ocr",
+    "fraud-detection",
+    "mcp",
+    "data-extraction"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.file.ai/pricing",
+    "details": "Lite 12 €/month (250 flows), Standard 38 €/month (1,000 flows), plus outcome-based run rates.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/fileai.png",
+  "image": "/screenshots/fileai.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Zero-shot file extraction",
+    "fraud and AI-content checks (fileForensics)",
+    "Agent Flows with outcome-based billing",
+    "API, MCP and UI"
+  ],
+  "howToUse": [
+    {
+      "title": "Send a file or case through the UI",
+      "description": "Send a file or case through the UI, API or MCP.",
+      "links": [
+        {
+          "label": "fileAI",
+          "url": "https://www.file.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Define the successful outcome for an Agent Flow",
+      "description": "Define the successful outcome for an Agent Flow."
+    },
+    {
+      "title": "Review the structured",
+      "description": "Review the structured, checked results."
+    },
+    {
+      "title": "Choose Lite",
+      "description": "Choose Lite, Standard or Business if you want a monthly flow allowance."
+    }
+  ],
+  "sources": [
+    "https://www.file.ai/",
+    "https://www.file.ai/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/4"
+  ],
+  "summary_fr": "Transforme tes fichiers en données structurées et contrôlées pour les agents IA, avec signaux de fraude et facturation à l'issue.",
+  "description_fr": "Transforme tes fichiers en données structurées et contrôlées pour les agents IA, avec signaux de fraude et facturation à l'issue.",
+  "features_fr": [
+    "Zero-shot file extraction",
+    "fraud and AI-content checks (fileForensics)",
+    "Agent Flows with outcome-based billing",
+    "API, MCP and UI"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Envoie un fichier ou un dossier via l'interface",
+      "description": "Envoie un fichier ou un dossier via l'interface, l'API ou MCP.",
+      "links": [
+        {
+          "label": "fileAI",
+          "url": "https://www.file.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Définis le résultat attendu d'un Agent Flow",
+      "description": "Définis le résultat attendu d'un Agent Flow."
+    },
+    {
+      "title": "Relis les données structurées et contrôlées",
+      "description": "Relis les données structurées et contrôlées."
+    },
+    {
+      "title": "Choisis Lite",
+      "description": "Choisis Lite, Standard ou Business si tu veux un volume de flux mensuel."
+    }
+  ]
+}

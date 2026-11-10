@@ -1,0 +1,109 @@
+{
+  "id": "wanaka-studio",
+  "name": "Wanaka Studio",
+  "url": "https://wanaka.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-native 3D game studio that turns a written idea into a playable browser game, with a visual editor.",
+  "description": "Wanaka Studio is an all-in-one AI game engine: you describe a game, an agent builds a playable 3D version, and you can keep directing the AI or edit the world in a synced visual editor. No coding is required. The studio covers characters, environments, animations, audio and interfaces, with auto-rigging, multiplayer and one-click publish to a browser link. Official plans are Free, Pro, MAX and Ultra (monthly or yearly).",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "game-engine",
+    "3d",
+    "no-code",
+    "vibe-coding",
+    "game-dev"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://wanaka.app/pricing",
+    "details": "Free (60 credits/day); Pro 17 €/month or 13 €/month billed yearly (2,000 credits/month); Max 44 €/month or 36 €/month billed yearly (6,000 credits/month); Ultra 179 €/month or 143 €/month billed yearly (24,000 credits/month). Yearly billed as 2 months free. Plus applicable tax.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/wanaka-studio.png",
+  "image": "/screenshots/wanaka-studio.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Prompt-to-playable 3D game",
+    "synced visual editor",
+    "AI team for assets, audio and promotion",
+    "auto-rigging and multiplayer",
+    "1-click browser publish",
+    "Free, Pro, MAX and Ultra plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Open Wanaka Studio and describe the game you want",
+      "description": "Open Wanaka Studio and describe the game you want.",
+      "links": [
+        {
+          "label": "Wanaka Studio",
+          "url": "https://wanaka.app/"
+        }
+      ]
+    },
+    {
+      "title": "Play the first version in the browser",
+      "description": "Play the first version in the browser."
+    },
+    {
+      "title": "Refine it with the agent or the visual editor",
+      "description": "Refine it with the agent or the visual editor."
+    },
+    {
+      "title": "Publish a shareable link when you are ready",
+      "description": "Publish a shareable link when you are ready."
+    },
+    {
+      "title": "Upgrade to Pro",
+      "description": "Upgrade to Pro, Max or Ultra if you need more monthly credits."
+    }
+  ],
+  "sources": [
+    "https://wanaka.app/",
+    "https://wanaka.app/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/4"
+  ],
+  "summary_fr": "Studio de jeux 3D par IA : tu décris une idée, tu obtiens un jeu jouable dans le navigateur, avec un éditeur visuel.",
+  "description_fr": "Studio de jeux 3D par IA : tu décris une idée, tu obtiens un jeu jouable dans le navigateur, avec un éditeur visuel.",
+  "features_fr": [
+    "Prompt-to-playable 3D game",
+    "synced visual editor",
+    "AI team for assets, audio and promotion",
+    "auto-rigging and multiplayer",
+    "1-click browser publish",
+    "Free, Pro, MAX and Ultra plans"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre Wanaka Studio et décris le jeu que tu veux",
+      "description": "Ouvre Wanaka Studio et décris le jeu que tu veux.",
+      "links": [
+        {
+          "label": "Wanaka Studio",
+          "url": "https://wanaka.app/"
+        }
+      ]
+    },
+    {
+      "title": "Joue la première version dans le navigateur",
+      "description": "Joue la première version dans le navigateur."
+    },
+    {
+      "title": "Affine-la avec l'agent ou l'éditeur visuel",
+      "description": "Affine-la avec l'agent ou l'éditeur visuel."
+    },
+    {
+      "title": "Publie un lien partageable quand tu es prêt",
+      "description": "Publie un lien partageable quand tu es prêt."
+    },
+    {
+      "title": "Passe à Pro",
+      "description": "Passe à Pro, Max ou Ultra si tu as besoin de plus de crédits mensuels."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "glasshand",
+  "name": "Glasshand",
+  "url": "https://glasshand.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Rents a dedicated real iPhone or Mac in a data center so your AI agent can use it like you would, then wipes the device.",
+  "description": "Glasshand rents physical iPhones and Macs, hosted in its data center, to AI agents. You connect Claude Code, Codex or another agent and it can rent a device with a prompt, then use it for tasks such as posting on TikTok, booking an Uber, or building and testing iOS apps. Each device is yours alone for the rental period; when you are done, Glasshand says it erases your data and factory-resets the hardware.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "device-rental",
+    "ios",
+    "macos",
+    "ai-agents",
+    "mobile-testing"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://glasshand.com/pricing/",
+    "details": "iPhone 54 €/month, Mac 80 €/month.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/glasshand.png",
+  "image": "/screenshots/glasshand.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Dedicated real iPhone or Mac rental",
+    "works with Claude Code, Codex and other agents",
+    "single-tenant device",
+    "data wipe and factory reset at the end",
+    "monthly pricing"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on glasshand",
+      "description": "Sign up on glasshand.com and connect your agent.",
+      "links": [
+        {
+          "label": "Glasshand",
+          "url": "https://glasshand.com/"
+        }
+      ]
+    },
+    {
+      "title": "Rent a dedicated iPhone or Mac in the data center",
+      "description": "Rent a dedicated iPhone or Mac in the data center."
+    },
+    {
+      "title": "Let the agent use the device for the task",
+      "description": "Let the agent use the device for the task."
+    },
+    {
+      "title": "End the rental so the hardware can be wiped",
+      "description": "End the rental so the hardware can be wiped."
+    }
+  ],
+  "sources": [
+    "https://glasshand.com/",
+    "https://glasshand.com/pricing/",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/5"
+  ],
+  "summary_fr": "Loue un iPhone ou un Mac réel, dédié, en datacenter, pour que ton agent IA s'en serve comme toi, puis efface l'appareil.",
+  "description_fr": "Loue un iPhone ou un Mac réel, dédié, en datacenter, pour que ton agent IA s'en serve comme toi, puis efface l'appareil.",
+  "features_fr": [
+    "Dedicated real iPhone or Mac rental",
+    "works with Claude Code, Codex and other agents",
+    "single-tenant device",
+    "data wipe and factory reset at the end",
+    "monthly pricing"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Inscris-toi sur glasshand",
+      "description": "Inscris-toi sur glasshand.com et connecte ton agent.",
+      "links": [
+        {
+          "label": "Glasshand",
+          "url": "https://glasshand.com/"
+        }
+      ]
+    },
+    {
+      "title": "Loue un iPhone ou un Mac dédié en datacenter",
+      "description": "Loue un iPhone ou un Mac dédié en datacenter."
+    },
+    {
+      "title": "Laisse l'agent utiliser l'appareil pour la tâche",
+      "description": "Laisse l'agent utiliser l'appareil pour la tâche."
+    },
+    {
+      "title": "Termine la location pour que le matériel soit effacé",
+      "description": "Termine la location pour que le matériel soit effacé."
+    }
+  ]
+}

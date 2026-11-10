@@ -1,0 +1,86 @@
+{
+  "id": "nuvio",
+  "name": "Nuvio",
+  "url": "https://nuvio.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI-native finance software that invoices, scans receipts, reconciles and analyses cash flow, with optional bookkeeping and sales-tax filing.",
+  "description": "Nuvio is AI-native finance software with invoicing, payment tracking, AI receipt and invoice scanning, AI-powered reconciliation, analytics, cash flow, project financials, multi-currency and an AI assistant. Each plan is offered with a “Start for free” action on the pricing page. This is a 5.0-era product that appeared on Product Hunt around 27 October 2026 (widened window) and was not already in the restore3-new catalogue.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "finance",
+    "bookkeeping",
+    "invoicing",
+    "receipts",
+    "accounting"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://nuvio.io/pricing",
+    "details": "App Only 49 €/month; App & Bookkeeping 222 €/month; Bookkeeping + Tax 490 €/month. The pricing page also offers to start for free.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/nuvio.png",
+  "image": "/screenshots/nuvio.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "AI receipt/invoice scanning and reconciliation",
+    "invoicing, cash-flow analytics and assistant",
+    "“Start for free” on the official pricing page"
+  ],
+  "howToUse": [
+    {
+      "title": "Open nuvio",
+      "description": "Open nuvio.io and start for free from the pricing page.",
+      "links": [
+        {
+          "label": "Nuvio",
+          "url": "https://nuvio.io/"
+        }
+      ]
+    },
+    {
+      "title": "Connect your accounts",
+      "description": "Connect your accounts."
+    },
+    {
+      "title": "Use the App Only software",
+      "description": "Use the App Only software, or choose a plan that includes bookkeeping or tax."
+    }
+  ],
+  "sources": [
+    "https://nuvio.io/",
+    "https://nuvio.io/pricing"
+  ],
+  "summary_fr": "Logiciel finance basé sur l’IA qui facture, scanne les reçus, rapproche les comptes et analyse la trésorerie, avec comptabilité et TVA en option.",
+  "description_fr": "Logiciel finance basé sur l’IA qui facture, scanne les reçus, rapproche les comptes et analyse la trésorerie, avec comptabilité et TVA en option.",
+  "features_fr": [
+    "AI receipt/invoice scanning and reconciliation",
+    "invoicing, cash-flow analytics and assistant",
+    "“Start for free” on the official pricing page"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre nuvio",
+      "description": "Ouvre nuvio.io et commence gratuitement depuis la page des tarifs.",
+      "links": [
+        {
+          "label": "Nuvio",
+          "url": "https://nuvio.io/"
+        }
+      ]
+    },
+    {
+      "title": "Connecte tes comptes",
+      "description": "Connecte tes comptes."
+    },
+    {
+      "title": "Utilise le logiciel App Only",
+      "description": "Utilise le logiciel App Only, ou choisis une offre qui inclut la comptabilité ou la déclaration fiscale."
+    }
+  ]
+}

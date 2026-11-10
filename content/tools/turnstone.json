@@ -1,0 +1,95 @@
+{
+  "id": "turnstone",
+  "name": "Turnstone",
+  "url": "https://myturnstone.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Free Mac app for persistent AI agents that run on the ChatGPT, Claude, Gemini or Grok subscription you already pay for.",
+  "description": "Turnstone is a macOS app for persistent AI agents with local memory you can open and correct. It runs on the AI subscription or API key you already have (ChatGPT, Claude, Gemini or Grok) and can switch models when a limit is hit; prepaid Turnstone Credits are available if you have no key. The Mac app is free forever, with no card required for the Chief of Staff and free app connectors. Teams under 10 are offered 30 days free, as stated on the site.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "ai-agents",
+    "macos",
+    "byok",
+    "memory",
+    "personal-agent"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Mac app free; Cloud 44 €/month after a first free month.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/turnstone.png",
+  "image": "/screenshots/turnstone.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Persistent Mac agents with local memory",
+    "BYO ChatGPT, Claude, Gemini or Grok",
+    "model failover",
+    "free app connectors"
+  ],
+  "howToUse": [
+    {
+      "title": "Download the Mac app from myturnstone",
+      "description": "Download the Mac app from myturnstone.ai.",
+      "links": [
+        {
+          "label": "Turnstone",
+          "url": "https://myturnstone.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Connect the AI subscription or API key you already use",
+      "description": "Connect the AI subscription or API key you already use."
+    },
+    {
+      "title": "Pick sources for local memory and run agents on your machine",
+      "description": "Pick sources for local memory and run agents on your machine."
+    },
+    {
+      "title": "Add Cloud later if you want it",
+      "description": "Add Cloud later if you want it, after the first free month."
+    }
+  ],
+  "sources": [
+    "https://myturnstone.ai/",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/6"
+  ],
+  "summary_fr": "Applis Mac gratuite pour des agents IA persistants, branchés sur l'abonnement ChatGPT, Claude, Gemini ou Grok que tu as déjà.",
+  "description_fr": "Applis Mac gratuite pour des agents IA persistants, branchés sur l'abonnement ChatGPT, Claude, Gemini ou Grok que tu as déjà.",
+  "features_fr": [
+    "Persistent Mac agents with local memory",
+    "BYO ChatGPT, Claude, Gemini or Grok",
+    "model failover",
+    "free app connectors"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Télécharge l'application Mac sur myturnstone",
+      "description": "Télécharge l'application Mac sur myturnstone.ai.",
+      "links": [
+        {
+          "label": "Turnstone",
+          "url": "https://myturnstone.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Branche l'abonnement IA ou la clé API que tu utilises déjà",
+      "description": "Branche l'abonnement IA ou la clé API que tu utilises déjà."
+    },
+    {
+      "title": "Choisis les sources de mémoire locale et lance tes agents sur ta machine",
+      "description": "Choisis les sources de mémoire locale et lance tes agents sur ta machine."
+    },
+    {
+      "title": "Ajoute Cloud plus tard si tu le souhaites",
+      "description": "Ajoute Cloud plus tard si tu le souhaites, après le premier mois offert."
+    }
+  ]
+}

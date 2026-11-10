@@ -1,0 +1,99 @@
+{
+  "id": "stitch-ai",
+  "name": "Stitch.ai",
+  "url": "https://stitch.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "All-in-one AI workspace for mail, calendar, notes, tasks, files and more, with the Stitchy assistant built in.",
+  "description": "Stitch.ai brings mail, calendar, contacts, tasks, notes, sheets, slides, boards and files into one workspace, without a separate email client or third-party integrations to set up. Dual panels let you drag items together; Knots, tags and connections keep work organized. Stitchy, the built-in assistant, works across those surfaces.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "workspace",
+    "email",
+    "calendar",
+    "notes",
+    "ai-assistant"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://stitch.ai/pricing",
+    "details": "7-day trial; Plus 62 €/month, Pro 80 €/month, Max 151 €/month.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/stitch-ai.png",
+  "image": "/screenshots/stitch-ai.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Built-in mail, calendar, tasks, notes, sheets, slides, boards and files",
+    "Stitchy AI assistant",
+    "dual workspace panels",
+    "Knots, tags and connections",
+    "7-day full-feature trial"
+  ],
+  "howToUse": [
+    {
+      "title": "Start the 7-day free trial on stitch",
+      "description": "Start the 7-day free trial on stitch.ai (the all-in-one workspace, not Google Stitch).",
+      "links": [
+        {
+          "label": "Stitch.ai",
+          "url": "https://stitch.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Move your mail and files into the workspace",
+      "description": "Move your mail and files into the workspace."
+    },
+    {
+      "title": "Work with the Stitchy assistant across the panels",
+      "description": "Work with the Stitchy assistant across the panels."
+    },
+    {
+      "title": "Choose Plus",
+      "description": "Choose Plus, Pro or Max when the trial ends."
+    }
+  ],
+  "sources": [
+    "https://stitch.ai/",
+    "https://stitch.ai/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/5"
+  ],
+  "summary_fr": "Espace de travail IA tout-en-un pour mail, calendrier, notes, tâches et fichiers, avec l'assistant Stitchy intégré.",
+  "description_fr": "Espace de travail IA tout-en-un pour mail, calendrier, notes, tâches et fichiers, avec l'assistant Stitchy intégré.",
+  "features_fr": [
+    "Built-in mail, calendar, tasks, notes, sheets, slides, boards and files",
+    "Stitchy AI assistant",
+    "dual workspace panels",
+    "Knots, tags and connections",
+    "7-day full-feature trial"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Démarre l'essai gratuit de 7 jours sur stitch",
+      "description": "Démarre l'essai gratuit de 7 jours sur stitch.ai (l'espace de travail tout-en-un, pas Google Stitch).",
+      "links": [
+        {
+          "label": "Stitch.ai",
+          "url": "https://stitch.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Importe tes mails et tes fichiers dans l'espace de travail",
+      "description": "Importe tes mails et tes fichiers dans l'espace de travail."
+    },
+    {
+      "title": "Travaille avec l'assistant Stitchy dans les différents panneaux",
+      "description": "Travaille avec l'assistant Stitchy dans les différents panneaux."
+    },
+    {
+      "title": "Choisis Plus",
+      "description": "Choisis Plus, Pro ou Max à la fin de l'essai."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "aeterna",
+  "name": "Aeterna",
+  "url": "https://helloaeterna.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Records your voice, stories and memories so family can keep talking with you later, starting on a free plan.",
+  "description": "Aeterna is a life-story product: you record voice, wisdom and memories so family members can hear you later, including after you are gone. All listed software plans include AES-256 encryption, a private vault, unlimited story topics and mobile access; you can cancel anytime and memories stay after cancellation.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "voice",
+    "memories",
+    "family",
+    "legacy",
+    "storytelling"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://helloaeterna.com/pricing",
+    "details": "Free Forever; Storyteller 44 €/month; Family Legacy 142 €/month; Memory Booster 26 € one-time; optional Time Capsule hardware 1,339 €.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/aeterna.png",
+  "image": "/screenshots/aeterna.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Voice and memory recording for family",
+    "AES-256 vault"
+  ],
+  "howToUse": [
+    {
+      "title": "Open helloaeterna",
+      "description": "Open helloaeterna.com and start on Free Forever.",
+      "links": [
+        {
+          "label": "Aeterna",
+          "url": "https://helloaeterna.com/"
+        }
+      ]
+    },
+    {
+      "title": "Record a first memory",
+      "description": "Record a first memory."
+    },
+    {
+      "title": "Invite a family member if you want",
+      "description": "Invite a family member if you want."
+    },
+    {
+      "title": "Upgrade to Storyteller or Family Legacy on the pricing page if you need more ses",
+      "description": "Upgrade to Storyteller or Family Legacy on the pricing page if you need more sessions."
+    }
+  ],
+  "sources": [
+    "https://helloaeterna.com/",
+    "https://helloaeterna.com/pricing"
+  ],
+  "summary_fr": "Enregistre ta voix, tes histoires et tes souvenirs pour que ta famille puisse continuer à t’entendre, en commençant par une offre gratuite.",
+  "description_fr": "Enregistre ta voix, tes histoires et tes souvenirs pour que ta famille puisse continuer à t’entendre, en commençant par une offre gratuite.",
+  "features_fr": [
+    "Voice and memory recording for family",
+    "AES-256 vault"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre helloaeterna",
+      "description": "Ouvre helloaeterna.com et commence avec Free Forever.",
+      "links": [
+        {
+          "label": "Aeterna",
+          "url": "https://helloaeterna.com/"
+        }
+      ]
+    },
+    {
+      "title": "Enregistre un premier souvenir",
+      "description": "Enregistre un premier souvenir."
+    },
+    {
+      "title": "Invite un membre de ta famille si tu le souhaites",
+      "description": "Invite un membre de ta famille si tu le souhaites."
+    },
+    {
+      "title": "Passe à Storyteller ou Family Legacy sur la page des tarifs si tu as besoin de p",
+      "description": "Passe à Storyteller ou Family Legacy sur la page des tarifs si tu as besoin de plus de sessions."
+    }
+  ]
+}

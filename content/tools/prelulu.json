@@ -1,0 +1,103 @@
+{
+  "id": "prelulu",
+  "name": "Prelulu",
+  "url": "https://prelulu.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Free-to-start app for text, voice and live video calls with AI characters you can pick or create.",
+  "description": "Prelulu is a consumer app for chatting, calling and live video-calling original AI characters, including ones you create, with conversation memory that carries between text and calls. Official web pricing: a daily free text-message allowance forever, plus welcome and check-in credits that can fund a short call. In-app store prices are higher because of store fees.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "ai-characters",
+    "video-chat",
+    "roleplay",
+    "live-avatar",
+    "companions"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://prelulu.ai/pricing",
+    "details": "Daily free text allowance; Plus 9 €/month, Premium 27 €/month, Muse 89 €/month on the web (yearly promo 5 € / 16 € / 54 €).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/prelulu.png",
+  "image": "/screenshots/prelulu.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Live real-time video avatar calls",
+    "voice calls",
+    "text chat with daily free allowance",
+    "create your own characters",
+    "conversation memory",
+    "credit packs",
+    "iPhone and Android apps"
+  ],
+  "howToUse": [
+    {
+      "title": "Open prelulu",
+      "description": "Open prelulu.ai or the mobile app.",
+      "links": [
+        {
+          "label": "Prelulu",
+          "url": "https://prelulu.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Start on the free daily text allowance",
+      "description": "Start on the free daily text allowance."
+    },
+    {
+      "title": "Use welcome credits for a short call if they are offered",
+      "description": "Use welcome credits for a short call if they are offered."
+    },
+    {
+      "title": "Subscribe or buy credits for longer voice and video calls",
+      "description": "Subscribe or buy credits for longer voice and video calls, or to create characters."
+    }
+  ],
+  "sources": [
+    "https://prelulu.ai/",
+    "https://prelulu.ai/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/4"
+  ],
+  "summary_fr": "Applis de chat, d'appels vocaux et vidéo en direct avec des personnages IA, à choisir ou à créer, gratuite pour commencer.",
+  "description_fr": "Applis de chat, d'appels vocaux et vidéo en direct avec des personnages IA, à choisir ou à créer, gratuite pour commencer.",
+  "features_fr": [
+    "Live real-time video avatar calls",
+    "voice calls",
+    "text chat with daily free allowance",
+    "create your own characters",
+    "conversation memory",
+    "credit packs",
+    "iPhone and Android apps"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre prelulu",
+      "description": "Ouvre prelulu.ai ou l'application mobile.",
+      "links": [
+        {
+          "label": "Prelulu",
+          "url": "https://prelulu.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Commence avec le quota quotidien de texte gratuit",
+      "description": "Commence avec le quota quotidien de texte gratuit."
+    },
+    {
+      "title": "Utilise les crédits de bienvenue pour un court appel s'ils sont proposés",
+      "description": "Utilise les crédits de bienvenue pour un court appel s'ils sont proposés."
+    },
+    {
+      "title": "Abonne-toi ou achète des crédits pour des appels vocaux et vidéo plus longs",
+      "description": "Abonne-toi ou achète des crédits pour des appels vocaux et vidéo plus longs, ou pour créer des personnages."
+    }
+  ]
+}

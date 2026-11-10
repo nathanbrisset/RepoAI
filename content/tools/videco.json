@@ -1,0 +1,109 @@
+{
+  "id": "videco",
+  "name": "Videco",
+  "url": "https://www.videco.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Hosts your videos and turns webinars, demos and recordings into AI clips, posts and lead-capture pages.",
+  "description": "Videco is a video hosting and repurposing workspace. Content Studio finds standout moments in a demo, webinar or interview and produces vertical clips, blog drafts and social hooks, then you brand and export them. Hosting adds watch pages with VideoObject schema, personalized share links, booking embeds (Calendly or Cal.com) and a leads workspace with CSV export. New accounts get a 7-day free trial.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "video-hosting",
+    "content-repurposing",
+    "clips",
+    "webinars",
+    "lead-gen"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://videco.io/pricing",
+    "details": "7-day trial; Pro 9 €/month, Business 44 €/month.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/videco.png",
+  "image": "/screenshots/videco.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "AI clip and copy generation",
+    "video hosting and embeds",
+    "VideoObject SEO markup",
+    "personalized landing URLs",
+    "lead capture and booking embeds",
+    "team seats and custom domain (Business)"
+  ],
+  "howToUse": [
+    {
+      "title": "Start the 7-day trial on videco",
+      "description": "Start the 7-day trial on videco.io.",
+      "links": [
+        {
+          "label": "Videco",
+          "url": "https://www.videco.io/"
+        }
+      ]
+    },
+    {
+      "title": "Upload a recording",
+      "description": "Upload a recording."
+    },
+    {
+      "title": "Review the clips and copy in Content Studio",
+      "description": "Review the clips and copy in Content Studio."
+    },
+    {
+      "title": "Publish a watch or lead-capture page",
+      "description": "Publish a watch or lead-capture page."
+    },
+    {
+      "title": "Subscribe to Pro or Business before the trial ends to keep hosting",
+      "description": "Subscribe to Pro or Business before the trial ends to keep hosting."
+    }
+  ],
+  "sources": [
+    "https://videco.io/",
+    "https://videco.io/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/3"
+  ],
+  "summary_fr": "Héberge tes vidéos et transforme webinars, démos et enregistrements en clips IA, posts et pages de capture de leads.",
+  "description_fr": "Héberge tes vidéos et transforme webinars, démos et enregistrements en clips IA, posts et pages de capture de leads.",
+  "features_fr": [
+    "AI clip and copy generation",
+    "video hosting and embeds",
+    "VideoObject SEO markup",
+    "personalized landing URLs",
+    "lead capture and booking embeds",
+    "team seats and custom domain (Business)"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Démarre l'essai de 7 jours sur videco",
+      "description": "Démarre l'essai de 7 jours sur videco.io.",
+      "links": [
+        {
+          "label": "Videco",
+          "url": "https://www.videco.io/"
+        }
+      ]
+    },
+    {
+      "title": "Envoie un enregistrement",
+      "description": "Envoie un enregistrement."
+    },
+    {
+      "title": "Relis les clips et les textes dans Content Studio",
+      "description": "Relis les clips et les textes dans Content Studio."
+    },
+    {
+      "title": "Publie une page de lecture ou de capture de leads",
+      "description": "Publie une page de lecture ou de capture de leads."
+    },
+    {
+      "title": "Abonne-toi à Pro ou Business avant la fin de l'essai pour garder l'hébergement",
+      "description": "Abonne-toi à Pro ou Business avant la fin de l'essai pour garder l'hébergement."
+    }
+  ]
+}

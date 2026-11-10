@@ -1,0 +1,89 @@
+{
+  "id": "longformly",
+  "name": "Longformly",
+  "url": "https://longformly.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns a script into a finished long YouTube-style video with narration, scenes, motion and sound, after a free preview.",
+  "description": "Longformly is a long-form AI video generator for YouTube: you paste a script and get a finished video up to 60 minutes, with narration, scenes, gentle motion and sound. There is no subscription. Failed renders are never charged.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "long-form-video",
+    "youtube",
+    "narration",
+    "pay-per-video"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://longformly.com/pricing",
+    "details": "Free 10-second preview; 9 € per video (first video 6 €), up to 60 minutes; no subscription.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/longformly.png",
+  "image": "/screenshots/longformly.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Script to finished long-form video (up to 60 minutes)",
+    "narration, scenes, motion and sound",
+    "free 10-second preview",
+    "no subscription",
+    "failed renders not charged"
+  ],
+  "howToUse": [
+    {
+      "title": "Open longformly",
+      "description": "Open longformly.com and paste your script.",
+      "links": [
+        {
+          "label": "Longformly",
+          "url": "https://longformly.com/"
+        }
+      ]
+    },
+    {
+      "title": "Watch the free 10-second preview",
+      "description": "Watch the free 10-second preview."
+    },
+    {
+      "title": "Pay once for the full video if you want to keep it",
+      "description": "Pay once for the full video if you want to keep it."
+    }
+  ],
+  "sources": [
+    "https://longformly.com/",
+    "https://longformly.com/pricing"
+  ],
+  "summary_fr": "Transforme un script en vidéo YouTube longue terminée, avec narration, scènes, mouvement et son, après un aperçu gratuit.",
+  "description_fr": "Transforme un script en vidéo YouTube longue terminée, avec narration, scènes, mouvement et son, après un aperçu gratuit.",
+  "features_fr": [
+    "Script to finished long-form video (up to 60 minutes)",
+    "narration, scenes, motion and sound",
+    "free 10-second preview",
+    "no subscription",
+    "failed renders not charged"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre longformly",
+      "description": "Ouvre longformly.com et colle ton script.",
+      "links": [
+        {
+          "label": "Longformly",
+          "url": "https://longformly.com/"
+        }
+      ]
+    },
+    {
+      "title": "Regarde l'aperçu gratuit de 10 secondes",
+      "description": "Regarde l'aperçu gratuit de 10 secondes."
+    },
+    {
+      "title": "Paie une fois pour la vidéo complète si tu veux la garder",
+      "description": "Paie une fois pour la vidéo complète si tu veux la garder."
+    }
+  ]
+}

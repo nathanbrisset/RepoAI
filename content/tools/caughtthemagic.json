@@ -1,0 +1,92 @@
+{
+  "id": "caughtthemagic",
+  "name": "CaughtTheMagic",
+  "url": "https://caughtthemagic.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Uploads a photo of your living room and returns a Santa cam still or video, with a free preview before you buy credits.",
+  "description": "CaughtTheMagic turns a photo of your home into a doorbell, night-vision or security-cam style image of Santa by the tree, and can turn that into a video. You can try a free preview of your own room with no account. There is no subscription: 1 photo uses 1 credit and 1 video uses 4. Failed renders return credits; unused credits can be refunded on request.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "image-generation",
+    "christmas",
+    "santa",
+    "video",
+    "credits"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://caughtthemagic.com/pricing",
+    "details": "Free preview; packs 4 € / 9 € / 18 € (promo 3 € / 6 € / 12 € until 1 Dec 2026). No subscription.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/caughtthemagic.png",
+  "image": "/screenshots/caughtthemagic.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Free room preview, no account needed",
+    "Santa doorbell, night-vision and security-cam styles",
+    "photo and video outputs",
+    "credit packs (no subscription)",
+    "promo prices until 1 Dec",
+    "automatic credit refunds on failed renders"
+  ],
+  "howToUse": [
+    {
+      "title": "Go to caughtthemagic",
+      "description": "Go to caughtthemagic.com and upload a photo of your room.",
+      "links": [
+        {
+          "label": "CaughtTheMagic",
+          "url": "https://caughtthemagic.com/"
+        }
+      ]
+    },
+    {
+      "title": "Check the free preview",
+      "description": "Check the free preview."
+    },
+    {
+      "title": "Buy a credit pack on the pricing page if you want the full photo or video",
+      "description": "Buy a credit pack on the pricing page if you want the full photo or video."
+    }
+  ],
+  "sources": [
+    "https://caughtthemagic.com/",
+    "https://caughtthemagic.com/pricing"
+  ],
+  "summary_fr": "À partir d’une photo de ton salon, crée un cliché ou une vidéo type caméra de Noël avec un aperçu gratuit avant d’acheter des crédits.",
+  "description_fr": "À partir d’une photo de ton salon, crée un cliché ou une vidéo type caméra de Noël avec un aperçu gratuit avant d’acheter des crédits.",
+  "features_fr": [
+    "Free room preview, no account needed",
+    "Santa doorbell, night-vision and security-cam styles",
+    "photo and video outputs",
+    "credit packs (no subscription)",
+    "promo prices until 1 Dec",
+    "automatic credit refunds on failed renders"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Va sur caughtthemagic",
+      "description": "Va sur caughtthemagic.com et envoie une photo de ton salon.",
+      "links": [
+        {
+          "label": "CaughtTheMagic",
+          "url": "https://caughtthemagic.com/"
+        }
+      ]
+    },
+    {
+      "title": "Vérifie l'aperçu gratuit",
+      "description": "Vérifie l'aperçu gratuit."
+    },
+    {
+      "title": "Achète un pack de crédits sur la page des tarifs si tu veux la photo ou la vidéo",
+      "description": "Achète un pack de crédits sur la page des tarifs si tu veux la photo ou la vidéo complète."
+    }
+  ]
+}

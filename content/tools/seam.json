@@ -1,0 +1,99 @@
+{
+  "id": "seam",
+  "name": "seam",
+  "url": "https://getseam.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Mac app that turns the notch into a Dynamic Island for on-device dictation, music, a focus timer and Claude Code status.",
+  "description": "seam is a native macOS utility that turns the MacBook notch into a Dynamic Island-style control center. Features listed by the maker include on-device voice-to-text dictation into any app, music controls, calendar, a focus timer, battery status, and a notification when Claude Code finishes.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "macos",
+    "notch",
+    "dictation",
+    "claude-code",
+    "menu-bar"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "18 € one-time; 48-hour trial, no card.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/seam.png",
+  "image": "/screenshots/seam.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Notch Dynamic Island UI",
+    "on-device dictation into any app",
+    "music and calendar controls",
+    "focus timer",
+    "Claude Code completion status",
+    "48-hour trial with no card"
+  ],
+  "howToUse": [
+    {
+      "title": "Download seam for Mac from getseam",
+      "description": "Download seam for Mac from getseam.app.",
+      "links": [
+        {
+          "label": "seam",
+          "url": "https://getseam.app/"
+        }
+      ]
+    },
+    {
+      "title": "Try the 48-hour free trial",
+      "description": "Try the 48-hour free trial; no card is required."
+    },
+    {
+      "title": "Use on-device dictation",
+      "description": "Use on-device dictation, the notch controls and Claude Code status."
+    },
+    {
+      "title": "Pay once if you want to keep the app",
+      "description": "Pay once if you want to keep the app."
+    }
+  ],
+  "sources": [
+    "https://getseam.app/",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/7"
+  ],
+  "summary_fr": "Applis Mac qui transforme l'encoche en Dynamic Island : dictée locale, musique, minuteur de focus et statut de Claude Code.",
+  "description_fr": "Applis Mac qui transforme l'encoche en Dynamic Island : dictée locale, musique, minuteur de focus et statut de Claude Code.",
+  "features_fr": [
+    "Notch Dynamic Island UI",
+    "on-device dictation into any app",
+    "music and calendar controls",
+    "focus timer",
+    "Claude Code completion status",
+    "48-hour trial with no card"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Télécharge seam pour Mac sur getseam",
+      "description": "Télécharge seam pour Mac sur getseam.app.",
+      "links": [
+        {
+          "label": "seam",
+          "url": "https://getseam.app/"
+        }
+      ]
+    },
+    {
+      "title": "Essaie l'essai gratuit de 48 heures",
+      "description": "Essaie l'essai gratuit de 48 heures, sans carte."
+    },
+    {
+      "title": "Utilise la dictée locale",
+      "description": "Utilise la dictée locale, les contrôles de l'encoche et le statut de Claude Code."
+    },
+    {
+      "title": "Paie une fois si tu veux garder l'application",
+      "description": "Paie une fois si tu veux garder l'application."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "embage",
+  "name": "Embage",
+  "url": "https://embage.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Puts a chat or voice agent on your website or Telegram that can talk to visitors, act in your tools, and review the conversation afterwards.",
+  "description": "Embage is a builder for customer chat and voice agents on your website and Telegram. An agent can talk with visitors, act in your tools, and a post-conversation subagent analyses what happened after they leave. Voice is priced per session. Paid plans include Embage credits.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "customer-support",
+    "voice-agents",
+    "chat-widget",
+    "telegram",
+    "marketing"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://embage.com/pricing",
+    "details": "Free with your own API key; Starter 7 days free then 17 €/month; Pro 7 days free then 53 €/month.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/embage.png",
+  "image": "/screenshots/embage.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Website and Telegram chat/voice agents",
+    "post-conversation subagent analysis",
+    "Free plan with your own API key",
+    "voice priced per session",
+    "Enterprise listed"
+  ],
+  "howToUse": [
+    {
+      "title": "Open embage",
+      "description": "Open embage.com and build a customer agent.",
+      "links": [
+        {
+          "label": "Embage",
+          "url": "https://embage.com/"
+        }
+      ]
+    },
+    {
+      "title": "Connect it to your site or Telegram",
+      "description": "Connect it to your site or Telegram."
+    },
+    {
+      "title": "Start on the Free plan with your own API key",
+      "description": "Start on the Free plan with your own API key, or try Starter or Pro with the 7-day free period."
+    }
+  ],
+  "sources": [
+    "https://embage.com/",
+    "https://embage.com/pricing"
+  ],
+  "summary_fr": "Place un agent chat ou voix sur ton site ou Telegram, qui parle aux visiteurs, agit dans tes outils, puis relit la conversation ensuite.",
+  "description_fr": "Place un agent chat ou voix sur ton site ou Telegram, qui parle aux visiteurs, agit dans tes outils, puis relit la conversation ensuite.",
+  "features_fr": [
+    "Website and Telegram chat/voice agents",
+    "post-conversation subagent analysis",
+    "Free plan with your own API key",
+    "voice priced per session",
+    "Enterprise listed"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre embage",
+      "description": "Ouvre embage.com et crée un agent client.",
+      "links": [
+        {
+          "label": "Embage",
+          "url": "https://embage.com/"
+        }
+      ]
+    },
+    {
+      "title": "Connecte-le à ton site ou à Telegram",
+      "description": "Connecte-le à ton site ou à Telegram."
+    },
+    {
+      "title": "Commence sur l'offre Gratuite avec ta propre clé API",
+      "description": "Commence sur l'offre Gratuite avec ta propre clé API, ou essaie Starter ou Pro avec les 7 jours offerts."
+    }
+  ]
+}

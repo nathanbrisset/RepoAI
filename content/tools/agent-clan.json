@@ -1,0 +1,111 @@
+{
+  "id": "agent-clan",
+  "name": "Agent Clan",
+  "url": "https://agentclan.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Puts Claude Code and Codex agents on your screen as a 3D team you steer with gestures, voice or a mouse.",
+  "description": "Agent Clan is a desktop app for Mac and Windows that shows your Claude Code and Codex agents as a 3D team on the screen. You can summon them with a fist, pinch to select one, speak a request, swipe to allow or deny a permission prompt, or circle something on screen to hand it over. A leader can split work across a crew. Hand tracking and voice run on the computer; everything also works with a mouse.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "coding-agents",
+    "gestures",
+    "desktop",
+    "claude-code",
+    "codex"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free; Pro 17 € one-time (launch price 13 € also shown).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/agent-clan.png",
+  "image": "/screenshots/agent-clan.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "3D on-screen agent team",
+    "gesture and voice control",
+    "permission allow/deny gestures",
+    "screen-region handoff",
+    "mouse fallback",
+    "Free plan",
+    "Pro one-time purchase",
+    "Mac and Windows"
+  ],
+  "howToUse": [
+    {
+      "title": "Install the free Mac or Windows app",
+      "description": "Install the free Mac or Windows app.",
+      "links": [
+        {
+          "label": "Agent Clan",
+          "url": "https://agentclan.app/"
+        }
+      ]
+    },
+    {
+      "title": "Connect Claude Code or Codex",
+      "description": "Connect Claude Code or Codex."
+    },
+    {
+      "title": "Summon agents with a gesture",
+      "description": "Summon agents with a gesture, voice or the mouse."
+    },
+    {
+      "title": "Approve or deny permission prompts on screen",
+      "description": "Approve or deny permission prompts on screen."
+    },
+    {
+      "title": "Buy Pro as a one-time purchase if you want the paid features",
+      "description": "Buy Pro as a one-time purchase if you want the paid features."
+    }
+  ],
+  "sources": [
+    "https://agentclan.app/",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/8"
+  ],
+  "summary_fr": "Affiche tes agents Claude Code et Codex en équipe 3D à l'écran, dirigée au geste, à la voix ou à la souris.",
+  "description_fr": "Affiche tes agents Claude Code et Codex en équipe 3D à l'écran, dirigée au geste, à la voix ou à la souris.",
+  "features_fr": [
+    "3D on-screen agent team",
+    "gesture and voice control",
+    "permission allow/deny gestures",
+    "screen-region handoff",
+    "mouse fallback",
+    "Free plan",
+    "Pro one-time purchase",
+    "Mac and Windows"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Installe l'application gratuite pour Mac ou Windows",
+      "description": "Installe l'application gratuite pour Mac ou Windows.",
+      "links": [
+        {
+          "label": "Agent Clan",
+          "url": "https://agentclan.app/"
+        }
+      ]
+    },
+    {
+      "title": "Connecte Claude Code ou Codex",
+      "description": "Connecte Claude Code ou Codex."
+    },
+    {
+      "title": "Fais apparaître tes agents au geste",
+      "description": "Fais apparaître tes agents au geste, à la voix ou à la souris."
+    },
+    {
+      "title": "Accepte ou refuse les demandes de permission à l'écran",
+      "description": "Accepte ou refuse les demandes de permission à l'écran."
+    },
+    {
+      "title": "Achète Pro en paiement unique si tu veux les fonctions payantes",
+      "description": "Achète Pro en paiement unique si tu veux les fonctions payantes."
+    }
+  ]
+}

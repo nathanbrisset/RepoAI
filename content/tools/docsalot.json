@@ -1,0 +1,101 @@
+{
+  "id": "docsalot",
+  "name": "DocsAlot",
+  "url": "https://docsalot.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns help-center and developer docs into one source of truth for humans and AI agents, with MCP, llms.txt and a support bot.",
+  "description": "DocsAlot unifies scattered help-center articles, knowledge bases and developer docs so people and AI agents read the same source. It includes hosted MCP, llms.txt and skill.md, and a Slack and Discord bot that answers customer questions from those docs. Enterprise is custom (not self-serve checkout).",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "documentation",
+    "knowledge-base",
+    "mcp",
+    "llms-txt",
+    "customer-support"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://docsalot.dev/pricing",
+    "details": "Startup 71 €/month, Team 133 €/month; Enterprise custom.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/docsalot.png",
+  "image": "/screenshots/docsalot.webp",
+  "dateAdded": "2026-11-10",
+  "lastVerified": "2026-11-10",
+  "features": [
+    "Unified docs for humans and agents",
+    "hosted MCP",
+    "llms.txt and skill.md",
+    "Slack and Discord answer bot",
+    "public and private doc surfaces (Team)",
+    "Startup and Team self-serve plans"
+  ],
+  "howToUse": [
+    {
+      "title": "Connect or publish your help center and developer docs",
+      "description": "Connect or publish your help center and developer docs.",
+      "links": [
+        {
+          "label": "DocsAlot",
+          "url": "https://docsalot.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Enable MCP and llms",
+      "description": "Enable MCP and llms.txt so agents stay current."
+    },
+    {
+      "title": "Add the Slack or Discord bot for customer questions",
+      "description": "Add the Slack or Discord bot for customer questions."
+    },
+    {
+      "title": "Pick Startup or Team on the pricing page",
+      "description": "Pick Startup or Team on the pricing page."
+    }
+  ],
+  "sources": [
+    "https://docsalot.dev/",
+    "https://docsalot.dev/pricing",
+    "https://www.producthunt.com/leaderboard/daily/2026/11/8"
+  ],
+  "summary_fr": "Regroupe docs support et développeurs en une source unique pour humains et agents IA, avec MCP, llms.txt et un bot d'assistance.",
+  "description_fr": "Regroupe docs support et développeurs en une source unique pour humains et agents IA, avec MCP, llms.txt et un bot d'assistance.",
+  "features_fr": [
+    "Unified docs for humans and agents",
+    "hosted MCP",
+    "llms.txt and skill.md",
+    "Slack and Discord answer bot",
+    "public and private doc surfaces (Team)",
+    "Startup and Team self-serve plans"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Connecte ou publie ta base d'aide et tes docs développeurs",
+      "description": "Connecte ou publie ta base d'aide et tes docs développeurs.",
+      "links": [
+        {
+          "label": "DocsAlot",
+          "url": "https://docsalot.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Active MCP et llms",
+      "description": "Active MCP et llms.txt pour que les agents restent à jour."
+    },
+    {
+      "title": "Ajoute le bot Slack ou Discord pour les questions clients",
+      "description": "Ajoute le bot Slack ou Discord pour les questions clients."
+    },
+    {
+      "title": "Choisis Startup ou Team sur la page des tarifs",
+      "description": "Choisis Startup ou Team sur la page des tarifs."
+    }
+  ]
+}
