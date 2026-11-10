@@ -14,6 +14,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const importDir = path.join(root, "data/import-2026-11-10")
 const csvPath = path.join(importDir, "lot.csv")
 const copyPath = path.join(importDir, "copy-37.json")
+const featuresEnPath = path.join(importDir, "features-en-37.json")
+const featuresFrPath = path.join(importDir, "features-fr-37.json")
 const md5Path = path.join(importDir, "md5.json")
 const deliverLogos = path.join(importDir, "deliver/logos")
 const deliverShots = path.join(importDir, "deliver/screenshots")
@@ -322,6 +324,21 @@ function main() {
   }
 
   const copyBySlug = Object.fromEntries(copyEntries.map((entry) => [entry.slug, entry]))
+  const featuresEnBySlug = JSON.parse(fs.readFileSync(featuresEnPath, "utf8"))
+  const featuresFrBySlug = JSON.parse(fs.readFileSync(featuresFrPath, "utf8"))
+  for (const slug of SLUGS) {
+    const en = featuresEnBySlug[slug]
+    const frFeat = featuresFrBySlug[slug]
+    if (!en?.length) throw new Error(`features-en-37.json missing or empty for ${slug}`)
+    if (!frFeat?.length) throw new Error(`features-fr-37.json missing or empty for ${slug}`)
+    if (en.length !== frFeat.length) {
+      throw new Error(`features count mismatch for ${slug}: EN ${en.length} vs FR ${frFeat.length}`)
+    }
+  }
+  const featureSlugKeys = new Set([...Object.keys(featuresEnBySlug), ...Object.keys(featuresFrBySlug)])
+  if (featureSlugKeys.size !== SLUGS.length) {
+    throw new Error(`Expected ${SLUGS.length} feature slugs, got ${featureSlugKeys.size}`)
+  }
   const expectedMd5 = JSON.parse(fs.readFileSync(md5Path, "utf8"))
   const existingIds = new Set(JSON.parse(fs.readFileSync(toolIdsPath, "utf8")))
   const thisLotDeliverSlugs = new Set(SLUGS)
@@ -381,7 +398,11 @@ function main() {
       throw new Error(`pricing_fr must be EUR-only for ${id}`)
     }
 
-    const features = splitList(row.features)
+    const features = featuresEnBySlug[deliverSlug].map((item) => String(item).trim()).filter(Boolean)
+    const featuresFr = featuresFrBySlug[deliverSlug].map((item) => String(item).trim()).filter(Boolean)
+    if (featuresFr.some((line) => USD_IN_DISPLAY.test(line))) {
+      throw new Error(`features_fr must not include USD for ${id}`)
+    }
     const howToUse = howToStepsFromStrings(copy.howTo_en, name, url)
     const howToUseFr = howToStepsFromStrings(copy.howTo_fr, name, url)
 
@@ -400,7 +421,7 @@ function main() {
       image: `/screenshots/${id}.webp`,
       dateAdded: VERIFIED,
       lastVerified: VERIFIED,
-      ...(features.length ? { features } : {}),
+      features,
       ...(howToUse?.length ? { howToUse } : {}),
       ...parseHqCountry(row.hqCountry),
     }
@@ -414,9 +435,7 @@ function main() {
       tool.description_fr = summaryFr
     }
 
-    if (summaryFr && features.length) {
-      tool.features_fr = features
-    }
+    tool.features_fr = featuresFr
 
     if (howToUseFr?.length) {
       tool.howToUse_fr = howToUseFr
