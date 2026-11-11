@@ -1,0 +1,80 @@
+{
+  "id": "rapvid",
+  "name": "RapVid",
+  "url": "https://rapvid.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns photos into short AI rap videos, with a free first clip, one-time credit packs from 5 € and monthly plans from 12 €.",
+  "description": "RapVid generates solo, duo or battle-style AI rap videos from photos. A standard 12-second 720p video is 25 credits; failed renders are refunded. Official pricing: the first 5-second clip is free (480p with a RapVid watermark, one per account).",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "rap",
+    "video-generation",
+    "music",
+    "credits",
+    "entertainment"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://rapvid.ai/pricing",
+    "details": "First 5-second watermarked clip free (one per account). One-time packs that never expire: 5 € (25 credits), 13 € (100), 36 € (300), 89 € (800). Lite 12 €/month (100 credits); Pro 27 €/month (250 credits). Monthly credits do not roll over. Failed renders are refunded.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/rapvid.png",
+  "image": "/screenshots/rapvid.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Photo-to-rap-video in solo, duo or battle styles",
+    "First clip free",
+    "One-time packs that never expire, plus monthly plans",
+    "Failed renders refunded"
+  ],
+  "howToUse": [
+    {
+      "title": "Open rapvid.ai and generate the free 5-second first clip.",
+      "description": "Open rapvid.ai and generate the free 5-second first clip.",
+      "links": [
+        {
+          "label": "RapVid",
+          "url": "https://rapvid.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Buy a one-time credit pack or subscribe to Lite or Pro if you want more videos.",
+      "description": "Buy a one-time credit pack or subscribe to Lite or Pro if you want more videos."
+    }
+  ],
+  "sources": [
+    "https://rapvid.ai/",
+    "https://rapvid.ai/pricing"
+  ],
+  "summary_fr": "Transforme des photos en courtes vidéos rap IA, avec un premier clip offert, des packs de crédits dès 5 € et des abonnements dès 12 € par mois.",
+  "description_fr": "Transforme des photos en courtes vidéos rap IA, avec un premier clip offert, des packs de crédits dès 5 € et des abonnements dès 12 € par mois.",
+  "features_fr": [
+    "Photos transformées en clips rap (solo, duo ou battle)",
+    "Premier clip offert",
+    "Packs ponctuels sans expiration et abonnements mensuels",
+    "Rendus échoués remboursés"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre rapvid.ai et génère le premier clip gratuit de 5 secondes.",
+      "description": "Ouvre rapvid.ai et génère le premier clip gratuit de 5 secondes.",
+      "links": [
+        {
+          "label": "RapVid",
+          "url": "https://rapvid.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Achète un pack de crédits ou abonne-toi à Lite ou Pro si tu veux plus de vidéos.",
+      "description": "Achète un pack de crédits ou abonne-toi à Lite ou Pro si tu veux plus de vidéos."
+    }
+  ]
+}

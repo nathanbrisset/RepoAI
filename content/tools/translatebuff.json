@@ -1,0 +1,88 @@
+{
+  "id": "translatebuff",
+  "name": "TranslateBuff",
+  "url": "https://www.translatebuff.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A browser extension that translates web pages and selected text, with a free trial and Pro plans billed at clear annual or multi-month totals.",
+  "description": "TranslateBuff is an AI translation browser extension for full pages and selected text, with side-by-side reading and 20+ models on Pro. The footer names Junyun Limited.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "translation",
+    "browser-extension",
+    "writing",
+    "bilingual",
+    "web"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.translatebuff.com/pricing",
+    "details": "Free trial (basic translation). Pro Annual 46 €/year (4 €/month equivalent, 2M tokens/month); Pro 2 Months 12 € every 2 months (6 €/month equivalent, 2.5M tokens/month); Pro 3 Years 54 € every 36 months (1 €/month equivalent, 1.5M tokens/month).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/translatebuff.png",
+  "image": "/screenshots/translatebuff.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Browser extension for full pages and selected text",
+    "Side-by-side reading",
+    "20+ models on Pro",
+    "Free basic trial"
+  ],
+  "howToUse": [
+    {
+      "title": "Install TranslateBuff from translatebuff.com.",
+      "description": "Install TranslateBuff from translatebuff.com.",
+      "links": [
+        {
+          "label": "TranslateBuff",
+          "url": "https://www.translatebuff.com/"
+        }
+      ]
+    },
+    {
+      "title": "Try the free basic translation in your browser.",
+      "description": "Try the free basic translation in your browser."
+    },
+    {
+      "title": "Pick Pro Annual, Pro 2 Months or Pro 3 Years if you want the larger models and token...",
+      "description": "Pick Pro Annual, Pro 2 Months or Pro 3 Years if you want the larger models and token allowances."
+    }
+  ],
+  "sources": [
+    "https://www.translatebuff.com/",
+    "https://www.translatebuff.com/pricing"
+  ],
+  "summary_fr": "Une extension de navigateur qui traduit les pages et le texte sélectionné, avec un essai gratuit et des offres Pro dont les totaux de facturation sont affichés clairement.",
+  "description_fr": "Une extension de navigateur qui traduit les pages et le texte sélectionné, avec un essai gratuit et des offres Pro dont les totaux de facturation sont affichés clairement.",
+  "features_fr": [
+    "Extension de navigateur pour les pages entières et le texte sélectionné",
+    "Lecture côte à côte",
+    "Plus de 20 modèles sur Pro",
+    "Essai gratuit de la traduction de base"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Installe TranslateBuff depuis translatebuff.com.",
+      "description": "Installe TranslateBuff depuis translatebuff.com.",
+      "links": [
+        {
+          "label": "TranslateBuff",
+          "url": "https://www.translatebuff.com/"
+        }
+      ]
+    },
+    {
+      "title": "Essaie la traduction de base gratuite dans ton navigateur.",
+      "description": "Essaie la traduction de base gratuite dans ton navigateur."
+    },
+    {
+      "title": "Choisis Pro Annual, Pro 2 Months ou Pro 3 Years si tu veux les modèles plus avancés et...",
+      "description": "Choisis Pro Annual, Pro 2 Months ou Pro 3 Years si tu veux les modèles plus avancés et plus de jetons."
+    }
+  ]
+}

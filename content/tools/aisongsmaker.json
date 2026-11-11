@@ -1,0 +1,80 @@
+{
+  "id": "aisongsmaker",
+  "name": "AISongsMaker",
+  "url": "https://aisongsmaker.org/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Generates songs from an idea or lyrics, with a free 30-credit start and Starter, Creator and Studio plans that show both monthly and yearly prices.",
+  "description": "AISongsMaker is an AI music generator with covers, stems, extend/replace tools and MP3/WAV export. The page also advertises a TAAFT-linked Black Friday promo; only the standard official plan prices above are recorded here.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "music",
+    "song-generation",
+    "covers",
+    "stems",
+    "lyrics"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://aisongsmaker.org/pricing",
+    "details": "Free (30 credits once). Starter 11 €/month or 96 €/year; Creator 18 €/month or 160 €/year (commercial use, songs kept forever); Studio 45 €/month or 321 €/year.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/aisongsmaker.png",
+  "image": "/screenshots/aisongsmaker.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Songs from an idea or lyrics, plus covers and stems",
+    "MP3/WAV export",
+    "Free 30-credit start",
+    "Commercial use on Creator and Studio"
+  ],
+  "howToUse": [
+    {
+      "title": "Open aisongsmaker.org and generate a first song with the 30 free credits.",
+      "description": "Open aisongsmaker.org and generate a first song with the 30 free credits.",
+      "links": [
+        {
+          "label": "AISongsMaker",
+          "url": "https://aisongsmaker.org/"
+        }
+      ]
+    },
+    {
+      "title": "Choose Starter, Creator or Studio (monthly or yearly) if you want more credits and...",
+      "description": "Choose Starter, Creator or Studio (monthly or yearly) if you want more credits and commercial use."
+    }
+  ],
+  "sources": [
+    "https://aisongsmaker.org/",
+    "https://aisongsmaker.org/pricing"
+  ],
+  "summary_fr": "Génère des chansons à partir d’une idée ou de paroles, avec 30 crédits offerts et des offres Starter, Creator et Studio dont les prix mensuels et annuels sont affichés.",
+  "description_fr": "Génère des chansons à partir d’une idée ou de paroles, avec 30 crédits offerts et des offres Starter, Creator et Studio dont les prix mensuels et annuels sont affichés.",
+  "features_fr": [
+    "Chansons à partir d’une idée ou de paroles, plus reprises et stems",
+    "Export MP3/WAV",
+    "30 crédits offerts pour commencer",
+    "Usage commercial sur Creator et Studio"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre aisongsmaker.org et génère une première chanson avec les 30 crédits offerts.",
+      "description": "Ouvre aisongsmaker.org et génère une première chanson avec les 30 crédits offerts.",
+      "links": [
+        {
+          "label": "AISongsMaker",
+          "url": "https://aisongsmaker.org/"
+        }
+      ]
+    },
+    {
+      "title": "Choisis Starter, Creator ou Studio (mensuel ou annuel) si tu veux plus de crédits et...",
+      "description": "Choisis Starter, Creator ou Studio (mensuel ou annuel) si tu veux plus de crédits et l’usage commercial."
+    }
+  ]
+}

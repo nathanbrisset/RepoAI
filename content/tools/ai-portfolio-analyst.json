@@ -1,0 +1,86 @@
+{
+  "id": "ai-portfolio-analyst",
+  "name": "AI Portfolio Analyst",
+  "url": "https://www.aiportfolioanalyst.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Analyses a stock portfolio with buy/hold/sell-style scores, risk and news, from a free Silver plan up to paid Gold, Platinum and Diamond tiers.",
+  "description": "AI Portfolio Analyst is a web and mobile stock-portfolio tool: you upload holdings, and it analyses fundamentals, technicals and news. A separate /pricing path was not published (it redirected or 404’d); these amounts are from the official homepage offer markup.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "finance",
+    "stocks",
+    "portfolio",
+    "investing",
+    "analysis"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Silver free forever (20 analyses/day); Gold 9 €/month (100 analyses/day, up to 5 virtual portfolios); Platinum 45 €/month (200 analyses/day, optimization, alerts and API); Diamond 178 €/month (500 requests/day, dedicated support, custom integrations and white-label).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/ai-portfolio-analyst.png",
+  "image": "/screenshots/ai-portfolio-analyst.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Stock portfolio analysis with fundamentals, technicals and news",
+    "Buy/hold/sell-style scores and risk assessment",
+    "Virtual portfolios on paid plans",
+    "Free Silver plan"
+  ],
+  "howToUse": [
+    {
+      "title": "Open aiportfolioanalyst.com and start on the free Silver plan.",
+      "description": "Open aiportfolioanalyst.com and start on the free Silver plan.",
+      "links": [
+        {
+          "label": "AI Portfolio Analyst",
+          "url": "https://www.aiportfolioanalyst.com/"
+        }
+      ]
+    },
+    {
+      "title": "Upload or import holdings and read the analysis.",
+      "description": "Upload or import holdings and read the analysis."
+    },
+    {
+      "title": "Upgrade to Gold, Platinum or Diamond if you need more daily analyses or virtual...",
+      "description": "Upgrade to Gold, Platinum or Diamond if you need more daily analyses or virtual portfolios."
+    }
+  ],
+  "sources": [
+    "https://www.aiportfolioanalyst.com/"
+  ],
+  "summary_fr": "Analyse un portefeuille d’actions avec des scores, le risque et l’actualité, depuis une offre Silver gratuite jusqu’aux offres Gold, Platinum et Diamond.",
+  "description_fr": "Analyse un portefeuille d’actions avec des scores, le risque et l’actualité, depuis une offre Silver gratuite jusqu’aux offres Gold, Platinum et Diamond.",
+  "features_fr": [
+    "Analyse de portefeuille (fondamentaux, technique et actualité)",
+    "Scores et évaluation du risque",
+    "Portefeuilles virtuels sur les offres payantes",
+    "Offre Silver gratuite"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre aiportfolioanalyst.com et commence sur l’offre Silver gratuite.",
+      "description": "Ouvre aiportfolioanalyst.com et commence sur l’offre Silver gratuite.",
+      "links": [
+        {
+          "label": "AI Portfolio Analyst",
+          "url": "https://www.aiportfolioanalyst.com/"
+        }
+      ]
+    },
+    {
+      "title": "Envoie ou importe tes titres et lis l’analyse.",
+      "description": "Envoie ou importe tes titres et lis l’analyse."
+    },
+    {
+      "title": "Passe à Gold, Platinum ou Diamond si tu as besoin de plus d’analyses quotidiennes ou de...",
+      "description": "Passe à Gold, Platinum ou Diamond si tu as besoin de plus d’analyses quotidiennes ou de portefeuilles virtuels."
+    }
+  ]
+}

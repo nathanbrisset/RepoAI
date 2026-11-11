@@ -1,0 +1,74 @@
+{
+  "id": "alsona",
+  "name": "Alsona",
+  "url": "https://alsona.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI sales agents that track 32+ buying signals, score accounts against your ICP and run personalised LinkedIn and email outreach to book calls.",
+  "description": "AI sales agents that track 32+ buying signals, score accounts against your ICP and run personalised LinkedIn and email outreach to book calls.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "sales",
+    "lead-generation",
+    "linkedin",
+    "outreach",
+    "intent-data"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://alsona.com/pricing",
+    "details": "7-day free trial on every plan. Starter 88 €/month (500 high-intent prospects, 2 agents); Pro 133 €/month (2,500 prospects, 8 agents); Ultra 445 €/month (10,000 prospects, unlimited agents). Extra sender 53 €/month.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/alsona.png",
+  "image": "/screenshots/alsona.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Buying-signal tracking (hiring, funding, tech changes, reviews, ad spend…)",
+    "Intent-based lead scoring",
+    "AI-written LinkedIn and email outreach",
+    "Unified inbox and approval mode",
+    "MCP server and API on Pro"
+  ],
+  "howToUse": [
+    {
+      "title": "Start the 7-day trial on alsona.com, describe your ICP, let the setup assistant build an...",
+      "description": "Start the 7-day trial on alsona.com, describe your ICP, let the setup assistant build an outreach plan, review the AI messages in approval mode, then pick Starter, Pro or Ultra.",
+      "links": [
+        {
+          "label": "Alsona",
+          "url": "https://alsona.com/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/leaderboard/daily/2026/11/10",
+    "https://alsona.com/pricing"
+  ],
+  "summary_fr": "Des agents IA commerciaux qui suivent plus de 32 signaux d’achat, notent les comptes selon ton ICP et mènent une prospection LinkedIn + email personnalisée pour décrocher des rendez-vous.",
+  "description_fr": "Des agents IA commerciaux qui suivent plus de 32 signaux d’achat, notent les comptes selon ton ICP et mènent une prospection LinkedIn + email personnalisée pour décrocher des rendez-vous.",
+  "features_fr": [
+    "Suivi des signaux d’achat (recrutements, levées, stack, avis, dépenses pub…)",
+    "Scoring d’intention",
+    "Prospection LinkedIn et e-mail rédigée par IA",
+    "Boîte de réception unifiée et mode validation",
+    "Serveur MCP et API sur Pro"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Démarre l’essai de 7 jours sur alsona.com, décris ton ICP, laisse l’assistant de...",
+      "description": "Démarre l’essai de 7 jours sur alsona.com, décris ton ICP, laisse l’assistant de configuration construire un plan de prospection, relis les messages en mode validation, puis choisis Starter, Pro ou Ultra.",
+      "links": [
+        {
+          "label": "Alsona",
+          "url": "https://alsona.com/"
+        }
+      ]
+    }
+  ]
+}

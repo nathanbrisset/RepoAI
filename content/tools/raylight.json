@@ -1,0 +1,74 @@
+{
+  "id": "raylight",
+  "name": "Raylight",
+  "url": "https://www.raylight.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A 3D motion-design canvas for launch videos and product demos that you can edit yourself or let Claude, ChatGPT or Cursor edit on the same canvas.",
+  "description": "A 3D motion-design canvas for launch videos and product demos that you can edit yourself or let Claude, ChatGPT or Cursor edit on the same canvas.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "motion-design",
+    "3d",
+    "product-videos",
+    "mcp",
+    "animation"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.raylight.app/pricing",
+    "details": "Free (1080p60 exports with a badge, pay-as-you-go AI credits). Hobby 13 €/month or 11 €/month yearly; Pro 26 €/month or 21 €/month yearly; Max 53 €/month or 44 €/month yearly; Team 267 €/month or 213 €/month yearly (up to 10 editors).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/raylight.png",
+  "image": "/screenshots/raylight.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "3D motion-design canvas for launch videos and product demos",
+    "Edit yourself or let Claude, ChatGPT or Cursor edit the same canvas",
+    "Music, SFX and voiceover",
+    "MCP server, API and Capture for Mac",
+    "Template marketplace"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up free on raylight.app, start from a template or a blank 3D canvas, animate your...",
+      "description": "Sign up free on raylight.app, start from a template or a blank 3D canvas, animate your product or ask your AI app via MCP, then export; upgrade for 4K and no badge.",
+      "links": [
+        {
+          "label": "Raylight",
+          "url": "https://www.raylight.app/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://theresanaiforthat.com/just-launched/",
+    "https://www.raylight.app/pricing"
+  ],
+  "summary_fr": "Un canevas de motion design 3D pour vidéos de lancement et démos produit, à éditer toi-même ou à confier à Claude, ChatGPT ou Cursor sur le même canevas.",
+  "description_fr": "Un canevas de motion design 3D pour vidéos de lancement et démos produit, à éditer toi-même ou à confier à Claude, ChatGPT ou Cursor sur le même canevas.",
+  "features_fr": [
+    "Canevas de motion design 3D pour vidéos de lancement et démos produit",
+    "À éditer toi-même ou à confier à Claude, ChatGPT ou Cursor sur le même canevas",
+    "Musique, effets et voix off",
+    "Serveur MCP, API et Capture pour Mac",
+    "Marketplace de modèles"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Inscris-toi gratuitement sur raylight.app, pars d’un modèle ou d’un canevas 3D vide,...",
+      "description": "Inscris-toi gratuitement sur raylight.app, pars d’un modèle ou d’un canevas 3D vide, anime ton produit ou demande à ton appli IA via MCP, puis exporte ; passe à une offre payante pour le 4K et sans badge.",
+      "links": [
+        {
+          "label": "Raylight",
+          "url": "https://www.raylight.app/"
+        }
+      ]
+    }
+  ]
+}

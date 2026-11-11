@@ -1,0 +1,74 @@
+{
+  "id": "epivoke",
+  "name": "Epivoke",
+  "url": "https://epivoke.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns a topic or script into a long-form, narrated and animated documentary-style YouTube video ready to upload.",
+  "description": "Turns a topic or script into a long-form, narrated and animated documentary-style YouTube video ready to upload.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "youtube",
+    "long-form-video",
+    "documentary",
+    "faceless-video",
+    "text-to-video"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://epivoke.com/pricing",
+    "details": "Starter 35 €/month (~20 min of finished video); Pro 88 €/month (~60 min); Studio 222 €/month (~170 min). Yearly billing 20% off (yearly totals not published). Failed videos are refunded; full refund within 7 days if no credits were used.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/epivoke.png",
+  "image": "/screenshots/epivoke.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Long-form narrated and animated documentary-style YouTube videos (8–60 min)",
+    "Script writing and review, with 20 free rewrites per video",
+    "Visuals chosen line by line from licensed stock and archives",
+    "Animated maps, timelines and charts",
+    "Failed videos refunded"
+  ],
+  "howToUse": [
+    {
+      "title": "Enter a topic or paste a script on epivoke.com, review and edit the script, generate the...",
+      "description": "Enter a topic or paste a script on epivoke.com, review and edit the script, generate the video, check it and upload it to YouTube.",
+      "links": [
+        {
+          "label": "Epivoke",
+          "url": "https://epivoke.com/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://theresanaiforthat.com/just-launched/",
+    "https://epivoke.com/pricing"
+  ],
+  "summary_fr": "Transforme un sujet ou un script en longue vidéo YouTube de type documentaire, narrée et animée, prête à publier.",
+  "description_fr": "Transforme un sujet ou un script en longue vidéo YouTube de type documentaire, narrée et animée, prête à publier.",
+  "features_fr": [
+    "Longues vidéos YouTube narrées et animées, style documentaire (8 à 60 min)",
+    "Écriture et relecture du script, avec 20 réécritures offertes par vidéo",
+    "Visuels choisis ligne par ligne dans des banques sous licence",
+    "Cartes, frises et graphiques animés",
+    "Vidéos échouées remboursées"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Saisis un sujet ou colle un script sur epivoke.com, relis et modifie le script, génère la...",
+      "description": "Saisis un sujet ou colle un script sur epivoke.com, relis et modifie le script, génère la vidéo, vérifie-la et publie-la sur YouTube.",
+      "links": [
+        {
+          "label": "Epivoke",
+          "url": "https://epivoke.com/"
+        }
+      ]
+    }
+  ]
+}

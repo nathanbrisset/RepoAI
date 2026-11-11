@@ -1,0 +1,74 @@
+{
+  "id": "kino",
+  "name": "Kino",
+  "url": "https://kino.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An AI video editor for teams and agents: store, search and edit footage on a shared timeline, let Claude or Codex edit via MCP, and collect review notes in one place.",
+  "description": "An AI video editor for teams and agents: store, search and edit footage on a shared timeline, let Claude or Codex edit via MCP, and collect review notes in one place.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "video-editing",
+    "collaboration",
+    "mcp",
+    "footage-search",
+    "ai-agents"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://kino.ai/pricing",
+    "details": "Free forever (100 MCP calls/week). Editor 22 €/editor/month or 18 €/editor/month billed yearly; Editor Plus 178 €/editor/month (includes 89 € agent credit and 67 € Seedance credit). Enterprise custom.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/kino.png",
+  "image": "/screenshots/kino.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Footage indexing and search",
+    "Built-in AI chat and a real-time collaborative timeline",
+    "MCP server for your own agents (Claude, Codex)",
+    "Cloud 720p proxies",
+    "Free plan with weekly MCP calls"
+  ],
+  "howToUse": [
+    {
+      "title": "Download Kino from kino.ai, import your footage, edit by chat or connect Claude or Codex...",
+      "description": "Download Kino from kino.ai, import your footage, edit by chat or connect Claude or Codex through MCP, invite collaborators and upgrade to Editor for unlimited MCP calls.",
+      "links": [
+        {
+          "label": "Kino",
+          "url": "https://kino.ai/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://theresanaiforthat.com/just-launched/",
+    "https://kino.ai/pricing"
+  ],
+  "summary_fr": "Un éditeur vidéo IA pour les équipes et les agents : stocke, recherche et monte tes rushes sur une timeline partagée, laisse Claude ou Codex monter via MCP et centralise les retours.",
+  "description_fr": "Un éditeur vidéo IA pour les équipes et les agents : stocke, recherche et monte tes rushes sur une timeline partagée, laisse Claude ou Codex monter via MCP et centralise les retours.",
+  "features_fr": [
+    "Indexation et recherche des rushes",
+    "Chat IA intégré et timeline collaborative en temps réel",
+    "Serveur MCP pour tes propres agents (Claude, Codex)",
+    "Proxies cloud en 720p",
+    "Offre gratuite avec appels MCP hebdomadaires"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Télécharge Kino depuis kino.ai, importe tes rushes, monte par le chat ou connecte Claude...",
+      "description": "Télécharge Kino depuis kino.ai, importe tes rushes, monte par le chat ou connecte Claude ou Codex via MCP, invite tes collaborateurs et passe à Editor pour des appels MCP illimités.",
+      "links": [
+        {
+          "label": "Kino",
+          "url": "https://kino.ai/"
+        }
+      ]
+    }
+  ]
+}

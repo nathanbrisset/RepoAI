@@ -1,0 +1,86 @@
+{
+  "id": "fillwise",
+  "name": "FillWise",
+  "url": "https://fillwise.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A Chrome extension that fills web forms and PDFs from pasted text, a photo, a scan or a file, with a free starting allowance.",
+  "description": "FillWise is an AI form filler for web forms and PDFs (fillable and flat). You paste text or drop a passport photo, scan or PDF as the source data. Official pricing: every paid plan has the same features and differs by volume. Free includes 5 fills a week and 20 fills to start, no card. A fill is one web form, or a PDF of up to 5 pages with fields (longer PDFs cost one fill per started 5 pages). An attached photo or PDF used as data is included up to 10 pages, then adds one fill per started 10 pages.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "forms",
+    "pdf",
+    "chrome-extension",
+    "productivity",
+    "documents"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free: 20 fills to start, then 5/week, no card. Individual 17 €/month (100 fills); Professional 67 €/month (500 fills); Agency 312 €/month (3,000 fills, priority support). A fill is one web form, or a PDF of up to 5 pages (then one fill per started 5 pages).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/fillwise.png",
+  "image": "/screenshots/fillwise.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Chrome extension that fills web forms and PDFs",
+    "Source data from pasted text, a photo, a scan or a file",
+    "Works on fillable and flat PDFs",
+    "Free starting allowance, no card"
+  ],
+  "howToUse": [
+    {
+      "title": "Install the FillWise Chrome extension from fillwise.ai.",
+      "description": "Install the FillWise Chrome extension from fillwise.ai.",
+      "links": [
+        {
+          "label": "FillWise",
+          "url": "https://fillwise.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Use the 20 free starter fills with no card, from pasted text, a photo, a scan or a file.",
+      "description": "Use the 20 free starter fills with no card, from pasted text, a photo, a scan or a file."
+    },
+    {
+      "title": "Subscribe to Individual, Professional or Agency if you need more volume.",
+      "description": "Subscribe to Individual, Professional or Agency if you need more volume."
+    }
+  ],
+  "sources": [
+    "https://fillwise.ai/"
+  ],
+  "summary_fr": "Une extension Chrome qui remplit formulaires web et PDF à partir d’un texte, d’une photo, d’un scan ou d’un fichier, avec un quota gratuit pour commencer.",
+  "description_fr": "Une extension Chrome qui remplit formulaires web et PDF à partir d’un texte, d’une photo, d’un scan ou d’un fichier, avec un quota gratuit pour commencer.",
+  "features_fr": [
+    "Extension Chrome qui remplit formulaires web et PDF",
+    "Données sources : texte, photo, scan ou fichier",
+    "Fonctionne sur les PDF fillables et plats",
+    "Quota de départ offert, sans carte"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Installe l’extension Chrome FillWise depuis fillwise.ai.",
+      "description": "Installe l’extension Chrome FillWise depuis fillwise.ai.",
+      "links": [
+        {
+          "label": "FillWise",
+          "url": "https://fillwise.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Utilise les 20 remplissages offerts, sans carte, à partir d’un texte, d’une photo, d’un...",
+      "description": "Utilise les 20 remplissages offerts, sans carte, à partir d’un texte, d’une photo, d’un scan ou d’un fichier."
+    },
+    {
+      "title": "Abonne-toi à Individual, Professional ou Agency si tu as besoin de plus de volume.",
+      "description": "Abonne-toi à Individual, Professional ou Agency si tu as besoin de plus de volume."
+    }
+  ]
+}

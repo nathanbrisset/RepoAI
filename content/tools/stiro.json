@@ -1,0 +1,76 @@
+{
+  "id": "stiro",
+  "name": "Stiro",
+  "url": "https://stiro.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An in-app AI onboarding and customer-success agent for SaaS: users ask in plain words and it clicks, types and navigates your real interface for them, leaving the final click to the user.",
+  "description": "An in-app AI onboarding and customer-success agent for SaaS: users ask in plain words and it clicks, types and navigates your real interface for them, leaving the final click to the user.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "customer-success",
+    "onboarding",
+    "saas",
+    "in-app-agent",
+    "support"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://stiro.ai/pricing/",
+    "details": "Developer free (50 runs/month, localhost and staging only). Starter 133 €/month (2,000 tasks, 1 production app); Growth 534 €/month (10,000 tasks, 3 apps); Enterprise from 21,402 €/year. Failed runs are free.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/stiro.png",
+  "image": "/screenshots/stiro.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "In-app onboarding and customer-success agent for SaaS",
+    "One script tag, nothing to train or record",
+    "Leaves the final click to the user on actions that send, spend or delete",
+    "Escalates stuck requests to your team",
+    "Pay per completed task; failed runs free"
+  ],
+  "howToUse": [
+    {
+      "title": "Create an account on stiro.ai, list your domains, paste the script tag into your app...",
+      "description": "Create an account on stiro.ai, list your domains, paste the script tag into your app layout, test on staging with the free Developer plan, then move to Starter for production.",
+      "links": [
+        {
+          "label": "Stiro",
+          "url": "https://stiro.ai/"
+        }
+      ]
+    }
+  ],
+  "hqCountry": "IN",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://www.producthunt.com/",
+    "https://stiro.ai/pricing/"
+  ],
+  "summary_fr": "Un agent IA d’onboarding et de customer success intégré à ton SaaS : l’utilisateur demande en langage naturel et Stiro clique, saisit et navigue dans ta vraie interface, en lui laissant le dernier clic.",
+  "description_fr": "Un agent IA d’onboarding et de customer success intégré à ton SaaS : l’utilisateur demande en langage naturel et Stiro clique, saisit et navigue dans ta vraie interface, en lui laissant le dernier clic.",
+  "features_fr": [
+    "Agent d’onboarding et de customer success intégré à ton SaaS",
+    "Une balise script, rien à entraîner ni à enregistrer",
+    "Laisse le dernier clic à l’utilisateur pour les actions qui envoient, dépensent ou suppriment",
+    "Escalade les demandes bloquées à ton équipe",
+    "Paiement à la tâche terminée ; exécutions échouées gratuites"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Crée un compte sur stiro.ai, indique tes domaines, colle la balise script dans le layout...",
+      "description": "Crée un compte sur stiro.ai, indique tes domaines, colle la balise script dans le layout de ton appli, teste en staging avec l’offre Developer gratuite, puis passe à Starter pour la production.",
+      "links": [
+        {
+          "label": "Stiro",
+          "url": "https://stiro.ai/"
+        }
+      ]
+    }
+  ]
+}

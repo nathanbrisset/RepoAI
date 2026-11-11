@@ -1,0 +1,74 @@
+{
+  "id": "text-to-gif",
+  "name": "Text to GIF",
+  "url": "https://texttogif.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Creates animated GIFs, stickers and SVGs from a text prompt or an image, with credit packs instead of a subscription.",
+  "description": "Creates animated GIFs, stickers and SVGs from a text prompt or an image, with credit packs instead of a subscription.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "gif",
+    "animation",
+    "stickers",
+    "svg",
+    "image-generation"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://texttogif.com/pricing",
+    "details": "One-time packs, credits never expire: Starter 9 € (440 credits); Creator 18 € (2,220 credits); Studio 45 € (7,770 credits). Failed generations are refunded automatically. A live credit quote is shown before you generate.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/text-to-gif.png",
+  "image": "/screenshots/text-to-gif.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Text to GIF, image to GIF, sticker studio and text to SVG",
+    "Quality and resolution options",
+    "Live quote before generating",
+    "Automatic refund on failed generations",
+    "Credits never expire, no subscription"
+  ],
+  "howToUse": [
+    {
+      "title": "Open texttogif.com, type a prompt or upload an image, check the credit quote, generate...",
+      "description": "Open texttogif.com, type a prompt or upload an image, check the credit quote, generate and download; buy a credit pack when needed.",
+      "links": [
+        {
+          "label": "Text to GIF",
+          "url": "https://texttogif.com/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://theresanaiforthat.com/just-launched/",
+    "https://texttogif.com/pricing"
+  ],
+  "summary_fr": "Crée des GIF animés, stickers et SVG à partir d’un texte ou d’une image, avec des packs de crédits plutôt qu’un abonnement.",
+  "description_fr": "Crée des GIF animés, stickers et SVG à partir d’un texte ou d’une image, avec des packs de crédits plutôt qu’un abonnement.",
+  "features_fr": [
+    "Texte vers GIF, image vers GIF, studio de stickers et texte vers SVG",
+    "Options de qualité et de résolution",
+    "Devis affiché avant de générer",
+    "Remboursement automatique si la génération échoue",
+    "Crédits sans expiration, pas d’abonnement"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre texttogif.com, saisis un prompt ou envoie une image, vérifie le devis en crédits,...",
+      "description": "Ouvre texttogif.com, saisis un prompt ou envoie une image, vérifie le devis en crédits, génère et télécharge ; achète un pack quand tu en as besoin.",
+      "links": [
+        {
+          "label": "Text to GIF",
+          "url": "https://texttogif.com/"
+        }
+      ]
+    }
+  ]
+}
