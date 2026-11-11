@@ -9,6 +9,7 @@ import fs from "fs"
 import path from "path"
 import { spawnSync } from "child_process"
 import { fileURLToPath } from "url"
+import { truncateHowToTitle, firstSentenceForHowTo } from "../lib/i18n/truncate-how-to-title.mjs"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const importDir = path.join(root, "data/import-2026-11-11")
@@ -263,33 +264,10 @@ function parseHqCountry(raw) {
 
 const HOWTO_TITLE_MAX = 90
 
-function firstSentence(text) {
-  const trimmed = text.trim()
-  for (let i = 0; i < trimmed.length; i++) {
-    const c = trimmed[i]
-    if (c !== "." && c !== "!" && c !== "?") continue
-    const next = trimmed[i + 1]
-    if (i === trimmed.length - 1 || (next && /\s/.test(next))) {
-      return trimmed.slice(0, i + 1).trim()
-    }
-  }
-  return trimmed
-}
-
-function truncateHowToTitle(text, max = HOWTO_TITLE_MAX) {
-  if (text.length <= max) return text
-  const slice = text.slice(0, max)
-  const lastSpace = slice.lastIndexOf(" ")
-  if (lastSpace > Math.floor(max * 0.45)) {
-    return `${slice.slice(0, lastSpace).trim()}...`
-  }
-  return `${slice.trim()}...`
-}
-
 function howToStepTitle(description) {
   const trimmed = String(description).trim()
   if (!trimmed) return "Step"
-  let title = firstSentence(trimmed)
+  let title = firstSentenceForHowTo(trimmed)
   title = truncateHowToTitle(title)
   return title.length >= 3 ? title : trimmed.slice(0, HOWTO_TITLE_MAX)
 }

@@ -12,7 +12,7 @@ export function formatPageTitle(title: string): string {
 import { categories } from "@/lib/data"
 import { getToolById } from "@/lib/catalog"
 import { SITE_URL, type Locale } from "./config"
-import { getLocale } from "./get-locale"
+import { PAGE_LOCALE_EN } from "./page-locale"
 import { absoluteUrl, languageAlternates, stripLocale } from "./paths"
 import { COLLECTION_DEFS } from "@/lib/directory/collections"
 import { editorialGuideBySlug } from "@/lib/directory/editorial-guides"
@@ -95,10 +95,11 @@ function pageCopy(locale: Locale, pathname: string): { title: string; descriptio
 }
 
 /** Per-page metadata: canonical plus hreflang en, fr and x-default. */
-export async function metadataFor(pathname: string): Promise<Metadata> {
-  const locale = await getLocale()
+export function metadataFor(pathname: string, locale: Locale = PAGE_LOCALE_EN): Metadata {
   return buildPageMetadata(locale, pathname)
 }
+
+const NOINDEX_TOOL_STATUSES = new Set(["inactive", "sunset", "duplicate-of", "renamed"])
 
 export function buildPageMetadata(locale: Locale, pathname: string): Metadata {
   const { title, description } = pageCopy(locale, pathname)
@@ -106,10 +107,15 @@ export function buildPageMetadata(locale: Locale, pathname: string): Metadata {
   const canonical = absoluteUrl(locale, pathname)
   const languages = languageAlternates(pathname)
 
+  const toolMatch = stripLocale(pathname).match(/^\/tool\/([^/]+)$/)
+  const tool = toolMatch ? getToolById(decodeURIComponent(toolMatch[1])) : null
+  const noindex = tool ? NOINDEX_TOOL_STATUSES.has(tool.status) : false
+
   return {
     title: pageTitle,
     description,
     metadataBase: new URL(SITE_URL),
+    ...(noindex ? { robots: { index: false, follow: true } } : {}),
     alternates: {
       canonical,
       languages,

@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server"
 import type { NextRequest } from "next/server"
-import toolIds from "./content/tool-ids.json"
 import taxonomy from "./content/taxonomy.json"
 import { LOCALE_COOKIE } from "./lib/i18n/config"
 import {
@@ -10,13 +9,8 @@ import {
   preferredLocaleFromAcceptLanguage,
   stripLocalePrefix,
 } from "./lib/i18n/locale-detect"
+import { isKnownPagePath } from "./lib/routing/known-paths"
 
-/**
- * French pages live at /fr/... and are rewritten onto the existing English routes.
- * English is canonical at the site root. /en/... returns 301 to the root path.
- * First visit (no locale cookie): Accept-Language may redirect to /fr/...
- */
-const knownTools = new Set(toolIds)
 const knownCategories = new Set(taxonomy.categories.map((category) => category.id))
 const LEGACY_CATEGORY_LIST_SLUGS = new Set(["new", "popular", "top-rated"])
 
@@ -34,18 +28,21 @@ function localizedCategoryPath(locale: "en" | "fr", categoryId: string): string 
   return locale === "fr" ? `/fr/categories/${categoryId}` : `/categories/${categoryId}`
 }
 
-export function middleware(request: NextRequest) {
+const NOT_FOUND_CACHE = "private, no-cache, no-store, max-age=0, must-revalidate"
+
+function plainNotFoundResponse(): NextResponse {
+  return new NextResponse("Not found", {
+    status: 404,
+    headers: {
+      "Content-Type": "text/plain; charset=utf-8",
+      "Cache-Control": "no-store",
+    },
+  })
+}
+
+export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
 
-  if (
-    pathname.startsWith("/_next") ||
-    pathname.startsWith("/api") ||
-    pathname.includes(".")
-  ) {
-    return NextResponse.next()
-  }
-
-  // M-12: normalize /en/* → /*
   if (pathname === "/en" || pathname === "/en/") {
     const url = request.nextUrl.clone()
     url.pathname = "/"
@@ -61,7 +58,6 @@ export function middleware(request: NextRequest) {
   const locale = localeFromPathname(pathname)
   const isFrench = locale === "fr"
 
-  // M-04: catalogue?category=slug → /categories/slug
   if (bare === "/catalogue" || bare === "/tools") {
     const category = request.nextUrl.searchParams.get("category")
     if (category && knownCategories.has(category)) {
@@ -73,7 +69,6 @@ export function middleware(request: NextRequest) {
     }
   }
 
-  // M-04: /category/:slug (taxonomy slug) → /categories/:slug
   const legacyCategory = slugFromPath(pathname, "category")
   if (legacyCategory && knownCategories.has(legacyCategory) && !LEGACY_CATEGORY_LIST_SLUGS.has(legacyCategory)) {
     const url = request.nextUrl.clone()
@@ -87,6 +82,7 @@ export function middleware(request: NextRequest) {
 
   if (
     request.method === "GET" &&
+    !bare.startsWith("/api") &&
     !localeCookie &&
     !autoDone &&
     !isLikelyCrawler(request.headers.get("user-agent")) &&
@@ -104,27 +100,40 @@ export function middleware(request: NextRequest) {
     return response
   }
 
-  const requestHeaders = new Headers(request.headers)
-  requestHeaders.set("x-pathname", pathname)
-  requestHeaders.set("x-locale", isFrench ? "fr" : "en")
+  if (!isKnownPagePath(pathname)) {
+    const french = localeFromPathname(pathname) === "fr"
+    const target = french ? "/fr/404-page" : "/404-page"
+    if (request.method === "GET" || request.method === "HEAD") {
+      const url = request.nextUrl.clone()
+      url.pathname = target
+      return NextResponse.rewrite(url, {
+        status: 404,
+        headers: { "Cache-Control": NOT_FOUND_CACHE },
+      })
+    }
 
-  const toolId = slugFromPath(pathname, "tool")
-  const categoryId = slugFromPath(pathname, "categories")
-  if ((toolId && !knownTools.has(toolId)) || (categoryId && !knownCategories.has(categoryId))) {
-    const url = request.nextUrl.clone()
-    url.pathname = "/__missing"
-    return NextResponse.rewrite(url, { request: { headers: requestHeaders } })
+    try {
+      const pageUrl = new URL(target, request.url)
+      const page = await fetch(pageUrl, { headers: { Accept: "text/html" } })
+      if (!page.ok) return plainNotFoundResponse()
+      const html = await page.text()
+      return new NextResponse(html, {
+        status: 404,
+        headers: {
+          "Content-Type": "text/html; charset=utf-8",
+          "Cache-Control": NOT_FOUND_CACHE,
+        },
+      })
+    } catch {
+      return plainNotFoundResponse()
+    }
   }
 
-  if (!isFrench) {
-    return NextResponse.next({ request: { headers: requestHeaders } })
-  }
-
-  const url = request.nextUrl.clone()
-  url.pathname = bare
-  return NextResponse.rewrite(url, { request: { headers: requestHeaders } })
+  return NextResponse.next()
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
+  matcher: [
+    "/((?!_next/static|_next/image|favicon.ico|apple-icon.png|icon.png|sitemap.xml|robots.txt|opengraph-image|twitter-image|logos(?:/|$)|brand(?:/|$)|screenshots(?:/|$)|tool-screenshots(?:/|$)|.*\\.[\\w]+$).*)",
+  ],
 }

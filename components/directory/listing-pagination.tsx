@@ -6,18 +6,18 @@ import type { CatalogQueryResult } from "@/lib/directory/catalog-query"
 import { listingPageHref } from "@/lib/directory/catalog-query"
 import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
 import { cn } from "@/lib/utils"
-import { useSearchParams } from "next/navigation"
 
 export function ListingPagination({
   barePath,
   catalogPage,
+  linkSearchParams,
 }: {
   barePath: string
   catalogPage: Pick<CatalogQueryResult, "page" | "totalPages">
+  linkSearchParams: URLSearchParams
 }) {
   const locale = useLocale()
   const t = directoryCopy(locale)
-  const searchParams = useSearchParams()
   const { page, totalPages } = catalogPage
 
   if (totalPages <= 1) return null
@@ -29,10 +29,9 @@ export function ListingPagination({
     <nav className="mt-10 flex flex-wrap items-center justify-center gap-3" aria-label={t.pageStatus}>
       {page > 1 ? (
         <LocaleLink
-          href={listingPageHref(barePath, searchParams, page - 1)}
+          href={listingPageHref(barePath, linkSearchParams, page - 1)}
           scroll={false}
           className={linkClass}
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
           {t.pagePrev}
         </LocaleLink>
@@ -46,10 +45,9 @@ export function ListingPagination({
       </span>
       {page < totalPages ? (
         <LocaleLink
-          href={listingPageHref(barePath, searchParams, page + 1)}
+          href={listingPageHref(barePath, linkSearchParams, page + 1)}
           scroll={false}
           className={linkClass}
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
           {t.pageNext}
         </LocaleLink>
