@@ -38,13 +38,18 @@ function SiteHeaderInner() {
   const onFilterable = bare === "/catalogue" || bare === "/tools"
   const base = bare === "/tools" ? "/tools" : "/catalogue"
   const category = onFilterable ? searchParams.get("category") || "" : ""
-  const sort = (searchParams.get("sort") as SortMode) || "trending"
   const query = onFilterable ? searchParams.get("q") || "" : ""
   const [draft, setDraft] = useState("")
+  const [sort, setSort] = useState<SortMode>("trending")
 
   useEffect(() => {
     setDraft(query)
   }, [query])
+
+  useEffect(() => {
+    const fromUrl = searchParams.get("sort")
+    setSort((fromUrl as SortMode) || "trending")
+  }, [searchParams])
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8)

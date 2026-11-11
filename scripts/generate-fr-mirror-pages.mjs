@@ -20,6 +20,7 @@ const REDIRECT_ONLY = new Set([
   "match-results/page.tsx",
   "[...slug]/page.tsx",
   "not-found.tsx",
+  "404-page/page.tsx",
 ])
 
 const LOCALIZED_EXPORTS = {
@@ -210,7 +211,7 @@ function main() {
       console.error("Missing FR mirrors:", missing)
       process.exit(1)
     }
-    const allowedExtras = new Set(["[...slug]/page.tsx", "not-found.tsx"])
+    const allowedExtras = new Set(["[...slug]/page.tsx", "not-found.tsx", "404-page/page.tsx"])
     const extras = []
     function walkFr(dir = FR_ROOT, base = FR_ROOT) {
       for (const name of fs.readdirSync(dir)) {

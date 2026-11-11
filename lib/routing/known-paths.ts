@@ -6,57 +6,18 @@ const CATEGORY_IDS = new Set(snapshot.categoryIds)
 const GUIDE_SLUGS = new Set(snapshot.guideSlugs)
 const COLLECTION_SLUGS_EN = new Set(snapshot.collectionSlugsEn)
 const COLLECTION_SLUGS_FR = new Set(snapshot.collectionSlugsFr)
-
-const EXACT_EN = new Set([
-  "/",
-  "/about",
-  "/about/about",
-  "/automations",
-  "/catalogue",
-  "/categories",
-  "/category/new",
-  "/category/popular",
-  "/category/top-rated",
-  "/collections",
-  "/compare",
-  "/contact",
-  "/guides",
-  "/legal",
-  "/match-results",
-  "/privacy",
-  "/recommendation",
-  "/submit",
-  "/submit/submit",
-  "/terms",
-  "/tools",
-  "/tools/tools",
-])
-
-const EXACT_FR = new Set([
-  "/fr",
-  "/fr/about",
-  "/fr/automations",
-  "/fr/catalogue",
-  "/fr/categories",
-  "/fr/category/new",
-  "/fr/category/popular",
-  "/fr/category/top-rated",
-  "/fr/collections",
-  "/fr/compare",
-  "/fr/contact",
-  "/fr/guides",
-  "/fr/legal",
-  "/fr/privacy",
-  "/fr/recommendation",
-  "/fr/submit",
-  "/fr/terms",
-  "/fr/tools",
-])
+const EXACT_EN = new Set(snapshot.exactEn)
+const EXACT_FR = new Set(snapshot.exactFr)
+const API_PATHS = new Set(snapshot.apiPaths)
 
 export function isKnownPagePath(pathname: string): boolean {
   const normalized = pathname.endsWith("/") && pathname !== "/" ? pathname.slice(0, -1) : pathname
   const locale = localeFromPathname(normalized)
   const bare = stripLocalePrefix(normalized)
+
+  if (bare.startsWith("/api/") || bare === "/api") {
+    return API_PATHS.has(bare)
+  }
 
   if (locale === "fr") {
     if (EXACT_FR.has(normalized)) return true

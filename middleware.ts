@@ -9,7 +9,6 @@ import {
   preferredLocaleFromAcceptLanguage,
   stripLocalePrefix,
 } from "./lib/i18n/locale-detect"
-import { NOT_FOUND_HTML_EN, NOT_FOUND_HTML_FR } from "./lib/routing/cached-404-html"
 import { isKnownPagePath } from "./lib/routing/known-paths"
 
 const knownCategories = new Set(taxonomy.categories.map((category) => category.id))
@@ -29,7 +28,9 @@ function localizedCategoryPath(locale: "en" | "fr", categoryId: string): string 
   return locale === "fr" ? `/fr/categories/${categoryId}` : `/categories/${categoryId}`
 }
 
-export function middleware(request: NextRequest) {
+const NOT_FOUND_CACHE = "private, no-cache, no-store, max-age=0, must-revalidate"
+
+export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
 
   if (pathname === "/en" || pathname === "/en/") {
@@ -88,13 +89,26 @@ export function middleware(request: NextRequest) {
     return response
   }
 
-  if (request.method === "GET" && !isKnownPagePath(pathname)) {
-    const html = localeFromPathname(pathname) === "fr" ? NOT_FOUND_HTML_FR : NOT_FOUND_HTML_EN
+  if (!isKnownPagePath(pathname)) {
+    const french = localeFromPathname(pathname) === "fr"
+    const target = french ? "/fr/404-page" : "/404-page"
+    if (request.method === "GET" || request.method === "HEAD") {
+      const url = request.nextUrl.clone()
+      url.pathname = target
+      return NextResponse.rewrite(url, {
+        status: 404,
+        headers: { "Cache-Control": NOT_FOUND_CACHE },
+      })
+    }
+
+    const pageUrl = new URL(target, request.url)
+    const page = await fetch(pageUrl, { headers: { Accept: "text/html" } })
+    const html = await page.text()
     return new NextResponse(html, {
       status: 404,
       headers: {
         "Content-Type": "text/html; charset=utf-8",
-        "Cache-Control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "Cache-Control": NOT_FOUND_CACHE,
       },
     })
   }
@@ -104,6 +118,6 @@ export function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    "/((?!_next/static|_next/image|favicon.ico|apple-icon.png|icon.png|sitemap.xml|robots.txt|opengraph-image|twitter-image|api(?:/|$)|logos(?:/|$)|brand(?:/|$)|screenshots(?:/|$)|tool-screenshots(?:/|$)|.*\\.[\\w]+$).*)",
+    "/((?!_next/static|_next/image|favicon.ico|apple-icon.png|icon.png|sitemap.xml|robots.txt|opengraph-image|twitter-image|logos(?:/|$)|brand(?:/|$)|screenshots(?:/|$)|tool-screenshots(?:/|$)|.*\\.[\\w]+$).*)",
   ],
 }
