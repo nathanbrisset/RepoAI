@@ -1,0 +1,83 @@
+{
+  "id": "cogny",
+  "name": "Cogny",
+  "url": "https://cogny.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Always-on marketing loop: connect ads, analytics and your site, approve a change, and Cogny ships it and measures whether it worked. Free plan, no card.",
+  "description": "Always-on marketing loop: connect ads, analytics and your site, approve a change, and Cogny ships it and measures whether it worked. Free plan, no card.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "marketing",
+    "experimentation",
+    "analytics",
+    "mcp",
+    "growth"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://cogny.com/pricing",
+    "details": "Free (15 MCP calls/month, 50 one-time chat credits), no card. Solo 8 €/month (unmetered MCP under fair use, no monthly credits). Cogny AI 16 €/month (150 credits). Cogny Pro 80 €/month (1,500 credits). Cloud 445 €/month (5,000 credits, team seats). Top-ups of 18 €, 45 €, 89 € or 178 € on any paid plan never expire.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/cogny.png",
+  "image": "/screenshots/cogny.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Connects ads, analytics and the website, then ships an approved change and measures whether it worked",
+    "Verdict: worked / partial / didn’t work / inconclusive",
+    "89 integrations as stated; MCP use from your own AI",
+    "Never-expiring top-ups on paid plans",
+    "Official HQ in Stockholm, Sweden"
+  ],
+  "howToUse": [
+    {
+      "title": "Start free on cogny.com with no card, connect an integration, approve a change and read...",
+      "description": "Start free on cogny.com with no card, connect an integration, approve a change and read the verdict.",
+      "links": [
+        {
+          "label": "Cogny",
+          "url": "https://cogny.com/"
+        }
+      ]
+    },
+    {
+      "title": "Pick Solo, Cogny AI, Cogny Pro or Cloud if you need more credits or a team workspace.",
+      "description": "Pick Solo, Cogny AI, Cogny Pro or Cloud if you need more credits or a team workspace."
+    }
+  ],
+  "hqCountry": "SE",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://cogny.com/pricing"
+  ],
+  "summary_fr": "Boucle marketing en continu : connecte pubs, analytics et site, approuve un changement, Cogny le déploie et mesure le résultat. Offre gratuite, sans carte.",
+  "description_fr": "Boucle marketing en continu : connecte pubs, analytics et site, approuve un changement, Cogny le déploie et mesure le résultat. Offre gratuite, sans carte.",
+  "features_fr": [
+    "Connecte pubs, analytics et site, déploie un changement que tu as approuvé, et mesure s’il a fonctionné",
+    "Verdict : ça a marché / partiel / ça n’a pas marché / non concluant",
+    "89 intégrations comme indiqué ; usage MCP depuis ta propre IA",
+    "Recharges sans expiration sur les offres payantes",
+    "Siège officiel à Stockholm, Suède"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Commence gratuitement sur cogny.com, sans carte, connecte une intégration, approuve un...",
+      "description": "Commence gratuitement sur cogny.com, sans carte, connecte une intégration, approuve un changement et lis le verdict.",
+      "links": [
+        {
+          "label": "Cogny",
+          "url": "https://cogny.com/"
+        }
+      ]
+    },
+    {
+      "title": "Choisis Solo, Cogny AI, Cogny Pro ou Cloud si tu as besoin de plus de crédits ou d’un...",
+      "description": "Choisis Solo, Cogny AI, Cogny Pro ou Cloud si tu as besoin de plus de crédits ou d’un espace d’équipe."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "iamvera",
+  "name": "IamVERA",
+  "url": "https://iamvera.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Multi-model verification of AI answers, assumptions and sources, with privacy controls for confidential professional work.",
+  "description": "Multi-model verification of AI answers, assumptions and sources, with privacy controls for confidential professional work.",
+  "categories": [
+    "ai-detection"
+  ],
+  "tags": [
+    "security",
+    "ai-verification",
+    "hallucinations",
+    "governance",
+    "privacy"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Official euro prices, excluding VAT. Starter is free for the first 3 months (10 checked questions/month, 1 user), then paid plans start at Essential 79 €/month (66 €/month billed yearly). Professional 199 €/month (166 €/month yearly, 5 users, extra user 19.95 €/month). Compliance 399 €/month (333 €/month yearly, 25 users, extra user 24.95 €/month). Optional API 50 €/month (42 €/month or 500 €/year) and Evidence Engine 250 €/month (209 €/month or 2,500 €/year).",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/iamvera.png",
+  "image": "/screenshots/iamvera.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Separate models check facts, reasoning and sources",
+    "Vera Office document drafting",
+    "Privacy controls for confidential professional work",
+    "Starter free for the first three months",
+    "Official euro prices, excluding VAT"
+  ],
+  "howToUse": [
+    {
+      "title": "Start Starter free for three months on iamvera.ai and submit answers or documents for...",
+      "description": "Start Starter free for three months on iamvera.ai and submit answers or documents for multi-model checks.",
+      "links": [
+        {
+          "label": "IamVERA",
+          "url": "https://iamvera.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Choose Essential, Professional or Compliance (monthly or yearly, ex VAT) when the three...",
+      "description": "Choose Essential, Professional or Compliance (monthly or yearly, ex VAT) when the three months end, or add the optional API or Evidence Engine."
+    }
+  ],
+  "sources": [
+    "https://iamvera.ai/"
+  ],
+  "summary_fr": "Vérification multi-modèles des réponses, hypothèses et sources d’une IA, avec des contrôles de confidentialité pour ton travail professionnel sensible.",
+  "description_fr": "Vérification multi-modèles des réponses, hypothèses et sources d’une IA, avec des contrôles de confidentialité pour ton travail professionnel sensible.",
+  "features_fr": [
+    "Des modèles distincts vérifient les faits, le raisonnement et les sources",
+    "Rédaction de documents Vera Office",
+    "Contrôles de confidentialité pour le travail professionnel sensible",
+    "Starter gratuit pendant les trois premiers mois",
+    "Prix officiels en euros, hors TVA"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Démarre Starter gratuitement pendant trois mois sur iamvera.ai et soumets des réponses ou...",
+      "description": "Démarre Starter gratuitement pendant trois mois sur iamvera.ai et soumets des réponses ou des documents à la vérification multi-modèles.",
+      "links": [
+        {
+          "label": "IamVERA",
+          "url": "https://iamvera.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Choisis Essential, Professional ou Compliance (mensuel ou annuel, hors TVA) à la fin des...",
+      "description": "Choisis Essential, Professional ou Compliance (mensuel ou annuel, hors TVA) à la fin des trois mois, ou ajoute l’API ou l’Evidence Engine en option."
+    }
+  ]
+}

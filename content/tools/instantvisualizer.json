@@ -1,0 +1,79 @@
+{
+  "id": "instantvisualizer",
+  "name": "InstantVisualizer",
+  "url": "https://instantvisualizer.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Visualises a home repaint or redesign from a photo: one free render, a one-time 5-render pack, or a Designer subscription for 4K, commercial use and branded summaries.",
+  "description": "Visualises a home repaint or redesign from a photo: one free render, a one-time 5-render pack, or a Designer subscription for 4K, commercial use and branded summaries.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "design",
+    "interior",
+    "visualization",
+    "home",
+    "renders"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://instantvisualizer.com/pricing",
+    "details": "Free: 1 render and 10 messages, personal use only. One-time pack 9 € for 5 renders, never expires, no subscription. Designer 26 €/month (60 renders/month, 4K, commercial use, branded summaries) or 18 €/month billed yearly (213 €/year, 720 renders/year as stated).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/instantvisualizer.png",
+  "image": "/screenshots/instantvisualizer.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Photo-to-render home visualisation (repaint or redesign)",
+    "Chat with Izzy",
+    "One free render, personal use only",
+    "One-time pack that never expires, plus a Designer subscription for 4K and commercial use"
+  ],
+  "howToUse": [
+    {
+      "title": "Upload a photo of a room on instantvisualizer.com and use the free render.",
+      "description": "Upload a photo of a room on instantvisualizer.com and use the free render.",
+      "links": [
+        {
+          "label": "InstantVisualizer",
+          "url": "https://instantvisualizer.com/"
+        }
+      ]
+    },
+    {
+      "title": "Buy the 5-render pack or subscribe to Designer monthly or yearly for more 4K commercial...",
+      "description": "Buy the 5-render pack or subscribe to Designer monthly or yearly for more 4K commercial renders."
+    }
+  ],
+  "sources": [
+    "https://instantvisualizer.com/pricing"
+  ],
+  "summary_fr": "Visualise une nouvelle peinture ou un nouvel aménagement à partir d’une photo : un rendu gratuit, un pack de 5 rendus, ou l’abonnement Designer (4K, usage commercial, synthèses de marque).",
+  "description_fr": "Visualise une nouvelle peinture ou un nouvel aménagement à partir d’une photo : un rendu gratuit, un pack de 5 rendus, ou l’abonnement Designer (4K, usage commercial, synthèses de marque).",
+  "features_fr": [
+    "Visualisation d’un logement à partir d’une photo (nouvelle peinture ou nouvel aménagement)",
+    "Chat avec Izzy",
+    "Un rendu gratuit, usage personnel uniquement",
+    "Pack ponctuel sans expiration, plus un abonnement Designer pour le 4K et l’usage commercial"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Envoie la photo d’une pièce sur instantvisualizer.com et utilise le rendu gratuit.",
+      "description": "Envoie la photo d’une pièce sur instantvisualizer.com et utilise le rendu gratuit.",
+      "links": [
+        {
+          "label": "InstantVisualizer",
+          "url": "https://instantvisualizer.com/"
+        }
+      ]
+    },
+    {
+      "title": "Achète le pack de 5 rendus ou abonne-toi à Designer en mensuel ou en annuel pour plus de...",
+      "description": "Achète le pack de 5 rendus ou abonne-toi à Designer en mensuel ou en annuel pour plus de rendus 4K à usage commercial."
+    }
+  ]
+}

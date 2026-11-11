@@ -1,0 +1,81 @@
+{
+  "id": "underleaf",
+  "name": "Underleaf",
+  "url": "https://www.underleaf.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "LaTeX AI assistant that converts PDFs, images and handwritten math into clean LaTeX, and helps generate tables, TikZ and paper markup.",
+  "description": "LaTeX AI assistant that converts PDFs, images and handwritten math into clean LaTeX, and helps generate tables, TikZ and paper markup.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "education",
+    "latex",
+    "research",
+    "pdf",
+    "academic-writing"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.underleaf.ai/pricing",
+    "details": "Try free, no card. Essentials 11 €/month or 5 €/month billed annually (64 €/year, 200 credits/month, up to 10 PDF pages at once). Pro 21 €/month or 11 €/month billed annually (128 €/year, 500 credits/month, up to 20 pages, priority support). Team (5+) is listed with discounted custom pricing. Annual billing is published as 50% off monthly.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/underleaf.png",
+  "image": "/screenshots/underleaf.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "PDF, image and handwriting-to-LaTeX conversion",
+    "Tables and TikZ generation",
+    "Chrome extension for the editor workflow",
+    "No credit card required to try",
+    "Annual billing published as 50% off monthly"
+  ],
+  "howToUse": [
+    {
+      "title": "Try Underleaf free without a card and convert a PDF or equation image to LaTeX in the web...",
+      "description": "Try Underleaf free without a card and convert a PDF or equation image to LaTeX in the web app or the Chrome extension.",
+      "links": [
+        {
+          "label": "Underleaf",
+          "url": "https://www.underleaf.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Subscribe to Essentials or Pro (monthly or annual) if you need more credits and more...",
+      "description": "Subscribe to Essentials or Pro (monthly or annual) if you need more credits and more pages at once."
+    }
+  ],
+  "sources": [
+    "https://www.underleaf.ai/pricing"
+  ],
+  "summary_fr": "Assistant LaTeX IA qui convertit PDF, images et mathématiques manuscrites en LaTeX propre, et t’aide à générer tableaux, TikZ et mise en forme d’articles.",
+  "description_fr": "Assistant LaTeX IA qui convertit PDF, images et mathématiques manuscrites en LaTeX propre, et t’aide à générer tableaux, TikZ et mise en forme d’articles.",
+  "features_fr": [
+    "Conversion PDF, image et mathématiques manuscrites vers LaTeX",
+    "Génération de tableaux et de TikZ",
+    "Extension Chrome pour le flux d’édition",
+    "Essai sans carte",
+    "Annuel publié comme 50 % de réduction sur le mensuel"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Essaie Underleaf gratuitement, sans carte, et convertis un PDF ou une image d’équation en...",
+      "description": "Essaie Underleaf gratuitement, sans carte, et convertis un PDF ou une image d’équation en LaTeX dans l’application web ou l’extension Chrome.",
+      "links": [
+        {
+          "label": "Underleaf",
+          "url": "https://www.underleaf.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Abonne-toi à Essentials ou Pro (mensuel ou annuel) si tu as besoin de plus de crédits et...",
+      "description": "Abonne-toi à Essentials ou Pro (mensuel ou annuel) si tu as besoin de plus de crédits et de plus de pages d’un coup."
+    }
+  ]
+}

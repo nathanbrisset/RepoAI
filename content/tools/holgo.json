@@ -1,0 +1,79 @@
+{
+  "id": "holgo",
+  "name": "Holgo",
+  "url": "https://holgo.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns product photos into SEO-ready marketplace listings for Etsy, eBay and more. A genuine free plan, monthly plans, or pay-as-you-go credit packs.",
+  "description": "Turns product photos into SEO-ready marketplace listings for Etsy, eBay and more. A genuine free plan, monthly plans, or pay-as-you-go credit packs.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "marketing",
+    "ecommerce",
+    "listings",
+    "etsy",
+    "ebay"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://holgo.com/pricing",
+    "details": "Free (100 listing credits refill each month; this is a real free plan, not a trial). Starter 16 €/month; Standard 54 €/month; Premium 161 €/month. Pay-as-you-go packs (never expire): 1,000 credits 27 €; 2,000 45 €; 5,000 89 €. New-customer first-purchase offer also shown: 500 credits for 5 € (not the standing pack ladder).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/holgo.png",
+  "image": "/screenshots/holgo.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "AI listing generator from product photos, for Etsy, eBay and other marketplaces",
+    "Genuine free plan: 100 listing credits refill each month",
+    "Pay-as-you-go credit packs that never expire",
+    "New-customer first-purchase offer also shown"
+  ],
+  "howToUse": [
+    {
+      "title": "Start free on holgo.com, upload product photos to generate a listing, and connect a store.",
+      "description": "Start free on holgo.com, upload product photos to generate a listing, and connect a store.",
+      "links": [
+        {
+          "label": "Holgo",
+          "url": "https://holgo.com/"
+        }
+      ]
+    },
+    {
+      "title": "Move to Starter, Standard or Premium, or buy a credit pack, if you need more listings.",
+      "description": "Move to Starter, Standard or Premium, or buy a credit pack, if you need more listings."
+    }
+  ],
+  "sources": [
+    "https://holgo.com/pricing"
+  ],
+  "summary_fr": "Transforme tes photos produit en fiches marketplace prêtes pour le SEO (Etsy, eBay, etc.). Vraie offre gratuite, formules mensuelles, ou packs de crédits à l’usage.",
+  "description_fr": "Transforme tes photos produit en fiches marketplace prêtes pour le SEO (Etsy, eBay, etc.). Vraie offre gratuite, formules mensuelles, ou packs de crédits à l’usage.",
+  "features_fr": [
+    "Générateur de fiches IA à partir de photos produit, pour Etsy, eBay et d’autres marketplaces",
+    "Vraie offre gratuite : 100 crédits de fiches rechargés chaque mois",
+    "Packs de crédits à l’usage, sans expiration",
+    "Offre de premier achat pour nouveaux clients aussi affichée"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Commence gratuitement sur holgo.com, envoie des photos produit pour générer une fiche, et...",
+      "description": "Commence gratuitement sur holgo.com, envoie des photos produit pour générer une fiche, et connecte une boutique.",
+      "links": [
+        {
+          "label": "Holgo",
+          "url": "https://holgo.com/"
+        }
+      ]
+    },
+    {
+      "title": "Passe à Starter, Standard ou Premium, ou achète un pack de crédits, si tu as besoin de...",
+      "description": "Passe à Starter, Standard ou Premium, ou achète un pack de crédits, si tu as besoin de plus de fiches."
+    }
+  ]
+}
