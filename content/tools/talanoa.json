@@ -1,0 +1,79 @@
+{
+  "id": "talanoa",
+  "name": "Talanoa",
+  "url": "https://talanoa.email/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Privacy-first email client for macOS, Windows, Linux and Android, with a people-first inbox, unsubscribe/block tools and a Kanban for email tasks. Free plan is a real working inbox, not a trial.",
+  "description": "Privacy-first email client for macOS, Windows, Linux and Android, with a people-first inbox, unsubscribe/block tools and a Kanban for email tasks. Free plan is a real working inbox, not a trial.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "productivity",
+    "email",
+    "inbox",
+    "privacy",
+    "kanban"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://talanoa.email/pricing",
+    "details": "Free forever (1 email account, 2 blocks/unsubscribes per month, up to 5 Kanban tasks), no card. Pro 9 €/month or 7 €/month billed annually (80 €/year) for unlimited accounts, unlimited blocks and unsubscribes, unlimited Kanban tasks, priority support and the mobile apps, as stated.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/talanoa.png",
+  "image": "/screenshots/talanoa.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Privacy-first email client for Gmail, Outlook, Yahoo, iCloud and IMAP",
+    "People-first inbox, plus block and unsubscribe tools and a Kanban for email tasks",
+    "Apps for macOS, Windows, Linux and Android (iPhone on Pro, as stated)",
+    "The Free plan is a real working inbox, not a trial"
+  ],
+  "howToUse": [
+    {
+      "title": "Download Talanoa from talanoa.email and connect one inbox on the Free plan (macOS,...",
+      "description": "Download Talanoa from talanoa.email and connect one inbox on the Free plan (macOS, Windows, Linux or Android).",
+      "links": [
+        {
+          "label": "Talanoa",
+          "url": "https://talanoa.email/"
+        }
+      ]
+    },
+    {
+      "title": "Upgrade to Pro monthly or annually if you need more accounts, unlimited unsubscribes or...",
+      "description": "Upgrade to Pro monthly or annually if you need more accounts, unlimited unsubscribes or the mobile apps."
+    }
+  ],
+  "sources": [
+    "https://talanoa.email/pricing"
+  ],
+  "summary_fr": "Client mail axé confidentialité pour macOS, Windows, Linux et Android, avec une boîte centrée sur les personnes, le blocage/désinscription et un Kanban de tâches. L’offre Gratuite est pleinement utilisable, ce n’est pas un essai.",
+  "description_fr": "Client mail axé confidentialité pour macOS, Windows, Linux et Android, avec une boîte centrée sur les personnes, le blocage/désinscription et un Kanban de tâches. L’offre Gratuite est pleinement utilisable, ce n’est pas un essai.",
+  "features_fr": [
+    "Client mail axé confidentialité pour Gmail, Outlook, Yahoo, iCloud et IMAP",
+    "Boîte centrée sur les personnes, plus blocage, désinscription et Kanban de tâches",
+    "Applis pour macOS, Windows, Linux et Android (iPhone sur Pro, comme indiqué)",
+    "L’offre Gratuite est une vraie boîte utilisable, pas un essai"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Télécharge Talanoa depuis talanoa.email et connecte une boîte sur l’offre Gratuite...",
+      "description": "Télécharge Talanoa depuis talanoa.email et connecte une boîte sur l’offre Gratuite (macOS, Windows, Linux ou Android).",
+      "links": [
+        {
+          "label": "Talanoa",
+          "url": "https://talanoa.email/"
+        }
+      ]
+    },
+    {
+      "title": "Passe à Pro en mensuel ou en annuel si tu as besoin de plus de comptes, de...",
+      "description": "Passe à Pro en mensuel ou en annuel si tu as besoin de plus de comptes, de désinscriptions illimitées ou des applis mobiles."
+    }
+  ]
+}

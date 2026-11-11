@@ -1,0 +1,89 @@
+{
+  "id": "jobshifu",
+  "name": "JobShifu",
+  "url": "https://jobshifu.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI job-search agent that finds roles on 14,000+ employer career sites, tailors your resume from confirmed experience, and helps fill applications.",
+  "description": "AI job-search agent that finds roles on 14,000+ employer career sites, tailors your resume from confirmed experience, and helps fill applications.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "hr",
+    "job-search",
+    "resume",
+    "applications",
+    "careers"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://jobshifu.com/pricing",
+    "details": "Free forever, no card. JobShifu Pro launch price 27 €/month until 31 December 2026, then 36 €/month for new monthly subscribers (existing launch-price subscribers keep their rate, as stated). Quarterly 67 € / 3 months; Yearly 214 €/year; one-time Week Pass 13 € for 7 days of Pro, no auto-renewal.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/jobshifu.png",
+  "image": "/screenshots/jobshifu.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Shifu agent on every account",
+    "Job search across 14,000+ employer career sites",
+    "Resume tailoring from confirmed experience, plus application tracking",
+    "Free tier with no credit card",
+    "Launch price on monthly Pro until 31 December 2026"
+  ],
+  "howToUse": [
+    {
+      "title": "Create a free JobShifu account with no card and let Shifu search roles on employer career...",
+      "description": "Create a free JobShifu account with no card and let Shifu search roles on employer career sites.",
+      "links": [
+        {
+          "label": "JobShifu",
+          "url": "https://jobshifu.com/"
+        }
+      ]
+    },
+    {
+      "title": "Confirm your experience so it can tailor your resume and help fill applications.",
+      "description": "Confirm your experience so it can tailor your resume and help fill applications."
+    },
+    {
+      "title": "Buy a Week Pass or subscribe to Pro monthly, quarterly or yearly if you need the full Pro...",
+      "description": "Buy a Week Pass or subscribe to Pro monthly, quarterly or yearly if you need the full Pro toolkit."
+    }
+  ],
+  "sources": [
+    "https://jobshifu.com/pricing"
+  ],
+  "summary_fr": "Agent IA de recherche d’emploi qui trouve des offres sur plus de 14 000 sites carrière, adapte ton CV à partir de l’expérience que tu confirmes, et t’aide à postuler.",
+  "description_fr": "Agent IA de recherche d’emploi qui trouve des offres sur plus de 14 000 sites carrière, adapte ton CV à partir de l’expérience que tu confirmes, et t’aide à postuler.",
+  "features_fr": [
+    "L’agent Shifu est inclus sur chaque compte",
+    "Recherche d’offres sur plus de 14 000 sites carrière d’employeurs",
+    "CV adapté à partir de l’expérience confirmée, plus suivi des candidatures",
+    "Offre gratuite sans carte",
+    "Prix de lancement sur Pro mensuel jusqu’au 31 décembre 2026"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Crée un compte JobShifu gratuit, sans carte, et laisse Shifu chercher des offres sur les...",
+      "description": "Crée un compte JobShifu gratuit, sans carte, et laisse Shifu chercher des offres sur les sites carrière des employeurs.",
+      "links": [
+        {
+          "label": "JobShifu",
+          "url": "https://jobshifu.com/"
+        }
+      ]
+    },
+    {
+      "title": "Confirme ton expérience pour que l’outil adapte ton CV et t’aide à postuler.",
+      "description": "Confirme ton expérience pour que l’outil adapte ton CV et t’aide à postuler."
+    },
+    {
+      "title": "Achète un Week Pass ou abonne-toi à Pro en mensuel, trimestriel ou annuel si tu as besoin...",
+      "description": "Achète un Week Pass ou abonne-toi à Pro en mensuel, trimestriel ou annuel si tu as besoin de la boîte à outils Pro complète."
+    }
+  ]
+}

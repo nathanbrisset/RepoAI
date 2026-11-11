@@ -1,0 +1,79 @@
+{
+  "id": "lookora",
+  "name": "Lookora",
+  "url": "https://www.lookora.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI virtual try-on of stylist-made outfits on your own photo, in the browser or on iPhone, with no avatar and no subscription. Three free looks a month in the iPhone app.",
+  "description": "AI virtual try-on of stylist-made outfits on your own photo, in the browser or on iPhone, with no avatar and no subscription. Three free looks a month in the iPhone app.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "image",
+    "virtual-try-on",
+    "fashion",
+    "outfits",
+    "mobile"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.lookora.app/pricing",
+    "details": "iPhone app: 3 looks a month free, no card. The browser has no free tier. Look packs, paid once: 1 € for 5 looks, or 4 € for 30 looks. No subscription; looks never expire.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/lookora.png",
+  "image": "/screenshots/lookora.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Virtual try-on of stylist-made outfits on your own photo, no avatar",
+    "Works in the browser and in the iPhone app",
+    "No subscription; looks never expire",
+    "Three free looks a month in the iPhone app"
+  ],
+  "howToUse": [
+    {
+      "title": "Download the iPhone app for three free looks a month, or on lookora.app buy a 5- or...",
+      "description": "Download the iPhone app for three free looks a month, or on lookora.app buy a 5- or 30-look pack.",
+      "links": [
+        {
+          "label": "Lookora",
+          "url": "https://www.lookora.app/"
+        }
+      ]
+    },
+    {
+      "title": "Upload one photo and see the stylist-made outfits on you — no avatar.",
+      "description": "Upload one photo and see the stylist-made outfits on you — no avatar."
+    }
+  ],
+  "sources": [
+    "https://www.lookora.app/pricing"
+  ],
+  "summary_fr": "Essayage virtuel IA de looks préparés par des stylistes, sur ta photo, dans le navigateur ou sur iPhone, sans avatar ni abonnement. Trois looks gratuits par mois dans l’app iPhone.",
+  "description_fr": "Essayage virtuel IA de looks préparés par des stylistes, sur ta photo, dans le navigateur ou sur iPhone, sans avatar ni abonnement. Trois looks gratuits par mois dans l’app iPhone.",
+  "features_fr": [
+    "Essayage virtuel de looks préparés par des stylistes, sur ta photo, sans avatar",
+    "Fonctionne dans le navigateur et dans l’app iPhone",
+    "Pas d’abonnement ; les looks n’expirent pas",
+    "Trois looks gratuits par mois dans l’app iPhone"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Télécharge l’app iPhone pour trois looks gratuits par mois, ou achète un pack de 5 ou 30...",
+      "description": "Télécharge l’app iPhone pour trois looks gratuits par mois, ou achète un pack de 5 ou 30 looks sur lookora.app.",
+      "links": [
+        {
+          "label": "Lookora",
+          "url": "https://www.lookora.app/"
+        }
+      ]
+    },
+    {
+      "title": "Envoie une photo et vois les tenues préparées par des stylistes sur toi — sans avatar.",
+      "description": "Envoie une photo et vois les tenues préparées par des stylistes sur toi — sans avatar."
+    }
+  ]
+}

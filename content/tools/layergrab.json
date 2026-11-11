@@ -1,0 +1,79 @@
+{
+  "id": "layergrab",
+  "name": "LayerGrab",
+  "url": "https://layergrab.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Splits any image into named, editable layers (up to 16), fills the background behind them, and exports PNG, ZIP or a layered PSD, plus Photoshop, Figma, Sketch and Chrome plugins.",
+  "description": "Splits any image into named, editable layers (up to 16), fills the background behind them, and exports PNG, ZIP or a layered PSD, plus Photoshop, Figma, Sketch and Chrome plugins.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "design",
+    "layers",
+    "psd",
+    "figma",
+    "image-editing"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://layergrab.com/pricing",
+    "details": "Basic 11 €/month (1,200 credits, about 120 layers) or 88 €/year; Premium 32 €/month (3,600 credits, about 450 layers) or 267 €/year (yearly saves 31%). One-time packs (pack credits expire): 18 € for 1,800 credits (about 180 layers); 54 € for 6,600 credits.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/layergrab.png",
+  "image": "/screenshots/layergrab.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Splits an image into up to 16 named, editable transparent layers, and fills the background",
+    "PNG, ZIP or layered PSD export",
+    "Photoshop, Figma, Sketch and Chrome plugins",
+    "Pay per returned layer; one-time pack credits expire"
+  ],
+  "howToUse": [
+    {
+      "title": "Upload an image on layergrab.com (or use a Photoshop, Figma, Sketch or Chrome plugin) and...",
+      "description": "Upload an image on layergrab.com (or use a Photoshop, Figma, Sketch or Chrome plugin) and wait for the split.",
+      "links": [
+        {
+          "label": "LayerGrab",
+          "url": "https://layergrab.com/"
+        }
+      ]
+    },
+    {
+      "title": "Export layers as PNG, ZIP or a layered PSD, then subscribe to Basic or Premium or buy a...",
+      "description": "Export layers as PNG, ZIP or a layered PSD, then subscribe to Basic or Premium or buy a credit pack."
+    }
+  ],
+  "sources": [
+    "https://layergrab.com/pricing"
+  ],
+  "summary_fr": "Découpe une image en calques nommés et éditables (jusqu’à 16), reconstitue le fond, et exporte en PNG, ZIP ou PSD, avec des plugins Photoshop, Figma, Sketch et Chrome.",
+  "description_fr": "Découpe une image en calques nommés et éditables (jusqu’à 16), reconstitue le fond, et exporte en PNG, ZIP ou PSD, avec des plugins Photoshop, Figma, Sketch et Chrome.",
+  "features_fr": [
+    "Découpe une image en jusqu’à 16 calques transparents, nommés et éditables, et reconstitue le fond",
+    "Export PNG, ZIP ou PSD avec calques",
+    "Plugins Photoshop, Figma, Sketch et Chrome",
+    "Facturation par calque renvoyé ; les crédits des packs ponctuels expirent"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Envoie une image sur layergrab.com (ou passe par un plugin Photoshop, Figma, Sketch ou...",
+      "description": "Envoie une image sur layergrab.com (ou passe par un plugin Photoshop, Figma, Sketch ou Chrome) et attends la découpe.",
+      "links": [
+        {
+          "label": "LayerGrab",
+          "url": "https://layergrab.com/"
+        }
+      ]
+    },
+    {
+      "title": "Exporte les calques en PNG, ZIP ou PSD, puis abonne-toi à Basic ou Premium, ou achète un...",
+      "description": "Exporte les calques en PNG, ZIP ou PSD, puis abonne-toi à Basic ou Premium, ou achète un pack de crédits."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "rezup",
+  "name": "Rezup",
+  "url": "https://rezup.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Voice feedback: customers record a short audio review in any language; Rezup transcribes, translates and helps the business reply and analyse the answers.",
+  "description": "Voice feedback: customers record a short audio review in any language; Rezup transcribes, translates and helps the business reply and analyse the answers.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "customer-feedback",
+    "voice",
+    "reviews",
+    "cx",
+    "support"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://rezup.ai/pricing",
+    "details": "Free forever — 25 responses to start, or up to a published Stripe MRR of 4,459 € (50 responses/month, 1 collector). Starter 26 €/month or 21 €/month billed annually (246 €/year). Growth 88 €/month or 70 €/month billed annually (845 €/year). Business 267 €/month or 213 €/month billed annually (2,558 €/year). Extra packs: 50 responses 6 €; 300 responses 21 € (100 for 8 € also stated).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/rezup.png",
+  "image": "/screenshots/rezup.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Voice reviews collected with a link or QR",
+    "Transcription and translation",
+    "AI analysis on paid plans",
+    "Optional Stripe-connected MRR sizing",
+    "Official HQ in Wrocław, Poland"
+  ],
+  "howToUse": [
+    {
+      "title": "Start free on rezup.ai and share a collector link or QR.",
+      "description": "Start free on rezup.ai and share a collector link or QR.",
+      "links": [
+        {
+          "label": "Rezup",
+          "url": "https://rezup.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Review the transcribed voice answers, then upgrade to Starter, Growth or Business, or buy...",
+      "description": "Review the transcribed voice answers, then upgrade to Starter, Growth or Business, or buy a response pack if you need more volume."
+    }
+  ],
+  "hqCountry": "PL",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://rezup.ai/pricing"
+  ],
+  "summary_fr": "Avis vocaux : tes clients enregistrent une courte réponse dans n’importe quelle langue ; Rezup transcrit, traduit et t’aide à répondre et à analyser.",
+  "description_fr": "Avis vocaux : tes clients enregistrent une courte réponse dans n’importe quelle langue ; Rezup transcrit, traduit et t’aide à répondre et à analyser.",
+  "features_fr": [
+    "Avis vocaux collectés via un lien ou un QR",
+    "Transcription et traduction",
+    "Analyse IA sur les offres payantes",
+    "Dimensionnement optionnel via le MRR Stripe",
+    "Siège officiel à Wrocław, Pologne"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Commence gratuitement sur rezup.ai et partage un lien ou un QR de collecte.",
+      "description": "Commence gratuitement sur rezup.ai et partage un lien ou un QR de collecte.",
+      "links": [
+        {
+          "label": "Rezup",
+          "url": "https://rezup.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Relis les avis vocaux transcrits, puis passe à Starter, Growth ou Business, ou achète un...",
+      "description": "Relis les avis vocaux transcrits, puis passe à Starter, Growth ou Business, ou achète un pack de réponses si tu as besoin de plus de volume."
+    }
+  ]
+}

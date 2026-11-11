@@ -1,0 +1,87 @@
+{
+  "id": "makelesson",
+  "name": "MakeLesson",
+  "url": "https://makelesson.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns PDFs, photos, text or a topic into interactive exercises for tutors and teachers, with automatic checking and one shared review dashboard.",
+  "description": "Turns PDFs, photos, text or a topic into interactive exercises for tutors and teachers, with automatic checking and one shared review dashboard.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "education",
+    "teachers",
+    "exercises",
+    "tutoring",
+    "lesson-planning"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://makelesson.com/pricing",
+    "details": "Free (20 credits/month, unlimited students, Payments for 5 students, no card). Pro regular 11 €/month; Max regular 36 €/month. Official launch promo, 50% off for life while the subscription lasts: Pro 5 €/month (300 credits); Max 18 €/month (1,200 credits).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/makelesson.png",
+  "image": "/screenshots/makelesson.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Turns PDFs, photos, scans, text or a topic into editable interactive exercises",
+    "Students complete a shared link with no account",
+    "Automatic checking of objective answers and one review dashboard",
+    "Official launch promo: 50% off for life while the subscription lasts"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up free on makelesson.com and upload a PDF, photo or topic.",
+      "description": "Sign up free on makelesson.com and upload a PDF, photo or topic.",
+      "links": [
+        {
+          "label": "MakeLesson",
+          "url": "https://makelesson.com/"
+        }
+      ]
+    },
+    {
+      "title": "Generate an interactive exercise and share one link with students (no student account).",
+      "description": "Generate an interactive exercise and share one link with students (no student account)."
+    },
+    {
+      "title": "Review results in the shared dashboard, then upgrade to Pro or Max if you need more...",
+      "description": "Review results in the shared dashboard, then upgrade to Pro or Max if you need more credits and payments for every student."
+    }
+  ],
+  "sources": [
+    "https://makelesson.com/pricing"
+  ],
+  "summary_fr": "Transforme des PDF, photos, textes ou un sujet en exercices interactifs pour tuteurs et enseignants, avec correction automatique et un tableau de suivi unique.",
+  "description_fr": "Transforme des PDF, photos, textes ou un sujet en exercices interactifs pour tuteurs et enseignants, avec correction automatique et un tableau de suivi unique.",
+  "features_fr": [
+    "Transforme PDF, photos, scans, texte ou un sujet en exercices interactifs éditables",
+    "Les élèves répondent via un lien partagé, sans compte",
+    "Correction automatique des réponses objectives et un tableau de suivi unique",
+    "Promo de lancement officielle : 50 % de réduction à vie tant que l’abonnement dure"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Inscris-toi gratuitement sur makelesson.com et envoie un PDF, une photo ou un sujet.",
+      "description": "Inscris-toi gratuitement sur makelesson.com et envoie un PDF, une photo ou un sujet.",
+      "links": [
+        {
+          "label": "MakeLesson",
+          "url": "https://makelesson.com/"
+        }
+      ]
+    },
+    {
+      "title": "Génère un exercice interactif et partage un lien unique avec tes élèves (sans compte...",
+      "description": "Génère un exercice interactif et partage un lien unique avec tes élèves (sans compte élève)."
+    },
+    {
+      "title": "Relis les résultats dans le tableau de suivi, puis passe à Pro ou Max si tu as besoin de...",
+      "description": "Relis les résultats dans le tableau de suivi, puis passe à Pro ou Max si tu as besoin de plus de crédits et des paiements pour chaque élève."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "salesguy",
+  "name": "Salesguy",
+  "url": "https://salesguy.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "End-to-end sales agent that finds buyers, emails them from your Gmail, follows up, answers and brings you the conversation. The brief is free; running him uses fuel credits.",
+  "description": "End-to-end sales agent that finds buyers, emails them from your Gmail, follows up, answers and brings you the conversation. The brief is free; running him uses fuel credits.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "marketing",
+    "sales",
+    "outreach",
+    "gmail",
+    "agents"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://salesguy.com/pricing",
+    "details": "The brief is free. 45 € a month for 50,000 fuel/month; or 45 € once for 40,000 fuel, no subscription (credits stay until used). Auto-refill adds 45 € of fuel (50,000) when he runs low; you can switch auto-refill off.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/salesguy.png",
+  "image": "/screenshots/salesguy.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Finds buyers, emails them from your Gmail, follows up, answers and brings you the conversation",
+    "The brief is free; running him uses fuel credits",
+    "Monthly fuel pool, or a one-time pack with no subscription",
+    "Auto-refill can be switched off"
+  ],
+  "howToUse": [
+    {
+      "title": "Write a free brief on salesguy.com, then put him to work with the monthly plan or a...",
+      "description": "Write a free brief on salesguy.com, then put him to work with the monthly plan or a one-time fuel pack.",
+      "links": [
+        {
+          "label": "Salesguy",
+          "url": "https://salesguy.com/"
+        }
+      ]
+    },
+    {
+      "title": "Turn auto-refill off if you do not want it.",
+      "description": "Turn auto-refill off if you do not want it."
+    }
+  ],
+  "sources": [
+    "https://salesguy.com/pricing"
+  ],
+  "summary_fr": "Agent commercial de bout en bout : il trouve des acheteurs, leur écrit depuis ton Gmail, relance, répond et te ramène la conversation. Le brief est gratuit ; son travail consomme des crédits « fuel ».",
+  "description_fr": "Agent commercial de bout en bout : il trouve des acheteurs, leur écrit depuis ton Gmail, relance, répond et te ramène la conversation. Le brief est gratuit ; son travail consomme des crédits « fuel ».",
+  "features_fr": [
+    "Trouve des acheteurs, leur écrit depuis ton Gmail, relance, répond et te ramène la conversation",
+    "Le brief est gratuit ; son travail consomme des crédits « fuel »",
+    "Pool de fuel mensuel, ou pack ponctuel sans abonnement",
+    "La recharge automatique peut être désactivée"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Rédige un brief gratuit sur salesguy.com, puis mets-le au travail avec l’offre mensuelle...",
+      "description": "Rédige un brief gratuit sur salesguy.com, puis mets-le au travail avec l’offre mensuelle ou un pack de fuel ponctuel.",
+      "links": [
+        {
+          "label": "Salesguy",
+          "url": "https://salesguy.com/"
+        }
+      ]
+    },
+    {
+      "title": "Désactive la recharge automatique si tu n’en veux pas.",
+      "description": "Désactive la recharge automatique si tu n’en veux pas."
+    }
+  ]
+}

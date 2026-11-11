@@ -1,0 +1,81 @@
+{
+  "id": "redactsense",
+  "name": "RedactSense",
+  "url": "https://redactsense.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "On-device AI redaction for macOS and Windows: finds and permanently removes sensitive information without uploading files to the cloud.",
+  "description": "On-device AI redaction for macOS and Windows: finds and permanently removes sensitive information without uploading files to the cloud.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "security",
+    "redaction",
+    "privacy",
+    "on-device",
+    "compliance"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://redactsense.com/pricing",
+    "details": "Free forever, no card (unlimited documents, first 2 pages exported, 1 device). Individual 18 €/month billed annually (all pages, all styles, 1 device). Team 36 € per device per month billed annually (min. 2 devices, admin management, priority support). Enterprise custom. A monthly toggle exists; a separate non-discounted monthly amount is not published, so it is not shown.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/redactsense.png",
+  "image": "/screenshots/redactsense.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "100% on-device, no cloud upload",
+    "Automatic detection and permanent redaction",
+    "macOS and Windows",
+    "Publisher stated as Bytesalt Inc.",
+    "Free plan with no card"
+  ],
+  "howToUse": [
+    {
+      "title": "Download RedactSense for Mac or Windows from redactsense.com and redact files locally on...",
+      "description": "Download RedactSense for Mac or Windows from redactsense.com and redact files locally on the Free plan.",
+      "links": [
+        {
+          "label": "RedactSense",
+          "url": "https://redactsense.com/"
+        }
+      ]
+    },
+    {
+      "title": "Buy an Individual or Team licence if you need full-document export and extra devices.",
+      "description": "Buy an Individual or Team licence if you need full-document export and extra devices."
+    }
+  ],
+  "sources": [
+    "https://redactsense.com/pricing"
+  ],
+  "summary_fr": "Expurgation IA 100 % locale sur macOS et Windows : détecte et retire définitivement les informations sensibles, sans envoyer tes fichiers dans le cloud.",
+  "description_fr": "Expurgation IA 100 % locale sur macOS et Windows : détecte et retire définitivement les informations sensibles, sans envoyer tes fichiers dans le cloud.",
+  "features_fr": [
+    "100 % local, sans envoi vers le cloud",
+    "Détection automatique et expurgation définitive",
+    "macOS et Windows",
+    "Éditeur indiqué : Bytesalt Inc.",
+    "Offre gratuite sans carte"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Télécharge RedactSense pour Mac ou Windows depuis redactsense.com et expurge tes fichiers...",
+      "description": "Télécharge RedactSense pour Mac ou Windows depuis redactsense.com et expurge tes fichiers en local sur l’offre Gratuite.",
+      "links": [
+        {
+          "label": "RedactSense",
+          "url": "https://redactsense.com/"
+        }
+      ]
+    },
+    {
+      "title": "Achète une licence Individual ou Team si tu as besoin d’exporter le document entier et de...",
+      "description": "Achète une licence Individual ou Team si tu as besoin d’exporter le document entier et de plus d’appareils."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "deepledger",
+  "name": "DeepLedger",
+  "url": "https://deepledger.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Accounting harness that connects QuickBooks Online, Xero (beta), Bill.com and Stripe to Claude, ChatGPT, Cursor or Grok, with firm rules and review built in.",
+  "description": "Accounting harness that connects QuickBooks Online, Xero (beta), Bill.com and Stripe to Claude, ChatGPT, Cursor or Grok, with firm rules and review built in.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "finance",
+    "accounting",
+    "quickbooks",
+    "bookkeeping",
+    "mcp"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://deepledger.ai/pricing",
+    "details": "14-day free trial. 18 € per connection per month for QuickBooks Online, Xero (beta) or Bill.com; 9 € per connection per month for Stripe. Unlimited users; one connection per company.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/deepledger.png",
+  "image": "/screenshots/deepledger.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "One connection per company, with unlimited users",
+    "Works in Claude, ChatGPT, Cursor and Grok",
+    "Firm rules, review and sign-off built in",
+    "14-day free trial"
+  ],
+  "howToUse": [
+    {
+      "title": "Start a 14-day trial on deepledger.ai and connect QuickBooks, Xero, Bill.com or Stripe.",
+      "description": "Start a 14-day trial on deepledger.ai and connect QuickBooks, Xero, Bill.com or Stripe.",
+      "links": [
+        {
+          "label": "DeepLedger",
+          "url": "https://deepledger.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Set your firm’s review rules, then keep the connections you need at the published...",
+      "description": "Set your firm’s review rules, then keep the connections you need at the published per-connection monthly rates."
+    }
+  ],
+  "sources": [
+    "https://deepledger.ai/pricing"
+  ],
+  "summary_fr": "Couche comptable qui connecte QuickBooks Online, Xero (bêta), Bill.com et Stripe à Claude, ChatGPT, Cursor ou Grok, avec les règles de ton cabinet et une étape de relecture.",
+  "description_fr": "Couche comptable qui connecte QuickBooks Online, Xero (bêta), Bill.com et Stripe à Claude, ChatGPT, Cursor ou Grok, avec les règles de ton cabinet et une étape de relecture.",
+  "features_fr": [
+    "Une connexion par entreprise, utilisateurs illimités",
+    "Fonctionne dans Claude, ChatGPT, Cursor et Grok",
+    "Règles du cabinet, relecture et validation intégrées",
+    "Essai de 14 jours"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Démarre un essai de 14 jours sur deepledger.ai et connecte QuickBooks, Xero, Bill.com ou...",
+      "description": "Démarre un essai de 14 jours sur deepledger.ai et connecte QuickBooks, Xero, Bill.com ou Stripe.",
+      "links": [
+        {
+          "label": "DeepLedger",
+          "url": "https://deepledger.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Définis les règles de relecture de ton cabinet, puis garde les connexions dont tu as...",
+      "description": "Définis les règles de relecture de ton cabinet, puis garde les connexions dont tu as besoin aux tarifs mensuels publiés par connexion."
+    }
+  ]
+}

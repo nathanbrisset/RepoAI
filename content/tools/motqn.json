@@ -1,0 +1,89 @@
+{
+  "id": "motqn",
+  "name": "Motqn",
+  "url": "https://motqn.ai/en",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI for teachers that turns a textbook into lesson plans, slide decks and auto-graded assessments, with a free trial and no credit card required.",
+  "description": "AI for teachers that turns a textbook into lesson plans, slide decks and auto-graded assessments, with a free trial and no credit card required.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "education",
+    "teachers",
+    "lesson-plans",
+    "grading",
+    "arabic"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://motqn.ai/pricing",
+    "details": "Free trial, no card. Teacher subscriptions billed monthly: Motqn Lite 4 €/month; Motqn Basic 12 €/month; Motqn Pro 22 €/month. Official amounts are also shown in a local currency on the site.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/motqn.png",
+  "image": "/screenshots/motqn.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Lesson plans from a textbook",
+    "Interactive PowerPoint generation",
+    "Auto-graded tests with explanations",
+    "Student-data protection stated as GDPR-aligned",
+    "Free trial with no card"
+  ],
+  "howToUse": [
+    {
+      "title": "Open motqn.ai and start the free trial without a card.",
+      "description": "Open motqn.ai and start the free trial without a card.",
+      "links": [
+        {
+          "label": "Motqn",
+          "url": "https://motqn.ai/en"
+        }
+      ]
+    },
+    {
+      "title": "Upload or select a textbook, then generate a lesson plan, slides or a graded test.",
+      "description": "Upload or select a textbook, then generate a lesson plan, slides or a graded test."
+    },
+    {
+      "title": "Pick Lite, Basic or Pro on the pricing page if you want to continue.",
+      "description": "Pick Lite, Basic or Pro on the pricing page if you want to continue."
+    }
+  ],
+  "sources": [
+    "https://motqn.ai/pricing"
+  ],
+  "summary_fr": "IA pour enseignants qui transforme un manuel en plans de cours, présentations et évaluations corrigées automatiquement ; essai gratuit sans carte.",
+  "description_fr": "IA pour enseignants qui transforme un manuel en plans de cours, présentations et évaluations corrigées automatiquement ; essai gratuit sans carte.",
+  "features_fr": [
+    "Plans de cours à partir d’un manuel",
+    "Génération de présentations PowerPoint interactives",
+    "Tests corrigés automatiquement, avec explications",
+    "Protection des données élèves indiquée comme alignée RGPD",
+    "Essai gratuit sans carte"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre motqn.ai et démarre l’essai gratuit, sans carte.",
+      "description": "Ouvre motqn.ai et démarre l’essai gratuit, sans carte.",
+      "links": [
+        {
+          "label": "Motqn",
+          "url": "https://motqn.ai/en"
+        }
+      ]
+    },
+    {
+      "title": "Envoie ou choisis un manuel, puis génère un plan de cours, des slides ou un test corrigé.",
+      "description": "Envoie ou choisis un manuel, puis génère un plan de cours, des slides ou un test corrigé."
+    },
+    {
+      "title": "Choisis Lite, Basic ou Pro sur la page des tarifs si tu veux continuer.",
+      "description": "Choisis Lite, Basic ou Pro sur la page des tarifs si tu veux continuer."
+    }
+  ]
+}

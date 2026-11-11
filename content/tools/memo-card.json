@@ -1,0 +1,79 @@
+{
+  "id": "memo-card",
+  "name": "Memo Card",
+  "url": "https://memocard.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI lecture notes from live or recorded classes: transcription, real-time translation, searchable bilingual notes, quizzes and replay.",
+  "description": "AI lecture notes from live or recorded classes: transcription, real-time translation, searchable bilingual notes, quizzes and replay.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "education",
+    "lecture-notes",
+    "transcription",
+    "translation",
+    "study"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://memocard.com/pricing",
+    "details": "200-credit Starter pack 27 €; 2,000-credit pack 177 €; annual unlimited 267 € one-time for one year (no auto-renewal stated on the pricing page). Prepaid credit packs, no required subscription.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/memo-card.png",
+  "image": "/screenshots/memo-card.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Live or recorded class transcription",
+    "Real-time translation and searchable bilingual study notes",
+    "Quizzes and replay",
+    "Prepaid credit packs, plus a one-time annual unlimited plan"
+  ],
+  "howToUse": [
+    {
+      "title": "Go to memocard.com and choose a credit pack or the one-time annual unlimited plan.",
+      "description": "Go to memocard.com and choose a credit pack or the one-time annual unlimited plan.",
+      "links": [
+        {
+          "label": "Memo Card",
+          "url": "https://memocard.com/"
+        }
+      ]
+    },
+    {
+      "title": "Record or upload a class, then review the bilingual notes, quizzes and the replay.",
+      "description": "Record or upload a class, then review the bilingual notes, quizzes and the replay."
+    }
+  ],
+  "sources": [
+    "https://memocard.com/pricing"
+  ],
+  "summary_fr": "Prise de notes de cours par IA, en direct ou à partir d’un enregistrement : transcription, traduction en temps réel, notes bilingues recherchables, quiz et replay.",
+  "description_fr": "Prise de notes de cours par IA, en direct ou à partir d’un enregistrement : transcription, traduction en temps réel, notes bilingues recherchables, quiz et replay.",
+  "features_fr": [
+    "Transcription de cours en direct ou à partir d’un enregistrement",
+    "Traduction en temps réel et notes d’étude bilingues recherchables",
+    "Quiz et replay",
+    "Packs de crédits prépayés, plus une offre annuelle illimitée payée une fois"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Va sur memocard.com et choisis un pack de crédits ou l’offre annuelle illimitée, payée...",
+      "description": "Va sur memocard.com et choisis un pack de crédits ou l’offre annuelle illimitée, payée une fois.",
+      "links": [
+        {
+          "label": "Memo Card",
+          "url": "https://memocard.com/"
+        }
+      ]
+    },
+    {
+      "title": "Enregistre ou envoie un cours, puis relis les notes bilingues, les quiz et le replay.",
+      "description": "Enregistre ou envoie un cours, puis relis les notes bilingues, les quiz et le replay."
+    }
+  ]
+}

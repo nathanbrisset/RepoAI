@@ -1,0 +1,79 @@
+{
+  "id": "reception",
+  "name": "Reception",
+  "url": "https://www.reception.ai/pricing",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI phone receptionist that answers calls, books and routes them, with published minute allowances, concurrent lines and a 14-day free trial.",
+  "description": "AI phone receptionist that answers calls, books and routes them, with published minute allowances, concurrent lines and a 14-day free trial.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "customer-support",
+    "phone",
+    "receptionist",
+    "voice",
+    "calls"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.reception.ai/pricing",
+    "details": "14-day free trial. Basic 26 €/month or 21 €/month billed annually (259 €/year); Plus 70 €/month or 59 €/month billed annually (704 €/year); Premium 177 €/month or 148 €/month billed annually (1,775 €/year). Plus tax. A Spanish pricing page may be served from Europe; the official figures are the same.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/reception.png",
+  "image": "/screenshots/reception.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "AI phone answering, booking and routing",
+    "Concurrent calls and phone numbers by plan",
+    "14-day free trial",
+    "Official amounts published with annual totals"
+  ],
+  "howToUse": [
+    {
+      "title": "Start the 14-day free trial on reception.ai and set opening hours and call flows.",
+      "description": "Start the 14-day free trial on reception.ai and set opening hours and call flows.",
+      "links": [
+        {
+          "label": "Reception",
+          "url": "https://www.reception.ai/pricing"
+        }
+      ]
+    },
+    {
+      "title": "Choose Basic, Plus or Premium, monthly or annually, if you want to keep the receptionist...",
+      "description": "Choose Basic, Plus or Premium, monthly or annually, if you want to keep the receptionist after the trial."
+    }
+  ],
+  "sources": [
+    "https://www.reception.ai/pricing"
+  ],
+  "summary_fr": "Standardiste téléphonique IA qui répond, réserve et transfère tes appels, avec des volumes de minutes et de lignes publiés, et un essai gratuit de 14 jours.",
+  "description_fr": "Standardiste téléphonique IA qui répond, réserve et transfère tes appels, avec des volumes de minutes et de lignes publiés, et un essai gratuit de 14 jours.",
+  "features_fr": [
+    "Réponse, réservation et transfert d’appels par IA",
+    "Appels simultanés et numéros selon l’offre",
+    "Essai de 14 jours",
+    "Montants officiels publiés avec les totaux annuels"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Démarre l’essai de 14 jours sur reception.ai et règle tes horaires d’ouverture et tes...",
+      "description": "Démarre l’essai de 14 jours sur reception.ai et règle tes horaires d’ouverture et tes flux d’appels.",
+      "links": [
+        {
+          "label": "Reception",
+          "url": "https://www.reception.ai/pricing"
+        }
+      ]
+    },
+    {
+      "title": "Choisis Basic, Plus ou Premium, en mensuel ou en annuel, si tu veux garder le...",
+      "description": "Choisis Basic, Plus ou Premium, en mensuel ou en annuel, si tu veux garder le standardiste après l’essai."
+    }
+  ]
+}
