@@ -1,0 +1,76 @@
+{
+  "id": "programmable",
+  "name": "Programmable",
+  "url": "https://programmable.info/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Describe who you sell to and an agent finds matching companies, researches each one, finds the right person with a checked email and asks before sending to your outreach tool.",
+  "description": "Describe who you sell to and an agent finds matching companies, researches each one, finds the right person with a checked email and asks before sending to your outreach tool.",
+  "categories": [
+    "sales"
+  ],
+  "tags": [
+    "lead-generation",
+    "prospecting",
+    "sales",
+    "data-enrichment",
+    "ai-agent"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://programmable.info/pricing",
+    "details": "500 signup credits, no card. Starter 17 €/month (20,000 credits, 1 seat); Growth 44 €/month (75,000 credits, 3 seats); Scale 133 €/month (300,000 credits, 10 seats). Credit packs 8 € / 26 € for 5,000 / 25,000 credits. Failed rows are refunded.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/programmable.png",
+  "image": "/screenshots/programmable.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Company discovery with a reason to reach out",
+    "Per-company research and verified emails",
+    "Approval before export",
+    "Zapier, n8n, Make and Google Sheets recipes",
+    "Failed rows refunded"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on programmable.info, describe your ideal customer, run a small list with the...",
+      "description": "Sign up on programmable.info, describe your ideal customer, run a small list with the free 500 credits, approve the rows, then send them to your outreach tool.",
+      "links": [
+        {
+          "label": "Programmable",
+          "url": "https://programmable.info/"
+        }
+      ]
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://theresanaiforthat.com/just-launched/",
+    "https://programmable.info/pricing"
+  ],
+  "summary_fr": "Décris ta cible et un agent trouve les entreprises correspondantes, les analyse, identifie la bonne personne avec un email vérifié et te demande validation avant l’envoi vers ton outil de prospection.",
+  "description_fr": "Décris ta cible et un agent trouve les entreprises correspondantes, les analyse, identifie la bonne personne avec un email vérifié et te demande validation avant l’envoi vers ton outil de prospection.",
+  "features_fr": [
+    "Découverte d’entreprises, avec une raison de les contacter",
+    "Recherche par entreprise et e-mails vérifiés",
+    "Validation avant export",
+    "Recettes Zapier, n8n, Make et Google Sheets",
+    "Lignes échouées remboursées"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Inscris-toi sur programmable.info, décris ta cible, lance une petite liste avec les 500...",
+      "description": "Inscris-toi sur programmable.info, décris ta cible, lance une petite liste avec les 500 crédits offerts, valide les lignes, puis envoie-les vers ton outil de prospection.",
+      "links": [
+        {
+          "label": "Programmable",
+          "url": "https://programmable.info/"
+        }
+      ]
+    }
+  ]
+}

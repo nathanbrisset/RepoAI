@@ -1,0 +1,88 @@
+{
+  "id": "tiquiz",
+  "name": "Tiquiz",
+  "url": "https://tiquiz.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Builds AI quiz funnels that tag leads and send them to Systeme.io, GoHighLevel or a webhook, with a free plan and clear paid tiers.",
+  "description": "Tiquiz is a quiz builder that captures leads and sends the result and tag to Systeme.io, GoHighLevel or any tool by webhook. No card is required to start on Free.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "quizzes",
+    "lead-generation",
+    "funnels",
+    "systeme-io",
+    "gohighlevel"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://tiquiz.io/pricing",
+    "details": "Free forever (1 quiz, 1 survey and 1 Popquiz; 10 leads visible over 30 days; no card). Tiquiz 15 €/month or 152 €/year; Tiquiz PLUS 26 €/month or 259 €/year.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/tiquiz.png",
+  "image": "/screenshots/tiquiz.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "AI quiz funnels with lead tagging",
+    "Systeme.io, GoHighLevel or webhook connections",
+    "Follow-up emails and custom domain on paid plans",
+    "Free plan with no card"
+  ],
+  "howToUse": [
+    {
+      "title": "Open tiquiz.io and start free with no card.",
+      "description": "Open tiquiz.io and start free with no card.",
+      "links": [
+        {
+          "label": "Tiquiz",
+          "url": "https://tiquiz.io/"
+        }
+      ]
+    },
+    {
+      "title": "Build a quiz and connect Systeme.io, GoHighLevel or a webhook.",
+      "description": "Build a quiz and connect Systeme.io, GoHighLevel or a webhook."
+    },
+    {
+      "title": "Upgrade to Tiquiz or PLUS if you outgrow the free limits.",
+      "description": "Upgrade to Tiquiz or PLUS if you outgrow the free limits."
+    }
+  ],
+  "sources": [
+    "https://tiquiz.io/",
+    "https://tiquiz.io/pricing"
+  ],
+  "summary_fr": "Crée des tunnels de quiz IA qui taguent les leads et les envoient vers Systeme.io, GoHighLevel ou un webhook, avec une offre gratuite et des tarifs clairs.",
+  "description_fr": "Crée des tunnels de quiz IA qui taguent les leads et les envoient vers Systeme.io, GoHighLevel ou un webhook, avec une offre gratuite et des tarifs clairs.",
+  "features_fr": [
+    "Tunnels de quiz IA avec tagging des leads",
+    "Connexions Systeme.io, GoHighLevel ou webhook",
+    "E-mails de suivi et domaine personnalisé sur les offres payantes",
+    "Offre gratuite sans carte"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre tiquiz.io et commence gratuitement, sans carte.",
+      "description": "Ouvre tiquiz.io et commence gratuitement, sans carte.",
+      "links": [
+        {
+          "label": "Tiquiz",
+          "url": "https://tiquiz.io/"
+        }
+      ]
+    },
+    {
+      "title": "Crée un quiz et connecte Systeme.io, GoHighLevel ou un webhook.",
+      "description": "Crée un quiz et connecte Systeme.io, GoHighLevel ou un webhook."
+    },
+    {
+      "title": "Passe à Tiquiz ou PLUS si tu dépasses les limites de l’offre gratuite.",
+      "description": "Passe à Tiquiz ou PLUS si tu dépasses les limites de l’offre gratuite."
+    }
+  ]
+}

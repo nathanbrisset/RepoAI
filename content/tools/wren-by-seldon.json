@@ -1,0 +1,74 @@
+{
+  "id": "wren-by-seldon",
+  "name": "Wren by Seldon",
+  "url": "https://www.seldon.com/products/wren",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Behavioural QA agents that use your web product like customers do, from plain-English test descriptions, and return a replay plus reproduction steps when something breaks.",
+  "description": "Behavioural QA agents that use your web product like customers do, from plain-English test descriptions, and return a replay plus reproduction steps when something breaks.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "qa",
+    "testing",
+    "software-testing",
+    "browser-agents",
+    "developer-tools"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.seldon.com/pricing",
+    "details": "3 € per completed test run (model usage and browser execution included, no seat fees). First 10 completed runs free per workspace. Failed runs on Seldon’s side are not charged. Volume and enterprise pricing on request.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/wren-by-seldon.png",
+  "image": "/screenshots/wren-by-seldon.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Behavioural QA agents that use your web product like customers do",
+    "Tests written in plain English",
+    "Recorded journeys and reproduction steps for each failure",
+    "Runs in parallel",
+    "First 10 completed runs free per workspace"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up at seldon.com, create a workspace, describe a workflow your team already tests in...",
+      "description": "Sign up at seldon.com, create a workspace, describe a workflow your team already tests in plain English, run it with the 10 free runs, then pay per completed run.",
+      "links": [
+        {
+          "label": "Wren by Seldon",
+          "url": "https://www.seldon.com/products/wren"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/leaderboard/daily/2026/11/10",
+    "https://www.seldon.com/pricing"
+  ],
+  "summary_fr": "Des agents QA comportementaux qui utilisent ton produit web comme tes clients, à partir de tests décrits en langage naturel, et renvoient un replay et les étapes de reproduction en cas de bug.",
+  "description_fr": "Des agents QA comportementaux qui utilisent ton produit web comme tes clients, à partir de tests décrits en langage naturel, et renvoient un replay et les étapes de reproduction en cas de bug.",
+  "features_fr": [
+    "Agents QA comportementaux qui utilisent ton produit web comme tes clients",
+    "Tests écrits en langage naturel",
+    "Replays et étapes de reproduction en cas d’échec",
+    "Exécutions en parallèle",
+    "10 premières exécutions offertes par espace de travail"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Inscris-toi sur seldon.com, crée un espace de travail, décris en langage naturel un...",
+      "description": "Inscris-toi sur seldon.com, crée un espace de travail, décris en langage naturel un parcours que ton équipe teste déjà, lance-le avec les 10 exécutions offertes, puis paie à l’exécution terminée.",
+      "links": [
+        {
+          "label": "Wren by Seldon",
+          "url": "https://www.seldon.com/products/wren"
+        }
+      ]
+    }
+  ]
+}

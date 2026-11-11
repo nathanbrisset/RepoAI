@@ -1,0 +1,72 @@
+{
+  "id": "maxma",
+  "name": "Maxma",
+  "url": "https://maxma.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An AI marketing teammate that analyses paid-ad performance, creates ads and landing pages, launches and optimises campaigns across Google, Meta, TikTok and LinkedIn, with your approval.",
+  "description": "An AI marketing teammate that analyses paid-ad performance, creates ads and landing pages, launches and optimises campaigns across Google, Meta, TikTok and LinkedIn, with your approval.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "advertising",
+    "paid-ads",
+    "ppc",
+    "marketing-automation",
+    "ai-agent"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://maxma.ai/pricing",
+    "details": "30-day trial with full Pro access (load 18 € of credits, pay usage only). Starter 88 €/month (up to 17,835 € ad spend); Standard 267 €/month (up to 44,587 € ad spend); Pro 802 €/month (up to 178,348 € ad spend); Enterprise custom. Add-ons: incrementality test from 445 €/test; marketing-mix model from 1,694 €/month.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/maxma.png",
+  "image": "/screenshots/maxma.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Works in Slack, with changes proposed for approval",
+    "Dashboards, analysis, creative generation, landing pages and ad-platform automation",
+    "Incrementality tests and marketing-mix model add-ons",
+    "30-day trial with full Pro access"
+  ],
+  "howToUse": [
+    {
+      "title": "Create a workspace on maxma.ai, connect your ad accounts during the 30-day trial, approve...",
+      "description": "Create a workspace on maxma.ai, connect your ad accounts during the 30-day trial, approve Maxma’s proposed changes in Slack, then choose the plan matching your monthly ad spend.",
+      "links": [
+        {
+          "label": "Maxma",
+          "url": "https://maxma.ai/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/leaderboard/daily/2026/11/10",
+    "https://maxma.ai/pricing"
+  ],
+  "summary_fr": "Un coéquipier marketing IA qui analyse tes campagnes payantes, crée annonces et landing pages, lance et optimise les campagnes sur Google, Meta, TikTok et LinkedIn, avec ta validation.",
+  "description_fr": "Un coéquipier marketing IA qui analyse tes campagnes payantes, crée annonces et landing pages, lance et optimise les campagnes sur Google, Meta, TikTok et LinkedIn, avec ta validation.",
+  "features_fr": [
+    "Fonctionne dans Slack, avec des changements proposés à valider",
+    "Tableaux de bord, analyses, créas, landing pages et automatisation des plateformes pub",
+    "Tests d’incrémentalité et modèle de mix marketing en options",
+    "Essai de 30 jours avec l’accès Pro complet"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Crée un espace sur maxma.ai, connecte tes comptes pubs pendant l’essai de 30 jours,...",
+      "description": "Crée un espace sur maxma.ai, connecte tes comptes pubs pendant l’essai de 30 jours, valide les propositions de Maxma dans Slack, puis choisis l’offre qui correspond à tes dépenses pub mensuelles.",
+      "links": [
+        {
+          "label": "Maxma",
+          "url": "https://maxma.ai/"
+        }
+      ]
+    }
+  ]
+}

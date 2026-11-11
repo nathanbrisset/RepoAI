@@ -1,0 +1,98 @@
+{
+  "id": "ai-floor-plan",
+  "name": "AI Floor Plan",
+  "url": "https://aifloorplan.org/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Generates an editable 2D and 3D floor plan from a description of rooms and area, with a free starter credit.",
+  "description": "AI Floor Plan (aifloorplan.org) turns a description of rooms and total area into an editable floor plan you can adjust, walk through in 3D and export. One AI floor plan uses 20 credits; editing, 3D views and exports never use credits. Official pricing: new accounts start with 20 free credits (one plan). Subscription credits do not roll over. Free PNG/SVG exports include an aifloorplan.org mark; paid plans and credit packs include watermark-free exports during the paid credit period. The site says AI layouts are concepts and you should work with a licensed architect before construction.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "floor-plans",
+    "interior-design",
+    "3d",
+    "architecture",
+    "credits"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://aifloorplan.org/pricing",
+    "details": "20 free starter credits (one plan); Starter 18 €/month (1,000 credits, up to 50 plans); Professional 44 €/month (3,000 credits, up to 150 plans). Subscription credits do not roll over. Editing, 3D views and exports use no credits. Free exports include a mark; paid plans include watermark-free exports during the paid credit period.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/ai-floor-plan.png",
+  "image": "/screenshots/ai-floor-plan.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Text to editable 2D and 3D floor plans",
+    "20 free starter credits",
+    "Editing, 3D views and exports use no credits",
+    "Cancel any time",
+    "Layouts are concepts; the site advises working with a licensed architect before construction"
+  ],
+  "howToUse": [
+    {
+      "title": "Open aifloorplan.org and describe your rooms and area.",
+      "description": "Open aifloorplan.org and describe your rooms and area.",
+      "links": [
+        {
+          "label": "AI Floor Plan",
+          "url": "https://aifloorplan.org/"
+        }
+      ]
+    },
+    {
+      "title": "Generate a first plan with the 20 free credits.",
+      "description": "Generate a first plan with the 20 free credits."
+    },
+    {
+      "title": "Edit it or explore it in 3D (these steps use no credits).",
+      "description": "Edit it or explore it in 3D (these steps use no credits)."
+    },
+    {
+      "title": "Subscribe to Starter or Professional if you need more generations.",
+      "description": "Subscribe to Starter or Professional if you need more generations."
+    }
+  ],
+  "sources": [
+    "https://aifloorplan.org/",
+    "https://aifloorplan.org/pricing"
+  ],
+  "summary_fr": "Génère un plan d’étage éditable en 2D et 3D à partir d’une description des pièces et de la surface, avec un crédit de départ offert.",
+  "description_fr": "Génère un plan d’étage éditable en 2D et 3D à partir d’une description des pièces et de la surface, avec un crédit de départ offert.",
+  "features_fr": [
+    "Texte vers plans d’étage éditables en 2D et 3D",
+    "20 crédits de départ offerts",
+    "L’édition, la 3D et les exports n’utilisent pas de crédits",
+    "Résiliation à tout moment",
+    "Les plans sont des concepts ; le site conseille de travailler avec un architecte avant construction"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre aifloorplan.org et décris tes pièces et la surface.",
+      "description": "Ouvre aifloorplan.org et décris tes pièces et la surface.",
+      "links": [
+        {
+          "label": "AI Floor Plan",
+          "url": "https://aifloorplan.org/"
+        }
+      ]
+    },
+    {
+      "title": "Génère un premier plan avec les 20 crédits offerts.",
+      "description": "Génère un premier plan avec les 20 crédits offerts."
+    },
+    {
+      "title": "Modifie-le ou explore-le en 3D (ces étapes n’utilisent pas de crédits).",
+      "description": "Modifie-le ou explore-le en 3D (ces étapes n’utilisent pas de crédits)."
+    },
+    {
+      "title": "Abonne-toi à Starter ou Professional si tu as besoin de plus de générations.",
+      "description": "Abonne-toi à Starter ou Professional si tu as besoin de plus de générations."
+    }
+  ]
+}

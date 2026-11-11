@@ -1,0 +1,70 @@
+{
+  "id": "gleeday",
+  "name": "Gleeday",
+  "url": "https://www.gleeday.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An AI event planner for invitations, RSVPs and reminders, with an official pricing page that states there is no premium tier and no hidden fees.",
+  "description": "Gleeday is an AI event planner for digital invitations, unlimited guests, RSVP tracking, reminders and planning suggestions. No hidden fees.” The FAQ states it is completely free, with no asterisk, no catch, and no free trial that becomes a subscription — every feature, guest and event, free forever.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "events",
+    "invitations",
+    "rsvp",
+    "planning",
+    "free"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.gleeday.com/pricing",
+    "details": "Officially free, with no ads, no premium tier and no hidden fees. Every feature, guest and event is free forever according to the official pricing page. This is not a time-limited trial.",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/gleeday.png",
+  "image": "/screenshots/gleeday.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "AI invitations, unlimited guests, RSVP tracking and reminders",
+    "Officially free, no ads and no premium tier",
+    "Planning suggestions"
+  ],
+  "howToUse": [
+    {
+      "title": "Open gleeday.com, create an event, let the AI draft the invitation, share the link, and...",
+      "description": "Open gleeday.com, create an event, let the AI draft the invitation, share the link, and track RSVPs. No paid upgrade is offered on the official pricing page.",
+      "links": [
+        {
+          "label": "Gleeday",
+          "url": "https://www.gleeday.com/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.gleeday.com/",
+    "https://www.gleeday.com/pricing"
+  ],
+  "summary_fr": "Un planificateur d’événements IA pour invitations, RSVP et rappels, dont la page tarifaire officielle indique qu’il n’y a ni offre premium ni frais cachés.",
+  "description_fr": "Un planificateur d’événements IA pour invitations, RSVP et rappels, dont la page tarifaire officielle indique qu’il n’y a ni offre premium ni frais cachés.",
+  "features_fr": [
+    "Invitations IA, invités illimités, suivi des RSVP et rappels",
+    "Officiellement gratuit, sans pub et sans offre premium",
+    "Suggestions d’organisation"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre gleeday.com, crée un événement, laisse l’IA rédiger l’invitation, partage le lien...",
+      "description": "Ouvre gleeday.com, crée un événement, laisse l’IA rédiger l’invitation, partage le lien et suis les RSVP. Aucune offre payante n’est proposée sur la page tarifaire officielle.",
+      "links": [
+        {
+          "label": "Gleeday",
+          "url": "https://www.gleeday.com/"
+        }
+      ]
+    }
+  ]
+}

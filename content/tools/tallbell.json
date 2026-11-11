@@ -1,0 +1,90 @@
+{
+  "id": "tallbell",
+  "name": "Tallbell",
+  "url": "https://www.tallbell.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An AI receptionist named Tally that answers calls from your website knowledge, takes messages, and can book jobs on your calendar.",
+  "description": "Tallbell is an AI phone receptionist (Tally) that answers calls day and night from your website, takes messages and emails you after each call. Calls under 20 seconds, spam and your own numbers do not count.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "receptionist",
+    "phone",
+    "booking",
+    "customer-support",
+    "calendar"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.tallbell.ai/pricing",
+    "details": "Answer 133 €/month (150 calls, 14-day trial: a card is required, nothing is charged today, and you pay nothing if you cancel online before the trial ends); Book 267 €/month (300 calls, calendar booking, same 14-day trial); Grow 445 €/month (600 calls, website and simple CRM, 3-month minimum, no trial). Calls under 20 seconds, spam and your own numbers do not count. Going over never stops answering. Extra calls are billed per call at the official unit rate, which converts to under 1 € at the ECB rate, so no euro figure is shown. A call over 8 minutes counts as two.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/tallbell.png",
+  "image": "/screenshots/tallbell.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "24/7 AI phone receptionist (Tally) that answers from your website",
+    "Takes messages and emails you after each call",
+    "Calendar booking on Book (Google, Outlook, iPhone)",
+    "Website and simple CRM on Grow",
+    "14-day trial on Answer and Book"
+  ],
+  "howToUse": [
+    {
+      "title": "Open tallbell.ai, pick Answer or Book and start the 14-day trial (nothing is charged...",
+      "description": "Open tallbell.ai, pick Answer or Book and start the 14-day trial (nothing is charged today).",
+      "links": [
+        {
+          "label": "Tallbell",
+          "url": "https://www.tallbell.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Let the app walk you through setup so Tally can answer from your website.",
+      "description": "Let the app walk you through setup so Tally can answer from your website."
+    },
+    {
+      "title": "Stay on that plan, or move to Grow if you want the website and CRM package (no trial,...",
+      "description": "Stay on that plan, or move to Grow if you want the website and CRM package (no trial, 3-month minimum)."
+    }
+  ],
+  "sources": [
+    "https://www.tallbell.ai/",
+    "https://www.tallbell.ai/pricing"
+  ],
+  "summary_fr": "Une réceptionniste IA, Tally, qui répond aux appels à partir du site, prend les messages et peut réserver des créneaux sur ton calendrier.",
+  "description_fr": "Une réceptionniste IA, Tally, qui répond aux appels à partir du site, prend les messages et peut réserver des créneaux sur ton calendrier.",
+  "features_fr": [
+    "Réceptionniste téléphonique IA (Tally) 24 h/24 qui répond à partir de ton site",
+    "Prise de messages et e-mail après chaque appel",
+    "Réservation d’agenda sur Book (Google, Outlook, iPhone)",
+    "Site et CRM simple sur Grow",
+    "Essai de 14 jours sur Answer et Book"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre tallbell.ai, choisis Answer ou Book et démarre l’essai de 14 jours (rien n’est...",
+      "description": "Ouvre tallbell.ai, choisis Answer ou Book et démarre l’essai de 14 jours (rien n’est débité aujourd’hui).",
+      "links": [
+        {
+          "label": "Tallbell",
+          "url": "https://www.tallbell.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Laisse l’appli te guider pour que Tally réponde à partir de ton site.",
+      "description": "Laisse l’appli te guider pour que Tally réponde à partir de ton site."
+    },
+    {
+      "title": "Reste sur cette offre, ou passe à Grow si tu veux le pack site et CRM (pas d’essai,...",
+      "description": "Reste sur cette offre, ou passe à Grow si tu veux le pack site et CRM (pas d’essai, engagement de 3 mois)."
+    }
+  ]
+}

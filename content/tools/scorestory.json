@@ -1,0 +1,88 @@
+{
+  "id": "scorestory",
+  "name": "ScoreStory",
+  "url": "https://www.scorestory.eu/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Combines customer-satisfaction scores with AI follow-up conversations, with a free trial and Essential, Plus and Pro plans in euros.",
+  "description": "ScoreStory combines CSAT/NPS-style scores with AI conversations to explain why a score was given. Official pricing (excluding VAT): Free is 10 participants, no credit card, and you can cancel at no cost if you have not yet had 10 participants. Essential is €50/month or €500/year (10 participants/month, 120/year, €3.50 per extra participant). Plus is €125/month or €1,250/year (50/month, 600/year, €3.00 extra). Pro is €475/month or €4,750/year (250/month, 3,000/year, €2.40 extra). An annual contract is pay for 10 months and get 12. Struck-through list yearly figures (€600 / €1,500 / €5,700) also appear next to the current prices. Unlimited users are included; SSO is extra; Enterprise is on request.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "cx",
+    "nps",
+    "csat",
+    "customer-feedback",
+    "surveys"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.scorestory.eu/pricing",
+    "details": "Free: 10 participants, no card (you can cancel at no cost if you have not yet had 10 participants). Essential 50 €/month or 500 €/year (10 participants/month); Plus 125 €/month or 1,250 €/year (50/month); Pro 475 €/month or 4,750 €/year (250/month). Prices excluding VAT. Annual billing is pay for 10 months and get 12. Unlimited users; SSO is extra; Enterprise on request.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/scorestory.png",
+  "image": "/screenshots/scorestory.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Combines satisfaction scores with AI follow-up conversations",
+    "Free 10-participant start, no card",
+    "Official euro prices, excluding VAT",
+    "Annual billing: 10 months paid for 12"
+  ],
+  "howToUse": [
+    {
+      "title": "Open scorestory.eu and start the free 10-participant trial with no card.",
+      "description": "Open scorestory.eu and start the free 10-participant trial with no card.",
+      "links": [
+        {
+          "label": "ScoreStory",
+          "url": "https://www.scorestory.eu/"
+        }
+      ]
+    },
+    {
+      "title": "Run a satisfaction survey with AI follow-up.",
+      "description": "Run a satisfaction survey with AI follow-up."
+    },
+    {
+      "title": "Choose Essential, Plus or Pro (monthly or annual) if you need more participants.",
+      "description": "Choose Essential, Plus or Pro (monthly or annual) if you need more participants."
+    }
+  ],
+  "sources": [
+    "https://www.scorestory.eu/",
+    "https://www.scorestory.eu/pricing"
+  ],
+  "summary_fr": "Associe des scores de satisfaction à des conversations de suivi IA, avec un essai gratuit et des offres Essential, Plus et Pro en euros.",
+  "description_fr": "Associe des scores de satisfaction à des conversations de suivi IA, avec un essai gratuit et des offres Essential, Plus et Pro en euros.",
+  "features_fr": [
+    "Associe des scores de satisfaction à des conversations de suivi IA",
+    "Démarrage gratuit pour 10 participants, sans carte",
+    "Prix officiels en euros, hors TVA",
+    "Annuel : 10 mois payés pour 12"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre scorestory.eu et démarre l’essai gratuit de 10 participants, sans carte.",
+      "description": "Ouvre scorestory.eu et démarre l’essai gratuit de 10 participants, sans carte.",
+      "links": [
+        {
+          "label": "ScoreStory",
+          "url": "https://www.scorestory.eu/"
+        }
+      ]
+    },
+    {
+      "title": "Lance une enquête de satisfaction avec suivi IA.",
+      "description": "Lance une enquête de satisfaction avec suivi IA."
+    },
+    {
+      "title": "Choisis Essential, Plus ou Pro (mensuel ou annuel) si tu as besoin de plus de...",
+      "description": "Choisis Essential, Plus ou Pro (mensuel ou annuel) si tu as besoin de plus de participants."
+    }
+  ]
+}

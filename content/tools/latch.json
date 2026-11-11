@@ -1,0 +1,72 @@
+{
+  "id": "latch",
+  "name": "Latch",
+  "url": "https://www.latch.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Automation for accountants: you do a task on screen and talk it through, and Latch builds a “sidekick” that repeats it the same way every time, with every step logged.",
+  "description": "Automation for accountants: you do a task on screen and talk it through, and Latch builds a “sidekick” that repeats it the same way every time, with every step logged.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "accounting",
+    "finance",
+    "workflow-automation",
+    "no-code",
+    "ai-agent"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.latch.ai/pricing/",
+    "details": "Open free forever (1 user, 50 credits/month). Solo 45 €/month or 36 €/month billed annually; Power 437 €/month (up to 5 users); Team 1,337 €/month (up to 10 users); Enterprise custom. Official annual discount of 20% (yearly totals for Power and Team were not published and are not shown).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/latch.png",
+  "image": "/screenshots/latch.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Learns from a screen recording and voice, with no prompts or code",
+    "Asks about exceptions and stops when something does not fit",
+    "Audit trail of every run",
+    "Multi-recording synthesis and role-based access on Power+"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up free on latch.ai, record yourself doing a close task while explaining it, answer...",
+      "description": "Sign up free on latch.ai, record yourself doing a close task while explaining it, answer Latch’s questions about exceptions, then let the sidekick run and review its log.",
+      "links": [
+        {
+          "label": "Latch",
+          "url": "https://www.latch.ai/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/leaderboard/daily/2026/11/10",
+    "https://www.latch.ai/pricing/"
+  ],
+  "summary_fr": "L’automatisation pour les comptables : tu fais la tâche à l’écran en l’expliquant, et Latch crée un « sidekick » qui la répète à l’identique, chaque étape étant journalisée.",
+  "description_fr": "L’automatisation pour les comptables : tu fais la tâche à l’écran en l’expliquant, et Latch crée un « sidekick » qui la répète à l’identique, chaque étape étant journalisée.",
+  "features_fr": [
+    "Apprend à partir d’un enregistrement d’écran et de la voix, sans prompt ni code",
+    "Pose des questions sur les exceptions et s’arrête si quelque chose ne correspond pas",
+    "Journal d’audit de chaque exécution",
+    "Synthèse de plusieurs enregistrements et accès par rôle sur Power+"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Inscris-toi gratuitement sur latch.ai, enregistre-toi en faisant une tâche de clôture...",
+      "description": "Inscris-toi gratuitement sur latch.ai, enregistre-toi en faisant une tâche de clôture tout en l’expliquant, réponds aux questions de Latch sur les exceptions, puis laisse le sidekick tourner et relis son journal.",
+      "links": [
+        {
+          "label": "Latch",
+          "url": "https://www.latch.ai/"
+        }
+      ]
+    }
+  ]
+}

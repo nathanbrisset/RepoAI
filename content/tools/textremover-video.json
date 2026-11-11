@@ -1,0 +1,87 @@
+{
+  "id": "textremover-video",
+  "name": "TextRemover.video",
+  "url": "https://textremover.video/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Erases on-screen text from a video and restores the background, with signup credits, monthly plans and one-time packs.",
+  "description": "TextRemover.video removes text from videos and rebuilds the background rather than blurring it. Official pricing: new accounts get 30 free processing seconds on signup (valid 30 days, no card, once per account; up to two new accounts per signup network each month). Credits are one per second of video, with the cost shown before you start. Free and subscription credits are spent before pack credits.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "video-editing",
+    "text-removal",
+    "credits",
+    "background-restore"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://textremover.video/pricing",
+    "details": "30 free seconds on signup (valid 30 days, no card, once per account). Starter 22 €/month (600 seconds); Pro 67 €/month (2,000 seconds). Unused subscription credits expire at the next monthly reset. One-time packs that do not expire: 4 € (100 s), 20 € (500 s), 49 € (1,200 s). Uploads are MP4 or MOV, 60 seconds maximum.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/textremover-video.png",
+  "image": "/screenshots/textremover-video.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Erases on-screen text and restores the background rather than blurring it",
+    "30 free seconds on signup, no card",
+    "Monthly plans and one-time packs that do not expire",
+    "Failed or unused pack credits stay available"
+  ],
+  "howToUse": [
+    {
+      "title": "Open textremover.video and sign up for 30 free seconds with no card.",
+      "description": "Open textremover.video and sign up for 30 free seconds with no card.",
+      "links": [
+        {
+          "label": "TextRemover.video",
+          "url": "https://textremover.video/"
+        }
+      ]
+    },
+    {
+      "title": "Upload a short MP4 or MOV and check the credit cost before you start.",
+      "description": "Upload a short MP4 or MOV and check the credit cost before you start."
+    },
+    {
+      "title": "Subscribe or buy a pack if you need more time.",
+      "description": "Subscribe or buy a pack if you need more time."
+    }
+  ],
+  "sources": [
+    "https://textremover.video/",
+    "https://textremover.video/pricing"
+  ],
+  "summary_fr": "Efface le texte à l’écran d’une vidéo et reconstruit le fond, avec des crédits à l’inscription, des abonnements et des packs ponctuels.",
+  "description_fr": "Efface le texte à l’écran d’une vidéo et reconstruit le fond, avec des crédits à l’inscription, des abonnements et des packs ponctuels.",
+  "features_fr": [
+    "Efface le texte à l’écran et reconstruit le fond, plutôt que de le flouter",
+    "30 secondes offertes à l’inscription, sans carte",
+    "Abonnements et packs ponctuels sans expiration",
+    "Les crédits de pack restent disponibles s’ils ne sont pas utilisés"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre textremover.video et inscris-toi pour 30 secondes offertes, sans carte.",
+      "description": "Ouvre textremover.video et inscris-toi pour 30 secondes offertes, sans carte.",
+      "links": [
+        {
+          "label": "TextRemover.video",
+          "url": "https://textremover.video/"
+        }
+      ]
+    },
+    {
+      "title": "Envoie un court MP4 ou MOV et vérifie le coût en crédits avant de lancer.",
+      "description": "Envoie un court MP4 ou MOV et vérifie le coût en crédits avant de lancer."
+    },
+    {
+      "title": "Abonne-toi ou achète un pack si tu as besoin de plus de temps.",
+      "description": "Abonne-toi ou achète un pack si tu as besoin de plus de temps."
+    }
+  ]
+}

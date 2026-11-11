@@ -1,0 +1,77 @@
+{
+  "id": "spectry",
+  "name": "Spectry",
+  "url": "https://spectry.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A privacy-first, EU-hosted analytics platform that shows why visitors don’t convert, with heatmaps, session replays, AI insights and A/B tests to try the fix.",
+  "description": "A privacy-first, EU-hosted analytics platform that shows why visitors don’t convert, with heatmaps, session replays, AI insights and A/B tests to try the fix.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "analytics",
+    "cro",
+    "heatmaps",
+    "ab-testing",
+    "session-replay"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://spectry.io/pricing",
+    "details": "Free 0 € forever (5,000 sessions/month). Growth 29 €/month (10,000 sessions); Scale 69 €/month (25,000 sessions). Higher tiers are priced by traffic (amounts not published). Annual billing 20% off (yearly totals not published). Official euro prices.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/spectry.png",
+  "image": "/screenshots/spectry.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Privacy-first, EU-hosted analytics (Google Cloud europe-west4)",
+    "Heatmaps, session replays, funnels, surveys and feedback widgets",
+    "A/B tests and feature flags",
+    "AI insights and Ask AI",
+    "MCP server and API"
+  ],
+  "howToUse": [
+    {
+      "title": "Create a free account on spectry.io, add the tracking snippet, read the AI insights after...",
+      "description": "Create a free account on spectry.io, add the tracking snippet, read the AI insights after a few days, then launch an A/B test on the top suggested fix.",
+      "links": [
+        {
+          "label": "Spectry",
+          "url": "https://spectry.io/"
+        }
+      ]
+    }
+  ],
+  "hqCountry": "FI",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://theresanaiforthat.com/just-launched/",
+    "https://spectry.io/pricing",
+    "https://spectry.io/about"
+  ],
+  "summary_fr": "Une plateforme d’analytics respectueuse de la vie privée, hébergée dans l’UE, qui montre pourquoi les visiteurs ne convertissent pas : heatmaps, replays, insights IA et tests A/B pour valider la correction.",
+  "description_fr": "Une plateforme d’analytics respectueuse de la vie privée, hébergée dans l’UE, qui montre pourquoi les visiteurs ne convertissent pas : heatmaps, replays, insights IA et tests A/B pour valider la correction.",
+  "features_fr": [
+    "Analytics respectueux de la vie privée, hébergés dans l’UE (Google Cloud europe-west4)",
+    "Heatmaps, replays, tunnels, sondages et widgets de feedback",
+    "Tests A/B et feature flags",
+    "Insights IA et Ask AI",
+    "Serveur MCP et API"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Crée un compte gratuit sur spectry.io, ajoute le snippet de suivi, lis les insights IA...",
+      "description": "Crée un compte gratuit sur spectry.io, ajoute le snippet de suivi, lis les insights IA après quelques jours, puis lance un test A/B sur la correction la plus recommandée.",
+      "links": [
+        {
+          "label": "Spectry",
+          "url": "https://spectry.io/"
+        }
+      ]
+    }
+  ]
+}

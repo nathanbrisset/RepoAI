@@ -1,0 +1,76 @@
+{
+  "id": "boba",
+  "name": "Boba",
+  "url": "https://boba.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A goals and planning assistant you text or use on the web, in one-to-one or group chats, officially free with no card and no app install.",
+  "description": "Boba is an AI assistant for goals, habits, plans and group coordination. You text it from your phone, add it to a group chat, or use it on the web. Nothing to download; it works in Messages and on the web. There is no /pricing path. A paid plan was not listed on the official homepage checked. The site notes that Boba can get things wrong, and that messages may be used to improve it.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "assistant",
+    "messaging",
+    "planning",
+    "goals",
+    "group-chat"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Officially free, no card, no app to install and no sign-up. No paid plan is listed on the official homepage, and there is no /pricing path.",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/boba.png",
+  "image": "/screenshots/boba.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Goals and planning assistant by text or on the web",
+    "Works in one-to-one or group chats",
+    "Officially free, no card, no app install"
+  ],
+  "howToUse": [
+    {
+      "title": "Open boba.app and start a chat from Messages or the web, with no sign-up or card.",
+      "description": "Open boba.app and start a chat from Messages or the web, with no sign-up or card.",
+      "links": [
+        {
+          "label": "Boba",
+          "url": "https://boba.app/"
+        }
+      ]
+    },
+    {
+      "title": "Add Boba to a group thread if you want it to help plan with other people.",
+      "description": "Add Boba to a group thread if you want it to help plan with other people."
+    }
+  ],
+  "sources": [
+    "https://boba.app/"
+  ],
+  "summary_fr": "Un assistant pour tes objectifs et tes plans, par SMS ou sur le web, en tête-à-tête ou en groupe, officiellement gratuit, sans carte et sans application à installer.",
+  "description_fr": "Un assistant pour tes objectifs et tes plans, par SMS ou sur le web, en tête-à-tête ou en groupe, officiellement gratuit, sans carte et sans application à installer.",
+  "features_fr": [
+    "Assistant pour tes objectifs et tes plans, par SMS ou sur le web",
+    "Fonctionne en tête-à-tête ou en groupe",
+    "Officiellement gratuit, sans carte et sans appli à installer"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre boba.app et démarre un chat depuis Messages ou le web, sans inscription ni carte.",
+      "description": "Ouvre boba.app et démarre un chat depuis Messages ou le web, sans inscription ni carte.",
+      "links": [
+        {
+          "label": "Boba",
+          "url": "https://boba.app/"
+        }
+      ]
+    },
+    {
+      "title": "Ajoute Boba à un fil de groupe si tu veux planifier avec d’autres personnes.",
+      "description": "Ajoute Boba à un fil de groupe si tu veux planifier avec d’autres personnes."
+    }
+  ]
+}
