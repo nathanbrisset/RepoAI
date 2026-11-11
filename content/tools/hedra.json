@@ -31,7 +31,7 @@
   ],
   "howToUse": [
     {
-      "title": "The homepage starts with Create an account and Get the API.",
+      "title": "Create an account",
       "description": "The homepage starts with Create an account and Get the API.",
       "links": [
         {
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "title": "Managed inference hosts the models.",
+      "title": "Get an API key",
       "description": "Managed inference hosts the models. The page says there are 100+ models and that Hedra handles hosting.",
       "links": [
         {
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "title": "The page says you can fine-tune a supported model with your data and Hedra's training...",
+      "title": "Fine-tune, or use a sandbox",
       "description": "The page says you can fine-tune a supported model with your data and Hedra's training recipes, then deploy on the same stack, or create an isolated GPU sandbox with the Hedra SDK."
     }
   ],

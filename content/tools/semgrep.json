@@ -31,7 +31,7 @@
   ],
   "howToUse": [
     {
-      "title": "Sign in at Semgrep and connect the repository, or run the open-source engine on the code...",
+      "title": "Add the scanner",
       "description": "Sign in at Semgrep and connect the repository, or run the open-source engine on the code yourself.",
       "links": [
         {
@@ -41,15 +41,15 @@
       ]
     },
     {
-      "title": "Run the SAST scan so Semgrep reports security issues in the source code.",
+      "title": "Scan the source",
       "description": "Run the SAST scan so Semgrep reports security issues in the source code."
     },
     {
-      "title": "Turn on the supply-chain checks for vulnerable or malicious dependencies, and the scan...",
+      "title": "Check dependencies and secrets",
       "description": "Turn on the supply-chain checks for vulnerable or malicious dependencies, and the scan for hardcoded secrets."
     },
     {
-      "title": "Use the AI triage, fix the findings that matter, and use the free edition with cross-file...",
+      "title": "Triage the findings",
       "description": "Use the AI triage, fix the findings that matter, and use the free edition with cross-file analysis if the team is small."
     }
   ],

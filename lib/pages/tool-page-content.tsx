@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation"
 import { allTools, mockTools } from "@/lib/data"
 import { relatedToolsFor } from "@/lib/related-tools"
-import ToolPageClient from "@/app/tool/[id]/tool-page-client"
+import ToolPageClient from "@/app/(en)/tool/[id]/tool-page-client"
 import type { Locale } from "@/lib/i18n/config"
 import { toolForLocale } from "@/lib/i18n/localize-tool"
 

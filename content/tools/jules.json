@@ -31,7 +31,7 @@
   ],
   "howToUse": [
     {
-      "title": "The homepage says to select a GitHub repository and branch and write a prompt, or add the...",
+      "title": "Give Jules a repository and a prompt",
       "description": "The homepage says to select a GitHub repository and branch and write a prompt, or add the jules label to an issue.",
       "links": [
         {
@@ -41,15 +41,15 @@
       ]
     },
     {
-      "title": "Jules fetches the repository, clones it to a cloud VM, and writes a plan.",
+      "title": "Review the plan",
       "description": "Jules fetches the repository, clones it to a cloud VM, and writes a plan."
     },
     {
-      "title": "The page says Jules then shows a diff for you to review and approve.",
+      "title": "Approve the diff",
       "description": "The page says Jules then shows a diff for you to review and approve."
     },
     {
-      "title": "Jules opens a pull request.",
+      "title": "Merge the pull request",
       "description": "Jules opens a pull request. The page says you approve it, merge it, and publish the branch.",
       "links": [
         {

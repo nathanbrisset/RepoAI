@@ -33,7 +33,7 @@
   ],
   "howToUse": [
     {
-      "title": "Download and install Alteryx Designer.",
+      "title": "Install & Launch Alteryx Designer",
       "description": "Download and install Alteryx Designer. Open the application to start building workflows.",
       "links": [
         {
@@ -43,15 +43,15 @@
       ]
     },
     {
-      "title": "Use the drag-and-drop interface to connect to databases, files, APIs, and more.",
+      "title": "Connect Data Sources",
       "description": "Use the drag-and-drop interface to connect to databases, files, APIs, and more."
     },
     {
-      "title": "Drag analytic tools to the canvas, configure them, and chain steps to prepare, blend, and...",
+      "title": "Build & Automate Workflows",
       "description": "Drag analytic tools to the canvas, configure them, and chain steps to prepare, blend, and analyze data."
     },
     {
-      "title": "Execute workflows to generate outputs.",
+      "title": "Run & Share Results",
       "description": "Execute workflows to generate outputs. Share or schedule workflows for team collaboration."
     }
   ],

@@ -31,7 +31,7 @@
   ],
   "howToUse": [
     {
-      "title": "Add Yellowbrick to your Python environment using pip.",
+      "title": "Install Yellowbrick",
       "description": "Add Yellowbrick to your Python environment using pip.",
       "links": [
         {
@@ -41,11 +41,11 @@
       ]
     },
     {
-      "title": "Import Yellowbrick in your code and call visualizers on scikit-learn models.",
+      "title": "Import & Visualize",
       "description": "Import Yellowbrick in your code and call visualizers on scikit-learn models."
     },
     {
-      "title": "Review plots for diagnostics, feature importance, and model evaluation.",
+      "title": "Analyze & Interpret Results",
       "description": "Review plots for diagnostics, feature importance, and model evaluation."
     }
   ],

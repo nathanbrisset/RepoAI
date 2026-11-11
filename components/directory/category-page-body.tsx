@@ -1,6 +1,6 @@
 "use client"
 
-import { useMemo } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { useSearchParams } from "next/navigation"
 import { useLocale } from "@/components/locale-provider"
 import { queryCategoryRecords } from "@/lib/directory/catalog-query"
@@ -17,13 +17,18 @@ export function CategoryPageBody({
 }) {
   const locale = useLocale()
   const searchParams = useSearchParams()
-  const pricing = searchParams.get("pricing") || undefined
-  const pageRaw = Number.parseInt(searchParams.get("page") || "1", 10)
-  const page = Number.isFinite(pageRaw) && pageRaw > 0 ? pageRaw : 1
-  const catalogPage = useMemo(
-    () => queryCategoryRecords(locale, categoryId, pricing, page),
-    [locale, categoryId, pricing, page],
-  )
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  const catalogPage = useMemo(() => {
+    const pricing = mounted ? searchParams.get("pricing") || undefined : undefined
+    const pageRaw = Number.parseInt(mounted ? searchParams.get("page") || "1" : "1", 10)
+    const page = Number.isFinite(pageRaw) && pageRaw > 0 ? pageRaw : 1
+    return queryCategoryRecords(locale, categoryId, pricing, page)
+  }, [locale, categoryId, searchParams, mounted])
 
   return (
     <CategoryDetailClient

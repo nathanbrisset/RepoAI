@@ -34,7 +34,7 @@
   ],
   "howToUse": [
     {
-      "title": "Install the desktop editor from the official Windsurf or Codeium download page.",
+      "title": "Download Windsurf",
       "description": "Install the desktop editor from the official Windsurf or Codeium download page.",
       "links": [
         {
@@ -44,15 +44,15 @@
       ]
     },
     {
-      "title": "Clone or open a folder so the agent can index the codebase.",
+      "title": "Open your repository",
       "description": "Clone or open a folder so the agent can index the codebase."
     },
     {
-      "title": "Describe a feature or bugfix and review the agent's plan before applying patches.",
+      "title": "Run a Cascade task",
       "description": "Describe a feature or bugfix and review the agent's plan before applying patches."
     },
     {
-      "title": "Use built-in Git tools to stage and push accepted changes.",
+      "title": "Commit from the IDE",
       "description": "Use built-in Git tools to stage and push accepted changes."
     }
   ],

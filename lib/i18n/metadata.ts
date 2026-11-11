@@ -99,16 +99,23 @@ export function metadataFor(pathname: string, locale: Locale = PAGE_LOCALE_EN): 
   return buildPageMetadata(locale, pathname)
 }
 
+const NOINDEX_TOOL_STATUSES = new Set(["inactive", "sunset", "duplicate-of", "renamed"])
+
 export function buildPageMetadata(locale: Locale, pathname: string): Metadata {
   const { title, description } = pageCopy(locale, pathname)
   const pageTitle = formatPageTitle(title)
   const canonical = absoluteUrl(locale, pathname)
   const languages = languageAlternates(pathname)
 
+  const toolMatch = stripLocale(pathname).match(/^\/tool\/([^/]+)$/)
+  const tool = toolMatch ? getToolById(decodeURIComponent(toolMatch[1])) : null
+  const noindex = tool ? NOINDEX_TOOL_STATUSES.has(tool.status) : false
+
   return {
     title: pageTitle,
     description,
     metadataBase: new URL(SITE_URL),
+    ...(noindex ? { robots: { index: false, follow: true } } : {}),
     alternates: {
       canonical,
       languages,

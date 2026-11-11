@@ -32,7 +32,7 @@
   ],
   "howToUse": [
     {
-      "title": "Open Kiro and choose Download Kiro, or install the CLI.",
+      "title": "Open Kiro and sign in",
       "description": "Open Kiro and choose Download Kiro, or install the CLI. Sign in with social login or an AWS Builder ID. This agentic development environment comes from AWS.",
       "links": [
         {
@@ -42,15 +42,15 @@
       ]
     },
     {
-      "title": "Give Kiro a prompt.",
+      "title": "Turn a prompt into specifications",
       "description": "Give Kiro a prompt. It converts prompts into executable specifications, with requirements, a design, and sequenced tasks, then implements them."
     },
     {
-      "title": "Have Kiro check code correctness.",
+      "title": "Check correctness past the unit tests",
       "description": "Have Kiro check code correctness. Property-based tests look for bugs that unit tests miss."
     },
     {
-      "title": "Run parallel agents across a large codebase, on your machine or in the cloud.",
+      "title": "Run parallel agents and watch credits",
       "description": "Run parallel agents across a large codebase, on your machine or in the cloud. Kiro Free includes 50 credits per month. Pro costs $20 per user per month with 1,000 credits, Pro+ costs $40, and extra credits cost $0.04 each. The page also offers a $20 credit when you first sign up for a paid plan with social login or a Builder ID."
     }
   ],

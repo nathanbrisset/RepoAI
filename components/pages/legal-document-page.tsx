@@ -2,6 +2,7 @@
 
 import { useLocale } from "@/components/locale-provider"
 import { termsDocument, privacyDocument, legalNoticeDocument } from "@/lib/i18n/legal"
+import { LegalUpdatedLine } from "./legal-updated-line"
 
 type DocKind = "terms" | "privacy" | "legal"
 
@@ -38,14 +39,12 @@ export function LegalDocumentPage({ kind }: { kind: DocKind }) {
       : kind === "privacy"
         ? privacyDocument(locale)
         : legalNoticeDocument(locale)
-  const date = new Date().toLocaleDateString(locale === "fr" ? "fr-FR" : "en-US")
-
   return (
     <div className="container mx-auto px-4 py-8 mt-16">
       <h1 className="text-3xl font-bold mb-4">{document.title}</h1>
       <div className="h-1 w-24 bg-gradient-to-r from-primary to-accent rounded-full mb-8"></div>
       <div className="prose prose-lg max-w-none">
-        <p className="text-gray-600 mb-8">{document.updated.replace("{date}", date)}</p>
+        <LegalUpdatedLine template={document.updated} locale={locale} />
         {document.sections.map((section) => (
           <section key={section.heading} className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">{section.heading}</h2>

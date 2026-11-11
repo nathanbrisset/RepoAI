@@ -33,7 +33,7 @@
   ],
   "howToUse": [
     {
-      "title": "Install Whisper from GitHub and set up the environment.",
+      "title": "Install Whisper",
       "description": "Install Whisper from GitHub and set up the environment.",
       "links": [
         {
@@ -43,15 +43,15 @@
       ]
     },
     {
-      "title": "Provide audio files in supported formats.",
+      "title": "Prepare Audio Files",
       "description": "Provide audio files in supported formats."
     },
     {
-      "title": "Use CLI or Python interface to transcribe audio.",
+      "title": "Run Transcription",
       "description": "Use CLI or Python interface to transcribe audio."
     },
     {
-      "title": "Retrieve transcriptions in text format for further use.",
+      "title": "Review and Use Output",
       "description": "Retrieve transcriptions in text format for further use."
     }
   ],

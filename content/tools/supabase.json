@@ -33,7 +33,7 @@
   ],
   "howToUse": [
     {
-      "title": "Open Supabase and start a project.",
+      "title": "Open Supabase",
       "description": "Open Supabase and start a project. Supabase provides a full Postgres database for that project.",
       "links": [
         {
@@ -43,11 +43,11 @@
       ]
     },
     {
-      "title": "Add authentication, instant data APIs, edge functions, realtime subscriptions, file...",
+      "title": "Add the platform services",
       "description": "Add authentication, instant data APIs, edge functions, realtime subscriptions, file storage and vector embeddings."
     },
     {
-      "title": "Use the hosted platform or self-host, since the platform is open source.",
+      "title": "Choose where it runs",
       "description": "Use the hosted platform or self-host, since the platform is open source. The Free plan suits small projects but pauses them after a week of inactivity. Pro starts at $25 per month, and extra projects start from $10. The database is Postgres rather than a proprietary store."
     }
   ],

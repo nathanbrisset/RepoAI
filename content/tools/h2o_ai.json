@@ -33,7 +33,7 @@
   ],
   "howToUse": [
     {
-      "title": "Download the H2O.ai platform or use the cloud version.",
+      "title": "Download & Install H2O.ai",
       "description": "Download the H2O.ai platform or use the cloud version. Install and configure on your local or cloud environment.",
       "links": [
         {
@@ -43,11 +43,11 @@
       ]
     },
     {
-      "title": "Import data and use AutoML or custom pipelines to build models in Python, R, or Java.",
+      "title": "Load Data & Build Models",
       "description": "Import data and use AutoML or custom pipelines to build models in Python, R, or Java."
     },
     {
-      "title": "Use interpretability tools to explain model results and deploy models to production.",
+      "title": "Interpret & Deploy Models",
       "description": "Use interpretability tools to explain model results and deploy models to production."
     }
   ],

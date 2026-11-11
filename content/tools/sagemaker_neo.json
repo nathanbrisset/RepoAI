@@ -33,7 +33,7 @@
   ],
   "howToUse": [
     {
-      "title": "Sign in to AWS and open SageMaker Studio or the Neo console.",
+      "title": "Access SageMaker Studio",
       "description": "Sign in to AWS and open SageMaker Studio or the Neo console.",
       "links": [
         {
@@ -43,15 +43,15 @@
       ]
     },
     {
-      "title": "Train a new model in SageMaker or import an existing model.",
+      "title": "Train or Import Model",
       "description": "Train a new model in SageMaker or import an existing model."
     },
     {
-      "title": "Select the model and use Neo's optimization options for your target hardware.",
+      "title": "Optimize with Neo",
       "description": "Select the model and use Neo's optimization options for your target hardware."
     },
     {
-      "title": "Deploy optimized models to cloud endpoints or edge devices.",
+      "title": "Deploy Anywhere",
       "description": "Deploy optimized models to cloud endpoints or edge devices."
     }
   ],

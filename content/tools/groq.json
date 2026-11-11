@@ -32,7 +32,7 @@
   ],
   "howToUse": [
     {
-      "title": "Open Groq, start building, and create a key in the console.",
+      "title": "Create an API key",
       "description": "Open Groq, start building, and create a key in the console.",
       "links": [
         {
@@ -42,15 +42,15 @@
       ]
     },
     {
-      "title": "Choose an open model such as Llama, Qwen, or GPT-OSS.",
+      "title": "Pick an open model",
       "description": "Choose an open model such as Llama, Qwen, or GPT-OSS. The API follows the OpenAI format."
     },
     {
-      "title": "Point an OpenAI-compatible client at Groq and send a completion.",
+      "title": "Send a request",
       "description": "Point an OpenAI-compatible client at Groq and send a completion. The service runs on Groq's own LPU chips."
     },
     {
-      "title": "The free plan is $0.",
+      "title": "Pick Free, Developer, or Enterprise",
       "description": "The free plan is $0. Developer billing is per token. Enterprise is a separate plan."
     }
   ],

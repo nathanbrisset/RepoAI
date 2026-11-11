@@ -32,7 +32,7 @@
   ],
   "howToUse": [
     {
-      "title": "Go to D-ID's website and register for an account.",
+      "title": "Sign Up or Log In",
       "description": "Go to D-ID's website and register for an account. Confirm your email and access the main dashboard.",
       "links": [
         {
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "title": "Upload a portrait photo (JPG/PNG) or select from D-ID’s stock avatars to animate.",
+      "title": "Upload a Photo or Choose Stock Avatar",
       "description": "Upload a portrait photo (JPG/PNG) or select from D-ID’s stock avatars to animate. Follow guidelines for best results.",
       "links": [
         {
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "title": "Input the text you want spoken, or upload/record an audio file.",
+      "title": "Enter or Record Script",
       "description": "Input the text you want spoken, or upload/record an audio file. D-ID will sync the avatar’s lips and facial expressions to your script.",
       "links": [
         {
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "title": "Choose from dozens of AI voices and languages.",
+      "title": "Select Language and Voice",
       "description": "Choose from dozens of AI voices and languages. Customize pitch, speed, and accent to suit your audience.",
       "links": [
         {
@@ -72,15 +72,15 @@
       ]
     },
     {
-      "title": "Adjust avatar style, background, and add visual effects.",
+      "title": "Customize Animation",
       "description": "Adjust avatar style, background, and add visual effects. Use built-in tools to fine-tune facial expressions and gestures."
     },
     {
-      "title": "Use the translation/dubbing tool to automatically generate versions in other languages,...",
+      "title": "Translate & Dub (Optional)",
       "description": "Use the translation/dubbing tool to automatically generate versions in other languages, preserving expressive lip sync."
     },
     {
-      "title": "Preview the animated video, check synchronization and naturalness, and revise as needed.",
+      "title": "Preview and Edit",
       "description": "Preview the animated video, check synchronization and naturalness, and revise as needed.",
       "links": [
         {
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "title": "Export your finished talking avatar video.",
+      "title": "Export or Share",
       "description": "Export your finished talking avatar video. Download as MP4 or share a link directly (watermarking depends on plan).",
       "links": [
         {
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "title": "Integrate with D-ID's API for automated avatar video creation at scale, or connect to...",
+      "title": "API & Integration (Advanced)",
       "description": "Integrate with D-ID's API for automated avatar video creation at scale, or connect to third-party platforms for marketing or e-learning.",
       "links": [
         {

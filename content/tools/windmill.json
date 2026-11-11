@@ -41,7 +41,7 @@
   ],
   "howToUse": [
     {
-      "title": "Self-host the open-source edition with Docker or Kubernetes, or open Windmill Cloud.",
+      "title": "Install the orchestrator",
       "description": "Self-host the open-source edition with Docker or Kubernetes, or open Windmill Cloud. The self-hosted edition includes unlimited executions.",
       "links": [
         {
@@ -51,17 +51,17 @@
       ]
     },
     {
-      "title": "Write a script for an internal app, an AI agent or a data pipeline, in code or with AI...",
+      "title": "Write a script",
       "description": "Write a script for an internal app, an AI agent or a data pipeline, in code or with AI assistance, then promote it to a workflow."
     },
     {
-      "title": "Keep control of what is deployed through versioning and git sync to GitHub or GitLab.",
+      "title": "Version what you deploy",
       "description": "Keep control of what is deployed through versioning and git sync to GitHub or GitLab. The cloud plan is $170 per month for one builder."
     }
   ],
   "howToUse_fr": [
     {
-      "title": "Auto-héberger l'édition libre avec Docker ou Kubernetes, ou ouvrir Windmill Cloud.",
+      "title": "Installer l'orchestrateur",
       "description": "Auto-héberger l'édition libre avec Docker ou Kubernetes, ou ouvrir Windmill Cloud. L'édition auto-hébergée inclut des exécutions illimitées.",
       "links": [
         {
@@ -71,11 +71,11 @@
       ]
     },
     {
-      "title": "Écrire un script pour une application interne, un agent IA ou un pipeline de données,...",
+      "title": "Écrire un script",
       "description": "Écrire un script pour une application interne, un agent IA ou un pipeline de données, puis le promouvoir en flux."
     },
     {
-      "title": "Garder la main sur ce qui est déployé grâce au versionnage et à la synchro git vers...",
+      "title": "Versionner le déploiement",
       "description": "Garder la main sur ce qui est déployé grâce au versionnage et à la synchro git vers GitHub ou GitLab. Le cloud est à 170 $/mois (Cloud Team)."
     }
   ],

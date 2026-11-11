@@ -30,7 +30,7 @@
   ],
   "howToUse": [
     {
-      "title": "The homepage has Create Video and Create Image, plus Hailuo Agent.",
+      "title": "Choose video or image",
       "description": "The homepage has Create Video and Create Image, plus Hailuo Agent.",
       "links": [
         {
@@ -40,15 +40,15 @@
       ]
     },
     {
-      "title": "The video field asks you to describe the content.",
+      "title": "Describe what you want",
       "description": "The video field asks you to describe the content. Its example is a child flying a kite in a park, with golden sunlight and the camera tilting up."
     },
     {
-      "title": "The composer shows a reference slot, a model choice, a duration, and an aspect ratio.",
+      "title": "Set references and format",
       "description": "The composer shows a reference slot, a model choice, a duration, and an aspect ratio. MiniMax H3 is the model marked live on the page."
     },
     {
-      "title": "Press Create.",
+      "title": "Create",
       "description": "Press Create. The page also links MiniMax H3 tutorials for open-weight projects and workflows."
     }
   ],

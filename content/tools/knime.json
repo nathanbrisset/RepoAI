@@ -33,7 +33,7 @@
   ],
   "howToUse": [
     {
-      "title": "Get the latest version from the KNIME website and install it on your system.",
+      "title": "Download and Install KNIME",
       "description": "Get the latest version from the KNIME website and install it on your system.",
       "links": [
         {
@@ -43,19 +43,19 @@
       ]
     },
     {
-      "title": "Open KNIME and use the drag-and-drop editor to build your data workflow.",
+      "title": "Create a Workflow",
       "description": "Open KNIME and use the drag-and-drop editor to build your data workflow."
     },
     {
-      "title": "Choose nodes for reading, transforming, analyzing, and visualizing data.",
+      "title": "Add Nodes for Data Processing",
       "description": "Choose nodes for reading, transforming, analyzing, and visualizing data."
     },
     {
-      "title": "Run the workflow, inspect intermediate results, and visualize outputs.",
+      "title": "Execute and Inspect Results",
       "description": "Run the workflow, inspect intermediate results, and visualize outputs."
     },
     {
-      "title": "Install community extensions for additional analytics capabilities.",
+      "title": "Extend with Plugins",
       "description": "Install community extensions for additional analytics capabilities."
     }
   ],

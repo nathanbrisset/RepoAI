@@ -11,10 +11,6 @@ import {
   stripLocalePrefix,
 } from "./lib/i18n/locale-detect"
 
-/**
- * English at the site root; French lives under /fr/... (physical routes, no rewrite).
- * /en/... 301s to the root path. Accept-Language may redirect first-time visitors to /fr/...
- */
 const knownTools = new Set(toolIds)
 const knownCategories = new Set(taxonomy.categories.map((category) => category.id))
 const LEGACY_CATEGORY_LIST_SLUGS = new Set(["new", "popular", "top-rated"])
@@ -35,22 +31,6 @@ function localizedCategoryPath(locale: "en" | "fr", categoryId: string): string 
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
-
-  if (
-    pathname.startsWith("/_next") ||
-    pathname.startsWith("/api") ||
-    pathname === "/sitemap.xml" ||
-    pathname === "/robots.txt" ||
-    pathname === "/opengraph-image" ||
-    pathname === "/twitter-image" ||
-    pathname.startsWith("/tool-screenshots") ||
-    pathname.startsWith("/logos") ||
-    pathname.startsWith("/brand") ||
-    pathname.startsWith("/screenshots") ||
-    /\.[a-zA-Z0-9]+$/.test(pathname)
-  ) {
-    return NextResponse.next()
-  }
 
   if (pathname === "/en" || pathname === "/en/") {
     const url = request.nextUrl.clone()
@@ -112,7 +92,7 @@ export function middleware(request: NextRequest) {
   const categoryId = slugFromPath(pathname, "categories")
   if ((toolId && !knownTools.has(toolId)) || (categoryId && !knownCategories.has(categoryId))) {
     const url = request.nextUrl.clone()
-    url.pathname = "/__missing"
+    url.pathname = isFrench ? "/fr/__missing" : "/__missing"
     return NextResponse.rewrite(url)
   }
 
@@ -120,5 +100,7 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|apple-icon.png|icon.png).*)"],
+  matcher: [
+    "/((?!_next/static|_next/image|favicon.ico|apple-icon.png|icon.png|sitemap.xml|robots.txt|opengraph-image|twitter-image|api(?:/|$)|logos(?:/|$)|brand(?:/|$)|screenshots(?:/|$)|tool-screenshots(?:/|$)|.*\\.[\\w]+$).*)",
+  ],
 }

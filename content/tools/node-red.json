@@ -41,7 +41,7 @@
   ],
   "howToUse": [
     {
-      "title": "Install it locally with npm on Node.js, or run it in Docker or on a Raspberry Pi.",
+      "title": "Install Node-RED",
       "description": "Install it locally with npm on Node.js, or run it in Docker or on a Raspberry Pi. The project is free and open source.",
       "links": [
         {
@@ -51,17 +51,17 @@
       ]
     },
     {
-      "title": "Open the browser-based flow editor and connect nodes for an event-driven application,...",
+      "title": "Wire nodes in the browser",
       "description": "Open the browser-based flow editor and connect nodes for an event-driven application, such as collecting and visualising sensor data."
     },
     {
-      "title": "Import a flow from the community library.",
+      "title": "Import a community flow",
       "description": "Import a flow from the community library. The project belongs to the OpenJS Foundation, and FlowFuse offers commercial hosting."
     }
   ],
   "howToUse_fr": [
     {
-      "title": "L'installer en local avec npm sous Node.js, ou le lancer dans Docker ou sur un Raspberry...",
+      "title": "Installer Node-RED",
       "description": "L'installer en local avec npm sous Node.js, ou le lancer dans Docker ou sur un Raspberry Pi. Le projet est gratuit et libre.",
       "links": [
         {
@@ -71,11 +71,11 @@
       ]
     },
     {
-      "title": "Ouvrir l'éditeur du navigateur et relier des nœuds pour une application événementielle,...",
+      "title": "Relier des nœuds dans le navigateur",
       "description": "Ouvrir l'éditeur du navigateur et relier des nœuds pour une application événementielle, par exemple collecter et afficher des mesures."
     },
     {
-      "title": "Importer un flux depuis la bibliothèque communautaire.",
+      "title": "Importer un flux communautaire",
       "description": "Importer un flux depuis la bibliothèque communautaire. Le projet est à l'OpenJS Foundation, et FlowFuse propose un hébergement commercial."
     }
   ],

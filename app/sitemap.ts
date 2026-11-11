@@ -5,7 +5,6 @@ import { categories, allTools } from "@/lib/data"
 import { absoluteUrl, languageAlternates } from "@/lib/i18n/paths"
 
 export const dynamic = "force-static"
-export const revalidate = 86400
 
 const STATIC_PATHS = [
   "/",

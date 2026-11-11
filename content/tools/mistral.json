@@ -33,7 +33,7 @@
   ],
   "howToUse": [
     {
-      "title": "The homepage says to start with Mistral's frontier and specialist open-weight models, and...",
+      "title": "Start from the models",
       "description": "The homepage says to start with Mistral's frontier and specialist open-weight models, and to use them as they are or make them specific to your organization.",
       "links": [
         {
@@ -43,15 +43,15 @@
       ]
     },
     {
-      "title": "The page says Forge customizes models around your data, use cases, and requirements.",
+      "title": "Customize with Forge",
       "description": "The page says Forge customizes models around your data, use cases, and requirements."
     },
     {
-      "title": "The page says Studio is where you build, govern, and improve agents and applications, and...",
+      "title": "Build in Studio or Vibe",
       "description": "The page says Studio is where you build, govern, and improve agents and applications, and that Vibe brings that AI into research, coding, and everyday tasks."
     },
     {
-      "title": "The page says you can run on-prem, in your VPC, or have Mistral host inference.",
+      "title": "Choose where it runs",
       "description": "The page says you can run on-prem, in your VPC, or have Mistral host inference.",
       "links": [
         {

@@ -29,7 +29,7 @@
   ],
   "howToUse": [
     {
-      "title": "Open OpenRouter and create an account.",
+      "title": "Open OpenRouter",
       "description": "Open OpenRouter and create an account. There is no subscription: buy credits and pay per token at the listed model rates.",
       "links": [
         {
@@ -39,15 +39,15 @@
       ]
     },
     {
-      "title": "Create an API key and send a request.",
+      "title": "Send a request with your API key",
       "description": "Create an API key and send a request. The API follows the OpenAI request format, so existing clients can switch with few changes."
     },
     {
-      "title": "The single API routes each request to models from more than 80 providers and handles...",
+      "title": "Let routing handle fallback",
       "description": "The single API routes each request to models from more than 80 providers and handles provider fallback when one provider fails."
     },
     {
-      "title": "Open the web chat to compare models side by side, and check the usage rankings,...",
+      "title": "Compare models in chat",
       "description": "Open the web chat to compare models side by side, and check the usage rankings, benchmarks and per-model prices the site publishes."
     }
   ],

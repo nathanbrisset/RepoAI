@@ -33,7 +33,7 @@
   ],
   "howToUse": [
     {
-      "title": "Get Weka from the official website and install it on your computer.",
+      "title": "Download and Install Weka",
       "description": "Get Weka from the official website and install it on your computer.",
       "links": [
         {
@@ -43,15 +43,15 @@
       ]
     },
     {
-      "title": "Launch the Weka GUI and select the desired application (Explorer, Experimenter, etc.).",
+      "title": "Open the GUI",
       "description": "Launch the Weka GUI and select the desired application (Explorer, Experimenter, etc.)."
     },
     {
-      "title": "Import datasets in ARFF, CSV, or other supported formats.",
+      "title": "Load Your Data",
       "description": "Import datasets in ARFF, CSV, or other supported formats."
     },
     {
-      "title": "Select and run machine learning algorithms, visualize results, and export models.",
+      "title": "Apply Algorithms and Visualize",
       "description": "Select and run machine learning algorithms, visualize results, and export models."
     }
   ],
