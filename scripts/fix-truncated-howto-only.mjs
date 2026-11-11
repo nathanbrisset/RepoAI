@@ -51,14 +51,24 @@ function newStepTitle(description) {
   return title.length >= 3 ? title : trimmed.slice(0, HOWTO_TITLE_MAX)
 }
 
+function hasUnclosedParen(title) {
+  let depth = 0
+  for (const ch of title) {
+    if (ch === "(") depth++
+    else if (ch === ")") depth = Math.max(0, depth - 1)
+  }
+  return depth > 0
+}
+
 function wasLegacyDerived(step) {
   const desc = String(step.description || "").trim()
   const title = String(step.title || "").trim()
   if (!desc || !title) return false
-  if (title === desc) return false
+  if (title === desc) return hasUnclosedParen(title)
   const legacy = legacyStepTitle(desc)
   if (title === legacy) return true
   if (title.endsWith("...") && title.length < desc.length) return true
+  if (hasUnclosedParen(title) && title.length < desc.length) return true
   return false
 }
 
@@ -75,7 +85,7 @@ for (const file of fs.readdirSync(TOOLS).filter((name) => name.endsWith(".json")
     for (const step of tool[key]) {
       if (!step?.description || !wasLegacyDerived(step)) continue
       const next = newStepTitle(step.description)
-      if (next === step.description) continue
+      if (next === step.description && !hasUnclosedParen(step.title)) continue
       if (next !== step.title) {
         step.title = next
         stepsUpdated++

@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server"
 import type { NextRequest } from "next/server"
-import toolIds from "./content/tool-ids.json"
 import taxonomy from "./content/taxonomy.json"
 import { LOCALE_COOKIE } from "./lib/i18n/config"
 import {
@@ -11,7 +10,6 @@ import {
   stripLocalePrefix,
 } from "./lib/i18n/locale-detect"
 
-const knownTools = new Set(toolIds)
 const knownCategories = new Set(taxonomy.categories.map((category) => category.id))
 const LEGACY_CATEGORY_LIST_SLUGS = new Set(["new", "popular", "top-rated"])
 
@@ -88,15 +86,9 @@ export function middleware(request: NextRequest) {
     return response
   }
 
-  const toolId = slugFromPath(pathname, "tool")
-  const categoryId = slugFromPath(pathname, "categories")
-  if ((toolId && !knownTools.has(toolId)) || (categoryId && !knownCategories.has(categoryId))) {
-    const url = request.nextUrl.clone()
-    url.pathname = isFrench ? "/fr/__missing" : "/__missing"
-    return NextResponse.rewrite(url)
-  }
-
-  return NextResponse.next()
+  const response = NextResponse.next()
+  response.headers.set("x-pathname", pathname)
+  return response
 }
 
 export const config = {

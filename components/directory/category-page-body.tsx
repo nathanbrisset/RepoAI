@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react"
 import { useSearchParams } from "next/navigation"
 import { useLocale } from "@/components/locale-provider"
 import { queryCategoryRecords } from "@/lib/directory/catalog-query"
+import { EMPTY_LISTING_QUERY, listingQueryFromSearchParams } from "@/lib/directory/listing-query-params"
 import { CategoryDetailClient } from "./category-detail-client"
 
 export function CategoryPageBody({
@@ -18,17 +19,23 @@ export function CategoryPageBody({
   const locale = useLocale()
   const searchParams = useSearchParams()
   const [mounted, setMounted] = useState(false)
+  const [queryUi, setQueryUi] = useState(EMPTY_LISTING_QUERY)
 
   useEffect(() => {
     setMounted(true)
-  }, [])
+    setQueryUi(listingQueryFromSearchParams(searchParams))
+  }, [searchParams])
 
   const catalogPage = useMemo(() => {
-    const pricing = mounted ? searchParams.get("pricing") || undefined : undefined
-    const pageRaw = Number.parseInt(mounted ? searchParams.get("page") || "1" : "1", 10)
-    const page = Number.isFinite(pageRaw) && pageRaw > 0 ? pageRaw : 1
+    const pricing = mounted ? queryUi.pricing || undefined : undefined
+    const page = mounted ? queryUi.page : 1
     return queryCategoryRecords(locale, categoryId, pricing, page)
-  }, [locale, categoryId, searchParams, mounted])
+  }, [locale, categoryId, queryUi, mounted])
+
+  const linkParams = useMemo(() => {
+    if (!mounted) return new URLSearchParams()
+    return new URLSearchParams(searchParams.toString())
+  }, [mounted, searchParams])
 
   return (
     <CategoryDetailClient
@@ -36,6 +43,8 @@ export function CategoryPageBody({
       name={name}
       description={description}
       catalogPage={catalogPage}
+      pricing={mounted ? queryUi.pricing : null}
+      linkSearchParams={linkParams}
     />
   )
 }

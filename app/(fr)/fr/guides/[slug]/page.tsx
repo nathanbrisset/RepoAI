@@ -5,6 +5,7 @@ import { GuidePageContent } from "@/lib/pages/guide-page-content"
 import { generateStaticParams } from "@/app/(en)/guides/[slug]/page"
 export const dynamic = "force-static"
 export { generateStaticParams }
+export const dynamicParams = false
 type PageProps = {
   params: Promise<{ slug: string }>
 }

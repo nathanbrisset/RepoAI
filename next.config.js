@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    globalNotFound: true,
+  },
   images: {
     domains: ['localhost', 'images.unsplash.com', 'placehold.co'],
     remotePatterns: [

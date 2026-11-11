@@ -18,6 +18,8 @@ const REDIRECT_ONLY = new Set([
   "tools/tools/page.tsx",
   "tools/[id]/page.tsx",
   "match-results/page.tsx",
+  "[...slug]/page.tsx",
+  "not-found.tsx",
 ])
 
 const LOCALIZED_EXPORTS = {
@@ -41,12 +43,14 @@ const LOCALIZED_EXPORTS = {
     contentExport: "CollectionPageContent",
     pathname: "/collections/[slug]",
     staticParams: true,
+    dynamicParams: true,
   },
   "guides/[slug]/page.tsx": {
     contentImport: "@/lib/pages/guide-page-content",
     contentExport: "GuidePageContent",
     pathname: "/guides/[slug]",
     staticParams: true,
+    dynamicParams: true,
   },
 }
 
@@ -206,7 +210,7 @@ function main() {
       console.error("Missing FR mirrors:", missing)
       process.exit(1)
     }
-    const allowedExtras = new Set(["[[...slug]]/page.tsx", "__missing/page.tsx"])
+    const allowedExtras = new Set(["[...slug]/page.tsx", "not-found.tsx"])
     const extras = []
     function walkFr(dir = FR_ROOT, base = FR_ROOT) {
       for (const name of fs.readdirSync(dir)) {

@@ -5,6 +5,7 @@ import { CollectionPageContent } from "@/lib/pages/collection-page-content"
 import { generateStaticParams } from "@/app/(en)/collections/[slug]/page"
 export const dynamic = "force-static"
 export { generateStaticParams }
+export const dynamicParams = false
 type PageProps = {
   params: Promise<{ slug: string }>
 }
