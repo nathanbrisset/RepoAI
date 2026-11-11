@@ -1,23 +1,14 @@
-import { HomeDirectory } from "@/components/directory/home-directory"
-import { categoryCount, dailyPicks, featuredStack, homeFeaturedCollections } from "@/lib/directory/data"
-import { homeCountrySectionTools } from "@/lib/home-country-section"
-import { getLocale } from "@/lib/i18n/get-locale"
+import { HomePageContent } from "@/lib/pages/home-page-content"
 import { metadataFor } from "@/lib/i18n/metadata"
+import { PAGE_LOCALE_EN } from "@/lib/i18n/page-locale"
+
+export const dynamic = "force-static"
+export const revalidate = 86400
 
 export function generateMetadata() {
-  return metadataFor("/")
+  return metadataFor("/", PAGE_LOCALE_EN)
 }
 
-export default async function Page() {
-  const locale = await getLocale()
-  const countryTools = homeCountrySectionTools(locale)
-  return (
-    <HomeDirectory
-      picks={dailyPicks(locale)}
-      collections={homeFeaturedCollections(locale)}
-      categoryTotal={categoryCount()}
-      stack={featuredStack(locale)}
-      countryTools={countryTools}
-    />
-  )
+export default function Page() {
+  return <HomePageContent locale={PAGE_LOCALE_EN} />
 }

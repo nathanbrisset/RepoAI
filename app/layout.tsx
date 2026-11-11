@@ -5,16 +5,15 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import CookieConsent from "@/components/cookie-consent"
 import GoogleAnalytics from "@/components/GoogleAnalytics"
-import { LocaleProvider } from "@/components/locale-provider"
 import { CompareSpacer, CompareTray } from "@/components/directory/compare-tray"
-import { DirectoryProvider } from "@/components/directory/directory-provider"
 import { SavedDrawer } from "@/components/directory/saved-drawer"
 import { SiteFooter } from "@/components/directory/site-footer"
 import { SiteHeader } from "@/components/directory/site-header"
 import { YouTubeChannelBanner } from "@/components/directory/youtube-channel-banner"
 import { ToolDialog } from "@/components/directory/tool-dialog"
+import { LocaleSiteShell } from "@/components/locale-site-shell"
 import { directoryChips, directoryRecords } from "@/lib/directory/data"
-import { getLocale, getRequestPathname } from "@/lib/i18n/get-locale"
+import { PAGE_LOCALE_EN, PAGE_LOCALE_FR } from "@/lib/i18n/page-locale"
 import { buildPageMetadata } from "@/lib/i18n/metadata"
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist" })
@@ -24,40 +23,40 @@ const dela = Dela_Gothic_One({
   variable: "--font-dela",
 })
 
-export async function generateMetadata(): Promise<Metadata> {
-  const [locale, pathname] = await Promise.all([getLocale(), getRequestPathname()])
-  return buildPageMetadata(locale, pathname)
+export const dynamic = "force-static"
+
+export function generateMetadata(): Metadata {
+  return buildPageMetadata(PAGE_LOCALE_EN, "/")
 }
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const locale = await getLocale()
-  const chips = directoryChips(locale)
-  const total = directoryRecords(locale).length
+  const chipsEn = directoryChips(PAGE_LOCALE_EN)
+  const chipsFr = directoryChips(PAGE_LOCALE_FR)
+  const totalEn = directoryRecords(PAGE_LOCALE_EN).length
+  const totalFr = directoryRecords(PAGE_LOCALE_FR).length
 
   return (
-    <html lang={locale} className={`${geist.variable} ${dela.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${geist.variable} ${dela.variable}`} suppressHydrationWarning>
       <body className="bg-background font-sans text-foreground antialiased">
-        <LocaleProvider locale={locale}>
+        <LocaleSiteShell chipsEn={chipsEn} chipsFr={chipsFr} totalEn={totalEn} totalFr={totalFr}>
           <ThemeProvider attribute="class" forcedTheme="light" enableSystem={false} disableTransitionOnChange>
-            <DirectoryProvider chips={chips} total={total} today={new Date().toISOString().slice(0, 10)}>
-              <div className="flex min-h-screen flex-col">
-                <SiteHeader />
-                <YouTubeChannelBanner />
-                <main className="flex-grow overflow-x-hidden">{children}</main>
-                <CompareSpacer />
-                <SiteFooter />
-              </div>
-              <ToolDialog />
-              <SavedDrawer />
-              <CompareTray />
-              <CookieConsent />
-            </DirectoryProvider>
+            <div className="flex min-h-screen flex-col">
+              <SiteHeader />
+              <YouTubeChannelBanner />
+              <main className="flex-grow overflow-x-hidden">{children}</main>
+              <CompareSpacer />
+              <SiteFooter />
+            </div>
+            <ToolDialog />
+            <SavedDrawer />
+            <CompareTray />
+            <CookieConsent />
           </ThemeProvider>
-        </LocaleProvider>
+        </LocaleSiteShell>
         <GoogleAnalytics />
       </body>
     </html>

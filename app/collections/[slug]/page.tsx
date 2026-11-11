@@ -1,9 +1,10 @@
-import { notFound } from "next/navigation"
-import { CollectionDetail } from "@/components/directory/collection-detail"
+import { CollectionPageContent } from "@/lib/pages/collection-page-content"
 import { COLLECTION_DEFS } from "@/lib/directory/collections"
-import { resolvedCollections, resolvedRecipesForCollection } from "@/lib/directory/data"
-import { getLocale } from "@/lib/i18n/get-locale"
 import { metadataFor } from "@/lib/i18n/metadata"
+import { PAGE_LOCALE_EN } from "@/lib/i18n/page-locale"
+
+export const dynamic = "force-static"
+export const revalidate = 86400
 
 export function generateStaticParams() {
   return COLLECTION_DEFS.map((collection) => ({ slug: collection.slug }))
@@ -15,13 +16,9 @@ type PageProps = {
 
 export async function generateMetadata(props: PageProps) {
   const { slug } = await props.params
-  return metadataFor(`/collections/${slug}`)
+  return metadataFor(`/collections/${slug}`, PAGE_LOCALE_EN)
 }
 
 export default async function CollectionPage(props: PageProps) {
-  const [{ slug }, locale] = await Promise.all([props.params, getLocale()])
-  const collection = resolvedCollections(locale).find((item) => item.slug === slug)
-  if (!collection) notFound()
-  const recipes = resolvedRecipesForCollection(locale, slug)
-  return <CollectionDetail collection={collection} recipes={recipes} />
+  return CollectionPageContent({ locale: PAGE_LOCALE_EN, params: props.params })
 }

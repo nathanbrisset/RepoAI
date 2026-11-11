@@ -1,14 +1,10 @@
-import { notFound } from "next/navigation"
-import { GuideDetail } from "@/components/directory/guide-detail"
-import { COLLECTION_DEFS } from "@/lib/directory/collections"
-import { directoryRecords } from "@/lib/directory/data"
-import {
-  editorialGuideBySlug,
-  editorialGuideSlugs,
-  resolveEditorialGuide,
-} from "@/lib/directory/editorial-guides"
-import { getLocale } from "@/lib/i18n/get-locale"
+import { GuidePageContent } from "@/lib/pages/guide-page-content"
+import { editorialGuideSlugs } from "@/lib/directory/editorial-guides"
 import { metadataFor } from "@/lib/i18n/metadata"
+import { PAGE_LOCALE_EN } from "@/lib/i18n/page-locale"
+
+export const dynamic = "force-static"
+export const revalidate = 86400
 
 export function generateStaticParams() {
   return editorialGuideSlugs().map((slug) => ({ slug }))
@@ -20,20 +16,9 @@ type PageProps = {
 
 export async function generateMetadata(props: PageProps) {
   const { slug } = await props.params
-  return metadataFor(`/guides/${slug}`)
+  return metadataFor(`/guides/${slug}`, PAGE_LOCALE_EN)
 }
 
 export default async function GuidePage(props: PageProps) {
-  const [{ slug }, locale] = await Promise.all([props.params, getLocale()])
-  const def = editorialGuideBySlug(slug)
-  if (!def) notFound()
-
-  const collectionDef = COLLECTION_DEFS.find((item) => item.slug === def.collectionSlug)
-  const toolsById = new Map(
-    directoryRecords(locale).map((record) => [record.id, { name: record.name, logo: record.logo }]),
-  )
-  const guide = resolveEditorialGuide(def, locale, toolsById, collectionDef?.title[locale] || def.collectionSlug)
-  if (!guide) notFound()
-
-  return <GuideDetail guide={guide} />
+  return GuidePageContent({ locale: PAGE_LOCALE_EN, params: props.params })
 }

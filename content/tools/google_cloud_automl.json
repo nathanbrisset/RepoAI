@@ -34,7 +34,7 @@
   ],
   "howToUse": [
     {
-      "title": "Sign Up & Access Console",
+      "title": "Create a Google Cloud account and access the AutoML console.",
       "description": "Create a Google Cloud account and access the AutoML console.",
       "links": [
         {
@@ -44,15 +44,15 @@
       ]
     },
     {
-      "title": "Prepare & Label Data",
+      "title": "Upload your dataset and use built-in tools to label data for training.",
       "description": "Upload your dataset and use built-in tools to label data for training."
     },
     {
-      "title": "Train & Validate Model",
+      "title": "Use the graphical interface to train and evaluate machine learning models.",
       "description": "Use the graphical interface to train and evaluate machine learning models."
     },
     {
-      "title": "Deploy & Monitor",
+      "title": "Deploy models to Google Cloud and monitor their performance in production.",
       "description": "Deploy models to Google Cloud and monitor their performance in production."
     }
   ],

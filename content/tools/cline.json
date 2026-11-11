@@ -31,7 +31,7 @@
   ],
   "howToUse": [
     {
-      "title": "Install Cline",
+      "title": "The homepage says to install the extension in VS Code, Windsurf, JetBrains, or Cursor, or...",
       "description": "The homepage says to install the extension in VS Code, Windsurf, JetBrains, or Cursor, or to download the desktop app for Mac, Windows, or Linux.",
       "links": [
         {
@@ -41,11 +41,11 @@
       ]
     },
     {
-      "title": "Or use the CLI or SDK",
+      "title": "The page shows npm i -g cline for the terminal, and npm install @cline/sdk to embed the...",
       "description": "The page shows npm i -g cline for the terminal, and npm install @cline/sdk to embed the runtime."
     },
     {
-      "title": "Plan, then let it edit",
+      "title": "The page says Cline plans before it acts, edits across the project, and can run bash...",
       "description": "The page says Cline plans before it acts, edits across the project, and can run bash commands.",
       "links": [
         {

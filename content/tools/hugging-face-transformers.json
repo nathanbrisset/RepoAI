@@ -31,7 +31,7 @@
   ],
   "howToUse": [
     {
-      "title": "Install Transformers",
+      "title": "Install via pip and explore documentation and model hub.",
       "description": "Install via pip and explore documentation and model hub.",
       "links": [
         {
@@ -41,11 +41,11 @@
       ]
     },
     {
-      "title": "Load Pretrained Models",
+      "title": "Use simple APIs to load models for tasks like text classification, translation, and more.",
       "description": "Use simple APIs to load models for tasks like text classification, translation, and more."
     },
     {
-      "title": "Fine-Tune or Deploy",
+      "title": "Fine-tune models on your data or deploy to production environments.",
       "description": "Fine-tune models on your data or deploy to production environments."
     }
   ],

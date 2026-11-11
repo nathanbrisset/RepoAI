@@ -1,10 +1,11 @@
-import { getLocale, getRequestPathname } from "@/lib/i18n/get-locale"
 import { buildPageMetadata } from "@/lib/i18n/metadata"
+import { PAGE_LOCALE_EN } from "@/lib/i18n/page-locale"
 import NotFoundPage from "./not-found-client"
 
-export async function generateMetadata() {
-  const [locale, pathname] = await Promise.all([getLocale(), getRequestPathname()])
-  return buildPageMetadata(locale, pathname)
+export const dynamic = "force-static"
+
+export function generateMetadata() {
+  return buildPageMetadata(PAGE_LOCALE_EN, "/__missing")
 }
 
 export default function NotFound() {

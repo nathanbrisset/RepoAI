@@ -32,7 +32,7 @@
   ],
   "howToUse": [
     {
-      "title": "Install ComfyUI",
+      "title": "Clone the repository from GitHub and follow the installation instructions for your OS.",
       "description": "Clone the repository from GitHub and follow the installation instructions for your OS.",
       "links": [
         {
@@ -42,19 +42,19 @@
       ]
     },
     {
-      "title": "Launch the Interface",
+      "title": "Start the UI by running the provided script (e.g., python main.py).",
       "description": "Start the UI by running the provided script (e.g., python main.py)."
     },
     {
-      "title": "Build Your Workflow",
+      "title": "Drag and connect nodes to set up your image generation pipeline.",
       "description": "Drag and connect nodes to set up your image generation pipeline."
     },
     {
-      "title": "Generate Images",
+      "title": "Enter text prompts, select models, and tweak settings.",
       "description": "Enter text prompts, select models, and tweak settings. Preview results in real time."
     },
     {
-      "title": "Export or Share Workflow",
+      "title": "Export workflows or results for reuse or sharing with the community.",
       "description": "Export workflows or results for reuse or sharing with the community."
     }
   ],

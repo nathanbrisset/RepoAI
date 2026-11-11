@@ -33,7 +33,7 @@
   ],
   "howToUse": [
     {
-      "title": "Download and Set Up Spark",
+      "title": "Get Apache Spark from the official website.",
       "description": "Get Apache Spark from the official website. Set up on your local machine or cluster.",
       "links": [
         {
@@ -43,15 +43,15 @@
       ]
     },
     {
-      "title": "Start Spark Session",
+      "title": "Use your preferred language (Python, Scala, Java, R) to start a Spark session.",
       "description": "Use your preferred language (Python, Scala, Java, R) to start a Spark session."
     },
     {
-      "title": "Load and Process Data",
+      "title": "Read data from files, databases, or distributed storage.",
       "description": "Read data from files, databases, or distributed storage. Use Spark APIs to process and analyze."
     },
     {
-      "title": "Run Analytics and Machine Learning",
+      "title": "Use Spark SQL, MLlib, and GraphX for analytics, ML, and graph processing.",
       "description": "Use Spark SQL, MLlib, and GraphX for analytics, ML, and graph processing."
     }
   ],

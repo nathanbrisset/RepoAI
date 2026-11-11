@@ -33,7 +33,7 @@
   ],
   "howToUse": [
     {
-      "title": "Download & Launch NiFi",
+      "title": "Download Apache NiFi and start the web UI on your server.",
       "description": "Download Apache NiFi and start the web UI on your server.",
       "links": [
         {
@@ -43,11 +43,11 @@
       ]
     },
     {
-      "title": "Design Data Flows",
+      "title": "Use drag-and-drop to create data ingestion, transformation, and delivery pipelines.",
       "description": "Use drag-and-drop to create data ingestion, transformation, and delivery pipelines."
     },
     {
-      "title": "Configure & Monitor",
+      "title": "Set up processors, security, and monitor pipeline health and performance.",
       "description": "Set up processors, security, and monitor pipeline health and performance."
     }
   ],

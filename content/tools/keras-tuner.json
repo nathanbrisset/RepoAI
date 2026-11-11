@@ -31,7 +31,7 @@
   ],
   "howToUse": [
     {
-      "title": "Install Keras Tuner",
+      "title": "Add keras-tuner to your Python environment.",
       "description": "Add keras-tuner to your Python environment.",
       "links": [
         {
@@ -41,11 +41,11 @@
       ]
     },
     {
-      "title": "Define Search Space",
+      "title": "Specify hyperparameters and search algorithms in your model pipeline.",
       "description": "Specify hyperparameters and search algorithms in your model pipeline."
     },
     {
-      "title": "Run Tuning",
+      "title": "Execute the search and select the best model configuration.",
       "description": "Execute the search and select the best model configuration."
     }
   ],

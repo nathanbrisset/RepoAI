@@ -32,7 +32,7 @@
   ],
   "howToUse": [
     {
-      "title": "Open Langflow",
+      "title": "Open Langflow and choose Get Started for Free, or download the open-source builder if you...",
       "description": "Open Langflow and choose Get Started for Free, or download the open-source builder if you want to run it yourself.",
       "links": [
         {
@@ -42,11 +42,11 @@
       ]
     },
     {
-      "title": "Connect components on the canvas",
+      "title": "In the visual editor, drop components for models, vector stores and other pieces onto the...",
       "description": "In the visual editor, drop components for models, vector stores and other pieces onto the canvas and connect them into a Python-based workflow of agents."
     },
     {
-      "title": "Serve the flow",
+      "title": "Run the finished flow as an API or expose it as an MCP server.",
       "description": "Run the finished flow as an API or expose it as an MCP server. Deploy it on your own host, or use the cloud account when you want the hosted deployment."
     }
   ],

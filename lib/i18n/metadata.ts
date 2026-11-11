@@ -12,7 +12,7 @@ export function formatPageTitle(title: string): string {
 import { categories } from "@/lib/data"
 import { getToolById } from "@/lib/catalog"
 import { SITE_URL, type Locale } from "./config"
-import { getLocale } from "./get-locale"
+import { PAGE_LOCALE_EN } from "./page-locale"
 import { absoluteUrl, languageAlternates, stripLocale } from "./paths"
 import { COLLECTION_DEFS } from "@/lib/directory/collections"
 import { editorialGuideBySlug } from "@/lib/directory/editorial-guides"
@@ -95,8 +95,7 @@ function pageCopy(locale: Locale, pathname: string): { title: string; descriptio
 }
 
 /** Per-page metadata: canonical plus hreflang en, fr and x-default. */
-export async function metadataFor(pathname: string): Promise<Metadata> {
-  const locale = await getLocale()
+export function metadataFor(pathname: string, locale: Locale = PAGE_LOCALE_EN): Metadata {
   return buildPageMetadata(locale, pathname)
 }
 

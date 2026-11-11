@@ -12,9 +12,8 @@ import {
 } from "./lib/i18n/locale-detect"
 
 /**
- * French pages live at /fr/... and are rewritten onto the existing English routes.
- * English is canonical at the site root. /en/... returns 301 to the root path.
- * First visit (no locale cookie): Accept-Language may redirect to /fr/...
+ * English at the site root; French lives under /fr/... (physical routes, no rewrite).
+ * /en/... 301s to the root path. Accept-Language may redirect first-time visitors to /fr/...
  */
 const knownTools = new Set(toolIds)
 const knownCategories = new Set(taxonomy.categories.map((category) => category.id))
@@ -40,12 +39,19 @@ export function middleware(request: NextRequest) {
   if (
     pathname.startsWith("/_next") ||
     pathname.startsWith("/api") ||
-    pathname.includes(".")
+    pathname === "/sitemap.xml" ||
+    pathname === "/robots.txt" ||
+    pathname === "/opengraph-image" ||
+    pathname === "/twitter-image" ||
+    pathname.startsWith("/tool-screenshots") ||
+    pathname.startsWith("/logos") ||
+    pathname.startsWith("/brand") ||
+    pathname.startsWith("/screenshots") ||
+    /\.[a-zA-Z0-9]+$/.test(pathname)
   ) {
     return NextResponse.next()
   }
 
-  // M-12: normalize /en/* → /*
   if (pathname === "/en" || pathname === "/en/") {
     const url = request.nextUrl.clone()
     url.pathname = "/"
@@ -61,7 +67,6 @@ export function middleware(request: NextRequest) {
   const locale = localeFromPathname(pathname)
   const isFrench = locale === "fr"
 
-  // M-04: catalogue?category=slug → /categories/slug
   if (bare === "/catalogue" || bare === "/tools") {
     const category = request.nextUrl.searchParams.get("category")
     if (category && knownCategories.has(category)) {
@@ -73,7 +78,6 @@ export function middleware(request: NextRequest) {
     }
   }
 
-  // M-04: /category/:slug (taxonomy slug) → /categories/:slug
   const legacyCategory = slugFromPath(pathname, "category")
   if (legacyCategory && knownCategories.has(legacyCategory) && !LEGACY_CATEGORY_LIST_SLUGS.has(legacyCategory)) {
     const url = request.nextUrl.clone()
@@ -104,27 +108,17 @@ export function middleware(request: NextRequest) {
     return response
   }
 
-  const requestHeaders = new Headers(request.headers)
-  requestHeaders.set("x-pathname", pathname)
-  requestHeaders.set("x-locale", isFrench ? "fr" : "en")
-
   const toolId = slugFromPath(pathname, "tool")
   const categoryId = slugFromPath(pathname, "categories")
   if ((toolId && !knownTools.has(toolId)) || (categoryId && !knownCategories.has(categoryId))) {
     const url = request.nextUrl.clone()
     url.pathname = "/__missing"
-    return NextResponse.rewrite(url, { request: { headers: requestHeaders } })
+    return NextResponse.rewrite(url)
   }
 
-  if (!isFrench) {
-    return NextResponse.next({ request: { headers: requestHeaders } })
-  }
-
-  const url = request.nextUrl.clone()
-  url.pathname = bare
-  return NextResponse.rewrite(url, { request: { headers: requestHeaders } })
+  return NextResponse.next()
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
+  matcher: ["/((?!_next/static|_next/image|favicon.ico|apple-icon.png|icon.png).*)"],
 }

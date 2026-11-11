@@ -34,7 +34,7 @@
   ],
   "howToUse": [
     {
-      "title": "Start a run",
+      "title": "Open the hosted Skyvern app and choose Start Building, or run the open-source core...",
       "description": "Open the hosted Skyvern app and choose Start Building, or run the open-source core yourself.",
       "links": [
         {
@@ -44,15 +44,15 @@
       ]
     },
     {
-      "title": "Describe the browser task",
+      "title": "Say what the run should do: log into a portal, fill a form, download an invoice, or...",
       "description": "Say what the run should do: log into a portal, fill a form, download an invoice, or extract data. Include 2FA if the site asks for it."
     },
     {
-      "title": "Let Skyvern read the page",
+      "title": "Skyvern reads the page with AI, so the workflow does not depend on selectors that break...",
       "description": "Skyvern reads the page with AI, so the workflow does not depend on selectors that break when the site changes."
     },
     {
-      "title": "Use the free credits or a paid plan",
+      "title": "The hosted free plan includes 5,000 credits a month.",
       "description": "The hosted free plan includes 5,000 credits a month. Hobby and Pro are the paid plans."
     }
   ],

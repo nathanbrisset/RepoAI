@@ -34,7 +34,7 @@
   ],
   "howToUse": [
     {
-      "title": "Install MindsDB",
+      "title": "Install MindsDB on your database server or use the cloud version.",
       "description": "Install MindsDB on your database server or use the cloud version.",
       "links": [
         {
@@ -44,15 +44,15 @@
       ]
     },
     {
-      "title": "Connect to Database",
+      "title": "Link MindsDB to your data source for training and inference.",
       "description": "Link MindsDB to your data source for training and inference."
     },
     {
-      "title": "Create & Train Models",
+      "title": "Use SQL queries to create and train predictive models directly in your database.",
       "description": "Use SQL queries to create and train predictive models directly in your database."
     },
     {
-      "title": "Query Predictions",
+      "title": "Run SQL queries to get predictions from your deployed models.",
       "description": "Run SQL queries to get predictions from your deployed models."
     }
   ],

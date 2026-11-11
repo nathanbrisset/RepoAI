@@ -16,6 +16,8 @@ interface MatchResult {
   explanation: string
 }
 
+export const dynamic = "force-dynamic"
+
 export function generateMetadata() {
   return metadataFor("/match-results")
 }

@@ -1,25 +1,19 @@
 import { Suspense } from "react"
-import { CatalogueClient } from "@/components/directory/catalogue-client"
-import { parseCatalogSearchParams, queryCatalogRecords } from "@/lib/directory/catalog-query"
-import { getLocale } from "@/lib/i18n/get-locale"
+import { CataloguePageBody } from "@/components/directory/catalogue-page-body"
 import { metadataFor } from "@/lib/i18n/metadata"
+import { PAGE_LOCALE_EN } from "@/lib/i18n/page-locale"
+
+export const dynamic = "force-static"
+export const revalidate = 86400
 
 export function generateMetadata() {
-  return metadataFor("/tools")
+  return metadataFor("/tools", PAGE_LOCALE_EN)
 }
 
-type PageProps = {
-  searchParams: Promise<Record<string, string | string[] | undefined>>
-}
-
-export default async function Page({ searchParams }: PageProps) {
-  const locale = await getLocale()
-  const params = await searchParams
-  const catalogPage = queryCatalogRecords(locale, parseCatalogSearchParams(params))
-
+export default function Page() {
   return (
     <Suspense fallback={<div className="mx-auto max-w-[1400px] px-4 py-16 md:px-8" />}>
-      <CatalogueClient basePath="/tools" catalogPage={catalogPage} />
+      <CataloguePageBody basePath="/tools" />
     </Suspense>
   )
 }

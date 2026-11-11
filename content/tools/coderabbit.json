@@ -32,7 +32,7 @@
   ],
   "howToUse": [
     {
-      "title": "Connect the repository",
+      "title": "Sign in on CodeRabbit and connect GitHub or GitLab so a review can run on pull requests.",
       "description": "Sign in on CodeRabbit and connect GitHub or GitLab so a review can run on pull requests.",
       "links": [
         {
@@ -42,15 +42,15 @@
       ]
     },
     {
-      "title": "Open a pull request",
+      "title": "Push a branch and open the pull request.",
       "description": "Push a branch and open the pull request. Read the comments CodeRabbit leaves on bugs, style, and security issues."
     },
     {
-      "title": "Reply in the thread",
+      "title": "Answer a comment when it is wrong or when the team wants a different style.",
       "description": "Answer a comment when it is wrong or when the team wants a different style. Later reviews follow that feedback."
     },
     {
-      "title": "Turn on triage or the security scan",
+      "title": "If the plan includes them, enable issue triage and the continuous security monitoring.",
       "description": "If the plan includes them, enable issue triage and the continuous security monitoring."
     }
   ],

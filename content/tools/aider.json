@@ -29,7 +29,7 @@
   ],
   "howToUse": [
     {
-      "title": "Open Aider",
+      "title": "Go to Aider and open Getting Started.",
       "description": "Go to Aider and open Getting Started. It is an open-source, command-line way of editing code with large language models.",
       "links": [
         {
@@ -39,11 +39,11 @@
       ]
     },
     {
-      "title": "Install and enter the repository",
+      "title": "Run python -m pip install aider-install, then aider-install, and change directory into...",
       "description": "Run python -m pip install aider-install, then aider-install, and change directory into your local git repository so Aider maps the codebase."
     },
     {
-      "title": "Edit files and let it commit",
+      "title": "Ask for the code change.",
       "description": "Ask for the code change. Aider applies each edit in the relevant files, then commits those changes automatically. Cloud models and local models both work; install is free and you pay the model provider for API usage."
     }
   ],
