@@ -40,7 +40,7 @@ function SiteHeaderInner() {
   const category = onFilterable ? searchParams.get("category") || "" : ""
   const sort = (searchParams.get("sort") as SortMode) || "trending"
   const query = onFilterable ? searchParams.get("q") || "" : ""
-  const [draft, setDraft] = useState(query)
+  const [draft, setDraft] = useState("")
 
   useEffect(() => {
     setDraft(query)

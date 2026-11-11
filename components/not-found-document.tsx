@@ -27,7 +27,12 @@ export function NotFoundDocument({ locale }: { locale: Locale }) {
             <LocaleLink href="/" className="rounded-full bg-primary px-6 py-3 text-lg font-semibold text-primary-foreground">
               {home}
             </LocaleLink>
-            <span className="rounded-full bg-secondary px-6 py-3 text-lg font-semibold text-foreground">{back}</span>
+            <LocaleLink
+              href="/"
+              className="rounded-full bg-secondary px-6 py-3 text-lg font-semibold text-foreground"
+            >
+              {back}
+            </LocaleLink>
           </div>
         </div>
       </div>

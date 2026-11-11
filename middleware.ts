@@ -9,6 +9,8 @@ import {
   preferredLocaleFromAcceptLanguage,
   stripLocalePrefix,
 } from "./lib/i18n/locale-detect"
+import { NOT_FOUND_HTML_EN, NOT_FOUND_HTML_FR } from "./lib/routing/cached-404-html"
+import { isKnownPagePath } from "./lib/routing/known-paths"
 
 const knownCategories = new Set(taxonomy.categories.map((category) => category.id))
 const LEGACY_CATEGORY_LIST_SLUGS = new Set(["new", "popular", "top-rated"])
@@ -86,9 +88,18 @@ export function middleware(request: NextRequest) {
     return response
   }
 
-  const response = NextResponse.next()
-  response.headers.set("x-pathname", pathname)
-  return response
+  if (request.method === "GET" && !isKnownPagePath(pathname)) {
+    const html = localeFromPathname(pathname) === "fr" ? NOT_FOUND_HTML_FR : NOT_FOUND_HTML_EN
+    return new NextResponse(html, {
+      status: 404,
+      headers: {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      },
+    })
+  }
+
+  return NextResponse.next()
 }
 
 export const config = {
