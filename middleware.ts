@@ -30,6 +30,11 @@ function localizedCategoryPath(locale: "en" | "fr", categoryId: string): string 
 
 const NOT_FOUND_CACHE = "private, no-cache, no-store, max-age=0, must-revalidate"
 
+function pathHasFileExtension(pathname: string): boolean {
+  const segment = pathname.split("/").pop() ?? ""
+  return /\.[A-Za-z0-9]+$/.test(segment)
+}
+
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
 
@@ -72,6 +77,7 @@ export async function middleware(request: NextRequest) {
 
   if (
     request.method === "GET" &&
+    !bare.startsWith("/api") &&
     !localeCookie &&
     !autoDone &&
     !isLikelyCrawler(request.headers.get("user-agent")) &&
@@ -90,6 +96,10 @@ export async function middleware(request: NextRequest) {
   }
 
   if (!isKnownPagePath(pathname)) {
+    if (pathHasFileExtension(pathname)) {
+      return new NextResponse("Not found", { status: 404 })
+    }
+
     const french = localeFromPathname(pathname) === "fr"
     const target = french ? "/fr/404-page" : "/404-page"
     if (request.method === "GET" || request.method === "HEAD") {
@@ -101,16 +111,23 @@ export async function middleware(request: NextRequest) {
       })
     }
 
-    const pageUrl = new URL(target, request.url)
-    const page = await fetch(pageUrl, { headers: { Accept: "text/html" } })
-    const html = await page.text()
-    return new NextResponse(html, {
-      status: 404,
-      headers: {
-        "Content-Type": "text/html; charset=utf-8",
-        "Cache-Control": NOT_FOUND_CACHE,
-      },
-    })
+    try {
+      const pageUrl = new URL(target, request.url)
+      const page = await fetch(pageUrl, { headers: { Accept: "text/html" } })
+      const html = await page.text()
+      return new NextResponse(html, {
+        status: 404,
+        headers: {
+          "Content-Type": "text/html; charset=utf-8",
+          "Cache-Control": NOT_FOUND_CACHE,
+        },
+      })
+    } catch {
+      return new NextResponse("Not found", {
+        status: 404,
+        headers: { "Content-Type": "text/plain; charset=utf-8" },
+      })
+    }
   }
 
   return NextResponse.next()
@@ -118,6 +135,6 @@ export async function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    "/((?!_next/static|_next/image|favicon.ico|apple-icon.png|icon.png|sitemap.xml|robots.txt|opengraph-image|twitter-image|logos(?:/|$)|brand(?:/|$)|screenshots(?:/|$)|tool-screenshots(?:/|$)|.*\\.[\\w]+$).*)",
+    "/((?!_next/static|_next/image|favicon.ico|apple-icon.png|icon.png|sitemap.xml|robots.txt|opengraph-image|twitter-image|logos(?:/|$)|brand(?:/|$)|screenshots(?:/|$)|tool-screenshots(?:/|$)).*)",
   ],
 }
