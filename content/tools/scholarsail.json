@@ -1,0 +1,88 @@
+{
+  "id": "scholarsail",
+  "name": "ScholarSail",
+  "url": "https://scholarsail.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An AI study workspace with flashcards, quizzes, mind maps and 3D memory palaces, plus a free tier and an 18 € Premium plan.",
+  "description": "ScholarSail is an AI study tool with flashcards, quizzes, mind maps and walkable 3D memory palaces. TAAFT lists a v3.0 update in this window — this is a version bump of a product not already in the catalogue, so it is flagged as an existing product update.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "education",
+    "flashcards",
+    "memory-palace",
+    "studying",
+    "quizzes"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://scholarsail.com/pricing",
+    "details": "Free (30 AI credits/month, unlimited decks and memory palaces, 250 MB storage); Premium 18 €/month (1,000 credits, 10 GB, higher-quality models and the palace editor). Launch promo LAUNCH50: 50% off for the first 3 months (9 €/month), then 18 €/month. One-off credit packs: 1 € for 50 credits (intro, one per account) and 4 € for 150 credits, lasting 12 months.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/scholarsail.png",
+  "image": "/screenshots/scholarsail.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Flashcards, quizzes, mind maps and walkable 3D memory palaces",
+    "Free plan with monthly AI credits",
+    "Launch promo for the first 3 months of Premium",
+    "One-off credit packs that last 12 months"
+  ],
+  "howToUse": [
+    {
+      "title": "Open scholarsail.com and start on the Free plan.",
+      "description": "Open scholarsail.com and start on the Free plan.",
+      "links": [
+        {
+          "label": "ScholarSail",
+          "url": "https://scholarsail.com/"
+        }
+      ]
+    },
+    {
+      "title": "Upload study material into decks or a 3D memory palace.",
+      "description": "Upload study material into decks or a 3D memory palace."
+    },
+    {
+      "title": "Upgrade to Premium or buy a credit pack if you need more AI credits.",
+      "description": "Upgrade to Premium or buy a credit pack if you need more AI credits."
+    }
+  ],
+  "sources": [
+    "https://scholarsail.com/",
+    "https://scholarsail.com/pricing"
+  ],
+  "summary_fr": "Un espace d’étude IA avec flashcards, quiz, cartes mentales et palais de mémoire 3D, avec une offre gratuite et un plan Premium à 18 €.",
+  "description_fr": "Un espace d’étude IA avec flashcards, quiz, cartes mentales et palais de mémoire 3D, avec une offre gratuite et un plan Premium à 18 €.",
+  "features_fr": [
+    "Flashcards, quiz, cartes mentales et palais de mémoire 3D à parcourir",
+    "Offre gratuite avec crédits IA mensuels",
+    "Promo de lancement sur les 3 premiers mois de Premium",
+    "Packs de crédits ponctuels valables 12 mois"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre scholarsail.com et commence sur l’offre Gratuite.",
+      "description": "Ouvre scholarsail.com et commence sur l’offre Gratuite.",
+      "links": [
+        {
+          "label": "ScholarSail",
+          "url": "https://scholarsail.com/"
+        }
+      ]
+    },
+    {
+      "title": "Envoie tes supports de cours dans des decks ou un palais de mémoire 3D.",
+      "description": "Envoie tes supports de cours dans des decks ou un palais de mémoire 3D."
+    },
+    {
+      "title": "Passe à Premium ou achète un pack de crédits si tu as besoin de plus de crédits IA.",
+      "description": "Passe à Premium ou achète un pack de crédits si tu as besoin de plus de crédits IA."
+    }
+  ]
+}

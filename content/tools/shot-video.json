@@ -1,0 +1,74 @@
+{
+  "id": "shot-video",
+  "name": "Shot.video",
+  "url": "https://shot.video/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns your laptop and phones into a multi-camera studio: record once, every angle is synced, and AI makes the first edit with cuts, zooms and B-roll suggestions.",
+  "description": "Turns your laptop and phones into a multi-camera studio: record once, every angle is synced, and AI makes the first edit with cuts, zooms and B-roll suggestions.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "multi-camera",
+    "video-recording",
+    "video-editing",
+    "creators",
+    "b-roll"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://shot.video/pricing",
+    "details": "Free (2 video credits + 5 B-roll credits once). Creator 17 €/month; Pro 35 €/month; Studio 70 €/month (yearly billing: 2 months free; yearly totals not published). One-off packs from 8 € for 5 video credits.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/shot-video.png",
+  "image": "/screenshots/shot-video.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Turns your laptop and phones into a synced multi-camera studio",
+    "Phones join by QR code, no app",
+    "AI angle cutting, auto zoom and pan, B-roll suggestions",
+    "Manual edits are free",
+    "Free starter credits"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up free on shot.video, scan the QR code with your phones, press record once, then...",
+      "description": "Sign up free on shot.video, scan the QR code with your phones, press record once, then review the AI first edit and export.",
+      "links": [
+        {
+          "label": "Shot.video",
+          "url": "https://shot.video/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/",
+    "https://shot.video/pricing"
+  ],
+  "summary_fr": "Transforme ton ordinateur et tes téléphones en studio multicaméra : un seul enregistrement, tous les angles synchronisés, et l’IA réalise un premier montage avec coupes, zooms et B-roll.",
+  "description_fr": "Transforme ton ordinateur et tes téléphones en studio multicaméra : un seul enregistrement, tous les angles synchronisés, et l’IA réalise un premier montage avec coupes, zooms et B-roll.",
+  "features_fr": [
+    "Transforme ton ordinateur et tes téléphones en studio multicaméra synchronisé",
+    "Les téléphones rejoignent par QR code, sans appli",
+    "Coupes d’angles, zooms et suggestions de B-roll par IA",
+    "Les retouches manuelles sont gratuites",
+    "Crédits de départ offerts"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Inscris-toi gratuitement sur shot.video, scanne le QR code avec tes téléphones, appuie...",
+      "description": "Inscris-toi gratuitement sur shot.video, scanne le QR code avec tes téléphones, appuie une seule fois sur enregistrer, puis relis le premier montage IA et exporte.",
+      "links": [
+        {
+          "label": "Shot.video",
+          "url": "https://shot.video/"
+        }
+      ]
+    }
+  ]
+}

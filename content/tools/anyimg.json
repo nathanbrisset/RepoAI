@@ -1,0 +1,85 @@
+{
+  "id": "anyimg",
+  "name": "AnyImg",
+  "url": "https://anyimg.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Edits or creates images with a prompt across listed models, on two official monthly credit plans: Starter 9 € and Pro 27 €.",
+  "description": "AnyImg is a web image tool for text-to-image and image-to-image across the models listed on its pricing page. Official pricing: two monthly plans. Credits are valid for 1 month. Downloads and a commercial license are included. Higher-resolution and advanced models may use more credits. Failed generation tasks automatically return consumed credits.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "image-generation",
+    "image-editing",
+    "credits",
+    "commercial-license"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://anyimg.ai/pricing",
+    "details": "Starter 9 €/month (1,600 credits); Pro 27 €/month (5,000 credits). Credits are valid for 1 month. Downloads and a commercial license are included. Failed jobs return credits.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/anyimg.png",
+  "image": "/screenshots/anyimg.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Text-to-image and image-to-image across listed models",
+    "Commercial license included",
+    "Failed jobs refund credits"
+  ],
+  "howToUse": [
+    {
+      "title": "Open anyimg.ai and pick Starter or Pro on the pricing page.",
+      "description": "Open anyimg.ai and pick Starter or Pro on the pricing page.",
+      "links": [
+        {
+          "label": "AnyImg",
+          "url": "https://anyimg.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Generate or edit an image with a prompt or a reference.",
+      "description": "Generate or edit an image with a prompt or a reference."
+    },
+    {
+      "title": "Download the result (failed jobs return credits).",
+      "description": "Download the result (failed jobs return credits)."
+    }
+  ],
+  "sources": [
+    "https://anyimg.ai/",
+    "https://anyimg.ai/pricing"
+  ],
+  "summary_fr": "Modifie ou crée des images à partir d’un prompt, sur les modèles proposés, via deux offres mensuelles officielles : Starter à 9 € et Pro à 27 €.",
+  "description_fr": "Modifie ou crée des images à partir d’un prompt, sur les modèles proposés, via deux offres mensuelles officielles : Starter à 9 € et Pro à 27 €.",
+  "features_fr": [
+    "Texte vers image et image vers image, sur les modèles proposés",
+    "Licence commerciale incluse",
+    "Les tâches qui échouent rendent les crédits"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre anyimg.ai et choisis Starter ou Pro sur la page des tarifs.",
+      "description": "Ouvre anyimg.ai et choisis Starter ou Pro sur la page des tarifs.",
+      "links": [
+        {
+          "label": "AnyImg",
+          "url": "https://anyimg.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Génère ou retouche une image avec un prompt ou une référence.",
+      "description": "Génère ou retouche une image avec un prompt ou une référence."
+    },
+    {
+      "title": "Télécharge le résultat (les tâches qui échouent rendent les crédits).",
+      "description": "Télécharge le résultat (les tâches qui échouent rendent les crédits)."
+    }
+  ]
+}

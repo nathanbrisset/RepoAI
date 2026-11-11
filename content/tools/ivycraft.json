@@ -1,0 +1,72 @@
+{
+  "id": "ivycraft",
+  "name": "IvyCraft",
+  "url": "https://ivycraft.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An AI workspace that turns papers and other sources into slides, infographics, podcasts, comics and videos grounded in your material.",
+  "description": "An AI workspace that turns papers and other sources into slides, infographics, podcasts, comics and videos grounded in your material.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "presentations",
+    "slides",
+    "podcasts",
+    "research",
+    "content-creation"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://ivycraft.ai/pricing/",
+    "details": "Free (1,000 bonus credits valid 30 days, watermarked exports). Basic 9 €/month; Pro 18 €/month; Max 89 €/month. Official promo: 50% off the first month on monthly billing (promo totals were not published as euro figures and are not shown). Separate education pricing.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/ivycraft.png",
+  "image": "/screenshots/ivycraft.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Grounded generation from uploaded sources",
+    "Slides, infographics, podcasts, comics and videos",
+    "Agent and workflow loops",
+    "Free bonus credits for 30 days, with watermarked exports"
+  ],
+  "howToUse": [
+    {
+      "title": "Open ivycraft.ai, upload your papers or sources, pick an output (slides, podcast, comic,...",
+      "description": "Open ivycraft.ai, upload your papers or sources, pick an output (slides, podcast, comic, video), refine it with the agent and export; subscribe to remove watermarks.",
+      "links": [
+        {
+          "label": "IvyCraft",
+          "url": "https://ivycraft.ai/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://theresanaiforthat.com/just-launched/",
+    "https://ivycraft.ai/pricing/"
+  ],
+  "summary_fr": "Un espace de travail IA qui transforme articles et autres sources en slides, infographies, podcasts, BD et vidéos fidèles à tes documents.",
+  "description_fr": "Un espace de travail IA qui transforme articles et autres sources en slides, infographies, podcasts, BD et vidéos fidèles à tes documents.",
+  "features_fr": [
+    "Génération ancrée dans tes sources",
+    "Slides, infographies, podcasts, BD et vidéos",
+    "Agent et boucles de workflow",
+    "Crédits bonus offerts 30 jours, avec exports filigranés"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre ivycraft.ai, envoie tes articles ou sources, choisis un format (slides, podcast,...",
+      "description": "Ouvre ivycraft.ai, envoie tes articles ou sources, choisis un format (slides, podcast, BD, vidéo), affine-le avec l’agent et exporte ; abonne-toi pour retirer les filigranes.",
+      "links": [
+        {
+          "label": "IvyCraft",
+          "url": "https://ivycraft.ai/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "sitelas",
+  "name": "Sitelas",
+  "url": "https://sitelas.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A website builder for AI agents: describe your site to Claude, ChatGPT or your own agent and it designs, publishes and runs pages, forms and SEO.",
+  "description": "A website builder for AI agents: describe your site to Claude, ChatGPT or your own agent and it designs, publishes and runs pages, forms and SEO.",
+  "categories": [
+    "no-code"
+  ],
+  "tags": [
+    "website-builder",
+    "no-code",
+    "mcp",
+    "ai-agents",
+    "seo"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://sitelas.com/pricing",
+    "details": "Free forever (1 live site on a sitelas.com subdomain, 3,000 visits/month, 1,000 one-time AI credits). Pro 8 €/month or 80 €/year per site (your own domain, no badge, 30,000 visits/month).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/sitelas.png",
+  "image": "/screenshots/sitelas.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Website builder designed for AI agents (Claude, ChatGPT, Cursor or VS Code)",
+    "Full visual builder, forms and collections",
+    "Analytics",
+    "Custom domain and SSL on Pro",
+    "Free live site on a subdomain"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up free on sitelas.com, connect your AI assistant or use the visual builder,...",
+      "description": "Sign up free on sitelas.com, connect your AI assistant or use the visual builder, describe your site and publish it on a subdomain; upgrade to Pro to use your own domain.",
+      "links": [
+        {
+          "label": "Sitelas",
+          "url": "https://sitelas.com/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://theresanaiforthat.com/just-launched/",
+    "https://sitelas.com/pricing"
+  ],
+  "summary_fr": "Un créateur de sites pensé pour les agents IA : décris ton site à Claude, ChatGPT ou ton agent, qui le conçoit, le publie et le gère (pages, formulaires, SEO).",
+  "description_fr": "Un créateur de sites pensé pour les agents IA : décris ton site à Claude, ChatGPT ou ton agent, qui le conçoit, le publie et le gère (pages, formulaires, SEO).",
+  "features_fr": [
+    "Créateur de sites pensé pour les agents IA (Claude, ChatGPT, Cursor ou VS Code)",
+    "Éditeur visuel, formulaires et collections",
+    "Analytics",
+    "Domaine personnalisé et SSL sur Pro",
+    "Site gratuit en ligne sur un sous-domaine"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Inscris-toi gratuitement sur sitelas.com, connecte ton assistant IA ou utilise l’éditeur...",
+      "description": "Inscris-toi gratuitement sur sitelas.com, connecte ton assistant IA ou utilise l’éditeur visuel, décris ton site et publie-le sur un sous-domaine ; passe à Pro pour utiliser ton propre domaine.",
+      "links": [
+        {
+          "label": "Sitelas",
+          "url": "https://sitelas.com/"
+        }
+      ]
+    }
+  ]
+}

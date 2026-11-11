@@ -1,0 +1,72 @@
+{
+  "id": "whisper-web",
+  "name": "Whisper Web",
+  "url": "https://whisperweb.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Runs Whisper speech recognition in the browser, privately on your device, and is officially completely free, with no signup or upload required.",
+  "description": "Whisper Web is a browser speech-recognition and transcription tool (including MP4 and M4A) that can run privately on your device with no upload. Official site copy: “Completely free to use” and “Free AI speech recognition, privately on your device — no uploads.” A /pricing path returns 404, and no paid plan is listed on the official homepage checked. A text-to-speech mode is also linked from the site.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "transcription",
+    "speech-to-text",
+    "whisper",
+    "privacy",
+    "browser"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Officially completely free. In-browser / on-device recognition, no signup and no upload required. The /pricing path returns 404, and no paid plan is listed on the official homepage.",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/whisper-web.png",
+  "image": "/screenshots/whisper-web.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "In-browser Whisper transcription",
+    "Local/private mode with no upload",
+    "No signup",
+    "Officially completely free",
+    "Video and audio file support"
+  ],
+  "howToUse": [
+    {
+      "title": "Open whisperweb.app, allow the mic or drop a file, and transcribe in the browser.",
+      "description": "Open whisperweb.app, allow the mic or drop a file, and transcribe in the browser. No account is required.",
+      "links": [
+        {
+          "label": "Whisper Web",
+          "url": "https://whisperweb.app/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://whisperweb.app/"
+  ],
+  "summary_fr": "Fait tourner la reconnaissance vocale Whisper dans le navigateur, en local sur l’appareil, et se présente officiellement comme entièrement gratuite, sans inscription ni envoi de fichier.",
+  "description_fr": "Fait tourner la reconnaissance vocale Whisper dans le navigateur, en local sur l’appareil, et se présente officiellement comme entièrement gratuite, sans inscription ni envoi de fichier.",
+  "features_fr": [
+    "Transcription Whisper dans le navigateur",
+    "Mode local/privé sans envoi de fichier",
+    "Sans inscription",
+    "Officiellement entièrement gratuit",
+    "Fichiers vidéo et audio pris en charge"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre whisperweb.app, autorise le micro ou dépose un fichier, et transcris dans le...",
+      "description": "Ouvre whisperweb.app, autorise le micro ou dépose un fichier, et transcris dans le navigateur. Aucun compte n’est demandé.",
+      "links": [
+        {
+          "label": "Whisper Web",
+          "url": "https://whisperweb.app/"
+        }
+      ]
+    }
+  ]
+}

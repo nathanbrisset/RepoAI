@@ -1,0 +1,90 @@
+{
+  "id": "audiopod-ai",
+  "name": "AudioPod AI",
+  "url": "https://audiopod.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A browser audio workstation for text-to-speech, music, stem splitting, transcription and noise reduction, with a free monthly credit allowance.",
+  "description": "AudioPod AI is a browser AI audio workstation for podcasts and audiobooks, covering text-to-speech (200+ languages), music generation, stem separation, transcription, noise reduction and voice cloning. Official pricing: Basic is free, with 1,000 credits every month and no card (~3 minutes of TTS or ~1 minute of music). A 14-day money-back guarantee and commercial use on paid/PAYG credits are stated. The pricing page was marked last updated 13 October 2026 (slightly outside a strict 3-week window; TAAFT listed an initial release on 1 November).",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "tts",
+    "podcasts",
+    "audiobooks",
+    "music",
+    "transcription"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://audiopod.ai/pricing",
+    "details": "Basic free (1,000 credits/month, no card); Creator 18 €/month (200,000 credits; official FIRST30 promo: 30% off the first month, 12 € then 18 €); Pro 45 €/month; Studio 89 €/month. Pay-as-you-go 1 € for 7,500 credits, never expire. 14-day money-back guarantee. Commercial use on paid and PAYG credits.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/audiopod-ai.png",
+  "image": "/screenshots/audiopod-ai.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Text-to-speech, music, stem splitting, transcription, noise reduction and voice cloning in one studio",
+    "200+ TTS languages",
+    "Free monthly credit allowance, no card",
+    "Pay-as-you-go credits that never expire",
+    "14-day money-back guarantee"
+  ],
+  "howToUse": [
+    {
+      "title": "Open audiopod.ai and start free with 1,000 monthly credits and no card.",
+      "description": "Open audiopod.ai and start free with 1,000 monthly credits and no card.",
+      "links": [
+        {
+          "label": "AudioPod AI",
+          "url": "https://audiopod.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Generate speech or music in the browser studio.",
+      "description": "Generate speech or music in the browser studio."
+    },
+    {
+      "title": "Buy pay-as-you-go credits or subscribe to Creator, Pro or Studio if you need more.",
+      "description": "Buy pay-as-you-go credits or subscribe to Creator, Pro or Studio if you need more."
+    }
+  ],
+  "sources": [
+    "https://audiopod.ai/",
+    "https://audiopod.ai/pricing"
+  ],
+  "summary_fr": "Un studio audio dans le navigateur pour la synthèse vocale, la musique, la séparation de stems, la transcription et le débruitage, avec des crédits gratuits chaque mois.",
+  "description_fr": "Un studio audio dans le navigateur pour la synthèse vocale, la musique, la séparation de stems, la transcription et le débruitage, avec des crédits gratuits chaque mois.",
+  "features_fr": [
+    "Synthèse vocale, musique, séparation de stems, transcription, débruitage et clonage de voix dans un seul studio",
+    "Plus de 200 langues en synthèse vocale",
+    "Crédit mensuel gratuit, sans carte",
+    "Crédits à l’usage sans date d’expiration",
+    "Satisfait ou remboursé 14 jours"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre audiopod.ai et commence gratuitement avec 1 000 crédits mensuels, sans carte.",
+      "description": "Ouvre audiopod.ai et commence gratuitement avec 1 000 crédits mensuels, sans carte.",
+      "links": [
+        {
+          "label": "AudioPod AI",
+          "url": "https://audiopod.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Génère de la voix ou de la musique dans le studio du navigateur.",
+      "description": "Génère de la voix ou de la musique dans le studio du navigateur."
+    },
+    {
+      "title": "Achète des crédits à l’usage ou abonne-toi à Creator, Pro ou Studio si tu as besoin de...",
+      "description": "Achète des crédits à l’usage ou abonne-toi à Creator, Pro ou Studio si tu as besoin de plus."
+    }
+  ]
+}

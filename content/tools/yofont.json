@@ -1,0 +1,88 @@
+{
+  "id": "yofont",
+  "name": "YoFont",
+  "url": "https://yofont.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Generates installable fonts (TTF, OTF, WOFF) from a sentence, with a free 100-glyph plan and paid Starter, Pro and Studio tiers.",
+  "description": "YoFont generates multi-script typefaces (60 languages, 9 writing systems) from a text prompt, with a glyph editor and TTF/OTF/WOFF/WOFF2 export. Annual billing is offered at 20% off. 1 glyph equals 1 drawn character.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "fonts",
+    "typography",
+    "design",
+    "typeface",
+    "generative"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://yofont.com/plans",
+    "details": "Free forever (100 glyphs, preview only; downloads and commercial license not included; fonts are public); Starter 8 €/month (500 glyphs, downloads, no commercial use); Pro 17 €/month (5,000 glyphs); Studio 44 €/month (15,000 glyphs, commercial use, private fonts and API/MCP). Annual billing 20% off (yearly totals not published).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/yofont.png",
+  "image": "/screenshots/yofont.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Prompt-to-installable multi-script fonts (TTF, OTF, WOFF)",
+    "60 languages and 9 writing systems",
+    "Glyph editor",
+    "Studio adds commercial use, private fonts and API/MCP"
+  ],
+  "howToUse": [
+    {
+      "title": "Open yofont.com and generate a first font with the 100 free glyphs.",
+      "description": "Open yofont.com and generate a first font with the 100 free glyphs.",
+      "links": [
+        {
+          "label": "YoFont",
+          "url": "https://yofont.com/"
+        }
+      ]
+    },
+    {
+      "title": "Preview it in the glyph editor.",
+      "description": "Preview it in the glyph editor."
+    },
+    {
+      "title": "Pick Starter, Pro or Studio on yofont.com/plans if you need downloads, more glyphs or a...",
+      "description": "Pick Starter, Pro or Studio on yofont.com/plans if you need downloads, more glyphs or a commercial license."
+    }
+  ],
+  "sources": [
+    "https://yofont.com/",
+    "https://yofont.com/plans"
+  ],
+  "summary_fr": "Crée des polices installables (TTF, OTF, WOFF) à partir d’une phrase, avec 100 glyphes offerts et des offres payantes Starter, Pro et Studio.",
+  "description_fr": "Crée des polices installables (TTF, OTF, WOFF) à partir d’une phrase, avec 100 glyphes offerts et des offres payantes Starter, Pro et Studio.",
+  "features_fr": [
+    "Polices multi-écritures installables (TTF, OTF, WOFF) à partir d’une phrase",
+    "60 langues et 9 systèmes d’écriture",
+    "Éditeur de glyphes",
+    "Studio ajoute l’usage commercial, les polices privées et l’API/MCP"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre yofont.com et génère une première police avec les 100 glyphes offerts.",
+      "description": "Ouvre yofont.com et génère une première police avec les 100 glyphes offerts.",
+      "links": [
+        {
+          "label": "YoFont",
+          "url": "https://yofont.com/"
+        }
+      ]
+    },
+    {
+      "title": "Prévisualise-la dans l’éditeur de glyphes.",
+      "description": "Prévisualise-la dans l’éditeur de glyphes."
+    },
+    {
+      "title": "Choisis Starter, Pro ou Studio sur yofont.com/plans si tu as besoin des téléchargements,...",
+      "description": "Choisis Starter, Pro ou Studio sur yofont.com/plans si tu as besoin des téléchargements, de plus de glyphes ou d’une licence commerciale."
+    }
+  ]
+}

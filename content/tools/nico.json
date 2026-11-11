@@ -1,0 +1,90 @@
+{
+  "id": "nico",
+  "name": "Nico",
+  "url": "https://nico.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A Mac voice-to-action agent that runs tasks on the AI account you already have; Plus adds spoken replies and better recognition.",
+  "description": "Nico is a macOS voice-to-action personal agent. New accounts get 7 days of Plus with no card. Yearly billing is offered with a stated 20% saving. The site also lists many UI languages.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "macos",
+    "voice-agent",
+    "dictation",
+    "productivity",
+    "personal-agent"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://nico.app/pricing/",
+    "details": "Free, no card (tasks use the AI plan you already have; text replies and on-device recognition); Plus 13 €/month (full voice conversations and higher accuracy). 7 days of Plus free, no card. Yearly billing 20% off (yearly totals not published).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/nico.png",
+  "image": "/screenshots/nico.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Voice-to-action personal agent on Mac",
+    "Uses the AI account you already have",
+    "On-device speech recognition on the Free plan",
+    "Spoken replies and higher accuracy on Plus",
+    "7 days of Plus free, no card"
+  ],
+  "howToUse": [
+    {
+      "title": "Download Nico from nico.app and sign in with your existing AI account on the Free plan.",
+      "description": "Download Nico from nico.app and sign in with your existing AI account on the Free plan.",
+      "links": [
+        {
+          "label": "Nico",
+          "url": "https://nico.app/"
+        }
+      ]
+    },
+    {
+      "title": "Try the 7-day Plus period with no card.",
+      "description": "Try the 7-day Plus period with no card."
+    },
+    {
+      "title": "Keep Plus if you want spoken replies and higher recognition accuracy.",
+      "description": "Keep Plus if you want spoken replies and higher recognition accuracy."
+    }
+  ],
+  "sources": [
+    "https://nico.app/",
+    "https://nico.app/pricing/"
+  ],
+  "summary_fr": "Un agent Mac qui passe de la voix à l’action, en s’appuyant sur le compte IA que tu as déjà ; Plus ajoute les réponses parlées et une meilleure reconnaissance.",
+  "description_fr": "Un agent Mac qui passe de la voix à l’action, en s’appuyant sur le compte IA que tu as déjà ; Plus ajoute les réponses parlées et une meilleure reconnaissance.",
+  "features_fr": [
+    "Agent personnel Mac qui passe de la voix à l’action",
+    "S’appuie sur le compte IA que tu as déjà",
+    "Reconnaissance vocale sur l’appareil en offre Gratuite",
+    "Réponses parlées et meilleure précision sur Plus",
+    "7 jours de Plus offerts, sans carte"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Télécharge Nico depuis nico.app et connecte-toi avec le compte IA que tu as déjà, sur...",
+      "description": "Télécharge Nico depuis nico.app et connecte-toi avec le compte IA que tu as déjà, sur l’offre Gratuite.",
+      "links": [
+        {
+          "label": "Nico",
+          "url": "https://nico.app/"
+        }
+      ]
+    },
+    {
+      "title": "Profite des 7 jours de Plus, sans carte.",
+      "description": "Profite des 7 jours de Plus, sans carte."
+    },
+    {
+      "title": "Garde Plus si tu veux les réponses parlées et une meilleure reconnaissance.",
+      "description": "Garde Plus si tu veux les réponses parlées et une meilleure reconnaissance."
+    }
+  ]
+}

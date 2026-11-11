@@ -1,0 +1,74 @@
+{
+  "id": "varg",
+  "name": "varg",
+  "url": "https://varg.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "An AI video platform and agent that takes a brief to a finished ad, picking the best pipeline for video, image, lipsync, music, speech and captions, also usable from Claude Code, Cursor or ChatGPT.",
+  "description": "An AI video platform and agent that takes a brief to a finished ad, picking the best pipeline for video, image, lipsync, music, speech and captions, also usable from Claude Code, Cursor or ChatGPT.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "video-ads",
+    "ugc",
+    "mcp",
+    "ai-video",
+    "marketing"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://varg.ai/pricing",
+    "details": "Free forever via your own agent (250K agent tokens/month, pay per generation). Starter 7 €/month (4 € of credits); Pro 18 €/month (9 € of credits); Max 89 €/month (45 € of credits).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/varg.png",
+  "image": "/screenshots/varg.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "AI video platform and agent from brief to finished ad",
+    "Picks a pipeline for video, image, lipsync, music, speech and captions",
+    "Usable from Claude Code, Cursor or ChatGPT via MCP",
+    "API and SDK, templates and canvas",
+    "Bulk generation"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up free on varg.ai or connect it to your AI coding tool via MCP, write a brief, let...",
+      "description": "Sign up free on varg.ai or connect it to your AI coding tool via MCP, write a brief, let the agent pick models and render, then upgrade for included credits.",
+      "links": [
+        {
+          "label": "varg",
+          "url": "https://varg.ai/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://theresanaiforthat.com/just-launched/",
+    "https://varg.ai/pricing"
+  ],
+  "summary_fr": "Une plateforme et un agent vidéo IA qui transforment un brief en publicité finie, en choisissant le meilleur pipeline (vidéo, image, lipsync, musique, voix, sous-titres), utilisable aussi depuis Claude Code, Cursor ou ChatGPT.",
+  "description_fr": "Une plateforme et un agent vidéo IA qui transforment un brief en publicité finie, en choisissant le meilleur pipeline (vidéo, image, lipsync, musique, voix, sous-titres), utilisable aussi depuis Claude Code, Cursor ou ChatGPT.",
+  "features_fr": [
+    "Plateforme et agent vidéo IA, du brief à la pub finie",
+    "Choisit un pipeline pour la vidéo, l’image, le lipsync, la musique, la voix et les sous-titres",
+    "Utilisable depuis Claude Code, Cursor ou ChatGPT via MCP",
+    "API et SDK, modèles et canevas",
+    "Génération en lot"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Inscris-toi gratuitement sur varg.ai ou connecte-le à ton outil de code IA via MCP, écris...",
+      "description": "Inscris-toi gratuitement sur varg.ai ou connecte-le à ton outil de code IA via MCP, écris un brief, laisse l’agent choisir les modèles et rendre, puis passe à une offre payante pour des crédits inclus.",
+      "links": [
+        {
+          "label": "varg",
+          "url": "https://varg.ai/"
+        }
+      ]
+    }
+  ]
+}

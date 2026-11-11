@@ -1,0 +1,90 @@
+{
+  "id": "senpi",
+  "name": "Senpi",
+  "url": "https://senpi.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns a described trading strategy into a Hyperliquid agent, with a free trial and official Pro, Advanced and Quant plans at 45 €, 89 € and 178 € a month.",
+  "description": "Senpi (Senpi AI Inc., Austin, Texas) is an AI trading-agent product: it turns a described strategy into software that can run on Hyperliquid. Paid plans have 0% Senpi trading fees and access to all models. You can connect Claude, ChatGPT and more on the paid plans.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "finance",
+    "trading",
+    "agents",
+    "hyperliquid",
+    "crypto"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://senpi.ai/pricing",
+    "details": "Free trial (9 € of AI credits once, 0.03% Senpi trading fee). Pro 45 €/month (49 € credits, 0% Senpi fees); Advanced 89 €/month (103 € credits); Quant 178 €/month (214 € credits).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/senpi.png",
+  "image": "/screenshots/senpi.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Turns a described strategy into a Hyperliquid trading agent",
+    "Free trial with one-time credits",
+    "0% Senpi trading fees on paid plans",
+    "Official HQ in Austin, United States"
+  ],
+  "howToUse": [
+    {
+      "title": "Open senpi.ai and start the free trial.",
+      "description": "Open senpi.ai and start the free trial.",
+      "links": [
+        {
+          "label": "Senpi",
+          "url": "https://senpi.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Describe a trading strategy to turn it into a Hyperliquid agent.",
+      "description": "Describe a trading strategy to turn it into a Hyperliquid agent."
+    },
+    {
+      "title": "Subscribe to Pro, Advanced or Quant if you want monthly credits and 0% Senpi trading fees.",
+      "description": "Subscribe to Pro, Advanced or Quant if you want monthly credits and 0% Senpi trading fees."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://senpi.ai/",
+    "https://senpi.ai/pricing"
+  ],
+  "summary_fr": "Transforme une stratégie de trading décrite en agent Hyperliquid, avec un essai gratuit et des offres officielles Pro, Advanced et Quant à 45 €, 89 € et 178 € par mois.",
+  "description_fr": "Transforme une stratégie de trading décrite en agent Hyperliquid, avec un essai gratuit et des offres officielles Pro, Advanced et Quant à 45 €, 89 € et 178 € par mois.",
+  "features_fr": [
+    "Transforme une stratégie décrite en agent de trading Hyperliquid",
+    "Essai gratuit avec crédits offerts une fois",
+    "0 % de frais Senpi sur les offres payantes",
+    "Siège officiel à Austin, États-Unis"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre senpi.ai et démarre l’essai gratuit.",
+      "description": "Ouvre senpi.ai et démarre l’essai gratuit.",
+      "links": [
+        {
+          "label": "Senpi",
+          "url": "https://senpi.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Décris une stratégie de trading pour en faire un agent Hyperliquid.",
+      "description": "Décris une stratégie de trading pour en faire un agent Hyperliquid."
+    },
+    {
+      "title": "Abonne-toi à Pro, Advanced ou Quant si tu veux des crédits mensuels et 0 % de frais Senpi.",
+      "description": "Abonne-toi à Pro, Advanced ou Quant si tu veux des crédits mensuels et 0 % de frais Senpi."
+    }
+  ]
+}

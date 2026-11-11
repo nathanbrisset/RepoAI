@@ -1,0 +1,74 @@
+{
+  "id": "scroogefrog-ai",
+  "name": "ScroogeFrog AI",
+  "url": "https://scroogefrog.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI ad-fraud detection: audits your traffic and Google Ads, flags bots and fake clicks with custom-trained models, and tells you which campaigns or keywords to pause.",
+  "description": "AI ad-fraud detection: audits your traffic and Google Ads, flags bots and fake clicks with custom-trained models, and tells you which campaigns or keywords to pause.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "ad-fraud",
+    "click-fraud",
+    "google-ads",
+    "ppc",
+    "analytics"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://scroogefrog.ai/plans.html",
+    "details": "14-day trial on every plan (not charged if you cancel during the trial). Test 9 €/month or 54 €/year; Lite 88 €/month or 534 €/year; Medium 222 €/month or 1,337 €/year; Pro 445 €/month or 2,674 €/year; Custom on request.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/scroogefrog-ai.png",
+  "image": "/screenshots/scroogefrog-ai.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Traffic and Google Ads audit",
+    "Custom ML models per site",
+    "AI recommendations on which campaigns or keywords to pause",
+    "Google Ads refund-letter support",
+    "14-day trial on every plan"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up on scroogefrog.ai, add the antifraud tracking code to your site, connect Google...",
+      "description": "Sign up on scroogefrog.ai, add the antifraud tracking code to your site, connect Google Ads, read the annotated audit and apply the AI recommendations before the 14-day trial ends.",
+      "links": [
+        {
+          "label": "ScroogeFrog AI",
+          "url": "https://scroogefrog.ai/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/",
+    "https://scroogefrog.ai/plans.html"
+  ],
+  "summary_fr": "Détection de fraude publicitaire par IA : audite ton trafic et Google Ads, repère bots et faux clics grâce à des modèles entraînés sur tes données et indique quelles campagnes ou mots-clés couper.",
+  "description_fr": "Détection de fraude publicitaire par IA : audite ton trafic et Google Ads, repère bots et faux clics grâce à des modèles entraînés sur tes données et indique quelles campagnes ou mots-clés couper.",
+  "features_fr": [
+    "Audit du trafic et de Google Ads",
+    "Modèles ML entraînés sur tes données",
+    "Recommandations IA sur les campagnes ou mots-clés à couper",
+    "Aide pour les lettres de remboursement Google Ads",
+    "Essai de 14 jours sur chaque offre"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Inscris-toi sur scroogefrog.ai, ajoute le code de suivi antifraude sur ton site, connecte...",
+      "description": "Inscris-toi sur scroogefrog.ai, ajoute le code de suivi antifraude sur ton site, connecte Google Ads, lis l’audit annoté et applique les recommandations avant la fin de l’essai de 14 jours.",
+      "links": [
+        {
+          "label": "ScroogeFrog AI",
+          "url": "https://scroogefrog.ai/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "kawung",
+  "name": "Kawung",
+  "url": "https://kawung.id/en",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Indonesian business and investment legal research with cited regulations, officially free, with published daily and weekly usage caps.",
+  "description": "Kawung (kawung.id) is a legal-research tool for Indonesian business and investment law: you ask a question and get an explanation with article citations, or you search and read curated regulations (updated weekly, including selected regional rules). Official usage page (Batas pemakaian): it is free (gratis). Each visitor has daily and weekly allowances so everyone can use it — quick research 5/day and 30/week, in-depth research 5/day and 30/week, regulation search 100/day, documents opened 50/day, browse/tool pages 600/day. Daily caps reset at 00:00 WIB; weekly caps reset each Monday at 00:00 WIB. No paid plan is listed on the official pages checked. The interface is available in Indonesian and English.",
+  "categories": [
+    "legal"
+  ],
+  "tags": [
+    "legal",
+    "indonesia",
+    "research",
+    "compliance",
+    "business-law"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Officially free, with published daily and weekly caps (for example 5 quick and 5 in-depth researches per day). No paid plan is listed on the official pages checked.",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/kawung.png",
+  "image": "/screenshots/kawung.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Indonesian business and investment legal research with cited regulations",
+    "Officially free with published usage caps",
+    "Weekly regulation updates",
+    "Indonesian and English interface"
+  ],
+  "howToUse": [
+    {
+      "title": "Open kawung.id, type a business or investment-law question or search a regulation, and...",
+      "description": "Open kawung.id, type a business or investment-law question or search a regulation, and read the cited answer. No purchase is required; stay within the published caps.",
+      "links": [
+        {
+          "label": "Kawung",
+          "url": "https://kawung.id/en"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://kawung.id/",
+    "https://kawung.id/batas-pemakaian"
+  ],
+  "summary_fr": "Un outil de recherche en droit des affaires et de l’investissement indonésien, avec citations des textes, officiellement gratuit, et des plafonds d’usage publiés.",
+  "description_fr": "Un outil de recherche en droit des affaires et de l’investissement indonésien, avec citations des textes, officiellement gratuit, et des plafonds d’usage publiés.",
+  "features_fr": [
+    "Recherche en droit des affaires et de l’investissement indonésien, avec citations",
+    "Officiellement gratuit, avec plafonds d’usage publiés",
+    "Mises à jour hebdomadaires des textes",
+    "Interface en indonésien et en anglais"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre kawung.id, pose une question de droit des affaires ou de l’investissement ou...",
+      "description": "Ouvre kawung.id, pose une question de droit des affaires ou de l’investissement ou cherche un texte, et lis la réponse citée. Aucun achat n’est demandé ; reste dans les plafonds publiés.",
+      "links": [
+        {
+          "label": "Kawung",
+          "url": "https://kawung.id/en"
+        }
+      ]
+    }
+  ]
+}

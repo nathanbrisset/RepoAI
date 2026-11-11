@@ -1,0 +1,88 @@
+{
+  "id": "unmerge",
+  "name": "Unmerge",
+  "url": "https://unmerge.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Splits a flat image into movable layers (up to 17), sold per image, as a credit pack, or on a monthly Pro or Ultra plan.",
+  "description": "Unmerge splits a flat image into movable layers (at most 17, background included) and exports a layered PSD, PNG ZIP and composite PNG. Samples are free with no account; a confirmed email gets one free watermarked preview of your own image. Unused subscription credits expire at the end of each month. You need at least 5 credits to start a credit-priced split.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "image-editing",
+    "layers",
+    "psd",
+    "design",
+    "credits"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://unmerge.app/pricing",
+    "details": "Free samples; one free watermarked preview of your own image with a confirmed email. Single split 3 € once (3 € at 2K), no account, refunded if three tries return no layers. Pack 22 € for 340 credits (never expire). Pro 19 €/month; Ultra 32 €/month (2K layers for one credit). Unused subscription credits expire each month.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/unmerge.png",
+  "image": "/screenshots/unmerge.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Splits a flat image into up to 17 movable layers",
+    "Exports layered PSD, PNG ZIP and composite PNG",
+    "Free samples and a watermarked preview",
+    "Failed splits are not charged"
+  ],
+  "howToUse": [
+    {
+      "title": "Open unmerge.app and try a free sample, or pay once for your own image with no account.",
+      "description": "Open unmerge.app and try a free sample, or pay once for your own image with no account.",
+      "links": [
+        {
+          "label": "Unmerge",
+          "url": "https://unmerge.app/"
+        }
+      ]
+    },
+    {
+      "title": "Export a layered PSD, PNG ZIP or composite PNG.",
+      "description": "Export a layered PSD, PNG ZIP or composite PNG."
+    },
+    {
+      "title": "Buy the credit pack or subscribe to Pro or Ultra if you split images often.",
+      "description": "Buy the credit pack or subscribe to Pro or Ultra if you split images often."
+    }
+  ],
+  "sources": [
+    "https://unmerge.app/",
+    "https://unmerge.app/pricing"
+  ],
+  "summary_fr": "Sépare une image plate en calques déplaçables (jusqu’à 17), en paiement à l’image, en pack de crédits, ou en abonnement Pro ou Ultra.",
+  "description_fr": "Sépare une image plate en calques déplaçables (jusqu’à 17), en paiement à l’image, en pack de crédits, ou en abonnement Pro ou Ultra.",
+  "features_fr": [
+    "Sépare une image plate en jusqu’à 17 calques déplaçables",
+    "Export PSD calqué, ZIP PNG et PNG composite",
+    "Échantillons gratuits et aperçu filigrané",
+    "Les splits qui échouent ne sont pas facturés"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre unmerge.app et essaie un échantillon gratuit, ou paie une fois pour ta propre...",
+      "description": "Ouvre unmerge.app et essaie un échantillon gratuit, ou paie une fois pour ta propre image, sans compte.",
+      "links": [
+        {
+          "label": "Unmerge",
+          "url": "https://unmerge.app/"
+        }
+      ]
+    },
+    {
+      "title": "Exporte un PSD calqué, un ZIP PNG ou un PNG composite.",
+      "description": "Exporte un PSD calqué, un ZIP PNG ou un PNG composite."
+    },
+    {
+      "title": "Achète le pack de crédits ou abonne-toi à Pro ou Ultra si tu sépares souvent des images.",
+      "description": "Achète le pack de crédits ou abonne-toi à Pro ou Ultra si tu sépares souvent des images."
+    }
+  ]
+}

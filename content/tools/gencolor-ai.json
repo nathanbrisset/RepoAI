@@ -1,0 +1,90 @@
+{
+  "id": "gencolor-ai",
+  "name": "GenColor AI",
+  "url": "https://gencolor.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns a photo or a text prompt into printable coloring pages, on Basic, Plus and Studio monthly plans.",
+  "description": "GenColor AI generates printable coloring pages from a photo or a text prompt, with PNG and PDF export. Two variations per generation are included on the listed plans.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "coloring-pages",
+    "design",
+    "print",
+    "illustration",
+    "image-generation"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://gencolor.ai/pricing",
+    "details": "Basic 9 €/month (180 generations, 360 pages, personal use); Plus 18 €/month (500 generations, 1,000 pages, background/watermark removal, batch and 4x upscale); Studio 44 €/month (1,500 generations, 3,000 pages, commercial rights). Limited-time official promo: 40% off annual, shown as 5 € / 11 € / 27 € per month equivalent.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/gencolor-ai.png",
+  "image": "/screenshots/gencolor-ai.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Photo or text prompt to printable coloring pages",
+    "PNG and PDF export",
+    "Two variations per generation",
+    "Commercial rights on Studio",
+    "Limited-time official annual promo"
+  ],
+  "howToUse": [
+    {
+      "title": "Open gencolor.ai and upload a photo or type a prompt.",
+      "description": "Open gencolor.ai and upload a photo or type a prompt.",
+      "links": [
+        {
+          "label": "GenColor AI",
+          "url": "https://gencolor.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Generate a printable coloring page and export PNG or PDF.",
+      "description": "Generate a printable coloring page and export PNG or PDF."
+    },
+    {
+      "title": "Subscribe to Basic, Plus or Studio (monthly or the annual promo shown on the pricing...",
+      "description": "Subscribe to Basic, Plus or Studio (monthly or the annual promo shown on the pricing page)."
+    }
+  ],
+  "sources": [
+    "https://gencolor.ai/",
+    "https://gencolor.ai/pricing"
+  ],
+  "summary_fr": "Transforme une photo ou un prompt en coloriages imprimables, via les offres mensuelles Basic, Plus et Studio.",
+  "description_fr": "Transforme une photo ou un prompt en coloriages imprimables, via les offres mensuelles Basic, Plus et Studio.",
+  "features_fr": [
+    "Photo ou prompt transformés en coloriages imprimables",
+    "Export PNG et PDF",
+    "Deux variations par génération",
+    "Droits commerciaux sur Studio",
+    "Promo annuelle officielle limitée"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre gencolor.ai et envoie une photo ou saisis un prompt.",
+      "description": "Ouvre gencolor.ai et envoie une photo ou saisis un prompt.",
+      "links": [
+        {
+          "label": "GenColor AI",
+          "url": "https://gencolor.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Génère un coloriage imprimable et exporte-le en PNG ou PDF.",
+      "description": "Génère un coloriage imprimable et exporte-le en PNG ou PDF."
+    },
+    {
+      "title": "Abonne-toi à Basic, Plus ou Studio (mensuel ou promo annuelle affichée sur la page des...",
+      "description": "Abonne-toi à Basic, Plus ou Studio (mensuel ou promo annuelle affichée sur la page des tarifs)."
+    }
+  ]
+}

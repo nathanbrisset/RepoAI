@@ -1,0 +1,74 @@
+{
+  "id": "klipa-ai",
+  "name": "Klipa AI",
+  "url": "https://klipa.ai/en/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A browser video toolkit that turns long videos into vertical clips with animated subtitles, silence and filler removal, dubbing and AI-written scripts.",
+  "description": "A browser video toolkit that turns long videos into vertical clips with animated subtitles, silence and filler removal, dubbing and AI-written scripts.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "video-clips",
+    "subtitles",
+    "shorts",
+    "video-editing",
+    "dubbing"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://klipa.ai/en/pricing",
+    "details": "Free trial credits (10 without an account + 10 with a free account, per tool; Klipa logo on the output). Pro 14.99 €/month or 9.90 €/month billed 118.80 €/year; Studio 39 €/month or 33 €/month billed 396 €/year. Official euro prices.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/klipa-ai.png",
+  "image": "/screenshots/klipa-ai.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Turns long videos into vertical clips",
+    "Animated subtitles, silence and filler removal",
+    "Dubbing in 32 languages and AI-written scripts",
+    "Klipa Studio editor",
+    "Trial credits with a logo on the output"
+  ],
+  "howToUse": [
+    {
+      "title": "Upload a video on klipa.ai, pick a tool (AI clips, subtitles, reframe), export the...",
+      "description": "Upload a video on klipa.ai, pick a tool (AI clips, subtitles, reframe), export the result, and subscribe to Pro or Studio to remove the logo and get monthly credits.",
+      "links": [
+        {
+          "label": "Klipa AI",
+          "url": "https://klipa.ai/en/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://theresanaiforthat.com/just-launched/",
+    "https://klipa.ai/en/pricing"
+  ],
+  "summary_fr": "Une boîte à outils vidéo en ligne qui transforme les vidéos longues en clips verticaux avec sous-titres animés, suppression des silences et hésitations, doublage et scripts écrits par IA.",
+  "description_fr": "Une boîte à outils vidéo en ligne qui transforme les vidéos longues en clips verticaux avec sous-titres animés, suppression des silences et hésitations, doublage et scripts écrits par IA.",
+  "features_fr": [
+    "Transforme les vidéos longues en clips verticaux",
+    "Sous-titres animés, suppression des silences et des hésitations",
+    "Doublage en 32 langues et scripts écrits par IA",
+    "Éditeur Klipa Studio",
+    "Crédits d’essai, avec logo sur l’export"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Envoie une vidéo sur klipa.ai, choisis un outil (clips IA, sous-titres, recadrage),...",
+      "description": "Envoie une vidéo sur klipa.ai, choisis un outil (clips IA, sous-titres, recadrage), exporte le résultat, et abonne-toi à Pro ou Studio pour retirer le logo et avoir des crédits mensuels.",
+      "links": [
+        {
+          "label": "Klipa AI",
+          "url": "https://klipa.ai/en/"
+        }
+      ]
+    }
+  ]
+}

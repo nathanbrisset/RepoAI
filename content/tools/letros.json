@@ -1,0 +1,100 @@
+{
+  "id": "letros",
+  "name": "Letros",
+  "url": "https://letros.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns textbook photos, PDFs or Word files into interactive language lessons, live classes and homework checks for teachers and schools.",
+  "description": "Letros is a web platform for language teachers and schools: classes, courses and homework in one place. You can turn a textbook photo, PDF or Word file into interactive exercises and check handwritten essays against Cambridge criteria. Students never pay. Every plan has every feature. Yearly billing is offered at 25% off. Official copy also says any plan is free until 31 December 2026, with no card. The legal name on the site is TOTORO TEACHER DOO BAR (Bar, Montenegro).",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "education",
+    "language-learning",
+    "teachers",
+    "schools",
+    "homework"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://letros.app/pricing",
+    "details": "Free forever (up to 4 students); Teacher 11 €/month (up to 50 students); school plans 26 € / 48 € / 70 € / 106 € / 142 €/month (up to 20 / 50 / 100 / 200 / 300 students, unlimited teachers). Students never pay. Every plan has every feature. Yearly billing 25% off (yearly totals not published). Launch offer: any plan free until 31 December 2026, no card. Plus VAT where applicable.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/letros.png",
+  "image": "/screenshots/letros.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Textbook photo, PDF or Word to interactive exercises",
+    "Handwritten essay check against Cambridge criteria",
+    "Classes, courses and homework in one place",
+    "Students never pay",
+    "Launch offer until 31 December 2026"
+  ],
+  "howToUse": [
+    {
+      "title": "Open letros.app and start on the Free plan (up to 4 students), or use the launch offer...",
+      "description": "Open letros.app and start on the Free plan (up to 4 students), or use the launch offer with no card.",
+      "links": [
+        {
+          "label": "Letros",
+          "url": "https://letros.app/"
+        }
+      ]
+    },
+    {
+      "title": "Upload a textbook page, PDF or Word file to generate interactive exercises.",
+      "description": "Upload a textbook page, PDF or Word file to generate interactive exercises."
+    },
+    {
+      "title": "Run a class and check handwritten essays against Cambridge criteria.",
+      "description": "Run a class and check handwritten essays against Cambridge criteria."
+    },
+    {
+      "title": "Upgrade to Teacher or a school plan if you need more students.",
+      "description": "Upgrade to Teacher or a school plan if you need more students."
+    }
+  ],
+  "hqCountry": "ME",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://letros.app/",
+    "https://letros.app/pricing"
+  ],
+  "summary_fr": "Transforme une photo de manuel, un PDF ou un fichier Word en leçons de langue interactives, cours en direct et corrections de devoirs, pour profs et écoles.",
+  "description_fr": "Transforme une photo de manuel, un PDF ou un fichier Word en leçons de langue interactives, cours en direct et corrections de devoirs, pour profs et écoles.",
+  "features_fr": [
+    "Photo de manuel, PDF ou Word transformés en exercices interactifs",
+    "Correction de copies manuscrites selon les critères Cambridge",
+    "Cours, parcours et devoirs au même endroit",
+    "Les élèves ne paient jamais",
+    "Offre de lancement jusqu’au 31 décembre 2026"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre letros.app et commence sur l’offre Gratuite (jusqu’à 4 élèves), ou profite de...",
+      "description": "Ouvre letros.app et commence sur l’offre Gratuite (jusqu’à 4 élèves), ou profite de l’offre de lancement sans carte.",
+      "links": [
+        {
+          "label": "Letros",
+          "url": "https://letros.app/"
+        }
+      ]
+    },
+    {
+      "title": "Envoie une page de manuel, un PDF ou un fichier Word pour générer des exercices...",
+      "description": "Envoie une page de manuel, un PDF ou un fichier Word pour générer des exercices interactifs."
+    },
+    {
+      "title": "Anime un cours et fais corriger les copies manuscrites selon les critères Cambridge.",
+      "description": "Anime un cours et fais corriger les copies manuscrites selon les critères Cambridge."
+    },
+    {
+      "title": "Passe à Teacher ou à une offre école si tu as besoin de plus d’élèves.",
+      "description": "Passe à Teacher ou à une offre école si tu as besoin de plus d’élèves."
+    }
+  ]
+}

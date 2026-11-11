@@ -1,0 +1,74 @@
+{
+  "id": "distributemusic-ai",
+  "name": "DistributeMusic.AI",
+  "url": "https://distributemusic.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Distributes music made with Suno, Udio, ElevenLabs or any AI engine to Spotify, Apple Music, TikTok and 150+ stores, with automatic AI disclosure.",
+  "description": "Distributes music made with Suno, Udio, ElevenLabs or any AI engine to Spotify, Apple Music, TikTok and 150+ stores, with automatic AI disclosure.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "music-distribution",
+    "ai-music",
+    "spotify",
+    "royalties",
+    "suno"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://distributemusic.ai/pricing",
+    "details": "Starter 0 €/year (1 single/year, 85% royalties). Pro 9 €/year official limited-time promo (50% off the 18 € list price; unlimited releases, 100% royalties). Label 45 €/year. API 88 €/month or 891 €/year.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/distributemusic-ai.png",
+  "image": "/screenshots/distributemusic-ai.webp",
+  "dateAdded": "2026-11-11",
+  "lastVerified": "2026-11-11",
+  "features": [
+    "Distributes AI-made music to 150+ stores including Spotify, Apple Music and TikTok",
+    "Automatic AI disclosure, free ISRC and UPC",
+    "Built-in AI song generator on Pro",
+    "Pre-saves; label name, EPs and albums on Label",
+    "Distribution API"
+  ],
+  "howToUse": [
+    {
+      "title": "Create a free account on distributemusic.ai, upload your AI track and artwork, fill in...",
+      "description": "Create a free account on distributemusic.ai, upload your AI track and artwork, fill in the release details and submit; upgrade to Pro for unlimited releases and 100% royalties.",
+      "links": [
+        {
+          "label": "DistributeMusic.AI",
+          "url": "https://distributemusic.ai/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://theresanaiforthat.com/just-launched/",
+    "https://distributemusic.ai/pricing"
+  ],
+  "summary_fr": "Distribue la musique créée avec Suno, Udio, ElevenLabs ou tout moteur IA vers Spotify, Apple Music, TikTok et plus de 150 plateformes, avec déclaration IA automatique.",
+  "description_fr": "Distribue la musique créée avec Suno, Udio, ElevenLabs ou tout moteur IA vers Spotify, Apple Music, TikTok et plus de 150 plateformes, avec déclaration IA automatique.",
+  "features_fr": [
+    "Distribue la musique IA vers plus de 150 plateformes, dont Spotify, Apple Music et TikTok",
+    "Déclaration IA automatique, ISRC et UPC offerts",
+    "Générateur de morceaux IA intégré sur Pro",
+    "Pre-saves ; nom de label, EP et albums sur Label",
+    "API de distribution"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Crée un compte gratuit sur distributemusic.ai, envoie ton morceau IA et la pochette,...",
+      "description": "Crée un compte gratuit sur distributemusic.ai, envoie ton morceau IA et la pochette, remplis les infos de sortie et soumets ; passe à Pro pour des sorties illimitées et 100 % de royalties.",
+      "links": [
+        {
+          "label": "DistributeMusic.AI",
+          "url": "https://distributemusic.ai/"
+        }
+      ]
+    }
+  ]
+}
