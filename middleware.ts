@@ -30,9 +30,14 @@ function localizedCategoryPath(locale: "en" | "fr", categoryId: string): string 
 
 const NOT_FOUND_CACHE = "private, no-cache, no-store, max-age=0, must-revalidate"
 
-function pathHasFileExtension(pathname: string): boolean {
-  const segment = pathname.split("/").pop() ?? ""
-  return /\.[A-Za-z0-9]+$/.test(segment)
+function plainNotFoundResponse(): NextResponse {
+  return new NextResponse("Not found", {
+    status: 404,
+    headers: {
+      "Content-Type": "text/plain; charset=utf-8",
+      "Cache-Control": "no-store",
+    },
+  })
 }
 
 export async function middleware(request: NextRequest) {
@@ -96,10 +101,6 @@ export async function middleware(request: NextRequest) {
   }
 
   if (!isKnownPagePath(pathname)) {
-    if (pathHasFileExtension(pathname)) {
-      return new NextResponse("Not found", { status: 404 })
-    }
-
     const french = localeFromPathname(pathname) === "fr"
     const target = french ? "/fr/404-page" : "/404-page"
     if (request.method === "GET" || request.method === "HEAD") {
@@ -114,6 +115,7 @@ export async function middleware(request: NextRequest) {
     try {
       const pageUrl = new URL(target, request.url)
       const page = await fetch(pageUrl, { headers: { Accept: "text/html" } })
+      if (!page.ok) return plainNotFoundResponse()
       const html = await page.text()
       return new NextResponse(html, {
         status: 404,
@@ -123,10 +125,7 @@ export async function middleware(request: NextRequest) {
         },
       })
     } catch {
-      return new NextResponse("Not found", {
-        status: 404,
-        headers: { "Content-Type": "text/plain; charset=utf-8" },
-      })
+      return plainNotFoundResponse()
     }
   }
 
@@ -135,6 +134,6 @@ export async function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    "/((?!_next/static|_next/image|favicon.ico|apple-icon.png|icon.png|sitemap.xml|robots.txt|opengraph-image|twitter-image|logos(?:/|$)|brand(?:/|$)|screenshots(?:/|$)|tool-screenshots(?:/|$)).*)",
+    "/((?!_next/static|_next/image|favicon.ico|apple-icon.png|icon.png|sitemap.xml|robots.txt|opengraph-image|twitter-image|logos(?:/|$)|brand(?:/|$)|screenshots(?:/|$)|tool-screenshots(?:/|$)|.*\\.[\\w]+$).*)",
   ],
 }
