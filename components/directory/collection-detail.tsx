@@ -44,13 +44,14 @@ export function CollectionDetail({ collection, recipes = [] }: { collection: Res
             </article>
           ))}
         </div>
-      ) : (
-        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      ) : null}
+      {collection.tools.length > 0 ? (
+        <div className={`grid gap-4 sm:grid-cols-2 lg:grid-cols-3${editorial ? " mt-12" : " mt-10"}`}>
           {collection.tools.map((tool, index) => (
             <ToolCard key={tool.id} tool={tool} index={index} />
           ))}
         </div>
-      )}
+      ) : null}
       {shortsTeaser && recipes.length === 0 ? (
         <section className="mt-16 rounded-3xl bg-foreground p-8 text-background">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-accent">{t.recipesKicker}</p>
