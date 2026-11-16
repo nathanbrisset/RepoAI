@@ -120,6 +120,37 @@
       "catalogue"
     ]
   },
+  "2short-ai": {
+    "summary_fr": "Outil de découpage IA qui transforme une longue vidéo YouTube en Shorts, TikToks et Reels en extrayant les moments parlants les plus forts.",
+    "description_fr": "Outil de découpage IA qui transforme une longue vidéo YouTube en Shorts, TikToks et Reels en extrayant les moments parlants les plus forts.",
+    "features_fr": [
+      "Transforme une longue vidéo YouTube en Shorts, TikToks et Reels en extrayant les moments parlants les plus forts",
+      "Suivi du visage et export de clips courts ; Google Drive et URL publiques sur les offres payantes",
+      "Gratuit : 30 minutes d’analyse IA par mois",
+      "Lite, Pro ou Premium pour plus d’heures et des exports serveur plus rapides"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre 2short.ai, crée un compte gratuit et colle un lien YouTube.",
+        "description": "Ouvre 2short.ai, crée un compte gratuit et colle un lien YouTube.",
+        "links": [
+          {
+            "label": "2short.ai",
+            "url": "https://2short.ai/"
+          }
+        ]
+      },
+      {
+        "title": "Utilise les 30 minutes d’analyse offertes et exporte les clips déjà générés.",
+        "description": "Utilise les 30 minutes d’analyse offertes et exporte les clips déjà générés."
+      },
+      {
+        "title": "Passe à Lite, Pro ou Premium si tu as besoin de plus d’heures, d’imports Google Drive et...",
+        "description": "Passe à Lite, Pro ou Premium si tu as besoin de plus d’heures, d’imports Google Drive et d’exports plus rapides."
+      }
+    ],
+    "pricingNote_fr": "Gratuit — crée un compte gratuit, 30 minutes d’analyse vidéo IA par mois, visualisation et export des clips déjà générés, accès à toutes les fonctions. Lite 9 €/mois — tout Starter, 5 heures d’analyse vidéo IA par mois, 60 minutes d’exports rapides côté serveur par mois, imports depuis Google Drive et URL publiques, sans publicité. Pro 18 €/mois — tout Lite, 15 heures d’analyse IA par mois, exports rapides illimités. Premium 45 €/mois — tout Pro, 50 heures d’analyse IA par mois, support prioritaire et accès aux dernières fonctions bêta. La carte Lite dit « Everything in Starter » alors que l’offre gratuite s’intitule « Free » sur la même page — libellé officiel, aucun palier Starter inventé."
+  },
   "abacus-chatllm": {
     "summary_fr": "Un abonnement unique pour accéder à de nombreux modèles d'IA et agents.",
     "description_fr": "ChatLLM d'Abacus.AI regroupe dans une seule interface les principaux modèles de langage et de génération d'images, avec un routage automatique vers le modèle le plus adapté. L'offre inclut aussi des agents capables de chercher sur le web, d'analyser des documents ou de créer des applications simples.",
@@ -523,6 +554,47 @@
       "vidéo publicités"
     ]
   },
+  "adobe_firefly": {
+    "summary_fr": "Adobe Firefly est le modèle d'IA générative d'Adobe pour les professionnels de la création. Il permet la génération d'images, les effets de texte et la création de vecteurs à partir de prompts en langage naturel. Profondément intégré à Adobe Creative Cloud, Firefly permet aux designers de prototyper rapidement et d'améliorer leurs projets avec des visuels par IA, conçus pour un usage commercial.",
+    "description_fr": "Adobe Firefly est le modèle d'IA générative d'Adobe pour les professionnels de la création. Il permet la génération d'images, les effets de texte et la création de vecteurs à partir de prompts en langage naturel. Profondément intégré à Adobe Creative Cloud, Firefly permet aux designers de prototyper rapidement et d'améliorer leurs projets avec des visuels par IA, conçus pour un usage commercial. Texte vers image : Crée des images à partir de descriptions. Effets de texte : Applique des styles uniques au texte pour l'image de marque. Génération vectorielle : Produit de l'art vectoriel avec l'aide de l'IA. Intégration fluide : Fonctionne dans Adobe Photoshop et Illustrator.",
+    "features_fr": [
+      "Text-to-Image : créez des images à partir de descriptions.",
+      "Effets de texte : appliquez des styles uniques au texte pour la personnalisation.",
+      "Génération de vecteurs : produisez des œuvres d'art vectorielles avec l'aide de l'IA.",
+      "Intégration transparente : fonctionne avec Adobe Photoshop et Illustrator."
+    ],
+    "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
+    "howToUse_fr": [
+      {
+        "title": "Ouvre Adobe Firefly",
+        "description": "Rends-toi sur firefly.adobe.com pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.",
+        "links": [
+          {
+            "label": "Adobe Firefly",
+            "url": "https://firefly.adobe.com/"
+          }
+        ]
+      },
+      {
+        "title": "Configure ton espace",
+        "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
+      },
+      {
+        "title": "Lance un premier usage",
+        "description": "Commence par : adobe Firefly est le modèle d'IA générative d'Adobe pour les professionnels de la création. Il permet la génération d'images, les effets de texte et la création de vecteurs à partir de prompts en langage naturel. Profondément intégré à Adobe Creative Cloud, Firefly permet aux designers de prototyper rapidement et d'améliorer leurs projets avec des visuels par IA, conçus pour un usage commercial."
+      },
+      {
+        "title": "Contrôle le résultat",
+        "description": "Exporte, partagez ou connectez ton environnement existant avant d'étendre l'usage en équipe."
+      }
+    ],
+    "tags_fr": [
+      "adobe",
+      "IA art",
+      "créatif cloud",
+      "texte effets"
+    ]
+  },
   "adobe-acrobat-ai-assistant": {
     "summary_fr": "Résume les PDF et répond à tes questions sur leur contenu, dans Acrobat.",
     "description_fr": "L'assistant IA d'Acrobat lit un ou plusieurs PDF pour en produire un résumé, répondre à des questions avec des renvois vers les passages sources et générer des brouillons de texte. Il fonctionne dans Acrobat et Reader, sur ordinateur, web et mobile.",
@@ -764,47 +836,6 @@
       "generative",
       "vidéo édition",
       "adobe"
-    ]
-  },
-  "adobe_firefly": {
-    "summary_fr": "Adobe Firefly est le modèle d'IA générative d'Adobe pour les professionnels de la création. Il permet la génération d'images, les effets de texte et la création de vecteurs à partir de prompts en langage naturel. Profondément intégré à Adobe Creative Cloud, Firefly permet aux designers de prototyper rapidement et d'améliorer leurs projets avec des visuels par IA, conçus pour un usage commercial.",
-    "description_fr": "Adobe Firefly est le modèle d'IA générative d'Adobe pour les professionnels de la création. Il permet la génération d'images, les effets de texte et la création de vecteurs à partir de prompts en langage naturel. Profondément intégré à Adobe Creative Cloud, Firefly permet aux designers de prototyper rapidement et d'améliorer leurs projets avec des visuels par IA, conçus pour un usage commercial. Texte vers image : Crée des images à partir de descriptions. Effets de texte : Applique des styles uniques au texte pour l'image de marque. Génération vectorielle : Produit de l'art vectoriel avec l'aide de l'IA. Intégration fluide : Fonctionne dans Adobe Photoshop et Illustrator.",
-    "features_fr": [
-      "Text-to-Image : créez des images à partir de descriptions.",
-      "Effets de texte : appliquez des styles uniques au texte pour la personnalisation.",
-      "Génération de vecteurs : produisez des œuvres d'art vectorielles avec l'aide de l'IA.",
-      "Intégration transparente : fonctionne avec Adobe Photoshop et Illustrator."
-    ],
-    "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
-    "howToUse_fr": [
-      {
-        "title": "Ouvre Adobe Firefly",
-        "description": "Rends-toi sur firefly.adobe.com pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.",
-        "links": [
-          {
-            "label": "Adobe Firefly",
-            "url": "https://firefly.adobe.com/"
-          }
-        ]
-      },
-      {
-        "title": "Configure ton espace",
-        "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
-      },
-      {
-        "title": "Lance un premier usage",
-        "description": "Commence par : adobe Firefly est le modèle d'IA générative d'Adobe pour les professionnels de la création. Il permet la génération d'images, les effets de texte et la création de vecteurs à partir de prompts en langage naturel. Profondément intégré à Adobe Creative Cloud, Firefly permet aux designers de prototyper rapidement et d'améliorer leurs projets avec des visuels par IA, conçus pour un usage commercial."
-      },
-      {
-        "title": "Contrôle le résultat",
-        "description": "Exporte, partagez ou connectez ton environnement existant avant d'étendre l'usage en équipe."
-      }
-    ],
-    "tags_fr": [
-      "adobe",
-      "IA art",
-      "créatif cloud",
-      "texte effets"
     ]
   },
   "aeterna": {
@@ -2098,6 +2129,37 @@
     ],
     "pricingNote_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
+  "anara": {
+    "summary_fr": "Espace de recherche IA (nouveau nom officiel d’Unriddle) pour déposer des articles, discuter avec les sources et collaborer sur une revue de littérature.",
+    "description_fr": "Espace de recherche IA (nouveau nom officiel d’Unriddle) pour déposer des articles, discuter avec les sources et collaborer sur une revue de littérature.",
+    "features_fr": [
+      "Rebrand officiel d’Unriddle : discussion et édition sur des articles envoyés",
+      "Gratuit : connecteurs Zotero et Mendeley, usage limité, sans carte",
+      "Plus ajoute des bases scientifiques (dont PubMed et ClinicalTrials.gov) ; Pro ajoute l’OCR, le choix des modèles et des connecteurs cloud ; Max ajoute Deep Search et Model Council",
+      "Les tarifs par siège viennent de la FAQ officielle (Plus / Pro / Max 5x / Max 20x)"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre anara.com et crée un compte Gratuit, sans carte.",
+        "description": "Ouvre anara.com et crée un compte Gratuit, sans carte.",
+        "links": [
+          {
+            "label": "Anara",
+            "url": "https://anara.com/"
+          }
+        ]
+      },
+      {
+        "title": "Envoie un article et discute avec, en utilisant le connecteur Zotero ou Mendeley si tu...",
+        "description": "Envoie un article et discute avec, en utilisant le connecteur Zotero ou Mendeley si tu veux."
+      },
+      {
+        "title": "Passe à Plus, Pro ou Max si tu as besoin de plus d’usage, d’envois plus lourds ou des...",
+        "description": "Passe à Plus, Pro ou Max si tu as besoin de plus d’usage, d’envois plus lourds ou des connecteurs de recherche — les tarifs repris ici viennent de la FAQ officielle."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 €, sans carte — usage IA et envois limités, 20 Mo ou 120 pages par envoi, connecteurs Zotero et Mendeley. Plus 9 €/mois, ou 7 €/mois facturés à l’année. Pro 18 €/mois, ou 14 €/mois facturés à l’année. Max 5x 90 €/mois, ou 72 €/mois facturés à l’année. Max 20x 181 €/mois, ou 145 €/mois facturés à l’année. Tous les tarifs payants sont par siège, d’après la FAQ officielle. Enterprise est sur mesure (contacter les ventes)."
+  },
   "anima": {
     "summary_fr": "Anima fait le lien entre design et développement en convertissant les designs Figma, Adobe XD et Sketch en code React, HTML et CSS adapté aux développeurs. Il simplifie la passation, prend en charge le prototypage avec des données réelles et améliore le flux de travail des équipes produit.",
     "description_fr": "Anima fait le lien entre design et développement en convertissant les designs Figma, Adobe XD et Sketch en code React, HTML et CSS adapté aux développeurs. Il simplifie la passation, prend en charge le prototypage avec des données réelles et améliore le flux de travail des équipes produit. Anima est l'agent d'IA attentif au design qui relie créativité et code. À partir de fichiers Figma, d'URL ou de prompts, Anima génère de vraies applications prêtes pour la production, pour les équipes produit qui construisent directement, ou pour les plateformes de code qui s'intègrent via API. Sert de moteur à Bolt.new et Replit. Design vers code : Convertissez les designs en React, HTML et CSS. Prototypage avec des données réelles : Utilise de vraies API dans les prototypes. Mises à jour automatiques du code : Synchronisez instantanément les changements de design. Collaboration : Commentez et itérez avec les équipes.",
@@ -2927,6 +2989,37 @@
       "questions de code"
     ]
   },
+  "askyourpdf": {
+    "summary_fr": "Chatbot IA pour PDF et sites web : entraîne un agent sur tes documents, discute avec eux et intègre les réponses pour tes visiteurs.",
+    "description_fr": "Chatbot IA pour PDF et sites web : entraîne un agent sur tes documents, discute avec eux et intègre les réponses pour tes visiteurs.",
+    "features_fr": [
+      "Entraîne un agent IA sur des documents ou des sites, et discute avec eux",
+      "Conversations visiteur à intégrer, plus extension Chrome et OCR sur les offres payantes",
+      "Gratuit : jusqu’à 5 documents, 50 questions par jour, GPT-5 Mini",
+      "Premium ou Pro, au mois ou à l’année ; Enterprise est sur mesure"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre askyourpdf.com et commence en Gratuit, avec jusqu’à 5 documents et 50 questions par...",
+        "description": "Ouvre askyourpdf.com et commence en Gratuit, avec jusqu’à 5 documents et 50 questions par jour.",
+        "links": [
+          {
+            "label": "AskYourPDF",
+            "url": "https://askyourpdf.com/"
+          }
+        ]
+      },
+      {
+        "title": "Envoie un PDF ou un site et discute avec, ou intègre les réponses pour tes visiteurs.",
+        "description": "Envoie un PDF ou un site et discute avec, ou intègre les réponses pour tes visiteurs."
+      },
+      {
+        "title": "Passe à Premium ou Pro si tu as besoin de plus de pages, de conversations visiteur et de...",
+        "description": "Passe à Premium ou Pro si tu as besoin de plus de pages, de conversations visiteur et de modèles."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 € — entraîne un agent sur jusqu’à 5 documents ou sites, 3 conversations visiteur par jour, jusqu’à 100 pages par document, 15 Mo max, 1 document par jour, 50 questions par jour, GPT-5 Mini. Premium 14 €/mois ou 11 €/mois facturés à l’année — jusqu’à 10 documents ou sites, 50 conversations visiteur par jour, 2 500 pages, 31 Mo, 50 documents par jour, 1 200 questions par jour, davantage de modèles (certains avec crédits), base de connaissances, résumé, 10 crédits offerts une fois, extension Chrome, OCR. Pro 18 €/mois ou 14 €/mois facturés à l’année — jusqu’à 20 documents ou sites, 10 000 conversations visiteur par jour, 6 000 pages, 877 Mo, 150 documents par jour, 100 000 questions par jour, 30 crédits offerts une fois, plus questions illimitées via le plugin ChatGPT, réponses plus longues, support prioritaire et accès prioritaire aux nouvelles fonctions. Enterprise est sur mesure (parler aux ventes)."
+  },
   "assemblyai": {
     "summary_fr": "API de transcription et de compréhension de la parole pour développeurs.",
     "description_fr": "AssemblyAI propose des API pour transcrire l'audio enregistré ou en temps réel, avec identification des locuteurs, détection de langue et horodatage. Des fonctions d'analyse permettent ensuite de résumer, extraire des sujets ou appliquer un modèle de langage au contenu transcrit.",
@@ -3120,6 +3213,37 @@
       "audioshake"
     ],
     "pricingNote_fr": "Facturation à l'usage ; consulte la page tarifs pour les quotas et le détail."
+  },
+  "audo": {
+    "summary_fr": "Boîte à outils audio dans le navigateur pour améliorer, nettoyer, transcrire et générer du son : chaque outil est gratuit sur le début d’un fichier, puis crédits à l’usage.",
+    "description_fr": "Boîte à outils audio dans le navigateur pour améliorer, nettoyer, transcrire et générer du son : chaque outil est gratuit sur le début d’un fichier, puis crédits à l’usage.",
+    "features_fr": [
+      "Boîte à outils audio dans le navigateur : améliorer, nettoyer, transcrire et générer du son",
+      "Chaque outil est gratuit sur le début d’un fichier, sans inscription",
+      "Crédits à l’usage qui n’expirent pas, facturés seulement si la tâche réussit",
+      "Le pack 5 € / 500 crédits est réservé au premier achat — labellisé comme promo"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre audo.ai, dépose un fichier et utilise le quota gratuit sur le début du fichier...",
+        "description": "Ouvre audo.ai, dépose un fichier et utilise le quota gratuit sur le début du fichier, sans compte.",
+        "links": [
+          {
+            "label": "Audo",
+            "url": "https://audo.ai/"
+          }
+        ]
+      },
+      {
+        "title": "Choisis un outil d’amélioration, de retrait de bruit, de transcription ou de génération.",
+        "description": "Choisis un outil d’amélioration, de retrait de bruit, de transcription ou de génération."
+      },
+      {
+        "title": "Achète un pack de crédits si tu dois traiter un fichier entier — le pack 5 € / 500...",
+        "description": "Achète un pack de crédits si tu dois traiter un fichier entier — le pack 5 € / 500 crédits est réservé au premier achat, et les crédits n’expirent pas."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 €, sans inscription — chaque outil sur le début d’un fichier (jusqu’à une heure, avec des quotas gratuits quotidiens par outil, ex. audio enhancer : la première minute 3 fois par jour, puis 5 crédits/minute). Paiement à l’usage sur des fichiers entiers jusqu’à 10 heures, de 1 à 30 crédits par minute selon l’outil. Packs de crédits : 5 € / 500 crédits (premier achat seulement — une promo, pas le tarif de pack régulier), 9 € / 1 250 crédits (bonus +25 %), 23 € / 3 500 (+40 %), 45 € / 7 500 (+50 %), 90 € / 16 000 (+60 %). Les crédits n’expirent pas ; facturation seulement si la tâche réussit."
   },
   "augment-code": {
     "summary_fr": "Agents de codage et moteur de contexte pour les équipes de développement, vendus sous le nom de plateforme Cosmos.",
@@ -4579,6 +4703,37 @@
       "intégrations"
     ]
   },
+  "brain-fm": {
+    "summary_fr": "Service de musique fonctionnelle conçu pour t’aider à te concentrer, te détendre ou dormir, avec un essai gratuit optionnel avant un forfait mensuel ou annuel.",
+    "description_fr": "Service de musique fonctionnelle conçu pour t’aider à te concentrer, te détendre ou dormir, avec un essai gratuit optionnel avant un forfait mensuel ou annuel.",
+    "features_fr": [
+      "Musique fonctionnelle conçue pour t’aider à te concentrer, te détendre ou dormir",
+      "Positionnement scientifique sur le site officiel",
+      "Forfait mensuel ou annuel, avec un essai officiel « Try for Free »",
+      "Labellé Premium : l’essai n’est pas une offre gratuite durable"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre brain.fm et lance l’essai gratuit officiel si tu veux écouter d’abord.",
+        "description": "Ouvre brain.fm et lance l’essai gratuit officiel si tu veux écouter d’abord.",
+        "links": [
+          {
+            "label": "Brain.fm",
+            "url": "https://www.brain.fm/"
+          }
+        ]
+      },
+      {
+        "title": "Choisis une session pour te concentrer, te détendre ou dormir.",
+        "description": "Choisis une session pour te concentrer, te détendre ou dormir."
+      },
+      {
+        "title": "Continue sur le forfait mensuel à 14 € ou le forfait annuel à 90 €...",
+        "description": "Continue sur le forfait mensuel à 14 € ou le forfait annuel à 90 € (résiliable à tout moment)."
+      }
+    ],
+    "pricingNote_fr": "14 €/mois facturés au mois ; forfait annuel 90 €/an facturés à l’année. Le parcours « Try for Free » est décrit comme se poursuivant ensuite à 90 € facturés à l’année, résiliable à tout moment. Une réduction étudiant mentionnée ailleurs n’était pas clairement reprise dans cet extrait tarifaire et n’est pas listée. Aucune offre 0 € durable n’était indiquée — labellé Premium."
+  },
   "brainly": {
     "summary_fr": "Plateforme d'aide aux devoirs avec explications sur l'IA, préparation aux tests et tutorat humain en option.",
     "description_fr": "Brainly aide les étudiants à faire leurs devoirs et transforme les sujets manqués en préparation aux tests, avec un conseiller d'apprentissage inclus et un tuteur humain hebdomadaire disponible en complément, selon la description de son site. Le service s'adresse aux parents d'adolescents ainsi qu'aux étudiants.",
@@ -5841,7 +5996,7 @@
         "description": "Passe à Starter, Pro, Business ou Enterprise quand le volume de contacts augmente."
       }
     ],
-    "pricingNote_fr": "Gratuit (100 contacts actifs, 3 flux, 3 canaux, branding Chat33), sans carte. Starter 17 €/mois (1 000 contacts, 2 membres d’équipe). Pro 44 €/mois (5 000 contacts, 5 membres, gestion de campagnes). Business 70 €/mois (25 000 contacts, 10 membres, suivi vidéo). Enterprise 177 €/mois (100 000 contacts, support dédié). Le dépassement officiel par contact actif supplémentaire est consigné seulement dans les notes non affichées (trop petit pour être affiché en euros entiers)."
+    "pricingNote_fr": "Gratuit (100 contacts actifs, 3 flux, 3 canaux, branding Chat33), sans carte. Starter 17 €/mois (1 000 contacts, 2 membres d’équipe). Pro 44 €/mois (5 000 contacts, 5 membres, gestion de campagnes). Business 70 €/mois (25 000 contacts, 10 membres, suivi vidéo). Enterprise 177 €/mois (100 000 contacts, support dédié)."
   },
   "chatbase": {
     "summary_fr": "Plateforme pour agents IA qui répondent aux questions des clients par chat, e-mail et voix.",
@@ -6512,6 +6667,37 @@
         "description": "ask your coding agent to create the animation and export or embed it."
       }
     ]
+  },
+  "cleanup-pictures": {
+    "summary_fr": "Outil d’inpainting IA qui retire objets, personnes ou texte indésirables d’une photo, dans le navigateur.",
+    "description_fr": "Outil d’inpainting IA qui retire objets, personnes ou texte indésirables d’une photo, dans le navigateur.",
+    "features_fr": [
+      "Retrait d’objets / inpainting IA dans le navigateur, sur ordinateur et mobile",
+      "Offre gratuite : images illimitées limitées à 720p, plus un essai HD",
+      "Pro : résolution illimitée et raffineur haute qualité",
+      "Un bundle ClipDrop Pro distinct est aussi annoncé sur la page tarifaire officielle."
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre cleanup.pictures et envoie une photo.",
+        "description": "Ouvre cleanup.pictures et envoie une photo.",
+        "links": [
+          {
+            "label": "Cleanup.pictures",
+            "url": "https://cleanup.pictures/"
+          }
+        ]
+      },
+      {
+        "title": "Passe le pinceau sur les objets, personnes ou textes à retirer.",
+        "description": "Passe le pinceau sur les objets, personnes ou textes à retirer."
+      },
+      {
+        "title": "Utilise le rendu gratuit en 720p ou l’essai HD, puis passe à Pro si tu as besoin d’images...",
+        "description": "Utilise le rendu gratuit en 720p ou l’essai HD, puis passe à Pro si tu as besoin d’images en toutes tailles."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 € — images illimitées, résolution limitée à 720p, plus un essai en qualité HD. Pro 5 €/mois ou 33 €/an (la page annuelle officielle indique aussi un équivalent de 3 €/mois) — images illimitées, résolution illimitée, raffineur haute qualité."
   },
   "cleanvoice": {
     "summary_fr": "Outil de nettoyage audio fondé sur l'IA, qui supprime les mots parasites, les bégaiements et le bruit de fond des enregistrements.",
@@ -9345,45 +9531,6 @@
       }
     ]
   },
-  "deep-nostalgia": {
-    "summary_fr": "MyHeritage Deep Nostalgia™, technologie de reconstitution vidéo pour animer les visages sur des photos fixes et créer des séquences vidéo réalistes et de haute qualité.",
-    "description_fr": "MyHeritage Deep Nostalgia™, technologie de reconstitution vidéo pour animer les visages sur des photos fixes et créer des séquences vidéo réalistes et de haute qualité. Animation de photos : donne vie aux anciennes photos avec des mouvements réalistes. Amélioration des expressions du visage : ajoute des expressions subtiles aux images statiques. Restauration par IA : améliore la qualité des photographies anciennes. Options de partage : partage facilement les photos animées sur les plateformes sociales.",
-    "features_fr": [
-      "Animation photo : donne vie à de vieilles photos avec des mouvements réalistes.",
-      "Amélioration des expressions faciales : ajoute des expressions subtiles aux images statiques.",
-      "Restauration AI : améliore la qualité des photographies anciennes.",
-      "Options de partage : partagez facilement des photos animées sur les plateformes sociales."
-    ],
-    "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
-    "howToUse_fr": [
-      {
-        "title": "Ouvre Deep Nostalgia",
-        "description": "Rends-toi sur myheritage.com pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.",
-        "links": [
-          {
-            "label": "Deep Nostalgia",
-            "url": "https://www.myheritage.com/deep-nostalgia"
-          }
-        ]
-      },
-      {
-        "title": "Configure ton espace",
-        "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
-      },
-      {
-        "title": "Lance un premier usage",
-        "description": "Commence par : myHeritage Deep Nostalgia™, technologie de reconstitution vidéo pour animer les visages sur des photos fixes et créer des séquences vidéo réalistes et de haute qualité."
-      },
-      {
-        "title": "Contrôle le résultat",
-        "description": "Exporte, partagez ou connectez ton environnement existant avant d'étendre l'usage en équipe."
-      }
-    ],
-    "tags_fr": [
-      "animation",
-      "photo"
-    ]
-  },
   "deep_dream_generator": {
     "summary_fr": "Deep Dream Generator est un outil en ligne qui utilise des réseaux de neurones pour générer des images uniques et oniriques à partir de photos. Il permet aux utilisateurs d'appliquer différents modèles et styles d'IA pour créer des visuels surréalistes et artistiques, ce qui en fait un favori parmi les artistes numériques et les passionnés.",
     "description_fr": "Deep Dream Generator est un outil en ligne qui utilise des réseaux de neurones pour générer des images uniques et oniriques à partir de photos. Il permet aux utilisateurs d'appliquer différents modèles et styles d'IA pour créer des visuels surréalistes et artistiques, ce qui en fait un favori parmi les artistes numériques et les passionnés. Crée de l'art par IA remarquable avec le meilleur générateur d'images par IA gratuit. 30+ modèles d'IA, génération de vidéo par IA et édition d'images par IA. Aucune inscription requise - commencez à créer maintenant ! Filtres oniriques : appliquez aux photos des styles surréalistes générés par IA. Transfert de style : mélangez plusieurs styles sur une seule image. Plusieurs modèles : choisissez parmi deep dream, thin style et plus encore. Galerie communautaire : explorez et partagez les créations.",
@@ -9423,6 +9570,45 @@
       "filters",
       "neural networks",
       "surreal"
+    ]
+  },
+  "deep-nostalgia": {
+    "summary_fr": "MyHeritage Deep Nostalgia™, technologie de reconstitution vidéo pour animer les visages sur des photos fixes et créer des séquences vidéo réalistes et de haute qualité.",
+    "description_fr": "MyHeritage Deep Nostalgia™, technologie de reconstitution vidéo pour animer les visages sur des photos fixes et créer des séquences vidéo réalistes et de haute qualité. Animation de photos : donne vie aux anciennes photos avec des mouvements réalistes. Amélioration des expressions du visage : ajoute des expressions subtiles aux images statiques. Restauration par IA : améliore la qualité des photographies anciennes. Options de partage : partage facilement les photos animées sur les plateformes sociales.",
+    "features_fr": [
+      "Animation photo : donne vie à de vieilles photos avec des mouvements réalistes.",
+      "Amélioration des expressions faciales : ajoute des expressions subtiles aux images statiques.",
+      "Restauration AI : améliore la qualité des photographies anciennes.",
+      "Options de partage : partagez facilement des photos animées sur les plateformes sociales."
+    ],
+    "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
+    "howToUse_fr": [
+      {
+        "title": "Ouvre Deep Nostalgia",
+        "description": "Rends-toi sur myheritage.com pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.",
+        "links": [
+          {
+            "label": "Deep Nostalgia",
+            "url": "https://www.myheritage.com/deep-nostalgia"
+          }
+        ]
+      },
+      {
+        "title": "Configure ton espace",
+        "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
+      },
+      {
+        "title": "Lance un premier usage",
+        "description": "Commence par : myHeritage Deep Nostalgia™, technologie de reconstitution vidéo pour animer les visages sur des photos fixes et créer des séquences vidéo réalistes et de haute qualité."
+      },
+      {
+        "title": "Contrôle le résultat",
+        "description": "Exporte, partagez ou connectez ton environnement existant avant d'étendre l'usage en équipe."
+      }
+    ],
+    "tags_fr": [
+      "animation",
+      "photo"
     ]
   },
   "deepbrainai": {
@@ -11162,6 +11348,37 @@
     ],
     "pricingNote_fr": "Un crédit offert à l’inscription. Packs ponctuels, pas d’abonnement, crédits sans expiration : Starter 13 € / 40 crédits ; Pro 24 € / 100 crédits ; Studio 36 € / 180 crédits."
   },
+  "eduaide": {
+    "summary_fr": "Boîte à outils IA pour enseignants qui génère cours, questions, rubriques, aides et images de classe, avec un assistant de discussion sur documents en Pro.",
+    "description_fr": "Boîte à outils IA pour enseignants qui génère cours, questions, rubriques, aides et images de classe, avec un assistant de discussion sur documents en Pro.",
+    "features_fr": [
+      "Génération de ressources pour les flux de classe : cours, questions, rubriques et aides",
+      "Offre gratuite : jusqu’à 8 ressources par mois (24 crédits), sans carte",
+      "Pro ajoute le chat sur documents Erasmus, les images de classe, les transcriptions YouTube et un modèle de raisonnement",
+      "Le premier paiement Pro peut être remboursé intégralement sous 14 jours ; les reconductions ne le sont pas"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre eduaide.ai et commence en Gratuit, sans carte...",
+        "description": "Ouvre eduaide.ai et commence en Gratuit, sans carte (jusqu’à 8 ressources / 24 crédits par mois).",
+        "links": [
+          {
+            "label": "Eduaide",
+            "url": "https://www.eduaide.ai/"
+          }
+        ]
+      },
+      {
+        "title": "Génère un cours, des questions ou une rubrique pour ta classe.",
+        "description": "Génère un cours, des questions ou une rubrique pour ta classe."
+      },
+      {
+        "title": "Passe à Pro au mois ou à l’année si tu as besoin de générations illimitées et du chat sur...",
+        "description": "Passe à Pro au mois ou à l’année si tu as besoin de générations illimitées et du chat sur documents."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 €, sans carte — jusqu’à 8 ressources par mois (24 crédits) pour les flux de création de base. Pro 5 €/mois ou 45 €/an (officiellement aussi décrit comme 4 €/mois) — générations IA illimitées, Erasmus Document Chat, ajout de questions, rubriques, aides à la lecture, outils d’étude et traductions, transformation des retours d’évaluation en ressources révisées, images de classe personnalisées, transcriptions YouTube comme source, modèle de raisonnement, plus de contexte (sujets 3× plus longs, 5 compétences, 3 documents envoyés). Un tarif régional peut apparaître au paiement. Le premier paiement Pro peut être remboursé intégralement sous 14 jours ; les reconductions ne sont pas remboursables. Tu peux résilier à tout moment et garder Pro jusqu’à la fin de la période payée."
+  },
   "eesel-ai": {
     "summary_fr": "Agent IA qui s'entraîne sur tes tickets et documents de support.",
     "description_fr": "eesel AI apprend à partir des anciens tickets, de la base de connaissances et des documents internes pour répondre aux clients ou assister les conseillers. Il s'intègre à Zendesk, Freshdesk, Slack et d'autres outils.",
@@ -11887,6 +12104,37 @@
       "deep recherche"
     ]
   },
+  "explainpaper": {
+    "summary_fr": "Lecteur de recherche qui surligne un article et en explique le passage, avec questions de suivi et, en Pro, explications de figures et plans automatiques.",
+    "description_fr": "Lecteur de recherche qui surligne un article et en explique le passage, avec questions de suivi et, en Pro, explications de figures et plans automatiques.",
+    "features_fr": [
+      "Surligne un article et obtiens une explication du passage, avec questions de suivi",
+      "Gratuit pour toujours : explications de surlignage illimitées, import Zotero, modèles IA de base",
+      "Pro (essai de 7 jours) : explications de figures et d’équations, plans automatiques, surlignages enregistrés",
+      "Teams est sur demande, avec remises volume"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre explainpaper.com et commence en Gratuit pour toujours, sans frais.",
+        "description": "Ouvre explainpaper.com et commence en Gratuit pour toujours, sans frais.",
+        "links": [
+          {
+            "label": "Explainpaper",
+            "url": "https://www.explainpaper.com/"
+          }
+        ]
+      },
+      {
+        "title": "Surligne un passage d’un article pour en obtenir une explication, et pose des questions...",
+        "description": "Surligne un passage d’un article pour en obtenir une explication, et pose des questions de suivi."
+      },
+      {
+        "title": "Lance l’essai Pro de 7 jours si tu as besoin d’explications de figures, de GPT-6 Sol et...",
+        "description": "Lance l’essai Pro de 7 jours si tu as besoin d’explications de figures, de GPT-6 Sol et de plans enregistrés."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 €/mois, pour toujours — explications de surlignage illimitées, questions de suivi, import de ta bibliothèque Zotero, modèles IA de base. Pro 14 €/mois, essai de 7 jours — clique sur les graphiques, figures et équations pour les faire expliquer, explications propulsées par GPT-6 Sol, plans automatiques de l’article avec renvois cliquables, sauvegarde des surlignages et des explications, questions sur l’article. Teams — nous contacter (tout Pro, gestion d’équipe, support prioritaire, remises volume). Tous les forfaits sont facturés via Stripe."
+  },
   "fabric-so": {
     "summary_fr": "Espace de travail IA qui relie fichiers, notes et liens.",
     "description_fr": "Fabric centralise documents, notes, liens et fichiers de tes différents services et permet de tout retrouver ou d'interroger l'ensemble avec l'IA. Il se présente comme une mémoire de travail personnelle.",
@@ -12518,6 +12766,37 @@
     ],
     "pricingNote_fr": "Gratuit : 20 remplissages pour commencer, puis 5/semaine, sans carte. Individual 17 €/mois (100 remplissages) ; Professional 67 €/mois (500) ; Agency 312 €/mois (3 000, support prioritaire). Un remplissage = un formulaire web, ou un PDF jusqu’à 5 pages (puis un remplissage par tranche de 5 pages commencée)."
   },
+  "finaloop": {
+    "summary_fr": "Plateforme de comptabilité, de stocks et d’analytique IA pour marques e-commerce, avec un tarif Starter public pour les entreprises jusqu’à 904 814 € de revenu brut annuel.",
+    "description_fr": "Plateforme de comptabilité, de stocks et d’analytique IA pour marques e-commerce, avec un tarif Starter public pour les entreprises jusqu’à 904 814 € de revenu brut annuel.",
+    "features_fr": [
+      "Comptabilité e-commerce native IA, stocks (COGS, landed cost) et analytique",
+      "Catégorisation automatisée, rapprochement bancaire et rapprochements de ventes en 3 voies",
+      "Rapports et tableaux de bord en temps réel, avec un onboarding officiel en 48 heures",
+      "Seul le tarif public Starter est chiffré ici ; les paliers supérieurs sont « parler à un expert »"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre finaloop.com et lance l’essai gratuit officiel s’il est proposé au paiement.",
+        "description": "Ouvre finaloop.com et lance l’essai gratuit officiel s’il est proposé au paiement.",
+        "links": [
+          {
+            "label": "Finaloop",
+            "url": "https://www.finaloop.com/"
+          }
+        ]
+      },
+      {
+        "title": "Connecte tes données e-commerce et bancaires pour la comptabilité, les stocks et...",
+        "description": "Connecte tes données e-commerce et bancaires pour la comptabilité, les stocks et l’analytique."
+      },
+      {
+        "title": "Abonne-toi à Starter à 222 €/mois si ta marque est à 904 814 € de revenu brut annuel ou...",
+        "description": "Abonne-toi à Starter à 222 €/mois si ta marque est à 904 814 € de revenu brut annuel ou moins, ou parle à un expert pour une entreprise plus grande — aucun tarif self-serve public supérieur n’est listé ici."
+      }
+    ],
+    "pricingNote_fr": "Starter 222 €/mois pour les marques en phase de démarrage jusqu’à 904 814 € de revenu brut annuel. Les autres paliers self-serve publics n’étaient pas clairement tarifés sur la page (les « Enterprise brands » plus importantes sont invitées à parler à un expert) et ne sont pas listés. Un essai gratuit officiel est mentionné comme « Get Started Free ». Labellé Premium."
+  },
   "findem": {
     "summary_fr": "Recherche de talents par attributs, grâce aux données et à l'IA.",
     "description_fr": "Findem construit des profils de talents enrichis à partir de nombreuses sources et permet de rechercher par compétences, parcours ou résultats. Il automatise aussi le sourcing et la prise de contact.",
@@ -12596,6 +12875,37 @@
       "audio",
       "speech"
     ]
+  },
+  "finta": {
+    "summary_fr": "Plateforme de données financières qui synchronise les transactions bancaires vers Notion, Airtable ou Google Sheets, avec catégorisation IA plus accès API et MCP.",
+    "description_fr": "Plateforme de données financières qui synchronise les transactions bancaires vers Notion, Airtable ou Google Sheets, avec catégorisation IA plus accès API et MCP.",
+    "features_fr": [
+      "Connexions bancaires qui synchronisent les transactions vers Notion, Airtable et Google Sheets",
+      "Catégorisation IA, plus MCP et une API développeur",
+      "Essai de 7 jours, sans carte, puis Standard ou Business Pro facturés à l’année",
+      "Les prix de liste mensuels, en dehors des montants facturés à l’année, n’ont pas été extraits — non inventés. Labellé Premium"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre finta.io/pricing et lance l’essai de 7 jours, sans carte.",
+        "description": "Ouvre finta.io/pricing et lance l’essai de 7 jours, sans carte.",
+        "links": [
+          {
+            "label": "Finta",
+            "url": "https://www.finta.io/"
+          }
+        ]
+      },
+      {
+        "title": "Connecte une banque et synchronise un espace de travail comme Notion, Airtable ou Google...",
+        "description": "Connecte une banque et synchronise un espace de travail comme Notion, Airtable ou Google Sheets."
+      },
+      {
+        "title": "Continue sur Standard ou Business Pro — les chiffres vérifiés sont les totaux annuels 63...",
+        "description": "Continue sur Standard ou Business Pro — les chiffres vérifiés sont les totaux annuels 63 € et 136 €. Un prix de liste mensuel distinct n’a pas été extrait et n’est pas listé ici."
+      }
+    ],
+    "pricingNote_fr": "Essai de 7 jours, sans carte, résiliable à tout moment. Un basculeur Monthly / Yearly « Save 17 % » est présent. Chiffres annuels extraits : Standard 5 €/mois facturés 63 € à l’année — jusqu’à 10 banques, sync vers des espaces de travail illimités, tous les types de données, catégorisation IA, MCP et API développeur ; Business Pro 11 €/mois facturés 136 € à l’année — tout Standard, plus connexions bancaires illimitées, plafonds d’API et de MCP plus élevés, support prioritaire. Le titre de page indique aussi des offres « à partir d’ » un montant mensuel ; les prix de liste mensuels, en dehors de ces montants facturés à l’année, n’ont pas été extraits et ne sont pas listés (cette ligne de titre n’est pas prise pour un tarif d’offre). Labellé Premium."
   },
   "firebase-studio": {
     "summary_fr": "Espace de travail web pour le développement d'applications full-stack, avec Gemini.",
@@ -14133,6 +14443,37 @@
         "description": "Exporte, partagez ou connectez ton environnement existant avant d'étendre l'usage en équipe."
       }
     ]
+  },
+  "generated-photos": {
+    "summary_fr": "Bibliothèque et générateurs de photos de mannequins IA uniques — visages et corps — pour le design, le marketing et la recherche, avec usage commercial sur les offres payantes.",
+    "description_fr": "Bibliothèque et générateurs de photos de mannequins IA uniques — visages et corps — pour le design, le marketing et la recherche, avec usage commercial sur les offres payantes.",
+    "features_fr": [
+      "Bibliothèque de photos de mannequins IA uniques — visages et corps entiers",
+      "Face Generator et Human Generator",
+      "Usage commercial et absence de filigrane sur les offres payantes",
+      "Forfaits annuels ou tarifs au volume par photo sur le site officiel."
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre generated.photos, parcours les visages ou les humains, ou lance un générateur.",
+        "description": "Ouvre generated.photos, parcours les visages ou les humains, ou lance un générateur.",
+        "links": [
+          {
+            "label": "Generated Photos",
+            "url": "https://generated.photos/"
+          }
+        ]
+      },
+      {
+        "title": "Abonne-toi à Faces ou Humans à l’année si tu as besoin de téléchargements réguliers et...",
+        "description": "Abonne-toi à Faces ou Humans à l’année si tu as besoin de téléchargements réguliers et d’un usage commercial."
+      },
+      {
+        "title": "Ou paie à la photo dans le panier pour un achat en volume — les prix de liste mensuels ne...",
+        "description": "Ou paie à la photo dans le panier pour un achat en volume — les prix de liste mensuels ne sont pas publiés ici, car ils n’ont pas été extraits."
+      }
+    ],
+    "pricingNote_fr": "Faces + Face Generator 180 €/an — 15 téléchargements/mois, générations de visages illimitées, sans filigrane, usage commercial. Humans + Human Generator 180 €/an — 15 humains prêts à l’emploi/mois, 1 000 générations prioritaires, sans filigrane, usage commercial. Achat en volume sans abonnement, tarif officiel par photo : 1–20 photos 8 € pièce, 21–50 6 €, 51–250 5 €, 251–1 000 2 €, 1 000+ 1 € (exemple officiel : 100 photos = 579 €). Un basculeur Monthly / Yearly −15 % est présent ; les prix de liste mensuels n’ont pas été extraits et ne sont pas listés. Les tarifs Dataset et API, indiqués à part, ne sont pas repris ici."
   },
   "genie-ai": {
     "summary_fr": "Rédige, révisez et négociez des documents juridiques avec l'IA. Modèles juridiques gratuits, revue de contrats par IA et outils de recherche juridique.",
@@ -17616,6 +17957,37 @@
     ],
     "pricingNote_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
+  "huntr": {
+    "summary_fr": "Espace de recherche d’emploi IA qui crée des CV et des lettres adaptés à chaque offre, suit les candidatures et rapproche ton profil des postes.",
+    "description_fr": "Espace de recherche d’emploi IA qui crée des CV et des lettres adaptés à chaque offre, suit les candidatures et rapproche ton profil des postes.",
+    "features_fr": [
+      "Créateur de CV et de lettres, avec versions adaptées à chaque offre sur les plans payants",
+      "Suivi des candidatures, clipper Chrome, vue carte et remplissage automatique",
+      "Score de CV et correspondance aux offres, basiques en Gratuit, avancés en Pro",
+      "L’offre Gratuite est toujours gratuite, sans frais cachés"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre huntr.co et inscris-toi à l’offre Gratuite (sans frais cachés) pour créer un CV et...",
+        "description": "Ouvre huntr.co et inscris-toi à l’offre Gratuite (sans frais cachés) pour créer un CV et suivre jusqu’à 100 offres.",
+        "links": [
+          {
+            "label": "Huntr",
+            "url": "https://huntr.co/"
+          }
+        ]
+      },
+      {
+        "title": "Utilise le clipper Chrome et le score de correspondance de base sur l’offre Gratuite.",
+        "description": "Utilise le clipper Chrome et le score de correspondance de base sur l’offre Gratuite."
+      },
+      {
+        "title": "Passe à Pro au mois, au trimestre ou tous les 6 mois si tu as besoin d’adaptations, de...",
+        "description": "Passe à Pro au mois, au trimestre ou tous les 6 mois si tu as besoin d’adaptations, de lettres et de relectures IA illimitées."
+      }
+    ],
+    "pricingNote_fr": "Gratuit, toujours gratuit, sans frais cachés — CV de base illimités, export PDF gratuit, 2 CV adaptés à une offre, 2 dossiers de candidature, tous les modèles de CV, correspondance et score de base, suivi jusqu’à 100 offres, aperçus de base, clipper Chrome, vue carte, gestion de contacts et remplissages automatiques illimités, jusqu’à 100 documents, sans publicité. Pro 36 €/mois, ou 27 €/mois facturés 81 € tous les 3 mois, ou 24 €/mois facturés 145 € tous les 6 mois — tout le Gratuit, plus CV adaptés et dossiers illimités, générations de CV IA illimitées, CV adaptés par IA, lettres IA illimitées, relecture et adaptation IA illimitées, correspondance et score avancés, suivi d’offres et aperçus avancés illimités, documents illimités."
+  },
   "hunyuan-3d": {
     "summary_fr": "Génération de modèles 3D open source par Tencent.",
     "description_fr": "Hunyuan3D transforme un texte ou une image en modèle 3D texturé. Tencent publie les modèles en open source, et une interface en ligne permet de les essayer pour des usages comme le jeu vidéo ou le prototypage.",
@@ -19055,6 +19427,37 @@
     ],
     "pricingNote_fr": "Mixage et téléchargements toujours gratuits ; packs uniques Starter 13 €, Standard 35 €, Pro 88 €."
   },
+  "jobscan": {
+    "summary_fr": "Scanner de CV qui compare un curriculum à une offre pour les mots-clés ATS et recruteurs, avec outils IA de lettre et de puces sur les offres payantes.",
+    "description_fr": "Scanner de CV qui compare un curriculum à une offre pour les mots-clés ATS et recruteurs, avec outils IA de lettre et de puces sur les offres payantes.",
+    "features_fr": [
+      "Scans de CV contre une offre, avec constats ATS et recruteurs",
+      "Suivi des candidatures, créateur et gestionnaire de CV, extension Chrome et Learning Center en Gratuit",
+      "Optimisations IA, générateurs de lettres et de puces, optimiseur LinkedIn et entraînement à l’entretien sur les offres payantes (certaines fonctions ordinateur uniquement, ou après l’essai)",
+      "Le forfait trimestriel inclut un essai de 7 jours ; FAQ officielle : pas d’essai si tu choisis le mensuel"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre jobscan.co et utilise l’offre Gratuite (5 scans de CV par mois) sans payer.",
+        "description": "Ouvre jobscan.co et utilise l’offre Gratuite (5 scans de CV par mois) sans payer.",
+        "links": [
+          {
+            "label": "Jobscan",
+            "url": "https://www.jobscan.co/"
+          }
+        ]
+      },
+      {
+        "title": "Colle une offre à côté de ton CV pour voir les constats ATS et les mots-clés recruteurs.",
+        "description": "Colle une offre à côté de ton CV pour voir les constats ATS et les mots-clés recruteurs."
+      },
+      {
+        "title": "Lance l’essai de 7 jours du forfait trimestriel, ou prends le mensuel si tu veux des...",
+        "description": "Lance l’essai de 7 jours du forfait trimestriel, ou prends le mensuel si tu veux des scans illimités et les outils d’écriture IA — la FAQ officielle indique qu’il n’y a pas d’essai sur le mensuel."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 € pour toujours — 5 scans de CV gratuits par mois, 5 constats ATS et recruteurs, suivi des candidatures, notes de remerciement après entretien, créateur et gestionnaire de CV, extension Chrome, Jobscan Learning Center. Trimestriel 27 €/mois facturés 81 € tous les 3 mois, essai de 7 jours, « save 40 % », pour 3 mois après l’essai gratuit — scans illimités, optimisations IA illimitées (ordinateur uniquement), générateur de lettres IA, générateur de puces IA (ordinateur uniquement), optimiseur LinkedIn après l’essai (ordinateur uniquement), comparaisons de mots-clés et constats ATS/recruteurs illimités, correspondance IA, 2 crédits Auto Apply offerts par mois après l’essai, −20 % sur les crédits Auto Apply et l’entraînement à l’entretien après l’essai, plus ebooks et modèles premium. Mensuel 45 €/mois facturés chaque mois — même ensemble de fonctions payantes (la FAQ officielle indique qu’il n’y a pas d’essai si tu as choisi le mensuel ou si tu as renoncé à l’essai pour accéder pleinement à l’optimisation LinkedIn). L’inscription Organisation est proposée à part."
+  },
   "jobshifu": {
     "summary_fr": "Agent IA de recherche d’emploi qui trouve des offres sur plus de 14 000 sites carrière, adapte ton CV à partir de l’expérience que tu confirmes, et t’aide à postuler.",
     "description_fr": "Agent IA de recherche d’emploi qui trouve des offres sur plus de 14 000 sites carrière, adapte ton CV à partir de l’expérience que tu confirmes, et t’aide à postuler.",
@@ -19086,6 +19489,37 @@
       }
     ],
     "pricingNote_fr": "Gratuit à vie, sans carte. Prix de lancement JobShifu Pro 27 €/mois jusqu’au 31 décembre 2026, puis 36 €/mois pour les nouveaux abonnés mensuels (les abonnés au tarif de lancement conservent leur prix, comme indiqué). Trimestriel 67 € / 3 mois ; annuel 214 €/an ; Week Pass 13 € une fois, pour 7 jours de Pro, sans reconduction."
+  },
+  "joggai": {
+    "summary_fr": "Plateforme vidéo IA pour clips avatar, produit et image-vers-vidéo, avec des crédits partagés entre l’app web, l’API et le MCP.",
+    "description_fr": "Plateforme vidéo IA pour clips avatar, produit et image-vers-vidéo, avec des crédits partagés entre l’app web, l’API et le MCP.",
+    "features_fr": [
+      "Plateforme vidéo IA pour clips avatar, produit et image-vers-vidéo, plus clones de voix",
+      "Les crédits sont partagés entre l’app web, l’API et le MCP",
+      "Les 200 crédits Gratuits sont promotionnels, valables 31 jours, et ne se renouvellent pas chaque mois — pas une allocation récurrente",
+      "Le Starter mensuel figure dans la FAQ officielle (26 €, 12 000 crédits) ; Starter, Creator et Team à l’année sont sur la page tarifs. Les autres prix de liste mensuels ne sont pas listés"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre jogg.ai (le site redirige vers www.jogg.ai) et crée un compte Gratuit, sans carte.",
+        "description": "Ouvre jogg.ai (le site redirige vers www.jogg.ai) et crée un compte Gratuit, sans carte.",
+        "links": [
+          {
+            "label": "JoggAI",
+            "url": "https://www.jogg.ai/"
+          }
+        ]
+      },
+      {
+        "title": "Utilise les 200 crédits de départ (valables 31 jours, non renouvelés chaque mois) pour...",
+        "description": "Utilise les 200 crédits de départ (valables 31 jours, non renouvelés chaque mois) pour tester un clip avatar ou produit."
+      },
+      {
+        "title": "Abonne-toi à Starter, Creator ou Team.",
+        "description": "Abonne-toi à Starter, Creator ou Team. Les chiffres annuels sont ceux de la page tarifs ; le Starter mensuel est à 26 € pour 12 000 crédits d’après la FAQ officielle. Les autres prix de liste mensuels, hors Starter, ne sont pas listés ici."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 €, sans carte — 200 crédits promotionnels valables 31 jours (FAQ officielle : l’offre Gratuite ne renouvelle pas les crédits chaque mois — c’est une promo, pas une allocation récurrente), environ 1 min de vidéo avatar, durée max 3 min, 1 avatar personnalisé, traitement standard, outils IA limités. Annuel (−17 % ; crédits annuels versés d’avance, reconduit chaque année) : Starter 22 €/mois — 144 000 crédits/an (environ 1 440 min de vidéo avatar), durée max 30 min, 3 avatars personnalisés, jusqu’à 50 clones de voix/mois, retrait du filigrane, tous les outils IA ; Creator 37 €/mois — 264 000 crédits/an ; Team 195 €/mois, 3 sièges inclus — 1 320 000 crédits/an, durée max 60 min, 50 avatars personnalisés, support prioritaire. FAQ officielle, mensuel : Starter commence à 26 €/mois avec 12 000 crédits ; les crédits mensuels non utilisés peuvent être reportés jusqu’à trois mois. Les autres prix de liste mensuels, hors Starter, n’étaient pas détaillés dans la FAQ et ne sont pas listés. Business Enterprise : contacter les ventes."
   },
   "jotform-ai": {
     "features_fr": [
@@ -19868,6 +20302,37 @@
       "colors",
       "palettes"
     ]
+  },
+  "kickresume": {
+    "summary_fr": "Créateur IA de CV et de lettres de motivation, avec des modèles conçus par des recruteurs, un contrôle ATS et une carte de carrière, utilisé par des millions de candidats.",
+    "description_fr": "Créateur IA de CV et de lettres de motivation, avec des modèles conçus par des recruteurs, un contrôle ATS et une carte de carrière, utilisé par des millions de candidats.",
+    "features_fr": [
+      "AI Writer qui peut générer un CV à partir d’un intitulé et d’une offre",
+      "Plus de 40 modèles premium conçus par des recruteurs, contrôle ATS et carte de carrière",
+      "Import LinkedIn et PDF, apps iOS et Android, modèles de site personnel",
+      "Offre gratuite avec téléchargements illimités ; Premium au mois, au trimestre ou à l’année, déjà tarifé en euros"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre kickresume.com/en et inscris-toi à l’offre Gratuite, avec les 4 modèles de base et...",
+        "description": "Ouvre kickresume.com/en et inscris-toi à l’offre Gratuite, avec les 4 modèles de base et des téléchargements illimités.",
+        "links": [
+          {
+            "label": "Kickresume",
+            "url": "https://www.kickresume.com/en/"
+          }
+        ]
+      },
+      {
+        "title": "Crée un CV ou une lettre, et utilise la carte de carrière si tu veux une vue des postes.",
+        "description": "Crée un CV ou une lettre, et utilise la carte de carrière si tu veux une vue des postes."
+      },
+      {
+        "title": "Choisis Premium mensuel, trimestriel ou annuel si tu as besoin de l’AI Writer, du...",
+        "description": "Choisis Premium mensuel, trimestriel ou annuel si tu as besoin de l’AI Writer, du contrôle ATS et de toute la bibliothèque de modèles."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 €/mois — 4 modèles de CV de base, 4 modèles de lettres assortis, 1 modèle de site de base, 20 000 phrases pré-rédigées, plus de 1 500 exemples de CV, téléchargements illimités. Premium mensuel 24 €/mois ; trimestriel 18 €/mois facturés 54 € tous les 3 mois ; annuel 8 €/mois facturés 96 € tous les 12 mois — plus de 40 modèles de CV et de lettres, toutes les couleurs et typographies, AI Writer, contrôle ATS, carte de carrière, import LinkedIn et PDF, apps mobiles, 7 modèles de site, support e-mail et chat prioritaire, garantie de remboursement de 14 jours (l’annuel et le trimestriel incluent aussi des bons-cadeaux Premium officiels pour des proches). Prix officiels déjà en euros, affichés tels quels."
   },
   "kilo-code": {
     "summary_fr": "Agent de codage open source pour VS Code, JetBrains, la CLI et le cloud, avec plus de 500 modèles.",
@@ -22297,6 +22762,37 @@
     ],
     "pricingNote_fr": "Consulte getliner.com pour les formules et limites actuelles."
   },
+  "linguix": {
+    "summary_fr": "Assistant d’écriture et de grammaire IA qui corrige l’orthographe, réécrit les phrases et s’intègre via une extension là où tu tapes.",
+    "description_fr": "Assistant d’écriture et de grammaire IA qui corrige l’orthographe, réécrit les phrases et s’intègre via une extension là où tu tapes.",
+    "features_fr": [
+      "Corrections d’orthographe et de grammaire, suggestions IA et reformulation",
+      "Raccourcis de frappe et extension de navigateur, là où tu tapes",
+      "Gratuit pour toujours pour les corrections de base ; Pro est facturé à l’année au tarif officiel 11 €/mois / 127 € par an",
+      "Outils de style, de clarté et de ton en Pro ; Linguix Business est une offre distincte sur le site officiel."
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre linguix.com et utilise l’offre Gratuite pour toujours dans l’extension, pour la...",
+        "description": "Ouvre linguix.com et utilise l’offre Gratuite pour toujours dans l’extension, pour la grammaire de base et les suggestions IA.",
+        "links": [
+          {
+            "label": "Linguix",
+            "url": "https://linguix.com/"
+          }
+        ]
+      },
+      {
+        "title": "Rédige ou colle un texte, puis accepte ou refuse les suggestions.",
+        "description": "Rédige ou colle un texte, puis accepte ou refuse les suggestions."
+      },
+      {
+        "title": "Passe à Pro (facturé 127 € à l’année) si tu veux des réécritures avancées, des...",
+        "description": "Passe à Pro (facturé 127 € à l’année) si tu veux des réécritures avancées, des suggestions de style et des raccourcis illimités."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 € pour toujours — corrections d’orthographe et de grammaire, suggestions IA de base, reformulation limitée, raccourcis de frappe, extension de navigateur Linguix. Linguix Pro 11 €/mois facturés 127 € à l’année — tout le Gratuit, plus suggestions avancées de grammaire et de style, plus d’aide à l’écriture IA, reformulation et réécriture avancées, raccourcis illimités, meilleures suggestions de clarté et de ton, accès complet aux apps Linguix prises en charge, support prioritaire, résiliable à tout moment. Un basculeur Monthly / Annual « Save 61 % » est présent ; le prix de liste mensuel, en dehors de ce tarif facturé à l’année, n’a pas été extrait et n’est pas listé. Linguix Business est lié à part et n’est pas repris ici."
+  },
   "listiclewriter-ai": {
     "summary_fr": "Rédige des listicles « best of » de plus de 990 mots, prêts à être cités, avec tableaux comparatifs, FAQ et schema, pensés pour les moteurs d’IA et Google.",
     "description_fr": "Rédige des listicles « best of » de plus de 990 mots, prêts à être cités, avec tableaux comparatifs, FAQ et schema, pensés pour les moteurs d’IA et Google.",
@@ -22632,6 +23128,37 @@
       }
     ],
     "pricingNote_fr": "Paiement unique, pas d’abonnement, crédits sans expiration, droits commerciaux inclus. Prix de liste : Starter 13 € (50 crédits) ; Brand 26 € (250 crédits) ; Studio 53 € (500 crédits). Promo limitée aussi affichée le 11 novembre 2026 : Starter 12 €, Brand 17 €, Studio 44 €."
+  },
+  "logoai": {
+    "summary_fr": "Créateur de logos IA avec kit de marque, studio de design et générations image/vidéo, proposé via un essai payant qui se reconduit en offre Pro.",
+    "description_fr": "Créateur de logos IA avec kit de marque, studio de design et générations image/vidéo, proposé via un essai payant qui se reconduit en offre Pro.",
+    "features_fr": [
+      "Créateur de logos IA avec kit de marque, animations de logo et vidéos de marque",
+      "Studio de design, générations d’images et de vidéos par lot, plus de 20 modèles IA",
+      "Téléchargements sans restriction et usage commercial sur les offres payantes (sans garantie d’exclusivité ni de dépôt de marque)",
+      "Essai payant de 7 jours qui se reconduit en Pro — labellé Premium, pas Freemium"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre logoai.com et lance l’essai officiel de 7 jours à 9 € (200 crédits) pour créer un...",
+        "description": "Ouvre logoai.com et lance l’essai officiel de 7 jours à 9 € (200 crédits) pour créer un logo et un kit de marque.",
+        "links": [
+          {
+            "label": "LogoAI",
+            "url": "https://www.logoai.com/"
+          }
+        ]
+      },
+      {
+        "title": "Vérifie le solde et le coût des crédits avant de générer.",
+        "description": "Vérifie le solde et le coût des crédits avant de générer."
+      },
+      {
+        "title": "Résilie avant la fin de l’essai si tu ne veux pas la reconduction en Pro à 18 €/mois...",
+        "description": "Résilie avant la fin de l’essai si tu ne veux pas la reconduction en Pro à 18 €/mois (500 crédits)."
+      }
+    ],
+    "pricingNote_fr": "Essai de 7 jours à 9 € — Branding Suite, Design Studio, téléchargements sans restriction, 200 crédits IA. Sauf résiliation avant la fin de l’essai, reconduction en Pro à 18 €/mois avec 500 crédits IA par mois. L’essai à 9 € est un essai payant, pas une offre gratuite durable — labellé Premium, pas Freemium. Le solde et le coût des crédits s’affichent avant une génération. Résiliation via le lien de gestion d’abonnement ; cela arrête les reconductions suivantes."
   },
   "logodiffusion": {
     "summary_fr": "Logos générés par IA, exportables en vectoriel.",
@@ -28339,6 +28866,37 @@
       "lifetime deal"
     ]
   },
+  "palette-fm": {
+    "summary_fr": "Coloriseur IA qui transforme des photos noir et blanc en couleurs réalistes, avec plus de 21 filtres réglables.",
+    "description_fr": "Coloriseur IA qui transforme des photos noir et blanc en couleurs réalistes, avec plus de 21 filtres réglables.",
+    "features_fr": [
+      "Plus de 21 filtres couleur, plus réglages et colorisation guidée par mots-clés",
+      "Aperçus gratuits jusqu’à 500×500 avec filigrane, et 1 crédit d’essai en pleine résolution",
+      "Abonnement annuel (480 crédits/an) ou pack unique de 75 crédits, valable 2 ans",
+      "Le site officiel indique une adresse au Portugal en pied de page"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre palette.fm et envoie une photo noir et blanc.",
+        "description": "Ouvre palette.fm et envoie une photo noir et blanc.",
+        "links": [
+          {
+            "label": "Palette.fm",
+            "url": "https://palette.fm/"
+          }
+        ]
+      },
+      {
+        "title": "Choisis un filtre et prévisualise gratuitement jusqu’à 500×500, avec un filigrane.",
+        "description": "Choisis un filtre et prévisualise gratuitement jusqu’à 500×500, avec un filigrane."
+      },
+      {
+        "title": "Utilise le crédit d’essai HD si tu veux, puis abonne-toi à l’année ou achète un pack de...",
+        "description": "Utilise le crédit d’essai HD si tu veux, puis abonne-toi à l’année ou achète un pack de crédits pour des exports pleine résolution sans logo."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 € — aperçus colorisés illimités, redimensionnés au maximum à 500×500 avec un filigrane Palette, plus 1 crédit d’essai pour une colorisation pleine résolution sans logo (jusqu’à 5000×5000). Abonnement 65 €/an (officiellement aussi décrit comme 5 €/mois) — 480 crédits/an, chaque crédit une colorisation haute résolution sans logo, crédits non utilisés reportés jusqu’à cinq fois le montant mensuel du forfait, crédits valables pendant l’abonnement, résiliable à tout moment. Achat unique 44 € pour 75 crédits, valable 2 ans. D’autres tailles d’abonnement (2 400 et 6 000 crédits) et d’autres packs à l’achat unique apparaissent dans l’interface sans prix de liste clairement isolé : non listés."
+  },
   "papercup": {
     "summary_fr": "Service de doublage vidéo par IA qui a fermé. Le domaine redirige vers RWS.",
     "description_fr": "Papercup doublait des vidéos dans d'autres langues. RWS a annoncé le 26 juin 2025 avoir acquis la propriété intellectuelle de Papercup, et le service autonome est fermé. Le 21 octobre 2026, papercup.com redirigait vers une page RWS de localisation pour le doublage et la voix off par IA, avec un paramètre de campagne nommant une migration Papercup. Cette page répond HTTP 202 à un client non navigateur. support.papercup.com et docs.papercup.com ne se résolvent pas.",
@@ -29556,7 +30114,7 @@
         "description": "Achète un pack de 2 ou 20 séances, ou l’offre mensuelle, si tu passes souvent des entretiens."
       }
     ],
-    "pricingNote_fr": "3 séances gratuites, sans carte. Packs ponctuels sans expiration : 4 € pour 2 séances ; 26 € pour 20 séances. Mensuel 6 €/mois pour 4 séances (les séances non utilisées ne sont pas reportées). Un prix en roupies indiennes est aussi indiqué sur le site officiel (non converti ici)."
+    "pricingNote_fr": "3 séances gratuites, sans carte. Packs ponctuels sans expiration : 4 € pour 2 séances ; 26 € pour 20 séances. Mensuel 6 €/mois pour 4 séances (les séances non utilisées ne sont pas reportées)."
   },
   "pitch": {
     "summary_fr": "Plateforme de présentation collaborative pour créer, partager et présenter des decks, avec génération d'IA.",
@@ -30351,6 +30909,37 @@
     ],
     "pricingNote_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
+  "postwise": {
+    "summary_fr": "Espace de réseaux sociaux IA qui rédige des posts, les planifie et en analyse les performances, avec un essai de 7 jours sur les forfaits mensuels.",
+    "description_fr": "Espace de réseaux sociaux IA qui rédige des posts, les planifie et en analyse les performances, avec un essai de 7 jours sur les forfaits mensuels.",
+    "features_fr": [
+      "Posts générés par IA, assistant GhostWriter, planification et voix IA personnalisées",
+      "Analytique sur Boss ; entraînement IA personnalisé sur Unlimited",
+      "Offres mensuelles avec essai de 7 jours, puis reconduction automatique, résiliable à tout moment",
+      "Labellé Premium : l’essai n’est pas une offre gratuite durable"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre postwise.ai/pricing et lance l’essai de 7 jours sur Basic, Boss ou Unlimited.",
+        "description": "Ouvre postwise.ai/pricing et lance l’essai de 7 jours sur Basic, Boss ou Unlimited.",
+        "links": [
+          {
+            "label": "Postwise",
+            "url": "https://postwise.ai/"
+          }
+        ]
+      },
+      {
+        "title": "Connecte tes comptes sociaux, génère des posts avec GhostWriter et planifie-les.",
+        "description": "Connecte tes comptes sociaux, génère des posts avec GhostWriter et planifie-les."
+      },
+      {
+        "title": "Résilie avant la fin de l’essai si tu ne veux pas que l’abonnement mensuel commence.",
+        "description": "Résilie avant la fin de l’essai si tu ne veux pas que l’abonnement mensuel commence."
+      }
+    ],
+    "pricingNote_fr": "Abonnement mensuel, sans engagement long, résiliable à tout moment ; essai de 7 jours puis reconduction automatique sur l’offre choisie. Basic 33 €/mois — 3 comptes sociaux, 500 posts générés par IA/mois, planification sur 3 mois, 3 voix IA personnalisées, GhostWriter AI, support e-mail. Boss 53 €/mois — 5 comptes sociaux, 1 000 posts IA/mois, planification sur 12 mois, analytique avancée, support e-mail et chat. Unlimited 88 €/mois — comptes sociaux illimités, posts IA illimités, planification illimitée, entraînement IA personnalisé, support prioritaire. La FAQ officielle indique que les offres sont mensuelles, sans engagement long. Labellé Premium : l’essai de 7 jours n’est pas une offre 0 € durable."
+  },
   "power-bi": {
     "summary_fr": "Service d'analytique d'entreprise qui fournit des visualisations interactives.",
     "description_fr": "Service d'analytique d'entreprise qui fournit des visualisations interactives. Connectivité des données : connectez-tu à un large éventail de sources de données, dont Excel, SQL Server et des services cloud. Visualisations personnalisées : créez et importez des visuels sur mesure pour adapter les rapports à des besoins précis. Requêtes en langage naturel : posez des questions en langage naturel pour obtenir des réponses immédiates à partir de tes données. Tableaux de bord en temps réel : suivez les données en temps réel avec des tableaux de bord en direct et des alertes.",
@@ -30618,6 +31207,37 @@
       }
     ],
     "pricingNote_fr": "Quota quotidien de texte gratuit ; Plus 9 €/mois, Premium 27 €/mois, Muse 89 €/mois sur le web (promo annuelle 5 € / 16 € / 54 €)."
+  },
+  "presentations-ai": {
+    "summary_fr": "Plateforme de présentations IA qui génère des diaporamas, les exporte en PowerPoint et permet de les suivre et de les habiller à l’image de la marque.",
+    "description_fr": "Plateforme de présentations IA qui génère des diaporamas, les exporte en PowerPoint et permet de les suivre et de les habiller à l’image de la marque.",
+    "features_fr": [
+      "Modèles et agents IA pour générer des diapositives, avec export PowerPoint et PDF sur les offres payantes",
+      "Suivi et analytique des présentations, plus personnalisation de marque",
+      "Starter à 0 € avec 200 crédits et un plafond de 20 diapositives",
+      "Pro et Gold sont facturés à l’année."
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre presentations.ai et inscris-toi à Starter à 0 €, avec 200 crédits et un plafond de...",
+        "description": "Ouvre presentations.ai et inscris-toi à Starter à 0 €, avec 200 crédits et un plafond de 20 diapositives.",
+        "links": [
+          {
+            "label": "Presentations.AI",
+            "url": "https://www.presentations.ai/"
+          }
+        ]
+      },
+      {
+        "title": "Génère un diaporama et exporte-le si ton offre permet l’export PowerPoint.",
+        "description": "Génère un diaporama et exporte-le si ton offre permet l’export PowerPoint."
+      },
+      {
+        "title": "Prends Pro ou Gold facturés à l’année si tu as besoin de plus de crédits, de l’export...",
+        "description": "Prends Pro ou Gold facturés à l’année si tu as besoin de plus de crédits, de l’export PowerPoint et des outils de marque."
+      }
+    ],
+    "pricingNote_fr": "Starter 0 € — 200 crédits IA (crédits annuels par cycle de facturation), modèle et agent IA de départ, jusqu’à 20 diapositives. Pro 18 €/mois facturés à l’année (217 €/an) — 5 000 crédits, fonctions IA avancées, export PowerPoint haute qualité, suivi et analytique des présentations, personnalisation de marque. Gold 90 €/mois facturés à l’année (1 086 €/an) — 50 000 crédits, toutes les fonctions Pro, modèles et agents IA de pointe, personnalisation de marque avancée, base de connaissances partagée. Les prix de liste mensuels, en dehors de ces montants facturés à l’année, n’ont pas été extraits et ne sont pas listés."
   },
   "prezi": {
     "summary_fr": "Présentations dynamiques structurées et mises en page par IA.",
@@ -30988,6 +31608,37 @@
       "kpi",
       "données monitoring"
     ]
+  },
+  "puzzle": {
+    "summary_fr": "Logiciel de comptabilité IA pour startups qui catégorise les transactions, prépare les états financiers et peut être associé à un service de tenue de livres.",
+    "description_fr": "Logiciel de comptabilité IA pour startups qui catégorise les transactions, prépare les états financiers et peut être associé à un service de tenue de livres.",
+    "features_fr": [
+      "Catégorisation automatique de la plupart des transactions et états de trésorerie et d’engagement pré-remplis",
+      "Connexions illimitées ; suite IA (Chat, Cowork, Close) avec crédits selon l’offre",
+      "Insights sur la trésorerie, le burn, le runway et la marge à partir de Core",
+      "Forfaits mensuels ; la facturation annuelle propose « 12 months for the price of 10 » sur le site officiel."
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre puzzle.io/pricing et lance un essai logiciel seul sur Starter, Core, Complete ou...",
+        "description": "Ouvre puzzle.io/pricing et lance un essai logiciel seul sur Starter, Core, Complete ou Scale.",
+        "links": [
+          {
+            "label": "Puzzle",
+            "url": "https://puzzle.io/"
+          }
+        ]
+      },
+      {
+        "title": "Connecte tes comptes et relis les états financiers pré-remplis.",
+        "description": "Connecte tes comptes et relis les états financiers pré-remplis."
+      },
+      {
+        "title": "Continue sur le forfait mensuel qui correspond à tes sièges et à ton volume.",
+        "description": "Continue sur le forfait mensuel qui correspond à tes sièges et à ton volume."
+      }
+    ],
+    "pricingNote_fr": "Logiciel seul, « tu clôtures les comptes ». Un basculeur Monthly / Yearly est présent (« 12 months for the price of 10 »). Chiffres mensuels extraits : Starter 27 €/mois — 25 crédits IA à vie, 1 siège ; Core 65 €/mois — 25 crédits IA à vie, 5 sièges, plus insights, suivi des dépenses et des revenus, analyse des écarts, rapports avancés ; Complete 109 €/mois — 100 crédits IA/mois, sièges illimités, revue de justesse IA, rapprochements et insights IA, classes / départements / projets, constatation des revenus, support prioritaire ; Scale 326 €/mois — 300 crédits IA/mois, sièges illimités, comptabilité à plus fort volume, sous-grands livres, pas de limite de transactions ou d’intégrations, sauvegarde et restauration, onboarding dédié. Chaque offre logicielle payante a un parcours « Try for free ». Les totaux annuels, au-delà de la mention « 12 months for the price of 10 », n’étaient pas détaillés et ne sont pas listés. Les services de tenue de livres en plus du logiciel (comptables Puzzle ou cabinets partenaires) sont tarifés à part et ne sont pas repris ici. Labellé Premium."
   },
   "pycaret": {
     "summary_fr": "Plateforme AutoML pour l'apprentissage automatique et les pipelines de code.",
@@ -32829,6 +33480,37 @@
       "speech"
     ]
   },
+  "resume-io": {
+    "summary_fr": "Créateur de CV en ligne avec assistance IA, modèles éprouvés et outils de lettres de motivation pour rédiger et télécharger un CV prêt à postuler.",
+    "description_fr": "Créateur de CV en ligne avec assistance IA, modèles éprouvés et outils de lettres de motivation pour rédiger et télécharger un CV prêt à postuler.",
+    "features_fr": [
+      "Assistant CV IA, modèles éprouvés et outils de lettres de motivation",
+      "Offre gratuite limitée à un CV et une lettre",
+      "Parcours payant : essai de 7 jours à 2,95 € (promo, pas le prix normal), puis 24,95 € toutes les 4 semaines, ou 49,95 € tous les 3 mois",
+      "Garantie de remboursement officielle de 7 jours"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre resume.io et commence sur l’offre gratuite, avec un seul CV et une seule lettre.",
+        "description": "Ouvre resume.io et commence sur l’offre gratuite, avec un seul CV et une seule lettre.",
+        "links": [
+          {
+            "label": "Resume.io",
+            "url": "https://resume.io/"
+          }
+        ]
+      },
+      {
+        "title": "Compose ton CV avec les modèles et l’assistant IA.",
+        "description": "Compose ton CV avec les modèles et l’assistant IA."
+      },
+      {
+        "title": "Si tu as besoin de téléchargements illimités, prends l’essai de 7 jours à 2,95 €...",
+        "description": "Si tu as besoin de téléchargements illimités, prends l’essai de 7 jours à 2,95 € (une promo, pas le prix normal — il se reconduit à 24,95 € toutes les 4 semaines si tu ne résilies pas) ou le forfait trimestriel à 49,95 €."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 € — un seul CV et une seule lettre, partage et analytique limités. Promo / essai : essai de 7 jours à 2,95 €, puis reconduction à 24,95 € toutes les 4 semaines (CV et lettres illimités, téléchargements PDF illimités). L’essai à 2,95 € n’est pas le prix normal ; le tarif payant régulier est 24,95 € toutes les 4 semaines. Trimestriel 49,95 € facturés tous les 3 mois, reconduit automatiquement, mêmes CV, lettres et PDF illimités. Garantie de remboursement officielle de 7 jours. Prix officiels déjà en euros, affichés tels quels."
+  },
   "retell-ai": {
     "summary_fr": "Plateforme pour agents d'IA vocale qui répondent, qualifient et prennent rendez-tu lors d'appels téléphoniques.",
     "description_fr": "Retell AI déploie des agents vocaux qui gèrent de vrais appels téléphoniques, notamment le transfert d'appels, la prise de rendez-tu, les réponses basées sur la base de connaissances, la navigation IVR et les campagnes sortantes par lots. Il fournit une analyse post-appel et une assurance qualité, et répertorie la conformité HIPAA et SOC 2. Le prix commence à 0 $ avec une facturation à l'utilisation, et les nouveaux comptes reçoivent 10 $ de crédits gratuits. Les agents peuvent également utiliser un identifiant d'appelant de marque et des numéros de téléphone vérifiés pour éviter les indicateurs de spam.",
@@ -33068,6 +33750,37 @@
       "vidéo",
       "catalogue"
     ]
+  },
+  "rezi": {
+    "summary_fr": "Créateur de CV IA qui rédige, note et cible les mots-clés d’un CV pour les ATS, avec lettres de motivation et entraînement à l’entretien.",
+    "description_fr": "Créateur de CV IA qui rédige, note et cible les mots-clés d’un CV pour les ATS, avec lettres de motivation et entraînement à l’entretien.",
+    "features_fr": [
+      "AI Resume Writer et Editor, Rezi Score et ciblage de mots-clés pour les ATS",
+      "Créateur de lettres de motivation et entraînement à l’entretien IA",
+      "Export PDF, en Gratuit, Pro, Lifetime ou Enterprise",
+      "Ce n’est pas Prezi — il s’agit de rezi.ai, un outil de CV"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre rezi.ai et essaie l’offre Gratuite, avec un CV et trois téléchargements PDF.",
+        "description": "Ouvre rezi.ai et essaie l’offre Gratuite, avec un CV et trois téléchargements PDF.",
+        "links": [
+          {
+            "label": "Rezi",
+            "url": "https://www.rezi.ai/"
+          }
+        ]
+      },
+      {
+        "title": "Utilise l’AI Writer et le Rezi Score pour cibler les mots-clés d’une offre.",
+        "description": "Utilise l’AI Writer et le Rezi Score pour cibler les mots-clés d’une offre."
+      },
+      {
+        "title": "Passe à Pro au mois, ou achète Lifetime, si tu veux des CV et des entretiens IA illimités.",
+        "description": "Passe à Pro au mois, ou achète Lifetime, si tu veux des CV et des entretiens IA illimités."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 € — 1 CV, 1 entretien IA, 3 téléchargements PDF, modèles au format standard, AI Resume Writer et Editor, sans paiement. Pro 26 €/mois — CV illimités, entretiens IA illimités, téléchargements PDF illimités, tous les modèles, AI Writer et Editor, Rezi Score, ciblage de mots-clés. Lifetime 135 € une fois — toutes les fonctions, un seul paiement. Enterprise 90 €/mois pour 200 utilisateurs — tout Pro, plus vidéos de formation, restriction de domaine, SSO, rôles d’équipe et fonctions d’administration (démo sur demande)."
   },
   "rezup": {
     "summary_fr": "Avis vocaux : tes clients enregistrent une courte réponse dans n’importe quelle langue ; Rezup transcrit, traduit et t’aide à répondre et à analyser.",
@@ -35185,6 +35898,37 @@
       "copilot"
     ]
   },
+  "shortly-ai": {
+    "summary_fr": "Espace d’écriture et de chat qui réunit plus de 100 modèles IA dans un seul abonnement, avec recherche web, discussion sur fichiers et génération d’images.",
+    "description_fr": "Espace d’écriture et de chat qui réunit plus de 100 modèles IA dans un seul abonnement, avec recherche web, discussion sur fichiers et génération d’images.",
+    "features_fr": [
+      "Un espace pour plus de 100 modèles IA, avec recherche web et génération d’images",
+      "Assistant d’écriture IA : brouillon, réécriture, peaufinage et écriture créative",
+      "Discussion avec des images et des documents",
+      "Forfaits Plus et Pro facturés au mois."
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre shortlyai.com et pars de la page tarifs avec Plus ou Pro.",
+        "description": "Ouvre shortlyai.com et pars de la page tarifs avec Plus ou Pro.",
+        "links": [
+          {
+            "label": "Shortly AI",
+            "url": "https://shortlyai.com/"
+          }
+        ]
+      },
+      {
+        "title": "Utilise l’espace pour rédiger, réécrire ou discuter avec des documents, avec plus de 100...",
+        "description": "Utilise l’espace pour rédiger, réécrire ou discuter avec des documents, avec plus de 100 modèles dans un seul abonnement."
+      },
+      {
+        "title": "Reste sur Plus pour un usage quotidien, ou passe à Pro si tu as besoin de limites plus...",
+        "description": "Reste sur Plus pour un usage quotidien, ou passe à Pro si tu as besoin de limites plus élevées et d’un support prioritaire."
+      }
+    ],
+    "pricingNote_fr": "Plus 17 €/mois facturés au mois — plus de 100 modèles IA, recherche web, discussion avec images et documents, génération d’images. Pro 44 €/mois facturés au mois — tout Plus, limites d’usage 3× plus élevées, stockage de fichiers élargi, support prioritaire. Un basculeur Yearly « Save 21 % » est présent ; les totaux annuels n’étaient pas affichés dans la vue mensuelle extraite et ne sont pas listés. Un « Try for free » est proposé ; aucune offre 0 € durable n’était indiquée sur la page tarifs. Labellé Premium."
+  },
   "shortwave": {
     "summary_fr": "Client de messagerie IA pour Gmail qui organise, écrit, recherche et planifie avec des invites.",
     "description_fr": "Shortwave est un client de messagerie conçu pour Gmail avec un agent IA qui organise la boîte de réception, rédige les réponses, recherche l'historique et planifie des réunions à partir d'invites. Il fonctionne sur le Web, iOS, Android, Mac et Windows. Les forfaits incluent un essai gratuit de 14 jours : Business coûte 30 $ par siège et par mois, Premier 45 $ et Max 120 $. Un forfait gratuit permanent n’était pas répertorié sur la page de tarification.",
@@ -35784,6 +36528,37 @@
       "productivité",
       "catalogue"
     ]
+  },
+  "slidesgo": {
+    "summary_fr": "Bibliothèque de modèles PPT et Google Slides conçus par des designers, avec un quota gratuit de présentations générées par IA et une offre Premium pour plus de volume.",
+    "description_fr": "Bibliothèque de modèles PPT et Google Slides conçus par des designers, avec un quota gratuit de présentations générées par IA et une offre Premium pour plus de volume.",
+    "features_fr": [
+      "Plus de 30 000 modèles PPT et Google Slides conçus par des designers, plus un éditeur en ligne",
+      "Gratuit : 3 présentations générées par IA et 3 téléchargements par mois",
+      "Premium est décrit comme Unlimited, avec un plafond de sécurité officiel de 150 générations IA et 150 téléchargements par mois",
+      "Toolkits enseignants, leçons Slidesclass, sièges d’équipe, sans publicité et sans attribution en Premium"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre slidesgo.com et utilise l’offre Gratuite...",
+        "description": "Ouvre slidesgo.com et utilise l’offre Gratuite (3 présentations IA et 3 téléchargements par mois).",
+        "links": [
+          {
+            "label": "Slidesgo",
+            "url": "https://slidesgo.com/"
+          }
+        ]
+      },
+      {
+        "title": "Parcours les modèles PPT et Google Slides conçus par des designers, ou génère une...",
+        "description": "Parcours les modèles PPT et Google Slides conçus par des designers, ou génère une présentation."
+      },
+      {
+        "title": "Abonne-toi à Premium au mois ou à l’année si tu as besoin de toute la bibliothèque et des...",
+        "description": "Abonne-toi à Premium au mois ou à l’année si tu as besoin de toute la bibliothèque et des plafonds officiels plus élevés — « Unlimited » est officiellement plafonné à 150 générations IA et 150 téléchargements par mois."
+      }
+    ],
+    "pricingNote_fr": "Gratuit — 3 présentations générées par IA par mois et 3 téléchargements de modèles par mois. Premium 4,99 €/mois, ou 2,50 €/mois facturés 29,99 € à l’année (« save 50 % with a yearly plan »), résiliable à tout moment — présentations IA et téléchargements de modèles décrits comme Unlimited, avec une note officielle : les comptes Premium ont un plafond de sécurité de 150 générations IA par mois et 150 téléchargements par mois. Accès à toute la bibliothèque de plus de 30 000 modèles, Slidesclass, accès anticipé aux nouvelles fonctions IA, invitation et gestion des membres d’équipe, sans publicité, sans attribution requise. TVA et taxes locales éventuelles. Remises plus importantes à partir de 3 utilisateurs ; tarifs spéciaux pour écoles, districts et universités sur demande. Prix officiels déjà en euros, affichés tels quels. « Unlimited » est officiellement plafonné à 150/mois."
   },
   "slidespeak": {
     "summary_fr": "Présentations PowerPoint générées par IA à partir de documents.",
@@ -39233,6 +40008,68 @@
       }
     ]
   },
+  "teachmate": {
+    "summary_fr": "Suite d’environ 160 outils IA pour enseignants, orientée Royaume-Uni : diaporamas, fiches, chat, rédacteur de bulletins sécurisé et fonction « clone my tone ».",
+    "description_fr": "Suite d’environ 160 outils IA pour enseignants, orientée Royaume-Uni : diaporamas, fiches, chat, rédacteur de bulletins sécurisé et fonction « clone my tone ».",
+    "features_fr": [
+      "Suite d’environ 160 outils IA pour enseignants, orientée Royaume-Uni : diaporamas, fiches, Open Chat, rédacteur de bulletins sécurisé et Clone my Tone",
+      "L’offre Gratuite, ce sont « les outils gratuits seulement », pas toute la bibliothèque",
+      "Pro au mois ou à l’année ; FIRSTYEAR est une promo de première année, le tarif annuel normal est 86 €",
+      "Offres Whole School à partir de 2 € par enseignant et par mois, avec SSO, support DPIA et paiement par facture"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre teachmate.com et essaie les outils Gratuits, sans carte.",
+        "description": "Ouvre teachmate.com et essaie les outils Gratuits, sans carte.",
+        "links": [
+          {
+            "label": "Teachmate",
+            "url": "https://www.teachmate.com/"
+          }
+        ]
+      },
+      {
+        "title": "Si tu as besoin de la bibliothèque complète des 160 outils, prends Pro à 10 €/mois ou le...",
+        "description": "Si tu as besoin de la bibliothèque complète des 160 outils, prends Pro à 10 €/mois ou le forfait annuel."
+      },
+      {
+        "title": "Le tarif annuel normal est 86 €/an ; le code FIRSTYEAR (72 € la première année) est une...",
+        "description": "Le tarif annuel normal est 86 €/an ; le code FIRSTYEAR (72 € la première année) est une promo, pas le prix normal. Renseigne-toi sur une licence établissement si tu achètes pour une équipe."
+      }
+    ],
+    "pricingNote_fr": "Gratuit — outils gratuits seulement (pas la bibliothèque complète des 160 outils), sans carte. Pro 10 € payés au mois, résiliable à tout moment — bibliothèque complète, exports, Open Chat illimité, générations illimitées de diaporamas et de fiches, Secure Report Writer, Clone my Tone, raffinements illimités, accès anticipé aux nouveaux outils, webinaires CPD, cours Certified Educator offert. L’annuel Pro se reconduit à 86 €/an (le tarif annuel normal). Promo : offre officielle de première année 72 € d’avance (équivalent 6 €/mois la première année) avec le code FIRSTYEAR au paiement. FIRSTYEAR est une promo, pas le prix normal ; le tarif annuel régulier est 86 €/an. Offres Whole School à partir de 2 € par enseignant et par mois, paiement par facture ou carte. Un exemple officiel de 496 € par an hors TVA apparaît à côté du sélecteur de packs — la correspondance exacte avec un pack de 5 / 10 / 20 / 30 / 50 licences n’a pas été isolée de façon univoque et n’est pas attribuée au-delà de cet exemple officiel. Les offres établissement incluent tout Pro pour tout le personnel, plus gestion des licences, INSET, SSO, documentation DPIA, paiement par facture, logo de l’école et support au Royaume-Uni. Prix officiels convertis au taux BCE."
+  },
+  "teal": {
+    "summary_fr": "Plateforme de carrière IA avec créateur de CV, suivi des candidatures, correspondance de mots-clés et outils de lettres de motivation pour piloter une recherche d’emploi.",
+    "description_fr": "Plateforme de carrière IA avec créateur de CV, suivi des candidatures, correspondance de mots-clés et outils de lettres de motivation pour piloter une recherche d’emploi.",
+    "features_fr": [
+      "Créateur de CV IA, suivi des candidatures et correspondance de mots-clés avec score",
+      "Générateurs de puces et de résumés, modèles d’e-mails et de CV",
+      "Offre Gratuite pour toujours, avec les limites indiquées, sans carte pour commencer",
+      "Teal+ facturé à la semaine, tous les 30 jours ou tous les 90 jours"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre tealhq.com et commence sur l’offre Gratuite pour toujours, sans carte.",
+        "description": "Ouvre tealhq.com et commence sur l’offre Gratuite pour toujours, sans carte.",
+        "links": [
+          {
+            "label": "Teal",
+            "url": "https://www.tealhq.com/"
+          }
+        ]
+      },
+      {
+        "title": "Crée un CV et suis tes candidatures dans les limites indiquées de l’offre Gratuite.",
+        "description": "Crée un CV et suis tes candidatures dans les limites indiquées de l’offre Gratuite."
+      },
+      {
+        "title": "Choisis un forfait Teal+ à la semaine, 30 jours ou 90 jours si tu as besoin d’écriture IA...",
+        "description": "Choisis un forfait Teal+ à la semaine, 30 jours ou 90 jours si tu as besoin d’écriture IA et de correspondance de mots-clés illimitées."
+      }
+    ],
+    "pricingNote_fr": "Gratuit pour toujours, sans carte pour commencer — 10 modèles de CV, analyse Top 5 dans le créateur de CV, modèles d’e-mails de base par étape, crédits IA limités, analyse IA et correspondance de mots-clés basiques. Teal+ 12 € par semaine, ou 26 € tous les 30 jours, ou 71 € tous les 90 jours — CV illimités, suivi d’offres illimité, modèles illimités, correspondance de mots-clés et analyse avancée illimitées, résumés, puces et lettres IA illimités, contrôle complet de la mise en page. Tu peux monter, descendre ou résilier à tout moment."
+  },
   "teamily-ai": {
     "summary_fr": "Messagerie native IA où humains et agents travaillent ensemble, avec mémoire partagée et studios collaboratifs.",
     "description_fr": "Messagerie native IA où humains et agents travaillent ensemble, avec mémoire partagée et studios collaboratifs.",
@@ -39567,6 +40404,37 @@
       "text2sql"
     ],
     "pricingNote_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
+  },
+  "textcortex": {
+    "summary_fr": "Espace d’écriture et de base de connaissances IA où les équipes créent des agents, connectent leurs sources et automatisent les flux de texte du quotidien.",
+    "description_fr": "Espace d’écriture et de base de connaissances IA où les équipes créent des agents, connectent leurs sources et automatisent les flux de texte du quotidien.",
+    "features_fr": [
+      "Bases de connaissances, agents personnalisés, compétences et connecteurs",
+      "Accès aux grands modèles et automatisations de flux, avec jusqu’à 10 Go de stockage en Premium",
+      "Premium facturé par utilisateur, au mois ou à l’année, hors TVA",
+      "Pas d’offre Gratuite durable sur la page tarifs officielle — labellé Premium"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre textcortex.com/pricing et commence en Premium, facturé au mois ou à l’année, hors...",
+        "description": "Ouvre textcortex.com/pricing et commence en Premium, facturé au mois ou à l’année, hors TVA.",
+        "links": [
+          {
+            "label": "TextCortex",
+            "url": "https://textcortex.com/"
+          }
+        ]
+      },
+      {
+        "title": "Construis une base de connaissances et des agents, et connecte tes sources.",
+        "description": "Construis une base de connaissances et des agents, et connecte tes sources."
+      },
+      {
+        "title": "Parle aux ventes d’Enterprise si tu as besoin du SSO, d’un déploiement dédié ou d’une...",
+        "description": "Parle aux ventes d’Enterprise si tu as besoin du SSO, d’un déploiement dédié ou d’une facturation centralisée."
+      }
+    ],
+    "pricingNote_fr": "Premium 27 € par utilisateur et par mois facturés au mois, ou 22 € par utilisateur et par mois facturés à l’année — bases de connaissances, agents personnalisés, compétences et connecteurs, accès aux grands modèles, automatisations de flux, usage des modèles inclus, jusqu’à 10 Go de stockage. Prix officiels hors TVA ; la TVA est calculée au paiement. Enterprise — tarif flexible / sur mesure et déploiement dédié (SSO/SCIM/SAML, facturation centralisée, support prioritaire ; demander une démo). Aucune offre Gratuite durable n’était indiquée sur la page tarifs officielle. Labellé Premium."
   },
   "textio": {
     "summary_fr": "Rédaction de conseils pour le recrutement et la gestion des performances, y compris les offres d'emploi et les évaluations.",
@@ -40273,6 +41141,37 @@
       "agent de code",
       "ByteDance"
     ]
+  },
+  "transkriptor": {
+    "summary_fr": "Service de transcription IA pour réunions, audio et vidéo dans plus de 100 langues, avec résumés, traduction et espace d’équipe sur les offres supérieures.",
+    "description_fr": "Service de transcription IA pour réunions, audio et vidéo dans plus de 100 langues, avec résumés, traduction et espace d’équipe sur les offres supérieures.",
+    "features_fr": [
+      "Transcription IA de réunions, d’audio et de vidéo dans plus de 100 langues",
+      "Édite, traduis, partage et télécharge les transcriptions, sur le web et le mobile",
+      "Pro ajoute résumé IA, chat IA et base de connaissances ; Team ajoute des espaces, un vocabulaire personnalisé et l’analyse d’appels",
+      "Labellé Premium : un « Try it Free » est proposé, sans quota de minutes 0 € durable documenté"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre transkriptor.com et essaie le produit gratuitement si tu veux tester une...",
+        "description": "Ouvre transkriptor.com et essaie le produit gratuitement si tu veux tester une transcription.",
+        "links": [
+          {
+            "label": "Transkriptor",
+            "url": "https://transkriptor.com/"
+          }
+        ]
+      },
+      {
+        "title": "Envoie un audio ou une vidéo, ou connecte une réunion, puis relis la transcription.",
+        "description": "Envoie un audio ou une vidéo, ou connecte une réunion, puis relis la transcription."
+      },
+      {
+        "title": "Choisis Lite, Pro ou Team — au mois ou à l’année — selon le volume de minutes à...",
+        "description": "Choisis Lite, Pro ou Team — au mois ou à l’année — selon le volume de minutes à transcrire. Le −50 % éducation est une promo, pas le prix normal."
+      }
+    ],
+    "pricingNote_fr": "Lite 9 €/mois — 300 minutes de transcription par mois. Pro 18 €/mois, ou 8 €/mois facturés 90 € à l’année — tout Lite, plus 2 400 minutes/mois, résumé IA, modèles de compte rendu personnalisés, chat IA, base de connaissances, données non utilisées pour l’entraînement. Team 27 €/mois/siège, ou 18 €/mois/siège facturés 217 € à l’année — tout Pro, plus 3 000 minutes par siège et par mois, vocabulaire personnalisé, analyse d’appels, analytique avancée, gestion d’équipe centralisée, nom et avatar de bot personnalisés. Des packs horaires officiels au volume sont aussi listés (ex. 100 heures 54 €/mois, ou 27 €/mois facturés 326 € à l’année, et des packs plus grands). Un parcours « Try it Free » est proposé ; aucune offre 0 € durable avec un quota de minutes documenté n’a été trouvée sur la page tarifs — labellé Premium. Promo : l’éducation est annoncée à −50 % sur tous les forfaits, ce n’est pas le prix normal."
   },
   "translatebuff": {
     "summary_fr": "Une extension de navigateur qui traduit les pages et le texte sélectionné, avec un essai gratuit et des offres Pro dont les totaux de facturation sont affichés clairement.",
@@ -41572,6 +42471,37 @@
       "influencer",
       "analytique"
     ]
+  },
+  "upscale-media": {
+    "summary_fr": "Agrandisseur d’images IA dans le navigateur (produit PixelBin) qui améliore les photos via un forfait de crédits ou des packs à l’achat unique.",
+    "description_fr": "Agrandisseur d’images IA dans le navigateur (produit PixelBin) qui améliore les photos via un forfait de crédits ou des packs à l’achat unique.",
+    "features_fr": [
+      "Agrandisseur d’images IA dans le navigateur, produit PixelBin, avec amélioration des visages",
+      "Offre gratuite : 3 crédits et 3 téléchargements chaque mois",
+      "Abonnement annuel facturé 63,53 €, ou packs de crédits à l’achat unique, valables 1 an",
+      "API mentionnée ; Enterprise : parler aux ventes"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre upscale.media et inscris-toi à l’offre Gratuite...",
+        "description": "Ouvre upscale.media et inscris-toi à l’offre Gratuite (3 crédits et 3 téléchargements par mois).",
+        "links": [
+          {
+            "label": "Upscale.media",
+            "url": "https://www.upscale.media/"
+          }
+        ]
+      },
+      {
+        "title": "Envoie une photo et agrandis-la dans le navigateur.",
+        "description": "Envoie une photo et agrandis-la dans le navigateur."
+      },
+      {
+        "title": "Abonne-toi à l’année ou achète un pack de crédits si tu as besoin de plus de crédits.",
+        "description": "Abonne-toi à l’année ou achète un pack de crédits si tu as besoin de plus de crédits."
+      }
+    ],
+    "pricingNote_fr": "Gratuit — 3 crédits et 3 téléchargements gratuits chaque mois. Abonnement 0,01 €/crédit, 63,53 € facturés à l’année (renouvellement annuel, résiliable à tout moment). Un basculeur Monthly/Yearly « 70 % off » sur l’annuel est visible — le total mensuel n’a pas été clairement isolé et n’est pas listé. Packs à l’achat unique, valables 1 an, non remboursables : 60 crédits 7,25 € (0,12 €/crédit), 125 crédits 10,88 € (0,09 €/crédit), 500 crédits 27,22 € (0,05 €/crédit), 1 200 crédits 49,91 € (0,04 €/crédit). Enterprise : parler aux ventes. Prix officiels déjà en euros, affichés tels quels. La page indique qu’il n’y a pas de remboursement en raison des coûts IA, et invite à essayer l’offre Gratuite d’abord."
   },
   "upscayl": {
     "features_fr": [
@@ -45045,46 +45975,6 @@
       "éducation"
     ]
   },
-  "zoho-crm": {
-    "summary_fr": "CRM complet avec l'assistant IA Zia.",
-    "description_fr": "Zoho CRM gère prospects, affaires, campagnes et service client. Son assistant Zia prédit les chances de conclure, détecte les anomalies, suggère les meilleurs moments de contact et répond aux questions sur les données.",
-    "features_fr": [
-      "Prédiction de conclusion des affaires",
-      "Détection d'anomalies",
-      "Meilleurs moments de contact",
-      "Questions en langage naturel"
-    ],
-    "howToUse_fr": [
-      {
-        "title": "Ouvre Zoho CRM (Zia)",
-        "description": "Rends-toi sur zoho.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
-        "links": [
-          {
-            "label": "Zoho CRM (Zia)",
-            "url": "https://www.zoho.com/crm/"
-          }
-        ]
-      },
-      {
-        "title": "Configure ton espace",
-        "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
-      },
-      {
-        "title": "Prédiction de conclusion des affaires",
-        "description": "Teste prédiction de conclusion des affaires sur un petit exemple avant d'automatiser ou d'étendre l'usage."
-      },
-      {
-        "title": "Détection d'anomalies",
-        "description": "Teste détection d'anomalies sur un petit exemple avant d'automatiser ou d'étendre l'usage."
-      }
-    ],
-    "tags_fr": [
-      "ventes",
-      "crm",
-      "zoho"
-    ],
-    "pricingNote_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
-  },
   "zoho_analytics": {
     "summary_fr": "Zoho Analytics est une plateforme cloud de business intelligence et d'analytique qui facilite la visualisation des données, la création de rapports instructifs et le partage de tableaux de bord. Elle propose une interface no-code, des informations par IA via Zia, et la possibilité de fusionner des données issues de centaines de sources. Zoho Analytics prend en charge la collaboration d'équipe, les rapports planifiés et la sécurité des données, ce qui la rend adaptée aux entreprises de toutes tailles qui recherchent des informations exploitables issues des données.",
     "description_fr": "Zoho Analytics est une plateforme cloud de business intelligence et d'analytique qui facilite la visualisation des données, la création de rapports instructifs et le partage de tableaux de bord. Elle propose une interface no-code, des informations par IA via Zia, et la possibilité de fusionner des données issues de centaines de sources. Zoho Analytics prend en charge la collaboration d'équipe, les rapports planifiés et la sécurité des données, ce qui la rend adaptée aux entreprises de toutes tailles qui recherchent des informations exploitables issues des données. Connecte 500+ applications, créez des tableaux de bord et obtenez instantanément des informations exploitables avec Zoho Analytics, le logiciel de business intelligence et d'analyse de données primé. Analytique en libre-service : créez des rapports et des tableaux de bord sans coder. Fusion de données : fusionnez et analysez des données issues de plusieurs sources. Informations par IA : Zia fournit des informations automatiques et la détection d'anomalies. Collaboration : partagez des rapports et des tableaux de bord avec ton équipe.",
@@ -45124,6 +46014,46 @@
       "analytique",
       "cloud"
     ]
+  },
+  "zoho-crm": {
+    "summary_fr": "CRM complet avec l'assistant IA Zia.",
+    "description_fr": "Zoho CRM gère prospects, affaires, campagnes et service client. Son assistant Zia prédit les chances de conclure, détecte les anomalies, suggère les meilleurs moments de contact et répond aux questions sur les données.",
+    "features_fr": [
+      "Prédiction de conclusion des affaires",
+      "Détection d'anomalies",
+      "Meilleurs moments de contact",
+      "Questions en langage naturel"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre Zoho CRM (Zia)",
+        "description": "Rends-toi sur zoho.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+        "links": [
+          {
+            "label": "Zoho CRM (Zia)",
+            "url": "https://www.zoho.com/crm/"
+          }
+        ]
+      },
+      {
+        "title": "Configure ton espace",
+        "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+      },
+      {
+        "title": "Prédiction de conclusion des affaires",
+        "description": "Teste prédiction de conclusion des affaires sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+      },
+      {
+        "title": "Détection d'anomalies",
+        "description": "Teste détection d'anomalies sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+      }
+    ],
+    "tags_fr": [
+      "ventes",
+      "crm",
+      "zoho"
+    ],
+    "pricingNote_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "zonos": {
     "summary_fr": "Modèle open source de synthèse vocale expressive.",

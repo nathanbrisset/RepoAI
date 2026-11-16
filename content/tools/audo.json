@@ -1,0 +1,88 @@
+{
+  "id": "audo",
+  "name": "Audo",
+  "url": "https://audo.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Browser audio toolkit that enhances, cleans, transcribes and generates sound; every tool is free on the first part of a file, then pay-as-you-go credits.",
+  "description": "Browser audio toolkit that enhances, cleans, transcribes and generates sound; every tool is free on the first part of a file, then pay-as-you-go credits.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "audio",
+    "enhancement",
+    "noise-removal",
+    "transcription",
+    "credits",
+    "pay-as-you-go"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://audo.ai/pricing",
+    "details": "Free 0 €, no sign-up — every tool on the first part of a file (up to an hour, with per-tool daily free allowances, e.g. audio enhancer: first minute 3 times a day, then 5 credits/minute). Pay as you go on whole files up to 10 hours, 1 to 30 credits a minute by tool. Credit packs: 5 € / 500 credits (first purchase only — a promo, not the regular pack price), 9 € / 1,250 credits (+25% bonus), 23 € / 3,500 (+40%), 45 € / 7,500 (+50%), 90 € / 16,000 (+60%). Credits never expire; charged only when a job succeeds.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/audo.png",
+  "image": "/screenshots/audo.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Browser audio toolkit: enhance, clean, transcribe and generate sound",
+    "Every tool is free on the first part of a file, with no sign-up",
+    "Pay-as-you-go credits that never expire, charged only when a job succeeds",
+    "The 5 € / 500-credit pack is first purchase only — labelled as a promo"
+  ],
+  "howToUse": [
+    {
+      "title": "Open audo.ai, drop a file in and use the free first-part allowance, with no account.",
+      "description": "Open audo.ai, drop a file in and use the free first-part allowance, with no account.",
+      "links": [
+        {
+          "label": "Audo",
+          "url": "https://audo.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Pick an enhancer, noise removal, transcription or generation tool.",
+      "description": "Pick an enhancer, noise removal, transcription or generation tool."
+    },
+    {
+      "title": "Buy a credit pack if you need to process a whole file — the 5 € / 500-credit pack is...",
+      "description": "Buy a credit pack if you need to process a whole file — the 5 € / 500-credit pack is first purchase only, and credits never expire."
+    }
+  ],
+  "sources": [
+    "https://audo.ai/pricing"
+  ],
+  "summary_fr": "Boîte à outils audio dans le navigateur pour améliorer, nettoyer, transcrire et générer du son : chaque outil est gratuit sur le début d’un fichier, puis crédits à l’usage.",
+  "description_fr": "Boîte à outils audio dans le navigateur pour améliorer, nettoyer, transcrire et générer du son : chaque outil est gratuit sur le début d’un fichier, puis crédits à l’usage.",
+  "features_fr": [
+    "Boîte à outils audio dans le navigateur : améliorer, nettoyer, transcrire et générer du son",
+    "Chaque outil est gratuit sur le début d’un fichier, sans inscription",
+    "Crédits à l’usage qui n’expirent pas, facturés seulement si la tâche réussit",
+    "Le pack 5 € / 500 crédits est réservé au premier achat — labellisé comme promo"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre audo.ai, dépose un fichier et utilise le quota gratuit sur le début du fichier...",
+      "description": "Ouvre audo.ai, dépose un fichier et utilise le quota gratuit sur le début du fichier, sans compte.",
+      "links": [
+        {
+          "label": "Audo",
+          "url": "https://audo.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Choisis un outil d’amélioration, de retrait de bruit, de transcription ou de génération.",
+      "description": "Choisis un outil d’amélioration, de retrait de bruit, de transcription ou de génération."
+    },
+    {
+      "title": "Achète un pack de crédits si tu dois traiter un fichier entier — le pack 5 € / 500...",
+      "description": "Achète un pack de crédits si tu dois traiter un fichier entier — le pack 5 € / 500 crédits est réservé au premier achat, et les crédits n’expirent pas."
+    }
+  ]
+}
