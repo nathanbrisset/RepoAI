@@ -1,7 +1,7 @@
 {
   "id": "liner",
   "name": "Liner",
-  "url": "https://getliner.com/",
+  "url": "https://liner.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI research copilot with highlights, PDF chat, and browser workflows.",
@@ -19,13 +19,13 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": false,
-    "note": "See https://getliner.com/ for current plans.",
-    "sourceUrl": "https://getliner.com/"
+    "note": "See https://liner.com/ for current plans.",
+    "sourceUrl": "https://liner.com/"
   },
   "logo": "/logos/liner.png",
   "image": "/screenshots/liner.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "Highlight and save passages from web pages and PDFs.",
     "Ask questions with AI answers tied to your sources.",
@@ -39,7 +39,7 @@
       "links": [
         {
           "label": "Liner",
-          "url": "https://getliner.com/"
+          "url": "https://liner.com/"
         }
       ]
     },
@@ -69,5 +69,8 @@
     "PDF",
     "recherche",
     "navigateur"
+  ],
+  "sources": [
+    "https://liner.com/"
   ]
 }

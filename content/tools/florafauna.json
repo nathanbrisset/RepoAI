@@ -1,7 +1,7 @@
 {
   "id": "florafauna",
   "name": "Flora",
-  "url": "https://www.florafauna.ai",
+  "url": "https://flora.ai/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Creative AI canvas that chains text, image and video.",
@@ -21,12 +21,12 @@
     "label": "Freemium",
     "verified": false,
     "note": "Freemium",
-    "sourceUrl": "https://www.florafauna.ai"
+    "sourceUrl": "https://flora.ai/"
   },
   "logo": "/logos/florafauna.png",
   "image": "/screenshots/florafauna.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "Visual canvas of generation blocks",
     "Reusable text, image and video pipelines",
@@ -46,7 +46,7 @@
       "links": [
         {
           "label": "Flora",
-          "url": "https://www.florafauna.ai"
+          "url": "https://flora.ai/"
         }
       ]
     },
@@ -64,5 +64,8 @@
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "sources": [
+    "https://flora.ai/"
+  ]
 }

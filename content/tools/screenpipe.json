@@ -1,7 +1,7 @@
 {
   "id": "screenpipe",
   "name": "Screenpipe",
-  "url": "https://screenpi.pe",
+  "url": "https://screenpipe.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Records your screen and audio locally for a searchable AI memory.",
@@ -18,7 +18,7 @@
   ],
   "pricing": {
     "verified": false,
-    "sourceUrl": "https://screenpi.pe",
+    "sourceUrl": "https://screenpipe.com/",
     "model": "open-source",
     "label": "Open source",
     "note": "Open source; hosting, cloud or support plans may apply.",
@@ -27,7 +27,7 @@
   "logo": "/logos/screenpipe.png",
   "image": "/screenshots/screenpipe.webp",
   "dateAdded": "2026-10-30",
-  "lastVerified": "2026-10-30",
+  "lastVerified": "2026-11-16",
   "features": [
     "Continuous screen and audio capture",
     "Local indexing",
@@ -43,11 +43,11 @@
   "howToUse": [
     {
       "title": "Open Screenpipe",
-      "description": "Go to screenpi.pe, then sign up or start a free trial if one is offered.",
+      "description": "Go to screenpipe.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Screenpipe",
-          "url": "https://screenpi.pe"
+          "url": "https://screenpipe.com/"
         }
       ]
     },
@@ -74,11 +74,11 @@
   "howToUse_fr": [
     {
       "title": "Ouvre Screenpipe",
-      "description": "Rends-toi sur screenpi.pe, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "description": "Rends-toi sur screenpipe.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
       "links": [
         {
           "label": "Screenpipe",
-          "url": "https://screenpi.pe"
+          "url": "https://screenpipe.com/"
         }
       ]
     },
@@ -94,5 +94,8 @@
       "title": "Indexation en local",
       "description": "Teste indexation en local sur un petit exemple avant d'automatiser ou d'étendre l'usage."
     }
+  ],
+  "sources": [
+    "https://screenpipe.com/"
   ]
 }
