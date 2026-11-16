@@ -3,7 +3,7 @@
   "name": "Hyprnote",
   "url": "https://hyprnote.com",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "renamed",
   "summary": "Local, open-source AI meeting notes.",
   "description": "Hyprnote records and transcribes meetings right on your computer, with no bot in the call, then enriches your notes with AI. Everything stays local, making it an option for sensitive data.",
   "summary_fr": "Prise de notes de réunion IA, en local et open source.",
@@ -27,7 +27,7 @@
   "logo": "/logos/hyprnote.png",
   "image": "/screenshots/hyprnote.webp",
   "dateAdded": "2026-10-30",
-  "lastVerified": "2026-10-30",
+  "lastVerified": "2026-11-16",
   "features": [
     "Local transcription",
     "No bot in the call",
@@ -94,5 +94,8 @@
       "title": "Aucun robot dans l'appel",
       "description": "Teste aucun robot dans l'appel sur un petit exemple avant d'automatiser ou d'étendre l'usage."
     }
-  ]
+  ],
+  "successorId": "anarlog",
+  "statusNote": "Now Anarlog (formerly Hyprnote).",
+  "statusNote_fr": "Désormais Anarlog (anciennement Hyprnote)."
 }

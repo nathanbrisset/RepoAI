@@ -48,6 +48,14 @@ const nextConfig = {
       audio: "voice",
       "data-processing": "data",
     }
+    const renamedToolRedirects = [
+      { from: "gpt-for-sheets", to: "autosheet" },
+      { from: "sonauto", to: "treblo" },
+      { from: "podcastle", to: "async" },
+      { from: "hyprnote", to: "anarlog" },
+      { from: "lmarena", to: "arena" },
+      { from: "opera-aria", to: "opera-ai" },
+    ]
     const duplicateTools = {
       "canva-magic-design": "canva-ai",
       mailchimpoptimizer: "mailchimp",
@@ -81,6 +89,10 @@ const nextConfig = {
       { source: "/fr/tools/tools", destination: "/fr/tools", permanent: true },
       { source: "/fr/tool/tool/:id", destination: "/fr/tool/:id", permanent: true },
       { source: "/fr/tools/:id", destination: "/fr/tool/:id", permanent: true },
+      ...renamedToolRedirects.flatMap(({ from, to }) => [
+        { source: `/tool/${from}`, destination: `/tool/${to}`, permanent: true },
+        { source: `/fr/tool/${from}`, destination: `/fr/tool/${to}`, permanent: true },
+      ]),
       ...renamedToTools.flatMap((id) => [
         {
           source: `/tool/${id}`,
@@ -93,16 +105,7 @@ const nextConfig = {
           permanent: true,
         },
       ]),
-      {
-        source: "/tool/windsurf",
-        destination: "/tool/devin",
-        permanent: true,
-      },
-      {
-        source: "/fr/tool/windsurf",
-        destination: "/fr/tool/devin",
-        permanent: true,
-      },
+
       {
         source: "/match-results",
         destination: "/recommendation",

@@ -523,6 +523,47 @@
       "vidéo publicités"
     ]
   },
+  "adobe_firefly": {
+    "summary_fr": "Adobe Firefly est le modèle d'IA générative d'Adobe pour les professionnels de la création. Il permet la génération d'images, les effets de texte et la création de vecteurs à partir de prompts en langage naturel. Profondément intégré à Adobe Creative Cloud, Firefly permet aux designers de prototyper rapidement et d'améliorer leurs projets avec des visuels par IA, conçus pour un usage commercial.",
+    "description_fr": "Adobe Firefly est le modèle d'IA générative d'Adobe pour les professionnels de la création. Il permet la génération d'images, les effets de texte et la création de vecteurs à partir de prompts en langage naturel. Profondément intégré à Adobe Creative Cloud, Firefly permet aux designers de prototyper rapidement et d'améliorer leurs projets avec des visuels par IA, conçus pour un usage commercial. Texte vers image : Crée des images à partir de descriptions. Effets de texte : Applique des styles uniques au texte pour l'image de marque. Génération vectorielle : Produit de l'art vectoriel avec l'aide de l'IA. Intégration fluide : Fonctionne dans Adobe Photoshop et Illustrator.",
+    "features_fr": [
+      "Text-to-Image : créez des images à partir de descriptions.",
+      "Effets de texte : appliquez des styles uniques au texte pour la personnalisation.",
+      "Génération de vecteurs : produisez des œuvres d'art vectorielles avec l'aide de l'IA.",
+      "Intégration transparente : fonctionne avec Adobe Photoshop et Illustrator."
+    ],
+    "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
+    "howToUse_fr": [
+      {
+        "title": "Ouvre Adobe Firefly",
+        "description": "Rends-toi sur firefly.adobe.com pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.",
+        "links": [
+          {
+            "label": "Adobe Firefly",
+            "url": "https://firefly.adobe.com/"
+          }
+        ]
+      },
+      {
+        "title": "Configure ton espace",
+        "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
+      },
+      {
+        "title": "Lance un premier usage",
+        "description": "Commence par : adobe Firefly est le modèle d'IA générative d'Adobe pour les professionnels de la création. Il permet la génération d'images, les effets de texte et la création de vecteurs à partir de prompts en langage naturel. Profondément intégré à Adobe Creative Cloud, Firefly permet aux designers de prototyper rapidement et d'améliorer leurs projets avec des visuels par IA, conçus pour un usage commercial."
+      },
+      {
+        "title": "Contrôle le résultat",
+        "description": "Exporte, partagez ou connectez ton environnement existant avant d'étendre l'usage en équipe."
+      }
+    ],
+    "tags_fr": [
+      "adobe",
+      "IA art",
+      "créatif cloud",
+      "texte effets"
+    ]
+  },
   "adobe-acrobat-ai-assistant": {
     "summary_fr": "Résume les PDF et répond à tes questions sur leur contenu, dans Acrobat.",
     "description_fr": "L'assistant IA d'Acrobat lit un ou plusieurs PDF pour en produire un résumé, répondre à des questions avec des renvois vers les passages sources et générer des brouillons de texte. Il fonctionne dans Acrobat et Reader, sur ordinateur, web et mobile.",
@@ -764,47 +805,6 @@
       "generative",
       "vidéo édition",
       "adobe"
-    ]
-  },
-  "adobe_firefly": {
-    "summary_fr": "Adobe Firefly est le modèle d'IA générative d'Adobe pour les professionnels de la création. Il permet la génération d'images, les effets de texte et la création de vecteurs à partir de prompts en langage naturel. Profondément intégré à Adobe Creative Cloud, Firefly permet aux designers de prototyper rapidement et d'améliorer leurs projets avec des visuels par IA, conçus pour un usage commercial.",
-    "description_fr": "Adobe Firefly est le modèle d'IA générative d'Adobe pour les professionnels de la création. Il permet la génération d'images, les effets de texte et la création de vecteurs à partir de prompts en langage naturel. Profondément intégré à Adobe Creative Cloud, Firefly permet aux designers de prototyper rapidement et d'améliorer leurs projets avec des visuels par IA, conçus pour un usage commercial. Texte vers image : Crée des images à partir de descriptions. Effets de texte : Applique des styles uniques au texte pour l'image de marque. Génération vectorielle : Produit de l'art vectoriel avec l'aide de l'IA. Intégration fluide : Fonctionne dans Adobe Photoshop et Illustrator.",
-    "features_fr": [
-      "Text-to-Image : créez des images à partir de descriptions.",
-      "Effets de texte : appliquez des styles uniques au texte pour la personnalisation.",
-      "Génération de vecteurs : produisez des œuvres d'art vectorielles avec l'aide de l'IA.",
-      "Intégration transparente : fonctionne avec Adobe Photoshop et Illustrator."
-    ],
-    "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
-    "howToUse_fr": [
-      {
-        "title": "Ouvre Adobe Firefly",
-        "description": "Rends-toi sur firefly.adobe.com pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.",
-        "links": [
-          {
-            "label": "Adobe Firefly",
-            "url": "https://firefly.adobe.com/"
-          }
-        ]
-      },
-      {
-        "title": "Configure ton espace",
-        "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
-      },
-      {
-        "title": "Lance un premier usage",
-        "description": "Commence par : adobe Firefly est le modèle d'IA générative d'Adobe pour les professionnels de la création. Il permet la génération d'images, les effets de texte et la création de vecteurs à partir de prompts en langage naturel. Profondément intégré à Adobe Creative Cloud, Firefly permet aux designers de prototyper rapidement et d'améliorer leurs projets avec des visuels par IA, conçus pour un usage commercial."
-      },
-      {
-        "title": "Contrôle le résultat",
-        "description": "Exporte, partagez ou connectez ton environnement existant avant d'étendre l'usage en équipe."
-      }
-    ],
-    "tags_fr": [
-      "adobe",
-      "IA art",
-      "créatif cloud",
-      "texte effets"
     ]
   },
   "aeterna": {
@@ -2098,6 +2098,37 @@
     ],
     "pricingNote_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
+  "anarlog": {
+    "summary_fr": "Bloc-notes de réunion IA local et open source (ex-Hyprnote) : sans robot dans l’appel, données sur ton appareil, avec un Pro optionnel à 13 €/personne/mois.",
+    "description_fr": "Bloc-notes de réunion IA local et open source (ex-Hyprnote) : sans robot dans l’appel, données sur ton appareil, avec un Pro optionnel à 13 €/personne/mois.",
+    "features_fr": [
+      "Bloc-notes de réunion sans robot, local d’abord : notes, transcriptions et enregistrements restent sur ton appareil par défaut",
+      "Open source, avec modèles sur l’appareil ou tes propres clés API, plus API locale, CLI, MCP et webhooks",
+      "Pro en option : transcription et LLM cloud, dictée système, sync, chiffrement de bout en bout et partage d’équipe",
+      "App desktop pour Mac, Windows (bêta) et Linux (bêta) ; la transcription intégrée sur l’appareil exige un Apple Silicon pris en charge"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Télécharge Anarlog sur anarlog.so pour Mac, Windows ou Linux et installe l’app desktop.",
+        "description": "Télécharge Anarlog sur anarlog.so pour Mac, Windows ou Linux et installe l’app desktop.",
+        "links": [
+          {
+            "label": "Anarlog",
+            "url": "https://anarlog.so/"
+          }
+        ]
+      },
+      {
+        "title": "Enregistre une réunion depuis ton ordinateur, sans robot dans l’appel ; notes et...",
+        "description": "Enregistre une réunion depuis ton ordinateur, sans robot dans l’appel ; notes et enregistrements restent sur ton appareil par défaut."
+      },
+      {
+        "title": "Reste en Gratuit avec des modèles locaux ou tes clés, ou lance l’essai Pro de 30 jours...",
+        "description": "Reste en Gratuit avec des modèles locaux ou tes clés, ou lance l’essai Pro de 30 jours pour la transcription cloud, la sync et le partage."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 €/mois — notes de réunion privées et locales, avec modèles sur l’appareil ou tes propres clés API : transcription illimitée sur l’appareil, enregistrements locaux et lecteur audio, BYOK pour STT et IA, notes, dossiers et modèles communautaires, chat et exports, API locale, CLI, MCP et webhooks, étiquetage manuel des locuteurs. Pro 13 €/personne/mois ou 127 €/personne/an — tout le Gratuit plus enregistrement automatique programmé et participation, modèles personnalisés, contexte IA avancé et recherche web, dictée système, transcription cloud, LLM cloud, meilleure identification des locuteurs, sync cloud (3 appareils perso ou 5 par membre d’espace), chiffrement de bout en bout, partage de notes, intégrations et automations perso, partage de dossiers, dictionnaires personnalisés, espaces partagés, membres et rôles, facturation centralisée par siège, dossiers, modèles et automations d’équipe. Essai Pro officiel de 30 jours. Enterprise : tarif sur mesure, déploiement mené par les fondateurs (SSO/SCIM, politiques, audit, sous-domaine, plan de données auto-hébergé). Un avantage fondateur YC est mentionné sous conditions ; ce n’est pas pris comme tarif public général. Téléchargements desktop : macOS (Apple Silicon et Intel), Windows x64 (bêta) et Linux (bêta). La transcription intégrée sur l’appareil exige un Apple Silicon pris en charge ; sur les autres plateformes, tu configures un serveur de transcription local ou un fournisseur hébergé."
+  },
   "anima": {
     "summary_fr": "Anima fait le lien entre design et développement en convertissant les designs Figma, Adobe XD et Sketch en code React, HTML et CSS adapté aux développeurs. Il simplifie la passation, prend en charge le prototypage avec des données réelles et améliore le flux de travail des équipes produit.",
     "description_fr": "Anima fait le lien entre design et développement en convertissant les designs Figma, Adobe XD et Sketch en code React, HTML et CSS adapté aux développeurs. Il simplifie la passation, prend en charge le prototypage avec des données réelles et améliore le flux de travail des équipes produit. Anima est l'agent d'IA attentif au design qui relie créativité et code. À partir de fichiers Figma, d'URL ou de prompts, Anima génère de vraies applications prêtes pour la production, pour les équipes produit qui construisent directement, ou pour les plateformes de code qui s'intègrent via API. Sert de moteur à Bolt.new et Replit. Design vers code : Convertissez les designs en React, HTML et CSS. Prototypage avec des données réelles : Utilise de vraies API dans les prototypes. Mises à jour automatiques du code : Synchronisez instantanément les changements de design. Collaboration : Commentez et itérez avec les équipes.",
@@ -2678,6 +2709,37 @@
       "marketing"
     ]
   },
+  "arena": {
+    "summary_fr": "Classement public des modèles d’IA (ex-LMArena) : tu confrontes deux modèles à l’aveugle et tu votes, gratuitement ; les évaluations entreprise se font sur devis.",
+    "description_fr": "Classement public des modèles d’IA (ex-LMArena) : tu confrontes deux modèles à l’aveugle et tu votes, gratuitement ; les évaluations entreprise se font sur devis.",
+    "features_fr": [
+      "Classement public des modèles d’IA : texte, image, vidéo, code, recherche et plus",
+      "Duels à l’aveugle : deux modèles anonymes répondent à la même consigne, puis tu votes",
+      "Le classement public reste officiellement gratuit, comme un service public",
+      "AI Evaluations en option pour labs et entreprises, sans tarif public publié"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre arena.ai et lance un duel ou un classement — la plateforme publique n’exige pas de...",
+        "description": "Ouvre arena.ai et lance un duel ou un classement — la plateforme publique n’exige pas de compte payant.",
+        "links": [
+          {
+            "label": "Arena",
+            "url": "https://arena.ai/"
+          }
+        ]
+      },
+      {
+        "title": "Envoie la même consigne à deux modèles anonymes et vote pour la meilleure réponse.",
+        "description": "Envoie la même consigne à deux modèles anonymes et vote pour la meilleure réponse."
+      },
+      {
+        "title": "Si tu as besoin d’évaluations entreprise sur mesure, contacte evaluations@arena.ai...",
+        "description": "Si tu as besoin d’évaluations entreprise sur mesure, contacte evaluations@arena.ai ; aucun tarif public n’est publié."
+      }
+    ],
+    "pricingNote_fr": "Gratuit pour la plateforme publique : classements, duels et accès ouvert aux modèles, officiellement proposés comme un service public. Aucun plan payant grand public n’est publié. Arena vend aussi AI Evaluations aux entreprises, labs et développeurs (évaluations fondées sur la communauté, échantillons auditables, SLA de livraison). Aucun tarif public n’est publié ; le contact officiel est evaluations@arena.ai, avec des tarifs flexibles mentionnés pour les modèles open-weight et les institutions non lucratives, sans montants."
+  },
   "argil": {
     "summary_fr": "Vidéos courtes avec ton clone IA, sans tourner.",
     "description_fr": "Argil crée un avatar vidéo réaliste de toi à partir de quelques minutes de tournage, puis génère des vidéos à partir d'un script. L'outil ajoute sous-titres, montage dynamique et plans de coupe, pour publier régulièrement sur les réseaux sans passer devant la caméra.",
@@ -2966,6 +3028,37 @@
       "speaker diarization",
       "parole understanding"
     ]
+  },
+  "async": {
+    "summary_fr": "Éditeur vidéo IA (ex-Podcastle) : tu montes, sous-titres et génères des clips en parlant à Async, avec une offre gratuite puis des plans à partir de 19,99 €/mois.",
+    "description_fr": "Éditeur vidéo IA (ex-Podcastle) : tu montes, sous-titres et génères des clips en parlant à Async, avec une offre gratuite puis des plans à partir de 19,99 €/mois.",
+    "features_fr": [
+      "Éditeur vidéo IA par le chat : nettoyage du rush, sous-titres, clips, B-roll, musique et nettoyage audio",
+      "Enregistrement multipiste à distance, montage audio par le texte, voix IA et clonage de voix en option",
+      "Offre gratuite sans carte, plus plans Essentials, Pro et Teams au crédit, et offre Business sur mesure",
+      "Anciennement Podcastle ; le même produit, sous un nouveau nom et un nouveau domaine"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre async.com (le site peut rediriger vers /es ; passe en anglais si tu en as besoin)...",
+        "description": "Ouvre async.com (le site peut rediriger vers /es ; passe en anglais si tu en as besoin) et crée un compte Gratuit, sans carte.",
+        "links": [
+          {
+            "label": "Async",
+            "url": "https://async.com/"
+          }
+        ]
+      },
+      {
+        "title": "Importe une vidéo ou pars d’un modèle, puis dis à Async dans le chat ce qu’il faut...",
+        "description": "Importe une vidéo ou pars d’un modèle, puis dis à Async dans le chat ce qu’il faut couper, sous-titrer, nettoyer ou générer."
+      },
+      {
+        "title": "Passe à Essentials, Pro ou Teams si tu as besoin d’un quota mensuel de crédits et d’un...",
+        "description": "Passe à Essentials, Pro ou Teams si tu as besoin d’un quota mensuel de crédits et d’un export de meilleure qualité."
+      }
+    ],
+    "pricingNote_fr": "Gratuit (Basic) 0 €/mois — 10 crédits IA à vie, 1 heure de médias vers le chat IA à vie, export jusqu’en 720p, 1 fichier d’export, 2 Go de stockage cloud ; sans carte pour s’inscrire. Essentials 19,99 €/mois, ou 143,90 €/an (11,99 €/mois facturés à l’année) — 450 crédits IA/mois, médias illimités vers le chat IA, export jusqu’en Full HD, exports illimités, 20 Go de stockage. Pro (le plus populaire) 39,99 €/mois, ou 287,90 €/an (23,99 €/mois facturés à l’année) — 1 200 crédits IA/mois, export jusqu’en 4K, 120 Go de stockage. Teams 84,99 €/créateur/mois, ou 599,90 €/créateur/an (49,99 €/mois facturés à l’année) — 3 000 crédits IA/mois, 1 To de stockage, espace d’équipe. Business : tarif sur mesure (contacter les ventes). Les plans annuels sont officiellement présentés avec 40 % de moins que le mensuel ; les crédits d’un plan annuel sont ajoutés chaque mois, pas d’un coup, et les crédits mensuels non utilisés ne se reportent pas. FAQ officielle : remboursement sous 7 jours sur un nouvel abonnement, hors crédits IA déjà utilisés. Packs de recharge ponctuels : 300 crédits 10,99 €, 600 crédits 19,99 €, 900 crédits 29,99 €, 1 800 crédits 44,99 €, 3 000 crédits 74,99 €. Des options de crédits récurrentes existent aussi. Ce sont les prix officiels en euros de l’API de paiement qui alimente la page tarifs pour cette région."
   },
   "atlassian-rovo": {
     "summary_fr": "Agents et recherche IA à travers Jira, Confluence et tes outils.",
@@ -3442,6 +3535,37 @@
       "regex",
       "naturel langue"
     ]
+  },
+  "autosheet": {
+    "summary_fr": "Agent IA pour Excel et Google Sheets (ex-GPT for Work) : tu nettoies, enrichis et analyses tes lignes en masse, avec un essai gratuit puis des plans à partir de 23 €/mois.",
+    "description_fr": "Agent IA pour Excel et Google Sheets (ex-GPT for Work) : tu nettoies, enrichis et analyses tes lignes en masse, avec un essai gratuit puis des plans à partir de 23 €/mois.",
+    "features_fr": [
+      "Agent IA pour Excel et Google Sheets : nettoyer, enrichir, classer, écrire des formules, formater et analyser",
+      "Traitement de masse sur des centaines de milliers de lignes, plus fonctions GPT et large choix de modèles",
+      "Autosheet MCP pour Claude et ChatGPT (Google Sheets uniquement)",
+      "Essai gratuit sans carte ; abonnements Standard et Business après l’essai"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre autosheet.com, installe GPT for Sheets – Autosheet ou GPT for Excel – Autosheet, et...",
+        "description": "Ouvre autosheet.com, installe GPT for Sheets – Autosheet ou GPT for Excel – Autosheet, et lance l’essai gratuit sans carte.",
+        "links": [
+          {
+            "label": "Autosheet",
+            "url": "https://autosheet.com/"
+          }
+        ]
+      },
+      {
+        "title": "Décris une tâche de tableur à l’agent, ou lance les outils de masse et les fonctions GPT...",
+        "description": "Décris une tâche de tableur à l’agent, ou lance les outils de masse et les fonctions GPT sur tes lignes."
+      },
+      {
+        "title": "Passe à Standard ou Business quand tu as besoin de tous les modèles et de l’usage mensuel...",
+        "description": "Passe à Standard ou Business quand tu as besoin de tous les modèles et de l’usage mensuel inclus."
+      }
+    ],
+    "pricingNote_fr": "Essai gratuit : installation gratuite, crédits offerts pour commencer, sans carte pour le premier usage. L’essai tourne sur GPT-5.6 Luna. Après l’essai, les plans commencent à 23 €/mois et l’abonnement débloque tous les modèles, dont Claude Fable 5.1 et GPT-6 Astra. Standard (individuel) 23 €/mois — 23 € d’usage inclus chaque mois ; usage supplémentaire à acheter au besoin ; Agent, outils de masse et fonctions GPT, large choix de modèles, rapports d’usage détaillés, Autosheet MCP (Google Sheets uniquement). Business (équipe) 41 €/siège/mois — 23 € d’usage inclus par siège ; usage supplémentaire partagé au besoin ; fonctions Standard plus gestion d’équipe, facturation et plafonds centralisés, configuration IA centralisée, tes propres clés API, points de terminaison IA personnalisés. Enterprise : tarif sur mesure (parler aux ventes) — fonctions Business plus obligation d’apporter ton IA, SAML SSO, conditions non standard, support prioritaire, installation guidée et formation. L’usage inclus ne se reporte pas. L’usage supplémentaire est acheté pour l’espace, reste valable 12 mois après le dernier achat, et exige un abonnement actif ; Les espaces déjà en paiement à l’usage, avec un solde de crédits actif, restent pour l’instant sur ce modèle. Chaque plan donne accès soit à GPT for Sheets – Autosheet, soit à GPT for Excel – Autosheet. Aucune grille annuelle n’est publiée."
   },
   "autoshorts": {
     "summary_fr": "Crée et publie automatiquement des Shorts faceless sur YouTube et TikTok.",
@@ -5841,7 +5965,7 @@
         "description": "Passe à Starter, Pro, Business ou Enterprise quand le volume de contacts augmente."
       }
     ],
-    "pricingNote_fr": "Gratuit (100 contacts actifs, 3 flux, 3 canaux, branding Chat33), sans carte. Starter 17 €/mois (1 000 contacts, 2 membres d’équipe). Pro 44 €/mois (5 000 contacts, 5 membres, gestion de campagnes). Business 70 €/mois (25 000 contacts, 10 membres, suivi vidéo). Enterprise 177 €/mois (100 000 contacts, support dédié). Le dépassement officiel par contact actif supplémentaire est consigné seulement dans les notes non affichées (trop petit pour être affiché en euros entiers)."
+    "pricingNote_fr": "Gratuit (100 contacts actifs, 3 flux, 3 canaux, branding Chat33), sans carte. Starter 17 €/mois (1 000 contacts, 2 membres d’équipe). Pro 44 €/mois (5 000 contacts, 5 membres, gestion de campagnes). Business 70 €/mois (25 000 contacts, 10 membres, suivi vidéo). Enterprise 177 €/mois (100 000 contacts, support dédié)."
   },
   "chatbase": {
     "summary_fr": "Plateforme pour agents IA qui répondent aux questions des clients par chat, e-mail et voix.",
@@ -9345,45 +9469,6 @@
       }
     ]
   },
-  "deep-nostalgia": {
-    "summary_fr": "MyHeritage Deep Nostalgia™, technologie de reconstitution vidéo pour animer les visages sur des photos fixes et créer des séquences vidéo réalistes et de haute qualité.",
-    "description_fr": "MyHeritage Deep Nostalgia™, technologie de reconstitution vidéo pour animer les visages sur des photos fixes et créer des séquences vidéo réalistes et de haute qualité. Animation de photos : donne vie aux anciennes photos avec des mouvements réalistes. Amélioration des expressions du visage : ajoute des expressions subtiles aux images statiques. Restauration par IA : améliore la qualité des photographies anciennes. Options de partage : partage facilement les photos animées sur les plateformes sociales.",
-    "features_fr": [
-      "Animation photo : donne vie à de vieilles photos avec des mouvements réalistes.",
-      "Amélioration des expressions faciales : ajoute des expressions subtiles aux images statiques.",
-      "Restauration AI : améliore la qualité des photographies anciennes.",
-      "Options de partage : partagez facilement des photos animées sur les plateformes sociales."
-    ],
-    "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
-    "howToUse_fr": [
-      {
-        "title": "Ouvre Deep Nostalgia",
-        "description": "Rends-toi sur myheritage.com pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.",
-        "links": [
-          {
-            "label": "Deep Nostalgia",
-            "url": "https://www.myheritage.com/deep-nostalgia"
-          }
-        ]
-      },
-      {
-        "title": "Configure ton espace",
-        "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
-      },
-      {
-        "title": "Lance un premier usage",
-        "description": "Commence par : myHeritage Deep Nostalgia™, technologie de reconstitution vidéo pour animer les visages sur des photos fixes et créer des séquences vidéo réalistes et de haute qualité."
-      },
-      {
-        "title": "Contrôle le résultat",
-        "description": "Exporte, partagez ou connectez ton environnement existant avant d'étendre l'usage en équipe."
-      }
-    ],
-    "tags_fr": [
-      "animation",
-      "photo"
-    ]
-  },
   "deep_dream_generator": {
     "summary_fr": "Deep Dream Generator est un outil en ligne qui utilise des réseaux de neurones pour générer des images uniques et oniriques à partir de photos. Il permet aux utilisateurs d'appliquer différents modèles et styles d'IA pour créer des visuels surréalistes et artistiques, ce qui en fait un favori parmi les artistes numériques et les passionnés.",
     "description_fr": "Deep Dream Generator est un outil en ligne qui utilise des réseaux de neurones pour générer des images uniques et oniriques à partir de photos. Il permet aux utilisateurs d'appliquer différents modèles et styles d'IA pour créer des visuels surréalistes et artistiques, ce qui en fait un favori parmi les artistes numériques et les passionnés. Crée de l'art par IA remarquable avec le meilleur générateur d'images par IA gratuit. 30+ modèles d'IA, génération de vidéo par IA et édition d'images par IA. Aucune inscription requise - commencez à créer maintenant ! Filtres oniriques : appliquez aux photos des styles surréalistes générés par IA. Transfert de style : mélangez plusieurs styles sur une seule image. Plusieurs modèles : choisissez parmi deep dream, thin style et plus encore. Galerie communautaire : explorez et partagez les créations.",
@@ -9423,6 +9508,45 @@
       "filters",
       "neural networks",
       "surreal"
+    ]
+  },
+  "deep-nostalgia": {
+    "summary_fr": "MyHeritage Deep Nostalgia™, technologie de reconstitution vidéo pour animer les visages sur des photos fixes et créer des séquences vidéo réalistes et de haute qualité.",
+    "description_fr": "MyHeritage Deep Nostalgia™, technologie de reconstitution vidéo pour animer les visages sur des photos fixes et créer des séquences vidéo réalistes et de haute qualité. Animation de photos : donne vie aux anciennes photos avec des mouvements réalistes. Amélioration des expressions du visage : ajoute des expressions subtiles aux images statiques. Restauration par IA : améliore la qualité des photographies anciennes. Options de partage : partage facilement les photos animées sur les plateformes sociales.",
+    "features_fr": [
+      "Animation photo : donne vie à de vieilles photos avec des mouvements réalistes.",
+      "Amélioration des expressions faciales : ajoute des expressions subtiles aux images statiques.",
+      "Restauration AI : améliore la qualité des photographies anciennes.",
+      "Options de partage : partagez facilement des photos animées sur les plateformes sociales."
+    ],
+    "pricingNote_fr": "Libellé tarifaire repris de l'ancien catalogue et non revérifié.",
+    "howToUse_fr": [
+      {
+        "title": "Ouvre Deep Nostalgia",
+        "description": "Rends-toi sur myheritage.com pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.",
+        "links": [
+          {
+            "label": "Deep Nostalgia",
+            "url": "https://www.myheritage.com/deep-nostalgia"
+          }
+        ]
+      },
+      {
+        "title": "Configure ton espace",
+        "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
+      },
+      {
+        "title": "Lance un premier usage",
+        "description": "Commence par : myHeritage Deep Nostalgia™, technologie de reconstitution vidéo pour animer les visages sur des photos fixes et créer des séquences vidéo réalistes et de haute qualité."
+      },
+      {
+        "title": "Contrôle le résultat",
+        "description": "Exporte, partagez ou connectez ton environnement existant avant d'étendre l'usage en équipe."
+      }
+    ],
+    "tags_fr": [
+      "animation",
+      "photo"
     ]
   },
   "deepbrainai": {
@@ -27968,6 +28092,37 @@
       "LLM"
     ]
   },
+  "opera-ai": {
+    "summary_fr": "Assistant IA gratuit intégré au navigateur Opera (ex-Aria) : tu résumes tes pages, génères des images et analyses des fichiers, sans compte obligatoire.",
+    "description_fr": "Assistant IA gratuit intégré au navigateur Opera (ex-Aria) : tu résumes tes pages, génères des images et analyses des fichiers, sans compte obligatoire.",
+    "features_fr": [
+      "Assistant IA gratuit, sans compte obligatoire, intégré à Opera, avec des modèles d’OpenAI et de Google",
+      "Contexte de la page et de l’île d’onglets : résumer, comparer, traduire (environ 50 langues) et extraire les points clés sans quitter la page",
+      "Génération d’images, analyse de fichiers et d’images, entrée et sortie vocales",
+      "Compte Opera gratuit en option pour l’historique et une limite d’images plus haute ; aucun plan payant d’Opera AI n’est publié"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Installe Opera One, Opera GX ou Opera Air, puis clique sur Ask AI en haut à droite...",
+        "description": "Installe Opera One, Opera GX ou Opera Air, puis clique sur Ask AI en haut à droite (Ctrl+O sous Windows ou Linux, Cmd+O sur un Mac).",
+        "links": [
+          {
+            "label": "Opera AI",
+            "url": "https://www.opera.com/features/opera-ai"
+          }
+        ]
+      },
+      {
+        "title": "Pose une question sur la page ou l’île d’onglets ouverte, génère une image, ou importe un...",
+        "description": "Pose une question sur la page ou l’île d’onglets ouverte, génère une image, ou importe un fichier à analyser ou résumer."
+      },
+      {
+        "title": "Connecte-toi éventuellement à un compte Opera gratuit si tu veux garder l’historique des...",
+        "description": "Connecte-toi éventuellement à un compte Opera gratuit si tu veux garder l’historique des chats et une limite d’images plus haute."
+      }
+    ],
+    "pricingNote_fr": "Gratuit dans le navigateur Opera (Opera One, Opera GX, Opera Air, et Opera pour Android et iOS), sans compte ni inscription obligatoires. Un compte Opera gratuit est optionnel et débloque l’historique des chats (conservé un an si tu es connecté ; six heures sinon) et des limites plus hautes de génération d’images. La génération d’images est soumise à un usage raisonnable ; la FAQ officielle ne publie pas de plafond quotidien chiffré, et aucun n’est inventé ici. Aucun plan payant n’est publié pour Opera AI lui-même. Opera Neon est un autre navigateur Opera, mentionné dans la FAQ officielle pour des limites d’images plus hautes ; ce n’est pas une offre payante d’Opera AI, et son prix n’est pas listé ici. D’autres options payantes Opera, comme VPN Pro, sont des produits séparés, pas des plans d’Opera AI. FAQ officielle : tu dois avoir au moins 18 ans ; Opera AI n’est pas disponible en fenêtre privée ni dans une liste de pays et régions."
+  },
   "opera-aria": {
     "features_fr": [
       "Résumé de pages",
@@ -29556,7 +29711,7 @@
         "description": "Achète un pack de 2 ou 20 séances, ou l’offre mensuelle, si tu passes souvent des entretiens."
       }
     ],
-    "pricingNote_fr": "3 séances gratuites, sans carte. Packs ponctuels sans expiration : 4 € pour 2 séances ; 26 € pour 20 séances. Mensuel 6 €/mois pour 4 séances (les séances non utilisées ne sont pas reportées). Un prix en roupies indiennes est aussi indiqué sur le site officiel (non converti ici)."
+    "pricingNote_fr": "3 séances gratuites, sans carte. Packs ponctuels sans expiration : 4 € pour 2 séances ; 26 € pour 20 séances. Mensuel 6 €/mois pour 4 séances (les séances non utilisées ne sont pas reportées)."
   },
   "pitch": {
     "summary_fr": "Plateforme de présentation collaborative pour créer, partager et présenter des decks, avec génération d'IA.",
@@ -40346,6 +40501,37 @@
       "enterprise"
     ]
   },
+  "treblo": {
+    "summary_fr": "Générateur de chansons IA (ex-Sonauto) : morceaux illimités et gratuits sur le dernier modèle, avec un Pro optionnel à 9 €/mois pour la file prioritaire, les reprises et ta voix.",
+    "description_fr": "Générateur de chansons IA (ex-Sonauto) : morceaux illimités et gratuits sur le dernier modèle, avec un Pro optionnel à 9 €/mois pour la file prioritaire, les reprises et ta voix.",
+    "features_fr": [
+      "Chansons gratuites illimitées sur le dernier modèle, des milliers de styles, avec option instrumentale",
+      "Écris tes paroles ou laisse Treblo les écrire, puis édite, prolonge et itère sur les sections",
+      "Téléchargements en OGG, MP3, WAV, FLAC et M4A, sans restriction d’usage de Treblo sur tes morceaux",
+      "Pro en option : file prioritaire, reprises, réutilisation de style, ta voix et stems (plusieurs fonctions encore en bêta)"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre treblo.com et crée un compte gratuit.",
+        "description": "Ouvre treblo.com et crée un compte gratuit.",
+        "links": [
+          {
+            "label": "Treblo",
+            "url": "https://treblo.com/"
+          }
+        ]
+      },
+      {
+        "title": "Décris une idée, choisis des tags de style, ajoute tes paroles ou laisse Treblo les...",
+        "description": "Décris une idée, choisis des tags de style, ajoute tes paroles ou laisse Treblo les écrire, puis crée un morceau — il commence à être diffusé en environ 15 secondes."
+      },
+      {
+        "title": "Passe à Pro si tu veux une file prioritaire, des reprises, ta propre voix ou des stems.",
+        "description": "Passe à Pro si tu veux une file prioritaire, des reprises, ta propre voix ou des stems."
+      }
+    ],
+    "pricingNote_fr": "Gratuit : chansons illimitées sur le dernier modèle, paroles et édition, téléchargements dans tous les formats (OGG, MP3, WAV, FLAC, M4A), et aucune restriction d’usage de la part de Treblo sur les morceaux que tu crées. File d’attente standard, 4 morceaux à la fois. Pro : 9 €/mois, ou 72 €/an (6 €/mois facturés à l’année, officiellement 33 % de moins). Pro ajoute : sans publicité, file prioritaire, 10 morceaux à la fois, reprises dans un nouveau style (bêta), réutilisation de styles (bêta), chants avec ta voix (bêta), évitement des styles indésirables, modèles hérités (v2.2 et paroles Classic), stems haute qualité (bêta), badge Pro et rôle Discord. Les fonctions bêta peuvent changer, casser ou être retirées.. Résiliable à tout moment ; tes morceaux restent dans ta bibliothèque si tu résilies."
+  },
   "treg": {
     "summary_fr": "Catalogue MCP à la requête de plus de 4 100 API marketing et d'enrichissement pour agents de code.",
     "description_fr": "Catalogue MCP à la requête de plus de 4 100 API marketing et d'enrichissement pour agents de code.",
@@ -45045,46 +45231,6 @@
       "éducation"
     ]
   },
-  "zoho-crm": {
-    "summary_fr": "CRM complet avec l'assistant IA Zia.",
-    "description_fr": "Zoho CRM gère prospects, affaires, campagnes et service client. Son assistant Zia prédit les chances de conclure, détecte les anomalies, suggère les meilleurs moments de contact et répond aux questions sur les données.",
-    "features_fr": [
-      "Prédiction de conclusion des affaires",
-      "Détection d'anomalies",
-      "Meilleurs moments de contact",
-      "Questions en langage naturel"
-    ],
-    "howToUse_fr": [
-      {
-        "title": "Ouvre Zoho CRM (Zia)",
-        "description": "Rends-toi sur zoho.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
-        "links": [
-          {
-            "label": "Zoho CRM (Zia)",
-            "url": "https://www.zoho.com/crm/"
-          }
-        ]
-      },
-      {
-        "title": "Configure ton espace",
-        "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
-      },
-      {
-        "title": "Prédiction de conclusion des affaires",
-        "description": "Teste prédiction de conclusion des affaires sur un petit exemple avant d'automatiser ou d'étendre l'usage."
-      },
-      {
-        "title": "Détection d'anomalies",
-        "description": "Teste détection d'anomalies sur un petit exemple avant d'automatiser ou d'étendre l'usage."
-      }
-    ],
-    "tags_fr": [
-      "ventes",
-      "crm",
-      "zoho"
-    ],
-    "pricingNote_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
-  },
   "zoho_analytics": {
     "summary_fr": "Zoho Analytics est une plateforme cloud de business intelligence et d'analytique qui facilite la visualisation des données, la création de rapports instructifs et le partage de tableaux de bord. Elle propose une interface no-code, des informations par IA via Zia, et la possibilité de fusionner des données issues de centaines de sources. Zoho Analytics prend en charge la collaboration d'équipe, les rapports planifiés et la sécurité des données, ce qui la rend adaptée aux entreprises de toutes tailles qui recherchent des informations exploitables issues des données.",
     "description_fr": "Zoho Analytics est une plateforme cloud de business intelligence et d'analytique qui facilite la visualisation des données, la création de rapports instructifs et le partage de tableaux de bord. Elle propose une interface no-code, des informations par IA via Zia, et la possibilité de fusionner des données issues de centaines de sources. Zoho Analytics prend en charge la collaboration d'équipe, les rapports planifiés et la sécurité des données, ce qui la rend adaptée aux entreprises de toutes tailles qui recherchent des informations exploitables issues des données. Connecte 500+ applications, créez des tableaux de bord et obtenez instantanément des informations exploitables avec Zoho Analytics, le logiciel de business intelligence et d'analyse de données primé. Analytique en libre-service : créez des rapports et des tableaux de bord sans coder. Fusion de données : fusionnez et analysez des données issues de plusieurs sources. Informations par IA : Zia fournit des informations automatiques et la détection d'anomalies. Collaboration : partagez des rapports et des tableaux de bord avec ton équipe.",
@@ -45124,6 +45270,46 @@
       "analytique",
       "cloud"
     ]
+  },
+  "zoho-crm": {
+    "summary_fr": "CRM complet avec l'assistant IA Zia.",
+    "description_fr": "Zoho CRM gère prospects, affaires, campagnes et service client. Son assistant Zia prédit les chances de conclure, détecte les anomalies, suggère les meilleurs moments de contact et répond aux questions sur les données.",
+    "features_fr": [
+      "Prédiction de conclusion des affaires",
+      "Détection d'anomalies",
+      "Meilleurs moments de contact",
+      "Questions en langage naturel"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre Zoho CRM (Zia)",
+        "description": "Rends-toi sur zoho.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+        "links": [
+          {
+            "label": "Zoho CRM (Zia)",
+            "url": "https://www.zoho.com/crm/"
+          }
+        ]
+      },
+      {
+        "title": "Configure ton espace",
+        "description": "Complète l'onboarding, tes préférences ou la première intégration demandée par le produit."
+      },
+      {
+        "title": "Prédiction de conclusion des affaires",
+        "description": "Teste prédiction de conclusion des affaires sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+      },
+      {
+        "title": "Détection d'anomalies",
+        "description": "Teste détection d'anomalies sur un petit exemple avant d'automatiser ou d'étendre l'usage."
+      }
+    ],
+    "tags_fr": [
+      "ventes",
+      "crm",
+      "zoho"
+    ],
+    "pricingNote_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
   },
   "zonos": {
     "summary_fr": "Modèle open source de synthèse vocale expressive.",

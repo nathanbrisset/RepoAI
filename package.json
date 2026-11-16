@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "visitor-copy:check": "node scripts/check-visitor-copy.mjs",
+    "prebuild": "npm run visitor-copy:check",
     "start": "next start",
     "lint": "next lint",
     "catalog:check": "node scripts/catalog-index.mjs",
