@@ -1,19 +1,54 @@
 {
-  "generatedAt": "2026-11-16T09:53:23.880Z",
   "summary": {
     "scanned": 2273,
-    "cleanShown": 2266,
-    "hidden": 7,
+    "cleanShown": 2260,
+    "hidden": 13,
     "hiddenByReason": {
-      "non_eur_currency": 7
+      "non_eur_currency": 13
     }
   },
   "hidden": [
+    {
+      "id": "amazon-codewhisperer",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "AWS publishes a free tier and a Pro tier in other docs. The dollar price was not copied from this fetch.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "amazon-q-developer",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "AWS publishes a free tier and a Pro tier in other docs. The dollar price was not copied from this fetch.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "arcads",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "Arcads' help center describes a 72-hour trial that requires a card, then paid plans (Starter, Creator, Pro, Scale and Business). That article does not publish a dollar price.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
     {
       "id": "dia",
       "field": "pricing.note",
       "lang": "en",
       "value": "The official plans page lists Better Browser as free. Better Answers is shown at $10/month on the plan cards and at $20/month in the FAQ on the same page. Better Days is $100/month. New users get a 14-day trial of Better Days.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "duolingo",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "The official Super page lists a Free plan and paid Super and Super Family plans, with a one-week trial. Dollar prices are not printed on that page.",
       "reasons": [
         "non_eur_currency"
       ]
@@ -64,6 +99,15 @@
       ]
     },
     {
+      "id": "profound",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "The official pricing page lists a free 7-day trial, with 50 prompts a day, and paid Enterprise and Agency Growth plans. No dollar price was shown.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
       "id": "recapo",
       "field": "pricing.note",
       "lang": "en",
@@ -71,6 +115,16 @@
       "reasons": [
         "non_eur_currency"
       ]
+    },
+    {
+      "id": "voiceflow",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "The official pricing page offers a free trial and describes agency billing as usage-based. Business plans are quoted on request. No dollar price was published on that page.",
+      "reasons": [
+        "non_eur_currency"
+      ]
     }
-  ]
+  ],
+  "generatedAt": "2026-11-16T00:00:00.000Z"
 }
