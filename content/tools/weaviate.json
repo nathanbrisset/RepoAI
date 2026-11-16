@@ -1,0 +1,90 @@
+{
+  "id": "weaviate",
+  "name": "Weaviate",
+  "url": "https://weaviate.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source AI-native vector database with a managed cloud, a free-forever cluster, and a pay-as-you-go Flex plan.",
+  "description": "Open-source AI-native vector database with a managed cloud, a free-forever cluster, and a pay-as-you-go Flex plan.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "open-source",
+    "vector-database",
+    "embeddings",
+    "rag",
+    "cloud",
+    "netherlands"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://weaviate.io/pricing",
+    "details": "Free Forever 0 €/month, no credit card — 1 cluster per user, 100,000 objects, 1 GB memory, 10 GB disk, 1 collection and up to 3 tenants, embeddings (2,000 requests/day) and Query Agent (1,000 requests/month), basic support. Flex starts at 41 €/month, pay-as-you-go, no commitment — shared cloud cluster, core DB toolkit and replication, RBAC, 99.5% uptime, Query Agent free tier plus usage-based embeddings, standard support. Premium (dedicated or shared, prepaid contract) is contact sales and has no public starting price.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/weaviate.png",
+  "image": "/screenshots/weaviate.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Open-source AI-native vector database, with an official self-host option",
+    "Free Forever managed cluster, including embeddings and a Query Agent allowance",
+    "Flex starts at 41 €/month, pay-as-you-go, with no commitment",
+    "Premium is contact sales and has no public starting price"
+  ],
+  "howToUse": [
+    {
+      "title": "Open weaviate.io and start Free Forever with no card (one cluster, 100,000 objects).",
+      "description": "Open weaviate.io and start Free Forever with no card (one cluster, 100,000 objects).",
+      "links": [
+        {
+          "label": "Weaviate",
+          "url": "https://weaviate.io/"
+        }
+      ]
+    },
+    {
+      "title": "Load vectors or use the included embeddings and Query Agent on the free tier.",
+      "description": "Load vectors or use the included embeddings and Query Agent on the free tier."
+    },
+    {
+      "title": "Upgrade to Flex from 41 €/month if you need a pay-as-you-go production cluster, or talk...",
+      "description": "Upgrade to Flex from 41 €/month if you need a pay-as-you-go production cluster, or talk to sales about Premium — Premium has no public starting price."
+    }
+  ],
+  "hqCountry": "NL",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://weaviate.io/pricing"
+  ],
+  "summary_fr": "Base vectorielle open source pensée pour l’IA, avec un cloud managé, un cluster gratuit à vie et une offre Flex à l’usage.",
+  "description_fr": "Base vectorielle open source pensée pour l’IA, avec un cloud managé, un cluster gratuit à vie et une offre Flex à l’usage.",
+  "features_fr": [
+    "Base vectorielle open source pensée pour l’IA, avec une option officielle d’auto-hébergement",
+    "Cluster managé Free Forever, avec embeddings et un quota Query Agent",
+    "Flex commence à 41 €/mois, à l’usage, sans engagement",
+    "Premium est « contact sales » et n’a pas de prix de départ public"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre weaviate.io et commence sur Free Forever, sans carte (un cluster, 100 000 objets).",
+      "description": "Ouvre weaviate.io et commence sur Free Forever, sans carte (un cluster, 100 000 objets).",
+      "links": [
+        {
+          "label": "Weaviate",
+          "url": "https://weaviate.io/"
+        }
+      ]
+    },
+    {
+      "title": "Charge tes vecteurs, ou utilise les embeddings et le Query Agent inclus sur le palier...",
+      "description": "Charge tes vecteurs, ou utilise les embeddings et le Query Agent inclus sur le palier gratuit."
+    },
+    {
+      "title": "Passe à Flex à partir de 41 €/mois si tu as besoin d’un cluster de production à l’usage...",
+      "description": "Passe à Flex à partir de 41 €/mois si tu as besoin d’un cluster de production à l’usage, ou parle aux ventes de Premium — Premium n’a pas de prix de départ public."
+    }
+  ]
+}

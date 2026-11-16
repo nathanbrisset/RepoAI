@@ -1,0 +1,90 @@
+{
+  "id": "wooclap",
+  "name": "Wooclap",
+  "url": "https://www.wooclap.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Interactive presentation and audience-response tool for classes, trainings and meetings, with AI question and brainstorming features on Pro.",
+  "description": "Interactive presentation and audience-response tool for classes, trainings and meetings, with AI question and brainstorming features on Pro.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "education",
+    "training",
+    "audience-response",
+    "presentations",
+    "meetings",
+    "belgium"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.wooclap.com/en/pricing/pricing-education/",
+    "details": "Two official public ladders, amounts billed annually and stated excluding VAT. Monthly list prices besides these annually billed figures were not extracted and are left unlisted. Official prices already in euro, shown as published. Education: Starter Free, no credit card — 5 questions/month, 21 question types, live sessions, no AI. Basic 7 €/month billed annually excl. VAT — unlimited questions, no AI. Pro 15 € per presenter / month billed annually excl. VAT — AI features (question builder, image labeling, question diversifier, brainstorming suggestions/summaries and follow-up questions). A presenter is someone who can present content and receive answers; the plan admin counts as a presenter (participants do not). Campus is custom (request a quote), starting from 6 presenters, with AI. Business: Starter Free, no credit card — 5 questions/month, no AI. Basic 12 €/month billed annually excl. VAT — unlimited questions, no AI. Pro 25 € per month / presenter billed annually excl. VAT — AI features. Corporate is custom (request a quote), starting from 6 presenters, with AI. Official note: Wooclap does not use user-generated content or personal data to train AI models; AI-related features can be disabled in the account.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/wooclap.png",
+  "image": "/screenshots/wooclap.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Interactive presentation and audience-response tool for classes, trainings and meetings, with 21 question types and live sessions",
+    "Self-paced questionnaires on paid plans",
+    "AI question builder, image labeling, question diversifier, brainstorming and follow-ups are included from Pro upwards, not on Starter or Basic",
+    "Official euro prices are billed annually, excl. VAT; monthly list prices were not extracted and are not listed"
+  ],
+  "howToUse": [
+    {
+      "title": "Open wooclap.com and create a Starter account for free...",
+      "description": "Open wooclap.com and create a Starter account for free (no card, 5 questions/month, no AI).",
+      "links": [
+        {
+          "label": "Wooclap",
+          "url": "https://www.wooclap.com/"
+        }
+      ]
+    },
+    {
+      "title": "Run a live session with one of the 21 question types (MCQ, poll, word cloud and others).",
+      "description": "Run a live session with one of the 21 question types (MCQ, poll, word cloud and others)."
+    },
+    {
+      "title": "Subscribe to an Education or Business Basic/Pro plan — billed annually, excl. VAT — if...",
+      "description": "Subscribe to an Education or Business Basic/Pro plan — billed annually, excl. VAT — if you need unlimited questions or the Pro AI tools. A distinct monthly list price was not extracted and is not listed here."
+    }
+  ],
+  "hqCountry": "BE",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://www.wooclap.com/en/pricing/pricing-education/"
+  ],
+  "summary_fr": "Outil d’interaction et de présentation pour cours, formations et réunions, avec des fonctions IA de création de questions et de brainstorming sur l’offre Pro.",
+  "description_fr": "Outil d’interaction et de présentation pour cours, formations et réunions, avec des fonctions IA de création de questions et de brainstorming sur l’offre Pro.",
+  "features_fr": [
+    "Outil d’interaction et de présentation pour cours, formations et réunions, avec 21 types de questions et des sessions live",
+    "Questionnaires en autonomie sur les offres payantes",
+    "Le créateur de questions IA, l’étiquetage d’images, le diversificateur, le brainstorming et les suivis sont inclus à partir de Pro, pas sur Starter ni Basic",
+    "Les prix officiels en euros sont facturés à l’année, hors TVA ; les prix de liste mensuels n’ont pas été extraits et ne sont pas listés"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre wooclap.com et crée un compte Starter gratuitement...",
+      "description": "Ouvre wooclap.com et crée un compte Starter gratuitement (sans carte, 5 questions/mois, pas d’IA).",
+      "links": [
+        {
+          "label": "Wooclap",
+          "url": "https://www.wooclap.com/"
+        }
+      ]
+    },
+    {
+      "title": "Lance une session live avec l’un des 21 types de questions...",
+      "description": "Lance une session live avec l’un des 21 types de questions (QCM, sondage, nuage de mots et d’autres)."
+    },
+    {
+      "title": "Abonne-toi à une offre Éducation ou Business Basic/Pro — facturée à l’année, hors TVA —...",
+      "description": "Abonne-toi à une offre Éducation ou Business Basic/Pro — facturée à l’année, hors TVA — si tu as besoin de questions illimitées ou des outils IA Pro. Un prix de liste mensuel distinct n’a pas été extrait et n’est pas listé ici."
+    }
+  ]
+}
