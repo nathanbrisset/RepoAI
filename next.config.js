@@ -58,6 +58,11 @@ const nextConfig = {
       watson_studio: "watsonx-ai",
       "jasper-art": "jasper",
     }
+    const duplicateToolRedirects = [
+      { from: "windsurf", to: "devin" },
+      { from: "producer-ai", to: "google-flow-music" },
+      { from: "google-whisk", to: "google-flow" },
+    ]
     return [
       {
         source: "/",
@@ -93,16 +98,10 @@ const nextConfig = {
           permanent: true,
         },
       ]),
-      {
-        source: "/tool/windsurf",
-        destination: "/tool/devin",
-        permanent: true,
-      },
-      {
-        source: "/fr/tool/windsurf",
-        destination: "/fr/tool/devin",
-        permanent: true,
-      },
+      ...duplicateToolRedirects.flatMap(({ from, to }) => [
+        { source: `/tool/${from}`, destination: `/tool/${to}`, permanent: true },
+        { source: `/fr/tool/${from}`, destination: `/fr/tool/${to}`, permanent: true },
+      ]),
       {
         source: "/match-results",
         destination: "/recommendation",
