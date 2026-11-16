@@ -1,5 +1,4 @@
 import guidesFile from "@/content/automations/guides.json"
-import { formatDisplayPrice } from "@/lib/format-display-price"
 import type { Locale } from "@/lib/i18n/config"
 import { pricingLabel } from "@/lib/i18n/messages"
 
@@ -59,7 +58,7 @@ const PIN_ORDER = ["n8n", "zapier", "make"]
 
 function pick(value: Localized | undefined, locale: Locale) {
   if (!value) return ""
-  return formatDisplayPrice(value[locale] || value.en)
+  return value[locale] || value.en
 }
 
 export function automationCards(locale: Locale): AutomationCard[] {
