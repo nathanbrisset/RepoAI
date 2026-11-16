@@ -1,0 +1,88 @@
+{
+  "id": "jobscan",
+  "name": "Jobscan",
+  "url": "https://www.jobscan.co/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Resume scanner that checks a CV against a job description for ATS and recruiter keywords, with AI cover-letter and bullet tools on paid plans.",
+  "description": "Resume scanner that checks a CV against a job description for ATS and recruiter keywords, with AI cover-letter and bullet tools on paid plans.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "resume",
+    "ats",
+    "jobs",
+    "hr",
+    "keywords",
+    "career"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.jobscan.co/pricing",
+    "details": "Free 0 € forever — 5 free resume scans monthly, 5 ATS and recruiter findings, job tracker, post-interview thank-you notes, resume builder and manager, Chrome extension, Jobscan Learning Center. Quarterly 27 €/month billed 81 € every 3 months, 7-day free trial, “save 40%”, for 3 months after the free trial — unlimited resume scans, unlimited AI optimizations (desktop only), AI cover-letter generator, AI bullet-point generator (desktop only), LinkedIn optimizer after the trial (desktop only), unlimited keyword comparisons and ATS/recruiter findings, AI job match, 2 free Auto Apply credits a month after the trial, 20% off Auto Apply credits and interview practice after the trial, plus ebooks and premium templates. Monthly 45 €/month billed every month — same paid feature set (the official FAQ says there is no trial period if you selected a monthly plan or opted out to gain full access to LinkedIn Optimization). Organization sign-up is offered separately.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/jobscan.png",
+  "image": "/screenshots/jobscan.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Resume scans against a job description, with ATS and recruiter findings",
+    "Job tracker, resume builder and manager, Chrome extension and Learning Center on Free",
+    "AI optimizations, cover-letter and bullet generators, LinkedIn optimizer and interview practice on paid plans (some features desktop only, or after the trial)",
+    "Quarterly plan includes a 7-day trial; official FAQ: no trial if you pick monthly"
+  ],
+  "howToUse": [
+    {
+      "title": "Open jobscan.co and use the Free plan (5 resume scans a month) without paying.",
+      "description": "Open jobscan.co and use the Free plan (5 resume scans a month) without paying.",
+      "links": [
+        {
+          "label": "Jobscan",
+          "url": "https://www.jobscan.co/"
+        }
+      ]
+    },
+    {
+      "title": "Paste a job description next to your resume to see ATS and recruiter keyword findings.",
+      "description": "Paste a job description next to your resume to see ATS and recruiter keyword findings."
+    },
+    {
+      "title": "Start the 7-day trial of the quarterly plan, or buy monthly if you want unlimited scans...",
+      "description": "Start the 7-day trial of the quarterly plan, or buy monthly if you want unlimited scans and the AI writing tools — the official FAQ says there is no trial on the monthly plan."
+    }
+  ],
+  "sources": [
+    "https://www.jobscan.co/pricing"
+  ],
+  "summary_fr": "Scanner de CV qui compare un curriculum à une offre pour les mots-clés ATS et recruteurs, avec outils IA de lettre et de puces sur les offres payantes.",
+  "description_fr": "Scanner de CV qui compare un curriculum à une offre pour les mots-clés ATS et recruteurs, avec outils IA de lettre et de puces sur les offres payantes.",
+  "features_fr": [
+    "Scans de CV contre une offre, avec constats ATS et recruteurs",
+    "Suivi des candidatures, créateur et gestionnaire de CV, extension Chrome et Learning Center en Gratuit",
+    "Optimisations IA, générateurs de lettres et de puces, optimiseur LinkedIn et entraînement à l’entretien sur les offres payantes (certaines fonctions ordinateur uniquement, ou après l’essai)",
+    "Le forfait trimestriel inclut un essai de 7 jours ; FAQ officielle : pas d’essai si tu choisis le mensuel"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre jobscan.co et utilise l’offre Gratuite (5 scans de CV par mois) sans payer.",
+      "description": "Ouvre jobscan.co et utilise l’offre Gratuite (5 scans de CV par mois) sans payer.",
+      "links": [
+        {
+          "label": "Jobscan",
+          "url": "https://www.jobscan.co/"
+        }
+      ]
+    },
+    {
+      "title": "Colle une offre à côté de ton CV pour voir les constats ATS et les mots-clés recruteurs.",
+      "description": "Colle une offre à côté de ton CV pour voir les constats ATS et les mots-clés recruteurs."
+    },
+    {
+      "title": "Lance l’essai de 7 jours du forfait trimestriel, ou prends le mensuel si tu veux des...",
+      "description": "Lance l’essai de 7 jours du forfait trimestriel, ou prends le mensuel si tu veux des scans illimités et les outils d’écriture IA — la FAQ officielle indique qu’il n’y a pas d’essai sur le mensuel."
+    }
+  ]
+}
