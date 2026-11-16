@@ -1,4 +1,3 @@
-import { applyDisplayCurrencyToTool } from "@/lib/format-display-price"
 import { resolvePricingNoteFromCandidates } from "@/lib/pricing-note-guard"
 import type { Tool } from "@/lib/types"
 import type { Locale } from "./config"
@@ -41,9 +40,9 @@ export function toolForLocale(tool: Tool, locale: Locale): Tool {
 
 /** Swap in French fiche fields when they exist. English copy stays otherwise. */
 export function localizeTool(tool: Tool, locale: Locale): Tool {
-  if (locale !== "fr" || !tool) return applyDisplayCurrencyToTool(tool)
+  if (locale !== "fr" || !tool) return tool
   const summary = tool.summary_fr || tool.shortDescription_fr
-  return applyDisplayCurrencyToTool({
+  return {
     ...tool,
     description: summary || tool.description,
     longDescription: tool.description_fr || tool.longDescription,
@@ -59,7 +58,7 @@ export function localizeTool(tool: Tool, locale: Locale): Tool {
           details: resolvePricingNoteFromCandidates([tool.pricingNote_fr, tool.pricing.details], "fr"),
         }
       : tool.pricing,
-  })
+  }
 }
 
 export function useLocalizedCopy(tool: Tool, locale: Locale) {

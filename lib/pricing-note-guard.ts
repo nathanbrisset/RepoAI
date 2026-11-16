@@ -12,8 +12,21 @@ const INTERNAL_NOTE =
 
 const META_MARKER = /source:|verified|à\s+vérifier|\bTODO\b|\bTBD\b/i
 
-const NON_EUR_CURRENCY =
-  /\$|\bUSD\b|\bUS\s+dollars?\b|\bdollars?\b|£|\bGBP\b|₹|\bINR\b|roupies?|rupees?|\bCHF\b|¥|\bJPY\b|\bCAD\b|A\$|\bAUD\b/i
+export const NON_EUR_CURRENCY =
+  /\$|\bUS\$\b|\bUSD\b|\bUS\s+dollars?\b|\bdollars?\b|£|\bGBP\b|₹|\bINR\b|roupies?|rupees?|\bCHF\b|¥|\bJPY\b|\bCAD\b|A\$|\bAUD\b/i
+
+/** Mask URL, template, and env-var `$` before scanning visitor-facing copy. */
+export function maskForCurrencyScan(text: string): string {
+  return text
+    .replace(/https?:\/\/[^\s)]+/gi, " ")
+    .replace(/\$\{[^}]*\}/g, " ")
+    .replace(/\$[A-Za-z_][A-Za-z0-9_]*/g, " ")
+}
+
+export function containsNonEurDisplayCurrency(text: string | undefined | null): boolean {
+  if (text == null || !String(text).trim()) return false
+  return NON_EUR_CURRENCY.test(maskForCurrencyScan(String(text)))
+}
 
 /** Product name exceptions before the EN French-heuristic runs (e.g. Mistral "Le Chat"). */
 const EN_ALLOWED_PRODUCT_NAMES = [/\bLe Chat\b/gi]
@@ -59,7 +72,7 @@ export function uncleanReasons(value: string | undefined | null, lang: PricingNo
   if (INTERNAL_NOTE.test(text)) reasons.push("internal_note")
   if (META_MARKER.test(text)) reasons.push("meta_marker")
 
-  if (NON_EUR_CURRENCY.test(text)) reasons.push("non_eur_currency")
+  if (containsNonEurDisplayCurrency(text)) reasons.push("non_eur_currency")
 
   const forLang = stripUrlsForLanguageHeuristic(text)
   if (lang === "en" && FRENCH_IN_EN.test(maskAllowedProductNames(forLang))) reasons.push("wrong_language")
