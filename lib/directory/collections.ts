@@ -33,7 +33,7 @@ export type CollectionDef = {
 export const COLLECTION_DEFS: CollectionDef[] = [
   {
     slug: "recettes-et-stacks",
-    title: { en: "Recipes & stacks", fr: "Recettes & stacks" },
+    title: { en: "Recipes & stacks", fr: "Recettes et stacks" },
     blurb: {
       en: "Recipes for getting useful work done.",
       fr: "Des recettes pour avancer sur un vrai travail.",
@@ -63,10 +63,10 @@ export const COLLECTION_DEFS: CollectionDef[] = [
   },
   {
     slug: "vibe-coding",
-    title: { en: "Vibe coding", fr: "Vibe coding" },
+    title: { en: "Vibe coding", fr: "Code en vibe" },
     blurb: {
       en: "Ship a useful app without getting lost in setup.",
-      fr: "Sortir une app utile sans se perdre dans l'installation.",
+      fr: "Livre une app utile sans te perdre dans l'installation.",
     },
     ids: ["v0-vercel", "bolt", "lovable", "spacefast", "sitelas"],
   },
@@ -81,16 +81,16 @@ export const COLLECTION_DEFS: CollectionDef[] = [
   },
   {
     slug: "image-branding",
-    title: { en: "Image & branding", fr: "Image et branding" },
+    title: { en: "Image & branding", fr: "Image et identité visuelle" },
     blurb: {
       en: "Make a visual system people remember.",
-      fr: "Un système visuel dont on se souvient.",
+      fr: "Construis une identité visuelle que l'on retient.",
     },
     ids: ["midjourney", "ideogram", "krea", "logoai", "yofont"],
   },
   {
     slug: "research-writing",
-    title: { en: "Research & writing", fr: "Recherche et écriture" },
+    title: { en: "Research & writing", fr: "Recherche et rédaction" },
     blurb: {
       en: "Go from a blank page to a clear draft.",
       fr: "De la page blanche à un texte clair.",
@@ -99,7 +99,7 @@ export const COLLECTION_DEFS: CollectionDef[] = [
   },
   {
     slug: "go-to-market",
-    title: { en: "Solo go-to-market", fr: "Go-to-market solo" },
+    title: { en: "Solo go-to-market", fr: "Mise sur le marché solo" },
     blurb: {
       en: "Find the angle, the audience and the words.",
       fr: "Trouver l'angle, l'audience et les mots.",
