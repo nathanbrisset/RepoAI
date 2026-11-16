@@ -19,8 +19,7 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/looka.png",
   "image": "/screenshots/looka.webp",
@@ -57,9 +56,9 @@
     }
   ],
   "features_fr": [
-    "Générateur de logo : conçoit des logos à partir de tes préférences.",
-    "Brand Kit Builder : crée des packages complets d’identité de marque.",
-    "Personnalisation du design : modifiez les polices, les couleurs et la mise en page.",
-    "Téléchargements haute résolution : exportations dans plusieurs formats."
+    "Générateur de logo: conçoit des logos à partir de tes préférences.",
+    "Brand Kit Builder: crée des packages complets d’identité de marque.",
+    "Personnalisation du design: modifiez les polices, les couleurs et la mise en page.",
+    "Téléchargements haute résolution: exportations dans plusieurs formats."
   ]
 }

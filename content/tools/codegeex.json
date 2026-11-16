@@ -16,8 +16,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/codegeex.png",
   "image": "/screenshots/codegeex.webp",
@@ -50,9 +49,9 @@
     }
   ],
   "features_fr": [
-    "Prise en charge multilingue : génère du code dans plus de 20 langues.",
-    "Modèle à grande échelle : formé sur des ensembles de données de code étendus.",
-    "Traduction de code : traduit le code entre les langues.",
-    "Intégration IDE : Compatible avec les environnements de développement courants."
+    "Prise en charge multilingue: génère du code dans plus de 20 langues.",
+    "Modèle à grande échelle: formé sur des ensembles de données de code étendus.",
+    "Traduction de code: traduit le code entre les langues.",
+    "Intégration IDE: Compatible avec les environnements de développement courants."
   ]
 }

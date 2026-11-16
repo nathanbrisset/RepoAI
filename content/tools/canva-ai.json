@@ -17,8 +17,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/canva-ai.png",
   "image": "/screenshots/canva-ai.webp",
@@ -55,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Suggestions de conception basées sur l'IA : fournit des recommandations de conception basées sur les entrées de l'utilisateur.",
-    "Magic Write : génère du contenu textuel pour divers besoins de conception.",
-    "Outil Text-to-Image : crée des images à partir d'invites de texte.",
-    "Background Remover : supprime automatiquement les arrière-plans des images."
+    "Suggestions de conception basées sur l'IA: fournit des recommandations de conception basées sur les entrées de l'utilisateur.",
+    "Magic Write: génère du contenu textuel pour divers besoins de conception.",
+    "Outil Text-to-Image: crée des images à partir d'invites de texte.",
+    "Background Remover: supprime automatiquement les arrière-plans des images."
   ]
 }

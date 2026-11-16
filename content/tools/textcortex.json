@@ -1,0 +1,90 @@
+{
+  "id": "textcortex",
+  "name": "TextCortex",
+  "url": "https://textcortex.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI writing and knowledge-base workspace where teams build custom agents, connect sources and automate everyday text workflows.",
+  "description": "AI writing and knowledge-base workspace where teams build custom agents, connect sources and automate everyday text workflows.",
+  "categories": [
+    "writing"
+  ],
+  "tags": [
+    "writing",
+    "knowledge-base",
+    "agents",
+    "workflows",
+    "enterprise-ready",
+    "germany"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://textcortex.com/pricing",
+    "details": "Premium 27 € per user/month billed monthly, or 22 € per user/month billed annually — knowledge bases, custom agents, agent skills and connectors, access to major models, workflow automations, included AI model usage, up to 10 GB file storage. Official prices exclude VAT; VAT is calculated at payment. Enterprise — flexible/custom pricing and dedicated deployment (SSO/SCIM/SAML, centralized billing, priority support; request a demo). No lasting Free plan was stated on the official pricing page. Labelled Premium.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/textcortex.png",
+  "image": "/screenshots/textcortex.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Knowledge bases, custom agents, agent skills and connectors",
+    "Access to major models and workflow automations, with up to 10 GB storage on Premium",
+    "Premium billed per user, monthly or annually, excl. VAT",
+    "No lasting Free plan on the official pricing page — labelled Premium"
+  ],
+  "howToUse": [
+    {
+      "title": "Open textcortex.com/pricing and start Premium, billed monthly or annually, excl. VAT.",
+      "description": "Open textcortex.com/pricing and start Premium, billed monthly or annually, excl. VAT.",
+      "links": [
+        {
+          "label": "TextCortex",
+          "url": "https://textcortex.com/"
+        }
+      ]
+    },
+    {
+      "title": "Build a knowledge base and custom agents, and connect your sources.",
+      "description": "Build a knowledge base and custom agents, and connect your sources."
+    },
+    {
+      "title": "Talk to sales about Enterprise if you need SSO, a dedicated deployment or centralized...",
+      "description": "Talk to sales about Enterprise if you need SSO, a dedicated deployment or centralized billing."
+    }
+  ],
+  "hqCountry": "DE",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://textcortex.com/pricing"
+  ],
+  "summary_fr": "Espace d’écriture et de base de connaissances IA où les équipes créent des agents, connectent leurs sources et automatisent les flux de texte du quotidien.",
+  "description_fr": "Espace d’écriture et de base de connaissances IA où les équipes créent des agents, connectent leurs sources et automatisent les flux de texte du quotidien.",
+  "features_fr": [
+    "Bases de connaissances, agents personnalisés, compétences et connecteurs",
+    "Accès aux grands modèles et automatisations de flux, avec jusqu’à 10 Go de stockage en Premium",
+    "Premium facturé par utilisateur, au mois ou à l’année, hors TVA",
+    "Pas d’offre Gratuite durable sur la page tarifs officielle — labellé Premium"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre textcortex.com/pricing et commence en Premium, facturé au mois ou à l’année, hors...",
+      "description": "Ouvre textcortex.com/pricing et commence en Premium, facturé au mois ou à l’année, hors TVA.",
+      "links": [
+        {
+          "label": "TextCortex",
+          "url": "https://textcortex.com/"
+        }
+      ]
+    },
+    {
+      "title": "Construis une base de connaissances et des agents, et connecte tes sources.",
+      "description": "Construis une base de connaissances et des agents, et connecte tes sources."
+    },
+    {
+      "title": "Parle aux ventes d’Enterprise si tu as besoin du SSO, d’un déploiement dédié ou d’une...",
+      "description": "Parle aux ventes d’Enterprise si tu as besoin du SSO, d’un déploiement dédié ou d’une facturation centralisée."
+    }
+  ]
+}

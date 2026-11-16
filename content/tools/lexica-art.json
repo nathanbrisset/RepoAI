@@ -17,8 +17,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/lexica-art.png",
   "image": "/screenshots/lexica-art.webp",
@@ -51,9 +50,9 @@
     }
   ],
   "features_fr": [
-    "Recherche d'images AI : recherche des images générées par l'IA en fonction d'invites.",
-    "Inspiration rapide : fournit des idées pour la génération d’images.",
-    "Sorties de haute qualité : offre des images détaillées et artistiques.",
-    "Galerie utilisateur : affiche les créations de la communauté."
+    "Recherche d'images AI: recherche des images générées par l'IA en fonction d'invites.",
+    "Inspiration rapide: fournit des idées pour la génération d’images.",
+    "Sorties de haute qualité: offre des images détaillées et artistiques.",
+    "Galerie utilisateur: affiche les créations de la communauté."
   ]
 }

@@ -16,8 +16,7 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/persado.png",
   "image": "/screenshots/persado.webp",
@@ -58,9 +57,9 @@
     }
   ],
   "features_fr": [
-    "Génération de langage basée sur l'IA : crée une copie marketing à conversion élevée.",
-    "Tests A/B : teste les variantes pour optimiser l'engagement.",
-    "Personnalisation : adapte la messagerie à chaque segment d'audience.",
-    "Analyse des performances : suit l’efficacité de la messagerie."
+    "Génération de langage basée sur l'IA: crée une copie marketing à conversion élevée.",
+    "Tests A/B: teste les variantes pour optimiser l'engagement.",
+    "Personnalisation: adapte la messagerie à chaque segment d'audience.",
+    "Analyse des performances: suit l’efficacité de la messagerie."
   ]
 }
