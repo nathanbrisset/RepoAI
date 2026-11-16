@@ -19,7 +19,7 @@
   "pricing": {
     "verified": true,
     "sourceUrl": "https://www.clocknext.com/pricing",
-    "details": "Free 0 € forever — up to 90,481 € billed revenue/year, unlimited products and plans. Pro 271 €/month billed monthly — up to 226,203 € billed revenue/year, 1:1 Slack support. Business 452 €/month — up to 452,407 €, 1:1 Slack support. Premium 814 €/month — up to 904,814 €, 1:1 Slack support and priority onboarding. Custom with no revenue cap. Official note: every plan offers the complete product experience (no feature-gating). Paid plans start with a free trial (official). Annual billing is offered as “Save 20% annually”; exact yearly totals were not spelled out on the page and are not invented here.",
+    "details": "Free 0 € forever — up to 90,481 € billed revenue/year, unlimited products and plans. Pro 271 €/month billed monthly — up to 226,203 € billed revenue/year, 1:1 Slack support. Business 452 €/month — up to 452,407 €, 1:1 Slack support. Premium 814 €/month — up to 904,814 €, 1:1 Slack support and priority onboarding. Custom with no revenue cap. Every plan offers the complete product experience (no feature-gating). Paid plans start with a free trial. Annual billing is offered as “Save 20% annually”.",
     "model": "freemium",
     "label": "Freemium"
   },
@@ -31,7 +31,7 @@
     "Usage-based billing for AI agents: credits and wallets, metering, outcome pricing and live price changes",
     "No per-seat maths and no feature-gating between plans (official)",
     "Prepaid and postpaid invoicing",
-    "Free forever up to an official billed-revenue cap; yearly totals are not invented"
+    "Free forever up to a billed-revenue cap; annual billing with savings"
   ],
   "howToUse": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "title": "Start a paid-plan trial if your billed revenue needs a higher cap.",
-      "description": "Start a paid-plan trial if your billed revenue needs a higher cap. Annual totals are not invented."
+      "description": "Start a paid-plan trial if your billed revenue needs a higher cap."
     }
   ],
   "sources": [
@@ -62,7 +62,7 @@
     "Facturation à l’usage pour agents IA : crédits et wallets, metering, prix à l’outcome et changements de prix en direct",
     "Pas de calcul par siège et pas de fonctions verrouillées selon l’offre (officiel)",
     "Facturation prépayée et postpayée",
-    "Gratuit pour toujours jusqu’à un plafond officiel de revenu facturé ; les totaux annuels ne sont pas inventés"
+    "Gratuit pour toujours jusqu’à un plafond de revenu facturé ; facturation annuelle avec économies"
   ],
   "howToUse_fr": [
     {
@@ -81,7 +81,7 @@
     },
     {
       "title": "Commence un essai d’offre payante si ton revenu facturé a besoin d’un plafond plus élevé.",
-      "description": "Commence un essai d’offre payante si ton revenu facturé a besoin d’un plafond plus élevé. Les totaux annuels ne sont pas inventés."
+      "description": "Commence un essai d’offre payante si ton revenu facturé a besoin d’un plafond plus élevé."
     }
   ]
 }

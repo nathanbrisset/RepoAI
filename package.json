@@ -9,6 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "catalog:check": "node scripts/catalog-index.mjs",
+    "visitor-copy:check": "node scripts/check-visitor-copy.mjs",
+    "prebuild": "node scripts/check-visitor-copy.mjs",
     "match:check": "node --experimental-strip-types scripts/check-match.ts",
     "related:check": "npx tsx scripts/check-related-tools.ts",
     "smoke:catalogue-query": "node scripts/smoke-catalogue-query-typing.mjs",

@@ -9,6 +9,7 @@ import fs from "fs"
 import path from "path"
 import { spawnSync } from "child_process"
 import { fileURLToPath } from "url"
+import { scanVisitorCopy } from "./check-visitor-copy.mjs"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const importDir = path.join(root, "data/import-2026-11-16")
@@ -715,6 +716,15 @@ function main() {
     }
   }
 
+  let visitorCopyCheck = dryRun ? "dry-run" : null
+  if (!dryRun) {
+    const visitorHits = scanVisitorCopy()
+    visitorCopyCheck = { pass: visitorHits.length === 0, count: visitorHits.length, hits: visitorHits }
+    if (visitorHits.length) {
+      throw new Error(`Visitor-copy check failed (${visitorHits.length}): ${JSON.stringify(visitorHits.slice(0, 5))}`)
+    }
+  }
+
   const report = {
     date: VERIFIED,
     deliverSlugs: SLUGS,
@@ -732,6 +742,7 @@ function main() {
     howToTitleIssues,
     howToTitleCheck: Object.keys(howToTitleIssues).length === 0 ? "pass" : howToTitleIssues,
     localLogosCheck,
+    visitorCopyCheck,
   }
   writeJson(path.join(importDir, "import-report.json"), report)
   console.log(JSON.stringify(report, null, 2))

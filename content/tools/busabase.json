@@ -18,7 +18,7 @@
   ],
   "pricing": {
     "verified": true,
-    "details": "Free 0 € — 1 space you own, 3 seats per space, 5,000 records per space, 1 GB attachment storage, 1 self-hosted connection online. Plus 9 €/seat/month billed 109 €/seat annually (official: billed yearly, 2 months free) — 3 spaces you own, 20 GB storage, billed per actual member. Pro 18 €/seat/month billed 217 €/seat annually (2 months free) — unlimited spaces, 100 GB storage, custom workspace address, priority support (WhatsApp / WeChat / Email). Monthly list prices besides these yearly-billed figures were not separately stated and are not invented here.",
+    "details": "Free 0 € — 1 space you own, 3 seats per space, 5,000 records per space, 1 GB attachment storage, 1 self-hosted connection online. Plus 9 €/seat/month billed 109 €/seat annually (billed yearly, 2 months free) — 3 spaces you own, 20 GB storage, billed per actual member. Pro 18 €/seat/month billed 217 €/seat annually (2 months free) — unlimited spaces, 100 GB storage, custom workspace address, priority support (WhatsApp / WeChat / Email).",
     "model": "freemium",
     "label": "Freemium"
   },
@@ -29,7 +29,7 @@
   "features": [
     "Open-source (MIT) system of record for AI agents: one database and workspace for agents and people",
     "Local engine and Docker image; OpenAPI, webhooks and MCP; desktop keeps data in a folder on your machine",
-    "Free plan included; Plus and Pro are official yearly-billed seat prices (no invented monthly list)"
+    "Free plan included; Plus and Pro billed yearly per seat"
   ],
   "howToUse": [
     {
@@ -59,7 +59,7 @@
   "features_fr": [
     "Système d’enregistrement open source (MIT) pour agents IA : une base et un espace pour les agents et les humains",
     "Moteur local et image Docker ; OpenAPI, webhooks et MCP ; le desktop garde les données dans un dossier sur ta machine",
-    "Offre Gratuite incluse ; Plus et Pro sont des tarifs officiels par siège facturés à l’année (pas de liste mensuelle inventée)"
+    "Offre Gratuite incluse ; Plus et Pro facturés à l’année par siège"
   ],
   "howToUse_fr": [
     {
