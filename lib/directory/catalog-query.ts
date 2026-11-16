@@ -9,7 +9,9 @@ import type { Locale } from "@/lib/i18n/config"
 
 export const CATALOGUE_PAGE_SIZE = 36
 
-export type SortMode = "trending" | "new" | "top"
+import type { SortMode } from "./listing-query-params"
+
+export type { SortMode } from "./listing-query-params"
 
 export type CatalogQueryInput = {
   category?: string
@@ -118,33 +120,7 @@ export function randomDirectoryRecord(locale: Locale): DirectoryRecord | null {
   return records[Math.floor(Math.random() * records.length)] ?? null
 }
 
-/** Bare path + query for LocaleLink or localizeHref (e.g. `/catalogue?page=2`). */
-export function listingQueryHref(
-  barePath: string,
-  searchParams: { toString(): string },
-  patch: Record<string, string | null | undefined> = {},
-  options?: { resetPage?: boolean },
-): string {
-  const params = new URLSearchParams(searchParams.toString())
-  for (const [key, value] of Object.entries(patch)) {
-    if (value) params.set(key, value)
-    else params.delete(key)
-  }
-  if (options?.resetPage) params.delete("page")
-  params.delete("tool")
-  const query = params.toString()
-  return query ? `${barePath}?${query}` : barePath
-}
-
-export function listingPageHref(
-  barePath: string,
-  searchParams: { toString(): string },
-  page: number,
-): string {
-  return listingQueryHref(barePath, searchParams, {
-    page: page <= 1 ? null : String(page),
-  })
-}
+export { listingQueryHref, listingPageHref } from "./listing-query-params"
 
 export function parseCatalogSearchParams(
   params: Record<string, string | string[] | undefined>,

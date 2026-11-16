@@ -1,15 +1,14 @@
 "use client"
 
 import { CollectionCard } from "@/components/directory/collection-card"
-import { resolvedCollections } from "@/lib/directory/data"
+import type { ResolvedCollection } from "@/lib/directory/data"
 import { useLocale } from "@/components/locale-provider"
 import { directoryCopy } from "@/lib/i18n/directory-copy"
 import LocaleLink from "@/components/locale-link"
 
-export function CollectionsListPage() {
+export function CollectionsListPage({ collections }: { collections: ResolvedCollection[] }) {
   const locale = useLocale()
   const t = directoryCopy(locale)
-  const collections = resolvedCollections(locale)
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-16">

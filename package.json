@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "node scripts/run-prebuild-checks.mjs",
-    "build": "node scripts/generate-fr-mirror-pages.mjs && npx tsx scripts/generate-known-paths-snapshot.ts && npx tsx scripts/check-known-paths-consistency.ts && next build && npx tsx scripts/check-404-page-assets.ts",
+    "build": "node scripts/generate-fr-mirror-pages.mjs && npx tsx scripts/generate-known-paths-snapshot.ts && npx tsx scripts/check-known-paths-consistency.ts && next build && node scripts/check-client-bundle.mjs && npx tsx scripts/check-404-page-assets.ts",
+    "check:client-bundle": "node scripts/check-client-bundle.mjs",
     "test:sitemap-redirects": "npx tsx --test lib/routing/check-sitemap-redirects.test.ts",
     "start": "next start",
     "lint": "next lint",
