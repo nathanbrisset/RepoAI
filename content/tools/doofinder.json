@@ -1,0 +1,89 @@
+{
+  "id": "doofinder",
+  "name": "Doofinder",
+  "url": "https://www.doofinder.com/en/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI site-search and product-discovery platform for ecommerce, with guided search, recommendations and quizzes.",
+  "description": "AI site-search and product-discovery platform for ecommerce, with guided search, recommendations and quizzes.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "ecommerce",
+    "search",
+    "recommendations",
+    "merchandising",
+    "spain"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.doofinder.com/en/price",
+    "details": "Monthly or Yearly (10% off yearly, a regular billing toggle). Basic 49 €/month, or 44 €/month billed annually — up to 10k requests/month per product, AI search, banners, custom results, voice search, synonyms, homepage and PDP recommendation carousels, quiz maker. Pro 149 €/month, or 134 €/month billed annually — up to 150k requests/month, everything in Basic plus AI search alerts, multi-index, predictive suggestions, AI visual tagging, behavior-based recommendations. Advanced 349 €/month, or 314 €/month billed annually — up to 400k requests/month, everything in Pro plus 1:1 personalized results, visual search, 365-day analytics, ChatGPT/Claude connection. Enterprise is custom (talk to us). A free trial is offered. An AI Assistant add-on is listed for Pro, Advanced and Enterprise with “get in touch for details and pricing” and is left unlisted. Shopify/BigCommerce-specific plans are mentioned separately and were not recorded here. Official prices already in euro, shown as published.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/doofinder.png",
+  "image": "/screenshots/doofinder.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "AI site search and product discovery for ecommerce, with voice search, synonyms, banners and custom results",
+    "Product recommendations and a quiz maker; visual tagging and visual search on higher plans",
+    "Basic, Pro and Advanced, monthly or yearly, in official euro prices, plus a free trial",
+    "The AI Assistant add-on and Shopify/BigCommerce-specific plans have no public price here and are left unlisted"
+  ],
+  "howToUse": [
+    {
+      "title": "Open doofinder.com (the site redirects to doofinder.com/en/) and start the official free...",
+      "description": "Open doofinder.com (the site redirects to doofinder.com/en/) and start the official free trial on Basic, Pro or Advanced.",
+      "links": [
+        {
+          "label": "Doofinder",
+          "url": "https://www.doofinder.com/en/"
+        }
+      ]
+    },
+    {
+      "title": "Connect your catalogue and configure AI search, recommendations or a quiz.",
+      "description": "Connect your catalogue and configure AI search, recommendations or a quiz."
+    },
+    {
+      "title": "Keep the monthly or yearly plan that matches your request volume.",
+      "description": "Keep the monthly or yearly plan that matches your request volume. The AI Assistant add-on and Shopify/BigCommerce-specific plans are not priced here."
+    }
+  ],
+  "hqCountry": "ES",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://www.doofinder.com/en/price"
+  ],
+  "summary_fr": "Moteur de recherche IA et de découverte produits pour l’e-commerce, avec recherche guidée, recommandations et quiz.",
+  "description_fr": "Moteur de recherche IA et de découverte produits pour l’e-commerce, avec recherche guidée, recommandations et quiz.",
+  "features_fr": [
+    "Recherche IA et découverte produits pour l’e-commerce, avec recherche vocale, synonymes, bannières et résultats personnalisés",
+    "Recommandations produits et créateur de quiz ; tagging visuel et recherche visuelle sur les offres supérieures",
+    "Basic, Pro et Advanced, au mois ou à l’année, aux prix officiels en euros, plus un essai gratuit",
+    "L’add-on AI Assistant et les offres Shopify / BigCommerce n’ont pas de prix public ici et ne sont pas listés"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre doofinder.com (le site redirige vers doofinder.com/en/) et lance l’essai gratuit...",
+      "description": "Ouvre doofinder.com (le site redirige vers doofinder.com/en/) et lance l’essai gratuit officiel sur Basic, Pro ou Advanced.",
+      "links": [
+        {
+          "label": "Doofinder",
+          "url": "https://www.doofinder.com/en/"
+        }
+      ]
+    },
+    {
+      "title": "Connecte ton catalogue et règle la recherche IA, les recommandations ou un quiz.",
+      "description": "Connecte ton catalogue et règle la recherche IA, les recommandations ou un quiz."
+    },
+    {
+      "title": "Garde le forfait mensuel ou annuel qui correspond à ton volume de requêtes.",
+      "description": "Garde le forfait mensuel ou annuel qui correspond à ton volume de requêtes. L’add-on AI Assistant et les offres Shopify / BigCommerce ne sont pas tarifés ici."
+    }
+  ]
+}

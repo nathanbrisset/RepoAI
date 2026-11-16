@@ -1,0 +1,90 @@
+{
+  "id": "meilisearch",
+  "name": "Meilisearch",
+  "url": "https://www.meilisearch.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source search and AI retrieval engine with a managed cloud: full-text, vector and hybrid search, and a free self-hosted option.",
+  "description": "Open-source search and AI retrieval engine with a managed cloud: full-text, vector and hybrid search, and a free self-hosted option.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "open-source",
+    "search",
+    "vector-search",
+    "retrieval",
+    "cloud",
+    "france"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.meilisearch.com/pricing",
+    "details": "Self-hosting the open-source engine is free. Meilisearch Cloud starts at 18 €/month, with a 14-day free trial and no credit card required (official starting price; the on-page estimator shows instance sizes and a regional disk component that vary by region — those line items were not copied in full and are left to the official calculator). Enterprise is custom (dedicated resources, up to 99.999% uptime SLA, Slack support, SSO, SOC 2).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/meilisearch.png",
+  "image": "/screenshots/meilisearch.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Open-source search and AI retrieval: full-text, vector and hybrid search",
+    "Free self-hosting, or a managed Cloud with a fixed monthly instance price regardless of search volume",
+    "9 hosting regions, unlimited team members, no per-seat fees",
+    "Cloud officially starts at 18 €/month after a 14-day trial; the instance/region estimator is not copied in full"
+  ],
+  "howToUse": [
+    {
+      "title": "Open meilisearch.com and either self-host the open-source engine for free, or start the...",
+      "description": "Open meilisearch.com and either self-host the open-source engine for free, or start the 14-day Cloud trial with no card.",
+      "links": [
+        {
+          "label": "Meilisearch",
+          "url": "https://www.meilisearch.com/"
+        }
+      ]
+    },
+    {
+      "title": "Index your documents and try full-text, vector or hybrid search.",
+      "description": "Index your documents and try full-text, vector or hybrid search."
+    },
+    {
+      "title": "After the trial, Cloud starts at 18 €/month depending on instance size and region — the...",
+      "description": "After the trial, Cloud starts at 18 €/month depending on instance size and region — the full instance table is not listed here, only the official starting price."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://www.meilisearch.com/pricing"
+  ],
+  "summary_fr": "Moteur open source de recherche et d’extraction IA, avec un cloud managé : recherche plein texte, vectorielle et hybride, et une option auto-hébergée gratuite.",
+  "description_fr": "Moteur open source de recherche et d’extraction IA, avec un cloud managé : recherche plein texte, vectorielle et hybride, et une option auto-hébergée gratuite.",
+  "features_fr": [
+    "Recherche et extraction IA open source : plein texte, vectorielle et hybride",
+    "Auto-hébergement gratuit, ou un Cloud managé à prix d’instance mensuel fixe, quel que soit le volume de recherche",
+    "9 régions d’hébergement, membres d’équipe illimités, pas de tarif par siège",
+    "Le Cloud commence officiellement à 18 €/mois après un essai de 14 jours ; l’estimateur d’instance / région n’est pas recopié en entier"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre meilisearch.com et auto-héberge le moteur open source gratuitement, ou lance...",
+      "description": "Ouvre meilisearch.com et auto-héberge le moteur open source gratuitement, ou lance l’essai Cloud de 14 jours, sans carte.",
+      "links": [
+        {
+          "label": "Meilisearch",
+          "url": "https://www.meilisearch.com/"
+        }
+      ]
+    },
+    {
+      "title": "Indexe tes documents et essaie la recherche plein texte, vectorielle ou hybride.",
+      "description": "Indexe tes documents et essaie la recherche plein texte, vectorielle ou hybride."
+    },
+    {
+      "title": "Après l’essai, le Cloud commence à 18 €/mois selon la taille d’instance et la région — le...",
+      "description": "Après l’essai, le Cloud commence à 18 €/mois selon la taille d’instance et la région — le tableau d’instances n’est pas listé ici, seulement le prix d’entrée officiel."
+    }
+  ]
+}
