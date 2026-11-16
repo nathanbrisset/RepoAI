@@ -3,7 +3,7 @@
   "name": "Sonauto",
   "url": "https://sonauto.ai",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "renamed",
   "summary": "Song generation, a free alternative to Suno.",
   "description": "Sonauto composes full songs with lyrics and vocals from a description or your own lyrics. A generous free tier lets you experiment without a subscription.",
   "summary_fr": "Génération de chansons, alternative gratuite à Suno.",
@@ -26,7 +26,7 @@
   "logo": "/logos/sonauto.png",
   "image": "/screenshots/sonauto.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "Full songs with lyrics and vocals",
     "Generate from your own lyrics",
@@ -64,5 +64,8 @@
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "successorId": "treblo",
+  "statusNote": "Now Treblo (formerly Sonauto).",
+  "statusNote_fr": "Désormais Treblo (anciennement Sonauto)."
 }

@@ -17,14 +17,12 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/rapidminer.png",
   "image": "/screenshots/rapidminer.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-21",
-  "dateAddedNote": "The previous Added date was 2006-07-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Visual Workflow Designer: Drag-and-drop interface for building end-to-end data processes.",
     "Automated Machine Learning: AutoML to automatically select and tune models.",
@@ -57,9 +55,9 @@
   ],
   "statusNote": "rapidminer.com redirects to Siemens RapidMiner page",
   "features_fr": [
-    "Visual Workflow Designer : interface glisser-déposer pour créer des processus de données de bout en bout.",
-    "Apprentissage automatique automatisé : AutoML pour sélectionner et régler automatiquement les modèles.",
-    "Bibliothèque de modèles étendue : des centaines d'algorithmes intégrés pour la classification, la régression et le clustering.",
-    "Préparation de données intégrée : outils pour nettoyer, transformer et enrichir les données."
+    "Visual Workflow Designer: interface glisser-déposer pour créer des processus de données de bout en bout.",
+    "Apprentissage automatique automatisé: AutoML pour sélectionner et régler automatiquement les modèles.",
+    "Bibliothèque de modèles étendue: des centaines d'algorithmes intégrés pour la classification, la régression et le clustering.",
+    "Préparation de données intégrée: outils pour nettoyer, transformer et enrichir les données."
   ]
 }

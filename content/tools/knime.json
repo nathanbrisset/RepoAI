@@ -17,14 +17,12 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/knime.png",
   "image": "/screenshots/knime.webp",
   "dateAdded": null,
   "lastVerified": null,
-  "dateAddedNote": "The previous Added date was 2015-06-15. It was removed because it is not a credible date for this directory.",
   "features": [
     "Drag-and-Drop Workflow: User-friendly interface for building analytics pipelines without code.",
     "Extensive Integration: Connects with databases, cloud storage, and big data tools.",
@@ -60,9 +58,9 @@
     }
   ],
   "features_fr": [
-    "Workflow glisser-déposer : interface conviviale pour créer des pipelines d’analyse sans code.",
-    "Intégration étendue : se connecte aux bases de données, au stockage cloud et aux outils Big Data.",
-    "Analyses avancées : prend en charge l'apprentissage automatique, l'apprentissage profond, les statistiques et l'exploration de texte.",
-    "Plateforme extensible : vaste écosystème de plugins et d'extensions communautaires."
+    "Workflow glisser-déposer: interface conviviale pour créer des pipelines d’analyse sans code.",
+    "Intégration étendue: se connecte aux bases de données, au stockage cloud et aux outils Big Data.",
+    "Analyses avancées: prend en charge l'apprentissage automatique, l'apprentissage profond, les statistiques et l'exploration de texte.",
+    "Plateforme extensible: vaste écosystème de plugins et d'extensions communautaires."
   ]
 }

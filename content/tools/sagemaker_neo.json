@@ -17,14 +17,12 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/sagemaker_neo.png",
   "image": "/screenshots/sagemaker_neo.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-29",
-  "dateAddedNote": "The previous Added date was 2018-11-28. It was removed because it is not a credible date for this directory.",
   "features": [
     "Multi-Framework Compatibility: Supports TensorFlow, PyTorch, MXNet, and more.",
     "Cross-Platform Deployment: Optimizes models for cloud and edge hardware.",
@@ -57,9 +55,9 @@
   ],
   "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
   "features_fr": [
-    "Compatibilité multi-framework : prend en charge TensorFlow, PyTorch, MXNet et plus encore.",
-    "Déploiement multiplateforme : optimise les modèles pour le matériel cloud et Edge.",
-    "Inférence accélérée : réduit la latence et améliore le débit sur du matériel optimisé.",
-    "Intégration AWS transparente : se connecte directement à l'écosystème SageMaker."
+    "Compatibilité multi-framework: prend en charge TensorFlow, PyTorch, MXNet et plus encore.",
+    "Déploiement multiplateforme: optimise les modèles pour le matériel cloud et Edge.",
+    "Inférence accélérée: réduit la latence et améliore le débit sur du matériel optimisé.",
+    "Intégration AWS transparente: se connecte directement à l'écosystème SageMaker."
   ]
 }

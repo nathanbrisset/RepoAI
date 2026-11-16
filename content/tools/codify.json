@@ -16,8 +16,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/codify.png",
   "image": "/screenshots/codify.webp",
@@ -54,9 +53,9 @@
     }
   ],
   "features_fr": [
-    "Génération basée sur des invites : transformez les descriptions en code.",
-    "Prend en charge les langages populaires : JavaScript, Python, etc.",
-    "Modèles personnalisés : créez avec des blocs de code réutilisables.",
-    "Partage collaboratif : partagez des extraits avec les équipes."
+    "Génération basée sur des invites: transformez les descriptions en code.",
+    "Prend en charge les langages populaires: JavaScript, Python, etc.",
+    "Modèles personnalisés: créez avec des blocs de code réutilisables.",
+    "Partage collaboratif: partagez des extraits avec les équipes."
   ]
 }

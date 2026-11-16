@@ -1,0 +1,83 @@
+{
+  "id": "async",
+  "name": "Async",
+  "url": "https://async.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI video editor (formerly Podcastle) for cutting, captioning and generating clips by talking to Async, with a free plan and paid tiers.",
+  "description": "AI video editor (formerly Podcastle) for cutting, captioning and generating clips by talking to Async, with a free plan and paid tiers.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "async",
+    "video"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free (Basic) 0 €/month — 10 AI credits lifetime, 1 hour of media to AI chat lifetime, export up to 720p, 1 export file, 2 GB cloud storage; no card to sign up. Essentials 19.99 €/month, or 143.90 €/year (11.99 €/month billed yearly) — 450 AI credits/month, unlimited media to AI chat, export up to Full HD, unlimited exports, 20 GB storage. Pro (most popular) 39.99 €/month, or 287.90 €/year (23.99 €/month billed yearly) — 1,200 AI credits/month, export up to 4K, 120 GB storage. Teams 84.99 €/creator/month, or 599.90 €/creator/year (49.99 €/month billed yearly) — 3,000 AI credits/month, 1 TB storage, team workspace. Business: custom (contact sales). Yearly plans are officially presented as 40% off versus monthly; credits on a yearly plan are added each month, not all at once, and unused monthly credits do not roll over. Official FAQ: 7-day refund on new subscriptions, excluding used AI credits. One-time top-up packs: 300 credits 10.99 €, 600 credits 19.99 €, 900 credits 29.99 €, 1,800 credits 44.99 €, 3,000 credits 74.99 €. Recurring credit add-ons also exist. These are official euro prices from the payment API that fills the pricing page for this region.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/async.png",
+  "image": "/screenshots/async.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Chat-based AI video editor: rough-cut cleanup, captions, clips, B-roll, music and audio cleanup",
+    "Remote multitrack recording, text-based audio editing, AI voices and optional voice cloning",
+    "Free plan with no card, plus Essentials, Pro and Teams credit plans and a custom Business offer",
+    "Formerly Podcastle; same product under a new name and domain"
+  ],
+  "howToUse": [
+    {
+      "title": "Open async.com (the site may geo-redirect to /es; switch to English if you need it) and...",
+      "description": "Open async.com (the site may geo-redirect to /es; switch to English if you need it) and create a Free account with no card.",
+      "links": [
+        {
+          "label": "Async",
+          "url": "https://async.com/"
+        }
+      ]
+    },
+    {
+      "title": "Upload a video or start from a template, then tell Async in the chat what to cut...",
+      "description": "Upload a video or start from a template, then tell Async in the chat what to cut, caption, clean or generate."
+    },
+    {
+      "title": "Upgrade to Essentials, Pro or Teams if you need a monthly credit allowance and higher...",
+      "description": "Upgrade to Essentials, Pro or Teams if you need a monthly credit allowance and higher export quality."
+    }
+  ],
+  "sources": [
+    "https://async.com/"
+  ],
+  "summary_fr": "Éditeur vidéo IA (ex-Podcastle) : tu montes, sous-titres et génères des clips en parlant à Async, avec une offre gratuite puis des plans à partir de 19,99 €/mois.",
+  "description_fr": "Éditeur vidéo IA (ex-Podcastle) : tu montes, sous-titres et génères des clips en parlant à Async, avec une offre gratuite puis des plans à partir de 19,99 €/mois.",
+  "features_fr": [
+    "Éditeur vidéo IA par le chat : nettoyage du rush, sous-titres, clips, B-roll, musique et nettoyage audio",
+    "Enregistrement multipiste à distance, montage audio par le texte, voix IA et clonage de voix en option",
+    "Offre gratuite sans carte, plus plans Essentials, Pro et Teams au crédit, et offre Business sur mesure",
+    "Anciennement Podcastle ; le même produit, sous un nouveau nom et un nouveau domaine"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre async.com (le site peut rediriger vers /es ; passe en anglais si tu en as besoin)...",
+      "description": "Ouvre async.com (le site peut rediriger vers /es ; passe en anglais si tu en as besoin) et crée un compte Gratuit, sans carte.",
+      "links": [
+        {
+          "label": "Async",
+          "url": "https://async.com/"
+        }
+      ]
+    },
+    {
+      "title": "Importe une vidéo ou pars d’un modèle, puis dis à Async dans le chat ce qu’il faut...",
+      "description": "Importe une vidéo ou pars d’un modèle, puis dis à Async dans le chat ce qu’il faut couper, sous-titrer, nettoyer ou générer."
+    },
+    {
+      "title": "Passe à Essentials, Pro ou Teams si tu as besoin d’un quota mensuel de crédits et d’un...",
+      "description": "Passe à Essentials, Pro ou Teams si tu as besoin d’un quota mensuel de crédits et d’un export de meilleure qualité."
+    }
+  ]
+}

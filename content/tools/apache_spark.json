@@ -17,14 +17,12 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/apache_spark.png",
   "image": "/screenshots/apache_spark.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-29",
-  "dateAddedNote": "The previous Added date was 2014-05-30. It was removed because it is not a credible date for this directory.",
   "features": [
     "Distributed Computing: Processes massive datasets across clusters for scalability.",
     "Multi-Language Support: APIs for Python, Java, Scala, and R.",
@@ -57,9 +55,9 @@
   ],
   "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
   "features_fr": [
-    "Informatique distribuée : traite des ensembles de données massifs sur plusieurs clusters à des fins d'évolutivité.",
-    "Prise en charge multilingue : API pour Python, Java, Scala et R.",
-    "Traitement en mémoire : calculs hautes performances en conservant les données en mémoire.",
-    "Traitement par flux et par lots : moteur unifié pour les données historiques et en temps réel."
+    "Informatique distribuée: traite des ensembles de données massifs sur plusieurs clusters à des fins d'évolutivité.",
+    "Prise en charge multilingue: API pour Python, Java, Scala et R.",
+    "Traitement en mémoire: calculs hautes performances en conservant les données en mémoire.",
+    "Traitement par flux et par lots: moteur unifié pour les données historiques et en temps réel."
   ]
 }

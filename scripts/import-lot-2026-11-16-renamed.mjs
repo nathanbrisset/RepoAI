@@ -1,0 +1,1167 @@
+#!/usr/bin/env node
+/**
+ * Catalogue lot 2026-11-16 renamed — 6 tools + successor renames from deliver-6.
+ *
+ * Copy refresh: replace files under data/import-2026-11-16-renamed/ (see README there)
+ * and re-run — successor fiches and FR overlay are overwritten from lot-6.csv + copy-6.json.
+ *
+ *   node scripts/import-lot-2026-11-16-renamed.mjs [--dry-run]
+ */
+import crypto from "crypto"
+import fs from "fs"
+import path from "path"
+import { spawnSync } from "child_process"
+import { fileURLToPath } from "url"
+import { VISITOR_COPY_BANNED } from "./check-visitor-copy.mjs"
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
+const importDir = path.join(root, "data/import-2026-11-16-renamed")
+const csvPath = path.join(importDir, "lot-6.csv")
+const copyPath = path.join(importDir, "copy-6.json")
+const featuresEnPath = path.join(importDir, "features-en-6.json")
+const featuresFrPath = path.join(importDir, "features-fr-6.json")
+const peerLotSlugsPath = path.join(importDir, "peer-lot-2026-11-16-40-slugs.json")
+const peerLot2SlugsPath = path.join(importDir, "peer-lot-2026-11-16-lot2-slugs.json")
+const renamedMapPath = path.join(importDir, "renamed-map.json")
+const nextConfigPath = path.join(root, "next.config.js")
+const collectionsPath = path.join(root, "lib/directory/collections.ts")
+const md5Path = path.join(importDir, "md5.json")
+const deliverLogos = path.join(importDir, "deliver/logos")
+const deliverShots = path.join(importDir, "deliver/screenshots")
+const toolsDir = path.join(root, "content/tools")
+const toolIdsPath = path.join(root, "content/tool-ids.json")
+const frPath = path.join(root, "content/i18n/fr-tools.json")
+const publicLogos = path.join(root, "public/logos")
+const publicShots = path.join(root, "public/screenshots")
+const VERIFIED = "2026-11-16"
+const LOT_SIZE = 6
+const dryRun = process.argv.includes("--dry-run")
+
+const FORBIDDEN_IDS = new Set([])
+
+/** CSV category labels → public taxonomy ids (never legacy text / data-processing). */
+const CATEGORY_SLUG = {
+  "LLM & Chatbots": "llm-chatbots",
+  "AI Agents": "ai-agents",
+  "Automation & Workflows": "automation",
+  Coding: "coding",
+  "Coding & Dev Tools": "coding",
+  Design: "design",
+  "Design & UI": "design",
+  "Image Generation": "image",
+  "Image Generation & Editing": "image",
+  Marketing: "marketing",
+  "Marketing & SEO": "marketing",
+  "No-code & App Builders": "no-code",
+  Productivity: "productivity",
+  "Productivity & Workspace": "productivity",
+  "Video Creation": "video",
+  Video: "video",
+  "Voice & Speech": "voice",
+  Audio: "voice",
+  Text: "writing",
+  "Writing & Content": "writing",
+  "Data Processing": "data",
+  "Data & Analytics": "data",
+  "Education & Learning": "education",
+  "Music & Audio": "music",
+  "Meetings & Notes": "meetings",
+  "Search & Research": "search",
+  "Sales & CRM": "sales",
+  "Finance & Accounting": "finance",
+  Legal: "legal",
+  "Customer Support": "support",
+  "HR & Recruiting": "hr",
+  "Health & Medical": "health",
+  Security: "security",
+  "AI Detection": "ai-detection",
+}
+
+const PUBLIC_CATEGORY_IDS = new Set(
+  JSON.parse(fs.readFileSync(path.join(root, "content/taxonomy.json"), "utf8")).categories.map((c) => c.id),
+)
+
+const COUNTRY_ISO = {
+  india: "IN",
+  "united states": "US",
+  usa: "US",
+  france: "FR",
+  switzerland: "CH",
+  germany: "DE",
+  uk: "GB",
+  "united kingdom": "GB",
+  spain: "ES",
+  canada: "CA",
+  australia: "AU",
+  singapore: "SG",
+  israel: "IL",
+  netherlands: "NL",
+  sweden: "SE",
+  norway: "NO",
+  finland: "FI",
+  italy: "IT",
+  japan: "JP",
+  china: "CN",
+  brazil: "BR",
+  montenegro: "ME",
+  indonesia: "ID",
+  ireland: "IE",
+  estonia: "EE",
+  ukraine: "UA",
+  mexico: "MX",
+  "south korea": "KR",
+  korea: "KR",
+  poland: "PL",
+  turkey: "TR",
+  portugal: "PT",
+  belgium: "BE",
+  austria: "AT",
+  denmark: "DK",
+  "new zealand": "NZ",
+  argentina: "AR",
+  colombia: "CO",
+  chile: "CL",
+  peru: "PE",
+  vietnam: "VN",
+  thailand: "TH",
+  philippines: "PH",
+  malaysia: "MY",
+  taiwan: "TW",
+  "hong kong": "HK",
+  uae: "AE",
+  "united arab emirates": "AE",
+  egypt: "EG",
+  nigeria: "NG",
+  kenya: "KE",
+  "south africa": "ZA",
+  romania: "RO",
+  hungary: "HU",
+  czechia: "CZ",
+  "czech republic": "CZ",
+  slovakia: "SK",
+  croatia: "HR",
+  serbia: "RS",
+  bulgaria: "BG",
+  greece: "GR",
+  norway: "NO",
+  finland: "FI",
+  luxembourg: "LU",
+  latvia: "LV",
+  lithuania: "LT",
+  slovenia: "SI",
+  cyprus: "CY",
+  malta: "MT",
+  iceland: "IS",
+  pakistan: "PK",
+  bangladesh: "BD",
+  nepal: "NP",
+  sri_lanka: "LK",
+  "sri lanka": "LK",
+}
+
+/** When deliver slug would overwrite an existing catalogue entry */
+const COLLISION_RENAMES = {}
+
+const CURRENCY_LEAK =
+  /\$|(?:^|\s)USD\b|\bdollars?\b|£|(?:^|\s)GBP\b|₹|(?:^|\s)INR\b|(?:^|\s)CHF\b|¥|(?:^|\s)JPY\b|(?:^|\s)CAD\b|(?:^|\s)AUD\b|roupies|rupees?/i
+
+/** Peer import lot #52 (same date) — ids reserved for collision checks before merge. */
+const PEER_LOT_IDS = new Set([
+  ...JSON.parse(fs.readFileSync(peerLotSlugsPath, "utf8")),
+  ...JSON.parse(fs.readFileSync(peerLot2SlugsPath, "utf8")),
+])
+
+const VISIBLE_WORKING_NOTE_HIT =
+  /notes non affich|pas invent|Distinct from|Legal entity|Mention officielle|déjà au catalogue|pricing_usd_official|non affichées|non-displayed|left unlisted|not listed here|not recorded here|non listé|non extraits|not clearly isolated|official \(non-displayed\)/i
+
+const FEATURE_LINE_REWRITES = {
+  "ClipDrop Pro bundle advertised on the same page is a separate product, not listed here":
+    "A separate ClipDrop Pro bundle is also advertised on the official pricing page.",
+  "Le bundle ClipDrop Pro annoncé sur la même page est un produit distinct, non listé ici":
+    "Un bundle ClipDrop Pro distinct est aussi annoncé sur la page tarifaire officielle.",
+  "Style, clarity and tone tools on Pro; Business is linked separately and not listed here":
+    "Style, clarity and tone tools on Pro; Linguix Business is a separate plan on the official site.",
+  "Forfaits annuels ou tarifs officiels au volume par photo ; prix de liste mensuels non extraits":
+    "Forfaits annuels ou tarifs au volume par photo sur le site officiel.",
+  "Plus ou Pro facturés au mois ; totaux annuels non extraits, donc non listés. Labellé Premium":
+    "Forfaits Plus et Pro facturés au mois.",
+  "Plus or Pro billed monthly; yearly totals not extracted, so not listed. Labelled Premium":
+    "Plus and Pro plans billed monthly.",
+  "Pro and Gold are billed annually; monthly list prices were not extracted":
+    "Pro and Gold plans are billed annually.",
+  "Pro et Gold sont facturés à l’année ; les prix de liste mensuels n’ont pas été extraits":
+    "Pro et Gold sont facturés à l’année.",
+  "Yearly totals not itemized (“12 months for the price of 10”) — not invented. Labelled Premium":
+    "Monthly software plans; yearly billing uses a “12 months for the price of 10” offer on the official site.",
+  "Totaux annuels non détaillés (« 12 months for the price of 10 ») — non inventés. Labellé Premium":
+    "Forfaits mensuels ; la facturation annuelle propose « 12 months for the price of 10 » sur le site officiel.",
+  "Outils de style, de clarté et de ton en Pro ; Business est lié à part et n’est pas listé ici":
+    "Outils de style, de clarté et de ton en Pro ; Linguix Business est une offre distincte sur le site officiel.",
+}
+
+const HOWTO_LINE_REWRITES = {
+  "Subscribe yearly or buy a one-time credit pack if you need more — the monthly subscription total is not listed here, because it was not clearly isolated.":
+    "Subscribe yearly or buy a one-time credit pack if you need more credits.",
+  "Abonne-toi à l’année ou achète un pack de crédits si tu as besoin de plus — le total mensuel de l’abonnement n’est pas listé ici, car il n’a pas été clairement isolé.":
+    "Abonne-toi à l’année ou achète un pack de crédits si tu as besoin de plus de crédits.",
+  "Stay on Plus for everyday use, or Pro if you need higher limits and priority support — yearly totals are not listed here, because they were not shown in the extracted view.":
+    "Stay on Plus for everyday use, or move to Pro if you need higher limits and priority support.",
+  "Reste sur Plus pour un usage quotidien, ou Pro si tu as besoin de limites plus élevées et d’un support prioritaire — les totaux annuels ne sont pas listés ici, car ils n’étaient pas affichés dans la vue extraite.":
+    "Reste sur Plus pour un usage quotidien, ou passe à Pro si tu as besoin de limites plus élevées et d’un support prioritaire.",
+  "Upgrade to Pro (billed 127 € a year) if you want advanced rewrites, style suggestions and unlimited shortcuts — a separate monthly list price was not extracted and is not listed here.":
+    "Upgrade to Pro (billed 127 € a year) if you want advanced rewrites, style suggestions and unlimited shortcuts.",
+  "Passe à Pro (facturé 127 € à l’année) si tu veux des réécritures avancées, des suggestions de style et des raccourcis illimités — un prix de liste mensuel distinct n’a pas été extrait et n’est pas listé ici.":
+    "Passe à Pro (facturé 127 € à l’année) si tu veux des réécritures avancées, des suggestions de style et des raccourcis illimités.",
+  "Buy Pro or Gold billed annually if you need more credits, PowerPoint export and brand tools — monthly list prices besides these annually billed figures are not listed here.":
+    "Buy Pro or Gold billed annually if you need more credits, PowerPoint export and brand tools.",
+  "Prends Pro ou Gold facturés à l’année si tu as besoin de plus de crédits, de l’export PowerPoint et des outils de marque — les prix de liste mensuels, en dehors de ces montants facturés à l’année, ne sont pas listés ici.":
+    "Prends Pro ou Gold facturés à l’année si tu as besoin de plus de crédits, de l’export PowerPoint et des outils de marque.",
+  "Continue on the monthly plan that matches your seats and volume — yearly totals are not listed here, because they were not itemized beyond “12 months for the price of 10”.":
+    "Continue on the monthly plan that matches your seats and volume.",
+  "Continue sur le forfait mensuel qui correspond à tes sièges et à ton volume — les totaux annuels ne sont pas listés ici, car ils n’étaient pas détaillés au-delà de « 12 months for the price of 10 ».":
+    "Continue sur le forfait mensuel qui correspond à tes sièges et à ton volume.",
+  "Continue on Standard or Business Pro — the verified figures are the annual 63 € and 136 € totals. A separate monthly list price was not extracted.":
+    "Continue on Standard or Business Pro — verified annual plans at 63 € and 136 €.",
+  "Continue sur Standard ou Business Pro — les montants vérifiés sont les totaux annuels de 63 € et 136 €. Un prix mensuel de liste distinct n’a pas été extrait.":
+    "Continue sur Standard ou Business Pro — forfaits annuels vérifiés à 63 € et 136 €.",
+}
+
+function sentenceHasVisitorCopyBan(text) {
+  return VISITOR_COPY_BANNED.some((rule) => rule.pattern.test(text))
+}
+
+function dropInternalSentences(text) {
+  if (!text || typeof text !== "string") return text
+  const parts = text.split(/(?<=[.!?;])\s+/)
+  const kept = parts.filter((part) => part.trim() && !sentenceHasVisitorCopyBan(part))
+  return kept.join(" ").replace(/\s+/g, " ").trim()
+}
+
+function rewriteKnownLine(text, table) {
+  const trimmed = String(text || "").trim()
+  return table[trimmed] || trimmed
+}
+
+function stripInternalTail(text) {
+  return String(text)
+    .replace(/\s*[—–-]\s*(?:yearly totals|les totaux|monthly list|prix de liste|not listed|non listé|left unlisted|not extracted|non extraits).*$/iu, "")
+    .replace(/\s*\([^)]*non[- ]displayed[^)]*\)\s*/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
+function sanitizeDisplayedString(text) {
+  const trimmed = String(text || "").trim()
+  if (!trimmed) return trimmed
+  let out = rewriteKnownLine(trimmed, { ...FEATURE_LINE_REWRITES, ...HOWTO_LINE_REWRITES })
+  out = dropInternalSentences(out)
+  if (!out) out = stripInternalTail(rewriteKnownLine(trimmed, { ...FEATURE_LINE_REWRITES, ...HOWTO_LINE_REWRITES }))
+  return out.trim() || stripInternalTail(trimmed) || trimmed
+}
+
+function sanitizeFeatureLine(line) {
+  return sanitizeDisplayedString(rewriteKnownLine(line, FEATURE_LINE_REWRITES))
+}
+
+function sanitizePricingLine(text) {
+  let out = String(text || "").trim()
+  if (!out) return out
+  out = out
+    .replace(/\s*;?\s*Prix web convertis depuis les dollars US officiels[^.;]*[.;]?/giu, ".")
+    .replace(/\s*;?\s*Web prices are the official web amounts converted to euros[^.;]*[.;]?/giu, ".")
+    .replace(/\s*;?\s*in the iPhone and Android apps, Pro is billed through the App Store or Google Play at their prices for your country \(those store prices are not listed on the web page and are not invented here\)\.?/giu, ".")
+    .replace(/\s*;?\s*dans les apps iPhone et Android, Pro est facturé via l'App Store ou Google Play aux tarifs de ton pays \(ces prix magasin ne sont pas listés sur la page web et ne sont pas inventés ici\)\.?/giu, ".")
+    .replace(/\s+/g, " ")
+    .trim()
+  return sanitizeDisplayedString(out)
+}
+
+function sanitizeHowToStep(text) {
+  const trimmed = String(text || "").trim()
+  if (!trimmed) return trimmed
+  const rewritten = rewriteKnownLine(trimmed, HOWTO_LINE_REWRITES)
+  if (rewritten !== trimmed) return rewritten
+  const stripped = stripInternalTail(trimmed)
+  return stripped || trimmed
+}
+
+function hostnameFromUrl(raw) {
+  try {
+    return new URL(raw).hostname.replace(/^www\./i, "").toLowerCase()
+  } catch {
+    return ""
+  }
+}
+
+function loadExistingCatalog() {
+  const byId = new Map()
+  const byName = new Map()
+  const byHost = new Map()
+  for (const name of fs.readdirSync(toolsDir)) {
+    if (!name.endsWith(".json")) continue
+    const tool = JSON.parse(fs.readFileSync(path.join(toolsDir, name), "utf8"))
+    const id = tool.id
+    const toolName = (tool.name || "").trim().toLowerCase()
+    const host = hostnameFromUrl(tool.url || "")
+    byId.set(id, tool)
+    if (toolName) {
+      if (!byName.has(toolName)) byName.set(toolName, [])
+      byName.get(toolName).push(tool)
+    }
+    if (host) {
+      if (!byHost.has(host)) byHost.set(host, [])
+      byHost.get(host).push(tool)
+    }
+  }
+  return { byId, byName, byHost }
+}
+
+function findImportCollision(deliverSlug, name, url, catalog, renamedFromId) {
+  const reasons = []
+  const allowedSameDomainIds = new Set([deliverSlug, renamedFromId].filter(Boolean))
+  // Same catalogue id as this deliver slug is updated in place (re-runs), not skipped.
+  if (PEER_LOT_IDS.has(deliverSlug) && catalog.byId.has(deliverSlug)) {
+    reasons.push({ kind: "peer-lot-id", existingId: deliverSlug })
+  }
+  const normalizedName = (name || "").trim().toLowerCase()
+  if (normalizedName && catalog.byName.has(normalizedName)) {
+    for (const existing of catalog.byName.get(normalizedName)) {
+      if (existing.id !== deliverSlug && !allowedSameDomainIds.has(existing.id)) {
+        reasons.push({ kind: "name", existingId: existing.id, name })
+      }
+    }
+  }
+  const host = hostnameFromUrl(url)
+  if (host && catalog.byHost.has(host)) {
+    for (const existing of catalog.byHost.get(host)) {
+      if (existing.id !== deliverSlug && !allowedSameDomainIds.has(existing.id)) {
+        reasons.push({ kind: "domain", existingId: existing.id, host })
+      }
+    }
+  }
+  return reasons
+}
+
+function assertNoVisibleWorkingNotes(tool, pricingFr) {
+  const fields = [
+    tool.summary,
+    tool.description,
+    tool.summary_fr,
+    tool.description_fr,
+    tool.pricing?.details,
+    pricingFr,
+    ...(tool.features || []),
+    ...(tool.features_fr || []),
+    ...(tool.howToUse || []).flatMap((s) => [s.title, s.description]),
+    ...(tool.howToUse_fr || []).flatMap((s) => [s.title, s.description]),
+  ]
+  for (const f of fields) {
+    if (typeof f !== "string") continue
+    for (const rule of VISITOR_COPY_BANNED) {
+      if (rule.pattern.test(f)) {
+        throw new Error(
+          `Visitor-copy leak (${rule.id}) in displayed field for ${tool.id}: ${f.slice(0, 80)}…`,
+        )
+      }
+    }
+  }
+}
+
+function writeJson(file, value) {
+  if (dryRun) return
+  fs.writeFileSync(file, `${JSON.stringify(value, null, 2)}\n`)
+}
+
+function md5File(file) {
+  return crypto.createHash("md5").update(fs.readFileSync(file)).digest("hex")
+}
+
+function parseCsv(text) {
+  const normalized = text.replace(/^\uFEFF/, "")
+  const rows = []
+  let row = []
+  let cell = ""
+  let quoted = false
+  for (let i = 0; i < normalized.length; i++) {
+    const c = normalized[i]
+    if (quoted) {
+      if (c === '"') {
+        if (normalized[i + 1] === '"') {
+          cell += '"'
+          i++
+        } else quoted = false
+      } else cell += c
+    } else if (c === '"') quoted = true
+    else if (c === ",") {
+      row.push(cell)
+      cell = ""
+    } else if (c === "\n") {
+      row.push(cell)
+      rows.push(row)
+      row = []
+      cell = ""
+    } else if (c !== "\r") cell += c
+  }
+  if (cell.length || row.length) {
+    row.push(cell)
+    rows.push(row)
+  }
+  const headers = rows[0].map((h) => h.trim())
+  return rows
+    .slice(1)
+    .filter((r) => r.some((v) => v && v.trim()))
+    .map((r) => Object.fromEntries(headers.map((h, i) => [h, (r[i] ?? "").trim()])))
+}
+
+function urlsFrom(text) {
+  const found = text.match(/https?:\/\/[^\s;,)"']+/g) || []
+  const unique = []
+  for (const raw of found) {
+    const url = raw.replace(/[.)\]]+$/, "")
+    try {
+      const parsed = new URL(url)
+      if (!unique.includes(parsed.href)) unique.push(parsed.href)
+    } catch {
+      /* skip */
+    }
+  }
+  return unique
+}
+
+function pricingSource(source, url) {
+  return urlsFrom(source).find((u) => /pricing|\/plans\b|\/price\b/i.test(u)) || undefined
+}
+
+function pricingFor(row, pricingEn) {
+  const label = (row.pricing || "").trim()
+  if (!label) return { verified: false, uncertain: true }
+  const url = (row.official_url_final || row.official_url || "").trim()
+  const verified = /^\d{4}-\d{2}-\d{2}$/.test((row.pricing_verified_on || "").trim())
+  const sourceUrl = pricingSource(row.source || "", url)
+  const base = {
+    verified,
+    ...(sourceUrl ? { sourceUrl } : {}),
+    ...(pricingEn ? { details: pricingEn } : {}),
+  }
+
+  if (/^free$/i.test(label)) return { ...base, model: "free", label: "Free" }
+  if (/freemium/i.test(label)) return { ...base, model: "freemium", label: "Freemium" }
+  if (/premium/i.test(label)) return { ...base, model: "paid", label: "Premium" }
+  if (/enterprise/i.test(label)) return { ...base, model: "enterprise", label: "Enterprise" }
+  if (/usage/i.test(label)) return { ...base, model: "usage-based", label: "Usage-based" }
+  return { verified: false, uncertain: true, note: label }
+}
+
+function parseHqCountry(raw) {
+  const key = (raw || "").trim().toLowerCase()
+  if (!key) return {}
+  const iso = COUNTRY_ISO[key]
+  if (!iso) return {}
+  return { hqCountry: iso, hqCountrySource: "import" }
+}
+
+const HOWTO_TITLE_MAX = 90
+
+const PROTECTED_ABBREVS = new Set(["excl.", "etc.", "e.g.", "i.e.", "vs.", "fig.", "approx."])
+
+function tokenEndingAt(text, endIndex) {
+  let start = endIndex
+  while (start > 0 && /[\w.]/.test(text[start - 1])) start--
+  return text.slice(start, endIndex + 1).toLowerCase()
+}
+
+/** Same rules as lib/i18n/truncate-how-to-title.mjs (PR #51). */
+function firstSentenceForHowTo(text) {
+  const trimmed = String(text).trim()
+  for (let i = 0; i < trimmed.length; i++) {
+    const c = trimmed[i]
+    if (c !== "." && c !== "!" && c !== "?") continue
+    const token = tokenEndingAt(trimmed, i)
+    if (PROTECTED_ABBREVS.has(token)) continue
+    const next = trimmed[i + 1]
+    if (i === trimmed.length - 1 || (next && /\s/.test(next))) {
+      return trimmed.slice(0, i + 1).trim()
+    }
+  }
+  return trimmed
+}
+
+function openParensBefore(text, index) {
+  let count = 0
+  for (let i = 0; i < index; i++) {
+    if (text[i] === "(") count++
+  }
+  return count
+}
+
+function closeParensBefore(text, index) {
+  let count = 0
+  for (let i = 0; i < index; i++) {
+    if (text[i] === ")") count++
+  }
+  return count
+}
+
+function endsInsideUnclosedParen(text) {
+  let depth = 0
+  for (const ch of text) {
+    if (ch === "(") depth++
+    else if (ch === ")") depth = Math.max(0, depth - 1)
+  }
+  return depth > 0
+}
+
+function cutOnWordBoundary(slice, max) {
+  const lastSpace = slice.lastIndexOf(" ")
+  if (lastSpace <= Math.floor(max * 0.45)) return slice.trim()
+  const candidate = slice.slice(0, lastSpace).trim()
+  const tail = slice.slice(lastSpace + 1).trim().toLowerCase()
+  if (PROTECTED_ABBREVS.has(tail) || PROTECTED_ABBREVS.has(`${tail}...`)) {
+    return candidate
+  }
+  return candidate
+}
+
+function truncateHowToTitle(text, max = HOWTO_TITLE_MAX) {
+  const trimmed = String(text).trim()
+  if (trimmed.length <= max) return trimmed
+
+  let sliceEnd = max
+  const slice = trimmed.slice(0, sliceEnd)
+  const open = openParensBefore(trimmed, sliceEnd)
+  const close = closeParensBefore(trimmed, sliceEnd)
+
+  if (open > close) {
+    const lastOpen = slice.lastIndexOf("(")
+    if (lastOpen > 0) {
+      sliceEnd = lastOpen
+    } else {
+      const closing = trimmed.indexOf(")", sliceEnd)
+      if (closing !== -1 && closing < max + 40) {
+        return `${trimmed.slice(0, closing + 1).trim()}...`
+      }
+    }
+  }
+
+  let bounded = cutOnWordBoundary(trimmed.slice(0, sliceEnd), max)
+  bounded = bounded.replace(/[,;:!–\-]+$/u, "").trim()
+  let result = bounded.endsWith("...") ? bounded : `${bounded}...`
+  if (endsInsideUnclosedParen(result.replace(/\.\.\.$/, ""))) {
+    const lastOpen = result.lastIndexOf("(")
+    if (lastOpen > 0) {
+      result = `${result.slice(0, lastOpen).trim()}...`
+    }
+  }
+  return result
+}
+
+function howToStepTitle(description) {
+  const trimmed = String(description).trim()
+  if (!trimmed) return "Step"
+  let title = firstSentenceForHowTo(trimmed)
+  title = truncateHowToTitle(title)
+  return title.length >= 3 ? title : trimmed.slice(0, HOWTO_TITLE_MAX)
+}
+
+function howToTitleCheck(tool) {
+  const issues = []
+  for (const key of ["howToUse", "howToUse_fr"]) {
+    if (!Array.isArray(tool[key])) continue
+    for (const step of tool[key]) {
+      const title = String(step.title || "").trim()
+      const desc = String(step.description || "").trim()
+      if (!title || title === desc) continue
+      const first = firstSentenceForHowTo(desc)
+      if (
+        title.length < desc.length &&
+        !title.endsWith("...") &&
+        title !== first &&
+        desc.startsWith(title)
+      ) {
+        issues.push({ field: key, problem: "mid-word truncate without ellipsis", title })
+      }
+      if (endsInsideUnclosedParen(title.replace(/\.\.\.$/, ""))) {
+        issues.push({ field: key, problem: "unclosed parenthesis", title })
+      }
+      const sansEllipsis = title.replace(/\.\.\.$/, "")
+      if (sansEllipsis.length < desc.length && sansEllipsis.endsWith(".")) {
+        const tail = tokenEndingAt(sansEllipsis, sansEllipsis.length - 1)
+        if (PROTECTED_ABBREVS.has(tail)) {
+          issues.push({ field: key, problem: "cut on protected abbreviation", title })
+        }
+      }
+    }
+  }
+  return issues
+}
+
+function howToStepsFromStrings(steps, name, url) {
+  if (!steps?.length) return undefined
+  const out = steps.map((text, index) => {
+    const trimmed = String(text).trim()
+    const title = howToStepTitle(trimmed)
+    const step = { title, description: trimmed }
+    if (index === 0 && url) {
+      step.links = [{ label: name, url }]
+    }
+    return step
+  })
+  return out
+}
+
+function resolveToolId(deliverSlug, existingIds, thisLotDeliverSlugs) {
+  if (FORBIDDEN_IDS.has(deliverSlug)) {
+    throw new Error(`Forbidden tool slug in lot: ${deliverSlug}`)
+  }
+  let id = deliverSlug
+  if (existingIds.has(id)) {
+    if (thisLotDeliverSlugs.has(deliverSlug)) return id
+    const alt = COLLISION_RENAMES[deliverSlug]
+    if (!alt || existingIds.has(alt)) {
+      throw new Error(`ID collision for deliver slug "${deliverSlug}" (existing id "${id}")`)
+    }
+    id = alt
+  }
+  return id
+}
+
+function resolveCategoryId(csvLabel) {
+  const categoryId = CATEGORY_SLUG[csvLabel]
+  if (!categoryId) throw new Error(`Unknown category "${csvLabel}"`)
+  if (!PUBLIC_CATEGORY_IDS.has(categoryId)) {
+    throw new Error(`Non-public category "${categoryId}" from "${csvLabel}"`)
+  }
+  return categoryId
+}
+
+function assertNoCurrencyLeakInDisplayedFields(tool, copyEntry, pricingFr) {
+  const fields = [
+    tool.summary,
+    tool.description,
+    tool.summary_fr,
+    tool.description_fr,
+    tool.pricing?.details,
+    pricingFr,
+    ...(tool.features || []),
+    ...(tool.features_fr || []),
+    ...(tool.howToUse || []).flatMap((s) => [s.title, s.description]),
+    ...(tool.howToUse_fr || []).flatMap((s) => [s.title, s.description]),
+  ]
+  for (const f of fields) {
+    if (typeof f === "string" && CURRENCY_LEAK.test(f)) {
+      throw new Error(`Currency leak ($/USD/£/GBP) in displayed field for ${tool.id}`)
+    }
+  }
+  if (copyEntry?.pricing_usd_official && Object.keys(tool).includes("pricing_usd_official")) {
+    throw new Error(`pricing_usd_official must not be stored for ${tool.id}`)
+  }
+  if (copyEntry?.pricing_official_gbp && Object.keys(tool).includes("pricing_official_gbp")) {
+    throw new Error(`pricing_official_gbp must not be stored for ${tool.id}`)
+  }
+}
+
+function copyAssets(pairs, expectedMd5) {
+  const mismatches = []
+  for (const { deliverSlug, id } of pairs) {
+    const logoSrc = path.join(deliverLogos, `${deliverSlug}.png`)
+    const shotSrc = path.join(deliverShots, `${deliverSlug}.webp`)
+    const logoDst = path.join(publicLogos, `${id}.png`)
+    const shotDst = path.join(publicShots, `${id}.webp`)
+    for (const [kind, src, dst, map] of [
+      ["logo", logoSrc, logoDst, expectedMd5.logos],
+      ["screenshot", shotSrc, shotDst, expectedMd5.screenshots],
+    ]) {
+      if (!fs.existsSync(src)) throw new Error(`Missing deliver ${kind}: ${deliverSlug}`)
+      const hash = md5File(src)
+      const want = map?.[deliverSlug]
+      if (want && hash !== want) {
+        mismatches.push({ slug: deliverSlug, kind, want, got: hash })
+      }
+      if (!dryRun) fs.copyFileSync(src, dst)
+    }
+  }
+  if (mismatches.length) {
+    throw new Error(`MD5 mismatches: ${JSON.stringify(mismatches, null, 2)}`)
+  }
+}
+
+function syncToolIds() {
+  const ids = fs
+    .readdirSync(toolsDir)
+    .filter((name) => name.endsWith(".json"))
+    .map((name) => name.replace(/\.json$/, ""))
+    .sort()
+  writeJson(toolIdsPath, ids)
+  return ids.length
+}
+
+function runCatalogIndex() {
+  if (dryRun) return
+  const script = path.join(root, "scripts/catalog-index.mjs")
+  const result = spawnSync(process.execPath, [script], { cwd: root, stdio: "inherit" })
+  if (result.status !== 0) {
+    throw new Error("catalog-index.mjs failed — run npm run catalog:check")
+  }
+}
+
+function findHomonyms(createdIds, rowsBySlug) {
+  const homonyms = []
+  const existingTools = fs
+    .readdirSync(toolsDir)
+    .filter((n) => n.endsWith(".json"))
+    .map((n) => {
+      const t = JSON.parse(fs.readFileSync(path.join(toolsDir, n), "utf8"))
+      return { id: t.id, name: (t.name || "").trim().toLowerCase() }
+    })
+  const newNames = new Map()
+  for (const id of createdIds) {
+    const row = rowsBySlug.get(id)
+    if (row) newNames.set((row.name || "").trim().toLowerCase(), id)
+  }
+  for (const [name, newId] of newNames) {
+    if (!name) continue
+    for (const ex of existingTools) {
+      if (ex.id === newId) continue
+      if (ex.name === name) {
+        homonyms.push({ name: rowName(name), newId, existingId: ex.id })
+      }
+    }
+  }
+  return homonyms
+
+  function rowName(n) {
+    for (const row of rowsBySlug.values()) {
+      if ((row.name || "").trim().toLowerCase() === n) return row.name
+    }
+    return n
+  }
+}
+
+
+const RENAMED_STATUS_NOTES = {
+  "gpt-for-sheets": {
+    en: "Now Autosheet (formerly GPT for Sheets and Docs / GPT for Work).",
+    fr: "Désormais Autosheet (anciennement GPT for Sheets and Docs / GPT for Work).",
+  },
+  sonauto: { en: "Now Treblo (formerly Sonauto).", fr: "Désormais Treblo (anciennement Sonauto)." },
+  podcastle: { en: "Now Async (formerly Podcastle).", fr: "Désormais Async (anciennement Podcastle)." },
+  hyprnote: { en: "Now Anarlog (formerly Hyprnote).", fr: "Désormais Anarlog (anciennement Hyprnote)." },
+  lmarena: { en: "Now Arena (formerly LMArena).", fr: "Désormais Arena (anciennement LMArena)." },
+  "opera-aria": { en: "Now Opera AI (formerly Opera Aria).", fr: "Désormais Opera AI (anciennement Opera Aria)." },
+}
+
+const REFERENCE_GLOBS = [
+  "content",
+  "lib",
+  "app",
+  "data",
+]
+
+function englishSummary(row, copy, featuresEn) {
+  const fromRow = (row.short_description || "").trim()
+  if (fromRow) return fromRow
+  const fromFeatures = (row.features || "").split(";")[0]?.trim()
+  if (fromFeatures) return fromFeatures
+  const first = featuresEn?.[0]
+  if (first) return first
+  throw new Error(`No EN summary for ${copy.slug}`)
+}
+
+function parseHqCountryFromCopy(copy, row) {
+  const raw = copy.hqCountry !== undefined ? copy.hqCountry : row.hqCountry
+  if (raw === "" || raw === null) return {}
+  return parseHqCountry(raw)
+}
+
+function applyPmOverrides(tool, copy, row, categoryId) {
+  if (tool.id === "async") tool.categories = ["video"]
+  if (tool.id === "arena") {
+    tool.name = "Arena"
+    if (!/formerly LMArena/i.test(tool.description)) {
+      tool.description = `${tool.description}\n\nFormerly LMArena.`.trim()
+    }
+    const frDesc = tool.description_fr || tool.summary_fr
+    if (frDesc && !/anciennement LMArena/i.test(frDesc)) {
+      tool.description_fr = `${frDesc}\n\nAnciennement LMArena.`.trim()
+    }
+  }
+  if (tool.id === "autosheet") {
+    delete tool.hqCountry
+    delete tool.hqCountrySource
+  }
+  return tool
+}
+
+function markOldToolsRenamed(renamedMap, createdIds) {
+  const updates = []
+  for (const [newId, oldId] of Object.entries(renamedMap)) {
+    if (!createdIds.includes(newId)) throw new Error(`New id ${newId} missing before renaming ${oldId}`)
+    const file = path.join(toolsDir, `${oldId}.json`)
+    if (!fs.existsSync(file)) throw new Error(`Missing old tool ${oldId}`)
+    const tool = JSON.parse(fs.readFileSync(file, "utf8"))
+    const notes = RENAMED_STATUS_NOTES[oldId]
+    if (!notes) throw new Error(`No status notes for ${oldId}`)
+    tool.status = "renamed"
+    tool.successorId = newId
+    tool.statusNote = notes.en
+    tool.statusNote_fr = notes.fr
+    tool.lastVerified = VERIFIED
+    writeJson(file, tool)
+    updates.push({ oldId, newId, statusNote: notes.en })
+  }
+  return updates
+}
+
+const REFERENCE_FILES = [
+  "lib/directory/collections.ts",
+  "lib/related-tools.ts",
+  "content/comparisons",
+  "content/guides",
+]
+
+function walkReplaceIds(rootDir, idMap) {
+  const changed = []
+  const oldIds = new Set(Object.keys(idMap))
+
+  function replaceInFile(relPath) {
+    const full = path.join(rootDir, relPath)
+    if (!fs.existsSync(full)) return
+    const st = fs.statSync(full)
+    if (st.isDirectory()) {
+      for (const name of fs.readdirSync(full)) {
+        replaceInFile(path.join(relPath, name))
+      }
+      return
+    }
+    if (relPath.startsWith("content/tools/") && relPath.endsWith(".json")) {
+      const base = path.basename(relPath, ".json")
+      if (oldIds.has(base)) return
+    }
+    if (!/\.(json|ts|tsx|md)$/.test(relPath)) return
+    let text = fs.readFileSync(full, "utf8")
+    let touched = false
+    for (const [oldId, newId] of Object.entries(idMap)) {
+      const patterns = [
+        new RegExp(`\\b${oldId.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "g"),
+      ]
+      for (const re of patterns) {
+        if (re.test(text)) {
+          text = text.replace(re, newId)
+          touched = true
+        }
+      }
+      if (touched) changed.push({ file: relPath, oldId, newId })
+    }
+    if (touched && !dryRun) fs.writeFileSync(full, text)
+  }
+
+  for (const rel of REFERENCE_FILES) replaceInFile(rel)
+  return changed
+}
+
+function patchNextConfigRenamedRedirects(renamedMap) {
+  if (dryRun) return { patched: false }
+  let src = fs.readFileSync(nextConfigPath, "utf8")
+  const block = Object.entries(renamedMap)
+    .map(([to, from]) => `      { from: "${from}", to: "${to}" },`)
+    .join("\n")
+  const marker = "const duplicateToolRedirects = ["
+  if (src.includes("const renamedToolRedirects = [")) {
+    src = src.replace(
+      /const renamedToolRedirects = \[[\s\S]*?\]\n/,
+      `const renamedToolRedirects = [\n${block}\n    ]\n`,
+    )
+  } else if (src.includes(marker)) {
+    src = src.replace(
+      marker,
+      `const renamedToolRedirects = [\n${block}\n    ]\n    ${marker}`,
+    )
+    src = src.replace(
+      "...duplicateToolRedirects.flatMap(({ from, to }) => [",
+      "...renamedToolRedirects.flatMap(({ from, to }) => [\n        { source: `/tool/${from}`, destination: `/tool/${to}`, permanent: true },\n        { source: `/fr/tool/${from}`, destination: `/fr/tool/${to}`, permanent: true },\n      ]),\n      ...duplicateToolRedirects.flatMap(({ from, to }) => [",
+    )
+  } else {
+    // Base branch: only windsurf hardcoded; add renamedToolRedirects before duplicateTools spread tail
+    const windsurfBlock = `      {
+        source: "/tool/windsurf",
+        destination: "/tool/devin",
+        permanent: true,
+      },
+      {
+        source: "/fr/tool/windsurf",
+        destination: "/fr/tool/devin",
+        permanent: true,
+      },`
+    if (src.includes(windsurfBlock)) {
+      src = src.replace(
+        "    const duplicateTools = {",
+        `    const renamedToolRedirects = [\n${block}\n    ]\n    const duplicateTools = {`,
+      )
+      src = src.replace(windsurfBlock, "")
+      src = src.replace(
+        "...renamedToTools.flatMap((id) => [",
+        "...renamedToolRedirects.flatMap(({ from, to }) => [\n        { source: `/tool/${from}`, destination: `/tool/${to}`, permanent: true },\n        { source: `/fr/tool/${from}`, destination: `/fr/tool/${to}`, permanent: true },\n      ]),\n      ...renamedToTools.flatMap((id) => [",
+      )
+    } else {
+      throw new Error("Could not locate next.config redirect insertion point")
+    }
+  }
+  if (!dryRun) fs.writeFileSync(nextConfigPath, src)
+  return { patched: true, pairs: renamedMap }
+}
+
+function countActiveTools() {
+  let active = 0
+  for (const name of fs.readdirSync(toolsDir)) {
+    if (!name.endsWith(".json")) continue
+    const t = JSON.parse(fs.readFileSync(path.join(toolsDir, name), "utf8"))
+    if (t.status === "active") active++
+  }
+  return active
+}
+
+
+function main() {
+  const renamedMap = JSON.parse(fs.readFileSync(renamedMapPath, "utf8"))
+  const activeBefore = countActiveTools()
+  const copyEntries = JSON.parse(fs.readFileSync(copyPath, "utf8"))
+  const SLUGS = copyEntries.map((e) => e.slug)
+  if (SLUGS.length !== LOT_SIZE) throw new Error(`Expected ${LOT_SIZE} copy entries, got ${SLUGS.length}`)
+
+  const rows = parseCsv(fs.readFileSync(csvPath, "utf8"))
+  if (rows.length !== SLUGS.length) {
+    throw new Error(`Expected ${SLUGS.length} CSV rows, got ${rows.length}`)
+  }
+
+  const copyBySlug = Object.fromEntries(copyEntries.map((entry) => [entry.slug, entry]))
+  const featuresEnBySlug = JSON.parse(fs.readFileSync(featuresEnPath, "utf8"))
+  const featuresFrBySlug = JSON.parse(fs.readFileSync(featuresFrPath, "utf8"))
+  for (const slug of SLUGS) {
+    const en = featuresEnBySlug[slug]
+    const frFeat = featuresFrBySlug[slug]
+    if (!en?.length) throw new Error(`features-en-6.json missing or empty for ${slug}`)
+    if (!frFeat?.length) throw new Error(`features-fr-6.json missing or empty for ${slug}`)
+    if (en.length !== frFeat.length) {
+      throw new Error(`features count mismatch for ${slug}: EN ${en.length} vs FR ${frFeat.length}`)
+    }
+  }
+  const featureSlugKeys = new Set([...Object.keys(featuresEnBySlug), ...Object.keys(featuresFrBySlug)])
+  if (featureSlugKeys.size !== SLUGS.length) {
+    throw new Error(`Expected ${SLUGS.length} feature slugs, got ${featureSlugKeys.size}`)
+  }
+  const expectedMd5 = JSON.parse(fs.readFileSync(md5Path, "utf8"))
+  const existingIds = new Set(JSON.parse(fs.readFileSync(toolIdsPath, "utf8")))
+  const thisLotDeliverSlugs = new Set(SLUGS)
+  const catalog = loadExistingCatalog()
+
+  const idPairs = []
+  const createdIds = []
+  const importIndices = []
+  const renames = []
+  const skipped = []
+  const categoryMappings = {}
+  const howToTitleIssues = {}
+
+  for (let i = 0; i < SLUGS.length; i++) {
+    const deliverSlug = SLUGS[i]
+    const row = rows[i]
+    const copy = copyBySlug[deliverSlug]
+    let name = row.name
+    if (deliverSlug === "arena") name = "Arena"
+    const url = (copy.official_url_final || row.official_url_final || copy.official_url || row.official_url).trim()
+
+    if (FORBIDDEN_IDS.has(deliverSlug)) {
+      skipped.push({ deliverSlug, name, reason: "forbidden slug" })
+      continue
+    }
+
+    const collisions = findImportCollision(deliverSlug, name, url, catalog, copyBySlug[deliverSlug]?.renamed_from)
+    if (collisions.length) {
+      skipped.push({ deliverSlug, name, url, collisions })
+      continue
+    }
+
+    const id = resolveToolId(deliverSlug, existingIds, thisLotDeliverSlugs)
+    if (id !== deliverSlug) {
+      renames.push({ deliverSlug, id, reason: "existing tool id collision" })
+    }
+    idPairs.push({ deliverSlug, id })
+    importIndices.push(i)
+    createdIds.push(id)
+    existingIds.add(id)
+  }
+
+  copyAssets(idPairs, expectedMd5)
+
+  const fr = JSON.parse(fs.readFileSync(frPath, "utf8"))
+
+  for (const i of importIndices) {
+    const row = rows[i]
+    const deliverSlug = SLUGS[i]
+    const id = idPairs.find((p) => p.deliverSlug === deliverSlug)?.id
+    if (!id) throw new Error(`Missing id pair for ${deliverSlug}`)
+    const copy = copyBySlug[deliverSlug]
+    if (!copy) throw new Error(`Missing copy for ${deliverSlug}`)
+
+    const name = row.name
+    const url = (copy.official_url_final || row.official_url_final || copy.official_url || row.official_url).trim()
+    new URL(url)
+    const csvCategory = (copy.category || row.category || "").trim()
+    const categoryId = resolveCategoryId(csvCategory)
+    categoryMappings[csvCategory] = categoryId
+
+    let tags = (row.tags || "")
+      .split(",")
+      .map((t) => t.trim().toLowerCase().replace(/\s+/g, "-"))
+      .filter(Boolean)
+    if (!tags.length) {
+      tags = [deliverSlug, categoryId].filter(Boolean)
+    }
+    if (!tags.length) throw new Error(`No tags for ${name}`)
+
+    const summary = sanitizeDisplayedString(englishSummary(row, copy, featuresEnBySlug[deliverSlug]))
+    let description = row.long_description.trim()
+    if (!description) description = summary
+    else description = sanitizeDisplayedString(description)
+    if (!summary) throw new Error(`Empty copy for ${name}`)
+
+    const shortFr = sanitizeDisplayedString((copy.short_fr || row.short_description_fr || "").trim())
+
+    const pricingEn = sanitizePricingLine((copy.pricing_en || "").trim())
+    const pricingFr = sanitizePricingLine((copy.pricing_fr || "").trim())
+    if (pricingEn && CURRENCY_LEAK.test(pricingEn)) {
+      throw new Error(`pricing_en must be EUR-only for ${id}`)
+    }
+    if (pricingFr && CURRENCY_LEAK.test(pricingFr)) {
+      throw new Error(`pricing_fr must be EUR-only for ${id}`)
+    }
+
+    const features = featuresEnBySlug[deliverSlug].map((item) => sanitizeFeatureLine(item)).filter(Boolean)
+    const featuresFr = featuresFrBySlug[deliverSlug].map((item) => sanitizeFeatureLine(item)).filter(Boolean)
+    if (featuresFr.some((line) => CURRENCY_LEAK.test(line))) {
+      throw new Error(`features_fr must not include non-EUR currency for ${id}`)
+    }
+    const howToEn = (copy.howTo_en || []).map((step) => sanitizeHowToStep(step)).filter((s) => s.length > 0)
+    const howToFr = (copy.howTo_fr || []).map((step) => sanitizeHowToStep(step)).filter((s) => s.length > 0)
+    const howToUse = howToStepsFromStrings(howToEn, name, url)
+    const howToUseFr = howToStepsFromStrings(howToFr, name, url)
+
+    const tool = {
+      id,
+      name,
+      url,
+      affiliateUrl: "",
+      status: "active",
+      summary,
+      description,
+      categories: [categoryId],
+      tags,
+      pricing: pricingFor(row, pricingEn || undefined),
+      logo: `/logos/${id}.png`,
+      image: `/screenshots/${id}.webp`,
+      dateAdded: VERIFIED,
+      lastVerified: VERIFIED,
+      features,
+      ...(howToUse?.length ? { howToUse } : {}),
+      ...parseHqCountryFromCopy(copy, row),
+    }
+
+    const sources = urlsFrom(row.source || "")
+    if (sources.length) tool.sources = sources
+
+    if (shortFr) {
+      tool.summary_fr = shortFr
+      tool.description_fr = shortFr
+    }
+
+    tool.features_fr = featuresFr
+
+    if (howToUseFr?.length) {
+      tool.howToUse_fr = howToUseFr
+    }
+
+    assertNoCurrencyLeakInDisplayedFields(tool, copy, pricingFr)
+    assertNoVisibleWorkingNotes(tool, pricingFr)
+
+    const titleIssues = howToTitleCheck(tool)
+    if (titleIssues.length) howToTitleIssues[id] = titleIssues
+
+    applyPmOverrides(tool, copy, row, categoryId)
+    writeJson(path.join(toolsDir, `${id}.json`), tool)
+
+    if (!fr[id]) fr[id] = {}
+    if (shortFr) {
+      fr[id].summary_fr = shortFr
+      fr[id].description_fr = shortFr
+    }
+    if (tool.features_fr?.length) fr[id].features_fr = tool.features_fr
+    if (tool.howToUse_fr?.length) fr[id].howToUse_fr = tool.howToUse_fr
+    if (pricingFr) fr[id].pricingNote_fr = pricingFr
+  }
+
+  const renameUpdates = markOldToolsRenamed(renamedMap, createdIds)
+  const idMap = Object.fromEntries(Object.entries(renamedMap).map(([n, o]) => [o, n]))
+  const referenceChanges = walkReplaceIds(root, idMap)
+  const redirectPatch = patchNextConfigRenamedRedirects(renamedMap)
+  const activeAfter = countActiveTools()
+
+  const rowsBySlug = new Map(createdIds.map((id, i) => [id, rows[i]]))
+  const homonyms = dryRun ? [] : findHomonyms(createdIds, rowsBySlug)
+
+  const orderedFr = Object.fromEntries(Object.entries(fr).sort(([a], [b]) => a.localeCompare(b)))
+  writeJson(frPath, orderedFr)
+
+  const toolCount = dryRun ? "dry-run" : syncToolIds()
+  let localLogosCheck = null
+  if (!dryRun) {
+    runCatalogIndex()
+    const logoModule = fs.readFileSync(path.join(root, "lib/generated/local-logos.ts"), "utf8")
+    const logoIds = new Set(
+      (logoModule.match(/export const localLogoIds = (\[[\s\S]*?\])/)?.[1] || "[]")
+        .match(/"([^"]+)"/g)
+        ?.map((q) => q.slice(1, -1)) || [],
+    )
+    const missingFromLogos = createdIds.filter((id) => !logoIds.has(id))
+    const indexModule = fs.readFileSync(path.join(root, "content/tools/index.ts"), "utf8")
+    const missingFromIndex = createdIds.filter((id) => !indexModule.includes(`from "./${id}.json"`))
+    localLogosCheck = {
+      lotIds: createdIds.length,
+      missingFromLocalLogos: missingFromLogos,
+      missingFromCatalogIndex: missingFromIndex,
+      pass: missingFromLogos.length === 0 && missingFromIndex.length === 0,
+    }
+    if (!localLogosCheck.pass) {
+      throw new Error(`Catalog index missing lot ids: ${JSON.stringify(localLogosCheck)}`)
+    }
+  }
+
+  const report = {
+    date: VERIFIED,
+    deliverSlugs: SLUGS,
+    toolIds: createdIds,
+    idRenames: renames,
+    homonyms,
+    skipped,
+    toolsWritten: createdIds.length,
+    toolFiles: toolCount,
+    md5Verified: true,
+    catalogIndexRegenerated: !dryRun,
+    forbiddenExcluded: [...FORBIDDEN_IDS],
+    categoryMappings,
+    currencyLeakCheck: "pass",
+    visibleWorkingNotesGuard: "pass",
+    peerLotIdsChecked: [...PEER_LOT_IDS],
+    howToTitleIssues,
+    howToTitleCheck: Object.keys(howToTitleIssues).length === 0 ? "pass" : howToTitleIssues,
+localLogosCheck,
+    renamedMap,
+    renameUpdates,
+    referenceChanges,
+    redirectPatch,
+    activeCount: { before: activeBefore, after: activeAfter },
+  }
+  writeJson(path.join(importDir, "import-report.json"), report)
+  console.log(JSON.stringify(report, null, 2))
+}
+
+main()

@@ -19,8 +19,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/uizard.png",
   "image": "/tool-screenshots/uizard.png",
@@ -53,9 +52,9 @@
     }
   ],
   "features_fr": [
-    "Autodesigner : crée des interfaces utilisateur à partir d'invites textuelles.",
-    "Scanner de capture d'écran : transforme les croquis en interfaces utilisateur modifiables.",
-    "Éditeur glisser-déposer : conception visuelle sans code.",
-    "Focus Predictor : prédit les points chauds d’attention."
+    "Autodesigner: crée des interfaces utilisateur à partir d'invites textuelles.",
+    "Scanner de capture d'écran: transforme les croquis en interfaces utilisateur modifiables.",
+    "Éditeur glisser-déposer: conception visuelle sans code.",
+    "Focus Predictor: prédit les points chauds d’attention."
   ]
 }

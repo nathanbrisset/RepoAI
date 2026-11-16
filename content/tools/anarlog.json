@@ -1,0 +1,83 @@
+{
+  "id": "anarlog",
+  "name": "Anarlog",
+  "url": "https://anarlog.so/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Local, open-source AI meeting notepad (formerly Hyprnote) that stays off the call, keeps data on your device, and offers an optional Pro plan.",
+  "description": "Local, open-source AI meeting notepad (formerly Hyprnote) that stays off the call, keeps data on your device, and offers an optional Pro plan.",
+  "categories": [
+    "meetings"
+  ],
+  "tags": [
+    "anarlog",
+    "meetings"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free 0 €/month — private, local meeting notes with on-device models or your own API keys: unlimited on-device transcription, local recordings and audio player, BYOK for STT and AI, notes, folders and community templates, chat and exports, local API, CLI, MCP and webhooks, manual speaker labeling. Pro 13 €/person/month or 127 €/person/year — everything in Free plus scheduled auto-recording and joining, custom templates, advanced AI context and web research, system-wide dictation, cloud transcription, cloud LLM, better speaker identification, cloud sync (3 personal devices or 5 per workspace member), E2EE, share notes, integrations and personal automations, folder sharing, custom dictionaries, shared workspaces, members/roles, centralized per-seat billing, shared team folders, templates and automations. Official 30-day Pro trial. Enterprise: custom, founder-led rollout (SSO/SCIM, policies, audit, custom subdomain, customer-hosted data plane). A YC founder perk is mentioned for eligibility and verification; it is not used as a general public price. Desktop downloads: macOS (Apple Silicon and Intel), Windows x64 (beta) and Linux (beta). Built-in on-device transcription requires supported Apple Silicon; on other platforms you configure a local transcription server or a hosted provider.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/anarlog.png",
+  "image": "/screenshots/anarlog.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Bot-free, local-first meeting notepad: notes, transcripts and recordings stay on your device by default",
+    "Open source, with on-device models or your own API keys, plus a local API, CLI, MCP and webhooks",
+    "Optional Pro: cloud transcription and LLM, system-wide dictation, sync, E2EE and team sharing",
+    "Desktop app for Mac, Windows (beta) and Linux (beta); built-in on-device transcription needs supported Apple Silicon"
+  ],
+  "howToUse": [
+    {
+      "title": "Download Anarlog from anarlog.so for Mac, Windows or Linux and install the desktop app.",
+      "description": "Download Anarlog from anarlog.so for Mac, Windows or Linux and install the desktop app.",
+      "links": [
+        {
+          "label": "Anarlog",
+          "url": "https://anarlog.so/"
+        }
+      ]
+    },
+    {
+      "title": "Record a meeting from your computer, with no bot in the call; notes and recordings stay...",
+      "description": "Record a meeting from your computer, with no bot in the call; notes and recordings stay on your device by default."
+    },
+    {
+      "title": "Stay on Free with on-device or BYOK models, or start the 30-day Pro trial for cloud...",
+      "description": "Stay on Free with on-device or BYOK models, or start the 30-day Pro trial for cloud transcription, sync and sharing."
+    }
+  ],
+  "sources": [
+    "https://anarlog.so/"
+  ],
+  "summary_fr": "Bloc-notes de réunion IA local et open source (ex-Hyprnote) : sans robot dans l’appel, données sur ton appareil, avec un Pro optionnel à 13 €/personne/mois.",
+  "description_fr": "Bloc-notes de réunion IA local et open source (ex-Hyprnote) : sans robot dans l’appel, données sur ton appareil, avec un Pro optionnel à 13 €/personne/mois.",
+  "features_fr": [
+    "Bloc-notes de réunion sans robot, local d’abord : notes, transcriptions et enregistrements restent sur ton appareil par défaut",
+    "Open source, avec modèles sur l’appareil ou tes propres clés API, plus API locale, CLI, MCP et webhooks",
+    "Pro en option : transcription et LLM cloud, dictée système, sync, chiffrement de bout en bout et partage d’équipe",
+    "App desktop pour Mac, Windows (bêta) et Linux (bêta) ; la transcription intégrée sur l’appareil exige un Apple Silicon pris en charge"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Télécharge Anarlog sur anarlog.so pour Mac, Windows ou Linux et installe l’app desktop.",
+      "description": "Télécharge Anarlog sur anarlog.so pour Mac, Windows ou Linux et installe l’app desktop.",
+      "links": [
+        {
+          "label": "Anarlog",
+          "url": "https://anarlog.so/"
+        }
+      ]
+    },
+    {
+      "title": "Enregistre une réunion depuis ton ordinateur, sans robot dans l’appel ; notes et...",
+      "description": "Enregistre une réunion depuis ton ordinateur, sans robot dans l’appel ; notes et enregistrements restent sur ton appareil par défaut."
+    },
+    {
+      "title": "Reste en Gratuit avec des modèles locaux ou tes clés, ou lance l’essai Pro de 30 jours...",
+      "description": "Reste en Gratuit avec des modèles locaux ou tes clés, ou lance l’essai Pro de 30 jours pour la transcription cloud, la sync et le partage."
+    }
+  ]
+}

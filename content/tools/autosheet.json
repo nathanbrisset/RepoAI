@@ -1,0 +1,83 @@
+{
+  "id": "autosheet",
+  "name": "Autosheet",
+  "url": "https://autosheet.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI agent for Excel and Google Sheets (formerly GPT for Work) that cleans, enriches and analyzes rows in bulk, with a free trial and paid plans.",
+  "description": "AI agent for Excel and Google Sheets (formerly GPT for Work) that cleans, enriches and analyzes rows in bulk, with a free trial and paid plans.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "autosheet",
+    "data"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free to try: free to install, free credits to start, no card required for first use. The trial runs on GPT-5.6 Luna. After the trial, plans start at 23 €/month and a subscription unlocks all models, including Claude Fable 5.1 and GPT-6 Astra. Standard (individual) 23 €/month — 23 € of usage included each month; buy extra usage as needed; Agent, bulk tools and GPT functions, large choice of AI models, detailed usage reporting, Autosheet MCP (Google Sheets only). Business (team) 41 €/seat/month — 23 € of usage included per seat; shared extra usage as needed; Standard features plus team management, centralized billing and limits, centralized AI configuration, bring your own API key, custom AI endpoints. Enterprise: custom pricing (talk to sales) — Business features plus enforced bring-your-own-AI, SAML SSO, non-standard terms, high-priority support, guided setup and team training. Included usage does not roll over. Extra usage is bought for the space, stays valid 12 months after the most recent purchase, and needs an active subscription; Existing pay-as-you-go spaces with an active credit balance stay on pay-as-you-go for now. Each plan gives access to either GPT for Sheets – Autosheet or GPT for Excel – Autosheet. No annual ladder is published.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/autosheet.png",
+  "image": "/screenshots/autosheet.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "AI agent for Excel and Google Sheets: clean, enrich, categorize, write formulas, format, and analyze",
+    "Bulk processing across hundreds of thousands of rows, plus GPT functions and a large choice of models",
+    "Autosheet MCP for Claude and ChatGPT (Google Sheets only)",
+    "Free trial with no card; Standard and Business subscriptions after the trial"
+  ],
+  "howToUse": [
+    {
+      "title": "Open autosheet.com, install GPT for Sheets – Autosheet or GPT for Excel – Autosheet, and...",
+      "description": "Open autosheet.com, install GPT for Sheets – Autosheet or GPT for Excel – Autosheet, and start the free trial with no card.",
+      "links": [
+        {
+          "label": "Autosheet",
+          "url": "https://autosheet.com/"
+        }
+      ]
+    },
+    {
+      "title": "Describe a spreadsheet task to the agent, or run bulk tools and GPT functions across your...",
+      "description": "Describe a spreadsheet task to the agent, or run bulk tools and GPT functions across your rows."
+    },
+    {
+      "title": "Subscribe to Standard or Business when you need every model and the monthly included...",
+      "description": "Subscribe to Standard or Business when you need every model and the monthly included usage."
+    }
+  ],
+  "sources": [
+    "https://autosheet.com/"
+  ],
+  "summary_fr": "Agent IA pour Excel et Google Sheets (ex-GPT for Work) : tu nettoies, enrichis et analyses tes lignes en masse, avec un essai gratuit puis des plans à partir de 23 €/mois.",
+  "description_fr": "Agent IA pour Excel et Google Sheets (ex-GPT for Work) : tu nettoies, enrichis et analyses tes lignes en masse, avec un essai gratuit puis des plans à partir de 23 €/mois.",
+  "features_fr": [
+    "Agent IA pour Excel et Google Sheets : nettoyer, enrichir, classer, écrire des formules, formater et analyser",
+    "Traitement de masse sur des centaines de milliers de lignes, plus fonctions GPT et large choix de modèles",
+    "Autosheet MCP pour Claude et ChatGPT (Google Sheets uniquement)",
+    "Essai gratuit sans carte ; abonnements Standard et Business après l’essai"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre autosheet.com, installe GPT for Sheets – Autosheet ou GPT for Excel – Autosheet, et...",
+      "description": "Ouvre autosheet.com, installe GPT for Sheets – Autosheet ou GPT for Excel – Autosheet, et lance l’essai gratuit sans carte.",
+      "links": [
+        {
+          "label": "Autosheet",
+          "url": "https://autosheet.com/"
+        }
+      ]
+    },
+    {
+      "title": "Décris une tâche de tableur à l’agent, ou lance les outils de masse et les fonctions GPT...",
+      "description": "Décris une tâche de tableur à l’agent, ou lance les outils de masse et les fonctions GPT sur tes lignes."
+    },
+    {
+      "title": "Passe à Standard ou Business quand tu as besoin de tous les modèles et de l’usage mensuel...",
+      "description": "Passe à Standard ou Business quand tu as besoin de tous les modèles et de l’usage mensuel inclus."
+    }
+  ]
+}

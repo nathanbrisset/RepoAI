@@ -16,8 +16,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/artbreeder.png",
   "image": "/screenshots/artbreeder.webp",
@@ -50,9 +49,9 @@
     }
   ],
   "features_fr": [
-    "Mélange d'images : combine plusieurs images pour créer de nouvelles œuvres d'art.",
-    "Édition génétique : ajuste des attributs spécifiques tels que l’âge, le sexe et l’humeur.",
-    "Téléchargements haute résolution : fournit des sorties d’images de haute qualité.",
-    "Création collaborative : permet aux utilisateurs de travailler ensemble sur des projets d'images."
+    "Mélange d'images: combine plusieurs images pour créer de nouvelles œuvres d'art.",
+    "Édition génétique: ajuste des attributs spécifiques tels que l’âge, le sexe et l’humeur.",
+    "Téléchargements haute résolution: fournit des sorties d’images de haute qualité.",
+    "Création collaborative: permet aux utilisateurs de travailler ensemble sur des projets d'images."
   ]
 }

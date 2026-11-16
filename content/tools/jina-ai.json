@@ -16,8 +16,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/jina-ai.png",
   "image": "/screenshots/jina-ai.webp",
@@ -50,9 +49,9 @@
     }
   ],
   "features_fr": [
-    "Neural Search Framework : permet de créer des systèmes de recherche alimentés par des réseaux de neurones.",
-    "Architecture modulaire : permet la personnalisation et l'extension des composants.",
-    "Prise en charge des données multimodales : gère le texte, les images et d'autres types de données.",
-    "Évolutivité : conçue pour évoluer avec de grands ensembles de données et un trafic élevé."
+    "Neural Search Framework: permet de créer des systèmes de recherche alimentés par des réseaux de neurones.",
+    "Architecture modulaire: permet la personnalisation et l'extension des composants.",
+    "Prise en charge des données multimodales: gère le texte, les images et d'autres types de données.",
+    "Évolutivité: conçue pour évoluer avec de grands ensembles de données et un trafic élevé."
   ]
 }

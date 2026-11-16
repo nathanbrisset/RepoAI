@@ -17,8 +17,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/nightcafe.png",
   "image": "/screenshots/nightcafe.webp",
@@ -55,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Création de texte en image : génère des images à partir de descriptions textuelles.",
-    "Transfert de style : applique des styles artistiques aux images existantes.",
-    "Fonctionnalités communautaires : engage les utilisateurs à travers des défis et du partage.",
-    "Options d'impression : propose l'impression des œuvres d'art créées."
+    "Création de texte en image: génère des images à partir de descriptions textuelles.",
+    "Transfert de style: applique des styles artistiques aux images existantes.",
+    "Fonctionnalités communautaires: engage les utilisateurs à travers des défis et du partage.",
+    "Options d'impression: propose l'impression des œuvres d'art créées."
   ]
 }
