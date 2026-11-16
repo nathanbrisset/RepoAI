@@ -17,7 +17,8 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/uxpin.png",
   "image": "/tool-screenshots/uxpin.png",
@@ -54,9 +55,9 @@
     }
   ],
   "features_fr": [
-    "Prototypage IA: générez des prototypes interactifs à partir de spécifications de conception.",
-    "Collaboration en temps réel: travaillez en direct avec ton équipe.",
-    "Contrôles d'accessibilité: obtenez des suggestions d'accessibilité basées sur l'IA.",
-    "Conception vers code: convertissez les conceptions en composants prêts à coder."
+    "Prototypage IA : génère des prototypes interactifs à partir de spécifications de conception.",
+    "Collaboration en temps réel : travaillez en direct avec ton équipe.",
+    "Contrôles d'accessibilité : obtenez des suggestions d'accessibilité basées sur l'IA.",
+    "Conception vers code : convertissez les conceptions en composants prêts à coder."
   ]
 }

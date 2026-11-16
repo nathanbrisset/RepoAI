@@ -18,12 +18,14 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/anima.png",
   "image": "/screenshots/anima.webp",
   "dateAdded": null,
   "lastVerified": null,
+  "dateAddedNote": "The previous Added date was 2017-06-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Design-to-Code: Convert designs to React, HTML, and CSS.",
     "Prototyping with Real Data: Use real APIs in prototypes.",
@@ -59,9 +61,9 @@
     }
   ],
   "features_fr": [
-    "Design-to-Code: convertissez les conceptions en React, HTML et CSS.",
-    "Prototypage avec des données réelles: utilisez de vraies API dans les prototypes.",
-    "Mises à jour automatiques du code: synchronisez instantanément les modifications de conception.",
-    "Collaboration: commentez et itérez avec les équipes."
+    "Design-to-Code : convertissez les conceptions en React, HTML et CSS.",
+    "Prototypage avec des données réelles : utilisez de vraies API dans les prototypes.",
+    "Mises à jour automatiques du code : synchronise instantanément les modifications de conception.",
+    "Collaboration : commentez et itérez avec les équipes."
   ]
 }

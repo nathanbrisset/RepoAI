@@ -1,7 +1,8 @@
-import { resolvePricingNoteFromCandidates } from "@/lib/pricing-note-guard"
+import { applyDisplayCurrencyToTool } from "@/lib/format-display-price"
 import type { Tool } from "@/lib/types"
 import type { Locale } from "./config"
 import { pricingLabel } from "./messages"
+import { fixHowToGabaritStep4 } from "./fr-tutoiement"
 import { translateTags } from "./tags"
 
 export function formatCatalogDate(value: string | null | undefined, locale: Locale) {
@@ -40,25 +41,31 @@ export function toolForLocale(tool: Tool, locale: Locale): Tool {
 
 /** Swap in French fiche fields when they exist. English copy stays otherwise. */
 export function localizeTool(tool: Tool, locale: Locale): Tool {
-  if (locale !== "fr" || !tool) return tool
+  if (locale !== "fr" || !tool) return applyDisplayCurrencyToTool(tool)
   const summary = tool.summary_fr || tool.shortDescription_fr
-  return {
+  const howToRaw = tool.howToUse_fr?.length ? tool.howToUse_fr : tool.howToUse
+  const howToNormalized = howToRaw?.map((step) => ({
+    ...step,
+    description: fixHowToGabaritStep4(step.description) ?? step.description,
+    title: fixHowToGabaritStep4(step.title) ?? step.title,
+  }))
+  return applyDisplayCurrencyToTool({
     ...tool,
     description: summary || tool.description,
     longDescription: tool.description_fr || tool.longDescription,
     tags: translateTags(tool.tags, tool.tags_fr),
     features: tool.features_fr?.length ? tool.features_fr : tool.features,
-    howToUse: tool.howToUse_fr?.length ? tool.howToUse_fr : tool.howToUse,
+    howToUse: howToNormalized ?? howToRaw,
     statusNote: tool.statusNote_fr || tool.statusNote,
     dateAddedNote: tool.dateAddedNote_fr || tool.dateAddedNote,
     pricing: tool.pricing
       ? {
           ...tool.pricing,
           label: pricingLabel(locale, tool.pricing.label || tool.isPremium),
-          details: resolvePricingNoteFromCandidates([tool.pricingNote_fr, tool.pricing.details], "fr"),
+          details: tool.pricingNote_fr || tool.pricing.details,
         }
       : tool.pricing,
-  }
+  })
 }
 
 export function useLocalizedCopy(tool: Tool, locale: Locale) {

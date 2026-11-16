@@ -16,7 +16,8 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/influencity.png",
   "image": "/screenshots/influencity.webp",
@@ -53,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Découverte d'influenceurs: trouve des créateurs pertinents pour ton marque.",
-    "Gestion de campagne: organisez et suivez les campagnes d'influence.",
-    "Analyse d'audience: informations approfondies sur les abonnés influenceurs.",
-    "Indicateurs de performance: mesurez le retour sur investissement et le succès de la campagne."
+    "Découverte d'influenceurs : trouve des créateurs pertinents pour ton marque.",
+    "Gestion de campagne : organisez et suivez les campagnes d'influence.",
+    "Analyse d'audience : informations approfondies sur les abonnés influenceurs.",
+    "Indicateurs de performance : mesure le retour sur investissement et le succès de la campagne."
   ]
 }

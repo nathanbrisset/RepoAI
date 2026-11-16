@@ -16,7 +16,8 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/refact-ai.png",
   "image": "/screenshots/refact-ai.webp",
@@ -49,9 +50,9 @@
     }
   ],
   "features_fr": [
-    "Suggestions en temps réel: offre une aide au codage en ligne.",
-    "Prend en charge les principaux IDE: intégration avec JetBrains et VS Code.",
-    "Développement sécurisé: s'exécute localement pour les projets sensibles.",
-    "Invites personnalisées: générez du code spécifique avec une saisie naturelle."
+    "Suggestions en temps réel : offre une aide au codage en ligne.",
+    "Prend en charge les principaux IDE : intégration avec JetBrains et VS Code.",
+    "Développement sécurisé : s'exécute localement pour les projets sensibles.",
+    "Invites personnalisées : génère du code spécifique avec une saisie naturelle."
   ]
 }

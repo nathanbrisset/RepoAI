@@ -16,7 +16,8 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/mutiny.png",
   "image": "/tool-screenshots/mutiny.png",
@@ -57,9 +58,9 @@
     }
   ],
   "features_fr": [
-    "Personnalisation du site Web en temps réel: adapte le contenu à chaque visiteur.",
-    "Campagnes segmentées: ciblez des publics professionnels spécifiques.",
-    "Tests A/B: expérimentez différents messages de sites Web.",
-    "Tableau de bord d'analyse: surveillez les taux de conversion et d'engagement."
+    "Personnalisation du site Web en temps réel : adapte le contenu à chaque visiteur.",
+    "Campagnes segmentées : cible des publics professionnels spécifiques.",
+    "Tests A/B : expérimentez différents messages de sites Web.",
+    "Tableau de bord d'analyse : surveille les taux de conversion et d'engagement."
   ]
 }

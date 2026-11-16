@@ -18,7 +18,8 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/ideogram.png",
   "image": "/tool-screenshots/ideogram.png",
@@ -55,9 +56,9 @@
     }
   ],
   "features_fr": [
-    "Intégration de texte: générez des images avec du texte stylisé intégré.",
-    "Contrôles de typographie: personnalisez les polices, la taille et l'emplacement.",
-    "Art basé sur des invites: créez des visuels uniques à partir de descriptions.",
-    "Modèles: mises en page prédéfinies pour les affiches et les graphiques."
+    "Intégration de texte : génère des images avec du texte stylisé intégré.",
+    "Contrôles de typographie : personnalise les polices, la taille et l'emplacement.",
+    "Art basé sur des invites : créez des visuels uniques à partir de descriptions.",
+    "Modèles : mises en page prédéfinies pour les affiches et les graphiques."
   ]
 }

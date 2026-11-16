@@ -19,7 +19,8 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false
+    "verified": false,
+    "note": "Price label carried over from the previous catalog and not rechecked."
   },
   "logo": "/logos/colossyan.png",
   "image": "/screenshots/colossyan.webp",
@@ -56,9 +57,9 @@
     }
   ],
   "features_fr": [
-    "Génération vidéo AI: créez des vidéos avec des avatars générés par l'IA.",
-    "Prise en charge multilingue: générez des vidéos en plusieurs langues.",
-    "Avatars personnalisés: créez des avatars IA personnalisés pour les vidéos.",
-    "Script en vidéo: convertissez des scripts en vidéos avec des avatars IA."
+    "Génération vidéo AI : créez des vidéos avec des avatars générés par l'IA.",
+    "Prise en charge multilingue : génère des vidéos en plusieurs langues.",
+    "Avatars personnalisés : créez des avatars IA personnalisés pour les vidéos.",
+    "Script en vidéo : convertissez des scripts en vidéos avec des avatars IA."
   ]
 }
