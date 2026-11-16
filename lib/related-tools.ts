@@ -12,7 +12,6 @@ const LLM_HUB_IDS = new Set([
   "anythingllm",
   "open-webui",
   "gpt4all",
-  "khoj",
   "lm-studio",
   "ollama",
   "localai",
