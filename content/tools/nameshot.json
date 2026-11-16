@@ -1,0 +1,86 @@
+{
+  "id": "nameshot",
+  "name": "Nameshot",
+  "url": "https://nameshot.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Mac app that gives every new screenshot a proper name on the device. Nothing leaves the Mac; it uses Apple’s on-device model. One-time purchase, no subscription.",
+  "description": "Mac app that gives every new screenshot a proper name on the device. Nothing leaves the Mac; it uses Apple’s on-device model. One-time purchase, no subscription.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "macos",
+    "screenshots",
+    "on-device",
+    "privacy",
+    "utilities"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Nameshot Pro one-time — regular list price 9 € once; official launch promo 5 € once (shown as launch price vs the 9 € list price). 7-day free trial, nothing to buy or cancel. The launch price is a promo, not the regular list price. Coming soon to the Mac App Store; TestFlight beta also mentioned. Apple silicon and macOS 27 required (official).",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/nameshot.png",
+  "image": "/screenshots/nameshot.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Gives every new screenshot a proper name on the device, using Apple’s on-device model",
+    "Nothing leaves the Mac; Tidy Up any folder; learns how you name things; Family Sharing included",
+    "One-time purchase, no subscription; 7-day free trial",
+    "Official launch promo versus the regular list price; Apple silicon and macOS 27 required"
+  ],
+  "howToUse": [
+    {
+      "title": "Open nameshot.app and start the 7-day trial on an Apple-silicon Mac.",
+      "description": "Open nameshot.app and start the 7-day trial on an Apple-silicon Mac.",
+      "links": [
+        {
+          "label": "Nameshot",
+          "url": "https://nameshot.app/"
+        }
+      ]
+    },
+    {
+      "title": "Let it name new screenshots on the device (nothing leaves the Mac).",
+      "description": "Let it name new screenshots on the device (nothing leaves the Mac)."
+    },
+    {
+      "title": "Buy the one-time Pro license at the official launch promo or at the regular list price.",
+      "description": "Buy the one-time Pro license at the official launch promo or at the regular list price."
+    }
+  ],
+  "sources": [
+    "https://nameshot.app/"
+  ],
+  "summary_fr": "App Mac qui donne un vrai nom à chaque nouvelle capture d’écran, sur l’appareil. Rien ne quitte le Mac; elle utilise le modèle Apple on-device. Achat unique, sans abonnement.",
+  "description_fr": "App Mac qui donne un vrai nom à chaque nouvelle capture d’écran, sur l’appareil. Rien ne quitte le Mac; elle utilise le modèle Apple on-device. Achat unique, sans abonnement.",
+  "features_fr": [
+    "Donne un vrai nom à chaque nouvelle capture d’écran, sur l’appareil, avec le modèle Apple on-device",
+    "Rien ne quitte le Mac; range n’importe quel dossier; apprend ta façon de nommer; Partage familial inclus",
+    "Achat unique, sans abonnement; essai de 7 jours",
+    "Promo officielle de lancement face au tarif de liste régulier; Apple silicon et macOS 27 requis"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre nameshot.app et commence l’essai de 7 jours sur un Mac Apple silicon.",
+      "description": "Ouvre nameshot.app et commence l’essai de 7 jours sur un Mac Apple silicon.",
+      "links": [
+        {
+          "label": "Nameshot",
+          "url": "https://nameshot.app/"
+        }
+      ]
+    },
+    {
+      "title": "Laisse l’app donner un nom à chaque nouvelle capture, sur l’appareil...",
+      "description": "Laisse l’app donner un nom à chaque nouvelle capture, sur l’appareil (rien ne quitte le Mac)."
+    },
+    {
+      "title": "Achète la licence Pro unique au tarif promo de lancement officiel, ou au tarif de liste...",
+      "description": "Achète la licence Pro unique au tarif promo de lancement officiel, ou au tarif de liste régulier."
+    }
+  ]
+}

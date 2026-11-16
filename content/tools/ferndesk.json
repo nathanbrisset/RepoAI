@@ -1,0 +1,85 @@
+{
+  "id": "ferndesk",
+  "name": "Ferndesk",
+  "url": "https://ferndesk.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Help center plus Fern, an agent that checks every article against your product, catches what changed, and drafts the fixes.",
+  "description": "Help center plus Fern, an agent that checks every article against your product, catches what changed, and drafts the fixes.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "help-center",
+    "documentation",
+    "support",
+    "knowledge-base"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Pro regular 135 €/month, or 1,348 € a year (two months free). 7-day free trial, no credit card required. Early-stage promo: 68 € a month for the first year if you are pre-seed or under 904,814 € ARR (Pro at half price for 12 months, apply on the site). Enterprise features (SSO, SCIM, white-glove onboarding) are available — contact for pricing.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/ferndesk.png",
+  "image": "/screenshots/ferndesk.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Help center plus Fern, an agent that checks every article against your product",
+    "Catches what changed and drafts the fixes; auto-updates from PRs; screenshots re-taken when the UI changes",
+    "7-day Pro trial with no card",
+    "Official early-stage first-year rate is a promo, not the regular Pro price"
+  ],
+  "howToUse": [
+    {
+      "title": "Open ferndesk.com and start the 7-day Pro trial with no card.",
+      "description": "Open ferndesk.com and start the 7-day Pro trial with no card.",
+      "links": [
+        {
+          "label": "Ferndesk",
+          "url": "https://ferndesk.com/"
+        }
+      ]
+    },
+    {
+      "title": "Let Fern check your help articles against the product and draft the fixes.",
+      "description": "Let Fern check your help articles against the product and draft the fixes."
+    },
+    {
+      "title": "Continue on Pro at the regular rate, or apply for the official early-stage first-year...",
+      "description": "Continue on Pro at the regular rate, or apply for the official early-stage first-year rate if you qualify — that rate is a promo, not the regular list price."
+    }
+  ],
+  "sources": [
+    "https://ferndesk.com/"
+  ],
+  "summary_fr": "Centre d’aide plus Fern, un agent qui vérifie chaque article par rapport au produit, détecte ce qui a changé et rédige les corrections.",
+  "description_fr": "Centre d’aide plus Fern, un agent qui vérifie chaque article par rapport au produit, détecte ce qui a changé et rédige les corrections.",
+  "features_fr": [
+    "Centre d’aide plus Fern, un agent qui vérifie chaque article par rapport à ton produit",
+    "Détecte ce qui a changé et rédige les corrections; mises à jour depuis les PR; captures reprises quand l’interface change",
+    "Essai Pro de 7 jours, sans carte",
+    "Le tarif officiel early-stage de la première année est une promo, pas le prix Pro régulier"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre ferndesk.com et commence l’essai Pro de 7 jours, sans carte.",
+      "description": "Ouvre ferndesk.com et commence l’essai Pro de 7 jours, sans carte.",
+      "links": [
+        {
+          "label": "Ferndesk",
+          "url": "https://ferndesk.com/"
+        }
+      ]
+    },
+    {
+      "title": "Laisse Fern vérifier tes articles d’aide par rapport au produit et rédiger les...",
+      "description": "Laisse Fern vérifier tes articles d’aide par rapport au produit et rédiger les corrections."
+    },
+    {
+      "title": "Continue sur Pro au tarif régulier, ou candidate au tarif officiel early-stage de la...",
+      "description": "Continue sur Pro au tarif régulier, ou candidate au tarif officiel early-stage de la première année si tu es éligible — ce tarif est une promo, pas le prix de liste régulier."
+    }
+  ]
+}

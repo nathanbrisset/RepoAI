@@ -1,0 +1,89 @@
+{
+  "id": "hiringnow",
+  "name": "HiringNow",
+  "url": "https://hiringnow.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI job-search agent that finds roles on company career pages, tailors your resume to each posting, and auto-applies with your approval.",
+  "description": "AI job-search agent that finds roles on company career pages, tailors your resume to each posting, and auto-applies with your approval.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "jobs",
+    "auto-apply",
+    "resume",
+    "career",
+    "agent",
+    "recruiting"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free 0 €, no card — 10 auto-applies one-time, job matches and match score, 1 resume and 1 cover letter, basic templates. Pro 26 €/month (or 53 € a quarter, official example of quarterly billing at about a third less) — 100 auto-applies/month, unlimited resumes and cover letters, premium templates, 1 search profile, top-up packs available. Autopilot 44 €/month — 300 auto-applies/month, everything in Pro, approve each one or in advance by rules, up to 3 search profiles, priority queue and instant alerts. Autopilot Max 90 €/month (billed monthly).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/hiringnow.png",
+  "image": "/screenshots/hiringnow.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Personal AI job-search agent that finds roles on company career pages",
+    "Resume and cover letter tailored per application, plus ATS score",
+    "Auto-apply with your approval, job tracker and Chrome autofill",
+    "Free plan with no card (10 auto-applies one-time)"
+  ],
+  "howToUse": [
+    {
+      "title": "Open hiringnow.ai and create a Free account with no card.",
+      "description": "Open hiringnow.ai and create a Free account with no card.",
+      "links": [
+        {
+          "label": "HiringNow",
+          "url": "https://hiringnow.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Let the agent match jobs and review each application before it is submitted.",
+      "description": "Let the agent match jobs and review each application before it is submitted."
+    },
+    {
+      "title": "Upgrade to Pro, Autopilot or Autopilot Max if you need a monthly auto-apply quota.",
+      "description": "Upgrade to Pro, Autopilot or Autopilot Max if you need a monthly auto-apply quota."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://hiringnow.ai/"
+  ],
+  "summary_fr": "Agent IA de recherche d’emploi qui trouve des offres sur les pages carrière, adapte le CV à chaque poste et postule automatiquement avec ton accord.",
+  "description_fr": "Agent IA de recherche d’emploi qui trouve des offres sur les pages carrière, adapte le CV à chaque poste et postule automatiquement avec ton accord.",
+  "features_fr": [
+    "Agent IA personnel de recherche d’emploi, sur les pages carrière des entreprises",
+    "CV et lettre adaptés à chaque candidature, plus score ATS",
+    "Candidature automatique avec ton accord, suivi et remplissage Chrome",
+    "Offre gratuite sans carte (10 candidatures automatiques une fois)"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre hiringnow.ai et crée un compte Gratuit, sans carte.",
+      "description": "Ouvre hiringnow.ai et crée un compte Gratuit, sans carte.",
+      "links": [
+        {
+          "label": "HiringNow",
+          "url": "https://hiringnow.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Laisse l’agent trouver des offres et relis chaque candidature avant envoi.",
+      "description": "Laisse l’agent trouver des offres et relis chaque candidature avant envoi."
+    },
+    {
+      "title": "Passe à Pro, Autopilot ou Autopilot Max si tu as besoin d’un quota mensuel de...",
+      "description": "Passe à Pro, Autopilot ou Autopilot Max si tu as besoin d’un quota mensuel de candidatures automatiques."
+    }
+  ]
+}

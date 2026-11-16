@@ -17,14 +17,12 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/h2o_ai.png",
   "image": "/screenshots/h2o_ai.webp",
   "dateAdded": null,
   "lastVerified": null,
-  "dateAddedNote": "The previous Added date was 2014-09-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Open-Source Machine Learning: Free, extensible, and community-driven platform.",
     "AutoML: Automated pipelines for model selection and tuning.",
@@ -52,9 +50,9 @@
     }
   ],
   "features_fr": [
-    "Machine Learning Open Source : plateforme gratuite, extensible et communautaire.",
-    "AutoML : pipelines automatisés pour la sélection et le réglage des modèles.",
-    "Traitement distribué : solutions évolutives pour les environnements Big Data.",
-    "Prise en charge multilingue : s'intègre à Python, R et Java."
+    "Machine Learning Open Source: plateforme gratuite, extensible et communautaire.",
+    "AutoML: pipelines automatisés pour la sélection et le réglage des modèles.",
+    "Traitement distribué: solutions évolutives pour les environnements Big Data.",
+    "Prise en charge multilingue: s'intègre à Python, R et Java."
   ]
 }

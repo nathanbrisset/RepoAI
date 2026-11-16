@@ -4,9 +4,9 @@
   "url": "https://www.freepik.com/ai/image-generator",
   "affiliateUrl": "",
   "status": "renamed",
-  "statusNote": "Headless Chrome: page states 'Freepik is now Magnific'; magnific.com/pricing title 'Pricing plans | Magnific (formerly Freepik)' - rename",
+  "statusNote": "Use freepik.com for the AI image generator; some legacy URLs return errors.",
   "summary": "Creates photorealistic images and digital art from text prompts using advanced AI models.",
-  "description": "Creates photorealistic images and digital art from text prompts using advanced AI models.\n\nText-to-image generation: Create images from textual prompts. Multiple art styles: Choose from a variety of digital art genres. Batch creation: Generate multiple images quickly. Quick editing: Instantly refine and download generated images.",
+  "description": "Creates photorealistic images and digital art from text prompts using advanced AI models. Text-to-image generation: Create images from textual prompts. Multiple art styles: Choose from a variety of digital art genres. Batch creation: Generate multiple images quickly. Quick editing: Instantly refine and download generated images.",
   "categories": [
     "image"
   ],
@@ -17,8 +17,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/freepik-ai-image-generator.png",
   "image": "/screenshots/freepik-ai-image-generator.webp",

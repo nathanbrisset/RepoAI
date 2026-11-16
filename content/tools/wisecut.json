@@ -19,8 +19,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/wisecut.png",
   "image": "/screenshots/wisecut.webp",
@@ -58,7 +57,7 @@
   ],
   "statusNote": "wisecut.video redirects to wisecut.ai",
   "features_fr": [
-    "Montage automatique : coupe les silences et ajoute une musique de fond.",
+    "Montage automatique: coupe les silences et ajoute une musique de fond.",
     "Sous-titrage automatique pour Reels, Shorts et TikTok.",
     "Commandes vocales pour éditer la timeline.",
     "Musique adaptive au ton de la vidéo."

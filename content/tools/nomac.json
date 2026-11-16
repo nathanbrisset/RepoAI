@@ -1,0 +1,87 @@
+{
+  "id": "nomac",
+  "name": "NoMac",
+  "url": "https://nomac.app/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "On-demand cloud Mac for AI agents: a real macOS machine with Xcode starts in about a minute, your agent builds and ships an Apple app, then the machine can be deleted. Pay as you go.",
+  "description": "On-demand cloud Mac for AI agents: a real macOS machine with Xcode starts in about a minute, your agent builds and ships an Apple app, then the machine can be deleted. Pay as you go.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "macos",
+    "xcode",
+    "agents",
+    "cloud",
+    "ios",
+    "mcp"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Pay as you go 1 €/hour, billed per minute, from a 9 € prepaid credit that never expires; no subscription. 7-day money-back guarantee on the first purchase. Session (full Mac sandbox) and Simulator (cloud iPhone/iPad) at the same hourly rate.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/nomac.png",
+  "image": "/screenshots/nomac.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "On-demand cloud Mac for AI agents: a real macOS machine with Xcode starts in about a minute",
+    "Apple silicon; Homebrew, Node, Python and CocoaPods; MCP, CLI, API or SSH",
+    "Session (full Mac sandbox) and Simulator (cloud iPhone/iPad) at the same hourly rate",
+    "Pay as you go, prepaid credit that never expires, no subscription; 7-day money-back on the first purchase"
+  ],
+  "howToUse": [
+    {
+      "title": "Open nomac.app and buy a prepaid credit starting at 9 €.",
+      "description": "Open nomac.app and buy a prepaid credit starting at 9 €.",
+      "links": [
+        {
+          "label": "NoMac",
+          "url": "https://nomac.app/"
+        }
+      ]
+    },
+    {
+      "title": "Let your agent start a Session or Simulator over MCP, CLI, API or SSH.",
+      "description": "Let your agent start a Session or Simulator over MCP, CLI, API or SSH."
+    },
+    {
+      "title": "Stop the machine when the build is done (billed per minute).",
+      "description": "Stop the machine when the build is done (billed per minute)."
+    }
+  ],
+  "sources": [
+    "https://nomac.app/"
+  ],
+  "summary_fr": "Mac cloud à la demande pour agents IA: une vraie machine macOS avec Xcode démarre en environ une minute, l’agent construit et publie une app Apple, puis la machine peut être supprimée. Paiement à l’usage.",
+  "description_fr": "Mac cloud à la demande pour agents IA: une vraie machine macOS avec Xcode démarre en environ une minute, l’agent construit et publie une app Apple, puis la machine peut être supprimée. Paiement à l’usage.",
+  "features_fr": [
+    "Mac cloud à la demande pour agents IA: une vraie machine macOS avec Xcode démarre en environ une minute",
+    "Apple silicon; Homebrew, Node, Python et CocoaPods; MCP, CLI, API ou SSH",
+    "Session (sandbox Mac complète) et Simulator (iPhone/iPad cloud) au même tarif horaire",
+    "Paiement à l’usage, crédit prépayé sans expiration, pas d’abonnement; satisfait ou remboursé 7 jours sur le premier achat"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre nomac.app et achète un crédit prépayé à partir de 9 €.",
+      "description": "Ouvre nomac.app et achète un crédit prépayé à partir de 9 €.",
+      "links": [
+        {
+          "label": "NoMac",
+          "url": "https://nomac.app/"
+        }
+      ]
+    },
+    {
+      "title": "Laisse ton agent démarrer une Session ou un Simulator via MCP, CLI, API ou SSH.",
+      "description": "Laisse ton agent démarrer une Session ou un Simulator via MCP, CLI, API ou SSH."
+    },
+    {
+      "title": "Arrête la machine quand le build est terminé (facturé à la minute).",
+      "description": "Arrête la machine quand le build est terminé (facturé à la minute)."
+    }
+  ]
+}

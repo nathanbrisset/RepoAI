@@ -1,0 +1,86 @@
+{
+  "id": "navige",
+  "name": "Navige",
+  "url": "https://navige.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Cuts AI agent and LLM spend without changing the output: routes each call, blocks wasted work and reuses work already done. Watchtower is free forever.",
+  "description": "Cuts AI agent and LLM spend without changing the output: routes each call, blocks wasted work and reuses work already done. Watchtower is free forever.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "llm-costs",
+    "routing",
+    "agents",
+    "governance",
+    "savings"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Watchtower 0 € forever, no card, no time limit — connect as many agents as you like; weekly report of what they cost and what you could save; Watchtower only watches, agents run as today. When Navige is allowed to save: most months, 20% of the savings (1 € of every 5 € it saves), when it saves 41 € or more in a month; quiet months, a flat 8 € if it saves less than 41 €. This is a share-of-savings model, not a fixed seat price. Official wording is also “we save you 5 €, you keep 4 €.”",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/navige.png",
+  "image": "/screenshots/navige.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Cuts AI agent and LLM spend without changing the output: routing, blocking wasted work, reuse",
+    "Cache, context trimming, tool-payload capping and reports",
+    "Watchtower is free forever and only watches",
+    "Savings mode uses a share-of-savings model (about 20%), not a fixed seat price"
+  ],
+  "howToUse": [
+    {
+      "title": "Open navige.ai and start Watchtower for free, with no card.",
+      "description": "Open navige.ai and start Watchtower for free, with no card.",
+      "links": [
+        {
+          "label": "Navige",
+          "url": "https://navige.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Read the weekly savings report.",
+      "description": "Read the weekly savings report."
+    },
+    {
+      "title": "Switch on Navige’s savings mode only if you accept the official share of savings...",
+      "description": "Switch on Navige’s savings mode only if you accept the official share of savings (about 20%, or the quiet-month flat fee)."
+    }
+  ],
+  "sources": [
+    "https://navige.ai/"
+  ],
+  "summary_fr": "Réduit les dépenses d’agents IA et de LLM sans changer le résultat: route chaque appel, bloque le travail inutile et réutilise le travail déjà fait. Watchtower est gratuit pour toujours.",
+  "description_fr": "Réduit les dépenses d’agents IA et de LLM sans changer le résultat: route chaque appel, bloque le travail inutile et réutilise le travail déjà fait. Watchtower est gratuit pour toujours.",
+  "features_fr": [
+    "Réduit les dépenses d’agents IA et de LLM sans changer le résultat: routage, blocage du travail inutile, réutilisation",
+    "Cache, réduction de contexte, plafond des charges d’outils, et rapports",
+    "Watchtower est gratuit pour toujours et se contente d’observer",
+    "Le mode économies est un partage des économies (environ 20 %), pas un tarif fixe par siège"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre navige.ai et commence Watchtower gratuitement, sans carte.",
+      "description": "Ouvre navige.ai et commence Watchtower gratuitement, sans carte.",
+      "links": [
+        {
+          "label": "Navige",
+          "url": "https://navige.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Lis le rapport d’économies hebdomadaire.",
+      "description": "Lis le rapport d’économies hebdomadaire."
+    },
+    {
+      "title": "Active le mode économies de Navige seulement si tu acceptes le partage officiel des...",
+      "description": "Active le mode économies de Navige seulement si tu acceptes le partage officiel des économies (environ 20 %, ou le forfait des mois calmes)."
+    }
+  ]
+}

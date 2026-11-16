@@ -16,8 +16,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/copyscape.png",
   "image": "/screenshots/copyscape.webp",
@@ -54,9 +53,9 @@
     }
   ],
   "features_fr": [
-    "Détection du plagiat : analyse le Web pour détecter le contenu en double.",
-    "Services Premium : offre des fonctionnalités avancées telles que la recherche par lots et l'index privé.",
-    "Intégration API : permet l'intégration avec d'autres plates-formes pour des contrôles automatisés.",
-    "Interface conviviale : processus simple pour vérifier l’originalité du contenu."
+    "Détection du plagiat: analyse le Web pour détecter le contenu en double.",
+    "Services Premium: offre des fonctionnalités avancées telles que la recherche par lots et l'index privé.",
+    "Intégration API: permet l'intégration avec d'autres plates-formes pour des contrôles automatisés.",
+    "Interface conviviale: processus simple pour vérifier l’originalité du contenu."
   ]
 }

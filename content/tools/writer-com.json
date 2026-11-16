@@ -19,8 +19,7 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/writer-com.png",
   "image": "/screenshots/writer-com.webp",
@@ -57,9 +56,9 @@
     }
   ],
   "features_fr": [
-    "Application du guide de style : applique les règles et le ton d'écriture de la marque.",
-    "Confidentialité d'entreprise : conçue pour les secteurs réglementés (SOC2, HIPAA).",
-    "AI Writing Assistant : modifie, reformule et rédige du contenu de haute qualité.",
-    "Gestion d'équipe : autorisations, analyses et contrôle des documents."
+    "Application du guide de style: applique les règles et le ton d'écriture de la marque.",
+    "Confidentialité d'entreprise: conçue pour les secteurs réglementés (SOC2, HIPAA).",
+    "AI Writing Assistant: modifie, reformule et rédige du contenu de haute qualité.",
+    "Gestion d'équipe: autorisations, analyses et contrôle des documents."
   ]
 }

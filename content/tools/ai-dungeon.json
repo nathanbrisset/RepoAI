@@ -17,8 +17,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/ai-dungeon.png",
   "image": "/screenshots/ai-dungeon.webp",
@@ -56,9 +55,9 @@
   ],
   "statusNote": "aidungeon.io redirects to aidungeon.com",
   "features_fr": [
-    "Narration interactive : génère des récits dynamiques basés sur les entrées de l'utilisateur.",
-    "Aventures personnalisées : permet la création de scénarios d'histoire personnalisés.",
-    "Mode multijoueur : permet de raconter des histoires en collaboration avec d'autres.",
-    "Personnages pilotés par l'IA : présente des personnages qui répondent intelligemment aux interactions."
+    "Narration interactive: génère des récits dynamiques basés sur les entrées de l'utilisateur.",
+    "Aventures personnalisées: permet la création de scénarios d'histoire personnalisés.",
+    "Mode multijoueur: permet de raconter des histoires en collaboration avec d'autres.",
+    "Personnages pilotés par l'IA: présente des personnages qui répondent intelligemment aux interactions."
   ]
 }

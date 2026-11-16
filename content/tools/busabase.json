@@ -1,0 +1,84 @@
+{
+  "id": "busabase",
+  "name": "Busabase",
+  "url": "https://busabase.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source (MIT) system of record for AI agents: a database and workspace where agents and people share the same data, docs, skills and apps, locally or self-hosted.",
+  "description": "Open-source (MIT) system of record for AI agents: a database and workspace where agents and people share the same data, docs, skills and apps, locally or self-hosted.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "database",
+    "agents",
+    "mcp",
+    "open-source",
+    "workspace"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free 0 € — 1 space you own, 3 seats per space, 5,000 records per space, 1 GB attachment storage, 1 self-hosted connection online. Plus 9 €/seat/month billed 109 €/seat annually (billed yearly, 2 months free) — 3 spaces you own, 20 GB storage, billed per actual member. Pro 18 €/seat/month billed 217 €/seat annually (2 months free) — unlimited spaces, 100 GB storage, custom workspace address, priority support (WhatsApp / WeChat / Email).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/busabase.png",
+  "image": "/screenshots/busabase.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Open-source (MIT) system of record for AI agents: one database and workspace for agents and people",
+    "Local engine and Docker image; OpenAPI, webhooks and MCP; desktop keeps data in a folder on your machine",
+    "Free plan included; Plus and Pro billed yearly per seat"
+  ],
+  "howToUse": [
+    {
+      "title": "Open busabase.com and run the open-source desktop or Docker engine for Free.",
+      "description": "Open busabase.com and run the open-source desktop or Docker engine for Free.",
+      "links": [
+        {
+          "label": "Busabase",
+          "url": "https://busabase.com/"
+        }
+      ]
+    },
+    {
+      "title": "Share the same data, docs, skills and apps between agents and people, locally or...",
+      "description": "Share the same data, docs, skills and apps between agents and people, locally or self-hosted."
+    },
+    {
+      "title": "Start Plus or Pro on the official yearly-billed seat plans if you need more spaces and...",
+      "description": "Start Plus or Pro on the official yearly-billed seat plans if you need more spaces and storage."
+    }
+  ],
+  "sources": [
+    "https://busabase.com/"
+  ],
+  "summary_fr": "Système d’enregistrement open source (MIT) pour les agents IA: une base et un espace de travail où agents et humains partagent les mêmes données, docs, skills et apps, en local ou en auto-hébergement.",
+  "description_fr": "Système d’enregistrement open source (MIT) pour les agents IA: une base et un espace de travail où agents et humains partagent les mêmes données, docs, skills et apps, en local ou en auto-hébergement.",
+  "features_fr": [
+    "Système d’enregistrement open source (MIT) pour agents IA: une base et un espace pour les agents et les humains",
+    "Moteur local et image Docker; OpenAPI, webhooks et MCP; le desktop garde les données dans un dossier sur ta machine",
+    "Offre Gratuite incluse; Plus et Pro facturés à l’année par siège"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre busabase.com et lance le moteur open source desktop ou Docker, en Gratuit.",
+      "description": "Ouvre busabase.com et lance le moteur open source desktop ou Docker, en Gratuit.",
+      "links": [
+        {
+          "label": "Busabase",
+          "url": "https://busabase.com/"
+        }
+      ]
+    },
+    {
+      "title": "Partage les mêmes données, docs, skills et apps entre agents et humains, en local ou en...",
+      "description": "Partage les mêmes données, docs, skills et apps entre agents et humains, en local ou en auto-hébergement."
+    },
+    {
+      "title": "Passe à Plus ou Pro sur les offres officielles facturées à l’année si tu as besoin de...",
+      "description": "Passe à Plus ou Pro sur les offres officielles facturées à l’année si tu as besoin de plus d’espaces et de stockage."
+    }
+  ]
+}

@@ -18,8 +18,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/mage_space.png",
   "image": "/screenshots/mage_space.webp",
@@ -60,9 +59,9 @@
     }
   ],
   "features_fr": [
-    "Text-to-Image : générez des visuels à partir d'invites textuelles.",
-    "Text-to-Video : créez de courtes vidéos basées sur l'IA.",
-    "Animation : transformez des images statiques en contenu animé.",
-    "Génération privée : aucune modération de contenu pour les utilisateurs soucieux de la confidentialité."
+    "Text-to-Image: générez des visuels à partir d'invites textuelles.",
+    "Text-to-Video: créez de courtes vidéos basées sur l'IA.",
+    "Animation: transformez des images statiques en contenu animé.",
+    "Génération privée: aucune modération de contenu pour les utilisateurs soucieux de la confidentialité."
   ]
 }
