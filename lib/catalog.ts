@@ -1,6 +1,7 @@
 import { catalogTools } from "@/content/tools/index"
 import { frenchToolsById } from "@/lib/i18n/french-catalog"
 import { resolveCatalogLogo } from "@/lib/logo-url"
+import { resolvePricingNote } from "@/lib/pricing-note-guard"
 import type { CatalogTool } from "./tool-schema"
 import type { Tool } from "./types"
 
@@ -38,7 +39,12 @@ export function toRuntimeTool(entry: CatalogTool): Tool {
     howToUse_fr: entry.howToUse_fr || overlay?.howToUse_fr,
     statusNote_fr: frenchText(entry.statusNote_fr, overlay?.statusNote_fr),
     dateAddedNote_fr: frenchText(entry.dateAddedNote_fr, overlay?.dateAddedNote_fr),
-    pricingNote_fr: frenchText(entry.pricing.note_fr, overlay?.pricingNote_fr),
+    pricingNote_fr:
+      resolvePricingNote(
+        frenchText(entry.pricing.note_fr, overlay?.pricingNote_fr),
+        undefined,
+        "fr",
+      ) ?? undefined,
     dateAdded: entry.dateAdded ?? "",
     dateAddedNote: entry.dateAddedNote,
     isPremium: uncertain ? undefined : entry.pricing.label,
@@ -46,7 +52,9 @@ export function toRuntimeTool(entry: CatalogTool): Tool {
       type: pricingType(entry.pricing.model),
       model: entry.pricing.model,
       label: uncertain ? undefined : entry.pricing.label,
-      details: uncertain ? undefined : entry.pricing.note,
+      details: uncertain
+        ? undefined
+        : resolvePricingNote(entry.pricing.note, entry.pricing.details, "en"),
       verified: entry.pricing.verified,
       sourceUrl: entry.pricing.sourceUrl,
       uncertain,
