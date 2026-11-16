@@ -162,7 +162,8 @@ const COUNTRY_ISO = {
 /** When deliver slug would overwrite an existing catalogue entry */
 const COLLISION_RENAMES = {}
 
-const CURRENCY_LEAK = /\$|(?:^|\s)USD\b|\bdollars?\b|£|(?:^|\s)GBP\b/i
+const CURRENCY_LEAK =
+  /\$|(?:^|\s)USD\b|\bdollars?\b|£|(?:^|\s)GBP\b|₹|(?:^|\s)INR\b|(?:^|\s)CHF\b|¥|(?:^|\s)JPY\b|(?:^|\s)CAD\b|(?:^|\s)AUD\b|roupies|rupees?/i
 
 /** Peer import lot #52 (same date) — ids reserved for collision checks before merge. */
 const PEER_LOT_IDS = new Set([

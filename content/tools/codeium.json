@@ -18,7 +18,8 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false
+    "verified": false,
+    "note": "Codeium’s own price was not rechecked because the domain redirects to Devin."
   },
   "logo": "/logos/codeium.png",
   "image": "/tool-screenshots/codeium.png",
@@ -54,6 +55,5 @@
   "sources": [
     "https://devin.ai/desktop"
   ],
-  "statusNote": "Codeium is now Devin Desktop (Windsurf).",
-  "statusNote_fr": "Codeium est devenu Devin Desktop (Windsurf)."
+  "statusNote": "codeium.com redirects to devin.ai/desktop (Windsurf); see the Devin (incl. Windsurf) catalogue entry."
 }
