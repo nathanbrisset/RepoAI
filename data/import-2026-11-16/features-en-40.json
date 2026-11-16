@@ -27,12 +27,12 @@
     "On-device AI meeting notes, free and open source",
     "Official apps for Mac, Windows and Linux",
     "Notes stay on your computer",
-    "Backed by Y Combinator; no public paid plan on 16 November 2026"
+    "Backed by Y Combinator; free and open source on the official site"
   ],
   "beam-win": [
     "Puts a window from one Mac onto another, with a native feel, Retina sharpness and real input",
     "Works over your own network; one plan covers every Mac you sit at, free for the Macs you connect to",
-    "Distinct from Beam AI (beam.ai)",
+    "One plan covers every Mac you sit at, free for the Macs you connect to",
     "Free forever with a 20-minute daily cap, or a yearly subscription / Lifetime"
   ],
   "velozity": [
@@ -61,7 +61,7 @@
   "opengeni": [
     "Team agents for meeting prep, weekly reports, lead follow-ups and pull requests",
     "Works in Gmail, Slack, GitHub and other tools; checks with you before anything goes out",
-    "Open source (Apache 2.0); self-host with no license fee; official “Made in Norway”",
+    "Open source (Apache 2.0); self-host with no license fee",
     "Optional desktop app so agents can use your computer"
   ],
   "tadata": [
@@ -93,15 +93,15 @@
   ],
   "mister-blocks": [
     "Turns a photo of your loose bricks into build ideas made only from your pieces",
-    "Checked 3D step-by-step instructions; official statement that every stud is checked",
+    "Checked 3D step-by-step instructions; every stud is verified",
     "Ask the AI builder for a model",
-    "Officially free; no public paid consumer ladder on 16 November 2026"
+    "Free on the official site"
   ],
   "gatrends": [
     "Watches the keywords that matter to you and spots unusual spikes across news, search and communities",
     "Telegram alerts; Claude and ChatGPT connection on higher plans; CSV export",
     "Free plan with 3 keywords",
-    "Yearly billing is offered as “2 months free”; yearly totals are not invented"
+    "Yearly billing with two months free"
   ],
   "qorqbot": [
     "Proactive agent for complex work, running on your computer with your own model subscriptions",
@@ -137,7 +137,7 @@
     "Turns any website into an API/MCP in minutes, including sites behind login",
     "Automatic sign-in including 2FA; optional secure credential storage",
     "Open source; backed by Y Combinator (F26)",
-    "Free plan included; yearly Premium total is not invented"
+    "Free plan with daily tool-call limits; yearly billing available"
   ],
   "replyhey": [
     "Finds people asking for what you sell on Reddit, X and LinkedIn",
@@ -148,13 +148,13 @@
   "busabase": [
     "Open-source (MIT) system of record for AI agents: one database and workspace for agents and people",
     "Local engine and Docker image; OpenAPI, webhooks and MCP; desktop keeps data in a folder on your machine",
-    "Free plan included; Plus and Pro are official yearly-billed seat prices (no invented monthly list)"
+    "Free plan included; Plus and Pro billed yearly per seat"
   ],
   "neura": [
     "AI agent for consumer brands that recommends, sells and supports, in the brand’s voice, on every channel",
     "Remembers every shopper; knowledge from websites, files and Q&A; procedures, forms and policy rules",
     "Integrations and a human handoff inbox",
-    "Official prices in two currencies (one reference used for the euro amounts); 14-day trial on request"
+    "14-day trial on request"
   ],
   "stroq": [
     "Scans recorded Claude Code, Codex CLI and Cursor sessions for known credentials, without printing their values",
@@ -166,7 +166,7 @@
     "AI voice production agent that gets names, numbers and pronunciation right in every language",
     "Validated TTS pipeline, mispronunciation fixes and auto-route",
     "Commercial output ownership on higher tiers",
-    "Free one-time credits; paid plans are official yearly-billed prices (no invented monthly list)"
+    "Free one-time credits; paid plans billed yearly"
   ],
   "zernio": [
     "Marketing infrastructure for agents: social, ads, inbox, WhatsApp, SMS and calls behind one API key",
@@ -231,6 +231,6 @@
     "Usage-based billing for AI agents: credits and wallets, metering, outcome pricing and live price changes",
     "No per-seat maths and no feature-gating between plans (official)",
     "Prepaid and postpaid invoicing",
-    "Free forever up to an official billed-revenue cap; yearly totals are not invented"
+    "Free forever up to a billed-revenue cap; annual billing with savings"
   ]
 }
