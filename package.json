@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node --experimental-strip-types scripts/check-pricing-notes.mjs --check",
+    "prebuild": "node --experimental-strip-types scripts/check-pricing-notes.mjs --check && node --experimental-strip-types scripts/check-display-currency.mjs --check",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
