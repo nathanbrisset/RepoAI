@@ -1,0 +1,79 @@
+{
+  "id": "burnstate",
+  "name": "Burnstate",
+  "url": "https://burnstate.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Mac menu-bar app that puts every AI coding limit (Claude Code, Codex, Cursor and others) against the clock, so you know when you would run dry hours before it happens.",
+  "description": "Mac menu-bar app that puts every AI coding limit (Claude Code, Codex, Cursor and others) against the clock, so you know when you would run dry hours before it happens.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "macos",
+    "cursor",
+    "claude-code",
+    "codex",
+    "limits",
+    "menubar"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Subscription from 4 € a month, or 23 € a year (48% less than monthly, official; activate on 1 Mac, cancel anytime, keep what you paid for). One-time license with updates included — 45 € for 1 Mac, 63 € for 2 Macs, 81 € for 3 Macs. Sold via Creem (receipt and VAT). Also listed as coming soon on the Mac App Store; Setapp membership is a separate official option with Setapp’s own 7-day trial.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/burnstate.png",
+  "image": "/screenshots/burnstate.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Mac menu-bar app that puts every AI coding limit against the clock",
+    "Works with Claude Code, Codex, Cursor and others, hours before you would run dry",
+    "Monthly or yearly subscription, or a one-time license for 1 to 3 Macs",
+    "Sold via Creem (receipt and VAT); Setapp is a separate official option"
+  ],
+  "howToUse": [
+    {
+      "title": "Open burnstate.dev and choose a monthly or yearly subscription, or a one-time Mac license.",
+      "description": "Open burnstate.dev and choose a monthly or yearly subscription, or a one-time Mac license.",
+      "links": [
+        {
+          "label": "Burnstate",
+          "url": "https://burnstate.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Pay via Creem, then run the menu-bar app against your Claude Code, Codex or Cursor limits.",
+      "description": "Pay via Creem, then run the menu-bar app against your Claude Code, Codex or Cursor limits."
+    }
+  ],
+  "sources": [
+    "https://burnstate.dev/"
+  ],
+  "summary_fr": "Application barre de menu Mac qui compare chaque limite d’outils de code IA (Claude Code, Codex, Cursor, etc.) à l’horloge, pour savoir des heures à l’avance quand le quota sera épuisé.",
+  "description_fr": "Application barre de menu Mac qui compare chaque limite d’outils de code IA (Claude Code, Codex, Cursor, etc.) à l’horloge, pour savoir des heures à l’avance quand le quota sera épuisé.",
+  "features_fr": [
+    "App barre de menu Mac qui compare chaque limite d’outil de code IA à l’horloge",
+    "Fonctionne avec Claude Code, Codex, Cursor et d’autres, des heures avant l’épuisement du quota",
+    "Abonnement mensuel ou annuel, ou licence unique pour 1 à 3 Mac",
+    "Vendu via Creem (reçu et TVA); Setapp est une option officielle distincte"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre burnstate.dev et choisis un abonnement mensuel ou annuel, ou une licence Mac unique.",
+      "description": "Ouvre burnstate.dev et choisis un abonnement mensuel ou annuel, ou une licence Mac unique.",
+      "links": [
+        {
+          "label": "Burnstate",
+          "url": "https://burnstate.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Paie via Creem, puis lance l’app barre de menu face à tes limites Claude Code, Codex ou...",
+      "description": "Paie via Creem, puis lance l’app barre de menu face à tes limites Claude Code, Codex ou Cursor."
+    }
+  ]
+}

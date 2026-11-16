@@ -1,0 +1,90 @@
+{
+  "id": "zernio",
+  "name": "Zernio",
+  "url": "https://zernio.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Marketing infrastructure for agents: social, ads, inbox, WhatsApp, SMS and calls behind one API key, with an MCP server included. First two accounts are free.",
+  "description": "Marketing infrastructure for agents: social, ads, inbox, WhatsApp, SMS and calls behind one API key, with an MCP server included. First two accounts are free.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "social",
+    "api",
+    "mcp",
+    "whatsapp",
+    "scheduling",
+    "agents"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://zernio.com/pricing",
+    "details": "Usage-based: first 2 connected accounts Free, no credit card; 3–10 accounts 5 €/month each; 11–100 accounts 3 €/month each; 101+ accounts 1 €/month each; starting at 0 €/month. Enterprise custom past 2,000 accounts (SAML, SCIM, MFA, audit logs, RBAC, SOC 2 + GDPR paperwork). Official: every feature included, nothing gated behind a plan. Messaging: first 10,000 sent DMs a month free, then metered (official message rates live on a separate page and are not restated here).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/zernio.png",
+  "image": "/screenshots/zernio.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Marketing infrastructure for agents: social, ads, inbox, WhatsApp, SMS and calls behind one API key",
+    "MCP server included; scheduling, analytics, DMs and comments",
+    "Official: every feature included, nothing gated behind a plan",
+    "First two connected accounts are free, no card"
+  ],
+  "howToUse": [
+    {
+      "title": "Open zernio.com/pricing and start for free with up to two connected accounts and no card.",
+      "description": "Open zernio.com/pricing and start for free with up to two connected accounts and no card.",
+      "links": [
+        {
+          "label": "Zernio",
+          "url": "https://zernio.com/"
+        }
+      ]
+    },
+    {
+      "title": "Use the API or the included MCP server across social, ads, inbox, WhatsApp, SMS and calls.",
+      "description": "Use the API or the included MCP server across social, ads, inbox, WhatsApp, SMS and calls."
+    },
+    {
+      "title": "Pay the official per-account tier as you add more accounts.",
+      "description": "Pay the official per-account tier as you add more accounts."
+    }
+  ],
+  "hqCountry": "ES",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://zernio.com/pricing"
+  ],
+  "summary_fr": "Infrastructure marketing pour agents: social, pubs, boîte de réception, WhatsApp, SMS et appels derrière une seule clé API, avec un serveur MCP inclus. Les deux premiers comptes sont gratuits.",
+  "description_fr": "Infrastructure marketing pour agents: social, pubs, boîte de réception, WhatsApp, SMS et appels derrière une seule clé API, avec un serveur MCP inclus. Les deux premiers comptes sont gratuits.",
+  "features_fr": [
+    "Infrastructure marketing pour agents: social, pubs, boîte de réception, WhatsApp, SMS et appels derrière une seule clé API",
+    "Serveur MCP inclus; planification, analytics, DM et commentaires",
+    "Officiel: toutes les fonctions sont incluses, rien n’est verrouillé selon l’offre",
+    "Les deux premiers comptes connectés sont gratuits, sans carte"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre zernio.com/pricing et commence gratuitement, jusqu’à deux comptes connectés, sans...",
+      "description": "Ouvre zernio.com/pricing et commence gratuitement, jusqu’à deux comptes connectés, sans carte.",
+      "links": [
+        {
+          "label": "Zernio",
+          "url": "https://zernio.com/"
+        }
+      ]
+    },
+    {
+      "title": "Utilise l’API ou le serveur MCP inclus, pour le social, les pubs, la boîte de réception...",
+      "description": "Utilise l’API ou le serveur MCP inclus, pour le social, les pubs, la boîte de réception, WhatsApp, les SMS et les appels."
+    },
+    {
+      "title": "Paie le palier officiel par compte quand tu en ajoutes d’autres.",
+      "description": "Paie le palier officiel par compte quand tu en ajoutes d’autres."
+    }
+  ]
+}

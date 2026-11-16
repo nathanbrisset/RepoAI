@@ -17,14 +17,12 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/orange3.png",
   "image": "/screenshots/orange3.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-29",
-  "dateAddedNote": "The previous Added date was 2013-06-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Visual Programming: Build analysis workflows with drag-and-drop widgets.",
     "Interactive Data Exploration: Real-time visualizations and interactive reports.",
@@ -57,9 +55,9 @@
   ],
   "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
   "features_fr": [
-    "Programmation visuelle : créez des flux de travail d'analyse avec des widgets glisser-déposer.",
-    "Exploration interactive des données : visualisations en temps réel et rapports interactifs.",
-    "Écosystème complémentaire : extensions pour l'exploration de texte, la bioinformatique, etc.",
-    "Objectif pédagogique : conçu pour l'enseignement et le prototypage rapide."
+    "Programmation visuelle: créez des flux de travail d'analyse avec des widgets glisser-déposer.",
+    "Exploration interactive des données: visualisations en temps réel et rapports interactifs.",
+    "Écosystème complémentaire: extensions pour l'exploration de texte, la bioinformatique, etc.",
+    "Objectif pédagogique: conçu pour l'enseignement et le prototypage rapide."
   ]
 }

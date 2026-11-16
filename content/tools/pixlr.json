@@ -17,8 +17,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/pixlr.png",
   "image": "/screenshots/pixlr.webp",
@@ -55,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Suppresseur d'arrière-plan AI : découpes en un clic avec une grande précision.",
-    "Redimensionnement intelligent : recadrez et redimensionnez les images sans effort à l'aide de l'IA.",
-    "Génération d'images : créez des visuels à partir d'invites textuelles.",
-    "Correction automatique des couleurs : améliorez instantanément les couleurs et l’exposition."
+    "Suppresseur d'arrière-plan AI: découpes en un clic avec une grande précision.",
+    "Redimensionnement intelligent: recadrez et redimensionnez les images sans effort à l'aide de l'IA.",
+    "Génération d'images: créez des visuels à partir d'invites textuelles.",
+    "Correction automatique des couleurs: améliorez instantanément les couleurs et l’exposition."
   ]
 }

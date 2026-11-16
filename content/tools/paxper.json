@@ -1,0 +1,86 @@
+{
+  "id": "paxper",
+  "name": "Paxper",
+  "url": "https://paxper.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Visual infrastructure-as-code: design cloud architecture on a canvas, review every planned change, and apply it in your own account only after approval.",
+  "description": "Visual infrastructure-as-code: design cloud architecture on a canvas, review every planned change, and apply it in your own account only after approval.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "iac",
+    "aws",
+    "infrastructure",
+    "devops",
+    "visual"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free 0 € per user/month — unlimited projects, 1 workspace, 1 cloud provider, 1 apply per project, community support on Slack, no card. Team 44 € per user/month, or 443 € per user/year (37 €/month, 2 months free) — 2 workspaces included, unlimited applies, email support with a standard SLA. Each applied workspace beyond the first two costs 45 €/month. Enterprise custom (unlimited workspaces, SSO, audit trail, dedicated support).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/paxper.png",
+  "image": "/screenshots/paxper.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Visual infrastructure-as-code: design on a canvas, review every planned change, apply only after approval",
+    "Short plans of add/change/destroy; apply in your own account",
+    "AI support with credits on every plan",
+    "Free plan with no card"
+  ],
+  "howToUse": [
+    {
+      "title": "Open paxper.com and start Free with no card.",
+      "description": "Open paxper.com and start Free with no card.",
+      "links": [
+        {
+          "label": "Paxper",
+          "url": "https://paxper.com/"
+        }
+      ]
+    },
+    {
+      "title": "Draw infrastructure on the canvas, review the plan, and approve an apply in your own...",
+      "description": "Draw infrastructure on the canvas, review the plan, and approve an apply in your own cloud account."
+    },
+    {
+      "title": "Upgrade to Team if you need more workspaces or applies.",
+      "description": "Upgrade to Team if you need more workspaces or applies."
+    }
+  ],
+  "sources": [
+    "https://paxper.com/"
+  ],
+  "summary_fr": "Infrastructure as code visuelle: conçois l’architecture cloud sur un canevas, relis chaque changement prévu, et applique-le dans ton propre compte seulement après approbation.",
+  "description_fr": "Infrastructure as code visuelle: conçois l’architecture cloud sur un canevas, relis chaque changement prévu, et applique-le dans ton propre compte seulement après approbation.",
+  "features_fr": [
+    "Infrastructure as code visuelle: concevoir sur un canevas, relire chaque changement prévu, n’appliquer qu’après approbation",
+    "Plans courts d’ajout / modification / suppression; apply dans ton propre compte",
+    "Aide IA avec crédits sur chaque offre",
+    "Offre Gratuite sans carte"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre paxper.com et commence l’offre Gratuite, sans carte.",
+      "description": "Ouvre paxper.com et commence l’offre Gratuite, sans carte.",
+      "links": [
+        {
+          "label": "Paxper",
+          "url": "https://paxper.com/"
+        }
+      ]
+    },
+    {
+      "title": "Dessine l’infrastructure sur le canevas, relis le plan, et approuve un apply dans ton...",
+      "description": "Dessine l’infrastructure sur le canevas, relis le plan, et approuve un apply dans ton propre compte cloud."
+    },
+    {
+      "title": "Passe à Team si tu as besoin de plus d’espaces de travail ou d’applies.",
+      "description": "Passe à Team si tu as besoin de plus d’espaces de travail ou d’applies."
+    }
+  ]
+}

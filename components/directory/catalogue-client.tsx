@@ -1,5 +1,6 @@
 "use client"
 
+import { useCallback } from "react"
 import LocaleLink from "@/components/locale-link"
 import { useLocale } from "@/components/locale-provider"
 import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
@@ -8,11 +9,13 @@ import { PRICE_FILTERS, priceFilterParam, type PriceFilter } from "@/lib/price-f
 import {
   CATALOGUE_HQ_COUNTRIES,
   catalogueHqCountryParam,
-  parseCatalogueHqCountryParam,
 } from "@/lib/hq-country-filter"
 import { pricingLabel } from "@/lib/i18n/messages"
 import { listingQueryHref, type CatalogQueryResult } from "@/lib/directory/catalog-query"
-import { useRouter, useSearchParams } from "next/navigation"
+import type { ListingQueryUi } from "@/lib/directory/listing-query-params"
+import { activeCatalogueCountry, activePriceFilter } from "@/lib/directory/listing-query-params"
+import { useRouter } from "next/navigation"
+import { useDebouncedUrlDraft } from "@/lib/directory/use-debounced-url-draft"
 import { ListingPagination } from "./listing-pagination"
 import { ToolCard } from "./tool-card"
 
@@ -21,25 +24,35 @@ export type SortMode = "trending" | "new" | "top"
 export function CatalogueClient({
   basePath,
   catalogPage,
+  queryUi,
+  linkSearchParams,
 }: {
   basePath: "/catalogue" | "/tools"
   catalogPage: CatalogQueryResult
+  queryUi: ListingQueryUi
+  linkSearchParams: URLSearchParams
 }) {
   const locale = useLocale()
   const t = directoryCopy(locale)
   const router = useRouter()
-  const searchParams = useSearchParams()
-  const category = searchParams.get("category") || ""
-  const queryRaw = (searchParams.get("q") || "").trim()
-  const sort = (searchParams.get("sort") as SortMode) || "trending"
-  const pricing = searchParams.get("pricing")
-  const hqCountry = searchParams.get("hqCountry")
-  const activePrice = PRICE_FILTERS.find((filter) => priceFilterParam(filter) === pricing) || null
-  const activeCountry = parseCatalogueHqCountryParam(hqCountry)
+  const { category, q: queryRaw, sort, pricing, hqCountry } = queryUi
+  const activePrice = activePriceFilter(pricing)
+  const activeCountry = activeCatalogueCountry(hqCountry)
+  const urlQ = linkSearchParams.get("q") ?? ""
+
+  const commitQuery = useCallback(
+    (value: string) => {
+      const href = listingQueryHref(basePath, linkSearchParams, { q: value || null }, { resetPage: true })
+      router.replace(localizeHref(locale, href), { scroll: false })
+    },
+    [basePath, linkSearchParams, locale, router],
+  )
+
+  const { draft: filterDraft, setDraft: setFilterDraft } = useDebouncedUrlDraft(urlQ, commitQuery, 250)
 
   function write(updates: Record<string, string | null>) {
-    const href = listingQueryHref(basePath, searchParams, updates, { resetPage: true })
-    router.push(localizeHref(locale, href), { scroll: false })
+    const href = listingQueryHref(basePath, linkSearchParams, updates, { resetPage: true })
+    router.replace(localizeHref(locale, href), { scroll: false })
   }
 
   const { items: visible, total } = catalogPage
@@ -55,8 +68,10 @@ export function CatalogueClient({
         <label className="block md:w-80">
           <span className="sr-only">{t.filterLabel}</span>
           <input
-            value={searchParams.get("q") || ""}
-            onChange={(event) => write({ q: event.target.value || null })}
+            id="catalogue-filter"
+            data-testid="catalogue-filter"
+            value={filterDraft}
+            onChange={(event) => setFilterDraft(event.target.value)}
             placeholder={t.filterPlaceholder}
             className="h-12 w-full rounded-full bg-card px-5 ring-1 ring-border outline-none focus:ring-2 focus:ring-primary"
           />
@@ -110,7 +125,7 @@ export function CatalogueClient({
             {t.catalogueAllCategoriesCta}
           </LocaleLink>
         </div>
-        {(category || queryRaw || activePrice || activeCountry || sort !== "trending") && (
+        {(category || queryRaw.trim() || activePrice || activeCountry || sort !== "trending") && (
           <button
             type="button"
             onClick={() => router.replace(localizeHref(locale, basePath), { scroll: false })}
@@ -139,7 +154,7 @@ export function CatalogueClient({
               <ToolCard key={tool.id} tool={tool} index={index} />
             ))}
           </div>
-          <ListingPagination barePath={basePath} catalogPage={catalogPage} />
+          <ListingPagination barePath={basePath} catalogPage={catalogPage} linkSearchParams={linkSearchParams} />
         </>
       )}
     </main>

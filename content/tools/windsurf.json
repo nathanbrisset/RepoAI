@@ -3,7 +3,7 @@
   "name": "Windsurf",
   "url": "https://windsurf.com/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "duplicate-of",
   "summary": "AI-native IDE from the Codeium team with cascade agents, deep codebase context, and multi-file edits.",
   "description": "Windsurf is an AI-first code editor built by Codeium. It combines chat, autonomous agents, and inline completions with repository-wide context for faster feature work.",
   "categories": [
@@ -25,7 +25,10 @@
   "logo": "/logos/windsurf.png",
   "image": "/screenshots/windsurf.webp",
   "dateAdded": "2026-10-21",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
+  "successorId": "devin",
+  "statusNote": "Windsurf is now Devin Desktop (June 2026).",
+  "statusNote_fr": "Windsurf est devenu Devin Desktop (juin 2026).",
   "features": [
     "Cascade agent for multi-step coding tasks.",
     "Deep context across files and terminals.",

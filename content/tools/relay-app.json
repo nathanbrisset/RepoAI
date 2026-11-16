@@ -3,7 +3,7 @@
   "name": "Relay.app",
   "url": "https://www.relay.app/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "Automations across your tools with AI steps and human approval.",
   "description": "Relay.app chains actions across Gmail, Slack, Notion, HubSpot and other tools, adding AI steps such as summarizing, extracting or drafting. Human approval checkpoints keep you in control of sensitive steps.",
   "categories": [
@@ -25,7 +25,9 @@
   "logo": "/logos/relay-app.png",
   "image": "/screenshots/relay-app.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
+  "statusNote": "Relay.app shut down in September 2026; accounts, workflows and run history were permanently deleted.",
+  "statusNote_fr": "Relay.app a fermé en septembre 2026 ; comptes, workflows et historiques d'exécution ont été supprimés définitivement.",
   "features": [
     "Automations across Gmail, Slack, Notion, HubSpot…",
     "AI steps: summarize, extract, draft",
@@ -58,7 +60,7 @@
   ],
   "features_fr": [
     "Automatisations entre Gmail, Slack, Notion, HubSpot…",
-    "Étapes IA : résumé, extraction, rédaction",
+    "Étapes IA: résumé, extraction, rédaction",
     "Points de validation humaine",
     "Déclencheurs planifiés ou par événement"
   ],

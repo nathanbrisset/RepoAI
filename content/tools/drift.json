@@ -16,8 +16,7 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/drift.png",
   "image": "/screenshots/drift.webp",
@@ -59,9 +58,9 @@
   ],
   "statusNote": "Drift was acquired by Salesloft.",
   "features_fr": [
-    "Marketing conversationnel : engagez les visiteurs avec un chat en temps réel.",
-    "Qualification des leads : l'IA filtre et priorise les leads commerciaux.",
-    "Réservation automatisée de réunions : planifiez des appels directement depuis le chat.",
-    "Intégrations : se connecte aux principaux outils CRM et marketing."
+    "Marketing conversationnel: engagez les visiteurs avec un chat en temps réel.",
+    "Qualification des leads: l'IA filtre et priorise les leads commerciaux.",
+    "Réservation automatisée de réunions: planifiez des appels directement depuis le chat.",
+    "Intégrations: se connecte aux principaux outils CRM et marketing."
   ]
 }

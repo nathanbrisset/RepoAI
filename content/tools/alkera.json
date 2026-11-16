@@ -1,0 +1,87 @@
+{
+  "id": "alkera",
+  "name": "Alkera",
+  "url": "https://www.alkera.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Agentic data platform that brings data engineering, analysis and science into collaborative multiplayer workspaces for humans and agents.",
+  "description": "Agentic data platform that brings data engineering, analysis and science into collaborative multiplayer workspaces for humans and agents.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "data",
+    "agents",
+    "analytics",
+    "data-engineering",
+    "workspaces"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.alkera.ai/pricing",
+    "details": "Free 0 €, free forever — 10 GB storage, limited usage, native integrations. Plus 45 €/month — 1 TB storage, extra usage, access to all models. Pro 181 €/month — 5 TB storage, significantly increased usage, dedicated support, early access to new features. Enterprise custom (SSO/SAML, SCIM & IAM, audit logs, VPC and on-prem, ZDR, data residency, SLAs).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/alkera.png",
+  "image": "/screenshots/alkera.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Agentic data platform: data engineering, analysis and science in collaborative multiplayer workspaces",
+    "Built for humans and agents on the same data stack; native integrations",
+    "Free forever plan included",
+    "Official Databench open-source mention on the pricing footer"
+  ],
+  "howToUse": [
+    {
+      "title": "Open alkera.ai/pricing and start Free forever.",
+      "description": "Open alkera.ai/pricing and start Free forever.",
+      "links": [
+        {
+          "label": "Alkera",
+          "url": "https://www.alkera.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Connect your data stack and work with people and agents in a shared workspace.",
+      "description": "Connect your data stack and work with people and agents in a shared workspace."
+    },
+    {
+      "title": "Upgrade to Plus or Pro when you need more storage, usage or models.",
+      "description": "Upgrade to Plus or Pro when you need more storage, usage or models."
+    }
+  ],
+  "sources": [
+    "https://www.alkera.ai/pricing"
+  ],
+  "summary_fr": "Plateforme de données agentique qui réunit ingénierie, analyse et data science dans des espaces de travail collaboratifs multi-joueurs, pour les humains et les agents.",
+  "description_fr": "Plateforme de données agentique qui réunit ingénierie, analyse et data science dans des espaces de travail collaboratifs multi-joueurs, pour les humains et les agents.",
+  "features_fr": [
+    "Plateforme de données agentique: ingénierie, analyse et data science dans des espaces collaboratifs multi-joueurs",
+    "Pensée pour les humains et les agents sur la même stack data; intégrations natives",
+    "Offre Gratuite pour toujours incluse",
+    "Open source Databench, mentionné en pied de page tarifs"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre alkera.ai/pricing et commence l’offre Gratuite, pour toujours.",
+      "description": "Ouvre alkera.ai/pricing et commence l’offre Gratuite, pour toujours.",
+      "links": [
+        {
+          "label": "Alkera",
+          "url": "https://www.alkera.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Connecte ta stack data et travaille avec des personnes et des agents dans un espace...",
+      "description": "Connecte ta stack data et travaille avec des personnes et des agents dans un espace partagé."
+    },
+    {
+      "title": "Passe à Plus ou Pro si tu as besoin de plus de stockage, d’usage ou de modèles.",
+      "description": "Passe à Plus ou Pro si tu as besoin de plus de stockage, d’usage ou de modèles."
+    }
+  ]
+}

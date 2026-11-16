@@ -3,11 +3,11 @@
   "name": "Whisk (Google)",
   "url": "https://labs.google/fx/tools/whisk",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "duplicate-of",
   "summary": "Remix images from reference pictures (Google Labs).",
   "description": "Whisk creates new images by combining three references for subject, scene and style, without writing a detailed prompt. It can also animate the result into a short video.",
   "summary_fr": "Remixe des images à partir d'images de référence (Google Labs).",
-  "description_fr": "Whisk crée de nouvelles images en combinant trois références : un sujet, une scène et un style, sans avoir à écrire de prompt détaillé. Il peut aussi animer le résultat en courte vidéo.",
+  "description_fr": "Whisk crée de nouvelles images en combinant trois références: un sujet, une scène et un style, sans avoir à écrire de prompt détaillé. Il peut aussi animer le résultat en courte vidéo.",
   "categories": [
     "image"
   ],
@@ -26,7 +26,10 @@
   "logo": "/logos/google-whisk.png",
   "image": "/screenshots/google-whisk.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
+  "successorId": "google-flow",
+  "statusNote": "Google Whisk was merged into Google Flow on April 30, 2026.",
+  "statusNote_fr": "Google Whisk a été intégré à Google Flow le 30 avril 2026.",
   "features": [
     "Combine three references: subject, scene, style",
     "No detailed prompt needed",
@@ -34,7 +37,7 @@
     "Animate into a short video"
   ],
   "features_fr": [
-    "Combinaison de trois références : sujet, scène, style",
+    "Combinaison de trois références: sujet, scène, style",
     "Pas besoin de prompt détaillé",
     "Variantes rapides",
     "Animation en courte vidéo"

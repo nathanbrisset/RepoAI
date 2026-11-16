@@ -16,8 +16,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/keras-tuner.png",
   "image": "/screenshots/keras-tuner.webp",
@@ -51,9 +50,9 @@
   ],
   "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
   "features_fr": [
-    "Optimisation des hyperparamètres : automatise la recherche des paramètres de modèle optimaux.",
-    "Intégration avec Keras : fonctionne de manière transparente avec les modèles Keras.",
-    "Prise en charge de divers algorithmes de recherche : inclut la recherche aléatoire, l'optimisation bayésienne, etc.",
-    "Évolutivité : peut être utilisée pour ajuster des modèles sur de grands ensembles de données."
+    "Optimisation des hyperparamètres: automatise la recherche des paramètres de modèle optimaux.",
+    "Intégration avec Keras: fonctionne de manière transparente avec les modèles Keras.",
+    "Prise en charge de divers algorithmes de recherche: inclut la recherche aléatoire, l'optimisation bayésienne, etc.",
+    "Évolutivité: peut être utilisée pour ajuster des modèles sur de grands ensembles de données."
   ]
 }

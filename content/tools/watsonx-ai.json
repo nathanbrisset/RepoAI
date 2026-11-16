@@ -17,14 +17,12 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/watsonx-ai.png",
   "image": "/screenshots/watsonx-ai.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-29",
-  "dateAddedNote": "The previous Added date was 2017-02-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Collaborative Workspace: Enables team-based data science projects.",
     "AutoAI: Automated model building, selection, and optimization.",
@@ -57,9 +55,9 @@
   ],
   "statusNote": "Successor to IBM Watson Studio for building and deploying AI on IBM Cloud.",
   "features_fr": [
-    "Espace de travail collaboratif : permet des projets de science des données en équipe.",
-    "AutoAI : création, sélection et optimisation automatisées de modèles.",
-    "Visualisation interactive : tableaux de bord et outils visuels pour l'exploration des données.",
-    "Intégration Open Source : prend en charge Jupyter, RStudio et d'autres outils."
+    "Espace de travail collaboratif: permet des projets de science des données en équipe.",
+    "AutoAI: création, sélection et optimisation automatisées de modèles.",
+    "Visualisation interactive: tableaux de bord et outils visuels pour l'exploration des données.",
+    "Intégration Open Source: prend en charge Jupyter, RStudio et d'autres outils."
   ]
 }

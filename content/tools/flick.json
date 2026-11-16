@@ -16,8 +16,7 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/flick.png",
   "image": "/screenshots/flick.webp",
@@ -58,9 +57,9 @@
     }
   ],
   "features_fr": [
-    "Recherche de hashtags : trouve les meilleurs hashtags pour tes publications.",
-    "Planification des publications : planifiez le contenu Instagram à l'avance.",
-    "Analytics : suivez l'engagement et la croissance des abonnés.",
-    "Idées de contenu : l'IA suggère des sujets et des légendes tendances."
+    "Recherche de hashtags: trouve les meilleurs hashtags pour tes publications.",
+    "Planification des publications: planifiez le contenu Instagram à l'avance.",
+    "Analytics: suivez l'engagement et la croissance des abonnés.",
+    "Idées de contenu: l'IA suggère des sujets et des légendes tendances."
   ]
 }

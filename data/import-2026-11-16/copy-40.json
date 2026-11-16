@@ -1,0 +1,1790 @@
+[
+  {
+    "slug": "hiringnow",
+    "name": "HiringNow",
+    "category": "Productivity & Workspace",
+    "category_note": "Agent de recherche d’emploi côté candidat. Pas de catégorie « Job search » ; HR & Recruiting vise les recruteurs, donc Productivity & Workspace (comme JobShifu dans un lot précédent).",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0, no card — 10 auto-applies one-time, job matches and match score, 1 resume and 1 cover letter, basic templates. Pro $29/mo (or $59 a quarter, official example of quarterly billing at about a third less) — 100 auto-applies/month, unlimited resumes and cover letters, premium templates, 1 search profile, top-up packs available. Autopilot $49/mo — 300 auto-applies/month, everything in Pro, approve each one or in advance by rules, up to 3 search profiles, priority queue and instant alerts. Autopilot Max $99/mo (billed monthly). Source: official site hiringnow.ai, verified 2026-11-16.",
+    "pricing_en": "Free 0 €, no card — 10 auto-applies one-time, job matches and match score, 1 resume and 1 cover letter, basic templates. Pro 26 €/month (or 53 € a quarter, official example of quarterly billing at about a third less) — 100 auto-applies/month, unlimited resumes and cover letters, premium templates, 1 search profile, top-up packs available. Autopilot 44 €/month — 300 auto-applies/month, everything in Pro, approve each one or in advance by rules, up to 3 search profiles, priority queue and instant alerts. Autopilot Max 90 €/month (billed monthly).",
+    "pricing_fr": "Gratuit 0 €, sans carte — 10 candidatures automatiques une fois, correspondances et score, 1 CV et 1 lettre de motivation, modèles de base. Pro 26 €/mois (ou 53 € par trimestre, exemple officiel de facturation trimestrielle, environ un tiers de moins) — 100 candidatures automatiques/mois, CV et lettres illimités, modèles premium, 1 profil de recherche, packs de recharge disponibles. Autopilot 44 €/mois — 300 candidatures automatiques/mois, tout Pro, tu approuves chacune ou à l’avance par règles, jusqu’à 3 profils de recherche, file prioritaire et alertes instantanées. Autopilot Max 90 €/mois (facturé au mois).",
+    "howTo_en": [
+      "Open hiringnow.ai and create a Free account with no card.",
+      "Let the agent match jobs and review each application before it is submitted.",
+      "Upgrade to Pro, Autopilot or Autopilot Max if you need a monthly auto-apply quota."
+    ],
+    "howTo_fr": [
+      "Ouvre hiringnow.ai et crée un compte Gratuit, sans carte.",
+      "Laisse l’agent trouver des offres et relis chaque candidature avant envoi.",
+      "Passe à Pro, Autopilot ou Autopilot Max si tu as besoin d’un quota mensuel de candidatures automatiques."
+    ],
+    "features_en": [
+      "Personal AI job-search agent that finds roles on company career pages",
+      "Resume and cover letter tailored per application, plus ATS score",
+      "Auto-apply with your approval, job tracker and Chrome autofill",
+      "Free plan with no card (10 auto-applies one-time)"
+    ],
+    "features_fr": [
+      "Agent IA personnel de recherche d’emploi, sur les pages carrière des entreprises",
+      "CV et lettre adaptés à chaque candidature, plus score ATS",
+      "Candidature automatique avec ton accord, suivi et remplissage Chrome",
+      "Offre gratuite sans carte (10 candidatures automatiques une fois)"
+    ],
+    "short_fr": "Agent IA de recherche d’emploi qui trouve des offres sur les pages carrière, adapte le CV à chaque poste et postule automatiquement avec ton accord.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Siège officiel : Hillsboro, Oregon, États-Unis (JSON-LD)."
+    ],
+    "url": "https://hiringnow.ai/",
+    "official_url": "https://hiringnow.ai/",
+    "official_url_final": "https://hiringnow.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "AI job-search agent that finds roles on company career pages, tailors your resume to each posting, and auto-applies with your approval."
+  },
+  {
+    "slug": "plurai-simulation",
+    "name": "Plurai Simulation",
+    "category": "AI Agents",
+    "category_note": "Couche de simulation et d’évaluation pour agents IA. AI Agents ; Coding & Dev Tools serait une alternative (outillage développeur).",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0 with 12,300 credits one-time (2 agent setups, 7 scenarios, 3 runs one-time, 10 sandbox hours one-time; no pay-as-you-go — upgrade to continue). Base $60/month — 28,710 credits/month, 3 agent setups, 14 scenarios, 20 runs/month, 20 traces/month, 30 sandbox hours/month, PAYG $0.02/credit. Business $210/month — 65,570 credits/month, 3 agent setups or 1 with 16 extra scenarios, 28 scenarios (or 44 with 1 setup), 60 runs/month, 40 traces/month, 100 sandbox hours/month, PAYG $0.015/credit. The Free plan is one-time credits, not a lasting $0 allowance, so the lot label is Premium. PAYG per-credit amounts are too small to display as whole euros and stay in this official field only. Source: official site www.plurai.ai, verified 2026-11-16.",
+    "pricing_en": "Free 0 € with 12,300 credits one-time (2 agent setups, 7 scenarios, 3 runs, 10 sandbox hours one-time; upgrade to continue). Base 54 €/month — 28,710 credits/month, 3 agent setups, 14 scenarios, 20 runs/month, 20 traces/month, 30 sandbox hours/month. Business 190 €/month — 65,570 credits/month, 3 agent setups or 1 with 16 extra scenarios, 28 scenarios (or 44 with 1 setup), 60 runs/month, 40 traces/month, 100 sandbox hours/month.",
+    "pricing_fr": "Gratuit 0 € avec 12 300 crédits une fois (2 configurations d’agent, 7 scénarios, 3 runs, 10 heures de sandbox une fois ; passe à une offre payante pour continuer). Base 54 €/mois — 28 710 crédits/mois, 3 configurations, 14 scénarios, 20 runs/mois, 20 traces/mois, 30 heures de sandbox/mois. Business 190 €/mois — 65 570 crédits/mois, 3 configurations ou 1 avec 16 scénarios en plus, 28 scénarios (ou 44 avec 1 configuration), 60 runs/mois, 40 traces/mois, 100 heures de sandbox/mois.",
+    "howTo_en": [
+      "Open plurai.ai and install the official simulation plugin for your agent harness.",
+      "Connect the agent and run scenarios in the simulated world.",
+      "Upgrade to Base or Business when the one-time Free credits run out."
+    ],
+    "howTo_fr": [
+      "Ouvre plurai.ai et installe le plugin officiel de simulation pour ton harnais d’agent.",
+      "Connecte l’agent et lance des scénarios dans le monde simulé.",
+      "Passe à Base ou Business quand les crédits Gratuits (une fois) sont épuisés."
+    ],
+    "features_en": [
+      "Simulation layer that tests an AI agent in a mocked world before users hit the same issues",
+      "Official plugin for agent harnesses (Claude Code, GitHub Copilot CLI, OpenAI Codex; Cursor listed as coming soon)",
+      "Agent setups, scenarios, runs, traces and sandbox hours",
+      "Free plan is one-time credits, then Base or Business"
+    ],
+    "features_fr": [
+      "Couche de simulation qui teste un agent IA dans un monde simulé avant que les utilisateurs ne rencontrent les mêmes problèmes",
+      "Plugin officiel pour les harnais d’agents (Claude Code, GitHub Copilot CLI, OpenAI Codex ; Cursor annoncé comme bientôt disponible)",
+      "Configurations, scénarios, runs, traces et heures de sandbox",
+      "L’offre Gratuite est un crédit unique, puis Base ou Business"
+    ],
+    "short_fr": "Couche de simulation qui place un agent IA dans un monde simulé pour tester des runs, scorer les échecs et améliorer l’agent avant que les utilisateurs ne rencontrent les mêmes problèmes.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Labellé Premium : les crédits de l’offre Gratuite sont one-shot, pas une allocation 0 € durable.",
+      "official_url https://plurai.ai/ redirige vers https://www.plurai.ai/ (à utiliser pour les captures).",
+      "Les tarifs officiels au crédit (paiement à l’usage) sont trop petits pour un affichage en euros entiers ; détail seulement dans pricing_usd_official."
+    ],
+    "url": "https://plurai.ai/",
+    "official_url": "https://plurai.ai/",
+    "official_url_final": "https://www.plurai.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Simulation layer that wires an AI agent into a mocked world so you can test runs, score failures and improve the agent before users hit the same issues."
+  },
+  {
+    "slug": "spacefast",
+    "name": "Spacefast",
+    "category": "Coding & Dev Tools",
+    "category_note": "Espace d’hébergement et de publication pour artefacts, sites statiques et apps (Automattic). Coding & Dev Tools ; No-code & App Builders serait une alternative.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Personal $0, no card — $1 of usage included every month, 20 Spaces and 20 custom domains, publish from any agent, commercial use. Go $5/month — everything in Personal plus $5 usage/month, 100 Spaces and 100 custom domains, hourly database backups, choose a datacenter, email support. Pro $15/month — everything in Go plus $15 usage/month, free up to 5 members then $15/month each, 500 Spaces and 500 custom domains, team roles and wildcard domains, priority email support. Enterprise custom (SSO, SAML, SCIM, subteams, network policies, log drains, dedicated support with SLA). A previously mentioned Boost add-on was not visible on the official page on 2026-11-16 and is not listed. Source: official site spacefast.com, verified 2026-11-16.",
+    "pricing_en": "Personal 0 €, no card — 1 € of usage included every month, 20 Spaces and 20 custom domains, publish from any agent, commercial use. Go 5 €/month — everything in Personal plus 5 € usage/month, 100 Spaces and 100 custom domains, hourly database backups, choose a datacenter, email support. Pro 14 €/month — everything in Go plus 14 € usage/month, free up to 5 members then 14 €/month each, 500 Spaces and 500 custom domains, team roles and wildcard domains, priority email support. Enterprise custom (SSO, SAML, SCIM, subteams, network policies, log drains, dedicated support with SLA).",
+    "pricing_fr": "Personal 0 €, sans carte — 1 € d’usage inclus chaque mois, 20 Spaces et 20 domaines personnalisés, publication depuis n’importe quel agent, usage commercial. Go 5 €/mois — tout Personal plus 5 € d’usage/mois, 100 Spaces et 100 domaines personnalisés, sauvegardes de base horaires, choix du datacenter, support e-mail. Pro 14 €/mois — tout Go plus 14 € d’usage/mois, jusqu’à 5 membres offerts puis 14 €/mois chacun, 500 Spaces et 500 domaines personnalisés, rôles d’équipe et domaines wildcard, support e-mail prioritaire. Enterprise sur devis (SSO, SAML, SCIM, sous-équipes, politiques réseau, log drains, support dédié avec SLA).",
+    "howTo_en": [
+      "Open spacefast.com and start a Personal account with no card.",
+      "Publish artifacts, static sites or web apps from your agent or the CLI.",
+      "Subscribe to Go or Pro if you need more usage, Spaces or team seats."
+    ],
+    "howTo_fr": [
+      "Ouvre spacefast.com et commence un compte Personal, sans carte.",
+      "Publie des artefacts, des sites statiques ou des apps web depuis ton agent ou le CLI.",
+      "Passe à Go ou Pro si tu as besoin de plus d’usage, de Spaces ou de sièges d’équipe."
+    ],
+    "features_en": [
+      "Publish artifacts, static sites and web apps from any AI/MCP client",
+      "Private by default, with share links, passwords, custom domains and versioning",
+      "Made by Automattic",
+      "Personal plan with no card, including a small monthly usage allowance"
+    ],
+    "features_fr": [
+      "Publie des artefacts, des sites statiques et des apps web depuis n’importe quel client IA/MCP",
+      "Privé par défaut, avec liens de partage, mots de passe, domaines personnalisés et versions",
+      "Édité par Automattic",
+      "Offre Personal sans carte, avec une petite allocation d’usage mensuelle"
+    ],
+    "short_fr": "Espace de publication pour tes créations et celles de ton IA : partager des artefacts, héberger des sites statiques, déployer des apps web, gérer les versions et utiliser des domaines personnalisés. Édité par Automattic.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Siège officiel : Automattic Inc., San Francisco, CA, États-Unis (JSON-LD).",
+      "Un add-on Boost mentionné antérieurement n’était plus visible sur la page officielle le 16 novembre 2026 : non listé."
+    ],
+    "url": "https://spacefast.com/",
+    "official_url": "https://spacefast.com/",
+    "official_url_final": "https://spacefast.com/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Publishing home for what you or your AI makes: share artifacts, host static sites, deploy web apps, manage versions and use custom domains. Made by Automattic."
+  },
+  {
+    "slug": "rakazo",
+    "name": "Rakazo",
+    "category": "AI Agents",
+    "category_note": "Coéquipiers IA persistants, open source (alternative à Grok Bot). AI Agents. Produit d’Inbox Zero Inc. : ne pas recréer une fiche « Inbox Zero » distincte.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Self-hosted Free, Apache-2.0, on your server or computer, any model you connect. Hosted Standard $15/mo or $12/mo billed yearly, 7-day free trial, bot computer included. Pro $49/mo. Max $99/mo. Rakazo credits from $20/mo (model usage at the provider’s price with no markup, plus computer hours). Hosted sandbox computer hours scale by plan (Standard 25 hours/month 4 vCPU/8 GB; Pro 100 hours/month 8 vCPU/16 GB; Max 200 hours/month 16 vCPU/32 GB). Source: official site rakazo.com, verified 2026-11-16.",
+    "pricing_en": "Self-hosted Free (Apache-2.0), on your server or computer, any model you connect. Hosted Standard 14 €/month, or 11 €/month billed yearly, 7-day free trial, bot computer included. Pro 44 €/month. Max 90 €/month. Rakazo credits from 18 €/month (model usage at the provider’s price with no markup, plus computer hours). Hosted sandbox hours by plan: Standard 25 hours/month (4 vCPU/8 GB); Pro 100 hours/month (8 vCPU/16 GB); Max 200 hours/month (16 vCPU/32 GB).",
+    "pricing_fr": "Auto-hébergé Gratuit (Apache-2.0), sur ton serveur ou ton ordinateur, avec le modèle que tu connectes. Hébergé Standard 14 €/mois, ou 11 €/mois en facturation annuelle, essai de 7 jours, ordinateur du bot inclus. Pro 44 €/mois. Max 90 €/mois. Crédits Rakazo à partir de 18 €/mois (usage des modèles au prix du fournisseur, sans marge, plus heures d’ordinateur). Heures de sandbox hébergées selon l’offre : Standard 25 h/mois (4 vCPU/8 Go) ; Pro 100 h/mois (8 vCPU/16 Go) ; Max 200 h/mois (16 vCPU/32 Go).",
+    "howTo_en": [
+      "Open rakazo.com and either self-host from the official GitHub repo for Free, or start a 7-day hosted trial.",
+      "Connect your model or API key and give the bot a computer when it needs one.",
+      "Pick hosted Standard, Pro or Max if you want the managed bot computer and monthly hours."
+    ],
+    "howTo_fr": [
+      "Ouvre rakazo.com et auto-héberge depuis le dépôt GitHub officiel (Gratuit), ou commence un essai hébergé de 7 jours.",
+      "Connecte ton modèle ou ta clé API, et donne un ordinateur au bot quand il en a besoin.",
+      "Choisis Standard, Pro ou Max en hébergé si tu veux l’ordinateur géré et les heures mensuelles."
+    ],
+    "features_en": [
+      "Open-source AI teammates (Apache-2.0) with your keys, your model and your machine",
+      "MCP integrations (Gmail, GitHub, Notion and others), memory, schedules, webhooks and hand-offs",
+      "Skills learned by watching a task; optional hosted bot computer",
+      "Self-host for Free, or a 7-day hosted trial"
+    ],
+    "features_fr": [
+      "Coéquipiers IA open source (Apache-2.0), avec tes clés, ton modèle et ta machine",
+      "Intégrations MCP (Gmail, GitHub, Notion et d’autres), mémoire, planifications, webhooks et passations",
+      "Compétences apprises en observant une tâche ; ordinateur de bot hébergé en option",
+      "Auto-hébergement gratuit, ou essai hébergé de 7 jours"
+    ],
+    "short_fr": "Alternative open source à Grok Bot pour des coéquipiers IA persistants qui font un vrai travail, avec tes clés, ton modèle et ta machine.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Siège officiel : Inbox Zero Inc., Newark, DE, États-Unis (JSON-LD). Ne pas confondre avec une fiche « Inbox Zero » distincte.",
+      "Les totaux annuels de Standard ne sont pas inventés : 12 $/mois facturé à l’année est le chiffre officiel (le total annuel n’est pas écrit séparément et n’est pas calculé ici)."
+    ],
+    "url": "https://rakazo.com/",
+    "official_url": "https://rakazo.com/",
+    "official_url_final": "https://rakazo.com/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Open-source Grok Bot alternative for persistent AI teammates that do real work, with your keys, your model and your machine."
+  },
+  {
+    "slug": "yogurt",
+    "name": "Yogurt",
+    "category": "Meetings & Notes",
+    "category_note": "Notes de réunion IA locales. Meetings & Notes.",
+    "converted_from_usd": false,
+    "official_currency": "USD",
+    "pricing_usd_official": "No official dollar prices published on the site (Free). Official positioning: private, free and open-source AI meeting notes that stay on your computer. Mac, Windows and Linux downloads. Backed by Y Combinator. Source: official site www.yogurt.so, verified 2026-11-16.",
+    "pricing_en": "Free. Officially private, free and open-source meeting notes that stay on your computer. Mac, Windows and Linux. No paid plan is published on the official site.",
+    "pricing_fr": "Gratuit. Notes de réunion officiellement privées, gratuites et open source, qui restent sur ton ordinateur. Mac, Windows et Linux. Aucun plan payant n’est publié sur le site officiel.",
+    "howTo_en": [
+      "Open yogurt.so and download the official app for Mac, Windows or Linux.",
+      "Keep meeting notes locally on your computer."
+    ],
+    "howTo_fr": [
+      "Ouvre yogurt.so et télécharge l’app officielle pour Mac, Windows ou Linux.",
+      "Garde tes notes de réunion en local, sur ton ordinateur."
+    ],
+    "features_en": [
+      "On-device AI meeting notes, free and open source",
+      "Official apps for Mac, Windows and Linux",
+      "Notes stay on your computer",
+      "Backed by Y Combinator; free and open source on the official site"
+    ],
+    "features_fr": [
+      "Notes de réunion IA sur l’appareil, gratuites et open source",
+      "Apps officielles pour Mac, Windows et Linux",
+      "Les notes restent sur ton ordinateur",
+      "Soutenu par Y Combinator ; gratuit et open source sur le site officiel"
+    ],
+    "short_fr": "Notes de réunion IA privées, gratuites et open source, qui restent sur ton ordinateur. Disponible sur Mac, Windows et Linux. Soutenu par Y Combinator.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "official_url https://yogurt.so/ redirige vers https://www.yogurt.so/ (à utiliser pour les captures)."
+    ],
+    "url": "https://yogurt.so/",
+    "official_url": "https://yogurt.so/",
+    "official_url_final": "https://www.yogurt.so/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Private, free and open-source AI meeting notes that stay on your computer. Available for Mac, Windows and Linux. Backed by Y Combinator."
+  },
+  {
+    "slug": "beam-win",
+    "name": "Beam.win",
+    "category": "Productivity & Workspace",
+    "category_note": "Utilitaire de partage de fenêtres Mac à Mac (pas un produit de modèles IA). Distinct de Beam AI (beam.ai), déjà au catalogue. Productivity & Workspace.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0 forever, no card — host as many Macs as you like, join any share link, 20 minutes a day of everything. Subscription yearly best-value $7/month billed $84 a year — unlimited on every Mac you own, send share links. Lifetime $199 once — every update for good, everything in Subscription. A monthly list price besides the yearly $7/$84 figure was not separately stated on the page and is left unlisted. Distinct from Beam AI (beam.ai). Source: official site beam.win, verified 2026-11-16.",
+    "pricing_en": "Free 0 € forever, no card — host as many Macs as you like, join any share link, 20 minutes a day of everything. Subscription (yearly best-value) 6 €/month billed 76 € a year — unlimited on every Mac you own, send share links. Lifetime 180 € once — every update for good, everything in Subscription.",
+    "pricing_fr": "Gratuit 0 € pour toujours, sans carte — héberge autant de Mac que tu veux, rejoins n’importe quel lien de partage, 20 minutes par jour pour tout. Abonnement (meilleur tarif annuel) 6 €/mois facturés 76 € par an — illimité sur chaque Mac que tu possèdes, envoi de liens de partage. Lifetime 180 € une fois — toutes les mises à jour, tout l’abonnement.",
+    "howTo_en": [
+      "Open beam.win and download Free, with no card.",
+      "Connect the Mac you want to host and use its windows on another Mac for up to 20 minutes a day.",
+      "Buy the yearly subscription or Lifetime if you want unlimited use."
+    ],
+    "howTo_fr": [
+      "Ouvre beam.win et télécharge l’offre Gratuite, sans carte.",
+      "Connecte le Mac que tu veux héberger et utilise ses fenêtres sur un autre Mac, jusqu’à 20 minutes par jour.",
+      "Prends l’abonnement annuel ou Lifetime si tu veux un usage illimité."
+    ],
+    "features_en": [
+      "Puts a window from one Mac onto another, with a native feel, Retina sharpness and real input",
+      "Works over your own network; one plan covers every Mac you sit at, free for the Macs you connect to",
+      "One plan covers every Mac you sit at, free for the Macs you connect to",
+      "Free forever with a 20-minute daily cap, or a yearly subscription / Lifetime"
+    ],
+    "features_fr": [
+      "Affiche une fenêtre d’un Mac sur un autre, avec un rendu natif, la netteté Retina et une saisie réelle",
+      "Fonctionne via ton propre réseau ; une offre couvre chaque Mac devant lequel tu t’assois, gratuit pour les Mac que tu connectes",
+      "Une offre couvre chaque Mac devant lequel tu t’assois, gratuit pour les Mac que tu connectes",
+      "Gratuit pour toujours avec un plafond de 20 minutes par jour, ou abonnement annuel / Lifetime"
+    ],
+    "short_fr": "Affiche une fenêtre d’un Mac sur un autre, avec un rendu natif, la netteté Retina et une saisie réelle, via ton propre réseau.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Ne pas confondre avec Beam AI (beam.ai), déjà au catalogue.",
+      "Pas de total mensuel de liste inventé : seul le tarif officiel 7 $/mois facturé 84 $/an (plus Lifetime) est publié.",
+      "Nouveauté moyenne (octobre 2026)."
+    ],
+    "url": "https://beam.win/",
+    "official_url": "https://beam.win/",
+    "official_url_final": "https://beam.win/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Puts a window from one Mac onto another, with a native feel, Retina sharpness and real input, over your own network."
+  },
+  {
+    "slug": "velozity",
+    "name": "Velozity",
+    "category": "Productivity & Workspace",
+    "category_note": "Bureau IA multi-joueurs (appels, tâches, notes, agents). Productivity & Workspace ; Meetings & Notes ou AI Agents seraient des alternatives.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Three official surfaces. Office Space Free forever — up to 3 people per cabin, 1 meeting room, up to 2 guest passes, 30 days of chat history, transcripts 7 days, 300 minutes of call transcription/month shared, 1 app integration. Office Space Pro $6.99/user/month — unlimited people per cabin and meeting rooms, up to 25 guest passes, unlimited chat history and transcripts, unlimited transcription (fair use). AI Space Free — 15 personal Tasks a week / 60 a month, 200 minutes of meeting transcription, 30 minutes a month of your own agents. AI Space Pro $7.99/user/month — unlimited personal Tasks, 1,000 minutes of meeting transcription, run your own agents with no time limit. Co-Worker Free — 300 credits/month. Co-Worker Pro $15/user/month — 1,100 credits/month, 15 automatic missions/month. Competitor-comparison dollar figures on the marketing page are not used. Source: official pricing page velozity.ai, verified 2026-11-16.",
+    "pricing_en": "Office Space Free forever — up to 3 people per cabin, 1 meeting room, up to 2 guest passes, 30 days of chat history, transcripts 7 days, 300 minutes of call transcription/month shared, 1 app integration. Office Space Pro 6 €/user/month — unlimited people per cabin and meeting rooms, up to 25 guest passes, unlimited chat history and transcripts, unlimited transcription (fair use). AI Space Free — 15 personal Tasks a week / 60 a month, 200 minutes of meeting transcription, 30 minutes a month of your own agents. AI Space Pro 7 €/user/month — unlimited personal Tasks, 1,000 minutes of meeting transcription, run your own agents with no time limit. Co-Worker Free — 300 credits/month. Co-Worker Pro 14 €/user/month — 1,100 credits/month, 15 automatic missions/month.",
+    "pricing_fr": "Office Space Gratuit pour toujours — jusqu’à 3 personnes par cabin, 1 salle de réunion, jusqu’à 2 invitations invitées, 30 jours d’historique de chat, transcriptions 7 jours, 300 minutes de transcription d’appels/mois en commun, 1 intégration d’app. Office Space Pro 6 €/utilisateur/mois — personnes par cabin et salles illimitées, jusqu’à 25 invitations, historiques et transcriptions illimités, transcription illimitée (usage raisonnable). AI Space Gratuit — 15 Tasks personnelles par semaine / 60 par mois, 200 minutes de transcription de réunion, 30 minutes par mois de tes propres agents. AI Space Pro 7 €/utilisateur/mois — Tasks personnelles illimitées, 1 000 minutes de transcription de réunion, tes propres agents sans limite de temps. Co-Worker Gratuit — 300 crédits/mois. Co-Worker Pro 14 €/utilisateur/mois — 1 100 crédits/mois, 15 missions automatiques/mois.",
+    "howTo_en": [
+      "Open velozity.ai and start Free on Office Space (and the included AI Space / Co-Worker Free allowances).",
+      "Invite the team and work with people and AI agents in one place.",
+      "Assign Pro seats per surface only to the teammates who need them."
+    ],
+    "howTo_fr": [
+      "Ouvre velozity.ai et commence Gratuit sur Office Space (et les allocations Gratuites AI Space / Co-Worker incluses).",
+      "Invite l’équipe et travaille avec des personnes et des agents IA au même endroit.",
+      "Attribue des sièges Pro par surface seulement aux coéquipiers qui en ont besoin."
+    ],
+    "features_en": [
+      "Multiplayer AI office with three official surfaces: Office Space, AI Space and Co-Worker",
+      "Calls, tasks, notes and agents in one place for remote teams",
+      "Free to start on every surface; Pro seats are assigned per surface"
+    ],
+    "features_fr": [
+      "Bureau IA multi-joueurs, avec trois surfaces officielles : Office Space, AI Space et Co-Worker",
+      "Appels, tâches, notes et agents au même endroit pour les équipes à distance",
+      "Gratuit pour commencer sur chaque surface ; les sièges Pro s’attribuent par surface"
+    ],
+    "short_fr": "Bureau IA multi-joueurs pour les équipes à distance : travaille avec des personnes et des agents IA au même endroit pour les appels, les tâches, les notes et les agents. Gratuit pour commencer.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Nouveauté moyenne (octobre 2026).",
+      "Les montants « concurrent » de la page marketing ne sont pas utilisés comme tarifs."
+    ],
+    "url": "https://velozity.ai/",
+    "official_url": "https://velozity.ai/",
+    "official_url_final": "https://velozity.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Multiplayer AI office for remote teams: work with people and AI agents in one place for calls, tasks, notes and agents. Free to start."
+  },
+  {
+    "slug": "kodlo",
+    "name": "kōdlo",
+    "category": "Sales & CRM",
+    "category_note": "Espace de vente IA (prospects, préparation, offre et deck). Sales & CRM ; Marketing & SEO serait une alternative.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Prices in USD excl. VAT (VAT shown at checkout). Free $0, no time limit, no card — one-time AI credits, 1 seat, Knowledge Hub OCR up to 100 pages. Starter $49/mo + VAT (official 3-month offer −15% → $42/mo + VAT) — 1 seat, 5× the Free plan’s AI credits each month, OCR up to 1,000 pages/month. Pro $199/mo + VAT (3-month offer −15% → $169/mo + VAT) — up to 3 seats, 20× Free credits, long-term memory, agent learning, OCR up to 10,000 pages/month. Custom plans priced to the team. Source: official site kodlo.ai, verified 2026-11-16.",
+    "pricing_en": "Official prices excluding VAT (VAT at checkout). Free 0 €, no time limit, no card — one-time AI credits, 1 seat, Knowledge Hub OCR up to 100 pages. Starter regular 44 €/month + VAT; official 3-month −15% promo: 38 €/month + VAT — 1 seat, 5× the Free plan’s AI credits each month, OCR up to 1,000 pages/month. Pro regular 180 €/month + VAT; official 3-month −15% promo: 153 €/month + VAT — up to 3 seats, 20× Free credits, long-term memory, agent learning, OCR up to 10,000 pages/month. Custom plans priced to the team.",
+    "pricing_fr": "Prix officiels hors TVA (TVA au paiement). Gratuit 0 €, sans limite de durée, sans carte — crédits IA une fois, 1 siège, Knowledge Hub OCR jusqu’à 100 pages. Starter tarif régulier 44 €/mois + TVA ; promo officielle −15 % pendant 3 mois : 38 €/mois + TVA — 1 siège, 5× les crédits IA de l’offre Gratuite chaque mois, OCR jusqu’à 1 000 pages/mois. Pro tarif régulier 180 €/mois + TVA ; promo officielle −15 % pendant 3 mois : 153 €/mois + TVA — jusqu’à 3 sièges, 20× les crédits Gratuits, mémoire long terme, apprentissage de l’agent, OCR jusqu’à 10 000 pages/mois. Offres personnalisées selon l’équipe.",
+    "howTo_en": [
+      "Open kodlo.ai and start the Free plan with no card.",
+      "Run an ICP interview and lead sourcing from your docs.",
+      "Upgrade to Starter or Pro (VAT at checkout) when you need monthly credits and a shared workspace; the official 3-month −15% offer is a promo, not the regular list price."
+    ],
+    "howTo_fr": [
+      "Ouvre kodlo.ai et commence l’offre Gratuite, sans carte.",
+      "Lance un entretien ICP et une recherche de prospects à partir de tes documents.",
+      "Passe à Starter ou Pro (TVA au paiement) si tu as besoin de crédits mensuels et d’un espace partagé ; l’offre officielle −15 % pendant 3 mois est une promo, pas le tarif de liste régulier."
+    ],
+    "features_en": [
+      "End-to-end AI sales workspace: ICP builder, prospect finder, cited research briefs",
+      "CRM and contact management, knowledge hub with OCR, outreach and campaign content",
+      "Free plan with no card and no time limit",
+      "Official 3-month −15% promo on Starter and Pro (regular list prices also published)"
+    ],
+    "features_fr": [
+      "Espace de vente IA de bout en bout : constructeur d’ICP, recherche de prospects, briefs sourcés",
+      "CRM et contacts, knowledge hub avec OCR, contenus d’approche et de campagnes",
+      "Offre Gratuite sans carte et sans limite de durée",
+      "Promo officielle −15 % pendant 3 mois sur Starter et Pro (les tarifs de liste réguliers sont aussi publiés)"
+    ],
+    "short_fr": "Espace de vente IA de bout en bout : trouve des prospects, indique comment les préparer et rédige l’offre et le deck à partir de tes documents. Offre Gratuite sans carte bancaire.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Promo : offre officielle −15 % pendant 3 mois (Starter 42 $/mois + TVA, Pro 169 $/mois + TVA) en plus des tarifs de liste 49 $ / 199 $ + TVA. Les tarifs réguliers sont affichés ; la promo n’est pas prise pour le prix normal.",
+      "Prix officiels hors TVA ; la TVA est calculée au paiement.",
+      "Nouveauté moyenne (octobre 2026)."
+    ],
+    "url": "https://kodlo.ai/",
+    "official_url": "https://kodlo.ai/",
+    "official_url_final": "https://kodlo.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "End-to-end AI sales workspace: finds prospects, tells you how to warm them up, and writes the offer and deck from your docs. Free plan with no credit card."
+  },
+  {
+    "slug": "pancake",
+    "name": "Pancake",
+    "category": "Sales & CRM",
+    "category_note": "Espace GTM / outbound (plays, données de revenus, signaux). Sales & CRM ; Marketing & SEO serait une alternative.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Self-serve per workspace, billed monthly — 60,000 credits $99/mo; 120,000 credits $189/mo; 240,000 credits $359/mo; 480,000 credits $679/mo; 960,000 credits $1,299/mo. 7-day trial with 30,000 free credits (card required to start the trial). One sending account included, each extra account $39/month. White Glove $3,000/mo (3-month initial commitment, then month to month). Enterprise custom. Legal name in official JSON-LD: Basalt AI Inc. Source: official site pancake.ai/pricing, verified 2026-11-16.",
+    "pricing_en": "Self-serve per workspace, billed monthly — 60,000 credits 90 €/month; 120,000 credits 171 €/month; 240,000 credits 325 €/month; 480,000 credits 614 €/month; 960,000 credits 1,175 €/month. 7-day trial with 30,000 free credits (card required to start the trial). One sending account included, each extra account 35 €/month. White Glove 2,714 €/month (3-month initial commitment, then month to month). Enterprise custom.",
+    "pricing_fr": "Self-serve par espace de travail, facturé au mois — 60 000 crédits 90 €/mois ; 120 000 crédits 171 €/mois ; 240 000 crédits 325 €/mois ; 480 000 crédits 614 €/mois ; 960 000 crédits 1 175 €/mois. Essai de 7 jours avec 30 000 crédits offerts (carte requise pour commencer l’essai). Un compte d’envoi inclus, chaque compte supplémentaire 35 €/mois. White Glove 2 714 €/mois (engagement initial de 3 mois, puis mois par mois). Enterprise sur devis.",
+    "howTo_en": [
+      "Open pancake.ai/pricing and start the 7-day self-serve trial (card required).",
+      "Pick a monthly credit tier for your workspace.",
+      "Add extra sending accounts or White Glove only if you need them."
+    ],
+    "howTo_fr": [
+      "Ouvre pancake.ai/pricing et commence l’essai self-serve de 7 jours (carte requise).",
+      "Choisis un palier de crédits mensuels pour ton espace de travail.",
+      "Ajoute des comptes d’envoi supplémentaires ou White Glove seulement si tu en as besoin."
+    ],
+    "features_en": [
+      "GTM workspace that connects revenue data and live market signals",
+      "Plays and outreach sequences, in your voice",
+      "GTM Brain with 50+ data providers; unlimited teammates on self-serve",
+      "7-day self-serve trial (card required)"
+    ],
+    "features_fr": [
+      "Espace GTM qui connecte tes données de revenus et des signaux de marché en direct",
+      "Plays et séquences d’approche, dans ta voix",
+      "GTM Brain avec plus de 50 fournisseurs de données ; coéquipiers illimités en self-serve",
+      "Essai self-serve de 7 jours (carte requise)"
+    ],
+    "short_fr": "Espace GTM qui connecte tes données de revenus, ajoute des signaux de marché en direct et laisse ton agent lancer le prochain Play. Offre self-serve à partir de 90 €/mois par espace de travail.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Siège officiel : Basalt AI Inc., San Francisco, CA, États-Unis (JSON-LD). JSON-LD foundingDate 2024, mais lancement PH public dans la fenêtre (semaine du 12 oct. 2026) et absent du catalogue — nouveauté moyenne, pas un géant établi.",
+      "Labellé Premium : l’essai de 7 jours exige une carte, pas une offre 0 € durable."
+    ],
+    "url": "https://pancake.ai/",
+    "official_url": "https://pancake.ai/",
+    "official_url_final": "https://pancake.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "GTM workspace that connects your revenue data, adds live market signals, and lets your agent run the next best Play."
+  },
+  {
+    "slug": "navige",
+    "name": "Navige",
+    "category": "Data & Analytics",
+    "category_note": "Gouvernance des coûts LLM / agents (routage, cache, rapports). Data & Analytics ; AI Agents ou Finance & Accounting seraient des alternatives.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Watchtower $0 forever, no card, no time limit — connect as many agents as you like; weekly report of what they cost and what you could save; Watchtower only watches, agents run as today. When Navige is allowed to save: most months, $1 of every $5 it saves (applies when it saves $45 or more in a month); quiet months, a flat $9 if it saves less than $45. Official slogan on the page: “We save you $5. You keep $4.” This is a share-of-savings model, not a fixed SaaS seat price. Source: official site navige.ai, verified 2026-11-16.",
+    "pricing_en": "Watchtower 0 € forever, no card, no time limit — connect as many agents as you like; weekly report of what they cost and what you could save; Watchtower only watches, agents run as today. When Navige is allowed to save: most months, 20% of the savings (1 € of every 5 € it saves), when it saves 41 € or more in a month; quiet months, a flat 8 € if it saves less than 41 €. This is a share-of-savings model, not a fixed seat price. Official wording is also “we save you 5 €, you keep 4 €.”",
+    "pricing_fr": "Watchtower 0 € pour toujours, sans carte et sans limite de durée — connecte autant d’agents que tu veux ; rapport hebdomadaire de ce qu’ils coûtent et de ce que tu pourrais économiser ; Watchtower observe seulement, les agents tournent comme aujourd’hui. Quand Navige est autorisé à faire des économies : la plupart des mois, 20 % des économies (1 € sur 5 € économisés), dès 41 € d’économies dans le mois ; les mois calmes, forfait de 8 € si les économies sont inférieures à 41 €. Ce n’est pas un tarif fixe par siège, c’est un partage des économies. Formulation officielle aussi : « on t’économise 5 €, tu en gardes 4 ».",
+    "howTo_en": [
+      "Open navige.ai and start Watchtower for free, with no card.",
+      "Read the weekly savings report.",
+      "Switch on Navige’s savings mode only if you accept the official share of savings (about 20%, or the quiet-month flat fee)."
+    ],
+    "howTo_fr": [
+      "Ouvre navige.ai et commence Watchtower gratuitement, sans carte.",
+      "Lis le rapport d’économies hebdomadaire.",
+      "Active le mode économies de Navige seulement si tu acceptes le partage officiel des économies (environ 20 %, ou le forfait des mois calmes)."
+    ],
+    "features_en": [
+      "Cuts AI agent and LLM spend without changing the output: routing, blocking wasted work, reuse",
+      "Cache, context trimming, tool-payload capping and reports",
+      "Watchtower is free forever and only watches",
+      "Savings mode uses a share-of-savings model (about 20%), not a fixed seat price"
+    ],
+    "features_fr": [
+      "Réduit les dépenses d’agents IA et de LLM sans changer le résultat : routage, blocage du travail inutile, réutilisation",
+      "Cache, réduction de contexte, plafond des charges d’outils, et rapports",
+      "Watchtower est gratuit pour toujours et se contente d’observer",
+      "Le mode économies est un partage des économies (environ 20 %), pas un tarif fixe par siège"
+    ],
+    "short_fr": "Réduit les dépenses d’agents IA et de LLM sans changer le résultat : route chaque appel, bloque le travail inutile et réutilise le travail déjà fait. Watchtower est gratuit pour toujours.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Modèle « 1 $ sur 5 $ économisés » (≈ 20 %), plus forfait des mois calmes (9 $ si économies < 45 $). Les montants convertis sont 1 € sur 5 €, seuil 41 €, forfait 8 €. Aucun tarif fixe de siège inventé.",
+      "Nouveauté moyenne (octobre 2026).",
+      "Logo : source officielle 64×64 (un peu légère), pas de pictogramme plus grand trouvé."
+    ],
+    "url": "https://navige.ai/",
+    "official_url": "https://navige.ai/",
+    "official_url_final": "https://navige.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Cuts AI agent and LLM spend without changing the output: routes each call, blocks wasted work and reuses work already done. Watchtower is free forever."
+  },
+  {
+    "slug": "opengeni",
+    "name": "Opengeni",
+    "category": "AI Agents",
+    "category_note": "Agents d’équipe dans Slack, Gmail, GitHub, etc. AI Agents ; Productivity & Workspace serait une alternative.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0/month — $10 of trial credit every month for eligible accounts and free-credit models in the app, 3 seats, top-ups never expire (ChatGPT or SuperGrok subscription not included). Pro $20/month — $100 of usage every month (5× what you pay), 5 seats, can connect your ChatGPT or SuperGrok subscription. Max $100/month — $500 of usage, 10 seats. Enterprise custom (SSO, managed cloud or self-hosted VPC). Self-host: free, no license fee, full platform. Official footer: “Made in Norway”. Source: official site opengeni.ai, verified 2026-11-16.",
+    "pricing_en": "Free 0 €/month — 9 € of trial credit every month for eligible accounts and free-credit models in the app, 3 seats, top-ups never expire (ChatGPT or SuperGrok subscription not included). Pro 18 €/month — 90 € of usage every month (5× what you pay), 5 seats, can connect your ChatGPT or SuperGrok subscription. Max 90 €/month — 452 € of usage, 10 seats. Enterprise custom (SSO, managed cloud or self-hosted VPC). Self-host: free, no license fee, full platform. Made in Norway.",
+    "pricing_fr": "Gratuit 0 €/mois — 9 € de crédit d’essai chaque mois pour les comptes éligibles et les modèles à crédit offert dans l’app, 3 sièges, recharges sans expiration (abonnement ChatGPT ou SuperGrok non inclus). Pro 18 €/mois — 90 € d’usage chaque mois (5× ce que tu paies), 5 sièges, possibilité de connecter ton abonnement ChatGPT ou SuperGrok. Max 90 €/mois — 452 € d’usage, 10 sièges. Enterprise sur devis (SSO, cloud géré ou VPC auto-hébergé). Auto-hébergement : gratuit, sans frais de licence, plateforme complète. Conçu en Norvège.",
+    "howTo_en": [
+      "Open opengeni.ai and start Free with no card.",
+      "Invite the team and run an agent in your tools (Gmail, Slack, GitHub and others); it checks with you before anything goes out.",
+      "Upgrade to Pro or Max, or self-host, when you need more monthly usage or seats."
+    ],
+    "howTo_fr": [
+      "Ouvre opengeni.ai et commence l’offre Gratuite, sans carte.",
+      "Invite l’équipe et lance un agent dans tes outils (Gmail, Slack, GitHub, etc.) ; il demande ton accord avant d’envoyer.",
+      "Passe à Pro ou Max, ou auto-héberge, si tu as besoin de plus d’usage mensuel ou de sièges."
+    ],
+    "features_en": [
+      "Team agents for meeting prep, weekly reports, lead follow-ups and pull requests",
+      "Works in Gmail, Slack, GitHub and other tools; checks with you before anything goes out",
+      "Open source (Apache 2.0); self-host with no license fee",
+      "Optional desktop app so agents can use your computer"
+    ],
+    "features_fr": [
+      "Agents d’équipe pour la prépa de réunions, les rapports hebdo, les relances et les pull requests",
+      "Fonctionne dans Gmail, Slack, GitHub et d’autres outils ; demande ton accord avant d’envoyer",
+      "Open source (Apache 2.0) ; auto-hébergement sans frais de licence",
+      "App desktop optionnelle pour que les agents utilisent ton ordinateur"
+    ],
+    "short_fr": "Agents IA qui préparent les réunions, les rapports hebdo, les relances et les pull requests dans les outils de ton équipe (Gmail, Slack, GitHub, etc.) et demandent ton accord avant d’envoyer. Open source (Apache 2.0). Conçu en Norvège.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Siège officiel : Norvège (mention « Made in Norway » en pied de page).",
+      "Nouveauté moyenne (octobre 2026)."
+    ],
+    "url": "https://opengeni.ai/",
+    "official_url": "https://opengeni.ai/",
+    "official_url_final": "https://opengeni.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "AI agents that do meeting prep, weekly reports, lead follow-ups and pull requests in your team’s tools (Gmail, Slack, GitHub and others), and check with you before anything goes out. Open source (Apache 2.0). Made in Norway."
+  },
+  {
+    "slug": "tadata",
+    "name": "Tadata",
+    "category": "AI Agents",
+    "category_note": "Employé IA natif Slack (recherche et travail répétitif, GTM/ops). AI Agents ; Automation & Workflows ou Sales & CRM seraient des alternatives.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Official pricing page: Free $0 — 1,000 credits one time. Lite $39 — 1,000 credits/month. Pro $149 — 4,000 credits/month. Scale $299 — 10,000 credits/month. Enterprise custom unlimited credits. Credits billed monthly. The homepage also says “Get $50 in free credits”; the official pricing-page figure recorded here is 1,000 one-time Free credits (the $50 homepage line is not used as a plan price). Source: official pricing page www.tadata.com, verified 2026-11-16.",
+    "pricing_en": "Free 0 € — 1,000 credits one time. Lite 35 € — 1,000 credits/month. Pro 135 € — 4,000 credits/month. Scale 271 € — 10,000 credits/month. Enterprise custom, unlimited credits. Credits billed monthly. The homepage also mentions free credits in a different wording; the official pricing-page figure used here is 1,000 one-time Free credits.",
+    "pricing_fr": "Gratuit 0 € — 1 000 crédits une fois. Lite 35 € — 1 000 crédits/mois. Pro 135 € — 4 000 crédits/mois. Scale 271 € — 10 000 crédits/mois. Enterprise sur devis, crédits illimités. Crédits facturés au mois. La page d’accueil mentionne aussi des crédits offerts dans une autre formulation ; le chiffre retenu ici est celui de la page Pricing officielle : 1 000 crédits Gratuits une fois.",
+    "howTo_en": [
+      "Open tadata.com and start Free from the pricing page.",
+      "Add Tadata in Slack, where the team already talks.",
+      "Move to Lite, Pro or Scale when you need a monthly credit allowance."
+    ],
+    "howTo_fr": [
+      "Ouvre tadata.com et commence l’offre Gratuite depuis la page tarifs.",
+      "Ajoute Tadata dans Slack, là où ton équipe discute déjà.",
+      "Passe à Lite, Pro ou Scale si tu as besoin d’une allocation de crédits mensuelle."
+    ],
+    "features_en": [
+      "Slack-native AI employee for research and repetitive work",
+      "Connectors for sales, GTM and ops work",
+      "Free plan with 1,000 one-time credits (official pricing page)"
+    ],
+    "features_fr": [
+      "Employé IA natif Slack, pour la recherche et le travail répétitif",
+      "Connecteurs pour le travail sales, GTM et ops",
+      "Offre Gratuite avec 1 000 crédits une fois (page Pricing officielle)"
+    ],
+    "short_fr": "Employé IA dans Slack qui prend en charge la recherche et le travail répétitif, là où ton équipe discute déjà.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Nouveauté basse : septembre 2026, inclus dans la fenêtre élargie ~45–60 jours.",
+      "La home dit aussi « Get $50 in free credits » ; on a retenu le chiffre de la page Pricing (1 000 crédits une fois), pas la mention d’accueil.",
+      "official_url https://tadata.com/ redirige vers https://www.tadata.com/ (à utiliser pour les captures).",
+      "L’offre Gratuite est un crédit one-shot, mais un palier Free 0 € est affiché : label Freemium, avec cette réserve."
+    ],
+    "url": "https://tadata.com/",
+    "official_url": "https://tadata.com/",
+    "official_url_final": "https://www.tadata.com/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "AI employee in Slack that takes research and repetitive work off your plate and works where your team already talks."
+  },
+  {
+    "slug": "ferndesk",
+    "name": "Ferndesk",
+    "category": "Customer Support",
+    "category_note": "Centre d’aide plus agent qui vérifie les articles. Customer Support ; Writing & Content (documentation) serait une alternative.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Pro $149/month, or $1,490 a year (two months free). 7-day free trial, no credit card required. Official early-stage rate: $75 a month for the first year if you are pre-seed or under $1M ARR (Pro at half price for 12 months, apply on the site). Enterprise features (SSO, SCIM, white-glove onboarding) are listed on the page; a public Enterprise starting price was not clearly stated on 2026-11-16 and is left unlisted. Source: official site ferndesk.com, verified 2026-11-16.",
+    "pricing_en": "Pro regular 135 €/month, or 1,348 € a year (two months free). 7-day free trial, no credit card required. Early-stage promo: 68 € a month for the first year if you are pre-seed or under 904,814 € ARR (Pro at half price for 12 months, apply on the site). Enterprise features (SSO, SCIM, white-glove onboarding) are available — contact for pricing.",
+    "pricing_fr": "Pro tarif régulier 135 €/mois, ou 1 348 € par an (deux mois offerts). Essai de 7 jours, sans carte. Promo early-stage : 68 € par mois la première année si tu es en pre-seed ou sous 904 814 € d’ARR (Pro à moitié prix pendant 12 mois, candidature sur le site). Des fonctions Enterprise (SSO, SCIM, onboarding accompagné) sont disponibles — contacte l’équipe pour un devis.",
+    "howTo_en": [
+      "Open ferndesk.com and start the 7-day Pro trial with no card.",
+      "Let Fern check your help articles against the product and draft the fixes.",
+      "Continue on Pro at the regular rate, or apply for the official early-stage first-year rate if you qualify — that rate is a promo, not the regular list price."
+    ],
+    "howTo_fr": [
+      "Ouvre ferndesk.com et commence l’essai Pro de 7 jours, sans carte.",
+      "Laisse Fern vérifier tes articles d’aide par rapport au produit et rédiger les corrections.",
+      "Continue sur Pro au tarif régulier, ou candidate au tarif officiel early-stage de la première année si tu es éligible — ce tarif est une promo, pas le prix de liste régulier."
+    ],
+    "features_en": [
+      "Help center plus Fern, an agent that checks every article against your product",
+      "Catches what changed and drafts the fixes; auto-updates from PRs; screenshots re-taken when the UI changes",
+      "7-day Pro trial with no card",
+      "Official early-stage first-year rate is a promo, not the regular Pro price"
+    ],
+    "features_fr": [
+      "Centre d’aide plus Fern, un agent qui vérifie chaque article par rapport à ton produit",
+      "Détecte ce qui a changé et rédige les corrections ; mises à jour depuis les PR ; captures reprises quand l’interface change",
+      "Essai Pro de 7 jours, sans carte",
+      "Le tarif officiel early-stage de la première année est une promo, pas le prix Pro régulier"
+    ],
+    "short_fr": "Centre d’aide plus Fern, un agent qui vérifie chaque article par rapport au produit, détecte ce qui a changé et rédige les corrections.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Nouveauté basse : septembre 2026, inclus dans la fenêtre élargie ~45–60 jours.",
+      "Promo : tarif early-stage officiel 75 $/mois la première année si pre-seed ou ARR < 1 M$ (Pro à moitié prix 12 mois). Le tarif régulier Pro 149 $/mois ou 1 490 $/an est le prix normal affiché.",
+      "Pas de prix de départ Enterprise inventé.",
+      "Labellé Premium : essai de 7 jours, pas une offre 0 € durable."
+    ],
+    "url": "https://ferndesk.com/",
+    "official_url": "https://ferndesk.com/",
+    "official_url_final": "https://ferndesk.com/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Help center plus Fern, an agent that checks every article against your product, catches what changed, and drafts the fixes."
+  },
+  {
+    "slug": "naise-ai",
+    "name": "Naise AI",
+    "category": "Marketing & SEO",
+    "category_note": "Coéquipier IA marketing (social, influence, RP, images). Marketing & SEO.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "3-day free trial on every plan (card required to begin), cancel anytime. Entry $59.90/mo or $45.90/mo billed annually — 2 campaigns/month, standard AI usage. Middle $119/mo or $89.90/mo billed annually — 6 campaigns/month, 3× AI usage. Advanced $199/mo or $149.90/mo billed annually — 16 campaigns/month, 8× AI usage. Unlimited creator reach and outreach and all AI agents included on every plan. Source: official site naise.ai, verified 2026-11-16.",
+    "pricing_en": "3-day free trial on every plan (card required to begin), cancel anytime. Entry 54 €/month, or 42 €/month billed annually — 2 campaigns/month, standard AI usage. Middle 108 €/month, or 81 €/month billed annually — 6 campaigns/month, 3× AI usage. Advanced 180 €/month, or 136 €/month billed annually — 16 campaigns/month, 8× AI usage. Unlimited creator reach and outreach and all AI agents included on every plan.",
+    "pricing_fr": "Essai de 3 jours sur chaque offre (carte requise pour commencer), résiliable à tout moment. Entry 54 €/mois, ou 42 €/mois en facturation annuelle — 2 campagnes/mois, usage IA standard. Middle 108 €/mois, ou 81 €/mois en annuel — 6 campagnes/mois, 3× l’usage IA. Advanced 180 €/mois, ou 136 €/mois en annuel — 16 campagnes/mois, 8× l’usage IA. Portée créateurs, approches et tous les agents IA illimités sur chaque offre.",
+    "howTo_en": [
+      "Open naise.ai and start the 3-day trial on Entry, Middle or Advanced (card required).",
+      "Train the AI on your brand voice and run social, influencer, PR or image work.",
+      "Keep the plan or cancel before the trial ends."
+    ],
+    "howTo_fr": [
+      "Ouvre naise.ai et commence l’essai de 3 jours sur Entry, Middle ou Advanced (carte requise).",
+      "Entraîne l’IA à la voix de ta marque et lance du social, de l’influence, des RP ou de l’image.",
+      "Garde l’offre ou annule avant la fin de l’essai."
+    ],
+    "features_en": [
+      "AI teammate for marketing: social, influencer, PR and image generation, in any language and market",
+      "Brand-voice training, creator reach and outreach, PDF reports",
+      "3-day trial on every plan (card required)"
+    ],
+    "features_fr": [
+      "Coéquipier IA marketing : réseaux sociaux, influence, RP et génération d’images, dans n’importe quelle langue et n’importe quel marché",
+      "Entraînement à la voix de marque, portée créateurs et approches, rapports PDF",
+      "Essai de 3 jours sur chaque offre (carte requise)"
+    ],
+    "short_fr": "Coéquipier IA marketing qui gère les réseaux sociaux, l’influence, les RP et la génération d’images, dans n’importe quelle langue et n’importe quel marché.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Nouveauté basse : septembre 2026, inclus dans la fenêtre élargie ~45–60 jours.",
+      "Siège officiel : Singapour (JSON-LD, Ayer Rajah Crescent).",
+      "Labellé Premium : essai de 3 jours avec carte, pas une offre 0 € durable.",
+      "Les tarifs « billed annually » officiels sont des prix au mois en facturation annuelle (totaux annuels non réécrits s’ils ne sont pas publiés comme tels)."
+    ],
+    "url": "https://naise.ai/",
+    "official_url": "https://naise.ai/",
+    "official_url_final": "https://naise.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "AI teammate for marketing that runs social, influencer, PR and image generation in any language and any market."
+  },
+  {
+    "slug": "simular",
+    "name": "Simular",
+    "category": "AI Agents",
+    "category_note": "Plateforme multi-agents avec flotte d’ordinateurs (computer-use). AI Agents.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free — daily credit allowance, limited access to a cloud-based Windows computer, create and test workflows, community support (credits refreshed daily; no public dollar amount for the daily allowance). Pay as you go $50/mo — 50,000 credits a month ($50 of usage) for AI models and computer time, a dedicated Windows or Linux cloud computer billed only while it runs, up to 5 cloud computers at once, or run Sai on your own Mac or Windows (only AI usage counts), top up anytime, cancel anytime. Sai Unlimited $500/mo — unlimited AI usage within fair-use guidelines (may shift to efficiency-optimized mode during heavy usage, but never stops), always-on cloud computer included through the end of the billing cycle, or bring your own device, one workspace (additional workspaces upgraded separately), Concierge included. Custom Enterprise on request. Source: official site www.simular.ai, verified 2026-11-16.",
+    "pricing_en": "Free — daily credit allowance, limited access to a cloud-based Windows computer, create and test workflows, community support (credits refreshed daily; no public euro amount for the daily allowance, because no official amount was published). Pay as you go 45 €/month — 50,000 credits a month (45 € of usage) for AI models and computer time, a dedicated Windows or Linux cloud computer billed only while it runs, up to 5 cloud computers at once, or run Sai on your own Mac or Windows (only AI usage counts), top up anytime, cancel anytime. Sai Unlimited 452 €/month — unlimited AI usage within fair-use guidelines (may shift to efficiency-optimized mode during heavy usage, but never stops), always-on cloud computer included through the end of the billing cycle, or bring your own device, one workspace (additional workspaces upgraded separately), Concierge included. Custom Enterprise on request.",
+    "pricing_fr": "Gratuit — allocation de crédits quotidienne, accès limité à un ordinateur Windows dans le cloud, création et test de workflows, support communautaire (crédits renouvelés chaque jour ; aucun montant public en euros pour l’allocation quotidienne, car aucun montant officiel n’est publié). Pay as you go 45 €/mois — 50 000 crédits par mois (45 € d’usage) pour les modèles IA et le temps machine, un ordinateur cloud Windows ou Linux dédié facturé seulement pendant qu’il tourne, jusqu’à 5 ordinateurs cloud à la fois, ou lance Sai sur ton propre Mac ou Windows (seul l’usage IA compte), recharge et résiliation à tout moment. Sai Unlimited 452 €/mois — usage IA illimité dans les limites d’un usage raisonnable (peut passer en mode optimisé en cas de forte charge, mais ne s’arrête pas), ordinateur cloud toujours allumé inclus jusqu’à la fin du cycle, ou apporte ton appareil, un espace de travail (espaces supplémentaires upgradés à part), Concierge inclus. Enterprise sur demande.",
+    "howTo_en": [
+      "Open simular.ai and start Sai on the Free daily-credit plan.",
+      "Build a first workflow on a cloud Windows/Linux machine, or on your own Mac or Windows.",
+      "Move to Pay as you go or Sai Unlimited if you need a monthly credit pool or always-on compute."
+    ],
+    "howTo_fr": [
+      "Ouvre simular.ai et commence Sai sur l’offre Gratuite à crédits quotidiens.",
+      "Construis un premier workflow sur une machine Windows/Linux cloud, ou sur ton propre Mac ou Windows.",
+      "Passe à Pay as you go ou Sai Unlimited si tu as besoin d’une réserve de crédits mensuelle ou d’un calcul toujours allumé."
+    ],
+    "features_en": [
+      "Sai multi-agent platform with a computer fleet: cloud Windows/Linux, or bring your own Mac/Windows",
+      "Give your AI a machine to do digital work; official workflows",
+      "Free daily-credit plan to create and test; paid monthly credit pools or unlimited fair-use"
+    ],
+    "features_fr": [
+      "Plateforme multi-agents Sai avec une flotte d’ordinateurs : Windows/Linux cloud, ou ton propre Mac/Windows",
+      "Donne à ton IA une machine pour le travail numérique ; workflows officiels",
+      "Offre Gratuite à crédits quotidiens pour créer et tester ; réserves mensuelles payantes ou illimité en usage raisonnable"
+    ],
+    "short_fr": "Société d’ordinateurs autonomes derrière Sai, une plateforme multi-agents avec une flotte d’ordinateurs : donne à ton IA une machine Windows, Linux, ou ton propre Mac/Windows, pour le travail numérique.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Nouveauté basse : septembre 2026, inclus dans la fenêtre élargie ~45–60 jours.",
+      "Le montant en dollars de l’allocation quotidienne Gratuite n’est pas publié : non inventé, l’offre est décrite sans chiffre.",
+      "official_url https://simular.ai/ redirige vers https://www.simular.ai/ (à utiliser pour les captures)."
+    ],
+    "url": "https://simular.ai/",
+    "official_url": "https://simular.ai/",
+    "official_url_final": "https://www.simular.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Autonomous-computer company behind Sai, a multi-agent platform with a computer fleet: give your AI a Windows, Linux or your own Mac/Windows machine to do digital work."
+  },
+  {
+    "slug": "three-dev",
+    "name": "three.dev",
+    "category": "Coding & Dev Tools",
+    "category_note": "Observabilité et correction des échecs d’agents IA sur le trafic réel. Coding & Dev Tools ; AI Agents serait une alternative.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0/month — room for about 50,000 requests/month (at 5k tokens each), 1 GB of data/month, 5k requests scored/month, 30 days of history. Starter $79/month — about 250,000 requests/month, 5 GB then $3/GB, 10k requests scored/month then $2.50 per 1k, 90 days of history. Official launch offer: Starter free for 6 months for teams who sign up by 22 November 2026. Pro $249/month — about 1,000,000 requests/month. Enterprise custom. Unlimited seats on every plan. Source: official site three.dev, verified 2026-11-16.",
+    "pricing_en": "Free 0 €/month — room for about 50,000 requests/month (at 5k tokens each), 1 GB of data/month, 5k requests scored/month, 30 days of history. Starter regular 71 €/month — about 250,000 requests/month, 5 GB then 3 €/GB, 10k requests scored/month then 2 € per 1k, 90 days of history. Official launch promo: Starter free for 6 months for teams who sign up by 22 November 2026 (this is a promo, not the regular Starter price). Pro 225 €/month — about 1,000,000 requests/month. Enterprise custom. Unlimited seats on every plan.",
+    "pricing_fr": "Gratuit 0 €/mois — de l’ordre de 50 000 requêtes/mois (à 5 k tokens chacune), 1 Go de données/mois, 5 k requêtes scorées/mois, 30 jours d’historique. Starter tarif régulier 71 €/mois — de l’ordre de 250 000 requêtes/mois, 5 Go puis 3 €/Go, 10 k requêtes scorées/mois puis 2 € par 1 k, 90 jours d’historique. Promo officielle de lancement : Starter offert 6 mois pour les équipes inscrites au plus tard le 22 novembre 2026 (c’est une promo, pas le tarif Starter régulier). Pro 225 €/mois — de l’ordre de 1 000 000 de requêtes/mois. Enterprise sur devis. Sièges illimités sur chaque offre.",
+    "howTo_en": [
+      "Open three.dev, start Free, and connect live traffic and your coding agent over MCP.",
+      "Review scored failures with evidence before users tell you.",
+      "Claim the official 6-month Starter promo if you sign up by 22 November 2026, or pay the regular Starter or Pro list prices."
+    ],
+    "howTo_fr": [
+      "Ouvre three.dev, commence l’offre Gratuite, et connecte le trafic réel et ton agent de code via MCP.",
+      "Relis les échecs scorés, avec les preuves, avant que les utilisateurs ne te le disent.",
+      "Active la promo officielle Starter 6 mois si tu t’inscris au plus tard le 22 novembre 2026, ou paie les tarifs de liste réguliers Starter ou Pro."
+    ],
+    "features_en": [
+      "Detects and helps fix AI agent failures on live traffic, with scoring and evidence",
+      "Coding-agent access over MCP; unlimited seats on every plan",
+      "Free plan included",
+      "Official launch promo: Starter free for 6 months if you sign up by 22 November 2026; regular list prices also published"
+    ],
+    "features_fr": [
+      "Détecte et aide à corriger les échecs d’agents IA sur le trafic réel, avec scoring et preuves",
+      "Accès des agents de code via MCP ; sièges illimités sur chaque offre",
+      "Offre Gratuite incluse",
+      "Promo officielle de lancement : Starter offert 6 mois pour une inscription au plus tard le 22 novembre 2026 ; les tarifs de liste réguliers sont aussi publiés"
+    ],
+    "short_fr": "Détecte et aide à corriger les échecs d’agents IA sur le trafic réel avant que les utilisateurs ne te le disent, avec scoring, preuves et sièges illimités sur chaque offre.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Promo : Starter offert 6 mois pour une inscription au plus tard le 22 novembre 2026. Les tarifs de liste Starter 79 $/mois et Pro 249 $/mois sont les prix normaux affichés.",
+      "Le dépassement officiel 2,50 $ / 1 k requêtes arrondit à 2 € ; le détail officiel reste aussi dans pricing_usd_official."
+    ],
+    "url": "https://three.dev/",
+    "official_url": "https://three.dev/",
+    "official_url_final": "https://three.dev/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Detects and helps fix AI agent failures on live traffic before users tell you, with scoring, evidence and unlimited seats on every plan."
+  },
+  {
+    "slug": "mister-blocks",
+    "name": "Mister Blocks",
+    "category": "Design & UI",
+    "category_note": "Idées de constructions LEGO 3D à partir d’une photo de tes briques. Design & UI (3D & product design) ; Image Generation & Editing serait une alternative.",
+    "converted_from_usd": false,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free (official SoftwareApplication / offer price $0 on the site). A separate “For business” area may exist; no public paid consumer ladder was stated on the official homepage. Source: official site misterblocks.com, verified 2026-11-16.",
+    "pricing_en": "Free — build from photos of your loose bricks with checked 3D step-by-step instructions.",
+    "pricing_fr": "Gratuit — construis à partir de photos de tes briques en vrac, avec des instructions 3D vérifiées étape par étape.",
+    "howTo_en": [
+      "Open misterblocks.com and take or upload a photo of your loose LEGO bricks.",
+      "Pick a build made only from those pieces and follow the checked 3D step-by-step instructions."
+    ],
+    "howTo_fr": [
+      "Ouvre misterblocks.com et prends ou envoie une photo de tes briques LEGO en vrac.",
+      "Choisis une construction qui n’utilise que tes pièces, et suis les instructions 3D vérifiées étape par étape."
+    ],
+    "features_en": [
+      "Turns a photo of your loose bricks into build ideas made only from your pieces",
+      "Checked 3D step-by-step instructions; every stud is verified",
+      "Ask the AI builder for a model",
+      "Free on the official site"
+    ],
+    "features_fr": [
+      "Transforme une photo de tes briques en idées de constructions qui n’utilisent que tes pièces",
+      "Instructions 3D vérifiées étape par étape ; chaque tenon est contrôlé",
+      "Demande un modèle au constructeur IA",
+      "Gratuit sur le site officiel"
+    ],
+    "short_fr": "IA LEGO qui transforme une photo de tes briques en idées de constructions utilisant uniquement tes pièces, avec des instructions 3D vérifiées étape par étape. Officiellement gratuit.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Aucune grille payante grand public extraite. Une zone « For business » peut exister sans tarifs publics : non inventée."
+    ],
+    "url": "https://misterblocks.com/",
+    "official_url": "https://misterblocks.com/",
+    "official_url_final": "https://misterblocks.com/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "LEGO AI that turns a photo of your loose bricks into build ideas made only from your pieces, with checked 3D step-by-step instructions. Officially free."
+  },
+  {
+    "slug": "gatrends",
+    "name": "GAtrends",
+    "category": "Marketing & SEO",
+    "category_note": "Alertes de pics sur tes mots-clés (actu, recherche, communautés). Marketing & SEO.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Prices in USD, taxes at checkout. Free $0 — 3 keywords (from the official pricing ladder). Starter $12/month — 15 keywords, checks every hour, Telegram alerts, 30 days of signal history. Pro $29/month — 75 keywords, checks every 15 minutes, Telegram alerts, Claude and ChatGPT connection, full history and CSV export. Business $99/month — 300 keywords, checks every 15 minutes, webhook and API, 5 team seats, several Telegram chats, priority support. Enterprise custom. Yearly billing is offered as “2 months free” on the page; exact yearly totals were not spelled out in the extract and are left unlisted. 14-day money-back guarantee on the first payment. Source: official site gatrends.com, verified 2026-11-16.",
+    "pricing_en": "Prices excluding taxes at checkout. Free 0 € — 3 keywords. Starter 11 €/month — 15 keywords, checks every hour, Telegram alerts, 30 days of signal history. Pro 26 €/month — 75 keywords, checks every 15 minutes, Telegram alerts, Claude and ChatGPT connection, full history and CSV export. Business 90 €/month — 300 keywords, checks every 15 minutes, webhook and API, 5 team seats, several Telegram chats, priority support. Enterprise custom. Yearly billing is offered as “2 months free”. 14-day money-back guarantee on the first payment.",
+    "pricing_fr": "Prix hors taxes au paiement. Gratuit 0 € — 3 mots-clés. Starter 11 €/mois — 15 mots-clés, contrôle toutes les heures, alertes Telegram, 30 jours d’historique de signaux. Pro 26 €/mois — 75 mots-clés, contrôle toutes les 15 minutes, alertes Telegram, connexion Claude et ChatGPT, historique complet et export CSV. Business 90 €/mois — 300 mots-clés, contrôle toutes les 15 minutes, webhook et API, 5 sièges d’équipe, plusieurs chats Telegram, support prioritaire. Enterprise sur devis. La facturation annuelle est proposée comme « 2 mois offerts ». Garantie satisfait ou remboursé de 14 jours sur le premier paiement.",
+    "howTo_en": [
+      "Open gatrends.com and start Free with up to 3 keywords.",
+      "Connect Telegram to get spike alerts.",
+      "Upgrade to Starter, Pro or Business if you need more keywords or Claude/ChatGPT analysis."
+    ],
+    "howTo_fr": [
+      "Ouvre gatrends.com et commence l’offre Gratuite, jusqu’à 3 mots-clés.",
+      "Connecte Telegram pour recevoir les alertes de pics.",
+      "Passe à Starter, Pro ou Business si tu as besoin de plus de mots-clés ou de l’analyse Claude/ChatGPT."
+    ],
+    "features_en": [
+      "Watches the keywords that matter to you and spots unusual spikes across news, search and communities",
+      "Telegram alerts; Claude and ChatGPT connection on higher plans; CSV export",
+      "Free plan with 3 keywords",
+      "Yearly billing with two months free"
+    ],
+    "features_fr": [
+      "Surveille les mots-clés qui t’importent et détecte les pics inhabituels dans l’actualité, la recherche et les communautés",
+      "Alertes Telegram ; connexion Claude et ChatGPT sur les offres supérieures ; export CSV",
+      "Offre Gratuite avec 3 mots-clés",
+      "Facturation annuelle avec deux mois offerts"
+    ],
+    "short_fr": "Surveille les mots-clés qui t’importent, détecte les pics inhabituels dans l’actualité, la recherche et les communautés, te prévient sur Telegram, et te laisse demander à Claude ou ChatGPT ce qui monte et pourquoi.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Taxes éventuellement calculées au paiement.",
+      "Pas de totaux annuels inventés (« 2 months free » sans barème annuel détaillé)."
+    ],
+    "url": "https://gatrends.com/",
+    "official_url": "https://gatrends.com/",
+    "official_url_final": "https://gatrends.com/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Watches the keywords that matter to you, spots unusual spikes across news, search and communities, pings you in Telegram, and lets you ask Claude or ChatGPT what is rising and why."
+  },
+  {
+    "slug": "qorqbot",
+    "name": "Qorqbot",
+    "category": "AI Agents",
+    "category_note": "Agent proactif local, sur ton ordinateur, avec tes abonnements de modèles. AI Agents ; Productivity & Workspace serait une alternative.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Personal $0 forever — every feature, no trial, the full app, free for non-commercial use and for charities, schools, public research and government bodies. Commercial license $10/month per person, billed $120 annually — company, client and paid work, unlimited agents, all your computers. Official note that commercial use is free until 1 January 2027, then needs the commercial license at the price above (work accounts are emailed first; nothing is charged automatically). Team license and hosted servers marked “coming soon”. Footer legal name: 49 Agents LLC (country not stated). Source: official pricing page qorqbot.com, verified 2026-11-16.",
+    "pricing_en": "Personal 0 € forever — every feature, no trial, the full app, free for non-commercial use and for charities, schools, public research and government bodies. Commercial license regular 9 €/month per person, billed 109 € annually — company, client and paid work, unlimited agents, all your computers. Official promo: commercial use is free until 1 January 2027, then needs the commercial license at the regular price above (work accounts are emailed first; nothing is charged automatically). This free commercial window is a promo, not the regular commercial price. Team license and hosted servers marked “coming soon”.",
+    "pricing_fr": "Personnel 0 € pour toujours — toutes les fonctions, sans essai, l’app complète, gratuit pour l’usage non commercial et pour les associations, écoles, recherche publique et organismes publics. Licence commerciale tarif régulier 9 €/mois par personne, facturée 109 € par an — travail d’entreprise, clients et travail rémunéré, agents illimités, tous tes ordinateurs. Promo officielle : l’usage commercial est gratuit jusqu’au 1er janvier 2027, puis la licence commerciale au tarif régulier ci-dessus est requise (les comptes professionnels sont prévenus par e-mail d’abord ; rien n’est débité automatiquement). Cette gratuité commerciale est une promo, pas le tarif commercial régulier. Licence Team et serveurs hébergés indiqués « coming soon ».",
+    "howTo_en": [
+      "Open qorqbot.com and download the Personal build for your OS.",
+      "Run it on your computer with your own model subscription.",
+      "Buy a commercial license if you use it for company, client or paid work — commercial use is officially free until 1 January 2027, then the regular commercial license applies."
+    ],
+    "howTo_fr": [
+      "Ouvre qorqbot.com et télécharge la version Personnel pour ton système.",
+      "Lance-la sur ton ordinateur, avec tes propres abonnements de modèles.",
+      "Prends une licence commerciale si tu l’utilises pour une entreprise, des clients ou un travail rémunéré — l’usage commercial est officiellement gratuit jusqu’au 1er janvier 2027, puis le tarif régulier de la licence commerciale s’applique."
+    ],
+    "features_en": [
+      "Proactive agent for complex work, running on your computer with your own model subscriptions",
+      "Mac (Apple silicon), Windows and Linux (Ubuntu 24.04 x64 / WSL2)",
+      "Personal use is free forever",
+      "Official promo: commercial use free until 1 January 2027, then the regular commercial license"
+    ],
+    "features_fr": [
+      "Agent proactif pour le travail complexe, qui tourne sur ton ordinateur avec tes propres abonnements de modèles",
+      "Mac (Apple silicon), Windows et Linux (Ubuntu 24.04 x64 / WSL2)",
+      "L’usage personnel est gratuit pour toujours",
+      "Promo officielle : usage commercial gratuit jusqu’au 1er janvier 2027, puis licence commerciale au tarif régulier"
+    ],
+    "short_fr": "Agent proactif pour le travail complexe, qui tourne sur ton ordinateur avec tes propres abonnements de modèles. L’usage personnel est gratuit pour toujours ; la licence commerciale est indiquée sur la page tarifaire officielle.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Promo : usage commercial officiellement gratuit jusqu’au 1er janvier 2027, puis licence 10 $/mois facturée 120 $/an. L’usage personnel reste 0 $ pour toujours. La gratuité commerciale n’est pas affichée comme le prix normal.",
+      "Entité légale en pied de page : 49 Agents LLC (pays non indiqué) — hqCountry laissé vide."
+    ],
+    "url": "https://qorqbot.com/",
+    "official_url": "https://qorqbot.com/",
+    "official_url_final": "https://qorqbot.com/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Proactive agent for complex work that runs on your computer with your own model subscriptions. Personal use is free forever; commercial licensing is stated on the official pricing page."
+  },
+  {
+    "slug": "paxper",
+    "name": "Paxper",
+    "category": "Coding & Dev Tools",
+    "category_note": "Infrastructure as code visuelle (canevas, plan, apply après approbation). Coding & Dev Tools.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0 per user/month — unlimited projects, 1 workspace, 1 cloud provider, 1 apply per project, community support on Slack, no card. Team $49 per user/month or $490 per user/year ($41/month, 2 months free) — 2 workspaces included, unlimited applies, email support with a standard SLA. Each applied workspace beyond the first two costs $50/month. Enterprise custom (unlimited workspaces, SSO, audit trail, dedicated support). Cloud-resource dollar amounts shown in product diagrams are usage illustrations, not plan prices. Source: official site paxper.com, verified 2026-11-16.",
+    "pricing_en": "Free 0 € per user/month — unlimited projects, 1 workspace, 1 cloud provider, 1 apply per project, community support on Slack, no card. Team 44 € per user/month, or 443 € per user/year (37 €/month, 2 months free) — 2 workspaces included, unlimited applies, email support with a standard SLA. Each applied workspace beyond the first two costs 45 €/month. Enterprise custom (unlimited workspaces, SSO, audit trail, dedicated support).",
+    "pricing_fr": "Gratuit 0 € par utilisateur/mois — projets illimités, 1 espace de travail, 1 fournisseur cloud, 1 apply par projet, support communautaire sur Slack, sans carte. Team 44 € par utilisateur/mois, ou 443 € par utilisateur/an (37 €/mois, 2 mois offerts) — 2 espaces inclus, applies illimités, support e-mail avec SLA standard. Chaque espace appliqué au-delà des deux premiers coûte 45 €/mois. Enterprise sur devis (espaces illimités, SSO, journal d’audit, support dédié).",
+    "howTo_en": [
+      "Open paxper.com and start Free with no card.",
+      "Draw infrastructure on the canvas, review the plan, and approve an apply in your own cloud account.",
+      "Upgrade to Team if you need more workspaces or applies."
+    ],
+    "howTo_fr": [
+      "Ouvre paxper.com et commence l’offre Gratuite, sans carte.",
+      "Dessine l’infrastructure sur le canevas, relis le plan, et approuve un apply dans ton propre compte cloud.",
+      "Passe à Team si tu as besoin de plus d’espaces de travail ou d’applies."
+    ],
+    "features_en": [
+      "Visual infrastructure-as-code: design on a canvas, review every planned change, apply only after approval",
+      "Short plans of add/change/destroy; apply in your own account",
+      "AI support with credits on every plan",
+      "Free plan with no card"
+    ],
+    "features_fr": [
+      "Infrastructure as code visuelle : concevoir sur un canevas, relire chaque changement prévu, n’appliquer qu’après approbation",
+      "Plans courts d’ajout / modification / suppression ; apply dans ton propre compte",
+      "Aide IA avec crédits sur chaque offre",
+      "Offre Gratuite sans carte"
+    ],
+    "short_fr": "Infrastructure as code visuelle : conçois l’architecture cloud sur un canevas, relis chaque changement prévu, et applique-le dans ton propre compte seulement après approbation.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Les montants « ressources cloud » des schémas produit sont des illustrations d’usage, pas des tarifs d’offre."
+    ],
+    "url": "https://paxper.com/",
+    "official_url": "https://paxper.com/",
+    "official_url_final": "https://paxper.com/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Visual infrastructure-as-code: design cloud architecture on a canvas, review every planned change, and apply it in your own account only after approval."
+  },
+  {
+    "slug": "burnstate",
+    "name": "Burnstate",
+    "category": "Coding & Dev Tools",
+    "category_note": "App barre de menu Mac qui suit les limites des outils de code IA. Coding & Dev Tools.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Subscription from $3.99 a month or $24.99 a year (48% less than monthly, official; activate on 1 Mac, cancel anytime, keep what you paid for). One-time license with updates included — $49.99 for 1 Mac, $69.99 for 2 Macs, $89.99 for 3 Macs. Sold via Creem (receipt and VAT). Also listed as coming soon on the Mac App Store; Setapp membership is a separate official option with Setapp’s own 7-day trial. Token-cost figures in any usage dashboard are not plan prices. Source: official site burnstate.dev, verified 2026-11-16.",
+    "pricing_en": "Subscription from 4 € a month, or 23 € a year (48% less than monthly, official; activate on 1 Mac, cancel anytime, keep what you paid for). One-time license with updates included — 45 € for 1 Mac, 63 € for 2 Macs, 81 € for 3 Macs. Sold via Creem (receipt and VAT). Also listed as coming soon on the Mac App Store; Setapp membership is a separate official option with Setapp’s own 7-day trial.",
+    "pricing_fr": "Abonnement à partir de 4 € par mois, ou 23 € par an (48 % de moins que le mensuel, officiel ; activation sur 1 Mac, résiliation à tout moment, tu conserves ce que tu as payé). Licence unique, mises à jour incluses — 45 € pour 1 Mac, 63 € pour 2 Mac, 81 € pour 3 Mac. Vendu via Creem (reçu et TVA). Aussi annoncé comme bientôt disponible sur le Mac App Store ; l’abonnement Setapp est une option officielle distincte, avec l’essai de 7 jours propre à Setapp.",
+    "howTo_en": [
+      "Open burnstate.dev and choose a monthly or yearly subscription, or a one-time Mac license.",
+      "Pay via Creem, then run the menu-bar app against your Claude Code, Codex or Cursor limits."
+    ],
+    "howTo_fr": [
+      "Ouvre burnstate.dev et choisis un abonnement mensuel ou annuel, ou une licence Mac unique.",
+      "Paie via Creem, puis lance l’app barre de menu face à tes limites Claude Code, Codex ou Cursor."
+    ],
+    "features_en": [
+      "Mac menu-bar app that puts every AI coding limit against the clock",
+      "Works with Claude Code, Codex, Cursor and others, hours before you would run dry",
+      "Monthly or yearly subscription, or a one-time license for 1 to 3 Macs",
+      "Sold via Creem (receipt and VAT); Setapp is a separate official option"
+    ],
+    "features_fr": [
+      "App barre de menu Mac qui compare chaque limite d’outil de code IA à l’horloge",
+      "Fonctionne avec Claude Code, Codex, Cursor et d’autres, des heures avant l’épuisement du quota",
+      "Abonnement mensuel ou annuel, ou licence unique pour 1 à 3 Mac",
+      "Vendu via Creem (reçu et TVA) ; Setapp est une option officielle distincte"
+    ],
+    "short_fr": "Application barre de menu Mac qui compare chaque limite d’outils de code IA (Claude Code, Codex, Cursor, etc.) à l’horloge, pour savoir des heures à l’avance quand le quota sera épuisé.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "TVA éventuellement calculée au paiement via Creem.",
+      "Labellé Premium : pas d’offre 0 € durable sur la grille publique.",
+      "Les chiffres de coût de tokens dans un éventuel tableau de bord ne sont pas des tarifs d’offre."
+    ],
+    "url": "https://burnstate.dev/",
+    "official_url": "https://burnstate.dev/",
+    "official_url_final": "https://burnstate.dev/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Mac menu-bar app that puts every AI coding limit (Claude Code, Codex, Cursor and others) against the clock, so you know when you would run dry hours before it happens."
+  },
+  {
+    "slug": "nameshot",
+    "name": "Nameshot",
+    "category": "Productivity & Workspace",
+    "category_note": "App Mac qui nomme les captures d’écran sur l’appareil (modèle Apple on-device). Productivity & Workspace.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Nameshot Pro one-time — list $9.99 once; official launch price $4.99 once (shown as launch price vs $9.99 struck through). 7-day free trial, nothing to buy or cancel. Coming soon to the Mac App Store; TestFlight beta also mentioned. Apple silicon and macOS 27 required (official). Source: official site nameshot.app, verified 2026-11-16.",
+    "pricing_en": "Nameshot Pro one-time — regular list price 9 € once; official launch promo 5 € once (shown as launch price vs the 9 € list price). 7-day free trial, nothing to buy or cancel. The launch price is a promo, not the regular list price. Coming soon to the Mac App Store; TestFlight beta also mentioned. Apple silicon and macOS 27 required (official).",
+    "pricing_fr": "Nameshot Pro, achat unique — tarif de liste régulier 9 € une fois ; promo officielle de lancement 5 € une fois (affichée comme prix de lancement face au tarif de liste 9 €). Essai de 7 jours, rien à acheter ni à résilier. Le prix de lancement est une promo, pas le tarif de liste régulier. Bientôt sur le Mac App Store ; une beta TestFlight est aussi mentionnée. Apple silicon et macOS 27 requis (officiel).",
+    "howTo_en": [
+      "Open nameshot.app and start the 7-day trial on an Apple-silicon Mac.",
+      "Let it name new screenshots on the device (nothing leaves the Mac).",
+      "Buy the one-time Pro license at the official launch promo or at the regular list price."
+    ],
+    "howTo_fr": [
+      "Ouvre nameshot.app et commence l’essai de 7 jours sur un Mac Apple silicon.",
+      "Laisse l’app donner un nom à chaque nouvelle capture, sur l’appareil (rien ne quitte le Mac).",
+      "Achète la licence Pro unique au tarif promo de lancement officiel, ou au tarif de liste régulier."
+    ],
+    "features_en": [
+      "Gives every new screenshot a proper name on the device, using Apple’s on-device model",
+      "Nothing leaves the Mac; Tidy Up any folder; learns how you name things; Family Sharing included",
+      "One-time purchase, no subscription; 7-day free trial",
+      "Official launch promo versus the regular list price; Apple silicon and macOS 27 required"
+    ],
+    "features_fr": [
+      "Donne un vrai nom à chaque nouvelle capture d’écran, sur l’appareil, avec le modèle Apple on-device",
+      "Rien ne quitte le Mac ; range n’importe quel dossier ; apprend ta façon de nommer ; Partage familial inclus",
+      "Achat unique, sans abonnement ; essai de 7 jours",
+      "Promo officielle de lancement face au tarif de liste régulier ; Apple silicon et macOS 27 requis"
+    ],
+    "short_fr": "App Mac qui donne un vrai nom à chaque nouvelle capture d’écran, sur l’appareil. Rien ne quitte le Mac ; elle utilise le modèle Apple on-device. Achat unique, sans abonnement.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Promo : prix de lancement officiel 4,99 $ une fois, face au tarif de liste 9,99 $ une fois (souvent affiché barré). Le tarif de liste est le prix normal affiché.",
+      "Labellé Premium : essai de 7 jours, pas une offre 0 € durable.",
+      "macOS 27 et Apple silicon requis, comme indiqué officiellement."
+    ],
+    "url": "https://nameshot.app/",
+    "official_url": "https://nameshot.app/",
+    "official_url_final": "https://nameshot.app/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Mac app that gives every new screenshot a proper name on the device. Nothing leaves the Mac; it uses Apple’s on-device model. One-time purchase, no subscription."
+  },
+  {
+    "slug": "pexo",
+    "name": "Pexo",
+    "category": "Video",
+    "category_note": "Agent vidéo conversationnel (visuels, audio, sous-titres, montage). Video.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Pro $30/mo — 3,000 base credits (limited-time bonus 1,800, total 4,800 while the bonus lasts), approx. 2–5 min video. Elite $60/mo — 7,200 base (limited-time bonus 2,800, total 10,000), approx. 5–11 min. Max $100/mo — 14,000 base (limited-time bonus 4,000, total 18,000 credits/mo), approx. 9–20 min. Regular figures recorded as base credits; bonuses are officially labelled limited-time. No lasting Free plan was stated on the official pricing page. Source: official site pexo.ai/pricing, verified 2026-11-16.",
+    "pricing_en": "Pro 27 €/month — 3,000 base credits (limited-time bonus 1,800, total 4,800 while the bonus lasts), approx. 2–5 min video. Elite 54 €/month — 7,200 base credits (limited-time bonus 2,800, total 10,000), approx. 5–11 min. Max 90 €/month — 14,000 base credits (limited-time bonus 4,000, total 18,000 credits/month), approx. 9–20 min. Regular allowances are the base credits; the extra credits are an official limited-time promo, not the regular allowance. No lasting Free plan was stated on the official pricing page.",
+    "pricing_fr": "Pro 27 €/mois — 3 000 crédits de base (bonus temporaire 1 800, total 4 800 tant que le bonus dure), environ 2–5 min de vidéo. Elite 54 €/mois — 7 200 crédits de base (bonus temporaire 2 800, total 10 000), environ 5–11 min. Max 90 €/mois — 14 000 crédits de base (bonus temporaire 4 000, total 18 000 crédits/mois), environ 9–20 min. Les allocations régulières sont les crédits de base ; les crédits en plus sont une promo officielle limitée dans le temps, pas l’allocation régulière. Aucune offre Gratuite durable n’était indiquée sur la page tarifs officielle.",
+    "howTo_en": [
+      "Open pexo.ai/pricing and pick Pro, Elite or Max.",
+      "Spend monthly credits across the official video workflow (visuals, audio, captions and editing).",
+      "Treat limited-time bonus credits as a temporary promo, not the regular allowance."
+    ],
+    "howTo_fr": [
+      "Ouvre pexo.ai/pricing et choisis Pro, Elite ou Max.",
+      "Utilise tes crédits mensuels dans le workflow vidéo officiel (visuels, audio, sous-titres et montage).",
+      "Traite les crédits bonus limités dans le temps comme une promo temporaire, pas comme l’allocation régulière."
+    ],
+    "features_en": [
+      "AI video agent that turns ideas into videos through natural conversation",
+      "Credits apply to visuals, audio, captions and editing; no watermarks and commercial use rights on paid plans",
+      "Official smart model selection",
+      "Limited-time bonus credits are a promo; regular allowances are the published base credits"
+    ],
+    "features_fr": [
+      "Agent vidéo IA qui transforme des idées en vidéos par conversation",
+      "Les crédits s’appliquent aux visuels, à l’audio, aux sous-titres et au montage ; pas de filigrane et droits d’usage commercial sur les offres payantes",
+      "Sélection officielle de modèles",
+      "Les crédits bonus limités dans le temps sont une promo ; les allocations régulières sont les crédits de base publiés"
+    ],
+    "short_fr": "Agent vidéo IA qui transforme des idées en vidéos par conversation, en couvrant les visuels, l’audio, les sous-titres et le montage, avec une sélection officielle de modèles.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Nouveauté basse : septembre 2026, inclus dans la fenêtre élargie ~45–60 jours.",
+      "Promo : bonus de crédits officiellement « limited time ». Les crédits de base (3 000 / 7 200 / 14 000) sont les paliers réguliers affichés ; les totaux bonus ne sont pas pris pour l’allocation normale.",
+      "Labellé Premium : pas d’offre Gratuite durable sur la page tarifs officielle."
+    ],
+    "url": "https://pexo.ai/",
+    "official_url": "https://pexo.ai/",
+    "official_url_final": "https://pexo.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "AI video agent that turns ideas into videos through natural conversation, covering visuals, audio, captions and editing, with official smart model selection."
+  },
+  {
+    "slug": "pomerado",
+    "name": "Pomerado",
+    "category": "Coding & Dev Tools",
+    "category_note": "Transforme un site en API/MCP (y compris derrière un login). Coding & Dev Tools (Developer APIs).",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0/month — 100 tool calls per day, 10 new integrations/month, 1 account per website. Premium $50/month (Monthly/Yearly toggle present; yearly total not separately stated on the extracted view and left unlisted) — 1,000 tool calls per day, 100 new integrations/month, 1 account per website. Business contact us, custom outcome-based pricing, unlimited accounts per website, MCP code ownership, roles, audit logs, SLAs. Competitor benchmark dollar figures on the page are not plan prices. Open source. Backed by Y Combinator (F26). Source: official homepage pricing block pomerado.ai, verified 2026-11-16.",
+    "pricing_en": "Free 0 €/month — 100 tool calls per day, 10 new integrations/month, 1 account per website. Premium 45 €/month — 1,000 tool calls per day, 100 new integrations/month, 1 account per website. Yearly billing is available on the pricing page. Business: contact us, custom outcome-based pricing, unlimited accounts per website, MCP code ownership, roles, audit logs, SLAs.",
+    "pricing_fr": "Gratuit 0 €/mois — 100 appels d’outils par jour, 10 nouvelles intégrations/mois, 1 compte par site. Premium 45 €/mois — 1 000 appels d’outils par jour, 100 nouvelles intégrations/mois, 1 compte par site. La facturation annuelle est disponible sur la page tarifs. Business : nous contacter, tarif personnalisé selon le résultat, comptes illimités par site, propriété du code MCP, rôles, journaux d’audit, SLA.",
+    "howTo_en": [
+      "Open pomerado.ai and sign up on Free.",
+      "Point Pomerado at a website to get an API/MCP, including sites behind login, without storing credentials unless you choose to.",
+      "Upgrade to Premium if you need a higher daily tool-call cap."
+    ],
+    "howTo_fr": [
+      "Ouvre pomerado.ai et inscris-toi sur l’offre Gratuite.",
+      "Pointe Pomerado vers un site pour obtenir une API/MCP, y compris derrière un login, sans stocker les identifiants sauf si tu le choisis.",
+      "Passe à Premium si tu as besoin d’un plafond quotidien d’appels d’outils plus élevé."
+    ],
+    "features_en": [
+      "Turns any website into an API/MCP in minutes, including sites behind login",
+      "Automatic sign-in including 2FA; optional secure credential storage",
+      "Open source; backed by Y Combinator (F26)",
+      "Free plan with daily tool-call limits; yearly billing available"
+    ],
+    "features_fr": [
+      "Transforme n’importe quel site en API/MCP en quelques minutes, y compris derrière un login",
+      "Connexion automatique, y compris 2FA ; stockage sécurisé des identifiants en option",
+      "Open source ; soutenu par Y Combinator (F26)",
+      "Offre Gratuite avec plafonds quotidiens ; facturation annuelle disponible"
+    ],
+    "short_fr": "Transforme n’importe quel site en API/MCP en quelques minutes, y compris derrière un login, sans stocker les identifiants sauf si tu le choisis. Open source. Soutenu par Y Combinator (F26).",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Pas de total annuel inventé pour Premium (basculeur Monthly/Yearly présent, seul le 50 $/mois a été relevé)."
+    ],
+    "url": "https://pomerado.ai/",
+    "official_url": "https://pomerado.ai/",
+    "official_url_final": "https://pomerado.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Turns any website into an API/MCP in minutes, including sites behind login, without storing credentials unless you choose to. Open source. Backed by Y Combinator (F26)."
+  },
+  {
+    "slug": "replyhey",
+    "name": "ReplyHey",
+    "category": "Marketing & SEO",
+    "category_note": "Trouve des demandes d’achat sur Reddit, X et LinkedIn, et prépare des réponses. Marketing & SEO (social) ; Sales & CRM serait une alternative.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Starter $34.99/month — 1 website, 1 AI agent, Reddit leads only, Reddit checked twice a day. Base $49.99/month — up to 3 websites, 2 AI agents, Reddit, X and LinkedIn leads, up to 10 email leads a day. Pro $99/month — 6 websites, 2 AI agents, Reddit checked 4 times a day, up to 20 email leads a day, CRM, keyword monitoring, brand sentiment, daily brand mentions. Official 2 days free on Starter, Base or Pro, cancel any time. No lasting $0 plan was stated. Source: official site www.replyhey.com, verified 2026-11-16.",
+    "pricing_en": "Starter 32 €/month — 1 website, 1 AI agent, Reddit leads only, Reddit checked twice a day. Base 45 €/month — up to 3 websites, 2 AI agents, Reddit, X and LinkedIn leads, up to 10 email leads a day. Pro 90 €/month — 6 websites, 2 AI agents, Reddit checked 4 times a day, up to 20 email leads a day, CRM, keyword monitoring, brand sentiment, daily brand mentions. Official 2 days free on Starter, Base or Pro, cancel any time. No lasting free plan was stated.",
+    "pricing_fr": "Starter 32 €/mois — 1 site, 1 agent IA, leads Reddit seulement, Reddit contrôlé deux fois par jour. Base 45 €/mois — jusqu’à 3 sites, 2 agents IA, leads Reddit, X et LinkedIn, jusqu’à 10 leads e-mail par jour. Pro 90 €/mois — 6 sites, 2 agents IA, Reddit contrôlé 4 fois par jour, jusqu’à 20 leads e-mail par jour, CRM, suivi de mots-clés, sentiment de marque, mentions de marque quotidiennes. 2 jours offerts officiellement sur Starter, Base ou Pro, résiliable à tout moment. Aucune offre gratuite durable n’était indiquée.",
+    "howTo_en": [
+      "Open replyhey.com and start the official 2-day free period on Starter, Base or Pro.",
+      "Review scored Reddit leads (and, on Base/Pro, X and LinkedIn), then edit drafts before they go out.",
+      "Cancel or keep the paid plan at the end of the two days."
+    ],
+    "howTo_fr": [
+      "Ouvre replyhey.com et commence les 2 jours offerts officiels sur Starter, Base ou Pro.",
+      "Relis les leads Reddit scorés (et, sur Base/Pro, X et LinkedIn), puis modifie les brouillons avant envoi.",
+      "Annule ou garde l’offre payante à la fin des deux jours."
+    ],
+    "features_en": [
+      "Finds people asking for what you sell on Reddit, X and LinkedIn",
+      "Drafts replies from your accounts and traces those replies toward revenue",
+      "Smart replies with live subreddit rule checks; daily leads email",
+      "Official 2 days free, cancel any time; no lasting free plan"
+    ],
+    "features_fr": [
+      "Trouve les personnes qui demandent ce que tu vends sur Reddit, X et LinkedIn",
+      "Prépare des réponses depuis tes comptes et relie ces réponses au revenu",
+      "Réponses intelligentes avec contrôle des règles des subreddits en direct ; e-mail quotidien de leads",
+      "2 jours offerts officiellement, résiliable à tout moment ; pas d’offre gratuite durable"
+    ],
+    "short_fr": "Trouve les personnes qui demandent ce que tu vends sur Reddit, X et LinkedIn, prépare des réponses depuis tes comptes, et relie ces réponses au revenu.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Labellé Premium : 2 jours offerts, pas une offre 0 € durable.",
+      "official_url https://replyhey.com/ redirige vers https://www.replyhey.com/ (à utiliser pour les captures)."
+    ],
+    "url": "https://replyhey.com/",
+    "official_url": "https://replyhey.com/",
+    "official_url_final": "https://www.replyhey.com/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Finds people asking for what you sell on Reddit, X and LinkedIn, drafts replies from your accounts, and traces those replies toward revenue."
+  },
+  {
+    "slug": "busabase",
+    "name": "Busabase",
+    "category": "Data & Analytics",
+    "category_note": "Base / système d’enregistrement open source pour agents et humains. Data & Analytics ; Coding & Dev Tools (Backend & database) serait une alternative.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0 — 1 space you own, 3 seats per space, 5,000 records per space, 1 GB attachment storage, 1 self-hosted connection online. Plus $10/seat/mo billed $120/seat annually (official: $10 per seat billed yearly, 2 months free) — 3 spaces you own, 20 GB storage, billed per actual member. Pro $20/seat/mo billed $240/seat annually (2 months free) — unlimited spaces, 100 GB storage, custom workspace address, priority support (WhatsApp / WeChat / Email). Monthly list prices besides these yearly-billed figures were not separately stated. Source: official site busabase.com, verified 2026-11-16.",
+    "pricing_en": "Free 0 € — 1 space you own, 3 seats per space, 5,000 records per space, 1 GB attachment storage, 1 self-hosted connection online. Plus 9 €/seat/month billed 109 €/seat annually (billed yearly, 2 months free) — 3 spaces you own, 20 GB storage, billed per actual member. Pro 18 €/seat/month billed 217 €/seat annually (2 months free) — unlimited spaces, 100 GB storage, custom workspace address, priority support (WhatsApp / WeChat / Email).",
+    "pricing_fr": "Gratuit 0 € — 1 espace que tu possèdes, 3 sièges par espace, 5 000 enregistrements par espace, 1 Go de stockage de pièces jointes, 1 connexion auto-hébergée en ligne. Plus 9 €/siège/mois facturés 109 €/siège par an (facturé à l’année, 2 mois offerts) — 3 espaces que tu possèdes, 20 Go de stockage, facturé par membre réel. Pro 18 €/siège/mois facturés 217 €/siège par an (2 mois offerts) — espaces illimités, 100 Go, adresse d’espace personnalisée, support prioritaire (WhatsApp / WeChat / e-mail).",
+    "howTo_en": [
+      "Open busabase.com and run the open-source desktop or Docker engine for Free.",
+      "Share the same data, docs, skills and apps between agents and people, locally or self-hosted.",
+      "Start Plus or Pro on the official yearly-billed seat plans if you need more spaces and storage."
+    ],
+    "howTo_fr": [
+      "Ouvre busabase.com et lance le moteur open source desktop ou Docker, en Gratuit.",
+      "Partage les mêmes données, docs, skills et apps entre agents et humains, en local ou en auto-hébergement.",
+      "Passe à Plus ou Pro sur les offres officielles facturées à l’année si tu as besoin de plus d’espaces et de stockage."
+    ],
+    "features_en": [
+      "Open-source (MIT) system of record for AI agents: one database and workspace for agents and people",
+      "Local engine and Docker image; OpenAPI, webhooks and MCP; desktop keeps data in a folder on your machine",
+      "Free plan included; Plus and Pro billed yearly per seat"
+    ],
+    "features_fr": [
+      "Système d’enregistrement open source (MIT) pour agents IA : une base et un espace pour les agents et les humains",
+      "Moteur local et image Docker ; OpenAPI, webhooks et MCP ; le desktop garde les données dans un dossier sur ta machine",
+      "Offre Gratuite incluse ; Plus et Pro facturés à l’année par siège"
+    ],
+    "short_fr": "Système d’enregistrement open source (MIT) pour les agents IA : une base et un espace de travail où agents et humains partagent les mêmes données, docs, skills et apps, en local ou en auto-hébergement.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Pas de prix mensuel de liste inventé : les montants « /mo » sont clairement facturés à l’année (2 mois offerts / Save 20 %).",
+      "Nouveauté moyenne (octobre 2026)."
+    ],
+    "url": "https://busabase.com/",
+    "official_url": "https://busabase.com/",
+    "official_url_final": "https://busabase.com/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Open-source (MIT) system of record for AI agents: a database and workspace where agents and people share the same data, docs, skills and apps, locally or self-hosted."
+  },
+  {
+    "slug": "neura",
+    "name": "Neura",
+    "category": "Marketing & SEO",
+    "category_note": "Agent conversationnel pour marques grand public (recommandation, vente, support). Marketing & SEO ; Sales & CRM ou Customer Support seraient des alternatives. Distinct de Neural Summary / neural.love, déjà au catalogue.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Official prices in USD and INR, published side by side; USD is the reference used for euro conversion (INR is not converted). 14-day free trial on request. Starter $99 / ₹6,999 per month — 2,000 credits/month, 1 knowledge website, 500 indexed pages, 20 uploaded files, 3 seats, 1 integration. Growth $249 / ₹17,499 per month — 6,000 credits, 3 websites, 2,500 pages, 100 files, 10 seats, 3 integrations. Scale $499 / ₹34,999 per month — 15,000 credits, 10 websites, 10,000 pages, 500 files, 25 seats, 10 integrations. Extra credits: 1,000 for $59 / ₹4,199 or 5,000 for $249 / ₹17,499. An AI reply uses 1 credit, or 3 when the customer sends a photo, voice note or file; WhatsApp charges its own fees separately. Source: official site www.neurahq.ai/pricing, verified 2026-11-16. Distinct from Neural Summary / neural.love.",
+    "pricing_en": "14-day free trial on request. Starter 90 €/month — 2,000 credits/month, 1 knowledge website, 500 indexed pages, 20 uploaded files, 3 seats, 1 integration. Growth 225 €/month — 6,000 credits, 3 websites, 2,500 pages, 100 files, 10 seats, 3 integrations. Scale 452 €/month — 15,000 credits, 10 websites, 10,000 pages, 500 files, 25 seats, 10 integrations. Extra credits: 1,000 for 53 €, or 5,000 for 225 €. An AI reply uses 1 credit, or 3 when the customer sends a photo, voice note or file; WhatsApp charges its own fees separately.",
+    "pricing_fr": "Essai de 14 jours sur demande. Starter 90 €/mois — 2 000 crédits/mois, 1 site de connaissances, 500 pages indexées, 20 fichiers envoyés, 3 sièges, 1 intégration. Growth 225 €/mois — 6 000 crédits, 3 sites, 2 500 pages, 100 fichiers, 10 sièges, 3 intégrations. Scale 452 €/mois — 15 000 crédits, 10 sites, 10 000 pages, 500 fichiers, 25 sièges, 10 intégrations. Crédits supplémentaires : 1 000 pour 53 €, ou 5 000 pour 225 €. Une réponse IA utilise 1 crédit, ou 3 quand le client envoie une photo, un message vocal ou un fichier ; WhatsApp facture ses propres frais à part.",
+    "howTo_en": [
+      "Open neurahq.ai/pricing and request the 14-day trial if offered.",
+      "Pick Starter, Growth or Scale and connect knowledge sources.",
+      "Add official credit packs if you run out."
+    ],
+    "howTo_fr": [
+      "Ouvre neurahq.ai/pricing et demande l’essai de 14 jours s’il est proposé.",
+      "Choisis Starter, Growth ou Scale et connecte tes sources de connaissances.",
+      "Ajoute des packs de crédits officiels si tu arrives à court."
+    ],
+    "features_en": [
+      "AI agent for consumer brands that recommends, sells and supports, in the brand’s voice, on every channel",
+      "Remembers every shopper; knowledge from websites, files and Q&A; procedures, forms and policy rules",
+      "Integrations and a human handoff inbox",
+      "14-day trial on request"
+    ],
+    "features_fr": [
+      "Agent IA pour marques grand public qui recommande, vend et accompagne, dans la voix de la marque, sur tous les canaux",
+      "Se souvient de chaque client ; connaissances depuis des sites, fichiers et Q&R ; procédures, formulaires et règles",
+      "Intégrations et boîte de passation vers un humain",
+      "Essai de 14 jours sur demande"
+    ],
+    "short_fr": "Agent IA pour marques grand public qui recommande, vend et accompagne, se souvient de chaque client, et parle comme la marque sur tous les canaux.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Ne pas confondre avec Neural Summary / neural.love, déjà au catalogue. Produit : neurahq.ai.",
+      "Prix officiels USD et INR côte à côte ; l’USD est la référence convertie. Les montants INR ne sont pas convertis (absents de l’affichage euro).",
+      "Labellé Premium : essai de 14 jours sur demande, pas une offre 0 € durable.",
+      "Catégorie un peu ouverte (marketing / vente / support) : Marketing & SEO retenu ; Sales & CRM ou Customer Support seraient des alternatives. À confirmer."
+    ],
+    "url": "https://www.neurahq.ai/",
+    "official_url": "https://www.neurahq.ai/",
+    "official_url_final": "https://www.neurahq.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "AI agent for consumer brands that recommends, sells and supports, remembers every shopper, and sounds like the brand on every channel."
+  },
+  {
+    "slug": "stroq",
+    "name": "Stroq",
+    "category": "Security",
+    "category_note": "Scan local des sessions d’agents de code (secrets, injection, fuite). Security (AI/LLM security) ; Coding & Dev Tools serait une alternative.",
+    "converted_from_usd": false,
+    "official_currency": "USD",
+    "pricing_usd_official": "Officially free forever. Team features (shared policy, audit and SSO) are officially described as coming; follow on GitHub. The author states on the official site that he is a developer from Kazakhstan; that is not recorded as a company HQ. Source: official site www.stroq.dev, verified 2026-11-16.",
+    "pricing_en": "Free forever. Team features (shared policy, audit and SSO) are officially described as coming; follow on GitHub. No paid plan is published on the official site.",
+    "pricing_fr": "Gratuit pour toujours. Les fonctions Team (politique partagée, audit et SSO) sont officiellement décrites comme à venir ; suivre sur GitHub. Aucun plan payant n’est publié sur le site officiel.",
+    "howTo_en": [
+      "Open stroq.dev and install the official tool.",
+      "Point it at recorded Claude Code, Codex CLI or Cursor sessions, and review blocked secrets or guarded actions locally."
+    ],
+    "howTo_fr": [
+      "Ouvre stroq.dev et installe l’outil officiel.",
+      "Pointe-le vers des sessions enregistrées de Claude Code, Codex CLI ou Cursor, et relis localement les secrets bloqués ou les actions protégées."
+    ],
+    "features_en": [
+      "Scans recorded Claude Code, Codex CLI and Cursor sessions for known credentials, without printing their values",
+      "Can guard supported agent actions against prompt injection and secret egress",
+      "Runs locally; built in the open",
+      "Officially free forever; team features are described as coming"
+    ],
+    "features_fr": [
+      "Analyse les sessions enregistrées de Claude Code, Codex CLI et Cursor à la recherche d’identifiants connus, sans afficher leurs valeurs",
+      "Peut protéger certaines actions d’agents contre l’injection de prompts et la fuite de secrets",
+      "Tourne en local ; développé au grand jour",
+      "Officiellement gratuit pour toujours ; les fonctions Team sont décrites comme à venir"
+    ],
+    "short_fr": "Analyse les sessions enregistrées de Claude Code, Codex CLI et Cursor à la recherche d’identifiants connus sans les afficher, et peut protéger certaines actions d’agents contre l’injection de prompts et la fuite de secrets. Officiellement gratuit pour toujours.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "La mention personnelle « developer from Kazakhstan » sur le site n’est pas traitée comme un siège social d’entreprise : hqCountry laissé vide.",
+      "Fonctions Team annoncées comme à venir, sans grille payante publique."
+    ],
+    "url": "https://www.stroq.dev/",
+    "official_url": "https://www.stroq.dev/",
+    "official_url_final": "https://www.stroq.dev/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Scans recorded Claude Code, Codex CLI and Cursor sessions for known credentials without printing their values, and can guard supported agent actions against prompt injection and secret egress. Officially free forever."
+  },
+  {
+    "slug": "onepin",
+    "name": "Onepin",
+    "category": "Voice & Speech",
+    "category_note": "Agent de production voix (prononciation, noms, chiffres, contrôle qualité). Voice & Speech.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0/month — 1,000 credits one-time, TTS auto-route, mispronunciation fixes, 10 languages, 1 workspace, 1 GB storage. Creator $16/month billed yearly (official “Save 20%”) — 3,000 credits/month, 3 concurrent pipeline runs, 100 GB, email support. Studio $80/month billed yearly — 15,000 credits/month, 3 workspaces, 500 GB, email + Slack, bring your own key. Scale $240/month billed yearly — 50,000 credits/month, 10 concurrent runs, 5 workspaces, 1 TB, lowest overage rate. Enterprise custom. Official overage rates: $0.010 / $0.008 / $0.007 per credit by tier — too small to display as whole euros, recorded here only. Monthly list prices besides these yearly-billed figures were not separately stated. Source: official site onepin.ai, verified 2026-11-16.",
+    "pricing_en": "Free 0 €/month — 1,000 credits one-time, TTS auto-route, mispronunciation fixes, 10 languages, 1 workspace, 1 GB storage. Creator 14 €/month billed yearly (“Save 20%”) — 3,000 credits/month, 3 concurrent pipeline runs, 100 GB, email support. Studio 72 €/month billed yearly — 15,000 credits/month, 3 workspaces, 500 GB, email + Slack, bring your own key. Scale 217 €/month billed yearly — 50,000 credits/month, 10 concurrent runs, 5 workspaces, 1 TB, lowest overage rate. Enterprise custom.",
+    "pricing_fr": "Gratuit 0 €/mois — 1 000 crédits une fois, routage TTS automatique, corrections de prononciation, 10 langues, 1 espace de travail, 1 Go de stockage. Creator 14 €/mois facturés à l’année (« Save 20 % ») — 3 000 crédits/mois, 3 pipelines en parallèle, 100 Go, support e-mail. Studio 72 €/mois facturés à l’année — 15 000 crédits/mois, 3 espaces, 500 Go, e-mail + Slack, apporte ta clé. Scale 217 €/mois facturés à l’année — 50 000 crédits/mois, 10 pipelines en parallèle, 5 espaces, 1 To, tarif de dépassement le plus bas. Enterprise sur devis.",
+    "howTo_en": [
+      "Open onepin.ai and start Free with the one-time credit pack.",
+      "Run a script through the validated pipeline and catch pronunciation misses before you ship the audio.",
+      "Upgrade to Creator, Studio or Scale on the official yearly-billed plans if you need monthly credits."
+    ],
+    "howTo_fr": [
+      "Ouvre onepin.ai et commence l’offre Gratuite avec le pack de crédits une fois.",
+      "Fais passer un script dans le pipeline validé et attrape les erreurs de prononciation avant d’expédier l’audio.",
+      "Passe à Creator, Studio ou Scale sur les offres officielles facturées à l’année si tu as besoin de crédits mensuels."
+    ],
+    "features_en": [
+      "AI voice production agent that gets names, numbers and pronunciation right in every language",
+      "Validated TTS pipeline, mispronunciation fixes and auto-route",
+      "Commercial output ownership on higher tiers",
+      "Free one-time credits; paid plans billed yearly"
+    ],
+    "features_fr": [
+      "Agent de production voix IA qui prononce correctement les noms, les chiffres et les termes dans chaque langue",
+      "Pipeline TTS validé, corrections de prononciation et routage automatique",
+      "Propriété commerciale de la sortie sur les offres supérieures",
+      "Crédits gratuits une fois ; offres payantes facturées à l’année"
+    ],
+    "short_fr": "Agent de production voix IA qui prononce correctement les noms, les chiffres et les termes dans chaque langue, et attrape les erreurs avant l’expédition audio.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Pas de prix mensuel de liste inventé : les montants payants sont facturés à l’année (Save 20 %).",
+      "Les tarifs de dépassement au crédit (0,010 / 0,008 / 0,007 $) arrondiraient à 0 € : détail seulement dans pricing_usd_official.",
+      "Nouveauté moyenne (octobre 2026)."
+    ],
+    "url": "https://onepin.ai/",
+    "official_url": "https://onepin.ai/",
+    "official_url_final": "https://onepin.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "AI voice production agent that gets names, numbers and pronunciation right in every language and catches misses before you ship the audio."
+  },
+  {
+    "slug": "zernio",
+    "name": "Zernio",
+    "category": "Marketing & SEO",
+    "category_note": "Infrastructure marketing pour agents (social, pubs, inbox, WhatsApp, SMS, appels) derrière une API/MCP. Marketing & SEO ; Automation & Workflows serait une alternative.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Usage-based: first 2 connected accounts Free, no credit card; 3–10 accounts $6/mo each; 11–100 accounts $3/mo each; 101+ accounts $1/mo each; starting at $0/month. Enterprise custom past 2,000 accounts (SAML, SCIM, MFA, audit logs, RBAC, SOC 2 + GDPR paperwork). Official: every feature included, nothing gated behind a plan. Messaging: first 10,000 sent DMs a month free, then metered (official Messages rates live on a separate page and are not restated here). Phone-number add-on prices on other pages are not the core account ladder. Source: official site zernio.com/pricing, verified 2026-11-16.",
+    "pricing_en": "Usage-based: first 2 connected accounts Free, no credit card; 3–10 accounts 5 €/month each; 11–100 accounts 3 €/month each; 101+ accounts 1 €/month each; starting at 0 €/month. Enterprise custom past 2,000 accounts (SAML, SCIM, MFA, audit logs, RBAC, SOC 2 + GDPR paperwork). Official: every feature included, nothing gated behind a plan. Messaging: first 10,000 sent DMs a month free, then metered (official message rates live on a separate page and are not restated here).",
+    "pricing_fr": "Selon l’usage : les 2 premiers comptes connectés sont Gratuits, sans carte ; 3–10 comptes 5 €/mois chacun ; 11–100 comptes 3 €/mois chacun ; 101 comptes et plus 1 €/mois chacun ; à partir de 0 €/mois. Enterprise sur devis au-delà de 2 000 comptes (SAML, SCIM, MFA, journaux d’audit, RBAC, documentation SOC 2 + RGPD). Officiel : toutes les fonctions sont incluses, rien n’est verrouillé selon l’offre. Messagerie : les 10 000 premiers DM envoyés par mois sont gratuits, puis à l’usage (les tarifs officiels des messages sont sur une autre page et ne sont pas repris ici).",
+    "howTo_en": [
+      "Open zernio.com/pricing and start for free with up to two connected accounts and no card.",
+      "Use the API or the included MCP server across social, ads, inbox, WhatsApp, SMS and calls.",
+      "Pay the official per-account tier as you add more accounts."
+    ],
+    "howTo_fr": [
+      "Ouvre zernio.com/pricing et commence gratuitement, jusqu’à deux comptes connectés, sans carte.",
+      "Utilise l’API ou le serveur MCP inclus, pour le social, les pubs, la boîte de réception, WhatsApp, les SMS et les appels.",
+      "Paie le palier officiel par compte quand tu en ajoutes d’autres."
+    ],
+    "features_en": [
+      "Marketing infrastructure for agents: social, ads, inbox, WhatsApp, SMS and calls behind one API key",
+      "MCP server included; scheduling, analytics, DMs and comments",
+      "Official: every feature included, nothing gated behind a plan",
+      "First two connected accounts are free, no card"
+    ],
+    "features_fr": [
+      "Infrastructure marketing pour agents : social, pubs, boîte de réception, WhatsApp, SMS et appels derrière une seule clé API",
+      "Serveur MCP inclus ; planification, analytics, DM et commentaires",
+      "Officiel : toutes les fonctions sont incluses, rien n’est verrouillé selon l’offre",
+      "Les deux premiers comptes connectés sont gratuits, sans carte"
+    ],
+    "short_fr": "Infrastructure marketing pour agents : social, pubs, boîte de réception, WhatsApp, SMS et appels derrière une seule clé API, avec un serveur MCP inclus. Les deux premiers comptes sont gratuits.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Siège officiel : ZERNIO SOFTWARE, S.L., Palamós, Gérone, Espagne (JSON-LD).",
+      "Nouveauté moyenne (octobre 2026).",
+      "Les tarifs officiels des DM au-delà de 10 000/mois et des numéros de téléphone (autres pages) ne sont pas repris ici, pour ne pas inventer le détail. L’échelle principale (comptes connectés) est complète."
+    ],
+    "url": "https://zernio.com/",
+    "official_url": "https://zernio.com/",
+    "official_url_final": "https://zernio.com/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Marketing infrastructure for agents: social, ads, inbox, WhatsApp, SMS and calls behind one API key, with an MCP server included. First two accounts are free."
+  },
+  {
+    "slug": "canyonos",
+    "name": "CanyonOS",
+    "category": "AI Agents",
+    "category_note": "Plateforme open source pour écrire, déployer et observer des apps agentiques en Python. AI Agents (agent builders) ; Coding & Dev Tools serait une alternative.",
+    "converted_from_usd": false,
+    "official_currency": "USD",
+    "pricing_usd_official": "Open source (AGPL-3.0) and free to run on your own compute. The site states a plan to offer paid services later; no public paid ladder was published on 2026-11-16. Source: official site canyonos.ai, verified 2026-11-16.",
+    "pricing_en": "Free, open source (AGPL-3.0), to run on your own compute (your laptop, your AWS account or Kubernetes). Paid offerings may be added later.",
+    "pricing_fr": "Gratuit, open source (AGPL-3.0), à faire tourner sur ton propre calcul (ton laptop, ton compte AWS ou Kubernetes). Des offres payantes pourront être proposées plus tard.",
+    "howTo_en": [
+      "Open canyonos.ai, install the official CLI and run the quickstart.",
+      "Write agentic apps in plain Python and deploy them to your laptop, AWS account or Kubernetes cluster."
+    ],
+    "howTo_fr": [
+      "Ouvre canyonos.ai, installe le CLI officiel et lance le quickstart.",
+      "Écris des apps agentiques en Python et déploie-les sur ton laptop, ton compte AWS ou un cluster Kubernetes."
+    ],
+    "features_en": [
+      "Write, deploy, scale and observe agentic apps in plain Python (no SDK/graph required, official)",
+      "One-command deploy to your AWS account or Kubernetes; independent scaling",
+      "Observability without extra tracing code; any OpenAI-compatible provider",
+      "AGPL-3.0, free on your own compute; paid services planned later, no public paid ladder yet"
+    ],
+    "features_fr": [
+      "Écrire, déployer, mettre à l’échelle et observer des apps agentiques en Python (sans SDK/graphe requis, officiel)",
+      "Déploiement en une commande vers ton compte AWS ou Kubernetes ; mise à l’échelle indépendante",
+      "Observabilité sans code de tracing supplémentaire ; n’importe quel fournisseur compatible OpenAI",
+      "AGPL-3.0, gratuit sur ton propre calcul ; services payants prévus plus tard, sans grille publique pour l’instant"
+    ],
+    "short_fr": "Plateforme open source (AGPL-3.0) pour écrire, déployer, mettre à l’échelle et observer des apps agentiques en Python, sur ton laptop, dans ton compte AWS ou sur Kubernetes.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Services payants annoncés « later », sans grille publique au 16 novembre 2026 : non inventés."
+    ],
+    "url": "https://canyonos.ai/",
+    "official_url": "https://canyonos.ai/",
+    "official_url_final": "https://canyonos.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Open-source (AGPL-3.0) platform to write, deploy, scale and observe agentic apps in plain Python, on your laptop, in your AWS account or on Kubernetes."
+  },
+  {
+    "slug": "agentrun",
+    "name": "AgentRun",
+    "category": "AI Agents",
+    "category_note": "Plan de contrôle open source pour agents (Claude Code, Codex, Pi, OpenCode). AI Agents.",
+    "converted_from_usd": false,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free under Apache-2.0 for self-host. A hosted “AgentRun Cloud” from the team at Grep is mentioned; no public cloud price ladder was on the official site on 2026-11-16 and is therefore left unlisted. From Parcha Labs. Source: official site agentrun.ai, verified 2026-11-16.",
+    "pricing_en": "Free under Apache-2.0 for self-host, with your own model keys. A hosted AgentRun Cloud option may also be available — see the site for current cloud pricing.",
+    "pricing_fr": "Gratuit sous licence Apache-2.0 en auto-hébergement, avec tes propres clés de modèles. Une option AgentRun Cloud hébergée peut aussi être disponible — consulte le site pour les tarifs cloud actuels.",
+    "howTo_en": [
+      "Open agentrun.ai, read the docs, and self-host the Apache-2.0 platform with your model keys.",
+      "Manage agents across Claude Code, Codex, Pi or OpenCode from the console and the shared API."
+    ],
+    "howTo_fr": [
+      "Ouvre agentrun.ai, lis la doc, et auto-héberge la plateforme Apache-2.0 avec tes clés de modèles.",
+      "Gère tes agents sur Claude Code, Codex, Pi ou OpenCode depuis la console et l’API partagée."
+    ],
+    "features_en": [
+      "Open-source control plane for AI agents across Claude Code, Codex, Pi and OpenCode",
+      "Durable runs, revisions, a shared API and self-improvement (learning notes from completed runs)",
+      "From Parcha Labs, Apache-2.0; self-host on your machine or server with your own keys",
+      "Hosted cloud is mentioned without a public price ladder"
+    ],
+    "features_fr": [
+      "Plan de contrôle open source pour agents IA sur Claude Code, Codex, Pi et OpenCode",
+      "Runs durables, révisions, API partagée et auto-amélioration (notes apprises des runs terminés)",
+      "Édité par Parcha Labs, licence Apache-2.0 ; auto-hébergement sur ta machine ou ton serveur, avec tes clés",
+      "Un cloud hébergé est mentionné, sans grille tarifaire publique"
+    ],
+    "short_fr": "Plan de contrôle open source pour agents IA sur Claude Code, Codex, Pi et OpenCode : runs durables, révisions, API partagée et auto-amélioration. Édité par Parcha Labs, licence Apache-2.0.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "AgentRun Cloud (Grep) mentionné sans grille publique : non inventée. Seul l’auto-hébergement Apache-2.0 est affiché comme offre."
+    ],
+    "url": "https://agentrun.ai/",
+    "official_url": "https://agentrun.ai/",
+    "official_url_final": "https://agentrun.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Open-source control plane for AI agents across Claude Code, Codex, Pi and OpenCode: durable runs, revisions, a shared API and self-improvement. From Parcha Labs, Apache-2.0."
+  },
+  {
+    "slug": "arsaze",
+    "name": "Arsaze",
+    "category": "Video",
+    "category_note": "Éditeur vidéo complet (coupes, sous-titres, répétition d’edits). Video.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "USD billed monthly; INR payment via Razorpay is also official (card statement may differ slightly, as stated). Free $0/month — 50 one-time welcome AI credits for audio analysis only, 1 hr/mo cloud rendering, 2 GB storage, 1 concurrent AI job. Basic $5/month — 150 AI credits/mo, all AI features, 2.5 hrs cloud rendering, 10 GB, 2 concurrent jobs. Pro $25/month — 800 credits/mo, 12 hrs, 50 GB, 3 jobs. Studio $100/month — 2,900 credits/mo, 60 hrs, 250 GB, 8 jobs. Official credit packs: 100=$2, 250=$4.75, 500=$9, 1,000=$17, 2,500=$40, 5,000=$75 (top-up credits never expire). Desktop app for Windows, Mac and Linux — transcription, background removal and exports that run on your computer are free forever, no credits and no watermark. Source: official site www.arsaze.com, verified 2026-11-16.",
+    "pricing_en": "Free 0 €/month — 50 one-time welcome AI credits for audio analysis only, 1 hr/month cloud rendering, 2 GB storage, 1 concurrent AI job. Basic 5 €/month — 150 AI credits/month, all AI features, 2.5 hrs cloud rendering, 10 GB, 2 concurrent jobs. Pro 23 €/month — 800 credits/month, 12 hrs, 50 GB, 3 jobs. Studio 90 €/month — 2,900 credits/month, 60 hrs, 250 GB, 8 jobs. Official credit packs: 100=2 €, 250=4 €, 500=8 €, 1,000=15 €, 2,500=36 €, 5,000=68 € (top-up credits never expire). Local desktop features (transcription, background removal and exports on your computer) are free forever, no credits and no watermark.",
+    "pricing_fr": "Gratuit 0 €/mois — 50 crédits IA de bienvenue une fois, pour l’analyse audio seulement, 1 h/mois de rendu cloud, 2 Go de stockage, 1 tâche IA à la fois. Basic 5 €/mois — 150 crédits IA/mois, toutes les fonctions IA, 2,5 h de rendu cloud, 10 Go, 2 tâches en parallèle. Pro 23 €/mois — 800 crédits/mois, 12 h, 50 Go, 3 tâches. Studio 90 €/mois — 2 900 crédits/mois, 60 h, 250 Go, 8 tâches. Packs de crédits : 100=2 €, 250=4 €, 500=8 €, 1 000=15 €, 2 500=36 €, 5 000=68 € (les crédits de recharge n’expirent pas). Les fonctions locales de l’app desktop (transcription, détourage et exports sur ton ordinateur) sont gratuites pour toujours, sans crédits et sans filigrane.",
+    "howTo_en": [
+      "Open arsaze.com and start Free (the full local editor forever).",
+      "Edit on the desktop app without credits: cut silences and filler words, add captions timed to every word, press Tab to repeat edits.",
+      "Upgrade to Basic, Pro or Studio only if you need monthly AI credits or cloud rendering."
+    ],
+    "howTo_fr": [
+      "Ouvre arsaze.com et commence l’offre Gratuite (l’éditeur local complet pour toujours).",
+      "Monte dans l’app desktop sans crédits : coupe les silences et les tics de langage, ajoute des sous-titres calés sur chaque mot, appuie sur Tab pour répéter les edits.",
+      "Passe à Basic, Pro ou Studio seulement si tu as besoin de crédits IA mensuels ou du rendu cloud."
+    ],
+    "features_en": [
+      "Full video editor for creators: cut silences and filler words, captions timed to every word, Tab to repeat edits",
+      "Complete editor (timeline, color, audio, captions, delivery) on every plan; Windows, Mac and Linux",
+      "Local transcription, background removal and exports are free forever, no credits and no watermark",
+      "Optional AI assistant connector for Claude, ChatGPT or Grok"
+    ],
+    "features_fr": [
+      "Éditeur vidéo complet pour créateurs : couper les silences et les tics, sous-titres calés sur chaque mot, Tab pour répéter les edits",
+      "Éditeur complet (timeline, couleur, audio, sous-titres, livraison) sur chaque offre ; Windows, Mac et Linux",
+      "Transcription locale, détourage et exports gratuits pour toujours, sans crédits et sans filigrane",
+      "Connecteur d’assistant IA optionnel pour Claude, ChatGPT ou Grok"
+    ],
+    "short_fr": "Éditeur vidéo complet pour créateurs et monteur·euses : couper les silences et les tics de langage, ajouter des sous-titres calés sur chaque mot, et appuyer sur Tab pour répéter les edits. Les fonctions locales de l’app desktop sont gratuites pour toujours.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Prix officiels en USD ; paiement INR possible via Razorpay (le relevé carte peut légèrement différer, comme indiqué). Les montants INR ne sont pas convertis.",
+      "Nouveauté moyenne (octobre 2026)."
+    ],
+    "url": "https://www.arsaze.com/",
+    "official_url": "https://www.arsaze.com/",
+    "official_url_final": "https://www.arsaze.com/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Full video editor for creators and editors: cut silences and filler words, add captions timed to every word, and press Tab to repeat edits. Local desktop features are free forever."
+  },
+  {
+    "slug": "antelog",
+    "name": "Antelog",
+    "category": "Security",
+    "category_note": "Couche de sécurité / garde-fous pour agents de code IA. Security (AI/LLM security) ; Coding & Dev Tools serait une alternative.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Starter $0 (page also shows a struck-through $10) — try it on your computer, 10,000 AI checks a month, 14 days of history, online dashboard, install free. Pro $15/month or $99 a year (official save 45%) — everything in Starter, 100,000 AI checks a month, up to 70% fewer false alarms, 1 year of history, email support. Team custom (unlimited checks, company rules, audit log and CSV export, SSO and self-hosting on request). Source: official site antelog.dev, verified 2026-11-16.",
+    "pricing_en": "Starter 0 € (the page also shows a struck-through 9 €) — try it on your computer, 10,000 AI checks a month, 14 days of history, online dashboard, install free. Pro 14 €/month, or 90 € a year (official save 45%) — everything in Starter, 100,000 AI checks a month, up to 70% fewer false alarms, 1 year of history, email support. Team custom (unlimited checks, company rules, audit log and CSV export, SSO and self-hosting on request).",
+    "pricing_fr": "Starter 0 € (la page affiche aussi 9 € barrés) — à essayer sur ton ordinateur, 10 000 contrôles IA par mois, 14 jours d’historique, tableau de bord en ligne, installation gratuite. Pro 14 €/mois, ou 90 € par an (économie officielle de 45 %) — tout Starter, 100 000 contrôles IA par mois, jusqu’à 70 % de fausses alertes en moins, 1 an d’historique, support e-mail. Team sur devis (contrôles illimités, règles d’entreprise, journal d’audit et export CSV, SSO et auto-hébergement sur demande).",
+    "howTo_en": [
+      "Open antelog.dev and install the official Free/Starter command.",
+      "Let it write down and check each agent action, and stop dangerous commands before they run.",
+      "Upgrade to Pro if you need more monthly checks and longer history."
+    ],
+    "howTo_fr": [
+      "Ouvre antelog.dev et installe la commande officielle Gratuite/Starter.",
+      "Laisse-la consigner et vérifier chaque action de l’agent, et bloquer les commandes dangereuses avant qu’elles ne s’exécutent.",
+      "Passe à Pro si tu as besoin de plus de contrôles mensuels et d’un historique plus long."
+    ],
+    "features_en": [
+      "Safety layer for AI coding agents: records every action the agent wants to take, checks it, and stops dangerous commands",
+      "Official examples include blocking leaks, deleting production data, wiping home/project folders, force-pushes and key leaks",
+      "Works with Claude Code, Cursor and other agents; online dashboard",
+      "Starter is free to install on your machine"
+    ],
+    "features_fr": [
+      "Couche de sécurité pour agents de code IA : consigne chaque action prévue, la vérifie, et bloque les commandes dangereuses",
+      "Exemples officiels : blocage des fuites, suppression de données de production, effacement de dossiers home/projet, force-push et fuite de clés",
+      "Fonctionne avec Claude Code, Cursor et d’autres agents ; tableau de bord en ligne",
+      "Starter s’installe gratuitement sur ta machine"
+    ],
+    "short_fr": "Couche de sécurité pour agents de code IA : consigne chaque action prévue, la vérifie, et bloque les commandes dangereuses avant qu’elles ne s’exécutent. Installation gratuite sur ta machine.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Starter est bien à 0 $ ; la page affiche aussi 10 $ barrés (présentation marketing, pas une promo sur une offre payante).",
+      "Logo : favicon SVG officiel (viewBox ~48×52), rastérisé en vectoriel — rendu net, source petite."
+    ],
+    "url": "https://antelog.dev/",
+    "official_url": "https://antelog.dev/",
+    "official_url_final": "https://antelog.dev/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Safety layer for AI coding agents: writes down every action the agent wants to take, checks it, and stops dangerous commands before they run. Free to install on your machine."
+  },
+  {
+    "slug": "nomac",
+    "name": "NoMac",
+    "category": "Coding & Dev Tools",
+    "category_note": "Mac cloud à la demande pour agents IA (Xcode, sessions, simulateurs). Coding & Dev Tools.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Pay as you go $0.90/hour billed per minute, from $10 prepaid credit that never expires; no subscription; as low as $0.60 an hour on bigger purchases (official). 7-day money-back guarantee on the first purchase (official). No lasting Free plan was stated. Session (full Mac sandbox) and Simulator (cloud iPhone/iPad) at the same hourly rate. Source: official site nomac.app, verified 2026-11-16.",
+    "pricing_en": "Pay as you go 1 €/hour, billed per minute, from a 9 € prepaid credit that never expires; no subscription. 7-day money-back guarantee on the first purchase. Session (full Mac sandbox) and Simulator (cloud iPhone/iPad) at the same hourly rate.",
+    "pricing_fr": "Paiement à l’usage 1 €/heure, facturé à la minute, à partir d’un crédit prépayé de 9 € qui n’expire pas ; pas d’abonnement. Garantie satisfait ou remboursé de 7 jours sur le premier achat. Session (sandbox Mac complète) et Simulator (iPhone/iPad cloud) au même tarif horaire.",
+    "howTo_en": [
+      "Open nomac.app and buy a prepaid credit starting at 9 €.",
+      "Let your agent start a Session or Simulator over MCP, CLI, API or SSH.",
+      "Stop the machine when the build is done (billed per minute)."
+    ],
+    "howTo_fr": [
+      "Ouvre nomac.app et achète un crédit prépayé à partir de 9 €.",
+      "Laisse ton agent démarrer une Session ou un Simulator via MCP, CLI, API ou SSH.",
+      "Arrête la machine quand le build est terminé (facturé à la minute)."
+    ],
+    "features_en": [
+      "On-demand cloud Mac for AI agents: a real macOS machine with Xcode starts in about a minute",
+      "Apple silicon; Homebrew, Node, Python and CocoaPods; MCP, CLI, API or SSH",
+      "Session (full Mac sandbox) and Simulator (cloud iPhone/iPad) at the same hourly rate",
+      "Pay as you go, prepaid credit that never expires, no subscription; 7-day money-back on the first purchase"
+    ],
+    "features_fr": [
+      "Mac cloud à la demande pour agents IA : une vraie machine macOS avec Xcode démarre en environ une minute",
+      "Apple silicon ; Homebrew, Node, Python et CocoaPods ; MCP, CLI, API ou SSH",
+      "Session (sandbox Mac complète) et Simulator (iPhone/iPad cloud) au même tarif horaire",
+      "Paiement à l’usage, crédit prépayé sans expiration, pas d’abonnement ; satisfait ou remboursé 7 jours sur le premier achat"
+    ],
+    "short_fr": "Mac cloud à la demande pour agents IA : une vraie machine macOS avec Xcode démarre en environ une minute, l’agent construit et publie une app Apple, puis la machine peut être supprimée. Paiement à l’usage.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Labellé Premium : pas d’offre Gratuite durable.",
+      "0,90 $/heure et « as low as 0,60 $/heure » arrondissent tous les deux à 1 €/heure. Le tarif de base est affiché 1 €/heure ; le tarif inférieur reste détaillé dans pricing_usd_official pour ne pas collapser deux prix officiels distincts en un seul chiffre euro trompeur."
+    ],
+    "url": "https://nomac.app/",
+    "official_url": "https://nomac.app/",
+    "official_url_final": "https://nomac.app/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "On-demand cloud Mac for AI agents: a real macOS machine with Xcode starts in about a minute, your agent builds and ships an Apple app, then the machine can be deleted. Pay as you go."
+  },
+  {
+    "slug": "alkera",
+    "name": "Alkera",
+    "category": "Data & Analytics",
+    "category_note": "Plateforme de données agentique (ingénierie, analyse, data science) en espaces multi-joueurs. Data & Analytics.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0 free forever — 10 GB storage, limited usage, native integrations. Plus $50/month — 1 TB storage, extra usage, access to all models. Pro $200/month — 5 TB storage, significantly increased usage, dedicated support, early access to new features. Enterprise custom (SSO/SAML, SCIM & IAM, audit logs, VPC and on-prem, ZDR, data residency, SLAs). Footer: Alkera AI, Inc. (country not separately stated in JSON-LD). Official Databench open-source mention on the pricing footer. Source: official site www.alkera.ai/pricing, verified 2026-11-16.",
+    "pricing_en": "Free 0 €, free forever — 10 GB storage, limited usage, native integrations. Plus 45 €/month — 1 TB storage, extra usage, access to all models. Pro 181 €/month — 5 TB storage, significantly increased usage, dedicated support, early access to new features. Enterprise custom (SSO/SAML, SCIM & IAM, audit logs, VPC and on-prem, ZDR, data residency, SLAs).",
+    "pricing_fr": "Gratuit 0 €, gratuit pour toujours — 10 Go de stockage, usage limité, intégrations natives. Plus 45 €/mois — 1 To de stockage, usage supplémentaire, accès à tous les modèles. Pro 181 €/mois — 5 To de stockage, usage nettement augmenté, support dédié, accès anticipé aux nouvelles fonctions. Enterprise sur devis (SSO/SAML, SCIM et IAM, journaux d’audit, VPC et on-prem, ZDR, résidence des données, SLA).",
+    "howTo_en": [
+      "Open alkera.ai/pricing and start Free forever.",
+      "Connect your data stack and work with people and agents in a shared workspace.",
+      "Upgrade to Plus or Pro when you need more storage, usage or models."
+    ],
+    "howTo_fr": [
+      "Ouvre alkera.ai/pricing et commence l’offre Gratuite, pour toujours.",
+      "Connecte ta stack data et travaille avec des personnes et des agents dans un espace partagé.",
+      "Passe à Plus ou Pro si tu as besoin de plus de stockage, d’usage ou de modèles."
+    ],
+    "features_en": [
+      "Agentic data platform: data engineering, analysis and science in collaborative multiplayer workspaces",
+      "Built for humans and agents on the same data stack; native integrations",
+      "Free forever plan included",
+      "Official Databench open-source mention on the pricing footer"
+    ],
+    "features_fr": [
+      "Plateforme de données agentique : ingénierie, analyse et data science dans des espaces collaboratifs multi-joueurs",
+      "Pensée pour les humains et les agents sur la même stack data ; intégrations natives",
+      "Offre Gratuite pour toujours incluse",
+      "Open source Databench, mentionné en pied de page tarifs"
+    ],
+    "short_fr": "Plateforme de données agentique qui réunit ingénierie, analyse et data science dans des espaces de travail collaboratifs multi-joueurs, pour les humains et les agents.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Pied de page : Alkera AI, Inc. (pays non indiqué séparément dans le JSON-LD) — hqCountry laissé vide.",
+      "Nouveauté moyenne (octobre 2026)."
+    ],
+    "url": "https://www.alkera.ai/",
+    "official_url": "https://www.alkera.ai/",
+    "official_url_final": "https://www.alkera.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Agentic data platform that brings data engineering, analysis and science into collaborative multiplayer workspaces for humans and agents."
+  },
+  {
+    "slug": "corespeed",
+    "name": "CoreSpeed",
+    "category": "AI Agents",
+    "category_note": "Cloud natif pour agents (outils, mémoire d’équipe, sandbox). AI Agents ; Coding & Dev Tools serait une alternative.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0 — 3,000 credits / 90 days, 1 member, 1 small cloud sandbox and 1 routine, 200 MB memory, 30-day history. Pro $20/month — 10,000 credits/month, additional usage as needed, up to 5 members, 3 sandboxes (up to standard) and 10 routines, 2 GB memory, 1-year history. Team $200/month — 100,000 credits/month, up to 50 members, 10 sandboxes (up to large) and 50 routines. Enterprise custom. Dollar figures in in-product demo tables are not plan prices. Source: official site corespeed.io, verified 2026-11-16.",
+    "pricing_en": "Free 0 € — 3,000 credits / 90 days, 1 member, 1 small cloud sandbox and 1 routine, 200 MB memory, 30-day history. Pro 18 €/month — 10,000 credits/month, additional usage as needed, up to 5 members, 3 sandboxes (up to standard) and 10 routines, 2 GB memory, 1-year history. Team 181 €/month — 100,000 credits/month, up to 50 members, 10 sandboxes (up to large) and 50 routines. Enterprise custom.",
+    "pricing_fr": "Gratuit 0 € — 3 000 crédits / 90 jours, 1 membre, 1 petit sandbox cloud et 1 routine, 200 Mo de mémoire, 30 jours d’historique. Pro 18 €/mois — 10 000 crédits/mois, usage supplémentaire selon besoin, jusqu’à 5 membres, 3 sandboxes (jusqu’au format standard) et 10 routines, 2 Go de mémoire, 1 an d’historique. Team 181 €/mois — 100 000 crédits/mois, jusqu’à 50 membres, 10 sandboxes (jusqu’au format large) et 50 routines. Enterprise sur devis.",
+    "howTo_en": [
+      "Open corespeed.io and start Free with 3,000 credits for 90 days.",
+      "Connect your agent with the official one-line setup, so it gets tools, team memory and a cloud sandbox.",
+      "Upgrade to Pro or Team if you need monthly credits and more sandboxes."
+    ],
+    "howTo_fr": [
+      "Ouvre corespeed.io et commence l’offre Gratuite, avec 3 000 crédits pour 90 jours.",
+      "Connecte ton agent avec la config officielle en une ligne, pour lui donner des outils, la mémoire de l’équipe et un sandbox cloud.",
+      "Passe à Pro ou Team si tu as besoin de crédits mensuels et de plus de sandboxes."
+    ],
+    "features_en": [
+      "Agent-native cloud: paste one line into your agent and it gets thousands of tools, your team’s memory, and a cloud sandbox",
+      "Usage-based surface; standard connectors; routines",
+      "Free plan with 3,000 credits for 90 days"
+    ],
+    "features_fr": [
+      "Cloud natif pour agents : colle une ligne dans ton agent pour lui donner des milliers d’outils, la mémoire de l’équipe et un sandbox cloud",
+      "Surface à l’usage ; connecteurs standard ; routines",
+      "Offre Gratuite avec 3 000 crédits pour 90 jours"
+    ],
+    "short_fr": "Cloud natif pour agents : colle une ligne dans ton agent pour lui donner des milliers d’outils, la mémoire de l’équipe, et un sandbox cloud où s’exécuter.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Nouveauté moyenne (octobre 2026).",
+      "Les montants des tableaux de démo in-product ne sont pas des tarifs d’offre."
+    ],
+    "url": "https://corespeed.io/",
+    "official_url": "https://corespeed.io/",
+    "official_url_final": "https://corespeed.io/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Agent-native cloud: paste one line into your agent and it gets thousands of tools, your team’s memory, and a cloud sandbox to run in."
+  },
+  {
+    "slug": "genpage",
+    "name": "GenPage",
+    "category": "Marketing & SEO",
+    "category_note": "Landing pages personnalisées par pub, mot-clé et compte, avec tests Autopilot. Marketing & SEO ; No-code & App Builders serait une alternative.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0/month — 100 credits/mo, 1 seat, 1 workspace. Pro $79/month — 500 credits/mo, unlimited seats, 1 workspace. Scale $249/month — 2,500 credits/mo, unlimited seats and workspaces. Ultimate custom. Additional credits from $25 / 100. Ads Module from $399/mo (official add-on starting price; the public table also marks it included on a higher tier — the exact included tier is not restated here to avoid guessing). Source: official site www.genpage.ai/pricing, verified 2026-11-16.",
+    "pricing_en": "Free 0 €/month — 100 credits/month, 1 seat, 1 workspace. Pro 71 €/month — 500 credits/month, unlimited seats, 1 workspace. Scale 225 €/month — 2,500 credits/month, unlimited seats and workspaces. Ultimate custom. Additional credits from 23 € / 100. Ads Module from 361 €/month (official add-on starting price; the public table also marks it included on a higher tier — the exact included tier is not restated here, to avoid guessing).",
+    "pricing_fr": "Gratuit 0 €/mois — 100 crédits/mois, 1 siège, 1 espace de travail. Pro 71 €/mois — 500 crédits/mois, sièges illimités, 1 espace de travail. Scale 225 €/mois — 2 500 crédits/mois, sièges et espaces illimités. Ultimate sur devis. Crédits supplémentaires à partir de 23 € / 100. Module Ads à partir de 361 €/mois (prix de départ officiel de l’add-on ; le tableau public le marque aussi comme inclus sur un palier supérieur — le palier exact n’est pas repris ici, pour éviter de deviner).",
+    "howTo_en": [
+      "Open genpage.ai/pricing and start Free.",
+      "Let it learn your brand and generate a first personalized landing page for an ad, keyword or account.",
+      "Upgrade to Pro or Scale if you need more monthly credits or the ads module."
+    ],
+    "howTo_fr": [
+      "Ouvre genpage.ai/pricing et commence l’offre Gratuite.",
+      "Laisse l’outil apprendre ta marque et génère une première landing page personnalisée pour une pub, un mot-clé ou un compte.",
+      "Passe à Pro ou Scale si tu as besoin de plus de crédits mensuels ou du module ads."
+    ],
+    "features_en": [
+      "Landing-page platform for marketing teams: a dedicated page for every ad, keyword and account",
+      "Learns your brand, then A–Z tests each page on Autopilot",
+      "Unlimited published pages and templates on listed plans",
+      "Free plan included"
+    ],
+    "features_fr": [
+      "Plateforme de landing pages pour équipes marketing : une page dédiée pour chaque pub, mot-clé et compte",
+      "Apprend ta marque, puis teste chaque page de A à Z en Autopilot",
+      "Pages publiées et modèles illimités sur les offres listées",
+      "Offre Gratuite incluse"
+    ],
+    "short_fr": "Plateforme de landing pages pour équipes marketing : apprend ta marque, crée une page dédiée pour chaque pub, mot-clé et compte, puis les teste de A à Z en Autopilot.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Nouveauté moyenne (octobre 2026).",
+      "Module Ads : prix de départ officiel 399 $/mois. Le palier exact où il serait inclus n’est pas reformulé, pour ne pas deviner."
+    ],
+    "url": "https://www.genpage.ai/",
+    "official_url": "https://www.genpage.ai/",
+    "official_url_final": "https://www.genpage.ai/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Landing-page platform for marketing teams: learns your brand, builds a dedicated page for every ad, keyword and account, then A–Z tests each one on Autopilot."
+  },
+  {
+    "slug": "synter",
+    "name": "Synter",
+    "category": "Coding & Dev Tools",
+    "category_note": "De l’idée à la spec, la roadmap, les tâches, puis le code. Coding & Dev Tools ; No-code & App Builders serait une alternative.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0, no credit card — 1 project, 5 features per project, community support. Pro $14/seat/mo billed monthly, or $10/seat/mo on the annual plan ($120/year), official Save 29% — up to 20 projects, unlimited features, unlimited build sessions, priority AI generation, real-time collaboration, team invitations and roles, AI memory, priority support. Enterprise custom (SSO/SAML, audit logs, data residency, SLA). Source: official site synter.ai (English at synter.ai/en), verified 2026-11-16.",
+    "pricing_en": "Free 0 €, no credit card — 1 project, 5 features per project, community support. Pro 13 €/seat/month billed monthly, or 9 €/seat/month on the annual plan (109 €/year), official Save 29% — up to 20 projects, unlimited features, unlimited build sessions, priority AI generation, real-time collaboration, team invitations and roles, AI memory, priority support. Enterprise custom (SSO/SAML, audit logs, data residency, SLA).",
+    "pricing_fr": "Gratuit 0 €, sans carte — 1 projet, 5 fonctionnalités par projet, support communautaire. Pro 13 €/siège/mois facturé au mois, ou 9 €/siège/mois sur l’offre annuelle (109 €/an), économie officielle de 29 % — jusqu’à 20 projets, fonctionnalités illimitées, sessions de build illimitées, génération IA prioritaire, collaboration en temps réel, invitations et rôles d’équipe, mémoire IA, support prioritaire. Enterprise sur devis (SSO/SAML, journaux d’audit, résidence des données, SLA).",
+    "howTo_en": [
+      "Open synter.ai (English at synter.ai/en) and start Free with no card.",
+      "Describe the software idea in plain language and generate the foundation, spec, roadmap and tasks, then the code.",
+      "Upgrade to Pro per seat if you need more projects, collaboration and priority generation."
+    ],
+    "howTo_fr": [
+      "Ouvre synter.ai (version anglaise sur synter.ai/en) et commence l’offre Gratuite, sans carte.",
+      "Décris l’idée logicielle en langage naturel et génère la fondation, la spec, la roadmap et les tâches, puis le code.",
+      "Passe à Pro par siège si tu as besoin de plus de projets, de la collaboration et de la génération prioritaire."
+    ],
+    "features_en": [
+      "Describe a software idea in plain English; Synter writes the spec, the roadmap, the tasks, and then the code",
+      "Foundation generation, AI specification writing, build sessions and GitHub integration",
+      "Free to start, no credit card",
+      "Pro monthly or official annual plan (Save 29%)"
+    ],
+    "features_fr": [
+      "Décris une idée logicielle en langage naturel ; Synter rédige la spécification, la roadmap, les tâches, puis le code",
+      "Génération de la fondation, rédaction de spec IA, sessions de build et intégration GitHub",
+      "Gratuit pour commencer, sans carte",
+      "Pro au mois, ou offre annuelle officielle (économie de 29 %)"
+    ],
+    "short_fr": "Décris une idée logicielle en langage naturel ; Synter rédige la spécification, la roadmap, les tâches, puis le code. Gratuit pour commencer, sans carte bancaire.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "official_url https://synter.ai/ redirige vers https://synter.ai/en (vitrine anglaise à utiliser pour les captures). official_url reste la racine.",
+      "Logo : seul un favicon officiel 48×48 était disponible comme marque carrée (le logo.svg est un wordmark 600×176) — un peu upscalé, à signaler."
+    ],
+    "url": "https://synter.ai/",
+    "official_url": "https://synter.ai/",
+    "official_url_final": "https://synter.ai/en",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Describe a software idea in plain English; Synter writes the spec, the roadmap, the tasks, and then the code. Free to start, no credit card."
+  },
+  {
+    "slug": "clocknext",
+    "name": "Clocknext",
+    "category": "Finance & Accounting",
+    "category_note": "Facturation à l’usage pour agents IA (crédits, metering, factures). Finance & Accounting (automatisation comptable / facturation) ; Productivity & Workspace serait une alternative. À confirmer.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0 forever — up to $100k billed revenue/year, unlimited products and plans. Pro $300/mo billed monthly — up to $250k billed revenue/year, 1:1 Slack support. Business $500/mo — up to $500k, 1:1 Slack support. Premium $900/mo — up to $1M, 1:1 Slack support and priority onboarding. Custom with no revenue cap. Official note: every plan offers the complete product experience (no feature-gating). Paid plans start with a free trial (official). Annual billing is offered at “Save 20% annually”; exact yearly totals were not spelled out on the page and are left unlisted. Source: official site www.clocknext.com/pricing, verified 2026-11-16.",
+    "pricing_en": "Free 0 € forever — up to 90,481 € billed revenue/year, unlimited products and plans. Pro 271 €/month billed monthly — up to 226,203 € billed revenue/year, 1:1 Slack support. Business 452 €/month — up to 452,407 €, 1:1 Slack support. Premium 814 €/month — up to 904,814 €, 1:1 Slack support and priority onboarding. Custom with no revenue cap. Every plan offers the complete product experience (no feature-gating). Paid plans start with a free trial. Annual billing is offered as “Save 20% annually”.",
+    "pricing_fr": "Gratuit 0 € pour toujours — jusqu’à 90 481 € de revenu facturé/an, produits et offres illimités. Pro 271 €/mois facturé au mois — jusqu’à 226 203 € de revenu facturé/an, support Slack en 1:1. Business 452 €/mois — jusqu’à 452 407 €, support Slack en 1:1. Premium 814 €/mois — jusqu’à 904 814 €, support Slack en 1:1 et onboarding prioritaire. Custom sans plafond de revenu. Chaque offre donne l’expérience produit complète (pas de fonctions verrouillées). Les offres payantes commencent par un essai gratuit. La facturation annuelle est proposée comme « Save 20 % annually ».",
+    "howTo_en": [
+      "Open clocknext.com/pricing and start Free (up to the official billed-revenue cap).",
+      "Meter your agent’s usage, set credits and wallets, and issue invoices.",
+      "Start a paid-plan trial if your billed revenue needs a higher cap. Annual totals are not invented."
+    ],
+    "howTo_fr": [
+      "Ouvre clocknext.com/pricing et commence l’offre Gratuite (jusqu’au plafond officiel de revenu facturé).",
+      "Mesure l’usage de ton agent, règle crédits et wallets, et émets des factures.",
+      "Commence un essai d’offre payante si ton revenu facturé a besoin d’un plafond plus élevé. Les totaux annuels ne sont pas inventés."
+    ],
+    "features_en": [
+      "Usage-based billing for AI agents: credits and wallets, metering, outcome pricing and live price changes",
+      "No per-seat maths and no feature-gating between plans (official)",
+      "Prepaid and postpaid invoicing",
+      "Free forever up to a billed-revenue cap; annual billing with savings"
+    ],
+    "features_fr": [
+      "Facturation à l’usage pour agents IA : crédits et wallets, metering, prix à l’outcome et changements de prix en direct",
+      "Pas de calcul par siège et pas de fonctions verrouillées selon l’offre (officiel)",
+      "Facturation prépayée et postpayée",
+      "Gratuit pour toujours jusqu’à un plafond de revenu facturé ; facturation annuelle avec économies"
+    ],
+    "short_fr": "Facturation à l’usage pour agents IA : crédits et wallets, metering, prix à l’outcome et changements de prix en direct, sans calcul par siège et sans fonctions verrouillées selon l’offre.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Pas de totaux annuels inventés (« Save 20% annually » sans barème annuel chiffré).",
+      "Les plafonds de revenu facturé (100 k$ / 250 k$ / 500 k$ / 1 M$) sont convertis en euros, comme les autres montants officiels en dollars.",
+      "Catégorie un peu ouverte : Finance & Accounting retenu (facturation / metering) ; Productivity & Workspace serait une alternative. À confirmer."
+    ],
+    "url": "https://www.clocknext.com/",
+    "official_url": "https://www.clocknext.com/",
+    "official_url_final": "https://www.clocknext.com/",
+    "source_csv": "2026-11-16-lot.csv",
+    "short_en": "Usage-based billing for AI agents: credits and wallets, metering, outcome pricing and live price changes, with no per-seat maths and no feature-gating between plans."
+  }
+]

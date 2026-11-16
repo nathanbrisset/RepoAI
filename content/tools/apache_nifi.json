@@ -17,14 +17,12 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/apache_nifi.png",
   "image": "/screenshots/apache_nifi.webp",
   "dateAdded": null,
   "lastVerified": "2026-10-29",
-  "dateAddedNote": "The previous Added date was 2015-07-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Visual Flow-Based Programming: Drag-and-drop interface for building data flows.",
     "Real-Time Processing: Handles streaming and batch data.",
@@ -53,9 +51,9 @@
   ],
   "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
   "features_fr": [
-    "Programmation basée sur les flux visuels : interface glisser-déposer pour créer des flux de données.",
-    "Traitement en temps réel : gère les données en streaming et par lots.",
-    "Bibliothèque de processeurs extensibles : large gamme de processeurs intégrés et personnalisés.",
-    "Fonctionnalités de sécurité : cryptage des données, contrôle d'accès et journaux d'audit."
+    "Programmation basée sur les flux visuels: interface glisser-déposer pour créer des flux de données.",
+    "Traitement en temps réel: gère les données en streaming et par lots.",
+    "Bibliothèque de processeurs extensibles: large gamme de processeurs intégrés et personnalisés.",
+    "Fonctionnalités de sécurité: cryptage des données, contrôle d'accès et journaux d'audit."
   ]
 }

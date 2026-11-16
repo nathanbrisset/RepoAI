@@ -1,3 +1,5 @@
+import { getSiteRedirects } from "./lib/routing/site-redirects.mjs"
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -41,6 +43,7 @@ const nextConfig = {
       },
     ]
   },
+  redirects: getSiteRedirects,
 }
 
 export default nextConfig 
