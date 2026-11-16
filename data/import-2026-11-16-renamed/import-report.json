@@ -1,5 +1,13 @@
 {
   "date": "2026-11-16",
+  "deliverSlugs": [
+    "autosheet",
+    "treblo",
+    "async",
+    "anarlog",
+    "arena",
+    "opera-ai"
+  ],
   "toolIds": [
     "autosheet",
     "treblo",
@@ -8,17 +16,157 @@
     "arena",
     "opera-ai"
   ],
-  "categoryById": {
-    "autosheet": "data",
-    "treblo": "music",
-    "async": "video",
-    "anarlog": "meetings",
-    "arena": "llm-chatbots",
-    "opera-ai": "llm-chatbots"
-  },
+  "idRenames": [],
+  "homonyms": [],
+  "skipped": [],
+  "toolsWritten": 6,
+  "toolFiles": 1231,
   "md5Verified": true,
-  "activeCountAfter": 1162,
-  "referenceUpdates": [],
-  "visitorCopy": "pass",
-  "buildBranch": "pass"
+  "catalogIndexRegenerated": true,
+  "forbiddenExcluded": [],
+  "categoryMappings": {
+    "Data & Analytics": "data",
+    "Music & Audio": "music",
+    "Video": "video",
+    "Meetings & Notes": "meetings",
+    "LLM & Chatbots": "llm-chatbots"
+  },
+  "currencyLeakCheck": "pass",
+  "visibleWorkingNotesGuard": "pass",
+  "peerLotIdsChecked": [
+    "hiringnow",
+    "plurai-simulation",
+    "spacefast",
+    "rakazo",
+    "yogurt",
+    "beam-win",
+    "velozity",
+    "kodlo",
+    "pancake",
+    "navige",
+    "opengeni",
+    "tadata",
+    "ferndesk",
+    "naise-ai",
+    "simular",
+    "three-dev",
+    "mister-blocks",
+    "gatrends",
+    "qorqbot",
+    "paxper",
+    "burnstate",
+    "nameshot",
+    "pexo",
+    "pomerado",
+    "replyhey",
+    "busabase",
+    "neura",
+    "stroq",
+    "onepin",
+    "zernio",
+    "canyonos",
+    "agentrun",
+    "arsaze",
+    "antelog",
+    "nomac",
+    "alkera",
+    "corespeed",
+    "genpage",
+    "synter",
+    "clocknext",
+    "cleanup-pictures",
+    "palette-fm",
+    "generated-photos",
+    "upscale-media",
+    "kickresume",
+    "rezi",
+    "huntr",
+    "teal",
+    "jobscan",
+    "resume-io",
+    "eduaide",
+    "explainpaper",
+    "anara",
+    "shortly-ai",
+    "textcortex",
+    "linguix",
+    "askyourpdf",
+    "teachmate",
+    "brain-fm",
+    "audo",
+    "transkriptor",
+    "joggai",
+    "2short-ai",
+    "logoai",
+    "presentations-ai",
+    "slidesgo",
+    "postwise",
+    "finaloop",
+    "puzzle",
+    "finta"
+  ],
+  "howToTitleIssues": {},
+  "howToTitleCheck": "pass",
+  "localLogosCheck": {
+    "lotIds": 6,
+    "missingFromLocalLogos": [],
+    "missingFromCatalogIndex": [],
+    "pass": true
+  },
+  "renamedMap": {
+    "autosheet": "gpt-for-sheets",
+    "treblo": "sonauto",
+    "async": "podcastle",
+    "anarlog": "hyprnote",
+    "arena": "lmarena",
+    "opera-ai": "opera-aria"
+  },
+  "renameUpdates": [
+    {
+      "oldId": "gpt-for-sheets",
+      "newId": "autosheet",
+      "statusNote": "Now Autosheet (formerly GPT for Sheets and Docs / GPT for Work)."
+    },
+    {
+      "oldId": "sonauto",
+      "newId": "treblo",
+      "statusNote": "Now Treblo (formerly Sonauto)."
+    },
+    {
+      "oldId": "podcastle",
+      "newId": "async",
+      "statusNote": "Now Async (formerly Podcastle)."
+    },
+    {
+      "oldId": "hyprnote",
+      "newId": "anarlog",
+      "statusNote": "Now Anarlog (formerly Hyprnote)."
+    },
+    {
+      "oldId": "lmarena",
+      "newId": "arena",
+      "statusNote": "Now Arena (formerly LMArena)."
+    },
+    {
+      "oldId": "opera-aria",
+      "newId": "opera-ai",
+      "statusNote": "Now Opera AI (formerly Opera Aria)."
+    }
+  ],
+  "referenceChanges": [],
+  "redirectPatch": {
+    "patched": true,
+    "pairs": {
+      "autosheet": "gpt-for-sheets",
+      "treblo": "sonauto",
+      "async": "podcastle",
+      "anarlog": "hyprnote",
+      "arena": "lmarena",
+      "opera-ai": "opera-aria"
+    }
+  },
+  "activeCount": {
+    "before": 1163,
+    "after": 1163
+  }
 }
