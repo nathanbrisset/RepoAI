@@ -1,0 +1,88 @@
+{
+  "id": "langfuse",
+  "name": "Langfuse",
+  "url": "https://langfuse.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source platform for tracing, evaluating and observing LLM apps and agents, with a free cloud Hobby plan and a self-hosted option.",
+  "description": "Open-source platform for tracing, evaluating and observing LLM apps and agents, with a free cloud Hobby plan and a self-hosted option.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "open-source",
+    "observability",
+    "llm",
+    "evals",
+    "tracing",
+    "agents"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://langfuse.com/pricing",
+    "details": "Langfuse Cloud: Hobby Free 0 €, no credit card — all platform features with limits, 50k units/month included, 30 days of data access, 2 users, community support via GitHub. Core 26 €/month — everything in Hobby, 100k units/month included then 7 €/100k (lower with volume), 90 days of data access, unlimited users, in-app support. Pro 180 €/month — everything in Core, 100k units included then 7 €/100k, 3 years of data access, retention management, high rate limits, SOC 2 and ISO 27001 reports, HIPAA-ready region, prioritized support. Optional Teams add-on 271 €/month (SSO, RBAC, dedicated Slack/Teams support). Enterprise 2,261 €/month (talk to sales). Startup, EDU and OSS discounts are mentioned without public amounts. Official self-hosting is also offered.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/langfuse.png",
+  "image": "/screenshots/langfuse.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Open-source tracing, evaluation and observability for LLM apps and agents, with an official self-host option",
+    "Traces and graphs, session and user tracking, token and cost tracking, plus prompt and evaluation tools",
+    "Hobby Cloud is free with limits; Core and Pro add volume, retention and in-app support",
+    "Langfuse has joined ClickHouse; Cloud pricing remains published on langfuse.com"
+  ],
+  "howToUse": [
+    {
+      "title": "Open langfuse.com and sign up for Hobby Cloud at 0 € with no card, or self-host.",
+      "description": "Open langfuse.com and sign up for Hobby Cloud at 0 € with no card, or self-host.",
+      "links": [
+        {
+          "label": "Langfuse",
+          "url": "https://langfuse.com/"
+        }
+      ]
+    },
+    {
+      "title": "Send a first trace from your LLM app or agent.",
+      "description": "Send a first trace from your LLM app or agent."
+    },
+    {
+      "title": "Upgrade to Core or Pro if you need more units, longer retention and in-app support.",
+      "description": "Upgrade to Core or Pro if you need more units, longer retention and in-app support. Startup, EDU and OSS discounts are mentioned without public amounts."
+    }
+  ],
+  "sources": [
+    "https://langfuse.com/pricing"
+  ],
+  "summary_fr": "Plateforme open source pour tracer, évaluer et observer tes apps et agents LLM, avec une offre cloud Hobby gratuite et une option auto-hébergée.",
+  "description_fr": "Plateforme open source pour tracer, évaluer et observer tes apps et agents LLM, avec une offre cloud Hobby gratuite et une option auto-hébergée.",
+  "features_fr": [
+    "Traçage, évaluation et observabilité open source pour apps et agents LLM, avec une option officielle d’auto-hébergement",
+    "Traces et graphes, suivi des sessions et des utilisateurs, suivi des tokens et des coûts, plus outils de prompts et d’évaluation",
+    "Hobby Cloud est gratuit avec des limites ; Core et Pro ajoutent du volume, de la conservation et le support in-app",
+    "Langfuse a rejoint ClickHouse ; la grille Cloud reste publiée sur langfuse.com"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre langfuse.com et inscris-toi à Hobby Cloud à 0 €, sans carte, ou auto-héberge.",
+      "description": "Ouvre langfuse.com et inscris-toi à Hobby Cloud à 0 €, sans carte, ou auto-héberge.",
+      "links": [
+        {
+          "label": "Langfuse",
+          "url": "https://langfuse.com/"
+        }
+      ]
+    },
+    {
+      "title": "Envoie une première trace depuis ton app ou ton agent LLM.",
+      "description": "Envoie une première trace depuis ton app ou ton agent LLM."
+    },
+    {
+      "title": "Passe à Core ou Pro si tu as besoin de plus d’unités, d’une conservation plus longue et...",
+      "description": "Passe à Core ou Pro si tu as besoin de plus d’unités, d’une conservation plus longue et du support in-app. Les remises startup, EDU et OSS sont mentionnées sans montants publics."
+    }
+  ]
+}
