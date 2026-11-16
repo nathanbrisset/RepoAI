@@ -1,7 +1,7 @@
 "use client"
 
 import { ArrowRight } from "lucide-react"
-import { useRouter, useSearchParams } from "next/navigation"
+import { useRouter } from "next/navigation"
 import LocaleLink from "@/components/locale-link"
 import { useLocale } from "@/components/locale-provider"
 import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
@@ -9,6 +9,7 @@ import { localizeHref } from "@/lib/i18n/paths"
 import { pricingLabel } from "@/lib/i18n/messages"
 import { PRICE_FILTERS, priceFilterParam, type PriceFilter } from "@/lib/price-filter"
 import { listingQueryHref, type CatalogQueryResult } from "@/lib/directory/catalog-query"
+import { activePriceFilter } from "@/lib/directory/listing-query-params"
 import { ListingPagination } from "./listing-pagination"
 import { ToolCard } from "./tool-card"
 
@@ -17,25 +18,27 @@ export function CategoryDetailClient({
   name,
   description,
   catalogPage,
+  pricing,
+  linkSearchParams,
 }: {
   categoryId: string
   name: string
   description: string
   catalogPage: CatalogQueryResult
+  pricing: string | null
+  linkSearchParams: URLSearchParams
 }) {
   const locale = useLocale()
   const t = directoryCopy(locale)
   const router = useRouter()
-  const searchParams = useSearchParams()
-  const pricing = searchParams.get("pricing")
-  const activePrice = PRICE_FILTERS.find((filter) => priceFilterParam(filter) === pricing) || null
+  const activePrice = activePriceFilter(pricing)
   const { items: visible, total } = catalogPage
   const categoryPath = `/categories/${categoryId}`
 
   function writePricing(next: PriceFilter | null) {
     const href = listingQueryHref(
       categoryPath,
-      searchParams,
+      linkSearchParams,
       { pricing: next ? priceFilterParam(next) : null },
       { resetPage: true },
     )
@@ -94,7 +97,7 @@ export function CategoryDetailClient({
               <ToolCard key={tool.id} tool={tool} index={index} />
             ))}
           </div>
-          <ListingPagination barePath={categoryPath} catalogPage={catalogPage} />
+          <ListingPagination barePath={categoryPath} catalogPage={catalogPage} linkSearchParams={linkSearchParams} />
         </>
       )}
     </main>
