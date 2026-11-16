@@ -6,6 +6,7 @@
     "dev": "next dev",
     "prebuild": "node scripts/run-prebuild-checks.mjs",
     "build": "node scripts/generate-fr-mirror-pages.mjs && npx tsx scripts/generate-known-paths-snapshot.ts && npx tsx scripts/check-known-paths-consistency.ts && next build && npx tsx scripts/check-404-page-assets.ts",
+    "test:sitemap-redirects": "npx tsx --test lib/routing/check-sitemap-redirects.test.ts",
     "start": "next start",
     "lint": "next lint",
     "catalog:check": "node scripts/catalog-index.mjs",

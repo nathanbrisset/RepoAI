@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next"
 import { resolvedCollections } from "@/lib/directory/data"
 import { editorialGuideSlugs } from "@/lib/directory/editorial-guides"
-import { categories, allTools } from "@/lib/data"
+import { allTools } from "@/lib/catalog"
+import { categoryCatalog } from "@/lib/category-meta"
 import { PAGE_LOCALE_EN, PAGE_LOCALE_FR } from "@/lib/i18n/page-locale"
 import { absoluteUrl, languageAlternates } from "@/lib/i18n/paths"
 
@@ -38,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const collectionPaths = [...collectionSlugs].map((slug) => ({ path: `/collections/${slug}` }))
   const pages: { path: string; lastModified?: Date }[] = [
     ...STATIC_PATHS.map((path) => ({ path })),
-    ...categories.map((category) => ({ path: `/categories/${category.id}` })),
+    ...categoryCatalog.map((category) => ({ path: `/categories/${category.id}` })),
     ...collectionPaths,
     ...editorialGuideSlugs().map((slug) => ({ path: `/guides/${slug}` })),
     ...allTools
