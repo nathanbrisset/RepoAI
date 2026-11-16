@@ -23,7 +23,8 @@
   "image": "/tool-screenshots/phind.png",
   "dateAdded": "2025-06-04",
   "lastVerified": "2026-10-21",
-  "statusNote": "phind.com may return a deployment error; search features were sunset per vendor notices in 2026.",
+  "statusNote": "Phind search shut down in January 2026.",
+  "statusNote_fr": "La recherche Phind a fermé en janvier 2026.",
   "features": [
     "Developer-focused search: AI-tuned for code queries.",
     "Real-time web data: Combines search with LLM responses.",
@@ -53,5 +54,6 @@
       "title": "Review Contextual Answers",
       "description": "Get LLM-powered answers and resources tailored to your query."
     }
-  ]
+  ],
+  "statusNote_fr": "La recherche Phind a fermé en janvier 2026."
 }

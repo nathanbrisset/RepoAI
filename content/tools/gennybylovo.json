@@ -25,7 +25,9 @@
   "image": "/tool-screenshots/gennybylovo.png",
   "dateAdded": "2025-06-13",
   "lastVerified": "2026-10-21",
-  "statusNote": "Use lovescape.ai / Lovo for Genny voice tools if the listed domain does not load.",
+  "statusNote": "Genny by LOVO is no longer available; LOVO shut down in 2026.",
+  "statusNote_fr": "Genny by LOVO n'est plus disponible ; LOVO a cessé son activité en 2026.",
+  "successorId": "elevenlabs",
   "features": [
     "AI voice generator: Access over 500 realistic voices in more than 100 languages and accents for any project.",
     "Text-to-video: Transform scripts into video presentations with synchronized visuals and narration.",
@@ -67,5 +69,7 @@
       "title": "Preview and Export",
       "description": "Preview your voiceover or video, make final adjustments, and export the finished file in your desired format."
     }
-  ]
+  ],
+  "statusNote_fr": "Genny by LOVO n'est plus disponible ; LOVO a cessé son activité en 2026.",
+  "successorId": "elevenlabs"
 }
