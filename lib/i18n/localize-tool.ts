@@ -1,4 +1,5 @@
 import { applyDisplayCurrencyToTool } from "@/lib/format-display-price"
+import { resolvePricingNoteFromCandidates } from "@/lib/pricing-note-guard"
 import type { Tool } from "@/lib/types"
 import type { Locale } from "./config"
 import { pricingLabel } from "./messages"
@@ -55,7 +56,7 @@ export function localizeTool(tool: Tool, locale: Locale): Tool {
       ? {
           ...tool.pricing,
           label: pricingLabel(locale, tool.pricing.label || tool.isPremium),
-          details: tool.pricingNote_fr || tool.pricing.details,
+          details: resolvePricingNoteFromCandidates([tool.pricingNote_fr, tool.pricing.details], "fr"),
         }
       : tool.pricing,
   })
