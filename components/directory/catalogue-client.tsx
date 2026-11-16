@@ -11,7 +11,8 @@ import {
   catalogueHqCountryParam,
 } from "@/lib/hq-country-filter"
 import { pricingLabel } from "@/lib/i18n/messages"
-import { listingQueryHref, type CatalogQueryResult } from "@/lib/directory/catalog-query"
+import type { CatalogQueryResult } from "@/lib/directory/catalog-query"
+import { listingQueryHref } from "@/lib/directory/listing-query-params"
 import type { ListingQueryUi } from "@/lib/directory/listing-query-params"
 import { activeCatalogueCountry, activePriceFilter } from "@/lib/directory/listing-query-params"
 import { useRouter } from "next/navigation"

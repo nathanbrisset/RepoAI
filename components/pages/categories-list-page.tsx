@@ -4,14 +4,14 @@ import { ArrowRight } from "lucide-react"
 import LocaleLink from "@/components/locale-link"
 import { useLocale } from "@/components/locale-provider"
 import { categoryCatalog } from "@/lib/category-meta"
-import { directoryChips } from "@/lib/directory/data"
+import type { DirectoryChip } from "@/lib/directory/data"
 import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
 import { categoryCopy } from "@/lib/i18n/messages"
 
-export function CategoriesListPage() {
+export function CategoriesListPage({ chips }: { chips: DirectoryChip[] }) {
   const locale = useLocale()
   const t = directoryCopy(locale)
-  const counts = new Map(directoryChips(locale).map((chip) => [chip.id, chip.count]))
+  const counts = new Map(chips.map((chip) => [chip.id, chip.count]))
 
   return (
     <main className="mx-auto max-w-[1400px] px-4 py-10 md:px-8">

@@ -7,10 +7,10 @@ import { readConsent, writeConsent } from "@/lib/consent"
 
 export default function CookieConsent() {
   const t = useT()
-  const [showBanner, setShowBanner] = useState(false)
+  const [showBanner, setShowBanner] = useState(true)
 
   useEffect(() => {
-    if (!readConsent()) setShowBanner(true)
+    if (readConsent()) setShowBanner(false)
   }, [])
 
   useEffect(() => {
