@@ -1,3 +1,4 @@
+import type { CatalogQueryInput, CatalogQueryResult } from "@/lib/directory/catalog-query-types"
 import { filterAndRankCatalogSearch } from "@/lib/catalog-search"
 import { compareEditorialRank } from "@/lib/directory/editorial-rank"
 import {
@@ -7,28 +8,13 @@ import { PRICE_FILTERS, priceFilterParam, type PriceFilter } from "@/lib/price-f
 import { directoryRecords, type DirectoryRecord } from "./data"
 import type { Locale } from "@/lib/i18n/config"
 
-export const CATALOGUE_PAGE_SIZE = 36
+import { CATALOGUE_PAGE_SIZE, type SortMode } from "./listing-query-params"
 
-import type { SortMode } from "./listing-query-params"
+export { CATALOGUE_PAGE_SIZE } from "./listing-query-params"
 
 export type { SortMode } from "./listing-query-params"
 
-export type CatalogQueryInput = {
-  category?: string
-  q?: string
-  sort?: SortMode
-  pricing?: string | null
-  hqCountry?: string | null
-  page?: number
-}
-
-export type CatalogQueryResult = {
-  items: DirectoryRecord[]
-  total: number
-  page: number
-  pageSize: number
-  totalPages: number
-}
+export type { CatalogQueryInput, CatalogQueryResult } from "./catalog-query-types"
 
 function sortRecords(records: DirectoryRecord[], sort: SortMode, locale: Locale) {
   if (sort === "new") {

@@ -4,6 +4,8 @@ import { parseCatalogueHqCountryParam } from "@/lib/hq-country-filter"
 
 export type SortMode = "trending" | "new" | "top"
 
+export const CATALOGUE_PAGE_SIZE = 36
+
 export type ListingQueryUi = {
   category: string
   q: string
@@ -58,6 +60,35 @@ export function listingQueryHref(
   params.delete("tool")
   const query = params.toString()
   return query ? `${barePath}?${query}` : barePath
+}
+
+export function isDefaultListingQuery(ui: ListingQueryUi) {
+  return (
+    !ui.category &&
+    !ui.q &&
+    ui.sort === "trending" &&
+    !ui.pricing &&
+    !ui.hqCountry &&
+    ui.page === 1
+  )
+}
+
+export function catalogInputFromListingQuery(ui: ListingQueryUi): {
+  category?: string
+  q?: string
+  sort: SortMode
+  pricing: string | null
+  hqCountry: string | null
+  page: number
+} {
+  return {
+    category: ui.category || undefined,
+    q: ui.q || undefined,
+    sort: ui.sort,
+    pricing: ui.pricing,
+    hqCountry: ui.hqCountry,
+    page: ui.page,
+  }
 }
 
 export function listingPageHref(

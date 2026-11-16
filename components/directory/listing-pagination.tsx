@@ -2,7 +2,7 @@
 
 import LocaleLink from "@/components/locale-link"
 import { useLocale } from "@/components/locale-provider"
-import type { CatalogQueryResult } from "@/lib/directory/catalog-query"
+import type { CatalogQueryResult } from "@/lib/directory/catalog-query-types"
 import { listingPageHref } from "@/lib/directory/listing-query-params"
 import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
 import { cn } from "@/lib/utils"

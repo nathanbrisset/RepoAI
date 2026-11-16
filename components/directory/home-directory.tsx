@@ -1,5 +1,6 @@
 "use client"
 
+import dynamic from "next/dynamic"
 import { useEffect, useState } from "react"
 import { ArrowRight, Search, Sparkles } from "lucide-react"
 import { useRouter } from "next/navigation"
@@ -15,7 +16,13 @@ import { CollectionCard } from "./collection-card"
 import { Shuriken } from "./shuriken"
 import { ToolCard } from "./tool-card"
 import { useDirectory } from "./directory-provider"
-import { AiMatchSwipeModal } from "@/components/ai-match-swipe/ai-match-swipe-modal"
+const AiMatchSwipeModal = dynamic(
+  () =>
+    import("@/components/ai-match-swipe/ai-match-swipe-modal").then((mod) => ({
+      default: mod.AiMatchSwipeModal,
+    })),
+  { ssr: false },
+)
 
 export function HomeDirectory({
   picks,
