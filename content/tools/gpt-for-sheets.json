@@ -3,7 +3,7 @@
   "name": "GPT for Sheets and Docs",
   "url": "https://gptforwork.com",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "renamed",
   "summary": "AI formulas in Google Sheets, Docs, Excel and Word.",
   "description": "GPT for Work adds AI functions to spreadsheets and documents to process thousands of rows: writing, translation, classification, extraction or data cleaning. You can choose among several models. The company is French.",
   "summary_fr": "Formules IA dans Google Sheets, Docs, Excel et Word.",
@@ -26,7 +26,7 @@
   "logo": "/logos/gpt-for-sheets.png",
   "image": "/screenshots/gpt-for-sheets.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "AI functions in Google Sheets and Excel",
     "Process thousands of rows",
@@ -64,5 +64,8 @@
     }
   ],
   "hqCountry": "FR",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "successorId": "autosheet",
+  "statusNote": "Now Autosheet (formerly GPT for Sheets and Docs / GPT for Work).",
+  "statusNote_fr": "Désormais Autosheet (anciennement GPT for Sheets and Docs / GPT for Work)."
 }

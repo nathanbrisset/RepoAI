@@ -1,0 +1,83 @@
+{
+  "id": "arena",
+  "name": "Arena",
+  "url": "https://arena.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Public AI ranking and leaderboards across text, image, video, code, search and more",
+  "description": "Public AI ranking and leaderboards across text, image, video, code, search and more\n\nFormerly LMArena.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "arena",
+    "llm-chatbots"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free for the public platform: leaderboards, head-to-head battles and open access to models, officially offered as a public service. No consumer paid plan is published. Arena also sells AI Evaluations to enterprises, model labs and developers (community-based evaluations, auditable samples, delivery SLAs). No list prices are published; official contact is evaluations@arena.ai, with flexible pricing mentioned for open-weight models and nonprofits, without amounts.",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/arena.png",
+  "image": "/screenshots/arena.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Public AI ranking and leaderboards across text, image, video, code, search and more",
+    "Blind side-by-side battles: two anonymous models answer the same prompt, then you vote",
+    "The public leaderboard is officially kept free as a public service",
+    "Optional commercial AI Evaluations for labs and enterprises, with no published list price"
+  ],
+  "howToUse": [
+    {
+      "title": "Open arena.ai and start a battle or open a leaderboard — the public platform does not...",
+      "description": "Open arena.ai and start a battle or open a leaderboard — the public platform does not require a paid account.",
+      "links": [
+        {
+          "label": "Arena",
+          "url": "https://arena.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Send the same prompt to two anonymous models and vote for the better answer.",
+      "description": "Send the same prompt to two anonymous models and vote for the better answer."
+    },
+    {
+      "title": "If you need custom enterprise evaluations, contact evaluations@arena.ai; no public list...",
+      "description": "If you need custom enterprise evaluations, contact evaluations@arena.ai; no public list price is published."
+    }
+  ],
+  "sources": [
+    "https://arena.ai/"
+  ],
+  "summary_fr": "Classement public des modèles d’IA (ex-LMArena) : tu confrontes deux modèles à l’aveugle et tu votes, gratuitement ; les évaluations entreprise se font sur devis.",
+  "description_fr": "Classement public des modèles d’IA (ex-LMArena) : tu confrontes deux modèles à l’aveugle et tu votes, gratuitement ; les évaluations entreprise se font sur devis.\n\nAnciennement LMArena.",
+  "features_fr": [
+    "Classement public des modèles d’IA : texte, image, vidéo, code, recherche et plus",
+    "Duels à l’aveugle : deux modèles anonymes répondent à la même consigne, puis tu votes",
+    "Le classement public reste officiellement gratuit, comme un service public",
+    "AI Evaluations en option pour labs et entreprises, sans tarif public publié"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre arena.ai et lance un duel ou un classement — la plateforme publique n’exige pas de...",
+      "description": "Ouvre arena.ai et lance un duel ou un classement — la plateforme publique n’exige pas de compte payant.",
+      "links": [
+        {
+          "label": "Arena",
+          "url": "https://arena.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Envoie la même consigne à deux modèles anonymes et vote pour la meilleure réponse.",
+      "description": "Envoie la même consigne à deux modèles anonymes et vote pour la meilleure réponse."
+    },
+    {
+      "title": "Si tu as besoin d’évaluations entreprise sur mesure, contacte evaluations@arena.ai...",
+      "description": "Si tu as besoin d’évaluations entreprise sur mesure, contacte evaluations@arena.ai ; aucun tarif public n’est publié."
+    }
+  ]
+}
