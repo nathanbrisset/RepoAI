@@ -3,7 +3,7 @@
   "name": "Producer.ai",
   "url": "https://www.producer.ai/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "duplicate-of",
   "summary": "Conversational AI music creation (formerly Riffusion).",
   "description": "Producer.ai, formerly Riffusion, generates and edits songs through conversation: describe a style, ask for a verse, a remix or new lyrics. Tracks can then be downloaded and shared.",
   "categories": [
@@ -25,7 +25,10 @@
   "logo": "/logos/producer-ai.png",
   "image": "/screenshots/producer-ai.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
+  "successorId": "google-flow-music",
+  "statusNote": "Producer.ai redirects to Google Flow Music; see google-flow-music.",
+  "statusNote_fr": "Producer.ai redirige vers Google Flow Music ; voir google-flow-music.",
   "features": [
     "Conversational music creation",
     "Editable verses, remixes and lyrics",
