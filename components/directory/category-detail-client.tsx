@@ -8,7 +8,8 @@ import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
 import { localizeHref } from "@/lib/i18n/paths"
 import { pricingLabel } from "@/lib/i18n/messages"
 import { PRICE_FILTERS, priceFilterParam, type PriceFilter } from "@/lib/price-filter"
-import { listingQueryHref, type CatalogQueryResult } from "@/lib/directory/catalog-query"
+import type { CatalogQueryResult } from "@/lib/directory/catalog-query-types"
+import { listingQueryHref } from "@/lib/directory/listing-query-params"
 import { activePriceFilter } from "@/lib/directory/listing-query-params"
 import { ListingPagination } from "./listing-pagination"
 import { ToolCard } from "./tool-card"
@@ -20,6 +21,7 @@ export function CategoryDetailClient({
   catalogPage,
   pricing,
   linkSearchParams,
+  onInteractionIntent,
 }: {
   categoryId: string
   name: string
@@ -27,6 +29,7 @@ export function CategoryDetailClient({
   catalogPage: CatalogQueryResult
   pricing: string | null
   linkSearchParams: URLSearchParams
+  onInteractionIntent?: () => void
 }) {
   const locale = useLocale()
   const t = directoryCopy(locale)
@@ -36,6 +39,7 @@ export function CategoryDetailClient({
   const categoryPath = `/categories/${categoryId}`
 
   function writePricing(next: PriceFilter | null) {
+    onInteractionIntent?.()
     const href = listingQueryHref(
       categoryPath,
       linkSearchParams,

@@ -11,7 +11,8 @@ import {
   catalogueHqCountryParam,
 } from "@/lib/hq-country-filter"
 import { pricingLabel } from "@/lib/i18n/messages"
-import { listingQueryHref, type CatalogQueryResult } from "@/lib/directory/catalog-query"
+import type { CatalogQueryResult } from "@/lib/directory/catalog-query-types"
+import { listingQueryHref } from "@/lib/directory/listing-query-params"
 import type { ListingQueryUi } from "@/lib/directory/listing-query-params"
 import { activeCatalogueCountry, activePriceFilter } from "@/lib/directory/listing-query-params"
 import { useRouter } from "next/navigation"
@@ -26,11 +27,13 @@ export function CatalogueClient({
   catalogPage,
   queryUi,
   linkSearchParams,
+  onInteractionIntent,
 }: {
   basePath: "/catalogue" | "/tools"
   catalogPage: CatalogQueryResult
   queryUi: ListingQueryUi
   linkSearchParams: URLSearchParams
+  onInteractionIntent?: () => void
 }) {
   const locale = useLocale()
   const t = directoryCopy(locale)
@@ -51,6 +54,7 @@ export function CatalogueClient({
   const { draft: filterDraft, setDraft: setFilterDraft } = useDebouncedUrlDraft(urlQ, commitQuery, 250)
 
   function write(updates: Record<string, string | null>) {
+    onInteractionIntent?.()
     const href = listingQueryHref(basePath, linkSearchParams, updates, { resetPage: true })
     router.replace(localizeHref(locale, href), { scroll: false })
   }
@@ -71,7 +75,11 @@ export function CatalogueClient({
             id="catalogue-filter"
             data-testid="catalogue-filter"
             value={filterDraft}
-            onChange={(event) => setFilterDraft(event.target.value)}
+            onChange={(event) => {
+              onInteractionIntent?.()
+              setFilterDraft(event.target.value)
+            }}
+            onFocus={() => onInteractionIntent?.()}
             placeholder={t.filterPlaceholder}
             className="h-12 w-full rounded-full bg-card px-5 ring-1 ring-border outline-none focus:ring-2 focus:ring-primary"
           />

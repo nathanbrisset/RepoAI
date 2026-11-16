@@ -2,6 +2,7 @@ import { Suspense } from "react"
 import { notFound } from "next/navigation"
 import { CategoryPageBody } from "@/components/directory/category-page-body"
 import { categoryCatalog } from "@/lib/category-meta"
+import { queryCategoryRecords } from "@/lib/directory/catalog-query"
 import type { Locale } from "@/lib/i18n/config"
 import { categoryCopy } from "@/lib/i18n/messages"
 
@@ -14,9 +15,16 @@ export async function CategoryPageContent({ locale, params }: { locale: Locale; 
 
   const copy = categoryCopy(locale, categoryObj.id) || categoryObj
 
+  const initialPage = queryCategoryRecords(locale, categoryObj.id, undefined, 1)
+
   return (
     <Suspense fallback={<div className="mx-auto max-w-[1400px] px-4 py-16 md:px-8" />}>
-      <CategoryPageBody categoryId={categoryObj.id} name={copy.name} description={copy.description} />
+      <CategoryPageBody
+        categoryId={categoryObj.id}
+        name={copy.name}
+        description={copy.description}
+        initialPage={initialPage}
+      />
     </Suspense>
   )
 }

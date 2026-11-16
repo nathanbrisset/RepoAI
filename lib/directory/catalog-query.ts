@@ -1,3 +1,4 @@
+import type { CatalogQueryInput, CatalogQueryResult } from "@/lib/directory/catalog-query-types"
 import { filterAndRankCatalogSearch } from "@/lib/catalog-search"
 import { compareEditorialRank } from "@/lib/directory/editorial-rank"
 import {
@@ -7,26 +8,13 @@ import { PRICE_FILTERS, priceFilterParam, type PriceFilter } from "@/lib/price-f
 import { directoryRecords, type DirectoryRecord } from "./data"
 import type { Locale } from "@/lib/i18n/config"
 
-export const CATALOGUE_PAGE_SIZE = 36
+import { CATALOGUE_PAGE_SIZE, type SortMode } from "./listing-query-params"
 
-export type SortMode = "trending" | "new" | "top"
+export { CATALOGUE_PAGE_SIZE } from "./listing-query-params"
 
-export type CatalogQueryInput = {
-  category?: string
-  q?: string
-  sort?: SortMode
-  pricing?: string | null
-  hqCountry?: string | null
-  page?: number
-}
+export type { SortMode } from "./listing-query-params"
 
-export type CatalogQueryResult = {
-  items: DirectoryRecord[]
-  total: number
-  page: number
-  pageSize: number
-  totalPages: number
-}
+export type { CatalogQueryInput, CatalogQueryResult } from "./catalog-query-types"
 
 function sortRecords(records: DirectoryRecord[], sort: SortMode, locale: Locale) {
   if (sort === "new") {
@@ -118,33 +106,7 @@ export function randomDirectoryRecord(locale: Locale): DirectoryRecord | null {
   return records[Math.floor(Math.random() * records.length)] ?? null
 }
 
-/** Bare path + query for LocaleLink or localizeHref (e.g. `/catalogue?page=2`). */
-export function listingQueryHref(
-  barePath: string,
-  searchParams: { toString(): string },
-  patch: Record<string, string | null | undefined> = {},
-  options?: { resetPage?: boolean },
-): string {
-  const params = new URLSearchParams(searchParams.toString())
-  for (const [key, value] of Object.entries(patch)) {
-    if (value) params.set(key, value)
-    else params.delete(key)
-  }
-  if (options?.resetPage) params.delete("page")
-  params.delete("tool")
-  const query = params.toString()
-  return query ? `${barePath}?${query}` : barePath
-}
-
-export function listingPageHref(
-  barePath: string,
-  searchParams: { toString(): string },
-  page: number,
-): string {
-  return listingQueryHref(barePath, searchParams, {
-    page: page <= 1 ? null : String(page),
-  })
-}
+export { listingQueryHref, listingPageHref } from "./listing-query-params"
 
 export function parseCatalogSearchParams(
   params: Record<string, string | string[] | undefined>,

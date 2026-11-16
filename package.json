@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/generate-fr-mirror-pages.mjs --check && npx tsx scripts/generate-known-paths-snapshot.ts && npx tsx scripts/check-known-paths-consistency.ts",
-    "build": "node scripts/generate-fr-mirror-pages.mjs && npx tsx scripts/generate-known-paths-snapshot.ts && npx tsx scripts/check-known-paths-consistency.ts && next build && npx tsx scripts/check-404-page-assets.ts",
+    "prebuild": "node scripts/generate-fr-mirror-pages.mjs --check && npx tsx scripts/generate-known-paths-snapshot.ts && npx tsx scripts/check-known-paths-consistency.ts && npx tsx scripts/generate-catalog-search-index.ts",
+    "build": "node scripts/generate-fr-mirror-pages.mjs && npx tsx scripts/generate-known-paths-snapshot.ts && npx tsx scripts/check-known-paths-consistency.ts && npx tsx scripts/generate-catalog-search-index.ts && next build && node scripts/check-client-bundle.mjs && npx tsx scripts/check-404-page-assets.ts",
+    "check:client-bundle": "node scripts/check-client-bundle.mjs",
     "start": "next start",
     "lint": "next lint",
     "catalog:check": "node scripts/catalog-index.mjs",

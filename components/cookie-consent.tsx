@@ -7,10 +7,18 @@ import { readConsent, writeConsent } from "@/lib/consent"
 
 export default function CookieConsent() {
   const t = useT()
-  const [showBanner, setShowBanner] = useState(false)
+  const [showBanner, setShowBanner] = useState(true)
 
   useEffect(() => {
-    if (!readConsent()) setShowBanner(true)
+    const hideIfConsented = () => {
+      if (readConsent()) setShowBanner(false)
+    }
+    if (typeof window !== "undefined" && "requestIdleCallback" in window) {
+      const id = window.requestIdleCallback(hideIfConsented)
+      return () => window.cancelIdleCallback(id)
+    }
+    const timer = globalThis.setTimeout(hideIfConsented, 0)
+    return () => globalThis.clearTimeout(timer)
   }, [])
 
   useEffect(() => {

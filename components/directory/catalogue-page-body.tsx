@@ -3,48 +3,87 @@
 import { useEffect, useMemo, useState } from "react"
 import { useSearchParams } from "next/navigation"
 import { useLocale } from "@/components/locale-provider"
-import { parseCatalogSearchParams, queryCatalogRecords } from "@/lib/directory/catalog-query"
+import type { CatalogQueryResult } from "@/lib/directory/catalog-query-types"
+import { queryCatalogFromIndex } from "@/lib/directory/catalog-index-query"
+import { loadCatalogSearchIndex, prefetchCatalogSearchIndex } from "@/lib/directory/load-catalog-search-index"
 import {
-  EMPTY_LISTING_QUERY,
+  catalogInputFromListingQuery,
+  isDefaultListingQuery,
   listingQueryFromSearchParams,
 } from "@/lib/directory/listing-query-params"
 import { CatalogueClient } from "./catalogue-client"
 
-function paramsFromListingQuery(query: typeof EMPTY_LISTING_QUERY) {
-  const params: Record<string, string | string[] | undefined> = {}
-  if (query.category) params.category = query.category
-  if (query.q) params.q = query.q
-  if (query.sort !== "trending") params.sort = query.sort
-  if (query.pricing) params.pricing = query.pricing
-  if (query.hqCountry) params.hqCountry = query.hqCountry
-  if (query.page > 1) params.page = String(query.page)
-  return params
-}
-
-export function CataloguePageBody({ basePath }: { basePath: "/catalogue" | "/tools" }) {
+export function CataloguePageBody({
+  basePath,
+  initialPage,
+}: {
+  basePath: "/catalogue" | "/tools"
+  initialPage: CatalogQueryResult
+}) {
   const locale = useLocale()
   const searchParams = useSearchParams()
-  const [mounted, setMounted] = useState(false)
-  const [queryUi, setQueryUi] = useState(EMPTY_LISTING_QUERY)
+  const queryUi = useMemo(() => listingQueryFromSearchParams(searchParams), [searchParams])
+  const linkParams = useMemo(() => new URLSearchParams(searchParams.toString()), [searchParams])
+  const [catalogPage, setCatalogPage] = useState<CatalogQueryResult>(initialPage)
+  const [loading, setLoading] = useState(false)
+
+  const defaultView = isDefaultListingQuery(queryUi)
 
   useEffect(() => {
-    setMounted(true)
-    setQueryUi(listingQueryFromSearchParams(searchParams))
-  }, [searchParams])
+    if (defaultView) {
+      setCatalogPage(initialPage)
+      setLoading(false)
+      return
+    }
 
-  const catalogPage = useMemo(() => {
-    const input = mounted ? paramsFromListingQuery(queryUi) : {}
-    return queryCatalogRecords(locale, parseCatalogSearchParams(input))
-  }, [locale, queryUi, mounted])
+    let cancelled = false
+    setLoading(true)
+    void loadCatalogSearchIndex(locale)
+      .then((index) => {
+        if (cancelled) return
+        const result = queryCatalogFromIndex(locale, index, catalogInputFromListingQuery(queryUi))
+        setCatalogPage(result)
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false)
+      })
 
-  const linkParams = useMemo(() => new URLSearchParams(searchParams.toString()), [searchParams])
+    return () => {
+      cancelled = true
+    }
+  }, [defaultView, initialPage, locale, queryUi])
+
+  useEffect(() => {
+    if (!defaultView) return
+    const onScroll = () => prefetchCatalogSearchIndex(locale)
+    window.addEventListener("scroll", onScroll, { once: true, passive: true })
+    return () => window.removeEventListener("scroll", onScroll)
+  }, [defaultView, locale])
+
+  useEffect(() => {
+    if (!defaultView) return
+    const onFilterIntent = (event: Event) => {
+      const target = event.target
+      if (!(target instanceof HTMLElement)) return
+      if (target.closest("[data-catalogue-filter-intent]")) prefetchCatalogSearchIndex(locale)
+    }
+    document.addEventListener("click", onFilterIntent, { capture: true })
+    document.addEventListener("focusin", onFilterIntent, { capture: true })
+    return () => {
+      document.removeEventListener("click", onFilterIntent, { capture: true })
+      document.removeEventListener("focusin", onFilterIntent, { capture: true })
+    }
+  }, [defaultView, locale])
 
   return (
-    <CatalogueClient
-      basePath={basePath}
-      catalogPage={catalogPage}
-      queryUi={mounted ? queryUi : EMPTY_LISTING_QUERY}
-      linkSearchParams={linkParams}
-    />
+    <div data-catalogue-filter-intent className={loading && !defaultView ? "opacity-95" : undefined}>
+      <CatalogueClient
+        basePath={basePath}
+        catalogPage={catalogPage}
+        queryUi={queryUi}
+        linkSearchParams={linkParams}
+        onInteractionIntent={() => prefetchCatalogSearchIndex(locale)}
+      />
+    </div>
   )
 }
