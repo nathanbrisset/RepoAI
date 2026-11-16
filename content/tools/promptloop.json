@@ -16,8 +16,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/promptloop.png",
   "image": "/screenshots/promptloop.webp",
@@ -54,9 +53,9 @@
     }
   ],
   "features_fr": [
-    "Feuille de calcul AI : utilisez les LLM dans Excel ou Sheets.",
-    "Générateur de formules : écrivez une logique complexe dans un langage simple.",
-    "Intégration sans code : configuration sans codage.",
-    "Traitement de texte : nettoyer et formater le contenu."
+    "Feuille de calcul AI: utilisez les LLM dans Excel ou Sheets.",
+    "Générateur de formules: écrivez une logique complexe dans un langage simple.",
+    "Intégration sans code: configuration sans codage.",
+    "Traitement de texte: nettoyer et formater le contenu."
   ]
 }

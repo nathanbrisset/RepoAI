@@ -16,8 +16,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/aimages.png",
   "image": "/screenshots/aimages.webp",
@@ -62,9 +61,9 @@
     }
   ],
   "features_fr": [
-    "Mise à l'échelle de l'IA : affutez et améliorez les vidéos basse résolution pour une sortie HD ou 4K.",
-    "Réduction du bruit : supprimez le grain, les artefacts de compression et le bruit visuel pour un aspect épuré.",
-    "Interpolation d'image : séquences fluides, saccadées ou à faible FPS pour un mouvement plus naturel.",
-    "Restauration : faites revivre des vidéos endommagées, fanées ou anciennes à l'aide de modèles d'apprentissage en profondeur."
+    "Mise à l'échelle de l'IA: affutez et améliorez les vidéos basse résolution pour une sortie HD ou 4K.",
+    "Réduction du bruit: supprimez le grain, les artefacts de compression et le bruit visuel pour un aspect épuré.",
+    "Interpolation d'image: séquences fluides, saccadées ou à faible FPS pour un mouvement plus naturel.",
+    "Restauration: faites revivre des vidéos endommagées, fanées ou anciennes à l'aide de modèles d'apprentissage en profondeur."
   ]
 }

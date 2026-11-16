@@ -7,7 +7,7 @@
   "successorId": "canva-ai",
   "statusNote": "Magic Design is a feature of Canva, not a separate product. See canva-ai.",
   "summary": "AI-powered design assistant integrated with Canva for creating visual assets.",
-  "description": "AI-powered design assistant integrated with Canva for creating visual assets.\n\nDesign Generation: Creates designs based on user input and preferences. Template Suggestions: Offers tailored templates for various needs. Content Integration: Incorporates user content into designs seamlessly. Real-Time Collaboration: Allows multiple users to work on designs simultaneously.",
+  "description": "AI-powered design assistant integrated with Canva for creating visual assets. Design Generation: Creates designs based on user input and preferences. Template Suggestions: Offers tailored templates for various needs. Content Integration: Incorporates user content into designs seamlessly. Real-Time Collaboration: Allows multiple users to work on designs simultaneously.",
   "categories": [
     "design"
   ],
@@ -19,8 +19,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/canva-magic-design.png",
   "image": "/screenshots/canva-magic-design.webp",

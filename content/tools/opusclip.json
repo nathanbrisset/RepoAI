@@ -16,8 +16,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/opusclip.png",
   "image": "/screenshots/opusclip.webp",
@@ -66,9 +65,9 @@
     }
   ],
   "features_fr": [
-    "Détection des moments viraux : l'IA analyse les vidéos pour identifier et extraire les moments les plus engageants et partageables.",
-    "Sous-titres automatiques : ajoute automatiquement des légendes animées et visuellement attrayantes pour augmenter la durée de visionnage et l'accessibilité.",
-    "Bobines de surbrillance : génère plusieurs clips courts à partir d'une seule longue vidéo, maximisant ainsi la valeur du contenu.",
-    "Optimisation de la plateforme : exporte des clips dans des formats adaptés à TikTok, YouTube Shorts et Instagram Reels."
+    "Détection des moments viraux: l'IA analyse les vidéos pour identifier et extraire les moments les plus engageants et partageables.",
+    "Sous-titres automatiques: ajoute automatiquement des légendes animées et visuellement attrayantes pour augmenter la durée de visionnage et l'accessibilité.",
+    "Bobines de surbrillance: génère plusieurs clips courts à partir d'une seule longue vidéo, maximisant ainsi la valeur du contenu.",
+    "Optimisation de la plateforme: exporte des clips dans des formats adaptés à TikTok, YouTube Shorts et Instagram Reels."
   ]
 }

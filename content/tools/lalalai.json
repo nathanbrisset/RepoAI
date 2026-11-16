@@ -16,8 +16,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/lalalai.png",
   "image": "/screenshots/lalalai.webp",
@@ -62,9 +61,9 @@
     }
   ],
   "features_fr": [
-    "Extraction de tiges audio : séparez avec précision les voix, les instruments, la batterie et les autres éléments des fichiers vidéo ou audio.",
-    "Traitement par lots : téléchargez et traitez plusieurs fichiers vidéo à la fois pour des flux de travail efficaces.",
-    "IA de haute précision : maintient une excellente qualité sonore et une excellente clarté pendant le processus d'extraction.",
-    "Prise en charge multiformat : fonctionne avec une large gamme de types de fichiers vidéo et audio pour une flexibilité maximale."
+    "Extraction de tiges audio: séparez avec précision les voix, les instruments, la batterie et les autres éléments des fichiers vidéo ou audio.",
+    "Traitement par lots: téléchargez et traitez plusieurs fichiers vidéo à la fois pour des flux de travail efficaces.",
+    "IA de haute précision: maintient une excellente qualité sonore et une excellente clarté pendant le processus d'extraction.",
+    "Prise en charge multiformat: fonctionne avec une large gamme de types de fichiers vidéo et audio pour une flexibilité maximale."
   ]
 }

@@ -17,14 +17,12 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/kaggle_kernels.png",
   "image": "/tool-screenshots/kaggle_kernels.png",
   "dateAdded": null,
   "lastVerified": "2026-10-29",
-  "dateAddedNote": "The previous Added date was 2016-09-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Free GPU/TPU Access: Run computationally intensive code at no cost.",
     "Seamless Dataset Access: Direct integration with Kaggle datasets and competitions.",
@@ -57,9 +55,9 @@
   ],
   "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
   "features_fr": [
-    "Accès GPU/TPU gratuit : exécutez gratuitement du code gourmand en calcul.",
-    "Accès transparent aux ensembles de données : intégration directe avec les ensembles de données et les compétitions Kaggle.",
-    "Contrôle de version : enregistrez et suivez automatiquement les modifications dans les blocs-notes.",
-    "Collaboration en temps réel : partagez et travaillez sur du code avec d'autres."
+    "Accès GPU/TPU gratuit: exécutez gratuitement du code gourmand en calcul.",
+    "Accès transparent aux ensembles de données: intégration directe avec les ensembles de données et les compétitions Kaggle.",
+    "Contrôle de version: enregistrez et suivez automatiquement les modifications dans les blocs-notes.",
+    "Collaboration en temps réel: partagez et travaillez sur du code avec d'autres."
   ]
 }

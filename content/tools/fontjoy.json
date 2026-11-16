@@ -17,14 +17,12 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/fontjoy.png",
   "image": "/screenshots/fontjoy.webp",
   "dateAdded": null,
   "lastVerified": null,
-  "dateAddedNote": "The previous Added date was 2017-04-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Automated Pairing: Instantly get compatible font combinations.",
     "Manual Adjustment: Fine-tune font matches and weights.",
@@ -56,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Appairage automatisé : obtenez instantanément des combinaisons de polices compatibles.",
-    "Ajustement manuel : affinez les correspondances et les poids des polices.",
-    "Outil de prévisualisation : consulte les associations dans un exemple de contenu.",
-    "Exporter : copiez les détails du CSS et des polices pour une utilisation sur le Web."
+    "Appairage automatisé: obtenez instantanément des combinaisons de polices compatibles.",
+    "Ajustement manuel: affinez les correspondances et les poids des polices.",
+    "Outil de prévisualisation: consulte les associations dans un exemple de contenu.",
+    "Exporter: copiez les détails du CSS et des polices pour une utilisation sur le Web."
   ]
 }

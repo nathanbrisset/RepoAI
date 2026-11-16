@@ -18,8 +18,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/spline.png",
   "image": "/screenshots/spline.webp",
@@ -60,9 +59,9 @@
     }
   ],
   "features_fr": [
-    "Modélisation 3D : créez facilement des formes et des scènes.",
-    "Animation : animez des objets et des scènes avec des images clés.",
-    "Interactivité : ajoutez des déclencheurs et des actions utilisateur.",
-    "Collaboration : modifiez des projets en temps réel avec d'autres."
+    "Modélisation 3D: créez facilement des formes et des scènes.",
+    "Animation: animez des objets et des scènes avec des images clés.",
+    "Interactivité: ajoutez des déclencheurs et des actions utilisateur.",
+    "Collaboration: modifiez des projets en temps réel avec d'autres."
   ]
 }

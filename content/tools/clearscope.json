@@ -16,8 +16,7 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/clearscope.png",
   "image": "/tool-screenshots/clearscope.png",
@@ -54,9 +53,9 @@
     }
   ],
   "features_fr": [
-    "Évaluation du contenu : évalue le contenu en fonction de la couverture des mots clés et de la lisibilité.",
-    "Recherche de mots-clés : recommande des mots-clés en fonction des données de recherche en direct.",
-    "Analyse des concurrents : analyse les pages les mieux classées pour les termes cibles.",
-    "Rapports détaillés : fournit des informations exploitables pour les améliorations."
+    "Évaluation du contenu: évalue le contenu en fonction de la couverture des mots clés et de la lisibilité.",
+    "Recherche de mots-clés: recommande des mots-clés en fonction des données de recherche en direct.",
+    "Analyse des concurrents: analyse les pages les mieux classées pour les termes cibles.",
+    "Rapports détaillés: fournit des informations exploitables pour les améliorations."
   ]
 }

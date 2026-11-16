@@ -19,8 +19,7 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/databricks.png",
   "image": "/screenshots/databricks.webp",
@@ -57,9 +56,9 @@
     }
   ],
   "features_fr": [
-    "Plateforme de données unifiée : combine l'ingénierie des données, la science des données, l'apprentissage automatique et l'analyse dans une seule plateforme collaborative.",
-    "Delta Lake : fournit des lacs de données fiables avec prise en charge des transactions ACID, gestion évolutive des métadonnées et unification des données en streaming et par lots.",
-    "Cahiers collaboratifs : permet aux équipes d'écrire et d'exécuter du code ensemble en temps réel à l'aide de langages tels que Python, SQL, Scala et R.",
-    "Intégration MLflow : prise en charge intégrée du suivi des expériences, de la gestion des versions de modèles et des flux de travail d'apprentissage automatique reproductibles."
+    "Plateforme de données unifiée: combine l'ingénierie des données, la science des données, l'apprentissage automatique et l'analyse dans une seule plateforme collaborative.",
+    "Delta Lake: fournit des lacs de données fiables avec prise en charge des transactions ACID, gestion évolutive des métadonnées et unification des données en streaming et par lots.",
+    "Cahiers collaboratifs: permet aux équipes d'écrire et d'exécuter du code ensemble en temps réel à l'aide de langages tels que Python, SQL, Scala et R.",
+    "Intégration MLflow: prise en charge intégrée du suivi des expériences, de la gestion des versions de modèles et des flux de travail d'apprentissage automatique reproductibles."
   ]
 }
