@@ -10,7 +10,15 @@ export default function CookieConsent() {
   const [showBanner, setShowBanner] = useState(true)
 
   useEffect(() => {
-    if (readConsent()) setShowBanner(false)
+    const hideIfConsented = () => {
+      if (readConsent()) setShowBanner(false)
+    }
+    if (typeof window !== "undefined" && "requestIdleCallback" in window) {
+      const id = window.requestIdleCallback(hideIfConsented)
+      return () => window.cancelIdleCallback(id)
+    }
+    const timer = globalThis.setTimeout(hideIfConsented, 0)
+    return () => globalThis.clearTimeout(timer)
   }, [])
 
   useEffect(() => {
