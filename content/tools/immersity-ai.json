@@ -1,7 +1,7 @@
 {
   "id": "immersity-ai",
   "name": "Immersity AI",
-  "url": "https://www.immersity.ai",
+  "url": "https://www.leiainc.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Turns photos and videos into 3D content with depth.",
@@ -18,7 +18,7 @@
   ],
   "pricing": {
     "verified": false,
-    "sourceUrl": "https://www.immersity.ai",
+    "sourceUrl": "https://www.leiainc.com/",
     "model": "freemium",
     "label": "Freemium",
     "note": "Freemium; paid tiers and limits are listed on the official site.",
@@ -27,7 +27,7 @@
   "logo": "/logos/immersity-ai.png",
   "image": "/screenshots/immersity-ai.webp",
   "dateAdded": "2026-10-30",
-  "lastVerified": "2026-10-30",
+  "lastVerified": "2026-11-16",
   "features": [
     "2D to 3D conversion",
     "Animated parallax effect",
@@ -43,11 +43,11 @@
   "howToUse": [
     {
       "title": "Open Immersity AI",
-      "description": "Go to immersity.ai, then sign up or start a free trial if one is offered.",
+      "description": "Go to leiainc.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Immersity AI",
-          "url": "https://www.immersity.ai"
+          "url": "https://www.leiainc.com/"
         }
       ]
     },
@@ -74,11 +74,11 @@
   "howToUse_fr": [
     {
       "title": "Ouvre Immersity AI",
-      "description": "Rends-toi sur immersity.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "description": "Rends-toi sur leiainc.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
       "links": [
         {
           "label": "Immersity AI",
-          "url": "https://www.immersity.ai"
+          "url": "https://www.leiainc.com/"
         }
       ]
     },
@@ -94,5 +94,8 @@
       "title": "Effet de parallaxe animé",
       "description": "Teste effet de parallaxe animé sur un petit exemple avant d'automatiser ou d'étendre l'usage."
     }
+  ],
+  "sources": [
+    "https://www.leiainc.com/"
   ]
 }

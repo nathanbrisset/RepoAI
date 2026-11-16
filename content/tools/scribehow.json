@@ -1,7 +1,7 @@
 {
   "id": "scribehow",
   "name": "Scribe",
-  "url": "https://scribehow.com",
+  "url": "https://scribe.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Creates step-by-step guides by recording your screen.",
@@ -21,12 +21,12 @@
     "label": "Freemium",
     "verified": false,
     "note": "Freemium",
-    "sourceUrl": "https://scribehow.com"
+    "sourceUrl": "https://scribe.com/"
   },
   "logo": "/logos/scribehow.png",
   "image": "/screenshots/scribehow.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "Records clicks and keystrokes",
     "Automatically generated illustrated guide",
@@ -46,7 +46,7 @@
       "links": [
         {
           "label": "Scribe",
-          "url": "https://scribehow.com"
+          "url": "https://scribe.com/"
         }
       ]
     },
@@ -64,5 +64,8 @@
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "sources": [
+    "https://scribe.com/library/scribe-brand-update"
+  ]
 }

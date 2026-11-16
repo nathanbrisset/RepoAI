@@ -1,7 +1,7 @@
 {
   "id": "neilpatel",
   "name": "Ubersuggest",
-  "url": "https://neilpatel.com/ubersuggest/",
+  "url": "https://ubersuggest.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Accessible SEO tool: keywords, site audit and content ideas.",
@@ -21,12 +21,12 @@
     "label": "Freemium",
     "verified": false,
     "note": "Freemium",
-    "sourceUrl": "https://neilpatel.com/ubersuggest/"
+    "sourceUrl": "https://ubersuggest.com/"
   },
   "logo": "/logos/neilpatel.png",
   "image": "/screenshots/neilpatel.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "Search volumes and keyword ideas",
     "Competitor and backlink analysis",
@@ -46,7 +46,7 @@
       "links": [
         {
           "label": "Ubersuggest",
-          "url": "https://neilpatel.com/ubersuggest/"
+          "url": "https://ubersuggest.com/"
         }
       ]
     },
@@ -64,5 +64,8 @@
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "sources": [
+    "https://ubersuggest.com/"
+  ]
 }

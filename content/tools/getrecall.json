@@ -1,7 +1,7 @@
 {
   "id": "getrecall",
   "name": "Recall",
-  "url": "https://www.getrecall.ai",
+  "url": "https://www.recall.it/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Summarizes and organizes articles, videos and podcasts into a knowledge base.",
@@ -21,12 +21,12 @@
     "label": "Freemium",
     "verified": false,
     "note": "Freemium",
-    "sourceUrl": "https://www.getrecall.ai"
+    "sourceUrl": "https://www.recall.it/"
   },
   "logo": "/logos/getrecall.png",
   "image": "/screenshots/getrecall.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "One-click summaries of articles, videos and podcasts",
     "Knowledge base with automatic links",
@@ -46,7 +46,7 @@
       "links": [
         {
           "label": "Recall",
-          "url": "https://www.getrecall.ai"
+          "url": "https://www.recall.it/"
         }
       ]
     },
@@ -64,5 +64,8 @@
     }
   ],
   "hqCountry": "CH",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "sources": [
+    "https://www.recall.it/"
+  ]
 }
