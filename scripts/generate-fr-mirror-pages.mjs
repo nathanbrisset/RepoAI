@@ -25,6 +25,18 @@ const REDIRECT_ONLY = new Set([
 
 const LOCALIZED_EXPORTS = {
   "page.tsx": { contentImport: "@/lib/pages/home-page-content", contentExport: "HomePageContent", pathname: "/" },
+  "categories/page.tsx": {
+    contentImport: "@/lib/pages/categories-list-page-content",
+    contentExport: "CategoriesListPageContent",
+    pathname: "/categories",
+    staticPage: true,
+  },
+  "collections/page.tsx": {
+    contentImport: "@/lib/pages/collections-list-page-content",
+    contentExport: "CollectionsListPageContent",
+    pathname: "/collections",
+    staticPage: true,
+  },
   "tool/[id]/page.tsx": {
     contentImport: "@/lib/pages/tool-page-content",
     contentExport: "ToolPageContent",
@@ -130,11 +142,11 @@ function buildLocalizedFile(spec, enRel) {
   ]
   if (spec.staticParams) parts.push(`export { generateStaticParams }`)
   if (spec.dynamicParams) parts.push(`export const dynamicParams = false`)
-  if (spec.pathname === "/") {
+  if (spec.pathname === "/" || spec.staticPage) {
     parts.push(
       "",
       "export function generateMetadata() {",
-      `  return metadataFor("/", PAGE_LOCALE_FR)`,
+      `  return metadataFor("${spec.pathname === "/" ? "/" : spec.pathname}", PAGE_LOCALE_FR)`,
       "}",
       "",
       "export default function Page() {",
