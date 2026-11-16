@@ -2,6 +2,9 @@
 /**
  * Catalogue lot 2026-11-16 renamed — 6 tools + successor renames from deliver-6.
  *
+ * Copy refresh: replace files under data/import-2026-11-16-renamed/ (see README there)
+ * and re-run — successor fiches and FR overlay are overwritten from lot-6.csv + copy-6.json.
+ *
  *   node scripts/import-lot-2026-11-16-renamed.mjs [--dry-run]
  */
 import crypto from "crypto"
