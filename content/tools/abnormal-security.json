@@ -1,7 +1,7 @@
 {
   "id": "abnormal-security",
-  "name": "Abnormal Security",
-  "url": "https://abnormalsecurity.com",
+  "name": "Abnormal AI",
+  "url": "https://abnormal.ai/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Behavioral AI email security against phishing and fraud.",
@@ -21,12 +21,12 @@
     "label": "Premium",
     "verified": false,
     "note": "Paid plans; see the official site for current pricing.",
-    "sourceUrl": "https://abnormalsecurity.com"
+    "sourceUrl": "https://abnormal.ai/"
   },
   "logo": "/logos/abnormal-security.png",
   "image": "/screenshots/abnormal-security.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "Phishing and CEO fraud detection via behavioral analysis",
     "Compromised vendor account detection",
@@ -46,7 +46,7 @@
       "links": [
         {
           "label": "Abnormal Security",
-          "url": "https://abnormalsecurity.com"
+          "url": "https://abnormal.ai/"
         }
       ]
     },
@@ -64,5 +64,8 @@
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "sources": [
+    "https://abnormal.ai/newsroom/press-releases/announcing-abnormal-ai"
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "masterchannel",
   "name": "Masterchannel",
-  "url": "https://masterchannel.ai",
+  "url": "https://master.channel/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Automatic AI audio mastering.",
@@ -18,7 +18,7 @@
   ],
   "pricing": {
     "verified": false,
-    "sourceUrl": "https://masterchannel.ai",
+    "sourceUrl": "https://master.channel/",
     "model": "freemium",
     "label": "Freemium",
     "note": "Freemium; paid tiers and limits are listed on the official site.",
@@ -27,7 +27,7 @@
   "logo": "/logos/masterchannel.png",
   "image": "/screenshots/masterchannel.webp",
   "dateAdded": "2026-10-30",
-  "lastVerified": "2026-10-30",
+  "lastVerified": "2026-11-16",
   "features": [
     "Mastering in seconds",
     "Match a reference track",
@@ -43,11 +43,11 @@
   "howToUse": [
     {
       "title": "Open Masterchannel",
-      "description": "Go to masterchannel.ai, then sign up or start a free trial if one is offered.",
+      "description": "Go to master.channel, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Masterchannel",
-          "url": "https://masterchannel.ai"
+          "url": "https://master.channel/"
         }
       ]
     },
@@ -74,11 +74,11 @@
   "howToUse_fr": [
     {
       "title": "Ouvre Masterchannel",
-      "description": "Rends-toi sur masterchannel.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "description": "Rends-toi sur master.channel, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
       "links": [
         {
           "label": "Masterchannel",
-          "url": "https://masterchannel.ai"
+          "url": "https://master.channel/"
         }
       ]
     },
@@ -94,5 +94,8 @@
       "title": "Alignement sur un titre de référence",
       "description": "Teste alignement sur un titre de référence sur un petit exemple avant d'automatiser ou d'étendre l'usage."
     }
+  ],
+  "sources": [
+    "https://master.channel/"
   ]
 }
