@@ -18,8 +18,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/teleporthq.png",
   "image": "/tool-screenshots/teleporthq.png",
@@ -60,9 +59,9 @@
     }
   ],
   "features_fr": [
-    "Éditeur glisser-déposer : assemblez visuellement des mises en page Web.",
-    "Génération de code IA : transformez les wireframes en code prêt pour la production.",
-    "Exporter vers des frameworks : prend en charge React, Vue et HTML/CSS.",
-    "Collaboration : Gestion de projet en équipe."
+    "Éditeur glisser-déposer: assemblez visuellement des mises en page Web.",
+    "Génération de code IA: transformez les wireframes en code prêt pour la production.",
+    "Exporter vers des frameworks: prend en charge React, Vue et HTML/CSS.",
+    "Collaboration: Gestion de projet en équipe."
   ]
 }

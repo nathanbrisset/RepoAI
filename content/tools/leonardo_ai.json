@@ -18,8 +18,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/leonardo_ai.png",
   "image": "/tool-screenshots/leonardo_ai.png",
@@ -56,9 +55,9 @@
     }
   ],
   "features_fr": [
-    "Génération basée sur des invites : créez des images à partir d'invites textuelles.",
-    "Personnalisation du style : choisissez parmi différents styles et modificateurs artistiques.",
-    "Génération par lots : produisez plusieurs variantes simultanément.",
-    "Bibliothèque d'actifs : enregistrez et gérez tes illustrations générées."
+    "Génération basée sur des invites: créez des images à partir d'invites textuelles.",
+    "Personnalisation du style: choisissez parmi différents styles et modificateurs artistiques.",
+    "Génération par lots: produisez plusieurs variantes simultanément.",
+    "Bibliothèque d'actifs: enregistrez et gérez tes illustrations générées."
   ]
 }

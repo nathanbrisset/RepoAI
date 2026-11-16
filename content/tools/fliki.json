@@ -19,8 +19,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/fliki.png",
   "image": "/screenshots/fliki.webp",
@@ -57,9 +56,9 @@
     }
   ],
   "features_fr": [
-    "Texte en vidéo : transformez du texte en vidéos avec des voix d'IA réalistes.",
-    "Prise en charge multilingue : prend en charge plus de 75 langues et 900 voix.",
-    "Voix off AI : générez des voix off réalistes pour les vidéos.",
-    "Génération de scripts : générez automatiquement des scripts pour les vidéos."
+    "Texte en vidéo: transformez du texte en vidéos avec des voix d'IA réalistes.",
+    "Prise en charge multilingue: prend en charge plus de 75 langues et 900 voix.",
+    "Voix off AI: générez des voix off réalistes pour les vidéos.",
+    "Génération de scripts: générez automatiquement des scripts pour les vidéos."
   ]
 }

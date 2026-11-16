@@ -17,14 +17,12 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/qlik.png",
   "image": "/screenshots/qlik.webp",
   "dateAdded": null,
   "lastVerified": null,
-  "dateAddedNote": "The previous Added date was 2012-03-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Associative Analytics Engine: Enables dynamic data exploration and discovery.",
     "Interactive Dashboards: Real-time insights and customizable reports.",
@@ -56,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Moteur d'analyse associative : permet l'exploration et la découverte dynamiques des données.",
-    "Tableaux de bord interactifs : informations en temps réel et rapports personnalisables.",
-    "Intégration des données : se connecte à une grande variété de sources de données.",
-    "IA intégrée : fonctionnalités d'analyse prédictive et d'informations."
+    "Moteur d'analyse associative: permet l'exploration et la découverte dynamiques des données.",
+    "Tableaux de bord interactifs: informations en temps réel et rapports personnalisables.",
+    "Intégration des données: se connecte à une grande variété de sources de données.",
+    "IA intégrée: fonctionnalités d'analyse prédictive et d'informations."
   ]
 }

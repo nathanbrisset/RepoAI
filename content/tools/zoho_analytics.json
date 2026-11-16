@@ -17,14 +17,12 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/zoho_analytics.png",
   "image": "/screenshots/zoho_analytics.webp",
   "dateAdded": null,
   "lastVerified": null,
-  "dateAddedNote": "The previous Added date was 2015-10-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Self-Service Analytics: Create reports and dashboards without coding.",
     "Data Blending: Merge and analyze data from multiple sources.",
@@ -56,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Analyses en libre-service : créez des rapports et des tableaux de bord sans codage.",
-    "Fusion de données : fusionnez et analysez des données provenant de plusieurs sources.",
-    "AI Insights : Zia fournit des informations automatisées et une détection des anomalies.",
-    "Collaboration : partagez des rapports et des tableaux de bord avec ton équipe."
+    "Analyses en libre-service: créez des rapports et des tableaux de bord sans codage.",
+    "Fusion de données: fusionnez et analysez des données provenant de plusieurs sources.",
+    "AI Insights: Zia fournit des informations automatisées et une détection des anomalies.",
+    "Collaboration: partagez des rapports et des tableaux de bord avec ton équipe."
   ]
 }

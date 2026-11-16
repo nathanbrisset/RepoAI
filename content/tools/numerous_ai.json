@@ -17,8 +17,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/numerous_ai.png",
   "image": "/screenshots/numerous_ai.webp",
@@ -55,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Formules IA : automatisez des calculs et des tâches complexes.",
-    "Enrichissement des données : importez et mettez à jour des données à partir de sources externes.",
-    "Intégration transparente : fonctionne nativement avec Google Sheets et Excel.",
-    "Traitement en masse : gère les opérations de feuille de calcul à grande échelle."
+    "Formules IA: automatisez des calculs et des tâches complexes.",
+    "Enrichissement des données: importez et mettez à jour des données à partir de sources externes.",
+    "Intégration transparente: fonctionne nativement avec Google Sheets et Excel.",
+    "Traitement en masse: gère les opérations de feuille de calcul à grande échelle."
   ]
 }

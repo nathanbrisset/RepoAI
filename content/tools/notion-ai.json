@@ -19,8 +19,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/notion-ai.png",
   "image": "/screenshots/notion-ai.webp",
@@ -54,10 +53,10 @@
   ],
   "statusNote": "notion.so redirects to notion.com",
   "features_fr": [
-    "Assistant d'écriture : génère, réécrit et résume le contenu.",
-    "Automatisation des tâches : termine les flux de travail de contenu répétitifs.",
-    "Brainstorming : aide à créer du contenu à partir d'invites.",
-    "Suggestions en ligne : améliore l'écriture directement dans les documents Notion."
+    "Assistant d'écriture: génère, réécrit et résume le contenu.",
+    "Automatisation des tâches: termine les flux de travail de contenu répétitifs.",
+    "Brainstorming: aide à créer du contenu à partir d'invites.",
+    "Suggestions en ligne: améliore l'écriture directement dans les documents Notion."
   ],
   "tags_fr": [
     "prise de notes",

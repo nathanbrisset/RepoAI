@@ -16,8 +16,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/codeassist.png",
   "image": "/tool-screenshots/codeassist.png",
@@ -50,9 +49,9 @@
     }
   ],
   "features_fr": [
-    "Chatbot interactif : Communique en langage naturel.",
-    "Génération de code : écrit du code en fonction des invites.",
-    "Intégration IDE : Compatible avec JetBrains et VS Code.",
-    "Prend en charge plusieurs langages : gère différents langages de programmation."
+    "Chatbot interactif: Communique en langage naturel.",
+    "Génération de code: écrit du code en fonction des invites.",
+    "Intégration IDE: Compatible avec JetBrains et VS Code.",
+    "Prend en charge plusieurs langages: gère différents langages de programmation."
   ]
 }
