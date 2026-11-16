@@ -37,10 +37,7 @@ export function CataloguePageBody({ basePath }: { basePath: "/catalogue" | "/too
     return queryCatalogRecords(locale, parseCatalogSearchParams(input))
   }, [locale, queryUi, mounted])
 
-  const linkParams = useMemo(() => {
-    if (!mounted) return new URLSearchParams()
-    return new URLSearchParams(searchParams.toString())
-  }, [mounted, searchParams])
+  const linkParams = useMemo(() => new URLSearchParams(searchParams.toString()), [searchParams])
 
   return (
     <CatalogueClient

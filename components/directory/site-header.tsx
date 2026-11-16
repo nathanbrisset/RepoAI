@@ -1,6 +1,6 @@
 "use client"
 
-import { Suspense, useEffect, useRef, useState } from "react"
+import { Suspense, useCallback, useEffect, useRef, useState } from "react"
 import { Bookmark, Menu, Plus, Search, X } from "lucide-react"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { cn } from "@/lib/utils"
@@ -11,6 +11,7 @@ import { directoryCopy } from "@/lib/i18n/directory-copy"
 import { localizeHref, stripLocale } from "@/lib/i18n/paths"
 import { fetchDirectorySearch } from "@/lib/directory/client-records"
 import { listingQueryHref } from "@/lib/directory/catalog-query"
+import { useDebouncedUrlDraft } from "@/lib/directory/use-debounced-url-draft"
 import type { DirectoryRecord } from "@/lib/directory/data"
 import { CategoryChipsBar, type SortMode } from "./category-chips-bar"
 import { useDirectory } from "./directory-provider"
@@ -38,13 +39,19 @@ function SiteHeaderInner() {
   const onFilterable = bare === "/catalogue" || bare === "/tools"
   const base = bare === "/tools" ? "/tools" : "/catalogue"
   const category = onFilterable ? searchParams.get("category") || "" : ""
-  const query = onFilterable ? searchParams.get("q") || "" : ""
-  const [draft, setDraft] = useState("")
+  const urlQ = onFilterable ? searchParams.get("q") || "" : ""
   const [sort, setSort] = useState<SortMode>("trending")
 
-  useEffect(() => {
-    setDraft(query)
-  }, [query])
+  const commitHeaderQuery = useCallback(
+    (value: string) => {
+      if (!onFilterable) return
+      const href = listingQueryHref(base, searchParams, { q: value || null }, { resetPage: true })
+      router.replace(localizeHref(locale, href), { scroll: false })
+    },
+    [onFilterable, base, searchParams, router, locale],
+  )
+
+  const { draft, setDraft } = useDebouncedUrlDraft(urlQ, commitHeaderQuery, 250)
 
   useEffect(() => {
     const fromUrl = searchParams.get("sort")
@@ -71,15 +78,6 @@ function SiteHeaderInner() {
     return () => window.removeEventListener("keydown", onKey)
   }, [])
 
-  useEffect(() => {
-    if (!onFilterable || draft === query) return
-    const handle = window.setTimeout(() => {
-      const href = listingQueryHref(base, searchParams, { q: draft || null }, { resetPage: true })
-      router.push(localizeHref(locale, href), { scroll: false })
-    }, 200)
-    return () => window.clearTimeout(handle)
-  }, [draft, onFilterable, query, base, locale, router, searchParams])
-
   function pushCatalogue(updates: Record<string, string | null>, path = base) {
     const params = new URLSearchParams(onFilterable && path === base ? searchParams.toString() : "")
     for (const [key, value] of Object.entries(updates)) {
@@ -88,7 +86,7 @@ function SiteHeaderInner() {
     }
     params.delete("tool")
     const next = params.toString()
-    router.push(localizeHref(locale, next ? `${path}?${next}` : path))
+    router.replace(localizeHref(locale, next ? `${path}?${next}` : path), { scroll: false })
     setMenuOpen(false)
   }
 

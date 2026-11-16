@@ -1,5 +1,6 @@
 "use client"
 
+import { useCallback } from "react"
 import LocaleLink from "@/components/locale-link"
 import { useLocale } from "@/components/locale-provider"
 import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
@@ -14,6 +15,7 @@ import { listingQueryHref, type CatalogQueryResult } from "@/lib/directory/catal
 import type { ListingQueryUi } from "@/lib/directory/listing-query-params"
 import { activeCatalogueCountry, activePriceFilter } from "@/lib/directory/listing-query-params"
 import { useRouter } from "next/navigation"
+import { useDebouncedUrlDraft } from "@/lib/directory/use-debounced-url-draft"
 import { ListingPagination } from "./listing-pagination"
 import { ToolCard } from "./tool-card"
 
@@ -36,10 +38,21 @@ export function CatalogueClient({
   const { category, q: queryRaw, sort, pricing, hqCountry } = queryUi
   const activePrice = activePriceFilter(pricing)
   const activeCountry = activeCatalogueCountry(hqCountry)
+  const urlQ = linkSearchParams.get("q") ?? ""
+
+  const commitQuery = useCallback(
+    (value: string) => {
+      const href = listingQueryHref(basePath, linkSearchParams, { q: value || null }, { resetPage: true })
+      router.replace(localizeHref(locale, href), { scroll: false })
+    },
+    [basePath, linkSearchParams, locale, router],
+  )
+
+  const { draft: filterDraft, setDraft: setFilterDraft } = useDebouncedUrlDraft(urlQ, commitQuery, 250)
 
   function write(updates: Record<string, string | null>) {
     const href = listingQueryHref(basePath, linkSearchParams, updates, { resetPage: true })
-    router.push(localizeHref(locale, href), { scroll: false })
+    router.replace(localizeHref(locale, href), { scroll: false })
   }
 
   const { items: visible, total } = catalogPage
@@ -55,8 +68,10 @@ export function CatalogueClient({
         <label className="block md:w-80">
           <span className="sr-only">{t.filterLabel}</span>
           <input
-            value={queryUi.q}
-            onChange={(event) => write({ q: event.target.value || null })}
+            id="catalogue-filter"
+            data-testid="catalogue-filter"
+            value={filterDraft}
+            onChange={(event) => setFilterDraft(event.target.value)}
             placeholder={t.filterPlaceholder}
             className="h-12 w-full rounded-full bg-card px-5 ring-1 ring-border outline-none focus:ring-2 focus:ring-primary"
           />
@@ -110,7 +125,7 @@ export function CatalogueClient({
             {t.catalogueAllCategoriesCta}
           </LocaleLink>
         </div>
-        {(category || queryRaw || activePrice || activeCountry || sort !== "trending") && (
+        {(category || queryRaw.trim() || activePrice || activeCountry || sort !== "trending") && (
           <button
             type="button"
             onClick={() => router.replace(localizeHref(locale, basePath), { scroll: false })}

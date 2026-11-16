@@ -14,7 +14,7 @@ export type ListingQueryUi = {
 
 export function listingQueryFromSearchParams(params: URLSearchParams): ListingQueryUi {
   const category = params.get("category") || ""
-  const q = (params.get("q") || "").trim()
+  const q = params.get("q") || ""
   const sortParam = params.get("sort")
   const sort: SortMode = sortParam === "new" || sortParam === "top" ? sortParam : "trending"
   const pricing = params.get("pricing")
