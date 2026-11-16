@@ -1,0 +1,1134 @@
+{
+  "generatedAt": "2026-11-16T09:53:21.345Z",
+  "fxSource": "ECB eurofxref-daily 2026-11-13 (1 EUR = 1.1052 USD); see fx-notes.md",
+  "disclaimer": "Reference only — not imported by app code and never displayed. Official USD amounts preserved when EN notes were converted to EUR.",
+  "entries": [
+    {
+      "slug": "activepieces",
+      "field": "pricing_usd_official",
+      "usdValue": "Free, then $20/mo (Plus)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "akiflow",
+      "field": "pricing_usd_official",
+      "usdValue": "$19/mo (Pro, monthly)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "albato",
+      "field": "pricing_usd_official",
+      "usdValue": "Free (100 transactions), then $15/mo (Pro, billed annually)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "amp",
+      "field": "pricing_usd_official",
+      "usdValue": "$20/mo (Individual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "anything",
+      "field": "pricing_usd_official",
+      "usdValue": "$19/mo (Pro 20k)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "apollo-io",
+      "field": "pricing_usd_official",
+      "usdValue": "$49/seat/mo (Basic, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "assemblyai",
+      "field": "pricing_usd_official",
+      "usdValue": "$0.15/hr",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "attio",
+      "field": "pricing_usd_official",
+      "usdValue": "$35/user/mo (Plus, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "augment-code",
+      "field": "pricing_usd_official",
+      "usdValue": "$20/mo (Standard, flat)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "axiom-ai",
+      "field": "pricing_usd_official",
+      "usdValue": "$15/mo (Starter, 5 h runtime)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "bardeen",
+      "field": "pricing_usd_official",
+      "usdValue": "Free (100 credits), then $10/mo",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "base44",
+      "field": "pricing_usd_official",
+      "usdValue": "$40/mo (annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "beautiful-ai",
+      "field": "pricing_usd_official",
+      "usdValue": "$14.50/mo (Pro, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "bland-ai",
+      "field": "pricing_usd_official",
+      "usdValue": "$0.14/min",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "botpress",
+      "field": "pricing_usd_official",
+      "usdValue": "$150/mo (Plus, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "browser-use",
+      "field": "pricing_usd_official",
+      "usdValue": "$0.02/browser-hour",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "bubble",
+      "field": "pricing_usd_official",
+      "usdValue": "$32/mo (Starter, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "buffer",
+      "field": "pricing_usd_official",
+      "usdValue": "$5/mo per channel (Essentials)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "capcut",
+      "field": "pricing_usd_official",
+      "usdValue": "Free USD 0, plus paid plans (capcut.com/pricing)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "cartesia",
+      "field": "pricing_usd_official",
+      "usdValue": "The official pricing page lists Free at $0/month with 20,000 credits, Pro at $5/month and Startup at $49/month.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "character-ai",
+      "field": "pricing_usd_official",
+      "usdValue": "The free plan offers unlimited messaging with ads; c.ai+ costs $9.99/month in the US for no ads, better memory and priority access, and a cheaper c.ai lite tier is also offered.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "chatbase",
+      "field": "pricing_usd_official",
+      "usdValue": "$40/mo (Hobby, monthly)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "claude",
+      "field": "pricing_usd_official",
+      "usdValue": "Free $0; Pro $17/month annual ($200 up front) or $20 monthly; Max $100/month; Ultra $200/month (claude.com/pricing, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "claude-3",
+      "field": "pricing_usd_official",
+      "usdValue": "Free $0; Pro $17/month annual or $20 monthly; Max $100/month; Ultra $200/month (claude.com/pricing, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "claude-code",
+      "field": "pricing_usd_official",
+      "usdValue": "Included from Claude Pro $17/month annual ($20 monthly); Max $100/month; Ultra $200/month (claude.com/pricing, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "cleo",
+      "field": "pricing_usd_official",
+      "usdValue": "The official pricing page lists Plus at $5.99/month, Pro at $8.99/month and Builder at $14.99/month. No $0 plan was shown on that page.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "clickup-ai",
+      "field": "pricing_usd_official",
+      "usdValue": "Free Forever + $7/user/month billed yearly (clickup.com/pricing)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "codepal",
+      "field": "pricing_usd_official",
+      "usdValue": "Usage runs on credits. The free Starter plan ($0) includes 2 daily credits (up to 30 per month), up to 50 projects and limited Agent use; Standard is $25/month and Pro $50/month (annual billing) with 100 and 250 monthly credits, credit rollover and private projects; Enterprise is custom.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "coderabbit",
+      "field": "pricing_usd_official",
+      "usdValue": "$24/user/mo (annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "consensus",
+      "field": "pricing_usd_official",
+      "usdValue": "$12/mo (Pro, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "craft",
+      "field": "pricing_usd_official",
+      "usdValue": "$8/mo (Plus, monthly)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "creatify",
+      "field": "pricing_usd_official",
+      "usdValue": "The official pricing page lists a Free plan with 10 credits a month. Standard is $15/month, or $10/month billed yearly.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "cursor",
+      "field": "pricing_usd_official",
+      "usdValue": "Free $0; Plus $8/month; Premium $30/month; Super $100/month; Ultra $200/month; Teams $30+/user/month (cursor.com/pricing, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "deepseek",
+      "field": "pricing_usd_official",
+      "usdValue": "from $0.15 per million input tokens (cache miss, off-peak) on the current pricing table.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "descript",
+      "field": "pricing_usd_official",
+      "usdValue": "Free $0; Hobbyist $16/person/month annual or $24 monthly; Creator $24 annual / $35 monthly; Business $50 annual / $65 monthly (descript.com/pricing, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "devin",
+      "field": "pricing_usd_official",
+      "usdValue": "Devin, from Cognition, is an autonomous AI software engineer that runs parallel cloud agents to plan, write and ship code. The Free plan ($0) gives a light quota, Pro costs $20/month, Max $200/month and Teams $80/month plus $40 per developer seat.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "dia",
+      "field": "pricing_usd_official",
+      "usdValue": "The official plans page lists Better Browser as free. Better Answers is shown at $10/month on the plan cards and at $20/month in the FAQ on the same page. Better Days is $100/month. New users get a 14-day trial of Better Days.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "digits",
+      "field": "pricing_usd_official",
+      "usdValue": "$65/mo (Essentials)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "durable",
+      "field": "pricing_usd_official",
+      "usdValue": "$25/mo (Launch)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "elevenlabs",
+      "field": "pricing_usd_official",
+      "usdValue": "Free $0 (10k credits); Starter $6/mo; Creator $22/mo; Pro $99/mo; Scale $299/mo; Business $990/mo (elevenlabs.io/pricing, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "factory",
+      "field": "pricing_usd_official",
+      "usdValue": "$20/mo (Pro)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "figma-make",
+      "field": "pricing_usd_official",
+      "usdValue": "$16/mo (Professional full seat)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "fireflies-ai",
+      "field": "pricing_usd_official",
+      "usdValue": "Free $0, Pro $10-18/seat/month (fireflies.ai/pricing)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "flutterflow",
+      "field": "pricing_usd_official",
+      "usdValue": "$39/mo (Basic)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "flux",
+      "field": "pricing_usd_official",
+      "usdValue": "API usage is paid per image, for example $0.048 per image on the pricing calculator, with custom enterprise pricing at scale.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "folk",
+      "field": "pricing_usd_official",
+      "usdValue": "The official pricing page lists Standard at $24 per member per month billed yearly and Premium at $48, with Enterprise from $80. Sign-up starts a two-week trial, and the FAQ says a subscription can be cancelled by downgrading to the free plan.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "freed",
+      "field": "pricing_usd_official",
+      "usdValue": "$39/mo",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "gamma",
+      "field": "pricing_usd_official",
+      "usdValue": "The Free plan gives 400 one-time credits and up to 10 slides per prompt; Plus is $9/seat/month billed annually ($12 monthly) and Pro $18/month billed annually.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "gemini",
+      "field": "pricing_usd_official",
+      "usdValue": "Google AI Plus $4.99/mo; Pro $19.99/mo; Ultra 5x $99.99/mo; Ultra 20x $199.99/mo (one.google.com, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "gemini-1-5-pro",
+      "field": "pricing_usd_official",
+      "usdValue": "Google AI Plus $4.99/mo; Pro $19.99/mo; Ultra from $99.99/mo (one.google.com, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "genspark",
+      "field": "pricing_usd_official",
+      "usdValue": "It differentiates itself by bundling many models and agent types under one credit system. The Free plan gives 100 credits per day up to a lifetime allowance; Plus costs $24.99/month ($19.99/month billed annually) with 10,000 monthly credits.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "github-copilot",
+      "field": "pricing_usd_official",
+      "usdValue": "Pro $10/mo; Pro+ $39/mo; Max $100/mo; Business $19/user/mo; Enterprise $39/user/mo (docs.github.com, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "glide",
+      "field": "pricing_usd_official",
+      "usdValue": "$25/mo (Basic)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "google-antigravity",
+      "field": "pricing_usd_official",
+      "usdValue": "$30/seat/mo (Standard, business)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "google-flow-music",
+      "field": "pricing_usd_official",
+      "usdValue": "$6/mo (Starter)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "grammarly",
+      "field": "pricing_usd_official",
+      "usdValue": "Free $0, Pro $12 (grammarly.com/plans, 16 Nov 2026; period not shown)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "graphite",
+      "field": "pricing_usd_official",
+      "usdValue": "$20/user/mo (annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "grok",
+      "field": "pricing_usd_official",
+      "usdValue": "It differentiates itself through live X integration and a single subscription that bundles Grok Chat, Imagine, Build, the Grok API, Cursor access and X benefits. Plans start with Plus at $8/month ($7/month billed annually); Premium is $30/month and higher Super and Ultra tiers add more usage. The plans page lists no $0 tier.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "gumloop",
+      "field": "pricing_usd_official",
+      "usdValue": "$37/mo (Pro)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "heidi-health",
+      "field": "pricing_usd_official",
+      "usdValue": "$110/user/mo (Max)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "hex",
+      "field": "pricing_usd_official",
+      "usdValue": "$36/editor/mo (Professional)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "higgsfield",
+      "field": "pricing_usd_official",
+      "usdValue": "A free plan ($0) offers limited models with a watermark; paid plans start with Starter at about $15/month, with prices changing frequently.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "huggingchat",
+      "field": "pricing_usd_official",
+      "usdValue": "$9/mo (Hugging Face PRO)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "ifttt",
+      "field": "pricing_usd_official",
+      "usdValue": "Free, then $2.99/mo (billed annually)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "instantly",
+      "field": "pricing_usd_official",
+      "usdValue": "The official pricing page lists paid Outreach plans, with Growth at $47/month. No $0 plan was shown.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "integrately",
+      "field": "pricing_usd_official",
+      "usdValue": "Free (100 tasks), then $19.99/mo (Starter, billed annually)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "intercom-fin",
+      "field": "pricing_usd_official",
+      "usdValue": "$0.99 per outcome",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "jasper",
+      "field": "pricing_usd_official",
+      "usdValue": "Pro $69/month/seat billed monthly, $59/month billed yearly; 7-day free trial; no free plan (jasper.ai/pricing, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "jasper-art",
+      "field": "pricing_usd_official",
+      "usdValue": "Jasper Pro $69/month/seat (jasper.ai/pricing)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "juicebox",
+      "field": "pricing_usd_official",
+      "usdValue": "$119/seat/mo (Starter)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "jules",
+      "field": "pricing_usd_official",
+      "usdValue": "The free plan includes 15 tasks per day and 3 concurrent tasks; higher limits come with Google AI Pro ($19.99/month) and Ultra.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "kagi",
+      "field": "pricing_usd_official",
+      "usdValue": "$5/mo (Starter)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "kapwing",
+      "field": "pricing_usd_official",
+      "usdValue": "$16/mo (Pro, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "khanmigo",
+      "field": "pricing_usd_official",
+      "usdValue": "$4/mo (learners & parents)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "kilo-code",
+      "field": "pricing_usd_official",
+      "usdValue": "$15/user/mo (Teams)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "kiro",
+      "field": "pricing_usd_official",
+      "usdValue": "$20/user/mo (Pro)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "knowt",
+      "field": "pricing_usd_official",
+      "usdValue": "$12.99/mo (Ultra, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "krisp",
+      "field": "pricing_usd_official",
+      "usdValue": "7-day free trial, Core $8-16/user/month (krisp.ai/pricing)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "langchain",
+      "field": "pricing_usd_official",
+      "usdValue": "$39/seat/mo (Plus)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "latenode",
+      "field": "pricing_usd_official",
+      "usdValue": "Free, then $0.00012 per CPU-second",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "lemlist",
+      "field": "pricing_usd_official",
+      "usdValue": "$69/mo (monthly; $55 annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "lindy",
+      "field": "pricing_usd_official",
+      "usdValue": "$49.99/mo (Team, 5,000 credits)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "lm-studio",
+      "field": "pricing_usd_official",
+      "usdValue": "$20/mo (Bionic+)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "ltx-studio",
+      "field": "pricing_usd_official",
+      "usdValue": "$15/mo (Lite, monthly)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "mem",
+      "field": "pricing_usd_official",
+      "usdValue": "Mem Free + Plus $9/month, Pro $29/month (get.mem.ai/pricing)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "metaview",
+      "field": "pricing_usd_official",
+      "usdValue": "$100/user/mo (Pro)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "microsoft-power-automate",
+      "field": "pricing_usd_official",
+      "usdValue": "$15/user/mo (billed annually)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "midjourney",
+      "field": "pricing_usd_official",
+      "usdValue": "Basic $10/mo, Standard $30/mo, Pro $60/mo, Mega $120/mo; annual $8/$24/$48/$96 per month (docs.midjourney.com, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "motion",
+      "field": "pricing_usd_official",
+      "usdValue": "$19 and $29/seat/month with free trial (usemotion.com/pricing)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "msty",
+      "field": "pricing_usd_official",
+      "usdValue": "$149/user/yr (Aurum)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "mubert",
+      "field": "pricing_usd_official",
+      "usdValue": "$14/mo (Creator, monthly)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "myedit",
+      "field": "pricing_usd_official",
+      "usdValue": "free tier with daily credits, paid from $5/month annually (via web search, not confirmed on official page)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "nabla",
+      "field": "pricing_usd_official",
+      "usdValue": "Nabla's help center says each user gets a 30-day free trial, then an individual subscription is $119 per month.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "notebooklm",
+      "field": "pricing_usd_official",
+      "usdValue": "It is free with a Google account (up to 100 notebooks and 50 sources each); Google AI Plus, Pro ($19.99/month) and Ultra plans raise usage and notebook limits.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "notta",
+      "field": "pricing_usd_official",
+      "usdValue": "$8.17/mo (Pro, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "novelai",
+      "field": "pricing_usd_official",
+      "usdValue": "$10/mo",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "ollama",
+      "field": "pricing_usd_official",
+      "usdValue": "$20/mo (Pro)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "openai-codex",
+      "field": "pricing_usd_official",
+      "usdValue": "Plus $20/month; Pro $100; Business $20/seat (2+ seats, billed annually) (openai.com/codex, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "openhands",
+      "field": "pricing_usd_official",
+      "usdValue": "$499/mo (Teams)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "otter",
+      "field": "pricing_usd_official",
+      "usdValue": "Basic Free, Pro $8.49-16.99/user/month (otter.ai/pricing)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "otterai",
+      "field": "pricing_usd_official",
+      "usdValue": "Basic Free, Pro $8.49-16.99/user/month (otter.ai/pricing)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "pabbly-connect",
+      "field": "pricing_usd_official",
+      "usdValue": "$16/mo (10,000 tasks, billed annually)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "perplexity-ai",
+      "field": "pricing_usd_official",
+      "usdValue": "Users can sign up for free; Pro costs $17/month billed annually and adds expanded Computer access, deep research and model selection, while Max costs $167/month billed annually with maximum usage and frontier models.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "perplexity-comet",
+      "field": "pricing_usd_official",
+      "usdValue": "Comet has been free to download and use since October 2025; an optional Comet Plus subscription costs $5/month and is included with Perplexity Pro and Max.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "photomath",
+      "field": "pricing_usd_official",
+      "usdValue": "$9.99/mo (Plus, monthly)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "pipedream",
+      "field": "pricing_usd_official",
+      "usdValue": "Free to build, then $99/mo (Startup, billed annually)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "pitch",
+      "field": "pricing_usd_official",
+      "usdValue": "$13/seat/mo (Plus, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "plus-ai",
+      "field": "pricing_usd_official",
+      "usdValue": "$10/user/mo (Basic, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "polymer",
+      "field": "pricing_usd_official",
+      "usdValue": "The official pricing page lists Starter at $20 per month, or $10 per month billed yearly, and Pro at $40 per month with a 14-day trial. No general free plan was shown.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "predis-ai",
+      "field": "pricing_usd_official",
+      "usdValue": "The official pricing page offers a 3-day free trial before a paid plan. One yearly plan shown costs $212 per month. No lasting free plan was listed.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "prowritingaid",
+      "field": "pricing_usd_official",
+      "usdValue": "Free plan + Premium $30/month monthly",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "quillbot",
+      "field": "pricing_usd_official",
+      "usdValue": "Free plan $0; Premium $19.95/month or $99.95/year (prices may vary by region)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "raycast",
+      "field": "pricing_usd_official",
+      "usdValue": "$8/mo (Pro, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "readwise-reader",
+      "field": "pricing_usd_official",
+      "usdValue": "$9.99/mo (Full, billed annually)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "recapo",
+      "field": "pricing_usd_official",
+      "usdValue": "A free trial of the core tools is available. The pricing page says yearly tiers are shown as an averaged monthly price: Starter $9.99/mo, Basic $16.99/mo, Pro $42.99, Ultimate $86.99/mo (Ultimate also lists $99.99).",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "replit",
+      "field": "pricing_usd_official",
+      "usdValue": "Free tier plus Core from $20/mo on replit.com/pricing",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "replit-ghostwriter",
+      "field": "pricing_usd_official",
+      "usdValue": "Free mode + Core $20/month (replit.com/pricing)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "researchrabbit",
+      "field": "pricing_usd_official",
+      "usdValue": "$10/mo (annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "retool",
+      "field": "pricing_usd_official",
+      "usdValue": "$10/builder/mo (annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "reve",
+      "field": "pricing_usd_official",
+      "usdValue": "The official pricing page lists Free at $0/month, Lite at $7.99/month, Pro at $19.99/month and Teams at $59 per user per month.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "roomote-roo-code",
+      "field": "pricing_usd_official",
+      "usdValue": "The official site says self-hosting is free for up to 10 users. Roomote Cloud starts at $49/month after a 7-day trial.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "rows",
+      "field": "pricing_usd_official",
+      "usdValue": "$8/user/mo (Plus)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "runway",
+      "field": "pricing_usd_official",
+      "usdValue": "Free $0 (125 one-time credits); Standard $12/mo annual or $15 monthly; Pro $28/mo annual or $35 monthly; Max $76/mo annual or $95 monthly (runwayml.com/pricing, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "rytr",
+      "field": "pricing_usd_official",
+      "usdValue": "$9/mo (Lite)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "scite",
+      "field": "pricing_usd_official",
+      "usdValue": "$12/mo (Basic, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "shortwave",
+      "field": "pricing_usd_official",
+      "usdValue": "$30/seat/mo (Business)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "simple-analytics",
+      "field": "pricing_usd_official",
+      "usdValue": "free for hobby sites, paid from $20/month",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "skyvern",
+      "field": "pricing_usd_official",
+      "usdValue": "Free (5,000 credits/mo), then $29/mo (Hobby)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "socket",
+      "field": "pricing_usd_official",
+      "usdValue": "$25/dev seat/mo (Team)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "soundful",
+      "field": "pricing_usd_official",
+      "usdValue": "$4.99/mo (Plus, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "stable-audio",
+      "field": "pricing_usd_official",
+      "usdValue": "$12/mo (Solo)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "submagic",
+      "field": "pricing_usd_official",
+      "usdValue": "The official pricing page lists Starter at $19/month and Pro at $39/month. A Try For Free button is shown, but no lasting $0 plan was listed.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "suno",
+      "field": "pricing_usd_official",
+      "usdValue": "Free $0; Pro $8/mo billed $96/year or $10 monthly; Premier $24/mo billed $288/year or $30 monthly (suno.com/pricing, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "sunsama",
+      "field": "pricing_usd_official",
+      "usdValue": "$17/mo (Pro, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "supabase",
+      "field": "pricing_usd_official",
+      "usdValue": "$25/mo (Pro)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "superhuman",
+      "field": "pricing_usd_official",
+      "usdValue": "$12/member/mo (annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "superwhisper",
+      "field": "pricing_usd_official",
+      "usdValue": "$8.49/mo (Pro)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "tana",
+      "field": "pricing_usd_official",
+      "usdValue": "$30/user/mo (Pro; $20 early bird)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "taplio",
+      "field": "pricing_usd_official",
+      "usdValue": "$39/mo (Starter)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "tavily",
+      "field": "pricing_usd_official",
+      "usdValue": "$0.008/credit",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "tempo",
+      "field": "pricing_usd_official",
+      "usdValue": "$50/mo (Pro)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "tl-dv",
+      "field": "pricing_usd_official",
+      "usdValue": "$18/seat/mo (Pro, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "topaz-labs",
+      "field": "pricing_usd_official",
+      "usdValue": "$19/mo (Topaz for Web – Image)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "trae",
+      "field": "pricing_usd_official",
+      "usdValue": "$3/mo (Lite)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "tray-ai",
+      "field": "pricing_usd_official",
+      "usdValue": "$50/mo",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "typecast",
+      "field": "pricing_usd_official",
+      "usdValue": "$5/mo (Basic)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "typingmind",
+      "field": "pricing_usd_official",
+      "usdValue": "$39 one-time (Standard)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "uberduck",
+      "field": "pricing_usd_official",
+      "usdValue": "free tier and paid plans from $2/month yearly (uberduck.ai/pricing)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "udio",
+      "field": "pricing_usd_official",
+      "usdValue": "The Free plan includes 10 credits per day (100 per month); Standard costs $10/month ($8/month billed annually) with 2,400 credits and Pro $30/month.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "uipath",
+      "field": "pricing_usd_official",
+      "usdValue": "Free, then $25/mo (Basic)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "veo",
+      "field": "pricing_usd_official",
+      "usdValue": "On the Gemini API it is paid-tier only (not available on the free tier), from $0.05 per second for Veo 3.1 Lite at 720p; Google notes the Veo 3.1 preview endpoints shut down on Oct 22, 2026 in favour of Gemini Omni Flash.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "vidu",
+      "field": "pricing_usd_official",
+      "usdValue": "$10/mo (monthly)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "viggle",
+      "field": "pricing_usd_official",
+      "usdValue": "$7.99/mo",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "vizcom",
+      "field": "pricing_usd_official",
+      "usdValue": "$49/user/mo (Professional)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "voice-ai",
+      "field": "pricing_usd_official",
+      "usdValue": "Free $0, Starter $5/month (voice.ai/pricing)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "webflow",
+      "field": "pricing_usd_official",
+      "usdValue": "$15/mo (Basic, annual)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "windmill",
+      "field": "pricing_usd_official",
+      "usdValue": "Free when self-hosted, then $170/mo (Cloud Team)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "you-com",
+      "field": "pricing_usd_official",
+      "usdValue": "$5 per 1,000 calls",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "z-ai-glm",
+      "field": "pricing_usd_official",
+      "usdValue": "Z.AI's pricing page lists per-token prices, including GLM-5.3 at $1.40 per million input tokens, and marks GLM-4.7-Flash, GLM-4.5-Flash and GLM-4.6V-Flash as free. The coding plan documented separately starts at $18/month.",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    },
+    {
+      "slug": "zapier",
+      "field": "pricing_usd_official",
+      "usdValue": "Free (100 tasks/mo); Professional $19.99/mo billed annually, $29.99/mo monthly (750 tasks tier) (zapier.com/pricing, 16 Nov 2026)",
+      "source": "official-page-2026-11-16",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Re-checked 16 Nov 2026."
+    },
+    {
+      "slug": "zed",
+      "field": "pricing_usd_official",
+      "usdValue": "$10/mo (Pro)",
+      "source": "catalog-note-ecb-conversion-source",
+      "note": "Reference only (official USD amount). Fiche has no pricing_usd_official today and the import scripts reject storing it in content/tools; keep it in the delivery/notes, not in the fiche. Taken from the current catalog note (not re-checked today)."
+    }
+  ]
+}

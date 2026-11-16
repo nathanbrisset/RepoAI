@@ -1,0 +1,130 @@
+{
+  "summary": {
+    "scanned": 2273,
+    "cleanShown": 2260,
+    "hidden": 13,
+    "hiddenByReason": {
+      "non_eur_currency": 13
+    }
+  },
+  "hidden": [
+    {
+      "id": "amazon-codewhisperer",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "AWS publishes a free tier and a Pro tier in other docs. The dollar price was not copied from this fetch.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "amazon-q-developer",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "AWS publishes a free tier and a Pro tier in other docs. The dollar price was not copied from this fetch.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "arcads",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "Arcads' help center describes a 72-hour trial that requires a card, then paid plans (Starter, Creator, Pro, Scale and Business). That article does not publish a dollar price.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "dia",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "The official plans page lists Better Browser as free. Better Answers is shown at $10/month on the plan cards and at $20/month in the FAQ on the same page. Better Days is $100/month. New users get a 14-day trial of Better Days.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "duolingo",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "The official Super page lists a Free plan and paid Super and Super Family plans, with a one-week trial. Dollar prices are not printed on that page.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "grammarly",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "Listed Free; grammarly.com/plans: Free $0, Pro $12",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "grok",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "It differentiates itself through live X integration and a single subscription that bundles Grok Chat, Imagine, Build, the Grok API, Cursor access and X benefits. Plans start with Plus at $8/month ($7/month billed annually); Premium is $30/month and higher Super and Ultra tiers add more usage. The plans page lists no $0 tier.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "myedit",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "Box cannot reach myedit.io; web search + curl: official site is myedit.online (title 'MyEdit: Online AI Editor for Image, Video & Audio'); pricing page myedit.online/en/pricing via search: free tier with daily credits, paid from $5/month annually",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "perplexity-ai",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "Users can sign up for free; Pro costs $17/month billed annually and adds expanded Computer access, deep research and model selection, while Max costs $167/month billed annually with maximum usage and frontier models.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "perplexity-comet",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "Comet has been free to download and use since October 2025; an optional Comet Plus subscription costs $5/month and is included with Perplexity Pro and Max.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "profound",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "The official pricing page lists a free 7-day trial, with 50 prompts a day, and paid Enterprise and Agency Growth plans. No dollar price was shown.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "recapo",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "A free trial of the core tools is available. The pricing page says yearly tiers are shown as an averaged monthly price: Starter $9.99/mo, Basic $16.99/mo, Pro $42.99, Ultimate $86.99/mo (Ultimate also lists $99.99).",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    },
+    {
+      "id": "voiceflow",
+      "field": "pricing.note",
+      "lang": "en",
+      "value": "The official pricing page offers a free trial and describes agency billing as usage-based. Business plans are quoted on request. No dollar price was published on that page.",
+      "reasons": [
+        "non_eur_currency"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-16T00:00:00.000Z"
+}
