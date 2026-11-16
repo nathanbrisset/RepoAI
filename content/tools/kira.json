@@ -1,7 +1,7 @@
 {
   "id": "kira",
-  "name": "Kira",
-  "url": "https://kirasystems.com",
+  "name": "Litera Review",
+  "url": "https://www.litera.com/capabilities/review",
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI contract analysis for law firms and legal teams.",
@@ -17,7 +17,7 @@
   ],
   "pricing": {
     "verified": false,
-    "sourceUrl": "https://kirasystems.com",
+    "sourceUrl": "https://www.litera.com/capabilities/review",
     "model": "enterprise",
     "label": "Enterprise",
     "note": "Enterprise pricing; contact sales or see the official site.",
@@ -26,7 +26,7 @@
   "logo": "/logos/kira.png",
   "image": "/screenshots/kira.webp",
   "dateAdded": "2026-10-30",
-  "lastVerified": "2026-10-30",
+  "lastVerified": "2026-11-16",
   "features": [
     "Clause extraction",
     "High-volume contract review",
@@ -42,11 +42,11 @@
   "howToUse": [
     {
       "title": "Open Kira",
-      "description": "Go to kirasystems.com, then sign up or start a free trial if one is offered.",
+      "description": "Go to litera.com, then sign up or start a free trial if one is offered.",
       "links": [
         {
           "label": "Kira",
-          "url": "https://kirasystems.com"
+          "url": "https://www.litera.com/capabilities/review"
         }
       ]
     },
@@ -72,11 +72,11 @@
   "howToUse_fr": [
     {
       "title": "Ouvre Kira",
-      "description": "Rends-toi sur kirasystems.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
+      "description": "Rends-toi sur litera.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
       "links": [
         {
           "label": "Kira",
-          "url": "https://kirasystems.com"
+          "url": "https://www.litera.com/capabilities/review"
         }
       ]
     },
@@ -92,5 +92,8 @@
       "title": "Revue de grands volumes de contrats",
       "description": "Teste revue de grands volumes de contrats sur un petit exemple avant d'automatiser ou d'étendre l'usage."
     }
+  ],
+  "sources": [
+    "https://www.businesswire.com/news/home/20210810005645/en/Litera-Agrees-to-Acquire-Leading-Machine-Learning-Contract-Analysis-Company-Kira-Systems"
   ]
 }
