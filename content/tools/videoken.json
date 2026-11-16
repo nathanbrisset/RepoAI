@@ -16,8 +16,7 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/videoken.png",
   "image": "/screenshots/videoken.webp",
@@ -76,9 +75,9 @@
     }
   ],
   "features_fr": [
-    "Résumé vidéo IA : condense les longues vidéos en extraits vidéo ou en résumés concis, ce qui permet aux spectateurs de gagner du temps.",
-    "Chapitrerage automatique : détecte les changements de sujet et crée des chapitres cliquables pour une navigation facile.",
-    "Transcriptions consultables : génère des transcriptions précises et indexe le contenu clé pour une recherche efficace.",
-    "Widgets intégrables : ajoutez des index intelligents et des outils de navigation à ton plateforme vidéo ou à ton site Web."
+    "Résumé vidéo IA: condense les longues vidéos en extraits vidéo ou en résumés concis, ce qui permet aux spectateurs de gagner du temps.",
+    "Chapitrerage automatique: détecte les changements de sujet et crée des chapitres cliquables pour une navigation facile.",
+    "Transcriptions consultables: génère des transcriptions précises et indexe le contenu clé pour une recherche efficace.",
+    "Widgets intégrables: ajoutez des index intelligents et des outils de navigation à ton plateforme vidéo ou à ton site Web."
   ]
 }

@@ -20,8 +20,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/v0-vercel.png",
   "image": "/screenshots/v0-vercel.webp",
@@ -55,9 +54,9 @@
   ],
   "statusNote": "v0.dev redirects to v0.app",
   "features_fr": [
-    "Génération de composants : créez des composants d'interface utilisateur à partir d'invites textuelles.",
-    "Exportation de code : exportez des composants sous forme de code utilisable.",
-    "Personnalisation de la conception : ajustez les styles et les dispositions des composants.",
-    "Intégration avec les frameworks : utilisez des composants avec des frameworks populaires."
+    "Génération de composants: créez des composants d'interface utilisateur à partir d'invites textuelles.",
+    "Exportation de code: exportez des composants sous forme de code utilisable.",
+    "Personnalisation de la conception: ajustez les styles et les dispositions des composants.",
+    "Intégration avec les frameworks: utilisez des composants avec des frameworks populaires."
   ]
 }

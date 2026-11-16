@@ -16,8 +16,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/yellowbrick.png",
   "image": "/screenshots/yellowbrick.webp",
@@ -51,9 +50,9 @@
   ],
   "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
   "features_fr": [
-    "Analyse visuelle des modèles d'apprentissage automatique : fournit des visualisations pour comprendre les performances du modèle.",
-    "Intégration avec Scikit-Learn : fonctionne avec les bibliothèques d'apprentissage automatique Python populaires.",
-    "Outils de diagnostic : propose des outils pour diagnostiquer des problèmes tels que le surapprentissage.",
-    "Visualisation des fonctionnalités : aide à comprendre l’importance et l’impact des fonctionnalités."
+    "Analyse visuelle des modèles d'apprentissage automatique: fournit des visualisations pour comprendre les performances du modèle.",
+    "Intégration avec Scikit-Learn: fonctionne avec les bibliothèques d'apprentissage automatique Python populaires.",
+    "Outils de diagnostic: propose des outils pour diagnostiquer des problèmes tels que le surapprentissage.",
+    "Visualisation des fonctionnalités: aide à comprendre l’importance et l’impact des fonctionnalités."
   ]
 }

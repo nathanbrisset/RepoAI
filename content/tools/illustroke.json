@@ -18,8 +18,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/illustroke.png",
   "image": "/screenshots/illustroke.webp",
@@ -56,9 +55,9 @@
     }
   ],
   "features_fr": [
-    "Sortie SVG : générez des illustrations vectorielles à partir du texte.",
-    "Basé sur des invites : utilise le langage naturel pour spécifier tes besoins.",
-    "Personnalisable : modifiez les couleurs et les détails après génération.",
-    "Licence commerciale : utilise les résultats pour les entreprises et les produits."
+    "Sortie SVG: générez des illustrations vectorielles à partir du texte.",
+    "Basé sur des invites: utilise le langage naturel pour spécifier tes besoins.",
+    "Personnalisable: modifiez les couleurs et les détails après génération.",
+    "Licence commerciale: utilise les résultats pour les entreprises et les produits."
   ]
 }

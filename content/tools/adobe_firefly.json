@@ -18,14 +18,13 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/adobe_firefly.png",
   "image": "/screenshots/adobe_firefly.webp",
   "dateAdded": "2023-05-01",
   "lastVerified": "2026-10-21",
-  "statusNote": "Headless Chrome: adobe.com/sensei/generative-ai/firefly returns a 404 page; firefly.adobe.com loads ('Adobe Firefly: Your all-in-one AI creative studio')",
+  "statusNote": "The Sensei generative-ai URL may not resolve; use firefly.adobe.com for Adobe Firefly.",
   "features": [
     "Text-to-Image: Create images from descriptions.",
     "Text Effects: Apply unique styles to text for branding.",
@@ -57,9 +56,9 @@
     }
   ],
   "features_fr": [
-    "Text-to-Image : créez des images à partir de descriptions.",
-    "Effets de texte : appliquez des styles uniques au texte pour la personnalisation.",
-    "Génération de vecteurs : produisez des œuvres d'art vectorielles avec l'aide de l'IA.",
-    "Intégration transparente : fonctionne avec Adobe Photoshop et Illustrator."
+    "Text-to-Image: créez des images à partir de descriptions.",
+    "Effets de texte: appliquez des styles uniques au texte pour la personnalisation.",
+    "Génération de vecteurs: produisez des œuvres d'art vectorielles avec l'aide de l'IA.",
+    "Intégration transparente: fonctionne avec Adobe Photoshop et Illustrator."
   ]
 }

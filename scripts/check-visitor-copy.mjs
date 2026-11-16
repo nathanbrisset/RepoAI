@@ -35,10 +35,27 @@ export const VISITOR_COPY_RULES = [
     pattern: /(?:^|[.!?]\s+)(?:Distinct|distinct)(?:e)?\s+(?:from|de)\s+[^.!?]*\([a-z0-9][a-z0-9.-]*\)/i,
     scope: "distinct-domain",
   },
-  { id: "pages-checked", pattern: /pages?\s+(?:web\s+)?checked|sur\s+les\s+pages\s+vérifiées/i, scope: "internal" },
+  { id: "pages-checked", pattern: /pages?\s+(?:web\s+)?checked|sur\s+les\s+pages\s+vérifiées|pages vérifiées/i, scope: "internal" },
   { id: "pricing-left-blank", pattern: /pricing\s+is\s+left\s+blank/i, scope: "internal" },
   { id: "not-verified-pricing", pattern: /was\s+not\s+verified\s+(?:on|during)\s+this\s+check/i, scope: "internal" },
   { id: "notes-officielles", pattern: /conservé\s+uniquement\s+dans\s+les\s+notes\s+officielles|recorded\s+in\s+the\s+official\s+\(non-displayed\)\s+notes/i, scope: "internal" },
+  { id: "carried-over-pricing", pattern: /carried over from the previous catalog|not rechecked/i, scope: "internal" },
+  { id: "repris-ancien-catalogue", pattern: /repris de l['’]ancien catalogue|non revérifié/i, scope: "internal" },
+  { id: "removed-because-date", pattern: /removed because it is not a credible date|It was removed because/i, scope: "internal" },
+  { id: "during-this-check", pattern: /during this check|lors de cette vérification/i, scope: "internal" },
+  { id: "headless-chrome", pattern: /headless chrome/i, scope: "internal" },
+  { id: "curl-cli", pattern: /\bcurl\s+[-\s]/i, scope: "internal" },
+  { id: "box-cannot", pattern: /box cannot/i, scope: "internal" },
+  { id: "verify-whether", pattern: /verify whether/i, scope: "internal" },
+  {
+    id: "was-not-listed",
+    pattern: /was not listed on the pricing|n['’]étaient pas indiqués sur les pages/i,
+    scope: "internal",
+  },
+  { id: "was-not-stated", pattern: /was not stated|was not found|was not verified/i, scope: "internal" },
+  { id: "verified-on-official", pattern: /verified on official/i, scope: "internal" },
+  { id: "in-lot-meta", pattern: /\bin lot\b/i, scope: "internal" },
+  { id: "pas-affiche-meta", pattern: /donc non affiché|n['’]est pas affiché/i, scope: "internal" },
 ]
 
 const PRICING_NOTE_FIELDS = new Set([

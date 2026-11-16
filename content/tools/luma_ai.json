@@ -18,8 +18,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/luma_ai.png",
   "image": "/screenshots/luma_ai.webp",
@@ -56,9 +55,9 @@
     }
   ],
   "features_fr": [
-    "Technologie NeRF : créez des modèles 3D à partir de photos/vidéos.",
-    "Sortie photoréaliste : résultats détaillés et haute fidélité.",
-    "Adapté aux appareils mobiles : capturez avec un smartphone standard.",
-    "Options d'exportation : téléchargement aux formats 3D et AR."
+    "Technologie NeRF: créez des modèles 3D à partir de photos/vidéos.",
+    "Sortie photoréaliste: résultats détaillés et haute fidélité.",
+    "Adapté aux appareils mobiles: capturez avec un smartphone standard.",
+    "Options d'exportation: téléchargement aux formats 3D et AR."
   ]
 }
