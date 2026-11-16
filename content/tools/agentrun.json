@@ -1,0 +1,79 @@
+{
+  "id": "agentrun",
+  "name": "AgentRun",
+  "url": "https://agentrun.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source control plane for AI agents across Claude Code, Codex, Pi and OpenCode: durable runs, revisions, a shared API and self-improvement. From Parcha Labs, Apache-2.0.",
+  "description": "Open-source control plane for AI agents across Claude Code, Codex, Pi and OpenCode: durable runs, revisions, a shared API and self-improvement. From Parcha Labs, Apache-2.0.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "agents",
+    "open-source",
+    "control-plane",
+    "claude-code",
+    "codex",
+    "parcha"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free under Apache-2.0 for self-host, with your own model keys. A hosted “AgentRun Cloud” from the team at Grep is mentioned; no public cloud price ladder was on the official site on 16 November 2026 and is not invented here.",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/agentrun.png",
+  "image": "/screenshots/agentrun.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Open-source control plane for AI agents across Claude Code, Codex, Pi and OpenCode",
+    "Durable runs, revisions, a shared API and self-improvement (learning notes from completed runs)",
+    "From Parcha Labs, Apache-2.0; self-host on your machine or server with your own keys",
+    "Hosted cloud is mentioned without a public price ladder"
+  ],
+  "howToUse": [
+    {
+      "title": "Open agentrun.ai, read the docs, and self-host the Apache-2.0 platform with your model...",
+      "description": "Open agentrun.ai, read the docs, and self-host the Apache-2.0 platform with your model keys.",
+      "links": [
+        {
+          "label": "AgentRun",
+          "url": "https://agentrun.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Manage agents across Claude Code, Codex, Pi or OpenCode from the console and the shared...",
+      "description": "Manage agents across Claude Code, Codex, Pi or OpenCode from the console and the shared API."
+    }
+  ],
+  "sources": [
+    "https://agentrun.ai/"
+  ],
+  "summary_fr": "Plan de contrôle open source pour agents IA sur Claude Code, Codex, Pi et OpenCode : runs durables, révisions, API partagée et auto-amélioration. Édité par Parcha Labs, licence Apache-2.0.",
+  "description_fr": "Plan de contrôle open source pour agents IA sur Claude Code, Codex, Pi et OpenCode : runs durables, révisions, API partagée et auto-amélioration. Édité par Parcha Labs, licence Apache-2.0.",
+  "features_fr": [
+    "Plan de contrôle open source pour agents IA sur Claude Code, Codex, Pi et OpenCode",
+    "Runs durables, révisions, API partagée et auto-amélioration (notes apprises des runs terminés)",
+    "Édité par Parcha Labs, licence Apache-2.0 ; auto-hébergement sur ta machine ou ton serveur, avec tes clés",
+    "Un cloud hébergé est mentionné, sans grille tarifaire publique"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre agentrun.ai, lis la doc, et auto-héberge la plateforme Apache-2.0 avec tes clés de...",
+      "description": "Ouvre agentrun.ai, lis la doc, et auto-héberge la plateforme Apache-2.0 avec tes clés de modèles.",
+      "links": [
+        {
+          "label": "AgentRun",
+          "url": "https://agentrun.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Gère tes agents sur Claude Code, Codex, Pi ou OpenCode depuis la console et l’API...",
+      "description": "Gère tes agents sur Claude Code, Codex, Pi ou OpenCode depuis la console et l’API partagée."
+    }
+  ]
+}

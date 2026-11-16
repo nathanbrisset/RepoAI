@@ -1,0 +1,87 @@
+{
+  "id": "onepin",
+  "name": "Onepin",
+  "url": "https://onepin.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI voice production agent that gets names, numbers and pronunciation right in every language and catches misses before you ship the audio.",
+  "description": "AI voice production agent that gets names, numbers and pronunciation right in every language and catches misses before you ship the audio.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "tts",
+    "voice",
+    "pronunciation",
+    "audio",
+    "localization"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://onepin.ai/pricing",
+    "details": "Free 0 €/month — 1,000 credits one-time, TTS auto-route, mispronunciation fixes, 10 languages, 1 workspace, 1 GB storage. Creator 14 €/month billed yearly (official “Save 20%”) — 3,000 credits/month, 3 concurrent pipeline runs, 100 GB, email support. Studio 72 €/month billed yearly — 15,000 credits/month, 3 workspaces, 500 GB, email + Slack, bring your own key. Scale 217 €/month billed yearly — 50,000 credits/month, 10 concurrent runs, 5 workspaces, 1 TB, lowest overage rate. Enterprise custom. Official per-credit overage rates are recorded in the official (non-displayed) notes only, because they are too small to show as whole euros. Monthly list prices besides these yearly-billed figures were not separately stated and are not invented here.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/onepin.png",
+  "image": "/screenshots/onepin.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "AI voice production agent that gets names, numbers and pronunciation right in every language",
+    "Validated TTS pipeline, mispronunciation fixes and auto-route",
+    "Commercial output ownership on higher tiers",
+    "Free one-time credits; paid plans are official yearly-billed prices (no invented monthly list)"
+  ],
+  "howToUse": [
+    {
+      "title": "Open onepin.ai and start Free with the one-time credit pack.",
+      "description": "Open onepin.ai and start Free with the one-time credit pack.",
+      "links": [
+        {
+          "label": "Onepin",
+          "url": "https://onepin.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Run a script through the validated pipeline and catch pronunciation misses before you...",
+      "description": "Run a script through the validated pipeline and catch pronunciation misses before you ship the audio."
+    },
+    {
+      "title": "Upgrade to Creator, Studio or Scale on the official yearly-billed plans if you need...",
+      "description": "Upgrade to Creator, Studio or Scale on the official yearly-billed plans if you need monthly credits."
+    }
+  ],
+  "sources": [
+    "https://onepin.ai/pricing"
+  ],
+  "summary_fr": "Agent de production voix IA qui prononce correctement les noms, les chiffres et les termes dans chaque langue, et attrape les erreurs avant l’expédition audio.",
+  "description_fr": "Agent de production voix IA qui prononce correctement les noms, les chiffres et les termes dans chaque langue, et attrape les erreurs avant l’expédition audio.",
+  "features_fr": [
+    "Agent de production voix IA qui prononce correctement les noms, les chiffres et les termes dans chaque langue",
+    "Pipeline TTS validé, corrections de prononciation et routage automatique",
+    "Propriété commerciale de la sortie sur les offres supérieures",
+    "Crédits gratuits une fois ; les offres payantes sont des tarifs officiels facturés à l’année (pas de liste mensuelle inventée)"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre onepin.ai et commence l’offre Gratuite avec le pack de crédits une fois.",
+      "description": "Ouvre onepin.ai et commence l’offre Gratuite avec le pack de crédits une fois.",
+      "links": [
+        {
+          "label": "Onepin",
+          "url": "https://onepin.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Fais passer un script dans le pipeline validé et attrape les erreurs de prononciation...",
+      "description": "Fais passer un script dans le pipeline validé et attrape les erreurs de prononciation avant d’expédier l’audio."
+    },
+    {
+      "title": "Passe à Creator, Studio ou Scale sur les offres officielles facturées à l’année si tu as...",
+      "description": "Passe à Creator, Studio ou Scale sur les offres officielles facturées à l’année si tu as besoin de crédits mensuels."
+    }
+  ]
+}

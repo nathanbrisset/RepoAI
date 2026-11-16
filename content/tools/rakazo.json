@@ -1,0 +1,88 @@
+{
+  "id": "rakazo",
+  "name": "Rakazo",
+  "url": "https://rakazo.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source Grok Bot alternative for persistent AI teammates that do real work, with your keys, your model and your machine. Legal entity: Inbox Zero Inc.",
+  "description": "Open-source Grok Bot alternative for persistent AI teammates that do real work, with your keys, your model and your machine. Legal entity: Inbox Zero Inc.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "agents",
+    "open-source",
+    "teammates",
+    "self-hosted",
+    "mcp"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Self-hosted Free (Apache-2.0), on your server or computer, any model you connect. Hosted Standard 14 €/month, or 11 €/month billed yearly, 7-day free trial, bot computer included. Pro 44 €/month. Max 90 €/month. Rakazo credits from 18 €/month (model usage at the provider’s price with no markup, plus computer hours). Hosted sandbox hours by plan: Standard 25 hours/month (4 vCPU/8 GB); Pro 100 hours/month (8 vCPU/16 GB); Max 200 hours/month (16 vCPU/32 GB).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/rakazo.png",
+  "image": "/screenshots/rakazo.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Open-source AI teammates (Apache-2.0) with your keys, your model and your machine",
+    "MCP integrations (Gmail, GitHub, Notion and others), memory, schedules, webhooks and hand-offs",
+    "Skills learned by watching a task; optional hosted bot computer",
+    "Self-host for Free, or a 7-day hosted trial"
+  ],
+  "howToUse": [
+    {
+      "title": "Open rakazo.com and either self-host from the official GitHub repo for Free, or start a...",
+      "description": "Open rakazo.com and either self-host from the official GitHub repo for Free, or start a 7-day hosted trial.",
+      "links": [
+        {
+          "label": "Rakazo",
+          "url": "https://rakazo.com/"
+        }
+      ]
+    },
+    {
+      "title": "Connect your model or API key and give the bot a computer when it needs one.",
+      "description": "Connect your model or API key and give the bot a computer when it needs one."
+    },
+    {
+      "title": "Pick hosted Standard, Pro or Max if you want the managed bot computer and monthly hours.",
+      "description": "Pick hosted Standard, Pro or Max if you want the managed bot computer and monthly hours."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://rakazo.com/"
+  ],
+  "summary_fr": "Alternative open source à Grok Bot pour des coéquipiers IA persistants qui font un vrai travail, avec tes clés, ton modèle et ta machine. Entité légale : Inbox Zero Inc.",
+  "description_fr": "Alternative open source à Grok Bot pour des coéquipiers IA persistants qui font un vrai travail, avec tes clés, ton modèle et ta machine. Entité légale : Inbox Zero Inc.",
+  "features_fr": [
+    "Coéquipiers IA open source (Apache-2.0), avec tes clés, ton modèle et ta machine",
+    "Intégrations MCP (Gmail, GitHub, Notion et d’autres), mémoire, planifications, webhooks et passations",
+    "Compétences apprises en observant une tâche ; ordinateur de bot hébergé en option",
+    "Auto-hébergement gratuit, ou essai hébergé de 7 jours"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre rakazo.com et auto-héberge depuis le dépôt GitHub officiel (Gratuit), ou commence...",
+      "description": "Ouvre rakazo.com et auto-héberge depuis le dépôt GitHub officiel (Gratuit), ou commence un essai hébergé de 7 jours.",
+      "links": [
+        {
+          "label": "Rakazo",
+          "url": "https://rakazo.com/"
+        }
+      ]
+    },
+    {
+      "title": "Connecte ton modèle ou ta clé API, et donne un ordinateur au bot quand il en a besoin.",
+      "description": "Connecte ton modèle ou ta clé API, et donne un ordinateur au bot quand il en a besoin."
+    },
+    {
+      "title": "Choisis Standard, Pro ou Max en hébergé si tu veux l’ordinateur géré et les heures...",
+      "description": "Choisis Standard, Pro ou Max en hébergé si tu veux l’ordinateur géré et les heures mensuelles."
+    }
+  ]
+}

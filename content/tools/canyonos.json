@@ -1,0 +1,79 @@
+{
+  "id": "canyonos",
+  "name": "CanyonOS",
+  "url": "https://canyonos.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source (AGPL-3.0) platform to write, deploy, scale and observe agentic apps in plain Python, on your laptop, in your AWS account or on Kubernetes.",
+  "description": "Open-source (AGPL-3.0) platform to write, deploy, scale and observe agentic apps in plain Python, on your laptop, in your AWS account or on Kubernetes.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "agents",
+    "open-source",
+    "python",
+    "aws",
+    "kubernetes",
+    "observability"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free, open source (AGPL-3.0), to run on your own compute (your laptop, your AWS account or Kubernetes). The site states a plan to offer paid services later; no public paid ladder was published on 16 November 2026 and is not invented here.",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/canyonos.png",
+  "image": "/screenshots/canyonos.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Write, deploy, scale and observe agentic apps in plain Python (no SDK/graph required, official)",
+    "One-command deploy to your AWS account or Kubernetes; independent scaling",
+    "Observability without extra tracing code; any OpenAI-compatible provider",
+    "AGPL-3.0, free on your own compute; paid services planned later, no public paid ladder yet"
+  ],
+  "howToUse": [
+    {
+      "title": "Open canyonos.ai, install the official CLI and run the quickstart.",
+      "description": "Open canyonos.ai, install the official CLI and run the quickstart.",
+      "links": [
+        {
+          "label": "CanyonOS",
+          "url": "https://canyonos.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Write agentic apps in plain Python and deploy them to your laptop, AWS account or...",
+      "description": "Write agentic apps in plain Python and deploy them to your laptop, AWS account or Kubernetes cluster."
+    }
+  ],
+  "sources": [
+    "https://canyonos.ai/"
+  ],
+  "summary_fr": "Plateforme open source (AGPL-3.0) pour écrire, déployer, mettre à l’échelle et observer des apps agentiques en Python, sur ton laptop, dans ton compte AWS ou sur Kubernetes.",
+  "description_fr": "Plateforme open source (AGPL-3.0) pour écrire, déployer, mettre à l’échelle et observer des apps agentiques en Python, sur ton laptop, dans ton compte AWS ou sur Kubernetes.",
+  "features_fr": [
+    "Écrire, déployer, mettre à l’échelle et observer des apps agentiques en Python (sans SDK/graphe requis, officiel)",
+    "Déploiement en une commande vers ton compte AWS ou Kubernetes ; mise à l’échelle indépendante",
+    "Observabilité sans code de tracing supplémentaire ; n’importe quel fournisseur compatible OpenAI",
+    "AGPL-3.0, gratuit sur ton propre calcul ; services payants prévus plus tard, sans grille publique pour l’instant"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre canyonos.ai, installe le CLI officiel et lance le quickstart.",
+      "description": "Ouvre canyonos.ai, installe le CLI officiel et lance le quickstart.",
+      "links": [
+        {
+          "label": "CanyonOS",
+          "url": "https://canyonos.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Écris des apps agentiques en Python et déploie-les sur ton laptop, ton compte AWS ou un...",
+      "description": "Écris des apps agentiques en Python et déploie-les sur ton laptop, ton compte AWS ou un cluster Kubernetes."
+    }
+  ]
+}

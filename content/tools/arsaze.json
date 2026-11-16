@@ -1,0 +1,87 @@
+{
+  "id": "arsaze",
+  "name": "Arsaze",
+  "url": "https://www.arsaze.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Full video editor for creators and editors: cut silences and filler words, add captions timed to every word, and press Tab to repeat edits. Local desktop features are free forever.",
+  "description": "Full video editor for creators and editors: cut silences and filler words, add captions timed to every word, and press Tab to repeat edits. Local desktop features are free forever.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "video-editor",
+    "captions",
+    "transcription",
+    "desktop",
+    "ai-editing"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.arsaze.com/pricing",
+    "details": "Billed monthly. Payment in Indian rupees via Razorpay is also official; those amounts are not converted here. Free 0 €/month — 50 one-time welcome AI credits for audio analysis only, 1 hr/month cloud rendering, 2 GB storage, 1 concurrent AI job. Basic 5 €/month — 150 AI credits/month, all AI features, 2.5 hrs cloud rendering, 10 GB, 2 concurrent jobs. Pro 23 €/month — 800 credits/month, 12 hrs, 50 GB, 3 jobs. Studio 90 €/month — 2,900 credits/month, 60 hrs, 250 GB, 8 jobs. Official credit packs: 100=2 €, 250=4 €, 500=8 €, 1,000=15 €, 2,500=36 €, 5,000=68 € (top-up credits never expire). Local desktop features (transcription, background removal and exports on your computer) are free forever, no credits and no watermark.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/arsaze.png",
+  "image": "/screenshots/arsaze.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Full video editor for creators: cut silences and filler words, captions timed to every word, Tab to repeat edits",
+    "Complete editor (timeline, color, audio, captions, delivery) on every plan; Windows, Mac and Linux",
+    "Local transcription, background removal and exports are free forever, no credits and no watermark",
+    "Optional AI assistant connector for Claude, ChatGPT or Grok"
+  ],
+  "howToUse": [
+    {
+      "title": "Open arsaze.com and start Free (the full local editor forever).",
+      "description": "Open arsaze.com and start Free (the full local editor forever).",
+      "links": [
+        {
+          "label": "Arsaze",
+          "url": "https://www.arsaze.com/"
+        }
+      ]
+    },
+    {
+      "title": "Edit on the desktop app without credits: cut silences and filler words, add captions...",
+      "description": "Edit on the desktop app without credits: cut silences and filler words, add captions timed to every word, press Tab to repeat edits."
+    },
+    {
+      "title": "Upgrade to Basic, Pro or Studio only if you need monthly AI credits or cloud rendering.",
+      "description": "Upgrade to Basic, Pro or Studio only if you need monthly AI credits or cloud rendering."
+    }
+  ],
+  "sources": [
+    "https://www.arsaze.com/pricing"
+  ],
+  "summary_fr": "Éditeur vidéo complet pour créateurs et monteur·euses : couper les silences et les tics de langage, ajouter des sous-titres calés sur chaque mot, et appuyer sur Tab pour répéter les edits. Les fonctions locales de l’app desktop sont gratuites pour toujours.",
+  "description_fr": "Éditeur vidéo complet pour créateurs et monteur·euses : couper les silences et les tics de langage, ajouter des sous-titres calés sur chaque mot, et appuyer sur Tab pour répéter les edits. Les fonctions locales de l’app desktop sont gratuites pour toujours.",
+  "features_fr": [
+    "Éditeur vidéo complet pour créateurs : couper les silences et les tics, sous-titres calés sur chaque mot, Tab pour répéter les edits",
+    "Éditeur complet (timeline, couleur, audio, sous-titres, livraison) sur chaque offre ; Windows, Mac et Linux",
+    "Transcription locale, détourage et exports gratuits pour toujours, sans crédits et sans filigrane",
+    "Connecteur d’assistant IA optionnel pour Claude, ChatGPT ou Grok"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre arsaze.com et commence l’offre Gratuite (l’éditeur local complet pour toujours).",
+      "description": "Ouvre arsaze.com et commence l’offre Gratuite (l’éditeur local complet pour toujours).",
+      "links": [
+        {
+          "label": "Arsaze",
+          "url": "https://www.arsaze.com/"
+        }
+      ]
+    },
+    {
+      "title": "Monte dans l’app desktop sans crédits : coupe les silences et les tics de langage, ajoute...",
+      "description": "Monte dans l’app desktop sans crédits : coupe les silences et les tics de langage, ajoute des sous-titres calés sur chaque mot, appuie sur Tab pour répéter les edits."
+    },
+    {
+      "title": "Passe à Basic, Pro ou Studio seulement si tu as besoin de crédits IA mensuels ou du rendu...",
+      "description": "Passe à Basic, Pro ou Studio seulement si tu as besoin de crédits IA mensuels ou du rendu cloud."
+    }
+  ]
+}

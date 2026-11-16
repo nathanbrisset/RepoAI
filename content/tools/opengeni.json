@@ -1,0 +1,89 @@
+{
+  "id": "opengeni",
+  "name": "Opengeni",
+  "url": "https://opengeni.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI agents that do meeting prep, weekly reports, lead follow-ups and pull requests in your team’s tools (Gmail, Slack, GitHub and others), and check with you before anything goes out. Open source (Apache 2.0). Site line: Made in Norway.",
+  "description": "AI agents that do meeting prep, weekly reports, lead follow-ups and pull requests in your team’s tools (Gmail, Slack, GitHub and others), and check with you before anything goes out. Open source (Apache 2.0). Site line: Made in Norway.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "agents",
+    "slack",
+    "github",
+    "team",
+    "open-source",
+    "norway"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free 0 €/month — 9 € of trial credit every month for eligible accounts and free-credit models in the app, 3 seats, top-ups never expire (ChatGPT or SuperGrok subscription not included). Pro 18 €/month — 90 € of usage every month (5× what you pay), 5 seats, can connect your ChatGPT or SuperGrok subscription. Max 90 €/month — 452 € of usage, 10 seats. Enterprise custom (SSO, managed cloud or self-hosted VPC). Self-host: free, no license fee, full platform. Official footer: “Made in Norway”.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/opengeni.png",
+  "image": "/screenshots/opengeni.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Team agents for meeting prep, weekly reports, lead follow-ups and pull requests",
+    "Works in Gmail, Slack, GitHub and other tools; checks with you before anything goes out",
+    "Open source (Apache 2.0); self-host with no license fee; official “Made in Norway”",
+    "Optional desktop app so agents can use your computer"
+  ],
+  "howToUse": [
+    {
+      "title": "Open opengeni.ai and start Free with no card.",
+      "description": "Open opengeni.ai and start Free with no card.",
+      "links": [
+        {
+          "label": "Opengeni",
+          "url": "https://opengeni.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Invite the team and run an agent in your tools (Gmail, Slack, GitHub and others); it...",
+      "description": "Invite the team and run an agent in your tools (Gmail, Slack, GitHub and others); it checks with you before anything goes out."
+    },
+    {
+      "title": "Upgrade to Pro or Max, or self-host, when you need more monthly usage or seats.",
+      "description": "Upgrade to Pro or Max, or self-host, when you need more monthly usage or seats."
+    }
+  ],
+  "hqCountry": "NO",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://opengeni.ai/"
+  ],
+  "summary_fr": "Agents IA qui préparent les réunions, les rapports hebdo, les relances et les pull requests dans les outils de ton équipe (Gmail, Slack, GitHub, etc.) et demandent ton accord avant d’envoyer. Open source (Apache 2.0). Mention officielle : Made in Norway.",
+  "description_fr": "Agents IA qui préparent les réunions, les rapports hebdo, les relances et les pull requests dans les outils de ton équipe (Gmail, Slack, GitHub, etc.) et demandent ton accord avant d’envoyer. Open source (Apache 2.0). Mention officielle : Made in Norway.",
+  "features_fr": [
+    "Agents d’équipe pour la prépa de réunions, les rapports hebdo, les relances et les pull requests",
+    "Fonctionne dans Gmail, Slack, GitHub et d’autres outils ; demande ton accord avant d’envoyer",
+    "Open source (Apache 2.0) ; auto-hébergement sans frais de licence ; mention officielle « Made in Norway »",
+    "App desktop optionnelle pour que les agents utilisent ton ordinateur"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre opengeni.ai et commence l’offre Gratuite, sans carte.",
+      "description": "Ouvre opengeni.ai et commence l’offre Gratuite, sans carte.",
+      "links": [
+        {
+          "label": "Opengeni",
+          "url": "https://opengeni.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Invite l’équipe et lance un agent dans tes outils (Gmail, Slack, GitHub, etc.) ; il...",
+      "description": "Invite l’équipe et lance un agent dans tes outils (Gmail, Slack, GitHub, etc.) ; il demande ton accord avant d’envoyer."
+    },
+    {
+      "title": "Passe à Pro ou Max, ou auto-héberge, si tu as besoin de plus d’usage mensuel ou de sièges.",
+      "description": "Passe à Pro ou Max, ou auto-héberge, si tu as besoin de plus d’usage mensuel ou de sièges."
+    }
+  ]
+}

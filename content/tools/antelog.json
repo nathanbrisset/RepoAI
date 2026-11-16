@@ -1,0 +1,86 @@
+{
+  "id": "antelog",
+  "name": "Antelog",
+  "url": "https://antelog.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Safety layer for AI coding agents: writes down every action the agent wants to take, checks it, and stops dangerous commands before they run. Free to install on your machine.",
+  "description": "Safety layer for AI coding agents: writes down every action the agent wants to take, checks it, and stops dangerous commands before they run. Free to install on your machine.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "security",
+    "agents",
+    "cursor",
+    "claude-code",
+    "guardrails"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Starter 0 € (the page also shows a struck-through 9 €) — try it on your computer, 10,000 AI checks a month, 14 days of history, online dashboard, install free. Pro 14 €/month, or 90 € a year (official save 45%) — everything in Starter, 100,000 AI checks a month, up to 70% fewer false alarms, 1 year of history, email support. Team custom (unlimited checks, company rules, audit log and CSV export, SSO and self-hosting on request).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/antelog.png",
+  "image": "/screenshots/antelog.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Safety layer for AI coding agents: records every action the agent wants to take, checks it, and stops dangerous commands",
+    "Official examples include blocking leaks, deleting production data, wiping home/project folders, force-pushes and key leaks",
+    "Works with Claude Code, Cursor and other agents; online dashboard",
+    "Starter is free to install on your machine"
+  ],
+  "howToUse": [
+    {
+      "title": "Open antelog.dev and install the official Free/Starter command.",
+      "description": "Open antelog.dev and install the official Free/Starter command.",
+      "links": [
+        {
+          "label": "Antelog",
+          "url": "https://antelog.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Let it write down and check each agent action, and stop dangerous commands before they...",
+      "description": "Let it write down and check each agent action, and stop dangerous commands before they run."
+    },
+    {
+      "title": "Upgrade to Pro if you need more monthly checks and longer history.",
+      "description": "Upgrade to Pro if you need more monthly checks and longer history."
+    }
+  ],
+  "sources": [
+    "https://antelog.dev/"
+  ],
+  "summary_fr": "Couche de sécurité pour agents de code IA : consigne chaque action prévue, la vérifie, et bloque les commandes dangereuses avant qu’elles ne s’exécutent. Installation gratuite sur ta machine.",
+  "description_fr": "Couche de sécurité pour agents de code IA : consigne chaque action prévue, la vérifie, et bloque les commandes dangereuses avant qu’elles ne s’exécutent. Installation gratuite sur ta machine.",
+  "features_fr": [
+    "Couche de sécurité pour agents de code IA : consigne chaque action prévue, la vérifie, et bloque les commandes dangereuses",
+    "Exemples officiels : blocage des fuites, suppression de données de production, effacement de dossiers home/projet, force-push et fuite de clés",
+    "Fonctionne avec Claude Code, Cursor et d’autres agents ; tableau de bord en ligne",
+    "Starter s’installe gratuitement sur ta machine"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre antelog.dev et installe la commande officielle Gratuite/Starter.",
+      "description": "Ouvre antelog.dev et installe la commande officielle Gratuite/Starter.",
+      "links": [
+        {
+          "label": "Antelog",
+          "url": "https://antelog.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Laisse-la consigner et vérifier chaque action de l’agent, et bloquer les commandes...",
+      "description": "Laisse-la consigner et vérifier chaque action de l’agent, et bloquer les commandes dangereuses avant qu’elles ne s’exécutent."
+    },
+    {
+      "title": "Passe à Pro si tu as besoin de plus de contrôles mensuels et d’un historique plus long.",
+      "description": "Passe à Pro si tu as besoin de plus de contrôles mensuels et d’un historique plus long."
+    }
+  ]
+}

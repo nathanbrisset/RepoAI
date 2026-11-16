@@ -1,0 +1,86 @@
+{
+  "id": "qorqbot",
+  "name": "Qorqbot",
+  "url": "https://qorqbot.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Proactive agent for complex work that runs on your computer with your own model subscriptions. Personal use is free forever; commercial licensing is stated on the official pricing page.",
+  "description": "Proactive agent for complex work that runs on your computer with your own model subscriptions. Personal use is free forever; commercial licensing is stated on the official pricing page.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "agents",
+    "desktop",
+    "local",
+    "productivity",
+    "license"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Personal 0 € forever — every feature, no trial, the full app, free for non-commercial use and for charities, schools, public research and government bodies. Commercial license regular 9 €/month per person, billed 109 € annually — company, client and paid work, unlimited agents, all your computers. Official promo: commercial use is free until 1 January 2027, then needs the commercial license at the regular price above (work accounts are emailed first; nothing is charged automatically). This free commercial window is a promo, not the regular commercial price. Team license and hosted servers marked “coming soon”.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/qorqbot.png",
+  "image": "/screenshots/qorqbot.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Proactive agent for complex work, running on your computer with your own model subscriptions",
+    "Mac (Apple silicon), Windows and Linux (Ubuntu 24.04 x64 / WSL2)",
+    "Personal use is free forever",
+    "Official promo: commercial use free until 1 January 2027, then the regular commercial license"
+  ],
+  "howToUse": [
+    {
+      "title": "Open qorqbot.com and download the Personal build for your OS.",
+      "description": "Open qorqbot.com and download the Personal build for your OS.",
+      "links": [
+        {
+          "label": "Qorqbot",
+          "url": "https://qorqbot.com/"
+        }
+      ]
+    },
+    {
+      "title": "Run it on your computer with your own model subscription.",
+      "description": "Run it on your computer with your own model subscription."
+    },
+    {
+      "title": "Buy a commercial license if you use it for company, client or paid work — commercial use...",
+      "description": "Buy a commercial license if you use it for company, client or paid work — commercial use is officially free until 1 January 2027, then the regular commercial license applies."
+    }
+  ],
+  "sources": [
+    "https://qorqbot.com/"
+  ],
+  "summary_fr": "Agent proactif pour le travail complexe, qui tourne sur ton ordinateur avec tes propres abonnements de modèles. L’usage personnel est gratuit pour toujours ; la licence commerciale est indiquée sur la page tarifaire officielle.",
+  "description_fr": "Agent proactif pour le travail complexe, qui tourne sur ton ordinateur avec tes propres abonnements de modèles. L’usage personnel est gratuit pour toujours ; la licence commerciale est indiquée sur la page tarifaire officielle.",
+  "features_fr": [
+    "Agent proactif pour le travail complexe, qui tourne sur ton ordinateur avec tes propres abonnements de modèles",
+    "Mac (Apple silicon), Windows et Linux (Ubuntu 24.04 x64 / WSL2)",
+    "L’usage personnel est gratuit pour toujours",
+    "Promo officielle : usage commercial gratuit jusqu’au 1er janvier 2027, puis licence commerciale au tarif régulier"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre qorqbot.com et télécharge la version Personnel pour ton système.",
+      "description": "Ouvre qorqbot.com et télécharge la version Personnel pour ton système.",
+      "links": [
+        {
+          "label": "Qorqbot",
+          "url": "https://qorqbot.com/"
+        }
+      ]
+    },
+    {
+      "title": "Lance-la sur ton ordinateur, avec tes propres abonnements de modèles.",
+      "description": "Lance-la sur ton ordinateur, avec tes propres abonnements de modèles."
+    },
+    {
+      "title": "Prends une licence commerciale si tu l’utilises pour une entreprise, des clients ou un...",
+      "description": "Prends une licence commerciale si tu l’utilises pour une entreprise, des clients ou un travail rémunéré — l’usage commercial est officiellement gratuit jusqu’au 1er janvier 2027, puis le tarif régulier de la licence commerciale s’applique."
+    }
+  ]
+}

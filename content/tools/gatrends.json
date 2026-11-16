@@ -1,0 +1,86 @@
+{
+  "id": "gatrends",
+  "name": "GAtrends",
+  "url": "https://gatrends.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Watches the keywords that matter to you, spots unusual spikes across news, search and communities, pings you in Telegram, and lets you ask Claude or ChatGPT what is rising and why.",
+  "description": "Watches the keywords that matter to you, spots unusual spikes across news, search and communities, pings you in Telegram, and lets you ask Claude or ChatGPT what is rising and why.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "seo",
+    "keywords",
+    "alerts",
+    "telegram",
+    "trends"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Prices excluding taxes at checkout. Free 0 € — 3 keywords (official pricing ladder). Starter 11 €/month — 15 keywords, checks every hour, Telegram alerts, 30 days of signal history. Pro 26 €/month — 75 keywords, checks every 15 minutes, Telegram alerts, Claude and ChatGPT connection, full history and CSV export. Business 90 €/month — 300 keywords, checks every 15 minutes, webhook and API, 5 team seats, several Telegram chats, priority support. Enterprise custom. Yearly billing is offered as “2 months free”; exact yearly totals were not spelled out on the page and are not invented here. 14-day money-back guarantee on the first payment.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/gatrends.png",
+  "image": "/screenshots/gatrends.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Watches the keywords that matter to you and spots unusual spikes across news, search and communities",
+    "Telegram alerts; Claude and ChatGPT connection on higher plans; CSV export",
+    "Free plan with 3 keywords",
+    "Yearly billing is offered as “2 months free”; yearly totals are not invented"
+  ],
+  "howToUse": [
+    {
+      "title": "Open gatrends.com and start Free with up to 3 keywords.",
+      "description": "Open gatrends.com and start Free with up to 3 keywords.",
+      "links": [
+        {
+          "label": "GAtrends",
+          "url": "https://gatrends.com/"
+        }
+      ]
+    },
+    {
+      "title": "Connect Telegram to get spike alerts.",
+      "description": "Connect Telegram to get spike alerts."
+    },
+    {
+      "title": "Upgrade to Starter, Pro or Business if you need more keywords or Claude/ChatGPT analysis.",
+      "description": "Upgrade to Starter, Pro or Business if you need more keywords or Claude/ChatGPT analysis."
+    }
+  ],
+  "sources": [
+    "https://gatrends.com/"
+  ],
+  "summary_fr": "Surveille les mots-clés qui t’importent, détecte les pics inhabituels dans l’actualité, la recherche et les communautés, te prévient sur Telegram, et te laisse demander à Claude ou ChatGPT ce qui monte et pourquoi.",
+  "description_fr": "Surveille les mots-clés qui t’importent, détecte les pics inhabituels dans l’actualité, la recherche et les communautés, te prévient sur Telegram, et te laisse demander à Claude ou ChatGPT ce qui monte et pourquoi.",
+  "features_fr": [
+    "Surveille les mots-clés qui t’importent et détecte les pics inhabituels dans l’actualité, la recherche et les communautés",
+    "Alertes Telegram ; connexion Claude et ChatGPT sur les offres supérieures ; export CSV",
+    "Offre Gratuite avec 3 mots-clés",
+    "La facturation annuelle est proposée comme « 2 mois offerts » ; les totaux annuels ne sont pas inventés"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre gatrends.com et commence l’offre Gratuite, jusqu’à 3 mots-clés.",
+      "description": "Ouvre gatrends.com et commence l’offre Gratuite, jusqu’à 3 mots-clés.",
+      "links": [
+        {
+          "label": "GAtrends",
+          "url": "https://gatrends.com/"
+        }
+      ]
+    },
+    {
+      "title": "Connecte Telegram pour recevoir les alertes de pics.",
+      "description": "Connecte Telegram pour recevoir les alertes de pics."
+    },
+    {
+      "title": "Passe à Starter, Pro ou Business si tu as besoin de plus de mots-clés ou de l’analyse...",
+      "description": "Passe à Starter, Pro ou Business si tu as besoin de plus de mots-clés ou de l’analyse Claude/ChatGPT."
+    }
+  ]
+}

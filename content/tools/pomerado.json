@@ -1,0 +1,87 @@
+{
+  "id": "pomerado",
+  "name": "Pomerado",
+  "url": "https://pomerado.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Turns any website into an API/MCP in minutes, including sites behind login, without storing credentials unless you choose to. Open source. Backed by Y Combinator (F26).",
+  "description": "Turns any website into an API/MCP in minutes, including sites behind login, without storing credentials unless you choose to. Open source. Backed by Y Combinator (F26).",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "mcp",
+    "api",
+    "integrations",
+    "agents",
+    "open-source",
+    "yc"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free 0 €/month — 100 tool calls per day, 10 new integrations/month, 1 account per website. Premium 45 €/month — 1,000 tool calls per day, 100 new integrations/month, 1 account per website. A Monthly/Yearly toggle is present; the yearly total was not separately stated and is not invented here. Business: contact us, custom outcome-based pricing, unlimited accounts per website, MCP code ownership, roles, audit logs, SLAs.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/pomerado.png",
+  "image": "/screenshots/pomerado.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Turns any website into an API/MCP in minutes, including sites behind login",
+    "Automatic sign-in including 2FA; optional secure credential storage",
+    "Open source; backed by Y Combinator (F26)",
+    "Free plan included; yearly Premium total is not invented"
+  ],
+  "howToUse": [
+    {
+      "title": "Open pomerado.ai and sign up on Free.",
+      "description": "Open pomerado.ai and sign up on Free.",
+      "links": [
+        {
+          "label": "Pomerado",
+          "url": "https://pomerado.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Point Pomerado at a website to get an API/MCP, including sites behind login, without...",
+      "description": "Point Pomerado at a website to get an API/MCP, including sites behind login, without storing credentials unless you choose to."
+    },
+    {
+      "title": "Upgrade to Premium if you need a higher daily tool-call cap.",
+      "description": "Upgrade to Premium if you need a higher daily tool-call cap."
+    }
+  ],
+  "sources": [
+    "https://pomerado.ai/"
+  ],
+  "summary_fr": "Transforme n’importe quel site en API/MCP en quelques minutes, y compris derrière un login, sans stocker les identifiants sauf si tu le choisis. Open source. Soutenu par Y Combinator (F26).",
+  "description_fr": "Transforme n’importe quel site en API/MCP en quelques minutes, y compris derrière un login, sans stocker les identifiants sauf si tu le choisis. Open source. Soutenu par Y Combinator (F26).",
+  "features_fr": [
+    "Transforme n’importe quel site en API/MCP en quelques minutes, y compris derrière un login",
+    "Connexion automatique, y compris 2FA ; stockage sécurisé des identifiants en option",
+    "Open source ; soutenu par Y Combinator (F26)",
+    "Offre Gratuite incluse ; le total annuel Premium n’est pas inventé"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre pomerado.ai et inscris-toi sur l’offre Gratuite.",
+      "description": "Ouvre pomerado.ai et inscris-toi sur l’offre Gratuite.",
+      "links": [
+        {
+          "label": "Pomerado",
+          "url": "https://pomerado.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Pointe Pomerado vers un site pour obtenir une API/MCP, y compris derrière un login, sans...",
+      "description": "Pointe Pomerado vers un site pour obtenir une API/MCP, y compris derrière un login, sans stocker les identifiants sauf si tu le choisis."
+    },
+    {
+      "title": "Passe à Premium si tu as besoin d’un plafond quotidien d’appels d’outils plus élevé.",
+      "description": "Passe à Premium si tu as besoin d’un plafond quotidien d’appels d’outils plus élevé."
+    }
+  ]
+}
