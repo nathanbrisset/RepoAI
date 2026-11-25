@@ -58,6 +58,49 @@ export const VISITOR_COPY_RULES = [
   },
   { id: "was-not-stated", pattern: /was not stated|was not found|was not verified/i, scope: "internal" },
   { id: "verified-on-official", pattern: /verified on official/i, scope: "internal" },
+  { id: "verified-on", pattern: /\bverified\s+on\b/i, scope: "internal" },
+  { id: "verified-via", pattern: /\bverified\s+via\b/i, scope: "internal" },
+  { id: "verifie-sur", pattern: /\bvérifié\s+sur\b/i, scope: "internal" },
+  { id: "verifie-via", pattern: /\bvérifié\s+via\b/i, scope: "internal" },
+  {
+    id: "extraits-chiffres",
+    pattern: /chiffres?\s+extraits|figures?\s+extracted|extraits?\s+(?:de\s+)?chiffres/i,
+    scope: "internal",
+  },
+  {
+    id: "verified-figures-pricing",
+    pattern: /(?:équivalents?\s+)?mensuels?\s+vérifiés?|verified\s+figures?/i,
+    scope: "internal",
+  },
+  { id: "official-notes-visitor", pattern: /notes?\s+officielles|"official notes"/i, scope: "internal" },
+  { id: "devise-origine", pattern: /devise d['’]origine/i, scope: "internal" },
+  { id: "pas-repris-fr", pattern: /pas repris(?:es)?|ne sont pas reprises/i, scope: "internal" },
+  { id: "listed-here-en", pattern: /\blisted here\b/i, scope: "internal" },
+  { id: "non-liste-fr", pattern: /n['’]est pas listé|non listé/i, scope: "internal" },
+  { id: "prices-not-listed-en", pattern: /(?:prices?|plans?)\s+are\s+not\s+listed\b/i, scope: "internal" },
+  {
+    id: "labelled-as-en",
+    pattern: /\blabelled as\b|Labelled Premium|the lot label is(?!\s+so)/i,
+    scope: "internal",
+  },
+  { id: "labellise-fr", pattern: /\blabellisé\b/i, scope: "internal" },
+  {
+    id: "arrondis-pricing",
+    pattern: /(?:prix|tarif|montant|€|EUR).{0,48}arrondis?|arrondis?.{0,48}(?:€|EUR|prix|tarif)/i,
+    scope: "internal",
+  },
+  {
+    id: "isole-pricing-fr",
+    pattern: /(?:prix|tarif|montant|plan|offre).{0,80}\bisolé\b|n['’]a\s+pas\s+été\s+isolé|clearly isolated/i,
+    scope: "internal",
+  },
+  { id: "converted-from-usd", pattern: /converted from USD/i, scope: "internal" },
+  {
+    id: "not-recorded-here",
+    pattern: /not recorded here|were not recorded|invented\s+(?:Starter|plan|tier)/i,
+    scope: "internal",
+  },
+  { id: "ancien-catalogue-en", pattern: /previous catalog/i, scope: "internal" },
   { id: "in-lot-meta", pattern: /\bin lot\b/i, scope: "internal" },
   { id: "pas-affiche-meta", pattern: /donc non affiché|n['’]est pas affiché/i, scope: "internal" },
   {
@@ -234,6 +277,12 @@ export function runVisitorCopyRuleFixtures() {
     { rule: "lors-de-la-verification", pass: ["Lors de la prise en main, connecte ton repo."], fail: ["Le prix n’était pas visible lors de la vérification"] },
     { rule: "no-price-was-recorded", pass: ["No public pricing page."], fail: ["no price was recorded for the enterprise tier"] },
     { rule: "did-not-render", pass: ["The widget may stay blank until you sign in."], fail: ["the pricing table did not render in headless mode"] },
+    { rule: "extraits-chiffres", pass: ["Extraits vidéo HD sans limite."], fail: ["Chiffres extraits de la page tarifs"] },
+    { rule: "verified-on", pass: ["Available on iOS and Android."], fail: ["Amounts verified on the pricing page"] },
+    { rule: "devise-origine", pass: ["Facturation en euros sur le site français."], fail: ["Affiché en devise d’origine USD"] },
+    { rule: "isole-pricing-fr", pass: ["Sandbox isolé pour tester l’API."], fail: ["Le montant payant n’a pas été isolé sur la page"] },
+    { rule: "converted-from-usd", pass: ["Checkout in euros."], fail: ["Price converted from USD at checkout"] },
+    { rule: "ancien-catalogue-en", pass: ["Updated November 2026."], fail: ["Label from the previous catalog"] },
   ]
   const rulesById = Object.fromEntries(VISITOR_COPY_RULES.map((r) => [r.id, r]))
   const errors = []
@@ -273,7 +322,9 @@ function main() {
     return
   }
   const asJson = process.argv.includes("--json")
-  const hits = scanVisitorCopy()
+  const rootIdx = process.argv.indexOf("--root")
+  const rootDir = rootIdx >= 0 ? path.resolve(process.argv[rootIdx + 1]) : root
+  const hits = scanVisitorCopy({ rootDir })
   const legalFlag = scanLegalPageFlag()
   const pass = hits.length === 0
   if (asJson) {

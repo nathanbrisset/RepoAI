@@ -1,7 +1,7 @@
 {
   "id": "opera-aria",
-  "name": "Opera Aria",
-  "url": "https://www.opera.com/aria",
+  "name": "Opera AI",
+  "url": "https://www.opera.com/features/opera-ai",
   "affiliateUrl": "",
   "status": "renamed",
   "summary": "Free AI assistant built into the Opera browser.",
@@ -20,7 +20,7 @@
     "label": "Free",
     "verified": false,
     "note": "See official pricing at https://www.opera.com/aria.",
-    "sourceUrl": "https://www.opera.com/aria"
+    "sourceUrl": "https://www.opera.com/features/opera-ai"
   },
   "logo": "/logos/opera-aria.png",
   "image": "/screenshots/opera-aria.webp",
@@ -39,7 +39,7 @@
       "links": [
         {
           "label": "Opera Aria",
-          "url": "https://www.opera.com/aria"
+          "url": "https://www.opera.com/features/opera-ai"
         }
       ]
     },
@@ -66,5 +66,8 @@
   "description_fr": "Aria résume des pages, répond aux questions avec des informations à jour, génère des images et aide à rédiger, directement dans Opera et Opera GX, sans abonnement.",
   "successorId": "opera-ai",
   "statusNote": "Now Opera AI (formerly Opera Aria).",
-  "statusNote_fr": "Désormais Opera AI (anciennement Opera Aria)."
+  "statusNote_fr": "Désormais Opera AI (anciennement Opera Aria).",
+  "sources": [
+    "https://www.opera.com/features/opera-ai"
+  ]
 }

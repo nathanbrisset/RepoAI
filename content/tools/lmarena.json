@@ -1,7 +1,7 @@
 {
   "id": "lmarena",
-  "name": "LMArena",
-  "url": "https://lmarena.ai/",
+  "name": "Arena",
+  "url": "https://arena.ai/",
   "affiliateUrl": "",
   "status": "renamed",
   "summary": "Public AI model leaderboard based on blind votes.",
@@ -19,8 +19,8 @@
     "model": "free",
     "label": "Free",
     "verified": false,
-    "note": "See https://lmarena.ai/ for current plans.",
-    "sourceUrl": "https://lmarena.ai/"
+    "note": "See https://arena.ai/ for current plans.",
+    "sourceUrl": "https://arena.ai/"
   },
   "logo": "/logos/lmarena.png",
   "image": "/screenshots/lmarena.webp",
@@ -39,7 +39,7 @@
       "links": [
         {
           "label": "LMArena",
-          "url": "https://lmarena.ai/"
+          "url": "https://arena.ai/"
         }
       ]
     },
@@ -66,5 +66,8 @@
   "description_fr": "LMArena (ex-Chatbot Arena) fait répondre deux modèles anonymes à la même question et laisse l'utilisateur choisir la meilleure réponse. Les millions de votes produisent un classement de référence des modèles de texte, image et code.",
   "successorId": "arena",
   "statusNote": "Now Arena (formerly LMArena).",
-  "statusNote_fr": "Désormais Arena (anciennement LMArena)."
+  "statusNote_fr": "Désormais Arena (anciennement LMArena).",
+  "sources": [
+    "https://arena.ai/blog/lmarena-is-now-arena"
+  ]
 }
