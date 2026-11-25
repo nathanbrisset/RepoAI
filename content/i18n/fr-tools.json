@@ -4841,7 +4841,7 @@
       "Musique fonctionnelle conçue pour t’aider à te concentrer, te détendre ou dormir",
       "Positionnement scientifique sur le site officiel",
       "Forfait mensuel ou annuel, avec un essai officiel « Try for Free »",
-      "Labellé Premium : l’essai n’est pas une offre gratuite durable"
+      "L’essai ne remplace pas une offre gratuite permanente."
     ],
     "howToUse_fr": [
       {
@@ -4863,7 +4863,7 @@
         "description": "Continue sur le forfait mensuel à 14 € ou le forfait annuel à 90 € (résiliable à tout moment)."
       }
     ],
-    "pricingNote_fr": "14 €/mois facturés au mois ; forfait annuel 90 €/an facturés à l’année. Un essai gratuit officiel peut ensuite enchaîner sur 90 € facturés à l’année, résiliable à tout moment. Aucune offre gratuite durable n’était indiquée sur cet extrait tarifaire."
+    "pricingNote_fr": "14 €/mois facturés au mois ; forfait annuel 90 €/an facturés à l’année. Un essai gratuit officiel peut ensuite enchaîner sur 90 € facturés à l’année, résiliable à tout moment. Pas de formule gratuite permanente sur la page tarifs."
   },
   "brainly": {
     "summary_fr": "Plateforme d'aide aux devoirs avec explications sur l'IA, préparation aux tests et tutorat humain en option.",
@@ -13152,7 +13152,7 @@
       "Connexions bancaires qui synchronisent les transactions vers Notion, Airtable et Google Sheets",
       "Catégorisation IA, plus MCP et une API développeur",
       "Essai de 7 jours, sans carte, puis Standard ou Business Pro facturés à l’année",
-      "Les prix de liste mensuels, en dehors des montants facturés à l’année, n’ont pas été extraits — non inventés. Labellé Premium"
+      "Forfaits annuels facturés à l’année sur le site officiel."
     ],
     "howToUse_fr": [
       {
@@ -13171,10 +13171,10 @@
       },
       {
         "title": "Continue sur Standard ou Business Pro — les chiffres vérifiés sont les totaux annuels 63...",
-        "description": "Continue sur Standard ou Business Pro — les chiffres vérifiés sont les totaux annuels 63 € et 136 €. Un prix de liste mensuel distinct n’a pas été extrait et n’est pas listé ici."
+        "description": "Continue sur Standard ou Business Pro — les chiffres vérifiés sont les totaux annuels 63 € et 136 €."
       }
     ],
-    "pricingNote_fr": "Essai de 7 jours, sans carte, résiliable à tout moment. Un basculeur Monthly / Yearly « Save 17 % » est présent. Chiffres annuels extraits : Standard 5 €/mois facturés 63 € à l’année — jusqu’à 10 banques, sync vers des espaces de travail illimités, tous les types de données, catégorisation IA, MCP et API développeur ; Business Pro 11 €/mois facturés 136 € à l’année — tout Standard, plus connexions bancaires illimitées, plafonds d’API et de MCP plus élevés, support prioritaire. Le titre de page indique aussi des offres « à partir d’ » un montant mensuel ; les prix de liste mensuels, en dehors de ces montants facturés à l’année, n’ont pas été extraits et ne sont pas listés (cette ligne de titre n’est pas prise pour un tarif d’offre). Labellé Premium."
+    "pricingNote_fr": "Essai de 7 jours, sans carte, résiliable à tout moment. Un basculeur Monthly / Yearly « Save 17 % » est présent. Chiffres annuels extraits : Standard 5 €/mois facturés 63 € à l’année — jusqu’à 10 banques, sync vers des espaces de travail illimités, tous les types de données, catégorisation IA, MCP et API développeur ; Business Pro 11 €/mois facturés 136 € à l’année — tout Standard, plus connexions bancaires illimitées, plafonds d’API et de MCP plus élevés, support prioritaire. Le titre de page indique aussi des offres « à partir d’ » un montant mensuel"
   },
   "firebase-studio": {
     "summary_fr": "Espace de travail web pour le développement d'applications full-stack, avec Gemini.",
@@ -14765,7 +14765,7 @@
         "description": "Ou paie à la photo dans le panier pour un achat en volume — les prix de liste mensuels ne sont pas publiés ici, car ils n’ont pas été extraits."
       }
     ],
-    "pricingNote_fr": "Faces + Face Generator 180 €/an — 15 téléchargements/mois, générations de visages illimitées, sans filigrane, usage commercial. Humans + Human Generator 180 €/an — 15 humains prêts à l’emploi/mois, 1 000 générations prioritaires, sans filigrane, usage commercial. Achat en volume sans abonnement, tarif officiel par photo : 1–20 photos 8 € pièce, 21–50 6 €, 51–250 5 €, 251–1 000 2 €, 1 000+ 1 € (exemple officiel : 100 photos = 579 €). Un basculeur Monthly / Yearly −15 % est présent ; les prix de liste mensuels n’ont pas été extraits et ne sont pas listés. Les tarifs Dataset et API, indiqués à part, ne sont pas repris ici."
+    "pricingNote_fr": "Faces + Face Generator 180 €/an — 15 téléchargements/mois, générations de visages illimitées, sans filigrane, usage commercial. Humans + Human Generator 180 €/an — 15 humains prêts à l’emploi/mois, 1 000 générations prioritaires, sans filigrane, usage commercial. Achat en volume sans abonnement, tarif officiel par photo : 1–20 photos 8 € pièce, 21–50 6 €, 51–250 5 €, 251–1 000 2 €, 1 000+ 1 € (exemple officiel : 100 photos = 579 €). Un basculeur Monthly / Yearly −15 % est présent ; Les tarifs Dataset et API, indiqués à part, ne sont pas repris ici."
   },
   "genie-ai": {
     "summary_fr": "Rédige, révisez et négociez des documents juridiques avec l'IA. Modèles juridiques gratuits, revue de contrats par IA et outils de recherche juridique.",
@@ -19834,7 +19834,7 @@
       "Plateforme vidéo IA pour clips avatar, produit et image-vers-vidéo, plus clones de voix",
       "Les crédits sont partagés entre l’app web, l’API et le MCP",
       "Les 200 crédits Gratuits sont promotionnels, valables 31 jours, et ne se renouvellent pas chaque mois — pas une allocation récurrente",
-      "Le Starter mensuel figure dans la FAQ officielle (26 €, 12 000 crédits) ; Starter, Creator et Team à l’année sont sur la page tarifs. Les autres prix de liste mensuels ne sont pas listés"
+      "Le Starter mensuel figure dans la FAQ officielle (26 €, 12 000 crédits) ; Starter, Creator et Team à l’année sont sur la page tarifs."
     ],
     "howToUse_fr": [
       {
@@ -19853,10 +19853,10 @@
       },
       {
         "title": "Abonne-toi à Starter, Creator ou Team.",
-        "description": "Abonne-toi à Starter, Creator ou Team. Les chiffres annuels sont ceux de la page tarifs ; le Starter mensuel est à 26 € pour 12 000 crédits d’après la FAQ officielle. Les autres prix de liste mensuels, hors Starter, ne sont pas listés ici."
+        "description": "Abonne-toi à Starter, Creator ou Team. Les chiffres annuels sont ceux de la page tarifs ; le Starter mensuel est à 26 € pour 12 000 crédits d’après la FAQ officielle."
       }
     ],
-    "pricingNote_fr": "Gratuit 0 €, sans carte — 200 crédits promotionnels valables 31 jours (FAQ officielle : l’offre Gratuite ne renouvelle pas les crédits chaque mois — c’est une promo, pas une allocation récurrente), environ 1 min de vidéo avatar, durée max 3 min, 1 avatar personnalisé, traitement standard, outils IA limités. Annuel (−17 % ; crédits annuels versés d’avance, reconduit chaque année) : Starter 22 €/mois — 144 000 crédits/an (environ 1 440 min de vidéo avatar), durée max 30 min, 3 avatars personnalisés, jusqu’à 50 clones de voix/mois, retrait du filigrane, tous les outils IA ; Creator 37 €/mois — 264 000 crédits/an ; Team 195 €/mois, 3 sièges inclus — 1 320 000 crédits/an, durée max 60 min, 50 avatars personnalisés, support prioritaire. FAQ officielle, mensuel : Starter commence à 26 €/mois avec 12 000 crédits ; les crédits mensuels non utilisés peuvent être reportés jusqu’à trois mois. Les autres prix de liste mensuels, hors Starter, n’étaient pas détaillés dans la FAQ et ne sont pas listés. Business Enterprise : contacter les ventes."
+    "pricingNote_fr": "Gratuit 0 €, sans carte — 200 crédits promotionnels valables 31 jours (FAQ officielle : l’offre Gratuite ne renouvelle pas les crédits chaque mois — c’est une promo, pas une allocation récurrente), environ 1 min de vidéo avatar, durée max 3 min, 1 avatar personnalisé, traitement standard, outils IA limités. Annuel (−17 % ; crédits annuels versés d’avance, reconduit chaque année) : Starter 22 €/mois — 144 000 crédits/an (environ 1 440 min de vidéo avatar), durée max 30 min, 3 avatars personnalisés, jusqu’à 50 clones de voix/mois, retrait du filigrane, tous les outils IA ; Creator 37 €/mois — 264 000 crédits/an ; Team 195 €/mois, 3 sièges inclus — 1 320 000 crédits/an, durée max 60 min, 50 avatars personnalisés, support prioritaire. FAQ officielle, mensuel : Starter commence à 26 €/mois avec 12 000 crédits ; les crédits mensuels non utilisés peuvent être reportés jusqu’à trois mois. Business Enterprise : contacter les ventes."
   },
   "jotform-ai": {
     "features_fr": [
@@ -23491,7 +23491,7 @@
       "Créateur de logos IA avec kit de marque, animations de logo et vidéos de marque",
       "Studio de design, générations d’images et de vidéos par lot, plus de 20 modèles IA",
       "Téléchargements sans restriction et usage commercial sur les offres payantes (sans garantie d’exclusivité ni de dépôt de marque)",
-      "Essai payant de 7 jours qui se reconduit en Pro — labellé Premium, pas Freemium"
+      "Essai payant de 7 jours qui se reconduit en Pro."
     ],
     "howToUse_fr": [
       {
@@ -23513,7 +23513,7 @@
         "description": "Résilie avant la fin de l’essai si tu ne veux pas la reconduction en Pro à 18 €/mois (500 crédits)."
       }
     ],
-    "pricingNote_fr": "Essai de 7 jours à 9 € — Branding Suite, Design Studio, téléchargements sans restriction, 200 crédits IA. Sauf résiliation avant la fin de l’essai, reconduction en Pro à 18 €/mois avec 500 crédits IA par mois. L’essai à 9 € est un essai payant, pas une offre gratuite durable — labellé Premium, pas Freemium. Le solde et le coût des crédits s’affichent avant une génération. Résiliation via le lien de gestion d’abonnement ; cela arrête les reconductions suivantes."
+    "pricingNote_fr": "Essai de 7 jours à 9 € — Branding Suite, Design Studio, téléchargements sans restriction, 200 crédits IA. Sauf résiliation avant la fin de l’essai, reconduction en Pro à 18 €/mois avec 500 crédits IA par mois. L’essai à 9 € est un essai payant, pas une offre gratuite durable"
   },
   "logodiffusion": {
     "summary_fr": "Logos générés par IA, exportables en vectoriel.",
@@ -31640,7 +31640,7 @@
       "Posts générés par IA, assistant GhostWriter, planification et voix IA personnalisées",
       "Analytique sur Boss ; entraînement IA personnalisé sur Unlimited",
       "Offres mensuelles avec essai de 7 jours, puis reconduction automatique, résiliable à tout moment",
-      "Labellé Premium : l’essai n’est pas une offre gratuite durable"
+      "L’essai ne remplace pas une offre gratuite permanente."
     ],
     "howToUse_fr": [
       {
@@ -31662,7 +31662,7 @@
         "description": "Résilie avant la fin de l’essai si tu ne veux pas que l’abonnement mensuel commence."
       }
     ],
-    "pricingNote_fr": "Abonnement mensuel, sans engagement long, résiliable à tout moment ; essai de 7 jours puis reconduction automatique sur l’offre choisie. Basic 33 €/mois — 3 comptes sociaux, 500 posts générés par IA/mois, planification sur 3 mois, 3 voix IA personnalisées, GhostWriter AI, support e-mail. Boss 53 €/mois — 5 comptes sociaux, 1 000 posts IA/mois, planification sur 12 mois, analytique avancée, support e-mail et chat. Unlimited 88 €/mois — comptes sociaux illimités, posts IA illimités, planification illimitée, entraînement IA personnalisé, support prioritaire. La FAQ officielle indique que les offres sont mensuelles, sans engagement long. Labellé Premium : l’essai de 7 jours n’est pas une offre 0 € durable."
+    "pricingNote_fr": "Abonnement mensuel, sans engagement long, résiliable à tout moment ; essai de 7 jours puis reconduction automatique sur l’offre choisie. Basic 33 €/mois — 3 comptes sociaux, 500 posts générés par IA/mois, planification sur 3 mois, 3 voix IA personnalisées, GhostWriter AI, support e-mail. Boss 53 €/mois — 5 comptes sociaux, 1 000 posts IA/mois, planification sur 12 mois, analytique avancée, support e-mail et chat. Unlimited 88 €/mois — comptes sociaux illimités, posts IA illimités, planification illimitée, entraînement IA personnalisé, support prioritaire. La FAQ officielle indique que les offres sont mensuelles, sans engagement long."
   },
   "power-bi": {
     "summary_fr": "Service d'analytique d'entreprise qui fournit des visualisations interactives.",
@@ -31960,7 +31960,7 @@
         "description": "Prends Pro ou Gold facturés à l’année si tu as besoin de plus de crédits, de l’export PowerPoint et des outils de marque."
       }
     ],
-    "pricingNote_fr": "Starter 0 € — 200 crédits IA (crédits annuels par cycle de facturation), modèle et agent IA de départ, jusqu’à 20 diapositives. Pro 18 €/mois facturés à l’année (217 €/an) — 5 000 crédits, fonctions IA avancées, export PowerPoint haute qualité, suivi et analytique des présentations, personnalisation de marque. Gold 90 €/mois facturés à l’année (1 086 €/an) — 50 000 crédits, toutes les fonctions Pro, modèles et agents IA de pointe, personnalisation de marque avancée, base de connaissances partagée. Les prix de liste mensuels, en dehors de ces montants facturés à l’année, n’ont pas été extraits et ne sont pas listés."
+    "pricingNote_fr": "Starter 0 € — 200 crédits IA (crédits annuels par cycle de facturation), modèle et agent IA de départ, jusqu’à 20 diapositives. Pro 18 €/mois facturés à l’année (217 €/an) — 5 000 crédits, fonctions IA avancées, export PowerPoint haute qualité, suivi et analytique des présentations, personnalisation de marque. Gold 90 €/mois facturés à l’année (1 086 €/an) — 50 000 crédits, toutes les fonctions Pro, modèles et agents IA de pointe, personnalisation de marque avancée, base de connaissances partagée."
   },
   "prezi": {
     "summary_fr": "Présentations dynamiques structurées et mises en page par IA.",
@@ -36724,7 +36724,7 @@
         "description": "Reste sur Plus pour un usage quotidien, ou passe à Pro si tu as besoin de limites plus élevées et d’un support prioritaire."
       }
     ],
-    "pricingNote_fr": "Plus 17 €/mois facturés au mois — plus de 100 modèles IA, recherche web, discussion avec images et documents, génération d’images. Pro 44 €/mois facturés au mois — tout Plus, limites d’usage trois fois plus élevées, stockage élargi, support prioritaire. Bascule annuelle affichée sur la page ; les totaux annuels n’apparaissaient pas dans la vue mensuelle consultée. Essai proposé ; aucune offre gratuite durable indiquée."
+    "pricingNote_fr": "Plus 17 €/mois facturés au mois — plus de 100 modèles IA, recherche web, discussion avec images et documents, génération d’images. Pro 44 €/mois facturés au mois — tout Plus, limites d’usage trois fois plus élevées, stockage élargi, support prioritaire. Remise sur l’abonnement annuel affichée sur la page tarifs. Essai proposé ; pas de formule gratuite permanente."
   },
   "shortwave": {
     "summary_fr": "Client de messagerie IA pour Gmail qui organise, écrit, recherche et planifie avec des invites.",
@@ -40963,7 +40963,7 @@
         "description": "Le tarif annuel normal est 86 €/an ; le code FIRSTYEAR (72 € la première année) est une promo, pas le prix normal. Renseigne-toi sur une licence établissement si tu achètes pour une équipe."
       }
     ],
-    "pricingNote_fr": "Gratuit — outils gratuits seulement (pas la bibliothèque complète des 160 outils), sans carte. Pro 10 € payés au mois, résiliable à tout moment — bibliothèque complète, exports, Open Chat illimité, générations illimitées de diaporamas et de fiches, Secure Report Writer, Clone my Tone, raffinements illimités, accès anticipé aux nouveaux outils, webinaires CPD, cours Certified Educator offert. L’annuel Pro se reconduit à 86 €/an (le tarif annuel normal). Promo : offre officielle de première année 72 € d’avance (équivalent 6 €/mois la première année) avec le code FIRSTYEAR au paiement. FIRSTYEAR est une promo, pas le prix normal ; le tarif annuel régulier est 86 €/an. Offres Whole School à partir de 2 € par enseignant et par mois, paiement par facture ou carte. Un exemple officiel de 496 € par an hors TVA apparaît à côté du sélecteur de packs — la correspondance exacte avec un pack de 5 / 10 / 20 / 30 / 50 licences n’a pas été isolée de façon univoque et n’est pas attribuée au-delà de cet exemple officiel. Les offres établissement incluent tout Pro pour tout le personnel, plus gestion des licences, INSET, SSO, documentation DPIA, paiement par facture, logo de l’école et support au Royaume-Uni. Prix officiels convertis au taux BCE."
+    "pricingNote_fr": "Gratuit — outils gratuits seulement (pas la bibliothèque complète des 160 outils), sans carte. Pro 10 € payés au mois, résiliable à tout moment — bibliothèque complète, exports, Open Chat illimité, générations illimitées de diaporamas et de fiches, Secure Report Writer, Clone my Tone, raffinements illimités, accès anticipé aux nouveaux outils, webinaires CPD, cours Certified Educator offert. L’annuel Pro se reconduit à 86 €/an (le tarif annuel normal). Promo : offre officielle de première année 72 € d’avance (équivalent 6 €/mois la première année) avec le code FIRSTYEAR au paiement. FIRSTYEAR est une promo, pas le prix normal ; le tarif annuel régulier est 86 €/an. Offres Whole School à partir de 2 € par enseignant et par mois, paiement par facture ou carte. Les offres établissement incluent tout Pro pour tout le personnel, plus gestion des licences, INSET, SSO, documentation DPIA, paiement par facture, logo de l’école et support au Royaume-Uni. Prix officiels convertis au taux BCE."
   },
   "teal": {
     "summary_fr": "Plateforme de carrière IA avec créateur de CV, suivi des candidatures, correspondance de mots-clés et outils de lettres de motivation pour piloter une recherche d’emploi.",
@@ -41337,7 +41337,7 @@
       "Bases de connaissances, agents personnalisés, compétences et connecteurs",
       "Accès aux grands modèles et automatisations de flux, avec jusqu’à 10 Go de stockage en Premium",
       "Premium facturé par utilisateur, au mois ou à l’année, hors TVA",
-      "Pas d’offre Gratuite durable sur la page tarifs officielle — labellé Premium"
+      "Pas de formule gratuite permanente sur la page tarifs officielle."
     ],
     "howToUse_fr": [
       {
@@ -41359,7 +41359,7 @@
         "description": "Parle aux ventes d’Enterprise si tu as besoin du SSO, d’un déploiement dédié ou d’une facturation centralisée."
       }
     ],
-    "pricingNote_fr": "Premium 27 € par utilisateur et par mois facturés au mois, ou 22 € par utilisateur et par mois facturés à l’année — bases de connaissances, agents personnalisés, compétences et connecteurs, accès aux grands modèles, automatisations de flux, usage des modèles inclus, jusqu’à 10 Go de stockage. Prix officiels hors TVA ; la TVA est calculée au paiement. Enterprise — tarif flexible / sur mesure et déploiement dédié (SSO/SCIM/SAML, facturation centralisée, support prioritaire ; demander une démo). Aucune offre Gratuite durable n’était indiquée sur la page tarifs officielle. Labellé Premium."
+    "pricingNote_fr": "Premium 27 € par utilisateur et par mois facturés au mois, ou 22 € par utilisateur et par mois facturés à l’année — bases de connaissances, agents personnalisés, compétences et connecteurs, accès aux grands modèles, automatisations de flux, usage des modèles inclus, jusqu’à 10 Go de stockage. Prix officiels hors TVA ; la TVA est calculée au paiement. Enterprise — tarif flexible / sur mesure et déploiement dédié (SSO/SCIM/SAML, facturation centralisée, support prioritaire ; demander une démo). Aucune offre Gratuite durable n’était indiquée sur la page tarifs officielle"
   },
   "textio": {
     "summary_fr": "Rédaction de conseils pour le recrutement et la gestion des performances, y compris les offres d'emploi et les évaluations.",
@@ -42103,7 +42103,7 @@
       "Transcription IA de réunions, d’audio et de vidéo dans plus de 100 langues",
       "Édite, traduis, partage et télécharge les transcriptions, sur le web et le mobile",
       "Pro ajoute résumé IA, chat IA et base de connaissances ; Team ajoute des espaces, un vocabulaire personnalisé et l’analyse d’appels",
-      "Labellé Premium : un « Try it Free » est proposé, sans quota de minutes 0 € durable documenté"
+      "Un essai gratuit est proposé ; pas d’offre gratuite permanente avec un quota de minutes sur la page tarifs."
     ],
     "howToUse_fr": [
       {
