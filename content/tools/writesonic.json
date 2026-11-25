@@ -19,8 +19,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/writesonic.png",
   "image": "/screenshots/writesonic.webp",
@@ -57,9 +56,9 @@
     }
   ],
   "features_fr": [
-    "AI Article Writer : génère des articles de blog et du contenu Web en quelques minutes.",
-    "Chatsonic Assistant : Chatbot avec accès Web en temps réel.",
-    "Générateur de pages de destination : adapte le contenu aux lancements de produits.",
-    "Création de contenu en masse : produisez plusieurs éléments à grande échelle."
+    "AI Article Writer: génère des articles de blog et du contenu Web en quelques minutes.",
+    "Chatsonic Assistant: Chatbot avec accès Web en temps réel.",
+    "Générateur de pages de destination: adapte le contenu aux lancements de produits.",
+    "Création de contenu en masse: produisez plusieurs éléments à grande échelle."
   ]
 }

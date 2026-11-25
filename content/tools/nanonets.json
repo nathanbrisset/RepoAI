@@ -17,14 +17,12 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/nanonets.png",
   "image": "/screenshots/nanonets.webp",
   "dateAdded": null,
   "lastVerified": null,
-  "dateAddedNote": "The previous Added date was 2017-04-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Automated Data Extraction: Extracts fields from documents and images.",
     "Custom Workflows: Train models on your own documents.",
@@ -56,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Extraction automatisée de données : extrait les champs des documents et des images.",
-    "Workflows personnalisés : entraînez des modèles sur tes propres documents.",
-    "Intégration API : intégrez facilement aux systèmes d'entreprise existants.",
-    "Prise en charge multilingue : traite les documents dans différentes langues."
+    "Extraction automatisée de données: extrait les champs des documents et des images.",
+    "Workflows personnalisés: entraînez des modèles sur tes propres documents.",
+    "Intégration API: intégrez facilement aux systèmes d'entreprise existants.",
+    "Prise en charge multilingue: traite les documents dans différentes langues."
   ]
 }

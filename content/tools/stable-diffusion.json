@@ -17,8 +17,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/stable-diffusion.png",
   "image": "/tool-screenshots/stable-diffusion.png",
@@ -55,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Génération de texte en image : transforme les invites de texte descriptives en images de haute qualité.",
-    "Traduction d'image à image : modifie les images existantes en fonction de nouvelles invites ou de nouveaux styles.",
-    "Formation sur modèle personnalisé : permet d'affiner des styles ou des sujets artistiques spécifiques.",
-    "Accessibilité Open Source : offre aux développeurs et aux artistes la flexibilité de personnaliser et d'intégrer."
+    "Génération de texte en image: transforme les invites de texte descriptives en images de haute qualité.",
+    "Traduction d'image à image: modifie les images existantes en fonction de nouvelles invites ou de nouveaux styles.",
+    "Formation sur modèle personnalisé: permet d'affiner des styles ou des sujets artistiques spécifiques.",
+    "Accessibilité Open Source: offre aux développeurs et aux artistes la flexibilité de personnaliser et d'intégrer."
   ]
 }

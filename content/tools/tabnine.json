@@ -17,8 +17,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/tabnine.png",
   "image": "/screenshots/tabnine.webp",
@@ -50,11 +49,11 @@
       "description": "Ask questions or request code help directly in your editor."
     }
   ],
-  "statusNote": "tabnine.com redirects to Tricentis products page (utm_source=www.tabnine.com); verify whether Tabnine still exists as a product",
+  "statusNote": "tabnine.com redirects to Tricentis; see Tricentis Tabnine on the vendor site.",
   "features_fr": [
-    "Suggestions contextuelles : fournissez des complétions de code en temps réel.",
-    "AI Chat dans l'IDE : aide aux tâches de codage via le langage naturel.",
-    "Sécurité et conformité : garantissez la confidentialité et la conformité du code.",
-    "Intégration avec des outils : travaillez en toute transparence avec des outils comme Jira."
+    "Suggestions contextuelles: fournissez des complétions de code en temps réel.",
+    "AI Chat dans l'IDE: aide aux tâches de codage via le langage naturel.",
+    "Sécurité et conformité: garantissez la confidentialité et la conformité du code.",
+    "Intégration avec des outils: travaillez en toute transparence avec des outils comme Jira."
   ]
 }

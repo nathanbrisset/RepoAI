@@ -16,8 +16,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/hugging-face-transformers.png",
   "image": "/screenshots/hugging-face-transformers.webp",
@@ -50,9 +49,9 @@
     }
   ],
   "features_fr": [
-    "Modèles pré-entraînés : accès à une large gamme de modèles pré-entraînés pour les tâches PNL.",
-    "Intégration facile : API simples pour incorporer des modèles dans des applications.",
-    "Prise en charge de plusieurs frameworks : compatible avec TensorFlow et PyTorch.",
-    "Contributions de la communauté : communauté active fournissant des modèles et du soutien."
+    "Modèles pré-entraînés: accès à une large gamme de modèles pré-entraînés pour les tâches PNL.",
+    "Intégration facile: API simples pour incorporer des modèles dans des applications.",
+    "Prise en charge de plusieurs frameworks: compatible avec TensorFlow et PyTorch.",
+    "Contributions de la communauté: communauté active fournissant des modèles et du soutien."
   ]
 }

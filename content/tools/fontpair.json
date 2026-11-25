@@ -18,14 +18,12 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/fontpair.png",
   "image": "/screenshots/fontpair.webp",
   "dateAdded": null,
   "lastVerified": null,
-  "dateAddedNote": "The previous Added date was 2015-09-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Curated Pairings: Browse high-quality font combinations.",
     "Live Preview: Test pairings with your own text.",
@@ -57,9 +55,9 @@
     }
   ],
   "features_fr": [
-    "Associations organisées : parcourez des combinaisons de polices de haute qualité.",
-    "Aperçu en direct : testez les associations avec ton propre texte.",
-    "Filtrer par catégorie : Serif, sans-serif, affichage, et plus encore.",
-    "Intégration de Google Fonts : facile à utiliser sur des projets Web."
+    "Associations organisées: parcourez des combinaisons de polices de haute qualité.",
+    "Aperçu en direct: testez les associations avec ton propre texte.",
+    "Filtrer par catégorie: Serif, sans-serif, affichage, et plus encore.",
+    "Intégration de Google Fonts: facile à utiliser sur des projets Web."
   ]
 }

@@ -17,8 +17,7 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/pulse.png",
   "image": "/screenshots/pulse.webp",
@@ -55,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Suivi des KPI : surveille les mesures commerciales en temps réel.",
-    "Tableaux de bord personnalisés : créez des visualisations pour des équipes ou des objectifs spécifiques.",
-    "Alerte : avertit les utilisateurs des anomalies ou des seuils de performances.",
-    "S'intègre aux sources de données : se connecte aux bases de données et aux outils commerciaux."
+    "Suivi des KPI: surveille les mesures commerciales en temps réel.",
+    "Tableaux de bord personnalisés: créez des visualisations pour des équipes ou des objectifs spécifiques.",
+    "Alerte: avertit les utilisateurs des anomalies ou des seuils de performances.",
+    "S'intègre aux sources de données: se connecte aux bases de données et aux outils commerciaux."
   ]
 }

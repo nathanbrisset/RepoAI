@@ -16,8 +16,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/ai2sql.png",
   "image": "/screenshots/ai2sql.webp",
@@ -54,9 +53,9 @@
     }
   ],
   "features_fr": [
-    "Langage naturel vers SQL : traduisez du texte brut en requêtes.",
-    "Optimisation des requêtes : suggère de meilleures structures de requêtes.",
-    "Prend en charge plusieurs bases de données : MySQL, PostgreSQL, etc.",
-    "Commentaires en temps réel : validez les requêtes instantanément."
+    "Langage naturel vers SQL: traduisez du texte brut en requêtes.",
+    "Optimisation des requêtes: suggère de meilleures structures de requêtes.",
+    "Prend en charge plusieurs bases de données: MySQL, PostgreSQL, etc.",
+    "Commentaires en temps réel: validez les requêtes instantanément."
   ]
 }

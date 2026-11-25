@@ -16,8 +16,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/faceapp.png",
   "image": "/tool-screenshots/faceapp.png",
@@ -54,9 +53,9 @@
     }
   ],
   "features_fr": [
-    "Transformation d'âge : affiche des versions vieillissantes ou rajeunies des visages.",
-    "Échange de genre : modifie les traits du visage pour apparaître comme un sexe différent.",
-    "Amélioration du sourire : ajoute des sourires aux photos.",
-    "Changements de coiffure et de couleur : modifie l’apparence des cheveux."
+    "Transformation d'âge: affiche des versions vieillissantes ou rajeunies des visages.",
+    "Échange de genre: modifie les traits du visage pour apparaître comme un sexe différent.",
+    "Amélioration du sourire: ajoute des sourires aux photos.",
+    "Changements de coiffure et de couleur: modifie l’apparence des cheveux."
   ]
 }

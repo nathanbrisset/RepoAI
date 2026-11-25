@@ -1,0 +1,87 @@
+{
+  "id": "huntr",
+  "name": "Huntr",
+  "url": "https://huntr.co/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI job-search workspace that builds tailored resumes and cover letters, tracks applications and matches your profile to roles.",
+  "description": "AI job-search workspace that builds tailored resumes and cover letters, tracks applications and matches your profile to roles.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "resume",
+    "jobs",
+    "hr",
+    "career",
+    "job-tracker",
+    "cover-letter"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free, always free, no hidden costs — unlimited base resumes, free PDF export, 2 job-tailored resumes, 2 application packets, all resume templates, basic resume job matching and scoring, track up to 100 jobs, basic job insights, Chrome Job Clipper, map view, unlimited contact management and application autofills, up to 100 document uploads, ad-free. Pro 36 €/month, or 27 €/month billed 81 € every 3 months, or 24 €/month billed 145 € every 6 months — everything in Free plus unlimited job-tailored resumes and application packets, unlimited AI resume generations, AI-powered job-tailored resumes, unlimited AI cover letters, unlimited AI resume review and tailoring, advanced job matching and scoring, unlimited job tracking and advanced job insights, unlimited document uploads.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/huntr.png",
+  "image": "/screenshots/huntr.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Resume and cover-letter builder, with job-tailored versions on paid plans",
+    "Job tracker, Chrome Job Clipper, map view and application autofill",
+    "Resume scoring and job matching, basic on Free, advanced on Pro",
+    "Free plan is always free, with no hidden costs"
+  ],
+  "howToUse": [
+    {
+      "title": "Open huntr.co and sign up for Free (no hidden costs) to build a resume and track up to...",
+      "description": "Open huntr.co and sign up for Free (no hidden costs) to build a resume and track up to 100 jobs.",
+      "links": [
+        {
+          "label": "Huntr",
+          "url": "https://huntr.co/"
+        }
+      ]
+    },
+    {
+      "title": "Use the Chrome Job Clipper and the basic match score on the Free plan.",
+      "description": "Use the Chrome Job Clipper and the basic match score on the Free plan."
+    },
+    {
+      "title": "Upgrade to Pro monthly, quarterly or every 6 months if you need unlimited AI tailoring...",
+      "description": "Upgrade to Pro monthly, quarterly or every 6 months if you need unlimited AI tailoring, cover letters and reviews."
+    }
+  ],
+  "sources": [
+    "https://huntr.co/"
+  ],
+  "summary_fr": "Espace de recherche d’emploi IA qui crée des CV et des lettres adaptés à chaque offre, suit les candidatures et rapproche ton profil des postes.",
+  "description_fr": "Espace de recherche d’emploi IA qui crée des CV et des lettres adaptés à chaque offre, suit les candidatures et rapproche ton profil des postes.",
+  "features_fr": [
+    "Créateur de CV et de lettres, avec versions adaptées à chaque offre sur les plans payants",
+    "Suivi des candidatures, clipper Chrome, vue carte et remplissage automatique",
+    "Score de CV et correspondance aux offres, basiques en Gratuit, avancés en Pro",
+    "L’offre Gratuite est toujours gratuite, sans frais cachés"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre huntr.co et inscris-toi à l’offre Gratuite (sans frais cachés) pour créer un CV et...",
+      "description": "Ouvre huntr.co et inscris-toi à l’offre Gratuite (sans frais cachés) pour créer un CV et suivre jusqu’à 100 offres.",
+      "links": [
+        {
+          "label": "Huntr",
+          "url": "https://huntr.co/"
+        }
+      ]
+    },
+    {
+      "title": "Utilise le clipper Chrome et le score de correspondance de base sur l’offre Gratuite.",
+      "description": "Utilise le clipper Chrome et le score de correspondance de base sur l’offre Gratuite."
+    },
+    {
+      "title": "Passe à Pro au mois, au trimestre ou tous les 6 mois si tu as besoin d’adaptations, de...",
+      "description": "Passe à Pro au mois, au trimestre ou tous les 6 mois si tu as besoin d’adaptations, de lettres et de relectures IA illimitées."
+    }
+  ]
+}

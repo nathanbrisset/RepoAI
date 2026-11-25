@@ -17,8 +17,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/starryai.png",
   "image": "/screenshots/starryai.webp",
@@ -55,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Génération Text-to-Art : crée des œuvres d'art à partir d'invites textuelles.",
-    "Personnalisation du style : propose différents styles artistiques parmi lesquels choisir.",
-    "Mise à l'échelle : améliore la résolution de l'image.",
-    "Générateur d'invites : aide à créer des invites efficaces pour les résultats souhaités."
+    "Génération Text-to-Art: crée des œuvres d'art à partir d'invites textuelles.",
+    "Personnalisation du style: propose différents styles artistiques parmi lesquels choisir.",
+    "Mise à l'échelle: améliore la résolution de l'image.",
+    "Générateur d'invites: aide à créer des invites efficaces pour les résultats souhaités."
   ]
 }

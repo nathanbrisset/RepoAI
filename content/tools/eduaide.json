@@ -1,0 +1,86 @@
+{
+  "id": "eduaide",
+  "name": "Eduaide",
+  "url": "https://www.eduaide.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI toolkit for teachers that generates lessons, questions, rubrics, supports and classroom images, with a document-chat assistant on Pro.",
+  "description": "AI toolkit for teachers that generates lessons, questions, rubrics, supports and classroom images, with a document-chat assistant on Pro.",
+  "categories": [
+    "education"
+  ],
+  "tags": [
+    "education",
+    "teachers",
+    "lesson-plans",
+    "classroom",
+    "resources"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free 0 €, no credit card — up to 8 resources a month (24 credits) for core creation workflows. Pro 5 €/month or 45 €/year (officially also described as 4 €/month) — unlimited AI generations, Erasmus Document Chat, add questions, rubrics, reading supports, study tools and translations, turn evaluation feedback into revised resources, custom classroom images, YouTube transcripts as source material, reasoning model, more context (3× longer topic prompts, 5 standards, 3 uploaded documents). Regional pricing may appear at checkout. First Pro payment is eligible for a full refund within 14 days; renewals are not refundable. Cancel anytime and keep Pro until the paid period ends.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/eduaide.png",
+  "image": "/screenshots/eduaide.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Resource generation for core classroom workflows: lessons, questions, rubrics and supports",
+    "Free plan: up to 8 resources a month (24 credits), no credit card",
+    "Pro adds Erasmus document chat, classroom images, YouTube transcripts and a reasoning model",
+    "First Pro payment can be refunded in full within 14 days; renewals are not refundable"
+  ],
+  "howToUse": [
+    {
+      "title": "Open eduaide.ai and start Free with no card (up to 8 resources / 24 credits a month).",
+      "description": "Open eduaide.ai and start Free with no card (up to 8 resources / 24 credits a month).",
+      "links": [
+        {
+          "label": "Eduaide",
+          "url": "https://www.eduaide.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Generate a lesson, questions or a rubric for your class.",
+      "description": "Generate a lesson, questions or a rubric for your class."
+    },
+    {
+      "title": "Upgrade to Pro monthly or yearly if you need unlimited generations and document chat.",
+      "description": "Upgrade to Pro monthly or yearly if you need unlimited generations and document chat."
+    }
+  ],
+  "sources": [
+    "https://www.eduaide.ai/"
+  ],
+  "summary_fr": "Boîte à outils IA pour enseignants qui génère cours, questions, rubriques, aides et images de classe, avec un assistant de discussion sur documents en Pro.",
+  "description_fr": "Boîte à outils IA pour enseignants qui génère cours, questions, rubriques, aides et images de classe, avec un assistant de discussion sur documents en Pro.",
+  "features_fr": [
+    "Génération de ressources pour les flux de classe : cours, questions, rubriques et aides",
+    "Offre gratuite : jusqu’à 8 ressources par mois (24 crédits), sans carte",
+    "Pro ajoute le chat sur documents Erasmus, les images de classe, les transcriptions YouTube et un modèle de raisonnement",
+    "Le premier paiement Pro peut être remboursé intégralement sous 14 jours ; les reconductions ne le sont pas"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre eduaide.ai et commence en Gratuit, sans carte...",
+      "description": "Ouvre eduaide.ai et commence en Gratuit, sans carte (jusqu’à 8 ressources / 24 crédits par mois).",
+      "links": [
+        {
+          "label": "Eduaide",
+          "url": "https://www.eduaide.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Génère un cours, des questions ou une rubrique pour ta classe.",
+      "description": "Génère un cours, des questions ou une rubrique pour ta classe."
+    },
+    {
+      "title": "Passe à Pro au mois ou à l’année si tu as besoin de générations illimitées et du chat sur...",
+      "description": "Passe à Pro au mois ou à l’année si tu as besoin de générations illimitées et du chat sur documents."
+    }
+  ]
+}

@@ -17,14 +17,12 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/thoughtspot.png",
   "image": "/tool-screenshots/thoughtspot.png",
   "dateAdded": null,
   "lastVerified": null,
-  "dateAddedNote": "The previous Added date was 2012-11-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Search-Driven Analytics: Query data using simple, natural language.",
     "AI Insights: Automatically surfaces trends, anomalies, and recommendations.",
@@ -56,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Analyses basées sur la recherche : interrogez des données à l'aide d'un langage simple et naturel.",
-    "AI Insights : fait apparaître automatiquement les tendances, les anomalies et les recommandations.",
-    "Analyse en temps réel : requêtes en direct sur les données cloud et sur site.",
-    "Flexibilité d'intégration : se connecte au cloud, à l'entrepôt et aux données locales."
+    "Analyses basées sur la recherche: interrogez des données à l'aide d'un langage simple et naturel.",
+    "AI Insights: fait apparaître automatiquement les tendances, les anomalies et les recommandations.",
+    "Analyse en temps réel: requêtes en direct sur les données cloud et sur site.",
+    "Flexibilité d'intégration: se connecte au cloud, à l'entrepôt et aux données locales."
   ]
 }

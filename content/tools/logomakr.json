@@ -18,14 +18,12 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/logomakr.png",
   "image": "/screenshots/logomakr.webp",
   "dateAdded": null,
   "lastVerified": null,
-  "dateAddedNote": "The previous Added date was 2013-03-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Drag-and-Drop Editor: Quickly assemble and customize logos.",
     "Icon Library: Access thousands of shapes and graphics.",
@@ -57,9 +55,9 @@
     }
   ],
   "features_fr": [
-    "Éditeur glisser-déposer : assemblez et personnalisez rapidement des logos.",
-    "Bibliothèque d'icônes : accédez à des milliers de formes et de graphiques.",
-    "Sélection de polices : choisissez parmi une gamme de polices de caractères.",
-    "Téléchargements illimités : exportez aux formats Web et imprimés."
+    "Éditeur glisser-déposer: assemblez et personnalisez rapidement des logos.",
+    "Bibliothèque d'icônes: accédez à des milliers de formes et de graphiques.",
+    "Sélection de polices: choisissez parmi une gamme de polices de caractères.",
+    "Téléchargements illimités: exportez aux formats Web et imprimés."
   ]
 }

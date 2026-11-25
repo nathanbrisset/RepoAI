@@ -17,8 +17,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/sourcery.png",
   "image": "/screenshots/sourcery.webp",
@@ -51,9 +50,9 @@
     }
   ],
   "features_fr": [
-    "Refactorisation du code : simplifie et optimise le code.",
-    "Suggestions de qualité du code : signale les mauvaises pratiques et les bugs.",
-    "Examens des demandes de tirage : commentaires de l'IA dans les relations publiques de GitHub.",
-    "Collaboration en équipe : partage des conseils de refactorisation à l’échelle de l’équipe."
+    "Refactorisation du code: simplifie et optimise le code.",
+    "Suggestions de qualité du code: signale les mauvaises pratiques et les bugs.",
+    "Examens des demandes de tirage: commentaires de l'IA dans les relations publiques de GitHub.",
+    "Collaboration en équipe: partage des conseils de refactorisation à l’échelle de l’équipe."
   ]
 }
