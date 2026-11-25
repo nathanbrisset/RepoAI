@@ -1,0 +1,87 @@
+{
+  "id": "hydrilla",
+  "name": "Hydrilla",
+  "url": "https://www.hydrilla.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Generates production-ready 3D assets from a text prompt or a single image with its BlueFox model, for game, film, architecture and XR pipelines.",
+  "description": "Generates production-ready 3D assets from a text prompt or a single image with its BlueFox model, for game, film, architecture and XR pipelines.",
+  "categories": [
+    "design"
+  ],
+  "tags": [
+    "3d",
+    "text-to-3d",
+    "image-to-3d",
+    "game-assets",
+    "generative-ai",
+    "xr"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free 0 € — 100 credits/month. Starter 5 €. Pro 11 € (API). Hourly 3 €. Hourly Pro 7 €.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/hydrilla.png",
+  "image": "/screenshots/hydrilla.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "Production-ready 3D assets from a text prompt or a single image, with the BlueFox model",
+    "Aimed at game, film, architecture and XR pipelines",
+    "Free 0 € — 100 credits/month. Starter 5 €. Pro 11 € (API). Hourly 3 €. Hourly Pro 7 €"
+  ],
+  "howToUse": [
+    {
+      "title": "Open hydrilla.ai (the site redirects to www.hydrilla.ai), start on the Free plan and...",
+      "description": "Open hydrilla.ai (the site redirects to www.hydrilla.ai), start on the Free plan and describe an asset or drop in an image.",
+      "links": [
+        {
+          "label": "Hydrilla",
+          "url": "https://www.hydrilla.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Generate with the BlueFox model and download the 3D asset.",
+      "description": "Generate with the BlueFox model and download the 3D asset."
+    },
+    {
+      "title": "Move to Starter, Pro or an Hourly plan when more credits or the API are needed.",
+      "description": "Move to Starter, Pro or an Hourly plan when more credits or the API are needed."
+    }
+  ],
+  "hqCountry": "IN",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://www.producthunt.com/products/hydrilla"
+  ],
+  "summary_fr": "Génère des assets 3D prêts pour la production à partir d’un prompt texte ou d’une seule image, avec son modèle BlueFox, pour les pipelines jeu, film, architecture et XR.",
+  "description_fr": "Génère des assets 3D prêts pour la production à partir d’un prompt texte ou d’une seule image, avec son modèle BlueFox, pour les pipelines jeu, film, architecture et XR.",
+  "features_fr": [
+    "Assets 3D prêts pour la production à partir d’un prompt texte ou d’une seule image, avec le modèle BlueFox",
+    "Pensé pour les pipelines jeu, film, architecture et XR",
+    "Gratuit 0 € — 100 crédits/mois. Starter 5 €. Pro 11 € (API). Hourly 3 €. Hourly Pro 7 €"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre hydrilla.ai (le site redirige vers www.hydrilla.ai), commence sur l’offre Gratuite...",
+      "description": "Ouvre hydrilla.ai (le site redirige vers www.hydrilla.ai), commence sur l’offre Gratuite et décris un asset ou dépose une image.",
+      "links": [
+        {
+          "label": "Hydrilla",
+          "url": "https://www.hydrilla.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Génère avec le modèle BlueFox et télécharge l’asset 3D.",
+      "description": "Génère avec le modèle BlueFox et télécharge l’asset 3D."
+    },
+    {
+      "title": "Passe à Starter, Pro ou une offre Hourly quand tu as besoin de plus de crédits ou de...",
+      "description": "Passe à Starter, Pro ou une offre Hourly quand tu as besoin de plus de crédits ou de l’API."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "scribase",
+  "name": "Scribase",
+  "url": "https://scribase.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "App backend a coding agent sets up by MCP or one command: Postgres, auth, storage, realtime and functions, plus push, store subscriptions, OTA updates, crash reports and deep links.",
+  "description": "App backend a coding agent sets up by MCP or one command: Postgres, auth, storage, realtime and functions, plus push, store subscriptions, OTA updates, crash reports and deep links.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "backend",
+    "postgres",
+    "baas",
+    "mcp",
+    "coding-agents",
+    "mobile-backend"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free — 1 project. Hobby 5 € and Pro 23 € per project per month. Studio 182 €/month.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/scribase.png",
+  "image": "/screenshots/scribase.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "A coding agent sets up the backend by MCP or one command: Postgres, auth, storage, realtime and functions, plus push, store subscriptions, OTA updates, crash reports and deep links",
+    "Free — 1 project. Hobby 5 € and Pro 23 € per project per month. Studio 182 €/month"
+  ],
+  "howToUse": [
+    {
+      "title": "Run npx scribase init, or let a coding agent connect through the Scribase MCP server.",
+      "description": "Run npx scribase init, or let a coding agent connect through the Scribase MCP server.",
+      "links": [
+        {
+          "label": "Scribase",
+          "url": "https://scribase.com/"
+        }
+      ]
+    },
+    {
+      "title": "Build on the free project.",
+      "description": "Build on the free project."
+    },
+    {
+      "title": "Add Hobby or Pro per project, or Studio, when more projects or always-warm instances are...",
+      "description": "Add Hobby or Pro per project, or Studio, when more projects or always-warm instances are needed."
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/products/scribase"
+  ],
+  "summary_fr": "Backend d’application qu’un agent de code configure via MCP ou une seule commande : Postgres, authentification, stockage, temps réel et fonctions, plus push, abonnements store, mises à jour OTA, rapports de crash et deep links.",
+  "description_fr": "Backend d’application qu’un agent de code configure via MCP ou une seule commande : Postgres, authentification, stockage, temps réel et fonctions, plus push, abonnements store, mises à jour OTA, rapports de crash et deep links.",
+  "features_fr": [
+    "Un agent de code configure le backend via MCP ou une seule commande : Postgres, authentification, stockage, temps réel et fonctions, plus push, abonnements store, mises à jour OTA, rapports de crash et deep links",
+    "Gratuit — 1 projet. Hobby 5 € et Pro 23 € par projet et par mois. Studio 182 €/mois"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Lance npx scribase init, ou laisse un agent de code se connecter via le serveur MCP...",
+      "description": "Lance npx scribase init, ou laisse un agent de code se connecter via le serveur MCP Scribase.",
+      "links": [
+        {
+          "label": "Scribase",
+          "url": "https://scribase.com/"
+        }
+      ]
+    },
+    {
+      "title": "Construis sur le projet gratuit.",
+      "description": "Construis sur le projet gratuit."
+    },
+    {
+      "title": "Ajoute Hobby ou Pro par projet, ou Studio, quand tu as besoin de plus de projets ou...",
+      "description": "Ajoute Hobby ou Pro par projet, ou Studio, quand tu as besoin de plus de projets ou d’instances toujours chaudes."
+    }
+  ]
+}

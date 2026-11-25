@@ -1,0 +1,89 @@
+{
+  "id": "modem",
+  "name": "Modem",
+  "url": "https://modem.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Monitors support tickets, team chats and sales calls to surface customer problems within minutes, hands them to the team or a coding agent, and follows up when the fix ships.",
+  "description": "Monitors support tickets, team chats and sales calls to surface customer problems within minutes, hands them to the team or a coding agent, and follows up when the fix ships.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "customer-feedback",
+    "support",
+    "product-ops",
+    "agents",
+    "slack",
+    "issue-tracking"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free 0 €/month — 2,500 events and 1,000 agent credits per month, 60 days of history. Startup 73 €/month — 15,000 events, 10,000 credits, 180 days, social monitoring on X. Scale 228 €/month — 60,000 events, 40,000 credits, 1 year of history, Gong and Fathom calls. Enterprise is custom (SSO/SCIM, SLA), with no public list price. Pay-as-you-go overage: 1 € per 1,000 extra events, 5 € per 1,000 extra credits. New workspaces get a 14-day Scale trial, no card.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/modem.png",
+  "image": "/screenshots/modem.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "Topic discovery and clustering across Slack, Discord, Teams, Intercom, Zendesk, GitHub, Linear, Jira, Sentry, Stripe and more",
+    "Auto-discovered company and people records; a Modem agent on Slack, Discord and the web; automations; hand-off to Claude Code, Cursor and Devin; MCP server and REST API",
+    "Unlimited users on every plan",
+    "Free 0 €/month — 2,500 events and 1,000 agent credits/month, 60 days of history. Startup 73 €/month — 15,000 events, 10,000 credits, 180 days, plus social monitoring on X. Scale 228 €/month — 60,000 events, 40,000 credits, 1 year of history, Gong and Fathom calls. Enterprise is custom",
+    "Overage 1 € per 1,000 extra events and 5 € per 1,000 extra credits. New workspaces get a 14-day Scale trial, no card"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up free at modem.ai and connect a support inbox, Slack or Discord, and an issue...",
+      "description": "Sign up free at modem.ai and connect a support inbox, Slack or Discord, and an issue tracker.",
+      "links": [
+        {
+          "label": "Modem",
+          "url": "https://modem.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Let Modem cluster customer concerns and alert the team, then hand a fix to a coding agent...",
+      "description": "Let Modem cluster customer concerns and alert the team, then hand a fix to a coding agent if needed."
+    },
+    {
+      "title": "Move to Startup or Scale when more events, history or call monitoring are needed.",
+      "description": "Move to Startup or Scale when more events, history or call monitoring are needed."
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/products/modem"
+  ],
+  "summary_fr": "Surveille tickets de support, chats d’équipe et appels commerciaux pour repérer les problèmes clients en quelques minutes, les transmet à l’équipe ou à un agent de code, puis relance le client une fois le correctif livré.",
+  "description_fr": "Surveille tickets de support, chats d’équipe et appels commerciaux pour repérer les problèmes clients en quelques minutes, les transmet à l’équipe ou à un agent de code, puis relance le client une fois le correctif livré.",
+  "features_fr": [
+    "Découverte et regroupement de sujets sur Slack, Discord, Teams, Intercom, Zendesk, GitHub, Linear, Jira, Sentry, Stripe et d’autres outils",
+    "Fiches entreprise et personnes découvertes automatiquement ; agent Modem sur Slack, Discord et le web ; automatisations ; passage à Claude Code, Cursor et Devin ; serveur MCP et API REST",
+    "Utilisateurs illimités sur chaque offre",
+    "Gratuit 0 €/mois — 2 500 events et 1 000 crédits agent/mois, 60 jours d’historique. Startup 73 €/mois — 15 000 events, 10 000 crédits, 180 jours, plus le suivi social sur X. Scale 228 €/mois — 60 000 events, 40 000 crédits, 1 an d’historique, appels Gong et Fathom. Enterprise est sur mesure",
+    "Dépassement 1 € pour 1 000 events en plus et 5 € pour 1 000 crédits en plus. Les nouveaux espaces ont un essai Scale de 14 jours, sans carte"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Inscris-toi sans frais sur modem.ai et connecte une boîte de support, Slack ou Discord...",
+      "description": "Inscris-toi sans frais sur modem.ai et connecte une boîte de support, Slack ou Discord, et un outil de tickets.",
+      "links": [
+        {
+          "label": "Modem",
+          "url": "https://modem.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Laisse Modem regrouper les problèmes clients et alerter l’équipe, puis passe un correctif...",
+      "description": "Laisse Modem regrouper les problèmes clients et alerter l’équipe, puis passe un correctif à un agent de code si besoin."
+    },
+    {
+      "title": "Passe à Startup ou Scale quand tu as besoin de plus d’events, d’historique ou du suivi...",
+      "description": "Passe à Startup ou Scale quand tu as besoin de plus d’events, d’historique ou du suivi des appels."
+    }
+  ]
+}

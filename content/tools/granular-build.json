@@ -1,0 +1,89 @@
+{
+  "id": "granular-build",
+  "name": "Granular.Build",
+  "url": "https://granular.build/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Desktop AI workspace where a boss agent coordinates specialist agents in parallel, on your own Claude, Codex or Gemini login, to build apps, designs or videos with a live preview.",
+  "description": "Desktop AI workspace where a boss agent coordinates specialist agents in parallel, on your own Claude, Codex or Gemini login, to build apps, designs or videos with a live preview.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ai-agents",
+    "multi-agent",
+    "coding",
+    "workspace",
+    "byok",
+    "desktop-app"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free to download, with your own AI login — 1 boss agent, 2 worker agents and 2 projects. Pro is the same full app at 12 €/month, or 118 €/year (official yearly price, about two months offered vs monthly), or 236 € lifetime (one-time, no subscription). Optional hosted models can be added on Free or Pro: 18 €, 46 € or 91 € per month, billed monthly, same 34 models, only the monthly credits differ. Official Black Friday promo: 50% off Granular Pro — a promo, not the normal list price. Checkout is via Stripe.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/granular-build.png",
+  "image": "/screenshots/granular-build.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "A boss agent coordinates specialist agents in parallel on a Mac or Windows desktop, using a Claude, Codex or Gemini login you already have",
+    "Build apps, designs or videos with a live preview",
+    "Free: 1 boss agent + 2 worker agents, 2 projects, with your own model login",
+    "Pro is 12 €/month, or 118 €/year, or 236 € lifetime — the same full Pro app. Optional hosted models on any plan: 18 €, 46 € or 91 € per month",
+    "Official Black Friday promo: 50% off Granular Pro — this is a promo, not the normal list price"
+  ],
+  "howToUse": [
+    {
+      "title": "Download Granular for Mac or Windows and sign in with a Claude, Codex or Gemini account...",
+      "description": "Download Granular for Mac or Windows and sign in with a Claude, Codex or Gemini account you already have.",
+      "links": [
+        {
+          "label": "Granular.Build",
+          "url": "https://granular.build/"
+        }
+      ]
+    },
+    {
+      "title": "Give the boss agent a goal and watch the workers build in the live preview.",
+      "description": "Give the boss agent a goal and watch the workers build in the live preview."
+    },
+    {
+      "title": "Stay on the Free plan or move to Pro (monthly, yearly or lifetime) to lift project and...",
+      "description": "Stay on the Free plan or move to Pro (monthly, yearly or lifetime) to lift project and agent limits."
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/products/granular-build"
+  ],
+  "summary_fr": "Espace de travail IA de bureau où un agent chef coordonne des agents spécialisés en parallèle, avec ton propre compte Claude, Codex ou Gemini, pour construire apps, designs ou vidéos avec aperçu en direct.",
+  "description_fr": "Espace de travail IA de bureau où un agent chef coordonne des agents spécialisés en parallèle, avec ton propre compte Claude, Codex ou Gemini, pour construire apps, designs ou vidéos avec aperçu en direct.",
+  "features_fr": [
+    "Un agent chef coordonne des agents spécialisés en parallèle sur un bureau Mac ou Windows, avec un compte Claude, Codex ou Gemini que tu as déjà",
+    "Construis des apps, des designs ou des vidéos avec un aperçu en direct",
+    "Gratuit : 1 agent chef + 2 agents, 2 projets, avec ton propre compte modèle",
+    "Pro est à 12 €/mois, ou 118 €/an, ou 236 € à vie — la même app Pro complète. Modèles hébergés en option sur n’importe quelle offre : 18 €, 46 € ou 91 € par mois",
+    "Promo officielle Black Friday : −50 % sur Granular Pro — c’est une promo, pas le prix de liste normal"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Télécharge Granular pour Mac ou Windows et connecte-toi avec un compte Claude, Codex ou...",
+      "description": "Télécharge Granular pour Mac ou Windows et connecte-toi avec un compte Claude, Codex ou Gemini que tu as déjà.",
+      "links": [
+        {
+          "label": "Granular.Build",
+          "url": "https://granular.build/"
+        }
+      ]
+    },
+    {
+      "title": "Donne un objectif à l’agent chef et observe les agents construire dans l’aperçu en direct.",
+      "description": "Donne un objectif à l’agent chef et observe les agents construire dans l’aperçu en direct."
+    },
+    {
+      "title": "Reste sur l’offre Gratuite ou passe à Pro (mensuel, annuel ou à vie) pour lever les...",
+      "description": "Reste sur l’offre Gratuite ou passe à Pro (mensuel, annuel ou à vie) pour lever les limites de projets et d’agents."
+    }
+  ]
+}

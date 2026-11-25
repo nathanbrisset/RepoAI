@@ -1,0 +1,85 @@
+{
+  "id": "cullman",
+  "name": "Cullman",
+  "url": "https://www.cullman.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Platform to build, test and run voice agents: version every change, evaluate with simulated callers and real human testers, split-test in production and score launches.",
+  "description": "Platform to build, test and run voice agents: version every change, evaluate with simulated callers and real human testers, split-test in production and score launches.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "voice-agents",
+    "evals",
+    "testing",
+    "telephony",
+    "developer-tools",
+    "usage-based"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Usage-based, with 23 € of credits given at the start. Extra evaluation lines are 7 € each. Per-minute production, simulation and per-reply text rates are too small to show as meaningful euro prices and are not itemised here. No permanent free tier.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/cullman.png",
+  "image": "/screenshots/cullman.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "Build, test and run voice agents: version every change, evaluate with simulated callers and real human testers, and split-test in production",
+    "Usage-based billing, with 23 € of credits given at the start. Extra evaluation lines are 7 € each",
+    "Per-minute production and simulation rates are too small to show as meaningful euro prices and are not itemised here. There is no lasting free plan"
+  ],
+  "howToUse": [
+    {
+      "title": "Open cullman.ai, start with the welcome credits and create a voice agent.",
+      "description": "Open cullman.ai, start with the welcome credits and create a voice agent.",
+      "links": [
+        {
+          "label": "Cullman",
+          "url": "https://www.cullman.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Version each change, evaluate with simulated callers or human testers, then split-test in...",
+      "description": "Version each change, evaluate with simulated callers or human testers, then split-test in production."
+    },
+    {
+      "title": "Buy more credits or extra evaluation lines as usage grows.",
+      "description": "Buy more credits or extra evaluation lines as usage grows."
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/products/cullman"
+  ],
+  "summary_fr": "Plateforme pour construire, tester et faire tourner des agents vocaux : versionne chaque changement, évalue avec des appelants simulés et de vrais testeurs, fais des tests en production et note les mises en ligne.",
+  "description_fr": "Plateforme pour construire, tester et faire tourner des agents vocaux : versionne chaque changement, évalue avec des appelants simulés et de vrais testeurs, fais des tests en production et note les mises en ligne.",
+  "features_fr": [
+    "Construis, teste et fais tourner des agents vocaux : versionne chaque changement, évalue avec des appelants simulés et de vrais testeurs, et lance des tests en production",
+    "Facturation à l’usage, avec 23 € de crédits offerts au départ. Chaque ligne d’évaluation supplémentaire est à 7 €",
+    "Les tarifs de production et de simulation à la minute sont trop faibles pour s’afficher en euros et ne sont pas détaillés ici. Pas d’offre gratuite durable"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre cullman.ai, commence avec les crédits de bienvenue et crée un agent vocal.",
+      "description": "Ouvre cullman.ai, commence avec les crédits de bienvenue et crée un agent vocal.",
+      "links": [
+        {
+          "label": "Cullman",
+          "url": "https://www.cullman.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Versionne chaque changement, évalue avec des appelants simulés ou de vrais testeurs, puis...",
+      "description": "Versionne chaque changement, évalue avec des appelants simulés ou de vrais testeurs, puis lance des tests en production."
+    },
+    {
+      "title": "Achète plus de crédits ou des lignes d’évaluation supplémentaires quand l’usage augmente.",
+      "description": "Achète plus de crédits ou des lignes d’évaluation supplémentaires quand l’usage augmente."
+    }
+  ]
+}

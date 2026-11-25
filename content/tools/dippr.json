@@ -1,0 +1,85 @@
+{
+  "id": "dippr",
+  "name": "Dippr",
+  "url": "https://dippr.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Data platform served to coding agents: connect Snowflake, Salesforce, Postgres, Stripe and more, add definitions and access rules, and let agents build and run internal apps and data tools.",
+  "description": "Data platform served to coding agents: connect Snowflake, Salesforce, Postgres, Stripe and more, add definitions and access rules, and let agents build and run internal apps and data tools.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "data-platform",
+    "ai-agents",
+    "mcp",
+    "analytics",
+    "internal-tools",
+    "semantic-layer"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Community 0 € — 20 credits/month. Team 137 €/month (250 credits). Enterprise from 5,473 €/year. Extra-credit rates that are too small to show as meaningful euro prices are not itemised here.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/dippr.png",
+  "image": "/screenshots/dippr.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "Connect Snowflake, Salesforce, Postgres, Stripe and more, add definitions and access rules, and let coding agents build and run internal apps and data tools",
+    "Community 0 € — 20 credits/month. Team 137 €/month (250 credits). Enterprise from 5,473 €/year",
+    "Extra credits at a per-credit rate that are too small to show as meaningful euro prices are not itemised here"
+  ],
+  "howToUse": [
+    {
+      "title": "In a coding agent, paste Dippr’s one-line setup (it reads dippr.ai/agents.md) and connect...",
+      "description": "In a coding agent, paste Dippr’s one-line setup (it reads dippr.ai/agents.md) and connect data sources.",
+      "links": [
+        {
+          "label": "Dippr",
+          "url": "https://dippr.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Add metric definitions and access rules, then ask the agent for a portal or internal tool.",
+      "description": "Add metric definitions and access rules, then ask the agent for a portal or internal tool."
+    },
+    {
+      "title": "Stay on Community or move to Team for roles and more credits; Enterprise is custom from...",
+      "description": "Stay on Community or move to Team for roles and more credits; Enterprise is custom from 5,473 €/year."
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/products/dippr"
+  ],
+  "summary_fr": "Plateforme de données servie aux agents de code : connecte Snowflake, Salesforce, Postgres, Stripe et d’autres sources, ajoute définitions et règles d’accès, et laisse les agents construire et faire tourner apps internes et outils data.",
+  "description_fr": "Plateforme de données servie aux agents de code : connecte Snowflake, Salesforce, Postgres, Stripe et d’autres sources, ajoute définitions et règles d’accès, et laisse les agents construire et faire tourner apps internes et outils data.",
+  "features_fr": [
+    "Connecte Snowflake, Salesforce, Postgres, Stripe et d’autres sources, ajoute définitions et règles d’accès, et laisse les agents de code construire et faire tourner apps internes et outils data",
+    "Community 0 € — 20 crédits/mois. Team 137 €/mois (250 crédits). Enterprise à partir de 5 473 €/an",
+    "Les crédits supplémentaires, à un tarif unitaire trop faible pour s’afficher en euros, ne sont pas détaillés ici"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Dans un agent de code, colle l’installation en une ligne de Dippr...",
+      "description": "Dans un agent de code, colle l’installation en une ligne de Dippr (il lit dippr.ai/agents.md) et connecte tes sources de données.",
+      "links": [
+        {
+          "label": "Dippr",
+          "url": "https://dippr.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Ajoute des définitions de métriques et des règles d’accès, puis demande à l’agent un...",
+      "description": "Ajoute des définitions de métriques et des règles d’accès, puis demande à l’agent un portail ou un outil interne."
+    },
+    {
+      "title": "Reste sur Community ou passe à Team pour les rôles et plus de crédits ; Enterprise est...",
+      "description": "Reste sur Community ou passe à Team pour les rôles et plus de crédits ; Enterprise est sur mesure à partir de 5 473 €/an."
+    }
+  ]
+}
