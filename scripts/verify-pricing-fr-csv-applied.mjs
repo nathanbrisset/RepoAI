@@ -18,7 +18,7 @@ const DOCUMENTED_EXCEPTIONS = [
     slug: "async",
     field: "pricingNote_fr",
     reason:
-      "PM decision 25/11 (final) — FR note: CSV Gratuit + Essentials, then Pro/Teams 39,99–599,90 and top-up packs; omits CSV tail (Pro 23,99, équipes 49,99, Black Friday).",
+      "PM decision 25/11 (final) — FR note: CSV Gratuit + Essentials, then Pro/Teams (Teams par créateur) and top-up packs; omits CSV tail (Pro 23,99, équipes 49,99, Black Friday).",
   },
 ]
 
