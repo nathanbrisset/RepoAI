@@ -1198,6 +1198,37 @@
     ],
     "pricingNote_fr": "7 jours offerts, puis 7 €/mois ou 53 €/an. Mac uniquement."
   },
+  "ai-or-not": {
+    "summary_fr": "Détecteur de contenus IA (texte, images, deepfakes, voix, musique et vidéo), avec un quota mensuel gratuit sur le texte et des offres payantes à crédits.",
+    "description_fr": "Détecteur de contenus IA (texte, images, deepfakes, voix, musique et vidéo), avec un quota mensuel gratuit sur le texte et des offres payantes à crédits.",
+    "features_fr": [
+      "Détecteur de contenus IA pour le texte, les images, les deepfakes, la voix, la musique et la vidéo, avec une clé API sur l’offre Gratuite",
+      "Un quota mensuel gratuit sur le texte (1 million de mots), plus des crédits de départ sur l’offre Gratuite",
+      "Les offres payantes partagent les crédits entre les modalités, avec report mensuel et une option annuelle de 10 mois facturés",
+      "Les tarifs à l’unité, dans la devise d’origine, restent dans les notes officielles, car plusieurs arrondiraient à 0 €"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre aiornot.com/pricing et commence sur l’offre Gratuite...",
+        "description": "Ouvre aiornot.com/pricing et commence sur l’offre Gratuite (1 million de mots de détection de texte par mois, plus 5 € de crédits de départ).",
+        "links": [
+          {
+            "label": "AI or Not",
+            "url": "https://www.aiornot.com/"
+          }
+        ]
+      },
+      {
+        "title": "Lance un contrôle texte, image, audio ou vidéo, y compris via la clé API incluse sur...",
+        "description": "Lance un contrôle texte, image, audio ou vidéo, y compris via la clé API incluse sur l’offre Gratuite."
+      },
+      {
+        "title": "Abonne-toi à Pro à 5 €/mois ou 45 €/an, ou à Business à 90 €/mois ou 905 €/an, si tu as...",
+        "description": "Abonne-toi à Pro à 5 €/mois ou 45 €/an, ou à Business à 90 €/mois ou 905 €/an, si tu as besoin de toutes les modalités et de crédits mensuels."
+      }
+    ],
+    "pricingNote_fr": "Un basculeur Monthly / Yearly « Yearly - 2 months free » est présent ; les deux prix officiels sont listés (un basculeur de facturation habituel, pas une promo flash). Gratuit — 5 € de crédits pour commencer, 1 million de mots de détection de texte IA gratuits chaque mois, 20 contrôles d’images IA, clé API incluse. Pro 5 €/mois ou 45 €/an — 9 € de crédits inclus chaque mois, crédits à l’usage, reports mensuels, toutes les modalités débloquées ; 2 millions de mots, 500 contrôles d’images, 1 000 secondes de contrôles vidéo. Business 90 €/mois ou 905 €/an — 90 € de crédits chaque mois, 20 millions de mots, 6 600 contrôles d’images, 13 300 secondes de vidéo, 25 % de moins sur les contrôles image / audio / vidéo par rapport à Pro, reports, droits de revendeur jusqu’à 4 524 €/mois (au-delà : let’s chat). Enterprise est sur mesure (on-prem, instances privées, nous contacter). Les tarifs à l’unité, dans la devise d’origine, restent dans les notes officielles (plusieurs arrondiraient à 0 €)."
+  },
   "ai-portfolio-analyst": {
     "summary_fr": "Analyse un portefeuille d’actions avec des scores, le risque et l’actualité, depuis une offre Silver gratuite jusqu’aux offres Gold, Platinum et Diamond.",
     "description_fr": "Analyse un portefeuille d’actions avec des scores, le risque et l’actualité, depuis une offre Silver gratuite jusqu’aux offres Gold, Platinum et Diamond.",
@@ -1743,6 +1774,37 @@
       "Applications mobiles iOS et Android"
     ]
   },
+  "algolia": {
+    "summary_fr": "API de recherche et de découverte IA pour sites et applications, avec une offre gratuite sans carte et des plans Grow / Grow Plus à l’usage.",
+    "description_fr": "API de recherche et de découverte IA pour sites et applications, avec une offre gratuite sans carte et des plans Grow / Grow Plus à l’usage.",
+    "features_fr": [
+      "API de recherche et de découverte IA pour sites et applications, avec recherche par mot-clé, recommandations, merchandising et un crawler",
+      "Une offre Gratuite sans carte, plus Grow et Grow Plus officiellement à partir de 0 €/mois, avec des quotas à l’usage",
+      "Grow Plus ajoute AI Synonyms, AI Ranking et la personnalisation avancée ; Elevate est sur mesure",
+      "L’overage des requêtes de recherche au-delà des 10 000 incluses n’a pas été isolé comme prix de liste public et n’est pas listé"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre algolia.com/pricing et commence sur l’offre Gratuite sans carte...",
+        "description": "Ouvre algolia.com/pricing et commence sur l’offre Gratuite sans carte (10 000 requêtes de recherche et 50 000 records par mois).",
+        "links": [
+          {
+            "label": "Algolia",
+            "url": "https://www.algolia.com/"
+          }
+        ]
+      },
+      {
+        "title": "Passe à Grow ou Grow Plus, officiellement à partir de 0 €/mois, si tu as besoin des...",
+        "description": "Passe à Grow ou Grow Plus, officiellement à partir de 0 €/mois, si tu as besoin des quotas inclus plus élevés ou des fonctions IA de Grow Plus."
+      },
+      {
+        "title": "Demande un tarif Elevate si tu as besoin de NeuralSearch et des options enterprise.",
+        "description": "Demande un tarif Elevate si tu as besoin de NeuralSearch et des options enterprise. L’overage des requêtes de recherche au-delà des 10 000 incluses n’est pas listé ici."
+      }
+    ],
+    "pricingNote_fr": "Gratuit, sans carte — 10 000 requêtes de recherche/mois, 50 000 records, 5 000 requêtes de recommandation/mois, 5 000 crawls/mois. Grow (recherche par mot-clé) et Grow Plus (recherche par mot-clé avec des fonctions IA, dont AI Synonyms, AI Ranking et la personnalisation avancée) démarrent officiellement à 0 €/mois. La FAQ officielle inclut 10 000 requêtes de recherche, 10 000 requêtes Recommend, 100 000 records, 10 000 crawls par mois et 1 Guide offert sur Grow et Grow Plus, avec facturation seulement au-delà de chaque quota inclus. Les tarifs d’overage des recommandations et du crawler, dans la devise d’origine, restent dans les notes officielles (ils seraient trompeurs une fois arrondis en euros entiers). Le tarif d’overage des requêtes de recherche au-delà des 10 000 incluses n’a pas été isolé comme prix de liste public et n’est pas listé. Elevate démarre sur mesure / sur demande de prix, avec un contrat annuel."
+  },
   "alkera": {
     "summary_fr": "Plateforme de données agentique qui réunit ingénierie, analyse et data science dans des espaces de travail collaboratifs multi-joueurs, pour les humains et les agents.",
     "description_fr": "Plateforme de données agentique qui réunit ingénierie, analyse et data science dans des espaces de travail collaboratifs multi-joueurs, pour les humains et les agents.",
@@ -2080,6 +2142,37 @@
       "health",
       "catalogue"
     ]
+  },
+  "amboss": {
+    "summary_fr": "Bibliothèque médicale, banque de questions d’examen et outils cliniques de référence, avec un mode IA officiel, pour étudiants, internes et praticiens — une ressource d’apprentissage et de référence, pas un substitut à un médecin.",
+    "description_fr": "Bibliothèque médicale, banque de questions d’examen et outils cliniques de référence, avec un mode IA officiel, pour étudiants, internes et praticiens — une ressource d’apprentissage et de référence, pas un substitut à un médecin.",
+    "features_fr": [
+      "Bibliothèque médicale, banque de questions d’examen et outils cliniques de référence, avec un mode IA officiel, pour étudiants, internes et praticiens",
+      "Un essai officiel de 5 jours, puis des offres étudiant ou praticien facturées au mois ou à l’année",
+      "Une ressource d’apprentissage et de référence — pas un diagnostic, et pas un substitut à un médecin",
+      "Labellé Premium : aucune adhésion 0 € durable n’était indiquée. Garantie officielle de remboursement de 30 jours sur les achats directs"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre amboss.com (l’accueil redirige vers amboss.com/int) et lance l’essai officiel de 5...",
+        "description": "Ouvre amboss.com (l’accueil redirige vers amboss.com/int) et lance l’essai officiel de 5 jours.",
+        "links": [
+          {
+            "label": "AMBOSS",
+            "url": "https://www.amboss.com/int"
+          }
+        ]
+      },
+      {
+        "title": "Utilise la bibliothèque médicale, la banque de questions ou les outils cliniques de...",
+        "description": "Utilise la bibliothèque médicale, la banque de questions ou les outils cliniques de référence comme une ressource d’apprentissage et de référence — pas comme un diagnostic, et pas comme un substitut à un médecin."
+      },
+      {
+        "title": "Choisis une offre étudiant (à partir de 18 €/mois, ou 11 €/mois facturés à l’année) ou...",
+        "description": "Choisis une offre étudiant (à partir de 18 €/mois, ou 11 €/mois facturés à l’année) ou une offre praticien (à partir de 27 €/mois, ou 20 €/mois facturés à l’année) sur les pages tarifaires officielles US ou International. Labellé Premium."
+      }
+    ],
+    "pricingNote_fr": "Labellé Premium : un essai de 5 jours est proposé ; aucune adhésion 0 € durable n’était indiquée. Pages tarifaires officielles US et International en anglais, montants convertis en euros. Étudiants / internes : Monthly Membership ou Monthly Access 18 €/mois facturés au mois — accès illimité à la bibliothèque, 50 questions Qbank par mois ; Yearly Membership 11 €/mois facturés à l’année ; Yearly Membership + Qbank Bundle 405 € facturés à l’année (l’adhésion se renouvelle chaque année à 135 € sauf résiliation) ; Student Life 1 085 €. Praticiens : Monthly Access 27 €/mois facturés au mois ; Yearly Access 20 €/mois facturés à l’année. Garantie officielle de remboursement de 30 jours pour les achats faits directement auprès d’AMBOSS. Une page tarifaire allemande pour les médecins existe en euros ; sa grille n’a pas été isolée proprement et n’est pas utilisée. AMBOSS est une bibliothèque médicale et une banque de questions d’examen, avec des outils cliniques de référence et un mode IA officiel — une ressource d’apprentissage et de référence, pas un diagnostic et pas un substitut à un médecin."
   },
   "amp": {
     "summary_fr": "Agent de codage qui exécute des tâches dans des environnements isolés hébergés ou auto-hébergés appelés orbes.",
@@ -4217,6 +4310,37 @@
       "spreadsheets",
       "automatisation"
     ]
+  },
+  "bigml": {
+    "summary_fr": "Plateforme de machine learning et d’AutoML pour construire et déployer des modèles, avec une offre gratuite durable et des abonnements payants qui démarrent officiellement à 27 €/mois.",
+    "description_fr": "Plateforme de machine learning et d’AutoML pour construire et déployer des modèles, avec une offre gratuite durable et des abonnements payants qui démarrent officiellement à 27 €/mois.",
+    "features_fr": [
+      "Plateforme de machine learning et d’AutoML pour construire et déployer des modèles, avec une offre Gratuite durable",
+      "Des organizations pour collaborer en équipe sur les offres payantes, et des déploiements privés on-prem ou sur ton propre cloud",
+      "Les abonnements payants démarrent officiellement à 27 €/mois, avec des remises officielles au trimestre et à l’année",
+      "La grille payante détaillée par taille de dataset n’a pas été isolée et n’est pas listée"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre bigml.com/pricing et commence sur l’offre Gratuite durable à 0 €, ou lance l’essai...",
+        "description": "Ouvre bigml.com/pricing et commence sur l’offre Gratuite durable à 0 €, ou lance l’essai de 3 jours en accès complet (jusqu’à 60 tâches, sans carte).",
+        "links": [
+          {
+            "label": "BigML",
+            "url": "https://bigml.com/"
+          }
+        ]
+      },
+      {
+        "title": "Entraîne et déploie un modèle sur un dataset, dans la limite Gratuite de 16 Mo par tâche.",
+        "description": "Entraîne et déploie un modèle sur un dataset, dans la limite Gratuite de 16 Mo par tâche."
+      },
+      {
+        "title": "Choisis un abonnement payant qui démarre officiellement à 27 €/mois si tu as besoin de...",
+        "description": "Choisis un abonnement payant qui démarre officiellement à 27 €/mois si tu as besoin de datasets plus grands et de plus de tâches en parallèle. La grille détaillée par taille n’est pas listée ici."
+      }
+    ],
+    "pricingNote_fr": "Un essai gratuit de 3 jours en accès complet (jusqu’à 60 tâches, sans carte) est proposé à côté d’une offre Gratuite durable. Gratuit 0 € — tâches illimitées, taille max. de dataset 16 Mo par tâche, 2 tâches en parallèle par utilisateur, 1 utilisateur inclus (utilisateurs supplémentaires via un compte organization). Les abonnements payants démarrent officiellement à 27 €/mois (mensuel ; −15 % au trimestre ; −30 % à l’année). La grille détaillée par taille de dataset n’a pas été isolée et n’est pas listée. Une mention « 50 % Off » pour étudiants, chercheurs publics ou ONG est indiquée sans prix résultant public et n’est pas itemisée. Déploiements privés : Lite 9 048 €/an ou 905 €/mois ; Bronze Enterprise 40 717 €/an + 9 048 € de setup. Les tarifs de support supplémentaire et de formation ou certification apparaissent sur la même page et restent dans les notes officielles."
   },
   "biteable": {
     "summary_fr": "Vidéos animées pour entreprises, à partir de modèles et d'IA.",
@@ -8656,6 +8780,37 @@
       }
     ],
     "pricingNote_fr": "Gratuit 0 € — 3 000 crédits / 90 jours, 1 membre, 1 petit sandbox cloud et 1 routine, 200 Mo de mémoire, 30 jours d’historique. Pro 18 €/mois — 10 000 crédits/mois, usage supplémentaire selon besoin, jusqu’à 5 membres, 3 sandboxes (jusqu’au format standard) et 10 routines, 2 Go de mémoire, 1 an d’historique. Team 181 €/mois — 100 000 crédits/mois, jusqu’à 50 membres, 10 sandboxes (jusqu’au format large) et 50 routines. Enterprise sur devis."
+  },
+  "count": {
+    "summary_fr": "Canevas d’analytics collaboratif où les équipes et un agent IA explorent les données ensemble, avec une offre gratuite et un plan Pro facturé par éditeur.",
+    "description_fr": "Canevas d’analytics collaboratif où les équipes et un agent IA explorent les données ensemble, avec une offre gratuite et un plan Pro facturé par éditeur.",
+    "features_fr": [
+      "Canevas d’analytics collaboratif où les équipes et un agent IA explorent les données ensemble",
+      "Connexions base et MCP, recherche web, envoi de fichiers et automatisations, avec une offre Gratuite durable",
+      "Pro est facturé par éditeur ; les viewers et report viewers restent gratuits, avec des crédits IA illimités sur Pro",
+      "Aucun prix de liste annuel n’a été isolé à côté du tarif mensuel par éditeur et n’est pas listé. Enterprise est sur mesure"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre count.co/pricing et commence sur l’offre Gratuite à 0 €, sans carte...",
+        "description": "Ouvre count.co/pricing et commence sur l’offre Gratuite à 0 €, sans carte (jusqu’à 5 utilisateurs).",
+        "links": [
+          {
+            "label": "Count",
+            "url": "https://count.co/"
+          }
+        ]
+      },
+      {
+        "title": "Connecte une base ou une source MCP et explore-la sur un canevas, avec l’agent IA.",
+        "description": "Connecte une base ou une source MCP et explore-la sur un canevas, avec l’agent IA."
+      },
+      {
+        "title": "Passe les éditeurs en Pro à 44 € par éditeur / mois si tu as besoin de crédits IA, de...",
+        "description": "Passe les éditeurs en Pro à 44 € par éditeur / mois si tu as besoin de crédits IA, de canevas et d’automatisations illimités. Un prix de liste annuel n’a pas été isolé et n’est pas listé ici."
+      }
+    ],
+    "pricingNote_fr": "Gratuit 0 €, sans carte — 1 projet, 3 canevas, jusqu’à 5 utilisateurs, plafonds quotidiens de crédits IA (modèles limités), 1 connexion base / MCP, recherche web, envoi de fichiers, 2 automatisations, support communautaire. Pro 44 € / éditeur / mois, viewers gratuits — tout le Gratuit plus crédits IA illimités (Count indique que 98 % des équipes n’ont jamais besoin de recharger), canevas, projets, rapports et automatisations illimités, 3 connexions base / MCP, compétences d’agent partagées, 4 Go de calcul, intégration Slack et client MCP, support e-mail / Slack / Teams ; jusqu’à 75 utilisateurs d’espace de travail ; owners, admins et editors sont facturables, viewers et report viewers sont gratuits ; historique de versions de 14 jours. Enterprise est let’s talk (éditeurs illimités, tes propres modèles ou clés API, jusqu’à 32 Go de calcul, SSO, SCIM, HIPAA, résidence des données UE/US, et d’autres). Aucun prix de liste annuel n’a été isolé à côté du tarif mensuel par éditeur et n’est pas listé."
   },
   "coursebox": {
     "summary_fr": "Crée un cours en ligne complet avec l'IA et diffuse-le.",
@@ -15219,6 +15374,37 @@
       "ginger"
     ],
     "pricingNote_fr": "Freemium: consulte le site officiel pour les limites et offres payantes."
+  },
+  "gitguardian": {
+    "summary_fr": "Plateforme de sécurité qui détecte les secrets et identifiants exposés dans le code, avec une offre Starter gratuite durable pour les petites équipes.",
+    "description_fr": "Plateforme de sécurité qui détecte les secrets et identifiants exposés dans le code, avec une offre Starter gratuite durable pour les petites équipes.",
+    "features_fr": [
+      "Détecte les secrets et identifiants exposés dans le code, avec Internal Secrets Monitoring",
+      "Scan en temps réel illimité et jusqu’à 500 détections de scan historique sur l’offre Starter gratuite durable",
+      "Starter est à 0 €, Always, sans carte, jusqu’à 25 développeurs et 10 000 appels API/mois",
+      "Les offres payantes Business / Teams, Growth et Enterprise passent par les ventes, sans prix de liste public"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre gitguardian.com et commence sur Starter à 0 €, sans carte (jusqu’à 25 développeurs).",
+        "description": "Ouvre gitguardian.com et commence sur Starter à 0 €, sans carte (jusqu’à 25 développeurs).",
+        "links": [
+          {
+            "label": "GitGuardian",
+            "url": "https://www.gitguardian.com/"
+          }
+        ]
+      },
+      {
+        "title": "Active Internal Secrets Monitoring pour que tes dépôts soient scannés en temps réel.",
+        "description": "Active Internal Secrets Monitoring pour que tes dépôts soient scannés en temps réel."
+      },
+      {
+        "title": "Contacte les ventes si tu as besoin des fonctions Growth, Business ou Enterprise, comme...",
+        "description": "Contacte les ventes si tu as besoin des fonctions Growth, Business ou Enterprise, comme le SSO ou la surveillance des secrets publics — ces offres n’ont pas de prix de liste public."
+      }
+    ],
+    "pricingNote_fr": "Starter 0 €, Always, sans carte — jusqu’à 25 développeurs, scan en temps réel illimité, jusqu’à 500 détections de scan historique, 10 000 appels API/mois, Internal Secrets Monitoring. Business / Teams, Growth et Enterprise sont proposés en Let’s Talk / Contact sales ; aucun prix de liste payant public n’a été isolé et n’est pas listé. Developer Endpoint Protection est tarifé par terminal et par an, sur devis, avec deux paliers officiels (terminaux développeurs et terminaux standard)."
   },
   "github-copilot": {
     "summary_fr": "GitHub Copilot intervient à chaque étape, d'une issue ouverte jusqu'à la revue et la fusion d'une pull request. Utilise-le dans ton éditeur, dans le terminal, sur ton ordinateur et sur GitHub.",
@@ -43311,6 +43497,37 @@
       "catalogue"
     ]
   },
+  "ux-pilot": {
+    "summary_fr": "Plateforme IA de design UX/UI pour wireframes, maquettes haute fidélité, revues de design et heatmaps prédictives, avec une offre de départ gratuite.",
+    "description_fr": "Plateforme IA de design UX/UI pour wireframes, maquettes haute fidélité, revues de design et heatmaps prédictives, avec une offre de départ gratuite.",
+    "features_fr": [
+      "Plateforme IA de design UX/UI pour wireframes, maquettes haute fidélité, revues de design et heatmaps prédictives",
+      "Une offre Free durable, avec 80 crédits par jour et un projet",
+      "Pro ajoute 750 crédits mensuels, des projets illimités, Website Cloner et des recharges ; Teams est facturé par utilisateur",
+      "Seuls les prix officiels structurés de /plans sont listés ; les autres montants du contenu de comparaison n’ont pas été utilisés"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre uxpilot.ai/plans et commence sur l’offre Free à 0 €...",
+        "description": "Ouvre uxpilot.ai/plans et commence sur l’offre Free à 0 € (80 crédits par jour, un projet).",
+        "links": [
+          {
+            "label": "UX Pilot",
+            "url": "https://uxpilot.ai/"
+          }
+        ]
+      },
+      {
+        "title": "Génère un wireframe ou un écran haute fidélité, ou lance une revue de design ou une...",
+        "description": "Génère un wireframe ou un écran haute fidélité, ou lance une revue de design ou une heatmap prédictive."
+      },
+      {
+        "title": "Passe à Pro à 20 €/mois, ou à Teams à 28 € par utilisateur / mois, si tu as besoin de...",
+        "description": "Passe à Pro à 20 €/mois, ou à Teams à 28 € par utilisateur / mois, si tu as besoin de plus de crédits et de projets illimités. Seuls les prix officiels structurés sont listés ici."
+      }
+    ],
+    "pricingNote_fr": "Prix officiels structurés uniquement, issus du JSON-LD Product/Offer de uxpilot.ai/plans. Offre Free 0 € — 80 crédits par jour, un projet, accès aux outils de design de base. Offre Pro 20 €/mois — 750 crédits mensuels, projets illimités, Website Cloner, recharges de crédits. Offre Teams 28 € par utilisateur / mois — tarif par utilisateur, crédits partagés, fonctions de collaboration. Enterprise est sur mesure. D’autres montants qui apparaissent dans du contenu de comparaison sur la même page n’ont pas été utilisés. Un prix de liste annuel distinct n’était pas présent dans les offres structurées officielles et n’est pas listé."
+  },
   "uxpin": {
     "summary_fr": "Une plateforme de design qui utilise l'IA pour rationaliser le prototypage et la collaboration, et permet aux designers de créer des prototypes interactifs avec de vrais composants de code.",
     "description_fr": "Une plateforme de design qui utilise l'IA pour rationaliser le prototypage et la collaboration, et permet aux designers de créer des prototypes interactifs avec de vrais composants de code. Un outil de design comme aucun autre. Des prototypes qui semblent réels, avec la puissance des composants de code, de la logique, des états et des design systems. Inscris-toi gratuitement ! Prototypage par IA: générez des prototypes interactifs à partir de spécifications de design. Collaboration en temps réel: travaillez ensemble, en direct, avec ton équipe. Contrôles d'accessibilité: obtenez des suggestions d'accessibilité par IA. Design vers code: convertissez les designs en composants prêts pour le code.",
@@ -46093,6 +46310,37 @@
       "agents IA",
       "API gestion"
     ]
+  },
+  "wren-ai": {
+    "summary_fr": "Plateforme de BI conversationnelle et de text-to-SQL, avec un cloud payant (utilisateurs illimités, facturation par crédits) et une CLI open source gratuite pour les développeurs.",
+    "description_fr": "Plateforme de BI conversationnelle et de text-to-SQL, avec un cloud payant (utilisateurs illimités, facturation par crédits) et une CLI open source gratuite pour les développeurs.",
+    "features_fr": [
+      "BI conversationnelle et text-to-SQL, avec des modes de question agentique et classique, des tableaux de bord et un serveur MCP",
+      "Les offres cloud incluent des utilisateurs, tableaux de bord, tableurs et projets illimités, facturés en crédits",
+      "L’essai cloud de 7 jours exige une carte ; l’option open source gratuite est une CLI sans interface",
+      "Labellé Premium : aucune offre cloud 0 € durable n’était indiquée. L’auto-hébergement Enterprise Plus est sur mesure"
+    ],
+    "howToUse_fr": [
+      {
+        "title": "Ouvre getwren.ai/pricing et lance l’essai Essential Cloud de 7 jours...",
+        "description": "Ouvre getwren.ai/pricing et lance l’essai Essential Cloud de 7 jours (une carte est exigée) à 162 €/mois facturés à l’année, ou 234 € mois par mois.",
+        "links": [
+          {
+            "label": "Wren AI",
+            "url": "https://www.getwren.ai/"
+          }
+        ]
+      },
+      {
+        "title": "Pose tes questions en langage naturel sur tes données, ou connecte un agent IA via MCP...",
+        "description": "Pose tes questions en langage naturel sur tes données, ou connecte un agent IA via MCP, sur le même pool de crédits."
+      },
+      {
+        "title": "Parle aux ventes pour l’auto-hébergement Enterprise Plus, ou utilise la CLI open source...",
+        "description": "Parle aux ventes pour l’auto-hébergement Enterprise Plus, ou utilise la CLI open source gratuite si tu as seulement besoin du moteur de contexte pour développeurs (pas d’interface). Labellé Premium."
+      }
+    ],
+    "pricingNote_fr": "Labellé Premium : l’essai cloud exige une carte, et l’option open source gratuite est une CLI sans interface ; aucune offre cloud 0 € durable n’était indiquée. Essential Cloud 162 €/mois facturés à l’année, ou 234 € mois par mois — 13 200 crédits annuels inclus (environ 3 000 questions par mois sur gpt-5.6-luna) ; essai de 7 jours (une carte est exigée ; « activer sans carte » passe par les ventes) ; les crédits non utilisés se reportent jusqu’à 2× ; des crédits supplémentaires sont proposés à un tarif officiel à l’unité qui reste dans les notes officielles (il arrondirait à 0 €) ; +20 crédits mensuels gratuits pour tester de nouvelles fonctions (expirent en fin de mois, pas de report). Enterprise Cloud 506 €/mois facturés à l’année, ou 723 € mois par mois — 24 000 crédits annuels inclus (environ 5 500 questions par mois sur gpt-5.6-luna), mêmes règles d’essai et d’overage, plus des contrôles ligne / colonne, des intégrations illimitées, un RBAC avancé et des journaux d’audit, LDAP/AD et OIDC personnalisés, support prioritaire. Enterprise Plus (auto-hébergé, facturé à la session, contrat annuel) est sur contact commercial."
   },
   "wren-by-seldon": {
     "summary_fr": "Des agents QA comportementaux qui utilisent ton produit web comme tes clients, à partir de tests décrits en langage naturel, et renvoient un replay et les étapes de reproduction en cas de bug.",
