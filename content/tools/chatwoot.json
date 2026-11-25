@@ -1,0 +1,88 @@
+{
+  "id": "chatwoot",
+  "name": "Chatwoot",
+  "url": "https://www.chatwoot.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source, AI-powered customer-support inbox with live chat and a managed cloud, plus Captain AI credits on paid plans.",
+  "description": "Open-source, AI-powered customer-support inbox with live chat and a managed cloud, plus Captain AI credits on paid plans.",
+  "categories": [
+    "support"
+  ],
+  "tags": [
+    "open-source",
+    "customer-support",
+    "live-chat",
+    "inbox",
+    "captain-ai",
+    "self-host"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.chatwoot.com/pricing",
+    "details": "Cloud: Hacker 0 €/agent/month — up to 2 agents, 500 conversations/month, live chat only, Captain AI not included, 30-day data retention. Startups 17 €/agent/month — unlimited conversations, all channels (voice not included), Captain AI 300 credits, help center, 1-year data retention. Business 35 €/agent/month — unlimited conversations, all channels including voice, Captain AI 500 credits, help center, teams, automation rules, 2-year data retention. Enterprise 90 €/agent/month — everything in Business plus Captain AI 800 credits, SSO/SAML, audit logs, 3-year data retention. Additional Captain AI credits are billed at 18 € per 1,000. Self-hosted plans are also listed on the same official pricing page.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/chatwoot.png",
+  "image": "/screenshots/chatwoot.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Open-source, AI-powered customer-support inbox, self-hosted or on Chatwoot Cloud",
+    "Live chat and omnichannel inboxes; help center, teams, automation and voice on higher plans",
+    "Captain AI assistant with included credits on paid cloud plans, plus top-up packs",
+    "Hacker is free for up to 2 agents (live chat only); self-hosted plans are on the same official pricing page."
+  ],
+  "howToUse": [
+    {
+      "title": "Open chatwoot.com and start the Hacker cloud plan at 0 €...",
+      "description": "Open chatwoot.com and start the Hacker cloud plan at 0 € (up to 2 agents, live chat only), or self-host.",
+      "links": [
+        {
+          "label": "Chatwoot",
+          "url": "https://www.chatwoot.com/"
+        }
+      ]
+    },
+    {
+      "title": "Set up a live-chat inbox and, on paid plans, add other channels or a help center.",
+      "description": "Set up a live-chat inbox and, on paid plans, add other channels or a help center."
+    },
+    {
+      "title": "Upgrade to Startups, Business or Enterprise when you need Captain AI credits, more...",
+      "description": "Upgrade to Startups, Business or Enterprise when you need Captain AI credits, more channels or longer data retention."
+    }
+  ],
+  "sources": [
+    "https://www.chatwoot.com/pricing"
+  ],
+  "summary_fr": "Boîte de réception support client open source et IA, avec live chat et cloud managé, plus des crédits Captain AI sur les offres payantes.",
+  "description_fr": "Boîte de réception support client open source et IA, avec live chat et cloud managé, plus des crédits Captain AI sur les offres payantes.",
+  "features_fr": [
+    "Boîte de réception support client open source et IA, auto-hébergée ou sur Chatwoot Cloud",
+    "Live chat et boîtes omnichannel ; centre d’aide, équipes, automatisation et voix sur les offres supérieures",
+    "Assistant Captain AI avec des crédits inclus sur les offres cloud payantes, plus des packs de recharge",
+    "Hacker est gratuit jusqu’à 2 agents (live chat seulement) ; des offres auto-hébergées figurent sur la même page tarifs officielle."
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre chatwoot.com et commence sur l’offre Cloud Hacker à 0 €...",
+      "description": "Ouvre chatwoot.com et commence sur l’offre Cloud Hacker à 0 € (jusqu’à 2 agents, live chat seulement), ou auto-héberge.",
+      "links": [
+        {
+          "label": "Chatwoot",
+          "url": "https://www.chatwoot.com/"
+        }
+      ]
+    },
+    {
+      "title": "Configure une boîte de réception live chat et, sur les offres payantes, ajoute d’autres...",
+      "description": "Configure une boîte de réception live chat et, sur les offres payantes, ajoute d’autres canaux ou un centre d’aide."
+    },
+    {
+      "title": "Passe à Startups, Business ou Enterprise quand tu as besoin de crédits Captain AI, de...",
+      "description": "Passe à Startups, Business ou Enterprise quand tu as besoin de crédits Captain AI, de plus de canaux ou d’une conservation plus longue."
+    }
+  ]
+}
