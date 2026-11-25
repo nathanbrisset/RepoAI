@@ -20,7 +20,7 @@
   "pricing": {
     "verified": true,
     "sourceUrl": "https://twenty.com/pricing",
-    "details": "Self-hosting is offered as a first-class free option. Cloud has a 30-day trial. Pro 8 €/user/month — a custom agentic CRM for one team, limited personal AI usage (officially about 100 AI tasks/week per member, renewed every Monday). Organization 35 €/user/month — everything in Pro plus custom roles, SAML/OIDC SSO and audit logs, priority support, 5× personal AI usage (about 500 AI tasks/week per member). A Yearly −25% toggle is on the page; yearly totals were not itemized and are left unlisted. Credit packs are officially 1 € per credit, from 18 €/month, shared at workspace level when personal usage runs out. Enterprise from 45,241 €/year (talk to sales).",
+    "details": "Self-hosting is offered as a first-class free option. Cloud has a 30-day trial. Pro 8 €/user/month — a custom agentic CRM for one team, limited personal AI usage (officially about 100 AI tasks/week per member, renewed every Monday). Organization 35 €/user/month — everything in Pro plus custom roles, SAML/OIDC SSO and audit logs, priority support, 5× personal AI usage (about 500 AI tasks/week per member). A Yearly −25% toggle is on the page; Credit packs are officially 1 € per credit, from 18 €/month, shared at workspace level when personal usage runs out. Enterprise from 45,241 €/year (talk to sales).",
     "model": "freemium",
     "label": "Freemium"
   },
@@ -32,7 +32,7 @@
     "Open-source CRM with agentic workflows: emails and meetings log themselves, calls can be recorded",
     "Email and calendar sync (Google and Microsoft), lead enrichment, a custom data model and automations",
     "Pro or Organization per user, plus official credit packs when personal AI usage runs out",
-    "Yearly totals besides a −25% toggle were not itemized and are not listed. Self-hosting is free"
+    "Annual plans show a −25% discount on the official site. Self-hosting is free."
   ],
   "howToUse": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "title": "Continue on Pro at 8 €/user/month, or Organization at 35 €/user/month if you need more AI...",
-      "description": "Continue on Pro at 8 €/user/month, or Organization at 35 €/user/month if you need more AI allowance, SSO and roles. Yearly totals are not listed here, because they were not itemized beyond a −25% toggle."
+      "description": "Continue on Pro at 8 €/user/month, or Organization at 35 €/user/month if you need more AI allowance, SSO and roles."
     }
   ],
   "sources": [
@@ -63,7 +63,7 @@
     "CRM open source avec des workflows agentiques : e-mails et réunions se journalisent seuls, les appels peuvent être enregistrés",
     "Sync e-mail et calendrier (Google et Microsoft), enrichissement de prospects, modèle de données personnalisé et automatisations",
     "Pro ou Organization par utilisateur, plus des packs de crédits officiels quand l’usage IA personnel est épuisé",
-    "Les totaux annuels, au-delà d’un basculeur −25 %, n’ont pas été itemisés et ne sont pas listés. L’auto-hébergement est gratuit"
+    "Les forfaits annuels affichent −25 % sur le site officiel. L’auto-hébergement est gratuit."
   ],
   "howToUse_fr": [
     {
@@ -82,7 +82,7 @@
     },
     {
       "title": "Continue sur Pro à 8 €/utilisateur/mois, ou Organization à 35 €/utilisateur/mois si tu as...",
-      "description": "Continue sur Pro à 8 €/utilisateur/mois, ou Organization à 35 €/utilisateur/mois si tu as besoin de plus d’usage IA, du SSO et des rôles. Les totaux annuels ne sont pas listés ici, car ils n’étaient pas itemisés au-delà d’un basculeur −25 %."
+      "description": "Continue sur Pro à 8 €/utilisateur/mois, ou Organization à 35 €/utilisateur/mois si tu as besoin de plus d’usage IA, du SSO et des rôles."
     }
   ]
 }
