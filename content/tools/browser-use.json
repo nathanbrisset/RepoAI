@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Cloud browsers and web agents for automating tasks on websites, with an open-source library.",
-  "description": "Browser Use offers infrastructure for agents that operate websites. Its hosted agents complete tasks in a browser, and its cloud browsers can be driven by a developer's own agent. The project started as an open-source library. Pricing is pay-as-you-go with no subscription: cloud browsers cost $0.02 per hour, residential proxies $5 per GB, and new accounts get $1 of free credit. The company lists SOC 2 Type II and HIPAA compliance.",
+  "description": "Browser Use offers infrastructure for agents that operate websites. Its hosted agents complete tasks in a browser, and its cloud browsers can be driven by a developer's own agent. The project started as an open-source library. Pricing is pay-as-you-go with no subscription: cloud browsers cost 0.018 € per hour, residential proxies 5 € per GB, and new accounts get 0.90 € of free credit. The company lists SOC 2 Type II and HIPAA compliance.",
   "categories": [
     "ai-agents",
     "automation"
@@ -35,7 +35,7 @@
   "howToUse": [
     {
       "title": "Open Browser Use",
-      "description": "Go to Browser Use and start for free. New accounts get $1 of free credit, and pricing is pay-as-you-go with no subscription.",
+      "description": "Go to Browser Use and start for free. New accounts get 0.90 € of free credit, and pricing is pay-as-you-go with no subscription.",
       "links": [
         {
           "label": "Browser Use",
@@ -49,7 +49,7 @@
     },
     {
       "title": "Connect your own agent",
-      "description": "Connect a developer agent to the cloud browsers, including Playwright or Puppeteer over CDP. This infrastructure bills cloud browsers at $0.02 per hour and residential proxies at $5 per GB."
+      "description": "Connect a developer agent to the cloud browsers, including Playwright or Puppeteer over CDP. This infrastructure bills cloud browsers at 0.018 € per hour and residential proxies at 5 € per GB."
     }
   ],
   "features": [

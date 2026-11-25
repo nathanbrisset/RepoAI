@@ -39,6 +39,10 @@ export const VISITOR_COPY_RULES = [
   { id: "pricing-left-blank", pattern: /pricing\s+is\s+left\s+blank/i, scope: "internal" },
   { id: "not-verified-pricing", pattern: /was\s+not\s+verified\s+(?:on|during)\s+this\s+check/i, scope: "internal" },
   { id: "notes-officielles", pattern: /conservé\s+uniquement\s+dans\s+les\s+notes\s+officielles|recorded\s+in\s+the\s+official\s+\(non-displayed\)\s+notes/i, scope: "internal" },
+  { id: "verified-on", pattern: /\bverified\s+on\b/i, scope: "internal" },
+  { id: "verified-via", pattern: /\bverified\s+via\b/i, scope: "internal" },
+  { id: "verifie-sur", pattern: /\bvérifié\s+sur\b/i, scope: "internal" },
+  { id: "verifie-via", pattern: /\bvérifié\s+via\b/i, scope: "internal" },
 ]
 
 const PRICING_NOTE_FIELDS = new Set([
@@ -152,7 +156,9 @@ export function scanLegalPageFlag() {
 
 function main() {
   const asJson = process.argv.includes("--json")
-  const hits = scanVisitorCopy()
+  const rootIdx = process.argv.indexOf("--root")
+  const rootDir = rootIdx >= 0 ? path.resolve(process.argv[rootIdx + 1]) : root
+  const hits = scanVisitorCopy({ rootDir })
   const legalFlag = scanLegalPageFlag()
   const pass = hits.length === 0
   if (asJson) {
