@@ -18,7 +18,7 @@
   "pricing": {
     "verified": true,
     "sourceUrl": "https://bigml.com/pricing",
-    "details": "A 3-day free trial of full access (up to 60 tasks, no credit card) is offered alongside a lasting Free plan. Free 0 € — unlimited tasks, max dataset size 16 MB per task, 2 parallel tasks per user, 1 user included (additional users via an organization account). Paid subscriptions officially start at 27 €/month (monthly; 15% off quarterly; 30% off yearly). The detailed grid by dataset size was not isolated and is not listed. A 50% off mention for students, public researchers or NGOs is stated without a public resulting price and is not itemized. Private deployments: Lite 9,048 €/year or 905 €/month; Bronze Enterprise 40,717 €/year + 9,048 € setup. Extra support and training or certification prices appear on the same page and remain in the official notes.",
+    "details": "A 3-day free trial of full access (up to 60 tasks, no credit card) is offered alongside a lasting Free plan. Free 0 € — unlimited tasks, max dataset size 16 MB per task, 2 parallel tasks per user, 1 user included (additional users via an organization account). Paid subscriptions officially start at 27 €/month (monthly; 15% off quarterly; 30% off yearly). The detailed grid by dataset size is not published on the pricing page. A 50% off mention for students, public researchers or NGOs is shown without a resulting public price. Private deployments: Lite 9,048 €/year or 905 €/month; Bronze Enterprise 40,717 €/year + 9,048 € setup. Extra support, training and certification prices are listed on the same page; ask BigML for current amounts.",
     "model": "freemium",
     "label": "Freemium"
   },
@@ -30,7 +30,7 @@
     "Machine-learning and AutoML platform for building and deploying models, with a lasting Free plan",
     "Organizations for team collaboration on paid plans, and private deployments for on-prem or your own cloud",
     "Paid subscriptions officially start at 27 €/month, with official quarterly and yearly discounts",
-    "The detailed paid grid by dataset size was not isolated and is not listed"
+    "The detailed paid grid by dataset size is not published on the pricing page"
   ],
   "howToUse": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "title": "Pick a paid subscription that officially starts at 27 €/month if you need larger datasets...",
-      "description": "Pick a paid subscription that officially starts at 27 €/month if you need larger datasets and more parallel tasks. The detailed size grid is not listed here."
+      "description": "Pick a paid subscription that officially starts at 27 €/month if you need larger datasets and more parallel tasks. The detailed size grid is not on the pricing page."
     }
   ],
   "hqCountry": "US",
@@ -63,7 +63,7 @@
     "Plateforme de machine learning et d’AutoML pour construire et déployer des modèles, avec une offre Gratuite durable",
     "Des organizations pour collaborer en équipe sur les offres payantes, et des déploiements privés on-prem ou sur ton propre cloud",
     "Les abonnements payants démarrent officiellement à 27 €/mois, avec des remises officielles au trimestre et à l’année",
-    "La grille payante détaillée par taille de dataset n’a pas été isolée et n’est pas listée"
+    "La grille payante détaillée par taille de dataset n’est pas publiée sur la page tarifs"
   ],
   "howToUse_fr": [
     {
@@ -82,7 +82,7 @@
     },
     {
       "title": "Choisis un abonnement payant qui démarre officiellement à 27 €/mois si tu as besoin de...",
-      "description": "Choisis un abonnement payant qui démarre officiellement à 27 €/mois si tu as besoin de datasets plus grands et de plus de tâches en parallèle. La grille détaillée par taille n’est pas listée ici."
+      "description": "Choisis un abonnement payant qui démarre officiellement à 27 €/mois si tu as besoin de datasets plus grands et de plus de tâches en parallèle. La grille détaillée par taille n’est pas sur la page tarifs."
     }
   ]
 }
