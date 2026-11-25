@@ -1,9 +1,9 @@
 {
   "id": "smart-copy",
   "name": "Smart Copy (Unbounce)",
-  "url": "https://unbounce.com/smart-copy/",
+  "url": "",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "AI marketing copywriting by Unbounce.",
   "description": "Smart Copy generates headlines, landing page copy, ads and emails from a few inputs. It's built into Unbounce's page builder to quickly create and test variations.",
   "summary_fr": "Rédaction IA de textes marketing par Unbounce.",
@@ -19,16 +19,17 @@
   ],
   "pricing": {
     "verified": false,
-    "sourceUrl": "https://unbounce.com/smart-copy/",
     "model": "freemium",
     "label": "Freemium",
     "note": "Freemium; paid tiers and limits are listed on the official site.",
-    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
+    "note_fr": "Freemium: consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/smart-copy.png",
   "image": "/screenshots/smart-copy.webp",
   "dateAdded": "2026-10-30",
-  "lastVerified": "2026-10-30",
+  "lastVerified": "2026-11-16",
+  "statusNote": "Smart Copy, Unbounce's AI writing tool, has been discontinued.",
+  "statusNote_fr": "Smart Copy, l'outil de rédaction IA d'Unbounce, n'est plus proposé.",
   "features": [
     "Landing page copy",
     "Ads and emails",
@@ -44,13 +45,7 @@
   "howToUse": [
     {
       "title": "Open Smart Copy (Unbounce)",
-      "description": "Go to unbounce.com, then sign up or start a free trial if one is offered.",
-      "links": [
-        {
-          "label": "Smart Copy (Unbounce)",
-          "url": "https://unbounce.com/smart-copy/"
-        }
-      ]
+      "description": "This product is no longer available; see the notice above."
     },
     {
       "title": "Set up your workspace",
@@ -76,13 +71,7 @@
   "howToUse_fr": [
     {
       "title": "Ouvre Smart Copy (Unbounce)",
-      "description": "Rends-toi sur unbounce.com, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
-      "links": [
-        {
-          "label": "Smart Copy (Unbounce)",
-          "url": "https://unbounce.com/smart-copy/"
-        }
-      ]
+      "description": "Ce produit n'est plus disponible ; vois l'avis ci-dessus."
     },
     {
       "title": "Configure ton espace",

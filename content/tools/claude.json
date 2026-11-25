@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Anthropic's AI assistant for writing, analysis and coding.",
-  "description": "Claude is Anthropic's AI assistant (replacing the outdated 'Claude 3' entry) for writing, analysis, research and coding, with Artifacts, projects, connectors and Claude in Chrome. It is known for careful reasoning and long documents. A free plan is available on web, desktop and mobile; Pro costs $17/month billed annually ($20 monthly) and includes Claude Code, while Max starts at $100/month.",
+  "description": "Claude is Anthropic's AI assistant (replacing the outdated 'Claude 3' entry) for writing, analysis, research and coding, with Artifacts, projects, connectors and Claude in Chrome. It is known for careful reasoning and long documents. A free plan is available on web, desktop and mobile; Pro costs 15 €/month billed annually (18 € monthly) and includes Claude Code, while Max starts at 90 €/month.",
   "categories": [
     "llm-chatbots"
   ],
@@ -19,7 +19,7 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "A free plan is available on web, desktop and mobile; Pro costs $17/month billed annually ($20 monthly) and includes Claude Code, while Max starts at $100/month.",
+    "note": "A free plan is available on web, desktop and mobile. Pro costs 15 €/month billed annually (18 € if billed monthly). Max costs 90 €/month (5x) and Ultra 181 €/month (20x). Team seats start at 18 €/seat/month billed annually (23 € monthly).",
     "sourceUrl": "https://claude.com/pricing"
   },
   "logo": "/logos/claude.png",
@@ -60,9 +60,9 @@
     "https://claude.com/pricing"
   ],
   "features_fr": [
-    "Artifacts et projets : génère et itère sur du code, des documents et des visuels dans des panneaux dédiés.",
-    "Documents longs : téléverse ou colle de gros fichiers pour les résumer, les analyser ou poser des questions de recherche.",
-    "Connecteurs et Claude in Chrome : récupère le contexte depuis des apps comme Google Drive et Slack, ou discute depuis l'extension navigateur.",
-    "Raisonnement soigneux : solide pour l'écriture, l'analyse et le code."
+    "Artifacts et projets: génère et itère sur du code, des documents et des visuels dans des panneaux dédiés.",
+    "Documents longs: téléverse ou colle de gros fichiers pour les résumer, les analyser ou poser des questions de recherche.",
+    "Connecteurs et Claude in Chrome: récupère le contexte depuis des apps comme Google Drive et Slack, ou discute depuis l'extension navigateur.",
+    "Raisonnement soigneux: solide pour l'écriture, l'analyse et le code."
   ]
 }

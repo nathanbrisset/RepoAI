@@ -19,8 +19,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/wordtune.png",
   "image": "/screenshots/wordtune.webp",
@@ -57,9 +56,9 @@
     }
   ],
   "features_fr": [
-    "Suggestions de réécriture : propose plusieurs réécritures basées sur le ton (occasionnelles, formelles).",
-    "Summarizer : condense instantanément de longs documents ou des pages Web.",
-    "Outil d'écriture IA : aide à générer des introductions, des conclusions et des brouillons complets.",
-    "Grammaire et clarté : améliore la structure et la lisibilité des phrases."
+    "Suggestions de réécriture: propose plusieurs réécritures basées sur le ton (occasionnelles, formelles).",
+    "Summarizer: condense instantanément de longs documents ou des pages Web.",
+    "Outil d'écriture IA: aide à générer des introductions, des conclusions et des brouillons complets.",
+    "Grammaire et clarté: améliore la structure et la lisibilité des phrases."
   ]
 }

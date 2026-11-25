@@ -17,8 +17,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/hemingway-app.png",
   "image": "/screenshots/hemingway-app.webp",
@@ -55,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Analyse de lisibilité : met en évidence les phrases complexes et suggère des simplifications.",
-    "Structure des phrases : identifie les phrases longues ou difficiles à lire.",
-    "Détection vocale passive : signale les constructions passives à réviser.",
-    "Mise en surbrillance des adverbes : signale l'utilisation excessive d'adverbes pour resserrer la prose."
+    "Analyse de lisibilité: met en évidence les phrases complexes et suggère des simplifications.",
+    "Structure des phrases: identifie les phrases longues ou difficiles à lire.",
+    "Détection vocale passive: signale les constructions passives à réviser.",
+    "Mise en surbrillance des adverbes: signale l'utilisation excessive d'adverbes pour resserrer la prose."
   ]
 }

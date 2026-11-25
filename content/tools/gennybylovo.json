@@ -1,11 +1,11 @@
 {
   "id": "gennybylovo",
   "name": "Genny by LOVO",
-  "url": "https://www.lovo.ai/genny",
+  "url": "",
   "affiliateUrl": "",
   "status": "sunset",
   "summary": "Genny by LOVO offers AI voiceovers and text-to-video creation for marketing, e-learning, and creative projects, with dozens of voices and languages.",
-  "description": "Genny by LOVO offers AI voiceovers and text-to-video creation for marketing, e-learning, and creative projects, with dozens of voices and languages.\n\nAI voice generator: Access over 500 realistic voices in more than 100 languages and accents for any project. Text-to-video: Transform scripts into video presentations with synchronized visuals and narration. Voice cloning: Replicate your own or an actor’s voice for highly customized voiceovers. Audio editing suite: Edit, mix, and enhance voice tracks to achieve perfect results in every video.",
+  "description": "Genny by LOVO offers AI voiceovers and text-to-video creation for marketing, e-learning, and creative projects, with dozens of voices and languages. AI voice generator: Access over 500 realistic voices in more than 100 languages and accents for any project. Text-to-video: Transform scripts into video presentations with synchronized visuals and narration. Voice cloning: Replicate your own or an actor’s voice for highly customized voiceovers. Audio editing suite: Edit, mix, and enhance voice tracks to achieve perfect results in every video.",
   "categories": [
     "video",
     "audio",
@@ -19,14 +19,13 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "",
   "image": "/tool-screenshots/gennybylovo.png",
   "dateAdded": "2025-06-13",
   "lastVerified": "2026-10-21",
-  "statusNote": "Headless Chrome: lovo.ai/genny shows 'Deployment Paused' (402); Lovo Inc. Chapter 7 bankruptcy May 27 2026 (web search); also duplicates Lovo",
+  "statusNote": "Genny by LOVO is no longer available; LOVO shut down in 2026.",
   "features": [
     "AI voice generator: Access over 500 realistic voices in more than 100 languages and accents for any project.",
     "Text-to-video: Transform scripts into video presentations with synchronized visuals and narration.",
@@ -36,13 +35,8 @@
   "howToUse": [
     {
       "title": "Create a Genny Account",
-      "description": "Go to the Genny by LOVO site and sign up for a free or paid account. Log in to access your dashboard.",
-      "links": [
-        {
-          "label": "Genny by LOVO",
-          "url": "https://www.lovo.ai/genny"
-        }
-      ]
+      "description": "This product is no longer available; see the status note above for the successor.",
+      "links": []
     },
     {
       "title": "Start a New Project",
@@ -68,5 +62,7 @@
       "title": "Preview and Export",
       "description": "Preview your voiceover or video, make final adjustments, and export the finished file in your desired format."
     }
-  ]
+  ],
+  "statusNote_fr": "Genny by LOVO n'est plus disponible ; LOVO a cessé son activité en 2026.",
+  "successorId": "elevenlabs"
 }

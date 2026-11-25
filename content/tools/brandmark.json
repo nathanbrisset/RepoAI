@@ -17,14 +17,12 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/brandmark.png",
   "image": "/screenshots/brandmark.webp",
   "dateAdded": null,
   "lastVerified": null,
-  "dateAddedNote": "The previous Added date was 2017-08-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "AI Logo Generation: Create logos from keywords and styles.",
     "Brand Kit: Download color palettes, fonts, and templates.",
@@ -56,9 +54,9 @@
     }
   ],
   "features_fr": [
-    "Génération de logo AI : créez des logos à partir de mots-clés et de styles.",
-    "Kit de marque : téléchargez des palettes de couleurs, des polices et des modèles.",
-    "Exportation haute résolution : obtenez des fichiers prêts à imprimer.",
-    "Aperçu instantané : affichez les logos sur les cartes de visite et les produits."
+    "Génération de logo AI: créez des logos à partir de mots-clés et de styles.",
+    "Kit de marque: téléchargez des palettes de couleurs, des polices et des modèles.",
+    "Exportation haute résolution: obtenez des fichiers prêts à imprimer.",
+    "Aperçu instantané: affichez les logos sur les cartes de visite et les produits."
   ]
 }

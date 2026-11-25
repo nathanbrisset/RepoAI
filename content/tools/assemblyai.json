@@ -19,7 +19,7 @@
     "model": "usage-based",
     "label": "Usage-based",
     "verified": true,
-    "note": "$0.15/hr",
+    "note": "0.14 €/hr",
     "sourceUrl": "https://www.assemblyai.com/pricing"
   },
   "logo": "/logos/assemblyai.png",
@@ -47,7 +47,7 @@
     },
     {
       "title": "Add speech understanding",
-      "description": "Add speech understanding when you need summaries or guardrails, or call the LLM gateway. Universal models are billed per hour of audio, from $0.15, and the model with stronger speaker diarization is $0.21 per hour."
+      "description": "Add speech understanding when you need summaries or guardrails, or call the LLM gateway. Universal models are billed per hour of audio, from 0.14 €, and the model with stronger speaker diarization is 0.19 € per hour."
     }
   ],
   "features": [
@@ -60,7 +60,7 @@
     "Transcription de fichiers et en temps réel",
     "Identification des locuteurs et horodatage",
     "Détection automatique de la langue",
-    "Analyse du contenu : résumés, sujets, modèles de langage"
+    "Analyse du contenu: résumés, sujets, modèles de langage"
   ],
   "summary_fr": "API de transcription et de compréhension de la parole pour développeurs.",
   "description_fr": "AssemblyAI propose des API pour transcrire l'audio enregistré ou en temps réel, avec identification des locuteurs, détection de langue et horodatage. Des fonctions d'analyse permettent ensuite de résumer, extraire des sujets ou appliquer un modèle de langage au contenu transcrit."

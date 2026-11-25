@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Stability AI's audio toolkit for generating music and sound with commercially safe models.",
-  "description": "Stable Audio is Stability AI's tool for creating music and sound effects with models trained for commercial safety, aimed at iterative creative work by professionals. The Free plan gives 50 credits per month for personal, non-commercial use. Solo costs $12 per month with a commercial licence, Session $30, Producer $90 and Studio $199 per month. An enterprise option exists for larger organisations.",
+  "description": "Stable Audio is Stability AI's tool for creating music and sound effects with models trained for commercial safety, aimed at iterative creative work by professionals. The Free plan gives 50 credits per month for personal, non-commercial use. Solo costs 11 € per month with a commercial licence, Session 27 €, Producer 81 € and Studio 180 € per month. An enterprise option exists for larger organisations.",
   "categories": [
     "music"
   ],
@@ -19,7 +19,7 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "$12/mo (Solo)",
+    "note": "Free 0 €/month (50 credits). Solo 11 €/month, Session 27 €/month, Producer 81 €/month and Studio 180 €/month.",
     "sourceUrl": "https://stableaudio.com/pricing"
   },
   "logo": "/logos/stable-audio.png",
@@ -47,19 +47,19 @@
     },
     {
       "title": "Use your credits",
-      "description": "The Free plan gives 50 credits each month for personal, non-commercial use. Solo costs $12 a month and adds a commercial licence. Session costs $30, Producer $90 and Studio $199 per month. Larger organisations can take the enterprise option, which exists beside those tiers."
+      "description": "The Free plan gives 50 credits each month for personal, non-commercial use. Solo costs 11 € a month and adds a commercial licence. Session costs 27 €, Producer 81 € and Studio 180 € per month. Larger organisations can take the enterprise option, which exists beside those tiers."
     }
   ],
   "features": [
     "Stability AI's audio toolkit for generating music and sound with commercially safe models.",
     "Stable Audio is Stability AI's tool for creating music and sound effects with models trained for commercial safety, aimed at iterative creative work by professionals.",
     "The Free plan gives 50 credits per month for personal, non-commercial use.",
-    "Solo costs $12 per month with a commercial licence, Session $30, Producer $90 and Studio $199 per month."
+    "Solo costs 11 € per month with a commercial licence, Session 27 €, Producer 81 € and Studio 180 € per month."
   ],
   "features_fr": [
     "La boîte à outils audio de Stability AI pour générer de la musique et du son avec des modèles commercialement sûrs.",
     "Stable Audio est l'outil de Stability AI permettant de créer de la musique et des effets sonores avec des modèles formés à la sécurité commerciale, destinés au travail créatif itératif des professionnels.",
     "Le forfait Free offre 50 crédits par mois pour un usage personnel et non commercial.",
-    "Solo coûte 12 $ par mois avec une licence commerciale, Session 30 $, Producteur 90 $ et Studio 199 $ par mois."
+    "Solo coûte 11 € par mois avec une licence commerciale, Session 27 €, Producteur 81 € et Studio 180 € par mois."
   ]
 }

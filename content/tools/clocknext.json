@@ -1,0 +1,87 @@
+{
+  "id": "clocknext",
+  "name": "Clocknext",
+  "url": "https://www.clocknext.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Usage-based billing for AI agents: credits and wallets, metering, outcome pricing and live price changes, with no per-seat maths and no feature-gating between plans.",
+  "description": "Usage-based billing for AI agents: credits and wallets, metering, outcome pricing and live price changes, with no per-seat maths and no feature-gating between plans.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "billing",
+    "metering",
+    "agents",
+    "usage",
+    "invoicing"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.clocknext.com/pricing",
+    "details": "Free 0 € forever — up to 90,481 € billed revenue/year, unlimited products and plans. Pro 271 €/month billed monthly — up to 226,203 € billed revenue/year, 1:1 Slack support. Business 452 €/month — up to 452,407 €, 1:1 Slack support. Premium 814 €/month — up to 904,814 €, 1:1 Slack support and priority onboarding. Custom with no revenue cap. Every plan offers the complete product experience (no feature-gating). Paid plans start with a free trial. Annual billing is offered as “Save 20% annually”.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/clocknext.png",
+  "image": "/screenshots/clocknext.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Usage-based billing for AI agents: credits and wallets, metering, outcome pricing and live price changes",
+    "No per-seat maths and no feature-gating between plans (official)",
+    "Prepaid and postpaid invoicing",
+    "Free forever up to a billed-revenue cap; annual billing with savings"
+  ],
+  "howToUse": [
+    {
+      "title": "Open clocknext.com/pricing and start Free (up to the official billed-revenue cap).",
+      "description": "Open clocknext.com/pricing and start Free (up to the official billed-revenue cap).",
+      "links": [
+        {
+          "label": "Clocknext",
+          "url": "https://www.clocknext.com/"
+        }
+      ]
+    },
+    {
+      "title": "Meter your agent’s usage, set credits and wallets, and issue invoices.",
+      "description": "Meter your agent’s usage, set credits and wallets, and issue invoices."
+    },
+    {
+      "title": "Start a paid-plan trial if your billed revenue needs a higher cap.",
+      "description": "Start a paid-plan trial if your billed revenue needs a higher cap."
+    }
+  ],
+  "sources": [
+    "https://www.clocknext.com/pricing"
+  ],
+  "summary_fr": "Facturation à l’usage pour agents IA: crédits et wallets, metering, prix à l’outcome et changements de prix en direct, sans calcul par siège et sans fonctions verrouillées selon l’offre.",
+  "description_fr": "Facturation à l’usage pour agents IA: crédits et wallets, metering, prix à l’outcome et changements de prix en direct, sans calcul par siège et sans fonctions verrouillées selon l’offre.",
+  "features_fr": [
+    "Facturation à l’usage pour agents IA: crédits et wallets, metering, prix à l’outcome et changements de prix en direct",
+    "Pas de calcul par siège et pas de fonctions verrouillées selon l’offre (officiel)",
+    "Facturation prépayée et postpayée",
+    "Gratuit pour toujours jusqu’à un plafond de revenu facturé; facturation annuelle avec économies"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre clocknext.com/pricing et commence l’offre Gratuite...",
+      "description": "Ouvre clocknext.com/pricing et commence l’offre Gratuite (jusqu’au plafond officiel de revenu facturé).",
+      "links": [
+        {
+          "label": "Clocknext",
+          "url": "https://www.clocknext.com/"
+        }
+      ]
+    },
+    {
+      "title": "Mesure l’usage de ton agent, règle crédits et wallets, et émets des factures.",
+      "description": "Mesure l’usage de ton agent, règle crédits et wallets, et émets des factures."
+    },
+    {
+      "title": "Commence un essai d’offre payante si ton revenu facturé a besoin d’un plafond plus élevé.",
+      "description": "Commence un essai d’offre payante si ton revenu facturé a besoin d’un plafond plus élevé."
+    }
+  ]
+}

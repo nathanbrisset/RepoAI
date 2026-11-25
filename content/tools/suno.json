@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Create full songs with vocals from a text prompt.",
-  "description": "Suno generates complete songs with vocals, lyrics and instrumentation from a text prompt, with editing tools to extend and rework tracks. It is one of the most popular AI music generators. The Free plan ($0) gives 50 credits per day on the free model (v6-mini); Pro costs $8/month and Premier $24/month billed yearly, adding the best models and commercial use.",
+  "description": "Suno generates complete songs with vocals, lyrics and instrumentation from a text prompt, with editing tools to extend and rework tracks. It is one of the most popular AI music generators. The Free plan (0 €) gives 50 credits per day on the free model (v6-mini); Pro costs 7 €/month and Premier 22 €/month billed yearly, adding the best models and commercial use.",
   "categories": [
     "music"
   ],
@@ -18,7 +18,7 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "The Free plan ($0) gives 50 credits per day on the free model (v6-mini); Pro costs $8/month and Premier $24/month billed yearly, adding the best models and commercial use.",
+    "note": "The Free plan (0 €) gives 50 credits per day on the free model (v6-mini); Pro costs 7 €/month and Premier 22 €/month billed yearly (9 € and 27 € monthly), adding the best models and commercial use.",
     "sourceUrl": "https://suno.com/pricing"
   },
   "logo": "/logos/suno.png",
@@ -59,9 +59,9 @@
     "https://suno.com/pricing"
   ],
   "features_fr": [
-    "AI Music Generation : crée des chansons basées sur les entrées de l'utilisateur.",
-    "Polyvalence des genres : prend en charge divers genres musicaux.",
-    "Intégration des paroles : génère des paroles pour accompagner les compositions.",
-    "Composition rapide : produit des chansons complètes en quelques secondes."
+    "AI Music Generation: crée des chansons basées sur les entrées de l'utilisateur.",
+    "Polyvalence des genres: prend en charge divers genres musicaux.",
+    "Intégration des paroles: génère des paroles pour accompagner les compositions.",
+    "Composition rapide: produit des chansons complètes en quelques secondes."
   ]
 }

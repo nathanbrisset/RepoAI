@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "No-code builder for AI agents and workflows that connect to company tools and models.",
-  "description": "Gumloop is a builder for AI agents and automations that non-engineers can use. Users combine AI models with integrations to apps such as Slack, Gmail and CRMs, then share the agents across the company while IT controls access. Templates cover sales research, outbound writing and customer success tasks. The pricing page lists Pro from $37 per month with a 14-day free trial, and Enterprise at custom pricing; there is no free plan.",
+  "description": "Gumloop is a builder for AI agents and automations that non-engineers can use. Users combine AI models with integrations to apps such as Slack, Gmail and CRMs, then share the agents across the company while IT controls access. Templates cover sales research, outbound writing and customer success tasks. The pricing page lists Pro from 33 € per month with a 14-day free trial, and Enterprise at custom pricing; there is no free plan.",
   "categories": [
     "automation"
   ],
@@ -19,9 +19,9 @@
     "model": "paid",
     "label": "Premium",
     "verified": true,
-    "note": "$37/mo (Pro)",
+    "note": "33 €/mo (Pro)",
     "sourceUrl": "https://www.gumloop.com/pricing",
-    "note_fr": "37 $/mois (Pro)"
+    "note_fr": "33 €/mois (Pro)"
   },
   "logo": "/logos/gumloop.png",
   "image": "/screenshots/gumloop.webp",
@@ -52,7 +52,7 @@
     },
     {
       "title": "Share the agent, then check pricing",
-      "description": "Share the agent across the company so teammates can run it while IT controls access. On Pricing, Pro starts at $37 per month with a 14-day free trial, and Enterprise is custom pricing."
+      "description": "Share the agent across the company so teammates can run it while IT controls access. On Pricing, Pro starts at 33 € per month with a 14-day free trial, and Enterprise is custom pricing."
     }
   ],
   "features": [

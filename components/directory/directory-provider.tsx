@@ -56,14 +56,13 @@ function writeToolParam(id: string | null) {
 export function DirectoryProvider({
   chips,
   total,
-  today,
   children,
 }: {
   chips: DirectoryChip[]
   total: number
-  today: string
   children: React.ReactNode
 }) {
+  const [today, setToday] = useState("")
   const [byId, setById] = useState<Map<string, DirectoryRecord>>(new Map())
   const [allRecordsLoaded, setAllRecordsLoaded] = useState(false)
   const [recordsReady, setRecordsReady] = useState(false)
@@ -115,6 +114,7 @@ export function DirectoryProvider({
   }, [allRecordsLoaded, mergeRecords])
 
   useEffect(() => {
+    setToday(new Date().toISOString().slice(0, 10))
     setSaved(readList(SCROLL_KEY))
     setCompare(readList(COMPARE_KEY).slice(0, COMPARE_LIMIT))
     const fromUrl = new URLSearchParams(window.location.search).get("tool")

@@ -1,9 +1,9 @@
 {
   "id": "pearai",
   "name": "PearAI",
-  "url": "https://trypear.ai",
+  "url": "",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "Open-source AI code editor bundling the best tools.",
   "description": "PearAI is a VS Code-based editor that integrates open-source AI tools for chat, coding agent, search and project memory. It aims to be an open alternative to proprietary AI editors.",
   "summary_fr": "Éditeur de code IA open source qui réunit les meilleurs outils.",
@@ -19,16 +19,15 @@
   ],
   "pricing": {
     "verified": false,
-    "sourceUrl": "https://trypear.ai",
     "model": "freemium",
     "label": "Freemium",
     "note": "Freemium; paid tiers and limits are listed on the official site.",
-    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
+    "note_fr": "Freemium: consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/pearai.png",
   "image": "/screenshots/pearai.webp",
   "dateAdded": "2026-10-30",
-  "lastVerified": "2026-10-30",
+  "lastVerified": "2026-11-16",
   "features": [
     "Chat and coding agent",
     "Project search",
@@ -44,13 +43,7 @@
   "howToUse": [
     {
       "title": "Open PearAI",
-      "description": "Go to trypear.ai, then sign up or start a free trial if one is offered.",
-      "links": [
-        {
-          "label": "PearAI",
-          "url": "https://trypear.ai"
-        }
-      ]
+      "description": "This product is no longer available; see the notice above."
     },
     {
       "title": "Set up your workspace",
@@ -76,13 +69,7 @@
   "howToUse_fr": [
     {
       "title": "Ouvre PearAI",
-      "description": "Rends-toi sur trypear.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
-      "links": [
-        {
-          "label": "PearAI",
-          "url": "https://trypear.ai"
-        }
-      ]
+      "description": "Ce produit n'est plus disponible ; vois l'avis ci-dessus."
     },
     {
       "title": "Configure ton espace",
@@ -96,5 +83,10 @@
       "title": "Recherche dans le projet",
       "description": "Teste recherche dans le projet sur un petit exemple avant d'automatiser ou d'étendre l'usage."
     }
+  ],
+  "statusNote": "PearAI has shut down.",
+  "statusNote_fr": "PearAI a cessé son activité.",
+  "sources": [
+    "https://github.com/trypear/pearai-master/issues/36"
   ]
 }

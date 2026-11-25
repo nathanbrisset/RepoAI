@@ -18,14 +18,12 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/builder_io.png",
   "image": "/screenshots/builder_io.webp",
   "dateAdded": null,
   "lastVerified": null,
-  "dateAddedNote": "The previous Added date was 2018-05-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Visual Editing: Drag-and-drop page creation.",
     "AI Content Generation: Quickly produce text and images.",
@@ -61,9 +59,9 @@
     }
   ],
   "features_fr": [
-    "Édition visuelle : création de pages par glisser-déposer.",
-    "Génération de contenu IA : produisez rapidement du texte et des images.",
-    "Tests A/B : testez les versions et suivez les conversions.",
-    "Intégration : se connecte à React, Vue, Angular et plus encore."
+    "Édition visuelle: création de pages par glisser-déposer.",
+    "Génération de contenu IA: produisez rapidement du texte et des images.",
+    "Tests A/B: testez les versions et suivez les conversions.",
+    "Intégration: se connecte à React, Vue, Angular et plus encore."
   ]
 }

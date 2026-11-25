@@ -1,7 +1,8 @@
 import type { DirectoryRecord } from "@/lib/directory/data"
 import { directoryRecords } from "@/lib/directory/data"
 import type { Locale } from "@/lib/i18n/config"
-import { HQ_UK_FILTER, matchesHqCountryFilter } from "@/lib/hq-country-filter"
+import { matchesHqCountryFilter } from "@/lib/hq-country-filter"
+import { homeCountryCatalogueFilter } from "@/lib/home-country-filter"
 
 const FR_EDITORIAL = ["mistral", "photoroom", "lighton"]
 
@@ -41,10 +42,7 @@ function pickTopCountryTools(candidates: DirectoryRecord[], editorialOrder: stri
   return picked
 }
 
-/** ISO-2 used in catalogue `?hqCountry=` for this locale's home section CTA. */
-export function homeCountryCatalogueFilter(locale: Locale): string {
-  return locale === "fr" ? "FR" : HQ_UK_FILTER
-}
+export { homeCountryCatalogueFilter } from "@/lib/home-country-filter"
 
 export function homeCountrySectionTools(locale: Locale): DirectoryRecord[] {
   const filter = homeCountryCatalogueFilter(locale)

@@ -18,8 +18,7 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "No live pricing page. The previous Premium label was not rechecked."
+    "verified": false
   },
   "logo": "/logos/hourone.png",
   "image": "/tool-screenshots/hourone.png",
@@ -127,5 +126,6 @@
       ]
     }
   ],
-  "statusNote": "Official Wix press release (May 23 2025) on acquisition; web search (prizmad.com review, AI tool graveyard): standalone platform discontinued by Oct 2025, site unreachable"
+  "statusNote": "Hour One's standalone platform was discontinued after Wix acquired the company in 2025.",
+  "statusNote_fr": "La plateforme autonome Hour One a été arrêtée après le rachat par Wix en 2025."
 }

@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Platform for AI agents that answer customer questions across chat, email and voice.",
-  "description": "Chatbase builds AI agents trained on a company's content that answer customer questions and take actions across chat, email and voice, with analytics and a helpdesk inbox. Plans start with Hobby at $40 per month ($32 billed yearly), then Standard at $150 and Pro at $500 per month, each with a seven-day trial; no free plan was listed. The company states it serves more than 10,000 businesses.",
+  "description": "Chatbase builds AI agents trained on a company's content that answer customer questions and take actions across chat, email and voice, with analytics and a helpdesk inbox. Paid plans include Basic and Business, each with a seven-day trial; no free plan was listed and the former Hobby tier is no longer shown. The company states it serves more than 10,000 businesses.",
   "categories": [
     "support"
   ],
@@ -19,7 +19,7 @@
     "model": "paid",
     "label": "Premium",
     "verified": true,
-    "note": "$40/mo (Hobby, monthly)",
+    "note": "Basic 136 €/mo, or 109 €/mo billed yearly. Business 452 €/mo, or 362 €/mo billed yearly. No free plan was listed; a Hobby plan at 36 € was no longer shown.",
     "sourceUrl": "https://www.chatbase.co/pricing"
   },
   "logo": "/logos/chatbase.png",
@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Chatbase",
-      "description": "Go to Chatbase and start the seven-day trial. Hobby is $40 per month ($32 billed yearly), Standard is $150 and Pro is $500 per month.",
+      "description": "Go to Chatbase and start the seven-day trial on a paid tier.",
       "links": [
         {
           "label": "Chatbase",
@@ -53,13 +53,13 @@
   "features": [
     "Platform for AI agents that answer customer questions across chat, email and voice.",
     "Chatbase builds AI agents trained on a company's content that answer customer questions and take actions across chat, email and voice, with analytics and a helpdesk inbox.",
-    "Plans start with Hobby at $40 per month ($32 billed yearly), then Standard at $150 and Pro at $500 per month, each with a seven-day trial; no free plan was listed.",
+    "Paid tiers include Basic and Business, each with a seven-day trial; no free plan was listed and the former Hobby tier is no longer shown.",
     "The company states it serves more than 10,000 businesses."
   ],
   "features_fr": [
     "Plateforme pour agents IA qui répondent aux questions des clients par chat, e-mail et voix.",
     "Chatbase crée des agents IA formés sur le contenu d'une entreprise qui répondent aux questions des clients et prennent des mesures par chat, e-mail et voix, avec des analyses et une boîte de réception d'assistance.",
-    "Les forfaits commencent par Hobby à 40 $ par mois (32 $ facturés par an), puis Standard à 150 $ et Pro à 500 $ par mois, chacun avec un essai de sept jours ; aucun forfait gratuit n’a été répertorié.",
+    "Des forfaits payants Basic et Business sont proposés, chacun avec un essai de sept jours ; aucun forfait gratuit n'était répertorié et l'ancien forfait Hobby n'y figure plus.",
     "L'entreprise déclare servir plus de 10 000 entreprises."
   ]
 }

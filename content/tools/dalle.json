@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "sunset",
   "summary": "OpenAI's model creating images from textual descriptions, integrated with ChatGPT.",
-  "description": "OpenAI's model creating images from textual descriptions, integrated with ChatGPT.\n\nText-to-Image Synthesis: Generates original images from descriptive text prompts. Inpainting: Edits and extends existing images using AI. Variations: Creates multiple versions of an image based on a single prompt. Integration with ChatGPT: Accessible directly within ChatGPT for seamless creative workflows.",
+  "description": "OpenAI's model creating images from textual descriptions, integrated with ChatGPT. Text-to-Image Synthesis: Generates original images from descriptive text prompts. Inpainting: Edits and extends existing images using AI. Variations: Creates multiple versions of an image based on a single prompt. Integration with ChatGPT: Accessible directly within ChatGPT for seamless creative workflows.",
   "categories": [
     "image"
   ],
@@ -16,8 +16,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/dalle.png",
   "image": "/tool-screenshots/dalle.png",
@@ -53,5 +52,6 @@
       "description": "Export images or use them in creative workflows."
     }
   ],
-  "statusNote": "Two DALL-E entries (dalle, dalle_3); openai.com pages return 403 - unverified"
+  "statusNote": "DALL·E is outdated; OpenAI now offers image generation through ChatGPT and its current APIs.",
+  "statusNote_fr": "DALL·E est dépassé ; OpenAI propose désormais la génération d'images via ChatGPT et ses API actuelles."
 }

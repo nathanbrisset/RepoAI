@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "sunset",
   "summary": "Static Code Analysis in VS Code, JetBrains, VisualStudio, GitHub, GitLab and Bitbucket.",
-  "description": "Static Code Analysis in VS Code, JetBrains, VisualStudio, GitHub, GitLab and Bitbucket.\n\nReal-Time Code Analysis: Detects issues while coding. Smart Code Snippets: Reusable code blocks with best practices. Security & Performance Checks: Flags unsafe or slow code. IDE/CI Integration: Works with VS Code, JetBrains, GitHub Actions, and more.",
+  "description": "Static Code Analysis in VS Code, JetBrains, VisualStudio, GitHub, GitLab and Bitbucket. Real-Time Code Analysis: Detects issues while coding. Smart Code Snippets: Reusable code blocks with best practices. Security & Performance Checks: Flags unsafe or slow code. IDE/CI Integration: Works with VS Code, JetBrains, GitHub Actions, and more.",
   "categories": [
     "security"
   ],
@@ -17,8 +17,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/codiga.png",
   "image": "/screenshots/codiga.webp",
@@ -54,5 +53,6 @@
       "description": "Check analytics and reports for ongoing code improvements."
     }
   ],
-  "statusNote": "Codiga was acquired by Datadog in 2023; the standalone Codiga product is no longer offered."
+  "statusNote": "Codiga was acquired by Datadog in 2023; the standalone product is no longer offered.",
+  "statusNote_fr": "Codiga a été racheté par Datadog en 2023 ; le produit autonome n'est plus proposé."
 }

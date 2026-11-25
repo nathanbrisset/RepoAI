@@ -71,6 +71,7 @@ export const toolSchema = z.object({
       model: pricingModelSchema.optional(),
       label: pricingLabelSchema.optional(),
       note: z.string().optional(),
+      details: z.string().optional(),
       note_fr: z.string().min(1).optional(),
       verified: z.boolean(),
       sourceUrl: z.string().url().optional(),

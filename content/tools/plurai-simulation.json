@@ -1,0 +1,86 @@
+{
+  "id": "plurai-simulation",
+  "name": "Plurai Simulation",
+  "url": "https://www.plurai.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Simulation layer that wires an AI agent into a mocked world so you can test runs, score failures and improve the agent before users hit the same issues.",
+  "description": "Simulation layer that wires an AI agent into a mocked world so you can test runs, score failures and improve the agent before users hit the same issues.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "agents",
+    "simulation",
+    "evaluation",
+    "testing",
+    "coding-agents"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free 0 € with 12,300 credits one-time (2 agent setups, 7 scenarios, 3 runs, 10 sandbox hours one-time; upgrade to continue). Base 54 €/month — 28,710 credits/month, 3 agent setups, 14 scenarios, 20 runs/month, 20 traces/month, 30 sandbox hours/month. Business 190 €/month — 65,570 credits/month, 3 agent setups or 1 with 16 extra scenarios, 28 scenarios (or 44 with 1 setup), 60 runs/month, 40 traces/month, 100 sandbox hours/month.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/plurai-simulation.png",
+  "image": "/screenshots/plurai-simulation.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Simulation layer that tests an AI agent in a mocked world before users hit the same issues",
+    "Official plugin for agent harnesses (Claude Code, GitHub Copilot CLI, OpenAI Codex; Cursor listed as coming soon)",
+    "Agent setups, scenarios, runs, traces and sandbox hours",
+    "Free plan is one-time credits, then Base or Business"
+  ],
+  "howToUse": [
+    {
+      "title": "Open plurai.ai and install the official simulation plugin for your agent harness.",
+      "description": "Open plurai.ai and install the official simulation plugin for your agent harness.",
+      "links": [
+        {
+          "label": "Plurai Simulation",
+          "url": "https://www.plurai.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Connect the agent and run scenarios in the simulated world.",
+      "description": "Connect the agent and run scenarios in the simulated world."
+    },
+    {
+      "title": "Upgrade to Base or Business when the one-time Free credits run out.",
+      "description": "Upgrade to Base or Business when the one-time Free credits run out."
+    }
+  ],
+  "sources": [
+    "https://www.plurai.ai/"
+  ],
+  "summary_fr": "Couche de simulation qui place un agent IA dans un monde simulé pour tester des runs, scorer les échecs et améliorer l’agent avant que les utilisateurs ne rencontrent les mêmes problèmes.",
+  "description_fr": "Couche de simulation qui place un agent IA dans un monde simulé pour tester des runs, scorer les échecs et améliorer l’agent avant que les utilisateurs ne rencontrent les mêmes problèmes.",
+  "features_fr": [
+    "Couche de simulation qui teste un agent IA dans un monde simulé avant que les utilisateurs ne rencontrent les mêmes problèmes",
+    "Plugin officiel pour les harnais d’agents (Claude Code, GitHub Copilot CLI, OpenAI Codex; Cursor annoncé comme bientôt disponible)",
+    "Configurations, scénarios, runs, traces et heures de sandbox",
+    "L’offre Gratuite est un crédit unique, puis Base ou Business"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre plurai.ai et installe le plugin officiel de simulation pour ton harnais d’agent.",
+      "description": "Ouvre plurai.ai et installe le plugin officiel de simulation pour ton harnais d’agent.",
+      "links": [
+        {
+          "label": "Plurai Simulation",
+          "url": "https://www.plurai.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Connecte l’agent et lance des scénarios dans le monde simulé.",
+      "description": "Connecte l’agent et lance des scénarios dans le monde simulé."
+    },
+    {
+      "title": "Passe à Base ou Business quand les crédits Gratuits (une fois) sont épuisés.",
+      "description": "Passe à Base ou Business quand les crédits Gratuits (une fois) sont épuisés."
+    }
+  ]
+}

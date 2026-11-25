@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "sunset",
   "summary": "AI video dubbing service that has shut down. The domain redirects to RWS.",
-  "description": "Papercup dubbed video into other languages. RWS announced on 26 June 2025 that it had acquired Papercup’s intellectual property, and the standalone service is closed. On 21 October 2026, papercup.com redirected to an RWS localization page for AI dubbing and voice-over, with a campaign parameter naming a Papercup migration. That page answers HTTP 202 to a non-browser client. support.papercup.com and docs.papercup.com do not resolve.",
+  "description": "Papercup dubbed video into other languages. RWS announced on 26 June 2025 that it had acquired Papercup’s intellectual property, and the standalone service is closed. On 21 October 2026, papercup.com redirected to an RWS localization page for AI dubbing and voice-over, with a campaign parameter naming a Papercup migration. Legacy Papercup support and documentation URLs are no longer available.",
   "categories": [
     "video",
     "marketing",
@@ -35,7 +35,7 @@
   "howToUse": [
     {
       "title": "Sign Up & Access Papercup Dashboard",
-      "description": "Visit Papercup and create an account for your business or project. Log in to access the dashboard where you can start new dubbing projects.",
+      "description": "This product is no longer available; see the notice above.",
       "links": [
         {
           "label": "RWS acquisition notice",
@@ -102,5 +102,6 @@
     "https://www.investegate.co.uk/announcement/rns/rws-holdings--rws/acquisition-of-ip-of-papercup-/8949808",
     "https://www.papercup.com/"
   ],
-  "statusNote": "Sunset: RWS acquired Papercup’s IP on 26 June 2025 and the standalone tool closed. No successor fiche. papercup.com redirects to an RWS page that answers 202 to non-browser clients."
+  "statusNote": "Papercup's standalone dubbing tool closed after RWS acquired its technology in June 2025.",
+  "statusNote_fr": "L'outil de doublage autonome Papercup a fermé après le rachat de sa technologie par RWS en juin 2025."
 }

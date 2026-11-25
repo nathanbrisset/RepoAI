@@ -16,8 +16,7 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/codetree.png",
   "image": "/screenshots/codetree.webp",
@@ -54,9 +53,9 @@
     }
   ],
   "features_fr": [
-    "Répartition des objectifs : transformez les visions en plans structurés.",
-    "Génération automatique de tâches : attribue des actions conviviales pour les développeurs.",
-    "Cartographie des jalons : visualisez l’avancement du projet.",
-    "Flux de travail personnalisés : adaptez la planification à ton style."
+    "Répartition des objectifs: transformez les visions en plans structurés.",
+    "Génération automatique de tâches: attribue des actions conviviales pour les développeurs.",
+    "Cartographie des jalons: visualisez l’avancement du projet.",
+    "Flux de travail personnalisés: adaptez la planification à ton style."
   ]
 }

@@ -1,0 +1,87 @@
+{
+  "id": "upheal",
+  "name": "Upheal",
+  "url": "https://www.upheal.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI documentation tool for therapists that turns sessions into clinical notes, with a free basic tier and optional telehealth.",
+  "description": "AI documentation tool for therapists that turns sessions into clinical notes, with a free basic tier and optional telehealth.",
+  "categories": [
+    "health"
+  ],
+  "tags": [
+    "health",
+    "therapy",
+    "clinical-notes",
+    "ehr",
+    "mental-health"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Individual “Only me” plans only. Free Basic 0 €/month — AI notes via text-to-note, dictation and uploads only, individual therapy only, AI Assistant chat with a monthly usage limit, plus telehealth calling without AI. AI Notes 35 €/month, flat fee, unlimited sessions — unlimited AI notes via video, audio, dictation and uploads, individuals/couples/families, all note templates, built-in telehealth with automated notes, Treatment Plans with Golden Thread, mobile and desktop apps, AI Assistant chat with a monthly usage limit. Optional AI Assistant Pro +35 €/month for unlimited AI Assistant and session prep (start a free trial). No credit card required for the trial; official 30-day money-back guarantee. A student and non-profit discount is mentioned without a public amount.",
+    "model": "freemium",
+    "label": "Freemium",
+    "sourceUrl": "https://www.upheal.io/"
+  },
+  "logo": "/logos/upheal.png",
+  "image": "/screenshots/upheal.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "AI session notes for therapists, with a lasting Free Basic plan for text, dictation and uploads",
+    "AI Notes adds unlimited video and audio notes, treatment plans and built-in telehealth",
+    "Optional AI Assistant Pro add-on; official trial without a card and a 30-day money-back guarantee",
+    "Individual plans are priced on the site; group-practice and full EHR require a quote."
+  ],
+  "howToUse": [
+    {
+      "title": "Open upheal.io and start Free Basic at 0 € for text and dictation notes on individual...",
+      "description": "Open upheal.io and start Free Basic at 0 € for text and dictation notes on individual therapy.",
+      "links": [
+        {
+          "label": "Upheal",
+          "url": "https://www.upheal.io/"
+        }
+      ]
+    },
+    {
+      "title": "Move to AI Notes at 35 €/month if you need unlimited video and audio notes, treatment...",
+      "description": "Move to AI Notes at 35 €/month if you need unlimited video and audio notes, treatment plans or built-in telehealth."
+    },
+    {
+      "title": "Add Assistant Pro at +35 €/month if you want unlimited AI Assistant and session prep.",
+      "description": "Add Assistant Pro at +35 €/month if you want unlimited AI Assistant and session prep. Group practice and full EHR plans are quoted on the site."
+    }
+  ],
+  "sources": [
+    "https://www.upheal.io/"
+  ],
+  "summary_fr": "Outil de documentation IA pour thérapeutes qui transforme tes séances en notes cliniques, avec une offre de base gratuite et une téléconsultation optionnelle.",
+  "description_fr": "Outil de documentation IA pour thérapeutes qui transforme tes séances en notes cliniques, avec une offre de base gratuite et une téléconsultation optionnelle.",
+  "features_fr": [
+    "Notes de séance IA pour thérapeutes, avec une offre Free Basic durable pour le texte, la dictée et les envois",
+    "AI Notes ajoute des notes vidéo et audio illimitées, des plans de traitement et une téléconsultation intégrée",
+    "Add-on optionnel AI Assistant Pro ; essai officiel sans carte et garantie de remboursement de 30 jours",
+    "Les offres individuelles sont tarifées sur le site ; cabinet et EHR complet sur devis."
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre upheal.io et commence sur Free Basic à 0 € pour des notes texte et dictée, en...",
+      "description": "Ouvre upheal.io et commence sur Free Basic à 0 € pour des notes texte et dictée, en thérapie individuelle.",
+      "links": [
+        {
+          "label": "Upheal",
+          "url": "https://www.upheal.io/"
+        }
+      ]
+    },
+    {
+      "title": "Passe à AI Notes à 35 €/mois si tu as besoin de notes vidéo et audio illimitées, de plans...",
+      "description": "Passe à AI Notes à 35 €/mois si tu as besoin de notes vidéo et audio illimitées, de plans de traitement ou de la téléconsultation intégrée."
+    },
+    {
+      "title": "Ajoute Assistant Pro à +35 €/mois si tu veux un AI Assistant illimité et la préparation...",
+      "description": "Ajoute Assistant Pro à +35 €/mois si tu veux un AI Assistant illimité et la préparation de séance. Les offres cabinet et EHR complet sont sur devis sur le site."
+    }
+  ]
+}

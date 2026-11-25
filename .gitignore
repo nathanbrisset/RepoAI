@@ -10,9 +10,13 @@
 /.next/
 .next/
 /out/
+/public/catalog-search/*.json
 
 # production
 /build
+
+# consolidation rebuild cache
+.cache/
 
 # misc
 .DS_Store

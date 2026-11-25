@@ -6,7 +6,7 @@
   "status": "active",
   "summary": "Microsoft's speech services: transcription, synthesis and translation.",
   "description": "Azure AI Speech provides speech recognition, text-to-speech with hundreds of neural voices, custom voices and real-time speech translation. Companies integrate it into apps and call centers.",
-  "summary_fr": "Services vocaux de Microsoft : transcription, synthèse et traduction.",
+  "summary_fr": "Services vocaux de Microsoft: transcription, synthèse et traduction.",
   "description_fr": "Azure AI Speech fournit reconnaissance vocale, synthèse vocale avec des centaines de voix neuronales, voix personnalisées et traduction de la parole en temps réel. Les entreprises l'intègrent dans leurs applications et centres d'appels.",
   "categories": [
     "voice"
@@ -22,7 +22,7 @@
     "model": "usage-based",
     "label": "Usage-based",
     "note": "Usage-based billing; see the pricing page for meters and quotas.",
-    "note_fr": "Facturation à l'usage ; consulte la page tarifs pour les quotas et le détail."
+    "note_fr": "Facturation à l'usage; consulte la page tarifs pour les quotas et le détail."
   },
   "logo": "/logos/azure-ai-speech.png",
   "image": "/screenshots/azure-ai-speech.webp",

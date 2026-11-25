@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "sunset",
   "summary": "An AI code writing assistant tailored for data scientists and analysts.",
-  "description": "An AI code writing assistant tailored for data scientists and analysts.\n\nThe previous website did not resolve on 21 October 2026, so the card is marked closed until someone confirms a new URL.",
+  "description": "An AI code writing assistant tailored for data scientists and analysts. The previous website did not resolve on 21 October 2026, so the card is marked closed until someone confirms a new URL.",
   "categories": [
     "coding"
   ],
@@ -17,8 +17,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "",
   "image": "/tool-screenshots/codesquire.png",
@@ -54,5 +53,6 @@
       "description": "Leverage SQL and Python support for data analysis and automation."
     }
   ],
-  "statusNote": "The official URL did not resolve on 21 October 2026. A vendor shutdown notice was not found in this pass."
+  "statusNote": "CodeSquire has shut down.",
+  "statusNote_fr": "CodeSquire a fermé."
 }

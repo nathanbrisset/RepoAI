@@ -1,7 +1,7 @@
 {
   "id": "seedream",
   "name": "Seedream (ByteDance)",
-  "url": "https://seed.bytedance.com/en/seedream",
+  "url": "https://seed.bytedance.com/en/seedream5_5",
   "affiliateUrl": "",
   "status": "active",
   "summary": "ByteDance's image generation and editing model.",
@@ -18,16 +18,16 @@
   ],
   "pricing": {
     "verified": false,
-    "sourceUrl": "https://seed.bytedance.com/en/seedream",
+    "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
     "model": "freemium",
     "label": "Freemium",
     "note": "Freemium; paid tiers and limits are listed on the official site.",
-    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
+    "note_fr": "Freemium: consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/seedream.png",
   "image": "/screenshots/seedream.webp",
   "dateAdded": "2026-10-30",
-  "lastVerified": "2026-10-30",
+  "lastVerified": "2026-11-16",
   "features": [
     "Highly detailed images",
     "Strong in-image text rendering",
@@ -47,7 +47,7 @@
       "links": [
         {
           "label": "Seedream (ByteDance)",
-          "url": "https://seed.bytedance.com/en/seedream"
+          "url": "https://seed.bytedance.com/en/seedream5_5"
         }
       ]
     },
@@ -78,7 +78,7 @@
       "links": [
         {
           "label": "Seedream (ByteDance)",
-          "url": "https://seed.bytedance.com/en/seedream"
+          "url": "https://seed.bytedance.com/en/seedream5_5"
         }
       ]
     },
@@ -94,5 +94,8 @@
       "title": "Bon rendu du texte dans l'image",
       "description": "Teste bon rendu du texte dans l'image sur un petit exemple avant d'automatiser ou d'étendre l'usage."
     }
+  ],
+  "sources": [
+    "https://seed.bytedance.com/en/seedream5_5"
   ]
 }

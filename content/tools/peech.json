@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "sunset",
   "summary": "Peech is an AI video editor for marketers, offering automated subtitling, branding, and highlight detection to repurpose long-form content for social media.",
-  "description": "Peech is an AI video editor for marketers, offering automated subtitling, branding, and highlight detection to repurpose long-form content for social media.\n\nThe previous website did not resolve on 21 October 2026, so the card is marked closed until someone confirms a new URL.",
+  "description": "Peech is an AI video editor for marketers, offering automated subtitling, branding, and highlight detection to repurpose long-form content for social media. The previous website did not resolve on 21 October 2026, so the card is marked closed until someone confirms a new URL.",
   "categories": [
     "video",
     "marketing",
@@ -19,8 +19,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "",
   "image": "/tool-screenshots/peech.png",
@@ -68,5 +67,6 @@
       "description": "Preview all generated clips, make any final adjustments, and export them in the desired format for your preferred platforms."
     }
   ],
-  "statusNote": "The official URL did not resolve on 21 October 2026. A vendor shutdown notice was not found in this pass."
+  "statusNote": "Peech has shut down.",
+  "statusNote_fr": "Peech a fermé."
 }

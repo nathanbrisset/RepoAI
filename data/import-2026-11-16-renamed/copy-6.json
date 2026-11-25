@@ -1,0 +1,296 @@
+[
+  {
+    "slug": "autosheet",
+    "name": "Autosheet",
+    "category": "Data & Analytics",
+    "category_note": "Ancienne fiche gpt-for-sheets en « data ». Agent et add-in pour Excel et Google Sheets : Data & Analytics reste la catégorie publique la plus juste.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free to try: free to install, free credits to start, no card required for first use. The trial runs on GPT-5.6 Luna. After the trial, plans start at $25/month and a subscription unlocks all models, including Claude Fable 5.1 and GPT-6 Astra. Standard (individual) $25/month — $25 of usage included each month; buy extra usage as needed; Agent, bulk tools and GPT functions, large choice of AI models, detailed usage reporting, Autosheet MCP (Google Sheets only). Business (team) $45/seat/month — $25 of usage included per seat; shared extra usage as needed; Standard features plus team management, centralized billing and limits, centralized AI configuration, bring your own API key, custom AI endpoints. Enterprise: custom pricing (talk to sales) — Business features plus enforced bring-your-own-AI, SAML SSO, non-standard terms, high-priority support, guided setup and team training. Included usage does not roll over. Extra usage is bought for the space, stays valid 12 months after the most recent purchase, and needs an active subscription; no pack prices are listed on the pricing page and are not invented here. Existing pay-as-you-go spaces with an active credit balance stay on pay-as-you-go for now. Each plan gives access to either GPT for Sheets – Autosheet or GPT for Excel – Autosheet. No annual ladder is published. Source: official pricing https://autosheet.com/pricing (gptforwork.com/pricing redirects here), verified 2026-11-16.",
+    "pricing_en": "Free to try: free to install, free credits to start, no card required for first use. The trial runs on GPT-5.6 Luna. After the trial, plans start at 23 €/month and a subscription unlocks all models, including Claude Fable 5.1 and GPT-6 Astra. Standard (individual) 23 €/month — 23 € of usage included each month; buy extra usage as needed; Agent, bulk tools and GPT functions, large choice of AI models, detailed usage reporting, Autosheet MCP (Google Sheets only). Business (team) 41 €/seat/month — 23 € of usage included per seat; shared extra usage as needed; Standard features plus team management, centralized billing and limits, centralized AI configuration, bring your own API key, custom AI endpoints. Enterprise: custom pricing (talk to sales) — Business features plus enforced bring-your-own-AI, SAML SSO, non-standard terms, high-priority support, guided setup and team training. Included usage does not roll over. Extra usage is bought for the space, stays valid 12 months after the most recent purchase, and needs an active subscription; no pack prices are listed on the pricing page and are not invented here. Existing pay-as-you-go spaces with an active credit balance stay on pay-as-you-go for now. Each plan gives access to either GPT for Sheets – Autosheet or GPT for Excel – Autosheet. No annual ladder is published.",
+    "pricing_fr": "Essai gratuit : installation gratuite, crédits offerts pour commencer, sans carte pour le premier usage. L’essai tourne sur GPT-5.6 Luna. Après l’essai, les plans commencent à 23 €/mois et l’abonnement débloque tous les modèles, dont Claude Fable 5.1 et GPT-6 Astra. Standard (individuel) 23 €/mois — 23 € d’usage inclus chaque mois ; usage supplémentaire à acheter au besoin ; Agent, outils de masse et fonctions GPT, large choix de modèles, rapports d’usage détaillés, Autosheet MCP (Google Sheets uniquement). Business (équipe) 41 €/siège/mois — 23 € d’usage inclus par siège ; usage supplémentaire partagé au besoin ; fonctions Standard plus gestion d’équipe, facturation et plafonds centralisés, configuration IA centralisée, tes propres clés API, points de terminaison IA personnalisés. Enterprise : tarif sur mesure (parler aux ventes) — fonctions Business plus obligation d’apporter ton IA, SAML SSO, conditions non standard, support prioritaire, installation guidée et formation. L’usage inclus ne se reporte pas. L’usage supplémentaire est acheté pour l’espace, reste valable 12 mois après le dernier achat, et exige un abonnement actif ; aucun prix de pack n’est listé sur la page tarifs et n’est pas inventé ici. Les espaces déjà en paiement à l’usage, avec un solde de crédits actif, restent pour l’instant sur ce modèle. Chaque plan donne accès soit à GPT for Sheets – Autosheet, soit à GPT for Excel – Autosheet. Aucune grille annuelle n’est publiée.",
+    "howTo_en": [
+      "Open autosheet.com, install GPT for Sheets – Autosheet or GPT for Excel – Autosheet, and start the free trial with no card.",
+      "Describe a spreadsheet task to the agent, or run bulk tools and GPT functions across your rows.",
+      "Subscribe to Standard or Business when you need every model and the monthly included usage."
+    ],
+    "howTo_fr": [
+      "Ouvre autosheet.com, installe GPT for Sheets – Autosheet ou GPT for Excel – Autosheet, et lance l’essai gratuit sans carte.",
+      "Décris une tâche de tableur à l’agent, ou lance les outils de masse et les fonctions GPT sur tes lignes.",
+      "Passe à Standard ou Business quand tu as besoin de tous les modèles et de l’usage mensuel inclus."
+    ],
+    "features_en": [
+      "AI agent for Excel and Google Sheets: clean, enrich, categorize, write formulas, format, and analyze",
+      "Bulk processing across hundreds of thousands of rows, plus GPT functions and a large choice of models",
+      "Autosheet MCP for Claude and ChatGPT (Google Sheets only)",
+      "Free trial with no card; Standard and Business subscriptions after the trial"
+    ],
+    "features_fr": [
+      "Agent IA pour Excel et Google Sheets : nettoyer, enrichir, classer, écrire des formules, formater et analyser",
+      "Traitement de masse sur des centaines de milliers de lignes, plus fonctions GPT et large choix de modèles",
+      "Autosheet MCP pour Claude et ChatGPT (Google Sheets uniquement)",
+      "Essai gratuit sans carte ; abonnements Standard et Business après l’essai"
+    ],
+    "short_fr": "Agent IA pour Excel et Google Sheets (ex-GPT for Work) : tu nettoies, enrichis et analyses tes lignes en masse, avec un essai gratuit puis des plans à partir de 23 €/mois.",
+    "short_en": "AI agent for Excel and Google Sheets (formerly GPT for Work) that cleans, enriches and analyzes rows in bulk, with a free trial and paid plans.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Anciennement GPT for Work / GPT for Sheets and Docs. Preuve officielle sur autosheet.com : « Autosheet was formerly known as GPT for Work ».",
+      "Éditeur : Talarian Sàrl (site : entreprise rentable créée en 2015, plugins tableur depuis 2015). L’ancienne fiche indiquait un siège FR ; le copyright officiel mentionne Talarian Sàrl, sans pays explicite sur la page tarifs.",
+      "Aucune grille annuelle publiée ; prix des packs d’usage supplémentaire non listés sur la page tarifs — non inventés."
+    ],
+    "url": "https://autosheet.com/",
+    "official_url": "https://autosheet.com/",
+    "official_url_final": "https://autosheet.com/",
+    "source_csv": "sunset-candidates.md",
+    "renamed_from": "gpt-for-sheets",
+    "formerly": "GPT for Sheets and Docs (GPT for Work)",
+    "hqCountry": ""
+  },
+  {
+    "slug": "treblo",
+    "name": "Treblo",
+    "category": "Music & Audio",
+    "category_note": "Ancienne fiche sonauto en « music ». Générateur de chansons IA : Music & Audio.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free: unlimited songs on the latest model, lyrics and editing, downloads in every format (OGG, MP3, WAV, FLAC, M4A), and no usage restrictions from Treblo on songs you create. Standard generation queue, 4 songs at once. Pro: $9.99/month, or $79.99/year ($6.67/month billed yearly, officially 33% less). Pro adds no ads, priority queue, 10 songs at once, covers in a new style (beta), reuse styles (beta), sing in your own voice (beta), avoid unwanted styles, legacy models (v2.2 and Classic lyrics), high-quality stems (beta), a Pro badge and Discord role. Beta features can change, break or be removed. Prices in US dollars on the web; in the iPhone and Android apps, Pro is billed through the App Store or Google Play at their prices for your country (those store prices are not listed on the web page and are not invented here). Cancel anytime; songs stay in your library if you cancel. Source: official pages https://treblo.com/ and https://treblo.com/pro, verified 2026-11-16.",
+    "pricing_en": "Free: unlimited songs on the latest model, lyrics and editing, downloads in every format (OGG, MP3, WAV, FLAC, M4A), and no usage restrictions from Treblo on songs you create. Standard generation queue, 4 songs at once. Pro: 9 €/month, or 72 €/year (6 €/month billed yearly, officially 33% less). Pro adds no ads, priority queue, 10 songs at once, covers in a new style (beta), reuse styles (beta), sing in your own voice (beta), avoid unwanted styles, legacy models (v2.2 and Classic lyrics), high-quality stems (beta), a Pro badge and Discord role. Beta features can change, break or be removed. Web prices are the official web amounts converted to euros; in the iPhone and Android apps, Pro is billed through the App Store or Google Play at their prices for your country (those store prices are not listed on the web page and are not invented here). Cancel anytime; songs stay in your library if you cancel.",
+    "pricing_fr": "Gratuit : chansons illimitées sur le dernier modèle, paroles et édition, téléchargements dans tous les formats (OGG, MP3, WAV, FLAC, M4A), et aucune restriction d’usage de la part de Treblo sur les morceaux que tu crées. File d’attente standard, 4 morceaux à la fois. Pro : 9 €/mois, ou 72 €/an (6 €/mois facturés à l’année, officiellement 33 % de moins). Pro ajoute : sans publicité, file prioritaire, 10 morceaux à la fois, reprises dans un nouveau style (bêta), réutilisation de styles (bêta), chants avec ta voix (bêta), évitement des styles indésirables, modèles hérités (v2.2 et paroles Classic), stems haute qualité (bêta), badge Pro et rôle Discord. Les fonctions bêta peuvent changer, casser ou être retirées. Prix web convertis depuis les dollars US officiels ; dans les apps iPhone et Android, Pro est facturé via l’App Store ou Google Play aux tarifs de ton pays (ces prix magasin ne sont pas listés sur la page web et ne sont pas inventés ici). Résiliable à tout moment ; tes morceaux restent dans ta bibliothèque si tu résilies.",
+    "howTo_en": [
+      "Open treblo.com and create a free account.",
+      "Type an idea, pick style tags, add your lyrics or let Treblo write them, then create a song — it starts streaming in about 15 seconds.",
+      "Upgrade to Pro if you want a priority queue, covers, your own voice, or stems."
+    ],
+    "howTo_fr": [
+      "Ouvre treblo.com et crée un compte gratuit.",
+      "Décris une idée, choisis des tags de style, ajoute tes paroles ou laisse Treblo les écrire, puis crée un morceau — il commence à être diffusé en environ 15 secondes.",
+      "Passe à Pro si tu veux une file prioritaire, des reprises, ta propre voix ou des stems."
+    ],
+    "features_en": [
+      "Unlimited free songs on the latest model, in thousands of styles, with optional instrumental tracks",
+      "Write your own lyrics or let Treblo write them, then edit, extend and iterate on sections",
+      "Downloads in OGG, MP3, WAV, FLAC and M4A, with no usage restrictions from Treblo on your songs",
+      "Optional Pro: priority queue, covers, style reuse, your voice, and stems (several features still in beta)"
+    ],
+    "features_fr": [
+      "Chansons gratuites illimitées sur le dernier modèle, des milliers de styles, avec option instrumentale",
+      "Écris tes paroles ou laisse Treblo les écrire, puis édite, prolonge et itère sur les sections",
+      "Téléchargements en OGG, MP3, WAV, FLAC et M4A, sans restriction d’usage de Treblo sur tes morceaux",
+      "Pro en option : file prioritaire, reprises, réutilisation de style, ta voix et stems (plusieurs fonctions encore en bêta)"
+    ],
+    "short_fr": "Générateur de chansons IA (ex-Sonauto) : morceaux illimités et gratuits sur le dernier modèle, avec un Pro optionnel à 9 €/mois pour la file prioritaire, les reprises et ta voix.",
+    "short_en": "AI song generator (formerly Sonauto) with unlimited free tracks on the latest model, and an optional Pro plan for the priority queue, covers and your voice.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Anciennement Sonauto. Preuve officielle : https://treblo.com/blog/sonauto-is-now-treblo et FAQ « Wasn't your name Sonauto? ».",
+      "La réduction annuelle de 33 % est le tarif annuel normal, pas une promo limitée.",
+      "Prix App Store / Google Play différents possibles : non inventés, seuls les tarifs web officiels en USD sont convertis."
+    ],
+    "url": "https://treblo.com/",
+    "official_url": "https://treblo.com/",
+    "official_url_final": "https://treblo.com/",
+    "source_csv": "sunset-candidates.md",
+    "renamed_from": "sonauto",
+    "formerly": "Sonauto"
+  },
+  {
+    "slug": "async",
+    "name": "Async",
+    "category": "Video",
+    "category_note": "Ancienne fiche podcastle en « voice » (studio podcast). Le produit s’est élargi : la homepage officielle présente surtout un éditeur vidéo IA (« Edit videos like you have a pro editor »), avec audio, voix, sous-titres et studio d’enregistrement toujours inclus. Catégorie publique proposée : Video. À valider : garder Voice & Speech si l’on veut rester aligné sur l’ancienne fiche.",
+    "converted_from_usd": false,
+    "official_currency": "EUR",
+    "pricing_usd_official": "Official prices are in EUR for this region (payment API https://async.com/api/payment/products, which fills the official pricing page). Free (Basic) 0.00 €/month — 10 AI credits lifetime, 1 hour of media to AI chat lifetime, export up to 720p, 1 export file, 2 GB cloud storage; no card to sign up. Essentials 19.99 €/month, or 143.90 €/year (11.99 €/month billed yearly) — 450 AI credits/month, unlimited media to AI chat, export up to Full HD, unlimited exports, 20 GB storage. Pro (most popular) 39.99 €/month, or 287.90 €/year (23.99 €/month billed yearly) — 1,200 AI credits/month, export up to 4K, 120 GB storage. Teams 84.99 €/creator/month, or 599.90 €/creator/year (49.99 €/month billed yearly) — 3,000 AI credits/month, 1 TB storage, team workspace. Business: custom (contact sales). Yearly plans are officially presented as 40% off versus monthly; credits on a yearly plan are added each month, not all at once, and unused monthly credits do not roll over. Yearly payment records list 600 trialCredits; the yearly CTA can read “Start free trial”. Official FAQ: 7-day refund on new subscriptions, excluding used AI credits. One-time top-up packs (official EUR): 300 credits 10.99 €, 600 credits 19.99 €, 900 credits 29.99 €, 1,800 credits 44.99 €, 3,000 credits 74.99 €. Recurring credit add-ons also exist (e.g. 300 credits 10.99 €/month). Top-up credits last until the end of a yearly subscription, or 2 months after purchase on monthly plans. English canonical pricing URL: https://async.com/pricing (hreflang en and x-default); from an EU IP the marketing page geo-redirects to /es/pricing. Source: official pricing page plus official payment API, verified 2026-11-16.",
+    "pricing_en": "Free (Basic) 0 €/month — 10 AI credits lifetime, 1 hour of media to AI chat lifetime, export up to 720p, 1 export file, 2 GB cloud storage; no card to sign up. Essentials 19.99 €/month, or 143.90 €/year (11.99 €/month billed yearly) — 450 AI credits/month, unlimited media to AI chat, export up to Full HD, unlimited exports, 20 GB storage. Pro (most popular) 39.99 €/month, or 287.90 €/year (23.99 €/month billed yearly) — 1,200 AI credits/month, export up to 4K, 120 GB storage. Teams 84.99 €/creator/month, or 599.90 €/creator/year (49.99 €/month billed yearly) — 3,000 AI credits/month, 1 TB storage, team workspace. Business: custom (contact sales). Yearly plans are officially presented as 40% off versus monthly; credits on a yearly plan are added each month, not all at once, and unused monthly credits do not roll over. Official FAQ: 7-day refund on new subscriptions, excluding used AI credits. One-time top-up packs: 300 credits 10.99 €, 600 credits 19.99 €, 900 credits 29.99 €, 1,800 credits 44.99 €, 3,000 credits 74.99 €. Recurring credit add-ons also exist. These are official euro prices from the payment API that fills the pricing page for this region.",
+    "pricing_fr": "Gratuit (Basic) 0 €/mois — 10 crédits IA à vie, 1 heure de médias vers le chat IA à vie, export jusqu’en 720p, 1 fichier d’export, 2 Go de stockage cloud ; sans carte pour s’inscrire. Essentials 19,99 €/mois, ou 143,90 €/an (11,99 €/mois facturés à l’année) — 450 crédits IA/mois, médias illimités vers le chat IA, export jusqu’en Full HD, exports illimités, 20 Go de stockage. Pro (le plus populaire) 39,99 €/mois, ou 287,90 €/an (23,99 €/mois facturés à l’année) — 1 200 crédits IA/mois, export jusqu’en 4K, 120 Go de stockage. Teams 84,99 €/créateur/mois, ou 599,90 €/créateur/an (49,99 €/mois facturés à l’année) — 3 000 crédits IA/mois, 1 To de stockage, espace d’équipe. Business : tarif sur mesure (contacter les ventes). Les plans annuels sont officiellement présentés avec 40 % de moins que le mensuel ; les crédits d’un plan annuel sont ajoutés chaque mois, pas d’un coup, et les crédits mensuels non utilisés ne se reportent pas. FAQ officielle : remboursement sous 7 jours sur un nouvel abonnement, hors crédits IA déjà utilisés. Packs de recharge ponctuels : 300 crédits 10,99 €, 600 crédits 19,99 €, 900 crédits 29,99 €, 1 800 crédits 44,99 €, 3 000 crédits 74,99 €. Des options de crédits récurrentes existent aussi. Ce sont les prix officiels en euros de l’API de paiement qui alimente la page tarifs pour cette région.",
+    "howTo_en": [
+      "Open async.com (the site may geo-redirect to /es; switch to English if you need it) and create a Free account with no card.",
+      "Upload a video or start from a template, then tell Async in the chat what to cut, caption, clean or generate.",
+      "Upgrade to Essentials, Pro or Teams if you need a monthly credit allowance and higher export quality."
+    ],
+    "howTo_fr": [
+      "Ouvre async.com (le site peut rediriger vers /es ; passe en anglais si tu en as besoin) et crée un compte Gratuit, sans carte.",
+      "Importe une vidéo ou pars d’un modèle, puis dis à Async dans le chat ce qu’il faut couper, sous-titrer, nettoyer ou générer.",
+      "Passe à Essentials, Pro ou Teams si tu as besoin d’un quota mensuel de crédits et d’un export de meilleure qualité."
+    ],
+    "features_en": [
+      "Chat-based AI video editor: rough-cut cleanup, captions, clips, B-roll, music and audio cleanup",
+      "Remote multitrack recording, text-based audio editing, AI voices and optional voice cloning",
+      "Free plan with no card, plus Essentials, Pro and Teams credit plans and a custom Business offer",
+      "Formerly Podcastle; same product under a new name and domain"
+    ],
+    "features_fr": [
+      "Éditeur vidéo IA par le chat : nettoyage du rush, sous-titres, clips, B-roll, musique et nettoyage audio",
+      "Enregistrement multipiste à distance, montage audio par le texte, voix IA et clonage de voix en option",
+      "Offre gratuite sans carte, plus plans Essentials, Pro et Teams au crédit, et offre Business sur mesure",
+      "Anciennement Podcastle ; le même produit, sous un nouveau nom et un nouveau domaine"
+    ],
+    "short_fr": "Éditeur vidéo IA (ex-Podcastle) : tu montes, sous-titres et génères des clips en parlant à Async, avec une offre gratuite puis des plans à partir de 19,99 €/mois.",
+    "short_en": "AI video editor (formerly Podcastle) for cutting, captioning and generating clips by talking to Async, with a free plan and paid tiers.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Anciennement Podcastle. Preuve officielle : https://async.com/announcements/podcastle-is-now-async/",
+      "Depuis l’UE, async.com redirige vers /es ; l’URL canonique anglaise est https://async.com/ et https://async.com/pricing (hreflang en). Ne pas utiliser /en : cela aboutit à une 404 (/es/en).",
+      "Prix officiels en EUR pour cette région (API de paiement), pas une conversion BCE depuis l’USD. Les tarifs USD affichés à un visiteur US n’ont pas été relevés ici.",
+      "La réduction annuelle de 40 % est le tarif annuel normal, pas une promo limitée.",
+      "Catégorie proposée : Video (le positionnement actuel). Ancienne fiche : Voice & Speech.",
+      "Hôte marketing anglais observé : https://landing.async.com/ (évite la geo-redirection /es). Le domaine canonique reste https://async.com/."
+    ],
+    "url": "https://async.com/",
+    "official_url": "https://async.com/",
+    "official_url_final": "https://async.com/",
+    "source_csv": "sunset-candidates.md",
+    "renamed_from": "podcastle",
+    "formerly": "Podcastle"
+  },
+  {
+    "slug": "anarlog",
+    "name": "Anarlog",
+    "category": "Meetings & Notes",
+    "category_note": "Ancienne fiche hyprnote en « meetings ». Bloc-notes de réunion local et open source : Meetings & Notes. Ne pas pointer vers char.com, produit distinct.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Free $0/month — private, local meeting notes with on-device models or your own API keys: unlimited on-device transcription, local recordings and audio player, BYOK for STT and AI, notes, folders and community templates, chat and exports, local API, CLI, MCP and webhooks, manual speaker labeling. Pro $14/person/month or $140/person/year — everything in Free plus scheduled auto-recording and joining, custom templates, advanced AI context and web research, system-wide dictation, cloud transcription, cloud LLM, better speaker identification, cloud sync (3 personal devices or 5 per workspace member), E2EE, share notes, integrations and personal automations, folder sharing, custom dictionaries, shared workspaces, members/roles, centralized per-seat billing, shared team folders, templates and automations. Official 30-day Pro trial. Enterprise: custom, founder-led rollout (SSO/SCIM, policies, audit, custom subdomain, customer-hosted data plane). A YC founder perk is mentioned for eligibility and verification; it is not used as a general public price. Desktop downloads: macOS (Apple Silicon and Intel), Windows x64 (beta) and Linux (beta). Built-in on-device transcription requires supported Apple Silicon; on other platforms you configure a local transcription server or a hosted provider. iOS and Android were still listed as “Coming October” on the download page on 2026-11-16 and are not treated as available. Source: official pages https://anarlog.so/ and https://anarlog.so/pricing/, plus https://anarlog.so/download, verified 2026-11-16.",
+    "pricing_en": "Free 0 €/month — private, local meeting notes with on-device models or your own API keys: unlimited on-device transcription, local recordings and audio player, BYOK for STT and AI, notes, folders and community templates, chat and exports, local API, CLI, MCP and webhooks, manual speaker labeling. Pro 13 €/person/month or 127 €/person/year — everything in Free plus scheduled auto-recording and joining, custom templates, advanced AI context and web research, system-wide dictation, cloud transcription, cloud LLM, better speaker identification, cloud sync (3 personal devices or 5 per workspace member), E2EE, share notes, integrations and personal automations, folder sharing, custom dictionaries, shared workspaces, members/roles, centralized per-seat billing, shared team folders, templates and automations. Official 30-day Pro trial. Enterprise: custom, founder-led rollout (SSO/SCIM, policies, audit, custom subdomain, customer-hosted data plane). A YC founder perk is mentioned for eligibility and verification; it is not used as a general public price. Desktop downloads: macOS (Apple Silicon and Intel), Windows x64 (beta) and Linux (beta). Built-in on-device transcription requires supported Apple Silicon; on other platforms you configure a local transcription server or a hosted provider.",
+    "pricing_fr": "Gratuit 0 €/mois — notes de réunion privées et locales, avec modèles sur l’appareil ou tes propres clés API : transcription illimitée sur l’appareil, enregistrements locaux et lecteur audio, BYOK pour STT et IA, notes, dossiers et modèles communautaires, chat et exports, API locale, CLI, MCP et webhooks, étiquetage manuel des locuteurs. Pro 13 €/personne/mois ou 127 €/personne/an — tout le Gratuit plus enregistrement automatique programmé et participation, modèles personnalisés, contexte IA avancé et recherche web, dictée système, transcription cloud, LLM cloud, meilleure identification des locuteurs, sync cloud (3 appareils perso ou 5 par membre d’espace), chiffrement de bout en bout, partage de notes, intégrations et automations perso, partage de dossiers, dictionnaires personnalisés, espaces partagés, membres et rôles, facturation centralisée par siège, dossiers, modèles et automations d’équipe. Essai Pro officiel de 30 jours. Enterprise : tarif sur mesure, déploiement mené par les fondateurs (SSO/SCIM, politiques, audit, sous-domaine, plan de données auto-hébergé). Un avantage fondateur YC est mentionné sous conditions ; ce n’est pas pris comme tarif public général. Téléchargements desktop : macOS (Apple Silicon et Intel), Windows x64 (bêta) et Linux (bêta). La transcription intégrée sur l’appareil exige un Apple Silicon pris en charge ; sur les autres plateformes, tu configures un serveur de transcription local ou un fournisseur hébergé.",
+    "howTo_en": [
+      "Download Anarlog from anarlog.so for Mac, Windows or Linux and install the desktop app.",
+      "Record a meeting from your computer, with no bot in the call; notes and recordings stay on your device by default.",
+      "Stay on Free with on-device or BYOK models, or start the 30-day Pro trial for cloud transcription, sync and sharing."
+    ],
+    "howTo_fr": [
+      "Télécharge Anarlog sur anarlog.so pour Mac, Windows ou Linux et installe l’app desktop.",
+      "Enregistre une réunion depuis ton ordinateur, sans robot dans l’appel ; notes et enregistrements restent sur ton appareil par défaut.",
+      "Reste en Gratuit avec des modèles locaux ou tes clés, ou lance l’essai Pro de 30 jours pour la transcription cloud, la sync et le partage."
+    ],
+    "features_en": [
+      "Bot-free, local-first meeting notepad: notes, transcripts and recordings stay on your device by default",
+      "Open source, with on-device models or your own API keys, plus a local API, CLI, MCP and webhooks",
+      "Optional Pro: cloud transcription and LLM, system-wide dictation, sync, E2EE and team sharing",
+      "Desktop app for Mac, Windows (beta) and Linux (beta); built-in on-device transcription needs supported Apple Silicon"
+    ],
+    "features_fr": [
+      "Bloc-notes de réunion sans robot, local d’abord : notes, transcriptions et enregistrements restent sur ton appareil par défaut",
+      "Open source, avec modèles sur l’appareil ou tes propres clés API, plus API locale, CLI, MCP et webhooks",
+      "Pro en option : transcription et LLM cloud, dictée système, sync, chiffrement de bout en bout et partage d’équipe",
+      "App desktop pour Mac, Windows (bêta) et Linux (bêta) ; la transcription intégrée sur l’appareil exige un Apple Silicon pris en charge"
+    ],
+    "short_fr": "Bloc-notes de réunion IA local et open source (ex-Hyprnote) : sans robot dans l’appel, données sur ton appareil, avec un Pro optionnel à 13 €/personne/mois.",
+    "short_en": "Local, open-source AI meeting notepad (formerly Hyprnote) that stays off the call, keeps data on your device, and offers an optional Pro plan.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Anciennement Hyprnote, un temps appelé Char, désormais Anarlog. Ne pas confondre avec char.com (autre produit, AI todo notepad). Preuve : https://anarlog.so/blog/char-is-now-anarlog/",
+      "L’avantage fondateur YC n’est pas affiché comme prix public.",
+      "Transcription locale intégrée limitée à l’Apple Silicon pris en charge, d’après la page de téléchargement.",
+      "iOS/Android encore indiqués « Coming October » au 16/11/2026 sur la page download : non présentés comme disponibles."
+    ],
+    "url": "https://anarlog.so/",
+    "official_url": "https://anarlog.so/",
+    "official_url_final": "https://anarlog.so/",
+    "source_csv": "sunset-candidates.md",
+    "renamed_from": "hyprnote",
+    "formerly": "Hyprnote"
+  },
+  {
+    "slug": "arena",
+    "name": "Arena",
+    "category": "LLM & Chatbots",
+    "category_note": "Ancienne fiche lmarena en « llm-chatbots ». Classement public et duels de modèles : LLM & Chatbots reste le meilleur fit. L’entreprise vend aussi un service d’évaluations aux labs, sans grille publique.",
+    "converted_from_usd": false,
+    "official_currency": "USD",
+    "pricing_usd_official": "The public leaderboard, head-to-head battles and open access to models are officially free as a public service (no consumer paid ladder is published). Arena also sells a commercial product, AI Evaluations, to enterprises, model labs and developers (community-based evaluations, auditable feedback samples, delivery SLAs). No list prices are published; the official post asks interested teams to contact evaluations@arena.ai and mentions flexible pricing for open-weight models and nonprofit institutions, without amounts. Those unpublished figures are not invented here. Source: official site https://arena.ai/, About https://arena.ai/company/about, rebrand post https://arena.ai/blog/lmarena-is-now-arena (28 Jan 2026), and AI Evaluations post https://arena.ai/blog/ai-evaluations (16 Sept 2025), verified 2026-11-16. The path /pricing on arena.ai does not publish a price ladder (same app shell as the homepage).",
+    "pricing_en": "Free for the public platform: leaderboards, head-to-head battles and open access to models, officially offered as a public service. No consumer paid plan is published. Arena also sells AI Evaluations to enterprises, model labs and developers (community-based evaluations, auditable samples, delivery SLAs). No list prices are published; official contact is evaluations@arena.ai, with flexible pricing mentioned for open-weight models and nonprofits, without amounts. Those unpublished figures are not invented here.",
+    "pricing_fr": "Gratuit pour la plateforme publique : classements, duels et accès ouvert aux modèles, officiellement proposés comme un service public. Aucun plan payant grand public n’est publié. Arena vend aussi AI Evaluations aux entreprises, labs et développeurs (évaluations fondées sur la communauté, échantillons auditables, SLA de livraison). Aucun tarif public n’est publié ; le contact officiel est evaluations@arena.ai, avec des tarifs flexibles mentionnés pour les modèles open-weight et les institutions non lucratives, sans montants. Ces montants non publiés ne sont pas inventés ici.",
+    "howTo_en": [
+      "Open arena.ai and start a battle or open a leaderboard — the public platform does not require a paid account.",
+      "Send the same prompt to two anonymous models and vote for the better answer.",
+      "If you need custom enterprise evaluations, contact evaluations@arena.ai; no public list price is published."
+    ],
+    "howTo_fr": [
+      "Ouvre arena.ai et lance un duel ou un classement — la plateforme publique n’exige pas de compte payant.",
+      "Envoie la même consigne à deux modèles anonymes et vote pour la meilleure réponse.",
+      "Si tu as besoin d’évaluations entreprise sur mesure, contacte evaluations@arena.ai ; aucun tarif public n’est publié."
+    ],
+    "features_en": [
+      "Public AI ranking and leaderboards across text, image, video, code, search and more",
+      "Blind side-by-side battles: two anonymous models answer the same prompt, then you vote",
+      "The public leaderboard is officially kept free as a public service",
+      "Optional commercial AI Evaluations for labs and enterprises, with no published list price"
+    ],
+    "features_fr": [
+      "Classement public des modèles d’IA : texte, image, vidéo, code, recherche et plus",
+      "Duels à l’aveugle : deux modèles anonymes répondent à la même consigne, puis tu votes",
+      "Le classement public reste officiellement gratuit, comme un service public",
+      "AI Evaluations en option pour labs et entreprises, sans tarif public publié"
+    ],
+    "short_fr": "Classement public des modèles d’IA (ex-LMArena) : tu confrontes deux modèles à l’aveugle et tu votes, gratuitement ; les évaluations entreprise se font sur devis.",
+    "short_en": "Public AI model leaderboard (formerly LMArena) where you compare two models in a blind vote, for free; enterprise evaluations are quoted on request.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Anciennement LMArena (et avant cela Chatbot Arena). Preuve officielle : https://arena.ai/blog/lmarena-is-now-arena et la page About. Le site se présente aussi comme « Arena AI » ; le nom de fiche suit le slug convenu « Arena ».",
+      "Aucune grille de prix pour AI Evaluations : contact evaluations@arena.ai, montants non inventés.",
+      "Ne pas confondre avec d’autres produits nommés « Arena » ou « Beam » ; domaine officiel arena.ai (lmarena.ai redirige ici)."
+    ],
+    "url": "https://arena.ai/",
+    "official_url": "https://arena.ai/",
+    "official_url_final": "https://arena.ai/",
+    "source_csv": "sunset-candidates.md",
+    "renamed_from": "lmarena",
+    "formerly": "LMArena"
+  },
+  {
+    "slug": "opera-ai",
+    "name": "Opera AI",
+    "category": "LLM & Chatbots",
+    "category_note": "Ancienne fiche opera-aria en « llm-chatbots ». Assistant IA intégré au navigateur Opera : LLM & Chatbots.",
+    "converted_from_usd": false,
+    "official_currency": "USD",
+    "pricing_usd_official": "Opera AI is officially a free service in the Opera browser, with no log-in or sign-up required. A free Opera Account is optional and unlocks chat history (saved for one year when signed in; six hours if not) and higher image-generation limits. Image generation is subject to fair-use limits; the official FAQ does not publish a numeric daily cap and none is invented here. There is no published paid tier for Opera AI itself. Opera Neon is a separate paid Opera browser (officially mentioned in the Opera AI FAQ as the place to go for higher image limits, including a plan with unlimited image generation); Neon’s own subscription price is not a price of Opera AI and is not listed here. Other paid Opera features such as VPN Pro are separate browser products, not Opera AI plans. Official FAQ: you must be at least 18; Opera AI is unavailable in a private window and in a listed set of countries and regions. Source: official product page https://www.opera.com/features/opera-ai and official FAQ https://help.opera.com/en/browser-ai-faq/, verified 2026-11-16.",
+    "pricing_en": "Free in the Opera browser (Opera One, Opera GX, Opera Air, and Opera for Android and iOS), with no log-in or sign-up required. A free Opera Account is optional and unlocks chat history (saved for one year when signed in; six hours if not) and higher image-generation limits. Image generation is subject to fair-use limits; the official FAQ does not publish a numeric daily cap and none is invented here. No paid plan is published for Opera AI itself. Opera Neon is a separate Opera browser, mentioned in the official FAQ for higher image limits; it is not a paid tier of Opera AI and its price is not listed here. Other paid Opera features such as VPN Pro are separate products, not Opera AI plans. Official FAQ: you must be at least 18; Opera AI is unavailable in a private window and in a listed set of countries and regions.",
+    "pricing_fr": "Gratuit dans le navigateur Opera (Opera One, Opera GX, Opera Air, et Opera pour Android et iOS), sans compte ni inscription obligatoires. Un compte Opera gratuit est optionnel et débloque l’historique des chats (conservé un an si tu es connecté ; six heures sinon) et des limites plus hautes de génération d’images. La génération d’images est soumise à un usage raisonnable ; la FAQ officielle ne publie pas de plafond quotidien chiffré, et aucun n’est inventé ici. Aucun plan payant n’est publié pour Opera AI lui-même. Opera Neon est un autre navigateur Opera, mentionné dans la FAQ officielle pour des limites d’images plus hautes ; ce n’est pas une offre payante d’Opera AI, et son prix n’est pas listé ici. D’autres options payantes Opera, comme VPN Pro, sont des produits séparés, pas des plans d’Opera AI. FAQ officielle : tu dois avoir au moins 18 ans ; Opera AI n’est pas disponible en fenêtre privée ni dans une liste de pays et régions.",
+    "howTo_en": [
+      "Install Opera One, Opera GX or Opera Air, then click Ask AI at the top right (Ctrl+O on Windows or Linux, Cmd+O on a Mac).",
+      "Ask about the page or tab island you are on, generate an image, or upload a file to analyze or summarize.",
+      "Optionally sign in to a free Opera Account if you want saved chat history and a higher image limit."
+    ],
+    "howTo_fr": [
+      "Installe Opera One, Opera GX ou Opera Air, puis clique sur Ask AI en haut à droite (Ctrl+O sous Windows ou Linux, Cmd+O sur un Mac).",
+      "Pose une question sur la page ou l’île d’onglets ouverte, génère une image, ou importe un fichier à analyser ou résumer.",
+      "Connecte-toi éventuellement à un compte Opera gratuit si tu veux garder l’historique des chats et une limite d’images plus haute."
+    ],
+    "features_en": [
+      "Free, accountless AI assistant built into Opera, with models from OpenAI and Google",
+      "Page and tab-island context: summarize, compare, translate (about 50 languages) and extract key points without leaving the page",
+      "Image generation, file and image analysis, voice input and output",
+      "Optional free Opera Account for chat history and higher image limits; no paid Opera AI plan is published"
+    ],
+    "features_fr": [
+      "Assistant IA gratuit, sans compte obligatoire, intégré à Opera, avec des modèles d’OpenAI et de Google",
+      "Contexte de la page et de l’île d’onglets : résumer, comparer, traduire (environ 50 langues) et extraire les points clés sans quitter la page",
+      "Génération d’images, analyse de fichiers et d’images, entrée et sortie vocales",
+      "Compte Opera gratuit en option pour l’historique et une limite d’images plus haute ; aucun plan payant d’Opera AI n’est publié"
+    ],
+    "short_fr": "Assistant IA gratuit intégré au navigateur Opera (ex-Aria) : tu résumes tes pages, génères des images et analyses des fichiers, sans compte obligatoire.",
+    "short_en": "Free AI assistant built into the Opera browser (formerly Opera Aria) for summarizing pages, generating images and analyzing files, with no account required.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Anciennement Opera Aria / Aria AI. Preuve officielle : page produit « Opera AI (previously Aria AI) » et blogs Opera sur le passage à Opera AI.",
+      "Opera Neon est un navigateur payant distinct, pas un palier d’Opera AI : son tarif n’est pas affiché ici.",
+      "VPN Pro et autres options payantes du navigateur sont des produits séparés.",
+      "Logo : marque officielle Opera (O rouge) utilisée sur opera.com / la page Opera AI ; pas de pictogramme « Opera AI » distinct trouvé."
+    ],
+    "url": "https://www.opera.com/features/opera-ai",
+    "official_url": "https://www.opera.com/features/opera-ai",
+    "official_url_final": "https://www.opera.com/features/opera-ai",
+    "source_csv": "sunset-candidates.md",
+    "renamed_from": "opera-aria",
+    "formerly": "Opera Aria"
+  }
+]

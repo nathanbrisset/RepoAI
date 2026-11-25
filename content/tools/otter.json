@@ -18,7 +18,7 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "Duplicate fiche. otter.ai/pricing: Basic Free, Pro $8.49-16.99/user/month",
+    "note": "Basic plan free; Pro 8–15 €/user/month.",
     "sourceUrl": "https://otter.ai/pricing"
   },
   "logo": "/logos/otter.png",
@@ -58,6 +58,7 @@
   "sources": [
     "https://otter.ai"
   ],
-  "statusNote": "Duplicate Otter.ai entry (id otter, marked Free); keep id otterai",
-  "successorId": "otterai"
+  "statusNote": "Consolidated under Otter.ai.",
+  "successorId": "otterai",
+  "statusNote_fr": "Regroupé sous Otter.ai."
 }

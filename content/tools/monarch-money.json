@@ -1,7 +1,7 @@
 {
   "id": "monarch-money",
   "name": "Monarch Money",
-  "url": "https://www.monarchmoney.com",
+  "url": "https://www.monarch.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Personal budgeting app with an AI assistant.",
@@ -19,16 +19,16 @@
   ],
   "pricing": {
     "verified": false,
-    "sourceUrl": "https://www.monarchmoney.com",
+    "sourceUrl": "https://www.monarch.com/",
     "model": "paid",
     "label": "Premium",
     "note": "Paid plans; see the official site for current pricing.",
-    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
+    "note_fr": "Offre payante; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/monarch-money.png",
   "image": "/screenshots/monarch-money.webp",
   "dateAdded": "2026-10-30",
-  "lastVerified": "2026-10-30",
+  "lastVerified": "2026-11-16",
   "features": [
     "All accounts together",
     "Budgeting and spending tracking",
@@ -48,7 +48,7 @@
       "links": [
         {
           "label": "Monarch Money",
-          "url": "https://www.monarchmoney.com"
+          "url": "https://www.monarch.com/"
         }
       ]
     },
@@ -80,7 +80,7 @@
       "links": [
         {
           "label": "Monarch Money",
-          "url": "https://www.monarchmoney.com"
+          "url": "https://www.monarch.com/"
         }
       ]
     },
@@ -96,5 +96,8 @@
       "title": "Budget et suivi des dépenses",
       "description": "Teste budget et suivi des dépenses sur un petit exemple avant d'automatiser ou d'étendre l'usage."
     }
+  ],
+  "sources": [
+    "https://www.monarch.com/blog/migration-to-monarch"
   ]
 }

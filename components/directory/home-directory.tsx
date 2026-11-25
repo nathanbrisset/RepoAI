@@ -1,5 +1,6 @@
 "use client"
 
+import dynamic from "next/dynamic"
 import { useEffect, useState } from "react"
 import { ArrowRight, Search, Sparkles } from "lucide-react"
 import { useRouter } from "next/navigation"
@@ -9,13 +10,19 @@ import { directoryCopy, fill } from "@/lib/i18n/directory-copy"
 import { localizeHref } from "@/lib/i18n/paths"
 import { fetchDirectoryRecords, fetchDirectorySearch } from "@/lib/directory/client-records"
 import type { DirectoryRecord, ResolvedCollection } from "@/lib/directory/data"
-import { homeCountryCatalogueFilter } from "@/lib/home-country-section"
+import { homeCountryCatalogueFilter } from "@/lib/home-country-filter"
 import { CategoryChipsBar } from "./category-chips-bar"
 import { CollectionCard } from "./collection-card"
 import { Shuriken } from "./shuriken"
 import { ToolCard } from "./tool-card"
 import { useDirectory } from "./directory-provider"
-import { AiMatchSwipeModal } from "@/components/ai-match-swipe/ai-match-swipe-modal"
+const AiMatchSwipeModal = dynamic(
+  () =>
+    import("@/components/ai-match-swipe/ai-match-swipe-modal").then((mod) => ({
+      default: mod.AiMatchSwipeModal,
+    })),
+  { ssr: false },
+)
 
 export function HomeDirectory({
   picks,

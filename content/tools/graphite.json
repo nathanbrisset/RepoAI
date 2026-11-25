@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Code review platform for GitHub with stacked PRs, AI review and a merge queue.",
-  "description": "Graphite is a code review platform for teams on GitHub. It supports stacked pull requests through its CLI and web app, provides AI reviews, a merge queue and insights. Cursor Cloud Agents are now integrated so users can create and ship changes from a pull request. A Hobby plan is free for personal repositories; Starter costs $20 and Team $40 per user per month, billed annually.",
+  "description": "Graphite is a code review platform for teams on GitHub. It supports stacked pull requests through its CLI and web app, provides AI reviews, a merge queue and insights. Cursor Cloud Agents are integrated so users can create and ship changes from a pull request. A Hobby plan is free for personal repositories; Starter and Team are paid tiers billed annually.",
   "categories": [
     "coding"
   ],
@@ -19,8 +19,9 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "$20/user/mo (annual)",
-    "sourceUrl": "https://graphite.com/pricing"
+    "note": "Paid plans, billed annually.",
+    "sourceUrl": "https://graphite.com/pricing",
+    "uncertain": true
   },
   "logo": "/logos/graphite.png",
   "image": "/screenshots/graphite.webp",
@@ -51,7 +52,7 @@
     },
     {
       "title": "Compare Hobby, Starter, and Team",
-      "description": "A Hobby plan is free for personal repositories. Starter costs $20 and Team $40 per user per month, billed annually."
+      "description": "A Hobby plan is free for personal repositories. Starter and Team are paid tiers with annual billing options."
     }
   ],
   "features": [

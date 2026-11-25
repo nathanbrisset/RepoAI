@@ -17,7 +17,7 @@
     "model": "open-source",
     "label": "Open source",
     "verified": true,
-    "note": "Checked on 22 October 2026: the official GitHub repository publishes this as open-source software, with no paid plan on that page.",
+    "note": "Open-source software on the official GitHub repository; no paid plan on that page.",
     "sourceUrl": "https://github.com/salesforce/CodeT5"
   },
   "logo": "/logos/codet5.png",
@@ -52,9 +52,9 @@
   ],
   "statusNote": "Grouped in the Data science collection; hidden from main discovery.",
   "features_fr": [
-    "Compréhension et génération de code : excelle dans des tâches telles que la synthèse et la traduction de code.",
-    "Pré-formation prenant en compte les identifiants : comprend le rôle des identifiants dans le code pour un meilleur contexte.",
-    "Prise en charge de plusieurs langages de programmation : formé sur diverses bases de code pour gérer différents langages.",
-    "Architecture basée sur un transformateur : utilise des modèles avancés d'apprentissage automatique pour les tâches de code."
+    "Compréhension et génération de code: excelle dans des tâches telles que la synthèse et la traduction de code.",
+    "Pré-formation prenant en compte les identifiants: comprend le rôle des identifiants dans le code pour un meilleur contexte.",
+    "Prise en charge de plusieurs langages de programmation: formé sur diverses bases de code pour gérer différents langages.",
+    "Architecture basée sur un transformateur: utilise des modèles avancés d'apprentissage automatique pour les tâches de code."
   ]
 }

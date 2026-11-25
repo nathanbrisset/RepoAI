@@ -1,7 +1,7 @@
 {
   "id": "stack-ai",
   "name": "Stack AI",
-  "url": "https://www.stack-ai.com/",
+  "url": "https://www.stackai.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "No-code platform to build enterprise AI agents.",
@@ -20,12 +20,12 @@
     "label": "Enterprise",
     "verified": false,
     "note": "See official pricing at https://www.stack-ai.com/.",
-    "sourceUrl": "https://www.stack-ai.com/"
+    "sourceUrl": "https://www.stackai.com/"
   },
   "logo": "/logos/stack-ai.png",
   "image": "/screenshots/stack-ai.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "No-code agents and assistants",
     "Company data connections",
@@ -39,7 +39,7 @@
       "links": [
         {
           "label": "Stack AI",
-          "url": "https://www.stack-ai.com/"
+          "url": "https://www.stackai.com/"
         }
       ]
     },
@@ -63,5 +63,8 @@
     "Contrôles de sécurité pour secteurs réglementés"
   ],
   "summary_fr": "Plateforme sans code pour créer des agents IA d'entreprise.",
-  "description_fr": "Stack AI permet de concevoir, tester et déployer des assistants et agents IA connectés aux données de l'entreprise, avec des contrôles de sécurité adaptés aux secteurs réglementés."
+  "description_fr": "Stack AI permet de concevoir, tester et déployer des assistants et agents IA connectés aux données de l'entreprise, avec des contrôles de sécurité adaptés aux secteurs réglementés.",
+  "sources": [
+    "https://www.stackai.com/"
+  ]
 }

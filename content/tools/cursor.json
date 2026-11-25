@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI code editor with agents, now bundled with xAI's Grok plans.",
-  "description": "Cursor is an AI-first code editor with agents, tab completion, cloud agents and code review. Its pricing page now presents a shared subscription with Grok and X: the Free plan ($0) has limited AI usage, Plus is $8/month with Grok models only, Premium $30/month adds the latest models and cloud agents, and Super ($100) and Ultra ($200) raise usage. Third-party models are billed separately by usage; it should no longer be listed as Free.",
+  "description": "Cursor is an AI-first code editor with agents, tab completion, cloud agents and code review. Its pricing page now presents a shared subscription with Grok and X: the Free plan (0 €) has limited AI usage, Plus is 7 €/month with Grok models only, Premium 27 €/month adds the latest models and cloud agents, and Super (90 €) and Ultra (181 €) raise usage. Third-party models are billed separately by usage; it should no longer be listed as Free.",
   "categories": [
     "coding"
   ],
@@ -18,7 +18,7 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "Its pricing page now presents a shared subscription with Grok and X: the Free plan ($0) has limited AI usage, Plus is $8/month with Grok models only, Premium $30/month adds the latest models and cloud agents, and Super ($100) and Ultra ($200) raise usage.",
+    "note": "Its pricing page now presents a shared subscription with Grok and X: the Free plan (0 €) has limited AI usage, Plus is 7 €/month with Grok models only, Premium 27 €/month adds the latest models and cloud agents, and Super (90 €/month) and Ultra (181 €/month) raise usage.",
     "sourceUrl": "https://cursor.com/pricing"
   },
   "logo": "/logos/cursor.png",
@@ -60,9 +60,9 @@
     "https://grok.com/plans"
   ],
   "features_fr": [
-    "Examen du code AI : met en évidence les défauts logiques et les inefficacités.",
-    "Intégration Copilot : discutez avec du code en utilisant un langage naturel.",
-    "Suggestions de refactorisation : restructure le code pour plus de lisibilité et d'efficacité.",
-    "Environnement de type IDE : fonctionne dans un IDE d'IA basé sur le Web avec des outils de débogage."
+    "Examen du code AI: met en évidence les défauts logiques et les inefficacités.",
+    "Intégration Copilot: discutez avec du code en utilisant un langage naturel.",
+    "Suggestions de refactorisation: restructure le code pour plus de lisibilité et d'efficacité.",
+    "Environnement de type IDE: fonctionne dans un IDE d'IA basé sur le Web avec des outils de débogage."
   ]
 }

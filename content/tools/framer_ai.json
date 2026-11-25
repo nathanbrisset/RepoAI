@@ -18,8 +18,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/framer_ai.png",
   "image": "/screenshots/framer_ai.webp",
@@ -60,7 +59,7 @@
     }
   ],
   "features_fr": [
-    "AI Layouts : générez des structures de page avec des invites de texte.",
+    "AI Layouts : génère des structures de page avec des invites de texte.",
     "Rédaction : créez et modifiez instantanément une copie de site Web.",
     "Bibliothèque de composants : accédez aux blocs de construction de l'interface utilisateur interactive.",
     "Aperçu en direct : visualisez et testez les conceptions en temps réel."

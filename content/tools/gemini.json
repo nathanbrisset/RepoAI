@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Google's AI assistant app powered by Gemini models.",
-  "description": "Update replacing 'Gemini 1.5 Pro': Gemini is now Google's AI assistant and model family (latest Gemini 4 Argon) for chat, Deep Research, image and video creation and Gemini Live, integrated across Google apps. The app is free with a Google account; Google AI Plus costs $4.99/month, Pro $19.99/month and Ultra from $99.99/month, while developers access the models through Google AI Studio and the Gemini API.",
+  "description": "Update replacing 'Gemini 1.5 Pro': Gemini is now Google's AI assistant and model family (latest Gemini 4 Argon) for chat, Deep Research, image and video creation and Gemini Live, integrated across Google apps. The app is free with a Google account; Google AI Plus costs 4.99 €/month, Pro 21.99 €/month and Ultra from 99.99 €/month, while developers access the models through Google AI Studio and the Gemini API.",
   "categories": [
     "llm-chatbots"
   ],
@@ -19,7 +19,7 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "The app is free with a Google account; Google AI Plus costs $4.99/month, Pro $19.99/month and Ultra from $99.99/month, while developers access the models through Google AI Studio and the Gemini API.",
+    "note": "The app is free with a Google account. Official EUR prices: Google AI Plus 4.99 €/month, Pro 21.99 €/month, Ultra 99.99 €/month (5x) or 219.99 €/month (20x). Developers access the models through Google AI Studio and the Gemini API. A Black Friday discount on selected Google AI plans was shown and is not used as the regular price.",
     "sourceUrl": "https://gemini.google/subscriptions/"
   },
   "logo": "/logos/gemini.png",
@@ -61,9 +61,9 @@
     "https://ai.google.dev/gemini-api/docs/pricing"
   ],
   "features_fr": [
-    "Prise en charge multilingue : traduit et comprend le contenu dans plusieurs langues.",
-    "Résumé précis : extrait les idées clés de longs documents.",
-    "Cohérence factuelle : donne la priorité à la vérification des faits et aux résultats étayés par des preuves.",
-    "Rédaction académique : génère des citations, des arguments structurés et des rapports."
+    "Prise en charge multilingue: traduit et comprend le contenu dans plusieurs langues.",
+    "Résumé précis: extrait les idées clés de longs documents.",
+    "Cohérence factuelle: donne la priorité à la vérification des faits et aux résultats étayés par des preuves.",
+    "Rédaction académique: génère des citations, des arguments structurés et des rapports."
   ]
 }

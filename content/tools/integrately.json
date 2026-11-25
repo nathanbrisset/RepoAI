@@ -5,9 +5,9 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "No-code integration tool with ready-made one-click automations for 1,500+ apps.",
-  "description": "Integrately is a no-code tool for connecting apps. It offers a library of ready-made automations that users activate in a few clicks instead of building workflows from scratch. It supports more than 1,500 apps, with webhooks, branching and scheduling. The pricing page lists a free plan with 100 tasks, Starter at $19.99 per month billed annually (2,000 tasks), Professional at $39, Growth at $99 and Business at $239 per month. Paid plans include live chat support.",
+  "description": "Integrately is a no-code tool for connecting apps. It offers a library of ready-made automations that users activate in a few clicks instead of building workflows from scratch. It supports more than 1,500 apps, with webhooks, branching and scheduling. The pricing page lists a free plan with 100 tasks, Starter at 18.09 € per month billed annually (2,000 tasks), Professional at 35 €, Growth at 90 € and Business at 216 € per month. Paid plans include live chat support.",
   "summary_fr": "Outil d'intégration sans code avec des automatisations prêtes en un clic pour plus de 1 500 applications.",
-  "description_fr": "Integrately est un outil sans code pour connecter des applications. Il propose une bibliothèque d'automatisations prêtes que l'on active en quelques clics au lieu de construire le flux. Il prend en charge plus de 1 500 applications, avec webhooks, branchements et planification. La page tarifs liste une offre gratuite de 100 tâches, Starter à 19,99 $/mois (Starter, facturé annuellement), Professional à 39 $, Growth à 99 $ et Business à 239 $ par mois. Les plans payants incluent le chat en direct.",
+  "description_fr": "Integrately est un outil sans code pour connecter des applications. Il propose une bibliothèque d'automatisations prêtes que l'on active en quelques clics au lieu de construire le flux. Il prend en charge plus de 1 500 applications, avec webhooks, branchements et planification. La page tarifs liste une offre gratuite de 100 tâches, Starter à 18,09 €/mois (Starter, facturé annuellement), Professional à 35 €, Growth à 90 € et Business à 216 € par mois. Les plans payants incluent le chat en direct.",
   "categories": [
     "automation"
   ],
@@ -21,9 +21,8 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "Free (100 tasks), then $19.99/mo (Starter, billed annually)",
-    "sourceUrl": "https://integrately.com/pricing",
-    "note_fr": "Gratuit (100 tâches), puis 19,99 $/mois (Starter, facturé annuellement)"
+    "note": "Free (100 tasks), then 18.09 €/mo (Starter, billed annually). Professional 35.29 €, Growth 89.58 € and Business 216.25 € per month billed annually. A promotional first-month price was shown and is not used as the regular price.",
+    "sourceUrl": "https://integrately.com/pricing"
   },
   "logo": "/logos/integrately.png",
   "image": "/screenshots/integrately.webp",
@@ -41,7 +40,7 @@
   "howToUse": [
     {
       "title": "Open the free plan",
-      "description": "Choose Get Integrately Free. The free plan includes 100 tasks, and Starter is $19.99 per month billed annually.",
+      "description": "Choose Get Integrately Free. The free plan includes 100 tasks, and Starter is 18.09 € per month billed annually.",
       "links": [
         {
           "label": "Integrately",
@@ -61,7 +60,7 @@
   "howToUse_fr": [
     {
       "title": "Ouvrir l'offre gratuite",
-      "description": "Choisir Get Integrately Free. L'offre comprend 100 tâches, puis Starter est à 19,99 $/mois (Starter, facturé annuellement).",
+      "description": "Choisir Get Integrately Free. L'offre comprend 100 tâches, puis Starter est à 18,09 €/mois (Starter, facturé annuellement).",
       "links": [
         {
           "label": "Integrately",
@@ -80,7 +79,7 @@
   ],
   "features_fr": [
     "Activer les intégrations d'applications prédéfinies",
-    "Automatisez les mises à jour CRM et par e-mail",
-    "Synchronisez les commandes e-commerce"
+    "Automatis les mises à jour CRM et par e-mail",
+    "Synchronise les commandes e-commerce"
   ]
 }

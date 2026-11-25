@@ -1,0 +1,85 @@
+{
+  "id": "manufact",
+  "name": "Manufact",
+  "url": "https://manufact.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "MCP cloud from the mcp-use team to deploy MCP apps and servers, test them across ChatGPT, Claude and other clients, pass marketplace checks and monitor usage.",
+  "description": "MCP cloud from the mcp-use team to deploy MCP apps and servers, test them across ChatGPT, Claude and other clients, pass marketplace checks and monitor usage.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "mcp",
+    "hosting",
+    "developer-tools",
+    "evals",
+    "observability",
+    "chatgpt-apps"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free 0 €, with 5 € of credits each month. Pay as you go includes 9 €. Pro 228 €/month plus usage, or 2,736 €/year (official yearly price). Enterprise is custom, with no public list price. Per-call usage rates that are too small to show as meaningful euro prices are not itemised here.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/manufact.png",
+  "image": "/screenshots/manufact.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "Deploy MCP apps and servers, test them across ChatGPT, Claude and other clients, pass marketplace checks and monitor usage",
+    "Free 0 € — 5 € of credits each month. Pay as you go includes 9 €. Pro 228 €/month plus usage, or 2,736 €/year. Enterprise is custom",
+    "Per-call usage rates that are too small to show as meaningful euro prices are not itemised here"
+  ],
+  "howToUse": [
+    {
+      "title": "Open manufact.com, start on the Free plan and deploy an MCP app or server.",
+      "description": "Open manufact.com, start on the Free plan and deploy an MCP app or server.",
+      "links": [
+        {
+          "label": "Manufact",
+          "url": "https://manufact.com/"
+        }
+      ]
+    },
+    {
+      "title": "Test it across ChatGPT, Claude or another client and watch usage.",
+      "description": "Test it across ChatGPT, Claude or another client and watch usage."
+    },
+    {
+      "title": "Move to pay as you go or Pro when included credits or volume are no longer enough.",
+      "description": "Move to pay as you go or Pro when included credits or volume are no longer enough."
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/products/manufact"
+  ],
+  "summary_fr": "Cloud MCP de l’équipe mcp-use pour déployer des apps et serveurs MCP, les tester sur ChatGPT, Claude et d’autres clients, passer les contrôles des marketplaces et suivre l’usage.",
+  "description_fr": "Cloud MCP de l’équipe mcp-use pour déployer des apps et serveurs MCP, les tester sur ChatGPT, Claude et d’autres clients, passer les contrôles des marketplaces et suivre l’usage.",
+  "features_fr": [
+    "Déploie des apps et serveurs MCP, teste-les sur ChatGPT, Claude et d’autres clients, passe les contrôles des marketplaces et suis l’usage",
+    "Gratuit 0 € — 5 € de crédits chaque mois. L’offre à l’usage inclut 9 €. Pro 228 €/mois plus l’usage, ou 2 736 €/an. Enterprise est sur mesure",
+    "Les tarifs d’usage à l’appel trop faibles pour s’afficher en euros ne sont pas détaillés ici"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre manufact.com, commence sur l’offre Gratuite et déploie une app ou un serveur MCP.",
+      "description": "Ouvre manufact.com, commence sur l’offre Gratuite et déploie une app ou un serveur MCP.",
+      "links": [
+        {
+          "label": "Manufact",
+          "url": "https://manufact.com/"
+        }
+      ]
+    },
+    {
+      "title": "Teste-le sur ChatGPT, Claude ou un autre client et suis l’usage.",
+      "description": "Teste-le sur ChatGPT, Claude ou un autre client et suis l’usage."
+    },
+    {
+      "title": "Passe à l’usage ou à Pro quand les crédits inclus ou le volume ne suffisent plus.",
+      "description": "Passe à l’usage ou à Pro quand les crédits inclus ou le volume ne suffisent plus."
+    }
+  ]
+}

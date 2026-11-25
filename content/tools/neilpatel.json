@@ -1,12 +1,12 @@
 {
   "id": "neilpatel",
   "name": "Ubersuggest",
-  "url": "https://neilpatel.com/ubersuggest/",
+  "url": "https://ubersuggest.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Accessible SEO tool: keywords, site audit and content ideas.",
   "description": "Neil Patel's Ubersuggest provides search volumes, keyword ideas, competitor analysis, backlinks and a site audit, with a limited free tier. AI features help write optimized content.",
-  "summary_fr": "Outil SEO accessible : mots-clés, audit de site et idées de contenus.",
+  "summary_fr": "Outil SEO accessible: mots-clés, audit de site et idées de contenus.",
   "description_fr": "Ubersuggest, de Neil Patel, fournit volumes de recherche, idées de mots-clés, analyse de concurrents, backlinks et audit technique, avec une version gratuite limitée. Des fonctions IA aident à rédiger des contenus optimisés.",
   "categories": [
     "marketing"
@@ -21,12 +21,12 @@
     "label": "Freemium",
     "verified": false,
     "note": "Freemium",
-    "sourceUrl": "https://neilpatel.com/ubersuggest/"
+    "sourceUrl": "https://ubersuggest.com/"
   },
   "logo": "/logos/neilpatel.png",
   "image": "/screenshots/neilpatel.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "Search volumes and keyword ideas",
     "Competitor and backlink analysis",
@@ -46,7 +46,7 @@
       "links": [
         {
           "label": "Ubersuggest",
-          "url": "https://neilpatel.com/ubersuggest/"
+          "url": "https://ubersuggest.com/"
         }
       ]
     },
@@ -64,5 +64,8 @@
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "sources": [
+    "https://ubersuggest.com/"
+  ]
 }

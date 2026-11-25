@@ -1,0 +1,88 @@
+{
+  "id": "postwise",
+  "name": "Postwise",
+  "url": "https://postwise.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI social-media workspace that writes posts, schedules them and analyses performance, with a 7-day trial on monthly plans.",
+  "description": "AI social-media workspace that writes posts, schedules them and analyses performance, with a 7-day trial on monthly plans.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "marketing",
+    "social",
+    "scheduling",
+    "linkedin",
+    "content",
+    "ghostwriter"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://postwise.ai/pricing",
+    "details": "Monthly subscription, no long-term contract, cancel anytime; 7-day free trial then auto-subscribe to the plan you picked. Basic 33 €/month — 3 social accounts, 500 AI-generated posts/month, 3 months scheduling, 3 custom AI voices, GhostWriter AI, email support. Boss 53 €/month — 5 social accounts, 1,000 AI posts/month, 12 months scheduling, advanced analytics, email and chat support. Unlimited 88 €/month — unlimited social accounts, unlimited AI posts, unlimited scheduling, custom AI training, priority support. The official FAQ states plans are monthly with no long-term commitments.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/postwise.png",
+  "image": "/screenshots/postwise.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "AI-generated posts, GhostWriter assistant, scheduling and custom AI voices",
+    "Analytics on Boss; custom AI training on Unlimited",
+    "Monthly plans with a 7-day free trial, then auto-subscribe, cancel anytime",
+    "The trial is not a permanent free plan."
+  ],
+  "howToUse": [
+    {
+      "title": "Open postwise.ai/pricing and start the 7-day free trial on Basic, Boss or Unlimited.",
+      "description": "Open postwise.ai/pricing and start the 7-day free trial on Basic, Boss or Unlimited.",
+      "links": [
+        {
+          "label": "Postwise",
+          "url": "https://postwise.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Connect social accounts, generate posts with GhostWriter and schedule them.",
+      "description": "Connect social accounts, generate posts with GhostWriter and schedule them."
+    },
+    {
+      "title": "Cancel before the trial ends if you do not want the monthly subscription to begin.",
+      "description": "Cancel before the trial ends if you do not want the monthly subscription to begin."
+    }
+  ],
+  "sources": [
+    "https://postwise.ai/pricing"
+  ],
+  "summary_fr": "Espace de réseaux sociaux IA qui rédige des posts, les planifie et en analyse les performances, avec un essai de 7 jours sur les forfaits mensuels.",
+  "description_fr": "Espace de réseaux sociaux IA qui rédige des posts, les planifie et en analyse les performances, avec un essai de 7 jours sur les forfaits mensuels.",
+  "features_fr": [
+    "Posts générés par IA, assistant GhostWriter, planification et voix IA personnalisées",
+    "Analytique sur Boss ; entraînement IA personnalisé sur Unlimited",
+    "Offres mensuelles avec essai de 7 jours, puis reconduction automatique, résiliable à tout moment",
+    "L’essai ne remplace pas une offre gratuite permanente."
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre postwise.ai/pricing et lance l’essai de 7 jours sur Basic, Boss ou Unlimited.",
+      "description": "Ouvre postwise.ai/pricing et lance l’essai de 7 jours sur Basic, Boss ou Unlimited.",
+      "links": [
+        {
+          "label": "Postwise",
+          "url": "https://postwise.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Connecte tes comptes sociaux, génère des posts avec GhostWriter et planifie-les.",
+      "description": "Connecte tes comptes sociaux, génère des posts avec GhostWriter et planifie-les."
+    },
+    {
+      "title": "Résilie avant la fin de l’essai si tu ne veux pas que l’abonnement mensuel commence.",
+      "description": "Résilie avant la fin de l’essai si tu ne veux pas que l’abonnement mensuel commence."
+    }
+  ]
+}

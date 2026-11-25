@@ -4,7 +4,6 @@
   "url": "https://alphacode.deepmind.com/",
   "affiliateUrl": "",
   "status": "inactive",
-  "statusNote": "Official URL failed (ssl) when checked on 2026-10-21.",
   "summary": "An AI system by DeepMind designed to solve competitive programming problems.",
   "description": "An AI system by DeepMind designed to solve competitive programming problems. Problem-solving AI: Designed to tackle complex programming challenges. Competitive programming: Excels in coding competitions. DeepMind technology: Built by Google's AI research lab. Multilingual support: Handles multiple programming languages.",
   "categories": [
@@ -17,8 +16,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "",
   "image": "/tool-screenshots/alphacode.png",
@@ -51,9 +49,9 @@
     }
   ],
   "features_fr": [
-    "IA de résolution de problèmes : conçue pour relever des défis de programmation complexes.",
-    "Programmation compétitive : Excelle dans les concours de codage.",
-    "Technologie DeepMind : conçue par le laboratoire de recherche en IA de Google.",
-    "Prise en charge multilingue : gère plusieurs langages de programmation."
+    "IA de résolution de problèmes: conçue pour relever des défis de programmation complexes.",
+    "Programmation compétitive: Excelle dans les concours de codage.",
+    "Technologie DeepMind: conçue par le laboratoire de recherche en IA de Google.",
+    "Prise en charge multilingue: gère plusieurs langages de programmation."
   ]
 }

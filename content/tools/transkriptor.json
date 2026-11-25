@@ -1,0 +1,87 @@
+{
+  "id": "transkriptor",
+  "name": "Transkriptor",
+  "url": "https://transkriptor.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI transcription service for meetings, audio and video in 100+ languages, with summaries, translation and a team workspace on higher plans.",
+  "description": "AI transcription service for meetings, audio and video in 100+ languages, with summaries, translation and a team workspace on higher plans.",
+  "categories": [
+    "voice"
+  ],
+  "tags": [
+    "audio",
+    "transcription",
+    "meetings",
+    "translation",
+    "summaries"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://transkriptor.com/pricing/",
+    "details": "Lite 9 €/month — 300 minutes of transcription per month. Pro 18 €/month, or 8 €/month billed 90 € annually — everything in Lite plus 2,400 minutes/month, AI summary, custom meeting-summary templates, AI chat, knowledge base, data not used for training. Team 27 €/month/seat, or 18 €/month/seat billed 217 € annually — everything in Pro plus 3,000 minutes per seat per month, custom vocabulary, call analysis, advanced analytics, centralized team management, custom bot name and avatar. Official bulk hour packs are also listed (e.g. 100 hours 54 €/month, or 27 €/month billed 326 € annually, and larger packs). A “Try it Free” path is offered; no lasting 0 € plan with a documented minute allowance was found on the pricing page",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/transkriptor.png",
+  "image": "/screenshots/transkriptor.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "AI transcription of meetings, audio and video in 100+ languages",
+    "Edit, translate, share and download transcripts, on web and mobile",
+    "Pro adds AI summary, AI chat and a knowledge base; Team adds spaces, custom vocabulary and call analysis",
+    "A free trial is offered; there is no permanent free minute allowance on the pricing page."
+  ],
+  "howToUse": [
+    {
+      "title": "Open transkriptor.com and try the product for free if you want to test a transcript.",
+      "description": "Open transkriptor.com and try the product for free if you want to test a transcript.",
+      "links": [
+        {
+          "label": "Transkriptor",
+          "url": "https://transkriptor.com/"
+        }
+      ]
+    },
+    {
+      "title": "Upload audio or video, or connect a meeting, and edit the transcript.",
+      "description": "Upload audio or video, or connect a meeting, and edit the transcript."
+    },
+    {
+      "title": "Pick Lite, Pro or Team — monthly or yearly — according to how many minutes you transcribe.",
+      "description": "Pick Lite, Pro or Team — monthly or yearly — according to how many minutes you transcribe. Education 50% off is a promo, not the normal price."
+    }
+  ],
+  "sources": [
+    "https://transkriptor.com/pricing/"
+  ],
+  "summary_fr": "Service de transcription IA pour réunions, audio et vidéo dans plus de 100 langues, avec résumés, traduction et espace d’équipe sur les offres supérieures.",
+  "description_fr": "Service de transcription IA pour réunions, audio et vidéo dans plus de 100 langues, avec résumés, traduction et espace d’équipe sur les offres supérieures.",
+  "features_fr": [
+    "Transcription IA de réunions, d’audio et de vidéo dans plus de 100 langues",
+    "Édite, traduis, partage et télécharge les transcriptions, sur le web et le mobile",
+    "Pro ajoute résumé IA, chat IA et base de connaissances ; Team ajoute des espaces, un vocabulaire personnalisé et l’analyse d’appels",
+    "Un essai gratuit est proposé ; pas d’offre gratuite permanente avec un quota de minutes sur la page tarifs."
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre transkriptor.com et essaie le produit gratuitement si tu veux tester une...",
+      "description": "Ouvre transkriptor.com et essaie le produit gratuitement si tu veux tester une transcription.",
+      "links": [
+        {
+          "label": "Transkriptor",
+          "url": "https://transkriptor.com/"
+        }
+      ]
+    },
+    {
+      "title": "Envoie un audio ou une vidéo, ou connecte une réunion, puis relis la transcription.",
+      "description": "Envoie un audio ou une vidéo, ou connecte une réunion, puis relis la transcription."
+    },
+    {
+      "title": "Choisis Lite, Pro ou Team — au mois ou à l’année — selon le volume de minutes à...",
+      "description": "Choisis Lite, Pro ou Team — au mois ou à l’année — selon le volume de minutes à transcrire. Le −50 % éducation est une promo, pas le prix normal."
+    }
+  ]
+}

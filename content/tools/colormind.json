@@ -1,7 +1,7 @@
 {
   "id": "colormind",
   "name": "Colormind",
-  "url": "http://colormind.io",
+  "url": "https://colormind.io/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Machine-learning color palette generator.",
@@ -18,16 +18,16 @@
   ],
   "pricing": {
     "verified": false,
-    "sourceUrl": "http://colormind.io",
+    "sourceUrl": "https://colormind.io/",
     "model": "free",
     "label": "Free",
     "note": "Free; check the official site for limits or paid add-ons.",
-    "note_fr": "Gratuit ; vérifie sur le site les limites ou options payantes."
+    "note_fr": "Gratuit; vérifie sur le site les limites ou options payantes."
   },
   "logo": "/logos/colormind.png",
   "image": "/screenshots/colormind.webp",
   "dateAdded": "2026-10-30",
-  "lastVerified": "2026-10-30",
+  "lastVerified": "2026-11-16",
   "features": [
     "Palettes learned from images",
     "Preview on a website template",
@@ -47,7 +47,7 @@
       "links": [
         {
           "label": "Colormind",
-          "url": "http://colormind.io"
+          "url": "https://colormind.io/"
         }
       ]
     },
@@ -78,7 +78,7 @@
       "links": [
         {
           "label": "Colormind",
-          "url": "http://colormind.io"
+          "url": "https://colormind.io/"
         }
       ]
     },
@@ -94,5 +94,8 @@
       "title": "Aperçu sur un modèle de site",
       "description": "Teste aperçu sur un modèle de site sur un petit exemple avant d'automatiser ou d'étendre l'usage."
     }
+  ],
+  "sources": [
+    "https://colormind.io/"
   ]
 }

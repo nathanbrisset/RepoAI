@@ -7,6 +7,12 @@ import path from "path"
 import { fileURLToPath } from "url"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
+
+/** Compound words that embed « vous » but are not vouvoiement (e.g. rendez-vous). */
+function maskVousExceptions(text) {
+  return text.replace(/\brendez-vous\b/gi, "rendez___MASK")
+}
+
 const VOus = /\b(vous|votre|vos)\b/i
 const dirs = [
   path.join(root, "lib/i18n"),
@@ -18,8 +24,9 @@ const dirs = [
 const hits = []
 function scanFile(file) {
   const text = fs.readFileSync(file, "utf8")
-  if (!VOus.test(text)) return
-  const lines = text.split("\n")
+  const masked = maskVousExceptions(text)
+  if (!VOus.test(masked)) return
+  const lines = masked.split("\n")
   lines.forEach((line, i) => {
     if (VOus.test(line)) hits.push(`${file}:${i + 1}:${line.trim().slice(0, 120)}`)
   })

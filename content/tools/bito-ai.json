@@ -16,8 +16,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/bito-ai.png",
   "image": "/screenshots/bito-ai.webp",
@@ -54,9 +53,9 @@
     }
   ],
   "features_fr": [
-    "Explication du code : décompose la logique complexe.",
-    "Génération de code : écrit du code à partir d'invites.",
-    "Commentaire : ajoute des commentaires de code utiles.",
-    "Prise en charge des tests : aide à l'écriture de tests unitaires."
+    "Explication du code: décompose la logique complexe.",
+    "Génération de code: écrit du code à partir d'invites.",
+    "Commentaire: ajoute des commentaires de code utiles.",
+    "Prise en charge des tests: aide à l'écriture de tests unitaires."
   ]
 }

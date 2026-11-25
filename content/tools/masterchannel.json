@@ -1,7 +1,7 @@
 {
   "id": "masterchannel",
   "name": "Masterchannel",
-  "url": "https://masterchannel.ai",
+  "url": "https://master.channel/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Automatic AI audio mastering.",
@@ -18,16 +18,16 @@
   ],
   "pricing": {
     "verified": false,
-    "sourceUrl": "https://masterchannel.ai",
+    "sourceUrl": "https://master.channel/",
     "model": "freemium",
     "label": "Freemium",
     "note": "Freemium; paid tiers and limits are listed on the official site.",
-    "note_fr": "Freemium : consulte le site officiel pour les limites et offres payantes."
+    "note_fr": "Freemium: consulte le site officiel pour les limites et offres payantes."
   },
   "logo": "/logos/masterchannel.png",
   "image": "/screenshots/masterchannel.webp",
   "dateAdded": "2026-10-30",
-  "lastVerified": "2026-10-30",
+  "lastVerified": "2026-11-16",
   "features": [
     "Mastering in seconds",
     "Match a reference track",
@@ -47,7 +47,7 @@
       "links": [
         {
           "label": "Masterchannel",
-          "url": "https://masterchannel.ai"
+          "url": "https://master.channel/"
         }
       ]
     },
@@ -78,7 +78,7 @@
       "links": [
         {
           "label": "Masterchannel",
-          "url": "https://masterchannel.ai"
+          "url": "https://master.channel/"
         }
       ]
     },
@@ -94,5 +94,8 @@
       "title": "Alignement sur un titre de référence",
       "description": "Teste alignement sur un titre de référence sur un petit exemple avant d'automatiser ou d'étendre l'usage."
     }
+  ],
+  "sources": [
+    "https://master.channel/"
   ]
 }

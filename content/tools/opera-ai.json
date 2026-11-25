@@ -1,0 +1,84 @@
+{
+  "id": "opera-ai",
+  "name": "Opera AI",
+  "url": "https://www.opera.com/features/opera-ai",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Free AI assistant built into the Opera browser (formerly Opera Aria) for summarizing pages, generating images and analyzing files, with no account required.",
+  "description": "Free AI assistant built into the Opera browser (formerly Opera Aria) for summarizing pages, generating images and analyzing files, with no account required.",
+  "categories": [
+    "llm-chatbots"
+  ],
+  "tags": [
+    "opera-ai",
+    "llm-chatbots"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free in the Opera browser (Opera One, Opera GX, Opera Air, and Opera for Android and iOS), with no log-in or sign-up required. A free Opera Account is optional and unlocks chat history (saved for one year when signed in; six hours if not) and higher image-generation limits. Image generation is subject to fair-use limits; the official FAQ does not publish a numeric daily cap. No paid plan is published for Opera AI itself. Opera Neon is a separate Opera browser, mentioned in the official FAQ for higher image limits; it is not a paid tier of Opera AI. Other paid Opera features such as VPN Pro are separate products, not Opera AI plans. Official FAQ: you must be at least 18; Opera AI is unavailable in a private window and in a listed set of countries and regions.",
+    "model": "free",
+    "label": "Free",
+    "sourceUrl": "https://www.opera.com/features/opera-ai"
+  },
+  "logo": "/logos/opera-ai.png",
+  "image": "/screenshots/opera-ai.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Free, accountless AI assistant built into Opera, with models from OpenAI and Google",
+    "Page and tab-island context: summarize, compare, translate (about 50 languages) and extract key points without leaving the page",
+    "Image generation, file and image analysis, voice input and output",
+    "Optional free Opera Account for chat history and higher image limits; no paid Opera AI plan is published"
+  ],
+  "howToUse": [
+    {
+      "title": "Install Opera One, Opera GX or Opera Air, then click Ask AI at the top right...",
+      "description": "Install Opera One, Opera GX or Opera Air, then click Ask AI at the top right (Ctrl+O on Windows or Linux, Cmd+O on a Mac).",
+      "links": [
+        {
+          "label": "Opera AI",
+          "url": "https://www.opera.com/features/opera-ai"
+        }
+      ]
+    },
+    {
+      "title": "Ask about the page or tab island you are on, generate an image, or upload a file to...",
+      "description": "Ask about the page or tab island you are on, generate an image, or upload a file to analyze or summarize."
+    },
+    {
+      "title": "Optionally sign in to a free Opera Account if you want saved chat history and a higher...",
+      "description": "Optionally sign in to a free Opera Account if you want saved chat history and a higher image limit."
+    }
+  ],
+  "sources": [
+    "https://www.opera.com/features/opera-ai"
+  ],
+  "summary_fr": "Assistant IA gratuit intégré au navigateur Opera (ex-Aria) : tu résumes tes pages, génères des images et analyses des fichiers, sans compte obligatoire.",
+  "description_fr": "Assistant IA gratuit intégré au navigateur Opera (ex-Aria) : tu résumes tes pages, génères des images et analyses des fichiers, sans compte obligatoire.",
+  "features_fr": [
+    "Assistant IA gratuit, sans compte obligatoire, intégré à Opera, avec des modèles d’OpenAI et de Google",
+    "Contexte de la page et de l’île d’onglets : résumer, comparer, traduire (environ 50 langues) et extraire les points clés sans quitter la page",
+    "Génération d’images, analyse de fichiers et d’images, entrée et sortie vocales",
+    "Compte Opera gratuit en option pour l’historique et une limite d’images plus haute ; aucun plan payant d’Opera AI n’est publié"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Installe Opera One, Opera GX ou Opera Air, puis clique sur Ask AI en haut à droite...",
+      "description": "Installe Opera One, Opera GX ou Opera Air, puis clique sur Ask AI en haut à droite (Ctrl+O sous Windows ou Linux, Cmd+O sur un Mac).",
+      "links": [
+        {
+          "label": "Opera AI",
+          "url": "https://www.opera.com/features/opera-ai"
+        }
+      ]
+    },
+    {
+      "title": "Pose une question sur la page ou l’île d’onglets ouverte, génère une image, ou importe un...",
+      "description": "Pose une question sur la page ou l’île d’onglets ouverte, génère une image, ou importe un fichier à analyser ou résumer."
+    },
+    {
+      "title": "Connecte-toi éventuellement à un compte Opera gratuit si tu veux garder l’historique des...",
+      "description": "Connecte-toi éventuellement à un compte Opera gratuit si tu veux garder l’historique des chats et une limite d’images plus haute."
+    }
+  ]
+}

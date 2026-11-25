@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "sunset",
   "summary": "Yusp provides AI-powered personalization engines for e-commerce and content sites. It increases sales and engagement with real-time, user-specific recommendations.",
-  "description": "Yusp provides AI-powered personalization engines for e-commerce and content sites. It increases sales and engagement with real-time, user-specific recommendations.\n\nReach 600M daily active users and achieve conversions at scale with the world's leading performance platform.\n\nPersonalized recommendations for each user. Cross-selling and upselling with AI. Behavioral targeting from user data. Instant updates as user behavior changes.",
+  "description": "Yusp provides AI-powered personalization engines for e-commerce and content sites. It increases sales and engagement with real-time, user-specific recommendations. Reach 600M daily active users and achieve conversions at scale with the world's leading performance platform. Personalized recommendations for each user. Cross-selling and upselling with AI. Behavioral targeting from user data. Instant updates as user behavior changes.",
   "categories": [
     "marketing",
     "data-processing"
@@ -18,8 +18,7 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/yusp.png",
   "image": "/tool-screenshots/yusp.png",
@@ -59,5 +58,6 @@
       "description": "Track engagement, sales, and conversion metrics with Yusp’s analytics dashboard. Refine recommendation strategies for optimal performance."
     }
   ],
-  "statusNote": "yusp.com redirects to taboola.com"
+  "statusNote": "Yusp was acquired by Taboola.",
+  "statusNote_fr": "Yusp a été racheté par Taboola."
 }

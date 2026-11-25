@@ -1,0 +1,83 @@
+{
+  "id": "treblo",
+  "name": "Treblo",
+  "url": "https://treblo.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI song generator (formerly Sonauto) with unlimited free tracks on the latest model, and an optional Pro plan for the priority queue, covers and your voice.",
+  "description": "AI song generator (formerly Sonauto) with unlimited free tracks on the latest model, and an optional Pro plan for the priority queue, covers and your voice.",
+  "categories": [
+    "music"
+  ],
+  "tags": [
+    "treblo",
+    "music"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free: unlimited songs on the latest model, lyrics and editing, downloads in every format (OGG, MP3, WAV, FLAC, M4A), and no usage restrictions from Treblo on songs you create. Standard generation queue, 4 songs at once. Pro: 9 €/month, or 72 €/year (6 €/month billed yearly, officially 33% less). Pro adds no ads, priority queue, 10 songs at once, covers in a new style (beta), reuse styles (beta), sing in your own voice (beta), avoid unwanted styles, legacy models (v2.2 and Classic lyrics), high-quality stems (beta), a Pro badge and Discord role. Beta features can change, break or be removed... Cancel anytime; songs stay in your library if you cancel.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/treblo.png",
+  "image": "/screenshots/treblo.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Unlimited free songs on the latest model, in thousands of styles, with optional instrumental tracks",
+    "Write your own lyrics or let Treblo write them, then edit, extend and iterate on sections",
+    "Downloads in OGG, MP3, WAV, FLAC and M4A, with no usage restrictions from Treblo on your songs",
+    "Optional Pro: priority queue, covers, style reuse, your voice, and stems (several features still in beta)"
+  ],
+  "howToUse": [
+    {
+      "title": "Open treblo.com and create a free account.",
+      "description": "Open treblo.com and create a free account.",
+      "links": [
+        {
+          "label": "Treblo",
+          "url": "https://treblo.com/"
+        }
+      ]
+    },
+    {
+      "title": "Type an idea, pick style tags, add your lyrics or let Treblo write them, then create a...",
+      "description": "Type an idea, pick style tags, add your lyrics or let Treblo write them, then create a song — it starts streaming in about 15 seconds."
+    },
+    {
+      "title": "Upgrade to Pro if you want a priority queue, covers, your own voice, or stems.",
+      "description": "Upgrade to Pro if you want a priority queue, covers, your own voice, or stems."
+    }
+  ],
+  "sources": [
+    "https://treblo.com/"
+  ],
+  "summary_fr": "Générateur de chansons IA (ex-Sonauto) : morceaux illimités et gratuits sur le dernier modèle, avec un Pro optionnel à 9 €/mois pour la file prioritaire, les reprises et ta voix.",
+  "description_fr": "Générateur de chansons IA (ex-Sonauto) : morceaux illimités et gratuits sur le dernier modèle, avec un Pro optionnel à 9 €/mois pour la file prioritaire, les reprises et ta voix.",
+  "features_fr": [
+    "Chansons gratuites illimitées sur le dernier modèle, des milliers de styles, avec option instrumentale",
+    "Écris tes paroles ou laisse Treblo les écrire, puis édite, prolonge et itère sur les sections",
+    "Téléchargements en OGG, MP3, WAV, FLAC et M4A, sans restriction d’usage de Treblo sur tes morceaux",
+    "Pro en option : file prioritaire, reprises, réutilisation de style, ta voix et stems (plusieurs fonctions encore en bêta)"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre treblo.com et crée un compte gratuit.",
+      "description": "Ouvre treblo.com et crée un compte gratuit.",
+      "links": [
+        {
+          "label": "Treblo",
+          "url": "https://treblo.com/"
+        }
+      ]
+    },
+    {
+      "title": "Décris une idée, choisis des tags de style, ajoute tes paroles ou laisse Treblo les...",
+      "description": "Décris une idée, choisis des tags de style, ajoute tes paroles ou laisse Treblo les écrire, puis crée un morceau — il commence à être diffusé en environ 15 secondes."
+    },
+    {
+      "title": "Passe à Pro si tu veux une file prioritaire, des reprises, ta propre voix ou des stems.",
+      "description": "Passe à Pro si tu veux une file prioritaire, des reprises, ta propre voix ou des stems."
+    }
+  ]
+}

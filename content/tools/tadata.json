@@ -1,0 +1,85 @@
+{
+  "id": "tadata",
+  "name": "Tadata",
+  "url": "https://www.tadata.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI employee in Slack that takes research and repetitive work off your plate and works where your team already talks.",
+  "description": "AI employee in Slack that takes research and repetitive work off your plate and works where your team already talks.",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "slack",
+    "ai-employee",
+    "gtm",
+    "sales",
+    "ops"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.tadata.com/pricing",
+    "details": "Free 0 € — 1,000 credits one time. Lite 35 € — 1,000 credits/month. Pro 135 € — 4,000 credits/month. Scale 271 € — 10,000 credits/month. Enterprise custom, unlimited credits. Credits billed monthly. The homepage also mentions free credits in a different wording; the official pricing-page figure used here is 1,000 one-time Free credits.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/tadata.png",
+  "image": "/screenshots/tadata.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Slack-native AI employee for research and repetitive work",
+    "Connectors for sales, GTM and ops work",
+    "Free plan with 1,000 one-time credits (official pricing page)"
+  ],
+  "howToUse": [
+    {
+      "title": "Open tadata.com and start Free from the pricing page.",
+      "description": "Open tadata.com and start Free from the pricing page.",
+      "links": [
+        {
+          "label": "Tadata",
+          "url": "https://www.tadata.com/"
+        }
+      ]
+    },
+    {
+      "title": "Add Tadata in Slack, where the team already talks.",
+      "description": "Add Tadata in Slack, where the team already talks."
+    },
+    {
+      "title": "Move to Lite, Pro or Scale when you need a monthly credit allowance.",
+      "description": "Move to Lite, Pro or Scale when you need a monthly credit allowance."
+    }
+  ],
+  "sources": [
+    "https://www.tadata.com/pricing"
+  ],
+  "summary_fr": "Employé IA dans Slack qui prend en charge la recherche et le travail répétitif, là où ton équipe discute déjà.",
+  "description_fr": "Employé IA dans Slack qui prend en charge la recherche et le travail répétitif, là où ton équipe discute déjà.",
+  "features_fr": [
+    "Employé IA natif Slack, pour la recherche et le travail répétitif",
+    "Connecteurs pour le travail sales, GTM et ops",
+    "Offre Gratuite avec 1 000 crédits une fois (page Pricing officielle)"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre tadata.com et commence l’offre Gratuite depuis la page tarifs.",
+      "description": "Ouvre tadata.com et commence l’offre Gratuite depuis la page tarifs.",
+      "links": [
+        {
+          "label": "Tadata",
+          "url": "https://www.tadata.com/"
+        }
+      ]
+    },
+    {
+      "title": "Ajoute Tadata dans Slack, là où ton équipe discute déjà.",
+      "description": "Ajoute Tadata dans Slack, là où ton équipe discute déjà."
+    },
+    {
+      "title": "Passe à Lite, Pro ou Scale si tu as besoin d’une allocation de crédits mensuelle.",
+      "description": "Passe à Lite, Pro ou Scale si tu as besoin d’une allocation de crédits mensuelle."
+    }
+  ]
+}

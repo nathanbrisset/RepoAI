@@ -17,7 +17,7 @@
     "model": "open-source",
     "label": "Open source",
     "verified": true,
-    "note": "Checked on 22 October 2026: the official repository is free to run locally and remains open source. Comfy Cloud is a separate hosted product, with a free credit tier and paid plans.",
+    "note": "Free to run locally from the official repository. Comfy Cloud is a separate hosted product with a free credit tier and paid plans.",
     "sourceUrl": "https://github.com/Comfy-Org/ComfyUI"
   },
   "logo": "/logos/comfyui.png",
@@ -59,9 +59,9 @@
     }
   ],
   "features_fr": [
-    "Workflow basé sur des nœuds : créez des pipelines de génération d'images personnalisés.",
-    "Prise en charge des modèles personnalisés : utilisez tes propres modèles ou ceux de la communauté.",
-    "Aperçu en temps réel : consulte instantanément les résultats rapides.",
-    "Export du workflow : partagez et réutilisez les configurations de génération."
+    "Workflow basé sur des nœuds: créez des pipelines de génération d'images personnalisés.",
+    "Prise en charge des modèles personnalisés: utilisez tes propres modèles ou ceux de la communauté.",
+    "Aperçu en temps réel: consulte instantanément les résultats rapides.",
+    "Export du workflow: partagez et réutilisez les configurations de génération."
   ]
 }

@@ -17,8 +17,7 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "",
   "image": "/tool-screenshots/clara-copilot.png",
@@ -54,8 +53,9 @@
       "description": "Work together with secure access and version tracking."
     }
   ],
-  "statusNote": "claracopilot.ai redirects to Odette Technologies (unrelated decision-intelligence platform)",
+  "statusNote": "Clara Copilot is no longer available.",
   "sources": [
     "https://odettetechnologies.com/"
-  ]
+  ],
+  "statusNote_fr": "Clara Copilot n'est plus disponible."
 }

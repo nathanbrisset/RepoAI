@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "sunset",
   "summary": "Text analysis tool for extracting insights from text data.",
-  "description": "Text analysis tool for extracting insights from text data.\n\nText Classification: Categorize text data using machine learning. Sentiment Analysis: Determine the sentiment of text data. Custom Model Training: Train models tailored to specific needs. Data Visualization: Visualize text analysis results for easier interpretation.",
+  "description": "Text analysis tool for extracting insights from text data. Text Classification: Categorize text data using machine learning. Sentiment Analysis: Determine the sentiment of text data. Custom Model Training: Train models tailored to specific needs. Data Visualization: Visualize text analysis results for easier interpretation.",
   "categories": [
     "data-processing"
   ],
@@ -18,8 +18,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/monkeylearn.png",
   "image": "/tool-screenshots/monkeylearn.png",
@@ -55,5 +54,6 @@
       "description": "View analytics and visualizations, then export results as needed."
     }
   ],
-  "statusNote": "monkeylearn.com redirects to medallia.com"
+  "statusNote": "MonkeyLearn was acquired by Medallia; the standalone product is no longer offered.",
+  "statusNote_fr": "MonkeyLearn a été racheté par Medallia ; le produit autonome n'est plus proposé."
 }

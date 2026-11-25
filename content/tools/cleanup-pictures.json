@@ -1,0 +1,86 @@
+{
+  "id": "cleanup-pictures",
+  "name": "Cleanup.pictures",
+  "url": "https://cleanup.pictures/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI inpainting tool that removes unwanted objects, people or text from a photo in the browser.",
+  "description": "AI inpainting tool that removes unwanted objects, people or text from a photo in the browser.",
+  "categories": [
+    "image"
+  ],
+  "tags": [
+    "image",
+    "inpainting",
+    "object-removal",
+    "photo-editing",
+    "freemium"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free 0 € — unlimited images with resolution limited to 720p, plus an HD-quality trial. Pro 5 €/month or 33 €/year (the official yearly page also states an equivalent of 3 €/month) — unlimited images, unlimited resolution, high-quality refiner.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/cleanup-pictures.png",
+  "image": "/screenshots/cleanup-pictures.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "AI object removal / inpainting in the browser, on desktop and mobile",
+    "Free plan: unlimited images limited to 720p, plus an HD-quality trial",
+    "Pro: unlimited resolution and a high-quality refiner",
+    "A separate ClipDrop Pro bundle is also advertised on the official pricing page."
+  ],
+  "howToUse": [
+    {
+      "title": "Open cleanup.pictures and upload a photo.",
+      "description": "Open cleanup.pictures and upload a photo.",
+      "links": [
+        {
+          "label": "Cleanup.pictures",
+          "url": "https://cleanup.pictures/"
+        }
+      ]
+    },
+    {
+      "title": "Brush over the objects, people or text you want removed.",
+      "description": "Brush over the objects, people or text you want removed."
+    },
+    {
+      "title": "Use the free 720p output or the HD trial, then subscribe to Pro if you need any-size...",
+      "description": "Use the free 720p output or the HD trial, then subscribe to Pro if you need any-size images."
+    }
+  ],
+  "sources": [
+    "https://cleanup.pictures/"
+  ],
+  "summary_fr": "Outil d’inpainting IA qui retire objets, personnes ou texte indésirables d’une photo, dans le navigateur.",
+  "description_fr": "Outil d’inpainting IA qui retire objets, personnes ou texte indésirables d’une photo, dans le navigateur.",
+  "features_fr": [
+    "Retrait d’objets / inpainting IA dans le navigateur, sur ordinateur et mobile",
+    "Offre gratuite : images illimitées limitées à 720p, plus un essai HD",
+    "Pro : résolution illimitée et raffineur haute qualité",
+    "Un bundle ClipDrop Pro distinct est aussi annoncé sur la page tarifaire officielle."
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre cleanup.pictures et envoie une photo.",
+      "description": "Ouvre cleanup.pictures et envoie une photo.",
+      "links": [
+        {
+          "label": "Cleanup.pictures",
+          "url": "https://cleanup.pictures/"
+        }
+      ]
+    },
+    {
+      "title": "Passe le pinceau sur les objets, personnes ou textes à retirer.",
+      "description": "Passe le pinceau sur les objets, personnes ou textes à retirer."
+    },
+    {
+      "title": "Utilise le rendu gratuit en 720p ou l’essai HD, puis passe à Pro si tu as besoin d’images...",
+      "description": "Utilise le rendu gratuit en 720p ou l’essai HD, puis passe à Pro si tu as besoin d’images en toutes tailles."
+    }
+  ]
+}

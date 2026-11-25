@@ -16,8 +16,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/genie-ai.png",
   "image": "/screenshots/genie-ai.webp",
@@ -54,9 +53,9 @@
     }
   ],
   "features_fr": [
-    "Modèles juridiques : contrats prédéfinis à personnaliser.",
-    "Générateur de clauses : projets basés sur une intention juridique.",
-    "Collaboration : Co-auteur avec les membres de l'équipe.",
-    "Suivi des versions : conservez les modifications et l'historique."
+    "Modèles juridiques: contrats prédéfinis à personnaliser.",
+    "Générateur de clauses: projets basés sur une intention juridique.",
+    "Collaboration: Co-auteur avec les membres de l'équipe.",
+    "Suivi des versions: conservez les modifications et l'historique."
   ]
 }

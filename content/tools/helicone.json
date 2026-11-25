@@ -1,0 +1,87 @@
+{
+  "id": "helicone",
+  "name": "Helicone",
+  "url": "https://www.helicone.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source AI gateway and LLM observability platform for tracing requests, with a free Hobby cloud tier and usage-based paid plans.",
+  "description": "Open-source AI gateway and LLM observability platform for tracing requests, with a free Hobby cloud tier and usage-based paid plans.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "open-source",
+    "observability",
+    "llm",
+    "gateway",
+    "tracing"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.helicone.ai/pricing",
+    "details": "Hobby Free — 10,000 free requests/month, 1 GB storage, 1 seat and 1 organization. Pro 71 €/month (7-day free trial) — everything in Hobby, unlimited seats, alerts and reports, HQL, usage-based pricing applies (10k requests free then usage-based). Team 723 €/month (7-day free trial) — everything in Pro, 5 organizations, SOC 2 and HIPAA, dedicated Slack, usage-based pricing applies. Enterprise is contact sales (custom MSA, SAML SSO, on-prem). An on-page calculator gives example usage totals; those calculator totals are examples, not fixed plan prices. Official credits for startups (under 2 years old and 4,524,068 € in funding) and a 90 € credit for open-source companies in the first year are stated discounts, not base prices.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/helicone.png",
+  "image": "/screenshots/helicone.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Open-source AI gateway and LLM observability, with request tracing",
+    "Hobby is free with 10,000 requests/month and one seat",
+    "Pro and Team add unlimited seats, alerts, reports, HQL, then usage-based pricing; Team adds SOC 2 and HIPAA",
+    "On-page usage examples and startup / OSS credits are discounts or illustrations, not the published plan prices"
+  ],
+  "howToUse": [
+    {
+      "title": "Open helicone.ai and start Hobby for free (10,000 requests/month, one seat).",
+      "description": "Open helicone.ai and start Hobby for free (10,000 requests/month, one seat).",
+      "links": [
+        {
+          "label": "Helicone",
+          "url": "https://www.helicone.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Send traces through the AI gateway and inspect requests.",
+      "description": "Send traces through the AI gateway and inspect requests."
+    },
+    {
+      "title": "Start a 7-day Pro or Team trial if you need unlimited seats, alerts, or SOC 2 / HIPAA.",
+      "description": "Start a 7-day Pro or Team trial if you need unlimited seats, alerts, or SOC 2 / HIPAA."
+    }
+  ],
+  "sources": [
+    "https://www.helicone.ai/pricing"
+  ],
+  "summary_fr": "Passerelle IA et plateforme d’observabilité LLM open source pour tracer tes requêtes, avec une offre cloud Hobby gratuite et des forfaits payants à l’usage.",
+  "description_fr": "Passerelle IA et plateforme d’observabilité LLM open source pour tracer tes requêtes, avec une offre cloud Hobby gratuite et des forfaits payants à l’usage.",
+  "features_fr": [
+    "Passerelle IA et observabilité LLM open source, avec traçage des requêtes",
+    "Hobby est gratuit, avec 10 000 requêtes/mois et un siège",
+    "Pro et Team ajoutent des sièges illimités, des alertes, des rapports, HQL, puis une tarification à l’usage ; Team ajoute SOC 2 et HIPAA",
+    "Les exemples d’usage de la page et les crédits startup / OSS sont des remises ou des illustrations, pas recopiés comme tarifs de liste"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre helicone.ai et commence sur Hobby gratuitement (10 000 requêtes/mois, un siège).",
+      "description": "Ouvre helicone.ai et commence sur Hobby gratuitement (10 000 requêtes/mois, un siège).",
+      "links": [
+        {
+          "label": "Helicone",
+          "url": "https://www.helicone.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Envoie des traces via la passerelle IA et inspecte tes requêtes.",
+      "description": "Envoie des traces via la passerelle IA et inspecte tes requêtes."
+    },
+    {
+      "title": "Lance un essai Pro ou Team de 7 jours si tu as besoin de sièges illimités, d’alertes, ou...",
+      "description": "Lance un essai Pro ou Team de 7 jours si tu as besoin de sièges illimités, d’alertes, ou de SOC 2 / HIPAA. Les totaux du calculateur sur la page sont des exemples, pas des forfaits fixes."
+    }
+  ]
+}

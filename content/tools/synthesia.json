@@ -18,8 +18,7 @@
   "pricing": {
     "model": "paid",
     "label": "Premium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/synthesia.png",
   "image": "/screenshots/synthesia.webp",
@@ -58,7 +57,7 @@
   "features_fr": [
     "Text-to-Video : transformez des scripts en vidéos avec des avatars IA.",
     "Voix off multilingues : prend en charge plus de 140 langues et accents.",
-    "Avatars personnalisés : personnalisez tes avatars à ton image.",
+    "Avatars personnalisés : personnalise tes avatars à ton image.",
     "Modèles intégrés : formats prédéfinis pour la formation, la promotion, etc."
   ]
 }

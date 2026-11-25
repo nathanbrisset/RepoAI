@@ -3,7 +3,7 @@
   "name": "Flowise",
   "url": "https://flowiseai.com/",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "Open-source visual builder for AI agents and chatbots.",
   "description": "Flowise lets you visually assemble agents, chatbots and document-search pipelines by connecting models, vector stores and tools. Self-host it or use the cloud, and expose flows via API.",
   "categories": [
@@ -25,7 +25,9 @@
   "logo": "/logos/flowise.png",
   "image": "/screenshots/flowise.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
+  "statusNote": "Flowise reached end of life on August 31, 2026; the official team stopped support, but the Apache 2.0 source remains forkable.",
+  "statusNote_fr": "Flowise a atteint sa fin de vie le 31 août 2026 ; l'équipe officielle a arrêté le support, mais le code Apache 2.0 reste forkable.",
   "features": [
     "Visual agent and chatbot builder",
     "Built-in document search (RAG)",

@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Hugging Face's chat app for open-source models, with automatic model routing.",
-  "description": "HuggingChat is Hugging Face's chat application built on open-source models. Its Omni mode routes each request to a suitable model automatically, and users can also pick a specific model from the catalogue of more than one hundred available models. Conversations can use tools such as web search. Basic use is free with a Hugging Face account; the Hugging Face PRO subscription at $9 per month adds higher usage limits and inference credits.",
+  "description": "HuggingChat is Hugging Face's chat application built on open-source models. Its Omni mode routes each request to a suitable model automatically, and users can also pick a specific model from the catalogue of more than one hundred available models. Conversations can use tools such as web search. Basic use is free with a Hugging Face account; the Hugging Face PRO subscription at 8 € per month adds higher usage limits and inference credits.",
   "categories": [
     "llm-chatbots"
   ],
@@ -19,7 +19,7 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "$9/mo (Hugging Face PRO)",
+    "note": "8 €/mo (Hugging Face PRO)",
     "sourceUrl": "https://huggingface.co/pricing"
   },
   "logo": "/logos/huggingchat.png",
@@ -51,7 +51,7 @@
     },
     {
       "title": "Raise limits with PRO",
-      "description": "For higher usage limits and inference credits, take the Hugging Face PRO subscription at $9 per month."
+      "description": "For higher usage limits and inference credits, take the Hugging Face PRO subscription at 8 € per month."
     }
   ],
   "features": [

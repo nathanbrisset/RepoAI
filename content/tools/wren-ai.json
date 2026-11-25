@@ -1,0 +1,90 @@
+{
+  "id": "wren-ai",
+  "name": "Wren AI",
+  "url": "https://www.getwren.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Conversational BI and text-to-SQL platform, with a paid cloud (unlimited users, credit-based) and a free open-source CLI for developers.",
+  "description": "Conversational BI and text-to-SQL platform, with a paid cloud (unlimited users, credit-based) and a free open-source CLI for developers. Not to be confused with Wren by Seldon.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "data-science",
+    "conversational-bi",
+    "text-to-sql",
+    "analytics",
+    "open-source",
+    "cloud"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://getwren.ai/pricing",
+    "details": "The cloud trial requires a card, and the free open-source option is a CLI with no UI; no lasting 0 € cloud plan was stated. Essential Cloud 162 €/month billed annually, or 234 € month-to-month — 13,200 annual credits included (about 3,000 questions a month on gpt-5.6-luna); 7-day free trial (a credit card is required; “activate without a card” is talk to sales); unused credits roll over up to 2×; additional credits beyond the included pool are available; per-unit credits are not displayed in euros; +20 free monthly credits for testing new features (expire at month-end, no rollover). Enterprise Cloud 506 €/month billed annually, or 723 € month-to-month — 24,000 annual credits included (about 5,500 questions a month on gpt-5.6-luna), same trial and overage rules, plus row/column-level controls, unlimited integrations, advanced RBAC and audit logs, custom LDAP/AD & OIDC, priority support. Enterprise Plus (self-hosted, session-based, annual contract) is contact sales.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/wren-ai.png",
+  "image": "/screenshots/wren-ai.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Conversational BI and text-to-SQL, with agentic and classic question modes, dashboards and an MCP server",
+    "Cloud plans include unlimited users, dashboards, spreadsheets and projects, billed on credits",
+    "A 7-day cloud trial requires a card; the free open-source option is a CLI with no UI",
+    "There is no permanent free cloud tier; Enterprise Plus self-hosting is priced on request"
+  ],
+  "howToUse": [
+    {
+      "title": "Open getwren.ai/pricing and start the 7-day Essential Cloud trial (a card is required) at...",
+      "description": "Open getwren.ai/pricing and start the 7-day Essential Cloud trial (a card is required) at 162 €/month billed annually, or 234 € month-to-month.",
+      "links": [
+        {
+          "label": "Wren AI",
+          "url": "https://www.getwren.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Ask questions of your data in plain language, or connect an AI agent over MCP, on the...",
+      "description": "Ask questions of your data in plain language, or connect an AI agent over MCP, on the same credit pool."
+    },
+    {
+      "title": "Talk to sales for Enterprise Plus self-hosting, or use the free open-source CLI if you...",
+      "description": "Talk to sales for Enterprise Plus self-hosting, or use the free open-source CLI if you only need the developer context engine (no UI)."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://getwren.ai/pricing"
+  ],
+  "summary_fr": "Plateforme de BI conversationnelle et de text-to-SQL, avec un cloud payant (utilisateurs illimités, facturation par crédits) et une CLI open source gratuite pour les développeurs.",
+  "description_fr": "Plateforme de BI conversationnelle et de text-to-SQL, avec un cloud payant (utilisateurs illimités, facturation par crédits) et une CLI open source gratuite pour les développeurs. À ne pas confondre avec Wren by Seldon.",
+  "features_fr": [
+    "BI conversationnelle et text-to-SQL, avec des modes de question agentique et classique, des tableaux de bord et un serveur MCP",
+    "Les offres cloud incluent des utilisateurs, tableaux de bord, tableurs et projets illimités, facturés en crédits",
+    "L’essai cloud de 7 jours exige une carte ; l’option open source gratuite est une CLI sans interface",
+    "Aucune offre cloud 0 € durable n’était indiquée. L’auto-hébergement Enterprise Plus est sur mesure"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre getwren.ai/pricing et lance l’essai Essential Cloud de 7 jours...",
+      "description": "Ouvre getwren.ai/pricing et lance l’essai Essential Cloud de 7 jours (une carte est exigée) à 162 €/mois facturés à l’année, ou 234 € mois par mois.",
+      "links": [
+        {
+          "label": "Wren AI",
+          "url": "https://www.getwren.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Pose tes questions en langage naturel sur tes données, ou connecte un agent IA via MCP...",
+      "description": "Pose tes questions en langage naturel sur tes données, ou connecte un agent IA via MCP, sur le même pool de crédits."
+    },
+    {
+      "title": "Parle aux ventes pour l’auto-hébergement Enterprise Plus, ou utilise la CLI open source...",
+      "description": "Parle aux ventes pour l’auto-hébergement Enterprise Plus, ou utilise la CLI open source gratuite si tu as seulement besoin du moteur de contexte pour développeurs (pas d’interface)."
+    }
+  ]
+}

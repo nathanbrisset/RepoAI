@@ -1,13 +1,13 @@
 {
   "id": "agent",
   "name": "Agent.ai",
-  "url": "https://agent.ai",
+  "url": "",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "Marketplace of ready-to-use AI agents.",
-  "description": "Agent.ai gathers hundreds of community-built AI agents for specific jobs such as company research, website analysis, marketing copy or monitoring. You run them for free in the browser and can build and publish your own without code.",
+  "description": "Agent.ai gathered community-built AI agents for jobs such as company research, website analysis, marketing copy or monitoring. The marketplace has shut down.",
   "summary_fr": "Place de marché d'agents IA prêts à l'emploi, créée par Dharmesh Shah.",
-  "description_fr": "Agent.ai rassemble des centaines d'agents IA conçus par la communauté pour des tâches précises : recherche d'entreprises, analyse de site, rédaction marketing ou veille. On les lance gratuitement depuis le navigateur, et on peut aussi créer et publier ses propres agents sans coder.",
+  "description_fr": "Agent.ai rassemblait des agents IA conçus par la communauté pour des tâches précises : recherche d'entreprises, analyse de site, rédaction marketing ou veille. La place de marché a fermé.",
   "categories": [
     "ai-agents"
   ],
@@ -16,16 +16,14 @@
     "catalog"
   ],
   "pricing": {
-    "model": "free",
-    "label": "Free",
     "verified": false,
-    "note": "Free tier available; see the official site for limits.",
-    "sourceUrl": "https://agent.ai"
+    "model": "free",
+    "label": "Free"
   },
   "logo": "/logos/agent.png",
   "image": "/screenshots/agent.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "Hundreds of ready-made community agents",
     "Company research, site analysis, marketing copy",
@@ -41,13 +39,7 @@
   "howToUse": [
     {
       "title": "Sign up on Agent.ai",
-      "description": "Create an account at the official URL if you need saved work or billing.",
-      "links": [
-        {
-          "label": "Agent.ai",
-          "url": "https://agent.ai"
-        }
-      ]
+      "description": "This product is no longer available; see the notice above."
     },
     {
       "title": "Complete onboarding",
@@ -62,6 +54,29 @@
       "description": "Export, share, or connect to your stack before scaling usage."
     }
   ],
+  "howToUse_fr": [
+    {
+      "title": "Inscris-toi sur Agent.ai",
+      "description": "Ce produit n'est plus disponible ; vois l'avis ci-dessus."
+    },
+    {
+      "title": "Complète l'onboarding",
+      "description": "Suis la visite guidée ou connecte la première intégration demandée par le produit."
+    },
+    {
+      "title": "Lance une première tâche",
+      "description": "Exécute le flux principal avec un modèle ou un exemple fourni."
+    },
+    {
+      "title": "Vérifie les résultats",
+      "description": "Exporte, partage ou connecte ton outillage avant d'élargir l'usage."
+    }
+  ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "statusNote": "The Agent.ai marketplace has shut down.",
+  "statusNote_fr": "La place de marché Agent.ai a fermé.",
+  "sources": [
+    "https://www.builderpack.com/"
+  ]
 }

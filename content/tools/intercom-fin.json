@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Intercom's AI customer agent for service, sales and e-commerce, billed per resolved outcome.",
-  "description": "Fin is Intercom's AI agent for customer service, also configured for sales, e-commerce and customer success. It answers across chat, email and voice, follows company procedures and works with helpdesks including Intercom, Zendesk and Salesforce. Pricing is $0.99 per outcome, with an option bundling the Intercom helpdesk from $19 per seat per month; a 14-day free trial is offered. More than 12,000 companies use Fin, according to the site.",
+  "description": "Fin is Intercom's AI agent for customer service, also configured for sales, e-commerce and customer success. It answers across chat, email and voice, follows company procedures and works with helpdesks including Intercom, Zendesk and Salesforce. Pricing is 0.90 € per outcome, with an option bundling the Intercom helpdesk from 17 € per seat per month; a 14-day free trial is offered. More than 12,000 companies use Fin, according to the site.",
   "categories": [
     "support"
   ],
@@ -19,8 +19,8 @@
     "model": "usage-based",
     "label": "Usage-based",
     "verified": true,
-    "note": "$0.99 per outcome",
-    "sourceUrl": "https://fin.ai/pricing"
+    "note": "0.90 € per outcome",
+    "sourceUrl": "https://www.intercom.com/pricing"
   },
   "logo": "/logos/intercom-fin.png",
   "image": "/screenshots/intercom-fin.webp",
@@ -51,19 +51,19 @@
     },
     {
       "title": "Price the work by outcome",
-      "description": "Pricing is $0.99 per outcome. An option that bundles the Intercom helpdesk starts at $19 per seat per month."
+      "description": "Pricing is 0.90 € per outcome. An option that bundles the Intercom helpdesk starts at 17 € per seat per month."
     }
   ],
   "features": [
     "Intercom's AI customer agent for service, sales and e-commerce, billed per resolved outcome.",
     "Fin is Intercom's AI agent for customer service, also configured for sales, e-commerce and customer success.",
     "It answers across chat, email and voice, follows company procedures and works with helpdesks including Intercom, Zendesk and Salesforce.",
-    "Pricing is $0.99 per outcome, with an option bundling the Intercom helpdesk from $19 per seat per month; a 14-day free trial is offered."
+    "Pricing is 0.90 € per outcome, with an option bundling the Intercom helpdesk from 17 € per seat per month; a 14-day free trial is offered."
   ],
   "features_fr": [
     "Agent client IA d'Intercom pour le service, les ventes et le commerce électronique, facturé par résultat résolu.",
     "Fin est l'agent IA d'Intercom pour le service client, également configuré pour les ventes, le commerce électronique et la réussite des clients.",
     "Il répond par chat, e-mail et voix, suit les procédures de l'entreprise et travaille avec des services d'assistance tels qu'Intercom, Zendesk et Salesforce.",
-    "Le prix est de 0,99 $ par résultat, avec une option regroupant le service d'assistance Intercom à partir de 19 $ par siège et par mois ; un essai gratuit de 14 jours est offert."
+    "Le prix est de 0,90 € par résultat, avec une option regroupant le service d'assistance Intercom à partir de 17 € par siège et par mois ; un essai gratuit de 14 jours est offert."
   ]
 }

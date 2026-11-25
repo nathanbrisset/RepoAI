@@ -1,9 +1,9 @@
 {
   "id": "opera-aria",
-  "name": "Opera Aria",
-  "url": "https://www.opera.com/aria",
+  "name": "Opera AI",
+  "url": "https://www.opera.com/features/opera-ai",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "renamed",
   "summary": "Free AI assistant built into the Opera browser.",
   "description": "Aria summarizes pages, answers questions with up-to-date information, generates images and helps you write, right in Opera and Opera GX, with no subscription.",
   "categories": [
@@ -20,12 +20,12 @@
     "label": "Free",
     "verified": false,
     "note": "See official pricing at https://www.opera.com/aria.",
-    "sourceUrl": "https://www.opera.com/aria"
+    "sourceUrl": "https://www.opera.com/features/opera-ai"
   },
   "logo": "/logos/opera-aria.png",
   "image": "/screenshots/opera-aria.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "Page summaries",
     "Answers with up-to-date information",
@@ -39,7 +39,7 @@
       "links": [
         {
           "label": "Opera Aria",
-          "url": "https://www.opera.com/aria"
+          "url": "https://www.opera.com/features/opera-ai"
         }
       ]
     },
@@ -63,5 +63,11 @@
     "Gratuit dans Opera et Opera GX"
   ],
   "summary_fr": "Assistant IA gratuit intégré au navigateur Opera.",
-  "description_fr": "Aria résume des pages, répond aux questions avec des informations à jour, génère des images et aide à rédiger, directement dans Opera et Opera GX, sans abonnement."
+  "description_fr": "Aria résume des pages, répond aux questions avec des informations à jour, génère des images et aide à rédiger, directement dans Opera et Opera GX, sans abonnement.",
+  "successorId": "opera-ai",
+  "statusNote": "Now Opera AI (formerly Opera Aria).",
+  "statusNote_fr": "Désormais Opera AI (anciennement Opera Aria).",
+  "sources": [
+    "https://www.opera.com/features/opera-ai"
+  ]
 }

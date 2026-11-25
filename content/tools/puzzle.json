@@ -1,0 +1,87 @@
+{
+  "id": "puzzle",
+  "name": "Puzzle",
+  "url": "https://puzzle.io/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI accounting software for startups that categorizes transactions, drafts statements and can also be paired with bookkeeping services.",
+  "description": "AI accounting software for startups that categorizes transactions, drafts statements and can also be paired with bookkeeping services.",
+  "categories": [
+    "finance"
+  ],
+  "tags": [
+    "finance",
+    "accounting",
+    "startups",
+    "bookkeeping",
+    "ai-suite"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://puzzle.io/pricing",
+    "details": "Software-only, “you close the books”. A Monthly / Yearly toggle is present (“12 months for the price of 10”). Starter 27 €/month — 25 lifetime AI credits, 1 seat; Core 65 €/month — 25 lifetime AI credits, 5 seats, plus insights, spend and revenue tracking, variance analysis, advanced reporting; Complete 109 €/month — 100 AI credits/month, unlimited seats, AI accuracy review, AI reconciliations and insights, classes/departments/projects, revenue recognition, priority support; Scale 326 €/month — 300 AI credits/month, unlimited seats, higher-volume accounting, subledgers, no transaction or integration limits, backup and restore, dedicated onboarding. Each paid software plan has a “Try for free” path",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/puzzle.png",
+  "image": "/screenshots/puzzle.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Automatic categorization of most transactions and auto-drafted cash and accrual statements",
+    "Unlimited connections; AI Suite (Chat, Cowork, Close) with plan-based AI credits",
+    "Insights on cash, burn, runway and margin from Core up",
+    "Monthly software plans; yearly billing uses a “12 months for the price of 10” offer on the official site."
+  ],
+  "howToUse": [
+    {
+      "title": "Open puzzle.io/pricing and start a software-only free trial on Starter, Core, Complete or...",
+      "description": "Open puzzle.io/pricing and start a software-only free trial on Starter, Core, Complete or Scale.",
+      "links": [
+        {
+          "label": "Puzzle",
+          "url": "https://puzzle.io/"
+        }
+      ]
+    },
+    {
+      "title": "Connect your accounts and review the auto-drafted statements.",
+      "description": "Connect your accounts and review the auto-drafted statements."
+    },
+    {
+      "title": "Continue on the monthly plan that matches your seats and volume.",
+      "description": "Continue on the monthly plan that matches your seats and volume."
+    }
+  ],
+  "sources": [
+    "https://puzzle.io/pricing"
+  ],
+  "summary_fr": "Logiciel de comptabilité IA pour startups qui catégorise les transactions, prépare les états financiers et peut être associé à un service de tenue de livres.",
+  "description_fr": "Logiciel de comptabilité IA pour startups qui catégorise les transactions, prépare les états financiers et peut être associé à un service de tenue de livres.",
+  "features_fr": [
+    "Catégorisation automatique de la plupart des transactions et états de trésorerie et d’engagement pré-remplis",
+    "Connexions illimitées ; suite IA (Chat, Cowork, Close) avec crédits selon l’offre",
+    "Insights sur la trésorerie, le burn, le runway et la marge à partir de Core",
+    "Forfaits mensuels ; la facturation annuelle propose « 12 months for the price of 10 » sur le site officiel."
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre puzzle.io/pricing et lance un essai logiciel seul sur Starter, Core, Complete ou...",
+      "description": "Ouvre puzzle.io/pricing et lance un essai logiciel seul sur Starter, Core, Complete ou Scale.",
+      "links": [
+        {
+          "label": "Puzzle",
+          "url": "https://puzzle.io/"
+        }
+      ]
+    },
+    {
+      "title": "Connecte tes comptes et relis les états financiers pré-remplis.",
+      "description": "Connecte tes comptes et relis les états financiers pré-remplis."
+    },
+    {
+      "title": "Continue sur le forfait mensuel qui correspond à tes sièges et à ton volume.",
+      "description": "Continue sur le forfait mensuel qui correspond à tes sièges et à ton volume."
+    }
+  ]
+}

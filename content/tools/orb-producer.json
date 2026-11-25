@@ -1,7 +1,7 @@
 {
   "id": "orb-producer",
-  "name": "Orb Producer Suite",
-  "url": "https://www.orbplugins.com",
+  "name": "LANDR Composer",
+  "url": "https://www.landr.com/plugins/landr-composer",
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI plugins that generate melodies, chords and basslines in your DAW.",
@@ -19,16 +19,16 @@
   ],
   "pricing": {
     "verified": false,
-    "sourceUrl": "https://www.orbplugins.com",
+    "sourceUrl": "https://www.landr.com/plugins/landr-composer",
     "model": "paid",
     "label": "Premium",
     "note": "Paid plans; see the official site for current pricing.",
-    "note_fr": "Offre payante ; consulte la page tarifs pour les formules en vigueur."
+    "note_fr": "Offre payante; consulte la page tarifs pour les formules en vigueur."
   },
   "logo": "/logos/orb-producer.png",
   "image": "/screenshots/orb-producer.webp",
   "dateAdded": "2026-10-30",
-  "lastVerified": "2026-10-30",
+  "lastVerified": "2026-11-16",
   "features": [
     "Generated chord progressions",
     "MIDI melodies and basslines",
@@ -48,7 +48,7 @@
       "links": [
         {
           "label": "Orb Producer Suite",
-          "url": "https://www.orbplugins.com"
+          "url": "https://www.landr.com/plugins/landr-composer"
         }
       ]
     },
@@ -80,7 +80,7 @@
       "links": [
         {
           "label": "Orb Producer Suite",
-          "url": "https://www.orbplugins.com"
+          "url": "https://www.landr.com/plugins/landr-composer"
         }
       ]
     },
@@ -96,5 +96,8 @@
       "title": "Mélodies et basses en MIDI",
       "description": "Teste mélodies et basses en MIDI sur un petit exemple avant d'automatiser ou d'étendre l'usage."
     }
+  ],
+  "sources": [
+    "https://www.landr.com/plugins/producer-suite-3"
   ]
 }

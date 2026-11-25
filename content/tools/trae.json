@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "ByteDance's AI coding environment (TraeCode) and work assistant (TraeWork).",
-  "description": "Trae is a set of AI tools from ByteDance. TraeCode is a coding environment with an AI agent that writes and edits code, and TraeWork is a general work assistant available on desktop and the web. The plans page lists Lite at $3 per month, Pro at $10 per month with $20 of basic usage and unlimited autocomplete, and Pro+ at $30 per month. A free version can be downloaded.",
+  "description": "Trae is a set of AI tools from ByteDance. TraeCode is a coding environment with an AI agent that writes and edits code, and TraeWork is a general work assistant available on desktop and the web. Pro, Pro+ and Ultra paid tiers are listed on the plans page; the former Lite tier is no longer listed. A free version can be downloaded.",
   "categories": [
     "coding"
   ],
@@ -18,8 +18,8 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "$3/mo (Lite)",
-    "sourceUrl": "https://www.trae.ai/plans"
+    "note": "Free at 0 €. Pro 18 €/month with included usage, Pro+ 54 €/month and Ultra 181 €/month (the previous Lite tier was no longer listed).",
+    "sourceUrl": "https://www.trae.ai/pricing"
   },
   "logo": "/logos/trae.png",
   "image": "/screenshots/trae.webp",
@@ -49,20 +49,20 @@
       "description": "Open TraeWork on the desktop or on the web and use it as a general work assistant."
     },
     {
-      "title": "Compare Lite, Pro, and Pro+",
-      "description": "The plans page lists Lite at $3 a month. Pro is $10 a month with $20 of basic usage and unlimited autocomplete. Pro+ is $30 a month."
+      "title": "Compare Pro, Pro+, and Ultra",
+      "description": "On the plans page, compare Pro, Pro+ and Ultra tiers and choose the one that fits your usage."
     }
   ],
   "features": [
     "ByteDance's AI coding environment (TraeCode) and work assistant (TraeWork).",
     "Trae is a set of AI tools from ByteDance.",
     "TraeCode is a coding environment with an AI agent that writes and edits code, and TraeWork is a general work assistant available on desktop and the web.",
-    "The plans page lists Lite at $3 per month, Pro at $10 per month with $20 of basic usage and unlimited autocomplete, and Pro+ at $30 per month."
+    "The plans page lists Pro, Pro+ and Ultra paid tiers; the former Lite tier is no longer listed."
   ],
   "features_fr": [
     "Environnement de codage IA (TraeCode) et assistant de travail (TraeWork) de ByteDance.",
     "Trae est un ensemble d'outils d'IA de ByteDance.",
     "TraeCode est un environnement de codage avec un agent IA qui écrit et modifie le code, et TraeWork est un assistant de travail général disponible sur ordinateur et sur le Web.",
-    "La page des forfaits répertorie Lite à 3 $ par mois, Pro à 10 $ par mois avec 20 $ d'utilisation de base et une saisie semi-automatique illimitée, et Pro+ à 30 $ par mois."
+    "La page des forfaits répertorie Pro, Pro+ et Ultra ; l'ancien forfait Lite n'y figure plus."
   ]
 }

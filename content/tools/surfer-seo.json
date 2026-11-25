@@ -1,7 +1,7 @@
 {
   "id": "surfer-seo",
-  "name": "Surfer SEO",
-  "url": "https://surferseo.com/",
+  "name": "Surfer",
+  "url": "https://surfer.ai/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Track and improve your brand's visibility across Google and AI search engines like ChatGPT, Gemini, and Perplexity. Surfer is built for marketing & SEO teams ready for the AI era.",
@@ -17,13 +17,12 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/surfer-seo.png",
   "image": "/screenshots/surfer-seo.webp",
   "dateAdded": "2021-09-15",
-  "lastVerified": null,
+  "lastVerified": "2026-11-16",
   "features": [
     "Content Editor: Real-time optimization suggestions based on SERP data.",
     "Keyword Research: Identifies high-impact keywords with volume data.",
@@ -37,7 +36,7 @@
       "links": [
         {
           "label": "Surfer SEO",
-          "url": "https://surferseo.com"
+          "url": "https://surfer.ai/"
         }
       ]
     },
@@ -55,9 +54,12 @@
     }
   ],
   "features_fr": [
-    "Éditeur de contenu : suggestions d'optimisation en temps réel basées sur les données SERP.",
-    "Recherche de mots clés : identifie les mots clés à fort impact avec des données de volume.",
-    "Audits SEO : analyse les pages existantes pour améliorer le classement.",
-    "Analyseur SERP : ventilation visuelle des facteurs de classement des concurrents."
+    "Éditeur de contenu: suggestions d'optimisation en temps réel basées sur les données SERP.",
+    "Recherche de mots clés: identifie les mots clés à fort impact avec des données de volume.",
+    "Audits SEO: analyse les pages existantes pour améliorer le classement.",
+    "Analyseur SERP: ventilation visuelle des facteurs de classement des concurrents."
+  ],
+  "sources": [
+    "https://surfer.ai/blog/goodbye-surferseo/"
   ]
 }

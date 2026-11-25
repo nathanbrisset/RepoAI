@@ -82,7 +82,7 @@
         "fr": "Un agent répond dans Slack et met à jour l'outil métier parmi les applications déjà connectées, dans la limite des serveurs MCP autorisés."
       },
       "why": {
-        "en": "It combines a low-code drag-and-drop builder with headless use from Claude Code, Codex and MCP, and it publishes a starting price of $50/mo, which enterprise iPaaS vendors often do not.",
+        "en": "It combines a low-code drag-and-drop builder with headless use from Claude Code, Codex and MCP, and it publishes a starting price of 45 €/mo, which enterprise iPaaS vendors often do not.",
         "fr": "Tray publie un prix de départ, ce que les iPaaS d'entreprise font rarement, et couvre à la fois un constructeur visuel et un usage depuis Claude Code, Codex et MCP."
       },
       "how": {
@@ -92,8 +92,8 @@
       "pinned": false,
       "status": "new",
       "price": {
-        "en": "$50/mo",
-        "fr": "50 $/mois"
+        "en": "45 €/mo",
+        "fr": "45 €/mois"
       },
       "priceRank": 50,
       "freeOffer": false,
@@ -137,14 +137,14 @@
         "fr": "UiPath est une plateforme RPA établie qui ajoute les agents et l'orchestration, se déploie dans le cloud ou sur site, et propose une offre gratuite sans limite de durée."
       },
       "how": {
-        "en": "Choose Try UiPath free to open the free-forever plan. The UiPath Academy, documentation and community forum cover first automations. Basic starts at $25/mo, and some plans have a 60-day trial.",
-        "fr": "Choisir Try UiPath free pour ouvrir l'offre gratuite. L'UiPath Academy, la documentation et le forum couvrent les premières automatisations. Basic commence à 25 $/mois (Basic)."
+        "en": "Choose Try UiPath free to open the free-forever plan. The UiPath Academy, documentation and community forum cover first automations. Basic starts at 23 €/mo, and some plans have a 60-day trial.",
+        "fr": "Choisir Try UiPath free pour ouvrir l'offre gratuite. L'UiPath Academy, la documentation et le forum couvrent les premières automatisations. Basic commence à 23 €/mois (Basic)."
       },
       "pinned": false,
       "status": "new",
       "price": {
-        "en": "Free, then $25/mo (Basic)",
-        "fr": "Gratuit, puis 25 $/mois (Basic)"
+        "en": "Free, then 23 €/mo (Basic)",
+        "fr": "Gratuit, puis 23 €/mois (Basic)"
       },
       "priceRank": 0,
       "freeOffer": true,
@@ -239,14 +239,14 @@
         "fr": "L'éditeur indique que toutes les fonctions sont incluses dans le plan Basic et que les étapes internes ne comptent pas comme des tâches. Un accès à vie en paiement unique existe aussi."
       },
       "how": {
-        "en": "Sign up on the site, connect a trigger app or an instant webhook, then add action steps. Plans are priced by monthly tasks, from $16/mo for 10,000 tasks billed annually.",
-        "fr": "Créer un compte, connecter une application déclencheuse ou un webhook instantané, puis ajouter des actions. L'entrée est à 16 $/mois (10 000 tâches, facturé annuellement)."
+        "en": "Sign up on the site, connect a trigger app or an instant webhook, then add action steps. Plans are priced by monthly tasks, from 14 €/mo for 10,000 tasks billed annually.",
+        "fr": "Créer un compte, connecter une application déclencheuse ou un webhook instantané, puis ajouter des actions. L'entrée est à 14 €/mois (10 000 tâches, facturé annuellement)."
       },
       "pinned": false,
       "status": "new",
       "price": {
-        "en": "$16/mo (10,000 tasks, billed annually)",
-        "fr": "16 $/mois (10 000 tâches, facturé annuellement)"
+        "en": "14 €/mo (10,000 tasks, billed annually)",
+        "fr": "14 €/mois (10 000 tâches, facturé annuellement)"
       },
       "priceRank": 16,
       "freeOffer": false,
@@ -296,8 +296,8 @@
       "pinned": false,
       "status": "new",
       "price": {
-        "en": "Free (100 transactions), then $15/mo (Pro, billed annually)",
-        "fr": "Gratuit (100 transactions), puis 15 $/mois (Pro, facturé annuellement)"
+        "en": "Free (100 transactions), then 14 €/mo (Pro, billed annually)",
+        "fr": "Gratuit (100 transactions), puis 14 €/mois (Pro, facturé annuellement)"
       },
       "priceRank": 0,
       "freeOffer": true,
@@ -347,8 +347,8 @@
       "pinned": false,
       "status": "new",
       "price": {
-        "en": "Free (100 tasks), then $19.99/mo (Starter, billed annually)",
-        "fr": "Gratuit (100 tâches), puis 19,99 $/mois (Starter, facturé annuellement)"
+        "en": "Free (100 tasks), then 18.09 €/mo (Starter, billed annually)",
+        "fr": "Gratuit (100 tâches), puis 18,09 €/mois (Starter, facturé annuellement)"
       },
       "priceRank": 0,
       "freeOffer": true,
@@ -398,8 +398,8 @@
       "pinned": false,
       "status": "new",
       "price": {
-        "en": "Free, then $0.00012 per CPU-second",
-        "fr": "Gratuit, puis 0,00012 $/seconde CPU"
+        "en": "Free, then 0.00011 € per CPU-second",
+        "fr": "Gratuit, puis 0,00011 €/seconde CPU"
       },
       "priceRank": 0,
       "freeOffer": true,
@@ -494,8 +494,8 @@
         "fr": "Tines est conçu pour des systèmes et des données sensibles, avec des contrôles de sécurité et de gouvernance, et l'édition gratuite autorise un nombre illimité d'utilisateurs et de connecteurs."
       },
       "how": {
-        "en": "Sign up for the free edition (3 live workflows, a one-time $50 AI allowance) and start from the templates library or the five-minute flows.",
-        "fr": "Créer un compte sur l'édition gratuite (3 flux actifs, une enveloppe IA de 50 $ en une fois) et partir de la bibliothèque de modèles ou des flux en cinq minutes."
+        "en": "Sign up for the free edition (3 live workflows, a one-time 45 € AI allowance) and start from the templates library or the five-minute flows.",
+        "fr": "Créer un compte sur l'édition gratuite (3 flux actifs, une enveloppe IA de 45 € en une fois) et partir de la bibliothèque de modèles ou des flux en cinq minutes."
       },
       "pinned": false,
       "status": "new",
@@ -551,8 +551,8 @@
       "pinned": false,
       "status": "new",
       "price": {
-        "en": "Free when self-hosted, then $170/mo (Cloud Team)",
-        "fr": "Gratuit en auto-hébergement, puis 170 $/mois (Cloud Team)"
+        "en": "Free when self-hosted, then 154 €/mo (Cloud Team)",
+        "fr": "Gratuit en auto-hébergement, puis 154 €/mois (Cloud Team)"
       },
       "priceRank": 0,
       "freeOffer": true,
@@ -698,14 +698,14 @@
         "fr": "Les bots se construisent dans une extension Chrome sans code, via une API, ou en les décrivant à Claude, et ils tournent dans le cloud ou sur la machine. Les exécutions sur la machine n'ont pas de limite de concurrence."
       },
       "how": {
-        "en": "Install the Chrome extension, build a bot step by step or with AI, and run it on the free trial runtime. Starter costs $15/mo for 5 hours.",
-        "fr": "Installer l'extension Chrome, construire un bot pas à pas ou avec l'IA, et le lancer sur le temps d'essai. Starter est à 15 $/mois (Starter, 5 h)."
+        "en": "Install the Chrome extension, build a bot step by step or with AI, and run it on the free trial runtime. Starter costs 14 €/mo for 5 hours.",
+        "fr": "Installer l'extension Chrome, construire un bot pas à pas ou avec l'IA, et le lancer sur le temps d'essai. Starter est à 14 €/mois (Starter, 5 h)."
       },
       "pinned": false,
       "status": "new",
       "price": {
-        "en": "$15/mo (Starter, 5 h runtime)",
-        "fr": "15 $/mois (Starter, 5 h)"
+        "en": "14 €/mo (Starter, 5 h runtime)",
+        "fr": "14 €/mois (Starter, 5 h)"
       },
       "priceRank": 15,
       "freeOffer": false,
@@ -755,8 +755,8 @@
       "pinned": true,
       "status": "already_in_catalog",
       "price": {
-        "en": "Free when self-hosted, then $20/mo (Starter, billed annually)",
-        "fr": "Gratuit en auto-hébergement, puis 20 $/mois (Starter, facturé annuellement)"
+        "en": "Free when self-hosted, then 20 €/mo (Starter, billed annually)",
+        "fr": "Gratuit en auto-hébergement, puis 20 €/mois (Starter, facturé annuellement)"
       },
       "priceRank": 0,
       "freeOffer": true,
@@ -806,8 +806,8 @@
       "pinned": true,
       "status": "already_in_catalog",
       "price": {
-        "en": "Free, then $19.99/mo (Professional)",
-        "fr": "Gratuit, puis 19,99 $/mois (Professional)"
+        "en": "Free, then 18.09 €/mo (Professional)",
+        "fr": "Gratuit, puis 18,09 €/mois (Professional)"
       },
       "priceRank": 0,
       "freeOffer": true,
@@ -898,8 +898,8 @@
         "fr": "L'équipe connecte l'une des 760 applications, lance un agent dans le même espace, et peut héberger le cœur chez elle."
       },
       "why": {
-        "en": "The core is open source and can be self-hosted. The hosted Plus plan is a flat $20/mo.",
-        "fr": "Le cœur est libre et peut être auto-hébergé. Le plan hébergé Plus est un forfait de 20 $/mois (Plus)."
+        "en": "The core is open source and can be self-hosted. The hosted Plus plan is a flat 18 €/mo.",
+        "fr": "Le cœur est libre et peut être auto-hébergé. Le plan hébergé Plus est un forfait de 18 €/mois (Plus)."
       },
       "how": {
         "en": "Use the hosted Free plan (no card) or self-host the open-source core, then connect apps and build a first flow.",
@@ -908,8 +908,8 @@
       "pinned": false,
       "status": "already_in_catalog",
       "price": {
-        "en": "Free, then $20/mo (Plus)",
-        "fr": "Gratuit, puis 20 $/mois (Plus)"
+        "en": "Free, then 18 €/mo (Plus)",
+        "fr": "Gratuit, puis 18 €/mois (Plus)"
       },
       "priceRank": 0,
       "freeOffer": true,
@@ -953,14 +953,14 @@
         "fr": "Pipedream s'adresse aux développeurs, avec une authentification gérée et plus de 10 000 outils prêts via Connect, plus Conduit pour gouverner les outils d'IA."
       },
       "how": {
-        "en": "Start building for free with no card. Paid plans apply when integrations go into production, from $99/mo on annual billing.",
-        "fr": "Commencer à construire gratuitement, sans carte. Les plans payants s'appliquent quand les intégrations passent en production, à partir de 99 $/mois (Startup, facturé annuellement)."
+        "en": "Start building for free with no card. Paid plans apply when integrations go into production, from 90 €/mo on annual billing.",
+        "fr": "Commencer à construire gratuitement, sans carte. Les plans payants s'appliquent quand les intégrations passent en production, à partir de 90 €/mois (Startup, facturé annuellement)."
       },
       "pinned": false,
       "status": "already_in_catalog",
       "price": {
-        "en": "Free to build, then $99/mo (Startup, billed annually)",
-        "fr": "Gratuit pour construire, puis 99 $/mois (Startup, facturé annuellement)"
+        "en": "Free to build, then 90 €/mo (Startup, billed annually)",
+        "fr": "Gratuit pour construire, puis 90 €/mois (Startup, facturé annuellement)"
       },
       "priceRank": 0,
       "freeOffer": true,
@@ -1000,8 +1000,8 @@
         "fr": "Une ampoule ou un message Discord réagit à un déclencheur simple, sans dessiner un scénario à plusieurs branches."
       },
       "why": {
-        "en": "It is a low-cost way for individuals and small businesses to set up simple trigger-action automations, from $2.99/mo.",
-        "fr": "IFTTT est un moyen peu coûteux, pour des particuliers et des petites entreprises, de poser des automatisations simples déclencheur-action, à partir de 2,99 $/mois (facturé annuellement)."
+        "en": "It is a low-cost way for individuals and small businesses to set up simple trigger-action automations, from 2.71 €/mo.",
+        "fr": "IFTTT est un moyen peu coûteux, pour des particuliers et des petites entreprises, de poser des automatisations simples déclencheur-action, à partir de 2,71 €/mois (facturé annuellement)."
       },
       "how": {
         "en": "Choose Get started, enable a published applet on the free plan, or build your own with a trigger and an action.",
@@ -1010,8 +1010,8 @@
       "pinned": false,
       "status": "already_in_catalog",
       "price": {
-        "en": "Free, then $2.99/mo (billed annually)",
-        "fr": "Gratuit, puis 2,99 $/mois (facturé annuellement)"
+        "en": "Free, then 2.71 €/mo (billed annually)",
+        "fr": "Gratuit, puis 2,71 €/mois (facturé annuellement)"
       },
       "priceRank": 0,
       "freeOffer": true,
@@ -1056,13 +1056,13 @@
       },
       "how": {
         "en": "Start the 30-day trial or sign in with a Microsoft account, then describe a cloud flow to Copilot.",
-        "fr": "Démarrer l'essai de 30 jours ou se connecter avec un compte Microsoft, puis décrire un flux cloud à Copilot. L'entrée est à 15 $/mois par utilisateur (facturé annuellement)."
+        "fr": "Démarrer l'essai de 30 jours ou se connecter avec un compte Microsoft, puis décrire un flux cloud à Copilot. L'entrée est à 14 €/mois par utilisateur (facturé annuellement)."
       },
       "pinned": false,
       "status": "already_in_catalog",
       "price": {
-        "en": "$15/user/mo (billed annually)",
-        "fr": "15 $/mois par utilisateur (facturé annuellement)"
+        "en": "14 €/user/mo (billed annually)",
+        "fr": "14 €/mois par utilisateur (facturé annuellement)"
       },
       "priceRank": 15,
       "freeOffer": false,
@@ -1112,8 +1112,8 @@
       "pinned": false,
       "status": "already_in_catalog",
       "price": {
-        "en": "$37/mo (Pro)",
-        "fr": "37 $/mois (Pro)"
+        "en": "33 €/mo (Pro)",
+        "fr": "33 €/mois (Pro)"
       },
       "priceRank": 37,
       "freeOffer": false,
@@ -1157,14 +1157,14 @@
         "fr": "Les agents se construisent sans code et sont joignables dans Slack, iMessage ou par e-mail."
       },
       "how": {
-        "en": "Try it free with $50 in credits (valid 7 days, no card), connect your tools and ask it to do a task.",
-        "fr": "Essayer avec 50 $ de crédits offerts pendant 7 jours, sans carte, connecter les outils et lui demander une tâche. L'entrée payante est à 49,99 $/mois (Team, 5 000 crédits)."
+        "en": "Try it free with 45 € in credits (valid 7 days, no card), connect your tools and ask it to do a task.",
+        "fr": "Essayer avec 45 € de crédits offerts pendant 7 jours, sans carte, connecter les outils et lui demander une tâche. L'entrée payante est à 45,23 €/mois (Team, 5 000 crédits)."
       },
       "pinned": false,
       "status": "already_in_catalog",
       "price": {
-        "en": "$49.99/mo (Team, 5,000 credits)",
-        "fr": "49,99 $/mois (Team, 5 000 crédits)"
+        "en": "45.23 €/mo (Team, 5,000 credits)",
+        "fr": "45,23 €/mois (Team, 5 000 crédits)"
       },
       "priceRank": 49.99,
       "freeOffer": false,
@@ -1362,13 +1362,13 @@
       },
       "how": {
         "en": "Choose Get started; every account has 100 free credits. Run the AI web scraper on a target site.",
-        "fr": "Choisir Get started. Chaque compte a 100 crédits gratuits. Lancer le collecteur IA sur un site cible. L'entrée payante est à 10 $/mois."
+        "fr": "Choisir Get started. Chaque compte a 100 crédits gratuits. Lancer le collecteur IA sur un site cible. L'entrée payante est à 9 €/mois."
       },
       "pinned": false,
       "status": "already_in_catalog",
       "price": {
-        "en": "Free (100 credits), then $10/mo",
-        "fr": "Gratuit (100 crédits), puis 10 $/mois"
+        "en": "Free (100 credits), then 9 €/mo",
+        "fr": "Gratuit (100 crédits), puis 9 €/mois"
       },
       "priceRank": 0,
       "freeOffer": true,
@@ -1412,14 +1412,14 @@
         "fr": "Le projet a commencé comme une bibliothèque libre, propose un paiement à l'usage sans abonnement, et prend en charge Playwright ou Puppeteer via CDP."
       },
       "how": {
-        "en": "Start for free with $1 of credit, then run a hosted agent task or connect your agent to a cloud browser.",
-        "fr": "Ouvrir un compte : 1 $ de crédit est offert au départ, ce n'est pas une offre gratuite durable. Puis lancer une tâche d'agent hébergé ou connecter son agent à un navigateur cloud."
+        "en": "Start for free with 0.90 € of credit, then run a hosted agent task or connect your agent to a cloud browser.",
+        "fr": "Ouvrir un compte : 0,90 € de crédit est offert au départ, ce n'est pas une offre gratuite durable. Puis lancer une tâche d'agent hébergé ou connecter son agent à un navigateur cloud."
       },
       "pinned": false,
       "status": "already_in_catalog",
       "price": {
-        "en": "$0.02/browser-hour",
-        "fr": "0,02 $/heure de navigateur"
+        "en": "0.054 €/browser-hour",
+        "fr": "0,054 €/heure de navigateur"
       },
       "priceRank": 0.02,
       "freeOffer": false,
@@ -1469,8 +1469,8 @@
       "pinned": false,
       "status": "already_in_catalog",
       "price": {
-        "en": "Free (5,000 credits/mo), then $29/mo (Hobby)",
-        "fr": "Gratuit (5 000 crédits/mois), puis 29 $/mois (Hobby)"
+        "en": "Free (5,000 credits/mo), then 26 €/mo (Hobby)",
+        "fr": "Gratuit (5 000 crédits/mois), puis 26 €/mois (Hobby)"
       },
       "priceRank": 0,
       "freeOffer": true,

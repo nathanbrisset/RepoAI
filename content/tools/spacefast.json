@@ -1,0 +1,89 @@
+{
+  "id": "spacefast",
+  "name": "Spacefast",
+  "url": "https://spacefast.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Publishing home for what you or your AI makes: share artifacts, host static sites, deploy web apps, manage versions and use custom domains. Made by Automattic.",
+  "description": "Publishing home for what you or your AI makes: share artifacts, host static sites, deploy web apps, manage versions and use custom domains. Made by Automattic.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "hosting",
+    "deploy",
+    "agents",
+    "mcp",
+    "automattic",
+    "sites"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Personal 0 €, no card — 1 € of usage included every month, 20 Spaces and 20 custom domains, publish from any agent, commercial use. Go 5 €/month — everything in Personal plus 5 € usage/month, 100 Spaces and 100 custom domains, hourly database backups, choose a datacenter, email support. Pro 14 €/month — everything in Go plus 14 € usage/month, free up to 5 members then 14 €/month each, 500 Spaces and 500 custom domains, team roles and wildcard domains, priority email support. Enterprise custom (SSO, SAML, SCIM, subteams, network policies, log drains, dedicated support with SLA).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/spacefast.png",
+  "image": "/screenshots/spacefast.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Publish artifacts, static sites and web apps from any AI/MCP client",
+    "Private by default, with share links, passwords, custom domains and versioning",
+    "Made by Automattic",
+    "Personal plan with no card, including a small monthly usage allowance"
+  ],
+  "howToUse": [
+    {
+      "title": "Open spacefast.com and start a Personal account with no card.",
+      "description": "Open spacefast.com and start a Personal account with no card.",
+      "links": [
+        {
+          "label": "Spacefast",
+          "url": "https://spacefast.com/"
+        }
+      ]
+    },
+    {
+      "title": "Publish artifacts, static sites or web apps from your agent or the CLI.",
+      "description": "Publish artifacts, static sites or web apps from your agent or the CLI."
+    },
+    {
+      "title": "Subscribe to Go or Pro if you need more usage, Spaces or team seats.",
+      "description": "Subscribe to Go or Pro if you need more usage, Spaces or team seats."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://spacefast.com/"
+  ],
+  "summary_fr": "Espace de publication pour tes créations et celles de ton IA: partager des artefacts, héberger des sites statiques, déployer des apps web, gérer les versions et utiliser des domaines personnalisés. Édité par Automattic.",
+  "description_fr": "Espace de publication pour tes créations et celles de ton IA: partager des artefacts, héberger des sites statiques, déployer des apps web, gérer les versions et utiliser des domaines personnalisés. Édité par Automattic.",
+  "features_fr": [
+    "Publie des artefacts, des sites statiques et des apps web depuis n’importe quel client IA/MCP",
+    "Privé par défaut, avec liens de partage, mots de passe, domaines personnalisés et versions",
+    "Édité par Automattic",
+    "Offre Personal sans carte, avec une petite allocation d’usage mensuelle"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre spacefast.com et commence un compte Personal, sans carte.",
+      "description": "Ouvre spacefast.com et commence un compte Personal, sans carte.",
+      "links": [
+        {
+          "label": "Spacefast",
+          "url": "https://spacefast.com/"
+        }
+      ]
+    },
+    {
+      "title": "Publie des artefacts, des sites statiques ou des apps web depuis ton agent ou le CLI.",
+      "description": "Publie des artefacts, des sites statiques ou des apps web depuis ton agent ou le CLI."
+    },
+    {
+      "title": "Passe à Go ou Pro si tu as besoin de plus d’usage, de Spaces ou de sièges d’équipe.",
+      "description": "Passe à Go ou Pro si tu as besoin de plus d’usage, de Spaces ou de sièges d’équipe."
+    }
+  ]
+}

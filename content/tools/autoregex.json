@@ -16,8 +16,7 @@
   "pricing": {
     "model": "free",
     "label": "Free",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/autoregex.png",
   "image": "/screenshots/autoregex.webp",
@@ -54,9 +53,9 @@
     }
   ],
   "features_fr": [
-    "Saisie en langage naturel : décrivez les besoins en matière de modèles en texte brut.",
-    "Sortie Regex : conversion instantanée en expressions régulières valides.",
-    "Mise en évidence de la syntaxe : comprenez et modifiez facilement les expressions régulières.",
-    "Outil d'apprentissage : aide les débutants à maîtriser les concepts d'expression régulière."
+    "Saisie en langage naturel: décrivez les besoins en matière de modèles en texte brut.",
+    "Sortie Regex: conversion instantanée en expressions régulières valides.",
+    "Mise en évidence de la syntaxe: comprenez et modifiez facilement les expressions régulières.",
+    "Outil d'apprentissage: aide les débutants à maîtriser les concepts d'expression régulière."
   ]
 }

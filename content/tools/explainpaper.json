@@ -1,0 +1,88 @@
+{
+  "id": "explainpaper",
+  "name": "Explainpaper",
+  "url": "https://www.explainpaper.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Research reader that highlights a paper and explains the passage, with follow-up questions and, on Pro, figure explanations and outlines.",
+  "description": "Research reader that highlights a paper and explains the passage, with follow-up questions and, on Pro, figure explanations and outlines.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "research",
+    "papers",
+    "education",
+    "explanations",
+    "academic"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.explainpaper.com/pricing",
+    "details": "Free 0 €/month, forever — unlimited highlight explanations, ask follow-up questions, import your Zotero library, powered by basic AI models. Pro 14 €/month, 7-day free trial — click graphs, figures and equations to explain them, explanations powered by GPT-6 Sol, automatic paper outlines with clickable page references, save highlights and explanations, ask questions about your paper. Teams — contact us (everything in Pro, team management, priority support, volume discounts). All plans billed through Stripe.",
+    "model": "freemium",
+    "label": "Freemium",
+    "note": "Free 0 €/month, forever — unlimited highlight explanations, follow-up questions, Zotero import, basic AI models. Pro 14 €/month, 7-day free trial — explanations of graphs, figures and equations, GPT-6 Sol, automatic outlines, saved highlights. Teams — contact the vendor. A yearly billing option with a 25% saving is offered."
+  },
+  "logo": "/logos/explainpaper.png",
+  "image": "/screenshots/explainpaper.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Highlight a paper and get an explanation of the passage, with follow-up questions",
+    "Free forever: unlimited highlight explanations, Zotero import, basic AI models",
+    "Pro (7-day trial): figure and equation explanations, automatic outlines, saved highlights",
+    "Teams is contact-us, with volume discounts"
+  ],
+  "howToUse": [
+    {
+      "title": "Open explainpaper.com and start Free forever, with no charge.",
+      "description": "Open explainpaper.com and start Free forever, with no charge.",
+      "links": [
+        {
+          "label": "Explainpaper",
+          "url": "https://www.explainpaper.com/"
+        }
+      ]
+    },
+    {
+      "title": "Highlight a passage in a paper to get an explanation, and ask follow-up questions.",
+      "description": "Highlight a passage in a paper to get an explanation, and ask follow-up questions."
+    },
+    {
+      "title": "Start the 7-day Pro trial if you need figure explanations, GPT-6 Sol and saved outlines.",
+      "description": "Start the 7-day Pro trial if you need figure explanations, GPT-6 Sol and saved outlines."
+    }
+  ],
+  "sources": [
+    "https://www.explainpaper.com/pricing"
+  ],
+  "summary_fr": "Lecteur de recherche qui surligne un article et en explique le passage, avec questions de suivi et, en Pro, explications de figures et plans automatiques.",
+  "description_fr": "Lecteur de recherche qui surligne un article et en explique le passage, avec questions de suivi et, en Pro, explications de figures et plans automatiques.",
+  "features_fr": [
+    "Surligne un article et obtiens une explication du passage, avec questions de suivi",
+    "Gratuit pour toujours : explications de surlignage illimitées, import Zotero, modèles IA de base",
+    "Pro (essai de 7 jours) : explications de figures et d’équations, plans automatiques, surlignages enregistrés",
+    "Teams est sur demande, avec remises volume"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre explainpaper.com et commence en Gratuit pour toujours, sans frais.",
+      "description": "Ouvre explainpaper.com et commence en Gratuit pour toujours, sans frais.",
+      "links": [
+        {
+          "label": "Explainpaper",
+          "url": "https://www.explainpaper.com/"
+        }
+      ]
+    },
+    {
+      "title": "Surligne un passage d’un article pour en obtenir une explication, et pose des questions...",
+      "description": "Surligne un passage d’un article pour en obtenir une explication, et pose des questions de suivi."
+    },
+    {
+      "title": "Lance l’essai Pro de 7 jours si tu as besoin d’explications de figures, de GPT-6 Sol et...",
+      "description": "Lance l’essai Pro de 7 jours si tu as besoin d’explications de figures, de GPT-6 Sol et de plans enregistrés."
+    }
+  ]
+}

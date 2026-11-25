@@ -18,14 +18,12 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/deep_dream_generator.png",
   "image": "/screenshots/deep_dream_generator.webp",
   "dateAdded": null,
   "lastVerified": null,
-  "dateAddedNote": "The previous Added date was 2015-09-01. It was removed because it is not a credible date for this directory.",
   "features": [
     "Dreamlike Filters: Apply surreal AI-generated styles to photos.",
     "Style Transfer: Mix multiple styles on a single image.",
@@ -57,9 +55,9 @@
     }
   ],
   "features_fr": [
-    "Filtres oniriques : appliquez des styles surréalistes générés par l'IA aux photos.",
-    "Transfert de style : mélangez plusieurs styles sur une seule image.",
-    "Plusieurs modèles : choisissez parmi un rêve profond, un style fin et plus encore.",
-    "Galerie communautaire : explorez et partagez des créations."
+    "Filtres oniriques: appliquez des styles surréalistes générés par l'IA aux photos.",
+    "Transfert de style: mélangez plusieurs styles sur une seule image.",
+    "Plusieurs modèles: choisissez parmi un rêve profond, un style fin et plus encore.",
+    "Galerie communautaire: explorez et partagez des créations."
   ]
 }

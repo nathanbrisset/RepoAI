@@ -1,0 +1,85 @@
+{
+  "id": "tday-com",
+  "name": "tday.com",
+  "url": "https://tday.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "A coding agent records narrated product demos of the real app; tday voices, styles and renders them, then flags demos that a merged PR made out of date.",
+  "description": "A coding agent records narrated product demos of the real app; tday voices, styles and renders them, then flags demos that a merged PR made out of date.",
+  "categories": [
+    "video"
+  ],
+  "tags": [
+    "product-demo",
+    "video",
+    "coding-agents",
+    "documentation",
+    "screen-recording",
+    "voiceover"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free 0 € — 5 demos, with a badge. Pro 36 €/month. Growth 136 €/month. Enterprise is custom, with no public list price.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/tday-com.png",
+  "image": "/screenshots/tday-com.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "The coding agent records narrated demos of the real app; tday voices, styles and renders them",
+    "Flags demos that a merged PR made out of date",
+    "Free 0 € — 5 demos, with a badge. Pro 36 €/month. Growth 136 €/month. Enterprise is custom, with no public list price"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up free at tday.com and paste the setup prompt into Claude Code, Cursor or Codex.",
+      "description": "Sign up free at tday.com and paste the setup prompt into Claude Code, Cursor or Codex.",
+      "links": [
+        {
+          "label": "tday.com",
+          "url": "https://tday.com/"
+        }
+      ]
+    },
+    {
+      "title": "Ask for a demo of a feature, then edit the script lines if needed.",
+      "description": "Ask for a demo of a feature, then edit the script lines if needed."
+    },
+    {
+      "title": "Embed the demo in your docs; move to Pro to remove the badge and get stale-demo alerts...",
+      "description": "Embed the demo in your docs; move to Pro to remove the badge and get stale-demo alerts, or to Growth for a higher volume."
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/products/tday"
+  ],
+  "summary_fr": "Ton agent de code enregistre des démos produit commentées de ta vraie app ; tday ajoute voix, style et rendu, puis signale les démos rendues obsolètes par une PR fusionnée.",
+  "description_fr": "Ton agent de code enregistre des démos produit commentées de ta vraie app ; tday ajoute voix, style et rendu, puis signale les démos rendues obsolètes par une PR fusionnée.",
+  "features_fr": [
+    "L’agent de code enregistre des démos commentées de la vraie app ; tday ajoute voix, style et rendu",
+    "Signale les démos rendues obsolètes par une PR fusionnée",
+    "Gratuit 0 € — 5 démos, avec un badge. Pro 36 €/mois. Growth 136 €/mois. Enterprise est sur mesure, sans prix de liste public"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Inscris-toi sans frais sur tday.com et colle le prompt d’installation dans Claude Code...",
+      "description": "Inscris-toi sans frais sur tday.com et colle le prompt d’installation dans Claude Code, Cursor ou Codex.",
+      "links": [
+        {
+          "label": "tday.com",
+          "url": "https://tday.com/"
+        }
+      ]
+    },
+    {
+      "title": "Demande une démo d’une fonction, puis ajuste les lignes du script si besoin.",
+      "description": "Demande une démo d’une fonction, puis ajuste les lignes du script si besoin."
+    },
+    {
+      "title": "Intègre la démo dans ta doc ; passe à Pro pour retirer le badge et recevoir les alertes...",
+      "description": "Intègre la démo dans ta doc ; passe à Pro pour retirer le badge et recevoir les alertes de démos obsolètes, ou à Growth pour un volume plus élevé."
+    }
+  ]
+}

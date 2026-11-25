@@ -1,0 +1,87 @@
+{
+  "id": "tabstack",
+  "name": "Tabstack",
+  "url": "https://tabstack.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Managed web API built by Mozilla that gives a model or agent live research with citations, clean text or JSON extraction and browser automation, and is never trained on that data.",
+  "description": "Managed web API built by Mozilla that gives a model or agent live research with citations, clean text or JSON extraction and browser automation, and is never trained on that data.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "web-api",
+    "browser-automation",
+    "web-scraping",
+    "research",
+    "ai-agents",
+    "mozilla"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "10,000 credits are given once — a one-time credit, not a lasting free plan. Starter 9 €/month, Team 90 €/month, Pro 455 €/month. Overage rates that are too small to show as meaningful euro prices are not itemised here.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/tabstack.png",
+  "image": "/screenshots/tabstack.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "Live research with citations, clean text or JSON extraction, and browser automation, never trained on that data",
+    "Built by Mozilla",
+    "10,000 credits are given once — this is a one-time credit, not a lasting free plan. Starter 9 €/month, Team 90 €/month, Pro 455 €/month",
+    "Overage rates that are too small to show as meaningful euro prices are not itemised here"
+  ],
+  "howToUse": [
+    {
+      "title": "Create an account on tabstack.ai to get an API key and the one-time 10,000 credits.",
+      "description": "Create an account on tabstack.ai to get an API key and the one-time 10,000 credits.",
+      "links": [
+        {
+          "label": "Tabstack",
+          "url": "https://tabstack.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Try research, extract or automate in the playground.",
+      "description": "Try research, extract or automate in the playground."
+    },
+    {
+      "title": "Pick Starter, Team or Pro by monthly volume when the welcome credits run out.",
+      "description": "Pick Starter, Team or Pro by monthly volume when the welcome credits run out."
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/products/tabstack"
+  ],
+  "summary_fr": "API web managée, conçue par Mozilla, qui donne à un modèle ou un agent de la recherche en direct avec citations, l’extraction de texte ou de JSON propre et l’automatisation de navigateur, sans entraînement sur ces données.",
+  "description_fr": "API web managée, conçue par Mozilla, qui donne à un modèle ou un agent de la recherche en direct avec citations, l’extraction de texte ou de JSON propre et l’automatisation de navigateur, sans entraînement sur ces données.",
+  "features_fr": [
+    "Recherche en direct avec citations, extraction de texte ou de JSON propre, et automatisation de navigateur, sans entraînement sur ces données",
+    "Conçue par Mozilla",
+    "10 000 crédits sont offerts une seule fois — ce n’est pas une offre gratuite durable. Starter 9 €/mois, Team 90 €/mois, Pro 455 €/mois",
+    "Les tarifs de dépassement trop faibles pour s’afficher en euros ne sont pas détaillés ici"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Crée un compte sur tabstack.ai pour obtenir une clé API et les 10 000 crédits, une seule...",
+      "description": "Crée un compte sur tabstack.ai pour obtenir une clé API et les 10 000 crédits, une seule fois.",
+      "links": [
+        {
+          "label": "Tabstack",
+          "url": "https://tabstack.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Essaie la recherche, l’extraction ou l’automatisation dans l’aire d’essai.",
+      "description": "Essaie la recherche, l’extraction ou l’automatisation dans l’aire d’essai."
+    },
+    {
+      "title": "Choisis Starter, Team ou Pro selon le volume mensuel quand les crédits de bienvenue sont...",
+      "description": "Choisis Starter, Team ou Pro selon le volume mensuel quand les crédits de bienvenue sont épuisés."
+    }
+  ]
+}

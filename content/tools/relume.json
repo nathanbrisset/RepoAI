@@ -18,8 +18,7 @@
   "pricing": {
     "model": "freemium",
     "label": "Freemium",
-    "verified": false,
-    "note": "Price label carried over from the previous catalog and not rechecked."
+    "verified": false
   },
   "logo": "/logos/relume.png",
   "image": "/screenshots/relume.webp",
@@ -58,7 +57,7 @@
   "statusNote": "relume.io redirects to relume.ai",
   "features_fr": [
     "Génération basée sur des invites : créez des wireframes de site à partir de descriptions.",
-    "Rédaction IA : générez et modifiez instantanément le contenu d’un site Web.",
+    "Rédaction IA : génère et modifiez instantanément le contenu d’un site Web.",
     "Options d'exportation : envoyez des conceptions vers Figma ou Webflow.",
     "Bibliothèque de blocs : mélangez et associez des composants prédéfinis."
   ]

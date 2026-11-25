@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Perplexity's AI-powered web browser.",
-  "description": "Comet is a web browser from Perplexity with a built-in AI assistant that answers questions about pages, summarizes content and can perform tasks such as emailing, shopping or research while you browse. It is available for Mac, Windows, iOS and Android. Comet has been free to download and use since October 2025; an optional Comet Plus subscription costs $5/month and is included with Perplexity Pro and Max.",
+  "description": "Comet is a web browser from Perplexity with a built-in AI assistant that answers questions about pages, summarizes content and can perform tasks such as emailing, shopping or research while you browse. It is available for Mac, Windows, iOS and Android. Comet has been free to download and use since October 2025; an optional paid tier may apply for Comet Plus or bundled Perplexity plans. See the official product page for current plan names and limits.",
   "categories": [
     "productivity"
   ],
@@ -18,7 +18,7 @@
     "model": "free",
     "label": "Free",
     "verified": true,
-    "note": "Comet has been free to download and use since October 2025; an optional Comet Plus subscription costs $5/month and is included with Perplexity Pro and Max.",
+    "uncertain": true,
     "sourceUrl": "https://www.perplexity.ai/comet"
   },
   "logo": "/logos/perplexity-comet.png",
@@ -63,12 +63,12 @@
     "Perplexity's AI-powered web browser.",
     "Comet is a web browser from Perplexity with a built-in AI assistant that answers questions about pages, summarizes content and can perform tasks such as emailing, shopping or research while you browse.",
     "It is available for Mac, Windows, iOS and Android.",
-    "Comet has been free to download and use since October 2025; an optional Comet Plus subscription costs $5/month and is included with Perplexity Pro and Max."
+    "Comet has been free to download and use since October 2025; optional paid tiers may apply—see the official product page for current plans."
   ],
   "features_fr": [
     "Le navigateur Web alimenté par l'IA de Perplexity.",
     "Comet est un navigateur Web de Perplexity doté d'un assistant IA intégré qui répond aux questions sur les pages, résume le contenu et peut effectuer des tâches telles que l'envoi d'e-mails, les achats ou la recherche pendant que tu naviguez.",
     "Il est disponible pour Mac, Windows, iOS et Android.",
-    "Comet est téléchargeable et utilisable gratuitement depuis octobre 2025 ; un abonnement Comet Plus en option coûte 5 $/mois et est inclus avec Perplexity Pro et Max."
+    "Comet est téléchargeable et utilisable gratuitement depuis octobre 2025 ; des formules payantes en option peuvent s'appliquer — consulte la page produit officielle pour les offres en vigueur."
   ]
 }

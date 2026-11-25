@@ -1,0 +1,87 @@
+{
+  "id": "synter",
+  "name": "Synter",
+  "url": "https://synter.ai/en",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Describe a software idea in plain English; Synter writes the spec, the roadmap, the tasks, and then the code. Free to start, no credit card.",
+  "description": "Describe a software idea in plain English; Synter writes the spec, the roadmap, the tasks, and then the code. Free to start, no credit card.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "codegen",
+    "specs",
+    "roadmap",
+    "github",
+    "agents"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://synter.ai/en/pricing",
+    "details": "Free 0 €, no credit card — 1 project, 5 features per project, community support. Pro 13 €/seat/month billed monthly, or 9 €/seat/month on the annual plan (109 €/year), official Save 29% — up to 20 projects, unlimited features, unlimited build sessions, priority AI generation, real-time collaboration, team invitations and roles, AI memory, priority support. Enterprise custom (SSO/SAML, audit logs, data residency, SLA).",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/synter.png",
+  "image": "/screenshots/synter.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Describe a software idea in plain English; Synter writes the spec, the roadmap, the tasks, and then the code",
+    "Foundation generation, AI specification writing, build sessions and GitHub integration",
+    "Free to start, no credit card",
+    "Pro monthly or official annual plan (Save 29%)"
+  ],
+  "howToUse": [
+    {
+      "title": "Open synter.ai (English at synter.ai/en) and start Free with no card.",
+      "description": "Open synter.ai (English at synter.ai/en) and start Free with no card.",
+      "links": [
+        {
+          "label": "Synter",
+          "url": "https://synter.ai/en"
+        }
+      ]
+    },
+    {
+      "title": "Describe the software idea in plain language and generate the foundation, spec, roadmap...",
+      "description": "Describe the software idea in plain language and generate the foundation, spec, roadmap and tasks, then the code."
+    },
+    {
+      "title": "Upgrade to Pro per seat if you need more projects, collaboration and priority generation.",
+      "description": "Upgrade to Pro per seat if you need more projects, collaboration and priority generation."
+    }
+  ],
+  "sources": [
+    "https://synter.ai/en/pricing"
+  ],
+  "summary_fr": "Décris une idée logicielle en langage naturel; Synter rédige la spécification, la roadmap, les tâches, puis le code. Gratuit pour commencer, sans carte bancaire.",
+  "description_fr": "Décris une idée logicielle en langage naturel; Synter rédige la spécification, la roadmap, les tâches, puis le code. Gratuit pour commencer, sans carte bancaire.",
+  "features_fr": [
+    "Décris une idée logicielle en langage naturel; Synter rédige la spécification, la roadmap, les tâches, puis le code",
+    "Génération de la fondation, rédaction de spec IA, sessions de build et intégration GitHub",
+    "Gratuit pour commencer, sans carte",
+    "Pro au mois, ou offre annuelle officielle (économie de 29 %)"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre synter.ai (version anglaise sur synter.ai/en) et commence l’offre Gratuite, sans...",
+      "description": "Ouvre synter.ai (version anglaise sur synter.ai/en) et commence l’offre Gratuite, sans carte.",
+      "links": [
+        {
+          "label": "Synter",
+          "url": "https://synter.ai/en"
+        }
+      ]
+    },
+    {
+      "title": "Décris l’idée logicielle en langage naturel et génère la fondation, la spec, la roadmap...",
+      "description": "Décris l’idée logicielle en langage naturel et génère la fondation, la spec, la roadmap et les tâches, puis le code."
+    },
+    {
+      "title": "Passe à Pro par siège si tu as besoin de plus de projets, de la collaboration et de la...",
+      "description": "Passe à Pro par siège si tu as besoin de plus de projets, de la collaboration et de la génération prioritaire."
+    }
+  ]
+}

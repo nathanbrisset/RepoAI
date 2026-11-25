@@ -1,0 +1,80 @@
+{
+  "id": "stroq",
+  "name": "Stroq",
+  "url": "https://www.stroq.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Scans recorded Claude Code, Codex CLI and Cursor sessions for known credentials without printing their values, and can guard supported agent actions against prompt injection and secret egress. Officially free forever.",
+  "description": "Scans recorded Claude Code, Codex CLI and Cursor sessions for known credentials without printing their values, and can guard supported agent actions against prompt injection and secret egress. Officially free forever.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "security",
+    "secrets",
+    "cursor",
+    "claude-code",
+    "codex",
+    "privacy"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free forever. Team features (shared policy, audit and SSO) are officially described as coming; follow on GitHub. No paid plan is published on the official site.",
+    "model": "free",
+    "label": "Free",
+    "sourceUrl": "https://www.stroq.dev/"
+  },
+  "logo": "/logos/stroq.png",
+  "image": "/screenshots/stroq.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Scans recorded Claude Code, Codex CLI and Cursor sessions for known credentials, without printing their values",
+    "Can guard supported agent actions against prompt injection and secret egress",
+    "Runs locally; built in the open",
+    "Officially free forever; team features are described as coming"
+  ],
+  "howToUse": [
+    {
+      "title": "Open stroq.dev and install the official tool.",
+      "description": "Open stroq.dev and install the official tool.",
+      "links": [
+        {
+          "label": "Stroq",
+          "url": "https://www.stroq.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Point it at recorded Claude Code, Codex CLI or Cursor sessions, and review blocked...",
+      "description": "Point it at recorded Claude Code, Codex CLI or Cursor sessions, and review blocked secrets or guarded actions locally."
+    }
+  ],
+  "sources": [
+    "https://www.stroq.dev/"
+  ],
+  "summary_fr": "Analyse les sessions enregistrées de Claude Code, Codex CLI et Cursor à la recherche d’identifiants connus sans les afficher, et peut protéger certaines actions d’agents contre l’injection de prompts et la fuite de secrets. Officiellement gratuit pour toujours.",
+  "description_fr": "Analyse les sessions enregistrées de Claude Code, Codex CLI et Cursor à la recherche d’identifiants connus sans les afficher, et peut protéger certaines actions d’agents contre l’injection de prompts et la fuite de secrets. Officiellement gratuit pour toujours.",
+  "features_fr": [
+    "Analyse les sessions enregistrées de Claude Code, Codex CLI et Cursor à la recherche d’identifiants connus, sans afficher leurs valeurs",
+    "Peut protéger certaines actions d’agents contre l’injection de prompts et la fuite de secrets",
+    "Tourne en local; développé au grand jour",
+    "Officiellement gratuit pour toujours; les fonctions Team sont décrites comme à venir"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre stroq.dev et installe l’outil officiel.",
+      "description": "Ouvre stroq.dev et installe l’outil officiel.",
+      "links": [
+        {
+          "label": "Stroq",
+          "url": "https://www.stroq.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Pointe-le vers des sessions enregistrées de Claude Code, Codex CLI ou Cursor, et relis...",
+      "description": "Pointe-le vers des sessions enregistrées de Claude Code, Codex CLI ou Cursor, et relis localement les secrets bloqués ou les actions protégées."
+    }
+  ]
+}

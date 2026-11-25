@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Generative video models for expressive character video.",
-  "description": "Hedra builds generative video models and a platform to create expressive, character-driven videos such as talking avatars with lip-sync from an image and audio. It focuses on characters and performance rather than general scenes. A free tier ($0) is listed on its pricing page, with paid plans adding credits, higher resolution and commercial use.",
+  "description": "Hedra builds generative video models and a platform to create expressive, character-driven videos such as talking avatars with lip-sync from an image and audio. It focuses on characters and performance rather than general scenes. A free tier is listed on its pricing page, with paid plans adding credits, higher resolution and commercial use.",
   "categories": [
     "video"
   ],
@@ -18,8 +18,9 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "A free tier ($0) is listed on its pricing page, with paid plans adding credits, higher resolution and commercial use.",
-    "sourceUrl": "https://www.hedra.com/pricing"
+    "note": "Usage-based GPU pricing is listed on the official pricing page. No simple consumer monthly plan with a stable public amount was clearly published there.",
+    "sourceUrl": "https://www.hedra.com/pricing",
+    "uncertain": true
   },
   "logo": "/logos/hedra.png",
   "image": "/screenshots/hedra.webp",
@@ -59,12 +60,12 @@
     "Generative video models for expressive character video.",
     "Hedra builds generative video models and a platform to create expressive, character-driven videos such as talking avatars with lip-sync from an image and audio.",
     "It focuses on characters and performance rather than general scenes.",
-    "A free tier ($0) is listed on its pricing page, with paid plans adding credits, higher resolution and commercial use."
+    "A free tier is listed on its pricing page, with paid plans adding credits, higher resolution and commercial use."
   ],
   "features_fr": [
     "Modèles vidéo génératifs pour des vidéos de personnages expressifs.",
     "Hedra crée des modèles vidéo génératifs et une plate-forme pour créer des vidéos expressives axées sur les personnages, telles que des avatars parlants avec synchronisation labiale à partir d'une image et d'un son.",
     "Il se concentre sur les personnages et les performances plutôt que sur les scènes générales.",
-    "Un niveau gratuit (0 $) est répertorié sur sa page de tarification, avec des forfaits payants ajoutant des crédits, une résolution plus élevée et une utilisation commerciale."
+    "Un palier gratuit figure sur la page tarifs ; les forfaits payants ajoutent des crédits, une meilleure résolution et un usage commercial."
   ]
 }
