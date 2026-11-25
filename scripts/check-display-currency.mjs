@@ -8,7 +8,10 @@
 import fs from "fs"
 import path from "path"
 import { fileURLToPath } from "url"
-import { containsNonEurDisplayCurrency } from "../lib/pricing-note-guard.ts"
+import {
+  containsNonEurDisplayCurrency,
+  isCleanPricingNote,
+} from "../lib/pricing-note-guard.ts"
 import { COLLECTION_DEFS } from "../lib/directory/collections.ts"
 import { categoryCopy } from "../lib/i18n/messages.ts"
 
@@ -90,6 +93,7 @@ function scanTools(allowlist) {
 
     for (const [champ, langue, value] of fields) {
       if (typeof value !== "string" || !value.trim()) continue
+      if (champ.startsWith("pricing.") && !isCleanPricingNote(value, langue)) continue
       pushHit(hits, allowlist, { slug: id, champ, langue, fichier: rel, value })
     }
 
@@ -176,13 +180,15 @@ function scanTools(allowlist) {
 
     const noteOverlay = overlay?.pricingNote_fr
     if (typeof noteOverlay === "string" && noteOverlay.trim()) {
-      pushHit(hits, allowlist, {
-        slug: id,
-        champ: "pricingNote_fr",
-        langue: "fr",
-        fichier: "content/i18n/fr-tools.json",
-        value: noteOverlay,
-      })
+      if (isCleanPricingNote(noteOverlay, "fr")) {
+        pushHit(hits, allowlist, {
+          slug: id,
+          champ: "pricingNote_fr",
+          langue: "fr",
+          fichier: "content/i18n/fr-tools.json",
+          value: noteOverlay,
+        })
+      }
     }
   }
 

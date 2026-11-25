@@ -16,6 +16,44 @@ const toolsDir = path.join(root, "content", "tools")
 const frPath = path.join(root, "content", "i18n", "fr-tools.json")
 const guidesPath = path.join(root, "content", "automations", "guides.json")
 
+function normalizeText(value) {
+  return String(value ?? "")
+    .replace(/\u00a0/g, " ")
+    .trim()
+}
+
+/** Exact match, or long shared prefix when catalogue drifted after CSV export. */
+function valuesMatch(current, expected) {
+  const cur = normalizeText(current)
+  const exp = normalizeText(expected)
+  if (cur === exp) return true
+  const shorter = exp.length <= cur.length ? exp : cur
+  const longer = exp.length > cur.length ? exp : cur
+  if (shorter.length >= 120 && longer.startsWith(shorter)) return true
+  return false
+}
+
+function candidateFichiers(slug, champ) {
+  if (/^(price|why|how)\.(en|fr)$/.test(champ)) return ["content/automations/guides.json"]
+  if (
+    champ === "description_fr" ||
+    champ === "pricingNote_fr" ||
+    champ.startsWith("features_fr") ||
+    champ.startsWith("howToUse_fr")
+  ) {
+    return ["content/i18n/fr-tools.json", `content/tools/${slug}.json`]
+  }
+  return [`content/tools/${slug}.json`]
+}
+
+function resolveFichier(slug, champ, expected, frTools, guides) {
+  for (const fichier of candidateFichiers(slug, champ)) {
+    const current = readAtChamp(null, frTools, guides, slug, champ, fichier)
+    if (valuesMatch(current, expected)) return fichier
+  }
+  return candidateFichiers(slug, champ)[0]
+}
+
 function parseCsvRows(text) {
   const lines = text.trim().split(/\r?\n/)
   const header = lines.shift()?.split(",") ?? []
@@ -46,7 +84,7 @@ function parseCsvRows(text) {
   return rows
 }
 
-function readAtChamp(tool, frTools, guides, slug, champ, fichier) {
+function readAtChamp(_ctx, frTools, guides, slug, champ, fichier) {
   if (fichier === "content/automations/guides.json") {
     const entry = (guides.tools || []).find((t) => t.id === slug)
     if (!entry) return undefined
@@ -92,7 +130,7 @@ function readAtChamp(tool, frTools, guides, slug, champ, fichier) {
   return undefined
 }
 
-function writeAtChamp(tool, frTools, guides, slug, champ, fichier, value) {
+function writeAtChamp(_ctx, frTools, guides, slug, champ, fichier, value) {
   if (fichier === "content/automations/guides.json") {
     const entry = (guides.tools || []).find((t) => t.id === slug)
     if (!entry) throw new Error(`Guide not found: ${slug}`)
@@ -194,37 +232,27 @@ function writeAtChamp(tool, frTools, guides, slug, champ, fichier, value) {
   fs.writeFileSync(toolPath, `${JSON.stringify(tool, null, 2)}\n`)
 }
 
-function main() {
-  const dryRun = process.argv.includes("--dry-run")
-  const csvPath = process.argv.find((a, i) => !a.startsWith("-") && i > 1 && a.endsWith(".csv"))
-  if (!csvPath) {
-    console.error("Usage: node scripts/apply-currency-fixes.mjs <fixes.csv> [--dry-run]")
-    process.exit(1)
-  }
-
-  const rows = parseCsvRows(fs.readFileSync(csvPath, "utf8"))
+function applyRows(rows, { dryRun, label }) {
   const frTools = JSON.parse(fs.readFileSync(frPath, "utf8"))
   const guides = JSON.parse(fs.readFileSync(guidesPath, "utf8"))
-
   const applied = []
+  const deleted = []
   const mismatches = []
-  const skipped = []
 
   for (const row of rows) {
-    const {
-      slug,
-      champ,
-      fichier,
-      valeur_actuelle: expect,
-      valeur_corrigee: next,
-      action,
-    } = row
+    const slug = row.slug
+    const champ = row.champ ?? row.field
+    const fichier = row.fichier || resolveFichier(slug, champ, row.valeur_actuelle ?? row.old_value, frTools, guides)
+    const expect = row.valeur_actuelle ?? row.old_value
+    const next = row.valeur_corrigee ?? row.new_value
+    const action = row.action
+
     const current = readAtChamp(null, frTools, guides, slug, champ, fichier)
     const curNorm = current == null ? "" : String(current)
     const expectNorm = expect == null ? "" : String(expect)
 
-    if (curNorm !== expectNorm) {
-      mismatches.push({ slug, champ, fichier, current: curNorm.slice(0, 80), expected: expectNorm.slice(0, 80) })
+    if (!valuesMatch(current, expect)) {
+      mismatches.push({ slug, champ, fichier, label, current: curNorm.slice(0, 80), expected: expectNorm.slice(0, 80) })
       continue
     }
 
@@ -235,6 +263,7 @@ function main() {
       writeAtChamp(null, frTools, guides, slug, champ, fichier, newValue)
     }
     applied.push({ slug, champ, fichier, action: isDelete ? "delete" : "replace" })
+    if (isDelete) deleted.push({ slug, champ, fichier })
   }
 
   if (!dryRun) {
@@ -242,11 +271,60 @@ function main() {
     fs.writeFileSync(guidesPath, `${JSON.stringify(guides, null, 2)}\n`)
   }
 
-  const report = { applied: applied.length, mismatches: mismatches.length, skipped: skipped.length, dryRun }
-  console.log(JSON.stringify(report, null, 2))
-  if (mismatches.length) {
+  return {
+    label,
+    applied: applied.length,
+    deleted: deleted.length,
+    replacements: applied.length - deleted.length,
+    mismatches,
+    dryRun,
+  }
+}
+
+function main() {
+  const dryRun = process.argv.includes("--dry-run")
+  const csvPath = process.argv.find((a) => a.endsWith(".csv"))
+  const jsonPath = process.argv.find((a) => a.endsWith(".json") && a.includes("usd-fields"))
+  if (!csvPath && !jsonPath) {
+    console.error("Usage: node scripts/apply-currency-fixes.mjs <fixes.csv> [fixes.json] [--dry-run]")
+    process.exit(1)
+  }
+
+  const reports = []
+  if (csvPath) reports.push(applyRows(parseCsvRows(fs.readFileSync(csvPath, "utf8")), { dryRun, label: "csv" }))
+  if (jsonPath) {
+    const frTools = JSON.parse(fs.readFileSync(frPath, "utf8"))
+    const guides = JSON.parse(fs.readFileSync(guidesPath, "utf8"))
+    const jsonRows = JSON.parse(fs.readFileSync(jsonPath, "utf8")).map((row) => ({
+      ...row,
+      champ: row.field,
+    }))
+    const pending = jsonRows.filter((row) => {
+      const fichier = resolveFichier(row.slug, row.champ, row.old_value, frTools, guides)
+      const current = readAtChamp(null, frTools, guides, row.slug, row.champ, fichier)
+      if (!valuesMatch(current, row.old_value)) return false
+      return normalizeText(current) !== normalizeText(row.new_value)
+    })
+    reports.push(applyRows(pending, { dryRun, label: "json" }))
+  }
+
+  const summary = {
+    applied: reports.reduce((n, r) => n + r.applied, 0),
+    deleted: reports.reduce((n, r) => n + r.deleted, 0),
+    replacements: reports.reduce((n, r) => n + r.replacements, 0),
+    mismatches: reports.flatMap((r) => r.mismatches),
+    dryRun,
+    bySource: reports.map((r) => ({
+      label: r.label,
+      applied: r.applied,
+      deleted: r.deleted,
+      mismatches: r.mismatches.length,
+    })),
+  }
+  console.log(JSON.stringify({ ...summary, mismatchCount: summary.mismatches.length }, null, 2))
+  if (summary.mismatches.length) {
     console.log("Mismatches:")
-    for (const m of mismatches.slice(0, 20)) console.log(m)
+    for (const m of summary.mismatches.slice(0, 30)) console.log(m)
   }
 }
 

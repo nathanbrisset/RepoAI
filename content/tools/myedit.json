@@ -17,7 +17,7 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "Official site is myedit.online (AI editor for image, video and audio). Free tier with daily credits; paid plans from about 5 USD/month on annual billing."
+    "note": "Box cannot reach myedit.io; web search + curl: official site is myedit.online (title 'MyEdit: Online AI Editor for Image, Video & Audio'); pricing page myedit.online/en/pricing via search: free tier with daily credits, paid from $5/month annually"
   },
   "logo": "/logos/myedit.png",
   "image": "/screenshots/myedit.webp",
@@ -53,7 +53,6 @@
       "description": "Preview changes and export the final audio for use."
     }
   ],
-  "statusNote": "The public site is myedit.online (image, video, and audio AI editor); paid plans from about 5 USD/month on annual billing.",
   "features_fr": [
     "Suppression du bruit et de l'écho",
     "Séparation voix et musique",
