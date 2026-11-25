@@ -1180,7 +1180,7 @@
       "Détecteur de contenus IA pour le texte, les images, les deepfakes, la voix, la musique et la vidéo, avec une clé API sur l’offre Gratuite",
       "Un quota mensuel gratuit sur le texte (1 million de mots), plus des crédits de départ sur l’offre Gratuite",
       "Les offres payantes partagent les crédits entre les modalités, avec report mensuel et une option annuelle de 10 mois facturés",
-      "Les tarifs à l’unité ne sont pas détaillés ici, car plusieurs montants unitaires sont trop faibles pour s’afficher en euros"
+      "Les crédits à l’unité ne sont pas affichés en euros"
     ],
     "howToUse_fr": [
       {
@@ -1202,7 +1202,7 @@
         "description": "Abonne-toi à Pro à 5 €/mois ou 45 €/an, ou à Business à 90 €/mois ou 905 €/an, si tu as besoin de toutes les modalités et de crédits mensuels."
       }
     ],
-    "pricingNote_fr": "Un basculeur Mensuel / Annuel « Annuel — 2 mois offerts » figure sur la page ; les deux tarifs officiels sont indiqués (basculeur de facturation habituel, pas une promo flash). Gratuit — 5 € de crédits pour commencer, 1 million de mots de détection de texte IA gratuits chaque mois, 20 contrôles d’images IA, clé API incluse. Pro 5 €/mois ou 45 €/an — 9 € de crédits inclus chaque mois, crédits à l’usage, reports mensuels des crédits, toutes les modalités débloquées ; 2 millions de mots, 500 contrôles d’images, 1 000 secondes de contrôles vidéo. Business 90 €/mois ou 905 €/an — 90 € de crédits chaque mois, 20 millions de mots, 6 600 contrôles d’images, 13 300 secondes de vidéo, 25 % de moins sur les contrôles image / audio / vidéo par rapport à Pro, reports, droits de revendeur jusqu’à 4 524 €/mois (au-delà : contacte-nous). Enterprise est sur mesure (sur site, instances privées, nous contacter). Les tarifs à l’unité ne sont pas détaillés ici, car plusieurs montants unitaires sont trop faibles pour s’afficher en euros."
+    "pricingNote_fr": "Un basculeur Mensuel / Annuel « Annuel — 2 mois offerts » figure sur la page ; les deux tarifs sont indiqués (basculeur de facturation habituel, pas une promo flash). Gratuit — 5 € de crédits pour commencer, 1 million de mots de détection de texte IA gratuits chaque mois, 20 contrôles d’images IA, clé API incluse. Pro 5 €/mois ou 45 €/an — 9 € de crédits inclus chaque mois, crédits à l’usage, reports mensuels des crédits, toutes les modalités débloquées ; 2 millions de mots, 500 contrôles d’images, 1 000 secondes de contrôles vidéo. Business 90 €/mois ou 905 €/an — 90 € de crédits chaque mois, 20 millions de mots, 6 600 contrôles d’images, 13 300 secondes de vidéo, 25 % de moins sur les contrôles image / audio / vidéo par rapport à Pro, reports, droits de revendeur jusqu’à 4 524 €/mois (au-delà : contacte-nous). Enterprise est sur mesure (sur site, instances privées, nous contacter). Les crédits à l’unité ne sont pas affichés en euros."
   },
   "ai-portfolio-analyst": {
     "summary_fr": "Analyse un portefeuille d’actions avec des scores, le risque et l’actualité, depuis une offre Silver gratuite jusqu’aux offres Gold, Platinum et Diamond.",
@@ -1778,7 +1778,7 @@
         "description": "Demande un tarif Elevate si tu as besoin de NeuralSearch et des options enterprise. L’overage des requêtes de recherche au-delà des 10 000 incluses n’est pas détaillé sur la page tarifs."
       }
     ],
-    "pricingNote_fr": "Gratuit, sans carte — 10 000 requêtes de recherche/mois, 50 000 records, 5 000 requêtes de recommandation/mois, 5 000 crawls/mois. Grow (recherche par mot-clé) et Grow Plus (recherche par mot-clé avec des fonctions IA, dont AI Synonyms, AI Ranking et la personnalisation avancée) démarrent officiellement à 0 €/mois. La FAQ officielle inclut 10 000 requêtes de recherche, 10 000 requêtes Recommend, 100 000 records, 10 000 crawls par mois et 1 Guide offert sur Grow et Grow Plus, avec facturation seulement au-delà de chaque quota inclus. Les tarifs d’overage des recommandations et du crawler sont facturés dans la devise d’origine ; un arrondi en euros entiers serait trompeur. Le tarif d’overage des requêtes de recherche au-delà des 10 000 incluses ne figure pas comme prix de liste public sur la page tarifs. Elevate démarre sur mesure / sur demande de prix, avec un contrat annuel."
+    "pricingNote_fr": "Gratuit, sans carte — 10 000 requêtes de recherche/mois, 50 000 records, 5 000 requêtes de recommandation/mois, 5 000 crawls/mois. Grow (recherche par mot-clé) et Grow Plus (recherche par mot-clé avec des fonctions IA, dont AI Synonyms, AI Ranking et la personnalisation avancée) démarrent à 0 €/mois. Grow et Grow Plus incluent 10 000 requêtes de recherche, 10 000 requêtes Recommend, 100 000 records, 10 000 crawls par mois et 1 Guide offert, avec facturation seulement au-delà de chaque quota inclus. Les dépassements de recommandations et de crawler au-delà des quotas inclus ne sont pas détaillés ici en euros. Le tarif de dépassement des requêtes de recherche au-delà des 10 000 incluses ne figure pas comme prix public sur la page tarifs. Elevate démarre sur mesure / sur demande de prix, avec un contrat annuel."
   },
   "alkera": {
     "summary_fr": "Plateforme de données agentique qui réunit ingénierie, analyse et data science dans des espaces de travail collaboratifs multi-joueurs, pour les humains et les agents.",
@@ -42798,7 +42798,7 @@
       "Plateforme IA de design UX/UI pour wireframes, maquettes haute fidélité, revues de design et heatmaps prédictives",
       "Une offre gratuite durable, avec 80 crédits par jour et un projet",
       "Pro ajoute 750 crédits mensuels, des projets illimités, Website Cloner et des recharges ; Teams est facturé par utilisateur",
-      "Seuls les prix structurés de uxpilot.ai/plans sont indiqués ici ; les montants de comparaison sur la même page sont omis"
+      "Offre gratuite 0 €, Pro 20 €/mois, Teams 28 € par utilisateur / mois ; Enterprise sur mesure"
     ],
     "howToUse_fr": [
       {
@@ -42817,10 +42817,10 @@
       },
       {
         "title": "Passe à Pro à 20 €/mois, ou à Teams à 28 € par utilisateur / mois, si tu as besoin de...",
-        "description": "Passe à Pro à 20 €/mois, ou à Teams à 28 € par utilisateur / mois, si tu as besoin de plus de crédits et de projets illimités. Consulte uxpilot.ai/plans pour les tarifs structurés utilisés ici."
+        "description": "Passe à Pro à 20 €/mois, ou à Teams à 28 € par utilisateur / mois, si tu as besoin de plus de crédits et de projets illimités."
       }
     ],
-    "pricingNote_fr": "Tarifs structurés issus de uxpilot.ai/plans uniquement. Offre gratuite 0 € — 80 crédits par jour, un projet, accès aux outils de design de base. Pro 20 €/mois — 750 crédits mensuels, projets illimités, Website Cloner, recharges de crédits. Teams 28 € par utilisateur / mois — tarif par utilisateur, crédits partagés, fonctions de collaboration. Enterprise est sur mesure. Les montants de comparaison affichés ailleurs sur la page sont omis. Aucun tarif annuel distinct n’apparaît dans les offres structurées de /plans."
+    "pricingNote_fr": "Offre gratuite 0 € — 80 crédits par jour, un projet, accès aux outils de design de base. Pro 20 €/mois — 750 crédits mensuels, projets illimités, Website Cloner, recharges de crédits. Teams 28 € par utilisateur / mois — tarif par utilisateur, crédits partagés, fonctions de collaboration. Enterprise est sur mesure. Aucun tarif annuel distinct n’est affiché."
   },
   "uxpin": {
     "summary_fr": "Une plateforme de design qui utilise l'IA pour rationaliser le prototypage et la collaboration, et permet aux designers de créer des prototypes interactifs avec de vrais composants de code.",
@@ -45634,7 +45634,7 @@
         "description": "Parle aux ventes pour l’auto-hébergement Enterprise Plus, ou utilise la CLI open source gratuite si tu as seulement besoin du moteur de contexte pour développeurs (pas d’interface). Labellé Premium."
       }
     ],
-    "pricingNote_fr": "Labellé Premium : l’essai cloud exige une carte, et l’option open source gratuite est une CLI sans interface ; aucune offre cloud 0 € durable n’était indiquée. Essential Cloud 162 €/mois facturés à l’année, ou 234 € mois par mois — 13 200 crédits annuels inclus (environ 3 000 questions par mois sur gpt-5.6-luna) ; essai de 7 jours (une carte est exigée ; « activer sans carte » passe par les ventes) ; les crédits non utilisés se reportent jusqu’à 2× ; des crédits supplémentaires sont proposés à un tarif officiel à l’unité non détaillé sur la page tarifs (chaque unité est trop faible pour s’afficher en euros) ; +20 crédits mensuels gratuits pour tester de nouvelles fonctions (expirent en fin de mois, pas de report). Enterprise Cloud 506 €/mois facturés à l’année, ou 723 € mois par mois — 24 000 crédits annuels inclus (environ 5 500 questions par mois sur gpt-5.6-luna), mêmes règles d’essai et d’overage, plus des contrôles ligne / colonne, des intégrations illimitées, un RBAC avancé et des journaux d’audit, LDAP/AD et OIDC personnalisés, support prioritaire. Enterprise Plus (auto-hébergé, facturé à la session, contrat annuel) est sur contact commercial."
+    "pricingNote_fr": "Labellé Premium : l’essai cloud exige une carte, et l’option open source gratuite est une CLI sans interface ; aucune offre cloud 0 € durable n’était indiquée. Essential Cloud 162 €/mois facturés à l’année, ou 234 € mois par mois — 13 200 crédits annuels inclus (environ 3 000 questions par mois sur gpt-5.6-luna) ; essai de 7 jours (une carte est exigée ; « activer sans carte » passe par les ventes) ; les crédits non utilisés se reportent jusqu’à 2× ; des crédits supplémentaires sont disponibles au-delà du pool inclus ; les crédits à l’unité ne sont pas affichés en euros ; +20 crédits mensuels gratuits pour tester de nouvelles fonctions (expirent en fin de mois, pas de report). Enterprise Cloud 506 €/mois facturés à l’année, ou 723 € mois par mois — 24 000 crédits annuels inclus (environ 5 500 questions par mois sur gpt-5.6-luna), mêmes règles d’essai et d’overage, plus des contrôles ligne / colonne, des intégrations illimitées, un RBAC avancé et des journaux d’audit, LDAP/AD et OIDC personnalisés, support prioritaire. Enterprise Plus (auto-hébergé, facturé à la session, contrat annuel) est sur contact commercial."
   },
   "wren-by-seldon": {
     "summary_fr": "Des agents QA comportementaux qui utilisent ton produit web comme tes clients, à partir de tests décrits en langage naturel, et renvoient un replay et les étapes de reproduction en cas de bug.",
