@@ -1,0 +1,386 @@
+[
+  {
+    "slug": "gitguardian",
+    "name": "GitGuardian",
+    "category": "Security",
+    "category_note": "Plateforme de sécurité qui détecte les secrets et identifiants exposés dans le code source. Security (le CSV classait Coding). Coding & Dev Tools serait une alternative. À confirmer.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Official prices in USD. Starter $0, “Always”, no credit card required — up to 25 developers, unlimited real-time scanning, up to 500 historical scan detections, 10,000 API calls/month, Internal Secrets Monitoring. Business / Teams, Growth and Enterprise are offered as “Let’s Talk” / “Contact sales”; no public paid list prices were isolated. Developer Endpoint Protection is described as priced per endpoint per year, with two official tiers (developer endpoints, mapped 1:1 to platform seats, and standard endpoints at a lower rate); amounts on request. Official privacy policy: “GitGuardan SAS is a company headquartered in France, at the registered address 54 rue de Seine 75006 Paris, France, with a US affiliate, GitGuardian Inc., based at 185 Alewife Brook Parkway Ste 210 Cambridge MA 02138” (the page writes “GitGuardan”, a probable typo for GitGuardian). Source: official site gitguardian.com/pricing, verified 2026-11-16.",
+    "pricing_en": "Starter 0 €, Always, no credit card — up to 25 developers, unlimited real-time scanning, up to 500 historical scan detections, 10,000 API calls/month, Internal Secrets Monitoring. Business / Teams, Growth and Enterprise are offered as Let’s Talk / Contact sales; no public paid list prices were isolated and are not listed. Developer Endpoint Protection is priced per endpoint per year, on request, with two official tiers (developer endpoints and standard endpoints).",
+    "pricing_fr": "Starter 0 €, Always, sans carte — jusqu’à 25 développeurs, scan en temps réel illimité, jusqu’à 500 détections de scan historique, 10 000 appels API/mois, Internal Secrets Monitoring. Business / Teams, Growth et Enterprise sont proposés en Let’s Talk / Contact sales ; aucun prix de liste payant public n’a été isolé et n’est pas listé. Developer Endpoint Protection est tarifé par terminal et par an, sur devis, avec deux paliers officiels (terminaux développeurs et terminaux standard).",
+    "howTo_en": [
+      "Open gitguardian.com and start Starter at 0 €, with no card (up to 25 developers).",
+      "Turn on Internal Secrets Monitoring so your repositories are scanned in real time.",
+      "Contact sales if you need Growth, Business or Enterprise features such as SSO or public secrets monitoring — those plans have no public list price."
+    ],
+    "howTo_fr": [
+      "Ouvre gitguardian.com et commence sur Starter à 0 €, sans carte (jusqu’à 25 développeurs).",
+      "Active Internal Secrets Monitoring pour que tes dépôts soient scannés en temps réel.",
+      "Contacte les ventes si tu as besoin des fonctions Growth, Business ou Enterprise, comme le SSO ou la surveillance des secrets publics — ces offres n’ont pas de prix de liste public."
+    ],
+    "features_en": [
+      "Detects exposed secrets and credentials in source code, with Internal Secrets Monitoring",
+      "Unlimited real-time scanning and up to 500 historical scan detections on the lasting free Starter plan",
+      "Starter is 0 €, Always, no card, for up to 25 developers and 10,000 API calls/month",
+      "Paid Business / Teams, Growth and Enterprise plans are talk-to-sales, with no public list price"
+    ],
+    "features_fr": [
+      "Détecte les secrets et identifiants exposés dans le code, avec Internal Secrets Monitoring",
+      "Scan en temps réel illimité et jusqu’à 500 détections de scan historique sur l’offre Starter gratuite durable",
+      "Starter est à 0 €, Always, sans carte, jusqu’à 25 développeurs et 10 000 appels API/mois",
+      "Les offres payantes Business / Teams, Growth et Enterprise passent par les ventes, sans prix de liste public"
+    ],
+    "short_en": "Security platform that detects exposed secrets and credentials in source code, with a lasting free Starter plan for small teams.",
+    "short_fr": "Plateforme de sécurité qui détecte les secrets et identifiants exposés dans le code, avec une offre Starter gratuite durable pour les petites équipes.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Labellé Free, pas Freemium (demande PM) : Starter 0 € « Always », sans carte. Les offres payantes passent par les ventes, sans montant public inventé.",
+      "Developer Endpoint Protection « priced per endpoint per year » : pas de montant public, non listé.",
+      "Siège officiel : France. Politique de confidentialité (gitguardian.com/legal/privacy-policy) : « GitGuardan SAS is a company headquartered in France, at the registered address 54 rue de Seine 75006 Paris, France », avec une affiliée US GitGuardian Inc. (la page écrit « GitGuardan », typo probable).",
+      "Catégorie remappée : Security (le CSV classait Coding). Coding & Dev Tools serait une alternative. À confirmer."
+    ],
+    "url": "https://www.gitguardian.com/",
+    "official_url": "https://www.gitguardian.com/",
+    "official_url_final": "https://www.gitguardian.com/",
+    "source_csv": "2026-11-16-lot4.csv"
+  },
+  {
+    "slug": "algolia",
+    "name": "Algolia",
+    "category": "Search & Research",
+    "category_note": "API de recherche et de découverte IA pour sites et applications. Search & Research (le CSV classait Marketing). Marketing & SEO serait une alternative. Distinct de Meilisearch, Weaviate et Doofinder, déjà au catalogue (lot 3). À confirmer.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Official prices in USD. Free, no credit card — 10,000 search requests/month, 50,000 records, 5,000 recommendation requests/month, 5,000 crawls/month. Grow (“Keyword search”) and Grow Plus (“Keyword search with AI capabilities”, including AI Synonyms, AI Ranking, advanced personalization, 10,000 rules/index) are officially “Starting at $0 / month”. Official FAQ: Grow and Grow Plus include 10,000 search requests, 10,000 Recommend requests, 100,000 records, 10,000 crawls per month and 1 free Guide; you are billed only for usage that exceeds each product’s free tier. Recommendations on Grow/Grow Plus: 10,000 requests/month included then $0.60 per additional 1,000 requests; Crawler: 10,000/month then $0.80 per additional 1,000 crawls; volume discounts available. The overage rate for search requests beyond the included 10,000 was not isolated as a public list price on the page (a usage calculator also shows directional estimate rates, officially described as “directional only”, and those are not used as list prices). Elevate is “Starting at Custom” / request pricing and requires an annual contract. Official legal information lists Algolia, Inc. (Delaware corporation, mailing address 3790 El Camino Real, Unit #518, Palo Alto, CA 94306, United States) and Algolia SAS (RCS Paris 788 680 858, registered office 55 Rue d’Amsterdam, 75008 Paris, France). Official Terms: European subscribers contract with Algolia SAS, others with Algolia, Inc. The privacy policy also lists Algolia Limited, 1 Primrose St, London EC2A 2EX, UK. hqCountry is left empty because several official entities are named. Source: official site algolia.com/pricing, verified 2026-11-16.",
+    "pricing_en": "Free, no credit card — 10,000 search requests/month, 50,000 records, 5,000 recommendation requests/month, 5,000 crawls/month. Grow (keyword search) and Grow Plus (keyword search with AI capabilities, including AI Synonyms, AI Ranking and advanced personalization) are officially starting at 0 €/month. The official FAQ includes 10,000 search requests, 10,000 Recommend requests, 100,000 records, 10,000 crawls per month and 1 free Guide on Grow and Grow Plus, with billing only for usage above each included allowance. Recommendation and crawler overage rates, in the original currency, remain in the official notes (they would be misleading once rounded to whole euros). The overage rate for search requests beyond the included 10,000 was not isolated as a public list price and is not listed. Elevate is starting at custom / request pricing and requires an annual contract.",
+    "pricing_fr": "Gratuit, sans carte — 10 000 requêtes de recherche/mois, 50 000 records, 5 000 requêtes de recommandation/mois, 5 000 crawls/mois. Grow (recherche par mot-clé) et Grow Plus (recherche par mot-clé avec des fonctions IA, dont AI Synonyms, AI Ranking et la personnalisation avancée) démarrent officiellement à 0 €/mois. La FAQ officielle inclut 10 000 requêtes de recherche, 10 000 requêtes Recommend, 100 000 records, 10 000 crawls par mois et 1 Guide offert sur Grow et Grow Plus, avec facturation seulement au-delà de chaque quota inclus. Les tarifs d’overage des recommandations et du crawler, dans la devise d’origine, restent dans les notes officielles (ils seraient trompeurs une fois arrondis en euros entiers). Le tarif d’overage des requêtes de recherche au-delà des 10 000 incluses n’a pas été isolé comme prix de liste public et n’est pas listé. Elevate démarre sur mesure / sur demande de prix, avec un contrat annuel.",
+    "howTo_en": [
+      "Open algolia.com/pricing and start Free with no card (10,000 search requests and 50,000 records per month).",
+      "Move to Grow or Grow Plus, officially starting at 0 €/month, if you need the higher included allowances or the Grow Plus AI ranking features.",
+      "Request Elevate pricing if you need NeuralSearch and the enterprise-scale options. Search-request overage beyond the included 10,000 is not listed here."
+    ],
+    "howTo_fr": [
+      "Ouvre algolia.com/pricing et commence sur l’offre Gratuite sans carte (10 000 requêtes de recherche et 50 000 records par mois).",
+      "Passe à Grow ou Grow Plus, officiellement à partir de 0 €/mois, si tu as besoin des quotas inclus plus élevés ou des fonctions IA de Grow Plus.",
+      "Demande un tarif Elevate si tu as besoin de NeuralSearch et des options enterprise. L’overage des requêtes de recherche au-delà des 10 000 incluses n’est pas listé ici."
+    ],
+    "features_en": [
+      "AI search and discovery API for websites and apps, with keyword search, recommendations, merchandising and a crawler",
+      "A no-card Free plan, plus Grow and Grow Plus officially starting at 0 €/month with usage-based allowances",
+      "Grow Plus adds AI Synonyms, AI Ranking and advanced personalization; Elevate is custom",
+      "Search-request overage beyond the included 10,000 was not isolated as a public list price and is not listed"
+    ],
+    "features_fr": [
+      "API de recherche et de découverte IA pour sites et applications, avec recherche par mot-clé, recommandations, merchandising et un crawler",
+      "Une offre Gratuite sans carte, plus Grow et Grow Plus officiellement à partir de 0 €/mois, avec des quotas à l’usage",
+      "Grow Plus ajoute AI Synonyms, AI Ranking et la personnalisation avancée ; Elevate est sur mesure",
+      "L’overage des requêtes de recherche au-delà des 10 000 incluses n’a pas été isolé comme prix de liste public et n’est pas listé"
+    ],
+    "short_en": "AI search and discovery API for websites and apps, with a no-card free tier and usage-based Grow and Grow Plus plans.",
+    "short_fr": "API de recherche et de découverte IA pour sites et applications, avec une offre gratuite sans carte et des plans Grow / Grow Plus à l’usage.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Grow et Grow Plus officiellement « Starting at 0 $/month », affichés à 0 €/mois. Les quotas inclus viennent de la FAQ officielle.",
+      "Overage search requests au-delà de 10 000 : non isolé comme prix de liste public (le calculateur de la page est officiellement « directional only ») — non listé, non inventé.",
+      "Les overages recommandations 0,60 $ / 1 000 et crawler 0,80 $ / 1 000 resteraient trompeurs en euros entiers (1 €) : détail seulement dans pricing_usd_official.",
+      "hqCountry laissé vide (demande PM) : deux entités officielles (Algolia, Inc. aux États-Unis et Algolia SAS à Paris), plus Algolia Limited à Londres dans la politique de confidentialité. Les CGU : abonnés en Europe → contrat avec Algolia SAS ; ailleurs → Algolia, Inc.",
+      "Catégorie remappée : Search & Research (le CSV classait Marketing). Marketing & SEO serait une alternative. Distinct de Meilisearch, Weaviate et Doofinder."
+    ],
+    "url": "https://www.algolia.com/",
+    "official_url": "https://www.algolia.com/",
+    "official_url_final": "https://www.algolia.com/",
+    "source_csv": "2026-11-16-lot4.csv"
+  },
+  {
+    "slug": "count",
+    "name": "Count",
+    "category": "Data & Analytics",
+    "category_note": "Canevas d’analytics collaboratif où les équipes et un agent IA explorent les données ensemble. Data & Analytics (le CSV classait Data Processing). Outil prévu pour la collection data-science. À confirmer.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Official prices in USD. Free $0, no card — 1 project, 3 canvases, up to 5 users, daily AI credit limits (limited models), 1 database/MCP connection, web search, file uploads, 2 automations, community support. Pro $49 / editor / month, viewers free — everything in Free plus unlimited AI credits (official note: “98% of teams never need to top up their AI credits”), unlimited canvases, projects, reports and automations, 3 database/MCP connections, shared agent skills, 4 GB compute, Slack integration and MCP client, email/Slack/Teams support; workspace users up to 75; owners, admins and editors are billable, viewers and report viewers are free; 14-day version history. Enterprise is “Let’s talk” (unlimited editors, own models or API keys, up to 32 GB compute, SSO, SCIM, HIPAA, EU/US data residency, and others). No yearly list prices were isolated beside the $49 / editor / month figure. Official privacy policy: Count Technologies Ltd, company formed under the laws of England & Wales, registration number 10061321, registered office 131 Finsbury Pavement, London, Greater London, England, EC2A 1NT. Official terms state the same company number and a registered office at Office 1 Brunswick House, Brunswick Way, Liverpool. Source: official site count.co/pricing, verified 2026-11-16.",
+    "pricing_en": "Free 0 €, no card — 1 project, 3 canvases, up to 5 users, daily AI credit limits (limited models), 1 database/MCP connection, web search, file uploads, 2 automations, community support. Pro 44 € / editor / month, viewers free — everything in Free plus unlimited AI credits (official note: 98% of teams never need to top up), unlimited canvases, projects, reports and automations, 3 database/MCP connections, shared agent skills, 4 GB compute, Slack integration and MCP client, email/Slack/Teams support; workspace users up to 75; owners, admins and editors are billable, viewers and report viewers are free; 14-day version history. Enterprise is let’s talk (unlimited editors, own models or API keys, up to 32 GB compute, SSO, SCIM, HIPAA, EU/US data residency, and others). No yearly list prices were isolated beside the per-editor monthly figure and are not listed.",
+    "pricing_fr": "Gratuit 0 €, sans carte — 1 projet, 3 canevas, jusqu’à 5 utilisateurs, plafonds quotidiens de crédits IA (modèles limités), 1 connexion base / MCP, recherche web, envoi de fichiers, 2 automatisations, support communautaire. Pro 44 € / éditeur / mois, viewers gratuits — tout le Gratuit plus crédits IA illimités (Count indique que 98 % des équipes n’ont jamais besoin de recharger), canevas, projets, rapports et automatisations illimités, 3 connexions base / MCP, compétences d’agent partagées, 4 Go de calcul, intégration Slack et client MCP, support e-mail / Slack / Teams ; jusqu’à 75 utilisateurs d’espace de travail ; owners, admins et editors sont facturables, viewers et report viewers sont gratuits ; historique de versions de 14 jours. Enterprise est let’s talk (éditeurs illimités, tes propres modèles ou clés API, jusqu’à 32 Go de calcul, SSO, SCIM, HIPAA, résidence des données UE/US, et d’autres). Aucun prix de liste annuel n’a été isolé à côté du tarif mensuel par éditeur et n’est pas listé.",
+    "howTo_en": [
+      "Open count.co/pricing and start Free at 0 € with no card (up to 5 users).",
+      "Connect a database or MCP source and explore it on a canvas, with the AI agent.",
+      "Upgrade editors to Pro at 44 € per editor / month if you need unlimited AI credits, canvases and automations. A yearly list price was not isolated and is not listed here."
+    ],
+    "howTo_fr": [
+      "Ouvre count.co/pricing et commence sur l’offre Gratuite à 0 €, sans carte (jusqu’à 5 utilisateurs).",
+      "Connecte une base ou une source MCP et explore-la sur un canevas, avec l’agent IA.",
+      "Passe les éditeurs en Pro à 44 € par éditeur / mois si tu as besoin de crédits IA, de canevas et d’automatisations illimités. Un prix de liste annuel n’a pas été isolé et n’est pas listé ici."
+    ],
+    "features_en": [
+      "Collaborative analytics canvas where teams and an AI agent explore data together",
+      "Database and MCP connections, web search, file uploads and automations, with a lasting Free plan",
+      "Pro is billed per editor; viewers and report viewers stay free, with unlimited AI credits on Pro",
+      "No yearly list price was isolated beside the monthly per-editor figure and is not listed. Enterprise is custom"
+    ],
+    "features_fr": [
+      "Canevas d’analytics collaboratif où les équipes et un agent IA explorent les données ensemble",
+      "Connexions base et MCP, recherche web, envoi de fichiers et automatisations, avec une offre Gratuite durable",
+      "Pro est facturé par éditeur ; les viewers et report viewers restent gratuits, avec des crédits IA illimités sur Pro",
+      "Aucun prix de liste annuel n’a été isolé à côté du tarif mensuel par éditeur et n’est pas listé. Enterprise est sur mesure"
+    ],
+    "short_en": "Collaborative analytics canvas where teams and an AI agent explore data together, with a free plan and a Pro plan billed per editor.",
+    "short_fr": "Canevas d’analytics collaboratif où les équipes et un agent IA explorent les données ensemble, avec une offre gratuite et un plan Pro facturé par éditeur.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Pas de prix de liste annuel inventé : seul le 49 $ / éditeur / mois a été isolé, affiché 44 €.",
+      "Viewers et report viewers officiellement gratuits sur les offres payantes.",
+      "Siège officiel : United Kingdom. Politique de confidentialité : Count Technologies Ltd, droit d’Angleterre et du Pays de Galles, n° 10061321, registered office 131 Finsbury Pavement, London, Greater London, England, EC2A 1NT (count.co/legal/privacy-policy). Les CGU indiquent le même n° et un registered office à Office 1 Brunswick House, Brunswick Way, Liverpool (count.co/legal/terms-of-use). Le pays est univoque ; les deux adresses sont signalées.",
+      "Catégorie remappée : Data & Analytics (le CSV classait Data Processing). Prévu pour la collection data-science."
+    ],
+    "url": "https://count.co/",
+    "official_url": "https://count.co/",
+    "official_url_final": "https://count.co/",
+    "source_csv": "2026-11-16-lot4.csv"
+  },
+  {
+    "slug": "wren-ai",
+    "name": "Wren AI",
+    "category": "Data & Analytics",
+    "category_note": "Plateforme de BI conversationnelle et de text-to-SQL, cloud payant et CLI open source. Data & Analytics (le CSV classait Data Processing). Distinct de Wren by Seldon, déjà au catalogue (produit Seldon, URL différente). Outil prévu pour la collection data-science. Labellé Premium. À confirmer.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Official Cloud prices in USD, getwren.ai/pricing. Essential Cloud $179/month billed annually, or $259 month-to-month — 13,200 annual credits included (officially ≈ 3,000 questions a month on gpt-5.6-luna); 7-day free trial (a credit card is required; “activate without a card” is talk to sales); unused credits roll over up to 2×; additional credits $0.10 each; +20 free monthly credits for testing new features (expire at month-end, no rollover). Enterprise Cloud $559/month billed annually, or $799 month-to-month — 24,000 annual credits included (officially ≈ 5,500 questions a month on gpt-5.6-luna), same trial and overage rules, plus row/column-level controls, unlimited integrations, advanced RBAC and audit logs, custom LDAP/AD & OIDC, priority support. Enterprise Plus (self-hosted, session-based, annual contract) is contact sales. Official copy: “Wren AI Open Source is the free CLI and context engine for developers, no UI.” Because the cloud trial requires a card and the free OSS option has no UI, the listing is Premium, not Freemium. Official privacy/security/EULA: Canner, Inc. (Wren AI), 16192 Coastal Highway, Lewes, Delaware 19958, United States. Source: official site getwren.ai/pricing, verified 2026-11-16.",
+    "pricing_en": "Labelled Premium: the cloud trial requires a card, and the free open-source option is a CLI with no UI; no lasting 0 € cloud plan was stated. Essential Cloud 162 €/month billed annually, or 234 € month-to-month — 13,200 annual credits included (about 3,000 questions a month on gpt-5.6-luna); 7-day free trial (a credit card is required; “activate without a card” is talk to sales); unused credits roll over up to 2×; additional credits are offered at an official per-credit rate that remains in the official notes (it would round to 0 €); +20 free monthly credits for testing new features (expire at month-end, no rollover). Enterprise Cloud 506 €/month billed annually, or 723 € month-to-month — 24,000 annual credits included (about 5,500 questions a month on gpt-5.6-luna), same trial and overage rules, plus row/column-level controls, unlimited integrations, advanced RBAC and audit logs, custom LDAP/AD & OIDC, priority support. Enterprise Plus (self-hosted, session-based, annual contract) is contact sales.",
+    "pricing_fr": "Labellé Premium : l’essai cloud exige une carte, et l’option open source gratuite est une CLI sans interface ; aucune offre cloud 0 € durable n’était indiquée. Essential Cloud 162 €/mois facturés à l’année, ou 234 € mois par mois — 13 200 crédits annuels inclus (environ 3 000 questions par mois sur gpt-5.6-luna) ; essai de 7 jours (une carte est exigée ; « activer sans carte » passe par les ventes) ; les crédits non utilisés se reportent jusqu’à 2× ; des crédits supplémentaires sont proposés à un tarif officiel à l’unité qui reste dans les notes officielles (il arrondirait à 0 €) ; +20 crédits mensuels gratuits pour tester de nouvelles fonctions (expirent en fin de mois, pas de report). Enterprise Cloud 506 €/mois facturés à l’année, ou 723 € mois par mois — 24 000 crédits annuels inclus (environ 5 500 questions par mois sur gpt-5.6-luna), mêmes règles d’essai et d’overage, plus des contrôles ligne / colonne, des intégrations illimitées, un RBAC avancé et des journaux d’audit, LDAP/AD et OIDC personnalisés, support prioritaire. Enterprise Plus (auto-hébergé, facturé à la session, contrat annuel) est sur contact commercial.",
+    "howTo_en": [
+      "Open getwren.ai/pricing and start the 7-day Essential Cloud trial (a card is required) at 162 €/month billed annually, or 234 € month-to-month.",
+      "Ask questions of your data in plain language, or connect an AI agent over MCP, on the same credit pool.",
+      "Talk to sales for Enterprise Plus self-hosting, or use the free open-source CLI if you only need the developer context engine (no UI). Labelled Premium."
+    ],
+    "howTo_fr": [
+      "Ouvre getwren.ai/pricing et lance l’essai Essential Cloud de 7 jours (une carte est exigée) à 162 €/mois facturés à l’année, ou 234 € mois par mois.",
+      "Pose tes questions en langage naturel sur tes données, ou connecte un agent IA via MCP, sur le même pool de crédits.",
+      "Parle aux ventes pour l’auto-hébergement Enterprise Plus, ou utilise la CLI open source gratuite si tu as seulement besoin du moteur de contexte pour développeurs (pas d’interface). Labellé Premium."
+    ],
+    "features_en": [
+      "Conversational BI and text-to-SQL, with agentic and classic question modes, dashboards and an MCP server",
+      "Cloud plans include unlimited users, dashboards, spreadsheets and projects, billed on credits",
+      "A 7-day cloud trial requires a card; the free open-source option is a CLI with no UI",
+      "Labelled Premium: no lasting 0 € cloud plan was stated. Enterprise Plus self-hosting is custom"
+    ],
+    "features_fr": [
+      "BI conversationnelle et text-to-SQL, avec des modes de question agentique et classique, des tableaux de bord et un serveur MCP",
+      "Les offres cloud incluent des utilisateurs, tableaux de bord, tableurs et projets illimités, facturés en crédits",
+      "L’essai cloud de 7 jours exige une carte ; l’option open source gratuite est une CLI sans interface",
+      "Labellé Premium : aucune offre cloud 0 € durable n’était indiquée. L’auto-hébergement Enterprise Plus est sur mesure"
+    ],
+    "short_en": "Conversational BI and text-to-SQL platform, with a paid cloud (unlimited users, credit-based) and a free open-source CLI for developers.",
+    "short_fr": "Plateforme de BI conversationnelle et de text-to-SQL, avec un cloud payant (utilisateurs illimités, facturation par crédits) et une CLI open source gratuite pour les développeurs.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Labellé Premium (demande PM) : essai cloud 7 jours avec carte ; l’open source officiel est une CLI sans interface, pas une offre cloud 0 € durable.",
+      "Essential 179 $/mois à l’année ou 259 $ mois par mois, et Enterprise 559 $ / 799 $, vérifiés sur getwren.ai/pricing le 16 nov. 2026, convertis en 162 € / 234 € et 506 € / 723 €.",
+      "Crédits additionnels 0,10 $ : resteraient 0 € une fois arrondis — détail seulement dans pricing_usd_official.",
+      "Siège officiel : United States. Politique de confidentialité, politique de sécurité et CGU : Canner, Inc. (Wren AI), 16192 Coastal Highway, Lewes, Delaware 19958, United States.",
+      "Catégorie : Data & Analytics. Distinct de Wren by Seldon (déjà au catalogue). Prévu pour la collection data-science.",
+      "Redirection d’accueil : getwren.ai → www.getwren.ai (official_url_final)."
+    ],
+    "url": "https://www.getwren.ai/",
+    "official_url": "https://getwren.ai/",
+    "official_url_final": "https://www.getwren.ai/",
+    "source_csv": "2026-11-16-lot4.csv"
+  },
+  {
+    "slug": "ai-or-not",
+    "name": "AI or Not",
+    "category": "AI Detection",
+    "category_note": "Détecteur de contenus IA (texte, images, deepfakes, voix, musique et vidéo). AI Detection (le CSV classait Productivity). Distinct de GPTZero, Originality.ai, Copyleaks, Winston AI, ZeroGPT, Hive AI Detector, Turnitin AI Detection, Scribbr, Sapling et d’autres détecteurs déjà au catalogue. À confirmer.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Official prices in USD, aiornot.com/pricing. A Monthly/Yearly toggle (“Yearly - 2 months free”) is on the page; both official prices are listed. Free — $5 in free credits to get started, 1 million words of AI text detection free every month, 20 AI image checks, API key included. Pro $5/month or $50/year — $10 in credits included every month, pay-as-you-go credits, monthly rollovers, unlocks all modalities; official equivalents 2 million words, 500 image checks, 1,000 seconds of video checks. Business $100/month or $1,000/year — $100 in credits every month, 20 million words, 6,600 image checks, 13,300 seconds of video, 25% off image/audio/video checks vs Pro, rollovers, reseller rights up to $5,000/month (above that: “Let’s chat”). Enterprise is custom (on-prem, private instances, contact us). Official FAQ credit rates (Pro): $0.02 per image, $0.01 per second of video, $0.005 per second of audio, and $5 per million words of text; Business pays 25% less on image, audio and video checks ($0.015 per image). These micro-rates remain in this official field because several would round to 0 €. Official terms: AIorNot, Inc.; disputes are subject to arbitration in Alameda County, California; no registered-office line was isolated. Source: official site aiornot.com/pricing, verified 2026-11-16.",
+    "pricing_en": "A Monthly / Yearly toggle with “Yearly - 2 months free” is on the page; both official prices are listed (a usual billing toggle, not a flash promo). Free — 5 € in credits to get started, 1 million words of AI text detection free every month, 20 AI image checks, API key included. Pro 5 €/month or 45 €/year — 9 € in credits included every month, pay-as-you-go credits, monthly rollovers, unlocks all modalities; 2 million words, 500 image checks, 1,000 seconds of video checks. Business 90 €/month or 905 €/year — 90 € in credits every month, 20 million words, 6,600 image checks, 13,300 seconds of video, 25% off image/audio/video checks vs Pro, rollovers, reseller rights up to 4,524 €/month (above that: let’s chat). Enterprise is custom (on-prem, private instances, contact us). Per-check credit rates in the original currency remain in the official notes (several would round to 0 €).",
+    "pricing_fr": "Un basculeur Monthly / Yearly « Yearly - 2 months free » est présent ; les deux prix officiels sont listés (un basculeur de facturation habituel, pas une promo flash). Gratuit — 5 € de crédits pour commencer, 1 million de mots de détection de texte IA gratuits chaque mois, 20 contrôles d’images IA, clé API incluse. Pro 5 €/mois ou 45 €/an — 9 € de crédits inclus chaque mois, crédits à l’usage, reports mensuels, toutes les modalités débloquées ; 2 millions de mots, 500 contrôles d’images, 1 000 secondes de contrôles vidéo. Business 90 €/mois ou 905 €/an — 90 € de crédits chaque mois, 20 millions de mots, 6 600 contrôles d’images, 13 300 secondes de vidéo, 25 % de moins sur les contrôles image / audio / vidéo par rapport à Pro, reports, droits de revendeur jusqu’à 4 524 €/mois (au-delà : let’s chat). Enterprise est sur mesure (on-prem, instances privées, nous contacter). Les tarifs à l’unité, dans la devise d’origine, restent dans les notes officielles (plusieurs arrondiraient à 0 €).",
+    "howTo_en": [
+      "Open aiornot.com/pricing and start Free (1 million words of text detection per month, plus 5 € in starting credits).",
+      "Run a text, image, audio or video check, including through the API key included on Free.",
+      "Subscribe to Pro at 5 €/month or 45 €/year, or Business at 90 €/month or 905 €/year, if you need every modality and monthly credits."
+    ],
+    "howTo_fr": [
+      "Ouvre aiornot.com/pricing et commence sur l’offre Gratuite (1 million de mots de détection de texte par mois, plus 5 € de crédits de départ).",
+      "Lance un contrôle texte, image, audio ou vidéo, y compris via la clé API incluse sur l’offre Gratuite.",
+      "Abonne-toi à Pro à 5 €/mois ou 45 €/an, ou à Business à 90 €/mois ou 905 €/an, si tu as besoin de toutes les modalités et de crédits mensuels."
+    ],
+    "features_en": [
+      "AI-content detector for text, images, deepfakes, voice, music and video, with an API key on the Free plan",
+      "A monthly free text allowance (1 million words) plus starting credits on Free",
+      "Paid plans share credits across modalities, with monthly rollovers and a yearly option of 10 months billed",
+      "Per-check credit rates in the original currency remain in the official notes, because several would round to 0 €"
+    ],
+    "features_fr": [
+      "Détecteur de contenus IA pour le texte, les images, les deepfakes, la voix, la musique et la vidéo, avec une clé API sur l’offre Gratuite",
+      "Un quota mensuel gratuit sur le texte (1 million de mots), plus des crédits de départ sur l’offre Gratuite",
+      "Les offres payantes partagent les crédits entre les modalités, avec report mensuel et une option annuelle de 10 mois facturés",
+      "Les tarifs à l’unité, dans la devise d’origine, restent dans les notes officielles, car plusieurs arrondiraient à 0 €"
+    ],
+    "short_en": "AI-content detector for text, images, deepfakes, voice, music and video, with a monthly free text allowance and paid credit plans.",
+    "short_fr": "Détecteur de contenus IA (texte, images, deepfakes, voix, musique et vidéo), avec un quota mensuel gratuit sur le texte et des offres payantes à crédits.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Basculeur « Yearly - 2 months free » : les deux tarifs officiels (mensuel et annuel) sont affichés. Ce n’est pas une promo flash.",
+      "Tarifs à l’unité (0,02 $ / image, etc.) : plusieurs arrondiraient à 0 € — détail seulement dans pricing_usd_official.",
+      "hqCountry laissé vide (demande PM, l’outil n’est pas dans la liste des sièges à renseigner) : les CGU nomment AIorNot, Inc., avec un arbitrage dans le comté d’Alameda (Californie), sans ligne de siège isolée.",
+      "Catégorie remappée : AI Detection (le CSV classait Productivity). Distinct de GPTZero, Originality.ai, Copyleaks et des autres détecteurs déjà au catalogue."
+    ],
+    "url": "https://www.aiornot.com/",
+    "official_url": "https://www.aiornot.com/",
+    "official_url_final": "https://www.aiornot.com/",
+    "source_csv": "2026-11-16-lot4.csv"
+  },
+  {
+    "slug": "ux-pilot",
+    "name": "UX Pilot",
+    "category": "Design & UI",
+    "category_note": "Plateforme IA de design UX/UI pour wireframes, maquettes haute fidélité, revues de design et heatmaps prédictives. Design & UI (le CSV classait Design). Alternative retenue à Motiff (PR #53). Distinct de Visily, Uizard, Relume, Figma AI et Figma Make, déjà au catalogue. Nom officiel : « UX Pilot » (pas « UXPilot »). À confirmer.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Official structured prices only, from the Product/Offer JSON-LD on the official plans page (USD, 2026-11-16, uxpilot.ai/plans), as requested. Free Plan $0 — 80 daily credits, one project, access to core design tools. Pro Plan $22 per month (billingDuration P1M) — 750 monthly credits, unlimited projects, Website Cloner, credit top-ups. Teams Plan $31 per user per month (UnitPriceSpecification “per user per month”) — per-user pricing, shared credits, collaboration features. Enterprise Plan price “Custom”. Other dollar amounts that appear in comparison content in the same HTML ($19, $12.99, $29, $39, and similar) were not used. Official privacy and terms: UX Pilot Inc., 307 W 38th St, 16th Floor 302, New York, NY 10018. Source: official site uxpilot.ai/plans, verified 2026-11-16.",
+    "pricing_en": "Official structured prices from the Product/Offer JSON-LD on uxpilot.ai/plans only. Free Plan 0 € — 80 daily credits, one project, access to core design tools. Pro Plan 20 €/month — 750 monthly credits, unlimited projects, Website Cloner, credit top-ups. Teams Plan 28 € per user / month — per-user pricing, shared credits, collaboration features. Enterprise is custom. Other amounts that appear in comparison content on the same page were not used. A distinct yearly list price was not present in the official structured offers and is not listed.",
+    "pricing_fr": "Prix officiels structurés uniquement, issus du JSON-LD Product/Offer de uxpilot.ai/plans. Offre Free 0 € — 80 crédits par jour, un projet, accès aux outils de design de base. Offre Pro 20 €/mois — 750 crédits mensuels, projets illimités, Website Cloner, recharges de crédits. Offre Teams 28 € par utilisateur / mois — tarif par utilisateur, crédits partagés, fonctions de collaboration. Enterprise est sur mesure. D’autres montants qui apparaissent dans du contenu de comparaison sur la même page n’ont pas été utilisés. Un prix de liste annuel distinct n’était pas présent dans les offres structurées officielles et n’est pas listé.",
+    "howTo_en": [
+      "Open uxpilot.ai/plans and start the Free plan at 0 € (80 daily credits, one project).",
+      "Generate a wireframe or a high-fidelity screen, or run a design review or a predictive heatmap.",
+      "Upgrade to Pro at 20 €/month, or Teams at 28 € per user / month, if you need more credits and unlimited projects. Only the official structured prices are listed here."
+    ],
+    "howTo_fr": [
+      "Ouvre uxpilot.ai/plans et commence sur l’offre Free à 0 € (80 crédits par jour, un projet).",
+      "Génère un wireframe ou un écran haute fidélité, ou lance une revue de design ou une heatmap prédictive.",
+      "Passe à Pro à 20 €/mois, ou à Teams à 28 € par utilisateur / mois, si tu as besoin de plus de crédits et de projets illimités. Seuls les prix officiels structurés sont listés ici."
+    ],
+    "features_en": [
+      "AI UX and UI design platform for wireframes, high-fidelity screens, design reviews and predictive heatmaps",
+      "A lasting Free plan with 80 daily credits and one project",
+      "Pro adds 750 monthly credits, unlimited projects, Website Cloner and credit top-ups; Teams is billed per user",
+      "Only the official structured prices on /plans are listed; other amounts in comparison content were not used"
+    ],
+    "features_fr": [
+      "Plateforme IA de design UX/UI pour wireframes, maquettes haute fidélité, revues de design et heatmaps prédictives",
+      "Une offre Free durable, avec 80 crédits par jour et un projet",
+      "Pro ajoute 750 crédits mensuels, des projets illimités, Website Cloner et des recharges ; Teams est facturé par utilisateur",
+      "Seuls les prix officiels structurés de /plans sont listés ; les autres montants du contenu de comparaison n’ont pas été utilisés"
+    ],
+    "short_en": "AI UX and UI design platform for wireframes, high-fidelity screens, design reviews and predictive heatmaps, with a free starter plan.",
+    "short_fr": "Plateforme IA de design UX/UI pour wireframes, maquettes haute fidélité, revues de design et heatmaps prédictives, avec une offre de départ gratuite.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Seuls les prix structurés officiels du JSON-LD de /plans ont été repris (demande PM) : Free 0 $, Pro 22 $/mois, Teams 31 $/utilisateur/mois, Enterprise custom — affichés 0 €, 20 € et 28 €.",
+      "D’autres montants ($19, $12.99, $29, $39, etc.) apparaissent dans du contenu de comparaison du même HTML : non retenus. Pas de prix annuel inventé (absent des offres structurées).",
+      "Nom officiel : « UX Pilot » (pas « UXPilot »). Alternative retenue à Motiff (PR #53) pour les collections.",
+      "Siège officiel : United States. Politique de confidentialité et CGU : UX Pilot Inc., 307 W 38th St, 16th Floor 302, New York, NY 10018 (uxpilot.ai/privacy, uxpilot.ai/terms).",
+      "Catégorie : Design & UI. Distinct de Visily, Uizard, Relume, Figma AI et Figma Make."
+    ],
+    "url": "https://uxpilot.ai/",
+    "official_url": "https://uxpilot.ai/",
+    "official_url_final": "https://uxpilot.ai/",
+    "source_csv": "2026-11-16-lot4.csv"
+  },
+  {
+    "slug": "bigml",
+    "name": "BigML",
+    "category": "Data & Analytics",
+    "category_note": "Plateforme de machine learning et d’AutoML pour construire et déployer des modèles. Data & Analytics (le CSV classait Data Processing). Distinct de DataRobot et H2O.ai, déjà au catalogue. Outil prévu pour la collection data-science. À confirmer.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Official prices in USD, bigml.com/pricing. A 3-day free trial of full access (up to 60 tasks, no credit card) is offered alongside a lasting Free plan. Free $0 — unlimited tasks, max dataset size 16 MB per task, 2 parallel tasks per user, 1 user included (additional users via an organization account). Official meta description and pricing intro: subscription plans “starting at $30/month”. Billing-period toggles: Monthly; Quarterly “get 15% off”; Yearly “get 30% off”. A “Students, public researchers, or NGOs 50% Off” mention is stated without a public resulting price. The detailed paid grid by dataset size and number of parallel tasks was not isolated in the public HTML and is not itemized. Private deployments: BigML Lite $10,000/year or $1,000/month (5 users, 1 organization, 1 server / 8 cores); Bronze Enterprise $45,000/year + $10,000 setup (up to 1 server / 8 cores). Extra Support is listed at $3,000/month; personalized training and certification course prices also appear on the same page and are kept in this official field only. Official Terms of Service: “BigML, Inc. is a Delaware Corporation with offices at 2891 NW 9th, Suite D, Corvallis 97330, Oregon, United States of America.” The same Terms also give a mailing address at 2851 NW 9th, Suite D, Corvallis, OR 97330. Source: official site bigml.com/pricing, verified 2026-11-16.",
+    "pricing_en": "A 3-day free trial of full access (up to 60 tasks, no credit card) is offered alongside a lasting Free plan. Free 0 € — unlimited tasks, max dataset size 16 MB per task, 2 parallel tasks per user, 1 user included (additional users via an organization account). Paid subscriptions officially start at 27 €/month (monthly; 15% off quarterly; 30% off yearly). The detailed grid by dataset size was not isolated and is not listed. A 50% off mention for students, public researchers or NGOs is stated without a public resulting price and is not itemized. Private deployments: Lite 9,048 €/year or 905 €/month; Bronze Enterprise 40,717 €/year + 9,048 € setup. Extra support and training or certification prices appear on the same page and remain in the official notes.",
+    "pricing_fr": "Un essai gratuit de 3 jours en accès complet (jusqu’à 60 tâches, sans carte) est proposé à côté d’une offre Gratuite durable. Gratuit 0 € — tâches illimitées, taille max. de dataset 16 Mo par tâche, 2 tâches en parallèle par utilisateur, 1 utilisateur inclus (utilisateurs supplémentaires via un compte organization). Les abonnements payants démarrent officiellement à 27 €/mois (mensuel ; −15 % au trimestre ; −30 % à l’année). La grille détaillée par taille de dataset n’a pas été isolée et n’est pas listée. Une mention « 50 % Off » pour étudiants, chercheurs publics ou ONG est indiquée sans prix résultant public et n’est pas itemisée. Déploiements privés : Lite 9 048 €/an ou 905 €/mois ; Bronze Enterprise 40 717 €/an + 9 048 € de setup. Les tarifs de support supplémentaire et de formation ou certification apparaissent sur la même page et restent dans les notes officielles.",
+    "howTo_en": [
+      "Open bigml.com/pricing and start on the lasting Free plan at 0 €, or take the 3-day full-access trial (up to 60 tasks, no card).",
+      "Train and deploy a model on a dataset within the Free 16 MB per-task limit.",
+      "Pick a paid subscription that officially starts at 27 €/month if you need larger datasets and more parallel tasks. The detailed size grid is not listed here."
+    ],
+    "howTo_fr": [
+      "Ouvre bigml.com/pricing et commence sur l’offre Gratuite durable à 0 €, ou lance l’essai de 3 jours en accès complet (jusqu’à 60 tâches, sans carte).",
+      "Entraîne et déploie un modèle sur un dataset, dans la limite Gratuite de 16 Mo par tâche.",
+      "Choisis un abonnement payant qui démarre officiellement à 27 €/mois si tu as besoin de datasets plus grands et de plus de tâches en parallèle. La grille détaillée par taille n’est pas listée ici."
+    ],
+    "features_en": [
+      "Machine-learning and AutoML platform for building and deploying models, with a lasting Free plan",
+      "Organizations for team collaboration on paid plans, and private deployments for on-prem or your own cloud",
+      "Paid subscriptions officially start at 27 €/month, with official quarterly and yearly discounts",
+      "The detailed paid grid by dataset size was not isolated and is not listed"
+    ],
+    "features_fr": [
+      "Plateforme de machine learning et d’AutoML pour construire et déployer des modèles, avec une offre Gratuite durable",
+      "Des organizations pour collaborer en équipe sur les offres payantes, et des déploiements privés on-prem ou sur ton propre cloud",
+      "Les abonnements payants démarrent officiellement à 27 €/mois, avec des remises officielles au trimestre et à l’année",
+      "La grille payante détaillée par taille de dataset n’a pas été isolée et n’est pas listée"
+    ],
+    "short_en": "Machine-learning and AutoML platform for building and deploying models, with a lasting free plan and paid subscriptions that officially start at 27 €/month.",
+    "short_fr": "Plateforme de machine learning et d’AutoML pour construire et déployer des modèles, avec une offre gratuite durable et des abonnements payants qui démarrent officiellement à 27 €/mois.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Départ officiel « starting at 30 $/month » uniquement (meta et intro de la page tarifs), affiché 27 €/mois. La grille détaillée par taille de dataset n’a pas été isolée dans le HTML public : non inventée.",
+      "Basculeurs officiels −15 % au trimestre et −30 % à l’année, plus une mention 50 % étudiants / chercheurs / ONG sans prix résultant public : les remises sont indiquées, les montants résultants ne sont pas inventés.",
+      "Les tarifs Extra Support 3 000 $/mois et les formations / certifications restent dans pricing_usd_official, pour ne pas encombrer la fiche produit.",
+      "Siège officiel : United States. Conditions d’utilisation : « BigML, Inc. is a Delaware Corporation with offices at 2891 NW 9th, Suite D, Corvallis 97330, Oregon, United States of America » (bigml.com/tos/). Les mêmes CGU indiquent aussi une adresse postale au 2851 NW 9th, Suite D (écart d’un chiffre, même ville).",
+      "Catégorie : Data & Analytics. Distinct de DataRobot et H2O.ai. Prévu pour la collection data-science."
+    ],
+    "url": "https://bigml.com/",
+    "official_url": "https://bigml.com/",
+    "official_url_final": "https://bigml.com/",
+    "source_csv": "2026-11-16-lot4.csv"
+  },
+  {
+    "slug": "amboss",
+    "name": "AMBOSS",
+    "category": "Education & Learning",
+    "category_note": "Bibliothèque médicale, banque de questions d’examen et outils cliniques de référence, avec un mode IA officiel, pour étudiants, internes et praticiens. Education & Learning (le CSV classait Productivity). Health & Medical serait une alternative solide. Formulation prudente uniquement, sans promesse médicale ni diagnostic : une ressource d’apprentissage et de référence, pas un substitut à un médecin. Labellé Premium. À confirmer.",
+    "converted_from_usd": true,
+    "official_currency": "USD",
+    "pricing_usd_official": "Official prices in USD from the US and International English pricing pages (amboss.com/us/pricing and amboss.com/int/pricing), verified 2026-11-16, as requested. A 5-day free trial is offered; there is no lasting $0 membership — hence Premium. Official 30-day money-back guarantee for purchases made directly through AMBOSS. Students / residents: Monthly Membership or Monthly Access $19.99/month billed monthly — unlimited library access, 50 Qbank questions a month; Yearly Membership $12.50/month billed yearly; Yearly Membership + Qbank Bundle $448 billed yearly (membership renews annually at $149 unless canceled); Student Life $1,199 (US page) / $1199 (International page). Clinicians: Monthly Access $29.99/month billed monthly; Yearly Access $21.58/month billed yearly. A German-language clinician pricing page (amboss.com/de/preise-aerztinnen-und-aerzte) exists in EUR; its list was not isolated cleanly and is not used. Official legal notice and Impressum: AMBOSS SE, Torstr. 19, 10119 Berlin, Germany; Commercial Register of Berlin (Charlottenburg) HRB 270315 B. The German Impressum also lists a Cologne office (Von-Werth-Straße 12, 50670 Cologne). Source: official US and International pricing pages, verified 2026-11-16.",
+    "pricing_en": "Labelled Premium: a 5-day free trial is offered; no lasting 0 € membership was stated. Official US and International English pricing pages, amounts converted into euro. Students / residents: Monthly Membership or Monthly Access 18 €/month billed monthly — unlimited library access, 50 Qbank questions a month; Yearly Membership 11 €/month billed yearly; Yearly Membership + Qbank Bundle 405 € billed yearly (membership renews annually at 135 € unless cancelled); Student Life 1,085 €. Clinicians: Monthly Access 27 €/month billed monthly; Yearly Access 20 €/month billed yearly. Official 30-day money-back guarantee for purchases made directly through AMBOSS. A German-language clinician pricing page exists in euro; its list was not isolated cleanly and is not used. AMBOSS is a medical knowledge library and exam Qbank with clinical reference tools and an official AI Mode — a learning and reference resource, not a diagnosis and not a substitute for a doctor.",
+    "pricing_fr": "Labellé Premium : un essai de 5 jours est proposé ; aucune adhésion 0 € durable n’était indiquée. Pages tarifaires officielles US et International en anglais, montants convertis en euros. Étudiants / internes : Monthly Membership ou Monthly Access 18 €/mois facturés au mois — accès illimité à la bibliothèque, 50 questions Qbank par mois ; Yearly Membership 11 €/mois facturés à l’année ; Yearly Membership + Qbank Bundle 405 € facturés à l’année (l’adhésion se renouvelle chaque année à 135 € sauf résiliation) ; Student Life 1 085 €. Praticiens : Monthly Access 27 €/mois facturés au mois ; Yearly Access 20 €/mois facturés à l’année. Garantie officielle de remboursement de 30 jours pour les achats faits directement auprès d’AMBOSS. Une page tarifaire allemande pour les médecins existe en euros ; sa grille n’a pas été isolée proprement et n’est pas utilisée. AMBOSS est une bibliothèque médicale et une banque de questions d’examen, avec des outils cliniques de référence et un mode IA officiel — une ressource d’apprentissage et de référence, pas un diagnostic et pas un substitut à un médecin.",
+    "howTo_en": [
+      "Open amboss.com (the homepage redirects to amboss.com/int) and start the official 5-day trial.",
+      "Use the medical library, exam Qbank or clinical reference tools as a learning and reference resource — not as a diagnosis, and not as a substitute for a doctor.",
+      "Choose a student plan (from 18 €/month, or 11 €/month billed yearly) or a clinician plan (from 27 €/month, or 20 €/month billed yearly) on the official US or International pricing pages. Labelled Premium."
+    ],
+    "howTo_fr": [
+      "Ouvre amboss.com (l’accueil redirige vers amboss.com/int) et lance l’essai officiel de 5 jours.",
+      "Utilise la bibliothèque médicale, la banque de questions ou les outils cliniques de référence comme une ressource d’apprentissage et de référence — pas comme un diagnostic, et pas comme un substitut à un médecin.",
+      "Choisis une offre étudiant (à partir de 18 €/mois, ou 11 €/mois facturés à l’année) ou une offre praticien (à partir de 27 €/mois, ou 20 €/mois facturés à l’année) sur les pages tarifaires officielles US ou International. Labellé Premium."
+    ],
+    "features_en": [
+      "Medical knowledge library, exam Qbank and clinical reference tools, with an official AI Mode, for students, residents and clinicians",
+      "A 5-day official trial, then student or clinician plans billed monthly or yearly",
+      "A learning and reference resource — not a diagnosis, and not a substitute for a doctor",
+      "Labelled Premium: no lasting 0 € membership was stated. Official 30-day money-back guarantee on direct purchases"
+    ],
+    "features_fr": [
+      "Bibliothèque médicale, banque de questions d’examen et outils cliniques de référence, avec un mode IA officiel, pour étudiants, internes et praticiens",
+      "Un essai officiel de 5 jours, puis des offres étudiant ou praticien facturées au mois ou à l’année",
+      "Une ressource d’apprentissage et de référence — pas un diagnostic, et pas un substitut à un médecin",
+      "Labellé Premium : aucune adhésion 0 € durable n’était indiquée. Garantie officielle de remboursement de 30 jours sur les achats directs"
+    ],
+    "short_en": "Medical knowledge library, exam Qbank and clinical reference tools with an official AI Mode, for students, residents and clinicians — a learning and reference resource, not a substitute for a doctor.",
+    "short_fr": "Bibliothèque médicale, banque de questions d’examen et outils cliniques de référence, avec un mode IA officiel, pour étudiants, internes et praticiens — une ressource d’apprentissage et de référence, pas un substitut à un médecin.",
+    "publishable": true,
+    "hold_reason": null,
+    "flags": [
+      "Labellé Premium (demande PM) : essai officiel de 5 jours, pas d’adhésion 0 € durable.",
+      "Prix USD des pages officielles US / International uniquement, convertis en euros (demande PM). La page allemande médecins en euros existe ; sa grille n’a pas été isolée proprement et n’est pas reprise.",
+      "Formulation prudente uniquement (demande PM) : ressource d’apprentissage et de référence, sans promesse médicale ni diagnostic, en EN et en FR.",
+      "Garantie officielle de 30 jours pour les achats faits directement auprès d’AMBOSS.",
+      "Siège officiel : Germany. Mentions légales internationales et Impressum : AMBOSS SE, Torstr. 19, 10119 Berlin, Germany ; registre du commerce de Berlin (Charlottenburg) HRB 270315 B (amboss.com/int/int-legal/legal-notice, amboss.com/de/de-legal/impressum). L’Impressum allemand mentionne aussi un bureau à Cologne (Von-Werth-Straße 12, 50670 Cologne).",
+      "Catégorie remappée : Education & Learning (le CSV classait Productivity). Health & Medical serait une alternative solide. À confirmer.",
+      "Redirection d’accueil : amboss.com → amboss.com/int (official_url_final)."
+    ],
+    "url": "https://www.amboss.com/int",
+    "official_url": "https://www.amboss.com/",
+    "official_url_final": "https://www.amboss.com/int",
+    "source_csv": "2026-11-16-lot4.csv"
+  }
+]

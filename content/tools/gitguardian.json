@@ -1,0 +1,89 @@
+{
+  "id": "gitguardian",
+  "name": "GitGuardian",
+  "url": "https://www.gitguardian.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Security platform that detects exposed secrets and credentials in source code, with a lasting free Starter plan for small teams.",
+  "description": "Security platform that detects exposed secrets and credentials in source code, with a lasting free Starter plan for small teams.",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "security",
+    "secrets",
+    "credentials",
+    "devtools",
+    "france"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.gitguardian.com/pricing",
+    "details": "Starter 0 €, Always, no credit card — up to 25 developers, unlimited real-time scanning, up to 500 historical scan detections, 10,000 API calls/month, Internal Secrets Monitoring. Business / Teams, Growth and Enterprise are offered as Let’s Talk / Contact sales; no public paid list prices were isolated and are not listed. Developer Endpoint Protection is priced per endpoint per year, on request, with two official tiers (developer endpoints and standard endpoints).",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/gitguardian.png",
+  "image": "/screenshots/gitguardian.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Detects exposed secrets and credentials in source code, with Internal Secrets Monitoring",
+    "Unlimited real-time scanning and up to 500 historical scan detections on the lasting free Starter plan",
+    "Starter is 0 €, Always, no card, for up to 25 developers and 10,000 API calls/month",
+    "Paid Business / Teams, Growth and Enterprise plans are talk-to-sales, with no public list price"
+  ],
+  "howToUse": [
+    {
+      "title": "Open gitguardian.com and start Starter at 0 €, with no card (up to 25 developers).",
+      "description": "Open gitguardian.com and start Starter at 0 €, with no card (up to 25 developers).",
+      "links": [
+        {
+          "label": "GitGuardian",
+          "url": "https://www.gitguardian.com/"
+        }
+      ]
+    },
+    {
+      "title": "Turn on Internal Secrets Monitoring so your repositories are scanned in real time.",
+      "description": "Turn on Internal Secrets Monitoring so your repositories are scanned in real time."
+    },
+    {
+      "title": "Contact sales if you need Growth, Business or Enterprise features such as SSO or public...",
+      "description": "Contact sales if you need Growth, Business or Enterprise features such as SSO or public secrets monitoring — those plans have no public list price."
+    }
+  ],
+  "hqCountry": "FR",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://www.gitguardian.com/pricing"
+  ],
+  "summary_fr": "Plateforme de sécurité qui détecte les secrets et identifiants exposés dans le code, avec une offre Starter gratuite durable pour les petites équipes.",
+  "description_fr": "Plateforme de sécurité qui détecte les secrets et identifiants exposés dans le code, avec une offre Starter gratuite durable pour les petites équipes.",
+  "features_fr": [
+    "Détecte les secrets et identifiants exposés dans le code, avec Internal Secrets Monitoring",
+    "Scan en temps réel illimité et jusqu’à 500 détections de scan historique sur l’offre Starter gratuite durable",
+    "Starter est à 0 €, Always, sans carte, jusqu’à 25 développeurs et 10 000 appels API/mois",
+    "Les offres payantes Business / Teams, Growth et Enterprise passent par les ventes, sans prix de liste public"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre gitguardian.com et commence sur Starter à 0 €, sans carte (jusqu’à 25 développeurs).",
+      "description": "Ouvre gitguardian.com et commence sur Starter à 0 €, sans carte (jusqu’à 25 développeurs).",
+      "links": [
+        {
+          "label": "GitGuardian",
+          "url": "https://www.gitguardian.com/"
+        }
+      ]
+    },
+    {
+      "title": "Active Internal Secrets Monitoring pour que tes dépôts soient scannés en temps réel.",
+      "description": "Active Internal Secrets Monitoring pour que tes dépôts soient scannés en temps réel."
+    },
+    {
+      "title": "Contacte les ventes si tu as besoin des fonctions Growth, Business ou Enterprise, comme...",
+      "description": "Contacte les ventes si tu as besoin des fonctions Growth, Business ou Enterprise, comme le SSO ou la surveillance des secrets publics — ces offres n’ont pas de prix de liste public."
+    }
+  ]
+}

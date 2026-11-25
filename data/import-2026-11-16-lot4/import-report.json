@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-16",
+  "deliverSlugs": [
+    "gitguardian",
+    "algolia",
+    "count",
+    "wren-ai",
+    "ai-or-not",
+    "ux-pilot",
+    "bigml",
+    "amboss"
+  ],
+  "toolIds": [
+    "gitguardian",
+    "algolia",
+    "count",
+    "wren-ai",
+    "ai-or-not",
+    "ux-pilot",
+    "bigml",
+    "amboss"
+  ],
+  "idRenames": [],
+  "homonyms": [],
+  "skipped": [],
+  "toolsWritten": 8,
+  "toolFiles": 1272,
+  "md5Verified": true,
+  "catalogIndexRegenerated": true,
+  "forbiddenExcluded": [
+    "cardboard-ai",
+    "pushary",
+    "polylane",
+    "vlogme",
+    "bridge",
+    "wthumb",
+    "liveswap-ai",
+    "unfurl",
+    "heardloom",
+    "sitedrop-live",
+    "rempa",
+    "lumimusic"
+  ],
+  "categoryMappings": {
+    "Security": "security",
+    "Search & Research": "search",
+    "Data & Analytics": "data",
+    "AI Detection": "ai-detection",
+    "Design & UI": "design",
+    "Education & Learning": "education"
+  },
+  "currencyLeakCheck": "pass",
+  "howToTitleIssues": {},
+  "howToTitleCheck": "pass",
+  "localLogosCheck": {
+    "lotIds": 8,
+    "missingFromLocalLogos": [],
+    "missingFromCatalogIndex": [],
+    "pass": true
+  },
+  "visitorCopyCheck": {
+    "pass": true,
+    "count": 0,
+    "hits": []
+  }
+}
