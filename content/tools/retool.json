@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Platform for building internal tools and AI agents connected to databases, APIs and LLMs.",
-  "description": "Retool is used to build, deploy and manage internal software. Developers connect it to databases, APIs and LLMs, then assemble interfaces and workflows with components and code, and the company now also offers a harness for running and governing AI agents. The Free plan has no cost; paid plans bill per builder, starting at 9 € per builder per month annually, with separate pricing per internal user.",
+  "description": "Retool is used to build, deploy and manage internal software. Developers connect it to databases, APIs and LLMs, then assemble interfaces and workflows with components and code, and the company now also offers a harness for running and governing AI agents. The Free plan has no cost; paid plans bill per builder, starting at 0 € per builder per month annually, with separate pricing per internal user.",
   "categories": [
     "no-code"
   ],
@@ -19,8 +19,8 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "9 €/builder/mo (annual)",
-    "sourceUrl": "https://retool.com/pricing"
+    "note": "9 €/builder/mo billed annually, official EUR. A free plan is 0 € per builder. A higher plan is listed at 46 €/builder/mo billed annually.",
+    "sourceUrl": "https://retool.com/en-EU/pricing"
   },
   "logo": "/logos/retool.png",
   "image": "/screenshots/retool.webp",
@@ -52,14 +52,14 @@
     },
     {
       "title": "Check builder pricing",
-      "description": "The Free plan has no cost. Paid plans bill per builder, starting at 9 € per builder per month annually, with separate pricing per internal user."
+      "description": "The Free plan has no cost. Paid plans bill per builder, starting at 0 € per builder per month annually, with separate pricing per internal user."
     }
   ],
   "features": [
     "Platform for building internal tools and AI agents connected to databases, APIs and LLMs.",
     "Retool is used to build, deploy and manage internal software.",
     "Developers connect it to databases, APIs and LLMs, then assemble interfaces and workflows with components and code, and the company now also offers a harness for running and governing AI agents.",
-    "The Free plan has no cost; paid plans bill per builder, starting at 9 € per builder per month annually, with separate pricing per internal user."
+    "The Free plan has no cost; paid plans bill per builder, starting at 0 € per builder per month annually, with separate pricing per internal user."
   ],
   "features_fr": [
     "Plateforme de création d'outils internes et d'agents d'IA connectés à des bases de données, des API et des LLM.",

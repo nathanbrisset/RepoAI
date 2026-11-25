@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "ByteDance's AI coding environment (TraeCode) and work assistant (TraeWork).",
-  "description": "Trae is a set of AI tools from ByteDance. TraeCode is a coding environment with an AI agent that writes and edits code, and TraeWork is a general work assistant available on desktop and the web. The plans page lists Lite at 3 € per month, Pro at 9 € per month with 18 € of basic usage and unlimited autocomplete, and Pro+ at 27 € per month. A free version can be downloaded.",
+  "description": "Trae is a set of AI tools from ByteDance. TraeCode is a coding environment with an AI agent that writes and edits code, and TraeWork is a general work assistant available on desktop and the web. The plans page lists Lite at 0 € per month, Pro at 54 € per month with 54 € of basic usage and unlimited autocomplete, and Pro+ at 181 € per month. A free version can be downloaded.",
   "categories": [
     "coding"
   ],
@@ -18,8 +18,8 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "3 €/mo (Lite)",
-    "sourceUrl": "https://www.trae.ai/plans"
+    "note": "Free at 0 €. Pro 18 €/month with included usage, Pro+ 54 €/month and Ultra 181 €/month (the previous Lite tier was no longer listed).",
+    "sourceUrl": "https://www.trae.ai/pricing"
   },
   "logo": "/logos/trae.png",
   "image": "/screenshots/trae.webp",
@@ -50,14 +50,14 @@
     },
     {
       "title": "Compare Lite, Pro, and Pro+",
-      "description": "The plans page lists Lite at 3 € a month. Pro is 9 € a month with 18 € of basic usage and unlimited autocomplete. Pro+ is 27 € a month."
+      "description": "The plans page lists Lite at 0 € a month. Pro is 54 € a month with 54 € of basic usage and unlimited autocomplete. Pro+ is 181 € a month."
     }
   ],
   "features": [
     "ByteDance's AI coding environment (TraeCode) and work assistant (TraeWork).",
     "Trae is a set of AI tools from ByteDance.",
     "TraeCode is a coding environment with an AI agent that writes and edits code, and TraeWork is a general work assistant available on desktop and the web.",
-    "The plans page lists Lite at 3 € per month, Pro at 9 € per month with 18 € of basic usage and unlimited autocomplete, and Pro+ at 27 € per month."
+    "The plans page lists Lite at 0 € per month, Pro at 54 € per month with 54 € of basic usage and unlimited autocomplete, and Pro+ at 181 € per month."
   ],
   "features_fr": [
     "Environnement de codage IA (TraeCode) et assistant de travail (TraeWork) de ByteDance.",

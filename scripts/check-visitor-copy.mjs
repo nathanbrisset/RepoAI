@@ -174,7 +174,11 @@ export const VISITOR_COPY_RULES = [
   { id: "could-not-be-read", pattern: /\bcould not be read\b/iu, scope: "internal" },
   { id: "not-readable-en", pattern: /\bnot readable\b/iu, scope: "internal" },
   { id: "pas-lisible-fr", pattern: /pas lisibles?|n['’]étaient pas lisibles/iu, scope: "internal" },
-  { id: "not-copied-en", pattern: /\bnot copied\b/iu, scope: "internal" },
+  {
+    id: "not-copied-en",
+    pattern: /\bnot copied(?:\s+here|\s+as(?:\s+the)?\s+(?:list\s+)?prices?)/iu,
+    scope: "internal",
+  },
   { id: "were-not-readable", pattern: /\bwere not readable\b/iu, scope: "internal" },
   { id: "labelle-fr-word", pattern: /\b[Ll]abellé(e)?\s+Premium\b/iu, scope: "internal" },
   {

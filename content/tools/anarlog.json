@@ -15,9 +15,9 @@
   ],
   "pricing": {
     "verified": true,
-    "details": "Free 0 €/month — private, local meeting notes with on-device models or your own API keys: unlimited on-device transcription, local recordings and audio player, BYOK for STT and AI, notes, folders and community templates, chat and exports, local API, CLI, MCP and webhooks, manual speaker labeling. Pro 13 €/person/month or 127 €/person/year — everything in Free plus scheduled auto-recording and joining, custom templates, advanced AI context and web research, system-wide dictation, cloud transcription, cloud LLM, better speaker identification, cloud sync (3 personal devices or 5 per workspace member), E2EE, share notes, integrations and personal automations, folder sharing, custom dictionaries, shared workspaces, members/roles, centralized per-seat billing, shared team folders, templates and automations. Official 30-day Pro trial. Enterprise: custom, founder-led rollout (SSO/SCIM, policies, audit, custom subdomain, customer-hosted data plane). A YC founder perk is mentioned for eligibility and verification; it is not used as a general public price. Desktop downloads: macOS (Apple Silicon and Intel), Windows x64 (beta) and Linux (beta). Built-in on-device transcription requires supported Apple Silicon; on other platforms you configure a local transcription server or a hosted provider.",
     "model": "freemium",
-    "label": "Freemium"
+    "label": "Freemium",
+    "sourceUrl": "https://anarlog.so/"
   },
   "logo": "/logos/anarlog.png",
   "image": "/screenshots/anarlog.webp",

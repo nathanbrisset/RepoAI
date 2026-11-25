@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "AI note taker that records, transcribes, translates and summarises meetings and audio files.",
-  "description": "Notta records online meetings through a bot or on-device without a bot, transcribes uploaded audio, video and YouTube links, and produces summaries and action items. It also offers real-time translation, screen recording, a desktop app, an MCP connector and a hardware recorder. A Free plan is available; Pro costs 7.39 € per month billed annually, and Business 15.08 € per month. Its Memo device can be attached to a phone to record calls and in-person meetings.",
+  "description": "Notta records online meetings through a bot or on-device without a bot, transcribes uploaded audio, video and YouTube links, and produces summaries and action items. It also offers real-time translation, screen recording, a desktop app, an MCP connector and a hardware recorder. A Free plan is available; Pro costs 0 € per month billed annually, and Business 7 € per month. Its Memo device can be attached to a phone to record calls and in-person meetings.",
   "categories": [
     "meetings"
   ],
@@ -19,8 +19,8 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "7 €/mo (Pro, annual)",
-    "sourceUrl": "https://www.notta.ai/pricing"
+    "note": "7 €/mo (Pro, billed annually; 83.99 €/year). Business 15.83 €/mo billed annually (189.99 €/year). Official EUR prices. A free plan at 0 € is offered.",
+    "sourceUrl": "https://www.notta.ai/en/pricing"
   },
   "logo": "/logos/notta.png",
   "image": "/screenshots/notta.webp",
@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Notta",
-      "description": "Open Notta and start on the Free plan. Pro costs 7.39 € per month billed annually, and Business is 15.08 € per month, if you outgrow that plan.",
+      "description": "Open Notta and start on the Free plan. Pro costs 0 € per month billed annually, and Business is 7 € per month, if you outgrow that plan.",
       "links": [
         {
           "label": "Notta",
@@ -58,7 +58,7 @@
     "AI note taker that records, transcribes, translates and summarises meetings and audio files.",
     "Notta records online meetings through a bot or on-device without a bot, transcribes uploaded audio, video and YouTube links, and produces summaries and action items.",
     "It also offers real-time translation, screen recording, a desktop app, an MCP connector and a hardware recorder.",
-    "A Free plan is available; Pro costs 7.39 € per month billed annually, and Business 15.08 € per month."
+    "A Free plan is available; Pro costs 0 € per month billed annually, and Business 7 € per month."
   ],
   "features_fr": [
     "Preneur de notes IA qui enregistre, transcrit, traduit et résume les réunions et les fichiers audio.",
