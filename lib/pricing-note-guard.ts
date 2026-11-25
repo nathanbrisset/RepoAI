@@ -85,15 +85,15 @@ export function isCleanPricingNote(value: string | undefined | null, lang: Prici
   return uncleanReasons(value, lang).length === 0
 }
 
-/** Prefer `note`, then `details`; return displayed text only when clean. */
+/** First non-empty of `note` / `details`; return displayed text only when clean. */
 export function resolvePricingNote(
   note: string | undefined,
   details: string | undefined,
   lang: PricingNoteLang,
 ): string | undefined {
-  if (note?.trim() && isCleanPricingNote(note, lang)) return note.trim()
-  if (details?.trim() && isCleanPricingNote(details, lang)) return details.trim()
-  return undefined
+  const candidate = note ?? details
+  if (candidate == null || !candidate.trim()) return undefined
+  return isCleanPricingNote(candidate, lang) ? candidate.trim() : undefined
 }
 
 /** First non-empty candidate; hidden when it fails the guard (no fallback). */

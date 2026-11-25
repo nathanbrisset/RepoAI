@@ -9,6 +9,8 @@ import path from "path"
 import { fileURLToPath } from "url"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
+/** Word end for rules touching accented terminations (regex `u` flag). */
+const WB = String.raw`(?![\p{L}])`
 const allowlistPath = path.join(root, "data/visitor-copy-allowlist.json")
 const legalCopyPath = path.join(root, "lib/i18n/legal.ts")
 
@@ -42,9 +44,15 @@ export const VISITOR_COPY_RULES = [
   { id: "carried-over-pricing", pattern: /carried over from the previous catalog|not rechecked/i, scope: "internal" },
   { id: "repris-ancien-catalogue", pattern: /repris de l['’]ancien catalogue|non revérifié/i, scope: "internal" },
   { id: "removed-because-date", pattern: /removed because it is not a credible date|It was removed because/i, scope: "internal" },
-  { id: "during-this-check", pattern: /during this check|lors de cette vérification/i, scope: "internal" },
-  { id: "during-check-review", pattern: /during the check\/review/i, scope: "internal" },
-  { id: "lors-de-la-verification", pattern: /lors de la vérification/i, scope: "internal" },
+  {
+    id: "during-this-check",
+    pattern:
+      /during (?:this|the) (?:check|review)|lors de (?:ce|cette) (?:contrôle|vérification|check|review)/iu,
+    scope: "internal",
+  },
+  { id: "during-check-review", pattern: /during the check\/review/iu, scope: "internal" },
+  { id: "lors-de-ce-controle", pattern: /lors de ce contr[oô]le/iu, scope: "internal" },
+  { id: "lors-de-la-verification", pattern: /lors de la vérification/iu, scope: "internal" },
   { id: "no-price-was-recorded", pattern: /\bno price was recorded\b/i, scope: "internal" },
   { id: "did-not-render", pattern: /\bdid not render\b/i, scope: "internal" },
   { id: "headless-chrome", pattern: /headless chrome/i, scope: "internal" },
@@ -58,13 +66,24 @@ export const VISITOR_COPY_RULES = [
   },
   { id: "was-not-stated", pattern: /was not stated|was not found|was not verified/i, scope: "internal" },
   { id: "verified-on-official", pattern: /verified on official/i, scope: "internal" },
-  { id: "verified-on", pattern: /\bverified\s+on\b/i, scope: "internal" },
-  { id: "verified-via", pattern: /\bverified\s+via\b/i, scope: "internal" },
-  { id: "verifie-sur", pattern: /\bvérifié\s+sur\b/i, scope: "internal" },
-  { id: "verifie-via", pattern: /\bvérifié\s+via\b/i, scope: "internal" },
+  { id: "verified-on", pattern: /\bverified\s+on\b/iu, scope: "internal" },
+  { id: "verified-via", pattern: /\bverified\s+via\b/iu, scope: "internal" },
+  { id: "verifie-sur", pattern: new RegExp(String.raw`\bvérifié${WB}\s+sur`, "iu"), scope: "internal" },
+  { id: "verifie-via", pattern: new RegExp(String.raw`\bvérifié${WB}\s+via`, "iu"), scope: "internal" },
+  {
+    id: "verifie-word-fr",
+    pattern: new RegExp(
+      String.raw`(?:prix|tarif|montant|chiffres?|mensuels?).{0,48}\bvérifiés?${WB}|chiffres?\s+vérifiés?${WB}`,
+      "iu",
+    ),
+    scope: "internal",
+  },
   {
     id: "extraits-chiffres",
-    pattern: /chiffres?\s+extraits|figures?\s+extracted|extraits?\s+(?:de\s+)?chiffres/i,
+    pattern: new RegExp(
+      String.raw`chiffres?\s+extraits|figures?\s+extracted|extraits?${WB}\s+(?:de\s+)?chiffres|extraits?${WB}\s+(?:de\s+la\s+)?(?:page|liste)\s+tarif`,
+      "iu",
+    ),
     scope: "internal",
   },
   {
@@ -83,7 +102,7 @@ export const VISITOR_COPY_RULES = [
     pattern: /\blabelled as\b|Labelled Premium|the lot label is(?!\s+so)/i,
     scope: "internal",
   },
-  { id: "labellise-fr", pattern: /\blabellisé\b/i, scope: "internal" },
+  { id: "labellise-fr", pattern: new RegExp(String.raw`\blabellisé${WB}`, "iu"), scope: "internal" },
   {
     id: "arrondis-pricing",
     pattern: /(?:prix|tarif|montant|€|EUR).{0,48}arrondis?|arrondis?.{0,48}(?:€|EUR|prix|tarif)/i,
@@ -91,7 +110,10 @@ export const VISITOR_COPY_RULES = [
   },
   {
     id: "isole-pricing-fr",
-    pattern: /(?:prix|tarif|montant|plan|offre).{0,80}\bisolé\b|n['’]a\s+pas\s+été\s+isolé|clearly isolated/i,
+    pattern: new RegExp(
+      String.raw`(?:prix|tarif|montant|plan|offre).{0,80}\bisolé${WB}|n['']a\s+pas\s+été\s+isolé|clearly isolated`,
+      "iu",
+    ),
     scope: "internal",
   },
   { id: "converted-from-usd", pattern: /converted from USD/i, scope: "internal" },
@@ -111,6 +133,16 @@ export const VISITOR_COPY_RULES = [
   {
     id: "so-the-lot-label-is",
     pattern: /\bso the lot label is\b/i,
+    scope: "internal",
+  },
+  { id: "during-this-review", pattern: /during this review/iu, scope: "internal" },
+  { id: "during-the-check", pattern: /during the check(?![\w-])/iu, scope: "internal" },
+  { id: "checked-on-date", pattern: /\bChecked on\s+\d/iu, scope: "internal" },
+  { id: "returned-404-on", pattern: /returned\s+404\s+on\b/iu, scope: "internal" },
+  { id: "were-not-copied", pattern: /\bwere not copied\b|\bwas not copied\b/iu, scope: "internal" },
+  {
+    id: "internal-label",
+    pattern: /\binternal\b[^.!?]{0,64}\blabel\b|\blabel\b[^.!?]{0,64}\binternal\b/iu,
     scope: "internal",
   },
   {
@@ -274,7 +306,13 @@ export function runVisitorCopyRuleFixtures() {
       fail: ["Pas d’offre gratuite durable, — offre Premium."],
     },
     { rule: "during-check-review", pass: ["During setup, connect your repo."], fail: ["Limits during the check/review were not published"] },
+    { rule: "lors-de-ce-controle", pass: ["Lors de la prise en main, connecte ton repo."], fail: ["Le prix n’était pas visible lors de ce contrôle"] },
     { rule: "lors-de-la-verification", pass: ["Lors de la prise en main, connecte ton repo."], fail: ["Le prix n’était pas visible lors de la vérification"] },
+    { rule: "verifie-word-fr", pass: ["Service vérifié par l’éditeur."], fail: ["Les montants mensuels vérifiés sur la page tarifs"] },
+    { rule: "during-this-review", pass: ["During setup, save your project."], fail: ["Pricing during this review was incomplete"] },
+    { rule: "were-not-copied", pass: ["Plans vary by region."], fail: ["USD rates were not copied here"] },
+    { rule: "returned-404-on", pass: ["The page may be unavailable."], fail: ["The pricing page returned 404 on 21 October 2026"] },
+    { rule: "labellise-fr", pass: ["Offre Premium disponible."], fail: ["Plan labellisé Premium sur le site"] },
     { rule: "no-price-was-recorded", pass: ["No public pricing page."], fail: ["no price was recorded for the enterprise tier"] },
     { rule: "did-not-render", pass: ["The widget may stay blank until you sign in."], fail: ["the pricing table did not render in headless mode"] },
     { rule: "extraits-chiffres", pass: ["Extraits vidéo HD sans limite."], fail: ["Chiffres extraits de la page tarifs"] },
