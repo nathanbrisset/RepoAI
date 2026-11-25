@@ -18,11 +18,11 @@ const TEMPLATE_RE = /^Détails tarifaires sur .+ : consulte la page officielle\.
 const AMOUNT_AFTER = /(?:^|[^\d])(\d{1,4}(?:[.,]\d{1,2})?)\s*€/iu
 const AMOUNT_BEFORE = /€\s*(\d{1,4}(?:[.,]\d{1,2})?)/iu
 const EN_MARKERS_IN_FR_CORE =
-  /\b(per month|free tier|billed annually|billed yearly|billed monthly)\b|\b(?:monthly|yearly)\s+(?:billing|plan)\b|(?:^|[^\w])(?:\/mo|\/hr|\/user)\b/iu
+  /\b(per month|free tier|billed annually|billed yearly|billed monthly)\b|\b(?:monthly|yearly)\s+(?:billing|plan)\b|(?:^|[^\w])€\d|\b\d+\s*€\/mo\b|\b(?:\/mo|\/hr|\/user)\b/iu
 
 /** Tier token immediately before an amount (Contenu CSV slugs only). */
 const TIER_BEFORE_AMOUNT =
-  /\b(?:Free|Basic|Plus|Pro|Professional|Enterprise|Starter|Team|Individual|Business|Monthly|Annual|Credits?)\s+(?:at\s+)?(?:\d{1,4}(?:[.,]\d{1,2})?\s*€)/giu
+  /\b(?:Free|Basic|Plus|Pro|Professional|Enterprise|Starter|Team|Individual|Business|Credits?)\s+(?:at\s+)?(?:\d{1,4}(?:[.,]\d{1,2})?\s*€)/giu
 
 const CONTENU_SLUGS = contenuSlugSet()
 

@@ -1,214 +1,151 @@
 #!/usr/bin/env node
 /**
- * Inject known-bad copy into a temp checkout of content/, run real guard scanners.
- * Writes data/imports/guard-injections-results.txt (baseline ref vs current tree).
+ * One bad mutation at a time on real catalogue fiches; record CAUGHT/MISSED per case.
+ * Writes data/imports/guard-injections-results.txt (current guards only — no baseline).
  */
 import fs from "fs"
 import os from "os"
 import path from "path"
-import { execSync } from "child_process"
 import { fileURLToPath } from "url"
-import { scanFrPricingQuality } from "./check-fr-pricing-quality.mjs"
+import { enMarkersInFr, scanFrPricingQuality } from "./check-fr-pricing-quality.mjs"
 import { scanPricingAmountSanity } from "./check-pricing-amount-sanity.mjs"
 import { scanFrEnPriceParity } from "./check-fr-en-price-parity.mjs"
+import { uncleanReasons } from "../lib/pricing-note-guard.ts"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const outPath = path.join(root, "data/imports/guard-injections-results.txt")
+const casesPath = path.join(root, "data/imports/guard-injections-cases.json")
 
-const BASELINE_REF = process.env.GUARD_INJECTION_BASELINE || "55a110f2"
-const TIP_REF = process.env.GUARD_INJECTION_TIP || "HEAD"
+function loadCases() {
+  const data = JSON.parse(fs.readFileSync(casesPath, "utf8"))
+  return data.cases
+}
 
-const INJECTIONS = [
-  {
-    guard: 54,
-    slug: "__injection_qa54__",
-    mutate: ({ tools, fr }) => {
-      const id = "__injection_qa54__"
-      tools[`${id}.json`] = JSON.stringify({ id, status: "active", pricing: {} }, null, 2)
-      fr[id] = { pricingNote_fr: "Team plan billed monthly with annual commitment" }
-    },
-    caught: (rootDir) =>
-      scanFrPricingQuality({ rootDir }).some((r) => r.id === "__injection_qa54__"),
-  },
-  {
-    guard: 58,
-    slug: "__injection_qa58_zero__",
-    mutate: ({ tools }) => {
-      const id = "__injection_qa58_zero__"
-      tools[`${id}.json`] = JSON.stringify(
-        {
-          id,
-          status: "active",
-          summary: "Pro costs 0 € per month for teams.",
-          pricing: { note: "Pro costs 0 €" },
-        },
-        null,
-        2,
-      )
-    },
-    caught: (rootDir) =>
-      scanPricingAmountSanity({ rootDir }).some(
-        (h) => h.id === "__injection_qa58_zero__" && h.rule.includes("zero"),
-      ),
-  },
-  {
-    guard: 58,
-    slug: "__injection_qa58_glued__",
-    mutate: ({ tools }) => {
-      const id = "__injection_qa58_glued__"
-      tools[`${id}.json`] = JSON.stringify(
-        { id, status: "active", description: "Starter costsper month and Team isper seat." },
-        null,
-        2,
-      )
-    },
-    caught: (rootDir) =>
-      scanPricingAmountSanity({ rootDir }).some((h) => h.id === "__injection_qa58_glued__"),
-  },
-  {
-    guard: 58,
-    slug: "__injection_qa58_high__",
-    mutate: ({ tools }) => {
-      const id = "__injection_qa58_high__"
-      tools[`${id}.json`] = JSON.stringify(
-        {
-          id,
-          status: "active",
-          summary: "Enterprise listing 9 999 €/month after trial.",
-          description: "0 € for 7 days, then 9 999 € billed monthly.",
-        },
-        null,
-        2,
-      )
-    },
-    caught: (rootDir) =>
-      scanPricingAmountSanity({ rootDir }).some(
-        (h) => h.id === "__injection_qa58_high__" && h.rule === "high-eur",
-      ),
-  },
-  {
-    guard: 58,
-    slug: "__injection_qa58_malformed__",
-    mutate: ({ tools }) => {
-      const id = "__injection_qa58_malformed__"
-      tools[`${id}.json`] = JSON.stringify(
-        {
-          id,
-          status: "active",
-          pricing: { details: "API at 0.007.23 € per credit." },
-        },
-        null,
-        2,
-      )
-    },
-    caught: (rootDir) =>
-      scanPricingAmountSanity({ rootDir }).some(
-        (h) => h.id === "__injection_qa58_malformed__" && h.rule === "malformed-amount",
-      ),
-  },
-  {
-    guard: 52,
-    slug: "__injection_qa52_details__",
-    mutate: ({ tools, fr }) => {
-      const id = "__injection_qa52_details__"
-      tools[`${id}.json`] = JSON.stringify(
-        {
-          id,
-          status: "active",
-          pricing: {
-            note: "Starter 18.01 €/month and Professional 45.15 €/month.",
-            details: "Starter 18 €/month and Professional 44 €/month.",
-          },
-        },
-        null,
-        2,
-      )
-      fr[id] = {
-        pricingNote_fr: "Starter 18,01 €/mois et Professional 45,15 €/mois.",
+function setByPath(obj, field, value) {
+  const parts = field.split(".")
+  let cur = obj
+  for (let i = 0; i < parts.length; i++) {
+    const p = parts[i]
+    const isLast = i === parts.length - 1
+  if (/^\d+$/.test(p)) {
+      const idx = Number(p)
+      if (!Array.isArray(cur)) throw new Error(`setByPath: expected array at index ${field}`)
+      if (isLast) {
+        cur[idx] = value
+        return
       }
-    },
-    caught: (rootDir) =>
-      scanFrEnPriceParity({ rootDir }).some(
-        (m) => m.id === "__injection_qa52_details__" && m.field.includes("details"),
-      ),
-  },
-]
-
-function materializeContent(ref, dest) {
-  fs.rmSync(dest, { recursive: true, force: true })
-  fs.mkdirSync(dest, { recursive: true })
-  execSync(`git archive ${ref} content | tar -x -C "${dest}"`, { cwd: root, stdio: "pipe" })
+      if (cur[idx] == null || typeof cur[idx] !== "object") {
+        cur[idx] = /^\d+$/.test(parts[i + 1]) ? [] : {}
+      }
+      cur = cur[idx]
+      continue
+    }
+    if (isLast) {
+      cur[p] = value
+      return
+    }
+    if (cur[p] == null || typeof cur[p] !== "object") {
+      cur[p] = /^\d+$/.test(parts[i + 1]) ? [] : {}
+    }
+    cur = cur[p]
+  }
 }
 
-function loadWorkspace(contentDir) {
-  const toolsDir = path.join(contentDir, "tools")
-  const tools = {}
-  for (const name of fs.readdirSync(toolsDir)) {
-    if (!name.endsWith(".json")) continue
-    tools[name] = fs.readFileSync(path.join(toolsDir, name), "utf8")
-  }
+function cloneContentDir(destRoot) {
+  const dest = path.join(destRoot, "content")
+  fs.cpSync(path.join(root, "content"), dest, { recursive: true })
+  return dest
+}
+
+function applyMutation(rootDir, caseRow) {
+  const contentDir = path.join(rootDir, "content")
+  const toolPath = path.join(contentDir, "tools", `${caseRow.slug}.json`)
   const frPath = path.join(contentDir, "i18n/fr-tools.json")
+  if (!fs.existsSync(toolPath)) throw new Error(`missing tool ${caseRow.slug}`)
   const fr = JSON.parse(fs.readFileSync(frPath, "utf8"))
-  return { toolsDir, tools, frPath, fr }
-}
 
-function saveWorkspace({ toolsDir, tools, frPath, fr }) {
-  for (const [name, body] of Object.entries(tools)) {
-    fs.writeFileSync(path.join(toolsDir, name), body.endsWith("\n") ? body : `${body}\n`)
+  if (caseRow.layer === "tool") {
+    const tool = JSON.parse(fs.readFileSync(toolPath, "utf8"))
+    setByPath(tool, caseRow.field, caseRow.value)
+    fs.writeFileSync(toolPath, `${JSON.stringify(tool, null, 2)}\n`)
+    return
   }
-  fs.writeFileSync(frPath, `${JSON.stringify(fr, null, 2)}\n`)
+  if (caseRow.layer === "overlay") {
+    if (!fr[caseRow.slug]) fr[caseRow.slug] = {}
+    setByPath(fr[caseRow.slug], caseRow.field, caseRow.value)
+    fs.writeFileSync(frPath, `${JSON.stringify(fr, null, 2)}\n`)
+    return
+  }
+  throw new Error(`unknown layer ${caseRow.layer}`)
 }
 
-function runInjectedSuite(label, ref) {
+function caseCaught(caseRow, rootDir) {
+  const slug = caseRow.slug
+  if (caseRow.guard === 52) {
+    return scanFrEnPriceParity({ rootDir }).some((m) => m.id === slug)
+  }
+  if (caseRow.guard === 54) {
+    const fr = JSON.parse(
+      fs.readFileSync(path.join(rootDir, "content/i18n/fr-tools.json"), "utf8"),
+    )
+    const note = fr[slug]?.pricingNote_fr ?? ""
+  if (note && enMarkersInFr(note, slug)) return true
+    return scanFrPricingQuality({ rootDir }).some((m) => m.id === slug)
+  }
+  if (caseRow.guard === 58) {
+    const hits = scanPricingAmountSanity({ rootDir }).filter((h) => h.id === slug)
+    if (!hits.length) return false
+    if (caseRow.rule) return hits.some((h) => h.rule === caseRow.rule)
+    return true
+  }
+  if (caseRow.guard === 59 || caseRow.guard === 60) {
+    const fr = JSON.parse(fs.readFileSync(path.join(rootDir, "content/i18n/fr-tools.json"), "utf8"))
+    const note = fr[slug]?.pricingNote_fr ?? ""
+    return uncleanReasons(note, "fr").includes("wrong_language")
+  }
+  return false
+}
+
+function runCase(caseRow) {
   const tmpRoot = fs.mkdtempSync(path.join(os.tmpdir(), "guard-inject-"))
-  const contentDir = path.join(tmpRoot, "content")
-  materializeContent(ref, tmpRoot)
-  const ws = loadWorkspace(contentDir)
-  for (const inj of INJECTIONS) {
-    inj.mutate(ws)
+  try {
+    cloneContentDir(tmpRoot)
+    applyMutation(tmpRoot, caseRow)
+    const caught = caseCaught(caseRow, tmpRoot)
+    return { ...caseRow, caught }
+  } finally {
+    fs.rmSync(tmpRoot, { recursive: true, force: true })
   }
-  saveWorkspace(ws)
-  const results = INJECTIONS.map((inj) => ({
-    guard: inj.guard,
-  slug: inj.slug,
-    caught: inj.caught(tmpRoot),
-  }))
-  fs.rmSync(tmpRoot, { recursive: true, force: true })
-  return { label, ref, results }
 }
 
 function main() {
   const check = process.argv.includes("--check")
-  const lines = []
-  function runWorkingTreeSuite() {
-    const tmpRoot = fs.mkdtempSync(path.join(os.tmpdir(), "guard-inject-"))
-    fs.cpSync(path.join(root, "content"), path.join(tmpRoot, "content"), { recursive: true })
-    const ws = loadWorkspace(path.join(tmpRoot, "content"))
-    for (const inj of INJECTIONS) inj.mutate(ws)
-    saveWorkspace(ws)
-    const results = INJECTIONS.map((inj) => ({
-      guard: inj.guard,
-      slug: inj.slug,
-      caught: inj.caught(tmpRoot),
-    }))
-    fs.rmSync(tmpRoot, { recursive: true, force: true })
-    return { label: "tip", ref: "working-tree", results }
+  const cases = loadCases()
+  const qa = cases.filter((c) => !c.id.startsWith("qa52"))
+  const g52 = cases.filter((c) => c.id.startsWith("qa52"))
+  const lines = [
+    `guard-injections @ ${new Date().toISOString()}`,
+    `cases: ${cases.length} (QA ${qa.length}, guard 52 ${g52.length})`,
+    "",
+  ]
+  const results = []
+  for (const caseRow of cases) {
+    const r = runCase(caseRow)
+    results.push(r)
+    const status = r.caught ? "CAUGHT" : "MISSED"
+    const rule = r.rule ? `\t${r.rule}` : ""
+    lines.push(`${status}\tguard ${r.guard}\t${r.id}\t${r.slug}\t${r.field ?? ""}${rule}`)
   }
-
-  const suites = [runInjectedSuite("baseline", BASELINE_REF), runWorkingTreeSuite()]
-  for (const suite of suites) {
-    lines.push(`=== ${suite.label} (${suite.ref}) ===`)
-    for (const r of suite.results) {
-      lines.push(`guard ${r.guard}\t${r.slug}\t${r.caught ? "CAUGHT" : "MISSED"}`)
-    }
-    lines.push("")
-  }
+  const caughtN = results.filter((r) => r.caught).length
+  lines.push("")
+  lines.push(`score: ${caughtN}/${results.length}`)
   const body = `${lines.join("\n")}\n`
   fs.writeFileSync(outPath, body)
   console.log(body)
-  const missed = suites.flatMap((s) => s.results.filter((r) => !r.caught))
+
+  const missed = results.filter((r) => !r.caught)
   if (check && missed.length) {
-    console.error(`Guard injections: ${missed.length} missed`)
+    console.error(`Guard injections: ${missed.length} missed — ${missed.map((m) => m.id).join(", ")}`)
     process.exit(1)
   }
   if (!check) console.log("Guard injections recorded (use --check to fail on misses).")

@@ -1,16 +1,60 @@
-=== baseline (55a110f2) ===
-guard 54	__injection_qa54__	CAUGHT
-guard 58	__injection_qa58_zero__	CAUGHT
-guard 58	__injection_qa58_glued__	CAUGHT
-guard 58	__injection_qa58_high__	CAUGHT
-guard 58	__injection_qa58_malformed__	CAUGHT
-guard 52	__injection_qa52_details__	CAUGHT
+guard-injections @ 2026-11-25T13:33:19.743Z
+cases: 55 (QA 47, guard 52 8)
 
-=== tip (working-tree) ===
-guard 54	__injection_qa54__	CAUGHT
-guard 58	__injection_qa58_zero__	CAUGHT
-guard 58	__injection_qa58_glued__	CAUGHT
-guard 58	__injection_qa58_high__	CAUGHT
-guard 58	__injection_qa58_malformed__	CAUGHT
-guard 52	__injection_qa52_details__	CAUGHT
+CAUGHT	guard 58	qa58-01	bardeen	description	paid-plans-zero
+CAUGHT	guard 58	qa58-02	plus-ai	description	paid-plans-zero
+CAUGHT	guard 58	qa58-03	presentations-ai	features.2	starter-costs-zero
+CAUGHT	guard 58	qa58-04	retool	summary	zero-eur-paid-tier
+CAUGHT	guard 58	qa58-05	kleos	pricingNote_fr	comma-thousands-eur
+CAUGHT	guard 58	qa58-06	amp	description_fr	malformed-amount
+CAUGHT	guard 58	qa58-07	kagi	pricing.details	malformed-amount
+CAUGHT	guard 58	qa58-08	consensus	description_fr	glued-words
+CAUGHT	guard 58	qa58-09	vidu	description_fr	glued-words
+CAUGHT	guard 58	qa58-10	chatbase	features_fr.1	glued-words
+CAUGHT	guard 58	qa58-11	apollo-io	features.3	zero-eur-paid-tier
+CAUGHT	guard 58	qa58-12	buffer	summary	glued-words
+CAUGHT	guard 58	qa58-13	bardeen	description	zero-eur-paid-tier
+CAUGHT	guard 58	qa58-14	retool	summary_fr	high-eur
+CAUGHT	guard 54	qa54-01	kleos	pricingNote_fr
+CAUGHT	guard 54	qa54-02	amp	pricingNote_fr
+CAUGHT	guard 54	qa54-03	knowt	pricingNote_fr
+CAUGHT	guard 54	qa54-04	instantly	pricingNote_fr
+CAUGHT	guard 54	qa54-05	macwhisper	pricingNote_fr
+CAUGHT	guard 54	qa54-06	vidu	pricingNote_fr
+CAUGHT	guard 54	qa54-07	chatbase	pricingNote_fr
+CAUGHT	guard 54	qa54-08	anarlog	pricingNote_fr
+CAUGHT	guard 54	qa54-09	twenty	pricingNote_fr
+CAUGHT	guard 54	qa54-10	landbot	pricingNote_fr
+CAUGHT	guard 54	qa54-11	fridgesnap-ai	pricingNote_fr
+CAUGHT	guard 54	qa54-12	kagi	pricingNote_fr
+CAUGHT	guard 54	qa54-13	hedra	pricingNote_fr
+CAUGHT	guard 54	qa54-14	openhands	pricingNote_fr
+CAUGHT	guard 54	qa54-15	raycast	pricingNote_fr
+CAUGHT	guard 59	qa59-01	helicone	pricingNote_fr
+CAUGHT	guard 59	qa59-02	cleo	pricingNote_fr
+CAUGHT	guard 59	qa59-03	nabla	pricingNote_fr
+CAUGHT	guard 59	qa59-04	rows	pricingNote_fr
+CAUGHT	guard 59	qa59-05	tempo	pricingNote_fr
+CAUGHT	guard 59	qa59-06	graphite	pricingNote_fr
+CAUGHT	guard 59	qa59-07	kiro	pricingNote_fr
+CAUGHT	guard 59	qa59-08	typecast	pricingNote_fr
+CAUGHT	guard 59	qa59-09	sunsama	pricingNote_fr
+CAUGHT	guard 59	qa59-10	supabase	pricingNote_fr
+CAUGHT	guard 59	qa59-11	otterai	pricingNote_fr
+CAUGHT	guard 59	qa59-12	trae	pricingNote_fr
+CAUGHT	guard 59	qa59-13	wren-ai	pricingNote_fr
+CAUGHT	guard 60	qa60-01	viggle	pricingNote_fr
+CAUGHT	guard 60	qa60-02	zed	pricingNote_fr
+CAUGHT	guard 60	qa60-03	msty	pricingNote_fr
+CAUGHT	guard 54	qa54-16	async	pricingNote_fr
+CAUGHT	guard 58	qa58-15	higgsfield	description
+CAUGHT	guard 52	qa52-01	ai-floor-plan	pricingNote_fr
+CAUGHT	guard 52	qa52-01b	bardeen	description_fr
+CAUGHT	guard 52	qa52-02	helicone	pricing.details
+CAUGHT	guard 52	qa52-02b	helicone	pricingNote_fr
+CAUGHT	guard 52	qa52-03	helicone	pricing.note
+CAUGHT	guard 52	qa52-03b	anarlog	pricingNote_fr
+CAUGHT	guard 52	qa52-04	kleos	pricing.note
+CAUGHT	guard 52	qa52-05	kagi	pricing.details
 
+score: 55/55

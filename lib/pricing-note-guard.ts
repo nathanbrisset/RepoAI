@@ -28,14 +28,19 @@ export function containsNonEurDisplayCurrency(text: string | undefined | null): 
   return NON_EUR_CURRENCY.test(maskForCurrencyScan(String(text)))
 }
 
-const EN_ALLOWED_PRODUCT_NAMES = [/\bLe Chat\b/g]
+const EN_ALLOWED_PRODUCT_NAMES = [
+  /\bLe Chat\b/g,
+  /\bPay as you go\b/g,
+  /\bSai Unlimited\b/g,
+  /\bFree Forever\b/g,
+]
 
 const FRENCH_IN_EN =
   /\b(le|la|les|des|pour|avec)\b|par\s+mois|\bgratuit\b/i
 
-/** English phrasing in FR pricing notes (after tier masking). */
+/** English phrasing in FR pricing notes (after tier / product masking). */
 const ENGLISH_IN_FR =
-  /\bthe\b|\bwith\b|\bper\s+month\b|\bfree\s+trial\b|\bbilled\s+annually\b|\bbilled\s+yearly\b|\b\w+\s+plan\s+billed\b|\bplan\s*:\s*\d/i
+  /\bthe\b|\bwith\b|\bper\s+month\b|\b\d+\s*€\/user\/month\b|\buser\/month\b|\bper\s+request\b|\bfree\s+trial\b|\bfree\s+forever\b|\bno\s+credit\s+card\b|\bMonthly\s+or\s+yearly\s+billing\b|\bbilled\s+annually\b|\bbilled\s+monthly\b|\bbilled\s+yearly\b|\b\w+\s+plan\s+billed\b|\bplan\s*:\s*\d|\bminimum\s+\d+\s+seats?\b|\bPay\s+as\s+you\s+go\s*:/i
 
 const TIER_NAMES =
   "Free|Pro|Plus|Starter|Team|Business|Enterprise|Hobby|Standard|Basic|Professional|Ultimate|Individual|Essentials|Creator|Scale|Startup|Lite|Max|Premium"
@@ -92,7 +97,7 @@ export function uncleanReasons(value: string | undefined | null, lang: PricingNo
     reasons.push("wrong_language")
   }
   if (lang === "fr") {
-    const masked = maskTierNamesInFrenchPricing(forLang)
+    const masked = maskTierNamesInFrenchPricing(maskAllowedProductNames(forLang))
     if (ENGLISH_IN_FR.test(masked)) reasons.push("wrong_language")
   }
 
