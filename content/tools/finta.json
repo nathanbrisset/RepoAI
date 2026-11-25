@@ -20,7 +20,7 @@
   "pricing": {
     "verified": true,
     "sourceUrl": "https://www.finta.io/pricing",
-    "details": "7-day free trial, no credit card, cancel anytime. A Monthly / Yearly “Save 17%” toggle is present. Business Pro 11 €/month billed 136 € annually — everything in Standard plus unlimited bank connections, higher API and MCP rate limits, priority support. The page title also says plans “from” a monthly amount",
+    "details": "7-day free trial, no credit card, cancel anytime. A Monthly / Yearly “Save 17%” toggle is present. Standard 5 €/month billed 63 € annually — connect up to 10 banks, sync to unlimited workspaces, all data types, AI categorization, MCP and developer API. Business Pro 11 €/month billed 136 € annually — everything in Standard plus unlimited bank connections, higher API and MCP rate limits, priority support. The page title also says plans “from” a monthly amount.",
     "model": "paid",
     "label": "Premium"
   },
@@ -50,8 +50,8 @@
       "description": "Connect a bank and sync a workspace such as Notion, Airtable or Google Sheets."
     },
     {
-      "title": "Continue on Standard or Business Pro — the verified figures are the annual 63 € and 136 €...",
-      "description": "Continue on Standard or Business Pro — the verified figures are the annual 63 € and 136 € totals."
+      "title": "Continue on Standard or Business Pro if you need more banks and API headroom.",
+      "description": "Continue on Standard at 63 €/year or Business Pro at 136 €/year if you need more banks and API headroom."
     }
   ],
   "sources": [
@@ -81,8 +81,8 @@
       "description": "Connecte une banque et synchronise un espace de travail comme Notion, Airtable ou Google Sheets."
     },
     {
-      "title": "Continue sur Standard ou Business Pro — les chiffres vérifiés sont les totaux annuels 63...",
-      "description": "Continue sur Standard ou Business Pro — les chiffres vérifiés sont les totaux annuels 63 € et 136 €."
+      "title": "Continue sur Standard ou Business Pro si tu as besoin de plus de banques et de quota API.",
+      "description": "Continue sur Standard à 63 €/an ou Business Pro à 136 €/an si tu as besoin de plus de banques et de quota API."
     }
   ]
 }
