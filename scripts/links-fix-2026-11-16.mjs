@@ -2,8 +2,10 @@
  * Apply PM-validated official link fixes (2026-11-16) idempotently.
  *
  * Usage:
- *   node scripts/links-fix-2026-11-16.mjs [--dry-run]
+ *   node scripts/links-fix-2026-11-16.mjs [--dry-run] [--check]
  *   node scripts/links-fix-2026-11-16.mjs [links-fix.csv] [links-recheck.csv]
+ *
+ * --check: run idempotency self-test (apply twice in memory; exit 1 if second pass would write).
  */
 import fs from "fs"
 import path from "path"
@@ -14,6 +16,7 @@ const toolsDir = path.join(root, "content", "tools")
 const frPath = path.join(root, "content", "i18n", "fr-tools.json")
 const VERIFIED = "2026-11-16"
 const dryRun = process.argv.includes("--dry-run")
+const checkMode = process.argv.includes("--check")
 const fixCsv =
   process.argv.find((a) => a.endsWith("links-fix.csv")) ||
   path.join(root, "data/links-audit-2026-11-16/links-fix.csv")
@@ -83,6 +86,14 @@ const MAGNIFIC = {
   newUrl: "https://www.magnific.com/",
 }
 
+/** Official product page (opal.google root redirects to developer FAQ). */
+const GOOGLE_OPAL_LANDING =
+  "https://blog.google/innovation-and-ai/models-and-research/google-labs/mini-apps-opal-gemini-app-experiment/"
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}
+
 function parseCsv(text) {
   const rows = []
   let row = []
@@ -146,38 +157,82 @@ function variants(url) {
   return [...out]
 }
 
-function replaceInString(text, fromUrl, toUrl) {
-  if (typeof text !== "string" || !text) return text
-  let next = text
-  for (const from of variants(fromUrl)) {
-    if (next.includes(from)) next = next.split(from).join(toUrl)
+function urlVariantList(fromUrl) {
+  return [...variants(fromUrl)].sort((a, b) => b.length - a.length)
+}
+
+/** True when fromUrl is absent and new canonical URL is already present. */
+function stringAlreadyMigrated(text, fromUrl, toUrl) {
+  if (typeof text !== "string" || !text) return true
+  const froms = urlVariantList(fromUrl)
+  const hasOld = froms.some((from) => containsExactUrl(text, from))
+  if (hasOld) return false
+  const tos = urlVariantList(toUrl)
+  if (tos.some((to) => containsExactUrl(text, to))) return true
+  if (fromUrl && toUrl && hostKey(fromUrl) === hostKey(toUrl)) {
+    try {
+      const fromPath = new URL(fromUrl).pathname.replace(/\/$/, "")
+      const toPath = new URL(toUrl).pathname.replace(/\/$/, "")
+      if (fromPath !== toPath && text.includes(toPath) && !text.includes(fromPath)) return true
+    } catch {
+      /* ignore */
+    }
   }
-  const fromHost = hostKey(fromUrl)
-  const toHost = hostKey(toUrl)
-  if (fromHost && toHost && fromHost !== toHost) {
-    const re = new RegExp(`\\b${fromHost.replace(/\./g, "\\.")}\\b`, "gi")
-    next = next.replace(re, toHost)
+  return !hasOld
+}
+
+function containsExactUrl(text, urlNeedle) {
+  if (!urlNeedle || !text.includes(urlNeedle)) return false
+  const re = new RegExp(`${escapeRegExp(urlNeedle)}(?![\\w./-])`)
+  return re.test(text)
+}
+
+function replaceExactUrlInString(text, fromUrl, toUrl) {
+  if (typeof text !== "string" || !text || !fromUrl || !toUrl) return text
+  if (stringAlreadyMigrated(text, fromUrl, toUrl)) return text
+  let next = text
+  for (const from of urlVariantList(fromUrl)) {
+    if (from === toUrl) continue
+    const re = new RegExp(`${escapeRegExp(from)}(?![\\w./-])`, "g")
+    next = next.replace(re, toUrl)
   }
   return next
 }
 
+function exactUrlFieldMatch(value, fromUrl) {
+  if (typeof value !== "string") return false
+  const trimmed = value.trim()
+  return urlVariantList(fromUrl).some((v) => v === trimmed)
+}
+
 function deepReplaceUrls(value, fromUrl, toUrl) {
-  if (typeof value === "string") return replaceInString(value, fromUrl, toUrl)
+  if (typeof value === "string") return replaceExactUrlInString(value, fromUrl, toUrl)
   if (Array.isArray(value)) return value.map((item) => deepReplaceUrls(item, fromUrl, toUrl))
   if (value && typeof value === "object") {
     const out = {}
     for (const [k, v] of Object.entries(value)) {
-      if (k === "url" && typeof v === "string" && variants(fromUrl).includes(v.trim())) {
-        out[k] = toUrl
-      } else if (k === "sourceUrl" && typeof v === "string" && variants(fromUrl).some((x) => v.trim().startsWith(x.split("?")[0]))) {
-        out[k] = toUrl
-      } else {
-        out[k] = deepReplaceUrls(v, fromUrl, toUrl)
+      if (k === "url" || k === "sourceUrl") {
+        if (typeof v === "string" && exactUrlFieldMatch(v, fromUrl)) {
+          out[k] = toUrl
+          continue
+        }
       }
+      out[k] = deepReplaceUrls(v, fromUrl, toUrl)
     }
     return out
   }
   return value
+}
+
+function toolHasOldUrl(tool, oldUrl) {
+  if (!oldUrl) return false
+  const blob = JSON.stringify(tool)
+  return urlVariantList(oldUrl).some((from) => containsExactUrl(blob, from))
+}
+
+function fixAlreadyApplied(tool, oldUrl, newUrl) {
+  if ((tool.url || "").trim() !== newUrl.trim()) return false
+  return !toolHasOldUrl(tool, oldUrl)
 }
 
 function clearHowToVisitLinks(tool) {
@@ -222,8 +277,34 @@ function loadTool(id) {
   return { file, data: JSON.parse(fs.readFileSync(file, "utf8")) }
 }
 
+let checkWouldWrite = 0
+
 function saveTool(file, data) {
+  if (checkMode) {
+    checkWouldWrite++
+    return
+  }
   if (!dryRun) fs.writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`)
+}
+
+function applySunsetVisitorFields(tool, copy) {
+  let changed = false
+  if (!tool.statusNote || tool.statusNote === copy.statusNote) {
+    if (tool.statusNote !== copy.statusNote) {
+      tool.statusNote = copy.statusNote
+      changed = true
+    }
+  }
+  if (
+    copy.statusNote_fr &&
+    (!tool.statusNote_fr || tool.statusNote_fr === copy.statusNote_fr)
+  ) {
+    if (tool.statusNote_fr !== copy.statusNote_fr) {
+      tool.statusNote_fr = copy.statusNote_fr
+      changed = true
+    }
+  }
+  return changed
 }
 
 const report = {
@@ -274,14 +355,7 @@ for (const row of fixRows) {
       tool.status = "sunset"
       changed = true
     }
-    if (tool.statusNote !== copy.statusNote) {
-      tool.statusNote = copy.statusNote
-      changed = true
-    }
-    if (tool.statusNote_fr !== copy.statusNote_fr) {
-      tool.statusNote_fr = copy.statusNote_fr
-      changed = true
-    }
+    if (applySunsetVisitorFields(tool, copy)) changed = true
     if (copy.clearPrimaryUrl && tool.url) {
       tool.url = ""
       changed = true
@@ -318,21 +392,29 @@ for (const row of fixRows) {
   }
 
   if (verdict === "fix" && newUrl) {
-    if (tool.url !== newUrl) {
-      tool.url = newUrl
+  const resolvedNewUrl = id === "google-opal" ? GOOGLE_OPAL_LANDING : newUrl
+    if (fixAlreadyApplied(tool, oldUrl, resolvedNewUrl) && tool.lastVerified === VERIFIED) {
+      report.skipped.push({ id, verdict, reason: "fix already applied" })
+      continue
+    }
+    if (tool.url !== resolvedNewUrl) {
+      tool.url = resolvedNewUrl
       changed = true
     }
-    const replaced = deepReplaceUrls(tool, oldUrl, newUrl)
+    const replaced = deepReplaceUrls(tool, oldUrl, resolvedNewUrl)
     if (JSON.stringify(replaced) !== JSON.stringify(tool)) {
       Object.assign(tool, replaced)
-      tool.url = newUrl
+      tool.url = resolvedNewUrl
       changed = true
     }
-    ensureSource(tool, sourceUrl)
+    if (id === "google-opal") {
+      tool.url = GOOGLE_OPAL_LANDING
+    }
+    ensureSource(tool, sourceUrl || (id === "google-opal" ? GOOGLE_OPAL_LANDING : ""))
     tool.lastVerified = VERIFIED
     if (changed) {
       saveTool(file, tool)
-      report.fix.push({ id, old: oldUrl, new: newUrl, verdict, applied: true })
+      report.fix.push({ id, old: oldUrl, new: resolvedNewUrl, verdict, applied: true })
     } else {
       report.skipped.push({ id, verdict, reason: "fix already applied" })
     }
@@ -376,6 +458,9 @@ for (const row of fixRows) {
   if (loaded) {
     const { file, data: tool } = loaded
     const before = JSON.stringify(tool)
+    if (fixAlreadyApplied(tool, MAGNIFIC.oldUrl, MAGNIFIC.newUrl) && tool.lastVerified === VERIFIED) {
+      report.skipped.push({ id: MAGNIFIC.id, verdict: "redirect", reason: "magnific already applied" })
+    } else {
     tool.url = MAGNIFIC.newUrl
     const next = deepReplaceUrls(tool, MAGNIFIC.oldUrl, MAGNIFIC.newUrl)
     Object.assign(tool, next)
@@ -390,6 +475,7 @@ for (const row of fixRows) {
         verdict: "redirect",
         applied: true,
       })
+    }
     }
   }
 }
@@ -439,7 +525,9 @@ const frReplacements = []
 for (const row of fixRows) {
   if (EXCLUDE.has(row.id)) continue
   if ((row.verdict === "fix" || row.verdict === "renamed") && row.new_url) {
-    frReplacements.push({ id: row.id, from: row.old_url, to: row.new_url })
+    const to =
+      row.id === "google-opal" && row.verdict === "fix" ? GOOGLE_OPAL_LANDING : row.new_url
+    frReplacements.push({ id: row.id, from: row.old_url, to })
   }
 }
 frReplacements.push({ id: "magnific", from: MAGNIFIC.oldUrl, to: MAGNIFIC.newUrl })
@@ -457,19 +545,26 @@ if (fs.existsSync(frPath) && frReplacements.length) {
     if (!frTools[id]) continue
     const overlay = frTools[id]
     const before = JSON.stringify(overlay)
-    if (SUNSET_COPY[id]?.statusNote_fr && overlay.statusNote_fr !== SUNSET_COPY[id].statusNote_fr) {
-      overlay.statusNote_fr = SUNSET_COPY[id].statusNote_fr
+    const frCopy = SUNSET_COPY[id]?.statusNote_fr
+    if (
+      frCopy &&
+      (!overlay.statusNote_fr || overlay.statusNote_fr === frCopy) &&
+      overlay.statusNote_fr !== frCopy
+    ) {
+      overlay.statusNote_fr = frCopy
     }
     clearHowToVisitLinks(overlay)
     if (JSON.stringify(overlay) !== before) frChanged = true
   }
-  if (frChanged && !dryRun) {
-    fs.writeFileSync(frPath, `${JSON.stringify(frTools, null, 2)}\n`)
+  if (frChanged) {
+    if (checkMode) checkWouldWrite++
+    else if (!dryRun) fs.writeFileSync(frPath, `${JSON.stringify(frTools, null, 2)}\n`)
   }
 }
 
 const summary = {
   dryRun,
+  checkMode,
   counts: {
     fix: report.fix.length,
     renamed: report.renamed.length,
@@ -482,3 +577,19 @@ const summary = {
 }
 
 console.log(JSON.stringify(summary, null, 2))
+
+if (checkMode) {
+  const applied =
+    report.fix.length +
+    report.renamed.length +
+    report.sunset.length +
+    report.magnific.length +
+    report.recheck.length
+  if (applied > 0 || checkWouldWrite > 0) {
+    console.error(
+      `[links-fix --check] expected 0 writes on a fully applied tree (applied=${applied}, fileWrites=${checkWouldWrite})`,
+    )
+    process.exit(1)
+  }
+  process.exit(0)
+}
