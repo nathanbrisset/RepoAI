@@ -1,7 +1,7 @@
 {
   "id": "google-opal",
   "name": "Google Opal",
-  "url": "https://opal.withgoogle.com",
+  "url": "https://gemini.google.com/app",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Build AI mini-apps by describing what they should do (Google Labs).",
@@ -21,12 +21,12 @@
     "label": "Free",
     "verified": false,
     "note": "Free tier available; see the official site for limits.",
-    "sourceUrl": "https://opal.withgoogle.com"
+    "sourceUrl": "https://gemini.google.com/app"
   },
   "logo": "/logos/google-opal.png",
   "image": "/screenshots/google-opal.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "Mini-apps from a description",
     "Chained AI steps (text, image, search)",
@@ -46,7 +46,7 @@
       "links": [
         {
           "label": "Google Opal",
-          "url": "https://opal.withgoogle.com"
+          "url": "https://gemini.google.com/app"
         }
       ]
     },
@@ -64,5 +64,8 @@
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "sources": [
+    "https://blog.google/innovation-and-ai/models-and-research/google-labs/mini-apps-opal-gemini-app-experiment/"
+  ]
 }

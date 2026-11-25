@@ -1,9 +1,9 @@
 {
   "id": "agent",
   "name": "Agent.ai",
-  "url": "https://agent.ai",
+  "url": "",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "Marketplace of ready-to-use AI agents.",
   "description": "Agent.ai gathers hundreds of community-built AI agents for specific jobs such as company research, website analysis, marketing copy or monitoring. You run them for free in the browser and can build and publish your own without code.",
   "summary_fr": "Place de marché d'agents IA prêts à l'emploi, créée par Dharmesh Shah.",
@@ -19,13 +19,12 @@
     "model": "free",
     "label": "Free",
     "verified": false,
-    "note": "Free tier available; see the official site for limits.",
-    "sourceUrl": "https://agent.ai"
+    "note": "Free tier available; see the official site for limits."
   },
   "logo": "/logos/agent.png",
   "image": "/screenshots/agent.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "Hundreds of ready-made community agents",
     "Company research, site analysis, marketing copy",
@@ -41,13 +40,7 @@
   "howToUse": [
     {
       "title": "Sign up on Agent.ai",
-      "description": "Create an account at the official URL if you need saved work or billing.",
-      "links": [
-        {
-          "label": "Agent.ai",
-          "url": "https://agent.ai"
-        }
-      ]
+      "description": "Create an account at the official URL if you need saved work or billing."
     },
     {
       "title": "Complete onboarding",
@@ -63,5 +56,10 @@
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "statusNote": "The Agent.ai marketplace has shut down.",
+  "statusNote_fr": "La place de marché Agent.ai a fermé.",
+  "sources": [
+    "https://www.builderpack.com/"
+  ]
 }

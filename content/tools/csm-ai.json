@@ -1,9 +1,9 @@
 {
   "id": "csm-ai",
   "name": "CSM",
-  "url": "https://www.csm.ai",
+  "url": "",
   "affiliateUrl": "",
-  "status": "active",
+  "status": "sunset",
   "summary": "Generates 3D models from images or text.",
   "description": "CSM (Common Sense Machines) turns images, sketches or descriptions into textured 3D objects for games, AR or 3D printing. Models export in common formats.",
   "summary_fr": "Génère des modèles 3D à partir d'images ou de texte.",
@@ -18,7 +18,6 @@
   ],
   "pricing": {
     "verified": false,
-    "sourceUrl": "https://www.csm.ai",
     "model": "freemium",
     "label": "Freemium",
     "note": "Freemium; paid tiers and limits are listed on the official site.",
@@ -27,7 +26,7 @@
   "logo": "/logos/csm-ai.png",
   "image": "/screenshots/csm-ai.webp",
   "dateAdded": "2026-10-30",
-  "lastVerified": "2026-10-30",
+  "lastVerified": "2026-11-16",
   "features": [
     "Image or sketch to 3D model",
     "Text to 3D",
@@ -43,13 +42,7 @@
   "howToUse": [
     {
       "title": "Open CSM",
-      "description": "Go to csm.ai, then sign up or start a free trial if one is offered.",
-      "links": [
-        {
-          "label": "CSM",
-          "url": "https://www.csm.ai"
-        }
-      ]
+      "description": "This product is no longer available; see the notice above."
     },
     {
       "title": "Set up your workspace",
@@ -74,13 +67,7 @@
   "howToUse_fr": [
     {
       "title": "Ouvre CSM",
-      "description": "Rends-toi sur csm.ai, puis crée un compte ou lance l'essai gratuit si c'est proposé.",
-      "links": [
-        {
-          "label": "CSM",
-          "url": "https://www.csm.ai"
-        }
-      ]
+      "description": "Ce produit n'est plus disponible ; vois l'avis ci-dessus."
     },
     {
       "title": "Configure ton espace",
@@ -94,5 +81,10 @@
       "title": "Texte vers 3D",
       "description": "Teste texte vers 3D sur un petit exemple avant d'automatiser ou d'étendre l'usage."
     }
+  ],
+  "statusNote": "Common Sense Machines was acquired by Google in January 2026; the Cube platform and public product are no longer available.",
+  "statusNote_fr": "Common Sense Machines a été racheté par Google en janvier 2026 ; la plateforme Cube et le produit public ne sont plus disponibles.",
+  "sources": [
+    "https://www.gunder.com/en/news-insights/client-news/gunderson-dettmer-represents-common-sense-machines-in-acquisition-by-google"
   ]
 }

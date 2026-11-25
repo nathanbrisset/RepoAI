@@ -1,7 +1,7 @@
 {
   "id": "withaqua",
   "name": "Aqua Voice",
-  "url": "https://withaqua.com",
+  "url": "https://aquavoice.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Smart voice dictation on desktop.",
@@ -21,12 +21,12 @@
     "label": "Freemium",
     "verified": false,
     "note": "Freemium",
-    "sourceUrl": "https://withaqua.com"
+    "sourceUrl": "https://aquavoice.com/"
   },
   "logo": "/logos/withaqua.png",
   "image": "/screenshots/withaqua.webp",
   "dateAdded": "2026-10-29",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "Dictation in any app",
     "Automatic correction and formatting",
@@ -46,7 +46,7 @@
       "links": [
         {
           "label": "Aqua Voice",
-          "url": "https://withaqua.com"
+          "url": "https://aquavoice.com/"
         }
       ]
     },
@@ -64,5 +64,8 @@
     }
   ],
   "hqCountry": "US",
-  "hqCountrySource": "import"
+  "hqCountrySource": "import",
+  "sources": [
+    "https://aquavoice.com/"
+  ]
 }

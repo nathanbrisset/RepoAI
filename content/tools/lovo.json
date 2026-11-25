@@ -1,7 +1,7 @@
 {
   "id": "lovo",
   "name": "LOVO",
-  "url": "https://lovo.ai/",
+  "url": "",
   "affiliateUrl": "",
   "status": "sunset",
   "summary": "AI voiceovers and the Genny video editor.",
@@ -19,15 +19,15 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": false,
-    "note": "See official pricing at https://lovo.ai/.",
-    "sourceUrl": "https://lovo.ai/"
+    "note": "LOVO shut down in 2026; historical plans are no longer offered on the official site.",
+    "note_fr": "LOVO a cessé son activité en 2026 ; les anciennes offres ne sont plus proposées."
   },
   "logo": "/logos/lovo.png",
   "image": "/tool-screenshots/lovo.png",
   "dateAdded": "2023-03-10",
   "lastVerified": "2026-11-16",
-  "statusNote": "LOVO's site is offline (deployment disabled) and LOVO, Inc. filed Chapter 7 bankruptcy on May 27, 2026; see also Genny by LOVO.",
-  "statusNote_fr": "Le site LOVO est hors ligne (déploiement désactivé) et LOVO, Inc. est en faillite chapitre 7 depuis le 27 mai 2026 ; voir aussi Genny by LOVO.",
+  "statusNote": "LOVO shut down in 2026.",
+  "statusNote_fr": "LOVO a cessé son activité en 2026.",
   "features": [
     "Hundreds of synthetic voices",
     "Voice cloning",
@@ -37,13 +37,7 @@
   "howToUse": [
     {
       "title": "Sign up on LOVO",
-      "description": "Create an account at the official URL if you need saved work or billing.",
-      "links": [
-        {
-          "label": "LOVO",
-          "url": "https://lovo.ai/"
-        }
-      ]
+      "description": "This product is no longer available; see the notice above."
     },
     {
       "title": "Complete onboarding",
@@ -65,5 +59,6 @@
     "Sous-titres et scripts générés par IA"
   ],
   "summary_fr": "Voix off IA et éditeur vidéo Genny.",
-  "description_fr": "LOVO propose des centaines de voix de synthèse dans de nombreuses langues, le clonage de voix et Genny, un éditeur vidéo qui associe voix off, sous-titres et scripts générés par IA. Il sert aux vidéos marketing, formations et publicités."
+  "description_fr": "LOVO propose des centaines de voix de synthèse dans de nombreuses langues, le clonage de voix et Genny, un éditeur vidéo qui associe voix off, sous-titres et scripts générés par IA. Il sert aux vidéos marketing, formations et publicités.",
+  "successorId": "elevenlabs"
 }

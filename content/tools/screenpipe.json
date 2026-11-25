@@ -1,7 +1,7 @@
 {
   "id": "screenpipe",
   "name": "Screenpipe",
-  "url": "https://screenpi.pe",
+  "url": "https://screenpipe.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Records your screen and audio locally for a searchable AI memory.",
@@ -18,7 +18,7 @@
   ],
   "pricing": {
     "verified": false,
-    "sourceUrl": "https://screenpi.pe",
+    "sourceUrl": "https://screenpipe.com/",
     "model": "open-source",
     "label": "Open source",
     "note": "Open source; hosting, cloud or support plans may apply.",
@@ -27,7 +27,7 @@
   "logo": "/logos/screenpipe.png",
   "image": "/screenshots/screenpipe.webp",
   "dateAdded": "2026-10-30",
-  "lastVerified": "2026-10-30",
+  "lastVerified": "2026-11-16",
   "features": [
     "Continuous screen and audio capture",
     "Local indexing",
@@ -47,7 +47,7 @@
       "links": [
         {
           "label": "Screenpipe",
-          "url": "https://screenpi.pe"
+          "url": "https://screenpipe.com/"
         }
       ]
     },
@@ -78,7 +78,7 @@
       "links": [
         {
           "label": "Screenpipe",
-          "url": "https://screenpi.pe"
+          "url": "https://screenpipe.com/"
         }
       ]
     },
@@ -94,5 +94,8 @@
       "title": "Indexation en local",
       "description": "Teste indexation en local sur un petit exemple avant d'automatiser ou d'étendre l'usage."
     }
+  ],
+  "sources": [
+    "https://screenpipe.com/"
   ]
 }

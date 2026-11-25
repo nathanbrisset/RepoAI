@@ -1,7 +1,7 @@
 {
   "id": "podcastle",
-  "name": "Podcastle",
-  "url": "https://podcastle.ai/",
+  "name": "Async",
+  "url": "https://async.com/",
   "affiliateUrl": "",
   "status": "active",
   "summary": "Online podcast studio with recording, editing and AI voices.",
@@ -20,12 +20,12 @@
     "label": "Freemium",
     "verified": false,
     "note": "See official pricing at https://podcastle.ai/.",
-    "sourceUrl": "https://podcastle.ai/"
+    "sourceUrl": "https://async.com/"
   },
   "logo": "/logos/podcastle.png",
   "image": "/screenshots/podcastle.webp",
   "dateAdded": "2023-03-01",
-  "lastVerified": "2026-10-29",
+  "lastVerified": "2026-11-16",
   "features": [
     "Remote audio and video recording",
     "Text-based editing",
@@ -39,7 +39,7 @@
       "links": [
         {
           "label": "Podcastle",
-          "url": "https://podcastle.ai/"
+          "url": "https://async.com/"
         }
       ]
     },
@@ -63,5 +63,8 @@
     "Voix de synthèse"
   ],
   "summary_fr": "Studio de podcast en ligne avec enregistrement, montage et voix IA.",
-  "description_fr": "Podcastle permet d'enregistrer des podcasts audio et vidéo à distance en haute qualité, de les monter par le texte, de nettoyer le son et de générer des voix de synthèse. Il convient aux podcasteurs sans studio."
+  "description_fr": "Podcastle permet d'enregistrer des podcasts audio et vidéo à distance en haute qualité, de les monter par le texte, de nettoyer le son et de générer des voix de synthèse. Il convient aux podcasteurs sans studio.",
+  "sources": [
+    "https://async.com/announcements/podcastle-is-now-async/"
+  ]
 }
