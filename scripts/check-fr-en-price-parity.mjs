@@ -39,11 +39,13 @@ function amountsCompatible(enAmounts, frAmounts) {
   return amountKey(en) === amountKey(fr)
 }
 
-function amountsMatchReference(detailsAmounts, refAmounts) {
-  if (!detailsAmounts.length || !refAmounts.length) return true
-  const ref = [...new Set(refAmounts)].sort((a, b) => a - b)
-  const det = [...new Set(detailsAmounts)].sort((a, b) => a - b)
-  return amountKey(det) === amountKey(ref) || det.every((n) => ref.some((r) => Math.abs(r - n) < 0.02))
+/** Every amount in `ref` (note / FR summary) must appear in `details`; extras in details are allowed. */
+function refAmountsCoveredInDetails(detailsAmounts, refAmounts) {
+  if (!refAmounts.length) return true
+  if (!detailsAmounts.length) return false
+  const det = [...new Set(detailsAmounts)]
+  const ref = [...new Set(refAmounts)]
+  return ref.every((n) => det.some((d) => Math.abs(d - n) < 0.02))
 }
 
 export function pricingFieldPairs(tool, overlay) {
@@ -75,7 +77,7 @@ function detailsVsNoteMismatch(tool) {
   const noteAmounts = extractAmounts(note)
   const detailAmounts = extractAmounts(details)
   if (!detailAmounts.length) return null
-  if (amountsMatchReference(detailAmounts, noteAmounts)) return null
+  if (refAmountsCoveredInDetails(detailAmounts, noteAmounts)) return null
   return {
     id: tool.id,
     field: "pricing.details-vs-note",
@@ -105,6 +107,12 @@ export function scanFrEnPriceParity({ rootDir = root } = {}) {
       if (enAmounts.length === 0 && frAmounts.length === 0) continue
       if (enAmounts.length === 0 || frAmounts.length === 0) continue
       if (amountsCompatible(enAmounts, frAmounts)) continue
+      if (
+        label === "pricing.details" &&
+        refAmountsCoveredInDetails(enAmounts, frAmounts)
+      ) {
+        continue
+      }
       mismatches.push({
         id: tool.id,
         field: label,
