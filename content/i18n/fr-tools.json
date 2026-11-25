@@ -831,7 +831,7 @@
         "description": "Reste sur AI Agency (mois par mois ou prépaiement annuel) ou parle aux ventes pour Managed."
       }
     ],
-    "pricingNote_fr": "AI Agency 903 € par marque et par mois, ou 447 €/mois en prépaiement annuel officiel (inclut 91 € de crédits créa chaque mois). Le 447 €/mois est l’équivalent mensuel officiel du prépaiement annuel ; un total annuel unique n’apparaît pas sur la page tarifs. Managed commence à 2 280 €/mois (10 % du budget pub). Pas d’offre gratuite durable, — offre Premium."
+    "pricingNote_fr": "AI Agency 903 € par marque et par mois, ou 447 €/mois en prépaiement annuel (inclut 91 € de crédits créa chaque mois). Le 447 €/mois est l’équivalent mensuel officiel du prépaiement annuel ; un total annuel unique n’apparaît pas sur la page tarifs. Managed commence à 2 280 €/mois (10 % du budget pub). Pas de formule gratuite permanente."
   },
   "aeterna": {
     "summary_fr": "Enregistre ta voix, tes histoires et tes souvenirs pour que ta famille puisse continuer à t’entendre, en commençant par une offre gratuite.",
@@ -6117,7 +6117,7 @@
         "description": "Prends une offre Personal (TTC) ou Team (HT) quand les crédits d’essai sont épuisés."
       }
     ],
-    "pricingNote_fr": "Prix officiels déjà en euros. 300 crédits d’essai une seule fois, sans carte — c’est un essai unique, pas une offre gratuite durable, — offre Premium. Personal 20 €, 100 € ou 200 € par mois TTC, ou ×10 par an (totaux annuels officiels : 200 €, 1 000 € ou 2 000 €). Team 25 €, 125 € ou 250 € par personne et par mois HT. Aucun total annuel officiel Team n’apparaît sur la page tarifs. Recharge : 400 crédits pour 10 €."
+    "pricingNote_fr": "Prix en euros. 300 crédits d’essai une seule fois, sans carte — essai unique, pas une offre gratuite durable. Personal 20 €, 100 € ou 200 € par mois TTC, ou facturation annuelle (200 €, 1 000 € ou 2 000 € par an). Team 25 €, 125 € ou 250 € par personne et par mois HT. Aucun total annuel Team publié sur la page tarifs. Recharge : 400 crédits pour 10 €."
   },
   "chat33": {
     "summary_fr": "Automatisation des DM Instagram et Facebook (commentaire vers DM), plus gestion de campagnes d’influenceurs avec suivi vidéo sur YouTube et TikTok.",
@@ -6577,7 +6577,7 @@
         "description": "Profite de l’essai Starter de 14 jours, puis prends Starter ou Pro avant la fin de l’essai."
       }
     ],
-    "pricingNote_fr": "Starter 3 €/mois — 2 000 e-mails classés par mois. Pro 6 €/mois — 4 000 e-mails classés par mois. Chaque compte commence par un essai Starter de 14 jours, sans carte ; après l’essai le produit est payant, — offre Premium. Promo officielle : une souscription annuelle avant la fin 2026 donne une première année à 27 € sur Starter ou 64 € sur Pro (deux mois offerts) ; un rappel est envoyé avant le renouvellement. Ce tarif de première année est une promo, pas le prix de liste normal. Clam ne facture pas de dépassement ; les demandes qui dépasseraient le plafond mensuel sont refusées jusqu’au prochain reset."
+    "pricingNote_fr": "Starter 3 €/mois — 2 000 e-mails classés par mois. Pro 6 €/mois — 4 000 e-mails classés par mois. Essai Starter de 14 jours sans carte pour chaque compte ; ensuite, formules payantes. Promo officielle : une souscription annuelle avant la fin 2026 donne une première année à 27 € sur Starter ou 64 € sur Pro (deux mois offerts) ; rappel avant renouvellement. Ce tarif de première année est une promo, pas le prix de liste normal. Pas de facturation de dépassement : au-delà du plafond mensuel, les demandes sont refusées jusqu’au prochain reset."
   },
   "clari": {
     "features_fr": [
@@ -9156,7 +9156,7 @@
         "description": "Achète plus de crédits ou des lignes d’évaluation supplémentaires quand l’usage augmente."
       }
     ],
-    "pricingNote_fr": "À l’usage, avec 23 € de crédits offerts au départ. Chaque ligne d’évaluation supplémentaire est à 7 €. Les tarifs de production et de simulation à la minute, et le tarif de simulation texte par réponse, sont trop faibles pour s’afficher en euros et ne sont pas détaillés ici. Pas d’offre gratuite durable, — offre Premium."
+    "pricingNote_fr": "À l’usage, avec 23 € de crédits offerts au départ. Chaque ligne d’évaluation supplémentaire est à 7 €. Les tarifs de production et de simulation à la minute, et le tarif de simulation texte par réponse, sont trop faibles pour s’afficher en euros et ne sont pas détaillés ici. Pas de formule gratuite permanente."
   },
   "culture-amp": {
     "summary_fr": "Enquêtes d'engagement et gestion de la performance, avec IA.",
@@ -11382,7 +11382,7 @@
         "description": "Ajoute Plus ou Pro s’ils doivent continuer à travailler dans le cloud dusk, ou une licence pro pour un usage professionnel."
       }
     ],
-    "pricingNote_fr": "Gratuit 0 € pour un usage personnel, en local. Une licence payante est requise pour un usage professionnel, — usage pro payant, offre Freemium pour l’usage perso. Plus 18 €/mois. Pro 46 €/mois. Licence Pro seule 11 €/mois. Licence équipe 27 €/mois, plus 18 € par membre en plus."
+    "pricingNote_fr": "Gratuit 0 € pour un usage personnel, en local. Une licence payante est requise pour un usage professionnel. Plus 18 €/mois. Pro 46 €/mois. Licence Pro seule 11 €/mois. Licence équipe 27 €/mois, plus 18 € par membre en plus."
   },
   "dust": {
     "features_fr": [
@@ -13328,7 +13328,7 @@
     "features_fr": [
       "Fais tourner Claude Code, Codex, Antigravity, OpenCode et d’autres agents de code en parallèle, chacun dans son propre worktree Git, avec suivi des coûts et des sessions",
       "Open source sous Apache-2.0, avec un compte gratuit à 0 €",
-      "Pro et Team sont annoncés comme « bientôt disponibles », sans prix de liste public — aucun montant n’est listé"
+      "Pro et Team bientôt disponibles — tarifs non publiés pour l’instant"
     ],
     "howToUse_fr": [
       {
@@ -13350,7 +13350,7 @@
         "description": "Reste sur l’offre gratuite ; Pro et Team n’ont pas encore de prix de liste public."
       }
     ],
-    "pricingNote_fr": "Gratuit 0 €, open source sous Apache-2.0, avec un compte gratuit. Pro et Team sont annoncés comme « bientôt disponibles », sans prix de liste public — aucun montant n’est listé."
+    "pricingNote_fr": "Gratuit 0 €, open source Apache-2.0, avec un compte gratuit. Pro et Team annoncés bientôt — tarifs non publiés pour l’instant."
   },
   "flexclip": {
     "summary_fr": "Montage vidéo en ligne simple, avec outils IA et modèles.",
@@ -16514,7 +16514,7 @@
         "description": "Reste sur l’offre Gratuite ou passe à Pro (mensuel, annuel ou à vie) pour lever les limites de projets et d’agents."
       }
     ],
-    "pricingNote_fr": "Gratuit à télécharger, avec ton propre compte IA — 1 agent chef, 2 agents et 2 projets. Pro est la même app complète à 12 €/mois, ou 118 €/an (prix annuel officiel, environ deux mois offerts par rapport au mensuel), ou 236 € à vie (paiement unique, sans abonnement). Des modèles hébergés optionnels peuvent s’ajouter à Gratuit ou Pro : 18 €, 46 € ou 91 € par mois, facturés chaque mois, les mêmes 34 modèles, seuls les crédits mensuels changent. Promo officielle Black Friday : −50 % sur Granular Pro — une promo, pas le prix de liste normal. Montants convertis depuis la liste officielle ; le paiement passe par Stripe."
+    "pricingNote_fr": "Gratuit à télécharger, avec ton propre compte IA — 1 agent chef, 2 agents et 2 projets. Pro est la même app complète à 12 €/mois, ou 118 €/an (prix annuel officiel, environ deux mois offerts par rapport au mensuel), ou 236 € à vie (paiement unique, sans abonnement). Des modèles hébergés optionnels peuvent s’ajouter à Gratuit ou Pro : 18 €, 46 € ou 91 € par mois, facturés chaque mois, les mêmes 34 modèles, seuls les crédits mensuels changent. Promo officielle Black Friday : −50 % sur Granular Pro — une promo, pas le prix de liste normal. Paiement via Stripe."
   },
   "graphite": {
     "summary_fr": "Plateforme de révision de code pour GitHub avec des PR empilés, une révision par l'IA et une file d'attente de fusion.",
@@ -18990,7 +18990,7 @@
         "description": "Garde Starter ou passe à Pro, Max ou Ultra pour plus d’usage par siège."
       }
     ],
-    "pricingNote_fr": "Essai Starter de 7 jours, carte requise, rien n’est débité pendant l’essai. Starter 23 €, Pro 46 € (usage ×2), Max 163 € (usage ×6, support prioritaire) et Ultra 456 € (usage ×20) par siège et par mois, facturés chaque mois. Pas d’offre gratuite durable, — offre Premium."
+    "pricingNote_fr": "Essai Starter de 7 jours, carte requise, rien n’est débité pendant l’essai. Starter 23 €, Pro 46 €, Max 163 € et Ultra 456 € par siège et par mois. Pas de formule gratuite permanente."
   },
   "influencity": {
     "summary_fr": "Influencity est une plateforme de marketing d'influence fondée sur l'IA, qui aide les marques à découvrir, analyser et gérer des collaborations avec des influenceurs afin de maximiser les résultats des campagnes.",
@@ -20065,7 +20065,7 @@
         "description": "Garde Starter ou passe à Pro pour toutes les boîtes ; Enterprise est sur mesure."
       }
     ],
-    "pricingNote_fr": "Starter 7 €/mois, avec un essai de 14 jours. Pro 18 €/mois. Enterprise est sur mesure, sans prix de liste public. Pas d’offre gratuite durable, — offre Premium."
+    "pricingNote_fr": "Starter 7 €/mois, avec un essai de 14 jours. Pro 18 €/mois. Enterprise sur mesure, sans prix de liste public. Pas de formule gratuite permanente."
   },
   "juro": {
     "summary_fr": "Contrats rédigés, négociés et revus avec l'IA.",
@@ -32870,7 +32870,7 @@
         "description": "Recharge à partir de 9 € et laisse l’agent publier et suivre."
       }
     ],
-    "pricingNote_fr": "Pas d’abonnement : paiement à l’action. Un crédit de bienvenue de 1 € est offert une seule fois — ce n’est pas une offre gratuite durable, — offre Premium. Les recharges commencent à 9 €. Un article est à 3 €. Les tarifs à l’action plus fins qui sont trop faibles pour s’afficher en euros (y compris le check officiel de visibilité IA) ne sont pas détaillés ici."
+    "pricingNote_fr": "Pas d’abonnement : paiement à l’action. Crédit de bienvenue de 1 €, une seule fois — ce n’est pas une offre gratuite durable. Recharges à partir de 9 €. Un article est à 3 €. Les tarifs à l’action plus fins (y compris le check de visibilité IA) sont trop faibles pour s’afficher en euros et ne sont pas détaillés ici."
   },
   "rapidminer": {
     "summary_fr": "RapidMiner est une plateforme puissante de data science, qui propose des outils d'analytique avancée, d'apprentissage automatique et de modélisation prédictive. Son concepteur visuel de flux de travail, intuitif, permet de construire, d'entraîner et de déployer des modèles d'apprentissage automatique avec peu ou pas de code. RapidMiner prend en charge une grande variété de sources de données et fournit des centaines d'algorithmes d'apprentissage automatique préintégrés. Ses fonctions d'automatisation et de collaboration aident les équipes à accélérer l'ensemble du cycle de data science, de la préparation des données jusqu'au déploiement. RapidMiner convient aussi bien aux analystes métier qu'aux data scientists, et permet le prototypage rapide comme la mise en production des modèles.",
@@ -40242,7 +40242,7 @@
         "description": "Choisis Starter, Team ou Pro selon le volume mensuel quand les crédits de bienvenue sont épuisés."
       }
     ],
-    "pricingNote_fr": "10 000 crédits sont offerts une seule fois — ce n’est pas une offre gratuite durable, — offre Premium. Starter 9 €/mois, Team 90 €/mois, Pro 455 €/mois. Les tarifs de dépassement qui sont trop faibles pour s’afficher en euros ne sont pas détaillés ici."
+    "pricingNote_fr": "10 000 crédits offerts une seule fois — crédit unique, pas une offre gratuite durable. Starter 9 €/mois, Team 90 €/mois, Pro 455 €/mois. Les tarifs de dépassement trop faibles pour s’afficher en euros ne sont pas détaillés ici."
   },
   "tactiq": {
     "summary_fr": "Transcription et résumés de réunions Meet, Zoom et Teams via une extension.",
@@ -40807,7 +40807,7 @@
     "features_fr": [
       "Ajoute un composant React ou une balise script pour installer un copilote géré qui agit via l’API du produit, en tant qu’utilisateur connecté, ancré dans le code",
       "La plateforme est à 0 €, gratuite pour toujours, pour 1 agent. Enterprise est sur mesure, sans prix de liste public",
-      "Les appels au modèle sont facturés au prix coûtant (0 % de marge) ou avec une clé que tu as déjà — aucune grille publique séparée de prix modèle n’a été isolée"
+      "Les appels au modèle sont facturés au prix coûtant (0 % de marge) ou avec une clé que tu as déjà — pas de grille publique séparée de prix modèle"
     ],
     "howToUse_fr": [
       {
@@ -40829,7 +40829,7 @@
         "description": "Teste le copilote avant de le proposer aux utilisateurs. Reste sur l’offre plateforme gratuite pour toujours, ou parle aux ventes pour Enterprise."
       }
     ],
-    "pricingNote_fr": "Plateforme 0 €, gratuite pour toujours, pour 1 agent. Enterprise est sur mesure, sans prix de liste public. Les appels au modèle sont facturés au prix coûtant (0 % de marge) ou avec une clé que tu as déjà ; Les tarifs unitaires des appels modèle ne sont pas détaillés sur la page tarifs."
+    "pricingNote_fr": "Plateforme 0 €, gratuite pour toujours, pour 1 agent. Enterprise sur mesure, sans prix de liste public. Les appels au modèle sont facturés au prix coûtant (0 % de marge) ou avec une clé que tu as déjà ; les tarifs unitaires des appels modèle ne sont pas détaillés sur la page tarifs."
   },
   "teamily-ai": {
     "summary_fr": "Messagerie native IA où humains et agents travaillent ensemble, avec mémoire partagée et studios collaboratifs.",
@@ -41779,7 +41779,7 @@
         "description": "Une offre Gratuite n’est annoncée que pour début 2027 : commence donc sur Pro (mensuel, annuel ou à vie)."
       }
     ],
-    "pricingNote_fr": "Prix officiels déjà en euros, TVA incluse. Pas d’offre Gratuite aujourd’hui (annoncée pour début 2027), — offre Premium. Pro 9,99 €/mois, 79,99 €/an, ou 199,99 € à vie. Promo officielle Black Friday : −80 % sur Toone Lifetime, affichée sur la page d’accueil — une promo, pas le prix de liste normal. Le prix lifetime promo n’apparaît pas comme tarif de liste séparé sur la page tarifs. Le paiement peut afficher une devise locale ; les montants listés sont les prix officiels en euros."
+    "pricingNote_fr": "Prix officiels en euros, TVA incluse. Pas d’offre gratuite aujourd’hui (annoncée pour début 2027). Pro 9,99 €/mois, 79,99 €/an ou 199,99 € à vie. Promo officielle Black Friday : −80 % sur Toone Lifetime sur la page d’accueil — une promo, pas le prix de liste normal. Le prix lifetime promo n’apparaît pas comme tarif de liste séparé sur la page tarifs. Le paiement peut afficher une devise locale ; les montants listés sont en euros."
   },
   "toozi": {
     "summary_fr": "Gère comptabilité, factures, rappels d’épargne et télédéclaration pour les indépendants US par SMS.",
