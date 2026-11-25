@@ -159,6 +159,18 @@ export const VISITOR_COPY_RULES = [
   },
   { id: "pas-ete-extrait", pattern: /n['’]a\s+pas\s+été\s+extrait/iu, scope: "internal" },
   {
+    id: "plan-details-manual-verification",
+    pattern: /plan details need manual verification/i,
+    scope: "internal",
+  },
+  {
+    id: "loaded-normally-manual",
+    pattern: /loaded normally.*(?:manual verification|plan details)/i,
+    scope: "internal",
+  },
+  { id: "au-moment-de-la-verification", pattern: /au moment de la vérification/iu, scope: "internal" },
+  { id: "sur-la-page-verifiee", pattern: /sur la page vérifiée/iu, scope: "internal" },
+  {
     id: "converted-from-official",
     pattern: /\bconverted from the official\b|\bconvertis depuis la liste officielle/i,
     scope: "internal",
@@ -344,6 +356,21 @@ export function runVisitorCopyRuleFixtures() {
     { rule: "a-renvoye-404", pass: ["Lien obsolète."], fail: ["papercup.com a renvoyé 404 le 21 octobre"] },
     { rule: "pages-officielles-verifiees", pass: ["Consulte le site officiel."], fail: ["pages officielles vérifiées"] },
     { rule: "pas-ete-extrait", pass: ["Extraits audio HD."], fail: ["le montant n'a pas été extrait"] },
+    {
+      rule: "plan-details-manual-verification",
+      pass: ["Paid plans on the pricing page."],
+      fail: ["plan details need manual verification"],
+    },
+    {
+      rule: "au-moment-de-la-verification",
+      pass: ["Plus et Pro étaient annoncés comme à venir."],
+      fail: ["au moment de la vérification"],
+    },
+    {
+      rule: "sur-la-page-verifiee",
+      pass: ["sur la page tarifs officielle"],
+      fail: ["sur la page vérifiée"],
+    },
   ]
   const rulesById = Object.fromEntries(VISITOR_COPY_RULES.map((r) => [r.id, r]))
   const errors = []

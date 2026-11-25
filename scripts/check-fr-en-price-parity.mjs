@@ -36,6 +36,16 @@ function amountKey(amounts) {
   return JSON.stringify([...new Set(amounts)].sort((a, b) => a - b))
 }
 
+/** FR copy often adds explicit 0 € for free tiers that EN omits. */
+function amountsCompatible(enAmounts, frAmounts) {
+  const en = [...new Set(enAmounts)].sort((a, b) => a - b)
+  let fr = [...new Set(frAmounts)].sort((a, b) => a - b)
+  if (!en.includes(0) && fr.includes(0)) {
+    fr = fr.filter((n) => n !== 0)
+  }
+  return amountKey(en) === amountKey(fr)
+}
+
 /** EN/FR text pairs checked when both sides may carry prices. */
 export function pricingFieldPairs(tool, overlay) {
   const pairs = [
@@ -51,7 +61,7 @@ export function pricingFieldPairs(tool, overlay) {
     },
     {
       en: tool.pricing?.details,
-      fr: tool.pricing?.note_fr,
+      fr: tool.pricing?.note_fr || overlay?.pricingNote_fr,
       label: "pricing.details",
     },
   ]
@@ -77,7 +87,7 @@ export function scanFrEnPriceParity({ rootDir = root } = {}) {
       const frAmounts = normalizeAmounts(fr)
       if (enAmounts.length === 0 && frAmounts.length === 0) continue
       if (enAmounts.length === 0 || frAmounts.length === 0) continue
-      if (amountKey(enAmounts) !== amountKey(frAmounts)) {
+      if (!amountsCompatible(enAmounts, frAmounts)) {
         mismatches.push({
           id: tool.id,
           field: label,
@@ -98,7 +108,7 @@ export function scanFrEnPriceParity({ rootDir = root } = {}) {
     if (descEn && descFr) {
       const enAmounts = normalizeAmounts(descEn)
       const frAmounts = normalizeAmounts(descFr)
-      if (enAmounts.length && frAmounts.length && amountKey(enAmounts) !== amountKey(frAmounts)) {
+      if (enAmounts.length && frAmounts.length && !amountsCompatible(enAmounts, frAmounts)) {
         if (!mismatches.some((m) => m.id === tool.id && m.field === "description")) {
           mismatches.push({
             id: tool.id,

@@ -89,14 +89,14 @@ cur.buffer = {
 cur["browser-use"] = {
   ...(cur["browser-use"] || {}),
   description_fr:
-    "Browser Use fournit une infrastructure pour des agents qui pilotent des sites. Les agents hébergés exécutent des tâches dans un navigateur ; les navigateurs cloud peuvent être pilotés par ton propre agent. Tarification à l'usage : navigateurs cloud à 0,018 € par heure, proxies résidentiels à 4,52 € par Go, et 0,90 € de crédit gratuit à l'inscription.",
+    "Browser Use fournit une infrastructure pour des agents qui pilotent des sites. Les agents hébergés exécutent des tâches dans un navigateur ; les navigateurs cloud peuvent être pilotés par ton propre agent. Tarification à l'usage : navigateurs cloud à 0,054 € par heure, proxies résidentiels à 4,52 € par Go, et 0,90 € de crédit gratuit à l'inscription.",
 }
-cur["perplexity-comet"] = {
-  ...(cur["perplexity-comet"] || {}),
-  description_fr:
-    "Comet est le navigateur Perplexity avec un assistant IA intégré. Il est gratuit au téléchargement depuis octobre 2025 ; Comet Plus optionnel coûte 4,52 €/mois et est inclus dans Perplexity Pro et Max.",
-  pricingNote_fr:
-    "Comet est gratuit au téléchargement depuis octobre 2025 ; l'abonnement Comet Plus optionnel coûte 4,52 €/mois et est inclus dans Perplexity Pro et Max.",
+if (cur["perplexity-comet"]) {
+  delete cur["perplexity-comet"].pricingNote_fr
+  Object.assign(cur["perplexity-comet"], {
+    description_fr:
+      "Comet est le navigateur Perplexity avec un assistant IA intégré. Il est téléchargeable gratuitement depuis octobre 2025 ; des formules payantes en option peuvent s'appliquer — consulte la page produit officielle pour les offres en vigueur.",
+  })
 }
 Object.assign(cur["you-com"] || (cur["you-com"] = {}), {
   description_fr:
