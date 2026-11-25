@@ -6085,11 +6085,11 @@
   },
   "chatbase": {
     "summary_fr": "Plateforme pour agents IA qui répondent aux questions des clients par chat, e-mail et voix.",
-    "description_fr": "Chatbase crée des agents IA formés sur le contenu d'une entreprise qui répondent aux questions des clients et prennent des mesures par chat, e-mail et voix, avec des analyses et une boîte de réception d'assistance. Des forfaits payants (Hobby, Standard, Pro) sont proposés, chacun avec un essai de sept jours ; aucun forfait gratuit n'était répertorié. L'entreprise déclare servir plus de 10 000 entreprises.",
+    "description_fr": "Chatbase crée des agents IA formés sur le contenu d'une entreprise qui répondent aux questions des clients et prennent des mesures par chat, e-mail et voix, avec des analyses et une boîte de réception d'assistance. Des forfaits payants Basic et Business sont proposés, chacun avec un essai de sept jours ; aucun forfait gratuit n'était répertorié et l'ancien forfait Hobby n'y figure plus. L'entreprise déclare servir plus de 10 000 entreprises.",
     "features_fr": [
       "Plateforme pour agents IA qui répondent aux questions des clients par chat, e-mail et voix.",
       "Chatbase crée des agents IA formés sur le contenu d'une entreprise qui répondent aux questions des clients et prennent des mesures par chat, e-mail et voix, avec des analyses et une boîte de réception d'assistance.",
-      "Des forfaits payants (Hobby, Standard, Pro) sont proposés, chacun avec un essai de sept jours ; aucun forfait gratuit n'était répertorié.",
+      "Des forfaits payants Basic et Business sont proposés, chacun avec un essai de sept jours ; aucun forfait gratuit n'était répertorié et l'ancien forfait Hobby n'y figure plus.",
       "L'entreprise déclare servir plus de 10 000 entreprises."
     ],
     "howToUse_fr": [
@@ -7506,15 +7506,15 @@
         ]
       },
       {
-        "title": "Configure ton espace",
+        "title": "Crée un compte et règle les crédits",
         "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
       },
       {
-        "title": "Lance un premier usage",
+        "title": "Héberge sur CodePal Cloud",
         "description": "Héberge le projet sur CodePal Cloud, publie une URL en ligne et synchronise avec GitHub. L'usage consomme des crédits ; les forfaits payants Standard et Pro ajoutent des crédits mensuels, le report et des projets privés. Enterprise est sur mesure."
       },
       {
-        "title": "Contrôle le résultat",
+        "title": "Publie et synchronise avec GitHub",
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
@@ -16299,15 +16299,15 @@
         ]
       },
       {
-        "title": "Configure ton espace",
+        "title": "Empile tes pull requests",
         "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
       },
       {
-        "title": "Lance un premier usage",
+        "title": "Livre depuis la PR avec Cursor Cloud",
         "description": "Les agents Cursor Cloud sont intégrés : tu peux créer et livrer des changements depuis une pull request sans quitter la PR."
       },
       {
-        "title": "Contrôle le résultat",
+        "title": "Choisis Hobby, Starter ou Team",
         "description": "Hobby est gratuit pour les dépôts personnels. Starter et Team sont des forfaits payants avec facturation annuelle."
       }
     ],
@@ -16895,15 +16895,15 @@
         ]
       },
       {
-        "title": "Configure ton espace",
+        "title": "Importe ton clip ou ta photo",
         "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
       },
       {
-        "title": "Lance un premier usage",
+        "title": "Affine ou déploie un modèle Hedra",
         "description": "Tu peux affiner un modèle pris en charge avec tes données et les recettes d'entraînement Hedra, puis le déployer sur la même stack, ou créer un bac à sable GPU isolé avec le SDK Hedra."
       },
       {
-        "title": "Contrôle le résultat",
+        "title": "Exporte la vidéo générée",
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
@@ -16930,15 +16930,15 @@
         ]
       },
       {
-        "title": "Configure ton espace",
+        "title": "Branche ton flux de consultation",
         "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
       },
       {
-        "title": "Lance un premier usage",
+        "title": "Laisse Heidi rédiger notes et lettres",
         "description": "Heidi Health écoute les consultations et rédige notes, lettres et documents ; les forfaits payants ajoutent des fonctions supplémentaires."
       },
       {
-        "title": "Contrôle le résultat",
+        "title": "Relis avant d'envoyer au dossier",
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
@@ -17252,15 +17252,15 @@
         ]
       },
       {
-        "title": "Configure ton espace",
+        "title": "Choisis un preset cinématographique",
         "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
       },
       {
-        "title": "Lance un premier usage",
+        "title": "Enchaîne image, vidéo et voix",
         "description": "Genjutsu sur la page est décrit comme un flux : une importation, puis de nouvelles versions, y compris le transfert de mouvement."
       },
       {
-        "title": "Contrôle le résultat",
+        "title": "Passe au forfait Starter si besoin",
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
@@ -19858,7 +19858,7 @@
   },
   "kagi": {
     "summary_fr": "Moteur de recherche payant et sans publicité avec protection de la vie privée et Kagi Assistant pour le chat AI.",
-    "description_fr": "Kagi est un moteur de recherche par abonnement sans publicité ni suivi. L'Assistant Kagi donne accès à plusieurs modèles d'IA, ainsi qu'à un navigateur et d'autres outils de l'écosystème Kagi. Un essai comprend 100 recherches. Starter coûte 4,52 € par mois pour 300 recherches, Professional 8,14 € par mois pour des recherches illimitées et Ultimate 20,81 € par mois avec une IA premium. Les prix excluent la taxe de vente.",
+    "description_fr": "Kagi est un moteur de recherche par abonnement sans publicité ni suivi. L'Assistant Kagi donne accès à plusieurs modèles d'IA, ainsi qu'à un navigateur et d'autres outils de l'écosystème Kagi. Un essai comprend 100 recherches. Starter coûte 4,52 € par mois pour 300 recherches, Professional 9,05 € par mois pour des recherches illimitées et Ultimate 22,62 € par mois avec une IA premium. Les prix excluent la taxe de vente.",
     "features_fr": [
       "Moteur de recherche payant et sans publicité avec protection de la vie privée et Kagi Assistant pour le chat AI.",
       "Kagi est un moteur de recherche par abonnement sans publicité ni suivi.",
@@ -20176,12 +20176,12 @@
   },
   "khanmigo": {
     "summary_fr": "Tuteur d'IA de Khan Academy pour les apprenants et assistant pédagogique gratuit pour les enseignants.",
-    "description_fr": "Khanmigo est construit par la Khan Academy à but non lucratif. Les enseignants l'utilisent gratuitement pour planifier des cours, créer du matériel et gérer les tâches en classe, tandis que les élèves et les parents bénéficient d'un tutorat personnalisé par l'IA et d'une aide aux devoirs, ainsi que d'un coach en écriture. Le plan pour l'apprenant et les parents coûte 3,62 € par mois ou 40 € par an, et les districts peuvent acheter un accès à l'échelle de l'école. Il couvre des matières telles que les mathématiques et les sciences.",
+    "description_fr": "Khanmigo est construit par la Khan Academy à but non lucratif. Les enseignants l'utilisent gratuitement pour planifier des cours, créer du matériel et gérer les tâches en classe, tandis que les élèves et les parents bénéficient d'un tutorat personnalisé par l'IA et d'une aide aux devoirs, ainsi que d'un coach en écriture. Le plan pour l'apprenant et les parents coûte 3,62 € par mois ou 39,81 € par an, et les districts peuvent acheter un accès à l'échelle de l'école. Il couvre des matières telles que les mathématiques et les sciences.",
     "features_fr": [
       "Tuteur d'IA de Khan Academy pour les apprenants et assistant pédagogique gratuit pour les enseignants.",
       "Khanmigo est construit par la Khan Academy à but non lucratif.",
       "Les enseignants l'utilisent gratuitement pour planifier des cours, créer du matériel et gérer les tâches en classe, tandis que les élèves et les parents bénéficient d'un tutorat personnalisé par l'IA et d'une aide aux devoirs, ainsi que d'un coach en écriture.",
-      "Le plan pour l'apprenant et les parents coûte 3,62 € par mois ou 40 € par an, et les districts peuvent acheter un accès à l'échelle de l'école."
+      "Le plan pour l'apprenant et les parents coûte 3,62 € par mois ou 39,81 € par an, et les districts peuvent acheter un accès à l'échelle de l'école."
     ],
     "howToUse_fr": [
       {
@@ -20213,7 +20213,7 @@
       "khan academy",
       "math"
     ],
-    "pricingNote_fr": "3,62 €/mois (élèves et parents) ou 40 €/an. Gratuit pour les enseignants."
+    "pricingNote_fr": "3,62 €/mois (élèves et parents) ou 39,81 €/an. Gratuit pour les enseignants."
   },
   "khealth": {
     "summary_fr": "Soins primaires en ligne assistés par IA.",
@@ -37393,15 +37393,15 @@
         ]
       },
       {
-        "title": "Configure ton espace",
+        "title": "Choisis un style et génère une piste",
         "description": "Complète l'onboarding, les préférences ou la première intégration demandée par le produit."
       },
       {
-        "title": "Lance un premier usage",
+        "title": "Télécharge selon ta licence",
         "description": "Télécharge le MP3 autorisé par ta licence personnelle ce mois-ci. Soundful vend des licences pour créateurs et marques ; Plus et les niveaux supérieurs ajoutent des téléchargements."
       },
       {
-        "title": "Contrôle le résultat",
+        "title": "Compare Free et Plus",
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
@@ -41470,12 +41470,12 @@
   },
   "trae": {
     "summary_fr": "Environnement de codage IA (TraeCode) et assistant de travail (TraeWork) de ByteDance.",
-    "description_fr": "Trae est un ensemble d'outils d'IA de ByteDance. TraeCode est un environnement de codage avec un agent IA qui écrit et modifie le code, et TraeWork est un assistant de travail général disponible sur ordinateur et sur le Web. Les forfaits Lite, Pro et Pro+ sont listés sur la page des tarifs. Une version gratuite peut être téléchargée.",
+    "description_fr": "Trae est un ensemble d'outils d'IA de ByteDance. TraeCode est un environnement de codage avec un agent IA qui écrit et modifie le code, et TraeWork est un assistant de travail général disponible sur ordinateur et sur le Web. Les forfaits Pro, Pro+ et Ultra sont listés sur la page des tarifs ; l'ancien forfait Lite n'y figure plus. Une version gratuite peut être téléchargée.",
     "features_fr": [
       "Environnement de codage IA (TraeCode) et assistant de travail (TraeWork) de ByteDance.",
       "Trae est un ensemble d'outils d'IA de ByteDance.",
       "TraeCode est un environnement de codage avec un agent IA qui écrit et modifie le code, et TraeWork est un assistant de travail général disponible sur ordinateur et sur le Web.",
-      "La page des forfaits répertorie les forfaits Lite, Pro et Pro+."
+      "La page des forfaits répertorie Pro, Pro+ et Ultra ; l'ancien forfait Lite n'y figure plus."
     ],
     "howToUse_fr": [
       {
@@ -41498,7 +41498,7 @@
       },
       {
         "title": "Contrôle le résultat",
-        "description": "Sur la page des forfaits, compare les offres Lite, Pro et Pro+ et choisis celle qui correspond à ton usage."
+        "description": "Sur la page des forfaits, compare Pro, Pro+ et Ultra et choisis l'offre qui correspond à ton usage."
       }
     ],
     "tags_fr": [
@@ -42127,12 +42127,12 @@
   },
   "typecast": {
     "summary_fr": "Service de synthèse vocale avec voix IA expressives, clonage vocal et API.",
-    "description_fr": "Typecast génère des voix off à partir de texte à l'aide d'une bibliothèque de voix d'IA expressives, notamment des voix de personnages, de publicités et de livres audio, et prend en charge le clonage de voix. Il fonctionne sur le Web, dans une application mobile et via une API. La génération et la lecture de voix sont gratuites sur tous les forfaits, et les crédits sont utilisés pour les téléchargements ; le forfait gratuit nécessite une attribution et le forfait de base coûte 4,52 € par mois ou 44,34 € par an.",
+    "description_fr": "Typecast génère des voix off à partir de texte à l'aide d'une bibliothèque de voix d'IA expressives, notamment des voix de personnages, de publicités et de livres audio, et prend en charge le clonage de voix. Il fonctionne sur le Web, dans une application mobile et via une API. La génération et la lecture de voix sont gratuites sur tous les forfaits, et les crédits sont utilisés pour les téléchargements ; le forfait gratuit nécessite une attribution et le forfait de base coûte 4,52 € par mois ou 48,86 € par an.",
     "features_fr": [
       "Service de synthèse vocale avec voix IA expressives, clonage vocal et API.",
       "Typecast génère des voix off à partir de texte à l'aide d'une bibliothèque de voix d'IA expressives, notamment des voix de personnages, de publicités et de livres audio, et prend en charge le clonage de voix.",
       "Il fonctionne sur le Web, dans une application mobile et via une API.",
-      "La génération et la lecture de voix sont gratuites sur tous les forfaits, et les crédits sont utilisés pour les téléchargements ; le forfait gratuit nécessite une attribution et le forfait de base coûte 4,52 € par mois ou 44,34 € par an."
+      "La génération et la lecture de voix sont gratuites sur tous les forfaits, et les crédits sont utilisés pour les téléchargements ; le forfait gratuit nécessite une attribution et le forfait de base coûte 4,52 € par mois ou 48,86 € par an."
     ],
     "howToUse_fr": [
       {
@@ -46196,7 +46196,7 @@
   },
   "zed": {
     "summary_fr": "Éditeur de code open source écrit en Rust, avec collaboration en temps réel et agents IA intégrés.",
-    "description_fr": "Zed est un éditeur de code écrit de toutes pièces dans Rust par les créateurs d'Atom et Tree-sitter, disponible pour macOS, Linux et Windows. Il prend en charge la collaboration en temps réel et exécute des agents IA, y compris des agents externes tels que Claude Agent et Codex CLI. Le forfait Personnel est gratuit et fonctionne avec les propres clés API de l'utilisateur. Pro coûte 8,14 € par mois avec les prédictions de modification et 4,52 € de jetons inclus ; Les affaires coûtent 24,43 € par siège et par mois.",
+    "description_fr": "Zed est un éditeur de code écrit de toutes pièces dans Rust par les créateurs d'Atom et Tree-sitter, disponible pour macOS, Linux et Windows. Il prend en charge la collaboration en temps réel et exécute des agents IA, y compris des agents externes tels que Claude Agent et Codex CLI. Le forfait Personnel est gratuit et fonctionne avec les propres clés API de l'utilisateur. Pro coûte 9,05 € par mois avec les prédictions de modification et 4,52 € de jetons inclus ; Les affaires coûtent 27,14 € par siège et par mois.",
     "features_fr": [
       "Éditeur de code open source écrit en Rust, avec collaboration en temps réel et agents IA intégrés.",
       "Zed est un éditeur de code écrit de toutes pièces dans Rust par les créateurs d'Atom et Tree-sitter, disponible pour macOS, Linux et Windows.",
@@ -47377,7 +47377,7 @@
       "Bibliothèque médicale, banque de questions d’examen et outils cliniques de référence, avec un mode IA officiel, pour étudiants, internes et praticiens",
       "Un essai officiel de 5 jours, puis des offres étudiant ou praticien facturées au mois ou à l’année",
       "Une ressource d’apprentissage et de référence — pas un diagnostic, et pas un substitut à un médecin",
-      "Formule Premium : aucune adhésion 0 € durable n’était indiquée. Garantie officielle de remboursement de 30 jours sur les achats directs"
+      "Aucune adhésion 0 € durable n’était indiquée. Garantie officielle de remboursement de 30 jours sur les achats directs"
     ],
     "howToUse_fr": [
       {
@@ -47532,7 +47532,7 @@
       "BI conversationnelle et text-to-SQL, avec des modes de question agentique et classique, des tableaux de bord et un serveur MCP",
       "Les offres cloud incluent des utilisateurs, tableaux de bord, tableurs et projets illimités, facturés en crédits",
       "L’essai cloud de 7 jours exige une carte ; l’option open source gratuite est une CLI sans interface",
-      "Formule Premium : aucune offre cloud 0 € durable n’était indiquée. L’auto-hébergement Enterprise Plus est sur mesure"
+      "Aucune offre cloud 0 € durable n’était indiquée. L’auto-hébergement Enterprise Plus est sur mesure"
     ],
     "howToUse_fr": [
       {

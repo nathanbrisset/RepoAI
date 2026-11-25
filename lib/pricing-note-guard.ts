@@ -28,19 +28,17 @@ export function containsNonEurDisplayCurrency(text: string | undefined | null): 
   return NON_EUR_CURRENCY.test(maskForCurrencyScan(String(text)))
 }
 
-/** Product name exceptions before the EN French-heuristic runs (e.g. Mistral "Le Chat"). */
-const EN_ALLOWED_PRODUCT_NAMES = [/\bLe Chat\b/gi]
+const EN_ALLOWED_PRODUCT_NAMES = [/\bLe Chat\b/g]
 
 const FRENCH_IN_EN =
   /\b(le|la|les|des|pour|avec)\b|par\s+mois|\bgratuit\b/i
 
-const ENGLISH_IN_FR = /\bthe\b|\bwith\b|per\s+month|\bfree\b/i
+/** English phrasing in FR pricing notes (after tier masking). */
+const ENGLISH_IN_FR =
+  /\bthe\b|\bwith\b|\bper\s+month\b|\bfree\s+trial\b|\bbilled\s+annually\b|\bbilled\s+yearly\b|\b\w+\s+plan\s+billed\b|\bplan\s*:\s*\d/i
 
-/** Plan / product names allowed in FR pricing notes (Contenu CSV tier labels). */
-const FR_ALLOWED_ENGLISH_TOKENS = [
-  /\bFree Forever\b/gi,
-  /\b(?:Free|Pro|Plus|Starter|Team|Business|Enterprise|Hobby|Standard|Basic|Professional|Ultimate|Individual|Essentials|Creator|Scale|Startup|Lite|Max|Premium)\b/gi,
-]
+const TIER_NAMES =
+  "Free|Pro|Plus|Starter|Team|Business|Enterprise|Hobby|Standard|Basic|Professional|Ultimate|Individual|Essentials|Creator|Scale|Startup|Lite|Max|Premium"
 
 function maskAllowedProductNames(text: string): string {
   let masked = text
@@ -58,12 +56,24 @@ function stripUrlsForLanguageHeuristic(text: string): string {
     .trim()
 }
 
-function maskAllowedFrenchTokens(text: string): string {
-  let masked = text
-  for (const pattern of FR_ALLOWED_ENGLISH_TOKENS) {
-    masked = masked.replace(pattern, "AllowedPlanName")
-  }
-  return masked
+/** Case-sensitive: mask tier names only beside amounts or as plan labels (not « gratuits » etc.). */
+export function maskTierNamesInFrenchPricing(text: string): string {
+  let s = text
+  const tier = TIER_NAMES
+  s = s.replace(
+    new RegExp(`\\b(${tier})\\b(?=[^€]{0,24}\\d{1,4}(?:[.,]\\d{1,2})?\\s*€)`, "g"),
+    "AllowedTier",
+  )
+  s = s.replace(
+    new RegExp(`\\b(?:formule|plan|offre|forfait|tier)\\s+(${tier})\\b`, "g"),
+    "AllowedTier",
+  )
+  s = s.replace(
+    new RegExp(`\\b(${tier})\\s+(?:à|at|:)\\s*`, "g"),
+    "AllowedTier ",
+  )
+  s = s.replace(new RegExp(`\\b(${tier})\\s+à\\s+0\\s*€`, "g"), "AllowedTier à 0 €")
+  return s
 }
 
 export function uncleanReasons(value: string | undefined | null, lang: PricingNoteLang): UncleanReason[] {
@@ -78,8 +88,13 @@ export function uncleanReasons(value: string | undefined | null, lang: PricingNo
   if (containsNonEurDisplayCurrency(text)) reasons.push("non_eur_currency")
 
   const forLang = stripUrlsForLanguageHeuristic(text)
-  if (lang === "en" && FRENCH_IN_EN.test(maskAllowedProductNames(forLang))) reasons.push("wrong_language")
-  if (lang === "fr" && ENGLISH_IN_FR.test(maskAllowedFrenchTokens(forLang))) reasons.push("wrong_language")
+  if (lang === "en" && FRENCH_IN_EN.test(maskAllowedProductNames(forLang))) {
+    reasons.push("wrong_language")
+  }
+  if (lang === "fr") {
+    const masked = maskTierNamesInFrenchPricing(forLang)
+    if (ENGLISH_IN_FR.test(masked)) reasons.push("wrong_language")
+  }
 
   return [...new Set(reasons)]
 }
@@ -88,7 +103,6 @@ export function isCleanPricingNote(value: string | undefined | null, lang: Prici
   return uncleanReasons(value, lang).length === 0
 }
 
-/** First non-empty of `note` / `details`; return displayed text only when clean. */
 export function resolvePricingNote(
   note: string | undefined,
   details: string | undefined,
@@ -99,7 +113,6 @@ export function resolvePricingNote(
   return isCleanPricingNote(candidate, lang) ? candidate.trim() : undefined
 }
 
-/** First non-empty candidate; hidden when it fails the guard (no fallback). */
 export function resolvePricingNoteFromCandidates(
   candidates: (string | undefined)[],
   lang: PricingNoteLang,

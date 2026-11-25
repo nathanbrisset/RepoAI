@@ -5,11 +5,7 @@
 import fs from "fs"
 import path from "path"
 import { fileURLToPath } from "url"
-import {
-  frNoteMatchesCsv,
-  normalizeAmounts,
-  amountKey,
-} from "./lib/contenu-pricing-csv.mjs"
+import { amountKey } from "./lib/contenu-pricing-csv.mjs"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 
@@ -43,13 +39,11 @@ function amountsCompatible(enAmounts, frAmounts) {
   return amountKey(en) === amountKey(fr)
 }
 
-function amountsSubsetAllowed(enAmounts, tool, overlay, label) {
-  if (label !== "pricing.details") return false
-  const frNote = overlay?.pricingNote_fr?.trim() || ""
-  if (!frNote || !frNoteMatchesCsv(frNote, tool.id)) return false
-  const frAmounts = normalizeAmounts(frNote)
-  const en = [...new Set(enAmounts)]
-  return frAmounts.length > 0 && frAmounts.every((n) => en.includes(n))
+function amountsMatchReference(detailsAmounts, refAmounts) {
+  if (!detailsAmounts.length || !refAmounts.length) return true
+  const ref = [...new Set(refAmounts)].sort((a, b) => a - b)
+  const det = [...new Set(detailsAmounts)].sort((a, b) => a - b)
+  return amountKey(det) === amountKey(ref) || det.every((n) => ref.some((r) => Math.abs(r - n) < 0.02))
 }
 
 export function pricingFieldPairs(tool, overlay) {
@@ -71,10 +65,23 @@ export function pricingFieldPairs(tool, overlay) {
       label: "pricing.details",
     },
   ]
-  const hasEnNote = typeof tool.pricing?.note === "string" && tool.pricing.note.trim()
-  return pairs
-    .filter((p) => !(p.label === "pricing.details" && hasEnNote))
-    .filter((p) => typeof p.en === "string" && p.en.trim() && typeof p.fr === "string" && p.fr.trim())
+  return pairs.filter((p) => typeof p.en === "string" && p.en.trim() && typeof p.fr === "string" && p.fr.trim())
+}
+
+function detailsVsNoteMismatch(tool) {
+  const note = tool.pricing?.note?.trim()
+  const details = tool.pricing?.details?.trim()
+  if (!note || !details) return null
+  const noteAmounts = extractAmounts(note)
+  const detailAmounts = extractAmounts(details)
+  if (!detailAmounts.length) return null
+  if (amountsMatchReference(detailAmounts, noteAmounts)) return null
+  return {
+    id: tool.id,
+    field: "pricing.details-vs-note",
+    enAmounts: [...new Set(detailAmounts)].sort((a, b) => a - b),
+    frAmounts: [...new Set(noteAmounts)].sort((a, b) => a - b),
+  }
 }
 
 export function scanFrEnPriceParity({ rootDir = root } = {}) {
@@ -87,13 +94,17 @@ export function scanFrEnPriceParity({ rootDir = root } = {}) {
     if (tool.pricing?.uncertain === true) continue
 
     const overlay = frOverlay[tool.id]
+    const vsNote = detailsVsNoteMismatch(tool)
+    if (vsNote) {
+      mismatches.push(vsNote)
+      continue
+    }
     for (const { en, fr, label } of pricingFieldPairs(tool, overlay)) {
       const enAmounts = extractAmounts(en)
       const frAmounts = extractAmounts(fr)
       if (enAmounts.length === 0 && frAmounts.length === 0) continue
       if (enAmounts.length === 0 || frAmounts.length === 0) continue
       if (amountsCompatible(enAmounts, frAmounts)) continue
-      if (amountsSubsetAllowed(enAmounts, tool, overlay, label)) continue
       mismatches.push({
         id: tool.id,
         field: label,

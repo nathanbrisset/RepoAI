@@ -1,8 +1,16 @@
-Guard injections @ consolidation tip (post-QA fix)
-Run: node scripts/run-guard-injections.mjs
+=== baseline (55a110f2) ===
+guard 54	__injection_qa54__	CAUGHT
+guard 58	__injection_qa58_zero__	CAUGHT
+guard 58	__injection_qa58_glued__	CAUGHT
+guard 58	__injection_qa58_high__	CAUGHT
+guard 58	__injection_qa58_malformed__	CAUGHT
+guard 52	__injection_qa52_details__	CAUGHT
 
-guard 54: Team plan billed monthly with annual commitment → CAUGHT (en_markers_in_fr)
-guard 58: Starter costs and Team per user. → CAUGHT (glued-words)
-guard 58: Pro tier starts at 0 € per month → CAUGHT (zero-eur-paid-tier)
+=== tip (working-tree) ===
+guard 54	__injection_qa54__	CAUGHT
+guard 58	__injection_qa58_zero__	CAUGHT
+guard 58	__injection_qa58_glued__	CAUGHT
+guard 58	__injection_qa58_high__	CAUGHT
+guard 58	__injection_qa58_malformed__	CAUGHT
+guard 52	__injection_qa52_details__	CAUGHT
 
-All injections caught on current tip.

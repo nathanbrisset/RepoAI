@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 /**
  * Post-CSV pass: exact ECB conversion (1 EUR = 1.1052 USD) on group C slugs only.
- * Converts official $ list prices → € at 2 decimals. Does not remap already-exact € figures.
  */
 import fs from "fs"
 import path from "path"
@@ -14,31 +13,27 @@ const frPath = path.join(root, "content/i18n/fr-tools.json")
 
 const GROUP_C = ["cartesia", "kagi", "khanmigo", "typecast", "zed"]
 
-/** [displayed integer € from CSV, official USD list price] */
+/** CSV integer € mistaken for USD → official USD list price */
 const SLUG_USD_SOURCES = {
-  cartesia: [
-    [5, 5],
-    [44, 49],
-    [271, 299],
-  ],
+  cartesia: [[5, 5], [44, 49], [271, 299]],
+  kagi: [[5, 5], [9, 10], [23, 25]],
+  khanmigo: [[4, 4], [40, 44], [44, 44]],
+  typecast: [[5, 5], [49, 54]],
+  zed: [[9, 10], [5, 5], [27, 30]],
+}
+
+/** Prior bad ECB decimals still in visitor copy → correct USD source */
+const SLUG_DECIMAL_FIX = {
   kagi: [
-    [5, 5],
-    [9, 10],
-    [23, 25],
-  ],
-  khanmigo: [
-    [4, 4],
-    [44, 44],
-  ],
-  typecast: [
-    [5, 5],
-    [49, 54],
+    [8.14, 10],
+    [20.81, 25],
   ],
   zed: [
-    [9, 10],
-    [5, 5],
-    [27, 30],
+    [8.14, 10],
+    [24.43, 30],
   ],
+  typecast: [[44.34, 54]],
+  khanmigo: [[40, 44]],
 }
 
 function formatEur(n, locale) {
@@ -56,11 +51,10 @@ function replaceUsdMarkers(text, locale) {
   })
 }
 
-function replaceCsvRoundedEuro(text, locale, slug) {
+function replaceIntegerEuro(text, locale, slug) {
   if (!text || typeof text !== "string") return text
   let s = text
-  const pairs = SLUG_USD_SOURCES[slug] || []
-  for (const [wrongInt, usd] of pairs) {
+  for (const [wrongInt, usd] of SLUG_USD_SOURCES[slug] || []) {
     const exact = usdToEur(usd)
     if (exact == null) continue
     const repl = formatEur(exact, locale)
@@ -78,99 +72,105 @@ function replaceCsvRoundedEuro(text, locale, slug) {
   return s
 }
 
-export function localizeGroupCText(text, locale, slug = "") {
-  let s = replaceUsdMarkers(text, locale)
-  if (slug) s = replaceCsvRoundedEuro(s, locale, slug)
+function replaceDecimalEuro(text, locale, slug) {
+  if (!text || typeof text !== "string") return text
+  let s = text
+  for (const [wrong, usd] of SLUG_DECIMAL_FIX[slug] || []) {
+    const exact = usdToEur(usd)
+    if (exact == null) continue
+    const repl = formatEur(exact, locale)
+    const wrongFr = String(wrong).replace(".", ",")
+    const patterns =
+      locale === "fr"
+        ? [
+            new RegExp(`(?<![\\d,])${wrongFr.replace(".", ",")}(?=\\s*€)`, "g"),
+            new RegExp(`(?<![\\d.,])${wrong}(?=\\s*€)`, "g"),
+          ]
+        : [new RegExp(`(?<![\\d.])${wrong}(?=\\s*€)`, "g")]
+    for (const re of patterns) s = s.replace(re, repl)
+  }
   return s
 }
 
+export function localizeGroupCText(text, locale, slug = "") {
+  if (!text || typeof text !== "string") return text
+  let s = replaceUsdMarkers(text, locale)
+  if (slug) {
+    s = replaceIntegerEuro(s, locale, slug)
+    s = replaceDecimalEuro(s, locale, slug)
+  }
+  return s
+}
+
+function addStringSlot(slots, locale, get, set) {
+  slots.push({ loc: locale, get, set })
+}
+
+function addFeatureSlots(slots, arr, locale, setter) {
+  if (!Array.isArray(arr)) return
+  arr.forEach((_, i) => {
+    addStringSlot(
+      slots,
+      locale,
+      () => arr[i],
+      (v) => {
+        arr[i] = v
+        setter(arr)
+      },
+    )
+  })
+}
+
+function addHowToSlots(slots, steps, locale) {
+  if (!Array.isArray(steps)) return
+  steps.forEach((step) => {
+    if (!step) return
+    if (typeof step.title === "string" && step.title.trim()) {
+      addStringSlot(slots, locale, () => step.title, (v) => {
+        step.title = v
+      })
+    }
+    if (typeof step.description === "string" && step.description.trim()) {
+      addStringSlot(slots, locale, () => step.description, (v) => {
+        step.description = v
+      })
+    }
+  })
+}
+
 function visitorSlots(tool, overlay) {
-  const slots = [
-    { loc: "en", get: () => tool.description, set: (v) => (tool.description = v) },
-    { loc: "en", get: () => tool.summary, set: (v) => (tool.summary = v) },
-    { loc: "en", get: () => tool.pricing?.note, set: (v) => (tool.pricing.note = v) },
-    { loc: "en", get: () => tool.pricing?.details, set: (v) => (tool.pricing.details = v) },
-    {
-      loc: "fr",
-      get: () => overlay.description_fr ?? tool.description_fr,
-      set: (v) => {
-        if (overlay.description_fr != null) overlay.description_fr = v
-        else tool.description_fr = v
-      },
-    },
-    {
-      loc: "fr",
-      get: () => overlay.summary_fr ?? tool.summary_fr,
-      set: (v) => {
-        if (overlay.summary_fr != null) overlay.summary_fr = v
-        else tool.summary_fr = v
-      },
-    },
-    {
-      loc: "fr",
-      get: () => overlay.pricingNote_fr,
-      set: (v) => {
-        overlay.pricingNote_fr = v
-      },
-    },
-  ]
-  for (const key of ["features", "features_fr"]) {
-    const useOverlay = key === "features_fr" && overlay.features_fr
-    const arr = useOverlay ? overlay.features_fr : tool[key]
-    if (!Array.isArray(arr)) continue
-    arr.forEach((_, i) => {
-      slots.push({
-        loc: key === "features_fr" ? "fr" : "en",
-        get: () => (useOverlay ? overlay.features_fr : tool.features)[i],
-        set: (v) => {
-          ;(useOverlay ? overlay.features_fr : tool.features)[i] = v
-        },
-      })
-    })
-  }
-  const howEn = tool.howToUse
-  if (Array.isArray(howEn)) {
-    howEn.forEach((step, i) => {
-      if (step?.title) {
-        slots.push({
-          loc: "en",
-          get: () => step.title,
-          set: (v) => {
-            step.title = v
-          },
-        })
-      }
-      slots.push({
-        loc: "en",
-        get: () => step.description,
-        set: (v) => {
-          step.description = v
-        },
-      })
-    })
-  }
-  const howFr = overlay.howToUse_fr ?? tool.howToUse_fr
-  if (Array.isArray(howFr)) {
-    howFr.forEach((step, i) => {
-      const target = overlay.howToUse_fr?.[i] ?? tool.howToUse_fr?.[i]
-      if (target?.title) {
-        slots.push({
-          loc: "fr",
-          get: () => target.title,
-          set: (v) => {
-            target.title = v
-          },
-        })
-      }
-      slots.push({
-        loc: "fr",
-        get: () => target?.description,
-        set: (v) => {
-          if (target) target.description = v
-        },
-      })
-    })
-  }
+  const slots = []
+  addStringSlot(slots, "en", () => tool.summary, (v) => (tool.summary = v))
+  addStringSlot(slots, "en", () => tool.description, (v) => (tool.description = v))
+  addStringSlot(slots, "en", () => tool.pricing?.note, (v) => (tool.pricing.note = v))
+  addStringSlot(slots, "en", () => tool.pricing?.details, (v) => (tool.pricing.details = v))
+
+  addStringSlot(slots, "fr", () => overlay.summary_fr, (v) => {
+    overlay.summary_fr = v
+  })
+  addStringSlot(slots, "fr", () => overlay.description_fr, (v) => {
+    overlay.description_fr = v
+  })
+  addStringSlot(slots, "fr", () => tool.summary_fr, (v) => {
+    tool.summary_fr = v
+  })
+  addStringSlot(slots, "fr", () => tool.description_fr, (v) => {
+    tool.description_fr = v
+  })
+  addStringSlot(slots, "fr", () => overlay.pricingNote_fr, (v) => {
+    overlay.pricingNote_fr = v
+  })
+
+  addFeatureSlots(slots, tool.features, "en", (v) => (tool.features = v))
+  addFeatureSlots(slots, tool.features_fr, "fr", (v) => (tool.features_fr = v))
+  addFeatureSlots(slots, overlay.features_fr, "fr", (v) => {
+    overlay.features_fr = v
+  })
+
+  addHowToSlots(slots, tool.howToUse, "en")
+  addHowToSlots(slots, tool.howToUse_fr, "fr")
+  addHowToSlots(slots, overlay.howToUse_fr, "fr")
+
   return slots
 }
 

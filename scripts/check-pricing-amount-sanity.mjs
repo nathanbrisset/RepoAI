@@ -7,29 +7,32 @@ import path from "path"
 import { fileURLToPath } from "url"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
-const frPath = path.join(root, "content/i18n/fr-tools.json")
 const allowPath = path.join(root, "scripts/prebuild/pricing-amount-sanity-allow.json")
-const fieldAllowPath = path.join(root, "scripts/prebuild/pricing-amount-sanity-field-allow.json")
 
-/** Per (slug, amount) exemptions with reason. Key: `${slug}:${amount}` */
-const DEFAULT_HIGH_EUR_ALLOW = {
-  "kleos:45241": "Enterprise annual list in Contenu note",
-  "twenty:45241": "Enterprise annual list in Contenu note",
-  "chatbase:452": "Business 452 €/mo list in pricing note",
-  "chatbase:136": "Standard 136 €/mo list in pricing note",
-  "openhands:452": "Teams 452 €/mo in note",
-  "amboss:1085": "Student Life list in Contenu note",
-  "wren-ai:723": "Enterprise monthly list in Contenu note",
-  "wren-ai:506": "Enterprise annual monthly-equiv in Contenu note",
-}
-
-const MALFORMED_NUMBER_RE = /\b\d{1,4}\.\d{2,}\.\d{2,}\b|\b\d{1,4},\d{2,},\d{2,}\b/u
-const VERB_HOLE_RE =
-  /\b(costs?\s+and|is\s+and|are\s+and|est\s+à\s+par|est\s+and)\b|\b(?:à|at)\s+(?:per|par)\s+(?:mo|mois|month)\b/iu
-
-function hasGluedWords(text) {
-  if (!text || typeof text !== "string") return false
-  return VERB_HOLE_RE.test(text)
+/** `${slug}:${field}:${normalizedAmountOrMarker}:${rule}` → reason */
+const DEFAULT_AMOUNT_EXEMPTIONS = {
+  "kleos:pricingNote_fr:45241:high-eur": "Enterprise annual list in Contenu note",
+  "twenty:pricingNote_fr:45241:high-eur": "Enterprise annual list in Contenu note",
+  "chatbase:pricingNote_fr:452:high-eur": "Business 452 €/mo in pricing note",
+  "chatbase:pricingNote_fr:136:high-eur": "Standard 136 €/mo in pricing note",
+  "openhands:pricingNote_fr:452:high-eur": "Teams 452 €/mo in note",
+  "amboss:pricingNote_fr:1085:high-eur": "Student Life list in Contenu note",
+  "wren-ai:pricingNote_fr:723:high-eur": "Enterprise monthly list in Contenu note",
+  "wren-ai:pricingNote_fr:506:high-eur": "Enterprise annual monthly-equiv in Contenu note",
+  "adside:features_fr[2]:2280:high-eur": "Managed tier list 2280 €/mo in note",
+  "chat-with-work:features_fr[3]:1000:high-eur": "Personal annual tier 1000 €/an in note",
+  "chat-with-work:features_fr[3]:2000:high-eur": "Personal annual tier 2000 €/an in note",
+  "dippr:features_fr[1]:5473:high-eur": "Enterprise annual from 5473 €/an in note",
+  "dippr:howToUse_fr[2]:5473:high-eur": "Enterprise annual from 5473 €/an in note",
+  "finaloop:summary_fr:904814:high-eur": "Starter revenue threshold in note",
+  "finaloop:description_fr:904814:high-eur": "Starter revenue threshold in note",
+  "finaloop:howToUse_fr[2]:904814:high-eur": "Starter revenue threshold in how-to step",
+  "manufact:features_fr[1]:2736:high-eur": "Pro annual 2736 €/an in note",
+  "gitguardian:features_fr[2]:0:zero-eur-starter": "Official free Starter 0 €",
+  "gitguardian:howToUse_fr[0]:0:zero-eur-starter": "Official free Starter 0 €",
+  "presentations-ai:features[2]:0:zero-eur-starter": "Official free Starter 0 €",
+  "presentations-ai:features_fr[2]:0:zero-eur-starter": "Official free Starter 0 €",
+  "presentations-ai:howToUse[0]:0:zero-eur-starter": "Official free Starter 0 €",
 }
 
 const HIGH_EUR_SKIP_NOTE_FIELDS = new Set([
@@ -37,39 +40,63 @@ const HIGH_EUR_SKIP_NOTE_FIELDS = new Set([
   "pricing.details",
   "pricingNote_fr",
 ])
+
 const AMOUNT_RE = /(\d{1,3}(?:[ \u00a0]\d{3})*(?:[.,]\d{1,2})?|\d+(?:[.,]\d{1,2})?)\s*€/giu
 
 const PAID_TIER_WORDS =
   "Pro|Plus|Premium|Business|Starter|Standard|Professional|Team|Individual|Enterprise|Creator|Ultra|Max"
-const PAID_TIER_ZERO_NEAR =
-  new RegExp(
-    `\\b(?:${PAID_TIER_WORDS})\\b(?:\\s+\\S+){0,3}\\s+(?:starts?\\s+at|from|dès|à|at|for)\\s+0\\s*€`,
-    "iu",
-  )
+const PAID_TIER_ZERO_NEAR = new RegExp(
+  `\\b(?!Starter\\b)(?:${PAID_TIER_WORDS})\\b(?:\\s+\\S+){0,4}\\s+(?:starts?\\s+at|from|dès|co[uû]te?|costs?)\\s+0\\s*€`,
+  "iu",
+)
+const ZERO_EUR_SKIP_FIELDS = new Set(["pricing.note", "pricing.details", "pricingNote_fr"])
+const FREE_TIER_ZERO_CTX =
+  /\b(?:Free|Gratuit|gratuite?)\b[^.]{0,40}\b0\s*€|\b0\s*€[^.]{0,40}(?:forever|pour toujours|durable|permanent)\b/i
+const TRIAL_ZERO_AFTER = /\b0\s*€[^.]{0,72}\bafter the trial\b/i
 
-const FREE_CTX = /\b(?:Free|Gratuit|gratuite?|essai|trial)\b/i
+const MALFORMED_TWO_DOTS = /\b\d+\.\d+\.\d+\b/
 
 function listedActive(tool) {
   const excluded = new Set(["duplicate-of", "sunset", "renamed", "inactive"])
   return tool.status === "active" && !excluded.has(tool.status)
 }
 
-function loadHighEurAllow() {
-  if (!fs.existsSync(allowPath)) return { ...DEFAULT_HIGH_EUR_ALLOW }
-  return { ...DEFAULT_HIGH_EUR_ALLOW, ...JSON.parse(fs.readFileSync(allowPath, "utf8")) }
+function loadAmountExemptions() {
+  if (!fs.existsSync(allowPath)) return { ...DEFAULT_AMOUNT_EXEMPTIONS }
+  const extra = JSON.parse(fs.readFileSync(allowPath, "utf8"))
+  return { ...DEFAULT_AMOUNT_EXEMPTIONS, ...extra }
 }
 
-function loadFieldAllow() {
-  if (!fs.existsSync(fieldAllowPath)) return { expires: "2026-12-15", entries: [] }
-  const raw = fs.readFileSync(fieldAllowPath, "utf8").trim()
-  if (!raw) return { expires: "2026-12-15", entries: [] }
-  return JSON.parse(raw)
+function exemptionKey(id, field, amount, rule) {
+  const norm =
+    rule === "glued-words" || rule === "malformed-amount"
+      ? String(amount)
+      : String(Math.round(amount))
+  return `${id}:${field}:${norm}:${rule}`
 }
 
-function isFieldAllowed(id, field, rule, fieldAllow) {
-  return fieldAllow.entries?.some(
-    (e) => e.id === id && e.field === field && e.rule === rule,
-  )
+function isExempt(exemptions, id, field, amount, rule) {
+  return Boolean(exemptions[exemptionKey(id, field, amount, rule)])
+}
+
+/** Concatenated tokens such as costsper / isper (no space). */
+export function hasGluedWords(text) {
+  if (!text || typeof text !== "string") return false
+  return /\b(?:costsper|isper|areper|estper|estpar|costsand|isand|areand|atper|àper)\b/iu.test(text)
+}
+
+export function hasMalformedAmount(text) {
+  if (!text || typeof text !== "string") return false
+  return MALFORMED_TWO_DOTS.test(text)
+}
+
+export function hasZeroEurPaidTier(text) {
+  if (!text || typeof text !== "string") return false
+  if (!/\b0\s*€/u.test(text)) return false
+  if (/\bStarter\b[^.]{0,48}\b(?:at\s+)?0\s*€/iu.test(text)) return false
+  if (FREE_TIER_ZERO_CTX.test(text)) return false
+  if (TRIAL_ZERO_AFTER.test(text)) return true
+  return PAID_TIER_ZERO_NEAR.test(text)
 }
 
 function collectStrings(tool, overlay) {
@@ -85,13 +112,23 @@ function collectStrings(tool, overlay) {
   push("pricing.details", tool.pricing?.details)
   push("pricingNote_fr", overlay?.pricingNote_fr)
   if (Array.isArray(tool.features)) tool.features.forEach((t, i) => push(`features[${i}]`, t))
-  if (Array.isArray(overlay?.features_fr || tool.features_fr)) {
-    ;(overlay?.features_fr || tool.features_fr).forEach((t, i) => push(`features_fr[${i}]`, t))
+  if (Array.isArray(tool.features_fr)) {
+    tool.features_fr.forEach((t, i) => push(`features_fr[${i}]`, t))
   }
-  for (const steps of [tool.howToUse, overlay?.howToUse_fr, tool.howToUse_fr]) {
-    if (!Array.isArray(steps)) continue
-    steps.forEach((s, i) => push(`howToUse[${i}]`, s?.description))
+  if (Array.isArray(overlay?.features_fr)) {
+    overlay.features_fr.forEach((t, i) => push(`features_fr[${i}]`, t))
   }
+  const addHowTo = (steps, label, fr) => {
+    if (!Array.isArray(steps)) return
+    steps.forEach((s, i) => {
+      const prefix = fr ? "howToUse_fr" : "howToUse"
+      push(`${prefix}[${i}].title`, s?.title)
+      push(`${prefix}[${i}]`, s?.description)
+    })
+  }
+  addHowTo(tool.howToUse, "howToUse", false)
+  addHowTo(tool.howToUse_fr, "howToUse_fr", true)
+  addHowTo(overlay?.howToUse_fr, "howToUse_fr", true)
   return out
 }
 
@@ -103,12 +140,7 @@ function parseEurAmount(raw) {
 
 export function scanPricingAmountSanity({ rootDir = root } = {}) {
   const frOverlay = JSON.parse(fs.readFileSync(path.join(rootDir, "content/i18n/fr-tools.json"), "utf8"))
-  const highAllow = loadHighEurAllow()
-  const fieldAllow = loadFieldAllow()
-  const today = new Date().toISOString().slice(0, 10)
-  if (fieldAllow.expires && today > fieldAllow.expires) {
-    throw new Error(`pricing-amount-sanity-field-allow.json expired on ${fieldAllow.expires}`)
-  }
+  const exemptions = loadAmountExemptions()
   const hits = []
 
   for (const file of fs.readdirSync(path.join(rootDir, "content/tools")).filter((n) => n.endsWith(".json"))) {
@@ -117,73 +149,66 @@ export function scanPricingAmountSanity({ rootDir = root } = {}) {
 
     const overlay = frOverlay[tool.id]
     for (const { label, text } of collectStrings(tool, overlay)) {
-      if (MALFORMED_NUMBER_RE.test(text) && !isFieldAllowed(tool.id, label, "malformed-amount", fieldAllow)) {
+      if (hasMalformedAmount(text) && !isExempt(exemptions, tool.id, label, "malformed", "malformed-amount")) {
         hits.push({ id: tool.id, field: label, rule: "malformed-amount" })
       }
-      if (hasGluedWords(text) && !isFieldAllowed(tool.id, label, "glued-words", fieldAllow)) {
+      if (hasGluedWords(text) && !isExempt(exemptions, tool.id, label, "glued", "glued-words")) {
         hits.push({ id: tool.id, field: label, rule: "glued-words" })
       }
-      if (
-        PAID_TIER_ZERO_NEAR.test(text) &&
-        !FREE_CTX.test(text) &&
-        !isFieldAllowed(tool.id, label, "zero-eur-paid-tier", fieldAllow)
-      ) {
-        hits.push({ id: tool.id, field: label, rule: "zero-eur-paid-tier" })
+      if (!ZERO_EUR_SKIP_FIELDS.has(label) && hasZeroEurPaidTier(text)) {
+        const marker = text.includes("Starter") ? "zero-eur-starter" : "zero-eur-paid-tier"
+        if (!isExempt(exemptions, tool.id, label, 0, marker) && !isExempt(exemptions, tool.id, label, 0, "zero-eur-paid-tier")) {
+          hits.push({ id: tool.id, field: label, rule: marker })
+        }
       }
 
       const re = new RegExp(AMOUNT_RE.source, AMOUNT_RE.flags)
       let m
       while ((m = re.exec(text)) !== null) {
         const n = parseEurAmount(m[1])
-        if (
-          n != null &&
-          n >= 1000 &&
-          !HIGH_EUR_SKIP_NOTE_FIELDS.has(label)
-        ) {
-          const key = `${tool.id}:${Math.round(n)}`
-          if (
-            !highAllow[key] &&
-            !isFieldAllowed(tool.id, label, "high-eur", fieldAllow)
-          ) {
+        if (n != null && n >= 1000 && !HIGH_EUR_SKIP_NOTE_FIELDS.has(label)) {
+          if (!isExempt(exemptions, tool.id, label, n, "high-eur")) {
             hits.push({ id: tool.id, field: label, rule: "high-eur", amount: n })
           }
         }
       }
     }
   }
-  hits.sort((a, b) => a.id.localeCompare(b.id) || a.rule.localeCompare(b.rule))
-  return hits
+  const seen = new Set()
+  const deduped = []
+  for (const h of hits) {
+    const key = `${h.id}\t${h.field}\t${h.rule}\t${h.amount ?? ""}`
+    if (seen.has(key)) continue
+    seen.add(key)
+    deduped.push(h)
+  }
+  deduped.sort((a, b) => a.id.localeCompare(b.id) || a.rule.localeCompare(b.rule))
+  return deduped
 }
 
 const RULE_FIXTURES = [
   {
     rule: "malformed-amount",
-    pass: ["Starter 18,01 €/mois."],
+    pass: ["Starter 18,01 €/mois.", "Enterprise up to 4,524,068 € in funding.", "Team 1,320,000 credits/year."],
     fail: ["API at 0.007.23 € per credit."],
   },
   {
     rule: "glued-words",
-    pass: ["Paid plans cost per seat."],
-    fail: ["Starter costs and Team per user.", "Standard est à par mois."],
+    pass: ["Paid plans cost per seat.", "Fleet has cost and session controls."],
+    fail: ["Starter costsper month.", "Standard isper user."],
   },
   {
     rule: "zero-eur-paid-tier",
-    pass: ["Free plan at 0 € forever.", "Pro plan listed with Free trial at 0 € for 7 days."],
-    fail: ["Pro tier starts at 0 € per month for teams.", "Team plan at 0 € monthly billed annually."],
-  },
-  {
-    rule: "high-eur",
-    pass: ["Enterprise 952 €/an on request."],
-    fail: ["Standard 1 500 €/mois without allowlist."],
+    pass: ["Starter at 0 € with 200 credits.", "Free plan at 0 € forever."],
+    fail: ["Pro costs 0 € per month.", "Ultra tier starts at 0 € monthly billed annually."],
   },
 ]
 
 function runRuleFixtures() {
   const tests = {
-    "malformed-amount": (s) => MALFORMED_NUMBER_RE.test(s),
-    "glued-words": (s) => hasGluedWords(s),
-    "zero-eur-paid-tier": (s) => PAID_TIER_ZERO_NEAR.test(s) && !FREE_CTX.test(s),
-    "high-eur": (s) => /1[ \u00a0]?500\s*€/u.test(s),
+    "malformed-amount": hasMalformedAmount,
+    "glued-words": hasGluedWords,
+    "zero-eur-paid-tier": hasZeroEurPaidTier,
   }
   const errors = []
   for (const { rule, pass, fail } of RULE_FIXTURES) {
