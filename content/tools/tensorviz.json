@@ -1,0 +1,85 @@
+{
+  "id": "tensorviz",
+  "name": "tensorViz",
+  "url": "https://tensorviz.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source PyTorch model visualiser that runs one real forward pass and turns it into an interactive graph with measured tensor shapes that coding agents can inspect.",
+  "description": "Open-source PyTorch model visualiser that runs one real forward pass and turns it into an interactive graph with measured tensor shapes that coding agents can inspect.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "pytorch",
+    "machine-learning",
+    "visualization",
+    "open-source",
+    "coding-agents",
+    "developer-tools"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free, MIT licence. No paid plan and no AI key required.",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/tensorviz.png",
+  "image": "/screenshots/tensorviz.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "Runs one real forward pass on a PyTorch nn.Module and turns it into an interactive graph with measured tensor shapes",
+    "Coding agents can inspect the graph; no model export or ONNX conversion is required, and no AI key is needed",
+    "Free, MIT licence. This is not the PyPI package of a similar name — as stated on the official site"
+  ],
+  "howToUse": [
+    {
+      "title": "Open tensorviz.dev and install the editor extension (VS Code, Cursor or VSCodium) or the...",
+      "description": "Open tensorviz.dev and install the editor extension (VS Code, Cursor or VSCodium) or the coding-agent plugin.",
+      "links": [
+        {
+          "label": "tensorViz",
+          "url": "https://tensorviz.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Open a PyTorch module; tensorViz runs a real forward pass and draws the graph with...",
+      "description": "Open a PyTorch module; tensorViz runs a real forward pass and draws the graph with measured shapes."
+    },
+    {
+      "title": "Use it for free under the MIT licence; no AI key is required.",
+      "description": "Use it for free under the MIT licence; no AI key is required."
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/products/tensorviz"
+  ],
+  "summary_fr": "Visualiseur open source de modèles PyTorch : il lance une vraie passe avant et la transforme en graphe interactif, avec les formes de tenseurs mesurées, que des agents de code peuvent inspecter.",
+  "description_fr": "Visualiseur open source de modèles PyTorch : il lance une vraie passe avant et la transforme en graphe interactif, avec les formes de tenseurs mesurées, que des agents de code peuvent inspecter.",
+  "features_fr": [
+    "Lance une vraie passe avant sur un nn.Module PyTorch et la transforme en graphe interactif, avec les formes de tenseurs mesurées",
+    "Les agents de code peuvent inspecter le graphe ; pas besoin d’export de modèle, de conversion ONNX, ni de clé IA",
+    "Gratuit, licence MIT. Ce n’est pas le paquet PyPI au nom proche — comme l’indique le site officiel"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre tensorviz.dev et installe l’extension d’éditeur (VS Code, Cursor ou VSCodium) ou le...",
+      "description": "Ouvre tensorviz.dev et installe l’extension d’éditeur (VS Code, Cursor ou VSCodium) ou le plugin pour agent de code.",
+      "links": [
+        {
+          "label": "tensorViz",
+          "url": "https://tensorviz.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Ouvre un module PyTorch ; tensorViz lance une vraie passe avant et dessine le graphe avec...",
+      "description": "Ouvre un module PyTorch ; tensorViz lance une vraie passe avant et dessine le graphe avec les formes mesurées."
+    },
+    {
+      "title": "Utilise-le sans frais sous licence MIT ; aucune clé IA n’est requise.",
+      "description": "Utilise-le sans frais sous licence MIT ; aucune clé IA n’est requise."
+    }
+  ]
+}

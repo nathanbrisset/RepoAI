@@ -1,0 +1,90 @@
+{
+  "id": "clam-ai",
+  "name": "Clam AI",
+  "url": "https://useclam.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Permission layer that lets AI agents work in Gmail through MCP while seeing and doing only what plain-English rules allow, with every action logged.",
+  "description": "Permission layer that lets AI agents work in Gmail through MCP while seeing and doing only what plain-English rules allow, with every action logged.",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "email",
+    "gmail",
+    "ai-agents",
+    "mcp",
+    "security",
+    "permissions",
+    "privacy"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Starter 3 €/month — 2,000 classified emails a month. Pro 6 €/month — 4,000 classified emails a month. Every account starts with a 14-day free trial of Starter, no card; after the trial this is a paid product, so the lot label is Premium. Official promo: sign up for an annual plan before the end of 2026 and the first year is 27 € on Starter or 64 € on Pro (two months offered); you are reminded before renewal. That first-year amount is a promo, not the normal list price. Clam does not charge overage; requests that would exceed the monthly cap are denied until the next monthly reset.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/clam-ai.png",
+  "image": "/screenshots/clam-ai.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "Connect Gmail and give each agent a Shell whose plain-English rules are compiled into Cedar policies",
+    "Agents such as Claude, ChatGPT, Gemini or Grok connect through MCP to triage, summarise and draft, with approvals",
+    "An audit log of every action; email content is not stored",
+    "Starter 3 €/month (2,000 classified emails/month) and Pro 6 €/month (4,000). Every account starts with a 14-day Starter trial, no card — this is a trial, not a lasting free plan",
+    "Official promo: subscribe to an annual plan before the end of 2026 and the first year is 27 € on Starter or 64 € on Pro (two months offered). That first-year amount is a promo, not the normal list price. No overage charges; requests over the cap are denied until the next reset"
+  ],
+  "howToUse": [
+    {
+      "title": "Open useclam.ai, connect Gmail, and create a Shell with rules such as “read travel email...",
+      "description": "Open useclam.ai, connect Gmail, and create a Shell with rules such as “read travel email, draft replies, never send”.",
+      "links": [
+        {
+          "label": "Clam AI",
+          "url": "https://useclam.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Install the MCP connector in the agent (Claude, ChatGPT, Gemini or Grok).",
+      "description": "Install the MCP connector in the agent (Claude, ChatGPT, Gemini or Grok)."
+    },
+    {
+      "title": "Use the 14-day Starter trial, then subscribe to Starter or Pro before it ends.",
+      "description": "Use the 14-day Starter trial, then subscribe to Starter or Pro before it ends."
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/products/clam-ai"
+  ],
+  "summary_fr": "Couche de permissions qui laisse des agents IA travailler dans ton Gmail via MCP, en ne voyant et ne faisant que ce que des règles en langage naturel autorisent, avec un journal de chaque action.",
+  "description_fr": "Couche de permissions qui laisse des agents IA travailler dans ton Gmail via MCP, en ne voyant et ne faisant que ce que des règles en langage naturel autorisent, avec un journal de chaque action.",
+  "features_fr": [
+    "Connecte Gmail et donne à chaque agent un Shell dont les règles en langage naturel sont compilées en politiques Cedar",
+    "Des agents comme Claude, ChatGPT, Gemini ou Grok se branchent via MCP pour trier, résumer et rédiger, avec validations",
+    "Un journal d’audit de chaque action ; le contenu des e-mails n’est pas stocké",
+    "Starter 3 €/mois (2 000 e-mails classés/mois) et Pro 6 €/mois (4 000). Chaque compte commence par un essai Starter de 14 jours, sans carte — c’est un essai, pas une offre gratuite durable",
+    "Promo officielle : une souscription annuelle avant la fin 2026 donne une première année à 27 € sur Starter ou 64 € sur Pro (deux mois offerts). Ce tarif de première année est une promo, pas le prix de liste normal. Pas de frais de dépassement ; les demandes au-delà du plafond sont refusées jusqu’au prochain reset"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre useclam.ai, connecte Gmail, et crée un Shell avec des règles du type « lis les...",
+      "description": "Ouvre useclam.ai, connecte Gmail, et crée un Shell avec des règles du type « lis les e-mails de voyage, rédige des réponses, n’envoie jamais ».",
+      "links": [
+        {
+          "label": "Clam AI",
+          "url": "https://useclam.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Installe le connecteur MCP dans l’agent (Claude, ChatGPT, Gemini ou Grok).",
+      "description": "Installe le connecteur MCP dans l’agent (Claude, ChatGPT, Gemini ou Grok)."
+    },
+    {
+      "title": "Profite de l’essai Starter de 14 jours, puis prends Starter ou Pro avant la fin de...",
+      "description": "Profite de l’essai Starter de 14 jours, puis prends Starter ou Pro avant la fin de l’essai."
+    }
+  ]
+}

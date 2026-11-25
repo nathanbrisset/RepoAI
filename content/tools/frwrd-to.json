@@ -1,0 +1,85 @@
+{
+  "id": "frwrd-to",
+  "name": "frwrd.to",
+  "url": "https://frwrd.to/@frwrd.to",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Link-in-bio pages and short links built by an AI assistant: send it a current page and website, and it keeps what matters, matches the brand and publishes the page in the languages you want.",
+  "description": "Link-in-bio pages and short links built by an AI assistant: send it a current page and website, and it keeps what matters, matches the brand and publishes the page in the languages you want.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "link-in-bio",
+    "url-shortener",
+    "mcp",
+    "social-media",
+    "multilingual",
+    "eu-hosting"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Official prices already in euro. Free 0 € — 30 links or pages per month. Business 5 €/month excluding VAT.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/frwrd-to.png",
+  "image": "/screenshots/frwrd-to.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "Send an AI assistant a current link-in-bio page and website; it keeps what matters, matches the brand and publishes in the languages you want",
+    "Free 0 € — 30 links or pages per month. Business 5 €/month excluding VAT"
+  ],
+  "howToUse": [
+    {
+      "title": "Start free on frwrd.to (no password, no card); the home page redirects to a frwrd profile...",
+      "description": "Start free on frwrd.to (no password, no card); the home page redirects to a frwrd profile path.",
+      "links": [
+        {
+          "label": "frwrd.to",
+          "url": "https://frwrd.to/@frwrd.to"
+        }
+      ]
+    },
+    {
+      "title": "Add frwrd.to as a custom connector in Claude or another assistant, send it a current...",
+      "description": "Add frwrd.to as a custom connector in Claude or another assistant, send it a current link-in-bio page, and review the generated page."
+    },
+    {
+      "title": "Upgrade to Business for a custom domain.",
+      "description": "Upgrade to Business for a custom domain."
+    }
+  ],
+  "hqCountry": "AT",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://www.producthunt.com/products/frwrd-to"
+  ],
+  "summary_fr": "Pages « link in bio » et liens courts créés par un assistant IA : envoie-lui ta page actuelle et ton site, il garde l’essentiel, respecte ta marque et publie la page dans les langues voulues.",
+  "description_fr": "Pages « link in bio » et liens courts créés par un assistant IA : envoie-lui ta page actuelle et ton site, il garde l’essentiel, respecte ta marque et publie la page dans les langues voulues.",
+  "features_fr": [
+    "Envoie à un assistant IA ta page « link in bio » actuelle et ton site ; il garde l’essentiel, respecte ta marque et publie dans les langues voulues",
+    "Gratuit 0 € — 30 liens ou pages par mois. Business 5 €/mois HT"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Commence sans frais sur frwrd.to (sans mot de passe, sans carte) ; la page d’accueil...",
+      "description": "Commence sans frais sur frwrd.to (sans mot de passe, sans carte) ; la page d’accueil redirige vers un chemin de profil frwrd.",
+      "links": [
+        {
+          "label": "frwrd.to",
+          "url": "https://frwrd.to/@frwrd.to"
+        }
+      ]
+    },
+    {
+      "title": "Ajoute frwrd.to comme connecteur personnalisé dans Claude ou un autre assistant...",
+      "description": "Ajoute frwrd.to comme connecteur personnalisé dans Claude ou un autre assistant, envoie-lui ta page « link in bio » actuelle, et relis la page générée."
+    },
+    {
+      "title": "Passe à Business pour un nom de domaine personnalisé.",
+      "description": "Passe à Business pour un nom de domaine personnalisé."
+    }
+  ]
+}
