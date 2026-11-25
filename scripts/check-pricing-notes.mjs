@@ -14,6 +14,21 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const toolsDir = path.join(root, "content", "tools")
 const frPath = path.join(root, "content", "i18n", "fr-tools.json")
 const outPath = path.join(root, "data", "pricing-notes-audit.json")
+const contenuCsvPath = path.join(root, "data/imports/pricing-fr-2026-11-25.csv")
+
+function loadContenuPricingSlugs() {
+  const text = fs.readFileSync(contenuCsvPath, "utf8")
+  return new Set(
+    text
+      .trim()
+      .split(/\n/)
+      .slice(1)
+      .map((line) => line.split(",")[0]?.trim())
+      .filter(Boolean),
+  )
+}
+
+const CONTENU_PRICING_NOTE_FR = loadContenuPricingSlugs()
 
 /** USD notes intentionally held for PM re-check (hidden at runtime is OK). */
 const HELD_PRICING_NOTE_EN = new Set([
@@ -98,6 +113,15 @@ function isAllowedHidden(row) {
     row.lang === "en" &&
     row.reasons.every((r) => r === "non_eur_currency") &&
     (HELD_PRICING_NOTE_EN.has(row.id) || DOLLAR_MENTION_SLUGS.has(row.id))
+  ) {
+    return true
+  }
+  if (
+    row.field === "pricingNote_fr" &&
+    row.lang === "fr" &&
+    row.reasons.length === 1 &&
+    row.reasons[0] === "wrong_language" &&
+    CONTENU_PRICING_NOTE_FR.has(row.id)
   ) {
     return true
   }

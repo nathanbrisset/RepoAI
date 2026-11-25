@@ -43,7 +43,10 @@ function amountsCompatible(enAmounts, frAmounts) {
   if (!en.includes(0) && fr.includes(0)) {
     fr = fr.filter((n) => n !== 0)
   }
-  return amountKey(en) === amountKey(fr)
+  if (amountKey(en) === amountKey(fr)) return true
+  /* Contenu FR notes often list a subset of EN detail tiers */
+  if (fr.length > 0 && fr.every((n) => en.includes(n))) return true
+  return false
 }
 
 /** EN/FR text pairs checked when both sides may carry prices. */
@@ -65,7 +68,10 @@ export function pricingFieldPairs(tool, overlay) {
       label: "pricing.details",
     },
   ]
-  return pairs.filter((p) => typeof p.en === "string" && p.en.trim() && typeof p.fr === "string" && p.fr.trim())
+  const hasEnNote = typeof tool.pricing?.note === "string" && tool.pricing.note.trim()
+  return pairs
+    .filter((p) => !(p.label === "pricing.details" && hasEnNote))
+    .filter((p) => typeof p.en === "string" && p.en.trim() && typeof p.fr === "string" && p.fr.trim())
 }
 
 export function collectTexts(tool, overlay) {

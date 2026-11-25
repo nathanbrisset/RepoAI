@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Open-source code editor written in Rust, with real-time collaboration and built-in AI agents.",
-  "description": "Zed is a code editor written from scratch in Rust by the creators of Atom and Tree-sitter, available for macOS, Linux and Windows. It supports real-time collaboration and runs AI agents, including external ones such as Claude Agent and Codex CLI. The Personal plan is free and works with the user's own API keys. Pro costs 9.05 € per month with edit predictions and 5.43 € of included tokens; Business is 24.43 € per seat per month.",
+  "description": "Zed is a code editor written from scratch in Rust by the creators of Atom and Tree-sitter, available for macOS, Linux and Windows. It supports real-time collaboration and runs AI agents, including external ones such as Claude Agent and Codex CLI. The Personal plan is free and works with the user's own API keys. Pro costs 8.14 € per month with edit predictions and 4.52 € of included tokens; Business is 24.43 € per seat per month.",
   "categories": [
     "coding"
   ],
@@ -19,7 +19,7 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": true,
-    "note": "9 €/mo (Pro), with an included token allowance of 5 € and Business at 27 € per seat per month.",
+    "note": "8.14 €/mo (Pro), with an included token allowance of 4.52 € and Business at 24.43 € per seat per month.",
     "sourceUrl": "https://zed.dev/pricing"
   },
   "logo": "/logos/zed.png",
@@ -51,7 +51,7 @@
     },
     {
       "title": "Collaborate, then pick a plan",
-      "description": "Use real-time collaboration to code together. The Personal plan is free and works with your own API keys. Pro costs 9.05 € a month and adds edit predictions plus 5.43 € of included tokens. Business is 24.43 € a seat each month."
+      "description": "Use real-time collaboration to code together. The Personal plan is free and works with your own API keys. Pro costs 8.14 € a month and adds edit predictions plus 4.52 € of included tokens. Business is 24.43 € a seat each month."
     }
   ],
   "features": [

@@ -17,8 +17,24 @@ const allowPath = path.join(root, "scripts/prebuild/pricing-fr-pending.json")
 const TEMPLATE_RE = /^Détails tarifaires sur .+ : consulte la page officielle\.?$/u
 const AMOUNT_AFTER = /(?:^|[^\d])(\d{1,4}(?:[.,]\d{1,2})?)\s*€/iu
 const AMOUNT_BEFORE = /€\s*(\d{1,4}(?:[.,]\d{1,2})?)/iu
-const EN_MARKERS_IN_FR =
-  /\b(per month|plans\b|plan\b|free tier|Free\b|trial\b|annual\b|Individual\b|billed\b|credits\b)|(?:^|[^\w])(?:\/mo|\/hr|\/user)\b/iu
+/** Core English phrasing (tier names Free/Pro/plan are stripped first — Contenu keeps them in FR). */
+const EN_MARKERS_IN_FR_CORE =
+  /\b(per month|free tier|billed annually|billed yearly)\b|\b(?:monthly|yearly)\s+(?:billing|plan)\b|(?:^|[^\w])(?:\/mo|\/hr|\/user)\b/iu
+
+/** Official tier names allowed verbatim in Contenu FR notes. */
+const CONTENU_TIER_VERBATIM =
+  /\b(?:Free|Basic|Plus|Pro|Professional|Enterprise|Starter|Team|Individual|Business|Monthly|Annual|Credits?)\b/giu
+
+function scrubContenuTierWords(fr) {
+  return String(fr || "")
+    .replace(CONTENU_TIER_VERBATIM, " ")
+    .replace(/\b(?:plan|plans|formule|formules)\b/giu, " ")
+    .replace(/\s{2,}/g, " ")
+}
+
+export function enMarkersInFr(fr) {
+  return EN_MARKERS_IN_FR_CORE.test(scrubContenuTierWords(fr))
+}
 
 function listedActive(tool) {
   const excluded = new Set(["duplicate-of", "sunset", "renamed", "inactive"])
@@ -67,7 +83,7 @@ export function scanFrPricingQuality({ rootDir = root } = {}) {
 
     const enAnyAmount = textHasAmount(enNote) || textHasAmount(enDetails)
 
-    if (fr && EN_MARKERS_IN_FR.test(fr)) add(tool.id, "en_markers_in_fr")
+    if (fr && enMarkersInFr(fr)) add(tool.id, "en_markers_in_fr")
 
     if (fr && TEMPLATE_RE.test(fr) && enAnyAmount) add(tool.id, "template_with_en_amount")
 
@@ -79,8 +95,13 @@ export function scanFrPricingQuality({ rootDir = root } = {}) {
       }
     }
 
+    const contenuFr = overlay?.pricingNote_fr?.trim() || ""
+    const frPricedFromContenu = contenuFr && contenuFr === fr && textHasAmount(contenuFr)
+
     if (enDetails && textHasAmount(enDetails) && fr) {
-      if (TEMPLATE_RE.test(fr) || EN_MARKERS_IN_FR.test(fr)) {
+      if (frPricedFromContenu) {
+        /* Legacy EN details + overlay FR note from Contenu CSV */
+      } else if (TEMPLATE_RE.test(fr) || enMarkersInFr(fr)) {
         add(tool.id, "details_not_reflected_in_fr")
       }
       if (enNote && textHasAmount(enNote) === false) {
