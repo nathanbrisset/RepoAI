@@ -12,6 +12,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const toolsDir = path.join(root, "content", "tools")
 const frPath = path.join(root, "content", "i18n", "fr-tools.json")
 const asJson = process.argv.includes("--json")
+const selfTest = process.argv.includes("--self-test")
 
 const doubledHost = /(?:https?:\/\/)?([\w-]+)\.\1\.(?:[\w-]+\.)*[\w-]+/gi
 const repeatedPath = /\/([\w][\w%-]*)\/-\1(?:\/-\1)+/gi
@@ -49,6 +50,20 @@ function walk(id, lang, value) {
   else if (value && typeof value === "object") {
     for (const v of Object.values(value)) walk(id, lang, v)
   }
+}
+
+if (selfTest) {
+  scanText(
+    "scan-self-test",
+    "en",
+    "pricing.note: see https://dragon.dragon.dragon.nuance.com/en-us/dragon",
+  )
+  if (!hits.length) {
+    console.error("[scan-url-corruption] self-test: failed to detect doubled host in secondary field")
+    process.exit(1)
+  }
+  console.log("[scan-url-corruption] self-test OK (doubled-host detector)")
+  process.exit(0)
 }
 
 for (const name of fs.readdirSync(toolsDir)) {

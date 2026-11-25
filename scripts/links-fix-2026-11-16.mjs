@@ -86,8 +86,9 @@ const MAGNIFIC = {
   newUrl: "https://www.magnific.com/",
 }
 
-/** Official product page (opal.google root redirects to developer FAQ). */
-const GOOGLE_OPAL_LANDING =
+/** Main CTA for Google Opal (opal.google redirects to developer FAQ). */
+const GOOGLE_OPAL_CTA = "https://gemini.google.com/app"
+const GOOGLE_OPAL_BLOG =
   "https://blog.google/innovation-and-ai/models-and-research/google-labs/mini-apps-opal-gemini-app-experiment/"
 
 function escapeRegExp(value) {
@@ -392,7 +393,7 @@ for (const row of fixRows) {
   }
 
   if (verdict === "fix" && newUrl) {
-  const resolvedNewUrl = id === "google-opal" ? GOOGLE_OPAL_LANDING : newUrl
+  const resolvedNewUrl = id === "google-opal" ? GOOGLE_OPAL_CTA : newUrl
     if (fixAlreadyApplied(tool, oldUrl, resolvedNewUrl) && tool.lastVerified === VERIFIED) {
       report.skipped.push({ id, verdict, reason: "fix already applied" })
       continue
@@ -408,9 +409,12 @@ for (const row of fixRows) {
       changed = true
     }
     if (id === "google-opal") {
-      tool.url = GOOGLE_OPAL_LANDING
+      tool.url = GOOGLE_OPAL_CTA
+      if (tool.pricing) tool.pricing.sourceUrl = GOOGLE_OPAL_CTA
+      if (!tool.sources) tool.sources = []
+      if (!tool.sources.includes(GOOGLE_OPAL_BLOG)) tool.sources.push(GOOGLE_OPAL_BLOG)
     }
-    ensureSource(tool, sourceUrl || (id === "google-opal" ? GOOGLE_OPAL_LANDING : ""))
+    ensureSource(tool, sourceUrl || (id === "google-opal" ? GOOGLE_OPAL_BLOG : ""))
     tool.lastVerified = VERIFIED
     if (changed) {
       saveTool(file, tool)
@@ -525,8 +529,7 @@ const frReplacements = []
 for (const row of fixRows) {
   if (EXCLUDE.has(row.id)) continue
   if ((row.verdict === "fix" || row.verdict === "renamed") && row.new_url) {
-    const to =
-      row.id === "google-opal" && row.verdict === "fix" ? GOOGLE_OPAL_LANDING : row.new_url
+    const to = row.id === "google-opal" && row.verdict === "fix" ? GOOGLE_OPAL_CTA : row.new_url
     frReplacements.push({ id: row.id, from: row.old_url, to })
   }
 }
