@@ -20,7 +20,7 @@
   "pricing": {
     "verified": true,
     "sourceUrl": "https://www.meilisearch.com/pricing",
-    "details": "Self-hosting the open-source engine is free. Meilisearch Cloud starts at 18 €/month, with a 14-day free trial and no credit card required (official starting price; the on-page estimator shows instance sizes and a regional disk component that vary by region — those line items were not copied in full and are left to the official calculator). Enterprise is custom (dedicated resources, up to 99.999% uptime SLA, Slack support, SSO, SOC 2).",
+    "details": "Self-hosting the open-source engine is free. Meilisearch Cloud starts at 18 €/month, with a 14-day free trial and no credit card required (instance size and region affect the total — use the on-page estimator for your setup). Enterprise is custom (dedicated resources, up to 99.999% uptime SLA, Slack support, SSO, SOC 2).",
     "model": "freemium",
     "label": "Freemium"
   },
@@ -32,7 +32,7 @@
     "Open-source search and AI retrieval: full-text, vector and hybrid search",
     "Free self-hosting, or a managed Cloud with a fixed monthly instance price regardless of search volume",
     "9 hosting regions, unlimited team members, no per-seat fees",
-    "Cloud officially starts at 18 €/month after a 14-day trial; the instance/region estimator is not copied in full"
+    "Cloud starts at 18 €/month after a 14-day trial; larger instances cost more on the pricing page."
   ],
   "howToUse": [
     {
@@ -50,8 +50,8 @@
       "description": "Index your documents and try full-text, vector or hybrid search."
     },
     {
-      "title": "After the trial, Cloud starts at 18 €/month depending on instance size and region — the...",
-      "description": "After the trial, Cloud starts at 18 €/month depending on instance size and region — the full instance table is not listed here, only the official starting price."
+      "title": "After the trial, Cloud starts at 18 €/month depending on instance size and region.",
+      "description": "After the trial, Cloud starts at 18 €/month depending on instance size and region — open the pricing page for other sizes."
     }
   ],
   "hqCountry": "FR",
@@ -65,7 +65,7 @@
     "Recherche et extraction IA open source : plein texte, vectorielle et hybride",
     "Auto-hébergement gratuit, ou un Cloud managé à prix d’instance mensuel fixe, quel que soit le volume de recherche",
     "9 régions d’hébergement, membres d’équipe illimités, pas de tarif par siège",
-    "Le Cloud commence officiellement à 18 €/mois après un essai de 14 jours ; l’estimateur d’instance / région n’est pas recopié en entier"
+    "Le Cloud commence à 18 €/mois après un essai de 14 jours ; les instances plus grandes coûtent plus cher sur la page tarifs."
   ],
   "howToUse_fr": [
     {
@@ -83,8 +83,8 @@
       "description": "Indexe tes documents et essaie la recherche plein texte, vectorielle ou hybride."
     },
     {
-      "title": "Après l’essai, le Cloud commence à 18 €/mois selon la taille d’instance et la région — le...",
-      "description": "Après l’essai, le Cloud commence à 18 €/mois selon la taille d’instance et la région — le tableau d’instances n’est pas listé ici, seulement le prix d’entrée officiel."
+      "title": "Après l’essai, le Cloud commence à 18 €/mois selon la taille d’instance et la région.",
+      "description": "Après l’essai, le Cloud commence à 18 €/mois selon la taille d’instance et la région — consulte la page tarifs pour les autres tailles."
     }
   ]
 }
