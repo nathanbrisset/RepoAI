@@ -15,9 +15,10 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const allowPath = path.join(root, "scripts/prebuild/pricing-fr-pending.json")
 
 const TEMPLATE_RE = /^Détails tarifaires sur .+ : consulte la page officielle\.?$/u
-const AMOUNT_RE = /(?:^|[^\d])(\d{1,4}(?:[.,]\d{1,2})?)\s*(?:€|EUR\b)/iu
+const AMOUNT_AFTER = /(?:^|[^\d])(\d{1,4}(?:[.,]\d{1,2})?)\s*€/iu
+const AMOUNT_BEFORE = /€\s*(\d{1,4}(?:[.,]\d{1,2})?)/iu
 const EN_MARKERS_IN_FR =
-  /\b(per month|\/mo\b|\/hr\b|\/user\b|\bplans\b|\bplan\b|free tier|\bFree\b|\btrial\b|\bannual\b|\bIndividual\b|\bbilled\b|\bcredits\b)/iu
+  /\b(per month|plans\b|plan\b|free tier|Free\b|trial\b|annual\b|Individual\b|billed\b|credits\b)|(?:^|[^\w])(?:\/mo|\/hr|\/user)\b/iu
 
 function listedActive(tool) {
   const excluded = new Set(["duplicate-of", "sunset", "renamed", "inactive"])
@@ -32,7 +33,8 @@ function normalizeCompare(s) {
 }
 
 function textHasAmount(text) {
-  return AMOUNT_RE.test(text || "")
+  const s = text || ""
+  return AMOUNT_AFTER.test(s) || AMOUNT_BEFORE.test(s)
 }
 
 export function scanFrPricingQuality({ rootDir = root } = {}) {
@@ -98,9 +100,21 @@ export function scanFrPricingQuality({ rootDir = root } = {}) {
 }
 
 function loadAllowlist() {
-  if (!fs.existsSync(allowPath)) return new Set()
+  if (!fs.existsSync(allowPath)) return { slugs: new Set(), data: null }
   const data = JSON.parse(fs.readFileSync(allowPath, "utf8"))
-  return new Set(data.slugs || [])
+  return { slugs: new Set(data.slugs || []), data }
+}
+
+function assertAllowlistNotExpired(data) {
+  const expires = data?.expires
+  if (!expires) return
+  const today = new Date().toISOString().slice(0, 10)
+  if (today > expires) {
+    console.error(
+      `pricing-fr-pending.json expired on ${expires} (today ${today}). Remove slugs after Contenu CSV.`,
+    )
+    process.exit(1)
+  }
 }
 
 function main() {
@@ -122,8 +136,12 @@ function main() {
   if (violations.length > 30) console.log(`  ... and ${violations.length - 30} more`)
 
   if (writeAllow) {
+    const existing = fs.existsSync(allowPath)
+      ? JSON.parse(fs.readFileSync(allowPath, "utf8"))
+      : {}
     const payload = {
       _header: "TEMPORAIRE — à vider à l'application du CSV Contenu",
+      expires: existing.expires ?? "2026-12-15",
       slugs: violations.map((v) => v.id),
       countsByReason: byReason,
     }
@@ -135,7 +153,8 @@ function main() {
 
   if (!check) return
 
-  const allowed = loadAllowlist()
+  const { slugs: allowed, data: allowData } = loadAllowlist()
+  assertAllowlistNotExpired(allowData)
   const failingIds = new Set(violations.map((v) => v.id))
   const unlisted = violations.filter((v) => !allowed.has(v.id))
   const stale = [...allowed].filter((id) => !failingIds.has(id))

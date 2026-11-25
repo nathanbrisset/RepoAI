@@ -170,6 +170,13 @@ export const VISITOR_COPY_RULES = [
   },
   { id: "au-moment-de-la-verification", pattern: /au moment de la vérification/iu, scope: "internal" },
   { id: "sur-la-page-verifiee", pattern: /sur la page vérifiée/iu, scope: "internal" },
+  { id: "in-this-pass", pattern: /\bin this pass\b/iu, scope: "internal" },
+  { id: "could-not-be-read", pattern: /\bcould not be read\b/iu, scope: "internal" },
+  { id: "not-readable-en", pattern: /\bnot readable\b/iu, scope: "internal" },
+  { id: "pas-lisible-fr", pattern: /pas lisibles?|n['’]étaient pas lisibles/iu, scope: "internal" },
+  { id: "not-copied-en", pattern: /\bnot copied\b/iu, scope: "internal" },
+  { id: "were-not-readable", pattern: /\bwere not readable\b/iu, scope: "internal" },
+  { id: "labelle-fr-word", pattern: /\b[Ll]abellé(e)?\s+Premium\b/iu, scope: "internal" },
   {
     id: "converted-from-official",
     pattern: /\bconverted from the official\b|\bconvertis depuis la liste officielle/i,
@@ -370,6 +377,26 @@ export function runVisitorCopyRuleFixtures() {
       rule: "sur-la-page-verifiee",
       pass: ["sur la page tarifs officielle"],
       fail: ["sur la page vérifiée"],
+    },
+    {
+      rule: "in-this-pass",
+      pass: ["See the official product page for details."],
+      fail: ["could not be read in this pass"],
+    },
+    {
+      rule: "not-readable-en",
+      pass: ["Prices are not listed on the homepage."],
+      fail: ["public list prices were not readable"],
+    },
+    {
+      rule: "not-copied-en",
+      pass: ["Examples on the pricing page, not plan prices."],
+      fail: ["not copied as list prices"],
+    },
+    {
+      rule: "labelle-fr-word",
+      pass: ["formule Premium disponible."],
+      fail: ["Labellé Premium : essai"],
     },
   ]
   const rulesById = Object.fromEntries(VISITOR_COPY_RULES.map((r) => [r.id, r]))

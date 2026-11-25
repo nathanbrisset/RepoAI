@@ -1,5 +1,6 @@
 {
   "_header": "TEMPORAIRE — à vider à l'application du CSV Contenu",
+  "expires": "2026-12-15",
   "slugs": [
     "ai-floor-plan",
     "akiflow",
@@ -81,6 +82,7 @@
     "lemlist",
     "lm-studio",
     "ltx-studio",
+    "macwhisper",
     "mem",
     "metaview",
     "midjourney",
@@ -141,6 +143,7 @@
     "udio",
     "upheal",
     "veo",
+    "vidu",
     "viggle",
     "vizcom",
     "weaviate",
@@ -152,8 +155,8 @@
   ],
   "countsByReason": {
     "details_not_reflected_in_fr": 17,
-    "en_markers_in_fr": 39,
-    "template_with_en_amount": 81,
+    "en_markers_in_fr": 64,
+    "template_with_en_amount": 82,
     "verbatim_en_copy": 43
   }
 }
