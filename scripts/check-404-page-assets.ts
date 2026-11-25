@@ -32,15 +32,27 @@ function findHtmlFiles(): string[] {
   return [...new Set(found)]
 }
 
+function normalizeAssetRef(ref: string): string {
+  let s = ref.split("#")[0]?.split("?")[0] ?? ref
+  try {
+    s = decodeURIComponent(s)
+  } catch {
+    /* keep literal ref if malformed %-encoding */
+  }
+  return s
+}
+
 function assetRefs(html: string): string[] {
   const refs = new Set<string>()
   const re = /\/_next\/static\/[^"'\s<>\\]+/g
-  for (const match of html.matchAll(re)) refs.add(match[0])
+  for (const match of html.matchAll(re)) {
+    refs.add(normalizeAssetRef(match[0]))
+  }
   return [...refs]
 }
 
 function resolveAsset(ref: string): string | null {
-  const rel = ref.replace(/^\/_next\//, "")
+  const rel = normalizeAssetRef(ref).replace(/^\/_next\//, "")
   const direct = path.join(NEXT, rel)
   if (fs.existsSync(direct)) return direct
   return null
