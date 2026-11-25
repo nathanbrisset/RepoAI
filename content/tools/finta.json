@@ -20,7 +20,7 @@
   "pricing": {
     "verified": true,
     "sourceUrl": "https://www.finta.io/pricing",
-    "details": "7-day free trial, no credit card, cancel anytime. A Monthly / Yearly “Save 17%” toggle is present. Yearly figures extracted: Standard 5 €/month billed 63 € annually — connect up to 10 banks, sync to unlimited workspaces, all data types, AI categorization, MCP and developer API; Business Pro 11 €/month billed 136 € annually — everything in Standard plus unlimited bank connections, higher API and MCP rate limits, priority support. The page title also says plans “from” a monthly amount; monthly list prices besides these annually billed figures were not extracted and are left unlisted (that title line is not used as a plan price). Labelled Premium.",
+    "details": "7-day free trial, no credit card, cancel anytime. A Monthly / Yearly “Save 17%” toggle is present. Business Pro 11 €/month billed 136 € annually — everything in Standard plus unlimited bank connections, higher API and MCP rate limits, priority support. The page title also says plans “from” a monthly amount",
     "model": "paid",
     "label": "Premium"
   },
@@ -32,7 +32,7 @@
     "Bank connections that sync transactions into Notion, Airtable and Google Sheets",
     "AI-powered categorization, plus MCP and a developer API",
     "7-day free trial, no card, then Standard or Business Pro billed annually",
-    "Labelled Premium"
+    ""
   ],
   "howToUse": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "title": "Continue on Standard or Business Pro — the verified figures are the annual 63 € and 136 €...",
-      "description": "Continue on Standard or Business Pro — the verified figures are the annual 63 € and 136 € totals. A separate monthly list price was not extracted and is not listed here."
+      "description": "Continue on Standard or Business Pro — the verified figures are the annual 63 € and 136 € totals."
     }
   ],
   "sources": [
@@ -63,7 +63,7 @@
     "Connexions bancaires qui synchronisent les transactions vers Notion, Airtable et Google Sheets",
     "Catégorisation IA, plus MCP et une API développeur",
     "Essai de 7 jours, sans carte, puis Standard ou Business Pro facturés à l’année",
-    "Les prix de liste mensuels, en dehors des montants facturés à l’année, n’ont pas été extraits — non inventés. Labellé Premium"
+    "Forfaits annuels facturés à l’année sur le site officiel."
   ],
   "howToUse_fr": [
     {
@@ -82,7 +82,7 @@
     },
     {
       "title": "Continue sur Standard ou Business Pro — les chiffres vérifiés sont les totaux annuels 63...",
-      "description": "Continue sur Standard ou Business Pro — les chiffres vérifiés sont les totaux annuels 63 € et 136 €. Un prix de liste mensuel distinct n’a pas été extrait et n’est pas listé ici."
+      "description": "Continue sur Standard ou Business Pro — les chiffres vérifiés sont les totaux annuels 63 € et 136 €."
     }
   ]
 }
