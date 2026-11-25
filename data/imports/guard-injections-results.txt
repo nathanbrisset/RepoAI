@@ -1,0 +1,8 @@
+Guard injections @ consolidation tip (post-QA fix)
+Run: node scripts/run-guard-injections.mjs
+
+guard 54: Team plan billed monthly with annual commitment → CAUGHT (en_markers_in_fr)
+guard 58: Starter costs and Team per user. → CAUGHT (glued-words)
+guard 58: Pro tier starts at 0 € per month → CAUGHT (zero-eur-paid-tier)
+
+All injections caught on current tip.

@@ -98,7 +98,6 @@ export function polishCsvNote(text, slug) {
   s = s.replace(/\s*;\s*le montant annuel n['’]est pas repris ici\.?/giu, ".")
   s = s.replace(/\s*;\s*the yearly amount is not restated here\.?/giu, ".")
   s = s.replace(/\s*;\s*le montant annuel n['’]est pas repris ici\.?/giu, ".")
-  s = s.replace(/\s{2,}/g, " ").replace(/\s+([;,.])/g, "$1").trim()
   return s
 }
 
@@ -191,7 +190,6 @@ function applyRow(row, ctx) {
     else delete overlay.pricingNote_fr
     const src = (row.source_url || "").trim()
     if (src) tool.pricing.sourceUrl = src
-    scrubMasqueVisitor(tool, overlay)
     ctx.touched.add(slug)
   } else if (isOk) {
     ctx.counts.ok++

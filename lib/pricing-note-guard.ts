@@ -36,8 +36,11 @@ const FRENCH_IN_EN =
 
 const ENGLISH_IN_FR = /\bthe\b|\bwith\b|per\s+month|\bfree\b/i
 
-/** Plan / product names allowed in FR copy without tripping EN_IN_FR. */
-const FR_ALLOWED_ENGLISH_TOKENS = [/\bFree Forever\b/gi]
+/** Plan / product names allowed in FR pricing notes (Contenu CSV tier labels). */
+const FR_ALLOWED_ENGLISH_TOKENS = [
+  /\bFree Forever\b/gi,
+  /\b(?:Free|Pro|Plus|Starter|Team|Business|Enterprise|Hobby|Standard|Basic|Professional|Ultimate|Individual|Essentials|Creator|Scale|Startup|Lite|Max|Premium)\b/gi,
+]
 
 function maskAllowedProductNames(text: string): string {
   let masked = text

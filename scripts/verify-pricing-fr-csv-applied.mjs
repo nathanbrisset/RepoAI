@@ -58,8 +58,6 @@ function parseCsv(text) {
 
 function norm(s) {
   return String(s || "")
-    .replace(/\s+/g, " ")
-    .trim()
 }
 
 function main() {
@@ -83,8 +81,8 @@ function main() {
     let expectFr = polishCsvNote((row.pricing_note_fr_corrigee || "").trim(), slug)
     let expectEn = polishCsvNote((row.pricing_note_en_corrigee || "").trim(), slug)
     if (GROUP_C.has(slug)) {
-      if (expectFr) expectFr = localizeGroupCText(expectFr, "fr")
-      if (expectEn) expectEn = localizeGroupCText(expectEn, "en")
+      if (expectFr) expectFr = localizeGroupCText(expectFr, "fr", slug)
+      if (expectEn) expectEn = localizeGroupCText(expectEn, "en", slug)
     }
     const actualFr = norm(overlay.pricingNote_fr)
     const actualEn = norm(tool.pricing?.note)

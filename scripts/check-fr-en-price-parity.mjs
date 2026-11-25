@@ -1,13 +1,15 @@
 #!/usr/bin/env node
 /**
  * Fail when listed active tools show different € price figures in EN vs FR visitor copy.
- * Compares description, pricing.note/details and FR overlays (pricingNote_fr, note_fr).
- *
- *   node scripts/check-fr-en-price-parity.mjs [--check]
  */
 import fs from "fs"
 import path from "path"
 import { fileURLToPath } from "url"
+import {
+  frNoteMatchesCsv,
+  normalizeAmounts,
+  amountKey,
+} from "./lib/contenu-pricing-csv.mjs"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 
@@ -19,7 +21,7 @@ function listedActive(tool) {
   return tool.status === "active" && !excluded.has(tool.status)
 }
 
-function normalizeAmounts(text) {
+function extractAmounts(text) {
   if (!text || typeof text !== "string") return []
   const out = []
   let m
@@ -32,25 +34,26 @@ function normalizeAmounts(text) {
   return out
 }
 
-function amountKey(amounts) {
-  return JSON.stringify([...new Set(amounts)].sort((a, b) => a - b))
-}
-
-/** FR copy often adds explicit 0 € for free tiers that EN omits. */
 function amountsCompatible(enAmounts, frAmounts) {
   const en = [...new Set(enAmounts)].sort((a, b) => a - b)
   let fr = [...new Set(frAmounts)].sort((a, b) => a - b)
   if (!en.includes(0) && fr.includes(0)) {
     fr = fr.filter((n) => n !== 0)
   }
-  if (amountKey(en) === amountKey(fr)) return true
-  /* Contenu FR notes often list a subset of EN detail tiers */
-  if (fr.length > 0 && fr.every((n) => en.includes(n))) return true
-  return false
+  return amountKey(en) === amountKey(fr)
 }
 
-/** EN/FR text pairs checked when both sides may carry prices. */
+function amountsSubsetAllowed(enAmounts, tool, overlay, label) {
+  if (label !== "pricing.details") return false
+  const frNote = overlay?.pricingNote_fr?.trim() || ""
+  if (!frNote || !frNoteMatchesCsv(frNote, tool.id)) return false
+  const frAmounts = normalizeAmounts(frNote)
+  const en = [...new Set(enAmounts)]
+  return frAmounts.length > 0 && frAmounts.every((n) => en.includes(n))
+}
+
 export function pricingFieldPairs(tool, overlay) {
+  const frNote = overlay?.pricingNote_fr?.trim() || tool.pricing?.note_fr?.trim() || ""
   const pairs = [
     {
       en: tool.description,
@@ -59,12 +62,12 @@ export function pricingFieldPairs(tool, overlay) {
     },
     {
       en: tool.pricing?.note,
-      fr: tool.pricing?.note_fr || overlay?.pricingNote_fr,
+      fr: frNote,
       label: "pricing.note",
     },
     {
       en: tool.pricing?.details,
-      fr: tool.pricing?.note_fr || overlay?.pricingNote_fr,
+      fr: frNote,
       label: "pricing.details",
     },
   ]
@@ -72,10 +75,6 @@ export function pricingFieldPairs(tool, overlay) {
   return pairs
     .filter((p) => !(p.label === "pricing.details" && hasEnNote))
     .filter((p) => typeof p.en === "string" && p.en.trim() && typeof p.fr === "string" && p.fr.trim())
-}
-
-export function collectTexts(tool, overlay) {
-  return pricingFieldPairs(tool, overlay).flatMap((p) => [p.en, p.fr])
 }
 
 export function scanFrEnPriceParity({ rootDir = root } = {}) {
@@ -89,19 +88,19 @@ export function scanFrEnPriceParity({ rootDir = root } = {}) {
 
     const overlay = frOverlay[tool.id]
     for (const { en, fr, label } of pricingFieldPairs(tool, overlay)) {
-      const enAmounts = normalizeAmounts(en)
-      const frAmounts = normalizeAmounts(fr)
+      const enAmounts = extractAmounts(en)
+      const frAmounts = extractAmounts(fr)
       if (enAmounts.length === 0 && frAmounts.length === 0) continue
       if (enAmounts.length === 0 || frAmounts.length === 0) continue
-      if (!amountsCompatible(enAmounts, frAmounts)) {
-        mismatches.push({
-          id: tool.id,
-          field: label,
-          enAmounts: [...new Set(enAmounts)].sort((a, b) => a - b),
-          frAmounts: [...new Set(frAmounts)].sort((a, b) => a - b),
-        })
-        break
-      }
+      if (amountsCompatible(enAmounts, frAmounts)) continue
+      if (amountsSubsetAllowed(enAmounts, tool, overlay, label)) continue
+      mismatches.push({
+        id: tool.id,
+        field: label,
+        enAmounts: [...new Set(enAmounts)].sort((a, b) => a - b),
+        frAmounts: [...new Set(frAmounts)].sort((a, b) => a - b),
+      })
+      break
     }
 
     const descEn = tool.description?.trim() || ""
@@ -112,8 +111,8 @@ export function scanFrEnPriceParity({ rootDir = root } = {}) {
       overlay?.summary_fr?.trim() ||
       ""
     if (descEn && descFr) {
-      const enAmounts = normalizeAmounts(descEn)
-      const frAmounts = normalizeAmounts(descFr)
+      const enAmounts = extractAmounts(descEn)
+      const frAmounts = extractAmounts(descFr)
       if (enAmounts.length && frAmounts.length && !amountsCompatible(enAmounts, frAmounts)) {
         if (!mismatches.some((m) => m.id === tool.id && m.field === "description")) {
           mismatches.push({
@@ -138,7 +137,6 @@ function main() {
       `  ${row.id}\t${row.field}\tEN [${row.enAmounts.join(", ")}]\tFR [${row.frAmounts.join(", ")}]`,
     )
   }
-  if (hits.length > 50) console.log(`  ... and ${hits.length - 50} more`)
   if (check && hits.length > 0) {
     console.error("\nFR/EN price parity check failed.")
     process.exit(1)

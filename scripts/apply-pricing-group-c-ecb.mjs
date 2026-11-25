@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Post-CSV pass: exact ECB conversion (1 EUR = 1.1052 USD) on group C slugs only.
- * Touches pricing notes + visitor copy; never converts amounts already in € (except $→€ map).
+ * Converts official $ list prices → € at 2 decimals. Does not remap already-exact € figures.
  */
 import fs from "fs"
 import path from "path"
@@ -14,20 +14,32 @@ const frPath = path.join(root, "content/i18n/fr-tools.json")
 
 const GROUP_C = ["cartesia", "kagi", "khanmigo", "typecast", "zed"]
 
-/** Rounded € figures that stand in for common USD list prices. */
-const ROUNDED_TO_EXACT = new Map([
-  [5, 4.52],
-  [4, 3.62],
-  [10, 9.05],
-  [30, 27.14],
-  [49, 44.34],
-  [54, 48.86],
-  [44, 39.81],
-  [9, 8.14],
-  [27, 24.43],
-  [23, 20.81],
-  [71, 64.24],
-])
+/** [displayed integer € from CSV, official USD list price] */
+const SLUG_USD_SOURCES = {
+  cartesia: [
+    [5, 5],
+    [44, 49],
+    [271, 299],
+  ],
+  kagi: [
+    [5, 5],
+    [9, 10],
+    [23, 25],
+  ],
+  khanmigo: [
+    [4, 4],
+    [44, 44],
+  ],
+  typecast: [
+    [5, 5],
+    [49, 54],
+  ],
+  zed: [
+    [9, 10],
+    [5, 5],
+    [27, 30],
+  ],
+}
 
 function formatEur(n, locale) {
   const s = n.toFixed(2)
@@ -44,31 +56,38 @@ function replaceUsdMarkers(text, locale) {
   })
 }
 
-function replaceRoundedEuro(text, locale) {
+function replaceCsvRoundedEuro(text, locale, slug) {
   if (!text || typeof text !== "string") return text
   let s = text
-  for (const [wrong, exact] of ROUNDED_TO_EXACT) {
+  const pairs = SLUG_USD_SOURCES[slug] || []
+  for (const [wrongInt, usd] of pairs) {
+    const exact = usdToEur(usd)
+    if (exact == null) continue
     const repl = formatEur(exact, locale)
-    const wrongFr = String(wrong).replace(".", ",")
+    if (Math.abs(wrongInt - exact) < 0.005) continue
+    const wrongFr = String(wrongInt).replace(".", ",")
     const patterns =
       locale === "fr"
         ? [
             new RegExp(`(?<![\\d,])${wrongFr}(?=\\s*€)`, "g"),
-            new RegExp(`(?<![\\d.])${wrong}(?=\\s*€)`, "g"),
+            new RegExp(`(?<![\\d.])${wrongInt}(?=\\s*€)`, "g"),
           ]
-        : [new RegExp(`(?<![\\d.])${wrong}(?=\\s*€)`, "g")]
+        : [new RegExp(`(?<![\\d.])${wrongInt}(?=\\s*€)`, "g")]
     for (const re of patterns) s = s.replace(re, repl)
   }
   return s
 }
 
-export function localizeGroupCText(text, locale) {
-  return replaceRoundedEuro(replaceUsdMarkers(text, locale), locale)
+export function localizeGroupCText(text, locale, slug = "") {
+  let s = replaceUsdMarkers(text, locale)
+  if (slug) s = replaceCsvRoundedEuro(s, locale, slug)
+  return s
 }
 
 function visitorSlots(tool, overlay) {
   const slots = [
     { loc: "en", get: () => tool.description, set: (v) => (tool.description = v) },
+    { loc: "en", get: () => tool.summary, set: (v) => (tool.summary = v) },
     { loc: "en", get: () => tool.pricing?.note, set: (v) => (tool.pricing.note = v) },
     { loc: "en", get: () => tool.pricing?.details, set: (v) => (tool.pricing.details = v) },
     {
@@ -77,6 +96,14 @@ function visitorSlots(tool, overlay) {
       set: (v) => {
         if (overlay.description_fr != null) overlay.description_fr = v
         else tool.description_fr = v
+      },
+    },
+    {
+      loc: "fr",
+      get: () => overlay.summary_fr ?? tool.summary_fr,
+      set: (v) => {
+        if (overlay.summary_fr != null) overlay.summary_fr = v
+        else tool.summary_fr = v
       },
     },
     {
@@ -104,6 +131,15 @@ function visitorSlots(tool, overlay) {
   const howEn = tool.howToUse
   if (Array.isArray(howEn)) {
     howEn.forEach((step, i) => {
+      if (step?.title) {
+        slots.push({
+          loc: "en",
+          get: () => step.title,
+          set: (v) => {
+            step.title = v
+          },
+        })
+      }
       slots.push({
         loc: "en",
         get: () => step.description,
@@ -117,6 +153,15 @@ function visitorSlots(tool, overlay) {
   if (Array.isArray(howFr)) {
     howFr.forEach((step, i) => {
       const target = overlay.howToUse_fr?.[i] ?? tool.howToUse_fr?.[i]
+      if (target?.title) {
+        slots.push({
+          loc: "fr",
+          get: () => target.title,
+          set: (v) => {
+            target.title = v
+          },
+        })
+      }
       slots.push({
         loc: "fr",
         get: () => target?.description,
@@ -143,7 +188,7 @@ function main() {
     for (const slot of visitorSlots(tool, overlay)) {
       const cur = slot.get()
       if (typeof cur !== "string" || !cur.trim()) continue
-      const next = localizeGroupCText(cur, slot.loc === "fr" ? "fr" : "en")
+      const next = localizeGroupCText(cur, slot.loc === "fr" ? "fr" : "en", slug)
       if (next !== cur) slot.set(next)
     }
     const after = JSON.stringify({ tool, overlay })

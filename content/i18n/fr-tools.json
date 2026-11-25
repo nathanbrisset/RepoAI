@@ -1140,7 +1140,7 @@
         "description": "Abonne-toi à Starter ou Professional si tu as besoin de plus de générations."
       }
     ],
-    "pricingNote_fr": "20 crédits de départ offerts (un plan). Starter 18,01 €/mois (1 000 crédits, jusqu’à 50 plans); Professional 45,15 €/mois (3 000 crédits, jusqu’à 150 plans), facturés au mois. Une option annuelle affichée à −40 % est proposée. Les crédits d’abonnement ne sont pas reportés. L’édition, la 3D et les exports n’utilisent pas de crédits. Les exports gratuits portent une marque; les offres payantes permettent l’export sans filigrane pendant la période de crédits payants."
+    "pricingNote_fr": "20 crédits de départ offerts (un plan). Starter 18,01 €/mois (1 000 crédits, jusqu’à 50 plans) ; Professional 45,15 €/mois (3 000 crédits, jusqu’à 150 plans), facturés au mois. Une option annuelle affichée à −40 % est proposée . Les crédits d’abonnement ne sont pas reportés. L’édition, la 3D et les exports n’utilisent pas de crédits. Les exports gratuits portent une marque ; les offres payantes permettent l’export sans filigrane pendant la période de crédits payants."
   },
   "ai-grammatic": {
     "summary_fr": "Réécrit le texte sélectionné n’importe où sur un Mac avec un raccourci, pour la grammaire, le ton et la traduction.",
@@ -1513,12 +1513,12 @@
   },
   "akiflow": {
     "summary_fr": "Planificateur qui consolide les tâches et les calendriers, avec un assistant IA pour le blocage du temps.",
-    "description_fr": "Akiflow collecte les tâches d'autres applications dans une seule boîte de réception, permet aux utilisateurs de les bloquer dans le temps sur leurs calendriers et comprend un assistant IA qui répond aux questions de planification et réserve des créneaux horaires. Il cible les fondateurs, les exploitants et les professionnels très occupés. Un essai gratuit de sept jours est proposé ; le forfait Pro coûte 17 € par mois ou 14 € par mois facturé annuellement, avec une réduction étudiante. Les intégrations regroupent les tâches d'autres applications dans une seule boîte de réception.",
+    "description_fr": "Akiflow collecte les tâches d'autres applications dans une seule boîte de réception, permet de les bloquer sur le calendrier et utilise un assistant pour planifier des réunions. Un essai gratuit de sept jours est proposé ; les forfaits Pro et supérieurs sont payants.",
     "features_fr": [
       "Planificateur qui consolide les tâches et les calendriers, avec un assistant IA pour le blocage du temps.",
       "Akiflow collecte les tâches d'autres applications dans une seule boîte de réception, permet aux utilisateurs de les bloquer dans le temps sur leurs calendriers et comprend un assistant IA qui répond aux questions de planification et réserve des créneaux horaires.",
       "Il cible les fondateurs, les exploitants et les professionnels très occupés.",
-      "Un essai gratuit de sept jours est proposé ; le forfait Pro coûte 17 € par mois ou 14 € par mois facturé annuellement, avec une réduction étudiante."
+      "Un essai gratuit de sept jours est proposé ; les forfaits Pro et supérieurs sont payants."
     ],
     "howToUse_fr": [
       {
@@ -1537,7 +1537,7 @@
       },
       {
         "title": "Lance un premier usage",
-        "description": "Commence par : planificateur qui consolide les tâches et les calendriers, avec un assistant IA pour le blocage du temps."
+        "description": "Pose des questions de planification à l'assistant pour qu'il réserve des créneaux. Passe à Pro ou au-delà si tu continues après l'essai."
       },
       {
         "title": "Contrôle le résultat",
@@ -2606,12 +2606,12 @@
   },
   "apollo-io": {
     "summary_fr": "Plateforme de vente avec une base de données de contacts B2B, des séquences de sensibilisation et des agents IA pour les équipes go-to-market.",
-    "description_fr": "Apollo.io combine une base de données d'environ 240 millions de contacts et 30 millions d'entreprises avec des agents de prospection, de séquences d'e-mails, de gestion des transactions et d'IA qui s'exécutent en arrière-plan. Il se connecte à d’autres outils et propose un générateur de systèmes de mise sur le marché personnalisés. Le plan gratuit comprend 900 crédits par siège et par an ; les forfaits payants commencent à 44 € par siège et par mois, facturés annuellement, avec des niveaux de 71 € et 108 €.",
+    "description_fr": "Apollo.io combine une base de données d'environ 240 millions de contacts et 30 millions d'entreprises avec des agents de prospection, de séquences d'e-mails, de gestion des transactions et d'IA qui s'exécutent en arrière-plan. Il se connecte à d'autres outils et propose un générateur de systèmes de mise sur le marché personnalisés. Offre gratuite et forfaits payants par siège.",
     "features_fr": [
       "Plateforme de vente avec une base de données de contacts B2B, des séquences de sensibilisation et des agents IA pour les équipes go-to-market.",
       "Apollo.io combine une base de données d'environ 240 millions de contacts et 30 millions d'entreprises avec des agents de prospection, de séquences d'e-mails, de gestion des transactions et d'IA qui s'exécutent en arrière-plan.",
       "Il se connecte à d’autres outils et propose un générateur de systèmes de mise sur le marché personnalisés.",
-      "Le plan gratuit comprend 900 crédits par siège et par an ; les forfaits payants commencent à 44 € par siège et par mois, facturés annuellement, avec des niveaux de 71 € et 108 €."
+      "Le plan gratuit inclut des crédits annuels par siège ; les forfaits payants facturent par siège au mois ou à l'année, avec des niveaux supérieurs pour les équipes en croissance."
     ],
     "howToUse_fr": [
       {
@@ -2630,7 +2630,7 @@
       },
       {
         "title": "Lance un premier usage",
-        "description": "Commence par : plateforme de vente avec une base de données de contacts B2B, des séquences de sensibilisation et des agents IA pour les équipes go-to-market."
+        "description": "Laisse les agents IA tourner en arrière-plan. Apollo se connecte à d'autres outils et Builder Studio permet de monter un système go-to-market sur mesure. Offre gratuite et forfaits payants par siège."
       },
       {
         "title": "Contrôle le résultat",
@@ -2643,7 +2643,7 @@
       "sequences",
       "gtm"
     ],
-    "pricingNote_fr": "44 €/siège/mois (Basic, facturé à l’année); Professional 71 €/siège/mois facturé à l’année. Offre Free à 0 €."
+    "pricingNote_fr": "44 €/siège/mois (Basic, facturé à l’année) ; Professional 71 €/siège/mois facturé à l’année. Offre Free à 0 €."
   },
   "appsmith": {
     "summary_fr": "Plateforme open source pour créer des outils internes, avec IA.",
@@ -3167,7 +3167,7 @@
       "enrichment",
       "flux de travail"
     ],
-    "pricingNote_fr": "Plus 35 €/espace/mois facturé à l’année (45 € au mois), 1 utilisateur inclus; utilisateurs supplémentaires 31 € à l’année (39 € au mois). Pro 85 €/espace/mois facturé à l’année (110 € au mois); utilisateurs supplémentaires 74 € à l’année (93 € au mois). Gratuit jusqu’à 3 utilisateurs."
+    "pricingNote_fr": "Plus 35 €/espace/mois facturé à l’année (45 € au mois), 1 utilisateur inclus ; utilisateurs supplémentaires 31 € à l’année (39 € au mois). Pro 85 €/espace/mois facturé à l’année (110 € au mois) ; utilisateurs supplémentaires 74 € à l’année (93 € au mois). Gratuit jusqu’à 3 utilisateurs."
   },
   "audiopod-ai": {
     "summary_fr": "Un studio audio dans le navigateur pour la synthèse vocale, la musique, la séparation de stems, la transcription et le débruitage, avec des crédits gratuits chaque mois.",
@@ -3922,7 +3922,7 @@
       "sans code",
       "hosting"
     ],
-    "pricingNote_fr": "À partir de 14 €/mois facturé à l’année (première offre payante), puis 36 €, 72 € et 145 €/mois facturés à l’année; une offre gratuite est proposée."
+    "pricingNote_fr": "À partir de 14 €/mois facturé à l’année (première offre payante), puis 36 €, 72 € et 145 €/mois facturés à l’année ; une offre gratuite est proposée."
   },
   "basetab": {
     "summary_fr": "Transforme un nouvel onglet de navigateur en espace de travail avec widgets, favoris, chat IA et intégrations Google, avec une offre gratuite.",
@@ -5865,7 +5865,7 @@
       "temps réel",
       "api"
     ],
-    "pricingNote_fr": "La page officielle indique Free à 0 €/mois avec 20 000 crédits, Pro à 4,52 €/mois, Startup à 39,81 €/mois et Scale à 271 €/mois."
+    "pricingNote_fr": "La page officielle indique Free à 0 €/mois avec 20 000 crédits, Pro à 4,52 €/mois, Startup à 44,34 €/mois et Scale à 270,54 €/mois."
   },
   "cassidyai": {
     "summary_fr": "Assistants et automatisations IA entraînés sur les documents de l'entreprise.",
@@ -6085,11 +6085,11 @@
   },
   "chatbase": {
     "summary_fr": "Plateforme pour agents IA qui répondent aux questions des clients par chat, e-mail et voix.",
-    "description_fr": "Chatbase crée des agents IA formés sur le contenu d'une entreprise qui répondent aux questions des clients et prennent des mesures par chat, e-mail et voix, avec des analyses et une boîte de réception d'assistance. Les forfaits commencent par Hobby à 36 € par mois (29 € facturés par an), puis Standard à 136 € et Pro à 452 € par mois, chacun avec un essai de sept jours ; aucun forfait gratuit n’a été répertorié. L'entreprise déclare servir plus de 10 000 entreprises.",
+    "description_fr": "Chatbase crée des agents IA formés sur le contenu d'une entreprise qui répondent aux questions des clients et prennent des mesures par chat, e-mail et voix, avec des analyses et une boîte de réception d'assistance. Des forfaits payants (Hobby, Standard, Pro) sont proposés, chacun avec un essai de sept jours ; aucun forfait gratuit n'était répertorié. L'entreprise déclare servir plus de 10 000 entreprises.",
     "features_fr": [
       "Plateforme pour agents IA qui répondent aux questions des clients par chat, e-mail et voix.",
       "Chatbase crée des agents IA formés sur le contenu d'une entreprise qui répondent aux questions des clients et prennent des mesures par chat, e-mail et voix, avec des analyses et une boîte de réception d'assistance.",
-      "Les forfaits commencent par Hobby à 36 € par mois (29 € facturés par an), puis Standard à 136 € et Pro à 452 € par mois, chacun avec un essai de sept jours ; aucun forfait gratuit n’a été répertorié.",
+      "Des forfaits payants (Hobby, Standard, Pro) sont proposés, chacun avec un essai de sept jours ; aucun forfait gratuit n'était répertorié.",
       "L'entreprise déclare servir plus de 10 000 entreprises."
     ],
     "howToUse_fr": [
@@ -6122,7 +6122,7 @@
       "voix",
       "intégrations"
     ],
-    "pricingNote_fr": "Basic 136 €/mois, ou 109 €/mois facturé à l’année. Business 452 €/mois, ou 362 €/mois facturé à l’année. Aucune offre gratuite affichée; l’offre Hobby à 36 € n’apparaît plus."
+    "pricingNote_fr": "Basic 136 €/mois, ou 109 €/mois facturé à l’année. Business 452 €/mois, ou 362 €/mois facturé à l’année. Aucune offre gratuite affichée ; l’offre Hobby à 36 € n’apparaît plus."
   },
   "chatcode": {
     "summary_fr": "Chatbot de code interactif par IA, pour l'assistance aux développeurs.",
@@ -7487,7 +7487,7 @@
   },
   "codepal": {
     "summary_fr": "Outil de création d'applications par IA qui transforme des idées en logiciels de production.",
-    "description_fr": "CodePal se présente désormais comme un outil de création d'applications par IA (« De l'idée à la production. ton équipe de développement par IA qui livre de vrais logiciels, pas des démos »), avec un CodePal Agent, des modifications de code dans l'application et l'hébergement de projets CodePal Cloud. L'usage repose sur des crédits. Le plan Starter gratuit comprend 2 crédits par jour (jusqu'à 30 par mois), jusqu'à 50 projets et un usage limité de l'Agent; Standard est à par mois et Pro à par mois (facturation annuelle), avec 100 et 250 crédits mensuels, le report des crédits et des projets privés; Enterprise est sur mesure.",
+    "description_fr": "CodePal se présente comme un outil de création d'applications par IA, avec un CodePal Agent, des modifications de code dans l'application et l'hébergement CodePal Cloud. L'usage repose sur des crédits. Le plan Starter gratuit inclut des crédits quotidiens, des limites de projets et un Agent limité ; Standard et Pro sont des forfaits payants avec crédits mensuels, report et projets privés ; Enterprise est sur mesure.",
     "features_fr": [
       "Génération d'extraits de code: crée du code en fonction de la saisie.",
       "Détection de bugs: identifie les problèmes potentiels dans le code.",
@@ -7511,7 +7511,7 @@
       },
       {
         "title": "Lance un premier usage",
-        "description": "outil de création d'applications par IA qui transforme des idées en logiciels de production."
+        "description": "Héberge le projet sur CodePal Cloud, publie une URL en ligne et synchronise avec GitHub. L'usage consomme des crédits ; les forfaits payants Standard et Pro ajoutent des crédits mensuels, le report et des projets privés. Enterprise est sur mesure."
       },
       {
         "title": "Contrôle le résultat",
@@ -8813,7 +8813,7 @@
       "url vers vidéo",
       "publicité library"
     ],
-    "pricingNote_fr": "La page officielle indique Standard à 14 €/mois au tarif régulier. Une promo de lancement à −50 % était aussi affichée : elle n’est pas utilisée comme prix normal. Des offres Pro, Max et équipes plus élevées sont proposées au tarif listé; une offre gratuite avec 10 crédits par mois était indiquée."
+    "pricingNote_fr": "La page officielle indique Standard à 14 €/mois au tarif régulier. Une promo de lancement à −50 % était aussi affichée : elle n’est pas utilisée comme prix normal. Des offres Pro, Max et équipes plus élevées sont proposées au tarif listé ; une offre gratuite avec 10 crédits par mois était indiquée."
   },
   "crewai": {
     "summary_fr": "Framework multi-agent open source avec une plateforme d'entreprise pour créer et exécuter des agents.",
@@ -9169,7 +9169,7 @@
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
-    "pricingNote_fr": "La page tarifs présente un abonnement partagé avec Grok et X : l’offre Gratuit (0 €) limite l’usage IA; Plus coûte 7 €/mois (modèles Grok uniquement), Premium 27 €/mois ajoute les derniers modèles et les agents cloud, Super 90 €/mois et Ultra 181 €/mois augmentent les volumes."
+    "pricingNote_fr": "La page tarifs présente un abonnement partagé avec Grok et X : l’offre Gratuit (0 €) limite l’usage IA ; Plus coûte 7 €/mois (modèles Grok uniquement), Premium 27 €/mois ajoute les derniers modèles et les agents cloud, Super 90 €/mois et Ultra 181 €/mois augmentent les volumes."
   },
   "cutout-pro": {
     "summary_fr": "Détourage, retouche photo et vidéo par IA en ligne.",
@@ -10120,7 +10120,7 @@
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
-    "pricingNote_fr": "Offre gratuite pour commencer; Hobbyist 14 €/personne/mois facturé à l’année (22 € au mois)."
+    "pricingNote_fr": "Offre gratuite pour commencer ; Hobbyist 14 €/personne/mois facturé à l’année (22 € au mois)."
   },
   "designs_ai": {
     "summary_fr": "Designs.ai est une plateforme créative tout-en-un qui propose des outils par IA pour la conception de logos, la création de vidéos, les maquettes et les contenus pour les réseaux sociaux. Elle s'adresse aux entreprises et aux agences qui doivent augmenter rapidement leur production de design.",
@@ -12860,7 +12860,7 @@
         "description": "Abonne-toi à Individual, Professional ou Agency si tu as besoin de plus de volume."
       }
     ],
-    "pricingNote_fr": "Gratuit : 20 remplissages pour commencer, puis 5/semaine, sans carte. Individual 17 €/mois (100 remplissages); Professional 67 €/mois (500); Agency 312 €/mois (3 000, support prioritaire). Un remplissage = un formulaire web, ou un PDF jusqu’à 5 pages (puis un remplissage par tranche de 5 pages commencée)."
+    "pricingNote_fr": "Gratuit : 20 remplissages pour commencer, puis 5/semaine, sans carte. Individual 17 €/mois (100 remplissages) ; Professional 67 €/mois (500) ; Agency 312 €/mois (3 000, support prioritaire). Un remplissage = un formulaire web, ou un PDF jusqu’à 5 pages (puis un remplissage par tranche de 5 pages commencée)."
   },
   "findem": {
     "summary_fr": "Recherche de talents par attributs, grâce aux données et à l'IA.",
@@ -13060,7 +13060,7 @@
       "transcription",
       "meetings"
     ],
-    "pricingNote_fr": "Offre gratuite (0 €). Pro 9 €/siège/mois facturé à l’année (16 € au mois); Business 17 € à l’année (26 € au mois); Enterprise 35 €/siège/mois, annuel uniquement."
+    "pricingNote_fr": "Offre gratuite (0 €). Pro 9 €/siège/mois facturé à l’année (16 € au mois) ; Business 17 € à l’année (26 € au mois) ; Enterprise 35 €/siège/mois, annuel uniquement."
   },
   "fiscal-ai": {
     "features_fr": [
@@ -13929,7 +13929,7 @@
       "coding",
       "front desk"
     ],
-    "pricingNote_fr": "35 €/mois (Starter, facturé à l’année); 53 €/mois si facturé au mois. Offres front desk à partir de 135 €/mois."
+    "pricingNote_fr": "35 €/mois (Starter, facturé à l’année) ; 53 €/mois si facturé au mois. Offres front desk à partir de 135 €/mois."
   },
   "freepik-ai": {
     "summary_fr": "Suite de création IA de Freepik : images, vidéos, retouche et agrandissement.",
@@ -14041,7 +14041,7 @@
         "description": "Reste sur Monthly Cook, Annual Chef ou le Founder’s Pass si tu veux continuer."
       }
     ],
-    "pricingNote_fr": "Essai de 7 jours; Monthly Cook 9 €/mois; Annual Chef 88 €/an; Founder’s Pass 446 € à vie."
+    "pricingNote_fr": "Essai de 7 jours ; Monthly Cook 9 €/mois ; Annual Chef 88 €/an ; Founder’s Pass 446 € à vie."
   },
   "front": {
     "summary_fr": "Plateforme de service client collaborative, avec IA.",
@@ -14166,7 +14166,7 @@
   },
   "gamma": {
     "summary_fr": "Crée des présentations, des documents et des sites web avec l'IA.",
-    "description_fr": "Gamma génère des présentations, des documents, des sites web et des publications pour les réseaux sociaux à partir d'un prompt, d'un plan ou d'un fichier importé, avec des designs modifiables et un partage en ligne. Il est connu pour remplacer le travail de conception des diapositives par des cartes fluides, natives du web. L'offre Free donne 400 crédits une seule fois et jusqu'à 10 diapositives par prompt ; Plus est à 8 € par siège et par mois en facturation annuelle (11 € en mensuel) et Pro à 16 € par mois en facturation annuelle.",
+    "description_fr": "Gamma génère des présentations, des documents, des sites web et des publications pour les réseaux sociaux à partir d'une consigne, d'un plan ou d'un fichier importé, avec des mises en page modifiables et un partage en ligne. Il remplace le travail de mise en page de diapositives par des cartes web fluides. Offre gratuite et formules payantes Plus et Pro.",
     "tags_fr": [
       "présentations",
       "diapositives",
@@ -14177,7 +14177,7 @@
       "Crée des présentations, des documents et des sites Web avec l'IA.",
       "Gamma génère des présentations, des documents, des sites Web et des publications sociales à partir d'une invite, d'un plan ou d'un fichier importé, avec des conceptions modifiables et un partage en ligne.",
       "Il est connu pour remplacer le travail de conception de diapositives par des cartes Web natives fluides.",
-      "Le plan gratuit offre 400 crédits uniques et jusqu'à 10 diapositives par invite ; Plus est de 8 €/siège/mois facturé annuellement (11 € par mois) et Pro 16 €/mois facturé annuellement."
+      "L'offre gratuite inclut des crédits de départ et des limites de diapositives par invite ; Plus et Pro sont des forfaits payants avec des quotas plus élevés."
     ],
     "howToUse_fr": [
       {
@@ -14665,7 +14665,7 @@
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
-    "pricingNote_fr": "L’offre Free donne 100 crédits par jour jusqu’à un plafond à vie; Plus coûte 22,61 €/mois (18,09 €/mois facturé à l’année) avec 10 000 crédits mensuels."
+    "pricingNote_fr": "L’offre Free donne 100 crédits par jour jusqu’à un plafond à vie ; Plus coûte 22,61 €/mois (18,09 €/mois facturé à l’année) avec 10 000 crédits mensuels."
   },
   "germantutor-ai": {
     "summary_fr": "Tuteur d’allemand IA pour la conversation, le vocabulaire, la grammaire et la prononciation, avec des scénarios adaptés à ton niveau : travail, examens Goethe, quotidien et voyage.",
@@ -15795,7 +15795,7 @@
       "remix",
       "google"
     ],
-    "pricingNote_fr": "5 €/mois (Starter, facturé à l’année) ou 7 €/mois facturé au mois; Plus 16 €/mois à l’année (22 € au mois) et Member 43 €/mois à l’année (58 € au mois). Une offre gratuite avec recharges quotidiennes de crédits est proposée."
+    "pricingNote_fr": "5 €/mois (Starter, facturé à l’année) ou 7 €/mois facturé au mois ; Plus 16 €/mois à l’année (22 € au mois) et Member 43 €/mois à l’année (58 € au mois). Une offre gratuite avec recharges quotidiennes de crédits est proposée."
   },
   "google-opal": {
     "summary_fr": "Crée des mini-apps IA en décrivant ce qu'elles doivent faire (Google Labs).",
@@ -16280,7 +16280,7 @@
   },
   "graphite": {
     "summary_fr": "Plateforme de révision de code pour GitHub avec des PR empilés, une révision par l'IA et une file d'attente de fusion.",
-    "description_fr": "Graphite est une plateforme de révision de code pour les équipes sur GitHub. Il prend en charge les demandes d'extraction empilées via sa CLI et son application Web, fournit des analyses d'IA, une file d'attente de fusion et des informations. Les agents Cursor Cloud sont désormais intégrés afin que les utilisateurs puissent créer et envoyer des modifications à partir d'une pull request. Un plan Hobby est gratuit pour les référentiels personnels; Starter coûte et Team par utilisateur et par mois, facturés annuellement.",
+    "description_fr": "Graphite est une plateforme de révision de code pour les équipes sur GitHub. Elle prend en charge les pull requests empilées via sa CLI et son application web, fournit des revues IA, une file d'attente de fusion et des analyses. Les agents Cursor Cloud sont intégrés pour créer et livrer des changements depuis une pull request. Hobby est gratuit pour les dépôts personnels ; Starter et Team sont des forfaits payants avec facturation annuelle.",
     "features_fr": [
       "Plateforme de révision de code pour GitHub avec des PR empilés, une révision par l'IA et une file d'attente de fusion.",
       "Graphite est une plateforme de révision de code pour les équipes sur GitHub.",
@@ -16304,11 +16304,11 @@
       },
       {
         "title": "Lance un premier usage",
-        "description": "plateforme de révision de code pour GitHub avec des PR empilés, une révision par l'IA et une file d'attente de fusion."
+        "description": "Les agents Cursor Cloud sont intégrés : tu peux créer et livrer des changements depuis une pull request sans quitter la PR."
       },
       {
         "title": "Contrôle le résultat",
-        "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
+        "description": "Hobby est gratuit pour les dépôts personnels. Starter et Team sont des forfaits payants avec facturation annuelle."
       }
     ],
     "tags_fr": [
@@ -16400,7 +16400,7 @@
   },
   "greta-sh": {
     "summary_fr": "Créateur d'applis et de sites IA dont le site publie seul du contenu SEO/AEO et corrige ses problèmes.",
-    "description_fr": "Créateur d'applis et de sites IA dont le site publie seul du contenu SEO/AEO et corrige ses problèmes.",
+    "description_fr": "Greta.sh crée un site ou une appli full stack à partir d'une description, puis son mode « self-growing » recherche ce que les clients cherchent, publie des pages pour Google et les moteurs de réponse IA, et corrige SEO et performance. Offre gratuite et formules payantes (Starter, Pro, Business).",
     "features_fr": [
       "Prompt-to-website/app builder",
       "automatic SEO and AEO content",
@@ -16900,7 +16900,7 @@
       },
       {
         "title": "Lance un premier usage",
-        "description": "modèles vidéo génératifs pour des vidéos de personnages expressifs."
+        "description": "Tu peux affiner un modèle pris en charge avec tes données et les recettes d'entraînement Hedra, puis le déployer sur la même stack, ou créer un bac à sable GPU isolé avec le SDK Hedra."
       },
       {
         "title": "Contrôle le résultat",
@@ -16935,7 +16935,7 @@
       },
       {
         "title": "Lance un premier usage",
-        "description": "scribe médical IA avec un forfait gratuit, ainsi que des outils de preuve et de dictée de bureau pour les cliniciens."
+        "description": "Heidi Health écoute les consultations et rédige notes, lettres et documents ; les forfaits payants ajoutent des fonctions supplémentaires."
       },
       {
         "title": "Contrôle le résultat",
@@ -17145,7 +17145,7 @@
       "bi",
       "conversational analytics"
     ],
-    "pricingNote_fr": "33 €/éditeur/mois (Professional); Team 68 €/éditeur/mois avec un essai de 14 jours. Une offre Community est gratuite."
+    "pricingNote_fr": "33 €/éditeur/mois (Professional) ; Team 68 €/éditeur/mois avec un essai de 14 jours. Une offre Community est gratuite."
   },
   "heygen": {
     "summary_fr": "HeyGen est une plateforme text-to-video qui utilise des avatars IA et le lip-sync pour créer des vidéos à partir de scripts, de présentations PowerPoint ou d'URL. Elle propose la traduction vidéo en temps réel et le clonage de voix.",
@@ -17228,7 +17228,7 @@
   },
   "higgsfield": {
     "summary_fr": "Plateforme d'IA pour la création d'images, de vidéo et de voix, avec un agent IA.",
-    "description_fr": "Higgsfield permet aux créateurs de générer des images, des vidéos et de la voix à partir de prompts ou de références, puis de modifier, d'augmenter la résolution et d'automatiser les flux de travail avec un agent IA, sur le web et sur mobile. Il rassemble de nombreux modèles tiers (par exemple Kling, Nano Banana) avec des préréglages cinématographiques. Une offre gratuite propose des modèles limités avec un filigrane; les offres payantes commencent par Starter à environ par mois, et les prix changent fréquemment.",
+    "description_fr": "Higgsfield permet aux créateurs de générer images, vidéos et voix à partir de prompts ou de références, puis de modifier, d'augmenter la résolution et d'automatiser des flux avec un agent IA sur le web et le mobile. Il regroupe de nombreux modèles tiers avec des préréglages cinématographiques. Une offre gratuite propose des modèles limités avec filigrane ; les forfaits payants commencent par Starter, et les prix évoluent souvent.",
     "tags_fr": [
       "génération vidéo",
       "génération d'images",
@@ -17257,14 +17257,14 @@
       },
       {
         "title": "Lance un premier usage",
-        "description": "plateforme d'IA pour la création d'images, de vidéo et de voix, avec un agent IA."
+        "description": "Genjutsu sur la page est décrit comme un flux : une importation, puis de nouvelles versions, y compris le transfert de mouvement."
       },
       {
         "title": "Contrôle le résultat",
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
-    "pricingNote_fr": "Une offre gratuite (0 €) propose des modèles limités avec filigrane; des offres payantes sont affichées, mais les montants publics étaient promotionnels (Black Friday jusqu’à −70 %) et ne sont pas utilisés comme prix normal."
+    "pricingNote_fr": "Une offre gratuite (0 €) propose des modèles limités avec filigrane ; des offres payantes sont affichées, mais les montants publics étaient promotionnels (Black Friday jusqu’à −70 %) et ne sont pas utilisés comme prix normal."
   },
   "hippocraticai": {
     "summary_fr": "Agents IA de santé pour le suivi des patients.",
@@ -18482,12 +18482,12 @@
   },
   "ifttt": {
     "summary_fr": "Service sans code reliant plus de 1 000 applications et appareils via de simples applets à déclenchement.",
-    "description_fr": "IFTTT connecte plus de 1 000 services, notamment les applications Google, les webhooks, Discord, Slack et les appareils domestiques intelligents, via des applets qui exécutent une action lorsqu'un déclencheur se déclenche. Il s'adresse aux particuliers et aux petites entreprises plutôt qu'aux flux de travail complexes des entreprises. Un forfait gratuit permet d'utiliser des applets publiées ; les niveaux payants commencent à 2,71 € par mois, facturés annuellement et à 8,13 € par mois pour les fonctionnalités en plusieurs étapes et de filtrage.",
+    "description_fr": "IFTTT connecte plus de 1 000 services, notamment les applications Google, les webhooks, Discord, Slack et les appareils domestiques intelligents, via des applets qui exécutent une action lorsqu'un déclencheur se déclenche. Il s'adresse aux particuliers et aux petites entreprises plutôt qu'aux flux de travail complexes des entreprises. Un forfait gratuit permet d'utiliser des applets publiées ; les forfaits payants ajoutent des fonctions multi-étapes et de filtrage.",
     "features_fr": [
       "Service sans code reliant plus de 1 000 applications et appareils via de simples applets à déclenchement.",
       "IFTTT connecte plus de 1 000 services, notamment les applications Google, les webhooks, Discord, Slack et les appareils domestiques intelligents, via des applets qui exécutent une action lorsqu'un déclencheur se déclenche.",
       "Il s'adresse aux particuliers et aux petites entreprises plutôt qu'aux flux de travail complexes des entreprises.",
-      "Un forfait gratuit permet d'utiliser des applets publiées ; les niveaux payants commencent à 2,71 € par mois, facturés annuellement et à 8,13 € par mois pour les fonctionnalités en plusieurs étapes et de filtrage."
+      "Un forfait gratuit permet d'utiliser des applets publiées ; les forfaits payants ajoutent des fonctions multi-étapes et de filtrage."
     ],
     "howToUse_fr": [
       {
@@ -18510,7 +18510,7 @@
       },
       {
         "title": "Contrôle le résultat",
-        "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
+        "description": "Passe à un forfait payant lorsque tu as besoin d'applets multi-étapes ou de filtres."
       }
     ],
     "tags_fr": [
@@ -18519,7 +18519,7 @@
       "sans code",
       "applets"
     ],
-    "pricingNote_fr": "Gratuit, puis 1,89 €/mois (Starter, facturé à l’année; 22,69 €/an). Pro est à 4,97 €/mois facturé à l’année et Pro+ à 12,66 €/mois facturé à l’année."
+    "pricingNote_fr": "Gratuit, puis 1,89 €/mois (Starter, facturé à l’année ; 22,69 €/an). Pro est à 4,97 €/mois facturé à l’année et Pro+ à 12,66 €/mois facturé à l’année."
   },
   "illustroke": {
     "summary_fr": "Illustroke utilise l'IA pour générer des illustrations vectorielles (format SVG) à partir de prompts textuels simples. Il est idéal pour les web designers, aux créateurs de contenu et aux marketeurs qui ont besoin rapidement d'un art vectoriel unique et redimensionnable.",
@@ -19358,7 +19358,7 @@
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
-    "pricingNote_fr": "Pro 62 €/mois par siège (53 €/mois facturé à l’année), avec un essai de 7 jours; pas d’offre gratuite."
+    "pricingNote_fr": "Pro 62 €/mois par siège (53 €/mois facturé à l’année), avec un essai de 7 jours ; pas d’offre gratuite."
   },
   "jasper-art": {
     "summary_fr": "Crée des images produit de haute qualité, conformes à la marque, à l'échelle de l'entreprise avec Jasper Image Pipelines. Génère des visuels produit au pixel près, à une vitesse 10× supérieure et pour un coût jusqu'à 50 % inférieur.",
@@ -19641,7 +19641,7 @@
         "description": "Abonne-toi à Starter, Hobby, Pro ou Ultra, en mensuel ou en annuel, pour des téléchargements sans filigrane à usage commercial et un quota de crédits plus élevé."
       }
     ],
-    "pricingNote_fr": "L’offre gratuite inclut des crédits d’essai (le montant exact n’est pas publié comme un plan mensuel). Starter 9 €/mois (3 000 crédits) ou 7 €/mois en facturation annuelle (86 €/an); Hobby 18 €/mois (7 500) ou 14 €/mois en annuel (171 €/an); Pro 31 €/mois (15 000) ou 25 €/mois en annuel (300 €/an); Ultra 53 €/mois (30 000) ou 48 €/mois en annuel (578 €/an)."
+    "pricingNote_fr": "L’offre gratuite inclut des crédits d’essai (le montant exact n’est pas publié comme un plan mensuel). Starter 9 €/mois (3 000 crédits) ou 7 €/mois en facturation annuelle (86 €/an) ; Hobby 18 €/mois (7 500) ou 14 €/mois en annuel (171 €/an) ; Pro 31 €/mois (15 000) ou 25 €/mois en annuel (300 €/an) ; Ultra 53 €/mois (30 000) ou 48 €/mois en annuel (578 €/an)."
   },
   "juicebox": {
     "summary_fr": "Plateforme de recrutement IA qui recherche plus de 800 millions de profils, vérifie les candidats et mène des actions de sensibilisation.",
@@ -19723,7 +19723,7 @@
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
-    "pricingNote_fr": "L’offre gratuite inclut 15 tâches par jour et 3 tâches en parallèle; les limites plus hautes viennent avec Google AI Pro (21,99 €/mois, prix officiel en €) et Ultra (à partir de 99,99 €/mois)."
+    "pricingNote_fr": "L’offre gratuite inclut 15 tâches par jour et 3 tâches en parallèle ; les limites plus hautes viennent avec Google AI Pro (21,99 €/mois, prix officiel en €) et Ultra (à partir de 99,99 €/mois)."
   },
   "julius-ai": {
     "summary_fr": "Assistant IA pour l'analyse et la visualisation de données.",
@@ -19895,7 +19895,7 @@
       "confidentialité",
       "assistant"
     ],
-    "pricingNote_fr": "4,52 €/mois (Starter); Professional 8,14 €/mois et Ultimate 20,81 €/mois."
+    "pricingNote_fr": "4,52 €/mois (Starter) ; Professional 9,05 €/mois et Ultimate 22,62 €/mois."
   },
   "kahoot": {
     "summary_fr": "Quiz interactifs, avec génération de questions par IA.",
@@ -20706,7 +20706,7 @@
         ]
       }
     ],
-    "pricingNote_fr": "Le plan et la première publication sont offerts. Un essai de 7 jours commence quand tu ajoutes une carte. Starter 44 €/mois; Growth 133 €/mois; Pro 267 €/mois; ou une licence à vie 177 € une fois (remboursable 30 jours)."
+    "pricingNote_fr": "Le plan et la première publication sont offerts. Un essai de 7 jours commence quand tu ajoutes une carte. Starter 44 €/mois ; Growth 133 €/mois ; Pro 267 €/mois ; ou une licence à vie 177 € une fois (remboursable 30 jours)."
   },
   "kling": {
     "summary_fr": "Studio IA de Kuaishou pour la génération de vidéos et d'images.",
@@ -20746,7 +20746,7 @@
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
-    "pricingNote_fr": "Une offre gratuite (0 €) donne des crédits pour essayer les modèles; les abonnements payants ajoutent plus de crédits, une plus haute résolution et une génération plus rapide."
+    "pricingNote_fr": "Une offre gratuite (0 €) donne des crédits pour essayer les modèles ; les abonnements payants ajoutent plus de crédits, une plus haute résolution et une génération plus rapide."
   },
   "klipa-ai": {
     "summary_fr": "Une boîte à outils vidéo en ligne qui transforme les vidéos longues en clips verticaux avec sous-titres animés, suppression des silences et hésitations, doublage et scripts écrits par IA.",
@@ -20814,12 +20814,12 @@
   },
   "knowt": {
     "summary_fr": "Plateforme d'étude sur l'IA avec des flashcards, des résumés de cours, des tests pratiques et une préparation aux examens AP.",
-    "description_fr": "Knowt propose des outils d'étude en IA : cartes mémoire avec mode d'apprentissage, enregistrement de cours et résumé en notes et tests, tutorat vocal et préparation aux examens AP. Il se positionne comme une alternative gratuite à Quizlet. Le forfait Basic est gratuit avec une création de fichiers illimitée ; Ultra coûte 11,75 € par mois, facturé annuellement (135,71 € d'avance) avec un essai de trois jours. Des forfaits distincts sont proposés pour les étudiants et les enseignants.",
+    "description_fr": "Knowt propose des outils d'étude en IA : cartes mémoire avec mode d'apprentissage, enregistrement de cours et résumés en notes, et modes d'entraînement. Commence sur Basic gratuitement ; Ultra et Max sont payants.",
     "features_fr": [
       "Plateforme d'étude sur l'IA avec des flashcards, des résumés de cours, des tests pratiques et une préparation aux examens AP.",
       "Knowt propose des outils d'étude en IA : cartes mémoire avec mode d'apprentissage, enregistrement de cours et résumé en notes et tests, tutorat vocal et préparation aux examens AP.",
       "Il se positionne comme une alternative gratuite à Quizlet.",
-      "Le forfait Basic est gratuit avec une création de fichiers illimitée ; Ultra coûte 11,75 € par mois, facturé annuellement (135,71 € d'avance) avec un essai de trois jours."
+      "Le forfait Basic est gratuit avec une création de fichiers illimitée ; Ultra et Max sont des forfaits payants."
     ],
     "howToUse_fr": [
       {
@@ -20842,7 +20842,7 @@
       },
       {
         "title": "Contrôle le résultat",
-        "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
+        "description": "Commence sur Basic, sans frais et avec une création de fichiers illimitée. Passe à Ultra ou Max si tu as besoin de limites plus élevées."
       }
     ],
     "tags_fr": [
@@ -20851,7 +20851,7 @@
       "quizlet alternative",
       "lecture notes"
     ],
-    "pricingNote_fr": "7,23 €/mois (Ultra, facturé à l’année; 86,85 € réglés d’avance). Ultra au mois coûte 22,61 €/mois. Une offre Basic gratuite est proposée."
+    "pricingNote_fr": "7,23 €/mois (Ultra, facturé à l’année ; 86,85 € réglés d’avance). Ultra au mois coûte 22,61 €/mois. Une offre Basic gratuite est proposée."
   },
   "koala": {
     "summary_fr": "Articles de blog SEO complets générés à partir d'un mot-clé.",
@@ -22249,7 +22249,7 @@
       "linkedin",
       "prospects database"
     ],
-    "pricingNote_fr": "62 €/mois (facturé au mois; 50 € à l’année)."
+    "pricingNote_fr": "62 €/mois (facturé au mois ; 50 € à l’année)."
   },
   "lensa-ai": {
     "summary_fr": "Lensa est l'éditeur photo par IA pour les looks tendance que les créateurs apprécient. Golden Hour, Halo Flash, Y2K Digicam et d'autres — en une pression, sans compétence requise.",
@@ -27831,17 +27831,17 @@
   },
   "notta": {
     "summary_fr": "Preneur de notes IA qui enregistre, transcrit, traduit et résume les réunions et les fichiers audio.",
-    "description_fr": "Notta enregistre les réunions en ligne via un robot ou sur un appareil sans robot, transcrit les liens audio, vidéo et YouTube téléchargés, et produit des résumés et des actions. Il propose également une traduction en temps réel, un enregistrement d'écran, une application de bureau, un connecteur MCP et un enregistreur matériel. Un forfait gratuit est disponible ; Pro coûte 7,39 € par mois, facturé annuellement, et Business 15,08 € par mois. Son appareil Memo peut être connecté à un téléphone pour enregistrer des appels et des réunions en personne.",
+    "description_fr": "Notta enregistre les réunions en ligne via un robot ou sur un appareil sans robot, transcrit les fichiers audio importés et transforme la parole en notes et résumés dans plusieurs langues. Offre gratuite et forfaits payants Pro et Business.",
     "features_fr": [
       "Preneur de notes IA qui enregistre, transcrit, traduit et résume les réunions et les fichiers audio.",
       "Notta enregistre les réunions en ligne via un robot ou sur un appareil sans robot, transcrit les liens audio, vidéo et YouTube téléchargés, et produit des résumés et des actions.",
       "Il propose également une traduction en temps réel, un enregistrement d'écran, une application de bureau, un connecteur MCP et un enregistreur matériel.",
-      "Un forfait gratuit est disponible ; Pro coûte 7,39 € par mois, facturé annuellement, et Business 15,08 € par mois."
+      "Une offre gratuite est disponible ; Pro et Business sont des forfaits payants."
     ],
     "howToUse_fr": [
       {
         "title": "Ouvre Notta",
-        "description": "Rends-toi sur notta.ai pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.",
+        "description": "Ouvre Notta et commence avec l'offre gratuite, ou passe à Pro ou Business si tu as besoin de plus de capacité.",
         "links": [
           {
             "label": "Notta",
@@ -27868,7 +27868,7 @@
       "traduction",
       "résumés"
     ],
-    "pricingNote_fr": "7 €/mois (Pro, facturé à l’année; 83,99 €/an). Business 15,83 €/mois facturé à l’année (189,99 €/an). Prix officiels en €. Une offre gratuite à 0 € est proposée."
+    "pricingNote_fr": "7 €/mois (Pro, facturé à l’année ; 83,99 €/an). Business 15,83 €/mois facturé à l’année (189,99 €/an). Prix officiels en €. Une offre gratuite à 0 € est proposée."
   },
   "novelai": {
     "summary_fr": "Service d'abonnement pour l'écriture d'histoires IA et la génération d'images de style anime.",
@@ -28980,7 +28980,7 @@
       "audio",
       "speech"
     ],
-    "pricingNote_fr": "Offre Basic gratuite; Pro 8–15 €/utilisateur/mois."
+    "pricingNote_fr": "Offre Basic gratuite ; Pro 8–15 €/utilisateur/mois."
   },
   "otterly": {
     "summary_fr": "Suivi de la visibilité de ta marque dans ChatGPT, Perplexity et Google IA.",
@@ -29204,7 +29204,7 @@
       }
     ],
     "statusNote_fr": "Arrêté : RWS a acquis la propriété intellectuelle de Papercup le 26 juin 2025 et l'outil autonome a fermé. Aucune fiche successeur. papercup.com redirige vers une page RWS de localisation pour le doublage et la voix off par IA.",
-    "pricingNote_fr": "Détails tarifaires sur rws.com : consulte la page officielle."
+    "pricingNote_fr": "Le service autonome Papercup est fermé : RWS a acquis la propriété intellectuelle en juin 2025. Il n'y a plus de formule Papercup à acheter ; le domaine redirige vers l'offre de localisation RWS pour le doublage et la voix off par IA."
   },
   "paperguide": {
     "summary_fr": "Assistant de recherche académique : trouver, lire et citer des articles.",
@@ -30885,7 +30885,7 @@
         "description": "Choisis Managed Credits ou Bring Your Own Key si tu as besoin de plus."
       }
     ],
-    "pricingNote_fr": "Essai gratuit (30 crédits, sans carte); Managed Credits 63 €/mois (300 crédits); BYOK 36 €/mois."
+    "pricingNote_fr": "Essai gratuit (30 crédits, sans carte) ; Managed Credits 63 €/mois (300 crédits) ; BYOK 36 €/mois."
   },
   "plurai-simulation": {
     "summary_fr": "Couche de simulation qui place un agent IA dans un monde simulé pour tester des runs, scorer les échecs et améliorer l’agent avant que les utilisateurs ne rencontrent les mêmes problèmes.",
@@ -32779,7 +32779,7 @@
       "newsletters",
       "highlights"
     ],
-    "pricingNote_fr": "9,04 €/mois (Full Readwise, facturé à l’année). Reader 7,23 €/mois facturé à l’année; Highlights 5,06 €/mois facturé à l’année."
+    "pricingNote_fr": "9,04 €/mois (Full Readwise, facturé à l’année). Reader 7,23 €/mois facturé à l’année ; Highlights 5,06 €/mois facturé à l’année."
   },
   "recapo": {
     "summary_fr": "Éditeur vidéo par IA qui transforme de longues séquences en courts extraits prêts à publier.",
@@ -33894,12 +33894,12 @@
   },
   "retool": {
     "summary_fr": "Plateforme de création d'outils internes et d'agents d'IA connectés à des bases de données, des API et des LLM.",
-    "description_fr": "Retool est utilisé pour créer, déployer et gérer des logiciels internes. Les développeurs le connectent à des bases de données, des API et des LLM, puis assemblent des interfaces et des flux de travail avec des composants et du code, et la société propose désormais également un harnais pour exécuter et gouverner les agents d'IA. Le forfait gratuit est gratuit ; facture de forfaits payants par constructeur, à partir de 9 € par constructeur et par mois et par an, avec une tarification distincte par utilisateur interne.",
+    "description_fr": "Retool sert à créer, déployer et gérer des logiciels internes. Les développeurs le connectent à des bases de données, des API et des LLM, puis assemblent interfaces et workflows avec des composants et du code ; l'éditeur propose aussi un harnais pour exécuter et gouverner des agents IA. Offre gratuite et formules payantes facturées par constructeur, avec une tarification distincte par utilisateur interne.",
     "features_fr": [
       "Plateforme de création d'outils internes et d'agents d'IA connectés à des bases de données, des API et des LLM.",
       "Retool est utilisé pour créer, déployer et gérer des logiciels internes.",
       "Les développeurs le connectent à des bases de données, des API et des LLM, puis assemblent des interfaces et des flux de travail avec des composants et du code, et la société propose désormais également un harnais pour exécuter et gouverner les agents d'IA.",
-      "Le forfait gratuit est gratuit ; facture de forfaits payants par constructeur, à partir de 9 € par constructeur et par mois et par an, avec une tarification distincte par utilisateur interne."
+      "Offre gratuite et formules payantes facturées par constructeur, avec une tarification distincte par utilisateur interne."
     ],
     "howToUse_fr": [
       {
@@ -33922,7 +33922,7 @@
       },
       {
         "title": "Contrôle le résultat",
-        "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
+        "description": "Consulte les tarifs constructeur sur la page officielle. L'offre gratuite et les formules payantes facturent par constructeur."
       }
     ],
     "tags_fr": [
@@ -34557,7 +34557,7 @@
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
-    "pricingNote_fr": "L’offre gratuite (0 €) donne 125 crédits une fois; Standard coûte 11 €/mois facturé à l’année (14 € au mois) avec 625 crédits, Pro 25 €/mois à l’année (32 € au mois) avec 2 250 crédits, et Max 69 €/mois à l’année (86 € au mois)."
+    "pricingNote_fr": "L’offre gratuite (0 €) donne 125 crédits une fois ; Standard coûte 11 €/mois facturé à l’année (14 € au mois) avec 625 crédits, Pro 25 €/mois à l’année (32 € au mois) avec 2 250 crédits, et Max 69 €/mois à l’année (86 € au mois)."
   },
   "rytr": {
     "summary_fr": "Un gestionnaire de relations IA qui tu briefe sur les clients, prépare les réunions et rédige les suivis ; rédige également du contenu.",
@@ -36521,7 +36521,7 @@
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
-    "pricingNote_fr": "Gratuit pour les sites hobby; offres payantes à partir de 20 €/mois, prix officiel en €, plus 20 €/mois par utilisateur supplémentaire."
+    "pricingNote_fr": "Gratuit pour les sites hobby ; offres payantes à partir de 20 €/mois, prix officiel en €, plus 20 €/mois par utilisateur supplémentaire."
   },
   "simplified": {
     "summary_fr": "Suite marketing tout-en-un : design, rédaction IA, vidéo et réseaux.",
@@ -37374,12 +37374,12 @@
   },
   "soundful": {
     "summary_fr": "Générateur de musique IA produisant des morceaux libres de droits, avec des licences pour les créateurs et les marques.",
-    "description_fr": "Soundful génère de la musique originale à partir de styles prédéfinis en utilisant des modèles formés avec des producteurs, et vend des licences pour les créateurs et les marques, y compris de la musique de marque personnalisée. Le forfait Free permet des générations de morceaux illimitées, 25 styles gratuits et un téléchargement MP3 par mois sous licence personnelle. Le forfait Plus coûte par utilisateur et par mois, facturé annuellement, les niveaux supérieurs ajoutant des téléchargements et des licences.",
+    "description_fr": "Soundful génère de la musique originale à partir de styles prédéfinis avec des modèles entraînés avec des producteurs, et vend des licences pour créateurs et marques, y compris de la musique de marque personnalisée. Le forfait Free permet des générations illimitées, des styles gratuits et un téléchargement MP3 mensuel en licence personnelle. Plus et les niveaux supérieurs ajoutent des téléchargements et des licences.",
     "features_fr": [
       "Générateur de musique IA produisant des morceaux libres de droits, avec des licences pour les créateurs et les marques.",
       "Soundful génère de la musique originale à partir de styles prédéfinis en utilisant des modèles formés avec des producteurs, et vend des licences pour les créateurs et les marques, y compris de la musique de marque personnalisée.",
       "Le forfait Free permet des générations de morceaux illimitées, 25 styles gratuits et un téléchargement MP3 par mois sous licence personnelle.",
-      "Le forfait Plus coûte par utilisateur et par mois, facturé annuellement, les niveaux supérieurs ajoutant des téléchargements et des licences."
+      "Le forfait Plus et les niveaux supérieurs sont payants, avec facturation annuelle, et ajoutent des téléchargements et des options de licence."
     ],
     "howToUse_fr": [
       {
@@ -37398,7 +37398,7 @@
       },
       {
         "title": "Lance un premier usage",
-        "description": "générateur de musique IA produisant des morceaux libres de droits, avec des licences pour les créateurs et les marques."
+        "description": "Télécharge le MP3 autorisé par ta licence personnelle ce mois-ci. Soundful vend des licences pour créateurs et marques ; Plus et les niveaux supérieurs ajoutent des téléchargements."
       },
       {
         "title": "Contrôle le résultat",
@@ -39074,7 +39074,7 @@
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
-    "pricingNote_fr": "L’offre gratuite (0 €) donne 50 crédits par jour sur le modèle gratuit (v6-mini); Pro coûte 7 €/mois et Premier 22 €/mois facturé à l’année (9 € et 27 € au mois), avec les meilleurs modèles et l’usage commercial."
+    "pricingNote_fr": "L’offre gratuite (0 €) donne 50 crédits par jour sur le modèle gratuit (v6-mini) ; Pro coûte 7 €/mois et Premier 22 €/mois facturé à l’année (9 € et 27 € au mois), avec les meilleurs modèles et l’usage commercial."
   },
   "sunsama": {
     "summary_fr": "Planificateur quotidien combinant tâches, calendrier et rituels de planification guidée.",
@@ -39322,12 +39322,12 @@
   },
   "superwhisper": {
     "summary_fr": "Dictée voix-texte pour macOS, Windows, iOS et Android, travaillant hors ligne ou dans le cloud.",
-    "description_fr": "Superwhisper permet aux utilisateurs de dicter dans n'importe quelle application avec un raccourci clavier et transforme la parole en texte formaté, avec des modes tels que formel, informel et légal. Il fonctionne hors ligne ou avec des modèles cloud, prend en charge plus de 100 langues et permet aux utilisateurs d'apporter leurs propres clés API IA. Les fonctionnalités Pro peuvent être essayées gratuitement pour 3 000 mots ; Pro coûte 7,68 € par mois, avec des options annuelles et à vie.",
+    "description_fr": "Superwhisper permet de dicter dans n'importe quelle application avec un raccourci clavier et transforme la parole en texte formaté en local ou via des modèles cloud. Les fonctions Pro peuvent être essayées gratuitement sur un volume limité ; Pro et l'option à vie sont payants.",
     "features_fr": [
       "Dictée voix-texte pour macOS, Windows, iOS et Android, travaillant hors ligne ou dans le cloud.",
       "Superwhisper permet aux utilisateurs de dicter dans n'importe quelle application avec un raccourci clavier et transforme la parole en texte formaté, avec des modes tels que formel, informel et légal.",
       "Il fonctionne hors ligne ou avec des modèles cloud, prend en charge plus de 100 langues et permet aux utilisateurs d'apporter leurs propres clés API IA.",
-      "Les fonctionnalités Pro peuvent être essayées gratuitement pour 3 000 mots ; Pro coûte 7,68 € par mois, avec des options annuelles et à vie."
+      "Les fonctions Pro peuvent être essayées gratuitement sur un volume limité ; Pro et l'option à vie sont des forfaits payants."
     ],
     "howToUse_fr": [
       {
@@ -39346,7 +39346,7 @@
       },
       {
         "title": "Lance un premier usage",
-        "description": "Commence par : dictée voix-texte pour macOS, Windows, iOS et Android, travaillant hors ligne ou dans le cloud."
+        "description": "Ça fonctionne hors ligne ou avec des modèles cloud, prend en charge plus de 100 langues et permet d'utiliser tes propres clés API. Passe à Pro ou à l'option à vie pour un accès complet."
       },
       {
         "title": "Contrôle le résultat",
@@ -41470,12 +41470,12 @@
   },
   "trae": {
     "summary_fr": "Environnement de codage IA (TraeCode) et assistant de travail (TraeWork) de ByteDance.",
-    "description_fr": "Trae est un ensemble d'outils d'IA de ByteDance. TraeCode est un environnement de codage avec un agent IA qui écrit et modifie le code, et TraeWork est un assistant de travail général disponible sur ordinateur et sur le Web. La page des forfaits répertorie Lite à 3 € par mois, Pro à 9 € par mois avec 18 € d'utilisation de base et une saisie semi-automatique illimitée, et Pro+ à 27 € par mois. Une version gratuite peut être téléchargée.",
+    "description_fr": "Trae est un ensemble d'outils d'IA de ByteDance. TraeCode est un environnement de codage avec un agent IA qui écrit et modifie le code, et TraeWork est un assistant de travail général disponible sur ordinateur et sur le Web. Les forfaits Lite, Pro et Pro+ sont listés sur la page des tarifs. Une version gratuite peut être téléchargée.",
     "features_fr": [
       "Environnement de codage IA (TraeCode) et assistant de travail (TraeWork) de ByteDance.",
       "Trae est un ensemble d'outils d'IA de ByteDance.",
       "TraeCode est un environnement de codage avec un agent IA qui écrit et modifie le code, et TraeWork est un assistant de travail général disponible sur ordinateur et sur le Web.",
-      "La page des forfaits répertorie Lite à 3 € par mois, Pro à 9 € par mois avec 18 € d'utilisation de base et une saisie semi-automatique illimitée, et Pro+ à 27 € par mois."
+      "La page des forfaits répertorie les forfaits Lite, Pro et Pro+."
     ],
     "howToUse_fr": [
       {
@@ -41498,7 +41498,7 @@
       },
       {
         "title": "Contrôle le résultat",
-        "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
+        "description": "Sur la page des forfaits, compare les offres Lite, Pro et Pro+ et choisis celle qui correspond à ton usage."
       }
     ],
     "tags_fr": [
@@ -41537,7 +41537,7 @@
         "description": "Choisis Pro Annual, Pro 2 Months ou Pro 3 Years si tu veux les modèles plus avancés et plus de jetons."
       }
     ],
-    "pricingNote_fr": "Essai gratuit (traduction de base). Pro Annual 46 €/an (équivalent 4 €/mois, 2 M de jetons/mois); Pro 2 Months 12 € tous les 2 mois (équivalent 6 €/mois, 2,5 M de jetons/mois); Pro 3 Years 54 € tous les 36 mois (équivalent 1 €/mois, 1,5 M de jetons/mois)."
+    "pricingNote_fr": "Essai gratuit (traduction de base). Pro Annual 46 €/an (équivalent 4 €/mois, 2 M de jetons/mois) ; Pro 2 Months 12 € tous les 2 mois (équivalent 6 €/mois, 2,5 M de jetons/mois) ; Pro 3 Years 54 € tous les 36 mois (équivalent 1 €/mois, 1,5 M de jetons/mois)."
   },
   "tray-ai": {
     "summary_fr": "Plateforme iPaaS d'entreprise pensée pour l'IA : agents, gouvernance MCP et plus de 700 applications.",
@@ -42164,7 +42164,7 @@
       "clonage de voix",
       "personnages"
     ],
-    "pricingNote_fr": "4,52 €/mois (Basic) ou 44,34 €/an. La génération et l’écoute sont gratuites sur chaque offre; l’offre Free impose une attribution."
+    "pricingNote_fr": "4,52 €/mois (Basic) ou 48,86 €/an. La génération et l’écoute sont gratuites sur chaque offre ; l’offre Free impose une attribution."
   },
   "typeform": {
     "summary_fr": "Formulaires et sondages conversationnels, avec génération par IA.",
@@ -43416,7 +43416,7 @@
         "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
       }
     ],
-    "pricingNote_fr": "Sur l’API Gemini, il n’est disponible que sur l’offre payante (pas sur l’offre gratuite), à partir de 0,045 € par seconde pour Veo 3.1 Lite en 720p; Google indique que les points de terminaison preview de Veo 3.1 ont été arrêtés le 22 octobre 2026 au profit de Gemini Omni Flash."
+    "pricingNote_fr": "Sur l’API Gemini, il n’est disponible que sur l’offre payante (pas sur l’offre gratuite), à partir de 0,045 € par seconde pour Veo 3.1 Lite en 720p ; Google indique que les points de terminaison preview de Veo 3.1 ont été arrêtés le 22 octobre 2026 au profit de Gemini Omni Flash."
   },
   "vercel-ai-sdk": {
     "summary_fr": "Kit TypeScript open source pour créer des apps IA.",
@@ -43782,17 +43782,17 @@
   },
   "viggle": {
     "summary_fr": "Plateforme d'IA spatiale pour animer des personnages avec du mouvement, utilisée pour les mèmes, les jeux et une API.",
-    "description_fr": "Viggle anime les personnages en leur transférant du mouvement dans n'importe quelle scène. Les produits incluent Meme Maker pour échanger des personnages dans des vidéos, PINOC pour capturer des mouvements et exporter des animations 3D truquées au format FBX ou GLB, des jeux et une API de développement. Le forfait gratuit autorise cinq vidéos par jour ; Les forfaits Viggle payants commencent à 7,23 € par mois et l'API est payante à l'utilisation à 0,0090 € par crédit.",
+    "description_fr": "Viggle anime les personnages en leur transférant du mouvement dans n'importe quelle scène. Les produits incluent Meme Maker, PINOC, des jeux et une API développeur. L'offre gratuite autorise un quota quotidien limité ; des forfaits payants et une API à l'usage sont disponibles.",
     "features_fr": [
       "Plateforme d'IA spatiale pour animer des personnages avec du mouvement, utilisée pour les mèmes, les jeux et une API.",
       "Viggle anime les personnages en leur transférant du mouvement dans n'importe quelle scène.",
       "Les produits incluent Meme Maker pour échanger des personnages dans des vidéos, PINOC pour capturer des mouvements et exporter des animations 3D truquées au format FBX ou GLB, des jeux et une API de développement.",
-      "Le forfait gratuit autorise cinq vidéos par jour ; Les forfaits Viggle payants commencent à 7,23 € par mois et l'API est payante à l'utilisation à 0,0090 € par crédit."
+      "L'offre gratuite autorise un quota quotidien limité ; les forfaits payants et l'API à l'usage sont disponibles."
     ],
     "howToUse_fr": [
       {
         "title": "Ouvre Viggle",
-        "description": "Rends-toi sur viggle.ai pour créer un compte ou essayer l'outil si un accès sans inscription est proposé.",
+        "description": "Ouvre Viggle. L'offre gratuite autorise un quota quotidien limité ; les forfaits payants sont sur la page tarifs.",
         "links": [
           {
             "label": "Viggle",
@@ -43810,7 +43810,7 @@
       },
       {
         "title": "Contrôle le résultat",
-        "description": "Exporte, partage ou connecte ton environnement existant avant d'étendre l'usage en équipe."
+        "description": "Remixe des jeux avec ton personnage ou appelle l'API développeur. L'API est facturée à l'usage."
       }
     ],
     "tags_fr": [
@@ -46233,7 +46233,7 @@
       "collaboration",
       "agents"
     ],
-    "pricingNote_fr": "8,14 €/mois (Pro), avec un forfait de jetons inclus de 4,52 €, et Business à 24,43 € par siège et par mois."
+    "pricingNote_fr": "9,05 €/mois (Pro), avec un forfait de jetons inclus de 4,52 €, et Business à 27,14 € par siège et par mois."
   },
   "zencoder": {
     "summary_fr": "Agents de code IA intégrés à l'éditeur.",
@@ -48670,7 +48670,7 @@
         "description": "Lance un essai Starter ou Professional si tu as besoin de chats IA, de plus de volume ou de WhatsApp sur ton propre numéro. L’offre BLACK NOVEMBER « Pay 6, get 12 » est une promo, pas le tarif de liste régulier."
       }
     ],
-    "pricingNote_fr": "Dans l’UE, les tarifs s’affichent en euros. Gratuit 0 € pour toujours, sans carte — 100 chats/mois, pas de chats IA inclus, 1 siège, builder et modèles complets, WhatsApp seulement avec un numéro de test. Starter 40 €/mois, ou 32 €/mois facturés à l’année — 500 chats/mois (0,05 € par chat en plus), 100 chats IA, 2 sièges, intégrations et power-ups de base. Professional 100 €/mois, ou 80 €/mois facturés à l’année — 2 500 chats/mois (0,05 € par chat en plus), 300 chats IA, 3 sièges, sans marque Landbot, intégrations essentielles, support par chat en direct; WhatsApp avec ton propre numéro +100 € par mois. Business est sur devis. Promo : bannière BLACK NOVEMBER (« paie 6, reçois 12 » sur certains plans annuels, appliquée automatiquement). Les montants ci-dessus sont les tarifs réguliers, pas cette promotion."
+    "pricingNote_fr": "Dans l’UE, les tarifs s’affichent en euros. Gratuit 0 € pour toujours, sans carte — 100 chats/mois, pas de chats IA inclus, 1 siège, builder et modèles complets, WhatsApp seulement avec un numéro de test. Starter 40 €/mois, ou 32 €/mois facturés à l’année — 500 chats/mois (0,05 € par chat en plus), 100 chats IA, 2 sièges, intégrations et power-ups de base. Professional 100 €/mois, ou 80 €/mois facturés à l’année — 2 500 chats/mois (0,05 € par chat en plus), 300 chats IA, 3 sièges, sans marque Landbot, intégrations essentielles, support par chat en direct ; WhatsApp avec ton propre numéro +100 € par mois. Business est sur devis. Promo : bannière BLACK NOVEMBER (« paie 6, reçois 12 » sur certains plans annuels, appliquée automatiquement). Les montants ci-dessus sont les tarifs réguliers, pas cette promotion."
   },
   "langfuse": {
     "summary_fr": "Plateforme open source pour tracer, évaluer et observer tes apps et agents LLM, avec une offre cloud Hobby gratuite et une option auto-hébergée.",
@@ -48825,7 +48825,7 @@
         "description": "Ajoute Assistant Pro à +35 €/mois si tu veux un AI Assistant illimité et la préparation de séance. Les offres cabinet et EHR complet sont sur devis sur le site."
       }
     ],
-    "pricingNote_fr": "Offres individuelles uniquement. Gratuit — offre de base à 0 €/mois : notes IA via texte, dictée et envois seulement, thérapie individuelle seulement, assistant IA par chat avec un plafond mensuel, plus appels de téléconsultation sans IA. AI Notes 35 €/mois, forfait plat, séances illimitées — notes IA illimitées via vidéo, audio, dictée et envois, individus, couples ou familles, tous les modèles de notes, téléconsultation intégrée avec notes automatiques, plans de traitement (Golden Thread), applications mobile et bureau, assistant IA par chat avec un plafond mensuel. Option AI Assistant Pro +35 €/mois pour un assistant IA illimité et la préparation de séance (essai gratuit possible). Essai sans carte; garantie de remboursement de 30 jours. Remise étudiants ou associations annoncée sans montant public. Les offres cabinet par siège et le dossier patient complet payé à la séance n’affichent pas de prix de départ public."
+    "pricingNote_fr": "Offres individuelles uniquement. Gratuit — offre de base à 0 €/mois : notes IA via texte, dictée et envois seulement, thérapie individuelle seulement, assistant IA par chat avec un plafond mensuel, plus appels de téléconsultation sans IA. AI Notes 35 €/mois, forfait plat, séances illimitées — notes IA illimitées via vidéo, audio, dictée et envois, individus, couples ou familles, tous les modèles de notes, téléconsultation intégrée avec notes automatiques, plans de traitement (Golden Thread), applications mobile et bureau, assistant IA par chat avec un plafond mensuel. Option AI Assistant Pro +35 €/mois pour un assistant IA illimité et la préparation de séance (essai gratuit possible). Essai sans carte ; garantie de remboursement de 30 jours. Remise étudiants ou associations annoncée sans montant public. Les offres cabinet par siège et le dossier patient complet payé à la séance n’affichent pas de prix de départ public."
   },
   "virtual-staging-ai": {
     "summary_fr": "Home staging virtuel en un clic pour photos immobilières, y compris le retrait de meubles, avec un délai annoncé d’environ 10 secondes.",
@@ -48949,7 +48949,7 @@
         "description": "Abonne-toi à Pro ou Advanced si tu veux un entraînement hebdomadaire ou illimité — Pro à 7 €/mois facturés à l’année et Advanced à 18 €/mois facturés à l’année."
       }
     ],
-    "pricingNote_fr": "Starter gratuit — 5 sessions à vie (toute session d’entraînement de plus de 30 secondes compte comme un roleplay). Pro 7 €/mois facturés à l’année — jusqu’à 10 roleplays par semaine, roleplays IA en direct, retour sur les enregistrements envoyés, accès à la communauté. Advanced 18 €/mois facturés à l’année — roleplays illimités, données exclues de l’entraînement IA, lettre de remboursement pour le développement professionnel. Un basculeur Monthly / Annual « Save 40 % » est présent; Business (par siège, facturé à l’année) et Enterprise sont en démo / parler aux ventes, sans prix siège public."
+    "pricingNote_fr": "Starter gratuit — 5 sessions à vie (toute session d’entraînement de plus de 30 secondes compte comme un roleplay). Pro 7 €/mois facturés à l’année — jusqu’à 10 roleplays par semaine, roleplays IA en direct, retour sur les enregistrements envoyés, accès à la communauté. Advanced 18 €/mois facturés à l’année — roleplays illimités, données exclues de l’entraînement IA, lettre de remboursement pour le développement professionnel. Un basculeur Monthly / Annual « Save 40 % » est présent ; Business (par siège, facturé à l’année) et Enterprise sont en démo / parler aux ventes, sans prix siège public."
   },
   "anarlog": {
     "summary_fr": "Bloc-notes de réunion IA local et open source (ex-Hyprnote) : sans robot dans l’appel, données sur ton appareil, avec un Pro optionnel à 13 €/personne/mois.",
@@ -48980,7 +48980,7 @@
         "description": "Reste en Gratuit avec des modèles locaux ou tes clés, ou lance l’essai Pro de 30 jours pour la transcription cloud, la sync et le partage."
       }
     ],
-    "pricingNote_fr": "Gratuit 0 €/mois — notes de réunion privées et locales, avec modèles sur l’appareil ou tes propres clés API : transcription illimitée sur l’appareil, enregistrements locaux et lecteur audio, BYOK pour STT et IA, notes, dossiers et modèles communautaires, chat et exports, API locale, CLI, MCP et webhooks, étiquetage manuel des locuteurs. Pro 13 €/personne/mois ou 127 €/personne/an — tout le Gratuit, plus enregistrement et connexion automatiques planifiés, modèles personnalisés, contexte IA avancé et recherche web, dictée système, transcription cloud, LLM cloud, meilleure identification des locuteurs, synchro cloud (3 appareils perso ou 5 par membre d’espace), chiffrement de bout en bout, partage de notes, intégrations et automatisations perso, dossiers partagés, dictionnaires personnalisés, espaces d’équipe, membres/rôles, facturation centralisée par siège. Essai Pro officiel de 30 jours. Enterprise : sur devis, accompagné par les fondateurs (SSO/SCIM, politiques, audit, sous-domaine, données hébergées chez le client). Un avantage fondateur YC est mentionné sous condition; ce n’est pas un tarif public général."
+    "pricingNote_fr": "Gratuit 0 €/mois — notes de réunion privées et locales, avec modèles sur l’appareil ou tes propres clés API : transcription illimitée sur l’appareil, enregistrements locaux et lecteur audio, BYOK pour STT et IA, notes, dossiers et modèles communautaires, chat et exports, API locale, CLI, MCP et webhooks, étiquetage manuel des locuteurs. Pro 13 €/personne/mois ou 127 €/personne/an — tout le Gratuit, plus enregistrement et connexion automatiques planifiés, modèles personnalisés, contexte IA avancé et recherche web, dictée système, transcription cloud, LLM cloud, meilleure identification des locuteurs, synchro cloud (3 appareils perso ou 5 par membre d’espace), chiffrement de bout en bout, partage de notes, intégrations et automatisations perso, dossiers partagés, dictionnaires personnalisés, espaces d’équipe, membres/rôles, facturation centralisée par siège. Essai Pro officiel de 30 jours. Enterprise : sur devis, accompagné par les fondateurs (SSO/SCIM, politiques, audit, sous-domaine, données hébergées chez le client). Un avantage fondateur YC est mentionné sous condition ; ce n’est pas un tarif public général."
   },
   "arena": {
     "summary_fr": "Classement public des modèles d’IA (ex-LMArena) : tu confrontes deux modèles à l’aveugle et tu votes, gratuitement ; les évaluations entreprise se font sur devis.",
@@ -49042,7 +49042,7 @@
         "description": "Passe à Essentials, Pro ou Teams si tu as besoin d’un quota mensuel de crédits et d’un export de meilleure qualité."
       }
     ],
-    "pricingNote_fr": "Gratuit (Basic) 0 €/mois — 10 crédits IA à vie, 1 heure de médias vers le chat IA à vie, export jusqu’en 720p, 1 fichier d’export, 2 Go de stockage cloud; sans carte pour s’inscrire. Essentials 19,99 €/mois, ou 11,99 €/mois facturés à l’année (143,90 €/an) — 450 crédits IA/mois. Pro 23,99 €/mois. Offre équipes 49,99 € par créateur. Les 25 % Black Friday sur les plans annuels sont une promo, non utilisés comme prix normal."
+    "pricingNote_fr": "Gratuit (Basic) 0 €/mois — 10 crédits IA à vie, 1 heure de médias vers le chat IA à vie, export jusqu’en 720p, 1 fichier d’export, 2 Go de stockage cloud ; sans carte pour s’inscrire. Essentials 19,99 €/mois, ou 11,99 €/mois facturés à l’année (143,90 €/an) — 450 crédits IA/mois. Pro 23,99 €/mois. Offre équipes 49,99 € par créateur. Les 25 % Black Friday sur les plans annuels sont une promo, non utilisés comme prix normal."
   },
   "autosheet": {
     "summary_fr": "Agent IA pour Excel et Google Sheets (ex-GPT for Work) : tu nettoies, enrichis et analyses tes lignes en masse, avec un essai gratuit puis des plans à partir de 23 €/mois.",
@@ -49073,7 +49073,7 @@
         "description": "Passe à Standard ou Business quand tu as besoin de tous les modèles et de l’usage mensuel inclus."
       }
     ],
-    "pricingNote_fr": "Essai gratuit : installation gratuite, crédits offerts pour commencer, sans carte pour le premier usage. L’essai tourne sur GPT-5.6 Luna. Après l’essai, les offres commencent à 23 €/mois (Individual) avec 23 € d’usage inclus chaque mois; l’offre Team est à 41 €/siège/mois, aussi avec 23 € d’usage inclus par siège. L’abonnement débloque tous les modèles."
+    "pricingNote_fr": "Essai gratuit : installation gratuite, crédits offerts pour commencer, sans carte pour le premier usage. L’essai tourne sur GPT-5.6 Luna. Après l’essai, les offres commencent à 23 €/mois (Individual) avec 23 € d’usage inclus chaque mois ; l’offre Team est à 41 €/siège/mois, aussi avec 23 € d’usage inclus par siège. L’abonnement débloque tous les modèles."
   },
   "opera-ai": {
     "summary_fr": "Assistant IA gratuit intégré au navigateur Opera (ex-Aria) : tu résumes tes pages, génères des images et analyses des fichiers, sans compte obligatoire.",
@@ -49104,7 +49104,7 @@
         "description": "Connecte-toi éventuellement à un compte Opera gratuit si tu veux garder l’historique des chats et une limite d’images plus haute."
       }
     ],
-    "pricingNote_fr": "Gratuit dans le navigateur Opera (Opera One, Opera GX, Opera Air, et Opera pour Android et iOS), sans compte ni inscription obligatoires. Un compte Opera gratuit est optionnel et débloque l’historique des chats (conservé un an si tu es connecté; six heures sinon) et des limites plus hautes de génération d’images. La génération d’images est soumise à un usage raisonnable; la FAQ officielle ne publie pas de plafond quotidien chiffré. Aucun plan payant n’est publié pour Opera AI lui-même. Opera Neon est un autre navigateur Opera, mentionné dans la FAQ officielle pour des limites d’images plus hautes; ce n’est pas une offre payante d’Opera AI. D’autres options payantes Opera, comme VPN Pro, sont des produits séparés, pas des plans d’Opera AI. FAQ officielle : tu dois avoir au moins 18 ans; Opera AI n’est pas disponible en fenêtre privée ni dans une liste de pays et régions."
+    "pricingNote_fr": "Gratuit dans le navigateur Opera (Opera One, Opera GX, Opera Air, et Opera pour Android et iOS), sans compte ni inscription obligatoires. Un compte Opera gratuit est optionnel et débloque l’historique des chats (conservé un an si tu es connecté ; six heures sinon) et des limites plus hautes de génération d’images. La génération d’images est soumise à un usage raisonnable ; la FAQ officielle ne publie pas de plafond quotidien chiffré. Aucun plan payant n’est publié pour Opera AI lui-même. Opera Neon est un autre navigateur Opera, mentionné dans la FAQ officielle pour des limites d’images plus hautes ; ce n’est pas une offre payante d’Opera AI. D’autres options payantes Opera, comme VPN Pro, sont des produits séparés, pas des plans d’Opera AI. FAQ officielle : tu dois avoir au moins 18 ans ; Opera AI n’est pas disponible en fenêtre privée ni dans une liste de pays et régions."
   },
   "treblo": {
     "summary_fr": "Générateur de chansons IA (ex-Sonauto) : morceaux illimités et gratuits sur le dernier modèle, avec un Pro optionnel à 9 €/mois pour la file prioritaire, les reprises et ta voix.",
