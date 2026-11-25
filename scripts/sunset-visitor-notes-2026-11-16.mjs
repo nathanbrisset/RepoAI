@@ -12,16 +12,18 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const toolsDir = path.join(root, "content", "tools")
 const dryRun = process.argv.includes("--dry-run")
 
-/** @type {Record<string, { statusNote: string, statusNote_fr?: string, successorId?: string, clearSuccessor?: boolean }>} */
+/** @type {Record<string, { statusNote: string, statusNote_fr?: string, successorId?: string, clearSuccessor?: boolean, clearPrimaryUrl?: boolean }>} */
 const PATCHES = {
   lovo: {
     statusNote: "LOVO shut down in 2026.",
     statusNote_fr: "LOVO a cessé son activité en 2026.",
     successorId: "elevenlabs",
+    clearPrimaryUrl: true,
   },
   "smart-copy": {
     statusNote: "Smart Copy, Unbounce's AI writing tool, has been discontinued.",
     statusNote_fr: "Smart Copy, l'outil de rédaction IA d'Unbounce, n'est plus proposé.",
+    clearPrimaryUrl: true,
   },
   agent: {
     statusNote: "The Agent.ai marketplace has shut down.",
@@ -158,6 +160,10 @@ for (const [id, patch] of Object.entries(PATCHES)) {
   }
   if (patch.successorId && tool.successorId !== patch.successorId) {
     tool.successorId = patch.successorId
+    touched = true
+  }
+  if (patch.clearPrimaryUrl && tool.url) {
+    tool.url = ""
     touched = true
   }
   if (touched) {
