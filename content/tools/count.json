@@ -1,0 +1,90 @@
+{
+  "id": "count",
+  "name": "Count",
+  "url": "https://count.co/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Collaborative analytics canvas where teams and an AI agent explore data together, with a free plan and a Pro plan billed per editor.",
+  "description": "Collaborative analytics canvas where teams and an AI agent explore data together, with a free plan and a Pro plan billed per editor.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "data-science",
+    "analytics",
+    "bi",
+    "notebooks",
+    "sql",
+    "united-kingdom"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://count.co/pricing",
+    "details": "Free 0 €, no card — 1 project, 3 canvases, up to 5 users, daily AI credit limits (limited models), 1 database/MCP connection, web search, file uploads, 2 automations, community support. Pro 44 € / editor / month, viewers free — everything in Free plus unlimited AI credits (Count reports that 98% of teams never need to top up), unlimited canvases, projects, reports and automations, 3 database/MCP connections, shared agent skills, 4 GB compute, Slack integration and MCP client, email/Slack/Teams support; workspace users up to 75; owners, admins and editors are billable, viewers and report viewers are free; 14-day version history. Enterprise is let’s talk (unlimited editors, own models or API keys, up to 32 GB compute, SSO, SCIM, HIPAA, EU/US data residency, and others). Only the monthly per-editor price is published; yearly pricing is not shown on the pricing page.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/count.png",
+  "image": "/screenshots/count.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Collaborative analytics canvas where teams and an AI agent explore data together",
+    "Database and MCP connections, web search, file uploads and automations, with a lasting Free plan",
+    "Pro is billed per editor; viewers and report viewers stay free, with unlimited AI credits on Pro",
+    "Yearly pricing is not published beside the monthly per-editor rate. Enterprise is custom"
+  ],
+  "howToUse": [
+    {
+      "title": "Open count.co/pricing and start Free at 0 € with no card (up to 5 users).",
+      "description": "Open count.co/pricing and start Free at 0 € with no card (up to 5 users).",
+      "links": [
+        {
+          "label": "Count",
+          "url": "https://count.co/"
+        }
+      ]
+    },
+    {
+      "title": "Connect a database or MCP source and explore it on a canvas, with the AI agent.",
+      "description": "Connect a database or MCP source and explore it on a canvas, with the AI agent."
+    },
+    {
+      "title": "Upgrade editors to Pro at 44 € per editor / month if you need unlimited AI credits...",
+      "description": "Upgrade editors to Pro at 44 € per editor / month if you need unlimited AI credits, canvases and automations. Yearly pricing is not shown on the pricing page."
+    }
+  ],
+  "hqCountry": "GB",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://count.co/pricing"
+  ],
+  "summary_fr": "Canevas d’analytics collaboratif où les équipes et un agent IA explorent les données ensemble, avec une offre gratuite et un plan Pro facturé par éditeur.",
+  "description_fr": "Canevas d’analytics collaboratif où les équipes et un agent IA explorent les données ensemble, avec une offre gratuite et un plan Pro facturé par éditeur.",
+  "features_fr": [
+    "Canevas d’analytics collaboratif où les équipes et un agent IA explorent les données ensemble",
+    "Connexions base et MCP, recherche web, envoi de fichiers et automatisations, avec une offre Gratuite durable",
+    "Pro est facturé par éditeur ; les viewers et report viewers restent gratuits, avec des crédits IA illimités sur Pro",
+    "Seul le tarif mensuel par éditeur est publié ; le tarif annuel n’apparaît pas sur la page tarifs. Enterprise est sur mesure"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre count.co/pricing et commence sur l’offre Gratuite à 0 €, sans carte...",
+      "description": "Ouvre count.co/pricing et commence sur l’offre Gratuite à 0 €, sans carte (jusqu’à 5 utilisateurs).",
+      "links": [
+        {
+          "label": "Count",
+          "url": "https://count.co/"
+        }
+      ]
+    },
+    {
+      "title": "Connecte une base ou une source MCP et explore-la sur un canevas, avec l’agent IA.",
+      "description": "Connecte une base ou une source MCP et explore-la sur un canevas, avec l’agent IA."
+    },
+    {
+      "title": "Passe les éditeurs en Pro à 44 € par éditeur / mois si tu as besoin de crédits IA, de...",
+      "description": "Passe les éditeurs en Pro à 44 € par éditeur / mois si tu as besoin de crédits IA, de canevas et d’automatisations illimités. Le tarif annuel n’apparaît pas sur la page tarifs."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "bigml",
+  "name": "BigML",
+  "url": "https://bigml.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Machine-learning and AutoML platform for building and deploying models, with a lasting free plan and paid subscriptions that officially start at 27 €/month.",
+  "description": "Machine-learning and AutoML platform for building and deploying models, with a lasting free plan and paid subscriptions that officially start at 27 €/month.",
+  "categories": [
+    "data"
+  ],
+  "tags": [
+    "data-science",
+    "automl",
+    "machine-learning",
+    "modeling"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://bigml.com/pricing",
+    "details": "A 3-day free trial of full access (up to 60 tasks, no credit card) is offered alongside a lasting Free plan. Free 0 € — unlimited tasks, max dataset size 16 MB per task, 2 parallel tasks per user, 1 user included (additional users via an organization account). Paid subscriptions officially start at 27 €/month (monthly; 15% off quarterly; 30% off yearly). The detailed grid by dataset size is not published on the pricing page. A 50% off mention for students, public researchers or NGOs is shown without a resulting public price. Private deployments: Lite 9,048 €/year or 905 €/month; Bronze Enterprise 40,717 €/year + 9,048 € setup. Extra support, training and certification prices are listed on the same page; ask BigML for current amounts.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/bigml.png",
+  "image": "/screenshots/bigml.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "Machine-learning and AutoML platform for building and deploying models, with a lasting Free plan",
+    "Organizations for team collaboration on paid plans, and private deployments for on-prem or your own cloud",
+    "Paid subscriptions officially start at 27 €/month, with official quarterly and yearly discounts",
+    "The detailed paid grid by dataset size is not published on the pricing page"
+  ],
+  "howToUse": [
+    {
+      "title": "Open bigml.com/pricing and start on the lasting Free plan at 0 €, or take the 3-day...",
+      "description": "Open bigml.com/pricing and start on the lasting Free plan at 0 €, or take the 3-day full-access trial (up to 60 tasks, no card).",
+      "links": [
+        {
+          "label": "BigML",
+          "url": "https://bigml.com/"
+        }
+      ]
+    },
+    {
+      "title": "Train and deploy a model on a dataset within the Free 16 MB per-task limit.",
+      "description": "Train and deploy a model on a dataset within the Free 16 MB per-task limit."
+    },
+    {
+      "title": "Pick a paid subscription that officially starts at 27 €/month if you need larger datasets...",
+      "description": "Pick a paid subscription that officially starts at 27 €/month if you need larger datasets and more parallel tasks. The detailed size grid is not on the pricing page."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://bigml.com/pricing"
+  ],
+  "summary_fr": "Plateforme de machine learning et d’AutoML pour construire et déployer des modèles, avec une offre gratuite durable et des abonnements payants qui démarrent officiellement à 27 €/mois.",
+  "description_fr": "Plateforme de machine learning et d’AutoML pour construire et déployer des modèles, avec une offre gratuite durable et des abonnements payants qui démarrent officiellement à 27 €/mois.",
+  "features_fr": [
+    "Plateforme de machine learning et d’AutoML pour construire et déployer des modèles, avec une offre Gratuite durable",
+    "Des organizations pour collaborer en équipe sur les offres payantes, et des déploiements privés on-prem ou sur ton propre cloud",
+    "Les abonnements payants démarrent officiellement à 27 €/mois, avec des remises officielles au trimestre et à l’année",
+    "La grille payante détaillée par taille de dataset n’est pas publiée sur la page tarifs"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre bigml.com/pricing et commence sur l’offre Gratuite durable à 0 €, ou lance l’essai...",
+      "description": "Ouvre bigml.com/pricing et commence sur l’offre Gratuite durable à 0 €, ou lance l’essai de 3 jours en accès complet (jusqu’à 60 tâches, sans carte).",
+      "links": [
+        {
+          "label": "BigML",
+          "url": "https://bigml.com/"
+        }
+      ]
+    },
+    {
+      "title": "Entraîne et déploie un modèle sur un dataset, dans la limite Gratuite de 16 Mo par tâche.",
+      "description": "Entraîne et déploie un modèle sur un dataset, dans la limite Gratuite de 16 Mo par tâche."
+    },
+    {
+      "title": "Choisis un abonnement payant qui démarre officiellement à 27 €/mois si tu as besoin de...",
+      "description": "Choisis un abonnement payant qui démarre officiellement à 27 €/mois si tu as besoin de datasets plus grands et de plus de tâches en parallèle. La grille détaillée par taille n’est pas sur la page tarifs."
+    }
+  ]
+}

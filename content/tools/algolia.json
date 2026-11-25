@@ -1,0 +1,88 @@
+{
+  "id": "algolia",
+  "name": "Algolia",
+  "url": "https://www.algolia.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "AI search and discovery API for websites and apps, with a no-card free tier and usage-based Grow and Grow Plus plans.",
+  "description": "AI search and discovery API for websites and apps, with a no-card free tier and usage-based Grow and Grow Plus plans.",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "search",
+    "ecommerce",
+    "recommendations",
+    "api",
+    "france",
+    "united-states"
+  ],
+  "pricing": {
+    "verified": true,
+    "sourceUrl": "https://www.algolia.com/pricing/",
+    "details": "Free, no credit card — 10,000 search requests/month, 50,000 records, 5,000 recommendation requests/month, 5,000 crawls/month. Grow (keyword search) and Grow Plus (keyword search with AI capabilities, including AI Synonyms, AI Ranking and advanced personalization) are officially starting at 0 €/month. The official FAQ includes 10,000 search requests, 10,000 Recommend requests, 100,000 records, 10,000 crawls per month and 1 free Guide on Grow and Grow Plus, with billing only for usage above each included allowance. Recommendation and crawler overage beyond the included allowances is not broken out here in euro. Search overage beyond the included 10,000 is not shown as a public list price on the pricing page. Elevate is starting at custom / request pricing and requires an annual contract.",
+    "model": "freemium",
+    "label": "Freemium"
+  },
+  "logo": "/logos/algolia.png",
+  "image": "/screenshots/algolia.webp",
+  "dateAdded": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "features": [
+    "AI search and discovery API for websites and apps, with keyword search, recommendations, merchandising and a crawler",
+    "A no-card Free plan, plus Grow and Grow Plus officially starting at 0 €/month with usage-based allowances",
+    "Grow Plus adds AI Synonyms, AI Ranking and advanced personalization; Elevate is custom",
+    "Search overage beyond the included 10,000 is not shown as a public list price on the pricing page"
+  ],
+  "howToUse": [
+    {
+      "title": "Open algolia.com/pricing and start Free with no card...",
+      "description": "Open algolia.com/pricing and start Free with no card (10,000 search requests and 50,000 records per month).",
+      "links": [
+        {
+          "label": "Algolia",
+          "url": "https://www.algolia.com/"
+        }
+      ]
+    },
+    {
+      "title": "Move to Grow or Grow Plus, officially starting at 0 €/month, if you need the higher...",
+      "description": "Move to Grow or Grow Plus, officially starting at 0 €/month, if you need the higher included allowances or the Grow Plus AI ranking features."
+    },
+    {
+      "title": "Request Elevate pricing if you need NeuralSearch and the enterprise-scale options.",
+      "description": "Request Elevate pricing if you need NeuralSearch and the enterprise-scale options. Search overage beyond the included 10,000 is not detailed on the pricing page."
+    }
+  ],
+  "sources": [
+    "https://www.algolia.com/pricing/"
+  ],
+  "summary_fr": "API de recherche et de découverte IA pour sites et applications, avec une offre gratuite sans carte et des plans Grow / Grow Plus à l’usage.",
+  "description_fr": "API de recherche et de découverte IA pour sites et applications, avec une offre gratuite sans carte et des plans Grow / Grow Plus à l’usage.",
+  "features_fr": [
+    "API de recherche et de découverte IA pour sites et applications, avec recherche par mot-clé, recommandations, merchandising et un crawler",
+    "Une offre Gratuite sans carte, plus Grow et Grow Plus officiellement à partir de 0 €/mois, avec des quotas à l’usage",
+    "Grow Plus ajoute AI Synonyms, AI Ranking et la personnalisation avancée ; Elevate est sur mesure",
+    "L’overage des requêtes de recherche au-delà des 10 000 incluses ne figure pas comme prix de liste public sur la page tarifs"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre algolia.com/pricing et commence sur l’offre Gratuite sans carte...",
+      "description": "Ouvre algolia.com/pricing et commence sur l’offre Gratuite sans carte (10 000 requêtes de recherche et 50 000 records par mois).",
+      "links": [
+        {
+          "label": "Algolia",
+          "url": "https://www.algolia.com/"
+        }
+      ]
+    },
+    {
+      "title": "Passe à Grow ou Grow Plus, officiellement à partir de 0 €/mois, si tu as besoin des...",
+      "description": "Passe à Grow ou Grow Plus, officiellement à partir de 0 €/mois, si tu as besoin des quotas inclus plus élevés ou des fonctions IA de Grow Plus."
+    },
+    {
+      "title": "Demande un tarif Elevate si tu as besoin de NeuralSearch et des options enterprise.",
+      "description": "Demande un tarif Elevate si tu as besoin de NeuralSearch et des options enterprise. L’overage des requêtes de recherche au-delà des 10 000 incluses n’est pas détaillé sur la page tarifs."
+    }
+  ]
+}
