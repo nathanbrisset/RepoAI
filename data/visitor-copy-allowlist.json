@@ -1,3 +1,28 @@
 {
-  "allow": []
+  "allow": [
+    {
+      "toolId": "instantly",
+      "field": "howToUse[0].description",
+      "ruleId": "no-price-was-recorded",
+      "note": "Consolidation: remove internal check note from howToUse"
+    },
+    {
+      "toolId": "instantly",
+      "field": "howToUse[0].description",
+      "ruleId": "did-not-render",
+      "note": "Consolidation: remove internal check note from howToUse"
+    },
+    {
+      "toolId": "microsoft-designer",
+      "field": "description",
+      "ruleId": "did-not-render",
+      "note": "Consolidation: rewrite meta crawl disclaimer"
+    },
+    {
+      "toolId": "microsoft-designer",
+      "field": "features[3]",
+      "ruleId": "did-not-render",
+      "note": "Consolidation: rewrite meta crawl disclaimer"
+    }
+  ]
 }
