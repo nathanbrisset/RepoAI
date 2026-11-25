@@ -91,9 +91,9 @@ export function resolvePricingNote(
   details: string | undefined,
   lang: PricingNoteLang,
 ): string | undefined {
-  const candidate = note ?? details
-  if (candidate == null || !candidate.trim()) return undefined
-  return isCleanPricingNote(candidate, lang) ? candidate : undefined
+  if (note?.trim() && isCleanPricingNote(note, lang)) return note.trim()
+  if (details?.trim() && isCleanPricingNote(details, lang)) return details.trim()
+  return undefined
 }
 
 /** First non-empty candidate; hidden when it fails the guard (no fallback). */
