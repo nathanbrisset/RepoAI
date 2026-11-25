@@ -2,6 +2,7 @@ import { applyDisplayCurrencyToTool } from "@/lib/format-display-price"
 import type { Tool } from "@/lib/types"
 import type { Locale } from "./config"
 import { pricingLabel } from "./messages"
+import { fixHowToGabaritStep4 } from "./fr-tutoiement"
 import { translateTags } from "./tags"
 
 export function formatCatalogDate(value: string | null | undefined, locale: Locale) {
@@ -42,13 +43,19 @@ export function toolForLocale(tool: Tool, locale: Locale): Tool {
 export function localizeTool(tool: Tool, locale: Locale): Tool {
   if (locale !== "fr" || !tool) return applyDisplayCurrencyToTool(tool)
   const summary = tool.summary_fr || tool.shortDescription_fr
+  const howToRaw = tool.howToUse_fr?.length ? tool.howToUse_fr : tool.howToUse
+  const howToNormalized = howToRaw?.map((step) => ({
+    ...step,
+    description: fixHowToGabaritStep4(step.description) ?? step.description,
+    title: fixHowToGabaritStep4(step.title) ?? step.title,
+  }))
   return applyDisplayCurrencyToTool({
     ...tool,
     description: summary || tool.description,
     longDescription: tool.description_fr || tool.longDescription,
     tags: translateTags(tool.tags, tool.tags_fr),
     features: tool.features_fr?.length ? tool.features_fr : tool.features,
-    howToUse: tool.howToUse_fr?.length ? tool.howToUse_fr : tool.howToUse,
+    howToUse: howToNormalized ?? howToRaw,
     statusNote: tool.statusNote_fr || tool.statusNote,
     dateAddedNote: tool.dateAddedNote_fr || tool.dateAddedNote,
     pricing: tool.pricing
