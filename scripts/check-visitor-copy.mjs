@@ -43,6 +43,10 @@ export const VISITOR_COPY_RULES = [
   { id: "repris-ancien-catalogue", pattern: /repris de l['’]ancien catalogue|non revérifié/i, scope: "internal" },
   { id: "removed-because-date", pattern: /removed because it is not a credible date|It was removed because/i, scope: "internal" },
   { id: "during-this-check", pattern: /during this check|lors de cette vérification/i, scope: "internal" },
+  { id: "during-check-review", pattern: /during the check\/review/i, scope: "internal" },
+  { id: "lors-de-la-verification", pattern: /lors de la vérification/i, scope: "internal" },
+  { id: "no-price-was-recorded", pattern: /\bno price was recorded\b/i, scope: "internal" },
+  { id: "did-not-render", pattern: /\bdid not render\b/i, scope: "internal" },
   { id: "headless-chrome", pattern: /headless chrome/i, scope: "internal" },
   { id: "curl-cli", pattern: /\bcurl\s+[-\s]/i, scope: "internal" },
   { id: "box-cannot", pattern: /box cannot/i, scope: "internal" },
@@ -62,9 +66,35 @@ export const VISITOR_COPY_RULES = [
     scope: "internal",
   },
   {
+    id: "so-the-lot-label-is",
+    pattern: /\bso the lot label is\b/i,
+    scope: "internal",
+  },
+  {
+    id: "converted-from-official",
+    pattern: /\bconverted from the official\b|\bconvertis depuis la liste officielle/i,
+    scope: "internal",
+  },
+  {
+    id: "mechanical-premium-plan",
+    pattern: /,\s*Premium plan\b|\(\s*Premium plan\s*\)/i,
+    scope: "internal",
+  },
+  {
+    id: "offre-premium-emdash-fr",
+    pattern: /—\s*offre Premium\b|,\s*—\s*offre Premium/i,
+    scope: "internal",
+  },
+  {
+    id: "not-listed-publicly-on",
+    pattern:
+      /\b(?:is|are|was|were)\s+not\s+listed\s+publicly\s+on\b|\bn['’]est pas listé publiquement sur\b|\bne sont pas listés publiquement\b/i,
+    scope: "internal",
+  },
+  {
     id: "are-not-listed-en",
     pattern:
-      /\b(?:was|were|is|are)\s+not\s+listed\b(?!\s+publicly)|\bis\s+not\s+listed\s+here\b|\bwere\s+isolated\s+and\s+are\s+not\s+listed\b/i,
+      /\bis\s+not\s+listed\s+here\b|\band\s+is\s+not\s+listed\b(?!\s+publicly)|\bnone\s+is\s+listed\b|\bwere\s+isolated\s+and\s+are\s+not\s+listed\b|\b(?:totals|rates|yearly|overage|per-action|per-call|extra)[^.!?]{0,100}\bare\s+not\s+listed\b(?!\s+publicly)|\bwas\s+not\s+published[^.!?]{0,120}\b(?:is|are)\s+not\s+listed\b(?!\s+publicly)/i,
     scope: "internal",
   },
   {
@@ -184,6 +214,45 @@ export function scanVisitorCopy({ rootDir = root } = {}) {
   return hits
 }
 
+/** Self-tests for new rule patterns (--test-rules). */
+export function runVisitorCopyRuleFixtures() {
+  const fixtures = [
+    { rule: "so-the-lot-label-is", pass: ["paid after trial"], fail: ["so the lot label is Premium"] },
+    { rule: "converted-from-official", pass: ["Checkout is via Stripe."], fail: ["Amounts are converted from the official list"] },
+    {
+      rule: "not-listed-publicly-on",
+      pass: ["Prices are not listed publicly."],
+      fail: ["Team pricing is not listed publicly on the pricing page"],
+    },
+    { rule: "mechanical-premium-plan", pass: ["No permanent free tier."], fail: ["no lasting free plan, Premium plan."] },
+    {
+      rule: "offre-premium-emdash-fr",
+      pass: ["Pas de formule gratuite permanente."],
+      fail: ["Pas d’offre gratuite durable, — offre Premium."],
+    },
+    { rule: "during-check-review", pass: ["During setup, connect your repo."], fail: ["Limits during the check/review were not published"] },
+    { rule: "lors-de-la-verification", pass: ["Lors de la prise en main, connecte ton repo."], fail: ["Le prix n’était pas visible lors de la vérification"] },
+    { rule: "no-price-was-recorded", pass: ["No public pricing page."], fail: ["no price was recorded for the enterprise tier"] },
+    { rule: "did-not-render", pass: ["The widget may stay blank until you sign in."], fail: ["the pricing table did not render in headless mode"] },
+  ]
+  const rulesById = Object.fromEntries(VISITOR_COPY_RULES.map((r) => [r.id, r]))
+  const errors = []
+  for (const { rule, pass, fail } of fixtures) {
+    const pat = rulesById[rule]?.pattern
+    if (!pat) {
+      errors.push(`missing rule ${rule}`)
+      continue
+    }
+    for (const text of pass) {
+      if (pat.test(text)) errors.push(`${rule} false positive: ${text}`)
+    }
+    for (const text of fail) {
+      if (!pat.test(text)) errors.push(`${rule} missed: ${text}`)
+    }
+  }
+  return errors
+}
+
 export function scanLegalPageFlag() {
   if (!fs.existsSync(legalCopyPath)) return null
   const text = fs.readFileSync(legalCopyPath, "utf8")
@@ -194,6 +263,15 @@ export function scanLegalPageFlag() {
 }
 
 function main() {
+  if (process.argv.includes("--test-rules")) {
+    const errors = runVisitorCopyRuleFixtures()
+    if (errors.length) {
+      console.error(`Rule fixture failures (${errors.length}):\n${errors.join("\n")}`)
+      process.exit(1)
+    }
+    console.log("Visitor-copy rule fixtures OK")
+    return
+  }
   const asJson = process.argv.includes("--json")
   const hits = scanVisitorCopy()
   const legalFlag = scanLegalPageFlag()
