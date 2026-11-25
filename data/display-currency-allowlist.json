@@ -1,25 +1,3 @@
 {
-  "allow": [
-    {
-      "slug": "greptile",
-      "champ": "description_fr",
-      "langue": "fr",
-      "fichier": "content/i18n/fr-tools.json",
-      "reason": "Contenu intentionally keeps the Series B amount in US dollars (fundraising, not a product list price)."
-    },
-    {
-      "slug": "metaview",
-      "champ": "description_fr",
-      "langue": "fr",
-      "fichier": "content/i18n/fr-tools.json",
-      "reason": "Contenu intentionally keeps the Insight-led round in US dollars (fundraising, not a product list price)."
-    },
-    {
-      "slug": "socket",
-      "champ": "description_fr",
-      "langue": "fr",
-      "fichier": "content/i18n/fr-tools.json",
-      "reason": "Contenu intentionally keeps the total raised in US dollars (fundraising, not a product list price)."
-    }
-  ]
+  "allow": []
 }
