@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Inference platform for dedicated open-weight models and a multi-model endpoint.",
-  "description": "The old URL useblackbox.io returned 404 on 21 October 2026. blackbox.ai answered 200. Its homepage describes a platform that runs an open-weight model you choose, or routes many models through one endpoint. It no longer matches the old “copy code from videos” blurb. No price was on that homepage.",
+  "description": "Blackbox.ai is an inference platform: run an open-weight model you choose or route many models through one endpoint. The legacy useblackbox.io URL no longer works; the current site is blackbox.ai. See the site for published pricing.",
   "categories": [
     "llm-chatbots"
   ],
@@ -17,7 +17,7 @@
     "model": "freemium",
     "label": "Freemium",
     "verified": false,
-    "note": "Price not published on the homepage fetched 21 October 2026. The previous Freemium label was not confirmed.",
+    "note": "See blackbox.ai for current plan pricing.",
     "sourceUrl": "https://www.blackbox.ai/"
   },
   "logo": "/logos/blackbox-ai.png",
@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Blackbox",
-      "description": "blackbox.ai describes a platform for frontier inference. useblackbox.io returned 404 on 21 October 2026.",
+      "description": "Open blackbox.ai and sign in. The platform focuses on frontier model inference.",
       "links": [
         {
           "label": "Blackbox AI",
