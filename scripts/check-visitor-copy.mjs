@@ -103,6 +103,7 @@ export const VISITOR_COPY_RULES = [
     scope: "internal",
   },
   { id: "labellise-fr", pattern: new RegExp(String.raw`\blabellisé${WB}`, "iu"), scope: "internal" },
+  { id: "labellisee-fr", pattern: new RegExp(String.raw`\blabellisée${WB}`, "iu"), scope: "internal" },
   {
     id: "arrondis-pricing",
     pattern: /(?:prix|tarif|montant|€|EUR).{0,48}arrondis?|arrondis?.{0,48}(?:€|EUR|prix|tarif)/i,
@@ -111,7 +112,7 @@ export const VISITOR_COPY_RULES = [
   {
     id: "isole-pricing-fr",
     pattern: new RegExp(
-      String.raw`(?:prix|tarif|montant|plan|offre).{0,80}\bisolé${WB}|n['']a\s+pas\s+été\s+isolé|clearly isolated`,
+      String.raw`(?:prix|tarif|montant|plan|offre).{0,80}\bisolé${WB}|n['’]a\s+pas\s+été\s+isolé|clearly isolated`,
       "iu",
     ),
     scope: "internal",
@@ -142,9 +143,21 @@ export const VISITOR_COPY_RULES = [
   { id: "were-not-copied", pattern: /\bwere not copied\b|\bwas not copied\b/iu, scope: "internal" },
   {
     id: "internal-label",
-    pattern: /\binternal\b[^.!?]{0,64}\blabel\b|\blabel\b[^.!?]{0,64}\binternal\b/iu,
+    pattern: /\binternal\s+notes?\b|\b(?:lot|QA)\s+label\b|\bso the lot label is\b/iu,
     scope: "internal",
   },
+  { id: "review-description", pattern: /\breview description\b/iu, scope: "internal" },
+  { id: "returns-404", pattern: /\breturns\s+404\b|\breturned\s+404\b/iu, scope: "internal" },
+  { id: "a-renvoye-404", pattern: /\ba\s+renvoyé\s+404\b/iu, scope: "internal" },
+  { id: "non-verifiee-fr", pattern: /non\s+vérifiée/iu, scope: "internal" },
+  { id: "pages-officielles-verifiees", pattern: /pages\s+officielles\s+vérifiées/iu, scope: "internal" },
+  { id: "fetched-on", pattern: /\bfetched on\s+\d/i, scope: "internal" },
+  {
+    id: "controles-automatises",
+    pattern: /lors des contrôles automatisés|lors de cet examen|métadonnées du site/i,
+    scope: "internal",
+  },
+  { id: "pas-ete-extrait", pattern: /n['’]a\s+pas\s+été\s+extrait/iu, scope: "internal" },
   {
     id: "converted-from-official",
     pattern: /\bconverted from the official\b|\bconvertis depuis la liste officielle/i,
@@ -321,6 +334,16 @@ export function runVisitorCopyRuleFixtures() {
     { rule: "isole-pricing-fr", pass: ["Sandbox isolé pour tester l’API."], fail: ["Le montant payant n’a pas été isolé sur la page"] },
     { rule: "converted-from-usd", pass: ["Checkout in euros."], fail: ["Price converted from USD at checkout"] },
     { rule: "ancien-catalogue-en", pass: ["Updated November 2026."], fail: ["Label from the previous catalog"] },
+    { rule: "returns-404", pass: ["Route not found in the app."], fail: ["The pricing path returns 404"] },
+    { rule: "review-description", pass: ["See the product page for details."], fail: ["product positioning changed, review description"] },
+    { rule: "fetched-on", pass: ["Homepage lists a free trial."], fail: ["homepage, fetched on 22 October 2026"] },
+    { rule: "non-verifiee-fr", pass: ["Tarif selon la région."], fail: ["la tarification est donc laissée non vérifiée"] },
+    { rule: "controles-automatises", pass: ["Contrôles automatisés de conformité."], fail: ["lors des contrôles automatisés lors de cet examen"] },
+    { rule: "internal-label", pass: ["internal tools for scheduling"], fail: ["internal notes label Premium"] },
+    { rule: "labellisee-fr", pass: ["Étiquette personnalisée."], fail: ["offre labellisée Premium"] },
+    { rule: "a-renvoye-404", pass: ["Lien obsolète."], fail: ["papercup.com a renvoyé 404 le 21 octobre"] },
+    { rule: "pages-officielles-verifiees", pass: ["Consulte le site officiel."], fail: ["pages officielles vérifiées"] },
+    { rule: "pas-ete-extrait", pass: ["Extraits audio HD."], fail: ["le montant n'a pas été extrait"] },
   ]
   const rulesById = Object.fromEntries(VISITOR_COPY_RULES.map((r) => [r.id, r]))
   const errors = []

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * After rebuild-fr-tools-consolidation.mjs: visitor-safe overlays, B3 parity, note fill.
+ * After rebuild-fr-tools-consolidation.mjs: pinned visitor merge from git, B3 parity, note fill.
  */
 import { execSync } from "node:child_process"
 import fs from "node:fs"
@@ -11,43 +11,9 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const frPath = path.join(root, "content/i18n/fr-tools.json")
 const toolsDir = path.join(root, "content/tools")
 
-const pinnedSha = "3d83ba26"
-const pinned = JSON.parse(
-  execSync(`git show ${pinnedSha}:content/i18n/fr-tools.json`, {
-    encoding: "utf8",
-    maxBuffer: 128 * 1024 * 1024,
-  }),
-)
-
-const qaOverlayIds = new Set([
-  "arcads",
-  "dreamina",
-  "genpage",
-  "groq",
-  "hume-ai",
-  "kittl",
-  "opera-ai",
-  "profound",
-  "reve",
-  "smartlead",
-  "speak",
-  "tallbell",
-  "turbolearn",
-  "zernio",
-  "continue-dev",
-  "fal",
-])
+execSync(`node scripts/merge-fr-tools-from-git.mjs`, { cwd: root, stdio: "inherit" })
 
 const cur = JSON.parse(fs.readFileSync(frPath, "utf8"))
-for (const id of Object.keys(pinned)) {
-  const qaish =
-    qaOverlayIds.has(id) ||
-    /lors de (ce|cette) (contrôle|vérification)|during this|were not copied|repris de l'ancien|vérifiés sur|n'était pas indiqué/i.test(
-      JSON.stringify(pinned[id]),
-    )
-  if (!qaish) continue
-  cur[id] = { ...(cur[id] || {}), ...pinned[id] }
-}
 
 Object.assign(cur.claude || {}, {
   description_fr:
@@ -72,6 +38,71 @@ cur.duolingo = {
   ],
 }
 if (cur.myedit) delete cur.myedit.pricingNote_fr
+if (cur.agent) delete cur.agent.pricingNote_fr
+
+const msDesigner = cur["microsoft-designer"] || (cur["microsoft-designer"] = {})
+Object.assign(msDesigner, {
+  description_fr:
+    "Microsoft Designer est une application de conception graphique qui crée des publications pour les réseaux sociaux, des invitations, des cartes postales numériques et d'autres visuels. Tu pars d'une idée en langage simple et l'application génère des images et des mises en page que tu peux modifier ensuite. Consulte le site officiel pour les formules et les limites actuelles.",
+})
+if (Array.isArray(msDesigner.features_fr) && msDesigner.features_fr[3]) {
+  msDesigner.features_fr[3] =
+    "Consulte le site officiel pour les formules actuelles et les limites d'usage."
+}
+Object.assign(cur.kimi || (cur.kimi = {}), {
+  description_fr:
+    "Kimi est l'assistant IA de Moonshot AI, fondé sur son modèle Kimi K3. Au-delà du chat, il propose des fonctions d'agent pour les documents, les feuilles de calcul et les diapositives, la recherche approfondie, le déploiement de sites web et l'exécution multi-agents « Swarm », avec un mode Goal. Les formules payantes commencent par Plus à 14 € par mois en facturation annuelle (17 € au mois) jusqu'à Ultra ; consulte la page tarifs pour l'offre gratuite éventuelle.",
+})
+Object.assign(cur.kawung || (cur.kawung = {}), {
+  pricingNote_fr:
+    "Officiellement gratuit, avec des plafonds quotidiens et hebdomadaires publiés (par exemple 5 recherches rapides et 5 recherches approfondies par jour). Aucune offre payante publique n'est listée aujourd'hui.",
+})
+if (cur.agent) {
+  cur.agent.howToUse_fr = [
+    {
+      title: "Inscris-toi sur Agent.ai",
+      description: "Ce produit n'est plus disponible ; vois l'avis ci-dessus.",
+    },
+    {
+      title: "Complète l'onboarding",
+      description: "Suis la visite guidée ou connecte la première intégration demandée par le produit.",
+    },
+    {
+      title: "Lance une première tâche",
+      description: "Exécute le flux principal avec un modèle ou un exemple fourni.",
+    },
+    {
+      title: "Vérifie les résultats",
+      description: "Exporte, partage ou connecte ton outillage avant d'élargir l'usage.",
+    },
+  ]
+}
+if (cur.lovo?.howToUse_fr?.[0]) {
+  cur.lovo.howToUse_fr[0].description = "Ce produit n'est plus disponible ; vois l'avis ci-dessus."
+  delete cur.lovo.howToUse_fr[0].links
+}
+cur.buffer = {
+  ...(cur.buffer || {}),
+  description_fr:
+    "Buffer planifie, programme et publie des posts sur les réseaux, avec bibliothèque d'idées, statistiques, engagement communautaire, collaboration et page link-in-bio. L'offre gratuite relie jusqu'à trois canaux. Essentials coûte 4,52 € par mois et par canal, avec essai gratuit de 14 jours.",
+}
+cur["browser-use"] = {
+  ...(cur["browser-use"] || {}),
+  description_fr:
+    "Browser Use fournit une infrastructure pour des agents qui pilotent des sites. Les agents hébergés exécutent des tâches dans un navigateur ; les navigateurs cloud peuvent être pilotés par ton propre agent. Tarification à l'usage : navigateurs cloud à 0,018 € par heure, proxies résidentiels à 4,52 € par Go, et 0,90 € de crédit gratuit à l'inscription.",
+}
+cur["perplexity-comet"] = {
+  ...(cur["perplexity-comet"] || {}),
+  description_fr:
+    "Comet est le navigateur Perplexity avec un assistant IA intégré. Il est gratuit au téléchargement depuis octobre 2025 ; Comet Plus optionnel coûte 4,52 €/mois et est inclus dans Perplexity Pro et Max.",
+  pricingNote_fr:
+    "Comet est gratuit au téléchargement depuis octobre 2025 ; l'abonnement Comet Plus optionnel coûte 4,52 €/mois et est inclus dans Perplexity Pro et Max.",
+}
+Object.assign(cur["you-com"] || (cur["you-com"] = {}), {
+  description_fr:
+    "You.com se concentre désormais sur des API qui donnent aux applications IA l'accès au Web : recherche, extraction de contenu et réponses ancrées. L'API de recherche renvoie aussi des données en direct (bourses, crypto, météo). Le site annonce 4,52 € pour 1 000 appels de recherche. Documentation, benchmarks et contact commercial pour les gros volumes.",
+  pricingNote_fr: "4,52 € pour 1 000 appels de recherche.",
+})
 
 const tools = {}
 for (const file of fs.readdirSync(toolsDir).filter((n) => n.endsWith(".json"))) {
@@ -88,30 +119,18 @@ for (const [id, entry] of Object.entries(cur)) {
     } catch {
       /* keep default */
     }
-    entry.pricingNote_fr = `Détails tarifaires sur ${host} ; consulte la page officielle avant un usage en production.`
+    entry.pricingNote_fr = `Détails tarifaires sur ${host} : consulte la page officielle.`
   }
-}
-
-function hostFromUrl(url) {
-  try {
-    return new URL(url).hostname.replace(/^www\./, "")
-  } catch {
-    return "le site officiel"
-  }
-}
-
-let filled = 0
-for (const file of fs.readdirSync(toolsDir).filter((n) => n.endsWith(".json"))) {
-  const tool = JSON.parse(fs.readFileSync(path.join(toolsDir, file), "utf8"))
-  if (tool.status !== "active" || tool.pricing?.uncertain === true) continue
-  if (!tool.pricing?.note?.trim()) continue
-  const entry = cur[tool.id]
-  if (!entry) continue
-  const hasFr = tool.pricing?.note_fr?.trim() || entry.pricingNote_fr?.trim()
-  if (hasFr) continue
-  entry.pricingNote_fr = `Détails tarifaires sur ${hostFromUrl(tool.url)} ; consulte la page officielle avant un usage en production.`
-  filled++
 }
 
 fs.writeFileSync(frPath, `${JSON.stringify(cur, null, 2)}\n`)
-console.log(JSON.stringify({ filled }, null, 2))
+execSync(`node scripts/sync-pricing-note-fr-from-en.mjs`, { cwd: root, stdio: "inherit" })
+const overrides = JSON.parse(
+  fs.readFileSync(path.join(root, "scripts/pricing-note-fr-overrides.json"), "utf8"),
+)
+const afterSync = JSON.parse(fs.readFileSync(frPath, "utf8"))
+for (const [id, text] of Object.entries(overrides)) {
+  afterSync[id] ??= {}
+  afterSync[id].pricingNote_fr = text
+}
+fs.writeFileSync(frPath, `${JSON.stringify(afterSync, null, 2)}\n`)

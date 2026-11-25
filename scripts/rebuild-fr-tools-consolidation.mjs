@@ -2,6 +2,8 @@
 /**
  * Deterministic fr-tools.json rebuild for consolidation QA.
  * Plan order 1→16: per-tool key merge from PR tips, never whole-file replace.
+ *
+ * DO NOT RUN after consolidation QA without `--force` — use apply-fr-tools-post-rebuild.mjs instead.
  */
 import { execSync } from "node:child_process"
 import fs from "node:fs"
@@ -9,9 +11,24 @@ import path from "node:path"
 import { fileURLToPath } from "node:url"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
+const scriptPath = fileURLToPath(import.meta.url)
+const frPath = path.join(root, "content/i18n/fr-tools.json")
+const force = process.argv.includes("--force")
 
 const cacheDir = path.join(root, ".cache/fr-tools-rebuild")
+const freezeMarker = path.join(cacheDir, ".consolidation-frozen")
 fs.mkdirSync(cacheDir, { recursive: true })
+
+if (!force) {
+  const frNewer =
+    fs.existsSync(frPath) && fs.statSync(frPath).mtimeMs > fs.statSync(scriptPath).mtimeMs
+  if (fs.existsSync(freezeMarker) || frNewer) {
+    console.error(
+      "Consolidation rebuild is frozen after QA. Run only scripts/apply-fr-tools-post-rebuild.mjs, or pass --force to rebuild-fr-tools-consolidation.mjs.",
+    )
+    process.exit(1)
+  }
+}
 
 function loadFrAt(sha) {
   const cache = path.join(cacheDir, `${sha}.json`)
@@ -144,7 +161,6 @@ for (const layer of layers) {
   stats.layers.push({ layer: "#61 tutoiement diff", updated: n })
 }
 
-const frPath = path.join(root, "content/i18n/fr-tools.json")
 const before = JSON.parse(fs.readFileSync(frPath, "utf8"))
 let b1 = 0
 let b2 = 0
@@ -197,7 +213,7 @@ for (const file of fs.readdirSync(toolsDir).filter((n) => n.endsWith(".json"))) 
   if (!entry) continue
 
   if (typeof entry.pricingNote_fr === "string" && ancienRe.test(entry.pricingNote_fr)) {
-    entry.pricingNote_fr = `Détails tarifaires sur ${hostFromUrl(tool.url)} ; consulte la page officielle avant un usage en production.`
+    entry.pricingNote_fr = `Détails tarifaires sur ${hostFromUrl(tool.url)} : consulte la page officielle.`
     strippedAncien++
   }
 
@@ -207,11 +223,12 @@ for (const file of fs.readdirSync(toolsDir).filter((n) => n.endsWith(".json"))) 
   const hasFr =
     tool.pricing?.note_fr?.trim() || (typeof entry.pricingNote_fr === "string" && entry.pricingNote_fr.trim())
   if (hasFr) continue
-  entry.pricingNote_fr = `Détails tarifaires sur ${hostFromUrl(tool.url)} ; consulte la page officielle avant un usage en production.`
+  entry.pricingNote_fr = `Détails tarifaires sur ${hostFromUrl(tool.url)} : consulte la page officielle.`
   filledNotes++
 }
 
 fs.writeFileSync(frPath, `${JSON.stringify(out, null, 2)}\n`)
+fs.writeFileSync(freezeMarker, `${new Date().toISOString()}\n`)
 execSync(`node scripts/apply-fr-tools-post-rebuild.mjs`, { cwd: root, stdio: "inherit" })
 console.log(
   JSON.stringify(

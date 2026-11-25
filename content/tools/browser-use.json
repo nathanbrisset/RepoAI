@@ -5,7 +5,7 @@
   "affiliateUrl": "",
   "status": "active",
   "summary": "Cloud browsers and web agents for automating tasks on websites, with an open-source library.",
-  "description": "Browser Use offers infrastructure for agents that operate websites. Its hosted agents complete tasks in a browser, and its cloud browsers can be driven by a developer's own agent. The project started as an open-source library. Pricing is pay-as-you-go with no subscription: cloud browsers cost 0.018 € per hour, residential proxies 5 € per GB, and new accounts get 0.90 € of free credit. The company lists SOC 2 Type II and HIPAA compliance.",
+  "description": "Browser Use offers infrastructure for agents that operate websites. Its hosted agents complete tasks in a browser, and its cloud browsers can be driven by a developer's own agent. The project started as an open-source library. Pricing is pay-as-you-go with no subscription: cloud browsers cost 0.018 € per hour, residential proxies 4.52 € per GB, and new accounts get 0.90 € of free credit. The company lists SOC 2 Type II and HIPAA compliance.",
   "categories": [
     "ai-agents",
     "automation"
@@ -20,9 +20,9 @@
     "model": "usage-based",
     "label": "Usage-based",
     "verified": true,
-    "note": "0.018 €/browser-hour",
+    "note": "0.018 €/browser-hour; residential proxies 4.52 €/GB",
     "sourceUrl": "https://browser-use.com/pricing",
-    "note_fr": "0,018 €/heure de navigateur"
+    "note_fr": "0,018 €/heure de navigateur ; proxies résidentiels 4,52 €/Go"
   },
   "logo": "/logos/browser-use.png",
   "image": "/screenshots/browser-use.webp",
@@ -49,7 +49,7 @@
     },
     {
       "title": "Connect your own agent",
-      "description": "Connect a developer agent to the cloud browsers, including Playwright or Puppeteer over CDP. This infrastructure bills cloud browsers at 0.018 € per hour and residential proxies at 5 € per GB."
+      "description": "Connect a developer agent to the cloud browsers, including Playwright or Puppeteer over CDP. This infrastructure bills cloud browsers at 0.018 € per hour and residential proxies at 4.52 € per GB."
     }
   ],
   "features": [
