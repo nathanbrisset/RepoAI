@@ -1,0 +1,87 @@
+{
+  "id": "teaflask",
+  "name": "Teaflask",
+  "url": "https://teaflask.com/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Adds a managed AI copilot inside a SaaS that performs real actions through that product’s API as the signed-in user, grounded in the product’s code, via a React component or a script tag.",
+  "description": "Adds a managed AI copilot inside a SaaS that performs real actions through that product’s API as the signed-in user, grounded in the product’s code, via a React component or a script tag.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "ai-copilot",
+    "saas",
+    "in-app-agent",
+    "developer-tools",
+    "y-combinator",
+    "byok"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Platform 0 €, free forever, for 1 agent. Enterprise is custom, with no public list price. Model calls are billed at cost (0% margin) or with a key you already have; no separate public model price list was isolated and is not listed.",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/teaflask.png",
+  "image": "/screenshots/teaflask.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "Drop in a React component or a script tag to add a managed copilot that acts through the product’s own API as the signed-in user, grounded in the product’s code",
+    "The platform is 0 €, free forever, for 1 agent. Enterprise is custom, with no public list price",
+    "Model calls are billed at cost (0% margin) or with a key you already have — no separate public model price list was isolated"
+  ],
+  "howToUse": [
+    {
+      "title": "Sign up free at teaflask.com and connect a repo and API.",
+      "description": "Sign up free at teaflask.com and connect a repo and API.",
+      "links": [
+        {
+          "label": "Teaflask",
+          "url": "https://teaflask.com/"
+        }
+      ]
+    },
+    {
+      "title": "Drop the React component or script tag into the frontend, and add a model key or credits.",
+      "description": "Drop the React component or script tag into the frontend, and add a model key or credits."
+    },
+    {
+      "title": "Test the copilot before releasing it to users.",
+      "description": "Test the copilot before releasing it to users. Stay on the free-forever platform plan, or talk to sales about Enterprise."
+    }
+  ],
+  "hqCountry": "US",
+  "hqCountrySource": "import",
+  "sources": [
+    "https://www.producthunt.com/products/teaflask"
+  ],
+  "summary_fr": "Ajoute dans un SaaS un copilote IA géré qui exécute de vraies actions via l’API du produit, en tant qu’utilisateur connecté, ancré dans le code, via un composant React ou une balise script.",
+  "description_fr": "Ajoute dans un SaaS un copilote IA géré qui exécute de vraies actions via l’API du produit, en tant qu’utilisateur connecté, ancré dans le code, via un composant React ou une balise script.",
+  "features_fr": [
+    "Ajoute un composant React ou une balise script pour installer un copilote géré qui agit via l’API du produit, en tant qu’utilisateur connecté, ancré dans le code",
+    "La plateforme est à 0 €, gratuite pour toujours, pour 1 agent. Enterprise est sur mesure, sans prix de liste public",
+    "Les appels au modèle sont facturés au prix coûtant (0 % de marge) ou avec une clé que tu as déjà — aucune grille publique séparée de prix modèle n’a été isolée"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Inscris-toi sans frais sur teaflask.com et connecte un dépôt et une API.",
+      "description": "Inscris-toi sans frais sur teaflask.com et connecte un dépôt et une API.",
+      "links": [
+        {
+          "label": "Teaflask",
+          "url": "https://teaflask.com/"
+        }
+      ]
+    },
+    {
+      "title": "Ajoute le composant React ou la balise script dans le frontend, et renseigne une clé...",
+      "description": "Ajoute le composant React ou la balise script dans le frontend, et renseigne une clé modèle ou des crédits."
+    },
+    {
+      "title": "Teste le copilote avant de le proposer aux utilisateurs.",
+      "description": "Teste le copilote avant de le proposer aux utilisateurs. Reste sur l’offre plateforme gratuite pour toujours, ou parle aux ventes pour Enterprise."
+    }
+  ]
+}

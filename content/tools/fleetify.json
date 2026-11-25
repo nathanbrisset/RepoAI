@@ -1,0 +1,85 @@
+{
+  "id": "fleetify",
+  "name": "Fleetify",
+  "url": "https://fleetify.dev/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "Open-source desktop command center to run Claude Code, Codex, Antigravity, OpenCode and other coding agents in parallel, each in its own Git worktree, with cost and session controls.",
+  "description": "Open-source desktop command center to run Claude Code, Codex, Antigravity, OpenCode and other coding agents in parallel, each in its own Git worktree, with cost and session controls.",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "coding-agents",
+    "orchestration",
+    "open-source",
+    "git-worktree",
+    "developer-tools",
+    "claude-code"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "Free 0 €, open source under Apache-2.0, with a free account. Pro and Team are announced as coming soon, with no public list price — none is listed.",
+    "model": "free",
+    "label": "Free"
+  },
+  "logo": "/logos/fleetify.png",
+  "image": "/screenshots/fleetify.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "Run Claude Code, Codex, Antigravity, OpenCode and other coding agents in parallel, each in its own Git worktree, with cost and session controls",
+    "Open source under Apache-2.0, with a free account at 0 €",
+    "Pro and Team are announced as coming soon, with no public list price — none is listed"
+  ],
+  "howToUse": [
+    {
+      "title": "Open fleetify.dev, create a free account and download the desktop app.",
+      "description": "Open fleetify.dev, create a free account and download the desktop app.",
+      "links": [
+        {
+          "label": "Fleetify",
+          "url": "https://fleetify.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Add coding agents and run them in parallel, each in its own Git worktree.",
+      "description": "Add coding agents and run them in parallel, each in its own Git worktree."
+    },
+    {
+      "title": "Stay on the free plan; Pro and Team have no public list price yet.",
+      "description": "Stay on the free plan; Pro and Team have no public list price yet."
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/products/fleetify"
+  ],
+  "summary_fr": "Centre de commande desktop open source pour faire tourner Claude Code, Codex, Antigravity, OpenCode et d’autres agents de code en parallèle, chacun dans son propre worktree Git, avec suivi des coûts et des sessions.",
+  "description_fr": "Centre de commande desktop open source pour faire tourner Claude Code, Codex, Antigravity, OpenCode et d’autres agents de code en parallèle, chacun dans son propre worktree Git, avec suivi des coûts et des sessions.",
+  "features_fr": [
+    "Fais tourner Claude Code, Codex, Antigravity, OpenCode et d’autres agents de code en parallèle, chacun dans son propre worktree Git, avec suivi des coûts et des sessions",
+    "Open source sous Apache-2.0, avec un compte gratuit à 0 €",
+    "Pro et Team sont annoncés comme « bientôt disponibles », sans prix de liste public — aucun montant n’est listé"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Ouvre fleetify.dev, crée un compte gratuit et télécharge l’app desktop.",
+      "description": "Ouvre fleetify.dev, crée un compte gratuit et télécharge l’app desktop.",
+      "links": [
+        {
+          "label": "Fleetify",
+          "url": "https://fleetify.dev/"
+        }
+      ]
+    },
+    {
+      "title": "Ajoute des agents de code et fais-les tourner en parallèle, chacun dans son propre...",
+      "description": "Ajoute des agents de code et fais-les tourner en parallèle, chacun dans son propre worktree Git."
+    },
+    {
+      "title": "Reste sur l’offre gratuite ; Pro et Team n’ont pas encore de prix de liste public.",
+      "description": "Reste sur l’offre gratuite ; Pro et Team n’ont pas encore de prix de liste public."
+    }
+  ]
+}

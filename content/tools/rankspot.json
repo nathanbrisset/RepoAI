@@ -1,0 +1,88 @@
+{
+  "id": "rankspot",
+  "name": "RankSpot",
+  "url": "https://www.rankspot.ai/",
+  "affiliateUrl": "",
+  "status": "active",
+  "summary": "SEO and AI-search execution layer for agents: connect its MCP to Claude or ChatGPT and the agent writes and publishes articles, tracks rankings and AI citations, and runs backlink outreach, paid per action.",
+  "description": "SEO and AI-search execution layer for agents: connect its MCP to Claude or ChatGPT and the agent writes and publishes articles, tracks rankings and AI citations, and runs backlink outreach, paid per action.",
+  "categories": [
+    "marketing"
+  ],
+  "tags": [
+    "seo",
+    "geo",
+    "ai-search",
+    "mcp",
+    "content",
+    "backlinks",
+    "pay-as-you-go"
+  ],
+  "pricing": {
+    "verified": true,
+    "details": "No subscription: pay per action. A 1 € welcome credit is given once — this is a one-time credit, not a lasting free plan, so the lot label is Premium. Top-ups start at 9 €. An article is 3 €. Finer per-action rates that would round to 0 € (including the official AI visibility check) are not listed here.",
+    "model": "paid",
+    "label": "Premium"
+  },
+  "logo": "/logos/rankspot.png",
+  "image": "/screenshots/rankspot.webp",
+  "dateAdded": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "features": [
+    "Connect the RankSpot MCP to Claude, ChatGPT or Cursor and let the agent write and publish articles, track rankings and AI citations, and run backlink outreach",
+    "No subscription: pay per action",
+    "A 1 € welcome credit is given once — this is a one-time credit, not a lasting free plan. Top-ups start at 9 €. An article is 3 €",
+    "Some per-action rates (for example AI visibility checks) would round to 0 € and are not listed"
+  ],
+  "howToUse": [
+    {
+      "title": "Create an account on rankspot.ai and connect the RankSpot MCP to Claude, ChatGPT or...",
+      "description": "Create an account on rankspot.ai and connect the RankSpot MCP to Claude, ChatGPT or Cursor.",
+      "links": [
+        {
+          "label": "RankSpot",
+          "url": "https://www.rankspot.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Try paid actions with the one-time 1 € welcome credit.",
+      "description": "Try paid actions with the one-time 1 € welcome credit."
+    },
+    {
+      "title": "Top up from 9 € and let the agent publish and track.",
+      "description": "Top up from 9 € and let the agent publish and track."
+    }
+  ],
+  "sources": [
+    "https://www.producthunt.com/products/rankspot"
+  ],
+  "summary_fr": "Couche d’exécution SEO et recherche IA pour agents : branche son MCP à Claude ou ChatGPT et l’agent rédige et publie des articles, suit positions et citations IA, et mène l’outreach de backlinks, payé à l’action.",
+  "description_fr": "Couche d’exécution SEO et recherche IA pour agents : branche son MCP à Claude ou ChatGPT et l’agent rédige et publie des articles, suit positions et citations IA, et mène l’outreach de backlinks, payé à l’action.",
+  "features_fr": [
+    "Branche le MCP RankSpot à Claude, ChatGPT ou Cursor et laisse l’agent rédiger et publier des articles, suivre positions et citations IA, et mener l’outreach de backlinks",
+    "Pas d’abonnement : paiement à l’action",
+    "Un crédit de bienvenue de 1 € est offert une seule fois — ce n’est pas une offre gratuite durable. Les recharges commencent à 9 €. Un article est à 3 €",
+    "Certains tarifs à l’action (par exemple les checks de visibilité IA) arrondiraient à 0 € et ne sont pas listés"
+  ],
+  "howToUse_fr": [
+    {
+      "title": "Crée un compte sur rankspot.ai et branche le MCP RankSpot à Claude, ChatGPT ou Cursor.",
+      "description": "Crée un compte sur rankspot.ai et branche le MCP RankSpot à Claude, ChatGPT ou Cursor.",
+      "links": [
+        {
+          "label": "RankSpot",
+          "url": "https://www.rankspot.ai/"
+        }
+      ]
+    },
+    {
+      "title": "Essaie des actions payantes avec le crédit de bienvenue de 1 €, une seule fois.",
+      "description": "Essaie des actions payantes avec le crédit de bienvenue de 1 €, une seule fois."
+    },
+    {
+      "title": "Recharge à partir de 9 € et laisse l’agent publier et suivre.",
+      "description": "Recharge à partir de 9 € et laisse l’agent publier et suivre."
+    }
+  ]
+}
