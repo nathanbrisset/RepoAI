@@ -19,7 +19,7 @@
     "verified": true,
     "model": "paid",
     "label": "Premium",
-    "note": "The official pricing page lists paid Outreach plans, with Growth at 43 €/month. No free plan was shown.",
+    "note": "The official pricing page lists paid Outreach plans, with Growth at $47/month. No $0 plan was shown.",
     "sourceUrl": "https://instantly.ai/pricing"
   },
   "logo": "/logos/instantly.png",
@@ -33,7 +33,7 @@
   "howToUse": [
     {
       "title": "Open Instantly",
-      "description": "Open Instantly and choose Get Started or Start For Free. Choose Get a Demo if you want a walkthrough.",
+      "description": "Open Instantly and choose Get Started or Start For Free. Choose Get a Demo if you want a walkthrough. The pricing page did not render during the check, so no price was recorded.",
       "links": [
         {
           "label": "Instantly",
@@ -57,13 +57,11 @@
   "features": [
     "Cold email outreach platform with a lead database, deliverability tools, AI agents and a CRM.",
     "Instantly runs cold email campaigns at scale with deliverability infrastructure such as inbox warm-up, plus a B2B lead database, email verification, website visitor identification, AI sales and reply agents, and a CRM.",
-    "Managed services are also offered.",
-    "The company also sells done-for-you outreach setup based on its own growth system."
+    "Managed services are also offered."
   ],
   "features_fr": [
     "Plateforme de diffusion d'e-mails froids avec une base de données de leads, des outils de délivrabilité, des agents IA et un CRM.",
-    "Exécut instantanément des campagnes d'e-mails froids à grande échelle avec une infrastructure de délivrabilité telle que l'échauffement de la boîte de réception, ainsi qu'une base de données de prospects B2B, la vérification des e-mails, l'identification des visiteurs du site Web, des agents de vente et de réponse IA et un CRM.",
-    "Des services gérés sont également proposés.",
-    "La société vend également des configurations de sensibilisation faites pour toi, basées sur son propre système de croissance."
+    "Exécute instantanément des campagnes d'e-mails froids à grande échelle avec une infrastructure de délivrabilité telle que l'échauffement de la boîte de réception, ainsi qu'une base de données de prospects B2B, la vérification des e-mails, l'identification des visiteurs du site Web, des agents de vente et de réponse IA et un CRM.",
+    "Des services gérés sont également proposés."
   ]
 }
