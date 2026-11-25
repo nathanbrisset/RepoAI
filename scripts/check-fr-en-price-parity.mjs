@@ -5,47 +5,46 @@
 import fs from "fs"
 import path from "path"
 import { fileURLToPath } from "url"
-import { amountKey } from "./lib/contenu-pricing-csv.mjs"
+import { amountKey, normalizeAmounts } from "./lib/contenu-pricing-csv.mjs"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
+const allowPath = path.join(root, "scripts/prebuild/fr-en-price-parity-amount-allow.json")
 
-const AMOUNT_RE =
-  /(?:^|[^\d])(\d{1,4}(?:[.,]\d{1,2})?)\s*(?:€|EUR\b|\$|USD\b)/giu
+/** `${slug}:${amount}` → reason (top-up packs only; prefer empty once FR note is complete). */
+const DEFAULT_AMOUNT_ALLOW = {}
+
+function loadAmountAllow() {
+  if (!fs.existsSync(allowPath)) return { expires: "2026-12-15", amounts: { ...DEFAULT_AMOUNT_ALLOW } }
+  const data = JSON.parse(fs.readFileSync(allowPath, "utf8"))
+  return {
+    expires: data.expires || "2026-12-15",
+    amounts: { ...DEFAULT_AMOUNT_ALLOW, ...(data.amounts || {}) },
+  }
+}
 
 function listedActive(tool) {
   const excluded = new Set(["duplicate-of", "sunset", "renamed", "inactive"])
   return tool.status === "active" && !excluded.has(tool.status)
 }
 
-function extractAmounts(text) {
-  if (!text || typeof text !== "string") return []
-  const out = []
-  let m
-  const re = new RegExp(AMOUNT_RE.source, AMOUNT_RE.flags)
-  while ((m = re.exec(text)) !== null) {
-    const raw = m[1].replace(",", ".")
-    const n = Number.parseFloat(raw)
-    if (!Number.isNaN(n)) out.push(n)
-  }
-  return out
+function amountsStrictParity(enAmounts, frAmounts, slug, allow) {
+  if (amountsCompatible(enAmounts, frAmounts)) return true
+  const en = [...new Set(enAmounts)]
+  const fr = [...new Set(frAmounts)]
+  const extraEn = en.filter((n) => !fr.some((r) => Math.abs(r - n) < 0.02))
+  const extraFr = fr.filter((n) => !en.some((l) => Math.abs(l - n) < 0.02))
+  const allowed = allow.amounts || {}
+  const ok = (n) => Boolean(allowed[`${slug}:${n}`])
+  if (extraFr.length === 0 && extraEn.length > 0 && extraEn.every(ok)) return true
+  if (extraEn.length === 0 && extraFr.length > 0 && extraFr.every(ok)) return true
+  return false
 }
 
 function amountsCompatible(enAmounts, frAmounts) {
   const en = [...new Set(enAmounts)].sort((a, b) => a - b)
   let fr = [...new Set(frAmounts)].sort((a, b) => a - b)
-  if (!en.includes(0) && fr.includes(0)) {
-    fr = fr.filter((n) => n !== 0)
-  }
+  if (!en.includes(0) && fr.includes(0)) fr = fr.filter((n) => n !== 0)
   return amountKey(en) === amountKey(fr)
-}
-
-/** Every amount in `ref` (note / FR summary) must appear in `details`; extras in details are allowed. */
-function refAmountsCoveredInDetails(detailsAmounts, refAmounts) {
-  if (!refAmounts.length) return true
-  if (!detailsAmounts.length) return false
-  const det = [...new Set(detailsAmounts)]
-  const ref = [...new Set(refAmounts)]
-  return ref.every((n) => det.some((d) => Math.abs(d - n) < 0.02))
 }
 
 export function pricingFieldPairs(tool, overlay) {
@@ -70,14 +69,16 @@ export function pricingFieldPairs(tool, overlay) {
   return pairs.filter((p) => typeof p.en === "string" && p.en.trim() && typeof p.fr === "string" && p.fr.trim())
 }
 
-function detailsVsNoteMismatch(tool) {
+function detailsVsNoteMismatch(tool, allow) {
   const note = tool.pricing?.note?.trim()
   const details = tool.pricing?.details?.trim()
   if (!note || !details) return null
-  const noteAmounts = extractAmounts(note)
-  const detailAmounts = extractAmounts(details)
-  if (!detailAmounts.length) return null
-  if (refAmountsCoveredInDetails(detailAmounts, noteAmounts)) return null
+  const noteAmounts = normalizeAmounts(note)
+  const detailAmounts = normalizeAmounts(details)
+  if (!detailAmounts.length && !noteAmounts.length) return null
+  if (amountsStrictParity(detailAmounts, noteAmounts, tool.id, allow)) {
+    return null
+  }
   return {
     id: tool.id,
     field: "pricing.details-vs-note",
@@ -88,6 +89,11 @@ function detailsVsNoteMismatch(tool) {
 
 export function scanFrEnPriceParity({ rootDir = root } = {}) {
   const frOverlay = JSON.parse(fs.readFileSync(path.join(rootDir, "content/i18n/fr-tools.json"), "utf8"))
+  const allow = loadAmountAllow()
+  const today = new Date().toISOString().slice(0, 10)
+  if (allow.expires && today > allow.expires) {
+    throw new Error(`fr-en-price-parity-amount-allow.json expired on ${allow.expires}`)
+  }
   const mismatches = []
 
   for (const file of fs.readdirSync(path.join(rootDir, "content/tools")).filter((n) => n.endsWith(".json"))) {
@@ -96,30 +102,26 @@ export function scanFrEnPriceParity({ rootDir = root } = {}) {
     if (tool.pricing?.uncertain === true) continue
 
     const overlay = frOverlay[tool.id]
-    const vsNote = detailsVsNoteMismatch(tool)
+    const vsNote = detailsVsNoteMismatch(tool, allow)
     if (vsNote) {
       mismatches.push(vsNote)
       continue
     }
     for (const { en, fr, label } of pricingFieldPairs(tool, overlay)) {
-      const enAmounts = extractAmounts(en)
-      const frAmounts = extractAmounts(fr)
+      const enAmounts = normalizeAmounts(en)
+      const frAmounts = normalizeAmounts(fr)
       if (enAmounts.length === 0 && frAmounts.length === 0) continue
       if (enAmounts.length === 0 || frAmounts.length === 0) continue
       if (amountsCompatible(enAmounts, frAmounts)) continue
-      if (
-        label === "pricing.details" &&
-        refAmountsCoveredInDetails(enAmounts, frAmounts)
-      ) {
-        continue
+      if (!amountsStrictParity(enAmounts, frAmounts, tool.id, allow)) {
+        mismatches.push({
+          id: tool.id,
+          field: label,
+          enAmounts: [...new Set(enAmounts)].sort((a, b) => a - b),
+          frAmounts: [...new Set(frAmounts)].sort((a, b) => a - b),
+        })
+        break
       }
-      mismatches.push({
-        id: tool.id,
-        field: label,
-        enAmounts: [...new Set(enAmounts)].sort((a, b) => a - b),
-        frAmounts: [...new Set(frAmounts)].sort((a, b) => a - b),
-      })
-      break
     }
 
     const descEn = tool.description?.trim() || ""
@@ -130,8 +132,8 @@ export function scanFrEnPriceParity({ rootDir = root } = {}) {
       overlay?.summary_fr?.trim() ||
       ""
     if (descEn && descFr) {
-      const enAmounts = extractAmounts(descEn)
-      const frAmounts = extractAmounts(descFr)
+      const enAmounts = normalizeAmounts(descEn)
+      const frAmounts = normalizeAmounts(descFr)
       if (enAmounts.length && frAmounts.length && !amountsCompatible(enAmounts, frAmounts)) {
         if (!mismatches.some((m) => m.id === tool.id && m.field === "description")) {
           mismatches.push({

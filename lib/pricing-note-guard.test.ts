@@ -38,13 +38,19 @@ describe("pricing-note-guard runtime", () => {
   })
 
   it("renders all CSV FR pricing notes (no wrong_language)", async () => {
-    const { contenuCsvRows } = await import("../scripts/lib/contenu-pricing-csv.mjs")
+    const { contenuCsvRows, contenuFrNoteBySlug } = await import(
+      "../scripts/lib/contenu-pricing-csv.mjs"
+    )
+    const notesBySlug = contenuFrNoteBySlug()
+    const rows = contenuCsvRows().filter((row) => row.slug?.trim())
+    assert.equal(rows.length, 153, "CSV row count")
     const offenders: string[] = []
-    for (const row of contenuCsvRows()) {
-      const note = row.pricingNote_fr?.trim()
+    for (const row of rows) {
+      const slug = row.slug.trim()
+      const note = notesBySlug.get(slug)?.trim() || row.pricing_note_fr_corrigee?.trim() || ""
       if (!note) continue
       if (uncleanReasons(note, "fr").includes("wrong_language")) {
-        offenders.push(row.slug)
+        offenders.push(slug)
       }
     }
     assert.equal(offenders.length, 0, offenders.join(", "))

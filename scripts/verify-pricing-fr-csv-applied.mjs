@@ -12,6 +12,16 @@ import { localizeGroupCText } from "./apply-pricing-group-c-ecb.mjs"
 
 const GROUP_C = new Set(["cartesia", "kagi", "khanmigo", "typecast", "zed"])
 
+/** Documented CSV↔JSON deviations (expected diff count must match length when check passes). */
+const DOCUMENTED_EXCEPTIONS = [
+  {
+    slug: "async",
+    field: "pricingNote_fr",
+    reason:
+      "PM decision 25/11 — FR note leads with Pro 39,99/287,90 and Teams 84,99/599,90 plus top-up packs; CSV row still has legacy Pro 23,99 / équipes 49,99 wording.",
+  },
+]
+
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const csvPath = path.join(root, "data/imports/pricing-fr-2026-11-25.csv")
 const toolsDir = path.join(root, "content", "tools")
@@ -123,9 +133,22 @@ function main() {
     }
   }
 
-  console.log(`CSV↔JSON diff: ${diffs.length} difference(s) on ${rows.length} rows`)
+  const isDocumented = (d) =>
+    DOCUMENTED_EXCEPTIONS.some((ex) => ex.slug === d.slug && ex.field === d.field)
+  const undocumented = diffs.filter((d) => !isDocumented(d))
+  const documented = diffs.filter((d) => isDocumented(d))
+
+  console.log(
+    `CSV↔JSON diff: ${diffs.length} total (${documented.length} documented, ${undocumented.length} unexpected) on ${rows.length} rows`,
+  )
+  for (const ex of DOCUMENTED_EXCEPTIONS) {
+    console.log(`  [documented] ${ex.slug}\t${ex.field}\t${ex.reason}`)
+  }
   for (const d of diffs.slice(0, 50)) {
-    console.log(`  ${d.slug}\t${d.field}\texpected: ${JSON.stringify(d.expected)}\tactual: ${JSON.stringify(d.actual)}`)
+    const tag = isDocumented(d) ? "[documented]" : "[unexpected]"
+    console.log(
+      `  ${tag} ${d.slug}\t${d.field}\texpected: ${JSON.stringify(d.expected)}\tactual: ${JSON.stringify(d.actual)}`,
+    )
   }
   if (diffs.length > 50) console.log(`  ... and ${diffs.length - 50} more`)
 
@@ -133,16 +156,29 @@ function main() {
   const lines = [
     `pricing-fr CSV verify @ ${new Date().toISOString()}`,
     `rows: ${rows.length}`,
-    `diffs: ${diffs.length}`,
+    `diffs: ${diffs.length} (expected documented: ${DOCUMENTED_EXCEPTIONS.length}, unexpected: ${undocumented.length})`,
     "",
-    ...diffs.map(
-      (d) => `${d.slug}\t${d.field}\t${JSON.stringify(d.expected)}\t${JSON.stringify(d.actual)}`,
-    ),
+    "documented_exceptions:",
+    ...DOCUMENTED_EXCEPTIONS.map((ex) => `  ${ex.slug}\t${ex.field}\t${ex.reason}`),
+    "",
+    "diffs:",
+    ...diffs.map((d) => {
+      const tag = isDocumented(d) ? "documented" : "unexpected"
+      return `${tag}\t${d.slug}\t${d.field}\t${JSON.stringify(d.expected)}\t${JSON.stringify(d.actual)}`
+    }),
   ]
   fs.writeFileSync(outPath, lines.join("\n") + "\n")
   console.log(`Wrote ${outPath}`)
 
-  if (check && diffs.length) process.exit(1)
+  if (check) {
+    if (documented.length !== DOCUMENTED_EXCEPTIONS.length) {
+      console.error(
+        `\nExpected ${DOCUMENTED_EXCEPTIONS.length} documented diff(s); got ${documented.length}.`,
+      )
+      process.exit(1)
+    }
+    if (undocumented.length) process.exit(1)
+  }
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {

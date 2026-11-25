@@ -98,6 +98,7 @@ export function polishCsvNote(text, slug) {
   s = s.replace(/\s*;\s*le montant annuel n['’]est pas repris ici\.?/giu, ".")
   s = s.replace(/\s*;\s*the yearly amount is not restated here\.?/giu, ".")
   s = s.replace(/\s*;\s*le montant annuel n['’]est pas repris ici\.?/giu, ".")
+  s = s.replace(/proposée\s+\./gu, "proposée.")
   return s
 }
 

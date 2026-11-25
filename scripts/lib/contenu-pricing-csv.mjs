@@ -7,7 +7,16 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..")
 const csvPath = path.join(root, "data/imports/pricing-fr-2026-11-25.csv")
 
 const AMOUNT_RE =
-  /(?:^|[^\d])(\d{1,4}(?:[ \u00a0]\d{3})*(?:[.,]\d{1,2})?)\s*€/giu
+  /(?:^|[^\d])(\d{1,3}(?:,\d{3})+(?:\.\d{1,2})?|\d{1,4}(?:[ \u00a0]\d{3})*(?:[.,]\d{1,2})?)\s*€/giu
+
+export function parseEuroAmountToken(raw) {
+  let s = String(raw).replace(/[ \u00a0]/g, "")
+  if (/^\d{1,3}(?:,\d{3})+(?:\.\d{1,2})?$/.test(s)) s = s.replace(/,/g, "")
+  else if (/^\d+,\d{2}$/.test(s)) s = s.replace(",", ".")
+  else s = s.replace(",", ".")
+  const n = Number.parseFloat(s)
+  return Number.isNaN(n) ? null : n
+}
 
 function parseCsv(text) {
   const rows = []
@@ -71,9 +80,8 @@ export function normalizeAmounts(text) {
   let m
   const re = new RegExp(AMOUNT_RE.source, AMOUNT_RE.flags)
   while ((m = re.exec(text)) !== null) {
-    const raw = m[1].replace(/[ \u00a0]/g, "").replace(",", ".")
-    const n = Number.parseFloat(raw)
-    if (!Number.isNaN(n)) out.push(n)
+    const n = parseEuroAmountToken(m[1])
+    if (n != null) out.push(n)
   }
   return [...new Set(out)].sort((a, b) => a - b)
 }

@@ -1,4 +1,9 @@
-pricing-fr CSV verify @ 2026-11-25T13:06:07.382Z
+pricing-fr CSV verify @ 2026-11-25T13:24:30.716Z
 rows: 153
-diffs: 0
+diffs: 1 (expected documented: 1, unexpected: 0)
 
+documented_exceptions:
+  async	pricingNote_fr	PM decision 25/11 — FR note leads with Pro 39,99/287,90 and Teams 84,99/599,90 plus top-up packs; CSV row still has legacy Pro 23,99 / équipes 49,99 wording.
+
+diffs:
+documented	async	pricingNote_fr	"Gratuit (Basic) 0 €/mois — 10 crédits IA à vie, 1 heure de médias vers le chat I"	"Pro : 39,99 €/mois ou 287,90 €/an (soit 23,99 €/mois) ; Teams : 84,99 €/mois ou "
