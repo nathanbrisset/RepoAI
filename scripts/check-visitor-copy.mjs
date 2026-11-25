@@ -56,6 +56,28 @@ export const VISITOR_COPY_RULES = [
   { id: "verified-on-official", pattern: /verified on official/i, scope: "internal" },
   { id: "in-lot-meta", pattern: /\bin lot\b/i, scope: "internal" },
   { id: "pas-affiche-meta", pattern: /donc non affiché|n['’]est pas affiché/i, scope: "internal" },
+  {
+    id: "were-isolated-en",
+    pattern: /\bwere\s+isolated\b|\bwas\s+not\s+isolated\b|\bwere\s+not\s+isolated\b/i,
+    scope: "internal",
+  },
+  {
+    id: "are-not-listed-en",
+    pattern:
+      /\band\s+is\s+not\s+listed\b|\bis\s+not\s+listed\s+here\b|\bwere\s+isolated\s+and\s+are\s+not\s+listed\b/i,
+    scope: "internal",
+  },
+  {
+    id: "isole-editorial-fr",
+    pattern:
+      /(?:n['’]|n)['’]?a\s+pas\s+été\s+isolé|(?:n['’]|n)['’]?ont\s+pas\s+été\s+isolé|pas\s+été\s+isolé(?:e)?\s+comme|n['’]?a\s+pas\s+été\s+isolée/i,
+    scope: "internal",
+  },
+  {
+    id: "ne-sont-pas-listes-fr",
+    pattern: /(?:n['’]|n)['’]?est\s+pas\s+listé|ne\s+sont\s+pas\s+listés?|n['’]?est\s+pas\s+listée/i,
+    scope: "internal",
+  },
 ]
 
 const PRICING_NOTE_FIELDS = new Set([

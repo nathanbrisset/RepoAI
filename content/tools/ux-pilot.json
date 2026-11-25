@@ -19,7 +19,7 @@
   "pricing": {
     "verified": true,
     "sourceUrl": "https://uxpilot.ai/plans",
-    "details": "Official structured prices from the Product/Offer JSON-LD on uxpilot.ai/plans only. Free Plan 0 € — 80 daily credits, one project, access to core design tools. Pro Plan 20 €/month — 750 monthly credits, unlimited projects, Website Cloner, credit top-ups. Teams Plan 28 € per user / month — per-user pricing, shared credits, collaboration features. Enterprise is custom. Other amounts that appear in comparison content on the same page were not used. A distinct yearly list price was not present in the official structured offers and is not listed.",
+    "details": "Structured prices from uxpilot.ai/plans only. Free plan 0 € — 80 daily credits, one project, access to core design tools. Pro 20 €/month — 750 monthly credits, unlimited projects, Website Cloner, credit top-ups. Teams 28 € per user / month — per-user pricing, shared credits, collaboration features. Enterprise is custom. Comparison amounts elsewhere on the page are omitted. No separate yearly list price appears in the structured offers on /plans.",
     "model": "freemium",
     "label": "Freemium"
   },
@@ -31,7 +31,7 @@
     "AI UX and UI design platform for wireframes, high-fidelity screens, design reviews and predictive heatmaps",
     "A lasting Free plan with 80 daily credits and one project",
     "Pro adds 750 monthly credits, unlimited projects, Website Cloner and credit top-ups; Teams is billed per user",
-    "Only the official structured prices on /plans are listed; other amounts in comparison content were not used"
+    "Only the structured prices on uxpilot.ai/plans are shown here; comparison amounts on the same page are omitted"
   ],
   "howToUse": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "title": "Upgrade to Pro at 20 €/month, or Teams at 28 € per user / month, if you need more credits...",
-      "description": "Upgrade to Pro at 20 €/month, or Teams at 28 € per user / month, if you need more credits and unlimited projects. Only the official structured prices are listed here."
+      "description": "Upgrade to Pro at 20 €/month, or Teams at 28 € per user / month, if you need more credits and unlimited projects. See uxpilot.ai/plans for the structured prices used here."
     }
   ],
   "hqCountry": "US",
@@ -62,14 +62,14 @@
   "description_fr": "Plateforme IA de design UX/UI pour wireframes, maquettes haute fidélité, revues de design et heatmaps prédictives, avec une offre de départ gratuite.",
   "features_fr": [
     "Plateforme IA de design UX/UI pour wireframes, maquettes haute fidélité, revues de design et heatmaps prédictives",
-    "Une offre Free durable, avec 80 crédits par jour et un projet",
+    "Une offre gratuite durable, avec 80 crédits par jour et un projet",
     "Pro ajoute 750 crédits mensuels, des projets illimités, Website Cloner et des recharges ; Teams est facturé par utilisateur",
-    "Seuls les prix officiels structurés de /plans sont listés ; les autres montants du contenu de comparaison n’ont pas été utilisés"
+    "Seuls les prix structurés de uxpilot.ai/plans sont indiqués ici ; les montants de comparaison sur la même page sont omis"
   ],
   "howToUse_fr": [
     {
       "title": "Ouvre uxpilot.ai/plans et commence sur l’offre Free à 0 €...",
-      "description": "Ouvre uxpilot.ai/plans et commence sur l’offre Free à 0 € (80 crédits par jour, un projet).",
+      "description": "Ouvre uxpilot.ai/plans et commence sur l’offre gratuite à 0 € (80 crédits par jour, un projet).",
       "links": [
         {
           "label": "UX Pilot",
@@ -83,7 +83,7 @@
     },
     {
       "title": "Passe à Pro à 20 €/mois, ou à Teams à 28 € par utilisateur / mois, si tu as besoin de...",
-      "description": "Passe à Pro à 20 €/mois, ou à Teams à 28 € par utilisateur / mois, si tu as besoin de plus de crédits et de projets illimités. Seuls les prix officiels structurés sont listés ici."
+      "description": "Passe à Pro à 20 €/mois, ou à Teams à 28 € par utilisateur / mois, si tu as besoin de plus de crédits et de projets illimités. Consulte uxpilot.ai/plans pour les tarifs structurés utilisés ici."
     }
   ]
 }
